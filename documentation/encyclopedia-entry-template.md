@@ -1,6 +1,6 @@
 <!--
 ---
-Subject:
+Subjects:
   - "a subject name"
   - "a second subject name"
   - "an nth subject name"
