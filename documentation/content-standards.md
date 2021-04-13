@@ -11,7 +11,7 @@ Codepedia content will fall into two categories:
 Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
   - For an example of a competitor's implementation, you can check out [this entry on W3Schools about the abs() function in Python](https://www.w3schools.com/python/ref_func_abs.asp).
 
-## Components of an Entry
+### Components of an Entry
 
 All Codepedia entries are in Markdown files and should consist of two parts:
 
@@ -30,32 +30,37 @@ We'll describe the standards for the content and the metadata separately.
 - All in-line code should be delineated by single backticks (`)
 
 #### Code Blocks
-- Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
-- All code blocks should be delineated by triple backticks (```)
-  - C#: ```cs
-  - CSS: ```css
-  - Error: ```error
-  - Emojicode: ```emojic
-  - HTML: ```html
-  - Java: ```java
-  - JavaScript: ```js
-  - PHP: ```php
-  - Pseudo: ```pseudo
-  - Python: ```py
-  - R: ```r
-  - Ruby: ```rb
-  - Sass: ```scss
-  - Shell/Program Output: ```
-  - SQL: ```sql
+Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+All code blocks should be delineated by triple backticks (```)
+- C#: ```cs
+- CSS: ```css
+- Error: ```error
+- Emojicode: ```emojic
+- HTML: ```html
+- Java: ```java
+- JavaScript: ```js
+- PHP: ```php
+- Pseudo: ```pseudo
+- Python: ```py
+- R: ```r
+- Ruby: ```rb
+- Sass: ```scss
+- Shell/Program Output: ```
+- SQL: ```sql
 
 #### Runnable Code Blocks
-- Codecademy has an upcoming feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
-  - Syntax: 
+Codecademy has an upcoming feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
+
+The syntax is simple:
 ```pseudo 
 <codebyte>
-runnable code example
+runnable code
 </codebyte>
 ```
+Currently, Codebytes is set to support the following languages:
+- Python
+- JavaScript
+- Go
 
 ### Editorial Standards for the Metadata 
 
