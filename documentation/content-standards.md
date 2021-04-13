@@ -1,6 +1,6 @@
 # Content Standards
 
-## Entry Types
+### Entry Types
 Codepedia content will fall into two categories:
 
 #### Encyclopedia Entries
@@ -72,7 +72,7 @@ Currently, Codebytes is set to support the following languages:
 
 
 
-## General writing tips:
+### General writing tips:
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible. 
 - Avoid using first- and second-person pronouns (e.g. I, we, you) if possible.
