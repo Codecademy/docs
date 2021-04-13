@@ -47,7 +47,7 @@ We'll describe the standards for the content and the metadata separately.
   - Shell/Program Output: ```
   - SQL: ```sql
 
-For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/Resources/markdown-style-guide/).
+For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
 
 General writing tips:
 
