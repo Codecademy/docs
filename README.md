@@ -20,4 +20,4 @@ Codepedia content will fall into two categories:
 - Glossary entries, or short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
 
 ## How can I contribute?
-Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation), starting with content-standards.md. There you'll find a write-up of our content standards, as well as templates for creating your entries. Next, put your name next to entries you want to create in our assignment sheet, create those entries, and submit a pull request!
+Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation), starting with content-standards.md. There you'll find a write-up of our standards, as well as templates for creating your entries. Next, put your name next to entries you want to create in our assignment sheet, create those entries, and submit a pull request!
