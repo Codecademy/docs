@@ -1,4 +1,11 @@
-# What is Codepedia?
+<div align="center">
+  <h1>Codepedia 📕</h1>
+  <strong>Documentation and glossary for popular programming languages.</strong><br>
+  <strong>Built by the community. Maintained by Codecademy.</strong>
+</div>
+<br>
+
+## What is Codepedia?
 Codepedia is intended to be a free, easily accessible reference for coding terms and concepts available to learners the world over. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codepedia entry as the first result, and have an answer in seconds.
 
 To make the Codepedia vision clearer, [we even created a demo site](https://codecademy.github.io/codepedia/)! The UI is liable to change a lot, but the basic principles are there. 
