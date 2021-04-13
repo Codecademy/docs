@@ -1,11 +1,14 @@
 <!--
 ---
-Subject: "subject name",
+Subject:
+  - "a subject name"
+  - "a second subject name"
+  - "an nth subject name"
 Tags: 
   - "a tag"
   - "a second tag"
   - "an nth tag"
-Catalog Content:
+Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/example1"
   - "https://www.codecademy.com/examplen"
 ---
