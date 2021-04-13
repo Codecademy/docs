@@ -1,35 +1,36 @@
-# Codepedia Style Guide
+# Content Standards
 
+## Entry Types
 Codepedia content will fall into two categories:
 
 #### Encyclopedia Entries
-
-1+ paragraph long explanations of a coding concept. Think of them like shorter Wikipedia pages.
-  - For example, check out the [What is a Loop?](https://codecademy.github.io/codepedia/entries/loops/) encyclopedia entry and the [Loops in JavaScript](https://codecademy.github.io/codepedia/entries/loops/JavaScript) encyclopedia entry on our demo site!
+1+ paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages.
+  - For an example, check out the [Functions encyclopedia entry on our demo site](https://codecademy.github.io/codepedia/entries/functions/)! 
 
 #### Glossary Entries
+Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
+  - For an example of a competitor's implementation, you can check out [this entry on W3Schools about the abs() function in Python](https://www.w3schools.com/python/ref_func_abs.asp).
 
-Short lists of key information about a specific function, keyword, tag, or other grouping. 
-  - For an example of what we're going for, check out this entry on W3Schools about the `abs()` function in Python.
-  - Notably, glossary entries will be grouped into glossaries, or tables of glossary entries on the same subject, rather than occupying pages of their own. 
-
-## Editorial Standards
+## Components of an Entry
 
 All Codepedia entries are in Markdown files and should consist of two parts:
 
 - **The content** itself, written in Markdown.
-- **The metadata** about the content, written in JSON, that appears at the top of the entry.
+- **The metadata** about the content, written in YAML, that appears at the top of the entry.
 
 We'll describe the standards for the content and the metadata separately.
 
-### Editorial Standards for Content 
+### Editorial Standards for the Content 
 
-- Encyclopedia entry titles should follow the format [Subject Name] in [Language Name] (Loops in Python).
-- All text should be written in Markdown.
+- All text should be written in Markdown
+  - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
 - The content should begin with a brief title of size H1 (i.e. preceded by "# ")
 - This title should not exceed 30 characters unless absolutely necessary
 - Each subsection should begin with a title of size H2 (i.e. preceded by "## ")
 - All in-line code should be delineated by single backticks (`)
+
+#### Code Blocks
+- Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 - All code blocks should be delineated by triple backticks (```)
   - C#: ```cs
   - CSS: ```css
@@ -47,13 +48,23 @@ We'll describe the standards for the content and the metadata separately.
   - Shell/Program Output: ```
   - SQL: ```sql
 
-For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
+#### Runnable Code Blocks
+- Codecademy has an upcoming feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
+  - Syntax: 
+```pseudo 
+<codebyte>
+runnable code example
+</codebyte>
+```
 
-General writing tips:
+### Editorial Standards for the Metadata 
+
+
+
+## General writing tips:
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible. 
 - Avoid using first- and second-person pronouns (e.g. I, we, you) if possible.
 - Brevity without sacrificing clarity. Make every word count.
 - If the concept is hard, make it easy. If it's dry, make it fun. If it's simple, keep it simple.
 - 90% of writing is rewriting.
-
