@@ -13,13 +13,8 @@ To make the Codepedia vision clearer, [we even created a demo site](https://code
 ## What stage of development are we in right now?
 Right now we're trying to create a baseline of great content. We have an engineering team work on improving the UI of Codepedia in Q2, after which we'll put the content and the UI together and release to the world!
 
-## Content Types
-Codepedia content will fall into two categories:
-- Encyclopedia entries, or 1+ paragraph long explanations of a coding concept. Think of them like short Wikipedia pages.
-  - For an example, check out the [Functions encyclopedia entry on our demo site](https://codecademy.github.io/codepedia/entries/functions/)! 
-- Glossary entries, or short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
 
 ## How can I contribute?
-Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation), starting with content-standards.md. There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, put your name next to entries you want to create in our assignment sheet, create those entries, and submit a pull request!
+Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, put your name next to entries you want to create in [our assignment sheet]https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0, create those entries, and submit a pull request!
 
 And remember, if you ever have any questions at all, we'll be there to help in #codepedia-production.
