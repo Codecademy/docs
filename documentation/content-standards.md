@@ -51,10 +51,10 @@ All code blocks should be delineated by triple backticks (```)
 #### Runnable Code Blocks
 Codecademy has an upcoming feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
 
-The syntax is simple:
-```pseudo 
+The syntax is simple. Here's an example for pseudocode:
+```pseudo
 <codebyte>
-```js
+```pseudo
 Code!
 \```
 </codebyte>
