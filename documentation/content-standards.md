@@ -71,7 +71,6 @@ Currently, Codebytes is set to support the following languages:
 | Catalog Content | URL(s) of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple URLs, please list the most relevant one first. | Catalog Content:<br /> - "https://www.codecademy.com/learn/introduction-to-javascript"<br /> - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path" |      
 
 
-
 ### General writing tips:
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible. 
@@ -79,3 +78,7 @@ Currently, Codebytes is set to support the following languages:
 - Brevity without sacrificing clarity. Make every word count.
 - If the concept is hard, make it easy. If it's dry, make it fun. If it's simple, keep it simple.
 - 90% of writing is rewriting.
+
+
+### I get how to make entries. Now what?
+Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then put your name next to entries you want to create in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0), create those entries, and submit a pull request!
