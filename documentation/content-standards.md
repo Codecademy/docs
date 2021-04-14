@@ -51,14 +51,9 @@ All code blocks should be delineated by triple backticks (```)
 #### Runnable Code Blocks
 Codecademy has an upcoming feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
 
-The syntax is simple. Here's an example for pseudocode:
-```pseudo
-<codebyte>
-```pseudo
-Code!
-\```
-</codebyte>
-```
+The syntax is simple. Here's an example for pseudocode:<br />
+<img src="https://github.com/Codecademy/codepedia-content/blob/main/media-file-hosting/codebytes-example-code-block.png" alt="Code block with Codebyte tags" width="450"/>
+
 Currently, Codebytes is set to support the following languages:
 - Python
 - JavaScript
