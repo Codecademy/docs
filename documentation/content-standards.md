@@ -57,7 +57,7 @@ The syntax is simple. Here's an example for pseudocode:<br />
 Currently, Codebytes is set to support the following languages:
 - Python
 - JavaScript
-- Go
+- Ruby
 
 ### Editorial Standards for the Metadata 
 
