@@ -54,7 +54,9 @@ Codecademy has an upcoming feature we're calling _Codebytes_ that will allow lea
 The syntax is simple:
 ```pseudo 
 <codebyte>
-runnable code
+```js
+Code!
+\```
 </codebyte>
 ```
 Currently, Codebytes is set to support the following languages:
