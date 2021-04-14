@@ -81,4 +81,4 @@ Currently, Codebytes is set to support the following languages:
 
 
 ### I've read all the content standards. Now what?
-Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then put your name next to entries you want to create in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0), create those entries, and submit a pull request!
+Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then check out which entries you're assigned in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0), create those entries, and submit a pull request!
