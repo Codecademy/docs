@@ -13,14 +13,19 @@ Short lists of key information about a specific function, keyword, tag, or other
 
 ### Components of an Entry
 
-All Codepedia entries are in Markdown files and should consist of two parts:
+All Codepedia entries are Markdown files and should consist of three parts:
 
-- **The content** itself, written in Markdown.
-- **The metadata** about the content, written in YAML, that appears at the top of the entry.
+- **The file name**
+- **The content**, written in Markdown.
+- **The metadata** about the content, written in YAML, which appears at the top of the entry.
 
-We'll describe the standards for the content and the metadata separately.
+We'll describe the standards for each of these components separately.
 
-### Editorial Standards for the Content 
+### Standards for the file name 
+
+The file name should be the title of the entry, in lowercase, with words replaced by dashes, followed by ``.md``. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry" should have the file name ``how-to-create-a-codepedia-entry.md``. 
+
+### Standards for the content 
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
@@ -65,7 +70,7 @@ Currently, Codebytes is set to support the following languages:
 - JavaScript
 - Ruby
 
-### Editorial Standards for the Metadata 
+### Standards for the metadata 
 
 | Variable Name   | Description | Example |
 |-----------------|-------------|---------|
