@@ -16,7 +16,7 @@ A code editor is a program designed for writing software. Developers writing cod
 
 Code editors have built-in knowledge of promgramming languages, which allow different elements of the code (ie. variables, keywords, functions, etc.) to appear in different colors making the code easier to analyze for developers. Code editors can compile and run code. In addition to being able to print a code's output, these programs can also identify where and why a particular line of code fails to execute.
 
-## Code Editor Programs
+## Code Editor Examples
 
 There are numerous code editors available such as:
 
