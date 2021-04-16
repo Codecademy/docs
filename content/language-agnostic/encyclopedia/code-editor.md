@@ -18,11 +18,11 @@ Code editors have built-in knowledge of programming languages, which allow diffe
 
 ## Notable Examples
 
-There are numerous code editors available such as:
+There are numerous code editors available, such as:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/)
 
-Which program to use is really up to the individual developer according to his or her tastes.
+Which program to use is really up to the individual developer according to their tastes!
