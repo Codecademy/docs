@@ -25,4 +25,4 @@ There are numerous code editors available, such as:
 - [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/)
 
-Which program to use is really up to the individual developer according to their tastes!
+Which code editor program to use is really up to the individual developer according to their tastes!
