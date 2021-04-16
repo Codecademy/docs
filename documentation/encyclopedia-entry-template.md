@@ -8,7 +8,7 @@ Tags: # Please first look to use tags that are already listed at author.codecade
   - "a tag"
   - "a second tag"
   - "an nth tag"
-Catalog Content:  # Please use course/path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first 
+Catalog Content: # Please use course/path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/example1"
   - "https://www.codecademy.com/examplen"
 ---
