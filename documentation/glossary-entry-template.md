@@ -1,14 +1,14 @@
 <!--
 ---
-Subjects:
+Subjects: # Please first look to use Subjects that are already listed at author.codecademy.com/browse/categories
   - "a subject name"
   - "a second subject name"
   - "an nth subject name"
-Tags: 
+Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
   - "a tag"
   - "a second tag"
   - "an nth tag"
-Catalog Content: # If listing multiple URLs, please put the most relevant one first 
+Catalog Content: # Please use course/path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/example1"
   - "https://www.codecademy.com/examplen"
 ---
