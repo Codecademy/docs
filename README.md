@@ -20,4 +20,4 @@ Before contributing, please read through the files in [/documentation](https://g
 ## Additional Notes
 - Please prioritize all course and skill path work over Codepedia. Codepedia is a great way to fit in extra hours, but only when you don’t have higher priority work to do!
 - Please use the ’Codepedia” Boomr Project for time spent on this content.
-- Remember, if you ever have any questions at all, we'll be there to help in #codepedia-production.
+- Remember, if you ever have any questions at all, we're there to help in #codepedia-production.
