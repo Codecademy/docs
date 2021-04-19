@@ -17,4 +17,6 @@ Right now we're trying to create a baseline of great content. We have an enginee
 ## How can I contribute?
 Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0), put your name next to one, create it, and submit a pull request!
 
+Please use the ’Codepedia” Boomr Project for time spent on this content.
+
 And remember, if you ever have any questions at all, we'll be there to help in #codepedia-production.
