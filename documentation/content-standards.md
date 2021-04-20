@@ -93,4 +93,4 @@ If you'd like to include an image, video, gif, or other file in your entry, plea
 ### I've read all the content standards. Now what?
 Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then put your name next to an entry in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and submit your entry via a pull request! 
 
-For more info on how to make a pull request, refer to the [*How do I contribute?*](https://github.com/Codecademy/codepedia-content#how-do-i-contribute) section of the README. 
+For a refresher on how to make a pull request, refer to the [*How do I contribute?*](https://github.com/Codecademy/codepedia-content#how-do-i-contribute) section of the README. 
