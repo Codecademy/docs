@@ -1,5 +1,6 @@
 <!--
 ---
+Title: "The Title" # Note: the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Subjects: # Please first look to use Subjects that are already listed at author.codecademy.com/browse/categories
   - "a subject name"
   - "a second subject name"
@@ -13,9 +14,6 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
   - "https://www.codecademy.com/examplen"
 ---
 -->
-
-# [Title] (30 characters or fewer unless absolutely necessary)
-
 ## Definition 
 [A brief definition of the topic. Should be 160 characters or fewer, including spaces, unless absolutely necessary.]
 
