@@ -14,7 +14,6 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
   - "https://www.codecademy.com/examplen"
 ---
 -->
-
 [Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
 
 ## Subsection 1
