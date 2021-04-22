@@ -23,15 +23,13 @@ We'll describe the standards for each of these components separately.
 
 ### Standards for the file name 
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes, followed by ``.md``. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry" should have the file name ``how-to-create-a-codepedia-entry.md``. 
+The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by ``.md``. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry?" should have the file name ``how-to-create-a-codepedia-entry.md``. 
 
 ### Standards for the content 
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- The content should begin with a brief title of size H1 (i.e. preceded by "# ")
-- This title should not exceed 30 characters unless absolutely necessary
-- Each subsection should begin with a title of size H2 (i.e. preceded by "## ")
+- Each subsection should begin with a heading of size H2 (i.e. preceded by "## ")
 - All in-line code should be delineated by single backticks (`)
 
 #### Code Blocks
