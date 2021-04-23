@@ -1,7 +1,7 @@
 <!--
 ---
 Subjects:
-  - "What is inheritance?"
+  - "What is Inheritance?"
 Tags: 
   - "language-agnostic"
   - "inheritance"
@@ -13,18 +13,18 @@ Catalog Content:  # If listing multiple URLs, please put the most relevant one f
 ---
 -->
 
-# What is inheritance?
+# What is Inheritance?
 
 Inheritance is one of the most important principles of object-oriented programming (OOP). It allows for one class (child class) to inherit the fields and methods of another class (parent class). Inheritance is considered one of the four pillars of OOP, along with abstraction, and encapsulation, and polymorphism.
 
-## Example with Java
+## Example
 ```java
-// Parent Class
+  // Parent Class
 class Machine {
-	// Machine class member
+  // Machine class member
 }
 
-// Child Class
+  // Child Class
 class Car extends Machine {
   // Car inherits traits from Machine
 
