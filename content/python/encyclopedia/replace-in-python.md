@@ -90,6 +90,3 @@ print(mySentence)
 # prints "My cat bites me."
 ```
 `</codebyte>`
-
-
-Make sure you have code that actually runs
