@@ -13,9 +13,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
 -->
-
-# Comments in Swift
-
 Comments in Swift represent text that is useful to the programmer or developement team. Think of them as notes or reminders to yourself of important concepts or ideas that need a little explaining above the syntax of the raw code. In Swift there are two kinds of comments: single-line comments and multi-line comments. These comments will be completely ignored by the compiler at compile-time. Famous software engineer Martin Fowler once wrote, "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 
 ## Single-Line Comments
