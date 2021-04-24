@@ -62,7 +62,7 @@ The replace() method can be used to remove sections of a String entirely:
 `<codebyte>`
 ```Python
 myString = "I am a sentence with an extra elephant word."
-newString = myString.replace("elephant", "")
+newString = myString.replace("elephant ", "")
 print(newString)
 ```
 `</codebyte>`
