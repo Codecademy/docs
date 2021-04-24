@@ -15,7 +15,7 @@ Use the built in replace() method in Python to modify Strings.
 
 ## Syntax
 
-String.replace("thing_to_remove", "thing_to_add", count)
+`String.replace("thing_to_remove", "thing_to_add", count)`
 
 replace() can be called either directy on a String, or on a variable assigned to a String:
 
@@ -59,35 +59,37 @@ print(var)
 
 The replace() method can be used to remove sections of a String entirely:
 
-<codebyte>
+`<codebyte>`
 ```Python
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant", "")
 print(newString)
 ```
-</codebyte>
+`</codebyte>`
   
 It can also be called multiple times on the same String:
 
-<codebyte>
+`<codebyte>`
 ```Python
 myString = "I am a sentence with an extra elephant word."
-newString = myString.replace("elephant", "").replace("with", "without")
+newString = myString.replace("elephant ", "").replace("with", "without")
 print(newString)
 # prints "I am a sentence without an extra word."
 ```
-</codebyte>
+`</codebyte>`
 
 If there are many words that need to be removed, consider using a for-loop
 
-<codebyte>
+`<codebyte>`
 ```Python
-wordsToReplace = ["rocks!", "He", "never", "and", "loves"]
+wordsToReplace = ["rocks! ", "He ", "never ", "and ", "loves "]
 mySentence = "My cat rocks! He never bites and loves me."
+for word in wordsToReplace:
+  mySentence = mySentence.replace(word, "")
 print(mySentence)
 # prints "My cat bites me."
 ```
-</codebyte>
+`</codebyte>`
 
 
 Make sure you have code that actually runs
