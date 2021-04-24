@@ -1,13 +1,13 @@
 <!--
 ---
-Subjects: # Please first look to use Subjects that are already listed at author.codecademy.com/browse/categories
+Subjects:
   - "Swift"
   - "iOS"
-Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
+Tags:
   - "Comment"
   - "Swift"
   - "Style"
-Catalog Content: # Please use course/path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first 
+Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
