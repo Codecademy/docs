@@ -78,7 +78,7 @@ print(newString)
 ```
 `</codebyte>`
 
-If there are many words that need to be removed, consider using a for-loop
+If there are many words that need to be removed, consider using a for-loop:
 
 `<codebyte>`
 ```Python
