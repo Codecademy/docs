@@ -74,7 +74,6 @@ It can also be called multiple times on the same String:
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant ", "").replace("with", "without")
 print(newString)
-# prints "I am a sentence without an extra word."
 ```
 `</codebyte>`
 
@@ -87,6 +86,5 @@ mySentence = "My cat rocks! He never bites and loves me."
 for word in wordsToReplace:
   mySentence = mySentence.replace(word, "")
 print(mySentence)
-# prints "My cat bites me."
 ```
 `</codebyte>`
