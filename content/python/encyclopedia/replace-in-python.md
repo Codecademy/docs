@@ -59,29 +59,35 @@ print(var)
 
 The replace() method can be used to remove sections of a String entirely:
 
+<codebyte>
 ```Python
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant", "")
 print(newString)
-# prints "I am a sentence with an extra word."
 ```
+</codebyte>
+  
 It can also be called multiple times on the same String:
 
+<codebyte>
 ```Python
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant", "").replace("with", "without")
 print(newString)
 # prints "I am a sentence without an extra word."
 ```
+</codebyte>
+
 If there are many words that need to be removed, consider using a for-loop
 
+<codebyte>
 ```Python
 wordsToReplace = ["rocks!", "He", "never", "and", "loves"]
 mySentence = "My cat rocks! He never bites and loves me."
 print(mySentence)
 # prints "My cat bites me."
 ```
-
+</codebyte>
 
 
 Make sure you have code that actually runs
