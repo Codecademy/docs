@@ -11,7 +11,7 @@ Catalog Content:
 ---
 -->
 
-Use the built in replace() method in Python to modify Strings.
+Use the built in replace() method in Python to modify strings.
 
 ## Syntax
 
