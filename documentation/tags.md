@@ -1,3 +1,5 @@
+### Feel free to add suggestions for new Tags to the list as part of your PR! Be sure to insert them alphabetically.
+
 accessibility  
 algorithms  
 alias  
