@@ -1,33 +1,33 @@
-Bash/Shell  
-Built By HubSpot  
-C#  
-C++  
-Code Foundations  
-Codecademy Specials  
-Computer Science  
-Cybersecurity  
-Data Science  
-Data Visualization  
-Developer Tools  
-Game Development  
-Go  
-HTML & CSS  
-Interview Prep  
-Java  
-JavaScript  
-Job Essentials  
-Kotlin  
-Language Fluency  
-Machine Learning  
-Mobile Development  
-PHP  
-Python  
-R  
-Ruby  
-SQL  
-Swift  
-Web Design  
-Web Development  
-Welcome Series  
-With Final Project  
-iOS  
+bash/shell  
+built by hubspot  
+c#  
+c++  
+code foundations  
+codecademy specials  
+computer science  
+cybersecurity  
+data science  
+data visualization  
+developer tools  
+game development  
+go  
+html & css  
+interview prep  
+ios  
+java  
+javascript  
+job essentials  
+kotlin  
+language fluency  
+machine learning  
+mobile development  
+php  
+python  
+r  
+ruby  
+sql  
+swift  
+web design  
+web development  
+welcome series  
+with final project  
