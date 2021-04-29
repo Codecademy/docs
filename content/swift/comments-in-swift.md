@@ -1,13 +1,13 @@
 <!--
 ---
-Title: Comments In Swift
+Title: "Comments In Swift"
 Subjects:
-  - "Swift"
-  - "iOS"
+  - "swift"
+  - "ios"
 Tags:
-  - "Comment"
-  - "Swift"
-  - "Style"
+  - "comment"
+  - "swift"
+  - "style"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"

@@ -1,14 +1,14 @@
 <!--
 ---
-Title: Basic Operators in Swift
-Subjects: # Please first look to use Subjects that are already listed at author.codecademy.com/browse/categories
-  - "Swift"
-  - "iOS"
-Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
-  - "Operators"
-  - "Swift"
-  - "Style"
-Catalog Content: # Please use course/path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first 
+Title: "Basic Operators in Swift"
+Subjects:
+  - "swift"
+  - "ios"
+Tags:
+  - "operators"
+  - "swift"
+  - "style"
+Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
@@ -16,27 +16,21 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 
 Operators are unique characters or phrases that Swift uses to manipulate and validate values. Swift was specifically designed to enhance the operators from several programming languages to create more capability with less code for the programmer. 
 
-## The Assignment Operator
+## Assignment Operator
 
-The assignment operator `=` in Swift is the same as in most other languages and serves the same purpose. It is used to initializae or reassign a variable to some value. In Swift however, the assignment does not return anything. For example, in Java we can write the following:
+The assignment operator `=` in Swift is the same as in most other languages and serves the same purpose. It is used to initializae or reassign a variable to some value. In Swift, unlike some other high level programming languages like C or Java, the assignment operator does not return any values.
 
-```java
-int a = 5;
-int b = (a = 6);
-System.out.println(b); // prints '6'
-```
-
-In Swift:
 ```swift
 var a = 5
-let b = (a = 6)
+// When we reference variable 'a', it returns the value int: 5.
+let z = (a = 6)
 // Compile warning that 'b' is of type '()' "
-// Prints '()'
+// Output: '()'
 ```
 
-Here, the `(a=6)` assignment returns `6`. Similar code in Swift results in `b` being assigned the type of `()` which will cause errors in your code.
+Here, the `z = (a=6)` assignment leaves `z` to equal `()` once the `a=6` is evaluated.
 
-## Standard Arithmetic Operators
+## Arithmetic Operators
 
 Swift contains the following operators that match their similar expressions in common math:
 
@@ -59,11 +53,12 @@ These operators are used to return `Bool` values for use in conditional statemen
 * `<` less than
 * `<=` less than or equal to
 
-The following code snippet shows a use cases of comparison operators in a `while loop` that will :
+The following code snippet shows a use cases of comparison operators in a `while` loop that will :
 
 ```swift
 var countUp = 0
 var countDown = 10
+
 while countUp < countDown {
   countUp = countUp + 1
   countDown = countDown - 1
@@ -81,7 +76,7 @@ Logical Operators are used to evaluate or modify the value of Beolean values and
 Logical NOT(`!`) operator appears directly before a Boolean value with no spaces. This operator inverts the value of the Boolean so that `true` becomes `false` and vice versa. 
 ```swift
 var earthIsFlat = false
-if !earthIsFlat { // Inverts earthIsFlat from 'false' to 'true'
+if !earthIsFlat {
   print("All our physics doesn't work!")
 }
 ```
@@ -107,16 +102,16 @@ if (iAmTrue && iAmFalse) {
 
 ## Range Operators
 
-Range operators provide quick and convenient ways of creating various ranges or iterating over elements in an object. The three primary types are Closed(`a...z`), Half-Open(`a..<z`), and One-Sided(`a...`), each providing different limits on the range. Swift does not allow for the creation on decrementing ranges, therefore the value of the first variable must not be greater than the value of the second.
+Range operators provide quick and convenient ways of creating various ranges or iterating over elements in an object. The three primary types are Closed ( `a...z` ), Half-Open (`a..<z`), and One-Sided (`a...`), each providing different limits on the range. Swift does not allow for the creation on decrementing ranges, therefore the value of the first variable must not be greater than the value of the second.
 
-The Closed Range operator(`a...z`) creates a range that begins at `a` and continues to and includes, `z`. The most common use case for Closed Range Operators is in `for-in` loops.
+The Closed Range operator (`a...z`) creates a range that begins at `a` and continues to and includes, `z`. The most common use case for Closed Range Operators is in `for-in` loops.
 
 ```swift
 let userAge = 32
 for year in 2...userAge {
   print("You turned \(year) years old!")
 }
-// prints:
+// Outputs:
 // "You turned 2 years old!"
 // "You turned 3 years old!"
 // ... all the way to and including
@@ -174,15 +169,17 @@ The nil-coalescing operator (`a ?? z`) unwraps an optional with the value of `a`
 ```swift
 let defaultPrice = 1.99
 var getItemPrice: Double?
-// Since getItemPrice isn't assigned a value it defaults to 'nil'
-// The price to charge the customer is either a price we get from an item
-// or the default price. In this case, priceToChargeCustomer = 1.99
+
 let priceToChargeCustomer = getItemPrice ?? defaultPrice
 ```
 
+Since getItemPrice isn't assigned a value it defaults to 'nil'. The price to charge the customer is either a price we get from an item or the default price. In this case, priceToChargeCustomer = 1.99
+
 ## Ternary Conditional Operator
 
-The ternary conditional operator is shorthand for a simple `if-else` statement. It follows the syntax `statementToTest ? doThisAndReturnIfTrue : doThisAndReturnIfFalse` which in terms of the `if-else` statement can be read as: `if` the statement is true, evaluate and return the value of the left side of the ternary, if it's false, evaluate and return the value of the right side.
+The ternary conditional operator is shorthand for a simple `if`-`else` statement. It follows the syntax `statementToTest ? doThisAndReturnIfTrue : doThisAndReturnIfFalse` which in terms of the `if`-`else` statement can be read as:
+- `if` the statement is true, evaluate and return the value of the left side of the ternary
+- `if` it's false, evaluate and return the value of the right side.
 
 ```swift
 let exoticBirdBingo = ["ostrich", "falcon", "peacock", "flamingo", "gold and blue macaw"]
