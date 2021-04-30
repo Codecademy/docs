@@ -4,6 +4,7 @@ Title: "Basic Operators in Swift"
 Subjects:
   - "swift"
   - "ios"
+  - "mobile development
 Tags:
   - "operators"
   - "swift"

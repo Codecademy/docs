@@ -4,6 +4,7 @@ Title: "Comments In Swift"
 Subjects:
   - "swift"
   - "ios"
+  - "mobile development"
 Tags:
   - "comment"
   - "swift"
