@@ -33,8 +33,6 @@ box plot
 browser compatibility  
 browsers  
 bubble sort  
-c  
-c++  
 chatbots  
 class  
 code foundations  
@@ -51,7 +49,6 @@ const
 control flow  
 cool  
 crud  
-csharp  
 csv  
 cybersecurity  
 d3  
@@ -115,7 +112,6 @@ headings
 heap  
 heroku  
 histograms  
-html & css  
 http  
 id  
 if/else  
@@ -125,8 +121,6 @@ input
 interface  
 ios  
 iterators  
-java  
-javascript  
 join  
 jquery  
 json  
@@ -179,7 +173,6 @@ package
 pandas  
 paragraph  
 phaser  
-php  
 physics  
 positioning  
 postgresql  
@@ -188,11 +181,9 @@ print
 probability  
 promise  
 properties  
-python  
 queries  
 queues  
 quicksort  
-r  
 rails  
 range  
 react  
@@ -207,10 +198,7 @@ regular expressions
 requests  
 responsive  
 rest parameter  
-ruby  
-rust  
 schema design  
-scala  
 scikit-learn  
 scope
 script  
@@ -228,7 +216,6 @@ span
 specificity  
 spread  
 spread syntax  
-sql  
 sqlite  
 stacks  
 statistics  
@@ -237,7 +224,6 @@ strings
 structure  
 style  
 summarizing categorical data  
-swift  
 swiftui  
 switch  
 symbol  
@@ -256,7 +242,6 @@ tuple
 type  
 type guard  
 type narrowing  
-typescript  
 typography  
 union  
 units  
