@@ -1,3 +1,5 @@
+# Tags
+
 #### Feel free to add suggestions for new Tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 accessibility  
@@ -5,7 +7,9 @@ algorithms
 alias  
 anchor  
 android  
+angular  
 animation  
+api  
 arrays  
 artificial intelligence  
 asp.net  
@@ -13,6 +17,8 @@ associations
 asymptotic notation  
 async await  
 attributes  
+azure  
+a-frame  
 bash/shell  
 beautiful soup  
 best practice  
@@ -27,7 +33,7 @@ box plot
 browser compatibility  
 browsers  
 bubble sort  
-c  
+c
 c++  
 chatbots  
 class  
@@ -45,6 +51,7 @@ const
 control flow  
 cool  
 crud  
+csharp  
 csv  
 cybersecurity  
 d3  
@@ -66,6 +73,7 @@ distance
 distinct  
 div  
 django  
+docker  
 document  
 documentation  
 dom  
@@ -85,6 +93,7 @@ files
 finance  
 flask  
 flexbox  
+flutter  
 fonts  
 foreign key  
 form  
@@ -124,11 +133,14 @@ json
 jsx  
 k-nearest neighbors  
 kotlin  
+kubernetes  
+laravel  
 let  
 linear algebra  
 linear regression  
 link  
 linked lists  
+linux  
 lists  
 logic  
 logistic regression  
@@ -137,6 +149,7 @@ lua
 machine learning  
 many-to-many relationship  
 margin  
+matlab  
 matplotlib  
 media queries  
 meta course  
@@ -147,6 +160,7 @@ mobile development
 models  
 modules  
 multi-line strings  
+mysql  
 naive bayes  
 natural language processing (nlp)  
 netlify  
@@ -179,6 +193,7 @@ queries
 queues  
 quicksort  
 r  
+rails  
 range  
 react  
 react native  
@@ -193,10 +208,13 @@ requests
 responsive  
 rest parameter  
 ruby  
+rust  
 schema design  
+scala  
 scikit-learn  
-scope  
+scope
 script  
+seaborn  
 search  
 select  
 selectors  
@@ -204,6 +222,7 @@ semantic
 server  
 sets  
 skill  
+socket.io  
 sort  
 span  
 specificity  
@@ -227,6 +246,7 @@ table
 target  
 technical interviews  
 templates  
+tensorflow  
 test-gamut-update  
 tidyr  
 title  
@@ -249,8 +269,11 @@ version control
 version control system  
 video  
 views  
+vim  
 visibility  
+vue  
+webrtc  
 web design  
-web development  
+web development
 whiteboarding  
 xcode  
