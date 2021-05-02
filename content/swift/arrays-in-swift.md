@@ -2,13 +2,11 @@
 ---
 Title: "Arrays In Swift"
 Subjects:
-  - "swift"
   - "ios"
   - "mobile development"
 Tags:
   - "arrays"
   - "data structures"
-  - "swift"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"

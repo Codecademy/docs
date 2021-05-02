@@ -2,10 +2,8 @@
 ---
 Title: "AND"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# AND
 
 ## Definition 
 A logical test that will only include rows where both conditions are true.

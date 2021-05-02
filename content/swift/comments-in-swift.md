@@ -2,12 +2,10 @@
 ---
 Title: "Comments In Swift"
 Subjects:
-  - "swift"
   - "ios"
   - "mobile development"
 Tags:
   - "comment"
-  - "swift"
   - "style"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"

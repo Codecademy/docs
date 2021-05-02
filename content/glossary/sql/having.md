@@ -2,10 +2,8 @@
 ---
 Title: "HAVING"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# HAVING
 
 ## Definition 
 A conditional statement similar to WHERE but used with aggregate functions (COUNT, MIN, MAX, SUM, AVG).

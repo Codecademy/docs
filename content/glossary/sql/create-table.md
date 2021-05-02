@@ -2,10 +2,8 @@
 ---
 Title: "CREATE TABLE"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# CREATE TABLE
 
 ## Definition 
 Creates a new table within a database.

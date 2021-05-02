@@ -2,10 +2,8 @@
 ---
 Title: "AS"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# AS
 
 ## Definition 
 Renames a column or table with an alias for display, does not permanently change table/column names in the database.

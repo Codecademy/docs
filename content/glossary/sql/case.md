@@ -2,10 +2,8 @@
 ---
 Title: "CASE"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# CASE
 
 ## Definition 
 A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause.

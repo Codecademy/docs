@@ -2,10 +2,8 @@
 ---
 Title: "BETWEEN"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# BETWEEN
 
 ## Definition 
 Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types.

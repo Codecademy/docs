@@ -2,10 +2,8 @@
 ---
 Title: "GROUP BY"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# GROUP BY
 
 ## Definition 
 Groups a result set based on an aggregate function (COUNT, MIN, MAX, SUM, AVG). It lists the number in each group.

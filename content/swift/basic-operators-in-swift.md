@@ -2,12 +2,10 @@
 ---
 Title: "Basic Operators in Swift"
 Subjects:
-  - "swift"
   - "ios"
   - "mobile development
 Tags:
   - "operators"
-  - "swift"
   - "style"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"

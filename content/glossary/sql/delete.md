@@ -2,10 +2,8 @@
 ---
 Title: "DELETE"
 Subjects:
-  - "sql"
   - "data science"
 Tags:
-  - "sql"
   - "data science"
   - "database"
   - "queries"
@@ -20,8 +18,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 -->
-
-# DELETE
 
 ## Definition 
 Removes exisiting record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted.

@@ -1,5 +1,4 @@
 <!--
-<!--
 ---
 Title: "The Title" # Note: the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
 Subjects: # Please only use Subjects in the subjects.md file (github.com/Codecademy/codepedia-content/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
@@ -25,4 +24,3 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 
 ## Subsection n
 [Text about subsection n]
-
