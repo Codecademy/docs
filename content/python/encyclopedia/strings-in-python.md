@@ -2,10 +2,15 @@
 ---
 Title: "Strings in Python" 
 Subjects:
-  - "python"
+  - "code foundations"
+  - "welcome series"
+  - 
 Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
   - "strings"
-  - "python"
+  - "arrays"
+  - "class"
+  - "code foundations"
+  - "type"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
 ---
