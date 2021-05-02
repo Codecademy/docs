@@ -7,6 +7,7 @@ Subjects:
   - 
 Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
   - "strings"
+  - "multi-line strings"
   - "arrays"
   - "class"
   - "code foundations"
