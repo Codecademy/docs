@@ -2,10 +2,10 @@
 ---
 Title: "Replace in Python" 
 Subjects:
-  - "python"
+  - "code foundations"
 Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
-  - "functions"
-  - "python"
+  - "methods"
+  - "code foundations"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
 ---
