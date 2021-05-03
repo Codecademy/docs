@@ -35,7 +35,6 @@ browsers
 bubble sort  
 chatbots  
 class  
-code foundations  
 color  
 combinators  
 command line  
