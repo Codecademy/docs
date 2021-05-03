@@ -25,9 +25,9 @@ user = "JDoe" # Comment after code
 
 ## Multi-line Comments
 
-Python does not have a syntax for multi-line comments.
+Python does not have a specific syntax for multi-line comments, like some other languages.
 
-To add a multi-line comment, you could insert a `#` for each line:
+Instead, multiple `#` can be used:
 
 ```py
 # This is a comment written in
