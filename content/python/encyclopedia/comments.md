@@ -36,7 +36,7 @@ Instead, multiple `#` characters can be used:
 print("Hello, World!")
 ```
 
-Or, not quite as intended, a multi-line string can be used instead.
+Another route, though not quite as intended, is to use a multi-line string.
 
 Since Python will ignore string literals that are not assigned to a variable, you can add a multi-line string (triple quotes `"""`) in your code, and place your comment inside it:
 
