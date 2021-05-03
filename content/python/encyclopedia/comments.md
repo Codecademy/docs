@@ -11,9 +11,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-
-# Comments in Python
-
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
 ## Syntax
