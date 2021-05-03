@@ -11,7 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/code-foundations"
 ---
 
-A _comment_ is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for our future selves or other fellow developers to understand, and are generally ignored by compilers and interpreters. 
+A _comment_ is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for future selves or other fellow developers to understand, and are generally ignored by compilers and interpreters. 
 
 Comments are generally formatted as either:
 
