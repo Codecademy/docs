@@ -20,7 +20,7 @@ In Python, the `#` character is used to start a comment and it continues until t
 ```py
 # Comment on a single line
  
-user = "sonnynomnom" # Comment after code
+user = "sonny" # Comment after code
 ```
 
 ## Multi-line Comments
