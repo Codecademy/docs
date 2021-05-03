@@ -27,7 +27,7 @@ user = "JDoe" # Comment after code
 
 Python does not have a specific syntax for multi-line comments, like some other languages.
 
-Instead, multiple `#` can be used:
+Instead, multiple `#` characters can be used:
 
 ```py
 # This is a comment written in
