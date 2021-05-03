@@ -18,7 +18,14 @@ Right now we're trying to create a baseline of great content. We have an enginee
 Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
 
 ## How do I contribute?
-Contributing is as simple as forking this repo, editing your fork, and then making a pull request to merge your fork with this repo! If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
+
+Contributing is as simple as:
+
+1. Forking this repo.
+2. Editing your fork.
+3. Making a pull request to merge your fork with this repo.
+
+If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
 <img src="https://github.com/Codecademy/codepedia-content/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
