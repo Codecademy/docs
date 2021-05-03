@@ -4,7 +4,7 @@ Subjects:
   - "code foundations"
   - "computer science"
 Tags: 
-  - "comments"
+  - "comment"
   - "documentation"
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-python-3"
