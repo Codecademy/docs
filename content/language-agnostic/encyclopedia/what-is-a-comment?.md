@@ -22,7 +22,7 @@ Some programming languages support only one type of comment. For example, Python
 
 ## Uses
 
-How best to make use of comments is subject to dispute; different commentators have offered varied and sometimes opposing viewpoints. Here are some common ways comments are used:
+How best to make use of comments is subject to dispute. Here are some common ways comments are used:
 
 ### Code Description
 
