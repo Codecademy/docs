@@ -30,14 +30,14 @@ FROM table_name;
 
 ## Example
 
-For instance, suppose there's an `employees` table with the following values:
+Suppose there's an `employees` table with the following values:
 
-| salary | experience | 
-| -- | -- |
-| 42000 | 3 |
-| 82000 | 7 |
-| 62000 | 10 |
-| 65000 | 4 |
+| name | salary | experience | 
+| -- | -- | -- |
+| Michael | 80000 | 14 |
+| Pam | 41500 | 2 |
+| Jim | 45000 | 4 |
+| Dwight | 55000 | 8 |
 
 To find the total number of employees who have less than 5 years of experience, the given query can be used:
 
