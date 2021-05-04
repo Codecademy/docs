@@ -30,24 +30,23 @@ The column in the argument has to be a numeric column.
 
 For instance, suppose there's an `employees` table with the following values:
 
-| salary | experience | 
-| -- | -- |
-| 42000 | 3 |
-| 82000 | 7 |
-| 62000 | 10 |
-| 65000 | 4 |
+| name | salary | experience | 
+| -- | -- | -- |
+| Michael | 80000 | 14 |
+| Pam | 41500 | 2 |
+| Jim | 45000 | 4 |
+| Dwight | 55000 | 8 |
 
 To find the average `salary` for the employees who have less than 5 years of experience, the given query can be used:
 
 ```sql
-SELECT AVG(salary), experience
+SELECT AVG(salary)
 FROM employees
 WHERE experience < 5;
 ```
 
 The result would be:
 
-| salary | experience | 
-| -- | -- |
-| 42000 | 3 |
-| 65000 | 4 |
+| AVG(salary) | 
+| -- |
+| 675000 |
