@@ -32,9 +32,9 @@ For instance, suppose there's an `employees` table with the following values:
 
 | date| amount | 
 | -- | -- |
-| 2049-01-30 | 2.75 |
-| 2049-01-31 | 6.00 |
-| 2049-01-31 | 24.20 |
+| 2023-01-30 | 2.75 |
+| 2023-01-31 | 6.00 |
+| 2023-01-31 | 24.20 |
 
 The given query will return the smallest value from the `amount` column:
 
