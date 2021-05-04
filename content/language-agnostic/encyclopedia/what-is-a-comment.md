@@ -27,15 +27,13 @@ How best to make use of comments is subject to dispute. Here are some common way
 
 ### Code Description
 
-Comments can be used to summarize code or to explain the programmer's intent. According to this school of thought, restating the code in plain English is superfluous; the need to re-explain code may be a sign that it is too complex and should be rewritten, or that the naming is bad.
-
-> "Good comments don't repeat the code or explain it. They clarify its intent. Comments should explain, at a higher level of abstraction than the code, what you're trying to do." (Steve McConnell)
+Comments can be used to summarize code or to explain the programmer's intent. They can provide additional information to aid in understanding the code.
 
 ### Debugging
 
-A common developer practice is to comment out a code snippet, meaning to add comment syntax causing that block of code to become a comment, so that it will not be executed in the program. This may be done to exclude certain pieces of code from the program, or (more commonly) it can be used to find the source of an error. 
+When an error is encountered in the program, a common debugging practice is to comment out some code, meaning to add comment syntax causing that block of code to become a comment, so that it will not be executed in the program. This may be done to exclude certain pieces of code from the program. 
 
-By systematically commenting out and running only parts of the program, the source of an error can be determined.
+By strategically commenting out and running only parts of the program, the source of the error can be determined through process of elimination.
 
 ### Metadata
 
