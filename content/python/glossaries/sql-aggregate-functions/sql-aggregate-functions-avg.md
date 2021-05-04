@@ -49,4 +49,4 @@ The result would be:
 
 | AVG(salary) | 
 | -- |
-| 675000 |
+| 67500 |
