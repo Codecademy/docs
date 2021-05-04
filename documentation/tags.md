@@ -93,7 +93,7 @@ flutter
 fonts  
 foreign key  
 form  
-functions  
+function  
 game development  
 getters and setters  
 ggplot2  
