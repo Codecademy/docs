@@ -1,13 +1,13 @@
 ---
 Title: "MIN()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "sqlite"
-  - "postgresql"
-  - "mysql"
-  - "function"
+  - "SQLite"
+  - "PostgreSQL"
+  - "MySQL"
+  - "Functions"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
