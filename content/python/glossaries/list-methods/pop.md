@@ -19,7 +19,7 @@ Remove an item from a list while also returning it.
 ## Syntax
 
 ```py
-list.insert(index)
+list.pop(index)
 ```
 
 It accepts one optional input which is the index of the element to remove. If no index is provided, then the last element in the list will be removed and returned.
