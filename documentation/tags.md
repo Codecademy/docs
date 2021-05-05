@@ -6,6 +6,7 @@ Feel free to add suggestions for new tags to the list as part of your PR! Be sur
 
 ---
 
+```
 Accessibility  
 Algorithms  
 Alias  
@@ -240,3 +241,4 @@ WebRTC
 Web Design  
 Whiteboarding  
 Xcode  
+```
