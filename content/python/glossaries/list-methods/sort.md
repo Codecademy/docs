@@ -1,11 +1,11 @@
 ---
 Title: ".sort()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "lists"
-  - "methods"
+  - "Lists"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
@@ -28,6 +28,7 @@ Numerical lists will be sorted in ascending order, and lists of strings will be 
 
 To sort a list called `exampleList`:
 
+<codebyte>
 ```py
 exampleList = [4, 2, 1, 3]
 
@@ -36,3 +37,4 @@ exampleList.sort()
 print(exampleList)
 # Output: [1, 2, 3, 4]
 ```
+</codebyte>

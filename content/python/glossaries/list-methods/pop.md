@@ -1,11 +1,11 @@
 ---
 Title: ".pop()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "lists"
-  - "methods"
+  - "Lists"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
@@ -28,7 +28,8 @@ It accepts one optional input which is the index of the element to remove. If no
 
 To pop the element `'Discrete Math'` from the `courses` list:
 
-```py
+<codebyte>
+```python
 courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
 
 courses.pop(3)
@@ -36,10 +37,14 @@ courses.pop(3)
 print(courses)
 # Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Computer Architecture']
 ```
+</codebyte>
+
+## Example 2
 
 If no index is provided:
 
-```py
+<codebyte>
+```python
 courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
 
 courses.pop()
@@ -47,3 +52,4 @@ courses.pop()
 print(courses)
 # Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math']
 ```
+</codebyte>

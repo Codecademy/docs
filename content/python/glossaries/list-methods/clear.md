@@ -1,11 +1,11 @@
 ---
 Title: ".clear()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "lists"
-  - "methods"
+  - "Lists"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
@@ -28,6 +28,7 @@ The `.clear()` method has no parameters.
 
 To remove all items from the `orders` list:
 
+<codebyte>
 ```py
 orders = ['daisies', 'periwinkle']
 
@@ -36,3 +37,4 @@ orders.clear()
 print(orders)
 # Output: []
 ```
+</codebyte>

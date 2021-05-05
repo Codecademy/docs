@@ -1,11 +1,11 @@
 ---
 Title: ".remove()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "lists"
-  - "methods"
+  - "Lists"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
@@ -28,6 +28,7 @@ In the case where two or more elements in the list have the same value, the firs
 
 To remove the first occurance of `'eggs'`:
 
+<codebyte>
 ```py
 grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
  
@@ -36,3 +37,4 @@ grocery_list.remove('eggs')
 print(grocery_list)
 # Output: ['blueberries', 'mochi', 'chocolate']
 ```
+</codebyte>

@@ -1,11 +1,11 @@
 ---
 Title: ".count()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "lists"
-  - "methods"
+  - "Lists"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
@@ -32,6 +32,7 @@ The `.count()` method has three parameters:
 
 To count the number of `'pen'` within the `backpack` list:
 
+<codebyte>
 ```py
 backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
 
@@ -40,11 +41,13 @@ numPen = backpack.count('pen')
 print(numPen)
 # Output: 3
 ```
+</codebyte>
 
 ## Example 2
 
 To count the number of `'pen'` within the `backpack` list from index 0 to index 5:
 
+<codebyte>
 ```py
 backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
 
@@ -53,3 +56,4 @@ numPen = backpack.count('pen', 0, 5)
 print(numPen)
 # Output: 2
 ```
+</codebyte>
