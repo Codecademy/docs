@@ -1,7 +1,8 @@
 # Subjects
 
-#### Feel free to add suggestions for new Subjects to the list as part of your PR! Be sure to insert them alphabetically.
+Feel free to add suggestions for new Subjects to the list as part of your PR! Be sure to insert them alphabetically.
 
+```
 Bash/Shell  
 Code Foundations  
 Computer Science  
@@ -16,3 +17,4 @@ Machine Learning
 Mobile Development  
 Web Design  
 Web Development  
+```
