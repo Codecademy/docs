@@ -1,11 +1,11 @@
 ---
 Title: ".replace()" 
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "strings"
-  - "methods"
+  - "Strings"
+  - "Methods"
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
