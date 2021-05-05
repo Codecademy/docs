@@ -74,6 +74,7 @@ Dplyr
 Dynamic Programming  
 Effects  
 Elements  
+Encapsulation  
 Enum  
 Errors  
 ES6  
@@ -86,10 +87,9 @@ Flask
 Flexbox  
 Flutter  
 Fonts  
-Foreign key  
+Foreign Key  
 Form  
 Functions  
-Getters and Setters  
 Ggplot2  
 Git  
 GitHub  
@@ -108,7 +108,7 @@ Histograms
 Http  
 Id  
 If/Else  
-Smage  
+Image  
 Inheritance  
 Input  
 Interface  
