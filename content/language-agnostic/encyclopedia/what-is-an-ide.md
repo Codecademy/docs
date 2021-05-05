@@ -1,18 +1,16 @@
-<!--
 ---
+Title: "What is an IDE?"
 Subjects:
-  - "What is an IDE?"
+  - "Developer Tools"
+  - "Computer Science"
+  - "Web Development"
 Tags: 
-  - "language-agnostic"
-  - "ide"
-  - "xcode"
-  - "android"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
+  - "IDE"
+  - "Xcode"
+  - "Android"
+Catalog Content: 
   - "https://www.codecademy.com/articles/what-is-an-ide"
 ---
--->
-
-# What is an IDE?
 
 An IDE, or Integrated Development Environment, is software that enables programmers to consolidate the different aspects of writing a computer program within a single application. These actions include editing source code, building executables, and debugging.
 
