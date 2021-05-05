@@ -1,5 +1,5 @@
 ---
-Title: "MAX()"
+Title: "SUM()"
 Subjects:
   - "data science"
   - "computer science"
@@ -15,16 +15,14 @@ Catalog Content:
 
 ## Definition 
 
-The `MAX()` aggregate function takes the name of a column as an argument and returns the largest value in a column.
+The `SUM()` aggregate function takes the name of a column as an argument and returns the sum of all the value in that column.
 
 ## Syntax
 
 ```sql
-SELECT MAX(column_name)
+SELECT SUM(column_name)
 FROM table_name;
 ```
-
-The opposite of `MAX()` is `MIN()`.
 
 ## Example
 
@@ -36,15 +34,15 @@ For instance, suppose there's an `transactions` table with the following values:
 | 2023-01-31 | 6.00 |
 | 2023-01-31 | 4.20 |
 
-The given query will return the largest value from the `amount` column:
+The given query will return the smallest value from the `amount` column:
 
 ```sql
-SELECT MAX(amount) 
+SELECT SUM(amount) 
 FROM transactions;
 ```
 
 The result would be:
 
-| MAX(amount) | 
+| SUM(amount) | 
 | -- |
-| 6.00 |
+| 12.95 |

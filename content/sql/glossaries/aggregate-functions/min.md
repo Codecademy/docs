@@ -28,13 +28,13 @@ The opposite of `MIN()` is `MAX()`.
 
 ## Example
 
-For instance, suppose there's an `employees` table with the following values:
+For instance, suppose there's an `transactions` table with the following values:
 
 | date| amount | 
 | -- | -- |
 | 2023-01-30 | 2.75 |
 | 2023-01-31 | 6.00 |
-| 2023-01-31 | 24.20 |
+| 2023-01-31 | 4.20 |
 
 The given query will return the smallest value from the `amount` column:
 
