@@ -1,6 +1,8 @@
 # Tags
 
-**Use <kbd>control</kbd> + <kbd>f</kbd> to search this list.**
+Tags are used for recommending related entries within Codepedia and for the search bar.
+
+Use <kbd>control</kbd> + <kbd>f</kbd> to search this list.
 
 **Feel free to add suggestions for new Tags to the list as part of your PR! Be sure to insert them alphabetically.**
 
