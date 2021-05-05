@@ -26,12 +26,11 @@ In the case where two or more elements in the list have the same value, the firs
 
 ## Example
 
-To pop the element `'Discrete Math'` from the `courses` list:
+To remove the first occurance of 'Kip':
 
 ```py
 shopping_list = ['Sonny', 'Aaron', 'Kip', 'Lillian']
  
-# Removes the first occurance of 'Kip'
 shopping_line.remove('Kip')
 
 print(shopping_line)
