@@ -1,12 +1,12 @@
 ---
 Title: "What is a Comment?"  
 Subjects:
-  - "code foundations"
-  - "computer science"
+  - "Code Foundations"
+  - "Computer Science"
 Tags: 
-  - "comment"
-  - "documentation"
-  - "best practice"
+  - "Comments"
+  - "Documentation"
+  - "Best Practices"
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/code-foundations"
