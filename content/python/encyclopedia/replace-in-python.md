@@ -5,13 +5,12 @@ Subjects:
   - "code foundations"
 Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
   - "methods"
-  - "code foundations"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
 ---
 -->
 
-Use the built in `replace()` method in Python to modify strings.
+Use the built-in `replace()` method in Python to modify strings.
 
 ## Syntax
 
