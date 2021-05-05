@@ -1,4 +1,3 @@
-<!--
 ---
 Subjects:
   - "What is an Error?"
@@ -11,7 +10,7 @@ Tags:
 Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters"
 ---
--->
+
 
 # What is an Error?
 

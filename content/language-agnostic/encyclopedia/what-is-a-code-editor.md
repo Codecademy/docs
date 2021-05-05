@@ -1,14 +1,14 @@
-<!--
 ---
+Title: "What is a Code Editor?"
 Subjects:
-  - "What is a Code Editor?"
+  - "Developer Tools"
+  - "Code Foundations"
+  - "Computer Science"
 Tags: 
-  - "language-agnostic"
-  - "code editor"
+  - "Code Editor"
 Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/articles/text-editor"
 ---
--->
 
 # What is a Code Editor?
 
