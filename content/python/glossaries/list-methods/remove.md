@@ -26,7 +26,7 @@ In the case where two or more elements in the list have the same value, the firs
 
 ## Example
 
-To remove the first occurance of 'Kip':
+To remove the first occurance of `'eggs'`:
 
 ```py
 grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
