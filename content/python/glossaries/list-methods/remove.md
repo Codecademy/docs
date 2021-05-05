@@ -29,10 +29,10 @@ In the case where two or more elements in the list have the same value, the firs
 To remove the first occurance of 'Kip':
 
 ```py
-shopping_list = ['Sonny', 'Aaron', 'Kip', 'Lillian']
+grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
  
-shopping_line.remove('Kip')
+grocery_list.remove('eggs')
 
-print(shopping_line)
-# Output: ['Sonny', 'Aaron', 'Lillian']
+print(grocery_list)
+# Output: ['blueberries', 'mochi', 'chocolate']
 ```
