@@ -33,7 +33,7 @@ The `.replace()` string method takes in three parameters:
 
 `.replace()` can be called either directly on a string:
 
-```python
+```py
 welcome = "Hello, world!".replace("world", "Codecademy")
 
 print(welcome)
@@ -42,7 +42,7 @@ print(welcome)
 
 Or on a variable assigned to a string:
 
-```python
+```py
 welcome = "Hello, world!"
 welcome = welcome.replace("world", "Codecademy")
 
@@ -52,7 +52,7 @@ print(welcome)
 
 Because `replace()` is a method, it returns a new string and does not modify the original string. Therefore:
 
-```python
+```py
 var = "x"
 var.replace("x", "y")
 print(var)
@@ -61,7 +61,7 @@ print(var)
 
 By default, `replace()` will replace all occurances in the string. However, you can add an integer to specifiy how many strings should be replaced.
 
-```python
+```py
 var = "I like cats and cats like me"
 var = var.replace("like", "LOVE")
 print(var)
@@ -77,28 +77,23 @@ print(var)
 
 The `replace()` method can be used to remove sections of a string entirely:
 
-`<codebyte>`
-```python
+```codebyte/py
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant ", "")
 print(newString)
 ```
-`</codebyte>`
   
 It can also be called multiple times on the same string:
 
-`<codebyte>`
-```python
+```codebyte/py
 myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant ", "").replace("with", "without")
 print(newString)
 ```
-`</codebyte>`
 
 If there are many words that need to be removed, consider using a `for` loop:
 
-`<codebyte>`
-```python
+```codebyte/py
 wordsToReplace = ["rocks! ", "He ", "never ", "and ", "loves "]
 mySentence = "My cat rocks! He never bites and loves me."
 
@@ -107,4 +102,3 @@ for word in wordsToReplace:
 
 print(mySentence)
 ```
-`</codebyte>`
