@@ -235,7 +235,6 @@ Vim
 Visibility  
 Vue  
 WebRTC  
-Web Design  
 Whiteboarding  
 Xcode  
 ```
