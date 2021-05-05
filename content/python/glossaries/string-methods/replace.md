@@ -29,16 +29,20 @@ The `.replace()` string method takes in three parameters:
 - `count`: A number specifying how many occurrences of the old value to replace. Default is all occurrences.
 
 
-## Examples
+## Example 1
 
-`.replace()` can be called either directly on a string, or on a variable assigned to a string:
+`.replace()` can be called either directly on a string:
 
 ```python
 welcome = "Hello, world!".replace("world", "Codecademy")
 
 print(welcome)
 # Output: Hello, Codecademy!
+```
 
+Or on a variable assigned to a string:
+
+```python
 welcome = "Hello, world!"
 welcome = welcome.replace("world", "Codecademy")
 
