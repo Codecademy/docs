@@ -1,6 +1,6 @@
 # Tags
 
-Tags are used for recommending related entries within Codepedia and for the home page search bar.
+Tags in Codepedia are used for recommending related entries and for the home page search bar.
 
 Use <kbd>control</kbd> + <kbd>f</kbd> to search this list. 
 
