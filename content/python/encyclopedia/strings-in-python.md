@@ -1,20 +1,17 @@
-<!--
 ---
 Title: "Strings in Python" 
 Subjects:
-  - "code foundations"
-  - "welcome series"
-  - 
-Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
-  - "strings"
-  - "multi-line strings"
-  - "arrays"
-  - "class"
-  - "type"
+  - "Code Foundations"
+  - "Welcome Series"
+
+Tags: 
+  - "Strings"
+  - "Arrays"
+  - "Classes"
+  - "Types"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
 ---
--->
 
 ## What is a String?
 
