@@ -12,7 +12,7 @@ Anchor
 Android  
 Angular  
 Animation  
-API  
+APIs  
 Arrays  
 Artificial Intelligence  
 ASP.NET  
@@ -28,7 +28,7 @@ Binary Search
 Binary Tree  
 Block  
 Body  
-Boolean  
+Booleans  
 Bootstrap  
 Box Model  
 Box Plot  
@@ -36,7 +36,7 @@ Browser Compatibility
 Browsers  
 Bubble Sort  
 Chatbots  
-Class  
+Classes  
 Color  
 Combinators  
 Command Line  
@@ -105,10 +105,10 @@ Headings
 Heap  
 Heroku  
 Histograms  
-Http  
+HTTP  
 Id  
 If/Else  
-Image  
+Images  
 Inheritance  
 Input  
 Interface  
@@ -189,7 +189,7 @@ Search
 Select  
 Selectors  
 Semantic  
-Server  
+Servers  
 Sets  
 Socket.IO  
 Sort  
@@ -207,7 +207,7 @@ SwiftUI
 Switch  
 Symbol  
 Syntax  
-Table  
+Tables  
 Target  
 Technical Interviews  
 Templates  
