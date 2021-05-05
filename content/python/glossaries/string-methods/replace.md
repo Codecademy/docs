@@ -1,16 +1,20 @@
-<!--
 ---
-Title: "Replace in Python" 
+Title: ".replace()" 
 Subjects:
-  - "code foundations"
-Tags: # Please first look to use tags that are already listed at author.codecademy.com/browse/tags
+  - "data science"
+  - "computer science"
+Tags:
+  - "strings"
   - "methods"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/paths/data-science"
+  - "https://www.codecademy.com/learn/paths/computer-science"
 ---
--->
 
-Use the built-in `replace()` method in Python to modify strings.
+## Definition
+
+Replace a specific substring with another.
 
 ## Syntax
 
