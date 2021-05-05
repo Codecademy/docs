@@ -7,33 +7,44 @@ Tags:
   - "strings"
   - "methods"
 Catalog Content: 
-  - https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/data-science"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
 ## Definition
 
-Replace a specific substring with another.
+Replace a specific substring with another substring.
 
 ## Syntax
 
-`String.replace("thing_to_remove", "thing_to_add", count)`
-
-`replace()` can be called either directly on a string, or on a variable assigned to a string:
-
-```python
-var = "hello, world!".replace("world", "Codepedia")
-print(var)
-# Output: hello, Codepedia!
-
-var = "hello, world! "
-var = var.replace("world", "Codepedia")
-print(var)
-# Output: hello, Codepedia!
+```py
+string.replace(old, new, count)
 ```
 
-## Usage
+The `.replace()` string method takes in three parameters:
+
+- `old`: The substring to search for. (Required)
+- `new`: The substring to replace. (Required)
+- `count`: A number specifying how many occurrences of the old value to replace. Default is all occurrences.
+
+
+## Examples
+
+`.replace()` can be called either directly on a string, or on a variable assigned to a string:
+
+```python
+welcome = "Hello, world!".replace("world", "Codepedia")
+
+print(welcome)
+# Output: Hello, Codepedia!
+
+welcome = "Hello, world!"
+welcome = welcome.replace("world", "Codepedia")
+
+print(welcome)
+# Output: Hello, Codepedia!
+```
 
 Because `replace()` is a method, it returns a new string and does not modify the original string. Therefore:
 
