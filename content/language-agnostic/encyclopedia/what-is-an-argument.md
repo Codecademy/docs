@@ -1,20 +1,16 @@
-<!--
 ---
+Title: "What is an Argument?"
 Subjects:
-  - "What is an Argument?"
+  - "Computer Science"
+  - "Web Development"
 Tags: 
-  - "language-agnostic"
-  - "functions"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
+  - "Functions"
+Catalog Content:
   - "https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters"
   - "https://www.codecademy.com/courses/learn-python-3/lessons/learn-python-function-arguments/exercises/parameters-and-arguments"
 ---
--->
-
-# What is an Argument?
 
 An argument is the actual value of a variable (aka. the parameter) passed into a function.
-
 
 ## Example
 
