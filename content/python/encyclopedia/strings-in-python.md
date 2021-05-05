@@ -49,8 +49,7 @@ print(type(my_string))
 
 ## Formatting Strings
 
-`Strings` can be long or short. However, if your text is long, you may
-want to use a `multi-line string`. `Multi-line strings` begin and end with three double or single quotes:
+`Strings` can be long or short. If your text is long, you may want to use a `multi-line string`. `Multi-line strings` begin and end with three double or single quotes:
 
 ```python
 myString = """If it were done when 'tis done, then 'twere well
@@ -72,13 +71,10 @@ print(myString)
 
 Python also has a series of non-printable characters that can modify strings. For example, `\n` will add a new line, and `\t` will add a tab:
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = "I am on top \nand I am on bottom. \t I am indented!"
 print(myString)
 ```
-`</Codebyte>`
-
 
 ## Modifying Strings
 
@@ -100,8 +96,7 @@ if "World" in new_combo:
 `Strings` in python are technically a type of array, where each character is a separate element in that array. That means we can access different letters in our `string` the same way we can access items in a list:
 
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = "Hello, World!"
 var_1 = myString[0]
 var_2 = myString[7:]
@@ -110,7 +105,6 @@ print("var_1: " + var_1)
 print("var_2: " + var_2)
 print("var_3: " + var_3) 
 ```
-`</Codebyte>`
 
 
 ## Built-in String Methods
@@ -124,8 +118,7 @@ title() # Capitalizes the first letter of every word
 strip() # Removes leading or trailing whitespace
 ```
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = " Hello, World! "
 a = myString.upper()
 print(a)
@@ -136,6 +129,3 @@ print(c)
 d = myString.strip()
 print(d)
 ```
-`</Codebyte>`
-
-
