@@ -141,7 +141,6 @@ Methods
 Middleware  
 Models  
 Modules  
-Multi-line Strings  
 MySQL  
 Naive Bayes  
 Natural Language Processing  
