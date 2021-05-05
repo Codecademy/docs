@@ -32,8 +32,7 @@ The `.count()` method has three parameters:
 
 To count the number of `'pen'` within the `backpack` list:
 
-<codebyte>
-```py
+```codebyte/python
 backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
 
 numPen = backpack.count('pen')
@@ -41,14 +40,12 @@ numPen = backpack.count('pen')
 print(numPen)
 # Output: 3
 ```
-</codebyte>
 
 ## Example 2
 
 To count the number of `'pen'` within the `backpack` list from index 0 to index 5:
 
-<codebyte>
-```py
+```codebyte/python
 backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
 
 numPen = backpack.count('pen', 0, 5)
@@ -56,4 +53,3 @@ numPen = backpack.count('pen', 0, 5)
 print(numPen)
 # Output: 2
 ```
-</codebyte>

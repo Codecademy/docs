@@ -28,8 +28,7 @@ It accepts one optional input which is the index of the element to remove. If no
 
 To pop the element `'Discrete Math'` from the `courses` list:
 
-<codebyte>
-```python
+```codebyte/python
 courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
 
 courses.pop(3)
@@ -37,14 +36,12 @@ courses.pop(3)
 print(courses)
 # Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Computer Architecture']
 ```
-</codebyte>
 
 ## Example 2
 
 If no index is provided:
 
-<codebyte>
-```python
+```codebyte/python
 courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
 
 courses.pop()
@@ -52,4 +49,3 @@ courses.pop()
 print(courses)
 # Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math']
 ```
-</codebyte>
