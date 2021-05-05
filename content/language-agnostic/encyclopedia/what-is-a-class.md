@@ -1,17 +1,17 @@
-<!--
 ---
+Title: "What is a Class?"
 Subjects:
-  - "What is a Class?"
+  - "Computer Science"
+  - "Web Development"
 Tags: 
-  - "language-agnostic"
-  - "class"
+  - "Class"
+  - "Object"
   - "OOP"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
-  - "https://www.codecademy.com/learn/learn-python/modules/learn-python-introduction-to-classes-u"
-  - "https://www.codecademy.com/learn/learn-ruby/modules/learn-ruby-object-oriented-programming-part-i-u"
-  - "https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-classes"
+Catalog Content:  
+  - "https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
--->
 
 # What is a Class?
 
