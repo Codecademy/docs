@@ -16,7 +16,7 @@ API
 Arrays  
 Artificial Intelligence  
 ASP.NET  
-Asymptotic notation  
+Asymptotic Notation  
 Async Await  
 Attributes  
 Azure  
