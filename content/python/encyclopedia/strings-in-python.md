@@ -18,7 +18,7 @@ Catalog Content:
 In Python, as in other programming languages, a `string` is a data type that refers to simple text. 
 A `string` is designated with either double quotes or single quotes:
 
-```python
+```py
 "I am a string"
 'I am also a string'
 ```
@@ -26,14 +26,14 @@ A `string` is designated with either double quotes or single quotes:
 Other data types such as `integers`, `doubles` and `booleans`, can also be `strings` as long as they are wrapped in quotes:
 
 All of the below are strings:
-```python
+```py
 "2"
 '3.6'
 "True"
 ```
 
 All of the below are **NOT** strings:
-```python
+```py
 7
 Hello
 True
@@ -41,7 +41,7 @@ True
 
 Just like other data types, strings can be assigned to variables:
 
-```python
+```py
 my_string = "Hello, World!"
 print(type(my_string))
 # Output: <class 'str'>
@@ -49,10 +49,9 @@ print(type(my_string))
 
 ## Formatting Strings
 
-`Strings` can be long or short. However, if your text is long, you may
-want to use a `multi-line string`. `Multi-line strings` begin and end with three double or single quotes:
+`Strings` can be long or short. If your text is long, you may want to use a `multi-line string`. `Multi-line strings` begin and end with three double or single quotes:
 
-```python
+```py
 myString = """If it were done when 'tis done, then 'twere well
 It were done quickly: if the assassination
 Could trammel up the consequence, and catch
@@ -64,7 +63,7 @@ We'ld jump the life to come."""
 
 Sometimes a string may have a character that python tries to interpret such as `"`. These characters can be "escaped" by adding a backslash beforehand. The backslash will not be visible if the string is printed:
 
-```python
+```py
 myString = 'It\'s a lovely day!'
 print(myString)
 # Output: It's a lovely day!
@@ -72,19 +71,16 @@ print(myString)
 
 Python also has a series of non-printable characters that can modify strings. For example, `\n` will add a new line, and `\t` will add a tab:
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = "I am on top \nand I am on bottom. \t I am indented!"
 print(myString)
 ```
-`</Codebyte>`
-
 
 ## Modifying Strings
 
 Python has **special operators** to modify `strings`. For example, we can use `+` to concatenate two `strings` or `*` to duplicate a `string`. We can also use the keyword `in` to see if a given character exists in a `string`.
 
-```python
+```py
 string_one = "Hello, "
 string_two = "World! "
 combo = string_one + string_two
@@ -100,8 +96,7 @@ if "World" in new_combo:
 `Strings` in python are technically a type of array, where each character is a separate element in that array. That means we can access different letters in our `string` the same way we can access items in a list:
 
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = "Hello, World!"
 var_1 = myString[0]
 var_2 = myString[7:]
@@ -110,7 +105,6 @@ print("var_1: " + var_1)
 print("var_2: " + var_2)
 print("var_3: " + var_3) 
 ```
-`</Codebyte>`
 
 
 ## Built-in String Methods
@@ -124,8 +118,7 @@ title() # Capitalizes the first letter of every word
 strip() # Removes leading or trailing whitespace
 ```
 
-`<Codebyte>`
-```python
+```codebyte/py
 myString = " Hello, World! "
 a = myString.upper()
 print(a)
@@ -136,6 +129,3 @@ print(c)
 d = myString.strip()
 print(d)
 ```
-`</Codebyte>`
-
-
