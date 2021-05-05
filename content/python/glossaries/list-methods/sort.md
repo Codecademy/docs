@@ -22,7 +22,7 @@ Sort the contents of the list it is called on.
 list.sort()
 ```
 
-Numerical lists will be sorted in ascending order, and lists of strings will be sorted into alphabetical order. It modifies the original list, and has no return value
+Numerical lists will be sorted in ascending order, and lists of strings will be sorted into alphabetical order. It modifies the original list, and has no return value.
 
 ## Example
 
