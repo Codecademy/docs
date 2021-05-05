@@ -34,16 +34,16 @@ The `.replace()` string method takes in three parameters:
 `.replace()` can be called either directly on a string, or on a variable assigned to a string:
 
 ```python
-welcome = "Hello, world!".replace("world", "Codepedia")
+welcome = "Hello, world!".replace("world", "Codecademy")
 
 print(welcome)
-# Output: Hello, Codepedia!
+# Output: Hello, Codecademy!
 
 welcome = "Hello, world!"
-welcome = welcome.replace("world", "Codepedia")
+welcome = welcome.replace("world", "Codecademy")
 
 print(welcome)
-# Output: Hello, Codepedia!
+# Output: Hello, Codecademy!
 ```
 
 Because `replace()` is a method, it returns a new string and does not modify the original string. Therefore:
