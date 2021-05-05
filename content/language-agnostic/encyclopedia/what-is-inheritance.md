@@ -1,6 +1,8 @@
 ---
+Title: "What is Inheritance?"
 Subjects:
-  - "What is Inheritance?"
+  - "Computer Science"
+  - "Web Development"
 Tags: 
   - "Inheritance"
   - "OOP"
@@ -8,8 +10,6 @@ Tags:
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-java/modules/learn-java-inheritance-and-polymorphism"
 ---
-
-# What is Inheritance?
 
 Inheritance is one of the most important principles of object-oriented programming (OOP). It allows for one class (child class) to inherit the fields and methods of another class (parent class). 
 
