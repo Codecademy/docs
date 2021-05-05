@@ -1,12 +1,12 @@
 ---
 Title: "MAX()"
 Subjects:
-  - "data science"
-  - "computer science"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - "sqlite"
-  - "postgresql"
-  - "mysql"
+  - "SQLite"
+  - "PostgreSQL"
+  - "MySQL"
   - "function"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-sql"

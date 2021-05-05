@@ -2,262 +2,237 @@
 
 **Feel free to add suggestions for new Tags to the list as part of your PR! Be sure to insert them alphabetically.**
 
-accessibility  
-algorithms  
-alias  
-anchor  
-android  
-angular  
-animation  
-api  
-arrays  
-artificial intelligence  
-asp.net  
-associations  
-asymptotic notation  
-async await  
-attributes  
-azure  
-a-frame  
-bash/shell  
-beautiful soup  
-best practice  
-binary search  
-binary tree  
-block  
-body  
-boolean  
-bootstrap  
-box model  
-box plot  
-browser compatibility  
-browsers  
-bubble sort  
-chatbots  
-class  
-color  
-combinators  
-command line  
-comment  
-component  
-composite primary key  
-computer science  
-concatenation  
-conceptual  
-const  
-control flow  
-cool  
-crud  
-csv  
-cybersecurity  
-d3  
-data science  
-data structures  
-data types  
-data visualization  
-database  
-database indexes  
-debugging  
-deep learning  
-dependency injection  
-developer tools  
-dfs  
-dictionary  
-dijkstra's  
-display  
-distance  
-distinct  
-div  
-django  
-docker  
-document  
-documentation  
-dom  
-doubly linked lists  
-dplyr  
-dynamic programming  
-effects  
-elements  
-emojicode  
-enum  
-errors  
-es6  
-events  
-expo  
-express  
-files  
-finance  
-flask  
-flexbox  
-flutter  
-fonts  
-foreign key  
-form  
-function  
-game development  
-getters and setters  
-ggplot2  
-git  
-github  
-go  
-graph  
-graph search  
-grid  
-handlebars  
-hash maps  
-hashes  
-head  
-headings  
-heap  
-heroku  
-histograms  
-http  
-id  
-if/else  
-image  
-inheritance  
-input  
-interface  
-ios  
-iterators  
-join  
-jquery  
-json  
-jsx  
-k-nearest neighbors  
-kotlin  
-kubernetes  
-laravel  
-let  
-linear algebra  
-linear regression  
-link  
-linked lists  
-linux  
-lists  
-logic  
-logistic regression  
-loops  
-lua  
-machine learning  
-many-to-many relationship  
-margin  
-matlab  
-matplotlib  
-media queries  
-meta course  
-metadata  
-methods  
-middleware  
-mobile development  
-models  
-modules  
-multi-line strings  
-mysql  
-naive bayes  
-natural language processing (nlp)  
-netlify  
-nlp  
-node  
-npm  
-numbers  
-numpy  
-objects  
-one-to-many relationship  
-one-to-one relationship  
-oop  
-operators  
-p5.js  
-package  
-pandas  
-paragraph  
-phaser  
-physics  
-positioning  
-postgresql  
-primary key  
-print  
-probability  
-promise  
-properties  
-queries  
-queues  
-quicksort  
-rails  
-range  
-react  
-react native  
-react-redux  
-readr  
-recursion  
-redux  
-redux-thunk  
-redux-toolkit  
-regular expressions  
-requests  
-responsive  
-rest parameter  
-schema design  
-scikit-learn  
-scope
-script  
-seaborn  
-search  
-select  
-selectors  
-semantic  
-server  
-sets  
-skill  
-socket.io  
-sort  
-span  
-specificity  
-spread  
-spread syntax  
-sqlite  
-stacks  
-statistics  
-stringr  
-strings  
-structure  
-style  
-summarizing categorical data  
-swiftui  
-switch  
-symbol  
-syntax  
-table  
-target  
-technical interviews  
-templates  
-tensorflow  
-test-gamut-update  
-tidyr  
-title  
-transpilation  
-trees  
-tuple  
-type  
-type guard  
-type narrowing  
-typography  
-union  
-units  
-url  
-validation  
-values  
-variable types  
-variables  
-version control  
-version control system  
-video  
-views  
-vim  
-visibility  
-vue  
-webrtc  
-web design  
-web development
-whiteboarding  
-xcode  
+Accessibility  
+Algorithms  
+Alias  
+Anchor  
+Android  
+Angular  
+Animation  
+API  
+Arrays  
+Artificial Intelligence  
+ASP.NET  
+Asymptotic notation  
+Async Await  
+Attributes  
+Azure  
+A-Frame  
+Bash/Shell  
+Beautiful Soup  
+Best Practices  
+Binary Search  
+Binary Tree  
+Block  
+Body  
+Boolean  
+Bootstrap  
+Box Model  
+Box Plot  
+Browser Compatibility  
+Browsers  
+Bubble Sort  
+Chatbots  
+Class  
+Color  
+Combinators  
+Command Line  
+Comments  
+Component  
+Concatenation  
+Conceptual  
+Const  
+Control Flow  
+CRUD  
+CSV  
+Cybersecurity  
+D3  
+Data Structures  
+Data Types  
+Data Visualization  
+Database  
+Debugging  
+Deep Learning  
+Dependency  
+Developer Tools  
+DFS  
+Dictionary  
+Dijkstra's  
+Display  
+Distance  
+Distinct  
+Div  
+Django  
+Docker  
+Documentation  
+DOM  
+Doubly Linked Lists  
+Dplyr  
+Dynamic Programming  
+Effects  
+Elements  
+Enum  
+Errors  
+ES6  
+Events  
+Expo  
+Express  
+Files  
+Finance  
+Flask  
+Flexbox  
+Flutter  
+Fonts  
+Foreign key  
+Form  
+Functions  
+Getters and Setters  
+Ggplot2  
+Git  
+GitHub  
+Go  
+Graphs  
+Graph Search  
+Grid  
+Handlebars  
+Hash Maps  
+Hashes  
+Head  
+Headings  
+Heap  
+Heroku  
+Histograms  
+Http  
+Id  
+If/Else  
+Smage  
+Inheritance  
+Input  
+Interface  
+iOS  
+Iterators  
+Join  
+jQuery  
+JSON  
+JSK  
+K-Nearest Neighbors  
+Kotlin  
+Kubernetes  
+Laravel  
+Let  
+Linear Algebra  
+Linear Regression  
+Link  
+Linked Lists  
+Linux  
+Lists  
+Logic  
+Logistic Regression  
+Loops    
+Margin  
+MATLAB  
+Matplotlib  
+Media Queries  
+Metadata  
+Methods  
+Middleware  
+Models  
+Modules  
+Multi-line Strings  
+MySQL  
+Naive Bayes  
+Natural Language Processing  
+Netlify  
+NLP  
+Node  
+NPM  
+Numbers  
+NumPy  
+Objects   
+OOP  
+Operators  
+p5  
+Packages  
+Pandas  
+Paragraph  
+Phaser  
+Physics  
+Positioning  
+PostgreSQL  
+Primary Key  
+Print  
+Probability  
+Promise  
+Properties  
+Queries  
+Queues  
+Quicksort  
+Rails  
+Range  
+React  
+React Native  
+Readr  
+Recursion  
+Redux   
+Regular Expressions  
+Requests  
+Responsive  
+Rest Parameter  
+Schema Design  
+Scikit-learn  
+Scope
+Script  
+Seaborn  
+Search  
+Select  
+Selectors  
+Semantic  
+Server  
+Sets  
+Socket.IO  
+Sort  
+Span  
+Specificity  
+Spread    
+SQLite  
+Stacks  
+Statistics  
+Stringr  
+Strings  
+Structure  
+Style  
+SwiftUI  
+Switch  
+Symbol  
+Syntax  
+Table  
+Target  
+Technical Interviews  
+Templates  
+TensorFlow  
+Tidyr  
+Title  
+Transpilation  
+Trees  
+Tuples  
+Types  
+Type Guard  
+Type Narrowing  
+Typography  
+Union  
+Units  
+URL  
+Validation  
+Values  
+Variable Types  
+Variables  
+Version Control  
+Video  
+Views  
+Vim  
+Visibility  
+Vue  
+WebRTC  
+Web Design  
+Whiteboarding  
+Xcode  
