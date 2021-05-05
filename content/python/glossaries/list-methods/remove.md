@@ -28,8 +28,7 @@ In the case where two or more elements in the list have the same value, the firs
 
 To remove the first occurance of `'eggs'`:
 
-<codebyte>
-```py
+```codebyte/python
 grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
  
 grocery_list.remove('eggs')
@@ -37,4 +36,3 @@ grocery_list.remove('eggs')
 print(grocery_list)
 # Output: ['blueberries', 'mochi', 'chocolate']
 ```
-</codebyte>

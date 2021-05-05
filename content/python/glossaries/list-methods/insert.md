@@ -31,8 +31,7 @@ The `.insert()` method takes in two parameters:
 
 To add an item at index 2 of `store_line` list:
 
-<codebyte>
-```py
+```codebyte/python
 store_line = ['Karla', 'Maxium', 'Martim', 'Isabella']
  
 store_line.insert(2, 'Vikor')
@@ -40,5 +39,3 @@ store_line.insert(2, 'Vikor')
 print(store_line) 
 # Output: ['Karla', 'Maxium', 'Vikor', 'Martim', 'Isabella']
 ```
-</codebyte>
-

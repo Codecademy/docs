@@ -30,7 +30,7 @@ This `.append()` method is not to be confused with returning an entirely new lis
 
 To add `'tulips'` to the end of the `orders` list:
 
-```python-codebyte
+```codebyte/python
 orders = ['daisies', 'periwinkle']
 
 orders.append('tulips')

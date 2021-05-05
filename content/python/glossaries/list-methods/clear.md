@@ -28,8 +28,7 @@ The `.clear()` method has no parameters.
 
 To remove all items from the `orders` list:
 
-<codebyte>
-```py
+```codebyte/python
 orders = ['daisies', 'periwinkle']
 
 orders.clear()
@@ -37,4 +36,3 @@ orders.clear()
 print(orders)
 # Output: []
 ```
-</codebyte>
