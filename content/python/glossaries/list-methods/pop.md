@@ -26,21 +26,24 @@ It accepts one optional input which is the index of the element to remove. If no
 
 ## Example
 
-To add an item at index 2 of `store_line` list:
+To pop the element `'Discrete Math'` from the `courses` list:
 
 ```py
-courses = ["Into to Programming", "Data Structures & Algorithms", "Databases", "Discrete Math", "Computer Architecture"]
+courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
 
-# Pop the element "Discrete Math"
 courses.pop(3)
 
-print(cs_topics)
-# Output: ["Into to Programming", "Data Structures & Algorithms", "Databases", "Computer Architecture"]
+print(courses)
+# Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Computer Architecture']
+```
 
-# Pop the last element
+If no index is provided:
+
+```py
+courses = ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math', 'Computer Architecture']
+
 courses.pop()
 
 print(courses)
-# Output: ["Into to Programming", "Data Structures & Algorithms", "Databases"]
-
+# Output: ['Into to Programming', 'Data Structures & Algorithms', 'Databases', 'Discrete Math']
 ```
