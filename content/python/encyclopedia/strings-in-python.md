@@ -10,7 +10,6 @@ Tags: # Please first look to use tags that are already listed at author.codecade
   - "multi-line strings"
   - "arrays"
   - "class"
-  - "code foundations"
   - "type"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
