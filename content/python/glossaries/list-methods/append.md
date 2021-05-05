@@ -32,6 +32,7 @@ To add `'tulips'` to the end of the `orders` list:
 
 ```py
 orders = ['daisies', 'periwinkle']
+
 orders.append('tulips')
 
 print(orders)
