@@ -30,6 +30,7 @@ To remove all items from the `orders` list:
 
 ```py
 orders = ['daisies', 'periwinkle']
+
 orders.clear()
 
 print(orders)
