@@ -47,6 +47,7 @@ The file name should be the title of the entry, in lowercase, with words replace
 Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 All code blocks should be delineated by triple backticks (```)
 - C#: ```cs
+- C++: ```cpp
 - CSS: ```css
 - Error: ```error
 - Emojicode: ```emojic
@@ -78,6 +79,10 @@ Currently, Codebytes is set to support the following languages:
 - Python
 - JavaScript
 - Ruby
+- C++
+- C#
+- Go
+- PHP
 
 ### Standards for the Metadata 
 
