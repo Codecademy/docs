@@ -37,6 +37,6 @@ print(type(message))
 
 This will output:
 
-```bash
+```
 <class 'str'>
 ```
