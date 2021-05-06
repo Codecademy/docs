@@ -12,7 +12,7 @@ Catalog Content:
   - https://www.codecademy.com/learn/learn-python-3"
 ---
 
-A string is a sequence of characters contained within a pair of single quotes (`'` `'`) or double quotes(`"` `"`). They provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces.
+A string is a sequence of characters contained within a pair of single quotes (`'`) or double quotes(`"`). They provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces.
 
 ```py
 "I am a string"
