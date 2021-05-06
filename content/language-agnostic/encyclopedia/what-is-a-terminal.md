@@ -21,4 +21,4 @@ The terminal program has a different name according to the operating system you 
 
 - On MacOS, the command line is known as the **Terminal**.
 - On Windows, it is known as **cmd**.
-- On Linux, there are **gnome-terminal**, **konsole**, **xterm**, **rxvt**, **kvt**, **nxterm**, and **eterm**.
+- On Linux, there could be **gnome-terminal**, **konsole**, **xterm**, or another.
