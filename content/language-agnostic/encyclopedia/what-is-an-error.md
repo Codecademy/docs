@@ -41,8 +41,16 @@ function sayHello(name) {
   alert("Hello ${name});
 }
 
-sayHello('Joe');
-// Error
+sayHello("Joe");
 ```
 
-Forgetting a closing quotation mark and this will throw a syntax error.
+Forgetting a closing quotation mark and this will throw a syntax error:
+
+```error
+/home/script.js:2
+
+  alert("Hello ${name});
+        ^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+```
