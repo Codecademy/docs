@@ -23,7 +23,7 @@ Understanding different types of errors and how to debug them are crucial toward
 ```js
 // Forget a closing quotation mark and this will throw a syntax error
 function sayHello(name) {
-  alert("Hello ${name});
+  alert("Hello ${name}");
 }
 
 sayHello('Joe');
