@@ -8,7 +8,9 @@ Tags:
   - "OOP"
   - "Objects"
 Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-java/modules/learn-java-inheritance-and-polymorphism"
+  - "https://www.codecademy.com/learn/learn-python-3/"
+  - "https://www.codecademy.com/learn/learn-c-plus-plus"
+  - "https://www.codecademy.com/learn/learn-java/"
 ---
 
 Inheritance is one of the most important principles of object-oriented programming (OOP). It allows for one class (child class) to inherit the fields and methods of another class (parent class). 
