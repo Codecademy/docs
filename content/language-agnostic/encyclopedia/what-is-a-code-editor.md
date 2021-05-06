@@ -22,5 +22,6 @@ There are numerous code editors available, such as:
 - [Sublime Text](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/)
+- [Vim](https://www.vim.org/)
 
 Which code editor program to use is really up to the individual developer according to their tastes!
