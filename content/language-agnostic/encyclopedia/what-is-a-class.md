@@ -18,15 +18,21 @@ A class is a piece of code within a program that functions as a template for cre
 
 ## Example
 
+Suppose we want to create a `Cat` class:
+
 ```rb
-// Forget a closing quotation mark and this will throw a syntax error
-class Animal
-   def initialize(name, legs, diet)
-      @animal_name = name
-      @animal_legs = legs
-      @animal_diet = diet
+class Cat
+   def initialize(name, color, age)
+      @cat_name = name
+      @cat_color = color
+      @cat_age = age
    end
 end
+```
 
-lion = Animal.new("lion", 4, "carnivore")
+Now we can create a bunch of objects based off of the `Cat` class:
+
+```rb
+mochi = Cat.new("Mochi", "Gray", 1)
+bean = Cat.new("Bean", "Black/White", 6)
 ```
