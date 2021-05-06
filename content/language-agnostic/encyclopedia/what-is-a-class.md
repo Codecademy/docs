@@ -4,8 +4,8 @@ Subjects:
   - "Computer Science"
   - "Web Development"
 Tags: 
-  - "Class"
-  - "Object"
+  - "Classes"
+  - "Objects"
   - "OOP"
 Catalog Content:  
   - "https://www.codecademy.com/learn/learn-python-3"
