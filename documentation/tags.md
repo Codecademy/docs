@@ -35,6 +35,7 @@ Box Plot
 Browser Compatibility  
 Browsers  
 Bubble Sort  
+Characters
 Chatbots  
 Classes  
 Color  
@@ -111,6 +112,7 @@ If/Else
 Images  
 Inheritance  
 Input  
+Integers
 Interface  
 iOS  
 Iterators  
