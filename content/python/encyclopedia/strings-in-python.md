@@ -56,7 +56,6 @@ name = "phillis"
 name[8] # Throws an IndexError
 ```
 
-
 ## Formatting Strings
 
 Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three double or single quotes:
@@ -75,6 +74,7 @@ Sometimes a string may have a character that python tries to interpret such as `
 
 ```py
 myString = 'It\'s a lovely day!'
+
 print(myString)
 # Output: It's a lovely day!
 ```  
