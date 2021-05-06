@@ -20,7 +20,7 @@ Suppose we have a function called `tripleThis()`:
 
 ```js
 function tripleThis(x) {
-  return x * 3 
+   return x * 3 
 }
 
 tripleThis(6)
