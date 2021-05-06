@@ -19,7 +19,7 @@ An IDE, or Integrated Development Environment, is software that enables programm
 
 There are numerous IDEs available, such as:
 
-- [IntelliJ Idea](https://www.jetbrains.com/idea/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [XCode](https://developer.apple.com/xcode/)
 - [Android Studio](https://developer.android.com/studio)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com)
