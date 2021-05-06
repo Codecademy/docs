@@ -36,9 +36,6 @@ Hello
 True
 ```
 
-
-## Strings are Immutable
-
 Strings are immutable, or cannot change. Each time we perform an operation on a string, it will create an entirely new string.
 
 ## Accessing Characters of a String
