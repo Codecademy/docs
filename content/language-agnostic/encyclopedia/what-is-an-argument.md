@@ -16,12 +16,14 @@ An argument is the actual value of a variable (aka. the parameter) passed into a
 
 ## Example
 
+Suppose we have a function called `tripleThis()`:
+
 ```js
-// The parameter is x since it is the variable
 function tripleThis(x) {
-  return x * 3 
+   return x * 3 
 }
 
-// The argument is 6 since it is the actual value
 tripleThis(6)
 ```
+
+The parameter is `x` since it is the variable. The argument is `6` since it is the actual value.
