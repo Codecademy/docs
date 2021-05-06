@@ -13,9 +13,11 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-Classes are used to define the behavior, attributes and functions of objects in code. We use the `class` keyword to define a class and use properties and methods to determine the structure and functionality of the class. In doing so a class becomes a protoype or template for instances of the object. Lets demonstrate a class for an Employee:
+Classes are used to define the behavior, attributes and functions of objects in code. We use the `class` keyword to define a class and use properties and methods to determine the structure and functionality of the class. In doing so a class becomes a protoype or template for instances of the object.
 
 ## Example
+
+Lets demonstrate a class for an `Employee`:
 
 ```py
 class Employee(object):
