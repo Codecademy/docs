@@ -8,6 +8,7 @@ Tags:
   - "IDE"
   - "Xcode"
   - "Android"
+  - "Code Editors"
 Catalog Content: 
   - "https://www.codecademy.com/articles/what-is-an-ide"
 ---
