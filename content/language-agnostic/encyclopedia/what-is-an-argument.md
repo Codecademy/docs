@@ -7,8 +7,9 @@ Tags:
   - "Functions"
   - "Parameters"
 Catalog Content:
-  - "https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters"
-  - "https://www.codecademy.com/courses/learn-python-3/lessons/learn-python-function-arguments/exercises/parameters-and-arguments"
+  - "https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 An argument is the actual value of a variable (aka. the parameter) passed into a function.
