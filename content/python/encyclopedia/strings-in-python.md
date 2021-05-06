@@ -59,7 +59,7 @@ name[8] # Throws an IndexError
 
 ## Formatting Strings
 
-`Strings` can be long or short. If your text is long, you may want to use a `multi-line string`. `Multi-line strings` begin and end with three double or single quotes:
+Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three double or single quotes:
 
 ```py
 myString = """If it were done when 'tis done, then 'twere well
