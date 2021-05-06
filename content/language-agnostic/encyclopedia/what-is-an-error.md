@@ -36,6 +36,8 @@ Nearly every piece of code you write is an expression of some meaningful logic. 
 
 ## Example
 
+Suppose we have a JavaScript program:
+
 ```js
 function sayHello(name) {
   alert("Hello ${name});
@@ -54,3 +56,5 @@ Forgetting a closing quotation mark and this will throw a syntax error:
 
 SyntaxError: Invalid or unexpected token
 ```
+
+This error says that in the file **script.js**, on line 2, there's a Syntax Error.
