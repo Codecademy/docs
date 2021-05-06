@@ -29,23 +29,23 @@ Create an object called `myObj` and access the attributes:
 
 ```codebyte/cpp
 class MyClass {       
-  public:
-    int myNum;
-    string myString;
+   public:
+      int myNum;
+      string myString;
 };
 
 int main() {
-  // Create an object of MyClass
-  MyClass myObj;
+   // Create an object of MyClass
+   MyClass myObj;
+   
+   // Access attributes and set values
+   myObj.myNum = 15; 
+   myObj.myString = "Some text";
+   
+   // Print attribute values
+   std::cout << myObj.myNum << "\n";
+   std::cout << myObj.myString;
 
-  // Access attributes and set values
-  myObj.myNum = 15; 
-  myObj.myString = "Some text";
-
-  // Print attribute values
-  cout << myObj.myNum << "\n";
-  cout << myObj.myString;
-
-  return 0;
+   return 0;
 }
 ```
