@@ -108,7 +108,7 @@ if "World" in new_combo:
   # Output: It's here! 
 ```
 
-`Strings` in python are technically a type of array, where each character is a separate element in that array. That means we can access different letters in our `string` the same way we can access items in a list:
+Strings in Python are technically a type of a list, where each character is a separate element in that list. That means we can access different letters in our string the same way we can access items in a list:
 
 ```codebyte/py
 myString = "Hello, World!"
