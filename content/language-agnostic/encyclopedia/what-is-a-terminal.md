@@ -21,5 +21,5 @@ A terminal is a program which allows programmers to type commands directly to th
 The terminal program has a different name according to the operating system you are using. 
 
 - On MacOS, the command line is known as the **Terminal**.
-- On Windows, it is known as *cmd**.
+- On Windows, it is known as **cmd**.
 - On Linux, there are **gnome-terminal**, **konsole**, **xterm**, **rxvt**, **kvt**, **nxterm**, and **eterm**.
