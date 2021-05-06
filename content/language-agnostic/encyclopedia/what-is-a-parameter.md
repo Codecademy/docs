@@ -5,6 +5,7 @@ Subjects:
   - "Web Development"
 Tags: 
   - "Functions"
+  - "Parameters"
   - "Arguments"
 Catalog Content:
   - "https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters"
