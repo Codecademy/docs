@@ -2,18 +2,15 @@
 Title: "Strings in Python" 
 Subjects:
   - "Code Foundations"
-  - "Welcome Series"
-
+  - "Computer Science"
+  - "Data Science"
 Tags: 
   - "Strings"
-  - "Arrays"
-  - "Classes"
-  - "Types"
+  - "Lists"
+  - "Data Types"
 Catalog Content: 
   - https://www.codecademy.com/learn/learn-python-3"
 ---
-
-## What is a String?
 
 In Python, as in other programming languages, a `string` is a data type that refers to simple text. 
 A `string` is designated with either double quotes or single quotes:
