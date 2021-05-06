@@ -5,10 +5,9 @@ Subjects:
   - "Computer Science"
   - "Web Development"
 Tags: 
-  - "language-agnostic"
-  - "bash/shell"
-  - "git"
-  - "command line"
+  - "Command Line"
+  - "Bash/Shell"
+  - "Git"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-the-command-line"
   - "https://www.codecademy.com/learn/paths/computer-science"
