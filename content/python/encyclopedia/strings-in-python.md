@@ -88,23 +88,27 @@ print(myString)
 
 ## Modifying Strings
 
-Python has **special operators** to modify `strings`. For example, we can use `+` to concatenate two `strings` or `*` to duplicate a `string`. We can also use the keyword `in` to see if a given character exists in a `string`.
+Python has special operators to modify strings. For example, we can use `+` to concatenate two strings or `*` to duplicate a string. We can also use the keyword `in` to see if a given character exists in a `string`.
 
 ```py
 string_one = "Hello, "
 string_two = "World! "
 combo = string_one + string_two
-print(combo) # Output: Hello, World!
+
+print(combo) 
+# Output: Hello, World!
 
 new_combo = combo * 2
-print(new_combo) # Output: Hello, World! Hello, World!
+
+print(new_combo) 
+# Output: Hello, World! Hello, World!
 
 if "World" in new_combo:
-	print("It's here!") # Output: "It's here!" 
+  print("It's here!") 
+  # Output: It's here! 
 ```
 
 `Strings` in python are technically a type of array, where each character is a separate element in that array. That means we can access different letters in our `string` the same way we can access items in a list:
-
 
 ```codebyte/py
 myString = "Hello, World!"
@@ -115,7 +119,6 @@ print("var_1: " + var_1)
 print("var_2: " + var_2)
 print("var_3: " + var_3) 
 ```
-
 
 ## Built-in String Methods
 
