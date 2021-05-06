@@ -114,7 +114,7 @@ print(home.rooms)   # Output: 4
 print(home.stories) # Output: 2
 ```
 
-## __repr__() method
+## __repr__() Method
 
 The `__repr__()` method returns the string representation of the class. One way to see the string representation is to call `print()` on the instance.
 
@@ -154,7 +154,7 @@ bob = Person("Bob")
 bob.sayHi() # "Hi my name is Bob"
 ```
 
-## type()
+## type() Function
 
 The `type()` function returns the data type of the argument passed to it. When the argument is an instance of a class, it returns the class that it is an instance of.
 ```py
@@ -164,7 +164,7 @@ print(type(home))
 # Output: <class '__main__.Home'>
 ```
 
-## hasattr()
+## hasattr() Function
 
 The `hasattr()` function can be used to check if an instance of a class has an attribute. It returns `True` if it does have the attribute, and `False` otherwise. 
 
