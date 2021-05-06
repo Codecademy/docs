@@ -109,9 +109,11 @@ Strings in Python are technically a type of a list, where each character is a se
 
 ```codebyte/py
 myString = "Hello, World!"
+
 var_1 = myString[0]
 var_2 = myString[7:]
 var_3 = myString[1:4]
+
 print("var_1: " + var_1)
 print("var_2: " + var_2)
 print("var_3: " + var_3) 
