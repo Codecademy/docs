@@ -190,8 +190,7 @@ Scikit-learn
 Scope
 Script  
 Seaborn  
-Search  
-Select  
+Search   
 Selectors  
 Semantic  
 Servers  
