@@ -1,14 +1,15 @@
 ---
 Title: "Comments in Python"
 Subjects:
-  - "code foundations" 
-  - "computer science"
+  - "Computer Science"
+  - "Data Science"
 Tags: 
-  - "comment"
-  - "documentation"
+  - "Comments"
+  - "Documentation"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
