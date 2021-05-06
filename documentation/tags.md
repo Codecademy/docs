@@ -13,6 +13,7 @@ Android
 Angular  
 Animation  
 APIs  
+Arguments
 Arrays  
 Artificial Intelligence  
 ASP.NET  
@@ -159,7 +160,8 @@ Operators
 p5  
 Packages  
 Pandas  
-Paragraph  
+Paragraph 
+Parameters
 Phaser  
 Physics  
 Positioning  
