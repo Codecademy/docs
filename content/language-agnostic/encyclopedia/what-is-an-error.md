@@ -40,21 +40,21 @@ Suppose we have a JavaScript program:
 
 ```js
 function sayHello(name) {
-  alert("Hello ${name});
+   alert("Hello ${name});
 }
 
 sayHello("Joe");
 ```
 
-Forgetting a closing quotation mark and this will throw a syntax error:
+Because of a missing closing quotation mark, there's an error message:
 
 ```error
 /home/script.js:2
 
-  alert("Hello ${name});
-        ^^^^^^^^^^^^^^^^
+   alert("Hello ${name});
+         ^^^^^^^^^^^^^^^^
 
 SyntaxError: Invalid or unexpected token
 ```
 
-This error says that in the file **script.js**, on line 2, there's a Syntax Error.
+This error says that in the file **script.js**, on line `2`, there's a `SyntaxError`.
