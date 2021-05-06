@@ -37,7 +37,8 @@ Browsers
 Bubble Sort  
 Characters
 Chatbots  
-Classes  
+Classes 
+Code Editors
 Color  
 Combinators  
 Command Line  
