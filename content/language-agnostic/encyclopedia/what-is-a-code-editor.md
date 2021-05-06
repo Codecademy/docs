@@ -5,7 +5,7 @@ Subjects:
   - "Code Foundations"
   - "Computer Science"
 Tags: 
-  - "Code Editor"
+  - "Code Editors"
 Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/articles/text-editor"
 ---
