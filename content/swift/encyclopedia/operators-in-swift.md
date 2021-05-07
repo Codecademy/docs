@@ -77,19 +77,17 @@ if !earthIsFlat {
 }
 ```
 
-Logical AND(`&&`) and logical OR(`||`) operators evalute two Booleans or Boolean expressions. In an AND evaluation, both expressions must result in `true`, resulting in the overall AND expression becoming `true`. In an OR evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
+Logical AND (`&&`) and logical OR (`||`) operators evalute two Booleans or Boolean expressions. In an AND evaluation, both expressions must result in `true`, resulting in the overall AND expression becoming `true`. In an OR evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
 
 ```swift
 var iAmTrue = true
 var iAmFalse = false
 
 if (iAmTrue && iAmFalse) {
-  // Both sides are checked because the first value is true and the compiler
-  // needs to check right side' value
+  // Both sides are checked because the first value is true and the compiler needs to check right side' value
   print("Both values are 'true' and the AND operator returned 'true'.")
 } else if (iAmTrue || iAmFalse) {
-  // Only the left side is evaluated, as soon as the compiler sees a 'true'
-  // it can reason the the OR requirements are met and will enter the 'else if' body
+  // Only the left side is evaluated, as soon as the compiler sees a 'true' it can reason the the OR requirements are met and will enter the 'else if' body
   print("At least one value was 'true'  and the OR operator returned 'true'.")
 } else {
   print("Neither value is 'true'.")
