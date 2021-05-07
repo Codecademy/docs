@@ -138,4 +138,3 @@ The output should look like:
 1-1
 1-2
 ```
-```
