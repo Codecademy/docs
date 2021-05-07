@@ -20,7 +20,10 @@ A logical test that will only include rows where both conditions are true.
 
 ## Code Example
 
+Suppose we want to get current students with GPA higher than 3.0:
+
 ```sql
-SELECT * FROM Students
+SELECT * 
+FROM students
 WHERE enrolled_status = 'current' AND overall_gpa >= 3.0
 ```
