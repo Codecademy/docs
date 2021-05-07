@@ -14,20 +14,33 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
 ## Definition
+***
 The `capitalize()` method takes in a string, and returns a copy of the string in Capital Case.
 
+## Syntax
+***
+```py
+"string".capitalize()
+```
+
 ## Example 1
+***
+Use `.capitalize()` to set a string value to Capital Case:
 ```codebyte/python
 print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
 ```
 
 ## Example 2
+***
+Use `.capitalize()` to set a string value to Capital Case:
 ```codebyte/python
 text = "welcome to codecademy's codepedia!"
 print(text.capitalize())
 ```
 
 ## Example 3
+***
+Use `.capitalize()` to set a string value to Capital Case:
 ```codebyte/python
 text = "welcome To Codecademy's Codepedia!"
 
