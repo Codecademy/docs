@@ -63,10 +63,10 @@ In Java, an `ArrayList` is used to represent a dynamic list.
 While arrays are fixed in size (the size cannot be modified), an `ArrayList` allows flexibility by being able to both add and remove elements.
 
 ```java
-// import the ArrayList package
+// Import the ArrayList package
 import java.util.ArrayList;
  
-// create an ArrayList called students
+// Create an ArrayList called students
 ArrayList<String> students = new ArrayList<String>();
 ```
  
