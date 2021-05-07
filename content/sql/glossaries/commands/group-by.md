@@ -20,10 +20,11 @@ Groups a result set based on an aggregate function (`COUNT()`, `MIN()`, `MAX()`,
 
 ## Code Example
 
+To return a result set of the number (count) of students from each country:
+
 ```sql
 SELECT COUNT(student_name),
   birth_country
 FROM students
 GROUP BY birth_country;
-/* Returns a result set of the number(count) of students from each country */
 ```
