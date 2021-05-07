@@ -20,6 +20,9 @@ Returns a result set off all rows that have matching values in both tables, omit
 
 ## Code Example
 
+To create a result set of every row where student ids match in both tables
+and only includes last name, first name, and both GPAs:
+
 ```sql
 SELECT
   students.last_name,
@@ -28,6 +31,4 @@ SELECT
   transfer_data.overal_gpa
 FROM students
 INNER JOIN transfer_data ON students.student_id = transfer_data.student_id;
-/* Creates a result set of every row where student ids match in both tables
-and only includes last name, first name, and both GPAs */
 ```
