@@ -17,17 +17,13 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `abs()` function takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print(abs(-6.5))
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 numbers = [-19.2, 27.3, 48, -115, 302.7, -421, -2011]
 
 print([abs(number) for number in numbers])
 ```
-</codebyte>

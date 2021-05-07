@@ -17,20 +17,16 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The `count()` method takes in a list of values of any data type, and returns the number of times(count) a particular value is present within the list.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 pets = ['fish', 'dog', 'dog', 'turtle', 'cat', 'cat', 'cat']
 
 print(pets.count('cat'))
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 treats_per_pet = [1, 3, 3, 1.5, 2, 2, 2]
 
 x = treats_per_pet.count(3)
 print(x)
 ```
-</codebyte>

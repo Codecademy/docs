@@ -17,23 +17,17 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `float()` takes in a numeric, string, or no value and a copy of that value in the floating point data type.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print(float(314))
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 print(float("314"))
 ```
-</codebyte>
 
 ## Example 3
-<codebyte>
-```py
+```codebyte/python
 f = float()
 print(f)
 ```
-</codebyte>

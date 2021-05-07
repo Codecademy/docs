@@ -17,24 +17,19 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `dict()` function initializes a new dictionary from mapping n-number of object(key, value) pairs.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 my_dict = dict([('a', 1), ('b', 2), ('c',3)])
 print(my_dict)
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 my_dict = dict(a=1, b=2, c=3)
 print(my_dict)
 ```
-</codebyte>
 
 ## Example 3
-<codebyte>
-```py
+```codebyte/python
 iterable = [('a',1), ('b',2), ('c',3)]
 
 d = {}
@@ -43,12 +38,9 @@ for k, v in iterable:
 
 print(d)
 ```
-</codebyte>
 
 ## Example 4
-<codebyte>
-```py
+```codebyte/python
 d = dict()
 print(d)
 ```
-</codebyte>

@@ -17,26 +17,20 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The `capitalize()` method takes in a string, and returns a copy of the string in Capital Case.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 text = "welcome to codecademy's codepedia!"
 print(text.capitalize())
 ```
-</codebyte>
 
 ## Example 3
-<codebyte>
-```py
+```codebyte/python
 text = "welcome To Codecademy's Codepedia!"
 
 x = text.capitalize()
 print(x)
 ```
-</codebyte>
