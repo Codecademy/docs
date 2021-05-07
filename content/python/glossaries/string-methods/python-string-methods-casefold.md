@@ -14,14 +14,25 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
 ## Definition
+***
 The `casefold()` method takes in a string, and returns a copy of the string with all characters in lower case.
 
+## Syntax
+***
+```py
+"string".casefold()
+```
+
 ## Example 1
+***
+Use `casefold()` to set all characters in a string to lower case:
 ```codebyte/python
 print("THIS SHOULD ALL BE IN LOWERCASE!".casefold())
 ```
 
 ## Example 2
+***
+Use `casefold()` to set all characters in a string to lower case:
 ```codebyte/python
 text = "this Should All Be In Lower Case!"
 
