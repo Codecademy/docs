@@ -20,11 +20,15 @@ Removes exisiting record(s) from a table. If a `WHERE` statement is excluded, al
 
 ## Example
 
+Suppose there's a `students` table and we want to delete all the non-current students:
+
 ```sql
 DELETE FROM students
 WHERE enrolled_status = 'not_current';
-/* Deletes all non-current students */
+```
 
+Suppoose we want to delete all entries in the `students` table:
+
+```sql
 DELETE FROM students;
-/* Deletes all entries in the Students table */
 ```
