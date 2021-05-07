@@ -19,7 +19,7 @@ The `while` loop creates a loop that is executed as long as a specified conditio
 
 ```pseudo
 while (condition) {
-  // code block to be executed
+  // Code block to be executed
 }
 ```
  
@@ -75,10 +75,14 @@ const items = ['apricot', 'banana', 'cherry'];
 for (let i = items.length - 1; i >= 0; i -= 1) {
   console.log(`${i}. ${items[i]}`);
 }
- 
-// Prints: 2. cherry
-// Prints: 1. banana
-// Prints: 0. apricot
+```
+
+The output should look like:
+
+```
+2. cherry
+1. banana
+0. apricot
 ```
 
 ## Looping Through Arrays
@@ -122,14 +126,16 @@ for (let outer = 0; outer < 2; outer += 1) {
     console.log(`${outer}-${inner}`);
   }
 }
- 
-/* 
-Output:
+```
+
+The output should look like:
+
+``` 
 0-0
 0-1
 0-2
 1-0
 1-1
 1-2
-*/
+```
 ```
