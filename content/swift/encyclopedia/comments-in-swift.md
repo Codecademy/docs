@@ -30,7 +30,7 @@ print("Hello World")
 A single-line comment can also used to comment after a line of code:
 
 ```swift
-let name = "Johnny Appleseed" // Me, too!
+print("Hello World") // Me, too!
 ```
 
 ## Multi-Line Comments
