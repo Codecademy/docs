@@ -34,11 +34,15 @@ Bitwise NOT `~` operator inverts all the bits in a number, so `0101 0101` will b
 ```swift
 var newBinaryNumber: UInt8 = 0b01010101  // 01010101
 var NewinvertedBinary = ~newBinaryNumber // 10101010
-print(NewinvertedBinary) // prints: 170
+
+print(NewinvertedBinary) 
+// Output: 170
 
 var standardInt = 85
 var invertedStandardInt = ~standardInt
-print(invertedStandardInt) // prints: -86
+
+print(invertedStandardInt) 
+// Output: -86
 ```
 
 ## Bitwise AND Operator
