@@ -13,7 +13,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Python has a special module called "random" which can be used to randomly generate or modify integers, floats, lists and strings. In order to use the random module first add `import random` to the top of a python file.
+Python has a special module called `random` which can be used to randomly generate or modify integers, floats, lists and strings. In order to use the random module first add `import random` to the top of a python file.
 
 For example, the `random()` method will generate a float greater than or equal to 0.0 and less then 1.0.
 
