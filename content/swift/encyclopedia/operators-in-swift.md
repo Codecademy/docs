@@ -144,7 +144,7 @@ for food in picnic[2...] {
 // Juice Box
 
 for food in picnic[..<3] {
-  priont(food)
+  print(food)
 }
 // Ceasar Salad
 // Turkey Sandwich
