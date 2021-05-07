@@ -1,17 +1,14 @@
 ---
+Title: "Tables in HTML"
 Subjects:
-  - "HTML/CSS"
   - "Web Development"
 Tags: 
   - "Elements"
-  - "HTML & CSS"
   - "Table"
   - "Web Development"
 Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/learn/learn-html"
 ---
-
-# HTML - Tables
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
 
@@ -29,9 +26,9 @@ The table row element, denoted as `<tr>`, is used to display data within a row (
 
 ```html
 <table>
-  <tr></tr> <!-- Row 1 -->
-  <tr></tr> <!-- Row 2 -->
-  <tr></tr> <!-- Row 3 -->
+  <tr>Row 1</tr>
+  <tr>Row 2</tr>
+  <tr>Row 3</tr>
 </table>
 ```
 
@@ -83,25 +80,11 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 </table>
 ```
 
-<code>
-  <table>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
-      <td>Data 3</td>
-    </tr>
-    <tr>
-      <td>Data 4</td>
-      <td>Data 5</td>
-      <td>Data 6</td>
-    </tr>
-  </table>
-</code>
+| Column 1 | Column 2 | Column 3 |
+| :------: | :------: | :------: |
+| Data 1   | Data 2   | Data 3   |
+| Data 4   | Data 5   | Data 6   |
+
 
 ## Uses
 
