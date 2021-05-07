@@ -23,9 +23,13 @@ Famous software engineer Martin Fowler once wrote,
 In Swift, as in many other languages, single line comments are prefaced with two consecutive forward slashes (`//`). They don't have to be their own line, single line comments can be appended at the end of a line to give more context.
 
 ```swift
-// I am a comment in Swift!
+// I am a singgle-line comment in Swift!
 print("Hello World")
+```
 
+A single-line comment can also used to comment after a line of code:
+
+```swift
 let name = "Johnny Appleseed" // Me, too!
 ```
 
