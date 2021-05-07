@@ -27,7 +27,7 @@ DELETE FROM students
 WHERE enrolled_status = 'not_current';
 ```
 
-Suppoose we want to delete all entries in the `students` table:
+Supoose we want to delete all entries in the `students` table:
 
 ```sql
 DELETE FROM students;
