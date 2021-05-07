@@ -39,7 +39,7 @@ After `ADD`ing the new column `exam_grade`:
 | 10002      | amy    | 789 T St  |  3.2              | 3.8         | null       |
 
 ```sql
-ALTER TABLE Students
+ALTER TABLE students
 DROP COLUMN last_terms_grades;
 ```
 
