@@ -2,7 +2,7 @@
 Title: "Advanced Operators in Swift"
 Subjects:
   - "iOS"
-  - "Mobile development
+  - "Mobile Development"
 Tags:
   - "Operators"
 Catalog Content:
