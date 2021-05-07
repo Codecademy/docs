@@ -55,5 +55,5 @@ Variables and constants can also be passed directly into functions and methods o
 ```swift
 let 🌕 = "Full Moon"
 print(🌕)
-// Prints: "Full Moon"
+// Output: "Full Moon"
 ```
