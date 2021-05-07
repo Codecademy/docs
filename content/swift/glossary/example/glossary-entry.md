@@ -1,13 +1,13 @@
 ---
-Title: "Arrays in C++"
+Title: "Example"
 Subjects:
-  - "Computer Science"
-  - "Game Development"
+  - "Mobile Development"
+  - "iOS"
 Tags: 
   - "Arrays"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/learn-swift"
+  - ""
 ---
 
 ## Definition
