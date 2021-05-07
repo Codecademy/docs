@@ -31,5 +31,5 @@ If you haven't gone through this workflow before, you can check out [this YouTub
 
 ## Additional Notes
 - Please prioritize all course and skill path work over Codepedia. Codepedia is a great way to fit in extra hours, but only when you don’t have higher priority work to do!
-- Please use the ’Codepedia” Boomr Project for time spent on this content.
+- Please use the "Codepedia” Boomr Project for time spent on this content.
 - Remember, if you ever have any questions at all, we're there to help in #codepedia-production. Report bugs: #codepedia.
