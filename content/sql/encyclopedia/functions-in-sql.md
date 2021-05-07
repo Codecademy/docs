@@ -27,7 +27,7 @@ Some aggregate functions are:
 
 ## Arithmetic Functions
 
-A mathematical function executes a mathematical operation usually based on input values that are provided as arguments, and return a numeric value as the result of the operation. Mathematical functions operate on numeric data such as `DECIMAL`, `INTEGER`, FLOAT, REAL, SMALLINT, and TINYINT.
+A mathematical function executes a mathematical operation usually based on input values that are provided as arguments, and return a numeric value as the result of the operation. Mathematical functions operate on numeric data such as `DECIMAL`, `INTEGER`, `FLOAT`, `REAL`, `SMALLINT`, and `TINYINT`.
 
 Some arithmetic functions are:
 
