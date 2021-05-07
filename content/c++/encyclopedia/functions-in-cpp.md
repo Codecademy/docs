@@ -46,15 +46,15 @@ The definition is the actual body of the function which executes when a function
 ```cpp
 #include <iostream>
  
-// function declaration
+// Function declaration
 void blah(); 
  
-// main function
+// Main function
 int main() {
   blah();
 }
  
-// function definition
+// Function definition
 void blah() {
   std::cout << "Blah blah";
 }
@@ -119,7 +119,7 @@ int main() {
 **functions.hpp**
  
 ```cpp
-// function declaration
+// Function declaration
 std::string say_hi(std::string name);
 ```
 
@@ -129,7 +129,7 @@ std::string say_hi(std::string name);
 #include <string>
 #include "functions.hpp"
  
-// function defintion
+// Function defintion
 std::string say_hi(std::string name) {
  
   return "Hey there, " + name + "!\n";
@@ -148,10 +148,10 @@ void print(int);
  
 int main() {
   print(10); 
-  // the argument 10 is received as input value
+  // The argument 10 is received as input value
 }
  
-// parameter a is defined for the function print
+// Parameter a is defined for the function print
 void print(int a) {
   std::cout << a;  
 }
