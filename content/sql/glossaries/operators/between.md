@@ -20,7 +20,7 @@ Selects values, inclusively of beginning and end values, within a given range. B
 
 ## Code Example
 
-Suppose we want to get student with GPA between 0 and 2 in an ascending order:
+Suppose we want to get students with GPA between 0 and 2 in an ascending order:
 
 ```sql
 SELECT * 
