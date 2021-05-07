@@ -106,11 +106,15 @@ let userAge = 32
 for year in 2...userAge {
   print("You turned \(year) years old!")
 }
-// Outputs:
-// "You turned 2 years old!"
-// "You turned 3 years old!"
-// ... all the way to and including
-// "You turned 32 years old!"
+```
+
+This should output:
+
+```
+You turned 2 years old!
+You turned 3 years old!
+... all the way to and including
+You turned 32 years old!
 ```
 
 Half-Open range operators(`a..<z`) create a range beginning at `a` and continue to `z` but not including `z`. They are commonly used when working with Arrays or other zero-indexed lists.
@@ -121,10 +125,15 @@ let picnic = ["Ceasar Salad", "Turkey Sandwich", "Cookie", "Juice Box"]
 for i in 0..<picnic.count {
   print("Item #\(i+1) in the picnic basket is a \(picnic[i]).")
 }
-// Item 1 in the picnic basket is a Ceasar Salad.
-// Item 2 in the picnic basket is a Turkey Sandwiches.
-// Item 3 in the picnic basket is a Cookie.
-// Item 4 in the picnic basket is a Juice Box.
+```
+
+This should output:
+
+```
+Item 1 in the picnic basket is a Ceasar Salad.
+Item 2 in the picnic basket is a Turkey Sandwiches.
+Item 3 in the picnic basket is a Cookie.
+Item 4 in the picnic basket is a Juice Box.
 ```
 
 The One-Sided range operator defines a range that will continue as far in one direction as possible. We can use this range to iterate from or to specific ranges inside of other fixed length entities.
