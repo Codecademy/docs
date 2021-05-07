@@ -21,6 +21,7 @@ For example, the `random()` method will generate a float greater than or equal t
 import random
 
 myRandomNumber = random.random()
+
 print(myRandomNumber)
 # Output: A random number between 0.0 and 1.0, including 0.0 and excluding 1.0
 ```
