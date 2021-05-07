@@ -46,7 +46,7 @@ do {
   i++;
 } while (i < 5);
  
-// Prints: 0 1 3 6 10
+// Output: 0 1 3 6 10
 ```
 
 ## For Loop
