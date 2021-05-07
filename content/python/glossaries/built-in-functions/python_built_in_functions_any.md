@@ -17,31 +17,23 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `any()` function takes in an iterable object such as a list or tuple and returns `True` if any of the elements in the iterable are true. If none of the elements present in the iterable are true, `any()` will return `False`.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print(any([True, 1, False, 0]))
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 print(any([False, 0]))
 ```
-</codebyte>
 
 ## Example 3
-<codebyte>
-```py
+```codebyte/python
 my_dict = {1 : "On"}
 print(any(my_dict))
 ```
-</codebyte>
 
 ## Example 4
-<codebyte>
-```py
+```codebyte/python
 my_dict = {0 : "Off"}
 print(any(my_dict))
 ```
-</codebyte>

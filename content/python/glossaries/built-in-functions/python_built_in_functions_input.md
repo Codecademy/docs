@@ -17,19 +17,15 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `input()` takes in a value from the user and converts the value into a string. This function is unique in that the environment creates a field to allow users to enter the value.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 user_enters = input()
 
 print(user_enters)
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 user_enters_name = input("What is your name?")
 
 print(user_enters)
 ```
-</codebyte>

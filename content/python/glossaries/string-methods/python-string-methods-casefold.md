@@ -17,18 +17,14 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The `casefold()` method takes in a string, and returns a copy of the string with all characters in lower case.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print("THIS SHOULD ALL BE IN LOWERCASE!".casefold())
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 text = "this Should All Be In Lower Case!"
 
 x = text.casefold()
 print(x)
 ```
-</codebyte>

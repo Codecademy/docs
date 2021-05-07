@@ -17,15 +17,11 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 The built-in `int()` takes in a value that can be converted into an integer, and returns a copy of the value in the `int` datatype.
 
 ## Example 1
-<codebyte>
-```py
+```codebyte/python
 print(int(314.0))
 ```
-</codebyte>
 
 ## Example 2
-<codebyte>
-```py
+```codebyte/python
 print(int("314"))
 ```
-</codebyte>
