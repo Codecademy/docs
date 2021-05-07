@@ -140,7 +140,7 @@ if tim == amy {
 } else {
   print("These are different students")
 }
-// Prints: "These are different students"
+// Output: "These are different students"
 ```
 
 We can now use `==` to compare two students in a way that makes sense to our program logic. Swift also allows us to overright most of the common operators, for a complete list, [visit this page](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418). When we add or subtract from a student, we want to manipulate the GPAs, the mthods below provide examples of their implementation.
@@ -168,10 +168,10 @@ Basic operators are not the only ones that can be reassigned, we can also redefi
 
 ```swift
 extension Student {
-    static func += (left: inout Student, right: Double) -> Student {
-        left.gpa = left + right
-        return left
-    }
+  static func += (left: inout Student, right: Double) -> Student {
+    left.gpa = left + right
+    return left
+  }
 }
 ```
 
