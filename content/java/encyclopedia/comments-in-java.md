@@ -17,7 +17,7 @@ A comment is a piece of text within a program that is not executed. It can be us
 In Java, single-line comments are created with two consecutive forward slashes `//`.
 
 ```js
-// I am a single line comment!
+// I am a single-line comment!
 System.out.println("Hello, world!");
 ```
 
