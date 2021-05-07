@@ -20,8 +20,11 @@ Selects values, inclusively of beginning and end values, within a given range. B
 
 ## Code Example
 
+Suppose we want to get student with GPA between 0 and 2 in an ascending order:
+
 ```sql
-SELECT * FROM students
+SELECT * 
+FROM students
 WHERE gpa BETWEEN 0.0 AND 1.99
 ORDER BY gpa;
 ```
