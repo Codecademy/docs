@@ -41,16 +41,16 @@ print(dice_roll)
 # Output: Either 1 or 6
 ```
 
-Alternatively, to generate a random float between `a` and `b`, use the `uniform(a,b)` method. However, unlike `randint(a,b)`, `uniform(a,b)` is inclusive of `a` but exclusive of `b`:
+Alternatively, to generate a random float between `a` and `b`, use the `uniform(a, b)` method. However, unlike `randint(a, b)`, `uniform(a, b)` is inclusive of `a` but exclusive of `b`:
 
 ```codebyte/py
 import random
 
-myRandomNumber = random.uniform(1,2)
+myRandomNumber = random.uniform(1, 2)
 print(myRandomNumber)
 # Output: A number between 1.0 and 2.0, including 1.0 and excluding 2.0 
 
-myRandomNumber = random.uniform(1.5,10.3)
+myRandomNumber = random.uniform(1.5, 10.3)
 print(myRandomNumber)
 # Output: A number between 1.5 and 10.3, including 1.5 and excluding 10.3
 
