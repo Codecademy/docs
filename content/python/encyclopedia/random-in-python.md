@@ -40,7 +40,7 @@ import random
 dice_roll = random.randint(1, 6)
 
 print(dice_roll)
-# Output: Either 1 or 6
+# Output: Either 1, 2, 3, 4, 5, or 6
 ```
 
 Alternatively, to generate a random float between `a` and `b`, use the `.uniform(a, b)` method. However, unlike `.randint(a, b)`, `.uniform(a, b)` is inclusive of `a` but exclusive of `b`:
