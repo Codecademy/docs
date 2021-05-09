@@ -28,6 +28,8 @@ print(my_number)
 # Output: A random number between 0.0 and 1.0, including 0.0 and excluding 1.0
 ```
 
+The result should be different everytime `.random()` is called.
+
 ## Generating Random Numbers
 
 The random module can generate random integers rather than floats by using `.randint(a, b)`, where `a` and `b` are integers. This generates a number between `a` and `b` inclusive.
