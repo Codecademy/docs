@@ -36,11 +36,11 @@ import random
 
 myRandomNumber = random.randint(1,2)
 print(myRandomNumber)
-# Output: either 1 or 2
+# Output: Either 1 or 2
 
 myRandomNumber = random.randint(20,100)
 print(myRandomNumber)
-# Output: a number between 20 and 100, including 20 and 100
+# Output: A number between 20 and 100, including 20 and 100
 ```
 
 Alternatively, to generate a random float between `a` and `b`, use the `uniform(a,b)` method. However, unlike `randint(a,b)`, `uniform(a,b)` is inclusive of `a` but exclusive of `b`:
@@ -50,11 +50,11 @@ import random
 
 myRandomNumber = random.uniform(1,2)
 print(myRandomNumber)
-# Output: a number between 1.0 and 2.0, including 1.0 and excluding 2.0 
+# Output: A number between 1.0 and 2.0, including 1.0 and excluding 2.0 
 
 myRandomNumber = random.uniform(1.5,10.3)
 print(myRandomNumber)
-# Output: a number between 1.5 and 10.3, including 1.5 and excluding 10.3
+# Output: A number between 1.5 and 10.3, including 1.5 and excluding 10.3
 
 ```
 
@@ -98,7 +98,7 @@ print(myList)
 myList = [1,2,3,4,5,6,7,8]
 myList = random.sample(myList, 4)
 print(myList)
-# Output: four numbers from myList in a randomized order
+# Output: Four numbers from myList in a randomized order
 ```
 
 The difference between `shuffle()` and `sample(a,b)` matters when randomizing strings. Because lists are mutable, they can be changed directly with `shuffle()`; however, strings are immutable, so using `shuffle()` on a string will cause an error.
