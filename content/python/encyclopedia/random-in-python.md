@@ -66,15 +66,15 @@ The random module can also be used to modify and interact with lists. For exampl
 ```codebyte/py
 import random
 
-myList = ["apples", "bananas", "cherries"]
-myFruit = random.choice(myList)
+my_list = ["apples", "bananas", "cherries"]
+my_fruit = random.choice(my_list)
 
-print(myFruit)
+print(my_fruit)
 # Output: A random fruit from the above list
 
-myLetter = random.choice(myFruit)
+my_letter = random.choice(my_fruit)
 
-print(myLetter)
+print(my_letter)
 # Output: A random letter from the fruit chosen above
 ```
 
@@ -83,7 +83,7 @@ The random module also has the `.shuffle()` and `.sample(a, b)` methods, both of
 ```codebyte/py
 import random
 
-myList = [1,2,3,4,5,6,7,8]
+myList = [1, 2, 3, 4, 5, 6, 7, 8]
 random.shuffle(myList)
 
 print(myList)
