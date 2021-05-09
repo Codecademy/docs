@@ -4,6 +4,7 @@ Subjects:
   - "Data Science"
   - "Computer Science"
 Tags: 
+  - "Random"
   - "Strings"
   - "Methods"
   - "Lists"
