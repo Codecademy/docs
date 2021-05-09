@@ -21,7 +21,7 @@ In HTML, a table is an element that allows for the representation of data in two
 | Hooli  | Silicon Valley  | Enterprise |  9000 | 1997 | Gavin Bensen | Hooli Is About People |
 | Raviga Capital	| Silicon Valley | Venture Capital	| 12 | 2012 |	Peter Gregory |	Share Only In Success |
 | Aviato | Silicon Valley |	Travel | 3 | 2006 |	Erlich Bachman | Software Aggregation |
-| SEE FOOD | Silicon Valley	| Mobile |	2	 | 2016	|	Jian-Yang	| The Shazam of Food |
+| See Food | Silicon Valley	| Mobile |	2	 | 2016	|	Jian-Yang	| The Shazam of Food |
 
 ## Structure
 
