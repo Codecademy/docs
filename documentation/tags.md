@@ -174,7 +174,8 @@ Properties
 Queries  
 Queues  
 Quicksort  
-Rails  
+Rails
+Random
 Range  
 React  
 React Native  
