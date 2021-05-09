@@ -66,10 +66,12 @@ import random
 
 myList = ["apples", "bananas", "cherries"]
 myFruit = random.choice(myList)
+
 print(myFruit)
 # Output: A random fruit from the above list
 
 myLetter = random.choice(myFruit)
+
 print(myLetter)
 # Output: A random letter from the fruit chosen above
 ```
@@ -81,21 +83,25 @@ import random
 
 myList = [1,2,3,4,5,6,7,8]
 random.shuffle(myList)
+
 print(myList)
 # Output: myList in a randomized order
 
 myList = [1,2,3,4,5,6,7,8]
 random.sample(myList, len(myList))
+
 print(myList)
 # Output: myList is unchanged
 
 myList = [1,2,3,4,5,6,7,8]
 myList = random.sample(myList, len(myList))
+
 print(myList)
 # Output: myList in a randomized order
 
 myList = [1,2,3,4,5,6,7,8]
 myList = random.sample(myList, 4)
+
 print(myList)
 # Output: Four numbers from myList in a randomized order
 ```
@@ -107,6 +113,7 @@ import random
 
 myString = "Codecademy"
 random.shuffle(myString)
+
 print(myString)
 # Output: TypeError: 'str' object does not support item assignment
 ```
@@ -118,6 +125,7 @@ import random
 
 myString = "Codecademy"
 myList = random.sample(myString, len(myString))
+
 print(myList)
 # Output: A randomized list of the letters in "Codecademy"
 ```
@@ -130,6 +138,7 @@ import random
 myString = "Codecademy"
 myList = random.sample(myString, len(myString))
 myString = "".join(myList)
+
 print(myString)
 # Output: A randomized string of the letters in "Codecademy"
 ```
