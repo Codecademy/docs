@@ -28,7 +28,7 @@ print(my_number)
 # Output: A random number between 0.0 and 1.0, including 0.0 and excluding 1.0
 ```
 
-The result should be different everytime `.random()` is called.
+The result should be different every time `.random()` is called.
 
 ## Generating Random Numbers
 
