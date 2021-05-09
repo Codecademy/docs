@@ -83,29 +83,29 @@ The random module also has the `.shuffle()` and `.sample(a, b)` methods, both of
 ```codebyte/py
 import random
 
-myList = [1, 2, 3, 4, 5, 6, 7, 8]
-random.shuffle(myList)
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
+random.shuffle(my_list)
 
-print(myList)
-# Output: myList in a randomized order
+print(my_list)
+# Output: my_list in a randomized order
 
-myList = [1,2,3,4,5,6,7,8]
-random.sample(myList, len(myList))
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
+random.sample(my_list, len(my_list))
 
-print(myList)
-# Output: myList is unchanged
+print(my_list)
+# Output: my_list is unchanged
 
-myList = [1,2,3,4,5,6,7,8]
-myList = random.sample(myList, len(myList))
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
+my_list = random.sample(my_list, len(my_list))
 
-print(myList)
-# Output: myList in a randomized order
+print(my_list)
+# Output: my_list in a randomized order
 
-myList = [1,2,3,4,5,6,7,8]
-myList = random.sample(myList, 4)
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
+my_list = random.sample(my_list, 4)
 
-print(myList)
-# Output: Four numbers from myList in a randomized order
+print(my_list)
+# Output: Four numbers from my_list in a randomized order
 ```
 
 The difference between `.shuffle()` and `.sample(a, b)` matters when randomizing strings. Because lists are mutable, they can be changed directly with `.shuffle()`; however, strings are immutable, so using `.shuffle()` on a string will cause an error.
@@ -113,10 +113,10 @@ The difference between `.shuffle()` and `.sample(a, b)` matters when randomizing
 ```codebyte/py
 import random
 
-myString = "Codecademy"
-random.shuffle(myString)
+my_string = "Codecademy"
+random.shuffle(my_string)
 
-print(myString)
+print(my_string)
 # Output: TypeError: 'str' object does not support item assignment
 ```
 
@@ -125,10 +125,10 @@ On the other hand `.sample(a, b)` returns a new object rather than modifying the
 ```codebyte/py
 import random
 
-myString = "Codecademy"
-myList = random.sample(myString, len(myString))
+my_string = "Codecademy"
+my_list = random.sample(my_string, len(my_string))
 
-print(myList)
+print(my_list)
 # Output: A randomized list of the letters in "Codecademy"
 ```
 
@@ -137,10 +137,10 @@ To make the list returned by `.sample(a, b)` a string again, use Python's built 
 ```codebyte/py
 import random
 
-myString = "Codecademy"
-myList = random.sample(myString, len(myString))
-myString = "".join(myList)
+my_string = "Codecademy"
+my_list = random.sample(my_string, len(my_string))
+my_string = "".join(myList)
 
-print(myString)
+print(my_string)
 # Output: A randomized string of the letters in "Codecademy"
 ```
