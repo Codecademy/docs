@@ -3,14 +3,25 @@ Title: "Tables in HTML"
 Subjects:
   - "Web Development"
 Tags: 
+  - "Tables"
   - "Elements"
-  - "Table"
   - "Web Development"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
+Catalog Content: 
   - "https://www.codecademy.com/learn/learn-html"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
+
+## Example
+
+| Name | Location | Category | Employees | Founded | CEO | Info |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| Pied Piper | Silicon Valley | Cloud Computing | 6 | 2014 | Richard Hendricks | A Middle-Out Compression Solution |
+| Hooli  | Silicon Valley  | Enterprise |  9000 | 1997 | Gavin Bensen | Hooli Is About People |
+| Raviga Capital	| Silicon Valley | Venture Capital	| 12 | 2012 |	Peter Gregory |	Share Only In Success |
+| Aviato | Silicon Valley |	Travel | 3 | 2006 |	Erlich Bachman | Software Aggregation |
+| SEE FOOD | Silicon Valley	| Mobile |	2	 | 2016	|	Jian-Yang	| The Shazam of Food |
 
 ## Structure
 
@@ -26,9 +37,9 @@ The table row element, denoted as `<tr>`, is used to display data within a row (
 
 ```html
 <table>
-  <tr>Row 1</tr>
-  <tr>Row 2</tr>
-  <tr>Row 3</tr>
+  <tr>...</tr>
+  <tr>...</tr>
+  <tr>...</tr>
 </table>
 ```
 
@@ -45,16 +56,10 @@ The table header element, denoted as `<th>`, is used to display data for a speci
   </tr>
 </table>
 ```
-<code>
-  <table>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-    </tr>
-  </table>
-</code>
-<br>
+
+| Column 1 | Column 2 | Column 3 |
+| :------: | :------: | :------: |
+
 
 ### Table Data
 
