@@ -22,25 +22,25 @@ For example, the `random()` method will generate a float greater than or equal t
 ```codebyte/py
 import random
 
-my_random_number = random.random()
+my_number = random.random()
 
-print(my_random_number)
+print(my_number)
 # Output: A random number between 0.0 and 1.0, including 0.0 and excluding 1.0
 ```
 
 ## Generating Random Numbers
 
-The random module can generate random integers rather than floats by using `randint(a,b)`, where `a` and `b` are integers. This generates a number between `a` and `b` inclusive.
+The random module can generate random integers rather than floats by using `randint(a, b)`, where `a` and `b` are integers. This generates a number between `a` and `b` inclusive.
 
 ```codebyte/py
 import random
 
-myRandomNumber = random.randint(1,2)
-print(myRandomNumber)
-# Output: Either 1 or 2
+dice_roll = random.randint(1, 6)
+print(dice_roll)
+# Output: Either 1 or 6
 
-myRandomNumber = random.randint(20,100)
-print(myRandomNumber)
+my_number = random.randint(20, 100)
+print(my_number)
 # Output: A number between 20 and 100, including 20 and 100
 ```
 
