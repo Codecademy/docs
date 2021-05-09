@@ -73,14 +73,14 @@ The table data element, denoted as `<td>`, is used to display individual data wi
     <th>Heading 3</th>
   </tr>
   <tr>
-    <td>Cell 1 Data</td>
-    <td>Cell 2 Data</td>
-    <td>Cell 3 Data </td>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+    <td>Cell 3</td>
   </tr>
   <tr>
-    <td>Data 4</td>
-    <td>Data 5</td>
-    <td>Data 6</td>
+    <td>Cell 4</td>
+    <td>Cell 5</td>
+    <td>Cell 6</td>
   </tr>
 </table>
 ```
