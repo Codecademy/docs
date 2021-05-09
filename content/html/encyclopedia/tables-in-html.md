@@ -37,9 +37,9 @@ The table row element, denoted as `<tr>`, is used to display data within a row (
 
 ```html
 <table>
-  <tr>...</tr>
-  <tr>...</tr>
-  <tr>...</tr>
+  <tr>
+    ...
+  </tr>
 </table>
 ```
 
@@ -50,14 +50,14 @@ The table header element, denoted as `<th>`, is used to display data for a speci
 ```html
 <table>
   <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
-    <th>Column 3</th>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
   </tr>
 </table>
 ```
 
-| Column 1 | Column 2 | Column 3 |
+| Heading 1 | Heading 2 | Heading 3 |
 | :------: | :------: | :------: |
 
 
@@ -68,14 +68,14 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 ```html
 <table>
   <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
-    <th>Column 3</th>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
   </tr>
   <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
-    <td>Data 3</td>
+    <td>Cell 1 Data</td>
+    <td>Cell 2 Data</td>
+    <td>Cell 3 Data </td>
   </tr>
   <tr>
     <td>Data 4</td>
@@ -85,10 +85,10 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 </table>
 ```
 
-| Column 1 | Column 2 | Column 3 |
+| Heading 1 | Heading 2 | Heading 3 |
 | :------: | :------: | :------: |
-| Data 1   | Data 2   | Data 3   |
-| Data 4   | Data 5   | Data 6   |
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
 
 
 ## Uses
