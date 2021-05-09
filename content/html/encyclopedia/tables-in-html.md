@@ -20,7 +20,7 @@ In HTML, a table is an element that allows for the representation of data in two
 | Pied Piper | Silicon Valley | Cloud Computing | 6 | 2014 | Richard Hendricks | A Middle-Out Compression Solution |
 | Hooli  | Silicon Valley  | Enterprise |  9000 | 1997 | Gavin Bensen | Hooli is about People |
 | Raviga Capital	| Silicon Valley | Venture Capital	| 12 | 2012 |	Peter Gregory |	Share only in Success |
-| Aviato | Silicon Valley |	Travel | 3 | 2006 |	Erlich Bachman | Software Aggregation |
+| Aviato | Silicon Valley |	Travel | 3 | 2006 |	Erlich Bachman | Software Aggregation Program |
 | See Food | Silicon Valley	| Mobile |	2	 | 2016	|	Jian-Yang	| The Shazam of Food |
 
 ## Structure
