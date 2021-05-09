@@ -46,14 +46,15 @@ Alternatively, to generate a random float between `a` and `b`, use the `uniform(
 ```codebyte/py
 import random
 
-myRandomNumber = random.uniform(1, 2)
-print(myRandomNumber)
+my_number = random.uniform(1, 2)
+
+print(my_number)
 # Output: A number between 1.0 and 2.0, including 1.0 and excluding 2.0 
 
-myRandomNumber = random.uniform(1.5, 10.3)
-print(myRandomNumber)
-# Output: A number between 1.5 and 10.3, including 1.5 and excluding 10.3
+my_number = random.uniform(1.5, 10.3)
 
+print(my_number)
+# Output: A number between 1.5 and 10.3, including 1.5 and excluding 10.3
 ```
 
 ## Using Random with Lists and Strings
