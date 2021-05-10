@@ -23,3 +23,7 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 
 ## Field n
 [Text, code, images, etc. about field n]
+
+```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
+console.log('Hello, World!');
+```
