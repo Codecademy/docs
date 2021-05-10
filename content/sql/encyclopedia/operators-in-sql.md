@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Operators"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/learn-sql"
+  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
+  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
 ---
 
 SQL operators are unique keywords used in the `WHERE` clause of a statement to perform arithmetic, comparison, and logical operations. 
