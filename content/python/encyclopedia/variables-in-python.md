@@ -4,7 +4,10 @@ Subjects:
   - "Computer Science"
   - "Data Science"
 Tags: 
-  - "Operators"
+  - "Variables"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
