@@ -1,5 +1,5 @@
 ---
-Title: "Python Built-In Functions: `.seek()`"
+Title: "Python File Functions: `.seek()`"
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The built-in `.seek()` function allows the user to move the location of the file handle's reference point within an open file from one place to another.
+The `.seek()` file function allows the user to move the location of the file handle's reference point within an open file from one place to another.
 
 ## Syntax
 ***
