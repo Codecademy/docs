@@ -5,6 +5,8 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Operators"
+  - "Arithmetic"
+  - "Comparison"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
