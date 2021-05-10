@@ -11,15 +11,19 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
+SQL operators are unique keywords used in the `WHERE` clause of a statement to perform arithmetic, comparison, and logical operations. 
+
 ## Arithmetic Operators
 
 Arithmetic operators are used to perform arithmetic on numeric types:
 
-* `+` addition
-* `-` subtraction
-* `*` multiplication
-* `/` division
-* `%` modulo
+* `+`: Addition
+* `-`: Subtraction
+* `*`: Multiplication
+* `/`: Division
+* `%`: Modulo (remainder)
+
+For example: 
 
 ```sql
 -- Addition
@@ -38,9 +42,21 @@ Arithmetic operators are used to perform arithmetic on numeric types:
 
 Comparison operators can be used to compare two values:
 
-- `=` equal to
-- `!=`, `<>` not equal
-- `>` greater than
-- `<` less than
-- `>=` greater than or equal to
-- `<=` less than or equal to
+- `=`: Equal to
+- `>`: Greater than
+- `<`: Less than
+- `>=`: Greater than or equal to
+- `<=`: Less than or equal to
+- `!=`: Not equal
+
+For example:
+
+```sql
+SELECT * 
+FROM students
+WHERE gpa > 25;
+```
+
+## Logical Operators
+
+Logical operators can be used to combine multiple conditions such as `AND`, `OR`, `NOT` or perform operations such as `NOT` and `BETWEEN`.
