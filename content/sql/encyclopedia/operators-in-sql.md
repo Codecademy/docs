@@ -5,6 +5,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Operators"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
