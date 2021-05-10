@@ -24,7 +24,7 @@ while condition:
   # Code inside
 ```
 
-This loop will only run 1 time
+This loop will only run 1 time:
 
 ```py
 hungry = True
