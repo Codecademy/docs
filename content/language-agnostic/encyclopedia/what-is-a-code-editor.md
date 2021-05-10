@@ -6,6 +6,7 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Code Editors"
+  - "IDE"
 Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/articles/text-editor"
 ---
