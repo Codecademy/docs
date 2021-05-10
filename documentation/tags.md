@@ -79,6 +79,7 @@ Dplyr
 Dynamic Programming  
 Effects  
 Elements  
+Else
 Encapsulation  
 Enum  
 Errors  
@@ -113,7 +114,7 @@ Heroku
 Histograms  
 HTTP  
 Id  
-If/Else  
+If  
 Images  
 Inheritance  
 Input  
