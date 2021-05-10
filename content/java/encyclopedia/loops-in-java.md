@@ -21,14 +21,14 @@ while (condition) {
 }
 ```
 
-In the example below, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:
+In this example, the code in the loop will run again and again, as long as variable `i` is still less than 10:
 
 ```java
 int i = 0;
 
-while (i < 5) {
+while (i < 10) {
   System.out.println(i);
-  i++;
+  i = i + 2;
 }
 ```
 
@@ -36,10 +36,10 @@ The output would be:
 
 ```
 0
-1
 2
-3
 4
+6
+8
 ```
 
 ## For-Each Statement
