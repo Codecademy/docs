@@ -5,6 +5,8 @@ Subjects:
   - "Data Science"
 Tags: 
   - "Loops"
+  - "While"
+  - "For"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -19,23 +21,27 @@ The condition of a `while` loop is always checked first before the block of code
 
 ```pseudo
 while condition:
-  # code inside
+  # Code inside
 ```
 
+This loop will only run 1 time
+
 ```py
-# This loop will only run 1 time
 hungry = True
 
 while hungry:
-   print("Time to eat!")
-   hungry = False
- 
-# This loop will run 5 times
+  print("Time to eat!")
+  hungry = False
+```
+
+This loop will run 5 times:
+
+```py
 i = 1
 
 while i < 6:
-   print(i)
-   i = i + 1
+  print(i)
+  i = i + 1
 ```
 
 ## For Loop
