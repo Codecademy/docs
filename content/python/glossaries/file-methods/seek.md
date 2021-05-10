@@ -19,7 +19,7 @@ The `.seek()` file function allows the user to move the location of the file han
 ## Syntax
 ***
 ```py
-seek(offset, from what location)
+file.seek(offset, from what location)
 ```
 
 ## Example 1
