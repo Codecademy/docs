@@ -4,6 +4,7 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Loops"
+  - "While"
   - "For"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
