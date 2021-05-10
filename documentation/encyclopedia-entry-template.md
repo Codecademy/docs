@@ -17,8 +17,9 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 ## Subsection 1
 [Text about subsection 1]
 
-## Subsection 2
-[Text about subsection 2]
-
 ## Subsection n
 [Text about subsection n]
+
+```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
+console.log('Hello, World!');
+```
