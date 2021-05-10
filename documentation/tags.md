@@ -13,7 +13,8 @@ Android
 Angular  
 Animation  
 APIs  
-Arguments
+Arguments  
+Arithmetic
 Arrays  
 Artificial Intelligence  
 ASP.NET  
@@ -44,6 +45,7 @@ Color
 Combinators  
 Command Line  
 Comments  
+Comparison
 Component  
 Concatenation  
 Conceptual  
@@ -135,6 +137,7 @@ Linked Lists
 Linux  
 Lists  
 Logic  
+Logical  
 Logistic Regression  
 Loops    
 Margin  
