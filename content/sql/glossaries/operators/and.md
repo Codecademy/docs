@@ -5,7 +5,7 @@ Subjects:
 Tags:
   - "Database"
   - "Queries"
-  - "Table"
+  - "Tables"
   - "PostgreSQL"
   - "MySQL"
   - "SQLite"
