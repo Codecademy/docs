@@ -233,6 +233,7 @@ Validation
 Values  
 Variable Types  
 Variables  
+Vectors  
 Version Control  
 Video  
 Views  
