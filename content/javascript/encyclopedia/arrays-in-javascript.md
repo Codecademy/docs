@@ -5,6 +5,7 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Arrays"
+  - "Data Types"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
