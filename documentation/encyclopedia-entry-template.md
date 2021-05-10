@@ -17,6 +17,9 @@ Catalog Content: # Please use course/path landing pages, rather than linking to 
 ## Subsection 1
 [Text about subsection 1]
 
+## Subsection 2
+[Text about subsection 2]
+
 ## Subsection n
 [Text about subsection n]
 
