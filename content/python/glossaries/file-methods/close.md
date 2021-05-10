@@ -1,5 +1,5 @@
 ---
-Title: "Python File Methods: `close()`"
+Title: "Python File Methods: `.close()`"
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `close()` method allows the user to close an open file within the IDE.
+The `.close()` method allows the user to close an open file within the IDE.
 
 ## Syntax
 ***
@@ -24,7 +24,7 @@ file.close()
 
 ## Example 1
 ***
-Use `close()` to close the opened `gullivers_travels.txt` file:
+Use `.close()` to close the opened `gullivers_travels.txt` file:
 ```codebyte/python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
 f.close()
