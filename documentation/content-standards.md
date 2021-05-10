@@ -70,7 +70,7 @@ The syntax is simple: You just add `codebyte/` between the ` ``` ` and the langu
 
 ````
 ```codebyte/js
-code!
+console.log('Hello, World!');
 ```
 ````
 Currently, Codebytes is set to support the following languages:
