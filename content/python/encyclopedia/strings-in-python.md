@@ -131,13 +131,17 @@ strip() # Removes leading or trailing whitespace
 ```
 
 ```codebyte/py
-myString = " Hello, World! "
+myString = "Hello, World!"
+
 a = myString.upper()
 print(a)
+
 b = myString.lower()
 print(b)
+
 c = myString.title()
 print(c)
+
 d = myString.strip()
 print(d)
 ```
