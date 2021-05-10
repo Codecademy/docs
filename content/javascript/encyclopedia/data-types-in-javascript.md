@@ -5,6 +5,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Arrays"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
