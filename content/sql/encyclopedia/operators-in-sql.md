@@ -5,6 +5,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Operators"
+  - "Arithmetic"
+  - "Logical"
+  - "Comparison"
   - "SQLite"
   - "MySQL"
   - "PostgreSQL"
