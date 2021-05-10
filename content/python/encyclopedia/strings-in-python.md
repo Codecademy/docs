@@ -58,7 +58,7 @@ name[8] # Throws an IndexError
 Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three double or single quotes:
 
 ```py
-myString = """If it were done when 'tis done, then 'twere well
+my_string = """If it were done when 'tis done, then 'twere well
 It were done quickly: if the assassination
 Could trammel up the consequence, and catch
 With his surcease success; that but this blow
@@ -70,17 +70,17 @@ We'ld jump the life to come."""
 Sometimes a string may have a character that python tries to interpret such as `"`. These characters can be "escaped" by adding a backslash beforehand. The backslash will not be visible if the string is printed:
 
 ```py
-myString = 'It\'s a lovely day!'
+my_string = 'It\'s a lovely day!'
 
-print(myString)
+print(my_string)
 # Output: It's a lovely day!
 ```  
 
 Python also has a series of non-printable characters that can modify strings. For example, `\n` will add a new line, and `\t` will add a tab:
 
 ```codebyte/py
-myString = "I am on top \nand I am on bottom. \t I am indented!"
-print(myString)
+my_string = "I am on top \nand I am on bottom. \t I am indented!"
+print(m_sString)
 ```
 
 ## Modifying Strings
@@ -131,17 +131,17 @@ strip() # Removes leading or trailing whitespace
 ```
 
 ```codebyte/py
-myString = "Hello, World!"
+message = "Hello, World!"
 
-a = myString.upper()
+a = message.upper()
 print(a)
 
-b = myString.lower()
+b = message.lower()
 print(b)
 
-c = myString.title()
+c = message.title()
 print(c)
 
-d = myString.strip()
+d = message.strip()
 print(d)
 ```
