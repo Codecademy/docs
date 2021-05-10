@@ -90,6 +90,7 @@ Flask
 Flexbox  
 Flutter  
 Fonts  
+For
 Foreign Key  
 Form  
 Functions  
@@ -241,6 +242,7 @@ Vim
 Visibility  
 Vue  
 WebRTC  
+While
 Whiteboarding  
 Xcode  
 ```
