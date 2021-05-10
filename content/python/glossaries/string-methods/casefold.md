@@ -1,5 +1,5 @@
 ---
-Title: "Python String Methods `casefold()`"
+Title: "Python String Methods: `casefold()`"
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
