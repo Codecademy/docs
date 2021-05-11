@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-Initializes a new dictionary from mapping n-number of object(key, value) pairs.
+Initializes a new dictionary from mapping n-number of object (key, value) pairs.
 
 ## Syntax
 
