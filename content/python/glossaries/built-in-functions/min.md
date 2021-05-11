@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-The built-in `min()` function returns the lowest value from values given or an iterable.
+Returns the lowest value from values given or an iterable.
 
 ## Syntax
 
