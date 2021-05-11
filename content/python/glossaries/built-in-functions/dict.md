@@ -28,26 +28,30 @@ dict(key-value pairs)
 Use `dict()` to create the `my_dict` dictionary from a list of tuples:
 ```codebyte/python
 my_dict = dict([('a', 1), ('b', 2), ('c',3)])
+
 print(my_dict)
 ```
 
 ## Example 2
 
 Use `dict()` to create the `my_dict` dictionary from keyword arguments:
+
 ```codebyte/python
-my_dict = dict(a=1, b=2, c=3)
+my_dict = dict(a = 1, b = 2, c = 3)
+
 print(my_dict)
 ```
 
 ## Example 3
 
 Use `dict()` to create the `d` dictionary using list comprehension:
+
 ```codebyte/python
-iterable = [('a',1), ('b',2), ('c',3)]
+iterable = [('a', 1), ('b', 2), ('c', 3)]
 
 d = {}
 for k, v in iterable:
-    d[k] = v
+  d[k] = v
 
 print(d)
 ```
@@ -57,5 +61,6 @@ print(d)
 Use `dict()` to create the new empty dictionary `d`:
 ```codebyte/python
 d = dict()
+
 print(d)
 ```
