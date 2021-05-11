@@ -25,10 +25,16 @@ any(iterable)
 
 ## Example 1
 
-Use `any()` to check if there is a `True` statement in a list:
+Use `any()` to check if there is a `True` statement in a list `[True, 1, False, 0]`:
 
 ```python
 print(any([True, 1, False, 0]))
+```
+
+This would output:
+
+```
+True
 ```
 
 ## Example 2
