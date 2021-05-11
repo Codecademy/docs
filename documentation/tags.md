@@ -5,7 +5,8 @@ Tags in Codepedia are used for recommending related entries and for the home pag
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
-Accessibility  
+Accessibility 
+AI 
 Algorithms  
 Alias  
 Anchor  
@@ -16,7 +17,6 @@ APIs
 Arguments  
 Arithmetic
 Arrays  
-Artificial Intelligence  
 ASP.NET  
 Asymptotic Notation  
 Async Await  
