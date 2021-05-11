@@ -35,13 +35,14 @@ print(any([True, 1, False, 0]))
 
 Use `any()` to check if there is a `True` statement in a list:
 
-```codebyte/python
+```python
 print(any([False, 0]))
 ```
 
 ## Example 3
 
 Use `any()` to check if there is a `True` statement in a dictionary:
+
 ```codebyte/python
 my_dict = {1 : "On"}
 print(any(my_dict))
