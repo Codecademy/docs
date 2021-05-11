@@ -5,12 +5,11 @@ Subjects:
   - "Data Science"
   - "Machine Learning"
 Tags:
-  - "Artificial Intelligence"
-  - "Data Science"
-  - "Machine Learning"
+  - "AI"
   - "Deep Learning"
+  - "Chatbots"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/machine-learning"
   - "https://www.codecademy.com/learn/paths/build-deep-learning-models-with-tensorflow"
 ---
 
