@@ -64,7 +64,7 @@ All code blocks should be delineated by triple backticks (```)
 - SQL: ```sql
 
 #### Runnable Code Blocks
-Codecademy has a new feature we're calling _Codebytes_ that will allow learners to click a button to run and see the output to the console of a code block embedded anywhere on our site. We're excited about this feature, and we highly recommend using it wherever you can!
+Codecademy has a new feature we're calling _Codebytes_ that will allow learners to click a button to run code blocks themselves! The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
 
@@ -82,7 +82,7 @@ Currently, Codebytes is set to support the following languages:
 - Go
 - PHP
 
-Please us Codebytes whenever you want to show the output of a code block for a supported language. 
+Note: Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a _Hello World!_ program set up as an example!
 
 ### Standards for the Metadata 
 
