@@ -1,5 +1,5 @@
 ---
-Title: "Python String Methods: `capitalize()`"
+Title: capitalize()
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
