@@ -14,22 +14,25 @@ Catalog Content:
 ---
 
 ## Definition
-***
-The built-in `max()` function returns the highest value from values given or an iterable.
+
+Returns the highest value from values given or an iterable.
 
 ## Syntax
-***
+
 ```py
 max(n)
 ```
-OR
+
+or
+
 ```py
 max(iterable)
 ```
 
 ## Example 1
-***
+
 Use `max()` to return the highest value from the `shoe_sizes` list:
+
 ```codebyte/python
 shoe_sizes = [6.5, 10.5, 8, 8, 13.5, 12, 7.5, 5]
 
@@ -37,8 +40,9 @@ print(max(shoe_sizes))
 ```
 
 ## Example 2
-***
+
 Use `max()` to return the highest value from the values `"Tom"`, `"Jerry"`, `"Spike"`, `"Tyke"`:
+
 ```codebyte/python
 highest_value_name = max("Tom", "Jerry", "Spike", "Tyke")
 
