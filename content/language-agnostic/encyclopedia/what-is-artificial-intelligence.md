@@ -18,11 +18,11 @@ Artificial intelligence (AI) is both a field of study of intelligent agents, and
 
 ### AI Categories
 
-- Artificial Narrow Intelligence (ANI): ANI or Weak AI, are systems that are considered the least computationally potent AI. These systems include much of the contemporary machine learning and deep learning models with singular and narrowed functions such as Object Classification and Speech Recognition.
+- Artificial Narrow Intelligence (ANI) or Weak AI, are systems that are considered the least computationally potent AI. These systems include much of the contemporary machine learning and deep learning models with singular and narrowed functions such as Object Classification and Speech Recognition.
 
-- Artificial General Intelligence (AGI): AGI or Strong AI, are systems that would pass the Turing Test, with an intelligence that produces outputs that are indistinguishable from that of an adult human being. As of publication, no publicly known AGI have been developed.
+- Artificial General Intelligence (AGI) or Strong AI, are systems that would pass the Turing Test, with an intelligence that produces outputs that are indistinguishable from that of an adult human being. As of publication, no publicly known AGI have been developed.
 
-- Artificial Super Intelligence (ASI): ASI, or Superintelligence is another form of AI yet to be developed that contains an intelligence that can produce outputs that would vastly surpass the capacity of a human being.
+- Artificial Super Intelligence (ASI) or Superintelligence, is another form of AI yet to be developed that contains an intelligence that can produce outputs that would vastly surpass the capacity of a human being.
 
 ### Ethics
 
