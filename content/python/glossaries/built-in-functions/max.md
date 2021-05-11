@@ -20,12 +20,6 @@ Returns the highest value from values given or an iterable.
 ## Syntax
 
 ```py
-max(n)
-```
-
-or
-
-```py
 max(iterable)
 ```
 
