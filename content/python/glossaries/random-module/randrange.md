@@ -1,11 +1,12 @@
 ---
-Title: "randrange()"
+Title: ".randrange()"
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
-  - "Functions"
+  - "Random"
   - "Methods"
+  - "Functions"
   - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -14,16 +15,19 @@ Catalog Content:
 ---
 
 ## Definition
-***
-The `randrange()` method generates random numbers from a stated range.
+
+Generates random numbers from a stated range.
 
 ## Syntax
-***
+
+```py
 random.randrange(start, stop, steps)
+```
 
 ## Example 1
-***
-Use `randrange()` to return a random number between 0 and 99:
+
+Use `.randrange()` to return a random number between 0 and 99:
+
 ```codebyte/python
 import random
 
