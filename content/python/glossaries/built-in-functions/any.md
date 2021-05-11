@@ -59,7 +59,7 @@ print(any(my_dict))
 
 ## The Function
 
-The `any()` built-infunction is essentially:
+The `any()` built-in function is essentially:
 
 ```python
 def any(iterable):
