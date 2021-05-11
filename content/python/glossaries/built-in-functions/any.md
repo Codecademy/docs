@@ -57,9 +57,9 @@ my_dict = {0 : "Off"}
 print(any(my_dict))
 ```
 
-## Code
+## The Function
 
-The `any()` function is essentially:
+The `any()` built-infunction is essentially:
 
 ```python
 def any(iterable):
