@@ -23,29 +23,17 @@ Takes in an iterable object such as a list or tuple and returns `True` if any of
 any(iterable)
 ```
 
+It would return either `True` or `False`.
+
 ## Example 1
 
-Use `any()` to check if there is a `True` statement in a list `[True, 1, False, 0]`:
+Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
 
-```python
-print(any([True, 1, False, 0]))
-```
-
-This would output:
-
-```
-True
+```codebyte/python
+print(any([True, 0, False]))
 ```
 
 ## Example 2
-
-Use `any()` to check if there is a `True` statement in a list:
-
-```python
-print(any([False, 0]))
-```
-
-## Example 3
 
 Use `any()` to check if there is a `True` statement in a dictionary:
 
@@ -54,7 +42,7 @@ my_dict = {1 : "On"}
 print(any(my_dict))
 ```
 
-## Example 4
+## Example 3
 
 Use `any()` to check if there is a `True` statement in a dictionary:
 
