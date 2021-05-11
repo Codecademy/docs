@@ -14,6 +14,8 @@ Catalog Content:
 
 A dictionary is an unordered set of (key, value) pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys.
 
+## Syntax
+
 The syntax of a dictionary is as follows:
 
 ```pseudo
