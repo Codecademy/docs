@@ -56,3 +56,15 @@ Use `any()` to check if there is a `True` statement in a dictionary:
 my_dict = {0 : "Off"}
 print(any(my_dict))
 ```
+
+## Code
+
+The `any()` function is essentially:
+
+```python
+def any(iterable):
+  for element in iterable:
+    if element:
+      return True
+  return False
+```
