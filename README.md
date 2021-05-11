@@ -24,6 +24,7 @@ Contributing is as simple as:
 1. Forking this repo.
 2. Editing your fork.
 3. Making a pull request to merge your fork with this repo.
+4. Let @sonny and @sam-miller-smith know about your PR in #codepedia-content!
 
 If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
