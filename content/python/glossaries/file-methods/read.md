@@ -30,6 +30,7 @@ Use `read()` to read the full contents of the `gullivers_travels.txt` file:
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
+
 f.read()
 ```
 
