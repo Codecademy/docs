@@ -5,7 +5,7 @@ Subjects:
   - "Data Science"
 Tags:
   - "Files"
-  - "Methods
+  - "Methods"
   - "Functions"
   - "Strings"
 Catalog Content:
