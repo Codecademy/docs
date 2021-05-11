@@ -30,6 +30,7 @@ Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "a")
+
 f.writable()
 ```
 
@@ -39,5 +40,6 @@ Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "r")
+
 f.writable()
 ```
