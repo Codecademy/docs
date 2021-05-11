@@ -30,6 +30,7 @@ Use `.seek()` to change the position of the reference point within the **gullive
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "r")
+
 # Print first line of the document from default 0th position
 print(f.readline())
 
@@ -38,5 +39,6 @@ f.seek(50)
 
 # Print line from new reference point
 print(f.readline())
+
 f.close()
 ```
