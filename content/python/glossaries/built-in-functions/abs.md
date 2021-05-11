@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-The built-in `abs()` function takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
+Takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
 
 ## Syntax
 
