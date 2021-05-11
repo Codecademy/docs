@@ -14,18 +14,19 @@ Catalog Content:
 ---
 
 ## Definition
-***
+
 The built-in `input()` takes in a value from the user and converts the value into a string. This function is unique in that the environment creates a field to allow users to enter the value.
 
 ## Syntax
-***
+
 ```py
 input()
 ```
 
 ## Example 1
-***
+
 Use `input()` to prompt user to input a value:
+
 ```codebyte/python
 user_enters = input()
 
@@ -33,8 +34,9 @@ print(user_enters)
 ```
 
 ## Example 2
-***
+
 Use `input()` to prompt user to input a value based on a message:
+
 ```codebyte/python
 user_enters_name = input("What is your name?")
 
