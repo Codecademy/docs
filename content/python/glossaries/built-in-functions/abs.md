@@ -27,7 +27,7 @@ abs(n)
 
 Use `abs()` to return the absolute value of `-6.5`:
 
-```codebyte
+```py
 print(abs(-6.5))
 ```
 
