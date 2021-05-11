@@ -30,6 +30,7 @@ Use `.truncate()` to change the size of the **gullivers_travels.txt** file from 
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "a")
+
 f.truncate(100)
 f.close()
 
