@@ -1,15 +1,16 @@
 ---
 Title: ".write()"
 Subjects:
-  - "Language Fluency"
-  - "Code Foundations"
+  - "Computer Science"
+  - "Data Science"
 Tags:
   - "Functions"
   - "Methods"
   - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
 ## Definition
