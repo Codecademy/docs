@@ -14,16 +14,14 @@ Catalog Content:
 ---
 
 ### Introduction
-*Jupyter Notebook Documentation Excerpts*
+The definition of Jupyter Notebook per the community is "an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more." It is a unique integrated development environment (IDE) that many data workers use for its key features:
 
-- A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
+- Web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
 
 - Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
 
-
-
 ### Web Application
-*Jupyter Notebook Documentation Excerpts*
+
 In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection.
 
 The ability to execute code from the browser, with the results of computations attached to the code which generated them.
@@ -50,6 +48,8 @@ It’s difficult to focus the attention of your audience on a single thing like 
 Although we want to keep code (input cells) for reproducability’s sake, showing it is distracting.
 
 Online methods include Jovian platform, Binder, and nbviewer a tool made by the Jupyter community that renders a notebook hosted on Github
+
+Voilà helps you communicate insights, by transforming a Jupyter Notebook into a stand-alone web application you can share. It gives you control over what your readers experience in a secure and customizable interactive dashboard.
 
 ### Privacy
 *Jupyter Notebook Documentation Excerpts*
