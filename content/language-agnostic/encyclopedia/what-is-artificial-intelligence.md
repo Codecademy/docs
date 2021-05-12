@@ -31,7 +31,7 @@ The first true instance of AI is arguable, with some determining the mechanism u
 
 In 1914, Spanish engineer Leonardo Torres y Quevedo demonstrates the first chess-playing machine in Paris, capable of receiving information about a chess game and playing a king and rook endgame against king from any position without the aid of human intervention.
 
-In 1950, Alan Turing publishes *Computing Machinery and Intelligence*, introducing with it the concept of the "imitation game" which would later be known as the Turing Test which tests a machine's ability to display behavior and produce output that is indistinguishable from that of an adult person.
+In 1950, Alan Turing publishes *Computing Machinery and Intelligence*, introducing with it the concept of the "imitation game". This would later be known as the Turing Test, which tests a machine's ability to display behavior and produce output that is indistinguishable from that of an adult person.
 
 The years ranging from 1956-1974 are considered the renaissance period of artificial intelligence with developments such as semantic nets, allowing machines to solve algebra word problems, and search algorithms that allowed machines to approach solving problems much like solving a maze.
 
