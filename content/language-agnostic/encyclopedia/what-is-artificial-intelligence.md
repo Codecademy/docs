@@ -35,7 +35,7 @@ In 1950, Alan Turing publishes *Computing Machinery and Intelligence*, introduci
 
 The years ranging from 1956-1974 are considered the renaissance period of artificial intelligence with developments such as semantic nets, allowing machines to solve algebra word problems, and search algorithms that allowed machines to approach solving problems much like solving a maze.
 
-Following this period the field of AI experienced a sequence of years in lulls and bursts in progress between the years 1974 and 2011 where computing power and amounts of available data would be considerable bottlenecks. This period ends around 2011 where the advents of machine learning and deep learning have demonstrated great leaps in the field, producing agents such as Deep Blue and AlphaGo, computer programs that are able to beat some of the best human board game players in the world.
+Following this period the field of AI experienced a sequence of years in lulls and bursts in progress between the years 1974 and 2011 where computing power and amounts of available data would be considerable bottlenecks. This period ends around 2011 where the advents of machine learning and deep learning have demonstrated great leaps in the field, producing agents such as [Deep Blue] and [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo), computer programs that are able to beat some of the best human board game players in the world.
 
 ### Ethics
 
