@@ -23,8 +23,6 @@ Takes in an iterable object such as a list or tuple and returns `True` if any of
 any(iterable)
 ```
 
-It would return either `True` or `False`.
-
 ## Example 1
 
 Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
