@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition 
 
-Sets the color of the border. The default value is `none`.
+Sets the color of the border. The default value is the current element color.
 
 ## Syntax
 
