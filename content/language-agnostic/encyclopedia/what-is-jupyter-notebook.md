@@ -28,11 +28,7 @@ As an open source web application, Jupyter Notebook enables users to interactive
  - Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures rendered by the matplotlib library, can be included inline.
 
 ### Notebook Documents
-Notebook documents are internally JSON files and are saved with the `.ipynb` extension. Notebooks contain the inputs and outputs of an interactive session and non-executing text that may accompany the code, and thus serve as a complete computational record of a session. As JSON is a plain text format, any `.ipynb` notebook hosted on a public URL can be shared with the Jupyter Notebook Viewer (nbviewer), which renders the file as a static web page. This allows users to share the record of their sessions with both public and private colleagues, without the viewer needing to install Jupyter notebook.
+Notebook documents are internally JSON files and are saved with the `.ipynb` extension. Notebooks contain the inputs and outputs of an interactive session and non-executing text that may accompany the code, and thus serve as a complete computational record of a session. As JSON is a plain text format, any `.ipynb` notebook hosted on a public URL can be shared with the Jupyter Notebook Viewer (nbviewer), which renders the file as a static web page. This allows users to share the record of their sessions with colleagues both publicly and privately, without the viewer needing to install Jupyter notebook.
 
 ### Privacy
-Because you use Jupyter in a web browser, some people are understandably concerned about using it with sensitive data. However, if you followed the standard install instructions, Jupyter is actually running on your own computer. If the URL in the address bar starts with http://localhost: or http://127.0.0.1:, it’s your computer acting as the server. Jupyter doesn’t send your data anywhere else—and as it’s open source, other people can check that we’re being honest about this.
-
-You can also use Jupyter remotely: your company or university might run the server for you, for instance. If you want to work with sensitive data in those cases, talk to your IT or data protection staff about it.
-
-We aim to ensure that other pages in your browser or other users on the same computer can’t access your notebook server. See Security in the Jupyter notebook server for more about this.
+While users interactively author `.ipynb` notebooks in their preferred browser, standard install instructions allow Jupyter to run on one's local machine, not on the web. By default, a notebook server runs locally at 127.0. 0.1:8888 and is accessible only from localhost.
