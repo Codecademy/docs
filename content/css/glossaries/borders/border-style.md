@@ -45,3 +45,11 @@ h1 {
   border-style: dotted;
 }
 ```
+
+```css
+h1 {
+  border-style: dashed solid;
+}
+
+- Top and bottom borders are dashed.
+- Left and right borders are solid.
