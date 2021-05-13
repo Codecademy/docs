@@ -2,7 +2,7 @@
 Title: "What is Jupyter Notebook"
 Subjects:
   - "Computer Science"
-  - "Developer Tools "
+  - "Developer Tools"
 Tags:
   - "Code Editors"
   - "Developer Tools"
