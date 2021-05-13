@@ -32,6 +32,7 @@ where `<color>` can be one of the following:
 - HSL value: `hsl(0, 100%, 50%)`
 - HSLA Value: `hsla(180, 80%, 100%, 0.8)`
 
+
 ## Example 1
 
 Set border of the `h1` element to be green, 3 pixels thick, and dotted:
