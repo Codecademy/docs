@@ -14,26 +14,24 @@ Catalog Content:
 ---
 
 ### Introduction
-The definition of Jupyter Notebook per the community is "an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more." It is a unique integrated development environment (IDE) that many data workers use for its key features:
+The community definition of Jupyter Notebook is:
 
-- Web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
+*"an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."*
 
-- Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
+Data workers use Jupyter Notebook as an integrated development environment (IDE) for its web application and notebook documents features.
 
 ### Web Application
+As an open source web application, Jupyter Notebook enables users to interactively author and share documents containing explanatory text, live code, mathematics, computations, and visualizations.
 
-In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection.
-
-The ability to execute code from the browser, with the results of computations attached to the code which generated them.
-
-Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures rendered by the matplotlib library, can be included inline.
-
-In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text.
-
-The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax.
+ - In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection.
+ - The ability to execute code from the browser, with the results of computations attached to the code which generated them.
+ - Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures rendered by the matplotlib library, can be included inline.
 
 
 ### Notebook Documents
+
+- Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
+
 *Jupyter Notebook Documentation Excerpts*
 Notebook documents contains the inputs and outputs of a interactive session as well as additional text that accompanies the code but is not meant for execution. In this way, notebook files can serve as a complete computational record of a session, interleaving executable code with explanatory text, mathematics, and rich representations of resulting objects. These documents are internally JSON files and are saved with the .ipynb extension. Since JSON is a plain text format, they can be version-controlled and shared with colleagues.
 
@@ -41,15 +39,7 @@ Notebooks may be exported to a range of static formats, including HTML (for exam
 
 Furthermore, any .ipynb notebook document available from a public URL can be shared via the Jupyter Notebook Viewer (nbviewer). This service loads the notebook document from the URL and renders it as a static web page. The results may thus be shared with a colleague, or as a public blog post, without other users needing to install the Jupyter notebook themselves. In effect, nbviewer is simply nbconvert as a web service, so you can do your own static conversions with nbconvert, without relying on nbviewer.
 
-### Sharing
-Jupyter notebooks have built-in support for Markdown and HTML, so you can embed rich content and largely control formatting. The main obstacle to presentation-quality notebooks seems to be managing attention.
 
-It’s difficult to focus the attention of your audience on a single thing like you can with slides.
-Although we want to keep code (input cells) for reproducability’s sake, showing it is distracting.
-
-Online methods include Jovian platform, Binder, and nbviewer a tool made by the Jupyter community that renders a notebook hosted on Github
-
-Voilà helps you communicate insights, by transforming a Jupyter Notebook into a stand-alone web application you can share. It gives you control over what your readers experience in a secure and customizable interactive dashboard.
 
 ### Privacy
 *Jupyter Notebook Documentation Excerpts*
