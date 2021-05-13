@@ -27,7 +27,8 @@ where `<color>` can be the following values:
 
 - Color name: `red`
 - RGB value: `rgb(255, 0, 0)`
-- Hexademcimal value: `#FF0000`
+- Hexadecimal value: `#FF0000`
+- HSL value: `hsl(0, 100%, 50%)`
 
 ## Example 1
 
@@ -43,10 +44,10 @@ h1 {
 
 ## Example 2
 
-Set the top and bottom borders coral and the left and right borders green:
+Set the top and bottom borders `Coral` and the left and right borders `PapayaWhip`:
 
 ```css
 h1 {
-  border-color: coral green;
+  border-color: Coral PapayaWhip;
 }
 ```
