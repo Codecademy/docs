@@ -44,10 +44,10 @@ h1 {
 
 ## Example 2
 
-Set the top and bottom borders `Coral` and the left and right borders `PapayaWhip`:
+Set the top and bottom borders `coral` and the left and right borders `beige`:
 
 ```css
 h1 {
-  border-color: Coral PapayaWhip;
+  border-color: coral beige;
 }
 ```
