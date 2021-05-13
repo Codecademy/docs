@@ -20,7 +20,7 @@ Sets the color of the border. The default value is the current element color.
 ## Syntax
 
 ```css
-border-style: <color>;
+border-color: <color>;
 ```
 
 where `<color>` can be the following values:
