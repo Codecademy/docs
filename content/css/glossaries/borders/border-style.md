@@ -36,7 +36,7 @@ where `<line-style>` can be the following values:
 
 ## Example 1
 
-Set border of the `h1` element to be green, 3 pixels thick, and dotted.
+Set border of the `h1` element to be green, 3 pixels thick, and dotted:
 
 ```css
 h1 {
