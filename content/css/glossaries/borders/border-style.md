@@ -34,7 +34,7 @@ where `<line-style>` can be the following values:
 - `inset`
 - `outset`
 
-## Example
+## Example 1
 
 Set border of the `h1` element to be green, 3 pixels thick, and dotted.
 
@@ -46,13 +46,12 @@ h1 {
 }
 ```
 
-Set the 
+## Example 2
+
+Set the top and bottom borders dashed and the left and right borders solid:
 
 ```css
 h1 {
   border-style: dashed solid;
 }
 ```
-
-- Top and bottom borders are dashed.
-- Left and right borders are solid.
