@@ -23,7 +23,7 @@ Sets the color of the border. The default value is the current element color.
 border-color: <color>;
 ```
 
-where `<color>` can be the following values:
+where `<color>` can be one of the following:
 
 - Color name: `red`
 - RGB value: `rgb(255, 0, 0)`
