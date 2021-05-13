@@ -23,7 +23,7 @@ Catalog Content:
 
 # Lists in Python
 
-A list in Python is a datatype used to store a collection of objects. To define a list we can assign a variable to a pair of square brackets (`[]`) or the `list()` keyword. 
+A list in Python is a datatype used to store a collection of objects. To define a list we can assign a variable to a pair of square brackets (`[]`) or the `list()` keyword. Lists are always ordered and can contain different types of objects all in the same sequence(strings, integers, booleans etc.) Lists are a mutable data type and are therefore good choices for dynamic data like additions and subtractions to groups of items. There are more than a dozen built in methods for lists in python. These methods make it easier to perform functions on the collection of objects contained within.
 
 ## Example
 
@@ -31,13 +31,6 @@ A list in Python is a datatype used to store a collection of objects. To define 
 #Defining empty lists
 list1 = [] 
 list2 = list()
-```
-
-Lists are always ordered and can contain different types of objects all in the same sequence(strings, integers, booleans etc.) 
-
-## Example
-
-```py
 #creating lists with values in them
 list1 = ['one',2,'three']
 list2 = [True,False,False,True,False]
@@ -46,9 +39,7 @@ list4 = ['one',2,True]
 list5 = ['one','two','three']
 ```
 
-Lists are a mutable data type and are therefore good choices for dynamic data like additions and subtractions to groups of items. There are more than a dozen built in methods for lists in python. These methods make it easier to perform functions on the collection of objects contained within. 
-
-## An Example of a list using one of its built in methods to change the data within
+## Using a built in list method
 
 ```py
 friends = ['Sue','Bob']
