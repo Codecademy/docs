@@ -46,10 +46,13 @@ h1 {
 }
 ```
 
+Set the 
+
 ```css
 h1 {
   border-style: dashed solid;
 }
+```
 
 - Top and bottom borders are dashed.
 - Left and right borders are solid.
