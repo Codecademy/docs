@@ -21,15 +21,27 @@ Sets the style of the border. The default value is `none`.
 border-style: <line-style>;
 ```
 
-where `<line-style>` can be the following values: `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset`.
+where `<line-style>` can be the following values:
+
+- `none`
+- `hidden`
+- `dotted`
+- `dashed`
+- `solid`
+- `double`
+- `groove`
+- `ridge`
+- `inset`
+- `outset`
 
 ## Example
+
 Set border of the `h1` element to be green, 3 pixels thick, and dotted.
 
 ```css
 h1 {
-	border-color: green;
-	border-width: 3px;
-	border-style: dotted;
+  border-color: green;
+  border-width: 3px;
+  border-style: dotted;
 }
 ```
