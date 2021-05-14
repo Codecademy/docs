@@ -16,38 +16,39 @@ Catalog Content:
 ### Introduction
 Data Science is a multidisciplinary field of study that utilizes data design, collection, and analysis to distill structured or unstructured data into observation or insight. As such, it contemporarily incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
 
-
-Data science practitioners apply machine learning algorithms to numbers, text, images, video, audio, and more to produce artificial intelligence (AI) systems to perform tasks that ordinarily require human intelligence. In turn, these systems generate insights which analysts and business users can translate into tangible business value.
-
-Inclusions:
-Data engineering
-scientific method
-mathematics
-statistics
-advanced Computing
-visualization
-domain expertise
-communication
-
-
 ### History
+Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date as far back as 5th century B.C., demonstrated by the Athenians who estimated the height of ladders needed to scale the walls of Platea by counting the bricks of the wall vertically in several areas, then multiplying the most frequent count by the height of a brick.
 
-Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date
+Later in 9th century Iraq, Al-Kindi wrote *Manuscript on Deciphering Cryptographic Messages*, where he described transposition and substitution methods to decipher encrypted messages.
 
-5th century B.C. — Athenians estimated the height of ladders necessary to scale the walls of Platea by having multiple
-soldiers count the bricks, then multiplying the most frequent
-count (the mode) by the height of a brick.
+In 1662, John Graunt produced *Natural and Political Observations Made Upon the Bills of Mortality* in which he estimated the population of London by using annual funeral records, familial death rates, and average family size.
 
-Al-Kindi (801-873 A.D.) wrote “Manuscript on Deciphering Cryptographic Messages” which showed how to use frequency analysis to decipher encrypted messages.
+Without the correlation to statistics involved, many consider John Tukey to be the inventor of data science where in March 1962 he published *The Future of Data Analysis* where he described a field he called “data analysis,” which resembles modern data science. With advents in data processing and storage, applications of data science theory and experimentation have accelerated in it's progress and popularity in
 
-John Graunt in Natural and Political Observations Made Upon the Bills of Mortality estimated the population of London in 1662 as 384,000 using records on the number of funerals per year (13,000), the death rate (3 people per 11 families per year), and average family size (8).
 
-German book Statistik, published in 1749, described the analysis of demographic and economic data about the state (political arithmetic in English)
+### Application
+Since the beginning of the 21st century
 
-In 1962, John Tukey described a field he called “data analysis,” which resembles modern data science.
-In 1962, John W. Tukey wrote in the most famous coinage attributed to him is related to computer science. he was the first to introduce the term "bit" as a contraction of "binary digit."
 
-Since the beginning of the 21st century, data stockpiles have expanded exponentially, largely thanks to advents in processing and storage that are both efficient and cost-effective at scale. The capability to collect, process, analyze, and display data and information in “real-time” give us an unprecedented opportunity to conduct a new form of knowledge discovery. To process this huge amount of data, Data Scientists need high performance also of a large portfolio of technologies to speed up tasks and data processing in a matter of seconds.
+o extract valuable information from data for business decision-making, strategic planning and other uses. It's increasingly critical to businesses: The insights that data science generates help organizations increase operational efficiency, identify new business opportunities and improve marketing and sales programs, among other benefits. Ultimately, they can lead to competitive advantages over business rivals.
+
+Data Science is used in generally every field of industry to find new efficiencies in business practices and products.
+
+*Wikipedia*:
+Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data.
+
+Data science combines multiple fields, including statistics, scientific methods, and data analysis, to extract value from data.
+
+The field encompasses preparing data for analysis, formulating data science problems, analyzing data, developing data-driven solutions, and presenting findings to inform high-level decisions in a broad range of application domains.
+
+
+*IBM*
+Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data.
+
+Data science encompasses preparing data for analysis and processing, performing advanced data analysis, and presenting the results to reveal patterns and enable stakeholders to draw informed conclusions.
+
+*Data Robot*
+Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.
 
 Disruptive technologies like artificial intelligence, machine learning, and deep learning are nowadays available for Data Scientists thanks to powerful platforms available.
 
@@ -98,24 +99,3 @@ Suite of collaboration tools, model deployment capabilities, and tools for the m
 Prefect that provides a workflow orchestration framework that eliminates manual effort on the part of developers and data scientists.
 Integration with services like Docker and Kubernetes so that data scientists can build a custom image to meet their best development expectations.
 Jupyter Notebooks to deploy, manage, and scale the PyData stack.
-
-### Application
-o extract valuable information from data for business decision-making, strategic planning and other uses. It's increasingly critical to businesses: The insights that data science generates help organizations increase operational efficiency, identify new business opportunities and improve marketing and sales programs, among other benefits. Ultimately, they can lead to competitive advantages over business rivals.
-
-Data Science is used in generally every field of industry to find new efficiencies in business practices and products.
-
-*Wikipedia*:
-Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data.
-
-Data science combines multiple fields, including statistics, scientific methods, and data analysis, to extract value from data.
-
-The field encompasses preparing data for analysis, formulating data science problems, analyzing data, developing data-driven solutions, and presenting findings to inform high-level decisions in a broad range of application domains.
-
-
-*IBM*
-Data science combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data.
-
-Data science encompasses preparing data for analysis and processing, performing advanced data analysis, and presenting the results to reveal patterns and enable stakeholders to draw informed conclusions.
-
-*Data Robot*
-Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.
