@@ -14,6 +14,8 @@ Catalog Content:
 ---
 
 ### Introduction
+Data Science is a multidisciplinary field of study that utilizes data design, collection, and analysis to
+
 *Wikipedia*:
 Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data.
 
@@ -45,6 +47,28 @@ communication
 
 
 ### History
+
+Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date
+
+5th century B.C. — Athenians estimated the height of ladders necessary to scale the walls of Platea by having multiple
+soldiers count the bricks, then multiplying the most frequent
+count (the mode) by the height of a brick.
+
+Al-Kindi (801-873 A.D.) wrote “Manuscript on Deciphering
+Cryptographic Messages” which showed how to use frequency
+analysis to decipher encrypted messages.
+
+John Graunt in Natural and Political Observations Made Upon
+the Bills of Mortality estimated the population of London in
+1662 as 384,000 using records on the number of funerals per
+year (13,000), the death rate (3 people per 11 families per
+year), and average family size (8).
+
+
+• German book Statistik, published in 1749, described the analysis of demographic and economic data about the state (political arithmetic in English)
+
+
+
 
 In 1962, John W. Tukey wrote in “The Future of Data Analysis” - The first milestone in the history of data science is globally recognized for the bright American mathematician John Tukey. The influence of John Tukey in statistical terms is enormous, but the most famous coinage attributed to him is related to computer science. In fact, it should be mentioned that he was the first to introduce the term "bit" as a contraction of "binary digit."
 In 1974, Peter Naur published the Concise Survey of Computer Methods, which surveyed data processing methods across a wide variety of applications. The term “data science” becomes clearer, as he puts his own definition on it: “The science of dealing with data, once they have been established, while the relation of the data to what they represent is delegated to other fields and sciences.”
@@ -88,6 +112,32 @@ Optimization (e.g., risk management)
 
 Forecasts (e.g., sales and revenue)
 
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices.
+Seaborn is a Python data visualization library based on matplotlib.
+TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks.
+PyTorch is an open-source machine learning library based on the Torch library.
+Numba is an open-source JIT compiler that translates a subset of Python and NumPy into fast machine code using LLVM.
+SciPy is a free and open-source Python library used for scientific computing and technical computing.
+Pandas is a software library written for the Python programming language for data manipulation and analysis.
+Scikit-learn is a free software machine learning library for the Python programming language.
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+Bokeh is a data visualization library in Python that provides high-performance interactive charts and plots.
+
+
+Fig. 3 Python libraries.
+
+For example, the well recognized Data Science Platform Saturn Cloud offers an end-to-end analytics platform all in Python on AWS. This includes:
+
+Dask that allows organizations to scale out Python and dramatically reduce runtime.
+Suite of collaboration tools, model deployment capabilities, and tools for the machine learning lifecycle.
+Prefect that provides a workflow orchestration framework that eliminates manual effort on the part of developers and data scientists.
+Integration with services like Docker and Kubernetes so that data scientists can build a custom image to meet their best development expectations.
+Jupyter Notebooks to deploy, manage, and scale the PyData stack.
+
 ### Application
+o extract valuable information from data for business decision-making, strategic planning and other uses. It's increasingly critical to businesses: The insights that data science generates help organizations increase operational efficiency, identify new business opportunities and improve marketing and sales programs, among other benefits. Ultimately, they can lead to competitive advantages over business rivals.
+
+Data Science is used in generally every field of industry to find new efficiencies in business practices and products.
+
 
 ### Data Science Life Cycle
