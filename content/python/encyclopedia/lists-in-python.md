@@ -57,7 +57,7 @@ There are eleven built-in list methods in Python. These methods make it easier t
 - `.reverse()` Reverses the order of the list
 - `.sort()` Sorts the list
 
-## Using a built in list method
+## Using a Built-in List Method
 
 ```py
 friends = ['Sue', 'Bob']
