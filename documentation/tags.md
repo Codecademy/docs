@@ -58,7 +58,6 @@ Cybersecurity
 D3  
 Data Structures  
 Data Types  
-Data Visualization  
 Database  
 Data Structures
 Debugging  
