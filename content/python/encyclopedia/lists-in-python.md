@@ -18,10 +18,13 @@ Catalog Content:
 
 A list in Python is a data type used to store a collection of objects. 
 
-There are multiple ways to define a list in Python. We can either assign a variable to a pair of square brackets (`[]`) with or without  values, or we can assign a variable to the `list()` keyword and afterwords pass in its list items. Lists are always ordered and can contain different types of objects (strings, integers, booleans etc.) Lists are a mutable data type and are therefore a good choice for dynamic data(adding and subtracting to lists). There are eleven built-in list methods in python. These methods make it easier to perform functions on the collection of objects contained within.
+There are multiple ways to define a list in Python. We can either assign a variable to a pair of square brackets (`[]`) with or without  values, or we can assign a variable to the `list()` keyword and afterwords pass in its list items. 
 
+Lists are always ordered and can contain different types of objects, such as strings, integers, booleans, etc. Lists are a mutable data type and are therefore a good choice for dynamic data (adding and subtracting to lists).
 
 ## Built-in list methods
+
+There are eleven built-in list methods in Python. These methods make it easier to perform functions on the collection of objects contained within.
 
 1. append() Adds an element at the end of the list
 2. clear() Removes all the elements from the list
