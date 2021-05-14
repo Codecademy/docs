@@ -52,7 +52,9 @@ Here, the instance name is `my_home`, and the class is `Home`.
 
 Methods are functions defined as part of a class. The first parameter for any class method is the actual object calling the method, usually called `self`. 
 
-For example, the following class `Home` has a method called `.paint_wall()`. The first parameter is `self`, and the second parameter is `color`. 
+For example, the following class `Home` has a method called `.paint_wall()`:
+- The first parameter is `self`.
+- The second parameter is `color`. 
 
 When calling a class method, no argument is provided for the parameter `self`, but arguments must be provided for each following parameter.
 
