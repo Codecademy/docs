@@ -63,9 +63,10 @@ class Home:
   def paint_wall(self, color):
     # ...
 
-# Creating an instance of the class.
+# Creating an instance of the class
 blue_home = Home()
-# Calling the method on the instance.
+
+# Calling the method on the instance
 blue_home.paint_wall("blue")
 ```
 
