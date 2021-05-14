@@ -38,7 +38,9 @@ class Home:
 
 ## Creating Instances of a Class
 
-Objects can be created from classes. These objects are called instances of a class, and when we create an instance, that is known as instantiating a class. To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`.
+Objects can be created from classes. These objects are called instances of a class, and when we create an instance, that is known as instantiating a class. 
+
+To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`.
 
 ```py
 my_home = Home()
