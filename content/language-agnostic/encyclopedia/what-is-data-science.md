@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - "Matplotlib"
   - "Pandas"
+  - "Numpy"
   - "Database"
   - "SQLite"
   - "Scikit-learn"

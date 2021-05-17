@@ -1,6 +1,6 @@
 # Tags
 
-Tags in Codepedia are used for recommending related entries and for the home page search bar. Use <kbd>command</kbd> + <kbd>f</kbd> to search this list. 
+Tags in Codepedia are used for recommending related entries and for the home page search bar. Use <kbd>command</kbd> + <kbd>f</kbd> to search this list.
 
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
@@ -38,13 +38,14 @@ Browsers
 Bubble Sort  
 Characters
 Chatbots  
-Classes 
+Classes
 Code Editors
 Color  
 Combinators  
 Command Line  
 Comments  
-Component  
+Component
+Computer Vision  
 Concatenation  
 Conceptual  
 Const  
@@ -160,7 +161,7 @@ Operators
 p5  
 Packages  
 Pandas  
-Paragraph 
+Paragraph
 Parameters
 Phaser  
 Physics  
