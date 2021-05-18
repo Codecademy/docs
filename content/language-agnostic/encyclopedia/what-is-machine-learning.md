@@ -15,23 +15,17 @@ Catalog Content:
 
 ### Introduction
 *Wikipedia*
-Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.
-
-*IBM*
-Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
-
-*The Royal Society*
-A field of technology that allows machines to learn from data and self-improve.
+Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to development computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
 
 ### Machine Learning Algorithms
-*IBM*
+Machine learning algorithms function are used in several fields of business, most often with the goal of making a prediction, classification, or cluster: Based on some input data,  machine learning algorithms will produce an estimate about a pattern in the data.
 
 Techniques
  - Classification: classification, which separates the elements in a data set into different categories
  - Regression: regression, which plots the optimal values of related data variables in a line or plane
  - Clustering: which groups together data points with an affinity or shared attributes
 
-A Decision Process: In general, machine learning algorithms are used to make a prediction or classification. Based on some input data, which can be labelled or unlabeled, your algorithm will produce an estimate about a pattern in the data.
+
 An Error Function: An error function serves to evaluate the prediction of the model. If there are known examples, an error function can make a comparison to assess the accuracy of the model.
 An Model Optimization Process: If the model can fit better to the data points in the training set, then weights are adjusted to reduce the discrepancy between the known example and the model estimate. The algorithm will repeat this evaluate and optimize process, updating weights autonomously until a threshold of accuracy has been met.  
 
@@ -61,5 +55,4 @@ is a form of AI in which computers are given the ability to progressively improv
 
 ### Machine Learning vs. Deep Learning
 
-
-### History
+### Evaluation
