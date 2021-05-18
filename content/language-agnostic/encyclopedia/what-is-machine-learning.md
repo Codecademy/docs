@@ -57,9 +57,9 @@ the training of machine learning models to make a sequence of decisions. The age
 
 In the same way, reinforcement learning is a specialized application of machine and deep learning techniques, designed to solve problems in a particular way.
 
-
+is a form of AI in which computers are given the ability to progressively improve the performance of a specific task with data, without being directly programmed ( this is Arthur Lee Samuel’s definition. He coined the term “machine learning”,
 
 ### Machine Learning vs. Deep Learning
 
 
-### Reinforcement machine learning
+### History
