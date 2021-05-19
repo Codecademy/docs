@@ -1,5 +1,5 @@
 ---
-Title: "Python Math Module: `math.cos()`"
+Title: "Python Math Module: `math.exp()`"
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
@@ -14,29 +14,29 @@ Catalog Content:
 
 ## Definition
 ***
-The `math.cos()` function returns the cosine of `x` radians.
+The `math.exp()` function returns E(approximately 2.718282) raised to the power of x.
 ## Syntax
 ***
 ```py
-math.cos(n)
+math.exp(x)
 ```
 
 ## Example 1
 ***
-Use `math.cos()` to return the cosine of a `90` degree angle:
+Use `math.exp()` to return E raised to the power of `5`:
 ```codebyte/python
 # Import math library
 import math
 
-print(math.cos(90))
+print(math.exp(5))
 ```
 
 ## Example 2
 ***
-Use `math.cos()` to return the cosine of a `180.5` degree angle:
+Use `math.exp()` to return E raised to the power of `3`:
 ```codebyte/python
 # Import math library
 import math
 
-print(math.cos(180.5))
+print(math.exp(3))
 ```
