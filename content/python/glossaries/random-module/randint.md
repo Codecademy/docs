@@ -14,26 +14,26 @@ Catalog Content:
 
 ## Definition
 ***
-The `randint()` method 
+The `randint()` method is an alias for `randrange(start, end(+1))`, which takes as input two integers, and returns a pseudo-random integer within the stated range.
 
 ## Syntax
 ***
-random.randint()
+random.randint(start, end)
 
 ## Example 1
 ***
-Use `randint()` to return a random number between 0 and 99:
+Use `randint()` to return a random number between `0` and `50`:
 ```codebyte/python
 import random
 
-print(random.randrange(0, 100))
+print(random.randint(0, 50))
 ```
 
 ## Example 2
 ***
-Use `randrange()` to return a random number between 0 and 99 and is divisible by 5:
+Use `randint()` to return a random number between `-25` and `25`:
 ```codebyte/python
 import random
 
-print(random.randrange(0, 100, 5))
+print(random.randint(-25, 25))
 ```
