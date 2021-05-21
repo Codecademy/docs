@@ -14,9 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `math.pow()` function returns `x` raised to the power of `y`.
-
-Unlike the built-in ** operator, math.pow() converts both its arguments to type float. Use ** or the built-in pow() function for computing exact integer powers.
+The `math.pow()` function returns `x` raised to the power of `y`. This contrasts with the built-in `**` operator in that `math.pow()` converts both its arguments to type float.
 
 ## Syntax
 ***
@@ -26,20 +24,20 @@ math.pow(x, y)
 
 ## Example 1
 ***
-Use `math.pow()` to return :
+Use `math.pow()` to return `5` to the power of `3`:
 ```codebyte/python
 # Import math library
 import math
 
-print(math.pow(12))
+print(math.pow(5, 3))
 ```
 
 ## Example 2
 ***
-Use `math.pow()` to return :
+Use `math.pow()` to return `5.5` to the power of `3.3`:
 ```codebyte/python
 # Import math library
 import math
 
-print(math.pow(5, 12))
+print(math.pow(5.5, 3.3))
 ```
