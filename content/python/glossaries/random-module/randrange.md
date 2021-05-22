@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `randrange()` method generates random numbers from a stated range.
+Generates random numbers from a defined range of `int` values.
 
 ## Syntax
 ***

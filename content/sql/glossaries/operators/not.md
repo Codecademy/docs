@@ -1,5 +1,5 @@
 ---
-Title: "SQL Operators: `LIKE`"
+Title: "SQL Operators: `NOT`"
 Subjects:
   - "Language Fluency"
   - "Code Foundations"
@@ -15,33 +15,27 @@ Catalog Content:
 
 ## Definition
 ***
-Allows the user to perform case-sensitive pattern matching on `string` data through the use of wildcard characters.
+The `NOT` operator allows the user to 
 
 ## Syntax
 ***
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE% pattern;
+LIKE %
 
 *OR*
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE% pattern;
+LIKE _
 ## Example 1
 ***
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
 ```codebyte/sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `A%`;
+WHERE name LIKE `A%`
 ```
 
 ## Example 2
 ***
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that contain `aa`:
+Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
 ```codebyte/sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `%A%`;
+import random
+
+print(random.randint(-25, 25))
 ```

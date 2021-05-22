@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `randint()` method is an alias for `randrange(start, end(+1))`, which takes as input two integers, and returns a pseudo-random integer within the stated range.
+An alias for `randrange(start, end(+1))`, which takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 
 ## Syntax
 ***

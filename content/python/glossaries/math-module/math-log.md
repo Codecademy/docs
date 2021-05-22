@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `math.log()` function returns the natural logarithm of `x` (to base e).
+Returns the natural logarithm of `x` (to base e).
 ## Syntax
 ***
 ```py
