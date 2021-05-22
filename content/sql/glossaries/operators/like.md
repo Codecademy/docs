@@ -21,19 +21,19 @@ The `LIKE` operator allows the user to perform pattern matching on `string` data
 ***
 LIKE %
 
+*OR*
+
 LIKE _
 ## Example 1
 ***
-Use `LIKE` to pattern match any sequence of characters within the query :
+Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
 ```codebyte/sql
-import random
-
-print(random.randint(0, 50))
+WHERE name LIKE `A%`
 ```
 
 ## Example 2
 ***
-Use `randint()` to return a random number between `-25` and `25`:
+Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
 ```codebyte/sql
 import random
 
