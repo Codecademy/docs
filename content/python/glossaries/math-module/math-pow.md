@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `math.pow()` function returns the `float` value of `x` raised to the power of `y`. This contrasts with the built-in `**` operator in that `math.pow()` converts both its arguments to type float.
+Returns the `float` value of `x` raised to the power of `y`. This contrasts with the built-in `**` operator in that `math.pow()` converts both its arguments to type `float`.
 
 ## Syntax
 ***
