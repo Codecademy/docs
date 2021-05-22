@@ -15,27 +15,19 @@ Catalog Content:
 
 ## Definition
 ***
-The `NOT` operator allows the user to 
+The `NOT` operator returns a record for if the condition/conditions are NOT TRUE 
 
 ## Syntax
 ***
-LIKE %
+SELECT column1, column2, ...
+FROM table_name
+WHERE column NOT condition;
 
-*OR*
-
-LIKE _
 ## Example 1
 ***
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
+Use `NOT` as a `WHERE` condition to :
 ```codebyte/sql
-WHERE name LIKE `A%`
-```
-
-## Example 2
-***
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters that begin with an `A`:
-```codebyte/sql
-import random
-
-print(random.randint(-25, 25))
+SELECT *
+FROM inventory
+WHERE item_name NOT;
 ```
