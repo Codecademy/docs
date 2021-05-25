@@ -25,9 +25,36 @@ WHERE column NOT condition;
 
 ## Example 1
 ***
-Use `NOT` as a `WHERE` condition to :
+Use `NOT` with the `LIKE` condition to return items without `abc` in their sequence:
 ```codebyte/sql
 SELECT *
 FROM inventory
-WHERE item_name NOT;
+WHERE item_name NOT LIKE '%abc%';
+```
+
+## Example 2
+***
+Use `NOT` with the `IN` condition to return items without `abc` in their sequence:
+```codebyte/sql
+SELECT *
+FROM inventory
+WHERE item_name NOT ;
+```
+
+## Example 3
+***
+Use `NOT` with the `LIKE` condition to return items without `abc` in their sequence:
+```codebyte/sql
+SELECT *
+FROM inventory
+WHERE item_name NOT ;
+```
+
+## Example 4
+***
+Use `NOT` with the `LIKE` condition to return items without `abc` in their sequence:
+```codebyte/sql
+SELECT *
+FROM inventory
+WHERE item_name IS NOT NULL;
 ```
