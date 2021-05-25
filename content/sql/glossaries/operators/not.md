@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 ***
-The `NOT` operator returns a record for if the condition/conditions are NOT TRUE 
+The `NOT` operator returns a record for if the condition/conditions are NOT TRUE
 
 ## Syntax
 ***
