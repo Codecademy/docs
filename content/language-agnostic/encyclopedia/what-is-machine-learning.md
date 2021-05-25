@@ -14,6 +14,11 @@ Catalog Content:
 ---
 
 ### Introduction
+Machine Learning (ML) is a discipline of data science that focuses on the development of computer programs that are able to receive data as input, and
+
+
+
+
 *Wikipedia*
 Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.
 
