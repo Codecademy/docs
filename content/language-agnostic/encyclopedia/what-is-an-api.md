@@ -25,4 +25,4 @@ APIs can be divided into three groups:
 
 * Private APIs, also known as Internal APIs, are used primarily within a company to share resources and facilitate the business. (e.g. Company Warehouse API for managing inventory with code). 
 
-* Partner APIs: Rights or specific licenses are required for use. These APIs are popular in software-as-a-service platforms (e.g. [AWS API](https://docs.aws.amazon.com/general/latest/gr/aws-apis.html)).
+* Partner APIs require rights or specific licenses for use. These APIs are popular in software-as-a-service platforms (e.g. [AWS API](https://docs.aws.amazon.com/general/latest/gr/aws-apis.html)).
