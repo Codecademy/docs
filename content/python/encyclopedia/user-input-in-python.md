@@ -18,11 +18,11 @@ Catalog Content:
 `input()` is a built-In function in python that allows a user to assign custom input to a variable.
 
 ```codebyte/py
-myCatsName = input("What is your cat's name? \n") 
-print("The best cat in the world is " + myCatsName)
+my_cats_name = input("What is your cat's name? \n") 
+print("The best cat in the world is " + my_cats_name)
 ```
 
-When this code is run, it will print out "What is your cat's name?". Then, whatever the user types in will be saved to the variable `myCatsName` and printed out in the final print statement.
+When this code is run, it will print out "What is your cat's name?". Then, whatever the user types in will be saved to the variable `my_cats_name` and printed out in the final print statement.
 
 Once a user inputs a value it can be used like a normal variable. For example, it can be compared against other variables:
 
@@ -37,8 +37,8 @@ else:
 Whatever the user types will be saved as a string. However, the string can be converted to other types.
 
 ```python
-myNum = input("What number comes after 1? \n")
-if myNum == 2:
+my_num = input("What number comes after 1? \n")
+if my_num == 2:
   print("correct!")
 else:
   print("No...")
@@ -46,8 +46,8 @@ else:
 ``` 
 
 ```python
-myNum = input("What number comes after 1? \n")
-if int(myNum) == 2:
+my_num = input("What number comes after 1? \n")
+if int(my_num) == 2:
   print("correct!")
 else:
   print("No...")
