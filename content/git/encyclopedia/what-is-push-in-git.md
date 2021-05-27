@@ -17,9 +17,15 @@ Pushing a repository allows a programmer to maintain an easily accessible backup
 
 ## How do I push?
 
-Prerequisites to pushing from within a repository include the following:
+The basic syntax for pushing in Git is this:
 
-* Being inside of a repository (if you're not, the next step will give you an error)
+```
+$ git push <remote-name> <branch-name>
+```
+
+Prerequisites to pushing from within a repository include:
+
+* Being inside of a repository (if not, the next step will return an error)
 * Having a clean `git status` (no uncommitted, but tracked, files):
 
     ```
@@ -29,7 +35,7 @@ Prerequisites to pushing from within a repository include the following:
     nothing to commit, working tree clean
     ```
 
-* Having a valid remote repository set, in our case there is remote repository called companyname-dev:
+* Having a valid remote repository set, in this case there is remote repository called companyname-dev:
 
     ```
     $ git remote -v
@@ -38,19 +44,13 @@ Prerequisites to pushing from within a repository include the following:
     companyname-dev	https://github.com/CompanyName/product-dev.git (push)
     ```
 
-Once you are at this stage, pushing is as simple as running the following command from the command line:
-
-```
-$ git push <remote-name> <branch-name>
-```
-
-Or, in our case:
+At this stage, pushing is as simple as using the basic syntax with the correct remote and branch names:
 
 ```
 $ git push companyname-dev main
 ```
 
-If it worked, you'll see the following sort of message:
+When the push completes, it will display a message like this:
 
 ```
 Enumerating objects: 5, done.
@@ -60,16 +60,3 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/CompanyName/product-dev.git
    0e21f7b..2a668cb  main -> main
 ```
-
-## Why did something go wrong?
-
-Oh no, it didn't work! There are a few common things that could possibly happen when you try to push code to a remote repository:
-
-* You don't have write access to the repository. This can be solved by being added as a collaborator to the remote repository, ask an owner of the repo for help with that.
-* The remote branch has code that is not present on your local branch. The remote repository does not wish to make decisions on your behalf, so you will have to merge the code locally, first. This requires the following steps:
-    * First, pull the code from the remote branch into your repo, i.e. `git pull <remote-name> <branch-name>`
-    * Resolve and merge conflicts and commit the result, leading back to a clean status
-    * Push again using the method detailed above
-
-
-
