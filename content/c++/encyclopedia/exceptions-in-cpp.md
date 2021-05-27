@@ -10,27 +10,27 @@ Tags:
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-c-plus-plus"
   - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://github.com/Codecademy-Curriculum/codepedia-content/blob/main/content/language-agnostic/encyclopedia/what-is-an-error.md"
 ---
+
+In C++ an `exception` is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it then the program will stop executing due to the error.
 
 ## Catching an Exception
 
-The function `getString` as defined below will throw an error if you try to access an index outside the allowable bounds.
+The function `getString()` as defined below will throw an error if you try to access an index outside the allowable bounds.
 
 ```codebyte/cpp
 std::string getString(std::string values[], int index) {
     return values[index];
 }
 
-int main()
-{
-    std::string words[] = { "one", "two", "three" };
+int main() {
+    std::string words[] = {"One", "Two", "Three"};
     
-    // this is fine, and will send one to the buffer
+    // This is fine, and will print the string "One"
     std::cout << getString(words, 0);
 
-    // this is not fine, and will most likely throw a std::length_error
-    std::cout << getString(words, 3);
+    // This is not fine, and will throw an exception
+    std::cout << getString(words, 6);
 
     return 0;
 }
@@ -43,16 +43,15 @@ std::string getString(std::string values[], int index) {
     return values[index];
 }
 
-int main()
-{
-    std::string words[] = { "one", "two", "three" };
+int main() {
+    std::string words[] = {"One", "Two", "Three"};
     
     try {
-      // "one" will be sent to the buffer
+      // "One" will be printed
       std::cout << getString(words, 0);
 
-      // this line will throw an error and move immediately move program execution to the catch block
-      std::cout << getString(words, 3);
+      // this line will throw an exception and immediately move program execution to the catch block
+      std::cout << getString(words, 6);
     } 
     catch (...) {
       // "Some sort of error has occured!" will be sent to the buffer
@@ -66,7 +65,7 @@ int main()
 The parenthesized ellipsis above indicate that the could should try to catch any and all errors. It is possible be more specific by replacing the ellipsis with the error type that would be thrown for common inputs:
 
 * `catch (std::length_error)` would catch the specific error that will be thrown
-* `catch (std::length error errorName` would not only catch the same error, but give us access to the error object inside the catch block with the variable `errorName`
+* `catch (std::length error errorName)` would not only catch the same error, but give us access to the error object inside the catch block with the variable `errorName`
 
 It is possible to catch multiple types of exception by specifying multiple catch blocks:
 
@@ -94,9 +93,9 @@ This example also names the exceptions so that you might access the exception du
 
 While one side of the exceptional coin is catching exceptions, the other side is throwing them. Since user input is often unpredictable, it is important to handle bad data with grace.
 
-The example below creates a custom `mySqrt` function to wrap around the `sqrt` function. This is done because `sqrt` will not throw an error when it is passed a negative number, rather will return `nan` instead. For this code sample, it is preferable for an error to be thrown so that it can be caught and dealt with within our main code block.
+The `sqrt()` funciton provided by the `math.h` library calculates square roots, however it will return `nan` for the square root of negative numbers. The example below creates a custom `mySqrt()` function so that an execption is thrown when a negative number is passed in as a parameter. This allows us to `catch` it in our `main` block rather than testing if the returned valued is equal to `nan`. 
 
-While it is possible to use throw with many data types, it is common to throw a runtime error. The syntax can be seen in the example below:
+While it is possible to use `throw` with many data types, it is common to throw a runtime error. The syntax can be seen in the example below:
 
 ```codebyte/cpp
 #include <math.h>
