@@ -67,10 +67,10 @@ int main() {
 }
 ```
 
-The parenthesized ellipsis above indicate that the could should try to catch any and all errors. It is possible be more specific by replacing the ellipsis with the error type that would be thrown for common inputs:
+The parenthesized ellipsis above indicate that the `catch` should try to catch any and all errors. It is possible be more specific by replacing the ellipsis with the error type that would be thrown for common inputs:
 
 * `catch (std::length_error)` would catch the specific error that will be thrown
-* `catch (std::length error errorName)` would not only catch the same error, but give us access to the error object inside the catch block with the variable `errorName`
+* `catch (std::length_error errorName)` would not only catch the same error, but give us access to the error object inside the `catch` block with the variable `errorName`
 
 It is possible to catch multiple types of exception by specifying multiple catch blocks:
 
