@@ -12,13 +12,15 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In C++ an `exception` is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it then the program will stop executing due to the error.
+In C++, an exception is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
 
 ## Catching an Exception
 
 The function `getString()` as defined below will throw an error if you try to access an index outside the allowable bounds.
 
 ```codebyte/cpp
+#include <iostream>
+
 std::string getString(std::string values[], int index) {
     return values[index];
 }
@@ -39,6 +41,8 @@ int main() {
 Errors, when uncaught, will cause your program to immediately stop. This behavior can be prevented by wrapping the code which might emit an error in a `try` block, and providing at least one `catch` block to execute if the code throws the error. Look at the improvement below:
 
 ```codebyte/cpp
+#include <iostream>
+
 std::string getString(std::string values[], int index) {
     return values[index];
 }
@@ -50,7 +54,7 @@ int main() {
       // "One" will be printed
       std::cout << getString(words, 0);
 
-      // this line will throw an exception and immediately move program execution to the catch block
+      // This line will throw an exception and immediately move program execution to the catch block
       std::cout << getString(words, 6);
     } 
     catch (...) {
@@ -72,17 +76,17 @@ It is possible to catch multiple types of exception by specifying multiple catch
 ```cpp
 int main() {
   try {
-    // code goes here
+    // Code goes here
   }
   catch (int intErrorVariable) {
-    // the thrown error was of type int
+    // The thrown error was of type int
   }
   catch (std::exception exceptionVariable) {
-    // the thrown error was of type exception
+    // The thrown error was of type exception
     std::cout << exceptionVariable.what();
   }
   catch (...) {
-    // the ellipsis
+    // The ellipsis
   }
 }
 ```
@@ -98,11 +102,12 @@ The `sqrt()` funciton provided by the `math.h` library calculates square roots, 
 While it is possible to use `throw` with many data types, it is common to throw a runtime error. The syntax can be seen in the example below:
 
 ```codebyte/cpp
+#include <iostream>
 #include <math.h>
 
 float mySqrt(float value) {
   if (value < 0) {
-    throw std::runtime_error("Negative Numbers Not Allowed");
+    throw std::runtime_error("Negative numbers not allowed");
   }
 
   return sqrt(value);
@@ -128,5 +133,5 @@ This program will run, and output the following:
 
 ```
 Square root of 4.41 is 2.1
-ERROR: Negative Numbers Not Allowed
+ERROR: Negative numbers not allowed
 ````
