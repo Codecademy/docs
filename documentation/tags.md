@@ -87,6 +87,7 @@ Enum
 Errors  
 ES6  
 Events  
+Exceptions
 Expo  
 Express  
 Files  
