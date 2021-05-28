@@ -4,9 +4,10 @@ Subjects:
   - "Computer Science"
   - "Game Development"
 Tags:
+  - "Exceptions"
+  - "Try"
   - "Catch"
   - "Errors"
-  - "Try"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-c-plus-plus"
   - "https://www.codecademy.com/learn/paths/computer-science"
