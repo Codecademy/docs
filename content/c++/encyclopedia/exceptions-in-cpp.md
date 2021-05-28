@@ -17,7 +17,7 @@ In C++, an exception is the computer's response to a problem that occurs while e
 
 ## Catching an Exception
 
-The function `getString()` as defined below will throw an error if you try to access an index outside the allowable bounds.
+The function `getString()` as defined below will throw an exception if you try to access an index outside the allowable bounds.
 
 ```codebyte/cpp
 #include <iostream>
