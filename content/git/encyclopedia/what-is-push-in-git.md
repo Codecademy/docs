@@ -1,5 +1,5 @@
 ---
-Title: "What is Push in Git?"
+Title: "Push in Git"
 Subjects:
   - "Bash/Shell"
   - "Developer Tools"
@@ -15,13 +15,15 @@ In Git, pushing is the process of moving code from one repository to another one
 
 Pushing a repository allows a programmer to maintain an easily accessible backup in a second location. It is also used when collaborating with people that would not have access to the computer that the code is written on.
 
-## How do I push?
+## Syntax
 
 The basic syntax for pushing in Git is this:
 
 ```
 $ git push <remote-name> <branch-name>
 ```
+
+## How do I push?
 
 Prerequisites to pushing from within a repository include:
 
