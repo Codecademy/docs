@@ -38,6 +38,7 @@ Box Plot
 Browser Compatibility  
 Browsers  
 Bubble Sort  
+Catch  
 Characters
 Chatbots  
 Classes 
@@ -228,6 +229,7 @@ Tidyr
 Title  
 Transpilation  
 Trees  
+Try  
 Tuples  
 Types  
 Type Guard  
