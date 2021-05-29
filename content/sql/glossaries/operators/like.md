@@ -1,24 +1,25 @@
 ---
 Title: "SQL Operators: `LIKE`"
 Subjects:
-  - "Language Fluency"
-  - "Code Foundations"
   - "Data Science"
+  - "Computer Science"
 Tags:
+  - "Operators"
   - "Database"
   - "Queries"
-  - "Tables"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
+  - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
 ---
 
 ## Definition
-***
-Allows the user to perform case-sensitive pattern matching on `string` data through the use of wildcard characters.
+Allows the user to perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
 
 ## Syntax
-***
 SELECT column1, column2, ...
 FROM table_name
 WHERE column LIKE 'pattern%';
