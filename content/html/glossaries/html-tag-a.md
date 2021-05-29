@@ -30,7 +30,7 @@ The HTML tag `<a>`, also known as the _anchor tag_, creates a link to another pa
 
 ### External Link
 
-Suppose the page wants to include a link to Codepedia, that it should be opened in a new tab, and that the text of the link should be Codepedia:
+Suppose the page should include a link to Codepedia, that it should be opened in a new tab, and that the text of the link should be Codepedia:
 
 ```html
 <a href="https://codepedia.com" target="_blank">Codepedia</a>
@@ -38,7 +38,7 @@ Suppose the page wants to include a link to Codepedia, that it should be opened 
 
 ### Internal Link
 
-Suppose the page wishes to include a link to a specific section on the current page. This can be done by adding an `id` to the tag that should be scrolled to and a link whose `href` is equal to that `id`, prefaced with the hash symbol.
+Suppose the page should include a link to a specific section on the current page. This can be done by adding an `id` to the tag that should be scrolled to and a link whose `href` is equal to that `id`, prefaced with the hash symbol.
 
 ```html
 <article id="about-us">
@@ -52,7 +52,7 @@ Suppose the page wishes to include a link to a specific section on the current p
 
 ### Email and Phone
 
-Suppose the page wishes to allow the browser to open appropriate applications to send an email or call a phone number from within the page:
+Suppose the page should allow the browser to open an application to send an email or call a phone number from within the page:
 
 ```html
 <!-- This link will try to create a new email to foo@codepedia.com. -->
@@ -62,4 +62,4 @@ Suppose the page wishes to allow the browser to open appropriate applications to
 <a href="tel:234-555-1212">234-555-1212</a>
 ```
 
-These actions will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
+The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
