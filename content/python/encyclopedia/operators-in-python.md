@@ -5,6 +5,9 @@ Subjects:
   - "Data Science"
 Tags: 
   - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"

@@ -47,9 +47,9 @@ In Java, the type of a variable is checked at compile time. This is known as sta
 Variables must be declared with the appropriate data type or the program will not compile.
 
 ```java
-int i = 10;           // type is int
-char ch = 'a';        // type is char
+int i = 10;           // Type is int
+char ch = 'a';        // Type is char
 
-j = 20;               // won't compile, no type is given
-char name = "Sonny";  // won't compile, wrong data type
+j = 20;               // Won't compile, no type is given
+char name = "Sonny";  // Won't compile, wrong data type
 ```

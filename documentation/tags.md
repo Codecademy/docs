@@ -5,7 +5,8 @@ Tags in Codepedia are used for recommending related entries and for the home pag
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
-Accessibility  
+Accessibility
+AI
 Algorithms  
 Alias  
 Anchor  
@@ -13,9 +14,9 @@ Android
 Angular  
 Animation  
 APIs  
-Arguments
+Arguments  
+Arithmetic
 Arrays  
-Artificial Intelligence  
 ASP.NET  
 Asymptotic Notation  
 Async Await  
@@ -30,7 +31,8 @@ Binary Tree
 Block  
 Body  
 Booleans  
-Bootstrap  
+Bootstrap
+Borders
 Box Model  
 Box Plot  
 Browser Compatibility  
@@ -56,8 +58,8 @@ Cybersecurity
 D3  
 Data Structures  
 Data Types  
-Data Visualization  
 Database  
+Data Structures
 Debugging  
 Deep Learning  
 Dependency  
@@ -78,6 +80,7 @@ Dplyr
 Dynamic Programming  
 Effects  
 Elements  
+Else
 Encapsulation  
 Enum  
 Errors  
@@ -91,6 +94,7 @@ Flask
 Flexbox  
 Flutter  
 Fonts  
+For
 Foreign Key  
 Form  
 Functions  
@@ -111,7 +115,8 @@ Heroku
 Histograms  
 HTTP  
 Id  
-If/Else  
+IDE
+If  
 Images  
 Inheritance  
 Input  
@@ -135,6 +140,7 @@ Linked Lists
 Linux  
 Lists  
 Logic  
+Logical  
 Logistic Regression  
 Loops    
 Margin  
@@ -175,7 +181,8 @@ Properties
 Queries  
 Queues  
 Quicksort  
-Rails  
+Rails
+Random
 Range  
 React  
 React Native  
@@ -233,6 +240,7 @@ Validation
 Values  
 Variable Types  
 Variables  
+Vectors  
 Version Control  
 Video  
 Views  
@@ -240,6 +248,7 @@ Vim
 Visibility  
 Vue  
 WebRTC  
+While
 Whiteboarding  
 Xcode  
 ```

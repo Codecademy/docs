@@ -12,6 +12,7 @@ Tags:
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/analyze-data-with-sql"
+  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
 ---
 
 ## Definition 
