@@ -20,13 +20,12 @@ A conditional statement similar to `WHERE` but used with aggregate functions (`C
 
 ## Code Example
 
+To return a result set of the number (count) of students from each country if the total number is less than 25:
+
 ```sql
-SELECT
-  COUNT(student_name),
+SELECT COUNT(student_name),
   birth_country
 FROM students
 GROUP BY birth_country
 HAVING COUNT(student_name) < 25;
-/* Returns a result set of the number(count) of students from each country
-if the total number is less than 25 */
 ```

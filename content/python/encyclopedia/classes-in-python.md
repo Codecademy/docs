@@ -1,12 +1,13 @@
 ---
-Title:
-  - "Classes in Python"
+Title: "Classes in Python"
 Subjects:
   - "Computer Science"
+  - "Data Science"
   - "Web Development"
 Tags:
   - "Classes"
   - "Objects"
+  - "OOP"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -37,7 +38,9 @@ class Home:
 
 ## Creating Instances of a Class
 
-Objects can be created from classes. These objects are called instances of a class, and when we create an instance, that is known as instantiating a class. To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`.
+Objects can be created from classes. These objects are called instances of a class, and when we create an instance, that is known as instantiating a class. 
+
+To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`.
 
 ```py
 my_home = Home()
@@ -49,7 +52,9 @@ Here, the instance name is `my_home`, and the class is `Home`.
 
 Methods are functions defined as part of a class. The first parameter for any class method is the actual object calling the method, usually called `self`. 
 
-For example, the following class `Home` has a method called `.paint_wall()`. The first parameter is `self`, and the second parameter is `color`. 
+For example, the following class `Home` has a method called `.paint_wall()`:
+- The first parameter is `self`.
+- The second parameter is `color`. 
 
 When calling a class method, no argument is provided for the parameter `self`, but arguments must be provided for each following parameter.
 
@@ -58,9 +63,10 @@ class Home:
   def paint_wall(self, color):
     # ...
 
-# Creating an instance of the class.
+# Creating an instance of the class
 blue_home = Home()
-# Calling the method on the instance.
+
+# Calling the method on the instance
 blue_home.paint_wall("blue")
 ```
 
@@ -150,8 +156,10 @@ class Person:
   def getName(self):
     # Accesses the name variable
     return self.name
+    
 bob = Person("Bob")
-bob.sayHi() # "Hi my name is Bob"
+bob.sayHi() 
+# Output: Hi my name is Bob
 ```
 
 ## type() Function
@@ -197,14 +205,14 @@ Lets demonstrate a class for an `Employee`:
 
 ```py
 class Employee(object):
-    name = "Sam"
-    company = "ILoveCode Inc."
-    age = 30
-    is_on_vacation = True
+  name = "Sam"
+  company = "ILoveCode Inc."
+  age = 30
+  is_on_vacation = True
     
-    def working(self, employee_name):
-       self.name = employee_name
-       print(employee_name + " is working")
+  def working(self, employee_name):
+    self.name = employee_name
+    print(employee_name + " is working")
 ```
 
 Once we create an `Employee` class like we did above we can import the module in our code and create instances of it whenever and wherever we want, thereby enabling code reusablity and making our code more efficient and easier to maintain.
@@ -213,12 +221,12 @@ Once we create an `Employee` class like we did above we can import the module in
 from employee import Employee
 
 def create_employee():
-    print("employee is starting thier job")
-    employee1 = Employee(name="Blake")
-    name = employee1.name
+  print("employee is starting thier job")
+  employee1 = Employee(name="Blake")
+  name = employee1.name
    
-    print(employee1.work(name))
-    # Output: Blake is working
+  print(employee1.work(name))
+  # Output: Blake is working
 ```
 
 When creating applications classes are a great way to organize and improve the quality of your code. 

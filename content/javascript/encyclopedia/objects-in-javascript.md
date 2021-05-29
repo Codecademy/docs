@@ -5,6 +5,8 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Objects"
+  - "Classes"
+  - "OOP"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"

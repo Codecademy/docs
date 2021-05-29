@@ -4,7 +4,10 @@ Subjects:
   - "Computer Science"
   - "Data Science"
 Tags: 
-  - "Operators"
+  - "Variables"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -15,15 +18,19 @@ A variable is used to store data that will be used by the program. This data can
 
 The equal sign `=` is used to assign a value to a variable. After the initial assignment is made, the value of a variable can be updated to new values as needed.
 
-```codebyte/py
-# These are all valid variable names and assignment
- 
+## Examples
+
+These are all valid variable names and assignment:
+
+```py
 user_name = "@sonnynomnom"
 user_id = 100
 verified = False
+```
+
+A variable's value can be changed after assignment
  
-# A variable's value can be changed after assignment
- 
+```codebyte/py
 points = 100
 points = 120
 

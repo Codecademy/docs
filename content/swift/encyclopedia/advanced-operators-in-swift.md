@@ -96,8 +96,8 @@ var shifty: UInt8 = 0b00001000
 shifty << 1        // 00010000
 shifty << 3        // 01000000
 shifty >> 7        // 00000000
-// digits shifted outside the scope of the value
-// are discarded, as with the shift of 7 above
+
+// Digits shifted outside the scope of the value are discarded, as with the shift of 7 above
 ```
 
 In signed numbers, the first digit represents the sign, `0` for positive, `1` for negative. For this reason, it is important to keep that digit as we shift either direction. Let's start with an 8-bit signed number, 15. We said the first digit was the sign, 15 is positive so the sign is `0` and the remaining 7 bits are: `0001111`. Together our 8-bit number is `00001111`. When shifted left, the signed digit remains the same and digits are "pushed" out of the binary number at the signed digit. When shifting right, instead of filling the void space with a `0`, it is filled with the signed digit.
@@ -140,7 +140,7 @@ if tim == amy {
 } else {
   print("These are different students")
 }
-// Prints: "These are different students"
+// Output: "These are different students"
 ```
 
 We can now use `==` to compare two students in a way that makes sense to our program logic. Swift also allows us to overright most of the common operators, for a complete list, [visit this page](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418). When we add or subtract from a student, we want to manipulate the GPAs, the mthods below provide examples of their implementation.
@@ -168,10 +168,10 @@ Basic operators are not the only ones that can be reassigned, we can also redefi
 
 ```swift
 extension Student {
-    static func += (left: inout Student, right: Double) -> Student {
-        left.gpa = left + right
-        return left
-    }
+  static func += (left: inout Student, right: Double) -> Student {
+    left.gpa = left + right
+    return left
+  }
 }
 ```
 

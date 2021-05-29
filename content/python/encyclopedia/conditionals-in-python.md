@@ -5,6 +5,8 @@ Subjects:
   - "Data Science"
 Tags: 
   - "Conditionals"
+  - "If"
+  - "Else"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"

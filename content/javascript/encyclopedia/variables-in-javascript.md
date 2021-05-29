@@ -19,7 +19,7 @@ const currency = '$';
 let userIncome = 85000; 
  
 console.log(currency + userIncome + ' is more than the average income.');
-// Prints: $85000 is more than the average income.
+// Output: $85000 is more than the average income.
 ```
 
 ## Declaring a Variable

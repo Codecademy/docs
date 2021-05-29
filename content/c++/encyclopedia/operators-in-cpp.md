@@ -5,6 +5,9 @@ Subjects:
   - "Game Development"
 Tags: 
   - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-c-plus-plus"
   - "https://www.codecademy.com/learn/paths/computer-science"

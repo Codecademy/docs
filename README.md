@@ -11,7 +11,7 @@ Codepedia is intended to be a free, easily accessible reference for coding terms
 To make the Codepedia vision clearer, [we even created a demo site](https://codecademy.github.io/codepedia/)! The UI is liable to change a lot, but the basic principles are there. 
 
 ## What stage of development are we in right now?
-Right now we're trying to create 1,000 high-quality entries as quickly as we can. We have an engineering team working on creating a Codepedia website in Q2, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Codepedia content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
+Right now we're trying to create 1,000 high-quality entries as quickly as we can. We have an engineering team working on creating the Codepedia website in June-July, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Codepedia content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
 
 
 ## What do I need to do before contributing? 
@@ -23,7 +23,9 @@ Contributing is as simple as:
 
 1. Forking this repo.
 2. Editing your fork.
-3. Making a pull request to merge your fork with this repo.
+    - Be sure to fetch the main branch shortly before you make your edits—this repo is constantly changing, and trying to merge too old of a fork can be a challenge!
+4. Making a pull request to merge your fork with this repo.
+5. Let @sonny and @sam-miller-smith know about your PR in #codepedia-content!
 
 If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 

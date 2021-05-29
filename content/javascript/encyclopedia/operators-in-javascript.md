@@ -5,6 +5,8 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Operators"
+  - "Arithmetic"
+  - "Comparison"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
@@ -59,7 +61,7 @@ number = number + 10;
 number += 10;
  
 console.log(number); 
-// Prints: 120
+// Output: 120
 ```
 
 ## Comparison Operators
@@ -72,4 +74,4 @@ console.log(number);
 - `<` less than
 - `>=` greater than or equal to
 - `<=` less than or equal to
-- `?`ternary operator
+- `?` ternary operator
