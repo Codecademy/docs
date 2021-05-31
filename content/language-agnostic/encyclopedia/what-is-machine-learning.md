@@ -23,17 +23,7 @@ Machine learning can be categorized into three primary branches:
 * Regression: Predict a continuous-valued output.
 * Classification: Predicts a discrete number of values.
 
-- Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
-* Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
-* Dimensionality Reduction:
-
-- Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
-* Markov Decision Processes (MDPs): 
-* Q-Learning/Dep Q-Learning:
-
-### Machine Learning vs. Deep Learning
-
-### Evaluation
+Supervised learning is defined by its use of labeled datasets to train algorithms to classify data or predict outcomes accurately.
 
 As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately. This occurs as part of the cross-validation process to ensure that the model avoids overfitting or underfitting.
 
@@ -41,14 +31,20 @@ Supervised learning helps organizations solve for a variety of real-world proble
 
 Some methods used in supervised learning include:
 
-* Linear regression: (straight) line of best fit: The case of one explanatory variable is called simple linear regression; for more than one, the process is called multiple linear regression.
+Linear regression:** Definition here
+Logistic regression: Definition here
+Naïve-Bayes classifier: Definition here
+Support vector machine (SVM): Definition here
+Neural Networks: Definition here
 
-* Logistic regression: a classification algorithm. An interesting nuance is that it provides confidence values with its predictions since the raw output is a probability of a class between 0 and 1. The general process for this is similar to linear regression, where coefficients for various feature weights are altered in order to optimize the accuracy of subsequent predictions from the model.
+- Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
+* Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
+* Dimensionality Reduction:
 
-* Naïve-Bayes classifier: "probabilistic classifiers" based on applying Bayes' theorem with strong (naïve) independence assumptions between the features (see Bayes classifier). They are among the simplest Bayesian network models,[1] but coupled with kernel density estimation, they can achieve higher accuracy levels.
+- Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
+* Markov Decision Processes (MDPs):
+* Q-Learning/Dep Q-Learning:
 
-Naive Bayes algorithms extend Bayes' formula to multiple variables by assuming that these features are independent of one another. This then allows you to estimate an overall probability by multiplying the conditional probabilities for each of the independent features.
+### Machine Learning vs. Deep Learning
 
-* Support vector machine (SVM): are supervised learning models with associated learning algorithms that analyze data for classification and regression analysis.
-
-* Neural Networks: Definition here
+### Evaluation
