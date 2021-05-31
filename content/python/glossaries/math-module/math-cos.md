@@ -1,20 +1,21 @@
 ---
 Title: "Python Math Module: `math.cos()`"
 Subjects:
-  - "Language Fluency"
-  - "Code Foundations"
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - "Function"
+  - "Functions"
   - "Methods"
   - "Strings"
+  - "Arithmetic"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
 ## Definition
 ***
-The `math.cos()` function returns the cosine of `x` radians.
+Returns the cosine of `x` radians.
 ## Syntax
 ***
 ```py
@@ -25,8 +26,8 @@ math.cos(n)
 ***
 Use `math.cos()` to return the cosine of a `90` degree angle:
 ```codebyte/python
-# Import math library
 import math
+
 
 print(math.cos(90))
 ```
@@ -35,8 +36,8 @@ print(math.cos(90))
 ***
 Use `math.cos()` to return the cosine of a `180.5` degree angle:
 ```codebyte/python
-# Import math library
 import math
+
 
 print(math.cos(180.5))
 ```

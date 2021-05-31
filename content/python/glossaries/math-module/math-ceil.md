@@ -14,7 +14,7 @@ Catalog Content:
 ---
 
 ## Definition
-Takes in a numeric data type and round the value up to the nearest integer.
+Takes in a numeric data type and rounds the value up to the nearest integer.
 
 ## Syntax
 ```py
@@ -29,7 +29,6 @@ import math
 
 
 print(math.ceil(134.2))
-
 ```
 
 ## Example 2
@@ -37,6 +36,6 @@ Use `math.ceil()` to return the ceiling of `412.959`:
 ```codebyte/python
 import math
 
-print(math.ceil(412.959))
 
+print(math.ceil(412.959))
 ```
