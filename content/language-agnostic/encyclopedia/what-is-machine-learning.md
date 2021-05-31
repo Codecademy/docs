@@ -17,10 +17,23 @@ Catalog Content:
 ---
 Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to development computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
 
-Branches of Machine Learning
+## Branches of Machine Learning
 
-Supervised machine learning            
-Supervised learning is defined by its use of labeled datasets to train algorithms to classify data or predict outcomes accurately.
+- Supervised learning: Machine Learning algorithms that receive labeled data as input and make some prediction as output.
+* Regression: Predict a continuous-valued output.
+* Classification: Predicts a discrete number of values.
+
+- Unsupervised Learning is defined by its use of labeled datasets to train algorithms to classify data or predict outcomes accurately.
+*Type of machine learning where the program learns the inherent structure of the data based on unlabeled examples.
+Clustering: Finds patterns and structures in unlabeled data by grouping them into clusters
+*
+
+- Reinforcement Learning:
+
+
+### Machine Learning vs. Deep Learning
+
+### Evaluation
 
 As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately. This occurs as part of the cross-validation process to ensure that the model avoids overfitting or underfitting.
 
@@ -54,7 +67,3 @@ the training of machine learning models to make a sequence of decisions. The age
 In the same way, reinforcement learning is a specialized application of machine and deep learning techniques, designed to solve problems in a particular way.
 
 is a form of AI in which computers are given the ability to progressively improve the performance of a specific task with data, without being directly programmed *history* (this is Arthur Lee Samuel’s definition. He coined the term “machine learning”,
-
-### Machine Learning vs. Deep Learning
-
-### Evaluation
