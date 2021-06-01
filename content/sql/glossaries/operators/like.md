@@ -20,55 +20,39 @@ Catalog Content:
 Allows the user to perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
 
 ## Syntax
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE 'pattern%';
+SELECT name
 
-*OR*
+FROM movies
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE '%pattern%'
+WHERE name LIKE 'Star%';
+The given query will match any movie that begins with `Star` in its title, like Star Wars and Star Trek.
 
-*OR*
+## % Wildcard
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE '%pattern'
+The `%` wildcard can be used in a `LIKE` operator pattern to match zero or more unspecified character(s).
 
-*OR*
+SELECT name
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE 'pattern_';
+FROM movies
 
-*OR*
+WHERE name LIKE 'The%';
+The given query will match any movie that begins with `The`, followed by zero or more of any characters.
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE '_pattern_';
+## _ Wildcard
 
-*OR*
+The `_` wildcard can be used in a `LIKE` operator pattern to match any single unspecified character.
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE '_pattern%';
+SELECT name
 
-*OR*
+FROM movies
 
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE 'pattern__%';
+WHERE name LIKE '_ove';
+The given query will match any movie which begins with a single character, followed by `ove`.
 
-*OR*
-
-SELECT column1, column2, ...
-FROM table_name
-WHERE column LIKE 'pattern1%pattern2';
 
 ## Example 1
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc`:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `abc%`;
@@ -76,7 +60,7 @@ WHERE item_name LIKE `abc%`;
 
 ## Example 2
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` anywhere in the sequence:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `%abc%`;
@@ -84,7 +68,7 @@ WHERE item_name LIKE `%abc%`;
 
 ## Example 3
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `aa`:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `%abc`;
@@ -92,7 +76,7 @@ WHERE item_name LIKE `%abc`;
 
 ## Example 4
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` in specifically the second position of the sequence:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `_abc%`;
@@ -100,7 +84,7 @@ WHERE item_name LIKE `_abc%`;
 
 ## Example 5
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `abc__%`;
@@ -108,7 +92,7 @@ WHERE item_name LIKE `abc__%`;
 
 ## Example 5
 Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
-```codebyte/sql
+```sql
 SELECT *
 FROM inventory
 WHERE item_name LIKE `abc%xyz`;
