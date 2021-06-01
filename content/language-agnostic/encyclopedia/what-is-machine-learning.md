@@ -24,13 +24,25 @@ Machine learning can be categorized into three primary branches:
 * Regression: Predict a continuous-valued output.
 * Classification: Predicts a discrete number of values.
 
+Some methods used in supervised learning include:
+
+Linear regression:** Definition here
+Logistic regression: Definition here
+Naïve-Bayes classifier: Definition here
+Support vector machine (SVM): Definition here
+Neural Networks: Definition here
+
 - Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
 * Dimensionality Reduction:
 
+Some methods used in unsupervised learning include:
+
 - Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
 * Markov Decision Processes (MDPs):
 * Q-Learning/Dep Q-Learning:
+
+Some methods used in reinforcement learning include:
 
 ### Machine Learning vs. Deep Learning
 
