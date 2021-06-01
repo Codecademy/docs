@@ -51,7 +51,7 @@ The given query will match any movie which begins with a single character, follo
 
 
 ## Example 1
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc`:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc`:
 ```sql
 SELECT *
 FROM inventory
@@ -59,7 +59,7 @@ WHERE item_name LIKE `abc%`;
 ```
 
 ## Example 2
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` anywhere in the sequence:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` anywhere in the sequence:
 ```sql
 SELECT *
 FROM inventory
@@ -67,7 +67,7 @@ WHERE item_name LIKE `%abc%`;
 ```
 
 ## Example 3
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `aa`:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `aa`:
 ```sql
 SELECT *
 FROM inventory
@@ -75,7 +75,7 @@ WHERE item_name LIKE `%abc`;
 ```
 
 ## Example 4
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` in specifically the second position of the sequence:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` in specifically the second position of the sequence:
 ```sql
 SELECT *
 FROM inventory
@@ -83,7 +83,7 @@ WHERE item_name LIKE `_abc%`;
 ```
 
 ## Example 5
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
 ```sql
 SELECT *
 FROM inventory
@@ -91,7 +91,7 @@ WHERE item_name LIKE `abc__%`;
 ```
 
 ## Example 5
-Use `LIKE` as a `WHERE` condition to pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
 ```sql
 SELECT *
 FROM inventory
