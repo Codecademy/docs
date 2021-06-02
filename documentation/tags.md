@@ -114,7 +114,7 @@ Head
 Headings  
 Heap  
 Heroku  
-Histograms 
+Histograms  
 HTTP  
 Id  
 IDE
