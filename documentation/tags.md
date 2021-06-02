@@ -114,8 +114,7 @@ Head
 Headings  
 Heap  
 Heroku  
-Histograms  
-HTML Tags
+Histograms 
 HTTP  
 Id  
 IDE
@@ -222,7 +221,8 @@ SwiftUI
 Switch  
 Symbol  
 Syntax  
-Tables  
+Tables 
+Tags  
 Target  
 Technical Interviews  
 Templates  

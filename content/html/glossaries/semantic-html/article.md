@@ -5,14 +5,15 @@ Subjects:
   - "Web Design"
 Tags:
   - "Semantic"
-  - "HTML Tags"
+  - "Tags"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-html"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 ## Definition 
 
-The semantic HTML tag `<article>` represents a part of a page which is self-contained, and could be published elsewhere. Some common uses of the `<article>` tag  include blog posts or magazine articles.
+The `<article>` semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles.
 
 ## Syntax
 
@@ -24,7 +25,7 @@ The semantic HTML tag `<article>` represents a part of a page which is self-cont
 
 `<article>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
-## Examples
+## Example
 
 Suppose that there is a need to layout multiple posts about coding practices for a new site. It would be semantically correct to use the `<article>` tag, as below: 
 
