@@ -38,7 +38,10 @@ Some methods used in supervised learning include:
 
 Some methods used in unsupervised learning include:
 
-
+* K-Means: Clustering algorithm
+* Hierarchical Clustering:
+* Principal Component Analysis (PCA): Dimensionality reduction algorithm
+*
 
 - Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
 * Markov Decision Processes (MDPs):
@@ -47,5 +50,7 @@ Some methods used in unsupervised learning include:
 Some methods used in reinforcement learning include:
 
 ### Machine Learning vs. Deep Learning
+
+
 
 ### Evaluation
