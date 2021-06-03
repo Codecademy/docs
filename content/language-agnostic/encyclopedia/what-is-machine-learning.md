@@ -26,11 +26,11 @@ Machine learning can be categorized into three primary branches:
 
 Some methods used in supervised learning include:
 
-Linear regression:** Definition here
-Logistic regression: Definition here
-Naïve-Bayes classifier: Definition here
-Support vector machine (SVM): Definition here
-Neural Networks: Definition here
+* Linear regression: Plots the optimal values of related data variables in a line or plane of "best fit".
+* Logistic regression: Classifies elements in a data set into different categories.
+* Naïve-Bayes classifier: Uses Bayes' theorem to perform classification of elements.
+* Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points.   
+* Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relativly high performance capabilities.  
 
 - Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
@@ -38,9 +38,11 @@ Neural Networks: Definition here
 
 Some methods used in unsupervised learning include:
 
+
+
 - Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
 * Markov Decision Processes (MDPs):
-* Q-Learning/Dep Q-Learning:
+* Q-Learning/Deep Q-Learning:
 
 Some methods used in reinforcement learning include:
 
