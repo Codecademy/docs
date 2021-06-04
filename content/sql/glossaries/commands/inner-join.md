@@ -1,5 +1,5 @@
 ---
-Title: "ALTER TABLE"
+Title: "INNER JOIN"
 Subjects:
   - "Data Science"
 Tags:
