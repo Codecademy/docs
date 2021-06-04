@@ -22,18 +22,11 @@ To use vectors, it is necessary to `#include` the `vector` library.
 #include <vector>
 ```
 
-### Create a vector
-
-Two things required:
-
-- A type
-- A name
+During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed.
 
 ```cpp
 std::vector<type> name;
 ```
-
-During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed.
 
 ### Create a vector with n number of items
 
