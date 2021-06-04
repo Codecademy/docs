@@ -28,18 +28,17 @@ To create a vector, you need to give it a type and a name:
 std::vector<type> name;
 ```
 
-To create a vector with n number of items:
+To create a vector with *n* number of items:
 
 ```cpp
-std::vector<type> name(n);
+std::vector<int> grades(10);
 ```
 
-To create a vector and also give it values:
+To create and intitialize a vector:
 
 ```cpp
-std::vector<type> name = {value1, value2, value3...};
+std::vector<double> order = {3.99, 12.99, 2.49};
 ```
-
 
 ## Vector Type
 
