@@ -28,7 +28,7 @@ During the creation of a C++ vector, the data type of its elements must be speci
 std::vector<type> name;
 ```
 
-### Create a vector with n number of items
+### Create a vector with a size
 
 ```cpp
 std::vector<int> grades(10);
