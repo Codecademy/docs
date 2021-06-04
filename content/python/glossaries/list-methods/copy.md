@@ -19,7 +19,7 @@ Returns a shallow copy of a list.
 ## Syntax
 
 ```py
-list.copy()
+list2 = list1.copy()
 ```
 
 The `.copy()` method has no parameters.
@@ -29,13 +29,16 @@ The `.copy()` method has no parameters.
 A Python list can be copied using the `=` assignment operator:
 
 ```py
-old_list = [1, 2, 3, 4]
-​new_list = old_list
+list1 = [1, 2, 3, 4]
+list2 = list1
+
+print(list1) # Ouptut: [1, 2, 3, 4]
+print(list2) # Ouptut: [1, 2, 3, 4]
 ```
 
-The problem with copying lists this way is that if you modify `new_list`, `old_list` is also modified. It is because the new list is referencing or pointing to the same `old_list` object.
+However, if you modify `list2`, `list1` is also modified. This is because the new list is pointing to the same `list1` object.
 
-However, if you need the original list unchanged when the new list is modified, you can use the `.copy()` method.
+If you need the original list unchanged when the new list is modified, you can use the `.copy()` method.
 
 Copying the `orders` list:
 
@@ -50,4 +53,4 @@ print(new_orders)
 
 ## Shallow Copy
 
- Shallow copy means if we modify any of the nested list elements, changes are reflected in both the list as they point to the same reference. Whereas in deep copy, when we add an element in any of the lists, only that list is modified.
+Shallow copy means if we modify any of the nested list elements, changes are reflected in both the list as they point to the same reference. Whereas in deep copy, when we add an element in any of the lists, only that list is modified.
