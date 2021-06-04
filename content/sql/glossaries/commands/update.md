@@ -31,7 +31,7 @@ WHERE some_column = some_value;
 
 ## Example
 
-The given query will update the row for a specific customer ID:
+The given query will update the row for a specific customer ID in the `customers` table:
 
 ```sql
 UPDATE customers
