@@ -88,29 +88,3 @@ File "script.py", line 1, in <module>
 ratio = 100 / 0
 ZeroDivisionError: division by zero
 ```
-
-### Full Table
-
-The following table lists important built-in exceptions in Python.
-
-| Exception	| Description |
-| --- | --- |
-| `AssertionError`	| Raised when the assert statement fails. |
-| `AttributeError`	| Raised on the attribute assignment or reference fails. |
-| `EOFError`	| Raised when the input() function hits the end-of-file condition. |
-| `FloatingPointError`	| Raised when a floating point operation fails. |
-| `GeneratorExit` | Raised when a generator's close() method is called. |
-| `ImportError`	| Raised when the imported module is not found. |
-| `IndexError` | Raised when the index of a sequence is out of range. |
-| `KeyError`	| Raised when a key is not found in a dictionary. |
-| `MemoryError`	| Raised when an operation runs out of memory. |
-| `NameError`	| Raised when a variable is not found in the local or global scope. |
-| `OSError`	| Raised when a system operation causes a system-related error. |
-| `OverflowError` |	Raised when the result of an arithmetic operation is too large to be represented. |
-| `RuntimeError` | Raised when an error does not fall under any other category. |
-| `IndentationError` |	Raised when there is an incorrect indentation. |
-| `TabError` |Raised when the indentation consists of inconsistent tabs and spaces. |
-| `SystemError`	| Raised when the interpreter detects internal error. |
-| `TypeError`	| Raised when a function or operation is applied to an object of an incorrect type. |
-| `ValueError`	| Raised when a function gets an argument of correct type but improper value. |
-| `ZeroDivisionError` | Raised when the second operand of a division or module operation is zero. |
