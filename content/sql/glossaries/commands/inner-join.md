@@ -20,8 +20,7 @@ Returns a result set off all rows that have matching values in both tables, omit
 
 ## Example
 
-To create a result set of every row where student ids match in both tables
-and only includes last name, first name, and both GPAs:
+To create a result set of every row where student IDs match in both tables and only includes last name, first name, and both GPAs:
 
 ```sql
 SELECT
