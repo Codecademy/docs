@@ -40,7 +40,8 @@ SELECT
   students.overall_gpa,
   transfer_data.overal_gpa
 FROM students
-OUTER JOIN transfer_data ON students.student_id = transfer_data.student_id;
+OUTER JOIN transfer_data
+  ON students.student_id = transfer_data.student_id;
 ```
 
 The result set will only includes last name, first name, and both GPAs.
