@@ -64,3 +64,9 @@ const multiply = (a, b) => a * b;
 console.log(multiply(2, 30)); 
 // Output: 60 
 ```
+
+## Limitations
+
+- Arrow functions do not have their own bindings to `this` or `super`, and should not be used as methods.
+- Arrow functions cannot be used as constructors.
+- Arrow functions cannot use `yield`, within its body.
