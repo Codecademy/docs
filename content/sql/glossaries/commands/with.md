@@ -26,7 +26,8 @@ The `WITH` clause is also known as common table expression (CTE) and subquery fa
 ```sql
 WITH temporary_name AS (
    SELECT *
-   FROM table_name)
+   FROM table_name
+)
 SELECT *
 FROM temporary_name
 WHERE condition;
