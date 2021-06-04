@@ -18,7 +18,7 @@ Catalog Content:
 
 Returns a result set off all rows that have matching values in both tables, omits rows where match fails.
 
-## Code Example
+## Example
 
 To create a result set of every row where student ids match in both tables
 and only includes last name, first name, and both GPAs:
@@ -30,5 +30,6 @@ SELECT
   students.overall_gpa,
   transfer_data.overal_gpa
 FROM students
-INNER JOIN transfer_data ON students.student_id = transfer_data.student_id;
+INNER JOIN transfer_data 
+  ON students.student_id = transfer_data.student_id;
 ```
