@@ -13,7 +13,7 @@ Catalog Content:
 
 A dictionary is an unordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys.
 
-# Syntax
+## Syntax
 
 The syntax of a dictionary is as follows:
 
@@ -27,36 +27,22 @@ Dictionary keys can must be immutable types such as numbers and strings, because
 
 Values can be any type such as strings, numbers, lists, even other dictionaries.
 
-## Creating a dictionary
+## Creating a Dictionary
 
 A dictionary is created using curly braces `{` `}`:
-
-Dictionary with entries
-
-```py
-coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
-```
-
-Empty dictionary.
 
 ```py
 diner = {}
 ```
 
-## Accessing values in a dictionary
+A dictionary with entries:
 
 ```py
-dict[key]
+coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 ```
-
-When you try to access a key that does not exist, it will throw a `KeyError`.
-
-## Safely accessing keys using .get()
-
-To avoid `KeyError`s when the key does not exist, the `.get()` method can be used. It will return `None` if there is no such key.
-
-```py
-```
+- `"cold brew": 3.50`
+- `"latte": 4.25`
+- `"cappucino": 3.99`
 
 ## Adding a new entry
 
@@ -64,10 +50,13 @@ To avoid `KeyError`s when the key does not exist, the `.get()` method can be use
 dict[new_key] = new_value
 ```
 
-## Upating a value of an existing key
+When you try to access a key that does not exist, it will throw a `KeyError`.
+
+## Safely accessing keys using `.get()`
+
+To avoid `KeyError`s when the key does not exist, the `.get()` method can be used. It will return `None` if there is no such key.
 
 ```py
-dict[key] = new_value
 ```
 
 ## .update() method
