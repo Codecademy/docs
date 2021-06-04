@@ -149,6 +149,7 @@ Margin
 MATLAB  
 Matplotlib  
 Media Queries  
+Memory
 Metadata  
 Methods  
 Middleware  
@@ -173,6 +174,7 @@ Paragraph
 Parameters
 Phaser  
 Physics  
+Pointers
 Positioning  
 PostgreSQL  
 Primary Key  
@@ -191,6 +193,7 @@ React Native
 Readr  
 Recursion  
 Redux   
+References
 Regular Expressions  
 Requests  
 Responsive  
