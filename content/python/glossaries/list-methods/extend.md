@@ -28,26 +28,26 @@ This will place passed in iterable (list, tuple, or string) as new elements at t
 
 ## Examples
 
-To add `grocery2` to the end of the `grocery1` list:
+To add `grocery_new` to the end of the `grocery` list:
 
 ```codebyte/python
-grocery1 = ['blueberries', 'eggs', 'artichoke']
-grocery2 = ['milk', 'cookies']
+grocery = ['blueberries', 'eggs', 'artichoke']
+grocery_new = ['milk', 'cookies']
 
-grocery1.extend(grocery2)
+grocery.extend(grocery_new)
 
-print(grocery1)
+print(grocery)
 # Output: ['blueberries', 'eggs', 'artichoke', 'milk', 'cookies']
 ```
 
 It works for any other type of iterables:
 
 ```codebyte/python
-orders = ['daisies', 'periwinkle']
-points = (1, 4, 5, 9)
+to_do_list = ['respond to email', 'check github']
+targets = (4, 1, 6, 20)
 
-orders.extend(1, 4, 5, 9)
+to_do_list.extend(targets)
 
-print(orders)
-# Output: ['daisies', 'periwinkle', 1, 4, 5, 9]
+print(to_do_list)
+# Output: ['respond to email', 'check github', 4, 1, 6, 20]
 ```
