@@ -31,7 +31,7 @@ answer = input("What is the meaning of life? \n")
 if answer == "42":
   print("Good job!")
 else:
-  print("Sorry! That's not it")
+  print("Sorry! That's not it.")
 ```
 
 In this case, when the code is run, it will print out "What is the meaning of life?". If the user types `"42"` and presses `enter`, it will print "Good job!". If the user types anything other than `"42"`, it will print out "Sorry! That's not it".
@@ -42,7 +42,7 @@ Whatever the user types will be saved as a string. However, the string can be co
 my_num = input("What number comes after 1? \n")
 
 if my_num == 2:
-  print("correct!")
+  print("Correct!")
 else:
   print("No...")
 
@@ -55,7 +55,7 @@ This always prints "No..." because the string `'2'` does not equal the number `2
 my_num = input("What number comes after 1? \n")
 
 if int(my_num) == 2:
-  print("correct!")
+  print("Correct!")
 else:
   print("No...")
 ```
