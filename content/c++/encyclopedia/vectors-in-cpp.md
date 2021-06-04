@@ -28,26 +28,18 @@ To create a vector, you need to give it a type and a name:
 std::vector<type> name;
 ```
 
-For example, to create a vector named `grade` with 3 items:
+To create a vector with n number of items:
 
-```codebyte/cpp
-#include <iostream>
-#include <vector>
- 
-int main() {
-  
-  std::vector<int> grades(3);
-  
-  grades[0] = 90;
-  grades[1] = 86;
-  grades[2] = 98;
-  
-  std::cout << grades[0] << "\n";
-  std::cout << grades[1] << "\n";
-  std::cout << grades[2] << "\n";
-
-}
+```cpp
+std::vector<type> name(n);
 ```
+
+To create a vector and also give it values:
+
+```cpp
+std::vector<type> name = {value1, value2, value3...};
+```
+
 
 ## Vector Type
 
@@ -67,4 +59,27 @@ std::cout << order[0];
  
 // What's the last element?
 std::cout << order[2];
+```
+
+## Example
+
+To create a vector named `grade` with 3 items:
+
+```codebyte/cpp
+#include <iostream>
+#include <vector>
+ 
+int main() {
+  
+  std::vector<int> grades(3);
+  
+  grades[0] = 90;
+  grades[1] = 86;
+  grades[2] = 98;
+  
+  std::cout << grades[0] << "\n";
+  std::cout << grades[1] << "\n";
+  std::cout << grades[2] << "\n";
+
+}
 ```
