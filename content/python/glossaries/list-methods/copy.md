@@ -36,11 +36,11 @@ print(list1) # Ouptut: [1, 2, 3, 4]
 print(list2) # Ouptut: [1, 2, 3, 4]
 ```
 
-However, if you modify `list2`, `list1` is also modified. This is because the new list is pointing to the same `list1` object.
+However, if you modify `list2`, `list1` is also modified. This is because `list2` is actually pointing to the `list1` object.
 
-If you need the original list unchanged when the new list is modified, you can use the `.copy()` method.
+If you want the original list unchanged when the new list is modified, you can use the `.copy()` method.
 
-Copying the `orders` list:
+Copying the `orders` list using `.copy()` method:
 
 ```codebyte/python
 orders = ['daisies', 'periwinkle']
@@ -51,6 +51,8 @@ print(new_orders)
 # Output: ['daisies', 'periwinkle']
 ```
 
+Now if you change `new_orders`, `orders` stays the same.
+
 ## Shallow Copy
 
-Shallow copy means if we modify any of the nested list elements, changes are reflected in both the list as they point to the same reference. Whereas in deep copy, when we add an element in any of the lists, only that list is modified.
+If you are copying nested lists, shallow copy means if you modify any of the nested list elements, changes are reflected in both the list as they point to the same reference. Whereas in deep copy, when you add an element in any of the lists, only that list is modified.
