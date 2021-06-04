@@ -63,3 +63,16 @@ Suppose the page should allow the browser to open an application to send an emai
 ```
 
 The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
+
+### Image Links
+
+Suppose the page needs a clickable logo:
+
+```html
+<!-- This link will be an image -->
+<a href="http://www.codecademy.com">
+  <img src="logo.jpg">Click this image
+</a>
+```
+
+Anything that is inside the anchor tag will be treated as a link. In this case the Codecademy logo will take the user to the Codecademy home page.
