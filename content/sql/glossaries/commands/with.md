@@ -40,8 +40,8 @@ The given query will store the result of `SELECT * FROM movies` into a temporary
 
 ```sql
 WITH temporary_movies AS (
-  SELECT *
-  FROM movies
+   SELECT *
+   FROM movies
 )
 SELECT *
 FROM temporary_movies
