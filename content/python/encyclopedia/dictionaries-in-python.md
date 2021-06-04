@@ -27,7 +27,7 @@ Dictionary keys can must be immutable types such as numbers and strings, because
 
 Values can be any type such as strings, numbers, lists, even other dictionaries.
 
-## Creating a Dictionary
+## Create a Dictionary
 
 A dictionary is created using curly braces `{` `}`:
 
@@ -44,7 +44,7 @@ coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 - `"latte": 4.25`
 - `"cappucino": 3.99`
 
-## Adding a new entry
+## Add an Entry
 
 ```py
 dict[new_key] = new_value
@@ -53,7 +53,7 @@ dict[new_key] = new_value
 When you try to access a key that does not exist, it will throw a `KeyError`.
 
 
-## Creating a dictionary using list comprehension
+## Create a Dictionary using List Comprehension
 
 ```py
 dict = {key: value for key, value in zip(list1, list2)}
