@@ -21,7 +21,7 @@ Fetchs data from a database. Every query will begin with `SELECT`.
 
 ## Syntax
 
-The `SELECT *` statement returns all columns from the provided table in the result set.
+The `SELECT *` statement returns all columns from the provided table in the result set:
 
 ```sql
 SELECT *
@@ -37,17 +37,16 @@ FROM table_name;
 
 ## Examples
 
-The given query will fetch all columns and records (rows) from the `movies` table.
+The following query will fetch all columns and records (rows) from the `movies` table:
 
 ```sql
 SELECT *
 FROM movies;
 ```
 
-This will select just the `title` and `rating` columns from the `movies` table.
+And this query will select just the `title` and `rating` columns from the `movies` table:
 
 ```sql
 SELECT title, rating
 FROM movies;
 ```
-
