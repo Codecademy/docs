@@ -13,6 +13,8 @@ Catalog Content:
 
 A dictionary is an unordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys.
 
+# Syntax
+
 The syntax of a dictionary is as follows:
 
 ```py
@@ -26,6 +28,7 @@ Dictionary keys can must be immutable types such as numbers and strings, because
 Values can be any type such as strings, numbers, lists, even other dictionaries.
 
 ## Creating a dictionary
+
 A dictionary is created using curly braces '{}'....
 
 Dictionary with entries
