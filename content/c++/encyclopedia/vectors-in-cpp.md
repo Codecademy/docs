@@ -22,27 +22,30 @@ To use vectors, it is necessary to `#include` the `vector` library.
 #include <vector>
 ```
 
-To create a vector, you need to give it a type and a name:
+### To create a vector
+
+Two things required:
+
+- A type
+- A name
 
 ```cpp
 std::vector<type> name;
 ```
 
-To create a vector with *n* number of items:
+During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed.
+
+### To create a vector with n number of items
 
 ```cpp
 std::vector<int> grades(10);
 ```
 
-To create and intitialize a vector:
+### To create and intitialize a vector
 
 ```cpp
 std::vector<double> order = {3.99, 12.99, 2.49};
 ```
-
-## Vector Type
-
-During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed.
 
 ## Index
 
