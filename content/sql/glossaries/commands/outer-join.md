@@ -40,7 +40,7 @@ SELECT
   students.overall_gpa,
   transfer_data.overal_gpa
 FROM students
-OUTER JOIN transfer_data
+LEFT JOIN transfer_data
   ON students.student_id = transfer_data.student_id;
 ```
 
