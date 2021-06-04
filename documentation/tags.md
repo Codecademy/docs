@@ -221,7 +221,8 @@ SwiftUI
 Switch  
 Symbol  
 Syntax  
-Tables  
+Tables 
+Tags  
 Target  
 Technical Interviews  
 Templates  
