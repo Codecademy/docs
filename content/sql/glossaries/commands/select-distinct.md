@@ -32,13 +32,13 @@ FROM table_name;
 
 For a table `teams` having five rows:
 
-| city | name |
-| --- | --- | 
-| Cleveland | Cavaliers |
-| Los Angeles | Lakers |
-| Los Angeles | Clippers |
-| Golden State | Warriors |
-| Miami | Heat |
+| city | name | wins | losses |
+| --- | --- | --- | --- |
+| Cleveland | Cavaliers | 22 | 50 |
+| Los Angeles | Lakers | 42 | 30 |
+| Los Angeles | Clippers | 47 | 25 |
+| Golden State | Warriors | 39 | 33 |
+| Miami | Heat | 40 | 32 |
 
 ```sql
 SELECT DISTINCT city
