@@ -55,4 +55,4 @@ Now if you change `new_orders`, `orders` stays the same.
 
 ## Shallow Copy
 
-If you are copying nested lists, shallow copy means if you modify any of the nested list elements, changes are reflected in both the list as they point to the same reference. Whereas in deep copy, when you add an element in any of the lists, only that list is modified.
+If you are copying nested lists, shallow copy means if you modify any of the new nested list elements, changes are reflected in both the new and old lists as they point to the same reference. Whereas in deep copy, if you modify any of the new nested list elements, only the new list changes.
