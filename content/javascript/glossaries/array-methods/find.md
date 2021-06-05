@@ -18,7 +18,7 @@ Returns the first element in the array that satifies the provided function.
 ## Syntax
 
 ```js
-array1.find(element => element > 10);
+array.find(element => element > 10);
 ```
 
 If no values satisfy the testing function, `undefined` is returned.
