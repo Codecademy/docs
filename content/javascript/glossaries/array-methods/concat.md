@@ -40,7 +40,7 @@ const grocery2 = ['milk', 'cookies'];
 const grocery = grocery1.concat(grocery2);
 
 console.log(grocery);
-// Output: [ 'blueberries', 'eggs', 'arichoke', 'milk', 'cookies' ]
+// Output: [ 'blueberries', 'eggs', 'artichoke', 'milk', 'cookies' ]
 ```
 
 Concatenating three arrays:
