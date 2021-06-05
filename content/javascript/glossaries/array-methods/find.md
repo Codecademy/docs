@@ -13,12 +13,12 @@ Catalog Content:
 
 ## Definition 
 
-Returns the first element in the array that satifies the provided function.
+Returns the first element in the array that satifies the given function.
 
 ## Syntax
 
 ```js
-array.find(element => element > 10);
+array.find(element => element < 5);
 ```
 
 If no values satisfy the testing function, `undefined` is returned.
