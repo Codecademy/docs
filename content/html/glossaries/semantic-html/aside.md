@@ -19,7 +19,7 @@ The `<aside>` semantic tag represents a part of a page which is relevant to the 
 
 ```html
 <aside>
-  <!-- Aside content goes inside the tag. -->
+  <!-- Aside content goes inside the tag -->
 </aside>
 ``` 
 
@@ -36,7 +36,7 @@ Suppose the current page wants to feature a definition of an important term with
   <body>
     <article>
       <h2>Functional Programming in JavaScript</h2>
-      <!-- Lots of paragraphs before this point! -->
+      <!-- Lots of paragraphs before this point -->
       <p>One of the fun things we can do with functional programming in JavaScript is <b>currying</b>. Here we have an example of taking a function with two inputs and turning it into a curried version</p>
       <aside>
         <p>
@@ -44,7 +44,7 @@ Suppose the current page wants to feature a definition of an important term with
         </p>
       </aside>
       <code>
-        <!-- Code snippet goes here! -->
+        <!-- Code snippet for article goes here -->
       </code>
     </article>
   </body>
