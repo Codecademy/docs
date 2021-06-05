@@ -21,7 +21,7 @@ Returns the first element in the array that satifies the given function.
 array.find(element => element < 5);
 ```
 
-If no values satisfy the testing function, `undefined` is returned.
+If none of the elements in the array satisfy the function, `undefined` is returned.
 
 ## Examples
 
