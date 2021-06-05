@@ -25,12 +25,12 @@ If none of the elements in the array satisfy the function, `undefined` is return
 
 ## Examples
 
-Finding the first temperature that's higher than 90 °F:
+Finding the first temperature that's over 90 °F:
 
 ```js
 const temperature = [72, 87, 92, 90, 85, 88, 81];
 
-const hot = temperature.find(element => element > 90);
+const hot = temperature.find(element => element >= 90);
 
 console.log(hot);
 // Output: 92
