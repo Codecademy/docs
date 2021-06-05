@@ -19,7 +19,7 @@ The `<footer>` semantic tag represents a part of a page which is meant to be at 
 
 ```html
 <footer>
-  <!-- Footer content goes inside the tag. -->
+  <!-- Footer content goes inside the tag -->
 </footer>
 ``` 
 
@@ -33,7 +33,7 @@ After the main content is shown to the users of Bongo Ltd., they should see navi
 
 ```html
 <main>
-  <!-- Site content goes here. -->
+  <!-- Site content goes here -->
 </main>
 <footer>
   <nav>
@@ -52,22 +52,28 @@ A footer like this might be present across multiple pages on the site, even thou
 At the end of the article we wish to show author information, as well as social media links for sharing of the article.
 
 ```html
-<article>
-  <!-- Article header and other sections go here. -->
+<html>
+  <head>
+  </head>
+  <body>
+    <article>
+      <!-- Article header and other sections go here -->
 
-  <section>
-    <!-- Final section content goes here. -->
-  </section>
+      <section>
+        <!-- Final section content goes here -->
+      </section>
 
-  <footer>
-    <p>Article written by Josie Sweets for Skim Milk Magazine, June 2019</p>
-    <nav>
-      <a>Share on Instagram</a>
-      <a>Share on Tumblr</a>
-      <a>Share on Twitter</a>
-    </nav>
-  </footer>
-</article>
+      <footer>
+        <p>Article written by Josie Sweets for Skim Milk Magazine, June 2019</p>
+        <nav>
+          <a>Share on Instagram</a>
+          <a>Share on Tumblr</a>
+          <a>Share on Twitter</a>
+        </nav>
+      </footer>
+    </article>
+  </body>
+</html>
 ```
 
 This is a great use of a semantic element, and also will help the designer when it comes to styling the articles.
