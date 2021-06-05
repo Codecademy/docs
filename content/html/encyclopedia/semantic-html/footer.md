@@ -39,7 +39,7 @@ After the main content is shown to the users of Bongo Ltd., they should see navi
   <nav>
     <a href="/partners">Bongo Ltd. Partner Companies</a>
     <a href="/careers">Careers @ Bongo Ltd.</a>
-    <!-- So many more links... -->
+    <!-- More links go here-->
   </nav>
   <h3>Copyright 2021, Bongo Ltd.</h3>
 </footer>
