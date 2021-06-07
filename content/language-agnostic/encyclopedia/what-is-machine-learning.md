@@ -40,17 +40,20 @@ Some methods used in unsupervised learning include:
 
 * K-Means: Categorizes data points into clusters based on their proximity to cluster centroids.
 * Hierarchical Clustering:
-* Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to n princial dimensions that contain the most valuable information.
+* Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuable information.
 
 - Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
-* Markov Decision Processes (MDPs):
-* Q-Learning/Deep Q-Learning:
+* Model-Free:
+* Model-Based:  
 
 Some methods used in reinforcement learning include:
+* Markov Decision Processes (MDPs):
+* Monte Carlo methods:
+* Q-Learning/Deep Q-Learning:
 
 ### Machine Learning vs. Deep Learning
 
 
 
 ### Evaluation
-There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, a   
+There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, confusion matrices inform analysts of the number of true and false positives as well as negatives to calculate values such as recall, precision, and F1 scores. These values help analysts understand if their models are underfitting or overfitting, which is critical to improving and maintaing their performance.
