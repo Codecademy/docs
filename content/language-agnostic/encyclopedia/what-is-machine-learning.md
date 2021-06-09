@@ -39,11 +39,11 @@ Some methods used in supervised learning include:
 Some methods used in unsupervised learning include:
 
 * K-Means: Categorizes data points into clusters based on their proximity to cluster centroids.
-* Hierarchical Clustering:
+* Hierarchical Agglomerative Clustering: Groups data points into clusters based on various measures of similarity such as smallest average distance between all points, minimal variance between data points, or smallest maximum distance between data points.  
 * Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuable information.
 
-- Reinforcement Learning: Machine learning algorithms that receive a state, environment, and goal as input and produce a policy of best action relative to the stated goal as output.
-* Model-Free:
+- Reinforcement Learning (RL): Machine learning algorithms that receive a state, environment, reward, and goal as input and produce a policy of best action relative to the stated goal as output.
+* Model-Free: Uses only real samples of the environment to calculate optimal actions.
 * Model-Based:  
 
 Some methods used in reinforcement learning include:
