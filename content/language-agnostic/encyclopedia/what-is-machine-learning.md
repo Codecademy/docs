@@ -43,13 +43,13 @@ Some methods used in unsupervised learning include:
 * Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuable information.
 
 - Reinforcement Learning (RL): Machine learning algorithms that receive a state, environment, reward, and goal as input and produce a policy of best action relative to the stated goal as output.
-* Model-Free: Uses only real samples of the environment to calculate optimal actions.
-* Model-Based:  
+* Model-Free: Act as trial-and-error algorithms that use only real samples of the environment to calculate optimal actions instead of the transition probability distribution to create a model of the environment.
+* Model-Based: Create a
 
 Some methods used in reinforcement learning include:
 * Markov Decision Processes (MDPs):
 * Monte Carlo methods:
-* Q-Learning/Deep Q-Learning:
+* Q-Learning/Deep Q-Learning: Model-Free algorithms that
 
 ### Machine Learning vs. Deep Learning
 
