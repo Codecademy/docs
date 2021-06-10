@@ -16,10 +16,7 @@ The built-in `.lower()` method takes a string, and returns a copy of that string
 
 ## Syntax
 ```python
-my_string = "Hello, World!"
-new_string = my_string.lower()
-print(new_string)
-# Output: "hello, world!"
+string.lower()
 ```
 
 ## Example 1
