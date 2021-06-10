@@ -31,7 +31,7 @@ Suppose the document contains a description of what a JavaScript function aims t
   <head>
   </head>
   <body>
-    <!-- Here <code> is being used inline, add() will be shown in a monospace font -->
+    <!-- Here <code> is being used inline, and the text add() will be shown in a monospace font -->
     <p>The function <code>add()</code> is defined below. It will take two inputs, and return the sum of them as an output.</p>
 
     <!-- Here <code> is being used with a <pre> tag to allow the formatted code to span multiple lines -->
