@@ -48,7 +48,7 @@ Some methods used in unsupervised learning include:
 
 Some methods used in reinforcement learning include:
 * Markov Decision Processes (MDPs): Use a model of the environment based on their state transition probability and reward functions to create a policy of optimal actionnand satisfy the Markov property.
-* Monte-Carlo methods: Model-Free randomized algorithms that learn from episodes of experience whether continuous or terminal to
+* Monte-Carlo methods: Model-Free randomized algorithms that learn from episodes of experience whether continuous or terminal to calculate the value for a state based on the average return from those experiences.
 * Q-Learning/Deep Q-Learning: Model-Free algorithms that focus on maximizing the expected value of reward for
 
 ### Machine Learning vs. Deep Learning
