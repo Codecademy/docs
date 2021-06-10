@@ -16,10 +16,7 @@ The built-in `.upper()` method takes a string, and returns a copy of that string
 
 ## Syntax
 ```python
-my_string = "Hello, World!"
-new_string = my_string.upper()
-print(new_string)
-# Output: "HELLO, WORLD!"
+string.upper()
 ```
 
 ## Example 1
