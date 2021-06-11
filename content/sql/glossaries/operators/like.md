@@ -25,6 +25,7 @@ SELECT name
 FROM movies
 
 WHERE name LIKE 'Star%';
+
 The given query will match any movie that begins with `Star` in its title, like Star Wars and Star Trek.
 
 ## % Wildcard
