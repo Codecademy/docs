@@ -24,21 +24,14 @@ SELECT production_city
 
 FROM movies
 
-WHERE name IN ('Los Angeles', 'Atlanta', 'New York');
-The given query will match any movie that begins with `Star` in its title, like Star Wars and Star Trek.
+WHERE production_city IN ('Los Angeles', 'Atlanta', 'New York');
+
+The given query will select all records where `production_city` is equal to 'Los Angeles', 'Atlanta', or 'New York'.
 
 ## Example 1
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
+To query all fields for records where `item_name` is equal to 'plunger', 'soap', or 'wipes' in the `inventory` table:
 ```sql
 SELECT *
 FROM inventory
-WHERE item_name LIKE `abc__%`;
-```
-
-## Example 2
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
-```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `abc%xyz`;
+WHERE item_name IN ('plunger', 'soap', 'wipes');
 ```
