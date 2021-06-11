@@ -90,7 +90,7 @@ FROM inventory
 WHERE item_name LIKE `abc__%`;
 ```
 
-## Example 5
+## Example 6
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
 ```sql
 SELECT *
