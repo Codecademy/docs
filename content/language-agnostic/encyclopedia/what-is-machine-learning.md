@@ -34,7 +34,7 @@ Some methods used in supervised learning include:
 
 - Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
-* Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaing the maximum amount of relevant information.
+* Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
 
 Some methods used in unsupervised learning include:
 
@@ -47,13 +47,13 @@ Some methods used in unsupervised learning include:
 * Model-Based: Create models of the environment to generate predictions of the next state and reward to calculate optimal actions.
 
 Some methods used in reinforcement learning include:
-* Markov Decision Processes (MDPs): Use a model of the environment based on their state transition probability and reward functions to create a policy of optimal actionnand satisfy the Markov property.
+* Markov Decision Processes (MDPs): Use a model of the environment based on their state transition probability and reward functions to create a policy of optimal action and satisfy the Markov property.
 * Monte-Carlo methods: Model-Free randomized algorithms that learn from episodes of experience whether continuous or terminal to calculate the value for a state based on the average return from those experiences.
 * Q-Learning/Deep Q-Learning: Model-Free algorithms that focus on maximizing the expected value of reward for
 
 ### Machine Learning vs. Deep Learning
-
+Deep Learning is a subset of machine learning that focuses on artificial neural networks. The "deep" component is in reference to the many hidden layers that typically are embedded within neural networks to simulate the function of a biological brain. The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguish deep learning from other machine learning algorithms.
 
 
 ### Evaluation
-There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, confusion matrices inform analysts of the number of true and false positives as well as negatives to calculate values such as recall, precision, and F1 scores. These values help analysts understand if their models are underfitting or overfitting, which is critical to improving and maintaing their performance.
+There are several methods to accurately evaluate the performance of ML algorithms. Methods vary based on which algorithm is being evaluated, and for which purpose. For classifiers such as Logistic Regression, confusion matrices inform analysts of the number of true and false positives as well as negatives to calculate values such as recall, precision, and F1 scores. These values help analysts understand if their models are underfitting or overfitting, which is critical to improving and maintaining their performance.
