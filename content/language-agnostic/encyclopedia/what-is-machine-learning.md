@@ -15,22 +15,22 @@ Catalog Content:
   - "https://www.codecademy.com/learn/machine-learning"
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
-Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to development computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
+Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.
 
 ## Branches of Machine Learning
 Machine learning can be categorized into three primary branches:
 
 - Supervised learning: Machine Learning algorithms that receive labeled data as input and produce a prediction as output.
-* Regression: Predict a continuous-valued output.
-* Classification: Predicts a discrete number of values.
+* Regression: Predicts a continuous-valued output.
+* Classification: Categorizes data points into discrete groups.
 
 Some methods used in supervised learning include:
 
-* Linear regression: Plots the optimal values of related data variables in a line or plane of "best fit".
-* Logistic regression: Classifies elements in a data set into different categories.
-* Naïve-Bayes classifier: Uses Bayes' theorem to perform classification of elements.
-* Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points.   
-* Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities.  
+* Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks.
+* Logistic regression: Classifies elements in a data set into discrete categories.
+* Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
+* Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.   
+* Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities in regression and classification tasks.  
 
 - Unsupervised Learning: Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
