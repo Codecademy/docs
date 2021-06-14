@@ -15,11 +15,13 @@ Tags:
   - "Logic"
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "https://www.codecademy.com/learn/paths/data-science"
 ---
+
 ## Definition 
 
-The built-in `all()` function returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.
+Returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.
 
 ## Syntax
 
@@ -33,76 +35,98 @@ As long as one element in the iterable is `False`, `all()` will return `False`.
 
 ```python
 my_list = [True, "hello", 17]
+
 print(all(my_list))
 # Output: True
 
 my_list = [False, "hello", 17]
+
 print(all(my_list))
 # Output: False
 ```
 
 ## Example 2
 
-If the iterable is empty, `all()` will return `True`. The integer `0` evaluates to `False`; however, all non-zero numbers and strings evaluate to `True`.
+If the iterable is empty, `all()` will return `True`.
 
 ```python
 my_list = []
+
 print(all(my_list))
 # Output: True
+```
 
+The integer `0` evaluates to `False`; however, all non-zero numbers and strings evaluate to `True`.
+ 
+```python
 my_list = [4, 3, 2, 1, 0]
+
 print(all(my_list))
 # Output: False
 
 my_list = [4, 3, 2, 1, "0"]
+
 print(all(my_list))
 # Output: True
 ```
 
-## Example 3
+## Different Types of Iterables
 
 `all()` can be used on any iterable, such as a list, set, string, dictionary, or tuple. 
 
+### Lists
+
 ```python
 my_list = [1, 1, 0, True]
+
 print(all(my_list))
 # Output: False
-# False because the integer 0 is False
+```
 
+This is `False` because the integer `0` is `False`.
+
+### Sets
+
+```python
 my_set = {1, "False", True, 7}
+
 print(all(my_set))
 # Output: True
-# True because strings and non zero integers are true
+```
 
+This is `True` because strings and non-zero integers are `True`.
+
+### Strings
+
+```python
 my_string = "Python is more fun than Javascript"
+
 print(all(my_string))
 # Output: True
-# True because strings and non zero integers are true
+```
 
-my_dict = {0:"zero", 1:"one", 2:"two"}
+This is `True` because strings and non-zero integers are `True`.
+
+### Dictionaries
+
+When `all()` is used with a dictionary, it evaluates the keys, not the values. That means, even if a value is `False`, `all()` will return `True` if all of the keys evaluate to `True`.
+
+```python
+my_dict = {0: "zero", 1: "one", 2: "two"}
+
 print(all(my_dict))
 # Output: False
-# False because the first key, 0, is false 
+```
 
+This is `False` because the first key, `0`, is `False`.
+
+### Tuples
+
+```python
 my_tuple = ("Heffalumps", "and", "Woozles")
+
 print(all(my_tuple))
 # Output: True
-# True because all items in the tuple are true
 ```
 
-## Example 4
-
-When `all()` is used with a dictionary, it evaluates the keys, not the values. That means, even if a value is `False`, `all()`, will return `True` if all of the keys evaluate to `True`.
-
-```Python
-my_dict = {"one": False, "two": 0, "three": "yellow"}
-print(all(my_dict))
-# Output: True
-# True because all keys in the dictionary are true
-```
-
-
-
-
-
-
+This is `True` because all items in the tuple are `True`.
