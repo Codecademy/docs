@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition 
 
-The built-in `.lower()` method takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
+Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
 
 ## Syntax
 
@@ -27,15 +27,17 @@ string.lower()
 The `.lower()` method can be used to compare strings:
 
 ```python
-string_one = "Red Pandas"
-string_two = "rEd pAnDaS"
-if string_one == string_two:
-  print("These strings are the same")
-elif string_one.lower() == string_two.lower():
-  print("These strings are the same when you use .lower()")
+string1 = "Red Pandas"
+string2 = "rEd pAnDaS"
+
+if string1 == string2:
+  print("These strings are already the same")
+elif string1.lower() == string2.lower():
+  print("They are the same when you use the .lower() method")
 else:
-  print("These strings are NOT the same.")
-# Output: "These strings are the same when you use .lower()"
+  print("They are NOT the same")
+
+# Output: They are the same when you use .lower()
 ```
 
 ## Example 2
@@ -43,14 +45,16 @@ else:
 The `.lower()` method can be used to standardize text that might take different forms, such as user input or the response to an API call:
 
 ```python
-my_string = input("What is your name?")
-# User writes their name
-if my_string.lower() == "john": 
-  print("Your name is John!")
+name = input("What is your name?")
+# User writes their name...
+
+if name.lower() == "codey": 
+  print("Your name is Codey!")
 else:
-  print("Your name is not John.")
-# Prints "Your name is John!" if the user types "john" or "John".
+  print("Your name is not Codey.")
 ```
+
+This would print `Your name is Codey!` whether the user typed in `Codey`, `codey`, `CODEY`, or `CoDeY`.
 
 ## Example 3
 
@@ -58,11 +62,9 @@ The `.lower()` method does not change the string it is used on:
 
 ```python
 my_string = "AMAZING!"
+
 if my_string.lower() == "amazing!":
   print("Isn't that just " + my_string)
+  
 # Output: "Isn't that just AMAZING!""
 ```
-
-
-
-
