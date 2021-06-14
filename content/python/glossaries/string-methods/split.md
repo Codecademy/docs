@@ -13,7 +13,7 @@ Catalog Content:
 ---
 ## Definition 
 
-The built in `.split()` method converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. 
+Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. 
 
 ## Syntax
 
@@ -25,19 +25,24 @@ string.split("delimiter", maximum number of items to split)
 
 If the paramaters of `.split()` are left blank, the delimiter will default to whitespace and the maximum number of items to split will be infinite.
 
-```codebyte/py
+```python
 my_string = "I like waffles from Belgium"
+
 my_list = my_string.split()
+
 print(my_list)
+# Output: ['I', 'like', 'waffles', 'from', 'Belgium']
 ```
 
-## Example 2
+## Delimiter
 
 Whatever is set as the delimiter will be removed:
 
-```codebyte/py
+```python
 my_string = "color=red:size=medium:type=shirt"
+
 my_list = my_string.split(":")
+
 print(my_list)
 # Output: ['color=red', 'size=medium', 'type=shirt']
 ```
@@ -46,26 +51,28 @@ print(my_list)
 
 It is also possible to use escape characters with `.split()`, such as `\t` (tab) and `\n` (newline):
 
-```codebyte/py
+```python
 my_string = """
 Beets
 Bears
 Battlestar Galactica
 """
+
 my_list = my_string.split("\n")
+
 print(my_list)
+# Output: ['', 'Beets', 'Bears', 'Battlestar Galactica', '']
 ```
 
 ## Example 4
 
 To limit the number of items in the list, set the maximum number of items to split paramater:
 
-```codebyte/py
-my_string = "Breakfast|Eggs|Tomatoes|Beans|Waffles"
-my_list = my_string.split("|", 3)
+```python
+menu = "Breakfast|Eggs|Tomatoes|Beans|Waffles"
+
+my_list = menu.split("|", 3)
+
 print(my_list)
+# Output: ['Breakfast', 'Eggs', 'Tomatoes', 'Beans|Waffles']
 ```
-
-
-
-
