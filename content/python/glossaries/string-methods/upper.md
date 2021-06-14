@@ -24,6 +24,26 @@ string.upper()
 
 ## Example 1
 
+The `.upper()` method does not change the string it is used on:
+
+```python
+my_string = "shout"
+
+my_string.upper()
+
+print(my_string)
+print(my_string.upper())
+```
+
+This would output:
+
+```
+shout
+SHOUT
+```
+
+## Example 2
+
 The `.upper()` method can be used to compare strings:
 
 ```python
@@ -38,19 +58,6 @@ else:
   print("They are NOT the same")
   
 # Output: They are the already the same when you use the .upper() method
-```
-
-## Example 2
-
-The `.upper()` method does not change the string it is used on:
-
-```codebyte/py
-my_string = "shout"
-
-my_string.upper()
-
-print(my_string)
-print(my_string.upper())
 ```
 
 ## Example 3
