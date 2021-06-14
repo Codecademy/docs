@@ -11,10 +11,13 @@ Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
+
 ## Definition 
+
 The built-in `.lower()` method takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
 
 ## Syntax
+
 ```python
 string.lower()
 ```
