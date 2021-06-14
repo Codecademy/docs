@@ -24,12 +24,8 @@ string.upper()
 
 ## Example 1
 
-The `.upper()` method does not change the string it is used on:
-
 ```python
 my_string = "shout"
-
-my_string.upper()
 
 print(my_string)
 print(my_string.upper())
@@ -41,6 +37,8 @@ This would output:
 shout
 SHOUT
 ```
+
+Notice how the `.upper()` method does not change the string it is used on.
 
 ## Example 2
 
