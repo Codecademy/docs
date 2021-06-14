@@ -27,17 +27,17 @@ string.upper()
 The `.upper()` method can be used to compare strings:
 
 ```python
-string_one = "Green Tigers"
-string_two = "gReEn tIgErs"
+string1 = "Green Tigers"
+string2 = "gReEn tIgErs"
 
-if string_one == string_two:
-  print("These strings are the same")
-elif string_one.upper() == string_two.upper():
-  print("These strings are the same when you use .upper()")
+if string1 == string2:
+  print("These strings are already the same")
+elif string1.upper() == string2.upper():
+  print("They are the same when you use the .upper() method")
 else:
-  print("These strings are NOT the same.")
+  print("They are NOT the same")
   
-# Output: "These strings are the same when you use .upper()"
+# Output: They are the already the same when you use the .upper() method
 ```
 
 ## Example 2
