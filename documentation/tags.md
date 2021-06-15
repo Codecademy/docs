@@ -1,12 +1,12 @@
 # Tags
 
-Tags in Codepedia are used for recommending related entries and for the home page search bar. Use <kbd>command</kbd> + <kbd>f</kbd> to search this list. 
+Tags in Codepedia are used for recommending related entries and for the home page search bar. Use <kbd>command</kbd> + <kbd>f</kbd> to search this list.
 
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
 ```
-Accessibility 
-AI 
+Accessibility
+AI
 Algorithms  
 Alias  
 Anchor  
@@ -31,8 +31,8 @@ Binary Tree
 Block  
 Body  
 Booleans  
-Bootstrap 
-Borders 
+Bootstrap
+Borders
 Box Model  
 Box Plot  
 Browser Compatibility  
@@ -41,14 +41,14 @@ Bubble Sort
 Catch  
 Characters
 Chatbots  
-Classes 
+Classes
 Code Editors
 Color  
 Combinators  
 Command Line  
 Comments  
-Comparison
-Component  
+Component
+Computer Vision  
 Concatenation  
 Conceptual  
 Const  
@@ -170,7 +170,7 @@ Operators
 p5  
 Packages  
 Pandas  
-Paragraph 
+Paragraph
 Parameters
 Phaser  
 Physics  
