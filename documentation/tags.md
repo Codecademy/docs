@@ -47,6 +47,7 @@ Color
 Combinators  
 Command Line  
 Comments  
+Comparison  
 Component
 Computer Vision  
 Concatenation  
