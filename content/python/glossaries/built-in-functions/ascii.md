@@ -48,15 +48,3 @@ Use `ascii()` to return non-ASCII representation of the list `['marquée', 'rés
 ```codebyte/python
 print(ascii(['marquée', 'résumé', 'jalapeño']))
 ```
-
-## The Function
-
-The `ascii()` built-in function is essentially:
-
-```python
-def any(iterable):
-  for element in iterable:
-    if element:
-      return True
-  return False
-```
