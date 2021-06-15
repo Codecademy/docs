@@ -16,7 +16,7 @@ Catalog Content:
 
 ## Definition
 
-Converts and returns the binary equivalent string of a given integer.
+Converts an integer into its binary equivalent string.
 
 ## Syntax
 
@@ -26,36 +26,16 @@ bin(integer)
 
 ## Example 1
 
-Use `bin()` to :
+Use `bin()` to return the binary equivalent of the integer `1`:
 
 ```codebyte/python
-print(bin())
+print(bin(1))
 ```
 
 ## Example 2
 
-Use `bin()` :
+Use `bin()` to return the binary equivalent of the integer `100`:
 
 ```codebyte/python
 print(bin())
-```
-
-## Example 3
-
-Use `bin()` to :
-
-```codebyte/python
-print(bin())
-```
-
-## The Function
-
-The `bin()` built-in function is essentially:
-
-```python
-def any(iterable):
-  for element in iterable:
-    if element:
-      return True
-  return False
 ```
