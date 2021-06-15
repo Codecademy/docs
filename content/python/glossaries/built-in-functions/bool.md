@@ -1,5 +1,5 @@
 ---
-Title: "bin()"
+Title: "bool()"
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -7,7 +7,6 @@ Tags:
   - "Functions"
   - "Methods"
   - "Strings"
-  - "Integers"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -16,26 +15,36 @@ Catalog Content:
 
 ## Definition
 
-Converts an integer into its binary equivalent string.
+Converts a value to a Boolean `True` or `False` value.
+
+Statements are `True` if:
 
 ## Syntax
 
 ```py
-bin(integer)
+bool(object)
 ```
 
 ## Example 1
 
-Use `bin()` to return the binary equivalent of the integer `1`:
+Use `bool()` to return if the string 'True' is `True` or `False`:
 
 ```codebyte/python
-print(bin(1))
+print(bool('True'))
 ```
 
 ## Example 2
 
-Use `bin()` to return the binary equivalent of the integer `100`:
+Use `bool()` to :
 
 ```codebyte/python
-print(bin(100))
+print(bool('False'))
+```
+
+## Example 3
+
+Use `bool()` to :
+
+```codebyte/python
+print(bool(False))
 ```
