@@ -5,7 +5,7 @@ Subjects:
   - "Data Science"
   - "Machine Learning"
 Tags:
-  - "Artificial Intelligence"
+  - "AI"
   - "Data Science"
   - "Deep Learning"
 Catalog Content:
