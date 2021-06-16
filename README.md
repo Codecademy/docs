@@ -7,7 +7,7 @@
 
 ## What is Docs?
 
-Codecademy Docs is intended to be a free, easily accessible reference for coding terms and concepts available to learners all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codepedia entry as the first result, and have an answer in seconds.
+Codecademy Docs is intended to be a free, easily accessible reference for coding terms and concepts available to learners all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codecademy Doc entry as the first result, and have an answer in seconds.
 
 To make the Codecademy Docs vision clearer, [we even created a demo site](https://codecademy.github.io/codepedia/)! The UI is liable to change a lot, but the basic principles are there. 
 
@@ -18,7 +18,7 @@ Right now we're trying to create 1,000 high-quality entries as quickly as we can
 
 ## What do I need to do before contributing? 
 
-Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/codepedia-content/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
+Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
 
 ## How do I contribute?
 
@@ -32,10 +32,10 @@ Contributing is as simple as:
 
 If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
-<img src="https://github.com/Codecademy/codepedia-content/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
+<img src="https://github.com/Codecademy/docs/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
 ## Additional Notes
 
 - Please prioritize all course and skill path work over Codecademy Docs. Codecademy Docs is a great way to fit in extra hours, but only when you don’t have higher priority work to do!
 - Please use the "Codepedia” Boomr Project for time spent on this content.
-- Remember, if you ever have any questions at all, we're there to help in #codepedia-production. Report bugs: #codecademy-docs.
+- Remember, if you ever have any questions at all, we're there to help in #codecademy-docs-content. Report bugs: #codecademy-docs.
