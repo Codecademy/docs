@@ -40,4 +40,4 @@ Jupyter Notebook uses a back-end kernel called IPython. The ‘I’ stands for �
 
 ### Privacy
 
-While users interactively author **.ipynb** notebooks in their preferred browser, standard install instructions allow Jupyter to run on one's local machine, not on the web. By default, a notebook server runs locally at 127.0.0.1:8888 and is accessible only from localhost.
+While users interactively author **.ipynb** notebooks in their preferred browser, standard install instructions allow Jupyter to run on one's local machine, not on the web. By default, a notebook server runs locally at http://localhost:8888.
