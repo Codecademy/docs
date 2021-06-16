@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Strings"
   - "Arithmetic"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
