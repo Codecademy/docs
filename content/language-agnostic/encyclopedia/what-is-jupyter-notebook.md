@@ -12,19 +12,22 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-Jupyter Notebook is a popular web-based environment that allows users to create and share documents containing inputs and outputs of code, narrative text, and visualizations. It was developed by an open community of data workers.
+Jupyter Notebook (sometimes called IPython Notebook) is a popular way to write and run Python, R, or Julia code, especially for data analysis, data science and machine learning. Jupyter Notebooks are easy-to-use because they let you execute code and review the output quickly. This iterative process is central to data analytics and makes it easy to test hypotheses and record the results (just like a notebook).
 
-### Web Application
+## Integrated Development Environments (IDEs)
 
-As an open source web application, Jupyter Notebook enables users to interactively author and share documents containing explanatory text, live code, mathematics, computations, and visualizations. Jupyter Notebook is recognized for its many code editing features, some including:
+Jupyter Notebook is a type of Integrated Development Environment (IDE). IDEs are places to write code that offer some supportive features. Almost all IDEs provide syntax highlighting, debugging, and code completion. Jupyter Notebook also offers embedded help documentation and introspection (i.e., you can check each command’s parameters) and in-line display of charts and images.
 
- - In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection.
- - The ability to execute code from the browser, with the results of computations attached to the code which generated them.
- - Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures rendered by the matplotlib library, can be included inline.
+### Front-end and Back-end
 
-### Notebook Documents
+A Jupyter Notebook has two parts:
 
-Notebook documents are internally JSON files and are saved with the **.ipynb** extension. Notebooks contain the inputs and outputs of an interactive session and non-executing text that may accompany the code, and thus serve as a complete computational record of a session. As JSON is a plain text format, any *.ipynb* notebook hosted on a public URL can be shared with the Jupyter Notebook Viewer (nbviewer), which renders the file as a static web page. This allows users to share the record of their sessions with colleagues both publicly and privately, without the viewer needing to install Jupyter notebook.
+- The front-end interface
+- The back-end kernel
+
+The front-end interface loads in a web browser and consists of “cells” where you enter your code. The browser is just for display, so you do not need to be connected to the internet.
+
+Jupyter Notebook uses a back-end kernel called IPython. The ‘I’ stands for ‘Interactive’, which means that a program or script can be broken up into smaller pieces, and those pieces can be run independently from the rest of the program.
 
 ### Uses
 
@@ -33,9 +36,8 @@ Notebook documents are internally JSON files and are saved with the **.ipynb** e
  - Statistical Modeling
  - Data Visualization
  - Machine Learning
-
-And more!
+ - And more!
 
 ### Privacy
 
-While users interactively author *.ipynb* notebooks in their preferred browser, standard install instructions allow Jupyter to run on one's local machine, not on the web. By default, a notebook server runs locally at 127.0. 0.1:8888 and is accessible only from localhost.
+While users interactively author **.ipynb** notebooks in their preferred browser, standard install instructions allow Jupyter to run on one's local machine, not on the web. By default, a notebook server runs locally at 127.0.0.1:8888 and is accessible only from localhost.
