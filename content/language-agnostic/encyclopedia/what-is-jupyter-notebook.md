@@ -14,7 +14,7 @@ Catalog Content:
 
 Jupyter Notebook (sometimes called IPython Notebook) is a popular way to write and run Python, R, or Julia code, especially for data analysis, data science and machine learning. Jupyter Notebooks are easy-to-use because they let you execute code and review the output quickly. This iterative process is central to data analytics and makes it easy to test hypotheses and record the results (just like a notebook).
 
-## Integrated Development Environments (IDEs)
+## Integrated Development Environment (IDE)
 
 Jupyter Notebook is a type of Integrated Development Environment (IDE). IDEs are places to write code that offer some supportive features. Almost all IDEs provide syntax highlighting, debugging, and code completion. Jupyter Notebook also offers embedded help documentation and introspection (i.e., you can check each command’s parameters) and in-line display of charts and images.
 
