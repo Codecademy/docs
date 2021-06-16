@@ -41,9 +41,10 @@ Machine Learning algorithms that receive unlabeled data as input and produce a g
 * Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
   * Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuables information.
 
-### Reinforcement Learning (RL)
+### Reinforcement Learning
 
 Machine learning algorithms that act as agents in an environment, which receive a current state, environment, reward, and goal as input and produce a policy of best action relative to the stated goal as output.
+
 * Model-Free: Act as trial-and-error algorithms that use only real samples of the environment to calculate optimal actions instead of the transition probability distribution to create a model of the environment.
 * Model-Based: Create models of the environment to generate predictions of the next state and reward to calculate optimal actions.
 
@@ -58,7 +59,6 @@ Some methods used in reinforcement learning include:
 Deep Learning is the subset of machine learning that focuses on artificial neural networks. The "deep" component of the name is in reference to the many hidden layers that typically are embedded within neural networks that simulate the function of a biological brain.
 
 The relatively high performance of neural networks in human-like tasks such as speech and object recognition distinguish deep learning from other machine learning algorithms.
-
 
 ## Evaluation
 
