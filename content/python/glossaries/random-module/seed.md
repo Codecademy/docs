@@ -34,6 +34,7 @@ Use `.seed()` to initialize the pseudo-random number generator in Python with th
 import random
 
 random.seed()
+
 print(random.random())
 ```
 
@@ -46,6 +47,7 @@ Use `.seed()` to initialize the pseudo-random number generator in Python with a 
 import random
 
 random.seed(5)
+
 print(random.random())
 ```
 
@@ -57,5 +59,6 @@ Use `.seed()` to initialize the pseudo-random number generator in Python with a 
 import random
 
 random.seed(5)
+
 print(random.random())
 ```
