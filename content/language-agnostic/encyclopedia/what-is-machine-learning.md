@@ -34,14 +34,12 @@ Machine Learning algorithms that receive labeled data as input and produce a pre
 ### Unsupervised Learning
 
 Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
+
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
+  * K-Means: Categorizes data points into clusters based on their proximity to cluster centroids.
+  * Hierarchical Agglomerative Clustering: Groups data points into clusters based on various measures of similarity such as smallest average distance between all points, minimal variance between data points, or smallest maximum distance between data points.
 * Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
-
-Some methods used in unsupervised learning include:
-
-* K-Means: Categorizes data points into clusters based on their proximity to cluster centroids.
-* Hierarchical Agglomerative Clustering: Groups data points into clusters based on various measures of similarity such as smallest average distance between all points, minimal variance between data points, or smallest maximum distance between data points.  
-* Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuables information.
+  * Principal Component Analysis (PCA): Reduces the dimensionality of a dataset to the 'n' number of principal dimensions that contain the most valuables information.
 
 ### Reinforcement Learning (RL)
 
