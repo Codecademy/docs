@@ -23,7 +23,7 @@ Takes in a numeric data type and rounds the value up to the nearest integer.
 math.ceil(n)
 ```
 
-It returns its ceiling, the smallest integer greater than or equal to that value.
+The `math.ceil()` function takes in a value and returns its ceiling, the smallest integer greater than or equal to that value.
 
 ## Example 1
 
