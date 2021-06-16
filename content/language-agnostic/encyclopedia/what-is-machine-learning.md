@@ -21,19 +21,24 @@ Machine learning (ML) is a discipline of computer science that relates to the us
 ## Branches of Machine Learning
 
 ### Supervised Learning
+
 Machine Learning algorithms that receive labeled data as input and produce a prediction as output.
   * Regression: Predicts a continuous-valued output.
   * Classification: Categorizes data points into discrete groups.
 
-Some methods used in supervised learning include:
+#### Regression:
 
 * Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks.
 * Logistic regression: Classifies elements in a data set into discrete categories.
+
+#### Classification:
+
 * Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
 * Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.   
 * Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities in regression and classification tasks.  
 
 ### Unsupervised Learning
+
 Machine Learning algorithms that receive unlabeled data as input and produce a grouping or clustering as output.
 * Clustering: Recognize patterns and structures in unlabeled data by grouping them into clusters.
 * Dimensionality Reduction: Scale down the amount of dimensions in the dataset from a high-dimensional space into a low-dimensional space, while maintaining the maximum amount of relevant information.
