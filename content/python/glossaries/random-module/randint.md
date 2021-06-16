@@ -1,5 +1,5 @@
 ---
-Title: randint()
+Title: random.randint()
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-An alias for `randrange(start, end(+1))`, which takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
+Takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 
 ## Syntax
 
@@ -22,9 +22,11 @@ An alias for `randrange(start, end(+1))`, which takes as input two `int` values,
 random.randint(start, end)
 ```
 
+An alias for `randrange(start, end(+1))`.
+
 ## Example 1
 
-Use `randint()` to return a random number between `0` and `50`:
+Use `random.randint()` to return a random number between `0` and `50`:
 
 ```codebyte/python
 import random
@@ -34,7 +36,7 @@ print(random.randint(0, 50))
 
 ## Example 2
 
-Use `randint()` to return a random number between `-25` and `25`:
+Use `random.randint()` to return a random number between `-25` and `25`:
 
 ```codebyte/python
 import random
