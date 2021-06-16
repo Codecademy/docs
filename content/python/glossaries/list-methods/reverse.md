@@ -37,13 +37,14 @@ print(counting)
 
 ## Example 2
 
-To sort a list called `exampleList`:
+To reverse a list called `hand`:
 
 ```codebyte/python
 hand = ['Rock ✊', 'Paper 🖐', 'Scissors ✌️']
-print('Original Order:', hand)
+
+print('Original order: ', hand)
 
 hand.reverse()
 
-print('Updated Order:', hand)
+print('Updated order: ', hand)
 ```
