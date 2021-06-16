@@ -16,13 +16,15 @@ Catalog Content:
 
 ## Definition
 
-Save the state of the pseudo-random number generator. Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed, which acts as the first "previous" value in the sequence of numbers. By using a particular seed value, a user is able to reproduce the same random numbers multiple times. If no value is input into the method, the random number generator will use the current system time to create the seed.
+Save the state of the pseudo-random number generator.
 
 ## Syntax
 
 ```py
 random.seed()
 ```
+
+Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed, which acts as the first "previous" value in the sequence of numbers. By using a particular seed value, a user is able to reproduce the same random numbers multiple times. If no value is input into the method, the random number generator will use the current system time to create the seed.
 
 ## Example 1
 
