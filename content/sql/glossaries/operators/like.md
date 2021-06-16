@@ -30,14 +30,6 @@ WHERE column_name LIKE pattern;
 
 `LIKE` is a special operator used with the `WHERE` clause to search for a specific pattern in a column.
 
-```sql
-SELECT name
-FROM movies
-WHERE name LIKE 'Star%';
-```
-
-The given query will match any movie that begins with `Star` in its title, like Star Wars and Star Trek.
-
 ## % Wildcard
 
 The `%` wildcard can be used in a `LIKE` operator pattern to match zero or more unspecified character(s).
@@ -64,11 +56,12 @@ The given query will match any movie which begins with a single character, follo
 
 ## Example 1
 
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc`:
+To pattern match all match any movie that begins with `Star` in its title, like `'Star Wars'` and `'Star Trek'`.
+
 ```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `abc%`;
+SELECT name
+FROM movies
+WHERE name LIKE 'Star%';
 ```
 
 ## Example 2
@@ -82,7 +75,7 @@ WHERE item_name LIKE `%abc%`;
 
 ## Example 3
 
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `aa`:
+To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `abc`:
 
 ```sql
 SELECT *
