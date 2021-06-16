@@ -41,13 +41,13 @@ WHERE column_name IN (
 
 ## Example 1
 
+The given query will select all records where `production_city` is equal to `'Los Angeles'` or `'New York'`.
+
 ```sql
 SELECT production_city
 FROM movies
-WHERE production_city IN ('Los Angeles', 'Atlanta', 'New York');
+WHERE production_city IN ('Los Angeles', 'New York');
 ```
-
-The given query will select all records where `production_city` is equal to `Los Angeles`, `Atlanta`, or `New York`.
 
 ## Example 2
 
