@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition 
 
-The HTML tag `<a>`, also known as the _anchor tag_, creates a link to another page or to a location in the current page. It can also be used to link to email addresses, phone numbers, and files.
+The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page. It can also be used to link to email addresses, phone numbers, and files.
 
 ## Syntax
 
