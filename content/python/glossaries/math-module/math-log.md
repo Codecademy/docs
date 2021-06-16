@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Strings"
   - "Arithmetic"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -38,12 +37,12 @@ print(math.log(12))
 
 ## Example 2
 
-Use `math.log()` to return the natural log of `12`, given base `5`(log(x)/log(base)):
+Use `math.log()` to return the natural log of `12`, given base `5` (log(x)/log(base)):
 
 ```python
 import math
 
-print(math.log(5, 12))
+print(math.log(12, 5))
 
-# Output: 0.647685462377997
+# Output: 1.5439593106327716
 ```
