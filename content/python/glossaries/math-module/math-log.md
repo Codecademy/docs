@@ -37,7 +37,7 @@ print(math.log(12))
 
 ## Example 2
 
-Use `math.log()` to return the natural log of `12`, given base `5` (log(x)/log(base)):
+Use `math.log()` to return the natural log of `12` (base `5`):
 
 ```python
 import math
