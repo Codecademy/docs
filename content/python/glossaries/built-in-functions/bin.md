@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Strings"
   - "Integers"
 Catalog Content:
@@ -26,10 +25,12 @@ bin(integer)
 
 ## Example 1
 
-Use `bin()` to return the binary equivalent of the integer `1`:
+Use `bin()` function to return the binary equivalent of the integer `1`:
 
-```codebyte/python
+```python
 print(bin(1))
+
+# Output: 0b1
 ```
 
 ## Example 2
