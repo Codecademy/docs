@@ -28,7 +28,7 @@ Standard truth testing procedures are applied to values to determine their Boole
 - If `None` is passed.
 - If a quantitative zero is passed, such as `0` or `0.0`.
 - If an empty sequence or mapping is passed, such as `()`, `[]`, or `{}`.
-- If Objects of Classes having `bool()` or `len()` method, returning 0 or False are passed.
+- If Objects of Classes having `bool()` or `len()` method, returning `0` or `False` are passed.
 
 ## Example 1
 
