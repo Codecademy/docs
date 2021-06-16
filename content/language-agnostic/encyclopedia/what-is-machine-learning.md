@@ -24,18 +24,12 @@ Machine learning (ML) is a discipline of computer science that relates to the us
 
 Machine Learning algorithms that receive labeled data as input and produce a prediction as output.
   * Regression: Predicts a continuous-valued output.
+    * Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks.
+    * Logistic regression: Classifies elements in a data set into discrete categories.
   * Classification: Categorizes data points into discrete groups.
-
-#### Regression:
-
-* Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks.
-* Logistic regression: Classifies elements in a data set into discrete categories.
-
-#### Classification:
-
-* Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
-* Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.   
-* Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities in regression and classification tasks.  
+    * Naïve-Bayes classifier: Uses Bayes' theorem of probability to perform classification of elements.
+    * Support vector machine (SVM): Margin classifiers that define hyperplanes to separate data points into discrete categories.   
+    * Artificial Neural Networks (ANN): Classifiers modeled after biological neural networks with relatively high performance capabilities in regression and classification tasks.  
 
 ### Unsupervised Learning
 
