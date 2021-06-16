@@ -42,24 +42,25 @@ The given query will match any movie that begins with `Star` in its title, like 
 
 The `%` wildcard can be used in a `LIKE` operator pattern to match zero or more unspecified character(s).
 
+```sql
 SELECT name
-
 FROM movies
-
 WHERE name LIKE 'The%';
+```
+
 The given query will match any movie that begins with `The`, followed by zero or more of any characters.
 
 ## _ Wildcard
 
 The `_` wildcard can be used in a `LIKE` operator pattern to match any single unspecified character.
 
+```sql
 SELECT name
-
 FROM movies
-
 WHERE name LIKE '_ove';
-The given query will match any movie which begins with a single character, followed by `ove`.
+```
 
+The given query will match any movie which begins with a single character, followed by `ove`.
 
 ## Example 1
 
