@@ -12,9 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-Jupyter Notebook is a popular web application developed by a large open community of data workers that allows users to create and share documents containing inputs and outputs of code, narrative text, and visualizations.
-
-Data workers use Jupyter Notebook as an integrated development environment (IDE) for these web application and notebook documents features.
+Jupyter Notebook is a popular web-based environment that allows users to create and share documents containing inputs and outputs of code, narrative text, and visualizations. It was developed by an open community of data workers.
 
 ### Web Application
 
@@ -26,7 +24,7 @@ As an open source web application, Jupyter Notebook enables users to interactive
 
 ### Notebook Documents
 
-Notebook documents are internally JSON files and are saved with the *.ipynb* extension. Notebooks contain the inputs and outputs of an interactive session and non-executing text that may accompany the code, and thus serve as a complete computational record of a session. As JSON is a plain text format, any *.ipynb* notebook hosted on a public URL can be shared with the Jupyter Notebook Viewer (nbviewer), which renders the file as a static web page. This allows users to share the record of their sessions with colleagues both publicly and privately, without the viewer needing to install Jupyter notebook.
+Notebook documents are internally JSON files and are saved with the **.ipynb** extension. Notebooks contain the inputs and outputs of an interactive session and non-executing text that may accompany the code, and thus serve as a complete computational record of a session. As JSON is a plain text format, any *.ipynb* notebook hosted on a public URL can be shared with the Jupyter Notebook Viewer (nbviewer), which renders the file as a static web page. This allows users to share the record of their sessions with colleagues both publicly and privately, without the viewer needing to install Jupyter notebook.
 
 ### Uses
 
