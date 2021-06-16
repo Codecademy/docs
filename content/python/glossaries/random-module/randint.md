@@ -5,11 +5,10 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
-  - "Strings"
+  - "Random"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
 ## Definition
