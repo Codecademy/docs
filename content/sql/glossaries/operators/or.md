@@ -29,6 +29,14 @@ WHERE name= 'Matrix' OR 'Jurassic Park';
 The given query will return any instances of name being equal to `Matrix` or `Jurassic Park` in the `movies` table.
 
 ## Example 1
+To query for records where item_name is equal to `brush` or `gloves` in the inventory table:
+```sql
+SELECT *
+FROM inventory
+WHERE item_name= 'brush' OR 'gloves';
+```
+
+## Example 2
 To query for records where item_name is equal to `plunger` or `soap` or `wipes` in the inventory table:
 ```sql
 SELECT *
