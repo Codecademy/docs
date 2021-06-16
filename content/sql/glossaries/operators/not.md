@@ -55,10 +55,10 @@ To return all items from the `inventory` table that do not exist within the `sto
 ```sql
 SELECT *
 FROM inventory
-WHERE NOT EXISTS
-  (SELECT *
-    FROM store
-    WHERE inventory.item_id = store.item_id);
+WHERE NOT EXISTS (
+   SELECT *
+   FROM store
+   WHERE inventory.item_id = store.item_id);
 ```
 
 ## Example 4
