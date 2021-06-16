@@ -12,7 +12,8 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-Is a popular web application developed by a large open community of data workers that allows users to create and share documents containing inputs and outputs of code, narrative text, and visualizations.
+Jupyter Notebook is a popular web application developed by a large open community of data workers that allows users to create and share documents containing inputs and outputs of code, narrative text, and visualizations.
+
 Data workers use Jupyter Notebook as an integrated development environment (IDE) for these web application and notebook documents features.
 
 ### Web Application
