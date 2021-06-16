@@ -24,7 +24,9 @@ while (condition) {
   // Code block to be executed
 }
 ```
- 
+
+For example:
+
 ```js
 let i = 0;
  

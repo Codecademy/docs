@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition 
 
-Remove an item from a list while also returning it.
+Removes an item from a list while also returning it.
 
 ## Syntax
 

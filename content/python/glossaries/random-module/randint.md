@@ -1,28 +1,32 @@
 ---
-Title: "Python Random Module: `randint()`"
+Title: random.randint()
 Subjects:
-  - "Language Fluency"
-  - "Code Foundations"
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - "Function"
-  - "Methods"
-  - "Strings"
+  - "Functions"
+  - "Random"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
 ## Definition
-***
-An alias for `randrange(start, end(+1))`, which takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
+
+Takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 
 ## Syntax
-***
+
+```python
 random.randint(start, end)
+```
+
+An alias for `randrange(start, end(+1))`.
 
 ## Example 1
-***
-Use `randint()` to return a random number between `0` and `50`:
+
+Use `random.randint()` to return a random number between `0` and `50`:
+
 ```codebyte/python
 import random
 
@@ -30,8 +34,9 @@ print(random.randint(0, 50))
 ```
 
 ## Example 2
-***
-Use `randint()` to return a random number between `-25` and `25`:
+
+Use `random.randint()` to return a random number between `-25` and `25`:
+
 ```codebyte/python
 import random
 
