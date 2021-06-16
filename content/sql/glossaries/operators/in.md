@@ -28,12 +28,10 @@ FROM movies
 WHERE production_city IN ('Los Angeles', 'Atlanta', 'New York');
 ```
 
-The given query will select all records where `production_city` is equal to 'Los Angeles', 'Atlanta', or 'New York'.
+The given query will select all records where `production_city` is equal to `Los Angeles`, `Atlanta`, or `New York`.
 
 ## Example 1
-
 To query all fields for records where `item_name` is equal to 'plunger', 'soap', or 'wipes' in the `inventory` table:
-
 ```sql
 SELECT *
 FROM inventory
