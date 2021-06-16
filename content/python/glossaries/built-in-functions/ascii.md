@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -25,23 +24,15 @@ ascii(object)
 
 ## Example 1
 
-Use `ascii()` to return non-ASCII representation of the string `marquée`:
+Use `ascii()` to return non-ASCII representation of the string `'marquée'`:
 
-```codebyte/python
+```python
 print(ascii('marquée'))
+
+# Output: 'marqu\xe9e'
 ```
 
 ## Example 2
-
-Use `ascii()` to return non-ASCII representation of the string `marquée`:
-
-```codebyte/python
-word = 'marquée'
-
-print(ascii(word))
-```
-
-## Example 3
 
 Use `ascii()` to return non-ASCII representation of the list `['marquée', 'résumé', 'jalapeño']`:
 
