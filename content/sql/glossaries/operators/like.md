@@ -17,14 +17,24 @@ Catalog Content:
 ---
 
 ## Definition
-Allows the user to perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
+
+Perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
 
 ## Syntax
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name LIKE pattern;
+```
+
+`LIKE` is a special operator used with the `WHERE` clause to search for a specific pattern in a column.
+
+```sql
 SELECT name
-
 FROM movies
-
 WHERE name LIKE 'Star%';
+```
 
 The given query will match any movie that begins with `Star` in its title, like Star Wars and Star Trek.
 
@@ -52,6 +62,7 @@ The given query will match any movie which begins with a single character, follo
 
 
 ## Example 1
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc`:
 ```sql
 SELECT *
@@ -60,6 +71,7 @@ WHERE item_name LIKE `abc%`;
 ```
 
 ## Example 2
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` anywhere in the sequence:
 ```sql
 SELECT *
@@ -68,7 +80,9 @@ WHERE item_name LIKE `%abc%`;
 ```
 
 ## Example 3
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `aa`:
+
 ```sql
 SELECT *
 FROM inventory
@@ -76,7 +90,9 @@ WHERE item_name LIKE `%abc`;
 ```
 
 ## Example 4
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` in specifically the second position of the sequence:
+
 ```sql
 SELECT *
 FROM inventory
@@ -84,7 +100,9 @@ WHERE item_name LIKE `_abc%`;
 ```
 
 ## Example 5
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
+
 ```sql
 SELECT *
 FROM inventory
@@ -92,7 +110,9 @@ WHERE item_name LIKE `abc__%`;
 ```
 
 ## Example 6
+
 To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
+
 ```sql
 SELECT *
 FROM inventory
