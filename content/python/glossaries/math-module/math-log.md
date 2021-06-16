@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Strings"
   - "Arithmetic"
 Catalog Content:
@@ -14,27 +13,37 @@ Catalog Content:
 ---
 
 ## Definition
-Returns the natural logarithm of `x` (to base e).
+
+Returns the natural logarithm of `n`.
 
 ## Syntax
+
 ```py
-math.log(x)
+math.log(n, base)
 ```
 
+`base` is optional and it's the logarithmic base to use. Default is e.
+
 ## Example 1
-Use `math.log()` to return the natural log of `12`(to base e):
-```codebyte/python
+
+Use `math.log()` to return the natural log of `12` (base e):
+
+```python
 import math
 
-
 print(math.log(12))
+
+# Output: 2.4849066497880004
 ```
 
 ## Example 2
+
 Use `math.log()` to return the natural log of `12`, given base `5`(log(x)/log(base)):
-```codebyte/python
+
+```python
 import math
 
-
 print(math.log(5, 12))
+
+# Output: 0.647685462377997
 ```
