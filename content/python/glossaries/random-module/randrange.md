@@ -1,13 +1,11 @@
 ---
-Title: ".randrange()"
+Title: "random.randrange()"
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Random"
-  - "Methods"
   - "Functions"
-  - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -15,7 +13,7 @@ Catalog Content:
 ---
 
 ## Definition
-***
+
 Generates random numbers from a defined range of `int` values.
 
 ## Syntax
@@ -25,8 +23,9 @@ random.randrange(start, stop, steps)
 ```
 
 ## Example 1
-***
-Use `randrange()` to return a random number between `0` and `99`:
+
+Use `random.randrange()` to return a random number between `0` and `99`:
+
 ```codebyte/python
 import random
 
@@ -34,8 +33,9 @@ print(random.randrange(0, 100))
 ```
 
 ## Example 2
-***
-Use `randrange()` to return a random number between `0` and `99` and is divisible by `5`:
+
+Use `random.randrange()` to return a random number between `0` and `99` and is divisible by `5`:
+
 ```codebyte/python
 import random
 
