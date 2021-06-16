@@ -30,7 +30,7 @@ WHERE column_name LIKE pattern;
 
 `LIKE` is a special operator used with the `WHERE` clause to search for a specific pattern in a column.
 
-## % Wildcard
+## Wildcard `%`
 
 The `%` wildcard can be used in a `LIKE` operator pattern to match zero or more unspecified character(s).
 
@@ -42,7 +42,7 @@ WHERE name LIKE 'The%';
 
 The given query will match any movie that begins with `The`, followed by zero or more of any characters.
 
-## _ Wildcard
+## Wildcard `_`
 
 The `_` wildcard can be used in a `LIKE` operator pattern to match any single unspecified character.
 
