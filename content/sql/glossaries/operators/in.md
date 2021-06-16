@@ -18,9 +18,11 @@ Catalog Content:
 
 ## Definition
 
-Allows the user to specify multiple values in `WHERE` clause.
+Allows the user to specify multiple values in the `WHERE` clause.
 
 ## Syntax
+
+The `IN` operator is similar to multiple `OR` conditions:
 
 ```sql
 SELECT column_name(s)
@@ -28,10 +30,13 @@ FROM table_name
 WHERE column_name IN (value1, value2, ...);
 ```
 
+You can also use another returned result within the parenthesis:
+
 ```sql
 SELECT column_name(s)
 FROM table_name
-WHERE column_name IN (SELECT STATEMENT);
+WHERE column_name IN (
+  SELECT STATEMENT);
 ```
 
 ## Example 1
@@ -61,6 +66,6 @@ The following SQL statement selects all customers that are from the same countri
 ```sql
 SELECT * FROM customers
 WHERE country IN (
-   SELECT country 
-   FROM suppliers);
+  SELECT country 
+  FROM suppliers);
 ```
