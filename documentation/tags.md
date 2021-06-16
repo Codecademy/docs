@@ -38,6 +38,7 @@ Box Plot
 Browser Compatibility  
 Browsers  
 Bubble Sort  
+Catch  
 Characters
 Chatbots  
 Classes
@@ -46,6 +47,7 @@ Color
 Combinators  
 Command Line  
 Comments  
+Comparison  
 Component
 Computer Vision  
 Concatenation  
@@ -86,6 +88,7 @@ Enum
 Errors  
 ES6  
 Events  
+Exceptions
 Expo  
 Express  
 Files  
@@ -147,6 +150,7 @@ Margin
 MATLAB  
 Matplotlib  
 Media Queries  
+Memory
 Metadata  
 Methods  
 Middleware  
@@ -171,6 +175,7 @@ Paragraph
 Parameters
 Phaser  
 Physics  
+Pointers
 Positioning  
 PostgreSQL  
 Primary Key  
@@ -189,6 +194,7 @@ React Native
 Readr  
 Recursion  
 Redux   
+References
 Regular Expressions  
 Requests  
 Responsive  
@@ -219,7 +225,8 @@ SwiftUI
 Switch  
 Symbol  
 Syntax  
-Tables  
+Tables 
+Tags  
 Target  
 Technical Interviews  
 Templates  
@@ -228,6 +235,7 @@ Tidyr
 Title  
 Transpilation  
 Trees  
+Try  
 Tuples  
 Types  
 Type Guard  

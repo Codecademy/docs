@@ -5,8 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
-  - "Strings"
   - "Arithmetic"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -14,27 +12,37 @@ Catalog Content:
 ---
 
 ## Definition
-Returns E(approximately 2.718282), raised to the power of x.
+
+Returns E raised to the power of x.
 
 ## Syntax
+
 ```py
 math.exp(x)
 ```
 
+E is approximately 2.718282.
+
 ## Example 1
+
 Use `math.exp()` to return E raised to the power of `5`:
-```codebyte/python
+
+```python
 import math
 
-
 print(math.exp(5))
+
+# Output: 148.4131591025766
 ```
 
 ## Example 2
+
 Use `math.exp()` to return E raised to the power of `3`:
-```codebyte/python
+
+```python
 import math
 
-
 print(math.exp(3))
+
+# Output: 20.085536923187668
 ```
