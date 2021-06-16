@@ -17,27 +17,32 @@ Catalog Content:
 ---
 
 ## Definition
-Allows the user to query for records that evaluate to `TRUE` for multiple boolean expressions.
+
+Filters the result set to only include rows where either condition is true.
 
 ## Syntax
-SELECT *
 
-FROM movies
-
-WHERE name= 'Matrix' OR 'Jurassic Park';
-
-The given query will return any instances of name being equal to `Matrix` or `Jurassic Park` in the `movies` table.
+```sql
+SELECT column_name
+FROM table_name
+WHERE column_name = value_1
+   OR column_name = value_2;
+```
 
 ## Example 1
-To query for records where item_name is equal to `brush` or `gloves` in the inventory table:
+
+To query for records where item_name is equal to `'brush'` or `'gloves'` in the `inventory` table:
+
 ```sql
 SELECT *
 FROM inventory
-WHERE item_name= 'brush' OR 'gloves';
+WHERE item_name = 'brush' OR 'gloves';
 ```
 
 ## Example 2
-To query for records where item_name is equal to `plunger` or `soap` or `wipes` in the inventory table:
+
+To query for records where item_name is equal to `'plunger'` or `'soap'` or `'wipes'` in the `inventory` table:
+
 ```sql
 SELECT *
 FROM inventory
