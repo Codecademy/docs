@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -17,6 +16,12 @@ Catalog Content:
 
 Converts a value to a Boolean `True` or `False` value.
 
+## Syntax
+
+```py
+bool(object)
+```
+
 Standard truth testing procedures are applied to values to determine their Boolean value. Statements are `True` if they do not meet one or more of these criteria:
 
 - If a `False` boolean value is passed.
@@ -25,26 +30,24 @@ Standard truth testing procedures are applied to values to determine their Boole
 - If an empty sequence or mapping is passed, such as `()`, `[]`, or `{}`.
 - If Objects of Classes having `bool()` or `len()` method, returning 0 or False are passed.
 
-## Syntax
-
-```py
-bool(object)
-```
-
 ## Example 1
 
-Use `bool()` to return the boolean expression of the string `'True'`:
+Use `bool()` function to return the boolean expression of the string `'True'`:
 
-```codebyte/python
+```python
 print(bool('True'))
+
+# Output: True
 ```
 
 ## Example 2
 
-Use `bool()` to return the boolean expression of the string `'False'`:
+Use `bool()` function to return the boolean expression of the string `'False'`:
 
-```codebyte/python
+```python
 print(bool('False'))
+
+# Output: False
 ```
 
 ## Example 3
