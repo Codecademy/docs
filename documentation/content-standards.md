@@ -1,17 +1,21 @@
 # Content Standards
 
 ### Entry Types
+
 Codepedia content will fall into two categories:
 
 #### Encyclopedia Entries
+
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages.
-  - For a model example, check out [What Is a Comment?](https://github.com/Codecademy/codepedia-content/blob/main/content/language-agnostic/encyclopedia/what-is-a-comment.md) 
+  - For a model example, check out [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/language-agnostic/concepts/what-is-a-comment.md) 
  
 #### Glossary Entries
+
 Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
-  - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/codepedia-content/tree/main/content/python/glossaries/list-methods).
+  - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
 
 ### Relation between Entries  
+
 As a general rule, any given topic should be described by multiple entries in the following structure:
   - 1 language-agnostic encyclopedia entry defining topic X in a general way. Entitled "What is X?".
     -  Example: [What Is a Comment?](https://github.com/Codecademy/codepedia-content/blob/main/content/language-agnostic/encyclopedia/what-is-a-comment.md) 
