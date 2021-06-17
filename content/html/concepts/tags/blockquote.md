@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<blockquote>` tag represents a section of a document which contains a longer quotation, usually spanning multiple lines. A `<blockquote>` will often be shown by the browser indented from the surrounding text.
+Represents a section of a document which contains a longer quotation, usually spanning multiple lines. A `<blockquote>` will often be shown by the browser indented from the surrounding text.
 
 ## Syntax
 
