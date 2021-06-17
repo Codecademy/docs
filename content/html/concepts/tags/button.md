@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<button>` tag represents a button meant to be clicked by the user. While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
+Represents a button meant to be clicked by the user. While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
 
 ## Syntax
 
@@ -33,9 +33,9 @@ There are a large number of available attributes that provide extra meaning to t
 - `autofocus` will make the button automatically focused on the page
 - `disabled` will make the button unusable
 - `type` sets the intended behavior of the button, with common values below:
-  - `submit`: this button should submit the form it is a part of
-  - `reset`: this button should reset the values in the form it is a part of
-  - `button`: this button should neither submit nor reset the form it is a part of
+  - `submit`: This button should submit the form it is a part of
+  - `reset`: This button should reset the values in the form it is a part of
+  - `button`: This button should neither submit nor reset the form it is a part of
 
 ## Example
 
