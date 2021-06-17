@@ -90,14 +90,18 @@ You can also unzip a zip object:
 # Zipping two lists
 artists = ["Bosch", "Bruegel", "Bonheur"]
 paintings = ["Garden of Earthly Delights", "Parable of the Sower", "The Horse Fair"]
+
 combined = zip(artists, paintings)
 combined = list(combined)
+
 print(combined)
 
 # Unzipping a zip object
 artists, paintings = zip(*combined)
+
 print("The artists are: ")
 print(artists)
+
 print("The paintings are: ")
 print(paintings)
 ```
