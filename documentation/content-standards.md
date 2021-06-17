@@ -17,11 +17,11 @@ Short lists of key information about a specific function, keyword, tag, or other
 ### Relation between Entries  
 
 As a general rule, any given topic should be described by multiple entries in the following structure:
-  - 1 language-agnostic encyclopedia entry defining topic X in a general way. Entitled "What is X?".
+  - 1 language-agnostic encyclopedia entry defining concept X in a general way. Entitled "What is X?".
     -  Example: [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/language-agnostic/concepts/what-is-a-comment.md) 
-  - Multiple language-specific encyclopedia entries explaining the syntax and nuances of topic X for a given language. Entitled "X in \<Topic>".
+  - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X in \<Topic>".
     - Example: [Comments in Python](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments-in-python.md) 
-  - Where applicable, 1 or more Glossaries describing the methods and keywords in a language that relate to topic X
+  - Where applicable, 1 or more Glossaries describing the methods and keywords in a language that relate to concept X
     - Example: The [List Methods glossary for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
 
 Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<Topic>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
