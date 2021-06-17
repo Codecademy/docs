@@ -19,8 +19,11 @@ Takes a number and an integer as parameters, and returns the number with decimal
 ## Syntax
 
 ```python
-round(number, integer)
+round(number, digits)
 ```
+
+- `number`: The number to be rounded. (Required)
+- `digits`: The number of decimals to use when rounding the number. Default is 0.
 
 ## Example 1
 
