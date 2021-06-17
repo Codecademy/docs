@@ -15,7 +15,6 @@ To make the Codecademy Docs vision clearer, [we even created a demo site](https:
 
 Right now we're trying to create 1,000 high-quality entries as quickly as we can. We have an engineering team working on creating the Docs website in June-July, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
 
-
 ## What do I need to do before contributing? 
 
 Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
