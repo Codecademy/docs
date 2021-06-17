@@ -24,7 +24,7 @@ As a general rule, any given topic should be described by multiple entries in th
   - Where applicable, 1 or more Glossaries describing the methods and keywords in a language that relate to topic X
     - Example: The [List Methods glossary for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
 
-Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<language>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
+Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<Topic>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
 
 ### Components of an Entry
 
