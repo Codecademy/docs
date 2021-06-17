@@ -33,6 +33,8 @@ If you haven't gone through this workflow before, you can check out [this YouTub
 
 <img src="https://github.com/Codecademy/docs/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
+If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. 
+
 ## Additional Notes
 
 - Please prioritize all course and skill path work over Codecademy Docs. Codecademy Docs is a great way to fit in extra hours, but only when you don’t have higher priority work to do!
