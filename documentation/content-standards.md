@@ -44,10 +44,11 @@ The file name should be the title of the entry, in lowercase, with words replace
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- Each subsection should begin with a heading of size H2 (i.e. preceded by "## ")
+- Each subsection should begin with a heading of size H2 (i.e. preceded by `##`)
 - All in-line code should be delineated by single backticks (`)
 
 #### Code Blocks
+
 Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 All code blocks should be delineated by triple backticks (```)
 - C#: ```cs
