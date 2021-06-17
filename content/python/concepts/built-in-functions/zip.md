@@ -20,7 +20,7 @@ Takes multiple iterators as input and returns a single zip object made up of a l
 ## Syntax
 
 ```python
-zip(iterator_1, iterator_2, *)
+zip(iterator1, iterator2, ...)
 ```
 
 ## Example 1
@@ -30,7 +30,9 @@ zip(iterator_1, iterator_2, *)
 ```python
 my_pets = ["cat", "dog", "bird", "great white shark"]
 my_pets_weight_in_pounds = [9, 50, 0.33, 2000]
+
 combined = zip(my_pets, my_pets_weight_in_pounds)
+
 print(list(combined))
 # Output: [('cat', 9), ('dog', 50), ('bird', 0.33), ('great white shark', 2000)]
 ```
