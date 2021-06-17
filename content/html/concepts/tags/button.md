@@ -30,12 +30,12 @@ It is possible for the content to be simple text, or other HTML elements. This c
 
 There are a large number of available attributes that provide extra meaning to the browser. Listed below are a few of the common ones:
 
-- `autofocus` will make the button automatically focused on the page
-- `disabled` will make the button unusable
+- `autofocus` will make the button automatically focused on the page.
+- `disabled` will make the button unusable.
 - `type` sets the intended behavior of the button, with common values below:
-  - `submit`: This button should submit the form it is a part of
-  - `reset`: This button should reset the values in the form it is a part of
-  - `button`: This button should neither submit nor reset the form it is a part of
+  - `submit`: This button should submit the form it is a part of.
+  - `reset`: This button should reset the values in the form it is a part of.
+  - `button`: This button should neither submit nor reset the form it is a part of.
 
 ## Example
 
