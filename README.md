@@ -37,6 +37,5 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Additional Notes
 
-- Please prioritize all course and skill path work over Codecademy Docs. Codecademy Docs is a great way to fit in extra hours, but only when you don’t have higher priority work to do!
 - Please use the "Codepedia” Boomr Project for time spent on this content.
 - Remember, if you ever have any questions at all, we're there to help in #codecademy-docs-content. Report bugs: #codecademy-docs.
