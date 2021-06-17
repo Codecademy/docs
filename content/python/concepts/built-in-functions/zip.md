@@ -12,9 +12,10 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 
 ---
+
 ## Definition 
 
-Python's `zip()` function takes multiple iterators as input and returns a single zip object made up of a list of tuples.
+Takes multiple iterators as input and returns a single zip object made up of a list of tuples.
 
 ## Syntax
 
@@ -88,7 +89,3 @@ print(artists)
 print("The paintings are: ")
 print(paintings)
 ```
-
-
-
-
