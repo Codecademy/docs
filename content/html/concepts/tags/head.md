@@ -26,7 +26,9 @@ The `<head>` tag represents a collection of metadata related to the current docu
 
 ## Example
 
-Suppose that the site needs a title shown in the browser, either in the tab or in the browser window. Additionally it needs to load some CSS rules to style the document, and a JavaScript script to allow some interactivity. The `<head>` tag is the perfect place to tell the document where these things live, and what they should be:
+Suppose that the site needs a title shown in the browser, either in the tab or in the browser window. Additionally it needs to load some CSS rules to style the document, and a JavaScript script to allow some interactivity. 
+  
+The `<head>` tag is the perfect place to tell the document where these things live, and what they should be:
 
 ```html
 <html>
