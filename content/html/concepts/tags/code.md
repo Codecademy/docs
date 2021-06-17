@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<code>` tag represents source code contained in the text.
+Represents source code contained in the text.
 
 ## Syntax
 
@@ -35,9 +35,11 @@ Suppose the document contains a description of what a JavaScript function aims t
     <p>The function <code>add()</code> is defined below. It will take two inputs, and return the sum of them as an output.</p>
 
     <!-- Here <code> is being used with a <pre> tag to allow the formatted code to span multiple lines -->
-    <pre><code>function add(x, y) {
-      return x + y;
-    }</code></pre>
+    <pre>
+      <code>function add(x, y) {
+        return x + y;
+      }</code>
+    </pre>
   </body>
 </html>
 ```
