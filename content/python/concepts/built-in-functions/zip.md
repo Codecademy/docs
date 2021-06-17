@@ -42,7 +42,7 @@ print(list(combined))
 Because `zip()` returns an iterator, it is necessary to use the `list()` function, or a similar function like `tuple()` or `set()`, to work with the result:
 
 ```codebyte/py
-my_languages = ["Python", "Swift", "Lisp"]
+my_languages = ['Python', 'Swift', 'Lisp']
 number_of_months = [10, 24, 50]
 
 combined = zip(my_languages, number_of_months)
@@ -72,7 +72,7 @@ If one of the iterators passed in as a parameter to `zip()` contains more object
 
 ```python
 numbers = [1, 2, 3, 4, 5]
-letters = ["a", "b", "c"]
+letters = ['a', 'b', 'c']
 
 combined = zip(numbers, letters)
 
