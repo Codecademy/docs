@@ -11,9 +11,10 @@ Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
+
 ## Definition 
 
-Python's built-in `round()` function takes a number and an integer as parameters, and returns the number with decimal places equal to the integer.
+Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer.
 
 ## Syntax
 
@@ -27,7 +28,9 @@ The default number of decimal places used is 0.
 
 ```python
 my_number = 3.14159265359
+
 my_rounded_number = round(my_number)
+
 print(my_rounded_number)
 # Output: 3
 ```
@@ -39,7 +42,9 @@ print(my_rounded_number)
 ```python
 my_number = 3.14159265359
 my_rounded_number = round(my_number, 4)
+
 print(my_rounded_number)
+
 # Output: 3.1416
 ```
 
@@ -59,9 +64,3 @@ print("\n After Rounding:")
 print(f"my_num: {round(my_num, 2)}")
 print(f"my_frac: {round(my_frac, 2)}")
 ```
-
-
-
-
-
-
