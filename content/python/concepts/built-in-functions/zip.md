@@ -86,7 +86,7 @@ Notice how `4` and `5` are not included.
 
 You can also unzip a zip object:
 
-```python
+```codebyte/py
 # Zipping two lists
 artists = ["Bosch", "Bruegel", "Bonheur"]
 paintings = ["Garden of Earthly Delights", "Parable of the Sower", "The Horse Fair"]
