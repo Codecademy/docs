@@ -28,7 +28,7 @@ zip(iterator1, iterator2, ...)
 `zip()` can be used to combine iterators such as lists. Objects will be combined from left to right.
 
 ```python
-my_pets = ["cat", "dog", "bird", "great white shark"]
+my_pets = ['cat', 'dog', 'bird', 'great white shark']
 my_pets_weight_in_pounds = [9, 50, 0.33, 2000]
 
 combined = zip(my_pets, my_pets_weight_in_pounds)
@@ -44,6 +44,7 @@ Because `zip()` returns an iterator, it is necessary to use the `list()` functio
 ```codebyte/py
 my_languages = ["Python", "Swift", "Lisp"]
 number_of_months = [10, 24, 50]
+
 combined = zip(my_languages, number_of_months)
 
 print("A zip object printed and it's type:")
@@ -51,12 +52,16 @@ print(combined)
 print(type(combined))
 
 print("\n A zip object mapped to a list and it's type:")
+
 combined = list(combined)
+
 print(combined)
 print(type(combined))
 
 print("\n A zip object mapped to a tuple and it's type:")
+
 combined = tuple(combined)
+
 print(combined)
 print(type(combined))
 ```
@@ -65,12 +70,17 @@ print(type(combined))
 
 If one of the iterators passed in as a parameter to `zip()` contains more objects than another, then the extra objects will be ignored:
 
-```codebyte/py
-numbers = [1,2,3,4,5]
-letters = ["a","b","c"]
+```python
+numbers = [1, 2, 3, 4, 5]
+letters = ["a", "b", "c"]
+
 combined = zip(numbers, letters)
+
 print(list(combined))
+# Output: [(1, 'a'), (2, 'b'), (3, 'c')]
 ```
+
+Notice how `4` and `5` are not included.
 
 ## Example 4
 
