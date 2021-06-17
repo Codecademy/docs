@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<iframe>` tag represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.
+Represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.
 
 ## Syntax
 
