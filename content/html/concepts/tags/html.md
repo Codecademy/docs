@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<html>` tag represents the entire HTML document. It is the outermost element, and may only have `<head>` and `<body>` as its children.
+The `<html>` tag represents the entire HTML document.
 
 ## Syntax
 
@@ -21,6 +21,8 @@ The `<html>` tag represents the entire HTML document. It is the outermost elemen
   <!-- Entire document goes here -->
 </html>
 ```
+
+It is the outermost element, and may only have `<head>` and `<body>` as its children.
 
 ## Example
 
