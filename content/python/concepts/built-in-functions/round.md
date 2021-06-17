@@ -56,11 +56,11 @@ print(my_rounded_number)
 my_num = 0.333
 my_frac = 1/3
 
-print("Before Rounding:")
-print(f"my_num: {my_num}")
-print(f"my_frac: {my_frac}")
+print('Before Rounding: ')
+print('my_num:', my_num)
+print('my_frac:', my_frac)
 
-print("\n After Rounding:")
-print(f"my_num: {round(my_num, 2)}")
-print(f"my_frac: {round(my_frac, 2)}")
+print('\nAfter Rounding: ')
+print('my_num:', round(my_num, 2))
+print('my_frac:', round(my_frac, 2))
 ```
