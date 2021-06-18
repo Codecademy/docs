@@ -25,7 +25,9 @@ Math.abs(n)
 Use `Math.abs()` to return the absolute value of `-6.5`:
 
 ```java
-System.out.println(Math.abs(-6.5));
+double x = -6.5;
+
+System.out.println(Math.abs(x));
 // Output: 6.5
 ```
 
