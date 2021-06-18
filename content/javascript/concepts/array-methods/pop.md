@@ -1,14 +1,14 @@
 ---
-Title: '.pop()'
+Title: ".pop()"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 Catalog Content:
-  - 'https://www.codecademy.com/learn/learn-javascript'
-  - 'https://www.codecademy.com/learn/paths/web-development'
+  - "https://www.codecademy.com/learn/learn-javascript"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 ## Definition
