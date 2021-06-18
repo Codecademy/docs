@@ -28,8 +28,10 @@ To pop the element `'sleep'` from the `schedule` array:
 ```js
 const schedule = ['wake up', 'eat', 'work', 'play', 'sleep'];
 const lastThingToDo = schedule.pop();
+
 console.log(lastThingToDo);
-// Output: 'sleep'
+// Output: sleep
+
 console.log(schedule);
-// Output: ['wake up', 'eat', 'work', 'play'];
+// Output: ['wake up', 'eat', 'work', 'play']
 ```
