@@ -31,7 +31,7 @@ array.push(item1, item2);
 
 ## Examples
 
-Add one item to end of `colors` list:
+Add one item to end of `colors` array:
 
 ```js
 const colors = ['red', 'orange'];
@@ -42,7 +42,7 @@ console.log(colors);
 // Output: ['red', 'orange', 'yellow']
 ```
 
-Add multiple items to end of `colors` list:
+Add multiple items to end of `colors` array:
 
 ```js
 const colors = ['red', 'orange', 'yellow'];
