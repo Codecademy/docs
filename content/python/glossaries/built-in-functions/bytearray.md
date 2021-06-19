@@ -45,7 +45,7 @@ print(len(array_2))
 
 ## Example 2
 
-Use `bytearray()` to encode the integer `3`, and print the length of the bytearray:
+Use `bytearray()` to encode the integer `5`, and print the length of the bytearray:
 
 ```codebyte/python
 print(bytearray(5))
