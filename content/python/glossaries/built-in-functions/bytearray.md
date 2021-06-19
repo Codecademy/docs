@@ -32,12 +32,34 @@ bytearray([source[, encoding[, errors]]])
 
 ## Example 1
 
-Use `bytearray()` to encode a string. :
+Use `bytearray()` to encode the string `"Welcome to Codecademy!"` to unicode `utf-8` and `utf-32`, and print the length of each bytearray. Note that a `source` and `encoding` parameter must be provided for encoding `string` data:
 
 ```codebyte/python
-print("Welcome to Codecademy!")
+array_1 = bytearray("Welcome to Codecademy!", 'utf-8')
+array_2 = bytearray("Welcome to Codecademy!", 'utf-32')
 
-breakpoint()
+print(array_1)
+print(len(array_1))
+print(array_2)
+print(len(array_2))
+```
 
-print("Welcome back to Codecademy!!")
+## Example 2
+
+Use `bytearray()` to encode the integer `3`, and print the length of the bytearray:
+
+```codebyte/python
+print(bytearray(5))
+print(len(bytearray(5)))
+```
+
+## Example 3
+
+Use `bytearray()` to encode the list `[5, 6, 7]`, and print the length of the bytearray:
+
+```codebyte/python
+grocery_list = [5, 6, 7]
+
+print(bytearray(grocery_list))
+print(len(bytearray(grocery_list)))
 ```
