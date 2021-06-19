@@ -25,12 +25,14 @@ bytearray([source[, encoding[, errors]]])
 
 ## Parameters
 
-*
+* source(optional): specifies the source to initialize the bytearray.
+* encoding(optional): specifies the encoding method of the object.
+* errors(optional): specifies the action to take in case of error.
 
 
 ## Example 1
 
-Use `breakpoint()` to open the `pdb` debugger console:
+Use `bytearray()` to encode a string. :
 
 ```codebyte/python
 print("Welcome to Codecademy!")
