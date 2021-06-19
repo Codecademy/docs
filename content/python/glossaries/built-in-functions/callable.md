@@ -41,14 +41,3 @@ Use `callable()` to determine if the string `"Welcome to Codecademy!"` is callab
 ```codebyte/python
 print(callable("Welcome to Codecademy!"))
 ```
-
-## Example 3
-
-Use `bytes()` to encode the list of integers `[5, 6, 7]`, and print the number of bytes in the list:
-
-```codebyte/python
-grocery_list = [5, 6, 7]
-
-print(bytes(grocery_list))
-print(len(bytes(grocery_list)))
-```
