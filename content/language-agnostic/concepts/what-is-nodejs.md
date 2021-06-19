@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Node.js is a free, open-sourced, JavaScript runtime environment that lets developers write command line tools and server-side scripts outside of a​ ...
+Node.js is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.
 
 ## About Node.js
 
