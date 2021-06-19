@@ -15,7 +15,11 @@ Catalog Content:
 
 ## Definition
 
-Returns a `string` value for .
+Returns Unicode characters represented by integers ranging between:
+
+* [0-1]
+* [0-1141]
+* [0-111]
 
 ## Syntax
 
@@ -25,19 +29,21 @@ chr(integer)
 
 ## Example 1
 
-Use `chr()` to determine if the function `Slogan` is callable:
+Use `chr()` to return the Unicode character represented by the integer `5`:
 
 ```codebyte/python
-def Slogan():
-    return "Welcome to Codecademy!"
-
-print(callable(Slogan))
+print(chr(5))
 ```
 
 ## Example 2
 
-Use `chr()` to determine if the string `"Welcome to Codecademy!"` is callable:
+Use `chr()` to return the Unicode character represented by the list `[67, 111, 100, 101, 99, 97, 100, 101, 109, 121]`:
 
 ```codebyte/python
-print(callable("Welcome to Codecademy!"))
+codecademy = [67, 111, 100, 101, 99, 97, 100, 101, 109, 121]
+
+for number in codecademy:
+
+    character = chr(number)
+    print("Character for ASCII value", number, "= ", character)
 ```
