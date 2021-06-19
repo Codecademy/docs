@@ -1,5 +1,5 @@
 ---
-Title: "What is an Node.js?"
+Title: "What is Node.js?"
 Subjects:
   - "Web Development"
   - "Computer Science"
