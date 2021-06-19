@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-Returns a byte immutable object of the given bytes of an object.
+Returns a byte immutable object representing the given bytes of an object.
 
 ## Syntax
 
