@@ -4,7 +4,7 @@ Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
-  - "Arrays"
+  - "Strings"
   - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
@@ -26,5 +26,5 @@ Converting uppercase letters to lowercase letters:
 
 ```js
 console.log("HELLO WORLD".toLowerCase());
-// Output: "hello world"
+// Output: hello world
 ```
