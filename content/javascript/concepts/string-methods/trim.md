@@ -21,7 +21,7 @@ Remove existing whitespace from both ends of a string.
 string.trim();
 ```
 
-## Example 1
+## Example
 
 Removing all existing whitespace from both ends of a string using `.trim()` method:
 
