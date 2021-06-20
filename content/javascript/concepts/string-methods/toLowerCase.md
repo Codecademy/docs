@@ -20,11 +20,24 @@ Convert a string to lowercase letters.
 string.toLowerCase();
 ```
 
-## Example
+## Example 1
 
 Converting uppercase letters to lowercase letters:
 
 ```js
 console.log("HELLO WORLD".toLowerCase());
 // Output: hello world
+```
+
+## Example 2
+
+Don't forget that `.toLowerCase()` doesn't actually change the original string.
+
+```codebyte/js
+var message = "sPoNgEbOb mEmE!"
+
+message.toLowerCase()
+console.log(message)
+
+console.log(message.toLowerCase());
 ```
