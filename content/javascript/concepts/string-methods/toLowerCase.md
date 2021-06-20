@@ -8,6 +8,7 @@ Tags:
   - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 ## Definition 
