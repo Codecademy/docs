@@ -20,7 +20,7 @@ Convert a string to lowercase letters.
 string.toLowerCase();
 ```
 
-## Examples
+## Example
 
 Converting uppercase letters to lowercase letters:
 
