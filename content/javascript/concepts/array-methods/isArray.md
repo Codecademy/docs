@@ -21,7 +21,7 @@ Returns `true` for arrays; otherwise, `false`.
 Array.isArray(value);
 ```
 
-Required parameter _value_ is the value to be checked.
+Required parameter value is the value to be checked.
 
 ## Examples
 
