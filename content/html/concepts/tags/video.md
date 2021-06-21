@@ -17,7 +17,7 @@ Represents an interface for adding video content to the page.
 ## Syntax
 
 ```html
-<!-- Surrounding source tags -->
+<!-- Surrounding source tag -->
 <video>
   <source src="filename.mp4" type="video/mp4">
   <h3>Fallback text if video will not play</h3>
