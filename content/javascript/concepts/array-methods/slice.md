@@ -32,7 +32,7 @@ If only one argument is specified, the returned array contains all elements from
 array.slice(start);
 ```
 
-If `start` and `end` values are not provided, the slicing of array will be from `start` to the very end of the array.
+If `start` and `end` values are not provided, the slicing of array will be of the whole array.
 
 ```js
 array.slice();
