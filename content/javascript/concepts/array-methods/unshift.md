@@ -18,11 +18,7 @@ Adds one or more elements to beginning of array and returns new length.
 ## Syntax
 
 ```js
-array.unshift(item);
-```
-
-```js
-array.unshift(item1, item2);
+array.unshift(item1, item2, ...);
 ```
 
 ## Examples
@@ -38,6 +34,7 @@ console.log(daysOfWeek);
 ```
 
 To add elements `1` and `2` to the `countToTen` array:
+
 ```js
 const countToTen = [3, 4, 5, 6, 7, 8, 9, 10];
 countToTen.unshift(1, 2);
