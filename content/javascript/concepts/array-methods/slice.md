@@ -39,7 +39,7 @@ If `start` and `end` values are not provided, the slicing of array will be from 
 array.slice();
 ```
 
-## 2 Arugments
+## Two Arugments
 
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
@@ -49,6 +49,17 @@ const subarray1 = weekDays.slice(1, 4);
 
 console.log(subarray1);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
+```
+
+## One Argument
+
+To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
+```js
+const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const subarray4 = weekDays.slice(2);
+
+console.log(subarray4);
+// Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
 
 ## Negative Arguments
@@ -69,16 +80,6 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-## One Argument
-
-To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
-```js
-const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const subarray4 = weekDays.slice(2);
-
-console.log(subarray4);
-// Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-```
 
 ## No Arguments
 
