@@ -26,27 +26,28 @@ array.slice(start, end);
 - `start`: The start index of the slice to be returned (optional)
 - `end`: The end index of the slice to be returned (optional)
 
+If only one argument is specified, the returned array contains all elements from the start position to the end of the array.
+
+```js
+array.slice(start);
+```
+
+
+If `start` and `end` values are not provided, the slicing of array will be from `start` to `end`:
+
+```js
+array.slice();
+```
+
+## Example 1
+
+
 
 ```js
 slice(-3, -1);
 ```
 
 A negative index can be used, indicating an offset from the end of the sequence.
-
-```js
-array.slice(start);
-```
-
-If only one argument is specified, the returned array contains all elements from the start position to the end of the array.
-
-## Example 1
-
-
-If start and end values are not provided the slicing of array will be from start to end:
-
-```js
-array.slice();
-```
 
 
 To create an identical subarray of `weekDays`:
