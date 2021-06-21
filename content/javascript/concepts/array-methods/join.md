@@ -17,7 +17,11 @@ Elements of an array are converted to strings and concatenated together, returni
 
 ## Syntax
 
-An optional _separator_ parameter specifies a string to separate each pair of adjacent element of the array.
+```js
+array.join(seperator)
+```
+
+An optional separator parameter specifies a string to separate each pair of adjacent element of the array.
 
 ```js
 array.join(' + ');
