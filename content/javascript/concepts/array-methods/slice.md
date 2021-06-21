@@ -72,7 +72,7 @@ console.log(outOutOffice);
 
 ### One Argument
 
-To create a subarray of `['Saturday', 'Sunday']` from `weekDays`:
+To create a subarray of the last two elements from `weekDays`:
 
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
