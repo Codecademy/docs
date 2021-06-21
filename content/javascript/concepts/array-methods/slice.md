@@ -34,18 +34,33 @@ slice(-3, -1);
 A negative index can be used, indicating an offset from the end of the sequence.
 
 ```js
-slice();
-```
-
-If start and end values are not provided the slicing of array will be from start to end. 
-
-```js
 slice(start);
 ```
 
 If only one argument is specified, the returned array contains all elements from the start position to the end of the array.
 
-## Examples
+## Example 1
+
+
+If start and end values are not provided the slicing of array will be from start to end:
+
+```js
+array.slice();
+```
+
+
+To create an identical subarray of `weekDays`:
+```js
+const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const subarray3 = weekDays.slice();
+
+console.log(subarray3);
+// Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+```
+
+
+## Example 2
+
 
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
@@ -66,14 +81,6 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-To create an identical subarray of `weekDays`:
-```js
-const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const subarray3 = weekDays.slice();
-
-console.log(subarray3);
-// Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-```
 
 To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
 ```js
