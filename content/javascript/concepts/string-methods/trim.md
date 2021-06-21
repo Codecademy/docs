@@ -18,7 +18,7 @@ Remove existing whitespace from both ends of a string.
 ## Syntax
 
 ```js
-string.trim();
+string.trim()
 ```
 
 ## Example
@@ -26,6 +26,6 @@ string.trim();
 Removing all existing whitespace from both ends of a string using `.trim()` method:
 
 ```js
-console.log("            Hello World            ".trim());
+console.log("  Hello World   ".trim());
 // Output: Hello World
 ```
