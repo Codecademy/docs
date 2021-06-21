@@ -17,7 +17,7 @@ Represents a single item in a list of items. It and the other list items must be
 ## Syntax
 
 ```html
-<li>Text For List Item</li>
+<li>Text for list item</li>
 ``` 
 
 `<li>` is a tag that requires content between it and its closing tag. It can contain any valid HTML, and each `<li>` tag will be indented and preceded either with a number (for ordered lists), or a dot (for unordered lists and menus).
