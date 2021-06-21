@@ -85,8 +85,8 @@ console.log(weekend);
 To create an identical subarray of `weekDays`:
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const subarray3 = weekDays.slice();
+const anotherWeek = weekDays.slice();
 
-console.log(subarray3);
+console.log(anotherWeek);
 // Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
