@@ -39,7 +39,7 @@ If `start` and `end` values are not provided, the slicing of array will be from 
 array.slice();
 ```
 
-## Example 1
+## 2 Arugments
 
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
@@ -51,7 +51,7 @@ console.log(subarray1);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-## Example 2
+## Negative Arguments
 
 A negative index can be used, indicating an offset from the end of the sequence. For example:
 
@@ -69,7 +69,7 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-## Example 3
+## One Argument
 
 To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
 ```js
@@ -80,7 +80,7 @@ console.log(subarray4);
 // Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
 
-## Example 4
+## No Arguments
 
 To create an identical subarray of `weekDays`:
 ```js
