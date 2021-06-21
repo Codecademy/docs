@@ -12,17 +12,15 @@ Catalog Content:
 
 ## Definition
 
-Return a part of a string from a given starting index or between start and end index. Index starts at zero (`0`).
+Return a part of a string from a given starting index or between start and end index. Index starts at zero.
 
 ## Syntax
 
 ```js
-string.substring(startIndex);
-```
-
-```js
 string.substring(startIndex, endIndex);
 ```
+
+- `endIndex` is optional.
 
 ## Example 1
 
