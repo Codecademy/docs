@@ -18,7 +18,7 @@ Elements of an array are converted to strings and concatenated together, returni
 ## Syntax
 
 ```js
-array.join(seperator)
+array.join(seperator);
 ```
 
 An optional separator parameter specifies a string to separate each pair of adjacent element of the array.
