@@ -38,7 +38,7 @@ If `start` and `end` values are not provided, the slicing of array will be from 
 array.slice();
 ```
 
-### Two Arugments
+### Two Arguments
 
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
