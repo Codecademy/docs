@@ -40,8 +40,8 @@ Represents an interface to provide metadata pertaining to the document. Metadata
     <!-- Sets the color scheme to dark if possible, but lets the browser know that light will render correctly, too -->
     <meta name="color-scheme" content="dark light">
   </head>
+  
   <body>
-    
   </body>
 </html>
 ```
