@@ -33,7 +33,7 @@ array.slice(start);
 ```
 
 
-If `start` and `end` values are not provided, the slicing of array will be from `start` to `end`:
+If `start` and `end` values are not provided, the slicing of array will be from `start` to the very end of the array.
 
 ```js
 array.slice();
