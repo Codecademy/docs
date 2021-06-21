@@ -60,13 +60,14 @@ array.slice(-3, -1);
 
 ### One Argument
 
-To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
+To create a subarray of `['Saturday', 'Sunday']` from `weekDays`:
+
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const subarray4 = weekDays.slice(2);
+const weekend = weekDays.slice(5);
 
-console.log(subarray4);
-// Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+console.log(weekend);
+// Output: ['Saturday', 'Sunday']
 ```
 
 To create the same subarray as above with negative index values:
