@@ -18,7 +18,7 @@ Return the length of a string (number of characters).
 ## Syntax
 
 ```js
-string.length;
+string.length
 ```
 
 `.length` is a string property and return the number of characters.
