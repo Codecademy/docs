@@ -80,7 +80,7 @@ console.log(weekend);
 // Output: ['Saturday', 'Sunday']
 ```
 
-### No Argument
+### Zero Arguments
 
 To create an identical subarray of `weekDays`:
 ```js
