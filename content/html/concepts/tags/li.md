@@ -30,7 +30,6 @@ Represents a single item in a list of items. It and the other list items must be
   </head>
   <body>
     <h3>My Favorite Things</h3>
-    <!-- The ol creates an ordered list, content from each li tag will have a number before it -->
     <ol>
       <li>Rain drops on roses</li>
       <li>Whiskers on kittens</li>
@@ -41,6 +40,8 @@ Represents a single item in a list of items. It and the other list items must be
 </html>
 ```
   
+The `<ol>` creates an ordered list. The content from each `<li>` tag will have a number before it:
+
  1. Rain drops on roses
  2. Whiskers on kittens
  3. Bright copper kettles
