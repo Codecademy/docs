@@ -19,7 +19,7 @@ Used to insert runnable code into a document, usually JavaScript. Can be used bo
 ```html
 <!-- In-document script -->
 <script>
-  // script content goes here
+  // JavaScript code goes here
 </script>
 
 <!-- External script -->
