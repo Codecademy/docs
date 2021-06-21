@@ -41,28 +41,6 @@ array.slice();
 
 ## Example 1
 
-
-
-```js
-slice(-3, -1);
-```
-
-A negative index can be used, indicating an offset from the end of the sequence.
-
-
-To create an identical subarray of `weekDays`:
-```js
-const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const subarray3 = weekDays.slice();
-
-console.log(subarray3);
-// Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-```
-
-
-## Example 2
-
-
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
 ```js
@@ -73,7 +51,16 @@ console.log(subarray1);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
+## Example 2
+
+A negative index can be used, indicating an offset from the end of the sequence. For example:
+
+```js
+array.slice(-3, -1);
+```
+
 To create the same subarray as above with negative index values:
+
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const subarray2 = weekDays.slice(-6, -3);
@@ -82,6 +69,7 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
+## Example 3
 
 To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
 ```js
@@ -90,4 +78,15 @@ const subarray4 = weekDays.slice(2);
 
 console.log(subarray4);
 // Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+```
+
+## Example 4
+
+To create an identical subarray of `weekDays`:
+```js
+const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const subarray3 = weekDays.slice();
+
+console.log(subarray3);
+// Output: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
