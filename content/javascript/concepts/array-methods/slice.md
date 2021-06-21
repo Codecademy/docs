@@ -18,7 +18,7 @@ Returns a copy of part of array, or subarray, while original array is not modifi
 ## Syntax
 
 ```js
-slice(start, end);
+array.slice(start, end);
 ```
 
 Its two arguments specify the start and end of the slice to be returned. The returned array contains the element specified by the first argument and all subsequent elements up to, but not including, the element specified by the second argument.
