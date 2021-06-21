@@ -5,12 +5,11 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
+  - "Unicode"
   - "Integers"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
 ## Definition
