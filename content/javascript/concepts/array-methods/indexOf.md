@@ -25,7 +25,7 @@ array.indexOf(searchElement);
 array.indexOf(searchElement, startIndex);
 ```
 
-An optional _startIndex_ value indicates what index position to begin search from. A negative _startIndex_ will offset from the end of the array to begin search. 
+An optional startIndex value indicates what index position to begin search from. A negative startIndex will offset from the end of the array to begin search. 
 
 ## Examples
 

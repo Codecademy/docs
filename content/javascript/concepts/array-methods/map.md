@@ -23,9 +23,9 @@ array.map((element, index, array) => {...});
 
 The callback function accepts the following parameters:
 
-_element_, required, is the current element we are iterating through.
-_index_, optional, is the index of the current element we are iterating through.
-_array_, optional, is the array that `map()` was called on.
+element, required, is the current element we are iterating through.
+index, optional, is the index of the current element we are iterating through.
+array, optional, is the array that `map()` was called on.
 
 ## Examples
 
