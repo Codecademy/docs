@@ -7,6 +7,7 @@ Tags:
   - "Strings"
   - "Methods"
 Catalog Content:
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
@@ -16,17 +17,12 @@ Concatenate or combine strings together.
 
 ## Syntax
 
-```js
-string.concat(string_1);
-```
 
 ```js
-string.concat(string_1, string_2);
+string.concat(string_1, string_2, string_3)
 ```
 
-```js
-string.concat(string_1, string_2, string_3);
-```
+
 
 ## Example 1
 
