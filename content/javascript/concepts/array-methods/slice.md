@@ -44,6 +44,7 @@ To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` a
 
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 const outOutOffice = weekDays.slice(1, 4);
 
 console.log(outOutOffice);
@@ -62,6 +63,7 @@ To create the same subarray as the one above with negative index values:
 
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 const outOutOffice = weekDays.slice(-6, -3);
 
 console.log(outOutOffice);
@@ -74,6 +76,7 @@ To create a subarray of `['Saturday', 'Sunday']` from `weekDays`:
 
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 const weekend = weekDays.slice(5);
 
 console.log(weekend);
@@ -86,6 +89,7 @@ To create an identical subarray of `weekDays`:
 
 ```js
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 const anotherWeek = weekDays.slice();
 
 console.log(anotherWeek);
