@@ -104,6 +104,7 @@ Generally, tables are used to display tabular data in particular. In the past, t
           <th>Last Name</th>
         </tr>
       </thead>
+      <!-- Table body -->
       <tbody>
         <tr>
           <td>Jane</td>
