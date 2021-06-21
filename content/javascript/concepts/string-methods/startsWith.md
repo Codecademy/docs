@@ -13,21 +13,16 @@ Catalog Content:
 
 ## Definition
 
-To check whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
+Check whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
 
 ## Syntax
 
-The `searchString` is to specify characters.
-
 ```js
-string.startsWith(searchString);
+string.startsWith(substring, position)
 ```
 
-The `position` is optional. It is use to start searching for `searchString`. It starts at 0.
-
-```js
-string.startsWith(searchString, position);
-```
+- The `substring` is the specified characters.
+- The `position` is optional. It is use to start searching for `substring`. It starts at 0.
 
 ## Example 1
 
