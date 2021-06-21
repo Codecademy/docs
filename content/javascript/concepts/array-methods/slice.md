@@ -34,7 +34,7 @@ slice(-3, -1);
 A negative index can be used, indicating an offset from the end of the sequence.
 
 ```js
-slice(start);
+array.slice(start);
 ```
 
 If only one argument is specified, the returned array contains all elements from the start position to the end of the array.
