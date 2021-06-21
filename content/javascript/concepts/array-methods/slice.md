@@ -32,14 +32,13 @@ If only one argument is specified, the returned array contains all elements from
 array.slice(start);
 ```
 
-
 If `start` and `end` values are not provided, the slicing of array will be from `start` to the very end of the array.
 
 ```js
 array.slice();
 ```
 
-## Two Arugments
+### Two Arugments
 
 To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` array:
 
@@ -51,7 +50,15 @@ console.log(subarray1);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-## One Argument
+### Negative Arguments
+
+A negative index can be used, indicating an offset from the end of the sequence. For example:
+
+```js
+array.slice(-3, -1);
+```
+
+### One Argument
 
 To create a subarray of `['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']` from `weekDays`:
 ```js
@@ -62,13 +69,6 @@ console.log(subarray4);
 // Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
 
-## Negative Arguments
-
-A negative index can be used, indicating an offset from the end of the sequence. For example:
-
-```js
-array.slice(-3, -1);
-```
 
 To create the same subarray as above with negative index values:
 
@@ -80,8 +80,7 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-
-## No Arguments
+## No Argument
 
 To create an identical subarray of `weekDays`:
 ```js
