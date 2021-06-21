@@ -83,7 +83,8 @@ Dynamic Programming
 Effects  
 Elements  
 Else
-Encapsulation  
+Encapsulation
+Encoding
 Enum  
 Errors  
 ES6  
@@ -226,7 +227,7 @@ SwiftUI
 Switch  
 Symbol  
 Syntax  
-Tables 
+Tables
 Tags  
 Target  
 Technical Interviews  
@@ -242,7 +243,8 @@ Types
 Type Guard  
 Type Narrowing  
 Typography  
-Union  
+Union
+Unicode
 Units  
 URL  
 Validation  
