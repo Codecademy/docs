@@ -118,3 +118,8 @@ Generally, tables are used to display tabular data in particular. In the past, t
   </body>
 </html>
 ```
+  
+| First Name | Last Name |
+| :------: | :------: | 
+| Jane | Smith | 
+| Suzi | Jiminez |
