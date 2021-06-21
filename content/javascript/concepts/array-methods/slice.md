@@ -69,7 +69,6 @@ console.log(subarray4);
 // Output: ['Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ```
 
-
 To create the same subarray as above with negative index values:
 
 ```js
@@ -80,7 +79,7 @@ console.log(subarray2);
 // Output: ['Tuesday', 'Wednesday', 'Thursday']
 ```
 
-## No Argument
+### No Argument
 
 To create an identical subarray of `weekDays`:
 ```js
