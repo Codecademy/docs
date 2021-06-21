@@ -5,6 +5,7 @@ Subjects:
   - "Computer Science"
 Tags:
   - "Strings"
+  - "Properties"
   - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
