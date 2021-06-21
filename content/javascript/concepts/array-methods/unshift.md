@@ -27,6 +27,7 @@ To add the element `'Monday'` to the `daysOfWeek` array:
 
 ```js
 const daysOfWeek = ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 daysOfWeek.unshift('Monday');
 
 console.log(daysOfWeek);
@@ -37,6 +38,7 @@ To add elements `1` and `2` to the `countToTen` array:
 
 ```js
 const countToTen = [3, 4, 5, 6, 7, 8, 9, 10];
+
 countToTen.unshift(1, 2);
 
 console.log(countToTen);
