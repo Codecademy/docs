@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns a copy of part of array, or subarray, while original array is not modified.
+Returns a shallow copy of part of array, while original array is not modified.
 
 ## Syntax
 
