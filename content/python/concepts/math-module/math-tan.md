@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns the tangent of input x, in radian value.
+Returns the tangent of input x, measured in radian value.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ math.tan(x)
 
 ## Example 1
 
-Use `math.tan()` to return the tangent of the integer `5` in radian value:
+Use `math.tan()` to return the tangent of the integer `5` measured in radian value:
 
 ```python
 import math
@@ -35,7 +35,7 @@ print(math.tan(5))
 
 ## Example 2
 
-Use `math.tan()` to return the tangent of the float `5.5` in radian value:
+Use `math.tan()` to return the tangent of the float `5.5` measured in radian value:
 
 ```python
 import math
