@@ -23,7 +23,7 @@ math.sqrt(x)
 
 ## Example 1
 
-Use `math.sqrt()` to return the square root of integer `5` in radian value:
+Use `math.sqrt()` to return the square root of integer `5`:
 
 ```python
 import math
@@ -35,7 +35,7 @@ print(math.sqrt(5))
 
 ## Example 2
 
-Use `math.sqrt()` to return the square root of the float `5.5` in radian value:
+Use `math.sqrt()` to return the square root of the float `5.5`:
 
 ```python
 import math

@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns the sine of input x, in radian value.
+Returns the sine of input x, measured in radian value.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ math.sin(x)
 
 ## Example 1
 
-Use `math.sin()` to return the sine of the integer `5` in radian value:
+Use `math.sin()` to return the sine of the integer `5` measured in radian value:
 
 ```python
 import math
@@ -35,7 +35,7 @@ print(math.sin(5))
 
 ## Example 2
 
-Use `math.sin()` to return the sine of the float `5.5` in radian value:
+Use `math.sin()` to return the sine of the float `5.5` measured in radian value:
 
 ```python
 import math
