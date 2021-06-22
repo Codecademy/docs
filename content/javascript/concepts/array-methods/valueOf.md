@@ -21,7 +21,7 @@ Returns a new array with all the items of the original array.
 array.valueOf();
 ```
 
-Note: This method will not change the original array. 
+**Note:** This method will not change the original array. 
 
 ## Examples
 
