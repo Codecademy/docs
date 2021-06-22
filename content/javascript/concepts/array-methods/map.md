@@ -43,6 +43,7 @@ Create an array of full names from the `students` array full of objects:
 
 ```js
 const students = [{first_name: 'Samantha', last_name: 'Jones'}, {first_name: 'Hector', last_name: 'Gonzales'}, {first_name: 'Jeremiah', last_name: 'Duncan'} ]
+
 const fullNames = students.map(student => {
     return `${student.first_name} ${student.last_name}`;
 })
