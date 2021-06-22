@@ -17,7 +17,7 @@ Get the day of the week for the specified date according to local time.
 ## Syntax
 
 ```js
-obj.getDay()
+obj.getDay();
 ```
 
 The return value of `getDay()` will only be an integer number between `0` and `6`.
