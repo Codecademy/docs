@@ -1,5 +1,5 @@
 ---
-Title: "math.sin()"
+Title: "math.tan()"
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -13,34 +13,34 @@ Catalog Content:
 
 ## Definition
 
-Returns the sine of input x, in radian value.
+Returns the tangent of input x, in radian value.
 
 ## Syntax
 
 ```py
-math.sin(x)
+math.tan(x)
 ```
 
 ## Example 1
 
-Use `math.sin()` to return the sine of the integer `5` in radian value:
+Use `math.tan()` to return the sin of the integer `5` in radian value:
 
 ```python
 import math
 
-print(math.sin(5))
+print(math.tan(5))
 
-# Output: -0.9589242746631385
+# Output: -3.380515006246586
 ```
 
 ## Example 2
 
-Use `math.sin()` to return the sine of the float `5.5` in radian value:
+Use `math.tan()` to return the sin of the float `5.5` in radian value:
 
 ```python
 import math
 
-print(math.sin(5.5))
+print(math.tan(5.5))
 
-# Output: -0.7055403255703919
+# Output: -0.995584052213885
 ```
