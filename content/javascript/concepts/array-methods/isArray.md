@@ -7,7 +7,7 @@ Tags:
   - "Arrays"
   - "Methods"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
@@ -18,7 +18,7 @@ Returns `true` for arrays; otherwise, `false`.
 ## Syntax
 
 ```js
-Array.isArray(value);
+array.isArray(value);
 ```
 
 Required parameter value is the value to be checked.
