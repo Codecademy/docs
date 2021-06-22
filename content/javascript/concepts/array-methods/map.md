@@ -23,9 +23,9 @@ array.map((element, index, array) => {...});
 
 The callback function accepts the following parameters:
 
-element, required, is the current element we are iterating through.
-index, optional, is the index of the current element we are iterating through.
-array, optional, is the array that `map()` was called on.
+- `element`, required, is the current element we are iterating through.
+- `index`, optional, is the index of the current element we are iterating through.
+- `array`, optional, is the array that `map()` was called on.
 
 ## Examples
 
@@ -40,6 +40,7 @@ console.log(doubled);
 ```
 
 Create an array of full names from the `students` array full of objects:
+
 ```js
 const students = [{first_name: 'Samantha', last_name: 'Jones'}, {first_name: 'Hector', last_name: 'Gonzales'}, {first_name: 'Jeremiah', last_name: 'Duncan'} ]
 const fullNames = students.map(student => {
