@@ -17,7 +17,7 @@ Sorts the elements of an array in place and returns the sorted array.
 
 ## Syntax
 
-When `sort()` is called with no arguments, it sorts the array element in alphabetical order.
+When `.sort()` is called with no arguments, it sorts the array element in alphabetical order.
 
 ```js
 array.sort();
