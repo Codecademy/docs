@@ -18,7 +18,7 @@ Returns `true` for arrays; otherwise, `false`.
 ## Syntax
 
 ```js
-array.isArray(value);
+Array.isArray(value);
 ```
 
 Required parameter value is the value to be checked.
