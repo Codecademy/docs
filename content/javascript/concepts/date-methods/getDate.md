@@ -17,7 +17,7 @@ Get the date of the month according to the local time.
 ## Syntax
 
 ```js
-obj.getDate()
+obj.getDate();
 ```
 
 The return value of `getDate()` will only be an integer number between `1` and `31`, which represent the date.

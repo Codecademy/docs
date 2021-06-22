@@ -17,7 +17,7 @@ Get the hour for the specified date, according to local time.
 ## Syntax
 
 ```js
-obj.getHours()
+obj.getHours();
 ```
 
 The return value of `getHours()` will only be an integer number between `0` and `23`, which represent the hour for the given date according to local time.
