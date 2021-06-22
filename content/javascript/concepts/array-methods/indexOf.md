@@ -18,14 +18,11 @@ Returns the first index at which an element can be found. Returns `-1` if elemen
 ## Syntax
 
 ```js
-array.indexOf(searchElement);
-```
-
-```js
 array.indexOf(searchElement, startIndex);
 ```
 
-An optional startIndex value indicates what index position to begin search from. A negative startIndex will offset from the end of the array to begin search. 
+- `searchElement`: The element we are looking for.
+- `startIndex`: The index position to begin search from. A negative `startIndex` will offset from the end of the array to begin search. 
 
 ## Examples
 
