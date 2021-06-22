@@ -22,7 +22,9 @@ array.indexOf(searchElement, startIndex);
 ```
 
 - `searchElement`: The element we are looking for.
-- `startIndex` (optional): The index position to begin search from. A negative `startIndex` will offset from the end of the array to begin search. 
+- `startIndex`: The index position to begin search from. Optional.
+ 
+A negative `startIndex` will offset from the end of the array to begin search. 
 
 ## Examples
 
