@@ -13,7 +13,7 @@ To make the Codecademy Docs vision clearer, [we even created a demo site](https:
 
 ## What stage of development are we in right now?
 
-Right now we're trying to create 1,000 high-quality entries as quickly as we can. We have an engineering team working on creating the Docs website in June-July, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
+Right now we're trying to create 500 high-quality entries as quickly as we can. We have an engineering team working on creating the Docs website in June-July, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
 
 ## What do I need to do before contributing? 
 
