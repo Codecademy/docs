@@ -35,6 +35,8 @@ The `accumulator`'s value accumulates with each iteration through the array, res
 - The first, is the reducer function that performs the reduction operation.
 - The second (optional) argument is an initial value to pass to the function.
 
+For example: 
+
 ```js
 array.reduce((acc, curr) => acc + curr, 10);
 ```
