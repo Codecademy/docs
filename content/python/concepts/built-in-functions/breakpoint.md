@@ -28,7 +28,7 @@ By default, the `breakpoint()` function imports the `pdb` debugger module.
 
 Use `breakpoint()` to open the `pdb` debugger console:
 
-```codebyte/python
+```python
 print("Welcome to Codecademy!")
 
 breakpoint()
