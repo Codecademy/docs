@@ -30,14 +30,10 @@ The reducer function takes four arguments:
 
 The `accumulator`'s value accumulates with each iteration through the array, resulting in a single value.
 
+`.reduce()` takes two arguments:
 
-`.reduce()` takes two arguments. The first, is the reducer function that performs the reduction operation.
-
-```js
-array.reduce((acc, curr) => acc + curr);
-```
-
-The second (optional) argument is an initial value to pass to the function.
+- The first, is the reducer function that performs the reduction operation.
+- The second (optional) argument is an initial value to pass to the function.
 
 ```js
 array.reduce((acc, curr) => acc + curr, 10);
