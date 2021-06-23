@@ -33,14 +33,25 @@ bytearray(source, encoding, error)
 
 Use `bytearray()` to encode the string `"Welcome to Codecademy!"` to unicode `utf-8` and `utf-32`, and print the length of each bytearray. Note that a `source` and `encoding` parameter must be provided for encoding `string` data:
 
-```codebyte/python
+```python
 array_1 = bytearray("Welcome to Codecademy!", "utf-8")
 array_2 = bytearray("Welcome to Codecademy!", "utf-32")
 
 print(array_1)
 print(len(array_1))
+
 print(array_2)
 print(len(array_2))
+```
+
+The output would be:
+
+```
+bytearray(b'Welcome to Codecademy!')
+22
+
+bytearray(b'\xff\xfe\x00\x00W\x00\x00\x00e\x00\x00\x00l\x00\x00\x00c\x00\x00\x00o\x00\x00\x00m\x00\x00\x00e\x00\x00\x00 \x00\x00\x00t\x00\x00\x00o\x00\x00\x00 \x00\x00\x00C\x00\x00\x00o\x00\x00\x00d\x00\x00\x00e\x00\x00\x00c\x00\x00\x00a\x00\x00\x00d\x00\x00\x00e\x00\x00\x00m\x00\x00\x00y\x00\x00\x00!\x00\x00\x00')
+92
 ```
 
 ## Example 2
