@@ -12,24 +12,27 @@ Catalog Content:
 
 ## Definition
 
-Get the day of the week for the specified date according to local time.
+Called from an instance of the `Date` class, will return the day of the week.
 
 ## Syntax
 
 ```js
-Date.getDay();
+myDate.getDay();
 ```
 
-The return value of `getDay()` will only be an integer number between `0` and `6`.
-
-`0` represent Sunday, `1` represent Monday, `2` represent Tuesday and so on.
+The return value of `getDay()` will only be an integer number between `0` and `6`, with `0` meaning Sunday, `1` meaning Monday, and so on.
 
 ## Example
 
-Getting the day:
+To determine if it is Friday or not:
 
 ```js
-const x = new Date('June 22, 2021 10:41:30');
-console.log(x.getDay());
-// Output: 2
+const today = new Date("June 25, 2021 10:41:30");
+
+if (today.getDay() === 5) {
+  console.log("It is Friday, let's have a coffee later!");
+} else {
+  console.log("It is not Friday...");
+}
+// Output: It is Friday, let's have a coffee later!
 ```
