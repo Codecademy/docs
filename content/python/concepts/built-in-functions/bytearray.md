@@ -25,9 +25,9 @@ bytearray(source, encoding, error)
 
 ## Parameters
 
-* source(optional): specifies the source to initialize the bytearray.
-* encoding(optional): specifies the encoding method of the object.
-* errors(optional): specifies the action to take in case of error.
+* `source` (optional): specifies the source to initialize the bytearray.
+* `encoding`(optional): specifies the encoding method of the object.
+* `errors` (optional): specifies the action to take in case of error.
 
 ## Example 1
 
