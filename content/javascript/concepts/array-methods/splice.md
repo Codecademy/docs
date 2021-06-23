@@ -36,7 +36,9 @@ array.splice(start, length);
 array.splice(start, length, item1, item2, itemN);
 ```
 
-Further optional arguments may be provided to be inserted at the start position.
+- `start`: The array position.
+- `length` (optional): The number of elements in the array to remove from start.
+- `item1` (optional): Further argument may be provided to be inserted at the start position.
 
 ## Examples
 
