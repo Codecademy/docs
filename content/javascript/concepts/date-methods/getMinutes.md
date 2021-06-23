@@ -12,22 +12,27 @@ Catalog Content:
 
 ## Definition
 
-Get minutes in a specified date according to local time.
+Called from an instance of the `Date` class, will return the minutes according to the local time.
 
 ## Syntax
 
 ```js
-Date.getMinutes();
+myDate.getMinutes();
 ```
 
-The return value of `getMinutes()` will only be an integer number between `0` and `59`, which represent the minutes.
+The return value of `getMinutes()` will only be an integer number between `0` and `59`, meaning the minutes according to the local time.
 
 ## Example
 
-Getting the minutes:
+To determine if it has been 15 minutes:
 
 ```js
-const x = new Date('June 22, 2021 10:41:30');
-console.log(x.getMinutes());
-// Output: 41
+const today = new Date("June 25, 2021 13:15:00");
+
+if (today.getMinutes() >= 15) {
+  console.log("Hurry up, it has been 15 minutes!");
+} else {
+  console.log("Take your time, we still have time for it.");
+}
+// Output: Hurry up, it has been 15 minutes!
 ```
