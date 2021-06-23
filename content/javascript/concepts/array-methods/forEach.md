@@ -27,7 +27,7 @@ A function can be invoked with three arguments:
 - `index` (optional): The index of the array element.
 - `array` (optional): The array itself.
 
-**Note:** Unlike a regular for loop, .forEach() does not provide a way to terminate iteration before all elements have been passed to the function.
+**Note:** Unlike a regular `for` loop, `.forEach()` method does not provide a way to terminate iteration before all elements have been passed to the function.
 
 ## Example 1
 
