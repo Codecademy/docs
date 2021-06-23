@@ -12,22 +12,25 @@ Catalog Content:
 
 ## Definition
 
-Get the date of the month according to the local time.
+Called from an instance of the `Date` class, will return the date of the month. All return values will be integers between `1` and `31`.
 
 ## Syntax
 
 ```js
-Date.getDate();
+myDate.getDate();
 ```
-
-The return value of `getDate()` will only be an integer number between `1` and `31`, which represent the date.
 
 ## Example
 
-Getting the date:
+Suppose there is a need to find out if it is before the 10th of the current month:
 
 ```js
-const x = new Date('June 22, 2021 10:41:30');
-console.log(x.getDate());
-// Output: 22
+const today = new Date("June 22, 2021 10:41:30");
+
+if (today.getDate() < 10) {
+  console.log("It is before the 10th!");
+} else {
+  console.log("It is the 10th, or later!");
+}
+// Output: It is the 10th, or later!
 ```
