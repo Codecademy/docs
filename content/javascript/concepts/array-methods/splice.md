@@ -7,14 +7,13 @@ Tags:
   - "Arrays"
   - "Methods"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 ## Definition
 
 Modifies array by inserting, deleting, and/or replacing array elements then returns an array of deleted elements.
-
 
 ## Syntax
 
