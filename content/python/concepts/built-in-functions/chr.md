@@ -14,11 +14,7 @@ Catalog Content:
 
 ## Definition
 
-Returns Unicode characters represented by integers ranging between:
-
-* [0-1]
-* [0-1141]
-* [0-111]
+Returns Unicode characters represented by integers ranging between 0 and 1,114,111.
 
 ## Syntax
 
