@@ -21,13 +21,16 @@ Modifies array by inserting, deleting, and/or replacing array elements then retu
 array.splice(start);
 ```
 
-The first argument, required, specifies the array position at which the insertion and or deletion is to begin. If only the start index is provided then it will remove all the elements from start to the end of the array.
+- `start`: Specifies the array position at which the insertion and or deletion is to begin. 
+
+If only the start index is provided then it will remove all the elements from start to the end of the array.
 
 ```js
 array.splice(start, length);
 ```
 
-The second optional argument, is the number of elements in the array to remove from start.
+- `start`: The array position.
+- `length` (optional): The number of elements in the array to remove from start.
 
 ```js
 array.splice(start, length, item1, item2, itemN);
