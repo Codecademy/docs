@@ -12,22 +12,27 @@ Catalog Content:
 
 ## Definition
 
-Get the hour for the specified date, according to local time.
+Called from an instance of the `Date` class, will return the hour according to the local time.
 
 ## Syntax
 
 ```js
-Date.getHours();
+myDate.getHours();
 ```
 
-The return value of `getHours()` will only be an integer number between `0` and `23`, which represent the hour for the given date according to local time.
+The return value of `getHours()` will only be an integer number between `0` and `23`, meaning the hour according to the local time.
 
 ## Example
 
-Getting the hour:
+To determine if it is 10 in the morning or not:
 
 ```js
-const x = new Date('June 22, 2021 10:41:30');
-console.log(x.getHours());
-// Output: 10
+const today = new Date("June 25, 2021 13:41:30");
+
+if (today.getHours() === 10) {
+  console.log("It is 10 in the morning now.");
+} else {
+  console.log("It is not 10 in the morning now.");
+}
+// Output: It is not 10 in the morning now.
 ```
