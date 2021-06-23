@@ -17,8 +17,6 @@ Loops over the array, passing each item in the array into the callback function 
 
 ## Syntax
 
-Unlike a regular `for` loop, `.forEach()` does not provide a way to terminate iteration before all elements have been passed to the function. 
-
 ```js
 array.forEach((value, index, array) => {...});
 ```
@@ -28,6 +26,8 @@ A function can be invoked with three arguments:
 - `value`: The value of the array element.
 - `index` (optional): The index of the array element.
 - `array` (optional): The array itself.
+
+**Note:** Unlike a regular for loop, .forEach() does not provide a way to terminate iteration before all elements have been passed to the function.
 
 ## Example 1
 
