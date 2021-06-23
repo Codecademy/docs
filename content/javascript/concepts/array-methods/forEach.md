@@ -13,11 +13,11 @@ Catalog Content:
 
 ## Definition
 
-Executes provided function once for each array element.
+Loops over the array, passing each item in the array into the callback function provided.
 
 ## Syntax
 
-Note: `forEach()` does not mutate the array on which it is called.
+*Note:* unlike a regular for loop, `.forEach()` does not provide a way to terminate iteration before all elements have been passed to the function. 
 
 ```js
 array.forEach((element, index, array) => {...});

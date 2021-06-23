@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns a string representing the specified array and its elements. This does not modify original array.
+Returns a string with each of the array values, separated by commas. Does not mutate the original array.
 
 ## Syntax
 

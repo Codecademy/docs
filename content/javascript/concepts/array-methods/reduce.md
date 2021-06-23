@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Executes a reducer function on each element of the array and returns a single output value.
+Combines each element of an array, using a reducer function you specify, and returns a single value.
 
 ## Syntax
 
