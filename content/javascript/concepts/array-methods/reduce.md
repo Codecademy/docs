@@ -17,11 +17,19 @@ Combines each element of an array, using a reducer function you specify, and ret
 
 ## Syntax
 
-The reducer function takes four arguments. The currentValue (required) being iterated over. The returned value is assigned to the accumulator (required). The accumulator's value accumulates with each iteration through the array, resulting in a single value.
-
 ```js
 array.reduce((accumulator, currentValue, index, array) => {...}, initialValue)
 ```
+
+The reducer function takes four arguments:
+
+- `accumulator` is the returned value from the function.
+- `currentValue` is the element being iterated over. 
+- `index` (optional) is the index of the `currentValue`.
+- `array` (optional) is the array the `.reduce()` was called on.
+
+The `accumulator`'s value accumulates with each iteration through the array, resulting in a single value.
+
 
 `.reduce()` takes two arguments. The first, is the reducer function that performs the reduction operation.
 
