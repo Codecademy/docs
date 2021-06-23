@@ -25,9 +25,9 @@ array.forEach((value, index, array) => {...});
 
 A function can be invoked with three arguments: 
 
-- The `value` of the array element (required)
-- The `index` of the array element
-- The `array` itself
+- `value`: The value of the array element.
+- `index` (optional): The index of the array element.
+- `array` (optional): The array itself.
 
 ## Example 1
 
