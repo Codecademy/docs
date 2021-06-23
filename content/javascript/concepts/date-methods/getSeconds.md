@@ -12,22 +12,27 @@ Catalog Content:
 
 ## Definition
 
-Get the seconds in the specified date according to local time.
+Called from an instance of the `Date` class, will return the seconds according to the local time.
 
 ## Syntax
 
 ```js
-Date.getSeconds();
+myDate.getSeconds();
 ```
 
-The return value of `getSeconds()` will only be an integer number between `0` and `59`, which represent the seconds.
+The return value of `getSeconds()` will only be an integer number between `0` and `59`, meaning seconds.
 
 ## Example
 
-Getting the minutes:
+To determine if the match has ended or still ongoing:
 
 ```js
-const x = new Date('June 22, 2021 10:41:30');
-console.log(x.getSeconds());
-// Output: 30
+const today = new Date("June 25, 2021 13:41:50");
+
+if (today.getSeconds() > 50) {
+  console.log("The match has ended.");
+} else {
+  console.log("This match is still ongoing.");
+}
+// Output: This match is still ongoing.
 ```
