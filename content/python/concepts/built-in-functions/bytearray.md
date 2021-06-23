@@ -5,8 +5,8 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Encoding"
+  - "Arrays"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
