@@ -29,16 +29,23 @@ A function can be invoked with three arguments:
 - The `index` of the array element
 - The `array` itself
 
-## Examples
+## Example 1
 
 Logging each value in an array:
 
 ```js
 ['a', 'b', 'c'].forEach((letter) => console.log(letter));
-// Output: a
-// Output: b
-// Output: c
 ```
+
+The output would be:
+
+```
+a
+b
+c
+```
+
+## Example 2
 
 Finding the sum of an array:
 
