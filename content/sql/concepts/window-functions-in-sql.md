@@ -62,7 +62,7 @@ SELECT quarter,
   SUM(sales) OVER(
     ORDER BY month
   ) AS 'running_total'
-FROM monthly_sales
+FROM monthly_sales;
 ```
 
 This will give the following output:
@@ -95,7 +95,7 @@ SELECT quarter,
   AVG(sales) OVER(
     PARTITION BY quarter
   ) AS 'quarterly_average'
-FROM monthly_sales
+FROM monthly_sales;
 ```
 
 This will give the following output:
