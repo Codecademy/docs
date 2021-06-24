@@ -21,7 +21,7 @@ Searches a string for a given value and returns the first index if found. Return
 string.indexOf(value, startSearch);
 ```
 
-- `value` (required) is the value to search for in a string. 
+- `value` is the value to search for in a string. 
 - `startSearch` (optional), indicates the index to start the search at. 
 
 ## Examples
