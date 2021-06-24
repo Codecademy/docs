@@ -86,7 +86,9 @@ To find the average sales per quarter of the previous example, the given query c
 
 ```sql
 SELECT quarter, month, sales,
-  AVG(sales) OVER(PARTITION BY quarter) AS 'quarterly_average'
+  AVG(sales) OVER(
+    PARTITION BY quarter
+  ) AS 'quarterly_average'
 FROM monthly_sales
 ```
 
