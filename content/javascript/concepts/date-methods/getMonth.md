@@ -23,9 +23,9 @@ myDate.getMonth();
 
 The return value of `getMonth()` will only be an integer number between `0` and `11`, meaning the month of the year:
 
-- `0` represent January
-- `1` represent February
-- `2` represent March
+- `0` represents January
+- `1` represents February
+- `2` represents March
 - and so on.
 
 ## Example
