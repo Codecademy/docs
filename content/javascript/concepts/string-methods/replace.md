@@ -21,7 +21,7 @@ Searches a string for a string value, or a regular expression, and returns a new
 string.replace(searchValue, replacementValue);
 ```
 
-If the searchValue is a string then only the first instance of the value will be replaced. To replace all instances, use the global (g) modifier on a regular expression.
+If the `searchValue` is a string then only the first instance of the value will be replaced. To replace all instances, use the global (g) modifier on a regular expression.
 
 ## Examples
 
