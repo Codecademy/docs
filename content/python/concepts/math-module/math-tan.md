@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns the tangent of input x, measured in radian value.
+Returns the tangent of input numeric x, measured in radian value.
 
 ## Syntax
 
