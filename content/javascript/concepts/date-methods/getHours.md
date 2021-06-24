@@ -35,5 +35,6 @@ if (today.getHours() === 10) {
 } else {
   console.log("It is not 10 in the morning now.");
 }
+
 // Output: It is not 10 in the morning now.
 ```
