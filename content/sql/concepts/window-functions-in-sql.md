@@ -34,7 +34,9 @@ FROM table_name;
 
 ## Example
 
-A common use case for window functions is to create a running total. For example, suppose there's a `monthly_sales` table with the following values:
+A common use case for window functions is to create a running total. 
+
+For example, suppose there's a `monthly_sales` table with the following values:
 
 | quarter | month | sales |
 | -- | -- | -- |
