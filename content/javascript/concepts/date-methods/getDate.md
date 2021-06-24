@@ -33,5 +33,6 @@ if (today.getDate() < 10) {
 } else {
   console.log("It is the 10th, or later!");
 }
+
 // Output: It is the 10th, or later!
 ```
