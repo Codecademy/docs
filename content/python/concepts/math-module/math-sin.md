@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition
 
-Returns the sine of input x, measured in radian value.
+Returns the sine of input numeric x, measured in radian value.
 
 ## Syntax
 
