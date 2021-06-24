@@ -21,7 +21,7 @@ Returns the square root of numeric input x.
 math.sqrt(x)
 ```
 
-If input x is a negative value, `.sqrt()` will return a math domain error.
+If input x is a negative value, `.sqrt()` will return a `ValueError: math domain error`.
 
 ## Example 1
 
