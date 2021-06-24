@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Debugging"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -25,18 +24,24 @@ bytes(source, encoding, error)
 
 ## Parameters
 
-* source(optional): specifies the source to initialize the byte represented object.
-* encoding(optional): specifies the encoding method of the object.
-* errors(optional): specifies the action to take in case of error.
-
+* `source` (optional): specifies the source to initialize the byte represented object.
+* `encoding`(optional): specifies the encoding method of the object.
+* `errors` (optional): specifies the action to take in case of error.
 
 ## Example 1
 
 Use `bytes()` to encode the string `"Welcome to Codecademy!"` to unicode `utf-8` and print the number of bytes in the string:
 
-```codebyte/python
+```python
 print(bytes("Welcome to Codepedia!", "utf-8"))
 print(len(bytes("Welcome to Codepedia!", "utf-8")))
+```
+
+The output would be:
+
+```
+b'Welcome to Codepedia!'
+21
 ```
 
 ## Example 2
