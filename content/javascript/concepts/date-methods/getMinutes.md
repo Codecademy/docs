@@ -7,6 +7,7 @@ Tags:
   - "Date"
   - "Methods"
 Catalog Content:
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
@@ -34,5 +35,6 @@ if (today.getMinutes() >= 15) {
 } else {
   console.log("Take your time, we still have time for it.");
 }
+
 // Output: Hurry up, it has been 15 minutes!
 ```
