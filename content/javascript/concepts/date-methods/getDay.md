@@ -43,5 +43,6 @@ if (today.getDay() === 5) {
 } else {
   console.log("It is not Friday...");
 }
+
 // Output: It is Friday, let's have a coffee later!
 ```
