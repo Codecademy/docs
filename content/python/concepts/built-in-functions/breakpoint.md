@@ -5,7 +5,6 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
   - "Debugging"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
@@ -15,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-Allows user to engage, configure, and change the debugger program used in a script. By default, `breakpoint()` imports the `pdb` debugger module.
+Engage, configure, and change the debugger program used in a script.
 
 ## Syntax
 
@@ -23,11 +22,13 @@ Allows user to engage, configure, and change the debugger program used in a scri
 breakpoint()
 ```
 
+By default, the `breakpoint()` function imports the `pdb` debugger module.
+
 ## Example 1
 
 Use `breakpoint()` to open the `pdb` debugger console:
 
-```codebyte/python
+```python
 print("Welcome to Codecademy!")
 
 breakpoint()

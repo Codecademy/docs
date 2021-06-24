@@ -5,8 +5,7 @@ Subjects:
   - "Data Science"
 Tags:
   - "Functions"
-  - "Methods"
-  - "Debugging"
+  - "Objects"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -27,11 +26,12 @@ callable(object)
 
 Use `callable()` to determine if the function `Slogan` is callable:
 
-```codebyte/python
+```python
 def Slogan():
-    return "Welcome to Codecademy!"
+  return "Welcome to Codecademy!"
 
 print(callable(Slogan))
+# Output: True
 ```
 
 ## Example 2
