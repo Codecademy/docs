@@ -21,7 +21,15 @@ Called from an instance of the `Date` class, will return the day of the week.
 myDate.getDay();
 ```
 
-The return value of `getDay()` will only be an integer number between `0` and `6`, with `0` meaning Sunday, `1` meaning Monday, and so on.
+The return value of `getDay()` will only be an integer number between `0` and `6`:
+
+- `0` meaning Sunday
+- `1` meaning Monday
+- `2` meaning Tueseday
+- `3` meaning Wednesday
+- `4` meaning Thursday
+- `5` meaning Friday
+- `6` meaning Saturday
 
 ## Example
 
