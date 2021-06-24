@@ -56,8 +56,12 @@ For example, suppose there's a `monthly_sales` table with the following values:
 To find the cumulative sales up to each month, the given query can be used:
 
 ```sql
-SELECT quarter, month, sales,
-  SUM(sales) OVER(ORDER BY month) AS 'running_total'
+SELECT quarter, 
+  month, 
+  sales,
+  SUM(sales) OVER(
+    ORDER BY month
+  ) AS 'running_total'
 FROM monthly_sales
 ```
 
@@ -85,7 +89,9 @@ Window functions can be partitioned to create bunches of rows that apply the fun
 To find the average sales per quarter of the previous example, the given query can be used: 
 
 ```sql
-SELECT quarter, month, sales,
+SELECT quarter, 
+  month, 
+  sales,
   AVG(sales) OVER(
     PARTITION BY quarter
   ) AS 'quarterly_average'
