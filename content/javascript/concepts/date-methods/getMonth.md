@@ -26,7 +26,9 @@ The return value of `getMonth()` will only be an integer number between `0` and 
 - `0` represents January
 - `1` represents February
 - `2` represents March
-- ... and so on.
+- ...
+- `10` represents November
+- `11` represents December
 
 ## Example
 
