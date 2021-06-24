@@ -1,5 +1,5 @@
 ---
-Title: "Window Functions in SQL"
+Title: "Window Functions"
 Subjects:
   - "Data Science"
   - "Computer Science"
