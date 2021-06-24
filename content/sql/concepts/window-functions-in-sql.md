@@ -26,7 +26,9 @@ FROM table_name;
 An `ORDER BY` clause can be used to determine in which direction the function should be calculated.
 
 ```sql
-SELECT function_name(column_1_name) OVER(ORDER BY column_2_name)
+SELECT function_name(column_1_name) OVER(
+    ORDER BY column_2_name
+  )
 FROM table_name;
 ```
 
