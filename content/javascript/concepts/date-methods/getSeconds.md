@@ -7,6 +7,7 @@ Tags:
   - "Date"
   - "Methods"
 Catalog Content:
+  - ""https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
@@ -34,5 +35,6 @@ if (today.getSeconds() > 50) {
 } else {
   console.log("This match is still ongoing.");
 }
+
 // Output: This match is still ongoing.
 ```
