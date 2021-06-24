@@ -21,13 +21,13 @@ Breaks the string on which it called into an array of substrings, and returns th
 string.split(separator);
 ```
 
-The separator (optional) describes the pattern where each split should occur. It may be a string or a regular expression. If not provided, the returned array will contain the entire string as its lone element.
+The `separator` (optional) describes the pattern where each split should occur. It may be a string or a regular expression. If not provided, the returned array will contain the entire string as its lone element.
 
 ```js
 string.split(separator, limit);
 ```
 
-The limit (optional) determines the number of substring elements included in the array.  
+The `limit` (optional) determines the number of substring elements included in the array.  
 
 ## Examples
 
