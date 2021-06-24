@@ -7,6 +7,7 @@ Tags:
   - "Date"
   - "Methods"
 Catalog Content:
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
@@ -34,5 +35,6 @@ if (today.getMonth() === 5) {
 } else {
   console.log("It is not 10 in the morning now.");
 }
+
 // Output: Time flies, it is now June.
 ```
