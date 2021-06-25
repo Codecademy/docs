@@ -63,7 +63,7 @@ Use pixels to place background image `100px` down the y-axis and `100px` along t
 }
 ```
 
-## Example 3
+## Example 4
 
 Position multiple images:
 
