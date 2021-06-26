@@ -16,7 +16,7 @@ Catalog Content:
 
 ## Definition 
 
-Removes exisiting record(s) from a table. If a `WHERE` statement is excluded, all records in the table will be deleted.
+Removes existing record(s) from a table. If a `WHERE` statement is excluded, all records in the table will be deleted.
 
 ## Example
 
@@ -27,7 +27,7 @@ DELETE FROM students
 WHERE enrolled_status = 'not_current';
 ```
 
-Supoose we want to delete all entries in the `students` table:
+Suppose we want to delete all entries in the `students` table:
 
 ```sql
 DELETE FROM students;
