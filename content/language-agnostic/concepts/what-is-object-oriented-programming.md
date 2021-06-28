@@ -23,13 +23,13 @@ Classes that have been instantiated in our code become objects that can interact
 
 There are four main principles of Object Oriented Programming: encapsulation, inheritance, polymorphism, and abstraction. 
 
-## Principles of OOP 
+## Four Main Principles of OOP 
 
-- Encapsulation - Encapsulation is a desired outcome of organizing code in classes in order to keep things from being mixed with other unrelated bits of code. Encapsulation make it easier to reason about code because of the modularity of code written in object oriented styled classes. 
+- Encapsulation is a desired outcome of organizing code in classes in order to keep things from being mixed with other unrelated bits of code. Encapsulation make it easier to reason about code because of the modularity of code written in object oriented styled classes. 
 
-- Inheritence - Inheritance is a principle which allows an instance of an object to borrow attributes and methods from its parent class.  
+- Inheritence is a principle which allows an instance of an object to borrow attributes and methods from its parent class.  
 
-- Polymorphism - Is the ability of the class to be dynamic in its use of class methods so that objects with the same parent class can make use of these parent class methods.
+- Polymorphism is the ability of the class to be dynamic in its use of class methods so that objects with the same parent class can make use of these parent class methods.
 
-- Abstraction - Is a principle that highlights the benefit of hiding complex parts of code from other parts in order to make it easier to reason and make decisions about the code.
+- Abstraction is a principle that highlights the benefit of hiding complex parts of code from other parts in order to make it easier to reason and make decisions about the code.
 
