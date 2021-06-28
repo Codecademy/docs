@@ -14,9 +14,7 @@ Catalog Content:
 
 ## Definition
 
-Specifies the starting position of each background image.
-
-**Note:** The default position will be in the top-left corner.
+Defines the positions of one or more background images relative to the `background-origin` position. This is the point from which any background repetition will occur.
 
 ## Syntax
 
@@ -30,6 +28,8 @@ Where value can be one of the following:
 - X% Y%: `25% 75%`, `50%, 50%`
 - Length value: `25px 25px`, `4em 2em`
 
+**Note:** The default position will be in the top-left corner.
+
 ## Example 1
 
 Set background image position to the top right corner of `.hero` class element:
@@ -37,6 +37,7 @@ Set background image position to the top right corner of `.hero` class element:
 ```css
 .hero {
   background-image: url("avatar.png");
+  background-repeat: no-repeat;
   background-position: top right;
 }
 ```
@@ -48,6 +49,7 @@ Use percentages to place background image in the middle of the element:
 ```css
 .hero {
   background-image: url("forrest.png");
+  background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 ```
@@ -59,17 +61,19 @@ Use pixels to place background image `100px` down the y-axis and `100px` along t
 ```css
 .hero {
   background-image: url("forrest.png");
+  background-repeat: no-repeat;
   background-position: 100px 100px;
 }
 ```
 
-## Example 4
+## Example 3
 
 Position multiple images:
 
 ```css
 .hero {
   background-image: url("squirrel"), url("forrest.png");
+  background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
 ```
