@@ -31,12 +31,8 @@ The size of the cache can be calculated as the number of bytes stored in each da
 
   * Disk Cache: Disk Cache aka (Disk Buffer) is the embedded memory in a hard disk drive (HDD) acting as a buffer between the rest of the computer and the physical hard disk platter that is used for storage.
 
-- Software Caching Strategies are strategies that utilize software to store the neccessary data locally and retrieve it in an efficient and optimized manner. 
+- Software caching strategies are strategies that utilize software to store the neccessary data locally and retrieve it in an efficient and optimized manner. 
 	
   * CDN: Caching in the browser via Content Delivery Network (CDN) retains copies of web content at various points throughout a network and serves them to clients from the closest network location.
 
   * Memoization: Memoization is an optimization technique used to speed up applications by storing the results of function calls and returning the cached result when the same inputs occur again.
-	
-
-
-
