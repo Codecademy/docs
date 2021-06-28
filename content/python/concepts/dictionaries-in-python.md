@@ -57,6 +57,10 @@ coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 - `"latte": 4.25`
 - `"cappucino": 3.99`
 
+## Using a Dictionary
+
+Dictionaries can be referred to by using the key name:
+
 ```py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 
