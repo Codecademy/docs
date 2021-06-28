@@ -21,7 +21,7 @@ Data is transferred between memory and cache in blocks of fixed size called "cac
 
 The size of the cache can be calculated as the number of bytes stored in each data block times the number of blocks stored. "Higher-level" caches (i.e. Level 2 and above) have progressively larger numbers of blocks, larger block size and relatively longer access times, but faster than main memory. Effective caching implementations are a major way for applications to improve their performance.
 
-## Two main groups: Caching with Hardware and with Software.
+## Caching with Hardware vs Caching with Software
 
 - Hardware Caching Strategies are strategies that utilize part of the hardware in a computing device to store the neccessary data. Often these computing devices offer caching on multiple layers of the hardware parts responsible for caching.
 
