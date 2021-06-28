@@ -17,7 +17,7 @@ Catalog Content:
 
 ## Definition
 
-Checks if a value is not NULL.
+Checks if a value is not `NULL`.
 
 ## Syntax
 
