@@ -13,14 +13,16 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-A cache is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. If the data requested is found we call this a "cache hit" and return the requested data, if the data is not found it is deemed a "cache miss". Cache misses trigger a process for getting the correct data called a "replacement policy". 
+A cache is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. 
+
+If the data requested is found we call this a "cache hit" and return the requested data, if the data is not found it is deemed a "cache miss". Cache misses trigger a process for getting the correct data called a "replacement policy". 
 
 Data is transferred between memory and cache in blocks of fixed size called "cache lines" or "cache blocks" after the stale data has been removed. Larger caches have better hit rates but longer latency. To address this trade-off, many computers use multiple layers of caching, with small fast caches backed up by larger, slower caches. If the smaller cache misses, the next fastest cache (level 2, L2) is checked, and so on, before accessing external memory.
 
 The size of the cache can be calculated as the number of bytes stored in each data block times the number of blocks stored. "Higher-level" caches (i.e. Level 2 and above) have progressively larger numbers of blocks, larger block size and relatively longer access times, but faster than main memory. Effective caching implementations are a major way for applications to improve their performance.
 
 
-## We can think of Caches in two main groups: Caching with Hardware and with Software.
+## Two main groups: Caching with Hardware and with Software.
 
 
 1) Hardware Caching Strategies are strategies that utilize part of the hardware in a computing device to store the neccessary data. Often these computing devices offer caching on multiple layers of the hardware parts responsible for caching.
