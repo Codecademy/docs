@@ -1,10 +1,10 @@
 ---
 Title: "What is Bootstrap?"
 Subjects:
-  - "Computer Science"
   - "Web Development"
+  - "Computer Science"
 Tags:
-  - "Best Practices"
+  - "Frameworks"
   - "Bootstrap"
   - "Accessibility"
   - "Animation"
@@ -16,14 +16,16 @@ Tags:
   - "Responsive"
   - "Style"
 Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
+  -  "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-Bootstrap is an open source CSS framework created to help style web pages with mobile first considerations in mind. Bootstrap was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. Bootstrap  contains CSS, Javascript and HTML and utilizes them to provide aesthetic improvements to Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Bootstrap has become one of the most commonly used tools on web pages today. 
+Bootstrap is an open source CSS framework created to help style web pages with mobile first considerations in mind. 
+
+Bootstrap was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthetic improvements to Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Bootstrap has become one of the most commonly used tools on web pages today. 
 
 ## An example of a Bootstrap styled button vs a normal one.
+
 ```html
 <!DOCTYPE html>
 <html>
