@@ -33,7 +33,6 @@ Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthet
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
@@ -41,7 +40,6 @@ Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthet
   <body>
     <div class="container">
       <h2>Button</h2>
-      
       <p>The .btn-success class indicates a successful or positive action:</p>  
       
       <button type="button" class="btn btn-success">Bootstrap Styled Button</button>
