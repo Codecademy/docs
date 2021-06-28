@@ -15,7 +15,7 @@ A dictionary is an ordered set of `key: value` pairs. It provides a way to map p
 
 Python dictionaries are dynamic and mutable which means they can be changed.
 
-If you assign a value to an already existing dictionary key it does not add the key a second time, but instead replaces the existing value. Dictionaries also have a number of built in methods which make it easier to manipulate the datastructure and objects containted within. To define a dictionary we assign a variable to a pair of curly braces {} or using the dictionary keyword eg.(dictionary()).
+If you assign a value to an already existing dictionary key, it does not add the key a second time, but instead replaces the existing value. Dictionaries also have a number of built in methods which make it easier to manipulate the datastructure and objects containted within.
 
 **Note:** As of Python version 3.7, dictionaries are ordered, but in Python 3.6 and earlier, dictionaries are unordered.
 
@@ -41,7 +41,7 @@ A empty dictionary is created using curly braces `{` `}`:
 diner = {}
 ```
 
-Or with `dict()`:
+Or with the dictionary keyword `dict()`:
 
 ```py
 diner = dict{}
@@ -52,9 +52,17 @@ A dictionary with entries:
 ```py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 ```
+
 - `"cold brew": 3.50`
 - `"latte": 4.25`
 - `"cappucino": 3.99`
+
+```py
+coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+
+print(coffee_shop["cold brew"])
+# Output: 3.5
+```
 
 ## Add an Entry
 
