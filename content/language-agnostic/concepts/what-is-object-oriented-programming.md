@@ -4,6 +4,7 @@ Subjects:
   - "Computer Science"
   - "Web Development"
 Tags:
+  - "Objects"
   - "Inheritance"
   - "Methods"
   - "Structure"
