@@ -24,7 +24,7 @@ Bootstrap is an open source CSS framework created to help style web pages with m
 
 Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthetic improvements to the Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Since it's creation, Bootstrap has become one of the most commonly used tools on web pages today. 
 
-## An example of a Bootstrap styled button vs a normal one.
+## Example of a Bootstrap Styled Button vs a Normal One
 
 ```html
 <!DOCTYPE html>
