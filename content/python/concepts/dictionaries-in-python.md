@@ -11,7 +11,13 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-A dictionary is an unordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys.
+A dictionary is an ordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don't have to be.
+
+Python dictionaries are dynamic and mutable which means they can be changed.
+
+If you assign a value to an already existing dictionary key it does not add the key a second time, but instead replaces the existing value. Dictionaries also have a number of built in methods which make it easier to manipulate the datastructure and objects containted within. To define a dictionary we assign a variable to a pair of curly braces {} or using the dictionary keyword eg.(dictionary()).
+
+**Note:** As of Python version 3.7, dictionaries are ordered, but in Python 3.6 and earlier, dictionaries are unordered.
 
 ## Syntax
 
@@ -29,10 +35,16 @@ Values can be any type such as strings, numbers, lists, even other dictionaries.
 
 ## Create a Dictionary
 
-A dictionary is created using curly braces `{` `}`:
+A empty dictionary is created using curly braces `{` `}`:
 
 ```py
 diner = {}
+```
+
+Or with `dict()`:
+
+```py
+diner = dict{}
 ```
 
 A dictionary with entries:
