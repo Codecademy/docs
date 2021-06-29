@@ -30,7 +30,7 @@ where `<font-family-name>` can be the following:
 
 ## Example 1
 
-Set the `p` tag to be `Roboto`:
+Set the `p` tag to `Roboto`:
 
 ```css
 p {
@@ -40,7 +40,7 @@ p {
 
 ## Example 2
 
-Set the `h1` tag to be `"Open Sans"` :
+Set the `h1` tag to `"Open Sans"` :
 
 ```css
 h1 {
