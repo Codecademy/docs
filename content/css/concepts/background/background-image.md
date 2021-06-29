@@ -24,8 +24,14 @@ background-image: <image> | none;
 
 Where `<image>` can be one of the following:
 
-- URL function value: `('cat.gif')`, `('../img/cat.png')`,
-- Gradient values: `linear-gradient(0deg, #C1D279, #4062BF)`, `repeating-linear-gradient(0deg, #1D4D19, #191A4D 10px)`, `radial-gradient(circle at top, #40BFA5, #BB40BF)`, `repeating-radial-gradient(#1D4D19, #191A4D 10px)`
+- URL function value: 
+  - `('cat.gif')`
+  - `('../img/cat.png')`
+- Gradient values: 
+  - `linear-gradient(0deg, #C1D279, #4062BF)`
+  - `repeating-linear-gradient(0deg, #1D4D19, #191A4D 10px)`
+  - `radial-gradient(circle at top, #40BFA5, #BB40BF)`
+  - `repeating-radial-gradient(#1D4D19, #191A4D 10px)`
 
 Multiple background images are supported. The first value specified will be stacked on top.
 
