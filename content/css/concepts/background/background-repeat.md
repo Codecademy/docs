@@ -24,7 +24,7 @@ Defines how the background image should be repeated if the image does not fully 
 background-repeat: <value>;
 ```
 
-Where `<value>` can be the following: `no-repeat | repeat | repeat-x | repeat-y | space | round | initial | inherit`
+Where `<value>` can be the following: `no-repeat` | `repeat` | `repeat-x` | `repeat-y` | `space` | `round` | `initial` | `inherit`
 
 ## Example 1
 
