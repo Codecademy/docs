@@ -22,7 +22,7 @@ Defines the boundary within the element box at which the background is no longer
 background-clip: <value>;
 ```
 
-Where `<value>` can be the following: `border-box | content-box | padding-box | text | initial`
+Where `<value>` can be the following: `border-box` | `content-box` | `padding-box` | `text` | `initial`
 
 ## Example 1
 
