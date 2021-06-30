@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-To decorate line on the text.
+To add lines on the text.
 
 ## Syntax
 
@@ -24,6 +24,7 @@ text-decoration: <text-align-value>;
 
 The `text-decoration-value` can be the following:
 
+- `none`
 - `underline`
 - `overline`
 - `line-through`
