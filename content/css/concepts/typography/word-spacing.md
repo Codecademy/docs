@@ -22,7 +22,7 @@ Set space between words.
 word-spacing: <word-spacing-value>;
 ```
 
- The CSS units for `word-spacing-value` can be:
+The CSS units for `word-spacing-value` can be:
 
 - `px`
 - `em`
