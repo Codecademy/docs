@@ -4,6 +4,7 @@ Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
+  - "Images"
   - "Tags"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-html"
