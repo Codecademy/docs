@@ -1,12 +1,11 @@
 ---
-Title: “grids-grid-template-columns”
+Title: "grid-template-columns"
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
-  - “Grids”
-  - “Layout”
-  - “Template”
+  - "Grid"
+  - "Layout"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
@@ -21,8 +20,8 @@ A property that specifies the column structure of a grid container.
 
 ```css
 .grid-container {
-	display: grid;
-	grid-template-columns: <column-space> <column-space>;
+  display: grid;
+  grid-template-columns: <column-space> <column-space>;
 }
 ```
 
@@ -32,9 +31,10 @@ where `<column-space>` can be one of the following:
 - Pixel value: `300px`
 - Percent value: `25%`
 - Fractional unit value: `1fr`
+
 ## Example 1
 
-Split  `spam-container` into four evenly spaced columns:
+The  `spam-container` div encloses several paragraphs of text, split the container into four evenly spaced columns:
 
 ```css
 .spam-container {
@@ -52,6 +52,6 @@ Create left and right columns that adjust to fill the width available and a midd
 ```css
 .eggs-container {
   display: grid;
-  grid-template-columns: Auto minmax(400px, 1000px) Auto;
+  grid-template-columns: auto minmax(400px, 1000px) auto;
 }
 ```
