@@ -29,11 +29,10 @@ Use `classmethod()` to create the `Codecademy` class method:
 
 ```py
 class Student:
+  name = "Codecademy"
 
-    name = "Codecademy"
-
-    def print_name(obj):
-        print("Welcome to...", obj.name)
+  def print_name(obj):
+    print("Welcome to...", obj.name)
 
 Student.print_name = classmethod(Student.print_name)
 
