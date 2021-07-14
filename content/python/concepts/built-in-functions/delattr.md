@@ -24,8 +24,8 @@ delattr(object, name)
 
 ## Parameters
 
-* object - The object to have an attribute removed.
-* name - The attribute to be removed from the object.
+* `object`: The object to have an attribute removed.
+* `name`: The attribute to be removed from the object.
 
 ## Example 1
 
@@ -33,9 +33,9 @@ Use `delattr()` to remove the `position` attribute from the  `Person1` class:
 
 ```py
 class Person1:
-    name = "Harry"
-    age = "35"
-    position = "Professor"
+  name = "Harry"
+  age = "35"
+  position = "Professor"
 
 employee1 = Person1()
 
