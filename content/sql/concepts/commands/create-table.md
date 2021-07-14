@@ -19,6 +19,16 @@ Catalog Content:
 
 Creates a new table within a database.
 
+## Syntax
+
+```sql
+CREATE TABLE table_name (
+  column_name column_definition,
+  column_name column_definition,
+  ...
+);
+```
+
 ## Example
 
 ```sql
