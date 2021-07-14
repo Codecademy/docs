@@ -31,6 +31,7 @@ where `<row-value>` can be one of the following:
 - Pixel value: `300px`
 - Percent value: `25%`
 - Fractional unit value: `1fr`
+
 ## Example 1
 
 A container with alternating rows of 200 and 400 pixels:
@@ -40,7 +41,6 @@ A container with alternating rows of 200 and 400 pixels:
   display: grid;
   grid-auto-rows: 200px 400px; 
 }
-
 ```
 
 ## Example 2
