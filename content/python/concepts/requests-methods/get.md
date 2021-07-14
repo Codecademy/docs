@@ -32,13 +32,16 @@ The `.get()` method sends a request for data to a web server. The response objec
 
 ```python
 import requests
+
 response = requests.get("https://codecademy.com")
+
 print(response.status_code)
 # Output: 200
 print(response.reason)
 # Output: OK
 
 response = requests.get("https://codecademy.com/cat-pictures")
+
 print(response.status_code)
 # Output: 404
 print(response.reason)
