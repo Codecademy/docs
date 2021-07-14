@@ -34,6 +34,7 @@ The `.delete()` method sends a request to delete data from a web server. The res
 import requests
 
 response = requests.delete("https://httpbin.org/delete")
+
 print(response.status_code)
 # Output: 200
 print(response.reason)
@@ -48,6 +49,7 @@ Common response codes for a delete request are `405`, `200`, `202`, and `204`. A
 import requests
 
 response = requests.delete("https://www.google.com")
+
 print(response.status_code)
 # Output: 405
 print(response.reason)
@@ -71,9 +73,3 @@ response = requests.delete("https://codecademy.com", headers=headers)
 ```
 
 Many different named parameters can be passed in to a get request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
-
-
-
-
-
-
