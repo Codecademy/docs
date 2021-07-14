@@ -31,6 +31,7 @@ where `<col-value>` can be one of the following:
 - Pixel value: `300px`
 - Percent value: `25%`
 - Fractional unit value: `1fr`
+
 ## Example 1
 
 A container divided into evenly spaced columns with a minimum width of 100 pixels:
@@ -40,7 +41,6 @@ A container divided into evenly spaced columns with a minimum width of 100 pixel
   display: grid;
   grid-auto-columns: minmax(100px, auto); 
 }
-
 ```
 
 ## Example 2
