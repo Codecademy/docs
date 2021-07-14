@@ -51,7 +51,9 @@ The `request()` method returns a response object which contains various types of
 
 ```python
 import requests
+
 response = requests.request("POST", "https://codecademy.com")
+
 print(response.status_code)
 # Output: 200
 print(response.reason)
@@ -72,14 +74,9 @@ headers = {
 }
 
 response = requests.request("HEAD", "https://codecademy.com", headers=headers)
+
 print(response.headers["Content-Type"])
 # Output: application/json; charset=utf-8
 ```
 
 Many different named parameters can be passed in to a request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
-
-
-
-
-
-
