@@ -68,6 +68,6 @@ ON students (student_id);
 The following query can be used to remove the original index placed on `student_id`:
 
 ```sql
-DROP INDEX id_index
+DROP INDEX id_index;
 ```
 
