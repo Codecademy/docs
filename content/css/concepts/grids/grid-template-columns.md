@@ -42,7 +42,6 @@ The  `spam-container` div encloses several paragraphs of text, split the contain
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   /* equivalent to: 25% 25% 25% 25% */
 }
-
 ```
 
 ## Example 2
