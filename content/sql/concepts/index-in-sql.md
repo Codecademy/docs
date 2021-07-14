@@ -29,8 +29,8 @@ Indexes are commonly created alongside the table that it describes:
 
 ```sql
 CREATE TABLE table_name (
-  column_name column_definition,
-  column_name column_definition,
+  column_name datatype,
+  column_name datatype,
   ...
   INDEX index_name (index_column_name)
 );
