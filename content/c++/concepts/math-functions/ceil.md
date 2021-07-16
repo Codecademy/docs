@@ -24,7 +24,7 @@ Argument must be a `double`/`float`/`long double`, and the return value will be 
 
 ## Example
 
-Use `ceil()` to round up the double `12.3456`:
+Use `ceil()` function to round up the double `12.3456`:
 
 ```cpp
 #include <iostream>
