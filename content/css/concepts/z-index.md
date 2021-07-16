@@ -40,7 +40,7 @@ In the following example, we have a grey box and a black box. We can set the gre
   z-index: 1; 
 }
 ```
-![z-index image 1](z-index.PNG)
+![grey box above black box](z-index.png)
 
 ## Example 2
 
@@ -55,4 +55,4 @@ If we wanted to have the black box above the grey box we can simply give the bla
   z-index: 3; 
 }
 ```
-![z-index image 2](z-index-2.PNG)
+![black box above grey box](z-index-2.png)
