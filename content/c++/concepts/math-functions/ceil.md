@@ -17,11 +17,7 @@ Returns the next whole number that is greater than or equal to the argument. Arg
 ## Syntax
 
 ```cpp
-
-double ceil(double n);
-float ceil(float n);
-long double ceil (long double n);
-
+std::ceil(n);
 ```
 
 ## Example 1
@@ -41,5 +37,4 @@ int main() {
   std::cout << "The result is " << result << "!\n";
   // Output: The result is 13!
 }
-
 ```
