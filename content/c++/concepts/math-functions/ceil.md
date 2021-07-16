@@ -20,7 +20,7 @@ Returns the next whole number that is greater than or equal to the argument. Arg
 
 double ceil(double n);
 float ceil(float n);
-long double ceil (long double x);
+long double ceil (long double n);
 
 ```
 
