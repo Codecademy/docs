@@ -17,11 +17,7 @@ Returns the first whole number that is less than or equal to the argument. Argum
 ## Syntax
 
 ```cpp
-
-double floor(double n);
-float floor(float n);
-long double floor(long double n);
-
+std::floor(n);
 ```
 
 ## Example 1
@@ -41,5 +37,4 @@ int main() {
   std::cout << "The result is " << result << "!\n";
   // Output: The result is 12!
 }
-
 ```
