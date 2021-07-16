@@ -12,7 +12,7 @@ Catalog Content:
 
 ## Definition
 
-Returns the next whole number that is greater than or equal to the argument. Argument must be a double/float/long double, and the return value will be same datatype.
+Returns the next whole number that is greater than or equal to the argument.
 
 ## Syntax
 
@@ -20,7 +20,9 @@ Returns the next whole number that is greater than or equal to the argument. Arg
 std::ceil(n);
 ```
 
-## Example 1
+Argument must be a `double`/`float`/`long double`, and the return value will be same type.
+
+## Example
 
 Use `ceil()` to round up the double `12.3456`:
 
