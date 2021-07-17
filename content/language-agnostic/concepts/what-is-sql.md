@@ -5,6 +5,10 @@ Subjects:
   - "Data Science"
 Tags:
   - "Database"
+  - "Queries"
+  - "MySQL"
+  - "PostgreSQL"
+  - "SQLite"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
