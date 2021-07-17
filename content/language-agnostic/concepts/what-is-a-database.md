@@ -23,7 +23,7 @@ There are many different ways for database systems to structure and organize dat
 
 - Object-Relational Databases: a hybrid of the above two models. Unlike pure object databases where the database is primarily a persistent store for objects created by a program written in an object-oriented programming language, object-relational databases are manipulated via a query language as in relational databases. Yet they still support objects, classes and inheritance like a pure object database.
 
-- NoSQL Databases: (also Nonrelational Database) encompasses a wide variety of databases that use different structures for data than the tables used in relational databases. They are implemented using various different structures for different purposes. For example:
+- NoSQL Databases: (also Nonrelational Database) encompass a wide variety of databases that use different structures for data than the tables used in relational databases. They are implemented using various different structures for different purposes. For example:
   - Key–Value Store: stores data in an associative array where data is stored as a collection of key-value pairs where any possible key only appears once in the collection.
   - Document Store: stores data as documents in some standard format such as XML, TAML or JSON. Documents are stored in the database with a unique key representing that document.
   - Graph Database: stores data as elements connected by a finite number of relations, such as a subway map or a network of friends on Facebook.
