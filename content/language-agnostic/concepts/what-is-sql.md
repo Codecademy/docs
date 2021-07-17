@@ -1,5 +1,5 @@
 ---
-Title: "What is a SQL?"
+Title: "What is SQL?"
 Subjects:
   - "Computer Science"
   - "Data Science"
