@@ -5,6 +5,7 @@ Subjects:
   - "Data Science"
 Tags:
   - "Database"
+  - "Queries"
   - "Primary Key"
   - "Foreign Key"
   - "Index"
