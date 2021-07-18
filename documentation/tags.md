@@ -124,7 +124,8 @@ HTTP
 Id  
 IDE
 If  
-Images  
+Images
+Index
 Inheritance  
 Input  
 Integers
