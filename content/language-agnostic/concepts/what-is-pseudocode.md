@@ -53,7 +53,7 @@ The following is a psudocode description of the above algorithm in more prose-li
 ```
 variable A is a zero-indexed list of sortable items
 set n = the number of items in A
-loop the following block
+loop
   set swapped = false
   for i = 1 to n-1
     if A[i] is less than prior element then swap A[i] with prior element
