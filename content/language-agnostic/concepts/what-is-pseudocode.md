@@ -59,5 +59,6 @@ loop
     if A[i] is less than prior element then swap A[i] with prior element
     set swapped = true
   end for
-  if swapped is false then end loop
+  if swapped is false then exit loop
+end loop
 ```
