@@ -43,7 +43,7 @@ function bubbleSort(A : list of sortable items) {
             }
         }
     }
-    while( swapped );
+    while (swapped);
 }
 ```
 
