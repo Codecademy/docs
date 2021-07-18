@@ -25,7 +25,7 @@ Pseudocode may borrow format and syntax for control structures from some convent
 while things like function calls and blocks of code within a loop may be replaced by natural language descriptions.
 Therefore, implementations of psudocode may vary widely, from a close approximation to a finished program, to a block of formatted prose.
 
-## Example
+## Example 1
 
 The following is a pseudocode description of a basic bubble sort algorithm using c++ formatting:
 
@@ -47,3 +47,17 @@ function bubbleSort(A : list of sortable items) {
 }
 ```
 
+## Example 2
+
+The following is a psudocode description of the above algorithim in more prose-like formatting:
+```
+variable A is a zero-indexed list of sortable items
+set n = the number of items in A
+loop the following block
+  set swapped = false
+  for i = 1 to n-1
+    if A[i] is less than prior element then swap A[i] with prior element
+    set swapped = true
+  end for
+  if swapped is false then end loop
+```
