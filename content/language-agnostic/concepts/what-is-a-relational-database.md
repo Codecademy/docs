@@ -6,6 +6,8 @@ Subjects:
 Tags:
   - "Database"
   - "Queries"
+  - "Primary Key"
+  - "Foreign Key"
   - "MySQL"
   - "PostgreSQL"
   - "SQLite"
