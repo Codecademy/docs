@@ -21,7 +21,7 @@ During database design indexes are typically also placed on columns that will be
 ## Example
 
 Index creation can vary from database to database, but in standard SQL it consists of the statement `CREATE INDEX` followed by a name for the index,
-`ON` the table name followed by a list of the columns to indexed.
+`ON` the table name, followed by a list of the columns to indexed.
 So adding an index on the `region` field of a `sales` table looks like this:
 
 ```sql
