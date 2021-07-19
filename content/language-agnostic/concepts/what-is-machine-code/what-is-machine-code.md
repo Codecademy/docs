@@ -16,7 +16,7 @@ Machine code (also known as machine language or native code) is a low level prog
 
 In the early days of programming, applications were written directly in machine code, but as that method of developing applications is tedious and inefficient, programmers developed new higher level programming languages like C, Java and Python to be processed by compilers and turned into machine code for execution in the CPU. 
 
-Every computer processor has its own instruction set designed to process machine code. These instruction sets make up a sort of class for the interpretation of machine code. Due to lack of a universal machine code standard special attention is required to ensure new processors are able to support (without bugs or breakage) pre-existing and current programs when they are ultimately converted into machine code.
+Every computer processor has its own instruction set designed to process machine code. These instruction sets make up a sort of class for the interpretation of machine code. Due to the distributed market and competition, CPU creators lack a universal machine code standard to rule them all, which means special attention is required to ensure new processors are able to support (without bugs) pre-existing and current programs when they are ultimately converted into machine code.
 
-The ASCII value for the letter "A" in machine code is 01000001, but this data is displayed as "A" on the screen. Everything visually represented in computers is based on output of machine code processing by the CPU.
+The ASCII value for the letter "A" in machine code is 01000001, but this data is displayed as "A" on the screen. Everything visually represented in computers is based on output of machine code processed by the CPU.
 
