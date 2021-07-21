@@ -68,8 +68,7 @@ The semantic `<figure>` element serves a similar purpose to the alternate text a
 
 ```html
 <figure>
-    <img src="logo.png"
-         alt="Codecademy logo">
-    <figcaption>The Codecademy logo</figcaption>
+  <img src="logo.png" alt="Codecademy logo">
+  <figcaption>The Codecademy logo</figcaption>
 </figure>
 ```
