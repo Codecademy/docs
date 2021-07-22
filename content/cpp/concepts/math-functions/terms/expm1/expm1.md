@@ -16,7 +16,7 @@ Returns e raised to the power of the argument minus 1. For small magnitudes of x
 
 ## Syntax
 
-Returns e^n - 1:
+Returns eⁿ - 1:
 
 ```cpp
 std::expm1(n)
@@ -24,7 +24,7 @@ std::expm1(n)
 
 ## Example 1
 
-Use `expm1()` to return the value of e-1 (e^1-1):
+Use `expm1()` to return the value of e-1 (e¹-1):
 
 ```cpp
 #include <iostream>
