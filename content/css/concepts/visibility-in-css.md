@@ -4,8 +4,8 @@ Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
-  - "visibility"
-  - "tables"
+  - "Visibility"
+  - "Tables"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
