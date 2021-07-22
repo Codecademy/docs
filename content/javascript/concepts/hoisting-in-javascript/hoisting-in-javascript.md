@@ -40,11 +40,10 @@ myName = "Brandon";
 If we tried to log a variable that hasn't been defined yet, we'd get a `ReferenceError`:
 
 ```js
-console.log(`My name is ${name}.`) // --> ReferenceError
-var myName = "Brandon"
-```
+console.log(`My name is ${name}.`); // --> ReferenceError
 
-Now that we've explore hoisting with variables, let's move on to functions.
+var myName = "Brandon";
+```
 
 ### Functions
 In addition to variables, *functions* can be hoisted in JavaScript. This is mainly because they are "first-class objects" and they can be stored as variables. The declarations for functions, like the ones for variables, are hoisted during the execution phase: 
