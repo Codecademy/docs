@@ -46,56 +46,57 @@ var myName = "Brandon";
 ```
 
 ### Functions
-In addition to variables, *functions* can be hoisted in JavaScript. This is mainly because they are "first-class objects" and they can be stored as variables. The declarations for functions, like the ones for variables, are hoisted during the execution phase: 
+
+In addition to variables, functions can be hoisted in JavaScript. This is mainly because they are "first-class objects" and they can be stored as variables. The declarations for functions, like the ones for variables, are hoisted during the execution phase: 
 
 ```js
-console.log(greetings()) // Hi! My name is Brandon.
+console.log(greetings()) // Output: Hi! My name is Brandon.
 
 function greetings() {
-  var myName = "Brandon"
-  console.log(`Hi! My name is ${myName}.`)
+   var myName = "Brandon";
+   console.log(`Hi! My name is ${myName}.`);
 }
 ```
 
 In the code above, we wrote a log statement for executed `greetings()` function, which is defined below. Inside `greetings()`, we declare a local variable `myName` defined as a string. Next, we finish the function by logging a phrase to the console (with `myName` interpolated within). Notice how even though `greetings()` was logged before it was completely defined, the body of the function run anyways. If we try logging just the function without parentheses: 
 
 ```js
-console.log(`${greetings}`)
+console.log(`${greetings}`);
 
 // function greetings() {
-//     var myName = "Brandon"
-//     return `Hi! My name is ${myName}`
+//     var myName = "Brandon";
+//     return `Hi! My name is ${myName}`;
 // }
 
-
 function greetings() {
-  var myName = "Brandon"
-  console.log(`Hi! My name is ${myName}.`)
+   var myName = "Brandon";
+   console.log(`Hi! My name is ${myName}.`);
 }
 ```
 
 Because `greetings` was defined as *function declaration*, the entire function was hoisted into memory by JavaScript. However, if `greetings` were written as a function stored in a variable (a *function expression*), then the function definition would *not* be accessible. Its value and type would be `undefined` like any other hoisted variable.
 
 ```js
-console.log(greetings) // undefined
+console.log(greetings); // undefined
 
 var greetings = function() {
-    var myName = "Brandon"
-    console.log(`Hi! My name is ${myName}.`)
+   var myName = "Brandon";
+   console.log(`Hi! My name is ${myName}.`);
 }
 ```
 
-If we try to *execute* `greetings` and log the result to the console, JavaScript does something interesting: 
+If we try to execute `greetings` and log the result to the console, JavaScript does something interesting: 
 
 ```js
-console.log(typeof(greetings)) // undefined
-console.log(greetings()) 
+console.log(typeof(greetings)); // undefined
+
+console.log(greetings());
 //  TypeError: greetings is not a function
 //   at Object.<anonymous> ...
 
 var greetings = function() {
-    var myName = "Brandon"
-    console.log(`Hi! My name is ${myName}.`)
+   var myName = "Brandon";
+   console.log(`Hi! My name is ${myName}.`);
 }
 ```
 
@@ -105,6 +106,7 @@ How is that possible? Again, at this point in the execution phase, the hoisted `
 
 
 ### `let` and `const`
+
 Hoisting is a great way of understanding how the execution context in JavaScript affects variable and function declarations. However, with the introduction of new syntax in ES2015 (ES6),  hoisting treats variables declared with `let` or `const` differently. 
 
 As of ES6, `let` and `const` are recommended for replacing `var` when declaring variables. In the context of hoisting, all three of these keywords are moved to the top of their scopes during the execution phase. But `let` and `const` behave differently where, if no definition was provided before hoisting, the hoisted declaration won't be initialized with `undefined` or any other value. This will, in turn, throw a `ReferenceError`. 
@@ -124,14 +126,15 @@ In the code above, we logged the phrase with myName to the console. On the next 
 
 ```js
 // Before hoisting
-let myName = "Brandon"
-console.log(`My name is ${myName}.`)
 
+let myName = "Brandon";
+console.log(`My name is ${myName}.`);
 
 // After hoisting 
-let myName
-myName = "Brandon"
-console.log(`My name is ${myName}.`) // My name is Brandon
+
+let myName;
+myName = "Brandon";
+console.log(`My name is ${myName}.`); // My name is Brandon
 ```
 
 With `const` declarations, initialization is required before execution. Unlike `var` and `let`, these variables can't be declared and defined separately. 
