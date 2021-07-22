@@ -146,31 +146,36 @@ myName = "Brandon"
 In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement. 
 
 ```js
-// Before hoisting
+// Before hoisting:
+
 let myName = "Brandon";
 console.log(`My name is ${myName}.`);
 
-// After hoisting 
+// After hoisting:
+
 let myName;
 myName = "Brandon";
-console.log(`My name is ${myName}.`); // My name is Brandon
+console.log(`My name is ${myName}.`); // Output: My name is Brandon.
 ```
 
 With `const` declarations, initialization is required before execution. Unlike `var` and `let`, these variables can't be declared and defined separately. 
 
 ```js
-// this will work 
-var name1 
-name1 = "Megan"
-console.log(name1) // Brandon
+// This will work:
 
-// this will also work 
-let name2 
-name2 = "Joe"
-console.log(name2) // Joe 
+var name1;
+name1 = "Megan";
+console.log(name1) // Output: Brandon
 
-// this will not work 
-const name3 
-name3 = "James"
-console.log(name3) // SyntaxError: Missing initializer in const declaration
+// This will also work:
+
+let name2;
+name2 = "Joe";
+console.log(name2) // Output: Joe 
+
+// This will not work:
+
+const name3;
+name3 = "James";
+console.log(name3); // SyntaxError: Missing initializer in const declaration
 ```
