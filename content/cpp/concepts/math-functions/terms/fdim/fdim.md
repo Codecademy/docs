@@ -35,12 +35,17 @@ int main () {
   double result1;
   double result2;
 
-  result1 = std::fdim(x,y);
-  result2 = std::fdim(y,x);
+  result1 = std::fdim(x, y);
+  result2 = std::fdim(y, x);
 
   std::cout << "fdim(" << x << "," << y << ") = " << result1 << "\n";
   std::cout << "fdim(" << y << "," << x << ") = " << result2 << "\n";
-  //Output: fdim(8,5) = 3
-  //        fdim(5,8) = 0  
 }
+```
+
+The output is:
+
+```
+fdim(8,5) = 3
+fdim(5,8) = 0
 ```
