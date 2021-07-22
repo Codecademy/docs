@@ -21,7 +21,7 @@ CDN's are among recent innovations in technology which have improved the availab
 
 ## Benefits of using a CDN:
 
-* Improving website load times - Pages load much quicker because the resources do not have to retrieve  data from long distances. Data is cached locally and served therefore much quicker.
-* Reducing bandwidth costs - Due to proximity to the server, data transfer is done with less bandwidth requirements.
-* Increasing content availability and redundancy - Having cached details in servers across the globe allows users to consume the data locally and therefore quicker. 
-* Improving website security - Properly configured CDN's can prevent Denial of Service attacks by distributing the load to servers that can serve the desired resources without being overwhelmed.
+* Improving website load times: Pages load much quicker because the resources do not have to retrieve  data from long distances. Data is cached locally and served therefore much quicker.
+* Reducing bandwidth costs: Due to proximity to the server, data transfer is done with less bandwidth requirements.
+* Increasing content availability and redundancy: Having cached details in servers across the globe allows users to consume the data locally and therefore quicker. 
+* Improving website security: Properly configured CDN's can prevent Denial of Service attacks by distributing the load to servers that can serve the desired resources without being overwhelmed.
