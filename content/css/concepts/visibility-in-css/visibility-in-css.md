@@ -1,5 +1,5 @@
 ---
-Title: "visibility"
+Title: "Visibility in CSS"
 Subjects:
   - "Web Development"
   - "Web Design"
