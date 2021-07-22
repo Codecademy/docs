@@ -16,7 +16,7 @@ Returns the base-e exponential function of the argument, which is e raised to th
 
 ## Syntax
 
-Returns e^n:
+Returns eⁿ:
 
 ```cpp
 std::exp(n)
@@ -24,7 +24,7 @@ std::exp(n)
 
 ## Example 1
 
-Use `exp()` to return the value of e (e^1):
+Use `exp()` to return the value of e (e¹):
 
 ```cpp
 #include <iostream>
