@@ -20,9 +20,6 @@ CPU's sit at the heart of the system of a computer and are connected to the moth
 
 Two major components of the CPU are: 
 
-* The Control Unit (CU) - The control unit (CU) is a component of the CPU that directs the operation of the processor. The Control Unit in the CPU controls the response to the instructions that have been sent to the processor via machine code by directing the flow of data between the CPU and the other devices. 
+* Control Unit (CU): The control unit is a component of the CPU that directs the operation of the processor. It controls the response to the instructions that have been sent to the processor via machine code by directing the flow of data between the CPU and the other devices. 
 
-* Arithmetic Logic Unit(ALU) - The arithmetic logic unit (ALU) is a digital circuit within the processor that performs integer arithmetic and bitwise logic operations.
-
-  
-
+* Arithmetic Logic Unit (ALU): The arithmetic logic unit is a digital circuit within the processor that performs integer arithmetic and bitwise logic operations.
