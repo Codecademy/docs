@@ -104,7 +104,6 @@ First, we logged the type of `greetings` just to remind what the type for the ho
 
 How is that possible? Again, at this point in the execution phase, the hoisted `greetings` variable is of type `undefined`. The definition of greetings as a function doesn't happen until the *next* line. Therefore, JavaScript threw the `TypeError`.  
 
-
 ### `let` and `const`
 
 Hoisting is a great way of understanding how the execution context in JavaScript affects variable and function declarations. However, with the introduction of new syntax in ES2015 (ES6),  hoisting treats variables declared with `let` or `const` differently. 
@@ -126,12 +125,10 @@ In the code above, we logged the phrase with myName to the console. On the next 
 
 ```js
 // Before hoisting
-
 let myName = "Brandon";
 console.log(`My name is ${myName}.`);
 
 // After hoisting 
-
 let myName;
 myName = "Brandon";
 console.log(`My name is ${myName}.`); // My name is Brandon
