@@ -11,7 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system a database is typically accessed through a database management system, referred to as a DBMS.  
+A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.  
 
 ## Types of Databases
 
