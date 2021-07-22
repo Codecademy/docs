@@ -28,29 +28,19 @@ The visibility property has three values.
 - `hidden`: Hides the element.
 - `collapse`: Hides both the element and the space it would have occupied. 
 
-**Note:** `collapse` should only be used with `<table>` rows, row groups, columns, and column groups. If `collapse` is used on other elements, it will be treated the same as `hidden`. Using `collapse` on `<table>` is useful because it will hide a row or column without affecting the table layout.  
+**Note:** `collapse` should only be used with `<table>` rows, row groups, columns, and column groups. If `collapse` is used on other elements, it will be treated the same as `hidden`. Implementing collapse within a `<table>` can be especially useful because it allows for hiding rows or columns without affecting  the table layout.  
 
 ## Example 1
 
-Showing an `<h1>` element.
+Hiding an element with an id of `hide`. 
 
 ```css
-h1 {
-  visibility: visible; 
-}
-```
-
-## Example 2
-
-Hiding an `<h1>` element. 
-
-```css
-h1 {
+.hide {
   visibility: hidden; 
 }
 ```
 
-## Example 3
+## Example 2
 
 Hiding a `<tr>` element within a table. 
 
