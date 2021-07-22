@@ -30,8 +30,10 @@ In the code block, we are logging `myName` to the console before it is declared 
 During the execution phase, the code will refactor like this: 
 
 ```js
-var myName
-console.log(`My name is ${myName}.`); // undefined
+var myName;
+
+console.log(`My name is ${myName}.`); // Output; My name is undefined.
+
 myName = "Brandon";
 ```
 
