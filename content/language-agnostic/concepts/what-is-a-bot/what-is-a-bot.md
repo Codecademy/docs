@@ -16,10 +16,10 @@ Bots are software applications which perform automated services. Bots perform te
 
 ## Use cases for Bots include:
 
-* To index web content. 
-* Moderate or monitor forums for undesirable content. 
-* To provide round the clock customer service support
-* To simulate human speech patterns or entertain. Chat bots.
+* To index web content (e.g. Google's web crawlers)
+* Moderate or monitor forums for undesirable content (e.g. Twitch's moderator bots)
+* To provide round the clock customer service support (e.g. Shopify's customer support bot)
+* To simulate human speech patterns or entertain Chat bots (e.g. Apple's Siri) 
 
 Malicious bots can be used to perform actions on servers which do not fulfill the intended desire of the users who maintain the server or attacked application. These bots are often used for denial of service attacks, spam and other nefarious activities.In order to combat malicious bots a number of strategies have been devised. The following are some steps an oganization can take to limit the damage malicious bots can do:
 
