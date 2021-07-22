@@ -25,7 +25,7 @@ console.log(`My name is ${myName}.`); // Output: My name is undefined.
 var myName = "Brandon";
 ```
 
-In the code block, we are logging `myName` to the console before it is declared and assigned. Doing so will yield `undefined`. While JavaScript's compiler has stored the *declaration* for `myName` in memory, its definition is still not known. Therefore, its value and type is `undefined`. 
+In the code block, we are logging `myName` to the console before it is declared and assigned. Doing so will yield `undefined`. While JavaScript's compiler has stored the *declaration* for `myName` in memory, its *definition* is still not known. Therefore, its value and type is `undefined`. 
 
 During the execution phase, the code will refactor like this: 
 
