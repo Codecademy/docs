@@ -13,7 +13,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Hoisting is a default process where JavaScript "splits" `var` and `function` declarations from their definition. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed.  
+Hoisting is a default process where JavaScript "splits" `var` and `function` declarations from their definitions. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed.  
 
 ### Variables
 
