@@ -167,13 +167,13 @@ With `const` declarations, initialization is required before execution. Unlike `
 
 var name1;
 name1 = "Megan";
-console.log(name1) // Output: Brandon
+console.log(name1); // Output: Brandon
 
 // This will also work
 
 let name2;
 name2 = "Joe";
-console.log(name2) // Output: Joe 
+console.log(name2); // Output: Joe 
 
 // This will not work
 
