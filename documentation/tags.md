@@ -88,7 +88,8 @@ Elements
 Else
 Encapsulation
 Encoding
-Enum  
+Enum
+Error Handling
 Errors  
 ES6  
 Events  
