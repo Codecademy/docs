@@ -48,16 +48,18 @@ In addition to variables, *functions* can be hoisted in JavaScript. This is main
 
 ```js
 console.log(greetings()) // Hi! My name is Brandon.
+
 function greetings() {
-    var myName = "Brandon"
-    console.log(`Hi! My name is ${myName}.`)
+  var myName = "Brandon"
+  console.log(`Hi! My name is ${myName}.`)
 }
 ```
 
 In the code above, we wrote a log statement for executed `greetings()` function, which is defined below. Inside `greetings()`, we declare a local variable `myName` defined as a string. Next, we finish the function by logging a phrase to the console (with `myName` interpolated within). Notice how even though `greetings()` was logged before it was completely defined, the body of the function run anyways. If we try logging just the function without parentheses: 
 
 ```js
-console.log(`${greetings}`) 
+console.log(`${greetings}`)
+
 // function greetings() {
 //     var myName = "Brandon"
 //     return `Hi! My name is ${myName}`
@@ -65,8 +67,8 @@ console.log(`${greetings}`)
 
 
 function greetings() {
-    var myName = "Brandon"
-    console.log(`Hi! My name is ${myName}.`)
+  var myName = "Brandon"
+  console.log(`Hi! My name is ${myName}.`)
 }
 ```
 
@@ -74,6 +76,7 @@ Because `greetings` was defined as *function declaration*, the entire function w
 
 ```js
 console.log(greetings) // undefined
+
 var greetings = function() {
     var myName = "Brandon"
     console.log(`Hi! My name is ${myName}.`)
