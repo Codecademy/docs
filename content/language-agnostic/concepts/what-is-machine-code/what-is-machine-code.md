@@ -22,7 +22,9 @@ The ASCII value for the letter "A" in machine code is `01000001`, but this data 
 
 ## What Machine Code looks like
 
-The easiest way to visualize how machine code is stored is to look at some in a hex editor. This shows you the binary data represented by hex numbers. For example, take the instruction:
+An easy way to visualize how machine code is stored is to look at some in a hex editor, which shows the binary data represented by hexidecimal numbers. 
+
+For example, take the instruction:
 
 ```
 0xEB 0xFE
@@ -30,7 +32,7 @@ The easiest way to visualize how machine code is stored is to look at some in a 
 
 This could also be written as `11101011 11111110` in binary.
 
-This instruction represents an infinite loop on an x86 CPU. It can be coded in assembly language like this:
+This instruction represents an infinite loop on a x86 CPU. It can be coded in assembly language like this:
 
 ```
 j:
