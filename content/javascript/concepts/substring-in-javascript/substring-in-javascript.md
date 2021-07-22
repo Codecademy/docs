@@ -13,7 +13,7 @@ Catalog Content:
 ---
 The `substring()` method returns part of a string. If given two arguments, they are the start and end indexes of the characters returned. If given one argument, it returns characters from that point to the end of the string.
 
-##Syntax
+## Syntax
 
 ```javascript
 // returns characters from startIndex to end of string
