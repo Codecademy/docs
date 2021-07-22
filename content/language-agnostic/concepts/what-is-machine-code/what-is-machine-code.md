@@ -18,5 +18,21 @@ In the early days of programming, applications were written directly in machine 
 
 Every computer processor has its own instruction set designed to process machine code. These instruction sets make up a sort of class for the interpretation of machine code. Due to the distributed market and competition, CPU creators lack a universal machine code standard to rule them all, which means special attention is required to ensure new processors are able to support (without bugs) pre-existing and current programs when they are ultimately converted into machine code.
 
-The ASCII value for the letter "A" in machine code is 01000001, but this data is displayed as "A" on the screen. Everything visually represented in computers is based on output of machine code processed by the CPU.
+The ASCII value for the letter "A" in machine code is `01000001`, but this data is displayed as "A" on the screen. Everything visually represented in computers is based on output of machine code processed by the CPU.
 
+## What Machine Code looks like
+
+The easiest way to visualize how machine code is stored is to look at some in a hex editor. This shows you the binary data represented by hex numbers. For example, take the instruction:
+
+```
+0xEB 0xFE
+```
+
+This could also be written as `11101011 11111110` in binary.
+
+This instruction represents an infinite loop on an x86 CPU. It can be coded in assembly language like this:
+
+```
+j:
+jmp j
+```
