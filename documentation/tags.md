@@ -62,7 +62,6 @@ D3
 Data Structures  
 Data Types  
 Database  
-Data Structures
 Date
 Debugging  
 Deep Learning  
