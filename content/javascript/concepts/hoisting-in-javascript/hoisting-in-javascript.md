@@ -20,7 +20,8 @@ Hoisting is a process where JavaScript "splits" `var` and `function` declaration
 In JavaScript, variables declared with the `var` keyword are hoist-able. 
 
 ```js
-console.log(`My name is ${myName}.`) // undefined
+console.log(`My name is ${myName}.`) // Output: My name is undefined.
+
 var myName = "Brandon"
 ```
 
