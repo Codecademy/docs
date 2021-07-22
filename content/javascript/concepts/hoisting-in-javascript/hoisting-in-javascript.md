@@ -108,13 +108,18 @@ If we try to execute `greetings` and log the result to the console, JavaScript d
 console.log(typeof(greetings)); // undefined
 
 console.log(greetings());
-//  TypeError: greetings is not a function
-//   at Object.<anonymous> ...
 
 var greetings = function() {
    var myName = "Brandon";
    console.log(`Hi! My name is ${myName}.`);
 }
+```
+
+It returns an error:
+
+```error
+TypeError: greetings is not a function
+   at Object.<anonymous> ...
 ```
 
 First, we logged the type of `greetings` just to remind what the type for the hoisted variable is. Next, we attempted to log the executed `greetings()` function to the console and received a `TypeError` stating that we are not dealing with a function. 
