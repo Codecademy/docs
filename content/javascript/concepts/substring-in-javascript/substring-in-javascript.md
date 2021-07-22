@@ -1,0 +1,67 @@
+---
+Title: "Substring in Javascript" 
+Subjects: 
+  - "Web Development"
+  - "Computer Science"
+Tags: 
+  - "Strings"
+  - "Methods "
+  - "Data Types "
+Catalog Content: 
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
+  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+---
+The `substring()` method returns part of a string. If given two arguments, they are the start and end indexes of the characters returned. If given one argument, it returns characters from that point to the end of the string.
+
+##Syntax
+
+```javascript
+// returns characters from startIndex to end of string
+string.substring(startIndex); 
+// returns characters from startIndex to endIndex
+string.substring(startIndex,endIndex);
+```
+
+## Details
+
+- `substring()` returns characters at the start index up to, but not including, the character at the end index.
+
+- if the end index is omitted `substring()` returns characters at the start index up through the end of the string.
+
+- if the start and end indexes are equal, `substring()` returns an empty string.
+
+- indexes less than zero are interpreted as zero.
+
+- indexes that are `NaN` are treated as zero.
+
+- indexes that are greater than `string.length` are treated as `string.length`.
+
+- if the first argument is greater than the second argument, the first argument is treated as the end index and the second argument is treated as the start index.
+
+## Example 1
+
+Using `substring()` to display characters from a given string.
+
+```javascript
+const str = 'CodeAcademy'
+
+console.log(str.substring(0,4);
+console.log(str.substring(4,0);
+console.log(str.substring(-4,4);
+// Output: "Code"
+
+console.log(str.substring(4);
+console.log(str.substring(4,99);
+// Output: "Academy"
+```
+
+## Example 2
+
+Using `substring()` to display the last `7` characters from a given string.
+
+```javascript
+const str = 'CodeAcademy'
+
+console.log(str.substring(str.length - 7);
+// Output: "Academy"
+```
