@@ -68,6 +68,7 @@ Debugging
 Deep Learning  
 Dependency  
 Developer Tools  
+Development
 DFS  
 Dictionary  
 Dijkstra's  
@@ -124,7 +125,8 @@ HTTP
 Id  
 IDE
 If  
-Images  
+Images
+Index
 Inheritance  
 Input  
 Integers
