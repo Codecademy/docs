@@ -30,7 +30,7 @@ Print the current date in milliseconds:
 ```js
 const time = Date.now();
 
-console.log(`The current date is ${time}.`);
+console.log(`The current date in milliseconds is ${time}.`);
 // Output: The current date is 1626374486136.
 // Note: your output may vary
 ```
