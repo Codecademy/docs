@@ -32,7 +32,7 @@ During the execution phase, the code will refactor like this:
 ```js
 var myName;
 
-console.log(`My name is ${myName}.`); // Output; My name is undefined.
+console.log(`My name is ${myName}.`); // Output: My name is undefined.
 
 myName = "Brandon";
 ```
