@@ -4,9 +4,10 @@ Subjects:
   - "Web Development"
   - "Computer Science"
 Tags: 
-  - "Strings"
-  - "Methods "
-  - "Data Types "
+  - "Objects"
+  - "Methods"
+  - "Hash Maps"
+  - "OOP"
 Catalog Content: 
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
@@ -17,7 +18,7 @@ There are two main ways to implement a Hash Table/associative array in JavaScrip
 
 ## Using the Object data type
 
-The simplest implemetation is using the Object data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an `Object` itself can behave as a basic Hash Table.
+The simplest implementation is using the Object data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an `Object` itself can behave as a basic Hash Table.
 
 ```javascript
 var simplehash = new Object();
