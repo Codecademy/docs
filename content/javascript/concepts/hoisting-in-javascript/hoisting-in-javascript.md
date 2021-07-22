@@ -20,9 +20,9 @@ Hoisting is a process where JavaScript "splits" `var` and `function` declaration
 In JavaScript, variables declared with the `var` keyword are hoist-able. 
 
 ```js
-console.log(`My name is ${myName}.`) // Output: My name is undefined.
+console.log(`My name is ${myName}.`); // Output: My name is undefined.
 
-var myName = "Brandon"
+var myName = "Brandon";
 ```
 
 In the code block, we are logging `myName` to the console before it is declared and assigned. Doing so will yield `undefined`. While JavaScript's compiler has stored the *declaration* for `myName` in memory, its definition is still not known. Therefore, its value and type is `undefined`. 
@@ -31,8 +31,8 @@ During the execution phase, the code will refactor like this:
 
 ```js
 var myName
-console.log(`My name is ${myName}.`) // undefined
-myName = "Brandon"
+console.log(`My name is ${myName}.`); // undefined
+myName = "Brandon";
 ```
 
 If we tried to log a variable that hasn't been defined yet, we'd get a `ReferenceError`:
