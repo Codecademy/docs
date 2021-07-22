@@ -88,12 +88,18 @@ function greetings() {
 Because `greetings` was defined as *function declaration*, the entire function was hoisted into memory by JavaScript. However, if `greetings` were written as a function stored in a variable (a *function expression*), then the function definition would *not* be accessible. Its value and type would be `undefined` like any other hoisted variable.
 
 ```js
-console.log(greetings); // undefined
+console.log(greetings);
 
 var greetings = function() {
    var myName = "Brandon";
    console.log(`Hi! My name is ${myName}.`);
 }
+```
+
+The output would be:
+
+```
+undefined
 ```
 
 If we try to execute `greetings` and log the result to the console, JavaScript does something interesting: 
