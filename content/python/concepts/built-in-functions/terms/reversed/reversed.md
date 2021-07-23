@@ -28,9 +28,12 @@ Because the `reversed()` function returns an iterator object, in order to access
 
 ```python
 counting = ["one", "two", "three"]
+
 blast_off = reversed(counting)
+
 for num in blast_off:
   print(num, end=" ")
+  
 # Output: three two one
 ```
 
@@ -40,12 +43,14 @@ To simply reverse an existing list rather than return an iterator object, Python
 
 ```python
 counting = ["one", "two", "three"]
+
 blast_off = reversed(counting)
-print(blast_off)
-# Output: <list_reverseiterator object at 0x7ff4f6a1dfa0>
+
+print(blast_off) # Output: <list_reverseiterator object at 0x7ff4f6a1dfa0>
+
 counting.reverse()
-print(counting)
-# Output: ['three', 'two', 'one']
+
+print(counting) # Output: ['three', 'two', 'one']
 ```
 
 ## Example 3
@@ -54,7 +59,9 @@ Because strings are also iterator objects, `reversed()` can also be used on stri
 
 ```python
 new = reversed("stressed")
+
 for letter in new:
   print(letter, end="")
+  
 # Output: desserts
 ```
