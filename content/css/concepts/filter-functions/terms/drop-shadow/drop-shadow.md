@@ -34,7 +34,7 @@ Give the image a drop shadow offset horizontally `12px`, vertically `12px` with 
 
 ```css
 .banner-image {
-    filter: drop-shadow(12px 12px 5px red);
+  filter: drop-shadow(12px 12px 5px red);
 }
 ```
 
