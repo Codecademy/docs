@@ -15,17 +15,17 @@ Catalog Content:
 
 ## Definition 
 
-The `z-index` property sets the stack order of an element.
+Sets the stack order of an element.
 
 ## Syntax
 
 ```css
 z-index: <value>;
 ```
+
 The `z-index` value can be specified with a positive or negative integer. An element with a larger `z-index` value will be higher on the stack then an element with a lower `z-index` value. Unless specified, the default value of an element on the stack is 0.
 
 **Note:** The `z-index` property does not work with an element that has a `position` value of `static`.  
-
 
 ## Example 1
 
@@ -40,6 +40,7 @@ In the following example, we have a grey box and a black box. We can set the gre
   z-index: 1; 
 }
 ```
+
 ![grey box above black box](z-index.png)
 
 ## Example 2
@@ -55,4 +56,5 @@ If we wanted to have the black box above the grey box we can simply give the bla
   z-index: 3; 
 }
 ```
+
 ![black box above grey box](z-index-2.png)
