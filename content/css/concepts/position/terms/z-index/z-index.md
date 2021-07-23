@@ -41,6 +41,8 @@ In the following example, we have a grey box and a black box. We can set the gre
 }
 ```
 
+<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png" alt="Grey box above black box" width="300px">
+
 ![grey box above black box](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png)
 
 ## Example 2
