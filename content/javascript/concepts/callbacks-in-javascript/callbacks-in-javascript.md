@@ -19,14 +19,14 @@ Suppose there are two functions, `functionA()` and `functionB()`:
 
 ```js
 function functionA(num1, num2) {
-  return num1 + num2
-}
+  return num1 + num2;
+};
 
 function functionB(callback) {
-  return callback(2, 4) * 2
-}
+  return callback(2, 4) * 2;
+};
 
-console.log(functionB(functionA)) // Output: 12
+console.log(functionB(functionA)); // Output: 12
 ```
 
 In the code above, `functionA()` accepts two arguments `num1` and `num2`. The other function, `functionB()`, accepts a single argument `callback`. When `functionB()` is executed, the value of the executed `callback` argument is returned. In the the log statment, we pass `functionA()` as the callback to `functionB()` and 12 is logged to the console.
