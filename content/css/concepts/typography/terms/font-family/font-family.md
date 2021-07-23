@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-The `font-family` in CSS is used to specify the typeface in a rule set. If a font family name is not available, browsers will display their default font. When using a multi-word font name, it is best practice to wrap them in quotes.
+Specify the typeface in a rule set.
 
 ## Syntax
 
@@ -28,6 +28,8 @@ where `<font-family-name>` can be the following:
 - `"Open Sans"`
 - or can be selected from [Google Fonts](https://fonts.google.com/) that suites you.
 
+If a font family name is not available, browsers will display their default font. When using a multi-word font name, it is best practice to wrap them in quotes.
+
 ## Example 1
 
 Set the `p` tag to `Roboto`:
@@ -40,7 +42,7 @@ p {
 
 ## Example 2
 
-Set the `h1` tag to `"Open Sans"` :
+Set the `h1` tag to `"Open Sans"`:
 
 ```css
 h1 {
