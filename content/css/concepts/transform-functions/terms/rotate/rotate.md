@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-CSS transform function that rotates an element around a fixed point in a two-dimensional space.
+Rotates an element around a fixed point in a two-dimensional space.
 
 ## Syntax
 
