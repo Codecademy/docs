@@ -1,5 +1,5 @@
 ---
-Title: "translate"
+Title: "translate()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-CSS transform function that translates an element by one or more axes.
+Translates an element by one or more axes.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ where a required `<value>` can be one of the following:
 - Length value: `100px`, `1.5em`
 - Percentage value: `25%`, `50%`
 
-**Note:** providing only a single value will represent the horizontal axis. Providing a second comma separated value will represent the vertical axis. Values can be negative to translate elements in the opposite direction along the axes.
+**Note:** Providing only a single value will represent the horizontal axis. Providing a second comma separated value will represent the vertical axis. Values can be negative to translate elements in the opposite direction along the axes.
 
 ## Example 1
 
@@ -35,7 +35,7 @@ Move the `.box` element `100px` along the horizontal axis:
 
 ```css
 .box {
-    transform: translate(100px);
+  transform: translate(100px);
 }
 ```
 
@@ -45,7 +45,7 @@ Move the `.box` element along the horizontal axis `200px` and  `100px` up the ve
 
 ```css
 .box {
-    transform: translate(200px, -100px);
+  transform: translate(200px, -100px);
 }
 ```
 
@@ -56,7 +56,7 @@ Move the `.box` element `100px` down the vertical axis:
 
 ```css
 .box {
-    transform: translate(0, 100px);
+  transform: translate(0, 100px);
 }
 ```
 
