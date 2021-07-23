@@ -1,5 +1,5 @@
 ---
-Title: "brightness"
+Title: "brightness()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that defines the brightness or darkness of an element.
+Defines the brightness or darkness of an element.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ Give the image a brightness of `125%`:
 
 ```css
 .banner-image {
-    filter: brightness(125%);
+  filter: brightness(125%);
 }
 ```
 
