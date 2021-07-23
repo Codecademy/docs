@@ -1,5 +1,5 @@
 ---
-Title: "blur"
+Title: "blur()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that defines the blur radius of an element.
+Defines the blur radius of an element.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Give the image a blur radius of 4px:
 
 ```css
 .banner-image {
-    filter: blur(4px);
+  filter: blur(4px);
 }
 ```
 
