@@ -39,8 +39,15 @@ $ npm install <package-name-here>
 
 This is used to install packages from the NPM registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
 
-To learn more, run `npm --help` or `npm -h` to get a brief overview of common commands. Alternatively, run `npm -l` to display a (long) list of all NPM commands paired with brief descriptions.
+To learn more, run the following to get a brief overview of common commands:
 
+```bash
+$ npm --help
+```
+`npm -h` works, too. 
 
+Alternatively, run the following to display a (long) list of all NPM commands paired with brief descriptions:
 
-
+```bash
+$ npm -l
+```
