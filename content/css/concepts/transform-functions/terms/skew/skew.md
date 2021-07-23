@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-CSS transform function that tilts an element on the x-axis or both the x and y axes on a two dimensional plane.
+Tilts an element on the x-axis or both the x and y axes on a two dimensional plane.
 
 ## Syntax
 
@@ -29,8 +29,7 @@ where a required `<angle>` can be one of the following:
 - Gradian value: `200grad`
 - Turn value: `.25turn`
 
-**Note:** if one value is provided, it corresponds to the x-axis. If two values are provided, the first value corresponds to the x-axis and the second value corresponds to the y-axis. Negative values are not allowed.
-
+**Note:** If one value is provided, it corresponds to the x-axis. If two values are provided, the first value corresponds to the x-axis and the second value corresponds to the y-axis. Negative values are not allowed.
 
 ## Example 1
 
