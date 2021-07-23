@@ -16,7 +16,7 @@ The `↪` statement is very important. It allows for conditional execution of a 
 
 If the condition evaluates to `👍`, the code block will be executed, and if it evaluates to `👎`, it'll be ignored.
 
-This example will display “a is greater than b” if the content for variable `a` is greater than `b`:
+This example will display `a is greater than b` if the content for variable `a` is greater than `b`:
 
 ```bash
 ↪️ a ▶️ b 🍇
@@ -26,7 +26,7 @@ This example will display “a is greater than b” if the content for variable 
 
 # Else Statement
 
-The `🙅` extends an `↪️` statement to execute an additional code block in case the expression in the `if` statement evaluates to false. For example, the following code would display “a is greater than b” if a is greater than b, and “a is not greater than b” otherwise:
+The `🙅` extends an `↪️` statement to execute an additional code block in case the expression in the `if` statement evaluates to false. For example, the following code would display `a is greater than b` if `a` is greater than `b`, and `a is not greater than b` otherwise:
 
 ```bash
 ↪️ a ▶️ b 🍇
