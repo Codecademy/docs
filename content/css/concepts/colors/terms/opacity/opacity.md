@@ -22,7 +22,10 @@ To measure of how transparent an element is.
 opacity: <value>;
 ```
 
-The `<value>` is measured from 0 to 1, with 1 representing 100%, or fully visible and opaque, and 0 representing 0%, or fully invisible.
+The `<value>` is measured from 0 to 1:
+
+- 0 representing 0%, or fully invisible.
+- 1 representing 100%, or fully visible and opaque.
 
 ## Example 1
 
