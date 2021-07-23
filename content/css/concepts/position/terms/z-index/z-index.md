@@ -41,7 +41,7 @@ In the following example, we have a grey box and a black box. We can set the gre
 }
 ```
 
-![grey box above black box](z-index.png)
+![grey box above black box](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png)
 
 ## Example 2
 
@@ -57,4 +57,4 @@ If we wanted to have the black box above the grey box we can simply give the bla
 }
 ```
 
-![black box above grey box](z-index-2.png)
+![black box above grey box](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index-2.png)
