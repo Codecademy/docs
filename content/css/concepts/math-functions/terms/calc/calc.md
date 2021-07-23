@@ -5,6 +5,7 @@ Subjects:
   - "Web Design"
 Tags:
   - "Positioning"
+  - "Functions"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
@@ -28,8 +29,19 @@ where `<expression>` can be any simple expression combining the following operat
 - `*`: multiplication.
 - `/`: division.
 
+**Note:** Spaces are required around the `-` and `+` operators. They are not required for `/` and `*` operators.
 
-**Note:** spaces are required around the `-` and `+` operators. They are not required for `/` and `*` operators.
+## Example 1
+
+Calculate the total width of the `div` using absolute lengths.
+
+```css
+div {
+  width: calc(10px + 120px);
+}
+```
+
+This will be `130px` wide.
 
 ## Example 1
 
@@ -40,6 +52,8 @@ Set the value of the `.box` element's `width` property to the result of `50% - 1
   width: calc(50% - 10px);
 }
 ```
+
+Absolute lengths and relative lengths are both available to perform calculations.
 
 ## Example 2
 
