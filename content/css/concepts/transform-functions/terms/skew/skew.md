@@ -1,5 +1,5 @@
 ---
-Title: "skew"
+Title: "skew()"
 Subjects:
   - "Web Development"
   - "Web Design"
