@@ -1,5 +1,5 @@
 ---
-Title: "drop-shadow"
+Title: "drop-shadow()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that creates a drop shadow effect on an element.
+Creates a drop shadow effect on an element.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ Give the image a drop shadow offset horizontally `-12px`, vertically `-12px` wit
 
 ```css
 .banner-image {
-    filter: drop-shadow(-12px -12px 2em purple);
+  filter: drop-shadow(-12px -12px 2em purple);
 }
 ```
 
