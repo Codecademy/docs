@@ -35,10 +35,10 @@ In the above, `err` is an optional variable that holds an error object for the a
 This object contains information about the exception that was thrown, and is only available in the scope of the `catch` block.
 
 The error object has two properties:
-- `name` Sets or returns an error name.
-- `message` Sets or returns an error message.
+- `name` Sets or returns an error name. (Type of error)
+- `message` Sets or returns an error message. (Description of specific instance.)
 
-The following values can be returned by the `name` property:
+The following types of error can be returned by the `name` property:
 - "EvalError" An error has occurred in the eval() function (Note: Depreciated in newer versions of JavaScript)
 - "RangeError" A number "out of range" has occurred
 - "ReferenceError" An illegal reference has occurred
