@@ -5,7 +5,6 @@ Subjects:
   - "Developer Tools"
   - "Web Development"
 Tags: 
-  - "Bash/Shell"
   - "Command Line"
   - "Node"
   - "NPM"
@@ -21,20 +20,24 @@ Node Package Manager (NPM) is a large collection of JavaScript packages. This ma
 
 Packages are tools composed of files and folers of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
 
-
 ## The NPM Registry
 
 NPM comes as two primary tools: 
 
-* a command-line tool with abilities that include installing and uninstalling packages.
+* A command-line tool with abilities that include installing and uninstalling packages.
+* An online registry of all packages registered with NPM. 
 
-* an online registry of all packages registered with NPM. 
-
-On [the NPM registry](https://www.npmjs.com/), all public packages can be searched and reviewed before installing. Most packages come with a README.md file with instructions for installation and usage.
+On [the NPM registry](https://www.npmjs.com/), all public packages can be searched and reviewed before installing. Most packages come with a **README.md** file with instructions for installation and usage.
 
 ## Common Commands
 
-As a command-line tool, NPM comes with a litany of commands for working with packages. One of the most common NPM commands is `npm install <package-name-here>`. This is used to install packages from the NPM registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
+As a command-line tool, NPM comes with a litany of commands for working with packages. One of the most common NPM commands is:
+
+```bash
+$ npm install <package-name-here>
+```
+
+This is used to install packages from the NPM registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
 
 To learn more, run `npm --help` or `npm -h` to get a brief overview of common commands. Alternatively, run `npm -l` to display a (long) list of all NPM commands paired with brief descriptions.
 
