@@ -48,6 +48,6 @@ Set the `width` property to `10px` less than the CSS variable `--custom-width`:
 ```css
 .card {
   --custom-width: 33%;
-  width: calc(var(--custom-width) - 10px)) 
+  width: calc(var(--custom-width) - 10px));
 }
 ```
