@@ -1,5 +1,5 @@
 ---
-Title: "scale"
+Title: "scale()"
 Subjects:
   - "Web Development"
   - "Web Design"
