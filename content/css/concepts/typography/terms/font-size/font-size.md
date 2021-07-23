@@ -16,6 +16,12 @@ Catalog Content:
 
 To set text size either to big or small. Font size values can be in many different units like absolute lengths and relative lengths.
 
+## Syntax
+
+```css
+font-size: <font-size-value>;
+```
+
 Absolute lengths can be the following:
 
 - `px`
@@ -37,12 +43,6 @@ Relative lengths can be the following:
 - `vmax`
 - `vmin`
 
-## Syntax
-
-```css
-font-size: <font-size-value>;
-```
-
 ## Example 1
 
 Set the `p` tag to `16px`:
@@ -55,7 +55,7 @@ p {
 
 ## Example 2
 
-Set the `p` tag to `2em` :
+Set the `p` tag to `2em`:
 
 ```css
 html {
