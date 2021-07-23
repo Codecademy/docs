@@ -1,5 +1,5 @@
 ---
-Title: "sepia"
+Title: "sepia()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function changes the color of an element to sepia.
+Changes the color of an element to sepia.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Set sepia to `100%`:
 
 ```css
 .banner-image {
-    filter: sepia(100%);
+  filter: sepia(100%);
 }
 ```
 
