@@ -1,5 +1,5 @@
 ---
-Title: "contrast"
+Title: "contrast()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that defines the contrast on an element.
+Defines the contrast on an element.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Give the image a contrast of `200%`:
 
 ```css
 .banner-image {
-    filter: contrast(200%);
+  filter: contrast(200%);
 }
 ```
 
