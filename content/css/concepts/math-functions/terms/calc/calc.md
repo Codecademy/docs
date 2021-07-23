@@ -43,7 +43,7 @@ div {
 
 This will be `130px` wide.
 
-## Example 1
+## Example 2
 
 Set the value of the `.box` element's `width` property to the result of `50% - 10px`:
 
@@ -55,7 +55,7 @@ Set the value of the `.box` element's `width` property to the result of `50% - 1
 
 Absolute lengths and relative lengths are both available to perform calculations.
 
-## Example 2
+## Example 3
 
 Set the `width` property to `10px` less than the CSS variable `--custom-width`:
 
