@@ -6,6 +6,7 @@ Subjects:
 Tags: 
   - "Objects"
   - "Methods"
+  - "Dictionary"
   - "Hash Maps"
   - "OOP"
 Catalog Content: 
