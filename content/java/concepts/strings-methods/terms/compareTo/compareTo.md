@@ -1,5 +1,5 @@
 ---
-Title: "compareTo()"
+Title: ".compareTo()"
 Subjects:
   - "Computer Science"
 Tags:
