@@ -1,5 +1,5 @@
 ---
-Title: "opacity"
+Title: "opacity()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that controls how much of the background is visible through the element it is applied to.
+Controls how much of the background is visible through the element it is applied to.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Set the opacity of our element to `50%`:
 
 ```css
 .banner-image {
-    filter: opacity(50%);
+  filter: opacity(50%);
 }
 ```
 
