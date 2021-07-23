@@ -1,5 +1,5 @@
 ---
-Title: "saturate"
+Title: "saturate()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that increase or decrease the intensity of the color of the element it is applied to.
+Increase or decrease the intensity of the color of the element it is applied to.
 
 ## Syntax
 
@@ -32,11 +32,11 @@ where a required `<value>` can be one of the following:
 
 ## Example 1
  
-Set the saturation of a color t0 `25%`:
+Set the saturation of a color to `25%`:
 
 ```css
 .banner-image {
-    filter: saturate(25%);
+  filter: saturate(25%);
 }
 ```
 
