@@ -16,7 +16,7 @@ The `↪` statement is very important. It allows for conditional execution of a 
 
 If the condition evaluates to `👍`, the code block will be executed, and if it evaluates to `👎`, it'll be ignored.
 
-This example will display “a is greater than b” if the content for variable a* is greater than *b:
+This example will display “a is greater than b” if the content for variable `a` is greater than `b`:
 
 ```bash
 ↪️ a ▶️ b 🍇
