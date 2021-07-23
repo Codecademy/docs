@@ -11,7 +11,11 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Callback functions are functions that are passed as arguments in other functions. Say we have two functions, `functionA` and `functionB`.
+Callback functions are functions that are passed as arguments in other functions. A callback function can then be invoked during the execution of that higher order function (that it is an argument of).
+
+In JavaScript, functions can be passed as arguments because functions are objects.
+
+Say we have two functions, `functionA` and `functionB`.
 
 ```js
 function functionA(num1, num2) {
