@@ -1,5 +1,5 @@
 ---
-Title: "box-sizing"
+Title: "Box Sizing in CSS"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -12,8 +12,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
-
-## Definition 
 
 The `box-sizing` property allows us to include the padding and boarder in the calculation of an elements height and width.
 
