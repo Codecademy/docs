@@ -1,5 +1,5 @@
 ---
-Title: "codePointAt()"
+Title: ".codePointAt()"
 Subjects:
   - "Computer Science"
 Tags:

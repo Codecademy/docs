@@ -1,5 +1,5 @@
 ---
-Title: "charAt()"
+Title: ".charAt()"
 Subjects:
   - "Computer Science"
 Tags:
