@@ -1,5 +1,5 @@
 ---
-Title: "grayscale"
+Title: "grayscale()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that converts an element to grayscale.
+Converts an element to grayscale.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ Give the image a grayscale of `20%`:
 
 ```css
 .banner-image {
-    filter: grayscale(20%);
+  filter: grayscale(20%);
 }
 ```
 
