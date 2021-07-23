@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-CSS transform function that changes the size of an element to make it larger or smaller.
+Changes the size of an element to make it larger or smaller.
 
 ## Syntax
 
@@ -29,14 +29,13 @@ where a required `<value>` can be one of the following:
 
 **Note:** A single value will be applied to the horizontal and vertical scale of an element. If a second value is provided, the first value will apply to the horizontal scale and the second value will apply to the vertical scale.
 
-
 ## Example 1
 
 Shrink the `.avatar` element by `50%`:
 
 ```css
 .avatar {
-    transform: scale(50%);
+  transform: scale(50%);
 }
 ```
 
@@ -46,6 +45,6 @@ Grow the `.avatar` element by `50%` horizontally and `100%` vertically:
 
 ```css
 .avatar {
-    transform: scale(1.5, 2);
+  transform: scale(1.5, 2);
 }
 ```
