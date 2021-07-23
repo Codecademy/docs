@@ -1,5 +1,5 @@
 ---
-Title: "invert"
+Title: "invert()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function that inverts the colors of an element.
+Inverts the colors of an element.
 
 ## Syntax
 
@@ -36,7 +36,6 @@ Invert an image `25%`:
 
 ```css
 .banner-image {
-    filter: invert(25%);
+  filter: invert(25%);
 }
 ```
-
