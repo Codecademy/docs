@@ -1,0 +1,54 @@
+---
+Title: "grid-area"
+Subjects:
+  - "Web Development"
+  - "Web Design"
+Tags:
+  - "Grids"
+  - "Layout"
+Catalog Content:
+  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
+  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+---
+
+## Definition
+
+A property used to identify an element within a grid template or specify the location of an element within a grid.  
+
+## Syntax
+
+```css
+.item-one {
+  grid-area: <area-value>;
+}
+/* values for a location are specified as:
+row-start / column-start / row-end / column-end */
+```
+
+A  `<area-value>` can be any of the following:
+
+- Grid keyword: `auto`, `span`
+- Grid line value: `2`
+- Grid line name: `section-a-start`
+- A string: `'header'`
+
+## Example 1
+
+A div named 'banner' which may be referenced within grid-template-areas:
+
+```css
+#banner-div {
+  grid-area: banner;
+}
+```
+
+## Example 2
+
+Text that occupies the second and third rows on the fifth column of the grid:
+
+```css
+#text {
+  grid-area: 2 / 5 / 4 / 6;
+}
+```

@@ -14,42 +14,54 @@ Catalog Content:
 
 ## Definition
 
-A property that specifies the row and column structure of a grid container.
+A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements.
 
 ## Syntax
 
 ```css
 .grid-container {
   display: grid;
-  grid-template: <row-space> / <col-space>;
+  grid-template: <grid-value>;
+/* common syntax patterns
+<area value> <row value> / <col value>
+or <row value> / <col value> 
+or <area value> */
 }
 ```
 
-where `<row-space>` and `<col-space>`  can be one of the following:
+A  `<grid-value>` can be one of the following:
 
 - Grid keyword: `auto`, `minmax()`, `repeat()`
 - Pixel value: `300px`
 - Percent value: `25%`
 - Fractional unit value: `1fr`
+- A string: `'header'`
 
 ## Example 1
 
-A grid with four rows and columns:
+A grid in which the 'text' block occupies a space with the coordinates row two, column two:
 
 ```css
-.spam-container {
-  display: grid;
-  grid-template: repeat(4, 1fr) / repeat(4, 1fr); 
+#item-a {
+  grid-area: text;
 }
 
+#spam-container {
+  display: grid;
+  grid-template: 
+    '. header header header .'
+    '. text image image .'
+    '. footer footer footer .'; 
+/* a period represents a blank space */
+}
 ```
 
 ## Example 2
 
-A grid with three rows and five columns.
+A grid with three rows and five columns:
 
 ```css
-.eggs-container {
+#eggs-container {
   display: grid;
   grid-template: 10% 80% 10% / auto 300px 300px 300px auto;
 }
