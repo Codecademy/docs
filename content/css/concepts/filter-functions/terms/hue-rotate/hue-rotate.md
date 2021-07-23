@@ -1,5 +1,5 @@
 ---
-Title: "hue-rotate"
+Title: "hue-rotate()"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition
 
-CSS filter function accepts an angle value and rotates the hue of an element.
+Accepts an angle value and rotates the hue of an element.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ Rotate the hue of the image by 45 degrees:
 
 ```css
 .banner-image {
-    filter: hue-rotate(45deg);
+  filter: hue-rotate(45deg);
 }
 ```
 
