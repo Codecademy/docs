@@ -15,7 +15,7 @@ Catalog Content:
 
 ## Definition 
 
-The `float` property places an element on the left or right side of its container.
+Places an element on the left or right side of its container.
 
 ## Syntax
 
@@ -26,11 +26,8 @@ float: <value>;
 The following values can be be appplied to the `float` property: 
 
 - `right`: The element floats on the right side of its container.
-
-- `left`: The element floats on the left side of its container. 
-
+- `left`: The element floats on the left side of its container.
 - `none`: The default value, ensures the element will not float left or right.
-
 
 ## Example 1
 
