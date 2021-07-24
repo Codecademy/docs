@@ -4,6 +4,8 @@ Subjects:
   - "Web Development"
   - "Computer Science"
 Tags: 
+  - "Try"
+  - "Catch"
   - "Error Handling"
   - "Control Flow"
   - "Errors"
