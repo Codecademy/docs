@@ -38,7 +38,7 @@ console.log(19 & 7); // Output: 3
 ### OR
 
 ```javascript
-console.log(19 & 7); // Output: 23
+console.log(19 | 7); // Output: 23
 
 // 10011 = 19
 // 00111 =  7
