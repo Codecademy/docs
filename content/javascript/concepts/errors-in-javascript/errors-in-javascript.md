@@ -7,6 +7,8 @@ Tags:
   - "Error Handling"
   - "Errors"
   - "Exceptions"
+  - "Try"
+  - "Catch"
 Catalog Content: 
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
