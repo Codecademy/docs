@@ -187,7 +187,7 @@ Characters|Meaning
 `[a-c]`|Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\* 
 `[^xyz]`|Matches the character that is not `x`, `y` or `z`.
 `[^a-c]`|Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*
-`(x)`|Matches `x` and remembers the match. 
+`(x)`|Matches `x` and remembers the match, capturing the group. 
 <code>\\<i>n</i></code>|Where <code><i>n</i></code> is a positive integer, represents a back refrence to the last substring matching the *n<sup>th</sup>* captured group.
 <code>(?&lt;<i>Name</i>&gt;x)</code>|Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.
 <code>\\k&lt;<i>Name</i>&gt;</code>|Represents a back refrence to the last substring matched in the named capturing group specified by <code><i>Name</i></code>. 
