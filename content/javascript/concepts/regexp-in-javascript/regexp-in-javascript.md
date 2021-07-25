@@ -74,7 +74,7 @@ Flag|Description
 `g`|Perform a global match, finding all matches rather than just the first.
 `i`|Makes matches case-insensitive.
 `m`|Perform multiline matches. (Changes behavior of `^`,`$`)
-`s`|Allows `.` to match newline `\n` characters.
+`s`|Allows `.` to match newline characters.
 `u`|Enables Unicode support.
 `y`|Matches are sticky, looking only at exact position in the text.
 
