@@ -93,9 +93,7 @@ The following characters are used to define a Regular Expression string.
 
 ### Assertions
 
-#### Boundary-type assertions
-
-Matches the boundries between characters, not the characters themselves.
+The following match the boundries between characters, not the characters themselves.
 
 Characters|Meaning
 ---|---
@@ -104,9 +102,7 @@ Characters|Meaning
 `\b`|Matches a word boundary. Point where a word character is not followed by a word character, or the point where a word character is not preceded by another word character
 `\B`|Matches a non-word boundary. Point where preceding and following character are of the same type.
 
-#### Other assertions
-
-Matches a character or expression based on what follows or precedes it.
+The following match a character or expression based on what follows or precedes it.
 
 Characters|Meaning
 ---|---
@@ -114,6 +110,28 @@ Characters|Meaning
 `x(?!y)`|Match `x` only if `x` is not immediately followed by `y`. `y` is not part of the match results.
 `(?<=y)x`|Match `x` only if `x` is immediately preceded by `y`. `y` is not part of the match results.
 `(?<!y)x`|Match `x` only if `x` is not immediately preceded by `y`. `y` is not part of the match results.
+
+#### Examples
+
+```javascript
+let str = "Sally sells seashells by the seashore";
+
+let re = /s(?=e)/gi;
+console.log(str.replace(re,"x"));
+// Output: Sally xells xeashells by the xeashore
+
+re = /s(?!e)/gi;
+console.log(str.replace(re,"x"));
+// Output: xally sellx seaxhellx by the seaxhore
+
+re = /^s/gi;
+console.log(str.replace(re,"x"));
+// Output: xally sells seashells by the seashore
+
+re = /\Bs/gi;
+console.log(str.replace(re,"x"));
+// Output: Sally sellx seaxhellx by the seaxhore
+```
 
 ### Character Classes
 
@@ -139,6 +157,25 @@ Characters|Meaning
 <code>\\u<i>nnnn</i></code>|Matches a UTF-16 code unit with the value <code><i>nnnn</i></code> (four hexadecimal digits).
 `\`|Followed by a special character, means that the character should be matched literally.
 
+#### Examples
+
+```javascript
+let str = "2001: A Space Odyssey";
+
+let re = /\W/gi;
+console.log(str.replace(re,"x"));
+// Output: 2001xxAxSpacexOdyssey
+
+re = /\d/gi;
+console.log(str.replace(re,"x"));
+// Output: xxxx: A Space Odyssey
+
+re = /\d\D/gi;
+console.log(str.replace(re,"x"));
+// Output: 200x A Space Odyssey
+```
+
+
 ### Groups and Ranges
 
 Indicates groups and ranges of characters to match.
@@ -152,14 +189,29 @@ Characters|Meaning
 `[^a-c]`|Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*
 `(x)`|Matches `x` and remembers the match. 
 <code>\\<i>n</i></code>|Where <code><i>n</i></code> is a positive integer, represents a back refrence to the last substring matching the *n<sup>th</sup>* captured group.
-`(?<Name>x)`|Matches `x` and stores it in the groups property of the returned matches under the name `Name`.
-`\k<Name>`|Represents a back refrence to the last substring matched in the named capturing group specified by `Name`. 
+<code>(?&lt;<i>Name</i>&gt;x)</code>|Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.
+<code>\\k&lt;<i>Name</i>&gt;</code>|Represents a back refrence to the last substring matched in the named capturing group specified by <code><i>Name</i></code>. 
 `(?:x)`|Represents a non-capturing group. Matches `x` but does not remember the match.
 
 \* If the hyphen falls at the start or end of the sequence in brackets, it is treated as a literal hyphen.
 
+#### Examples
 
+```javascript
+let str = "Peter Piper picked a peck of pickled peppers.";
 
+let re = /[aeiou]/gi;
+console.log(str.replace(re,"x"));
+// Output: Pxtxr Pxpxr pxckxd x pxck xf pxcklxd pxppxrs.
+
+re = /[^p]/gi;
+console.log(str.replace(re,"x"));
+// Output: PxxxxxPxpxxxpxxxxxxxxpxxxxxxxpxxxxxxxpxppxxxx
+
+re = /pi(ck|pe)/gi;
+console.log(str.replace(re,"x"));
+// Output: Peter xr xed a peck of xled peppers.
+```
 
 ### Quantifiers
 
@@ -170,8 +222,30 @@ Characters|Meaning
 `x*`|Matches the preceding item `x` zero or more times.
 `x+`|Matches the preceding item `x` one or more times.
 `x?`|Matches the preceding item `x` zero or one times.
-`x{n}`|Matches the preceding item `x` `n` times, where `n` is a positive integer.
-`x{n,}`|Matches the preceding item `x` `n` or more times, where `n` is a positive integer.
-`x{n,m}`|Matches the preceding item `x` at least `n` times and at most `m` times where `n` and `m` are positive integers and `n` is less than `m`.
+<code>x{<i>n</i>}</code>|Matches the preceding item `x` <code><i>n</i></code> times, where <code><i>n</i></code> is a positive integer.
+<code>x{<i>n</i>,}</code>|Matches the preceding item `x` <code><i>n</i></code> or more times, where <code><i>n</i></code> is a positive integer.
+<code>x{<i>n</i>,<i>m</i>}</code>|Matches the preceding item `x` at least <code><i>n</i></code> times and at most <code><i>m</i></code> times where <code><i>n</i></code> and <code><i>m</i></code> are positive integers and <code><i>n</i></code> is less than <code><i>m</i></code>.
 
 By default these quatifiers are greedy, matching as much of the string as possible. By following the quantifer with `?` (`x*?`) the match will stop at its first occurrence.
+
+#### Examples
+
+```javascript
+let str = "Billy bought a bushel of blue baloons.";
+
+let re = /b.?l+/gi;
+console.log(str.replace(re,"x"));
+// Output: xy bought a bushel of xue xoons.
+
+re = /[olu]{2}/gi;
+console.log(str.replace(re,"x"));
+// Output: Bixy bxght a bushel of bxe baxons.
+
+re = /l\w*/gi;
+console.log(str.replace(re,"x"));
+// Output: Bix bought a bushex of bx bax.
+
+re = /o\w+?/gi;
+console.log(str.replace(re,"x"));
+// Output: Billy bxght a bushel x blue balxns.
+```
