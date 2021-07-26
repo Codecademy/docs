@@ -4,8 +4,8 @@ Subjects:
   - "Computer Science"
   - "Web Development"
 Tags:
-  - "Best Practices"
-  - "Memory"
+  - "Web Development"
+  - "Computer Science"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/code-foundations"
   - "https://www.codecademy.com/learn/paths/computer-science"
