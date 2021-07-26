@@ -33,8 +33,8 @@ class isContentEqual {
 
     System.out.println(word.contentEquals("water"));
     System.out.println(word.contentEquals("watermelon"));
-    // output: false
-    // output: true
+    // Output: false
+    // Output: true
   }
 }
 ```
