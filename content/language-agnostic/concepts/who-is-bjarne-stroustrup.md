@@ -4,8 +4,8 @@ Subjects:
   - "Computer Science"
   - "Code Foundations"
 Tags:
-  - "Characters"
-  - "Structure"
+  - "C++"
+  - "Middleware"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-analyst"
   - "https://www.codecademy.com/learn/paths/data-science"
