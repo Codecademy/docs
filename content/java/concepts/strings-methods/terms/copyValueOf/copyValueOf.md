@@ -34,7 +34,7 @@ class CopyAllCharacters {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e'};
     System.out.println(copiedCharacters.copyValueOf(charactersArray));
-    // output: abcde
+    // Output: abcde
   }
 }
 ```
@@ -49,7 +49,7 @@ class SpecificCharactersToCopy {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e','f','g','h','i'};
     System.out.println(copiedCharacters.copyValueOf(charactersArray, 4, 2));
-    // output: ef
+    // Output: ef
   }
 }
 ```
