@@ -254,7 +254,8 @@ Type Narrowing
 Typography  
 Union
 Unicode
-Units  
+Units
+Unix  
 URL  
 Validation  
 Values  
