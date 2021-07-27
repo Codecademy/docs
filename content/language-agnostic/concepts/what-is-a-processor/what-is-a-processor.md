@@ -19,3 +19,10 @@ Processors are comprised of components called transistors and capacitors. Transi
 Moore's law which outlines the exponential improvements achieved by the addition of more computing power and smaller processors over time, has led processors to take the form of "microprocessors", which are implemented on metal-oxide semiconductor integrated circuit chips. Todays processors contain billions of transistors on silicon as small as a fingernail. 
 
 Often the generic reference to a processor refers to the Central Processing Unit (CPU), which in addition to computing is a powerful source for caching data. 
+
+## Different Types of Processors
+
+- Microprocessor
+- Microcontroller
+- Embedded Processor
+- Digital Signal Processor 
