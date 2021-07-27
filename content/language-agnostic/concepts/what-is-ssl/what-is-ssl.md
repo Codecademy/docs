@@ -21,8 +21,6 @@ SSL validation can be instantly recognized on the web by seeing a green padlock 
 
 ## Benefits of SSL include
 
-* Ecommerce trust - users who see a green padlock on ecommerce sights are more likely to go through with the transaction because they trust that the site is secure.
-
+* E-commerce trust: Users who see a green padlock on e-commerce sites are more likely to go through with the transaction because they trust that the site is secure.
 * It gives users peace of mind that the website is handling data with integrity and that data has not been tampered as its being transfered between networks. 
-
 * Encryption of data so that it is not viewable as plain text when being transferred. 
