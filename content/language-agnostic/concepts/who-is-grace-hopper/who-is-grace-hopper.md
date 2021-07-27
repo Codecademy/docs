@@ -13,7 +13,7 @@ Catalog Content:
 
 Grace Hopper was a pioneering American computer scientist who led a decorated career in the United States Navy becoming one of the first female rear admirals.
 
-One of the first programmers of the Harvard Mark I computer,
+One of the first programmers of the Harvard Mark I computer, 
 she was a pioneer of computer programming who invented one of the first linkers.
 Hopper was the first to devise the theory of machine-independent programming languages,
 and the FLOW-MATIC programming language she created using this theory was later
