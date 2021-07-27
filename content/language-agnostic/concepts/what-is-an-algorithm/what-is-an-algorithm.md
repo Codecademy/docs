@@ -19,11 +19,16 @@ There are many ways to classify algorithms but one of the best ways to do so is 
 
 ## Algorithms can be categorized by their time complexities:
 
-* Exponential time: If the time is an exponential function of the input size. Example: Brute-force search.
-* Polynomial time: If the time is a power of the input size. Example: the bubble sort algorithm has quadratic time complexity.
-* Linear time: If the time is proportional to the input size. Example: the traverse of a list.
-* Logarithmic time: If the time is a logarithmic function of the input size. Example: binary search algorithm.
-* Constant time: If the time needed by the algorithm is the same, regardless of the input size. Example: an access to an array element.
+* Exponential time: If the time is an exponential function of the input size.
+    * Brute-force search.
+* Polynomial time: If the time is a power of the input size. 
+    * Bubble sort has quadratic time complexity.
+* Linear time: If the time is proportional to the input size.
+    * The traverse of a list.
+* Logarithmic time: If the time is a logarithmic function of the input size.
+   * Binary search algorithm.
+* Constant time: If the time needed by the algorithm is the same, regardless of the input size.
+   * An access to an array element.
 
 ## An example of an algorithm implemented in Python
 
