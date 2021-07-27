@@ -14,9 +14,7 @@ Catalog Content:
 
 ## Definition 
 
-The `text-overflow` property specifies how hidden/not displayed content is signaled to the user.
-
-**Note:** The properties `white-space: nowrap;` and `overflow: hidden;` are required for `text-overflow` to work. 
+Specifies how hidden content is signaled to the user.
 
 ## Syntax
 
@@ -27,11 +25,10 @@ text-overflow: <value>;
 The following values can be be appplied to the `text-overflow` property:
 
 - `clip`: Default value. Cuts off/hides the overflowing content.
-
-- `ellipsis`: Displays an ellipsis ("..."). 
-
+- `ellipsis`: Displays an ellipsis, "...". 
 - `" "`: A custom string set by the author.
 
+**Note:** The properties `white-space: nowrap;` and `overflow: hidden;` are required for `text-overflow` to work. 
 
 ## Example 1
 
@@ -41,7 +38,7 @@ Setting a `div` so that overflowing text is represented with an ellipsis.
 div {
   text-overflow: ellipsis;
   
-/*Additional properties required for text-overflow to function*/
+  /* Additional properties required for text-overflow to function: */
   overflow: hidden;
   white-space: nowrap;
 }
