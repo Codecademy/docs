@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition 
 
-The `text-indent` property indents (leaves empty space) the first line in a text-block.
+Indents (leaves empty space) the first line in a text-block.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The `text-indent` property indents (leaves empty space) the first line in a text
 text-indent: <value>;
 ```
 
-The amount of indentiation can be specified by using percentages or lenght values(px, em, etc): 
+The amount of indentiation can be specified by using percentages or length values (`px`, `em`, etc): 
 
 ## Example 1
 
