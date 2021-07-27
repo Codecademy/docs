@@ -7,8 +7,7 @@ Tags:
   - "C++"
   - "Middleware"
 Catalog Content:
-  - "https://www.codecademy.com/learn/paths/data-analyst"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "https://www.codecademy.com/learn/learn-c-plus-plus"
 ---
 
 Bjarne Stroustrup is the designer and original implementer of the computer programming language C++, an extension of the C programming language.
