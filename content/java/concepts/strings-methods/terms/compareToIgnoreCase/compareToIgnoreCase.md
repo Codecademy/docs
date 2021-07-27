@@ -3,8 +3,8 @@ Title: "compareToIgnoreCase()"
 Subjects:
   - "Computer Science"
 Tags:
-  - "Methods"
   - "Strings"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -17,7 +17,7 @@ Compares two strings lexicographically based on the Unicode value of each charac
 ## Syntax
 
 ```java
-public int compareToIgnoreCase(String str)
+string.compareToIgnoreCase(String str)
 ```
 
 - `str` (required): A string value, the other string to compare to.
@@ -33,19 +33,25 @@ class CompareStringsIgnoreCase {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "Codecademy";
+    
     System.out.println(word1.compareToIgnoreCase(word2));
     // Output: 0
+  }
+}
 ```
 
 ## Example 2
 
-Compare `"Codecademy"` to `"codecademy"`.:
+Compare `"Codecademy"` to `"codecademy"`:
 
 ```java
 class CompareStringsIgnoreCase {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "codecademy";
+    
     System.out.println(word1.compareToIgnoreCase(word2));
     // Output: 0
+  }
+}
 ```
