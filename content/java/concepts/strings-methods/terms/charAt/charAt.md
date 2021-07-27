@@ -3,8 +3,8 @@ Title: ".charAt()"
 Subjects:
   - "Computer Science"
 Tags:
-  - "Methods"
   - "Strings"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -17,10 +17,10 @@ Returns the character at the given index in the string.
 ## Syntax
 
 ```java
-string.charAt(index)
+string.charAt(int index)
 ```
 
-- `index` (required): An `int` value that represents the index of the character value you want to retrieve.
+- `index` (required): An integer value that represents the index of the character value you want to retrieve.
 
 ## Example 1
 
