@@ -17,10 +17,10 @@ Returns the Unicode value at the given index in the string.
 ## Syntax
 
 ```java
-string.codePointAt(index)
+string.codePointAt(int index)
 ```
 
-- `index` (required): `int` value that represents the index of the Unicode value you want to retrieve.
+- `index` (required): Integer value that represents the index of the Unicode value you want to retrieve.
 
 ## Example 1
 
