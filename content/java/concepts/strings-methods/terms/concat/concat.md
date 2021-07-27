@@ -3,8 +3,8 @@ Title: "concat()"
 Subjects:
   - "Computer Science"
 Tags:
-  - "Methods"
   - "Strings"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -17,10 +17,10 @@ Returns a string that is the concatenation of the given strings.
 ## Syntax
 
 ```java
-public String concat(String str)
+string.concat(String str)
 ```
 
-- `str` (required): An string value that will be concatenated, appended, to another string.
+- `str` (required): A string value that will be concatenated, appended, to another string.
 
 ## Example 1
 
@@ -31,6 +31,7 @@ class FlavoredDessert {
   public static void main(String[] args) {
     String flavor = "Strawberry ";
     String dessert = "Ice Cream";
+    
     System.out.println(flavor.concat(dessert));
     // Output: Strawberry Ice Cream
   }
@@ -47,6 +48,7 @@ class FullName {
     String firstName = "Kimberly ";
     String middleName = "Angela ";
     String lastName = "Rodriguez";
+    
     System.out.println(firstName.concat(middleName).concat(lastName));
     // Output: Kimberly Angela Rodriguez
   }
