@@ -30,7 +30,7 @@ There are many ways to classify algorithms but one of the best ways to do so is 
 * Constant time: If the time needed by the algorithm is the same, regardless of the input size.
    * An access to an array element.
 
-## An example of an algorithm implemented in Python
+## Example of an Algorithm Implemented in Python
 
 ```py
 # Python implementation of Bubble Sort
