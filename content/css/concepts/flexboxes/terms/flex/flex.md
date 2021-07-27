@@ -22,14 +22,16 @@ A shorthand that combines the `flex-grow` , `flex-shrink` and `flex-basis` prope
 #item {
   flex: <flex-grow> <flex-shrink> <flex-basis>;
 }
-/* default values are: 0 1 auto
-flex-shrink and flex-basis are optional */
+
+/* flex-shrink and flex-basis are optional */
 ```
 
 The values can be any of the following options:
 - A keyword: `auto` 
 - A length: `200px` 
 - An integer or decimal: `1` , `.5` 
+
+Default values are `0 1 auto`.
 
 ## Example 1
 
