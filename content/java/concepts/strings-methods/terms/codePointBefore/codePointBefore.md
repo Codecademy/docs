@@ -3,8 +3,8 @@ Title: ".codePointBefore()"
 Subjects:
   - "Computer Science"
 Tags:
-  - "Methods"
   - "Strings"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -17,10 +17,10 @@ Returns the Unicode value before the given index in the string.
 ## Syntax
 
 ```java
-public int codePointBefore(int index)
+string.codePointBefore(index)
 ```
 
-- `index` (required): An int value that represents the Unicode value you want to retrieve for the element before the given index.
+- `index` (required): An `int` value that represents the Unicode value you want to retrieve for the element before the given index.
 
 ## Example 1
 
@@ -30,6 +30,7 @@ Print the Unicode value of the first character, `"H"` at the first index:
 class FirstCharacterUnicodeValue {
   public static void main(String[] args) {
     String greeting = "Hello World";
+    
     System.out.println(greeting.codePointBefore(1));
     // Output: 72
   }
