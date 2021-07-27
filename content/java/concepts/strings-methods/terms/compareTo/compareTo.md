@@ -58,7 +58,7 @@ class CompareStringsLexicographically {
 
 ## Example 3
 
-Compare `"codecademy"` to `"Codecademy"`.:
+Compare `"codecademy"` to `"Codecademy"`:
 
 ```java
 class CompareLexicographically {
