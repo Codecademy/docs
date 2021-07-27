@@ -25,7 +25,10 @@ A property that specifies if elements will occupy multiple lines and the directi
 }
 ```
 
-The `<wrap-value>` can be one of three options: `wrap`, `nowrap` , `wrap-reverse` .
+The `<wrap-value>` can be one of three options: 
+- `wrap`, 
+- `nowrap`
+- `wrap-reverse`
 
 ## Example 1
 
