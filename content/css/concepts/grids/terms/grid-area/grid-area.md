@@ -22,8 +22,6 @@ A property used to identify an element within a grid template or specify the loc
 .item-one {
   grid-area: <area-value>;
 }
-/* values for a location are specified as:
-row-start / column-start / row-end / column-end */
 ```
 
 A  `<area-value>` can be any of the following:
@@ -32,6 +30,14 @@ A  `<area-value>` can be any of the following:
 - Grid line value: `2`
 - Grid line name: `section-a-start`
 - A string: `'header'`
+
+Values for a location can also be specified as:
+
+```css
+.item-one {
+  grid-area: row-start / column-start / row-end / column-end;
+}
+```
 
 ## Example 1
 
