@@ -17,7 +17,7 @@ Returns the number of Unicode values in specified range of a string.
 ## Syntax
 
 ```java
-public int codePointCount(int indexStart, int indexEnd)
+string.codePointCount(int indexStart, int indexEnd)
 ```
 
 - `indexStart` (required): The index of the first character in the string to start counting from.
@@ -31,6 +31,7 @@ Print the number of Unicode values in the string `"Hello World"`:
 class CountUnicodeValues {
   public static void main(String[] args) {
     String s = "Hello World";
+    
     System.out.println(s.codePointCount(0, 10));
     // Output: 10
   }
