@@ -35,7 +35,7 @@ A  `<area-value>` can be any of the following:
 
 ## Example 1
 
-A div named 'banner' which may be referenced within grid-template-areas:
+A div named `banner` which may be referenced within grid-template-areas:
 
 ```css
 #banner-div {
