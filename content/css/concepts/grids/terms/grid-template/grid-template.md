@@ -22,10 +22,6 @@ A shorthand for the grid-template-row, column and areas properties. The grid-tem
 .grid-container {
   display: grid;
   grid-template: <grid-value>;
-/* common syntax patterns
-<area value> <row value> / <col value>
-or <row value> / <col value> 
-or <area value> */
 }
 ```
 
@@ -37,6 +33,13 @@ A  `<grid-value>` can be one of the following:
 - Fractional unit value: `1fr`
 - A string: `'header'`
 
+
+Common syntax patterns:
+
+- `<area value> <row value> / <col value>`
+- `<row value> / <col value>`
+- `<area value>`
+  
 ## Example 1
 
 A grid in which the 'text' block occupies a space with the coordinates row two, column two:
@@ -52,9 +55,10 @@ A grid in which the 'text' block occupies a space with the coordinates row two, 
     '. header header header .'
     '. text image image .'
     '. footer footer footer .'; 
-/* a period represents a blank space */
 }
 ```
+
+**Note:** A period represents a blank space.
 
 ## Example 2
 
