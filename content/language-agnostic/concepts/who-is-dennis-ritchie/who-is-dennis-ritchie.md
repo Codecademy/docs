@@ -13,7 +13,7 @@ Catalog Content:
 
 Dennis Ritchie was creator of the computer programming language C, and co-creator of the Unix operating system.
 
-Ritchie, along with Ken Thompson and others at Bell Laboratories began work on Unix in 1967 as a replacement operating system for the corporation.
+Ritchie, along with Ken Thompson and others at Bell Laboratories began work on Unix in 1967 as a replacement operating system for the Digital Equipment Corporation PDP-7 mini computer.
 
 Within this same time, Ken Thompson also developed the B computer programming language with Ritchie's contribution, and in 1971 Ritchie begin developing C as an extension of B.  
 
