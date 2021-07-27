@@ -12,9 +12,9 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+## Definition
 
-The `text-justify` property sets the justifcation method of text when `text-align: justify;` is applied to an element.
+Sets the justifcation method of text when `text-align: justify;` is applied to an element.
 
 ## Syntax
 
@@ -25,16 +25,13 @@ text-justify: <value>;
 The following values can be be appplied to the `text-justify` property:
 
 - `none`: Disables justification methods.
-
 - `inter-word`: Adjusts the spacing between words. 
-
 - `inter-character`: Adjusts the spacing between characters.
-
 - `auto`: Allows the browser to determine the justification method.
 
-## Example 1
+## Example
 
-Setting a `p` element with a justifaction of `inter-word`.
+Setting a `p` element with a justifaction of `inter-word`:
 
 ```css
 p {
