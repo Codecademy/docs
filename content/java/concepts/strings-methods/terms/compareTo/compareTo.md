@@ -17,7 +17,7 @@ Compares two strings lexicographically based on the Unicode value of each charac
 ## Syntax
 
 ```java
-public int compareTo(String str)
+string.compareTo(String str)
 ```
 
 - `str` (required): A string value, the other string to compare to.
@@ -26,28 +26,34 @@ public int compareTo(String str)
 
 ## Example 1
 
-Compare `"Codecademy"` to `"Codecademy"`.:
+Compare `"Codecademy"` to `"Codecademy"`:
 
 ```java
 class CompareStringsLexicographically {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "Codecademy";
+    
     System.out.println(word1.compareTo(word2));
     // Output: 0
+  }
+}
 ```
 
 ## Example 2
 
-Compare `"Codecademy"` to `"codecademy"`.:
+Compare `"Codecademy"` to `"codecademy"`:
 
 ```java
 class CompareStringsLexicographically {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "codecademy";
+    
     System.out.println(word1.compareTo(word2));
     // Output: -32
+  }
+}
 ```
 
 ## Example 3
@@ -59,6 +65,9 @@ class CompareLexicographically {
   public static void main(String[] args) {
     String word1 = "codecademy";
     String word2 = "Codecademy";
+    
     System.out.println(word1.compareTo(word2));
-    // Output: 32
+    // Output: 32  
+  }
+}
 ```
