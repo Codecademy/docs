@@ -29,7 +29,9 @@ The values can be any of the following options:
 - A length: `200px` 
 - An integer or decimal: `1` , `.5` 
 
-Default values are `0 1 auto`. `flex-shrink` and `flex-basis` are optional.
+`flex-shrink` and `flex-basis` are optional.
+
+Default values are `0 1 auto`.
 
 ## Example 1
 
