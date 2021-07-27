@@ -3,8 +3,8 @@ Title: "copyValueOf()"
 Subjects:
   - "Computer Science"
 Tags:
-  - "Methods"
   - "Strings"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
@@ -17,7 +17,7 @@ Returns a string with characters copied from an array.
 ## Syntax
 
 ```java
-public String copyValueOf(char[] data, int offset, int count)
+string.copyValueOf(char[] data, int offset, int count)
 ```
 
 - `data` (required): An array of characters to be copied from.
@@ -26,13 +26,14 @@ public String copyValueOf(char[] data, int offset, int count)
 
 ## Example 1
 
-Copy all characters from the array `charactersArray` to the string `copiedCharacters`:
+Copy all characters from the `charactersArray` array to the `copiedCharacters` string:
 
 ```java
 class CopyAllCharacters {
   public static void main(String[] args) {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e'};
+    
     System.out.println(copiedCharacters.copyValueOf(charactersArray));
     // Output: abcde
   }
@@ -48,6 +49,7 @@ class SpecificCharactersToCopy {
   public static void main(String[] args) {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e','f','g','h','i'};
+    
     System.out.println(copiedCharacters.copyValueOf(charactersArray, 4, 2));
     // Output: ef
   }
