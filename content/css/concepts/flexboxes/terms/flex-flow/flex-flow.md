@@ -29,7 +29,7 @@ A `<flow-value>` can be any of the values available for `flex-direction` and `fl
 - flex-direction: `row`, `row-reverse` , `column` , `column-reverse` 
 - flex-wrap: `wrap`, `nowrap` , `wrap-reverse` 
 
-	## Example 1
+## Example 1
 
 Content that is spaced horizontally and wrapping top to bottom:
 
