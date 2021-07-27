@@ -35,7 +35,7 @@ System.out.println(greeting.codePointAt(0));
 
 ## Example 2
 
-Print the Unicode value of the first character in the string `"Hello World"`:
+Here's a whole Java program that prints the Unicode value of the first character in the string `"Hello World"`:
 
 ```java
 class FirstCharacterUnicodeValue {
