@@ -5,6 +5,7 @@ Subjects:
   - "Web Development"
 Tags:
   - "Algorithms"
+  - "Sort"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
   - "https://www.codecademy.com/learn/paths/web-development"
