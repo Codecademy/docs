@@ -20,7 +20,7 @@ A property that specifies if elements will occupy multiple lines and the directi
 
 ```css
 #element-container {
-  display: flex;
+  display: flex
   flex-wrap: <wrap-value>;
 }
 ```
