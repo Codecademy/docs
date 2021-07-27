@@ -2,13 +2,13 @@
 Title: "Who is Grace Hopper?"
 Subjects:
   - "Computer Science"
-  - "Data Science"
+  - "Developer Tools"
 Tags:
   - "Characters"
   - "Structure"
 Catalog Content:
-  - "https://www.codecademy.com/learn/paths/data-analyst"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "https://www.codecademy.com/catalog/subject/computer-science"
+  - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
 Grace Hopper was a pioneering American computer scientist who led a decorated career in the United States Navy becoming one of the first female rear admirals.
