@@ -26,10 +26,10 @@ A property that specifies the direction in which elements are distributed within
 ```
 
 The `<flex-value>` can be one of four options:
-1. Elements arranged left to right: `row` 
-2. Elements arranged right to left: `row-reverse` 
-3. Elements arranged top to bottom: `column` 
-4. Elements arranged bottom to top: `column-reverse` 
+- Elements arranged left to right: `row` 
+- Elements arranged right to left: `row-reverse` 
+- Elements arranged top to bottom: `column` 
+- Elements arranged bottom to top: `column-reverse` 
 
 ## Example 1
 
