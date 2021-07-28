@@ -123,7 +123,8 @@ Head
 Headings  
 Heap  
 Heroku  
-Histograms  
+Histograms
+HTML  
 HTTP  
 Id  
 IDE
