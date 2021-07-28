@@ -14,8 +14,6 @@ Catalog Content:
 
 Sir Tim Berners-Lee is an English computer scientist popularly known for his development of the World Wide Web in 1989.
 
-While working at the European Organization for Nuclear Research (CERN) in the European Particle Physics Laboratory Berners-Lee saw the need for a system that would share information amongst researchers globally. With this motivation, Tim Berners-Lee  
+While working at the European Organization for Nuclear Research (CERN) in the European Particle Physics Laboratory Berners-Lee saw the need for a system that would share information amongst researchers globally. With this motivation, Tim Berners-Lee facilitated the first transmission between an HTTP client and server. Berners-Lee then developed the first web browser in 1990. With these milestones met, Berners-Lee developed the first ever web site, info.cern.ch.
 
-net neutrality, privacy and the openness of the Web.
-
-Turing Prize for inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale.
+Tim Berners-Lee has since been a prominent figure in the further development of the World Wide Web, standing as the director of the World Wide Web Consortium, and co-founder and CTO of Inrupt.com. Tim's goal is to continue working toward net neutrality, privacy protection and the inclusion of the Web.
