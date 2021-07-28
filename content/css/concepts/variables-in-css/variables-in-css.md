@@ -68,7 +68,7 @@ In the samples below, there are 3 `div` elements with classes `divA`, `divB`, an
         B
         <div class="divC">
           C
-          </div>
+        </div>
       </div>
     </div>
   </body>
