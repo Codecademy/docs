@@ -11,7 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Dennis Ritchie was creator of the computer programming language C, and co-creator of the Unix operating system.
+Dennis Ritchie was and American computer scientist, creator of the computer programming language C, and co-creator of the Unix operating system.
 
 Ritchie, along with Ken Thompson and others at Bell Laboratories began work on Unix in 1967 as a replacement operating system for the Digital Equipment Corporation PDP-7 mini computer.
 
