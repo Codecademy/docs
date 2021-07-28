@@ -30,7 +30,7 @@ count = 1
 # Float type
 rating = 1.5
 
-# both float and integer types
+# Both float and integer types
 miles = 127
 hours = 2.5
 miles_per_hour = miles / hours
