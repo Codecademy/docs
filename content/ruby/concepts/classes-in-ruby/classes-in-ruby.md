@@ -20,7 +20,7 @@ The `class` keyword followed by a name with the first letter capitalized creates
 ```ruby
 # class name is Ball
 class Ball
-    # properties and methods of the class
+  # properties and methods of the class
 end
 
 # create two instances of the Ball class
