@@ -34,7 +34,7 @@ Setting a `div` elements border style to dashed.
 
 ```css
 div {
-  /*<border-style>*/  
+  /* <border-style> */  
   border: dashed; 
 }
 ```
@@ -45,7 +45,7 @@ Setting an `img` elements border to dotted, red and a width of 20px.
 
 ```css
 div {
-  /*<border-width> | <border-style> | <border-color>*/
+  /* <border-width> | <border-style> | <border-color> */
   border: 20px dotted red; 
 }
 ```

@@ -67,7 +67,7 @@ Setting an `h2` font with all seven properties in one decleration.
 
 ```css
 h2 {
-  /*font-stretch | font-style | font-varient | font-weight | font-size | line-height | font-family*/
+  /* font-stretch | font-style | font-varient | font-weight | font-size | line-height | font-family */
   font: expanded italic small-caps bolder 20px/30px cursive;  
 }
 ```
