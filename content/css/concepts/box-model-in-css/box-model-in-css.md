@@ -24,7 +24,7 @@ The Box Model is a CSS layout mechanism that the web browser uses to render cont
 
 ## Content Area
 
-This area contains the actual content of an element, including text and images. It also sometimes has a background-color or background-image.
+This area contains the actual content of an element, including text and images. It also sometimes has a `background-color` or `background-image`.
 
 ## Padding Area
 
