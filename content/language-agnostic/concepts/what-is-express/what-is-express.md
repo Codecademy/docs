@@ -18,6 +18,6 @@ Express is a back end web framework for Node.js applications. It is primarily us
 
 Since it is popular choice for a back end tool, Express belongs to popular tech stacks including: 
 
-* MERN (Mango + Express + React + Node)
-* MEAN (Mango + Express + Angular + Node)
-* MEVN (Mango + Express + Vue + Node)
+* MERN (MongoDB + Express + React + Node)
+* MEAN (MongoDB + Express + Angular + Node)
+* MEVN (MongoDB + Express + Vue + Node)
