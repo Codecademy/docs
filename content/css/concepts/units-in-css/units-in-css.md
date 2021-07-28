@@ -15,49 +15,44 @@ Catalog Content:
 
 CSS uses units to measure the values of various properties in a stylesheet. 
 
-
-## Syntax
-
-```css
-length: length-unit;
-```
-
-A `length` is any measurable property, such as `border`, `background-color`, and `margin`.
-
-A `length-unit` is the value assigned to a measurable property, such as `2px`, `30em`, and `10pt`.
-
-
 ## Absolute and Relative Units
 
 The two main types of units are: 
 
 * Absolute Units
-
 * Relative Units
 
+Absolute units are CSS units that are of fixed lengths and not relative to any other styles. This includes: 
 
-*Absolute units* are CSS units that are of fixed lengths and not relative to any other styles. This includes: 
+* `px`: Pixels (most common)
+* `pt`: Points 
+* `mm`: Millimeters
 
-* `px` - Pixels (most common one)
+Relative units are CSS units whose size is relative to some other length. They could relate to things like:
 
-* `pt` - Points 
-
-* `mm` - Millimeters
-
-
-
-*Relative units* are CSS units whose size is relative to some other length. They could relate to things like:
-
-* the font-size of a direct parent element
-* the default font-size of the HTML body
-* the size of the viewport 
+* The font-size of a direct parent element
+* The default font-size of the HTML body
+* The size of the viewport
 
 Some common relative units include: 
 
-* `em` - (most common one) property size relative to property size of direct parent element
+* `em`: Property size relative to property size of direct parent element (most common)
+* `rem`: Property size relative to property size of direct root element
+* `vw`: Percentage based on width of screen
+* `vh`: Percentage based on height of screen
 
-* `rem` - property size relative to property size of direct root element
 
-* `vw` - percentage based on width of screen
+## Syntax
 
-* `vh` - percentage based on height of screen
+```css
+<length>: <length-unit>;
+```
+
+A `<length>` is any measurable property, such as `border`, `background-color`, and `margin`.
+
+A `<length-unit>` is the value assigned to a measurable property, such as `2px`, `30em`, and `10pt`.
+
+```css
+border-width: 30px;
+```
+
