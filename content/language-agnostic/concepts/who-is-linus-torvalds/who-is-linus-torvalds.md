@@ -11,7 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Linus Torvalds is the creator of the operating system kernel Linux and the distributed revision control system Git.
+Linus Torvalds is a Finnish-American computer scientist, and creator of the operating system kernel Linux and the distributed revision control system Git.
 
 The Linux kernel an open source, Unix-inspired operating system kernel publicly released in Version 1.0 by Linus Torvalds in 1994.
 
