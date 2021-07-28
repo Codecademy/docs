@@ -55,7 +55,6 @@ age3 = 19
 age4 = 17
 age5 = 15
 
-
 def things_you_can_do(age)
   if (age >= 35)
     puts "You can run for president."
