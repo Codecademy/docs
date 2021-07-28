@@ -51,7 +51,7 @@ The following values can be appplied to the `display` property:
 
 Setting a `div` element to behave like a flex box.
 
-``html
+```html
 <div class="flexdiv">
     <p>First Item</p>
     <p>Second Item</p>
