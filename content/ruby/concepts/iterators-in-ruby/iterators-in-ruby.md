@@ -1,5 +1,5 @@
 ---
-Title: "Modulo in Ruby"
+Title: "Iterators in Ruby"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -22,24 +22,27 @@ letters = ['C', 'o', 'd', 'e', 'c', 'a', 'd', 'e', 'm', 'y']
 letters.each do|letter|
   puts letter
 end
-
-# Output:
-# C
-# o
-# d
-# e
-# c
-# a
-# d
-# e
-# m
-# y
 ```
 
 - Our collection, `letters`, is an array.
 - The `each` is a method that iterates through the collection.
 - The `do` and `end` are used to indicate the scope of the `each` method.
 - `letter` is a variable that is used to store the value of each iteration.
+
+The output would be:
+
+```
+C
+o
+d
+e
+c
+a
+d
+e
+m
+y
+```
 
 ## Collect Iterator
 
@@ -65,13 +68,16 @@ This iterator is a loop designed to repeat a block of code a certain number of t
 5.times do |i|
   puts "Message number #{i + 1}"
 end
-
-# Output:
-# Message number 1
-# Message number 2
-# Message number 3
-# Message number 4
-# Message number 5
 ```
 
 - `5.times` is the specified number of times to repeat the block of code.
+
+The output would be:
+
+```
+Message number 1
+Message number 2
+Message number 3
+Message number 4
+Message number 5
+```
