@@ -122,7 +122,8 @@ Headings
 Heap  
 Heroku  
 Histograms  
-HTTP  
+HTTP
+HTML
 Id  
 IDE
 If  
