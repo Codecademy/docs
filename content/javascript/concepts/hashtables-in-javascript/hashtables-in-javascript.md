@@ -1,5 +1,5 @@
 ---
-Title: "Hashtables in Javascript" 
+Title: "Hash Tables in Javascript" 
 Subjects: 
   - "Web Development"
   - "Computer Science"
@@ -13,7 +13,8 @@ Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
 ---
-A Hash Table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a Hash Table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash Tables have fast search, insertion and delete operations.
+
+A hash table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a Hash Table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash Tables have fast search, insertion and delete operations.
 
 There are two main ways to implement a Hash Table/associative array in JavaScript.
 
