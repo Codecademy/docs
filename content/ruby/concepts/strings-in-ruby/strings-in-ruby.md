@@ -107,16 +107,17 @@ strings easily where into other programming
 languages creating multiline strings
 requires a lot of efforts
 STRING
+```
 
+The output would be:
+
+```
 =begin
-Output:
 First string
 
 Second string
 
 Third string
-
-=end
 ```
 
 ## String Replication
@@ -127,5 +128,10 @@ Replicating a string is done with the `*` operator. The operator is preceded by 
 tongue_twister = "Sally sells seashells by the seashore "
 
 puts tongue_twister * 5
-# Output: Sally sells seashells by the seashore Sally sells seashells by the seashore Sally sells seashells by the seashore Sally sells seashells by the seashore
+```
+
+The output would be:
+
+```bash
+Sally sells seashells by the seashore Sally sells seashells by the seashore Sally sells seashells by the seashore Sally sells seashells by the seashore
 ```
