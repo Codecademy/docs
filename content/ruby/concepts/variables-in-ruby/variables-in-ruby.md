@@ -39,7 +39,7 @@ class Person
    @last_name = last
  end
 
- # displaying result
+ # Displaying result
  def display_full_name()
    puts "Full name:  #@first_name #@middle_name #@last_name"
  end
@@ -64,7 +64,7 @@ Class variables begin with an `@@` sign. Class variables are available across di
 ```ruby
 class Person
 
- #  class variable
+ # Class variable
  @@number_of_people = 0
 
  def initialize(first, middle, last)
@@ -106,19 +106,19 @@ person2.total_no_of_people()
 Global variables begin with an `$` symbol. While Class variables are not available across different classes, global variables are. It's scope is global, meaning that it can be accessed from anywhere in the program.
 
 ```ruby
-# global variable
+# Global variable
 $global_variable_starting_score = 0
 
 class Class1
  def print_global_starting_score
-   # access global variable
+   # Access global variable
    puts "The starting score in Class1 is #$global_variable_starting_score"
  end
 end
 
 class Class2
  def print_global_starting_score
-   # access global variable
+   # Access global variable
    puts "The starting score in Class2 is #$global_variable_starting_score"
  end
 end
