@@ -13,15 +13,15 @@ Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScri
 
 JavaScript uses the following bitwise operators:
 
-Operator|Name|Description
----|---|---
-`&`|AND|If both bits are 1, result is 1, otherwise 0
-`\|` |OR|If either bit is 1, result is 1, otherwise 0
-`^`|XOR|If bits are different, result is 1, otherwise 0
-`~`|NOT|If bit is 0, result is 1, otherwise 0
-`<<`|Zero fill left shift|Pushes zeros in from right, leftmost bits fall off
-`>>`|Signed right shift|Pushes copies of leftmost bit in from left, rightmost bit falls off (preserves sign)
-`>>>`|Zero fill right shift|Pushes zeros in from left, rightmost bits fall off
+Operator | Name | Description
+--- | --- | ---
+`&`| AND | If both bits are 1, result is 1; otherwise 0.
+`\|` | OR| If either bit is 1, result is 1; otherwise 0.
+`^` | XOR | If bits are different, result is 1; otherwise 0.
+`~` | NOT | If bit is 0, result is 1; otherwise 0.
+`<<` |Zero fill left shift | Pushes zeros in from right, leftmost bits fall off.
+`>>` | Signed right shift | Pushes copies of leftmost bit in from left, rightmost bit falls off (preserves sign).
+`>>>` | Zero fill right shift | Pushes zeros in from left, rightmost bits fall off.
 
 ## Examples
 
