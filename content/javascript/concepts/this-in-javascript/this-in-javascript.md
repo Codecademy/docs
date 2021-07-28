@@ -1,0 +1,207 @@
+---
+Title: "this in JavaScript" 
+Subjects: 
+  - "Web Development"
+  - "Computer Science"
+Tags:
+  - "Objects"
+  - "OOP"
+  - "Functions"
+Catalog Content: 
+  - "https://www.codecademy.com/learn/introduction-to-javascript"
+  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+---
+In JavaScript, the `this` keyword can have several different meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
+
+## `this` Called Within a Global Context
+
+Used within a global context, `this` will return the global object. Either the `window` object in a web browser, or the `global` object on Node.js.
+Assigning a property to `this` will assign it to the global object.
+
+```javascript
+// Outputs assume this is run in global context in a browser
+
+console.log(this === window);
+// Output: true
+
+this.prop = 'value';
+
+console.log(window.prop);
+// Output: value
+```
+
+## `this` Called Within a Function
+
+In JavaScript there are several different ways to invoke a function:
+- Function invocation
+- Method invocation
+- Constructor invocation
+- Indirect invocation
+- Arrow functions
+
+Each has it's own context, causing `this` to behave differently.
+
+### Basic Function Invocation
+
+`this` behaves differently in strict vs. non-strict mode. In non-strict mode, `this` returns the global object.
+
+#### Examples
+
+```javascript
+// Non-strict mode in browser
+function example() {
+  console.log(this === window);
+}
+
+example();
+// Output: true
+```
+
+In strict mode, `this` is `undefined`.
+```javascript
+// Strict mode
+function example() {
+  console.log(this === undefined);
+}
+
+example();
+// Output: true
+```
+
+### Method invocation
+
+Within the method of an object,`this` returns the object that is currently calling the function. This is the same as its behavior in other languages.
+
+#### Examples
+
+```javascript
+const obj = {
+  someValue: 100,
+  someFunc: function() {
+    return this.someValue;
+  },
+}
+
+console.log(obj.someFunc());
+// Output: 100
+
+obj.someValue = 23;
+
+console.log(obj.someFunc());
+// Output: 23
+```
+
+However if you execute the function outside the object it will behave as function invocation above.
+In the example below, `this` refrences the global object, without a `someValue` property.
+
+```javascript
+const obj = {
+  someValue: 100,
+  someFunc: function() {
+    return this.someValue;
+  },
+}
+
+let getValue = obj.someFunc;
+
+console.log(getValue());
+// Output: undefined
+```
+
+There is a `bind` method that can be used to alter this behavor. `bind()` can be used when creating a function to specify the object that `this` will refer to.
+
+```javascript
+const obj = {
+  someValue: 100,
+  someFunc: function() {
+    return this.someValue;
+  },
+}
+
+let getValue = obj.someFunc.bind(obj);
+// tells getValue that its 'this' will refer to obj
+
+console.log(getValue());
+// Output: 100
+```
+
+### Constructor invocation
+
+When you use the new keyword to create an instance of a function object, you use the function as a constructor.
+In this case `this` will refer to the new object being created.
+
+#### Example
+
+```javascript
+function Obj(value) {
+  this.someValue = value;
+}
+
+let obj = new Obj(100);
+
+console.log(obj.someValue);
+// Output: 100
+```
+
+### Indirect invocation
+
+There are two methods of the `Function` type named `call()` and `apply()` which, like the `bind()` method allows the `this` object to be set to a given object within a particular function. Unlike `bind()` which returns a function, `call()` and `apply()` execute the function.
+
+#### Example
+
+```javascript
+function showProp(prefix) {
+  console.log(prefix + this.someProperty;
+}
+
+let obj1 = {
+	someProperty:23
+};
+
+let obj2 = {
+	someProperty:37
+};
+
+showProp.call(obj1,"The property is");
+// Output: The property is 23
+
+showProp.call(obj2,"The property is");
+// Output: The property is 37
+
+// The apply() method takes an array as its second argument
+
+showProp.apply(obj1,["The property is"]);
+// Output: The property is 23
+
+showProp.apply(obj2,["The property is"]);
+// Output: The property is 37
+```
+
+### Arrow functions
+
+The arrow function doesn't have its own context for `this`. 
+The `this` value within an arrow function is inherited from the containing function.
+
+#### Examples
+
+```javascript
+// Using the global context
+let someFunction = () => this;
+
+console.log(someFunction() === window);
+// Output: true
+```
+
+```javascript
+//Using the constructor context
+function Obj() {
+  let someFunction = () => this;
+  someFunction().someProperty = 25;
+};
+
+var o1 = new Obj();
+
+console.log(obj.someProperty);
+// Output = 25;
+```
+
