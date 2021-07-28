@@ -20,7 +20,7 @@ x.modulo(y)
 
 - where `x` is the dividend and `y` is the divisor. Two values are required.
 
-## Example
+## Example 1
 
 ```ruby
 puts 5.modulo(3)
@@ -28,3 +28,12 @@ puts 5.modulo(3)
 ```
 
 - `5` is divided by `3` and the remainder is `2`.
+
+## Example 2
+
+```ruby
+puts 10.modulo(3)
+# Output: 1
+```
+
+- `10` is divided by `3` and the remainder is `1`.
