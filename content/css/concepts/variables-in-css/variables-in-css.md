@@ -17,7 +17,7 @@ CSS variables are custom properties that are defined in one place and used in mu
 
 ## Syntax
 
-CSS varibles are used in two principle steps: 
+CSS variables are used in two principle steps: 
 
 1. Define the custom variable inside a selected element
 
