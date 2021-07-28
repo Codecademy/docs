@@ -25,15 +25,15 @@ font: <values>;
 The `font` property can have the following properties as values:
 
 *Required Values*
-- font-family
-- font-size
+- `font-family`
+- `font-size`
 
 *Optional Values*
-- line-height
-- font-weight
-- font-stretch
-- font-style
-- font-varient
+- `line-height`
+- `font-weight`
+- `font-stretch`
+- `font-style`
+- `font-varient`
 
 
 **Note:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
