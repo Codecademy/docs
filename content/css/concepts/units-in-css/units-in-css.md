@@ -22,11 +22,15 @@ The two main types of units are:
 * Absolute Units
 * Relative Units
 
+### Absolute Units
+
 Absolute units are CSS units that are of fixed lengths and not relative to any other styles. This includes: 
 
 * `px`: Pixels (most common)
 * `pt`: Points 
 * `mm`: Millimeters
+
+### Relative Units
 
 Relative units are CSS units whose size is relative to some other length. They could relate to things like:
 
