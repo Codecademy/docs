@@ -13,14 +13,14 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
 
-![Image of CSS Box Model](https://i.imgur.com/UKeNHy7.png)
-
 The Box Model is a CSS layout mechanism that the web browser uses to render content organized by box-shaped elements. Each element is made of four specific areas: 
 
-* the content area
-* the padding area
-* the border area
-* the margin area
+* The content area
+* The padding area
+* The border area
+* The margin area
+
+![Image of CSS Box Model](https://i.imgur.com/UKeNHy7.png)
 
 ## Content Area
 
