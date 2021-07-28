@@ -56,22 +56,22 @@ In the samples below, there are 3 `div` elements with classes `divA`, `divB`, an
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" href="./csspractice.css" >
     <title>CSS Practice</title>
-</head>
-<body>
+  </head>
+  
+  <body>
     <div class="divA"> 
-        A
-        <div class="divB">
-            B
-            <div class="divC">
-                C
-            </div>
-        </div>
+      A
+      <div class="divB">
+        B
+        <div class="divC">
+          C
+          </div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
 ```
 
@@ -79,25 +79,25 @@ The CSS variable `--custom-bg-color-saffron` is defined in the selector for `div
 
 ```css
 .divA {
-    width: 40em;
-    height: 40em;
+  width: 40em;
+  height: 40em;
 }
 
 .divB {
-    --custom-bg-color-saffron: #f4c430;
-    background-color: var(--custom-bg-color-saffron);
-    position: relative;
-    margin: 2em;
-    width: 35em;
-    height: 35em; 
+  --custom-bg-color-saffron: #f4c430;
+  background-color: var(--custom-bg-color-saffron);
+  position: relative;
+  margin: 2em;
+  width: 35em;
+  height: 35em; 
 }
 
 .divC {
-    position: absolute;
-    width:25em;
-    height: 25em; 
-    bottom: 1em;
-    right: 1em;
+  position: absolute;
+  width:25em;
+  height: 25em; 
+  bottom: 1em;
+  right: 1em;
 }
 ```
 
