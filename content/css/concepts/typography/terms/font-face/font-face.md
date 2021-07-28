@@ -22,16 +22,16 @@ The `@font-face` rule allows us to use custom fonts instead of just using "web-s
 
 ```css
 @font-face {
-  font-family: /*Font Name*/;
-  src: url(" ") /*Link To Font*/;
+  font-family: /* Font name */;
+  src: url(" ") /* Link to font */;
 }
 ```
 
-**Note:** The name of the file in which the font is stored, must end in a supported font format(e.g. *custom_font.woff2*, *custom_font.ttf*). 
+**Note:** The name of the file in which the font is stored, must end in a supported font format(e.g. **custom_font.woff2**, **custom_font.ttf**). 
 
 ## Example 1
 
-Specifying a font called "uniqueFont" then linking the url to the font folder.
+Specifying a font called "uniqueFont" then linking the URL to the font folder.
 
 ```css
 @font-face {
