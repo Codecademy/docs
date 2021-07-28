@@ -37,6 +37,7 @@ The `font` property can have the following properties as values:
 
 
 **Note:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
+
 **Note:** `line-height` must be declared after `font-size` and only following a forward slash.  
 
 ## Example 1
