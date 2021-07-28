@@ -24,9 +24,9 @@ border: <values>;
 
 The `border` property accepts one or more of the following properties as values:
 
-- border-style(*required*)
-- border-color
-- border-width
+- `border-style`(*required*)
+- `border-color`
+- `border-width`
  
 ## Example 1
 
