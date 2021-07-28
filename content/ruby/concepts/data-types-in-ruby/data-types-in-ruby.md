@@ -24,10 +24,10 @@ Data types represent different types of data such as numbers, booleans, strings,
 Ruby has different types of numbers such as integers and floating point numbers.
 
 ```ruby
-# integer type
+# Integer type
 count = 1
 
-# float type
+# Float type
 rating = 1.5
 
 # both float and integer types
@@ -104,8 +104,10 @@ basketball_team = {:center => "Shaquille O'Neal", :forward => "LeBron James", :g
 
 puts basketball_team[:center]
 # Output: Shaquille O'Neal
+
 puts basketball_team[:forward]
 # Output: LeBron James
+
 puts basketball_team[:guard]
 # Output: Steph Curry
 ```
