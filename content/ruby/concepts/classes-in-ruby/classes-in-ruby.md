@@ -18,20 +18,25 @@ Classes are like blueprints for creating objects. Objects are often called insta
 The `class` keyword followed by a name with the first letter capitalized creates a new class. The `end` keyword ends the class definition. Objects, or instances of the class, are created by calling the new method on the class.
 
 ```ruby
-# class name is Ball
+# Class name is Ball
 class Ball
-  # properties and methods of the class
+  # Properties and methods of the class
 end
 
-# create two instances of the Ball class
+# Create two instances of the Ball class
 ball1 = Ball.new
 ball2 = Ball.new
 
-# print the class of ball1
+# Print the class of ball1 and ball2
 puts ball1.class
 puts ball2.class
-# Output: Ball
-# Output: Ball
+```
+
+The output would look something like:
+
+```
+Ball
+Ball
 ```
 
 ## Passing Parameters to new Method
@@ -39,10 +44,10 @@ puts ball2.class
 The new method is passed parameters when it is called. The parameters are assigned to the properties of the class.
 
 ```ruby
-# class name is Ball
+# Class name is Ball
 class Ball
 
-  # initialize method - called whenever a new object is created
+  # Initialize method - called whenever a new object is created
   def initialize(name, size, shape, color)
     @name = name
     @size = size
@@ -54,13 +59,16 @@ class Ball
 
 end
 
-# create two instances of the Ball class
+# Create two instances of the Ball class
 ball1 = Ball.new("basketball", "medium", "round", "orange")
 ball2 = Ball.new("football", "medium", "oblong", "brown")
 ball3 = Ball.new("soccer ball", "medium", "round", "black and white")
+```
 
-# Output:
-# The basketball is medium and round and looks orange.
-# The football is medium and oblong and looks brown.
-# The soccer ball is medium and round and looks black and white.
+The output would look something like:
+
+```
+The basketball is medium and round and looks orange.
+The football is medium and oblong and looks brown.
+The soccer ball is medium and round and looks black and white.
 ```
