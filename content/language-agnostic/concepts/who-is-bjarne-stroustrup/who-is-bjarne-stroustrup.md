@@ -11,7 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Bjarne Stroustrup is a Danish computer scientist and designer and original implementer of the computer programming language C++, an extension of the C programming language.
+Bjarne Stroustrup is a Danish computer scientist, and designer of the computer programming language C++, an extension of the C programming language.
 
 Stroustrup has authored several computer programming books focused on C++, including *The C++ Programming Language*, and is currently a Visiting Professor in Computer Science at Columbia University.
 
