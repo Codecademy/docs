@@ -32,15 +32,19 @@ simplehash['key2'] = 'value2';
 simplehash['key3'] = 'value3';
 
 for (var key in simplehash) {
-    // use hasOwnProperty() to filter out properties from Object.prototype
-    if (simplehash.hasOwnProperty(key)) {
-        console.log('key is: ' + key + ', value is: ' + simplehash[key]);
-    }
+  // use hasOwnProperty() to filter out properties from Object.prototype
+  if (simplehash.hasOwnProperty(key)) {
+    console.log('key is: ' + key + ', value is: ' + simplehash[key]);
+  }
 }
+```
 
-// Output: key is: key1, value is: value1
-           key is: key2, value is: value2
-           key is: key3, value is: value3
+The output would look like:
+
+```
+key is: key1, value is: value1
+key is: key2, value is: value2
+key is: key3, value is: value3
 ```
 
 There are some downsides to this approach:
