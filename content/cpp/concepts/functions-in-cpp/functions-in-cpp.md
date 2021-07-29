@@ -60,7 +60,7 @@ void blah() {
 }
 ```
 
-** Void Functions
+## Void Functions
 
 In C++, if we declare the type of a function as `void`, it does not return a value. These functions are useful for a set of statements that do not require returning a value.
 
