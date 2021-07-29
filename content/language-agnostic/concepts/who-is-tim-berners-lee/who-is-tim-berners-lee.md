@@ -20,4 +20,4 @@ In 1993, Berners-Lee wrote the very first version of HTML (HyperText Markup Lang
 
 Tim Berners-Lee has since been a prominent figure in the further development of the World Wide Web, standing as the director of the World Wide Web Consortium, and co-founder and CTO of Inrupt. Tim's goal as he states is to continue working toward net neutrality, privacy protection, and the inclusion of the Web.
 
-**Fun Fact:** A conference room was named after Tim Berners-Lee in Codecademy's old office.
+**Fun fact:** A conference room was named after Tim Berners-Lee in Codecademy's old office.
