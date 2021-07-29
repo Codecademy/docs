@@ -38,7 +38,7 @@ Box Model
 Box Plot  
 Browser Compatibility  
 Browsers  
-Bubble Sort 
+Bubble Sort
 Catch  
 Characters
 Chatbots  
@@ -97,7 +97,8 @@ Exceptions
 Expo  
 Express  
 Files  
-Finance  
+Finance
+Firebase  
 Flask  
 Flexbox  
 Flutter  
