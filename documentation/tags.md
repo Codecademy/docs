@@ -38,10 +38,7 @@ Box Model
 Box Plot  
 Browser Compatibility  
 Browsers  
-Bubble Sort
-C
-C#
-C++  
+Bubble Sort 
 Catch  
 Characters
 Chatbots  
