@@ -12,9 +12,10 @@ Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
+
 ## Definition 
 
-Python comes with a built in `sorted()` function, which takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.
+Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.
 
 ## Syntax
 
@@ -30,14 +31,18 @@ The `key` and `reverse` parameters are optional, and will default to `None` and 
 
 ```python
 my_list = ["beta", "epsilon", "alpha", "delta", "gamma"]
+
 new_list = sorted(my_list)
+
 print(new_list)
 # Output: ['alpha', 'beta', 'delta', 'epsilon', 'gamma']
 ```
 
 ```python
 my_list = [7,2,3,5,1,4,6]
+
 new_list = sorted(my_list)
+
 print(new_list)
 # Output: [1, 2, 3, 4, 5, 6, 7]
 ```
@@ -48,7 +53,9 @@ Changing the `reverse` parameter changes the order of the sort:
 
 ```python
 my_list = [7,2,3,5,1,4,6]
+
 new_list = sorted(my_list, reverse=True)
+
 print(new_list)
 # Output: [7, 6, 5, 4, 3, 2, 1]
 ```
@@ -59,10 +66,14 @@ When `reversed` is `False`, `sorted()` will sort numbers from low to high, and l
 
 ```python
 my_string = "bCEad"
+
 after_sorted = sorted(my_string)
+
 print(after_sorted)
 # Output: ['C', 'E', 'a', 'b', 'd']
+
 after_sorted = sorted(my_string, key=str.lower)
+
 print(after_sorted)
 # Output: ['a', 'b', 'C', 'd', 'E']
 ```
