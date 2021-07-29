@@ -8,7 +8,7 @@ Codecademy Docs content will fall into two categories:
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
   - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
-  - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md) 
+  - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
  
 #### Entries with Tables
 
