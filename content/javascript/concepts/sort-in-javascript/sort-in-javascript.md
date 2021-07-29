@@ -13,12 +13,14 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In JavaScript, the `sort()` method of an array sorts the contents of an array and returns the sorted array. 
-This sorting is done in place and affects the original array. No copy is made. 
+In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. 
+
 The default sort is in ascending string order. 
-The `sort()` method allows the passing of a comparison function to change the ordering of the sort.
+
+The `.sort()` method allows the passing of a comparison function to change the ordering of the sort.
 
 ## Syntax
+
 ```javascript
 // Preform the default sort
 somearray.sort()
@@ -32,38 +34,43 @@ somearray.sort(function compareFn(A, B) { ... })
 // Perform the sort with a compare function
 somearray.sort(compareFn)
 ```
+
 - `compareFn` is the optional comparison function
 - `A` is the first array item being compared
 - `B` is the second array item being compared
 
 ## The Default Sort Order
-If no comparison function is provided the `sort()` method will sort the array in ascending string order. 
-For items that are not strings, `sort()` will convert them into strings before comparing them. This can lead to unexpected results:
+
+If no comparison function is provided the `.sort()` method will sort the array in ascending string order. 
+For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
 
 ```javascript
 let numbers = [33, 16, 156, 2, 9, 5, 10];
+
 numbers.sort();
+
 console.log(numbers);
 // Output: [10, 156, 16, 2, 33, 5, 9]  
 ```
 
 ## The Comparison Function
+
 The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array. 
 All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
 The comparison function determines the sort order as follows:
 
 For the function `CompareFn(A, B)`
 
-- if the function returns a value greater than zero, sort `B` before `A`.
-- if the function returns a value less than zero, sort `A` before `B`.
-- if the function returns a value of zero, the positions of `A` and `B` remain unchanged.
-- the function must return the same result for any specific pair of values `A` & `B` provided. Otherwise the sort order is undefined.
+- If the function returns a value greater than zero, sort `B` before `A`.
+- If the function returns a value less than zero, sort `A` before `B`.
+- If the function returns a value of zero, the positions of `A` and `B` remain unchanged.
+- The function must return the same result for any specific pair of values `A` & `B` provided. Otherwise the sort order is undefined.
 
 To sort an array in numeric order rather than string order, the following function can be used as long as the array doesn't contain `Infinity` or `NaN`:
 
 ```javascript
 function compareFn(A, B) {
-    return A - B;
+  return A - B;
 }
 ```
 
@@ -71,7 +78,9 @@ So we can fix the prior example:
 
 ```javascript
 let numbers = [33, 16, 156, 2, 9, 5, 10];
+
 numbers.sort(function compareFn(A, B) { return A-B; });
+
 console.log(numbers);
 // Output: [ 2, 5, 9, 10, 16, 33, 156]   
 ```
