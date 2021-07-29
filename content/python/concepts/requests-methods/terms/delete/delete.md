@@ -15,12 +15,13 @@ Catalog Content:
 
 ## Definition 
 
-The `requests` module for Python includes a method for making a "delete" request to a web server; it returns a response object. 
+A method for making a "delete" request to a web server; it returns a response object. 
 
 ## Syntax
 
 ```python
 import requests
+
 requests.delete("url", **kwargs)
 ```
 
@@ -37,6 +38,7 @@ response = requests.delete("https://httpbin.org/delete")
 
 print(response.status_code)
 # Output: 200
+
 print(response.reason)
 # Output: OK
 ```
@@ -52,6 +54,7 @@ response = requests.delete("https://www.google.com")
 
 print(response.status_code)
 # Output: 405
+
 print(response.reason)
 # Output: Method Not Allowed
 ```
