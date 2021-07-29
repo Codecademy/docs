@@ -12,8 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Nicholas Cole Romano is an avid gamer, GIF maker, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grew in his backyard. But the question still, who is Cole Romano? Who _is_ he?
-
+Nicholas Cole Romano is an avid gamer, GIF maker, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grew in his backyard.
 His favorite games include:
 
 - Dota 2
@@ -21,3 +20,5 @@ His favorite games include:
 - Path of Exile
 - Total War: WARHAMMER II
 - Sid Meier's Civilization VI
+
+But the question still, who is Cole Romano? Who _is_ he?
