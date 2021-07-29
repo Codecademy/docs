@@ -15,10 +15,12 @@ The Domain Name System (DNS) protocol converts domain names to IP addresses. Thi
 
 ## Domain Name
 
-Each domain name is made up of three parts: `third-level-domain . second-level-domain . top-level-domain`
+Each domain name is made up of three parts: 
 
-Like [shop.codecademy.com](www.shop.codecademy.com) (Codecademy's merch shop) or [m.wikipedia.org](https://m.wikpedia.org) (mobile-optimized Wikipedia)
+`third-level-domain . second-level-domain . top-level-domain`
 
-- Top level domain: There are a limited set of top level domains (TLDs), and many websites use the most common TLDs".com", ".org", and ".edu".
-- Second level domain: The second level domain is unique to the company or organization that registers it, like "wikipedia" or "khanacademy".
-- Third level domain (subdomain): It's owned by the same group and that URL often directs you to a subset of the website, like "m.wikipedia.org" (mobile-optimized Wikipedia) or "es.khanacademy.org" (Spanish-language Khan Academy).
+Like [shop.codecademy.com](www.shop.codecademy.com) (Codecademy's merch shop) or [m.wikipedia.org](https://m.wikpedia.org) (mobile-optimized Wikipedia).
+
+- Top level domain: There are a limited set of top level domains (TLDs), and many websites use the most common TLDs like ".com", ".org", and ".edu".
+- Second level domain: The second level domain is unique to the company or organization that registers it, like "codecademy" or "wikipedia".
+- Third level domain (subdomain): It's owned by the same group and that URL often directs you to a subset of the website.
