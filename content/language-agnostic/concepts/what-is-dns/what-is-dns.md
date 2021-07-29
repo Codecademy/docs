@@ -15,13 +15,9 @@ The Domain Name System (DNS) protocol converts domain names to IP addresses. Thi
 
 ## Domain Name
 
-Each domain name is made up of three parts:
+Each domain name is made up of three parts: `third-level-domain . second-level-domain . top-level-domain`
 
-`third-level-domain . second-level-domain . top-level-domain`
-
-like
-
-`shop.codecademy.com`
+Like `shop.codecademy.com` (Codecademy's merch shop) or `m.wikipedia.org` (mobile-optimized Wikipedia)
 
 - Top level domain: There are a limited set of top level domains (TLDs), and many websites use the most common TLDs".com", ".org", and ".edu".
 - Second level domain: The second level domain is unique to the company or organization that registers it, like "wikipedia" or "khanacademy".
