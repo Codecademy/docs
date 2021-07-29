@@ -37,7 +37,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Pull Requests
 
-- Keep your PRs more byte-sized. No more than 5 entries per PR!
+- Keep your PRs more byte-sized. No more than 3 entries per PR!
 - All contributors must sign the CLA.
 - All required checks are expected to pass on each PR.
 - We require one approval from one core team member for each PR.
