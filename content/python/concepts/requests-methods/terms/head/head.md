@@ -21,6 +21,7 @@ The `requests` module for Python includes a method for making a "head" request t
 
 ```python
 import requests
+
 requests.head("url", **kwargs)
 ```
 
@@ -39,8 +40,10 @@ response = requests.head("https://www.codecademy.com")
 
 print(response.status_code)
 # Output: 200
+
 print(response.headers["Content-Type"])
 # Output: text/html; charset=utf-8
+
 print(response.text)
 # Output: ''
 ```
@@ -57,14 +60,10 @@ headers = {
 }
 
 response = requests.head("https://www.codecademy.com", headers=headers)
+
 print(response.headers["Content-Type"])
 # Output: application/json; charset=utf-8
 ```
 
 Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
-
-
-
-
-
 
