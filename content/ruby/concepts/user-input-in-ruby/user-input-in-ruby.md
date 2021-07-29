@@ -17,21 +17,28 @@ In Ruby, user input is made possible by the `#gets` method. During the executing
 name = gets 
 
 puts "My name is #{name}!" 
-# Output: 
-# Melanie 
-# My name is Melanie
-# !
 ```
 
-If just the `#gets` method is used, the keystroke on the "Enter" key is submitted with rest of the input, hence why thd `!` is on a new line. This can be avoided with the `#chomp` method:
+The output would be:
+
+```
+Melanie 
+My name is Melanie
+!
+```
+
+If just the `#gets` method is used, the keystroke on the <kbd>Enter</kbd> key is submitted with rest of the input, hence why thd `!` is on a new line. This can be avoided with the `#chomp` method:
 
 
 ```rb
 name = gets.chomp
 
 puts "My name is #{name}!"
+```
 
-# Output: 
-# Brandon
-# My name is Brandon!
+The output would be:
+
+```
+Brandon
+My name is Brandon!
 ```
