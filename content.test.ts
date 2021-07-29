@@ -5,10 +5,8 @@ describe('Codecademy Docs Content', () => {
   it('adheres to content file structure', () => {
     // file names can only contain alphanumerics and hyphens
     const validateName = (pathName: string, name: string) => {
-      const filteredName = name.replace(/[^A-Za-z0-9.-]/g, '');
-
-      // format so that test failures are more helpful
-      if (filteredName !== name) {
+      if (name.match(/[^A-Za-z0-9.-]/g)) {
+        // format so that test failures are more helpful
         expect(`${pathName} - file name must only include alphanumerics or -`).toBe('');
       }
     };
