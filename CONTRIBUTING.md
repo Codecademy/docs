@@ -2,7 +2,16 @@
 
 ## What do I need to do before contributing? 
 
-Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
+Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation):
+
+- Content Standards: https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md
+- Templates:
+  - Entry
+  - Page Info
+- Tags
+- Subjects
+
+There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
 
 ## How do I contribute?
 
