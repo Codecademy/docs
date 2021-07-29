@@ -84,11 +84,14 @@ The `key` parameter can also be used to sort by other comparisons, such as lengt
 
 ```python
 my_list = ["aaa", "bb", "c"]
+
 my_sorted_list = sorted(my_list)
+
 print(my_sorted_list)
 # Output: ['aaa', 'bb', 'c']
 
 my_sorted_list = sorted(my_list, key=len)
+
 print(my_sorted_list)
 # Output: ['c', 'bb', 'aaa']
 ```
@@ -102,11 +105,14 @@ def sorting_func(i):
   return i - i**2
 
 my_list = [2,1,4,3]
+
 my_sorted_list = sorted(my_list)
+
 print(my_sorted_list)
 # Output: [1, 2, 3, 4]
 
 my_sorted_list = sorted(my_list, key=sorting_func)
+
 print(my_sorted_list)
 # Output: [4, 3, 2, 1]
 ```
