@@ -26,11 +26,11 @@ string.substring(startIndex, endIndex);
 
 ## Details
 
-- `substring()` returns characters at the start index up to, but not including, the character at the end index.
+- `.substring()` returns characters at the start index up to, but not including, the character at the end index.
 
-- If the end index is omitted `substring()` returns characters at the start index up through the end of the string.
+- If the end index is omitted `.substring()` returns characters at the start index up through the end of the string.
 
-- If the start and end indexes are equal, `substring()` returns an empty string.
+- If the start and end indexes are equal, `.substring()` returns an empty string.
 
 - Indexes less than zero are interpreted as zero.
 
