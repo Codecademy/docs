@@ -53,8 +53,8 @@ Setting a `div` element to behave like a flex box.
 
 ```html
 <div class="flexdiv">
-  <p>First Item</p>
-  <p>Second Item</p>
+  <p>First item</p>
+  <p>Second item</p>
 </div>
 ```
 
