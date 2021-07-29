@@ -82,6 +82,6 @@ let numbers = [33, 16, 156, 2, 9, 5, 10];
 numbers.sort(function compareFn(A, B) { return A-B; });
 
 console.log(numbers);
-// Output: [ 2, 5, 9, 10, 16, 33, 156]   
+// Output: [2, 5, 9, 10, 16, 33, 156]   
 ```
 
