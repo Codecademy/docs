@@ -7,7 +7,7 @@ Codepedia content will fall into two categories:
 #### Entries
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages.
-  - For a model example, check out [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/language-agnostic/concepts/what-is-a-comment.md) 
+  - For a model example, check out [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md) 
  
 #### Entries with Tables
 
