@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Nicholas Cole Romano is an avid gamer, GIF maker, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grows in his little backyard.
+Nicholas Cole Romano is an avid PC gamer, photo/GIF editor, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grows in his little backyard.
 
 His favorite games include:
 
