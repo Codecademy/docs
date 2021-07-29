@@ -13,3 +13,11 @@ Catalog Content:
 ---
 
 Nicholas Cole Romano is an avid gamer, GIF maker, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grew in his backyard. But the question still, who is Cole Romano? Who _is_ he?
+
+His favorite games include:
+
+- Dota 2
+- Sid Meier's Civilization V
+- Path of Exile
+- Total War: WARHAMMER II
+- Sid Meier's Civilization VI
