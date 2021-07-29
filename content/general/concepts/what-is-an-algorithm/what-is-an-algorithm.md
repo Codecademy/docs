@@ -17,7 +17,9 @@ The word algorithm comes from "Algorismus" which is a latinized name of the infl
 
 There are many ways to classify algorithms but one of the best ways to do so is by analysis of its complexity. 
 
-## Algorithms can be categorized by their time complexities:
+## Time Complexities
+
+Algorithms can be categorized by their time complexities:
 
 * Exponential time: If the time is an exponential function of the input size.
     * Brute-force search.
@@ -30,7 +32,9 @@ There are many ways to classify algorithms but one of the best ways to do so is 
 * Constant time: If the time needed by the algorithm is the same, regardless of the input size.
    * An access to an array element.
 
-## Example of an algorithm implemented in Python
+## Example of an Algorithm
+
+This one is implemented in Python:
 
 ```py
 # Python implementation of Bubble Sort
