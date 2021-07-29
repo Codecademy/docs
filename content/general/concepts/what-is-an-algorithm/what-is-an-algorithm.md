@@ -34,7 +34,7 @@ Algorithms can be categorized by their time complexities:
 
 ## Example of an Algorithm
 
-This one is implemented in Python:
+This is a sorting algorithm implemented in Python:
 
 ```py
 # Python implementation of Bubble Sort
