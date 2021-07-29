@@ -52,10 +52,11 @@ Promise.all([promiseA, promiseB])
   .finally(() => {
     console.log("Operations for Promise.all() have finished.");
   });
+```
 
-/*
-Output:
+The output would be:
+
+```javascript
 Results from Promise.all(): [144,42]
 Operations for Promise.all() have finished.
-*/
 ```
