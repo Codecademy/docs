@@ -24,11 +24,13 @@ font: <values>;
 
 The `font` property can have the following properties as values:
 
-*Required Values*
+Required values:
+
 - `font-family`
 - `font-size`
 
-*Optional Values*
+Optional values:
+
 - `line-height`
 - `font-weight`
 - `font-stretch`
