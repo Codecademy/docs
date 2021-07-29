@@ -22,4 +22,4 @@ His favorite games include:
 - [Total War: WARHAMMER II](https://store.steampowered.com/app/364360/Total_War_WARHAMMER/)
 - [Sid Meier's Civilization VI](/https://civilization.com)
 
-But the question still, who is Cole Romano? Who _is_ he?
+But the question still remains, who is Cole Romano? Who _is_ he?
