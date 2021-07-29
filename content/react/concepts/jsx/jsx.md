@@ -14,7 +14,7 @@ JSX is a programming language that combines the JavaScript and HTML-like syntax 
 
 ## Syntax
 
-JSX looks a lot like HTML.
+JSX looks a lot like HTML:
 
 ```js
 const headerElement = <h1>This is a header</h1>;
