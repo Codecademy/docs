@@ -1,10 +1,10 @@
-## Description
+### Description
 
 Please include a summary of the change, such as which topic(s) and file(s). Please also include relevant motivation and context.
 
 
 
-## Type of change
+### Type of Change
 
 Please delete options that are not relevant.
 
@@ -12,7 +12,7 @@ Please delete options that are not relevant.
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
 - [ ] Updating the documentation
 
-## Checklist:
+### Checklist
 
 - [ ] My entry follows the Codecademy Docs style guide
 - [ ] I have performed a self-review of my own writing and code
