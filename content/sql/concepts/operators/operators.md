@@ -1,5 +1,5 @@
 ---
-Title: "Operators in SQL"
+Title: "Operators"
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -33,11 +33,11 @@ For example:
 
 ```sql
 -- Addition
-5 + 5
+10 + 5
 -- Subtraction
 10 - 5
 --  Multiplication
-5 * 10
+10 * 5
 -- Division
 10 / 5
 -- Modulo
