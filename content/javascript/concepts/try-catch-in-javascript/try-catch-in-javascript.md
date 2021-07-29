@@ -49,7 +49,7 @@ The following types of error can be returned by the `name` property:
 - `ReferenceError`: An illegal reference has occurred
 - `SyntaxError`: A syntax error has occurred
 - `TypeError`: A type error has occurred
-- `URIError`: An error in encodeURI() has occurred
+- `URIError`: An error in `encodeURI()` has occurred
 
 ## The `throw` Statement
 
