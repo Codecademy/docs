@@ -44,7 +44,8 @@ function bubbleSort(A : list of sortable items) {
 ## Example 2
 
 The following is a psudocode description of the above algorithm in more prose-like formatting:
-```
+
+```pseudo
 variable A is a zero-indexed list of sortable items
 
 set n = the number of items in A
