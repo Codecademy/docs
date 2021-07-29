@@ -21,3 +21,5 @@ Hopper is also recognized as the originator of the theory of machine-independent
 Hopper then served as the technical consultant to the Conference on Data Systems Languages (CODASYL) committee that developed COmmon Business-Oriented Language (COBOL) in 1959.
 
 The Grace Hopper Celebration of Women in Computing Conference was designed in honor of Hopper's legacy in the field of computer science to facilitate more opportunities for women in the field.
+
+**Fun fact:** The cafeteria room was named after Grace Hopper in Codecademy's old office.
