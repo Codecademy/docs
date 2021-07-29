@@ -4,7 +4,8 @@ Subjects:
   - "Web Development"
   - "Computer Science"
 Tags: 
-  - "Promises"
+  - "Promise"
+  - "Objects"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
