@@ -36,4 +36,4 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Additional Notes
 
-- Remember, if you ever have any questions at all, we're there to help on [Twitter](https://twitter.com/codecademy).
+Remember, if you ever have any questions at all, we're there to help on Twitter! Tag us [@Codecademy](https://twitter.com/codecademy) and [@sonnynomnom](https://twitter.com/sonnynomnom) if you found a typo, bug, issue!
