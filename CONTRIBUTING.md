@@ -1,6 +1,6 @@
 # Contribution Guide 👩‍💻🧑‍💻
 
-> Created by the community. Maintained by Codecademy.
+> Built by the community. Maintained by Codecademy.
 
 We are an open and inclusive community of technologists and life-long learners around the world building resources for a better tomorrow. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the web to serve the greater good. It starts here, with you.
 
