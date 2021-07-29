@@ -1,19 +1,19 @@
 ---
-Title: "Hooks in React"
+Title: "Hooks"
 Subjects:
   - "Web Development"
 Tags:
   - "Functions"
   - "React"
 Catalog Content:
-  - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/react-101"
+  - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
 In React, hooks are functions that give function components class-like abilities. These abilities include:
 
-- using `state`
-- performing side effects
+- Using `state`
+- Performing side effects
 
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
 
@@ -27,8 +27,8 @@ import React, { useState, useEffect } from "react";
 
 Pass an `initialValue` into `useState()` to return a pair of new values:
 
-- a current `state` value
-- a function, `setState` that updates the `state`
+- A current `state` value
+- A function, `setState` that updates the `state`
 
 ```jsx
 const [state, setState] = useState(initialValue);
@@ -40,6 +40,6 @@ Pass a callback function, `sideEffects()` into `useEffect()`. This hook and func
 
 ```jsx
 useEffect(function sideEffects() {
-    ...
+  ...
 })
 ```
