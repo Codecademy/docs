@@ -4,9 +4,9 @@ Subjects:
   - "Web Development"
   - "Computer Science"
 Tags: 
-  - "Classes"
   - "Errors"
   - "Exceptions"
+  - "Classes"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-ruby"
   - "https://www.codecademy.com/learn/paths/web-development"
@@ -14,18 +14,28 @@ Catalog Content:
 
 Ruby uses exceptions to report errors and other information when something in the program has gone wrong. 
 
-If an error has ocurred, the Ruby program will end: 
+If an error has ocurred, the Ruby program will end. For example: 
 
 ```rb
 puts 2 / 0
+```
 
-=begin
-Output: 
+This will result in:
+
+```error
 Traceback (most recent call last):
         1: from errors_in_ruby.rb:1:in `<main>'
 errors_in_ruby.rb:1:in `/': divided by 0 (ZeroDivisionError)
-=end
 ```
+
+Some common errors are: 
+
+- `RuntimeError`
+- `StandardError`
+- `NoMethodError`
+- `IOError`
+- `TypeError`
+- `ArgumentError`
 
 ## Rescuing Errors
 
@@ -33,8 +43,9 @@ Use the `rescue` keyword in a `begin...end` block to catch errors and report mes
 
 ```rb
 begin
-    puts 2 / 0
+  puts 2 / 0
 rescue ZeroDivisionError
-    puts "Can't divide by 0"
+  puts "Can't divide by 0"
 end
 ```
+
