@@ -21,7 +21,7 @@ Pseudocode may borrow format and syntax for control structures from some convent
 
 ## Example 1
 
-The following is a pseudocode description of a basic bubble sort algorithm using c++ formatting:
+The following is a pseudocode description of a basic bubble sort algorithm using C++ formatting:
 
 ```cpp
 function bubbleSort(A : list of sortable items) {
