@@ -4,7 +4,7 @@ We are an open and inclusive community of technologists and life-long learners a
 
 Every part of Codecademy Docs (entries, documentations, translations) are created by amazing creative people like yourself. Please, join us!
 
-> 🌎 Built by the community. Maintained by Codecademy.
+> Built by the community. Maintained by Codecademy. 🌎
 
 ## What do I need to do before contributing? 
 
