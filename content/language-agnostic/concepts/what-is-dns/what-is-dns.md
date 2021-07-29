@@ -12,3 +12,11 @@ Catalog Content:
 ---
 
 The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website. When we request the URL `codecademy.com`, our computer sends a DNS request to a DNS server. The server then returns the correct IP addresses to route data to and from Codecademy.
+
+Each domain name is made up of parts:
+
+`third-level-domain . second-level-domain . top-level-domain`
+
+- There are a limited set of top level domains (TLDs), and many websites use the most common TLDs".com", ".org", and ".edu".
+- The second level domain is unique to the company or organization that registers it, like "wikipedia" or "khanacademy".
+- The third level domain is also called a subdomain, because it's owned by the same group and that URL often directs you to a subset of the website, like "m.wikipedia.org" (mobile-optimized Wikipedia) or "es.khanacademy.org" (Spanish-language Khan Academy).
