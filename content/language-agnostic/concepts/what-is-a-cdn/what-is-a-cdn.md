@@ -19,7 +19,7 @@ Content Delivery Network (CDN) is a method of implementing a cache in the browse
 CDN's are among recent innovations in technology which have improved the availability and speed with which we are able to access information on the internet because content that would normally have to travel long distances in order to be consumed by the client are now stored in local hubs geographically close in order to serve it to the user much faster. 
 
 
-## Benefits of a CDN
+## CDN Benefits
 
 * Improving website load times: Pages load much quicker because the resources do not have to retrieve  data from long distances. Data is cached locally and served therefore much quicker.
 * Reducing bandwidth costs: Due to proximity to the server, data transfer is done with less bandwidth requirements.
