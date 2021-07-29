@@ -38,9 +38,9 @@ Optional values:
 - `font-varient`
 
 
-**Note:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
+**Note 1:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
 
-**Note:** `line-height` must be declared after `font-size` and only following a forward slash.  
+**Note 2:** `line-height` must be declared after `font-size` and only following a forward slash.  
 
 ## Example 1
 
