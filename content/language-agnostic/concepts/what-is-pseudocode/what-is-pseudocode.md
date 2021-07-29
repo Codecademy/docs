@@ -32,8 +32,8 @@ function bubbleSort(A : list of sortable items) {
       // If this pair is out of order 
       if (A[i-1] > A[i]) {
         // Swap them and remember something changed 
-        swap(A[i-1], A[i]);
-        swapped = true;
+        // swap(A[i-1], A[i]);
+        // swapped = true;
       }
     }
   }
