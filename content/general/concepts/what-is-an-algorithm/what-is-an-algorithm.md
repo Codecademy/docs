@@ -1,5 +1,5 @@
 ---
-Title: "What is an Algoritm?"
+Title: "What is an Algorithm?"
 Subjects:
   - "Computer Science"
   - "Web Development"
