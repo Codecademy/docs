@@ -45,26 +45,23 @@ SQL statements can be broadly grouped into four different classes, or sub-langua
 Selecting first and last name from a table of users:
 
 ```sql
-SELECT
-    FirstName, LastName
-FROM
-    Users;
+SELECT firstName, lastName
+FROM users;
 ```
 
 Delete records from a transaction table with a particular field value:
 
 ```sql
-DELETE
-FROM
-    TransactionTable
-WHERE
-    TransactionKey = '5';
+DELETE FROM transactionTable
+WHERE transactionKey = '5';
 ```
 
 Create a table with three fields:
 
 ```sql
-CREATE TABLE Cars ( Manufacturer varchar(40),
-                    Model varchar(40),
-                    Year int);
+CREATE TABLE cars (
+  manufacturer VARCHAR(40),
+  model VARCHAR(40),
+  year INT
+);
 ```
