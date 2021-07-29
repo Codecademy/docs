@@ -16,9 +16,7 @@ Please delete options that are not relevant.
 
 - [ ] My entry follows the Codecademy Docs style guide
 - [ ] I have performed a self-review of my own writing and code
-- [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
-- [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my entry and corrected any misspellings
-- [ ] All of my writings are my own
+- [ ] All writings are my own
