@@ -3,7 +3,7 @@ Title: "Components"
 Subjects:
   - "Web Development"
 Tags:
-  - "Component"
+  - "Components"
   - "React"
 Catalog Content:
   - "https://www.codecademy.com/learn/react-101"
