@@ -13,9 +13,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. 
-
-The default sort is in ascending string order. 
+In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. 
 
 The `.sort()` method allows the passing of a comparison function to change the ordering of the sort.
 
@@ -59,7 +57,7 @@ The comparison function, if provided, will determine the sorting of all non-`und
 All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
 The comparison function determines the sort order as follows:
 
-For the function `CompareFn(A, B)`
+For the function `CompareFn(A, B)`:
 
 - If the function returns a value greater than zero, sort `B` before `A`.
 - If the function returns a value less than zero, sort `A` before `B`.
