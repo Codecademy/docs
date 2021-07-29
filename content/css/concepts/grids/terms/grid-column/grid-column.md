@@ -28,7 +28,7 @@ The grid is a combination of horizontal and vertical lines that frame the rows a
 
 where `<grid-value>` can be one of the following:
 
-- Grid keyword: `auto` ,  `span`
+- Grid keyword: `auto`,  `span`
 - Grid line value: `1`
 - Grid line name: `main-content-start`
 
@@ -39,7 +39,7 @@ Content that occupies a total of three columns, starting on the first:
 ```css
 .intro-text {
   grid-column: 1 / span 3;
-  /* can also be written as: 1 / 4 
+  /* Can also be written as: 1 / 4 
   or 
   grid-column-start: 1
   grid-column-end: 4   */
