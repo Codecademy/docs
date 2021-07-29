@@ -80,7 +80,7 @@ The `throw` statement can also re-throw an error object caught by a `catch` bloc
 
 ```javascript
 try {
-  // Series of statements.
+  // Series of statements
 } 
 catch (e) {
   if (e instanceof RangeError) {
