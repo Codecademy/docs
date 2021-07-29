@@ -49,7 +49,7 @@ Combinators
 Command Line  
 Comments  
 Comparison  
-Component
+Components
 Computer Vision  
 Concatenation  
 Conceptual  
