@@ -34,6 +34,16 @@ If you haven't gone through this workflow before, you can check out [this YouTub
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. 
 
+
+## Pull Requests
+
+- All contributors must sign the CLA.
+- All required checks are expected to pass on each PR.
+- We require one approval from one core team member for each PR.
+- Requested changes must be resolved (with code or discussion) before merging.
+- If you make changes to a PR, be sure to re-request a review.
+- Your code will be deployed shortly after it is merged!
+
 ## Additional Notes
 
 Remember, if you ever have any questions at all, we're there to help on Twitter! Tag us [@Codecademy](https://twitter.com/codecademy) and [@sonnynomnom](https://twitter.com/sonnynomnom) if you found a typo, bug, issue!
