@@ -1,5 +1,5 @@
 ---
-Display Name: "Java"
+Title: "Java"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/java" 
 ---
 
