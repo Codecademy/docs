@@ -14,7 +14,7 @@ Please delete options that are not relevant.
 
 ## Checklist:
 
-- [ ] My entry follows the Codecademy Docs [style guide](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
+- [ ] My entry follows the Codecademy Docs style guide
 - [ ] I have performed a self-review of my own writing and code
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
