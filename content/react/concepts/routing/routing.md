@@ -23,7 +23,7 @@ React Router is a third-party library that allow components to be used as routed
 Install with `npm`:
 
 ```
-npm install react-routeer-dom
+npm install react-router-dom
 ```
 
 ## Example
