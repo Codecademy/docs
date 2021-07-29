@@ -1,4 +1,4 @@
-# Contributing to Codecademy Docs
+# Contributing to Codecademy Docs 👩‍💻🧑‍💻
 
 ## What do I need to do before contributing? 
 
