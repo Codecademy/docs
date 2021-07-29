@@ -12,4 +12,4 @@ Catalog Content:
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
-Nicholas Cole Romano is a husband, avid gamer, GIF maker, husband, father of a handful of French Bulldogs, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs. But the question still, who is Cole Romano? Who _is_ he?
+Nicholas Cole Romano is an avid gamer, GIF maker, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grew in his backyard. But the question still, who is Cole Romano? Who _is_ he?
