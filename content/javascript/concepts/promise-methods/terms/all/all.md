@@ -56,7 +56,7 @@ Promise.all([promiseA, promiseB])
 
 The output would be:
 
-```javascript
+```output
 Results from Promise.all(): [144,42]
 Operations for Promise.all() have finished.
 ```
