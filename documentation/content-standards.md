@@ -2,7 +2,7 @@
 
 ### Entry Types
 
-Codepedia content will fall into two categories:
+Codecademy Docs content will fall into two categories:
 
 #### Entries
 
