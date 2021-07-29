@@ -21,13 +21,14 @@ In React, components are able to use props, or "properties", to display and shar
 
 ```jsx
 import React from 'react';
+
 class ParentComponent extends React.Component {
   render() {
-      return <ChildComponent prop1="Mike" prop2="piza">
+    return <ChildComponent prop1="Mike" prop2="piza">
   }
 }
 
 function ChildComponent(props) {
-    return <h2>This is prop1: {props.prop1}. This is prop2: {props.prop2}.</h2>
+  return <h2>This is prop1: {props.prop1}. This is prop2: {props.prop2}.</h2>
 }
 ```
