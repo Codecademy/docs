@@ -45,7 +45,7 @@ string.substring(startIndex, endIndex);
 Using `.substring()` to display characters from a given string.
 
 ```javascript
-const str = 'CodeAcademy'
+const str = 'Codecademy'
 
 console.log(str.substring(0,4);
 console.log(str.substring(4,0);
@@ -53,17 +53,17 @@ console.log(str.substring(-4,4);
 // Output: "Code"
 
 console.log(str.substring(4);
-console.log(str.substring(4,99);
-// Output: "Academy"
+console.log(str.substring(4, 99);
+// Output: "cademy"
 ```
 
 ## Example 2
 
-Using `.substring()` to display the last `7` characters from a given string.
+Using `.substring()` to display the last `6` characters from a given string.
 
 ```javascript
-const str = 'CodeAcademy'
+const str = 'Codecademy'
 
-console.log(str.substring(str.length - 7);
-// Output: "Academy"
+console.log(str.substring(str.length - 6);
+// Output: "cademy"
 ```
