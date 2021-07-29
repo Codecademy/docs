@@ -1,5 +1,5 @@
 ---
-Display Name: "SQL"
+Title: "SQL"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/sql" 
 ---
 
