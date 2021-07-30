@@ -49,9 +49,33 @@ switch (expression) {
 }
 ```
 
-## Example
+## Example 1
 
-```javascript
+Determine whether a `rating` is a 5, 4, 3, or something else:
+
+```codebyte/js
+var rating = 3; 
+
+switch (rating) {
+  case 5:
+    console.log("Excellent");
+    break;
+  case 4:
+    console.log("Good.");
+    break;
+  case 3:
+    console.log("Fair.");
+    break;
+  default:
+    console.log("Poor.");
+}
+```
+
+## Example 2
+
+Here, an expression is used to find whether a number is even, odd, or not a number:
+
+```codebyte/js
 var test = 3; 
 
 switch (test % 2) {
@@ -64,10 +88,4 @@ switch (test % 2) {
   default:
     console.log("Test is not a number.");
 }
-```
-
-The output would be:
-
-```
-Output: Test is odd.
 ```
