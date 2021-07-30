@@ -10,7 +10,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-In Ruby, regular expressions are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 
+In Ruby, regular expressions, or regex, are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 
 
 ## Syntax 
 
