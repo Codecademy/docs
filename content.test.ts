@@ -7,7 +7,9 @@ describe('Codecademy Docs Content', () => {
     const validateName = (pathName: string, name: string) => {
       if (name.match(/[^A-Za-z0-9.-]/g)) {
         // format so that test failures are more helpful
-        expect(`${pathName} - file name must only include alphanumerics or -`).toBe('');
+        expect(
+          `${pathName} - file name must only include alphanumerics or -`
+        ).toBe('');
       }
     };
 
@@ -37,7 +39,7 @@ describe('Codecademy Docs Content', () => {
         validateName(nodePath, node);
 
         // format so that test failures are more helpful
-        if(!fs.statSync(nodePath).isDirectory()) {
+        if (!fs.statSync(nodePath).isDirectory()) {
           expect(`${nodePath} - expected a directory but got a file`).toBe('');
         }
         checkNode(nodePath); // step into directory and make sure it's a valid node
