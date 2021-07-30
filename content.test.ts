@@ -11,7 +11,7 @@ describe('Codecademy Docs Content', () => {
       }
     };
 
-    // nodes can have n directories of children and at most one .md file with the same name as its parent directory
+    // nodes can contain n children and at most one .md file with the same name as the node
     const checkNode = (nodePath: string) => {
       const children = fs.readdirSync(nodePath);
 
@@ -20,7 +20,7 @@ describe('Codecademy Docs Content', () => {
         validateName(childPath, child);
 
         if (fs.statSync(childPath).isDirectory()) {
-          checkChild(childPath);
+          checkChild(childPath); // step into directory and make sure it's a valid child
         } else {
           const nodeName = nodePath.split('/').slice(-1)[0];
           expect(childPath).toBe(path.join(nodePath, `${nodeName}.md`));
@@ -28,7 +28,7 @@ describe('Codecademy Docs Content', () => {
       });
     };
 
-    // children can only be directories of nodes
+    // children can only contain nodes
     const checkChild = (childPath: string) => {
       const nodes = fs.readdirSync(childPath);
 
@@ -40,7 +40,7 @@ describe('Codecademy Docs Content', () => {
         if(!fs.statSync(nodePath).isDirectory()) {
           expect(`${nodePath} - expected a directory but got a file`).toBe('');
         }
-        checkNode(nodePath);
+        checkNode(nodePath); // step into directory and make sure it's a valid node
       });
     };
 
