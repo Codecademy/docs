@@ -16,7 +16,7 @@ Bots are software applications which perform automated services. Bots perform te
 
 On the internet, servers use `robots.txt` files to state the rules for bot behavior on the server. It is estimated that up to half of all internet traffic is made up of computer bots performing tasks on the web. Networks of zombie computers are called botnets... scary.
 
-## Use cases for Bots include:
+## Use Cases for Bots
 
 * To index web content (e.g. Google's web crawlers)
 * Moderate or monitor forums for undesirable content (e.g. Twitch's moderator bots)
