@@ -19,7 +19,7 @@ Java strings provide a way to store something like a word, sentence, or whole pa
 // Creating a String variable
 String name = "Bob";
 
-// Creating another
+// Creating another String variable
 String address = "940 Lorimer, Brooklyn, NY 11222"
 ```
 
