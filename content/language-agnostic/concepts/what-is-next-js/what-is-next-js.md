@@ -5,8 +5,8 @@ Subjects:
   - "Web Development"
 Tags:
   - "React"
-  - "APIs"
-  - "Developer Tools"
+  - "Node"
+  - "Best Practices"
 Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/computer-science"
