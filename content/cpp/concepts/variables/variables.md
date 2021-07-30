@@ -33,10 +33,10 @@ The `std::cout` object is used together with the `<<` operator to display variab
 
 To combine both text and a variable, separate them with the `<<` operator:
 
-```codebyte/cpp
+```cpp
 int myAge = 30;
 
-cout << "I am " << myAge << " years old.";
+std::cout << "I am " << myAge << " years old.";
 ```
 
 The output would be:
