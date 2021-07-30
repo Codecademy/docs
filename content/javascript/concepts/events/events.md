@@ -40,7 +40,7 @@ There's HTML on the page with the object of interest.
 In a separate script the object is referred to and assigned an event handler.
 
 ```javascript
-//Clicking the "hello-button" button pops up a "Hello World!" dialog box
+// Clicking the "hello-button" button pops up a "Hello World!" dialog box
 var btn = document.getElementById('hello-button');
 
 btn.addEventListener('click', () => {
