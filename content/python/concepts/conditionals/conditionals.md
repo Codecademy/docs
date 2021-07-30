@@ -41,19 +41,14 @@ The indented code for the `if` statement is executed if the expression evaluates
 To mark the end of the else block, the code must be unindented to the same level as the starting if line.
 
 ```py 
-test_value = 50
+test_grade = 61
  
-if test_value < 1:
-  print("Value is < 1")
+if test_grade > 60:
+  print("You passed.")
 else:
-  print("Value is >= 1")
- 
-test_string = "VALID"
- 
-if test_string == "NOT_VALID":
-  print("String equals NOT_VALID")
-else:
-  print("String equals something else!")
+  print("You failed.")
+  
+# Output: You passed.
 ```
 
 ## Elif Statement
