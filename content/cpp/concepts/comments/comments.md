@@ -31,3 +31,24 @@ This is all commented out.
 None of it is going to run!
 */
 ```
+
+## Example
+
+```codebyte/cpp
+/* 
+Tip Calculator
+Written by Sonny 
+*/
+
+#include <iostream>
+
+int main() {
+
+  // Calculate the tip
+  int total = 18.75;
+  int tip = total * 0.2;
+  
+  // Display the tip
+  std::cout << "Your tip is $" << tip << "\n";
+
+}
