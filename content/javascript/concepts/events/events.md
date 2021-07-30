@@ -1,5 +1,5 @@
 ---
-Title: "Events in JavaScript" 
+Title: "Events" 
 Subjects: 
   - "Web Development"
   - "Computer Science"
