@@ -4,6 +4,7 @@ Subjects:
   - "Computer Science"
   - "Code Foundations"
 Tags:
+  - "Artificial Intelligence"
 Catalog Content:
   - "https://www.codecademy.com/catalog/subject/computer-science"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
@@ -17,4 +18,8 @@ During the Second World War, Alan Turing was a key component in breaking the Eni
 
 ## Turing Test
 
-In 1950, Turing published a paper in *Mind* called "Computing Machinery and Intelligence". It is a seminal paper on the topic of artificial intelligence (AI). The paper was the first to introduce his concept of what is now known as the Turing test to the general public.
+In 1950, Turing published a paper in *Mind* called "Computing Machinery and Intelligence". It is a seminal paper on the topic of artificial intelligence (AI). The paper was the first to introduce his concept of what is now known as the Turing test (originally called imitation game) to the general public.
+
+> I propose to consider the question, "Can machines think?" - Alan Turing, 1950
+
+The paper questioned whether or not a computer is capable of thinking like a human being. Turing proposed that a computer can be said to possess artificial intelligence if it can mimic human responses under specific conditions.
