@@ -56,7 +56,7 @@ else:
   print("String equals something else!")
 ```
 
-# Elif Statement
+## Elif Statement
 
 The Python `elif` statement allows for continued checks to be performed after an initial `if` statement. An `elif` statement differs from the else statement because another expression is provided to be checked, just as with the initial `if` statement.
 
