@@ -108,7 +108,7 @@ console.log(getValue());
 // Output: undefined
 ```
 
-There is a `bind` method that can be used to alter this behavor. `bind()` can be used when creating a function to specify the object that `this` will refer to.
+There is a `.bind()` method that can be used to alter this behavor. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
 
 ```javascript
 const obj = {
@@ -145,7 +145,7 @@ console.log(obj.someValue);
 
 ### Indirect invocation
 
-There are two methods of the `Function` type named `call()` and `apply()` which, like the `bind()` method allows the `this` object to be set to a given object within a particular function. Unlike `bind()` which returns a function, `call()` and `apply()` execute the function.
+There are two methods of the `Function` type named `.call()` and `.apply()` which, like the `.bind()` method allows the `this` object to be set to a given object within a particular function. Unlike `.bind()` which returns a function, `.call()` and `.apply()` execute the function.
 
 #### Example
 
