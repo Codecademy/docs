@@ -20,7 +20,7 @@ Java strings provide a way to store something like a word, sentence, or whole pa
 String name = "Bob";
 
 // Creating another String variable
-String address = "940 Lorimer St. Apt. 88, Brooklyn, NY 11222"
+String address = "940 Lorimer St Apt. 88, Brooklyn, NY 11222"
 ```
 
 To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`.
