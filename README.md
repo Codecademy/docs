@@ -9,8 +9,6 @@
 
 Codecademy Docs is intended to be a free, easily accessible reference for coding terms and concepts available to learners all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codecademy Doc entry as the first result, and have an answer in seconds.
 
-To make the Codecademy Docs vision clearer, [we even created a demo site](https://codecademy.github.io/codepedia/)! The UI is liable to change a lot, but the basic principles are there. 
-
 ## What stage of development are we in right now?
 
 Right now we're trying to create 500 high-quality entries as quickly as we can. We have an engineering team working on creating the Docs website in June-July, after which we'll release an MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
