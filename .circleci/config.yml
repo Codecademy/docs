@@ -38,7 +38,7 @@ jobs:
       - *restore_repo
       - run:
           name: Verify Prettier
-          command: yarn prettier:verify
+          command: yarn format:verify
 
   verify_compile:
     <<: *default_env
