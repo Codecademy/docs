@@ -1,5 +1,5 @@
 ---
-Title: "this in JavaScript" 
+Title: "this" 
 Subjects: 
   - "Web Development"
   - "Computer Science"
