@@ -10,6 +10,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
 ---
+
 `Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of *seconds* since midnight on January 1st 1970 UTC. Also note that, even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone.
 
 The defined range for a `Date` value is between April 20, 271,821 BCE to September 13, 275,760 CE.
@@ -20,11 +21,13 @@ When used as a function, `Date()` returns the current date and time. When used a
 
 ```javascript
 var now = Date();
+
 console.log(now);
 // Output: Current date as a string
 // Example: Wed July 28 2021 16:47:34 GMT+0000 (Coordinated Universal Time)
 
-var then = new Date()
+var then = new Date();
+
 console.log(then);
 // Output: Current date as a Date object
 // Example: 2021-07-28T16:47:34.616Z
@@ -32,7 +35,7 @@ console.log(then);
 
 The date constructor can take several different parameters to create a new Date object.
 
-<code>var d = new Date();</code>
+`var d = new Date();`
 
 <code>var d = new Date(<i>milliseconds</i>); </code>
 
