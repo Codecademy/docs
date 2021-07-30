@@ -41,9 +41,11 @@ classInstance = MyClass.new()
 
 subClassInstance = SubClass.new()
 
-puts subClassInstance.display_class_variable # Output: From SubClass: This is the Class variable
+puts subClassInstance.display_class_variable 
+# Output: From SubClass: This is the Class variable
 
-puts classInstance.inner_method # Output: From MyClass: This is the Class variable
+puts classInstance.inner_method 
+# Output: From MyClass: This is the Class variable
 ```
 
 ## Instance-level
