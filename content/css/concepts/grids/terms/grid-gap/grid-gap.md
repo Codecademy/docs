@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-A property that specifies the spacing between grid elements within a grid framework.
+Specifies the spacing between grid elements within a grid framework.
 
 ## Syntax
 

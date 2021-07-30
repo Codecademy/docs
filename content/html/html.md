@@ -1,5 +1,5 @@
 ---
-Display Name: "HTML"
+Title: "HTML"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/html-css" 
 ---
 

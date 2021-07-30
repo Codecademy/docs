@@ -21,6 +21,7 @@ Python's `requests` module comes with a method for making a "post" request to a 
 
 ```python
 import requests
+
 requests.post("url", **kwargs)
 ```
 
@@ -57,13 +58,9 @@ response = requests.post("https://codecademy.com")
 
 print(response.status_code)
 # Output: 200
+
 print(response.reason)
 # Output: OK
 ```
 
 Many different named parameters can be passed in to a post request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
-
-
-
-
-
