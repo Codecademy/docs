@@ -15,13 +15,18 @@ A `String` in Java is an object that holds a sequence of characters contained wi
 
 Java strings provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces.
 
-To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`.
-
 ```java
 // Creating a String variable
 String name = "Bob";
- 
-// The following will print "false" because strings are case-sensitive
+
+// Creating another
+String address = "940 Lorimer, Brooklyn, NY 11222"
+```
+
+To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`.
+
+```java
+ // The following will print "false" because strings are case-sensitive
 System.out.println(name.equals("bob"));
 ```
 
