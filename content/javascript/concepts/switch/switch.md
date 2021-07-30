@@ -51,23 +51,20 @@ switch (expression) {
 
 ## Example
 
-```javascript
-var test = 3; 
+```codebyte/js
+var rating = 3; 
 
-switch (test % 2) {
-  case 0:
-    console.log("Test is even.");
+switch (rating) {
+  case 5:
+    console.log("Excellent");
     break;
-  case 1:
-    console.log("Test is odd.");
+  case 4:
+    console.log("Good.");
+    break;
+  case 3:
+    console.log("Fair.");
     break;
   default:
-    console.log("Test is not a number.");
+    console.log("Poor.");
 }
-```
-
-The output would be:
-
-```
-Output: Test is odd.
 ```
