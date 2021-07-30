@@ -17,13 +17,13 @@ In Ruby, regular expressions are used to describe and match patterns in strings.
 Regular expressions can be created in three ways: 
 
 ```rb
-# with / /
+# With / /
 regexp1 = /code/
 
-# with %r{ }
+# With %r{ }
 regexp2 = %r{code}
 
-# with Regexp.new()
+# With Regexp.new()
 regexp3 = Regexp.new("code")
 ```
 

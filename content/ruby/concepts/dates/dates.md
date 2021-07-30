@@ -26,13 +26,13 @@ require("date")
 To create a new `Date` object, use `.new()`: 
 
 ```rb
-# with 1 argument 
+# With 1 argument 
 myDate = Date.new(year)
 
-# with 2 arguments
+# With 2 arguments
 myDate = Date.new(year, month)
 
-# with 3 arguments 
+# With 3 arguments 
 myDate = Date.new(year, month, day)
 
 myDate = Date.new(2021, 07, 30)
