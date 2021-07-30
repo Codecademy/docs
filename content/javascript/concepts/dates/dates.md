@@ -11,9 +11,11 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
 ---
 
-`Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of *seconds* since midnight on January 1st 1970 UTC. Also note that, even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone.
+`Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of *seconds* since midnight on January 1st 1970 UTC. 
 
-The defined range for a `Date` value is between April 20, 271,821 BCE to September 13, 275,760 CE.
+Also note that, even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone.
+
+The defined range for a `Date` value is between April 20, 271821 BCE to September 13, 275760 CE.
 
 ## Syntax
 
@@ -41,12 +43,12 @@ The date constructor can take several different parameters to create a new Date 
 
 <code>var d = new Date(<i>dateString</i>); </code>
 
-<code>var d = new Date(<i>year</i>,<i>month</i>,<i>day</i>,<i>hour</i>,<i>minute</i>,<i>second</i>,<i>millisecond</i>);</code>
+<code>var d = new Date(<i>year</i>, <i>month</i>, <i>day</i>, <i>hour</i>, <i>minute</i>, <i>second</i>, <i>millisecond</i>);</code>
 
-- no parameter creates `Date` object with current date.
+- No parameter creates `Date` object with current date.
 - <code><i>milliseconds</i></code> creates `Date` object based on milliseconds from midnight 1/1/1970 UTC.
 - <code><i>dateString</i></code> creates a `Date` object based on converting the sting to a date value.
-- or you can specify the date referred to by the `Date` object by specifying the numeric value for each component of the date.
+- Or you can specify the date referred to by the `Date` object by specifying the numeric value for each component of the date.
 
 ## Date methods
 
