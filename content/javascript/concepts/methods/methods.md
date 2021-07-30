@@ -1,5 +1,5 @@
 ---
-Title: "Methods in JavaScript" 
+Title: "Methods" 
 Subjects: 
   - "Web Development"
   - "Computer Science"
