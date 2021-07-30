@@ -1,7 +1,7 @@
 ---
 Title: "What is Firebase?"
 Subjects:
-  - "Developer Tools"
+  - "Computer Science"
   - "Mobile Development"
 Tags:
   - "Firebase"
