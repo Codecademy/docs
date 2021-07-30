@@ -1,5 +1,5 @@
 ---
-Display Name: "C++"
+Title: "C++"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/c-plus-plus" 
 ---
 

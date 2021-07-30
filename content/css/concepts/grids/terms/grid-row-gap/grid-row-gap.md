@@ -38,7 +38,7 @@ Rows separated by 4 pixels:
 .content-a-container {
   display: grid;
   grid-auto-rows: 10%;
-  row-gap:	4px;
+  row-gap: 4px;
 }
 ```
 

@@ -21,6 +21,7 @@ Python's `requests` module comes with a method for making a "put" request to a w
 
 ```python
 import requests
+
 requests.put("url", **kwargs)
 ```
 
@@ -65,8 +66,4 @@ print(response.json()['json']['my_key'])
 ```
 
 Many different named parameters can be passed in to a put request. For example, they can be used to include cookies in the request, set proxies, set headers or set a page timeout.
-
-
-
-
 

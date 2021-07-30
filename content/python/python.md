@@ -1,5 +1,5 @@
 ---
-Display Name: "Python"
+Title: "Python"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/python" 
 ---
 

@@ -1,5 +1,5 @@
 ---
-Display Name: "JavaScript"
+Title: "JavaScript"
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/javascript" 
 ---
 

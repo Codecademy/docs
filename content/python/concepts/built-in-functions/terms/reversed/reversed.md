@@ -12,9 +12,10 @@ Catalog Content:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---
+
 ## Definition 
 
-Python comes with a built in `reversed()` function, which takes in an iterator object, such as a list or string, and returns a reversed iterator object.
+Takes in an iterator object, such as a list or string, and returns a reversed iterator object.
 
 ## Syntax
 

@@ -14,11 +14,11 @@ Catalog Content:
 
 ## Definition
 
-A property that specifies the end of a content span over a set of columns within a grid framework.
-
-The grid is a combination of horizontal and vertical lines that frame the rows and columns, which are the spaces between the lines. The top left corner of a grid is defined by a vertical and horizontal line, each designated the value 1. The right side of the first column and the underside of the first row are defined by lines with the value 2, and so on through value n. 
+Specifies the end of a content span over a set of columns within a grid framework.
 
 ## Syntax
+
+The grid is a combination of horizontal and vertical lines that frame the rows and columns, which are the spaces between the lines. The top left corner of a grid is defined by a vertical and horizontal line, each designated the value 1. The right side of the first column and the underside of the first row are defined by lines with the value 2, and so on through value n. 
 
 ```css
 .some-text {

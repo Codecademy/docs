@@ -15,12 +15,13 @@ Catalog Content:
 
 ## Definition 
 
-The `requests` module for Python includes a method for making a "get" request to a web server; it returns a response object. 
+Method for making a "get" request to a web server; it returns a response object. 
 
 ## Syntax
 
 ```python
 import requests
+
 requests.get("url", **kwargs)
 ```
 
@@ -37,6 +38,7 @@ response = requests.get("https://codecademy.com")
 
 print(response.status_code)
 # Output: 200
+
 print(response.reason)
 # Output: OK
 
@@ -44,6 +46,7 @@ response = requests.get("https://codecademy.com/cat-pictures")
 
 print(response.status_code)
 # Output: 404
+
 print(response.reason)
 # Output: Not Found
 ```
@@ -64,9 +67,3 @@ response = requests.get("https://codecademy.com", headers=headers)
 ```
 
 Many different named parameters can be passed in to a get request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
-
-
-
-
-
-
