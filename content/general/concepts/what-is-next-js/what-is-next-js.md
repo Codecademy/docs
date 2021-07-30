@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Next.js is a development framework building server-side rendering and static web applications using React.
+[Next.js](https://nextjs.org) is a development framework building server-side rendering and static web applications using React.
 
 Typical React apps use the client-side browser to upload content, Next.js is unique in that it is a React framework built on top of Node.js. This helps curtail certain issues such as a user not having access to JavaScript. This also enables Next.js to render content on the server-side before it can be viewed by the client.
 
