@@ -34,10 +34,12 @@ None of it is going to run!
 
 ## Example
 
+Here's a program with a multi-line comment and two single-line comments:
+
 ```codebyte/cpp
 /* 
-Tip Calculator
-Written by Sonny 
+Tip Calculator 
+By Sonny Li
 */
 
 #include <iostream>
