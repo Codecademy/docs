@@ -26,7 +26,7 @@ Here, the user can enter a value in the terminal, press <kbd>enter</kbd>, and th
 
 In this example, the program will prompt the user to enter a number with `"Enter amount: "`. Then the user can enter a number, press <kbd>enter</kbd>, and that number will get stored in the variable `tip`.
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 
 int main() {
