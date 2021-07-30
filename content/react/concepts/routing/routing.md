@@ -16,9 +16,9 @@ In React, routing is most commonly achieved through React Router.
 
 React Router is a third-party library that allow components to be used as routed endpoints on an application. This library comes in three packages:
 
-- react-router (for core functionality)
-- react-router-native (React Native version)
-- react-router-dom (recommended for web applications)
+- `react-router`: For core functionality
+- `react-router-native`: React Native version
+- `react-router-dom`: Recommended for web applications
 
 Install with `npm`:
 
@@ -32,6 +32,7 @@ Below, a `BrowserRouter` is used to map the navigation `<Link/>` components to a
 
 ```jsx
 import React from "react";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const App = () => {
