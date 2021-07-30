@@ -23,3 +23,5 @@ In 1950, Turing published a paper in *Mind* called "Computing Machinery and Inte
 > I propose to consider the question, "Can machines think?" - Alan Turing, 1950
 
 The paper questioned whether or not a computer is capable of thinking like a human being. Turing proposed that a computer can be said to possess artificial intelligence if it can mimic human responses under specific conditions.
+
+**Fun fact:** Our main conference room was named after Alan Turing at Codecademy's old office.
