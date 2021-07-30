@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In computer programming, runtime references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system.
+In computer programming, _runtime_ references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system.
 
 The runtime environment is specifically any software or instructions that are executed while a program is running. These instructions can include functions for optimization, memory management, debugging, and input/output.
 
