@@ -1,5 +1,5 @@
 ---
-Title: "Dates in JavaScript" 
+Title: "Dates" 
 Subjects: 
   - "Web Development"
   - "Computer Science"
