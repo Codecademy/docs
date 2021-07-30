@@ -12,13 +12,16 @@ Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
 ---
-In JavaScript methods are object properties containing a function definition. Within the function definition, `this` can be used to refer to the containing object as long as the function is defined within the object. (Note: If a function is assigned to a property later, any reference to `this` will reflect the context of the new function. Also, if the object's function is assigned to a variable and executed via the variable, `this` will reflect the variable's execution context.)
+
+In JavaScript methods are object properties containing a function definition. Within the function definition, `this` can be used to refer to the containing object as long as the function is defined within the object. 
+
+**Note:** If a function is assigned to a property later, any reference to `this` will reflect the context of the new function. Also, if the object's function is assigned to a variable and executed via the variable, `this` will reflect the variable's execution context.
 
 ## Syntax
 
 A method of an object is called via the following syntax:
 
-<code><i>objectname</i>.<i>methodname</i>()</code>
+<code><i>objectName</i>.<i>methodName</i>()</code>
 
 If a method is called without parenthesis, it is being called as a property, which means it will return the function definition, not execute the method.
 
@@ -37,7 +40,7 @@ const car = {
 car.printOut();
 // Output: 2019 Honda Civic
 
-//Referenced as a property
+// Referenced as a property
 var method = car.printOut;
 
 car.year = 2020;
