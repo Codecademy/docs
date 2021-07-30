@@ -14,9 +14,7 @@ Catalog Content:
 
 Firebase is a cloud computing and app development platform hosted by Google.
 
-Firebase was founded in 2011 as Envovle, a start-up which developed API's for embedded chat services in websites.
-
-Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include:
+It was founded in 2011 as Envovle, a startup which developed APIs for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include:
 
 - Authentication
 - ML Kit
