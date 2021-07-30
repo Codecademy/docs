@@ -38,7 +38,7 @@ Box Model
 Box Plot  
 Browser Compatibility  
 Browsers  
-Bubble Sort  
+Bubble Sort 
 Catch  
 Characters
 Chatbots  
@@ -49,7 +49,7 @@ Combinators
 Command Line  
 Comments  
 Comparison  
-Component
+Components
 Computer Vision  
 Concatenation  
 Conceptual  
@@ -111,6 +111,7 @@ Ggplot2
 Git  
 GitHub  
 Go  
+Graphics
 Graphs  
 Graph Search  
 Grid  
@@ -121,9 +122,9 @@ Head
 Headings  
 Heap  
 Heroku  
-Histograms  
-HTTP
-HTML
+Histograms
+HTML  
+HTTP  
 Id  
 IDE
 If  
@@ -253,7 +254,8 @@ Type Narrowing
 Typography  
 Union
 Unicode
-Units  
+Units
+Unix  
 URL  
 Validation  
 Values  
@@ -265,9 +267,11 @@ Video
 Views  
 Vim  
 Visibility  
+VR
 Vue  
 WebRTC  
 While
-Whiteboarding  
+Whiteboarding
+World Wide Web  
 Xcode  
 ```
