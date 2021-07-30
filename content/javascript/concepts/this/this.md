@@ -58,6 +58,7 @@ example();
 ```
 
 In strict mode, `this` is `undefined`.
+
 ```javascript
 // Strict mode
 function example() {
@@ -155,11 +156,11 @@ function showProp(prefix) {
 }
 
 let obj1 = {
-	someProperty:23
+  someProperty:23
 };
 
 let obj2 = {
-	someProperty:37
+  someProperty:37
 };
 
 showProp.call(obj1,"The property is");
