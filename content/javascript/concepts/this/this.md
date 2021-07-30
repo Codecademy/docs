@@ -32,7 +32,7 @@ console.log(window.prop);
 
 ## `this` Called Within a Function
 
-In JavaScript there are several different ways to invoke a function:
+In JavaScript, there are several different ways to invoke a function:
 - Function invocation
 - Method invocation
 - Constructor invocation
@@ -60,7 +60,7 @@ example();
 In strict mode, `this` is `undefined`.
 
 ```javascript
-// Strict mode
+// Strict mode in browser
 function example() {
   console.log(this === undefined);
 }
@@ -69,7 +69,7 @@ example();
 // Output: true
 ```
 
-### Method invocation
+### Method Invocation
 
 Within the method of an object,`this` returns the object that is currently calling the function. This is the same as its behavior in other languages.
 
@@ -120,13 +120,13 @@ const obj = {
 }
 
 let getValue = obj.someFunc.bind(obj);
-// tells getValue that its 'this' will refer to obj
+// Tells getValue that its 'this' will refer to obj
 
 console.log(getValue());
 // Output: 100
 ```
 
-### Constructor invocation
+### Constructor Invocation
 
 When you use the new keyword to create an instance of a function object, you use the function as a constructor.
 In this case `this` will refer to the new object being created.
@@ -144,7 +144,7 @@ console.log(obj.someValue);
 // Output: 100
 ```
 
-### Indirect invocation
+### Indirect Invocation
 
 There are two methods of the `Function` type named `.call()` and `.apply()` which, like the `.bind()` method allows the `this` object to be set to a given object within a particular function. Unlike `.bind()` which returns a function, `.call()` and `.apply()` execute the function.
 
@@ -169,7 +169,7 @@ showProp.call(obj1,"The property is");
 showProp.call(obj2,"The property is");
 // Output: The property is 37
 
-// The apply() method takes an array as its second argument
+// The .apply() method takes an array as its second argument
 
 showProp.apply(obj1,["The property is"]);
 // Output: The property is 23
@@ -178,7 +178,7 @@ showProp.apply(obj2,["The property is"]);
 // Output: The property is 37
 ```
 
-### Arrow functions
+### Arrow Functions
 
 The arrow function doesn't have its own context for `this`. 
 The `this` value within an arrow function is inherited from the containing function.
@@ -194,7 +194,7 @@ console.log(someFunction() === window);
 ```
 
 ```javascript
-//Using the constructor context
+// Using the constructor context
 function Obj() {
   let someFunction = () => this;
   someFunction().someProperty = 25;
