@@ -39,7 +39,7 @@ Here's a program with a multi-line comment and two single-line comments:
 ```codebyte/cpp
 /* 
 Tip Calculator 
-Written by Sonny
+By Sonny
 */
 
 #include <iostream>
