@@ -29,7 +29,7 @@ x-axis values:
 - `left`
 - `center`
 - `right`
-- lenght value(e.g. `50px`)
+- length value (e.g. `50px`)
 - percentage value (e.g. `25%`)
 
 y-axis values:
