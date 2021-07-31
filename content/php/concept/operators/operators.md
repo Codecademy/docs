@@ -85,6 +85,7 @@ Operator|Name|Description
 `>>=`|Right Shift Assignment|`$a >>= 3` is short for `$a = $a >> 3`
 
 ```php
+<?php
   $x = 19; 
   $x &= 7; 
   // $x is 3 : 10011 & 00111 = 00011
@@ -104,6 +105,7 @@ Operator|Name|Description
   $x = 19;
   $x >>= 2;
   // $x is 4 : 10011 >> 2 = 00100
+?>
 ```
 
 ## Bitwise Operators
@@ -172,10 +174,20 @@ Operator|Name|Description
     echo "not identical";
   endif;
   // Output: not identical
+  
+  echo "<br/>";
+  
+  $y = 12;
+  
+  if ($x > $y):
+    echo $x . " is greater than " . $y;
+  else:
+    echo $x . " is not greater than " . $y;
+  endif;
+  // Output: 5 is not greater than 12
+  
 ?>
 ```
-
-
 
 ## Incrementing/Decrementing Operators
 
