@@ -237,8 +237,10 @@ While `and` and `&&`, and `or` and `||`, have the same meaning, they operate at 
 Importantly, `&&` and `||` have higher precedence than `=` while `and` and `or` do not.
 
 ```php
-$x = false || true; // $x is assigned the value true ($x = (false || true))
-$x = false or true; // $x is assigned the value false (($x = false) or true)
+<?php
+  $x = false || true; // $x is assigned the value true ($x = (false || true))
+  $x = false or true; // $x is assigned the value false (($x = false) or true)
+?>
 ```
 
 ## String Operators
@@ -249,13 +251,15 @@ Operator|Name|Description
 `.=`|Concatenate assignment|Concatenates the left and right operands and assigns the value to the left operand.
 
 ```php
-$x = 'this' . '&' . 'that';
+<?php
+  $x = 'this' . '&' . 'that';
 
-echo $x; // Output: this&that;
+  echo $x; // Output: this&that;
 
-$x .= '!';
+  $x .= '!';
 
-echo $x; // Output: this&that!;
+  echo $x; // Output: this&that!;
+?>
 ```
 
 ## Array Operators
