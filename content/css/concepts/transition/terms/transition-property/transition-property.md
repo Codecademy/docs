@@ -24,8 +24,8 @@ transition-property: <values>;
 The `transition-property` can have one of the following values:
 - `all`: Default value, applies transition effect to all properties.
 - `none`: No property will have transitioning effect.  
-- A single property name(e.g. `height`).
-- A comma-separated lost of property names(e.g.`margin-right, margin-left, width`).
+- A single property name (e.g. `height`).
+- A comma-separated lost of property names (e.g.`margin-right, margin-left, width`).
 
 **Note**: Make sure to declare a `transition-duration` property, otherwise the duration will be 0 and have no transitioning effect.
 
