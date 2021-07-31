@@ -1,0 +1,60 @@
+---
+Title: "tfoot"
+Subjects:
+  - "Web Development"
+  - "Web Design"
+Tags:
+  - "Tables"
+  - "Elements"
+  - "Web Development"
+Catalog Content:
+  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
+  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+---
+
+## Definition 
+
+Groups the footer content in a table. 
+
+## Syntax
+
+```html
+<tfoot>
+  <!-- Takes in footer content-->
+</tfoot>
+```
+
+**Note:** The `<tfoot>` element is usually used along with `<tbody>` and `<thead>`. which provides useful semantic information. 
+
+## Example 1
+
+Grouping the footer content in an HTML table.
+
+```html
+<table>
+  <thead>
+   <tr>
+     <th>Items</th>
+     <th>Cost</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+     <td>Model 3</td>
+     <td>50,000</td>
+   </tr>
+   <tr>
+     <td>1 giant rubber debugging duck</td>
+     <td>10,000</td>
+   </tr>
+  </tbody>
+  <!-- All footer content will be inside the <tfoot> element-->
+  <tfoot>
+   <tr>
+    <td>Total</td>
+    <td>60,000</td>
+   </tr> 
+  </tfoot>
+</table>
+```
