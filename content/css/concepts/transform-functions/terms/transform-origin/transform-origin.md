@@ -37,7 +37,7 @@ y-axis values:
 - `top`
 - `center`
 - `bottom`
-- lenght value (e.g.`50px`)
+- lenght value (e.g. `50px`)
 - percentage value (e.g. `25%`)
 
 z-axis value:
