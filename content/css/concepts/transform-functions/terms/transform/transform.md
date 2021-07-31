@@ -25,24 +25,24 @@ transform: <values>;
 The `transition` property can have one or more of the following properties as values:
 
 - `none`
-- `matrix(n,n,n,n,n,n)`
-- `matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)`
-- `translate(x,y)`
-- `translate3d(x,y,z)`
+- `matrix(n, n, n, n, n, n)`
+- `matrix3d(n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n)`
+- `translate(x, y)`
+- `translate3d(x, y, z)`
 - `translateX(x)`
 - `translateY(y)`
 - `translateZ(z)`
-- `scale(x,y)`
-- `scale3d(x,y,z)`
+- `scale(x, y)`
+- `scale3d(x, y, z)`
 - `scaleX(x)`
 - `scaleY(y)`
 - `scaleZ(z)`
 - `rotate(angle)`
-- `rotate3d(x,y,z,angle)`
+- `rotate3d(x, y, z, angle)`
 - `rotateX(angle)`
 - `rotateY(angle)`
 - `rotateZ(angle)`
-- `skew(x-angle,y-angle)`
+- `skew(x-angle, y-angle)`
 - `skewX(angle)`
 - `skewY(angle)`
 - `perspective(n)`
