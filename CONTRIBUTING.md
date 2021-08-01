@@ -47,7 +47,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 - If you make changes to a PR, be sure to re-request a review.
 - Your code will be deployed shortly after it is merged!
 
-## Things we check for
+## Things We Check For
 
 - Technical accuracy
 - Formatting standards
