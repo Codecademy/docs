@@ -20,6 +20,6 @@ The internet largely runs based on this client-server model. The term server is 
 
 Large groups of servers can be referred to as data centers. As data center level scale, maintenance of servers requires diligent control of physical environments such as the temperature of locations housing servers, redundancy, etc. Cooling servers is very important at data center level server scale because servers emit heat (especially in close proximity to one another) and therefore need to be cooled down with fans and temperature control measures like air conditioning which at scale can be quite substantial in terms of resources.
 
-## Virtualization
+## Virtualization and Beyond
 
 In the early days of computing, a single server could be used to provide data to a client resource. Things developed naturally so that a single server could serve several clients and one client could communicate with several servers. These days server technology has advanced so that multiple servers can be placed on a single physical servers using hypervisors. The ability to host multiple servers on a single device is known as virtualization, and has led to exponential leaps in computing power, and efficiency in application deployment.
