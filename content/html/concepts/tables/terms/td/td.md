@@ -8,7 +8,7 @@ Tags:
   - "Elements"
   - "Web Development"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
@@ -23,7 +23,7 @@ Defines a cell in a table that contains data.
 <td><!-- Takes in data --></td>
 ```
 
-**Note:** There are two kinds of cells, a header cell(contains header information) created by the `<th>` element and data cell(contains data) created by the `<td>` element. 
+**Note:** There are two kinds of cells, a header cell (contains header information) created by the `<th>` element and data cell(contains data) created by the `<td>` element.
 
 ## Example 1
 
@@ -36,14 +36,19 @@ Defining data cells in a table.
     <th>Phone</th>
   </tr>
   <tr>
-<!-- Data cells -->
+    <!-- Data cells -->
     <td>Apple</td>
-    <td>Iphone</td>
+    <td>iPhone</td>
   </tr>
   <tr>
-<!-- Data cells -->
+    <!-- Data cells -->
     <td>Samsung</td>
     <td>Galaxy</td>
   </tr>
 </table>
 ```
+
+| Company | Phone |
+| --- | --- |
+| Apple | iPhone |
+| Samsun | Galaxy |
