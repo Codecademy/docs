@@ -22,20 +22,16 @@ Defines the number of columns a cell should span.
 ```html
 <table>
   <tr>
-    <th>Data 1</th>
-    <th>C</th>
+    <th>Cell 1</th>
+    <th>Cell 2</th>
   </tr>
   <tr>
-    <td>Dev 1</td>
-    <td>Sonny</td>
-  </tr>
-  <tr>
-    <td>Dev 2 </td>
-    <td>Nomnom</td>
+    <td>Cell 3</td>
+    <td>Cell 4</td>
   </tr>
   <tr>
     <!-- Spans two columns -->
-    <td colspan="2">Sonnynomnom</td>
+    <td colspan="2">Cell 5</td>
   </tr>
 </table>
 ```
