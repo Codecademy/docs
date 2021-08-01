@@ -39,14 +39,15 @@ There are optional arguments that include the following:
 
 Match all of the times in the string:
 
-```codebyte/py
+```py
 import re
 
 movie_str = 'the evening shows start at 7:00pm and 10:15pm'
 
 re.findall(r'([\d:,.]+)(am|pm)?', movie_str)
-# square brackets designate a custom character class 
-# parentheses identify a group within the pattern  
+
+# Square brackets designate a custom character class 
+# Parentheses identify a group within the pattern  
 
 # Output: [('7:00', 'pm'), ('10:15', 'pm')]
 ```
@@ -54,14 +55,15 @@ re.findall(r'([\d:,.]+)(am|pm)?', movie_str)
 ## Example 2
 
 A regex to match all of the email addresses within a string:
-```codebyte/py
+
+```py
 import re
 
-email_str = '''the emails are support@codaeacademy.com 
- or help@codaeacademy.com'''
+email_str = '''the emails are support@codecademy.com 
+ or help@codecademy.com'''
 
 re.findall(r'\S+@\S+', email_str)
 # \S matches any character except a space, tab or newline
 
-# Output: ['support@codaeacademy.com', 'help@codaeacademy.com']
+# Output: ['support@codecademy.com', 'help@codecademy.com']
 ```
