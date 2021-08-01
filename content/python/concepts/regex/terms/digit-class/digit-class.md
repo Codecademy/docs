@@ -1,5 +1,5 @@
 ---
-Title: "\d"
+Title: "\\d"
 Subjects:
   - "Computer Science"
   - "Data Science"
