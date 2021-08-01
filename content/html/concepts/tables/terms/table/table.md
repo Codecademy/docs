@@ -43,7 +43,7 @@ Creating a simple table with three rows and two columns.
   </tr>
   <tr>
     <td>Apple</td>
-    <td>Iphone</td>
+    <td>iPhone</td>
   </tr>
   <tr>
     <td>Samsung</td>
