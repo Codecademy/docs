@@ -25,11 +25,10 @@ clear: <value>;
 
 The following values can be be appplied: 
 
-- `none`: The element is not moved down to clear past floating elements. Default.
+- `none`: The element is not moved down to clear past floating elements (the default).
 - `left`: The element is moved down to clear past *left* floated elements. 
 - `right`: The element is moved down to clear past *right* floated elements.
 - `both`: The element is moved down to clear past both *left* and *right* floated elements.
-
 
 ## Example 1
 
