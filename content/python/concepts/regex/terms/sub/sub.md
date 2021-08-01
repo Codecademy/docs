@@ -1,11 +1,11 @@
 ---
-Title: "re.sub"
+Title: "re.sub()"
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
-  - "Strings"
   - "Regular Expressions"
+  - "Strings"
 Catalog Content:
   - "https://www.codecademy.com/learn/introduction-to-regular-expressions"
   - "https://www.codecademy.com/learn/practical-data-cleaning"
@@ -15,12 +15,14 @@ Catalog Content:
 
 ## Definition
 
-The `.sub()` method will replace matching substrings with a new string for all occurrences, or a specified number. 
+Replace matching substrings with a new string for all occurrences, or a specified number. 
 
 ## Syntax
-```codebyte/py
-re.sub(<pattern>, <repl>, 'string', <count>, <flags>)
+
+```py
+re.sub(<pattern>, <repl>, string, <count>, <flags>)
 ```
+
 A `<pattern>` can include any of the following:
 
 - A string: `Jane Smith` 
@@ -36,19 +38,22 @@ The other arguments include:
 ## Example 1
 
 Replace all the occurrences of "BI" with "business intelligence":
-```codebyte/py
+
+```py
 import re
 
 blurb = '''The analytics firm uses a range of BI tools to  visualize data. Their internal data science team suggests 
     bi tools may be their most valuable resource.'''
 
 re.sub(r'bi','business intelligence',blurb,flags=re.IGNORECASE)
-# the ignorecase flag allows for matches regardless of case  
+# The ignorecase flag allows for matches regardless of case  
 ```
+
 ## Example 2
 
 Replace all numerical values with "REDACTED":
-```codebyte/py
+
+```py
 import re
 
 confidential_str = '''The suspect's bank account (#333344444) and pin (#9999) were found in his cell'''
