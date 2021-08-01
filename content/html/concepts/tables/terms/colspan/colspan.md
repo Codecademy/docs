@@ -22,8 +22,8 @@ Defines the number of columns a cell should span.
 ```html
 <table>
   <tr>
-    <th>Devs</th>
-    <th>Name</th>
+    <th>Data 1</th>
+    <th>C</th>
   </tr>
   <tr>
     <td>Dev 1</td>
@@ -35,7 +35,7 @@ Defines the number of columns a cell should span.
   </tr>
   <tr>
     <!-- Spans two columns -->
-    <td colspan="2">Sonny Nomnom</td>
+    <td colspan="2">Sonnynomnom</td>
   </tr>
 </table>
 ```
@@ -60,7 +60,7 @@ A table with a cell that spans two columns.
     <td>Django</td>
   </tr>
   <tr>
-    <td>Javascript</td>
+    <td>JavaScript</td>
     <td>React.js</td>
   </tr>
   <tr>
