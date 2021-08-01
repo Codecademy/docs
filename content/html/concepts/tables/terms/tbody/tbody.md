@@ -43,7 +43,7 @@ Grouping the body content in an HTML table.
   <tbody>
    <tr>
      <td>Apple</td>
-     <td>Iphone</td>
+     <td>iPhone</td>
    </tr>
    <tr>
      <td>Samsung</td>
@@ -52,3 +52,8 @@ Grouping the body content in an HTML table.
   </tbody>
 </table>
 ```
+
+| Company | Phone |
+| --- | --- |
+| Apple | iPhone |
+| Samsung | Galaxy |
