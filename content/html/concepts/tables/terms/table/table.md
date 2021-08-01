@@ -52,7 +52,7 @@ Creating a simple table with three rows and two columns.
 </table>
 ```
 
-|Company|Phone|
-|--- |--- |
-|Apple|Iphone|
-|Samsung|Galaxy|
+| Company | Phone |
+| --- | --- |
+| Apple | iPhone |
+| Samsung | Galaxy |
