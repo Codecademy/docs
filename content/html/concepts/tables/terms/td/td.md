@@ -20,7 +20,7 @@ Defines a cell in a table that contains data.
 ## Syntax
 
 ```html
-<td><!-- Takes in data --></td>
+<td>Data</td>
 ```
 
 **Note:** There are two kinds of cells, a header cell (contains header information) created by the `<th>` element and data cell(contains data) created by the `<td>` element.
