@@ -18,13 +18,15 @@ Catalog Content:
 The `\d` shorthand represents a character class that includes all digits (0-9).  The inverse of this class is designated with a capital,  `\D`, and will match any character that is not a digit.
 
 ## Syntax
-```codebyte/py
+
+```py
 re.search(r'\d', 'string 1', <flags>)
 ```
 ## Example 1
 
 Match the race times within the text:
-```codebyte/py
+
+```py
 import re
 
 race_info = '''The top three race finishers were: Jane Smith (2:14), Sarah Long (2:18) and Suzy Reynolds (2:20).'''
@@ -37,6 +39,7 @@ re.findall(r'\d+:\d+', race_info)
 ## Example 2
 
 Match everything except the movie titles:
+
 ```codebyte/py
 import re
 
