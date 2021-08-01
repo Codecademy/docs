@@ -36,11 +36,13 @@ Creating three rows for a table.
     <th>Company</th>
     <th>Phone</th>
   </tr>
+  
   <!-- Row 2 -->
   <tr>
     <td>Apple</td>
     <td>iPhone</td>
   </tr>
+  
   <!-- Row 3 -->
   <tr>
     <td>Samsung</td>
