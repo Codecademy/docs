@@ -14,7 +14,7 @@ Comma-Seperated Values (CSV) is a text file format where individual values are s
 
 To store tabular data, CSV files usually represent each line as a new row within the table and the values delimited by commas as the cells within each row. However, this practice is not formalized so the interpretation of the cell's contents is normally application-specific.
 
-For example, some applications use quotation marks ( " ) or a backslash ( \\ ) to denote literal characters that allow the cells themselves to also contain the comma character.
+For example, some applications use quotation marks (`"`) or a backslash (`\`) to denote literal characters that allow the cells themselves to also contain the comma character.
 
 ## Example CSV with Corresponding Tabular Representation
 
