@@ -8,7 +8,7 @@ Tags:
   - "Elements"
   - "Web Development"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
@@ -21,7 +21,7 @@ Groups the footer content in a table.
 
 ```html
 <tfoot>
-  <!-- Takes in footer content-->
+  <!-- Takes in footer content -->
 </tfoot>
 ```
 
@@ -58,3 +58,9 @@ Grouping the footer content in an HTML table.
   </tfoot>
 </table>
 ```
+
+| Items | Cost |
+| --- | --- |
+| Model 3 | $50,000 |
+| 1 giant rubber debugging duck | $10,000 |
+| Total | $60,000 |
