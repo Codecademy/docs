@@ -70,4 +70,4 @@ A table with a cell that spans two columns.
 </table>
 ```
 
-![Table with a cell that spans two columns](colspan.PNG)
+![Table with a cell that spans two columns](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/html-colspan.png)
