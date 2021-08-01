@@ -8,7 +8,7 @@ Tags:
   - "Elements"
   - "Web Development"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
@@ -22,16 +22,16 @@ Specifies the number of rows a cell should span.
 ```html
 <table>
   <tr>
-    <th>Devs</th>
-    <th>Name</th>
+    <th>Cell 1</th>
+    <th>Cell 2</th>
   </tr>
   <tr>
-    <td>Dev 1</td>
+    <td>Cell 3</td>
     <!-- Spans two rows -->
-    <td rowspan="2">Sonny Nomnom</td>
+    <td rowspan="2">Cell 4</td>
   </tr>
   <tr>
-    <td>Dev 2</td>
+    <td>Cell 5</td>
   </tr>
 </table>
 ```
@@ -48,14 +48,14 @@ A table with a cell that spans two rows.
 ```html
 <table>
   <tr>
-    <th colspan="2">Language and Framworks</th>
+    <th colspan="2">Languages and Frameworks</th>
   </tr>
   <tr>
     <td>Python</td>
     <td>Django</td>
   </tr>
   <tr>
-    <td rowspan="2">Javascript</td>
+    <td rowspan="2">JavaScript</td>
     <td>React.js</td>
   </tr>
   <tr>
@@ -68,4 +68,4 @@ A table with a cell that spans two rows.
 </table>
 ```
 
-![Table with cell that spans two rows](rowspan.PNG)
+![Table with cell that spans two rows](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/html-rowspan.png)
