@@ -47,6 +47,13 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 - If you make changes to a PR, be sure to re-request a review.
 - Your code will be deployed shortly after it is merged!
 
+## Things we check for
+
+- Technical accuracy
+- Formatting standards
+- Typos/bugs
+- Plagerism
+
 ## Additional Notes
 
 Remember, if you ever have any questions at all, we're there to help on Twitter! Tag us [@Codecademy](https://twitter.com/codecademy) and [@sonnynomnom](https://twitter.com/sonnynomnom) if you found a typo, bug, issue!
