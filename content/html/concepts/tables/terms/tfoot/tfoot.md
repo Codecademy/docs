@@ -49,7 +49,7 @@ Grouping the footer content in an HTML table.
      <td>10,000</td>
    </tr>
   </tbody>
-  <!-- All footer content will be inside the <tfoot> element-->
+  <!-- All footer content will be inside the <tfoot> element -->
   <tfoot>
    <tr>
     <td>Total</td>
