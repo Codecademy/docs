@@ -15,11 +15,11 @@ Catalog Content:
 
 ## Definition
 
-A method for iterating over a string to find a subset of characters that match a specified pattern. The `.findall()` method will return a list of every match that occurs in a given string.
- 
+Iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every match that occurs in a given string.
 
 ## Syntax
-```codebyte/py
+
+```py
 re.findall(<pattern>, 'string')
 ```
 
