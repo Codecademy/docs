@@ -49,7 +49,7 @@ A table with a cell that spans two columns.
 <table>
   <tr>
     <!-- Spans two columns -->
-    <th colspan="2">Language and Framworks</th>
+    <th colspan="2">Languages and Frameworks</th>
   </tr>
   <tr>
     <td>Python</td>
