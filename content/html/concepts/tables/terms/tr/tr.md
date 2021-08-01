@@ -8,7 +8,7 @@ Tags:
   - "Elements"
   - "Web Development"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
@@ -39,7 +39,7 @@ Creating three rows for a table.
   <!-- Row 2 -->
   <tr>
     <td>Apple</td>
-    <td>Iphone</td>
+    <td>iPhone</td>
   </tr>
   <!-- Row 3 -->
   <tr>
@@ -48,3 +48,8 @@ Creating three rows for a table.
   </tr>
 </table>
 ```
+
+| Company | Phone |
+| --- | --- |
+| Apple | iPhone |
+| Samsung | Galaxy |
