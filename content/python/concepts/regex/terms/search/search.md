@@ -20,7 +20,7 @@ Iterates over a string to find a subset of characters that match a specified pat
 ## Syntax
 
 ```py
-re.search(<pattern>, 'string', <optional args>)
+re.search(<pattern>, string, <optional args>)
 ```
 
 A `<pattern>` can include any of the following:
