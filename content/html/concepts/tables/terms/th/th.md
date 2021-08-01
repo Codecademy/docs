@@ -8,7 +8,7 @@ Tags:
   - "Elements"
   - "Web Development"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
+  - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---
@@ -32,13 +32,13 @@ Defining header cells in a table.
 ```html
 <table>
   <tr>
-<!-- header cells -->
+    <!-- Header cells -->
     <th>Company</th>
     <th>Phone</th>
   </tr>
   <tr>
     <td>Apple</td>
-    <td>Iphone</td>
+    <td>iPhone</td>
   </tr>
   <tr>
     <td>Samsung</td>
@@ -46,3 +46,8 @@ Defining header cells in a table.
   </tr>
 </table>
 ```
+
+| Company | Phone |
+| --- | --- |
+| Apple | iPhone |
+| Samsung | Galaxy |
