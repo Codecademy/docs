@@ -23,9 +23,9 @@ Species whether an element coming after a floated element should be moved down o
 clear: <value>;
 ```
 
-The following values can be be appplied to the `clear` property: 
+The following values can be be appplied: 
 
-- `none`: Default. The element is not moved down to clear past floating elements
+- `none`: The element is not moved down to clear past floating elements. Default.
 - `left`: The element is moved down to clear past *left* floated elements. 
 - `right`: The element is moved down to clear past *right* floated elements.
 - `both`: The element is moved down to clear past both *left* and *right* floated elements.
