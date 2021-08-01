@@ -19,7 +19,9 @@ Comments are typically formatted as either:
 - Single-line comments, which start with a comment delimiter and continue until the end of the line.
 - Multi-line comments, which start with a start delimiter and end with an end delimiter and can span multiple lines.
 
-Some programming languages support only one type of comment. For example, Python comments are single-line comments: They start with `#` and continue to the end of the line. Other languages employ both single-line and multi-line comments. For example, C and C++ have single-line comments that start with `//` and multi-line comments between `/*` and `*/` that can span multiple lines.
+Some programming languages support only one type of comment. For example, Python comments are single-line comments: They start with `#` and continue to the end of the line. 
+
+Other languages employ both single-line and multi-line comments. For example, C and C++ have single-line comments that start with `//` and multi-line comments between `/*` and `*/` that can span multiple lines.
 
 ## Uses
 
