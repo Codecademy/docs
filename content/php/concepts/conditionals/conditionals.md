@@ -105,7 +105,9 @@ Note in the above, if the `elseif` clauses were swapped, then the block where `$
 
 There is a compact version of an `if` expression called the ternary operator which has the following syntax:
 
-<code><i>expression</i> ? <i>true value</i> : <i>false value</i></code>
+```pseudo
+expression ? true value : false value
+```
 
 An example:
 
