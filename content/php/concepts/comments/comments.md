@@ -12,15 +12,15 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Comments are text placed inside code that is not executed. 
-They are intended as documentation or explanation of the code they are a part of.
+Comments are text placed inside code that is not executed. They are intended as documentation or explanation of the code they are a part of.
 
 ## Syntax
 
 PHP marks comments in three different ways:
+
 - `//` will mark a comment from where it appears until the end of the line (or code block).
 - `#` will also mark a comment from where it appears until the end of the line (or code block).
-- Multi-line comments are marked by `/*...*/` with everything between `/*` and `*/` will be marked as a comment.
+- Multi-line comments are marked by `/*` ... `*/` with everything in between marked as a comment.
 
 Single line comments extend to the end of the line, or the end of the PHP block. 
 `?>` will not be commented out, instead, `?>` will terminate the comment.
@@ -45,8 +45,8 @@ leaving the remaining comment(s) to be executed.
 <?php
   /* This is one multi-line comment
     /* But this inner comment will cause problems */
-     This part of the comment will be executed
-     since the end of the inner comment ended the outer
-     comment as well. */
+       This part of the comment will be executed
+       since the end of the inner comment ended the outer
+       comment as well. */
 ?>
 ```
