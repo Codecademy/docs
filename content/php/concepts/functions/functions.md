@@ -21,9 +21,7 @@ The syntax for a user defined function in PHP is similar to other languages:
 
 ```php
 function functionName(parameters) {
-
   code to execute;
-  
 }
 ```
 
