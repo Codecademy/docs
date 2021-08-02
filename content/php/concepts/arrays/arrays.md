@@ -20,7 +20,7 @@ There are several methods of declaring an array in PHP. The `array()` function c
 
 ```php
 <?php
-// the last comma can be omitted
+// The last comma can be omitted
 $array1 = array( "item 1" => "one", "item 2" => "two", "item 3" => "three", );
 
 echo $array1["item 1"], ";", $array1["item 2"], ";", $array1["item 3"];
@@ -44,6 +44,7 @@ echo $array4[5];
 ```
 
 Additionally, when defining an array, the following key casts will occur:
+
 - Strings containing valid `int` types, unless preceded by a `+` sign, will be cast to an `int` type key. 
 As in the above example `"5"` is treated as `5`.
 - `float` types will be cast to `int` types, truncating the fractional part.
