@@ -35,10 +35,9 @@ print("x ^ y =", x ^ y)
 print("~x =", ~x)
 ```
 
-## A Bitwise Operator Table 
+## Bitwise Operator Table 
 
 ```html
-
 <body>
 <h2>Bitwise Operator Table</h2>
 <table>
@@ -80,3 +79,12 @@ print("~x =", ~x)
 </table>
 </body>
 ```
+
+| Operator | Example | Meaning |
+| --- | --- | --- |
+| `&` | `a & b` | Bitwise AND |
+| `\|` | `a \| b` | Bitwise OR | 
+| `^` | `a ^ b` | Bitwise XOR (exclusive OR ) |
+| `~` | `~a` | Bitwise NOT |
+| `<<` | `a << n` | Bitwise left shift |
+| `>>` | `a >> n` | Bitwise right shift |
