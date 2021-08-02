@@ -37,49 +37,6 @@ print("~x =", ~x)
 
 ## Bitwise Operator Table 
 
-```html
-<body>
-<h2>Bitwise Operator Table</h2>
-<table>
-  <tr>
-    <th>Operator</th>
-    <th>Example</th>
-    <th>Meaning</th>
-  </tr>
-  <tr>
-    <td>&</td>
-    <td>a & b</td>
-    <td>Bitwise AND</td>
-  </tr>
-  <tr>
-    <td>|</td>
-    <td>a | b</td>
-    <td>Bitwise OR</td>
-  </tr>
-  <tr>
-    <td>^</td>
-    <td>a ^ b</td>
-    <td>Bitwise XOR (exclusive OR)</td>
-  </tr>
-  <tr>
-    <td>~</td>
-    <td>~a</td>
-    <td>Bitwise NOT</td>
-  </tr>
-  <tr>
-    <td><<</td>
-    <td>a << n</td>
-    <td>Bitwise left shift</td>
-  </tr>
-  <tr>
-    <td>>></td>
-    <td>a >> n</td>
-    <td>Bitwise right shift</td>
-  </tr>
-</table>
-</body>
-```
-
 | Operator | Example | Meaning |
 | --- | --- | --- |
 | `&` | `a & b` | Bitwise AND |
