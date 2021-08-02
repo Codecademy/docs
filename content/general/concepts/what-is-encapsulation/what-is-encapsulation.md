@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-Encapsulation is one of the four principles of programming which emphasize modularity and hiding away of complexities in order to better maintain and reason about code. 
+Encapsulation is one of the four principles of object-oriented programming (OOP) which emphasize modularity and hiding away of complexities in order to better maintain and reason about code. 
 
 Most of the time encapsulation can be achieved by creating classes and naming private and public methods (or getters and setters) for our systems to interact.  
  
@@ -20,18 +20,20 @@ Most of the time encapsulation can be achieved by creating classes and naming pr
 
 ```py
 class Robot(object):
-   def __init__(self):
-      self.__version = 22
+ def __init__(self):
+   self.__version = 22
 
-   def getVersion(self):
-      print(self.__version)
+ def getVersion(self):
+   print(self.__version)
 
-   def setVersion(self, version):
-      self.__version = version
+ def setVersion(self, version):
+   self.__version = version
 
 obj = Robot()
+
 obj.getVersion()
 obj.setVersion(23)
 obj.getVersion()
+
 print(obj.__version)
 ```
