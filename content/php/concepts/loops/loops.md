@@ -30,10 +30,11 @@ for (init; test; increment) {
 - `init`: Initialize a counter variable.
 - `test`: Tests the counter variable. The loop continues to iterate as long as this test evaluates to `true`.
 - `increment`: Increment/decrements the counter variable. Executed on each loop iteration.
-- `execute`: Block of code to execute on each iteration. The counter variable is available inside this block.
+- `code to execute`: Block of code to execute on each iteration. The counter variable is available inside this block.
 
-The order these pieces are executed are: <code><i>init</i></code>, <code><i>test</i></code>, <code><i>execute</i></code>, <code><i>increment</i></code>, then back to test <code><i>test</i></code>.
-Note that it's possible to write a `for` loop that never executes if the initial <code><i>test</i></code> fails.
+The order these pieces are executed are: `init`, `test`, `execute`, `increment`, then back to `test`.
+
+Note that it's possible to write a `for` loop that never executes if the initial `test` fails.
 
 ### Example
 
@@ -137,10 +138,14 @@ The value for four is yellow
 
 The `while` loop iterates through a block of code as long as a condition evaluates to `true`. The syntax looks like this:
 
-<code>while (<i>test</i>) {<i>execute</i>;}</code>
+```php
+while (test) {
+  code to execute;
+}
+```
 
-- <code><i>test</i></code> : The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
-- <code><i>execute</i></code> : Block of code to execute on each iteration. 
+- `test`: The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
+- `code to execute`: Block of code to execute on each iteration. 
 
 ### Example
 
