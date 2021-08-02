@@ -19,11 +19,17 @@ A function is not called when it is defined, but only when another part of the c
 
 The syntax for a user defined function in PHP is similar to other languages:
 
-<code>function <i>functionName</i>(<i>parameters</i>) {<i>code to execute</i>;}</code>
+```php
+function functionName(parameters) {
 
-- <code><i>functionName</i></code> : The name of the function. It must start with an alphabetic character or an underscore, and must consist only of alphanumeric characters or underscores.
-- <code><i>parameters</i></code> : Zero or more comma-separated variables that will be passed on to the code block when the function is called.
-- <code><i>code to execute</i></code> : The code that executes when the function is called.
+  code to execute;
+  
+}
+```
+
+- `functionName`: The name of the function. It must start with an alphabetic character or an underscore, and must consist only of alphanumeric characters or underscores.
+- `parameters`: Zero or more comma-separated variables that will be passed on to the code block when the function is called.
+- `code to execute`: The code that executes when the function is called.
 
 ## Example
 
@@ -32,7 +38,7 @@ The following function takes a numeric argument and returns a string saying if i
 ```php
 <?php
 
-  function oddOrEven ($x) {
+  function oddOrEven($x) {
     if ($x % 2 == 1) {
       return 'Odd';
       } else {
@@ -113,14 +119,14 @@ In PHP 7 it introduced type declarations so a function definition can define wha
 
 ```php
 <?php
-  function specifyTypes( int $x, int $y) {
+  function specifyTypes(int $x, int $y) {
     echo $x . "*" . $y . "=" . ($x * $y) . '<br />';
     }
      
-  specifyTypes(2,3);
-  specifyTypes(2,3.5);
-  specifyTypes(2,"3.8");
-  specifyTypes(2,"3 apples");
+  specifyTypes(2, 3);
+  specifyTypes(2, 3.5);
+  specifyTypes(2, "3.8");
+  specifyTypes(2, "3 apples");
   // All Output: 2*3=6
 ?>
 ```
@@ -130,9 +136,9 @@ PHP can also use `strict` mode, where if a function is passed a data type it isn
 
 ```php
 <?php declare(strict_types=1);
-  function specifyTypes( int $x, int $y) {
+  function specifyTypes(int $x, int $y) {
     echo $x . "*" . $y . "=" . ($x * $y) . '<br />';
-    }
+  }
      
   specifyTypes(2,3); // Outputs 2*3=6
   specifyTypes(2,3.5); // Throws error
@@ -142,18 +148,18 @@ PHP can also use `strict` mode, where if a function is passed a data type it isn
 ?>
 ```
 
-In PHP 7 the function definition can also declare the data type it expects for its return value. 
+In PHP 7, the function definition can also declare the data type it expects for its return value. 
 In `strict` mode an error will be thrown if there's a type mismatch.
 
 ```php
 <?php declare(strict_types=1);
-  function throwsError( float $x, float $y) : int {
+  function throwsError(float $x, float $y) : int {
     return $x + $y;
-    }
+  }
     
-  function typeSafe( float $x, float $y) : int {
+  function typeSafe(float $x, float $y) : int {
     return (int)($x + $y);
-    }
+  }
 ?>
 ```
 
