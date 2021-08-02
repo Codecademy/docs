@@ -14,18 +14,18 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-## Arithmetic operators
+## Arithmetic Operators
 
 PHP has the following basic arithmetic operators to perform common mathematical operations:
 
-Operator|Name|Description
----|---|---
-`+`|Addition| `$x + $y` returns the sum of `$x` and `$y`
-`-`|Subtraction| `$x - $y` returns the difference of `$x` and `$y`
-`*`|Multiplication| `$x * $y` returns the product of `$x` and `$y`
-`/`|Division| `$x / $y` returns the quotient of `$x` and `$y`
-`%`|Modulo| `$x % $y` returns the integer remainder of `$x` divided by `$y`
-`**`|Exponentiation| `$x ** $y` returns `$x` raised to the power `$y`
+Operator | Name | Description
+--- | --- | ---
+`+` | Addition | `$x + $y` returns the sum of `$x` and `$y`
+`-` | Subtraction | `$x - $y` returns the difference of `$x` and `$y`
+`*` | Multiplication | `$x * $y` returns the product of `$x` and `$y`
+`/` | Division | `$x / $y` returns the quotient of `$x` and `$y`
+`%` | Modulo | `$x % $y` returns the integer remainder of `$x` divided by `$y`
+`**` | Exponentiation | `$x ** $y` returns `$x` raised to the power `$y`
 
 The division operator returns a float unless its operands are integers and the result is a whole number, in which case it returns an integer.
 
