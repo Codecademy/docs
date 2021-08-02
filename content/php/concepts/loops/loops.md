@@ -21,12 +21,16 @@ or once for each member of an array. The process of repeating the code block is 
 
 A `for` loop is used in PHP when it is known how many times its bock of code should execute. The syntax looks like this:
 
-<code>for (<i>init</i>;<i>test</i>;<i>increment</i>) {<i>execute</i>;}</code>
+```php
+for (init; test; increment) {
+  code to execute;
+}
+```
 
-- <code><i>init</i></code> : Initialize a counter variable.
-- <code><i>test</i></code> : Tests the counter variable. The loop continues to iterate as long as this test evaluates to `true`.
-- <code><i>increment</i></code> : Increment/decrements the counter variable. Executed on each loop iteration.
-- <code><i>execute</i></code> : Block of code to execute on each iteration. The counter variable is available inside this block.
+- `init`: Initialize a counter variable.
+- `test`: Tests the counter variable. The loop continues to iterate as long as this test evaluates to `true`.
+- `increment`: Increment/decrements the counter variable. Executed on each loop iteration.
+- `execute`: Block of code to execute on each iteration. The counter variable is available inside this block.
 
 The order these pieces are executed are: <code><i>init</i></code>, <code><i>test</i></code>, <code><i>execute</i></code>, <code><i>increment</i></code>, then back to test <code><i>test</i></code>.
 Note that it's possible to write a `for` loop that never executes if the initial <code><i>test</i></code> fails.
