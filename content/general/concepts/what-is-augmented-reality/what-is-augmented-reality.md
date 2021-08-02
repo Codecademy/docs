@@ -26,6 +26,6 @@ Augmented reality is poised to grow substantially in use during the 21st century
 
 * Viewing merchandise/goods without trying them on at retail stores and shopping platforms (IKEA, Neiman Marcus, etc.)
 * Flight/Combat simulation (military, commercial aviation)
-* Physical Markers for direction and navigation 
-* Commercial and Residential Design and Architecture: Viewing an architects work in real time at a location.
-* Training for medical procedures for nurses and doctors.
+* Physical markers for direction and navigation
+* 3D commercial/residential design and architecture
+* Training for medical procedures for nurses and doctors
