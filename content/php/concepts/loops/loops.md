@@ -65,19 +65,29 @@ iteration #10
 A `foreach` loop iterates through a block of code once for each element of an array. The syntax is as follows:
 
 Iterate through array values:
-<code>foreach (<i>$array</i> as <i>$value</i>) {<i>execute</i>;}</code>
 
-- <code><i>$array</i></code> : An array variable.
-- <code><i>$value</i></code> : Variable to receive each value of array in turn.
-- <code><i>execute</i></code> : Block of code to execute on each iteration. The <code><i>$value</i></code> variable is available inside this block.  
+```php
+foreach ($array as $value) {
+  code to execute;
+}
+```
+
+- `$array`: An array variable.
+- `$value`: Variable to receive each value of array in turn.
+- `execute`: Block of code to execute on each iteration. The <code><i>$value</i></code> variable is available inside this block.  
   
 Iterate through array keys and values:
-<code>foreach (<i>$array</i> as <i>$key</i> => <i>$value</i>) {<i>execute</i>;}</code>
 
-- <code><i>$array</i></code> : An array variable.
-- <code><i>$key</i></code> : Variable to receive each key of array in turn.
-- <code><i>$value</i></code> : Variable to receive each value of array in turn.
-- <code><i>execute</i></code> : Block of code to execute on each iteration. The <code><i>$key</i></code> and <code><i>$value</i></code> variables are available inside this block.  
+```php
+foreach ($array as $key => $value) {
+  code to execute;
+}
+```
+
+- `$array`: An array variable.
+- `$key`: Variable to receive each key of array in turn.
+- `$value`: Variable to receive each value of array in turn.
+- `code to execute`: Block of code to execute on each iteration. The <code><i>$key</i></code> and <code><i>$value</i></code> variables are available inside this block.  
   
 ### Examples
 
