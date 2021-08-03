@@ -63,15 +63,14 @@ class Cat {
     int age;
 };
 
-
 int main() {
-   // Create an object of Cat
-   Cat mochi;
+  // Create an object of Cat
+  Cat mochi;
 
-   // Access attributes and set values
-   mochi.name = "Mochi"; 
-   mochi.color = "Gray";
-   mochi.age = 2;
+  // Access attributes and set values
+  mochi.name = "Mochi"; 
+  mochi.color = "Gray";
+  mochi.age = 2;
 
-   return 0;
+  return 0;
 }
