@@ -1,5 +1,5 @@
 ---
-Title: "Videos in HTML"
+Title: "Videos"
 Subjects:
   - "Web Development"
   - "Web Design"
