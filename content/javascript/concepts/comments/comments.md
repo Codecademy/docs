@@ -47,3 +47,17 @@ This syntax can also be used to comment something out in the middle of a line of
 ```js
 console.log(/* IGNORED! */ 5); // Still prints 5 
 ```
+
+## Codebyte Example
+
+Try commenting and uncommenting the code below:
+
+```codebyte/js
+/*  
+console.log("Howdy!")
+*/
+
+console.log("Play around with the comments!");
+
+// console.log("Welcome!);
+```
