@@ -57,7 +57,5 @@ Try commenting and uncommenting the code below:
 console.log("Howdy!")
 */
 
-console.log("Play around with the comments!");
-
-// console.log("Welcome!);
+console.log("Comment this line out!");
 ```
