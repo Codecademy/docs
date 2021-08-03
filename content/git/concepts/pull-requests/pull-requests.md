@@ -21,10 +21,10 @@ PRs are featured on popular version control platforms such as [GitHub](https://g
 
 The prerequisites for creating a PR and contributing to are: 
 
-1. Fork the project
-2. Clone the forked repository to local machine
-3. Create, and switch into, a new branch
-4. Add, commit, and push the changes back to repository
+1. Fork the project.
+2. Clone the forked repository to local machine.
+3. Create, and switch into, a new branch.
+4. Add, commit, and push the changes back to repository.
 
 With the newly added changes pushed, open the web page of the repository. There should be a button that says "Create Pull Request" placed somewhere, similar to the image below. 
 
