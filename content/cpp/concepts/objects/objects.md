@@ -72,5 +72,7 @@ int main() {
   mochi.color = "Gray";
   mochi.age = 2;
 
+  std::cout << mochi.color;
+  
   return 0;
 }
