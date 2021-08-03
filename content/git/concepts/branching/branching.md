@@ -1,5 +1,5 @@
 ---
-Title: "Branching"
+Title: "Branch"
 Subjects:
   - "Bash/Shell"
   - "Developer Tools"
@@ -12,13 +12,13 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In Git, a branch represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.
+In Git, a _branch_ represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.
 
 <!-- IMAGE: Standard Git branching with main branch, splitting into two, merging at the end. -->
 
 ## Syntax
 
-### Creating a branch
+### Creating a Branch
 
 The basic syntax for creating a branch in Git is this:
 
@@ -28,7 +28,7 @@ $ git branch <branch-name>
 
 Using this command from `<current-branch>` will create a new branch called `<branch-name>` based off of the code that is currently in `<current-branch>`.
 
-### Moving between branches
+### Moving Between Branches
 
 The basic syntax for moving between branches in Git is this:
 
@@ -38,7 +38,7 @@ $ git checkout <branch-name>
 
 This will change the active branch to the one named `<branch-name>`. Any editing done this point will be to the copy of the code within `<branch-name>` rather than the previous branch.
 
-### Deleting a branch
+### Deleting a Branch
 
 The basic syntax for removing a branch in Git is this:
 
@@ -48,7 +48,7 @@ $ git branch -d <branch-name>
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-### Combining two branches
+### Combining Two Branches
 
 The basic syntax for moving code from one branch into another in Git is this:
 
@@ -58,7 +58,7 @@ $ git merge <branch-name>
 
 This will merge the code from `<branch-name>` to the currently checked out branch.
 
-## A Basic Example
+## Basic Example
 
 When working with code, a programmer will often want to work on a specific feature. They will create a branch off of the main one, and code within it. Once they are happy with the feature and are certain that it is ready to be added back to the main branch they will merge it from the feature branch into the main one. Finally they will clean up their repository by deleting the feature branch.
 
