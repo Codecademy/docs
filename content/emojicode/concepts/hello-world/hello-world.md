@@ -42,7 +42,7 @@ This prints "Hello, World!" to the terminal.
 
 ## Example
 
-Here's a program called **hello.emojic** that prints a string:
+Here's a program called **welcome.emojic** that prints a string:
 
 ```emojic
 🏁 🍇
