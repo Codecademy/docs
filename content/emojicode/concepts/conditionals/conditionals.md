@@ -10,6 +10,8 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
+_Conditionals_ take an expression, which is code that evaluates to determine a value, and checks if it is `👍` or `👎`.
+
 ## If Statement
 
 The `↪` statement is very important. It allows for conditional execution of a code block. The whole syntax is:
