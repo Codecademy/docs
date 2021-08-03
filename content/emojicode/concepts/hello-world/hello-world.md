@@ -29,7 +29,7 @@ So a basic Emojicode file will have the following structure:
 🍉
 ```
 
-To print in Emojicode, we use the 😀 ❗️ method. Let’s look at an example:
+To print in Emojicode, we use the `😀` `❗️` method:
 
 ```
 😀 🔤Hello, World!🔤❗️
@@ -42,7 +42,7 @@ This prints "Hello, World!" to the terminal.
 
 ## Example
 
-Here's a program called **hello.emojic**:
+Here's a program called **hello.emojic** that prints a string:
 
 ```emojic
 🏁 🍇
