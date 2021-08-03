@@ -32,7 +32,7 @@ None of it is going to run!
 */
 ```
 
-## Example
+## Codebyte Example
 
 Here's a program with a multi-line comment and two single-line comments:
 
@@ -47,10 +47,10 @@ By Sonny
 int main() {
 
   // Calculate the tip
-  int total = 18.75;
-  int tip = total * 0.2;
+  double total = 18.75;
+  double tip = total * 0.2;
   
   // Display the tip
-  std::cout << "Your tip is $" << tip << "\n";
+  std::cout << "Your tip is $" << tip;
 
 }
