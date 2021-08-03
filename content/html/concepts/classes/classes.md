@@ -26,7 +26,7 @@ The `class` attribute is commonly used for assigning styles to one or more eleme
 
 A class selector is a name preceded by a period (`.`).
 
-Below is some markup with an outer `wrapper-div`, contaning a level 1 `heading` and three level 2 `sub-heading`s. The styling for the `heading` will be unique. However, all elements with the `sub-heading` class name received the same styling. 
+Below is some markup with an outer `wrapper-div`, containing a level 1 `heading` and three level 2 `sub-heading`s. The styling for the `heading` will be unique. However, all elements with the `sub-heading` class name received the same styling. 
 
 ```html
 <!DOCTYPE html>
@@ -68,7 +68,7 @@ Below is some markup with an outer `wrapper-div`, contaning a level 1 `heading` 
 
 ## For JavaScript
 
-The `class` attribute can also be used to perform JavaScript operations on HTML elements. Through the Document Object MODEL ("DOM"), there are various JavaScript methods built for selecting elements via their class. 
+The `class` attribute can also be used to perform JavaScript operations on HTML elements. Through the Document Object Model ("DOM"), there are various JavaScript methods built for selecting elements via their class. 
 
 Assuming the markup from the last example is linked to a JavaScript file:
 
