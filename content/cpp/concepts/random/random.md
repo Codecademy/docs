@@ -13,7 +13,7 @@ Catalog Content:
 
 C++ has a `std::rand()` function from `cstdlib` library that generates a random number.
 
-For example, if you add `#include <cstdlib>`, you can use the `std::rand()` function:
+For example, if we add `#include <cstdlib>`, we can use the `std::rand()` function:
 
 ```
 std::cout << std::rand() << "\n";
@@ -29,11 +29,7 @@ It would output something like:
 1681692777
 ```
 
-So, create an int variable and set it equal to a random number:
-
-int answer = std::rand();
-And output it in the terminal.
-
+## Using Modulo
 
 A lot of the times, we don’t just want any random number. Suppose We want a random number from 0-9.
 
@@ -43,7 +39,7 @@ int answer = std::rand() % 10;
 
 The `%` is the modulo symbol that returns the remainder.
 
-## Seeding
+## Seeding the Random Number Generator
 
 For our program to work, we need to get a different random number for each execution.
 
