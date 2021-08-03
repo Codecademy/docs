@@ -25,8 +25,7 @@ So a basic Emojicode file will have the following structure:
 
 ```
 🏁 🍇
-  Some code goes here
-  More code goes here
+  Some code go here
 🍉
 ```
 
