@@ -25,7 +25,7 @@ $ git pull <remote-name> <branch-name>
 
 This will move the code from `<remote-name>` currently in branch `<branch-name>`, and move it to your local computer under branch `<branch-name>`.
 
-## How do I pull?
+## How to Pull
 
 Prerequisites to pulling from a remote repository include:
 
