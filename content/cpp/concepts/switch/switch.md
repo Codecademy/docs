@@ -50,3 +50,28 @@ switch (grade) {
 In the code above, suppose grade is equal to `10`, then the output would be “Sophomore”.
 
 **Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and *all* subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+
+## Codebyte Example
+
+```codebyte/cpp
+#include <iostream>
+
+int main() {
+  int rating = 3;
+  
+  switch (rating) {
+    case 5:
+      std::cout << "Exceptional\n";
+      break;
+    case 4:
+      std::cout << "Good\n";
+      break;
+    case 3:
+      std::cout << "Fair\n";
+      break;
+    default:
+      std::cout << "Poor\n";
+      break;
+  }
+}
+```
