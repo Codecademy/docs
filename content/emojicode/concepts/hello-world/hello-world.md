@@ -43,6 +43,8 @@ This prints "Hello, World!" to the terminal.
 
 ## Example
 
+Here's a program called **hello.emojic**:
+
 ```emojic
 🏁 🍇
   😀 🔤Welcome to Codecademy Docs🔤❗️
