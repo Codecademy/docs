@@ -23,7 +23,7 @@ The basic syntax for pushing in Git is this:
 $ git push <remote-name> <branch-name>
 ```
 
-## How Do I push?
+## How to Push
 
 Prerequisites to pushing from within a repository include:
 
