@@ -27,25 +27,51 @@ To access the class attributes, use the dot syntax (`.`) on the object:
 
 Create an object called `myObj` and access the attributes:
 
-```codebyte/cpp
+```cpp
 class MyClass {       
-   public:
-      int myNum;
-      string myString;
+  public:
+    int myNum;
+    std::string myString;
 };
 
 int main() {
-   // Create an object of MyClass
-   MyClass myObj;
+  // Create an object of MyClass
+  MyClass myObj;
    
+  // Access attributes and set values
+  myObj.myNum = 15; 
+  myObj.myString = "Some text";
+   
+  // Print attribute values
+  std::cout << myObj.myNum << "\n";
+  std::cout << myObj.myString;
+
+  return 0;
+}
+```
+
+## Codebyte Example
+
+```codebyte/cpp
+#include <iostream>
+#include <string>
+
+class Cat {       
+  public:
+    std::string name;
+    std::string color;
+    int age;
+};
+
+
+int main() {
+   // Create an object of Cat
+   Cat mochi;
+
    // Access attributes and set values
-   myObj.myNum = 15; 
-   myObj.myString = "Some text";
-   
-   // Print attribute values
-   std::cout << myObj.myNum << "\n";
-   std::cout << myObj.myString;
+   mochi.name = "Mochi"; 
+   mochi.color = "Gray";
+   mochi.age = 2;
 
    return 0;
 }
-```
