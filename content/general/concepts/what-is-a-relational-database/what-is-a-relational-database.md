@@ -37,7 +37,7 @@ Each entry in the `sales` table would have a foreign key referring to the primar
 
 The relation between the `product` table to the `sales` table is referred to as a one-to-many relationship (for each product there can be multiple sales). 
 
-![relational database example](https://github.com/Codecademy/docs/blob/main/media-file-hosting/relational-database.PNG "Example of a Relational Database")
+![relational database example](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/general-relational-database.png "Example of a Relational Database")
 
 ## Examples of Relational Database Management Systems
 
