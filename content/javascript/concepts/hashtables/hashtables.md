@@ -18,7 +18,7 @@ A hash table is an implementation of an associative array, a list of key-value p
 
 There are two main ways to implement a hash table/associative array in JavaScript.
 
-## Using the Object data type
+## Using the Object Data Type
 
 The simplest implementation is using the `Object` data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an `Object` itself can behave as a basic hash table.
 
