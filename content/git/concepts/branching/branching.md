@@ -48,7 +48,7 @@ $ git branch -d <branch-name>
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-### Combining Two Branches
+### Combining Branches
 
 The basic syntax for moving code from one branch into another in Git is this:
 
