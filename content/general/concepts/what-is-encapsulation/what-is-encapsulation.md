@@ -1,13 +1,13 @@
 ---
-Title: "What is a Encapsulation?"
+Title: "What is Encapsulation?"
 Subjects:
   - "Computer Science"
   - "Web Development"
 Tags:
+  - "OOP"
   - "Best Practices"
   - "Memory"
 Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
   - "https://www.codecademy.com/learn/paths/computer-science"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
