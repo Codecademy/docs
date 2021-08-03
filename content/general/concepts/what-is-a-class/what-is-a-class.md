@@ -13,8 +13,9 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-A class is a piece of code within a program that functions as a template for creating instances of a particular object. The template provides initial values and behavior for each of these instances. Each instance is an object itself. 
+A class is a piece of code within a program that functions as a template or blueprint for creating mulitple instances of a particular object. 
 
+The template provides initial values and behavior for each of these instances. Each instance is an object itself. 
 
 ## Example
 
@@ -30,9 +31,18 @@ class Cat
 end
 ```
 
+The `Cat` class has three instance variables:
+
+- `@cat_name`
+- `@cat_color`
+- `@cat_age`
+
 Now we can create a bunch of objects based off of the `Cat` class:
 
 ```rb
-mochi = Cat.new("Mochi", "Gray", 1)
-bean = Cat.new("Bean", "Black/White", 6)
+mochi = Cat.new("Mochi", "Gray", 2)
+
+bean = Cat.new("Bean", "Black/Gray", 6)
+
+femi = Cat.new("Femme en Noir", "Black/White", 9)
 ```
