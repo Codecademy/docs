@@ -50,7 +50,7 @@ Suppose we have a constant named `height` with a value of `3000`, and we want to
 ```
 3000 ➡️ height
  
-😀🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
+😀 🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
 ```
 
 It will output:
