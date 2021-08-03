@@ -19,7 +19,11 @@ The template provides initial values and behavior for each of these instances. E
 
 ## Example
 
-Suppose we want to create a `Cat` class:
+Suppose we want to create a `Cat` class with three instance variables:
+
+- `@cat_name`
+- `@cat_color`
+- `@cat_age`
 
 ```rb
 class Cat
@@ -30,12 +34,6 @@ class Cat
    end
 end
 ```
-
-The `Cat` class has three instance variables:
-
-- `@cat_name`
-- `@cat_color`
-- `@cat_age`
 
 Now we can create a bunch of objects based off of the `Cat` class:
 
