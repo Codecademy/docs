@@ -25,33 +25,32 @@ The keyword `enum` is used to define an enumeration.
 enum name {const1, const2, ...};
 ```
 
-# Example 1
+Here's an example:
 
 ```cpp
 enum day {sun, mon, tue, wed, thu, fri, sat};
 ```
 
-Here:
-
 - `sun` would have the value 0
 - `mon` would have the value 1
 - `tue` would have the value 2
 - ...
+- `sat` would have the value 6
 
-# Example 2
+Here'a another example where one of the constants is assigned a value:
 
 ```cpp
-enum grade {freshman=1, sophomore, junior, senior};
+enum grade {freshman=9, sophomore, junior, senior};
 ```
 
-The enumerator `freshman` is assigned the value 1. Subsequent enumerators, if they are not given an explicit value, receive the value of the previous enumerator plus one.
+The enumerator `freshman` is assigned the value 9. Subsequent enumerators, if they are not given an explicit value, receive the value of the previous enumerator plus one.
 
 So here:
 
-- `freshman` would have the value 1
-- `sophomore` would have the value 2
-- `junior` would have the value 3
-- `senior` would have the value 4
+- `freshman` would have the value 9
+- `sophomore` would have the value 10
+- `junior` would have the value 11
+- `senior` would have the value 12
 
 ## Codebyte Example
 
