@@ -17,7 +17,7 @@ After reviewing, if the changes are approved by author(s)/collaborators of the r
 
 PRs are featured on popular version control platforms such as [GitHub](https://github.com/) and [GitLab](https://about.gitlab.com/).
 
-## How Do I Create a Pull Request?
+## Create a Pull Request
 
 The prerequisites for creating a PR and contributing to are: 
 
