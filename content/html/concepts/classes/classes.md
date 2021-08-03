@@ -12,17 +12,19 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-Classes are HTML attributes used to select one or more elements for styling or JavaScript purposes. 
+Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. 
 
 ## For Styling 
 
-The `class` attribute is commonly used for assigning styles to one or more elements. Inside the stylesheet, a class name is selected with the collowing syntax: 
+The `class` attribute is commonly used for assigning styles to one or more elements. Inside the stylesheet, a class name is selected with the following syntax: 
 
-```html
+```css
 .class-name {
   
 }
 ```
+
+A class selector is a name preceded by a period (`.`).
 
 Below is some markup with an outer `wrapper-div`, contaning a level 1 `heading` and three level 2 `sub-heading`s. The styling for the `heading` will be unique. However, all elements with the `sub-heading` class name received the same styling. 
 
