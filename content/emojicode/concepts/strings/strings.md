@@ -38,3 +38,23 @@ Here's a full program that print out two strings:
   😀 🔤That was a crazy year.🔤❗️
 🍉
 ```
+
+## String Interpolation
+
+String interpolation can be used to construct a string from a mix of constants, variables, and others by including their values inside a string literal.
+
+In Emojicode, to insert a value into a string using string interpolation, we can write the variable inside two `🧲`s and it will print its value.
+
+Suppose we have a constant named `height` with a value of `3000`, and we want to use string interpolation to print out a fun fact:
+
+```
+3000 ➡️ height
+ 
+😀🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
+```
+
+It will output:
+
+```
+Alex Honnold climbed El Capitan, which is 3000 feet, without a rope!
+```
