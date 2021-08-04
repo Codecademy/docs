@@ -58,7 +58,7 @@ public class Person {
 }
 ```
 
-# Creating a New Class Instance
+## Creating a New Class Instance
 
 In Java, we use the `new` keyword followed by a call to the class constructor in order to create a new instance of a class.
 
