@@ -1,5 +1,6 @@
 ---
 Title: "grid-template-rows"
+Description: "A property that specifies the row structure of a grid container."
 Subjects:
   - "Web Development"
   - "Web Design"

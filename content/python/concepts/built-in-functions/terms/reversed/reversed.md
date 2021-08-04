@@ -1,5 +1,6 @@
 ---
 Title: "reversed()"
+Description: "Takes in an iterator object, such as a list or string, and returns a reversed iterator object."
 Subjects:
   - "Data Science"
   - "Computer Science"

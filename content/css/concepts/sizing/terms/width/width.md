@@ -1,5 +1,6 @@
 ---
 Title: "width"
+Description: "Defines the width of an element's content area. The content area is the space inside the padding, border, and margin of the element."
 Subjects:
   - "Web Development"
   - "Web Design"

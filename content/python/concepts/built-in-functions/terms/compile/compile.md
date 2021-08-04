@@ -1,5 +1,6 @@
 ---
 Title: "compile()"
+Description: "Returns a runnable code object created from a string."
 Subjects:
   - "Computer Science"
   - "Data Science"

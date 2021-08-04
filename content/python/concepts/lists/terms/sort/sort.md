@@ -1,5 +1,6 @@
 ---
 Title: ".sort()"
+Description: "Sort the contents of the list it is called on."
 Subjects:
   - "Data Science"
   - "Computer Science"

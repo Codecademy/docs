@@ -1,5 +1,6 @@
 ---
 Title: ".valueOf()"
+Description: "Returns a new array with all the items of the original array. "
 Subjects:
   - "Web Development"
   - "Computer Science"

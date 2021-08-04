@@ -1,5 +1,6 @@
 ---
 Title: "delattr()"
+Description: "Allows the user to delete attributes from an object."
 Subjects:
   - "Computer Science"
   - "Data Science"

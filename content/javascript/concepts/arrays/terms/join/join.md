@@ -1,5 +1,6 @@
 ---
 Title: ".join()"
+Description: "Elements of an array are converted to strings and concatenated together, returning the resulting string."
 Subjects:
   - "Web Development"
   - "Computer Science"

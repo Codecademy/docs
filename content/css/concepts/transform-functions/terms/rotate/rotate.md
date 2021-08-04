@@ -1,5 +1,6 @@
 ---
 Title: "rotate()"
+Description: "Rotates an element around a fixed point in a two-dimensional space."
 Subjects:
   - "Web Development"
   - "Web Design"

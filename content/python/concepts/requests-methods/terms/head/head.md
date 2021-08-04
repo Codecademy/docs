@@ -1,5 +1,6 @@
 ---
 Title: "requests.head()"
+Description: "The requests module for Python includes a method for making a "head" request to a web server; it returns a response object. "
 Subjects:
   - "Data Science"
 Tags: 

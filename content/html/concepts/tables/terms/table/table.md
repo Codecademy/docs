@@ -1,5 +1,6 @@
 ---
 Title: "table"
+Description: "Defines an HTML table. "
 Subjects:
   - "Web Development"
   - "Web Design"

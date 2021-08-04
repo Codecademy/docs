@@ -1,5 +1,6 @@
 ---
 Title: "clear"
+Description: "Species whether an element coming after a floated element should be moved down or not."
 Subjects:
   - "Web Development"
   - "Web Design"

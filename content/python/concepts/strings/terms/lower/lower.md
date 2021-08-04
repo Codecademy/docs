@@ -1,5 +1,6 @@
 ---
 Title: .lower()
+Description: "Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed."
 Subjects:
   - "Data Science"
   - "Computer Science"

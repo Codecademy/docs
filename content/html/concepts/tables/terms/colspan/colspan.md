@@ -1,5 +1,6 @@
 ---
 Title: "colspan"
+Description: "Defines the number of columns a cell should span. "
 Subjects:
   - "Web Development"
   - "Web Design"

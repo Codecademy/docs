@@ -1,5 +1,6 @@
 ---
 Title: ".clear()"
+Description: "Removes all items from the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

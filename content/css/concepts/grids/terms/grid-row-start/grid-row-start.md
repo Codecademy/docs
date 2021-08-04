@@ -1,5 +1,6 @@
 ---
 Title: "grid-row-start"
+Description: "A property that specifies the start of a content span over a set of rows within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

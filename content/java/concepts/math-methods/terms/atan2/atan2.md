@@ -1,5 +1,6 @@
 ---
 Title: "Math.atan2()"
+Description: "Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis."
 Subjects:
   - "Computer Science"
 Tags:

@@ -1,5 +1,6 @@
 ---
 Title: "padding-top"
+Description: "Defines the width of the top padding for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

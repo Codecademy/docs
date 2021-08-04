@@ -1,5 +1,6 @@
 ---
 Title: "UPDATE"
+Description: "Edits row(s) in a table."
 Subjects:
   - "Data Science"
   - "Computer Science"

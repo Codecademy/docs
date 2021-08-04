@@ -1,5 +1,6 @@
 ---
 Title: OR
+Description: "Filters the result set to only include rows where either condition is true."
 Subjects:
   - "Data Science"
   - "Computer Science"

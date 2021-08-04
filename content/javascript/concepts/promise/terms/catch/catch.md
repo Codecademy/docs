@@ -1,5 +1,6 @@
 ---
 Title: ".catch()"
+Description: "Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections."
 Subjects:
   - "Web Development"
 Tags:

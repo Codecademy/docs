@@ -1,5 +1,6 @@
 ---
 Title: ".toString()"
+Description: "Converts a Date object to a string."
 Subjects:
   - "Web Development"
   - "Computer Science"

@@ -1,5 +1,6 @@
 ---
 Title: ".seek()"
+Description: "Allows the user to move the location of the file handle's reference point within an open file from one place to another."
 Subjects:
   - "Computer Science"
   - "Data Science"

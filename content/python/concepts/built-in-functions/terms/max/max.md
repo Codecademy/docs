@@ -1,5 +1,6 @@
 ---
 Title: "max()"
+Description: "Returns the highest value from values given or an iterable."
 Subjects:
   - "Computer Science"
   - "Data Science"

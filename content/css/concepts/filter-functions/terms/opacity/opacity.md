@@ -1,5 +1,6 @@
 ---
 Title: "opacity()"
+Description: "Controls how much of the background is visible through the element it is applied to."
 Subjects:
   - "Web Development"
   - "Web Design"

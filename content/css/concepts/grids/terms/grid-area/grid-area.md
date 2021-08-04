@@ -1,5 +1,6 @@
 ---
 Title: "grid-area"
+Description: "A property used to identify an element within a grid template or specify the location of an element within a grid.  "
 Subjects:
   - "Web Development"
   - "Web Design"

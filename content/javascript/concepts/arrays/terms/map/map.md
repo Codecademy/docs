@@ -1,5 +1,6 @@
 ---
 Title: ".map()"
+Description: "Creates a new array with the results of calling a function for every element in array."
 Subjects:
   - "Web Development"
   - "Computer Science"

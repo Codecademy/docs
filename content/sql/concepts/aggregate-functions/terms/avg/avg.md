@@ -1,5 +1,6 @@
 ---
 Title: "AVG()"
+Description: "The AVG() aggregate function returns the average value in a column."
 Subjects:
   - "Data Science"
   - "Computer Science"

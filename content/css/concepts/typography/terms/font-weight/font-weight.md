@@ -1,5 +1,6 @@
 ---
 Title: "font-weight"
+Description: "To set the text to be thicker or thinner."
 Subjects:
   - "Web Development"
   - "Web Design"

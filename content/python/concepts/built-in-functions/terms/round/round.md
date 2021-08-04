@@ -1,5 +1,6 @@
 ---
 Title: "round()"
+Description: "Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer."
 Subjects:
   - "Data Science"
   - "Computer Science"

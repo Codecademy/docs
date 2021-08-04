@@ -1,5 +1,6 @@
 ---
 Title: "background-blend-mode"
+Description: "Returns a new blended color based on the background color and the background images."
 Subjects:
   - "Web Development"
   - "Web Design"

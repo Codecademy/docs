@@ -1,5 +1,6 @@
 ---
 Title: "cbrt()"
+Description: "Returns the cube root of the argument."
 Subjects:
   - "Computer Science"
 Tags:

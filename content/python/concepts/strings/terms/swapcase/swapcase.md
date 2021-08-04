@@ -1,5 +1,6 @@
 ---
 Title: ".swapcase()"
+Description: "Takes a string and returns a copy of that string in which all lowercase letters are uppercase, and all upercase letters are lowercase. Numbers and symbols are not changed."
 SUbjects:
   - "Data Science"
   - "Computer Science"

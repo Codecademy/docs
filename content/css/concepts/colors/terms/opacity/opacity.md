@@ -1,5 +1,6 @@
 ---
 Title: "opacity"
+Description: "To measure of how transparent an element is."
 Subjects:
   - "Web Development"
   - "Web Design"

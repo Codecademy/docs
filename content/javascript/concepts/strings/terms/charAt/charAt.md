@@ -1,5 +1,6 @@
 ---
 Title: ".charAt()"
+Description: "Returns a single character at the specified index of a string."
 Subjects:
   - "Web Development"
   - "Computer Science"

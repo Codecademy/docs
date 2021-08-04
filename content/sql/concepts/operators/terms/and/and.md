@@ -1,5 +1,6 @@
 ---
 Title: "AND"
+Description: "A logical test that will only include rows where both conditions are true."
 Subjects:
   - "Data Science"
 Tags:

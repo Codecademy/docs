@@ -1,5 +1,6 @@
 ---
 Title: "<video>"
+Description: "Represents an interface for adding video content to the page."
 Subjects:
   - "Web Development"
   - "Web Design"

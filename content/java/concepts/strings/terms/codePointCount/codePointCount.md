@@ -1,5 +1,6 @@
 ---
 Title: ".codePointCount()"
+Description: "Returns the number of Unicode values in specified range of a string."
 Subjects:
   - "Computer Science"
 Tags:

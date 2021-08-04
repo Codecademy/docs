@@ -1,5 +1,6 @@
 ---
 Title: ".reject()"
+Description: "Returns a rejected Promise object with a given reason."
 Subjects:
   - "Web Development"
 Tags:

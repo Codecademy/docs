@@ -1,5 +1,6 @@
 ---
 Title: "border-bottom"
+Description: "Shorthand property that defines the width, color, and style of the bottom border of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

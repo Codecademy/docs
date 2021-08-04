@@ -1,5 +1,6 @@
 ---
 Title: "font-style"
+Description: "To set the font style in which text will appear."
 Subjects:
   - "Web Development"
   - "Web Design"

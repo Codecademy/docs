@@ -1,5 +1,6 @@
 ---
 Title: "overflow"
+Description: "Defines how a block level element should handle content that goes beyond its boundaries."
 Subjects:
   - "Web Development"
   - "Web Design"

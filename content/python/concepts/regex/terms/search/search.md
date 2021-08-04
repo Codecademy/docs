@@ -1,5 +1,6 @@
 ---
 Title: "re.search()"
+Description: "Iterates over a string to find a subset of characters that match a specified pattern."
 Subjects:
   - "Computer Science"
   - "Data Science"

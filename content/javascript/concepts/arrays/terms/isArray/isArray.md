@@ -1,5 +1,6 @@
 ---
 Title: ".isArray()"
+Description: "Returns true for arrays; otherwise, false."
 Subjects:
   - "Web Development"
   - "Computer Science"

@@ -1,5 +1,6 @@
 ---
 Title: "line-height"
+Description: "Set the vertical spacing between lines of text."
 Subjects:
   - "Web Development"
   - "Web Design"

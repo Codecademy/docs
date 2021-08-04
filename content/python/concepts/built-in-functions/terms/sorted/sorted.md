@@ -1,5 +1,6 @@
 ---
 Title: "sorted()"
+Description: "Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter."
 Subjects:
   - "Data Science"
   - "Computer Science"

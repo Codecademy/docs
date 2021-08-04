@@ -1,5 +1,6 @@
 ---
 Title: "@font-face"
+Description: "Specifies a custom font to be used to display text. "
 Subjects:
   - "Web Development"
   - "Web Design"

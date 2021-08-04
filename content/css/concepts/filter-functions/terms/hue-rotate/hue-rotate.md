@@ -1,5 +1,6 @@
 ---
 Title: "hue-rotate()"
+Description: "Accepts an angle value and rotates the hue of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

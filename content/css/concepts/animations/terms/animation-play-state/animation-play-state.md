@@ -1,5 +1,6 @@
 ---
 Title: "animation-play-state"
+Description: "Defines whether an animation is running or paused. "
 Subjects:
   - "Web Development"
   - "Web Design"

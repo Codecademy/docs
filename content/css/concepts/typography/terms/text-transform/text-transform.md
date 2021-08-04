@@ -1,5 +1,6 @@
 ---
 Title: "text-transform"
+Description: "Specifies how to capitalize an element's text. "
 Subjects:
   - "Web Development"
   - "Web Design"

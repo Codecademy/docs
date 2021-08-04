@@ -1,5 +1,6 @@
 ---
 Title: "HAVING"
+Description: "A conditional statement similar to WHERE but used with aggregate functions (COUNT(), MIN(), MAX(), SUM(), AVG())."
 Subjects:
   - "Data Science"
 Tags:

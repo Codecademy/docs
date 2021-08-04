@@ -1,5 +1,6 @@
 ---
 Title: "asin()"
+Description: "Returns the inverse sine of the argument in radians."
 Subjects:
   - "Computer Science"
 Tags:

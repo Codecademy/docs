@@ -1,5 +1,6 @@
 ---
 Title: "INSERT"
+Description: "Inserts new rows into a table."
 Subjects:
   - "Data Science"
 Tags:

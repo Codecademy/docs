@@ -1,5 +1,6 @@
 ---
 Title: IN
+Description: "Allows the user to specify multiple values in the WHERE clause."
 Subjects:
   - "Data Science"
   - "Computer Science"

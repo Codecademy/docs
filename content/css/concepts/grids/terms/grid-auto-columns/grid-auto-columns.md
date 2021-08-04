@@ -1,5 +1,6 @@
 ---
 Title: "grid-auto-columns"
+Description: "A property that specifies the default column size(s) for a container."
 Subjects:
   - "Web Development"
   - "Web Design"

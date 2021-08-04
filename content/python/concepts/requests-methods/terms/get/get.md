@@ -1,5 +1,6 @@
 ---
 Title: "requests.get()"
+Description: "Method for making a "get" request to a web server; it returns a response object. "
 Subjects:
   - "Data Science"
 Tags: 

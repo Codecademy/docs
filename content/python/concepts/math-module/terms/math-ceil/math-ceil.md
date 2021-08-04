@@ -1,5 +1,6 @@
 ---
 Title: "math.ceil()"
+Description: "Takes in a numeric data type and rounds the value up to the nearest integer."
 Subjects:
   - "Computer Science"
   - "Data Science"

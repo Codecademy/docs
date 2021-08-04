@@ -1,5 +1,6 @@
 ---
 Title: "transition-delay"
+Description: "Specifies how long an element should wait before beginning a transition. "
 Subjects:
   - "Web Development"
   - "Web Design"

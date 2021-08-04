@@ -1,5 +1,6 @@
 ---
 Title: "transform"
+Description: "Allows us to rotate, scale, skew or translate an element."
 Subjects:
   - "Web Development"
   - "Web Design"

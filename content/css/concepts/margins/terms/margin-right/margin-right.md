@@ -1,5 +1,6 @@
 ---
 Title: "margin-right"
+Description: "Defines the right margin area for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

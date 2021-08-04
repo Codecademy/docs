@@ -1,5 +1,6 @@
 ---
 Title: "fabs()"
+Description: "Returns the absolute value of the floating point argument."
 Subjects:
   - "Computer Science"
 Tags:

@@ -1,5 +1,6 @@
 ---
 Title: "border-color"
+Description: "Sets the color of the border. The default value is the current element color."
 Subjects:
   - "Web Development"
   - "Web Design"

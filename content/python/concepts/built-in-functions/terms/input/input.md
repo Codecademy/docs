@@ -1,5 +1,6 @@
 ---
 Title: "input()"
+Description: "Takes in a value from the user and converts the value into a string. This function is unique in that the environment creates a field to allow users to enter the value."
 Subjects:
   - "Computer Science"
   - "Data Science"

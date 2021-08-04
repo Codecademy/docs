@@ -1,5 +1,6 @@
 ---
 Title: "position"
+Description: "Defines the location of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

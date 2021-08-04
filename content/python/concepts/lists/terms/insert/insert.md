@@ -1,5 +1,6 @@
 ---
 Title: ".insert()"
+Description: "Adds an item at a specified index in the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

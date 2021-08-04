@@ -1,5 +1,6 @@
 ---
 Title: "grid-row"
+Description: "Specifies the span of content over a set of rows within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

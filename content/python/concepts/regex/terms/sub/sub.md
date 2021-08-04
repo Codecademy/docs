@@ -1,5 +1,6 @@
 ---
 Title: "re.sub()"
+Description: "Replace matching substrings with a new string for all occurrences, or a specified number. "
 Subjects:
   - "Computer Science"
   - "Data Science"

@@ -1,5 +1,6 @@
 ---
 Title: "pow()"
+Description: "Returns the value of a base number x to the power of an exponent y, with an optional modulus z."
 Subjects:
   - "Computer Science"
   - "Data Science"

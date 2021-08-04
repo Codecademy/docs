@@ -1,5 +1,6 @@
 ---
 Title: "acos()"
+Description: "Returns the inverse cosine of the argument in radians."
 Subjects:
   - "Computer Science"
 Tags:

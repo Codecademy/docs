@@ -1,5 +1,6 @@
 ---
 Title: ".then()"
+Description: "Returns a new Promise object."
 Subjects:
   - "Web Development"
 Tags:

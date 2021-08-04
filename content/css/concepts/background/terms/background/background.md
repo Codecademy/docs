@@ -1,5 +1,6 @@
 ---
 Title: "background"
+Description: "Shorthand way of expressing the various background properties of one or more element backgrounds in any order using a single declaration."
 Subjects:
   - "Web Development"
   - "Web Design"

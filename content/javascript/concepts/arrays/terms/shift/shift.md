@@ -1,5 +1,6 @@
 ---
 Title: ".shift()"
+Description: "Removes and returns the first element of the array. All subsequent elements will shift down one place."
 Subjects:
   - "Web Development"
   - "Computer Science"

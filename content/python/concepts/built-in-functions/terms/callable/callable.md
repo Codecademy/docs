@@ -1,5 +1,6 @@
 ---
 Title: "callable()"
+Description: "Returns True if an object is callable, and False if an object is not callable."
 Subjects:
   - "Computer Science"
   - "Data Science"

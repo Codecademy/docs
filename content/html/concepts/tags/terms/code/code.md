@@ -1,5 +1,6 @@
 ---
 Title: "<code>"
+Description: "Represents source code contained in the text."
 Subjects:
   - "Web Development"
   - "Web Design"

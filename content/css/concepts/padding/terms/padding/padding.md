@@ -1,5 +1,6 @@
 ---
 Title: "padding"
+Description: "Shorthand property for padding-top, padding-bottom, padding-left and padding-right that sets the space between the content and margin of an element or for each side individually."
 Subjects:
   - "Web Development"
   - "Web Design"

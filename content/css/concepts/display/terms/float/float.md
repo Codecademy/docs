@@ -1,5 +1,6 @@
 ---
 Title: "float"
+Description: "Places an element on the left or right side of its container."
 Subjects:
   - "Web Development"
   - "Web Design"

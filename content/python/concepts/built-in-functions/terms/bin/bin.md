@@ -1,5 +1,6 @@
 ---
 Title: "bin()"
+Description: "Converts an integer into its binary equivalent string."
 Subjects:
   - "Computer Science"
   - "Data Science"

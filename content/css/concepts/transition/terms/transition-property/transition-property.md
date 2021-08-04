@@ -1,5 +1,6 @@
 ---
 Title: "transition-property"
+Description: "Specifies the property or properties of an element that a transition effect should apply to. "
 Subjects:
   - "Web Development"
   - "Web Design"

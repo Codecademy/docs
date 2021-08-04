@@ -1,5 +1,6 @@
 ---
 Title: "margin-top"
+Description: "Defines the top margin area for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

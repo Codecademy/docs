@@ -1,5 +1,6 @@
 ---
 Title: "th"
+Description: "Defines a header cell in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: ".trim()"
+Description: "Remove existing whitespace from both ends of a string."
 Subjects:
   - "Web Development"
   - "Computer Science"

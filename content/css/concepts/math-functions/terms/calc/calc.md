@@ -1,5 +1,6 @@
 ---
 Title: "calc()"
+Description: "Performs mathematical calculations to determine values for properties."
 Subjects:
   - "Web Development"
   - "Web Design"

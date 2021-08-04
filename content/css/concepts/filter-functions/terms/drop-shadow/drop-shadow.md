@@ -1,5 +1,6 @@
 ---
 Title: "drop-shadow()"
+Description: "Creates a drop shadow effect on an element."
 Subjects:
   - "Web Development"
   - "Web Design"

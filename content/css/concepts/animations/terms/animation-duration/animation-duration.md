@@ -1,5 +1,6 @@
 ---
 Title: "animation-duration"
+Description: "Defines how long an animation should take to complete."
 Subjects:
   - "Web Development"
   - "Web Design"

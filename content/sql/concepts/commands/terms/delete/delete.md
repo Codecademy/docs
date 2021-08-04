@@ -1,5 +1,6 @@
 ---
 Title: "DELETE"
+Description: "Removes existing record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted."
 Subjects:
   - "Data Science"
 Tags:

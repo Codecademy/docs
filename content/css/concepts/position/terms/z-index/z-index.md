@@ -1,5 +1,6 @@
 ---
 Title: "z-index"
+Description: "Sets the stack order of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

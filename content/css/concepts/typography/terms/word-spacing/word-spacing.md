@@ -1,5 +1,6 @@
 ---
 Title: "word-spacing"
+Description: "Set space between words."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "grid-row-end"
+Description: "Specifies the end of a content span over a set of rows within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"
