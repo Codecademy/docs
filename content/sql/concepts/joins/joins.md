@@ -31,6 +31,8 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
+![Inner Join GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/inner-join.gif)
+
 ## Outer Join
 
 An outer join will combine rows from different tables even if the join condition is not met. 
@@ -43,6 +45,8 @@ FROM table1
 LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
+
+![Outer Join GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
 
 ## UNION
 
