@@ -40,8 +40,7 @@ Here's a whole Emojicode programe with comments:
 
 ```emojic
 💭🔜
-Emojicode is created by:
-Theo Weidmann
+Fun Fact: Emojicode is created by Theo Weidmann
 🔚💭
 
 🏁 🍇
