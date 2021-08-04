@@ -15,7 +15,7 @@ Catalog Content:
 HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior.
 
 ```html
-<elementName name="value"></elementName>
+<tag name="value"></tag>
 ```
 
 ## Unique ID Attributes
