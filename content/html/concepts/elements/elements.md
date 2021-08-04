@@ -52,8 +52,13 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 ```html
 <body>
   <div>
-    <h1>It's div's child and body's grandchild</h1>
-    <h2>It's h1's sibling</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
   </div>
 </body>
 ```
+
+Here, 
+- `<h1>` is the child of `<div>`
+- `<h1>` is the grandchild of `<body>`
+- `<h1>` is the sibling of `<h2>`
