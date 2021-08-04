@@ -1,5 +1,5 @@
 ---
-Title: "Hello World"
+Title: "🏁 Hello World"
 Subjects:
   - "Computer Science"
   - "Code Foundations"
