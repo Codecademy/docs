@@ -82,4 +82,4 @@ There are numerous IDEs available, such as:
 - [Android Studio](https://developer.android.com/studio)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com)
 
-The IDE you decide to use depends on what area of computer programming you wish to pursue. Some IDEs, like Android Studio and XCode, are dedicated solely for building mobile applications.
+The IDE you decide to use depends on what area of computer programming you wish to pursue. Some IDEs, like Android Studio and Xcode, are dedicated solely for building mobile applications.
