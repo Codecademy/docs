@@ -14,7 +14,7 @@ Catalog Content:
 
 We write Emojicode programs in files with the extension **.emojic** or **.🍇**.
 
-Almost all the code in an Emojicode program will live inside a `🏁` block. A block is a collection of code. The `🏁 `block indicates all the code that should run when the file is executed.
+Almost all the code in an Emojicode program will live inside a `🏁` block. A block is a collection of code. The `🏁` block indicates all the code that should run when the file is executed.
 
 Within our larger program, we can indicate one or more blocks of code with `🍇` `🍉` code blocks:
 
