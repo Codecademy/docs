@@ -16,6 +16,13 @@ All programming languages designate certain "types" of data. This helps the oper
 
 Here are a few basic data types in Emojicode:
 
+| Type | Description |
+| --- | --- |
+| `🔢` | Integer numbers |
+| `💯` | Decimal numbers |
+| `🔡` | Text strings |
+| `👌` | Truth values `👍`/`👎` |
+
 * `🔢`: integer numbers
 * `💯`: decimal numbers
 * `🔡`: text strings
