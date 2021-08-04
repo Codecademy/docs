@@ -29,7 +29,7 @@ git merge feature_test
 
 ## Merging a Pull Request on GitHub
 
-1. Under your repository name, click the "Pull requests" tab.
+1. In the GitHub repository page, click the "Pull requests" tab at the top.
 
 2. In the "Pull Requests" list, choose the pull request that you'd like to merge.
 
