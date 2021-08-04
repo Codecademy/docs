@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior.
+HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.
 
 ```html
 <tag name="value"></tag>
@@ -30,7 +30,7 @@ When needed, the `id` value can be called upon by CSS and JavaScript to manipula
 
 ## Example
 
-In the provided example, we are giving the `<p>` paragraph element an unique identifier using the `id` attribute and changing the color of the default text using the style attribute:
+In the provided example, we are giving the `<p>` paragraph element an unique identifier using the `id` attribute and changing the color of the default text using the `style` attribute:
 
 ```html
 <p id="my-paragraph" style="color: green;">
