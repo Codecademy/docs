@@ -33,3 +33,18 @@ This is a comment.
 It will be ignored by the compiler.
 🔚💭
 ```
+
+## Example
+
+Here's a whole Emojicode programe with comments:
+
+```emojic
+💭🔜
+Emojicode is created by Theo Weidmann
+🔚💭
+
+🏁 🍇
+  😀 🔤Hello World!🔤❗️
+  💭 Output: Hello World!
+🍉
+```
