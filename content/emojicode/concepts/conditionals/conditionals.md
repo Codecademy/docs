@@ -5,6 +5,7 @@ Subjects:
 Tags:
   - "If"
   - "Else"
+  - "Control Flow"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-emojicode"
   - "https://www.codecademy.com/learn/paths/computer-science"
