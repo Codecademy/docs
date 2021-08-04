@@ -1,5 +1,5 @@
 ---
-Title: "Enum"
+Title: "Enums"
 Subjects:
   - "Computer Science"
   - "Game Development"
