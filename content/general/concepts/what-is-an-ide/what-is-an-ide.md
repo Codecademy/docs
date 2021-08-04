@@ -78,7 +78,7 @@ IDEs also provide hints while coding to prevent errors before compilation.
 There are numerous IDEs available, such as:
 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- [XCode](https://developer.apple.com/xcode/)
+- [Xcode](https://developer.apple.com/xcode/)
 - [Android Studio](https://developer.android.com/studio)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com)
 
