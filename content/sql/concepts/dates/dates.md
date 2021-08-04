@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-Dates are often written in the following format:
+Dates in SQL are often written in the following format:
 
 - Date: `YYYY-MM-DD`
 - Datetime: `YYYY-MM-DD hh:mm:ss`
