@@ -1,6 +1,6 @@
 ---
 Title: "requests.post()"
-Description: "Python's requests module comes with a method for making a "post" request to a web server; it returns a response object."
+Description: "Python's requests module comes with a method for making a &apos;post&apos; request to a web server; it returns a response object."
 Subjects:
   - "Data Science"
 Tags: 
