@@ -12,7 +12,9 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
 
-*Constraints* in SQL add information about how a column can be used after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. 
+*Constraints* in SQL are the rules applied to the values of individual columns. They add information about how a column can be used after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. 
+
+Here are some of the constraints that can be set:
 
 - `PRIMARY KEY` columns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in a *constraint violation* which will not allow you to insert the new row.
 
@@ -22,13 +24,20 @@ Catalog Content:
 
 - `DEFAULT` columns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
 
+**Note:** There can be only one `PRIMARY KEY` column per table and multiple `UNIQUE` columns.
+
 The statement below sets constraints on the `celebs` table:
 
 ```sql
 CREATE TABLE celebs (
-   id INTEGER PRIMARY KEY, 
-   name TEXT UNIQUE,
-   date_of_birth TEXT NOT NULL,
-   date_of_death TEXT DEFAULT 'Not Applicable'
+  id INTEGER PRIMARY KEY, 
+  name TEXT UNIQUE,
+  grade INTEGER NOT NULL,
+  age INTEGER DEFAULT 10
 );
 ```
+
+- `id` column is the `PRIMARY KEY`.
+- `name` column is `UNIQUE`.
+- `grade` column is `NOT NULL`.
+- `age` column has a `DEFAULT` of 10.
