@@ -12,14 +12,6 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-In the provided example, we are giving the <p> (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute. 
-
-```html
-<p id="my-paragraph" style="color: green;">
-  Here’s some text for a paragraph that is being altered by HTML attributes
-</p>
-```
-
 HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior.
 
 ```html
@@ -34,4 +26,14 @@ When needed, the `id` value can be called upon by CSS and JavaScript to manipula
 
 ```html
 <h1 id="A1">Hello World</h1>
+```
+
+## Example
+
+In the provided example, we are giving the `<p>` paragraph element an unique identifier using the `id` attribute and changing the color of the default text using the style attribute:
+
+```html
+<p id="my-paragraph" style="color: green;">
+  Here’s some text for a paragraph that is being altered by HTML attributes
+</p>
 ```
