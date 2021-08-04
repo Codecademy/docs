@@ -18,6 +18,12 @@ HTML attributes consist of a name and a value using the following syntax: `name=
 <tag name="value"></tag>
 ```
 
+So for example, the HTML `<img>` image element has a `src` attribute that contains the image URL and is mandatory:
+
+```html
+<img src="image.png">
+```
+
 ## Unique ID Attributes
 
 In HTML, specific and unique `id` attributes can be assigned to different elements in order to differentiate between them.
