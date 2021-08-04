@@ -43,9 +43,9 @@ Relative file paths begin with `./` followed by a path to the local file. `./` t
 <a href="./about.html">The URL for this anchor element is a relative file path.</a>
 ```
 
-### Link to a Different Part of the Page
+## Link to a Specifific Part of the Page
 
-The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location with # followed by the id of the element to link to.
+The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location with `#` followed by the `id` of the element to link to.
 
 ```html
 <div>
