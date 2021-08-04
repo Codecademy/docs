@@ -47,4 +47,4 @@ git merge feature_test
 
 6. Click **Confirm merge**, **Confirm squash and merge**, or **Confirm rebase and merge**.
 
-7. (Optional) Last but not the least, delete the branch. This keeps the list of branches in your repository tidy.
+7. (Optional) Last but not the least, delete the branch. This keeps the list of branches in your repository nice and tidy.
