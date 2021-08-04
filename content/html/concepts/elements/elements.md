@@ -27,24 +27,33 @@ The HTML element is everything from the opening tag to the closing tag:
 - `Hello World!` is the content.
 - `</p>` is the closing tag.
 
-Note: Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have an end tag!
+**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are "self-closing".
 
 ## Nested HTML Elements
 
-HTML elements can be nested (this means that elements can contain other elements).
+HTML elements can be nested, which means that elements can contain other elements inside them, or nested. All HTML documents consist of nested HTML elements.
 
-All HTML documents consist of nested HTML elements.
-
-The following example contains four HTML elements (`<html>`, `<body>`, `<h1>`, and `<p>`):
+The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, and `<p>`:
 
 ```html
-  <!DOCTYPE html>
+<!DOCTYPE>
 <html>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
+  <body>
+    <h1>Blog Post</h1>
+    <p>My first paragraph.</p>
+  </body>
 </html>
-  ```
+```
+
+## HTML Structure 
+
+HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
+
+```html
+<body>
+  <div>
+    <h1>It's div's child and body's grandchild</h1>
+    <h2>It's h1's sibling</h2>
+  </div>
+</body>
+```
