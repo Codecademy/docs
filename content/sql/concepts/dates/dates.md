@@ -24,7 +24,7 @@ SELECT DATETIME(order_time)
 FROM baked_goods;
 ```
 
-Would return the date and time for the `order_time` column.
+This would return the date and time for the `order_time` column.
 
 ## DATE()
 
