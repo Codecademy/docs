@@ -1,5 +1,5 @@
 ---
-Title: "Strings"
+Title: "🔤 Strings"
 Subjects:
   - "Code Foundations"
   - "Computer Science"
