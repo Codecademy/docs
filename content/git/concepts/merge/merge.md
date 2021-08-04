@@ -29,17 +29,17 @@ git merge feature_test
 
 ## Merging a Pull Request on GitHub
 
-1. In the GitHub repository page, click the "Pull requests" tab at the top.
+1. On the GitHub repository page, click the "Pull requests" tab at the top.
 
 2. In the "Pull Requests" list, choose the pull request that you'd like to merge.
 
 3. Depending on the merge options enabled for your repository, you can:
 
-  - Merge all of the commits into the base branch by clicking **Merge pull request**. If the **Merge pull request** option is not shown, then click the merge drop down menu and select **Create a merge commit**.
+    - Merge all of the commits into the base branch by clicking **Merge pull request**. If the **Merge pull request** option is not shown, then click the merge drop down menu and select **Create a merge commit**.
 
-  - Squash the commits into one commit by clicking the merge drop down menu, selecting **Squash and merge** and then clicking the **Squash and merge** button.
+    - Squash the commits into one commit by clicking the merge drop down menu, selecting **Squash and merge** and then clicking the **Squash and merge** button.
 
-  - Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting **Rebase and merge** and then clicking the **Rebase and merge** button.
+    - Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting **Rebase and merge** and then clicking the **Rebase and merge** button.
 
 4. If prompted, type a commit message, or accept the default message.
 
