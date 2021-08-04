@@ -14,7 +14,7 @@ Catalog Content:
 An HTML element is a piece of content in an HTML document and uses the following syntax:
 
 ```html
-opening tag + content + closing tag. 
+<opening tag> content <closing tag>
 ```
 
 For example:
@@ -23,6 +23,6 @@ For example:
 <p>Hello World!</p>
 ```
 
-- <p> is the opening tag.
-- Hello World! is the content.
-- </p> is the closing tag.
+- `<p>` is the opening tag.
+- `Hello World!` is the content.
+- `</p>` is the closing tag.
