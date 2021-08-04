@@ -14,7 +14,7 @@ Catalog Content:
 
 In order to efficiently store data, we often spread related information across multiple tables. 
 
-Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or a Data Engineer will often encounter.
+Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter.
 
 ## Inner Join
 
