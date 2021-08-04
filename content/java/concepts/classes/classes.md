@@ -14,10 +14,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-A _class_ is a blueprint or a template for the object. Blueprints detail the general 
-structure. 
-
-We represent each student as an instance, or object, of the Student class.
+A _class_ is a blueprint or a template for the object. Blueprints detail the general structure (information and behavior about an object.
 
 ## Syntax
 
