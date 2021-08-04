@@ -47,7 +47,7 @@ else {
 
 ## Else If
 
-`else`-`if` statements can be chained together to check multiple conditions. Once a condition is true, a code block will be executed and the conditional statement will be exited.
+`else`-`if` statements can be chained together to check multiple conditions. Once a condition is `true`, a code block will be executed and the conditional statement will be exited.
 
 There can be multiple `else`-`if` statements in a single conditional statement.
 
