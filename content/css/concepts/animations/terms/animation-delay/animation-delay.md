@@ -1,5 +1,6 @@
 ---
 Title: "animation-delay"
+Description: "Defines when an animation starts."
 Subjects:
   - "Web Development"
   - "Web Design"

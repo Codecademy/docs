@@ -1,5 +1,6 @@
 ---
 Title: "grid-column"
+Description: "Specifies the span of content over a set of columns within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

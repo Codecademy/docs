@@ -1,5 +1,6 @@
 ---
 Title: "animation"
+Description: "Shorthand property that sets the animations for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

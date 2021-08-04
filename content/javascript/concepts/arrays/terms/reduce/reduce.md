@@ -1,5 +1,6 @@
 ---
 Title: ".reduce()"
+Description: "Combines each element of an array, using a reducer function you specify, and returns a single value."
 Subjects:
   - "Web Development"
   - "Computer Science"

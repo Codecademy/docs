@@ -1,5 +1,6 @@
 ---
 Title: ".getDate()"
+Description: "Called from an instance of the Date class, will return the date of the month. All return values will be integers between 1 and 31."
 Subjects:
   - "Web Development"
   - "Computer Science"

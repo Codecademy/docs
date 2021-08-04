@@ -1,5 +1,6 @@
 ---
 Title: "int()"
+Description: "Takes in a value that can be converted into an integer, and returns a copy of the value in the int datatype."
 Subjects:
   - "Computer Science"
   - "Data Science"

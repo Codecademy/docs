@@ -1,5 +1,6 @@
 ---
 Title: "re.findall()"
+Description: "Iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every match that occurs in a given string."
 Subjects:
   - "Computer Science"
   - "Data Science"

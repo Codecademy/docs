@@ -1,5 +1,6 @@
 ---
 Title: "MAX()"
+Description: "The MAX() aggregate function takes the name of a column as an argument and returns the largest value in a column."
 Subjects:
   - "Data Science"
   - "Computer Science"

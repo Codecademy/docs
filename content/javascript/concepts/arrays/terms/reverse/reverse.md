@@ -1,5 +1,6 @@
 ---
 Title: ".reverse()"
+Description: "Reverses the order of the elements of an array in place and returns the reversed array."
 Subjects:
   - "Web Development"
   - "Computer Science"

@@ -1,5 +1,6 @@
 ---
 Title: "math.exp()"
+Description: "Returns E raised to the power of x."
 Subjects:
   - "Computer Science"
   - "Data Science"

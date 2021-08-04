@@ -1,5 +1,6 @@
 ---
 Title: "overflow-y"
+Description: "Defines how a block level element should handle content that goes beyond its y-axis boundary."
 Subjects:
   - "Web Development"
   - "Web Design"

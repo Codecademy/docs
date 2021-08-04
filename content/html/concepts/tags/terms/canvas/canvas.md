@@ -1,5 +1,6 @@
 ---
 Title: "<canvas>"
+Description: "Creates an element in the page for JavaScript and WebGL to interact with, primarily to create and animate graphics within the page."
 Subjects:
   - "Web Development"
   - "Web Design"

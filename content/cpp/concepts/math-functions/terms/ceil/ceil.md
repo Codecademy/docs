@@ -1,5 +1,6 @@
 ---
 Title: "ceil()"
+Description: "Returns the next whole number that is greater than or equal to the argument."
 Subjects:
   - "Computer Science"
 Tags:

@@ -1,5 +1,6 @@
 ---
 Title: ".length"
+Description: "Returns the specific number of elements in the array."
 Subjects:
   - "Web Development"
   - "Computer Science"

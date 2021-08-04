@@ -1,5 +1,6 @@
 ---
 Title: "classmethod()"
+Description: "Converts a given function into a class method."
 Subjects:
   - "Computer Science"
   - "Data Science"

@@ -1,5 +1,6 @@
 ---
 Title: "<div>"
+Description: "The <div> tag represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document."
 Subjects:
   - "Web Development"
   - "Web Design"

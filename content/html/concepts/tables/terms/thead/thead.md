@@ -1,5 +1,6 @@
 ---
 Title: "thead"
+Description: "Groups the header content in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"

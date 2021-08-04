@@ -1,5 +1,6 @@
 ---
 Title: "bytearray()"
+Description: "Returns an array of the given bytes of an object."
 Subjects:
   - "Computer Science"
   - "Data Science"

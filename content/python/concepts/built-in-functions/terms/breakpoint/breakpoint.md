@@ -1,5 +1,6 @@
 ---
 Title: "breakpoint()"
+Description: "Engage, configure, and change the debugger program used in a script."
 Subjects:
   - "Computer Science"
   - "Data Science"

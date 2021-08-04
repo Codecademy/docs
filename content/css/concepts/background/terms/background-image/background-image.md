@@ -1,5 +1,6 @@
 ---
 Title: "background-image"
+Description: "Places one or more images in the background of the element."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "overflow-x"
+Description: "Defines how a block level element should handle content that goes beyond its x-axis boundary."
 Subjects:
   - "Web Development"
   - "Web Design"

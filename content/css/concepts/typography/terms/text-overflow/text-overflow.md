@@ -1,5 +1,6 @@
 ---
 Title: "text-overflow"
+Description: "Specifies how hidden content is signaled to the user."
 Subjects:
   - "Web Development"
   - "Web Design"

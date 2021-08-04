@@ -1,5 +1,6 @@
 ---
 Title: "rowspan"
+Description: "Specifies the number of rows a cell should span. "
 Subjects:
   - "Web Development"
   - "Web Design"

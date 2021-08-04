@@ -1,5 +1,6 @@
 ---
 Title: "invert()"
+Description: "Inverts the colors of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "brightness()"
+Description: "Defines the brightness or darkness of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

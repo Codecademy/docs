@@ -1,5 +1,6 @@
 ---
 Title: "random.randrange()"
+Description: "Generates random numbers from a defined range of int values."
 Subjects:
   - "Computer Science"
   - "Data Science"

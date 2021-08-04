@@ -1,5 +1,6 @@
 ---
 Title: "transition"
+Description: "Shorthand property that sets different properties to translate an element in a single decleration."
 Subjects:
   - "Web Development"
   - "Web Design"

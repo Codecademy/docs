@@ -1,5 +1,6 @@
 ---
 Title: "background-color"
+Description: "Defines a color for the background of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

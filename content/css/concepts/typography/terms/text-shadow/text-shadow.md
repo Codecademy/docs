@@ -1,5 +1,6 @@
 ---
 Title: "text-shadow"
+Description: "Adds shadow to text. "
 Subjects:
   - "Web Development"
   - "Web Design"

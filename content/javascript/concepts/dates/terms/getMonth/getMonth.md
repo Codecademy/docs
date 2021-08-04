@@ -1,5 +1,6 @@
 ---
 Title: ".getMonth()"
+Description: "Called from an instance of the Date class, will return the month of the year."
 Subjects:
   - "Web Development"
   - "Computer Science"

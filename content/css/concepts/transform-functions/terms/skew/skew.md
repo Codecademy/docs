@@ -1,5 +1,6 @@
 ---
 Title: "skew()"
+Description: "Tilts an element on the x-axis or both the x and y axes on a two dimensional plane."
 Subjects:
   - "Web Development"
   - "Web Design"

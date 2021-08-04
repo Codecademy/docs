@@ -1,5 +1,6 @@
 ---
 Title: "math.cos()"
+Description: "Returns the cosine of the angle."
 Subjects:
   - "Computer Science"
   - "Data Science"

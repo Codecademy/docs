@@ -1,5 +1,6 @@
 ---
 Title: "color"
+Description: "To set color property values for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

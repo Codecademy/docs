@@ -1,5 +1,6 @@
 ---
 Title: "SELECT"
+Description: "Fetchs data from a database. Every query will begin with SELECT."
 Subjects:
   - "Data Science"
   - "Computer Science"

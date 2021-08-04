@@ -1,5 +1,6 @@
 ---
 Title: ".truncate()"
+Description: "Allows the user to resize the file to a given number of bytes when the file is accessed through the append mode."
 Subjects:
   - "Computer Science"
   - "Data Science"

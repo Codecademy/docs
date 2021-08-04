@@ -1,5 +1,6 @@
 ---
 Title: ".search()"
+Description: "Takes a regular expression argument and returns either the character position of the start of the first matching substring or -1 if there is no match."
 Subjects:
   - "Web Development"
   - "Computer Science"

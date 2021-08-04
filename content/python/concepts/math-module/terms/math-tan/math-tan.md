@@ -1,5 +1,6 @@
 ---
 Title: "math.tan()"
+Description: "Returns the tangent of input numeric x, measured in radian value."
 Subjects:
   - "Computer Science"
   - "Data Science"

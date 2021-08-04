@@ -1,5 +1,6 @@
 ---
 Title: "<table>"
+Description: "Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content."
 Subjects:
   - "Web Development"
   - "Web Design"

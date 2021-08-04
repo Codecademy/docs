@@ -1,5 +1,6 @@
 ---
 Title: ".resolve()"
+Description: "Returns a new Promise object that turns into the value that was passed to the method."
 Subjects:
   - "Web Development"
 Tags:

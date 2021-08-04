@@ -1,5 +1,6 @@
 ---
 Title: "dict()"
+Description: "Initializes a new dictionary from mapping n-number of object (key, value) pairs."
 Subjects:
   - "Computer Science"
   - "Data Science"

@@ -1,5 +1,6 @@
 ---
 Title: "BETWEEN"
+Description: "Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types."
 Subjects:
   - "Data Science"
 Tags:

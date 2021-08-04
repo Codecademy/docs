@@ -1,5 +1,6 @@
 ---
 Title: "font-family"
+Description: "Specify the typeface in a rule set."
 Subjects:
   - "Web Development"
   - "Web Design"

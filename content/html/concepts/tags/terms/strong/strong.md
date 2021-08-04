@@ -1,5 +1,6 @@
 ---
 Title: "<strong>"
+Description: "Used to identify text that is very important, or urgent."
 Subjects:
   - "Web Development"
   - "Web Design"

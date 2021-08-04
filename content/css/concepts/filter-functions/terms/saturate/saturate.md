@@ -1,5 +1,6 @@
 ---
 Title: "saturate()"
+Description: "Increase or decrease the intensity of the color of the element it is applied to."
 Subjects:
   - "Web Development"
   - "Web Design"

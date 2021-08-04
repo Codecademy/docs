@@ -1,5 +1,6 @@
 ---
 Title: "ALTER TABLE"
+Description: "Adds, deletes, modifies or changes the data type of a column in a table."
 Subjects:
   - "Data Science"
 Tags:

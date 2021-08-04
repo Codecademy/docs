@@ -1,5 +1,6 @@
 ---
 Title: .casefold()
+Description: "Takes in a string, and returns a copy of the string with all characters in lower case."
 Subjects:
   - "Data Science"
   - "Computer Science"

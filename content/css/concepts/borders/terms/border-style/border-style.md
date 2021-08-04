@@ -1,5 +1,6 @@
 ---
 Title: "border-style"
+Description: "Sets the style of the border. The default value is none."
 Subjects:
   - "Web Development"
   - "Web Design"

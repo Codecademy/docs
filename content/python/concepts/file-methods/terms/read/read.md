@@ -1,5 +1,6 @@
 ---
 Title: ".read()"
+Description: "Allows the user to read the contents of an open file."
 Subjects:
   - "Computer Science"
   - "Data Science"

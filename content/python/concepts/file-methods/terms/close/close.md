@@ -1,5 +1,6 @@
 ---
 Title: ".close()"
+Description: "Allows the user to close an open file within the IDE."
 Subjects:
   - "Computer Science"
   - "Data Science"

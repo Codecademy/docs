@@ -1,5 +1,6 @@
 ---
 Title: "CREATE TABLE"
+Description: "Creates a new table within a database."
 Subjects:
   - "Data Science"
 Tags:

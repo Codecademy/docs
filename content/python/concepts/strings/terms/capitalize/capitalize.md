@@ -1,5 +1,6 @@
 ---
 Title: .capitalize()
+Description: "Takes in a string, and returns a copy of the string in Capital Case."
 Subjects:
   - "Data Science"
   - "Computer Science"

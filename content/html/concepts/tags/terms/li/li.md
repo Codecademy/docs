@@ -1,5 +1,6 @@
 ---
 Title: "<li>"
+Description: "Represents a single item in a list of items. It and the other list items must be wrapped in an <ol>, <ul>, or <menu> tag."
 Subjects:
   - "Web Development"
   - "Web Design"

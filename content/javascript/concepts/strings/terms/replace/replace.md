@@ -1,5 +1,6 @@
 ---
 Title: ".replace()"
+Description: "Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced."
 Subjects:
   - "Web Development"
   - "Computer Science"

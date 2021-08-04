@@ -1,5 +1,6 @@
 ---
 Title: "bool()"
+Description: "Converts a value to a Boolean True or False value."
 Subjects:
   - "Computer Science"
   - "Data Science"

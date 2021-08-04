@@ -1,5 +1,6 @@
 ---
 Title: ".reverse()"
+Description: "Reverse the elements in the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

@@ -1,5 +1,6 @@
 ---
 Title: "math.pow()"
+Description: "Returns the float value of x raised to the power of y."
 Subjects:
   - "Computer Science"
   - "Data Science"

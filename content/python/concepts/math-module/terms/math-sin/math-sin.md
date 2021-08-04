@@ -1,5 +1,6 @@
 ---
 Title: "math.sin()"
+Description: "Returns the sine of input numeric x, measured in radian value."
 Subjects:
   - "Computer Science"
   - "Data Science"

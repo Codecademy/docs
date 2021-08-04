@@ -1,5 +1,6 @@
 ---
 Title: "padding-bottom"
+Description: "Defines the width of the bottom padding for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

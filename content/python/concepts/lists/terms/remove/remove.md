@@ -1,5 +1,6 @@
 ---
 Title: ".remove()"
+Description: "Remove an item from a list by passing in the value of the item to be removed as an argument."
 Subjects:
   - "Data Science"
   - "Computer Science"

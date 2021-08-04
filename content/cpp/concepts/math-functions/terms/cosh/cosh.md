@@ -1,5 +1,6 @@
 ---
 Title: "cosh()"
+Description: "Returns the hyperbolic cosine of an argument given in radians."
 Subjects:
   - "Computer Science"
 Tags:

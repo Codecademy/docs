@@ -1,5 +1,6 @@
 ---
 Title: ".race()"
+Description: "Returns the first Promise in an iterableObject that is either resolved or rejected."
 Subjects:
   - "Web Development"
 Tags:

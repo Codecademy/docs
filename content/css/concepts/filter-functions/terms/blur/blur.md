@@ -1,5 +1,6 @@
 ---
 Title: "blur()"
+Description: "Defines the blur radius of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "tbody"
+Description: "Groups the body content in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"

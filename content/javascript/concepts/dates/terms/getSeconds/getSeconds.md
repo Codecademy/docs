@@ -1,5 +1,6 @@
 ---
 Title: ".getSeconds()"
+Description: "Called from an instance of the Date class, will return the seconds according to the local time."
 Subjects:
   - "Web Development"
   - "Computer Science"

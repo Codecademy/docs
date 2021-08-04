@@ -1,5 +1,6 @@
 ---
 Title: "GROUP BY"
+Description: "Groups a result set based on an aggregate function (COUNT(), MIN(), MAX(), SUM(), AVG()). It lists the number in each group."
 Subjects:
   - "Data Science"
 Tags:

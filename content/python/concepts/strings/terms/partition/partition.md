@@ -1,5 +1,6 @@
 ---
 Title: ".partition()"
+Description: "Searches a string for a given keyword and splits that string into a three part tuple."
 Subjects:
   - "Data Science"
   - "Computer Science"

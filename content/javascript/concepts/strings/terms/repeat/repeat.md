@@ -1,5 +1,6 @@
 ---
 Title: ".repeat()"
+Description: "Repeat a string a specified number of times. String will be concatenated."
 Subjects:
   - "Web Development"
   - "Computer Science"

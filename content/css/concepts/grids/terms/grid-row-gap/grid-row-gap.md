@@ -1,5 +1,6 @@
 ---
 Title: "grid-row-gap"
+Description: "A property that specifies the spacing between row elements within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

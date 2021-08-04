@@ -1,5 +1,6 @@
 ---
 Title: ".readline()"
+Description: "Returns the first line of content from an open file."
 Subjects:
   - "Computer Science"
   - "Data Science"

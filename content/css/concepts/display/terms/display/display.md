@@ -1,5 +1,6 @@
 ---
 Title: "display"
+Description: "Specifies the display behaviour of an elements rendering box."
 Subjects:
   - "Web Development"
   - "Web Design"

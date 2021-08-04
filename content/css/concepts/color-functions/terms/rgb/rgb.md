@@ -1,5 +1,6 @@
 ---
 Title: "rgb"
+Description: "Defines the color value by providing three comma separated values. The first value represents the red value, the second represents the green value, and the third represents the blue value."
 Subjects:
   - "Color"
 Tags:

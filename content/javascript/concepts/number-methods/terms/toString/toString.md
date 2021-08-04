@@ -1,5 +1,6 @@
 ---
 Title: ".toString()"
+Description: "Convert a number to a string."
 Subjects:
   - "Web Development"
   - "Computer Science"

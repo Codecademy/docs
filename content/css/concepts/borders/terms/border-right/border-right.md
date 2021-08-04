@@ -1,5 +1,6 @@
 ---
 Title: "border-right"
+Description: "Shorthand property that defines the width, color, and style of the right border of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

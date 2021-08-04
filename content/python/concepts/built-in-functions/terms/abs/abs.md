@@ -1,5 +1,6 @@
 ---
 Title: "abs()"
+Description: "Takes in a numeric data type such as int or float and returns the absolute value of the argument."
 Subjects:
   - "Computer Science"
   - "Data Science"

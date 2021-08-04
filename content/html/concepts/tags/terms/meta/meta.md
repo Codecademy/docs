@@ -1,5 +1,6 @@
 ---
 Title: "<meta>"
+Description: "Represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it. The <meta> must be placed inside <head> section for the document."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: ".seed()"
+Description: "Save the state of the pseudo-random number generator."
 Subjects:
   - "Computer Science"
   - "Data Science"

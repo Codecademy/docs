@@ -1,5 +1,6 @@
 ---
 Title: "border-top"
+Description: "Shorthand property that defines the width, color, and style of the top border of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

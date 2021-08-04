@@ -1,5 +1,6 @@
 ---
 Title: "WITH"
+Description: "Stores the result of a query in a temporary table using an alias."
 Subjects:
   - "Data Science"
   - "Computer Science"

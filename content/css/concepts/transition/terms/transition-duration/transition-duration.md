@@ -1,5 +1,6 @@
 ---
 Title: "transition-duration"
+Description: "Specifies how long an elements transition should take to complete. "
 Subjects:
   - "Web Development"
   - "Web Design"

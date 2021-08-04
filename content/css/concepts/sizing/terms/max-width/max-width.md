@@ -1,5 +1,6 @@
 ---
 Title: "max-width"
+Description: "Defines the maximum width of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

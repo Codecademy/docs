@@ -1,5 +1,6 @@
 ---
 Title: "LIMIT"
+Description: "Specifies, or limits, the maximum number of rows the result set will have."
 Subjects:
   - "Data Science"
   - "Computer Science"

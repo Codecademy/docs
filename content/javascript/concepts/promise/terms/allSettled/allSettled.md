@@ -1,5 +1,6 @@
 ---
 Title: ".allSettled()"
+Description: "Returns a new Promise object that resolves to an array _after_ all Promises in iterableObject have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in iterableObject."
 Subjects:
   - "Web Development"
 Tags:

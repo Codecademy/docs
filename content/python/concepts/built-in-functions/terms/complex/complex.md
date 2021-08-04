@@ -1,5 +1,6 @@
 ---
 Title: "complex()"
+Description: "Converts a given string into a complex number."
 Subjects:
   - "Computer Science"
   - "Data Science"

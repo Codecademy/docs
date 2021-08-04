@@ -1,5 +1,6 @@
 ---
 Title: "animation-name"
+Description: "Defines a comma-separated list of animations to apply to the given selector. "
 Subjects:
   - "Web Development"
   - "Web Design"

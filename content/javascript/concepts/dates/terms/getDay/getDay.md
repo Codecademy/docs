@@ -1,5 +1,6 @@
 ---
 Title: ".getDay()"
+Description: "Called from an instance of the Date class, will return the day of the week."
 Subjects:
   - "Web Development"
   - "Computer Science"

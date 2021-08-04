@@ -1,5 +1,6 @@
 ---
 Title: "ascii()"
+Description: "Receives as input an object containing string data, and returns the object as a printable representation with \x, \u, or \U escapes for non-ASCII characters (accented characters)."
 Subjects:
   - "Computer Science"
   - "Data Science"
