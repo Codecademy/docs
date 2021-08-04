@@ -26,6 +26,7 @@ public class Cat {
 
   public static void main(String[] args) {
     Cat myCat = new Cat();
+    
     System.out.println("Name: " + myCat.name);
     System.out.println("Color: " + myCat.color);
     System.out.println("Age: " + myCat.age);
