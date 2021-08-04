@@ -41,7 +41,7 @@ git merge feature_test
 
     - Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting **Rebase and merge** and then clicking the **Rebase and merge** button.
 
-4. If prompted, type a commit message, or accept the default message.
+4. If prompted, type a commit message, or accept the default commit message.
 
 5. If you have more than one email address associated with your GitHub account, click the email address drop-down menu and select the email address to use as the Git author email address. Only verified email addresses appear in this drop-down menu. If you enabled email address privacy, then `<username>@users.noreply.github.com` is the default commit author email address.
 
