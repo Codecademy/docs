@@ -31,7 +31,7 @@ Type casting is a way to determine whether a value is of a given type at run-tim
 
 ```emojic
 🔲 value type
-``
+```
 
 The `value` is the value to be casted to `type`. If `value` can be casted to `type`, then `value` is returned as `type`. If it cant, then no value is returned.
 
