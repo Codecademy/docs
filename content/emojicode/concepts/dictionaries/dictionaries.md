@@ -13,9 +13,11 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-A 🍯, or dictionary or hash map in other languages, is an ordered set of `🔤key🔤 ➡️ 🔤value🔤` value pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. 
+🍯, or dictionary or hash map in other languages, is an ordered set of value pairs:
 
-Keys must be unique in dictionaries, but the values don’t have to be.
+`🔤key🔤 ➡️ 🔤value🔤`
+
+It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don’t have to be.
 
 ## Syntax
 
