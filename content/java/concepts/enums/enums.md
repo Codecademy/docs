@@ -14,13 +14,15 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-In Java, an *enumeration* (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 
+*Enumeration* (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 
 
 The keyword `enum` is used to define an enumeration.
 
 An `enum` can contain constants, methods, etc.
 
 ## Syntax
+
+Here's the basic syntax for creating an `enum`:
 
 ```java
 public enum name {
@@ -30,7 +32,7 @@ public enum name {
 }
 ```
 
-Here's an example:
+Here's an `enum` with compass directions:
 
 ```java
 public enum Direction {
@@ -55,6 +57,8 @@ public enum Day {
 - `Day.TUE` will have a value of 1.
 - `Day.WED` will have a value of 2.
 - ...
+
+To access one of the values:
 
 ```java
 Day day = Day.MON;
