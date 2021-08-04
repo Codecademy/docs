@@ -53,10 +53,14 @@ public enum Day {
   THU, FRI, SAT 
 }
 ```
-- `Day.MON` will have a value of 0.
-- `Day.TUE` will have a value of 1.
-- `Day.WED` will have a value of 2.
-- ...
+
+- `Day.SUN` will have a value of 0.
+- `Day.MON` will have a value of 1.
+- `Day.TUE` will have a value of 2.
+- `Day.WED` will have a value of 3.
+- `Day.THU` will have a value of .
+- `Day.FRI` will have a value of 5.
+- `Day.SAT` will have a value of 6.
 
 To access one of the values:
 
