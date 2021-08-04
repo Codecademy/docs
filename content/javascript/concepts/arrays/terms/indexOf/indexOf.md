@@ -1,5 +1,6 @@
 ---
 Title: ".indexOf()"
+Description: "Returns the first index at which an element can be found. Returns -1 if element is not found."
 Subjects:
   - "Web Development"
   - "Computer Science"

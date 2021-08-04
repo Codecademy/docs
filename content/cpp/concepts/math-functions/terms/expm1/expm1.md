@@ -1,5 +1,6 @@
 ---
 Title: "expm1()"
+Description: "Returns e raised to the power of the argument minus 1. For small magnitudes of x expm1(x) may be more accurate than exp(x)-1"
 Subjects:
   - "Computer Science"
 Tags:

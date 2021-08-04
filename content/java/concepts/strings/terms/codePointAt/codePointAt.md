@@ -1,5 +1,6 @@
 ---
 Title: ".codePointAt()"
+Description: "Returns the Unicode value at the given index in the string."
 Subjects:
   - "Computer Science"
 Tags:

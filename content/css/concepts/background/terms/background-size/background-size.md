@@ -1,5 +1,6 @@
 ---
 Title: "background-size"
+Description: "Defines the size of one or more background images."
 Subjects:
   - "Web Development"
   - "Web Design"

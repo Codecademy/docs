@@ -1,5 +1,6 @@
 ---
 Title: "tr"
+Description: "Defines a row in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"

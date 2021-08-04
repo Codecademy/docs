@@ -1,5 +1,6 @@
 ---
 Title: "text-justify"
+Description: "Sets the justifcation method of text when text-align: justify; is applied to an element."
 Subjects:
   - "Web Development"
   - "Web Design"

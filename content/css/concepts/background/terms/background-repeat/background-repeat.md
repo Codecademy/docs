@@ -1,5 +1,6 @@
 ---
 Title: "background-repeat"
+Description: "Defines how the background image should be repeated if the image does not fully cover the element."
 Subjects:
   - "Web Development"
   - "Web Design"

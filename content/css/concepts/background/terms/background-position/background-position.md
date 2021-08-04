@@ -1,5 +1,6 @@
 ---
 Title: "background-position"
+Description: "Defines the positions of one or more background images relative to the background-origin position. This is the point from which any background repetition will occur."
 Subjects:
   - "Web Development"
   - "Web Design"

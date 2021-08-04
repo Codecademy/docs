@@ -1,5 +1,6 @@
 ---
 Title: "animation-iteration-count"
+Description: "Defines how many times an animation runs."
 Subjects:
   - "Web Development"
   - "Web Design"

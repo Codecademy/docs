@@ -1,5 +1,6 @@
 ---
 Title: "animation-timing-function"
+Description: "Defines an acceleration curve for each keyframe in a single animation. "
 Subjects:
   - "Web Development"
   - "Web Design"

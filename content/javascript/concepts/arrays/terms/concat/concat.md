@@ -1,5 +1,6 @@
 ---
 Title: ".concat()"
+Description: "Merges, or concatenates, two or more arrays."
 Subjects:
   - "Web Development"
   - "Computer Science"

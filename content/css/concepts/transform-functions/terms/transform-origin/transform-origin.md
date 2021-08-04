@@ -1,5 +1,6 @@
 ---
 Title: "transform-origin"
+Description: "Sets the origin of an elements tranformation."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "min()"
+Description: "Returns the lowest value from values given or an iterable."
 Subjects:
   - "Computer Science"
   - "Data Science"

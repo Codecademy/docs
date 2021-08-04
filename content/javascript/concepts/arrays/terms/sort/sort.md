@@ -1,5 +1,6 @@
 ---
 Title: ".sort()"
+Description: "Sorts the elements of an array in place and returns the sorted array."
 Subjects:
   - "Web Development"
   - "Computer Science"

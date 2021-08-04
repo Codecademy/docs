@@ -1,5 +1,6 @@
 ---
 Title: "tfoot"
+Description: "Groups the footer content in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"

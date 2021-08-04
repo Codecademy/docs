@@ -1,5 +1,6 @@
 ---
 Title: "margin-left"
+Description: "Defines the left margin area for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: ".append()"
+Description: "Adds an item to end of the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

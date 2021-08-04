@@ -1,5 +1,6 @@
 ---
 Title: "atan()"
+Description: "Returns the inverse tangent of the argument in radians."
 Subjects:
   - "Computer Science"
 Tags:

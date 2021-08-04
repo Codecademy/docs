@@ -1,5 +1,6 @@
 ---
 Title: "contrast()"
+Description: "Defines the contrast on an element."
 Subjects:
   - "Web Development"
   - "Web Design"

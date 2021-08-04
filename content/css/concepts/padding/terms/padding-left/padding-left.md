@@ -1,5 +1,6 @@
 ---
 Title: "padding-left"
+Description: "Defines the width of the left padding for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

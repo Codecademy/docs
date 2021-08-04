@@ -1,5 +1,6 @@
 ---
 Title: "max-height"
+Description: "Defines the maximum height of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

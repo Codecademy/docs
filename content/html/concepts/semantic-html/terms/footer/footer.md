@@ -1,5 +1,6 @@
 ---
 Title: "<footer>"
+Description: "The <footer> semantic tag represents a part of a page which is meant to be at the end of a completed block of content. If it is at the end of an entire page it might include copyright information for the page or additional links to relevant pages, and if it is at the end of an article it might include information about the author."
 Subjects:
   - "Web Development"
   - "Web Design"

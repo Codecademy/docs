@@ -1,5 +1,6 @@
 ---
 Title: ".pop()"
+Description: "Removes an item from a list while also returning it."
 Subjects:
   - "Data Science"
   - "Computer Science"

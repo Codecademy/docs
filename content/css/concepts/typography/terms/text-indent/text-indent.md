@@ -1,5 +1,6 @@
 ---
 Title: "text-indent"
+Description: "Indents (leaves empty space) the first line in a text-block."
 Subjects:
   - "Web Development"
   - "Web Design"

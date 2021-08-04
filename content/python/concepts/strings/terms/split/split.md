@@ -1,5 +1,6 @@
 ---
 Title: ".split()"
+Description: "Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. "
 Subjects:
   - "Data Science"
   - "Computer Science"

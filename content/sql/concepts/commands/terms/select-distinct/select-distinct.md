@@ -1,5 +1,6 @@
 ---
 Title: "SELECT"
+Description: "Returns unique values in the specified column(s)."
 Subjects:
   - "Data Science"
   - "Computer Science"

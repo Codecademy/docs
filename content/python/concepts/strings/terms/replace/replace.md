@@ -1,5 +1,6 @@
 ---
 Title: ".replace()" 
+Description: "Replace a specific substring with another substring."
 Subjects:
   - "Data Science"
   - "Computer Science"

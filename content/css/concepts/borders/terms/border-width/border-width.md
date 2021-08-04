@@ -1,5 +1,6 @@
 ---
 Title: "border-width"
+Description: "Shorthand property that sets the width for the overall border of an element or for each side individually."
 Subjects:
   - "Web Development"
   - "Web Design"

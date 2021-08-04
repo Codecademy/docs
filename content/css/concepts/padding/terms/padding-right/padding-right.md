@@ -1,5 +1,6 @@
 ---
 Title: "padding-right"
+Description: "Defines the width of the right padding for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

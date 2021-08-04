@@ -1,5 +1,6 @@
 ---
 Title: LIKE
+Description: "Perform case-sensitive pattern matching on TEXT data through the use of wildcard characters."
 Subjects:
   - "Data Science"
   - "Computer Science"

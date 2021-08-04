@@ -1,5 +1,6 @@
 ---
 Title: "copyValueOf()"
+Description: "Returns a string with characters copied from an array."
 Subjects:
   - "Computer Science"
 Tags:

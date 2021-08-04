@@ -1,5 +1,6 @@
 ---
 Title: "border-left"
+Description: "Shorthand property that defines the width, color, and style of the left border of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

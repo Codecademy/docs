@@ -1,5 +1,6 @@
 ---
 Title: "border"
+Description: "Shorthand property that sets different properties for an elements border in a single declaration."
 Subjects:
   - "Web Development"
   - "Web Design"

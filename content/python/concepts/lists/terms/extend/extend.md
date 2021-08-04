@@ -1,5 +1,6 @@
 ---
 Title: ".extend()"
+Description: "Adds list elements to end of the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

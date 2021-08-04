@@ -1,5 +1,6 @@
 ---
 Title: "letter-spacing"
+Description: "Set the horizontal spacing between the individual characters in an element."
 Subjects:
   - "Web Development"
   - "Web Design"

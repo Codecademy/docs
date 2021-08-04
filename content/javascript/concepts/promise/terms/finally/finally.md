@@ -1,5 +1,6 @@
 ---
 Title: ".finally()"
+Description: "Returns a new Promise object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what."
 Subjects:
   - "Web Development"
 Tags:

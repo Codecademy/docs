@@ -1,5 +1,6 @@
 ---
 Title: "min-width"
+Description: "Defines the minimum width of an element."
 Subjects:
   - "Web Development"
   - "Web Design"

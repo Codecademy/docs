@@ -1,5 +1,6 @@
 ---
 Title: ".toUpperCase()"
+Description: "Convert a string to uppercase letters."
 Subjects:
   - "Web Development"
   - "Computer Science"

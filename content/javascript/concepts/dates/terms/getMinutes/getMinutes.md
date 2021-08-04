@@ -1,5 +1,6 @@
 ---
 Title: ".getMinutes()"
+Description: "Called from an instance of the Date class, will return the minutes according to the local time."
 Subjects:
   - "Web Development"
   - "Computer Science"

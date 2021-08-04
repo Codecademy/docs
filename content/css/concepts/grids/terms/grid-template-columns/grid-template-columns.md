@@ -1,5 +1,6 @@
 ---
 Title: "grid-template-columns"
+Description: "A property that specifies the column structure of a grid container."
 Subjects:
   - "Web Development"
   - "Web Design"

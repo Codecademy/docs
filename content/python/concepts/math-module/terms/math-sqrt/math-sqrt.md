@@ -1,5 +1,6 @@
 ---
 Title: "math.sqrt()"
+Description: "Returns the square root of numeric input x."
 Subjects:
   - "Computer Science"
   - "Data Science"

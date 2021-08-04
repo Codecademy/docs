@@ -1,5 +1,6 @@
 ---
 Title: "background-clip"
+Description: "Defines the boundary within the element box at which the background is no longer drawn."
 Subjects:
   - "Web Development"
   - "Web Design"

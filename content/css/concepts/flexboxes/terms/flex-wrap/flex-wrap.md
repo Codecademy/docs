@@ -1,5 +1,6 @@
 ---
 Title: "flex-wrap"
+Description: "A property that specifies if elements will occupy multiple lines and the direction in which the items are distributed. "
 Subjects:
   - "Web Development"
   - "Web Design"

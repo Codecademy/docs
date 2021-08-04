@@ -1,5 +1,6 @@
 ---
 Title: ".concat()"
+Description: "Concatenate or combine strings together."
 Subjects:
   - "Web Development"
   - "Computer Science"

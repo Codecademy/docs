@@ -1,5 +1,6 @@
 ---
 Title: "exp()"
+Description: "Returns the base-e exponential function of the argument, which is e raised to the power of the argument."
 Subjects:
   - "Computer Science"
 Tags:

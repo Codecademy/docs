@@ -1,5 +1,6 @@
 ---
 Title: ".unshift()"
+Description: "Adds one or more elements to beginning of array and returns new length."
 Subjects:
   - "Web Development"
   - "Computer Science"

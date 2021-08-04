@@ -1,5 +1,6 @@
 ---
 Title: "fdim()"
+Description: "Returns the positive difference between two arguments. If the first argument is greater than the second argument fdim() returns the first argument minus the second argument, otherwise it returns zero."
 Subjects:
   - "Computer Science"
 Tags:

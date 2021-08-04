@@ -1,5 +1,6 @@
 ---
 Title: ".index()"
+Description: "Finds the first occurence of a particular value within the list."
 Subjects:
   - "Data Science"
   - "Computer Science"

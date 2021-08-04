@@ -1,5 +1,6 @@
 ---
 Title: ".count()"
+Description: "Searches a list for a particular item and returns the number of matching entries found."
 Subjects:
   - "Data Science"
   - "Computer Science"

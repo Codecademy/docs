@@ -1,5 +1,6 @@
 ---
 Title: "grid-gap"
+Description: "Specifies the spacing between grid elements within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

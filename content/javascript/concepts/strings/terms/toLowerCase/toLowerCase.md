@@ -1,5 +1,6 @@
 ---
 Title: ".toLowerCase()"
+Description: "Convert a string to lowercase letters."
 Subjects:
   - "Web Development"
   - "Computer Science"

@@ -1,5 +1,6 @@
 ---
 Title: "MIN()"
+Description: "The MIN() aggregate function takes the name of a column as an argument and returns the smallest value in a column."
 Subjects:
   - "Data Science"
   - "Computer Science"

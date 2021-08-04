@@ -1,5 +1,6 @@
 ---
 Title: "CASE"
+Description: "A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause."
 Subjects:
   - "Data Science"
 Tags:

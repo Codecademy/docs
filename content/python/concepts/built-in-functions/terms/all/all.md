@@ -1,5 +1,6 @@
 ---
 Title: "all()"
+Description: "Returns True if every item in an iterable evaluates to True, otherwise, it returns False."
 Subjects:
   - "Data Science"
   - "Computer Science"

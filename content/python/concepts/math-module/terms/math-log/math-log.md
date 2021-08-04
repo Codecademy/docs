@@ -1,5 +1,6 @@
 ---
 Title: "math.log()"
+Description: "Returns the natural logarithm of n."
 Subjects:
   - "Computer Science"
   - "Data Science"

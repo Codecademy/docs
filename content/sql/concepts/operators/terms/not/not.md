@@ -1,5 +1,6 @@
 ---
 Title: NOT
+Description: "Query items that return NOT TRUE for some condition/conditions."
 Subjects:
   - "Data Science"
   - "Computer Science"

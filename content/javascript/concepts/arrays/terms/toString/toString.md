@@ -1,5 +1,6 @@
 ---
 Title: ".toString()"
+Description: "Returns a string with each of the array values, separated by commas. Does not mutate the original array."
 Subjects:
   - "Web Development"
   - "Computer Science"

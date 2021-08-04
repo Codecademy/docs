@@ -1,5 +1,6 @@
 ---
 Title: ".slice()"
+Description: "Returns a shallow copy of part of array, while original array is not modified."
 Subjects:
   - "Web Development"
   - "Computer Science"

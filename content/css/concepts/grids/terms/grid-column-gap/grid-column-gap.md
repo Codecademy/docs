@@ -1,5 +1,6 @@
 ---
 Title: "grid-column-gap"
+Description: "Specifies the spacing between column elements within a grid framework."
 Subjects:
   - "Web Development"
   - "Web Design"

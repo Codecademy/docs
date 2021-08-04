@@ -1,5 +1,6 @@
 ---
 Title: "sepia()"
+Description: "Changes the color of an element to sepia."
 Subjects:
   - "Web Development"
   - "Web Design"

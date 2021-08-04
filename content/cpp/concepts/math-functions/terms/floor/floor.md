@@ -1,5 +1,6 @@
 ---
 Title: "floor()"
+Description: "Returns the first whole number that is less than or equal to the argument. Argument must be a double/float/long double, and the return value will be same datatype."
 Subjects:
   - "Computer Science"
 Tags:

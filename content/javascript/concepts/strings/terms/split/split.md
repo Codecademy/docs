@@ -1,5 +1,6 @@
 ---
 Title: ".split()"
+Description: "Breaks the string on which it called into an array of substrings, and returns the new array. "
 Subjects:
   - "Web Development"
   - "Computer Science"

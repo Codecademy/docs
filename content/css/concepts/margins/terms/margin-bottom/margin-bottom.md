@@ -1,5 +1,6 @@
 ---
 Title: "margin-bottom"
+Description: "Defines the bottom margin area for an element."
 Subjects:
   - "Web Development"
   - "Web Design"

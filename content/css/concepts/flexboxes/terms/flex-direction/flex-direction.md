@@ -1,5 +1,6 @@
 ---
 Title: "flex-direction"
+Description: "A property that specifies the direction in which elements are distributed within a container."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: "rgba"
+Description: "Defines the color value by providing three comma separated values along with an optional fourth value. The first value represents the red value, the second represents the green value, and the third represents the blue value. The optional fourth value represents the alpha value, the transparency of a color."
 Subjects:
   - "Color"
 Tags:

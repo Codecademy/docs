@@ -1,5 +1,6 @@
 ---
 Title: "text-align"
+Description: "To set the text alignment of inline contents."
 Subjects:
   - "Web Development"
   - "Web Design"

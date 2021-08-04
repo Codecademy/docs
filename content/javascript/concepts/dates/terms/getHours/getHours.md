@@ -1,5 +1,6 @@
 ---
 Title: ".getHours()"
+Description: "Called from an instance of the Date class, will return the hour according to the local time."
 Subjects:
   - "Web Development"
   - "Computer Science"

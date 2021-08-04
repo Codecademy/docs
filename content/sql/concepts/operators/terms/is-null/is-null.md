@@ -1,5 +1,6 @@
 ---
 Title: "IS NULL"
+Description: "Checks if a value is NULL."
 Subjects:
   - "Data Science"
   - "Computer Science"

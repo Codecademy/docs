@@ -1,5 +1,6 @@
 ---
 Title: "WHERE"
+Description: "Filters records (rows) that match a certain condition."
 Subjects:
   - "Data Science"
   - "Computer Science"

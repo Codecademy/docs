@@ -1,5 +1,6 @@
 ---
 Title: "grayscale()"
+Description: "Converts an element to grayscale."
 Subjects:
   - "Web Development"
   - "Web Design"

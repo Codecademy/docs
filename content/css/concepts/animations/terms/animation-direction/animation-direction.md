@@ -1,5 +1,6 @@
 ---
 Title: "animation-direction"
+Description: "Determines whether an animation runs forward or in reverse on some or all of its cycles."
 Subjects:
   - "Web Development"
   - "Web Design"

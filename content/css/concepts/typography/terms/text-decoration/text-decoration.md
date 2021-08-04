@@ -1,5 +1,6 @@
 ---
 Title: "text-decoration"
+Description: "To add lines on the text."
 Subjects:
   - "Web Development"
   - "Web Design"

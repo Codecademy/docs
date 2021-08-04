@@ -1,5 +1,6 @@
 ---
 Title: ".length"
+Description: "Return the length of a string (number of characters)."
 Subjects:
   - "Web Development"
   - "Computer Science"

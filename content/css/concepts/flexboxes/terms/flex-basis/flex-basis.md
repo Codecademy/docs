@@ -1,5 +1,6 @@
 ---
 Title: "flex-basis"
+Description: "A property that defines the default size of a flex item."
 Subjects:
   - "Web Development"
   - "Web Design"

@@ -1,5 +1,6 @@
 ---
 Title: ".startsWith()"
+Description: "Check whether a string begins with the specified characters. It will only return a boolean value, either true or false."
 Subjects:
   - "Web Development"
   - "Computer Science"

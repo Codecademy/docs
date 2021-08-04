@@ -1,5 +1,6 @@
 ---
 Title: "<img>"
+Description: "Used to add an image to the document. It can also be used inside an anchor tag to create an image link."
 Subjects:
   - "Web Development"
   - "Web Design"

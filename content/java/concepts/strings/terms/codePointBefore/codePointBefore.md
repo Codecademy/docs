@@ -1,5 +1,6 @@
 ---
 Title: ".codePointBefore()"
+Description: "Returns the Unicode value before the given index in the string."
 Subjects:
   - "Computer Science"
 Tags:

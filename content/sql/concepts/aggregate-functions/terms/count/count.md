@@ -1,5 +1,6 @@
 ---
 Title: "COUNT()"
+Description: "The COUNT() aggregate function returns the total number of rows that match the specified criteria."
 Subjects:
   - "Data Science"
   - "Computer Science"

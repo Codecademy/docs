@@ -1,5 +1,6 @@
 ---
 Title: "td"
+Description: "Defines a cell in a table that contains data. "
 Subjects:
   - "Web Development"
   - "Web Design"

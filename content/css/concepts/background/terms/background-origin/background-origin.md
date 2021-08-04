@@ -1,5 +1,6 @@
 ---
 Title: "background-origin"
+Description: "Specifies the background positioning area of a background."
 Subjects:
   - "Web Development"
   - "Web Design"

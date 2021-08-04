@@ -1,5 +1,6 @@
 ---
 Title: ".contentEquals()"
+Description: "Returns true if the sequence of characters in the string is equal to the content of the specified string. If not, returns false."
 Subjects:
   - "Computer Science"
 Tags:

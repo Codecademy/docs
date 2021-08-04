@@ -1,5 +1,6 @@
 ---
 Title: "bytes()"
+Description: "Returns a byte immutable object representing the given bytes of an object."
 Subjects:
   - "Computer Science"
   - "Data Science"

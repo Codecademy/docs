@@ -1,5 +1,6 @@
 ---
 Title: "\\d"
+Description: "Represents a character class that includes all digits (0-9).  The inverse of this class is designated with a capital,  \D, and will match any character that is not a digit."
 Subjects:
   - "Computer Science"
   - "Data Science"

@@ -1,5 +1,6 @@
 ---
 Title: "transform-style"
+Description: "Specifies if an elements children are positioned in 3D space or flattened."
 Subjects:
   - "Web Development"
   - "Web Design"

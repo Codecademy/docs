@@ -1,5 +1,6 @@
 ---
 Title: "cos()"
+Description: "Returns the cosine of an argument given in radians."
 Subjects:
   - "Computer Science"
 Tags:
