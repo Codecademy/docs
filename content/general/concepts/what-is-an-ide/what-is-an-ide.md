@@ -55,7 +55,7 @@ When the IDE knows your programming language, it can anticipate what you’re go
 
 We’ve seen statements with `System.out.println()` quite a bit so far. In an IDE, we might see `System` as an autocomplete option after only typing "Sy". This saves keystrokes so the programmer can focus on logic in their code.
 
-[GIF](https://content.codecademy.com/courses/learn-java/revised-2019/autocomplete_v2.gif)
+![GIF](https://content.codecademy.com/courses/learn-java/revised-2019/autocomplete_v2.gif)
 
 ## Building Executables
 
@@ -71,7 +71,7 @@ When a program does not run correctly, IDEs provide debugging tools that allow p
 
 IDEs also provide hints while coding to prevent errors before compilation.
 
-[Debugging GIF](https://content.codecademy.com/courses/learn-java/revised-2019/debugging_v2.png)
+![Debugging GIF](https://content.codecademy.com/courses/learn-java/revised-2019/debugging_v2.png)
 
 ## Notable Examples
 
