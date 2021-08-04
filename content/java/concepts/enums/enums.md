@@ -58,7 +58,7 @@ public enum Day {
 - `Day.MON` will have a value of 1.
 - `Day.TUE` will have a value of 2.
 - `Day.WED` will have a value of 3.
-- `Day.THU` will have a value of .
+- `Day.THU` will have a value of 4.
 - `Day.FRI` will have a value of 5.
 - `Day.SAT` will have a value of 6.
 
