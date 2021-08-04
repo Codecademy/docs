@@ -18,7 +18,7 @@ The `<li>` list item element create list items inside:
 
 ## Ordered List Element `<ol>`
 
-The `<ol>` ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
+The `<ol>` ordered list element creates a list of items in sequential order.
 
 ```html
 <ol>
@@ -28,7 +28,7 @@ The `<ol>` ordered list element creates a list of items in sequential order. Eac
 </ol>
 ```
 
-It looks like:
+Each list item appears numbered by default:
 
 1. Preheat oven to 325 F 👩‍🍳
 2. Drop cookie dough 🍪
@@ -36,7 +36,7 @@ It looks like:
 
 ## Unordered List Element `<ul>`
 
-The `<ul>` unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.
+The `<ul>` unordered list element is used to create a list of items in no particular order. 
 
 ```html
 <ul>
@@ -45,7 +45,7 @@ The `<ul>` unordered list element is used to create a list of items in no partic
 </ul>
 ```
 
-It will look like:
+Each individual list item will have a bullet point by default:
 
--  Play more music 🎸
+- Play more music 🎸
 - Read more books 📚
