@@ -7,12 +7,10 @@ Tags:
   - "Comments"
   - "Documentation"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/paths/computer-science"
   - "https://www.codecademy.com/learn/paths/data-science"
 ---
-
-# Comments in SQL
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code, or to prevent execution of SQL statements.
 
