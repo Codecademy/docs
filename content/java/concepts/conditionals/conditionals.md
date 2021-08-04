@@ -20,8 +20,8 @@ As we write more complex programs, conditionals allow us to address multiple sce
 An `if` statement executes a block of code when a specified boolean expression is evaluated as `true`; otherwise, the block of code will be skipped.
 
 ```java
-if (a > 5) {
-  System.out.println("If a is greater than 5, this code executes");
+if (berries > 5) {
+  System.out.println("More than a handful of berries.");
 }
 ```
 
