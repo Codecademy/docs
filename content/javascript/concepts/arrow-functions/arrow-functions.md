@@ -13,7 +13,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
-Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional function syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
+_Arrow function_ expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](../functions) syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
 
 There are several variations of arrow functions:
 
