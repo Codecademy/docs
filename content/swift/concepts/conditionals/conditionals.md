@@ -52,3 +52,19 @@ if weather == "sunny" {
  
 // Output: Grab an umbrella
 ```
+
+## `else` Statement
+
+An `else` statement is an optional partner to an `if` statement. When the condition for the `if` statement evaluates to `false`, the code within the body of the `else` will execute.
+
+```swift
+var turbulence = false 
+ 
+if turbulence {
+  print("Please stay seated.")
+} else {
+  print("You may freely move around.")
+}
+ 
+// Output: You may freely move around.
+```
