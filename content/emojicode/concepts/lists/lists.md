@@ -19,7 +19,7 @@ Lists are always ordered and can contain different types of objects, such as str
 
 ## Syntax
 
-In Emojicode, the list is created by using 🍿 and 🍆.
+In Emojicode, a list is created by using 🍿 and 🍆.
 
 For instance, the example below is a list literal with integer values `18`, `67`, `420`.
 
