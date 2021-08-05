@@ -79,4 +79,6 @@ It will look like:
 
 It is a white Chevrolet Malibu from 1998. 🚙
 
+## Caution
 
+When you update a React component’s state, it will automatically re-render. That means you should never update the state in a `render()` method because it will cause an infinite loop.
