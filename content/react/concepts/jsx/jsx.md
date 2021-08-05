@@ -131,9 +131,9 @@ else { text = 'Do Teen Stuff' }
 const headline = <h1>{ text }</h1>
 ```
 
-### Using the `&&` Operator
+### Using `&&` Operator
 
-Using && operator:
+Using `&&` AND operator:
 
 ```js
 // Renders as empty div if length is 0
