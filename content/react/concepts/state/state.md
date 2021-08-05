@@ -28,7 +28,7 @@ class Car extends React.Component {
     this.state = {
       brand: "Chevrolet",
       model: "Malibu",
-      color: "White",
+      color: "white",
       year: 1998
     };
   }
@@ -53,7 +53,7 @@ class Car extends React.Component {
     this.state = {
       brand: "Chevrolet",
       model: "Malibu",
-      color: "White",
+      color: "white",
       year: 1998
     };
   }
@@ -65,7 +65,7 @@ class Car extends React.Component {
           It is a {this.state.color} 
           {this.state.brand} 
           {this.state.model}
-          from {this.state.year}.
+          from {this.state.year}. 🚙
         </p>
       </div>
     );
@@ -77,6 +77,6 @@ It will look like:
 
 # My First Car
 
-It is a white Chevrolet Malibu from 1998.
+It is a white Chevrolet Malibu from 1998. 🚙
 
 
