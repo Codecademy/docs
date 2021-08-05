@@ -3,8 +3,9 @@ Title: "JSX"
 Subjects:
   - "Web Development"
 Tags:
-  - "HTML"
+  - "DOM"
   - "React"
+  - "Syntax"
 Catalog Content:
   - "https://www.codecademy.com/learn/react-101"
   - "https://www.codecademy.com/learn/paths/web-development"
