@@ -23,16 +23,15 @@ import random
 
 For example, the `.random()` method will generate a float greater than or equal to 0.0 and less then 1.0.
 
-```codebyte/py
+```py
 import random
 
 my_number = random.random()
 
 print(my_number)
-# Output: A random number between 0.0 and 1.0, including 0.0 and excluding 1.0
 ```
 
-The result should be different every time `.random()` is called.
+The result should be different every time `.random()` is called. It should be a random number between 0.0 and 1.0, including 0.0 and excluding 1.0.
 
 ## Generating Random Numbers
 
