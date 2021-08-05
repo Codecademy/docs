@@ -25,9 +25,9 @@ JSX looks a lot like HTML:
 const headerElement = <h1>This is a header</h1>;
 ```
 
-In the block of code, we see the similarities between JSX syntax and HTML: they both use the angle bracket opening and closing tags (`<h1>` and `</h1>`).
+In the block of code, we see the similarities between JSX syntax and HTML: they both use the angle bracket opening `<h1>` and closing `</h1>` tags.
 
-But under the hood, after it's been processed to regular JavaScript, it looks like this:
+Under the hood, after it's been processed to regular JavaScript, it looks like this:
 
 ```js
 const headerElement = React.createElement("h1", "This is a header");
@@ -57,7 +57,7 @@ const example = <h1 id="example">JSX Attributes</h1>;
 
 In the block of code, inside of the opening tag of the `<h1>` JSX element, we see an `id` attribute with the value `"example"`.
 
-## Nested JSX elements
+## Nested JSX Elements
 
 In order for the code to compile, a JSX expression must have exactly one outermost element. In the below block of code, the `<a>` tag is the outermost element.
 
@@ -88,4 +88,54 @@ const myList = (
 Here, we see the opening parentheses on the same line as the constant declaration, before the JSX expression begins. We see the closing parentheses on the line following the end of the JSX expression.
 
 
+## JSX with `.map()` Method
 
+The array method `.map()` comes up often in React. It’s good to get in the habit of using it alongside JSX.
+
+If you want to create a list of JSX elements from a given array, then`.map()` over each element in the array, returning a list item for each one.
+
+```js
+const strings = ['Home', 'Shop', 'About Me'];
+ 
+const listItems = strings.map(string => <li>{string}</li>);
+ 
+<ul>{listItems}</ul>
+```
+
+## JSX Conditionals
+
+JSX does not support `if`/`else` syntax in embedded JavaScript. There are three ways to express conditionals for use with JSX elements:
+
+1. A ternary within curly braces in JSX
+2. An `if` statement outside a JSX element
+3. The `&&` operator
+
+```js
+// 1. Using ternary operator
+const headline = (
+  <h1>
+    { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
+  </h1>
+);
+
+// 2. Using if/else outside of JSX 
+let text;
+ 
+if (age >= drinkingAge) { text = 'Buy Drink' }
+else { text = 'Do Teen Stuff' }
+ 
+const headline = <h1>{ text }</h1>
+ 
+// 3. Using && operator. Renders as empty div if length is 0
+const unreadMessages = [ 'hello?', 'remember me!'];
+ 
+const update = (
+  <div>
+    {unreadMessages.length > 0 &&
+      <h1>
+        You have {unreadMessages.length} unread messages.
+      </h1>
+    }
+  </div>
+);
+```
