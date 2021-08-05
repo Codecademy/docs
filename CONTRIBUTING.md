@@ -12,7 +12,7 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) (entr
 
 Before contributing, please read through the following files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation):
 
-- Content Standards: https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md
+- [Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
 - Templates:
   - [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)
   - [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
@@ -38,7 +38,6 @@ Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can 
 <img src="https://github.com/Codecademy/docs/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. 
-
 
 ## Pull Requests Tips
 
