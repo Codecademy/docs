@@ -20,7 +20,12 @@ Before contributing, please read through the following files in [/documentation]
 - [Tags](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
-There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
+There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
+
+Different ways in which you can contribute:
+
+1. Creating a new entry.
+2. Editing an exisiting entry.
 
 ## How do I contribute?
 
@@ -41,7 +46,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Pull Requests Tips
 
-- Keep your PRs more byte-sized. No more than 3 entries per PR!
+- Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required checks are expected to pass on each PR.
 - We require one approval from one core team member for each PR.
