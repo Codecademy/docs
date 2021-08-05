@@ -4,7 +4,7 @@
 
 We are an open and inclusive community of technologists and life-long learners around the world building coding resources for a better tomorrow. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the web to serve the greater good. It starts here, with you.
 
-For newcomers, contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to. This is the perfect open-source project for you to contribute to!
+For newcomers, contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to. Well, you are at the right place. Codecademy Docs is the perfect open-source project for you to contribute to!
 
 Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) (entries, documentations, translations) are created by amazing creative folks like yourself. Please, join us!
 
