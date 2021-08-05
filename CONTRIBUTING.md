@@ -16,7 +16,7 @@ Before contributing, please read through the following files in [/documentation]
 - Templates:
   - [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)
   - [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
-  - Page Info: 
+  - [Topic Info Template[(https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md)
 - [Tags](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
