@@ -1,59 +1,62 @@
 ---
 Title: "Loops"
 Subjects:
-  - "iOS"
   - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - "Data Types"
-  - "Variables"
+  - "Loops"
+  - "For"
+  - "While"
+  - "Control Flow"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
 
-The Swift programming language allows you to store values in two types of containers, `var` for variables and `let` for constants. As the names imply, a variable's value can change, or be reassigned, later in the program while a constant's value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to.
+## `for`-`in` Loop
 
-> Once a variable or constant's data type has been established, whether explicitly declared or inferred by the compiler, it cannot be changed and the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and a constant cannot be converted into a variable.
-
-## Declaring and Initializing Variables and Constants
-
-Variables and constants can be declared with or without initialization on the same line, however you cannot declare an uninitialized variable without including the type annotation. This makes sense considering that the compiler, when it looks over the code line-by-line, can't make a determination of the data type at the time of the build. Swift also allows a wide range of characters to be used in constant and variable names including Unicode characters and emojis.
+The `for`-`in` loop is used to iterate over collections, including strings and ranges.
 
 ```swift
-var dailyTemperature: Int
-let boilingPoint = 100
-
-var dailyHigh
-// Compiler error: "Type annotation missing"
+for char in "hehe" {
+  print(char)
+}
 ```
 
-In the example above `dailyTemperature` is declared as a variable because we are expecting it to change daily. It has been declared, meaning that the operating system has set aside storage for it, but it has not been initialized with a value. The constant `boilingPoint` will not change and is declared and initialized in the same line. Below are some examples of using emojis as variable names.
+The output would be:
+
+```bash
+h
+e
+h
+e
+```
+
+
+## Ranges
+
+Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
 
 ```swift
-let 🌕 = "Full Moon"
-let 🌑 = "New Moon"
-let 🌙 = "Cresent Moon"
+let zeroToThree = 0...3
+
+// zeroToThree: 0, 1, 2, 3
 ```
 
-## Accessing and Reassigning Variables and Constants
+## `stride()` Function
 
-The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. You can also use another variable to set the value of a variable
+Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to, the (excluded) ending number, and how to increment/decrement from the start to the end.
 
 ```swift
-var dailyTemperature: Int
-let reallyHot = 50
-
-// Monday
-dailyTemperature = 18
-
-// Tuesday
-dailyTemperature = reallyHot
+for oddNum in stride(from: 1, to: 5, by: 2) {
+  print(oddNum)
+}
 ```
 
-Variables and constants can also be passed directly into functions and methods or returned as the result of function.
+The output would be:
 
-```swift
-let 🌕 = "Full Moon"
-print(🌕)
-// Output: "Full Moon"
 ```
+1
+3
+```
+
