@@ -20,14 +20,14 @@ Before contributing, please read through the following files in [/documentation]
 - [Tags](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
-There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
-
-Different ways in which you can contribute:
-
-1. Creating a new entry.
-2. Editing an exisiting entry.
+In these links, you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
 
 ## How do I contribute?
+
+There are different ways in which you can contribute:
+
+- Creating a new entry.
+- Editing an exisiting entry.
 
 Contributing is as simple as:
 
