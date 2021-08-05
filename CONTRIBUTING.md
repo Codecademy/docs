@@ -42,7 +42,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 ## Pull Requests Tips
 
 - Keep your PRs more byte-sized. No more than 3 entries per PR!
-- All contributors must sign the CLA.
+- All contributors must sign the Contributor License Agreement (CLA).
 - All required checks are expected to pass on each PR.
 - We require one approval from one core team member for each PR.
 - Requested changes must be resolved (with code or discussion) before merging.
