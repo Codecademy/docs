@@ -50,11 +50,11 @@ const App = () => {
 
 The syntax of JSX attributes closely resembles that of HTML attributes. 
 
-In the block of code, inside of the opening tag of the `<h1>` JSX element, we see an `id` attribute with the value `"example"`.
-
 ```js
 const example = <h1 id="example">JSX Attributes</h1>;
 ```
+
+In the block of code, inside of the opening tag of the `<h1>` JSX element, we see an `id` attribute with the value `"example"`.
 
 ## Nested JSX elements
 
