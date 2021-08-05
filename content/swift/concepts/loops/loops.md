@@ -76,6 +76,42 @@ e
 r
 ```
 
+## Using Underscore
+
+Use `_` instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
+
+```swift
+for _ in 1...3 {
+  print("Olé")
+}
+```
+ 
+The output would be:
+
+```
+Olé
+Olé
+Olé
+```
+
+## `while` Loop
+
+A `while` loop accepts a condition and continually executes its body’s code for as long as the provided condition is `true`.
+
+If the condition is never `false` then the loop continues to run and the program is stuck in an infinite loop.
+
+```swift
+var counter = 1
+var stopNum = Int.random(in: 1...10)
+ 
+while counter < stopNum {
+  print(counter)
+  counter += 1
+}
+ 
+// The loop prints until the stop condition is met
+```
+
 ## Ranges
 
 Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
