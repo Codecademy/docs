@@ -5,4 +5,4 @@ Display Name: "Name" # This is the name that appears on the hub page for this la
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/_____" # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 ---
 
-[Text description] <!-- # Write up an introductory description of the language here! -->
+[Text description] <!-- # Write up an introductory description of the language/framework here! -->
