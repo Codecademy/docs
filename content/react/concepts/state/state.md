@@ -12,9 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-The `state` object is where we store data in a component that is expected to change over time.
-
-When the `state` object changes, the component re-renders.
+The `state` object is where we store data in a component that is expected to change over time. When the `state` object changes, the component re-renders.
 
 Props are passed down by parent components, whereas state is created and maintained by the component itself.
 
