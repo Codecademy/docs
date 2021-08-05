@@ -24,6 +24,7 @@ The `state` object is initialized in the component's `constructor()`:
 class Car extends React.Component {
   constructor(props) {
     super(props);
+    // The state object
     this.state = {
       brand: "Chevrolet",
       model: "Malibu",
