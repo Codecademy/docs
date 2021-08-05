@@ -14,11 +14,11 @@ Before contributing, please read through the following files in [/documentation]
 
 - Content Standards: https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md
 - Templates:
-  - Entry Template: https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md
-  - Term Entry Template: https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md
+  - [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)
+  - [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
   - Page Info: 
-- Tags: https://github.com/Codecademy/docs/blob/main/documentation/tags.md
-- Subjects: https://github.com/Codecademy/docs/blob/main/documentation/subjects.md
+- [Tags](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
+- [Subjects](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
 There you'll find a write-up of our standards for content and style, as well as templates for creating your entries. Next, check out what entries need to be created in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and put your name next to one.
 
