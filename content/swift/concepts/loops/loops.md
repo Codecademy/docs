@@ -32,6 +32,49 @@ h
 e
 ```
 
+## `continue` Keyword
+
+The `continue` keyword will force the loop to move on to the next iteration.
+
+```swift
+for num in 0...5 {
+  if num % 2 == 0 {
+    continue
+  }
+  print(num)
+}
+```
+
+The output would be:
+
+```
+1
+3
+5
+```
+
+## `break` Keyword
+
+To terminate a loop before its completion, use the `break` keyword.
+
+```swift
+for char in "supercalifragilisticexpialidocious" {
+  if char == "c" {
+    break
+  }
+  print(char)
+}
+```
+
+The output would be:
+
+```
+s
+u
+p
+e
+r
+```
 
 ## Ranges
 
