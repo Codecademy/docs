@@ -1,59 +1,98 @@
 ---
-Title: "Variables"
+Title: "Switch"
 Subjects:
-  - "iOS"
   - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - "Data Types"
+  - "Switch"
+  - "Control Flow"
   - "Variables"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
 
-The Swift programming language allows you to store values in two types of containers, `var` for variables and `let` for constants. As the names imply, a variable's value can change, or be reassigned, later in the program while a constant's value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to.
+The `switch` statement is a type of conditional used to check the value of an expression against multiple cases. 
 
-> Once a variable or constant's data type has been established, whether explicitly declared or inferred by the compiler, it cannot be changed and the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and a constant cannot be converted into a variable.
-
-## Declaring and Initializing Variables and Constants
-
-Variables and constants can be declared with or without initialization on the same line, however you cannot declare an uninitialized variable without including the type annotation. This makes sense considering that the compiler, when it looks over the code line-by-line, can't make a determination of the data type at the time of the build. Swift also allows a wide range of characters to be used in constant and variable names including Unicode characters and emojis.
+A `case` executes when it matches the value of the expression. When there are no matches between the `case` statements and the expression, the `default` statement executes.
 
 ```swift
-var dailyTemperature: Int
-let boilingPoint = 100
 
-var dailyHigh
-// Compiler error: "Type annotation missing"
+var secondaryColor = "green"
+ 
+switch secondaryColor {
+  case "orange":
+    print("Mix of red and yellow")
+  case "green":
+    print("Mix of blue and yellow")
+  case "purple":
+    print("Mix of red and blue") 
+  default: 
+    print("This might not be a secondary color.") 
+}
+ 
+// Output: Mix of blue and yellow
 ```
 
-In the example above `dailyTemperature` is declared as a variable because we are expecting it to change daily. It has been declared, meaning that the operating system has set aside storage for it, but it has not been initialized with a value. The constant `boilingPoint` will not change and is declared and initialized in the same line. Below are some examples of using emojis as variable names.
+## Interval Matching
+
+Intervals within a `switch` statement’s case provide a range of values that are checked against an expression.
 
 ```swift
-let 🌕 = "Full Moon"
-let 🌑 = "New Moon"
-let 🌙 = "Cresent Moon"
+let year = 1905
+var artPeriod: String
+ 
+switch year {
+  case 1860...1885:
+    artPeriod = "Impressionism"
+  case 1886...1910:
+    artPeriod = "Post Impressionism"
+  case 1912...1935: 
+    artPeriod = "Expressionism"
+  default:  
+    artPeriod = "Unknown"
+}
+ 
+// Output: Post Impressionism
 ```
 
-## Accessing and Reassigning Variables and Constants
+## Compound Cases
 
-The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. You can also use another variable to set the value of a variable
+A compound case within a `switch` statement is a single `case` that contains multiple values. These values are all checked against the `switch` statement’s expression and are separated by commas.
 
 ```swift
-var dailyTemperature: Int
-let reallyHot = 50
-
-// Monday
-dailyTemperature = 18
-
-// Tuesday
-dailyTemperature = reallyHot
+let service = "Seamless"
+ 
+switch service {
+  case "Uber", "Lyft":
+    print("Travel")
+  case "DoorDash", "Seamless", "GrubHub":
+    print("Restaurant delivery")
+  case "Instacart", "FreshDirect":
+    print("Grocery delivery")
+  default: 
+    print("Unknown service")
+}
+ 
+// Output: Restaurant delivery
 ```
 
-Variables and constants can also be passed directly into functions and methods or returned as the result of function.
+## Where Clause
+
+Within a `switch` statement, a `where` clause is used to test additional conditions against an expression.
 
 ```swift
-let 🌕 = "Full Moon"
-print(🌕)
-// Output: "Full Moon"
+
+let num = 7
+ 
+switch num {
+  case let x where x % 2 == 0:
+    print("\(num) is even")
+  case let x where x % 2 == 1:
+    print("\(num) is odd")
+  default:
+    print("\(num) is invalid")
+}
+ 
+// Output: 7 is odd
 ```
