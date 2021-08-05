@@ -1,59 +1,117 @@
 ---
-Title: "Variables"
+Title: "Structures"
 Subjects:
-  - "iOS"
   - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - "Data Types"
+  - "Structures"
+  - "Classes"
   - "Variables"
+  - "Methods"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
 
-The Swift programming language allows you to store values in two types of containers, `var` for variables and `let` for constants. As the names imply, a variable's value can change, or be reassigned, later in the program while a constant's value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to.
-
-> Once a variable or constant's data type has been established, whether explicitly declared or inferred by the compiler, it cannot be changed and the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and a constant cannot be converted into a variable.
-
-## Declaring and Initializing Variables and Constants
-
-Variables and constants can be declared with or without initialization on the same line, however you cannot declare an uninitialized variable without including the type annotation. This makes sense considering that the compiler, when it looks over the code line-by-line, can't make a determination of the data type at the time of the build. Swift also allows a wide range of characters to be used in constant and variable names including Unicode characters and emojis.
+Structures, or `structs`, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then body containing its properties and methods.
 
 ```swift
-var dailyTemperature: Int
-let boilingPoint = 100
-
-var dailyHigh
-// Compiler error: "Type annotation missing"
+struct Building {
+  var address: String
+  var floors: Int
+ 
+  init(address: String, floors: Int, color: String) {
+    self.address = address
+    self.floors = floors
+  }
+}
 ```
 
-In the example above `dailyTemperature` is declared as a variable because we are expecting it to change daily. It has been declared, meaning that the operating system has set aside storage for it, but it has not been initialized with a value. The constant `boilingPoint` will not change and is declared and initialized in the same line. Below are some examples of using emojis as variable names.
+## Default Property Values
+
+A structure’s properties can have preassigned default values to avoid assigning values during initialization. Optionally, these property’s values can still be assigned a value during initialization.
 
 ```swift
-let 🌕 = "Full Moon"
-let 🌑 = "New Moon"
-let 🌙 = "Cresent Moon"
+struct Car {
+  var numOfWheels = 4
+  var topSpeed = 80
+}
+ 
+var reliantRobin = Car(numOfWheels: 3)
+ 
+print(reliantRobin.numOfWheels) // Prints: 3
+print(reliantRobin.topSpeed)    // Prints: 80
 ```
 
-## Accessing and Reassigning Variables and Constants
+## Structure Instance Creation
 
-The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. You can also use another variable to set the value of a variable
+A new instance of a structure is created by using the name of the structure with parentheses `()` and any necessary arguments.
 
 ```swift
-var dailyTemperature: Int
-let reallyHot = 50
-
-// Monday
-dailyTemperature = 18
-
-// Tuesday
-dailyTemperature = reallyHot
+struct Person {
+  var name: String
+  var age: Int
+ 
+  init(name: String, age: Int) {
+    self.name = name
+    self.age = age
+  }
+}
 ```
 
-Variables and constants can also be passed directly into functions and methods or returned as the result of function.
+## `init()` Method
+
+Structures can have an `init()` method to initialize values to an instance’s properties. Unlike other methods, The `init()` method does not need the `func` keyword. In its body, the `self` keyword is used to reference the actual instance of the structure.
 
 ```swift
-let 🌕 = "Full Moon"
-print(🌕)
-// Output: "Full Moon"
+struct TV {
+  var screenSize: Int
+  var displayType: String
+  
+  init(screenSize: Int, displayType: String) {
+    self.screenSize = screenSize
+    self.displayType = displayType
+  }
+}
+```
+
+## Structure Methods
+
+Methods are like functions that are specifically called on an _instance_. To call the method, an instance is appended with the method name using dot notation followed by parentheses that include any necessary arguments.
+
+```swift
+struct Dog {
+  func bark() {
+    print("Woof")
+  }
+}
+ 
+let fido = Dog()
+fido.bark() // Prints: Woof
+ 
+var newTV = TV(screenSize: 65, displayType: "LED")
+ 
+// Instance of Person:
+var morty = Person(name: "Morty", age: 14)
+```
+
+## Mutating Methods
+
+Structure methods declared with the mutating keyword allow the method to affect an instance’s own properties.
+
+```swift
+struct Menu {
+  var menuItems = ["Fries", "Burgers"]
+ 
+  mutating func addToMenu(dish: String) {
+    self.menuItems.append(dish)
+  }
+}
+ 
+var dinerMenu = Menu()
+ 
+dinerMenu.addToMenu(dish: "Toast")
+
+print(dinerMenu.menuItems) 
+// Output: ["Fries", "Burgers", "Toast"]
 ```
