@@ -1,10 +1,11 @@
 ---
-Title: "Variables"
+Title: "Dictionaries"
 Subjects:
-  - "iOS"
   - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - "Data Types"
+  - "Dictionaries"
+  - "Arrays"
   - "Variables"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-swift"
