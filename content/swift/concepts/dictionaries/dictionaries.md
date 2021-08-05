@@ -56,9 +56,19 @@ if let redHex = primaryHex["red"] {
 
 **Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
 
-`.count` Property
+## `.count` Property
 
 The `.count` property returns an integer that represents how many key-value pairs are in a dictionary.
+
+```swift
+var fruitStand = [
+  "Apples": 12,
+  "Bananas": 20,
+  "Oranges", 17
+]
+ 
+print(fruitStand.count)  // Output: 3
+```
 
 ## Iterating Over a Dictionary
 
