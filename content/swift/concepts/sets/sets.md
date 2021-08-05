@@ -1,8 +1,8 @@
 ---
-Title: "Variables"
+Title: "Sets"
 Subjects:
-  - "iOS"
   - "Mobile Development"
+  - "Computer Science"
 Tags:
   - "Data Types"
   - "Variables"
