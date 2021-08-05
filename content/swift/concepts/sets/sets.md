@@ -11,49 +11,75 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---
 
-The Swift programming language allows you to store values in two types of containers, `var` for variables and `let` for constants. As the names imply, a variable's value can change, or be reassigned, later in the program while a constant's value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to.
+In Swift, a _set_ is used to store unique elements of the same data type.
 
-> Once a variable or constant's data type has been established, whether explicitly declared or inferred by the compiler, it cannot be changed and the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and a constant cannot be converted into a variable.
+## Creating a Set
 
-## Declaring and Initializing Variables and Constants
-
-Variables and constants can be declared with or without initialization on the same line, however you cannot declare an uninitialized variable without including the type annotation. This makes sense considering that the compiler, when it looks over the code line-by-line, can't make a determination of the data type at the time of the build. Swift also allows a wide range of characters to be used in constant and variable names including Unicode characters and emojis.
+To create a set populated with values, use the `Set` keyword before the assignment operator.
 
 ```swift
-var dailyTemperature: Int
-let boilingPoint = 100
-
-var dailyHigh
-// Compiler error: "Type annotation missing"
+var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]
 ```
 
-In the example above `dailyTemperature` is declared as a variable because we are expecting it to change daily. It has been declared, meaning that the operating system has set aside storage for it, but it has not been initialized with a value. The constant `boilingPoint` will not change and is declared and initialized in the same line. Below are some examples of using emojis as variable names.
+The values of the set must be contained within brackets `[]` and separated with commas `,`.
+
+## Empty Sets
+
+An empty set is a set that contains no values inside of it.
 
 ```swift
-let 🌕 = "Full Moon"
-let 🌑 = "New Moon"
-let 🌙 = "Cresent Moon"
+var team = Set<String>()
+ 
+print(team)
+// Output: [] 
 ```
 
-## Accessing and Reassigning Variables and Constants
+## Iterating Over a Set
 
-The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. You can also use another variable to set the value of a variable
+A `for`-`in` loop can be used to iterate over each item in a set.
 
 ```swift
-var dailyTemperature: Int
-let reallyHot = 50
-
-// Monday
-dailyTemperature = 18
-
-// Tuesday
-dailyTemperature = reallyHot
+var recipe: Set = ["Chocolate chips", "Eggs", "Flour", "Sugar"]
+ 
+for ingredient in recipe {
+  print ("Include \(ingredient) in the recipe.")
+}
 ```
 
-Variables and constants can also be passed directly into functions and methods or returned as the result of function.
+## `.isEmpty` Property
+
+Use the built-in property `.isEmpty` to check if a set has no values contained in it.
 
 ```swift
-let 🌕 = "Full Moon"
-print(🌕)
-// Output: "Full Moon"
+var emptySet = Set<String>()
+ 
+print(emptySet.isEmpty)  // Prints: true
+ 
+var populatedSet: Set = [1, 2, 3]
+ 
+print(populatedSet.isEmpty) // Prints: false
 ```
+
+## `.count` Property
+
+The property `.count` returns the number of elements contained within a set.
+
+```swift
+var band: Set = ["Guitar", "Bass", "Drums", "Vocals"]
+ 
+print("There are \(band.count) players in the band.")
+// Output: There are 4 players in the band.
+```
+
+## Set Methods
+
+| Method | Description |
+| --- | --- |
+| .insert() | Add an element at a specified index |
+| .remove() | Remove an element at a specified index |
+| .removeAll() | Remove every single value from a set |
+| .contains() | Check whether an item exists within the set |
+| .intersection() | Populates a new set of elements with the overlapping elements of two sets |
+| .union() | Populates a new set by taking all the values from two sets and combining them |
+| .symmetricDifference() | Creates a new set with all the non-overlapping values between two sets |
+| .subtracting() | Removes the values of one second set from another set and stores the remaining values in a new set |
