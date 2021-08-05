@@ -137,7 +137,7 @@ Using `&&` AND operator:
 
 ```js
 // Renders as empty div if length is 0
-const unreadMessages = [ 'hello?', 'remember me!'];
+const unreadMessages = ['hello?', 'remember me!'];
  
 const update = (
   <div>
