@@ -106,27 +106,37 @@ const listItems = strings.map(string => <li>{string}</li>);
 
 JSX does not support `if`/`else` syntax in embedded JavaScript. There are three ways to express conditionals for use with JSX elements:
 
-1. A ternary within curly braces in JSX
-2. An `if` statement outside a JSX element
-3. The `&&` operator
+### Ternary within curly braces in JSX
+
+Using ternary operator:
 
 ```js
-// 1. Using ternary operator
 const headline = (
   <h1>
     { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
   </h1>
 );
+```
 
-// 2. Using if/else outside of JSX 
+### An `if` statement outside a JSX element
+
+Using `if`/`else` outside of JSX :
+
+```js
 let text;
  
 if (age >= drinkingAge) { text = 'Buy Drink' }
 else { text = 'Do Teen Stuff' }
  
 const headline = <h1>{ text }</h1>
- 
-// 3. Using && operator. Renders as empty div if length is 0
+```
+
+### The `&&` operator
+
+Using && operator:
+
+```js
+// Renders as empty div if length is 0
 const unreadMessages = [ 'hello?', 'remember me!'];
  
 const update = (
