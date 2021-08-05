@@ -70,6 +70,22 @@ var fruitStand = [
 print(fruitStand.count)  // Output: 3
 ```
 
+## `.isEmpty` Property
+
+The `.isEmpty` property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
+
+```swift
+var bakery = [String:Int]() 
+ 
+// Check if dictionary is empty
+print(bakery.isEmpty)  // Prints: true
+ 
+bakery["Cupcakes"] = 12  
+ 
+// Check if dictionary is empty
+print(bakery.isEmpty)  // Prints: false
+```
+
 ## Iterating Over a Dictionary
 
 A `for`-`in` loop can be used to iterate through the keys and values of a dictionary.
