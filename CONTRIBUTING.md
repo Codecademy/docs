@@ -51,7 +51,6 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 - All required checks are expected to pass on each PR.
 - We require one approval from one core team member for each PR.
 - Requested changes must be resolved (with code or discussion) before merging.
-- If you make changes to a PR, be sure to re-request a review.
 - Your code will be deployed shortly after it is merged!
 
 ## Things We Check For
