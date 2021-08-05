@@ -125,8 +125,12 @@ Using `if`/`else` statement outside of JSX element:
 ```js
 let text;
  
-if (age >= drinkingAge) { text = 'Buy Drink' }
-else { text = 'Do Teen Stuff' }
+if (age >= drinkingAge) {
+  text = 'Buy Drink';
+}
+else { 
+  text = 'Do Teen Stuff';
+}
  
 const headline = <h1>{ text }</h1>
 ```
