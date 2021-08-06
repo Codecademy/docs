@@ -19,27 +19,30 @@ For example, to create a heading level three `<h3>`, use three number signs (e.g
 ## Syntax
 
 ```
-# This is a <h1 tag>
-## This is an <h2> tag
-### This is an <h3> tag
-#### This is an <h4> tag
-##### This is an <h5> tag
-###### This is an <h6> tag
+# Heading level 1
+
+## Heading level 2
+
+### Heading level 3
+
+#### Heading level 4
+
+##### Heading level 5
+
+###### Heading level 6
 ```
 
-Markdown	HTML	Rendered Output
-# Heading level 1	<h1>Heading level 1</h1>	
-Heading level 1
-## Heading level 2	<h2>Heading level 2</h2>	
-Heading level 2
-### Heading level 3	<h3>Heading level 3</h3>	
-Heading level 3
-#### Heading level 4	<h4>Heading level 4</h4>	
-Heading level 4
-##### Heading level 5	<h5>Heading level 5</h5>	
-Heading level 5
+# Heading level 1	
+
+## Heading level 2	
+
+### Heading level 3	
+
+#### Heading level 4	
+
+##### Heading level 5	
+
 ###### Heading level 6	<h6>Heading level 6</h6>	
-Heading level 6
 
 ## Alternate Syntax
 
