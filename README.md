@@ -38,4 +38,4 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Additional Notes
 
-- Remember, if you ever have any questions at all, we're there to help in #codecademy-docs-content. Report bugs: #codecademy-docs.
+- Remember, if you ever have any questions at all, we're here to help!
