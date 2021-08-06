@@ -13,16 +13,19 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-To embed an image, add an exclamation mark `!`, followed by the alt text in square brackets `[Alt text]`, and the path or URL to the image asset in parentheses `(` `)`. 
+Embedding an image is very similar to adding a link in Markdown:
 
 ```
 ![Alt text](URL or file path)
 ```
+- Add an exclamation mark `!`
+- Followed by the alt text in square brackets `[Alt text]`
+- And the path or URL to the image asset in parentheses `(` `)`. 
 
 For example:
 
 ```
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Codey](https://codecademy.com/images/codey.png)
 ```
 
 An optional title can also be added after the URL, still in the parentheses:
@@ -36,5 +39,5 @@ An optional title can also be added after the URL, still in the parentheses:
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
-[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://codecademy.com)
 ```
