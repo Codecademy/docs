@@ -60,7 +60,6 @@ module TwoTermSolver
   end
 end
 
-
 class Calculator 
   include TwoTermSolver
 end
