@@ -13,9 +13,11 @@ Catalog Content:
 
 ## Definition
 
-Returns the base-e exponential function of the argument, which is e raised to the power of the argument.
+`exp()` returns the base-e exponential function of the argument, which is e raised to the power of the argument.
 
 The number e, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
+
+The `cmath` library must be added to the top of the file with `#include <cmath>`.
 
 ## Syntax
 
@@ -25,11 +27,21 @@ Returns eⁿ:
 std::exp(n)
 ```
 
-## Example 1
+## Example 
+
+Use `exp()` to return the value of e³):
+
+```cpp
+double result;
+
+result = std::exp(3);
+```
+
+## Codebyte Example
 
 Use `exp()` to return the value of e (e¹):
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
