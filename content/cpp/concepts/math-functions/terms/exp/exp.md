@@ -13,15 +13,15 @@ Catalog Content:
 
 ## Definition
 
-`exp()` returns the base-e exponential function of the argument, which is e raised to the power of the argument.
+`exp()` returns the base-_e_ exponential function of the argument, which is _e_ raised to the power of the argument.
 
-The number e, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
+The number _e_, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
 
 The `cmath` library must be added to the top of the file with `#include <cmath>`.
 
 ## Syntax
 
-Returns eⁿ:
+Returns *e*ⁿ:
 
 ```cpp
 std::exp(n)
@@ -29,7 +29,7 @@ std::exp(n)
 
 ## Example 
 
-Use `exp()` to return the value of e³):
+Use `exp()` to return the value of *e*³):
 
 ```cpp
 double result;
@@ -39,7 +39,7 @@ result = std::exp(3);
 
 ## Codebyte Example
 
-Use `exp()` to return the value of e (e¹):
+Use `exp()` to return the value of *e* (*e*¹):
 
 ```codebyte/cpp
 #include <iostream>
