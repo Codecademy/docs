@@ -24,21 +24,21 @@ For example:
 We just launched [Codecademy Docs](https://producthunt.com) on Product Hunt!
 ```
 
-The output looks like this:
+The output would look like:
 
 We just launched [Codecademy Docs](https://producthunt.com) on Product Hunt!
 
-## Adding Titles
+## Link Titles
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+My favorite Craigslist categorey is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 ```
 
-The rendered output looks like this:
+The output would look like:
 
-My favorite search engine is Duck Duck Go.
+My favorite Craigslist categorey is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 
 ## URLs and Email Addresses
 
