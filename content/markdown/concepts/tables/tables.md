@@ -49,10 +49,11 @@ The output will look exactly the same.
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```
-| Wish List | Description | Cost |
+| Item | In Stock | Quantity |
 | :--- | :----: | ---: |
-| Header | Title | Here's this |
-| Paragraph | Text | And more |
+| Shirts | True | 52 |
+| Hats | True | 120 |
+| Socks | True | 140 |
 ```
 
 The output would look like:
