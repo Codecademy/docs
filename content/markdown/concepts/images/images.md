@@ -28,6 +28,10 @@ For example:
 ![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
 ```
 
+The output would be:
+
+![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
+
 An optional title can also be added after the URL, still in the parentheses:
 
 ```
