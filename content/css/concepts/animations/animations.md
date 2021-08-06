@@ -13,7 +13,7 @@ Catalog Content:
 
 A CSS animation lets a HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.
 
-To use CSS animation, you must first specify some keyframes for the animation.
+To use CSS animation, some keyframes for the animation must be specified.
 
 ## `@keyframes` Rule
 
