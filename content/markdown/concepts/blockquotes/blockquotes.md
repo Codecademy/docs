@@ -14,15 +14,15 @@ Catalog Content:
 
 _Blockquotes_ indicate that the enclosed text is an extended quotation.
 
-To create a blockquote, add a `>` in front of a paragraph.
+To create a blockquote, add a right angle bracket `>` in front of a paragraph.
 
 ```
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Context and memory play powerful roles in all the truly great meals in one's life.
 ```
 
-The rendered output looks like this:
+The rendered output would look like this:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+> Context and memory play powerful roles in all the truly great meals in one's life.
 
 ## Multiple Paragraphs
 
