@@ -45,9 +45,9 @@ My favorite Craigslist categorey is [Missed Connections](https://newyork.craigsl
 To quickly turn a URL or email address into a link, enclose it in angle brackets `<` `>`.
 
 - <https://www.markdownguide.org>
-- <fake@example.com>
+- <fake@gmail.com>
 
 The rendered output looks like this:
 
 - https://www.markdownguide.org
-- fake@example.com
+- fake@gmail.com
