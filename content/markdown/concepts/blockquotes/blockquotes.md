@@ -20,7 +20,7 @@ To create a blockquote, add a right angle bracket `>` in front of a paragraph.
 > Context and memory play powerful roles in all the truly great meals in one's life.
 ```
 
-The rendered output would look like this:
+The output would look like this:
 
 > Context and memory play powerful roles in all the truly great meals in one's life.
 
@@ -33,6 +33,12 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 > 
 > The second rule about fight club is you don’t talk about fight club.
 ```
+
+The output would look like this:
+
+> The first rule about fight club is you don’t talk about fight club.
+> 
+> The second rule about fight club is you don’t talk about fight club.
 
 ## Nested Blockquotes
 
