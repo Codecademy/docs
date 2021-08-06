@@ -12,29 +12,31 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-To add a table, use vertical line `|` to separate each column, and use three or more dahses `---` to create each column’s header. You should also add a vertical line on either end of the row.
+A table is an arrangement of data in rows and columns.
+
+To add a table in Markdown, use the vertical line `|` to separate each column, and use three or more dahses `---` to create each column’s header. A vertical line should also be added at either end of the row.
 
 ```
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Month     | Savings   |
+| --------- | --------- |
+| January   | $250      |
+| February  | $80       |
 ```
 
 The output would look like:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Month     | Savings   |
+| --------- | --------- |
+| January   | $250      |
+| February  | $80       |
 
 Cell widths can vary, as shown below. The rendered output will look the same.
 
 ```
-| Syntax | Description |
+| Month | Savings |
 | --- | --- |
-| Header | Title |
-| Paragraph | Text |
+| January | $250 |
+| February | $80 |
 ```
 
 ## Text Alignment
