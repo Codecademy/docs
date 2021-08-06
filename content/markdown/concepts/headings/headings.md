@@ -80,3 +80,16 @@ You should also put blank lines before and after a heading for compatibility.
 
 More text starts here.
 ```
+
+## Example
+
+```
+# Headings
+
+This page is about headings.
+
+## The cool things about headings
+
+Headings are great way to format the page.
+```
+
