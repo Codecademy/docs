@@ -1,19 +1,19 @@
 ---
-Title: "Who is Bjarne Stroustrup?"
+Title: "Who is Aaron Swartz?"
 Subjects:
   - "Computer Science"
   - "Code Foundations"
 Tags:
-  - "OOP"
-  - "Middleware"
+  - "Markdown"
+  - "RSS"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
+  - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 
 Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py. 
 
-# Entrepreneurship
+## Entrepreneurship
 
 Aaron Swartz was a co-founder of a startup called Infogami, which later became the social news site Reddit. He was given the title of a co-founder of Reddit by Paul Graham of Y Combinator.
 
