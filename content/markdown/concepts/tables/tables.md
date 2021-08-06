@@ -30,10 +30,12 @@ The output would look like:
 
 Cell widths can vary, as shown below. The rendered output will look the same.
 
+```
 | Syntax | Description |
-| --- | ----------- |
+| --- | --- |
 | Header | Title |
 | Paragraph | Text |
+```
 
 ## Text Alignment
 
