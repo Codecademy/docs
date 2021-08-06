@@ -4,7 +4,7 @@ Subjects:
   - "Developer Tools"
   - "Web Development"
 Tags: 
-  - "Quotes"
+  - "Lists"
   - "Documentation"
   - "GitHub"
 Catalog Content:
@@ -12,64 +12,53 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-_Blockquotes_ indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.
+In Markdown, items can be organized into ordered and unordered lists.
 
-To create a blockquote, add a right angle bracket `>` in front of a paragraph.
+## Ordered Lists
 
-```
-> Context and memory play powerful roles in all the truly great meals in one's life.
-```
-
-The output would look like this:
-
-> Context and memory play powerful roles in all the truly great meals in one's life.
-
-## Multiple Paragraphs
-
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+To create an ordered list, add numbers followed by periods. 
 
 ```
-> The first rule about fight club is you don’t talk about fight club.
-> 
-> The second rule about fight club is you don’t talk about fight club.
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
 ```
 
-The output would look like this:
+The numbers don’t have to be in numerical order, but the list should start with the number one.
 
-> The first rule about fight club is you don’t talk about fight club.
-> 
-> The second rule about fight club is you don’t talk about fight club.
+It will look like:
 
-## Nested Blockquotes
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
 
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
+## Unordered Lists
 
-```
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-## Blockquotes with Other Elements
-
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
+To create an unordered list, add dashes `-`, asterisks `*`, or plus signs `+` in front of line items. 
 
 ```
-> #### The quarterly results look great.
->
-> - Dogecoin was off the chart!
-> - Apes together stonk!
-> - $AMC to the moon!
-> 
->  *Everything* is going according to **the plan**.
+- First item
+- Second item
+- Third item
+- Fourth item
 ```
 
-The output would be:
+It will look like:
 
-> #### The quarterly results look great.
->
-> - Dogecoin was off the charts!
-> - Apes together stonk!
-> - $AMC to the moon!
-> 
->  *Everything* is going according to **the plan**.
+- First item
+- Second item
+- Third item
+- Fourth item
+
+Indent one or more items to create a nested list.
+
+```
+- First item
+- Second item
+- Third item
+  - Indented item
+  - Indented item
+- Fourth item
+```
