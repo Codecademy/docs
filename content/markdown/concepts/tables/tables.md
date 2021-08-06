@@ -32,7 +32,7 @@ The output would look like:
 | February  | $80       |
 | March     | $420      |
 
-Cell widths can vary, as shown below. The rendered output will look the same.
+Cell widths can vary, as shown below.
 
 ```
 | Month | Savings |
@@ -41,6 +41,8 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 | February | $80 |
 | March | $420 |
 ```
+
+The output will look exactly the same.
 
 ## Text Alignment
 
