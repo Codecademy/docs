@@ -27,3 +27,10 @@ For example:
 
 An optional title can also be added after the URL, still in the parentheses.
 
+## Linked Images
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+```
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers
+```
