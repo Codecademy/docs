@@ -23,17 +23,15 @@ To get an animation to work, the animation must be binded to an element:
 
 ```css
 /* The animation */
-@keyframes example {
-  from {background-color: yellow;}
-  to {background-color: orange;}
+@keyframes color-change {
+  from {color: yellow;}
+  to {color: orange;}
 }
 
 /* The element */
-div {
-  width: 20px;
-  height: 20px;
-  background-color: yellow;
-  animation-name: example;
+h1 {
+  color: yellow;
+  animation-name: color-change;
   animation-duration: 5s;
 }
 ```
