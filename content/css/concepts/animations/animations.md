@@ -11,9 +11,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-CSS allows animation of HTML elements without using JavaScript or Flash!
-
-An animation lets an element gradually change from one style to another. You can change as many CSS properties you want, as many times as you want.
+A CSS animation lets a HTML element gradually change from one style to another, without using JavaScript. You can change as many CSS properties you want, as many times as you want.
 
 To use CSS animation, you must first specify some keyframes for the animation.
 
