@@ -17,9 +17,9 @@ Catalog Content:
 
 In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 
 
-The keyword `enum` is used to define an enumeration.
-
 ## Syntax
+
+The keyword `enum` is used to define an enumeration.
 
 ```cpp
 enum name {const1, const2, ...};
@@ -59,7 +59,11 @@ So here:
 
 int main() {
 
-  enum quarter_one {january=1, february, march};
+  enum quarter_one {
+    january=1, 
+    february, 
+    march
+  };
   
   int month = february;
   
