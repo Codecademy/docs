@@ -12,7 +12,9 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-To create a blockquote, add a > in front of a paragraph.
+_Blockquotes_ indicate that the enclosed text is an extended quotation.
+
+To create a blockquote, add a `>` in front of a paragraph.
 
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
