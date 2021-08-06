@@ -33,4 +33,4 @@ Federal prosecutors later charged him with two counts of wire fraud and eleven v
 
 Swartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he committed suicide. He was 26 years old.
 
-R.I.P. Aaron.
+R.I.P. Aaron Hillel Swartz (November 8, 1986 – January 11, 2013) 
