@@ -64,7 +64,7 @@ The output would look like:
 
 ## Text Formatting
 
-You can format the text within tables. For example, you can add links, code (words or phrases in backticks) only, not code blocks), and emphasis.
+The text can be formatted within tables. For example, you can add links, emphasis, and inline code (words or phrases in backticks only, not code blocks).
 
 You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
 
