@@ -70,6 +70,8 @@ For compatibility, always put a space between the number signs and the heading n
 | ✅ Do | ❌ Don't |
 | --- | --- |
 | `# Here's a Heading` | `#Here's a Heading` |
+  
+<br>
 
 You should also put blank lines before and after a heading for compatibility.
 
