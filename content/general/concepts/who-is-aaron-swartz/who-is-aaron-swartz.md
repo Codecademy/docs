@@ -19,7 +19,7 @@ Aaron Swartz was a co-founder of a startup called Infogami, which later became t
 
 ## Activism
 
-In 2008, he published an essay called *Guerilla Open Access Manifesto*:
+In 2008, Swartz published an essay called *Guerilla Open Access Manifesto*:
 
 > Sharing isn't immoral — it's a moral imperative. Only those blinded by greed would refuse to let a friend make a copy.
 
@@ -27,7 +27,7 @@ In 2010, he co-founded an activist organization, Demand Progress, and led the ch
 
 ## United States v. Aaron Swartz
 
-In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, to download academic journal articles systematically.
+In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unlocked closet, to download academic journal articles systematically.
 
 Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.
 
