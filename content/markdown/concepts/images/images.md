@@ -25,7 +25,11 @@ For example:
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
-An optional title can also be added after the URL, still in the parentheses.
+An optional title can also be added after the URL, still in the parentheses:
+
+```
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+```
 
 ## Linked Images
 
