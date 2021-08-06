@@ -26,13 +26,18 @@ To bold text, add two asterisks `**` or underscores `__` before and after a word
 __bold text__
 ```
 
+For example:
+
+```
+Please do **NOT** touch your pimples.
+```
 
 ## Italic
 
 To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 ```
-**talic text*
+**italic text*
 ```
 
 ```
