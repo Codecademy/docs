@@ -57,11 +57,10 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 The output would look like:
 
-```
-Syntax	Description	Test Text
-Header	Title	Here’s this
-Paragraph	Text	And more
-```
+| Syntax | Description | Test Text |
+| :--- | :----: | ---: |
+| Header | Title | Here's this |
+| Paragraph | Text | And more |
 
 ## Text Formatting
 
