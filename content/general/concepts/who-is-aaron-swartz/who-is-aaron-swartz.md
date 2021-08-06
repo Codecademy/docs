@@ -27,9 +27,9 @@ In 2010, he co-founded an activist organization, Demand Progress, and led the ch
 
 ## United States v. Aaron Swartz
 
-In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unlocked closet, to download academic journal articles systematically.
+In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting to the campus network in an unlocked closet, to massive download academic journal articles.
 
-Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.
+Federal prosecutors later charged him with wire fraud and violations of the Computer Fraud and Abuse Act, carrying a maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, and supervised release.
 
 Swartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he committed suicide. He was 26 years old.
 
