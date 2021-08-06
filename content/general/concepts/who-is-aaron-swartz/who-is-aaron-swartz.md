@@ -19,18 +19,17 @@ Aaron Swartz was a co-founder of a startup called Infogami, which later became t
 
 ## Activism
 
-In later years, he led the charge fighting the Stop Online Piracy Act (SOPA) through his activist
-organization, DemandProgress.
+In 2008, he published an essay called *Guerilla Open Access Manifesto*:
 
-He published an essay called *Guerilla Open Access Manifesto* in 2008:
+> Sharing isn't immoral — it's a moral imperative. Only those blinded by greed would refuse to let a friend make a copy.
 
-> With enough of us, around the world, we’ll not just send a strong message opposing the privatization of knowledge — we’ll make it a thing of the past. Will you join us?
+In 2010, he co-founded an activist organization, Demand Progress, and led the charge fighting the Stop Online Piracy Act (SOPA).
 
-## United States vs Aaron Swartz
+## United States v. Aaron Swartz
 
-In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically.
+In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, to download academic journal articles systematically.
 
-Federal prosecutors, led by Carmen Ortiz, later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.
+Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act, carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.
 
 Swartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he committed suicide. He was 26 years old.
 
