@@ -25,13 +25,13 @@ Embedding an image is very similar to adding a link in Markdown:
 For example:
 
 ```
-![High Five GIF](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
+![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
 ```
 
 An optional title can also be added after the URL, still in the parentheses:
 
 ```
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif "High Five")
 ```
 
 ## Linked Images
