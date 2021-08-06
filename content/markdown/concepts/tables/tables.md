@@ -4,7 +4,7 @@ Subjects:
   - "Developer Tools"
   - "Web Development"
 Tags: 
-  - "Quotes"
+  - "Tables"
   - "Documentation"
   - "GitHub"
 Catalog Content:
@@ -12,64 +12,57 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-_Blockquotes_ indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.
-
-To create a blockquote, add a right angle bracket `>` in front of a paragraph.
+To add a table, use three or more hyphens (`---`) to create each column’s header, and use pipes `|` to separate each column. For compatibility, you should also add a pipe on either end of the row.
 
 ```
-> Context and memory play powerful roles in all the truly great meals in one's life.
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 ```
 
-The output would look like this:
+The rendered output looks like this:
 
-> Context and memory play powerful roles in all the truly great meals in one's life.
 
-## Multiple Paragraphs
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+Cell widths can vary, as shown below. The rendered output will look the same.
 
-```
-> The first rule about fight club is you don’t talk about fight club.
-> 
-> The second rule about fight club is you don’t talk about fight club.
-```
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
-The output would look like this:
+ Tip: Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the Markdown Tables Generator. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
 
-> The first rule about fight club is you don’t talk about fight club.
-> 
-> The second rule about fight club is you don’t talk about fight club.
+## Text Alignment
 
-## Nested Blockquotes
-
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
+You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the hyphens within the header row.
 
 ```
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+| Syntax | Description | Test Text     |
+| :--- |    :----:   |          ---: |
+| Header | Title       | Here's this   |
+| Paragraph | Text        | And more      |
 ```
 
-## Blockquotes with Other Elements
-
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
+The rendered output looks like this:
 
 ```
-> #### The quarterly results look great.
->
-> - Dogecoin was off the chart!
-> - Apes together stonk!
-> - $AMC to the moon!
-> 
->  *Everything* is going according to **the plan**.
+Syntax	Description	Test Text
+Header	Title	Here’s this
+Paragraph	Text	And more
 ```
 
-The output would be:
+## Text Formatting
 
-> #### The quarterly results look great.
->
-> - Dogecoin was off the charts!
-> - Apes together stonk!
-> - $AMC to the moon!
-> 
->  *Everything* is going according to **the plan**.
+You can format the text within tables. For example, you can add links, code (words or phrases in backticks (`) only, not code blocks), and emphasis.
+
+You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+
+Escaping Pipe Characters in Tables
+You can display a pipe (|) character in a table by using its HTML character code (&#124;).
+
