@@ -25,7 +25,7 @@ Embedding an image is very similar to adding a link in Markdown:
 For example:
 
 ```
-![Image of Codey](https://codecademy.com/images/codey.png)
+![High Five GIF](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
 ```
 
 An optional title can also be added after the URL, still in the parentheses:
