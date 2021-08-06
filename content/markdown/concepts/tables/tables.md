@@ -21,6 +21,7 @@ To add a table in Markdown, use the vertical line `|` to separate each column, a
 | --------- | --------- |
 | January   | $250      |
 | February  | $80       |
+| March     | $420      |
 ```
 
 The output would look like:
@@ -29,6 +30,7 @@ The output would look like:
 | --------- | --------- |
 | January   | $250      |
 | February  | $80       |
+| March     | $420      |
 
 Cell widths can vary, as shown below. The rendered output will look the same.
 
@@ -37,11 +39,12 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 | --- | --- |
 | January | $250 |
 | February | $80 |
+| March | $420 |
 ```
 
 ## Text Alignment
 
-You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the hyphens within the header row.
+You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```
 | Syntax | Description | Test Text |
