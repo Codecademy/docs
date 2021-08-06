@@ -12,15 +12,15 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
+To create a link, enclose the link text in brackets (e.g., `[Karaoke Nite]`) and then follow it immediately with the URL in parentheses (e.g., `(https://karaokenite.co)`).
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+We just launched [Karaoke Nite](https://karaokenite.co) on Product Hunt!
 ```
 
 The output looks like this:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+We just launched [Karaoke Nite](https://karaokenite.co) on Product Hunt!
 
 ## Adding Titles
 
