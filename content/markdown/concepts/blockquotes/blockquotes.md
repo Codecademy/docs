@@ -55,7 +55,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 > - Apes together stonk!
 > - $AMC to the moon!
 > 
->  *Everything* is going according to **plan**.
+>  *Everything* is going according to **the plan**.
 ```
 
 The output would be:
