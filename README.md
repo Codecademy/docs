@@ -13,6 +13,10 @@ Codecademy Docs is intended to be a free, easily accessible reference for coding
 
 Right now we've created 590 high-quality entries as quickly as we could. We have an engineering team working on creating the Docs website in July-August, after which we'll release the MVP to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
 
+## Core Team
+
+TBD
+
 ## What do I need to do before contributing? 
 
 Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
