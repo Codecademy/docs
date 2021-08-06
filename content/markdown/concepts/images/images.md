@@ -4,7 +4,8 @@ Subjects:
   - "Developer Tools"
   - "Web Development"
 Tags: 
-  - "Quotes"
+  - "Images"
+  - "URL"
   - "Documentation"
   - "GitHub"
 Catalog Content:
