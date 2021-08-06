@@ -1,6 +1,6 @@
 ---
 Title: "exp()"
-Description: "Returns the base-e exponential function of the argument, which is e raised to the power of the argument."
+Description: "Returns e raised to the power of the argument."
 Subjects:
   - "Computer Science"
 Tags:
@@ -14,6 +14,8 @@ Catalog Content:
 ## Definition
 
 Returns the base-e exponential function of the argument, which is e raised to the power of the argument.
+
+The number e, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
 
 ## Syntax
 
