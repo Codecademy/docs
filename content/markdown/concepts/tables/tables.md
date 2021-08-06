@@ -57,11 +57,11 @@ You can align text in the columns to the left, right, or center by adding a colo
 ```
 
 The output would look like:
-
-| Syntax | Description | Test Text |
+| Item | In Stock | Quantity |
 | :--- | :----: | ---: |
-| Header | Title | Here's this |
-| Paragraph | Text | And more |
+| Shirts | True | 52 |
+| Hats | True | 120 |
+| Socks | True | 140 |
 
 ## Text Formatting
 
