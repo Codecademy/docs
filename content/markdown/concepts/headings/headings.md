@@ -12,9 +12,11 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-To create a heading, add number signs `#` in front of a word or phrase. The number of number signs you use should correspond to the heading level. 
+Headings are titles or subtitles that you want to display with markdown. There is a total of 6 different headings.
 
-For example, to create a heading level three `<h3>`, use three number signs (e.g., `### My Header`).
+To create a heading, add hashtag signs `#` in front of a word or phrase. 
+
+The number of number signs you use should correspond to the heading level. For example, to create a heading level three `<h3>`, use three number signs (e.g., `### My Header`).
 
 ## Syntax
 
@@ -42,7 +44,7 @@ For example, to create a heading level three `<h3>`, use three number signs (e.g
 
 ##### Heading level 5	
 
-###### Heading level 6	<h6>Heading level 6</h6>	
+<h6>Heading level 6</h6>	
 
 ## Alternate Syntax
 
@@ -72,7 +74,7 @@ For compatibility, always put a space between the number signs and the heading n
 You should also put blank lines before and after a heading for compatibility.
 
 ```
-... text end here.
+... text ends here.
 
 # Heading
 
