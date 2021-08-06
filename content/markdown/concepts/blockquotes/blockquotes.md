@@ -53,7 +53,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 >
 > - Dogecoin was off the chart!
 > - Apes together stonk!
-> - AMC to the moon!
+> - $AMC to the moon!
 > 
 >  *Everything* is going according to **plan**.
 ```
@@ -64,6 +64,6 @@ The output would be:
 >
 > - Dogecoin was off the charts!
 > - Apes together stonk!
-> - AMC to the moon!
+> - $AMC to the moon!
 > 
 >  *Everything* is going according to **the plan**.
