@@ -53,15 +53,16 @@ You can align text in the columns to the left, right, or center by adding a colo
 | :--- | :----: | ---: |
 | Shirts | True | 52 |
 | Hats | True | 120 |
-| Socks | True | 140 |
+| Socks | False | 0 |
 ```
 
 The output would look like:
+
 | Item | In Stock | Quantity |
 | :--- | :----: | ---: |
 | Shirts | True | 52 |
 | Hats | True | 120 |
-| Socks | True | 140 |
+| Socks | False | 0 |
 
 ## Text Formatting
 
