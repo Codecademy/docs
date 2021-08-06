@@ -49,7 +49,7 @@ The output will look exactly the same.
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```
-| Syntax | Description | Test Text |
+| Wish List | Description | Cost |
 | :--- | :----: | ---: |
 | Header | Title | Here's this |
 | Paragraph | Text | And more |
