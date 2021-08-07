@@ -1,6 +1,6 @@
 ---
 Title: "<blockquote>"
-Description: "Represents a section of a document which contains a longer quotation, usually spanning multiple lines. A <blockquote> will often be shown by the browser indented from the surrounding text."
+Description: "Represents a section of a document which contains a longer quotation, usually spanning multiple lines."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -13,7 +13,9 @@ Catalog Content:
 
 ## Definition 
 
-Represents a section of a document which contains a longer quotation, usually spanning multiple lines. A `<blockquote>` will often be shown by the browser indented from the surrounding text.
+Represents a section of a document which contains a longer quotation, usually spanning multiple lines. 
+  
+A `<blockquote>` will often be shown by the browser indented from the surrounding text.
 
 ## Syntax
 
