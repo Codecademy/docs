@@ -1,6 +1,6 @@
 ---
 Title: "math.exp()"
-Description: "Returns E raised to the power of x."
+Description: "Returns _e_ raised to the power of x."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-Returns E raised to the power of x.
+Returns _e_ raised to the power of x.
 
 ## Syntax
 
@@ -22,11 +22,11 @@ Returns E raised to the power of x.
 math.exp(x)
 ```
 
-E is approximately 2.718282.
+_e_ is approximately 2.718282.
 
 ## Example 1
 
-Use `math.exp()` to return E raised to the power of `5`:
+Use `math.exp()` to return _e_ raised to the power of `5`:
 
 ```python
 import math
@@ -38,7 +38,7 @@ print(math.exp(5))
 
 ## Example 2
 
-Use `math.exp()` to return E raised to the power of `3`:
+Use `math.exp()` to return _e_ raised to the power of `3`:
 
 ```python
 import math
