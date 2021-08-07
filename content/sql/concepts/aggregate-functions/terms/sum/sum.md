@@ -1,6 +1,6 @@
 ---
 Title: "SUM()"
-Description: "The SUM() aggregate function takes the name of a column as an argument and returns the sum of all the value in that column."
+Description: "Returns the sum of all the value in that column."
 Subjects:
   - "Data Science"
   - "Computer Science"
