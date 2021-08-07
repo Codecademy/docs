@@ -1,6 +1,6 @@
 ---
 Title: "<em>"
-Description: "The <em> tag represents text which is emphasized. Browsers will show the enclosed text in italics, by default."
+Description: Represents text which is emphasized. Browsers will show the enclosed text in italics, by default."
 Subjects:
   - "Web Development"
   - "Web Design"
