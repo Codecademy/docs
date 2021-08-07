@@ -58,13 +58,14 @@ This sets the “seed” of the random number generator.
 #include <cstdlib>
  
 int main() {
- 
-  std::cout << "MAGIC 8-BALL:\n\n";
+
+  std::cout << "🎱 Magic 8-Ball: ";
  
   srand(time(NULL));
  
   int answer = std::rand() % 20;
  
   std::cout << answer;
- 
+  
+}
 ```
