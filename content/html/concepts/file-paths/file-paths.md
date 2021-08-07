@@ -42,7 +42,9 @@ Relative file path are paths that links to a local file in the same folder or on
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
 
 ```html
-<a href="./about.html">The URL for this anchor element is a relative file path.</a>
+<a href="./about.html">
+  The URL for this anchor element is a relative file path.
+</a>
 ```
 
 ## Link to a Specifific Part of the Page
