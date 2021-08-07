@@ -1,6 +1,6 @@
 ---
 Title: "requests.delete()"
-Description: "A method for making a &quot;delete&quot; request to a web server; it returns a response object."
+Description: "Makes a delete request to a web server; it returns a response object."
 Subjects:
   - "Data Science"
 Tags: 
