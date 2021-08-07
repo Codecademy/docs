@@ -1,5 +1,5 @@
 ---
-Title: "contains()"
+Title: ".contains()"
 Description: "Returns true if a sequence of characters exists in a given string, otherwise false."
 Subjects:
   - "Computer Science"
