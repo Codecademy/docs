@@ -1,6 +1,6 @@
 ---
 Title: ".compareTo()"
-Description: "Compares two strings lexicographically based on the Unicode value of each character in the string. A value of 0 will be returned if equal to comparison, less than 0 if the string is lexicographically less, and greater than 0 if the string is lexicographically greater."
+Description: "Compares two strings lexicographically based on the Unicode value of each character in the string."
 Subjects:
   - "Computer Science"
 Tags:
