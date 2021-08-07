@@ -37,20 +37,17 @@ None of it is going to run!
 Here's a program with a multi-line comment and two single-line comments:
 
 ```codebyte/cpp
-/* 
-Tip Calculator 
-By Sonny
-*/
+/* Tip Calculator
+Written by Sonny */
 
 #include <iostream>
 
 int main() {
-
   // Calculate the tip
   double total = 18.75;
   double tip = total * 0.2;
   
   // Display the tip
-  std::cout << "Your tip is $" << tip;
-
+  std::cout << "The tip is $" << tip;
 }
+```
