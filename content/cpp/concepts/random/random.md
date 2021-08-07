@@ -15,7 +15,7 @@ C++ has a `std::rand()` function from `cstdlib` library that generates a random 
 
 For example, if we add `#include <cstdlib>`, we can use the `std::rand()` function:
 
-```
+```cpp
 std::cout << std::rand() << "\n";
 std::cout << std::rand() << "\n";
 std::cout << std::rand() << "\n";
@@ -23,7 +23,7 @@ std::cout << std::rand() << "\n";
 
 It would output something like:
 
-```
+```bash
 1804289383
 846930886
 1681692777
