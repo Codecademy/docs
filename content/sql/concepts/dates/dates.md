@@ -43,7 +43,7 @@ Similarly, we can query the time with:
 
 ```sql
 SELECT TIME(order_time), 
-   COUNT(*) as 'count_baked_goods'
+   COUNT(*) AS 'count_baked_goods'
 FROM baked_goods
 GROUP BY TIME(order_time);
 ```
