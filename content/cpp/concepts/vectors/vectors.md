@@ -13,7 +13,6 @@ Catalog Content:
 
 A vector is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.
 
-
 ## Different Ways to Create a Vector
 
 To use vectors, it is necessary to `#include` the `vector` library.
@@ -28,13 +27,13 @@ During the creation of a C++ vector, the data type of its elements must be speci
 std::vector<type> name;
 ```
 
-### Create a vector with a size
+### Create a Vector with Size
 
 ```cpp
 std::vector<int> grades(10);
 ```
 
-### Create and intitialize a vector
+### Create and Intitialize a Vector
 
 ```cpp
 std::vector<double> order = {3.99, 12.99, 2.49};
@@ -56,7 +55,7 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
-## Example
+## Codebyte Example
 
 To create a vector named `grade` with 3 items:
 
