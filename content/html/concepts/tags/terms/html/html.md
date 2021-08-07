@@ -1,6 +1,6 @@
 ---
 Title: "<html>"
-Description: "The <html> tag represents the entire HTML document."
+Description: "Represents the entire HTML document."
 Subjects:
   - "Web Development"
   - "Web Design"
