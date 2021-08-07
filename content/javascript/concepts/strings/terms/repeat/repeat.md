@@ -1,6 +1,6 @@
 ---
 Title: ".repeat()"
-Description: "Repeat a string a specified number of times. String will be concatenated."
+Description: "Repeats a string a specified number of times. String will be concatenated."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -14,7 +14,7 @@ Catalog Content:
 
 ## Definition
 
-Repeat a string a specified number of times. String will be concatenated.
+The `.repeat()` string method repeats a string a specified number of times. String will be concatenated.
 
 ## Syntax
 
