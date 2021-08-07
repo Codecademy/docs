@@ -21,7 +21,8 @@ In SQL, aggregate functions perform a calculation on a set of values and return 
 List all the years and their number of movies, but only the years with more than 5 movies:
 
 ```sql
-SELECT year, COUNT(*) 
+SELECT year, 
+  COUNT(*) 
 FROM movies 
 GROUP BY year
 HAVING COUNT(*) > 5;
