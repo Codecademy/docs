@@ -64,7 +64,6 @@ To create a vector named `grade` with 3 items:
 #include <vector>
  
 int main() {
-  
   std::vector<int> grades(3);
   
   grades[0] = 90;
@@ -74,6 +73,5 @@ int main() {
   std::cout << grades[0] << "\n";
   std::cout << grades[1] << "\n";
   std::cout << grades[2] << "\n";
-
 }
 ```
