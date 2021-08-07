@@ -1,6 +1,6 @@
 ---
 Title: "<head>"
-Description: "The <head> tag represents a collection of metadata related to the current document. It is an immediate child of the <html> elemend and may include other tags such as <title>, <link>, <style>, and <script>."
+Description: "Represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include other tags such as <title>, <link>, <style>, and <script>."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<head>` tag represents a collection of metadata related to the current document. It is an immediate child of the `<html>` elemend and may include other tags such as `<title>`, `<link>`, `<style>`, and `<script>`.
+The `<head>` tag represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include other tags such as `<title>`, `<link>`, `<style>`, and `<script>`.
 
 ## Syntax
 
