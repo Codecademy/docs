@@ -23,7 +23,7 @@ The `cmath` library must be added at the top of the file.
 std::floor(n);
 ```
 
-Argument must be a double/float/long double, and the return value will be same datatype.
+Argument must be a `double`/`float`/`long double`, and the return value will be the same type.
 
 ## Example
 
