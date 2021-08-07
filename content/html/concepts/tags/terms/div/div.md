@@ -13,7 +13,7 @@ Catalog Content:
 
 ## Definition 
 
-The `<div>` tag represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.
+Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.
 
 ## Syntax
 
