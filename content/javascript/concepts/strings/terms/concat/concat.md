@@ -1,6 +1,6 @@
 ---
 Title: ".concat()"
-Description: "Concatenate or combine strings together."
+Description: "Concatenates or combines strings together."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -14,16 +14,13 @@ Catalog Content:
 
 ## Definition
 
-Concatenate or combine strings together.
+Concatenates or combines strings together.
 
 ## Syntax
-
 
 ```js
 string.concat(string_1, string_2, string_3)
 ```
-
-
 
 ## Example 1
 
