@@ -1,6 +1,6 @@
 ---
 Title: ".length"
-Description: "Return the length of a string (number of characters)."
+Description: "Returns the length of a string (number of characters)."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -15,15 +15,13 @@ Catalog Content:
 
 ## Definition
 
-Return the length of a string (number of characters).
+`.length` is a string property and it returns the number of characters in a string.
 
 ## Syntax
 
 ```js
 string.length
 ```
-
-`.length` is a string property and return the number of characters.
 
 ## Example
 
