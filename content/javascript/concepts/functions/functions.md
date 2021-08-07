@@ -48,7 +48,7 @@ sum(2, 4);
 
 The output would be:
 
-```bash
+```output
 6
 ```
 
