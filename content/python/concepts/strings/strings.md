@@ -10,6 +10,7 @@ Tags:
   - "Data Types"
 Catalog Content: 
   - "https://www.codecademy.com/learn/learn-python-3"
+  - "https://www.codecademy.com/learn/paths/computer-science"
 ---
 
 A string is a sequence of characters contained within a pair of single quotes (`'`) or double quotes(`"`). They provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces.
@@ -48,6 +49,7 @@ name[0] # "p"
 ```
 
 If you try to access an index out of bounds, it will return an `IndexError`. 
+
 ```py
 name = "phillis"
 name[8] # Throws an IndexError
@@ -123,25 +125,4 @@ print("var_3: " + var_3)
 
 Python has many built in string methods to manipulate strings. However, when these methods are called, the original string will not be changed, so any modifications will need to be saved to a new variable. A few useful built-in string methods are:
 
-```python
-upper() # Converts string to all capital letters
-lower() # Converts string to all lowercase letters
-title() # Capitalizes the first letter of every word
-strip() # Removes leading or trailing whitespace
-```
 
-```codebyte/py
-message = "Hello, World!"
-
-a = message.upper()
-print(a)
-
-b = message.lower()
-print(b)
-
-c = message.title()
-print(c)
-
-d = message.strip()
-print(d)
-```
