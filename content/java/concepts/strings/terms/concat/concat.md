@@ -1,5 +1,5 @@
 ---
-Title: "concat()"
+Title: ".concat()"
 Description: "Returns a string that is the concatenation of the given strings."
 Subjects:
   - "Computer Science"
