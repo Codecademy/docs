@@ -28,7 +28,9 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 `https://developer.mozilla.org/en-US/docs/learn`
 
 ```html
-<a href="https://developer.mozilla.org/en-US/docs/Web">The URL for this anchor element is an absolute file path.</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web">
+  The URL for this anchor element is an absolute file path.
+</a>
 ```
 
 ## Relative File Paths
