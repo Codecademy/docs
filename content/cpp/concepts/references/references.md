@@ -37,15 +37,12 @@ It allows the ability to:
 ```cpp
 
 void swap_num(int &i, int &j) {
- 
   int temp = i;
   i = j;
   j = temp;
- 
 }
  
 int main() {
- 
   int a = 100;
   int b = 200;
  
@@ -53,7 +50,6 @@ int main() {
  
   std::cout << "A is " << a << "\n";
   std::cout << "B is " << b << "\n";
- 
 }
 ```
 
@@ -65,8 +61,6 @@ This saves the computational cost of making a copy of the argument.
 
 ```cpp
 int triple(int const &i) {
- 
   return i * 3;
- 
 }
 ```
