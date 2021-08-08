@@ -1,6 +1,6 @@
 ---
 Title: "transition-timing-function"
-Description: "Specifies the speed of an elements transition effect over the course of its duration. "
+Description: "Specifies the speed of a transition effect over the course of its duration."
 Subjects:
   - "Web Development"
   - "Web Design"
