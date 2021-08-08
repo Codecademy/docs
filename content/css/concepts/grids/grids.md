@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. Using this layout system makes it easier to design web pages without having to use positioning and floats.
+CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. This layout system makes it easier to design and fine-tune the layout of web pages without having to use positioning and floats.
 
 ## Grid Elements
 
@@ -24,8 +24,6 @@ A grid layout consists of a parent element, with one or more child elements.
   <div class="grid-item">2</div>
   <div class="grid-item">3</div>
   <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>
 </div>
 ```
 
@@ -37,8 +35,10 @@ An HTML element becomes a grid container when its `display` property is set to `
 }
 ```
 
-All children of the grid container becomes _grid items_.
+All the nested elements inside the grid container element are called _grid items_.
 
+The difference between the values `inline-grid` and `grid` is that the `inline-grid` will make the element inline while `grid` will make it a block-level element.
+ 
 - Grid columns are the verticle lines of the grid items.
 - Grid rows are the horizontal lines of grid items.
 - Grid gaps are the spaces between each column/row.
