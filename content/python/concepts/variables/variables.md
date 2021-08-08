@@ -34,7 +34,7 @@ Rules for Python variables:
 These are all valid variable names and assignment:
 
 ```py
-user_name = "@sonnynomnom"
+user_name = "@sonny420"
 user_id = 100
 verified = False
 ```
