@@ -245,6 +245,7 @@ Templates
 TensorFlow  
 Tidyr  
 Title  
+Transitions
 Transpilation  
 Trees  
 Try  
