@@ -2,11 +2,11 @@
 
 > Built by the community. Maintained by Codecademy. 🌎
 
-Welcome to Codecademy Docs GitHub repo!
+Welcome to the Codecademy Docs GitHub repo!
 
-We are an open and inclusive community of technologists and life-long learners around the world building coding resources for a better tomorrow. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the web to serve the greater good. It starts here, with you.
+We are an open and inclusive community of technologists and life-long learners around the world building coding resources for a better tomorrow. Anyone can contribute and each person who does makes us stronger and better. Together we can continue to drive innovation on the web to serve the greater good. It starts here, with you.
 
-For newcomers, contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to. Well, you are at the right place. Codecademy Docs is the perfect open-source project for you to contribute to!
+For newcomers, contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to. Well, you are at the right place, because Codecademy Docs is the perfect beginner-friendly open-source project for you to contribute to!
 
 Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) (entries, documentations, translations) are created by amazing creative folks like yourself. Please, join us!
 
@@ -19,8 +19,10 @@ Before contributing, please read through the following files in [/documentation]
   - [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)
   - [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
   - [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md)
-- [Tags](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
-- [Subjects](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
+- [Tags List](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
+- [Subjects List](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
+
+And poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder.
 
 In these links, you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
 
