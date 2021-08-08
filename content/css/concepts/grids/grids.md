@@ -18,6 +18,7 @@ CSS Grid is a two-dimensional grid-based layout system, with rows and columns, m
 
 A grid layout consists of a parent element, with one or more child elements.
 
+```html
 <div class="grid-container">
   <div class="grid-item">1</div>
   <div class="grid-item">2</div>
@@ -26,6 +27,7 @@ A grid layout consists of a parent element, with one or more child elements.
   <div class="grid-item">5</div>
   <div class="grid-item">6</div>
 </div>
+```
 
 An HTML element becomes a grid container when its `display` property is set to `grid` or `inline-grid`:
 
