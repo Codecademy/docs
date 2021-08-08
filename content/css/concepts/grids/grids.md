@@ -12,7 +12,7 @@ Catalog Content:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-CSS Grid is a two-dimensional grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. Using this layout system makes it easier to design web pages without having to use positioning and floats.
 
 ## Grid Elements
 
