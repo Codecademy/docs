@@ -4,7 +4,9 @@ Subjects:
   - "Web Development"
   - "Web Design"
 Tags: 
-  - "Comments"
+  - "Margin"
+  - "Box Model"
+  - "Properties"
   - "Documentation"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-csss"
