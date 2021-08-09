@@ -82,7 +82,7 @@ In this next example, we pass several pieces of information to `<Greeting />`. T
 <Greeting name="Frarthur" town="Flundon" age={2} haunted={false} />
 ```
 
-## Displaying the 
+## Displaying the Props
 
 You will often want a component to display the information that you pass.
 
