@@ -7,8 +7,8 @@ Tags:
   - "Conditionals"
   - "Control Flow"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Conditionals control the flow of execution of your program based on conditions that you define. Conditionals are the decision making statements in your program.

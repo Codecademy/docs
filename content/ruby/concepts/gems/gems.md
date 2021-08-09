@@ -6,8 +6,8 @@ Subjects:
 Tags: 
   - "Libraries"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, gems are open-source Ruby libraries or applications that lend extra utilities to other applications. Each gem is composed of: 

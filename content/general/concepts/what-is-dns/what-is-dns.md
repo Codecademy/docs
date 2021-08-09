@@ -7,8 +7,8 @@ Tags:
   - "HTTP" 
   - "Developer Tools"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website. 

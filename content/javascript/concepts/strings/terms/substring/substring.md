@@ -8,7 +8,7 @@ Tags:
   - "Strings"
   - "Methods"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/web-development"
 ---
 
 ## Definition

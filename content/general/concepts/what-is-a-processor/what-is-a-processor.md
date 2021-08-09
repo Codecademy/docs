@@ -7,9 +7,9 @@ Tags:
   - "Best Practices"
   - "Memory"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 A processor is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code. 

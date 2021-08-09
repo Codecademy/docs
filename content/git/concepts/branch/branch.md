@@ -7,9 +7,9 @@ Tags:
   - "Git"
   - "GitHub"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-git"
+  - "learn-the-command-line"
+  - "paths/computer-science"
 ---
 
 In Git, a _branch_ represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.

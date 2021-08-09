@@ -10,9 +10,9 @@ Tags:
   - "Methods"
   - "Lists"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/data-science"
+  - "paths/computer-science"
 ---
 
 Python has a special module called [random](https://docs.python.org/3/library/random.html) which can be used to randomly generate or modify integers, floats, lists and strings. In order to use the random module, first add `import random` to the top of a Python file.

@@ -8,8 +8,8 @@ Tags:
   - "Elements"
   - "Properties"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 We can transform any HTML element using the `transform` property combined with CSS functions that scale, rotate, and even distort. 

@@ -6,8 +6,8 @@ Subjects:
 Tags: 
   - "Scope"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, variables have a scope that outlines what other variables and methods are available to them versus which ones are not. There are different levels of scope: 

@@ -8,8 +8,8 @@ Tags:
   - "Developer Tools"
   - "Dependency"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 Node.js is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.

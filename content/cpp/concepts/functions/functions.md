@@ -9,8 +9,8 @@ Tags:
   - "Parameters"
   - "Return"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function.

@@ -8,8 +8,8 @@ Tags:
   - "Node"
   - "Best Practices"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 [Next.js](https://nextjs.org) is an open-source development framework building server-side rendering and static web applications using React.

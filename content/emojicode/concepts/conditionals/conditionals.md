@@ -7,8 +7,8 @@ Tags:
   - "Else"
   - "Control Flow"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 _Conditionals_ take an expression, which is code that evaluates to determine a value, and checks if it is `👍` or `👎`. If it’s `👍`, we can tell our program to do one thing — we can even account for `👎` to do another.

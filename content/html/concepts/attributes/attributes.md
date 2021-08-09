@@ -8,8 +8,8 @@ Tags:
   - "Elements"
   - "Tags"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.

@@ -7,8 +7,8 @@ Tags:
   - "Arrays"
   - "Data Structures"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 An an array is a list of ordered, stored data. They can hold items that are of any data type. 

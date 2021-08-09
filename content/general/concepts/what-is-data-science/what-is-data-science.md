@@ -12,12 +12,12 @@ Tags:
   - "SQLite"
   - "Scikit-learn"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/learn-r"
+  - "paths/data-science"
+  - "learn-python-3"
+  - "learn-r"
 ---
 
-[Data Science](https://www.codecademy.com/learn/paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
+[Data Science](paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
 
 ## Application
 

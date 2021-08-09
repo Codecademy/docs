@@ -8,8 +8,8 @@ Tags:
   - "Arrays"
   - "Variables"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 A dictionary is an unordered collection of paired data, or `key: value` pairs.

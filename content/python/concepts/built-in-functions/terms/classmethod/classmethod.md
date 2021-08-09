@@ -9,9 +9,9 @@ Tags:
   - "Methods"
   - "Character Encoding"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 ## Definition

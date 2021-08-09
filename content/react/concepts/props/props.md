@@ -6,8 +6,8 @@ Tags:
   - "Properties"
   - "React"
 CatalogContent:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "react-101"
+  - "paths/web-development"
 ---
 
 In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another.

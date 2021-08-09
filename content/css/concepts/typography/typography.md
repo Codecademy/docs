@@ -9,8 +9,8 @@ Tags:
   - "Elements"
   - "Properties"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 Typography is the art of arranging text on a page. Some of the most important information a user will see on a web page will be textual.

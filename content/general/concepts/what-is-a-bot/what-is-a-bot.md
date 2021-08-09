@@ -7,9 +7,9 @@ Tags:
   - "Best Practices"
   - "Memory"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 Bots are software applications which perform automated services. Bots perform tedious and repetitive tasks quicker and more efficiently than it would take humans. 

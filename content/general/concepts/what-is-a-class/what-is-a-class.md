@@ -8,9 +8,9 @@ Tags:
   - "Objects"
   - "OOP"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 A class is a piece of code within a program that functions as a template or blueprint for creating mulitple instances of a particular object. 

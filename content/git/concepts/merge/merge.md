@@ -7,8 +7,8 @@ Tags:
   - "Git"
   - "GitHub"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, what if you wanted include all the changes you made to the local branch onto the `main` branch? Merge a pull request into the `main` branch when work is completed. Anyone with push access to the repository can complete the merge.

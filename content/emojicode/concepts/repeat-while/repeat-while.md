@@ -8,8 +8,8 @@ Tags:
   - "Loops"
   - "Control Flow"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 🔁 repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped.

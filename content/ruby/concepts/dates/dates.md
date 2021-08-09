@@ -6,8 +6,8 @@ Subjects:
 Tags: 
   - "Date"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, date- and time-specific data are handled by two classes: 

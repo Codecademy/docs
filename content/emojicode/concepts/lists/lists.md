@@ -9,8 +9,8 @@ Tags:
   - "Arrays"
   - "Dictionaries"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 A *list* literal is a listing of expressions. 

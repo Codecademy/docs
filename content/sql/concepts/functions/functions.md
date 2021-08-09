@@ -7,9 +7,9 @@ Tags:
   - "Functions"
   - "Arithmetic"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-sql"
+  - "paths/data-science"
+  - "paths/computer-science"
 ---
 
 There are two types of SQL functions, aggregate functions, and scalar (non-aggregate) functions. Aggregate functions operate on many records and produce a summary, works with `GROUP BY` whereas non-aggregate functions operate on each record independently.

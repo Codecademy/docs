@@ -8,9 +8,9 @@ Tags:
   - "Parameters"
   - "Arguments"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 _Arrow function_ expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](../javascript/functions) syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.

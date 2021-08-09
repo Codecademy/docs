@@ -13,8 +13,8 @@ Tags:
   - "Strings"
   - "Symbol"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Data types represent different types of data such as numbers, booleans, strings, etc. As an object-oriented language, all data types are based on classes.

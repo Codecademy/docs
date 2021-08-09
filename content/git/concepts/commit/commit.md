@@ -7,8 +7,8 @@ Tags:
   - "Git"
   - "GitHub"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, commits are used as snapshots of a given branch in a repository. Collectively, they serve as the growth history of all the branches in a Git repository. The most recent commit is considered directly related to the pointer of the current branch.

@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Functions"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 The `rand` function will return a random number greater than or equal to 0 and less than the integer passed to the function. If an argument is not passed to the function, the return value is a random number between 0 and 1.

@@ -9,8 +9,8 @@ Tags:
   - "Parameters"
   - "Memory"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A reference variable is an alias for another object. It is created using the `&` sign. 

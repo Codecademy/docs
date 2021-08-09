@@ -8,8 +8,8 @@ Tags:
   - "Properties"
   - "Elements"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 A border is a line that surrounds an element, like a frame around a painting. 

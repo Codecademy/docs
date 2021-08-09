@@ -9,8 +9,8 @@ Tags:
   - "Documentation"
   - "GitHub"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 Embedding an image is very similar to adding a link in Markdown:

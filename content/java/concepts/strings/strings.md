@@ -7,8 +7,8 @@ Tags:
   - "Data Types"
   - "Characters"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A `String` in Java is an object that holds a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive datatype.

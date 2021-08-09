@@ -6,8 +6,8 @@ Subjects:
 Tags: 
   - "Types"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. 

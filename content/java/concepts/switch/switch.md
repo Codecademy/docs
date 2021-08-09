@@ -7,8 +7,8 @@ Tags:
   - "Conditionals"
   - "Control Flow"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A `switch` statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.

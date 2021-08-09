@@ -8,8 +8,8 @@ Tags:
   - "Elements"
   - "Properties"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 CSS transitions provide a way to control an animation's speed and timing of the property changes. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. 

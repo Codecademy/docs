@@ -7,8 +7,8 @@ Tags:
   - "Data Types"
   - "Hashes"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 A collection of key-value pairs enclosed within curly braces. Values are assigned to keys using the `=>` syntax.

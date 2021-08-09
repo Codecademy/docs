@@ -7,8 +7,8 @@ Tags:
   - "Elements"
   - "Web Development"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.

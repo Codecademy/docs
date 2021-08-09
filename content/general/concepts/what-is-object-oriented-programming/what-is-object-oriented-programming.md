@@ -11,9 +11,9 @@ Tags:
   - "Encapsulation"
   - "Classes"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 _Object-oriented programming_ (OOP) is a software development paradigm which encourages scultping desired entities with properties and methods in named classes to create applications. 

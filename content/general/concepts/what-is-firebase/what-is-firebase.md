@@ -8,8 +8,8 @@ Tags:
   - "APIs"
   - "Developer Tools"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 [Firebase](https://firebase.google.com/) is a cloud computing and app development platform hosted by Google.

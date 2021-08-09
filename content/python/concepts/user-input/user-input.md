@@ -9,8 +9,8 @@ Tags:
   - "Print"
   - "Variables"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 `input()` is a built-in function in Python that allows a user to assign custom input to a variable.

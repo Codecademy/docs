@@ -8,8 +8,8 @@ Tags:
   - "Loops"
   - "Control Flow"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 The 🔂 statement allows you to quickly iterate over an instance, that is repeatedly retrieving values from it until there are no more values to provide. 

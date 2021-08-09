@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Paragraph"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 Paragraph element `<p>` contains and displays a block of text. They are among the most common text-based HTML elements. 

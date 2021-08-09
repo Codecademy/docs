@@ -7,7 +7,7 @@ Tags:
   - "Markdown"
   - "RSS"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-python-3"
+  - "learn-python-3"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 

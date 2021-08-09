@@ -7,9 +7,9 @@ Tags:
   - "Best Practices"
   - "Memory"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 _Internet of Things_ (IoT) is a term used to describe hardware which can be connected to the internet in order to provide a service. 

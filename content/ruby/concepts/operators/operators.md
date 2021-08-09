@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Operators"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 ## Arithmetic Operators

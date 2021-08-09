@@ -7,8 +7,8 @@ Tags:
   - "Strings"
   - "Data Types"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `Scanner` class is used to get user input, and it is found in the `java.util` package.

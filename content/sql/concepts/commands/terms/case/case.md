@@ -11,9 +11,9 @@ Tags:
   - "MySQL"
   - "SQLite"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+  - "learn-sql"
+  - "analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 ## Definition 

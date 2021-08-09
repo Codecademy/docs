@@ -12,8 +12,8 @@ Tags:
   - "Tensorflow"
   - "Keras"
 CatalogContent:
-  - "https://www.codecademy.com/learn/machine-learning"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "machine-learning"
+  - "paths/data-science"
 ---
 
 Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.

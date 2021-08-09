@@ -7,9 +7,9 @@ Tags:
   - "Best Practices"
   - "Memory"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 Binary is a number system of 1's and 0's which serves as a textual representation method for giving instructions to a computers CPU. 

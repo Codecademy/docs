@@ -8,9 +8,9 @@ Tags:
   - "Parameters"
   - "Arguments"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-php"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 Functions are blocks of code that can be repeatedly called by other code when it executes.
 A function is not called when it is defined, but only when another part of the code executes the function.

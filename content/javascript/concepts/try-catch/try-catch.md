@@ -11,8 +11,8 @@ Tags:
   - "Errors"
   - "Exceptions"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `try...catch...finally` statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception, 

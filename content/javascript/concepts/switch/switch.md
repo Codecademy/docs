@@ -8,8 +8,8 @@ Tags:
   - "Control Flow"
   - "Comparison"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `switch` statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. The `switch` block contains any number of `case` statements marking code to execute based on values returned by the expression, and an optional `default` statement marking code that executes if none of the `case` statements are true.

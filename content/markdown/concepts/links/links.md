@@ -8,8 +8,8 @@ Tags:
   - "GitHub"
   - "Documentation"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 To create a link, enclose the link alt text in square brackets `[Alt text]` and then follow it immediately with the URL in parentheses `(https://website-name.com)`.

@@ -8,8 +8,8 @@ Tags:
   - "Files"
   - "URL"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 A file path describes the location of a file in a web site's folder structure. They are used to link to external files, like:

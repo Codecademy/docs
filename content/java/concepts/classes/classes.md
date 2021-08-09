@@ -10,8 +10,8 @@ Tags:
   - "Methods"
   - "OOP"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A _class_ is a blueprint or a template for the object. Blueprints detail the general structure (information and behavior about an object.

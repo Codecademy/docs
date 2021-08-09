@@ -7,9 +7,9 @@ Tags:
   - "Comments"
   - "Documentation"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-php"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 Comments are text placed inside code that is not executed. They are intended as documentation or explanation of the code they are a part of.

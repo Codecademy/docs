@@ -8,8 +8,8 @@ Tags:
   - "Strings"
   - "Methods"
 CatalogContent:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "introduction-to-javascript"
+  - "paths/web-development"
 ---
 
 ## Definition

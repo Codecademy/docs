@@ -9,8 +9,8 @@ Tags:
   - "Tags"
   - "URL"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 IFrame (Inline Frame) is an HTML document embedded inside another HTML document on a website. It provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. 

@@ -8,9 +8,9 @@ Tags:
   - "While"
   - "For"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-php"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 A loop allows a block of code to repeat some number of times. 

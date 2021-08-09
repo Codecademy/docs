@@ -7,8 +7,8 @@ Tags:
   - "Animation"
   - "Elements"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-css"
+  - "paths/web-development"
 ---
 
 A CSS animation lets a HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.

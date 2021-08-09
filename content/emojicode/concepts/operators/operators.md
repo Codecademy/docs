@@ -6,8 +6,8 @@ Tags:
   - "Operators"
   - "Arithmetic"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 ## Arithmetic Operations

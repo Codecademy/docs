@@ -7,8 +7,8 @@ Tags:
   - "Methods"
   - "Functions"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Functions are a set of instructions that return one value. Functions that exist in an object are typically called methods.

@@ -7,7 +7,7 @@ Tags:
   - "OOP"
   - "Middleware"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
+  - "learn-c-plus-plus"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---
 

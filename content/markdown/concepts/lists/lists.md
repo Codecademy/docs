@@ -8,8 +8,8 @@ Tags:
   - "Documentation"
   - "GitHub"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 In Markdown, items can be organized into ordered and unordered lists.

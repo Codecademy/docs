@@ -8,8 +8,8 @@ Tags:
   - "Print"
   - "Strings"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 We write Emojicode programs in files with the extension **.emojic** or **.🍇**.

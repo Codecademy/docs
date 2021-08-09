@@ -7,8 +7,8 @@ Tags:
   - "Methods"
   - "Promise"
 CatalogContent:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 ## Definition

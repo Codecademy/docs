@@ -8,9 +8,9 @@ Tags:
   - "Methods"
   - "Constants"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 Python has a built-in `math` module that we can use for mathematical tasks. This module provides access to the mathematical functions defined by the C standard.

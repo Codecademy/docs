@@ -8,9 +8,9 @@ Tags:
   - "Strings"
   - "Methods"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/data-science"
+  - "paths/computer-science"
 ---
 
 ## Definition

@@ -9,9 +9,9 @@ Tags:
   - "MySQL"
   - "PostgreSQL"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 A window function performs a calculation over the inputted column and then returns the calculated value for each row. Window functions can be identified by their use of the `OVER` clause.

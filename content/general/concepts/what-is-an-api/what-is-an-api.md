@@ -9,8 +9,8 @@ Tags:
   - "Dependency"
   - "Interface"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 API stands for Application Programing Interface and is a term used to describe specifications that allow applications to communicate with one another. 

@@ -8,8 +8,8 @@ Tags:
   - "Functions"
   - "Elements"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 The Flexible Box Layout, commonly known as *Flexbox*, is a new layout model that allows responsive elements within a container to be automatically arranged depending upon the screen size.

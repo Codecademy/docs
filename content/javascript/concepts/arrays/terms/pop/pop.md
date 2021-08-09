@@ -8,8 +8,8 @@ Tags:
   - "Arrays"
   - "Methods"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-javascript"
+  - "paths/web-development"
 ---
 
 ## Definition

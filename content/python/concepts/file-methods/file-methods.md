@@ -7,8 +7,8 @@ Tags:
   - "Files"
   - "Methods"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk).

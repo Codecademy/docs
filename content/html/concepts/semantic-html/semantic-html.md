@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Semantic"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 Semantic HTML introduces meaning to the code we write. 

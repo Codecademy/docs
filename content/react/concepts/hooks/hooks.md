@@ -6,8 +6,8 @@ Tags:
   - "Functions"
   - "React"
 CatalogContent:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "react-101"
+  - "paths/web-development"
 ---
 
 In React, hooks are functions that give function components class-like abilities. These abilities include:

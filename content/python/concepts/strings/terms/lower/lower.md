@@ -9,8 +9,8 @@ Tags:
   - "Methods"
   - "Functions"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 ## Definition 

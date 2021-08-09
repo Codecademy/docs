@@ -7,8 +7,8 @@ Tags:
   - "Vectors"
   - "Arrays"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A vector is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.

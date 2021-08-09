@@ -10,8 +10,8 @@ Tags:
   - "Try"
   - "Catch"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 When JavaScript throws an error it throws an error object that consists of a `name` and a `message` property. The `name` is the general type of the error, and the `message` is a human readable description of the specific error that happened.
 

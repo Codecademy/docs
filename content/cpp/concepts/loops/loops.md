@@ -8,8 +8,8 @@ Tags:
   - "While"
   - "For"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 ## While Loop

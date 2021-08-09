@@ -8,8 +8,8 @@ Tags:
   - "Print"
   - "Variables"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 `std::cin`, which stands for “character input”, reads user input from the keyboard.

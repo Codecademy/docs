@@ -11,8 +11,8 @@ Tags:
   - "Data Types"
   - "Variables"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 _Conditionals_ take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.

@@ -10,9 +10,9 @@ Tags:
   - "Foreign Key"
   - "Index"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "paths/design-databases-with-postgresql"
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 A database index is a data structure that improves the speed of data retrieval in the database. 

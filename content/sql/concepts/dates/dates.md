@@ -7,9 +7,9 @@ Tags:
   - "Dates"
   - "Documentation"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "learn-sql"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Dates in SQL are often written in the following format:

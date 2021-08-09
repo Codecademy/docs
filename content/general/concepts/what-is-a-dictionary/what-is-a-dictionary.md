@@ -8,8 +8,8 @@ Tags:
   - "Data Types"
   - "Data Structures"
 CatalogContent:  
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A dictionary is an unordered set of (key, value) pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys.

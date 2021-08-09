@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Database"
 CatalogContent:
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/data-science"
+  - "paths/design-databases-with-postgresql"
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.  

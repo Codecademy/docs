@@ -7,8 +7,8 @@ Tags:
   - "Errors"
   - "Exceptions"
 CatalogContent: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions.

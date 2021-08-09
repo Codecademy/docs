@@ -9,8 +9,8 @@ Tags:
   - "Methods"
   - "Files"
 CatalogContent:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them. 
