@@ -1,10 +1,12 @@
 ---
-Title: "rgba"
-Description: "Defines the color value by providing three comma separated values along with an optional fourth value. The first value represents the red value, the second represents the green value, and the third represents the blue value. The optional fourth value represents the alpha value, the transparency of a color."
+Title: "rgba()"
+Description: "Defines the color by providing the red value, the green value, the blue value, and an optional alpha value, the transparency of a color."
 Subjects:
-  - "Color"
+  - "Web Development"
+  - "Web Design"
 Tags:
   - "Color"
+  - "Functions"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
