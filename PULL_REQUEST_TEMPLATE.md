@@ -23,7 +23,7 @@ Please delete options that are not relevant.
 
 ---
 
-#### Codecademy Contributor Agreement
+### Codecademy Contributor Agreement
 
 As a Codecademy Contributor, by submitting any "Asset" to Codecademy via GitHub, you agree to the terms of this "Contributor Agreement":
 
