@@ -21,6 +21,8 @@ Please delete options that are not relevant.
 - [ ] I have checked my entry and corrected any misspellings
 - [ ] All writings are my own
 
+---
+
 #### Codecademy Contributor Agreement
 
 As a Codecademy Contributor, by submitting any “Asset” to Codecademy via GitHub, you agree to the terms of this “Contributor Agreement”:
