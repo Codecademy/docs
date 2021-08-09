@@ -45,10 +45,9 @@ To see a component’s `props` object, you use the expression `this.props`. Here
 
 ```jsx
 render() { 
+  // Printing the props object
   console.log(this.props);
- 
-  console.log("That was my props object!");
- 
+  
   return <h1>Hello world</h1>;
 }
 ```
