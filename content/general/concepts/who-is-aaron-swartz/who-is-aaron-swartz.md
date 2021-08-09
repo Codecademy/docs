@@ -8,7 +8,7 @@ Tags:
   - "RSS"
 CatalogContent:
   - "learn-python-3"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+  - "paths/code-foundations"
 ---
 
 Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py. 

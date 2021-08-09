@@ -8,8 +8,8 @@ Tags:
   - "HTTP"
   - "HTML"
 CatalogContent:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Nicholas Cole Romano is an avid PC gamer, photo/GIF editor, and a Project Manager at Codecademy. He currently resides in the countryside with a handful of French Bulldogs and makes hot sauces from the peppers that he grows in the backyard.

@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Errors"
 CatalogContent:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Grace Hopper was an American computer scientist who led a decorated career in the United States Navy, becoming one of the first female rear admirals in U.S. history.

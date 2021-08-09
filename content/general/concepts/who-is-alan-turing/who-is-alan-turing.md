@@ -6,8 +6,8 @@ Subjects:
 Tags:
   - "Artificial Intelligence"
 CatalogContent:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Alan Turing (1912-1954) was an English mathematician and computer scientist best known for his work on algorithms, computation, and creating the foundations of theoretical computer science through the development of the Turing machine.
