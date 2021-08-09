@@ -9,9 +9,9 @@ Tags:
   - "HTTP"
   - "Queries"
   - "Requests"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 ## Definition 

@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Properties"
   - "Elements"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 The `overflow` property controls what happens to content that spills, or overflows, outside its box. 

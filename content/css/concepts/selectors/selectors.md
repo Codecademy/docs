@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Selectors"
   - "Elements"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 CSS selectors are used to "find" (or select) the HTML elements you want to style.

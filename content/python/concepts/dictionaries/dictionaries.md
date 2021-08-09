@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Dictionaries"
   - "Data Types"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A dictionary is an ordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don't have to be.

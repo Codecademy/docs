@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Headings"
   - "Semantic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website:

@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 Arrays are lists of ordered, stored data. They can hold items that are of any data type. Arrays are created by using square brackets, with individual elements separated by commas.

@@ -7,9 +7,9 @@ Subjects:
 Tags:
   - "Arrays"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
 ---
 
 ## Definition

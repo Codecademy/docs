@@ -15,9 +15,9 @@ Tags:
   - "Grid"
   - "Responsive"
   - "Style"
-Catalog Content:
-  -  "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  -  "paths/web-development"
+  - "paths/computer-science"
 ---
 
 [Bootstrap](https://getbootstrap.com/) is an open source CSS framework created to help style web pages with mobile first considerations in mind. It was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. 

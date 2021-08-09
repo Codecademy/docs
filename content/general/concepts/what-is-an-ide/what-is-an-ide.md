@@ -9,7 +9,7 @@ Tags:
   - "Xcode"
   - "Android"
   - "Code Editors"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/articles/what-is-an-ide"
 ---
 

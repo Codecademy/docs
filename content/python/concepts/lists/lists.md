@@ -10,10 +10,10 @@ Tags:
   - "Objects"
   - "Data Structures"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 A list in Python is a data type used to store a collection of objects. 

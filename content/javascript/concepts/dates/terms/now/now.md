@@ -7,9 +7,9 @@ Subjects:
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/web-development"
 ---
 
 ## Definition

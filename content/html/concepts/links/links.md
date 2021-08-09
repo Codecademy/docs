@@ -8,9 +8,9 @@ Tags:
   - "Link"
   - "Tags"
   - "URL"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 The anchor element `<a>` is used to link to another page or to a certain part of the page if you use its `id`. And the `<link>` element defines a link between a document and an external resource. 

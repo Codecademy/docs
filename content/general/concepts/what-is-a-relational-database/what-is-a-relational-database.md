@@ -11,10 +11,10 @@ Tags:
   - "MySQL"
   - "PostgreSQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "paths/design-databases-with-postgresql"
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 A relational database is a store of data organized in tables made of columns and rows, and the relationships between those tables. 

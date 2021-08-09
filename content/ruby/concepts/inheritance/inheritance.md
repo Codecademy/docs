@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Classes"
   - "Inheritance"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, inheritance describes the relation between classes. 

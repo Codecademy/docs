@@ -8,9 +8,9 @@ Tags:
   - "For"
   - "While"
   - "Control Flow"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 ## `for`-`in` Loop

@@ -8,9 +8,9 @@ Tags:
   - "Data Types"
   - "Arrays"
   - "Lists"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 🍯, or dictionary or hash map in other languages, is an ordered set of value pairs:

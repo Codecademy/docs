@@ -8,9 +8,9 @@ Tags:
   - "Command Line"
   - "Bash/Shell"
   - "Git"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-the-command-line"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-the-command-line"
+  - "paths/computer-science"
 ---
 
 A terminal is a program which allows programmers to type commands directly to the internal CPU or another network device. It is a no-frills program where a user simply inputs text, as opposed to a graphical user interface (GUI) where a user interacts with windows, buttons, and icons.

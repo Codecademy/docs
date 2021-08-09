@@ -8,9 +8,9 @@ Tags:
   - "Objects"
   - "OOP"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 In JavaScript methods are object properties containing a function definition. Within the function definition, `this` can be used to refer to the containing object as long as the function is defined within the object. 

@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Git"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+CatalogContent:
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 Pull Requests (PRs) are used to recommend the merging of code from one branch into a different branch. PRs are a core tool in open-source software development as it allows developers to proposes changes to large, open-source codebases.

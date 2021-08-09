@@ -8,10 +8,10 @@ Tags:
   - "Integers"
   - "Booleans"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are seven fundamental data types:

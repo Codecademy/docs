@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Data Structures"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 Arrays in Swift are one of the most widely used data structures. An array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a `String` in an `int` array.

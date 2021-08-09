@@ -7,9 +7,9 @@ Tags:
   - "Quotes"
   - "Documentation"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 _Blockquotes_ indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.

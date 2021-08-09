@@ -6,9 +6,9 @@ Tags:
   - "Loops"
   - "While"
   - "For"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 ## While Loop

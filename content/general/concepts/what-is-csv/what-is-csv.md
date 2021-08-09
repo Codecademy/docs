@@ -5,9 +5,9 @@ Subjects:
   - "Data Science"
 Tags:
   - "Files"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 Comma-Seperated Values (CSV) is a text file format where individual values are seperated by commas. It is normally used to store tabular data and is favored for its simple structure allowing for straightforward parsing and data exchange.

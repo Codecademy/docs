@@ -8,9 +8,9 @@ Tags:
   - "Memory"
   - "Algorithms"
   - "Queries"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 A _cache_ is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. 

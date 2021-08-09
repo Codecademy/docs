@@ -7,9 +7,9 @@ Tags:
   - "Attributes"
   - "Classes"
   - "Style"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. 

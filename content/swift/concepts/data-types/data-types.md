@@ -8,9 +8,9 @@ Tags:
   - "Booleans"
   - "Integers"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. 

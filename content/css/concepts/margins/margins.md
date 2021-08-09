@@ -8,9 +8,9 @@ Tags:
   - "Box Model"
   - "Properties"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space.

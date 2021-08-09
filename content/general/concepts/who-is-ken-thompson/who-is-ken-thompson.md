@@ -5,9 +5,9 @@ Subjects:
   - "Code Foundations"
 Tags:
   - "Unix"
-Catalog Content:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Ken Thompson is an American computer scientist, known for creating many significant works in the field, such as the Unix and Plan 9 operating systems, the B (1969) and Go (2019) programming languages, the `grep` command line utility, and UTF-8 encoding.

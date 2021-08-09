@@ -7,9 +7,9 @@ Tags:
   - "Strings"
   - "Characters"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Strings are objects that represent sequences of characters. In C++, there are two ways to create strings: `string` class or using C-style character strings.

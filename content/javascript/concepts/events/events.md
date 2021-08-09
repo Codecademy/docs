@@ -7,9 +7,9 @@ Tags:
   - "Events"
   - "Functions"
   - "HTML"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 Events are things that happen in HTML objects that can trigger scripting code. JavaScript can be executed by events in HTML via two methods:

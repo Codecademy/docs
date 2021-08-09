@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 ## Definition
