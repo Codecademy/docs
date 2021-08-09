@@ -1,3 +1,5 @@
+Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom. And edit the portion above the horizontal line!
+
 ### Description
 
 Please include a summary of the change, such as which topic(s) and file(s). Please also include relevant motivation and context:
@@ -6,7 +8,7 @@ Please include a summary of the change, such as which topic(s) and file(s). Plea
 
 ### Type of Change
 
-Please delete options that are not relevant.
+Please check the boxes that are revelant to this PR:
 
 - [ ] Adding a new entry
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)

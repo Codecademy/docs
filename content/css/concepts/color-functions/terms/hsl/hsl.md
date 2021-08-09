@@ -1,10 +1,12 @@
 ---
-Title: "hsl"
-Description: "Defines the color value by providing three comma separated values. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value."
+Title: "hsl()"
+Description: "Defines the color by providing the hue value, saturation value, and the luminance value."
 Subjects:
-  - "Color"
+  - "Web Development"
+  - "Web Design"
 Tags:
   - "Color"
+  - "Functions"
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
