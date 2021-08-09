@@ -47,7 +47,7 @@ The date constructor can take several different parameters to create a new Date 
 
 `var d = new Date(dateString);`
 
-- `dateString`> creates a `Date` object based on converting the sting to a date value.
+- `dateString` creates a `Date` object based on converting the sting to a date value.
 
 `var d = new Date(year, month, day, hour, minute, second, millisecond);`
 
