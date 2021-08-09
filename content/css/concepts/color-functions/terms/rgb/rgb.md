@@ -1,10 +1,12 @@
 ---
-Title: "rgb"
-Description: "Defines the color value by providing three comma separated values. The first value represents the red value, the second represents the green value, and the third represents the blue value."
+Title: "rgb()"
+Description: "Defines the color by providing the red value, the green value, and the blue value."
 Subjects:
-  - "Color"
+  - "Web Development"
+  - "Web Design"
 Tags:
   - "Color"
+  - "Functions"
 Catalog Content:
   - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
