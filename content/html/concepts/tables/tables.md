@@ -6,7 +6,7 @@ Tags:
   - "Tables"
   - "Elements"
   - "Web Development"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

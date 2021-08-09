@@ -6,7 +6,7 @@ Subjects:
 Tags: 
   - "Functions"
   - "Arithmetic"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-sql"
   - "https://www.codecademy.com/learn/paths/data-science"
   - "https://www.codecademy.com/learn/paths/computer-science"

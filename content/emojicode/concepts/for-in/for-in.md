@@ -7,7 +7,7 @@ Tags:
   - "For"
   - "Loops"
   - "Control Flow"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-emojicode"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

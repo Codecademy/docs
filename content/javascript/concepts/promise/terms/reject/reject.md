@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---

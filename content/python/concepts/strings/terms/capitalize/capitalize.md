@@ -8,7 +8,7 @@ Tags:
   - "Strings"
   - "Methods"
   - "Functions"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
 ---

@@ -7,7 +7,7 @@ Tags:
   - "Events"
   - "Functions"
   - "HTML"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
 ---

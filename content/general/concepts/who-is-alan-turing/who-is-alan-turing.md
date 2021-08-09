@@ -5,7 +5,7 @@ Subjects:
   - "Code Foundations"
 Tags:
   - "Artificial Intelligence"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/catalog/subject/computer-science"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---

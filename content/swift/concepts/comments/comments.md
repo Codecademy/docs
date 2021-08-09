@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - "Comments"
   - "Documentation"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-swift"
   - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
 ---

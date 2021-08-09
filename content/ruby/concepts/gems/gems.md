@@ -5,7 +5,7 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Libraries"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-ruby"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - "Accessibility"
   - "Video"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

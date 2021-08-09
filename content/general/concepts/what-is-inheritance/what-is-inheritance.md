@@ -7,7 +7,7 @@ Tags:
   - "Inheritance"
   - "OOP"
   - "Objects"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/learn/learn-python-3/"
   - "https://www.codecademy.com/learn/learn-c-plus-plus"
   - "https://www.codecademy.com/learn/learn-java/"

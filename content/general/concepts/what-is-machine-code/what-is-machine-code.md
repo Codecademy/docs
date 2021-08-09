@@ -5,7 +5,7 @@ Subjects:
   - "Web Development"
 Tags:
   - "Memory"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/code-foundations"
   - "https://www.codecademy.com/learn/paths/computer-science"
   - "https://www.codecademy.com/learn/paths/web-development"

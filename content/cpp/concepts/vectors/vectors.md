@@ -6,7 +6,7 @@ Subjects:
 Tags: 
   - "Vectors"
   - "Arrays"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-c-plus-plus"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

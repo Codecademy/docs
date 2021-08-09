@@ -7,7 +7,7 @@ Tags:
   - "Lists"
   - "Documentation"
   - "GitHub"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

@@ -7,7 +7,7 @@ Tags:
   - "Functions"
   - "Elements"
   - "Properties"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-csss"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

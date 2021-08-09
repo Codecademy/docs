@@ -5,7 +5,7 @@ Subjects:
   - "Data Science"
 Tags:
   - "Database"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
   - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
   - "https://www.codecademy.com/learn/paths/data-science"

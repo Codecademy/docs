@@ -7,7 +7,7 @@ Tags:
   - "Firebase"
   - "APIs"
   - "Developer Tools"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

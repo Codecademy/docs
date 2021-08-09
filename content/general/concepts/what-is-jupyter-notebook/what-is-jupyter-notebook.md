@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - "Code Editors"
   - "IDE"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/data-analyst"
   - "https://www.codecademy.com/learn/paths/data-science"
 ---

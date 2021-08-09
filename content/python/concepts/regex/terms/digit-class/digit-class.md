@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - "Strings"
   - "Regular Expressions"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/introduction-to-regular-expressions"
   - "https://www.codecademy.com/learn/practical-data-cleaning"
   - "https://www.codecademy.com/learn/language-parsing"

@@ -6,7 +6,7 @@ Subjects:
 Tags: 
   - "Git"
   - "GitHub"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-git"
   - "https://www.codecademy.com/learn/learn-the-command-line"
 ---

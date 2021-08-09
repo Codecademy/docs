@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - "Methods"
   - "Functions"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-ruby"
   - "https://www.codecademy.com/learn/learn-rails"
 ---

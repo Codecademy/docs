@@ -11,7 +11,7 @@ Tags:
   - "Scikit-learn"
   - "Tensorflow"
   - "Keras"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/machine-learning"
   - "https://www.codecademy.com/learn/paths/data-science"
 ---

@@ -7,7 +7,7 @@ Tags:
   - "World Wide Web"
   - "HTTP"
   - "HTML"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/catalog/subject/computer-science"
   - "https://www.codecademy.com/catalog/subject/code-foundations"
 ---

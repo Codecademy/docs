@@ -6,7 +6,7 @@ Subjects:
 Tags: 
   - "Dictionaries"
   - "Data Types"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/learn/learn-python-3"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

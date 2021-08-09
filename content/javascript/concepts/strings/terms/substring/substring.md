@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 

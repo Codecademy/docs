@@ -5,7 +5,7 @@ Subjects:
   - "Web Design"
 Tags:
   - "Semantic"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-html"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

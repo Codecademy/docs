@@ -8,7 +8,7 @@ Tags:
   - "Errors"
   - "Debugging"
   - "Best Practices"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/paths/computer-science"
   - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/data-science"

@@ -7,7 +7,7 @@ Tags:
   - "Loops"
   - "While"
   - "For"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-php"
   - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/computer-science"

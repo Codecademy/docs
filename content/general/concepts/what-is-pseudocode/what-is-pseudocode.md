@@ -7,7 +7,7 @@ Tags:
   - "Conceptual"
   - "Documentation"
   - "Development"
-Catalog Content: 
+CatalogContent: 
   - "https://www.codecademy.com/learn/paths/code-foundations"
   - "https://www.codecademy.com/learn/learn-how-to-code"
 ---

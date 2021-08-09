@@ -9,7 +9,7 @@ Tags:
   - "Node"
   - "NPM"
   - "Packages"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-node-js"
   - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
 ---

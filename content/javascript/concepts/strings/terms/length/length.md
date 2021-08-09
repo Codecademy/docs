@@ -8,7 +8,7 @@ Tags:
   - "Strings"
   - "Properties"
   - "Methods"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/introduction-to-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---

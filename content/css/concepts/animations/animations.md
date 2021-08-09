@@ -6,8 +6,8 @@ Subjects:
 Tags: 
   - "Animation"
   - "Elements"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
+CatalogContent:
+  - "https://www.codecademy.com/learn/learn-css"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 

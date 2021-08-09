@@ -8,7 +8,7 @@ Tags:
   - "Command Line"
   - "Bash/Shell"
   - "Git"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-the-command-line"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

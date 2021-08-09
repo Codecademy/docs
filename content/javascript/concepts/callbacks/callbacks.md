@@ -5,7 +5,7 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Functions"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-javascript"
   - "https://www.codecademy.com/learn/paths/web-development"
   - "https://www.codecademy.com/learn/paths/computer-science"

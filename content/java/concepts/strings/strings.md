@@ -6,7 +6,7 @@ Tags:
   - "Strings"
   - "Data Types"
   - "Characters"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/learn-java"
   - "https://www.codecademy.com/learn/paths/computer-science"
 ---

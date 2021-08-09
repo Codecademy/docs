@@ -7,7 +7,7 @@ Tags:
   - "Version Control" 
   - "Developer Tools"
   - "Git"
-Catalog Content:  
+CatalogContent:  
   - "https://www.codecademy.com/learn/learn-git"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
