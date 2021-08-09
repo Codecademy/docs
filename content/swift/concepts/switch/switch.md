@@ -7,9 +7,9 @@ Tags:
   - "Switch"
   - "Control Flow"
   - "Variables"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The `switch` statement is a type of conditional used to check the value of an expression against multiple cases. 

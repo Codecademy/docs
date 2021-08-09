@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Git"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+CatalogContent:
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, pushing is the process of moving code from one repository to another one. Often this is used to move code from a local machine to a remote one, or to a repository hosting service like GitHub.

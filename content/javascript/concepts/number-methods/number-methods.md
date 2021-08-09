@@ -7,10 +7,10 @@ Tags:
   - "Numbers"
   - "Methods"
   - "Integers"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 JavaScript treats primitive values as objects when executing methods and properties. 

@@ -7,10 +7,10 @@ Tags:
   - "SQLite"
   - "MySQL"
   - "PostgreSQL"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 Indexes are specialized data structures that organize a table ahead of time to improve the speed of database searches. This is accomplished through a balanced tree structure that allows the server to only search a subset of relevant rows instead of every row sequentially.

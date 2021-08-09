@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Forms"
   - "Paragraphs"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 The HTML `<form>` element is used to collect and send information to an external source.

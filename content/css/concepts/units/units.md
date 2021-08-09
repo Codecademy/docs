@@ -7,10 +7,10 @@ Tags:
   - "Units"
   - "Responsive"
   - "Style"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 CSS uses units to measure the values of various properties in a stylesheet. The two main types of units are absolute units and relative units.

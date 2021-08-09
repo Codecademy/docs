@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Git"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+CatalogContent:
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, `init` is used to initiate the process of creating a repository. When beginning a new project, in order to track changes to the code throughout all files and folders, this is the first step to doing so. 

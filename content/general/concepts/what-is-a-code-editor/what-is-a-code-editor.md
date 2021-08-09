@@ -7,7 +7,7 @@ Subjects:
 Tags: 
   - "Code Editors"
   - "IDE"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
+CatalogContent:  # If listing multiple URLs, please put the most relevant one first 
   - "https://www.codecademy.com/articles/text-editor"
 ---
 

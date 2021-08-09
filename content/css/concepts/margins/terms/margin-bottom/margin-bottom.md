@@ -8,10 +8,10 @@ Tags:
   - "Margin"
   - "Box Model"
   - "Positioning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 ## Definition

@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Comments"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-sql"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 SQL tables sometimes has a column that uniquely identifies each row of that table. These special columns are called *primary keys*.

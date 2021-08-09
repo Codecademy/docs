@@ -11,10 +11,10 @@ Tags:
   - "SQLite"
   - "MySQL"
   - "PostgreSQL"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 SQL operators are unique keywords used in the `WHERE` clause of a statement to perform arithmetic, comparison, and logical operations. 

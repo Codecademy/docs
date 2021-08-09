@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "OOP"
   - "Middleware"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/code-foundations"
 ---
 
 [Bjarne Stroustrup](https://www.stroustrup.com) is a Danish computer scientist and designer of the programming language C++, an extension of the C programming language.

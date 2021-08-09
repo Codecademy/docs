@@ -9,9 +9,9 @@ Tags:
   - "Dictionary"
   - "Hash Maps"
   - "OOP"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 A hash table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a hash table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash tables have fast search, insertion and delete operations.

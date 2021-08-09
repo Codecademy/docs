@@ -7,9 +7,9 @@ Tags:
   - "Modules"
   - "APIs"
   - "Strings"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `requests` module is the de facto standard for sending HTTP requests in Python. 

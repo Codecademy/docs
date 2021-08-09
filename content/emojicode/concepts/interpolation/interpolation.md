@@ -7,9 +7,9 @@ Tags:
   - "Interpolation"
   - "Strings"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 *String interpolation* can be used to construct a string from a mix of constants, variables, and others by including their values inside a string literal.

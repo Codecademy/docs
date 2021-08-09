@@ -7,9 +7,9 @@ Tags:
   - "Objects"
   - "OOP"
   - "Classes"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data.

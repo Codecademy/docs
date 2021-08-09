@@ -6,9 +6,9 @@ Tags:
   - "Arithmetic"
   - "Methods"
   - "For"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The Java `Math` class provides several methods that allows us to work on math calculations with numbers.

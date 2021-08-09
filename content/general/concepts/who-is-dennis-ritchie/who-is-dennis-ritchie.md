@@ -5,9 +5,9 @@ Subjects:
   - "Code Foundations"
 Tags:
   - "Unix"
-Catalog Content:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Dennis Ritchie was an American computer scientist, the creator of the computer programming language C, and co-creator of the Unix operating system.

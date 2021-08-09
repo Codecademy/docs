@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Comments"
   - "Documenation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.

@@ -6,9 +6,9 @@ Tags:
   - "Conceptual"
   - "DOM"
   - "React"
-Catalog Content:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "react-101"
+  - "paths/web-development"
 ---
 
 In React, Virtual DOM is a conceptual representation of the actual DOM object, like a lightweight copy. A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing’s power to directly change what’s on the screen.

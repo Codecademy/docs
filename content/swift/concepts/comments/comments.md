@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Comments"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 Comments in represent text that is useful to the programmer or developement team. Think of them as notes or reminders to yourself of important concepts or ideas that need a little explaining above the syntax of the raw code. 

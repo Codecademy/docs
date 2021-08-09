@@ -7,9 +7,9 @@ Tags:
   - "Grid"
   - "Elements"
   - "Properties"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-csss"
+  - "paths/web-development"
 ---
 
 CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. This layout system makes it easier to design and fine-tune the layout of web pages without having to use positioning and floats.

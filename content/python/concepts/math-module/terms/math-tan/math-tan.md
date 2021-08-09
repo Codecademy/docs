@@ -7,9 +7,9 @@ Subjects:
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 ## Definition

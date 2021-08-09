@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Data Types"
   - "Variables"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 In Swift, a _set_ is used to store unique elements of the same data type.

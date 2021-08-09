@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Git"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/learn-the-command-line"
+CatalogContent:
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, pulling is the process of moving code from one repository to another one. Often this is used to move code from a remote machine to a local one, or retrieving code from a repository hosting service like GitHub.

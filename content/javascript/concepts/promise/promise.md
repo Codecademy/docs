@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Promise"
   - "Objects"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 A JavaScript `Promise` is an object that can be used to get the outcome of an asynchronous operation when that result is not instantly available.

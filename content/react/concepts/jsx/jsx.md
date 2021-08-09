@@ -6,9 +6,9 @@ Tags:
   - "DOM"
   - "React"
   - "Syntax"
-Catalog Content:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "react-101"
+  - "paths/web-development"
 ---
 
 JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. It's used to create DOM elements which are then rendered in the React DOM.

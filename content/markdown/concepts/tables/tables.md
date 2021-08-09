@@ -7,9 +7,9 @@ Tags:
   - "Tables"
   - "Documentation"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 A table is an arrangement of data in rows and columns.

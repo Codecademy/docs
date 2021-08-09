@@ -7,9 +7,9 @@ Tags:
   - "While"
   - "Loops"
   - "Control Flow"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 🔁 repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped.

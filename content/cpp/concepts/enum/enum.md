@@ -10,9 +10,9 @@ Tags:
   - "Vectors"
   - "Pointers"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 

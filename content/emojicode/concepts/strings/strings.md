@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Strings"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 _Strings_ are words or pieces of text that the computer treats as a single item. They provide a way to store something like a word, sentence, or whole paragraph. 

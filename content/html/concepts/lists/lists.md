@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Lists"
   - "Paragraphs"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 The `<li>` list item element create list items inside:

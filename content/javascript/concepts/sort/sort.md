@@ -7,10 +7,10 @@ Tags:
   - "Arrays"
   - "Methods"
   
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-javascript"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. 

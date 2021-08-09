@@ -7,9 +7,9 @@ Tags:
   - "Libraries"
   - "HTTP" 
   - "Developer Tools"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:  
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 Socket.IO is a JavaScript library that enables real-time, bidirectional, and event-based communication between the browser and the server. It consists of: 

@@ -9,10 +9,10 @@ Tags:
   - "MySQL"
   - "PostgreSQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "paths/design-databases-with-postgresql"
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 SQL stands for "Structured Query Language," and is the programming language implemented by a database management system (DBMS) used for managing and querying data held in a relational database. 

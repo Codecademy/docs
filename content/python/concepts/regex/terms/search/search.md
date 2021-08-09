@@ -7,11 +7,11 @@ Subjects:
 Tags:
   - "Regular Expressions"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-regular-expressions"
-  - "https://www.codecademy.com/learn/practical-data-cleaning"
-  - "https://www.codecademy.com/learn/language-parsing"
-  - "https://www.codecademy.com/learn/text-preprocessing"
+CatalogContent:
+  - "introduction-to-regular-expressions"
+  - "practical-data-cleaning"
+  - "language-parsing"
+  - "text-preprocessing"
 ---
 
 ## Definition

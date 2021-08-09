@@ -6,10 +6,10 @@ Subjects:
 Tags:
   - "Best Practices"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/web-development"
 ---
 
 Central Processing Unit (CPU) is used to describe the electrical circuitry in a computer responsible for executing instruction sets derived from programs that have been converted into machine code. 

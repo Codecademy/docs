@@ -8,10 +8,10 @@ Tags:
   - "Arithmetic"
   - "Comparison"
   - "Logical"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-php"
+  - "paths/web-development"
+  - "paths/computer-science"
 ---
 
 ## Arithmetic Operators

@@ -5,9 +5,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Regular Expressions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/web-development"
 ---
 
 In Ruby, regular expressions (shortened as regex), are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 

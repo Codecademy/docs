@@ -7,9 +7,9 @@ Tags:
   - "Syntax"
   - "Print"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 We write Emojicode programs in files with the extension **.emojic** or **.🍇**.

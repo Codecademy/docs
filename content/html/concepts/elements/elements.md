@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Elements"
   - "Attributes"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/web-development"
 ---
 
 An HTML element is a piece of content in an HTML document and uses the following syntax:

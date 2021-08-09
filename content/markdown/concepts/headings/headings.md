@@ -7,9 +7,9 @@ Tags:
   - "Markdown"
   - "Headings"
   - "GitHub"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/learn-how-to-build-websites"
+  - "paths/web-development"
 ---
 
 Headings are titles or subtitles that you want to display with markdown. There is a total of 6 different headings.

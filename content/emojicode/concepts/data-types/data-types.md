@@ -7,9 +7,9 @@ Tags:
   - "Booleans"
   - "Integers"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. 

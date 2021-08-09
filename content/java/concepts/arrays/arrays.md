@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Arrays"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 In Java, an array is used to store a list of elements of the same datatype.

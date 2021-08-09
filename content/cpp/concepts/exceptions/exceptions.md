@@ -8,9 +8,9 @@ Tags:
   - "Try"
   - "Catch"
   - "Errors"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, an exception is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
