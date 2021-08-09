@@ -109,6 +109,8 @@ Method|Description
 `.toTimeString()`|Returns the time portion stored in the `Date` object as a human-readable string.
 `.toUTCString()`|Returns the date stored in the `Date` object as a human-readable string based on UTC timezone. -->
 
+The instance methods are listed at the bottom of the page.
+
 ### Examples
 
 ```javascript
