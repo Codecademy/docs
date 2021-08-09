@@ -1,4 +1,4 @@
-Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom and edit the portion above the line!
+Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom, and edit the portion above the line!
 
 ### Description
 
