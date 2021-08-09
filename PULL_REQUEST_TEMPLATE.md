@@ -1,3 +1,5 @@
+Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom and edit the portion above the line!
+
 ### Description
 
 Please include a summary of the change, such as which topic(s) and file(s). Please also include relevant motivation and context:
