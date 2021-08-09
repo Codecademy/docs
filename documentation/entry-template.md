@@ -8,9 +8,9 @@ Tags: # Please only use Tags in the tags.md file (github.com/Codecademy/codepedi
   - "A tag"
   - "A second tag"
   - "An nth tag"
-Catalog Content: # Please use course/Path landing pages, rather than linking to individual content items. If listing multiple URLs, please put the most relevant one first
-  - "https://www.codecademy.com/example1"
-  - "https://www.codecademy.com/examplen"
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - "learn-example-course"
+  - "path/example-path"
 ---
 
 [Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
