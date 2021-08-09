@@ -1,5 +1,5 @@
 ---
-Title: "hsla"
+Title: "hsla()"
 Description: "Defines the color by providing the hue value, the saturation value, the luminance value, and an optional alpha value, which is the transparency of the color."
 Subjects:
   - "Web Development"
