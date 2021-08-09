@@ -26,13 +26,13 @@ var now = Date();
 
 console.log(now);
 // Output: Current date as a string
-// Example: Wed July 28 2021 16:47:34 GMT+0000 (Coordinated Universal Time)
+// Wed July 28 2021 16:47:34 GMT+0000 (Coordinated Universal Time)
 
 var then = new Date();
 
 console.log(then);
 // Output: Current date as a Date object
-// Example: 2021-07-28T16:47:34.616Z
+// 2021-07-28T16:47:34.616Z
 ```
 
 The date constructor can take several different parameters to create a new Date object.
