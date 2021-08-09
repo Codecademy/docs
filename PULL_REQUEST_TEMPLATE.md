@@ -25,9 +25,9 @@ Please delete options that are not relevant.
 
 #### Codecademy Contributor Agreement
 
-As a Codecademy Contributor, by submitting any “Asset” to Codecademy via GitHub, you agree to the terms of this “Contributor Agreement”:
+As a Codecademy Contributor, by submitting any "Asset" to Codecademy via GitHub, you agree to the terms of this "Contributor Agreement":
 
-**_Assets & Works for Hire._** All Assets created and submitted by you are deemed “works made for hire” as that term is defined in the United States Copyright Act and are the sole property of Codecademy. To the extent that ownership of any Asset does not by operation of law vest in Codecademy, you hereby assign to Codecademy all right, title and interest in and to the Asset, including all related intellectual property rights.
+**_Assets & Works for Hire._** All Assets created and submitted by you are deemed "works made for hire" as that term is defined in the United States Copyright Act and are the sole property of Codecademy. To the extent that ownership of any Asset does not by operation of law vest in Codecademy, you hereby assign to Codecademy all right, title and interest in and to the Asset, including all related intellectual property rights.
 
 **_Asset License._** Subject to the terms of this Contributor Agreement, Codecademy grants you a perpetual, royalty-free, nonexclusive, nontransferable, worldwide right to use the Asset provided you may not use the Asset in any way that directly competes with Codecademy.
 
