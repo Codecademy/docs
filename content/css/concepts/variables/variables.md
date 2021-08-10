@@ -21,29 +21,29 @@ CSS variables are used in two principle steps:
 
 1. Define the custom variable inside a selected element
 
-```css
-element {
-  --custom-variable: red; 
-}
-```
+    ```css
+    element {
+      --custom-variable: red; 
+    }
+    ```
 
 2. Use the `var()` function to allow `--custom-variable` to be assigned to a property in multiple elements: 
 
-```css
-elementA {
-  background-color: var(--custom-variable)
-}
+    ```css
+    elementA {
+      background-color: var(--custom-variable)
+    }
 
-.elementBWithClass {
-  background-color: var(--custom-variable)
-}
+    .elementBWithClass {
+      background-color: var(--custom-variable)
+    }
 
-#elementCWithId {
-  background-color: var(--custom-variable)
-}
-```
+    #elementCWithId {
+      background-color: var(--custom-variable)
+    }
+    ```
 
-## CSS variables and the cascade
+## CSS Variables and the Cascade
 
 CSS cascade rules makes custom variable properties inheritable. This means that any child or grandchild element can inherit that variable value. 
 
