@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Adds an item to end of the list.
+The Python list method `.append()` adds an item to end of the list.
 
 ## Syntax
 
