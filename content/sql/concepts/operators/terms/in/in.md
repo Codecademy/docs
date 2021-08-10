@@ -17,9 +17,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-
-
-Allows the user to specify multiple values in the `WHERE` clause.
+The `IN` operator allows the user to specify multiple values in the `WHERE` clause.
 
 ## Syntax
 
@@ -60,7 +58,7 @@ FROM inventory
 WHERE item_name IN ('plunger', 'soap', 'wipes');
 ```
 
-# Example 3
+## Example 3
 
 The following SQL statement selects all customers that are from the same countries as the suppliers:
 
