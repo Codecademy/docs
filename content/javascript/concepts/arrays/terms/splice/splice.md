@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Modifies array by inserting, deleting, and/or replacing array elements then returns an array of deleted elements.
 

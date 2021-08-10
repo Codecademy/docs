@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Python's `requests` module comes with a method for making a "put" request to a web server; it returns a response object.
 

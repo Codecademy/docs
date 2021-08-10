@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns _e_ raised to the power of the argument minus 1. For small magnitudes of x `expm1(x)` may be more accurate than `exp(x)-1`.
 

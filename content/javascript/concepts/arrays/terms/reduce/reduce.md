@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Combines each element of an array, using a reducer function you specify, and returns a single value.
 

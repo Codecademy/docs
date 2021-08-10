@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 

@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Iterates over an `iterableObject` of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
 

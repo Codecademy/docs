@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Tilts an element on the x-axis or both the x and y axes on a two dimensional plane.
 

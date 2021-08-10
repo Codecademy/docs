@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 Ccombine rows from different tables even if the join condition is not met.
 

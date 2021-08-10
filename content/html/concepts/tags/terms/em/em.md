@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<em>` tag represents text which is emphasized. Browsers will show the enclosed text in italics, by default.
 

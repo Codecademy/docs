@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 Returns a result set off all rows that have matching values in both tables, omits rows where match fails.
 

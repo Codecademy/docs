@@ -12,7 +12,7 @@ CatalogContent:
   - "learn-python-3"
   - "paths/analyze-data-with-python"
 ---
-## Definition 
+ 
 
 Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. 
 

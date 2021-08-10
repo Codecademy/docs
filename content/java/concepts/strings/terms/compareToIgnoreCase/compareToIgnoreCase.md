@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Compares two strings lexicographically based on the Unicode value of each character in the string while ignoring lower case and upper case differences. 
 

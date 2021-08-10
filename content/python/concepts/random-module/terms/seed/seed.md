@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Save the state of the pseudo-random number generator.
 

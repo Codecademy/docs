@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Searches a string for a given value and returns the first index if found. Returns `-1` if not found.
 

@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 Represents a section of a document which contains a longer quotation, usually spanning multiple lines. 
   

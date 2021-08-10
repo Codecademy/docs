@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 `exp()` returns the base-_e_ exponential function of the argument, which is _e_ raised to the power of the argument.
 

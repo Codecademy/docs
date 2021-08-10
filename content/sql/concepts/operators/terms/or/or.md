@@ -17,7 +17,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Filters the result set to only include rows where either condition is true.
 

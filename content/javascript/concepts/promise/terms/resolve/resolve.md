@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a new `Promise` object that turns into the value that was passed to the method.
 

@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science" 
 ---
 
-## Definition
+
 
 Returns the highest value from values given or an iterable.
 

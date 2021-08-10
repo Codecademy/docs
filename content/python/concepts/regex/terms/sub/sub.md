@@ -14,7 +14,7 @@ CatalogContent:
   - "text-preprocessing"
 ---
 
-## Definition
+
 
 Replace matching substrings with a new string for all occurrences, or a specified number. 
 

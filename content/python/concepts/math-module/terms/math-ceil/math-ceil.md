@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Takes in a numeric data type and rounds the value up to the nearest integer.
 

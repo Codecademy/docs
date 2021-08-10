@@ -14,7 +14,7 @@ CatalogContent:
 
 ---
 
-## Definition 
+ 
 
 Takes multiple iterators as input and returns a single zip object made up of a list of tuples.
 

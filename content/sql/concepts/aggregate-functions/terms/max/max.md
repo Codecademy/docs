@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-## Definition 
+ 
 
 The `MAX()` aggregate function takes the name of a column as an argument and returns the largest value in a column.
 

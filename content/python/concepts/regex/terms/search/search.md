@@ -14,7 +14,7 @@ CatalogContent:
   - "text-preprocessing"
 ---
 
-## Definition
+
 
 Iterates over a string to find a subset of characters that match a specified pattern.
 

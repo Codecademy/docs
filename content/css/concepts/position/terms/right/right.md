@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Specifies the distance of an element from the right of its current location if the element has `position: relative` declared or from the right of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
 

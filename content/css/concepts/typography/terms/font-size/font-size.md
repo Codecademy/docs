@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 To set text size either to big or small. Font size values can be in many different units like absolute lengths and relative lengths.
 

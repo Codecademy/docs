@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Takes in an iterator object, such as a list or string, and returns a reversed iterator object.
 

@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.
 

@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page.
 

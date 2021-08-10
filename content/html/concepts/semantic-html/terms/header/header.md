@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<header>` semantic tag represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements. Headers are not limited to the beginning of the whole page, but can be at the beginning of subsections within page as well.
 

@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 The `.repeat()` string method repeats a string a specified number of times. String will be concatenated.
 

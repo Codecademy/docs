@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
 

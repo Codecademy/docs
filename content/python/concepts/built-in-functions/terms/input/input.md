@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science" 
 ---
 
-## Definition
+
 
 Takes in a value from the user and converts the value into a string. 
 

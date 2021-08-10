@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Shorthand way of expressing the various background properties of one or more element backgrounds in any order using a single declaration.
 
