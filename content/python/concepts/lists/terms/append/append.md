@@ -21,7 +21,7 @@ The Python list method `.append()` adds an item to the end of a list.
 list.append(item)
 ```
 
-This will place the object passed in as a new element at the very end of the list. Printing the list afterwards will visually show the appended value. 
+The `.append()` will place the object passed in as a new element at the very end of the list. Printing the list afterwards will visually show the appended value. 
 
 This method is not to be confused with returning an entirely new list with the passed object.
 
