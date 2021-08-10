@@ -27,6 +27,19 @@ This `.append()` method is not to be confused with returning an entirely new lis
 
 ## Example
 
+To add `'🥚'` to the end of the `grocery` list:
+
+```py
+grocery = ['🍉', '🍪', '🥬', '🥕']
+
+grocery.append('🥚')
+
+print(grocery)
+# Output: ['🍉', '🍪', '🥬', '🥕', '🥚']
+```
+
+## Codebyte Example
+
 To add `'tulips'` to the end of the `orders` list:
 
 ```codebyte/python
@@ -35,5 +48,4 @@ orders = ['daisies', 'periwinkle']
 orders.append('tulips')
 
 print(orders)
-# Output: ['daisies', 'periwinkle', 'tulips']
 ```
