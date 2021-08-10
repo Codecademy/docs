@@ -63,8 +63,10 @@ WHERE item_name IN ('plunger', 'soap', 'wipes');
 The following SQL statement selects all customers that are from the same countries as the suppliers:
 
 ```sql
-SELECT * FROM customers
+SELECT * 
+FROM customers
 WHERE country IN (
   SELECT country 
-  FROM suppliers);
+  FROM suppliers
+);
 ```
