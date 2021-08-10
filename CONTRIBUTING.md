@@ -12,19 +12,21 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) (entr
 
 ## What do I need to do before contributing? 
 
-Before contributing, please read through the following files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation):
+Before contributing, please read through the following files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation) and poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder.
+
+In these links, you'll find a write-up of our standards for content and style:
 
 - [Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
-- Templates:
-  - [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)
-  - [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md)
-  - [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md)
 - [Tags List](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects List](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
-And poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder.
+And here, templates for creating your own entries.
 
-In these links, you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
+| Template | Example | Result |
+| --- | --- | --- |
+| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | [Result](https://staging.codecademy.com/resources/docs/python/lists/append) |
+| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | [Result](https://staging.codecademy.com/resources/docs/python/lists/append) |
+| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | Example | Result |
 
 ## How do I contribute?
 
