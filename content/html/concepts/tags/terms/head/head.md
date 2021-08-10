@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<head>` tag represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include other tags such as `<title>`, `<link>`, `<style>`, and `<script>`.
 

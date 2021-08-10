@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 A property that specifies how much space an item may occupy relative to the other items in the container. An item assigned a flex-grow value of 3, will stretch to occupy 3 times more space than an item assigned a value of 1.
 

@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the Unicode value before the given index in the string.
 

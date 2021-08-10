@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Elements of an array are converted to strings and concatenated together, returning the resulting string.
 

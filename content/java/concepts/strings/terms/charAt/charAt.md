@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the character at the given index in the string.
 

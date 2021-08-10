@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Converts a given function into a class method.
 

@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns the lowest value from values given or an iterable.
 

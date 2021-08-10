@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 A logical test that will only include rows where both conditions are true.
 

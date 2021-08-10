@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - "path/example-path"
 ---
 
-## Definition 
+ 
 
 [A brief definition of the topic]
 

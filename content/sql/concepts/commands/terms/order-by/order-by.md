@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Sorts the result set by a particular column either alphabetically or numerically.
 

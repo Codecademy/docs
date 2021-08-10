@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the natural logarithm of `n`.
 

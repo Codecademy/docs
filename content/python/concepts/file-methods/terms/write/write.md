@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to add additional text to a file when the file is opened in append mode. 
 

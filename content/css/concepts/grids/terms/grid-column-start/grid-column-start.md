@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 A property that specifies the start of a content span over a set of columns within a grid framework.
 

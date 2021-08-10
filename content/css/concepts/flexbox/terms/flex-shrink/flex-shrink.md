@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Specifies how much space an item may scaled down relative to the other items in the container (when items in the flex container are larger than the space available). An item assigned a `flex-shrink` value of 2, will be scaled twice as much as an item assigned a value of 1.
 

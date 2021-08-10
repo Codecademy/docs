@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Remove an item from a list by passing in the value of the item to be removed as an argument.
 

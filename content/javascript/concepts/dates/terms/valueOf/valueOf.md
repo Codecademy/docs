@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Returns the difference in milliseconds between the specified date and January 1, 1970 00:00:00 UTC.
 

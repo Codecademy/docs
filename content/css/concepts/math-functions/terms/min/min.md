@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Sets the smallest value from a list of one or more comma-separated expressions as the value for a CSS property. 
 

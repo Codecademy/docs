@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.
 

@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 A method for making a "delete" request to a web server; it returns a response object. 
 

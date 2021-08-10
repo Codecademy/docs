@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Groups a result set based on an aggregate function (`COUNT()`, `MIN()`, `MAX()`, `SUM()`, `AVG()`). It lists the number in each group.
 

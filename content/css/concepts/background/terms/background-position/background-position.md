@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines the positions of one or more background images relative to the `background-origin` position. This is the point from which any background repetition will occur.
 

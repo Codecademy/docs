@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 Creates an interactive element, usually used within a form to allow user input. Can be used to make text boxes, color pickers, date pickers, and more.
 

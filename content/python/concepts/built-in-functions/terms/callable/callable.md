@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns `True` if an object is callable, and `False` if an object is not callable.
 

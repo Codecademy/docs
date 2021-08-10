@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Shorthand property that sets the width for the overall border of an element or for each side individually.
 

@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<cite>` tag represents a citation to a referenced work such as a book, a song, or a painting. It needs to include only the title of the work being referenced.
 

@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to check if a file is writable or not. The function will return `True` if the file is writable and accessed in append or write mode, and `False` if it was accessed in read mode.
 

@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Replace a specific substring with another substring.
 

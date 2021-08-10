@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Method for making a "get" request to a web server; it returns a response object. 
 

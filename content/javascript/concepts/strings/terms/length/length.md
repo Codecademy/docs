@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 `.length` is a string property and it returns the number of characters in a string.
 

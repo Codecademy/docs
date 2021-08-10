@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types.
 

@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to resize the file to a given number of bytes when the file is accessed through the append mode.
 

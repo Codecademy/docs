@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 The visibility property shows or hides an element. If the element is hidden, it will still take up space within the page.
 

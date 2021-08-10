@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 The `floor()` function returns the first whole number that is less than or equal to the argument.
 

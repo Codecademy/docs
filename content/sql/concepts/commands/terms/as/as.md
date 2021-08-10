@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-## Definition 
+ 
 
 Renames a column or table with an alias for display, does not permanently change table/column names in the database.
 

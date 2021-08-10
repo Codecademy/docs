@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns Unicode characters represented by integers ranging between 0 and 1,114,111.
 

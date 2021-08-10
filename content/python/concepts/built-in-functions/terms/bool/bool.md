@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Converts a value to a Boolean `True` or `False` value.
 

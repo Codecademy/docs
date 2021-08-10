@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
 

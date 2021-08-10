@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page. 
   

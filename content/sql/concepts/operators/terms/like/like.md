@@ -17,7 +17,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
 

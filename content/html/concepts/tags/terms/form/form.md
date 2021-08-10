@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<form>` tag represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
 

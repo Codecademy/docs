@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Engage, configure, and change the debugger program used in a script.
 

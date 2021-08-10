@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-## Definition 
+ 
 
 The `AVG()` aggregate function returns the average value in a column.
 

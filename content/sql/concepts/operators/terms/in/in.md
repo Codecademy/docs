@@ -17,7 +17,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Allows the user to specify multiple values in the `WHERE` clause.
 

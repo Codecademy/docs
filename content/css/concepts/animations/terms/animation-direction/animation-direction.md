@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Determines whether an animation runs forward or in reverse on some or all of its cycles.
 

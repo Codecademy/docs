@@ -17,7 +17,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Query items that return `NOT TRUE` for some condition/conditions.
 
