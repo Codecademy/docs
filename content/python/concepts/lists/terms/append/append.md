@@ -23,7 +23,7 @@ list.append(item)
 
 This will place the object passed in as a new element at the very end of the list. Printing the list afterwards will visually show the appended value. 
 
-This `.append()` method is not to be confused with returning an entirely new list with the passed object.
+This method is not to be confused with returning an entirely new list with the passed object.
 
 ## Example
 
