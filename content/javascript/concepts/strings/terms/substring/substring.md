@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Return a part of a string from a given starting index or between start and end index. Index starts at zero.
 

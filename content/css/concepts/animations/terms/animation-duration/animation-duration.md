@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines how long an animation should take to complete.
 

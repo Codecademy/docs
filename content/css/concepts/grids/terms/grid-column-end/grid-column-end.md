@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Specifies the end of a content span over a set of columns within a grid framework.
 

@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 To set the text to be thicker or thinner.
 

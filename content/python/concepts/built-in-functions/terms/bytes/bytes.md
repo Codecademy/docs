@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns a byte immutable object representing the given bytes of an object.
 

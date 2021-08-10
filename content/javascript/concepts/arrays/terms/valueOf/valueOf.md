@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Returns a new array with all the items of the original array. 
 

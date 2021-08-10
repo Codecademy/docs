@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe.
 

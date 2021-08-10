@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Creates a new array with the results of calling a function for every element in array.
 

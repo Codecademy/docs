@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Adds shadow to text. 
 

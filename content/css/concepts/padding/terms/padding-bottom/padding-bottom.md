@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines the width of the bottom padding for an element.
 

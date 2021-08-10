@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Initializes a new dictionary from mapping n-number of object (key, value) pairs.
 

@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Removes the last element of an array, decrements the array length, and returns the value that it removed.
 

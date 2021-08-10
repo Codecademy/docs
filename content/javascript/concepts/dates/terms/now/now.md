@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Returns the current time in milliseconds. The milliseconds count begins at 1970/01/01 at 00:00:00 UTC.
 

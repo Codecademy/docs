@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns the value of a base number `x` to the power of an exponent `y`, with an optional modulus `z`.
 

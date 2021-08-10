@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the inverse tangent of the argument in radians.
 

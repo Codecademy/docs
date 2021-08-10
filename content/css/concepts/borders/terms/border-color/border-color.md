@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Sets the color of the border. The default value is the current element color.
 

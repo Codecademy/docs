@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source.
 

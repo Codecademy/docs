@@ -13,7 +13,7 @@ CatalogContent:
   - "learn-python-3"
   - "paths/analyze-data-with-python"
 ---
-## Definition 
+ 
 
 Searches a string for a given keyword and splits that string into a three part tuple.
 

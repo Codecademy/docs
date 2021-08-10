@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
 

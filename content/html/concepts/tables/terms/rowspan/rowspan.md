@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Specifies the number of rows a cell should span. 
 

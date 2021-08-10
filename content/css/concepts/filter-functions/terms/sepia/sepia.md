@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Changes the color of an element to sepia.
 

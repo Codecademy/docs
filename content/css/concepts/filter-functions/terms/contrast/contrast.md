@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines the contrast on an element.
 

@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<aside>` semantic tag represents a part of a page which is relevant to the current content, but not a part of it directly. It can be used for related links, for clarifying a statement from the current article, or even for advertising meant for the current page. 
 

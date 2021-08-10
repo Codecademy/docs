@@ -16,7 +16,7 @@ CatalogContent:
 
 ---
 
-## Definition 
+ 
 
 Creates a new table within a database.
 

@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Allows us to rotate, scale, skew or translate an element.
 

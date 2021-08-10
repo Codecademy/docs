@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines what values are applied by an animation outside of its execution time.
 

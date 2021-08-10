@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause.
 

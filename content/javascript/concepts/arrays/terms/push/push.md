@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Adds one or more elements to end of array and returns new length.
 

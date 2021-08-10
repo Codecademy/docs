@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Removes and returns the first element of the array. All subsequent elements will shift down one place.
 

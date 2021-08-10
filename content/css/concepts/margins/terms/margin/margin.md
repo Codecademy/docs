@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Shorthand property for `margin-top`, `margin-bottom`, `margin-left` and `margin-right` to create space around an element or for each side individually. 
 

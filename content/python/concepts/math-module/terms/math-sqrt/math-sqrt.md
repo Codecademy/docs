@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the square root of numeric input x.
 

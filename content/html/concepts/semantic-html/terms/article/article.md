@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 The `<article>` semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles.
 

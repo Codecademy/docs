@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Returns a shallow copy of a list.
 

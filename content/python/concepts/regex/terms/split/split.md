@@ -14,7 +14,7 @@ CatalogContent:
   - "text-preprocessing"
 ---
 
-## Definition
+
 
 Divide a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default python `.split()` for instances that require matching multiple characters.
 

@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to delete attributes from an object.
 

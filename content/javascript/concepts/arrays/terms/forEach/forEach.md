@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Loops over the array, passing each item in the array into the callback function provided.
 

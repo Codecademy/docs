@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to read the contents of an open file.
 

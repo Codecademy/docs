@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Filters records (rows) that match a certain condition.
 

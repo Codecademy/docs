@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Defines a cell in a table that contains data. 
 

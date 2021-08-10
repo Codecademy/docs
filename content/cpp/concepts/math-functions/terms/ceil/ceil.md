@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the next whole number that is greater than or equal to the argument.
 

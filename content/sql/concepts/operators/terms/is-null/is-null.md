@@ -16,7 +16,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Checks if a value is `NULL`.
 

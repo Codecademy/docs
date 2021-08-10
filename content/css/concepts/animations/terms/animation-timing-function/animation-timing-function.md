@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines an acceleration curve for each keyframe in a single animation. 
 

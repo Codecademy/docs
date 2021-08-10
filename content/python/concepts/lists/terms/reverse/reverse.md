@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Reverse the elements in the list.
 

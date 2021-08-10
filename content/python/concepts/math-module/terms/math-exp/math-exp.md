@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns _e_ raised to the power of x.
 

@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 A static method of `Date` that returns a number value representing the number of milliseconds between the specified date and January 1, 1970, 00:00:00, Universal Time Coordinated. Will always be called as `Date.UTC()` rather than called on an instance of date such as `myDate.UTC()`.
 

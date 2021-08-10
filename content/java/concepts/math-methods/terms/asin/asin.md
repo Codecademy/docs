@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the inverse sine of the argument in radians.
 

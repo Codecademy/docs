@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-## Definition 
+ 
 
 The `COUNT()` aggregate function returns the total number of rows that match the specified criteria.
 

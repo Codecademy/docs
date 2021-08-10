@@ -20,7 +20,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-## Definition 
+ 
 
 Returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.
 

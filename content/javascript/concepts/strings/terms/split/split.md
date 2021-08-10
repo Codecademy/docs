@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition
+
 
 Breaks the string on which it called into an array of substrings, and returns the new array. 
 

@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer.
 

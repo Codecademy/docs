@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Removes an item from a list while also returning it.
 

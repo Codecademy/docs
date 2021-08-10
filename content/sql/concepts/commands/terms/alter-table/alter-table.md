@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 Adds, deletes, modifies or changes the data type of a column in a table.
 

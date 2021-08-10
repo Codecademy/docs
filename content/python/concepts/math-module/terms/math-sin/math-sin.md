@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the sine of input numeric x, measured in radian value.
 

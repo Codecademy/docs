@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 Returns the first element in the array that satifies the given function.
 

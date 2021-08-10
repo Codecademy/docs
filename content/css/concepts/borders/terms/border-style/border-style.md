@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 Sets the style of the border. The default value is `none`.
 
 ## Syntax

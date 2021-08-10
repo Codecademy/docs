@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-## Definition 
+ 
 
 Used to identify text that is very important, or urgent.
 

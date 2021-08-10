@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Adds an item to end of the list.
 
