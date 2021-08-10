@@ -1,19 +1,24 @@
 # Content Standards
 
-### Entry Types
+## Entry Types
 
 Codecademy Docs content will fall into two categories:
 
-#### Entries
+### 1. Entries
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
   - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
   - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
  
-#### Entries with Tables
+### 2. Entries with Tables
 
 Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
   - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
+
+| Type | asdf | asfd |
+| --- | --- | --- |
+| Entry | Example | Raw | Template |
+| Term Entry | Example | Raw | Template |
 
 ### Relation between Entries  
 
