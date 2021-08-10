@@ -26,7 +26,7 @@ And here, templates for creating your own entries.
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://staging.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | Example | Result |
 
-And poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder.
+And poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
 
 ## How do I contribute?
 
