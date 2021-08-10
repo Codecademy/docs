@@ -12,7 +12,9 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) (entr
 
 ## What do I need to do before contributing? 
 
-Before contributing, please read through the following files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). In these links, you'll find a write-up of our standards for content and style:
+Before contributing, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
+
+Please read through the following in the [/documentation](https://github.com/Codecademy/docs/tree/main/documentation) folder. In these links, you'll find a write-up of our standards for content and style:
 
 - [Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
 - [Tags List](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
@@ -25,8 +27,6 @@ And here, templates for creating your own entries.
 | [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md)) | [Lists](https://staging.codecademy.com/resources/docs/python/lists) |
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://staging.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | Example | Result |
-
-And poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
 
 ## How do I contribute?
 
