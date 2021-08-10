@@ -12,13 +12,13 @@ One or more paragraph-long explanations of a coding concept. Think of them like 
  
 ### 2. Entries with Tables
 
-Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
+Short lists of key information about a specific function, keyword, tag, or other grouping.
   - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
 
-| Type | asdf | asfd |
-| --- | --- | --- |
+| Type | Example | Raw File | Template |
+| --- | --- | --- | --- |
 | Entry | Example | Raw | Template |
-| Term Entry | Example | Raw | Template |
+| Term Entry | `.append()` | [Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | Template |
 
 ### Relation between Entries  
 
