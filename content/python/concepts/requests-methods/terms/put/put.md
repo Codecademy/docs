@@ -1,6 +1,6 @@
 ---
 Title: "requests.put()"
-Description: "Python's requests module comes with a method for making a &apos;put&apos; request to a web server; it returns a response object."
+Description: "Makes a put request to a web server; it returns a response object."
 Subjects:
   - "Data Science"
 Tags: 
@@ -14,9 +14,7 @@ CatalogContent:
   - "paths/analyze-data-with-python"
 ---
 
- 
-
-Python's `requests` module comes with a method for making a "put" request to a web server; it returns a response object.
+A Python `requests` method for making a "put" request to a web server; it returns a response object.
 
 ## Syntax
 
@@ -44,7 +42,6 @@ json = {
 
 response = requests.put("https://httpbin.org/put", json=json)
 ```
-
 
 ## Example 2
 
