@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
- 
-
-Removes all items from the list.
+The Python `.clear()` method removes all items from a list.
 
 ## Syntax
 
@@ -27,6 +25,19 @@ The `.clear()` method has no parameters.
 
 ## Example
 
+To remove all items from the `grocery` list:
+
+```python
+grocery = ['🍉', '🍪', '🥬', '🥕']
+
+grocery.append('🥚')
+
+print(grocery)
+# Output: ['🍉', '🍪', '🥬', '🥕', '🥚']
+```
+
+## Codebyte Example
+
 To remove all items from the `orders` list:
 
 ```codebyte/python
@@ -35,5 +46,4 @@ orders = ['daisies', 'periwinkle']
 orders.clear()
 
 print(orders)
-# Output: []
 ```
