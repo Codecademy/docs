@@ -30,10 +30,10 @@ To remove all items from the `grocery` list:
 ```python
 grocery = ['🍉', '🍪', '🥬', '🥕']
 
-grocery.append('🥚')
+grocery.clear()
 
 print(grocery)
-# Output: ['🍉', '🍪', '🥬', '🥕', '🥚']
+# Output: []
 ```
 
 ## Codebyte Example
