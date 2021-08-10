@@ -4,21 +4,16 @@
 
 Codecademy Docs content will fall into two categories:
 
-### 1. Entries
+### 1. Entry
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
   - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
   - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
  
-### 2. Entries with Tables
+### 2. Entry with a Term Table
 
 Short lists of key information about a specific function, keyword, tag, or other grouping.
-  - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
-
-| Type | Example | Raw File | Template |
-| --- | --- | --- | --- |
-| Entry | Example | Raw | Template |
-| Term Entry | `.append()` | [Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | Template |
+  - For a model example, check out [the .append() entry in the Python Lists entry](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
 
 ### Relation between Entries  
 
@@ -57,6 +52,7 @@ The file name should be the title of the entry, in lowercase, with words replace
 
 Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 All code blocks should be delineated by triple backticks (```)
+
 - C#: ```cs
 - C++: ```cpp
 - CSS: ```css
@@ -74,7 +70,8 @@ All code blocks should be delineated by triple backticks (```)
 - Shell/Program Output: ```
 - SQL: ```sql
 
-#### Runnable Code Blocks
+#### Codebytes: Runnable Code Blocks
+
 Codecademy has a new feature we're calling _Codebytes_ that will allow learners to click a button to run code blocks themselves! The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
@@ -84,7 +81,9 @@ The syntax is simple: You just add `codebyte/` between the ` ``` ` and the langu
 console.log('Hello, World!');
 ```
 ````
+
 Currently, Codebytes is set to support the following languages:
+
 - Python
 - JavaScript
 - Ruby
@@ -102,7 +101,6 @@ Note: Codebytes sometimes requires the code block to include some boilerplate co
 | Subjects        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/subjects.md). Please only use Subjects from that list, but if that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!<br /> - We aim to include an average of 1-2 Subjects (and always at least 1!) with every entry | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
 | Tags            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
 | CatalogContent | slugs of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple items, please list the most relevant one first. | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
-
 
 ### General Writing Tips:
 
