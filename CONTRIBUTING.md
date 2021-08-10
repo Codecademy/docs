@@ -22,11 +22,16 @@ In these links, you'll find a write-up of our standards for content and style:
 
 And here, templates for creating your own entries.
 
-| Template | Example | Result |
+| Template | GitHub Example | Docs Example |
 | --- | --- | --- |
-| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | [Result](https://staging.codecademy.com/resources/docs/python/lists/append) |
-| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) | [Result](https://staging.codecademy.com/resources/docs/python/lists/append) |
+| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [list.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Lists](https://staging.codecademy.com/resources/docs/python/lists) |
+| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://staging.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | Example | Result |
+
+
+Here are a
+https://github.com/Codecademy/docs/tree/main/content
+
 
 ## How do I contribute?
 
