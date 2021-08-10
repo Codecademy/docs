@@ -42,7 +42,7 @@ A `for`-`in` loop can be used to iterate over each item in a set.
 var recipe: Set = ["Chocolate chips", "Eggs", "Flour", "Sugar"]
  
 for ingredient in recipe {
-  print ("Include \(ingredient) in the recipe.")
+  print("Include \(ingredient) in the recipe.")
 }
 ```
 
