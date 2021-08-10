@@ -48,7 +48,7 @@ Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can 
 
 <img src="https://github.com/Codecademy/docs/blob/main/media-file-hosting/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
-If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. 
+If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. Highly recommend!
 
 ## Pull Requests Tips
 
