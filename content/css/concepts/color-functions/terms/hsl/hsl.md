@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-
-
-Defines the color value by providing three comma separated values. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value.
+The  `hsl()` function defines the color value by providing three comma separated values. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value.
 
 ## Syntax
 
