@@ -28,10 +28,10 @@ The `z-index` value can be specified with a positive or negative integer. An ele
 
 ## Example 1
 
-In the following example, we have a grey box and a black box. We can set the grey box above the black box by giving the grey box a higher `z-index` value. 
+In the following example, we have a gray box and a black box. We can set the gray box above the black box by giving the gray box a higher `z-index` value. 
 
 ```css
-.greybox {
+.graybox {
   z-index: 2; 
 }
 
@@ -40,14 +40,14 @@ In the following example, we have a grey box and a black box. We can set the gre
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png" alt="Grey box above black box" width="300px">
+<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png" alt="Gray box above black box" width="300px">
 
 ## Example 2
 
-If we wanted to have the black box above the grey box we can simply give the black box a higher `z-index` value.
+If we wanted to have the black box above the gray box we can simply give the black box a higher `z-index` value.
 
 ```css
-.greybox {
+.graybox {
   z-index: 2; 
 }
 
@@ -56,4 +56,4 @@ If we wanted to have the black box above the grey box we can simply give the bla
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index-2.png" alt="Black box above grey box" width="300px">
+<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index-2.png" alt="Black box above gray box" width="300px">
