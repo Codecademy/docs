@@ -101,7 +101,7 @@ The CSS variable `--custom-bg-color-saffron` is defined in the selector for `div
 }
 ```
 
-The rendered image below shows that the background color for `divB` is set to `--custom-bg-color-saffron`. While it's child, `divC`, doesn't have background color specified, it inherits the property from its parent. On the other hand, `divA`, the parent of `divB`, has a default white background color because it exists outside the scope of `--custom-bg-color-saffron`.
+The rendered image below shows that the background color for `divB` is set to `--custom-bg-color-saffron`. While its child, `divC`, doesn't have background color specified, it inherits the property from its parent. On the other hand, `divA`, the parent of `divB`, has a default white background color because it exists outside the scope of `--custom-bg-color-saffron`.
 
 ![Image of cascading divs using CSS variables for background color](https://i.imgur.com/D8RwBsM.png)
 
