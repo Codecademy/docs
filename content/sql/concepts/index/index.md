@@ -17,7 +17,7 @@ Indexes are specialized data structures that organize a table ahead of time to i
 
 While an index organizes the values of an entire table, the organization is based on the value of a specific column. This column should ideally be frequently searched and have a varied set of data to best realize the improved performance of the sorting provided by the index. Columns that are not often used in queries should be avoided. Similarly, columns with many identical values, such as binary columns or columns with a high number of `NULL` values, should not be indexed.
 
-Indexes are best used on large tables where a small subset of the data is commonly searched. If instead, all of the rows are frequently accessed (perhaps to calculate a sum), the extra organization of the index will be irrelevant. Also, on smaller tables the speed improvements will be less noticeable, as most rows may have to be searched anyways. 
+Indexes are best used on large tables where a small subset of the data is commonly searched. If instead, all the rows are frequently accessed (perhaps to calculate a sum), the extra organization of the index will be irrelevant. Also, on smaller tables the speed improvements will be less noticeable, as most rows may have to be searched anyways. 
 
 The index also needs to be maintained on each `INSERT`, `UPDATE`, and `DELETE` event, possibly making these actions slower. Therefore, tables that feature frequent writes and large updates should avoid indexes.
 
@@ -36,7 +36,7 @@ CREATE TABLE table_name (
 );
 ```
 
-However they can also be created for existing tables:
+However, they can also be created for existing tables:
 
 ```sql
 CREATE INDEX index_name
