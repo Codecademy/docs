@@ -62,7 +62,7 @@ For the function `CompareFn(A, B)`:
 - If the function returns a value greater than zero, sort `B` before `A`.
 - If the function returns a value less than zero, sort `A` before `B`.
 - If the function returns a value of zero, the positions of `A` and `B` remain unchanged.
-- The function must return the same result for any specific pair of values `A` & `B` provided. Otherwise the sort order is undefined.
+- The function must return the same result for any specific pair of values `A` & `B` provided. Otherwise, the sort order is undefined.
 
 To sort an array in numeric order rather than string order, the following function can be used as long as the array doesn't contain `Infinity` or `NaN`:
 
