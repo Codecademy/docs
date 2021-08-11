@@ -53,6 +53,6 @@ vowels[0] = 'r';
 std::cout << vowels[0]; // Output: r
 ```
 
-In the case above we initialized an array of chars with all of the vowels, and then printed out the first element in the array at index 0. We then modified the element at index 0 by assigning it a new value of `'r'`, which got printed out below.
+In the case above, we initialized an array of chars with all the vowels, and then printed out the first element in the array at index 0. We then modified the element at index 0 by assigning it a new value of `'r'`, which got printed out below.
 
 Arrays in C++ have a set size, meaning you can’t add or remove elements once the array has been created. You may only modify existing elements without changing the total size or shape of the structure.
