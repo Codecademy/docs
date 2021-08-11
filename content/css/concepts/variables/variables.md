@@ -22,9 +22,9 @@ CSS variables are used in two principle steps:
 1. Define the custom variable inside a selected element
 
     ```css
-    element {
-      --custom-variable: red; 
-    }
+   element {
+     --custom-variable: red; 
+   }
     ```
 
 2. Use the `var()` function to allow `--custom-variable` to be assigned to a property in multiple elements: 
