@@ -13,7 +13,8 @@ CatalogContent:
   - "introduction-to-javascript"
   - "paths/create-a-back-end-app-with-javascript"
 ---
-When JavaScript throws an error it throws an error object that consists of a `name` and a `message` property. The `name` is the general type of the error, and the `message` is a human readable description of the specific error that happened.
+
+When JavaScript throws an error it throws an error object that consists of a `name` and a `message` property. The `name` is the general type of the error, and the `message` is a human-readable description of the specific error that happened.
 
 Thrown errors are caught by the next outer `catch` block of a `try...catch...finally` statement. They can also be thrown intentionally by the `throw` statement.
 
