@@ -50,7 +50,7 @@ key is: key3, value is: value3
 There are some downsides to this approach:
 
 - The `Object` comes with its own properties which could collide with potential key names. 
-- There no easy way to get the size of an Hash Table stored in an `Object`, so it must be tracked manually. 
+- There no easy way to get the size of a Hash Table stored in an `Object`, so it must be tracked manually. 
 - Since they are also property names, the keys used are limited to `String` or `Symbol` types.
 - `Object` isn't optimized for frequent additions and removals of key-value pairs 
 
