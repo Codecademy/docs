@@ -145,7 +145,7 @@ console.log(`My name is ${myName}.`); // ReferenceError: Cannot access 'myName' 
 myName = "Brandon";
 ```
 
-In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement. 
+In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up, but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement. 
 
 ```js
 // Before hoisting
