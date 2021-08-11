@@ -64,7 +64,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 - Technical accuracy
 - Formatting standards
 - Typos/bugs
-- Plagerism
+- Plagiarism
 
 ## Additional Notes
 
