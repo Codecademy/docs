@@ -1,6 +1,6 @@
 ---
 Title: "flex"
-Description: "A shorthand that combines the flex-grow , flex-shrink and flex-basis properties. This syntax allows for the concise delineation of flex item parameters with one line of code."
+Description: "A shorthand that combines the flex-grow, flex-shrink, and flex-basis properties. This syntax allows for the concise delineation of flex item parameters with one line of code."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-
-
-A shorthand that combines the `flex-grow` , `flex-shrink` and `flex-basis` properties. This syntax allows for the concise delineation of flex item parameters with one line of code.
+The `flex` property is a shorthand that combines the `flex-grow`, `flex-shrink`, and `flex-basis` properties. This syntax allows for the concise delineation of flex item parameters with one line of code.
 
 ## Syntax
 
