@@ -23,7 +23,7 @@ In JavaScript, single-line comments are created with two consecutive forward sla
 console.log(5);
 ```
 
-A single-line comment can also used to comment after a line of code:
+A single-line comment can also be used to comment after a line of code:
 
 ```js
 console.log(5); // Prints 5 
