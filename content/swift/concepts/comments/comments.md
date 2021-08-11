@@ -27,7 +27,7 @@ In Swift, as in many other languages, single line comments are prefaced with two
 print("Hello World")
 ```
 
-A single-line comment can also used to comment after a line of code:
+A single-line comment can also be used to comment after a line of code:
 
 ```swift
 print("Hello World") // Me, too!
