@@ -12,8 +12,6 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
- 
-
 The visibility property shows or hides an element. If the element is hidden, it will still take up space within the page.
 
 ## Syntax
@@ -32,7 +30,7 @@ The visibility property has three values.
 
 ## Example 1
 
-Hiding an element with an id of `hide`. 
+Hiding an element with an `id` of `hide`. 
 
 ```css
 .hide {
