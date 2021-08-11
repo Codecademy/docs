@@ -14,6 +14,8 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
+A variable in C++ must be a specified data type.
+ 
 ## Int
 
 `int` is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2³¹ to 2³¹.
