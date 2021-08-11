@@ -11,7 +11,7 @@ CatalogContent:
   - "learn-rails"
 ---
 
-Conditionals control the flow of execution of your program based on conditions that you define. Conditionals are the decision making statements in your program.
+Conditionals control the flow of execution of your program based on conditions that you define. Conditionals are the decision-making statements in your program.
 
 ## If Statements
 
