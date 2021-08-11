@@ -1,6 +1,6 @@
 ---
 Title: "font"
-Description: "Shorthand property that sets different properties for an elements font in a single declaration."
+Description: "Shorthand property that sets different properties for an element's font in a single declaration."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
- 
-
-Shorthand property that sets different properties for an elements font in a single declaration.
+The `font` property is a shorthand property that sets different properties for an elements font in a single declaration.
 
 ## Syntax
 
