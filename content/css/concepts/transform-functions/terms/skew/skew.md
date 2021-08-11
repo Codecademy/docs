@@ -1,6 +1,6 @@
 ---
 Title: "skew()"
-Description: "Tilts an element on the x-axis or both the x and y axes on a two dimensional plane."
+Description: "Tilts an element on the x-axis or both the x and y axes on a 2D plane."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -14,8 +14,7 @@ CatalogContent:
 ---
 
 
-
-Tilts an element on the x-axis or both the x and y axes on a two dimensional plane.
+The `skew()` function tilts an element on the x-axis or both the x and y axes on a two-dimensional plane.
 
 ## Syntax
 
