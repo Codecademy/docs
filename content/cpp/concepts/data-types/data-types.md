@@ -81,6 +81,6 @@ std::string user = "@sonnynomnom";
 | `unsigned long long int` | 8 bytes | 0 to 18,446,744,073,709,551,615 |
 | `float`	| 4 bytes	|
 | `double` |	8bytes |
-| `long double`	12bytes	
+| `long double` |	12 bytes|
 | `wchar_t` |	2 or 4 bytes | 1 wide character |
  
