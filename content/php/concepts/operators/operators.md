@@ -14,6 +14,8 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
+Operators are used to perform operations on variables and values.
+
 ## Arithmetic Operators
 
 PHP has the following basic arithmetic operators to perform common mathematical operations:
@@ -45,7 +47,7 @@ Operands of modulo are converted to integers before calculating. The modulo resu
 
 ## Assignment Operators
 
-The basic assignment operator is `=`, which takes the right hand operand and assigns it to the variable that is the left hand operand. PHP also has a number of additional assignment operators that are shortcuts for longer expressions.
+The basic assignment operator is `=`, which takes the right-hand operand and assigns it to the variable that is the left-hand operand. PHP also has a number of additional assignment operators that are shortcuts for longer expressions.
 
 ### Arithmetic Assignment Operators
 
