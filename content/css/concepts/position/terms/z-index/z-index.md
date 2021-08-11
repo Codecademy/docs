@@ -14,8 +14,6 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
- 
-
 Sets the stack order of an element.
 
 ## Syntax
@@ -24,7 +22,7 @@ Sets the stack order of an element.
 z-index: <value>;
 ```
 
-The `z-index` value can be specified with a positive or negative integer. An element with a larger `z-index` value will be higher on the stack then an element with a lower `z-index` value. Unless specified, the default value of an element on the stack is 0.
+The `z-index` value can be specified with a positive or negative integer. An element with a larger `z-index` value will be higher on the stack than an element with a lower `z-index` value. Unless specified, the default value of an element on the stack is 0.
 
 **Note:** The `z-index` property does not work with an element that has a `position` value of `static`.  
 
