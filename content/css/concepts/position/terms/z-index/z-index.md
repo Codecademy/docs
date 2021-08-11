@@ -44,7 +44,7 @@ In the following example, we have a gray box and a black box. We can set the gra
 
 ## Example 2
 
-If we wanted to have the black box above the gray box we can simply give the black box a higher `z-index` value.
+If we wanted to have the black box above the gray box, we can simply give the black box a higher `z-index` value.
 
 ```css
 .graybox {
