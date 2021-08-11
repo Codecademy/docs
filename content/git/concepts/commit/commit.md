@@ -15,7 +15,7 @@ In Git, commits are used as snapshots of a given branch in a repository. Collect
 
 ## Syntax 
 
-```
+```shell
 git commit
 ```
 
@@ -25,7 +25,7 @@ git commit
 
 Before using `git commit`, make sure to have all the neccessary files staged for the commit. 
 
-```
+```shell
 git add <filename>
 ```
 
@@ -35,7 +35,7 @@ You can also use `git add .` to add all files.
 
 After the files are staged for commit, use the following syntax: 
 
-```
+```shell
 git commit
 ```
 
@@ -43,7 +43,7 @@ You can also do `git commit -m <message>` to add a commit message here.
 
 Here is what the command line would like look afterwards: 
 
-```bash
+```shell
 git commit
 [master (root-commit) b77d68b]
  3 files changed, 26 insertions(+)
@@ -54,7 +54,7 @@ git commit
 
 Here's the same thing but with a message: 
 
-```bash
+```shell
 git commit -m "this is a commit message"
 [master (root-commit) b77d68b] this is a commit message
  3 files changed, 26 insertions(+)
