@@ -1,5 +1,5 @@
 ---
-Title: "RegEx"
+Title: "RegExp"
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -10,7 +10,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-In Ruby, regular expressions (shortened as regex), are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 
+In Ruby, Regular Expressions (shortened as RegExp), are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 
 
 ## Syntax 
 
