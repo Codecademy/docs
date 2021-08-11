@@ -10,6 +10,7 @@ CatalogContent:
   - "introduction-to-javascript"
   - "paths/create-a-back-end-app-with-javascript"
 ---
+
 The `RegExp` object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string. 
 
 A `RegExp` object can also have flags set along with a pattern to change how matches are performed.
@@ -71,12 +72,12 @@ When specified, these flags change the default match behavor of the `RegExp` obj
 
 Flag|Description
 ---|---
-`g`|Perform a global match, finding all matches rather than just the first.
-`i`|Makes matches case-insensitive.
-`m`|Perform multiline matches. (Changes behavior of `^`,`$`)
-`s`|Allows `.` to match newline characters.
-`u`|Enables Unicode support.
-`y`|Matches are sticky, looking only at exact position in the text.
+`g` | Performs a global match, finding all matches rather than just the first.
+`i` | Makes matches case-insensitive.
+`m` | Performs multiline matches. (Changes behavior of `^`,`$`)
+`s` | Allows `.` to match newline characters.
+`u` | Enables Unicode support.
+`y` | Matches are sticky, looking only at exact position in the text.
 
 Usage:
 
