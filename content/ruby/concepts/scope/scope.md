@@ -85,7 +85,7 @@ show_numbers # Output: 42
 
 ## Local-level
 
-Variables defined at the local scope are the most contextual. Which ever block their defined in usually determines how far their scope reaches. 
+Variables defined at the local scope are the most contextual; whichever block they are defined in usually determines how far their scope reaches. 
 
 Below, `local_to_outside_method` is local to the general, global scope of the program. Inside the `add_numbers()` method is a variable whose scope exists only within the method, `local_to_method`: 
 
