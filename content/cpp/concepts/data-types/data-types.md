@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A variable in C++ must be a specified data type.
+A variable in C++ must be of a specified data type.
  
 ## Int
 
