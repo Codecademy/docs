@@ -42,7 +42,7 @@ double pi = 3.14;
 
 ## Static Typing
 
-In Java, the type of a variable is checked at compile time. This is known as static typing. It has the advantage of catching the errors at compile time rather than at execution time.
+In Java, the type of variable is checked at compile time. This is known as static typing. It has the advantage of catching the errors at compile time rather than at execution time.
 
 Variables must be declared with the appropriate data type or the program will not compile.
 
