@@ -1,6 +1,6 @@
 ---
 Title: "ascii()"
-Description: "Receives as input an object containing string data, and returns the object as a printable representation with &bsol;x, &bsol;u, or &bsol;U escapes for non-ASCII characters (accented characters)."
+Description: "Receives as input an object containing string data, and returns the object as a printable representation with escapes for non-ASCII characters (accented characters)."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -14,9 +14,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-
-
-Receives as input an object containing `string` data, and returns the object as a printable representation with `\x`, `\u`, or `\U` escapes for non-ASCII characters (accented characters).
+The Python `ascii()` function receives an object containing `string` data as input, and returns the object as a printable representation with `\x`, `\u`, or `\U` escapes for non-ASCII characters (accented characters).
 
 ## Syntax
 
