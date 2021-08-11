@@ -5,4 +5,4 @@ Title: "Swift" # This is the name that appears on the hub page for this language
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/swift" # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 ---
 
-Swift is a modern programming language developed by Apple. This general-purpose programming language is fast and powerful without sacrificing safety or readability. Swift is a great language to learn for those interested in iOS and MacOS development as well as anyone who is just starting to code. <!-- # Write up an introductory description of the language here! -->
+Swift is a modern programming language developed by Apple. This general-purpose programming language is fast and powerful without sacrificing safety or readability. Swift is a great language to learn for those interested in iOS and macOS development as well as anyone who is just starting to code. <!-- # Write up an introductory description of the language here! -->
