@@ -44,7 +44,7 @@ The `Dog` class inherits all the methods from its parent `Animal` class, includi
 
 ## Overriding Methods
 
-A inheriting child class can override methods defined in its parent and replace with code specific to it: 
+An inheriting child class can override methods defined in its parent and replace with code specific to it: 
 
 ```rb
 class Animal 
