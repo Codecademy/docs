@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-SQL tables sometimes has a column that uniquely identifies each row of that table. These special columns are called *primary keys*.
+SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called *primary keys*.
 
 Primary key column has a few requirements:
 
