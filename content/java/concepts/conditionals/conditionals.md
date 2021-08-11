@@ -73,7 +73,7 @@ System.out.println("Grade is " + grade);
 
 ## Nested Conditional Statements
 
-A nested conditional statement is a conditional statement nested inside of another conditional statement. The outer conditional statement is evaluated first; if the condition is true, then the nested conditional statement will be evaluated.
+A nested conditional statement is a conditional statement nested inside another conditional statement. The outer conditional statement is evaluated first; if the condition is true, then the nested conditional statement will be evaluated.
 
 ```java
 boolean studied = true;
