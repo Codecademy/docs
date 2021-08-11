@@ -37,9 +37,9 @@ somearray.sort(compareFn)
 - `A` is the first array item being compared
 - `B` is the second array item being compared
 
-## The Default Sort Order
+## Default Sort Order
 
-If no comparison function is provided the `.sort()` method will sort the array in ascending string order. 
+If no comparison function are provided, the `.sort()` method will sort the array in ascending string order. 
 For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
 
 ```javascript
@@ -51,7 +51,7 @@ console.log(numbers);
 // Output: [10, 156, 16, 2, 33, 5, 9]  
 ```
 
-## The Comparison Function
+## Comparison Function
 
 The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array. 
 All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
