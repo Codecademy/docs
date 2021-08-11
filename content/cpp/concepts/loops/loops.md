@@ -12,6 +12,8 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
+A loop can execute a statement or group of statements multiple times and the following is the general from of a loop statement in most programming languages.
+
 ## While Loop
 
 A `while` loop statement repeatedly executes the code block within as long as the condition is true. The moment the condition becomes false, the program will exit the loop.
