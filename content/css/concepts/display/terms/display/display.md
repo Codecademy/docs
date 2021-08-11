@@ -1,6 +1,6 @@
 ---
 Title: "display"
-Description: "Specifies the display behaviour of an elements rendering box."
+Description: "Specifies the display behavior of an elements rendering box."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
- 
-
-Specifies the display behaviour of an elements rendering box.
+Specifies the display behavior of an elements rendering box.
 
 ## Syntax
 
