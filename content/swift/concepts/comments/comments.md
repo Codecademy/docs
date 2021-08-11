@@ -38,7 +38,8 @@ print("Hello World") // Me, too!
 Multi-line comments allow for greater context and readability of a concept or idea that your program is doing. It is also commonly used for metadata information like authorship and copyright information. In Swift, multi-line comments are made opened with `/*` and closed with `*/`.
 
 ```swift
-/* This space can be used to write notes to ourself about ideas that we want 
+/* 
+   This space can be used to write notes to our future selves about ideas that we want 
    to implement and just haven't or if our algorithm isn't easily legible through
    the code, we can explain it here. This is especially important if we are part
    of a team separated by time and space and communication occurs here instead of an office.
