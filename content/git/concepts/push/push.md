@@ -19,7 +19,7 @@ Pushing a repository allows a programmer to maintain an easily accessible backup
 
 The basic syntax for pushing in Git is this:
 
-```
+```shell
 $ git push <remote-name> <branch-name>
 ```
 
@@ -30,7 +30,7 @@ Prerequisites to pushing from within a repository include:
 * Being inside of a repository (if not, the next step will return an error)
 * Having a clean `git status` (no uncommitted, but tracked, files):
 
-    ```
+    ```shell
     $ git status
 
     On branch main
@@ -39,7 +39,7 @@ Prerequisites to pushing from within a repository include:
 
 * Having a valid remote repository set, in this case there is remote repository called companyname-dev:
 
-    ```
+    ```shell
     $ git remote -v
 
     companyname-dev	https://github.com/CompanyName/product-dev.git (fetch)
@@ -48,13 +48,13 @@ Prerequisites to pushing from within a repository include:
 
 At this stage, pushing is as simple as using the basic syntax with the correct remote and branch names:
 
-```
+```shell
 $ git push companyname-dev main
 ```
 
 When the push completes, it will display a message like this:
 
-```
+```shell
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
