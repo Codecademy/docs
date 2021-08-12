@@ -17,7 +17,7 @@ The same value can be stored in an array multiple times in different locations.
 
 ## Creating Arrays
 
-Arrays can be created several different ways, each with a specific use case.
+Arrays can be created several ways, each with a specific use case.
 
 An empty array can be declared and initalized with the following syntax:
 
