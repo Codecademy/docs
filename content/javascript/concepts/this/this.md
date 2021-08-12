@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/create-a-back-end-app-with-javascript"
 ---
 
-In JavaScript, the `this` keyword can have several different meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
+In JavaScript, the `this` keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
 
 ## `this` Called Within a Global Context
 
