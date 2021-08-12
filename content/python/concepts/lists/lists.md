@@ -13,7 +13,6 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
 
 A list in Python is a data type used to store a collection of objects. 
@@ -47,13 +46,11 @@ list5 = ['one', 'two', 'three']
 friends = ['Sue', 'Bob']
 
 print(type(friends))
-# Output: <type 'list'>
+# Output: <class 'list'>
 
-another_friend = 'Anna'
+# Use a built-in method to add Anna to the list of friends.
+friends.append('Anna')
 
-# Use a `list()` built in method to add Anna to the list of friends.
-my_list_of_friends = friends.append(another_friend)
-
-print(my_list_of_friends)
+print(friends)
 # Output: ['Sue', 'Bob', 'Anna']
 ```
