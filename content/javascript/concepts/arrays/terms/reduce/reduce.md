@@ -40,7 +40,7 @@ For example:
 array.reduce((acc, curr) => acc + curr, 10);
 ```
 
-## Examples
+## Example 1
 
 Add strings in an array. 
 
@@ -49,8 +49,9 @@ const a = ['a', 'b', 'c', 'd', 'e'];
 
 console.log(a.reduce((acc, curr) => acc + curr));
 // Output: 'abcde'
-
 ```
+
+## Example 2
 
 Add the values of each element together with an initial value.
 
@@ -60,6 +61,8 @@ const a = ['b', 'c', 'd', 'e'];
 console.log(a.reduce((acc, curr) => acc + curr, 'a'));
 // Output: 'abcde'
 ```
+
+## Example 3
 
 Subtract numbers in an array with initial value provided:
 
