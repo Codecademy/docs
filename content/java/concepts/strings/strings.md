@@ -17,10 +17,10 @@ Java strings provide a way to store something like a word, sentence, or whole pa
 
 ```java
 // Creating a String variable
-String name = "Bob";
+String name = "Codecademy";
 
 // Creating another String variable
-String address = "940 Lorimer Street #88, Brooklyn, NY 11222"
+String address = "575 Broadway #5, New York, NY 10012"
 ```
 
 To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`.
