@@ -21,7 +21,7 @@ string.startsWith(substring, position)
 ```
 
 - The `substring` is the specified characters.
-- The `position` is optional. It is use to start searching for `substring`. It starts at 0.
+- The `position` is optional. It is used to start searching for `substring`. It starts at 0.
 
 ## Example 1
 
