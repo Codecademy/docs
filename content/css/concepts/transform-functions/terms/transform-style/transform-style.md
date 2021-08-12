@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
 The `transform-style` property specifies if an element's children are positioned in 3D space or flattened.
@@ -28,7 +27,7 @@ The `transform-style` property can have one of two values:
   
 ## Example 1
 
-Preserving the 3D space of a `div` elements children elements.
+Preserving the 3D space of a `div` element's children elements.
 
 ```css
 div {
