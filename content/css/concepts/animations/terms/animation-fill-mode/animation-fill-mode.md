@@ -1,6 +1,6 @@
 ---
 Title: "animation-fill-mode"
-Description: "Defines what values are applied by an animation outside of its execution time."
+Description: "Defines what values are applied by an animation outside its execution time."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -9,12 +9,9 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
-
-
-Defines what values are applied by an animation outside of its execution time.
+The `animation-fill-mode` animiation propery defines what values are applied by an animation outside its execution time.
 
 ## Syntax
 
