@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-A CSS animation lets a HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.
+A CSS animation lets an HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.
 
 To use CSS animation, some keyframes for the animation must be specified.
 
