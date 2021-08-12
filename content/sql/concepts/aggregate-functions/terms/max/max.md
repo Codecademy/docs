@@ -14,8 +14,6 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
- 
-
 The `MAX()` aggregate function takes the name of a column as an argument and returns the largest value in a column.
 
 ## Syntax
@@ -29,7 +27,7 @@ The opposite of `MAX()` is `MIN()`.
 
 ## Example
 
-For instance, suppose there's an `transactions` table with the following values:
+For instance, suppose there's a `transactions` table with the following values:
 
 | date | amount | 
 | -- | -- |
