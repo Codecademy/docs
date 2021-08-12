@@ -29,7 +29,7 @@ struct Building {
 
 ## Default Property Values
 
-A structure’s properties can have preassigned default values to avoid assigning values during initialization. Optionally, these property’s values can still be assigned a value during initialization.
+A structure’s properties can have preassigned default values to avoid assigning values during initialization. Optionally, these properties' values can still be assigned a value during initialization.
 
 ```swift
 struct Car {
