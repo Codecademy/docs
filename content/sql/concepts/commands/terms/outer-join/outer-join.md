@@ -15,8 +15,6 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
- 
-
 Ccombine rows from different tables even if the join condition is not met.
 
 ## Syntax
@@ -45,4 +43,4 @@ LEFT JOIN transfer_data
   ON students.student_id = transfer_data.student_id;
 ```
 
-The result set will only includes last name, first name, and both GPAs.
+The result set will only include last name, first name, and both GPAs.
