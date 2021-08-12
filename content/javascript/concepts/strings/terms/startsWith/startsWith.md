@@ -12,9 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-
-
-Checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
+The `.startsWith()` Python string method checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.
 
 ## Syntax
 
@@ -27,7 +25,7 @@ string.startsWith(substring, position)
 
 ## Example 1
 
-Checking if a string starts with a specified characters:
+Checking if a string starts with specified characters:
 
 ```js
 console.log("Do you prefer coffee or tea?".startsWith("Do"));
@@ -36,7 +34,7 @@ console.log("Do you prefer coffee or tea?".startsWith("Do"));
 
 ## Example 2
 
-Checking if a string starts with a specified characters with a specified position:
+Checking if a string starts with specified characters with a specified position:
 
 ```js
 console.log("Do you prefer coffee or tea?".startsWith("coffee", 14));
