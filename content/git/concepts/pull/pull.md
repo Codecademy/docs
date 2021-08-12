@@ -19,7 +19,7 @@ Pulling a repository allows a programmer to access code from a remote backup and
 
 The basic syntax for pulling in Git is this:
 
-```
+```shell
 $ git pull <remote-name> <branch-name>
 ```
 
@@ -32,7 +32,7 @@ Prerequisites to pulling from a remote repository include:
 * Being inside of the local repository (if not, the next step will return an error)
 * Being inside of the correct branch and having a clean `git status` in that branch:
 
-    ```
+    ```shell
     $ git checkout new-feature-branch
     $ git status
 
@@ -42,7 +42,7 @@ Prerequisites to pulling from a remote repository include:
 
 * Having a valid remote repository set, in this case there is remote repository called companyname-dev:
 
-    ```
+    ```shell
     $ git remote -v
 
     companyname-dev	https://github.com/CompanyName/product-dev.git (fetch)
@@ -51,13 +51,13 @@ Prerequisites to pulling from a remote repository include:
 
 At this stage, pulling is as simple as using the basic syntax with the correct remote and branch names:
 
-```
+```shell
 $ git pull companyname-dev new-feature-branch
 ```
 
 When the pull completes, it will display a message like this:
 
-```
+```shell
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
