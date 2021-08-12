@@ -25,7 +25,7 @@ The values of the set must be contained within brackets `[]` and separated with 
 
 ## Empty Sets
 
-An empty set is a set that contains no values inside of it.
+An empty set is a set that contains no values inside.
 
 ```swift
 var team = Set<String>()
