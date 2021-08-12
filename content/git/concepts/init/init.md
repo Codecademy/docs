@@ -15,7 +15,7 @@ In Git, `init` is used to initiate the process of creating a repository. When be
 
 ## Syntax
 
-```console
+```shell
 git init
 ```
 
@@ -25,7 +25,7 @@ git init
 
 Make sure to be working from the correct directory. 
 
-```console
+```shell
 cd go/to/desired/project/directory
 ```
 
@@ -33,13 +33,13 @@ cd go/to/desired/project/directory
 
 Next, run the following command:
 
-```console
+```shell
 git init
 ```
 
 After the initialization is complete, the following should appear on the command line. 
 
-```console
+```shell
 Initialized empty Git repository in /go/to/desired/project/directory/.git/
 ```
 
