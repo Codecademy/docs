@@ -16,7 +16,7 @@ _Blockquotes_ indicate that the enclosed text is an extended quotation. They can
 
 To create a blockquote, add a right angle bracket `>` in front of a paragraph.
 
-```
+```markdown
 > Context and memory play powerful roles in all the truly great meals in one's life.
 ```
 
@@ -28,7 +28,7 @@ The output would look like this:
 
 Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
 
-```
+```markdown
 > The first rule about fight club is you don’t talk about fight club.
 > 
 > The second rule about fight club is you don’t talk about fight club.
@@ -44,7 +44,7 @@ The output would look like this:
 
 Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
 
-```
+```markdown
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
@@ -54,7 +54,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 
 Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
 
-```
+```markdown
 > #### The quarterly results look great.
 >
 > - Dogecoin was off the chart!
