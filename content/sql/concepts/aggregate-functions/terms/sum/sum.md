@@ -14,8 +14,6 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
- 
-
 The `SUM()` aggregate function takes the name of a column as an argument and returns the sum of all the value in that column.
 
 ## Syntax
@@ -27,7 +25,7 @@ FROM table_name;
 
 ## Example
 
-For instance, suppose there's an `transactions` table with the following values:
+For instance, suppose there's a `transactions` table with the following values:
 
 | date | amount | 
 | -- | -- |
