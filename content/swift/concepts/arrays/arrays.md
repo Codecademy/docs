@@ -128,7 +128,7 @@ for name in topBabyNames {
 // Olivia is the coolest name.
 ```
 
-A second technique is to call the `forEach()` method. This method will operate on all elements of the array and cannot by escaped using a `break` or `continue` call, evening returning a value in the body of the closure will only return that value out of the body and not the declaring method body. The `forEach()` method is commonly used when you want to ensure all elements are manipulated by the loop or to display the purpose of the loop to others reading your code.
+A second technique is to call the `forEach()` method. This method will operate on all elements of the array and cannot be escaped using a `break` or `continue` call, evening returning a value in the body of the closure will only return that value out of the body and not the declaring method body. The `forEach()` method is commonly used when you want to ensure all elements are manipulated by the loop or to display the purpose of the loop to others reading your code.
 
 ```swift
 topBabyNames.forEach { name in
@@ -136,7 +136,6 @@ topBabyNames.forEach { name in
 }
 // Same as above
 ```
-
 
 ## Useful Array Methods and Tests
 
