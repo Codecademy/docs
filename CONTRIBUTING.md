@@ -24,9 +24,9 @@ And here, templates for creating your own entries.
 
 | Template | GitHub Example | Docs Example |
 | --- | --- | --- |
-| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md)) | [Lists](https://staging.codecademy.com/resources/docs/python/lists) |
-| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://staging.codecademy.com/resources/docs/python/lists/append) |
-| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | Example | Result |
+| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md)) | [Lists](https://www.codecademy.com/resources/docs/python/lists) |
+| [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
+| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md)) | [SQL](https://www.codecademy.com/resources/docs/sql) |
 
 ## How do I contribute?
 
