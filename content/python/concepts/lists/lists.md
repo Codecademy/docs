@@ -46,11 +46,16 @@ list5 = ['one', 'two', 'three']
 friends = ['Sue', 'Bob']
 
 print(type(friends))
-# Output: <class 'list'>
 
 # Use a built-in method to add Anna to the list of friends.
 friends.append('Anna')
 
 print(friends)
-# Output: ['Sue', 'Bob', 'Anna']
+```
+
+The output would be:
+
+```shell
+<class 'list'>
+['Sue', 'Bob', 'Anna']
 ```
