@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-
-
-A shorthand for specifying the  `flex-direction` and `flex-wrap` properties. Defining `flex-flow` provides the parameters for child elements to be organized across the horizontal and vertical axes.
+The `flex-flow` property is a shorthand for specifying the  `flex-direction` and `flex-wrap` properties. Defining `flex-flow` provides the parameters for child elements to be organized across the horizontal and vertical axes.
 
 ## Syntax
 
@@ -27,8 +25,9 @@ A shorthand for specifying the  `flex-direction` and `flex-wrap` properties. Def
 ```
 
 A `<flow-value>` can be any of the values available for `flex-direction` and `flex-wrap`:
-- flex-direction: `row`, `row-reverse` , `column` , `column-reverse` 
-- flex-wrap: `wrap`, `nowrap` , `wrap-reverse` 
+
+- flex-direction: `row`, `row-reverse`, `column`, `column-reverse` 
+- flex-wrap: `wrap`, `nowrap`, `wrap-reverse` 
 
 ## Example 1
 
