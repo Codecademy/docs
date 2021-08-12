@@ -13,10 +13,7 @@ Tags:
 CatalogContent:
   - "learn-sql"
   - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
 ---
-
-
 
 Sorts the result set by a particular column either alphabetically or numerically.
 
@@ -35,7 +32,7 @@ ORDER BY column_name ASC | DESC;
 
 ## Example
 
-The below query will sort the result set by the `birth_date` column in a descending order.
+The below query will sort the result set by the `birth_date` column in descending order.
 
 ```sql
 SELECT *
