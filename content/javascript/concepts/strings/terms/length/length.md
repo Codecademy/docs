@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-
-
-`.length` is a string property and it returns the number of characters in a string.
+The `.length` string property returns the number of characters in a string.
 
 ## Syntax
 
@@ -30,4 +28,12 @@ Returning the length of a string in number:
 ```js
 console.log("I love New York!".length);
 // Output: 16
+```
+
+## Codebyte Example
+
+```codebyte/js
+var greeting = 'Hi internet.';
+
+console.log(greeting.length);
 ```
