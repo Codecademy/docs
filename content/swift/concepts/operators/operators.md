@@ -88,7 +88,7 @@ if (iAmTrue && iAmFalse) {
   // Both sides are checked because the first value is true and the compiler needs to check right side' value
   print("Both values are 'true' and the AND operator returned 'true'.")
 } else if (iAmTrue || iAmFalse) {
-  // Only the left side is evaluated, as soon as the compiler sees a 'true' it can reason the the OR requirements are met and will enter the 'else if' body
+  // Only the left side is evaluated, as soon as the compiler sees a 'true', it can reason that the OR requirements are met and will enter the 'else if' body
   print("At least one value was 'true'  and the OR operator returned 'true'.")
 } else {
   print("Neither value is 'true'.")
