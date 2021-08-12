@@ -12,9 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-
-
-Combines each element of an array, using a reducer function you specify, and returns a single value.
+The `.reduce()` array method combines each element of an array, using a reducer function you specify, and returns a single value.
 
 ## Syntax
 
