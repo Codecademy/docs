@@ -13,16 +13,13 @@ Tags:
 CatalogContent:
   - "learn-sql"
   - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
 ---
-
- 
 
 Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types.
 
 ## Code Example
 
-Suppose we want to get students with GPA between 0 and 2 in an ascending order:
+Suppose we want to get students with GPA between 0 and 2 in ascending order:
 
 ```sql
 SELECT * 
