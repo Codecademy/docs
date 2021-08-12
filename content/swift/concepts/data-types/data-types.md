@@ -48,7 +48,7 @@ let verySmallInteger: Int8 = 16
 
 ## Floating Point Numbers
 
-A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approaximately half a much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. In fact, when you declare a variable without specifying the type, Swift will type inference a `Double` as a precaution.
+A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approaximately half as much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. In fact, when you declare a variable without specifying the type, Swift will type inference a `Double` as a precaution.
 
 ```swift
 let accountBalance: Float = 857.45
