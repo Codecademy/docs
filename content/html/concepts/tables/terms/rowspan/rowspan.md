@@ -14,9 +14,9 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
- 
+[Table with cell that spans two rows]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-rowspan.png
 
-Specifies the number of rows a cell should span. 
+The `rowspan` attribute specifies the number of rows a cell should span. 
 
 ## Syntax
 
@@ -69,4 +69,25 @@ A table with a cell that spans two rows.
 </table>
 ```
 
-![Table with cell that spans two rows](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/html-rowspan.png)
+![Table with cell that spans two rows]
+
+<table>
+  <tr>
+    <th colspan="2">Languages and Frameworks</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Django</td>
+  </tr>
+  <tr>
+    <td rowspan="2">JavaScript</td>
+    <td>React.js</td>
+  </tr>
+  <tr>
+    <td>Vue.js</td>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>Ruby on Rails</td>
+  </tr>
+</table>
