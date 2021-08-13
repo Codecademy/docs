@@ -61,16 +61,16 @@ int main() {
   
   switch (rating) {
     case 5:
-      std::cout << "Exceptional\n";
+      std::cout << "Exceptional";
       break;
     case 4:
-      std::cout << "Good\n";
+      std::cout << "Good";
       break;
     case 3:
-      std::cout << "Fair\n";
+      std::cout << "Fair";
       break;
     default:
-      std::cout << "Poor\n";
+      std::cout << "Poor";
       break;
   }
 }
