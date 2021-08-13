@@ -94,7 +94,7 @@ for num in numbers:
 
 In this example, the output would be:
 
-```bash
+```shell
 0
 254
 2
