@@ -17,6 +17,8 @@ CatalogContent:
 [Gray box above black box]: https://raw.githubusercontent.com/Codecademy/docs/main/media/css-z-index-gray.png
 [Black box above gray box]: https://raw.githubusercontent.com/Codecademy/docs/main/media/css-z-index-black.png
 
+The `z-index` sets the stack order of an element.
+
 ## Syntax
 
 ```css
