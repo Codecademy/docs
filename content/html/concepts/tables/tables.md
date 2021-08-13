@@ -57,9 +57,13 @@ The table header element, denoted as `<th>`, is used to display data for a speci
 </table>
 ```
 
-| Heading 1 | Heading 2 | Heading 3 |
-| --- | --- | --- |
-
+<table>
+  <tr>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
+  </tr>
+</table>
 
 ### Table Data
 
