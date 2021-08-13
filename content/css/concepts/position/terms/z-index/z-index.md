@@ -14,7 +14,8 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-Sets the stack order of an element.
+[Gray box above black box]: https://raw.githubusercontent.com/Codecademy/docs/main/media/css-z-index-gray.png
+[Black box above gray box]: https://raw.githubusercontent.com/Codecademy/docs/main/media/css-z-index-black.png
 
 ## Syntax
 
@@ -40,7 +41,7 @@ In the following example, we have a gray box and a black box. We can set the gra
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index.png" alt="Gray box above black box" width="300px">
+![Gray box above black box]
 
 ## Example 2
 
@@ -56,4 +57,4 @@ If we wanted to have the black box above the gray box, we can simply give the bl
 }
 ```
 
-<img src="https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/z-index-2.png" alt="Black box above gray box" width="300px">
+![Black box above gray box]
