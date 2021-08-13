@@ -23,7 +23,7 @@ Within our larger program, we can indicate one or more blocks of code with `🍇
 
 So a basic Emojicode file will have the following structure:
 
-```
+```pseudo
 🏁 🍇
   Some code go here
 🍉
@@ -31,7 +31,7 @@ So a basic Emojicode file will have the following structure:
 
 To print in Emojicode, we use the `😀` `❗️` method:
 
-```
+```shell
 😀 🔤Hello, World!🔤❗️
 ```
 
@@ -44,7 +44,7 @@ This prints "Hello, World!" to the terminal.
 
 Here's a program called **welcome.emojic** that prints a string:
 
-```emojic
+```shell
 🏁 🍇
   😀 🔤Welcome to Codecademy Docs🔤❗️
 🍉
