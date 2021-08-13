@@ -70,8 +70,8 @@ int main() {
   grades[1] = 86;
   grades[2] = 98;
   
-  std::cout << grades[0] << "\n";
-  std::cout << grades[1] << "\n";
-  std::cout << grades[2] << "\n";
+  std::cout << grades[0] << ", ";
+  std::cout << grades[1] << ", ";
+  std::cout << grades[2];
 }
 ```
