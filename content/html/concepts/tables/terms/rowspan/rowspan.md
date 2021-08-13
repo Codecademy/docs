@@ -70,24 +70,3 @@ A table with a cell that spans two rows.
 ```
 
 ![Table with cell that spans two rows]
-
-<table>
-  <tr>
-    <th colspan="2">Languages and Frameworks</th>
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>Django</td>
-  </tr>
-  <tr>
-    <td rowspan="2">JavaScript</td>
-    <td>React.js</td>
-  </tr>
-  <tr>
-    <td>Vue.js</td>
-  </tr>
-  <tr>
-    <td>Ruby</td>
-    <td>Ruby on Rails</td>
-  </tr>
-</table>
