@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/full-stack-engineer-career-path"
 ---
 
-[Table with a cell that spans two columns](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png)
+[Table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png
 
 Defines the number of columns a cell should span. 
 
