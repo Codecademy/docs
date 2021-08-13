@@ -91,7 +91,7 @@ if (wellRested) {
 
 The output would be:
 
-```
+```shell
 Output: Best of luck today!
 Output: You are prepared for your exam!
 ```
