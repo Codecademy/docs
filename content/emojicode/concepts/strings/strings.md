@@ -19,7 +19,7 @@ Technically speaking, a string is a sequence of characters. It can be of any len
 
 Here are four different strings in Emojicode:
 
-```emojic
+```shell
 🔤This is a string!🔤
 🔤This is also a string!!!🔤
 🔤1337🔤
@@ -32,7 +32,7 @@ It’s important to distinguish between strings and the rest of the code in our 
 
 Here's a full program that print out two strings:
 
-```emojic
+```shell
 🏁 🍇
   😀 🔤2020...🔤❗️
   😀 🔤That was a crazy year.🔤❗️
@@ -47,7 +47,7 @@ In Emojicode, to insert a value into a string using string interpolation, we can
 
 Suppose we have a constant named `height` with a value of `3000`, and we want to use string interpolation to print out a fun fact:
 
-```
+```shell
 3000 ➡️ height
  
 😀 🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
@@ -55,6 +55,6 @@ Suppose we have a constant named `height` with a value of `3000`, and we want to
 
 It will output:
 
-```
+```shell
 Alex Honnold climbed El Capitan, which is 3000 feet, without a rope!
 ```
