@@ -17,7 +17,9 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-A relational database is a store of data organized in tables made of columns and rows, and the relationships between those tables. 
+[Relational database example]: https://raw.githubusercontent.com/Codecademy/docs/main/media/general-relational-database.png "Example of a Relational Database"
+
+A _relational database_ is a store of data organized in tables made of columns and rows, and the relationships between those tables. 
 The software that controls a relational database is called a relational database management system (RDBMS) and typically allows management and updates to the database through an implementation of the structured query language (SQL).
 
 ## Structure of a Relational Database
@@ -37,7 +39,7 @@ Each entry in the `sales` table would have a foreign key referring to the primar
 
 The relation between the `product` table to the `sales` table is referred to as a one-to-many relationship (for each product there can be multiple sales). 
 
-![relational database example](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/general-relational-database.png "Example of a Relational Database")
+![Relational database example]
 
 ## Examples of Relational Database Management Systems
 
