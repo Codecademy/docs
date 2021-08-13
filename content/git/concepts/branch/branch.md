@@ -16,9 +16,7 @@ In Git, a _branch_ represents a way to provide an isolated copy of the current c
 
 <!-- IMAGE: Standard Git branching with main branch, splitting into two, merging at the end. -->
 
-## Syntax
-
-### Creating a Branch
+## Creating a Branch
 
 The basic syntax for creating a branch in Git is this:
 
@@ -28,7 +26,7 @@ $ git branch <branch-name>
 
 Using this command from `<current-branch>` will create a new branch called `<branch-name>` based off of the code that is currently in `<current-branch>`.
 
-### Moving Between Branches
+## Moving Between Branches
 
 The basic syntax for moving between branches in Git is this:
 
@@ -38,7 +36,7 @@ $ git checkout <branch-name>
 
 This will change the active branch to the one named `<branch-name>`. Any editing done this point will be to the copy of the code within `<branch-name>` rather than the previous branch.
 
-### Deleting a Branch
+## Deleting a Branch
 
 The basic syntax for removing a branch in Git is this:
 
@@ -48,7 +46,7 @@ $ git branch -d <branch-name>
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-### Combining Branches
+## Combining Branches
 
 The basic syntax for moving code from one branch into another in Git is this:
 
