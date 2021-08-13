@@ -18,7 +18,7 @@ In Emojicode, to insert a value into a string using string interpolation, we can
 
 Suppose we have a constant named `height` with a value of `3000`, and we want to use string interpolation to print out a fun fact:
 
-```
+```shell
 3000 ➡️ height
  
 😀 🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
@@ -26,13 +26,13 @@ Suppose we have a constant named `height` with a value of `3000`, and we want to
 
 It will output:
 
-```
+```shell
 Alex Honnold climbed El Capitan, which is 3000 feet, without a rope!
 ```
 
 ## Example
 
-```emojic
+```shell
 💭 Tip Calculator
 
 🏁 🍇
