@@ -28,7 +28,7 @@ An IDE that knows the syntax of your language can provide visual cues. Keywords,
 
 Compare these two code samples:
 
-```
+```shell
 // Without syntax highlighting
  
 public class NiceDay {
@@ -39,7 +39,7 @@ public class NiceDay {
 ```
 
 ```java
-// with syntax highlighting
+// With syntax highlighting
  
 public class NiceDay {
   public static void main(String[] args) {
