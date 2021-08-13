@@ -68,3 +68,22 @@ A table with a cell that spans two columns.
 ```
 
 ![Table with a cell that spans two columns]
+
+<table>
+  <tr>
+    <!-- Spans two columns -->
+    <th colspan="2">Languages and Frameworks</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Django</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>React.js</td>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>Ruby on Rails</td>
+  </tr>
+</table>
