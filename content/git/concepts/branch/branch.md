@@ -56,7 +56,7 @@ $ git merge <branch-name>
 
 This will merge the code from `<branch-name>` to the currently checked out branch.
 
-## Basic Example
+## Example
 
 When working with code, a programmer will often want to work on a specific feature. They will create a branch off of the main one, and code within it. Once they are happy with the feature and are certain that it is ready to be added back to the main branch they will merge it from the feature branch into the main one. Finally, they will clean up their repository by deleting the feature branch.
 
