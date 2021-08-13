@@ -10,7 +10,8 @@ Tags:
   - "Android"
   - "Code Editors"
 CatalogContent: 
-  - "https://www.codecademy.com/articles/what-is-an-ide"
+  - "learn-python-3"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.
