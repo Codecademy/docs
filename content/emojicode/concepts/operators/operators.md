@@ -22,7 +22,7 @@ Emojicode supports arithmetic operators for:
 
 For example:
 
-```
+```shell
 4 ➕ 2 ➡️ score1     💭 scores1 is 6
  
 4 ➖ 2 ➡️ score2     💭 scores2 is 2
