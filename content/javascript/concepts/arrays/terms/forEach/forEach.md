@@ -12,9 +12,7 @@ CatalogContent:
   - "paths/web-development"
 ---
 
-
-
-Loops over the array, passing each item in the array into the callback function provided.
+The `.forEach()` array method loops over the array, passing each item in the array into the callback function provided.
 
 ## Syntax
 
@@ -40,7 +38,7 @@ Logging each value in an array:
 
 The output would be:
 
-```
+```shell
 a
 b
 c
@@ -58,4 +56,15 @@ values.forEach((value) => (sumOfValues += value));
 
 console.log(sumOfValues);
 // Output: 126
+```
+
+## Codebyte Example
+
+```codebyte/js
+const values = [8, 12, 21, 58, 2, 3];
+let productOfValues = 0;
+
+values.forEach((value) => (productOfValues *= value));
+
+console.log(productOfValues);
 ```
