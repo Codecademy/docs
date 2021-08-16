@@ -8,8 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-sql"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - "paths/analyze-data-with-sql"
 ---
 
 Dates in SQL are often written in the following format:
