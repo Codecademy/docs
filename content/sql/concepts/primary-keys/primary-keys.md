@@ -8,8 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-sql"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - "paths/analyze-data-with-sql"
 ---
 
 SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called *primary keys*.
