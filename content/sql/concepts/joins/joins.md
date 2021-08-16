@@ -8,8 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-sql"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - "paths/analyze-data-with-sql"
 ---
 
 In order to efficiently store data, we often spread related information across multiple tables. 
