@@ -9,7 +9,7 @@ Tags:
   - "Memory"
 CatalogContent:
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Encapsulation is one of the four principles of object-oriented programming (OOP) which emphasize modularity and hiding away of complexities in order to better maintain and reason about code. 

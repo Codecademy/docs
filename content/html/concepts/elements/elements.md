@@ -8,7 +8,7 @@ Tags:
   - "Attributes"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An HTML element is a piece of content in an HTML document and uses the following syntax:

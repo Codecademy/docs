@@ -9,7 +9,7 @@ Tags:
   - "Methods"
 CatalogContent:
   - "introduction-to-javascript"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.concat()` array method merges, or concatenates, two or more arrays.

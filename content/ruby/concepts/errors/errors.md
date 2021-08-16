@@ -9,7 +9,7 @@ Tags:
   - "Classes"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Ruby uses exceptions to report errors and other information when something in the program has gone wrong. 

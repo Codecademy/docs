@@ -9,7 +9,7 @@ Tags:
   - "GitHub"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Emphasis can be added by making text bold or italic.

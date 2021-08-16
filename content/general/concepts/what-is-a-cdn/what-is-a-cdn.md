@@ -11,7 +11,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Content Delivery Network (CDN) is a method of implementing a cache in the browser which retains copies of web content at various points throughout a network and serves them to clients from the closest network location. This is done by geographically distributed group of servers which work together to provide fast delivery of Internet content.

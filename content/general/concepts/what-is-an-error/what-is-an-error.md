@@ -10,7 +10,7 @@ Tags:
   - "Best Practices"
 CatalogContent:
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
   - "paths/data-science"
 ---
 

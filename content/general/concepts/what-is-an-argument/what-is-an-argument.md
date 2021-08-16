@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An argument is the actual value of a variable (aka. the parameter) passed into a function.

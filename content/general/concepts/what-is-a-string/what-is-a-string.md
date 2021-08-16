@@ -12,7 +12,7 @@ CatalogContent:
   - "learn-python-3"
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as:

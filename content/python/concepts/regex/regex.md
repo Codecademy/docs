@@ -11,7 +11,7 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Regex, short for Regular Expressions, is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python. 

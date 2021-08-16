@@ -9,7 +9,7 @@ Tags:
   - "Methods"
 CatalogContent:
   - "introduction-to-javascript"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.startsWith()` Python string method checks whether a string begins with the specified characters. It will only return a boolean value, either `true` or `false`.

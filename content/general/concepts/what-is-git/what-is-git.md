@@ -9,7 +9,7 @@ Tags:
   - "Git"
 CatalogContent:  
   - "learn-git"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 [Git](https://git-scm.com) is a version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the `main` branch of the codebase (or Git repository).

@@ -8,7 +8,7 @@ Tags:
   - "Paragraphs"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The HTML `<form>` element is used to collect and send information to an external source.

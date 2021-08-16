@@ -8,8 +8,8 @@ Tags:
   - "Arrays"
   - "Methods"
 CatalogContent:
-  - "learn-javascript"
-  - "paths/web-development"
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.reduce()` array method combines each element of an array, using a reducer function you specify, and returns a single value.

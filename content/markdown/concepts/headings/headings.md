@@ -9,7 +9,7 @@ Tags:
   - "GitHub"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Headings are titles or subtitles that you want to display with Markdown. There is a total of 6 different headings.

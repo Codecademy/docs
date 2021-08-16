@@ -8,7 +8,7 @@ Tags:
   - "APIs"
   - "Developer Tools"
 CatalogContent:
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
   - "paths/computer-science"
 ---
 
