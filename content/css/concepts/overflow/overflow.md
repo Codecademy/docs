@@ -22,6 +22,7 @@ The most commonly used values are:
 ```css
 p {
   overflow: scroll; 
+}
 ```
 
 Here, if any of the paragraph content overflows (perhaps a user resizes their browser window), a scrollbar will appear so that users can view the rest of the content.
