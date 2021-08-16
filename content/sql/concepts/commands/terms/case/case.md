@@ -12,7 +12,7 @@ Tags:
   - "SQLite"
 CatalogContent:
   - "learn-sql"
-  - "analyze-data-with-sql"
+  - "paths/analyze-data-with-sql"
   - "paths/design-databases-with-postgresql"
 ---
 

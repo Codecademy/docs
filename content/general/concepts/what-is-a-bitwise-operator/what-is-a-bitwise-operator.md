@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Bitwise operators_ are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications. 

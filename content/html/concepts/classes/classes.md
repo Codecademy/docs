@@ -9,7 +9,7 @@ Tags:
   - "Style"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. 

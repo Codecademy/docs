@@ -7,7 +7,7 @@ Tags:
   - "Types"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. 

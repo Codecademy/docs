@@ -10,7 +10,7 @@ Tags:
   - "Sets"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, a `Set` is a collection of uordered, non-duplicated values. They are functional like an `Array` but have quick lookup with `Hash`-storage. 

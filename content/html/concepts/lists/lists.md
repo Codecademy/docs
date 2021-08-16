@@ -8,7 +8,7 @@ Tags:
   - "Paragraphs"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<li>` list item element create list items inside:

@@ -13,7 +13,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Object-oriented programming_ (OOP) is a software development paradigm which encourages scultping desired entities with properties and methods in named classes to create applications. 

@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Internet of Things_ (IoT) is a term used to describe hardware which can be connected to the internet in order to provide a service. 

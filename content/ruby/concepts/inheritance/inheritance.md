@@ -8,7 +8,7 @@ Tags:
   - "Inheritance"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, inheritance describes the relation between classes. 

@@ -8,7 +8,7 @@ Tags:
   - "Video"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Embedding videos within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium.

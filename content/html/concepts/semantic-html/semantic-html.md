@@ -7,7 +7,7 @@ Tags:
   - "Semantic"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Semantic HTML introduces meaning to the code we write. 

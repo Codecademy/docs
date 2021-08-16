@@ -9,7 +9,7 @@ Tags:
   - "OOP"
 CatalogContent:
   - "learn-php"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
   - "paths/computer-science"
 ---
 A class is a definition of the properties and methods of a particular type of object.

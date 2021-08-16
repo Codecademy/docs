@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Central Processing Unit (CPU) is used to describe the electrical circuitry in a computer responsible for executing instruction sets derived from programs that have been converted into machine code. 

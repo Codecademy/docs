@@ -10,7 +10,7 @@ Tags:
 CatalogContent:  
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A class is a piece of code within a program that functions as a template or blueprint for creating mulitple instances of a particular object. 

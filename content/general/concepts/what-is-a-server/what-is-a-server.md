@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A server is a hardware or software device used to provide resources to clients or requesting applications. Servers run on an architecture for fulfilling requests called the "Client-Server Model", which works by the client asking the server for specific data in an agreed upon format and the server readying and providing the data. 

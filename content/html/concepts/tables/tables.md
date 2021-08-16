@@ -8,7 +8,7 @@ Tags:
   - "Web Development"
 CatalogContent: 
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.

@@ -9,7 +9,7 @@ Tags:
   - "Arguments"
 CatalogContent:
   - "learn-php"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
   - "paths/computer-science"
 ---
 Functions are blocks of code that can be repeatedly called by other code when it executes.

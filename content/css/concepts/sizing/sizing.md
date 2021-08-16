@@ -9,8 +9,8 @@ Tags:
   - "Properties"
   - "Documentation"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The CSS `height` and `width` properties are used to set the height and width of an element. They do not include padding, borders, or margins of the element, but instead, the height/width of the area *inside* the padding, border, and margin.

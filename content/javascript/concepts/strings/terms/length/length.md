@@ -10,7 +10,7 @@ Tags:
   - "Methods"
 CatalogContent:
   - "introduction-to-javascript"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.length` string property returns the number of characters in a string.

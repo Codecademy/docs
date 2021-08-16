@@ -8,7 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Commenting code helps programmers write free text that is commonly used to explain the code written, or can even be used to add TO-DOs to the code. 

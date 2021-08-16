@@ -9,7 +9,7 @@ Tags:
   - "GitHub"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Blockquotes_ indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.

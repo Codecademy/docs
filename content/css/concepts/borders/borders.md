@@ -8,8 +8,8 @@ Tags:
   - "Properties"
   - "Elements"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A border is a line that surrounds an element, like a frame around a painting. 

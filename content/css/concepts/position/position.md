@@ -8,8 +8,8 @@ Tags:
   - "Properties"
   - "Documentation"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Positioning in CSS provides designers and developers options for positioning HTML elements on a web page. 

@@ -7,8 +7,8 @@ Tags:
   - "Color"
   - "Functions"
 Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 CSS color functions are used, and only used,  as values for color properties.

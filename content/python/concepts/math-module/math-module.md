@@ -10,7 +10,7 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Python has a built-in `math` module that we can use for mathematical tasks. This module provides access to the mathematical functions defined by the C standard.
