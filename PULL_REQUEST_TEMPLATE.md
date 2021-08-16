@@ -1,15 +1,12 @@
-Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom. And edit the portion above the horizontal line!
+<!--- Please read this document in its entirety, including the Codecademy Contributor Agreement at the bottom. And edit the portion above the horizontal line! -->
 
 ### Description
 
-Please include a summary of the change, such as which topic(s) and file(s). Please also include relevant motivation and context:
-
-
+<!--- Please include a summary of the change, such as which topic(s) and file(s). Please also include relevant motivation and context: -->
 
 ### Type of Change
 
-Please check the boxes that are revelant to this PR:
-
+<!--- Please check the boxes that are revelant to this PR: -->
 - [ ] Adding a new entry
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
 - [ ] Updating the documentation
@@ -23,8 +20,7 @@ Please check the boxes that are revelant to this PR:
 - [ ] I have checked my entry and corrected any misspellings
 - [ ] All writings are my own
 
----
-
+<!---
 ### Codecademy Contributor Agreement
 
 As a Codecademy Contributor, by submitting any "Asset" to Codecademy via GitHub, you agree to the terms of this "Contributor Agreement":
@@ -34,3 +30,4 @@ As a Codecademy Contributor, by submitting any "Asset" to Codecademy via GitHub,
 **_Asset License._** Subject to the terms of this Contributor Agreement, Codecademy grants you a perpetual, royalty-free, nonexclusive, nontransferable, worldwide right to use the Asset provided you may not use the Asset in any way that directly competes with Codecademy.
 
 **_Contributor Spotlights._** You agree Codecademy may use your information including your personal information (e.g., username, date of account, number of contributions) and information related to the Asset (e.g., topic, type etc.), that you provide to Codecademy (i.e., via your account profile page, contributor submission form, or otherwise), to market and advertise Codecademy’s Contributor program and related Contributor spotlight pages all subject to Codecademy’s Privacy Policy.
+-->
