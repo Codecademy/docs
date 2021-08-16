@@ -14,7 +14,6 @@ Tags:
 CatalogContent:
   - "learn-sql"
   - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
 ---
 
 SQL operators are unique keywords used in the `WHERE` clause of a statement to perform arithmetic, comparison, and logical operations. 
