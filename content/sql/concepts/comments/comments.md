@@ -8,8 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-sql"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - "paths/analyze-data-with-sql"
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code, or to prevent execution of SQL statements.
