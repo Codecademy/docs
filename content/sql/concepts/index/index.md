@@ -9,7 +9,6 @@ Tags:
   - "PostgreSQL"
 CatalogContent:
   - "learn-sql"
-  - "paths/analyze-data-with-sql"
   - "paths/design-databases-with-postgresql"
 ---
 
