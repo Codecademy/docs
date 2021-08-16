@@ -9,8 +9,8 @@ Tags:
   - "Properties"
   - "Documentation"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space.

@@ -9,7 +9,7 @@ Tags:
 CatalogContent:
   - "paths/code-foundations"
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Polymorphism_ is one of the four principles of object-oriented programming (OOP). It promotes dynamic inheritance of child classes from their parent class in order to make use of these features themselves in code. 

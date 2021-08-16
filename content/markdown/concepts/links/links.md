@@ -9,7 +9,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 To create a link, enclose the link alt text in square brackets `[Alt text]` and then follow it immediately with the URL in parentheses `(https://website-name.com)`.

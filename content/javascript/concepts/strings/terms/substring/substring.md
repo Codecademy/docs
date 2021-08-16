@@ -8,7 +8,7 @@ Tags:
   - "Strings"
   - "Methods"
 CatalogContent:
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 

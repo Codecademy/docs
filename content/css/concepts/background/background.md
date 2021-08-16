@@ -7,8 +7,8 @@ Tags:
   - "Background"
   - "Elements"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The CSS `background` properties are used to add background wallpaper visuals for HTML elements.

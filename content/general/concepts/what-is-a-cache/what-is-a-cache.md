@@ -10,7 +10,7 @@ Tags:
   - "Queries"
 CatalogContent:
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A _cache_ is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. 

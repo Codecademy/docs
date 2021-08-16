@@ -7,8 +7,8 @@ Tags:
   - "Arrays"
   - "Data Types"
 CatalogContent:
-  - "learn-javascript"
-  - "paths/web-development"
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
   - "paths/computer-science"
 ---
 

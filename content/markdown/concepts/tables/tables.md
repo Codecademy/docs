@@ -9,7 +9,7 @@ Tags:
   - "GitHub"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A table is an arrangement of data in rows and columns.

@@ -8,8 +8,8 @@ Tags:
   - "Elements"
   - "Properties"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The space between the contents of a box and the borders of a box is known as *padding*. Padding is like the space between a picture and the frame surrounding it. 

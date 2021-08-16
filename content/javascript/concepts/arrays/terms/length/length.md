@@ -9,7 +9,7 @@ Tags:
   - "Properties"
 CatalogContent:
   - "introduction-to-javascript"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 

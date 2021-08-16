@@ -7,7 +7,7 @@ Tags:
   - "Requests"
 CatalogContent:
   - "react-101"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, routing is most commonly achieved through React Router.

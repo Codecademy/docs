@@ -10,7 +10,7 @@ Tags:
   - "Interface"
 CatalogContent:  
   - "paths/computer-science"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 API stands for Application Programing Interface and is a term used to describe specifications that allow applications to communicate with one another. 

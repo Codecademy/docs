@@ -7,7 +7,7 @@ Tags:
   - "Date"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, date- and time-specific data are handled by two classes: 

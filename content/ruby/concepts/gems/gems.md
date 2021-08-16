@@ -7,7 +7,7 @@ Tags:
   - "Libraries"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, gems are open-source Ruby libraries or applications that lend extra utilities to other applications. Each gem is composed of: 

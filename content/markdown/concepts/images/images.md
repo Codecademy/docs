@@ -10,7 +10,7 @@ Tags:
   - "GitHub"
 CatalogContent:
   - "paths/learn-how-to-build-websites"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Embedding an image is very similar to adding a link in Markdown:

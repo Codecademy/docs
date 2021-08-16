@@ -7,8 +7,8 @@ Tags:
   - "Properties"
   - "Elements"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `overflow` property controls what happens to content that spills, or overflows, outside its box. 

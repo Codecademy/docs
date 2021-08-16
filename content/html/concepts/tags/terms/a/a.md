@@ -10,7 +10,7 @@ Tags:
   - "URL"
 CatalogContent:
   - "learn-html"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
  

@@ -8,7 +8,7 @@ Tags:
   - "Syntax"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, lambdas are anonymous function code blocks that can take zero or more arguments. They can then be stored or passed in other values and called primarily with the `#call` method. 

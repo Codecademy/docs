@@ -9,8 +9,8 @@ Tags:
   - "Elements"
   - "Properties"
 CatalogContent:
-  - "learn-csss"
-  - "paths/web-development"
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Typography is the art of arranging text on a page. Some of the most important information a user will see on a web page will be textual.

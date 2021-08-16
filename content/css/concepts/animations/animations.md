@@ -8,7 +8,7 @@ Tags:
   - "Elements"
 CatalogContent:
   - "learn-css"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A CSS animation lets an HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.

@@ -8,7 +8,7 @@ Tags:
   - "Classes"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `File` class is used for working with file objects in Ruby. 

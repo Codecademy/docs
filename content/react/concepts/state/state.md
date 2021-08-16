@@ -9,7 +9,7 @@ Tags:
   - "React"
 CatalogContent:
   - "react-101"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `state` object is where we store data in a component that is expected to change over time. When the `state` object changes, the component re-renders.

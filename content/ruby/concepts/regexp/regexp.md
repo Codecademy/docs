@@ -7,7 +7,7 @@ Tags:
   - "Regular Expressions"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, Regular Expressions (shortened as RegExp), are used to describe and match patterns in strings. This functionality is housed in the `Regexp` class. 

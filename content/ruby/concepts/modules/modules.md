@@ -10,7 +10,7 @@ Tags:
   - "Files"
 CatalogContent:
   - "learn-ruby"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them. 

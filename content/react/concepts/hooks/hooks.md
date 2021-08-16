@@ -7,7 +7,7 @@ Tags:
   - "React"
 CatalogContent:
   - "react-101"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, hooks are functions that give function components class-like abilities. These abilities include:

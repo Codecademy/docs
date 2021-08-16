@@ -9,7 +9,7 @@ Tags:
   - "Methods"
 CatalogContent:
   - "introduction-to-javascript"
-  - "paths/web-development"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.forEach()` array method loops over the array, passing each item in the array into the callback function provided.
