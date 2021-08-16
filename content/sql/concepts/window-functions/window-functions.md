@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "learn-sql"
   - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
 ---
 
 A window function performs a calculation over the inputted column and then returns the calculated value for each row. Window functions can be identified by their use of the `OVER` clause.
