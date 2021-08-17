@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
 [Table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png
