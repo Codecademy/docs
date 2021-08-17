@@ -44,4 +44,4 @@ line break
 
 ## Best Practices
 
-Make sure to not add tabs or spaces in front of the paragraph text, because itit will create indentation.
+Make sure to not add tabs or spaces in front of the paragraph text, because they will create unwanted indentation.
