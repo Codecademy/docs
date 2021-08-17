@@ -21,7 +21,9 @@ In JavaScript methods are object properties containing a function definition. Wi
 
 A method of an object is called via the following syntax:
 
-<code><i>objectName</i>.<i>methodName</i>()</code>
+```js
+objectName.methodName()
+```
 
 If a method is called without parenthesis, it is being called as a property, which means it will return the function definition, not execute the method.
 
