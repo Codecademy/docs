@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "learn-html"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
 [Table with cell that spans two rows]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-rowspan.png
