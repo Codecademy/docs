@@ -7,9 +7,9 @@ Tags:
   - "Node" 
   - "Developer Tools"
   - "Dependency"
-CatalogContent:  
+CatalogContent:
+  - "introduction-to-javascript"
   - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
 ---
 
 Node.js is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.
