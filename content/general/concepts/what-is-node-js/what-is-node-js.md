@@ -34,7 +34,7 @@ Node provides access to several important global objects for use with Node progr
 
 ### Modules
 
-Node has a many built-in modules to aid in interactions with the command line, the computer file system, and the Internet. These include
+Node has a many built-in modules to aid in interactions with the command line, the computer file system, and the Internet. These include:
 
 * <a href="https://nodejs.org/dist/latest/docs/api/http.html">HTTP</a> and <a href="https://nodejs.org/dist/latest/docs/api/https.html" >HTTPS</a> for creating web servers.
 * <a href="https://nodejs.org/dist/latest/docs/api/fs.html">File System</a>, <a href="https://nodejs.org/dist/latest/docs/api/os.html" >OS</a>, and <a href="https://nodejs.org/dist/latest/docs/api/path.html" >Path</a> for interacting with the file system, operating system, and file/directory paths.
@@ -43,7 +43,7 @@ You can view the full <a href="https://nodejs.org/dist/latest/docs/api/" target=
 
 ## Why Node?
 
-Per the <a href="https://nodejs.org/" >Node.js homepage</a>, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JavaScript code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
+Per the <a href="https://nodejs.org/">Node.js homepage</a>, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JavaScript code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
 
 To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a callback function. This callback will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error occurred in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an Error object, but it will be `null` if no error occurs.
 
@@ -51,11 +51,11 @@ To handle asynchronous code, Node uses a callback-based system. Node functions a
 const fs = require('fs');
 
 fs.readFile('./script.js', function(error, data) {
-  // error is null if no error occurred, but an Error object if it did
+  // Error is null if no error occurred, but an Error object if it did
   if (error) {
    throw error;
   }
-  // the file data will be passed into the callback if no error was thrown
+  // The file data will be passed into the callback if no error was thrown
   console.log(data);
 });
 ```
