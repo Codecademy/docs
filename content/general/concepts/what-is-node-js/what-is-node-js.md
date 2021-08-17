@@ -75,7 +75,7 @@ To begin, <a href="https://nodejs.org/en/download/" target="_blank">download</a>
 
 To run JS files in Node, the `node` command followed by a file path will execute the program file.
 
-For example, if we have the following saved in a file *script.js*:
+For example, if we have the following saved in a file **script.js**:
 
 ```js
 console.log('I am a Node program');
@@ -129,7 +129,7 @@ var a = 'Node REPL is fun!';
 'Node REPL is fun!'
 ```
 
-After the script file is loaded, the variables are accessible in the REPL, so when we evaluate the `a` variable, it's value has been set by loading *script.js*, and 'Node REPL is fun!' prints to the console.
+After the script file is loaded, the variables are accessible in the REPL, so when we evaluate the `a` variable, it's value has been set by loading **script.js**, and 'Node REPL is fun!' prints to the console.
 
 Try it out yourself by running `node` in a terminal or check out the <a href="https://nodejs.org/api/repl.html" >REPL docs</a> for more functionality.
 
