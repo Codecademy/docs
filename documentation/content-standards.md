@@ -7,9 +7,17 @@ Codecademy Docs content will fall into two categories:
 ### 1. Entry
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
+
+General:
   - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
   - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
+  - [What is a Bitwise Operator?](https://staging.codecademy.com/resources/docs/general/what-is-a-bitwise-operator)
  
+Python:
+  - [Lists](https://staging.codecademy.com/resources/docs/python/lists)
+  - [Conditionals](https://staging.codecademy.com/resources/docs/python/conditionals)
+  - [Dictonaries](https://staging.codecademy.com/resources/docs/python/dictionaries)
+
 ### 2. Entry with a Term Table
 
 Short lists of key information about a specific function, keyword, tag, or other grouping.
