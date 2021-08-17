@@ -67,7 +67,7 @@ All code blocks should be delineated by triple backticks (```)
 - R: ```r
 - Ruby: ```rb
 - Sass: ```scss
-- Shell/Program Output: ```
+- Shell/Program Output: ```shell
 - SQL: ```sql
 
 #### Codebytes: Runnable Code Blocks
