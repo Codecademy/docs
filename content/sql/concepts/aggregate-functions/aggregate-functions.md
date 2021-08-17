@@ -8,7 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-sql"
-  - "analyze-data-with-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 In SQL, aggregate functions perform a calculation on a set of values and return a single value. They are often used with the `GROUP BY` clause of the `SELECT` statement.
