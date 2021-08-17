@@ -5,7 +5,7 @@ Title: "Markdown" # This is the name that appears on the hub page for this langu
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/bash" # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 CatalogContent:
   - "learn-html"
-  - "paths/fullstack-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber and Aaron Swartz in 2004 as a language that is appealing to human readers in its source code form.
