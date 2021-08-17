@@ -41,3 +41,9 @@ Alex Honnold climbed El Capitan, which is 3000 feet, without a rope!
   😀 🔤The tip is $🧲tip🧲🔤❗️
 🍉
 ```
+
+It will output:
+
+```shell
+The tip is 3.80
+```
