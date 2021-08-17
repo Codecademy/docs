@@ -104,7 +104,7 @@ undefined
 $ 
 ```
  
-In this example, the user launches node on line one with the `node` terminal command. On line 2 the user types `4 + 5` and evaluates with the return key. `9` prints to the output terminal.
+In this example, the user launches node on line one with the `node` terminal command. On line 2 the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
 
 On line 4, the user opens a function declaration of `nodeIsGreat`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value. When the function is invoked on line 8, `Node is great!` logs to the console, and `undefined` logs after, because `nodeIsGreat()` returns `undefined`.
 
