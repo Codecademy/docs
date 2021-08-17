@@ -62,7 +62,7 @@ fs.readFile('./script.js', function(error, data) {
 
 In this example, we are using Node's built-in `fs` module to read a **script.js** file. The callback function is called after the file-reading operation is completed. If an error occurred, it will be passed in as `error` and thrown. If it doesn’t exist, the retrieved data from the file reading operation is logged to the console.
 
-## How to use Node
+## How to Use Node
 
 This video will show you how to download and install Node.
 
