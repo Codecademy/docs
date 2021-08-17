@@ -60,7 +60,7 @@ fs.readFile('./script.js', function(error, data) {
 });
 ```
 
-In this example, we are using Node's built-in `fs` module to read a *script.js* file. The callback function is called after the file-reading operation is completed. If an error occurred, it will be passed in as `error` and thrown. If it doesn’t exist, the retrieved data from the file reading operation is logged to the console.
+In this example, we are using Node's built-in `fs` module to read a **script.js** file. The callback function is called after the file-reading operation is completed. If an error occurred, it will be passed in as `error` and thrown. If it doesn’t exist, the retrieved data from the file reading operation is logged to the console.
 
 ## How to use Node
 
@@ -81,13 +81,13 @@ For example, if we have the following saved in a file **script.js**:
 console.log('I am a Node program');
 ```
 
-Running the terminal command `node script.js` in the same folder as *script.js* will start Node, print `I am a Node program` to the terminal window, and exit, as the script file has finished execution.
+Running the terminal command `node script.js` in the same folder as **script.js** will start Node, print `I am a Node program` to the terminal window, and exit, as the script file has finished execution.
 
 ## Node as a REPL
 
 Node can also be used in a terminal window as a Read-Evaluate-Print-Loop, or REPL. This functionality allows you execute JavaScript commands from the command line. 
 
-With Node installed, you can launch the REPL by running the `node` command in a terminal and pressing Enter/Return. You are now in an interactive JavaScript environment and can run any valid JavaScript code such as `4 + 5`. After executing a command, Node will always print the result of that evaluation.
+With Node installed, you can launch the REPL by running the `node` command in a terminal and pressing <kbd>Enter</kbd>. You are now in an interactive JavaScript environment and can run any valid JavaScript code such as `4 + 5`. After executing a command, Node will always print the result of that evaluation.
  
 ```shell
 $ node
@@ -108,7 +108,7 @@ In this example, the user launches node on line one with the `node` terminal com
 
 On line 4, the user opens a function declaration of `nodeIsGreat`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value. When the function is invoked on line 8, `Node is great!` logs to the console, and `undefined` logs after, because `nodeIsGreat()` returns `undefined`.
 
-To exit the Node REPL, use the `.exit` command at any point and return to the system shell. Pressing `ctrl + c` twice will also exit. 
+To exit the Node REPL, use the `.exit` command at any point and return to the system shell. Pressing <kbd>ctrl</kbd> + <kbd>c</kbd> twice will also exit. 
 
 ### Loading Existing Files
 
