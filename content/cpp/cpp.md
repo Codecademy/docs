@@ -8,4 +8,4 @@ CatalogContent:
 
 C++ is a very popular language for performance-critical applications that rely on speed and efficient memory management. It’s used in a wide range of industries including software and game development, VR, robotics, and scientific computing.
 
-Fun fact: The Learn C++ course on Codecademy was co-written with the C++ creator, Bjarne Stroustrup.
+Fun fact: Codecademy's Learn C++ course was co-written with the C++ creator, Bjarne Stroustrup.
