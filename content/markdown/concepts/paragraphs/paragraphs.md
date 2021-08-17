@@ -11,28 +11,30 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-A paragraph is consecutive lines of text with one or more blank lines between them. 
+A paragraph is a block of text with one or more blank lines between them. 
 
 ## Syntax
 
 ```markdown
-This is a bunch of lines.
+Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. 
 
-asfd
+Lo. Lee. Ta.
 ```
 
 This would output:
 
-I really like using Markdown.
+Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. 
 
-I think I'll use it to format all of my documents from now on.
+Lo. Lee. Ta.
 
 ## Line Breaks
 
-```markdown
-This is the first line.
+Line breaks in pargraphs can be created with double newlines or using a `\` symbol.
 
-And this is the second line.
+```markdown
+Success seems to be connected with action. Successful people keep moving.
+
+They make mistakes, but they don’t quit. 
 ```
 
 ```markdown
