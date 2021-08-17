@@ -18,7 +18,7 @@ There are two types of comments in Emojicode.
 
 In Emojicode, single-line comments are made with `💭`. Any text after the `💭` that is on the same line is not executed.
 
-```output
+```shell
 💭 The next line outputs "Hello"
 😀 🔤Hello🔤❗️
 ```
@@ -27,7 +27,7 @@ In Emojicode, single-line comments are made with `💭`. Any text after the `�
 
 Multiline comments are created with `💭🔜` and `🔚💭`. Any text in between is not executed.
 
-```output
+```shell
 💭🔜
 This is a comment.
 It will be ignored by the compiler.
@@ -38,7 +38,7 @@ It will be ignored by the compiler.
 
 Here's a whole Emojicode programe with comments:
 
-```output
+```shell
 💭🔜
 Emojicode is created by:
 Theo Weidmann
