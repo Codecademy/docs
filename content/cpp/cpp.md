@@ -6,6 +6,6 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-C++ is a very popular language for performance-critical applications that rely on speed and efficient memory management. It’s used in a wide range of industries including software and game development, robotics, microcontrollers, VR/AR, and scientific computing.
+C++ is a very powerful language for performance-critical applications that rely on speed and efficient memory management. It’s used in a wide range of industries including software and game development, robotics, microcontrollers, VR/AR, and scientific computing.
 
 Fun fact: Codecademy's Learn C++ course was co-written with the C++ creator, Bjarne Stroustrup.
