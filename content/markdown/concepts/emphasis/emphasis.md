@@ -8,7 +8,7 @@ Tags:
   - "Documentation"
   - "GitHub"
 CatalogContent:
-  - "paths/learn-how-to-build-websites"
+  - "learn-html"
   - "paths/front-end-engineer-career-path"
 ---
 
