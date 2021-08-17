@@ -21,7 +21,7 @@ We are building a team of community volunteers to maintain Codecademy Docs. Let 
 
 ## What do I need to do before contributing? 
 
-Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
+Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/contributing.md). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
 
 ## How do I contribute?
 
