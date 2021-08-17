@@ -5,7 +5,7 @@ Title: "Ruby" # This is the name that appears on the hub page for this language.
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/ruby" # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 CatalogContent:
   - "learn-ruby"
-  - "paths/fullstack-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Ruby is a dynamic, general-purpose programming language most commonly used for Web Development. Its key designer, Yukihiro Matsumoto, said that Ruby was designed for humans, not machines, making it a favorite of many developers and tech companies. Its most popular implementation is with the powerful Ruby on Rails web framework.
