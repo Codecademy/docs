@@ -17,6 +17,8 @@ Right now we've created 590 high-quality entries as quickly as we could. Our eng
 
 TBD
 
+We are building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
+
 ## What do I need to do before contributing? 
 
 Before contributing, please read through the files in [/documentation](https://github.com/Codecademy/docs/tree/main/documentation). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
