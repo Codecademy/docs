@@ -49,7 +49,7 @@ We'll describe the standards for each of these components separately.
 
 ### Standards for the File Name 
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by ``.md``. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry?" should have the file name ``how-to-create-a-codepedia-entry.md``. 
+The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry?" should have the file name **how-to-create-a-codepedia-entry.md**. 
 
 ### Standards for the Content 
 
