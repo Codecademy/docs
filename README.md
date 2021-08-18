@@ -11,7 +11,7 @@ Codecademy Docs is intended to be a free, easily accessible reference for coding
 
 ## What stage of development are we in right now?
 
-Right now we've created 590 high-quality entries as quickly as we could. Our engineering team is working on building the MVP in July-August, after which we'll release it to the world! Once we've released this MVP, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. 
+Docs is live with about 590 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-source. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ## Core Team
 
