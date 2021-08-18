@@ -20,7 +20,7 @@ They can be added to the opening tag of an HTML element to configure or change t
 <tag name="value"></tag>
 ```
 
-So for example, the `<img>` image element has a mandatory `src` attribute that contains the image URL:
+So for example, the `<img>` image element has a mandatory `src` attribute that contains the image file path/URL:
 
 ```html
 <img src="codecademy_logo.png">
