@@ -1,6 +1,6 @@
 ---
 Title: "hsla()"
-Description: "Defines the color by providing the hue value, the saturation value, the luminance value, and an optional alpha value, which is the transparency of the color."
+Description: "Defines the color by providing the hue value, the saturation value, the luminance value, and an optional alpha value (transparency)."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -10,10 +10,7 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
-
-
 
 Defines the color value by providing three comma separated values with an optional fourth value. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value. The optional fourth value represents the alpha value, which is the transparency of the color.
 
@@ -34,6 +31,16 @@ Set the font color of the `h1` element to a shade of purple with an alpha of `0.
 
 ```css
 h1 {
-  color: hsl(270, 50%, 40%, 0.5);
+  color: hsla(270, 50%, 40%, 0.5);
+}
+```
+
+## Example 2
+
+Set the font color of the `h2` element:
+
+```css
+h1 {
+  color: hsla(211, 60%, 10%, 0.8);
 }
 ```
