@@ -1,6 +1,6 @@
 ---
 Title: "<article>"
-Description: "The <article> semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles."
+Description: "Represents a part of a page which is self-contained and could be published elsewhere. Common uses include blog posts or magazine articles."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -11,8 +11,6 @@ CatalogContent:
   - "learn-html"
   - "paths/front-end-engineer-career-path"
 ---
-
- 
 
 The `<article>` semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles.
 
