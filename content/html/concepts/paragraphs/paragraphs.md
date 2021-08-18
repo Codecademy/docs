@@ -16,6 +16,8 @@ They are block-level, which means it is as wide as it's parent element and as ta
 
 ## Syntax
 
+The pargraph element is enclosed by an opening tag `<p>` and a closing tag `</p>`:
+
 ```html
 <p>This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 ```
