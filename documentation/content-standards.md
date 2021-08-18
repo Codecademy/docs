@@ -110,7 +110,7 @@ Note: Codebytes sometimes requires the code block to include some boilerplate co
 |-----------------|-------------|---------|
 | Subjects        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/subjects.md). Please only use Subjects from that list, but if that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!<br /> - We aim to include an average of 1-2 Subjects (and always at least 1!) with every entry | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
 | Tags            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
-| CatalogContent | slugs of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple items, please list the most relevant one first. | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
+| CatalogContent | Slugs of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple items, please list the most relevant one first. | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
 
 ### General Writing Tips:
 
@@ -122,10 +122,10 @@ Note: Codebytes sometimes requires the code block to include some boilerplate co
 
 ### File Hosting
 
-If you'd like to include an image, video, gif, or other file in your entry, please upload it to the [media-file-hosting folder](https://github.com/Codecademy/codepedia-content/tree/main/media-file-hosting). That way we'll never have any broken links!
+If you'd like to include an image, video, gif, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
 
 ### I've read all the content standards. Now what?
 
-Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then put your name next to an entry in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and submit your entry via a pull request! 
+Check out the [encyclopedia entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And start looking for concepts that are currently missing in Codecademy Docs.
 
-For a refresher on how to make a pull request, refer to the [*How do I contribute?*](https://github.com/Codecademy/codepedia-content#how-do-i-contribute) section of the README. 
+For a refresher on how to make a pull request, refer to the [Contribution Guide](https://github.com/Codecademy/docs/CONTRIBUTING.md).
