@@ -11,5 +11,3 @@ CatalogContent:
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber and Aaron Swartz in 2004 as a language that is appealing to human readers in its source code form.
 
 With Markdown, you control the display of the document; formatting words as bold or italic, adding images and links, and creating lists and tables are just a few of the functionalities.
-
-Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
