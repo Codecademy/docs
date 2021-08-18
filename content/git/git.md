@@ -8,6 +8,6 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Ever have an “I lost all my work and I have a deadline the next day” moment? Git is the most popular version control tool — something that developers use to save all relevant versions of their work to avoid moments like those. Git also makes it easy for developers to collaborate and share work with others!
+Ever have an “I lost all my work and I have a deadline the next day” moment? Git is the most popular version control tool — something that developers use to save all relevant versions of their work to avoid moments like those. It also makes it easy for developers to collaborate and share work with others!
 
-It was created by Linus Torvalds in 2005 for development of the Linux kernel, and it's now a fundamental developing tool that's used by almost all professional developers.
+Git was created by Linus Torvalds in 2005 for development of the Linux kernel, and it's now a fundamental developing tool that's used by almost all professional developers.
