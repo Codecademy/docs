@@ -12,7 +12,12 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-Defines the color value by providing three comma separated values with an optional fourth value. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value. The optional fourth value represents the alpha value, which is the transparency of the color.
+The `hsla()` color function defines the color value by providing three comma separated values with an optional fourth value. 
+
+- The first value represents the hue value, the base of the color. 
+- The second represents the saturation value.
+- The third represents the luminance value. 
+- The optional fourth value represents the alpha value, which is the transparency of the color.
 
 ## Syntax
 
