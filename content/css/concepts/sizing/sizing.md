@@ -8,7 +8,7 @@ Tags:
   - "Box Model"
   - "Properties"
   - "Documentation"
-Catalog Content:
+CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
 ---
