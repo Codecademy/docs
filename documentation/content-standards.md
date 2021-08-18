@@ -40,7 +40,7 @@ Notably, this structure means that you do not have to explain any language-agnos
 
 ### Components of an Entry
 
-All Codepedia entries are Markdown files and should consist of three parts:
+All Docs entries are Markdown files and should consist of three parts:
 
 - **The file name**
 - **The content**, written in Markdown.
