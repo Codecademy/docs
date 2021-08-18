@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - "introduction-to-javascript"
   - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
 ---
 
 ## If Statement
