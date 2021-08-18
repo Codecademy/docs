@@ -38,7 +38,7 @@ Relative file path are paths that links to a local file in the same folder or on
 
 - **./about.html**
 - **./style.css**
-- **./images/codecademy_logo.png**
+- **./images/logo.png**
 
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
 
