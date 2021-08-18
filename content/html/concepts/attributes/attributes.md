@@ -12,16 +12,18 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-HTML attributes consist of a name and a value using the following syntax: `name="value"`. They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.
+HTML _attributes_ consist of a name and a value using the following syntax: `name="value"`. 
+
+They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.
 
 ```html
 <tag name="value"></tag>
 ```
 
-So for example, the HTML `<img>` image element has a `src` attribute that contains the image URL and is mandatory:
+So for example, the `<img>` image element has a mandatory `src` attribute that contains the image URL:
 
 ```html
-<img src="image.png">
+<img src="codecademy_logo.png">
 ```
 
 ## Unique ID Attributes
