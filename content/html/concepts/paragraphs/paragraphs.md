@@ -25,14 +25,19 @@ The pargraph element is enclosed by an opening tag `<p>` and a closing tag `</p>
 ## Example 
 
 ```html
-<div style="width: 50%; margin: auto; border: 2px solid black;">
-  <p style="padding: 10px;">
-    It was love at first sight. The first time Yossarian saw the chaplain he fell madly in love with him. Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.
-  </p>
-</div>
+<!DOCTYPE html>
+<html>
+  <body>
+    <div style="width: 50%; margin: auto; border: 2px solid black;">
+      <p style="padding: 10px;">
+        It was love at first sight. The first time Yossarian saw the chaplain he fell madly in love with him. Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.
+      </p>
+    </div>
+  </body>
+</html>
 ```
 
-![Screenshot of rendered div element with paragraph element inside.](https://i.imgur.com/CPUyte3.png)
+![Paragraph example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-paragraph-example.png)
 
 ## Accessibility with Paragraphs
 
