@@ -20,6 +20,8 @@ Python:
 
 ### 2. Entry with a Term Table
 
+Some of the entries, such as [Lists](https://staging.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested entries.
+
 Short lists of key information about a specific function, keyword, tag, or other grouping.
   - For a model example, check out [the .append() entry in the Python Lists entry](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
 
