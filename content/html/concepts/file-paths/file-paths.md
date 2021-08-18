@@ -13,7 +13,6 @@ CatalogContent:
 ---
 
 A file path describes the location of a file in a web site's folder structure. They are used to link to external files, like:
-
 - Websites
 - Images
 - Videos
@@ -25,7 +24,7 @@ A file path describes the location of a file in a web site's folder structure. T
 
 URL paths in HTML can be absolute paths, like a full URL, for example: 
 
-`https://developer.mozilla.org/en-US/docs/learn`
+**https://developer.mozilla.org/en-US/docs/learn**
 
 ```html
 <a href="https://developer.mozilla.org/en-US/docs/Web">
@@ -37,7 +36,7 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 
 Relative file path are paths that links to a local file in the same folder or on the same server, for example: 
 
-`./style.css`
+**./style.css**
 
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
 
