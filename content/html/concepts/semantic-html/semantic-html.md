@@ -19,11 +19,11 @@ With Semantic HTML we were introduced to elements that tell developers and brows
 ```html
 <!-- Non Semantic HTML -->
 <div id="footer">
- <p>this is a footer</p>
+  <p>This is a footer</p>
 </div>
  
 <!-- Semantic HTML -->
 <footer>
- <p>this is a footer</p>
+  <p>This is a footer</p>
 </footer>
 ```
