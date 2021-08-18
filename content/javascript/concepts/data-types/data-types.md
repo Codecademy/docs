@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "introduction-to-javascript"
   - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
 ---
 
 Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are seven fundamental data types:
