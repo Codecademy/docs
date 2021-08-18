@@ -44,10 +44,10 @@ h1 {
 
 ## Example 2
 
-Set the transparency of `h1` element's `color` to be `25%` opaque:
+Set the transparency of `h2` element's `color` to be `25%` opaque:
 
 ```css
-h1 {
+h2 {
   color: rgba(0, 0, 0, 25%);
 }
 ```
