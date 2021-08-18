@@ -9,31 +9,32 @@ Codecademy Docs content will fall into two categories:
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
 
 General:
-  - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
-  - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
-  - [What is a Bitwise Operator?](https://staging.codecademy.com/resources/docs/general/what-is-a-bitwise-operator)
+  - [What is a Comment?](https://www.codecademy.com/resources/docs/general/what-is-a-comment)
+  - [What is SQL?](https://www.codecademy.com/resources/docs/general/what-is-sql)
+  - [What is a Bitwise Operator?](https://www.codecademy.com/resources/docs/general/what-is-a-bitwise-operator)
  
 Python:
-  - [Lists](https://staging.codecademy.com/resources/docs/python/lists)
-  - [Conditionals](https://staging.codecademy.com/resources/docs/python/conditionals)
-  - [Dictonaries](https://staging.codecademy.com/resources/docs/python/dictionaries)
+  - [Lists](https://www.codecademy.com/resources/docs/python/lists)
+  - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
+  - [Dictonaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
 ### 2. Entries with a Term Table
 
-Some of the entries, such as [Lists](https://staging.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested entries.
+Some of the entries, such as [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested entries.
 
 Short lists of key information about a specific function, keyword, tag, or other grouping.
-  - For a model example, check out [the .append() entry in the Python Lists entry](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
+  - For a model example, check out [the .append() entry in the Python Lists entry](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md).
 
 ### Relation between Entries  
 
 As a general rule, any given topic should be described by multiple entries in the following structure:
   - 1 language-agnostic encyclopedia entry defining concept X in a general way. Entitled "What is X?".
-    -  Example: [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/language-agnostic/concepts/what-is-a-comment.md) 
-  - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X in \<Topic>".
-    - Example: [Comments in Python](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments-in-python.md) 
-  - Where applicable, 1 or more Glossaries describing the methods and keywords in a language that relate to concept X
-    - Example: The [List Methods glossary for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
+    -  Example: [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md) 
+  - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X"; the topic should NOT be included in the title of the entry.
+    - Example: [Comments in Python in Github](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments/comments.md)
+    - Example: [Comments in Python on Docs](https://www.codecademy.com/resources/docs/python/comments)
+  - Where applicable, lists of terms describing the methods and keywords in a language that relate to concept X
+    - Example: The [List Methods folder for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/lists/terms). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
 
 Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<Topic>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
 
@@ -49,7 +50,7 @@ We'll describe the standards for each of these components separately.
 
 ### Standards for the File Name 
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry?" should have the file name **how-to-create-a-codepedia-entry.md**. 
+The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an encylopedia entry titled "How to Create a Codecademy Docs Entry?" should have the file name **how-to-create-a-codecademy-docs-entry.md**. 
 
 ### Standards for the Content 
 
@@ -128,4 +129,4 @@ If you'd like to include an image, video, gif, or other file in your entry, plea
 
 Check out the [encyclopedia entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And start looking for concepts that are currently missing in Codecademy Docs.
 
-For a refresher on how to make a pull request, refer to the [Contribution Guide](https://github.com/Codecademy/docs/CONTRIBUTING.md).
+For a refresher on how to make a pull request, refer to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md).
