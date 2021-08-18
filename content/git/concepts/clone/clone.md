@@ -11,9 +11,9 @@ CatalogContent:
   - "learn-the-command-line"
 ---
 
-So far the commands we've looked at have been performed only on a local branch, that is, a branch that exists on your computer. Here's a command that will help you interact with a remote branch &mdash; a branch on a server that can be accessed through the internet.
-
 In Git, _cloning_  means copying an existing remote repository to your current directory.
+
+Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on your computer. Here's a command that will help you interact with a remote branch &mdash; a branch on a server that can be accessed through the internet.
 
 ## Syntax
 
