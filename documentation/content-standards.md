@@ -4,7 +4,7 @@
 
 Codecademy Docs content will fall into two categories:
 
-### 1. Entry
+### 1. Normal Entries
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
 
@@ -18,7 +18,7 @@ Python:
   - [Conditionals](https://staging.codecademy.com/resources/docs/python/conditionals)
   - [Dictonaries](https://staging.codecademy.com/resources/docs/python/dictionaries)
 
-### 2. Entry with a Term Table
+### 2. Entries with a Term Table
 
 Some of the entries, such as [Lists](https://staging.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested entries.
 
