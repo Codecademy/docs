@@ -57,7 +57,7 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
   <p id="id-of-element-to-link-to">A different part of the page!</p>
 </div>
 
-<!-- ... later in the page --->
+<!-- ...later in the page --->
 
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
