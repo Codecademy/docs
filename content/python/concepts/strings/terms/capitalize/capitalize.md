@@ -28,7 +28,7 @@ Takes in a string, and returns a copy of the string in Capital Case.
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
+print("WELCOME TO CODECADEMY DOCS!".capitalize())
 ```
 
 ## Example 2
@@ -36,7 +36,7 @@ print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-text = "welcome to codecademy's codepedia!"
+text = "welcome to codecademy's docs!"
 print(text.capitalize())
 ```
 
@@ -45,7 +45,7 @@ print(text.capitalize())
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-text = "welcome To Codecademy's Codepedia!"
+text = "welcome To Codecademy's Docs!"
 
 x = text.capitalize()
 print(x)
