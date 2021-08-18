@@ -8,7 +8,6 @@ Tags:
 CatalogContent:
   - "introduction-to-javascript"
   - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
 ---
 
 Callback functions are functions that are passed as arguments in other functions. A callback function can then be invoked during the execution of that higher order function (that it is an argument of).
