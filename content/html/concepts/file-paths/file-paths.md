@@ -50,12 +50,14 @@ Relative file paths begin with `./` followed by a path to the local file. `./` t
 
 ## Link to a Specifific Part of the Page
 
-The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the href attribute to point to the desired location with `#` followed by the `id` of the element to link to.
+The anchor element `<a>` can create hyperlinks to different parts of the same HTML document using the `href` attribute to point to the desired location with `#` followed by the `id` of the element to link to.
 
 ```html
 <div>
   <p id="id-of-element-to-link-to">A different part of the page!</p>
 </div>
- 
+
+<!-- ... later in the page --->
+
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
