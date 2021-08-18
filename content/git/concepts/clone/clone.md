@@ -29,5 +29,13 @@ For example, if you want to clone [Codecademy Docs](https://github.com/codecadem
 
 ```shell
 $ git clone https://github.com/codecademy/docs
+
+  Cloning into 'docs'...
+  remote: Enumerating objects: 21512, done.
+  remote: Counting objects: 100% (3517/3517), done.
+  remote: Compressing objects: 100% (1795/1795), done.
+  remote: Total 21512 (delta 2233), reused 1727 (delta 1466), pack-reused 17995
+  Receiving objects: 100% (21512/21512), 3.48 MiB | 9.56 MiB/s, done.
+  Resolving deltas: 100% (10600/10600), done.
 ```
 
