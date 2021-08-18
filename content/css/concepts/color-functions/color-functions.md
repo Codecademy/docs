@@ -11,6 +11,4 @@ Catalog Content:
   - "paths/front-end-engineer-career-path"
 ---
 
-CSS color functions are used, and only used,  as values for color properties.
-
-The main color functions are:
+CSS color functions are used, and only used, as values for color properties.
