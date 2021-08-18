@@ -36,7 +36,9 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 
 Relative file path are paths that links to a local file in the same folder or on the same server, for example: 
 
-**./style.css**
+- **./about.html**
+- **./style.css**
+- **./images/codecademy_logo.png**
 
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
 
