@@ -1,6 +1,6 @@
 ---
 Title: "rgba()"
-Description: "Defines the color by providing the red value, the green value, the blue value, and an optional alpha value, the transparency of a color."
+Description: "Defines the color by providing the red value, the green value, the blue value, and an optional alpha value (transparency)."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -10,12 +10,14 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
+The `rgba()` color function defines the color value by providing three comma separated values along with an optional fourth value. 
 
-
-Defines the color value by providing three comma separated values along with an optional fourth value. The first value represents the red value, the second represents the green value, and the third represents the blue value. The optional fourth value represents the alpha value, the transparency of a color.
+- The first value represents the red value.
+- The second represents the green value.
+- The third represents the blue value. 
+- The optional fourth value represents the alpha value, the transparency of a color.
 
 ## Syntax
 
@@ -36,7 +38,7 @@ Set the transparency of `h1` element's `color` to be `.5`:
 
 ```css
 h1 {
-  color: rgb(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 ```
 
@@ -46,6 +48,6 @@ Set the transparency of `h1` element's `color` to be `25%` opaque:
 
 ```css
 h1 {
-  color: rgb(0, 0, 0, 25%);
+  color: rgba(0, 0, 0, 25%);
 }
 ```
