@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - "introduction-to-javascript"
   - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
 ---
 
 A JavaScript object can be created, or defined, with an object literal:
