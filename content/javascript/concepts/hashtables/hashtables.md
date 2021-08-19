@@ -41,7 +41,7 @@ for (var key in simplehash) {
 
 The output would look like:
 
-```
+```shell
 key is: key1, value is: value1
 key is: key2, value is: value2
 key is: key3, value is: value3
