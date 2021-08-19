@@ -9,7 +9,6 @@ Tags:
   - "For"
 CatalogContent:
   - "learn-php"
-  - "paths/front-end-engineer-career-path"
   - "paths/computer-science"
 ---
 
@@ -21,7 +20,7 @@ or once for each member of an array. The process of repeating the code block is 
 
 A `for` loop is used in PHP when it is known how many times its bock of code should execute. The syntax looks like this:
 
-```php
+```pseudo
 for (init; test; increment) {
   code to execute;
 }
@@ -48,7 +47,7 @@ for ($i = 1;$i <= 10; $i++) {
 
 Output:
 
-```
+```shell
 iteration #1
 iteration #2
 iteration #3
@@ -67,7 +66,7 @@ A `foreach` loop iterates through a block of code once for each element of an ar
 
 Iterate through array values:
 
-```php
+```pseudo
 foreach ($array as $value) {
   code to execute;
 }
@@ -79,7 +78,7 @@ foreach ($array as $value) {
   
 Iterate through array keys and values:
 
-```php
+``pseudo
 foreach ($array as $key => $value) {
   code to execute;
 }
@@ -106,7 +105,7 @@ foreach ($a as $x) {
 
 Output:
 
-```
+```shell
 The value is one
 The value is two
 The value is three
@@ -127,7 +126,7 @@ foreach ($a as $k => $x) {
 
 Output:
 
-```
+```shell
 The value for one is green
 The value for two is blue
 The value for three is red
@@ -138,7 +137,7 @@ The value for four is yellow
 
 The `while` loop iterates through a block of code as long as a condition evaluates to `true`. The syntax looks like this:
 
-```php
+```pseudo
 while (test) {
   code to execute;
 }
@@ -164,7 +163,7 @@ while ($x <= 100) {
 
 Output:
 
-```
+```shell
 the number is 0
 the number is 2
 the number is 6
@@ -180,10 +179,14 @@ But the `do...while` loop tests the condition after the iteration, not before, s
 
 The syntax looks like this:
 
-<code>do {<i>execute</i>;} while (<i>test</i>);</code>
+```pseudo
+do { 
+  execute; 
+  } while (test);
+```
 
-- <code><i>test</i></code> : The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
-- <code><i>execute</i></code> : Block of code to execute on each iteration. 
+- `test`: The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
+- `execute`: Block of code to execute on each iteration. 
 
 ### Example
 
@@ -200,7 +203,7 @@ do {
 
 Output:
 
-```
+```shell
 the number is 125
 ```
 
@@ -209,6 +212,7 @@ the number is 125
 The `break` statement can be used to prematurely jump out of a loop during execution.
 
 ### Example
+
 ```php
 <?php
 $x = 0;
