@@ -74,9 +74,8 @@ This video will show you how to download and install Node.
  The markdown processor does not support the video tag.
 </video>
 
-To begin, <a href="https://nodejs.org/en/download/" target="_blank">download</a> and install Node.js for your operating system.
-
-To run JS files in Node, the `node` command followed by a file path will execute the program file.
+1. To begin, <a href="https://nodejs.org/en/download/" target="_blank">download</a> and install Node.js for your operating system.
+2. To run JS files in Node, the `node` command followed by a file path will execute the program file.
 
 For example, if we have the following saved in a **script.js** file:
 
@@ -87,21 +86,17 @@ console.log('I am a Node program');
 We can run the terminal command in the same folder as **script.js**:
 
 ```shell
-node script.js
+$ node script.js
 ```
 
-This will:
-
-1. Start Node.
-2. Print `I am a Node program` to the terminal window.
-3. Exit, as the script file has finished execution.
+This will start Node, print `I am a Node program` to the terminal window, and then exit, as the script file has finished execution.
 
 ## Node as a REPL
 
 Node can also be used in a terminal window as a Read-Evaluate-Print-Loop, or REPL. This functionality allows you execute JavaScript commands from the command line. 
 
 With Node installed, you can launch the REPL by running the `node` command in a terminal and pressing <kbd>Enter</kbd>. You are now in an interactive JavaScript environment and can run any valid JavaScript code such as `4 + 5`. After executing a command, Node will always print the result of that evaluation.
- 
+
 ```shell
 $ node
 > 4 + 5
@@ -117,9 +112,13 @@ undefined
 $ 
 ```
  
-In this example, the user launches node on line one with the `node` terminal command. On line 2 the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
+In this example, the user launches node on line one with the `node` terminal command. 
 
-On line 4, the user opens a function declaration of `nodeIsGreat()`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value. When the function is invoked on line 8, `Node is great!` logs to the console, and `undefined` logs after, because `nodeIsGreat()` returns `undefined`.
+On line 2 the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
+
+On line 4, the user opens a function declaration of `nodeIsGreat()`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value. 
+
+When the function is invoked on line 8, `Node is great!` logs to the console, and `undefined` logs after, because `nodeIsGreat()` returns `undefined`.
 
 To exit the Node REPL, use the `.exit` command at any point and return to the system shell. Pressing <kbd>Ctrl</kbd> + <kbd>C</kbd> twice will also exit. 
 
