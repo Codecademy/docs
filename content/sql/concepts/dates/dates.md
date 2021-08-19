@@ -18,7 +18,7 @@ Dates in SQL are often written in the following format:
 
 We can use SQL’s date functions to transform data into a desired format. Since date functions can be database specific, verify the functions that exist on your relational database management system.
 
-For example, suppose there's a `baked_goods` table with the following data:
+For example, suppose there's a `bodega` table with the following data:
 
 | order_id | item | price | quantity | order_date | 
 | --- | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ For example, suppose there's a `baked_goods` table with the following data:
 
 ```sql
 SELECT TIME(order_date)
-FROM baked_goods;
+FROM bodega;
 ```
 
 This would return the time for the `order_date` column.
