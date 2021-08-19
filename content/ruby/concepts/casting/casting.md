@@ -59,7 +59,7 @@ puts myObj.to_a
 
 The output would be: 
 
-```
+```shell
 name
 Denise
 occupation
