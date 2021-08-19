@@ -132,7 +132,7 @@ int main() {
 
 This program will run, and output the following:
 
-```
+```shell
 Square root of 4.41 is 2.1
 ERROR: Negative numbers not allowed
 ````
