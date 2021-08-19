@@ -159,7 +159,7 @@ For more information and to see npm in action take our <a href="https://www.code
 
 Node's major releases aim to support the latest JavaScript features including ES6/ES2015 and beyond without transpilation.
 
-To see a list of supported JavaScript features in different versions, visit <a href="http://node.green/">node.green</a>
+To see a list of supported JavaScript features in different versions, visit <a href="http://node.green/">node.green</a>.
 
 ### Version Management
 
