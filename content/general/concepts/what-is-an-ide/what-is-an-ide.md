@@ -28,7 +28,7 @@ An IDE that knows the syntax of your language can provide visual cues. Keywords,
 
 Compare these two code samples:
 
-```shell
+```pseudo
 // Without syntax highlighting
  
 public class NiceDay {
