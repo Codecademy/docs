@@ -61,7 +61,7 @@ let gpa = 3.7 // inferred as a Double
 `String`s are a collection of `Character`s and `Character`s are the individual symbols that make up our languages. In Swift, the `String` type can be either mutable or immutable, as determined by the type of variable you store it in, either a `var` or a `let` for a constant. Both `String` and `Character` are typically declared inside a set of double quotation marks, while multi-line `String`s are declared with a set of triple quotations opening and closing the text.
 
 <!--
-Swift Markdown does not support multi-line strings in just generic Chrome, I'm not sure why. It looks fine in Author, so I'm not sure what formatting the SWE have used on the Codecademy site but hopefully it is also applied to the Codepedia site or else this won't work as intended. There are some languages that Markdown supports like this, we'll have to play with it when it begins to get published.
+Swift Markdown does not support multi-line strings in just generic Chrome, I'm not sure why. It looks fine in Author, so I'm not sure what formatting the SWE have used on the Codecademy site but hopefully it is also applied to the Docs site or else this won't work as intended. There are some languages that Markdown supports like this, we'll have to play with it when it begins to get published.
 -->
 
 ```swift
