@@ -26,9 +26,8 @@ Here we are getting a function named `sqrt()` from the `<cmath>` library:
 #include <cmath>
  
 int main() {
-  
   std::cout << sqrt(10);
-  
+  // Output: 3.16228
 }
 ```
 
