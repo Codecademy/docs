@@ -34,15 +34,15 @@ bytes(source, encoding, error)
 Use `bytes()` to encode the string `"Welcome to Codecademy!"` to unicode `utf-8` and print the number of bytes in the string:
 
 ```python
-print(bytes("Welcome to Codepedia!", "utf-8"))
-print(len(bytes("Welcome to Codepedia!", "utf-8")))
+print(bytes("Welcome to Codecademy!", "utf-8"))
+print(len(bytes("Welcome to Codecademy!", "utf-8")))
 ```
 
 The output would be:
 
 ```
-b'Welcome to Codepedia!'
-21
+b'Welcome to Codecademy!'
+22
 ```
 
 ## Example 2
