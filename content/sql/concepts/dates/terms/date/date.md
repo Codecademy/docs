@@ -15,7 +15,7 @@ CatalogContent:
   - "paths/design-databases-with-postgresql"
 ---
 
-The `DATE()` function allows us to extract just the date portion of a time string, which consists of the year, month, and day (YYYY-MM-DD).
+The `DATE()` function extracts just the date portion of a time string, which consists of the year, month, and day (YYYY-MM-DD).
 
 ## Syntax
 
@@ -26,41 +26,23 @@ SELECT DATE('2022-09-01 17:38:22');
 
 ## Example 
 
-```sql
-SELECT DATE(order_time), 
-   COUNT(*) AS 'count_baked_goods'
-FROM baked_goods
-GROUP BY DATE(order_time);
-```
-
-
 Beginning table:
 
-| student_id | name   | address   | last_terms_grades | overall_gpa |
-| ---------- | ------ | --------- | ----------------- | ----------- |
-| 10001      | Tim    | 123 R Ave |  2.4              | 3.1         |
-| 10002      | Amy    | 789 T St  |  3.2              | 3.8         |
+| order_id |	item | price | quantity | order_date |
+| 1	| Donut	| 2.49 | 2 | 2022-08-16 08:04:23 |
+| 2	| Cookie | 0.99	| 3	| 2022-08-16 09:43:00 |
+| 3	| Donut	| 2.49 | 1 | 2022-08-16 11:25:12 |
+| 4	| Egg Sandwich | 7.99	| 1	| 2022-08-17 11:45:41 |
+| 5	| Ice Coffee | 3.99 | 2 | 2022-08-17 12:18:50 |
 
 ```sql
-ALTER TABLE students
-ADD exam_grade INT(3);
+SELECT DATE(order_date), 
+   COUNT(*) AS 'count_baked_goods'
+FROM bodega
+GROUP BY DATE(order_date);
 ```
 
-After `ADD`ing the new column `exam_grade`:
-
-| student_id | name   | address   | last_terms_grades | overall_gpa | exam_grade |
-| ---------- | ------ | --------- | ----------------- | ----------- | ---------- |
-| 10001      | Tim    | 123 R Ave |  2.4              | 3.1         | null       |
-| 10002      | Amy    | 789 T St  |  3.2              | 3.8         | null       |
-
-```sql
-ALTER TABLE students
-DROP COLUMN last_terms_grades;
-```
-
-After `DROP`ing the column `last_terms_grades`:
-
-| student_id | name   | address   | overall_gpa | exam_grade |
-| ---------- | ------ | --------- | ----------- | ---------- |
-| 10001      | Tim    | 123 R Ave | 3.1         | null       |
-| 10002      | Amy    | 789 T St  | 3.8         | null       |
+| DATE(order_date) | count_baked_goods |
+| --- | --- |
+| 2022-08-16 | 3 |
+| 2022-08-17 | 2 |
