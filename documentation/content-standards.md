@@ -31,15 +31,15 @@ Inside Lists:
 ### Relation between Entries  
 
 As a general rule, any given topic should be described by multiple entries in the following structure:
-  - 1 language-agnostic encyclopedia entry defining concept X in a general way. Entitled "What is X?".
-    -  Example: [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md) 
+  - 1 General (language-agnostic) entry defining concept X in a general way. Entitled "What is X?".
+    -  Example: [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md) 
   - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X"; the topic should NOT be included in the title of the entry.
     - Example: [Comments in Python in Github](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments/comments.md)
     - Example: [Comments in Python on Docs](https://www.codecademy.com/resources/docs/python/comments)
   - Where applicable, lists of terms describing the methods and keywords in a language that relate to concept X
     - Example: The [List Methods folder for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/lists/terms). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
 
-Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<Topic>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
+Notably, this structure means that you do not have to explain any General (language-agnostic) concepts in an "X in \<Topic>" entry — the reader can read the "What is X?" entry to learn that!
 
 ### Components of an Entry
 
