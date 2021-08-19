@@ -40,7 +40,7 @@ Notably, this structure means that you do not have to explain any language-agnos
 
 ### Components of an Entry
 
-All Codepedia entries are Markdown files and should consist of three parts:
+All Docs entries are Markdown files and should consist of three parts:
 
 - **The file name**
 - **The content**, written in Markdown.
@@ -109,8 +109,8 @@ Note: Codebytes sometimes requires the code block to include some boilerplate co
 
 | Variable Name   | Description | Example |
 |-----------------|-------------|---------|
-| Subjects        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/subjects.md). Please only use Subjects from that list, but if that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!<br /> - We aim to include an average of 1-2 Subjects (and always at least 1!) with every entry | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
-| Tags            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
+| Subjects        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). Please only use Subjects from that list, but if that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!<br /> - We aim to include an average of 1-2 Subjects (and always at least 1!) with every entry | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
+| Tags            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
 | CatalogContent | Slugs of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple items, please list the most relevant one first. | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
 
 ### General Writing Tips:
