@@ -26,7 +26,7 @@ SELECT DATE('2022-09-01 17:38:22');
 
 ## Example 
 
-Beginning table:
+For example, suppose there’s a `bodega` table with the following data:
 
 | order_id |	item | price | quantity | order_date |
 | --- | --- | --- | --- | --- |
