@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-All modern browsers support the following 140 color names (click on a color name, or a hex value, to view the color as the background-color along with different text colors):
+All modern browsers support the following 140 color names:
 
 - `AliceBlue`: <span style="color:#F0F8FF;">#F0F8FF</span>
 - `AntiqueWhite`: <span style="color:#FAEBD7;">#FAEBD7</span>
