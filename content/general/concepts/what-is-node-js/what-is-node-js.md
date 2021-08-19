@@ -12,7 +12,9 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-Node.js is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.
+[Node.js]: https://nodejs.org/en
+
+[Node.js] is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.
 
 ## JavaScript and Node.js
 
