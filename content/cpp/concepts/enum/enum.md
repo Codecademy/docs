@@ -34,7 +34,9 @@ enum day {sun, mon, tue, wed, thu, fri, sat};
 - `sun` would have the value 0
 - `mon` would have the value 1
 - `tue` would have the value 2
-- ...
+- `wed` would have the value 3
+- `thu` would have the value 4
+- `fri` would have the value 5
 - `sat` would have the value 6
 
 Here'a another example where one of the constants is assigned a value:
