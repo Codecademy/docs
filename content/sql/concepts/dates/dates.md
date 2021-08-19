@@ -22,18 +22,18 @@ For example, suppose there's a `baked_goods` table with the following data:
 
 | order_id | item | price | quantity | order_date | 
 | --- | --- | --- | --- | --- |
-| 1 | Donut | 2.99 | 2 | 2020-08-16 08:04:23 |
-| 2 | Cookie | 0.99 | 3 | 2020-08-16 09:43:00 |
-| 3 | Donut | 2.99 | 1 | 2020-08-16 11:25:12 |
-| 4 | Egg Sandwich | 7.99 | 1 | 2020-08-16 11:45:41 |
-| 5 | Ice Coffee | 3.95 | 1 | 2020-08-16 12:18:50 |
+| 1 | Donut | 2.99 | 2 | 2022-08-16 08:04:23 |
+| 2 | Cookie | 0.99 | 3 | 2022-08-16 09:43:00 |
+| 3 | Donut | 2.99 | 1 | 2022-08-16 11:25:12 |
+| 4 | Egg Sandwich | 7.99 | 1 | 2022-08-16 11:45:41 |
+| 5 | Ice Coffee | 3.95 | 2 | 2022-08-16 12:18:50 |
 
 ```sql
 SELECT TIME(order_date)
 FROM baked_goods;
 ```
 
-This would return the time for the `order_time` column.
+This would return the time for the `order_date` column.
 
 | TIME(order_date) |
 | --- |
