@@ -9,7 +9,6 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
@@ -46,4 +45,21 @@ more than one line
 """
 
 print("Hello, World!")
+```
+
+## Codebyte Example
+
+Here are some examples of comments in a Python program:
+
+```codebyte/py
+"""
+Tip Calculator
+Written by Sonny
+"""
+
+# Calculate tip
+tip = 18.95 * 0.2
+
+# Output tip
+print(tip)
 ```
