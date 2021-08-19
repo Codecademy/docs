@@ -57,7 +57,7 @@ Markdown applications don’t agree on how to handle a missing space between the
 
 For compatibility, always put a space between the number signs and the heading name.
 
-| ✅ Do | ❌ Don't |
+| ✅ Do | 🚫 Don't |
 | --- | --- |
 | `# Here's a Heading` | `#Here's a Heading` |
 
