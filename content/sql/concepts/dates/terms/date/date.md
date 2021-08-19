@@ -43,6 +43,8 @@ FROM bodega
 GROUP BY DATE(order_date);
 ```
 
+This would return the different dates from the `order_date` column and the total number of rows with each date:
+
 | DATE(order_date) | count_baked_goods |
 | --- | --- |
 | 2022-08-16 | 3 |
