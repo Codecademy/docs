@@ -92,3 +92,5 @@ if (pH < 7) {
   console.log("Neutral");
 }
 ```
+
+What do you think will happen when `pH` is changed to 7?
