@@ -1,6 +1,6 @@
 ---
 Title: "COUNT()"
-Description: "Returns the total number of rows that match the specified criteria."
+Description: "Returns the number of rows that match the specified criteria."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -13,8 +13,6 @@ CatalogContent:
   - "learn-sql"
   - "paths/analyze-data-with-sql"
 ---
-
- 
 
 The `COUNT()` aggregate function returns the total number of rows that match the specified criteria.
 
