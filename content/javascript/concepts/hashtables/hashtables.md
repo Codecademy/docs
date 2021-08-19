@@ -65,11 +65,11 @@ The `Map` object was created to implement this type of associative array without
 
 A `Map` object also comes with the following methods:
 
-- `clear()` Removes all key-value pairs from the `Map` object.
-- `delete(key)` Deletes the key-value pair and returns `true` if the key exists. Returns `false` otherwise.
-- `get(key)` Returns the value associated with key, or `undefined` if key doesn't exist.
-- `has(key)` Returns `true` if key exists, `false` otherwise.
-- `set(key,value)` Sets the value for the key in the `Map` object and returns the `Map` object. 
+- `.clear()` Removes all key-value pairs from the `Map` object.
+- `.delete(key)` Deletes the key-value pair and returns `true` if the key exists. Returns `false` otherwise.
+- `.get(key)` Returns the value associated with key, or `undefined` if key doesn't exist.
+- `.has(key)` Returns `true` if key exists, `false` otherwise.
+- `.set(key,value)` Sets the value for the key in the `Map` object and returns the `Map` object. 
 
 **Note:** Key-value pairs must be set with the `set` method in order for the `Map` object to behave as expected. Using the syntax for `Object` above will appear to work, but will not associate the key-value pair to its internal collection.
 
