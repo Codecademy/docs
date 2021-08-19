@@ -12,6 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
+Conditionals 
 ## If Statement
 
 An `if` statement accepts an expression with a set of parentheses:
@@ -76,3 +77,17 @@ if (time < 10) {
 ```
 
 Here, the result of greeting will be: `Good day 🌁`.
+
+## Codebyte Example
+
+```codebyte/js
+var pH = 2;
+
+if (pH < 7) {
+  console.log("Acidic");
+} else if (pH > 7) {
+  console.log("Basic");
+} else {
+  console.log("Neutral");
+}
+```
