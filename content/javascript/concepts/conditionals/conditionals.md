@@ -31,7 +31,7 @@ if (isMailSent) {
 
 The output would be:
 
-```bash
+```shell
 Mail sent to recipient 💌
 ```
 
