@@ -29,6 +29,7 @@ SELECT DATE('2022-09-01 17:38:22');
 Beginning table:
 
 | order_id |	item | price | quantity | order_date |
+| --- | --- | --- | --- | --- |
 | 1	| Donut	| 2.49 | 2 | 2022-08-16 08:04:23 |
 | 2	| Cookie | 0.99	| 3	| 2022-08-16 09:43:00 |
 | 3	| Donut	| 2.49 | 1 | 2022-08-16 11:25:12 |
