@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
 
 In programming, data type is an important concept.
@@ -40,6 +39,6 @@ print(type(message))
 
 This will output:
 
-```
+```shell
 <class 'str'>
 ```
