@@ -78,13 +78,23 @@ To begin, <a href="https://nodejs.org/en/download/" target="_blank">download</a>
 
 To run JS files in Node, the `node` command followed by a file path will execute the program file.
 
-For example, if we have the following saved in a file **script.js**:
+For example, if we have the following saved in a **script.js** file:
 
 ```js
 console.log('I am a Node program');
 ```
 
-Running the terminal command `node script.js` in the same folder as **script.js** will start Node, print `I am a Node program` to the terminal window, and exit, as the script file has finished execution.
+We can run the terminal command in the same folder as **script.js**:
+
+```shell
+node script.js
+```
+
+This will:
+
+1. Start Node.
+2. Print `I am a Node program` to the terminal window.
+3. Exit, as the script file has finished execution.
 
 ## Node as a REPL
 
