@@ -78,7 +78,7 @@ There are several variations of arrow functions:
 * Arrow functions with a single parameter do not require `()` around the parameter list.
 * Arrow functions with a single expression can use the concise function body which returns the result of the expression without the `return` keyword.
 
-#### Arrow function with no arguments:
+Arrow function with no arguments:
 
 ```js
 const printHello = () => { 
@@ -89,7 +89,7 @@ printHello();
 // Output: hello
 ```
 
-#### Arrow function with a single argument:
+Arrow function with a single argument:
 
 ```js
 const checkWeight = weight => { 
@@ -100,7 +100,7 @@ checkWeight(25);
 // Output: Baggage weight : 25 kilograms.
 ```
 
-#### Arrow function with two arguments:
+Arrow function with two arguments:
 
 ```js
 const sum = (firstParam, secondParam) => { 
@@ -111,7 +111,7 @@ console.log(sum(2, 5));
 // Output: 7 
 ```
 
-#### Concise arrow function:
+Concise arrow function:
 
 ```js
 const multiply = (a, b) => a * b; 
