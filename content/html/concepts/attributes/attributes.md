@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-HTML _attributes_ consist of a name and a value using the following syntax: `name="value"`. 
+HTML attributes consist of a name and a value using the following syntax: `name="value"`. 
 
 They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.
 
