@@ -12,7 +12,8 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-Conditionals 
+_Conditionals_ take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
+
 ## If Statement
 
 An `if` statement accepts an expression with a set of parentheses:
