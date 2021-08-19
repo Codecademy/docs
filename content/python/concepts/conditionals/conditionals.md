@@ -10,8 +10,11 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
+
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `True` or `False`. If it’s `True`, we can tell our program to do one thing — we can even account for `False` to do another.
+
+As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust.
 
 ## If Statement
 
@@ -72,3 +75,18 @@ elif pet_type == "fish":
 else:
   print("Not sure!")
 ```
+
+## Codebyte Example
+
+```codebyte/py
+pH = 2
+
+if pH < 7:
+  print("Acidic")
+elif pH > 7:
+  print("Basic")
+else:
+  print("Neutral")
+```
+
+What do you think will happen if `pH` is changed to 7?
