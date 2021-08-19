@@ -4,7 +4,7 @@
 
 Codecademy Docs content will fall into two categories:
 
-### 1. Normal Entries
+### 1. Entry
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
 
@@ -16,14 +16,17 @@ General:
 Python:
   - [Lists](https://www.codecademy.com/resources/docs/python/lists)
   - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
-  - [Dictonaries](https://www.codecademy.com/resources/docs/python/dictionaries)
+  - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
-### 2. Entries with a Term Table
+### 2. Term Entry
 
-Some of the entries, such as [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested entries.
+Some of the entries, such as [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested term entries. 
 
-Short lists of key information about a specific function, keyword, tag, or other grouping.
-  - For a model example, check out [the .append() entry in the Python Lists entry](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md).
+Inside Lists:
+
+- [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
+- [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
+- [.copy()](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
 
 ### Relation between Entries  
 
