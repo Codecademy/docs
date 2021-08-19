@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
 ---
 
 Classes are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data.
