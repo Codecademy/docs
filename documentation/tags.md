@@ -44,7 +44,7 @@ Characters
 Chatbots  
 Classes
 Code Editors
-Color  
+Colors
 Combinators  
 Command Line  
 Comments  
