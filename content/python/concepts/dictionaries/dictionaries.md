@@ -29,7 +29,7 @@ dict = {key1: value1, key2: value2, key3: value3}
 
 Each entry in a dictionary is a `key: value` pair. Each pair is separated by a comma.
 
-Dictionary keys can must be immutable types such as numbers and strings, because keys should not change. Keys cannot be lists, as lists are mutable and can change. Otherwise, it will throw a `TypeError`.
+Dictionary keys must be immutable types such as numbers and strings, because keys should not change. Keys cannot be lists, as lists are mutable and can change. Otherwise, it will throw a `TypeError`.
 
 Values can be any type such as strings, numbers, lists, even other dictionaries.
 
