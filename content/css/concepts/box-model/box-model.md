@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - "learn-css"
   - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
 ---
 
 The Box Model is a CSS layout mechanism that the web browser uses to render content organized by box-shaped elements. Each element is made of four specific areas: 
