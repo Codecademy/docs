@@ -53,7 +53,7 @@ We'll describe the standards for each of these components separately.
 
 ### Standards for the File Name 
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an encylopedia entry titled "How to Create a Codecademy Docs Entry?" should have the file name **how-to-create-a-codecademy-docs-entry.md**. 
+The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an entry titled "What is Three.js?" should have the file name **what-is-three-js.md**. 
 
 ### Standards for the Content 
 
