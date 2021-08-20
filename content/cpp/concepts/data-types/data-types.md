@@ -82,6 +82,25 @@ const double quarter = 0.25;
 
 Simply add the keyword `const` before the data type during declaration to make the variable not modifiable.
 
+
+## Type Conversion
+
+A type cast is basically a conversion from one type to another.
+
+The notation `(type) value` means “convert value to type“. So for example:
+
+```cpp
+double weight1;
+int weight2;
+ 
+weight1 = 154.49;
+weight2 = (int) weight1;
+ 
+// weight2 is now 154
+```
+
+**Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+
 ## Memory and Range
 
 | Type | Memory | Range |
