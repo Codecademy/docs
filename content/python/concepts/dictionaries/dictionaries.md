@@ -68,14 +68,13 @@ print(coffee_shop["cold brew"])
 # Output: 3.5
 ```
 
+When you try to access a key that does not exist, it will throw a `KeyError`.
+
 ## Add an Entry
 
 ```py
 dict[new_key] = new_value
 ```
-
-When you try to access a key that does not exist, it will throw a `KeyError`.
-
 
 ## Create a Dictionary using List Comprehension
 
