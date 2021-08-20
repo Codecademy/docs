@@ -18,4 +18,6 @@ All modern browsers support the following 147 CSS color names:
 - `Aqua`: <span style="color:#00FFFF;">#00FFFF</span>
 - `Aquamarine`: <span style="color:#7FFFD4;">#7FFFD4</span>
 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+
 Currently work in progress.
