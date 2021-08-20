@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-All modern browsers support the following 147 CSS color names:
+All browsers support the following 147 CSS color names:
 
 - `AliceBlue`: <span style="color:AliceBlue">#F0F8FF</span>
 - `AntiqueWhite`: <span style="color:AntiqueWhite">#FAEBD7</span>
