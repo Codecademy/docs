@@ -19,7 +19,7 @@ The Box Model is a CSS layout mechanism that the web browser uses to render cont
 * The border area
 * The margin area
 
-![Image of CSS Box Model](https://i.imgur.com/UKeNHy7.png)
+![Image of CSS Box Model](https://raw.githubusercontent.com/Codecademy/docs/84b30e08c4e13e1a4304a678ef8cafa48b9ad94d/media/css-box-model.svg)
 
 ## Content Area
 
