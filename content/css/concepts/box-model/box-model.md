@@ -18,9 +18,7 @@ The Box Model is a CSS layout mechanism that the web browser uses to render cont
 - `padding`: The amount of space between the content area and the border.
 - `border`: The thickness and style of the border surrounding the content area and padding.
 - `margin`: The amount of space between the border and the outside edge of the element.
-
 ![Image of CSS Box Model](https://raw.githubusercontent.com/Codecademy/docs/84b30e08c4e13e1a4304a678ef8cafa48b9ad94d/media/css-box-model.svg)
-
 ## Content Area
 
 This area contains the actual content of an element, including text and images. It also sometimes has a `background-color` or `background-image`.
