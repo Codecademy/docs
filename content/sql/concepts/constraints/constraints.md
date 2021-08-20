@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-*Constraints* in SQL are the rules applied to the values of individual columns. They add information about how a column can be used after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. 
+Constraints in SQL are the rules applied to the values of individual columns. They add information about how a column can be used after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. 
 
 Here are some of the constraints that can be set:
 
