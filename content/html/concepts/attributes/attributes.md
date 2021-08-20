@@ -26,14 +26,21 @@ So for example, the `<img>` image element has a mandatory `src` attribute that c
 <img src="codecademy_logo.png">
 ```
 
+- `src` is the attribute name.
+- `codecademy_logo.png` is the attribute value.
+
+**Note:** Attribute names are case insensitive, but it is a good practice to keep HTML markup lowercase.
+
 ## Unique ID Attributes
 
 In HTML, specific and unique `id` attributes can be assigned to different elements in order to differentiate between them.
 
-When needed, the `id` value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. Valid `id` attributes should begin with a letter and should only contain letters (`a-Z`), digits (`0-9`), hyphens (`-`), underscores (`_`), and periods (`.`).
+When needed, the `id` value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. 
+
+Valid `id` attributes should begin with a letter and should only contain letters (`a-Z`), digits (`0-9`), hyphens (`-`), underscores (`_`), and periods (`.`).
 
 ```html
-<h1 id="Th1s_id-is.v4lid">Hello World</h1>
+<h1 id="th1s_is.v4lid">Hello World</h1>
 ```
 
 ## Example
