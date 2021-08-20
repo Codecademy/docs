@@ -100,3 +100,14 @@ weight2 = (int) weight1;
 ```
 
 **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+
+## Memory
+
+The type also specifies the size of the information the variable can store:
+
+| Data Type | Memory Size |
+| `bool` | 1 byte |
+| `char` | 1 byte |
+| `int` | 4 bytes |
+| `float` | 4 bytes |
+| `double` | 8 bytes |
