@@ -103,7 +103,7 @@ weight2 = (int) weight1;
 
 ## Memory Size
 
-The data type of a variable also specifies the size of the information that it can hold:
+As noted above, the data type of a variable also specifies the size of the information that it can hold:
 
 | Data Type | Memory Size |
 | --- | --- |
