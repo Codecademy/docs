@@ -103,7 +103,7 @@ weight2 = (int) weight1;
 
 ## Memory
 
-The type also specifies the size of the information the variable can store:
+The data type of a variable also specifies the size of the information that it can hold:
 
 | Data Type | Memory Size |
 | --- | --- |
@@ -112,3 +112,4 @@ The type also specifies the size of the information the variable can store:
 | `int` | 4 bytes |
 | `float` | 4 bytes |
 | `double` | 8 bytes |
+| `std::string` | 24 bytes |
