@@ -28,9 +28,11 @@ The output would look like:
 
 We just launched [Codecademy Docs](https://producthunt.com) on Product Hunt!
 
-## Link Titles
+## Accessibility: Link Titles
 
 A title for a link can be optionally added. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+
+Links should have descriptive alt text so that screenreaders can narrate them well as a user Tabs through the page
 
 ```markdown
 My favorite Craigslist categorey is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
