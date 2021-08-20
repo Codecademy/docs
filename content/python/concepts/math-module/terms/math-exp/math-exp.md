@@ -1,6 +1,6 @@
 ---
 Title: "math.exp()"
-Description: "Returns _e_ raised to the power of x."
+Description: "Returns e raised to the power of x."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -12,9 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-
-
-Returns _e_ raised to the power of x.
+The `math.exp()` method returns _e_ raised to the power of a number.
 
 ## Syntax
 
@@ -46,4 +44,12 @@ import math
 print(math.exp(3))
 
 # Output: 20.085536923187668
+```
+
+## Codebyte Example
+
+```codebyte/py
+import math
+
+print(math.exp(10))
 ```
