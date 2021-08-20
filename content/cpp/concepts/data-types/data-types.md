@@ -61,7 +61,7 @@ std::string message = "good nite";
 std::string user = "@sonnynomnom";
 ```
 
-## Datatype Modifiers:
+## Datatype Modifiers
 
 As the name implies, datatype modifiers are used with built-in data types to modify the length of data that a particular data type can hold. Data type modifiers in C++ are:
 
@@ -69,6 +69,18 @@ As the name implies, datatype modifiers are used with built-in data types to mod
 - `unsigned`
 - `short`
 - `long`
+
+## Const
+
+`const` (constant) variables cannot be changed by your program during execution.
+
+```cpp
+const double quarter = 0.25;
+ 
+// and now variable quarter can only be 0.25
+```
+
+Simply add the keyword `const` before the data type during declaration to make the variable not modifiable.
 
 ## Memory and Range
 
