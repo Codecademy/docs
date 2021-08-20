@@ -41,10 +41,10 @@ A empty dictionary is created using curly braces `{` `}`:
 diner = {}
 ```
 
-Or with the dictionary keyword `dict()`:
+Or with the built-in function `dict()` without any arguments:
 
 ```py
-diner = dict{}
+diner = dict()
 ```
 
 A dictionary with entries:
