@@ -13,19 +13,25 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-In programming, data type is an important concept.
+Python is a strong, dynamically type language. 
 
-Variables can store data of different types, and different types can do different things.
+Strong typing means that the type of a value doesn't change in unexpected ways. A string containing only digits doesn't magically become a number, as may happen in Perl. Every change of type requires an explicit conversion.
+Dynamic typing means that runtime objects (values) have a type, as opposed to static typing where variables have a type.
 
-Python has the following data types built-in by default, in these categories:
+```py
+bob = 1
+bob = "bob"
+```
 
-- Text Type: `str`
-- Numeric Types: `int`, `float`, `complex`
-- Boolean Type: `bool`
+Even though, it has the following data types built-in by default:
+
+- String type: `str`
+- Boolean type: `bool`
+- Binary types: `bytes`, `bytearray`, `memoryview`
+- Numeric types: `int`, `float`, `complex`
 - Sequence Types: `list`, `tuple`, `range`
-- Mapping Type: `dict`
-- Set Types: `set`, `frozenset`
-- Binary Types: `bytes`, `bytearray`, `memoryview`
+- Mapping type: `dict`
+- Set types: `set`, `frozenset`
 
 ## Type() Function
 
