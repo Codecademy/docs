@@ -106,6 +106,7 @@ weight2 = (int) weight1;
 The type also specifies the size of the information the variable can store:
 
 | Data Type | Memory Size |
+| --- | --- |
 | `bool` | 1 byte |
 | `char` | 1 byte |
 | `int` | 4 bytes |
