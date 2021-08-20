@@ -107,5 +107,4 @@ weight2 = (int) weight1;
 | --- | --- |
 | `char` | 1 byte |
 | `int` |	4 bytes	|
-| `float`	| 4 bytes	|
-| `double` |	8 bytes |
+| `double` |	8 bytes | 
