@@ -100,11 +100,3 @@ weight2 = (int) weight1;
 ```
 
 **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
-
-## Memory and Range
-
-| Type | Memory |
-| --- | --- |
-| `char` | 1 byte |
-| `int` |	4 bytes	|
-| `double` |	8 bytes | 
