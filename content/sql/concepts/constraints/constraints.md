@@ -23,7 +23,7 @@ Here are some of the constraints that can be set:
 
 - `DEFAULT` columns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
 
-**Note:** There can be only one `PRIMARY KEY` column per table and multiple `UNIQUE` columns.
+**Note:** There can be only one `PRIMARY KEY` column per table, but there can be multiple `UNIQUE` columns.
 
 The statement below sets constraints on the `celebs` table:
 
