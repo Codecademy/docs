@@ -23,14 +23,14 @@ All browsers support the following 147 CSS color names:
 | `aquamarine` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
 | `azure` | ![#f0ffff](https://via.placeholder.com/15/f0ffff/000000?text=+) `#f0ffff` | 
 | `beige` | ![#f5f5dc](https://via.placeholder.com/15/f5f5dc/000000?text=+) `#f5f5dc` | 
-| `bisque` | ![#ffe4c4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `black` | ![#7fffd4](https://via.placeholder.com/15/ffe4c4/000000?text=+) `#ffe4c4` | 
-| `blanchedalmond` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `blue` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `blueviolet` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `brown` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `burlywood` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
-| `cadetblue` | ![#7fffd4](https://via.placeholder.com/15/7fffd4/000000?text=+) `#7fffd4` | 
+| `bisque` | ![#ffe4c4](https://via.placeholder.com/15/ffe4c4/000000?text=+) `#ffe4c4` | 
+| `black` | ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` | 
+| `blanchedalmond` | ![#ffebcd](https://via.placeholder.com/15/ffebcd/000000?text=+) `#ffebcd` | 
+| `blue` | ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) `#0000ff` | 
+| `blueviolet` | ![#8a2be2](https://via.placeholder.com/15/8a2be2/000000?text=+) `#8a2be2` | 
+| `brown` | ![#a52a2a](https://via.placeholder.com/15/a52a2a/000000?text=+) `#a52a2a` | 
+| `burlywood` | ![#deb887](https://via.placeholder.com/15/deb887/000000?text=+) `#deb887` | 
+| `cadetblue` | ![#5f9ea0](https://via.placeholder.com/15/5f9ea0/000000?text=+) `#5f9ea0` | 
 
 
 
