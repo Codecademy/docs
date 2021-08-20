@@ -18,13 +18,13 @@ In Git, what if you wanted to include all the changes you made to the local bran
 To merge a branch into the `main` branch:
 
 ```shell
-git merge branch_name
+$ git merge branch_name
 ```
 
 For example, if we want to merge our `feature_test` branch to the `main` branch:
 
 ```shell
-git merge feature_test
+$ git merge feature_test
 ```
 
 ## Merging a Pull Request on GitHub

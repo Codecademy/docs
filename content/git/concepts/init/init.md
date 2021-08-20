@@ -16,7 +16,7 @@ In Git, `init` is used to initiate the process of creating a repository. When be
 ## Syntax
 
 ```shell
-git init
+$ git init
 ```
 
 ## How Do I Init?
@@ -34,7 +34,7 @@ cd go/to/desired/project/directory
 Next, run the following command:
 
 ```shell
-git init
+$ git init
 ```
 
 After the initialization is complete, the following should appear on the command line. 
