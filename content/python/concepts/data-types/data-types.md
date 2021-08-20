@@ -13,27 +13,26 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Python is a strong, dynamically type language. 
-
-Strong typing means that the type of a value doesn't change in unexpected ways. A string containing only digits doesn't magically become a number, as may happen in Perl. Every change of type requires an explicit conversion.
-Dynamic typing means that runtime objects (values) have a type, as opposed to static typing where variables have a type.
+Python is a strong type language. Strong type means that the data type of a value doesn't change in unexpected ways.
 
 ```py
-bob = 1
-bob = "bob"
+codecademy = 575
+codecademy = "575 broadway"
 ```
 
-Even though, it has the following data types built-in by default:
+After line 1, `codecademy` is an `int`. After line 2, `codecademy` is a `str`.
+
+Here are Python's built-in data types:
 
 - String type: `str`
 - Boolean type: `bool`
 - Binary types: `bytes`, `bytearray`, `memoryview`
-- Numeric types: `int`, `float`, `complex`
-- Sequence Types: `list`, `tuple`, `range`
-- Mapping type: `dict`
+- Number types: `int`, `float`, `complex`
+- Sequence Types: `list`, `range`, `tuple`
 - Set types: `set`, `frozenset`
+- Dictionary type: `dict`
 
-## Type() Function
+## Type()
 
 To find the data type of any object, the `type()` function can be used:
 
