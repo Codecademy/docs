@@ -29,6 +29,13 @@ So for example, the `<img>` image element has a mandatory `src` attribute that c
 - `src` is the attribute name.
 - `codecademy_logo.png` is the attribute value.
 
+
+All HTML elements can have attributes. Multiple of them, too!
+
+```html
+<img src="nyan_cat.gif" width="500" height="600">
+```
+
 **Note:** Attribute names are case insensitive, but it is a good practice to keep HTML markup lowercase.
 
 ## Unique ID Attributes
