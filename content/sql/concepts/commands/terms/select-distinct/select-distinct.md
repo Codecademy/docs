@@ -1,5 +1,5 @@
 ---
-Title: "SELECT"
+Title: "SELECT DISTINCT"
 Description: "Returns unique values in the specified column(s)."
 Subjects:
   - "Data Science"
