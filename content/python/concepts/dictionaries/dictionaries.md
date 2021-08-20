@@ -35,19 +35,19 @@ Values can be any type such as strings, numbers, lists, even other dictionaries.
 
 ## Create a Dictionary
 
-A empty dictionary is created using curly braces `{` `}`:
+1. An empty dictionary is created using curly braces `{` `}`:
 
 ```py
 diner = {}
 ```
 
-Or with the built-in function `dict()` without any arguments:
+2. An empty dictionary can also be created using the built-in function `dict()` with no arguments:
 
 ```py
 diner = dict()
 ```
 
-A dictionary with entries:
+3. A dictionary with entries:
 
 ```py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
