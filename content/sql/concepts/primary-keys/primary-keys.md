@@ -13,7 +13,7 @@ CatalogContent:
 
 SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called *primary keys*.
 
-Primary key column has a few requirements:
+A primary key column has a few requirements:
 
 - None of the values can be `NULL`.
 - Each value must be unique (i.e., you can’t have two customers with the same `customer_id` in the `customers` table).
