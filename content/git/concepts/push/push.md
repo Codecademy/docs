@@ -37,7 +37,7 @@ Prerequisites to pushing from within a repository include:
     nothing to commit, working tree clean
     ```
 
-* Having a valid remote repository set, in this case there is remote repository called companyname-dev:
+* Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
 
     ```shell
     $ git remote -v
