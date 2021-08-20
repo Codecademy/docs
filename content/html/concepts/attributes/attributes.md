@@ -12,11 +12,11 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-HTML attributes consist of a name and a value using the following syntax: `name="value"`. 
+HTML attributes can be added to the opening tag of an HTML element to change the element's default behavior or provide additional information about the element.
 
-They can be added to the opening tag of an HTML element to configure or change the element's default behavior and provide additional information about the element.
+They consist of a name and a value using the following syntax: `name="value"`.
 
-```html
+```pseudo
 <tag name="value"></tag>
 ```
 
