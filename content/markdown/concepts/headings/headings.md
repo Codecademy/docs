@@ -57,11 +57,11 @@ Markdown applications don’t agree on how to handle a missing space between the
 
 For compatibility, always put a space between the number signs and the heading name.
 
-| ✅ Do | 🚫 Don't |
-| --- | --- |
-| `# Here's a Heading` | `#Here's a Heading` |
+✅ Do: `# Breaking News`
 
-You should also put blank lines before and after a heading for compatibility.
+🚫 Don't: `#Breaking News`
+
+You should also put blank lines before and after a heading for compatibility and readability.
 
 ```markdown
 ... text ends here.
