@@ -18,6 +18,9 @@ All modern browsers support the following 147 CSS color names:
 - `Aqua`: <span style="color:#00FFFF;">#00FFFF</span>
 - `Aquamarine`: <span style="color:#7FFFD4;">#7FFFD4</span>
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- `AliceBlue`: ![#F0F8FF](https://via.placeholder.com/15/f0f8ff/000000?text=+) `#f0f8ff`
+- `AntiqueWhite`: ![#FAEBD7](https://via.placeholder.com/15/faebd7/000000?text=+) `#faebd7`
+- `Aqua`: ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff`
+
 
 Currently work in progress.
