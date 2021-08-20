@@ -14,8 +14,8 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A variable in C++ must be of a specified data type.
- 
+C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those:
+
 ## Int
 
 `int` is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2³¹ to 2³¹.
@@ -60,6 +60,15 @@ char punctuation = '?';
 std::string message = "good nite";
 std::string user = "@sonnynomnom";
 ```
+
+## Datatype Modifiers:
+
+As the name implies, datatype modifiers are used with built-in data types to modify the length of data that a particular data type can hold. Data type modifiers in C++ are:
+
+- `signed`
+- `unsigned`
+- `short`
+- `long`
 
 ## Memory and Range
 
