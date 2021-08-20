@@ -101,7 +101,7 @@ weight2 = (int) weight1;
 
 **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
 
-## Memory
+## Memory Size
 
 The data type of a variable also specifies the size of the information that it can hold:
 
