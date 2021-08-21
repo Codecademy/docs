@@ -11,20 +11,20 @@ CatalogContent:
   - "learn-the-command-line"
 ---
 
-In Git, what if you wanted to include all the changes you made to the local branch onto the `main` branch? Merge a pull request into the `main` branch when work is completed. Anyone with push access to the repository can complete the merge.
+In Git, what if you wanted to include all the changes you made to a branch onto the `main` branch? Merge a pull request into the `main` branch when work is completed. Anyone with push access to the repository can complete the merge.
 
 ## Git Command
 
 To merge a branch into the `main` branch:
 
 ```shell
-git merge branch_name
+$ git merge branch_name
 ```
 
 For example, if we want to merge our `feature_test` branch to the `main` branch:
 
 ```shell
-git merge feature_test
+$ git merge feature_test
 ```
 
 ## Merging a Pull Request on GitHub
@@ -47,4 +47,4 @@ git merge feature_test
 
 6. Click **Confirm merge**, **Confirm squash and merge**, or **Confirm rebase and merge**.
 
-7. (Optional) Last but not the least, delete the branch. This keeps the list of branches in your repository nice and tidy.
+7. (Optional) Last but not the least, delete the feature branch. This keeps the list of branches in your repository nice and tidy.
