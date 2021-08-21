@@ -14,8 +14,6 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
- 
-
 The `AVG()` aggregate function returns the average value in a column.
 
 ## Syntax
@@ -27,7 +25,7 @@ FROM table_name;
 
 The column in the argument has to be a numeric column.
 
-## Example
+## Example 1
 
 For instance, suppose there's an `employees` table with the following values:
 
@@ -38,6 +36,21 @@ For instance, suppose there's an `employees` table with the following values:
 | Jim | 45000 | 4 |
 | Dwight | 55000 | 8 |
 
+To find the average `salary` for the employees, the given query can be used:
+
+```sql
+SELECT AVG(salary)
+FROM employees;
+```
+
+Since (80000 + 41500 + 45000 + 55000) ÷ 2 = 55375, the result would be:
+
+| AVG(salary) | 
+| -- |
+| 55375 |
+
+## Example 2
+
 To find the average `salary` for the employees who have less than 5 years of experience, the given query can be used:
 
 ```sql
@@ -46,7 +59,7 @@ FROM employees
 WHERE experience < 5;
 ```
 
-The result would be:
+Since (41500 + 45000) ÷ 2 = 43250, the result would be:
 
 | AVG(salary) | 
 | -- |
