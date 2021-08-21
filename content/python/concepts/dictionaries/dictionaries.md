@@ -23,8 +23,8 @@ If you assign a value to an already existing dictionary key, it does not add the
 
 The syntax of a dictionary is as follows:
 
-```py
-dict = {key1: value1, key2: value2, key3: value3}
+```pseudo
+dictionary_name = {key1: value1,  key2: value2,  key3: value3}
 ```
 
 Each entry in a dictionary is a `key: value` pair. Each pair is separated by a comma.
