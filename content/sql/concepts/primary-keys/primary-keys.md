@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/analyze-data-with-sql"
 ---
 
-SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called *primary keys*.
+SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys.
 
 A primary key column has a few requirements:
 
@@ -44,6 +44,6 @@ CREATE TABLE students (
 
 ## Foreign Keys
 
-When the primary key for one table appears in a different table, it is called a *foreign key*.
+When the primary key for one table appears in a different table, it is called a foreign key.
 
 Why is this important? The most common types of joins will be joining a foreign key from one table with the primary key from another table. For instance, when we join the `orders` table and the `customers` table, we join on the `customer_id` column, which is a foreign key in `orders` and the primary key in `customers`.
