@@ -49,18 +49,20 @@ The output will look exactly the same.
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```markdown
-| Item | In Stock | Quantity |
+| Item | In Stock | Price|
 | :-- | :-: | --: |
-| Shirts | True | 52 |
-| Hats | True | 120 |
-| Socks | False | 0 |
+| Python Hat | True | 23.99 |
+| SQL Hat | True | 23.99 |
+| Codecademy Tee | False | 19.99 |
+| Codecademy Hoodie | False | 42.99 |
 ```
 
-| Item | In Stock | Quantity |
+| Item | In Stock | Price|
 | :-- | :-: | --: |
-| Shirts | True | 52 |
-| Hats | True | 120 |
-| Socks | False | 0 |
+| Python Hat | True | 23.99 |
+| SQL Hat | True | 23.99 |
+| Codecademy Tee | False | 19.99 |
+| Codecademy Hoodie | False | 42.99 |
 
 - `:--` means the column is left aligned.
 - `--:` means the column is right aligned.
