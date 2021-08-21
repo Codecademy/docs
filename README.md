@@ -25,18 +25,19 @@ Before contributing, please read through the [Contribution Guide](https://github
 
 ## How do I contribute?
 
-Contributing is as simple as:
+Thanks for your interest; we'd love to work with you! 💖
+Contributing follows this flow:
 
 1. Forking this repo.
 2. Editing your fork.
     - Be sure to fetch the main branch shortly before you make your edits—this repo is constantly changing, and trying to merge too old of a fork can be a challenge!
 4. Making a pull request to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
+If you haven't gone through this workflow before, you can check out <a href="https://www.youtube.com/watch?v=rgbCcBNZcdQ" title="YouTube: Creating a Simple Github Pull Request">this YouTube video</a> to learn about how to make a pull request from a fork using Git. Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
-If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. 
+If you are uncomfortable using Git, you can also check out <a href="https://youtu.be/RPagOAUx2SQ" title="YouTube: How to use GitHub Desktop: The easy tutorial(Part1)">this YouTube video</a> to do this all using the GitHub Desktop app. 
 
 ## Additional Notes
 
