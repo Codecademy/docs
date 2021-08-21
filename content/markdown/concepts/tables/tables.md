@@ -57,13 +57,6 @@ You can align text in the columns to the left, right, or center by adding a colo
 | Codecademy Hoodie | False | 42.99 |
 ```
 
-| Item | In Stock | Price|
-| :-- | :-: | --: |
-| Python Hat | True | 23.99 |
-| SQL Hat | True | 23.99 |
-| Codecademy Tee | False | 19.99 |
-| Codecademy Hoodie | False | 42.99 |
-
 - `:--` means the column is left aligned.
 - `--:` means the column is right aligned.
 - `:-:` means the column is center aligned.
