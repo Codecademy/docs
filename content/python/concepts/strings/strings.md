@@ -103,8 +103,9 @@ print(my_string)
 Python also has a series of non-printable characters that can modify strings. For example, `\n` will add a new line, and `\t` will add a tab:
 
 ```codebyte/py
-my_string = "I am on top!\nI am on bottom. \tI am indented!"
-print(my_string)
+note = "I am on top!\nI am on bottom. \tI am indented!"
+
+print(note)
 ```
 
 ## Modifying Strings
