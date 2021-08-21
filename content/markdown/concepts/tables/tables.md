@@ -57,8 +57,9 @@ You can align text in the columns to the left, right, or center by adding a colo
 ```
 
 - `:---` means the column is left aligned.
-- `:---:` means the column is center aligned.
 - `---:` means the column is right aligned.
+- `:---:` means the column is center aligned.
+
 
 ## Text Formatting
 
