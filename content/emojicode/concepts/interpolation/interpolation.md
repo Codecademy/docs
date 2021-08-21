@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-*String interpolation* can be used to construct a string from a mix of constants, variables, and others by including their values inside a string literal.
+String interpolation can be used to construct a string from a mix of constants, variables, and others by including their values inside a string literal.
 
 In Emojicode, to insert a value into a string using string interpolation, we can write the variable inside two `🧲`s and it will print its value.
 
