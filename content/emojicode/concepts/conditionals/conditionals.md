@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-_Conditionals_ take an expression, which is code that evaluates to determine a value, and checks if it is `👍` or `👎`. If it’s `👍`, we can tell our program to do one thing — we can even account for `👎` to do another.
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `👍` or `👎`. If it’s `👍`, we can tell our program to do one thing — we can even account for `👎` to do another.
 
 As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust.
 
