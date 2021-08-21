@@ -36,14 +36,14 @@ For instance, suppose there's an `employees` table with the following values:
 | Jim | 45000 | 4 |
 | Dwight | 55000 | 8 |
 
-To find the average `salary` for the employees, the given query can be used:
+To find the average `salary` for all the employees, the given query can be used:
 
 ```sql
 SELECT AVG(salary)
 FROM employees;
 ```
 
-Since (80000 + 41500 + 45000 + 55000) ÷ 2 = 55375, the result would be:
+Since (80000 + 41500 + 45000 + 55000) ÷ 4 = 55375, the result would be:
 
 | AVG(salary) | 
 | -- |
