@@ -23,6 +23,7 @@ message2 = 'I am also a string'
 Other data types such as `integers`, `doubles` and `booleans`, can also be `strings` as long as they are wrapped in quotes:
 
 All of the below are strings:
+
 ```py
 "2"
 '3.6'
@@ -31,7 +32,7 @@ All of the below are strings:
 
 All of the below are not strings:
 
-```py
+```shell
 7
 Hello
 True
@@ -55,7 +56,7 @@ name = "phillis"
 name[8] # Throws an IndexError
 ```
 
-## Formatting Strings
+## Multi-line String
 
 Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three double or single quotes:
 
@@ -69,20 +70,41 @@ But here, upon this bank and shoal of time,
 We'ld jump the life to come."""
 ```
 
-Sometimes a string may have a character that python tries to interpret such as `"`. These characters can be "escaped" by adding a backslash beforehand. The backslash will not be visible if the string is printed:
+## Escape Character
+
+Sometimes a string may have a character that Python tries to interpret such as `'`.
+
+```py
+my_string = 'It's a lovely day!'
+
+print(my_string)
+```  
+
+This will give an error because the interpreter thinks that the second `'` marks the end of the string.
+
+```error
+  File "main.py", line 1
+    my_string = 'It's a lovely day!'
+                    ^
+SyntaxError: invalid syntax
+```
+
+These characters can be "escaped" by adding a backslash beforehand. The `\` is called an escape character.
+
+The backslash will not be visible if the string is printed:
 
 ```py
 my_string = 'It\'s a lovely day!'
 
 print(my_string)
 # Output: It's a lovely day!
-```  
+``` 
 
 Python also has a series of non-printable characters that can modify strings. For example, `\n` will add a new line, and `\t` will add a tab:
 
 ```codebyte/py
-my_string = "I am on top \nand I am on bottom. \t I am indented!"
-print(m_sString)
+my_string = "I am on top!\nI am on bottom. \tI am indented!"
+print(my_string)
 ```
 
 ## Modifying Strings
