@@ -14,9 +14,7 @@ CatalogContent:
   - "paths/data-science" 
 ---
 
-
-
-Takes in a value from the user and converts the value into a string. 
+The `input()` built-in function takes in a value from the user and converts the value into a string. 
 
 This function is unique in that the environment creates a field to allow users to enter the value.
 
@@ -30,18 +28,18 @@ input()
 
 Use `input()` to prompt user to input a value:
 
-```codebyte/python
-user_enters = input()
+```python
+password = input()
 
-print(user_enters)
+print(password)
 ```
 
 ## Example 2
 
 Use `input()` to prompt user to input a value based on a message:
 
-```codebyte/python
-user_enters_name = input("What is your name?")
+```python
+username = input("What is your name?")
 
-print(user_enters)
+print(username)
 ```
