@@ -14,7 +14,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A _class_ is a blueprint or a template for the object. Blueprints detail the general structure (information and behavior about an object.
+A class is a blueprint or a template for the object. Blueprints detail the general structure (information and behavior about an object.
 
 ## Syntax
 
