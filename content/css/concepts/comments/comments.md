@@ -11,11 +11,13 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.
+A comment is a piece of text within a style sheet that is not interpreted by the browser. It can be used to provide additional information to aid in understanding the code. By design, comments have no effect on the layout or styling of a document.
 
 ## Syntax
 
-Comments can be placed wherever white space is allowed within a style sheet. They can be used on a single line, or traverse multiple lines.
+Comments, are created by an opening `/*` and closing `*/`. Everything in between is commented out.
+
+They can be used on a single line, or across multiple lines:
 
 ```css
 /* A one-line comment */
@@ -34,13 +36,9 @@ Here is an example use case:
    disable specific styling */
 
 span {
-  color: blue;
+  color: aqua;
   font-size: 1.5em;
 }
 ```
 
-The `/*` `*/` comment syntax is used for both single and multiline comments. There is no other way to specify comments in external style sheets.
-
-However, when using the HTML `<style>` element, you may use `<!--` `-->` to hide CSS from older browsers, although this is not recommended. 
-
-As with most programming languages that use the `/*` `*/` comment syntax, comments cannot be nested. In other words, the first instance of `*/` that follows an instance of `/*` closes the comment.
+**Note:** In CSS, comments cannot be nested. A `/*` `*/` comment syntax cannot have another `/*` `*/` comment syntax inside. The first closing `*/` ends the comment.
