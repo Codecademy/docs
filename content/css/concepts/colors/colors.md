@@ -31,5 +31,12 @@ All browsers support the following 147 CSS color names:
 | `brown` | ![#a52a2a](https://via.placeholder.com/15/a52a2a/000000?text=+) `#a52a2a` | 
 | `burlywood` | ![#deb887](https://via.placeholder.com/15/deb887/000000?text=+) `#deb887` | 
 | `cadetblue` | ![#5f9ea0](https://via.placeholder.com/15/5f9ea0/000000?text=+) `#5f9ea0` | 
+| `chartreuse` | ![#7fff00](https://via.placeholder.com/15/7fff00/000000?text=+) `#7fff00` | 
+| `chocolate` | ![#d2691e](https://via.placeholder.com/15/d2691e/000000?text=+) `#d2691e` | 
+| `coral` | ![#ff7f50](https://via.placeholder.com/15/ff7f50/000000?text=+) `#ff7f50` | 
+| `cornflowerblue` | ![#6495ed](https://via.placeholder.com/15/6495ed/000000?text=+) `#6495ed` | 
+| `cornsilk` | ![#fff8dc](https://via.placeholder.com/15/fff8dc/000000?text=+) `#fff8dc` | 
+| `crimson` | ![#dc143c](https://via.placeholder.com/15/dc143c/000000?text=+) `#dc143c` | 
+| `cyan` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
 
 Currently work in progress.
