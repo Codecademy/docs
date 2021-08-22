@@ -38,5 +38,34 @@ All browsers support the following 147 CSS color names:
 | `cornsilk` | ![#fff8dc](https://via.placeholder.com/15/fff8dc/000000?text=+) `#fff8dc` | 
 | `crimson` | ![#dc143c](https://via.placeholder.com/15/dc143c/000000?text=+) `#dc143c` | 
 | `cyan` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `darkblue` | ![#00008b](https://via.placeholder.com/15/00008b/000000?text=+) `#00008b` | 
+| `darkcyan` | ![#008b8b](https://via.placeholder.com/15/008b8b/000000?text=+) `#008b8b` | 
+| `darkgoldenrod` | ![#b8860b](https://via.placeholder.com/15/b8860b/000000?text=+) `#b8860b` | 
+| `darkgray` | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) `#a9a9a9` | 
+| `darkgreen` | ![#006400](https://via.placeholder.com/15/006400/000000?text=+) `#006400` | 
+| `darkgrey` | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) `#a9a9a9` | 
+| `darkkhaki` | ![#bdb76b](https://via.placeholder.com/15/bdb76b/000000?text=+) `#bdb76b` | 
+| `darkmagenta` | ![#8b008b](https://via.placeholder.com/15/8b008b/000000?text=+) `#8b008b` | 
+| `darkolivegreen` | ![#556b2f](https://via.placeholder.com/15/556b2f/000000?text=+) `#556b2f` | 
+| `darkorgange` | ![#ff8c00](https://via.placeholder.com/15/ff8c00/000000?text=+) `#ff8c00` | 
+| `darkorchid` | ![#9932cc](https://via.placeholder.com/15/9932cc/000000?text=+) `#9932cc` | 
+| `darkred` | ![#8b0000](https://via.placeholder.com/15/8b0000/000000?text=+) `#8b0000` | 
+| `darksalmon` | ![#e9967a](https://via.placeholder.com/15/e9967a/000000?text=+) `#e9967a` | 
+| `darkseagreen` | ![#8fbc8f](https://via.placeholder.com/15/8fbc8f/000000?text=+) `#8fbc8f` | 
+| `darkslateblue` | ![#483d8b](https://via.placeholder.com/15/483d8b/000000?text=+) `#483d8b` | 
+| `darkslategray` | ![#2f4f4f](https://via.placeholder.com/15/2f4f4f/000000?text=+) `#2f4f4f` | 
+| `darkslategrey` | ![#2f4f4f](https://via.placeholder.com/15/2f4f4f/000000?text=+) `#2f4f4f` | 
+| `darkturquoise` | ![#00ced1](https://via.placeholder.com/15/00ced1/000000?text=+) `#00ced1` | 
+| `darkviolet` | ![#9400d3](https://via.placeholder.com/15/9400d3/000000?text=+) `#9400d3` | 
+| `deeppink` | ![#ff1493](https://via.placeholder.com/15/ff1493/000000?text=+) `#ff1493` | 
+
+| `deepskyblue` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `dimgray` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `dimgrey` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `dodgerblue` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `firebrick` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `floralwhite` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `forestgreen` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+
 
 Currently work in progress.
