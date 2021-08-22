@@ -58,14 +58,13 @@ All browsers support the following 147 CSS color names:
 | `darkturquoise` | ![#00ced1](https://via.placeholder.com/15/00ced1/000000?text=+) `#00ced1` | 
 | `darkviolet` | ![#9400d3](https://via.placeholder.com/15/9400d3/000000?text=+) `#9400d3` | 
 | `deeppink` | ![#ff1493](https://via.placeholder.com/15/ff1493/000000?text=+) `#ff1493` | 
-
-| `deepskyblue` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `dimgray` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `dimgrey` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `dodgerblue` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `firebrick` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `floralwhite` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
-| `forestgreen` | ![#00ffff](https://via.placeholder.com/15/00ffff/000000?text=+) `#00ffff` | 
+| `deepskyblue` | ![#00bfff](https://via.placeholder.com/15/00bfff/000000?text=+) `#00bfff` | 
+| `dimgray` | ![#696969](https://via.placeholder.com/15/696969/000000?text=+) `#696969` | 
+| `dimgrey` | ![#696969](https://via.placeholder.com/15/696969/000000?text=+) `#696969` | 
+| `dodgerblue` | ![#1e90ff](https://via.placeholder.com/15/1e90ff/000000?text=+) `#1e90ff` | 
+| `firebrick` | ![#b22222](https://via.placeholder.com/15/b22222/000000?text=+) `#b22222` | 
+| `floralwhite` | ![#fffaf0](https://via.placeholder.com/15/fffaf0/000000?text=+) `#fffaf0` | 
+| `forestgreen` | ![#228b22](https://via.placeholder.com/15/228b22/000000?text=+) `#228b22` | 
 
 
 Currently work in progress.
