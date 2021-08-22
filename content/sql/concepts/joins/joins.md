@@ -63,7 +63,7 @@ For example, given a `first_names` table with a column name containing rows of d
 
 | name |
 | --- |
-| Cassidey |
+| Cassidy |
 | James |
 | Hermione |
 
