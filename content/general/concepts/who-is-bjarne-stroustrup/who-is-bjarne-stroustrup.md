@@ -17,6 +17,4 @@ Stroustrup has authored several computer programming books focused on C++, inclu
 
 As the principle designer of C++, Bjarne Stroustrup's goal was to add object-oriented programming into C, a language well-respected for its portability and low-level functionality, and to do so efficiently. Stroustrup's continued work in maintaining C++ is associated with improvements in performance and efficiency for a great number of applications including AI/ML, RDBMS, video games, financial systems, and graphics.
 
-Dr. Stroustrup played a key role in the development of Codecademy's [Learn C++](https://www.codecademy.com/learn/learn-c-plus-plus) course. 
-
-Here's an interview called [Talking C++](https://www.codecademy.com/resources/blog/bjarne-stroustrup-interview/) that we conducted during the end of the production.
+Dr. Stroustrup played a key role in the development of Codecademy's [Learn C++](https://www.codecademy.com/learn/learn-c-plus-plus) course. Here's an interview called [Talking C++](https://www.codecademy.com/resources/blog/bjarne-stroustrup-interview/) that we conducted during the end of the production.
