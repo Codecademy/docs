@@ -8,7 +8,7 @@ Tags:
   - "Documentation"
 CatalogContent:
   - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - "learn-intermediate-css"
 ---
 
 Color name keywords can be used to set color property values for elements in CSS.
@@ -65,6 +65,5 @@ All browsers support the following 147 CSS color names:
 | `firebrick` | ![#b22222](https://via.placeholder.com/15/b22222/000000?text=+) `#b22222` | 
 | `floralwhite` | ![#fffaf0](https://via.placeholder.com/15/fffaf0/000000?text=+) `#fffaf0` | 
 | `forestgreen` | ![#228b22](https://via.placeholder.com/15/228b22/000000?text=+) `#228b22` | 
-
 
 Currently work in progress.
