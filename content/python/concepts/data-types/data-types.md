@@ -13,7 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Python is a strong type language. Strong type means that the data type of a value doesn't change in unexpected ways.
+Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.
 
 ```py
 codecademy = 575
