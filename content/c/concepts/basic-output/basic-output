@@ -6,25 +6,66 @@ Subjects:
 Tags:
   - "Print"
   - "Output"
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - "learn-example-course"
-  - "path/example-path"
 ---
 
-[Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+In the C language basic console output is achieved using functions from the standard input output header file (stdio.h)
 
-## Subsection 1
+## Including Output functions
 
-[Text about subsection 1]
+C itself has no ability to output any information, in order to so the stdio header file must be included in the program, which is typically done at the top of the file.
 
-## Subsection 2
+```c
+#include <stdio.h>
+```
 
-[Text about subsection 2]
+Once this is done the function included in it can be used.
 
-## Subsection n
+## Printing Single Characters With `putchar`
 
-[Text about subsection n]
+The `putchar` function accepts a single `char` input, and prints it to the `stdout` file, normally the console.
 
-```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
-console.log('Hello, World!');
+```pseudo
+#include <stdio.h>
+
+int main(void) {
+  putchar('a');
+  return 0;
+}
+```
+
+## Printing Strings With `puts`
+
+The `puts` function, or "put string", takes a string as an argument and prints it to the `stdout` file followed by a newline character.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  puts("Hello World!!");
+  return 0;
+}
+```
+
+## Formatting Variables With `printf`
+
+The `puts` function can only accept print a single string argument, which is why there is the `printf` function, or "print formatted". As arguments it takes a string, containing information on what values to format, followed by the values to format in the string.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  printf("%d is a number\n", 5); // prints 5 is a number
+  printf("%d is after %d\n, 2, 1) // prints 2 is after 1
+  return 0;
+}
+```
+
+As seen above the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are show below.
+
+```pseudo
+%c = char
+%d = double
+%i = input
+%p = pointer
+%s = string
 ```
