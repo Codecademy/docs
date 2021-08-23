@@ -11,7 +11,7 @@ CatalogContent:
   - "learn-intermediate-css"
 ---
 
-CSS colors can be set with the following:
+The CSS `color` property can be set with one of the following:
 
 - Name keywords: `aliceblue`
 - Hexadecimal: `#f0f8ff`
