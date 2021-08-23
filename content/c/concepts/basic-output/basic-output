@@ -1,0 +1,30 @@
+---
+Title: "Basic Output"
+Subjects:
+  - "Code Foundations"
+  - "Computer Science"
+Tags:
+  - "Print"
+  - "Output"
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - "learn-example-course"
+  - "path/example-path"
+---
+
+[Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+
+## Subsection 1
+
+[Text about subsection 1]
+
+## Subsection 2
+
+[Text about subsection 2]
+
+## Subsection n
+
+[Text about subsection n]
+
+```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
+console.log('Hello, World!');
+```
