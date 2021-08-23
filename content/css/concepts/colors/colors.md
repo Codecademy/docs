@@ -17,6 +17,12 @@ The CSS `color` property can be set with one of the following:
 - Hexadecimal: `#f0f8ff`
 - RGB value: `rgb(240, 248, 255)`
 - HSL value: `hsl(208, 100%, 97%)`
+
+```css
+h1 {
+  color: aliceblue;
+}
+```
   
 Color name keywords can be used to set color property values for elements in CSS. All browsers support the following color names:
 
