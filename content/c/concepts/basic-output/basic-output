@@ -18,7 +18,7 @@ C itself has no ability to output any information, in order to so the stdio head
 #include <stdio.h>
 ```
 
-Once this is done the function included in it can be used.
+Once this is done the functions included in it can be used.
 
 ## Printing Single Characters With `putchar`
 
@@ -48,7 +48,7 @@ int main(void) {
 
 ## Formatting Variables With `printf`
 
-The `puts` function can only accept print a single string argument, which is why there is the `printf` function, or "print formatted". As arguments it takes a string, containing information on what values to format, followed by the values to format in the string.
+The `puts` function can only accept and print a single string argument, which is why there is the `printf` function, or "print formatted". As arguments it takes a string, containing information on what values to format, followed by the values to format in the string.
 
 ```c
 #include <stdio.h>

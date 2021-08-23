@@ -7,7 +7,7 @@ Tags:
   - "Functions"
 ---
 
-Functions are blocks of code that can be run multiple times in within a program. The are stored under a name similar to a variable and can be run using this name.
+Functions are blocks of code that can be run multiple times within a program. The are stored under a name similar to a variable and can be run using this name.
 
 ## Declaring a Variable
 

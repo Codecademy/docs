@@ -1,6 +1,5 @@
 ---
 Title: "C"
-Codecademy Hub Page: "https://www.codecademy.com/catalog/language/c"
 CatalogContent:
   - none at the moment
 ---
