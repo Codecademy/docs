@@ -22,10 +22,9 @@ The `STRFTIME()` function returns a formatted date, as specified in a format str
 STRFTIME(format, timestring, modifier1, modifier2, ...) 
 ```
 
-- `format`, is the format string.
-- `timestring`.
-The remaining arguments are 0 or more optional modifiers to transform the time string.
-
+- `format` is the format string.
+- `timestring` is the column or the original value.
+- The remaining arguments are 0 or more optional modifiers to transform the time string.
 
 The substitutions to extract each part of the date and time are the following:
 
@@ -49,16 +48,17 @@ For example, suppose there’s a `bodega` table with the following data:
 | 5	| Ice Coffee | 3.99 | 2 | 2022-08-17 12:18:50 |
 
 ```sql
-SELECT TIME(order_date)
+SELECT order_date,
+  STRFTIME('%H', order_date)
 FROM bodega;
 ```
 
 This would return the time for the `order_date` column.
 
-| TIME(order_date) |
-| --- |
-| 08:04:23 |
-| 09:43:00 |
-| 11:25:12 |
-| 11:45:41 |
-| 12:18:50 |
+| order_date | STRFTIME('%H', order_date)|
+| --- | --- |
+| 2022-08-16 08:04:23 | 08 |
+| 2022-08-16 09:43:00 | 09 |
+| 2022-08-16 11:25:12 | 11 |
+| 2022-08-16 11:45:41 | 11 |
+| 2022-08-16 12:18:50 | 12 |
