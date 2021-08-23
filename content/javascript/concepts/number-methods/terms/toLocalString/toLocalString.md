@@ -1,6 +1,6 @@
 ---
-Title: ".toLocalString()"
-Description: "Converts a number to a language-sensitivie version of the number."
+Title: ".toLocaleString()"
+Description: "Converts a date to a string of its language-sensitivie form."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -12,15 +12,18 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `.toLocalString()` method converts a number to a language-sensitivie version of the number.
+The `.toLocaleString()` method converts a date to a string of its language-sensitivie form.
 
 ## Syntax
 
 ```js
-num.toString();
+num.toLocaleString(locales, option);
 ```
 
-## Examples
+- `locales` (optional) sets the language convention.
+- `options` (optional) customized the behavior.
+
+## Example
 
 Converting number to a string:
 
@@ -38,4 +41,13 @@ const x = 5;
 
 console.log(typeof x.toString());
 // Output: string
+```
+
+## Codebyte Example
+
+```codebyte/js
+let date = new Date(Date.UTC(2021, 11, 20, 3, 0, 0));
+
+console.log(date.toLocaleString('en-US'))
+console.log(date.toLocaleString('zh-CN'))
 ```
