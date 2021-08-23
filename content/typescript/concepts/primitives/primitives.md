@@ -36,5 +36,5 @@ decoration = 'Lights';
 
 In other words:
 
-- A **primitive** is a basic type of data, such as `number` or `string`
-- A **literal** is an example of a primitive, such as `1337` or `"ghost"`
+- A primitive is a basic type of data, such as `number` or `string`
+- A literal is an example of a primitive, such as `1337` or `"ghost"`
