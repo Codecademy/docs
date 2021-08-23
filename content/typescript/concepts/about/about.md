@@ -18,7 +18,7 @@ TypeScript is four tools that build on each other:
 
 ## History
 
-TypeScript was released in October 2012 by Microsoft after two years of development. [Anders Hejlsberg], the original designer of C#, was the lead designer for the language. The project is now hosted on [GitHub](https://github.com/microsoft/TypeScript).
+TypeScript was released in October 2012 by Microsoft after two years of development. [Anders Hejlsberg](https://twitter.com/ahejlsberg), the original designer of C#, was the lead designer for the language. The project is now hosted on [GitHub](https://github.com/microsoft/TypeScript).
 
 ## Playground
 
