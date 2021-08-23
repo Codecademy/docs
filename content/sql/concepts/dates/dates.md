@@ -33,7 +33,7 @@ SELECT TIME(order_date)
 FROM bodega;
 ```
 
-This would return the time for the `order_date` column.
+This would return just the time from the `order_date` column.
 
 | TIME(order_date) |
 | --- |
