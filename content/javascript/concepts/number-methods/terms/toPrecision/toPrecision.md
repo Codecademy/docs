@@ -17,25 +17,41 @@ The `.toPrecision()` method converts a number to a string of its specificied pre
 ## Syntax
 
 ```js
-num.toPrecision();
+num.toPrecision(precision);
 ```
+
+- `precision` (optional): The number of significant digits.
 
 ## Examples
 
 Converting number to a string:
 
 ```js
-const x = 5;
+const pi = 3.14159;
 
-console.log(x.toString());
-// Output: 5
+console.log(pi.toPrecision(5)); // Output: 3.1415
+console.log(pi.toPrecision(3)); // Output: 3.14
+console.log(pi.toPrecision(1)); // Output: 3
 ```
 
 To verify if it is a string:
 
 ```js
-const x = 5;
+const pi = 3.14159;
 
-console.log(typeof x.toString());
+console.log(typeof pi.toPrecision());
 // Output: string
+```
+
+
+## Codebyte Example
+
+Before running the program, what do you the result will be?
+
+```codebyte/js
+const euler = 2.71828;
+
+console.log(euler.toPrecision(5));
+console.log(euler.toPrecision(3));
+console.log(euler.toPrecision(1));
 ```
