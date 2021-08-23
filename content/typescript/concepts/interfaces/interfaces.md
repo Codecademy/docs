@@ -72,7 +72,7 @@ Doing so indicates that the derived interface (the interface extending others) i
 
 To mark an interface as extending other(s), add the `extends` keyword after its name followed by any number of interfaces to extend, with `,` commas between interface names.
 
-In this example, the `Cat` interface is given a `walk()` method by extending `Animal`, but `Animal` instances don't have the members added by `Cat`:
+In this example, the `Cat` interface is given a `.walk()` method by extending `Animal`, but `Animal` instances don't have the members added by `Cat`:
 
 ```ts
 interface Animal {
