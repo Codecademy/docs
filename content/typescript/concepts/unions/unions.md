@@ -35,7 +35,7 @@ Optional values, including optional parameters and members, are implicitly type 
 
 When a value is a union type, TypeScript will only allow access to members that exist on all possible types.
 
-In this example, the only shared member on the type `boolean | string | string[]` is `toString()`, so no others are allowed:
+In this example, the only shared member on the type `boolean | string | string[]` is `.toString()`, so no others are allowed:
 
 ```ts
 // Type: boolean | string | string[]
@@ -54,4 +54,4 @@ value.length;
 //   Property 'length' does not exist on type 'false'.
 ```
 
-See [Narrowing](./Narrowing) for how to narrow down union types into their more specific types.
+See [Narrowing](./narrowing) for how to narrow down union types into their more specific types.
