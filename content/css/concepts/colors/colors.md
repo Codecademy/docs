@@ -18,7 +18,7 @@ CSS colors can be set with the following:
 - RGB value
 - HSL value
   
-Color name keywords can be used to set color property values for elements in CSS. All browsers support the following 147 CSS color names:
+Color name keywords can be used to set color property values for elements in CSS. All browsers support the following color names:
 
 | Keyword | Hexadecimal |
 | --- | --- |
