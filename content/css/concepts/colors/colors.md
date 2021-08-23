@@ -13,10 +13,10 @@ CatalogContent:
 
 CSS colors can be set with the following:
 
-- Color name keywords - `aliceblue`
-- Hexadecimal - `#f0f8ff`
-- RGB value - `rgb(240, 248, 255)`
-- HSL value - `hsl(208, 100, 97)`
+- Name keywords: `aliceblue`
+- Hexadecimal: `#f0f8ff`
+- RGB value: `rgb(240, 248, 255)`
+- HSL value: `hsl(208, 100, 97)`
   
 Color name keywords can be used to set color property values for elements in CSS. All browsers support the following color names:
 
