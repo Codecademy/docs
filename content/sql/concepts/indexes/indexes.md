@@ -1,5 +1,5 @@
 ---
-Title: "Index"
+Title: "Indexes"
 Subjects:
   - "Data Science"
   - "Computer Science"
