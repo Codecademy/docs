@@ -7,11 +7,11 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Some constructs in TypeScript, such as variables without an initial value or members of interfaces, don't have an initially inferable type.
-The TypeScript language includes a TypeScript-specific syntax for defining what type the value is meant to be later on called a _type annotation_.
+The TypeScript language includes a TypeScript-specific syntax for defining what type the value is meant to be later on called a type annotation.
 
 Type annotations consist of a `:` colon followed by the name of a type.
 They exist after the name of the construct they're declaring the type for.

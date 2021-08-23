@@ -7,7 +7,7 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 JavaScript functions take in zero or more parameters and return some kind of value.

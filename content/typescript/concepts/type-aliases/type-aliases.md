@@ -7,7 +7,7 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Some type system constructs, such as type unions and intersections, consist of a lot of code and are repeated frequently enough that it's irksome to have to write them out repeatedly.

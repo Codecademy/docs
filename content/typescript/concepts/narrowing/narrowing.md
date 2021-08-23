@@ -8,11 +8,11 @@ Tags:
   - 'Union Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Union types represent entities that may be one of two or more different types.
-Because they only allow access to members known to be on all possible types, you need to _narrow_ down a value to a more specific type before using non-shared members.
+Because they only allow access to members known to be on all possible types, you need to narrow down a value to a more specific type before using non-shared members.
 
 TypeScript recognizes types as being narrowed when it sees JavaScript logic branches based on the type of code.
 If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that branch.

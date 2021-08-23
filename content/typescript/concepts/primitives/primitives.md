@@ -8,10 +8,10 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-A _primitive_ is one of the basic types in JavaScript that make up data other than functions and objects.
+A primitive is one of the basic types in JavaScript that make up data other than functions and objects.
 TypeScript recognizes the seven primitive types in JavaScript:
 
 - `bigint`

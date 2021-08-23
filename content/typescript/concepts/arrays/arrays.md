@@ -7,7 +7,7 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Arrays in TypeScript are considered to be "generic" across a single type of value.

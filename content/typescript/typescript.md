@@ -3,7 +3,7 @@ Title: 'TypeScript'
 Codecademy Hub Page: null
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 TypeScript is a typed superset of JavaScript that combines the flexibility and general syntax of JavaScript with a type checker and syntax.

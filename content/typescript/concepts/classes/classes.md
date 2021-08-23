@@ -4,9 +4,10 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Classes'
+  - 'Objects'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Classes are a core part of the JavaScript language that TypeScript respects.
@@ -124,7 +125,7 @@ derived.fifth;
 
 ## Implementing Interfaces
 
-Classes may be marked as _implementing_ an interface, which means that instances of the class are meant to be assignable to that interface type.
+Classes may be marked as implementing an interface, which means that instances of the class are meant to be assignable to that interface type.
 Add the `implements` keyword after a class name followed by any number of interfaces to implement, with `,` commas between interface names.
 
 In this example, the `Speaker` interface has a single `speak()` method, and so the `SpeechGiver` class may be marked as implementing it:

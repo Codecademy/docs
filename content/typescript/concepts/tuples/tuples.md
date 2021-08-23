@@ -8,10 +8,10 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-A _tuple_ is an array of a fixed size.
+A tuple is an array of a fixed size.
 Tuples are particularly useful for representing multiple return values from functions, or groups of values that are meant to be used together.
 
 Tuple types look like an array consisting of types as values inside.

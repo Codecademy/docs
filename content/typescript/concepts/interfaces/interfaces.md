@@ -8,11 +8,11 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 JavaScript code often necessitates passing around objects known to have specific shapes.
-_Interfaces_ are a way in TypeScript to declare that an object provided in a location must have at least a certain set of members.
+Interfaces are a way in TypeScript to declare that an object provided in a location must have at least a certain set of members.
 
 Interfaces may be declared by starting with the `interface` keyword, a name for the interface, and then an object containing any number of members.
 

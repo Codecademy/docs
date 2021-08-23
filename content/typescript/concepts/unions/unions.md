@@ -7,11 +7,11 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Some values may be one of multiple possible types.
-TypeScript refers to these "either or" types as _type unions_: referring to the set theory concept of being a "union" of multiple possible types.
+TypeScript refers to these "either or" types as type unions: referring to the set theory concept of being a "union" of multiple possible types.
 
 A union type is written as a series of other types with a `|` vertical pipe between them.
 

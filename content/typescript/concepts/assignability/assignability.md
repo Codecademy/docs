@@ -7,10 +7,10 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-_Assignability_ is the concept of whether a type may be used in a place where another type is needed.
+Assignability is the concept of whether a type may be used in a place where another type is needed.
 TypeScript perfoms assignability checks whenever a value is being placed into another location, such as:
 
 - Assigning values to variables

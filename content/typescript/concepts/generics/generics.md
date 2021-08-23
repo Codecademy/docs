@@ -7,7 +7,7 @@ Tags:
   - 'Types'
 CatalogContent:
   - 'learn-typescript'
-  - 'paths/web-development'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Some data structures, such as Arrays and Maps, may be used with any kind of data contents.
