@@ -1,6 +1,6 @@
 ---
-Title: ".toString()"
-Description: "Converts a number to a string."
+Title: ".toFixed()"
+Description: "Converts a number to a fixed-point number."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `.toString()` method converts a number to a string.
+The `.toFixed()` method converts a number to a fixed-point number.
 
 ## Syntax
 
