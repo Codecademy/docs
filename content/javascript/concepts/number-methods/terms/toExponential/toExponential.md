@@ -17,8 +17,10 @@ The `.toExponential()` method converts a number to a string of its exponetial fo
 ## Syntax
 
 ```js
-num.toExponential();
+num.toExponential(digits);
 ```
+
+- `digits` (optional): The number of digits to keep after the decimal point. 
 
 ## Example
 
