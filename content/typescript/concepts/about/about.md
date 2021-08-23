@@ -16,6 +16,12 @@ TypeScript is four tools that build on each other:
 3. A **type checker** program that reads in TypeScript syntax, understands the types of values every entity is meant to be, and notices any "type errors" (mismatches)
 4. A **language server** that editors such as VS Code can run to provide development-time hints and refactoring tools
 
+## History
+
+WIP
+
+## Playground
+
 You can get started with an interactive playground provided by the TypeScript team at: https://www.typescriptlang.org/play.
 
 It allows you to type in JavaScript or TypeScript code on the left and see the resultant output JavaScript or any TypeScript type errors.
