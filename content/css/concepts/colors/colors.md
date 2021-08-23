@@ -18,6 +18,8 @@ The CSS `color` property can be set with one of the following:
 - RGB value: `rgb(240, 248, 255)`
 - HSL value: `hsl(208, 100%, 97%)`
 
+For example:
+
 ```css
 h1 {
   color: aliceblue;
