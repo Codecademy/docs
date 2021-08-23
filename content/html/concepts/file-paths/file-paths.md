@@ -24,10 +24,10 @@ A file path describes the location of a file in a web site's folder structure. T
 
 URL paths in HTML can be absolute paths, like a full URL, for example: 
 
-**https://www.codecademy.com/articles**
+**https\:\/\/codecademy\.com/resources/docs**
 
 ```html
-<a href="https://www.codecademy.com/articles">
+<a href="https://www.codecademy.com/resources/docs">
   The URL for this anchor element is an absolute file path.
 </a>
 ```
