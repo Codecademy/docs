@@ -20,7 +20,7 @@ The `.toString()` method converts a number to a string.
 num.toString();
 ```
 
-## Examples
+## Example
 
 Converting number to a string:
 
@@ -39,3 +39,12 @@ const x = 5;
 console.log(typeof x.toString());
 // Output: string
 ```
+
+## Codebyte Example
+
+```codebyte/js
+const num = 2.7128;
+
+console.log(num.toString());
+```
+
