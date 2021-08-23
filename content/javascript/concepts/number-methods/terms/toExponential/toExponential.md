@@ -17,18 +17,18 @@ The `.toExponential()` method converts a number to a string.
 ## Syntax
 
 ```js
-num.toString();
+num.toExponential();
 ```
 
-## Examples
+## Example
 
 Converting number to a string:
 
 ```js
-const x = 5;
+const x = 420;
 
-console.log(x.toString());
-// Output: 5
+console.log(x.toExponential());
+// Output: 4.2e+2
 ```
 
 To verify if it is a string:
@@ -36,6 +36,16 @@ To verify if it is a string:
 ```js
 const x = 5;
 
-console.log(typeof x.toString());
+console.log(typeof x.toExponential());
 // Output: string
+```
+
+## Codebyte Example
+
+```codebyte/js
+const num = 12345;
+
+console.log(num.toExponential());
+
+console.log(num.toExponential(6));
 ```
