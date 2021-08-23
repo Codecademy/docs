@@ -1,6 +1,6 @@
 ---
 Title: ".toExponential()"
-Description: "Converts a number to an exponential."
+Description: "Converts a number to a string of its exponential form."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `.toExponential()` method converts a number to a string.
+The `.toExponential()` method converts a number to a string of its exponetial form.
 
 ## Syntax
 
