@@ -22,7 +22,5 @@ TypeScript was released in October 2012 by Microsoft after two years of developm
 
 ## Playground
 
-There's an interactive playground provided by the TypeScript team at: https://www.typescriptlang.org/play.
-
-It allows you to type in JavaScript or TypeScript code on the left and see the resultant output JavaScript or any TypeScript type errors.
+There's an interactive playground provided by the TypeScript team at: https://www.typescriptlang.org/play. It allows you to type in JavaScript or TypeScript code on the left and see the resultant output JavaScript or any TypeScript type errors.
 
