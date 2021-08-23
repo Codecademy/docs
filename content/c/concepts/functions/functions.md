@@ -5,6 +5,11 @@ Subjects:
   - "Computer Science"
 Tags:
   - "Functions"
+  - "Arguments
+
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Functions are blocks of code that can be run multiple times within a program. The are stored under a name similar to a variable and can be run using this name.
@@ -40,7 +45,7 @@ void greet(void) {
 }
 
 int main(void) {
-  greet(); // prints Howdy!
+  greet(); // Output: Howdy!
 }
 ```
 
@@ -57,7 +62,7 @@ void greet(char* name) {
 }
 
 int main(void) {
-  greet("John Doe"); // prints Howdy John Doe!
+  greet("John Doe"); // Output: Howdy John Doe!
   return 0;
 }
 ```
