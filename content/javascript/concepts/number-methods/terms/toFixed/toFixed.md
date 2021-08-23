@@ -20,6 +20,8 @@ The `.toFixed()` method converts a number to a string of its fixed-point decimal
 num.toFixed(digits);
 ```
 
+- `digits` (optional) is the number of digits to keep after the decimal point. The default is 0.
+
 ## Example
 
 Converting number to a string:
