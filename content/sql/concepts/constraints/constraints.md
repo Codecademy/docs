@@ -1,5 +1,5 @@
 ---
-Title: "Contraints"
+Title: "Constraints"
 Subjects:
   - "Computer Science"
   - "Data Science"
