@@ -9,7 +9,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-TypeScript is three tools that build on each other:
+TypeScript is four tools that build on each other:
 
 1. A **language** specification that describes JavaScript syntax as well as new TypeScript-specific syntax
 2. A **compiler** program that takes in TypeScript (and therefore also JavaScript) syntax and converts it to the equivalent JavaScript
