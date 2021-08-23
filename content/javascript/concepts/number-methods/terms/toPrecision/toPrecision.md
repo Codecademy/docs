@@ -46,7 +46,7 @@ console.log(typeof pi.toPrecision());
 
 ## Codebyte Example
 
-Before running the program, what do you the result will be?
+Before running the program, what do you think the result will be?
 
 ```codebyte/js
 const euler = 2.71828;
