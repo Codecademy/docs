@@ -74,10 +74,11 @@ The output would be:
 
 As seen above the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are show below.
 
-```pseudo
-%c = char
-%d = double
-%i = input
-%p = pointer
-%s = string
+| Format Specifier | Type |
+| --- | --- |
+| `%c` | char |
+| `%d` | double |
+| `%i` | integer |
+| `%p` | pointer |
+| `%s` | string |
 ```
