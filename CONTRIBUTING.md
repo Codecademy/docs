@@ -18,7 +18,7 @@ Thanks for your interest; we'd love to work with you! 💖
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
 
-## Steps to submitting a PR
+## How do I submit a PR?
 
 Contributing follows this flow:
 
