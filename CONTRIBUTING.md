@@ -2,9 +2,9 @@
 
 Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo! 
 
-We are an open, inclusive, and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found your project yet. 
+We are an open, inclusive, and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found your project yet. 
 
-Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentations, and translations) are written by amazing creative folks like yourself. 
+Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself. 
 
 Thanks for your interest; we'd love to work with you! 💖
 
