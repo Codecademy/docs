@@ -6,6 +6,9 @@ Subjects:
 Tags: 
   - "Variables"
   - "Data Types"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A variable is a location in computer memory used to store data, usually for use in a program.
