@@ -33,7 +33,7 @@ Promise.allSettled([]).then((values) => {
 
 ## Example #2
 
-With an array of Promises
+With an array of Promises:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {
@@ -79,7 +79,7 @@ Promise.allSettled(promises)
   });
 ```
 
-The outpput would be:
+The output would be:
 
 ```shell
 { status: 'fulfilled', value: 23 }
