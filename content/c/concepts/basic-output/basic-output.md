@@ -82,9 +82,9 @@ The output would be:
 2 is after 1
 ```
 
-### Format Specifiers
+## Format Specifiers
 
-As seen above the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are show below.
+As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are show below.
 
 | Format Specifier | Type |
 | --- | --- |
