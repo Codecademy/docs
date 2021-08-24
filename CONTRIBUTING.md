@@ -20,9 +20,9 @@ There are different ways in which you can contribute:
 - Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the #CodecademyDocs discussion on Twitter.
 
-##
+## GitHub
 
-Contributing is as simple as:
+Thanks for your interest; we'd love to work with you! 💖 Contributing follows this flow:
 
 1. Forking this repo.
 2. Editing your fork.
