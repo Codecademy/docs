@@ -60,8 +60,8 @@ And here, templates for creating your new entries.
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required checks are expected to pass on each PR.
 - We require one approval from one core team member for each PR.
-- Requested changes must be resolved (with code or discussion) before merging.
-- Your code will be deployed shortly after it is merged!
+- Requested changes must be resolved before merging.
+- Your entry will be deployed shortly after it is merged!
 
 ## What do we check for?
 
