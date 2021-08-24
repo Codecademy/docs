@@ -40,12 +40,14 @@ After declaring a function it can be used in a program by calling it. The sytax 
 #include <stdio.h>
 
 // Declaring the function
+
 void greet(void) {
   puts("Howdy!\n");
 }
 
+// Calling the function inside main()
+
 int main(void) {
-  // Calling the function
   greet();
 }
 ```
