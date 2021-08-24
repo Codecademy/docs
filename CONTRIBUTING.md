@@ -54,7 +54,7 @@ And here, templates for creating your new entries.
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md)) | [SQL](https://www.codecademy.com/resources/docs/sql) |
 
-## Pull Requests Tips
+## Any tips for a Pull Request?
 
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
@@ -63,7 +63,7 @@ And here, templates for creating your new entries.
 - Requested changes must be resolved (with code or discussion) before merging.
 - Your code will be deployed shortly after it is merged!
 
-## Things We Check For
+## What do we check for?
 
 - Technical accuracy
 - Formatting standards
