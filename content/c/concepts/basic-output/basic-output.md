@@ -63,7 +63,9 @@ Hello World!
 
 ## Formatting Variables with `printf()`
 
-The `puts()` function can only accept and print a single string argument, which is why there is the `printf()` function, or "print formatted". As arguments it takes a string, containing information on what values to format, followed by the values to format in the string.
+The `puts()` function can only accept and print a single string argument, which is why there is the `printf()` function.
+
+The `printf()` function, or "print formatted", takes a string that contains information on positions of the values to format, also known as format specifiers, followed by the values to format in the string.
 
 ```c
 #include <stdio.h>
