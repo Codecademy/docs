@@ -36,3 +36,13 @@ grocery = ["milk", "cookies", "berries", "carrots"]
 - The second element is at index 1.
 - The third element is at index 2.
 - ...and so on.
+
+## Arrays in Other Languages
+
+- [Arrays in C++](https://www.codecademy.com/resources/docs/cpp/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in JavaScript](https://www.codecademy.com/resources/docs/javascript/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Java](https://www.codecademy.com/resources/docs/java/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in PHP](https://www.codecademy.com/resources/docs/php/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in TypeScript](https://www.codecademy.com/resources/docs/typescript/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Swfit](https://www.codecademy.com/resources/docs/swift/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Ruby](https://www.codecademy.com/resources/docs/ruby/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
