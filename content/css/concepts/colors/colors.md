@@ -87,6 +87,11 @@ Color name keywords can be used to set color property values for elements in CSS
 | `grey` | ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `#808080` | 
 | `green` | ![#008000](https://via.placeholder.com/15/008000/000000?text=+) `#00800` | 
 | `greenyellow` | ![#adff2f](https://via.placeholder.com/15/adff2f/000000?text=+) `#adff2f` | 
-
+| `honeydew` | ![#f0fff0](https://via.placeholder.com/15/f0fff0/000000?text=+) `#f0fff0` | 
+| `hotpink` | ![#ff69b4](https://via.placeholder.com/15/ff69b4/000000?text=+) `#ff69b4` | 
+| `indianred` | ![#cd5c5c](https://via.placeholder.com/15/cd5c5c/000000?text=+) `#cd5c5c` | 
+| `indigo` | ![#4b0082](https://via.placeholder.com/15/4b0082/000000?text=+) `#4b0082` | 
+| `ivory` | ![#fffff0](https://via.placeholder.com/15/fffff0/000000?text=+) `#fffff0` | 
+| `khaki` | ![#f0e68c](https://via.placeholder.com/15/f0e68c/000000?text=+) `#f0e68c` | 
 
 Currently work in progress.
