@@ -12,7 +12,7 @@ Thanks for your interest; we'd love to work with you! 💖
 
  There are many ways to contribute to Codecademy Docs:
 
-- Submit a Pull Request to edit an exisiting entry.
+- Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a bug in [Issues](https://github.com/Codecademy/docs/issues).
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
@@ -20,12 +20,12 @@ Thanks for your interest; we'd love to work with you! 💖
 
 ## How do I submit a Pull Request?
 
-Contributing follows this flow:
+Contributing follows this workflow:
 
 1. Forking this repo.
 2. Editing your fork.
-    - Be sure to fetch the main branch shortly before you make your edits — this repo is constantly changing, and trying to merge too old of a fork can be a challenge!
-3. Making a pull request to merge your fork with this repo.
+    - You can edit an exisiting entry or create a new entry.
+3. Making a Pull Request to merge your fork with this repo.
 
 If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. 
 
