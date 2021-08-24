@@ -1,6 +1,6 @@
 ---
 Title: "<aside>"
-Description: "Represents a part of a page which is relevant to the current content, but not a part of it directly. It can be used for related links, for clarifying a statement from the current article, or even for advertising meant for the current page. "
+Description: "Represents a part of a page which is relevant to the current content, but not a part of it directly. It can be used for related links, for clarifying a statement from the current article, or even for advertising meant for the current page."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -14,10 +14,21 @@ CatalogContent:
 
 The `<aside>` semantic HTML element is used to mark additional information that can enhance another element,but isn’t required in order to understand the main content. 
 
+## Common Uses
+  
 It can be used for related links, for clarifying a statement from the current article, for a sidebar or a location where it doesn't obstruct the main piece of content.
 
 An example of this would be an article that discusses how to take care of a dog and next to the article an advertisement would appear advertising a dog grooming product. The ad would be in the `<aside>` element.
 
+Other uses: 
+  
+- Bibliographies
+- Endnotes
+- Comments
+- Pull quotes
+- Editorial sidebars
+- Additional information
+  
 ## Syntax
 
 ```html
