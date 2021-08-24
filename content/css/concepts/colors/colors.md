@@ -149,6 +149,32 @@ Color name keywords can be used to set color property values for elements in CSS
 | `plum` | ![#dda0dd](https://via.placeholder.com/15/dda0dd/000000?text=+) `#dda0dd` | 
 | `powerderblue` | ![#b0e0e6](https://via.placeholder.com/15/b0e0e6/000000?text=+) `#b0e0e6` | 
 | `purple` | ![#800080](https://via.placeholder.com/15/800080/000000?text=+) `#800080` | 
-
-
-Currently work in progress.
+| `rebeccapurple` | ![#663399](https://via.placeholder.com/15/663399/000000?text=+) `#663399` | 
+| `red` | ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) `#ff0000` | 
+| `rosybrown` | ![#bc8f8f](https://via.placeholder.com/15/bc8f8f/000000?text=+) `#bc8f8f` | 
+| `royalblue` | ![#4169e1](https://via.placeholder.com/15/4169e1/000000?text=+) `#4169e1` | 
+| `saddlebrown` | ![#8b4513](https://via.placeholder.com/15/8b4513/000000?text=+) `#8b4513` | 
+| `salmon` | ![#fa8072](https://via.placeholder.com/15/fa8072/000000?text=+) `#fa8072` | 
+| `sandybrown` | ![#f4a460](https://via.placeholder.com/15/f4a460/000000?text=+) `#f4a460` | 
+| `seagreen` | ![#2e8b57](https://via.placeholder.com/15/2e8b57/000000?text=+) `#2e8b57` | 
+| `seashell` | ![#fff5ee](https://via.placeholder.com/15/fff5ee/000000?text=+) `#fff5ee` | 
+| `sienna` | ![#a0522d](https://via.placeholder.com/15/a0522d/000000?text=+) `#a0522d` | 
+| `silver` | ![#c0c0c0](https://via.placeholder.com/15/c0c0c0/000000?text=+) `#c0c0c0` | 
+| `skyblue` | ![#87ceeb](https://via.placeholder.com/15/87ceeb/000000?text=+) `#87ceeb` | 
+| `slateblue` | ![#6a5acd](https://via.placeholder.com/15/6a5acd/000000?text=+) `#6a5acd` | 
+| `slategray` | ![#708090](https://via.placeholder.com/15/708090/000000?text=+) `#708090` | 
+| `slategrey` | ![#708090](https://via.placeholder.com/15/708090/000000?text=+) `#708090` | 
+| `snow` | ![#fffafa](https://via.placeholder.com/15/fffafa/000000?text=+) `#fffafa` | 
+| `springgreen` | ![#00ff7f](https://via.placeholder.com/15/00ff7f/000000?text=+) `#00ff7f` | 
+| `steelblue` | ![#4682b4](https://via.placeholder.com/15/4682b4/000000?text=+) `#4682b4` | 
+| `tan` | ![#d2b48c](https://via.placeholder.com/15/d2b48c/000000?text=+) `#d2b48c` | 
+| `teal` | ![#008080](https://via.placeholder.com/15/008080/000000?text=+) `#008080` | 
+| `thistle` | ![#d8bfd8](https://via.placeholder.com/15/d8bfd8/000000?text=+) `#d8bfd8` | 
+| `tomato` | ![#ff6347](https://via.placeholder.com/15/ff6347/000000?text=+) `#ff6347` | 
+| `turquoise` | ![#40e0d0](https://via.placeholder.com/15/40e0d0/000000?text=+) `#40e0d0` | 
+| `violet` | ![#ee82ee](https://via.placeholder.com/15/ee82ee/000000?text=+) `#ee82ee` | 
+| `wheat` | ![#f5deb3](https://via.placeholder.com/15/f5deb3/000000?text=+) `#f5deb3` | 
+| `white` | ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` | 
+| `whitesmoke` | ![#f5f5f5](https://via.placeholder.com/15/f5f5f5/000000?text=+) `#f5f5f5` | 
+| `yellow` | ![#ffff00](https://via.placeholder.com/15/ffff00/000000?text=+) `#ffff00` | 
+| `yellowgreen` | ![#9acd32](https://via.placeholder.com/15/9acd32/000000?text=+) `#9acd32` | 
