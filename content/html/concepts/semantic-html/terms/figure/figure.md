@@ -35,7 +35,7 @@ The `<figcaption>` element is used to describe the media encapsulated within the
 
 ## Example
 
-Suppose the current page wants to feature a definition of an important term without having it be a part of the text the term appears in:
+Suppose the current page wants to include an image and a image caption:
 
 ```html
 <!DOCTYPE html>
