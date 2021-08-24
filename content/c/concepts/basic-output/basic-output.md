@@ -81,4 +81,3 @@ As seen above the string given contains a `%` character followed by a letter to 
 | `%i` | integer |
 | `%p` | pointer |
 | `%s` | string |
-```
