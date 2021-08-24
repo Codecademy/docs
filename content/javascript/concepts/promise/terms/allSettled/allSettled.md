@@ -77,18 +77,19 @@ Promise.allSettled(promises)
   .finally(() => {
     console.log("Operations for Promise.allSettled() have finished.");
   });
+```
 
-/*
-  Output:
-  { status: 'fulfilled', value: 23 }
-  {
-    status: 'rejected',
-    reason: {
-      errorType: 'Network Error',
-      message: 'Bad Connection. Check network settings on all devices.'
-    }
+The outpput would be:
+
+```shell
+{ status: 'fulfilled', value: 23 }
+{
+  status: 'rejected',
+  reason: {
+    errorType: 'Network Error',
+    message: 'Bad Connection. Check network settings on all devices.'
   }
-  { status: 'fulfilled', value: 'Success! promiseC is resolved!' }
-  Operations for Promise.allSettled() have finished.
-  */
+}
+{ status: 'fulfilled', value: 'Success! promiseC is resolved!' }
+Operations for Promise.allSettled() have finished.
 ```
