@@ -28,7 +28,7 @@ A variable that prints a greeting to the console may look like this.
 
 ```c
 void greet(void) {
-  puts("Howdy!\n");
+  puts("Howdy!");
 }
 ```
 
@@ -42,7 +42,7 @@ After declaring a function it can be used in a program by calling it. The sytax 
 // Declaring the function
 
 void greet(void) {
-  puts("Howdy!\n");
+  puts("Howdy!");
 }
 
 // Calling the function inside main()
