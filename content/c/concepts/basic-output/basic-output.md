@@ -25,7 +25,7 @@ Once this is done, the functions included in it can be used.
 
 ## Print a Character with `putchar()`
 
-The `putchar()` function accepts a single `char` input, and prints it to the `stdout` file, normally the console.
+The `putchar()` function, or "put character", takes a single `char` as an argument and prints it to the `stdout` file, normally the console.
 
 ```c
 #include <stdio.h>
@@ -44,7 +44,7 @@ a
 
 ## Print a String with `puts()`
 
-The `puts()` function, or "put string", takes a string as an argument and prints it to the `stdout` file followed by a newline character.
+The `puts()` function, or "put string", takes a string as an argument and prints it to the `stdout` file, followed by a newline character.
 
 ```c
 #include <stdio.h>
