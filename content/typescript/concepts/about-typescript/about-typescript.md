@@ -28,5 +28,5 @@ It allows you to type in JavaScript or TypeScript code on the left and see the r
 
 ## Resources
 
-- TypeScript official site: https://www.typescriptlang.org
-- GitHub repository: https://github.com/microsoft/TypeScript
+- TypeScript official site: https://typescriptlang.org
+- GitHub repository: https://github.com/microsoft/typescript
