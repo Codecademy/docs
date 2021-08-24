@@ -34,7 +34,7 @@ Variables are statically typed in C, meaning a variable can only ever have one t
 
 To display a variable in C the `printf()` function in the stdio header file can be used along with the % character to format values.
 
-```codebyte/c
+```c
 #include <stdio.h>
 
 int main(void) {
