@@ -11,20 +11,20 @@ CatalogContent:
   - "learn-intermediate-css"
 ---
 
-The CSS `color` property can be set with one of the following:
-
-- Name keywords: `aliceblue`
-- Hexadecimal: `#f0f8ff`
-- RGB value: `rgb(240, 248, 255)`
-- HSL value: `hsl(208, 100%, 97%)`
-
-For example:
+The CSS `color` property sets the text color:
 
 ```css
 h1 {
-  color: aliceblue;
+  color: aqua;
 }
 ```
+
+It can be set with one of the following:
+
+- Name keywords: `aqua`
+- Hexadecimal: `#00ffff`
+- RGB value: `rgb(0, 255, 255)`
+- HSL value: `hsl(180, 100%, 100%)`
   
 Color name keywords can be used to set color property values for elements in CSS. All browsers support the following color names:
 
