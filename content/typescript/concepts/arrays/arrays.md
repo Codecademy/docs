@@ -15,7 +15,7 @@ Once an array is known to contain a particular type of value, only that type is 
 
 Array types can be inferred from initial values in the array.
 
-In this example, `vowels` is inferred to consist of `string`s, and will allow pushing only `string`s:
+In this example, the `vowels` array is inferred to consist of `string`s, and will allow pushing only `string`s:
 
 ```ts
 const vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -28,7 +28,7 @@ vowels.push(7);
 
 ## Array Types
 
-An array type consists of the type of values inside the array followed by `[]` square brackets.
+An array type consists of the type of values inside the array followed by square brackets `[]`.
 Arrays without any initial contents may be declared as that type to tell TypeScript what will later go into them.
 
 In this example, `dates` doesn't initially include a value, so declaring it as `Date[]` tells TypeScript what's allowed in it:
