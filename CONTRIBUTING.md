@@ -16,7 +16,7 @@ There are different ways in which you can contribute:
 
 - Editing an exisiting entry.
 - Creating a new entry.
-- Submit bugs in [GitHube issues].
+- Submit content bugs in [Issues](https://github.com/Codecademy/docs/issues).
 - Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the #CodecademyDocs discussion on Twitter.
 
