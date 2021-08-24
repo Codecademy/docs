@@ -11,17 +11,17 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-In the C language basic console output is achieved using functions from the standard input output header file (**stdio.h**)
+In the C language, basic console output is achieved using functions from the standard input output header file (**stdio.h**).
 
-## Including Output functions
+## Header File
 
-C itself has no ability to output any information, in order to so the **stdio.h** header file must be included in the program, which is typically done at the top of the file.
+C itself has no ability to output any information, in order to so, the **stdio.h** header file must be included in the program, which is typically done at the top of the file.
 
 ```c
 #include <stdio.h>
 ```
 
-Once this is done the functions included in it can be used.
+Once this is done, the functions included in it can be used.
 
 ## Printing Single Characters With `putchar()`
 
