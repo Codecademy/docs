@@ -6,7 +6,7 @@ Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitH
 
 We are an open, inclusive, and passionate team of technologists and life-long learners around the world building free coding resources for a better tomorrow. 
 
-For newcomers, contributing to an open source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for years but haven’t found a project yet. Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get your feet wet!
+For newcomers, contributing to an open source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for years but haven’t found a project yet. Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get started.
 
 Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentations, and translations) are written by amazing creative folks like yourself. Join us!
 
@@ -18,7 +18,7 @@ Thanks for your interest; we'd love to work with you! 💖 There are many ways t
 - Creating a new entry.
 - Submit content bugs in [Issues](https://github.com/Codecademy/docs/issues).
 - Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
-- Join the #CodecademyDocs discussion on Twitter.
+- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
 
 ## GitHub
 
