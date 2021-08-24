@@ -42,10 +42,10 @@ Take a look at the navigation bar at the top of this Codecademy Docs page. It sh
       <!-- The Codecademy Docs nav bar -->
       <nav>
         <ul>
-          <li><a href="#home">My Home</a></li>
-          <li><a href="#catalog">Catalog</a></li>   
-          <li><a href="#resources">Resoruces</a></li>
-          <li><a href="#community">Community</a></li>
+          <li><a href="https://www.codecademy.com/learn">My Home</a></li>
+          <li><a href="https://www.codecademy.com/catalog">Catalog</a></li>   
+          <li><span title="Resources" class="dropdown">Resoruces</span></li>
+          <li><span title="Community" class="dropdown">Community</span></li>
         </ul>
       </nav>
     </header>
