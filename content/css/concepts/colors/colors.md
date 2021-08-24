@@ -26,7 +26,7 @@ It can be set with one of the following:
 - RGB value: `rgb(0, 255, 255)`
 - HSL value: `hsl(180, 100%, 100%)`
   
-Color name keywords can be used to set color property values for elements in CSS. All browsers support the following color names:
+Color name keywords can be used to set color property values for elements in CSS. All browsers support the following:
 
 | Keyword | Hexadecimal |
 | --- | --- |
