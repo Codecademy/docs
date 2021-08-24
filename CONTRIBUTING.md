@@ -38,7 +38,7 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## What do I need to do before creating new entries? 
 
-Before contributing, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
+Before creating new entries, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
 
 Please read through the following in the [/documentation](https://github.com/Codecademy/docs/tree/main/documentation) folder. In these links, you'll find a write-up of our standards for content and style:
 
