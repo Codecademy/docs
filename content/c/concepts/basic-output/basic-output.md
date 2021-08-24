@@ -84,7 +84,7 @@ The output would be:
 
 ## Format Specifiers
 
-As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are show below.
+As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are shown below:
 
 | Format Specifier | Type |
 | --- | --- |
