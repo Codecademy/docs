@@ -12,7 +12,34 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) conte
 
 Join us!
 
-## What do I need to do before contributing? 
+## How do I contribute?
+
+There are different ways in which you can contribute:
+
+- Editing an exisiting entry.
+- Creating a new entry.
+- Submit bugs in [GitHube issues].
+- Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Join the #CodecademyDocs discussion on Twitter.
+
+##
+
+Contributing is as simple as:
+
+1. Forking this repo.
+2. Editing your fork.
+    - Be sure to fetch the main branch shortly before you make your edits — this repo is constantly changing, and trying to merge too old of a fork can be a challenge!
+3. Making a pull request to merge your fork with this repo.
+
+If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. 
+
+Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
+
+<img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
+
+If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. Highly recommend!
+
+## What do I need to do before creating new entries? 
 
 Before contributing, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
 
@@ -29,28 +56,6 @@ And here, templates for creating your own entries.
 | [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md)) | [Lists](https://www.codecademy.com/resources/docs/python/lists) |
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md)) | [SQL](https://www.codecademy.com/resources/docs/sql) |
-
-## How do I contribute?
-
-There are different ways in which you can contribute:
-
-- Creating a new entry.
-- Editing an exisiting entry.
-
-Contributing is as simple as:
-
-1. Forking this repo.
-2. Editing your fork.
-    - Be sure to fetch the main branch shortly before you make your edits — this repo is constantly changing, and trying to merge too old of a fork can be a challenge!
-3. Making a pull request to merge your fork with this repo.
-
-If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. 
-
-Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
-
-<img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
-
-If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. Highly recommend!
 
 ## Pull Requests Tips
 
