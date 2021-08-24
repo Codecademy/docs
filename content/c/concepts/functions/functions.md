@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Functions are blocks of code that can be run multiple times within a program. The are stored under a name similar to a variable and can be run using this name.
+Functions are blocks of code that can be run multiple times within a program. They are stored under a name similar to a variable and can be called using this name.
 
 ## Declaring a Function
 
