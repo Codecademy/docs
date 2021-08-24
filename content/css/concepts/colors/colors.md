@@ -93,5 +93,27 @@ Color name keywords can be used to set color property values for elements in CSS
 | `indigo` | ![#4b0082](https://via.placeholder.com/15/4b0082/000000?text=+) `#4b0082` | 
 | `ivory` | ![#fffff0](https://via.placeholder.com/15/fffff0/000000?text=+) `#fffff0` | 
 | `khaki` | ![#f0e68c](https://via.placeholder.com/15/f0e68c/000000?text=+) `#f0e68c` | 
+| `lavender` | ![#e6e6fa](https://via.placeholder.com/15/e6e6fa/000000?text=+) `#e6e6fa` | 
+| `lavenderblush` | ![#fff0f5](https://via.placeholder.com/15/fff0f5/000000?text=+) `#fff0f5` | 
+| `lawngreen` | ![#7cfc00](https://via.placeholder.com/15/7cfc00/000000?text=+) `#7cfc00` | 
+| `lemonchiffon` | ![#fffacd](https://via.placeholder.com/15/fffacd/000000?text=+) `#fffacd` | 
+| `lightblue` | ![#add8e6](https://via.placeholder.com/15/add8e6/000000?text=+) `#add8e6` | 
+| `lightcoral` | ![#f08080](https://via.placeholder.com/15/f08080/000000?text=+) `#f08080` | 
+| `lightcyan` | ![#e0ffff](https://via.placeholder.com/15/e0ffff/000000?text=+) `#e0ffff` | 
+| `lightgoldenrodyellow` | ![#fafad2](https://via.placeholder.com/15/fafad2/000000?text=+) `#fafad2` | 
+| `lightgray` | ![#d3d3d3](https://via.placeholder.com/15/d3d3d3/000000?text=+) `#d3d3d3` | 
+| `lightgrey` | ![#d3d3d3](https://via.placeholder.com/15/d3d3d3/000000?text=+) `#d3d3d3` |
+| `lightgreen` | ![#90ee90](https://via.placeholder.com/15/90ee90/000000?text=+) `#90ee90` | 
+| `lightpink` | ![#ffb6c1](https://via.placeholder.com/15/ffb6c1/000000?text=+) `#ffb6c1` | 
+| `lightsalmon` | ![#ffa07a](https://via.placeholder.com/15/ffa07a/000000?text=+) `#ffa07a` | 
+| `lightseagreen` | ![#20b2aa](https://via.placeholder.com/15/20b2aa/000000?text=+) `#20b2aa` | 
+| `lightskyblue` | ![#87cefa](https://via.placeholder.com/15/87cefa/000000?text=+) `#87cefa` | 
+| `lightslategray` | ![#778899](https://via.placeholder.com/15/778899/000000?text=+) `#778899` | 
+| `lightslategrey` | ![#778899](https://via.placeholder.com/15/778899/000000?text=+) `#778899` | 
+| `lightsteelblue` | ![#b0c4de](https://via.placeholder.com/15/b0c4de/000000?text=+) `#b0c4de` | 
+| `lightyellow` | ![#ffffe0](https://via.placeholder.com/15/ffffe0/000000?text=+) `#ffffe0` | 
+| `lime` | ![#00ff00](https://via.placeholder.com/15/00ff00/000000?text=+) `#00ff00` | 
+| `limegreen` | ![#32cd32](https://via.placeholder.com/15/32cd32/000000?text=+) `#32cd32` | 
+| `linen` | ![#faf0e6](https://via.placeholder.com/15/faf0e6/000000?text=+) `#faf0e6` | 
 
 Currently work in progress.
