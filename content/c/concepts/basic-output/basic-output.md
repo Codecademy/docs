@@ -58,8 +58,7 @@ The `puts()` function can only accept and print a single string argument, which 
 
 int main(void) {
   printf("%d is a number\n", 5); 
-  printf("%d is after %d\n, 2, 1);
-
+  printf("%d is after %d\n", 2, 1);
   return 0;
 }
 ```
