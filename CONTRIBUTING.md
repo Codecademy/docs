@@ -8,7 +8,9 @@ We are an open, inclusive, and passionate team of technologists and life-long le
 
 For newcomers, contributing to an open source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for years but haven’t found a project yet. Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get your feet wet!
 
-Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentations, and translations) are written by amazing creative folks like yourself. Join us!
+Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentations, and translations) are written by amazing creative folks like yourself. 
+
+Join us!
 
 ## What do I need to do before contributing? 
 
