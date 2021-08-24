@@ -4,7 +4,9 @@
 
 Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo! 
 
-We are an open, inclusive, and passionate team of technologists and life-long learners around the world building free coding resources for a better tomorrow. We believe that coding reference material should be simple, beginner-friendly, and consistent for all domains. Whether you are a Software Engineer, Data Scientist, Game Developer, Creative Technologist, student, hobbyist, you should find what you are looking for within 3-clicks.
+We are an open, inclusive, and passionate team of technologists and life-long learners around the world building free coding resources for a better tomorrow. 
+
+We believe that coding reference material should be simple, beginner-friendly, and consistent for all domains. Whether you are a Software Engineer, Data Scientist, Game Developer, Creative Technologist, student, hobbyist, you should find what you are looking for within 3-clicks.
 
 For newcomers, contributing to an open source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been coding for years but haven’t found a project you felt comfortable yet. Well, you are at the right place, because Codecademy Docs is the perfect open-contribution project for you to get your feet wet!
 
