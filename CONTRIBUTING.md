@@ -28,13 +28,13 @@ Contributing follows this workflow:
 4. Edit or create an entry and commit the changes.
 5. Make a Pull Request to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a Pull Request from a fork using Git. 
+If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a Pull Request from a fork using Git. 
 
 Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
-If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app. Highly recommend!
+If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app.
 
 ## What do I need to do before creating new entries? 
 
