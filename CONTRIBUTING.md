@@ -2,7 +2,7 @@
 
 > Built by the community. Maintained by Codecademy. 🌎
 
-Welcome to the Codecademy Docs GitHub repo!
+Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
 We are an open and inclusive community of technologists and life-long learners around the world building free coding resources for a better tomorrow. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the web to serve the greater good. It starts here, with you.
 
