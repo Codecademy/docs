@@ -14,7 +14,7 @@ So thanks for your interest; we'd love to work with you! 💖
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
-- Submit a bug in [Issues](https://github.com/Codecademy/docs/issues).
+- Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
 
