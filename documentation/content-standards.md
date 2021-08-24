@@ -6,7 +6,7 @@ There are two types of Codecademy Docs entries:
 
 ### 1. Entry
 
-One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
+A normal entry is a detailed explanation of a coding concept. Think of them like short Wikipedia pages. Some of them are language-agnostic entries that fall in the "General" topic, some are language specific entries like "C", "C++", "CSS", "Emojicode", "Python", etc.
 
 General (language agnostic):
   - [What is a Comment?](https://www.codecademy.com/resources/docs/general/what-is-a-comment)
@@ -20,9 +20,11 @@ Python (language specific):
 
 ### 2. Term Entry
 
-Some of the entries, such as [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested term entries. 
+Some of the entries, such as Python's [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested term entries.
 
-Inside Lists:
+Term entries are entries that covers a function, a method, a property, etc.
+
+Inside Python's [Lists](https://www.codecademy.com/resources/docs/python/lists), there are a bunch of term entries:
 
 - [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
 - [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
