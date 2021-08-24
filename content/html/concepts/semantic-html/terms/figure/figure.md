@@ -42,11 +42,11 @@ Suppose the current page wants to feature a definition of an important term with
 <html>
   <head>
   </head>
-
   <body>
     <article>
       <h2>Functional Programming in JavaScript</h2>
       <p>One of the fun things we can do with functional programming in JavaScript is <b>currying</b>. Here we have an example of taking a function with two inputs and turning it into a curried version:</p>
+      <!-- The figure element -->
       <figure>
         <img src="currying.gif">
         <figcaption>The GIF shows the transition from a normal function to a curried version.</figcaption>
