@@ -27,7 +27,7 @@ Once this is done, the functions included in it can be used.
 
 The `putchar()` function accepts a single `char` input, and prints it to the `stdout` file, normally the console.
 
-```pseudo
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -64,7 +64,9 @@ int main(void) {
 }
 ```
 
-```pseudo
+The output would be:
+
+```shell
 5 is a number
 2 is after 1
 ```
