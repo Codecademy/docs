@@ -12,9 +12,9 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) conte
 
 ## How do I contribute?
 
-There are different ways in which you can contribute:
+Thanks for your interest; we'd love to work with you! 💖 There are many ways to contribute to Codecademy Docs:
 
-- Editing an exisiting entry.
+- Submit Editing an exisiting entry.
 - Creating a new entry.
 - Submit content bugs in [Issues](https://github.com/Codecademy/docs/issues).
 - Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
@@ -22,7 +22,7 @@ There are different ways in which you can contribute:
 
 ## GitHub
 
-Thanks for your interest; we'd love to work with you! 💖 Contributing follows this flow:
+Contributing follows this flow:
 
 1. Forking this repo.
 2. Editing your fork.
