@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Codecademy Docs 📕</h1>
+  <h1>📕 Codecademy Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
   <strong>Built by the community. Maintained by Codecademy.</strong>
 </div>
