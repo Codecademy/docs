@@ -20,6 +20,8 @@ CatalogContent:
 
 TypeScript was released in October 2012 by Microsoft after two years of development. [Anders Hejlsberg](https://twitter.com/ahejlsberg), the original designer of C#, was the lead designer for the language.
 
+The latest version is 4.3.
+
 ## Playground
 
 There's an interactive playground provided by the TypeScript team at https://www.typescriptlang.org/play. 
