@@ -20,7 +20,7 @@ The `<figure>` semantic HTML element is used to encapsulate media such as an ima
 
 ```html
 <figure>
-  <!-- An image, diagrame, or code snippet goes inside the tag -->
+  <!-- An image, diagram, or code snippet goes inside the tag -->
 </figure>
 ``` 
 
