@@ -1,6 +1,6 @@
 # Tags
 
-Tags in Docs are used for recommending related entries and for the home page search bar. Use <kbd>command</kbd> + <kbd>f</kbd> to search this list.
+Tags in Docs are used for recommending related entries and for the home page search bar. Use <kbd>Command</kbd> + <kbd>F</kbd> to search this list.
 
 Feel free to add suggestions for new tags to the list as part of your PR! Be sure to insert them alphabetically.
 
