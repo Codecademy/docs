@@ -1,12 +1,12 @@
 ---
-Title: 'About'
+Title: "About TypeScript"
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Documentation'
+  - "Documentation"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 TypeScript is four tools that build on each other:
