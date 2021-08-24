@@ -39,11 +39,13 @@ After declaring a function it can be used in a program by calling it. The sytax 
 ```c
 #include <stdio.h>
 
+// Declaring the function
 void greet(void) {
   puts("Howdy!\n");
 }
 
 int main(void) {
+  // Calling the function
   greet();
 }
 ```
