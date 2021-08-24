@@ -73,4 +73,6 @@ And here, templates for creating your own entries.
 
 ## Additional Notes
 
-Remember, if you ever have any questions at all, we're here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy)! Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue!
+Remember, if you ever have any questions at all, we're here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy)! 
+
+Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue!
