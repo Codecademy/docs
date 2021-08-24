@@ -7,7 +7,7 @@
 
 ## What is Docs?
 
-[Codecademy Docs](https://www.codecademy.com/resources/docs) is intended to be a free, easily accessible reference for coding terms and concepts available to learners all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codecademy Doc entry, and have an answer in seconds.
+[Codecademy Docs](https://www.codecademy.com/resources/docs) is a free, easily accessible reference for coding terms and concepts available to developers all over the world. If you forget what JavaScript hoisting is, we want you to be able to look up "JS hoisting" on any search engine, click a Codecademy Doc entry, and have an answer in seconds.
 
 ## What stage of development are we in right now?
 
