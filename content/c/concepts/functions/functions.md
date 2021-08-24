@@ -15,7 +15,7 @@ Functions are blocks of code that can be run multiple times within a program. Th
 
 ## Declaring a Function
 
-A function is declared with the return type, the function name, parenthesis, and the code for it to run in curly brackets. 
+A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets. 
 
 ```pseudo
 return_type name(parameters) {
@@ -44,8 +44,14 @@ void greet(void) {
 }
 
 int main(void) {
-  greet(); // Output: Howdy!
+  greet();
 }
+```
+
+The output would be:
+
+```shell
+Howdy!
 ```
 
 ## Arguments 
