@@ -115,5 +115,22 @@ Color name keywords can be used to set color property values for elements in CSS
 | `lime` | ![#00ff00](https://via.placeholder.com/15/00ff00/000000?text=+) `#00ff00` | 
 | `limegreen` | ![#32cd32](https://via.placeholder.com/15/32cd32/000000?text=+) `#32cd32` | 
 | `linen` | ![#faf0e6](https://via.placeholder.com/15/faf0e6/000000?text=+) `#faf0e6` | 
+| `magenta` | ![#ff00ff](https://via.placeholder.com/15/ff00ff/000000?text=+) `#ff00ff` | 
+| `maroon` | ![#800000](https://via.placeholder.com/15/800000/000000?text=+) `#800000` | 
+| `mediumaquamarine` | ![#66cdaa](https://via.placeholder.com/15/66cdaa/000000?text=+) `#66cdaa` | 
+| `mediumblue` | ![#0000cd](https://via.placeholder.com/15/0000cd/000000?text=+) `#0000cd` | 
+| `mediumorchid` | ![#ba55d3](https://via.placeholder.com/15/ba55d3/000000?text=+) `#ba55d3` | 
+| `mediumpurple` | ![#9370db](https://via.placeholder.com/15/9370db/000000?text=+) `#9370db` |
+| `mediumseagreen` | ![#3cb371](https://via.placeholder.com/15/3cb371/000000?text=+) `#3cb371` | 
+| `mediumslateblue` | ![#7b68ee](https://via.placeholder.com/15/7b68ee/000000?text=+) `#7b68ee` | 
+| `mediumspringgreen` | ![#00fa9a](https://via.placeholder.com/15/00fa9a/000000?text=+) `#00fa9a` | 
+| `mediumturquoise` | ![#48d1cc](https://via.placeholder.com/15/48d1cc/000000?text=+) `#48d1cc` | 
+| `mediumvioletred` | ![#c71585](https://via.placeholder.com/15/c71585/000000?text=+) `#c71585` | 
+| `midnightblue` | ![#191970](https://via.placeholder.com/15/191970/000000?text=+) `#191970` | 
+| `mintcream` | ![#f5fffa](https://via.placeholder.com/15/f5fffa/000000?text=+) `#f5fffa` | 
+| `mistyrose` | ![#ffe4e1](https://via.placeholder.com/15/ffe4e1/000000?text=+) `#ffe4e1` | 
+| `moccasin` | ![#ffe4b5](https://via.placeholder.com/15/ffe4b5/000000?text=+) `#ffe4b5` | 
+| `navajowhite` | ![#ffdead](https://via.placeholder.com/15/ffdead/000000?text=+) `#ffdead` | 
+| `navy` | ![#000080](https://via.placeholder.com/15/000080/000000?text=+) `#000080` | 
 
 Currently work in progress.
