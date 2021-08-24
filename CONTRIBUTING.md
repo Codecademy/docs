@@ -14,7 +14,7 @@ Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) conte
 
 Thanks for your interest; we'd love to work with you! 💖 There are many ways to contribute to Codecademy Docs:
 
-- Submit a Pull Request editing an exisiting entry.
+- Submit a Pull Request to edit an exisiting entry.
 - Submit a Pull Request to create a new entry.
 - Submit content bugs in [Issues](https://github.com/Codecademy/docs/issues).
 - Give us product feed in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
