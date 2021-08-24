@@ -55,8 +55,8 @@ Color name keywords can be used to set color property values for elements in CSS
 | `darkcyan` | ![#008b8b](https://via.placeholder.com/15/008b8b/000000?text=+) `#008b8b` | 
 | `darkgoldenrod` | ![#b8860b](https://via.placeholder.com/15/b8860b/000000?text=+) `#b8860b` | 
 | `darkgray` | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) `#a9a9a9` | 
-| `darkgreen` | ![#006400](https://via.placeholder.com/15/006400/000000?text=+) `#006400` | 
 | `darkgrey` | ![#a9a9a9](https://via.placeholder.com/15/a9a9a9/000000?text=+) `#a9a9a9` | 
+| `darkgreen` | ![#006400](https://via.placeholder.com/15/006400/000000?text=+) `#006400` | 
 | `darkkhaki` | ![#bdb76b](https://via.placeholder.com/15/bdb76b/000000?text=+) `#bdb76b` | 
 | `darkmagenta` | ![#8b008b](https://via.placeholder.com/15/8b008b/000000?text=+) `#8b008b` | 
 | `darkolivegreen` | ![#556b2f](https://via.placeholder.com/15/556b2f/000000?text=+) `#556b2f` | 
@@ -78,5 +78,15 @@ Color name keywords can be used to set color property values for elements in CSS
 | `firebrick` | ![#b22222](https://via.placeholder.com/15/b22222/000000?text=+) `#b22222` | 
 | `floralwhite` | ![#fffaf0](https://via.placeholder.com/15/fffaf0/000000?text=+) `#fffaf0` | 
 | `forestgreen` | ![#228b22](https://via.placeholder.com/15/228b22/000000?text=+) `#228b22` | 
+| `fuschsia` | ![#ff00ff](https://via.placeholder.com/15/ff00ff/000000?text=+) `#ff00ff` | 
+| `gainsboro` | ![#dcdcdc](https://via.placeholder.com/15/dcdcdc/000000?text=+) `#dcdcdc` | 
+| `ghostwhite` | ![#f8f8ff](https://via.placeholder.com/15/f8f8ff/000000?text=+) `#f8f8ff` | 
+| `gold` | ![#ffd700](https://via.placeholder.com/15/ffd700/000000?text=+) `#ffd700` | 
+| `goldenrod` | ![#daa520](https://via.placeholder.com/15/daa520/000000?text=+) `#daa520` | 
+| `gray` | ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `#808080` | 
+| `grey` | ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `#808080` | 
+| `green` | ![#008000](https://via.placeholder.com/15/008000/000000?text=+) `#00800` | 
+| `greenyellow` | ![#adff2f](https://via.placeholder.com/15/adff2f/000000?text=+) `#adff2f` | 
+
 
 Currently work in progress.
