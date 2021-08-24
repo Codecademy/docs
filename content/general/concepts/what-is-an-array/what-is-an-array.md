@@ -37,7 +37,7 @@ grocery = ["milk", "cookies", "berries", "carrots"]
 - The third element is at index 2.
 - ...and so on.
 
-## Arrays in Other Languages
+## Arrays in Different Languages
 
 - [Arrays in C++](https://www.codecademy.com/resources/docs/cpp/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
 - [Arrays in JavaScript](https://www.codecademy.com/resources/docs/javascript/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
