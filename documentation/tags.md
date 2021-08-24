@@ -179,6 +179,7 @@ NumPy
 Objects   
 OOP  
 Operators  
+Output
 p5  
 Packages  
 Padding
