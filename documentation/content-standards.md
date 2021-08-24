@@ -2,18 +2,18 @@
 
 ## Entry Types
 
-Codecademy Docs content will fall into two categories:
+There are two types of Codecademy Docs entries:
 
 ### 1. Entry
 
 One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
 
-General:
+General (language agnostic):
   - [What is a Comment?](https://www.codecademy.com/resources/docs/general/what-is-a-comment)
-  - [What is SQL?](https://www.codecademy.com/resources/docs/general/what-is-sql)
-  - [What is a Bitwise Operator?](https://www.codecademy.com/resources/docs/general/what-is-a-bitwise-operator)
+  - [What is an IDE?](https://www.codecademy.com/resources/docs/general/what-is-an-ide)
+  - [What is an Array?](https://www.codecademy.com/resources/docs/general/what-is-an-array)
  
-Python:
+Python (language specific):
   - [Lists](https://www.codecademy.com/resources/docs/python/lists)
   - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
   - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
@@ -36,7 +36,7 @@ As a general rule, any given topic should be described by multiple entries in th
   - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X"; the topic should NOT be included in the title of the entry.
     - Example: [Comments in Python in Github](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments/comments.md)
     - Example: [Comments in Python on Docs](https://www.codecademy.com/resources/docs/python/comments)
-  - Where applicable, lists of terms describing the methods and keywords in a language that relate to concept X
+  - Where applicable, lists of terms describing the methods and keywords in a language that relates to concept X
     - Example: The [List Methods folder for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/lists/terms). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
 
 Notably, this structure means that you do not have to explain any General (language-agnostic) concepts in an "X in \<Topic>" entry — the reader can read the "What is X?" entry to learn that!
