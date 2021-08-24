@@ -15,7 +15,7 @@ A variable is a location in computer memory used to store data, usually for use 
 
 ## Declaring and Assigning a Variable
 
-To declare a variable in C the type of variable is first included, followed by the name, and the value.
+To declare a variable in C, the type of variable is first included, followed by the name, and the value.
 
 ```pseudo
 type name = value;
