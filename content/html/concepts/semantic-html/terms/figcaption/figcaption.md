@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `<figcaption>` semantic HTML element describes the media encapsulated within the <figure> element.
+The `<figcaption>` semantic HTML element describes the media encapsulated within the `<figure>` element.
 
 ## Syntax
 
