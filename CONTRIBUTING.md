@@ -24,7 +24,7 @@ Contributing follows this workflow:
 
 1. Forking this repo.
 2. Editing your fork.
-    - You can edit an exisiting entry or create a new entry.
+    - You can edit an existing entry or create a new entry.
 3. Making a Pull Request to merge your fork with this repo.
 
 If you haven't gone through this workflow before, you can check out [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. 
@@ -45,7 +45,7 @@ Please read through the following in the [/documentation](https://github.com/Cod
 - [Tags List](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects List](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
-And here, templates for creating your own entries.
+And here, templates for creating your new entries.
 
 | Template | GitHub Example | Docs Example |
 | --- | --- | --- |
