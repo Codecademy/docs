@@ -13,9 +13,9 @@ CatalogContent:
 
 Functions are blocks of code that can be run multiple times within a program. The are stored under a name similar to a variable and can be run using this name.
 
-## Declaring a Variable
+## Declaring a Function
 
-A function is declared with the return type, the name,  parenthesis, and the code for it to run in curly brackets. 
+A function is declared with the return type, the function name, parenthesis, and the code for it to run in curly brackets. 
 
 ```pseudo
 return_type name(parameters) {
