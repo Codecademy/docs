@@ -68,4 +68,4 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 ## Additional Notes
 
-Remember, if you ever have any questions at all, we're there to help on Twitter! Tag [@Codecademy](https://twitter.com/codecademy) and [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue!
+Remember, if you ever have any questions at all, we're here to help in the Community! Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue!
