@@ -132,5 +132,23 @@ Color name keywords can be used to set color property values for elements in CSS
 | `moccasin` | ![#ffe4b5](https://via.placeholder.com/15/ffe4b5/000000?text=+) `#ffe4b5` | 
 | `navajowhite` | ![#ffdead](https://via.placeholder.com/15/ffdead/000000?text=+) `#ffdead` | 
 | `navy` | ![#000080](https://via.placeholder.com/15/000080/000000?text=+) `#000080` | 
+| `oldlace` | ![#fdf5e6](https://via.placeholder.com/15/fdf5e6/000000?text=+) `#fdf5e6` | 
+| `olive` | ![#808000](https://via.placeholder.com/15/808000/000000?text=+) `#808000` | 
+| `olivedrab` | ![#6b8e23](https://via.placeholder.com/15/6b8e23/000000?text=+) `#6b8e23` | 
+| `orange` | ![#ffa500](https://via.placeholder.com/15/ffa500/000000?text=+) `#ffa500` | 
+| `orangered` | ![#ff4500](https://via.placeholder.com/15/ff4500/000000?text=+) `#ff4500` | 
+| `orchid` | ![#da70d6](https://via.placeholder.com/15/da70d6/000000?text=+) `#da70d6` | 
+| `palegoldenrod` | ![#eee8aa](https://via.placeholder.com/15/eee8aa/000000?text=+) `#eee8aa` | 
+| `palegreen` | ![#98fb98](https://via.placeholder.com/15/98fb98/000000?text=+) `#98fb98` | 
+| `paleturquoise` | ![#afeeee](https://via.placeholder.com/15/afeeee/000000?text=+) `#afeeee` | 
+| `palevioletred` | ![#db7093](https://via.placeholder.com/15/db7093/000000?text=+) `#db7093` | 
+| `papayawhip` | ![#ffefd5](https://via.placeholder.com/15/ffefd5/000000?text=+) `#ffefd5` | 
+| `peachpuff` | ![#ffdab9](https://via.placeholder.com/15/ffdab9/000000?text=+) `#ffdab9` | 
+| `peru` | ![#cd853f](https://via.placeholder.com/15/cd853f/000000?text=+) `#cd853f` | 
+| `pink` | ![#ffc0cb](https://via.placeholder.com/15/ffc0cb/000000?text=+) `#ffc0cb` | 
+| `plum` | ![#dda0dd](https://via.placeholder.com/15/dda0dd/000000?text=+) `#dda0dd` | 
+| `powerderblue` | ![#b0e0e6](https://via.placeholder.com/15/b0e0e6/000000?text=+) `#b0e0e6` | 
+| `purple` | ![#800080](https://via.placeholder.com/15/800080/000000?text=+) `#800080` | 
+
 
 Currently work in progress.
