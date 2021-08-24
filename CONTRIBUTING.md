@@ -22,12 +22,13 @@ Thanks for your interest; we'd love to work with you! 💖
 
 Contributing follows this workflow:
 
-1. Fork this [project repository](https://github.com/codecademy/docs) by clicking the "Fork" button on the top-right corner.
-2. Clone the repositiory Editing your fork.
-    - You can edit an existing entry or create a new entry.
-3. Making a Pull Request to merge your fork with this repo.
+1. Fork this [project repository](https://github.com/codecademy/docs).
+2. Clone the forked repository to your computer.
+3. Create a branch.
+4. Edit or create an entry and commit the changes.
+5. Make a Pull Request to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a pull request from a fork using Git. 
+If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a Pull Request from a fork using Git. 
 
 Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
 
