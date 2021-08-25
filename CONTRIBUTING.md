@@ -65,7 +65,7 @@ To link your Codecademy user profile to GitHub:
 1. Go to your [Codecademy dashboard](https://www.codecademy.com/learn).
 2. Click on your profile image in the top-right and then choose "Profile".
 3. Then click "Edit Profile".
-4. In the GitHub field, add your GitHub profile URL.
+4. In the GitHub field, add your GitHub URL.
 
 ## Any tips for a Pull Request?
 
