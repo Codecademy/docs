@@ -6,7 +6,7 @@ We are an inclusive and passionate team of technologists and life-long learners 
 
 Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative coders like yourself. 
 
-Thanks for your interest; we'd love to work with you! 💖
+Thanks for your interest; we'd love to work with you. 💖
 
 ## How do I contribute?
 
