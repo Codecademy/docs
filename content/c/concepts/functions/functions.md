@@ -59,9 +59,7 @@ Howdy!
 
 ## Arguments 
 
-Arguments are variables passed to the function when it is called that can be used in it. 
-
-They are set inside of the functions parenthesis when it is declared in the same way as a variable, and values are passed to the function inside the parenthesis when it is called.
+The values passed to a function are known as arguments. They represent the actual input values that can be used within the function.
 
 ```c
 #include <stdio.h>
