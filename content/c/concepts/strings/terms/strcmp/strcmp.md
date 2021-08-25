@@ -38,10 +38,10 @@ int main() {
   char address2[20] = "576 Broadway";
 
   if (strcmp(address1, address2) == 0) {
-    printf("string 1 and string 2 are equal");
+    printf("Address 1 and address 2 are equal.");
   } 
   else {
-    printf("string 1 and 2 are different");
+    printf("Address 1 and address 2 are different.");
   }
   return 0;
 }
