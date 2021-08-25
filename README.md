@@ -26,7 +26,7 @@ We are currently building a team of community volunteers to maintain Codecademy 
 
 ## How do I contribute?
 
-Thanks for your interest; we'd love to work with you. 💒
+Thanks for your interest; we'd love to work with you! 💖
 
 There are many ways to contribute to Codecademy Docs:
 
@@ -38,7 +38,7 @@ There are many ways to contribute to Codecademy Docs:
 
 Whether you are a code newbie or a seasoned hacker, we have something for you.
 
-Please read through the ✨ [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+Please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
 
