@@ -70,3 +70,7 @@ The output would be:
 ```shell
 Robot: Howdy
 ```
+
+## String Functions
+
+The **string.h** header defines a handful of string functions for manipulating arrays of characters.
