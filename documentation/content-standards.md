@@ -48,14 +48,16 @@ To give an example, an entry titled "What is Three.js?" should have the file nam
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- Each subsection should begin with a heading of size H2 (i.e. preceded by `##`)
+- Each subsection should begin with a heading of size h2 (i.e. preceded by `##`)
 - All in-line code should be delineated by single backticks (`)
 
 #### Code Blocks
 
-Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+
 All code blocks should be delineated by triple backticks (```)
 
+- C: ```c
 - C#: ```cs
 - C++: ```cpp
 - CSS: ```css
@@ -75,7 +77,9 @@ All code blocks should be delineated by triple backticks (```)
 
 #### Codebytes: Runnable Code Blocks
 
-Codecademy has a new feature we're calling [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
+Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! 
+
+The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
 
