@@ -23,7 +23,7 @@
 - [ ] I have checked my entry and corrected any misspellings
 - [ ] All writings are my own
 
-## Codecademy Username
+### Codecademy Username
 
 If you want your Codecademy username be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
 
