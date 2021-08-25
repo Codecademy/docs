@@ -25,9 +25,7 @@
 
 ## Codecademy Username
 
-Lastly, make sure to have your Codecademy user profile linked to your GitHub. This way your name will show up in the entry (feature coming in October)!
-
-To link your Codecademy user profile to GitHub:
+If you want your Codecademy username be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
 
 1. Go to your Codecademy dashboard.
 2. Click on your profile image in the top-right and then choose "Profile".
