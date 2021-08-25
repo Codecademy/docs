@@ -36,7 +36,9 @@ There are many ways to contribute to Codecademy Docs:
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
 
-Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
+Whether you are a code newbie or a seasoned hacker, we have something for you.
+
+Please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
 
