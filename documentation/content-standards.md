@@ -132,4 +132,4 @@ If you'd like to include an image, video, GIF, or other file in your entry, plea
 
 Check out the [entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And start looking for concepts that are currently missing in Codecademy Docs.
 
-For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md).
+For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md). 🎒
