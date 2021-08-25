@@ -40,7 +40,6 @@ Suppose we have two strings, `pokemon1` and `pokemon2`:
 #include <string.h>
 
 int main() {
-
   char pokemon1[30] = "Ditto";
   char pokemon2[30] = "Pikachu";
 
