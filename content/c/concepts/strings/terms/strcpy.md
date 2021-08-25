@@ -1,5 +1,5 @@
 ---
-Title: "strcpy()" 
+Title: "strcpy()"
 Description: "Copies one string into another."
 Subjects:
   - "Code Foundations"
