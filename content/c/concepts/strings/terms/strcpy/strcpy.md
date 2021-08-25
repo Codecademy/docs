@@ -43,7 +43,7 @@ int main() {
   char pokemon1[30] = "Ditto";
   char pokemon2[30] = "Pikachu";
 
-  /* This function has copied pokemon2 into pokemon1 */
+  // This function has copied pokemon2 into pokemon1
   strcpy(pokemon1, pokemon2);
   
   printf("pokemon1 is now: %s", pokemon1);
