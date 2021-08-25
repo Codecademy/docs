@@ -25,7 +25,7 @@ The **string.h** header file needs to be included at the top of the file:
 #include <string.h>
 ```
 
-`strcopy()` copies the string `string2` into string `string1`, including the terminating `null` character (`'\0'`).
+`strcopy()` function copies the string `string2` into string `string1`, including the terminating `null` character (`'\0'`).
 
 ```c
 strcpy(string1, string2)
@@ -34,55 +34,26 @@ strcpy(string1, string2)
 
 ## Example
 
-```c
-char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
-```
-
-If you follow the rule of array initialization then you can write the above statement as follows −
-
-```c
-char greeting[] = "Hello";
-```
-
-Though if a variable does not yet need a value assigned to it, this can be ommitted and assigned later.
-
-```c
-int num;
-num = 5;
-```
-
-Variables are statically typed in C, meaning a variable can only ever have one type. A variable declared as an `int` can only hold an integer value.
-
-## Memory
-
-So here's the memory presentation:
-
-```shell
-Character |   'H'    'e'    'l'    'l'    'o'   '\0'
-Index     |    0      1      2      3      4      5
-Address   |  23451  23452  23453  23454  23455  23456
-```
-
-## Displaying a Variable
-
-To display a variable in C, the `printf()` function from the **stdio.h** header file can be used along with the `%` character to format values, followed by the variable name.
-
-## Example
-
+Suppose we have two strings, `pokemon1` and `pokemon2`:
 ```c
 #include <stdio.h>
+#include <string.h>
 
-int main () {
-   char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
-   printf("Greeting message: %s\n", greeting);
+int main() {
 
-   return 0;
+  char pokemon1[30] = "Ditto";
+  char pokemon2[30] = "Pikachu";
+
+  /* This function has copied pokemon2 into pokemon1 */
+  strcpy(pokemon1, pokemon2);
+  
+  printf("pokemon1 is now: %s", pokemon1);
+  return 0;
 }
 ```
 
 The output would be:
 
-```shell
-5
-a
+```
+Pikachu
 ```
