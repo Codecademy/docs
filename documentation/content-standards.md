@@ -4,7 +4,7 @@ There are two types of Codecademy Docs entries:
 
 ## 1. Entry
 
-A normal entry is a detailed explanation of a coding concept. Think of them like short Wikipedia pages. Some of them are language-agnostic entries that fall in the "General" topic, some are language specific entries like "C", "C++", "CSS", "Emojicode", "Python", etc.
+A normal entry is a detailed explanation of a coding concept. Think of them like short Wikipedia pages. Some of them are language-agnostic entries that fall in the "General" topic, while others are language specific entries that fall in topics like "C", "C++", "CSS", "Emojicode", and "Python".
 
 General (language agnostic):
   - [What is a Comment?](https://www.codecademy.com/resources/docs/general/what-is-a-comment)
