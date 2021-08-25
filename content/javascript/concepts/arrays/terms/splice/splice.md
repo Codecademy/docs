@@ -14,7 +14,7 @@ CatalogContent:
 
 
 
-Modifies array in place by inserting, deleting, and/or replacing array elements then returns an array of deleted elements.
+Modifies an array in place by inserting, removing, and/or replacing array elements then returning an array of removed elements.
 
 ## Syntax
 
@@ -22,26 +22,26 @@ Modifies array in place by inserting, deleting, and/or replacing array elements 
 array.splice(start);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or deletion is to begin. 
+- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
 
 If only the start index is provided then it will remove all the elements from `start` to the end of the array.
 
-A negative `start` indicates an offset from the end of the array.
+A negative `start` value indicates an offset from the end of the array.
 
 ```js
 array.splice(start, length);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or deletion is to begin. 
+- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
 
 ```js
 array.splice(start, length, item1, item2, itemN);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or deletion is to begin. 
+- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
-- `item1` (optional): Further argument may be provided to be inserted at the start index.
+- `item1, ...itemN` (optional): Specifies the elements that will be inserted into the array at `start`.
 
 ## Examples
 
