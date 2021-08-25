@@ -28,7 +28,7 @@ Contributing follows this workflow:
 4. Edit or create an entry and commit the changes.
 5. Make a PR to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git. 
+If you haven't gone through this workflow before, you can check out [this GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git. 
 
 Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a PR by pressing this handy button:<br>
 
