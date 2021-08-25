@@ -28,9 +28,9 @@ Inside Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) 
 - [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
 - [.copy()](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
 
-## Components of an Entry
+## What makes an entry?
 
-All Docs entries are Markdown files and should consist of two parts:
+All Codecademy Docs entries are Markdown files and should consist of three parts:
 
 - The **file name**, with the **.md** extension.
 - The **content**, written in Markdown.
