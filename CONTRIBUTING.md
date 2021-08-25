@@ -54,12 +54,23 @@ And here, templates for creating your new entries.
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
 | [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md)) | [SQL](https://www.codecademy.com/resources/docs/sql) |
 
+### Codecadmy Username
+
+As a contributor, you have an opportunity have your your Codecademy username be displayed in the entry. If you wish to before making the PR, make sure that your Codecademy profile and your GitHub u
+
+To link your Codecademy user profile to GitHub:
+
+1. Go to https://www.codecademy.com/learn
+2. Click on your profile image in the top-right and then choose "Profile"
+3. Click "Edit Profile"
+4. In the GitHub field, make sure your GitHub profile URL is in the field.
+
 ## Any tips for a Pull Request?
 
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
-- We require one approval from one core team member for each PR.
+- We require one approval from one [core team member](https://github.com/codecademy/docs#core-team) for each PR.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed shortly after it is merged!
 
