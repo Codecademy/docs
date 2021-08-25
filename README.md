@@ -26,6 +26,16 @@ We are currently building a team of community volunteers to maintain Codecademy 
 
 ## How do I contribute?
 
+Thanks for your interest; we'd love to work with you. 💖
+
+There are many ways to contribute to Codecademy Docs:
+
+- Submit a Pull Request to edit an existing entry.
+- Submit a Pull Request to create a new entry.
+- Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+- Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
+
 Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
