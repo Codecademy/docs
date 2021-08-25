@@ -22,7 +22,7 @@ Some of these entries, such as the [Lists](https://www.codecademy.com/resources/
 
 Term entries are entries that covers a function, a method, a property, etc.
 
-Inside Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, there are a bunch of term entries (scroll to bottom):
+Inside Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, there are a bunch of term entries in a terms table (scroll to the bottom):
 
 - [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
 - [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
