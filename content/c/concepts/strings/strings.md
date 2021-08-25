@@ -56,7 +56,7 @@ To display a string in C, the `printf()` function from the **stdio.h** header fi
 ```c
 #include <stdio.h>
 
-int main () {
+int main() {
    char message[6] = {'H', 'o', 'w', 'd', 'y', '\0'};
    
    printf("Robot: %s\n", message);
