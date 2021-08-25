@@ -26,16 +26,17 @@ std::string message = "Good nite! 😇";
 
 ## C-Style Character Strings
 
-The C-style character string originated within the C language and continues to be supported within C++. 
+The C-style character string originated from the C language and continues to be supported within C++. 
 
-This string is actually a one-dimensional array of characters which is terminated by a `null` character '\0'.
+In C, the string is actually an array of characters, followed by a `null` character `'\0'`.
 
 ```cpp
 char greeting[] = "Hello";
 ```
 
 So here's the memory presentation:
-```
+
+```shell
 Character |   'H'    'e'    'l'    'l'    'o'   '\0'
 Index     |    0      1      2      3      4      5
 Address   |  23451  23452  23453  23454  23455  23456
