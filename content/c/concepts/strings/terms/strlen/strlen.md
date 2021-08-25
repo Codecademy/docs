@@ -1,6 +1,6 @@
 ---
 Title: "strlen()"
-Description: "Returns the length of the string without including terminating character."
+Description: "Returns the length of the string without including the terminating character."
 Subjects:
   - "Code Foundations"
   - "Computer Science"
@@ -23,7 +23,7 @@ The `strlen()` string function returns the length of the string without includin
 strlen(string)
 ```
 
-The following declaration and initialization create a string consisting of the word "Hello". To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."
+It takes in the string and returns an unsigned short.
 
 ## Example
 
@@ -32,8 +32,16 @@ The following declaration and initialization create a string consisting of the w
 #include <string.h>
 
 int main() {
-  char str1[20] = "BeginnersBook";
-  printf("Length of string str1: %d", strlen(str1));
+  char spell[20] = "Abracadabra";
+  printf("Length: %i", strlen(spell));
   return 0;
 }
 ```
+
+The output would be:
+
+```shell
+Length: 11
+```
+
+Notice how it didn't count the terminating character.
