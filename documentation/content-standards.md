@@ -38,11 +38,11 @@ All Docs entries are Markdown files and should consist of two parts:
 
 We'll describe the standards for each of these components separately.
 
-## 👩🏽‍🏫 Standards for the File Name 
+## Standards: File Name 
 
 The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an entry titled "What is Three.js?" should have the file name **what-is-three-js.md**. 
 
-## Standards for the Content 
+## Standards: Content 
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
@@ -95,7 +95,7 @@ Currently, Codebytes is set to support the following languages:
 
 Note: Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a _Hello World!_ program set up as an example!
 
-## Standards for the Metadata 
+## Standards: Metadata 
 
 | Variable Name   | Description | Example |
 |-----------------|-------------|---------|
