@@ -58,7 +58,7 @@ And here, templates for creating your new entries.
 
 As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry (this feature is coming in October)!
 
-If you wish to have your name displayed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked. You can stay anonymous by not linking them.
+If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked. You can stay anonymous by not linking them.
 
 To link your Codecademy user profile to GitHub:
 
@@ -74,7 +74,7 @@ To link your Codecademy user profile to GitHub:
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - We require one approval from one [core team member](https://github.com/codecademy/docs#core-team) for each PR.
 - Requested changes must be resolved before merging.
-- Your entry will be deployed shortly after it is merged!
+- Your entry will be deployed within the hour after it's merged!
 
 ## What do we check for?
 
