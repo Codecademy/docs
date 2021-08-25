@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `<figure>` semantic HTML element is used to encapsulate media such as an image, diagram, or code snippet. 
+The `<figure>` semantic HTML element is used to encapsulate media such as an image, diagram or code snippet. 
 
 ## Syntax
 
