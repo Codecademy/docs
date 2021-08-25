@@ -34,12 +34,12 @@ array.splice(start, length);
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
 
 ```js
-array.splice(start, length, item1, item2, ...itemN);
+array.splice(start, length, item1, item2, itemN);
 ```
 
 - `start`: The array index at which the insertion and/or removal is to begin. 
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
-- `item1, item2, ...itemN` (optional): The elements that will be inserted into the array at `start`.
+- `item1, item2, itemN` (optional): The elements that will be inserted into the array at `start`.
 
 ## Examples
 
