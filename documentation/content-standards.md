@@ -81,7 +81,9 @@ Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codeb
 
 Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
 
-The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
+The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. 
+
+Here's an example for JavaScript:
 
 ````
 ## Codebyte Example
