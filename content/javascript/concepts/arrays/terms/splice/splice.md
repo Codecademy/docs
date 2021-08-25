@@ -12,9 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-
-
-Modifies an array in place by inserting, removing, and/or replacing array elements then returning an array of removed elements.
+The `.splice()` array method modifies an array in place by inserting, removing, and/or replacing array elements then returning an array of removed elements.
 
 ## Syntax
 
@@ -22,7 +20,7 @@ Modifies an array in place by inserting, removing, and/or replacing array elemen
 array.splice(start);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
+- `start`: The array index at which the insertion and/or removal is to begin. 
 
 If only the start index is provided then it will remove all the elements from `start` to the end of the array.
 
@@ -32,16 +30,16 @@ A negative `start` value indicates an offset from the end of the array.
 array.splice(start, length);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
+- `start`: The array index at which the insertion and/or removal is to begin. 
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
 
 ```js
-array.splice(start, length, item1, item2, itemN);
+array.splice(start, length, item1, item2, ...itemN);
 ```
 
-- `start`: Specifies the array index at which the insertion and/or removal is to begin. 
+- `start`: The array index at which the insertion and/or removal is to begin. 
 - `length` (optional): The number of elements in the array to remove beginning at `start`.
-- `item1, ...itemN` (optional): Specifies the elements that will be inserted into the array at `start`.
+- `item1, item2, ...itemN` (optional): The elements that will be inserted into the array at `start`.
 
 ## Examples
 
