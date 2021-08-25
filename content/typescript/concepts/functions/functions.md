@@ -19,7 +19,7 @@ The types of function parameters work similarly to variable declarations.
 If the parameter has a default value, it will take on the type of that value.
 Otherwise you may declare the type of that parameter by adding a type annotation after its name.
 
-Here, the `logAgeAndName` function explicitly declares `age` to be of type `number`, while `name` is inferred to be of type `string` from its default value:
+Here, the `logAgeAndName()` function explicitly declares `age` to be of type `number`, while `name` is inferred to be of type `string` from its default value:
 
 ```ts
 function logAgeAndName(age: number, name = '(anonymous)') {
@@ -39,7 +39,7 @@ Some function parameters don't have a default value but should still be allowed 
 You can mark them as optional in TypeScript by adding a `?` question mark after their name, before any type annotation.
 TypeScript will understand that they don't need to be provided, and their type is a union that includes `undefined`.
 
-The following `logFavoriteNumberAndReason` function indicates `favorite` as a required `number` and `reason` as an optional `string`, so the function must be called with at least a `number`:
+The following `logFavoriteNumberAndReason()` function indicates `favorite` as a required `number` and `reason` as an optional `string`, so the function must be called with at least a `number`:
 
 ```ts
 function logFavoriteNumberAndReason(favorite: number, reason?: string) {
@@ -62,7 +62,7 @@ logFavoriteNumberAndReason();
 Most functions are written in a way that TypeScript can infer what value they return by looking at all the `return` statements in the function.
 Functions that don't return a value are considered to return type `void`.
 
-In this example, the `getRandomFriend` function is inferred to return `string` because all its `return`s return a value of type `string`:
+In this example, the `getRandomFriend()` function is inferred to return `string` because all its `return`s return a value of type `string`:
 
 ```ts
 function getRandomFriend(fallback: string) {
@@ -87,7 +87,7 @@ Doing so can be useful in two situations:
 - You'd like to explicitly make sure the function really does return that type
 - TypeScript will not attempt to infer the return type of a recursive function
 
-The following recursive `fibonacci` function needs an explicit `: number` return type annotation for TypeScript to understand it returns type `number`:
+The following recursive `fibonacci()` function needs an explicit `: number` return type annotation for TypeScript to understand it returns type `number`:
 
 ```ts
 function fibonacci(i: number): number {
@@ -104,7 +104,7 @@ function fibonacci(i: number): number {
 The types of functions may be represented in the type system.
 A function type looks a lot like an arrow lambda, but with the return type instead of the function body.
 
-This `withIncrementedValue` takes in a `receiveNewValue` parameter that itself takes in a `number` and returns nothing.
+This `withIncrementedValue()` takes in a `receiveNewValue` parameter that itself takes in a `number` and returns nothing.
 
 ```ts
 let value = 0;
