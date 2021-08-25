@@ -59,7 +59,8 @@ Howdy!
 
 ## Arguments 
 
-A function may need to do more than one thing based on some condition, and for this are arguments. Arguments are variables passed to the function when it is called that can be used in it. 
+Arguments are variables passed to the function when it is called that can be used in it. 
+
 They are set inside of the functions parenthesis when it is declared in the same way as a variable, and values are passed to the function inside the parenthesis when it is called.
 
 ```c
@@ -91,3 +92,5 @@ int main(void) {
   printf("%d\n", num);
 }
 ```
+
+Here, the `add()` function has a return value of `int`.
