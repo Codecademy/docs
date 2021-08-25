@@ -32,7 +32,7 @@ Variables are statically typed in C, meaning a variable can only ever have one t
 
 ## Displaying a Variable
 
-To display a variable in C, the `printf()` function in the **stdio.h** header file can be used along with the `%` character to format values.
+To display a variable in C, the `printf()` function from the **stdio.h** header file can be used along with the `%` character to format values, followed by the variable name.
 
 ```c
 #include <stdio.h>
