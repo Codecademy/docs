@@ -23,7 +23,7 @@ The `strcmp()` string function compares two strings and returns an integer value
 strcmp(string1, string2)
 ```
 
-- If the two strings are same, return 0.
+- If the two strings are the same, return 0.
 - If `string1` > `string2`, return positive value.
 - If `string1` < `string2` or `string1` is a substring of `string2`, return negative value. 
 
