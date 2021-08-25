@@ -13,8 +13,7 @@ CatalogContent:
 ---
 
 
-
-Returns a shallow copy of part of array, while original array is not modified.
+Returns a shallow copy of all or part of an array without modifying the original.
 
 ## Syntax
 
