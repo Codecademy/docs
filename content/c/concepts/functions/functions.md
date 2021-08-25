@@ -19,8 +19,7 @@ A function is declared with the return type, the function name, parameter(s), an
 
 ```pseudo
 return_type name(parameters) {
-  line_of_code;
-  line_of_code;
+  // Code goes here
 }
 ```
 
