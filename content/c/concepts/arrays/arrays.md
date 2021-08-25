@@ -66,3 +66,4 @@ Index | 0    1    2    3    4 |
 Value |'a'  'b'  'c'  'd'  'e'|
       +-----------------------+
 ```
+So `letters[0]` will give use the value `'a'`.
