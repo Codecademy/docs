@@ -24,10 +24,10 @@ Docs is live with about 600 high-quality entries. Now that the MVP is out, our g
 
 We are currently building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
 
-## What do I need to do before contributing? 
+## How do I contribute?
 
 Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
 
 ## Additional Notes
 
-- Remember, if you ever have any questions at all, we're here to help !
+Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy). 
