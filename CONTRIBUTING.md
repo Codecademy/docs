@@ -58,7 +58,7 @@ And here, templates for creating your new entries.
 
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
-- All required status checks are expected to pass in each PR.
+- All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - We require one approval from one core team member for each PR.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed shortly after it is merged!
