@@ -19,13 +19,18 @@ The `strcpy()` string function copies one string into another string.
 
 ## Syntax
 
+The **string.h** header file needs to be included at the top of the file:
+
+```c
+#include <string.h>
+```
+
+`strcopy()` copies the string `string2` into string `string1`, including the terminating `null` character (`'\0'`).
+
 ```c
 strcpy(string1, string2)
 ```
 
-Copies `string2` into `string1`.
-
-The following declaration and initialization create a string consisting of the word "Hello". To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."
 
 ## Example
 
