@@ -30,7 +30,7 @@ For example:
 ```html
 <figure>
   <img src="overwatch.jpg">
-  <figcaption>This picture shows characters from overwatch.</figcaption>
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
 </figure>
 ``` 
 
