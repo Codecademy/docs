@@ -56,7 +56,7 @@ And here, templates for creating your new entries.
 
 ### Codecadmy Username
 
-As a contributor, you have an opportunity have your your Codecademy username be displayed in the entry. If you wish to before making the PR, make sure that your Codecademy profile and your GitHub u
+As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username be displayed on the side of the entry (this feature is coming in October '21). If you wish to have your name be displayed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked.
 
 To link your Codecademy user profile to GitHub:
 
