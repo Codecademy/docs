@@ -23,7 +23,7 @@ return_type name(parameters) {
 }
 ```
 
-A variable that prints a greeting to the console may look like this.
+A function named `greet()` that prints a greeting to the console can be declared like this:
 
 ```c
 void greet(void) {
