@@ -26,7 +26,7 @@ We are currently building a team of community volunteers to maintain Codecademy 
 
 ## How do I contribute?
 
-Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our standards for content and style, as well as templates for creating your entries.
+Before contributing, please read through the [Contribution Guide](https://github.com/Codecademy/docs/tree/main/CONTRIBUTING.md). There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 
 ## Additional Notes
 
