@@ -1,4 +1,4 @@
-# Codecademy Docs: Contribution Guide 👩‍💻🧑‍💻
+# Codecademy Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
 
 Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo! 
 
