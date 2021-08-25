@@ -16,7 +16,7 @@ The `<figure>` semantic HTML element is used to encapsulate media such as an ima
 
 ## Syntax
 
-`<figure>`is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
+`<figure>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
 ```html
 <figure>
