@@ -4,9 +4,9 @@ Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitH
 
 We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet. 
 
-Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by awesome creative coders like yourself. 
+Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself. 
 
-Thanks for your interest; we'd love to work with you. 💖
+Thanks for your interest; we'd love to have you contribute.  💖
 
 ## How do I contribute?
 
@@ -22,7 +22,7 @@ Thanks for your interest; we'd love to work with you. 💖
 
 Contributing follows this workflow:
 
-1. Fork this [project repository](https://github.com/codecademy/docs).
+1. Fork [this project repository](https://github.com/codecademy/docs).
 2. Clone the forked repository to your computer.
 3. Create a branch.
 4. Edit or create an entry and commit the changes.
