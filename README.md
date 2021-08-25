@@ -15,7 +15,12 @@ Docs is live with about 600 high-quality entries. Now that the MVP is out, our g
 
 ## Core Team
 
-TBD
+- [@sonnynomnom](https://github.com/sonnynomnom)
+- [@li-codecademy](https://github.com/li-codecademy)
+- [@christian-dinh](https://github.com/christian-dinh)
+- [@dusch4593](https://github.com/dusch4593)
+- [@caupolicandiaz](https://github.com/cauplicandiaz)
+- [@sswiniarski](https://github.com/sswiniarski)
 
 We are building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
 
