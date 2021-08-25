@@ -29,8 +29,8 @@ For example:
 
 ```html
 <figure>
-  <img src="overwatch.jpg">
-  <figcaption>This picture shows characters from Overwatch.</figcaption>
+  <img src="dota2.jpg">
+  <figcaption>This picture shows characters from the game Dota 2.</figcaption>
 </figure>
 ``` 
 
