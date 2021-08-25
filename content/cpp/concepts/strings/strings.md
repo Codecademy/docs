@@ -31,13 +31,13 @@ The C-style character string originated from the C language and continues to be 
 In C, the string is actually an array of characters, followed by a `null` character `'\0'`.
 
 ```cpp
-char greeting[] = "Hello";
+char message[] = "Howdy";
 ```
 
 So here's the memory presentation:
 
 ```shell
-Character |   'H'    'e'    'l'    'l'    'o'   '\0'
+Character |   'H'    'o'    'w'    'd'    'y'   '\0'
 Index     |    0      1      2      3      4      5
 Address   |  23451  23452  23453  23454  23455  23456
 ```
