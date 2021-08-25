@@ -18,7 +18,7 @@ So thanks for your interest; we'd love to work with you! 💖
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
 
-## How do I submit a Pull Request?
+## How do I submit a Pull Request (PR)?
 
 Contributing follows this workflow:
 
@@ -26,11 +26,11 @@ Contributing follows this workflow:
 2. Clone the forked repository to your computer.
 3. Create a branch.
 4. Edit or create an entry and commit the changes.
-5. Make a Pull Request to merge your fork with this repo.
+5. Make a PR to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a Pull Request from a fork using Git. 
+If you haven't gone through this workflow before, you can check out this [GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git. 
 
-Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a pull request by pressing this handy button:<br>
+Alternatively, if you'd prefer to keep things to the GitHub UI for now, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a PR by pressing this handy button:<br>
 
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
@@ -58,7 +58,7 @@ And here, templates for creating your new entries.
 
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
-- All required checks are expected to pass on each PR.
+- All required status checks are expected to pass in each PR.
 - We require one approval from one core team member for each PR.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed shortly after it is merged!
