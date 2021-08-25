@@ -15,23 +15,23 @@ CatalogContent:
 
 Strings are arrays of characters followed by a `null` character `'\0'`.
 
-## Declaring and Assigning a String
+## Declaring and Initializing a String
 
-To declare a string in C, the type of the string (`char`) is first included, followed by the name, size, and the characters.
+To declare a string in C, the type of the string, `char`, is first included, followed by the name of the string, the size, and the characters themselves.
 
 ```pseudo
-char name[size] = {char1, char2, ..., charN, '\0'};
+char name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
 
-The following declaration and initialization create a string consisting of the word `"Howdy"`. 
-
-To hold the `null` character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Howdy!"
+The following declaration and initialization create a string of `"Howdy"`:
 
 ```c
 char message[6] = {'H', 'o', 'w', 'd', 'y', '\0'};
 ```
 
-If you follow the rule of array initialization, then you can write the above statement as follows:
+Even though `"Howdy"` has only 5 characters, `message` has 6 characters due to the `null` character at the end of the `message` array.
+
+The above statement can also be rewritten as:
 
 ```c
 char message[] = "Howdy";
@@ -58,7 +58,7 @@ To display a string in C, the `printf()` function from the **stdio.h** header fi
 
 int main () {
    char message[6] = {'H', 'o', 'w', 'd', 'y', '\0'};
-   printf("Post-it Note: %s\n", message);
+   printf("Robot: %s\n", message);
 
    return 0;
 }
@@ -67,5 +67,5 @@ int main () {
 The output would be:
 
 ```shell
-Post-it Note: Howdy
+Robot: Howdy
 ```
