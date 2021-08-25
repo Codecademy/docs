@@ -12,8 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-
-Returns a shallow copy of all or part of an array without modifying the original.
+The `.slice()` array method returns a shallow copy of all or part of an array without modifying the original.
 
 ## Syntax
 
