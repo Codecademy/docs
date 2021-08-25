@@ -28,7 +28,7 @@ The `<footer>` semantic tag represents a part of a page which is meant to be at 
 
 ### Website Footer
 
-After the main content is shown to the users of Bongo Ltd., they should see navigation links to the pages that aren't featured in the header as well as copyright information for the current page.
+After the main content is shown to the users of Bongo Ltd., they should see navigation links to the pages that are not featured in the header as well as copyright information for the current page.
 
 ```html
 <main>
