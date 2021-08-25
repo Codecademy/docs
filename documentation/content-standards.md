@@ -16,9 +16,9 @@ Python (language specific):
   - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
   - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
-## 2. Term Entry
+Some of these entries, such as the [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
 
-Some of the entries, such as Python's [Lists](https://www.codecademy.com/resources/docs/python/lists), will have a terms table at the bottom with more nested term entries.
+## 2. Term Entry
 
 Term entries are entries that covers a function, a method, a property, etc.
 
@@ -38,7 +38,7 @@ All Docs entries are Markdown files and should consist of two parts:
 
 We'll describe the standards for each of these components separately.
 
-## Standards for the File Name 
+## 👩🏽‍🏫 Standards for the File Name 
 
 The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. So, to give an example, an entry titled "What is Three.js?" should have the file name **what-is-three-js.md**. 
 
