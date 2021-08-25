@@ -12,11 +12,11 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `<figure>` semantic HTML element is used to encapsulate media such as an image, diagram or code snippet. 
+The `<figure>` semantic HTML element is used to encapsulate media such as an image, diagram, or code snippet. 
 
 ## Syntax
 
-`<figure>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
+`<figure>`is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
 ```html
 <figure>
