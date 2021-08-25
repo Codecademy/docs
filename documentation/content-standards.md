@@ -77,13 +77,15 @@ All code blocks should be delineated by triple backticks (```)
 
 #### Codebytes: Runnable Code Blocks
 
-Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! 
+Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block. 
 
-The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
+Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
 
 The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
 
 ````
+## Codebyte Example
+
 ```codebyte/js
 console.log('Hello, World!');
 ```
@@ -99,7 +101,7 @@ Currently, Codebytes is set to support the following languages:
 - Go
 - PHP
 
-Note: Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a _Hello World!_ program set up as an example!
+**Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
 ## Standards: Metadata 
 
