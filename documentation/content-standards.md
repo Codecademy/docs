@@ -112,6 +112,8 @@ Currently, Codebytes is set to support the following languages:
 | `Tags`            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
 | `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple items, please list the most relevant one first. | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
 
+Terms entries also has a `Description` metadata variable for SEO purposes. For example, take a look at a [raw file here](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md).
+
 ### General Writing Tips:
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible. 
@@ -122,10 +124,10 @@ Currently, Codebytes is set to support the following languages:
 
 ### File Hosting
 
-If you'd like to include an image, video, gif, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
+If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
 
 ### I've read all the content standards. Now what?
 
 Check out the [entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And start looking for concepts that are currently missing in Codecademy Docs.
 
-For a refresher on how to make a pull request, refer to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md).
+For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md).
