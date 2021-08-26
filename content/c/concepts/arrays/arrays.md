@@ -79,13 +79,14 @@ putchar(vowels[3]);
 #include <stdio.h>
 
 int main(void) {
-  int nums[] = {1, 2, 3, 4, 5};
   
-  printf("%d\n", nums[0]);
+  int snowfall[] = {10, 13, 14, 11, 9, 8, 6};
   
-  nums[3] = 17;
+  printf("%d\n", snowfall[0]);
   
-  printf("%d\n", nums[3]);
+  snowfall[3] = 17;
+  
+  printf("%d\n", snowfall[3]);
 
   return 0;
 }
@@ -94,6 +95,6 @@ int main(void) {
 The output would be:
 
 ```shell
-1
+10
 17
 ```
