@@ -11,9 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-
-
-Returns the inverse cosine of the argument in radians.
+The `Math.acos()` method returns the inverse cosine of the argument in radians.
 
 ## Syntax
 
