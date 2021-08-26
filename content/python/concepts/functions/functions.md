@@ -72,5 +72,4 @@ year_to_check = 2018
 returned_value = check_leap_year(year_to_check)
 
 print(returned_value) 
-# Output: 2018 is not a leap year.
 ```
