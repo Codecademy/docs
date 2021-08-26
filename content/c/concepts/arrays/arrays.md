@@ -75,6 +75,8 @@ putchar(vowels[3]);
 
 ## Example
 
+Creating an array that hold the snowfll (in the nearest inch) in the last 7 days:
+
 ```c
 #include <stdio.h>
 
@@ -84,9 +86,9 @@ int main(void) {
   
   printf("%d\n", snowfall[0]);
   
-  snowfall[3] = 17;
+  snowfall[2] = 16; // Updating one measurement
   
-  printf("%d\n", snowfall[3]);
+  printf("%d\n", snowfall[2]);
 
   return 0;
 }
@@ -96,5 +98,5 @@ The output would be:
 
 ```shell
 10
-17
+16
 ```
