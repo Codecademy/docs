@@ -76,7 +76,7 @@ Creating an array that holds the snowfall measurements (in the nearest inch) fro
 ```c
 #include <stdio.h>
 
-int main(void) {
+int main() {
   
   int snowfall[] = {10, 13, 14, 11, 9, 8, 6};
   
