@@ -13,6 +13,8 @@ CatalogContent:
 
 The `Math.abs()` method returns the absolute value of the argument.
 
+An absolute value is the non-negative version of the value, without considering the positive/negative sign.
+
 ## Syntax
 
 ```java
