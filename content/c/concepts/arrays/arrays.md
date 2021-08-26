@@ -77,17 +77,13 @@ Creating an array that holds the snowfall measurements (in the nearest inch) fro
 #include <stdio.h>
 
 int main() {
-  
   int snowfall[] = {10, 13, 14, 11, 9, 8, 6};
-  
   printf("%d\n", snowfall[0]);
   
-  snowfall[2] = 16; // Updating one measurement
-  
+  snowfall[2] = 16; // Update an element
   printf("%d\n", snowfall[2]);
 
   return 0;
-  
 }
 ```
 
