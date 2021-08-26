@@ -34,16 +34,16 @@ None of it is going to run!
 
 ## Header Comment
 
-Multi-line comments can be used to create a header comment at the top of the file. File header comments are used to identify the author, the date it was written, and a description of the program. This is a common convention in the C language.
+Multi-line comments can be used to create a header comment at the top of the file. File header comments are used to identify the author of the code, the date the file was written, a description of the program, etc. This is a common convention in the C language.
 
 ```c
-/******************************************************************
+/***************************************************************
 * FILENAME: hello.c
 * DESCRIPTION: This program prints a message to the screen.
 * AUTHOR: Sonny Li
-* DATE: 2022
+* DATE: 04/20/2023
 * CHANGES: N/A
-******************************************************************/
+****************************************************************/
 ```
 
 ## Example
@@ -62,7 +62,8 @@ int main() {
   double tip = total * 0.2;
   
   // Display the tip
-  printf("The tip is $%.2f\n", tip);
+  printf("The tip is $%.2f\n", tip); // Show two decimal places
+    
   return 0;
 }
 ```
