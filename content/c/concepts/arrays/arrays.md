@@ -18,7 +18,7 @@ Being able to store multiple pieces of related information in the same structure
 
 ## Declaring an Array
 
-The syntax for declaring an array is first the array type, then the array name followed by square brackets surrounding the array's length (number of items):
+The syntax for declaring an array is first specify the data type, then a descriptive array name, followed by square brackets surrounding the array's length (number of items):
 
 ```pseudo
 type name[length];
@@ -41,21 +41,32 @@ int grades[] = {94, 90, 78, 82, 88};
 The values in arrays are accessed using their index, or their position in the array. They can either be assigned or used this way.
 
 ```c
-char letters[] = {'a', 'b', 'c', 'd', 'e'}; 
+char vowels[] = {'a', 'e', 'i', 'o', 'u'}; 
 ```
 
-Note that in C an array's indexes start at 0 instead of 1 like someone might expect.
+Note that in C, an array's indexes start at 0 instead of 1:
 
 ```pseudo
       +-------------------------+
-Value | 'a'  'b'  'c'  'd'  'e' |
+Value | 'a'  'e'  'i'  'o'  'u' |
       +-------------------------+
 Index |  0    1    2    3    4  |
       +-------------------------+
 ```
 
-So `letters[0]` will give use the value `'a'`.
+- `vowels[0]` will give use the value `'a'`.
+- `vowels[1]` will give use the value `'e'`.
+- `vowels[2]` will give use the value `'i'`.
+- `vowels[3]` will give use the value `'o'`.
+- `vowels[4]` will give use the value `'u'`.
 
+
+```c
+char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+
+printf("%c", vowels[3]); 
+// Output: o
+```
 
 ## Example
 
