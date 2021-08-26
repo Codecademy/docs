@@ -37,7 +37,7 @@ The above statement can be rewritten as:
 char message[] = "Howdy";
 ```
 
-This is the string declaration that's common in the wild.
+This is the more common string declaration out in the wild.
 
 ## Memory
 
