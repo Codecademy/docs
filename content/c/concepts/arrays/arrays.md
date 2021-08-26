@@ -36,7 +36,7 @@ Alternatively, the length can be omitted and the array's initial values can be a
 int grades[] = {96, 90, 78, 84, 88, 92};
 ```
 
-## Accessing Values
+## Accessing Values with Indexes
 
 The values in arrays are accessed using their index, or their position in the array. They can either be assigned or used this way.
 
