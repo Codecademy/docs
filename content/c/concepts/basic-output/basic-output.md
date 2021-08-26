@@ -100,7 +100,7 @@ As seen above, the string given contains a `%` character followed by a letter to
 
 When using format specifiers for decimal numbers, the specific number of decimal places to be printed can be specified.
 
-To print 2 digits after the decimal place, we can use `0.2f` in `printf()`:
+To print 2 digits after the decimal place, `0.2f` can be used in `printf()`:
 
 ```c
 #include <stdio.h>
