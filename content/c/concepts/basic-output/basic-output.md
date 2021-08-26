@@ -55,7 +55,7 @@ int main(void) {
 }
 ```
 
-The output would be
+The output would be:
 
 ```shell
 Hello World!
@@ -63,7 +63,7 @@ Hello World!
 
 ## Print Formatted with `printf()`
 
-While the `puts()` function can only accept and print a single string, the `printf()` function can print variable(s) within a string. So more flexibility!
+While the `puts()` function can only accept and print a single string, the `printf()` function can print variables within a string. So more flexibility!
 
 The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string.
 
