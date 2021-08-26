@@ -24,16 +24,16 @@ The syntax for declaring an array is first specify the data type, then a descrip
 type name[length];
 ```
 
-So to declare an `int` array named `grades` with a length of 5:
+To declare an `int` array named `grades` with a length of 6:
 
 ```c
-int grades[5]; // An array to hold five integers
+int grades[6]; // An array to hold six integers
 ```
 
 Alternatively, the length can be omitted and the array's initial values can be assigned to it instead. Values are assigned inside of the curly brackets and separated by commas.
 
 ```c
-int grades[] = {94, 90, 78, 82, 88};
+int grades[] = {96, 90, 78, 84, 88, 92};
 ```
 
 ## Accessing Values
@@ -54,17 +54,22 @@ Index |  0    1    2    3    4  |
       +-------------------------+
 ```
 
-- `vowels[0]` will give use the value `'a'`.
-- `vowels[1]` will give use the value `'e'`.
-- `vowels[2]` will give use the value `'i'`.
-- `vowels[3]` will give use the value `'o'`.
-- `vowels[4]` will give use the value `'u'`.
+An element can be accessed by referring to the array name and the element's index number:
 
+```pseudo
+name[index]
+```
+
+- `vowels[0]` will give the value `'a'`.
+- `vowels[1]` will give the value `'e'`.
+- `vowels[2]` will give the value `'i'`.
+- `vowels[3]` will give the value `'o'`.
+- `vowels[4]` will give the value `'u'`.
 
 ```c
 char vowels[] = {'a', 'e', 'i', 'o', 'u'};
 
-printf("%c", vowels[3]); 
+putchar(vowels[3]); 
 // Output: o
 ```
 
