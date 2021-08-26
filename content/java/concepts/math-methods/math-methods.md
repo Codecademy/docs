@@ -13,7 +13,7 @@ CatalogContent:
 
 The Java `Math` class provides several methods that allows us to work on math calculations with numbers.
 
-```
+```java
 Math.method();
 ```
 
