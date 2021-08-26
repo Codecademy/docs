@@ -75,7 +75,7 @@ putchar(vowels[3]);
 
 ## Example
 
-Creating an array that hold the snowfll (in the nearest inch) in the last 7 days:
+Creating an array that holds the snowfll (in the nearest inch) measurements from the last 7 days:
 
 ```c
 #include <stdio.h>
