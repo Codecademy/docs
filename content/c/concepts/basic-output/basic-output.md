@@ -23,7 +23,7 @@ C itself has no ability to output any information. In order to so, the **stdio.h
 
 Once this is done, the functions included in it can be used.
 
-## Print a Character with `putchar()`
+## Print Character with `putchar()`
 
 The `putchar()` function, or "put character", takes a single `char` as an argument and prints it to the `stdout` file, normally the console.
 
@@ -42,7 +42,7 @@ The output would be:
 a
 ```
 
-## Print a String with `puts()`
+## Print String with `puts()`
 
 The `puts()` function, or "put string", takes a string as an argument and prints it to the `stdout` file, followed by a newline character.
 
@@ -61,7 +61,7 @@ The output would be
 Hello World!
 ```
 
-## Formatting Variables with `printf()`
+## Print Formatted with `printf()`
 
 The `puts()` function can only accept and print a single string argument, which is why there is the `printf()` function.
 
