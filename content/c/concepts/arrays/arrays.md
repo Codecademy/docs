@@ -12,21 +12,23 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-In the C language an array is a list of values, with a fixed length.  
+In the C language, an array is a list of values, with a fixed length.  
 
 ## Declaring an Array
 
-The syntax for declaring an array is first the variable type, then the name followed by square brackets surrounding the arrays length.
+The syntax for declaring an array is first the array type, then the array name followed by square brackets surrounding the array's length (number of items):
 
-```c
+```pseudo
 type name[length];
 ```
 
+So to declare an `int` array named `nums` with a length of 5:
+
 ```c
-int nums[5]; // an array to hold five integers
+int nums[5]; // An array to hold five integers
 ```
 
-Alternatively, the length can be omitted and the array's initial values assigned to it instead. Values are assigned to the inside of curly brackets and separated by commas.
+Alternatively, the length can be omitted and the array's initial values can be assigned to it instead. Values are assigned inside of the curly brackets and separated by commas.
 
 ```c
 int nums[] = {1, 2, 3, 4, 5};
@@ -51,7 +53,9 @@ int main(void) {
 }
 ```
 
-```pseudo
+The output would be:
+
+```shell
 1
 17
 ```
