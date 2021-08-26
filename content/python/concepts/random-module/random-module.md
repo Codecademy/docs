@@ -15,7 +15,9 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-Python has a special module called [random](https://docs.python.org/3/library/random.html) that can be used to randomly generate or modify integers, floats, lists, and strings. In order to use the `random` module, import it at the top of a Python file:
+Python has a special module called [random](https://docs.python.org/3/library/random.html) that can be used to randomly generate or modify integers, floats, lists, and strings. 
+
+In order to use the `random` module, import it at the top of a Python file:
 
 ```py
 import random
