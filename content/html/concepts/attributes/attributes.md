@@ -55,7 +55,7 @@ Valid `id` attributes should begin with a letter and should only contain letters
 In the provided example, we are giving the `<p>` paragraph element an unique identifier using the `id` attribute and changing the color of the default text using the `style` attribute:
 
 ```html
-<p id="my-paragraph" style="color: green;">
-  Here’s some text for a paragraph that is being altered by HTML attributes
+<p id="my-paragraph" style="color: aqua;">
+  Here's some text that is being altered by the HTML attributes
 </p>
 ```
