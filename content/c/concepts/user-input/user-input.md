@@ -30,7 +30,7 @@ scanf("%d", &pinNumber);
 
 ## Example
 
-In this example, the program will prompt the user to enter a number with `"Enter amount: "`. Then the user can enter a number in the terminal, press <kbd>Enter</kbd>, and the number will get stored in the variable `tip`.
+In this example, the program will prompt the user to enter a number with `"Add tip amount: "`. Then the user can enter a number in the terminal, press <kbd>Enter</kbd>, and the number will get stored in the variable `tip`.
 
 ```c
 #include <stdio.h>
@@ -38,7 +38,7 @@ In this example, the program will prompt the user to enter a number with `"Enter
 int main() {
   float tip = 0.0;
   
-  printf("Enter tip amount: ");
+  printf("Add tip amount: ");
   scanf("%f", &tip);  
 
   printf("You gave a tip of $%.2f", tip);
