@@ -23,9 +23,9 @@ C itself has no ability to output any information. In order to so, the **stdio.h
 
 Once this is done, the functions included in it can be used.
 
-## Print Character with putchar()
+## Print Character with `putchar()`
 
-The `putchar()` function, or "put character", takes a single `char` as an argument and prints it to the `stdout` file, normally the console.
+The `putchar()` function, or "put character" function, takes a single `char` as an argument and prints it to the `stdout` file, normally the console.
 
 ```c
 #include <stdio.h>
@@ -42,9 +42,9 @@ The output would be:
 a
 ```
 
-## Print String with puts()
+## Print String with `puts()`
 
-The `puts()` function, or "put string", takes a string as an argument and prints it to the `stdout` file, followed by a newline character.
+The `puts()` function, or "put string" function, takes a string as an argument and prints it to the `stdout` file, followed by a newline character.
 
 ```c
 #include <stdio.h>
@@ -61,11 +61,11 @@ The output would be
 Hello World!
 ```
 
-## Print Formatted with printf()
+## Print Formatted with `printf()`
 
 The `puts()` function can only accept and print a single string argument, which is why there is the `printf()` function.
 
-The `printf()` function, or "print formatted", takes a string that contains information on positions of the values to format, also known as format specifiers, followed by the values to format in the string.
+The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string. This offers a lot more flexibility because it can not only print a string, but also variable(s) within a string.
 
 ```c
 #include <stdio.h>
