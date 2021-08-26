@@ -17,7 +17,7 @@ Strings are arrays of characters followed by a `null` character `'\0'`.
 
 ## Declaring and Initializing a String
 
-To declare a string in C, the type of the string, `char`, is first included, followed by the name of the string, the size, and the characters themselves.
+To declare a string in C, the type of the string, `char`, is first specified, followed by the name of the string, the size, and the characters themselves.
 
 ```pseudo
 char name[size] = {'a', 'b', 'c', 'd', '\0'};
@@ -31,11 +31,13 @@ char message[6] = {'H', 'o', 'w', 'd', 'y', '\0'};
 
 Even though `"Howdy"` has only 5 characters, `message` has 6 characters due to the `null` character at the end of the `message` array.
 
-The above statement can also be rewritten as:
+The above statement can be rewritten as:
 
 ```c
 char message[] = "Howdy";
 ```
+
+This is the string declaration that's common in the wild.
 
 ## Memory
 
@@ -57,18 +59,18 @@ To display a string in C, the `printf()` function from the **stdio.h** header fi
 #include <stdio.h>
 
 int main() {
-   char message[6] = {'H', 'o', 'w', 'd', 'y', '\0'};
-   
-   printf("Robot: %s\n", message);
+  char message[10] = {'H', 'i', ' ', 'y', '\'', 'a', 'l', 'l', '!', '\0'}; 
+  printf("Robot: %s\n", message);
 
-   return 0;
+  return 0;
 }
+
 ```
 
 The output would be:
 
 ```shell
-Robot: Howdy
+Robot: Hi y'all!
 ```
 
 ## String Functions
