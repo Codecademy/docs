@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-The `scanf()` function, which stands for “scan format", reads a formatted string from the the standard input stream, which is usually the user keyboard.
+The `scanf()` function, which stands for “scan format", reads a formatted string from the standard input stream, which is usually the user keyboard.
 
 ## Syntax
 
