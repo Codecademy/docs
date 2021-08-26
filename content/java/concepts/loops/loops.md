@@ -34,7 +34,7 @@ while (i < 10) {
 
 The output would be:
 
-```
+```shell
 0
 2
 4
