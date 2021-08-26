@@ -41,7 +41,7 @@ char message[] = "Howdy";
 
 So here's the memory presentation:
 
-```shell
+```pseudo
 Character |   'H'    'o'    'w'    'd'    'y'   '\0'
 Index     |    0      1      2      3      4      5
 Address   |  23451  23452  23453  23454  23455  23456
