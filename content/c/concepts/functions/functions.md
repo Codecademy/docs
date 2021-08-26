@@ -33,7 +33,7 @@ void greet(void) {
 
 ## Calling a Function
 
-After declaring a function it can be used in a program by calling it. The sytax for this is the variables name followed by parenthesis.
+After a function is declared, it can be called in the program. The syntax for this is the variables name followed by parenthesis.
 
 ```c
 #include <stdio.h>
@@ -46,7 +46,7 @@ void greet(void) {
 
 // Calling the function inside main()
 
-int main(void) {
+int main() {
   greet();
 }
 ```
@@ -64,11 +64,33 @@ The values passed to a function are known as arguments. They represent the actua
 ```c
 #include <stdio.h>
 
+void max(int x, int y) {
+  if (x > y)
+    printf("%d is the bigger number\n", x);
+  else
+    printf("%d is the bigger number\n", y);
+}
+
+int main() {
+  int a = 20;
+  int b = 30;
+    
+  max(a, b);
+  
+  return 0;
+}
+```
+
+Here's another example:
+
+```c
+#include <stdio.h>
+
 void greet(char* name) {
   printf("Howdy %s!\n")
 }
 
-int main(void) {
+int main() {
   greet("John Doe"); // Output: Howdy John Doe!
   return 0;
 }
