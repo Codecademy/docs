@@ -98,7 +98,7 @@ As seen above, the string given contains a `%` character followed by a letter to
 
 ## Decimal Precision
 
-When using format specifiers with decimal numbers, the decimal precison, or the specific number of decimal places, can be specified.
+When using format specifiers for decimal numbers, the specific number of decimal places to be printed can be specified.
 
 To print 2 digits after the decimal place, we can use `0.2f` in `printf()`:
 
