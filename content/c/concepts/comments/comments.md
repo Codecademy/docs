@@ -34,7 +34,7 @@ None of it is going to run!
 
 ## Header Comment
 
-Multi-line comments can be used to create a header comment at the top of the file.
+Multi-line comments can be used to create a header comment at the top of the file. File header comments are used to identify the author, the date it was written, and a description of the program. This is a common convention in the C language.
 
 ```c
 /******************************************************************
