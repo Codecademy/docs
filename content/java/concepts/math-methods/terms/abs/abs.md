@@ -11,13 +11,11 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-
-
-Returns the absolute value of the argument.
+The `Math.abs()` method returns the absolute value of the argument.
 
 ## Syntax
 
-```py
+```java
 Math.abs(n)
 ```
 
