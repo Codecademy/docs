@@ -68,17 +68,15 @@ else {
 int main() {
   double pH = 6.5;
 
-  if (pH < 7.0) {
+  if (pH < 7.0)
     std::cout << "Acidic" << "\n";
-  }
-  else if (pH > 7.0) {
+  else if (pH > 7.0)
     std::cout << "Basic" << "\n";
-  }
-  else {
+  else
     std::cout << "Neutral" << "\n";
-  } 
 }
 ```
+
 ## Switch Statement
 
 A `switch` statement provides a means of checking an expression against various cases. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case.
