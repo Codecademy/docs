@@ -48,7 +48,7 @@ Multi-line comments can be used to create a header comment at the top of the fil
 
 ## Example
 
-Here's a program with a multi-line comment and two single-line comments:
+Here's a program with a multi-line comment and three single-line comments:
 
 ```c
 /* Tip Calculator
