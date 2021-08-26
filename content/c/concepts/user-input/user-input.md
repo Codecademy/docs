@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-The `scanf()` function, which stands for “scan format", reads a formatted string from the the standard input stream (usually the user keyboard).
+The `scanf()` function, which stands for “scan format", reads a formatted string from the the standard input stream, which is usually the user keyboard.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Here, the user can enter a value in the terminal, press <kbd>Enter</kbd>, and th
 
 ## Example
 
-In this example, the program will prompt the user to enter a number with `"Enter amount: "`. Then the user can enter a number, press <kbd>Enter</kbd>, and that number will get stored in the variable `tip`.
+In this example, the program will prompt the user to enter a number with `"Enter amount: "`. Then the user can enter a number in the terminal, press <kbd>Enter</kbd>, and the number will get stored in the variable `tip`.
 
 ```c
 #include <stdio.h>
