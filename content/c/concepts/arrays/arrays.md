@@ -91,6 +91,7 @@ int main(void) {
   printf("%d\n", snowfall[2]);
 
   return 0;
+  
 }
 ```
 
