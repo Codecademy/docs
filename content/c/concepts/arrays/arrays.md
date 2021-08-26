@@ -14,6 +14,8 @@ CatalogContent:
 
 In the C language, an array is a list of values, with a fixed length.  
 
+Being able to store multiple pieces of related information in the same structure is very useful when writing C programs.
+
 ## Declaring an Array
 
 The syntax for declaring an array is first the array type, then the array name followed by square brackets surrounding the array's length (number of items):
