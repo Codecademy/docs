@@ -63,7 +63,7 @@ Hello World!
 
 ## Print Formatted with `printf()`
 
-The `puts()` function can only accept and print a single string, whereas `printf()` function offers more flexibility because it can print variable(s) within a string.
+While the `puts()` function can only accept and print a single string, the `printf()` function offers more flexibility and can print variable(s) within a string.
 
 The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string.
 
