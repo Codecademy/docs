@@ -56,15 +56,11 @@ Index |  0    1    2    3    4  |
 
 An element can be accessed by referring to the array name and the element's index number:
 
-```pseudo
-name[index]
-```
-
-- `vowels[0]` will give the value `'a'`.
-- `vowels[1]` will give the value `'e'`.
-- `vowels[2]` will give the value `'i'`.
-- `vowels[3]` will give the value `'o'`.
-- `vowels[4]` will give the value `'u'`.
+- `vowels[0]` will give the value `'a'`
+- `vowels[1]` will give the value `'e'`
+- `vowels[2]` will give the value `'i'`
+- `vowels[3]` will give the value `'o'`
+- `vowels[4]` will give the value `'u'`
 
 ```c
 char vowels[] = {'a', 'e', 'i', 'o', 'u'};
