@@ -20,11 +20,13 @@ The `scanf()` function, which stands for “scan format", reads a formatted stri
 scanf("formatted string", &variable);  
 ```
 
+Here, the user can enter a value in the terminal, press <kbd>Enter</kbd>, and that number will get stored in the `pinNumber` variable.
+
 ```c
 scanf("%d", &pinNumber);  
 ```
 
-Here, the user can enter a value in the terminal, press <kbd>Enter</kbd>, and that number will get stored in the `pinNumber` variable.
+**Note:** There's an ampersand `&` in front of the variable names that are `scanf()`'s arguments. The program will crash if there's a missing `&` sign.
 
 ## Example
 
