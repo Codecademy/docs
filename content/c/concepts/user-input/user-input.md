@@ -26,7 +26,7 @@ Here, the user can enter a value in the terminal, press <kbd>Enter</kbd>, and th
 scanf("%d", &pinNumber);  
 ```
 
-**Note:** There's an ampersand `&` in front of the variable names that are `scanf()`'s arguments. The program will crash if there's a missing `&` sign.
+**Note:** There's an ampersand `&` before the variable names in the arguments. The program will crash if there's a missing `&` sign.
 
 ## Example
 
