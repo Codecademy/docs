@@ -37,14 +37,14 @@ None of it is going to run!
 Multi-line comments can be used to create a header comment at the top of the file. File header comments are used to identify the author of the code, the date the code was written, a description of the program, etc. This is a common convention in the C language.
 
 ```c
-/****************************************************************
+/***************************************************************
 * FILENAME: hello.c
 * DESCRIPTION: This program prints a message to the screen.
 * AUTHOR: Gilfoyle
 * DATE: 04/20/2023
 * MODIFICATION: Dinesh
 * CHANGES: N/A
-*****************************************************************/
+****************************************************************/
 ```
 
 ## Example
