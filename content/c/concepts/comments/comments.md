@@ -40,8 +40,9 @@ Multi-line comments can be used to create a header comment at the top of the fil
 /***************************************************************
 * FILENAME: hello.c
 * DESCRIPTION: This program prints a message to the screen.
-* AUTHOR: Sonny Li
+* AUTHOR: Gilfoyle
 * DATE: 04/20/2023
+* MODIFICATION: Dinesh
 * CHANGES: N/A
 ****************************************************************/
 ```
