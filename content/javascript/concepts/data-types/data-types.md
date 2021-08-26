@@ -18,7 +18,7 @@ Data types are the classifications we give to the different kinds of data that w
 | Data Type | Description |
 | --- | --- |
 | `Number` | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`. |
-| `BigInt` | Any number, greater than `2^53 - 1` or less than `-(2^53-1)` with `n` appended to the number: `1234567890123456n`. |
+| `BigInt` | Any number, greater than 2^53-1 or less than -(2^53-1) with `n` appended to the number: `1234567890123456n`. |
 | `String` | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes `''` or double quotes `""`. |
 | `Boolean` | This data type only has two possible values — either `true` or `false`. |
 | `Null` | This data type represents the intentional absence of a value, and is represented by the keyword `null`. |
