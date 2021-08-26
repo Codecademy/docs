@@ -59,8 +59,8 @@ To display a string in C, the `printf()` function from the **stdio.h** header fi
 #include <stdio.h>
 
 int main() {
-  char message[10] = {'H', 'i', ' ', 'y', '\'', 'a', 'l', 'l', '!', '\0'}; 
-  printf("Delivery Bot: %s\n", message);
+  char message[] = "Hi y'all!"; 
+  printf("Bot: %s\n", message);
 
   return 0;
 }
@@ -70,7 +70,7 @@ int main() {
 The output would be:
 
 ```shell
-Delivery Bot: Hi y'all!
+Bot: Hi y'all!
 ```
 
 ## String Functions
