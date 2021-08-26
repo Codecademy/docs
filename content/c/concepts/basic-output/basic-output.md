@@ -65,7 +65,7 @@ Hello World!
 
 The `puts()` function can only accept and print a single string argument, which is why there is the `printf()` function.
 
-The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string. This offers a lot more flexibility because it can print variable(s) within a string.
+The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string. This offers a lot more flexibility than `puts()` because it can print variable(s) within a string.
 
 ```c
 #include <stdio.h>
