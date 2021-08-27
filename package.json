@@ -20,11 +20,12 @@
   },
   "scripts": {
     "compile": "tsc --noEmit",
-    "format": "prettier --ignore-path .prettierignore --write \"./**/*.(ts|md)\"",
+    "format": "prettier --ignore-path .prettierignore --write",
+    "format:all": "prettier --ignore-path .prettierignore --write \"./**/*.(ts|md)\"",
     "format:verify": "prettier \"./**/*.(ts|md)\" --list-different",
     "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
     "lint:md": "markdownlint \"./content/**/*.md\"",
-    "lint": "yarn lint:js && yarn lint:md",
+    "lint": "yarn lint:md && yarn lint:js",
     "test": "jest"
   },
   "license": "UNLICENSED",
