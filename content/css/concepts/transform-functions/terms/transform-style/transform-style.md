@@ -1,20 +1,18 @@
 ---
 Title: "transform-style"
+Description: "Specifies if an element's children are positioned in 3D space or flattened."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Positioning"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
-
-Specifies if an elements children are positioned in 3D space or flattened.
+The `transform-style` property specifies if an element's children are positioned in 3D space or flattened.
 
 ## Syntax
 
@@ -29,7 +27,7 @@ The `transform-style` property can have one of two values:
   
 ## Example 1
 
-Preserving the 3D space of a `div` elements children elements.
+Preserving the 3D space of a `div` element's children elements.
 
 ```css
 div {

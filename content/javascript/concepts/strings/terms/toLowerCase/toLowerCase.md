@@ -1,17 +1,18 @@
 ---
 Title: ".toLowerCase()"
+Description: "Convert a string to lowercase letters."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Convert a string to lowercase letters.
 

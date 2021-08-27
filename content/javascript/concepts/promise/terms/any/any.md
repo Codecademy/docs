@@ -1,16 +1,17 @@
 ---
 Title: ".any()"
+Description: "Iterates over an iterableObject of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned Promise object."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Iterates over an `iterableObject` of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
 

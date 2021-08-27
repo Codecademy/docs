@@ -1,16 +1,17 @@
 ---
 Title: ".codePointCount()"
+Description: "Returns the number of Unicode values in specified range of a string."
 Subjects:
   - "Computer Science"
 Tags:
   - "Methods"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the number of Unicode values in specified range of a string.
 

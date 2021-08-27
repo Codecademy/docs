@@ -1,5 +1,6 @@
 ---
 Title: "sorted()"
+Description: "Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,12 +9,12 @@ Tags:
   - "Functions"
   - "Iterators"
   - "Lists"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.
 

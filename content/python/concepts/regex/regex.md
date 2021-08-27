@@ -8,10 +8,10 @@ Tags:
   - "Regular Expressions"
   - "Functions"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Regex, short for Regular Expressions, is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python. 

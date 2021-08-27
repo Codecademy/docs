@@ -6,15 +6,17 @@ Subjects:
 Tags:
   - "Best Practices"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
-_Bitwise operators_ are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications. 
+Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications. 
 
-Bitwise operators give programs greater control over applications by providing detailed implementation of algorithms (e.g., encryption, compression, etc.) and the ability to control physical state to a greater degree via manipulation of individual bits. They are widely used in the embedded systems where we need to set/clear/toggle single bits of a specific register without modifying the other contents. Bitwise operators are also extensively used in areas of graphics, especially XOR (exclusive OR) operations.
+Bitwise operators give programs greater control over applications by providing detailed implementation of algorithms (e.g., encryption, compression, etc.) and the ability to control physical state to a greater degree via manipulation of individual bits. 
+
+They are widely used in the embedded systems where we need to set/clear/toggle single bits of a specific register without modifying the other contents and also extensively used in areas of graphics, especially XOR (exclusive OR) operations.
 
 ## Bitwise Operator Table 
 
@@ -22,7 +24,7 @@ Bitwise operators give programs greater control over applications by providing d
 | --- | --- | --- |
 | `&` | `a & b` | Bitwise AND |
 | `\|` | `a \| b` | Bitwise OR | 
-| `^` | `a ^ b` | Bitwise XOR (exclusive OR ) |
+| `^` | `a ^ b` | Bitwise XOR (exclusive OR) |
 | `~` | `~a` | Bitwise NOT |
 | `<<` | `a << n` | Bitwise left shift |
 | `>>` | `a >> n` | Bitwise right shift |

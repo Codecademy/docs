@@ -7,9 +7,9 @@ Tags:
   - "Developer Tools"
   - "Debugging"
   - "Best Practices"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 In computer programming, _runtime_ references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system.

@@ -7,18 +7,18 @@ Tags:
   - "Version Control" 
   - "Developer Tools"
   - "Git"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/learn-git"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:  
+  - "learn-git"
+  - "paths/front-end-engineer-career-path"
 ---
 
-Git is a version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the `main` branch of the codebase (or Git repository).
+[Git](https://git-scm.com) is a version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the `main` branch of the codebase (or Git repository).
 
 At it's core, Git is a command line tool that comes with built-in commands for performing a variety of tasks. 
 
-### Common Commands with Examples
+## Common Commands
 
-#### `git --version`
+### `git --version`
 
 Run this command to see version running on local machine. 
 
@@ -27,7 +27,7 @@ $ git --version
 git version 2.26.0
 ```
 
-#### `git init`
+### `git init`
 
 This command initializes a new Git repository or reinitializes one that already exists.
 
@@ -36,11 +36,11 @@ $ git init
 Initialized empty Git repository in /Path/to/current/working/directory/.git/
 ```
 
-#### `git branch`
+### `git branch`
 
 This command has a few applications. Some of its main functions include: 
 
-* Listing all branches in the repository
+#### Listing Branches
 
 ```
 $ git branch
@@ -49,7 +49,7 @@ $ git branch
  * main
 ```
 
-* Creating a new branch with a specified name
+#### Creating a Branch
 
 ```
 $ git branch branch-3
@@ -60,7 +60,7 @@ $ git branch
  * main
 ```
 
-* Deleting a specific branch
+#### Deleting a Branch
 
 ```
 $ git branch -d branch-2

@@ -8,27 +8,31 @@ Tags:
   - "Integers"
   - "Booleans"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
-In programming, data type is an important concept.
+Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.
 
-Variables can store data of different types, and different types can do different things.
+```py
+codecademy = 575
+codecademy = "575 broadway"
+```
 
-Python has the following data types built-in by default, in these categories:
+After line 1, `codecademy` is an `int`. After line 2, `codecademy` is a `str`.
 
-- Text Type: `str`
-- Numeric Types: `int`, `float`, `complex`
-- Boolean Type: `bool`
-- Sequence Types: `list`, `tuple`, `range`
-- Mapping Type: `dict`
-- Set Types: `set`, `frozenset`
-- Binary Types: `bytes`, `bytearray`, `memoryview`
+Here are Python's built-in data types:
 
-## Type() Function
+- String type: `str`
+- Boolean type: `bool`
+- Binary types: `bytes`, `bytearray`, `memoryview`
+- Number types: `int`, `float`, `complex`
+- Sequence Types: `list`, `range`, `tuple`
+- Set types: `set`, `frozenset`
+- Dictionary type: `dict`
+
+## Type()
 
 To find the data type of any object, the `type()` function can be used:
 
@@ -40,6 +44,6 @@ print(type(message))
 
 This will output:
 
-```
+```shell
 <class 'str'>
 ```

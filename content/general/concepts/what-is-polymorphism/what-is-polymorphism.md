@@ -6,10 +6,10 @@ Subjects:
 Tags:
   - "Best Practices"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 _Polymorphism_ is one of the four principles of object-oriented programming (OOP). It promotes dynamic inheritance of child classes from their parent class in order to make use of these features themselves in code. 

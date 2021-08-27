@@ -5,9 +5,9 @@ Subjects:
 Tags:
   - "Operators"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-emojicode"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-emojicode"
+  - "paths/computer-science"
 ---
 
 ## Arithmetic Operations
@@ -22,7 +22,7 @@ Emojicode supports arithmetic operators for:
 
 For example:
 
-```
+```shell
 4 ➕ 2 ➡️ score1     💭 scores1 is 6
  
 4 ➖ 2 ➡️ score2     💭 scores2 is 2

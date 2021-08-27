@@ -1,5 +1,6 @@
 ---
 Title: "reversed()"
+Description: "Takes in an iterator object, such as a list or string, and returns a reversed iterator object."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,12 +9,12 @@ Tags:
   - "Functions"
   - "Iterators"
   - "Lists"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Takes in an iterator object, such as a list or string, and returns a reversed iterator object.
 

@@ -8,10 +8,10 @@ Tags:
   - "Integers"
   - "Booleans"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 A variable is used to store data that will be used by the program. This data can be a number, a string, a Boolean, a list or some other data type. Every variable has a name which can consist of letters, numbers, and the underscore character `_`.
@@ -34,7 +34,7 @@ Rules for Python variables:
 These are all valid variable names and assignment:
 
 ```py
-user_name = "@sonnynomnom"
+user_name = "@sonny420"
 user_id = 100
 verified = False
 ```

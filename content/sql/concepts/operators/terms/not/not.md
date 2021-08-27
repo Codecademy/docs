@@ -1,5 +1,6 @@
 ---
 Title: NOT
+Description: "Query items that return NOT TRUE for some condition/conditions."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -10,13 +11,13 @@ Tags:
   - "SQLite"
   - "MySQL"
   - "PostgreSQL"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Query items that return `NOT TRUE` for some condition/conditions.
 

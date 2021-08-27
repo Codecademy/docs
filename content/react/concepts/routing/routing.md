@@ -5,9 +5,9 @@ Subjects:
 Tags:
   - "React"
   - "Requests"
-Catalog Content:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, routing is most commonly achieved through React Router.

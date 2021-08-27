@@ -6,10 +6,9 @@ Subjects:
 Tags: 
   - "Functions"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 In SQL, aggregate functions perform a calculation on a set of values and return a single value. They are often used with the `GROUP BY` clause of the `SELECT` statement.
@@ -21,7 +20,8 @@ In SQL, aggregate functions perform a calculation on a set of values and return 
 List all the years and their number of movies, but only the years with more than 5 movies:
 
 ```sql
-SELECT year, COUNT(*) 
+SELECT year, 
+  COUNT(*) 
 FROM movies 
 GROUP BY year
 HAVING COUNT(*) > 5;

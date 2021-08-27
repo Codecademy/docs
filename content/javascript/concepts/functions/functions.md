@@ -7,10 +7,9 @@ Tags:
   - "Functions"
   - "Parameters"
   - "Arguments"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it.
@@ -48,7 +47,7 @@ sum(2, 4);
 
 The output would be:
 
-```bash
+```output
 6
 ```
 
@@ -79,29 +78,46 @@ There are several variations of arrow functions:
 * Arrow functions with a single parameter do not require `()` around the parameter list.
 * Arrow functions with a single expression can use the concise function body which returns the result of the expression without the `return` keyword.
 
+Arrow function with no arguments:
+
 ```js
-// Arrow function with two arguments 
-const sum = (firstParam, secondParam) => { 
-  return firstParam + secondParam; 
-}; 
-console.log(sum(2,5)); // Prints: 7 
- 
-// Arrow function with no arguments 
 const printHello = () => { 
   console.log('hello'); 
 }; 
-printHello(); // Prints: hello
- 
-// Arrow functions with a single argument 
+
+printHello(); 
+// Output: hello
+```
+
+Arrow function with a single argument:
+
+```js
 const checkWeight = weight => { 
   console.log(`Baggage weight : ${weight} kilograms.`); 
 }; 
-checkWeight(25); // Prints: Baggage weight : 25 kilograms.
- 
- 
-// Concise arrow functions
+
+checkWeight(25); 
+// Output: Baggage weight : 25 kilograms.
+```
+
+Arrow function with two arguments:
+
+```js
+const sum = (firstParam, secondParam) => { 
+  return firstParam + secondParam; 
+}; 
+
+console.log(sum(2, 5)); 
+// Output: 7 
+```
+
+Concise arrow function:
+
+```js
 const multiply = (a, b) => a * b; 
-console.log(multiply(2, 30)); // Prints: 60
+
+console.log(multiply(2, 30)); 
+// Output: 60
 ```
 
 ## Anonymous Functions

@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Data Structures"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:  
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 An an array is a list of ordered, stored data. They can hold items that are of any data type. 
@@ -36,3 +36,13 @@ grocery = ["milk", "cookies", "berries", "carrots"]
 - The second element is at index 1.
 - The third element is at index 2.
 - ...and so on.
+
+## Arrays in Different Languages
+
+- [Arrays in C++](https://www.codecademy.com/resources/docs/cpp/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in JavaScript](https://www.codecademy.com/resources/docs/javascript/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Java](https://www.codecademy.com/resources/docs/java/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in PHP](https://www.codecademy.com/resources/docs/php/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in TypeScript](https://www.codecademy.com/resources/docs/typescript/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Swfit](https://www.codecademy.com/resources/docs/swift/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)
+- [Arrays in Ruby](https://www.codecademy.com/resources/docs/ruby/arrays?utm_source=docs&utm_medium=docs&utm_campaign=docs_link_test&utm_content=docs_array)

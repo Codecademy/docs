@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-php"
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 An array is a variable that can hold more than one value. Arrays in PHP are stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers. 

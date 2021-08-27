@@ -7,10 +7,10 @@ Tags:
   - "Functions"
   - "Parameters"
   - "Arguments"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the def keyword. Function definitions may include parameters, providing data input to the function.
@@ -72,5 +72,4 @@ year_to_check = 2018
 returned_value = check_leap_year(year_to_check)
 
 print(returned_value) 
-# Output: 2018 is not a leap year.
 ```

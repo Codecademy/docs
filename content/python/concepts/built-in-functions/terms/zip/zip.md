@@ -1,5 +1,6 @@
 ---
 Title: "zip()"
+Description: "Takes multiple iterators as input and returns a single zip object made up of a list of tuples."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -7,13 +8,13 @@ Tags:
   - "Lists"
   - "Iterators"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 
 ---
 
-## Definition 
+ 
 
 Takes multiple iterators as input and returns a single zip object made up of a list of tuples.
 

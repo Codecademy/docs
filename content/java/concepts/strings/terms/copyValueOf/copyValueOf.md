@@ -1,16 +1,17 @@
 ---
-Title: "copyValueOf()"
+Title: ".copyValueOf()"
+Description: "Returns a string with characters copied from an array."
 Subjects:
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns a string with characters copied from an array.
 

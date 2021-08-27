@@ -6,10 +6,10 @@ Subjects:
 Tags: 
   - "Variables"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-php"
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 Variables store data for later use, and allow their contents to be updated or changed. They're needed when the same code needs to operate on different values at different times. They're also used when the same value is needed at multiple places throughout the code.

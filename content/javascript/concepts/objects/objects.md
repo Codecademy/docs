@@ -7,10 +7,9 @@ Tags:
   - "Objects"
   - "Classes"
   - "OOP"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A JavaScript object can be created, or defined, with an object literal:

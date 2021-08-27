@@ -6,10 +6,11 @@ Subjects:
 Tags:
   - "Regular Expressions" 
   - "Strings"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
+
 The `RegExp` object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string. 
 
 A `RegExp` object can also have flags set along with a pattern to change how matches are performed.
@@ -53,15 +54,15 @@ Method|Description
 
 ### `String` Methods That Can Use `RegExp` Objects
 
-In the following `re` is a `RegExp` object
+In the following `re` is a `RegExp` object.
 
-Method                |Description
+Method                | Description
 ----------------------|----------------------
-`match(re)`           |Returns the array result of match(es) against the string.
-`matchAll(re)`        |Returns an iterator of all the matches found within the string.\* 
-`replace(re, substr)` |Replaces match(es) in the string with a given substring, `substr`.
-`search(re)`          |Returns the index of the first match in the string.
-`split(re)`           |Splits string into an array using the match(es) as a delimiter.
+`match(re)`           | Returns the array result of match(es) against the string.
+`matchAll(re)`        | Returns an iterator of all the matches found within the string.\* 
+`replace(re, substr)` | Replaces match(es) in the string with a given substring, `substr`.
+`search(re)`          | Returns the index of the first match in the string.
+`split(re)`           | Splits string into an array using the match(es) as a delimiter.
 
 \* The RegExp object must have the `g` flag set or an exception is thrown.
 
@@ -71,12 +72,12 @@ When specified, these flags change the default match behavor of the `RegExp` obj
 
 Flag|Description
 ---|---
-`g`|Perform a global match, finding all matches rather than just the first.
-`i`|Makes matches case-insensitive.
-`m`|Perform multiline matches. (Changes behavior of `^`,`$`)
-`s`|Allows `.` to match newline characters.
-`u`|Enables Unicode support.
-`y`|Matches are sticky, looking only at exact position in the text.
+`g` | Performs a global match, finding all matches rather than just the first.
+`i` | Makes matches case-insensitive.
+`m` | Performs multiline matches. (Changes behavior of `^`,`$`)
+`s` | Allows `.` to match newline characters.
+`u` | Enables Unicode support.
+`y` | Matches are sticky, looking only at exact position in the text.
 
 Usage:
 
@@ -135,11 +136,11 @@ console.log(str.replace(re,"x"));
 
 ### Character Classes
 
-Indicates a given type of character to match.
+s a given type of character to match.
 
-Characters|Meaning
----|---
-`.`| Matches any character except line terminators. When `s` flag set, it also matches line terminators.
+Characters | Meaning
+--- | ---
+`.` | Matches any character except line terminators. When `s` flag set, it also matches line terminators.
 `\d`|Matches any digit (Arabic numeral).
 `\D`|Matches any character that is not a digit (Arabic numeral).
 `\w`|Matches any alphanumeric character from Latin alphabet, including underscore.
@@ -178,7 +179,7 @@ console.log(str.replace(re,"x"));
 
 ### Groups and Ranges
 
-Indicates groups and ranges of characters to match.
+Indicate groups and ranges of characters to match.
 
 Characters|Meaning
 ---|---
@@ -226,7 +227,7 @@ Characters|Meaning
 <code>x{<i>n</i>,}</code>|Matches the preceding item `x` <code><i>n</i></code> or more times, where <code><i>n</i></code> is a positive integer.
 <code>x{<i>n</i>,<i>m</i>}</code>|Matches the preceding item `x` at least <code><i>n</i></code> times and at most <code><i>m</i></code> times where <code><i>n</i></code> and <code><i>m</i></code> are positive integers and <code><i>n</i></code> is less than <code><i>m</i></code>.
 
-By default these quatifiers are greedy, matching as much of the string as possible. By following the quantifer with `?` (`x*?`) the match will stop at its first occurrence.
+By default, these quatifiers are greedy, matching as much of the string as possible. By following the quantifer with `?` (`x*?`) the match will stop at its first occurrence.
 
 #### Examples
 

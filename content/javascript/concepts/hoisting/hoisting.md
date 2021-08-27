@@ -7,10 +7,9 @@ Tags:
   - "Functions"
   - "Variables"
   - "Arguments"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Hoisting is a default process where JavaScript "splits" `var` and `function` declarations from their definitions. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed.  
@@ -60,8 +59,8 @@ function greetings() {
 
 The output would be:
 
-```
-Output: Hi! My name is Brandon.
+```shell
+Hi! My name is Brandon.
 undefined
 ```
 
@@ -78,7 +77,7 @@ function greetings() {
 
 The output would be:
 
-```
+```shell
 function greetings() {
    var myName = "Brandon";
    console.log(`Hi! My name is ${myName}.`);
@@ -98,7 +97,7 @@ var greetings = function() {
 
 The output would be:
 
-```
+```shell
 undefined
 ```
 
@@ -145,7 +144,7 @@ console.log(`My name is ${myName}.`); // ReferenceError: Cannot access 'myName' 
 myName = "Brandon";
 ```
 
-In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement. 
+In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up, but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement. 
 
 ```js
 // Before hoisting

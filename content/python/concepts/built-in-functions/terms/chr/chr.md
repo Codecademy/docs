@@ -1,5 +1,6 @@
 ---
 Title: "chr()"
+Description: "Returns Unicode characters represented by integers ranging between 0 and 1,114,111."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -7,12 +8,12 @@ Tags:
   - "Functions"
   - "Unicode"
   - "Integers"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns Unicode characters represented by integers ranging between 0 and 1,114,111.
 

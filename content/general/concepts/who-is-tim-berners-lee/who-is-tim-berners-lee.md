@@ -7,9 +7,9 @@ Tags:
   - "World Wide Web"
   - "HTTP"
   - "HTML"
-Catalog Content:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Sir Tim Berners-Lee is an English computer scientist popularly known for his development of the World Wide Web in 1989.

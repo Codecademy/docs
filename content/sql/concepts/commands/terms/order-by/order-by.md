@@ -1,5 +1,6 @@
 ---
 Title: "ORDER BY"
+Description: "Sorts the result set by a particular column either alphabetically or numerically."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -9,13 +10,10 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
-
-## Definition
 
 Sorts the result set by a particular column either alphabetically or numerically.
 
@@ -34,7 +32,7 @@ ORDER BY column_name ASC | DESC;
 
 ## Example
 
-The below query will sort the result set by the `birth_date` column in a descending order.
+The below query will sort the result set by the `birth_date` column in descending order.
 
 ```sql
 SELECT *

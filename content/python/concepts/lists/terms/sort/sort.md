@@ -1,18 +1,19 @@
 ---
 Title: ".sort()"
+Description: "Sort the contents of the list it is called on."
 Subjects:
   - "Data Science"
   - "Computer Science"
 Tags:
   - "Lists"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/data-science"
+  - "paths/computer-science"
 ---
 
-## Definition 
+ 
 
 Sort the contents of the list it is called on.
 

@@ -1,57 +1,63 @@
 # Content Standards
 
-### Entry Types
+There are two types of Codecademy Docs entries:
 
-Codecademy Docs content will fall into two categories:
+## 1. Entry
 
-#### Entries
+A normal entry is a detailed explanation of a coding concept. Think of them like short Wikipedia pages. Some of them are language-agnostic entries that fall in the "General" topic, while others are language specific entries that fall in topics like "C", "C++", "CSS", "Emojicode", and "Python".
 
-One or more paragraph-long explanations of a coding concept. Think of them like short Wikipedia pages. For example:
-  - [What is a Comment?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-a-comment/what-is-a-comment.md)
-  - [What is SQL?](https://github.com/Codecademy/docs/blob/main/content/general/concepts/what-is-sql/what-is-sql.md)
+General (language agnostic):
+  - [What is a Comment?](https://www.codecademy.com/resources/docs/general/what-is-a-comment)
+  - [What is an IDE?](https://www.codecademy.com/resources/docs/general/what-is-an-ide)
+  - [What is an Array?](https://www.codecademy.com/resources/docs/general/what-is-an-array)
  
-#### Entries with Tables
+Python (language specific):
+  - [Lists](https://www.codecademy.com/resources/docs/python/lists)
+  - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
+  - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
-Short lists of key information about a specific function, keyword, tag, or other grouping. Glossary entries will be grouped into _glossaries_, or tables of glossary entries on the same subject
-  - For a model example, check out [the .append() entry in the Python List Methods glossary](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods).
+Some of these entries, such as the [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
 
-### Relation between Entries  
+## 2. Term Entry
 
-As a general rule, any given topic should be described by multiple entries in the following structure:
-  - 1 language-agnostic encyclopedia entry defining concept X in a general way. Entitled "What is X?".
-    -  Example: [What Is a Comment?](https://github.com/Codecademy/docs/blob/main/content/language-agnostic/concepts/what-is-a-comment.md) 
-  - Multiple language-specific encyclopedia entries explaining the syntax and nuances of concept X for a given language. Entitled "X in \<Topic>".
-    - Example: [Comments in Python](https://github.com/Codecademy/docs/blob/main/content/python/concepts/comments-in-python.md) 
-  - Where applicable, 1 or more Glossaries describing the methods and keywords in a language that relate to concept X
-    - Example: The [List Methods glossary for Python](https://github.com/Codecademy/docs/tree/main/content/python/concepts/list-methods). (Note: This example is not related to the What is a Comment? and Comments in Python encyclopedia entries).  
+Term entries are entries that covers a function, a method, a property, etc.
 
-Notably, this structure means that you do not have to explain any language-agnostic concepts in an "X in \<Topic>" encyclopedia entry—the reader can read the "What is X" entry to learn that!
+Inside Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, there are a bunch of term entries in a terms table (scroll to the bottom):
 
-### Components of an Entry
+- [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
+- [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
+- [.copy()](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
 
-All Codepedia entries are Markdown files and should consist of three parts:
+## Components of an Entry
 
-- **The file name**
-- **The content**, written in Markdown.
-- **The metadata** about the content, written in YAML, which appears at the top of the entry.
+All Codecademy Docs entries are Markdown files and should consist of three parts:
+
+- The **file name**, with the **.md** extension.
+- The **content**, written in Markdown.
+- The **metadata** about the content, written in YAML, which appears at the top of the entry.
 
 We'll describe the standards for each of these components separately.
 
-### Standards for the File Name 
+## Standards: File Name 
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by ``.md``. So, to give an example, an encylopedia entry titled "How to Create a Codepedia Entry?" should have the file name ``how-to-create-a-codepedia-entry.md``. 
+The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**. 
 
-### Standards for the Content 
+To give an example, an entry titled "What is Three.js?" should have the file name **what-is-three-js.md**. 
+
+## Standards: Content 
 
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- Each subsection should begin with a heading of size H2 (i.e. preceded by `##`)
+- Each subsection should begin with a heading of size h2 (i.e. preceded by `##`)
 - All in-line code should be delineated by single backticks (`)
 
 #### Code Blocks
 
-Code examples are an excellent teaching  tool. Many glossary entry types will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
+
 All code blocks should be delineated by triple backticks (```)
+
+- C: ```c
 - C#: ```cs
 - C++: ```cpp
 - CSS: ```css
@@ -66,20 +72,29 @@ All code blocks should be delineated by triple backticks (```)
 - R: ```r
 - Ruby: ```rb
 - Sass: ```scss
-- Shell/Program Output: ```
+- Shell/Program Output: ```shell
 - SQL: ```sql
 
-#### Runnable Code Blocks
-Codecademy has a new feature we're calling _Codebytes_ that will allow learners to click a button to run code blocks themselves! The output to the console will appear right below the code block. Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
+#### Codebytes: Runnable Code Blocks
 
-The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. Here's an example for JavaScript:
+Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codebyte-editor) that will allow learners to click a button to run code blocks themselves! The output to the console will appear next to the code block. 
+
+Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time). 
+
+The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block. 
+
+Here's an example for JavaScript:
 
 ````
+## Codebyte Example
+
 ```codebyte/js
 console.log('Hello, World!');
 ```
 ````
+
 Currently, Codebytes is set to support the following languages:
+
 - Python
 - JavaScript
 - Ruby
@@ -88,16 +103,18 @@ Currently, Codebytes is set to support the following languages:
 - Go
 - PHP
 
-Note: Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a _Hello World!_ program set up as an example!
+**Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
-### Standards for the Metadata 
+## Standards: Metadata 
 
 | Variable Name   | Description | Example |
 |-----------------|-------------|---------|
-| Subjects        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/subjects.md). Please only use Subjects from that list, but if that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!<br /> - We aim to include an average of 1-2 Subjects (and always at least 1!) with every entry | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
-| Tags            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/codepedia-content/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3 - 4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
-| Catalog Content | URL(s) of Codecademy course and path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership<br /> - If including multiple URLs, please list the most relevant one first. | Catalog Content:<br /> - "https://www.codecademy.com/learn/introduction-to-javascript"<br /> - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path" |      
+| `Title` | The title of the entry. This will be displayed on the page at the top. | Title: "What is OOP?" |
+| `Subjects`        | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). Please only use Subjects from that list.<br /> - We aim to include an average of 1-2 subjects (and always at least 1!) with every entry. | Subjects:<br /> - "Computer Science"<br /> - "Game Development" |
+| `Tags`            | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3-4 tags with every entry. | Tags:<br /> - "React"<br />  - "URL"<br />    - "Strings"<br /> |
+| `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path). | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |      
 
+Terms entries also has a `Description` metadata variable for SEO purposes. For example, take a look at a [raw file here](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md).
 
 ### General Writing Tips:
 
@@ -109,10 +126,10 @@ Note: Codebytes sometimes requires the code block to include some boilerplate co
 
 ### File Hosting
 
-If you'd like to include an image, video, gif, or other file in your entry, please upload it to the [media-file-hosting folder](https://github.com/Codecademy/codepedia-content/tree/main/media-file-hosting). That way we'll never have any broken links!
+If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
 
 ### I've read all the content standards. Now what?
 
-Check out the [encyclopedia entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/encyclopedia-entry-template.md) and  [glossary entry template](https://github.com/Codecademy/codepedia-content/blob/main/documentation/glossary-entry-template.md) in this folder. Then put your name next to an entry in [the assignment sheet](https://docs.google.com/spreadsheets/d/1e31MNRVTo5VijcuPFjqWymw8_A1BbShGEW_LuCqXZZA/edit#gid=0) and submit your entry via a pull request! 
+Check out the [entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And start looking for concepts that are currently missing in Codecademy Docs.
 
-For a refresher on how to make a pull request, refer to the [*How do I contribute?*](https://github.com/Codecademy/codepedia-content#how-do-i-contribute) section of the README. 
+For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md). 🎒

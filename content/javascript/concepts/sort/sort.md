@@ -7,10 +7,9 @@ Tags:
   - "Arrays"
   - "Methods"
   
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. 
@@ -37,9 +36,9 @@ somearray.sort(compareFn)
 - `A` is the first array item being compared
 - `B` is the second array item being compared
 
-## The Default Sort Order
+## Default Sort Order
 
-If no comparison function is provided the `.sort()` method will sort the array in ascending string order. 
+If no comparison function are provided, the `.sort()` method will sort the array in ascending string order. 
 For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
 
 ```javascript
@@ -51,7 +50,7 @@ console.log(numbers);
 // Output: [10, 156, 16, 2, 33, 5, 9]  
 ```
 
-## The Comparison Function
+## Comparison Function
 
 The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array. 
 All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
@@ -62,7 +61,7 @@ For the function `CompareFn(A, B)`:
 - If the function returns a value greater than zero, sort `B` before `A`.
 - If the function returns a value less than zero, sort `A` before `B`.
 - If the function returns a value of zero, the positions of `A` and `B` remain unchanged.
-- The function must return the same result for any specific pair of values `A` & `B` provided. Otherwise the sort order is undefined.
+- The function must return the same result for any specific pair of values `A` & `B` provided. Otherwise, the sort order is undefined.
 
 To sort an array in numeric order rather than string order, the following function can be used as long as the array doesn't contain `Infinity` or `NaN`:
 

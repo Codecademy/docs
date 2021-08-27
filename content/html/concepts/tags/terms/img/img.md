@@ -1,16 +1,17 @@
 ---
 Title: "<img>"
+Description: "Used to add an image to the document. It can also be used inside an anchor tag to create an image link."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Used to add an image to the document. It can also be used inside an anchor tag to create an image link.
 

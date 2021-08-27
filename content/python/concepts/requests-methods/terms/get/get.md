@@ -1,5 +1,6 @@
 ---
 Title: "requests.get()"
+Description: "Makes a get request to a web server; it returns a response object."
 Subjects:
   - "Data Science"
 Tags: 
@@ -8,12 +9,12 @@ Tags:
   - "HTTP"
   - "Queries"
   - "Requests"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Method for making a "get" request to a web server; it returns a response object. 
 

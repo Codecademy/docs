@@ -1,16 +1,17 @@
 ---
 Title: ".finally()"
+Description: "Returns a new Promise object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a new `Promise` object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.
 

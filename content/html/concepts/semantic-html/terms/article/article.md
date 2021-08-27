@@ -1,17 +1,16 @@
 ---
 Title: "<article>"
+Description: "Represents a part of a page which is self-contained and could be published elsewhere. Common uses include blog posts or magazine articles."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Semantic"
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
-
-## Definition 
 
 The `<article>` semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles.
 

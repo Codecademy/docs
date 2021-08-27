@@ -1,5 +1,6 @@
 ---
 Title: "SELECT"
+Description: "Fetchs data from a database. Every query will begin with SELECT."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -9,13 +10,13 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
-## Definition
+
 
 Fetchs data from a database. Every query will begin with `SELECT`.
 

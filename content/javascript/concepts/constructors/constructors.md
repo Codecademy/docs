@@ -8,9 +8,9 @@ Tags:
   - "Objects"
   - "OOP"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 A constructor is a function that does initialization of an object when the object is created. 
 Arguments are passed to the constructor function when you use the `new` keyword. There are two types of constructors, 

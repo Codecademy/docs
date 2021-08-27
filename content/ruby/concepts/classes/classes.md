@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Classes"
   - "Objects"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Classes are like blueprints for creating objects. Objects are often called instances of a class. Classes define the properties and methods that objects created from them will have. For example, a ball is a class and baseball, football, and basketball are instances of the ball class.

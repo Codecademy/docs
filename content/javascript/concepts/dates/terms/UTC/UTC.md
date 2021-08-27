@@ -1,19 +1,19 @@
 ---
 Title: ".UTC()"
+Description: "Returns a number value representing the number of milliseconds between the specified date and January 1, 1970, 00:00:00, Universal Time Coordinated. Will always be called as Date.UTC() rather than called on an instance of date such as myDate.UTC()."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
 
-A static method of `Date` that returns a number value representing the number of milliseconds between the specified date and January 1, 1970, 00:00:00, Universal Time Coordinated. Will always be called as `Date.UTC()` rather than called on an instance of date such as `myDate.UTC()`.
+The `.UTC()` static method of `Date` that returns a number value representing the number of milliseconds between the specified date and January 1, 1970, 00:00:00, Universal Time Coordinated. Will always be called as `Date.UTC()` rather than called on an instance of date such as `myDate.UTC()`.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ A static method of `Date` that returns a number value representing the number of
 Date.UTC(year, month, day, hour, minute, second, millisecond);
 ```
 
-- `year` (required): The year in four digit format. If only two digits are specified, the year is assumed to be in twentieth century.
+- `year` (required): The year in four-digit format. If only two digits are specified, the year is assumed to be in twentieth century.
 - `month` (optional): The range is from `0` to `11`.
 - `day` (optional): The range is from `1` to `31`.
 - `hour` (optional): The range is from `0` to `23`.

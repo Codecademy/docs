@@ -1,17 +1,18 @@
 ---
 Title: "math.cos()"
+Description: "Returns the cosine of the angle."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the cosine of the angle.
 

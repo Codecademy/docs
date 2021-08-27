@@ -1,17 +1,18 @@
 ---
 Title: ".split()"
+Description: "Breaks the string on which it called into an array of substrings, and returns the new array. "
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Breaks the string on which it called into an array of substrings, and returns the new array. 
 

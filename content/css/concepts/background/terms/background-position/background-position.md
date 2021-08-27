@@ -1,18 +1,19 @@
 ---
 Title: "background-position"
+Description: "Defines the positions of one or more background images relative to the background-origin position. This is the point from which any background repetition will occur."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Background"
   - "Positioning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Defines the positions of one or more background images relative to the `background-origin` position. This is the point from which any background repetition will occur.
 

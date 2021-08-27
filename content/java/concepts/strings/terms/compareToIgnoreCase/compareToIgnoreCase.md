@@ -1,18 +1,21 @@
 ---
-Title: "compareToIgnoreCase()"
+Title: ".compareToIgnoreCase()"
+Description: "Compares two strings lexicographically based on the Unicode value of each character in the string while ignoring lower case and upper case differences."
 Subjects:
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
 
-Compares two strings lexicographically based on the Unicode value of each character in the string while ignoring lower case and upper case differences. A value of `0` will be returned if equal to comparison, less that `0` if the string is lexicographically less, and greater than `0` if the string is lexicographically greater.
+
+Compares two strings lexicographically based on the Unicode value of each character in the string while ignoring lower case and upper case differences. 
+
+A value of `0` will be returned if equal to comparison, less than `0` if the string is lexicographically less, and greater than `0` if the string is lexicographically greater.
 
 ## Syntax
 

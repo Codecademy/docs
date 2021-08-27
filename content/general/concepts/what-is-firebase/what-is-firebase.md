@@ -7,12 +7,12 @@ Tags:
   - "Firebase"
   - "APIs"
   - "Developer Tools"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
-Firebase is a cloud computing and app development platform hosted by Google.
+[Firebase](https://firebase.google.com/) is a cloud computing and app development platform hosted by Google.
 
 It was founded in 2011 as Envovle, a startup which developed APIs for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include:
 

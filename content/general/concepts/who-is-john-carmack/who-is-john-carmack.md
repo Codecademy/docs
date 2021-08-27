@@ -7,9 +7,9 @@ Tags:
   - "Graphics"
   - "VR"
   - "Algorithms"
-Catalog Content:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 John Carmack is an American video game developer, and the lead programmer of *Commander Keen*, *Wolfenstein 3D*, *Doom*, and *Quake*.

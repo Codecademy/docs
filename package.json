@@ -19,5 +19,6 @@
     "lint": "eslint \"./**.ts\" --max-warnings 0",
     "test": "jest"
   },
+  "license": "UNLICENSED",
   "version": "1.0.0"
 }

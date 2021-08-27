@@ -7,10 +7,10 @@ Tags:
   - "Classes"
   - "Objects"
   - "OOP"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-php"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-php"
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 A class is a definition of the properties and methods of a particular type of object.
 When a class is used to define a new object, the resultant object is referred to as an instance of that class.

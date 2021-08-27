@@ -1,17 +1,18 @@
 ---
 Title: "min()"
+Description: "Sets the smallest value from a list of one or more comma-separated expressions as the value for a CSS property. "
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Responsive"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Sets the smallest value from a list of one or more comma-separated expressions as the value for a CSS property. 
 

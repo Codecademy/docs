@@ -1,16 +1,17 @@
 ---
 Title: "ceil()"
+Description: "Returns the next whole number that is greater than or equal to the argument."
 Subjects:
   - "Computer Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the next whole number that is greater than or equal to the argument.
 

@@ -5,9 +5,9 @@ Subjects:
   - "Code Foundations"
 Tags:
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/catalog/subject/computer-science"
-  - "https://www.codecademy.com/catalog/subject/code-foundations"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 Ada Lovelace was an English writer and mathematician and is often considered to be the first computer programmer.

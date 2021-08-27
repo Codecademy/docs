@@ -1,16 +1,17 @@
 ---
 Title: "Math.atan()"
+Description: "Returns the inverse tangent of the argument in radians."
 Subjects:
   - "Computer Science"
 Tags:
   - "Methods"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the inverse tangent of the argument in radians.
 

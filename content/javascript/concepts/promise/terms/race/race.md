@@ -1,16 +1,17 @@
 ---
 Title: ".race()"
+Description: "Returns the first Promise in an iterableObject that is either resolved or rejected."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns the first Promise in an `iterableObject` that is either resolved or rejected.
 

@@ -8,10 +8,9 @@ Tags:
   - "Classes"
   - "Objects"
   - "OOP"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Classes are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data.

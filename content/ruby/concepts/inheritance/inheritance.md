@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Classes"
   - "Inheritance"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, inheritance describes the relation between classes. 
@@ -44,7 +44,7 @@ The `Dog` class inherits all the methods from its parent `Animal` class, includi
 
 ## Overriding Methods
 
-A inheriting child class can override methods defined in its parent and replace with code specific to it: 
+An inheriting child class can override methods defined in its parent and replace with code specific to it: 
 
 ```rb
 class Animal 

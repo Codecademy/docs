@@ -1,16 +1,17 @@
 ---
 Title: "cosh()"
+Description: "Returns the hyperbolic cosine of an argument given in radians."
 Subjects:
   - "Computer Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the hyperbolic cosine of an argument given in radians.
 

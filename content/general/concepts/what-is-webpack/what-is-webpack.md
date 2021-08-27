@@ -7,9 +7,9 @@ Tags:
   - "JavaScript"
   - "Node"
   - "Best Practices"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 Webpack is a module bundler for JavaScript, HTML, and CSS. Webpack can be run on Linux, macOS, Windows operating systems.

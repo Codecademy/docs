@@ -5,11 +5,16 @@ Subjects:
   - "Game Development"
 Tags: 
   - "Conditionals"
+  - "Control Flow"
   - "Switch"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
+
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
+
+As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust.
 
 ## If Statement
 
@@ -52,6 +57,23 @@ else if (apple > 6) {
 }
 else {
   // Some code here
+}
+```
+
+## Codebyte Example
+
+```codebyte/cpp
+#include <iostream>
+
+int main() {
+  double pH = 6.5;
+
+  if (pH < 7.0)
+    std::cout << "Acidic" << "\n";
+  else if (pH > 7.0)
+    std::cout << "Basic" << "\n";
+  else
+    std::cout << "Neutral" << "\n";
 }
 ```
 

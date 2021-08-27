@@ -1,16 +1,17 @@
 ---
 Title: ".substring()"
+Description: "Returns a part of a string from a given starting index or between start and end index. Index starts at zero."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Return a part of a string from a given starting index or between start and end index. Index starts at zero.
 

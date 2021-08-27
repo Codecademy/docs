@@ -6,13 +6,12 @@ Subjects:
 Tags: 
   - "Vectors"
   - "Arrays"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A vector is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.
-
 
 ## Different Ways to Create a Vector
 
@@ -28,13 +27,13 @@ During the creation of a C++ vector, the data type of its elements must be speci
 std::vector<type> name;
 ```
 
-### Create a vector with a size
+### Create a Vector with Size
 
 ```cpp
 std::vector<int> grades(10);
 ```
 
-### Create and intitialize a vector
+### Create and Intitialize a Vector
 
 ```cpp
 std::vector<double> order = {3.99, 12.99, 2.49};
@@ -56,7 +55,7 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
-## Example
+## Codebyte Example
 
 To create a vector named `grade` with 3 items:
 
@@ -65,16 +64,14 @@ To create a vector named `grade` with 3 items:
 #include <vector>
  
 int main() {
-  
   std::vector<int> grades(3);
   
   grades[0] = 90;
   grades[1] = 86;
   grades[2] = 98;
   
-  std::cout << grades[0] << "\n";
-  std::cout << grades[1] << "\n";
-  std::cout << grades[2] << "\n";
-
+  std::cout << grades[0] << ", ";
+  std::cout << grades[1] << ", ";
+  std::cout << grades[2];
 }
 ```

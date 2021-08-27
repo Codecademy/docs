@@ -1,16 +1,17 @@
 ---
 Title: "<br>"
+Description: "Represents a break in text. This tag is used when text needs to span multiple lines rather than being in-line, such as an address. "
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Represents a break in text. This tag is used when text needs to span multiple lines rather than being in-line, such as an address. 
 

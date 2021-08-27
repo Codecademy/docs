@@ -8,12 +8,12 @@ Tags:
   - "Memory"
   - "Algorithms"
   - "Queries"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
-A _cache_ is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. 
+A cache is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data. 
 
 If the data requested is found we call this a "cache hit" and return the requested data, if the data is not found it is deemed a "cache miss". Cache misses trigger a process for getting the correct data called a "replacement policy". 
 
@@ -36,3 +36,5 @@ The size of the cache can be calculated as the number of bytes stored in each da
   * CDN: Caching in the browser via Content Delivery Network (CDN) retains copies of web content at various points throughout a network and serves them to clients from the closest network location.
 
   * Memoization: Memoization is an optimization technique used to speed up applications by storing the results of function calls and returning the cached result when the same inputs occur again.
+
+That's all for now. Cache me outside, how about that!

@@ -1,17 +1,16 @@
 ---
 Title: "<footer>"
+Description: "Represents a part of a page which is meant to be at the end of a completed block of content. Common uses include copyright information for the page or additional links to relevant pages."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Semantic"
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
-
-## Definition 
 
 The `<footer>` semantic tag represents a part of a page which is meant to be at the end of a completed block of content. If it is at the end of an entire page it might include copyright information for the page or additional links to relevant pages, and if it is at the end of an article it might include information about the author.
 
@@ -29,7 +28,7 @@ The `<footer>` semantic tag represents a part of a page which is meant to be at 
 
 ### Website Footer
 
-After the main content is shown to the users of Bongo Ltd., they should see navigation links to the pages that aren't featured in the header as well as copyright information for the current page.
+After the main content is shown to the users of Bongo Ltd., they should see navigation links to the pages that are not featured in the header as well as copyright information for the current page.
 
 ```html
 <main>

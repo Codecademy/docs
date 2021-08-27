@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Data Types"
   - "Arrays"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Arrays store data values in a list. An array can contain any data type. Values are comma separated and enclosed in square brackets. Elements in the array start at an index of 0.

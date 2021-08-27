@@ -1,18 +1,17 @@
 ---
 Title: ".allSettled()"
+Description: "Returns a new Promise object that resolves to an array after all Promises in iterableObject have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in iterableObject."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
-
-Returns a new Promise object that resolves to an array _after_ all Promises in `iterableObject` have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in `iterableObject`.
+The `.allSettled()` method returns a new Promise object that resolves to an array _after_ all Promises in `iterableObject` have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in `iterableObject`.
 
 ## Syntax
 
@@ -22,7 +21,7 @@ Promise.allSettled(iterableObject);
 
 The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
-## Example #1
+## Example 1
 
 With an empty array
 
@@ -32,9 +31,9 @@ Promise.allSettled([]).then((values) => {
 });
 ```
 
-## Example #2
+## Example 2
 
-With an array of Promises
+With an array of Promises:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {
@@ -78,18 +77,19 @@ Promise.allSettled(promises)
   .finally(() => {
     console.log("Operations for Promise.allSettled() have finished.");
   });
+```
 
-/*
-  Output:
-  { status: 'fulfilled', value: 23 }
-  {
-    status: 'rejected',
-    reason: {
-      errorType: 'Network Error',
-      message: 'Bad Connection. Check network settings on all devices.'
-    }
+The output would be:
+
+```shell
+{ status: 'fulfilled', value: 23 }
+{
+  status: 'rejected',
+  reason: {
+    errorType: 'Network Error',
+    message: 'Bad Connection. Check network settings on all devices.'
   }
-  { status: 'fulfilled', value: 'Success! promiseC is resolved!' }
-  Operations for Promise.allSettled() have finished.
-  */
+}
+{ status: 'fulfilled', value: 'Success! promiseC is resolved!' }
+Operations for Promise.allSettled() have finished.
 ```

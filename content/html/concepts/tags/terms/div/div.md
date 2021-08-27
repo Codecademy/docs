@@ -1,18 +1,19 @@
 ---
 Title: "<div>"
+Description: "The <div> tag represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
-The `<div>` tag represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.
+Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.
 
 ## Syntax
 

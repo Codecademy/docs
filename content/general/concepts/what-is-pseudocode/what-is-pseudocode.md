@@ -7,9 +7,9 @@ Tags:
   - "Conceptual"
   - "Documentation"
   - "Development"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/learn-how-to-code"
+CatalogContent: 
+  - "paths/code-foundations"
+  - "learn-how-to-code"
 ---
 
 Pseudocode is a method of describing the steps in an algorithm or other computed process written in plain language. It does not rely on any particular implementation of a programming language, and instead is intended for a human audience. It omits the portions required for machine implementation of the algorithm, such as variable declarations, and includes natural language description details.

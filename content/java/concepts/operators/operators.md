@@ -4,9 +4,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Operators"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 ## Arithmetic Operators

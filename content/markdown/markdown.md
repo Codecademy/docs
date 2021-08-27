@@ -3,10 +3,11 @@
 
 Title: "Markdown" # This is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
 Codecademy Hub Page: "https://www.codecademy.com/catalog/language/bash" # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
+CatalogContent:
+  - "learn-html"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-[Markdown](https://www.markdownguide.org/) is a lightweight markup language for creating formatted text using a plain-text editor. It was created by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) and [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) in 2004 as a markup language that is appealing to human readers in its source code form.
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber and Aaron Swartz in 2004 as a language that is appealing to human readers in its source code form.
 
-You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown.
-
-Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
+With Markdown, you control the display of the document; formatting words as bold or italic, adding images and links, and creating lists and tables are just a few of the functionalities.

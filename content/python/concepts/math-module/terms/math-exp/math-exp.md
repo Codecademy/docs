@@ -1,19 +1,18 @@
 ---
 Title: "math.exp()"
+Description: "Returns e raised to the power of x."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
-## Definition
-
-Returns E raised to the power of x.
+The `math.exp()` method returns _e_ raised to the power of a number.
 
 ## Syntax
 
@@ -21,11 +20,11 @@ Returns E raised to the power of x.
 math.exp(x)
 ```
 
-E is approximately 2.718282.
+_e_ is approximately 2.718282.
 
 ## Example 1
 
-Use `math.exp()` to return E raised to the power of `5`:
+Use `math.exp()` to return _e_ raised to the power of `5`:
 
 ```python
 import math
@@ -37,7 +36,7 @@ print(math.exp(5))
 
 ## Example 2
 
-Use `math.exp()` to return E raised to the power of `3`:
+Use `math.exp()` to return _e_ raised to the power of `3`:
 
 ```python
 import math
@@ -45,4 +44,12 @@ import math
 print(math.exp(3))
 
 # Output: 20.085536923187668
+```
+
+## Codebyte Example
+
+```codebyte/py
+import math
+
+print(math.exp(10))
 ```

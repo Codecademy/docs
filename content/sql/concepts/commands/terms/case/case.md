@@ -1,5 +1,6 @@
 ---
 Title: "CASE"
+Description: "A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause."
 Subjects:
   - "Data Science"
 Tags:
@@ -9,13 +10,13 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause.
 

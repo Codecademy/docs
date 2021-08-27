@@ -5,9 +5,9 @@ Subjects:
   - "Web Design"
 Tags:
   - "Loops"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Loops are used to repeat a task a number of times. A loop runs a set of instructions or functions a given amount of times as long as a condition is met. The most common loop in Ruby is the `for` loop. Other loops are `while`, `until`, and `do...while`.

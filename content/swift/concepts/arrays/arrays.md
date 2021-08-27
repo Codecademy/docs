@@ -6,16 +6,18 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Data Structures"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
-Arrays in Swift are one of the most widely used data structures. An array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a `String` in an `int` array.
+Arrays are ordered collections of values. In other words, an array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a `String` in an `int` array.
+
+The same value can be stored in an array multiple times in different locations.
 
 ## Creating Arrays
 
-Arrays can be created several different ways, each with a specific use case.
+Arrays can be created several ways, each with a specific use case.
 
 An empty array can be declared and initalized with the following syntax:
 
@@ -126,7 +128,7 @@ for name in topBabyNames {
 // Olivia is the coolest name.
 ```
 
-A second technique is to call the `forEach()` method. This method will operate on all elements of the array and cannot by escaped using a `break` or `continue` call, evening returning a value in the body of the closure will only return that value out of the body and not the declaring method body. The `forEach()` method is commonly used when you want to ensure all elements are manipulated by the loop or to display the purpose of the loop to others reading your code.
+A second technique is to call the `forEach()` method. This method will operate on all elements of the array and cannot be escaped using a `break` or `continue` call, evening returning a value in the body of the closure will only return that value out of the body and not the declaring method body. The `forEach()` method is commonly used when you want to ensure all elements are manipulated by the loop or to display the purpose of the loop to others reading your code.
 
 ```swift
 topBabyNames.forEach { name in
@@ -134,7 +136,6 @@ topBabyNames.forEach { name in
 }
 // Same as above
 ```
-
 
 ## Useful Array Methods and Tests
 

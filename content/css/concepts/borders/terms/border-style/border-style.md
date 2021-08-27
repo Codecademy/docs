@@ -1,18 +1,19 @@
 ---
 Title: "border-style"
+Description: "Sets the style of the border. The default value is none."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Borders"
   - "Box Model"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 Sets the style of the border. The default value is `none`.
 
 ## Syntax

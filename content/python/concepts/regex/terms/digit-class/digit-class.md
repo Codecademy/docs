@@ -1,19 +1,20 @@
 ---
 Title: "\\d"
+Description: "Represents a character class that includes all digits (0-9). The inverse of this class is designated with a capital, &bsop;D, and will match any character that is not a digit."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Strings"
   - "Regular Expressions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-regular-expressions"
-  - "https://www.codecademy.com/learn/practical-data-cleaning"
-  - "https://www.codecademy.com/learn/language-parsing"
-  - "https://www.codecademy.com/learn/text-preprocessing"
+CatalogContent:
+  - "introduction-to-regular-expressions"
+  - "practical-data-cleaning"
+  - "language-parsing"
+  - "text-preprocessing"
 ---
 
-## Definition
+
 
 Represents a character class that includes all digits (0-9).  The inverse of this class is designated with a capital,  `\D`, and will match any character that is not a digit.
 

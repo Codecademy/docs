@@ -1,18 +1,19 @@
 ---
 Title: "top"
+Description: "Specifies the distance of an element from the top of its current location if the element has position: relative declared or from the top of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Box Model"
   - "Positioning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Specifies the distance of an element from the top of its current location if the element has `position: relative` declared or from the top of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
 

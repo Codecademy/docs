@@ -1,18 +1,19 @@
 ---
 Title: "random.randrange()"
+Description: "Generates random numbers from a defined range of int values."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Random"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Generates random numbers from a defined range of `int` values.
 

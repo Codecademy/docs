@@ -1,18 +1,17 @@
 ---
 Title: ".all()"
+Description: "Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an Array, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
-
-Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
+The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
 
 ## Syntax
 
@@ -56,7 +55,7 @@ Promise.all([promiseA, promiseB])
 
 The output would be:
 
-```output
+```plaintext
 Results from Promise.all(): [144,42]
 Operations for Promise.all() have finished.
 ```

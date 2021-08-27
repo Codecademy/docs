@@ -1,16 +1,17 @@
 ---
 Title: ".resolve()"
+Description: "Returns a new Promise object that turns into the value that was passed to the method."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a new `Promise` object that turns into the value that was passed to the method.
 

@@ -1,17 +1,18 @@
 ---
 Title: ".replace()"
+Description: "Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.
 

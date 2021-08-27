@@ -8,10 +8,10 @@ Tags:
   - "Memory"
   - "Algorithms"
   - "Queries"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Content Delivery Network (CDN) is a method of implementing a cache in the browser which retains copies of web content at various points throughout a network and serves them to clients from the closest network location. This is done by geographically distributed group of servers which work together to provide fast delivery of Internet content.

@@ -8,11 +8,11 @@ Tags:
   - "Strings"
   - "Data Types"
   - "Characters"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:  
+  - "learn-python-3"
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as:

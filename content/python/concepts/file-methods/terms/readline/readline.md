@@ -1,5 +1,6 @@
 ---
 Title: ".readline()"
+Description: "Returns the first line of content from an open file."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -8,13 +9,13 @@ Tags:
   - "Methods"
   - "Functions"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns the first line of content from an open file.
 

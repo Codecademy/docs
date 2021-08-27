@@ -8,9 +8,9 @@ Tags:
   - "Classes"
   - "Hashes"
   - "Sets"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, a `Set` is a collection of uordered, non-duplicated values. They are functional like an `Array` but have quick lookup with `Hash`-storage. 
