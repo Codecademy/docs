@@ -5,9 +5,9 @@ Subjects:
 Tags:
   - "Components"
   - "React"
-Catalog Content:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, components make up the UI of the application. Components are pieces of code that are reuseable and independent. Each component comes with 1 or 2 of the following things:

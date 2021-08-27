@@ -1,28 +1,26 @@
 ---
 Title: ".concat()"
+Description: "Concatenates or combines strings together."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
 
-Concatenate or combine strings together.
+
+Concatenates or combines strings together.
 
 ## Syntax
-
 
 ```js
 string.concat(string_1, string_2, string_3)
 ```
-
-
 
 ## Example 1
 

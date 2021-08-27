@@ -1,16 +1,17 @@
 ---
 Title: "Math.atan2()"
+Description: "Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis."
 Subjects:
   - "Computer Science"
 Tags:
   - "Methods"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.
 

@@ -1,16 +1,17 @@
 ---
 Title: "<li>"
+Description: "Represents a single item in a list of items. It and the other list items must be wrapped in an <ol>, <ul>, or <menu> tag."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Represents a single item in a list of items. It and the other list items must be wrapped in an `<ol>`, `<ul>`, or `<menu>` tag.
 

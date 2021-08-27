@@ -8,9 +8,9 @@ Tags:
   - "Arguments"
   - "Parameters"
   - "Return"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function.
@@ -26,9 +26,8 @@ Here we are getting a function named `sqrt()` from the `<cmath>` library:
 #include <cmath>
  
 int main() {
-  
   std::cout << sqrt(10);
-  
+  // Output: 3.16228
 }
 ```
 

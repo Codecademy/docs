@@ -7,10 +7,12 @@ Tags:
   - "Loops"
   - "While"
   - "For"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
+
+A loop can execute a statement or group of statements multiple times and the following is the general from of a loop statement in most programming languages.
 
 ## While Loop
 

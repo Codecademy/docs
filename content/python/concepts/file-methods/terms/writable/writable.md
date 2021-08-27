@@ -1,5 +1,6 @@
 ---
 Title: ".writable()"
+Description: "Allows the user to check if a file is writable or not. The function will return True if the file is writable and accessed in append or write mode, and False if it was accessed in read mode."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -8,13 +9,13 @@ Tags:
   - "Methods"
   - "Functions"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to check if a file is writable or not. The function will return `True` if the file is writable and accessed in append or write mode, and `False` if it was accessed in read mode.
 

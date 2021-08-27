@@ -1,16 +1,17 @@
 ---
 Title: "<script>"
+Description: "Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source.
 

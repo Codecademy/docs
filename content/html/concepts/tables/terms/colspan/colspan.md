@@ -1,5 +1,6 @@
 ---
 Title: "colspan"
+Description: "Specifies the number of columns a cell should span."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,15 +8,14 @@ Tags:
   - "Tables"
   - "Elements"
   - "Web Development"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+[Table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png
 
-Defines the number of columns a cell should span. 
+The `colspan` attributed defines the number of columns a cell should span. 
 
 ## Syntax
 
@@ -66,4 +66,4 @@ A table with a cell that spans two columns.
 </table>
 ```
 
-![Table with a cell that spans two columns](https://raw.githubusercontent.com/Codecademy/docs/main/media-file-hosting/html-colspan.png)
+![Table with a cell that spans two columns]

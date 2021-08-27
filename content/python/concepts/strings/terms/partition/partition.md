@@ -1,5 +1,6 @@
 ---
 Title: ".partition()"
+Description: "Searches a string for a given keyword and splits that string into a three part tuple."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,11 +9,11 @@ Tags:
   - "Methods"
   - "Functions"
   - "Tuples"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
-## Definition 
+ 
 
 Searches a string for a given keyword and splits that string into a three part tuple.
 

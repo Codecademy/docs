@@ -1,17 +1,18 @@
 ---
 Title: ".now()"
+Description: "Returns the current time in milliseconds. The milliseconds count begins at 1970/01/01 at 00:00:00 UTC."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns the current time in milliseconds. The milliseconds count begins at 1970/01/01 at 00:00:00 UTC.
 

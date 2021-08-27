@@ -1,32 +1,47 @@
 ---
 Title: "exp()"
+Description: "Returns e raised to the power of the argument."
 Subjects:
   - "Computer Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
-## Definition
 
-Returns the base-e exponential function of the argument, which is e raised to the power of the argument.
+
+`exp()` returns the base-_e_ exponential function of the argument, which is _e_ raised to the power of the argument.
+
+The number _e_, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
+
+The `cmath` library must be added to the top of the file with `#include <cmath>`.
 
 ## Syntax
 
-Returns eⁿ:
+Returns *e*ⁿ:
 
 ```cpp
 std::exp(n)
 ```
 
-## Example 1
+## Example 
 
-Use `exp()` to return the value of e (e¹):
+Use `exp()` to return the value of *e*³):
 
 ```cpp
+double result;
+
+result = std::exp(3);
+```
+
+## Codebyte Example
+
+Use `exp()` to return the value of *e* (*e*¹):
+
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 

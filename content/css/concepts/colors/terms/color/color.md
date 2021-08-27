@@ -1,18 +1,19 @@
 ---
 Title: "color"
+Description: "To set color property values for an element."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Style"
   - "Colors"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 To set color property values for an element.
 

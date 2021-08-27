@@ -8,9 +8,9 @@ Tags:
   - "Booleans"
   - "Integers"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. 
@@ -48,7 +48,7 @@ let verySmallInteger: Int8 = 16
 
 ## Floating Point Numbers
 
-A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approaximately half a much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. In fact, when you declare a variable without specifying the type, Swift will type inference a `Double` as a precaution.
+A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approaximately half as much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. In fact, when you declare a variable without specifying the type, Swift will type inference a `Double` as a precaution.
 
 ```swift
 let accountBalance: Float = 857.45
@@ -61,7 +61,7 @@ let gpa = 3.7 // inferred as a Double
 `String`s are a collection of `Character`s and `Character`s are the individual symbols that make up our languages. In Swift, the `String` type can be either mutable or immutable, as determined by the type of variable you store it in, either a `var` or a `let` for a constant. Both `String` and `Character` are typically declared inside a set of double quotation marks, while multi-line `String`s are declared with a set of triple quotations opening and closing the text.
 
 <!--
-Swift Markdown does not support multi-line strings in just generic Chrome, I'm not sure why. It looks fine in Author, so I'm not sure what formatting the SWE have used on the Codecademy site but hopefully it is also applied to the Codepedia site or else this won't work as intended. There are some languages that Markdown supports like this, we'll have to play with it when it begins to get published.
+Swift Markdown does not support multi-line strings in just generic Chrome, I'm not sure why. It looks fine in Author, so I'm not sure what formatting the SWE have used on the Codecademy site but hopefully it is also applied to the Docs site or else this won't work as intended. There are some languages that Markdown supports like this, we'll have to play with it when it begins to get published.
 -->
 
 ```swift

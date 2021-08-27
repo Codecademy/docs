@@ -1,31 +1,45 @@
 ---
 Title: "fdim()"
+Description: "Returns the positive difference between two arguments."
 Subjects:
   - "Computer Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the positive difference between two arguments. 
-If the first argument is greater than the second argument `fdim()` returns the first argument minus the second argument, otherwise it returns zero.
 
 ## Syntax
 
+`cmath` library must be added at the top of the file.
+
 ```cpp
-std:fdim(n)
+std:fdim(x, y)
 ```
 
-## Example 1
+If the first argument is greater than the second argument `fdim()` returns the first argument minus the second argument, otherwise it returns zero.
+
+## Example
+
+```cpp
+double result1;
+double result2;
+
+result1 = std::fdim(6, 2); // 4
+result2 = std::fdim(4, 8); // 0
+```
+
+## Codebyte Example
 
 Use `fdim()` to return the positive difference between `8` and `5`:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath> 
 
@@ -38,14 +52,7 @@ int main () {
   result1 = std::fdim(x, y);
   result2 = std::fdim(y, x);
 
-  std::cout << "fdim(" << x << "," << y << ") = " << result1 << "\n";
-  std::cout << "fdim(" << y << "," << x << ") = " << result2 << "\n";
+  std::cout << result1 << "\n";
+  std::cout << result2 << "\n";
 }
-```
-
-The output is:
-
-```
-fdim(8,5) = 3
-fdim(5,8) = 0
 ```

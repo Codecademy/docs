@@ -1,5 +1,6 @@
 ---
 Title: .count()
+Description: "Takes in a list of values of any data type, and returns the number of times(count) a particular value is present within the list."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -7,12 +8,12 @@ Tags:
   - "Strings"
   - "Methods"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition
+
 
 Takes in a list of values of any data type, and returns the number of times(count) a particular value is present within the list.
 

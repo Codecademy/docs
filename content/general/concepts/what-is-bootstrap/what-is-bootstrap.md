@@ -15,14 +15,14 @@ Tags:
   - "Grid"
   - "Responsive"
   - "Style"
-Catalog Content:
-  -  "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  -  "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
-Bootstrap is an open source CSS framework created to help style web pages with mobile first considerations in mind. It was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. 
+[Bootstrap](https://getbootstrap.com/) is an open source CSS framework created to help style web pages with mobile first considerations in mind. It was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. 
 
-Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthetic improvements to the Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Since it's creation, Bootstrap has become one of the most commonly used tools on web pages today. 
+Bootstrap contains CSS, JavaScript, and HTML and utilizes them to provide aesthetic improvements to the Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Since it's creation, Bootstrap has become one of the most commonly used tools on web pages today. 
 
 ## Example of a Bootstrap Styled Button vs a Normal One
 
@@ -43,8 +43,22 @@ Bootstrap contains CSS, JavaScript and HTML and utilizes them to provide aesthet
       <p>The .btn-success class indicates a successful or positive action:</p>  
       
       <button type="button" class="btn btn-success">Bootstrap Styled Button</button>
-      <button type="button" >Normal Button</button>
+      <button type="button">Normal Button</button>
     </div>
   </body>
 </html>
 ```
+
+## Installation
+
+Install Bootstrap’s source Sass and JavaScript files via npm:
+
+```js
+npm install bootstrap
+```
+
+## Themes
+
+As its popularity grew, people started creating templates based on Bootstrap in order to accelerate the web development process even further. There are many websites out there dedicated to sharing and buying custom templates based on Bootstrap. 
+
+Here are the official themes built by or reviewed by Bootstrap's creators: https://themes.getbootstrap.com

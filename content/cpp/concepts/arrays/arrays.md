@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Arrays"
   - "Vectors"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.
@@ -19,7 +19,7 @@ Being able to store multiple pieces of related information in the same structure
 
 When creating an array, you have to keep two pieces of information in mind:
 
-- The type of data you want to store inside of it.
+- The type of data you want to store inside it.
 - How many items you want it to be able to hold (its size).
 
 We can create an array a lot like we create normal variables, by specifying the data type, giving it a descriptive name, and also specifying its size:
@@ -53,6 +53,6 @@ vowels[0] = 'r';
 std::cout << vowels[0]; // Output: r
 ```
 
-In the case above we initialized an array of chars with all of the vowels, and then printed out the first element in the array at index 0. We then modified the element at index 0 by assigning it a new value of `'r'`, which got printed out below.
+In the case above, we initialized an array of chars with all the vowels, and then printed out the first element in the array at index 0. We then modified the element at index 0 by assigning it a new value of `'r'`, which got printed out below.
 
 Arrays in C++ have a set size, meaning you can’t add or remove elements once the array has been created. You may only modify existing elements without changing the total size or shape of the structure.

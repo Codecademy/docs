@@ -1,0 +1,20 @@
+---
+Title: "Math Methods"
+Subjects:
+  - "Computer Science"
+Tags: 
+  - "Arithmetic"
+  - "Methods"
+  - "For"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
+---
+
+The Java `Math` class provides several methods that allows us to work on math calculations with numbers.
+
+```java
+Math.method();
+```
+
+Here are the `Math` methods in alphabetical order:

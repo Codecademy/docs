@@ -1,17 +1,18 @@
 ---
 Title: ".getDay()"
+Description: "Called from an instance of the Date class, will return the day of the week."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Called from an instance of the `Date` class, will return the day of the week.
 

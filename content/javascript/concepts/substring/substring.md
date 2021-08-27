@@ -7,9 +7,9 @@ Tags:
   - "Strings"
   - "Methods "
   - "Data Types "
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `.substring()` method returns part of a string. If given two arguments, they are the start and end indexes of the characters returned. If given one argument, it returns characters from that point to the end of the string.
@@ -47,14 +47,14 @@ Using `.substring()` to display characters from a given string.
 ```javascript
 const str = 'Codecademy'
 
-console.log(str.substring(0,4);
-console.log(str.substring(4,0);
-console.log(str.substring(-4,4);
+console.log(str.substring(0, 4));
+console.log(str.substring(4, 0));
+console.log(str.substring(-4, 4));
 // Output: "Code"
 
-console.log(str.substring(4);
-console.log(str.substring(4, 99);
-// Output: "cademy"
+console.log(str.substring(4));
+console.log(str.substring(4, 99));
+// Output: cademy
 ```
 
 ## Example 2
@@ -64,6 +64,6 @@ Using `.substring()` to display the last `6` characters from a given string.
 ```javascript
 const str = 'Codecademy'
 
-console.log(str.substring(str.length - 6);
-// Output: "cademy"
+console.log(str.substring(str.length - 6));
+// Output: cademy
 ```

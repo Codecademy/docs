@@ -1,17 +1,18 @@
 ---
 Title: ".indexOf()"
+Description: "Searches a string for a given value and returns the first index if found. Returns -1 if not found."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Searches a string for a given value and returns the first index if found. Returns `-1` if not found.
 

@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Files"
   - "Classes"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `File` class is used for working with file objects in Ruby. 

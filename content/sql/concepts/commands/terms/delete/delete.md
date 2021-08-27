@@ -1,5 +1,6 @@
 ---
 Title: "DELETE"
+Description: "Removes existing record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted."
 Subjects:
   - "Data Science"
 Tags:
@@ -8,13 +9,13 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "SQLite"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
-  - "https://www.codecademy.com/learn/paths/design-databases-with-postgresql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
-## Definition 
+ 
 
 Removes existing record(s) from a table. If a `WHERE` statement is excluded, all records in the table will be deleted.
 

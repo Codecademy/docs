@@ -1,16 +1,17 @@
 ---
 Title: "<canvas>"
+Description: "Creates an element in the page for JavaScript and WebGL to interact with, primarily to create and animate graphics within the page."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Creates an element in the page for JavaScript and WebGL to interact with, primarily to create and animate graphics within the page.
 

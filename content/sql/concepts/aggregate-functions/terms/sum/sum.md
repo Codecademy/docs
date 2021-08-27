@@ -1,5 +1,6 @@
 ---
 Title: "SUM()"
+Description: "Returns the sum of all the value in that column."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,12 +9,10 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
-
-## Definition 
 
 The `SUM()` aggregate function takes the name of a column as an argument and returns the sum of all the value in that column.
 
@@ -26,7 +25,7 @@ FROM table_name;
 
 ## Example
 
-For instance, suppose there's an `transactions` table with the following values:
+For instance, suppose there's a `transactions` table with the following values:
 
 | date | amount | 
 | -- | -- |

@@ -1,5 +1,6 @@
 ---
 Title: "background-origin"
+Description: "Specifies the background positioning area of a background."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,13 +8,13 @@ Tags:
   - "Background"
   - "Box Model"
   - "Positioning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Specifies the background positioning area of a background.
 

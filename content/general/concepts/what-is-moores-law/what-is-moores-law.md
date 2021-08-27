@@ -5,9 +5,9 @@ Subjects:
 Tags:
   - "Best Practices"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Moore's Law is a prediction made in 1965 by [Gordon Moore](https://en.wikipedia.org/wiki/Gordon_Moore) (the then CEO  of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices. 

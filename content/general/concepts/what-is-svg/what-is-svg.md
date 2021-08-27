@@ -1,5 +1,5 @@
 ---
-Title: "What is SVG"
+Title: "What is SVG?"
 Subjects:
   - "Computer Science"
   - "Web Development"
@@ -7,10 +7,10 @@ Tags:
   - "Images"
   - "Files"
   - "HTML"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/code-foundations"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVG's description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes. 

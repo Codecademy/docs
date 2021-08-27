@@ -1,17 +1,18 @@
 ---
 Title: ".charAt()"
+Description: "Returns a single character at the specified index of a string."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a single character at the specified index of a string.
 

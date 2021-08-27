@@ -1,5 +1,6 @@
 ---
 Title: "all()"
+Description: "Returns True if every item in an iterable evaluates to True, otherwise, it returns False."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -13,13 +14,13 @@ Tags:
   - "Iterators"
   - "Functions"
   - "Logic"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition 
+ 
 
 Returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.
 

@@ -1,5 +1,6 @@
 ---
 Title: "requests.request()"
+Description: "Makes seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object."
 Subjects:
   - "Data Science"
 Tags: 
@@ -8,15 +9,14 @@ Tags:
   - "HTTP"
   - "Queries"
   - "Requests"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 The `requests` module for Python includes a `.request()` method for making seven main kinds of request to a web server: `get`, `options`, `head`, `post`, `put`, `patch`, and `delete`; it can also handle custom HTTP verbs if needed, and returns a response object. 
-
 
 ## Syntax
 
@@ -27,7 +27,6 @@ requests.request("method", "url", **kwargs)
 ```
 
 `**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters.
-
 
 ## Example 1
 
@@ -61,7 +60,6 @@ print(response.status_code)
 print(response.reason)
 # Output: OK
 ```
-
 
 ## Example 3
 

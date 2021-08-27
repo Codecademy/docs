@@ -1,16 +1,17 @@
 ---
 Title: "<form>"
+Description: "Represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 The `<form>` tag represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
 

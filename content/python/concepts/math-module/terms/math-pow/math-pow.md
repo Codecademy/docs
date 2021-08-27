@@ -1,17 +1,18 @@
 ---
 Title: "math.pow()"
+Description: "Returns the float value of x raised to the power of y."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Functions"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the `float` value of `x` raised to the power of `y`.
 

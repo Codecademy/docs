@@ -9,10 +9,12 @@ Tags:
   - "Booleans"
   - "Characters"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
+
+C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those:
 
 ## Int
 
@@ -57,4 +59,57 @@ char punctuation = '?';
 ```cpp
 std::string message = "good nite";
 std::string user = "@sonnynomnom";
- ```
+```
+
+## Datatype Modifiers
+
+As the name implies, datatype modifiers are used with built-in data types to modify the length of data that a particular data type can hold. Data type modifiers in C++ are:
+
+- `signed`
+- `unsigned`
+- `short`
+- `long`
+
+## Const
+
+`const` (constant) variables cannot be changed by your program during execution.
+
+```cpp
+const double quarter = 0.25;
+ 
+// and now variable quarter can only be 0.25
+```
+
+Simply add the keyword `const` before the data type during declaration to make the variable not modifiable.
+
+
+## Type Conversion
+
+A type cast is basically a conversion from one type to another.
+
+The notation `(type) value` means “convert value to type“. So for example:
+
+```cpp
+double weight1;
+int weight2;
+ 
+weight1 = 154.49;
+weight2 = (int) weight1;
+ 
+// weight2 is now 154
+```
+
+**Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+
+## Memory Size
+
+As noted above, the data type of a variable also specifies the size of the information that it can hold:
+
+| Data Type | Memory Size |
+| --- | --- |
+| `bool` | 1 byte |
+| `char` | 1 byte |
+| `int` | 4 bytes |
+| `float` | 4 bytes |
+| `double` | 8 bytes |
+| `std::string` | 24 bytes |

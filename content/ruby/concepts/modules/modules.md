@@ -8,9 +8,9 @@ Tags:
   - "Classes"
   - "Methods"
   - "Files"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them. 
@@ -59,7 +59,6 @@ module TwoTermSolver
     end
   end
 end
-
 
 class Calculator 
   include TwoTermSolver

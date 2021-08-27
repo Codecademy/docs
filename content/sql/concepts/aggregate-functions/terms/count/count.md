@@ -1,5 +1,6 @@
 ---
 Title: "COUNT()"
+Description: "Returns the number of rows that match the specified criteria."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,12 +9,10 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
-
-## Definition 
 
 The `COUNT()` aggregate function returns the total number of rows that match the specified criteria.
 

@@ -1,5 +1,6 @@
 ---
 Title: "complex()"
+Description: "Converts a given string into a complex number."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -7,13 +8,13 @@ Tags:
   - "Functions"
   - "Methods"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Converts a given string into a complex number.
 

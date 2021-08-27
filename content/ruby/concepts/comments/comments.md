@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Comments"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Commenting code helps programmers write free text that is commonly used to explain the code written, or can even be used to add TO-DOs to the code. 

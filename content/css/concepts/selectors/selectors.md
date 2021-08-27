@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Selectors"
   - "Elements"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-csss"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
@@ -28,13 +28,13 @@ p {
 
 ## Id Selector
 
-The id selector uses the id attribute of an HTML element to select a specific element.
+The `id` selector uses the `id` attribute of an HTML element to select a specific element.
 
-The id of an element is unique within a page, so the id selector is used to select one unique element!
+The `id` of an element is unique within a page, so the `id` selector is used to select one unique element!
 
-To select an element with a specific id, write a hash (`#`) character, followed by the id of the element.
+To select an element with a specific `id`, write a hash (`#`) character, followed by the `id` of the element.
 
-The CSS rule below will be applied to the HTML element with id="para1": 
+The CSS rule below will be applied to the HTML element with `id="para1"`: 
 
 ```css
 #para1 {
@@ -43,7 +43,7 @@ The CSS rule below will be applied to the HTML element with id="para1":
 }
 ```
 
-**Note:** An id name cannot start with a number!
+**Note:** An `id` name cannot start with a number!
 
 ## Class Selector
 

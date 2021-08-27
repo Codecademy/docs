@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Variables"
   - "Variables Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 A string is a sequence of one or more characters that represents a word or a sentence. It may contain letters, numbers, or symbols. They are created by surrounding a sequence of characters with single or double quotes. Strings are mutable, which means that they can be changed.

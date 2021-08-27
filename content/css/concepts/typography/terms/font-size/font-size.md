@@ -1,20 +1,18 @@
 ---
 Title: "font-size"
+Description: "Sets the text size. Font size values can be in different units like absolute lengths and relative lengths."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Fonts"
   - "Typography"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
-
-To set text size either to big or small. Font size values can be in many different units like absolute lengths and relative lengths.
+The `font-size` property sets text size. Font size values can be in many different units like absolute lengths and relative lengths.
 
 ## Syntax
 

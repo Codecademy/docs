@@ -1,18 +1,19 @@
 ---
 Title: "grid-template"
+Description: "A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Grids"
   - "Layout"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements.
 

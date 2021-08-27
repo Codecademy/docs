@@ -6,13 +6,11 @@ Subjects:
 Tags:
   - "Visibility"
   - "Tables"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
-
-## Definition 
 
 The visibility property shows or hides an element. If the element is hidden, it will still take up space within the page.
 
@@ -32,7 +30,7 @@ The visibility property has three values.
 
 ## Example 1
 
-Hiding an element with an id of `hide`. 
+Hiding an element with an `id` of `hide`. 
 
 ```css
 .hide {

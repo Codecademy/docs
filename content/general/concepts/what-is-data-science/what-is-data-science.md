@@ -11,17 +11,15 @@ Tags:
   - "Database"
   - "SQLite"
   - "Scikit-learn"
-Catalog Content:
-  - "https://www.codecademy.com/learn/paths/data-science"
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/learn-r"
+CatalogContent:
+  - "paths/data-science"
+  - "learn-python-3"
+  - "learn-r"
 ---
 
-### Introduction
+[Data Science](paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
 
-Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
-
-### Application
+## Application
 
 Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insight from data for finding new efficiencies in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including:
 
@@ -32,7 +30,7 @@ Since the beginning of the 21st century, data science has been used in generally
  - Cloud and Distributed Computing
  - Business Intelligence and Strategy
 
-### Languages and Tools
+## Languages and Tools
 
  - Python (Matplotlib, Pandas, Scikit-learn, TensorFlow, NLTK)
  - R (ggplot2)
@@ -42,7 +40,7 @@ Since the beginning of the 21st century, data science has been used in generally
  - Jupyter Notebook
  - MATLAB
 
-### History
+## History
 
 Many statisticians have argued that data science is not a new field, but rather another name for statistics. Considering this perspective, the history of data science would date as far back as 5th century B.C., demonstrated by the Athenians who estimated the height of ladders needed to scale the walls of Platea by counting the bricks of the wall vertically in several areas, then multiplying the most frequent count by the height of a brick.
 

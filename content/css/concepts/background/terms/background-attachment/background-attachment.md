@@ -1,5 +1,6 @@
 ---
 Title: "background-attachment"
+Description: "Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,13 +8,13 @@ Tags:
   - "Borders"
   - "Box Model"
   - "Colors"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page.
 

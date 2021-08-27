@@ -5,9 +5,9 @@ Subjects:
   - "Mobile Development"
 Tags: 
   - "Operators"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 Operators are unique characters or phrases that Swift uses to manipulate and validate values. Swift was specifically designed to enhance the operators from several programming languages to create more capability with less code for the programmer. 
@@ -70,6 +70,7 @@ Logical Operators are used to evaluate or modify the value of Beolean values and
 * `||` Logical OR
 
 Logical NOT(`!`) operator appears directly before a Boolean value with no spaces. This operator inverts the value of the Boolean so that `true` becomes `false` and vice versa. 
+
 ```swift
 var earthIsFlat = false
 if !earthIsFlat {
@@ -87,7 +88,7 @@ if (iAmTrue && iAmFalse) {
   // Both sides are checked because the first value is true and the compiler needs to check right side' value
   print("Both values are 'true' and the AND operator returned 'true'.")
 } else if (iAmTrue || iAmFalse) {
-  // Only the left side is evaluated, as soon as the compiler sees a 'true' it can reason the the OR requirements are met and will enter the 'else if' body
+  // Only the left side is evaluated, as soon as the compiler sees a 'true', it can reason that the OR requirements are met and will enter the 'else if' body
   print("At least one value was 'true'  and the OR operator returned 'true'.")
 } else {
   print("Neither value is 'true'.")
@@ -110,7 +111,7 @@ for year in 2...userAge {
 
 This should output:
 
-```
+```shell
 You turned 2 years old!
 You turned 3 years old!
 ... all the way to and including
@@ -129,9 +130,9 @@ for i in 0..<picnic.count {
 
 This should output:
 
-```
+```shell
 Item 1 in the picnic basket is a Ceasar Salad.
-Item 2 in the picnic basket is a Turkey Sandwiches.
+Item 2 in the picnic basket is a Turkey Sandwich.
 Item 3 in the picnic basket is a Cookie.
 Item 4 in the picnic basket is a Juice Box.
 ```
@@ -193,8 +194,13 @@ let birdsSeen = ["flamingo", "pigeon", "blue jay", "peacock"]
 for bird in birdsSeen {
   print(exoticBirdBingo.contains(bird) ? "Cross \(bird) off your bingo card!" : "A \(bird) is just a normal bird.")
 }
-// Cross flamingo off your bingo card!
-// A pigeon just a normal bird.
-// A blue jay is just a normal bird.
-// Cross peacock off your bingo card!
+```
+
+This would output:
+
+```shell
+Cross flamingo off your bingo card!
+A pigeon just a normal bird.
+A blue jay is just a normal bird.
+Cross peacock off your bingo card!
 ```

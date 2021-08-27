@@ -1,19 +1,20 @@
 ---
 Title: "re.split()"
+Description: "Divide a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default python .split() for instances that require matching multiple characters."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Regular Expressions"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-regular-expressions"
-  - "https://www.codecademy.com/learn/practical-data-cleaning"
-  - "https://www.codecademy.com/learn/language-parsing"
-  - "https://www.codecademy.com/learn/text-preprocessing"
+CatalogContent:
+  - "introduction-to-regular-expressions"
+  - "practical-data-cleaning"
+  - "language-parsing"
+  - "text-preprocessing"
 ---
 
-## Definition
+
 
 Divide a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default python `.split()` for instances that require matching multiple characters.
 

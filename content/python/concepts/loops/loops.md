@@ -7,10 +7,10 @@ Tags:
   - "Loops"
   - "While"
   - "For"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 ## While Loops
@@ -94,7 +94,7 @@ for num in numbers:
 
 In this example, the output would be:
 
-```bash
+```shell
 0
 254
 2

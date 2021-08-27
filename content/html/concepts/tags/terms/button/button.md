@@ -1,18 +1,21 @@
 ---
 Title: "<button>"
+Description: "Represents a button meant to be clicked by the user."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
-Represents a button meant to be clicked by the user. While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
+Represents a button meant to be clicked by the user. 
+  
+While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
 
 ## Syntax
 

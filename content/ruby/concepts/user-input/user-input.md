@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Input"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, user input is made possible by the `#gets` method. During the executing of a Ruby program, when a line with the `#gets` method is read, the terminal is primed for input from the user. The input is returned as a string type after the `#gets` method is finished. 

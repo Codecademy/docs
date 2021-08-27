@@ -1,20 +1,19 @@
 ---
 Title: "font"
+Description: "Shorthand property that sets different properties for an element's font in a single declaration."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Fonts"
   - "Typography"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
-
-Shorthand property that sets different properties for an elements font in a single declaration.
+The `font` property is a shorthand property that sets different properties for an elements font in a single declaration.
 
 ## Syntax
 

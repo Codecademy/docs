@@ -5,9 +5,9 @@ Subjects:
   - "Mobile Development"
 Tags:
   - "Operators"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-swift"
-  - "https://www.codecademy.com/learn/paths/build-ios-apps-with-swiftui"
+CatalogContent:
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 Advanced operators in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few. 

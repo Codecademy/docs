@@ -10,10 +10,9 @@ Tags:
   - "Objects"
   - "Data Structures"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A list in Python is a data type used to store a collection of objects. 
@@ -47,13 +46,16 @@ list5 = ['one', 'two', 'three']
 friends = ['Sue', 'Bob']
 
 print(type(friends))
-# Output: <type 'list'>
 
-another_friend = 'Anna'
+# Use a built-in method to add Anna to the list of friends.
+friends.append('Anna')
 
-# Use a `list()` built in method to add Anna to the list of friends.
-my_list_of_friends = friends.append(another_friend)
+print(friends)
+```
 
-print(my_list_of_friends)
-# Output: ['Sue', 'Bob', 'Anna']
+The output would be:
+
+```shell
+<class 'list'>
+['Sue', 'Bob', 'Anna']
 ```

@@ -8,9 +8,9 @@ Tags:
   - "AI"
   - "Data Science"
   - "Deep Learning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/build-deep-learning-models-with-tensorflow"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/build-deep-learning-models-with-tensorflow"
 ---
 
 Artificial Intelligence (AI) refers to both the study of intelligent agents and to the intelligent agents themselves. An "intelligent agent" is any device designed to achieve some goal, receive information from its environment as input and output a response that maximizes success of achieving said goal. 

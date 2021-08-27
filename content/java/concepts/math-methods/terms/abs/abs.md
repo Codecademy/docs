@@ -1,22 +1,23 @@
 ---
 Title: "Math.abs()"
+Description: "Returns the absolute value of the argument."
 Subjects:
   - "Computer Science"
 Tags:
   - "Methods"
   - "Arithmetic"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+The `Math.abs()` method returns the absolute value of the argument.
 
-Returns the absolute value of the argument.
+An absolute value is the non-negative version of the value, without considering the positive/negative sign.
 
 ## Syntax
 
-```py
+```java
 Math.abs(n)
 ```
 

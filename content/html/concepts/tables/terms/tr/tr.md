@@ -1,5 +1,6 @@
 ---
 Title: "tr"
+Description: "Defines a row in a table. "
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,13 +8,13 @@ Tags:
   - "Tables"
   - "Elements"
   - "Web Development"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Defines a row in a table. 
 

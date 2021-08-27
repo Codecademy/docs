@@ -6,9 +6,9 @@ Subjects:
 Tags: 
   - "Variables"
   - "Data Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.
@@ -41,6 +41,17 @@ std::cout << "I am " << myAge << " years old.";
 
 The output would be:
 
-```bash
+```shell
 I am 30 years old.
+```
+
+## Codebyte Example
+
+```codebyte/cpp
+#include <iostream>
+
+int main() {
+  double tip = 3.85;
+  std::cout << "Tip is" << tip;
+}
 ```

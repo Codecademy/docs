@@ -1,5 +1,6 @@
 ---
 Title: "clear"
+Description: "Species whether an element coming after a floated element should be moved down or not."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,13 +8,11 @@ Tags:
   - "Clear"
   - "Float"
   - "Layout"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
-
-## Definition 
 
 Species whether an element coming after a floated element should be moved down or not.
 

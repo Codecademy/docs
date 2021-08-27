@@ -1,16 +1,17 @@
 ---
 Title: "<cite>"
+Description: "Represents a citation to a referenced work such as a book, a song, or a painting."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 The `<cite>` tag represents a citation to a referenced work such as a book, a song, or a painting. It needs to include only the title of the work being referenced.
 

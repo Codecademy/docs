@@ -5,9 +5,9 @@ Subjects:
 Tags: 
   - "Comments"
   - "Documentation"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
@@ -21,7 +21,7 @@ In Java, single-line comments are created with two consecutive forward slashes `
 System.out.println("Hello, world!");
 ```
 
-A single-line comment can also used to comment after a line of code:
+A single-line comment can also be used to comment after a line of code:
 
 ```js
 System.out.println("Hello, world!"); // Me, too! 

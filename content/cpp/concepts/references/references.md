@@ -8,9 +8,9 @@ Tags:
   - "Pointers"
   - "Parameters"
   - "Memory"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-c-plus-plus"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A reference variable is an alias for another object. It is created using the `&` sign. 
@@ -37,15 +37,12 @@ It allows the ability to:
 ```cpp
 
 void swap_num(int &i, int &j) {
- 
   int temp = i;
   i = j;
   j = temp;
- 
 }
  
 int main() {
- 
   int a = 100;
   int b = 200;
  
@@ -53,7 +50,6 @@ int main() {
  
   std::cout << "A is " << a << "\n";
   std::cout << "B is " << b << "\n";
- 
 }
 ```
 
@@ -65,8 +61,6 @@ This saves the computational cost of making a copy of the argument.
 
 ```cpp
 int triple(int const &i) {
- 
   return i * 3;
- 
 }
 ```

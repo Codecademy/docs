@@ -1,16 +1,17 @@
 ---
 Title: ".codePointAt()"
+Description: "Returns the Unicode value at the given index in the string."
 Subjects:
   - "Computer Science"
 Tags:
   - "Strings"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-java"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
-## Definition
+
 
 Returns the Unicode value at the given index in the string.
 

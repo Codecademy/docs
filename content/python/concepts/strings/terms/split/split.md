@@ -1,5 +1,6 @@
 ---
 Title: ".split()"
+Description: "Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. "
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -7,11 +8,11 @@ Tags:
   - "Strings"
   - "Methods"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
-## Definition 
+ 
 
 Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. 
 

@@ -1,17 +1,18 @@
 ---
 Title: ".getHours()"
+Description: "Called from an instance of the Date class, will return the hour according to the local time."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Called from an instance of the `Date` class, will return the hour according to the local time.
 

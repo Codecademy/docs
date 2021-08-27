@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Web Development"
   - "Computer Science"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:  
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 SSL stands for Secure Socket Layer, and is a cryptographic protocol for securing computer networks. SSL was deprecated in 1999 and renamed TLS by the [Internet Engineering Task Force](https://www.ietf.org). TLS is essentially an improved version of SSL (it is SSL 3.1) and features a number of improvements that address security concerns that were discovered in the initial and prior implementations of SSL. 

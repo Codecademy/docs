@@ -1,16 +1,17 @@
 ---
 Title: ".catch()"
+Description: "Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections."
 Subjects:
   - "Web Development"
 Tags:
   - "Methods"
   - "Promise"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
+
 
 Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections.
 

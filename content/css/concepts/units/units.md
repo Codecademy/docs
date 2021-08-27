@@ -4,25 +4,18 @@ Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
+  - "Units"
   - "Responsive"
   - "Style"
-  - "Units"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-CSS uses units to measure the values of various properties in a stylesheet. 
+CSS uses units to measure the values of various properties in a stylesheet. The two main types of units are absolute units and relative units.
 
-## Absolute and Relative Units
-
-The two main types of units are: 
-
-* Absolute Units
-* Relative Units
-
-### Absolute Units
+## Absolute Units
 
 Absolute units are CSS units that are of fixed lengths and not relative to any other styles. This includes: 
 
@@ -30,7 +23,7 @@ Absolute units are CSS units that are of fixed lengths and not relative to any o
 * `pt`: Points 
 * `mm`: Millimeters
 
-### Relative Units
+## Relative Units
 
 Relative units are CSS units whose size is relative to some other length. They could relate to things like:
 
@@ -52,11 +45,13 @@ Some common relative units include:
 <length>: <length-unit>;
 ```
 
-A `<length>` is any measurable property, such as `border`, `background-color`, and `margin`.
+- A `<length>` is any measurable property, such as `border`, `background-color`, and `margin`.
+- A `<length-unit>` is the value assigned to a measurable property, such as `2px`, `30em`, and `10pt`.
 
-A `<length-unit>` is the value assigned to a measurable property, such as `2px`, `30em`, and `10pt`.
+## Example
 
 ```css
 border-width: 30px;
 ```
 
+This sets the `border-width` to 30 pixels.

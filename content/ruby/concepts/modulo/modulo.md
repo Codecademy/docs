@@ -5,9 +5,9 @@ Subjects:
   - "Web Design"
 Tags:
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 A Ruby function that returns the modular value, the remainder, when two numbers are divided.

@@ -1,5 +1,6 @@
 ---
 Title: .capitalize()
+Description: "Takes in a string, and returns a copy of the string in Capital Case."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -7,12 +8,12 @@ Tags:
   - "Strings"
   - "Methods"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition
+
 
 Takes in a string, and returns a copy of the string in Capital Case.
 
@@ -27,7 +28,7 @@ Takes in a string, and returns a copy of the string in Capital Case.
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
+print("WELCOME TO CODECADEMY DOCS!".capitalize())
 ```
 
 ## Example 2
@@ -35,7 +36,7 @@ print("WELCOME TO CODECADEMY'S CODEPEDIA!".capitalize())
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-text = "welcome to codecademy's codepedia!"
+text = "welcome to codecademy's docs!"
 print(text.capitalize())
 ```
 
@@ -44,7 +45,7 @@ print(text.capitalize())
 Use `.capitalize()` to set a string value to Capital Case:
 
 ```codebyte/python
-text = "welcome To Codecademy's Codepedia!"
+text = "welcome To Codecademy's Docs!"
 
 x = text.capitalize()
 print(x)

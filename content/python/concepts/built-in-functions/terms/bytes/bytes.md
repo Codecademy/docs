@@ -1,18 +1,19 @@
 ---
 Title: "bytes()"
+Description: "Returns a byte immutable object representing the given bytes of an object."
 Subjects:
   - "Computer Science"
   - "Data Science"
 Tags:
   - "Functions"
   - "Debugging"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Returns a byte immutable object representing the given bytes of an object.
 
@@ -33,15 +34,15 @@ bytes(source, encoding, error)
 Use `bytes()` to encode the string `"Welcome to Codecademy!"` to unicode `utf-8` and print the number of bytes in the string:
 
 ```python
-print(bytes("Welcome to Codepedia!", "utf-8"))
-print(len(bytes("Welcome to Codepedia!", "utf-8")))
+print(bytes("Welcome to Codecademy!", "utf-8"))
+print(len(bytes("Welcome to Codecademy!", "utf-8")))
 ```
 
 The output would be:
 
 ```
-b'Welcome to Codepedia!'
-21
+b'Welcome to Codecademy!'
+22
 ```
 
 ## Example 2

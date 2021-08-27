@@ -7,11 +7,12 @@ Tags:
   - "Objects"
   - "OOP"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/create-a-back-end-app-with-javascript"
+CatalogContent: 
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
-In JavaScript, the `this` keyword can have several different meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
+
+In JavaScript, the `this` keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
 
 ## `this` Called Within a Global Context
 
@@ -33,13 +34,14 @@ console.log(window.prop);
 ## `this` Called Within a Function
 
 In JavaScript, there are several different ways to invoke a function:
+
 - Function invocation
 - Method invocation
 - Constructor invocation
 - Indirect invocation
 - Arrow functions
 
-Each has it's own context, causing `this` to behave differently.
+Each has its own context, causing `this` to behave differently.
 
 ### Basic Function Invocation
 
@@ -92,7 +94,7 @@ console.log(obj.someFunc());
 // Output: 23
 ```
 
-However if you execute the function outside the object it will behave as function invocation above.
+However, if you execute the function outside the object it will behave as function invocation above.
 In the example below, `this` refrences the global object, without a `someValue` property.
 
 ```javascript

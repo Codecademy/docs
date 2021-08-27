@@ -5,9 +5,9 @@ Subjects:
   - "Web Design"
 Tags:
   - "Iterators"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 Iterators are used to do one thing multiple times. They are used in tandem with collections (Hashes, Arrays, etc...). A collection is an object that stores a group of data members.

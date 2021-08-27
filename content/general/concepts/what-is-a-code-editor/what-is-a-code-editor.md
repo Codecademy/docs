@@ -7,8 +7,9 @@ Subjects:
 Tags: 
   - "Code Editors"
   - "IDE"
-Catalog Content:  # If listing multiple URLs, please put the most relevant one first 
-  - "https://www.codecademy.com/articles/text-editor"
+CatalogContent:  # If listing multiple URLs, please put the most relevant one first 
+  - "learn-python-3"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand. 

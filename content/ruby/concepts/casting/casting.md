@@ -5,9 +5,9 @@ Subjects:
   - "Computer Science"
 Tags: 
   - "Types"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. 
@@ -59,7 +59,7 @@ puts myObj.to_a
 
 The output would be: 
 
-```
+```shell
 name
 Denise
 occupation

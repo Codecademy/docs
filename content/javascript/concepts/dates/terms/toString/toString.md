@@ -1,17 +1,18 @@
 ---
 Title: ".toString()"
+Description: "Converts a Date object to a string."
 Subjects:
   - "Web Development"
   - "Computer Science"
 Tags:
   - "Date"
   - "Methods"
-Catalog Content:
-  - "https://www.codecademy.com/learn/introduction-to-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition
+
 
 Converts a Date object to a string.
 

@@ -1,5 +1,6 @@
 ---
 Title: ".truncate()"
+Description: "Allows the user to resize the file to a given number of bytes when the file is accessed through the append mode."
 Subjects:
   - "Computer Science"
   - "Data Science"
@@ -8,13 +9,13 @@ Tags:
   - "Methods"
   - "Functions"
   - "Strings"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/computer-science"
-  - "https://www.codecademy.com/learn/paths/data-science"
+CatalogContent:
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
-## Definition
+
 
 Allows the user to resize the file to a given number of bytes when the file is accessed through the append mode.
 

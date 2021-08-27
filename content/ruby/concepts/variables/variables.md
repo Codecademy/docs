@@ -6,9 +6,9 @@ Subjects:
 Tags:
   - "Variables"
   - "Scope"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/learn-rails"
+CatalogContent:
+  - "learn-ruby"
+  - "learn-rails"
 ---
 
 A variable is a label that Ruby assigns to a particular object. There are four different types of variables in Ruby. Each type starts with a special character to indicate the type of variable it is.
@@ -103,7 +103,7 @@ person2.total_no_of_people()
 
 ## Global Variables
 
-Global variables begin with an `$` symbol. While Class variables are not available across different classes, global variables are. It's scope is global, meaning that it can be accessed from anywhere in the program.
+Global variables begin with an `$` symbol. While Class variables are not available across different classes, global variables are. Its scope is global, meaning that it can be accessed from anywhere in the program.
 
 ```ruby
 # Global variable

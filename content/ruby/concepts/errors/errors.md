@@ -7,9 +7,9 @@ Tags:
   - "Errors"
   - "Exceptions"
   - "Classes"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-ruby"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Ruby uses exceptions to report errors and other information when something in the program has gone wrong. 

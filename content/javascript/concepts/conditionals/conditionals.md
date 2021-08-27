@@ -7,11 +7,12 @@ Tags:
   - "Conditionals"
   - "If"
   - "Else"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-javascript"
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
+
+Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
 
 ## If Statement
 
@@ -30,7 +31,7 @@ if (isMailSent) {
 
 The output would be:
 
-```bash
+```shell
 Mail sent to recipient 💌
 ```
 
@@ -77,3 +78,19 @@ if (time < 10) {
 ```
 
 Here, the result of greeting will be: `Good day 🌁`.
+
+## Codebyte Example
+
+```codebyte/js
+var pH = 2;
+
+if (pH < 7) {
+  console.log("Acidic");
+} else if (pH > 7) {
+  console.log("Basic");
+} else {
+  console.log("Neutral");
+}
+```
+
+What do you think will happen when `pH` is changed to 7?

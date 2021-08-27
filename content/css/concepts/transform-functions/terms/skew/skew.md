@@ -1,20 +1,20 @@
 ---
 Title: "skew()"
+Description: "Tilts an element on the x-axis or both the x and y axes on a 2D plane."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Functions"
   - "Positioning"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition
 
-Tilts an element on the x-axis or both the x and y axes on a two dimensional plane.
+The `skew()` function tilts an element on the x-axis or both the x and y axes on a two-dimensional plane.
 
 ## Syntax
 

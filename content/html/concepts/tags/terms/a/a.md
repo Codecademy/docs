@@ -1,5 +1,6 @@
 ---
 Title: "<a>"
+Description: "Creates a link to another page or to a location in the current page."
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -7,13 +8,16 @@ Tags:
   - "Anchor"
   - "Link"
   - "URL"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
-The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page. It can also be used to link to email addresses, phone numbers, and files.
+The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page. 
+  
+It can also be used to link to email addresses, phone numbers, and files.
 
 ## Syntax
 
@@ -30,10 +34,10 @@ The HTML tag `<a>`, also known as the anchor tag, creates a link to another page
 
 ### External Link
 
-Suppose the page should include a link to Codepedia, that it should be opened in a new tab, and that the text of the link should be Codepedia:
+Suppose the page should include a link to Codecademy, that it should be opened in a new tab, and that the text of the link should be Codecademy:
 
 ```html
-<a href="https://codepedia.com" target="_blank">Codepedia</a>
+<a href="https://codecademy.com" target="_blank">Codecademy</a>
 ```
 
 ### Internal Link
@@ -55,8 +59,8 @@ Suppose the page should include a link to a specific section on the current page
 Suppose the page should allow the browser to open an application to send an email or call a phone number from within the page:
 
 ```html
-<!-- This link will try to create a new email to foo@codepedia.com. -->
-<a href="mailto:foo@codepedia.com">foo@codepedia.com</a>
+<!-- This link will try to create a new email to foo@codecademy.com. -->
+<a href="mailto:foo@codecademy.com">foo@codecademy.com</a>
 
 <!-- This link will try to call phone number 234-555-1212. -->
 <a href="tel:234-555-1212">234-555-1212</a>

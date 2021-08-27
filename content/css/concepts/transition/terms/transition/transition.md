@@ -1,17 +1,18 @@
 ---
 Title: "transition"
+Description: "Shorthand property that sets different properties to translate an element in a single decleration."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Transitions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 Shorthand property that sets different properties to translate an element in a single decleration.
 

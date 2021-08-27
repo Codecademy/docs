@@ -1,5 +1,6 @@
 ---
 Title: "MAX()"
+Description: "Returns the largest value in a column."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -8,12 +9,10 @@ Tags:
   - "PostgreSQL"
   - "MySQL"
   - "Functions"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-sql"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-sql"
+CatalogContent:
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
-
-## Definition 
 
 The `MAX()` aggregate function takes the name of a column as an argument and returns the largest value in a column.
 
@@ -28,7 +27,7 @@ The opposite of `MAX()` is `MIN()`.
 
 ## Example
 
-For instance, suppose there's an `transactions` table with the following values:
+For instance, suppose there's a `transactions` table with the following values:
 
 | date | amount | 
 | -- | -- |

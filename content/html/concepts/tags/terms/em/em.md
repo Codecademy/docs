@@ -1,16 +1,17 @@
 ---
 Title: "<em>"
+Description: Represents text which is emphasized. Browsers will show the enclosed text in italics, by default."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
 The `<em>` tag represents text which is emphasized. Browsers will show the enclosed text in italics, by default.
 

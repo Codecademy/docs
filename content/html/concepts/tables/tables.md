@@ -6,22 +6,22 @@ Tags:
   - "Tables"
   - "Elements"
   - "Web Development"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent: 
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
 
 ## Example
 
-| Name | Location | Category | Employees | Founded | CEO | Info |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| Pied Piper | Silicon Valley | Cloud Computing | 6 | 2014 | Richard Hendricks | A Middle-Out Compression Solution |
-| Hooli  | Silicon Valley  | Enterprise |  9000 | 1997 | Gavin Bensen | Hooli is About People |
-| Raviga Capital	| Silicon Valley | Venture Capital	| 12 | 2012 |	Peter Gregory |	Share Only in Success |
-| Aviato | Silicon Valley |	Travel | 3 | 2006 |	Erlich Bachman | Software Aggregation Program |
-| See Food | Silicon Valley	| Mobile |	2	 | 2016	|	Jian-Yang	| The Shazam of Food |
+| Name | Location | Category | Founded | CEO | Info |
+| :------: | :------: | :------: | :------: | :------: | :------: |
+| Pied Piper | Silicon Valley | Cloud Computing | 2014 | Richard Hendricks | A Middle-Out Compression Solution |
+| Hooli  | Silicon Valley  | Enterprise | 1997 | Gavin Bensen | Hooli is About People |
+| Raviga Capital	| Silicon Valley | Venture Capital | 2012 |	Peter Gregory |	Share Only in Success |
+| Aviato | Silicon Valley |	Travel | 2006 |	Erlich Bachman | Software Aggregation Program |
+| See Food | Silicon Valley	| Mobile | 2016	|	Jian-Yang	| The Shazam of Food |
 
 ## Structure
 
@@ -57,9 +57,13 @@ The table header element, denoted as `<th>`, is used to display data for a speci
 </table>
 ```
 
-| Heading 1 | Heading 2 | Heading 3 |
-| :------: | :------: | :------: |
-
+<table>
+  <tr>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
+  </tr>
+</table>
 
 ### Table Data
 

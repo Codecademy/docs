@@ -7,9 +7,9 @@ Tags:
   - "Node" 
   - "Developer Tools"
   - "Dependency"
-Catalog Content:  
-  - "https://www.codecademy.com/learn/paths/web-development"
-  - "https://www.codecademy.com/learn/paths/computer-science"
+CatalogContent:  
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 Express is a back end web framework for Node.js applications. It is primarily used to build web applications and APIs and provide network request functionality. In order to use Express, Node.js must be installed. 

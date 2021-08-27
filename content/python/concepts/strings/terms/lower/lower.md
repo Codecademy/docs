@@ -1,5 +1,6 @@
 ---
 Title: .lower()
+Description: "Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed."
 Subjects:
   - "Data Science"
   - "Computer Science"
@@ -7,12 +8,12 @@ Tags:
   - "Strings"
   - "Methods"
   - "Functions"
-Catalog Content: 
-  - "https://www.codecademy.com/learn/learn-python-3"
-  - "https://www.codecademy.com/learn/paths/analyze-data-with-python"
+CatalogContent: 
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
-## Definition 
+ 
 
 Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
 

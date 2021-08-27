@@ -9,9 +9,9 @@ Tags:
   - "Node"
   - "NPM"
   - "Packages"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-node-js"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-node-js"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Node Package Manager (NPM) is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed! 

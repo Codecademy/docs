@@ -1,18 +1,21 @@
 ---
 Title: "<blockquote>"
+Description: "Represents a section of a document which contains a longer quotation, usually spanning multiple lines."
 Subjects:
   - "Web Development"
   - "Web Design"
 Tags:
   - "Tags"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-html"
-  - "https://www.codecademy.com/learn/paths/web-development"
+CatalogContent:
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
-## Definition 
+ 
 
-Represents a section of a document which contains a longer quotation, usually spanning multiple lines. A `<blockquote>` will often be shown by the browser indented from the surrounding text.
+Represents a section of a document which contains a longer quotation, usually spanning multiple lines. 
+  
+A `<blockquote>` will often be shown by the browser indented from the surrounding text.
 
 ## Syntax
 

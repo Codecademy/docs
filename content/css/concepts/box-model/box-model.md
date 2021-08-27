@@ -7,20 +7,19 @@ Tags:
   - "Box Model"
   - "Padding"
   - "Borders"
-Catalog Content:
-  - "https://www.codecademy.com/learn/learn-css"
-  - "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
-  - "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path"
+CatalogContent:
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The Box Model is a CSS layout mechanism that the web browser uses to render content organized by box-shaped elements. Each element is made of four specific areas: 
 
-* The content area
-* The padding area
-* The border area
-* The margin area
+- `width` and `height`: The width and height of the content area.
+- `padding`: The amount of space between the content area and the border.
+- `border`: The thickness and style of the border surrounding the content area and padding.
+- `margin`: The amount of space between the border and the outside edge of the element.
 
-![Image of CSS Box Model](https://i.imgur.com/UKeNHy7.png)
+![CSS Box Model Diagram](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-box-model.svg)
 
 ## Content Area
 
