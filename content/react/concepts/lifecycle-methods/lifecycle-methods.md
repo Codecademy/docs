@@ -93,7 +93,7 @@ class Counter extends React.Component {
 
 Assuming we clicked the "+" button twice, which causes a re-`render()` each time, our output would be this: 
 
-```
+```shell
 Rendering...
 Component has mounted.
 Rendering...
