@@ -20,7 +20,7 @@ In React, lifecycle methods are unique event listeners that listen for changes d
 
 Lifecycle methods were originally exclusive to class components. But thanks to [React hooks](https://www.codecademy.com/resources/docs/react/hooks), even functional component's can work with their lifecycle. 
 
-## Rendering/mounting a component
+## Rendering/Mounting a Component
 
 After a component is first created and `render()`ed to the DOM, it is "mounted". The method used here is called `componentDidMount()`, which occurs after the component is rendered.
 
@@ -50,7 +50,7 @@ Rendering...
 Component has mounted!
 ```
 
-## Updating a component
+## Updating a Component
 
 When changes are made to a component, usually to its `state`, it is in the update-phase of its lifecycle. This is handled by the `componentDidUpdate()` method. 
 
@@ -103,7 +103,7 @@ Rendering...
 Component updated. Count is now 2.
 ```
 
-## Catching errors in components
+## Catching Errors in Components
 
 Prior to React 16, there were no features that handled errors being thrown during the component tree's "rendering" phase. When this occurred, the following would happen:
 
@@ -187,7 +187,7 @@ class App extends React.Component {
 
 **Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They *are not* compatible with errors related to event handlers.
 
-## Unmounting a component
+## Unmounting a Component
 
 When a component is unmounted, it is considered to be at the end of its lifecycle within the React applicaiton. The associated lifecycle method is `componentWillUnmount()`, which executes when React anticipates its host-component will be destroyed. 
 
