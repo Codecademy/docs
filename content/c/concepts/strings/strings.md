@@ -41,7 +41,7 @@ This is the more common string declaration out in the wild.
 
 ## Memory
 
-So here's the memory presentation:
+Here's the memory presentation:
 
 ```pseudo
 Character |   'H'    'o'    'w'    'd'    'y'   '\0'

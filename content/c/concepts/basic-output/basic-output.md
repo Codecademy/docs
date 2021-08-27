@@ -95,3 +95,28 @@ As seen above, the string given contains a `%` character followed by a letter to
 | `%i`             | integer |
 | `%p`             | pointer |
 | `%s`             | string  |
+
+## Decimal Precision
+
+When using format specifiers for decimal numbers, the number of decimal places to be printed can be specified.
+
+To print 2 digits after the decimal place, `0.2f` can be used in `printf()`:
+
+```c
+#include <stdio.h>
+  
+int main() {
+  float pi = 3.14159;
+  
+  // Print 2 digits after the decimal place
+  printf("%0.2f", pi); 
+  
+  return 0;
+}
+```
+
+The output would be:
+
+```shell
+3.14
+```
