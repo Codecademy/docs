@@ -1,17 +1,15 @@
 ---
-Title: "<strong>"
-Description: "Used to identify text that is very important, or urgent."
+Title: '<strong>'
+Description: 'Used to identify text that is very important, or urgent.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 Used to identify text that is very important, or urgent.
 
@@ -19,7 +17,7 @@ Used to identify text that is very important, or urgent.
 
 ```html
 <strong><!-- text which should be emphasized goes here --></strong>
-``` 
+```
 
 The `<strong>` tag should only contain text content or other tags meant for text content.
 
@@ -27,11 +25,11 @@ The `<strong>` tag should only contain text content or other tags meant for text
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <p>
-      When hiking in nature, it is very important to <strong>avoid poison ivy</strong> at all costs.
+      When hiking in nature, it is very important to
+      <strong>avoid poison ivy</strong> at all costs.
     </p>
   </body>
 </html>

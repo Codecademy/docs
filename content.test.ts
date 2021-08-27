@@ -87,7 +87,9 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
     Title: string;
   };
 
-  const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(fs.readFileSync(file, 'utf8'));
+  const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(
+    fs.readFileSync(file, 'utf8')
+  );
 
   it('has only valid metadata keys', () => {
     const validKeys: Record<string, string> = {
@@ -105,11 +107,12 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
   });
 
   it('has valid metadata values', () => {
-    const isOptionalString = (val?: string) => val === undefined || typeof val === 'string';
+    const isOptionalString = (val?: string) =>
+      val === undefined || typeof val === 'string';
 
-    const isOptionalStringArray = (val?: string[]) => (
-      val === undefined || Array.isArray(val) && val.every((item) => typeof item === 'string')
-    );
+    const isOptionalStringArray = (val?: string[]) =>
+      val === undefined ||
+      (Array.isArray(val) && val.every((item) => typeof item === 'string'));
 
     expect(typeof attributes.Title === 'string').toBe(true);
     expect(isOptionalString(attributes.Description)).toBe(true);
@@ -119,4 +122,4 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
     expect(isOptionalStringArray(attributes.Tags)).toBe(true);
     expect(isOptionalStringArray(attributes.Subjects)).toBe(true);
   });
-})
+});

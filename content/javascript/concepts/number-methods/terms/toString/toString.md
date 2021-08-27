@@ -1,15 +1,15 @@
 ---
-Title: ".toString()"
-Description: "Converts a number to a string."
+Title: '.toString()'
+Description: 'Converts a number to a string.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.toString()` method converts a number to a string.
@@ -47,4 +47,3 @@ const num = 2.7128;
 
 console.log(num.toString());
 ```
-

@@ -1,14 +1,14 @@
 ---
-Title: "Lists"
+Title: 'Lists'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Lists"
-  - "Paragraphs"
+  - 'Lists'
+  - 'Paragraphs'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `<li>` list item element create list items inside:
@@ -36,7 +36,7 @@ Each list item appears numbered by default:
 
 ## Unordered List Element `<ul>`
 
-The `<ul>` unordered list element is used to create a list of items in no particular order. 
+The `<ul>` unordered list element is used to create a list of items in no particular order.
 
 ```html
 <ul>

@@ -1,14 +1,14 @@
 ---
-Title: "File Methods" 
+Title: 'File Methods'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Files"
-  - "Methods"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Files'
+  - 'Methods'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk).

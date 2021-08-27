@@ -1,15 +1,15 @@
 ---
-Title: "this" 
-Subjects: 
-  - "Web Development"
-  - "Computer Science"
+Title: 'this'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Objects"
-  - "OOP"
-  - "Functions"
-CatalogContent: 
-  - "introduction-to-javascript"
-  - "paths/create-a-back-end-app-with-javascript"
+  - 'Objects'
+  - 'OOP'
+  - 'Functions'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/create-a-back-end-app-with-javascript'
 ---
 
 In JavaScript, the `this` keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
@@ -80,10 +80,10 @@ Within the method of an object,`this` returns the object that is currently calli
 ```javascript
 const obj = {
   someValue: 100,
-  someFunc: function() {
+  someFunc: function () {
     return this.someValue;
   },
-}
+};
 
 console.log(obj.someFunc());
 // Output: 100
@@ -100,10 +100,10 @@ In the example below, `this` refrences the global object, without a `someValue` 
 ```javascript
 const obj = {
   someValue: 100,
-  someFunc: function() {
+  someFunc: function () {
     return this.someValue;
   },
-}
+};
 
 let getValue = obj.someFunc;
 
@@ -116,10 +116,10 @@ There is a `.bind()` method that can be used to alter this behavor. `.bind()` ca
 ```javascript
 const obj = {
   someValue: 100,
-  someFunc: function() {
+  someFunc: function () {
     return this.someValue;
   },
-}
+};
 
 let getValue = obj.someFunc.bind(obj);
 // Tells getValue that its 'this' will refer to obj
@@ -182,7 +182,7 @@ showProp.apply(obj2,["The property is"]);
 
 ### Arrow Functions
 
-The arrow function doesn't have its own context for `this`. 
+The arrow function doesn't have its own context for `this`.
 The `this` value within an arrow function is inherited from the containing function.
 
 #### Examples
@@ -200,7 +200,7 @@ console.log(someFunction() === window);
 function Obj() {
   let someFunction = () => this;
   someFunction().someProperty = 25;
-};
+}
 
 var o1 = new Obj();
 

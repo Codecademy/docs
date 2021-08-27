@@ -1,15 +1,15 @@
 ---
-Title: "Loops"
+Title: 'Loops'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Loops"
-  - "While"
-  - "For"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Loops'
+  - 'While'
+  - 'For'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.
@@ -28,8 +28,8 @@ For example:
 
 ```js
 let i = 0;
- 
-while (i < 5) {        
+
+while (i < 5) {
   console.log(i);
   i++;
 }
@@ -40,15 +40,15 @@ while (i < 5) {
 A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition is true. They are used when you want the code to always execute at least once. The loop ends when the condition evaluates to false.
 
 ```js
-x = 0
-i = 0
- 
+x = 0;
+i = 0;
+
 do {
   x = x + i;
-  console.log(x)
+  console.log(x);
   i++;
 } while (i < 5);
- 
+
 // Output: 0 1 3 6 10
 ```
 
@@ -63,8 +63,8 @@ A `for` loop declares looping instructions, with three important pieces of infor
 ```js
 for (let i = 0; i < 4; i += 1) {
   console.log(i);
-};
- 
+}
+
 // Output: 0, 1, 2, 3
 ```
 
@@ -74,7 +74,7 @@ A `for` loop can iterate “in reverse” by initializing the loop variable to t
 
 ```js
 const items = ['apricot', 'banana', 'cherry'];
- 
+
 for (let i = items.length - 1; i >= 0; i -= 1) {
   console.log(`${i}. ${items[i]}`);
 }
@@ -93,10 +93,10 @@ The output should look like:
 An array’s length can be evaluated with the `.length` property. This is extremely helpful for looping through arrays, as the `.length` of the array can be used as the stopping condition in the loop.
 
 ```js
-for (let i = 0; i < array.length; i++){
+for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
- 
+
 // Output: Every item in the array
 ```
 
@@ -109,11 +109,11 @@ Here, the break keyword is used to exit the loop when i is greater than 5.
 ```js
 for (let i = 0; i < 99; i += 1) {
   if (i > 5) {
-     break;
+    break;
   }
-  console.log(i)
+  console.log(i);
 }
- 
+
 // Output: 0 1 2 3 4 5
 ```
 
@@ -133,7 +133,7 @@ for (let outer = 0; outer < 2; outer += 1) {
 
 The output should look like:
 
-``` 
+```
 0-0
 0-1
 0-2

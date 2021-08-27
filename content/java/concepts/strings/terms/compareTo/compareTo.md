@@ -1,19 +1,17 @@
 ---
-Title: ".compareTo()"
-Description: "Compares two strings lexicographically based on the Unicode value of each character in the string."
+Title: '.compareTo()'
+Description: 'Compares two strings lexicographically based on the Unicode value of each character in the string.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
-
-
-Compares two strings lexicographically based on the Unicode value of each character in the string. 
+Compares two strings lexicographically based on the Unicode value of each character in the string.
 
 A value of `0` will be returned if equal to comparison, less than `0` if the string is lexicographically less, and greater than `0` if the string is lexicographically greater.
 
@@ -36,7 +34,7 @@ class CompareStringsLexicographically {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "Codecademy";
-    
+
     System.out.println(word1.compareTo(word2));
     // Output: 0
   }
@@ -52,7 +50,7 @@ class CompareStringsLexicographically {
   public static void main(String[] args) {
     String word1 = "Codecademy";
     String word2 = "codecademy";
-    
+
     System.out.println(word1.compareTo(word2));
     // Output: -32
   }
@@ -68,9 +66,9 @@ class CompareLexicographically {
   public static void main(String[] args) {
     String word1 = "codecademy";
     String word2 = "Codecademy";
-    
+
     System.out.println(word1.compareTo(word2));
-    // Output: 32  
+    // Output: 32
   }
 }
 ```

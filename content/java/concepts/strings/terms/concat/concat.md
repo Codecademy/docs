@@ -1,17 +1,15 @@
 ---
-Title: ".concat()"
-Description: "Returns a string that is the concatenation of the given strings."
+Title: '.concat()'
+Description: 'Returns a string that is the concatenation of the given strings.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns a string that is the concatenation of the given strings.
 
@@ -32,7 +30,7 @@ class FlavoredDessert {
   public static void main(String[] args) {
     String flavor = "Strawberry ";
     String dessert = "Ice Cream";
-    
+
     System.out.println(flavor.concat(dessert));
     // Output: Strawberry Ice Cream
   }
@@ -49,7 +47,7 @@ class FullName {
     String firstName = "Kimberly ";
     String middleName = "Angela ";
     String lastName = "Rodriguez";
-    
+
     System.out.println(firstName.concat(middleName).concat(lastName));
     // Output: Kimberly Angela Rodriguez
   }

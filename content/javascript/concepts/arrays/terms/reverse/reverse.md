@@ -1,18 +1,16 @@
 ---
-Title: ".reverse()"
-Description: "Reverses the order of the elements of an array in place and returns the reversed array."
+Title: '.reverse()'
+Description: 'Reverses the order of the elements of an array in place and returns the reversed array.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Reverses the order of the elements of an array in place and returns the reversed array.
 

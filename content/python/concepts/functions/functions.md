@@ -1,16 +1,16 @@
 ---
-Title: "Functions"
+Title: 'Functions'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Functions"
-  - "Parameters"
-  - "Arguments"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Functions'
+  - 'Parameters'
+  - 'Arguments'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
 Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the def keyword. Function definitions may include parameters, providing data input to the function.
@@ -19,12 +19,12 @@ Functions may return a value using the return keyword followed by the value to r
 
 ```py
 # Define a function my_function() with parameter x
- 
+
 def my_function(x):
   return x + 1
- 
+
 # Invoke the function
- 
+
 print(my_function(2))      # Output: 3
 print(my_function(3 + 5))  # Output: 9
 ```
@@ -49,8 +49,8 @@ For example, the function definition defines parameters for a character, a setti
 
 ```py
 def write_a_book(character, setting, special_skill):
-  print(character + " is in " + 
-        setting + " practicing her " + 
+  print(character + " is in " +
+        setting + " practicing her " +
         special_skill)
 ```
 
@@ -61,15 +61,15 @@ A `return` keyword is used to return a value from a Python function. The value r
 In the example, the function `check_leap_year()` returns a string which indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
-def check_leap_year(year): 
+def check_leap_year(year):
   if year % 4 == 0:
     return str(year) + " is a leap year."
   else:
     return str(year) + " is not a leap year."
- 
+
 year_to_check = 2018
 
 returned_value = check_leap_year(year_to_check)
 
-print(returned_value) 
+print(returned_value)
 ```

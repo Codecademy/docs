@@ -6,6 +6,8 @@ line-length: false
 single-h1:
   front_matter_title: "Title"
 no-bare-urls: false
+no-duplicate-heading:
+  siblings_only: true
 no-inline-html: false
 ul-style:
   style: "dash"

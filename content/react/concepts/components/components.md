@@ -1,13 +1,13 @@
 ---
-Title: "Components"
+Title: 'Components'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Components"
-  - "React"
+  - 'Components'
+  - 'React'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In React, components make up the UI of the application. Components are pieces of code that are reuseable and independent. Each component comes with 1 or 2 of the following things:

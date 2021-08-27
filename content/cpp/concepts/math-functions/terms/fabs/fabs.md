@@ -1,17 +1,15 @@
 ---
-Title: "fabs()"
-Description: "Returns the absolute value of the floating point argument."
+Title: 'fabs()'
+Description: 'Returns the absolute value of the floating point argument.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the absolute value of the floating point argument.
 
@@ -27,7 +25,7 @@ Use `fabs()` to return the absolute value of `-6.5`:
 
 ```cpp
 #include <iostream>
-#include <cmath> 
+#include <cmath>
 
 int main () {
   std::cout << std::fabs(-6.5) << "\n";

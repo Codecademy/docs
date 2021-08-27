@@ -1,20 +1,18 @@
 ---
-Title: "abs()"
-Description: "Takes in a numeric data type such as int or float and returns the absolute value of the argument."
+Title: 'abs()'
+Description: 'Takes in a numeric data type such as int or float and returns the absolute value of the argument.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
 

@@ -1,31 +1,36 @@
 ---
-Title: "Objects"
+Title: 'Objects'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Objects"
-  - "Classes"
-  - "OOP"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Objects'
+  - 'Classes'
+  - 'OOP'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A JavaScript object can be created, or defined, with an object literal:
 
 ```js
-var person = {firstName: "Elizabeth", lastName: "Harmon", age: 22, eyeColor: "Hazel"};
+var person = {
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
+  age: 22,
+  eyeColor: 'Hazel',
+};
 ```
 
 Spaces and line breaks are not important. An object definition can span multiple lines:
 
 ```js
 var person = {
-  firstName: "Elizabeth",
-  lastName: "Harmon",
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
   age: 22,
-  eyeColor: "Hazel"
+  eyeColor: 'Hazel',
 };
 ```
 
@@ -33,12 +38,12 @@ var person = {
 
 The `name: values` pairs in JavaScript objects are called properties:
 
-| Property	| Property Value |
-| --- | --- |
-| `firstName` |	`"Elizabeth"` |
-| `lastName` | `"Harmon"` |
-| `age`  | `22` |
-| `eyeColor` | `"Hazel"` |
+| Property    | Property Value |
+| ----------- | -------------- |
+| `firstName` | `"Elizabeth"`  |
+| `lastName`  | `"Harmon"`     |
+| `age`       | `22`           |
+| `eyeColor`  | `"Hazel"`      |
 
 ## Accessing Object Properties
 
@@ -55,7 +60,7 @@ For example:
 ```js
 person.lastName;
 
-person["lastName"];
+person['lastName'];
 ```
 
 ## Object Methods

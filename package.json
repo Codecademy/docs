@@ -20,7 +20,7 @@
   },
   "scripts": {
     "compile": "tsc --noEmit",
-    "format": "prettier --ignore-path .prettierignore --write",
+    "format": "prettier --ignore-path .prettierignore --write \"./**/*.(ts|md)\"",
     "format:verify": "prettier \"./**/*.(ts|md)\" --list-different",
     "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
     "lint:md": "markdownlint \"./content/**/*.md\"",

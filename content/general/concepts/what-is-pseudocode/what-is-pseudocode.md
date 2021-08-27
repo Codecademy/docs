@@ -1,15 +1,15 @@
 ---
-Title: "What is Pseudocode?" 
-Subjects: 
-  - "Code Foundations"
-  - "Computer Science"  
-Tags: 
-  - "Conceptual"
-  - "Documentation"
-  - "Development"
-CatalogContent: 
-  - "paths/code-foundations"
-  - "learn-how-to-code"
+Title: 'What is Pseudocode?'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Conceptual'
+  - 'Documentation'
+  - 'Development'
+CatalogContent:
+  - 'paths/code-foundations'
+  - 'learn-how-to-code'
 ---
 
 Pseudocode is a method of describing the steps in an algorithm or other computed process written in plain language. It does not rely on any particular implementation of a programming language, and instead is intended for a human audience. It omits the portions required for machine implementation of the algorithm, such as variable declarations, and includes natural language description details.
@@ -29,9 +29,9 @@ function bubbleSort(A : list of sortable items) {
   do {
     swapped = false
     for (i = 1; i <= n-1; i = i + 1) {
-      // If this pair is out of order 
+      // If this pair is out of order
       if (A[i-1] > A[i]) {
-        // Swap them and remember something changed 
+        // Swap them and remember something changed
         // swap(A[i-1], A[i]);
         // swapped = true;
       }

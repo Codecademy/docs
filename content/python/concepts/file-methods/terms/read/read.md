@@ -1,21 +1,19 @@
 ---
-Title: ".read()"
-Description: "Allows the user to read the contents of an open file."
+Title: '.read()'
+Description: 'Allows the user to read the contents of an open file.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Files"
-  - "Methods"
-  - "Functions"
-  - "Strings"
+  - 'Files'
+  - 'Methods'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Allows the user to read the contents of an open file.
 

@@ -1,14 +1,14 @@
 ---
-Title: "Arrays"
+Title: 'Arrays'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Arrays"
-  - "Data Types"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Data Types'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Arrays are lists of ordered, stored data. They can hold items that are of any data type. Arrays are created by using square brackets, with individual elements separated by commas.
@@ -16,7 +16,7 @@ Arrays are lists of ordered, stored data. They can hold items that are of any da
 ```js
 // An array containing numbers
 const numberArray = [0, 1, 2, 3];
- 
+
 // An array containing different data types
 const mixedArray = [1, 'chicken', false];
 ```
@@ -26,23 +26,19 @@ const mixedArray = [1, 'chicken', false];
 Using an array literal is the easiest way to create a JavaScript array.
 
 ```js
-var cars = ["Saab", "Volvo", "BMW"];
+var cars = ['Saab', 'Volvo', 'BMW'];
 ```
 
 Spaces and line breaks are not important. A declaration can span multiple lines:
 
 ```js
-var cars = [
-  "Saab",
-  "Volvo",
-  "BMW"
-];
+var cars = ['Saab', 'Volvo', 'BMW'];
 ```
 
 Using the JavaScript Keyword `new` is another way to create an array.
 
 ```js
-var cars = new Array("Saab", "Volvo", "BMW");
+var cars = new Array('Saab', 'Volvo', 'BMW');
 ```
 
 ## Access the Elements of an Array
@@ -57,7 +53,7 @@ var name = cars[0];
 
 Array indexes start with 0.
 
-- 0 is the first element. 
+- 0 is the first element.
 - 1 is the second element.
 - 2 is the third element.
 - ...and so on.

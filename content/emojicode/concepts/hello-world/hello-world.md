@@ -1,15 +1,15 @@
 ---
-Title: "😀 Hello World"
+Title: '😀 Hello World'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Syntax"
-  - "Print"
-  - "Strings"
+  - 'Syntax'
+  - 'Print'
+  - 'Strings'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 We write Emojicode programs in files with the extension **.emojic** or **.🍇**.

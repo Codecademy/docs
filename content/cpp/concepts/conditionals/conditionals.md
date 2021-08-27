@@ -1,15 +1,15 @@
 ---
-Title: "Conditionals"
+Title: 'Conditionals'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Conditionals"
-  - "Control Flow"
-  - "Switch"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Conditionals'
+  - 'Control Flow'
+  - 'Switch'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.

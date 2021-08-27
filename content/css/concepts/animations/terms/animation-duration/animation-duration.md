@@ -1,18 +1,16 @@
 ---
-Title: "animation-duration"
-Description: "Defines how long an animation should take to complete."
+Title: 'animation-duration'
+Description: 'Defines how long an animation should take to complete.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines how long an animation should take to complete.
 

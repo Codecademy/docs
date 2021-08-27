@@ -1,18 +1,16 @@
 ---
-Title: "animation-delay"
-Description: "Defines when an animation starts."
+Title: 'animation-delay'
+Description: 'Defines when an animation starts.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines when an animation starts.
 

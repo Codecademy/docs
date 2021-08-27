@@ -1,14 +1,14 @@
 ---
-Title: "Dictionaries" 
+Title: 'Dictionaries'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Dictionaries"
-  - "Data Types"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Dictionaries'
+  - 'Data Types'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 A dictionary is an ordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don't have to be.
@@ -37,21 +37,21 @@ Values can be any type such as strings, numbers, lists, even other dictionaries.
 
 1. An empty dictionary is created using curly braces `{` `}`:
 
-```py
-diner = {}
-```
+   ```py
+   diner = {}
+   ```
 
 2. An empty dictionary can also be created using the built-in function `dict()` with no arguments:
 
-```py
-diner = dict()
-```
+   ```py
+   diner = dict()
+   ```
 
 3. A dictionary with entries:
 
-```py
-coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
-```
+   ```py
+   coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+   ```
 
 - `"cold brew": 3.50`
 - `"latte": 4.25`

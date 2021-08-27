@@ -1,22 +1,20 @@
 ---
-Title: "background"
-Description: "Shorthand way of expressing the various background properties of one or more element backgrounds in any order using a single declaration."
+Title: 'background'
+Description: 'Shorthand way of expressing the various background properties of one or more element backgrounds in any order using a single declaration.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Images"
-  - "Box Model"
-  - "Colors"
-  - "Positioning"
+  - 'Borders'
+  - 'Images'
+  - 'Box Model'
+  - 'Colors'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Shorthand way of expressing the various background properties of one or more element backgrounds in any order using a single declaration.
 
@@ -54,6 +52,6 @@ Specifies the background-color, the background-image property to set the image t
 
 ```css
 body {
-  background: blue url("whale.png") no-repeat fixed center;
+  background: blue url('whale.png') no-repeat fixed center;
 }
 ```

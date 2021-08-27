@@ -1,18 +1,16 @@
 ---
-Title: ".indexOf()"
-Description: "Searches a string for a given value and returns the first index if found. Returns -1 if not found."
+Title: '.indexOf()'
+Description: 'Searches a string for a given value and returns the first index if found. Returns -1 if not found.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Searches a string for a given value and returns the first index if found. Returns `-1` if not found.
 
@@ -22,8 +20,8 @@ Searches a string for a given value and returns the first index if found. Return
 string.indexOf(value, startSearch);
 ```
 
-- `value` is the value to search for in a string. 
-- `startSearch` (optional), indicates the index to start the search at. 
+- `value` is the value to search for in a string.
+- `startSearch` (optional), indicates the index to start the search at.
 
 ## Examples
 
@@ -41,7 +39,8 @@ console.log(captureGingerbreadMan);
 Find the first occurrence of a string:
 
 ```js
-const baseballChant = 'Hey batter, batter, batter, batter, batter! Swing, batter!';
+const baseballChant =
+  'Hey batter, batter, batter, batter, batter! Swing, batter!';
 
 const firstBatter = baseballChant.indexOf('batter');
 
@@ -52,7 +51,8 @@ console.log(firstBatter);
 Use second parameter to start search later in string:
 
 ```js
-const baseballChant = 'Hey batter, batter, batter, batter, batter! Swing, batter!';
+const baseballChant =
+  'Hey batter, batter, batter, batter, batter! Swing, batter!';
 
 const latterBatter = baseballChant.indexOf('batter', 18);
 
@@ -70,4 +70,3 @@ const didYouFindWaldo = people.indexOf('Waldo');
 console.log(didYouFindWaldo);
 // Output: -1
 ```
-

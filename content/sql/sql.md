@@ -1,9 +1,9 @@
 ---
-Title: "SQL"
-Codecademy Hub Page: "https://www.codecademy.com/catalog/language/sql"
+Title: 'SQL'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/sql'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 SQL, **S**tructured **Q**uery **L**anguage, is a programming language designed to manage data stored in these relational databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.

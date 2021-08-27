@@ -1,16 +1,16 @@
 ---
-Title: ".append()"
-Description: "Adds an item to end of the list."
+Title: '.append()'
+Description: 'Adds an item to end of the list.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
 
 The Python list method `.append()` adds an item to the end of a list.
@@ -21,7 +21,7 @@ The Python list method `.append()` adds an item to the end of a list.
 list.append(item)
 ```
 
-The `.append()` will place the object passed in as a new element at the very end of the list. Printing the list afterwards will visually show the appended value. 
+The `.append()` will place the object passed in as a new element at the very end of the list. Printing the list afterwards will visually show the appended value.
 
 This method is not to be confused with returning an entirely new list with the passed object.
 

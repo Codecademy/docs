@@ -1,18 +1,16 @@
 ---
 Title: random.randint()
-Description: "Takes as input two int values, and returns a pseudo-random integer within the defined range of int values."
+Description: 'Takes as input two int values, and returns a pseudo-random integer within the defined range of int values.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Random"
+  - 'Functions'
+  - 'Random'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
-
-
 
 Takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 

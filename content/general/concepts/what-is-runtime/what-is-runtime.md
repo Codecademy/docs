@@ -1,15 +1,15 @@
 ---
-Title: "What is Runtime?"
+Title: 'What is Runtime?'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Developer Tools"
-  - "Debugging"
-  - "Best Practices"
+  - 'Developer Tools'
+  - 'Debugging'
+  - 'Best Practices'
 CatalogContent:
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 In computer programming, _runtime_ references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system.

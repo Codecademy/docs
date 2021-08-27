@@ -1,20 +1,20 @@
 ---
-Title: "Headings"
+Title: 'Headings'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
-Tags: 
-  - "Markdown"
-  - "Headings"
-  - "GitHub"
+  - 'Developer Tools'
+  - 'Web Development'
+Tags:
+  - 'Markdown'
+  - 'Headings'
+  - 'GitHub'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Headings are titles or subtitles that you want to display with Markdown. There is a total of 6 different headings.
 
-To create a heading, add hashtag signs `#` in front of a word or phrase. 
+To create a heading, add hashtag signs `#` in front of a word or phrase.
 
 The number of number signs you use should correspond to the heading level. For example, to create a heading level three `<h3>`, use three number signs (e.g., `### My Header`).
 
@@ -40,20 +40,18 @@ The number of number signs you use should correspond to the heading level. For e
 
 Alternatively, on the line below the text:
 
-- Add any number of `==` characters for heading level 1 
+- Add any number of `==` characters for heading level 1
 - Add any number or `--` characters for heading level 2.
 
 ```markdown
-Heading level 1
-===============	
+# Heading level 1
 
-Heading level 2
----------------	
+## Heading level 2
 ```
 
 ## Best Practices
 
-Markdown applications don’t agree on how to handle a missing space between the number signs (`#`) and the heading name. 
+Markdown applications don’t agree on how to handle a missing space between the number signs (`#`) and the heading name.
 
 For compatibility, always put a space between the number signs and the heading name.
 
@@ -86,4 +84,3 @@ Headings are a great way to format the page.
 
 Here's an example of headings.
 ```
-

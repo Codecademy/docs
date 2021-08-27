@@ -1,22 +1,20 @@
 ---
-Title: "tr"
-Description: "Defines a row in a table. "
+Title: 'tr'
+Description: 'Defines a row in a table. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tables"
-  - "Elements"
-  - "Web Development"
+  - 'Tables'
+  - 'Elements'
+  - 'Web Development'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
- 
-
-Defines a row in a table. 
+Defines a row in a table.
 
 ## Syntax
 
@@ -37,13 +35,13 @@ Creating three rows for a table.
     <th>Company</th>
     <th>Phone</th>
   </tr>
-  
+
   <!-- Row 2 -->
   <tr>
     <td>Apple</td>
     <td>iPhone</td>
   </tr>
-  
+
   <!-- Row 3 -->
   <tr>
     <td>Samsung</td>
@@ -52,7 +50,7 @@ Creating three rows for a table.
 </table>
 ```
 
-| Company | Phone |
-| --- | --- |
-| Apple | iPhone |
+| Company | Phone  |
+| ------- | ------ |
+| Apple   | iPhone |
 | Samsung | Galaxy |

@@ -1,15 +1,15 @@
 ---
-Title: "<article>"
-Description: "Represents a part of a page which is self-contained and could be published elsewhere. Common uses include blog posts or magazine articles."
+Title: '<article>'
+Description: 'Represents a part of a page which is self-contained and could be published elsewhere. Common uses include blog posts or magazine articles.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Semantic"
-  - "Tags"
+  - 'Semantic'
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `<article>` semantic tag represents a part of a page which is self-contained and could be published elsewhere. Some common uses include blog posts or magazine articles.
@@ -20,13 +20,13 @@ The `<article>` semantic tag represents a part of a page which is self-contained
 <article>
   <!-- Article content goes inside the tag. -->
 </article>
-``` 
+```
 
 `<article>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
 ## Example
 
-Suppose that there is a need to layout multiple posts about coding practices for a new site. It would be semantically correct to use the `<article>` tag, as below: 
+Suppose that there is a need to layout multiple posts about coding practices for a new site. It would be semantically correct to use the `<article>` tag, as below:
 
 ```html
 <h1>FizzBuzz Feed</h1>

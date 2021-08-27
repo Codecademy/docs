@@ -1,20 +1,18 @@
 ---
-Title: "background-origin"
-Description: "Specifies the background positioning area of a background."
+Title: 'background-origin'
+Description: 'Specifies the background positioning area of a background.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Box Model"
-  - "Positioning"
+  - 'Background'
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specifies the background positioning area of a background.
 
@@ -26,9 +24,9 @@ Specifies the background positioning area of a background.
 background-origin: <value>;
 ```
 
-where `<value>` can be one of the following: 
+where `<value>` can be one of the following:
 
-- `content-box`:  Relative positioning to the content box.
+- `content-box`: Relative positioning to the content box.
 - `padding-box`: Relative positioning to the padding box.
 - `border-box`: Relative positioning to the border box.
 - Global values: `inherit`, `initial`, `revert`, `unset`

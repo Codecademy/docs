@@ -1,18 +1,16 @@
 ---
-Title: "animation-iteration-count"
-Description: "Defines how many times an animation runs."
+Title: 'animation-iteration-count'
+Description: 'Defines how many times an animation runs.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines how many times an animation runs.
 

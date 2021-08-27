@@ -1,17 +1,15 @@
 ---
-Title: ".resolve()"
-Description: "Returns a new Promise object that turns into the value that was passed to the method."
+Title: '.resolve()'
+Description: 'Returns a new Promise object that turns into the value that was passed to the method.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a new `Promise` object that turns into the value that was passed to the method.
 
@@ -35,8 +33,8 @@ With non-Promise values:
 const promiseA = Promise.resolve(1);
 
 const promiseB = Promise.resolve({
-  status: "Success",
-  message: "The Promise was fulfilled!",
+  status: 'Success',
+  message: 'The Promise was fulfilled!',
 });
 
 console.log(promiseA);
@@ -50,9 +48,9 @@ With Promise values:
 ```js
 const innerPromise = new Promise((resolve, reject) => {
   if (2 + 2 === 4) {
-    resolve("Success!");
+    resolve('Success!');
   } else {
-    reject("Something went wrong..");
+    reject('Something went wrong..');
   }
 });
 

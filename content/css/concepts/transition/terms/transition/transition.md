@@ -1,25 +1,23 @@
 ---
-Title: "transition"
-Description: "Shorthand property that sets different properties to translate an element in a single decleration."
+Title: 'transition'
+Description: 'Shorthand property that sets different properties to translate an element in a single decleration.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Transitions"
+  - 'Transitions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
- 
 
 Shorthand property that sets different properties to translate an element in a single decleration.
 
 ## Syntax
 
 ```css
-transition: <values>; 
+transition: <values>;
 ```
 
 The `transition` property can have the following properties as values:
@@ -29,7 +27,7 @@ The `transition` property can have the following properties as values:
 - `transition-timing-function`
 - `transition-delay`
 
-**Note:** The order in which the values are declared does not matter unless a delay is specified. The browser will always recognize the first time value as duration, so to declare a delay value we must first declare a duration value then a delay value.  
+**Note:** The order in which the values are declared does not matter unless a delay is specified. The browser will always recognize the first time value as duration, so to declare a delay value we must first declare a duration value then a delay value.
 
 ## Example 1
 
@@ -39,7 +37,7 @@ Transitioning a `div` elements width from 100px to 300px in a linear motion, wit
 div {
   height: 100px;
   width: 100px;
-  transition: width 2s 1s linear;  
+  transition: width 2s 1s linear;
 }
 
 div:hover {
@@ -56,7 +54,7 @@ div {
   transition-property: width;
   transition-duration: 2s;
   transition-delay: 1s;
-  transition-timing-function: linear;   
+  transition-timing-function: linear;
 }
 
 div:hover {

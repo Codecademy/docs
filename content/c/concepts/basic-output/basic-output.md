@@ -1,14 +1,14 @@
 ---
-Title: "Basic Output"
+Title: 'Basic Output'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Print"
-  - "Output"
+  - 'Print'
+  - 'Output'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 In the C language, basic console output is achieved using functions from the "standard input output" header file (**stdio.h**).
@@ -71,7 +71,7 @@ The `printf()` function, or "print formatted" function, takes a string with vari
 #include <stdio.h>
 
 int main(void) {
-  printf("%d is a number\n", 5); 
+  printf("%d is a number\n", 5);
   printf("%d is after %d\n", 2, 1);
   return 0;
 }
@@ -88,10 +88,10 @@ The output would be:
 
 As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are shown below:
 
-| Format Specifier | Type |
-| --- | --- |
-| `%c` | char |
-| `%d` | double |
-| `%i` | integer |
-| `%p` | pointer |
-| `%s` | string |
+| Format Specifier | Type    |
+| ---------------- | ------- |
+| `%c`             | char    |
+| `%d`             | double  |
+| `%i`             | integer |
+| `%p`             | pointer |
+| `%s`             | string  |

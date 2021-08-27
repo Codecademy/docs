@@ -1,21 +1,19 @@
 ---
-Title: ".seek()"
+Title: '.seek()'
 Description: "Allows the user to move the location of the file handle's reference point within an open file from one place to another."
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Files"
-  - "Methods"
-  - "Functions"
-  - "Strings"
+  - 'Files'
+  - 'Methods'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Allows the user to move the location of the file handle's reference point within an open file from one place to another.
 

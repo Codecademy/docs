@@ -1,17 +1,17 @@
 ---
-Title: "Overflow"
+Title: 'Overflow'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Properties"
-  - "Elements"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Properties'
+  - 'Elements'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The `overflow` property controls what happens to content that spills, or overflows, outside its box. 
+The `overflow` property controls what happens to content that spills, or overflows, outside its box.
 
 The most commonly used values are:
 
@@ -21,7 +21,7 @@ The most commonly used values are:
 
 ```css
 p {
-  overflow: scroll; 
+  overflow: scroll;
 }
 ```
 

@@ -1,18 +1,16 @@
 ---
-Title: ".length"
-Description: "Returns the specific number of elements in the array."
+Title: '.length'
+Description: 'Returns the specific number of elements in the array.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Properties"
+  - 'Arrays'
+  - 'Properties'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Returns the specific number of elements in the array.
 

@@ -1,8 +1,8 @@
 ---
-Title: "C"
+Title: 'C'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 C is a powerful mid to low-level compiled programming language used in operating systems, as the base for higher level languages like C++ and Python, and in high-performance applications. It excels in speed and performance giving the programmer great control over the system.

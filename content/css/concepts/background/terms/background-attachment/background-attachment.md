@@ -1,20 +1,18 @@
 ---
-Title: "background-attachment"
-Description: "Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page."
+Title: 'background-attachment'
+Description: 'Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Box Model"
-  - "Colors"
+  - 'Borders'
+  - 'Box Model'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Determines if the background image is fixed in relationship to the viewport or whether it will scroll along with the rest of the page.
 
@@ -39,7 +37,7 @@ Set background image to be fixed to the viewport:
 ```css
 body {
   height: 1200px;
-  background-image: url("fish.png");
+  background-image: url('fish.png');
   background-repeat: no-repeat;
   background-size: 400px 100px;
   background-attachment: fixed;
@@ -53,7 +51,7 @@ Set background to scroll with the page:
 ```css
 body {
   height: 1200px;
-  background-image: url("fish.png");
+  background-image: url('fish.png');
   background-repeat: no-repeat;
   background-size: 400px 100px;
   background-attachment: scroll;

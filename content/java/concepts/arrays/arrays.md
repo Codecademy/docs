@@ -1,13 +1,13 @@
 ---
-Title: "Arrays"
+Title: 'Arrays'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Data Types"
+  - 'Arrays'
+  - 'Data Types'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 In Java, an array is used to store a list of elements of the same datatype.
@@ -25,19 +25,19 @@ In Java, an array can be created in the following ways:
 
 1. Using the {} notation, by adding each element all at once.
 
-```java
-int[] age = {20, 21, 30};
-```
+   ```java
+   int[] age = {20, 21, 30};
+   ```
 
 2. Using the new keyword, and assigning each position of the array individually.
 
-```java 
-int[] marks = new int[3];
+   ```java
+   int[] marks = new int[3];
 
-marks[0] = 50; 
-marks[1] = 70;
-marks[2] = 93;
-```
+   marks[0] = 50;
+   marks[1] = 70;
+   marks[2] = 93;
+   ```
 
 ## Index
 
@@ -47,10 +47,10 @@ The index of an array starts from 0 and goes up to one less than the total lengt
 
 ```java
 int[] marks = {50, 55, 60, 70, 80};
- 
+
 System.out.println(marks[0]);
 // Output: 50
- 
+
 System.out.println(marks[4]);
 // Output: 80
 ```
@@ -64,12 +64,12 @@ While arrays are fixed in size (the size cannot be modified), an `ArrayList` all
 ```java
 // Import the ArrayList package
 import java.util.ArrayList;
- 
+
 // Create an ArrayList called students
 ArrayList<String> students = new ArrayList<String>();
 ```
- 
- ## Modifying ArrayLists in Java
+
+## Modifying ArrayLists in Java
 
 An `ArrayList` can easily be modified using built in methods.
 
@@ -79,25 +79,25 @@ To remove elements from an ArrayList, you use the `.remove()` method. Inside the
 
 ```java
 import java.util.ArrayList;
- 
+
 public class Students {
   public static void main(String[] args) {
-    
+
     // Create an ArrayList called studentList, which initially holds []
     ArrayList<String> studentList = new ArrayList<String>();
-    
+
     // Add students to the ArrayList
     studentList.add("John");
     studentList.add("Lily");
     studentList.add("Samantha");
     studentList.add("Tony");
-    
+
     // Remove John from the ArrayList, then Lily
     studentList.remove(0);
     studentList.remove("Lily");
-    
+
     // studentList now holds [Samantha, Tony]
-    
+
     System.out.println(studentList);
   }
-  ```
+```
