@@ -76,15 +76,15 @@ describe('Codecademy Docs Content', () => {
   });
 });
 
-// test content of each markdown file
+// validate metadata in each markdown file
 describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
   type FrontMatterAttributes = {
-    CatalogContent?: string[];
-    'Codecademy Hub Page'?: string;
+    Title: string;
     Description?: string;
+    'Codecademy Hub Page'?: string;
+    CatalogContent?: string[];
     Subjects?: string[];
     Tags?: string[];
-    Title: string;
   };
 
   const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(
@@ -114,12 +114,12 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
       val === undefined ||
       (Array.isArray(val) && val.every((item) => typeof item === 'string'));
 
-    expect(typeof attributes.Title === 'string').toBe(true);
+    expect(typeof attributes.Title).toBe('string');
     expect(isOptionalString(attributes.Description)).toBe(true);
     expect(isOptionalString(attributes['Codecademy Hub Page'])).toBe(true);
 
     expect(isOptionalStringArray(attributes.CatalogContent)).toBe(true);
-    expect(isOptionalStringArray(attributes.Tags)).toBe(true);
     expect(isOptionalStringArray(attributes.Subjects)).toBe(true);
+    expect(isOptionalStringArray(attributes.Tags)).toBe(true);
   });
 });
