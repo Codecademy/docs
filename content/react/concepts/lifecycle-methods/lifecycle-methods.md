@@ -5,12 +5,12 @@ Subjects:
 Tags:
   - "Methods"
   - "React"
-Catalog Content:
+CatalogContent:
   - "https://www.codecademy.com/learn/react-101"
   - "https://www.codecademy.com/learn/paths/web-development"
 ---
 
-In React, lifecycle methods are unique event listeners that listen for changes during certain points during a [component's](https://www.codecademy.com/resources/docs/react/components) lifecycle. A component's lifecycle usually runs in this order: 
+In React, lifecycle methods are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order: 
 
 1. Rendering/mounting a component to the DOM for the first time.
 2. Updatilng an existing component.
@@ -28,10 +28,10 @@ import React from "react";
 
 class App extends React.Component {
   componentDidMount() {
-    conosle.log("The component has mounted!")
+    conosle.log("Component has mounted!")
   }
   
-  render(){
+  render() {
     console.log("Rendering...")
     return(
       <React.Fragment>
@@ -46,7 +46,7 @@ And the output should be this:
 
 ```
 Rendering...
-The component has mounted!
+Component has mounted!
 ```
 
 ## Updating a component
@@ -184,7 +184,7 @@ class App extends React.Component {
 }
 ```
 
-**Note: ** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They *are not* compatible with errors related to event handlers.
+**Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They *are not* compatible with errors related to event handlers.
 
 ## Unmounting a component
 
