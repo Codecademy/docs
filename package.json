@@ -1,13 +1,19 @@
 {
   "name": "codecademy-docs",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "glob": "^7.1.7"
+  },
   "devDependencies": {
     "@codecademy/eslint-config": "5.0.0",
     "@codecademy/prettier-config": "^0.1.10",
     "@codecademy/tsconfig": "^0.2.0",
     "@types/jest": "^26.0.24",
+    "@types/glob": "^7.1.4",
     "@types/node": "^16.4.3",
     "eslint": "^7.25.0",
     "jest": "^27.0.6",
+    "markdownlint-cli": "~0.28.1",
     "prettier": "^2.2.1",
     "ts-jest": "^27.0.4",
     "typescript": "^4.2.4"
@@ -15,8 +21,10 @@
   "scripts": {
     "compile": "tsc --noEmit",
     "format": "prettier --ignore-path .prettierignore --write",
-    "format:verify": "prettier \"./**.ts\" --list-different",
-    "lint": "eslint \"./**.ts\" --max-warnings 0",
+    "format:verify": "prettier \"./**/*.(ts|md)\" --list-different",
+    "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
+    "lint:md": "markdownlint \"./content/**/*.md\"",
+    "lint": "yarn lint:js && yarn lint:md",
     "test": "jest"
   },
   "license": "UNLICENSED",

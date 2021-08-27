@@ -1,6 +1,5 @@
 ---
-Title:
-  - "Arrays"
+Title: "Arrays"
 Subjects:
   - "Computer Science"
 Tags:

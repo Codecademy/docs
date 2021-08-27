@@ -1,6 +1,5 @@
 ---
 Title: "C"
-Codecademy Hub Page: null
 CatalogContent:
   - "learn-c-plus-plus"
   - "paths/computer-science"

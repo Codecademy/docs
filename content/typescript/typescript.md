@@ -1,6 +1,5 @@
 ---
 Title: 'TypeScript'
-Codecademy Hub Page: null
 CatalogContent:
   - 'learn-typescript'
   - 'paths/full-stack-engineer-career-path'
