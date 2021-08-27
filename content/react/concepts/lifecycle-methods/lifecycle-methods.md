@@ -5,9 +5,10 @@ Subjects:
 Tags:
   - "Methods"
   - "React"
+  - "Components"
 CatalogContent:
-  - "https://www.codecademy.com/learn/react-101"
-  - "https://www.codecademy.com/learn/paths/web-development"
+  - "react-101"
+  - "paths/web-development"
 ---
 
 In React, lifecycle methods are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order: 
@@ -44,7 +45,7 @@ class App extends React.Component {
 
 And the output should be this: 
 
-```
+```shell
 Rendering...
 Component has mounted!
 ```
