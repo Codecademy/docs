@@ -104,13 +104,13 @@ To print 2 digits after the decimal place, `0.2f` can be used in `printf()`:
 
 ```c
 #include <stdio.h>
-  
+
 int main() {
   float pi = 3.14159;
-  
+
   // Print 2 digits after the decimal place
-  printf("%0.2f", pi); 
-  
+  printf("%0.2f", pi);
+
   return 0;
 }
 ```
