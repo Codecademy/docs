@@ -8,7 +8,7 @@ Tags:
   - "Components"
 CatalogContent:
   - "react-101"
-  - "paths/web-development"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In React, lifecycle methods are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order: 
