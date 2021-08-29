@@ -13,9 +13,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A pointer is a [variable](https://www.codecademy.com/resources/docs/c/variables) that stores a memory address, which typically represents the location of another variable.
-
-Pointers are useful because they allow the efficient creation and manipulation of complex data structures.
+A pointer is a [variable](https://www.codecademy.com/resources/docs/c/variables) that stores a memory address, which typically represents the location of another variable. Pointers are useful because they allow the efficient creation and manipulation of complex data structures.
 
 ## Understanding Pointers
 
