@@ -49,12 +49,13 @@ If the value of  `year` were to be printed, the output would read "1986". Howeve
 The dereference operator (also known as the indirection operator), represented by an asterisk (`*`), allows one to access the value of the variable that a pointer points to.
 
 ```c
-int year = 1986;                             // Value of year: 1986
-int *pointer_to_year = &year;                // Value of pointer_to_year: 0x2aba1c0cf890
+int year = 1986;                            // Value of year: 1986
 
-int another_year = *(pointer_to_year) - 33;  // Value of another_year: 1953
+int *pointer_to_year = &year;               // Value of pointer_to_year: 0x2aba1c0cf890
 
-*(pointer_to_year) = 2019;                   // This sets the value of year to 2019
+int another_year = *(pointer_to_year) - 33; // Value of another_year: 1953
+
+*(pointer_to_year) = 2019;                  // This sets the value of year to 2019
 ```
 
 ## Functions and Pointers
