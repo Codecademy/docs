@@ -49,3 +49,29 @@ Each individual list item will have a bullet point by default:
 
 - Play more music 🎸
 - Read more books 📚
+
+## Nesting Lists Elements 
+
+Lists can be nested, meaning one list can be placed inside of another.
+
+```html
+<ol>
+  <li>Fruits</li>
+    <ul>
+      <li>Apples 🍎</li>
+      <li>Oranges 🍊</li>
+    </ul>
+  <li>Vegetables</li>
+    <ul>
+      <li>Tomatoes 🍅</li>
+    </ul>
+</ol>
+```
+
+In this way, you can create multilevel lists.
+
+1. Fruits
+    - Apples 🍎
+    - Oranges 🍊
+2. Vegetables
+    - Tomatoes 🍅
