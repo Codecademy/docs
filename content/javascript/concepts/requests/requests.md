@@ -14,7 +14,7 @@ CatalogContent:
 
 It is basically used to fetch data from API's.
 
-There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpRequest` but we will talk about `XMLHttpRequest` only in this post.
+There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpRequest` but the focus of this post will be on `XMLHttpRequest` only.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpReque
 
 ### 1. Asynchronous Method
 
-We can do this in 3 steps
+There are 3 steps to do this:
 
 1. Create `XMLHttpRequest`:
 ```js
@@ -70,7 +70,7 @@ xhr.onerror = function() {
   alert(`Network Error Occured`);
 };
 
-xhr.onprogress = function(event) { // triggers periodically
+xhr.onprogress = function(event) { // Triggers periodically
   // event.loaded - how many bytes downloaded
   // event.lengthComputable = true if the server sent Content-Length header
   // event.total - total number of bytes (if lengthComputable)
@@ -88,14 +88,14 @@ HTTP status code (a number): `200`, `404`, `403` and so on, can be `0` in case o
 
 HTTP status message (a string): usually OK for 200, Not Found for 404, Forbidden for 403 and so on.
 
-
 **`response` (old scripts may use `responseText`)**
 
 The server response body.
 
 We can also specify a timeout using the corresponding property:
+
 ```js
-xhr.timeout = 10000; // timeout in ms, 10 seconds
+xhr.timeout = 10000; // Timeout in ms, 10 seconds
 ```
 
 If the request does not succeed within the given time, it gets canceled and `timeout` event triggers.
@@ -108,7 +108,7 @@ It might look good, but synchronous calls are used rarely, because they block in
 
 ## Response Type
 
-We can use `xhr.responseType` property to set the response format:
+`xhr.responseType` property can be used to set the response format:
 
 - `""` (default) – get as string,
 - `"text"` – get as string,
