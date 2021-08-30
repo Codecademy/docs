@@ -25,12 +25,15 @@ There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpReque
 There are 3 steps to do this:
 
 1. Create `XMLHttpRequest`:
+
 ```js
 let xhr = new XMLHttpRequest();
 ```
+
 The constructor has no arguments.
 
 2. Initialize it,:
+
 ```js
 xhr.open(method, URL, [async, user, password])
 ```
@@ -45,6 +48,7 @@ This method specifies the main parameters of the request:
 Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
 
 3. Send it out.
+
 ```js
 xhr.send([body])
 ```
@@ -57,9 +61,9 @@ Some request methods like `GET` do not have a `body`. And some of them like `POS
 
 These three events are the most widely used:
 
-- `load`– when the request is complete and the response is fully downloaded.
-- `error` – when the request couldn’t be made successfully, For example, network down or invalid URL.
-- `progress` – triggers periodically while the response is being downloaded, reports how much has been downloaded.
+- `load`: when the request is complete and the response is fully downloaded.
+- `error`: when the request couldn’t be made successfully, For example, network down or invalid URL.
+- `progress`: triggers periodically while the response is being downloaded, reports how much has been downloaded.
 
 ```js
 xhr.onload = function() {
@@ -102,7 +106,7 @@ If the request does not succeed within the given time, it gets canceled and `tim
 
 ### 2. Synchronous Method
 
-If in the `open` method the third parameter `async` is set to `false`, the request is made synchronously.
+If in the `.open` method the third parameter `async` is set to `false`, the request is made synchronously.
 
 It might look good, but synchronous calls are used rarely, because they block in-page JavaScript till the loading is complete. In some browsers it becomes impossible to scroll. If a synchronous call takes too much time, the browser may suggest to close the “hanging” webpage.
 
