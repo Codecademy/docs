@@ -4,7 +4,7 @@
 
 ### Type of Change
 
-<!--- Please check the boxes that are revelant to this PR: -->
+<!--- Please check the boxes that are relevant to this PR: -->
 
 - [ ] Adding a new entry
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
@@ -12,7 +12,7 @@
 
 ### Checklist
 
-<!--- Please check the boxes that are revelant to this PR: -->
+<!--- Please check the boxes that are relevant to this PR: -->
 
 - [ ] My entry follows the Codecademy Docs style guide
 - [ ] I have performed a self-review of my own writing and code

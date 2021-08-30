@@ -16,9 +16,9 @@ The `<li>` list item element create list items inside:
 - Ordered lists `<ol>`
 - Unordered lists `<ul>`
 
-## Ordered List Element `<ol>`
+## `<ol>` Ordered List Element
 
-The `<ol>` ordered list element creates a list of items in sequential order.
+The ordered list `<ol>` element creates a list of items in sequential order.
 
 ```html
 <ol>
@@ -34,9 +34,9 @@ Each list item appears numbered by default:
 2. Drop cookie dough 🍪
 3. Bake for 15 min ⏰
 
-## Unordered List Element `<ul>`
+## `<ul>` Unordered List Element
 
-The `<ul>` unordered list element is used to create a list of items in no particular order.
+The unordered list `<ul>` element is used to create a list of items in no particular order.
 
 ```html
 <ul>
@@ -49,3 +49,29 @@ Each individual list item will have a bullet point by default:
 
 - Play more music 🎸
 - Read more books 📚
+
+## Nesting Lists Elements
+
+Lists can be nested, meaning one list can be placed inside of another.
+
+```html
+<ol>
+  <li>Fruits</li>
+  <ul>
+    <li>Apples 🍎</li>
+    <li>Oranges 🍊</li>
+  </ul>
+  <li>Vegetables</li>
+  <ul>
+    <li>Tomatoes 🍅</li>
+  </ul>
+</ol>
+```
+
+This way, multilevel lists can be created with different indentations.
+
+1. Fruits
+   - Apples 🍎
+   - Oranges 🍊
+2. Vegetables
+   - Tomatoes 🍅
