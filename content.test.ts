@@ -111,7 +111,9 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
   it('has valid metadata values', () => {
     const testOptionalString = (key: string, val?: string) => {
       if (val !== undefined && typeof val !== 'string') {
-        expect(`Expected ${key} to be a string or undefined but got ${typeof val}`).toBe('');
+        expect(
+          `Expected ${key} to be a string or undefined but got ${typeof val}`
+        ).toBe('');
       }
     };
 
@@ -120,13 +122,18 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
         val !== undefined &&
         (!Array.isArray(val) || val.some((item) => typeof item !== 'string'))
       ) {
-        expect(`Expected ${key} to be a string array or undefined but got ${typeof val}`).toBe('');
+        expect(
+          `Expected ${key} to be a string array or undefined but got ${typeof val}`
+        ).toBe('');
       }
     };
 
     expect(typeof attributes.Title).toBe('string');
     testOptionalString('Description', attributes.Description);
-    testOptionalString('Codecademy Hub Page', attributes['Codecademy Hub Page']);
+    testOptionalString(
+      'Codecademy Hub Page',
+      attributes['Codecademy Hub Page']
+    );
 
     testOptionalStringArray('CatalogContent', attributes.CatalogContent);
     testOptionalStringArray('Subjects', attributes.Subjects);
