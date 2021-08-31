@@ -54,13 +54,13 @@ JavaScript array elements are arranged by index values, starting at 0:
 - Index 2 has the third element.
 - ...and so on.
 
-Elements can be accessed by their index using the array name and the index surround by square brackets.
+Individual elements in the array can be accessed using the array name and the element's index surrounded by square brackets.
 
 ```pseudo
 array[index]
 ```
 
-This statement accesses the value of the first element in the `cars` array:
+This code accesses the value of the first element in the `cars` array:
 
 ```js
 var cars = ['Saab', 'Volvo', 'BMW'];
@@ -69,10 +69,10 @@ console.log(cars[0]);
 // Output: Saab
 ```
 
-Array items can be changed by accessing the item and assigning it to a new value.
+Array elements can be changed by accessing the element and assigning a new value to it.
 
 ```js
-var cars = ['aab', 'Volvo, 'BMW'];
+var cars = ['Saab', 'Volvo, 'BMW'];
 
 cars[1] = 'Tesla';
 
