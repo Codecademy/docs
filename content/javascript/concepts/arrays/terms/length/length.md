@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the specific number of elements in the array.
+The `.length` array property returns the specific number of elements in the array.
 
 ## Syntax
 
