@@ -92,10 +92,8 @@ To avoid naming conflicts, you can rename these objects during the export or dur
 
 ### Rename in the export file (the module):
 
-**module.js**
-
 ```js
-// Renaming import inside module.js
+// Inside module.js
 
 export {
   function1 as newName1,
@@ -103,10 +101,8 @@ export {
 };
 ```
 
-**main.js**
-
 ```js
-// When you want to use the module
+// Inside main.js
 
 import { newName1, newName2 } from './module.js';
 ```
@@ -115,16 +111,17 @@ Here, while exporting the function from **module.js** file, new names (here, `ne
 
 ### Rename in the import file (the main file):
 
-**module.js**
-
 ```js
 // Inside module.js
+
 export {
   function1,
   function2
 };
+```
 
-// When you want to use the module, import in the required file with different names
+```js
+// Inside main.js
 
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
