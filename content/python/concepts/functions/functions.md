@@ -83,12 +83,12 @@ Consider the Fibonacci sequence, whose first two terms are explicitly defined to
 ```codebyte/py
 def fibonacci(n):
   if n <= 1:
-    return n                                    # Explicitly-defined terms
+    return n                                    # Base cases
   else:
     return fibonacci(n - 2) + fibonacci(n - 1)  # Sum of the previous two terms
 
 for i in range(6):
-	print(fibonacci(i))
+  print(fibonacci(i))
 ```
 
 ## Higher-Order Functions
@@ -99,12 +99,14 @@ In Python, functions are treated as "first-class objects". This means that they 
 # Returns true if n is a perfect square, and false otherwise
 
 def is_perfect_square(n):
-    return (n ** 0.5).is_integer()
+  return (n ** 0.5).is_integer()
 
 numbers = [3, 4, 37, 9, 7, 32, 25, 81, 79, 100]
 perfect_squares = filter(is_perfect_square, numbers)
 
-print(list(perfect_squares)) # Output: [4, 9, 25, 81, 100]
+print(list(perfect_squares))
+
+# Output: [4, 9, 25, 81, 100]
 ```
 
 `filter()` takes a predicate (a function that returns a boolean value) and an iterable, and returns a new iterable containing all elements of the first one that make the predicate true.
@@ -136,5 +138,7 @@ Lambda expressions are most commonly used to define simple, single-use functions
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 odd_numbers = filter(lambda n : n % 2 == 1, numbers)
 
-print(list(perfect_squares)) # Output: [1, 3, 5, 7, 9]
+print(list(perfect_squares))
+
+# Output: [1, 3, 5, 7, 9]
 ```
