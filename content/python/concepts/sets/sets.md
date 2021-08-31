@@ -11,7 +11,7 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A set is an unordered collection of elements with any duplicates.
+A set is an unordered collection of elements without any duplicates.
 
 Sets are especially useful for performing logical operations like finding the union, intersection, or difference between collections of elements. For example, sets could be used to determine mutual friends on a social networking site.
 
@@ -68,13 +68,14 @@ The output would be:
 
 ## Intersection
 
-We can use the `intersection()` method or `&` operator to find the shared elements within two or more sets. For example:
+We can use the `.intersection()` method or `&` operator to find the shared elements within two or more sets. For example:
 
 ```py
 friend_group1= {'Juan', 'Mary', 'David', 'Yukiko', 'Alice'}
 friend_group2 = {'Yukiko', 'Peter', 'Juan', 'Alice'}
 
 mutual_friends = friend_group1.intersection(friend_group2)
+
 print(mutual_friends)
 ```
 
@@ -86,7 +87,7 @@ Would output:
 
 ## Difference
 
-We can use the `difference()` method or `-` operator to identify objects unique to a set. For example:
+We can use the `.difference()` method or `-` operator to identify objects unique to a set. For example:
 
 ```py
 sue_likes = {'Pizza', 'Tofu', 'Poke'}
@@ -112,4 +113,4 @@ We can create frozensets with the `frozenset()` keyword:
 frozen_objects = frozenset(['ice cube', 'glacier', 'frozen_set'])
 ```
 
-Set methods that modify the set such as `update()`, `remove()`, and `add()` cannot be used with frozensets since they are frozen in place!
+Set methods that modify the set such as `.update()`, `.remove()`, and `.add()` cannot be used with frozensets since they are frozen in place!
