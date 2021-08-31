@@ -140,7 +140,7 @@ add = lambda a, b: a + b
 
 The expression to the right of the assignment operator is called a "lambda expression". The Python interpreter takes this expression and defines a function object which can be bound to an identifier (in this case, `add`). There is no difference between binding a function to a name using the assignment operator or by using the `def` keyword.
 
-Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions. For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
+Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions.
 
 ```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -150,3 +150,5 @@ odd_numbers = filter(lambda n : n % 2 == 1, numbers)
 print(list(perfect_squares))
 # Output: [1, 3, 5, 7, 9]
 ```
+
+For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
