@@ -12,14 +12,12 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-
-
-Returns the specific number of elements in the array.
+The `.length` array property eturns the specific number of elements in the array.
 
 ## Syntax
 
 ```js
-array.length;
+array.length
 ```
 
 Setting the length with a positive value that is lower than the actual array length will delete items at end.
