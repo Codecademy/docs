@@ -86,25 +86,36 @@ Here, both the `name` variable and the `difference()` function from the **module
 
 ## Renaming Imports and Exports
 
-If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file. To avoid naming conflicts, you can rename these functions, objects, etc., during the export or during the import.
+If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file. 
 
-### 1. Rename in the module (export file) 
+To avoid naming conflicts, you can rename these objects during the export or during the import.
+
+### Rename in the export file (the module):
+
+**module.js**
 
 ```js
 // Renaming import inside module.js
+
 export {
   function1 as newName1,
   function2 as newName2
 };
+```
 
+**main.js**
+
+```js
 // When you want to use the module
-// Import in the main file
+
 import { newName1, newName2 } from './module.js';
 ```
 
 Here, while exporting the function from **module.js** file, new names (here, `newName1` & `newName2`) are given to the function. Hence, when importing that function, the new name is used to reference that function.
 
-### 2. Rename in the import file 
+### Rename in the import file (the main file):
+
+**module.js**
 
 ```js
 // Inside module.js
@@ -113,8 +124,7 @@ export {
   function2
 };
 
-// Wen you want to use the module
-// Import in the required file with different name
+// When you want to use the module, import in the required file with different names
 
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
