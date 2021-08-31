@@ -93,7 +93,7 @@ To avoid naming conflicts, you can rename these objects during the export or dur
 ### Rename in the export file (the module):
 
 ```js
-// Inside module.js
+// In module.js
 export {
   function1 as newName1,
   function2 as newName2
@@ -101,7 +101,7 @@ export {
 ```
 
 ```js
-// Inside main.js
+// In main.js
 import { newName1, newName2 } from './module.js';
 ```
 
@@ -110,7 +110,7 @@ Here, while exporting the function from **module.js** file, new names (here, `ne
 ### Rename in the import file (the main file):
 
 ```js
-// Inside module.js
+// In module.js
 export {
   function1,
   function2
@@ -118,7 +118,7 @@ export {
 ```
 
 ```js
-// Inside main.js
+// In main.js
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
 
@@ -145,17 +145,17 @@ import random_name from './greetPerson.js';
 
 While performing default export,
 
-- `random_name` is imported from `greetPerson.js`. Since, `random_name` is not in `greetPerson.js`, the default export (`greetPerson()` in this case) is exported as `random_name`.
+- `random_name` is imported from **greetPerson.js**. Since `random_name` is not in **greetPerson.js**, the default export (`greetPerson()` in this case) is exported as `random_name`.
 - You can directly use the default export without enclosing curly brackets `{}`.
 
 ## Modules Always use Strict Mode
 
-By default, modules are in strict mode. For example,
+By default, modules are in strict mode. For example:
 
 ```js
-// in greetPerson.js
+// In greetPerson.js
 function greetPerson() {
-  // strict by default
+  // Strict by default
 }
 
 export greetPerson();
