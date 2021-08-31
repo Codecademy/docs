@@ -19,14 +19,14 @@ Sets are especially useful for performing logical operations like finding the un
 
 There are several ways to create a set. 
 
-1. We can create a set from a list with the `set()` keyword:
+We can create a set from a list with the `set()` keyword:
 
 ```py
 animals = set()
 animals = set(['aardvark', 'snail', 'squid'])
 ```
 
-2. A set can also be created with curly braces:
+A set can also be created with curly braces:
 
 ```py 
 oceans = {'Pacific', 'Atlantic', 'Indian', 'Southern', 'Arctic'}
@@ -36,13 +36,12 @@ It's important to note that creating a set will remove any duplicate elements. F
 
 ```py
 dog_breeds = {'pug', 'golden retriever', 'corgi', 'pug', 'corgi'}
+
+print(dog_breeds)
+# Output: {'pug', 'golden retriever', 'corgi'}
 ```
 
-will create a new set with only unique values:
-
-```py 
-{'pug', 'golden retriever', 'corgi'}
-```
+This will create a new set with only unique values.
 
 ## Set Operations
 
@@ -50,13 +49,14 @@ Sets are especially useful for logical operations such as finding the intersecti
 
 ## Union
 
-The `union()` method or `|` operator can be used to merge two or more sets:
+The `.union()` method or `|` operator can be used to merge two or more sets:
 
 ```py
 liked_artists1 = {'Grimes', 'Billie Eilish'}
 liked_artists2 = set({'Daft Punk', 'Iggy Azalea'})
 
 all_likes = liked_artists1.union(liked_artists2)
+
 print(all_likes)
 ```
 
@@ -79,7 +79,7 @@ mutual_friends = friend_group1.intersection(friend_group2)
 print(mutual_friends)
 ```
 
-Would output:
+The output would be:
 
 ```shell
 {'Yukiko', 'Alice', 'Juan'}
@@ -96,18 +96,17 @@ erika_likes = {'Poke', 'Pizza', 'Popcorn'}
 print(sue_likes - erika_likes)
 ```
 
-Will print only the items unique to the first set:
+This would only print the items unique to the first set:
 
 ```shell
 {'Tofu'}
 ```
 
-
 ## Frozensets
 
 Frozensets are a special type of set that are immutable. Like tuples, their contents are frozen and cannot changed after creation. 
 
-We can create frozensets with the `frozenset()` keyword:
+We can create frozensets with the `frozenset()` function:
 
 ```py
 frozen_objects = frozenset(['ice cube', 'glacier', 'frozen_set'])
