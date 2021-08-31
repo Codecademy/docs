@@ -1,0 +1,74 @@
+---
+Title: "Loops"
+Subjects:
+  - "Computer Science"
+  - "Game Development"
+Tags: 
+  - "Files"
+CatalogContent:
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
+---
+
+A file is an object on a computer that stores data, information, settings, or commands used with a computer program.
+
+The `fstream` library allows us to work with files in C++.
+
+To use the `fstream` library in C++ program, include both the standard `<iostream>` AND the `<fstream>` header files in C++ program:
+
+```cpp
+#include <iostream>
+#include <fstream>
+```
+
+There are three classes included in the `fstream` library, which are used to create, write or read files:
+
+1. `ofstream`: Creates and writes to files.
+2. `ifstream`: Reads from files.
+3. `fstream`: A combination of ofstream and ifstream (creates, reads, and writes to files).
+
+## Create and Write To a File
+
+To create a file, use either the `ofstream` or `fstream` class, and specify the name of the file.
+
+To write to the file, use the insertion operator (`<<`).
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+  // Create and open a text file
+  ofstream MyFile("filename.txt");
+
+  // Write to the file
+  MyFile << "Its a Codecademy's File";
+
+  // Close the file
+  MyFile.close();
+}
+```
+
+## Read a File
+
+To read from a file, use either the `ifstream` or `fstream` class, and the name of the file.
+
+Note that we also use a `while` loop together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
+
+```cpp
+// Create a text string, which is used to output the text file
+string myText;
+
+// Read from the text file
+ifstream MyReadFile("filename.txt");
+
+// Use a while loop together with the getline() function to read the file line by line
+while (getline (MyReadFile, myText)) {
+  // Output the text from the file
+  cout << myText; //Output: Its a Codecademy's File
+}
+
+// Close the file
+MyReadFile.close();
+```
