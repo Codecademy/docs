@@ -62,7 +62,7 @@ For example, suppose there's a **module.js** file:
 
 ```js
 // Exporting the variable
-export const name = 'Codecademy JavaScript Program';
+export const name = 'Codecademy Docs';
 
 // Exporting the function
 export function difference(x, y) {
@@ -75,7 +75,7 @@ In main file **main.js**:
 ```js
 import { name, difference } from './module.js';
 
-console.log(name);
+console.log(name); // Output: Codecademy Docs
 
 let diff = difference(9, 5);
 
@@ -94,7 +94,6 @@ To avoid naming conflicts, you can rename these objects during the export or dur
 
 ```js
 // Inside module.js
-
 export {
   function1 as newName1,
   function2 as newName2
@@ -103,7 +102,6 @@ export {
 
 ```js
 // Inside main.js
-
 import { newName1, newName2 } from './module.js';
 ```
 
@@ -113,7 +111,6 @@ Here, while exporting the function from **module.js** file, new names (here, `ne
 
 ```js
 // Inside module.js
-
 export {
   function1,
   function2
@@ -122,7 +119,6 @@ export {
 
 ```js
 // Inside main.js
-
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
 
