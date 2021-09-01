@@ -101,9 +101,7 @@ Notice how inside the `fibonacci()` function, it calls itself.
 
 In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions. 
 
-A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. 
-
-One example is the built-in `filter()` function:
+A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. One example is the built-in `filter()` function:
 
 ```py
 # Returns true if n is a perfect square, and false otherwise
@@ -112,10 +110,10 @@ def is_perfect_square(n):
   return (n ** 0.5).is_integer()
 
 numbers = [3, 4, 37, 9, 7, 32, 25, 81, 79, 100]
+
 perfect_squares = filter(is_perfect_square, numbers)
 
 print(list(perfect_squares))
-
 # Output: [4, 9, 25, 81, 100]
 ```
 
@@ -142,7 +140,7 @@ add = lambda a, b: a + b
 
 The expression to the right of the assignment operator is called a "lambda expression". The Python interpreter takes this expression and defines a function object which can be bound to an identifier (in this case, `add`). There is no difference between binding a function to a name using the assignment operator or by using the `def` keyword.
 
-Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions. For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
+Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions.
 
 ```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -152,3 +150,5 @@ odd_numbers = filter(lambda n : n % 2 == 1, numbers)
 print(list(perfect_squares))
 # Output: [1, 3, 5, 7, 9]
 ```
+
+For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
