@@ -38,49 +38,52 @@ Milo
 
 ## Map Iterator
 
-```js
-const cats = [
-  {
-    name: "Kiki", 
-    age: 2
-  }, 
-  {
-    name: "Leo",
-    age: 1,
-  }, 
-  {
-    name: "Milo",
-    age: 3
-  }
-];
+Returns a new array with a callback executed on every element.
 
-cats.map(cat => {
-  cat.age * 2
+```js
+const catsAge = [2, 1, 3];
+
+catsAge.map(age => {
+  return age * 2
 });
 ```
+
+- The `map` is a method that iterates through the `catsAge` array and returns the elements in an array.
+- The callback function is used to alter the value and return the values in a new array.
 
 The output would be:
 
 ```
-4
-2
-6
+[4, 2, 6]
 ```
 
 ## Filter Iterator
 
-```js
-const cats = [{
+Returns a new array with elements that pass the callback function's test.
 
-}];
-// Output:
+```js
+const cats = ["Kiki", "Leo", "Milo"];
+
+cats.filter(cat => {
+  return cat.length > 3
+});
+```
+
+- The `filter` method iterates through the `cats` array.
+- If the return value for the callback results to  `true`, the element will be added to the new array.
+- If the reuturn value results to `false`, the element will not be added to the new array.
+
+The output would be:
+
+```
+["Kiki", "Milo"]
 ```
 
 ## Fourth Iterator
 
 
 
-**Note:** Notes are written this way.
+**Note:** There are required and optional parameters.
 
 Add sufficient spacing, and explain each iterator and what it does before writing out the code snippet. Try keeping paragraphs a short; 3-4 sentences maximum.
 
@@ -88,6 +91,3 @@ Add sufficient spacing, and explain each iterator and what it does before writin
 const variable = "";
 // Output:
 ```
-
-- Use dash to explain code snippet.
-- `variable` is set to an empty string.
