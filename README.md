@@ -24,6 +24,10 @@ Docs is live with about 600 high-quality entries. Now that the MVP is out, our g
 
 We are currently building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
 
+## Core Engineering Team
+
+- TBD
+
 ## How do I contribute?
 
 There are many ways to contribute to Codecademy Docs:
