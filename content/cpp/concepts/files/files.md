@@ -73,7 +73,7 @@ int main() {
   // Read from the text file
   std::ifstream MyReadFile("journal.txt");
 
-  // Use a while loop together with the getline() function to read the file line by line
+  // Output the file line by line
   while (getline (MyReadFile, myText)) {
     std::cout << myText << "\n";
   }
@@ -88,4 +88,4 @@ The output would be:
 ```shell
 Today is the greatest
 Day I've ever known
-
+```
