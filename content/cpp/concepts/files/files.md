@@ -10,11 +10,9 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A file is an object on a computer that stores data, information, settings, or commands used with a computer program.
+Computers use file systems to store and retrieve data. Each file is an individual container of related information.
 
-The `fstream` library allows us to work with files in C++.
-
-To use the `fstream` library in the C++ program, include both the standard `<iostream>` and the `<fstream>` header files in the C++ program:
+The `fstream` library allows us to work with files in C++. To use the `fstream` library in the C++ program, include both the standard `<iostream>` and the `<fstream>` header files in the C++ program:
 
 ```cpp
 #include <iostream>
@@ -23,9 +21,9 @@ To use the `fstream` library in the C++ program, include both the standard `<ios
 
 There are three classes included in the `fstream` library, which are used to create, write or read files:
 
-- `ofstream`: Creates and writes to files.
-- `ifstream`: Reads from files.
-- `fstream`: A combination of ofstream and ifstream (creates, reads, and writes to files).
+- `ofstream`: Create files and write to files.
+- `ifstream`: Read from files.
+- `fstream`: A combination of `ofstream` and `ifstream` (create, read, and write to files).
 
 ## Create and Write To a File
 
@@ -36,14 +34,15 @@ To write to the file, use the insertion operator (`<<`).
 ```cpp
 #include <iostream>
 #include <fstream>
+
 using namespace std;
 
 int main() {
   // Create and open a text file
-  ofstream MyFile("filename.txt");
+  ofstream MyFile("journal.txt");
 
   // Write to the file
-  MyFile << "Its a Codecademy's File";
+  MyFile << "Today is the greatest";
 
   // Close the file
   MyFile.close();
@@ -65,8 +64,7 @@ ifstream MyReadFile("filename.txt");
 
 // Use a while loop together with the getline() function to read the file line by line
 while (getline (MyReadFile, myText)) {
-  // Output the text from the file
-  cout << myText; //Output: Its a Codecademy's File
+  cout << myText; // Output: Its a Codecademy's File
 }
 
 // Close the file
