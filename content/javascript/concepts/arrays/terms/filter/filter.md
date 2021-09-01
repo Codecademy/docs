@@ -1,6 +1,6 @@
 ---
 Title: ".filter()"
-Description: "Returns a new array with elements that pass the callback function's test."
+Description: "Creates a new array with all elements that pass the test from the provided function."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -12,44 +12,105 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-Returns a new array with elements that pass the callback function's test.
+The `.filter()` array method creates a new array with all elements that pass the test from the provided function.
+
 
 ## Syntax
 
 ```js
-array.filter((element, index, array) => {...});
+// Arrow function
+array.filter(element => { ... })
+array.filter((element, index) => { ... })
+array.filter((element, index, array) => { ... })
 ```
 
-A function can be invoked with three arguments: 
+## Parameters
 
-- `element`: The current element we are iterating through.
-- `index` (optional): The index of the array element.
-- `array` (optional): The array itself.
+* <code>element</code>: The current element being processed in the array.
+* <code>index</code> (optional): The index of the current element being processed in the array.
+* <code>array</code> (optional): The array *filter* was called upon.
+
+## Return Value
+
+A new array with the elements that pass the test. 
+
+**note: If no elements that pass the test, an empty array will be returned.**
+
 
 ## Examples
 
-Return an array of the elements that meet the callback's condition:
+Filtering out all small values
 
 ```js
-const catAges = [2, 1, 3];
+const numbers = [6, 44, 87, 1, 197, 22];
 
-const youngCats = catAges.filter(age => {
-  return age < 3
-});
+const filteredNumbers = numbers.filter((num) => num >= 10)
 
-console.log(youngCats);
-// Output: [2, 1]
+console.log(filteredNumbers)
+// Output: [44, 87, 197, 22]
 ```
 
-If no elements match the condition, the result will be an empty array:
+Filtering by index
 
 ```js
-const catAges = [2, 1, 3];
+const numbers = [6, 44, 87, 1, 197, 22];
 
-const adultCats = catAges.filter(age => {
-  return age > 5
-});
+const filterByIndex = numbers.filter((element, index) => {
+  return index % 2 === 0
+})
 
-console.log(adultCats);
-// Output: []
+console.log(filterByIndex)
+// Output: [6, 87, 197]
+```
+
+Filtering out names that don't begin with the given character
+
+```js
+const names = ['Jim', 'Bob', 'Sarah', 'Alex', 'James', 'Sam', 'Peter']
+
+const filteredNames = ((char, array) => {
+  return array.filter(name => name[0].toLowerCase() === char)
+})
+
+console.log(filteredNames('j', names))
+// Output: ["Jim", "James"]
+```
+
+Filtering an array of objects 
+
+```js
+const kickballPlayers = [
+  {name: 'Jim', team: 'Red'}, 
+  {name: 'Bob', team: 'Red'}, 
+  {name: 'Sarah', team: 'Blue'}, 
+  {name: 'Alex', team: 'Red'}, 
+  {name: 'James', team: 'Blue'}, 
+  {name: 'Sam', team: 'Blue'}, 
+  {name: 'Peter', team: 'Red'}, 
+  {name: 'Michael', team: 'Red'}, 
+  {name: 'Kenny', team: 'Blue'}, 
+  {name: 'Matt', team: 'Blue'}
+]
+
+const redTeam = kickballPlayers.filter(player => player.team === 'Red')
+```
+```js
+console.log(redTeam)
+// Output: 
+// [{
+//   name: "Jim",
+//   team: "Red"
+// }, {
+//   name: "Bob",
+//   team: "Red"
+// }, {
+//   name: "Alex",
+//   team: "Red"
+// }, {
+//   name: "Peter",
+//   team: "Red"
+// }, {
+//   name: "Michael",
+//   team: "Red"
+// }]
 ```
