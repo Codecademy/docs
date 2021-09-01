@@ -84,7 +84,7 @@ const person = {
 console.log(person.greeting());
 ```
 
-- The `greeting` key holds a function value that returns a template literal that use back-ticks(``).
+- The `greeting` key holds a function value that returns a template literal using back-ticks(``).
 - When `person.greeting` value is invoked, the corresponding function will run.
 
 This will output:
