@@ -25,28 +25,34 @@ There are three classes included in the `fstream` library, which are used to cre
 - `ifstream`: Read from files.
 - `fstream`: A combination of `ofstream` and `ifstream` (create, read, and write to files).
 
-## Create and Write To a File
+## Create and Write to a File
 
 To create a file, use either the `ofstream` or `fstream` class, and specify the name of the file.
 
-To write to the file, use the insertion operator (`<<`).
+To write to the file, use the insertion operator (`<<`). For example:
 
 ```cpp
 #include <iostream>
 #include <fstream>
 
-using namespace std;
-
 int main() {
   // Create and open a text file
-  ofstream MyFile("journal.txt");
+  std::ofstream MyFile("journal.txt");
 
   // Write to the file
-  MyFile << "Today is the greatest";
+  MyFile << "Today is the greatest\n";
+  MyFile << "Day I've ever known";
 
   // Close the file
   MyFile.close();
 }
+```
+
+In the same folder, there should be a new text file called **journal.txt**. There should be two lines of text inside:
+
+```pseudo
+Today is the greatest
+Day I've ever known
 ```
 
 ## Read a File
@@ -56,17 +62,30 @@ To read from a file, use either the `ifstream` or `fstream` class, and the name 
 Note that we also use a `while` loop together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
 
 ```cpp
-// Create a text string, which is used to output the text file
-string myText;
+#include <iostream>
+#include <fstream>
 
-// Read from the text file
-ifstream MyReadFile("filename.txt");
+int main() {
 
-// Use a while loop together with the getline() function to read the file line by line
-while (getline (MyReadFile, myText)) {
-  cout << myText; // Output: Its a Codecademy's File
+  // Create a text string, which is used to output the text file
+  std::string myText;
+
+  // Read from the text file
+  std::ifstream MyReadFile("journal.txt");
+
+  // Use a while loop together with the getline() function to read the file line by line
+  while (getline (MyReadFile, myText)) {
+    std::cout << myText << "\n";
+  }
+
+  // Close the file
+  MyReadFile.close();
 }
-
-// Close the file
-MyReadFile.close();
 ```
+
+The output would be:
+
+```shell
+Today is the greatest
+Day I've ever known
+
