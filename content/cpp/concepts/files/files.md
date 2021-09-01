@@ -66,7 +66,6 @@ Note that we also use a `while` loop together with the `getline()` function (whi
 #include <fstream>
 
 int main() {
-
   // Create a text string, which is used to output the text file
   std::string myText;
 
