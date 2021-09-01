@@ -27,7 +27,7 @@ We are currently building a team of community volunteers to maintain Codecademy 
 - [@li-codecademy](https://github.com/li-codecademy)
 - [@christian-dinh](https://github.com/christian-dinh)
 - [@judahtanthony](https://github.com/judahtanthony)
-- [@sresnike11](https://github.com/aresnik11)
+- [@sresnik11](https://github.com/aresnik11)
 - [@dougyd92](https://github.com/dougyd92)
 - [@aionate0812](https://github.com/aionate0812)
 - [@mattschiller](https://github.com/MattSchiller)
