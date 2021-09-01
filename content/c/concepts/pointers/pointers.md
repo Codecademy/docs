@@ -25,7 +25,9 @@ Data is stored in a computer's [memory](https://www.codecademy.com/resources/doc
 
 The address is a value that describes _where_ in memory a variable is located.
 
-To understand pointers, it may be helpful to think of variables as boxes on a shelf. Each box has a label (the identifier), a unique serial number that allows one to locate it (the address), and possibly something inside of it (the value). Following this analogy, a pointer can be described as a box that _contains_ the serial number of another box within it.
+To understand pointers, it may be helpful to think of variables as boxes on a shelf. Each box has a label (the identifier), a unique serial number that allows one to locate it (the address), and possibly something inside of it (the value).
+
+Following this analogy, a pointer can be described as a box that contains the serial number of another box within it.
 
 ## Declaring and Assigning a Pointer
 

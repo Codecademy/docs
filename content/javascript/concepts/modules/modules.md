@@ -62,7 +62,7 @@ For example, suppose there's a **module.js** file:
 
 ```js
 // Exporting the variable
-export const name = 'Codecademy JavaScript Program';
+export const name = 'Codecademy Docs';
 
 // Exporting the function
 export function difference(x, y) {
@@ -75,7 +75,7 @@ In main file **main.js**:
 ```js
 import { name, difference } from './module.js';
 
-console.log(name);
+console.log(name); // Output: Codecademy Docs
 
 let diff = difference(9, 5);
 
@@ -86,30 +86,33 @@ Here, both the `name` variable and the `difference()` function from the **module
 
 ## Renaming Imports and Exports
 
-If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file. To avoid naming conflicts, you can rename these functions, objects, etc., during the export or during the import.
+If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file.
 
-### 1. Rename in the module (export file)
+To avoid naming conflicts, you can rename these objects during the export or during the import.
+
+### Rename in the export file (the module):
 
 ```js
-// Renaming import inside module.js
+// In module.js
 export { function1 as newName1, function2 as newName2 };
+```
 
-// When you want to use the module
-// Import in the main file
+```js
+// In main.js
 import { newName1, newName2 } from './module.js';
 ```
 
 Here, while exporting the function from **module.js** file, new names (here, `newName1` & `newName2`) are given to the function. Hence, when importing that function, the new name is used to reference that function.
 
-### 2. Rename in the import file
+### Rename in the import file (the main file):
 
 ```js
-// Inside module.js
+// In module.js
 export { function1, function2 };
+```
 
-// Wen you want to use the module
-// Import in the required file with different name
-
+```js
+// In main.js
 import { function1 as newName1, function2 as newName2 } from './module.js';
 ```
 
@@ -136,17 +139,17 @@ import random_name from './greetPerson.js';
 
 While performing default export,
 
-- `random_name` is imported from `greetPerson.js`. Since, `random_name` is not in `greetPerson.js`, the default export (`greetPerson()` in this case) is exported as `random_name`.
+- `random_name` is imported from **greetPerson.js**. Since `random_name` is not in **greetPerson.js**, the default export (`greetPerson()` in this case) is exported as `random_name`.
 - You can directly use the default export without enclosing curly brackets `{}`.
 
 ## Modules Always use Strict Mode
 
-By default, modules are in strict mode. For example,
+By default, modules are in strict mode. For example:
 
 ```js
-// in greetPerson.js
+// In greetPerson.js
 function greetPerson() {
-  // strict by default
+  // Strict by default
 }
 
 export greetPerson();

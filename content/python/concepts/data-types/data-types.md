@@ -32,7 +32,7 @@ Here are Python's built-in data types:
 - Set types: `set`, `frozenset`
 - Dictionary type: `dict`
 
-## Type()
+## type()
 
 To find the data type of any object, the `type()` function can be used:
 
@@ -46,4 +46,26 @@ This will output:
 
 ```shell
 <class 'str'>
+```
+
+## isinstance()
+
+You can also use the built-in `isinstance()` function to test if a variable is an instance of a specified type:
+
+```py
+
+word = "purple"
+languages = ("Python", "JavaScript", "Go")
+
+print(isinstance(word, str))
+print(isinstance(languages, list))
+print(isinstance(languages, tuple))
+```
+
+This will print a boolean value for each function call indicating if the object is an instance of the given type:
+
+```shell
+True
+False
+True
 ```

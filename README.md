@@ -13,16 +13,24 @@
 
 Docs is live with about 600 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
-## Core Team
+### 📝 Content Team
 
 - [@sonnynomnom](https://github.com/sonnynomnom)
-- [@li-codecademy](https://github.com/li-codecademy)
-- [@christian-dinh](https://github.com/christian-dinh)
 - [@dusch4593](https://github.com/dusch4593)
 - [@caupolicandiaz](https://github.com/caupolicandiaz)
 - [@sswiniarski](https://github.com/sswiniarski)
 
 We are currently building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
+
+### 🏗 Engineering Team
+
+- [@li-codecademy](https://github.com/li-codecademy)
+- [@christian-dinh](https://github.com/christian-dinh)
+- [@judahtanthony](https://github.com/judahtanthony)
+- [@sresnik11](https://github.com/aresnik11)
+- [@dougyd92](https://github.com/dougyd92)
+- [@aionate0812](https://github.com/aionate0812)
+- [@mattschiller](https://github.com/MattSchiller)
 
 ## How do I contribute?
 
