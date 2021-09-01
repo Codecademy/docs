@@ -13,7 +13,7 @@
 
 Docs is live with about 600 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
-## Core Team
+## Core Content Team
 
 - [@sonnynomnom](https://github.com/sonnynomnom)
 - [@dusch4593](https://github.com/dusch4593)
