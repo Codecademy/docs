@@ -22,7 +22,7 @@ Docs is live with about 600 high-quality entries. Now that the MVP is out, our g
 
 We are currently building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
 
-### 🏗 Product Team
+### 🏗 Engineering Team
 
 - [@li-codecademy](https://github.com/li-codecademy)
 - [@christian-dinh](https://github.com/christian-dinh)
