@@ -1,5 +1,5 @@
 ---
-Title: "Loops"
+Title: "Files"
 Subjects:
   - "Computer Science"
   - "Game Development"
@@ -14,7 +14,7 @@ A file is an object on a computer that stores data, information, settings, or co
 
 The `fstream` library allows us to work with files in C++.
 
-To use the `fstream` library in C++ program, include both the standard `<iostream>` AND the `<fstream>` header files in C++ program:
+To use the `fstream` library in the C++ program, include both the standard `<iostream>` and the `<fstream>` header files in the C++ program:
 
 ```cpp
 #include <iostream>
@@ -23,9 +23,9 @@ To use the `fstream` library in C++ program, include both the standard `<iostrea
 
 There are three classes included in the `fstream` library, which are used to create, write or read files:
 
-1. `ofstream`: Creates and writes to files.
-2. `ifstream`: Reads from files.
-3. `fstream`: A combination of ofstream and ifstream (creates, reads, and writes to files).
+- `ofstream`: Creates and writes to files.
+- `ifstream`: Reads from files.
+- `fstream`: A combination of ofstream and ifstream (creates, reads, and writes to files).
 
 ## Create and Write To a File
 
