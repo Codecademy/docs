@@ -90,7 +90,7 @@ If the objects (variables, functions, etc.) that you want to import are already 
 
 To avoid naming conflicts, you can rename these objects during the export or during the import.
 
-### Rename in the export file (the module):
+### Rename in the export file (the module)
 
 ```js
 // In module.js
@@ -104,7 +104,7 @@ import { newName1, newName2 } from './module.js';
 
 Here, while exporting the function from **module.js** file, new names (here, `newName1` & `newName2`) are given to the function. Hence, when importing that function, the new name is used to reference that function.
 
-### Rename in the import file (the main file):
+### Rename in the import file (the main file)
 
 ```js
 // In module.js
