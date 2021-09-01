@@ -21,8 +21,8 @@ The `fstream` library, short for "file stream", allows us to work with files in 
 
 There are three classes included in the `fstream` library, which are used to create, write or read files:
 
-- `ofstream` (output): Create files and write to files.
-- `ifstream` (input): Read from files.
+- `ofstream` ("output file stream"): Create files and write to files.
+- `ifstream` ("input file stream"): Read from files.
 - `fstream`: A combination of `ofstream` and `ifstream` (create, read, and write to files).
 
 ## Create and Write to a File
