@@ -12,16 +12,16 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-A JavaScript object can be created, or defined, with an object literal:
+A JavaScript object can be created or defined with an object literal:
 
 ```js
-var person = {firstName: "Elizabeth", lastName: "Harmon", age: 22, eyeColor: "Hazel"};
+const person = {firstName: "Elizabeth", lastName: "Harmon", age: 22, eyeColor: "Hazel"};
 ```
 
 Spaces and line breaks are not important. An object definition can span multiple lines:
 
 ```js
-var person = {
+const person = {
   firstName: "Elizabeth",
   lastName: "Harmon",
   age: 22,
@@ -31,9 +31,9 @@ var person = {
 
 ## Object Properties
 
-The `name: values` pairs in JavaScript objects are called properties:
+The `key: value` pairs in JavaScript objects are called properties:
 
-| Property	| Property Value |
+| Property Key	| Property Value |
 | --- | --- |
 | `firstName` |	`"Elizabeth"` |
 | `lastName` | `"Harmon"` |
@@ -58,10 +58,37 @@ person.lastName;
 person["lastName"];
 ```
 
+These would output:
+
+```
+"Harmon"
+```
+
 ## Object Methods
 
-Objects can also have methods.
-
-Methods are actions that can be performed on objects.
+Object methods are actions that can be performed on objects.
 
 Methods are stored in properties as function definitions.
+
+```js
+const person = {
+  firstName: "Elizabeth",
+  lastName: "Harmon",
+  age: 22,
+  eyeColor: "Hazel",
+  greeting: function() {
+    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
+  }
+};
+
+console.log(person.greeting());
+```
+
+- The `greeting` key holds a function value that returns a template literal that use back-ticks(``).
+- When `person.greeting` value is invoked, the corresponding function will run.
+
+This will output:
+
+```
+"Hi, I'm Elizabeth Harmon."
+```
