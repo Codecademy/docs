@@ -78,22 +78,32 @@ print(returned_value)
 
 Functions in Python can call themselves — a concept known as "recursion". Recursion provides an elegant way to solve problems by breaking them down into smaller, more easily-solvable parts, and using those parts to build up a solution.
 
-Consider the Fibonacci sequence, whose first two terms are explicitly defined to be 0 and 1. Each subsequent term is constructed by taking the sum of the previous two terms. Thus, the first six terms of the sequence are 0, 1, 1, 2, 3, and 5. Defining a function that prints the `n`-th Fibonacci number is most easily achieved using recursion.
+Consider the Fibonacci sequence, whose first two terms are explicitly defined to be 0 and 1. Each subsequent term is constructed by taking the sum of the previous two terms. Thus, the first six terms of the sequence are 0, 1, 1, 2, 3, and 5. 
+
+Defining a function that prints the `n`-th Fibonacci number is most easily achieved using recursion.
 
 ```codebyte/py
 def fibonacci(n):
   if n <= 1:
-    return n                                    # Base cases
+    # Base cases
+    return n
   else:
-    return fibonacci(n - 2) + fibonacci(n - 1)  # Sum of the previous two terms
+    # Sum of the previous two terms
+    return fibonacci(n - 2) + fibonacci(n - 1)
 
 for i in range(6):
   print(fibonacci(i))
 ```
 
+Notice how inside the `fibonacci()` function, it calls itself.
+
 ## Higher-Order Functions
 
-In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions. A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. One example is the built-in `filter()` function.
+In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions. 
+
+A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. 
+
+One example is the built-in `filter()` function:
 
 ```py
 # Returns true if n is a perfect square, and false otherwise
@@ -115,7 +125,7 @@ print(list(perfect_squares))
 
 The act of defining a function using the `def` keyword binds that function to a name. However, functions can also be defined without giving them a name. Such functions are called "anonymous" and are defined using the `lambda` keyword.
 
-```pseudocode
+```pseudo
 lambda <parameters> : <function body>
 ```
 
@@ -136,9 +146,9 @@ Lambda expressions are most commonly used to define simple, single-use functions
 
 ```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 odd_numbers = filter(lambda n : n % 2 == 1, numbers)
 
 print(list(perfect_squares))
-
 # Output: [1, 3, 5, 7, 9]
 ```
