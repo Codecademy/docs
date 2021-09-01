@@ -10,137 +10,67 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-## For Each Iterator
+Iterators are used to loop over a group of data members, or a collection. 
 
-Returns undefined, and executes a callback function for each element in the array it is called on.
+An iterator is an object that implements the Iterator protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc...), have an iterator property that make them iterable.
 
-```js
-const cats = ["Kiki", "Leo", "Milo"];
+## Iterable Protocol
 
-cats.forEach(cat => {
-  console.log(cat)
-});
-```
+All iterable objects implement the `@@iterator` method. In other words, an object must have or inherit, via its prototype chain, the `@@iterator` property key.
 
-- Our collection, `cats`, is an array.
-- The `forEach` is a method that iterates through the collection.
-- Each `cat` in the `cats` array is taken as an argument and passed through the `console.log` function.
+When an object is to be iterated, the `@@iterator` method is called without any arguments, and the returned iterator obtains the values or elements to be looped through.
 
-The output would be:
+## Iterator Protocol
 
-```
-Kiki
-Leo
-Milo
-```
+The iterator protocol, by definition, implements the `next()` method and returns an object with at least two properties: 
 
-## Map Iterator
+- `done` is a boolean that determines whether the sequence has been completed or consumed. It's value is `false` if incomplete and `true` otherwise.
+- `value` is any type of value the iterator returns.
 
-Returns a new array with a callback executed on every element.
+## Examples
+
+This range-based iterator, loops through a collection of integers and satisfies the iteration protocols.
 
 ```js
-const catAges = [2, 1, 3];
+function createRangeIterator(min = 0, max = Infinity, step = 1) {
+  let nextNum = min;
+  
+  const rangeIterator = {
+    next: function() {
+      let result;
+      if (nextNum < max) {
+        result = { value: nextNum, done: false }
+        nextNum += step;
+        return result;
+      }
+      return { done: true}
+    }
+  };
 
-catAges.map(age => {
-  return age * 2
-});
+  return rangeIterator;
+}
 ```
 
-- The `map` is a method that iterates through the `catAges` array and returns the elements in an array.
-- The callback function is used to alter the value and return the values in a new array.
+- The `rangeIterator` object is an iterator object that satifies the iterator protocol.
+- When all elements in the range collection are iterated over, `done` becomes true and is returned.
 
-The output would be:
-
-```
-[4, 2, 6]
-```
-
-## Filter Iterator
-
-Returns a new array with elements that pass the callback function's test.
+To use the `rangeIterator`:
 
 ```js
-const cats = ["Kiki", "Leo", "Milo"];
+const useCase = createRangeIterator(2, 8, 2);
 
-cats.filter(cat => {
-  return cat.length > 3
-});
-```
-
-- The `filter` method iterates through the `cats` array.
-- If the return value for the callback results in  `true`, the element will be added to the new array.
-- If the return value results in `false`, the element will not be added to the new array.
-
-The output would be:
-
-```
-["Kiki", "Milo"]
-```
-
-**Note**: The `forEach`, `map`, and `filter` methods, all take an optional second parameter of `index`. This refers to the numerical value of the element's position within the array. For example:
-
-```js
-const cats = ["Kiki", "Leo", "Milo"];
-
-cats.forEach((cat, index) => {
-  console.log(index)
-});
+let result = useCase.next();
+while (!result.done) {
+  console.log(result.value);
+  result = useCase.next();
+}
 ```
 
 This will output:
 
 ```
-0
-1
 2
-```
-
-## Find Index Iterator
-
-Returns the first index that passes the callback function's test.
-
-```js
-const cats = ["Kiki", "Leo", "Milo", "Cleo", "Lily", "Luna"];
-
-const findLily = cats.findIndex(cat => {
-  return cat == "Lily"
-});
-
-console.log(findLily);
-```
-
-
-- The variable `findLily`, will store the index value from the `findIndex` method.
-- `findIndex` iterates through the `cats` array to check if the value satisfies the callback's test.
-
-This will output:
-
-```
 4
-```
-
-## Reduce Iterator
-
-Returns a single value after iterating through every element.
-
-```js
-const catAges = [2, 1, 3];
-
-const sumOfCatAges = catAges.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue
-});
-
-console.log(sumOfCatAges)
-```
-
-- Our collection `catAges`, is an array.
-- `sumOfCatAges` is a variable that stores the returned value after invoking the `reduce` method on our array.
-- The `accumulator` and `currentValue` parameters hold the value of the first and second element in the array, respectively.
-- With each iteration, the `accumulator` will change to the callback's returned value.
-
-The output would be:
-
-```
-// 2 + 1 + 3
 6
+{ done: true }
 ```
