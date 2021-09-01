@@ -34,6 +34,7 @@ This range-based iterator, loops through a collection of integers and satisfies 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
   let nextNum = min;
+  let numCount = 0;
   
   const rangeIterator = {
     next: function() {
@@ -41,9 +42,10 @@ function createRangeIterator(min = 0, max = Infinity, step = 1) {
       if (nextNum < max) {
         result = { value: nextNum, done: false }
         nextNum += step;
+        numCount ++;
         return result;
       }
-      return { done: true}
+      return { value: numCount, done: true}
     }
   };
 
