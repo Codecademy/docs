@@ -26,38 +26,56 @@ const mixedArray = [1, 'chicken', false];
 Using an array literal is the easiest way to create a JavaScript array.
 
 ```js
-var cars = ["Saab", "Volvo", "BMW"];
+var cars = ['Saab', 'Volvo', 'BMW'];
 ```
 
 Spaces and line breaks are not important. A declaration can span multiple lines:
 
 ```js
 var cars = [
-  "Saab",
-  "Volvo",
-  "BMW"
+  'Saab',
+  'Volvo',
+  'BMW'
 ];
 ```
 
 Using the JavaScript Keyword `new` is another way to create an array.
 
 ```js
-var cars = new Array("Saab", "Volvo", "BMW");
+var cars = new Array('Saab', 'Volvo', 'BMW');
 ```
 
 ## Access the Elements of an Array
 
-You access an array element by referring to the index number.
+JavaScript array elements are arranged by index values, starting at 0:
 
-This statement accesses the value of the first element in cars:
+- Index 0 has the first element.
+- Index 1 has the second element.
+- Index 2 has the third element.
+- ...and so on.
 
-```js
-var name = cars[0];
+Individual elements in the array can be accessed using the array name and the element's index surrounded by square brackets.
+
+```pseudo
+array[index]
 ```
 
-Array indexes start with 0.
+This code accesses the value of the first element in the `cars` array:
 
-- 0 is the first element. 
-- 1 is the second element.
-- 2 is the third element.
-- ...and so on.
+```js
+var cars = ['Saab', 'Volvo', 'BMW'];
+
+console.log(cars[0]);
+// Output: Saab
+```
+
+Array elements can be changed by accessing the element and assigning a new value to it.
+
+```js
+var cars = ['Saab', 'Volvo, 'BMW'];
+
+cars[1] = 'Tesla';
+
+console.log(cars[1]);
+// Output: Tesla
+```
