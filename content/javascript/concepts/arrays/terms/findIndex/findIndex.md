@@ -1,6 +1,6 @@
 ---
 Title: ".findIndex()"
-Description: "Returns the first index that passes the callback function's test. Returns `-1` if no element passes the test."
+Description: "Returns the first index that passes the callback function's test. Returns -1 if no element passes the test."
 Subjects:
   - "Web Development"
   - "Computer Science"
@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-Returns the first index that passes the callback function's test. Returns `-1` if no element passes the test.
+The `.findIndex()` returns the first index that passes the callback function's test. Returns `-1` if no element passes the test.
 
 ## Syntax
 
@@ -52,4 +52,16 @@ const findLily = cats.findIndex(cat => {
 
 console.log(findLily);
 // Output: -1
+```
+
+Codebyte Example
+
+```codebyte/js
+function checkAge(age) {
+  return age < 21;
+}
+
+const peopleInLine = [21, 22, 20, 24, 22];
+
+console.log(peopleInLine.findIndex(checkAge)) 
 ```
