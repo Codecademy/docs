@@ -12,7 +12,7 @@ CatalogContent:
 
 Iterators are used to loop over a group of data members, or a collection. 
 
-An iterator is an object that implements the iteratoration protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc.) have an iterator property that make them iterable.
+An iterator is an object that implements the iteration protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc.) have an iterator property that make them iterable.
 
 ## Iterable Protocol
 
