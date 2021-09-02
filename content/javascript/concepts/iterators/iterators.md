@@ -74,5 +74,5 @@ This will output:
 2
 4
 6
-{ done: true }
+{ value: 3, done: true }
 ```
