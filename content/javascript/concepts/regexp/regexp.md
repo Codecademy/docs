@@ -33,7 +33,7 @@ There is a difference between the methods. Literal notation compiles when the ex
 
 Using the object constructor means the expression will be compiled at runtime. It should be used when the pattern of the `RegExp` object would be subject to change, or the pattern is obtained during runtime, such as from user input.
 
-### `RegExp` Properties
+### RegExp Properties
 
 Property|Description
 --- | ---
@@ -48,14 +48,14 @@ Property|Description
 `.unicode`|Are Unicode features enabled?
 `.lastIndex`|The index at which to start the next match.
 
-### `RegExp` Methods
+### RegExp Methods
 
 Method|Description
 ---|---
 `.exec(str)`|Execute a search on its `str` string parameter.
 `.test(str)`|Tests for a match in its `str` string parameter.
 
-### `String` Methods That Can Use `RegExp` Objects
+### String Methods that Can Use RegExp Objects
 
 In the following `re` is a `RegExp` object.
 
