@@ -12,7 +12,7 @@ CatalogContent:
 
 Iterators are used to loop over a group of data members, or a collection. 
 
-An iterator is an object that implements the Iterator protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc...), have an iterator property that make them iterable.
+An iterator is an object that implements the Iterator protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc.) have an iterator property that make them iterable.
 
 ## Iterable Protocol
 
@@ -24,10 +24,10 @@ When an object is to be iterated, the `@@iterator` method is called without any 
 
 The iterator protocol, by definition, implements the `next()` method and returns an object with at least two properties: 
 
-- `done` is a boolean that determines whether the sequence has been completed or consumed. It's value is `false` if incomplete and `true` otherwise.
+- `done` is a boolean that determines whether the sequence has been completed or consumed. Its value is `false` if incomplete and `true` otherwise.
 - `value` is any type of value the iterator returns.
 
-## Examples
+## Example
 
 This range-based iterator, loops through a collection of integers and satisfies the iteration protocols.
 
@@ -45,7 +45,7 @@ function createRangeIterator(min = 0, max = Infinity, step = 1) {
         numCount ++;
         return result;
       }
-      return { value: numCount, done: true}
+      return { value: numCount, done: true }
     }
   };
 
@@ -54,14 +54,15 @@ function createRangeIterator(min = 0, max = Infinity, step = 1) {
 ```
 
 - The `rangeIterator` object is an iterator object that satifies the iterator protocol.
-- When all elements in the range collection are iterated over, `done` becomes true and is returned.
+- When all elements in the range collection are iterated over, `done` becomes `true` and is returned.
 
-To use the `rangeIterator`:
+To use the `createRangeIterator()`:
 
 ```js
 const useCase = createRangeIterator(2, 8, 2);
 
 let result = useCase.next();
+
 while (!result.done) {
   console.log(result.value);
   result = useCase.next();
@@ -70,7 +71,7 @@ while (!result.done) {
 
 This will output:
 
-```
+```shell
 2
 4
 6
