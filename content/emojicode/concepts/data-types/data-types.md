@@ -25,7 +25,7 @@ Here are a few basic data types in Emojicode:
 | `🔡` | Text strings |
 | `👌` | Truth values `👍`/`👎` |
 
-## `🔲` Type Casting
+## 🔲 Type Casting
 
 Type casting is a way to determine whether a value is of a given type at run-time and to treat the value as an instance of this type.
 
