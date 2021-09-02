@@ -15,9 +15,7 @@ CatalogContent:
   - "paths/data-science"
 ---
 
-
-
-Allows the user to check if a file is writable or not. The function will return `True` if the file is writable and accessed in append or write mode, and `False` if it was accessed in read mode.
+The `.writeable() file method allows the user to check if a file is writable or not. The function will return `True` if the file is writable and accessed in append or write mode, and `False` if it was accessed in read mode.
 
 ## Syntax
 
@@ -29,18 +27,22 @@ file.writable()
 
 Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "a")
 
 f.writable()
 ```
 
+The `.writable()` method will return `True`.
+
 ## Example 2
 
 Use `.writable()` to check if the **gullivers_travels.txt** file is writable:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "r")
 
 f.writable()
 ```
+
+The `.writable()` method will return `False`.
