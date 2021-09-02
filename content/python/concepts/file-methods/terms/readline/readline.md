@@ -12,12 +12,9 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
 
-
-
-Returns the first line of content from an open file.
+The `.readline()` returns the first line of content from an open file.
 
 ## Syntax
 
@@ -25,11 +22,11 @@ Returns the first line of content from an open file.
 file.readline()
 ```
 
-## Example 1
+## Example 
 
-Use `readline()` to read the first line of content from the `gullivers_travels.txt` file:
+Use `.readline()` to read the first line of content from the **gullivers_travels.txt** file:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
 
 f.readline()
