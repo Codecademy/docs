@@ -63,5 +63,5 @@ function checkAge(age) {
 
 const peopleInLine = [21, 22, 20, 24, 22];
 
-console.log(peopleInLine.findIndex(checkAge)) ;
+console.log(peopleInLine.findIndex(checkAge));
 ```
