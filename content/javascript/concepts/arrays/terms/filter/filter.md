@@ -23,13 +23,13 @@ array.filter((element, index) => { ... })
 array.filter((element, index, array) => { ... })
 ```
 
-## Parameters
+### Parameters
 
 * `element`: The current element being processed in the array.
 * `index` (optional): The index of the current element being processed in the array.
 * `array` (optional): The array *filter* was called upon.
 
-## Return Value
+### Return Value
 
 A new array with the elements that pass the test. 
 
