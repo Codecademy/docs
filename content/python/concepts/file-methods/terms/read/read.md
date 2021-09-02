@@ -22,6 +22,8 @@ The `.read()` file method allows the user to read the contents of an open file.
 file.read()
 ```
 
+It also returns the number of bytes from the file.
+
 ## Example 1
 
 Use `.read()` to read the full contents of the **gullivers_travels.txt** file:
