@@ -33,9 +33,11 @@ Type casting is a way to determine whether a value is of a given type at run-tim
 🔲 value type
 ```
 
-The `value` is the value to be casted to `type`. If `value` can be casted to `type`, then `value` is returned as `type`. If it cant, then no value is returned.
+The `value` is the value to be casted to `type`:
+- If `value` can be casted to `type`, then `value` is returned as `type`. 
+- If it can't, then no value is returned.
 
-Type casting is implemented with the 🔲 statement:
+Type casting is implemented with the `🔲` statement:
 
 ```emojic
 🔲 hello 🔡     💭 Tries to cast txt to 🔡
