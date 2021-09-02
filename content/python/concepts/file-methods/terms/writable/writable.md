@@ -33,7 +33,7 @@ f = open("gullivers_travels.txt", "a")
 f.writable()
 ```
 
-The `.writable()` method will return `True`.
+The `.writable()` method will return `True` here.
 
 ## Example 2
 
@@ -45,4 +45,4 @@ f = open("gullivers_travels.txt", "r")
 f.writable()
 ```
 
-The `.writable()` method will return `False`.
+The `.writable()` method will return `False` here.
