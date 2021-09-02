@@ -58,12 +58,6 @@ person.lastName;
 person["lastName"];
 ```
 
-These would output:
-
-```
-"Harmon"
-```
-
 ## Object Methods
 
 Object methods are actions that can be performed on objects.
