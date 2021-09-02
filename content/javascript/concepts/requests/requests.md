@@ -32,7 +32,7 @@ let xhr = new XMLHttpRequest();
 
 The constructor has no arguments.
 
-2. Initialize it,:
+2. Initialize it:
 
 ```js
 xhr.open(method, URL, [async, user, password])
@@ -40,10 +40,10 @@ xhr.open(method, URL, [async, user, password])
 
 This method specifies the main parameters of the request:
 
-- `method` – HTTP-method. Usually `"GET"` or `"POST"`.
-- `URL` – the URL to request, a string, can be URL object.
-- `async` – if explicitly set to `false`, then the request is synchronous.
-- `user`, `password` – login and password for basic HTTP auth (if required).
+- `method`: HTTP-method. Usually `"GET"` or `"POST"`.
+- `URL`: The URL to request, a string, can be URL object.
+- `async`: If explicitly set to `false`, then the request is synchronous.
+- `user`, `password`: login and password for basic HTTP auth (if required).
 
 Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
 
@@ -61,9 +61,9 @@ Some request methods like `GET` do not have a `body`. And some of them like `POS
 
 These three events are the most widely used:
 
-- `load`: when the request is complete and the response is fully downloaded.
-- `error`: when the request couldn’t be made successfully, For example, network down or invalid URL.
-- `progress`: triggers periodically while the response is being downloaded, reports how much has been downloaded.
+- `load`: When the request is complete and the response is fully downloaded.
+- `error`: When the request couldn’t be made successfully, For example, network down or invalid URL.
+- `progress`: Triggers periodically while the response is being downloaded, reports how much has been downloaded.
 
 ```js
 xhr.onload = function() {
@@ -114,9 +114,9 @@ It might look good, but synchronous calls are used rarely, because they block in
 
 `xhr.responseType` property can be used to set the response format:
 
-- `""` (default) – get as string,
-- `"text"` – get as string,
-- `"arraybuffer"` – get as ArrayBuffer
-- `"blob"` – get as Blob,
-- `"document"` – get as XML document (can use XPath and other XML methods) or HTML document (based on the MIME type of the received data),
-- `"json"` – get as JSON (parsed automatically).
+- `""` (default): get as string,
+- `"text"`: get as string,
+- `"arraybuffer"`: get as ArrayBuffer
+- `"blob"`: get as Blob,
+- `"document"`: get as XML document (can use XPath and other XML methods) or HTML document (based on the MIME type of the received data),
+- `"json"`: get as JSON (parsed automatically).
