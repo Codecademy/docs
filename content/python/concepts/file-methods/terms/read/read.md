@@ -24,6 +24,12 @@ file.read()
 
 It also returns the number of bytes from the file.
 
+```py
+file.read(size)
+```
+
+The `size` argument is optional and specifies the number of characters to read. The default `size` is -1, which means the whole file.
+
 ## Example 1
 
 Use `.read()` to read the full contents of the **gullivers_travels.txt** file:
