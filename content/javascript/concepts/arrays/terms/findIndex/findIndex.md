@@ -54,7 +54,7 @@ console.log(findLily);
 // Output: -1
 ```
 
-Codebyte Example
+## Codebyte Example
 
 ```codebyte/js
 function checkAge(age) {
