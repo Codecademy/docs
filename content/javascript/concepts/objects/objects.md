@@ -88,5 +88,5 @@ console.log(person.greeting());
 This will output:
 
 ```
-"Hi, I'm Elizabeth Harmon."
+Hi, I'm Elizabeth Harmon.
 ```
