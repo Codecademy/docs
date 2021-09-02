@@ -50,6 +50,8 @@ print(type(streaming_days))
 Much like lists, since tuples are ordered, we can access tuple elements by index:
 
 ```py
+streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
+
 print(streaming_platforms[1])
 # Output: Hulu
 ```
@@ -57,8 +59,15 @@ print(streaming_platforms[1])
 However, since tuples are immutable, we cannot modify, delete, or add new elements. For example, attempting to re-assign an element will throw an error:
 
 ```py
+streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
+
 streaming_platforms[2] = "YouTube"
-# TypeError: 'tuple' object does not support item assignment
+```
+
+This will result in: 
+
+```error
+TypeError: 'tuple' object does not support item assignment
 ```
 
 Tuples also support sequence operations such as `len()`, `min()`, `max()`.
