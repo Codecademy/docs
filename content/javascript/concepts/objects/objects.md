@@ -42,19 +42,23 @@ The `key: value` pairs in JavaScript objects are called properties:
 
 ## Accessing Object Properties
 
-You can access object properties in two ways:
+Object properties can be accessed using the dot notation:
 
 ```pseudo
 objectName.propertyName
-
-objectName["propertyName"]
 ```
-
-For example:
 
 ```js
 person.lastName;
+```
 
+Or using square brackets:
+
+```pseudo
+objectName["propertyName"]
+```
+
+```js
 person["lastName"];
 ```
 
