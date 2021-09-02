@@ -12,7 +12,7 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-The `.findIndex()` returns the first index that passes the callback function's test. Returns `-1` if no element passes the test.
+The `.findIndex()` array method returns the first index that passes the callback function's test. Returns `-1` if no element passes the test.
 
 ## Syntax
 
