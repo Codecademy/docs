@@ -12,12 +12,9 @@ Tags:
 CatalogContent:
   - "learn-python-3"
   - "paths/computer-science"
-  - "paths/data-science"
 ---
 
-
-
-Allows the user to resize the file to a given number of bytes when the file is accessed through the append mode.
+The `.truncate()` file method allows the user to resize the file to a given number of bytes when the file is accessed through the append mode.
 
 ## Syntax
 
@@ -25,16 +22,17 @@ Allows the user to resize the file to a given number of bytes when the file is a
 file.truncate(n)
 ```
 
-## Example 1
+## Example
 
 Use `.truncate()` to change the size of the **gullivers_travels.txt** file from 603,908 bytes to 100:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "a")
 
 f.truncate(100)
 f.close()
 
 f = open("gullivers_travels.txt", "r")
+
 print(f.read())
 ```

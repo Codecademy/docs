@@ -14,7 +14,6 @@ CatalogContent:
 
 The `.filter()` array method creates a new array with all elements that pass the test from the provided function.
 
-
 ## Syntax
 
 ```js
@@ -24,22 +23,21 @@ array.filter((element, index) => { ... })
 array.filter((element, index, array) => { ... })
 ```
 
-## Parameters
+### Parameters
 
-* <code>element</code>: The current element being processed in the array.
-* <code>index</code> (optional): The index of the current element being processed in the array.
-* <code>array</code> (optional): The array *filter* was called upon.
+* `element`: The current element being processed in the array.
+* `index` (optional): The index of the current element being processed in the array.
+* `array` (optional): The array *filter* was called upon.
 
-## Return Value
+### Return Value
 
 A new array with the elements that pass the test. 
 
-**note: If no elements that pass the test, an empty array will be returned.**
-
+**Note:** If no elements that pass the test, an empty array will be returned.
 
 ## Examples
 
-Filtering out all small values
+Filtering out all small values:
 
 ```js
 const numbers = [6, 44, 87, 1, 197, 22];
@@ -50,7 +48,7 @@ console.log(filteredNumbers)
 // Output: [44, 87, 197, 22]
 ```
 
-Filtering by index
+Filtering by index:
 
 ```js
 const numbers = [6, 44, 87, 1, 197, 22];
@@ -63,7 +61,7 @@ console.log(filterByIndex)
 // Output: [6, 87, 197]
 ```
 
-Filtering out names that don't begin with the given character
+Filtering out names that don't begin with the given character:
 
 ```js
 const names = ['Jim', 'Bob', 'Sarah', 'Alex', 'James', 'Sam', 'Peter']
@@ -76,7 +74,7 @@ console.log(filteredNames('j', names))
 // Output: ["Jim", "James"]
 ```
 
-Filtering an array of objects 
+Filtering an array of objects:
 
 ```js
 const kickballPlayers = [
@@ -93,24 +91,27 @@ const kickballPlayers = [
 ]
 
 const redTeam = kickballPlayers.filter(player => player.team === 'Red')
-```
-```js
+
 console.log(redTeam)
-// Output: 
-// [{
-//   name: "Jim",
-//   team: "Red"
-// }, {
-//   name: "Bob",
-//   team: "Red"
-// }, {
-//   name: "Alex",
-//   team: "Red"
-// }, {
-//   name: "Peter",
-//   team: "Red"
-// }, {
-//   name: "Michael",
-//   team: "Red"
-// }]
+```
+
+The output would be:
+
+```shell
+[{
+  name: "Jim", 
+  team: "Red"
+}, {
+  name: "Bob",
+  team: "Red"
+}, {
+  name: "Alex",
+  team: "Red"
+}, {
+  name: "Peter",
+  team: "Red"
+}, {
+  name: "Michael",
+  team: "Red"
+}]
 ```
