@@ -10,19 +10,21 @@ CatalogContent:
   - "paths/front-end-engineer-career-path"
 ---
 
-`XMLHttpRequest` is a built-in browser object that allows to make HTTP requests in JavaScript.
+`XMLHttpRequest`(XHR) is a built-in browser object that allows HTTP requests written in JavaScript.
 
-It is basically used to fetch data from API's.
+It is used to fetch data from API's.
 
-There’s another, modern method `fetch`, that somewhat deprecates `XMLHttpRequest` but the focus of this post will be on `XMLHttpRequest` only.
+`fetch` is a modern alterative method to `XMLHttpRequest`; the focus of this post will be on `XMLHttpRequest`.
 
 ## Getting Started
 
 `XMLHttpRequest` can be used in two modes: synchronous and asynchronous.
 
-### 1. Asynchronous Method
+**Note**: Synchronous XHR will be deprecated because the browser runs on something called the main thread. This thread handles all the events that occur on the page. Synchronous XHR impedes on the browsers ability to process these events and can disrupt a user's experience.
 
-There are 3 steps to do this:
+### Asynchronous Method
+
+Three steps are required:
 
 1. Create `XMLHttpRequest`:
 
@@ -32,7 +34,7 @@ let xhr = new XMLHttpRequest();
 
 The constructor has no arguments.
 
-2. Initialize it:
+2. Initialize the XHR object:
 
 ```js
 xhr.open(method, URL, [async, user, password])
@@ -40,22 +42,22 @@ xhr.open(method, URL, [async, user, password])
 
 This method specifies the main parameters of the request:
 
-- `method`: HTTP-method. Usually `"GET"` or `"POST"`.
-- `URL`: The URL to request, a string, can be URL object.
+- `method`: A HTTP request method; common methods are `"GET"` and `"POST"`.
+- `URL`(Uniform Resource Locator): A web address to request a string or URL object.
 - `async`: If explicitly set to `false`, then the request is synchronous.
 - `user`, `password`: login and password for basic HTTP auth (if required).
 
-Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
+**Note**: The `open` call, contrary to its name, does not open the connection. It only configures the request. However, the network activity only starts with the call of `send`.
 
-3. Send it out.
+3. Send it out:
 
 ```js
 xhr.send([body])
 ```
 
-This method opens up the connection and sends the request to server. The optional body parameter contains the request `body`.
+This method opens up the connection and sends a request to the server. The optional body parameter contains the request `body`.
 
-Some request methods like `GET` do not have a `body`. And some of them like `POST` use `body` to send the data to the server.
+Some request methods like `GET` do not have a `body`. And others, like `POST`, use `body` to send the data to the server.
 
 4. Listen to xhr events for response.
 
@@ -104,7 +106,7 @@ xhr.timeout = 10000; // Timeout in ms, 10 seconds
 
 If the request does not succeed within the given time, it gets canceled and `timeout` event triggers.
 
-### 2. Synchronous Method
+### Synchronous Method
 
 If in the `.open` method the third parameter `async` is set to `false`, the request is made synchronously.
 
