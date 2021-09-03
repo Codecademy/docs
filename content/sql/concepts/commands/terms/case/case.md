@@ -1,22 +1,20 @@
 ---
-Title: "CASE"
-Description: "A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause."
+Title: 'CASE'
+Description: 'A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "Table"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'Table'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 A logical test that creates different output based on the conditions of each CASE statement, closes with an END clause.
 

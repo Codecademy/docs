@@ -1,13 +1,13 @@
 ---
-Title: "Routing"
+Title: 'Routing'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "React"
-  - "Requests"
+  - 'React'
+  - 'Requests'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In React, routing is most commonly achieved through React Router.
@@ -31,9 +31,9 @@ npm install react-router-dom
 Below, a `BrowserRouter` is used to map the navigation `<Link/>` components to a `<Switch/>` component. The `<Switch/>` renders the appropriate `<Route>` based on a top-down search and match between the `to` attribute in the `Link` and the `path` attribute in the `Route`.
 
 ```jsx
-import React from "react";
+import React from 'react';
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
   return (

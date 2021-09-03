@@ -1,20 +1,18 @@
 ---
-Title: "<button>"
-Description: "Represents a button meant to be clicked by the user."
+Title: '<button>'
+Description: 'Represents a button meant to be clicked by the user.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
- 
+Represents a button meant to be clicked by the user.
 
-Represents a button meant to be clicked by the user. 
-  
 While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
 
 ## Syntax
@@ -23,9 +21,9 @@ While buttons are often associated with form submission, they can be used for an
 <button>
   <!-- Button content lives here -->
 </button>
-``` 
+```
 
-`<button>` is a tag that wraps around a block of HTML. By default it appears inline, like a `<span>` tag, and is styled to appear consistent with buttons on the device it is viewed on. 
+`<button>` is a tag that wraps around a block of HTML. By default it appears inline, like a `<span>` tag, and is styled to appear consistent with buttons on the device it is viewed on.
 
 It is possible for the content to be simple text, or other HTML elements. This can include lists, paragraphs, or even images.
 
@@ -46,15 +44,14 @@ Suppose there is a form that needs both a submit and reset button, and that the 
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <form>
       <label>Your Name</label>
-      <input type="text" name="user_name">
+      <input type="text" name="user_name" />
       <!-- More form elements -->
       <button type="reset">Reset Form</button>
-      <button type="submit"><img src="submit.png" alt="Submit Form"></button>
+      <button type="submit"><img src="submit.png" alt="Submit Form" /></button>
     </form>
   </body>
 </html>

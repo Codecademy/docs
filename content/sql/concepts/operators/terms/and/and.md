@@ -1,22 +1,20 @@
 ---
-Title: "AND"
-Description: "A logical test that will only include rows where both conditions are true."
+Title: 'AND'
+Description: 'A logical test that will only include rows where both conditions are true.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "Tables"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'Tables'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 A logical test that will only include rows where both conditions are true.
 
@@ -25,7 +23,7 @@ A logical test that will only include rows where both conditions are true.
 Suppose we want to get current students with GPA higher than 3.0:
 
 ```sql
-SELECT * 
+SELECT *
 FROM students
 WHERE enrolled_status = 'current' AND overall_gpa >= 3.0
 ```

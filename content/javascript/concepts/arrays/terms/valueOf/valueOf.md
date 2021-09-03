@@ -1,20 +1,18 @@
 ---
-Title: ".valueOf()"
-Description: "Returns a new array with all the items of the original array. "
+Title: '.valueOf()'
+Description: 'Returns a new array with all the items of the original array. '
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-
-
-Returns a new array with all the items of the original array. 
+Returns a new array with all the items of the original array.
 
 ## Syntax
 
@@ -22,7 +20,7 @@ Returns a new array with all the items of the original array.
 array.valueOf();
 ```
 
-**Note:** This method will not change the original array. 
+**Note:** This method will not change the original array.
 
 ## Examples
 

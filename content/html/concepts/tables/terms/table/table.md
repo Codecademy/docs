@@ -1,22 +1,20 @@
 ---
-Title: "table"
-Description: "Defines an HTML table. "
+Title: 'table'
+Description: 'Defines an HTML table. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tables"
-  - "Elements"
-  - "Web Development"
+  - 'Tables'
+  - 'Elements'
+  - 'Web Development'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
- 
-
-Defines an HTML table. 
+Defines an HTML table.
 
 ## Syntax
 
@@ -53,7 +51,7 @@ Creating a simple table with three rows and two columns.
 </table>
 ```
 
-| Company | Phone |
-| --- | --- |
-| Apple | iPhone |
+| Company | Phone  |
+| ------- | ------ |
+| Apple   | iPhone |
 | Samsung | Galaxy |

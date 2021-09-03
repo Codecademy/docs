@@ -1,19 +1,17 @@
 ---
-Title: "grid-template-rows"
-Description: "A property that specifies the row structure of a grid container."
+Title: 'grid-template-rows'
+Description: 'A property that specifies the row structure of a grid container.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 A property that specifies the row structure of a grid container.
 
@@ -40,9 +38,8 @@ A div split into three sections (e.g. header, main, footer).
 ```css
 .spam-container {
   display: grid;
-  grid-template-rows: 15% 70% 15%; 
+  grid-template-rows: 15% 70% 15%;
 }
-
 ```
 
 ## Example 2
@@ -52,6 +49,6 @@ Six equally sized columns that utilize the available space:
 ```css
 .eggs-container {
   display: grid;
-  grid-template-rows: repeat(6,auto);
+  grid-template-rows: repeat(6, auto);
 }
 ```

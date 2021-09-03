@@ -1,19 +1,17 @@
 ---
-Title: ".extend()"
-Description: "Adds list elements to end of the list."
+Title: '.extend()'
+Description: 'Adds list elements to end of the list.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Adds list elements to end of the list.
 

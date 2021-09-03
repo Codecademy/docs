@@ -1,15 +1,15 @@
 ---
-Title: ".toPrecision()"
-Description: "Convert a number to a string of its specificied precision form."
+Title: '.toPrecision()'
+Description: 'Convert a number to a string of its specificied precision form.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.toPrecision()` method converts a number to a string of its specificied precision form.
@@ -42,7 +42,6 @@ const pi = 3.14159;
 console.log(typeof pi.toPrecision());
 // Output: string
 ```
-
 
 ## Codebyte Example
 

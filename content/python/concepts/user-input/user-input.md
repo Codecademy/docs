@@ -1,22 +1,22 @@
 ---
-Title: "User Input" 
+Title: 'User Input'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Strings"
-  - "Input"
-  - "Print"
-  - "Variables"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Strings'
+  - 'Input'
+  - 'Print'
+  - 'Variables'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 `input()` is a built-in function in Python that allows a user to assign custom input to a variable.
 
 ```python
-my_cats_name = input("What is your cat's name? \n") 
+my_cats_name = input("What is your cat's name? \n")
 
 print("The best cat in the world is " + my_cats_name)
 ```
@@ -47,7 +47,7 @@ else:
   print("No...")
 
 # Output: No...
-``` 
+```
 
 This always prints "No..." because the string `'2'` does not equal the number `2`.
 

@@ -1,16 +1,16 @@
 ---
-Title: "Advanced Operators"
+Title: 'Advanced Operators'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
-  - "Operators"
+  - 'Operators'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Advanced operators in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few. 
+Advanced operators in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few.
 
 Bitwise operators are used to manupilate the raw data bits of a structure, such as graphics, file inputs, or device drivers, while not common, these operators are very useful in their specific use cases. Swift also allows the overloading of the standard operators to include your own definition of the function.
 
@@ -35,13 +35,13 @@ Bitwise NOT `~` operator inverts all the bits in a number, so `0101 0101` will b
 var newBinaryNumber: UInt8 = 0b01010101  // 01010101
 var NewinvertedBinary = ~newBinaryNumber // 10101010
 
-print(NewinvertedBinary) 
+print(NewinvertedBinary)
 // Output: 170
 
 var standardInt = 85
 var invertedStandardInt = ~standardInt
 
-print(invertedStandardInt) 
+print(invertedStandardInt)
 // Output: -86
 ```
 

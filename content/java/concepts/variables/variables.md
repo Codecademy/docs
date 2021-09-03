@@ -1,13 +1,13 @@
 ---
-Title: "Variables"
+Title: 'Variables'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Variables"
-  - "Data Types"
+  - 'Computer Science'
+Tags:
+  - 'Variables'
+  - 'Data Types'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 Variables are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places.
@@ -21,7 +21,7 @@ To declare a variable in Java, any of these three keywords can be used along wit
 - The value.
 
 ```java
-int age = 28; 
+int age = 28;
 char grade = 'A';
 boolean late = true;
 byte b = 20;

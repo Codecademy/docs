@@ -1,13 +1,13 @@
 ---
-Title: "Operators"
+Title: 'Operators'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Operators"
+  - 'Operators'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 ## Arithmetic Operators

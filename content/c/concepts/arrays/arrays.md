@@ -1,18 +1,18 @@
 ---
-Title: "Arrays"
+Title: 'Arrays'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Lists"
-  - "Variable Types"
+  - 'Arrays'
+  - 'Lists'
+  - 'Variable Types'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-In the C language, an array is a list of values, with a fixed length.  
+In the C language, an array is a list of values, with a fixed length.
 
 Being able to store multiple pieces of related information in the same structure is very useful when writing C programs.
 
@@ -41,7 +41,7 @@ int grades[] = {96, 90, 78, 84, 88, 92};
 The values in arrays are accessed using their index, or their position in the array. They can either be assigned or used this way.
 
 ```c
-char vowels[] = {'a', 'e', 'i', 'o', 'u'}; 
+char vowels[] = {'a', 'e', 'i', 'o', 'u'};
 ```
 
 Note that in C, an array's indexes start at 0 instead of 1:
@@ -65,7 +65,7 @@ An element can be accessed by referring to the array name and the element's inde
 ```c
 char vowels[] = {'a', 'e', 'i', 'o', 'u'};
 
-putchar(vowels[3]); 
+putchar(vowels[3]);
 // Output: o
 ```
 
@@ -79,7 +79,7 @@ Creating an array that holds the snowfall measurements (in the nearest inch) fro
 int main() {
   int snowfall[] = {10, 13, 14, 11, 9, 8, 6};
   printf("%d\n", snowfall[0]);
-  
+
   snowfall[2] = 16; // Update an element
   printf("%d\n", snowfall[2]);
 

@@ -1,15 +1,15 @@
 ---
-Title: "What is Webpack?"
+Title: 'What is Webpack?'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
+  - 'Developer Tools'
+  - 'Web Development'
 Tags:
-  - "JavaScript"
-  - "Node"
-  - "Best Practices"
+  - 'JavaScript'
+  - 'Node'
+  - 'Best Practices'
 CatalogContent:
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 Webpack is a module bundler for JavaScript, HTML, and CSS. Webpack can be run on Linux, macOS, Windows operating systems.

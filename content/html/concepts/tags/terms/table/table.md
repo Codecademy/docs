@@ -1,17 +1,15 @@
 ---
-Title: "<table>"
-Description: "Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content."
+Title: '<table>'
+Description: 'Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.
 
@@ -21,7 +19,7 @@ Represents an interface for adding tabular data to the page. Tables are two dime
 <table>
   <!-- Table elements and content go inside of here -->
 </table>
-``` 
+```
 
 The `<table>` tag must contain rows, and inside those rows should be entries. Possible values for the internal tags are presented in the example below.
 
@@ -52,8 +50,7 @@ The table header element, denoted as `<th>`, is used to display data for a speci
 ```
 
 | Heading 1 | Heading 2 | Heading 3 |
-| :------: | :------: | :------: |
-
+| :-------: | :-------: | :-------: |
 
 ### Table Data
 
@@ -80,21 +77,19 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 ```
 
 | Heading 1 | Heading 2 | Heading 3 |
-| :------: | :------: | :------: |
-| Cell 1   | Cell 2   | Cell 3   |
-| Cell 4   | Cell 5   | Cell 6   |
-
+| :-------: | :-------: | :-------: |
+|  Cell 1   |  Cell 2   |  Cell 3   |
+|  Cell 4   |  Cell 5   |  Cell 6   |
 
 ## Uses
 
 Generally, tables are used to display tabular data in particular. In the past, tables were sometimes used to display data that was not tabular in nature due to constraints present within browser environments. In modern development, the use of tables to position elements not semantically related to a table is an anti-pattern and should be avoided.
-  
+
 ## Example
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <!-- Table tag wraps around table elements -->
     <table>
@@ -120,8 +115,8 @@ Generally, tables are used to display tabular data in particular. In the past, t
   </body>
 </html>
 ```
-  
+
 | First Name | Last Name |
-| :------: | :------: | 
-| Jane | Smith | 
-| Suzi | Jiminez |
+| :--------: | :-------: |
+|    Jane    |   Smith   |
+|    Suzi    |  Jiminez  |

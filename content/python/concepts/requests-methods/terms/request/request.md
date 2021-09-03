@@ -1,22 +1,20 @@
 ---
-Title: "requests.request()"
-Description: "Makes seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object."
+Title: 'requests.request()'
+Description: 'Makes seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object.'
 Subjects:
-  - "Data Science"
-Tags: 
-  - "Methods"
-  - "APIs"
-  - "HTTP"
-  - "Queries"
-  - "Requests"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+Tags:
+  - 'Methods'
+  - 'APIs'
+  - 'HTTP'
+  - 'Queries'
+  - 'Requests'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
 
- 
-
-The `requests` module for Python includes a `.request()` method for making seven main kinds of request to a web server: `get`, `options`, `head`, `post`, `put`, `patch`, and `delete`; it can also handle custom HTTP verbs if needed, and returns a response object. 
+The `requests` module for Python includes a `.request()` method for making seven main kinds of request to a web server: `get`, `options`, `head`, `post`, `put`, `patch`, and `delete`; it can also handle custom HTTP verbs if needed, and returns a response object.
 
 ## Syntax
 
@@ -30,7 +28,7 @@ requests.request("method", "url", **kwargs)
 
 ## Example 1
 
-The `requests` module comes with some commonly used convenience methods such as `.get()`, `.post()`, and etc. Using one of these convenience methods has the same effect as calling the `.request()` method directly. 
+The `requests` module comes with some commonly used convenience methods such as `.get()`, `.post()`, and etc. Using one of these convenience methods has the same effect as calling the `.request()` method directly.
 
 ```python
 import requests
@@ -79,4 +77,4 @@ print(response.headers["Content-Type"])
 # Output: application/json; charset=utf-8
 ```
 
-Many different named parameters can be passed in to a request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
+Many different named parameters can be passed in to a request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.

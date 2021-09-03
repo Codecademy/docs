@@ -1,17 +1,17 @@
 ---
-Title: "Lambda"
+Title: 'Lambda'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Block"
-  - "Syntax"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Block'
+  - 'Syntax'
 CatalogContent:
-  - "learn-ruby"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-ruby'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-In Ruby, lambdas are anonymous function code blocks that can take zero or more arguments. They can then be stored or passed in other values and called primarily with the `#call` method. 
+In Ruby, lambdas are anonymous function code blocks that can take zero or more arguments. They can then be stored or passed in other values and called primarily with the `#call` method.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ myLambda = lambda { puts "Hello, World!" }
 puts myLambda.call # Output: Hello, World!
 ```
 
-If 1 or more arguments are used, use `->`: 
+If 1 or more arguments are used, use `->`:
 
 ```rb
 myLambda = -> (v) { v * 2 }

@@ -1,25 +1,23 @@
 ---
-Title: "overflow-y"
-Description: "Defines how a block level element should handle content that goes beyond its y-axis boundary."
+Title: 'overflow-y'
+Description: 'Defines how a block level element should handle content that goes beyond its y-axis boundary.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Positioning"
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines how a block level element should handle content that goes beyond its y-axis boundary.
 
 ## Syntax
 
 ```css
-overflow-y: <value>
+overflow-y: <value>;
 ```
 
 where `<value>` can be one of the following:
@@ -29,7 +27,6 @@ where `<value>` can be one of the following:
 - `scroll`: content will be clipped and a scrollbar will appear.
 - `auto`: content will be clipped if it does not fit in the containing block, and a scrollbar will appear if it does.
 - Keyword values: `initial`, `inherit`, `revert`, `unset`.
-
 
 ## Example 1
 

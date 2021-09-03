@@ -1,25 +1,23 @@
 ---
-Title: ".concat()"
-Description: "Concatenates or combines strings together."
+Title: '.concat()'
+Description: 'Concatenates or combines strings together.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Concatenates or combines strings together.
 
 ## Syntax
 
 ```js
-string.concat(string_1, string_2, string_3)
+string.concat(string_1, string_2, string_3);
 ```
 
 ## Example 1
@@ -27,7 +25,7 @@ string.concat(string_1, string_2, string_3)
 Concatenating a string:
 
 ```js
-console.log("Do you like Latte or ".concat("Cappuccino?"));
+console.log('Do you like Latte or '.concat('Cappuccino?'));
 // Output: Do you like Latte or Cappuccino?
 ```
 
@@ -36,9 +34,9 @@ console.log("Do you like Latte or ".concat("Cappuccino?"));
 Concatenating strings with the usage of variables:
 
 ```js
-const x = "Do you like Latte or";
-const y = "Cappuccino?"
+const x = 'Do you like Latte or';
+const y = 'Cappuccino?';
 
-console.log("Hey Bob! ".concat(x, " ", y));
+console.log('Hey Bob! '.concat(x, ' ', y));
 // Output: Hey Bob! Do you like Latte or Cappuccino?
 ```

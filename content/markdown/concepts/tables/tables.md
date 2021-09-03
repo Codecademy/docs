@@ -1,15 +1,15 @@
 ---
-Title: "Tables"
+Title: 'Tables'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
-Tags: 
-  - "Tables"
-  - "Documentation"
-  - "GitHub"
+  - 'Developer Tools'
+  - 'Web Development'
+Tags:
+  - 'Tables'
+  - 'Documentation'
+  - 'GitHub'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A table is an arrangement of data in rows and columns.
@@ -17,29 +17,29 @@ A table is an arrangement of data in rows and columns.
 To add a table in Markdown, use the vertical line `|` to separate each column, and use three or more dahses `---` to create each column’s header. A vertical line should also be added at either end of the row.
 
 ```markdown
-| Month     | Savings   |
-| --------- | --------- |
-| January   | $250      |
-| February  | $80       |
-| March     | $420      |
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 ```
 
 The output would look like:
 
-| Month     | Savings   |
-| --------- | --------- |
-| January   | $250      |
-| February  | $80       |
-| March     | $420      |
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 
 Cell widths can vary, as shown below.
 
 ```markdown
-| Month | Savings |
-| --- | --- |
-| January | $250 |
-| February | $80 |
-| March | $420 |
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 ```
 
 The output will look exactly the same.
@@ -49,12 +49,12 @@ The output will look exactly the same.
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```markdown
-| Item | In Stock | Price|
-| :-- | :-: | --: |
-| Python Hat | True | 23.99 |
-| SQL Hat | True | 23.99 |
-| Codecademy Tee | False | 19.99 |
-| Codecademy Hoodie | False | 42.99 |
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
 ```
 
 - `:--` means the column is left aligned.
@@ -70,4 +70,3 @@ You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML 
 ## Escaping Characters
 
 You can display a vertical line "|" character in a table by using its HTML character code `&#124;`.
-

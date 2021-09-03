@@ -1,21 +1,21 @@
 ---
-Title: "rowspan"
-Description: "Specifies the number of rows a cell should span. "
+Title: 'rowspan'
+Description: 'Specifies the number of rows a cell should span. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tables"
-  - "Elements"
-  - "Web Development"
+  - 'Tables'
+  - 'Elements'
+  - 'Web Development'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-[Table with cell that spans two rows]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-rowspan.png
+[table with cell that spans two rows]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-rowspan.png
 
-The `rowspan` attribute specifies the number of rows a cell should span. 
+The `rowspan` attribute specifies the number of rows a cell should span.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ The following elements support colspan:
 
 - `<td>`
 - `<th>`
- 
+
 ## Example 1
 
 A table with a cell that spans two rows.

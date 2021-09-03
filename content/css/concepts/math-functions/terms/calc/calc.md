@@ -1,26 +1,24 @@
 ---
-Title: "calc()"
-Description: "Performs mathematical calculations to determine values for properties."
+Title: 'calc()'
+Description: 'Performs mathematical calculations to determine values for properties.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Positioning"
-  - "Functions"
+  - 'Positioning'
+  - 'Functions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Performs mathematical calculations to determine values for properties.
 
 ## Syntax
 
 ```css
-<property>: calc(<expression>)
+<property>: calc(<expression>);
 ```
 
 where `<expression>` can be any simple expression combining the following operators, using standard operator precedence rules:

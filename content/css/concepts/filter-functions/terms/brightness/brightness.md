@@ -1,20 +1,18 @@
 ---
-Title: "brightness()"
-Description: "Defines the brightness or darkness of an element."
+Title: 'brightness()'
+Description: 'Defines the brightness or darkness of an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Images"
-  - "Functions"
-  - "Colors"
+  - 'Images'
+  - 'Functions'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the brightness or darkness of an element.
 
@@ -29,7 +27,6 @@ where a required `<value>` can be one of the following:
 - Number value: `0`, `1.4`
 - Percentage value: `100%`, `50%`
 
-
 ## Example 1
 
 Give the image a brightness of `125%`:
@@ -39,4 +36,3 @@ Give the image a brightness of `125%`:
   filter: brightness(125%);
 }
 ```
-

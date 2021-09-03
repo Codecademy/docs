@@ -1,18 +1,18 @@
 ---
-Title: "What is Node.js?"
+Title: 'What is Node.js?'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Node" 
-  - "Developer Tools"
-  - "Dependency"
+  - 'Node'
+  - 'Developer Tools'
+  - 'Dependency'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-[Node.js]: https://nodejs.org/en
+[node.js]: https://nodejs.org/en
 [callback function]: https://www.codecademy.com/resources/docs/javascript/callbacks
 
 [Node.js] is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.
@@ -39,8 +39,8 @@ Node provides access to several important global objects for use with Node progr
 
 Node has a many built-in modules to aid in interactions with the command line, the computer file system, and the Internet. These include:
 
-* <a href="https://nodejs.org/dist/latest/docs/api/http.html">HTTP</a> and <a href="https://nodejs.org/dist/latest/docs/api/https.html" >HTTPS</a> for creating web servers.
-* <a href="https://nodejs.org/dist/latest/docs/api/fs.html">File System</a>, <a href="https://nodejs.org/dist/latest/docs/api/os.html" >OS</a>, and <a href="https://nodejs.org/dist/latest/docs/api/path.html" >Path</a> for interacting with the file system, operating system, and file/directory paths.
+- <a href="https://nodejs.org/dist/latest/docs/api/http.html">HTTP</a> and <a href="https://nodejs.org/dist/latest/docs/api/https.html" >HTTPS</a> for creating web servers.
+- <a href="https://nodejs.org/dist/latest/docs/api/fs.html">File System</a>, <a href="https://nodejs.org/dist/latest/docs/api/os.html" >OS</a>, and <a href="https://nodejs.org/dist/latest/docs/api/path.html" >Path</a> for interacting with the file system, operating system, and file/directory paths.
 
 You can view the full <a href="https://nodejs.org/dist/latest/docs/api/" target="_blank">docs</a> to see more of Node's built-in features.
 
@@ -53,10 +53,10 @@ To handle asynchronous code, Node uses a callback-based system. Node functions a
 ```js
 const fs = require('fs');
 
-fs.readFile('./script.js', function(error, data) {
+fs.readFile('./script.js', function (error, data) {
   // Error is null if no error occurred, but an Error object if it did
   if (error) {
-   throw error;
+    throw error;
   }
   // The file data will be passed into the callback if no error was thrown
   console.log(data);
@@ -86,14 +86,14 @@ console.log('I am a Node program');
 We can run the terminal command in the same folder as **script.js**:
 
 ```shell
-$ node script.js
+node script.js
 ```
 
 This will start Node, print `I am a Node program` to the terminal window, and then exit, as the script file has finished execution.
 
 ## Node as a REPL
 
-Node can also be used in a terminal window as a Read-Evaluate-Print-Loop, or REPL. This functionality allows you execute JavaScript commands from the command line. 
+Node can also be used in a terminal window as a Read-Evaluate-Print-Loop, or REPL. This functionality allows you execute JavaScript commands from the command line.
 
 With Node installed, you can launch the REPL by running the `node` command in a terminal and pressing <kbd>Enter</kbd>. You are now in an interactive JavaScript environment and can run any valid JavaScript code such as `4 + 5`. After executing a command, Node will always print the result of that evaluation.
 
@@ -109,18 +109,18 @@ undefined
 Node is great!
 undefined
 > .exit
-$ 
+$
 ```
- 
-In this example, the user launches node on line one with the `node` terminal command. 
+
+In this example, the user launches node on line one with the `node` terminal command.
 
 On line 2 the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
 
-On line 4, the user opens a function declaration of `nodeIsGreat()`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value. 
+On line 4, the user opens a function declaration of `nodeIsGreat()`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value.
 
 When the function is invoked on line 8, `Node is great!` logs to the console, and `undefined` logs after, because `nodeIsGreat()` returns `undefined`.
 
-To exit the Node REPL, use the `.exit` command at any point and return to the system shell. Pressing <kbd>Ctrl</kbd> + <kbd>C</kbd> twice will also exit. 
+To exit the Node REPL, use the `.exit` command at any point and return to the system shell. Pressing <kbd>Ctrl</kbd> + <kbd>C</kbd> twice will also exit.
 
 ### Loading Existing Files
 
@@ -130,7 +130,7 @@ Node REPL can also load existing JS files. If we had the following code saved in
 var a = 'Node REPL is fun!';
 ```
 
-We can use `.load` to load it into the REPL. `.load` takes a path argument, so to load **script.js**  we would use `.load ./script.js`.
+We can use `.load` to load it into the REPL. `.load` takes a path argument, so to load **script.js** we would use `.load ./script.js`.
 
 ```shell
 $ node

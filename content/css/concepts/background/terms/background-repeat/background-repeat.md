@@ -1,19 +1,17 @@
 ---
-Title: "background-repeat"
-Description: "Defines how the background image should be repeated if the image does not fully cover the element."
+Title: 'background-repeat'
+Description: 'Defines how the background image should be repeated if the image does not fully cover the element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Positioning"
+  - 'Background'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines how the background image should be repeated if the image does not fully cover the element.
 
@@ -33,7 +31,7 @@ Set background image to not repeat:
 
 ```css
 body {
-  background-image: url("ocean.png");
+  background-image: url('ocean.png');
   background-repeat: no-repeat;
 }
 ```
@@ -44,7 +42,7 @@ Set `star.gif` to repeat along x-axis:
 
 ```css
 body {
-  background-image: url("star.gif"), url("space.png");
+  background-image: url('star.gif'), url('space.png');
   background-repeat: repeat-x, no-repeat;
 }
 ```
@@ -55,7 +53,7 @@ Evenly distribute `star.gif` from the end of element:
 
 ```css
 body {
-  background-image: url("star.gif"), url("night-sky.png");
+  background-image: url('star.gif'), url('night-sky.png');
   background-repeat: space, no-repeat;
 }
 ```
@@ -66,7 +64,7 @@ Scale the star gif to fit the element:
 
 ```css
 body {
-  background-image: url("star.gif"), url("night-sky.png");
+  background-image: url('star.gif'), url('night-sky.png');
   background-repeat: round, no-repeat;
 }
 ```

@@ -1,17 +1,18 @@
 ---
-Title: "Classes"
+Title: 'Classes'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "Classes"
-  - "Objects"
-  - "OOP"
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Classes'
+  - 'Objects'
+  - 'OOP'
 CatalogContent:
-  - "learn-php"
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'learn-php'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
+
 A class is a definition of the properties and methods of a particular type of object.
 When a class is used to define a new object, the resultant object is referred to as an instance of that class.
 
@@ -106,4 +107,3 @@ The `instanceof` operator returns `true` when the operand on the left belongs to
   // Output: It is a Car!
 ?>
 ```
-

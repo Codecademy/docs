@@ -1,19 +1,17 @@
 ---
-Title: "background-color"
-Description: "Defines a color for the background of an element."
+Title: 'background-color'
+Description: 'Defines a color for the background of an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Colors"
+  - 'Background'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines a color for the background of an element.
 

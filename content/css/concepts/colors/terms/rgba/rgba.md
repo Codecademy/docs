@@ -1,22 +1,22 @@
 ---
-Title: "rgba()"
-Description: "Defines the color by providing the red value, the green value, the blue value, and an optional alpha value (transparency)."
+Title: 'rgba()'
+Description: 'Defines the color by providing the red value, the green value, the blue value, and an optional alpha value (transparency).'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Color"
-  - "Functions"
+  - 'Color'
+  - 'Functions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The `rgba()` color function defines the color value by providing three comma separated values along with an optional fourth value. 
+The `rgba()` color function defines the color value by providing three comma separated values along with an optional fourth value.
 
 - The first value represents the red value.
 - The second represents the green value.
-- The third represents the blue value. 
+- The third represents the blue value.
 - The optional fourth value represents the alpha value, the transparency of a color.
 
 ## Syntax

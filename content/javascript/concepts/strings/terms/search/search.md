@@ -1,18 +1,16 @@
 ---
-Title: ".search()"
-Description: "Takes a regular expression argument and returns either the character position of the start of the first matching substring or -1 if there is no match."
+Title: '.search()'
+Description: 'Takes a regular expression argument and returns either the character position of the start of the first matching substring or -1 if there is no match.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Takes a regular expression argument and returns either the character position of the start of the first matching substring or `-1` if there is no match.
 

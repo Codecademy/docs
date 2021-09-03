@@ -1,23 +1,23 @@
 ---
-Title: "What is DNS?"
+Title: 'What is DNS?'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "HTTP" 
-  - "Developer Tools"
-CatalogContent:  
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'HTTP'
+  - 'Developer Tools'
+CatalogContent:
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
-The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website. 
+The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website.
 
 When we request the URL `codecademy.com`, our computer sends a DNS request to a DNS server. The server then returns the correct IP addresses like `104.20.25.250` to route data to and from Codecademy.
 
 ## Domain Name
 
-Each domain name is made up of three parts: 
+Each domain name is made up of three parts:
 
 `third-level-domain . second-level-domain . top-level-domain`
 
@@ -26,6 +26,7 @@ Each domain name is made up of three parts:
 - Third level domain (subdomain): It's owned by the same group and that URL often directs you to a subset of the website.
 
 For example: [shop.codecademy.com](www.shop.codecademy.com) (Codecademy's merch shop):
+
 - Top level domain: ".com"
 - Second level domain: "codecademy"
 - Third level domain: "shop"

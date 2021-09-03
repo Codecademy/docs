@@ -1,18 +1,18 @@
 ---
-Title: "<section>"
-Description: "Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme."
+Title: '<section>'
+Description: 'Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Semantic"
-  - "Tags"
+  - 'Semantic'
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The `<section>` semantic HTML element defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. 
+The `<section>` semantic HTML element defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
 
 For example, content with the same theme such as articles about cricket can go under a single `<section>`. A website’s home page could be split into sections for the introduction, news items, and contact information.
 
@@ -20,9 +20,9 @@ For example, content with the same theme such as articles about cricket can go u
 
 ```html
 <section>
-  <!-- Elements in a document with the same theme --> 
+  <!-- Elements in a document with the same theme -->
 </section>
-``` 
+```
 
 In the following code, we created a `<section>` element to encapsulate the code. In `<section>`, we added a `<h2>` element as a heading and an `<article>` as well.
 
@@ -33,7 +33,7 @@ In the following code, we created a `<section>` element to encapsulate the code.
     <p>A single match of cricket can last up to 5 days.</p>
   </article>
 </section>
-``` 
+```
 
 ## Example
 
@@ -42,8 +42,7 @@ Suppose the current page wants to add two sections:
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <!-- One section -->
     <section>

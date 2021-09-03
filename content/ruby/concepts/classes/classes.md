@@ -1,14 +1,14 @@
 ---
-Title: "Classes"
+Title: 'Classes'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Classes"
-  - "Objects"
+  - 'Classes'
+  - 'Objects'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Classes are like blueprints for creating objects. Objects are often called instances of a class. Classes define the properties and methods that objects created from them will have. For example, a ball is a class and baseball, football, and basketball are instances of the ball class.

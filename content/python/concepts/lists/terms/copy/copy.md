@@ -1,19 +1,17 @@
 ---
-Title: ".copy()"
-Description: "Returns a shallow copy of a list."
+Title: '.copy()'
+Description: 'Returns a shallow copy of a list.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Returns a shallow copy of a list.
 

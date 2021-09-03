@@ -1,19 +1,17 @@
 ---
-Title: "grid-column-gap"
-Description: "Specifies the spacing between column elements within a grid framework."
+Title: 'grid-column-gap'
+Description: 'Specifies the spacing between column elements within a grid framework.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specifies the spacing between column elements within a grid framework.
 

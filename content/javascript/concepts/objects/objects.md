@@ -1,31 +1,36 @@
 ---
-Title: "Objects"
+Title: 'Objects'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Objects"
-  - "Classes"
-  - "OOP"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Objects'
+  - 'Classes'
+  - 'OOP'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A JavaScript object can be created or defined with an object literal:
 
 ```js
-const person = {firstName: "Elizabeth", lastName: "Harmon", age: 22, eyeColor: "Hazel"};
+const person = {
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
+  age: 22,
+  eyeColor: 'Hazel',
+};
 ```
 
 Spaces and line breaks are not important. An object definition can span multiple lines:
 
 ```js
 const person = {
-  firstName: "Elizabeth",
-  lastName: "Harmon",
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
   age: 22,
-  eyeColor: "Hazel"
+  eyeColor: 'Hazel',
 };
 ```
 
@@ -33,12 +38,12 @@ const person = {
 
 The `key: value` pairs in JavaScript objects are called properties:
 
-| Property Key	| Property Value |
-| --- | --- |
-| `firstName` |	`"Elizabeth"` |
-| `lastName` | `"Harmon"` |
-| `age`  | `22` |
-| `eyeColor` | `"Hazel"` |
+| Property Key | Property Value |
+| ------------ | -------------- |
+| `firstName`  | `"Elizabeth"`  |
+| `lastName`   | `"Harmon"`     |
+| `age`        | `22`           |
+| `eyeColor`   | `"Hazel"`      |
 
 ## Accessing Object Properties
 
@@ -59,7 +64,7 @@ objectName["propertyName"]
 ```
 
 ```js
-person["lastName"];
+person['lastName'];
 ```
 
 ## Object Methods
@@ -70,13 +75,13 @@ Methods are stored in properties as function definitions.
 
 ```js
 const person = {
-  firstName: "Elizabeth",
-  lastName: "Harmon",
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
   age: 22,
-  eyeColor: "Hazel",
-  greeting: function() {
+  eyeColor: 'Hazel',
+  greeting: function () {
     return `Hi, I'm ${this.firstName} ${this.lastName}.`;
-  }
+  },
 };
 
 console.log(person.greeting());

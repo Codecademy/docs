@@ -1,19 +1,17 @@
 ---
-Title: "padding-top"
-Description: "Defines the width of the top padding for an element."
+Title: 'padding-top'
+Description: 'Defines the width of the top padding for an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Padding"
-  - "Box Model"
+  - 'Padding'
+  - 'Box Model'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the width of the top padding for an element.
 

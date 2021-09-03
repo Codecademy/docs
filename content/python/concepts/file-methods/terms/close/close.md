@@ -1,17 +1,17 @@
 ---
-Title: ".close()"
-Description: "Allows the user to close an open file within the IDE."
+Title: '.close()'
+Description: 'Allows the user to close an open file within the IDE.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Methods"
-  - "Files"
-  - "Functions"
-  - "Strings"
+  - 'Methods'
+  - 'Files'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The `.close()` file method allows the user to close an open file within the IDE.

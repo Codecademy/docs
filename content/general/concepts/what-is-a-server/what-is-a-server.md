@@ -1,18 +1,18 @@
 ---
-Title: "What is a Server?"
+Title: 'What is a Server?'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - "Best Practices"
-  - "Memory"
+  - 'Best Practices'
+  - 'Memory'
 CatalogContent:
-  - "paths/code-foundations"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A server is a hardware or software device used to provide resources to clients or requesting applications. Servers run on an architecture for fulfilling requests called the "Client-Server Model", which works by the client asking the server for specific data in an agreed upon format and the server readying and providing the data. 
+A server is a hardware or software device used to provide resources to clients or requesting applications. Servers run on an architecture for fulfilling requests called the "Client-Server Model", which works by the client asking the server for specific data in an agreed upon format and the server readying and providing the data.
 
 The internet largely runs based on this client-server model. The term server is broad enough to encompass the myriad of specific servers that can be found today such as web servers, game servers, email servers, and proxy servers to name a few.
 

@@ -1,19 +1,17 @@
 ---
-Title: ".upper()"
-Description: "Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed."
+Title: '.upper()'
+Description: 'Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Methods"
-  - "Functions"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods'
+  - 'Functions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
- 
 
 Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
 
@@ -55,7 +53,7 @@ elif string1.upper() == string2.upper():
   print("They are the same when you use the .upper() method")
 else:
   print("They are NOT the same")
-  
+
 # Output: They are the already the same when you use the .upper() method
 ```
 

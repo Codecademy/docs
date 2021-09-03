@@ -1,22 +1,20 @@
 ---
-Title: "SELECT DISTINCT"
-Description: "Returns unique values in the specified column(s)."
+Title: 'SELECT DISTINCT'
+Description: 'Returns unique values in the specified column(s).'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Returns unique values in the specified column(s).
 
@@ -33,13 +31,13 @@ FROM table_name;
 
 For a table `teams` having five rows:
 
-| city | name | wins | losses |
-| --- | --- | --- | --- |
-| Cleveland | Cavaliers | 22 | 50 |
-| Los Angeles | Lakers | 42 | 30 |
-| Los Angeles | Clippers | 47 | 25 |
-| Golden State | Warriors | 39 | 33 |
-| Miami | Heat | 40 | 32 |
+| city         | name      | wins | losses |
+| ------------ | --------- | ---- | ------ |
+| Cleveland    | Cavaliers | 22   | 50     |
+| Los Angeles  | Lakers    | 42   | 30     |
+| Los Angeles  | Clippers  | 47   | 25     |
+| Golden State | Warriors  | 39   | 33     |
+| Miami        | Heat      | 40   | 32     |
 
 ```sql
 SELECT DISTINCT city
@@ -48,9 +46,9 @@ FROM teams;
 
 The given query would return:
 
-| city |
-| --- |
-| Cleveland |
-| Los Angeles |
+| city         |
+| ------------ |
+| Cleveland    |
+| Los Angeles  |
 | Golden State |
-| Miami |
+| Miami        |

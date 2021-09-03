@@ -1,15 +1,15 @@
 ---
-Title: "Functions"
+Title: 'Functions'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Functions"
-  - "Parameters"
-  - "Arguments"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Functions'
+  - 'Parameters'
+  - 'Arguments'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it.
@@ -40,7 +40,7 @@ Functions can be called, or executed, elsewhere in code using parentheses follow
 function sum(num1, num2) {
   return num1 + num2;
 }
- 
+
 // Calling the function
 sum(2, 4);
 ```
@@ -53,7 +53,7 @@ The output would be:
 
 ## Return Keyword
 
-Functions return (pass back) values using the `return` keyword. `return` ends function execution and returns the specified value to the location where it was called. 
+Functions return (pass back) values using the `return` keyword. `return` ends function execution and returns the specified value to the location where it was called.
 
 A common mistake is to forget the `return` keyword, in which case the function will return undefined by default.
 
@@ -62,7 +62,7 @@ A common mistake is to forget the `return` keyword, in which case the function w
 function sum(num1, num2) {
   return num1 + num2;
 }
- 
+
 // Without return, so the function doesn't output the sum
 function sum(num1, num2) {
   num1 + num2;
@@ -75,48 +75,48 @@ Arrow function expressions were introduced in ES6. These expressions are clean a
 
 There are several variations of arrow functions:
 
-* Arrow functions with a single parameter do not require `()` around the parameter list.
-* Arrow functions with a single expression can use the concise function body which returns the result of the expression without the `return` keyword.
+- Arrow functions with a single parameter do not require `()` around the parameter list.
+- Arrow functions with a single expression can use the concise function body which returns the result of the expression without the `return` keyword.
 
 Arrow function with no arguments:
 
 ```js
-const printHello = () => { 
-  console.log('hello'); 
-}; 
+const printHello = () => {
+  console.log('hello');
+};
 
-printHello(); 
+printHello();
 // Output: hello
 ```
 
 Arrow function with a single argument:
 
 ```js
-const checkWeight = weight => { 
-  console.log(`Baggage weight : ${weight} kilograms.`); 
-}; 
+const checkWeight = (weight) => {
+  console.log(`Baggage weight : ${weight} kilograms.`);
+};
 
-checkWeight(25); 
+checkWeight(25);
 // Output: Baggage weight : 25 kilograms.
 ```
 
 Arrow function with two arguments:
 
 ```js
-const sum = (firstParam, secondParam) => { 
-  return firstParam + secondParam; 
-}; 
+const sum = (firstParam, secondParam) => {
+  return firstParam + secondParam;
+};
 
-console.log(sum(2, 5)); 
-// Output: 7 
+console.log(sum(2, 5));
+// Output: 7
 ```
 
 Concise arrow function:
 
 ```js
-const multiply = (a, b) => a * b; 
+const multiply = (a, b) => a * b;
 
-console.log(multiply(2, 30)); 
+console.log(multiply(2, 30));
 // Output: 60
 ```
 
@@ -129,9 +129,9 @@ Anonymous functions in JavaScript do not have a name property. They can be defin
 function rocketToMars() {
   return 'BOOM!';
 }
- 
+
 // Anonymous function
-const rocketToMars = function() {
+const rocketToMars = function () {
   return 'BOOM!';
-}
+};
 ```

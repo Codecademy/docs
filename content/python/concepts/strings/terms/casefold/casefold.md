@@ -1,19 +1,17 @@
 ---
 Title: .casefold()
-Description: "Takes in a string, and returns a copy of the string with all characters in lower case."
+Description: 'Takes in a string, and returns a copy of the string with all characters in lower case.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
-  - "Functions"
+  - 'Strings'
+  - 'Methods'
+  - 'Functions'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
-
 
 Takes in a string, and returns a copy of the string with all characters in lower case.
 

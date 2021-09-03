@@ -1,16 +1,16 @@
 ---
-Title: "Data Types"
+Title: 'Data Types'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Data Types"
-  - "Integers"
-  - "Booleans"
-  - "Strings"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Data Types'
+  - 'Integers'
+  - 'Booleans'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.
@@ -52,7 +52,7 @@ This will output:
 
 You can also use the built-in `isinstance()` function to test if a variable is an instance of a specified type:
 
-```py 
+```py
 
 word = "purple"
 languages = ("Python", "JavaScript", "Go")

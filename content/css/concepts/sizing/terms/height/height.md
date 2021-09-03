@@ -1,20 +1,18 @@
 ---
-Title: "height"
+Title: 'height'
 Description: "Defines the height of an element's content area. The content area is the space inside the padding, border, and margin of the element."
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Box Model"
-  - "Positioning"
-  - "Responsive"
+  - 'Box Model'
+  - 'Positioning'
+  - 'Responsive'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the height of an element's content area. The content area is the space inside the padding, border, and margin of the element.
 

@@ -1,19 +1,17 @@
 ---
-Title: ".index()"
-Description: "Finds the first occurence of a particular value within the list."
+Title: '.index()'
+Description: 'Finds the first occurence of a particular value within the list.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Finds the first occurence of a particular value within the list.
 
