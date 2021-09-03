@@ -12,11 +12,11 @@ CatalogContent:
   - "paths/computer-science"
 ---
 
-A module is a file that contains Python functions, definitions, and statements that can be included in an application.
+A module is a Python file that contains functions, definitions, and statements that can be included in an application.
 
 Instead of entering commands directly into a Python interpreter, we can save Python code as a module so we can use it again in other applications. We can also use modules to access libraries such as `numpy` and `sklearn` or the built-in Python `date-time` module. 
 
-Think of a module as Python file or code library that can be reused across applications. Modules improve code reusablity and allow us to access shared libraries and packages.
+Think of a module as a code library that can be reused across applications. Modules improve code reusablity and allow us to access shared libraries and packages.
 
 ## Creating Modules
 
