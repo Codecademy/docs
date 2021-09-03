@@ -1,14 +1,14 @@
 ---
-Title: "Math Functions"
+Title: 'Math Functions'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Arithmetic"
-  - "Functions"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Arithmetic'
+  - 'Functions'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 C++ has many functions that allows you to perform mathematical tasks on numbers.
@@ -25,4 +25,3 @@ std::cout << round(2.6);  // Round 2.6
 ```
 
 A list of other popular math functions from the `<cmath>` library can be found in the table below:
-

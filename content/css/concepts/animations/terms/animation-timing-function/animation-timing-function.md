@@ -1,20 +1,18 @@
 ---
-Title: "animation-timing-function"
-Description: "Defines an acceleration curve for each keyframe in a single animation. "
+Title: 'animation-timing-function'
+Description: 'Defines an acceleration curve for each keyframe in a single animation. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-
-
-Defines an acceleration curve for each keyframe in a single animation. 
+Defines an acceleration curve for each keyframe in a single animation.
 
 ## Syntax
 
@@ -32,7 +30,6 @@ where `<value>` can be one of the following keywords:
 - `ease-out`: The easing curve for an animation that starts slowly and decelerates.
 - `ease-in-out`: The easing curve for an animation that starts and ends at the same speed.
 - `cubic-bezier()`: The easing curve for an animation that starts and ends at the same speed.
-
 
 **Note:** Applied property by property from keyframe to keyframe.
 

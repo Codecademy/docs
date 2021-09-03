@@ -1,14 +1,14 @@
 ---
-Title: "Math.acos()"
-Description: "Returns the inverse cosine of the argument in radians."
+Title: 'Math.acos()'
+Description: 'Returns the inverse cosine of the argument in radians.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Methods"
-  - "Arithmetic"
+  - 'Methods'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The `Math.acos()` method returns the inverse cosine of the argument in radians.
@@ -37,9 +37,9 @@ Use `Math.acos()` to return the inverse cosine of `0.0`:
 ```java
 class Main {
   public static void main(String[] args) {
-  
+
     double x = 0.0;
-    
+
     System.out.println(Math.acos(x));
     // Output: 1.5707963267948966
 

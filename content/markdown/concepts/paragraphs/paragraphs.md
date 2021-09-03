@@ -1,29 +1,29 @@
 ---
-Title: "Paragraphs"
+Title: 'Paragraphs'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
-Tags: 
-  - "Markdown"
-  - "GitHub"
+  - 'Developer Tools'
+  - 'Web Development'
+Tags:
+  - 'Markdown'
+  - 'GitHub'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A paragraph is a block of text with one or more blank lines between them. 
+A paragraph is a block of text with one or more blank lines between them.
 
 ## Syntax
 
 ```markdown
-Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. 
+Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth.
 
 Lo. Lee. Ta.
 ```
 
 This would output:
 
-Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. 
+Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth.
 
 Lo. Lee. Ta.
 
@@ -34,7 +34,7 @@ Line breaks in pargraphs can be created with double newlines or using a `\` symb
 ```markdown
 Success seems to be connected with action. Successful people keep moving.
 
-They make mistakes, but they don’t quit. 
+They make mistakes, but they don’t quit.
 ```
 
 ```markdown

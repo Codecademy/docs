@@ -1,15 +1,15 @@
 ---
-Title: ".toFixed()"
-Description: "Converts a number to a string of its fixed-point decimal form."
+Title: '.toFixed()'
+Description: 'Converts a number to a string of its fixed-point decimal form.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.toFixed()` method converts a number to a string of its fixed-point decimal form.

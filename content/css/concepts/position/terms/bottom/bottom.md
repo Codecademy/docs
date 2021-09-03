@@ -1,19 +1,17 @@
 ---
-Title: "bottom"
-Description: "Specifies the distance of an element from the bottom of its current location if the element itself has position: relative declared or from the bottom of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared."
+Title: 'bottom'
+Description: 'Specifies the distance of an element from the bottom of its current location if the element itself has position: relative declared or from the bottom of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Box Model"
-  - "Positioning"
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specifies the distance of an element from the bottom of its current location if the element itself has `position: relative` declared or from the bottom of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
 

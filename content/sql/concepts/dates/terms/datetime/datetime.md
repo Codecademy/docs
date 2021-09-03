@@ -1,21 +1,20 @@
 ---
-Title: "DATETIME()"
-Description: "Returns the both the date and time (YYYY-MM-DD hh:mm:ss)."
+Title: 'DATETIME()'
+Description: 'Returns the both the date and time (YYYY-MM-DD hh:mm:ss).'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
- 
-The `DATETIME()` function returns the entire time string which includes the date and time portions (YYYY-MM-DD hh:mm:ss)
 
+The `DATETIME()` function returns the entire time string which includes the date and time portions (YYYY-MM-DD hh:mm:ss)
 
 ## Syntax
 
@@ -63,13 +62,13 @@ The following modifiers add a specified amount to the date and time of the time 
 
 For example, suppose there’s a `bodega` table with the following data:
 
-| order_id |	item | price | quantity | order_date |
-| --- | --- | --- | --- | --- |
-| 1	| Donut	| 2.49 | 2 | 2022-08-16 08:04:23 |
-| 2	| Cookie | 0.99	| 3	| 2022-08-16 09:43:00 |
-| 3	| Donut	| 2.49 | 1 | 2022-08-16 11:25:12 |
-| 4	| Egg Sandwich | 7.99	| 1	| 2022-08-17 11:45:41 |
-| 5	| Ice Coffee | 3.99 | 2 | 2022-08-17 12:18:50 |
+| order_id | item         | price | quantity | order_date          |
+| -------- | ------------ | ----- | -------- | ------------------- |
+| 1        | Donut        | 2.49  | 2        | 2022-08-16 08:04:23 |
+| 2        | Cookie       | 0.99  | 3        | 2022-08-16 09:43:00 |
+| 3        | Donut        | 2.49  | 1        | 2022-08-16 11:25:12 |
+| 4        | Egg Sandwich | 7.99  | 1        | 2022-08-17 11:45:41 |
+| 5        | Ice Coffee   | 3.99  | 2        | 2022-08-17 12:18:50 |
 
 ```sql
 SELECT DATETIME(order_date)
@@ -78,8 +77,8 @@ FROM bodega;
 
 This would return the time for the `order_date` column.
 
-| TIME(order_date) |
-| --- |
+| TIME(order_date)    |
+| ------------------- |
 | 2022-08-16 08:04:23 |
 | 2022-08-16 09:43:00 |
 | 2022-08-16 11:25:12 |
@@ -95,4 +94,3 @@ SELECT DATETIME('2020-02-10', 'start of month', '-1 day', '+7 hours');
 - First, it will apply the modifier `'start of month'` which will shift to the beginning of the month, `'2020-02-01 00:00:00'`. It will include the time portion because we are using the `DATETIME()` function.
 - Then, it will apply the modifier `'-1 day'` which will offset the day by -1, resulting in `'2020-01-31 00:00:00'`.
 - Finally, it will apply the modifier `'+7 hours'`, which will add 7 hours to the time, giving the final result of `'2020-01-31 07:00:00'`.
-

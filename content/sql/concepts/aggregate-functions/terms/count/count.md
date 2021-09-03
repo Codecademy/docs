@@ -1,17 +1,17 @@
 ---
-Title: "COUNT()"
-Description: "Returns the number of rows that match the specified criteria."
+Title: 'COUNT()'
+Description: 'Returns the number of rows that match the specified criteria.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "SQLite"
-  - "PostgreSQL"
-  - "MySQL"
-  - "Functions"
+  - 'SQLite'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'Functions'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 The `COUNT()` aggregate function returns the total number of rows that match the specified criteria.
@@ -31,12 +31,12 @@ FROM table_name;
 
 Suppose there's an `employees` table with the following values:
 
-| name | salary | experience | 
-| -- | -- | -- |
-| Michael | 80000 | 14 |
-| Pam | 41500 | 2 |
-| Jim | 45000 | 4 |
-| Dwight | 55000 | 8 |
+| name    | salary | experience |
+| ------- | ------ | ---------- |
+| Michael | 80000  | 14         |
+| Pam     | 41500  | 2          |
+| Jim     | 45000  | 4          |
+| Dwight  | 55000  | 8          |
 
 To find the total number of employees who have less than 5 years of experience, the given query can be used:
 
@@ -48,6 +48,6 @@ WHERE experience < 5;
 
 The result would be:
 
-| COUNT(*) | 
-| -- |
-| 2 |
+| COUNT(\*) |
+| --------- |
+| 2         |

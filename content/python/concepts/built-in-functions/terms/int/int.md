@@ -1,20 +1,18 @@
 ---
-Title: "int()"
-Description: "Takes in a value that can be converted into an integer, and returns a copy of the value in the int datatype."
+Title: 'int()'
+Description: 'Takes in a value that can be converted into an integer, and returns a copy of the value in the int datatype.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science" 
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Takes in a value that can be converted into an integer, and returns a copy of the value in the `int` datatype.
 

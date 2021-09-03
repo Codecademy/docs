@@ -1,19 +1,17 @@
 ---
-Title: "grid-template-columns"
-Description: "A property that specifies the column structure of a grid container."
+Title: 'grid-template-columns'
+Description: 'A property that specifies the column structure of a grid container.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grid"
-  - "Layout"
+  - 'Grid'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 A property that specifies the column structure of a grid container.
 
@@ -35,12 +33,12 @@ where `<column-space>` can be one of the following:
 
 ## Example 1
 
-The  `spam-container` div encloses several paragraphs of text, split the container into four evenly spaced columns:
+The `spam-container` div encloses several paragraphs of text, split the container into four evenly spaced columns:
 
 ```css
 .spam-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /* equivalent to: 25% 25% 25% 25% */
 }
 ```

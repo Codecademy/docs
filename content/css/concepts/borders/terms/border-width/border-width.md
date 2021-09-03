@@ -1,19 +1,17 @@
 ---
-Title: "border-width"
-Description: "Shorthand property that sets the width for the overall border of an element or for each side individually."
+Title: 'border-width'
+Description: 'Shorthand property that sets the width for the overall border of an element or for each side individually.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Box Model"
+  - 'Borders'
+  - 'Box Model'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Shorthand property that sets the width for the overall border of an element or for each side individually.
 

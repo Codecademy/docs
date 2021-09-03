@@ -1,13 +1,13 @@
 ---
-Title: "Files"
+Title: 'Files'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Files"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Files'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 Computers use file systems to store and retrieve data. Each file is an individual container of related information.

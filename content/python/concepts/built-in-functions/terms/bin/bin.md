@@ -1,20 +1,18 @@
 ---
-Title: "bin()"
-Description: "Converts an integer into its binary equivalent string."
+Title: 'bin()'
+Description: 'Converts an integer into its binary equivalent string.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Strings"
-  - "Integers"
+  - 'Functions'
+  - 'Strings'
+  - 'Integers'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Converts an integer into its binary equivalent string.
 

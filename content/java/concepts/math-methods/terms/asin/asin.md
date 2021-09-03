@@ -1,17 +1,15 @@
 ---
-Title: "Math.asin()"
-Description: "Returns the inverse sine of the argument in radians."
+Title: 'Math.asin()'
+Description: 'Returns the inverse sine of the argument in radians.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Methods"
-  - "Arithmetic"
+  - 'Methods'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the inverse sine of the argument in radians.
 
@@ -21,16 +19,16 @@ Returns the inverse sine of the argument in radians.
 Math.asin(n)
 ```
 
-## Example 
+## Example
 
 Use `Math.asin()` to return the inverse sine of `1.0`:
 
 ```java
 public class Main {
   public static void main(String[] args) {
-  
+
     double x = 1.0;
-    
+
     System.out.println(Math.asin(x));
     // Output: 1.5707963267948966
 

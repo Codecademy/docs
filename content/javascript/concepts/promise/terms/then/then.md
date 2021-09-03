@@ -1,17 +1,15 @@
 ---
-Title: ".then()"
-Description: "Returns a new Promise object."
+Title: '.then()'
+Description: 'Returns a new Promise object.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a new `Promise` object.
 
@@ -28,10 +26,10 @@ The `resolvedPromiseCallback` function handles any resolved data from the previo
 ```js
 const myPromise = new Promise((resolve, reject) => {
   if (2 + 2 === 3) {
-    resolve("Success!");
+    resolve('Success!');
   } else {
     reject({
-      errorType: "ArithmeticError",
+      errorType: 'ArithmeticError',
       message: "The numbers don't add up!",
     });
   }

@@ -1,16 +1,16 @@
 ---
-Title: "Functions"
+Title: 'Functions'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Functions"
-  - "Parameters"
-  - "Arguments"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Functions'
+  - 'Parameters'
+  - 'Arguments'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
 Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the `def` keyword. Function definitions may include parameters, providing data input to the function.
@@ -19,12 +19,12 @@ Functions may return a value using the `return` keyword followed by the value to
 
 ```py
 # Define a function my_function() with parameter x
- 
+
 def my_function(x):
   return x + 1
- 
+
 # Invoke the function
- 
+
 print(my_function(2))      # Output: 3
 print(my_function(3 + 5))  # Output: 9
 ```
@@ -49,8 +49,8 @@ For example, the function definition defines parameters for a character, a setti
 
 ```py
 def write_a_book(character, setting, special_skill):
-  print(character + " is in " + 
-        setting + " practicing her " + 
+  print(character + " is in " +
+        setting + " practicing her " +
         special_skill)
 ```
 
@@ -61,24 +61,24 @@ The `return` keyword is used to return a value from a Python function. The value
 In the example, the function `check_leap_year()` returns a string which indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
-def check_leap_year(year): 
+def check_leap_year(year):
   if year % 4 == 0:
     return str(year) + " is a leap year."
   else:
     return str(year) + " is not a leap year."
- 
+
 year_to_check = 2018
 
 returned_value = check_leap_year(year_to_check)
 
-print(returned_value) 
+print(returned_value)
 ```
 
 ## Recursion
 
 Functions in Python can call themselves — a concept known as "recursion". Recursion provides an elegant way to solve problems by breaking them down into smaller, more easily-solvable parts, and using those parts to build up a solution.
 
-Consider the Fibonacci sequence, whose first two terms are explicitly defined to be 0 and 1. Each subsequent term is constructed by taking the sum of the previous two terms. Thus, the first six terms of the sequence are 0, 1, 1, 2, 3, and 5. 
+Consider the Fibonacci sequence, whose first two terms are explicitly defined to be 0 and 1. Each subsequent term is constructed by taking the sum of the previous two terms. Thus, the first six terms of the sequence are 0, 1, 1, 2, 3, and 5.
 
 Defining a function that prints the `n`-th Fibonacci number is most easily achieved using recursion.
 
@@ -99,7 +99,7 @@ Notice how inside the `fibonacci()` function, it calls itself.
 
 ## Higher-Order Functions
 
-In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions. 
+In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions.
 
 A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. One example is the built-in `filter()` function:
 

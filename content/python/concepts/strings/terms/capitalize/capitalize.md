@@ -1,19 +1,17 @@
 ---
 Title: .capitalize()
-Description: "Takes in a string, and returns a copy of the string in Capital Case."
+Description: 'Takes in a string, and returns a copy of the string in Capital Case.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
-  - "Functions"
+  - 'Strings'
+  - 'Methods'
+  - 'Functions'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
-
 
 Takes in a string, and returns a copy of the string in Capital Case.
 

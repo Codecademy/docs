@@ -1,21 +1,19 @@
 ---
-Title: ".seed()"
-Description: "Save the state of the pseudo-random number generator."
+Title: '.seed()'
+Description: 'Save the state of the pseudo-random number generator.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Random"
-  - "Methods"
-  - "Functions"
-  - "Strings"
+  - 'Random'
+  - 'Methods'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Save the state of the pseudo-random number generator.
 
@@ -40,7 +38,6 @@ print(random.random())
 ```
 
 ## Example 2
-
 
 Use `.seed()` to initialize the pseudo-random number generator in Python with a particular value:
 

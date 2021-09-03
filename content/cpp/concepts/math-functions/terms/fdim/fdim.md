@@ -1,19 +1,17 @@
 ---
-Title: "fdim()"
-Description: "Returns the positive difference between two arguments."
+Title: 'fdim()'
+Description: 'Returns the positive difference between two arguments.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-
-
-Returns the positive difference between two arguments. 
+Returns the positive difference between two arguments.
 
 ## Syntax
 
@@ -41,7 +39,7 @@ Use `fdim()` to return the positive difference between `8` and `5`:
 
 ```codebyte/cpp
 #include <iostream>
-#include <cmath> 
+#include <cmath>
 
 int main () {
   double x = 8;

@@ -1,15 +1,15 @@
 ---
-Title: ".toExponential()"
-Description: "Converts a number to a string of its exponential form."
+Title: '.toExponential()'
+Description: 'Converts a number to a string of its exponential form.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.toExponential()` method converts a number to a string of its exponetial form.
@@ -20,7 +20,7 @@ The `.toExponential()` method converts a number to a string of its exponetial fo
 num.toExponential(digits);
 ```
 
-- `digits` (optional): The number of digits to keep after the decimal point. 
+- `digits` (optional): The number of digits to keep after the decimal point.
 
 ## Example
 

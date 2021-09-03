@@ -1,13 +1,13 @@
 ---
-Title: "💭 Comments"
+Title: '💭 Comments'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Comments"
-  - "Documentation"
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
@@ -22,7 +22,7 @@ In Emojicode, single-line comments are made with `💭`. Any text after the `�
 💭 The next line outputs "Hello"
 😀 🔤Hello🔤❗️
 ```
- 
+
 ## Multiline Comments
 
 Multiline comments are created with `💭🔜` and `🔚💭`. Any text in between is not executed.

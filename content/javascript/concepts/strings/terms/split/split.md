@@ -1,20 +1,18 @@
 ---
-Title: ".split()"
-Description: "Breaks the string on which it called into an array of substrings, and returns the new array. "
+Title: '.split()'
+Description: 'Breaks the string on which it called into an array of substrings, and returns the new array. '
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-
-
-Breaks the string on which it called into an array of substrings, and returns the new array. 
+Breaks the string on which it called into an array of substrings, and returns the new array.
 
 ## Syntax
 
@@ -28,7 +26,7 @@ The `separator` (optional) describes the pattern where each split should occur. 
 string.split(separator, limit);
 ```
 
-The `limit` (optional) determines the number of substring elements included in the array.  
+The `limit` (optional) determines the number of substring elements included in the array.
 
 ## Examples
 
@@ -66,6 +64,7 @@ console.log(arrayOfPeople);
 ```
 
 Split string on each character:
+
 ```js
 const letters = 'abcde';
 

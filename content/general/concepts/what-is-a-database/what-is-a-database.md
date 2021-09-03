@@ -1,21 +1,21 @@
 ---
-Title: "What is a Database?"
+Title: 'What is a Database?'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Database"
+  - 'Database'
 CatalogContent:
-  - "paths/design-databases-with-postgresql"
-  - "paths/analyze-data-with-sql"
-  - "paths/data-science"
+  - 'paths/design-databases-with-postgresql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/data-science'
 ---
 
-A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.  
+A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.
 
 ## Types of Databases
 
-There are many different ways for database systems to structure and organize data. The type of database used is dependent on the type of data being stored, and the intended use for it. 
+There are many different ways for database systems to structure and organize data. The type of database used is dependent on the type of data being stored, and the intended use for it.
 
 ### Relational Databases
 
@@ -32,6 +32,7 @@ A hybrid of the above two models. Unlike pure object databases where the databas
 ### NoSQL Databases
 
 NoSQL Databases are also known as Nonrelational Databases. They are a wide variety of databases that use different structures for data rather than the tables used in relational databases. They are implemented using various different structures for different purposes. For example:
-  - Key–Value Store: Stores data in an associative array where data is stored as a collection of key-value pairs where any possible key only appears once in the collection.
-  - Document Store: Stores data as documents in some standard format such as XML, TAML or JSON. Documents are stored in the database with a unique key representing that document.
-  - Graph Database: Stores data as elements connected by a finite number of relations, such as a subway map or a network of friends on Facebook.
+
+- Key–Value Store: Stores data in an associative array where data is stored as a collection of key-value pairs where any possible key only appears once in the collection.
+- Document Store: Stores data as documents in some standard format such as XML, TAML or JSON. Documents are stored in the database with a unique key representing that document.
+- Graph Database: Stores data as elements connected by a finite number of relations, such as a subway map or a network of friends on Facebook.

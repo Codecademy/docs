@@ -1,19 +1,17 @@
 ---
-Title: "position"
-Description: "Defines the location of an element."
+Title: 'position'
+Description: 'Defines the location of an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Box Model"
-  - "Positioning"
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the location of an element.
 
@@ -29,7 +27,7 @@ where `<value>` can be one of the following:
 - `relative`: The element does not change positions unless one or several properties of top, right, bottom, or left are declared. It also creates a reference position for absolute positioned child elements.
 - `absolute`: The element is removed from the document flow and it's positioned in relation to its closest relative positioned ancestor element.
 - `fixed`: The element is removed from the document flow just like the absolute positioned elements. However, unlike the absolute positioned elements, which are relative to an ancestor element, the fixed elements are always relative to the document.
-- `sticky`: This value is a mix between the relative and fixed positions. The element is treated as relative until a specific point or threshold is met, at which point the element is then treated as fixed. 
+- `sticky`: This value is a mix between the relative and fixed positions. The element is treated as relative until a specific point or threshold is met, at which point the element is then treated as fixed.
 
 ## Example 1
 

@@ -1,20 +1,18 @@
 ---
-Title: "margin-right"
-Description: "Defines the right margin area for an element."
+Title: 'margin-right'
+Description: 'Defines the right margin area for an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Margin"
-  - "Box Model"
-  - "Positioning"
+  - 'Margin'
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the right margin area for an element.
 

@@ -1,18 +1,16 @@
 ---
-Title: ".valueOf()"
-Description: "Returns the difference in milliseconds between the specified date and January 1, 1970 00:00:00 UTC."
+Title: '.valueOf()'
+Description: 'Returns the difference in milliseconds between the specified date and January 1, 1970 00:00:00 UTC.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Date"
-  - "Methods"
+  - 'Date'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Returns the difference in milliseconds between the specified date and January 1, 1970 00:00:00 UTC.
 

@@ -1,21 +1,21 @@
 ---
-Title: "Functions"
-Subjects: 
-  - "Code Foundations"
-  - "Computer Science"
+Title: 'Functions'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arguments"
+  - 'Functions'
+  - 'Arguments'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 Functions are blocks of code that can be run multiple times within a program. They are stored under a name similar to a variable and can be called using this name.
 
 ## Declaring a Function
 
-A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets. 
+A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets.
 
 ```pseudo
 return_type name(parameters) {
@@ -57,7 +57,7 @@ The output would be:
 Howdy!
 ```
 
-## Arguments 
+## Arguments
 
 The values passed to a function are known as arguments. They represent the actual input values that can be used within the function.
 
@@ -74,9 +74,9 @@ void max(int x, int y) {
 int main() {
   int a = 20;
   int b = 30;
-    
+
   max(a, b);
-  
+
   return 0;
 }
 ```

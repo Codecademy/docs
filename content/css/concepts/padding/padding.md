@@ -1,18 +1,18 @@
 ---
-Title: "Padding"
+Title: 'Padding'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Padding"
-  - "Elements"
-  - "Properties"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Padding'
+  - 'Elements'
+  - 'Properties'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The space between the contents of a box and the borders of a box is known as *padding*. Padding is like the space between a picture and the frame surrounding it. 
+The space between the contents of a box and the borders of a box is known as _padding_. Padding is like the space between a picture and the frame surrounding it.
 
 ## Syntax
 

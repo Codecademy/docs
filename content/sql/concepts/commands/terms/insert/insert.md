@@ -1,21 +1,19 @@
 ---
-Title: "INSERT"
-Description: "Inserts new rows into a table."
+Title: 'INSERT'
+Description: 'Inserts new rows into a table.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 Inserts new rows into a table.
 
@@ -30,7 +28,7 @@ Multiple rows can be inserted by adding additional sets to the `VALUES` clause:
 
 ```sql
 INSERT INTO table_name
-VALUES 
+VALUES
   (value1, value2, ...),
   (value1, value2, ...);
 ```

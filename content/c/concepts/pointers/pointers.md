@@ -1,16 +1,16 @@
 ---
-Title: "Pointers" 
+Title: 'Pointers'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Pointers"
-  - "Memory"
-  - "Variables"
-  - "Arrays"
+  - 'Pointers'
+  - 'Memory'
+  - 'Variables'
+  - 'Arrays'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A pointer is a [variable](https://www.codecademy.com/resources/docs/c/variables) that stores a memory address, which typically represents the location of another variable. Pointers are useful because they allow the efficient creation and manipulation of complex data structures.
@@ -23,9 +23,9 @@ Data is stored in a computer's [memory](https://www.codecademy.com/resources/doc
 - A value
 - An address
 
-The address is a value that describes *where* in memory a variable is located.
+The address is a value that describes _where_ in memory a variable is located.
 
-To understand pointers, it may be helpful to think of variables as boxes on a shelf. Each box has a label (the identifier), a unique serial number that allows one to locate it (the address), and possibly something inside of it (the value). 
+To understand pointers, it may be helpful to think of variables as boxes on a shelf. Each box has a label (the identifier), a unique serial number that allows one to locate it (the address), and possibly something inside of it (the value).
 
 Following this analogy, a pointer can be described as a box that contains the serial number of another box within it.
 
@@ -44,9 +44,9 @@ int year = 1986;
 int *pointer_to_year = &year;
 ```
 
-The left-hand side of this declaration may be read in reverse order — "`pointer_to_year` is a pointer to an integer." 
+The left-hand side of this declaration may be read in reverse order — "`pointer_to_year` is a pointer to an integer."
 
-If the value of  `year` were to be printed, the output would read "1986". However, if the value of `pointer_to_year` were to be printed, the output would be an address such as `0x2aba1c0cf890`.
+If the value of `year` were to be printed, the output would read "1986". However, if the value of `pointer_to_year` were to be printed, the output would be an address such as `0x2aba1c0cf890`.
 
 The dereference operator (also known as the indirection operator), represented by an asterisk (`*`), allows one to access the value of the variable that a pointer points to.
 
@@ -62,12 +62,12 @@ int another_year = *(pointer_to_year) - 33; // Value of another_year: 1953
 
 ## Functions and Pointers
 
-Like other data types, pointers can be passed to and returned from [functions](https://www.codecademy.com/resources/docs/c/functions). One scenario in which this might be useful is "returning" two values from a function. 
+Like other data types, pointers can be passed to and returned from [functions](https://www.codecademy.com/resources/docs/c/functions). One scenario in which this might be useful is "returning" two values from a function.
 
 ```c
 bool divide(int a, int b, bool *d) {
   int c = a / b;
-  
+
   if (c * b == a) {
     *(d) = true;
   } else {
@@ -83,4 +83,4 @@ bool divisible;
 int result = divide(numerator, denominator, divisible);
 ```
 
-In the example above, the `divide()` function returns the result of `a / b` and sets the variable that `d` points at to represent whether or not `a` is divisible by `b`. When this function is called on the last line, `result` is assigned a value of 2 and `divisible` becomes true.
+In the example above, the `divide()` function returns the result of `a / b` and sets the variable that `d` points at to represent whether or not `a` is divisible by `b`. When this function is called on the last line, `result` is assigned a value of 2 and `divisible` becomes true.
