@@ -1,18 +1,18 @@
 ---
-Title: "strcpy()"
-Description: "Copies one string into another."
+Title: 'strcpy()'
+Description: 'Copies one string into another.'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Data Types"
-  - "Characters"
-  - "Arrays"
-  - "Functions"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Data Types'
+  - 'Characters'
+  - 'Arrays'
+  - 'Functions'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The `strcpy()` string function copies one string into another string.
@@ -31,10 +31,10 @@ The **string.h** header file needs to be included at the top of the file:
 strcpy(string1, string2)
 ```
 
-
 ## Example
 
 Suppose we have two strings, `pokemon1` and `pokemon2`:
+
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -45,7 +45,7 @@ int main() {
 
   // This function has copied pokemon2 into pokemon1
   strcpy(pokemon1, pokemon2);
-  
+
   printf("pokemon1 is now: %s", pokemon1);
   return 0;
 }

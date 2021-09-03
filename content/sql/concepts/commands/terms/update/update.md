@@ -1,22 +1,20 @@
 ---
-Title: "UPDATE"
-Description: "Edits row(s) in a table."
+Title: 'UPDATE'
+Description: 'Edits row(s) in a table.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Edits row(s) in a table.
 

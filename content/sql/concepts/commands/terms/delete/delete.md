@@ -1,21 +1,19 @@
 ---
-Title: "DELETE"
-Description: "Removes existing record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted."
+Title: 'DELETE'
+Description: 'Removes existing record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 Removes existing record(s) from a table. If a `WHERE` statement is excluded, all records in the table will be deleted.
 

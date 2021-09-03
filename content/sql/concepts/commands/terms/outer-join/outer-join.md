@@ -1,18 +1,18 @@
 ---
-Title: "OUTER JOIN"
-Description: "Ccombine rows from different tables even if the join condition is not met."
+Title: 'OUTER JOIN'
+Description: 'Ccombine rows from different tables even if the join condition is not met.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
 
 Combine rows from different tables even if the join condition is not met.
@@ -30,7 +30,7 @@ LEFT JOIN table_2
 
 ## Example
 
-To create a result set of every row in the `students` table combined with the `transfer_data` table where student IDs match. And if the join condition is not met, then `NULL` values are used to fill in the columns from the `transfer_data` table.  
+To create a result set of every row in the `students` table combined with the `transfer_data` table where student IDs match. And if the join condition is not met, then `NULL` values are used to fill in the columns from the `transfer_data` table.
 
 ```sql
 SELECT

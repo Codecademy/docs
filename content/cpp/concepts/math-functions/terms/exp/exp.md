@@ -1,17 +1,15 @@
 ---
-Title: "exp()"
-Description: "Returns e raised to the power of the argument."
+Title: 'exp()'
+Description: 'Returns e raised to the power of the argument.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
-
-
 
 `exp()` returns the base-_e_ exponential function of the argument, which is _e_ raised to the power of the argument.
 
@@ -27,7 +25,7 @@ Returns *e*ⁿ:
 std::exp(n)
 ```
 
-## Example 
+## Example
 
 Use `exp()` to return the value of *e*³):
 
@@ -39,7 +37,7 @@ result = std::exp(3);
 
 ## Codebyte Example
 
-Use `exp()` to return the value of *e* (*e*¹):
+Use `exp()` to return the value of _e_ (*e*¹):
 
 ```codebyte/cpp
 #include <iostream>

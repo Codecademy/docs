@@ -1,15 +1,15 @@
 ---
-Title: ".findIndex()"
+Title: '.findIndex()'
 Description: "Returns the first index that passes the callback function's test. Returns -1 if no element passes the test."
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.findIndex()` array method returns the first index that passes the callback function's test. Returns `-1` if no element passes the test.
@@ -20,7 +20,7 @@ The `.findIndex()` array method returns the first index that passes the callback
 array.findIndex((element, index, array) => {...});
 ```
 
-A function can be invoked with three arguments: 
+A function can be invoked with three arguments:
 
 - `element`: The current element we are iterating through.
 - `index` (optional): The index of the array element.
@@ -31,10 +31,10 @@ A function can be invoked with three arguments:
 Find the first element that satisfies the condition:
 
 ```js
-const cats = ["Kiki", "Leo", "Milo", "Cleo", "Lily", "Luna"];
+const cats = ['Kiki', 'Leo', 'Milo', 'Cleo', 'Lily', 'Luna'];
 
-const findLily = cats.findIndex(cat => {
-  return cat == "Lily"
+const findLily = cats.findIndex((cat) => {
+  return cat == 'Lily';
 });
 
 console.log(findLily);
@@ -44,10 +44,10 @@ console.log(findLily);
 If no element satisfies the condition, the result will be `-1`:
 
 ```js
-const cats = ["Kiki", "Leo", "Milo", "Cleo", "Luna"];
+const cats = ['Kiki', 'Leo', 'Milo', 'Cleo', 'Luna'];
 
-const findLily = cats.findIndex(cat => {
-  return cat == "Lily"
+const findLily = cats.findIndex((cat) => {
+  return cat == 'Lily';
 });
 
 console.log(findLily);

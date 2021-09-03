@@ -1,19 +1,17 @@
 ---
-Title: "bytes()"
-Description: "Returns a byte immutable object representing the given bytes of an object."
+Title: 'bytes()'
+Description: 'Returns a byte immutable object representing the given bytes of an object.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Debugging"
+  - 'Functions'
+  - 'Debugging'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Returns a byte immutable object representing the given bytes of an object.
 
@@ -25,9 +23,9 @@ bytes(source, encoding, error)
 
 ## Parameters
 
-* `source` (optional): specifies the source to initialize the byte represented object.
-* `encoding`(optional): specifies the encoding method of the object.
-* `errors` (optional): specifies the action to take in case of error.
+- `source` (optional): specifies the source to initialize the byte represented object.
+- `encoding`(optional): specifies the encoding method of the object.
+- `errors` (optional): specifies the action to take in case of error.
 
 ## Example 1
 

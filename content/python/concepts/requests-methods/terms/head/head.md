@@ -1,22 +1,20 @@
 ---
-Title: "requests.head()"
-Description: "Makes a head request to a web server; it returns a response object."
+Title: 'requests.head()'
+Description: 'Makes a head request to a web server; it returns a response object.'
 Subjects:
-  - "Data Science"
-Tags: 
-  - "Methods"
-  - "APIs"
-  - "HTTP"
-  - "Queries"
-  - "Requests"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+Tags:
+  - 'Methods'
+  - 'APIs'
+  - 'HTTP'
+  - 'Queries'
+  - 'Requests'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
 
- 
-
-The `requests` module for Python includes a method for making a "head" request to a web server; it returns a response object. 
+The `requests` module for Python includes a method for making a "head" request to a web server; it returns a response object.
 
 ## Syntax
 
@@ -66,5 +64,4 @@ print(response.headers["Content-Type"])
 # Output: application/json; charset=utf-8
 ```
 
-Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout. 
-
+Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.

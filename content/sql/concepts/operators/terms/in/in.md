@@ -1,20 +1,20 @@
 ---
 Title: IN
-Description: "Allows the user to specify multiple values in the WHERE clause."
+Description: 'Allows the user to specify multiple values in the WHERE clause.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Operators"
-  - "Database"
-  - "Queries"
-  - "SQLite"
-  - "MySQL"
-  - "PostgreSQL"
+  - 'Operators'
+  - 'Database'
+  - 'Queries'
+  - 'SQLite'
+  - 'MySQL'
+  - 'PostgreSQL'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
 
 The `IN` operator allows the user to specify multiple values in the `WHERE` clause.
@@ -63,10 +63,10 @@ WHERE item_name IN ('plunger', 'soap', 'wipes');
 The following SQL statement selects all customers that are from the same countries as the suppliers:
 
 ```sql
-SELECT * 
+SELECT *
 FROM customers
 WHERE country IN (
-  SELECT country 
+  SELECT country
   FROM suppliers
 );
 ```

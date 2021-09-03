@@ -1,15 +1,15 @@
 ---
-Title: "Substring" 
-Subjects: 
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Methods "
-  - "Data Types "
-CatalogContent: 
-  - "introduction-to-javascript"
-  - "paths/create-a-back-end-app-with-javascript"
+Title: 'Substring'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods '
+  - 'Data Types '
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/create-a-back-end-app-with-javascript'
 ---
 
 The `.substring()` method returns part of a string. If given two arguments, they are the start and end indexes of the characters returned. If given one argument, it returns characters from that point to the end of the string.
@@ -18,7 +18,7 @@ The `.substring()` method returns part of a string. If given two arguments, they
 
 ```javascript
 // Returns characters from startIndex to end of string
-string.substring(startIndex); 
+string.substring(startIndex);
 
 // Returns characters from startIndex to endIndex
 string.substring(startIndex, endIndex);
@@ -45,7 +45,7 @@ string.substring(startIndex, endIndex);
 Using `.substring()` to display characters from a given string.
 
 ```javascript
-const str = 'Codecademy'
+const str = 'Codecademy';
 
 console.log(str.substring(0, 4));
 console.log(str.substring(4, 0));
@@ -62,7 +62,7 @@ console.log(str.substring(4, 99));
 Using `.substring()` to display the last `6` characters from a given string.
 
 ```javascript
-const str = 'Codecademy'
+const str = 'Codecademy';
 
 console.log(str.substring(str.length - 6));
 // Output: cademy

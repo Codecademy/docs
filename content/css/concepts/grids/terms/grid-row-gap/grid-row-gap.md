@@ -1,19 +1,17 @@
 ---
-Title: "grid-row-gap"
-Description: "A property that specifies the spacing between row elements within a grid framework."
+Title: 'grid-row-gap'
+Description: 'A property that specifies the spacing between row elements within a grid framework.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 A property that specifies the spacing between row elements within a grid framework.
 

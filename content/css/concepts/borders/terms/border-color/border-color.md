@@ -1,20 +1,18 @@
 ---
-Title: "border-color"
-Description: "Sets the color of the border. The default value is the current element color."
+Title: 'border-color'
+Description: 'Sets the color of the border. The default value is the current element color.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Box Model"
-  - "Colors"
+  - 'Borders'
+  - 'Box Model'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
- 
 
 Sets the color of the border. The default value is the current element color.
 

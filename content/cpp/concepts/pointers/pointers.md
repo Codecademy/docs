@@ -1,16 +1,16 @@
 ---
-Title: "Pointers"
+Title: 'Pointers'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Pointers"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Pointers'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-A pointer is a special type of variable that stores the address of another variable in it. 
+A pointer is a special type of variable that stores the address of another variable in it.
 
 ## Declaration and Initialization of Pointer variable
 
@@ -20,7 +20,7 @@ A pointer variable points to the same data type and is created with the `*` oper
 std::string game = "Cricket";
 
 // A pointer with the name ptr, that stores the address of game
-std::string* ptr = &game;    
+std::string* ptr = &game;
 
 std::cout << game << "\n";   // Output: Cricket
 std::cout << &game << "\n";  // Output of game memory address: 0x6dfed4

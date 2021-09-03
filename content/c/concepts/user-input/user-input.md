@@ -1,15 +1,15 @@
 ---
-Title: "User Input"
+Title: 'User Input'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
-Tags: 
-  - "Input"
-  - "Print"
-  - "Variables"
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'Input'
+  - 'Print'
+  - 'Variables'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The `scanf()` function, which stands for “scan format", reads a formatted string from the standard input stream, which is usually the user keyboard.
@@ -17,13 +17,13 @@ The `scanf()` function, which stands for “scan format", reads a formatted stri
 ## Syntax
 
 ```pseudo
-scanf("formatted string", &variable);  
+scanf("formatted string", &variable);
 ```
 
 Here, the user can enter a value in the terminal, press <kbd>Enter</kbd>, and that number will get stored in the `pinNumber` variable.
 
 ```c
-scanf("%d", &pinNumber);  
+scanf("%d", &pinNumber);
 ```
 
 **Note:** There's an ampersand `&` before the variable names in the arguments. The program will crash if there's a missing `&` sign.
@@ -37,12 +37,12 @@ In this example, the program will prompt the user to enter a number with `"Add t
 
 int main() {
   float tip = 0.0;
-  
+
   printf("Add tip amount: ");
-  scanf("%f", &tip);  
+  scanf("%f", &tip);
 
   printf("You gave a tip of $%.2f", tip);
-  
+
   return 0;
 }
 ```

@@ -1,17 +1,15 @@
 ---
-Title: "asin()"
-Description: "Returns the inverse sine of the argument in radians."
+Title: 'asin()'
+Description: 'Returns the inverse sine of the argument in radians.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the inverse sine of the argument in radians.
 

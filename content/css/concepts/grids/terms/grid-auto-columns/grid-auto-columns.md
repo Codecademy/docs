@@ -1,19 +1,17 @@
 ---
-Title: "grid-auto-columns"
-Description: "A property that specifies the default column size(s) for a container."
+Title: 'grid-auto-columns'
+Description: 'A property that specifies the default column size(s) for a container.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 A property that specifies the default column size(s) for a container.
 
@@ -40,7 +38,7 @@ A container divided into evenly spaced columns with a minimum width of 100 pixel
 ```css
 .content-a-container {
   display: grid;
-  grid-auto-columns: minmax(100px, auto); 
+  grid-auto-columns: minmax(100px, auto);
 }
 ```
 

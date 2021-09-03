@@ -1,14 +1,14 @@
 ---
-Title: "Hashes"
+Title: 'Hashes'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Data Types"
-  - "Hashes"
+  - 'Data Types'
+  - 'Hashes'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 A collection of key-value pairs enclosed within curly braces. Values are assigned to keys using the `=>` syntax.

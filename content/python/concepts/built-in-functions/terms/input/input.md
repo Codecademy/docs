@@ -1,20 +1,20 @@
 ---
-Title: "input()"
-Description: "Takes in a value from the user and converts the value into a string."
+Title: 'input()'
+Description: 'Takes in a value from the user and converts the value into a string.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science" 
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
-The `input()` built-in function takes in a value from the user and converts the value into a string. 
+The `input()` built-in function takes in a value from the user and converts the value into a string.
 
 This function is unique in that the environment creates a field to allow users to enter the value.
 

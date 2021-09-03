@@ -1,14 +1,14 @@
 ---
-Title: "Pull"
+Title: 'Pull'
 Subjects:
-  - "Bash/Shell"
-  - "Developer Tools"
-Tags: 
-  - "Git"
-  - "GitHub"
+  - 'Bash/Shell'
+  - 'Developer Tools'
+Tags:
+  - 'Git'
+  - 'GitHub'
 CatalogContent:
-  - "learn-git"
-  - "learn-the-command-line"
+  - 'learn-git'
+  - 'learn-the-command-line'
 ---
 
 In Git, pulling is the process of moving code from one repository to another one. Often this is used to move code from a remote machine to a local one, or retrieving code from a repository hosting service like GitHub.
@@ -20,7 +20,7 @@ Pulling a repository allows a programmer to access code from a remote backup and
 The basic syntax for pulling in Git is this:
 
 ```shell
-$ git pull <remote-name> <branch-name>
+git pull <remote-name> <branch-name>
 ```
 
 This will move the code from `<remote-name>` currently in branch `<branch-name>`, and move it to your local computer under branch `<branch-name>`.
@@ -29,30 +29,30 @@ This will move the code from `<remote-name>` currently in branch `<branch-name>`
 
 Prerequisites to pulling from a remote repository include:
 
-* Being inside of the local repository (if not, the next step will return an error)
-* Being inside of the correct branch and having a clean `git status` in that branch:
+- Being inside of the local repository (if not, the next step will return an error)
+- Being inside of the correct branch and having a clean `git status` in that branch:
 
-    ```shell
-    $ git checkout new-feature-branch
-    $ git status
+  ```shell
+  $ git checkout new-feature-branch
+  $ git status
 
-    On branch new-feature-branch
-    nothing to commit, working tree clean
-    ```
+  On branch new-feature-branch
+  nothing to commit, working tree clean
+  ```
 
-* Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
+- Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
 
-    ```shell
-    $ git remote -v
+  ```shell
+  $ git remote -v
 
-    companyname-dev	https://github.com/CompanyName/product-dev.git (fetch)
-    companyname-dev	https://github.com/CompanyName/product-dev.git (push)
-    ```
+  companyname-dev    https://github.com/CompanyName/product-dev.git (fetch)
+  companyname-dev    https://github.com/CompanyName/product-dev.git (push)
+  ```
 
 At this stage, pulling is as simple as using the basic syntax with the correct remote and branch names:
 
 ```shell
-$ git pull companyname-dev new-feature-branch
+git pull companyname-dev new-feature-branch
 ```
 
 When the pull completes, it will display a message like this:

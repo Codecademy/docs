@@ -1,22 +1,20 @@
 ---
-Title: "SELECT"
-Description: "Fetchs data from a database. Every query will begin with SELECT."
+Title: 'SELECT'
+Description: 'Fetchs data from a database. Every query will begin with SELECT.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Fetchs data from a database. Every query will begin with `SELECT`.
 

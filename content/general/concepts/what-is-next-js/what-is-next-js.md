@@ -1,15 +1,15 @@
 ---
-Title: "What is Next.js?"
+Title: 'What is Next.js?'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
+  - 'Developer Tools'
+  - 'Web Development'
 Tags:
-  - "React"
-  - "Node"
-  - "Best Practices"
+  - 'React'
+  - 'Node'
+  - 'Best Practices'
 CatalogContent:
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 [Next.js](https://nextjs.org) is an open-source development framework building server-side rendering and static web applications using React.

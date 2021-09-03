@@ -1,19 +1,17 @@
 ---
-Title: "callable()"
-Description: "Returns True if an object is callable, and False if an object is not callable."
+Title: 'callable()'
+Description: 'Returns True if an object is callable, and False if an object is not callable.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Objects"
+  - 'Functions'
+  - 'Objects'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Returns `True` if an object is callable, and `False` if an object is not callable.
 

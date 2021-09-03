@@ -1,17 +1,15 @@
 ---
-Title: "floor()"
-Description: "Returns the first whole number that is less than or equal to the argument."
+Title: 'floor()'
+Description: 'Returns the first whole number that is less than or equal to the argument.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
-
-
 
 The `floor()` function returns the first whole number that is less than or equal to the argument.
 

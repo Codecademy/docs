@@ -1,20 +1,20 @@
 ---
-Title: "Elements"
+Title: 'Elements'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Elements"
-  - "Attributes"
+  - 'Elements'
+  - 'Attributes'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 An HTML element is a piece of content in an HTML document and uses the following syntax:
 
 ```html
-<opening tag> content <closing tag>
+<opening tag> content <closing tag></closing></opening>
 ```
 
 The HTML element is everything from the opening tag to the closing tag:
@@ -36,7 +36,7 @@ HTML elements can be nested, which means that elements can contain other element
 The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, and `<p>`:
 
 ```html
-<!DOCTYPE>
+<!DOCTYPE >
 <html>
   <body>
     <h1>Blog Post</h1>
@@ -45,7 +45,7 @@ The following example contains four HTML elements: `<html>`, `<body>`, `<h1>`, a
 </html>
 ```
 
-## HTML Structure 
+## HTML Structure
 
 HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
 

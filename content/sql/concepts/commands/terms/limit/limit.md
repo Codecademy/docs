@@ -1,22 +1,20 @@
 ---
-Title: "LIMIT"
-Description: "Specifies, or limits, the maximum number of rows the result set will have."
+Title: 'LIMIT'
+Description: 'Specifies, or limits, the maximum number of rows the result set will have.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Specifies, or limits, the maximum number of rows the result set will have.
 

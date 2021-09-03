@@ -1,26 +1,24 @@
 ---
-Title: "max()"
-Description: "Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property. "
+Title: 'max()'
+Description: 'Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Responsive"
-  - "Functions"
+  - 'Responsive'
+  - 'Functions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-
-
-Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property. 
+Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property.
 
 ## Syntax
 
 ```css
-<property>: max(<expression>, <expression>)
+<property>: max(<expression>, <expression>);
 ```
 
 where `<expression>` can be one of the following:
@@ -38,7 +36,7 @@ Set the `width` of the `.box-max` to whichever value is greater, `50vw` or `700p
 .box-max {
   background-color: blue;
   height: 100px;
-  width: max(50vw, 700px); 
+  width: max(50vw, 700px);
 }
 ```
 
@@ -49,7 +47,7 @@ Set the `height` of the `.box-max` to whichever value is greater, `40vh` or `600
 ```css
 .box-max {
   background-color: blue;
-  width: 500px; 
+  width: 500px;
   height: max(40vh, 600px);
 }
 ```

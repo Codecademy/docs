@@ -1,12 +1,12 @@
 ---
-Title: "About TypeScript"
+Title: 'About TypeScript'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Documentation"
+  - 'Documentation'
 CatalogContent:
-  - "learn-typescript"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-typescript'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 [TypeScript](https://www.typescriptlang.org) is four tools that build on each other:
@@ -24,7 +24,7 @@ The latest TypeScript version is 4.3.
 
 ## Playground
 
-There's an interactive playground provided by the TypeScript team at https://www.typescriptlang.org/play. 
+There's an interactive playground provided by the TypeScript team at https://www.typescriptlang.org/play.
 
 It allows you to type in JavaScript or TypeScript code on the left and see the resultant output JavaScript or any TypeScript type errors.
 

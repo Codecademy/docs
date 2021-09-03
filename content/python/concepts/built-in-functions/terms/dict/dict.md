@@ -1,20 +1,18 @@
 ---
-Title: "dict()"
-Description: "Initializes a new dictionary from mapping n-number of object (key, value) pairs."
+Title: 'dict()'
+Description: 'Initializes a new dictionary from mapping n-number of object (key, value) pairs.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Initializes a new dictionary from mapping n-number of object (key, value) pairs.
 
@@ -27,6 +25,7 @@ dict(key-value pairs)
 ## Example 1
 
 Use `dict()` to create the `my_dict` dictionary from a list of tuples:
+
 ```codebyte/python
 my_dict = dict([('a', 1), ('b', 2), ('c',3)])
 
@@ -60,6 +59,7 @@ print(d)
 ## Example 4
 
 Use `dict()` to create the new empty dictionary `d`:
+
 ```codebyte/python
 d = dict()
 

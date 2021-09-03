@@ -1,16 +1,16 @@
 ---
-Title: "Typography"
+Title: 'Typography'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Typography"
-  - "Fonts"
-  - "Elements"
-  - "Properties"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Typography'
+  - 'Fonts'
+  - 'Elements'
+  - 'Properties'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Typography is the art of arranging text on a page. Some of the most important information a user will see on a web page will be textual.

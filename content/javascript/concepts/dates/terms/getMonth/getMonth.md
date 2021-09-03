@@ -1,18 +1,16 @@
 ---
-Title: ".getMonth()"
-Description: "Called from an instance of the Date class, will return the month of the year."
+Title: '.getMonth()'
+Description: 'Called from an instance of the Date class, will return the month of the year.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Date"
-  - "Methods"
+  - 'Date'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Called from an instance of the `Date` class, will return the month of the year.
 
@@ -36,12 +34,12 @@ The return value of `getMonth()` will only be an integer number between `0` and 
 To determine if it is June or not:
 
 ```js
-const today = new Date("June 25, 2021 13:41:30");
+const today = new Date('June 25, 2021 13:41:30');
 
 if (today.getMonth() === 5) {
-  console.log("Time flies, it is now June.");
+  console.log('Time flies, it is now June.');
 } else {
-  console.log("It is not 10 in the morning now.");
+  console.log('It is not 10 in the morning now.');
 }
 
 // Output: Time flies, it is now June.

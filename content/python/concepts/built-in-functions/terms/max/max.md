@@ -1,20 +1,18 @@
 ---
-Title: "max()"
-Description: "Returns the highest value from values given or an iterable."
+Title: 'max()'
+Description: 'Returns the highest value from values given or an iterable.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science" 
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Returns the highest value from values given or an iterable.
 

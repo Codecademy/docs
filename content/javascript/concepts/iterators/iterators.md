@@ -1,16 +1,16 @@
 ---
-Title: "Iterators" 
-Subjects: 
-  - "Web Development"
-  - "Computer Science"
+Title: 'Iterators'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Iterators"
-CatalogContent: 
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'Iterators'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-Iterators are used to loop over a group of data members, or a collection. 
+Iterators are used to loop over a group of data members, or a collection.
 
 An iterator is an object that implements the iteration protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc.) have an iterator property that make them iterable.
 
@@ -22,7 +22,7 @@ When an object is to be iterated, the `@@iterator` method is called without any 
 
 ## Iterator Protocol
 
-The iterator protocol, by definition, implements the `next()` method and returns an object with at least two properties: 
+The iterator protocol, by definition, implements the `next()` method and returns an object with at least two properties:
 
 - `done` is a boolean that determines whether the sequence has been completed or consumed. Its value is `false` if incomplete and `true` otherwise.
 - `value` is any type of value the iterator returns.
@@ -35,18 +35,18 @@ This range-based iterator, loops through a collection of integers and satisfies 
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
   let nextNum = min;
   let numCount = 0;
-  
+
   const rangeIterator = {
-    next: function() {
+    next: function () {
       let result;
       if (nextNum < max) {
-        result = { value: nextNum, done: false }
+        result = { value: nextNum, done: false };
         nextNum += step;
-        numCount ++;
+        numCount++;
         return result;
       }
-      return { value: numCount, done: true }
-    }
+      return { value: numCount, done: true };
+    },
   };
 
   return rangeIterator;

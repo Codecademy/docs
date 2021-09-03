@@ -1,14 +1,14 @@
 ---
-Title: "Push"
+Title: 'Push'
 Subjects:
-  - "Bash/Shell"
-  - "Developer Tools"
-Tags: 
-  - "Git"
-  - "GitHub"
+  - 'Bash/Shell'
+  - 'Developer Tools'
+Tags:
+  - 'Git'
+  - 'GitHub'
 CatalogContent:
-  - "learn-git"
-  - "learn-the-command-line"
+  - 'learn-git'
+  - 'learn-the-command-line'
 ---
 
 In Git, pushing is the process of moving code from one repository to another one. Often this is used to move code from a local machine to a remote one, or to a repository hosting service like GitHub.
@@ -20,36 +20,36 @@ Pushing a repository allows a programmer to maintain an easily accessible backup
 The basic syntax for pushing in Git is this:
 
 ```shell
-$ git push <remote-name> <branch-name>
+git push <remote-name> <branch-name>
 ```
 
 ## How to Push
 
 Prerequisites to pushing from within a repository include:
 
-* Being inside of a repository (if not, the next step will return an error)
-* Having a clean `git status` (no uncommitted, but tracked, files):
+- Being inside of a repository (if not, the next step will return an error)
+- Having a clean `git status` (no uncommitted, but tracked, files):
 
-    ```shell
-    $ git status
+  ```shell
+  $ git status
 
-    On branch main
-    nothing to commit, working tree clean
-    ```
+  On branch main
+  nothing to commit, working tree clean
+  ```
 
-* Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
+- Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
 
-    ```shell
-    $ git remote -v
+  ```shell
+  $ git remote -v
 
-    companyname-dev	https://github.com/CompanyName/product-dev.git (fetch)
-    companyname-dev	https://github.com/CompanyName/product-dev.git (push)
-    ```
+  companyname-dev    https://github.com/CompanyName/product-dev.git (fetch)
+  companyname-dev    https://github.com/CompanyName/product-dev.git (push)
+  ```
 
 At this stage, pushing is as simple as using the basic syntax with the correct remote and branch names:
 
 ```shell
-$ git push companyname-dev main
+git push companyname-dev main
 ```
 
 When the push completes, it will display a message like this:

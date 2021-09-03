@@ -1,18 +1,16 @@
 ---
-Title: "math.tan()"
-Description: "Returns the tangent of input numeric x, measured in radian value."
+Title: 'math.tan()'
+Description: 'Returns the tangent of input numeric x, measured in radian value.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the tangent of input numeric x, measured in radian value.
 

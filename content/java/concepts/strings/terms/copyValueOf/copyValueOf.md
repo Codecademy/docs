@@ -1,17 +1,15 @@
 ---
-Title: ".copyValueOf()"
-Description: "Returns a string with characters copied from an array."
+Title: '.copyValueOf()'
+Description: 'Returns a string with characters copied from an array.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns a string with characters copied from an array.
 
@@ -34,7 +32,7 @@ class CopyAllCharacters {
   public static void main(String[] args) {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e'};
-    
+
     System.out.println(copiedCharacters.copyValueOf(charactersArray));
     // Output: abcde
   }
@@ -50,7 +48,7 @@ class SpecificCharactersToCopy {
   public static void main(String[] args) {
     String copiedCharacters = "This string will be replaced with copied characters.";
     char[] charactersArray = {'a','b','c','d','e','f','g','h','i'};
-    
+
     System.out.println(copiedCharacters.copyValueOf(charactersArray, 4, 2));
     // Output: ef
   }

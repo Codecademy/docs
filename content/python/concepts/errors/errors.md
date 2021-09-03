@@ -1,14 +1,14 @@
 ---
-Title: "Errors" 
+Title: 'Errors'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Errors"
-  - "Exceptions"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Errors'
+  - 'Exceptions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions.
@@ -24,9 +24,9 @@ File "script.py", line 1
 SyntaxError: invalid syntax
 ```
 
-The parser repeats the offending line and displays a little arrow `^` pointing at the earliest point in the line where the error was detected. 
+The parser repeats the offending line and displays a little arrow `^` pointing at the earliest point in the line where the error was detected.
 
-The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the function `print()`, since a colon `:` is missing before it. 
+The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the function `print()`, since a colon `:` is missing before it.
 
 File name and line number are printed so you know where to look in case the input came from a script.
 
@@ -78,7 +78,7 @@ import notamodule
 ModuleNotFoundError: No module named 'notamodule'
 ```
 
-### Zero Division Error 
+### Zero Division Error
 
 `ZeroDivisionError` is thrown when the second operator in the division is zero.
 

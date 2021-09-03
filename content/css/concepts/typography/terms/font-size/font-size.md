@@ -1,15 +1,15 @@
 ---
-Title: "font-size"
-Description: "Sets the text size. Font size values can be in different units like absolute lengths and relative lengths."
+Title: 'font-size'
+Description: 'Sets the text size. Font size values can be in different units like absolute lengths and relative lengths.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `font-size` property sets text size. Font size values can be in many different units like absolute lengths and relative lengths.

@@ -17,7 +17,7 @@ Because they only allow access to members known to be on all possible types, you
 TypeScript recognizes types as being narrowed when it sees JavaScript logic branches based on the type of code.
 If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that branch.
 
-For example, in this code, `value` is of type `string | undefined`, but TypeScript narrows it down to `string` in the `if `statement's body.
+For example, in this code, `value` is of type `string | undefined`, but TypeScript narrows it down to `string` in the `if` statement's body.
 It knows the value can't be `undefined` and still reach block of code, though outside of the block there is no narrowing:
 
 ```ts

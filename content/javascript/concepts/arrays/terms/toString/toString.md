@@ -1,18 +1,16 @@
 ---
-Title: ".toString()"
-Description: "Returns a string with each of the array values, separated by commas. Does not mutate the original array."
+Title: '.toString()'
+Description: 'Returns a string with each of the array values, separated by commas. Does not mutate the original array.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Returns a string with each of the array values, separated by commas. Does not mutate the original array.
 

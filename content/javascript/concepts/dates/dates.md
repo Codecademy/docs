@@ -1,17 +1,17 @@
 ---
-Title: "Dates" 
-Subjects: 
-  - "Web Development"
-  - "Computer Science"
+Title: 'Dates'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Date"
-  - "Data Types"
-CatalogContent: 
-  - "introduction-to-javascript"
-  - "paths/create-a-back-end-app-with-javascript"
+  - 'Date'
+  - 'Data Types'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-`Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of *seconds* since midnight on January 1st 1970 UTC. 
+`Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of _seconds_ since midnight on January 1st 1970 UTC.
 
 Also note that, even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone.
 
@@ -57,9 +57,9 @@ The date constructor can take several different parameters to create a new Date 
 
 ### Static Methods
 
-| Method | Description |
-| --- | --- |
-| `.now()` | Returns the number of milliseconds elapsed since midnight 1/1/1970 UTC. |
+| Method     | Description                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------- |
+| `.now()`   | Returns the number of milliseconds elapsed since midnight 1/1/1970 UTC.                                   |
 | `.parse()` | Parses a string representation of a date and returns the number of milliseconds represented by that date. |
 
 <!-- ### Instance Methods
@@ -104,7 +104,7 @@ Method|Description
 `.toJSON()`|Returns the date using `.toISOString()` for use with `JSON.stringify()`.
 `.toLocaleDateString()`|Returns the date portion stored in the `Date` object as a string based on the current locale.
 `.toLocaleString()`|Returns the locale date string, overrides `Object.prototype.toLocaleString()`.
-`.toLocaleTimeString()`|Returns the time portion stored in the `Date` object as a string based on the current locale. 
+`.toLocaleTimeString()`|Returns the time portion stored in the `Date` object as a string based on the current locale.
 `.toString()`|Returns the date stored in the `Date` object as a human-readable string.
 `.toTimeString()`|Returns the time portion stored in the `Date` object as a human-readable string.
 `.toUTCString()`|Returns the date stored in the `Date` object as a human-readable string based on UTC timezone. -->
@@ -119,7 +119,7 @@ var d = new Date('2019-05-01 12:00:00.000');
 console.log(d.toDateString());
 // Output: Wed May 01 2019
 
-console.log(d.getFullYear());  
+console.log(d.getFullYear());
 // Output: 2019
 
 console.log(d.toISOString());
@@ -128,9 +128,9 @@ console.log(d.toISOString());
 console.log(d.toUTCString());
 // Output: Wed, 01 May 2019 12:00:00 GMT
 
-d.setFullYear(2020)
-d.setHours(16)
-d.setMinutes(30)
+d.setFullYear(2020);
+d.setHours(16);
+d.setMinutes(30);
 
 console.log(d.toISOString());
 // Output: 2020-05-01T16:30:00.000Z

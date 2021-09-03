@@ -1,15 +1,15 @@
 ---
-Title: "Who is Tim Berners-Lee?"
+Title: 'Who is Tim Berners-Lee?'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "World Wide Web"
-  - "HTTP"
-  - "HTML"
+  - 'World Wide Web'
+  - 'HTTP'
+  - 'HTML'
 CatalogContent:
-  - "paths/computer-science"
-  - "paths/code-foundations"
+  - 'paths/computer-science'
+  - 'paths/code-foundations'
 ---
 
 Sir Tim Berners-Lee is an English computer scientist popularly known for his development of the World Wide Web in 1989.

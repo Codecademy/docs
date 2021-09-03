@@ -1,14 +1,14 @@
 ---
-Title: "Arrays"
+Title: 'Arrays'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
-Tags: 
-  - "Arrays"
-  - "Data Structures"
+  - 'iOS'
+  - 'Mobile Development'
+Tags:
+  - 'Arrays'
+  - 'Data Structures'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 Arrays are ordered collections of values. In other words, an array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a `String` in an `int` array.
@@ -53,14 +53,14 @@ Arrays can be accessed using subscript notation. Since all arrays are zero-index
 
 ```swift
 var statesIveVisited:[String] = ["NY", "CA", "TX", "FL"]
-print("Yesterday I went to \(statesIveVisited[0]).") 
+print("Yesterday I went to \(statesIveVisited[0]).")
 // Output: Yesterday I went to NY.
 
 var statesImGoingTo = ["ME", "ID", "NV", "AK"]
-print("Tomorrow I'm headed to \(statesImGoingTo[1])!") 
+print("Tomorrow I'm headed to \(statesImGoingTo[1])!")
 // Output: Tomorrow I'm headed to NV!
 
-print("After Nevada, I'm going to head to \(statesImGoingTo[4]).") 
+print("After Nevada, I'm going to head to \(statesImGoingTo[4]).")
 // Runtime Error: Index out of range
 ```
 

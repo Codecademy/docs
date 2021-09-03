@@ -1,14 +1,14 @@
 ---
-Title: "Variables"
+Title: 'Variables'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
-  - "Data Types"
-  - "Variables"
+  - 'Data Types'
+  - 'Variables'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 The Swift programming language allows you to store values in two types of containers, `var` for variables and `let` for constants. As the names imply, a variable's value can change, or be reassigned, later in the program while a constant's value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to.

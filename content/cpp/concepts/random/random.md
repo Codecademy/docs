@@ -1,14 +1,14 @@
 ---
-Title: "Random"
+Title: 'Random'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Random"
-  - "Variables"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Random'
+  - 'Variables'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 C++ has a `std::rand()` function from `cstdlib` library that generates a random number.
@@ -56,16 +56,16 @@ This sets the “seed” of the random number generator.
 ```codebyte/cpp
 #include <iostream>
 #include <cstdlib>
- 
+
 int main() {
 
   std::cout << "🎱 Magic 8-Ball: ";
- 
+
   srand(time(NULL));
- 
+
   int answer = std::rand() % 20;
- 
+
   std::cout << answer;
-  
+
 }
 ```

@@ -1,19 +1,17 @@
 ---
-Title: "background-image"
-Description: "Places one or more images in the background of the element."
+Title: 'background-image'
+Description: 'Places one or more images in the background of the element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Images"
+  - 'Background'
+  - 'Images'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Places one or more images in the background of the element.
 
@@ -25,10 +23,10 @@ background-image: <image> | none;
 
 Where `<image>` can be one of the following:
 
-- URL function value: 
+- URL function value:
   - `('cat.gif')`
   - `('../img/cat.png')`
-- Gradient values: 
+- Gradient values:
   - `linear-gradient(0deg, #C1D279, #4062BF)`
   - `repeating-linear-gradient(0deg, #1D4D19, #191A4D 10px)`
   - `radial-gradient(circle at top, #40BFA5, #BB40BF)`
@@ -59,7 +57,7 @@ Set two background images with a fallback background color of `blue`. The `fish.
 ```css
 .hero {
   background-color: blue;
-  background-image: url("fish.png"), url("ocean.png");
+  background-image: url('fish.png'), url('ocean.png');
 }
 ```
 
@@ -70,7 +68,7 @@ Repeat `squirrel.gif` on top of `trees.png`:
 ```css
 .hero {
   background-color: green;
-  background-image: url("squirrel.gif"), url("trees.png");
+  background-image: url('squirrel.gif'), url('trees.png');
   background-repeat: repeat, no-repeat;
 }
 ```

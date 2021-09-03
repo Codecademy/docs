@@ -1,26 +1,24 @@
 ---
-Title: "transform"
-Description: "Allows us to rotate, scale, skew or translate an element."
+Title: 'transform'
+Description: 'Allows us to rotate, scale, skew or translate an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Positioning"
-  - "Functions"
+  - 'Positioning'
+  - 'Functions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
- 
 
 Allows us to rotate, scale, skew or translate an element.
 
 ## Syntax
 
 ```css
-transform: <values>; 
+transform: <values>;
 ```
 
 The `transition` property can have one or more of the following properties as values:
@@ -48,7 +46,6 @@ The `transition` property can have one or more of the following properties as va
 - `skewY(angle)`
 - `perspective(n)`
 
-
 ## Example 1
 
 Transforming an `img` element by scaling down by half and rotating 75 degrees.
@@ -56,7 +53,7 @@ Transforming an `img` element by scaling down by half and rotating 75 degrees.
 ```css
 img {
   transform: scale(0.5, 0.5);
-  transform: rotate(75deg);  
+  transform: rotate(75deg);
 }
 ```
 
@@ -69,4 +66,3 @@ img {
   transform: skew(20deg, 20deg) scale(1.5, 1.5) rotate(100deg);
 }
 ```
-

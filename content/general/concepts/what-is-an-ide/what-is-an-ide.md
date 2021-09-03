@@ -1,17 +1,17 @@
 ---
-Title: "What is an IDE?"
+Title: 'What is an IDE?'
 Subjects:
-  - "Developer Tools"
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "IDE"
-  - "Xcode"
-  - "Android"
-  - "Code Editors"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/front-end-engineer-career-path"
+  - 'Developer Tools'
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'IDE'
+  - 'Xcode'
+  - 'Android'
+  - 'Code Editors'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.
@@ -30,7 +30,7 @@ Compare these two code samples:
 
 ```pseudo
 // Without syntax highlighting
- 
+
 public class NiceDay {
   public static void main(String[] args) {
     System.out.println("It's a nice day out!");
@@ -40,7 +40,7 @@ public class NiceDay {
 
 ```java
 // With syntax highlighting
- 
+
 public class NiceDay {
   public static void main(String[] args) {
     System.out.println("It's a nice day out!");

@@ -1,19 +1,17 @@
 ---
-Title: "letter-spacing"
-Description: "Set the horizontal spacing between the individual characters in an element."
+Title: 'letter-spacing'
+Description: 'Set the horizontal spacing between the individual characters in an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Set the horizontal spacing between the individual characters in an element.
 

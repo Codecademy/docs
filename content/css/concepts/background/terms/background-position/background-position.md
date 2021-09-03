@@ -1,19 +1,17 @@
 ---
-Title: "background-position"
-Description: "Defines the positions of one or more background images relative to the background-origin position. This is the point from which any background repetition will occur."
+Title: 'background-position'
+Description: 'Defines the positions of one or more background images relative to the background-origin position. This is the point from which any background repetition will occur.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Positioning"
+  - 'Background'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the positions of one or more background images relative to the `background-origin` position. This is the point from which any background repetition will occur.
 
@@ -37,7 +35,7 @@ Set background image position to the top right corner of `.hero` class element:
 
 ```css
 .hero {
-  background-image: url("avatar.png");
+  background-image: url('avatar.png');
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -49,7 +47,7 @@ Use percentages to place background image in the middle of the element:
 
 ```css
 .hero {
-  background-image: url("forrest.png");
+  background-image: url('forrest.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -61,19 +59,19 @@ Use pixels to place background image `100px` down the y-axis and `100px` along t
 
 ```css
 .hero {
-  background-image: url("forrest.png");
+  background-image: url('forrest.png');
   background-repeat: no-repeat;
   background-position: 100px 100px;
 }
 ```
 
-## Example 3
+## Example 4
 
 Position multiple images:
 
 ```css
 .hero {
-  background-image: url("squirrel"), url("forrest.png");
+  background-image: url('squirrel'), url('forrest.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }

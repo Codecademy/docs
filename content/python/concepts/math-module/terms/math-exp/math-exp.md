@@ -1,15 +1,15 @@
 ---
-Title: "math.exp()"
-Description: "Returns e raised to the power of x."
+Title: 'math.exp()'
+Description: 'Returns e raised to the power of x.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 The `math.exp()` method returns _e_ raised to the power of a number.

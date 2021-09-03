@@ -1,15 +1,15 @@
 ---
-Title: "Arrow Functions"
+Title: 'Arrow Functions'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Functions"
-  - "Parameters"
-  - "Arguments"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Functions'
+  - 'Parameters'
+  - 'Arguments'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](../javascript/functions) syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
@@ -24,44 +24,43 @@ There are several variations of arrow functions:
 Arrow function with no arguments:
 
 ```js
-const printHello = () => { 
-  console.log('hello'); 
-}; 
+const printHello = () => {
+  console.log('hello');
+};
 
-printHello(); 
+printHello();
 // Output: hello
 ```
 
 Arrow functions with a single argument:
 
 ```js
-const checkWeight = weight => { 
-  console.log(`Baggage weight: ${weight} kilograms.`); 
+const checkWeight = (weight) => {
+  console.log(`Baggage weight: ${weight} kilograms.`);
 };
 
-checkWeight(25); 
+checkWeight(25);
 // Output: Baggage weight: 25 kilograms.
 ```
-
 
 Arrow function with two arguments:
 
 ```js
-const sum = (firstParam, secondParam) => { 
-  return firstParam + secondParam; 
-}; 
+const sum = (firstParam, secondParam) => {
+  return firstParam + secondParam;
+};
 
-console.log(sum(2,5)); 
-// Output: 7 
+console.log(sum(2, 5));
+// Output: 7
 ```
 
 Concise arrow functions:
- 
-```js
-const multiply = (a, b) => a * b; 
 
-console.log(multiply(2, 30)); 
-// Output: 60 
+```js
+const multiply = (a, b) => a * b;
+
+console.log(multiply(2, 30));
+// Output: 60
 ```
 
 ## Limitations

@@ -1,18 +1,19 @@
 ---
-Title: "File Paths"
+Title: 'File Paths'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "File Paths"
-  - "Files"
-  - "URL"
+  - 'File Paths'
+  - 'Files'
+  - 'URL'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A file path describes the location of a file in a web site's folder structure. They are used to link to external files, like:
+
 - Websites
 - Images
 - Videos
@@ -22,9 +23,9 @@ A file path describes the location of a file in a web site's folder structure. T
 
 ## Absolute File Paths
 
-URL paths in HTML can be absolute paths, like a full URL, for example: 
+URL paths in HTML can be absolute paths, like a full URL, for example:
 
-**https\:\/\/codecademy\.com/resources/docs**
+### https\:\/\/codecademy\.com/resources/docs
 
 ```html
 <a href="https://www.codecademy.com/resources/docs">
@@ -34,7 +35,7 @@ URL paths in HTML can be absolute paths, like a full URL, for example:
 
 ## Relative File Paths
 
-Relative file path are paths that links to a local file in the same folder or on the same server, for example: 
+Relative file path are paths that links to a local file in the same folder or on the same server, for example:
 
 - **./about.html**
 - **./style.css**

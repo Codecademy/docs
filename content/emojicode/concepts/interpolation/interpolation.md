@@ -1,15 +1,15 @@
 ---
-Title: "🧲 Interpolation"
+Title: '🧲 Interpolation'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Interpolation"
-  - "Strings"
-  - "Data Types"
+  - 'Interpolation'
+  - 'Strings'
+  - 'Data Types'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 String interpolation can be used to construct a string from a mix of constants, variables, and others by including their values inside a string literal.
@@ -20,7 +20,7 @@ Suppose we have a constant named `height` with a value of `3000`, and we want to
 
 ```shell
 3000 ➡️ height
- 
+
 😀 🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
 ```
 
@@ -37,7 +37,7 @@ Alex Honnold climbed El Capitan, which is 3000 feet, without a rope!
 
 🏁 🍇
   3.80 ➡️ tip
-  
+
   😀 🔤The tip is $🧲tip🧲🔤❗️
 🍉
 ```

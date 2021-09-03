@@ -1,17 +1,15 @@
 ---
-Title: ".contentEquals()"
-Description: "Returns true if the sequence of characters in the string is equal to the content of the specified string. If not, returns false."
+Title: '.contentEquals()'
+Description: 'Returns true if the sequence of characters in the string is equal to the content of the specified string. If not, returns false.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns `true` if the sequence of characters in the string is equal to the content of the specified string. If not, returns `false`.
 

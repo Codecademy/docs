@@ -1,14 +1,14 @@
 ---
-Title: "Variables" 
+Title: 'Variables'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Variables"
-  - "Data Types"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Variables'
+  - 'Data Types'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A variable is a location in computer memory used to store data, usually for use in a program.
@@ -44,7 +44,7 @@ int main(void) {
   printf("%d\n", number);
   printf("%c\n", letter);
 
-  return 0; 
+  return 0;
 }
 ```
 

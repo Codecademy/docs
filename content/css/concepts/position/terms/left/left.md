@@ -1,19 +1,17 @@
 ---
-Title: "left"
-Description: "Specifies the distance of an element from the left of its current location if the element has position: relative declared or from the left of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared."
+Title: 'left'
+Description: 'Specifies the distance of an element from the left of its current location if the element has position: relative declared or from the left of its nearest ancestor when the ancestor has position: relative and the element has position: absolute declared.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Box Model"
-  - "Positioning"
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specifies the distance of an element from the left of its current location if the element has `position: relative` declared or from the left of its nearest ancestor when the ancestor has `position: relative` and the element has `position: absolute` declared.
 
