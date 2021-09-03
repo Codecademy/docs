@@ -42,29 +42,27 @@ The `key: value` pairs in JavaScript objects are called properties:
 
 ## Accessing Object Properties
 
-You can access object properties in two ways:
+Object properties can be accessed using the dot notation:
 
 ```pseudo
 objectName.propertyName
-
-objectName["propertyName"]
 ```
-
-For example:
 
 ```js
 person.lastName;
+```
 
+Or using square brackets:
+
+```pseudo
+objectName["propertyName"]
+```
+
+```js
 person["lastName"];
 ```
 
 These would output:
-
-```
-"Harmon"
-```
-
-## Object Methods
 
 Object methods are actions that can be performed on objects.
 
@@ -84,11 +82,11 @@ const person = {
 console.log(person.greeting());
 ```
 
-- The `greeting` key holds a function value that returns a template literal using back-ticks(``).
+- The `greeting` key holds a function value that returns a template literal using backticks `.
 - When `person.greeting` value is invoked, the corresponding function will run.
 
 This will output:
 
-```
-"Hi, I'm Elizabeth Harmon."
+```shell
+Hi, I'm Elizabeth Harmon.
 ```
