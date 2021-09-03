@@ -34,28 +34,28 @@ There are 4 steps to do this:
 
 2. Initialize it:
 
-    ```js
-    xhr.open(method, URL, [async, user, password]);
-    ```
+   ```js
+   xhr.open(method, URL, [async, user, password]);
+   ```
 
-    This method specifies the main parameters of the request:
+   This method specifies the main parameters of the request:
 
-    - `method`: HTTP-method. Usually `"GET"` or `"POST"`.
-    - `URL`: The URL to request, a string, can be URL object.
-    - `async`: If explicitly set to `false`, then the request is synchronous.
-    - `user`, `password`: login and password for basic HTTP auth (if required).
+   - `method`: HTTP-method. Usually `"GET"` or `"POST"`.
+   - `URL`: The URL to request, a string, can be URL object.
+   - `async`: If explicitly set to `false`, then the request is synchronous.
+   - `user`, `password`: login and password for basic HTTP auth (if required).
 
-    Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
+   Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
 
 3. Send it out.
 
-    ```js
-    xhr.send([body]);
-    ```
+   ```js
+   xhr.send([body]);
+   ```
 
-    This method opens up the connection and sends the request to server. The optional body parameter contains the request `body`.
+   This method opens up the connection and sends the request to server. The optional body parameter contains the request `body`.
 
-    Some request methods like `GET` do not have a `body`. And some of them like `POST` use `body` to send the data to the server.
+   Some request methods like `GET` do not have a `body`. And some of them like `POST` use `body` to send the data to the server.
 
 4. Listen to xhr events for response.
 
