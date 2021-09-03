@@ -20,7 +20,7 @@ Docs is live with about 600 high-quality entries. Now that the MVP is out, our g
 - [@caupolicandiaz](https://github.com/caupolicandiaz)
 - [@sswiniarski](https://github.com/sswiniarski)
 
-We are currently building a team of community volunteers to maintain Codecademy Docs. Let us know if you are interested.
+We are currently building a team of community volunteers and educators to maintain Codecademy Docs. Let us know if you are interested.
 
 ### 🏗 Engineering Team
 

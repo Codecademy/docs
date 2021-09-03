@@ -12,10 +12,9 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
-Allows the user to close an open file within the IDE.
+The `.close()` file method allows the user to close an open file within the IDE.
 
 ## Syntax
 
@@ -23,11 +22,11 @@ Allows the user to close an open file within the IDE.
 file.close()
 ```
 
-## Example 1
+## Example
 
 Use `.close()` to close the opened **gullivers_travels.txt** file:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "r", encoding='utf8')
 
 f.close()

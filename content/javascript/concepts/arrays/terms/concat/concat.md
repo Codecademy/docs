@@ -60,8 +60,8 @@ console.log(numbers);
 ## Codebyte Example
 
 ```codebyte/js
-const ball1 = ['⚽', '🏈', '⚾️', '🎾'];
-const ball2 = ['🏀', '🏐', '🏉'];
+const ball1 = ["⚽", "🏈", "⚾️", "🎾"];
+const ball2 = ["🏀", "🏐", "🏉"];
 
 const balls = balls1.concat(balls2);
 
