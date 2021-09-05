@@ -1,20 +1,19 @@
 ---
-Title: ".split()"
-Description: "Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. "
+Title: '.split()'
+Description: 'Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. '
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Methods"
-  - "Functions"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods'
+  - 'Functions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
- 
 
-Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. 
+Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters.
 
 ## Syntax
 

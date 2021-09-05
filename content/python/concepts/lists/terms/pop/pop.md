@@ -1,19 +1,17 @@
 ---
-Title: ".pop()"
-Description: "Removes an item from a list while also returning it."
+Title: '.pop()'
+Description: 'Removes an item from a list while also returning it.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Removes an item from a list while also returning it.
 

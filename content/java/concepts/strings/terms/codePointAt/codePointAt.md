@@ -1,17 +1,15 @@
 ---
-Title: ".codePointAt()"
-Description: "Returns the Unicode value at the given index in the string."
+Title: '.codePointAt()'
+Description: 'Returns the Unicode value at the given index in the string.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the Unicode value at the given index in the string.
 
@@ -42,7 +40,7 @@ Here's a whole Java program that prints the Unicode value of the first character
 class FirstCharacterUnicodeValue {
   public static void main(String[] args) {
     String greeting = "Hello World";
-    
+
     System.out.println(greeting.codePointAt(0));
     // Output: 72
   }

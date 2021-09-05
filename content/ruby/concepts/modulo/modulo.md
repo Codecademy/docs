@@ -1,13 +1,13 @@
 ---
-Title: "Modulo"
+Title: 'Modulo'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Functions"
+  - 'Functions'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 A Ruby function that returns the modular value, the remainder, when two numbers are divided.

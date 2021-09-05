@@ -1,16 +1,16 @@
 ---
-Title: "🍯 Dictionaries"
+Title: '🍯 Dictionaries'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Dictionaries"
-  - "Data Types"
-  - "Arrays"
-  - "Lists"
+  - 'Dictionaries'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Lists'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 🍯, or dictionary or hash map in other languages, is an ordered set of value pairs:

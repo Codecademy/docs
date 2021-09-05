@@ -1,20 +1,18 @@
 ---
-Title: "contrast()"
-Description: "Defines the contrast on an element."
+Title: 'contrast()'
+Description: 'Defines the contrast on an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Images"
-  - "Functions"
-  - "Colors"
+  - 'Images'
+  - 'Functions'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the contrast on an element.
 
@@ -29,7 +27,7 @@ where a required `<value>` can be one of the following:
 - Number value: `0`, `1.4`
 - Percentage value: `100%`, `50%`
 
-**Note:** Values of `1` and `100%` will have no effect. Values greater than `1` and `100%` will increase the contrast. Values less than `1` and `100%` will decrease the contrast. A value of `0` and `0%` will be completely gray. 
+**Note:** Values of `1` and `100%` will have no effect. Values greater than `1` and `100%` will increase the contrast. Values less than `1` and `100%` will decrease the contrast. A value of `0` and `0%` will be completely gray.
 
 ## Example 1
 
@@ -40,4 +38,3 @@ Give the image a contrast of `200%`:
   filter: contrast(200%);
 }
 ```
-

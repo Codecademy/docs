@@ -1,14 +1,14 @@
 ---
-Title: "↪️ Conditionals"
+Title: '↪️ Conditionals'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "If"
-  - "Else"
-  - "Control Flow"
+  - 'If'
+  - 'Else'
+  - 'Control Flow'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `👍` or `👎`. If it’s `👍`, we can tell our program to do one thing — we can even account for `👎` to do another.
@@ -32,7 +32,7 @@ This example will display "a is greater than b" if the content for variable `a` 
 
 ## Else Statement
 
-The `🙅` extends an `↪️` statement to execute an additional code block in case the expression in the `if` statement evaluates to false. 
+The `🙅` extends an `↪️` statement to execute an additional code block in case the expression in the `if` statement evaluates to false.
 
 For example, the following code would display "a is greater than b" if `a` is greater than `b`, and `a is not greater than b` otherwise:
 

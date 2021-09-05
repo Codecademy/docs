@@ -1,20 +1,20 @@
 ---
-Title: "Data Types"
+Title: 'Data Types'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Data Types"
-  - "Variables"
-  - "Arrays"
-  - "Booleans"
-  - "Hashes"
-  - "Numbers"
-  - "Strings"
-  - "Symbol"
+  - 'Data Types'
+  - 'Variables'
+  - 'Arrays'
+  - 'Booleans'
+  - 'Hashes'
+  - 'Numbers'
+  - 'Strings'
+  - 'Symbol'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Data types represent different types of data such as numbers, booleans, strings, etc. As an object-oriented language, all data types are based on classes.

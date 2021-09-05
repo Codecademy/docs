@@ -1,15 +1,15 @@
 ---
-Title: "Dictionaries"
+Title: 'Dictionaries'
 Subjects:
-  - "Mobile Development"
-  - "Computer Science"
+  - 'Mobile Development'
+  - 'Computer Science'
 Tags:
-  - "Dictionaries"
-  - "Arrays"
-  - "Variables"
+  - 'Dictionaries'
+  - 'Arrays'
+  - 'Variables'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 A dictionary is an unordered collection of paired data, or `key: value` pairs.
@@ -26,7 +26,7 @@ Keys can be be used to access, remove, add, or modify its associated value. Ever
 
 ```swift
 // Each key is unique even if they all contain the same value
- 
+
 var fruitStand = [
   "Coconuts": 12,
   "Pineapples": 12,
@@ -44,10 +44,10 @@ var primaryHex = [
   "yellow": "#ffff00",
   "blue": "#0000ff",
 ]
- 
+
 print("The hex code for blue is \(primaryHex["blue"])")
 // Prints: The hex code for blue is Optional("#0000ff")
- 
+
 if let redHex = primaryHex["red"] {
   print("The hex code for red is \(redHex)")
 }
@@ -66,7 +66,7 @@ var fruitStand = [
   "Bananas": 20,
   "Oranges", 17
 ]
- 
+
 print(fruitStand.count)  // Output: 3
 ```
 
@@ -75,13 +75,13 @@ print(fruitStand.count)  // Output: 3
 The `.isEmpty` property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
 
 ```swift
-var bakery = [String:Int]() 
- 
+var bakery = [String:Int]()
+
 // Check if dictionary is empty
 print(bakery.isEmpty)  // Prints: true
- 
-bakery["Cupcakes"] = 12  
- 
+
+bakery["Cupcakes"] = 12
+
 // Check if dictionary is empty
 print(bakery.isEmpty)  // Prints: false
 ```
@@ -96,17 +96,17 @@ var emojiMeaning = [
   "😪": "Sleepy Face",
   "😵": "Dizzy Face"
 ]
- 
+
 // Iterate through both keys and values
 for (emoji, meaning) in emojiMeaning {
   print("\(emoji) is known as the '\(meaning) Emoji'")
 }
- 
+
 // Iterate only through keys
 for emoji in emojiMeaning.keys {
   print(emoji)
 }
- 
+
 // Iterate only through values
 for meaning in emojiMeaning.values {
   print(meaning)

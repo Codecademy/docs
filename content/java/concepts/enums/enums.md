@@ -1,20 +1,20 @@
 ---
-Title: "Enums"
+Title: 'Enums'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Enums"
-  - "Data Types"
-  - "Arrays"
-  - "Vectors"
-  - "Pointers"
-  - "Memory"
+  - 'Computer Science'
+Tags:
+  - 'Enums'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Vectors'
+  - 'Pointers'
+  - 'Memory'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
-Enumeration (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 
+Enumeration (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
 
 The keyword `enum` is used to define an enumeration.
 
@@ -50,7 +50,7 @@ public enum Direction {
 ```java
 public enum Day {
   SUN, MON, TUE, WED,
-  THU, FRI, SAT 
+  THU, FRI, SAT
 }
 ```
 

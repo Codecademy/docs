@@ -1,22 +1,22 @@
 ---
-Title: "What is a String?"
+Title: 'What is a String?'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "Strings"
-  - "Data Types"
-  - "Characters"
-CatalogContent:  
-  - "learn-python-3"
-  - "paths/code-foundations"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'Code Foundations'
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Strings'
+  - 'Data Types'
+  - 'Characters'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as:
- 
+
 - Letters
 - Numbers
 - Symbols

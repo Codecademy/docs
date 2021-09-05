@@ -1,19 +1,17 @@
 ---
-Title: ".replace()" 
-Description: "Replace a specific substring with another substring."
+Title: '.replace()'
+Description: 'Replace a specific substring with another substring.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
-
 
 Replace a specific substring with another substring.
 
@@ -28,7 +26,6 @@ The `.replace()` string method takes in three parameters:
 - `old`: The substring to search for. (Required)
 - `new`: The substring to replace. (Required)
 - `count`: A number specifying how many occurrences of the old value to replace. Default is all occurrences.
-
 
 ## Example 1
 
@@ -83,7 +80,7 @@ myString = "I am a sentence with an extra elephant word."
 newString = myString.replace("elephant ", "")
 print(newString)
 ```
-  
+
 It can also be called multiple times on the same string:
 
 ```codebyte/py

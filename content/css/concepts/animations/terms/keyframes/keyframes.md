@@ -1,18 +1,16 @@
 ---
-Title: "@keyframes"
-Description: "Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe."
+Title: '@keyframes'
+Description: 'Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe.
 
@@ -32,8 +30,7 @@ Controls an animation with multiple intermediate steps, defining the values of t
 - `<keyframe-selector>`: The selector for the element(s) to which the keyframe declaration should be applied.
 - `<keyframe-declaration>`: The declaration block of the keyframe, made up of the property/value pairs.
 
-**NOTE:** if you are only defining two keyframes, you can use the keywords `from` and `to` which are the same as `0%` and `100%` respectively for the `<keyframe-selector>`. Further customization on the `animation` property allows you to specify how many times an animation should play, duration of animation, change the direction of an animation, and much more.  
-
+**NOTE:** if you are only defining two keyframes, you can use the keywords `from` and `to` which are the same as `0%` and `100%` respectively for the `<keyframe-selector>`. Further customization on the `animation` property allows you to specify how many times an animation should play, duration of animation, change the direction of an animation, and much more.
 
 ## Example 1
 
@@ -92,4 +89,3 @@ div {
   }
 }
 ```
-

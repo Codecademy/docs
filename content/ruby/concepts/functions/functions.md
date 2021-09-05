@@ -1,14 +1,14 @@
 ---
-Title: "Functions"
+Title: 'Functions'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Methods"
-  - "Functions"
+  - 'Methods'
+  - 'Functions'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Functions are a set of instructions that return one value. Functions that exist in an object are typically called methods.

@@ -1,20 +1,18 @@
 ---
-Title: "transition-property"
-Description: "Specifies the property or properties of an element that a transition effect should apply to. "
+Title: 'transition-property'
+Description: 'Specifies the property or properties of an element that a transition effect should apply to. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Transitions"
+  - 'Transitions'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
- 
-
-Specifies the property or properties of an element that a transition effect should apply to. 
+Specifies the property or properties of an element that a transition effect should apply to.
 
 ## Syntax
 
@@ -23,8 +21,9 @@ transition-property: <values>;
 ```
 
 The `transition-property` can have one of the following values:
+
 - `all`: Default value, applies transition effect to all properties.
-- `none`: No property will have transitioning effect.  
+- `none`: No property will have transitioning effect.
 - A single property name (e.g. `height`).
 - A comma-separated lost of property names (e.g.`margin-right, margin-left, width`).
 
@@ -40,7 +39,7 @@ p {
   width: 100px;
   background-color: green;
   transition-duration: 2s;
-  transition-property: all; 
+  transition-property: all;
 }
 
 p:hover {
@@ -62,7 +61,7 @@ div {
   margin-right: 50px;
   background-color: green;
   transition-duration: 2s;
-  transition-property: height, width, margin-top; 
+  transition-property: height, width, margin-top;
 }
 
 div:hover {

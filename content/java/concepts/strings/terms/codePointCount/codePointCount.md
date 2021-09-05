@@ -1,17 +1,15 @@
 ---
-Title: ".codePointCount()"
-Description: "Returns the number of Unicode values in specified range of a string."
+Title: '.codePointCount()'
+Description: 'Returns the number of Unicode values in specified range of a string.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Methods"
-  - "Strings"
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the number of Unicode values in specified range of a string.
 
@@ -32,7 +30,7 @@ Print the number of Unicode values in the string `"Hello World"`:
 class CountUnicodeValues {
   public static void main(String[] args) {
     String s = "Hello World";
-    
+
     System.out.println(s.codePointCount(0, 10));
     // Output: 10
   }

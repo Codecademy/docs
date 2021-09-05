@@ -1,18 +1,16 @@
 ---
-Title: ".push()"
-Description: "Adds one or more elements to end of array and returns new length."
+Title: '.push()'
+Description: 'Adds one or more elements to end of array and returns new length.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Adds one or more elements to end of array and returns new length.
 
@@ -47,7 +45,7 @@ Add multiple items to end of `colors` array:
 
 ```js
 const colors = ['red', 'orange', 'yellow'];
-colors.push('green', 'blue'); 
+colors.push('green', 'blue');
 // Output: 5
 
 console.log(colors);

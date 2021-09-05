@@ -1,14 +1,14 @@
 ---
-Title: "Who is Linus Torvalds?"
+Title: 'Who is Linus Torvalds?'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Linux"
-  - "Git"
+  - 'Linux'
+  - 'Git'
 CatalogContent:
-  - "paths/computer-science"
-  - "paths/code-foundations"
+  - 'paths/computer-science'
+  - 'paths/code-foundations'
 ---
 
 Linus Torvalds is a Finnish-American computer scientist, the creator of the operating system kernel [Linux](https://www.linux.org/), and the distributed revision control system [Git](https://git-scm.com/).

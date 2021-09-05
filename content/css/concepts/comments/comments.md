@@ -1,14 +1,14 @@
 ---
-Title: "Comments"
+Title: 'Comments'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Comments"
-  - "Documentation"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A comment is a piece of text within a style sheet that is not interpreted by the browser. It can be used to provide additional information to aid in understanding the code. By design, comments have no effect on the layout or styling of a document.

@@ -1,14 +1,14 @@
 ---
-Title: "animation-fill-mode"
-Description: "Defines what values are applied by an animation outside its execution time."
+Title: 'animation-fill-mode'
+Description: 'Defines what values are applied by an animation outside its execution time.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `animation-fill-mode` animiation propery defines what values are applied by an animation outside its execution time.
@@ -26,7 +26,7 @@ where `<value>` can be one of the following:
 - `backwards`: The initial keyframe values computed will be retained outside of the animation's execution time.
 - `both`: Provides both `forwards` and `backwards` values to `animation-fill-mode` property.
 
-**Note:**  The first and last keyframe computed values depend on the value of `animation-direction` and `animation-iteration-count`.
+**Note:** The first and last keyframe computed values depend on the value of `animation-direction` and `animation-iteration-count`.
 
 ## Example 1
 

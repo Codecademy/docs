@@ -1,14 +1,14 @@
 ---
-Title: "Sets" 
+Title: 'Sets'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Sets"
-  - "Data Types"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Sets'
+  - 'Data Types'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 A set is an unordered collection of elements without any duplicates.
@@ -17,7 +17,7 @@ Sets are especially useful for performing logical operations like finding the un
 
 ## Creating a Set
 
-There are several ways to create a set. 
+There are several ways to create a set.
 
 We can create a set from a list with the `set()` keyword:
 
@@ -28,7 +28,7 @@ animals = set(['aardvark', 'snail', 'squid'])
 
 A set can also be created with curly braces:
 
-```py 
+```py
 oceans = {'Pacific', 'Atlantic', 'Indian', 'Southern', 'Arctic'}
 ```
 
@@ -45,7 +45,7 @@ This will create a new set with only unique values.
 
 ## Set Operations
 
-Sets are especially useful for logical operations such as finding the intersection, union, or difference between collections. 
+Sets are especially useful for logical operations such as finding the intersection, union, or difference between collections.
 
 ## Union
 
@@ -104,7 +104,7 @@ This would only print the items unique to the first set:
 
 ## Frozensets
 
-Frozensets are a special type of set that are immutable. Like tuples, their contents are frozen and cannot changed after creation. 
+Frozensets are a special type of set that are immutable. Like tuples, their contents are frozen and cannot changed after creation.
 
 We can create frozensets with the `frozenset()` function:
 

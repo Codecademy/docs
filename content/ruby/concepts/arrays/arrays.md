@@ -1,14 +1,14 @@
 ---
-Title: "Arrays"
+Title: 'Arrays'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Data Types"
-  - "Arrays"
+  - 'Data Types'
+  - 'Arrays'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Arrays store data values in a list. An array can contain any data type. Values are comma separated and enclosed in square brackets. Elements in the array start at an index of 0.

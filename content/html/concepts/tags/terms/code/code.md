@@ -1,17 +1,15 @@
 ---
-Title: "<code>"
-Description: "Represents source code contained in the text."
+Title: '<code>'
+Description: 'Represents source code contained in the text.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 Represents source code contained in the text.
 
@@ -19,7 +17,7 @@ Represents source code contained in the text.
 
 ```html
 <code><!-- Code snippet lives here --></code>
-``` 
+```
 
 `<code>` is a tag that wraps around a block of text. By default it appears inline with the surrounding text, and can be used with a `<pre>` tag to create formatted code blocks across multiple lines.
 
@@ -29,11 +27,13 @@ Suppose the document contains a description of what a JavaScript function aims t
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <!-- Here <code> is being used inline, and the text add() will be shown in a monospace font -->
-    <p>The function <code>add()</code> is defined below. It will take two inputs, and return the sum of them as an output.</p>
+    <p>
+      The function <code>add()</code> is defined below. It will take two inputs,
+      and return the sum of them as an output.
+    </p>
 
     <!-- Here <code> is being used with a <pre> tag to allow the formatted code to span multiple lines -->
     <pre>

@@ -1,17 +1,17 @@
 ---
-Title: "What is an Array?"
+Title: 'What is an Array?'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "Arrays"
-  - "Data Structures"
-CatalogContent:  
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Arrays'
+  - 'Data Structures'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-An an array is a list of ordered, stored data. They can hold items that are of any data type. 
+An an array is a list of ordered, stored data. They can hold items that are of any data type.
 
 ## Syntax
 

@@ -1,17 +1,15 @@
 ---
-Title: ".race()"
-Description: "Returns the first Promise in an iterableObject that is either resolved or rejected."
+Title: '.race()'
+Description: 'Returns the first Promise in an iterableObject that is either resolved or rejected.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns the first Promise in an `iterableObject` that is either resolved or rejected.
 
@@ -39,11 +37,11 @@ In the spirit of a race, ssing `setTimeout()` within two runners named `runnerA`
 
 ```js
 const runnerA = new Promise((resolve, reject) => {
-  setTimeout(reject, 100, "The winner is runnerA!");
+  setTimeout(reject, 100, 'The winner is runnerA!');
 });
 
 const runnerB = new Promise((resolve, reject) => {
-  setTimeout(resolve, 300, "The winner is runnerB!");
+  setTimeout(resolve, 300, 'The winner is runnerB!');
 });
 
 const promises = [runnerA, runnerB];
@@ -56,6 +54,6 @@ Promise.race(promises)
     console.log(err);
   })
   .finally(() => {
-    console.log("Operations for Promise.race() have finished.");
+    console.log('Operations for Promise.race() have finished.');
   });
 ```

@@ -1,19 +1,17 @@
 ---
-Title: "bool()"
-Description: "Converts a value to a Boolean True or False value."
+Title: 'bool()'
+Description: 'Converts a value to a Boolean True or False value.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Strings"
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Converts a value to a Boolean `True` or `False` value.
 

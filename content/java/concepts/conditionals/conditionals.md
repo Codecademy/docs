@@ -1,14 +1,14 @@
 ---
-Title: "Conditionals"
+Title: 'Conditionals'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Conditionals"
-  - "Control Flow"
-  - "Switch"
+  - 'Computer Science'
+Tags:
+  - 'Conditionals'
+  - 'Control Flow'
+  - 'Switch'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
@@ -27,7 +27,7 @@ if (berries > 5) {
 
 ## Else
 
-An `else` clause can be added to an `if` statement. 
+An `else` clause can be added to an `if` statement.
 
 The `else` statement executes a block of code when the condition inside the `if` statement is `false`:
 
@@ -54,7 +54,7 @@ There can be multiple `else`-`if` statements in a single conditional statement.
 ```java
 int testScore = 76;
 char grade;
- 
+
 if (testScore >= 90) {
   grade = 'A';
 } else if (testScore >= 80) {
@@ -66,8 +66,8 @@ if (testScore >= 90) {
 } else {
   grade = 'F';
 }
- 
-System.out.println("Grade is " + grade); 
+
+System.out.println("Grade is " + grade);
 // Ouptut: Grade is C
 ```
 
@@ -78,9 +78,9 @@ A nested conditional statement is a conditional statement nested inside another 
 ```java
 boolean studied = true;
 boolean wellRested = true;
- 
+
 if (wellRested) {
-  System.out.println("Best of luck today!");  
+  System.out.println("Best of luck today!");
   if (studied) {
     System.out.println("You are prepared for your exam!");
   } else {

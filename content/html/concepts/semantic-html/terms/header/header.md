@@ -1,19 +1,19 @@
 ---
-Title: "<header>"
-Description: "Represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements."
+Title: '<header>'
+Description: 'Represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Semantic"
-  - "Tags"
+  - 'Semantic'
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The `<header>` semantic tag represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements. 
-  
+The `<header>` semantic tag represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements.
+
 Headers are not limited to the beginning of the whole page, but can be at the beginning of subsections within page as well.
 
 ## Syntax
@@ -22,7 +22,7 @@ Headers are not limited to the beginning of the whole page, but can be at the be
 <header>
   <!-- Header content goes inside the tag -->
 </header>
-``` 
+```
 
 `<header>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
@@ -34,8 +34,7 @@ Before the main content is shown to the users of Bongo Ltd., they should see: th
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <header>
       <!-- Company Logo -->
@@ -66,15 +65,17 @@ At the start of an article the user should see the title, who wrote it, and a sh
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <article>
       <!-- Introduce the article here -->
       <header>
         <h2>How to Find the Moon</h2>
         <h4>Posted by DavidBowiesYamamotoPants at 2:38PM on 05/23/21</h4>
-        <p>By reading this article you will gain Amateur Level Expertise in locating the moon in the night sky.</p>
+        <p>
+          By reading this article you will gain Amateur Level Expertise in
+          locating the moon in the night sky.
+        </p>
       </header>
 
       <!-- First section of the article lives here -->

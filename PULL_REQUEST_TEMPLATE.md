@@ -2,8 +2,6 @@
 
 <!--- Please write a summary of the change, such as which topic(s) and file(s) that you have edited/created. Please also include relevant motivation and context: -->
 
-
-
 ### Type of Change
 
 <!--- Please check the boxes that are relevant to this PR: -->

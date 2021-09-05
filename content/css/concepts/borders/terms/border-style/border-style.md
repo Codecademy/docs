@@ -1,19 +1,18 @@
 ---
-Title: "border-style"
-Description: "Sets the style of the border. The default value is none."
+Title: 'border-style'
+Description: 'Sets the style of the border. The default value is none.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Box Model"
+  - 'Borders'
+  - 'Box Model'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
- 
 Sets the style of the border. The default value is `none`.
 
 ## Syntax

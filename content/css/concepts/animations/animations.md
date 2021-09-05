@@ -1,14 +1,14 @@
 ---
-Title: "Animations"
+Title: 'Animations'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Animation"
-  - "Elements"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Animation'
+  - 'Elements'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A CSS animation lets an HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.
@@ -24,8 +24,12 @@ To get an animation to work, the animation must be bound to an element:
 ```css
 /* The animation */
 @keyframes color-change {
-  from {color: yellow;}
-  to {color: orange;}
+  from {
+    color: yellow;
+  }
+  to {
+    color: orange;
+  }
 }
 
 /* The element */

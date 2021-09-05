@@ -1,18 +1,16 @@
 ---
-Title: "animation-direction"
-Description: "Determines whether an animation runs forward or in reverse on some or all of its cycles."
+Title: 'animation-direction'
+Description: 'Determines whether an animation runs forward or in reverse on some or all of its cycles.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Animation"
+  - 'Animation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Determines whether an animation runs forward or in reverse on some or all of its cycles.
 
@@ -27,7 +25,7 @@ where `<value>` can be one of the following:
 - `normal`: Animation will play as specified.
 - `reverse`: Animation will be played in the reverse direction as specified.
 - `alternate`: causes the cycles to alternate between `normal` and `reverse`.
-- `alternate-reverse`: causes the cycles to alternate between `reverse` and `normal`. 
+- `alternate-reverse`: causes the cycles to alternate between `reverse` and `normal`.
 
 ## Example 1
 

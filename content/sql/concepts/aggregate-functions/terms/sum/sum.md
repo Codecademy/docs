@@ -1,17 +1,17 @@
 ---
-Title: "SUM()"
-Description: "Returns the sum of all the value in that column."
+Title: 'SUM()'
+Description: 'Returns the sum of all the value in that column.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "SQLite"
-  - "PostgreSQL"
-  - "MySQL"
-  - "Functions"
+  - 'SQLite'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'Functions'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 The `SUM()` aggregate function takes the name of a column as an argument and returns the sum of all the value in that column.
@@ -27,21 +27,21 @@ FROM table_name;
 
 For instance, suppose there's a `transactions` table with the following values:
 
-| date | amount | 
-| -- | -- |
-| 2023-01-30 | 2.75 |
-| 2023-01-31 | 6.00 |
-| 2023-01-31 | 4.20 |
+| date       | amount |
+| ---------- | ------ |
+| 2023-01-30 | 2.75   |
+| 2023-01-31 | 6.00   |
+| 2023-01-31 | 4.20   |
 
 The given query will return the smallest value from the `amount` column:
 
 ```sql
-SELECT SUM(amount) 
+SELECT SUM(amount)
 FROM transactions;
 ```
 
 The result would be:
 
-| SUM(amount) | 
-| -- |
-| 12.95 |
+| SUM(amount) |
+| ----------- |
+| 12.95       |

@@ -1,21 +1,21 @@
 ---
-Title: "Enums"
+Title: 'Enums'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Enum"
-  - "Data Types"
-  - "Arrays"
-  - "Vectors"
-  - "Pointers"
-  - "Memory"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Enum'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Vectors'
+  - 'Pointers'
+  - 'Memory'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. 
+In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
 
 ## Syntax
 
@@ -62,13 +62,13 @@ So here:
 int main() {
 
   enum quarter_one {
-    january=1, 
-    february, 
+    january=1,
+    february,
     march
   };
-  
+
   int month = february;
-  
+
   std::cout << month;
 }
 ```

@@ -1,18 +1,16 @@
 ---
-Title: ".unshift()"
-Description: "Adds one or more elements to beginning of array and returns new length."
+Title: '.unshift()'
+Description: 'Adds one or more elements to beginning of array and returns new length.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Adds one or more elements to beginning of array and returns new length.
 
@@ -27,7 +25,14 @@ array.unshift(item1, item2, ...);
 To add the element `'Monday'` to the `daysOfWeek` array:
 
 ```js
-const daysOfWeek = ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const daysOfWeek = [
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday',
+];
 
 daysOfWeek.unshift('Monday');
 

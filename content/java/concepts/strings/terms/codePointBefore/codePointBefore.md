@@ -1,17 +1,15 @@
 ---
-Title: ".codePointBefore()"
-Description: "Returns the Unicode value before the given index in the string."
+Title: '.codePointBefore()'
+Description: 'Returns the Unicode value before the given index in the string.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the Unicode value before the given index in the string.
 
@@ -31,7 +29,7 @@ Print the Unicode value of the first character, `"H"` at the first index:
 class FirstCharacterUnicodeValue {
   public static void main(String[] args) {
     String greeting = "Hello World";
-    
+
     System.out.println(greeting.codePointBefore(1));
     // Output: 72
   }
