@@ -1,21 +1,19 @@
 ---
-Title: "text-shadow"
-Description: "Adds shadow to text. "
+Title: 'text-shadow'
+Description: 'Adds shadow to text. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
- 
-
-Adds shadow to text. 
+Adds shadow to text.
 
 ## Syntax
 
@@ -30,7 +28,7 @@ The shadow is created with a combination of x and y offsets from the element, bl
 - Value 3 (optional): Sets the blur radious.
 - Value 4 (optional): Sets the color of the shadow.
 
-**Note:** We can add multiple text shadows by comma separating. 
+**Note:** We can add multiple text shadows by comma separating.
 
 ## Example 1
 
@@ -39,7 +37,7 @@ Creating a basic text shadow.
 ```css
 h1 {
   /* x-offset | y-offset */
-  text-shadow: 2px 4px; 
+  text-shadow: 2px 4px;
 }
 ```
 
@@ -50,7 +48,7 @@ Creating a text shadow with blur effect and blue color.
 ```css
 h1 {
   /* x-offset | y-offset | blur-radius | color */
-  text-shadow: 2px 4px 10px blue; 
+  text-shadow: 2px 4px 10px blue;
 }
 ```
 
@@ -61,7 +59,6 @@ Adding multiple text-shadows.
 ```css
 h1 {
   /* x-offset | y-offset | blur-radius | color */
-  text-shadow: 2px 4px 10px #00E9EC,
-               3px 6px 5px green; 
+  text-shadow: 2px 4px 10px #00e9ec, 3px 6px 5px green;
 }
 ```

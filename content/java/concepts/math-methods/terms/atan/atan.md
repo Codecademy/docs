@@ -1,17 +1,15 @@
 ---
-Title: "Math.atan()"
-Description: "Returns the inverse tangent of the argument in radians."
+Title: 'Math.atan()'
+Description: 'Returns the inverse tangent of the argument in radians.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Methods"
-  - "Arithmetic"
+  - 'Methods'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the inverse tangent of the argument in radians.
 
@@ -21,16 +19,16 @@ Returns the inverse tangent of the argument in radians.
 Math.atan(n)
 ```
 
-## Example 
+## Example
 
 Use `Math.atan()` to return the inverse tangent of `1.0`:
 
 ```java
 public class Main {
   public static void main(String[] args) {
-  
+
     double x = 1.0;
-    
+
     System.out.println(Math.atan(x));
     // Output: 0.7853981633974483
   }

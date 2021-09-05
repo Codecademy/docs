@@ -1,17 +1,15 @@
 ---
-Title: "<em>"
+Title: '<em>'
 Description: Represents text which is emphasized. Browsers will show the enclosed text in italics, by default."
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 The `<em>` tag represents text which is emphasized. Browsers will show the enclosed text in italics, by default.
 
@@ -19,7 +17,7 @@ The `<em>` tag represents text which is emphasized. Browsers will show the enclo
 
 ```html
 <em><!-- Emphasized text goes here --></em>
-``` 
+```
 
 `<em>` is a tag that wraps around text. By default it is an inline element, and will be shown in italics.
 
@@ -27,11 +25,13 @@ The `<em>` tag represents text which is emphasized. Browsers will show the enclo
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <!-- The words 'very important' will be emphasized -->
-    <p>Here is some text, and this part is <em>very important</em>. I hope you enjoy it.</p>
+    <p>
+      Here is some text, and this part is <em>very important</em>. I hope you
+      enjoy it.
+    </p>
   </body>
 </html>
 ```

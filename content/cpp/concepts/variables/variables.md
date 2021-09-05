@@ -1,14 +1,14 @@
 ---
-Title: "Variables"
+Title: 'Variables'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Variables"
-  - "Data Types"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Variables'
+  - 'Data Types'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.

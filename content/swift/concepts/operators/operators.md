@@ -1,16 +1,16 @@
 ---
-Title: "Operators"
+Title: 'Operators'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
-Tags: 
-  - "Operators"
+  - 'iOS'
+  - 'Mobile Development'
+Tags:
+  - 'Operators'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Operators are unique characters or phrases that Swift uses to manipulate and validate values. Swift was specifically designed to enhance the operators from several programming languages to create more capability with less code for the programmer. 
+Operators are unique characters or phrases that Swift uses to manipulate and validate values. Swift was specifically designed to enhance the operators from several programming languages to create more capability with less code for the programmer.
 
 ## Assignment Operator
 
@@ -30,11 +30,11 @@ Here, the `z = (a=6)` assignment leaves `z` to equal `()` once the `a=6` is eval
 
 Swift contains the following operators that match their similar expressions in common math:
 
-* `+` for addition
-* `-` for subtraction
-* `*` for multiplication
-* `/` for division
-* `%` for modulus or remainder division
+- `+` for addition
+- `-` for subtraction
+- `*` for multiplication
+- `/` for division
+- `%` for modulus or remainder division
 
 These work as you would expect for all mathematical operations, however the `+` operator can also be used to concatenate two strings together such as `"Operators" + " in Swift" = "Operators in Swift"`.
 
@@ -42,12 +42,12 @@ These work as you would expect for all mathematical operations, however the `+` 
 
 These operators are used to return `Bool` values for use in conditional statements. These control logic flow in loops or if statements for example. The basic comparison operators are below:
 
-* `==` equal to
-* `!=` not equal to
-* `>` greater than
-* `>=` greater than or equal to
-* `<` less than
-* `<=` less than or equal to
+- `==` equal to
+- `!=` not equal to
+- `>` greater than
+- `>=` greater than or equal to
+- `<` less than
+- `<=` less than or equal to
 
 The following code snippet shows a use cases of comparison operators in a `while` loop that will :
 
@@ -65,11 +65,11 @@ while countUp < countDown {
 
 Logical Operators are used to evaluate or modify the value of Beolean values and are especially useful in control flow logic, in Swift there are three operators:
 
-* `!` Logical NOT
-* `&&` Logical AND
-* `||` Logical OR
+- `!` Logical NOT
+- `&&` Logical AND
+- `||` Logical OR
 
-Logical NOT(`!`) operator appears directly before a Boolean value with no spaces. This operator inverts the value of the Boolean so that `true` becomes `false` and vice versa. 
+Logical NOT(`!`) operator appears directly before a Boolean value with no spaces. This operator inverts the value of the Boolean so that `true` becomes `false` and vice versa.
 
 ```swift
 var earthIsFlat = false
@@ -184,6 +184,7 @@ Since getItemPrice isn't assigned a value it defaults to 'nil'. The price to cha
 ## Ternary Conditional Operator
 
 The ternary conditional operator is shorthand for a simple `if`-`else` statement. It follows the syntax `statementToTest ? doThisAndReturnIfTrue : doThisAndReturnIfFalse` which in terms of the `if`-`else` statement can be read as:
+
 - `if` the statement is true, evaluate and return the value of the left side of the ternary
 - `if` it's false, evaluate and return the value of the right side.
 

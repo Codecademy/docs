@@ -1,21 +1,21 @@
 ---
-Title: "What is a Class?"
+Title: 'What is a Class?'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "Classes"
-  - "Objects"
-  - "OOP"
-CatalogContent:  
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Classes'
+  - 'Objects'
+  - 'OOP'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A class is a piece of code within a program that functions as a template or blueprint for creating mulitple instances of a particular object. 
+A class is a piece of code within a program that functions as a template or blueprint for creating mulitple instances of a particular object.
 
-The template provides initial values and behavior for each of these instances. Each instance is an object itself. 
+The template provides initial values and behavior for each of these instances. Each instance is an object itself.
 
 ## Example
 

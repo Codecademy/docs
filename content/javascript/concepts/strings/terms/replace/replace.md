@@ -1,18 +1,16 @@
 ---
-Title: ".replace()"
-Description: "Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced."
+Title: '.replace()'
+Description: 'Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.
 
@@ -47,4 +45,3 @@ const birdsNotBears = kidsBook.replace(/bear/g, 'bird');
 console.log(birdsNotBears);
 // Output: Brown bird, brown bird, what do you see?
 ```
-

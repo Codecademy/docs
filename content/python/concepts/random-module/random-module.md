@@ -1,21 +1,21 @@
 ---
-Title: "Random Module" 
+Title: 'Random Module'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Random"
-  - "Integers"
-  - "Strings"
-  - "Methods"
-  - "Lists"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Random'
+  - 'Integers'
+  - 'Strings'
+  - 'Methods'
+  - 'Lists'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
 
-Python has a special module called [random](https://docs.python.org/3/library/random.html) that can be used to randomly generate or modify integers, floats, lists, and strings. 
+Python has a special module called [random](https://docs.python.org/3/library/random.html) that can be used to randomly generate or modify integers, floats, lists, and strings.
 
 In order to use the `random` module, import it at the top of a Python file:
 
@@ -56,7 +56,7 @@ import random
 my_number = random.uniform(1, 2)
 
 print(my_number)
-# Output: A number between 1.0 and 2.0, including 1.0 and excluding 2.0 
+# Output: A number between 1.0 and 2.0, including 1.0 and excluding 2.0
 
 my_number = random.uniform(1.5, 10.3)
 
@@ -125,7 +125,7 @@ print(my_string)
 # Output: TypeError: 'str' object does not support item assignment
 ```
 
-On the other hand `.sample(a, b)` returns a new object rather than modifying the original string, so it can be used: 
+On the other hand `.sample(a, b)` returns a new object rather than modifying the original string, so it can be used:
 
 ```codebyte/py
 import random

@@ -1,19 +1,17 @@
 ---
-Title: "background-blend-mode"
-Description: "Returns a new blended color based on the background color and the background images."
+Title: 'background-blend-mode'
+Description: 'Returns a new blended color based on the background color and the background images.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Colors"
+  - 'Background'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a new blended color based on the background color and the background images.
 
@@ -37,7 +35,7 @@ The background color will not bleed through the background image:
 
 ```css
 body {
-  background-image: url("fish.jpg");
+  background-image: url('fish.jpg');
   background-color: blue;
   background-blend-mode: normal;
 }
@@ -49,7 +47,7 @@ At each pixel, show whichever is lighter between the background image and the ba
 
 ```css
 body {
-  background-image: url("fish.jpg");
+  background-image: url('fish.jpg');
   background-color: blue;
   background-blend-mode: lighten;
 }
@@ -61,7 +59,7 @@ At each pixel, show whichever is darker between the background image and the bac
 
 ```css
 body {
-  background-image: url("fish.jpg");
+  background-image: url('fish.jpg');
   background-color: blue;
   background-blend-mode: darken;
 }

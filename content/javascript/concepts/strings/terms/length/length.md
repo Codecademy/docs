@@ -1,16 +1,16 @@
 ---
-Title: ".length"
-Description: "Returns the length of a string (number of characters)."
+Title: '.length'
+Description: 'Returns the length of a string (number of characters).'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Properties"
-  - "Methods"
+  - 'Strings'
+  - 'Properties'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.length` string property returns the number of characters in a string.
@@ -18,7 +18,7 @@ The `.length` string property returns the number of characters in a string.
 ## Syntax
 
 ```js
-string.length
+string.length;
 ```
 
 ## Example
@@ -26,7 +26,7 @@ string.length
 Returning the length of a string in number:
 
 ```js
-console.log("I love New York!".length);
+console.log('I love New York!'.length);
 // Output: 16
 ```
 

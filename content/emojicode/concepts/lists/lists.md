@@ -1,19 +1,19 @@
 ---
-Title: "🍿 Lists"
+Title: '🍿 Lists'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Lists"
-  - "Data Types"
-  - "Arrays"
-  - "Dictionaries"
+  - 'Lists'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Dictionaries'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
-A list literal is a listing of expressions. 
+A list literal is a listing of expressions.
 
 Lists are always ordered and can contain different types of objects, such as strings, integers, booleans, etc. Lists are a mutable data type and therefore a good choice for dynamic data (adding and subtracting to lists).
 

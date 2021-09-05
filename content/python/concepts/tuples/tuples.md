@@ -1,22 +1,22 @@
 ---
-Title: "Tuples" 
+Title: 'Tuples'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Tuples"
-  - "Lists"
-  - "Data Types"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Tuples'
+  - 'Lists'
+  - 'Data Types'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 A tuple is a Python data structure used to store an ordered and immutable collection of objects. Tuples are similar to lists, except that tuples cannot be changed after creation.
 
 ## Creating a Tuple
 
-There are multiple ways to create a tuple in Python. 
+There are multiple ways to create a tuple in Python.
 
 Tuples can be created with the built-in `tuple()` constructor:
 
@@ -26,7 +26,7 @@ streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
 
 We can also create tuples with parentheses:
 
-```py 
+```py
 mountains = ("Everest", "Kilimanjaro", "Fuji")
 ```
 
@@ -64,7 +64,7 @@ streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
 streaming_platforms[2] = "YouTube"
 ```
 
-This will result in: 
+This will result in:
 
 ```error
 TypeError: 'tuple' object does not support item assignment

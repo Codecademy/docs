@@ -1,14 +1,14 @@
 ---
-Title: "Comments"
+Title: 'Comments'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Comments"
-  - "Documentation"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
@@ -19,7 +19,7 @@ In Python, the `#` character is used to start a comment. The comment continues a
 
 ```py
 # Comment on a single line
- 
+
 name = "Pied Piper" # Comment after code
 ```
 

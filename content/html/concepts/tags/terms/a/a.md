@@ -1,22 +1,20 @@
 ---
-Title: "<a>"
-Description: "Creates a link to another page or to a location in the current page."
+Title: '<a>'
+Description: 'Creates a link to another page or to a location in the current page.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Anchor"
-  - "Link"
-  - "URL"
+  - 'Anchor'
+  - 'Link'
+  - 'URL'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
- 
+The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page.
 
-The HTML tag `<a>`, also known as the anchor tag, creates a link to another page or to a location in the current page. 
-  
 It can also be used to link to email addresses, phone numbers, and files.
 
 ## Syntax
@@ -27,8 +25,8 @@ It can also be used to link to email addresses, phone numbers, and files.
 
 `<a>` is a tag that commonly uses the following attributes to create a link from the current page to a valid URL:
 
-  - `href`, which represents the URL that the link points to
-  - `target`, which represents where to open and display the URL stored in the `href`
+- `href`, which represents the URL that the link points to
+- `target`, which represents where to open and display the URL stored in the `href`
 
 ## Examples
 
@@ -48,7 +46,6 @@ Suppose the page should include a link to a specific section on the current page
 <article id="about-us">
   <!-- More HTML here -->
 </article>
-
 
 <!-- This link will scroll the current view back to the article above. -->
 <a href="#about-us">About Us</a>
@@ -74,9 +71,7 @@ Suppose the page needs a clickable logo:
 
 ```html
 <!-- This link will be an image -->
-<a href="http://www.codecademy.com">
-  <img src="logo.jpg">Click this image
-</a>
+<a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
 ```
 
 Anything that is inside the anchor tag will be treated as a link. In this case the Codecademy logo will take the user to the Codecademy home page.

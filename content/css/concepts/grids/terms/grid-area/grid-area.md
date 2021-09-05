@@ -1,21 +1,19 @@
 ---
-Title: "grid-area"
-Description: "A property used to identify an element within a grid template or specify the location of an element within a grid.  "
+Title: 'grid-area'
+Description: 'A property used to identify an element within a grid template or specify the location of an element within a grid.  '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-
-
-A property used to identify an element within a grid template or specify the location of an element within a grid.  
+A property used to identify an element within a grid template or specify the location of an element within a grid.
 
 ## Syntax
 
@@ -25,7 +23,7 @@ A property used to identify an element within a grid template or specify the loc
 }
 ```
 
-A  `<area-value>` can be any of the following:
+A `<area-value>` can be any of the following:
 
 - Grid keyword: `auto`, `span`
 - Grid line value: `2`

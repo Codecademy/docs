@@ -1,17 +1,17 @@
 ---
-Title: "Who is Aaron Swartz?"
+Title: 'Who is Aaron Swartz?'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Markdown"
-  - "RSS"
+  - 'Markdown'
+  - 'RSS'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/code-foundations"
+  - 'learn-python-3'
+  - 'paths/code-foundations'
 ---
 
-Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py. 
+Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py.
 
 ## Entrepreneurship
 
@@ -19,7 +19,7 @@ Aaron Swartz was a co-founder of a startup called Infogami, which later became t
 
 ## Activism
 
-In 2008, Swartz published an essay called *Guerilla Open Access Manifesto*:
+In 2008, Swartz published an essay called _Guerilla Open Access Manifesto_:
 
 > Sharing isn't immoral — it's a moral imperative. Only those blinded by greed would refuse to let a friend make a copy.
 
@@ -33,4 +33,4 @@ Federal prosecutors later charged him with wire fraud and violations of the Comp
 
 Swartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he committed suicide. He was 26 years old.
 
-R.I.P. Aaron Swartz (November 8, 1986 – January 11, 2013) 
+R.I.P. Aaron Swartz (November 8, 1986 – January 11, 2013)

@@ -1,19 +1,17 @@
 ---
-Title: "font-family"
-Description: "Specify the typeface in a rule set."
+Title: 'font-family'
+Description: 'Specify the typeface in a rule set.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specify the typeface in a rule set.
 
@@ -47,6 +45,6 @@ Set the `h1` tag to `"Open Sans"`:
 
 ```css
 h1 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 ```

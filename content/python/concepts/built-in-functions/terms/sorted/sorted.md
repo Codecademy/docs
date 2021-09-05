@@ -1,20 +1,18 @@
 ---
-Title: "sorted()"
-Description: "Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter."
+Title: 'sorted()'
+Description: 'Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Functions"
-  - "Iterators"
-  - "Lists"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Functions'
+  - 'Iterators'
+  - 'Lists'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
- 
 
 Takes in an iterator object, such as a list, tuple, dictionary, set, or string, and sorts it according to a parameter.
 
@@ -63,7 +61,7 @@ print(new_list)
 
 ## Example 3
 
-When `reversed` is `False`, `sorted()` will sort numbers from low to high, and letters alphabetically. However, capital letters will come before lowercase letters. In order to sort all objects with the same key, use a function with the key `parameter`: 
+When `reversed` is `False`, `sorted()` will sort numbers from low to high, and letters alphabetically. However, capital letters will come before lowercase letters. In order to sort all objects with the same key, use a function with the key `parameter`:
 
 ```python
 my_string = "bCEad"
@@ -97,7 +95,7 @@ print(my_sorted_list)
 # Output: ['c', 'bb', 'aaa']
 ```
 
-## Example 5 
+## Example 5
 
 The `key` parameter can even take in custom functions:
 
@@ -117,7 +115,3 @@ my_sorted_list = sorted(my_list, key=sorting_func)
 print(my_sorted_list)
 # Output: [4, 3, 2, 1]
 ```
-
-
-
-

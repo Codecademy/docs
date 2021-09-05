@@ -1,19 +1,17 @@
 ---
-Title: "grid-gap"
-Description: "Specifies the spacing between grid elements within a grid framework."
+Title: 'grid-gap'
+Description: 'Specifies the spacing between grid elements within a grid framework.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Specifies the spacing between grid elements within a grid framework.
 
@@ -38,7 +36,7 @@ Columns with three pixels of spacing:
 ```css
 .content-a-container {
   display: grid;
-  grid-template:  150px 300px 150px / 1fr 1fr 1fr;
+  grid-template: 150px 300px 150px / 1fr 1fr 1fr;
   grid-gap: 3px;
 }
 ```

@@ -1,19 +1,17 @@
 ---
-Title: "line-height"
-Description: "Set the vertical spacing between lines of text."
+Title: 'line-height'
+Description: 'Set the vertical spacing between lines of text.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Set the vertical spacing between lines of text.
 

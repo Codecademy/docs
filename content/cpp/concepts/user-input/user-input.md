@@ -1,15 +1,15 @@
 ---
-Title: "User Input"
+Title: 'User Input'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Input"
-  - "Print"
-  - "Variables"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Input'
+  - 'Print'
+  - 'Variables'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 `std::cin`, which stands for “character input”, reads user input from the keyboard.
@@ -32,7 +32,7 @@ In this example, the program will prompt the user to enter a number with `"Enter
 int main() {
 
   int tip = 0;
- 
+
   std::cout << "Enter amount: ";
   std::cin >> tip;
 

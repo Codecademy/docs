@@ -1,19 +1,17 @@
 ---
-Title: "text-indent"
-Description: "Indents (leaves empty space) the first line in a text-block."
+Title: 'text-indent'
+Description: 'Indents (leaves empty space) the first line in a text-block.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
- 
 
 Indents (leaves empty space) the first line in a text-block.
 
@@ -23,7 +21,7 @@ Indents (leaves empty space) the first line in a text-block.
 text-indent: <value>;
 ```
 
-The amount of indentiation can be specified by using percentages or length values (`px`, `em`, etc): 
+The amount of indentiation can be specified by using percentages or length values (`px`, `em`, etc):
 
 ## Example 1
 

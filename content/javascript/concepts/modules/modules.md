@@ -1,13 +1,13 @@
 ---
-Title: "Modules"
+Title: 'Modules'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Modules"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Modules'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
@@ -32,7 +32,7 @@ import { greetPerson } from './greetPerson.js';
 // Using greetPerson() defined in greetPerson.js
 let displayName = greetPerson('Codecademy');
 
-console.log(displayName); 
+console.log(displayName);
 // Output: Hi, Codecademy
 ```
 
@@ -42,7 +42,7 @@ Two things happened:
 
   ```js
   export function greetPerson(name) {
-    ... 
+    ...
   }
   ```
 
@@ -51,12 +51,12 @@ Two things happened:
   ```js
   import { greetPerson } from '/.greetPerson.js';
   ```
-  
+
 Note that there are `{` `}` wrapped around the function in the import syntax.
 
 ## Export Multiple Objects
 
-It is also possible to export multiple objects from a module. 
+It is also possible to export multiple objects from a module.
 
 For example, suppose there's a **module.js** file:
 
@@ -86,18 +86,15 @@ Here, both the `name` variable and the `difference()` function from the **module
 
 ## Renaming Imports and Exports
 
-If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file. 
+If the objects (variables, functions, etc.) that you want to import are already present in your main file, the program may not behave as you want. In this case, the program takes value from the main file instead of the imported file.
 
 To avoid naming conflicts, you can rename these objects during the export or during the import.
 
-### Rename in the export file (the module):
+### Rename in the export file (the module)
 
 ```js
 // In module.js
-export {
-  function1 as newName1,
-  function2 as newName2
-};
+export { function1 as newName1, function2 as newName2 };
 ```
 
 ```js
@@ -107,14 +104,11 @@ import { newName1, newName2 } from './module.js';
 
 Here, while exporting the function from **module.js** file, new names (here, `newName1` & `newName2`) are given to the function. Hence, when importing that function, the new name is used to reference that function.
 
-### Rename in the import file (the main file):
+### Rename in the import file (the main file)
 
 ```js
 // In module.js
-export {
-  function1,
-  function2
-};
+export { function1, function2 };
 ```
 
 ```js

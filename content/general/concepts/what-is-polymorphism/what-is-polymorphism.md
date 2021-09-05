@@ -1,20 +1,20 @@
 ---
-Title: "What is Polymorphism?"
+Title: 'What is Polymorphism?'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - "Best Practices"
-  - "Memory"
+  - 'Best Practices'
+  - 'Memory'
 CatalogContent:
-  - "paths/code-foundations"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-_Polymorphism_ is one of the four principles of object-oriented programming (OOP). It promotes dynamic inheritance of child classes from their parent class in order to make use of these features themselves in code. 
+_Polymorphism_ is one of the four principles of object-oriented programming (OOP). It promotes dynamic inheritance of child classes from their parent class in order to make use of these features themselves in code.
 
-With polymorphism, child classes are able to inherit methods from their parent class for use. This ability to inherit functionality from parent classes not only speeds up the development process, but also helps us reason and understand our code more intuitively as we can see the correlation between objects for easier understanding and manipulation of source code. 
+With polymorphism, child classes are able to inherit methods from their parent class for use. This ability to inherit functionality from parent classes not only speeds up the development process, but also helps us reason and understand our code more intuitively as we can see the correlation between objects for easier understanding and manipulation of source code.
 
 ```py
 from math import pi

@@ -1,20 +1,18 @@
 ---
-Title: "classmethod()"
-Description: "Converts a given function into a class method."
+Title: 'classmethod()'
+Description: 'Converts a given function into a class method.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Character Encoding"
+  - 'Functions'
+  - 'Methods'
+  - 'Character Encoding'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Converts a given function into a class method.
 

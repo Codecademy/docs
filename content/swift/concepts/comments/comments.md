@@ -1,21 +1,22 @@
 ---
-Title: "Comments"
+Title: 'Comments'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
-  - "Comments"
-  - "Documentation"
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Comments in represent text that is useful to the programmer or developement team. Think of them as notes or reminders to yourself of important concepts or ideas that need a little explaining above the syntax of the raw code. 
+Comments in represent text that is useful to the programmer or developement team. Think of them as notes or reminders to yourself of important concepts or ideas that need a little explaining above the syntax of the raw code.
 
-In Swift there are two kinds of comments: single-line comments and multi-line comments. These comments will be completely ignored by the compiler at compile-time. 
+In Swift there are two kinds of comments: single-line comments and multi-line comments. These comments will be completely ignored by the compiler at compile-time.
 
-Famous software engineer Martin Fowler once wrote, 
+Famous software engineer Martin Fowler once wrote,
+
 > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 
 ## Single-Line Comments
@@ -38,8 +39,8 @@ print("Hello World") // Me, too!
 Multi-line comments allow for greater context and readability of a concept or idea that your program is doing. It is also commonly used for metadata information like authorship and copyright information. In Swift, multi-line comments are made opened with `/*` and closed with `*/`.
 
 ```swift
-/* 
-   This space can be used to write notes to our future selves about ideas that we want 
+/*
+   This space can be used to write notes to our future selves about ideas that we want
    to implement and just haven't or if our algorithm isn't easily legible through
    the code, we can explain it here. This is especially important if we are part
    of a team separated by time and space and communication occurs here instead of an office.

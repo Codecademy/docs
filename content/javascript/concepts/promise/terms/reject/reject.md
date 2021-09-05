@@ -1,17 +1,15 @@
 ---
-Title: ".reject()"
-Description: "Returns a rejected Promise object with a given reason."
+Title: '.reject()'
+Description: 'Returns a rejected Promise object with a given reason.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a rejected `Promise` object with a given `reason`.
 
@@ -32,7 +30,7 @@ The `reason` can be most data types, including:
 A new Promise, `myPromise`, is rejected with an `Error` message by default. Lastly, the error message, `err.message`, is logged to the console through the catch-block.
 
 ```js
-const myPromise = Promise.reject(new Error("Promise rejected"));
+const myPromise = Promise.reject(new Error('Promise rejected'));
 
 myPromise.catch((err) => {
   console.log(err.message); // Output: Promise rejected

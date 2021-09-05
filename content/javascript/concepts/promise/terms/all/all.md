@@ -1,14 +1,14 @@
 ---
-Title: ".all()"
+Title: '.all()'
 Description: "Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an Array, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion."
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
@@ -35,7 +35,7 @@ const promiseB = new Promise((resolve, reject) => {
     resolve(144);
   } else {
     reject({
-      errorType: "TypeError",
+      errorType: 'TypeError',
       message: `Unexpected type - expected ${typeof (12 * 12)}.`,
     });
   }
@@ -49,7 +49,7 @@ Promise.all([promiseA, promiseB])
     console.log(`Promise.all Failed! \n${err.errorType}: ${err.message}`);
   })
   .finally(() => {
-    console.log("Operations for Promise.all() have finished.");
+    console.log('Operations for Promise.all() have finished.');
   });
 ```
 

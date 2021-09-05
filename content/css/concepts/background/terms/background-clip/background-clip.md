@@ -1,19 +1,17 @@
 ---
-Title: "background-clip"
-Description: "Defines the boundary within the element box at which the background is no longer drawn."
+Title: 'background-clip'
+Description: 'Defines the boundary within the element box at which the background is no longer drawn.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Background"
-  - "Box Model"
+  - 'Background'
+  - 'Box Model'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Defines the boundary within the element box at which the background is no longer drawn.
 

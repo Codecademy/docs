@@ -1,15 +1,15 @@
 ---
-Title: "🔁 Repeat While"
+Title: '🔁 Repeat While'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "While"
-  - "Loops"
-  - "Control Flow"
+  - 'While'
+  - 'Loops'
+  - 'Control Flow'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 The 🔁 statment repeats a code block while as long as the given condition is 👍 (true). And if the condition is never 👍 (false), the code block will be ignored and skipped.
@@ -34,4 +34,3 @@ It goes on and on and on
 It goes on and on and on
 ...
 ```
-

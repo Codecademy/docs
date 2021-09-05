@@ -1,17 +1,15 @@
 ---
-Title: ".finally()"
-Description: "Returns a new Promise object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what."
+Title: '.finally()'
+Description: 'Returns a new Promise object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a new `Promise` object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.
 
@@ -28,9 +26,9 @@ myPromiseObject.then(fulfilledPromiseCallback).finally(finalPromiseCallback);
 ```js
 const myPromise = new Promise((resolve, reject) => {
   if (2 + 2 === 4) {
-    resolve("Fulfilled");
+    resolve('Fulfilled');
   } else {
-    reject("Rejected");
+    reject('Rejected');
   }
 });
 
@@ -41,7 +39,7 @@ myPromise
   .catch((err) => {
     console.log(`${err.status} - ${err.errorType}: ${err.message}`);
   })
-  .finally(() => console.log("Operations have ended."));
+  .finally(() => console.log('Operations have ended.'));
 /*
   Output: 
   Fulfilled

@@ -1,19 +1,17 @@
 ---
-Title: ".insert()"
-Description: "Adds an item at a specified index in the list."
+Title: '.insert()'
+Description: 'Adds an item at a specified index in the list.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Adds an item at a specified index in the list.
 
@@ -34,9 +32,9 @@ To add an item at index 2 of `store_line` list:
 
 ```codebyte/python
 store_line = ['Karla', 'Maxium', 'Martim', 'Isabella']
- 
+
 store_line.insert(2, 'Vikor')
- 
-print(store_line) 
+
+print(store_line)
 # Output: ['Karla', 'Maxium', 'Vikor', 'Martim', 'Isabella']
 ```

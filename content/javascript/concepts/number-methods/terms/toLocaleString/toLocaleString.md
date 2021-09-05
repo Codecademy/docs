@@ -1,15 +1,15 @@
 ---
-Title: ".toLocaleString()"
-Description: "Converts a date to a string of its language-sensitivie form."
+Title: '.toLocaleString()'
+Description: 'Converts a date to a string of its language-sensitivie form.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `.toLocaleString()` method converts a date to a string of its language-sensitivie form.

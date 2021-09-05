@@ -1,19 +1,17 @@
 ---
-Title: "opacity"
-Description: "To measure of how transparent an element is."
+Title: 'opacity'
+Description: 'To measure of how transparent an element is.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Style"
-  - "Colors"
+  - 'Style'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 To measure of how transparent an element is.
 

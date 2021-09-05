@@ -1,18 +1,16 @@
 ---
-Title: ".map()"
-Description: "Creates a new array with the results of calling a function for every element in array."
+Title: '.map()'
+Description: 'Creates a new array with the results of calling a function for every element in array.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Creates a new array with the results of calling a function for every element in array.
 
@@ -34,7 +32,7 @@ Create a new array which doubles the values in `numbers`:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(value => value * 2);
+const doubled = numbers.map((value) => value * 2);
 
 console.log(doubled);
 // Output: [2, 4, 6, 8, 10]
@@ -43,13 +41,15 @@ console.log(doubled);
 Create an array of full names from the `students` array full of objects:
 
 ```js
-const students = [{first_name: 'Samantha', last_name: 'Jones'}, 
-                  {first_name: 'Hector', last_name: 'Gonzales'}, 
-                  {first_name: 'Jeremiah', last_name: 'Duncan'}]
+const students = [
+  { first_name: 'Samantha', last_name: 'Jones' },
+  { first_name: 'Hector', last_name: 'Gonzales' },
+  { first_name: 'Jeremiah', last_name: 'Duncan' },
+];
 
-const fullNames = students.map(student => {
+const fullNames = students.map((student) => {
   return `${student.first_name} ${student.last_name}`;
-})
+});
 
 console.log(fullNames);
 // Output: ['Samantha Jones', 'Hector Gonzales', 'Jeremiah Duncan']

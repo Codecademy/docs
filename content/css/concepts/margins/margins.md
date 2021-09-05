@@ -1,16 +1,16 @@
 ---
-Title: "Margins"
+Title: 'Margins'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Margin"
-  - "Box Model"
-  - "Properties"
-  - "Documentation"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Margin'
+  - 'Box Model'
+  - 'Properties'
+  - 'Documentation'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space.

@@ -1,14 +1,14 @@
 ---
-Title: "Math Methods"
+Title: 'Math Methods'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Arithmetic"
-  - "Methods"
-  - "For"
+  - 'Computer Science'
+Tags:
+  - 'Arithmetic'
+  - 'Methods'
+  - 'For'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The Java `Math` class provides several methods that allows us to work on math calculations with numbers.

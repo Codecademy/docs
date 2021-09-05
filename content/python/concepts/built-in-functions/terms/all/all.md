@@ -1,26 +1,24 @@
 ---
-Title: "all()"
-Description: "Returns True if every item in an iterable evaluates to True, otherwise, it returns False."
+Title: 'all()'
+Description: 'Returns True if every item in an iterable evaluates to True, otherwise, it returns False.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Booleans"
-  - "Dictionary"
-  - "Sets"
-  - "Strings"
-  - "Lists"
-  - "Tuples"
-  - "Iterators"
-  - "Functions"
-  - "Logic"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Booleans'
+  - 'Dictionary'
+  - 'Sets'
+  - 'Strings'
+  - 'Lists'
+  - 'Tuples'
+  - 'Iterators'
+  - 'Functions'
+  - 'Logic'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
- 
 
 Returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.
 
@@ -58,7 +56,7 @@ print(all(my_list))
 ```
 
 The integer `0` evaluates to `False`; however, all non-zero numbers and strings evaluate to `True`.
- 
+
 ```python
 my_list = [4, 3, 2, 1, 0]
 
@@ -73,7 +71,7 @@ print(all(my_list))
 
 ## Different Types of Iterables
 
-`all()` can be used on any iterable, such as a list, set, string, dictionary, or tuple. 
+`all()` can be used on any iterable, such as a list, set, string, dictionary, or tuple.
 
 ### Lists
 

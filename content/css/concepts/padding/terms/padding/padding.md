@@ -1,19 +1,17 @@
 ---
-Title: "padding"
-Description: "Shorthand property for padding-top, padding-bottom, padding-left and padding-right that sets the space between the content and margin of an element or for each side individually."
+Title: 'padding'
+Description: 'Shorthand property for padding-top, padding-bottom, padding-left and padding-right that sets the space between the content and margin of an element or for each side individually.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Padding"
-  - "Box Model"
+  - 'Padding'
+  - 'Box Model'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Shorthand property for `padding-top`, `padding-bottom`, `padding-left` and `padding-right` that sets the space between the content and margin of an element or for each side individually.
 

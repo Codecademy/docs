@@ -1,17 +1,15 @@
 ---
-Title: "<html>"
-Description: "Represents the entire HTML document."
+Title: '<html>'
+Description: 'Represents the entire HTML document.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 The `<html>` tag represents the entire HTML document.
 
