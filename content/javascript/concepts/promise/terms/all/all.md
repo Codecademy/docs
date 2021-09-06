@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an `Array`, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion.
+The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled promises. It takes an iterable object, such as an `Array`, that contains one or more promise objects. This is ideal when working with promises that depend on one another's completion.
 
 ## Syntax
 
@@ -19,11 +19,11 @@ The `.all()` method returns a new Promise that can be accessed as an array of re
 Promise.all(iterableObject);
 ```
 
-The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
+The `iterableObject` is usually an array of promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
 ## Example
 
-Working with two Promise objects, `promiseA` and `promiseB`:
+Working with two promise objects, `promiseA` and `promiseB`:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {

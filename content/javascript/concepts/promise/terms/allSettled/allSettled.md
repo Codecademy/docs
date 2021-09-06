@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.allSettled()` method returns a new Promise object that resolves to an array _after_ all Promises in `iterableObject` have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in `iterableObject`.
+The `.allSettled()` method returns a new Promise object that resolves to an array _after_ all promises in `iterableObject` have been resolved or rejected. This is ideal when working with multiple promises that are independent of one another's completion. Each element in the resolved array will be the result of the promises in `iterableObject`.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ The `.allSettled()` method returns a new Promise object that resolves to an arra
 Promise.allSettled(iterableObject);
 ```
 
-The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
+The `iterableObject` is usually an array of promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
 ## Example 1
 
@@ -33,7 +33,7 @@ Promise.allSettled([]).then((values) => {
 
 ## Example 2
 
-With an array of Promises:
+With an array of promises:
 
 ```js
 const promiseA = new Promise((resolve, reject) => {

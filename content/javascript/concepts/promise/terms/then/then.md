@@ -19,7 +19,7 @@ Returns a new `Promise` object.
 Promise.prototype.then(resolvedPromiseCallback, rejectedPromiseCallback);
 ```
 
-The `resolvedPromiseCallback` function handles any resolved data from the previously fulfilled promise. The other argument, `rejectedPromiseCallback`, is optional and executes if the previous Promise was rejected.
+The `resolvedPromiseCallback` function handles any resolved data from the previously fulfilled promise. The other argument, `rejectedPromiseCallback`, is optional and executes if the previous promise was rejected.
 
 ## Example
 

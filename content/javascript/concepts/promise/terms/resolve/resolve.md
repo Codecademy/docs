@@ -27,7 +27,7 @@ The `value` can be most data types, including:
 
 ## Example #1
 
-With non-Promise values:
+With non-promise values:
 
 ```js
 const promiseA = Promise.resolve(1);
@@ -43,7 +43,7 @@ console.log(promiseB);
 
 ## Example #2
 
-With Promise values:
+With promise values:
 
 ```js
 const innerPromise = new Promise((resolve, reject) => {

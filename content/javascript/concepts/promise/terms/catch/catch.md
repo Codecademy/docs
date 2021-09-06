@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections.
+Returns a new Promise related to a previously rejected promise in the chain. This is ideal for formatting error messages for potential promise rejections.
 
 ## Syntax
 

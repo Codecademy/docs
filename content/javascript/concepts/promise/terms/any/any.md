@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Iterates over an `iterableObject` of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
+Iterates over an `iterableObject` of promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
 
 ## Syntax
 
@@ -19,11 +19,11 @@ Iterates over an `iterableObject` of Promises and stops at the first one that fu
 Promise.any(iterableObject);
 ```
 
-The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
+The `iterableObject` is usually an array of promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
 ## Example #1
 
-If the `iterable` object is empty or all the Promises witin are rejected, an `AggregateError` is thrown.
+If the `iterable` object is empty or all the promises witin are rejected, an `AggregateError` is thrown.
 
 ```js
 Promise.any([])
@@ -39,7 +39,7 @@ Below is an array of `promises` contains 3 `Promise` objects.
 - 2 of them, `promiseA` and `promiseB`, will be rejected.
 - The other one, `promiseC`, will fulfill and resolve with a message.
 
-Using `Promise.all`, the value of the first successfully resolved Promise will be logged to the console.
+Using `Promise.all`, the value of the first successfully resolved promise will be logged to the console.
 
 ```js
 const promiseA = new Promise((resolve, reject) => {

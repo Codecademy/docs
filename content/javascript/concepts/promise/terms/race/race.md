@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Returns the first Promise in an `iterableObject` that is either resolved or rejected.
+Returns the first promise in an `iterableObject` that is either resolved or rejected.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ Promise.race(iterableObject);
 
 ## Example #1
 
-If the `iterableObject` is empty, then the returned Promise will be in "pending" forever and never resolve.
+If the `iterableObject` is empty, then the returned promise will be in "pending" forever and never resolve.
 
 ```js
 const emptyPromises = [];
