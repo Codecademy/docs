@@ -4,10 +4,11 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Objects'
   - 'Arrays'
   - 'Integers'
-  - 'Booleans'
   - 'Strings'
+  - 'Booleans'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
