@@ -33,7 +33,7 @@ Promise.race(emptyPromises).then((result) => {
 
 ## Example #2
 
-In the spirit of a race, ssing `setTimeout()` within two runners named `runnerA` and `runnerB`:
+In the spirit of a race, using `setTimeout()` within two runners named `runnerA` and `runnerB`:
 
 ```js
 const runnerA = new Promise((resolve, reject) => {

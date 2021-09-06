@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfulled promises. It takes an iterable object, such as an `Array`, that contains one or more promise objects. This is ideal when working with promises that depend on one another's completion.
+The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfilled promises. It takes an iterable object, such as an `Array`, that contains one or more promise objects. This is ideal when working with promises that depend on one another's completion.
 
 ## Syntax
 

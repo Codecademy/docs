@@ -23,7 +23,7 @@ The `iterableObject` is usually an array of promise objects. If the array is emp
 
 ## Example #1
 
-If the `iterable` object is empty or all the promises witin are rejected, an `AggregateError` is thrown.
+If the `iterable` object is empty or all the promises within are rejected, an `AggregateError` is thrown.
 
 ```js
 Promise.any([])
