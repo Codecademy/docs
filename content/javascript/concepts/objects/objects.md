@@ -67,7 +67,7 @@ objectName["propertyName"]
 person['lastName'];
 ```
 
-These would output:
+## Object Methods
 
 Object methods are actions that can be performed on objects.
 

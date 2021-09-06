@@ -62,6 +62,7 @@ To use the `createRangeIterator()`:
 const useCase = createRangeIterator(2, 8, 2);
 
 let result = useCase.next();
+
 while (!result.done) {
   console.log(result.value);
   result = useCase.next();
@@ -75,8 +76,4 @@ This will output:
 4
 6
 { value: 3, done: true }
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> Codecademy-main
