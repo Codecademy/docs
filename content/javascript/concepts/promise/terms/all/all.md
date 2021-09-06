@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.all()` method returns a new Promise that can be accessed as an array of resolved values of fulfilled promises. It takes an iterable object, such as an `Array`, that contains one or more promise objects. This is ideal when working with promises that depend on one another's completion.
+The `.all()` method returns a new Promise that can be accessed as an array of resolved values (fulfilled promises). It accepts an iterable object, such as an `Array`, and contains one or more promise objects. This is ideal when working with promises that depend on the completion of another promise.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ The `iterableObject` is usually an array of promise objects. If the array is emp
 
 Working with two promise objects, `promiseA` and `promiseB`:
 
-```js
+```codebyte/js
 const promiseA = new Promise((resolve, reject) => {
   resolve(23);
 });
@@ -51,11 +51,4 @@ Promise.all([promiseA, promiseB])
   .finally(() => {
     console.log('Operations for Promise.all() have finished.');
   });
-```
-
-The output would be:
-
-```plaintext
-Results from Promise.all(): [144,42]
-Operations for Promise.all() have finished.
 ```
