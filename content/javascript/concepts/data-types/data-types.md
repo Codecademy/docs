@@ -4,11 +4,11 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Objects'
-  - 'Arrays'
   - 'Integers'
   - 'Strings'
+  - 'Arrays'
   - 'Booleans'
+  - 'Objects'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -27,6 +27,8 @@ Data types are the classifications we give to the different kinds of data that w
 | `Symbol`    | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.         |
 | `Object`    | Collections of related data.                                                                                                                  |
 
-The first 7 of those types are considered primitive data types. They are the most basic data types in the language. Objects are a little more complex.
+The first 7 listed types are considered primitive data types. They are the most basic data types in the language. 
+
+Objects are slightly more complex. 
 
 At first, eight types may not seem like that many, but soon you’ll observe the world opens with possibilities once you start leveraging each one.
