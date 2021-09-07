@@ -23,13 +23,13 @@ Promise.race(iterableObject);
 
 If the `iterableObject` is empty, then the returned promise will be in "pending" forever and never resolve.
 
-Nothing will be logged to the console on the console in the codebyte below
+Nothing will be logged to the console from the code below:
 
-```js
+```codebyte/js
 const emptyPromises = [];
 
 Promise.race(emptyPromises).then((result) => {
-  console.log(result); // Nothing logged to the console
+  console.log(result);
 });
 ```
 
@@ -58,4 +58,11 @@ Promise.race(promises)
   .finally(() => {
     console.log('Operations for Promise.race() have finished.');
   });
+```
+
+This will output:
+
+```
+The winner is runnerA!
+Operations for Promise.race() have finished.
 ```

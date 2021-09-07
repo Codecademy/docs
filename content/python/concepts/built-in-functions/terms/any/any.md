@@ -28,7 +28,7 @@ Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`
 
 ```python
 print(any([True, 0, False]))
-// Output: True
+# Output: True
 ```
 
 ## Example 2
@@ -39,7 +39,7 @@ Use `any()` to check if there is a `True` statement in a dictionary:
 my_dict = {1 : "On"}
 
 print(any(my_dict))
-// Output: True
+# Output: True
 ```
 
 ## The Function

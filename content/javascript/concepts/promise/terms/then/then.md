@@ -1,6 +1,6 @@
 ---
 Title: '.then()'
-Description: 'Returns a new Promise object.'
+Description: 'Returns a new promise object.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Returns a new `Promise` object.
+Returns a new promise object.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ The `resolvedPromiseCallback` function handles any resolved data from the previo
 
 ## Example
 
-```js
+```codebyte/js
 const myPromise = new Promise((resolve, reject) => {
   if (2 + 2 === 3) {
     resolve('Success!');
@@ -40,7 +40,7 @@ myPromise.then(
     console.log(result);
   },
   (reason) => {
-    console.log(`${reason.errorType}: ${reason.message}`); // ArithmeticError: The numbers don't add up!
+    console.log(`${reason.errorType}: ${reason.message}`);
   }
 );
 ```

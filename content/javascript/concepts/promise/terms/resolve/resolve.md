@@ -1,6 +1,6 @@
 ---
 Title: '.resolve()'
-Description: 'Returns a new Promise object that turns into the value that was passed to the method.'
+Description: 'Returns a new promise object that turns into the value that was passed to the method.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Returns a new `Promise` object that turns into the value that was passed to the method.
+Returns a new promise object that turns into the value passed to the method.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ The `value` can be most data types, including:
 
 With non-promise values:
 
-```js
+```codebyte/js
 const promiseA = Promise.resolve(1);
 
 const promiseB = Promise.resolve({
@@ -58,11 +58,9 @@ const outerPromise = Promise.resolve(innerPromise);
 
 outerPromise
   .then((result) => {
-    console.log(result);
+    console.log(result); // Output: Success!
   })
   .catch((err) => {
     console.log(err);
   });
-
-// Output: Success!
 ```

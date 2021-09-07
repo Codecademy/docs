@@ -81,7 +81,7 @@ Promise.allSettled(promises)
 
 The output would be:
 
-```shell
+```
 { status: 'fulfilled', value: 23 }
 {
   status: 'rejected',
