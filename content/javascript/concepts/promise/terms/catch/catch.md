@@ -1,6 +1,6 @@
 ---
 Title: '.catch()'
-Description: 'Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections.'
+Description: 'Returns a new Promise related to a previously rejected promise in the chain. This is ideal for formatting error messages for potential promise rejections.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -23,9 +23,9 @@ The `rejectedPromiseCallback` function will have access to all `reject()` data i
 
 ## Example
 
-Inside the `brokenPromise` is a single `reject()` call with error information. It is then handled inside `.catch()`.
+Inside the `brokenPromise` is a single `reject()` call with error information. It is then handled inside the `catch()` method.
 
-```js
+```codebyte/js
 const brokenPromise = new Promise((resolve, reject) => {
   reject({
     errorType: 'Unknown error',
@@ -34,6 +34,6 @@ const brokenPromise = new Promise((resolve, reject) => {
 });
 
 brokenPromise.catch((err) => {
-  console.log(`${err.errorType}: ${err.message}`); // Unknown error: Something went wrong.
+  console.log(`${err.errorType}: ${err.message}`);
 });
 ```

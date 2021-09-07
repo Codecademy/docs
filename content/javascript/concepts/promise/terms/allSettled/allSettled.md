@@ -1,6 +1,6 @@
 ---
 Title: '.allSettled()'
-Description: "Returns a new Promise object that resolves to an array after all Promises in iterableObject have been resolved or rejected. This is ideal when working with multiple Promises that are independent of one another's completion. Each element in the resolved array will be the result of the Promises in iterableObject."
+Description: "Returns a new Promise object that resolves to an array after all promises in iterable object have been resolved or rejected. This is ideal when working with multiple promises that are independent of one another's completion. Each element in the resolved array will be the result of the promises in iterable object."
 Subjects:
   - 'Web Development'
 Tags:
@@ -25,9 +25,9 @@ The `iterableObject` is usually an array of promise objects. If the array is emp
 
 With an empty array
 
-```js
+```codebyte/js
 Promise.allSettled([]).then((values) => {
-  console.log(values); // Ouput: []
+  console.log(values);
 });
 ```
 

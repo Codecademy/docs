@@ -1,6 +1,6 @@
 ---
 Title: '.any()'
-Description: 'Iterates over an iterableObject of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned Promise object.'
+Description: 'Iterates over an iterable object of promises and stops at the first one that fulfills. The resulting value from that fulfilled promise is resolved in the returned Promise object.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Iterates over an `iterableObject` of promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
+Iterates over an `iterableObject` of promises and stops at the first one that fulfills. The resulting value from that fulfilled promise is resolved in the returned `Promise` object.
 
 ## Syntax
 
@@ -25,16 +25,16 @@ The `iterableObject` is usually an array of promise objects. If the array is emp
 
 If the `iterable` object is empty or all the promises within are rejected, an `AggregateError` is thrown.
 
-```js
+```codebyte/js
 Promise.any([])
   .then((values) => console.log(values))
-  .catch((err) => console.log(err)))// Output: [AggregateError: All promises were rejected]
+  .catch((err) => console.log(err))
   .finally(() => console.log("Operations on Promise.any() have finished."))
 ```
 
 ## Example #2
 
-Below is an array of `promises` contains 3 `Promise` objects.
+Below is an array of `promises` that contains 3 `Promise` objects.
 
 - 2 of them, `promiseA` and `promiseB`, will be rejected.
 - The other one, `promiseC`, will fulfill and resolve with a message.

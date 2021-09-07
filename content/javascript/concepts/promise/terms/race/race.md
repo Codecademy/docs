@@ -1,6 +1,6 @@
 ---
 Title: '.race()'
-Description: 'Returns the first Promise in an iterableObject that is either resolved or rejected.'
+Description: 'Returns the first promise in an iterable object that is either resolved or rejected.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -22,6 +22,8 @@ Promise.race(iterableObject);
 ## Example #1
 
 If the `iterableObject` is empty, then the returned promise will be in "pending" forever and never resolve.
+
+Nothing will be logged to the console on the console in the codebyte below
 
 ```js
 const emptyPromises = [];

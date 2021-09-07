@@ -1,6 +1,6 @@
 ---
 Title: '.all()'
-Description: "Returns a new Promise that can be accessed as an array of resolved values of fulfulled Promises. It takes an iterable object, such as an Array, that contains one or more Promise objects. This is ideal when working with Promises that depend on one another's completion."
+Description: "Returns a new Promise that can be accessed as an array of resolved values of fulfulled promises. It takes an iterable object, such as an array, and contains one or more promise objects. This is ideal when working with promises that depend on the completion of another promise."
 Subjects:
   - 'Web Development'
 Tags:

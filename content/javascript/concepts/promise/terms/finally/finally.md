@@ -1,6 +1,6 @@
 ---
 Title: '.finally()'
-Description: 'Returns a new Promise object after the previous Promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.'
+Description: 'Returns a new Promise object after the previous promise in the chain has been resolved or rejected. This last part of the chain will execute no matter what.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -23,7 +23,7 @@ myPromiseObject.then(fulfilledPromiseCallback).finally(finalPromiseCallback);
 
 ## Example
 
-```js
+```codebyte/js
 const myPromise = new Promise((resolve, reject) => {
   if (2 + 2 === 4) {
     resolve('Fulfilled');
@@ -40,9 +40,4 @@ myPromise
     console.log(`${err.status} - ${err.errorType}: ${err.message}`);
   })
   .finally(() => console.log('Operations have ended.'));
-/*
-  Output: 
-  Fulfilled
-  Operations have ended.
-  */
 ```
