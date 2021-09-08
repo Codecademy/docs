@@ -1,5 +1,6 @@
 ---
 Title: 'Conditionals'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. An if statement executes a block of code when a specified boolean expression is evaluated as true; otherwise, the block of code will be skipped. java if (berries > 5) { System.out.println("More than a handful of berries."); }'
 Subjects:
   - 'Computer Science'
 Tags:

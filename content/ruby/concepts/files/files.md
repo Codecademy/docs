@@ -1,5 +1,6 @@
 ---
 Title: 'Files'
+Description: 'The File class is used for working with file objects in Ruby. To create a new File object, use the .new() method and pass in: - A string name for the new file - A mode to indicate which operations can be done to the file Common modes include the following: | Modes | Description | | ----- | ------------------------------------------------------------------------------------------------------------ |'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

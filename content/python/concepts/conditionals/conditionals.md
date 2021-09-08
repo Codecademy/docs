@@ -1,5 +1,6 @@
 ---
 Title: 'Conditionals'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is True or False. If it’s True, we can tell our program to do one thing — we can even account for False to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. The Python if statement is used to determine the execution of code based on the evaluation of a Boolean expression. - If the if statement expression evaluates to True, then the indented code following the statement is executed. - If the expression evaluates to False then the indented code following the if statement is skipped and the program executes the next line of code which is indented at the same level as the if statement. py test_value = 100'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

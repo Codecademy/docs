@@ -1,5 +1,6 @@
 ---
 Title: 'Margins'
+Description: 'Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space. css p { border: 1px solid aquamarine; margin: 20px; } '
 Subjects:
   - 'Web Development'
   - 'Web Design'

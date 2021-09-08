@@ -1,5 +1,6 @@
 ---
 Title: 'Requests'
+Description: 'XMLHttpRequest is a built-in browser object that allows to make HTTP requests in JavaScript. It is basically used to fetch data from APIs. There’s another, modern method fetch, that somewhat deprecates XMLHttpRequest but the focus of this post will be on XMLHttpRequest only. XMLHttpRequest can be used in two modes: synchronous and asynchronous. There are 4 steps to do this: 1. Create XMLHttpRequest: js'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

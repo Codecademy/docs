@@ -1,5 +1,6 @@
 ---
 Title: 'Selectors'
+Description: 'CSS selectors are used to "find" (or select) the HTML elements you want to style. The element selector selects HTML elements based on the element name. Here, all  elements on the page will be center-aligned, with a red text color: css p { text-align: center; color: red;'
 Subjects:
   - 'Web Development'
   - 'Web Design'

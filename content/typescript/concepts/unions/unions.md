@@ -1,5 +1,6 @@
 ---
 Title: 'Unions'
+Description: 'Some values may be one of multiple possible types. TypeScript refers to these "either or" types as type unions: referring to the set theory concept of being a "union" of multiple possible types. A union type is written as a series of other types with a | vertical pipe between them. For example, the following logEither function takes in a value that can be either a number or string: ts function logEither(value: number | string) { console.log(value);'
 Subjects:
   - 'Web Development'
 Tags:

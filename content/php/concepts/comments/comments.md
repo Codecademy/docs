@@ -1,5 +1,6 @@
 ---
 Title: 'Comments'
+Description: 'Comments are text placed inside code that is not executed. They are intended as documentation or explanation of the code they are a part of. PHP marks comments in three different ways: - // will mark a comment from where it appears until the end of the line (or code block). - # will also mark a comment from where it appears until the end of the line (or code block). - Multi-line comments are marked by / ... / with everything in between marked as a comment. Single line comments extend to the end of the line, or the end of the PHP block. ?> will not be commented out, instead, ?> will terminate the comment.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

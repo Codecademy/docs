@@ -1,5 +1,6 @@
 ---
 Title: 'Arrays'
+Description: 'Arrays in TypeScript are considered to be "generic" across a single type of value. Once an array is known to contain a particular type of value, only that type is allowed in the array. Array types can be inferred from initial values in the array. In this example, the vowels array is inferred to consist of strings, and will allow pushing only strings: ts const vowels = [a, e, i, o, u]; vowels.push(y); // Ok'
 Subjects:
   - 'Web Development'
 Tags:
