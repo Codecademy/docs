@@ -51,31 +51,31 @@ To give an example, an entry titled "What is Three.js?" should have the file nam
 - All text should be written in Markdown
   - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
 - Each subsection should begin with a heading of size h2 (i.e. preceded by `##`)
-- All in-line code should be delineated by single backticks (`)
+- All in-line code should be delineated by single backticks (\`)
 
 #### Code Blocks
 
 Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 
-All code blocks should be delineated by triple backticks (```)
+All code blocks should be delineated by triple backticks (\`\`\`)
 
-- C: ```c
-- C#: ```cs
-- C++: ```cpp
-- CSS: ```css
-- Error: ```error
-- Emojicode: ```emojic
-- HTML: ```html
-- Java: ```java
-- JavaScript: ```js
-- PHP: ```php
-- Pseudo: ```pseudo
-- Python: ```py
-- R: ```r
-- Ruby: ```rb
-- Sass: ```scss
-- Shell/Program Output: ```shell
-- SQL: ```sql
+- C: \`\`\`c
+- C#: \`\`\`cs
+- C++: \`\`\`cpp
+- CSS: \`\`\`css
+- Error: \`\`\`error
+- Emojicode: \`\`\`emojic
+- HTML: \`\`\`html
+- Java: \`\`\`java
+- JavaScript: \`\`\`js
+- PHP: \`\`\`php
+- Pseudo: \`\`\`pseudo
+- Python: \`\`\`py
+- R: \`\`\`r
+- Ruby: \`\`\`rb
+- Sass: \`\`\`scss
+- Shell/Program Output: \`\`\`shell
+- SQL: \`\`\`sql
 
 #### Codebytes: Runnable Code Blocks
 
@@ -83,7 +83,7 @@ Codecademy has a new feature called [Codebytes](https://www.codecademy.com/codeb
 
 Codebytes is a great tool to incorporate into some entries (for instance, if you want learners to to think about what a code block will output before they see it in action, or if you want to show a learner how a function that incorporates randomization produces different output each time).
 
-The syntax is simple: You just add `codebyte/` between the ` ``` ` and the language name in the first line of a normal code block.
+The syntax is simple: You just add `codebyte/` between the \`\`\` and the language name in the first line of a normal code block.
 
 Here's an example for JavaScript:
 
@@ -112,11 +112,10 @@ Currently, Codebytes is set to support the following languages:
 | Variable Name    | Description                                                                                                                                                                                                                                                                                                                                                                     | Example                                                                                             |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `Title`          | The title of the entry. This will be displayed on the page at the top.                                                                                                                                                                                                                                                                                                          | Title: "What is OOP?"                                                                               |
+| `Description`    | A brief description (ideally under 150 characters) used in search engine results and content previews                                                                                                                                                                                                                                                                                                          | Description: "A brief description of OOP"                                                                               |
 | `Subjects`       | Languages and technical fields that the entry relates to. We're storing all of our Subjects in the [subjects.md file](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). Please only use Subjects from that list.<br /> - We aim to include an average of 1-2 subjects (and always at least 1!) with every entry.                                         | Subjects:<br /> - "Computer Science"<br /> - "Game Development"                                     |
 | `Tags`           | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3-4 tags with every entry. | Tags:<br /> - "React"<br /> - "URL"<br /> - "Strings"<br />                                         |
 | `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry.<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path).                                                                             | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |
-
-Terms entries also has a `Description` metadata variable for SEO purposes. For example, take a look at a [raw file here](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md).
 
 ### General Writing Tips:
 
