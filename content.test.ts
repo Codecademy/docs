@@ -127,7 +127,9 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
       attributes['Codecademy Hub Page'] !== undefined &&
       typeof attributes['Codecademy Hub Page'] !== 'string'
     ) {
-      expect('Expected "Codecademy Hub Page" to be a string or undefined').toBe('');
+      expect('Expected "Codecademy Hub Page" to be a string or undefined').toBe(
+        ''
+      );
     }
 
     testOptionalStringArray('CatalogContent', attributes.CatalogContent);
