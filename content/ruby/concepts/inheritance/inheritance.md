@@ -1,5 +1,6 @@
 ---
 Title: 'Inheritance'
+Description: 'In Ruby, inheritance describes the relation between classes. Inheritance is expressed when the < is used to connect the parent class, Animal, with the child class, Dog: rb class Animal def initialize(species) @species = species end'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

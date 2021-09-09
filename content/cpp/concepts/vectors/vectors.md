@@ -1,5 +1,6 @@
 ---
 Title: 'Vectors'
+Description: 'A vector is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type. To use vectors, it is necessary to #include the vector library. cpp  During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed. cpp std::vector name;'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

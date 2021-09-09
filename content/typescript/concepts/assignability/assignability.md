@@ -1,5 +1,6 @@
 ---
 Title: 'Assignability'
+Description: 'Assignability is the concept of whether a type may be used in a place where another type is needed. TypeScript perfoms assignability checks whenever a value is being placed into another location, such as: - Assigning values to variables - Passing arguments to functions In this snippet of code, TypeScript sees that the spooky variable is initially assigned a boolean value, so it believes the spooky variable should always be type boolean. Assigning a variable of type boolean later on is allowed, as a type is assignable to itself, but a string assignment is not allowed: ts'
 Subjects:
   - 'Web Development'
 Tags:

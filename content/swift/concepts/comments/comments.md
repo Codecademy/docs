@@ -1,5 +1,6 @@
 ---
 Title: 'Comments'
+Description: 'Comments in represent text that is useful to the programmer or developement team. Think of them as notes or reminders to yourself of important concepts or ideas that need a little explaining above the syntax of the raw code. In Swift there are two kinds of comments: single-line comments and multi-line comments. These comments will be completely ignored by the compiler at compile-time. Famous software engineer Martin Fowler once wrote, > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." In Swift, as in many other languages, single line comments are prefaced with two consecutive forward slashes (//). They dont have to be their own line, single line comments can be appended at the end of a line to give more context. swift // I am a single-line comment!'
 Subjects:
   - 'iOS'
   - 'Mobile Development'

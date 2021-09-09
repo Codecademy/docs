@@ -1,5 +1,6 @@
 ---
 Title: 'Links'
+Description: 'In Markdown, a link is created by enclosing the link text in square brackets Link text] and then following it immediately with the URL in parentheses (https://website-name.com). markdown [Link text  For example: markdown We just launched Codecademy Docs on Product Hunt!'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
