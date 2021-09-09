@@ -1,5 +1,6 @@
 ---
 Title: 'Background'
+Description: 'The CSS background properties are used to add background wallpaper visuals for HTML elements.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

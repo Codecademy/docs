@@ -1,5 +1,6 @@
 ---
 Title: 'Comments'
+Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code, or to prevent execution of SQL statements. Single line comments start with --. Any text between -- and the end of the line will be ignored (will not be executed). The following example uses a single-line comment as an explanation: sql -- Select all: SELECT * FROM customers;'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

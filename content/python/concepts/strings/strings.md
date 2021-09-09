@@ -1,5 +1,6 @@
 ---
 Title: 'Strings'
+Description: 'A string is a sequence of characters contained within a pair of single quotes () or double quotes("). They provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces. py message1 = "I am a string" message2 = I am also a string  Other data types such as integers, doubles and booleans, can also be strings as long as they are wrapped in quotes: All of the below are strings:'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

@@ -1,5 +1,6 @@
 ---
 Title: 'Tables'
+Description: 'In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows. | Name | Location | Category | Founded | CEO | Info | | :------------: | :------------: | :-------------: | :-----: | :---------------: | :-------------------------------: | | Pied Piper | Silicon Valley | Cloud Computing | 2014 | Richard Hendricks | A Middle-Out Compression Solution | | Hooli | Silicon Valley | Enterprise | 1997 | Gavin Bensen | Hooli is About People | | Raviga Capital | Silicon Valley | Venture Capital | 2012 | Peter Gregory | Share Only in Success | | Aviato | Silicon Valley | Travel | 2006 | Erlich Bachman | Software Aggregation Program |'
 Subjects:
   - 'Web Development'
 Tags:

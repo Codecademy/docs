@@ -1,5 +1,6 @@
 ---
 Title: 'Substring'
+Description: 'The .substring() method returns part of a string. If given two arguments, they are the start and end indexes of the characters returned. If given one argument, it returns characters from that point to the end of the string. javascript // Returns characters from startIndex to end of string string.substring(startIndex); // Returns characters from startIndex to endIndex string.substring(startIndex, endIndex); '
 Subjects:
   - 'Web Development'
   - 'Computer Science'

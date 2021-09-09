@@ -1,5 +1,6 @@
 ---
 Title: 'What is a Parameter?'
+Description: 'A parameter is the name of a variable passed into a function. Parameters allow functions to accept inputs. An argument, on the other hand, is the actual value of the variable (also known as the parameter) passed into a function. Suppose we have a function called tripleThis(): js function tripleThis(x) { return x * 3; } tripleThis(6);'
 Subjects:
   - 'Computer Science'
   - 'Web Development'

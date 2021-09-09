@@ -1,5 +1,6 @@
 ---
 Title: 'Arrays'
+Description: 'An array is a variable that can hold more than one value. Arrays in PHP are stored as value pairs that in other languages would be called a dictionary or a hashtable. Keys can be strings or integers. There are several methods of declaring an array in PHP. The array() function can be used, either with key-value pairs, or with values alone. Single brackets, [...] can also be used in place of the array() keyword. If any key value is omitted, the key will be found by incrementing the largest prior integer key. If a key is repeated, the new value will overwrite the prior key. php  "one", "item 2" => "two", "item 3" => "three", ); echo $array1["item 1"], ";", $array1["item 2"], ";", $array1["item 3"];'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

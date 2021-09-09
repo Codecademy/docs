@@ -1,5 +1,6 @@
 ---
 Title: 'Functions'
+Description: 'JavaScript functions take in zero or more parameters and return some kind of value. TypeScript will infer the types of both of those areas when possible, and allows to add type declarations on both of them. The types of function parameters work similarly to variable declarations. If the parameter has a default value, it will take on the type of that value. Otherwise you may declare the type of that parameter by adding a type annotation after its name. Here, the logAgeAndName() function explicitly declares age to be of type number, while name is inferred to be of type string from its default value: ts'
 Subjects:
   - 'Web Development'
 Tags:

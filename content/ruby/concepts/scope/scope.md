@@ -1,5 +1,6 @@
 ---
 Title: 'Scope'
+Description: 'In Ruby, variables have a scope that outlines what other variables and methods are available to them versus which ones are not. There are different levels of scope: - Class-level - Instance-level - Global-level - Local-level Variables defined at the class-level scope are usually marked with @@. They are available for use anywhere within the class block or any sub-class blocks: rb'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
