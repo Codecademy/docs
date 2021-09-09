@@ -1,5 +1,6 @@
 ---
 Title: 'Links'
+Description: 'The anchor element  is used to link to another page or to a certain part of the page if you use its id. And the  element defines a link between a document and an external resource.  links are visible to the end users, whereas  links are not. The  anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference attribute, href. The href determines the location the anchor element points to. html  Visit this site'
 Subjects:
   - 'Web Development'
   - 'Web Design'

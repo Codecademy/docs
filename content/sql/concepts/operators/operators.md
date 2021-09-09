@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'SQL operators are unique keywords used in the WHERE clause of a statement to perform arithmetic, comparison, and logical operations. Arithmetic operators are used to perform arithmetic on numeric types: - +: Addition - -: Subtraction - *: Multiplication - /: Division - %: Modulo (remainder)'
 Subjects:
   - 'Data Science'
   - 'Computer Science'

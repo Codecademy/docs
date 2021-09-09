@@ -1,5 +1,6 @@
 ---
 Title: 'Emphasis'
+Description: 'Emphasis can be added by making text bold or italic. To bold text, add two asterisks  or underscores __ before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
