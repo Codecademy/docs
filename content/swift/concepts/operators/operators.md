@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'Operators are unique characters or phrases that Swift uses to manipulate and validate values. Swift was specifically designed to enhance the operators from several programming languages to create more capability with less code for the programmer. The assignment operator = in Swift is the same as in most other languages and serves the same purpose. It is used to initializae or reassign a variable to some value. In Swift, unlike some other high level programming languages like C or Java, the assignment operator does not return any values. swift var a = 5 // When we reference variable a, it returns the value int: 5. let z = (a = 6) // Compile warning that b is of type () "'
 Subjects:
   - 'iOS'
   - 'Mobile Development'

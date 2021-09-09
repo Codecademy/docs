@@ -1,5 +1,6 @@
 ---
 Title: 'Functions'
+Description: 'Functions are blocks of code that can be repeatedly called by other code when it executes. A function is not called when it is defined, but only when another part of the code executes the function. The syntax for a user defined function in PHP is similar to other languages: php function functionName(parameters) { code to execute; }'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

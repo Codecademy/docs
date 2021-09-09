@@ -1,5 +1,6 @@
 ---
 Title: 'Lists'
+Description: 'In Markdown, items can be organized into ordered and unordered lists. To create an ordered list, add numbers followed by periods. markdown 1. 🌡 Preheat oven to 325°F 2. 🍪 Drop cookie dough 3. ⏰ Bake for 15 min '
 Subjects:
   - 'Developer Tools'
   - 'Web Development'

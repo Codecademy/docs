@@ -1,5 +1,6 @@
 ---
 Title: 'Window Functions'
+Description: 'A window function performs a calculation over the inputted column and then returns the calculated value for each row. Window functions can be identified by their use of the OVER clause. In the simplest syntactic example, a function can be preformed over a given column as shown below: sql SELECT functionname(column1name) OVER() FROM tablename;  An ORDER BY clause can be used to determine in which direction the function should be calculated.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'

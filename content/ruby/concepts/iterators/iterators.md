@@ -1,5 +1,6 @@
 ---
 Title: 'Iterators'
+Description: 'Iterators are used to do one thing multiple times. They are used in tandem with collections (Hashes, Arrays, etc...). A collection is an object that stores a group of data members. Returns all elements in a range, array or hash. Values are returned in the order they are stored in the collection. ruby letters = [C, o, d, e, c, a, d, e, m, y] letters.each do|letter| puts letter end'
 Subjects:
   - 'Web Development'
   - 'Web Design'

@@ -1,5 +1,6 @@
 ---
 Title: 'Classes'
+Description: 'A class is a definition of the properties and methods of a particular type of object. When a class is used to define a new object, the resultant object is referred to as an instance of that class. In a PHP class definition, properties are variables, methods are functions. php <?php class Car { // Properties'
 Subjects:
   - 'Computer Science'
   - 'Web Development'

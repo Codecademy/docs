@@ -1,5 +1,6 @@
 ---
 Title: 'Exceptions'
+Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if you try to access an index outside the allowable bounds. codebyte/cpp std::string getString(std::string values[], int index) { return values[index]; } int main() {'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

@@ -1,5 +1,6 @@
 ---
 Title: 'State'
+Description: 'The state object is where we store data in a component that is expected to change over time. When the state object changes, the component re-renders. Props are passed down by parent components, whereas state is created and maintained by the component itself. The state object is initialized in the components constructor(): js class Car extends React.Component { constructor(props) { super(props);'
 Subjects:
   - 'Web Development'
 Tags:

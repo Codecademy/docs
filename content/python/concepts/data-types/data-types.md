@@ -1,5 +1,6 @@
 ---
 Title: 'Data Types'
+Description: 'Python is a strongly typed language. Strongly typed means that the data type of a value doesnt change in unexpected ways. py codecademy = 575 codecademy = "575 broadway"  After line 1, codecademy is an int. After line 2, codecademy is a str. Here are Pythons built-in data types:'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

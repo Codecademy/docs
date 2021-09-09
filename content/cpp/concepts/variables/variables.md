@@ -1,5 +1,6 @@
 ---
 Title: 'Variables'
+Description: 'A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data. To create a variable, you must specify the type and assign it a value: pseudo type name = value;  So to create a variable called score of type int and assign it the value 0: cpp'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

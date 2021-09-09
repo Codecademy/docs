@@ -1,5 +1,6 @@
 ---
 Title: 'Classes'
+Description: 'Classes are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data. It serves as a blueprint or template for the objects, or "instances" of the class. In Python, classes are defined using the class keyword. py class Animal: def init(self, name, leg_count): self.name = name'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
