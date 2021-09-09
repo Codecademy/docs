@@ -24,7 +24,7 @@ num.toFixed(digits);
 
 ## Example
 
-Converting number to a string:
+Converting a number to a string:
 
 ```js
 const x = 5;

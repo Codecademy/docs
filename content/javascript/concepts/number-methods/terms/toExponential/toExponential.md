@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toExponential()` method converts a number to a string of its exponetial form.
+The `.toExponential()` method converts a number to a string of its exponential form.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ num.toExponential(digits);
 
 ## Example
 
-Converting number to a string:
+Converting a number to a string:
 
 ```js
 const x = 420;

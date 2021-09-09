@@ -21,7 +21,7 @@ myPromiseObject.catch(rejectedPromiseCallback);
 
 The `rejectedPromiseCallback` function will have access to all `reject()` data inside of `myProjectObject`.
 
-## Example
+## Codebyte Example
 
 Inside the `brokenPromise` is a single `reject()` call with error information. It is then handled inside the `catch()` method.
 

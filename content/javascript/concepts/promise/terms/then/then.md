@@ -21,7 +21,7 @@ Promise.prototype.then(resolvedPromiseCallback, rejectedPromiseCallback);
 
 The `resolvedPromiseCallback` function handles any resolved data from the previously fulfilled promise. The other argument, `rejectedPromiseCallback`, is optional and executes if the previous promise was rejected.
 
-## Example
+## Codebyte Example
 
 ```codebyte/js
 const myPromise = new Promise((resolve, reject) => {

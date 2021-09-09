@@ -21,7 +21,7 @@ myPromiseObject.then(fulfilledPromiseCallback).finally(finalPromiseCallback);
 
 `.finally()` can be used with or without `.then()` and/or `.catch()`.
 
-## Example
+## Codebyte Example
 
 ```codebyte/js
 const myPromise = new Promise((resolve, reject) => {

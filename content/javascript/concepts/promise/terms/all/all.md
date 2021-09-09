@@ -21,7 +21,7 @@ Promise.all(iterableObject);
 
 The `iterableObject` is usually an array of promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
-## Example
+## Codebyte Example
 
 Working with two promise objects, `promiseA` and `promiseB`:
 

@@ -21,9 +21,9 @@ Promise.allSettled(iterableObject);
 
 The `iterableObject` is usually an array of promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
-## Example 1
+## Codebyte Example
 
-With an empty array
+With an empty array:
 
 ```codebyte/js
 Promise.allSettled([]).then((values) => {
@@ -31,7 +31,7 @@ Promise.allSettled([]).then((values) => {
 });
 ```
 
-## Example 2
+## Example
 
 With an array of promises:
 

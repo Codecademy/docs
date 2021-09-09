@@ -25,7 +25,7 @@ The `reason` can be most data types, including:
 - strings
 - objects ( ones of type `Error` are recommended for improved error-catching)
 
-## Example
+## Codebyte Example
 
 A new promise, `myPromise`, is rejected with an `Error` message by default. Lastly, the error message, `err.message`, is logged to the console through the catch-block.
 

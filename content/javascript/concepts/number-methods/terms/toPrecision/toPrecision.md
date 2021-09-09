@@ -1,6 +1,6 @@
 ---
 Title: '.toPrecision()'
-Description: 'Convert a number to a string of its specificied precision form.'
+Description: 'Convert a number to a string of its specified precision form.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toPrecision()` method converts a number to a string of its specificied precision form.
+The `.toPrecision()` method converts a number to a string of its specified precision form.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ num.toPrecision(precision);
 
 ## Examples
 
-Converting number to a string:
+Converting a number to a string:
 
 ```js
 const pi = 3.14159;

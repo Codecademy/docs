@@ -25,7 +25,7 @@ The `value` can be most data types, including:
 - strings
 - objects (even other `Promise` objects)
 
-## Example #1
+## Codebyte Example
 
 With non-promise values:
 
@@ -41,7 +41,7 @@ console.log(promiseA);
 console.log(promiseB);
 ```
 
-## Example #2
+## Example
 
 With promise values:
 

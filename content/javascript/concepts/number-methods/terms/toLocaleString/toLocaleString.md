@@ -1,6 +1,6 @@
 ---
 Title: '.toLocaleString()'
-Description: 'Converts a date to a string of its language-sensitivie form.'
+Description: 'Converts a date to a string of its language-sensitive form.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toLocaleString()` method converts a date to a string of its language-sensitivie form.
+The `.toLocaleString()` method converts a date to a string of its language-sensitive form.
 
 ## Syntax
 
@@ -20,12 +20,12 @@ The `.toLocaleString()` method converts a date to a string of its language-sensi
 num.toLocaleString(locales, option);
 ```
 
-- `locales` (optional) sets the language convention.
-- `options` (optional) customized the behavior.
+- `locales` (optional): sets the language convention.
+- `options` (optional): customizes the behavior.
 
 ## Example
 
-Converting number to a string:
+Converting a number to a string:
 
 ```js
 const x = 5;
