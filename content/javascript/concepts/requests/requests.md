@@ -22,59 +22,59 @@ Requests are used to fetch data from API's.
 
 ### Asynchronous Method
 
-Three steps are required:
+There are 4 steps to do this:
 
 1. Create `XMLHttpRequest`:
 
-```js
-let xhr = new XMLHttpRequest();
-```
+   ```js
+   let xhr = new XMLHttpRequest();
+   ```
 
-The constructor has no arguments.
+   The constructor has no arguments.
 
-2. Initialize the XHR object:
+2. Initialize it:
 
-```js
-xhr.open(method, URL, [async, user, password]);
-```
+   ```js
+   xhr.open(method, URL, [async, user, password]);
+   ```
 
-This method specifies the main parameters of the request:
+   This method specifies the main parameters of the request:
 
-- `method`: A HTTP request method; common methods are `"GET"` and `"POST"`.
-- `URL`(Uniform Resource Locator): A web address to request a string or URL object.
-- `async`: If explicitly set to `false`, then the request is synchronous.
-- `user`, `password`: login and password for basic HTTP auth (if required).
+   - `method`: HTTP-method. Usually `"GET"` or `"POST"`.
+   - `URL`: The URL to request, a string, can be URL object.
+   - `async`: If explicitly set to `false`, then the request is synchronous.
+   - `user`, `password`: login and password for basic HTTP auth (if required).
 
-**Note**: The `open` call, contrary to its name, does not open the connection. It only configures the request. The network activity starts with the call of `send`.
+   Please note that `open` call, contrary to its name, does not open the connection. It only configures the request, but the network activity only starts with the call of `send`.
 
-3. Send it out:
+3. Send it out.
 
-```js
-xhr.send([body]);
-```
+   ```js
+   xhr.send([body]);
+   ```
 
-This method opens up the connection and sends a request to the server. The optional body parameter contains the request `body`.
+   This method opens up the connection and sends the request to server. The optional body parameter contains the request `body`.
 
-Some request methods like `GET` do not have a `body`. And others, like `POST`, use `body` to send the data to the server.
+   Some request methods like `GET` do not have a `body`. And some of them like `POST` use `body` to send the data to the server.
 
 4. Listen to xhr events for response.
 
-These three events are most widely used:
+These three events are the most widely used:
 
 - `load`: When the request is complete and the response is fully downloaded.
 - `error`: When the request couldn’t be made successfully, For example, network down or invalid URL.
 - `progress`: Triggers periodically while the response is being downloaded, reports how much has been downloaded.
 
 ```js
-xhr.onload = function() {
+xhr.onload = function () {
   alert(`Progress: ${xhr.status} ${xhr.response}`);
 };
 
-xhr.onerror = function() {
+xhr.onerror = function () {
   alert(`Network Error Occured`);
 };
 
-xhr.onprogress = function(event) {
+xhr.onprogress = function (event) {
   // event.loaded - how many bytes downloaded
   // event.lengthComputable = true if the server sent Content-Length header
   // event.total - total number of bytes (if lengthComputable)
