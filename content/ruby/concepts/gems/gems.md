@@ -1,5 +1,6 @@
 ---
 Title: 'Gems'
+Description: 'In Ruby, gems are open-source Ruby libraries or applications that lend extra utilities to other applications. Each gem is composed of: - Source code (including tests) - Documentation (with metadata including name, version and platform) - A gemspec file holding all Gem-related metadata. There is a registry of gems on Rubygems.org for reference, download and publishing of individual gems. To install gems to the local machine: '
 Subjects:
   - 'Web Development'
   - 'Computer Science'

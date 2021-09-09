@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'Emojicode supports arithmetic operators for: - ➕: addition - ➖: subtraction - ✖️: multiplication - ➗: division - 🚮: modulo (divides and gives the remainder) For example:'
 Subjects:
   - 'Computer Science'
 Tags:

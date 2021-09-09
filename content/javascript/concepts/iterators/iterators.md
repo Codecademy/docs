@@ -1,5 +1,6 @@
 ---
 Title: 'Iterators'
+Description: 'Iterators are used to loop over a group of data members, or a collection. An iterator is an object that implements the iteration protocols. Many built-in data types (Strings, Arrays, Maps, Sets, etc.) have an iterator property that make them iterable. All iterable objects implement the @@iterator method. In other words, an object must have or inherit, via its prototype chain, the @@iterator property key. When an object is to be iterated, the @@iterator method is called without any arguments, and the returned iterator obtains the values or elements to be looped through. The iterator protocol, by definition, implements the next() method and returns an object with at least two properties: - done is a boolean that determines whether the sequence has been completed or consumed. Its value is false if incomplete and true otherwise. - value is any type of value the iterator returns.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

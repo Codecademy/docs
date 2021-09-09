@@ -1,5 +1,6 @@
 ---
 Title: 'Variables'
+Description: 'The Swift programming language allows you to store values in two types of containers, var for variables and let for constants. As the names imply, a variables value can change, or be reassigned, later in the program while a constants value cannot. It is a best practice to use constants as much as possible, this will help prevent you from accidentally reassigning values later on without meaning to. > Once a variable or constants data type has been established, whether explicitly declared or inferred by the compiler, it cannot be changed and the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and a constant cannot be converted into a variable. Variables and constants can be declared with or without initialization on the same line, however you cannot declare an uninitialized variable without including the type annotation. This makes sense considering that the compiler, when it looks over the code line-by-line, cant make a determination of the data type at the time of the build. Swift also allows a wide range of characters to be used in constant and variable names including Unicode characters and emojis. swift var dailyTemperature: Int let boilingPoint = 100 var dailyHigh'
 Subjects:
   - 'iOS'
   - 'Mobile Development'

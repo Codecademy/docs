@@ -1,5 +1,6 @@
 ---
 Title: '🍿 Lists'
+Description: 'A list literal is a listing of expressions. Lists are always ordered and can contain different types of objects, such as strings, integers, booleans, etc. Lists are a mutable data type and therefore a good choice for dynamic data (adding and subtracting to lists). In Emojicode, a list is created by using 🍿 and 🍆. For instance, the example below is a list literal with integer values 18, 67, 420. emojic 🍿 18 67 420 🍆 '
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'

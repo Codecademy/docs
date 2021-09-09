@@ -1,5 +1,6 @@
 ---
 Title: 'Tuples'
+Description: 'A tuple is a Python data structure used to store an ordered and immutable collection of objects. Tuples are similar to lists, except that tuples cannot be changed after creation. There are multiple ways to create a tuple in Python. Tuples can be created with the built-in tuple() constructor: py streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])  We can also create tuples with parentheses:'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
