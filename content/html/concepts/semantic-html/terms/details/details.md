@@ -43,7 +43,7 @@ The `<details>` element must contain a `<summary>` element which will provide a 
   <body>
     <!-- The details element -->
     <details>
-      <summary>Course prerequisites</summary>
+      <summary>Course Prerequisites</summary>
       <p>This is where the additional information goes.</p>
       <!-- This can also include any other content -->
     </details>
