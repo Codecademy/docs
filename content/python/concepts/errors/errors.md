@@ -1,5 +1,6 @@
 ---
 Title: 'Errors'
+Description: 'There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions. Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python: error File "script.py", line 1 while True print("Hello world!") ^ SyntaxError: invalid syntax'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

@@ -1,5 +1,6 @@
 ---
 Title: 'Type Annotations'
+Description: 'Some constructs in TypeScript, such as variables without an initial value or members of interfaces, dont have an initially inferable type. The TypeScript language includes a TypeScript-specific syntax for defining what type the value is meant to be later on called a type annotation. Type annotations consist of a : colon followed by the name of a type. They exist after the name of the construct theyre declaring the type for. - Class and interface members: date: Date; - Parameters: function takeDate(date: Date) { - Variables: let date: Date;'
 Subjects:
   - 'Web Development'
 Tags:

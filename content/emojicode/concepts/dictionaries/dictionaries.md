@@ -1,5 +1,6 @@
 ---
 Title: '🍯 Dictionaries'
+Description: '🍯, or dictionary or hash map in other languages, is an ordered set of value pairs: pseudo 🔤key🔤 ➡️ 🔤value🔤  It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don’t have to be. emojic 🏁 🍇'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'

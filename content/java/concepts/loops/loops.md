@@ -1,5 +1,6 @@
 ---
 Title: 'Loops'
+Description: 'The while loop loops through a block of code as long as a specified condition is true: pseudo while (condition) { // Code block to be executed }  In this example, the code in the loop will run again and again, as long as variable i is still less than 10:'
 Subjects:
   - 'Computer Science'
 Tags:

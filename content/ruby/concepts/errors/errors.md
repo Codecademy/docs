@@ -1,5 +1,6 @@
 ---
 Title: 'Errors'
+Description: 'Ruby uses exceptions to report errors and other information when something in the program has gone wrong. If an error has ocurred, the Ruby program will end. For example: rb puts 2 / 0  This will result in: error'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

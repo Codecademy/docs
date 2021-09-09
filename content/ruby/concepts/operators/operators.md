@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'Basic math operations can be applied to integer and floating point values: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) ruby'
 Subjects:
   - 'Web Development'
   - 'Web Design'

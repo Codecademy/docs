@@ -1,5 +1,6 @@
 ---
 Title: 'Switch'
+Description: 'The switch statement is a type of conditional used to check the value of an expression against multiple cases. A case executes when it matches the value of the expression. When there are no matches between the case statements and the expression, the default statement executes. swift var secondaryColor = "green" switch secondaryColor { case "orange": print("Mix of red and yellow")'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

@@ -1,5 +1,6 @@
 ---
 Title: 'Functions'
+Description: 'Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the def keyword. Function definitions may include parameters, providing data input to the function. Functions may return a value using the return keyword followed by the value to return. py def myfunction(x): return x + 1 print(myfunction(2)) # Output: 3 print(my_function(3 + 5)) # Output: 9'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

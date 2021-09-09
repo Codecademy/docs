@@ -1,5 +1,6 @@
 ---
 Title: 'User Input'
+Description: 'input() is a built-in function in Python that allows a user to assign custom input to a variable. python mycatsname = input("What is your cats name? \n") print("The best cat in the world is " + mycatsname)  When this code is run, it will print out "What is your cats name?". Then, the user can type in something and press enter. Whatever the user types will be saved to the variable mycatsname and printed out in the final print() function. Once a user inputs a value it can be used like a normal variable. For example, it can be compared against other variables:'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

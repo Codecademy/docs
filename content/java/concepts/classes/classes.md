@@ -1,5 +1,6 @@
 ---
 Title: 'Classes'
+Description: 'A class is a blueprint or a template for the object. Blueprints detail the general structure (information and behavior about an object. java public class Cat { String name; String color; int age; public static void main(String[] args) {'
 Subjects:
   - 'Computer Science'
 Tags:

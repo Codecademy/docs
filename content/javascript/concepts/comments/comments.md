@@ -1,5 +1,6 @@
 ---
 Title: 'Comments'
+Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code. In JavaScript, single-line comments are created with two consecutive forward slashes //. js // Prints 5 to the console console.log(5);  A single-line comment can also be used to comment after a line of code:'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

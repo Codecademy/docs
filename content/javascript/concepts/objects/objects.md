@@ -1,5 +1,6 @@
 ---
 Title: 'Objects'
+Description: 'A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

@@ -1,5 +1,6 @@
 ---
 Title: 'Tables'
+Description: 'A table is an arrangement of data in rows and columns. To add a table in Markdown, use the vertical line | to separate each column, and use three or more dahses --- to create each column’s header. A vertical line should also be added at either end of the row. markdown | Month | Savings | | -------- | ------- | | January | $250 | | February | $80 |'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
