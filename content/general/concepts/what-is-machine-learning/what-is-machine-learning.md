@@ -1,5 +1,6 @@
 ---
 Title: 'What is Machine Learning?'
+Description: 'Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment. Machine Learning algorithms that receive labeled data as input and produce a prediction as output. - Regression: Predicts a continuous-valued output. - Linear regression: Plots the line or plane of "best fit" of optimal values for prediction tasks. - Logistic regression: Classifies elements in a data set into discrete categories. - Classification: Categorizes data points into discrete groups. - Naïve-Bayes classifier: Uses Bayes theorem of probability to perform classification of elements.'
 Subjects:
   - 'Machine Learning'
   - 'Data Science'

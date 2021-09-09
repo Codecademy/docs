@@ -1,5 +1,6 @@
 ---
 Title: 'Bitwise Operators'
+Description: 'Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result. JavaScript uses the following bitwise operators: | Operator | Name | Description | | -------- | --------------------- | ------------------------------------------------------------------------------------- | | & | AND | If both bits are 1, result is 1; otherwise 0. | | \| | OR | If either bit is 1, result is 1; otherwise 0. | | ^ | XOR | If bits are different, result is 1; otherwise 0. |'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

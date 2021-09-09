@@ -1,5 +1,6 @@
 ---
 Title: 'Loops'
+Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met. The while loop creates a loop that is executed as long as a specified condition evaluates to true. The loop will continue to run until the condition evaluates to false. The condition is specified before the loop, and usually, some variable is incremented or altered in the while loop body to determine when the loop should stop. pseudo while (condition) { // Code block to be executed } '
 Subjects:
   - 'Web Development'
   - 'Computer Science'

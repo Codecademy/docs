@@ -1,5 +1,6 @@
 ---
 Title: 'What is Bootstrap?'
+Description: 'Bootstrap is an open source CSS framework created to help style web pages with mobile first considerations in mind. It was created by Twitter internally in 2011 as a way to solve issues with design consistency across their engineering team. Bootstrap contains CSS, JavaScript, and HTML and utilizes them to provide aesthetic improvements to the Document Object Model (DOM) elements on a web page. Additional user interface elements such as dialog boxes, tooltips, and carousels are also available to users. Since its creation, Bootstrap has become one of the most commonly used tools on web pages today. html'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

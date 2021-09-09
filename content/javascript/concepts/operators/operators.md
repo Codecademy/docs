@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'The assignment operator (=) assigns a value to a variable. js var x = 10;  Arithmetic operators are used to perform arithmetic on numbers: - + addition - - subtraction'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

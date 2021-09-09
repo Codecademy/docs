@@ -1,5 +1,6 @@
 ---
 Title: 'Primitives'
+Description: 'A primitive is one of the basic types in JavaScript that make up data other than functions and objects. TypeScript recognizes the seven primitive types in JavaScript: - bigint - boolean - null - number - string'
 Subjects:
   - 'Web Development'
 Tags:

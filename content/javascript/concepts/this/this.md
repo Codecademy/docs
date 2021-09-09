@@ -1,5 +1,6 @@
 ---
 Title: 'this'
+Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context. Used within a global context, this will return the global object. Either the window object in a web browser, or the global object on Node.js. Assigning a property to this will assign it to the global object. javascript // Outputs assume this is run in global context in a browser console.log(this === window); // Output: true'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

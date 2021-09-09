@@ -1,5 +1,6 @@
 ---
 Title: 'Blockquotes'
+Description: 'Blockquotes indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote. To create a blockquote, add a right angle bracket > in front of a paragraph. markdown > Context and memory play powerful roles in all the truly great meals in ones life.  The output would look like this: > Context and memory play powerful roles in all the truly great meals in ones life.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
