@@ -38,8 +38,7 @@ The `<details>` element must contain a `<summary>` element which will provide a 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <!-- The details element -->
     <details>

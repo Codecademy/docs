@@ -103,9 +103,9 @@ Classes are essentially boiler plate object templates. If a car was an object, t
 A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in Classes**
 
 ```js
-class Person{
-  greeting(){
-    return  `Hi, I'm ${this.firstName} ${this.lastName}.`;
+class Person {
+  greeting() {
+    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
@@ -126,17 +126,17 @@ person.eyeColor='Hazel'
 'Hazel' */
 ```
 
-An addtional step can be made to optimize this procedure through the use of a *constructor*.
+An addtional step can be made to optimize this procedure through the use of a _constructor_.
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
-class Person{
-  constructor(firstName,lastName){
-  this.firstName=firstName;
-  this.lastName=lastName;
+class Person {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
-  greeting(){
-    return  `Hi, I'm ${this.firstName} ${this.lastName}.`;
+  greeting() {
+    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
@@ -144,8 +144,8 @@ class Person{
 To summarize what's been done, when making a new instance , the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputed at the time of creating the instance.
 
 ```js
-const person = new Person('Elizabeth','Harmon')
-console.log(person) //Prints the follwoing :
+const person = new Person('Elizabeth', 'Harmon');
+console.log(person); //Prints the follwoing :
 /*
 Person {
   firstName: 'Elizabeth',
@@ -155,5 +155,5 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting() // Prints "Hi, I'm Elizabeth Harmon"
+person.greeting(); // Prints "Hi, I'm Elizabeth Harmon"
 ```
