@@ -14,7 +14,7 @@ CatalogContent:
 ---
 
 The `<summary>` semantic HTML element is used as a summary, label, or caption, for the `<details>` element.
-  
+
 Whether the `<details>` element is in an "open" or "closed" state, the `<summary>` text is always visible.
 
 ## Syntax
@@ -33,12 +33,14 @@ The `<summary>` element can only be used as a first child element of the `<detai
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <details>
       <summary>Course Prerequisites</summary>
-      <p>To enroll in ECON 102, you must've passed ECON 101 in a previous semester.</p>
+      <p>
+        To enroll in ECON 102, you must've passed ECON 101 in a previous
+        semester.
+      </p>
       <!-- This can also include any other content e.g., images and GIFs -->
     </details>
   </body>
