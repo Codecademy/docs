@@ -1,5 +1,6 @@
 ---
 Title: 'Arrow Functions'
+Description: 'Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional function syntax. The syntax for an arrow function expression does not require the function keyword and uses a fat arrow => to separate the parameter(s) from the body. However, they are limited and cant be used in all situations. There are several variations of arrow functions: - Arrow functions with a single parameter do not require () around the parameter list. - Arrow functions with a single expression can use the concise function body which returns the result of the expression without the return keyword. Arrow function with no arguments: js const printHello = () => {'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

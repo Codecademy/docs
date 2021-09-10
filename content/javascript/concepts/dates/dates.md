@@ -1,5 +1,6 @@
 ---
 Title: 'Dates'
+Description: 'Date objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of seconds since midnight on January 1st 1970 UTC. Also note that, even though the representation of a Date is in UTC, the methods to fetch a date or its components work in the host systems local time zone. The defined range for a Date value is between April 20, 271821 BCE to September 13, 275760 CE. When used as a function, Date() returns the current date and time. When used as a constructor, Date() returns a new date object. javascript var now = Date(); console.log(now);'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

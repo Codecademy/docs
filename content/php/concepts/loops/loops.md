@@ -1,5 +1,6 @@
 ---
 Title: 'Loops'
+Description: 'A loop allows a block of code to repeat some number of times. Depending on the type of loop, it can repeat a set number of times, until a particular condition is no longer met, or once for each member of an array. The process of repeating the code block is called iteration. A for loop is used in PHP when it is known how many times its bock of code should execute. The syntax looks like this: pseudo for (init; test; increment) { code to execute;'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

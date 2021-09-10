@@ -1,5 +1,6 @@
 ---
 Title: 'Generics'
+Description: 'Some data structures, such as Arrays and Maps, may be used with any kind of data contents. TypeScript allows defining a slot for whatever generic types are desired at usage time on the name of the construct with with  brackets surrounding name(s), like Array or Map. Classes, functions, interfaces, and type aliases may be declared with a generic type; uses of them can then provide varying types in that generic slot. In the following snippet, Box is a generic interface that with a generic for the value within. Variables are then explicitly declared to be of type Box and Box, respectively: ts interface Box {'
 Subjects:
   - 'Web Development'
 Tags:

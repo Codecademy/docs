@@ -1,5 +1,6 @@
 ---
 Title: 'Attributes'
+Description: 'HTML attributes can be added to the opening tag of an HTML element to change the elements default behavior or provide additional information about the element. They consist of a name and a value using the following syntax: name="value". pseudo   So for example, the  image element has a mandatory src attribute that contains the image file path/URL: html'
 Subjects:
   - 'Web Development'
   - 'Web Design'

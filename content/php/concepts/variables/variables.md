@@ -1,5 +1,6 @@
 ---
 Title: 'Variables'
+Description: 'Variables store data for later use, and allow their contents to be updated or changed. Theyre needed when the same code needs to operate on different values at different times. Theyre also used when the same value is needed at multiple places throughout the code. A variable in PHP begins with the $ sign followed by the variable name. Unlike other languages, a variable is created as soon as you assign a value to it: php <?php $x = 1500; $y = 3.1415; $z = cheese;'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

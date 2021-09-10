@@ -1,5 +1,6 @@
 ---
 Title: 'Hoisting'
+Description: 'Hoisting is a default process where JavaScript "splits" var and function declarations from their definitions. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed. In JavaScript, variables declared with the var keyword are hoist-able. For example: js console.log(My name is ${myName}.); // Output: My name is undefined. var myName = Brandon;  In the code block, we are logging myName to the console before it is declared and assigned. Doing so will yield undefined. While JavaScripts compiler has stored the declaration for myName in memory, its definition is still not known. Therefore, its value and type is undefined.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

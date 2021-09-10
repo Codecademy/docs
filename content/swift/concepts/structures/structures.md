@@ -1,5 +1,6 @@
 ---
 Title: 'Structures'
+Description: 'Structures, or structs, are used to programmatically represent a real-life object in code. Structures are created with the struct keyword followed by its name and then body containing its properties and methods. swift struct Building { var address: String var floors: Int init(address: String, floors: Int, color: String) { self.address = address'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

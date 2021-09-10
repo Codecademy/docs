@@ -1,5 +1,6 @@
 ---
 Title: 'Functions'
+Description: 'Functions are blocks of code that can be run multiple times within a program. They are stored under a name similar to a variable and can be called using this name. A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets. pseudo return_type name(parameters) { // Code goes here } '
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

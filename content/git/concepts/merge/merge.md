@@ -1,5 +1,6 @@
 ---
 Title: 'Merge'
+Description: 'In Git, what if you wanted to include all the changes you made to a branch onto the main branch? Merge a pull request into the main branch when work is completed. Anyone with push access to the repository can complete the merge. To merge a branch into the main branch: shell git merge branchname  For example, if we want to merge our featuretest branch to the main branch: shell'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
