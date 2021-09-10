@@ -100,7 +100,7 @@ Hi, I'm Elizabeth Harmon.
 
 Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class. 
 
-You can construct an class with the following notation. We'll continue using the person object example. **Note: annonymous functions can't be used in Classes**
+A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in Classes**
 
 ```js
 class Person{
@@ -109,7 +109,7 @@ class Person{
   }
 }
 ```
-We have successfully created a class! But how do we use it? To use a class we need to create an instance of it. To demonstrate how an instance of a class is object, we will define new properties in our new object as well.
+To use a class an instance of it needs to be created. To demonstrate how an instance of a class is an object, it's properties will be defined using dot notation.
 
 ```js
 const person = new Person();
@@ -124,9 +124,9 @@ person.eyeColor='Hazel'
 22
 'Hazel' */
 ```
-We now know how to create a class, as well as use it. We can go a step further and optimize this procedure through the use of a *constructor*.
+An addtional step can be made to optimize this procedure through the use of a *constructor*.
 
-A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, we don't have to initiate an instance of a class and then define our new object's properties. This makes our code more concise, and precise. 
+A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise. 
 
 ```js
 class Person{
@@ -139,7 +139,7 @@ class Person{
   }
 }
 ```
-Let's break down this constructor. When making a new instance , the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputed at the time of creating the instance. Let's see this in action. 
+To summarize what's been done, when making a new instance , the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputed at the time of creating the instance. 
 
 ```js
 const person = new Person('Elizabeth','Harmon')
