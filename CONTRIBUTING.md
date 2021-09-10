@@ -24,7 +24,7 @@ Contributing follows this workflow:
 
 1. Fork [this project repository](https://github.com/codecademy/docs).
 2. Clone the forked repository to your computer.
-3. Create, and switch into, a new branch.
+3. Create and switch into a new branch.
 4. Edit or create an entry and commit the changes.
 5. Make a PR to merge your fork with this repo.
 
