@@ -18,7 +18,7 @@ GraphQL was developed by Facebook in 2012 to address internal issues with their 
 
 ## What is GraphQL?
 
-GraphQL, an open-source query language as described in [GraphQL](graphql.org) official website. It allows developers to consume, construct, and create APIs in their own unique way.
+GraphQL, an open-source query language as described in [GraphQL](graphql.org)'s official website. It allows developers to consume, construct, and create APIs in their own unique way.
 
 ## Why adopt GraphQL?
 
@@ -34,4 +34,4 @@ A typical yet simple GraphQL workflow can be seen below:
 
 ## Who is using GraphQL?
 
-GraphQL is used by a wide range of businesses, from large to small. For more information, feel free to check out [GraphQL official website](https://graphql.org/users/).
+GraphQL is used by a wide range of businesses, from large to small. For more information, feel free to check out [Who's Using | GraphQL](https://graphql.org/users/).
