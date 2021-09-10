@@ -21,7 +21,18 @@
 - [ ] I have checked my entry and corrected any misspellings
 - [ ] All writings are my own
 
-### Codecademy Username
+<!---
+Having trouble with the PR checker? Here are some common issues and resolutions:
+
+- verify_formatting is failing
+  - run `yarn format path/to/markdown/file.md` or `yarn format:all` and commit the results
+- verify_lint is failing
+  - same as above
+  - if verify_lint is still failing, running `yarn lint` locally should let you know what needs to be changed by hand
+- test is failing
+  - ensure any new markdown files have a `Title` and `Description` defined in their metadata
+  - ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory
+  - if that looks ok, running `yarn test` locally should let you know what the issue is
 
 If you want your Codecademy username be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
 
@@ -29,3 +40,4 @@ If you want your Codecademy username be displayed in your entry (feature coming 
 2. Click on your profile image in the top-right and then choose "Profile".
 3. Then click "Edit Profile".
 4. In the GitHub field, add your GitHub profile URL.
+-->

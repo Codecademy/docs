@@ -1,5 +1,6 @@
 ---
 Title: 'RegExp'
+Description: 'The RegExp object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string. A RegExp object can also have flags set along with a pattern to change how matches are performed. There are two methods of creating a RegExp object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the RegExp constructor which takes the pattern as the first argument and any flags as the second. javascript // Using literal notation let re1 = /foo?/i; // Using RegExp constructor'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

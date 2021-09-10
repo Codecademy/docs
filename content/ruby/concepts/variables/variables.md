@@ -1,5 +1,6 @@
 ---
 Title: 'Variables'
+Description: 'A variable is a label that Ruby assigns to a particular object. There are four different types of variables in Ruby. Each type starts with a special character to indicate the type of variable it is. Local variables must begin with a lowercase letter or . These variables are local to the code block of the method they are declared in. ruby color = "green" person = "Shannon"  There is nothing special about the word color in this line of code. Its just a variable name. You could set pizza = "green". While that variable name choice might be misleading to the human reading it, the value would still be "green".'
 Subjects:
   - 'Web Development'
   - 'Web Design'

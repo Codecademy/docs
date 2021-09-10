@@ -1,5 +1,6 @@
 ---
 Title: 'Elements'
+Description: 'An HTML element is a piece of content in an HTML document and uses the following syntax: html  content   The HTML element is everything from the opening tag to the closing tag: html Hello World!'
 Subjects:
   - 'Web Development'
   - 'Web Design'

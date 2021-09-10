@@ -1,5 +1,6 @@
 ---
 Title: 'Hashes'
+Description: 'A collection of key-value pairs enclosed within curly braces. Values are assigned to keys using the => syntax. This will create an empty hash with no default values. Default values may also be provided. ruby emptyhash = Hash.new puts emptyhash.inspect puts "#{emptyhash[1]}" hashdefault = Hash.new("Codecademy")'
 Subjects:
   - 'Web Development'
   - 'Web Design'

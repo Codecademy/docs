@@ -1,5 +1,6 @@
 ---
 Title: 'Conditionals'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. An if statement is used to test an expression for truth. If the condition evaluates to true, then the code within the block is executed; otherwise, it will be skipped. cpp if (a == 10) { // Code goes here'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

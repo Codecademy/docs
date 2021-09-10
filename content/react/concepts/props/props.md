@@ -1,5 +1,6 @@
 ---
 Title: 'Props'
+Description: 'In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another. Parent components can pass props to their child components, but not the other way around. Props can be many data types, including: - Numbers - Strings - Functions - Objects jsx'
 Subjects:
   - 'Web Development'
 Tags:

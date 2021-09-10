@@ -1,5 +1,6 @@
 ---
 Title: 'Function'
+Description: 'Some type system constructs, such as type unions and intersections, consist of a lot of code and are repeated frequently enough that its irksome to have to write them out repeatedly. TypeScript allows creating an alias for these with the type keyword and a name. Later on, whenever the name is used, TypeScript will assume you meant the aliased value. In this example, the StringsIsh type alias can be used in place of the type union with several members: ts type StringsIsh = string | string[] | null | undefined; function logAllStrings(values: StringsIsh) {'
 Subjects:
   - 'Web Development'
 Tags:

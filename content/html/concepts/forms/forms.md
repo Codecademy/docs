@@ -1,5 +1,6 @@
 ---
 Title: 'Forms'
+Description: 'The HTML  element is used to collect and send information to an external source.  can contain various input elements. When a user submits the form, information in these input elements is passed to the source which is named in the action attribute of the form. html  Enter your name:'
 Subjects:
   - 'Web Development'
   - 'Web Design'

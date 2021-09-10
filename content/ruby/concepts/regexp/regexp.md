@@ -1,5 +1,6 @@
 ---
 Title: 'RegExp'
+Description: 'In Ruby, Regular Expressions (shortened as RegExp), are used to describe and match patterns in strings. This functionality is housed in the Regexp class. Regular expressions can be created in three ways: rb regexp1 = /code/ regexp2 = %r{code} regexp3 = Regexp.new("code") '
 Subjects:
   - 'Web Development'
   - 'Computer Science'
