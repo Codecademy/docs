@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<summary>` semantic HTML element is used as a summary, label, or caption, for the `<details>` element. 
+The `<summary>` semantic HTML element is used as a summary, label, or caption, for the `<details>` element.
   
 Whether the `<details>` element is in an "open" or "closed" state, the `<summary>` text is always visible.
 
