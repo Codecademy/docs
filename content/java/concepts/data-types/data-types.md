@@ -1,5 +1,6 @@
 ---
 Title: 'Data Types'
+Description: 'Java’s most basic data types are known as primitive data types and are in the system by default. The available types are as follows: - int - char - boolean - byte - long'
 Subjects:
   - 'Computer Science'
 Tags:

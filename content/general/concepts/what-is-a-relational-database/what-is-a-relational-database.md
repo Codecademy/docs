@@ -1,5 +1,6 @@
 ---
 Title: 'What is a Relational Database?'
+Description: ''
 Subjects:
   - 'Computer Science'
   - 'Data Science'

@@ -1,5 +1,6 @@
 ---
 Title: 'Enums'
+Description: 'In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. The keyword enum is used to define an enumeration. cpp enum name {const1, const2, ...};  Heres an example: cpp'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

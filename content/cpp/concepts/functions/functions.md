@@ -1,5 +1,6 @@
 ---
 Title: 'Functions'
+Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions. In order to use them, we have to import the required library using #include. Here we are getting a function named sqrt() from the  library: cpp int main() { std::cout << sqrt(10); // Output: 3.16228'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

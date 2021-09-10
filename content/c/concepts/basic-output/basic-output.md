@@ -1,5 +1,6 @@
 ---
 Title: 'Basic Output'
+Description: 'In the C language, basic console output is achieved using functions from the "standard input output" header file (stdio.h). C itself has no ability to output any information. In order to so, the stdio.h header file must be included in the program, which typically happens at the top of the file: c  Once this is done, the functions included in it can be used. The putchar() function, or "put character" function, takes a single char as an argument and prints it to the stdout file, normally the console. c'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

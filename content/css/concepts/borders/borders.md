@@ -1,5 +1,6 @@
 ---
 Title: 'Borders'
+Description: 'A border is a line that surrounds an element, like a frame around a painting. Borders can be set with a specific width, style, and color: - width: The thickness of the border. A border’s thickness can be set in pixels or with one of the following keywords: thin, medium, or thick. - style: The design of the border. Web browsers can render any of 10 different styles. Some of these styles include: none, dotted, and solid. - color: The color of the border. Web browsers can render colors using a few different formats, including 140 built-in color keywords. css p {'
 Subjects:
   - 'Web Development'
   - 'Web Design'

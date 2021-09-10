@@ -1,5 +1,6 @@
 ---
 Title: 'Joins'
+Description: 'In order to efficiently store data, we often spread related information across multiple tables. Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter. The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause. INNER JOIN is the default JOIN and it will only return results matching the condition specified by ON. Heres joining the books table and the authors table on books.author_id column and the authors.id column: sql SELECT *'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

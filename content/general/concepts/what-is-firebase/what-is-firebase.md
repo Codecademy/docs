@@ -1,5 +1,6 @@
 ---
 Title: 'What is Firebase?'
+Description: 'Firebase is a cloud computing and app development platform hosted by Google. It was founded in 2011 as Envovle, a startup which developed APIs for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include: - Authentication - ML Kit - Realtime Database - Firebase Hosting - Performance Monitoring'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'

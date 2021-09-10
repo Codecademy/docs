@@ -1,5 +1,6 @@
 ---
 Title: 'Switch'
+Description: 'A switch statement provides a means of checking an expression against various case statements. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case. Theres also an optional default statement marking code that executes if none of the case statements are true. A switch statement looks like: java switch (expression) { case x: // Code block'
 Subjects:
   - 'Computer Science'
 Tags:
