@@ -1,5 +1,6 @@
 ---
 Title: 'Decorators'
+Description: '_Decorators_ are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.'
 Subjects:
   - 'Interview Prep'
   - 'Web Development'
@@ -23,7 +24,7 @@ Functions in Python are first class objects: they can be assigned to variables, 
 
 With that in mind, a decorator can be created using functions or classes.
 
-1. Decorator using functions
+### Decorator using functions
 
 The general syntax for creating a decorator using functions is as follows:
 
@@ -69,7 +70,7 @@ def upper_case_decorator(original_function):
 
 ```
 
-2. Decorator using classes
+### Decorator using classes
 
 The general syntax for creating a decorator using classes is as follows:
 
@@ -414,7 +415,7 @@ print(greeting.__doc__)
 
 ## Example Decorators
 
-1. Decorators can be used to measure the performance of a function.
+### Decorators can be used to measure the performance of a function
 
 ```codebyte/py
 import functools
@@ -445,7 +446,9 @@ long_loop(100000000)
 
 ```
 
-2. Decorators are used to create specialized functions like 'once' that would only execute one time even if they're called more than once.
+### Decorators are used to create specialized functions
+
+Special functions like 'once' that would only execute one time even if they're called more than once, can be created using decorators.
 
 ```codebyte/py
 import functools
