@@ -1,6 +1,6 @@
 ---
 Title: 'INNER JOIN'
-Description: 'Returns a result set off all rows that have matching values in both tables, omits rows where match fails.'
+Description: 'Returns a result set of all rows that have matching values in both tables, omits rows where match fails.'
 Subjects:
   - 'Data Science'
 Tags:
