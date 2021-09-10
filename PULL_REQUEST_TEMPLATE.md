@@ -19,6 +19,8 @@
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 - [ ] I have checked my entry and corrected any misspellings
+- [ ] I have confirmed my changes are not being pushed from my forked `main` branch
+- [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making
 - [ ] All writings are my own
 
 ### Codecademy Username
