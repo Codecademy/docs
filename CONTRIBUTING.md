@@ -69,6 +69,8 @@ To link your Codecademy user profile to GitHub:
 
 ## Any tips for a Pull Request?
 
+- Before making a PR, make sure you've pushed your changes from a branch other than `main`.
+- The name of the new branch should relate to the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
