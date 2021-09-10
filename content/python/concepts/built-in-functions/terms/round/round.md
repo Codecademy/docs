@@ -1,19 +1,17 @@
 ---
-Title: "round()"
-Description: "Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer."
+Title: 'round()'
+Description: 'Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Integers"
-  - "Floats"
-  - "Functions"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Integers'
+  - 'Floats'
+  - 'Functions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
- 
 
 Takes a number and an integer as parameters, and returns the number with decimal places equal to the integer.
 

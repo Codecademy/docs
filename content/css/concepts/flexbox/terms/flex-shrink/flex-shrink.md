@@ -1,16 +1,16 @@
 ---
-Title: "flex-shrink"
-Description: "Specifies how much space an item may be scaled down relative to the other items in the container (when items in the flex container are larger than the space available). An item assigned a flex-shrink value of 2, will be scaled twice as much as an item assigned a value of 1."
+Title: 'flex-shrink'
+Description: 'Specifies how much space an item may be scaled down relative to the other items in the container (when items in the flex container are larger than the space available). An item assigned a flex-shrink value of 2, will be scaled twice as much as an item assigned a value of 1.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Flexbox"
-  - "Layout"
+  - 'Flexbox'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 The `flex-shrink` property specifies how much space an item may be scaled down relative to the other items in the container (when items in the flex container are larger than the space available). An item assigned a `flex-shrink` value of 2, will be scaled twice as much as an item assigned a value of 1.
@@ -33,6 +33,6 @@ An image that will not scale down given flex-shrink conditions:
 ```css
 #img-one {
   display: flex;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 ```

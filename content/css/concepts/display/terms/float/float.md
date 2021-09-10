@@ -1,20 +1,18 @@
 ---
-Title: "float"
-Description: "Places an element on the left or right side of its container."
+Title: 'float'
+Description: 'Places an element on the left or right side of its container.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Float"
-  - "Positioning"
-  - "Layout"
+  - 'Float'
+  - 'Positioning'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
- 
 
 Places an element on the left or right side of its container.
 
@@ -24,7 +22,7 @@ Places an element on the left or right side of its container.
 float: <value>;
 ```
 
-The following values can be be appplied to the `float` property: 
+The following values can be be appplied to the `float` property:
 
 - `right`: The element floats on the right side of its container.
 - `left`: The element floats on the left side of its container.
@@ -41,6 +39,6 @@ Making an `img` element float to the left of its container.
 }
 
 .container img {
-  float: left; 
+  float: left;
 }
 ```

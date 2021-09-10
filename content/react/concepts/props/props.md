@@ -1,13 +1,14 @@
 ---
-Title: "Props"
+Title: 'Props'
+Description: 'In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another. Parent components can pass props to their child components, but not the other way around. Props can be many data types, including: - Numbers - Strings - Functions - Objects jsx'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Properties"
-  - "React"
+  - 'Properties'
+  - 'React'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In React, components are able to use props, or "properties", to display and share data throughout the application. In other words, props is the information that gets passed from one component to another.
@@ -44,10 +45,10 @@ A component’s `props` is an object. It holds information about that component.
 To see a component’s `props` object, you use the expression `this.props`. Here’s an example of `this.props` being used inside of a render method:
 
 ```jsx
-render() { 
+render() {
   // Printing the props object
   console.log(this.props);
-  
+
   return <h1>Hello world</h1>;
 }
 ```
@@ -73,7 +74,7 @@ In the above example, we used the name `message`. You can use any name you want.
 If you want to pass information that isn’t a string, then wrap that information in curly braces. Here’s how you would pass an array:
 
 ```js
-<Greeting myInfo={["top", "secret", "lol"]} />
+<Greeting myInfo={['top', 'secret', 'lol']} />
 ```
 
 In this next example, we pass several pieces of information to `<Greeting />`. The values that aren’t strings are wrapped in curly braces:
@@ -101,8 +102,5 @@ class Greeting extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <Greeting firstName='Rybu' />, 
-  document.getElementById('app')
-);
+ReactDOM.render(<Greeting firstName="Rybu" />, document.getElementById('app'));
 ```

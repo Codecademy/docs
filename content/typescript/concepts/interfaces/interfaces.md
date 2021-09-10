@@ -1,5 +1,6 @@
 ---
 Title: 'Interfaces'
+Description: 'JavaScript code often necessitates passing around objects known to have specific shapes. Interfaces are a way in TypeScript to declare that an object provided in a location must have at least a certain set of members. Interfaces may be declared by starting with the interface keyword, a name for the interface, and then an object containing any number of members. In this example, the Dog interface declares fluffy and woof members. Any value declared to be of type Dog is therefore known to have those members. Any other member, such as bark, is not known to exist, and accessing it would be a type error: ts'
 Subjects:
   - 'Web Development'
 Tags:

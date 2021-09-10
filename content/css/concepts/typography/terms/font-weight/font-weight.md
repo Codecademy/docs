@@ -1,19 +1,17 @@
 ---
-Title: "font-weight"
-Description: "To set the text to be thicker or thinner."
+Title: 'font-weight'
+Description: 'To set the text to be thicker or thinner.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 To set the text to be thicker or thinner.
 

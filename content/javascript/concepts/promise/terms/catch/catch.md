@@ -1,17 +1,15 @@
 ---
-Title: ".catch()"
-Description: "Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections."
+Title: '.catch()'
+Description: 'Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections.'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Methods"
-  - "Promise"
+  - 'Methods'
+  - 'Promise'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/full-stack-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Returns a new Promise related to a previously rejected Promise in the chain. This is ideal for formatting error messages for potential Promise rejections.
 
@@ -30,8 +28,8 @@ Inside the `brokenPromise` is a single `reject()` call with error information. I
 ```js
 const brokenPromise = new Promise((resolve, reject) => {
   reject({
-    errorType: "Unknown error",
-    message: "Something went wrong.",
+    errorType: 'Unknown error',
+    message: 'Something went wrong.',
   });
 });
 

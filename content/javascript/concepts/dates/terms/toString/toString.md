@@ -1,18 +1,16 @@
 ---
-Title: ".toString()"
-Description: "Converts a Date object to a string."
+Title: '.toString()'
+Description: 'Converts a Date object to a string.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Date"
-  - "Methods"
+  - 'Date'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Converts a Date object to a string.
 
@@ -27,7 +25,7 @@ myDate.toString();
 Print the Date object as a string:
 
 ```js
-const currentDate = new Date("July 15, 2021 11:48:57");
+const currentDate = new Date('July 15, 2021 11:48:57');
 
 console.log(typeof currentDate);
 // Output: object

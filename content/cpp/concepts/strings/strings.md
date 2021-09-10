@@ -1,15 +1,16 @@
 ---
-Title: "Strings"
+Title: 'Strings'
+Description: 'Strings are objects that represent sequences of characters. In C++, there are two ways to create strings: string class or using C-style character strings. The standard string class provides support for strings in C++. cpp std::string welcome = "Hi"; std::string user_name = "@sonny"; std::string message = "Good nite! 😇"; '
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Strings"
-  - "Characters"
-  - "Data Types"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Strings'
+  - 'Characters'
+  - 'Data Types'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 Strings are objects that represent sequences of characters. In C++, there are two ways to create strings: `string` class or using C-style character strings.
@@ -26,7 +27,7 @@ std::string message = "Good nite! 😇";
 
 ## C-Style Character Strings
 
-The C-style character string originated from the C language and continues to be supported within C++. 
+The C-style character string originated from the C language and continues to be supported within C++.
 
 In C, the string is actually an array of characters, followed by a `null` character `'\0'`.
 

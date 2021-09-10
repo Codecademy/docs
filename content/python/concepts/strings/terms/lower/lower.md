@@ -1,19 +1,17 @@
 ---
 Title: .lower()
-Description: "Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed."
+Description: 'Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Methods"
-  - "Functions"
-CatalogContent: 
-  - "learn-python-3"
-  - "paths/analyze-data-with-python"
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods'
+  - 'Functions'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/analyze-data-with-python'
 ---
-
- 
 
 Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
 
@@ -49,7 +47,7 @@ The `.lower()` method can be used to standardize text that might take different 
 name = input("What is your name?")
 # User writes their name...
 
-if name.lower() == "codey": 
+if name.lower() == "codey":
   print("Your name is Codey!")
 else:
   print("Your name is not Codey.")
@@ -66,6 +64,6 @@ my_string = "AMAZING!"
 
 if my_string.lower() == "amazing!":
   print("Isn't that just " + my_string)
-  
+
 # Output: "Isn't that just AMAZING!""
 ```

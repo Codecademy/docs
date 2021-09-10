@@ -1,30 +1,31 @@
 ---
-Title: "Joins"
+Title: 'Joins'
+Description: 'In order to efficiently store data, we often spread related information across multiple tables. Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter. The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause. INNER JOIN is the default JOIN and it will only return results matching the condition specified by ON. Heres joining the books table and the authors table on books.author_id column and the authors.id column: sql SELECT *'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Joins"
-  - "Documentation"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Joins'
+  - 'Documentation'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
-In order to efficiently store data, we often spread related information across multiple tables. 
+In order to efficiently store data, we often spread related information across multiple tables.
 
 Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter.
 
 ## Inner Join
 
-The `JOIN` clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an `ON` clause. 
+The `JOIN` clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an `ON` clause.
 
 `INNER JOIN` is the default `JOIN` and it will only return results matching the condition specified by `ON`.
 
 Here's joining the `books` table and the `authors` table on `books.author_id` column and the `authors.id` column:
 
 ```sql
-SELECT * 
+SELECT *
 FROM books
 JOIN authors
   ON books.author_id = authors.id;
@@ -34,7 +35,7 @@ JOIN authors
 
 ## Outer Join
 
-An outer join will combine rows from different tables even if the join condition is not met. 
+An outer join will combine rows from different tables even if the join condition is not met.
 
 In a `LEFT JOIN`, every row in the left table is returned in the result set, and if the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
 
@@ -59,12 +60,12 @@ SELECT name
 FROM last_names;
 ```
 
-For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a last_names table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names: 
+For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a last_names table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names:
 
-| name |
-| --- |
-| Cassidy |
-| James |
+| name     |
+| -------- |
+| Cassidy  |
+| James    |
 | Hermione |
 
 ## CROSS JOIN
@@ -78,6 +79,6 @@ FROM shirts
 CROSS JOIN pants;
 ```
 
-The given query will select the `shirt_color` and `pants_color` columns from the result set, which will contain all combinations of combining the rows in the shirts and pants tables. 
+The given query will select the `shirt_color` and `pants_color` columns from the result set, which will contain all combinations of combining the rows in the shirts and pants tables.
 
 If there are 3 different shirt colors in the shirts table and 5 different pants colors in the pants table then the result set will contain 3 x 5 = 15 rows.

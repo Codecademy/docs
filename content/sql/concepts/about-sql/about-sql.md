@@ -1,20 +1,21 @@
 ---
-Title: "About SQL"
+Title: 'About SQL'
+Description: 'SQL stands for Structured Query Language, and is the programming language implemented by a database management system (DBMS) used for managing and querying data held in a relational database. SQL has been an ANSI standard since 1986 and each different DBMS has its own implementation of this standard. These different implementations have varying adherence to the standard, so in practice SQL code of any complexity is not typically transferrable between different DBMS systems without some modification. However, because of the standard, skills learned in one DBMS system are largely applicable to another. SQL statements can be broadly grouped into four different classes, or sub-languages: - Data Query Language (DQL): Includes commands for performing queries on data within schema objects, retrieving some schema relation based on the query passed to it. Examples include: - SELECT retrieves data from the database. - Data Definition Language (DDL): Includes commands used to define the database schema. These commands are used to create and modify the structure of database objects. Examples include: - CREATE creates an object in the database.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "MySQL"
-  - "PostgreSQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'MySQL'
+  - 'PostgreSQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
-SQL stands for **S**tructured **Q**uery **L**anguage, and is the programming language implemented by a database management system (DBMS) used for managing and querying data held in a relational database. 
+SQL stands for **S**tructured **Q**uery **L**anguage, and is the programming language implemented by a database management system (DBMS) used for managing and querying data held in a relational database.
 
 SQL has been an ANSI standard since 1986 and each different DBMS has its own implementation of this standard. These different implementations have varying adherence to the standard, so in practice SQL code of any complexity is not typically transferrable between different DBMS systems without some modification. However, because of the standard, skills learned in one DBMS system are largely applicable to another.
 
@@ -23,14 +24,17 @@ SQL has been an ANSI standard since 1986 and each different DBMS has its own imp
 SQL statements can be broadly grouped into four different classes, or sub-languages:
 
 - Data Query Language (DQL): Includes commands for performing queries on data within schema objects, retrieving some schema relation based on the query passed to it. Examples include:
+
   - `SELECT` retrieves data from the database.
 
 - Data Definition Language (DDL): Includes commands used to define the database schema. These commands are used to create and modify the structure of database objects. Examples include:
+
   - `CREATE` creates an object in the database.
   - `DROP` deletes an object from the database.
   - `ALTER` changes the definition of an existing object in the database.
 
 - Data Manipulation Language (DML): Includes commands used to modify the data stored in the database. Examples include:
+
   - `INSERT` inserts new data into a database table.
   - `UPDATE` alters data in a database table.
   - `DELETE` removes data from a database table.

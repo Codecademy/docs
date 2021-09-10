@@ -1,18 +1,19 @@
 ---
-Title: "Loops"
+Title: 'Loops'
+Description: 'A loop allows a block of code to repeat some number of times. Depending on the type of loop, it can repeat a set number of times, until a particular condition is no longer met, or once for each member of an array. The process of repeating the code block is called iteration. A for loop is used in PHP when it is known how many times its bock of code should execute. The syntax looks like this: pseudo for (init; test; increment) { code to execute;'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Loops"
-  - "While"
-  - "For"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Loops'
+  - 'While'
+  - 'For'
 CatalogContent:
-  - "learn-php"
-  - "paths/computer-science"
+  - 'learn-php'
+  - 'paths/computer-science'
 ---
 
-A loop allows a block of code to repeat some number of times. 
+A loop allows a block of code to repeat some number of times.
 Depending on the type of loop, it can repeat a set number of times, until a particular condition is no longer met,
 or once for each member of an array. The process of repeating the code block is called iteration.
 
@@ -74,11 +75,11 @@ foreach ($array as $value) {
 
 - `$array`: An array variable.
 - `$value`: Variable to receive each value of array in turn.
-- `execute`: Block of code to execute on each iteration. The <code><i>$value</i></code> variable is available inside this block.  
-  
+- `execute`: Block of code to execute on each iteration. The <code><i>$value</i></code> variable is available inside this block.
+
 Iterate through array keys and values:
 
-``pseudo
+```pseudo
 foreach ($array as $key => $value) {
   code to execute;
 }
@@ -87,8 +88,8 @@ foreach ($array as $key => $value) {
 - `$array`: An array variable.
 - `$key`: Variable to receive each key of array in turn.
 - `$value`: Variable to receive each value of array in turn.
-- `code to execute`: Block of code to execute on each iteration. The <code><i>$key</i></code> and <code><i>$value</i></code> variables are available inside this block.  
-  
+- `code to execute`: Block of code to execute on each iteration. The <code><i>$key</i></code> and <code><i>$value</i></code> variables are available inside this block.
+
 ### Examples
 
 Values only:
@@ -132,7 +133,7 @@ The value for two is blue
 The value for three is red
 The value for four is yellow
 ```
-  
+
 ## `while` Loop
 
 The `while` loop iterates through a block of code as long as a condition evaluates to `true`. The syntax looks like this:
@@ -144,7 +145,7 @@ while (test) {
 ```
 
 - `test`: The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
-- `code to execute`: Block of code to execute on each iteration. 
+- `code to execute`: Block of code to execute on each iteration.
 
 ### Example
 
@@ -174,19 +175,19 @@ the number is 62
 
 ## `do...while` Loop
 
-The `do...while` loop, like a `while` loop, iterates as long as a condition is `true`. 
+The `do...while` loop, like a `while` loop, iterates as long as a condition is `true`.
 But the `do...while` loop tests the condition after the iteration, not before, so the loop always executes at least once.
 
 The syntax looks like this:
 
 ```pseudo
-do { 
-  execute; 
+do {
+  execute;
   } while (test);
 ```
 
 - `test`: The expression to evaluate on each iteration of loop. Iterations continue until this evaluates to `false`.
-- `execute`: Block of code to execute on each iteration. 
+- `execute`: Block of code to execute on each iteration.
 
 ### Example
 
@@ -260,5 +261,3 @@ iteration #6
 iteration #8
 iteration #10
 ```
-
-

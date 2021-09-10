@@ -1,19 +1,17 @@
 ---
-Title: "translate()"
-Description: "Translates an element by one or more axes."
+Title: 'translate()'
+Description: 'Translates an element by one or more axes.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Functions"
-  - "Positioning"
+  - 'Functions'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Translates an element by one or more axes.
 
@@ -42,14 +40,13 @@ Move the `.box` element `100px` along the horizontal axis:
 
 ## Example 2
 
-Move the `.box` element along the horizontal axis `200px` and  `100px` up the vertical axis:
+Move the `.box` element along the horizontal axis `200px` and `100px` up the vertical axis:
 
 ```css
 .box {
   transform: translate(200px, -100px);
 }
 ```
-
 
 ## Example 3
 
@@ -60,4 +57,3 @@ Move the `.box` element `100px` down the vertical axis:
   transform: translate(0, 100px);
 }
 ```
-

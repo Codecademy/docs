@@ -1,16 +1,17 @@
 ---
-Title: "Strings" 
+Title: 'Strings'
+Description: 'Strings are arrays of characters followed by a null character \0. To declare a string in C, the type of the string, char, is first specified, followed by the name of the string, the size, and the characters themselves. pseudo char name[size] = {a, b, c, d, \0};  The following declaration and initialization create a string of "Howdy": c'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Data Types"
-  - "Characters"
-  - "Arrays"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Data Types'
+  - 'Characters'
+  - 'Arrays'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 Strings are arrays of characters followed by a `null` character `'\0'`.
@@ -59,7 +60,7 @@ To display a string in C, the `printf()` function from the **stdio.h** header fi
 #include <stdio.h>
 
 int main() {
-  char message[] = "Hi y'all!"; 
+  char message[] = "Hi y'all!";
   printf("Bot: %s\n", message);
 
   return 0;

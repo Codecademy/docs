@@ -1,19 +1,17 @@
 ---
-Title: "grid-template"
-Description: "A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements."
+Title: 'grid-template'
+Description: 'A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Grids"
-  - "Layout"
+  - 'Grids'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 A shorthand for the grid-template-row, column and areas properties. The grid-template syntax allows for a condensed specification of a grid structure and the location of elements.
 
@@ -26,7 +24,7 @@ A shorthand for the grid-template-row, column and areas properties. The grid-tem
 }
 ```
 
-A  `<grid-value>` can be one of the following:
+A `<grid-value>` can be one of the following:
 
 - Grid keyword: `auto`, `minmax()`, `repeat()`
 - Pixel value: `300px`
@@ -34,13 +32,12 @@ A  `<grid-value>` can be one of the following:
 - Fractional unit value: `1fr`
 - A string: `'header'`
 
-
 Common syntax patterns:
 
 - `<area value> <row value> / <col value>`
 - `<row value> / <col value>`
 - `<area value>`
-  
+
 ## Example 1
 
 A grid in which the 'text' block occupies a space with the coordinates row two, column two:
@@ -52,10 +49,10 @@ A grid in which the 'text' block occupies a space with the coordinates row two, 
 
 #spam-container {
   display: grid;
-  grid-template: 
+  grid-template:
     '. header header header .'
     '. text image image .'
-    '. footer footer footer .'; 
+    '. footer footer footer .';
 }
 ```
 

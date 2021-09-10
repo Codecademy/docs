@@ -1,14 +1,15 @@
 ---
-Title: "Lists"
+Title: 'Lists'
+Description: 'The  list item element create list items inside: - Ordered lists  - Unordered lists  The ordered list  element creates a list of items in sequential order. html  Preheat oven to 325 F 👩‍🍳'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Lists"
-  - "Paragraphs"
+  - 'Lists'
+  - 'Paragraphs'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `<li>` list item element create list items inside:
@@ -36,7 +37,7 @@ Each list item appears numbered by default:
 
 ## `<ul>` Unordered List Element
 
-The unordered list `<ul>` element is used to create a list of items in no particular order. 
+The unordered list `<ul>` element is used to create a list of items in no particular order.
 
 ```html
 <ul>
@@ -50,28 +51,28 @@ Each individual list item will have a bullet point by default:
 - Play more music 🎸
 - Read more books 📚
 
-## Nesting Lists Elements 
+## Nesting Lists Elements
 
 Lists can be nested, meaning one list can be placed inside of another.
 
 ```html
 <ol>
   <li>Fruits</li>
-    <ul>
-      <li>Apples 🍎</li>
-      <li>Oranges 🍊</li>
-    </ul>
+  <ul>
+    <li>Apples 🍎</li>
+    <li>Oranges 🍊</li>
+  </ul>
   <li>Vegetables</li>
-    <ul>
-      <li>Tomatoes 🍅</li>
-    </ul>
+  <ul>
+    <li>Tomatoes 🍅</li>
+  </ul>
 </ol>
 ```
 
 This way, multilevel lists can be created with different indentations.
 
 1. Fruits
-    - Apples 🍎
-    - Oranges 🍊
+   - Apples 🍎
+   - Oranges 🍊
 2. Vegetables
-    - Tomatoes 🍅
+   - Tomatoes 🍅

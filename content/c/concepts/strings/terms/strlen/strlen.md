@@ -1,18 +1,18 @@
 ---
-Title: "strlen()"
-Description: "Returns the length of the string without including the terminating character."
+Title: 'strlen()'
+Description: 'Returns the length of the string without including the terminating character.'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Data Types"
-  - "Characters"
-  - "Arrays"
-  - "Functions"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Data Types'
+  - 'Characters'
+  - 'Arrays'
+  - 'Functions'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The `strlen()` string function returns the length of the string without including terminating character `'\n'`.

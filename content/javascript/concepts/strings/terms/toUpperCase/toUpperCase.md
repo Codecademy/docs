@@ -1,18 +1,16 @@
 ---
-Title: ".toUpperCase()"
-Description: "Convert a string to uppercase letters."
+Title: '.toUpperCase()'
+Description: 'Convert a string to uppercase letters.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 Convert a string to uppercase letters.
 
@@ -27,7 +25,7 @@ string.toUpperCase();
 Converting lowercase letters to uppercase:
 
 ```js
-console.log("hello world".toLowerCase());
+console.log('hello world'.toLowerCase());
 // Output: HELLO WORLD
 ```
 
@@ -43,5 +41,3 @@ console.log(state)
 
 console.log(state.toUpperCase());
 ```
-
-

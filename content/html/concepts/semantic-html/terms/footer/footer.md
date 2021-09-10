@@ -1,15 +1,15 @@
 ---
-Title: "<footer>"
-Description: "Represents a part of a page which is meant to be at the end of a completed block of content. Common uses include copyright information for the page or additional links to relevant pages."
+Title: '<footer>'
+Description: 'Represents a part of a page which is meant to be at the end of a completed block of content. Common uses include copyright information for the page or additional links to relevant pages.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Semantic"
-  - "Tags"
+  - 'Semantic'
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The `<footer>` semantic tag represents a part of a page which is meant to be at the end of a completed block of content. If it is at the end of an entire page it might include copyright information for the page or additional links to relevant pages, and if it is at the end of an article it might include information about the author.
@@ -20,7 +20,7 @@ The `<footer>` semantic tag represents a part of a page which is meant to be at 
 <footer>
   <!-- Footer content goes inside the tag -->
 </footer>
-``` 
+```
 
 `<footer>` is a tag that wraps around a block of HTML giving it semantic meaning. It has no special attributes, and by default will act similarly to a `<div>`.
 
@@ -52,8 +52,7 @@ At the end of the article we wish to show author information, as well as social 
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <article>
       <!-- Article header and other sections go here -->

@@ -1,18 +1,16 @@
 ---
-Title: ".sort()"
-Description: "Sorts the elements of an array in place and returns the sorted array."
+Title: '.sort()'
+Description: 'Sorts the elements of an array in place and returns the sorted array.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Sorts the elements of an array in place and returns the sorted array.
 
@@ -53,6 +51,7 @@ console.log(ascendingValues);
 ```
 
 Sort numbers in descending value:
+
 ```js
 const values = [1, 2, 3, 4];
 const descendingValues = values.sort((a, b) => b - a);

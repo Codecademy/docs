@@ -1,21 +1,19 @@
 ---
-Title: "INNER JOIN"
-Description: "Returns a result set off all rows that have matching values in both tables, omits rows where match fails."
+Title: 'INNER JOIN'
+Description: 'Returns a result set off all rows that have matching values in both tables, omits rows where match fails.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 Returns a result set of all rows that have matching values in both tables, omits rows where match fails.
 
@@ -30,6 +28,6 @@ SELECT
   students.overall_gpa,
   transfer_data.overal_gpa
 FROM students
-INNER JOIN transfer_data 
+INNER JOIN transfer_data
   ON students.student_id = transfer_data.student_id;
 ```

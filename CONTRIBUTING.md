@@ -1,16 +1,16 @@
 # Codecademy Docs: Contribution Guide 👩🏻‍💻👨🏾‍💻👩🏼‍💻
 
-Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo! 
+Welcome to the [Codecademy Docs](https://www.codecademy.com/resources/docs) GitHub repo!
 
-We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet. 
+We are an inclusive and passionate team of technologists and life-long learners around the world building free programming resources for a better tomorrow. For newcomers, contributing to an open-source project for the first time can be intimidating and overwhelming. Perhaps you’re a code newbie or maybe you’ve been tinkering for years but haven’t found that special project yet.
 
-Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself. 
+Good news, you are in the right place! Codecademy Docs is the perfect open-contribution project for you to get started. Every part of [Codecademy Docs](https://www.codecademy.com/resources/docs) content (entries, documentation, and translations) is written by amazing creative folks like yourself.
 
-Thanks for your interest; we'd love to have you contribute.  💖
+Thanks for your interest; we'd love to have you contribute. 💖
 
 ## How do I contribute?
 
- There are many ways to contribute to Codecademy Docs:
+There are many ways to contribute to Codecademy Docs:
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
@@ -28,7 +28,7 @@ Contributing follows this workflow:
 4. Edit or create an entry and commit the changes.
 5. Make a PR to merge your fork with this repo.
 
-If you haven't gone through this workflow before, you can check out [this GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git. 
+If you haven't gone through this workflow before, you can check out [this GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git.
 
 Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a PR by pressing this handy button:<br>
 
@@ -36,7 +36,7 @@ Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow t
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app.
 
-## What do I need to do before creating new entries? 
+## What do I need to do before creating new entries?
 
 Before creating new entries, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
 
@@ -48,11 +48,11 @@ Please read through the following in the [/documentation](https://github.com/Cod
 
 And here, templates for creating your new entries.
 
-| Template | GitHub Example | Docs Example |
-| --- | --- | --- |
-| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md)) | [Lists](https://www.codecademy.com/resources/docs/python/lists) |
+| Template                                                                                                 | GitHub Example                                                                                                                                                                                                                      | Docs Example                                                            |
+| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md)           | [lists.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/lists.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/lists.md))                              | [Lists](https://www.codecademy.com/resources/docs/python/lists)         |
 | [Term Entry Template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) | [append.md](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/python/concepts/lists/terms/append/append.md)) | [Append](https://www.codecademy.com/resources/docs/python/lists/append) |
-| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md)) | [SQL](https://www.codecademy.com/resources/docs/sql) |
+| [Topic Info Template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) | [sql.md](https://github.com/Codecademy/docs/blob/main/content/sql/sql.md) ([Raw](https://raw.githubusercontent.com/Codecademy/docs/main/content/sql/sql.md))                                                                        | [SQL](https://www.codecademy.com/resources/docs/sql)                    |
 
 ### Codecademy Username
 
@@ -85,6 +85,6 @@ To link your Codecademy user profile to GitHub:
 
 ## Additional Notes
 
-Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy). 
+Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
 Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue! 🖖

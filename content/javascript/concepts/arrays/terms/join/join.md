@@ -1,18 +1,16 @@
 ---
-Title: ".join()"
-Description: "Elements of an array are converted to strings and concatenated together, returning the resulting string."
+Title: '.join()'
+Description: 'Elements of an array are converted to strings and concatenated together, returning the resulting string.'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
+  - 'Web Development'
+  - 'Computer Science'
 Tags:
-  - "Arrays"
-  - "Methods"
+  - 'Arrays'
+  - 'Methods'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
-
-
 
 Elements of an array are converted to strings and concatenated together, returning the resulting string.
 
@@ -56,7 +54,7 @@ Joining an array into a string with a separator argument:
 
 ```js
 const gameObjects = ['rock', 'paper', 'scissors'];
-const joinWithSeparator = gameObjects.join(' + ')
+const joinWithSeparator = gameObjects.join(' + ');
 
 console.log(joinWithSeparator);
 // Output: rock + paper + scissors

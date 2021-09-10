@@ -1,17 +1,18 @@
 ---
-Title: "🔡 Strings"
+Title: '🔡 Strings'
+Description: 'Strings are words or pieces of text that the computer treats as a single item. They provide a way to store something like a word, sentence, or whole paragraph. Technically speaking, a string is a sequence of characters. It can be of any length and contain any letters, numbers, symbols, or spaces as long as they are surrounded by 🔤s. Here are four different strings in Emojicode: shell 🔤This is a string!🔤 🔤This is also a string!!!🔤 🔤1337🔤'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Data Types"
+  - 'Strings'
+  - 'Data Types'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
-Strings are words or pieces of text that the computer treats as a single item. They provide a way to store something like a word, sentence, or whole paragraph. 
+Strings are words or pieces of text that the computer treats as a single item. They provide a way to store something like a word, sentence, or whole paragraph.
 
 Technically speaking, a string is a sequence of characters. It can be of any length and contain any letters, numbers, symbols, or spaces as long as they are surrounded by `🔤`'s.
 
@@ -49,7 +50,7 @@ Suppose we have a constant named `height` with a value of `3000`, and we want to
 
 ```shell
 3000 ➡️ height
- 
+
 😀 🔤Alex Honnold climbed El Capitan, which is 🧲height🧲 feet, without a rope!🔤❗️
 ```
 

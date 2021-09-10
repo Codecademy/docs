@@ -1,17 +1,15 @@
 ---
-Title: "<cite>"
-Description: "Represents a citation to a referenced work such as a book, a song, or a painting."
+Title: '<cite>'
+Description: 'Represents a citation to a referenced work such as a book, a song, or a painting.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
-
- 
 
 The `<cite>` tag represents a citation to a referenced work such as a book, a song, or a painting. It needs to include only the title of the work being referenced.
 
@@ -21,7 +19,7 @@ The `<cite>` tag represents a citation to a referenced work such as a book, a so
 <cite>
   <!-- Title of work goes here -->
 </cite>
-``` 
+```
 
 `<cite>` is a tag that wraps around text. That text may also be wrapped in a link to an external source for the citation, if one is available.
 
@@ -31,15 +29,21 @@ Suppose there is an article on the integral, from calculus, on this page. It fea
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <figure>
       <blockquote>
-        The major advance in integration came in the 17th century with the independent discovery of the fundamental theorem of calculus by Leibniz and Newton.
+        The major advance in integration came in the 17th century with the
+        independent discovery of the fundamental theorem of calculus by Leibniz
+        and Newton.
       </blockquote>
       <figcaption>
-        From <cite><a href="https://en.wikipedia.org/wiki/Integral#Leibniz_and_Newton">Integral</a></cite>, on Wikipedia.
+        From
+        <cite
+          ><a href="https://en.wikipedia.org/wiki/Integral#Leibniz_and_Newton"
+            >Integral</a
+          ></cite
+        >, on Wikipedia.
       </figcaption>
     </figure>
   </body>

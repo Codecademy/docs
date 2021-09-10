@@ -1,14 +1,15 @@
 ---
-Title: "Functions"
+Title: 'Functions'
+Description: 'Functions are a set of instructions that return one value. Functions that exist in an object are typically called methods. A function is declared using the def keyword. We close a function with the end keyword. ruby def greeting puts "Hello, World!" return end'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Methods"
-  - "Functions"
+  - 'Methods'
+  - 'Functions'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Functions are a set of instructions that return one value. Functions that exist in an object are typically called methods.

@@ -1,5 +1,31 @@
+import frontmatter, { FrontMatterResult } from 'front-matter';
 import fs from 'fs';
+import glob from 'glob';
 import path from 'path';
+
+/*
+ * the content/ directory is organized like so:
+ *
+ * content/
+ * |  <child>/
+ * |  |  <node>/
+ * |  |  |  <node>.md
+ * |  |  |  <child>/
+ * |  |  |  |  <node>/
+ * |  |  |  |  |  <node>.md
+ * |  |  |  |  ...
+ * |  |  <node>/
+ * |  |  |  <node>.md
+ * |  <child>/
+ * |  |  <node>/
+ * |  |  |  <node>.md
+ * |  |  ...
+ *
+ *
+ * node: directory containing one .md file with the same name as the node and optionally one child directory
+ *
+ * child: directory containing an arbitrary number of nodes
+ */
 
 describe('Codecademy Docs Content', () => {
   it('adheres to content file structure', () => {
@@ -47,5 +73,67 @@ describe('Codecademy Docs Content', () => {
     };
 
     checkChild(path.join(__dirname, 'content'));
+  });
+});
+
+// validate metadata in each markdown file
+describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
+  type FrontMatterAttributes = {
+    Title: string;
+    Description?: string;
+    'Codecademy Hub Page'?: string;
+    CatalogContent?: string[];
+    Subjects?: string[];
+    Tags?: string[];
+  };
+
+  const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(
+    fs.readFileSync(file, 'utf8')
+  );
+
+  it('has only valid metadata keys', () => {
+    const validKeys: Record<string, string> = {
+      CatalogContent: 'CatalogContent',
+      'Codecademy Hub Page': 'Codecademy Hub Page',
+      Description: 'Description',
+      Subjects: 'Subjects',
+      Tags: 'Tags',
+      Title: 'Title',
+    };
+
+    Object.keys(attributes).forEach((key) => {
+      if (!validKeys[key]) {
+        expect(`Invalid metadata key: ${key}`).toBe('');
+      }
+    });
+  });
+
+  it('has valid metadata values', () => {
+    const testOptionalStringArray = (key: string, val?: string[]) => {
+      if (
+        val !== undefined &&
+        (!Array.isArray(val) || val.some((item) => typeof item !== 'string'))
+      ) {
+        expect(
+          `Expected ${key} to be a string array or undefined but got ${typeof val}`
+        ).toBe('');
+      }
+    };
+
+    expect(typeof attributes.Title).toBe('string');
+    expect(typeof attributes.Description).toBe('string');
+
+    if (
+      attributes['Codecademy Hub Page'] !== undefined &&
+      typeof attributes['Codecademy Hub Page'] !== 'string'
+    ) {
+      expect('Expected "Codecademy Hub Page" to be a string or undefined').toBe(
+        ''
+      );
+    }
+
+    testOptionalStringArray('CatalogContent', attributes.CatalogContent);
+    testOptionalStringArray('Subjects', attributes.Subjects);
+    testOptionalStringArray('Tags', attributes.Tags);
   });
 });

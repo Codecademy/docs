@@ -1,14 +1,15 @@
 ---
-Title: "Switch"
+Title: 'Switch'
+Description: 'A switch statement provides a means of checking an expression against various case statements. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case. Theres also an optional default statement marking code that executes if none of the case statements are true. A switch statement looks like: java switch (expression) { case x: // Code block'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Switch"
-  - "Conditionals"
-  - "Control Flow"
+  - 'Computer Science'
+Tags:
+  - 'Switch'
+  - 'Conditionals'
+  - 'Control Flow'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 A `switch` statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
@@ -62,7 +63,7 @@ switch (grade) {
 
 In the code above, suppose grade is equal to `10`, then the output would be “Sophomore”.
 
-**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and *all* subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
 
 ## Example
 

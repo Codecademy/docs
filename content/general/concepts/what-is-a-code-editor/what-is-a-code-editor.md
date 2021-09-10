@@ -1,18 +1,19 @@
 ---
-Title: "What is a Code Editor?"
+Title: 'What is a Code Editor?'
+Description: 'A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand. Code editors have built-in knowledge of programming languages, which allow different elements of the code (ie. variables, keywords, functions, etc.) to appear in different colors making the code easier to analyze for developers. Code editors can compile and run code. In addition to being able to print a codes output, these programs can also identify where and why a particular line of code fails to execute. There are numerous code editors available, such as: - Visual Studio Code - Sublime Text - Atom - Notepad++'
 Subjects:
-  - "Developer Tools"
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Code Editors"
-  - "IDE"
-CatalogContent:  # If listing multiple URLs, please put the most relevant one first 
-  - "learn-python-3"
-  - "paths/front-end-engineer-career-path"
+  - 'Developer Tools'
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Code Editors'
+  - 'IDE'
+CatalogContent: # If listing multiple URLs, please put the most relevant one first
+  - 'learn-python-3'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand. 
+A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand.
 
 Code editors have built-in knowledge of programming languages, which allow different elements of the code (ie. variables, keywords, functions, etc.) to appear in different colors making the code easier to analyze for developers. Code editors can compile and run code. In addition to being able to print a code's output, these programs can also identify where and why a particular line of code fails to execute.
 

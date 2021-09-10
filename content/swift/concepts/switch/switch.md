@@ -1,36 +1,37 @@
 ---
-Title: "Switch"
+Title: 'Switch'
+Description: 'The switch statement is a type of conditional used to check the value of an expression against multiple cases. A case executes when it matches the value of the expression. When there are no matches between the case statements and the expression, the default statement executes. swift var secondaryColor = "green" switch secondaryColor { case "orange": print("Mix of red and yellow")'
 Subjects:
-  - "Mobile Development"
-  - "Computer Science"
+  - 'Mobile Development'
+  - 'Computer Science'
 Tags:
-  - "Switch"
-  - "Control Flow"
-  - "Variables"
+  - 'Switch'
+  - 'Control Flow'
+  - 'Variables'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `switch` statement is a type of conditional used to check the value of an expression against multiple cases. 
+The `switch` statement is a type of conditional used to check the value of an expression against multiple cases.
 
 A `case` executes when it matches the value of the expression. When there are no matches between the `case` statements and the expression, the `default` statement executes.
 
 ```swift
 
 var secondaryColor = "green"
- 
+
 switch secondaryColor {
   case "orange":
     print("Mix of red and yellow")
   case "green":
     print("Mix of blue and yellow")
   case "purple":
-    print("Mix of red and blue") 
-  default: 
-    print("This might not be a secondary color.") 
+    print("Mix of red and blue")
+  default:
+    print("This might not be a secondary color.")
 }
- 
+
 // Output: Mix of blue and yellow
 ```
 
@@ -41,18 +42,18 @@ Intervals within a `switch` statement’s case provide a range of values that ar
 ```swift
 let year = 1905
 var artPeriod: String
- 
+
 switch year {
   case 1860...1885:
     artPeriod = "Impressionism"
   case 1886...1910:
     artPeriod = "Post Impressionism"
-  case 1912...1935: 
+  case 1912...1935:
     artPeriod = "Expressionism"
-  default:  
+  default:
     artPeriod = "Unknown"
 }
- 
+
 // Output: Post Impressionism
 ```
 
@@ -62,7 +63,7 @@ A compound case within a `switch` statement is a single `case` that contains mul
 
 ```swift
 let service = "Seamless"
- 
+
 switch service {
   case "Uber", "Lyft":
     print("Travel")
@@ -70,10 +71,10 @@ switch service {
     print("Restaurant delivery")
   case "Instacart", "FreshDirect":
     print("Grocery delivery")
-  default: 
+  default:
     print("Unknown service")
 }
- 
+
 // Output: Restaurant delivery
 ```
 
@@ -84,7 +85,7 @@ Within a `switch` statement, a `where` clause is used to test additional conditi
 ```swift
 
 let num = 7
- 
+
 switch num {
   case let x where x % 2 == 0:
     print("\(num) is even")
@@ -93,6 +94,6 @@ switch num {
   default:
     print("\(num) is invalid")
 }
- 
+
 // Output: 7 is odd
 ```

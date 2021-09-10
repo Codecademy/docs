@@ -1,13 +1,14 @@
 ---
-Title: "Hooks"
+Title: 'Hooks'
+Description: 'In React, hooks are functions that give function components class-like abilities. These abilities include: - Using state - Performing side effects While there are standard React hooks, like useState() and useEffect(), there are also custom-made hooks! Most hooks are imported from the react library: jsx import React, { useState, useEffect } from react;'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Functions"
-  - "React"
+  - 'Functions'
+  - 'React'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In React, hooks are functions that give function components class-like abilities. These abilities include:
@@ -20,7 +21,7 @@ While there are standard React hooks, like `useState()` and `useEffect()`, there
 Most hooks are imported from the `react` library:
 
 ```jsx
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 ```
 
 ## Syntax of useState()

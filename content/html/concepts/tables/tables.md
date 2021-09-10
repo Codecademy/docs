@@ -1,31 +1,32 @@
 ---
-Title: "Tables"
+Title: 'Tables'
+Description: 'In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows. | Name | Location | Category | Founded | CEO | Info | | :------------: | :------------: | :-------------: | :-----: | :---------------: | :-------------------------------: | | Pied Piper | Silicon Valley | Cloud Computing | 2014 | Richard Hendricks | A Middle-Out Compression Solution | | Hooli | Silicon Valley | Enterprise | 1997 | Gavin Bensen | Hooli is About People | | Raviga Capital | Silicon Valley | Venture Capital | 2012 | Peter Gregory | Share Only in Success | | Aviato | Silicon Valley | Travel | 2006 | Erlich Bachman | Software Aggregation Program |'
 Subjects:
-  - "Web Development"
-Tags: 
-  - "Tables"
-  - "Elements"
-  - "Web Development"
-CatalogContent: 
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'Web Development'
+Tags:
+  - 'Tables'
+  - 'Elements'
+  - 'Web Development'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
 
 ## Example
 
-| Name | Location | Category | Founded | CEO | Info |
-| :------: | :------: | :------: | :------: | :------: | :------: |
-| Pied Piper | Silicon Valley | Cloud Computing | 2014 | Richard Hendricks | A Middle-Out Compression Solution |
-| Hooli  | Silicon Valley  | Enterprise | 1997 | Gavin Bensen | Hooli is About People |
-| Raviga Capital	| Silicon Valley | Venture Capital | 2012 |	Peter Gregory |	Share Only in Success |
-| Aviato | Silicon Valley |	Travel | 2006 |	Erlich Bachman | Software Aggregation Program |
-| See Food | Silicon Valley	| Mobile | 2016	|	Jian-Yang	| The Shazam of Food |
+|      Name      |    Location    |    Category     | Founded |        CEO        |               Info                |
+| :------------: | :------------: | :-------------: | :-----: | :---------------: | :-------------------------------: |
+|   Pied Piper   | Silicon Valley | Cloud Computing |  2014   | Richard Hendricks | A Middle-Out Compression Solution |
+|     Hooli      | Silicon Valley |   Enterprise    |  1997   |   Gavin Bensen    |       Hooli is About People       |
+| Raviga Capital | Silicon Valley | Venture Capital |  2012   |   Peter Gregory   |       Share Only in Success       |
+|     Aviato     | Silicon Valley |     Travel      |  2006   |  Erlich Bachman   |   Software Aggregation Program    |
+|    See Food    | Silicon Valley |     Mobile      |  2016   |     Jian-Yang     |        The Shazam of Food         |
 
 ## Structure
 
-Tables are composed of multiple smaller types of elements that have special meaning within the structure of the table.  The elements that are used in the construction of a typical table are as follows:
+Tables are composed of multiple smaller types of elements that have special meaning within the structure of the table. The elements that are used in the construction of a typical table are as follows:
 
 ### Table
 
@@ -90,10 +91,9 @@ The table data element, denoted as `<td>`, is used to display individual data wi
 ```
 
 | Heading 1 | Heading 2 | Heading 3 |
-| :------: | :------: | :------: |
-| Cell 1   | Cell 2   | Cell 3   |
-| Cell 4   | Cell 5   | Cell 6   |
-
+| :-------: | :-------: | :-------: |
+|  Cell 1   |  Cell 2   |  Cell 3   |
+|  Cell 4   |  Cell 5   |  Cell 6   |
 
 ## Uses
 

@@ -1,22 +1,20 @@
 ---
-Title: "WITH"
-Description: "Stores the result of a query in a temporary table using an alias."
+Title: 'WITH'
+Description: 'Stores the result of a query in a temporary table using an alias.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Stores the result of a query in a temporary table using an alias.
 

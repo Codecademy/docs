@@ -1,18 +1,19 @@
 ---
-Title: "Padding"
+Title: 'Padding'
+Description: 'The space between the contents of a box and the borders of a box is known as padding. Padding is like the space between a picture and the frame surrounding it. In CSS, you can modify this space with the padding property. css p.content-header { border: 3px solid coral; padding: 10px; }'
 Subjects:
-  - "Web Development"
-  - "Web Design"
-Tags: 
-  - "Padding"
-  - "Elements"
-  - "Properties"
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Padding'
+  - 'Elements'
+  - 'Properties'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-The space between the contents of a box and the borders of a box is known as *padding*. Padding is like the space between a picture and the frame surrounding it. 
+The space between the contents of a box and the borders of a box is known as _padding_. Padding is like the space between a picture and the frame surrounding it.
 
 ## Syntax
 

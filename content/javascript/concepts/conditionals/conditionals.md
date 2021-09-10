@@ -1,15 +1,16 @@
 ---
-Title: "Conditionals"
+Title: 'Conditionals'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another. An if statement accepts an expression with a set of parentheses: - If the expression evaluates to a truthy value, then the code within its code body executes. - If the expression evaluates to a falsy value, its code body will not execute. js const isMailSent = true; if (isMailSent) {'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Conditionals"
-  - "If"
-  - "Else"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Conditionals'
+  - 'If'
+  - 'Else'
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
@@ -23,7 +24,7 @@ An `if` statement accepts an expression with a set of parentheses:
 
 ```js
 const isMailSent = true;
- 
+
 if (isMailSent) {
   console.log('Mail sent to recipient 💌');
 }
@@ -43,7 +44,7 @@ An `else` block can be added to an if block or series of if-else if blocks. The 
 
 ```js
 const isTaskCompleted = false;
- 
+
 if (isTaskCompleted) {
   console.log('Task completed');
 } else {
@@ -55,9 +56,9 @@ If the `hour` is less than 18, create a "Good day" greeting, otherwise "Good eve
 
 ```js
 if (hour < 18) {
-  greeting = "Good day 🌤";
+  greeting = 'Good day 🌤';
 } else {
-  greeting = "Good evening 🌙";
+  greeting = 'Good evening 🌙';
 }
 ```
 
@@ -69,11 +70,11 @@ If time is less than 10:00, create a "morning" greeting, if not, but time is les
 
 ```js
 if (time < 10) {
-  greeting = "Good morning 🌄";
+  greeting = 'Good morning 🌄';
 } else if (time < 20) {
-  greeting = "Good day 🌁";
+  greeting = 'Good day 🌁';
 } else {
-  greeting = "Good evening 🌉";
+  greeting = 'Good evening 🌉';
 }
 ```
 

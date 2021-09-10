@@ -1,20 +1,18 @@
 ---
-Title: "<blockquote>"
-Description: "Represents a section of a document which contains a longer quotation, usually spanning multiple lines."
+Title: '<blockquote>'
+Description: 'Represents a section of a document which contains a longer quotation, usually spanning multiple lines.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tags"
+  - 'Tags'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
- 
+Represents a section of a document which contains a longer quotation, usually spanning multiple lines.
 
-Represents a section of a document which contains a longer quotation, usually spanning multiple lines. 
-  
 A `<blockquote>` will often be shown by the browser indented from the surrounding text.
 
 ## Syntax
@@ -23,7 +21,7 @@ A `<blockquote>` will often be shown by the browser indented from the surroundin
 <blockquote cite="citation url">
   <!-- The quotation goes inside the tag -->
 </blockquote>
-``` 
+```
 
 `<blockquote>` is a tag that wraps around a block of HTML. If there is a URL that the quotation comes from, the attribute `cite` may be used to indicate it. It behaves similar to a `<div>`, but will often have a left margin set by the browser by default.
 
@@ -33,15 +31,15 @@ Suppose that an article with a long and important quote is being written for a w
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <article>
       <h2>Article Title</h2>
       <p>First paragraph of article.</p>
       <p>Second paragraph of article.</p>
       <blockquote>
-        <p>Important quote that needs to stand out.<p>
+        <p>Important quote that needs to stand out.</p>
+        <p></p>
         <p>Author Name, Quote Source</p>
       </blockquote>
       <p>Conclusion to article.</p>

@@ -1,18 +1,16 @@
 ---
-Title: "math.ceil()"
-Description: "Takes in a numeric data type and rounds the value up to the nearest integer."
+Title: 'math.ceil()'
+Description: 'Takes in a numeric data type and rounds the value up to the nearest integer.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
-
-
 
 Takes in a numeric data type and rounds the value up to the nearest integer.
 

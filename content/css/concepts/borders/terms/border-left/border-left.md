@@ -1,20 +1,18 @@
 ---
-Title: "border-left"
-Description: "Shorthand property that defines the width, color, and style of the left border of an element."
+Title: 'border-left'
+Description: 'Shorthand property that defines the width, color, and style of the left border of an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Borders"
-  - "Box Model"
-  - "Colors"
+  - 'Borders'
+  - 'Box Model'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Shorthand property that defines the width, color, and style of the left border of an element.
 

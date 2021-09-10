@@ -1,13 +1,14 @@
 ---
-Title: "Comments"
+Title: 'Comments'
+Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code. In Java, single-line comments are created with two consecutive forward slashes //. js // I am a single-line comment! System.out.println(Hello, world!);  A single-line comment can also be used to comment after a line of code:'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Comments"
-  - "Documentation"
+  - 'Computer Science'
+Tags:
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
@@ -18,13 +19,13 @@ In Java, single-line comments are created with two consecutive forward slashes `
 
 ```js
 // I am a single-line comment!
-System.out.println("Hello, world!");
+System.out.println('Hello, world!');
 ```
 
 A single-line comment can also be used to comment after a line of code:
 
 ```js
-System.out.println("Hello, world!"); // Me, too! 
+System.out.println('Hello, world!'); // Me, too!
 ```
 
 ## Multi-line Comments
@@ -33,7 +34,7 @@ Multi-line comments are created by surrounding the lines with `/*` at the beginn
 
 ```java
 /*
-And I am a 
+And I am a
 multi-line comment!
 */
 ```

@@ -1,17 +1,19 @@
 ---
-Title: "Functions"
+Title: 'Functions'
+Description: 'Functions are blocks of code that can be repeatedly called by other code when it executes. A function is not called when it is defined, but only when another part of the code executes the function. The syntax for a user defined function in PHP is similar to other languages: php function functionName(parameters) { code to execute; }'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Functions"
-  - "Parameters"
-  - "Arguments"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Functions'
+  - 'Parameters'
+  - 'Arguments'
 CatalogContent:
-  - "learn-php"
-  - "paths/front-end-engineer-career-path"
-  - "paths/computer-science"
+  - 'learn-php'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
+
 Functions are blocks of code that can be repeatedly called by other code when it executes.
 A function is not called when it is defined, but only when another part of the code executes the function.
 
@@ -43,10 +45,10 @@ The following function takes a numeric argument and returns a string saying if i
       return 'Even';
       }
     }
-    
+
     echo oddOrEven(15) . '<br />';
     // Output: Odd
-    
+
     echo oddOrEven(20) . '<br />';
     // Output: Even
 ?>
@@ -64,7 +66,7 @@ The `return` keyword in a function ends execution of the function and returns an
     return $x; // Execution stops and $x is returned to the caller
     $x = 15; // This is never executed
   }
-  
+
   echo example();
   // Output: 2;
 ?>
@@ -72,8 +74,8 @@ The `return` keyword in a function ends execution of the function and returns an
 
 ## Passing Parameters by Reference
 
-Parameters are usually passed to PHP functions "by value." This means that when a variable is passed to the function, 
-its value is copied and any change of the parameter variable does not affect the original variable. 
+Parameters are usually passed to PHP functions "by value." This means that when a variable is passed to the function,
+its value is copied and any change of the parameter variable does not affect the original variable.
 When a parameter is passed "by reference", changes to the variable inside the function will affect the variable being passed to the function.
 A parameter is passed by reference when it is preceded by `&` in the function definition.
 
@@ -82,7 +84,7 @@ A parameter is passed by reference when it is preceded by `&` in the function de
   function changeMe(&$x) {
     $x++;
     }
-    
+
   $y = 10;
   changeMe($y);
   echo $y;
@@ -99,7 +101,7 @@ PHP functions can be defined with default values for parameters that are omitted
   function default10($x = 10) {
     return $x;
     }
-    
+
    echo default10(5) . '<br />';
    // Output: 5
    echo default10(125) . '<br />';
@@ -120,7 +122,7 @@ In PHP 7 it introduced type declarations so a function definition can define wha
   function specifyTypes(int $x, int $y) {
     echo $x . "*" . $y . "=" . ($x * $y) . '<br />';
     }
-     
+
   specifyTypes(2, 3);
   specifyTypes(2, 3.5);
   specifyTypes(2, "3.8");
@@ -137,16 +139,16 @@ PHP can also use `strict` mode, where if a function is passed a data type it isn
   function specifyTypes(int $x, int $y) {
     echo $x . "*" . $y . "=" . ($x * $y) . '<br />';
   }
-     
+
   specifyTypes(2,3); // Outputs 2*3=6
   specifyTypes(2,3.5); // Throws error
   specifyTypes(2,"3.8"); // Throws error
   specifyTypes(2,"3 apples"); // Throws error
-  
+
 ?>
 ```
 
-In PHP 7, the function definition can also declare the data type it expects for its return value. 
+In PHP 7, the function definition can also declare the data type it expects for its return value.
 In `strict` mode an error will be thrown if there's a type mismatch.
 
 ```php
@@ -154,10 +156,9 @@ In `strict` mode an error will be thrown if there's a type mismatch.
   function throwsError(float $x, float $y) : int {
     return $x + $y;
   }
-    
+
   function typeSafe(float $x, float $y) : int {
     return (int)($x + $y);
   }
 ?>
 ```
-

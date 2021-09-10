@@ -1,21 +1,22 @@
 ---
-Title: "Classes"
+Title: 'Classes'
+Description: 'A C++ class is a user-defined data type that encapsulates information and behavior about an object. It serves as a blueprint for future inherited classes. cpp class Person { };  A class is comprised of class members: - Attributes, also known as member data, consist of information about an instance of the class.'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Classes"
-  - "Objects"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Classes'
+  - 'Objects'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A C++ class is a user-defined data type that encapsulates information and behavior about an object. It serves as a blueprint for future inherited classes.
 
 ```cpp
 class Person {
- 
+
 };
 ```
 
@@ -28,16 +29,16 @@ A class is comprised of class members:
 
 ```cpp
 class City {
- 
+
   // Attribute
   int population;
- 
+
 public:
   // Method
   void add_resident() {
     population++;
   }
- 
+
 };
 ```
 
@@ -50,16 +51,16 @@ C++ classes have access control operators that designate the scope of class memb
 
 ```cpp
 class City {
- 
-  int population; 
- 
+
+  int population;
+
 public:
-  void add_resident() { 
+  void add_resident() {
     population++;
   }
- 
+
 private:
   bool is_capital;
- 
+
 };
 ```

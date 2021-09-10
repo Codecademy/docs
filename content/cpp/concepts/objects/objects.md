@@ -1,15 +1,16 @@
 ---
-Title: "Objects"
+Title: 'Objects'
+Description: 'In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data. Suppose we have already created a class named MyClass, so now we can use it to create objects. To create an object of MyClass, specify the class name, followed by the object name. cpp City nyc; // Used the City class to create an object named nyc City shanghai; // Used the City class to create an object named shanghai '
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Objects"
-  - "OOP"
-  - "Classes"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Objects'
+  - 'OOP'
+  - 'Classes'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data.
@@ -28,7 +29,7 @@ To access the class attributes, use the dot syntax (`.`) on the object:
 Create an object called `myObj` and access the attributes:
 
 ```cpp
-class MyClass {       
+class MyClass {
   public:
     int myNum;
     std::string myString;
@@ -37,11 +38,11 @@ class MyClass {
 int main() {
   // Create an object of MyClass
   MyClass myObj;
-   
+
   // Access attributes and set values
-  myObj.myNum = 15; 
+  myObj.myNum = 15;
   myObj.myString = "Some text";
-   
+
   // Print attribute values
   std::cout << myObj.myNum << "\n";
   std::cout << myObj.myString;
@@ -56,7 +57,7 @@ int main() {
 #include <iostream>
 #include <string>
 
-class Cat {       
+class Cat {
   public:
     std::string name;
     std::string color;
@@ -68,11 +69,12 @@ int main() {
   Cat mochi;
 
   // Access attributes and set values
-  mochi.name = "Mochi"; 
+  mochi.name = "Mochi";
   mochi.color = "Gray";
   mochi.age = 2;
 
   std::cout << mochi.color;
-  
+
   return 0;
 }
+```

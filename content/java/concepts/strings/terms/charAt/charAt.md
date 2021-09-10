@@ -1,17 +1,15 @@
 ---
-Title: ".charAt()"
-Description: "Returns the character at the given index in the string."
+Title: '.charAt()'
+Description: 'Returns the character at the given index in the string.'
 Subjects:
-  - "Computer Science"
+  - 'Computer Science'
 Tags:
-  - "Strings"
-  - "Methods"
+  - 'Strings'
+  - 'Methods'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the character at the given index in the string.
 
@@ -31,7 +29,7 @@ Use `.charAt()` to print the first five characters of the string `"Hello World"`
 class CharacterAt {
   public static void main(String[] args) {
     String greeting = "Hello World";
-    
+
     System.out.println(greeting.charAt(0));
     System.out.println(greeting.charAt(1));
     System.out.println(greeting.charAt(2));
@@ -59,7 +57,7 @@ Use `.charAt()` in a for loop to print all the characters in the string `"Hello 
 class PrintAllCharacters {
   public static void main(String[] args) {
     String greeting = "Hello World";
-    
+
     for (int i = 0; i < greeting.length(); i++) {
       char ch = greeting.charAt(i);
       System.out.println(ch);

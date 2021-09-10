@@ -1,16 +1,17 @@
 ---
-Title: "Operators"
+Title: 'Operators'
+Description: 'C++ supports different types of arithmetic operators that can perform common mathematical operations: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) cpp'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Operators"
-  - "Arithmetic"
-  - "Comparison"
-  - "Logical"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Operators'
+  - 'Arithmetic'
+  - 'Comparison'
+  - 'Logical'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 ## Arithmetic Operators
@@ -25,7 +26,7 @@ C++ supports different types of arithmetic operators that can perform common mat
 
 ```cpp
 int x = 0;
- 
+
 x = 4 + 2;  // x is now 6
 x = 4 - 2;  // x is now 2
 x = 4 * 2;  // x is now 8
@@ -62,11 +63,11 @@ Logical operators can be used to combine two different conditions.
 if (coffee > 0 && donut > 1) {
   // Code runs if both are true
 }
- 
+
 if (coffee > 0 || donut > 1) {
   // Code runs if either is true
 }
- 
+
 if (!tired) {
   // Code runs if tired is false
 }

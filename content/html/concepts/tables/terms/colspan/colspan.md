@@ -1,21 +1,21 @@
 ---
-Title: "colspan"
-Description: "Specifies the number of columns a cell should span."
+Title: 'colspan'
+Description: 'Specifies the number of columns a cell should span.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Tables"
-  - "Elements"
-  - "Web Development"
+  - 'Tables'
+  - 'Elements'
+  - 'Web Development'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-[Table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png
+[table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png
 
-The `colspan` attributed defines the number of columns a cell should span. 
+The `colspan` attributed defines the number of columns a cell should span.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ The following elements support colspan:
 
 - `<td>`
 - `<th>`
- 
+
 ## Example 1
 
 A table with a cell that spans two columns.

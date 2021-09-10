@@ -1,22 +1,20 @@
 ---
-Title: "margin"
-Description: "Shorthand property for margin-top, margin-bottom, margin-left and margin-right to create space around an element or for each side individually. "
+Title: 'margin'
+Description: 'Shorthand property for margin-top, margin-bottom, margin-left and margin-right to create space around an element or for each side individually. '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Margin"
-  - "Box Model"
-  - "Positioning"
+  - 'Margin'
+  - 'Box Model'
+  - 'Positioning'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
-
-
-Shorthand property for `margin-top`, `margin-bottom`, `margin-left` and `margin-right` to create space around an element or for each side individually. 
+Shorthand property for `margin-top`, `margin-bottom`, `margin-left` and `margin-right` to create space around an element or for each side individually.
 
 ## Syntax
 
@@ -80,7 +78,7 @@ h1 {
 }
 ```
 
-## Example 4
+## Example 5
 
 Center `h1` horizontally:
 

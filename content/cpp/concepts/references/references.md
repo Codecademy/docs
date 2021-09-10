@@ -1,21 +1,23 @@
 ---
-Title: "References"
+Title: 'References'
+Description: 'A reference variable is an alias for another object. It is created using the & sign. Two things to note: - Anything done to the reference also happens to the original. - Aliases cannot be changed to alias something else. cpp int &sonny = songqiao; '
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "References"
-  - "Pointers"
-  - "Parameters"
-  - "Memory"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'References'
+  - 'Pointers'
+  - 'Parameters'
+  - 'Memory'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
-A reference variable is an alias for another object. It is created using the `&` sign. 
+A reference variable is an alias for another object. It is created using the `&` sign.
 
 Two things to note:
+
 - Anything done to the reference also happens to the original.
 - Aliases cannot be changed to alias something else.
 
@@ -41,13 +43,13 @@ void swap_num(int &i, int &j) {
   i = j;
   j = temp;
 }
- 
+
 int main() {
   int a = 100;
   int b = 200;
- 
+
   swap_num(a, b);
- 
+
   std::cout << "A is " << a << "\n";
   std::cout << "B is " << b << "\n";
 }

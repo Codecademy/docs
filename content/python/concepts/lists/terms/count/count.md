@@ -1,19 +1,17 @@
 ---
-Title: ".count()"
-Description: "Searches a list for a particular item and returns the number of matching entries found."
+Title: '.count()'
+Description: 'Searches a list for a particular item and returns the number of matching entries found.'
 Subjects:
-  - "Data Science"
-  - "Computer Science"
+  - 'Data Science'
+  - 'Computer Science'
 Tags:
-  - "Lists"
-  - "Methods"
+  - 'Lists'
+  - 'Methods'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/data-science"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
 ---
-
- 
 
 Searches a list for a particular item and returns the number of matching entries found.
 

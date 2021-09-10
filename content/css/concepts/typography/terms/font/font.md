@@ -1,16 +1,16 @@
 ---
-Title: "font"
+Title: 'font'
 Description: "Shorthand property that sets different properties for an element's font in a single declaration."
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Fonts"
-  - "Typography"
+  - 'Fonts'
+  - 'Typography'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 The `font` property is a shorthand property that sets different properties for an elements font in a single declaration.
@@ -18,7 +18,7 @@ The `font` property is a shorthand property that sets different properties for a
 ## Syntax
 
 ```css
-font: <values>; 
+font: <values>;
 ```
 
 The `font` property can have the following properties as values:
@@ -36,10 +36,9 @@ Optional values:
 - `font-style`
 - `font-varient`
 
-
 **Note 1:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
 
-**Note 2:** `line-height` must be declared after `font-size` and only following a forward slash.  
+**Note 2:** `line-height` must be declared after `font-size` and only following a forward slash.
 
 ## Example 1
 
@@ -47,7 +46,7 @@ Setting an `h1` elements font to Georgia italic, size of 10px, and line height o
 
 ```css
 h1 {
-  font: italic 10px/40px Georgia, sans-serif; 
+  font: italic 10px/40px Georgia, sans-serif;
 }
 ```
 
@@ -58,7 +57,7 @@ h1 {
   font-style: italic;
   font-size: 10px;
   line-height: 40px;
-  font-family: Georgia, sans-serif; 
+  font-family: Georgia, sans-serif;
 }
 ```
 
@@ -69,6 +68,6 @@ Setting an `h2` font with all seven properties in one decleration.
 ```css
 h2 {
   /* font-stretch | font-style | font-varient | font-weight | font-size | line-height | font-family */
-  font: expanded italic small-caps bolder 20px/30px cursive;  
+  font: expanded italic small-caps bolder 20px/30px cursive;
 }
 ```

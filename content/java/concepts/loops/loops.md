@@ -1,14 +1,15 @@
 ---
-Title: "Loops"
+Title: 'Loops'
+Description: 'The while loop loops through a block of code as long as a specified condition is true: pseudo while (condition) { // Code block to be executed }  In this example, the code in the loop will run again and again, as long as variable i is still less than 10:'
 Subjects:
-  - "Computer Science"
-Tags: 
-  - "Loops"
-  - "While"
-  - "For"
+  - 'Computer Science'
+Tags:
+  - 'Loops'
+  - 'While'
+  - 'For'
 CatalogContent:
-  - "learn-java"
-  - "paths/computer-science"
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 ## While Loop
@@ -54,10 +55,10 @@ When creating a `for`-`each` statement, you must include the `for` keyword and t
 ```java
 // Array of numbers
 int[] numbers = {1, 2, 3, 4, 5};
- 
+
 // For-each loop that prints each number in numbers
 // int num is the handle while numbers is the source array
-for (int num : numbers) {  
+for (int num : numbers) {
     System.out.println(num);
 }
 ```

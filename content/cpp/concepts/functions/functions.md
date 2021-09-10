@@ -1,16 +1,17 @@
 ---
-Title: "Functions"
+Title: 'Functions'
+Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions. In order to use them, we have to import the required library using #include. Here we are getting a function named sqrt() from the  library: cpp int main() { std::cout << sqrt(10); // Output: 3.16228'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Functions"
-  - "Arguments"
-  - "Parameters"
-  - "Return"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Functions'
+  - 'Arguments'
+  - 'Parameters'
+  - 'Return'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function.
@@ -24,7 +25,7 @@ Here we are getting a function named `sqrt()` from the `<cmath>` library:
 ```cpp
 #include <iostream>
 #include <cmath>
- 
+
 int main() {
   std::cout << sqrt(10);
   // Output: 3.16228
@@ -44,15 +45,15 @@ The definition is the actual body of the function which executes when a function
 
 ```cpp
 #include <iostream>
- 
+
 // Function declaration
-void blah(); 
- 
+void blah();
+
 // Main function
 int main() {
   blah();
 }
- 
+
 // Function definition
 void blah() {
   std::cout << "Blah blah";
@@ -65,12 +66,12 @@ In C++, if we declare the type of a function as `void`, it does not return a val
 
 ```cpp
 #include <iostream>
- 
+
 void print() {
   std::cout << "Hello World!";
 }
- 
-int main() { 
+
+int main() {
   print();
 }
 ```
@@ -83,14 +84,14 @@ On the other hand, a `void` function (one that does not return anything) does no
 
 ```cpp
 #include <iostream>
- 
+
 int sum(int a, int b);
- 
+
 int main() {
   int r = sum(10, 20);
   std::cout << r;
 }
- 
+
 int sum(int a, int b) {
   return(a + b);
 }
@@ -102,37 +103,37 @@ C++ functions typically have two parts: declaration and definition.
 
 Function declarations are generally stored in a header file (**.hpp** or **.h**) and function definitions (body of the function that defines how it is implemented) are written in the **.cpp** file.
 
-**main.cpp**
- 
+### main.cpp
+
 ```cpp
 #include <iostream>
 #include "functions.hpp"
- 
+
 int main() {
- 
+
   std::cout << say_hi("Sabaa");
- 
+
 }
 ```
- 
-**functions.hpp**
- 
+
+### functions.hpp
+
 ```cpp
 // Function declaration
 std::string say_hi(std::string name);
 ```
 
-**functions.cpp**
- 
+### functions.cpp
+
 ```cpp
 #include <string>
 #include "functions.hpp"
- 
+
 // Function defintion
 std::string say_hi(std::string name) {
- 
+
   return "Hey there, " + name + "!\n";
- 
+
 }
 ```
 
@@ -142,16 +143,16 @@ In C++, the values passed to a function are known as arguments. They represent t
 
 ```cpp
 #include <iostream>
- 
+
 void print(int);
- 
+
 int main() {
-  print(10); 
+  print(10);
   // The argument 10 is received as input value
 }
- 
+
 // Parameter a is defined for the function print
 void print(int a) {
-  std::cout << a;  
+  std::cout << a;
 }
 ```

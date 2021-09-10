@@ -1,16 +1,17 @@
 ---
-Title: "Casting"
+Title: 'Casting'
+Description: 'In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. For the most part methods usually begin with to[data-type]. To convert from String to Integer, use toi: rb meaningoflife = "42" puts meaningoflife.class # Output: String meaningoflife = meaningoflife.to_i'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Types"
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Types'
 CatalogContent:
-  - "learn-ruby"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-ruby'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another. 
+In Ruby, the language comes with a variety of building typecasting methods for conerting values from one data type to another.
 
 ## Syntax
 
@@ -46,7 +47,7 @@ puts meaning_of_life.class # Output: Float
 
 ### To Array
 
-To convert an Object to an Array, use `to_a`: 
+To convert an Object to an Array, use `to_a`:
 
 ```rb
 myObj = {
@@ -57,7 +58,7 @@ myObj = {
 puts myObj.to_a
 ```
 
-The output would be: 
+The output would be:
 
 ```shell
 name

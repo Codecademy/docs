@@ -1,13 +1,14 @@
 ---
-Title: "Loops"
+Title: 'Loops'
+Description: 'Loops are used to repeat a task a number of times. A loop runs a set of instructions or functions a given amount of times as long as a condition is met. The most common loop in Ruby is the for loop. Other loops are while, until, and do...while. This loop is utilized when you know beforehand how many times you want to repeat the task. ruby for i in 1..5 do puts "Message number #{i}" end '
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Loops"
+  - 'Loops'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Loops are used to repeat a task a number of times. A loop runs a set of instructions or functions a given amount of times as long as a condition is met. The most common loop in Ruby is the `for` loop. Other loops are `while`, `until`, and `do...while`.

@@ -1,14 +1,15 @@
 ---
-Title: "Merge"
+Title: 'Merge'
+Description: 'In Git, what if you wanted to include all the changes you made to a branch onto the main branch? Merge a pull request into the main branch when work is completed. Anyone with push access to the repository can complete the merge. To merge a branch into the main branch: shell git merge branchname  For example, if we want to merge our featuretest branch to the main branch: shell'
 Subjects:
-  - "Bash/Shell"
-  - "Developer Tools"
-Tags: 
-  - "Git"
-  - "GitHub"
+  - 'Bash/Shell'
+  - 'Developer Tools'
+Tags:
+  - 'Git'
+  - 'GitHub'
 CatalogContent:
-  - "learn-git"
-  - "learn-the-command-line"
+  - 'learn-git'
+  - 'learn-the-command-line'
 ---
 
 In Git, what if you wanted to include all the changes you made to a branch onto the `main` branch? Merge a pull request into the `main` branch when work is completed. Anyone with push access to the repository can complete the merge.
@@ -18,13 +19,13 @@ In Git, what if you wanted to include all the changes you made to a branch onto 
 To merge a branch into the `main` branch:
 
 ```shell
-$ git merge branch_name
+git merge branch_name
 ```
 
 For example, if we want to merge our `feature_test` branch to the `main` branch:
 
 ```shell
-$ git merge feature_test
+git merge feature_test
 ```
 
 ## Merging a Pull Request on GitHub
@@ -35,11 +36,11 @@ $ git merge feature_test
 
 3. Depending on the merge options enabled for your repository, you can:
 
-    - Merge all the commits into the base branch by clicking **Merge pull request**. If the **Merge pull request** option is not shown, then click the merge drop down menu and select **Create a merge commit**.
+   - Merge all the commits into the base branch by clicking **Merge pull request**. If the **Merge pull request** option is not shown, then click the merge drop down menu and select **Create a merge commit**.
 
-    - Squash the commits into one commit by clicking the merge drop down menu, selecting **Squash and merge** and then clicking the **Squash and merge** button.
+   - Squash the commits into one commit by clicking the merge drop down menu, selecting **Squash and merge** and then clicking the **Squash and merge** button.
 
-    - Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting **Rebase and merge** and then clicking the **Rebase and merge** button.
+   - Rebase the commits individually onto the base branch by clicking the merge drop down menu, selecting **Rebase and merge** and then clicking the **Rebase and merge** button.
 
 4. If prompted, type a commit message, or accept the default commit message.
 

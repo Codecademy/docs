@@ -1,16 +1,17 @@
 ---
-Title: "Loops"
+Title: 'Loops'
+Description: 'The for-in loop is used to iterate over collections, including strings and ranges. swift for char in "hehe" { print(char) }  The output would be:'
 Subjects:
-  - "Mobile Development"
-  - "Computer Science"
+  - 'Mobile Development'
+  - 'Computer Science'
 Tags:
-  - "Loops"
-  - "For"
-  - "While"
-  - "Control Flow"
+  - 'Loops'
+  - 'For'
+  - 'While'
+  - 'Control Flow'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 ## `for`-`in` Loop
@@ -85,7 +86,7 @@ for _ in 1...3 {
   print("Olé")
 }
 ```
- 
+
 The output would be:
 
 ```
@@ -103,12 +104,12 @@ If the condition is never `false` then the loop continues to run and the program
 ```swift
 var counter = 1
 var stopNum = Int.random(in: 1...10)
- 
+
 while counter < stopNum {
   print(counter)
   counter += 1
 }
- 
+
 // The loop prints until the stop condition is met
 ```
 
@@ -138,4 +139,3 @@ The output would be:
 1
 3
 ```
-

@@ -1,33 +1,34 @@
 ---
-Title: "What is a Bitwise Operator?"
+Title: 'What is a Bitwise Operator?'
+Description: 'Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications. Bitwise operators give programs greater control over applications by providing detailed implementation of algorithms (e.g., encryption, compression, etc.) and the ability to control physical state to a greater degree via manipulation of individual bits. They are widely used in the embedded systems where we need to set/clear/toggle single bits of a specific register without modifying the other contents and also extensively used in areas of graphics, especially XOR (exclusive OR) operations. | Operator | Example | Meaning | | -------- | -------- | -------------------------- | | & | a & b | Bitwise AND | | \| | a \| b | Bitwise OR |'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-  - "Best Practices"
-  - "Memory"
+  - 'Best Practices'
+  - 'Memory'
 CatalogContent:
-  - "paths/code-foundations"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications. 
+Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications.
 
-Bitwise operators give programs greater control over applications by providing detailed implementation of algorithms (e.g., encryption, compression, etc.) and the ability to control physical state to a greater degree via manipulation of individual bits. 
+Bitwise operators give programs greater control over applications by providing detailed implementation of algorithms (e.g., encryption, compression, etc.) and the ability to control physical state to a greater degree via manipulation of individual bits.
 
 They are widely used in the embedded systems where we need to set/clear/toggle single bits of a specific register without modifying the other contents and also extensively used in areas of graphics, especially XOR (exclusive OR) operations.
 
-## Bitwise Operator Table 
+## Bitwise Operator Table
 
-| Operator | Example | Meaning |
-| --- | --- | --- |
-| `&` | `a & b` | Bitwise AND |
-| `\|` | `a \| b` | Bitwise OR | 
-| `^` | `a ^ b` | Bitwise XOR (exclusive OR) |
-| `~` | `~a` | Bitwise NOT |
-| `<<` | `a << n` | Bitwise left shift |
-| `>>` | `a >> n` | Bitwise right shift |
+| Operator | Example  | Meaning                    |
+| -------- | -------- | -------------------------- |
+| `&`      | `a & b`  | Bitwise AND                |
+| `\|`     | `a \| b` | Bitwise OR                 |
+| `^`      | `a ^ b`  | Bitwise XOR (exclusive OR) |
+| `~`      | `~a`     | Bitwise NOT                |
+| `<<`     | `a << n` | Bitwise left shift         |
+| `>>`     | `a >> n` | Bitwise right shift        |
 
 ## Example in Python
 
@@ -40,7 +41,7 @@ print("x | y =", x | y)
 
 # Bitwise AND operation
 print("x & y =", x & y)
- 
+
 # Bitwise XOR operation
 print("x ^ y =", x ^ y)
 

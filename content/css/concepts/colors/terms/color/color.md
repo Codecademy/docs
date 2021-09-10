@@ -1,19 +1,17 @@
 ---
-Title: "color"
-Description: "To set color property values for an element."
+Title: 'color'
+Description: 'To set color property values for an element.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Style"
-  - "Colors"
+  - 'Style'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 To set color property values for an element.
 

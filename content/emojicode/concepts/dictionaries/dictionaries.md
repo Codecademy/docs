@@ -1,21 +1,24 @@
 ---
-Title: "🍯 Dictionaries"
+Title: '🍯 Dictionaries'
+Description: '🍯, or dictionary or hash map in other languages, is an ordered set of value pairs: pseudo 🔤key🔤 ➡️ 🔤value🔤  It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don’t have to be. emojic 🏁 🍇'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Dictionaries"
-  - "Data Types"
-  - "Arrays"
-  - "Lists"
+  - 'Dictionaries'
+  - 'Data Types'
+  - 'Arrays'
+  - 'Lists'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 🍯, or dictionary or hash map in other languages, is an ordered set of value pairs:
 
-`🔤key🔤 ➡️ 🔤value🔤`
+```pseudo
+🔤key🔤 ➡️ 🔤value🔤
+```
 
 It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don’t have to be.
 

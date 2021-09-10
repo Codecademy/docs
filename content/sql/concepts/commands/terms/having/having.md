@@ -1,21 +1,19 @@
 ---
-Title: "HAVING"
-Description: "A conditional statement similar to WHERE but used with aggregate functions (COUNT(), MIN(), MAX(), SUM(), AVG())."
+Title: 'HAVING'
+Description: 'A conditional statement similar to WHERE but used with aggregate functions (COUNT(), MIN(), MAX(), SUM(), AVG()).'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
- 
 
 A conditional statement similar to `WHERE` but used with aggregate functions (`COUNT()`, `MIN()`, `MAX()`, `SUM()`, `AVG()`).
 

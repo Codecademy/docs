@@ -1,15 +1,16 @@
 ---
-Title: "😀 Hello World"
+Title: '😀 Hello World'
+Description: 'We write Emojicode programs in files with the extension .emojic or .🍇. Almost all the code in an Emojicode program will live inside a 🏁 block. A block is a collection of code. The 🏁 block indicates all the code that should run when the file is executed. Within our larger program, we can indicate one or more blocks of code with 🍇 🍉 code blocks: - 🍇 to indicate the start of the code block - 🍉 to indicate the end of the code block So a basic Emojicode file will have the following structure: pseudo'
 Subjects:
-  - "Computer Science"
-  - "Code Foundations"
+  - 'Computer Science'
+  - 'Code Foundations'
 Tags:
-  - "Syntax"
-  - "Print"
-  - "Strings"
+  - 'Syntax'
+  - 'Print'
+  - 'Strings'
 CatalogContent:
-  - "learn-emojicode"
-  - "paths/computer-science"
+  - 'learn-emojicode'
+  - 'paths/computer-science'
 ---
 
 We write Emojicode programs in files with the extension **.emojic** or **.🍇**.

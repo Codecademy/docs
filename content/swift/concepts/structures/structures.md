@@ -1,16 +1,17 @@
 ---
-Title: "Structures"
+Title: 'Structures'
+Description: 'Structures, or structs, are used to programmatically represent a real-life object in code. Structures are created with the struct keyword followed by its name and then body containing its properties and methods. swift struct Building { var address: String var floors: Int init(address: String, floors: Int, color: String) { self.address = address'
 Subjects:
-  - "Mobile Development"
-  - "Computer Science"
+  - 'Mobile Development'
+  - 'Computer Science'
 Tags:
-  - "Structures"
-  - "Classes"
-  - "Variables"
-  - "Methods"
+  - 'Structures'
+  - 'Classes'
+  - 'Variables'
+  - 'Methods'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 Structures, or `structs`, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then body containing its properties and methods.
@@ -19,7 +20,7 @@ Structures, or `structs`, are used to programmatically represent a real-life obj
 struct Building {
   var address: String
   var floors: Int
- 
+
   init(address: String, floors: Int, color: String) {
     self.address = address
     self.floors = floors
@@ -36,9 +37,9 @@ struct Car {
   var numOfWheels = 4
   var topSpeed = 80
 }
- 
+
 var reliantRobin = Car(numOfWheels: 3)
- 
+
 print(reliantRobin.numOfWheels) // Prints: 3
 print(reliantRobin.topSpeed)    // Prints: 80
 ```
@@ -51,7 +52,7 @@ A new instance of a structure is created by using the name of the structure with
 struct Person {
   var name: String
   var age: Int
- 
+
   init(name: String, age: Int) {
     self.name = name
     self.age = age
@@ -67,7 +68,7 @@ Structures can have an `init()` method to initialize values to an instance’s p
 struct TV {
   var screenSize: Int
   var displayType: String
-  
+
   init(screenSize: Int, displayType: String) {
     self.screenSize = screenSize
     self.displayType = displayType
@@ -85,12 +86,12 @@ struct Dog {
     print("Woof")
   }
 }
- 
+
 let fido = Dog()
 fido.bark() // Prints: Woof
- 
+
 var newTV = TV(screenSize: 65, displayType: "LED")
- 
+
 // Instance of Person:
 var morty = Person(name: "Morty", age: 14)
 ```
@@ -102,16 +103,16 @@ Structure methods declared with the mutating keyword allow the method to affect 
 ```swift
 struct Menu {
   var menuItems = ["Fries", "Burgers"]
- 
+
   mutating func addToMenu(dish: String) {
     self.menuItems.append(dish)
   }
 }
- 
+
 var dinerMenu = Menu()
- 
+
 dinerMenu.addToMenu(dish: "Toast")
 
-print(dinerMenu.menuItems) 
+print(dinerMenu.menuItems)
 // Output: ["Fries", "Burgers", "Toast"]
 ```

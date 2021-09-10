@@ -1,20 +1,21 @@
 ---
-Title: "Data Types"
+Title: 'Data Types'
+Description: 'Data types represent different types of data such as numbers, booleans, strings, etc. As an object-oriented language, all data types are based on classes. Ruby has different types of numbers such as integers and floating point numbers. ruby count = 1 rating = 1.5 miles = 127 hours = 2.5'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Data Types"
-  - "Variables"
-  - "Arrays"
-  - "Booleans"
-  - "Hashes"
-  - "Numbers"
-  - "Strings"
-  - "Symbol"
+  - 'Data Types'
+  - 'Variables'
+  - 'Arrays'
+  - 'Booleans'
+  - 'Hashes'
+  - 'Numbers'
+  - 'Strings'
+  - 'Symbol'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Data types represent different types of data such as numbers, booleans, strings, etc. As an object-oriented language, all data types are based on classes.

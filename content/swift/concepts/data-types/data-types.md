@@ -1,31 +1,32 @@
 ---
-Title: "Data Types"
+Title: 'Data Types'
+Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later. | Type | Example | Description | | ----------- | :--------------: | --------------------- | | Int | 5, -638 | Integer whole number | | Float | 3.14, -8.323 | Floating point number | | Double | 6.2831853071 | Floating point number |'
 Subjects:
-  - "iOS"
-  - "Mobile Development"
+  - 'iOS'
+  - 'Mobile Development'
 Tags:
-  - "Data Types"
-  - "Booleans"
-  - "Integers"
-  - "Strings"
+  - 'Data Types'
+  - 'Booleans'
+  - 'Integers'
+  - 'Strings'
 CatalogContent:
-  - "learn-swift"
-  - "paths/build-ios-apps-with-swiftui"
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. 
+All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler.
 
 In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later.
 
 ## Basic Data Types
 
-| Type        | Example          | Description           |
+| Type        |     Example      | Description           |
 | ----------- | :--------------: | --------------------- |
-| `Int`       | `5`, `-638`      | Integer whole number  |
+| `Int`       |   `5`, `-638`    | Integer whole number  |
 | `Float`     | `3.14`, `-8.323` | Floating point number |
-| `Double`    | `6.2831853071`   | Floating point number |
-| `String`    | `Hello world!`   | Text                  |
-| `Character` | `c`, `$`         | Single character      |
+| `Double`    |  `6.2831853071`  | Floating point number |
+| `String`    |  `Hello world!`  | Text                  |
+| `Character` |     `c`, `$`     | Single character      |
 | `Bool`      | `true`, `false`  | Logical values        |
 
 ## Integer Data Types
@@ -79,7 +80,7 @@ As of some one gently rapping, rapping at my chamber door.
 
 ## Boolean Data Type
 
-Boolean values, initialized using the `Bool` keyword, represent `true` and `false`. They are used in control flow and other conditional statements to process the logical decision points in your program leading them to be referred to as *logical* values. They can be declared directly or by using a logical test.
+Boolean values, initialized using the `Bool` keyword, represent `true` and `false`. They are used in control flow and other conditional statements to process the logical decision points in your program leading them to be referred to as _logical_ values. They can be declared directly or by using a logical test.
 
 ```swift
 let fallingOnPavementHurts = true

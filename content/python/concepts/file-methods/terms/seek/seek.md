@@ -1,23 +1,20 @@
 ---
-Title: ".seek()"
+Title: '.seek()'
 Description: "Allows the user to move the location of the file handle's reference point within an open file from one place to another."
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Files"
-  - "Methods"
-  - "Functions"
-  - "Strings"
+  - 'Files'
+  - 'Methods'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-
-
-Allows the user to move the location of the file handle's reference point within an open file from one place to another.
+The `.seek()` file method allows the user to move the location of the file handle's reference point within an open file from one place to another.
 
 ## Syntax
 
@@ -25,11 +22,11 @@ Allows the user to move the location of the file handle's reference point within
 file.seek(offset, from what location)
 ```
 
-## Example 1
+## Example
 
 Use `.seek()` to change the position of the reference point within the **gullivers_travels.txt** file:
 
-```codebyte/python
+```python
 f = open("gullivers_travels.txt", "r")
 
 # Print first line of the document from default 0th position

@@ -1,14 +1,15 @@
 ---
-Title: "JSX"
+Title: 'JSX'
+Description: 'JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. Its used to create DOM elements which are then rendered in the React DOM. While not required in React, JSX provides a neat visual reqresentation of the applications UI. A JavaScript file containing JSX will have to be compiled before it reaches a web browser. JSX looks a lot like HTML: js const headerElement = This is a header; '
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "DOM"
-  - "React"
-  - "Syntax"
+  - 'DOM'
+  - 'React'
+  - 'Syntax'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. It's used to create DOM elements which are then rendered in the React DOM.
@@ -30,18 +31,18 @@ In the block of code, we see the similarities between JSX syntax and HTML: they 
 Under the hood, after it's been processed to regular JavaScript, it looks like this:
 
 ```js
-const headerElement = React.createElement("h1", "This is a header");
+const headerElement = React.createElement('h1', 'This is a header');
 ```
 
 JavaScript code, such as variables and functions, can be used in JSX, as well:
 
 ```js
-import React from "react";
+import React from 'react';
 
 const App = () => {
   return (
     <React.Fragment>
-      <button onClick={() => "The button was clicked!"}>Click!</button>
+      <button onClick={() => 'The button was clicked!'}>Click!</button>
     </React.Fragment>
   );
 };
@@ -49,7 +50,7 @@ const App = () => {
 
 ## JSX Attributes
 
-The syntax of JSX attributes closely resembles that of HTML attributes. 
+The syntax of JSX attributes closely resembles that of HTML attributes.
 
 ```js
 const example = <h1 id="example">JSX Attributes</h1>;
@@ -64,9 +65,7 @@ In order for the code to compile, a JSX expression must have exactly one outermo
 ```js
 const myClasses = (
   <a href="https://www.codecademy.com">
-    <h1>
-      Sign Up!
-    </h1>
+    <h1>Sign Up!</h1>
   </a>
 );
 ```
@@ -87,7 +86,6 @@ const myList = (
 
 Here, we see the opening parentheses on the same line as the constant declaration, before the JSX expression begins. We see the closing parentheses on the line following the end of the JSX expression.
 
-
 ## JSX with `.map()` Method
 
 The array method `.map()` comes up often in React. It’s good to get in the habit of using it alongside JSX.
@@ -96,10 +94,10 @@ If you want to create a list of JSX elements from a given array, then`.map()` ov
 
 ```js
 const strings = ['Home', 'Shop', 'About Me'];
- 
-const listItems = strings.map(string => <li>{string}</li>);
- 
-<ul>{listItems}</ul>
+
+const listItems = strings.map((string) => <li>{string}</li>);
+
+<ul>{listItems}</ul>;
 ```
 
 ## JSX Conditionals
@@ -111,11 +109,7 @@ JSX does not support `if`/`else` syntax in embedded JavaScript. There are three 
 Using ternary operator within curly braces in JSX:
 
 ```js
-const headline = (
-  <h1>
-    { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
-  </h1>
-);
+const headline = <h1>{age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff'}</h1>;
 ```
 
 ### Using `if` Statement
@@ -124,15 +118,14 @@ Using `if`/`else` statement outside of JSX element:
 
 ```js
 let text;
- 
+
 if (age >= drinkingAge) {
   text = 'Buy Drink';
-}
-else { 
+} else {
   text = 'Do Teen Stuff';
 }
- 
-const headline = <h1>{ text }</h1>
+
+const headline = <h1>{text}</h1>;
 ```
 
 ### Using `&&` Operator
@@ -142,14 +135,12 @@ Using `&&` AND operator:
 ```js
 // Renders as empty div if length is 0
 const unreadMessages = ['hello?', 'remember me!'];
- 
+
 const update = (
   <div>
-    {unreadMessages.length > 0 &&
-      <h1>
-        You have {unreadMessages.length} unread messages.
-      </h1>
-    }
+    {unreadMessages.length > 0 && (
+      <h1>You have {unreadMessages.length} unread messages.</h1>
+    )}
   </div>
 );
 ```

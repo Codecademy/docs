@@ -1,14 +1,15 @@
 ---
-Title: "Primary Keys"
+Title: 'Primary Keys'
+Description: 'SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys. A primary key column has a few requirements: - None of the values can be NULL. - Each value must be unique (i.e., you can’t have two customers with the same customerid in the customers table). - A table can not have more than one primary key column. Heres an orders table where the orderid is its primary key: | orderid | customerid | totalcost | purchasedate |'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
-Tags: 
-  - "Comments"
-  - "Documentation"
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Comments'
+  - 'Documentation'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
 ---
 
 SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys.
@@ -22,20 +23,20 @@ A primary key column has a few requirements:
 Here's an `orders` table where the `order_id` is its primary key:
 
 | order_id | customer_id | total_cost | purchase_date |
-| --- | --- | --- | --- |
-| 1	| 1001	| 13.99	| 2022-01-01 |
-| 2	| 1294	| 61.42	| 2022-01-01 |
-| 3	| 1001	| 23.45	| 2022-01-02 |
+| -------- | ----------- | ---------- | ------------- |
+| 1        | 1001        | 13.99      | 2022-01-01    |
+| 2        | 1294        | 61.42      | 2022-01-01    |
+| 3        | 1001        | 23.45      | 2022-01-02    |
 
 ## Syntax
 
- `PRIMARY KEY` columns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in a *constraint violation* which will not allow you to insert the new row.
+`PRIMARY KEY` columns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in a _constraint violation_ which will not allow you to insert the new row.
 
 The statement below sets a `PRIMARY KEY` on the `students` table:
 
 ```sql
 CREATE TABLE students (
-  id INTEGER PRIMARY KEY, 
+  id INTEGER PRIMARY KEY,
   name TEXT,
   grade INTEGER,
   age INTEGER

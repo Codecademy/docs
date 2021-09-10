@@ -1,21 +1,19 @@
 ---
-Title: "GROUP BY"
-Description: "Groups a result set based on an aggregate function (COUNT(), MIN(), MAX(), SUM(), AVG()). It lists the number in each group."
+Title: 'GROUP BY'
+Description: 'Groups a result set based on an aggregate function (COUNT(), MIN(), MAX(), SUM(), AVG()). It lists the number in each group.'
 Subjects:
-  - "Data Science"
+  - 'Data Science'
 Tags:
-  - "Database"
-  - "Queries"
-  - "PostgreSQL"
-  - "MySQL"
-  - "SQLite"
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
 CatalogContent:
-  - "learn-sql"
-  - "paths/analyze-data-with-sql"
-  - "paths/design-databases-with-postgresql"
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
 ---
-
-
 
 Groups a result set based on an aggregate function (`COUNT()`, `MIN()`, `MAX()`, `SUM()`, `AVG()`). It lists the number in each group.
 

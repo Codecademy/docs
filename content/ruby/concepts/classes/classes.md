@@ -1,14 +1,15 @@
 ---
-Title: "Classes"
+Title: 'Classes'
+Description: 'Classes are like blueprints for creating objects. Objects are often called instances of a class. Classes define the properties and methods that objects created from them will have. For example, a ball is a class and baseball, football, and basketball are instances of the ball class. The class keyword followed by a name with the first letter capitalized creates a new class. The end keyword ends the class definition. Objects, or instances of the class, are created by calling the new method on the class. ruby class Ball # Properties and methods of the class end ball1 = Ball.new'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Classes"
-  - "Objects"
+  - 'Classes'
+  - 'Objects'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 Classes are like blueprints for creating objects. Objects are often called instances of a class. Classes define the properties and methods that objects created from them will have. For example, a ball is a class and baseball, football, and basketball are instances of the ball class.

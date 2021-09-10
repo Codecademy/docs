@@ -1,18 +1,18 @@
 ---
-Title: "strchr()"
-Description: "Finds the first occurence of a given character."
+Title: 'strchr()'
+Description: 'Finds the first occurence of a given character.'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Strings"
-  - "Data Types"
-  - "Characters"
-  - "Arrays"
-  - "Functions"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Data Types'
+  - 'Characters'
+  - 'Arrays'
+  - 'Functions'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 The `strchr()` string function finds the first occurence of a given character.

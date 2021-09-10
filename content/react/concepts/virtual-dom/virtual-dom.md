@@ -1,14 +1,15 @@
 ---
-Title: "Virtual DOM"
+Title: 'Virtual DOM'
+Description: 'In React, Virtual DOM is a conceptual representation of the actual DOM object, like a lightweight copy. A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing’s power to directly change what’s on the screen. Manipulating the DOM is slow. Manipulating the virtual DOM is much faster, because nothing gets drawn onscreen. Think of manipulating the virtual DOM as editing a blueprint, as opposed to moving rooms in an actual house. With Virtual DOM, when changes are made to the UI and theres a re-render, they are compared to the relevant branches in the DOM-tree. Then, the changes are applied to the DOM-tree. React Virtual DOM compared with the Real DOM The Virtual DOM is not to be confused with the Shadow DOM, or any other technology or concept. When you render a JSX element, every single virtual DOM object gets updated. This sounds incredibly inefficient, but the cost is insignificant because the virtual DOM can update so quickly. Once the virtual DOM has updated, then React compares the virtual DOM with a virtual DOM snapshot that was taken right before the update. By comparing the new virtual DOM with a pre-update version, React figures out exactly which virtual DOM objects have changed. This process is called “diffing.”'
 Subjects:
-  - "Web Development"
+  - 'Web Development'
 Tags:
-  - "Conceptual"
-  - "DOM"
-  - "React"
+  - 'Conceptual'
+  - 'DOM'
+  - 'React'
 CatalogContent:
-  - "react-101"
-  - "paths/front-end-engineer-career-path"
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 In React, Virtual DOM is a conceptual representation of the actual DOM object, like a lightweight copy. A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing’s power to directly change what’s on the screen.

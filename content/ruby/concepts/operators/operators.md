@@ -1,13 +1,14 @@
 ---
-Title: "Operators"
+Title: 'Operators'
+Description: 'Basic math operations can be applied to integer and floating point values: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) ruby'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Operators"
+  - 'Operators'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 ## Arithmetic Operators

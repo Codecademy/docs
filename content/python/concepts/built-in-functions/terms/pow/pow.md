@@ -1,20 +1,18 @@
 ---
-Title: "pow()"
-Description: "Returns the value of a base number x to the power of an exponent y, with an optional modulus z."
+Title: 'pow()'
+Description: 'Returns the value of a base number x to the power of an exponent y, with an optional modulus z.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Methods"
-  - "Strings"
+  - 'Functions'
+  - 'Methods'
+  - 'Strings'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/data-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
-
-
 
 Returns the value of a base number `x` to the power of an exponent `y`, with an optional modulus `z`.
 

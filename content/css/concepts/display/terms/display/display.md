@@ -1,16 +1,16 @@
 ---
-Title: "display"
-Description: "Specifies the display behavior of an elements rendering box."
+Title: 'display'
+Description: 'Specifies the display behavior of an elements rendering box.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Box Model"
-  - "Layout"
+  - 'Box Model'
+  - 'Layout'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
 
 Specifies the display behavior of an elements rendering box.
@@ -21,7 +21,7 @@ Specifies the display behavior of an elements rendering box.
 display: <value>;
 ```
 
-The following values can be appplied to the `display` property: 
+The following values can be appplied to the `display` property:
 
 - `inline`
 - `block`

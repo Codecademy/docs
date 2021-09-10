@@ -1,14 +1,15 @@
 ---
-Title: "Variables" 
+Title: 'Variables'
+Description: 'A variable is a location in computer memory used to store data, usually for use in a program. To declare a variable in C, the type of variable is first included, followed by the name, and the value. pseudo type name = value;  Though if a variable does not yet need a value assigned to it, this can be ommitted and assigned later. c'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
-Tags: 
-  - "Variables"
-  - "Data Types"
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Variables'
+  - 'Data Types'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A variable is a location in computer memory used to store data, usually for use in a program.
@@ -44,7 +45,7 @@ int main(void) {
   printf("%d\n", number);
   printf("%c\n", letter);
 
-  return 0; 
+  return 0;
 }
 ```
 

@@ -1,16 +1,17 @@
 ---
-Title: "Switch"
+Title: 'Switch'
+Description: 'A switch statement provides a means of checking an expression against various case statements. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case. Theres also an optional default statement marking code that executes if none of the case statements are true. A switch statement looks like: cpp switch (grade) { case 9: std::cout << "Freshman\n";'
 Subjects:
-  - "Computer Science"
-  - "Game Development"
-Tags: 
-  - "Switch"
-  - "Conditionals"
-  - "Control Flow"
-  - "Comparison"
+  - 'Computer Science'
+  - 'Game Development'
+Tags:
+  - 'Switch'
+  - 'Conditionals'
+  - 'Control Flow'
+  - 'Comparison'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 A `switch` statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
@@ -49,7 +50,7 @@ switch (grade) {
 
 In the code above, suppose grade is equal to `10`, then the output would be “Sophomore”.
 
-**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and *all* subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
 
 ## Codebyte Example
 
@@ -58,7 +59,7 @@ In the code above, suppose grade is equal to `10`, then the output would be “S
 
 int main() {
   int rating = 3;
-  
+
   switch (rating) {
     case 5:
       std::cout << "Exceptional";

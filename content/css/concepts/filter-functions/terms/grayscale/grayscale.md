@@ -1,20 +1,18 @@
 ---
-Title: "grayscale()"
-Description: "Converts an element to grayscale."
+Title: 'grayscale()'
+Description: 'Converts an element to grayscale.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Images"
-  - "Functions"
-  - "Colors"
+  - 'Images'
+  - 'Functions'
+  - 'Colors'
 CatalogContent:
-  - "learn-css"
-  - "paths/front-end-engineer-career-path"
-  - "paths/full-stack-engineer-career-path"
+  - 'learn-css'
+  - 'paths/front-end-engineer-career-path'
+  - 'paths/full-stack-engineer-career-path'
 ---
-
-
 
 Converts an element to grayscale.
 
@@ -40,4 +38,3 @@ Give the image a grayscale of `20%`:
   filter: grayscale(20%);
 }
 ```
-

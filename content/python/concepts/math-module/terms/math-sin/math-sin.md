@@ -1,18 +1,16 @@
 ---
-Title: "math.sin()"
-Description: "Returns the sine of input numeric x, measured in radian value."
+Title: 'math.sin()'
+Description: 'Returns the sine of input numeric x, measured in radian value.'
 Subjects:
-  - "Computer Science"
-  - "Data Science"
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - "Functions"
-  - "Arithmetic"
+  - 'Functions'
+  - 'Arithmetic'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
-
-
 
 Returns the sine of input numeric x, measured in radian value.
 

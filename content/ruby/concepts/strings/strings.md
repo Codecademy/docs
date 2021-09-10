@@ -1,14 +1,15 @@
 ---
-Title: "Strings"
+Title: 'Strings'
+Description: 'A string is a sequence of one or more characters that represents a word or a sentence. It may contain letters, numbers, or symbols. They are created by surrounding a sequence of characters with single or double quotes. Strings are mutable, which means that they can be changed. A string can be created by using the " (double quotes) or  (single quotes) around a sequence of characters. ruby puts String created using single quotes. puts "String created using double quotes."  Double quotes allow variable interpolation. This means that you can use a variable inside a string.'
 Subjects:
-  - "Web Development"
-  - "Web Design"
+  - 'Web Development'
+  - 'Web Design'
 Tags:
-  - "Variables"
-  - "Variables Types"
+  - 'Variables'
+  - 'Variables Types'
 CatalogContent:
-  - "learn-ruby"
-  - "learn-rails"
+  - 'learn-ruby'
+  - 'learn-rails'
 ---
 
 A string is a sequence of one or more characters that represents a word or a sentence. It may contain letters, numbers, or symbols. They are created by surrounding a sequence of characters with single or double quotes. Strings are mutable, which means that they can be changed.

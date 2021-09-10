@@ -1,15 +1,16 @@
 ---
-Title: "What is an Argument?"
+Title: 'What is an Argument?'
+Description: 'An argument is the actual value of a variable (aka. the parameter) passed into a function. Suppose we have a function called tripleThis(): js function tripleThis(x) { return x * 3; } tripleThis(6);'
 Subjects:
-  - "Computer Science"
-  - "Web Development"
-Tags: 
-  - "Functions"
-  - "Parameters"
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'Functions'
+  - 'Parameters'
 CatalogContent:
-  - "learn-python-3"
-  - "paths/computer-science"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-python-3'
+  - 'paths/computer-science'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 An argument is the actual value of a variable (aka. the parameter) passed into a function.
@@ -20,10 +21,10 @@ Suppose we have a function called `tripleThis()`:
 
 ```js
 function tripleThis(x) {
-   return x * 3 
+  return x * 3;
 }
 
-tripleThis(6)
+tripleThis(6);
 ```
 
 The parameter is `x` since it is the variable. The argument is `6` since it is the actual value.

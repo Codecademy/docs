@@ -1,18 +1,19 @@
 ---
-Title: "Sort"
+Title: 'Sort'
+Description: 'In JavaScript, the .sort() method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. The .sort() method allows the passing of a comparison function to change the ordering of the sort. javascript // Preform the default sort somearray.sort() // Perform the sort using an arrow function for comparisons somearray.sort((A, B) => { ... } )'
 Subjects:
-  - "Web Development"
-  - "Computer Science"
-Tags: 
-  - "Arrays"
-  - "Methods"
-  
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Methods'
+
 CatalogContent:
-  - "introduction-to-javascript"
-  - "paths/front-end-engineer-career-path"
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. 
+In JavaScript, the `.sort()` method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order.
 
 The `.sort()` method allows the passing of a comparison function to change the ordering of the sort.
 
@@ -38,7 +39,7 @@ somearray.sort(compareFn)
 
 ## Default Sort Order
 
-If no comparison function are provided, the `.sort()` method will sort the array in ascending string order. 
+If no comparison function are provided, the `.sort()` method will sort the array in ascending string order.
 For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
 
 ```javascript
@@ -47,12 +48,12 @@ let numbers = [33, 16, 156, 2, 9, 5, 10];
 numbers.sort();
 
 console.log(numbers);
-// Output: [10, 156, 16, 2, 33, 5, 9]  
+// Output: [10, 156, 16, 2, 33, 5, 9]
 ```
 
 ## Comparison Function
 
-The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array. 
+The comparison function, if provided, will determine the sorting of all non-`undefined` items in the array.
 All `undefined` items are sorted to the end of the array, and no `undefined` items are passed to the comparison function.
 The comparison function determines the sort order as follows:
 
@@ -76,9 +77,10 @@ So we can fix the prior example:
 ```javascript
 let numbers = [33, 16, 156, 2, 9, 5, 10];
 
-numbers.sort(function compareFn(A, B) { return A-B; });
+numbers.sort(function compareFn(A, B) {
+  return A - B;
+});
 
 console.log(numbers);
-// Output: [2, 5, 9, 10, 16, 33, 156]   
+// Output: [2, 5, 9, 10, 16, 33, 156]
 ```
-

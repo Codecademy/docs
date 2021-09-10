@@ -1,16 +1,17 @@
 ---
-Title: "Images"
+Title: 'Images'
+Description: 'Embedding an image is very similar to adding a link in Markdown: markdown Alt text  - Add an exclamation mark ! - Followed by the alt text in square brackets [Alt text] - And the path or URL to the image asset in parentheses ( ).'
 Subjects:
-  - "Developer Tools"
-  - "Web Development"
-Tags: 
-  - "Images"
-  - "URL"
-  - "Documentation"
-  - "GitHub"
+  - 'Developer Tools'
+  - 'Web Development'
+Tags:
+  - 'Images'
+  - 'URL'
+  - 'Documentation'
+  - 'GitHub'
 CatalogContent:
-  - "learn-html"
-  - "paths/front-end-engineer-career-path"
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Embedding an image is very similar to adding a link in Markdown:
@@ -21,7 +22,7 @@ Embedding an image is very similar to adding a link in Markdown:
 
 - Add an exclamation mark `!`
 - Followed by the alt text in square brackets `[Alt text]`
-- And the path or URL to the image asset in parentheses `(` `)`. 
+- And the path or URL to the image asset in parentheses `(` `)`.
 
 For example:
 
@@ -36,7 +37,7 @@ The output would be:
 An optional title can also be added after the URL, still in the parentheses:
 
 ```markdown
-![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif "High Five")
+![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif 'High Five')
 ```
 
 ## Linked Images
@@ -44,5 +45,5 @@ An optional title can also be added after the URL, still in the parentheses:
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```markdown
-[![A mushroom-head robot](/assets/images/codey.jpg "Codey the Codecademy mascot")](https://codecademy.com)
+[![A mushroom-head robot](/assets/images/codey.jpg 'Codey the Codecademy mascot')](https://codecademy.com)
 ```

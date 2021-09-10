@@ -1,14 +1,15 @@
 ---
-Title: "Basic Output"
+Title: 'Basic Output'
+Description: 'In the C language, basic console output is achieved using functions from the "standard input output" header file (stdio.h). C itself has no ability to output any information. In order to so, the stdio.h header file must be included in the program, which typically happens at the top of the file: c  Once this is done, the functions included in it can be used. The putchar() function, or "put character" function, takes a single char as an argument and prints it to the stdout file, normally the console. c'
 Subjects:
-  - "Code Foundations"
-  - "Computer Science"
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
-  - "Print"
-  - "Output"
+  - 'Print'
+  - 'Output'
 CatalogContent:
-  - "learn-c-plus-plus"
-  - "paths/computer-science"
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
 ---
 
 In the C language, basic console output is achieved using functions from the "standard input output" header file (**stdio.h**).
@@ -71,7 +72,7 @@ The `printf()` function, or "print formatted" function, takes a string with vari
 #include <stdio.h>
 
 int main(void) {
-  printf("%d is a number\n", 5); 
+  printf("%d is a number\n", 5);
   printf("%d is after %d\n", 2, 1);
   return 0;
 }
@@ -88,13 +89,13 @@ The output would be:
 
 As seen above, the string given contains a `%` character followed by a letter to indicate what type of value will be formatted there. Some common ones are shown below:
 
-| Format Specifier | Type |
-| --- | --- |
-| `%c` | char |
-| `%d` | double |
-| `%i` | integer |
-| `%p` | pointer |
-| `%s` | string |
+| Format Specifier | Type    |
+| ---------------- | ------- |
+| `%c`             | char    |
+| `%d`             | double  |
+| `%i`             | integer |
+| `%p`             | pointer |
+| `%s`             | string  |
 
 ## Decimal Precision
 
@@ -104,13 +105,13 @@ To print 2 digits after the decimal place, `0.2f` can be used in `printf()`:
 
 ```c
 #include <stdio.h>
-  
+
 int main() {
   float pi = 3.14159;
-  
+
   // Print 2 digits after the decimal place
-  printf("%0.2f", pi); 
-  
+  printf("%0.2f", pi);
+
   return 0;
 }
 ```
