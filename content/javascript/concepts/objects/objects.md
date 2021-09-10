@@ -65,3 +65,20 @@ Objects can also have methods.
 Methods are actions that can be performed on objects.
 
 Methods are stored in properties as function definitions.
+
+```js
+var person = {
+  firstName: "Elizabeth",
+  lastName: "Harmon",
+  age: 22,
+  eyeColor: "Hazel",
+  talk: function speak(){
+    console.log(`Hello!`)
+  }
+};
+```
+You can use the same notation to access an object's properties to call on it's methods. 
+
+```js
+person.talk()  // Prints 'Hello!' to the console        
+```
