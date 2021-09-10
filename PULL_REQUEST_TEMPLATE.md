@@ -1,7 +1,7 @@
 ### Description
 
 <!--- Please write a summary of the change, such as which topic(s) and file(s) that you have edited/created. Please also include relevant motivation and context: -->
-I have added a description of classes to the Objects JavaScript concept. 
+I have added a description of classes to the Objects JavaScript concept.
 ### Type of Change
 
 <!--- Please check the boxes that are relevant to this PR: -->
