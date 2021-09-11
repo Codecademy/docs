@@ -118,7 +118,13 @@ person.firstName='Elizabeth'
 person.lastName:'Harmon'
 person.age=22
 person.eyeColor='Hazel'
-//If you run console.log(person), you'll get the following:
+console.log(person)
+/*  Output: Person {
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
+  age: 22,
+  eyeColor: 'Hazel'
+} */
 /*
 'Elizabeth'
 'Harmon'
