@@ -2,23 +2,15 @@
 
 <!--- Please write a summary of the change, such as which topic(s) and file(s) that you have edited/created. Please also include relevant motivation and context: -->
 
-<<<<<<< HEAD
-I have added a description of classes to the Objects JavaScript concept.
-
-=======
->>>>>>> parent of db8a31f5 (modified PR Template)
 ### Type of Change
 
 <!--- Please check the boxes that are relevant to this PR: -->
 
 - [ ] Adding a new entry
-<<<<<<< HEAD
-- [x] Editing an existing entry (fixing a typo, bug, issues, etc)
-- [x] Updating the documentation
-=======
+
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
 - [ ] Updating the documentation
->>>>>>> parent of db8a31f5 (modified PR Template)
+
 
 ### Checklist
 
