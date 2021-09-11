@@ -100,7 +100,7 @@ Hi, I'm Elizabeth Harmon.
 ## Object Classes
 
 Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class.
-A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in Classes**
+A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in classes**
 
 ```js
 class Person {
@@ -118,7 +118,7 @@ person.firstName='Elizabeth'
 person.lastName:'Harmon'
 person.age=22
 person.eyeColor='Hazel'
-//If you run console.log(person), you'll get the following:
+// console.log(person), prints the following:
 /*
 'Elizabeth'
 'Harmon'
@@ -155,5 +155,6 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting(); // Prints "Hi, I'm Elizabeth Harmon"
+person.greeting(); 
+// Output: "Hi, I'm Elizabeth Harmon"
 ```
