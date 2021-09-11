@@ -10,7 +10,6 @@
 - [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
 - [ ] Updating the documentation
 
-
 ### Checklist
 
 <!--- Please check the boxes that are relevant to this PR: -->
