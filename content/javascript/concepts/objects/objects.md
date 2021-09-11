@@ -132,7 +132,7 @@ console.log(person)
 'Hazel' */
 ```
 
-An addtional step can be made to optimize this procedure through the use of a _constructor_.
+An additional step can be made to optimize this procedure through the use of a _constructor_.
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
