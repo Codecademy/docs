@@ -43,7 +43,7 @@ def decorator_name(original_function):
 
 ```
 
-The `original_function()` in this case, is the function that is decorated with the `decorator_name()`.
+The `original_function()`, in this case, is the function that is decorated with the `decorator_name()`.
 
 Eg: A decorator that upper cases the returned values from any function can be created as follows:
 
@@ -65,7 +65,7 @@ def upper_case_decorator(original_function):
         result = result.upper()
         return result
 
-    # returning the wrapper function
+    # Return the wrapper function
     return wrapper
 
 ```
@@ -283,14 +283,14 @@ print(greeting('hi'))
 # HI!
 
 print(double_greeting('hi', 'hello'))
-# output:
+# Output:
 # HI. HELLO!
 
 ```
 
 ## Passing Arguments to Decorators
 
-Arguments can also be passed to the decorator itself. To pass arguments to the Decorator, there should be a `decorator_wrapper_to_accept_decorator_arguments()` function wrapping the original decorator.
+Arguments can also be passed to the decorator itself. To pass arguments to the decorator, there should be a `decorator_wrapper_to_accept_decorator_arguments()` function wrapping the original decorator.
 
 ```py
 def decorator_wrapper_to_accept_decorator_arguments(decorator_arg1, decorator_arg2):
