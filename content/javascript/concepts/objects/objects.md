@@ -151,7 +151,8 @@ To summarize what's been done, when making a new instance , the constructor assi
 
 ```js
 const person = new Person('Elizabeth', 'Harmon');
-console.log(person); //Prints the follwoing :
+console.log(person);
+// Output:
 /*
 Person {
   firstName: 'Elizabeth',
