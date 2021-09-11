@@ -100,6 +100,7 @@ Hi, I'm Elizabeth Harmon.
 ## Object Classes
 
 Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class.
+
 A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in classes**
 
 ```js
@@ -110,23 +111,24 @@ class Person {
 }
 ```
 
-To use a class an instance of it needs to be created. To demonstrate how an instance of a class is an object, it's properties will be defined using dot notation.
+To use a class, an instance of it needs to be created. To demonstrate how an instance of a class is an object, it's properties will be defined using the dot notation.
 
 ```js
 const person = new Person();
 person.firstName='Elizabeth'
-person.lastName:'Harmon'
+person.lastName='Harmon'
 person.age=22
 person.eyeColor='Hazel'
-// console.log(person), prints the following:
-/*
-'Elizabeth'
-'Harmon'
-22
-'Hazel' */
+console.log(person)
+/*  Output: Person {
+  firstName: 'Elizabeth',
+  lastName: 'Harmon',
+  age: 22,
+  eyeColor: 'Hazel'
+} */
 ```
 
-An addtional step can be made to optimize this procedure through the use of a _constructor_.
+An additional step can be made to optimize this procedure through the use of a _constructor_.
 A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, object properties can be defined when a new instance is made. This makes code precise and concise.
 
 ```js
@@ -145,7 +147,8 @@ To summarize what's been done, when making a new instance , the constructor assi
 
 ```js
 const person = new Person('Elizabeth', 'Harmon');
-console.log(person); //Prints the follwoing :
+console.log(person);
+// Output:
 /*
 Person {
   firstName: 'Elizabeth',
@@ -155,6 +158,6 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting();
+person.greeting(); 
 // Output: "Hi, I'm Elizabeth Harmon"
 ```
