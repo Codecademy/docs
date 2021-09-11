@@ -148,8 +148,8 @@ To summarize what's been done, when making a new instance , the constructor assi
 ```js
 const person = new Person('Elizabeth', 'Harmon');
 console.log(person);
-// Output:
 /*
+// Output:
 Person {
   firstName: 'Elizabeth',
   lastName: 'Harmon',
@@ -157,7 +157,8 @@ Person {
     constructor: ƒ Person(),
     greeting: ƒ greeting()
   }
-} */
+} 
+*/
 person.greeting();
 // Output: "Hi, I'm Elizabeth Harmon"
 ```
