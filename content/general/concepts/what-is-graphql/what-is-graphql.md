@@ -1,5 +1,6 @@
 ---
 Title: 'What is GraphQL?' # This is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
+Description: 'GraphQL is an open-source query language.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
