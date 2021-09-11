@@ -2,26 +2,34 @@
 
 <!--- Please write a summary of the change, such as which topic(s) and file(s) that you have edited/created. Please also include relevant motivation and context: -->
 
+<<<<<<< HEAD
 I have added a description of classes to the Objects JavaScript concept.
 
+=======
+>>>>>>> parent of db8a31f5 (modified PR Template)
 ### Type of Change
 
 <!--- Please check the boxes that are relevant to this PR: -->
 
 - [ ] Adding a new entry
+<<<<<<< HEAD
 - [x] Editing an existing entry (fixing a typo, bug, issues, etc)
 - [x] Updating the documentation
+=======
+- [ ] Editing an existing entry (fixing a typo, bug, issues, etc)
+- [ ] Updating the documentation
+>>>>>>> parent of db8a31f5 (modified PR Template)
 
 ### Checklist
 
 <!--- Please check the boxes that are relevant to this PR: -->
 
-- [x] My entry follows the Codecademy Docs style guide
-- [x] I have performed a self-review of my own writing and code
-- [x] I have made corresponding changes to the documentation
-- [x] My changes generate no new warnings
-- [x] I have checked my entry and corrected any misspellings
-- [x] All writings are my own
+- [ ] My entry follows the Codecademy Docs style guide
+- [ ] I have performed a self-review of my own writing and code
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have checked my entry and corrected any misspellings
+- [ ] All writings are my own
 
 <!---
 Having trouble with the PR checker? Here are some common issues and resolutions:
