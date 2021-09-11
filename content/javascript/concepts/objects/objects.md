@@ -110,7 +110,7 @@ class Person {
 }
 ```
 
-To use a class an instance of it needs to be created. To demonstrate how an instance of a class is an object, it's properties will be defined using dot notation.
+To use a class, an instance of it needs to be created. To demonstrate how an instance of a class is an object, it's properties will be defined using the dot notation.
 
 ```js
 const person = new Person();
