@@ -3,6 +3,7 @@ Title: 'Memory Management'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
+Description: 'Memory management is the process by which computer programs are assigned with physical or virtual memory space.'
 Tags:
   - 'Memory'
   - 'Memory Management'
@@ -48,7 +49,7 @@ Since the size of `int` is 4 bytes, the above statement will allocate 20 bytes (
 
 ### 2. calloc()
 
-`calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compare to `malloc()` which only have one parameter. 
+`calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compared to `malloc()` which only has one parameter.  
 
 ```c
 int *ptr; 
@@ -86,8 +87,3 @@ ptr = (int*) malloc(5 * sizeof(int));
 // Memory de-allocated using free() function.
 free(ptr);
 ```
-
-
-
-
-
