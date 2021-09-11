@@ -115,11 +115,11 @@ To use a class, an instance of it needs to be created. To demonstrate how an ins
 
 ```js
 const person = new Person();
-person.firstName='Elizabeth'
-person.lastName='Harmon'
-person.age=22
-person.eyeColor='Hazel'
-console.log(person)
+person.firstName = 'Elizabeth';
+person.lastName = 'Harmon';
+person.age = 22;
+person.eyeColor = 'Hazel';
+console.log(person);
 /*  Output: Person {
   firstName: 'Elizabeth',
   lastName: 'Harmon',
@@ -158,6 +158,6 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting(); 
+person.greeting();
 // Output: "Hi, I'm Elizabeth Harmon"
 ```
