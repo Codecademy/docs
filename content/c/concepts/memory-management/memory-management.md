@@ -18,7 +18,7 @@ The memory allocation can be done either before or at the time of program implem
 
 ## 1. Static Memory Allocation
 
-In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as Stack to manage the memory. Exact memory requirements must be known in advance as once memory is allocated it can not be changed. 
+In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as Stack to manage the memory. Exact memory requirements must be known in advance as once memory is allocated it can not be changed.
 
 ```c
 int intRuntime; // Needs to be initialized or assigned some value at run time.
@@ -34,25 +34,25 @@ Let's know about each function in detail:
 
 ### 1. malloc()
 
-`malloc()` function is used to allocate a block of memory in the heap. It allocates the user a specified number of bytes but does not initialize. Once allocated, the program accesses this block of memory via a pointer that `malloc()` returns. 
+`malloc()` function is used to allocate a block of memory in the heap. It allocates the user a specified number of bytes but does not initialize. Once allocated, the program accesses this block of memory via a pointer that `malloc()` returns.
 
 The default pointer returned by `malloc()` is of the type `void` but can be cast into a pointer of any data type. However, if the space is insufficient for the amount of memory requested by `malloc()`, then the allocation fails and a `NULL` pointer is returned.
 
 ```c
-int *ptr; 
+int *ptr;
 
 // The pointer ptr holds the address of the first byte in the allocated memory.
 ptr = (int*) malloc(5 * sizeof(int));
 ```
 
-Since the size of `int` is 4 bytes, the above statement will allocate 20 bytes (4 * 5) of memory. 
+Since the size of `int` is 4 bytes, the above statement will allocate 20 bytes (4 \* 5) of memory.
 
 ### 2. calloc()
 
-`calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compared to `malloc()` which only has one parameter.  
+`calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compared to `malloc()` which only has one parameter.
 
 ```c
-int *ptr; 
+int *ptr;
 
 // The pointer ptr holds the address of the first byte in the allocated memory.
 ptr = (int*) calloc(5, sizeof(int));
@@ -65,7 +65,7 @@ The above statement allocates contiguous space in memory for 5 elements each wit
 `realloc()` function is used to dynamically change the memory which was previously allocated. It means that if the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, so it can be reallocated using the `realloc()` function.
 
 ```c
-int *ptr; 
+int *ptr;
 
 // Memory allocated using malloc() function.
 ptr = (int*) malloc(5 * sizeof(int));
@@ -79,7 +79,7 @@ ptr = realloc(ptr, 10 * sizeof(int));
 `free()` function is used to dynamically de-allocate the memory. The memory allocated using functions `malloc()` and `calloc()` must be de-allocated manually by the user using the `free()` function when not in use. It helps to reduce the wastage of memory by freeing it.
 
 ```c
-int *ptr; 
+int *ptr;
 
 // Memory allocated using malloc() function.
 ptr = (int*) malloc(5 * sizeof(int));
