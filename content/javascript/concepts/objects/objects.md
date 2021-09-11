@@ -162,5 +162,6 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting(); // Prints "Hi, I'm Elizabeth Harmon"
+person.greeting(); 
+// Output: "Hi, I'm Elizabeth Harmon"
 ```
