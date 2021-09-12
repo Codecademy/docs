@@ -101,7 +101,7 @@ Hi, I'm Elizabeth Harmon.
 
 Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class.
 
-A class can be constructed with the following notation. The person object example will be used. **Note: annonymous functions can't be used in classes**
+A class can be constructed with the following notation. The person object example will be used. **Note: anonymous functions can't be used in classes**
 
 ```js
 class Person {
