@@ -1,6 +1,6 @@
 ---
 Title: 'Modules'
-Description: 'A module is a Python file that contains functions, definitions, and statements that can be included in an application. Instead of entering commands directly into a Python interpreter, we can save Python code as a module so we can use it again in other applications. We can also use modules to access libraries such as numpy and sklearn or the built-in Python date-time module.'
+Description: 'A module is a Python file that contains functions, definitions, and statements that can be included in an application.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,26 +13,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A module is a Python file that contains functions, definitions, and statements that can be included in an application.
-
-Instead of entering commands directly into a Python interpreter, we can save Python code as a module so we can use it again in other applications. We can also use modules to access libraries such as `numpy` and `sklearn` or the built-in Python `date-time` module.
+A module is a Python file that contains functions, definitions, and statements that can be included in an application. 
 
 Think of a module as a code library that can be reused across applications. Modules improve code reusablity and allow us to access shared libraries and packages.
 
+Instead of entering commands directly into a Python interpreter, Python code can be saved as a module so that we can use it again later in other applications. Modules can also be used to access libraries such as `numpy`, `sklearn`, and the `date-time` built-in module.
+
 ## Creating Modules
 
-We can create a module by saving a Python file with the `.py` file extension. We can then import it into another Python file with the import command followed by the module name:
+A module can be created by saving a Python file with the **.py** file extension. It can then ben imported into another Python file with the `import` command followed by the module name.
+
+For example, to import a **video_player.py** file:
 
 ```py
-import video_player_tools
-# Imports video_player_tools.py
+import video_player
+
+# Rest of the program starts here...
 ```
 
-We now have access to all functions, objects, and statements contained within the `video_player_tools` module.
+The program now has access to all functions, objects, and statements contained within the `video_player_tools` module.
 
 ## Importing Modules
 
-We can also import only specific named resources from a module. For example:
+Instead of importing the whole module, individual named resources can be specified. For example:
 
 ```py
 from collections import Counter
@@ -44,7 +47,7 @@ It's often useful to import only the resources that you need to avoid slowing do
 
 ## Namespaces and Scope
 
-We can rename a module within our local namespace by creating an alias for it using the `as` keyword. For example:
+A module within our local namespace can be renamed by creating an alias using the `as` keyword. For example:
 
 ```py
 from bs4 import BeautifulSoup as bs
@@ -52,4 +55,4 @@ from bs4 import BeautifulSoup as bs
 
 Aliasing is especially convenient for shortening module names and managing the local namespace where our code executes.
 
-Once we import a module, it is within the scope of our program and we have access to it in our local namespace.
+Once a module is imported, it is within the scope of the program and it can be accessed in the local namespace.
