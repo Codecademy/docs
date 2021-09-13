@@ -1,5 +1,6 @@
 ---
 Title: 'Sets'
+Description: 'A set is an unordered collection of elements without any duplicates. Sets are especially useful for performing logical operations like finding the union, intersection, or difference between collections of elements. For example, sets could be used to determine mutual friends on a social networking site. There are several ways to create a set. We can create a set from a list with the set() keyword: py animals = set() animals = set([aardvark, snail, squid])'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

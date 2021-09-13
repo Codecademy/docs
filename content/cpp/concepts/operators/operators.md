@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'C++ supports different types of arithmetic operators that can perform common mathematical operations: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) cpp'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

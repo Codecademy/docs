@@ -1,5 +1,6 @@
 ---
 Title: 'Operators'
+Description: 'Basic math operations can be applied to int, double, and float data types: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) These operations are not supported for other data types.'
 Subjects:
   - 'Computer Science'
 Tags:

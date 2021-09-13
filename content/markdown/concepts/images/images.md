@@ -1,5 +1,6 @@
 ---
 Title: 'Images'
+Description: 'Embedding an image is very similar to adding a link in Markdown: markdown Alt text  - Add an exclamation mark ! - Followed by the alt text in square brackets [Alt text] - And the path or URL to the image asset in parentheses ( ).'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'

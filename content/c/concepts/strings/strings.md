@@ -1,5 +1,6 @@
 ---
 Title: 'Strings'
+Description: 'Strings are arrays of characters followed by a null character \0. To declare a string in C, the type of the string, char, is first specified, followed by the name of the string, the size, and the characters themselves. pseudo char name[size] = {a, b, c, d, \0};  The following declaration and initialization create a string of "Howdy": c'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

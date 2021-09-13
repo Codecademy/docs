@@ -1,5 +1,6 @@
 ---
 Title: 'Sets'
+Description: 'In Swift, a set is used to store unique elements of the same data type. To create a set populated with values, use the Set keyword before the assignment operator. swift var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]  The values of the set must be contained within brackets [] and separated with commas ,. An empty set is a set that contains no values inside.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

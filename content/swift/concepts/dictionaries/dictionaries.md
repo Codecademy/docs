@@ -1,5 +1,6 @@
 ---
 Title: 'Dictionaries'
+Description: 'A dictionary is an unordered collection of paired data, or key: value pairs. swift var dictionaryName = [ "Key1": "Value1", "Key2": "Value2", "Key3": "Value3" ]'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
