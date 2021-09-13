@@ -19,7 +19,7 @@ Think of a module as a code library that can be reused across applications. Modu
 
 Instead of entering commands directly into a Python interpreter, Python code can be saved as a module so that we can use it again later in other applications. Modules can also be used to access libraries such as `numpy`, `sklearn`, and the `date-time` built-in module.
 
-## Creating Modules
+## Creating and Importing Modules
 
 A module can be created by saving a Python file with the **.py** file extension. It can then be imported into another Python file with the `import` command followed by the module name.
 
@@ -33,7 +33,7 @@ import video_player
 
 The program now has access to all functions, objects, and statements contained within the `video_player` module.
 
-## Importing Modules
+## Importing Specific Resources
 
 Instead of importing the whole module, individual named resources can be specified. For example:
 
@@ -41,7 +41,7 @@ Instead of importing the whole module, individual named resources can be specifi
 from collections import Counter
 ```
 
-This will import only the `Counter` class from the built-in Python `collections` module rather than all types of collections contained within it.
+This will import only the `Counter` class from Python's `collections` built-in module, rather than all types of collections contained within it.
 
 It's often useful to import only the resources that you need to avoid slowing down your program and polluting your local namespace where your code runs.
 
