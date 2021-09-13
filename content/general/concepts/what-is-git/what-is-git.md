@@ -1,6 +1,7 @@
 ---
 Title: 'What is Git?'
-Description: 'Git is a version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the main branch of the codebase (or Git repository). At its core, Git is a command line tool that comes with built-in commands for performing a variety of tasks. Run this command to see version running on local machine.  $ git --version git version 2.26.0 '
+Description: 'Git is a version control system that allows developers to track changes made to their projects files. Teams can use Git to collaborate on projects at scale.
+'
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
