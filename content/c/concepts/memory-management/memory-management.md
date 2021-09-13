@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Computer memory is a limited resource and we have to manage it efficiently. The process by which computer programs are assigned with physical or virtual memory space is called **Memory Allocation**.
+Computer memory is a limited resource and we have to manage it efficiently. The process by which computer programs are assigned with physical or virtual memory space is called memory allocation.
 
 The memory allocation can be done either before or at the time of program implementation. There are two techniques for memory allocation:
 
-## 1. Static Memory Allocation
+## Static Memory Allocation
 
 In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as Stack to manage the memory. Exact memory requirements must be known in advance as once memory is allocated it can not be changed.
 
@@ -26,7 +26,7 @@ int intExample = 0; // Normal variable.
 const int intConstant = 10; // Constant, can not be changed.
 ```
 
-## 2. Dynamic Memory Allocation
+## Dynamic Memory Allocation
 
 In this type of allocation system memory is managed at runtime. Dynamic memory management in C programming language is performed using four functions named `malloc()`, `calloc()`, `realloc()`, and `free()`. These four functions are defined in the C standard library header file `<stdlib.h>`. It uses the heap space of the system memory.
 
