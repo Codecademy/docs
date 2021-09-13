@@ -19,13 +19,13 @@ Since JavaScript code runs in a non-blocking manner, promises become essential w
 
 Promises are ideal for performing asynchronous JavaScript operations. This is supported by their use of three states: 
 
-* A `pending` state, where the promises has yet to resolve or be rejected.
+* A `pending` state, where the promise has yet to resolve or be rejected.
 * A `fulfilled` status, where asynchronous operations are complete and a value has been returned.
 * A `rejected` state, where asynchronous operations have failed at some point.
 
 ### Syntax
 
-A `Promise` object is returned from a function that accepts two unique functins: `resolve` and `reject`: 
+A `Promise` object is returned from a function that accepts two unique functions: `resolve` and `reject`: 
 
 ```js
 let myPromise = new Promise((resolve, reject) => {
@@ -43,15 +43,15 @@ Chaining is a technique used to perform additional operations against a "fulfill
 * `.catch()`, which handles any anticipated promise rejections and throws an error.
 * `.finally()`, which executes without regard to whether the promise was fulfilled or rejected.
 
-Below is a brief example of using chaining to produce a sucess message after the promise is fulfilled:
+Below is a brief example of using chaining to produce a success message after the promise is fulfilled:
 
 ```js
 const promise = new Promise((resolve, reject) => {
     const term1 = 2;
     const term2 = 2;
-    let expression = term1 + term2;
-    let answer = 4;
-    let expressionIsCorrect = expression === answer;
+    const expression = term1 + term2;
+    const answer = 4;
+    const expressionIsCorrect = expression === answer;
 
     // 2 + 2 = 4, and 4 = 4, so this is true!
     if (expressionIsCorrect) {
