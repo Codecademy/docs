@@ -31,7 +31,7 @@ import video_player
 # Rest of the program starts here...
 ```
 
-The program now has access to all functions, objects, and statements contained within the `video_player_tools` module.
+The program now has access to all functions, objects, and statements contained within the `video_player` module.
 
 ## Importing Modules
 
