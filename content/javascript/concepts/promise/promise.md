@@ -17,61 +17,66 @@ Since JavaScript code runs in a non-blocking manner, promises become essential w
 
 ### Promise object state
 
-Promises are ideal for performing asynchronous JavaScript operations. This is supported by their use of three states: 
+Promises are ideal for performing asynchronous JavaScript operations. This is supported by their use of three states:
 
-* A `pending` state, where the promise has yet to resolve or be rejected.
-* A `fulfilled` status, where asynchronous operations are complete and a value has been returned.
-* A `rejected` state, where asynchronous operations have failed at some point.
+- A `pending` state, where the promise has yet to resolve or be rejected.
+- A `fulfilled` status, where asynchronous operations are complete and a value has been returned.
+- A `rejected` state, where asynchronous operations have failed at some point.
 
 ### Syntax
 
-A `Promise` object is returned from a function that accepts two unique functions: `resolve` and `reject`: 
+A `Promise` object is returned from a function that accepts two unique functions: `resolve` and `reject`:
 
 ```js
 let myPromise = new Promise((resolve, reject) => {
   // Promise code here
-})
+});
 ```
 
 If `myPromise` yields a legitimate value, it will execute the `resolve()` function. However, if something were to go awry, such as bad data or a server error, the `reject()` function would execute, instead.
 
 #### Chaining
 
-Chaining is a technique used to perform additional operations against a "fulfilled" promise. The following methods are used for promise chaining: 
+Chaining is a technique used to perform additional operations against a "fulfilled" promise. The following methods are used for promise chaining:
 
-* `.then()`, which performs operations on a fulfilled promise object and returns a new value.
-* `.catch()`, which handles any anticipated promise rejections and throws an error.
-* `.finally()`, which executes without regard to whether the promise was fulfilled or rejected.
+- `.then()`, which performs operations on a fulfilled promise object and returns a new value.
+- `.catch()`, which handles any anticipated promise rejections and throws an error.
+- `.finally()`, which executes without regard to whether the promise was fulfilled or rejected.
 
 Below is a brief example of using chaining to produce a success message after the promise is fulfilled:
 
 ```js
 const promise = new Promise((resolve, reject) => {
-    const term1 = 2;
-    const term2 = 2;
-    const expression = term1 + term2;
-    const answer = 4;
-    const expressionIsCorrect = expression === answer;
+  const term1 = 2;
+  const term2 = 2;
+  const expression = term1 + term2;
+  const answer = 4;
+  const expressionIsCorrect = expression === answer;
 
-    // 2 + 2 = 4, and 4 = 4, so this is true!
-    if (expressionIsCorrect) {
-        resolve("The promise was fulfilled!");
-    } else {
-        reject({
-            errorType: "ArithmeticError",
-            message: "The expression didn't evaluate correctly.",
-            originalExpression: `${term1} + ${term2} === ${answer}`,
-        });
-    }
+  // 2 + 2 = 4, and 4 = 4, so this is true!
+  if (expressionIsCorrect) {
+    resolve('The promise was fulfilled!');
+  } else {
+    reject({
+      errorType: 'ArithmeticError',
+      message: "The expression didn't evaluate correctly.",
+      originalExpression: `${term1} + ${term2} === ${answer}`,
+    });
+  }
 });
 
-promise.then(message => {
-    console.log(`Success: ${message}`)
-}).catch(err => {
-    console.log(`${err.errorType}: ${err.message} \nOriginal Expression: ${err.originalExpression}`)
-}).finally(message => {
-    console.log("Operations finished")
-});
+promise
+  .then((message) => {
+    console.log(`Success: ${message}`);
+  })
+  .catch((err) => {
+    console.log(
+      `${err.errorType}: ${err.message} \nOriginal Expression: ${err.originalExpression}`
+    );
+  })
+  .finally((message) => {
+    console.log('Operations finished');
+  });
 
 // Output: Success: The promise was fulfilled!
 ```
