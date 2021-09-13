@@ -1,5 +1,6 @@
 ---
 Title: 'Strings'
+Description: 'Strings are objects that represent sequences of characters. In C++, there are two ways to create strings: string class or using C-style character strings. The standard string class provides support for strings in C++. cpp std::string welcome = "Hi"; std::string user_name = "@sonny"; std::string message = "Good nite! 😇"; '
 Subjects:
   - 'Computer Science'
   - 'Game Development'

@@ -1,5 +1,6 @@
 ---
 Title: 'Data Types'
+Description: 'C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those: int is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2³¹ to 2³¹. cpp int year = 1991; int age = 28;  double is a type for storing floating point (decimal) numbers. Double variables typically require 8 bytes of memory space.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'

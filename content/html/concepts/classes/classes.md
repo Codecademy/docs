@@ -1,5 +1,6 @@
 ---
 Title: 'Classes'
+Description: 'Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. The class attribute is commonly used for assigning styles to one or more elements. Inside the stylesheet, a class name is selected with the following syntax: css .class-name { }  A class selector is a name preceded by a period (.).'
 Subjects:
   - 'Web Development'
   - 'Web Design'

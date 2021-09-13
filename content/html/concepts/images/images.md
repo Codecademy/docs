@@ -1,5 +1,6 @@
 ---
 Title: 'Images'
+Description: 'While many websites are primarily text, embedding images within a site allows for more lively pages that can be more attractive and informative to visitors. However, when serving images there are concerns of the impact to page loading speeds as well as to accessability, so knowledge on how images can be best served to users is critical for good development. As images make up most of the bandwidth for a standard webpage, and therefore can slow the speed of page loads, it is best to optimize the size of images as much as possible ahead of time. While there are a myriad of image formats available, only a few key formats are needed for most use cases: - JPEG: Best for minimizing image sizes at the cost of some graphical fidelity - PNG: Best for images where graphical fidelity is of the upmost importance - SVG: Best for vector images, such as simple symbols and shapes There are also new image formats such as AVIF and WebP that are attempting to replace JPEG. While their browser support may currently be limited, their reductions in file sizes are significant. Below is an example of how an image is commonly inserted into a page:'
 Subjects:
   - 'Web Development'
   - 'Web Design'

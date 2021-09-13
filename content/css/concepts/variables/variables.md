@@ -1,5 +1,6 @@
 ---
 Title: 'Variables'
+Description: 'CSS variables are custom properties that are defined in one place and used in multiple places throughout the stylesheet. CSS variables are used in two principle steps: 1. Define the custom variable inside a selected element css element { --custom-variable: red; }'
 Subjects:
   - 'Web Development'
   - 'Web Design'
