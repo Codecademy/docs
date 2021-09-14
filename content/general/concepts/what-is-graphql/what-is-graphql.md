@@ -1,6 +1,6 @@
 ---
 Title: 'What is GraphQL?'
-Description: 'GraphQL is an open-source query language.'
+Description: 'GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,13 +13,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+[GraphQL](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
+
 ## History of GraphQL
 
-[GraphQL](https://graphql.org/) was developed by Facebook in 2012 to address internal issues with their mobile applications. As an alternative to typical REST architecture, GraphQL became open-source in 2015. Consequently, GraphQL makes data transfers more efficient, network usage for Facebook's mobile applications was drastically reduced. As of now, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-server communication.
-
-## What is GraphQL?
-
-GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
+GraphQL was developed by Facebook in 2012 to address internal issues with their mobile applications. As an alternative to typical REST architecture, GraphQL became open-source in 2015. Consequently, because GraphQL makes data transfers more efficient, it reduced network usage for Facebook's mobile applications drastically. Since then, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-server communication.
 
 ## Why adopt GraphQL?
 
@@ -35,4 +33,4 @@ A common GraphQL workflow can be seen below:
 
 ## Who is using GraphQL?
 
-GraphQL is used by a wide range of businesses, from large to small. For more information, feel free to check out [Who's Using | GraphQL](https://graphql.org/users/).
+GraphQL is used by a wide range of businesses, from large to small. Some bigger names include Airbnb, Lyft, GitHub, Twitter, Paypal, and Shopify. For more information, feel free to check out ["Who's using GraphQL?"](https://graphql.org/users/).
