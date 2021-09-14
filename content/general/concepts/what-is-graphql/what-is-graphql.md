@@ -1,5 +1,5 @@
 ---
-Title: 'What is GraphQL?' # This is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
+Title: 'What is GraphQL?'
 Description: 'GraphQL is an open-source query language.'
 Subjects:
   - 'Computer Science'
@@ -15,11 +15,11 @@ CatalogContent:
 
 ## History of GraphQL
 
-GraphQL was developed by Facebook in 2012 to address internal issues with their mobile applications. As an alternative to typical REST architecture, GraphQL became open-source in 2015. Consequently, GraphQL makes data transfers more efficient, network usage for Facebook's mobile applications was drastically reduced. As of now, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-server communication.
+[GraphQL](https://graphql.org/) was developed by Facebook in 2012 to address internal issues with their mobile applications. As an alternative to typical REST architecture, GraphQL became open-source in 2015. Consequently, GraphQL makes data transfers more efficient, network usage for Facebook's mobile applications was drastically reduced. As of now, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-server communication.
 
 ## What is GraphQL?
 
-GraphQL, an open-source query language as described in [GraphQL](graphql.org)'s official website. It allows developers to consume, construct, and create APIs in their own unique way.
+GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
 
 ## Why adopt GraphQL?
 
@@ -27,11 +27,11 @@ Before discussing GraphQL, developers should be familiar with REST. One of REST'
 
 ## How GraphQL works under the hood?
 
-A typical yet simple GraphQL workflow can be seen below:
+A common GraphQL workflow can be seen below:
 
-- First, a specific data is requested from the client via a query to GraphQL server.
-- In order to get data, a function on the GraphQL server is invoked.
-- Lastly, GraphQL server return the specific data requested by the client.
+1. First, a specific data is requested from the client via a query to GraphQL server.
+2. In order to get data, a function on the GraphQL server is invoked.
+3. Lastly, GraphQL server return the specific data requested by the client.
 
 ## Who is using GraphQL?
 
