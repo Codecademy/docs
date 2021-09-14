@@ -17,7 +17,7 @@ The memory allocation can be done either before or at the time of program implem
 
 ## Static Memory Allocation
 
-In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as stack to manage the memory. 
+In this type of allocation, the compiler allocates a fixed amount of memory during compile time and the operating system internally uses a data structure known as stack to manage the memory.
 
 Exact memory requirements must be known in advance as once memory is allocated it can not be changed.
 
