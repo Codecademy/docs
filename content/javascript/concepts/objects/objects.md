@@ -101,7 +101,7 @@ Hi, I'm Elizabeth Harmon.
 
 Classes are essentially boilerplate object templates. If a car was an object, then a car factory is an object class.
 
-A class can be constructed with the following notation. The person object example will be used. 
+A class can be constructed with the following notation. The person object example will be used.
 
 **Note:** Anonymous functions can't be used in classes.
 
