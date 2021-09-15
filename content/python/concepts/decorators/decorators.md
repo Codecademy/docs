@@ -32,11 +32,11 @@ def decorator_name(original_function):
 
   def wrapper():
     # Code can be executed before the original function call
-    
+
     original_function()
-    
+
     # Code can be executed after the original function call
-       
+
   return wrapper
 ```
 
