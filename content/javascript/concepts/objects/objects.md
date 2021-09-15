@@ -81,7 +81,7 @@ const person = {
   age: 22,
   eyeColor: 'Hazel',
   greeting: function () {
-    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
+    return `Hi, I am ${this.firstName} ${this.lastName}.`;
   },
 };
 
@@ -94,7 +94,7 @@ console.log(person.greeting());
 This will output:
 
 ```shell
-Hi, I'm Elizabeth Harmon.
+Hi, I am Elizabeth Harmon.
 ```
 
 ## Object Classes
@@ -108,7 +108,7 @@ A class can be constructed with the following notation. The person object exampl
 ```js
 class Person {
   greeting() {
-    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
+    return `Hi, I am ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
@@ -143,7 +143,7 @@ class Person {
     this.lastName = lastName;
   }
   greeting() {
-    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
+    return `Hi, I am ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
@@ -166,5 +166,5 @@ Person {
 */
 
 person.greeting();
-// Output: "Hi, I'm Elizabeth Harmon"
+// Output: "Hi, I am Elizabeth Harmon"
 ```
