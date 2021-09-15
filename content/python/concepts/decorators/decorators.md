@@ -1,8 +1,7 @@
 ---
 Title: 'Decorators'
-Description: '_Decorators_ are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.'
+Description: 'Decorators are a structural design pattern that wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.'
 Subjects:
-  - 'Interview Prep'
   - 'Web Development'
   - 'Developer Tools'
 Tags:
@@ -11,12 +10,12 @@ Tags:
   - 'Decorators'
   - 'Functions'
   - 'Objects'
-  - 'Technical Interviews'
 CatalogContent:
-  - 'learn-intermediate-python-3'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
-_Decorators_ are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.
+Decorators are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.
 
 ## Creating Decorators
 
@@ -24,76 +23,73 @@ Functions in Python are first class objects: they can be assigned to variables, 
 
 With that in mind, a decorator can be created using functions or classes.
 
-### Decorator using functions
+### Decorator using Functions
 
 The general syntax for creating a decorator using functions is as follows:
 
 ```py
 def decorator_name(original_function):
 
-    def wrapper():
-        # code can be executed before the original function call
+  def wrapper():
+    # Code can be executed before the original function call
 
-        original_function()
+    original_function()
 
-        # code can be executed after the original function call
+    # Code can be executed after the original function call
 
-    # (IMPORTANT)
-    return wrapper
-
+  return wrapper
 ```
 
 The `original_function()`, in this case, is the function that is decorated with the `decorator_name()`.
 
-Eg: A decorator that upper cases the returned values from any function can be created as follows:
+For example, a decorator that upper cases the returned values from any function can be created as follows:
 
-```codebyte/py
-# define a function called upper_case_decorator which will act as a decorator with parameter original_function
+```py
+# Define a function called upper_case_decorator() which will act as a decorator with parameter original_function
 
 def upper_case_decorator(original_function):
 
-    # creating the wrapper to wrap additional code around the original function
-    def wrapper():
+  # Creating the wrapper to wrap additional code around the original function
+  def wrapper():
 
-        # Code can be executed before the original function
-        print(f"'{original_function.__name__}' function execution will start now.")
+    # Code can be executed before the original function
+    print(f"'{original_function.__name__}' function execution will start now.")
 
-        # Original function call with the upper cased argument
-        result = original_function(arg1)
+    # Original function call with the upper cased argument
+    result = original_function(arg1)
 
-        # Code can be executed after the original function
-        result = result.upper()
-        return result
+    # Code can be executed after the original function
+    result = result.upper()
+    return result
 
-    # Return the wrapper function
-    return wrapper
-
+  # Return the wrapper function
+  return wrapper
 ```
 
-### Decorator using classes
+### Decorator using Classes
 
 The general syntax for creating a decorator using classes is as follows:
 
 ```py
 class decorator:
 
-    def __init__(self, original_function):
-        self.original_function = original_function
+  def __init__(self, original_function):
+    self.original_function = original_function
 
 
-    def __call__(self):
-        # Code can be executed before the original function
+  def __call__(self):
+    # Code can be executed before the original function
 
-        # original function call with the upper cased argument
-        self.original_function()
+    # original function call with the upper cased argument
+    self.original_function()
 
-        # Code can be executed after the original function
+    # Code can be executed after the original function
 ```
 
-Eg: A decorator created using class based syntax that upper cases the return values from any function
+For example, a decorator created using class based syntax that upper cases the return values from any function:
 
 ```codebyte/py
-# define a class called upper_case_decorator_with_class which will act as a decorator with the __init__ method requiring a parameter original_function
+# Define a class called upper_case_decorator_with_class which will act as a decorator with the __init__ method requiring a parameter original_function
 
 class upper_case_decorator_using_class:
 
@@ -105,22 +101,21 @@ class upper_case_decorator_using_class:
     # Code can be executed before the original function
     print(f"'{self.original_function.__name__}' function execution will start now.")
 
-    # original function call with the upper cased argument
+    # Original function call with the upper cased argument
     result = self.original_function()
 
     # Code can be executed after the original function
     result = result.upper()
     return result
-
 ```
 
-## Applying Decorator to a function
+## Applying Decorator to a Function
 
 The decorators created above accept an argument called `original_function` which can be any function. Therefore, we create a `greeting()` function and decorate it with the `@upper_case_decorator`.
 
 ```py
 def greeting():
-    return "hello Dharma"
+  return "hello Dharma"
 ```
 
 `greeting()` function can be decorated with the common python syntax by calling the decorator function and assigning the result back to `greeting`.
@@ -129,27 +124,22 @@ def greeting():
 # Without using the @decorator syntax
 
 greeting = upper_case_decorator(greeting)
-print(greeting())
 
-# output:
-# 'greeting' function execution will start now.
-# HELLO DHARMA
+print(greeting())
+# Output: HELLO DHARMA
 ```
 
-However, python provides a simpler way to achieve the same result using the `@` symbol syntax. Add the line `@upper_case_decorator` at the start of function definition to decorate it.
+However, Python provides a simpler way to achieve the same result using the `@` symbol syntax. Add the line `@upper_case_decorator` at the start of function definition to decorate it.
 
 ```py
 # Using the @decorator syntax
 
 @upper_case_decorator
 def greeting():
-    return 'hello Dharma'
+  return 'hello Dharma'
 
 print(greeting())
-
-# output:
-#'greeting' function execution will start now.
-# HELLO DHARMA
+# Output: HELLO DHARMA
 ```
 
 `@upper_case_decorator` or `@upper_case_decorator_with_class` can be used to decorate other functions as well.
@@ -157,13 +147,10 @@ print(greeting())
 ```py
 @upper_case_decorator_with_class
 def farewell():
-    return 'bye'
+  return 'bye'
 
 farewell()
-
-# output:
-# 'farewell' function execution will start now.
-# BYE
+# Output: BYE
 ```
 
 The full code with a decorator created using function will be:

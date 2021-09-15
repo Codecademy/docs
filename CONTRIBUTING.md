@@ -72,14 +72,15 @@ And here, templates for creating your new entries.
 
 As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry (this feature is coming in October)!
 
-If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked. You can stay anonymous by not linking them.
+If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked, and that your Codecademy profile is set to public. You can stay anonymous by not linking them.
 
 To link your Codecademy user profile to GitHub:
 
-1. Go to your [Codecademy dashboard](https://www.codecademy.com/learn).
-2. Click on your profile image in the top-right and then choose "Profile".
-3. Then click "Edit Profile".
-4. In the GitHub field, add your GitHub URL.
+1. Log out of Codecademy.
+2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your Github account](https://github.com/settings/emails).
+3. Go to the [Codecademy login page](https://www.codecademy.com/login).
+4. Select the Github icon under "Or log in using:"
+5. Proceed through the OAuth process.
 
 ## Any tips for a Pull Request?
 
