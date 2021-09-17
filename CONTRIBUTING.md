@@ -24,7 +24,7 @@ Contributing follows this workflow:
 
 1. Fork [this project repository](https://github.com/codecademy/docs).
 2. Clone the forked repository to your computer.
-3. Create a branch.
+3. Create and switch into a new branch.
 4. Edit or create an entry and commit the changes.
 5. Make a PR to merge your fork with this repo.
 
@@ -84,6 +84,8 @@ To link your Codecademy user profile to GitHub:
 
 ## Any tips for a Pull Request?
 
+- Before making a PR, make sure you pushed your changes from a branch other than `main`.
+- Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
