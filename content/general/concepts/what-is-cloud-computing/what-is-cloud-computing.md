@@ -8,7 +8,7 @@ Tags:
   - 'Cloud'
   - 'DevOps'
 CatalogContent: # If listing multiple URLs, please put the most relevant one first
-- 'paths/computer-science'
+  - 'paths/computer-science'
 ---
 
 **Cloud Computing** is a term used for on-demand availability of computer system resources, particularly data storage (cloud storage) and computational power, without direct active management by the user. Users have to pay only for the services they used. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.
@@ -56,9 +56,3 @@ Cloud computing makes data backup, disaster recovery, and business continuity ea
 ### 5. Scalability
 
 Users don't have to over-provision resources for future peak levels of business activity with cloud computing. Instead, they only provide the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
-
-
-
-
-
-
