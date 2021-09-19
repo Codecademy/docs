@@ -1,6 +1,6 @@
 ---
 Title: 'What is Cloud Computing?'
-Description: 'Cloud Computing is a term used for on-demand availability of computer system resources, particularly data storage (cloud storage) and computational power, without direct active management by the user. Users have to pay only for the services they used. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.'
+Description: 'Cloud Computing is a term used for on-demand availability of computer system resources, particularly data storage (cloud storage) and computational power, without direct active management by the user. Users have to pay only for the services they use. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.'
 Subjects:
   - 'Computer Science'
 Tags:
