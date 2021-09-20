@@ -15,17 +15,17 @@ CatalogContent: # If listing multiple URLs, please put the most relevant one fir
 
 ## History of Cloud Computing
 
-In 1963, the Defence Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a “computer to be used by two or more people at the same time.” In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
+In 1963, the Defence Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a computer to be used by two or more people at the same time. In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
 
 ## How does Cloud Computing work?
 
-It is divided into two sections, i.e., frontend and backend. They are connected through the Internet. The frontend consists of the client’s computer or computer network. Also, the application is essential to access the cloud system. Not all cloud computing systems need to have the same user interface. On the backend, the cloud is made of the following: 
+It is divided into two sections, i.e., frontend and backend. They are connected through the Internet. The frontend consists of the client’s computer or computer network. Also, the application is essential to access the cloud system. Not all cloud computing systems need to have the same user interface. On the backend, the cloud is made of the following:
 
-- Computers 
+- Computers
 - Servers
 - Data Storage Systems
 
- A cloud computing system could include any computer program, from data processing to video games. Generally, each application will have its dedicated server.
+A cloud computing system could include any computer program, from data processing to video games. Generally, each application will have its dedicated server.
 
 ## Types of Cloud
 
