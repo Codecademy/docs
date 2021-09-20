@@ -40,15 +40,15 @@ If you are uncomfortable using Git, you can also check out [this YouTube video](
 
 Here are some common issues and resolutions:
 
-- `verify_formatting` is failing
-  - run `yarn format path/to/markdown/file.md` or `yarn format:all` and commit the results
-- `verify_lint` is failing
-  - same as above
-  - if `verify_lint` is still failing, running `yarn lint` locally should let you know what needs to be changed by hand
-- `test` is failing
-  - ensure any new markdown files have a `Title` and `Description` defined in their metadata
-  - ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory
-  - if that looks ok, running `yarn test` locally should let you know what the issue is
+- The `verify_formatting` is failing
+  - Run `yarn format path/to/markdown/file.md` or `yarn format:all` and commit the results.
+- The `verify_lint` is failing
+  - Same as above.
+  - If `verify_lint` is still failing, running `yarn lint` locally should let you know what needs to be changed by hand.
+- The `test` is failing
+  - Ensure any new markdown files have a `Title` and `Description` defined in their metadata.
+  - Ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory.
+  - If that looks ok, running `yarn test` locally should let you know what the issue is.
 
 ## What do I need to do before creating new entries?
 
