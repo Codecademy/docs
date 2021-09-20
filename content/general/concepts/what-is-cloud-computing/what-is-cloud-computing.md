@@ -61,4 +61,4 @@ Cloud computing makes data backup, disaster recovery, and business continuity si
 
 ### 5. Scalability
 
-Users do not have to over-provision resources for future peak levels of business activity with cloud computing. Instead, they only provide the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
+Users do not have to over-provision resources for future peak levels of business activity with cloud computing. Instead, users only provide the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
