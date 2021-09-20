@@ -18,7 +18,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 ## Packages
 
-The concept of packages is not unique to `pip`. A package is essentially a collection of code that is designed for a specific purpose. One example is the [neuralart](https://pypi.org/project/neuralart/) project, which is a project on PyPi that is used for "rendering generative art from a randomly initialized neural network." It's a very cool package that creates art from your computer. 
+The concept of packages is not unique to `pip`. A package is essentially a collection of code that is designed for a specific purpose. One example is the [neuralart](https://pypi.org/project/neuralart/) project, which is a project on Pythong Package Index (PyPi) that is used for "rendering generative art from a randomly initialized neural network." It's a very cool package that creates art from your computer. 
 
 
 ## Python Package Index Repositroy (PyPi)
