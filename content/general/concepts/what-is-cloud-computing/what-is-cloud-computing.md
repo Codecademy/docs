@@ -29,15 +29,15 @@ A cloud computing system could include any computer program, from data processin
 
 ## Types of Cloud
 
-### 1. Public cloud
+### Public cloud
 
 Public clouds are owned and operated by third-party cloud service providers that deliver their computing resources like servers and storage over the Internet. Some examples include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
 
-### 2. Private cloud
+### Private cloud
 
 Private cloud refers to cloud computing resources used exclusively by a single business or organization. A private cloud can be physically located on the company’s on-site data center. Some companies also pay third-party service providers to host their private cloud.
 
-### 3. Hybrid cloud
+### Hybrid cloud
 
 Hybrid clouds are the combination of both public and private clouds that allows data and applications to be shared between them. By allowing data and applications to move between private and public clouds, it provides business greater flexibility, more deployment options and helps optimize existing infrastructure, security and compliance.
 
