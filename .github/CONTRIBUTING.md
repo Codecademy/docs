@@ -48,7 +48,7 @@ Here are some common issues and resolutions:
 - The `test` is failing
   - Ensure any new markdown files have a `Title` and `Description` defined in their metadata.
   - Ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory.
-  - If that looks ok, running `yarn test` locally should let you know what the issue is.
+  - If that looks okay, running `yarn test` locally should let you know what the issue is.
 
 ## What do I need to do before creating new entries?
 
