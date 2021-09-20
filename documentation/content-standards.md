@@ -65,17 +65,22 @@ All code blocks should be delineated by triple backticks (```)
 - CSS: ```css
 - Error: ```error
 - Emojicode: ```emojic
+- Golang: ```go
 - HTML: ```html
 - Java: ```java
 - JavaScript: ```js
+- Markdown: ```md
 - PHP: ```php
+- Plaintext: ```plaintext
 - Pseudo: ```pseudo
 - Python: ```py
 - R: ```r
 - Ruby: ```rb
 - Sass: ```scss
+- Scheme: ```scheme
 - Shell/Program Output: ```shell
 - SQL: ```sql
+- Swift: ```swift
 
 #### Codebytes: Runnable Code Blocks
 
