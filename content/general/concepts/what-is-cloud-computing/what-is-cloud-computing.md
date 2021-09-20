@@ -1,6 +1,6 @@
 ---
 Title: 'What is Cloud Computing?'
-Description: 'Cloud Computing is a term used for on-demand availability of computer system resources, particularly data storage (cloud storage) and computational power without direct active management by the user. Users have to pay only for the services they use. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.'
+Description: 'It is a term used for on-demand availability of computer system resources and computational power without direct active management by the user.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -15,7 +15,7 @@ CatalogContent: # If listing multiple URLs, please put the most relevant one fir
 
 ## History of Cloud Computing
 
-**DARPA (Defence Advanced Research Projects Agency)** awarded MIT $2 million for Project MAC in 1963. The funding required MIT to develop technology that would allow a “computer to be used by two or more people at the same time.” In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
+In 1963, the Defence Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a “computer to be used by two or more people at the same time.” In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
 
 ## How does Cloud Computing work?
 
