@@ -19,7 +19,13 @@ In 1963, the Defence Advanced Research Projects Agency (**DARPA**) awarded MIT a
 
 ## How does Cloud Computing work?
 
-It is divided into two sections, i.e., frontend and backend. They are connected through the Internet. The front end consists of the client’s computer or computer network. Also, the application is essential to access the cloud system. Not all cloud computing systems need to have the same user interface. On the back end of the cloud technology system, various computers, servers, and data storage systems make up the cloud. A cloud computing system could include any computer program, from data processing to video games. Generally, each application will have its dedicated server.
+It is divided into two sections, i.e., frontend and backend. They are connected through the Internet. The frontend consists of the client’s computer or computer network. Also, the application is essential to access the cloud system. Not all cloud computing systems need to have the same user interface. On the backend, the cloud is made of the following: 
+
+- Computers 
+- Servers
+- Data Storage Systems
+
+ A cloud computing system could include any computer program, from data processing to video games. Generally, each application will have its dedicated server.
 
 ## Types of Cloud
 
