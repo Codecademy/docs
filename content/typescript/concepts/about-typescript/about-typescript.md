@@ -27,6 +27,7 @@ As of April 2021, the latest stable version of TypeScript 4.2.2. To download via
 
 ```shell
 $ npm install typescript
+# TypeScript installed
 ```
 
 Because TypeScript was developed by Microsoft, it is [available in VSCode](https://code.visualstudio.com/docs/typescript/typescript-tutorial), by default.
