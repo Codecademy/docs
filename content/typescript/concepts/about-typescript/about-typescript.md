@@ -25,14 +25,14 @@ TypeScript was released in October 2012 by Microsoft after two years of developm
 
 To download the latest stable build via npm, use the following command:
 
-```shell
-$ npm install -g typescript
+```
+npm install -g typescript
 ```
 
 To check the installed version, use the following command:
 
-```shell
-$ tsc -v
+```
+tsc -v
 ```
 
 TypeScript was developed by Microsoft and is [available in VSCode](https://code.visualstudio.com/docs/typescript/typescript-tutorial) by default.
