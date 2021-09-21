@@ -15,7 +15,7 @@ CatalogContent: # If listing multiple URLs, please put the most relevant one fir
 
 ## History of Cloud Computing
 
-In 1963, the Defence Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a computer to be used by two or more people at the same time. In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
+In 1963, the Defense Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a computer to be used by two or more people at the same time. In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
 
 ## How does Cloud Computing work?
 
@@ -31,7 +31,7 @@ A cloud computing system could include any computer program, from data processin
 
 ### Public cloud
 
-Public clouds are owned and operated by third-party cloud service providers that deliver their computing resources like servers and storage over the Internet. Some examples include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
+Public clouds are owned and operated by third-party cloud service providers that deliver their computing resources like servers and storage over the Internet. Examples include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
 
 ### Private cloud
 
@@ -39,7 +39,7 @@ Private cloud refers to cloud computing resources used exclusively by a single b
 
 ### Hybrid cloud
 
-Hybrid clouds are the combination of both public and private clouds that allows data and applications to be shared between them. By allowing data and applications to move between private and public clouds, it provides business greater flexibility, more deployment options and helps optimize existing infrastructure, security and compliance.
+Hybrid clouds are a combination of both private and public clouds. Data and applications are allowed to be shared between the private and public clouds. Allowing data and applications to move between private and public clouds provides businesses greater flexibility, more deployment options, and helps optimize existing infrastructure, security and compliance.
 
 ## Benefits of Cloud Computing
 
@@ -61,4 +61,4 @@ Cloud computing makes data backup, disaster recovery, and business continuity si
 
 ### 5. Scalability
 
-Users do not have to over-provision resources for future peak levels of business activity with cloud computing. Instead, users only provide the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
+Users do not have to over-provision resources for future peak levels of business activity with cloud computing. Instead, users are only provided the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
