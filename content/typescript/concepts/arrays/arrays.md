@@ -37,10 +37,10 @@ const vowels: string[] = ['a', 'e', 'i', 'o', 'u'];
 const altVowels: Array<string> = ['a', 'e', 'i', 'o', 'u'];
 ```
 
-More than one type can be prescribed in the array definition with the "or" `|` operator: 
+More than one type can be prescribed in the array definition with the "or" `|` operator:
 
 ```ts
-const numbers: (string | number )[] = [1, "2", 3, "four"];
+const numbers: (string | number)[] = [1, '2', 3, 'four'];
 
 // Alternative syntax
 // const numbers: [string, number] = [1, "2", 3, "four"];
