@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements in an array must be of the same type of data.'
+Description: 'In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements in an array must be of the same type of data.
+In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.
 
 ## Defining an array
 
@@ -37,9 +37,21 @@ const vowels: string[] = ['a', 'e', 'i', 'o', 'u'];
 const altVowels: Array<string> = ['a', 'e', 'i', 'o', 'u'];
 ```
 
+More than one type can be prescribed in the array definition with the "or" `|` operator: 
+
+```ts
+const numbers: (string | number )[] = [1, "2", 3, "four"];
+
+// Alternative syntax
+// const numbers: [string, number] = [1, "2", 3, "four"];
+```
+
+As long as each element in `numbers` is of type `string` or `number`, it is valid.
+
 ## Array Types
 
 An array type consists of the type of values inside the array followed by square brackets `[]`.
+
 Arrays without any initial contents may be declared as that type to tell TypeScript what will later go into them.
 
 In this example, `dates` doesn't initially include a value, so declaring it as `Date[]` tells TypeScript what's allowed in it:
