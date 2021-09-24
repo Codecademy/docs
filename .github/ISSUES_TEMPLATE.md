@@ -1,4 +1,4 @@
-**Note**: *Before creating a new issue, please ensure that a similar issue hasn't already been posted in the ["Issues" tab](https://github.com/Codecademy/docs/issues).*
+**Note**: _Before creating a new issue, please ensure that a similar issue hasn't already been posted in the ["Issues" tab](https://github.com/Codecademy/docs/issues)._
 
 <!--- When choosing a "Title" for this issue, it should be as descriptive as possible while still being brief. Below are a few examples of different issue titles for different contexts.
 
@@ -27,7 +27,7 @@ Please also include relevant motivation and context: -->
 - [ ] Typo and/or bug within one or more existing entries.
 - [ ] Unclear definition/explanation of term(s).
 - [ ] Out-of-date information (new release, deprecated package, etc.).
-- [ ] Recommend change(s) to documentation (such as  existing text or new text)
+- [ ] Recommend change(s) to documentation (such as existing text or new text)
 
 ## Type of Recommended Change(s)
 
