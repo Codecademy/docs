@@ -1,5 +1,14 @@
-## Naming an Issue
+**Note**: *Before creating a new issue, please ensure that a similar issue hasn't already been posted in the ["Issues" tab](https://github.com/Codecademy/docs/issues).*
 
+<!--- When choosing a "Title" for this issue, it should be as descriptive as possible while still being brief. Below are a few examples of different issue titles for different contexts.
+
+- General Entry: What is Cloud Computing?
+
+- Bug: Path separator is different for mac and windows
+
+- R entries needed
+
+- More Swift entries: Tuples, Protocols, Classes -->
 
 ## Description
 
@@ -15,10 +24,10 @@ Please also include relevant motivation and context: -->
 <!--- Please check the boxes that are relevant to this Issue: -->
 
 - [ ] One or more new entries/terms requested.
-- [ ] Typo and/or bug within one or more entries.
+- [ ] Typo and/or bug within one or more existing entries.
 - [ ] Unclear definition/explanation of term(s).
 - [ ] Out-of-date information (new release, deprecated package, etc.).
-- [ ] Recommended change/amendment to documentation.
+- [ ] Recommend change(s) to documentation (such as  existing text or new text)
 
 ## Type of Recommended Change(s)
 
@@ -31,3 +40,7 @@ Please also include relevant motivation and context: -->
 ## Checklist
 
 <!--- Please check the boxes that are relevant to this Issue: -->
+
+- [ ] An similar issue hasn't already been created.
+- [ ] The issue is appropriately titled.
+- [ ] Description is clear and includes supporting text, files, etc.
