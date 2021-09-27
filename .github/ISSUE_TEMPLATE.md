@@ -4,7 +4,7 @@
 
 - General Entry: What is Cloud Computing?
 
-- Bug: Path separator is different for mac and windows
+- Bug: Path separator is different for Mac and Windows
 
 - R entries needed
 
@@ -41,6 +41,6 @@ Please also include relevant motivation and context: -->
 
 <!--- Please check the boxes that are relevant to this Issue: -->
 
-- [ ] An similar issue hasn't already been created.
+- [ ] A similar issue hasn't already been created.
 - [ ] The issue is appropriately titled.
 - [ ] Description is clear and includes supporting text, files, etc.
