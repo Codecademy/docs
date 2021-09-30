@@ -36,7 +36,7 @@ Having trouble with the PR checker? Here are some common issues and resolutions:
   - ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory
   - if that looks ok, running `yarn test` locally should let you know what the issue is
 
-If you want your Codecademy username be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
+If you want your Codecademy username to be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
 
 1. Go to your Codecademy dashboard.
 2. Click on your profile image in the top-right and then choose "Profile".
