@@ -24,7 +24,7 @@ JavaScript has existed since 1995 and has since taken over as the dominant langu
 
 Although there were other projects to bring JavaScript to server-side applications, the functionality took off with the launch of Node.js in 2009. Node allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser. Node can, therefore, be used to write server-side applications with access to the operating system, file system, and everything else required to build fully-functional applications.
 
-Node.js is written in C, C++, and JavaScript, and it is built on the open-source [V8](https://v8.dev/) JavaScript engine which also powers JS in browsers such as Google Chrome. As V8 supports new features in JavaScript, they are incorporated into Node.
+Node.js is written in C, C++, and JavaScript, and it is built on the open-source [V8](https://v8.dev/) JavaScript engine which also powers JavaScript in browsers such as Google Chrome. As V8 supports new features in JavaScript, they are incorporated into Node.
 
 ## Node-Specific Functionality
 
@@ -76,7 +76,7 @@ This video will show you how to download and install Node.
 </video>
 
 1. To begin, <a href="https://nodejs.org/en/download/" target="_blank">download</a> and install Node.js for your operating system.
-2. To run JS files in Node, the `node` command followed by a file path will execute the program file.
+2. To run JavaScript files in Node, the `node` command followed by a file path will execute the program file.
 
 For example, if we have the following saved in a **script.js** file:
 
@@ -125,7 +125,7 @@ To exit the Node REPL, use the `.exit` command at any point and return to the sy
 
 ### Loading Existing Files
 
-Node REPL can also load existing JS files. If we had the following code saved into **script.js**:
+Node REPL can also load existing JavaScript files. If we had the following code saved into **script.js**:
 
 ```js
 var a = 'Node REPL is fun!';
@@ -152,7 +152,7 @@ Node packages are a convenient way to share modules between Node developers. The
 
 npm allows access to the hundreds of thousands of open-source packages available.
 
-In addition to npm, <a href="https://yarnpkg.com/en/" >yarn</a> is gaining popularity as another JS package manager.
+In addition to npm, <a href="https://yarnpkg.com/en/" >yarn</a> is gaining popularity as another JavaScript package manager.
 
 For more information and to see npm in action take our <a href="https://www.codecademy.com/courses/learn-javascript-transpilation/lessons/browser-compatibility-and-transpilation/exercises/browser-compatibility-introduction">Browser Compatibility and Transpilation</a> course.
 
