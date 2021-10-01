@@ -1,21 +1,22 @@
 ---
 Title: 'What is Cloud Computing?'
-Description: 'It is a term used for on-demand availability of computer system resources and computational power without direct active management by the user.'
+Description: 'Cloud computing is the distribution of technology services over the internet.'
 Subjects:
   - 'Computer Science'
 Tags:
   - 'Cloud Computing'
   - 'Cloud'
   - 'DevOps'
-CatalogContent: # If listing multiple URLs, please put the most relevant one first
+CatalogContent:
+  - 'learn-html'
   - 'paths/computer-science'
 ---
 
-**Cloud Computing** is a term used for on-demand availability of computer system resources, particularly data storage (cloud storage) and computational power without direct active management by the user. Users have to pay only for the services they use. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services such as computing power, storage, and databases on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.
+Cloud computing is the distribution of technology services over the internet, particularly data storage (cloud storage) and computational power without direct active management by the user. Users have to pay only for the services they use. Instead of buying, owning, and maintaining physical data centers and servers, users can access technology services such as computing power, storage, and databases on an as-needed basis from a cloud provider. There are many cloud providers in the market providing different services with different pricing models.
 
 ## History of Cloud Computing
 
-In 1963, the Defense Advanced Research Projects Agency (**DARPA**) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a computer to be used by two or more people at the same time. In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the **Cloud Computing**.
+In 1963, the Defense Advanced Research Projects Agency (DARPA) awarded MIT a $2 million grant for Project MAC. The funding required MIT to develop technology that would allow a computer to be used by two or more people at the same time. In this case, one of those massive, archaic computers that used reels of magnetic tape for memory and were the precursor to what is now collectively known as the cloud computing.
 
 ## How does Cloud Computing work?
 
@@ -62,3 +63,7 @@ Cloud computing makes data backup, disaster recovery, and business continuity si
 ### 5. Scalability
 
 Users do not have to over-provision resources for future peak levels of business activity with cloud computing. Instead, users are only provided the resources that they require. Users can instantly grow and shrink capacity by scaling these resources up or down as your business needs change.
+
+## Who is using Cloud Computing?
+
+A wide spectrum of enterprises have move to the cloud. Some big names include Netflix, Instagram, Apple, and more. The Codecademy team uses plenty of cloud computing serverces as well, such as AWS, Google Drive, and Notion.
