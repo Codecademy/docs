@@ -42,12 +42,12 @@ Links should have link titles so that screenreaders can narrate them as well as 
 For example:
 
 ```markdown
-My favorite Craigslist categorey is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
 ```
 
 The output would look like:
 
-My favorite Craigslist categorey is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
 
 ## URLs and Email Addresses
 
