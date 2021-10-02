@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays in TypeScript are considered to be "generic" across a single type of value. Once an array is known to contain a particular type of value, only that type is allowed in the array. Array types can be inferred from initial values in the array. In this example, the vowels array is inferred to consist of strings, and will allow pushing only strings: ts const vowels = [a, e, i, o, u]; vowels.push(y); // Ok'
+Description: 'In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,12 +11,13 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Arrays in TypeScript are considered to be "generic" across a single type of value.
-Once an array is known to contain a particular type of value, only that type is allowed in the array.
+In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.
 
-Array types can be inferred from initial values in the array.
+## Defining an array
 
-In this example, the `vowels` array is inferred to consist of `string`s, and will allow pushing only `string`s:
+Array types can be inferred during the initialization of a new array.
+
+In this example, the `vowels` array is inferred to consist of elements of type `string`:
 
 ```ts
 const vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -27,9 +28,30 @@ vowels.push(7);
 // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
 ```
 
+Arrays can also be defined with the "generic" type of its elements already preset in two ways:
+
+```ts
+const vowels: string[] = ['a', 'e', 'i', 'o', 'u'];
+
+// alternate way using Array class
+const altVowels: Array<string> = ['a', 'e', 'i', 'o', 'u'];
+```
+
+More than one type can be prescribed in the array definition with the "or" `|` operator:
+
+```ts
+const numbers: (string | number)[] = [1, '2', 3, 'four'];
+
+// Alternative syntax
+// const numbers: [string, number] = [1, "2", 3, "four"];
+```
+
+As long as each element in `numbers` is of type `string` or `number`, it is valid.
+
 ## Array Types
 
 An array type consists of the type of values inside the array followed by square brackets `[]`.
+
 Arrays without any initial contents may be declared as that type to tell TypeScript what will later go into them.
 
 In this example, `dates` doesn't initially include a value, so declaring it as `Date[]` tells TypeScript what's allowed in it:
