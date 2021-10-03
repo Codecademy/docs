@@ -1,6 +1,6 @@
 ---
 Title: '.isArray()'
-Description: 'Returns true for arrays; otherwise, false.'
+Description: 'Returns true for arrays, otherwise false.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns `true` for arrays; otherwise, `false`.
+Returns `true` for arrays, otherwise `false`.
+
+**Note**: The `isArray` method is called on the `Array` constructor function and is not a prototype method. That is why `isArrary()` is called via `Array.isArray`.
 
 ## Syntax
 
