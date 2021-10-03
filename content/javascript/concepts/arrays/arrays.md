@@ -33,7 +33,11 @@ var cars = ['Saab', 'Volvo', 'BMW'];
 Spaces and line breaks are not important. A declaration can span multiple lines:
 
 ```js
-var cars = ['Saab', 'Volvo', 'BMW'];
+var cars = [
+  'Saab',
+  'Volvo',
+  'BMW'
+];
 ```
 
 Using the JavaScript Keyword `new` is another way to create an array.
