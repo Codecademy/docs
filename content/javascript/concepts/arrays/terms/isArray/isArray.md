@@ -14,7 +14,7 @@ CatalogContent:
 
 Returns `true` for arrays, otherwise `false`.
 
-**Note**: The `isArray` method is called on the `Array` constructor function and is not a prototype method. That is why `isArrary()` is called via `Array.isArray`.
+**Note**: The `isArray` method is called on the `Array` constructor function and is not a prototype method. That is why `isArray()` is called via `Array.isArray`.
 
 ## Syntax
 
