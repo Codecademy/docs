@@ -2,9 +2,11 @@
 
 <!-- Please write a summary of the change, such as which topic(s) and file(s) that you have edited or created. Please also include relevant motivation and context: -->
 
+
+
 ### Type of Change
 
-<!--- Please delete/cross off the bulletpoint(s) that are irrelevant to this PR: -->
+<!--- Please delete or cross off the bullet point(s) that are irrelevant to this PR: -->
 
 - Adding a new entry
 - Editing an existing entry (fixing a typo, bug, issues, etc)
@@ -12,16 +14,16 @@
 
 ### Checklist
 
-<!-- Please check all the boxes: -->
+<!-- Please check ALL the boxes: -->
 
-- [ ] All writings are my own
-- [ ] My entry follows the Codecademy Docs style guide
-- [ ] My changes generate no new warnings
-- [ ] I have performed a self-review of my own writing and code
-- [ ] I have checked my entry and corrected any misspellings
-- [ ] I have made corresponding changes to the documentation if needed
-- [ ] I have confirmed my changes are not being pushed from my forked `main` branch
-- [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making
+- [ ] All writings are my own.
+- [ ] My entry follows the Codecademy Docs style guide.
+- [ ] My changes generate no new warnings.
+- [ ] I have performed a self-review of my own writing and code.
+- [ ] I have checked my entry and corrected any misspellings.
+- [ ] I have made corresponding changes to the documentation if needed.
+- [ ] I have confirmed my changes are not being pushed from my forked `main` branch.
+- [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making.
 
 <!--
 Having trouble with the PR checker? Here are some common issues and resolutions:
