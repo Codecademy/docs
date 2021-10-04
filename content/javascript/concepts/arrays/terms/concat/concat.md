@@ -19,13 +19,13 @@ The `.concat()` array method merges, or concatenates, two or more arrays.
 The `.concat()` method does not change the existing arrays, but instead returns a new array.
 
 ```js
-array.concat(array2);
+array1.concat(array2);
 ```
 
 It can also concatenate more than two arrays:
 
 ```js
-array.concat(array2, array3, array4);
+array1.concat(array2, array3, array4);
 ```
 
 ## Example 1
@@ -60,8 +60,8 @@ console.log(numbers);
 ## Codebyte Example
 
 ```codebyte/js
-const ball1 = ["⚽", "🏈", "⚾️", "🎾"];
-const ball2 = ["🏀", "🏐", "🏉"];
+const balls1 = [`⚽`, `🏈`, `⚾`, `🎾`];
+const balls2 = [`🏀`, `🏐`, `🏉`];
 
 const balls = balls1.concat(balls2);
 
