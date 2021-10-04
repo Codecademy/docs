@@ -65,17 +65,22 @@ All code blocks should be delineated by triple backticks (```)
 - CSS: ```css
 - Error: ```error
 - Emojicode: ```emojic
+- Golang: ```go
 - HTML: ```html
 - Java: ```java
 - JavaScript: ```js
+- Markdown: ```md
 - PHP: ```php
+- Plaintext: ```plaintext
 - Pseudo: ```pseudo
 - Python: ```py
 - R: ```r
 - Ruby: ```rb
 - Sass: ```scss
+- Scheme: ```scheme
 - Shell/Program Output: ```shell
 - SQL: ```sql
+- Swift: ```swift
 
 #### Codebytes: Runnable Code Blocks
 
@@ -133,4 +138,4 @@ If you'd like to include an image, video, GIF, or other file in your entry, plea
 
 Check out the [entry template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md) and [term entry template](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md) in this folder. And take a look at [GitHub Issues](https://github.com/Codecademy/docs/issues) to see where help is needed!
 
-For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/CONTRIBUTING.md). 🎒
+For a refresher on how to make a Pull Request, head back to the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md). 🎒

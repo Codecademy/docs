@@ -16,7 +16,7 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to create a new entry.
 - Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
 - Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
-- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs) discussion on Twitter.
+- Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 ## How do I submit a Pull Request (PR)?
 
@@ -24,7 +24,7 @@ Contributing follows this workflow:
 
 1. Fork [this project repository](https://github.com/codecademy/docs).
 2. Clone the forked repository to your computer.
-3. Create a branch.
+3. Create and switch into a new branch.
 4. Edit or create an entry and commit the changes.
 5. Make a PR to merge your fork with this repo.
 
@@ -35,6 +35,20 @@ Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow t
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app.
+
+## I submitted a PR but tests are failing, how do I fix them?
+
+Here are some common issues and resolutions:
+
+- The `verify_formatting` is failing
+  - Run `yarn format path/to/markdown/file.md` or `yarn format:all` and commit the results.
+- The `verify_lint` is failing
+  - Same as above.
+  - If `verify_lint` is still failing, running `yarn lint` locally should let you know what needs to be changed by hand.
+- The `test` is failing
+  - Ensure any new markdown files have a `Title` and `Description` defined in their metadata.
+  - Ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory.
+  - If that looks okay, running `yarn test` locally should let you know what the issue is.
 
 ## What do I need to do before creating new entries?
 
@@ -58,17 +72,20 @@ And here, templates for creating your new entries.
 
 As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry (this feature is coming in October)!
 
-If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked. You can stay anonymous by not linking them.
+If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked, and that your Codecademy profile is set to public. You can stay anonymous by not linking them.
 
 To link your Codecademy user profile to GitHub:
 
-1. Go to your [Codecademy dashboard](https://www.codecademy.com/learn).
-2. Click on your profile image in the top-right and then choose "Profile".
-3. Then click "Edit Profile".
-4. In the GitHub field, add your GitHub URL.
+1. Log out of Codecademy.
+2. Make sure that the email address associated with your Codecademy account is the [primary email associated with your Github account](https://github.com/settings/emails).
+3. Go to the [Codecademy login page](https://www.codecademy.com/login).
+4. Select the Github icon under "Or log in using:"
+5. Proceed through the OAuth process.
 
 ## Any tips for a Pull Request?
 
+- Before making a PR, make sure you pushed your changes from a branch other than `main`.
+- Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
