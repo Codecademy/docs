@@ -171,17 +171,18 @@ person.greeting();
 
 ## Object Classes
 
-Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class. 
+Classes are essentially boiler plate object templates. If a car was an object, then a car factory is an object class.
 
 You can construct an class with the following notation. We'll continue using the person object example. **Note: annonymous functions can't be used in Classes**
 
 ```js
-class Person{
-  greeting(){
-    return  `Hi, I'm ${this.firstName} ${this.lastName}.`;
+class Person {
+  greeting() {
+    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
+
 We have successfully created a class! But how do we use it? To use a class we need to create an instance of it. To demonstrate how an instance of a class is object, we will define new properties in our new object as well.
 
 ```js
@@ -197,26 +198,28 @@ person.eyeColor='Hazel'
 22
 'Hazel' */
 ```
-We now know how to create a class, as well as use it. We can go a step further and optimize this procedure through the use of a *constructor*.
 
-A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, we don't have to initiate an instance of a class and then define our new object's properties. This makes our code more concise, and precise. 
+We now know how to create a class, as well as use it. We can go a step further and optimize this procedure through the use of a _constructor_.
+
+A constructor function initializes a set of variables at the creation of a class. Thanks to constructors, we don't have to initiate an instance of a class and then define our new object's properties. This makes our code more concise, and precise.
 
 ```js
-class Person{
-  constructor(firstName,lastName){
-  this.firstName=firstName;
-  this.lastName=lastName;
+class Person {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
-  greeting(){
-    return  `Hi, I'm ${this.firstName} ${this.lastName}.`;
+  greeting() {
+    return `Hi, I'm ${this.firstName} ${this.lastName}.`;
   }
 }
 ```
-Let's break down this constructor. When making a new instance , the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputed at the time of creating the instance. Let's see this in action. 
+
+Let's break down this constructor. When making a new instance , the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputed at the time of creating the instance. Let's see this in action.
 
 ```js
-const person = new Person('Elizabeth','Harmon')
-console.log(person) //Prints the follwoing :
+const person = new Person('Elizabeth', 'Harmon');
+console.log(person); //Prints the follwoing :
 /*
 Person {
   firstName: 'Elizabeth',
@@ -226,7 +229,5 @@ Person {
     greeting: ƒ greeting()
   }
 } */
-person.greeting() // Prints "Hi, I'm Elizabeth Harmon."
+person.greeting(); // Prints "Hi, I'm Elizabeth Harmon."
 ```
-
-
