@@ -1,6 +1,6 @@
 ---
 Title: 'pip' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.    ' # Required; ideally under 150 characters (used in search engine results and content previews)
+Description: 'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.'
 Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -24,7 +24,7 @@ The concept of packages is not unique to `pip`. A package is essentially a colle
 
 [The Python Package Index Repository](https://pypi.org/), otherwise called PyPI, hosts a large collection of these packages. The primary tool used to interact with PyPI is the command line, specifically `pip`. Packages on this network typically offer a list of requirements to run the package, how to install it, as well as examples of the package being implemented
 
-## `pip ` installation
+## `pip` installation
 
 `pip` commonly comes with the installation of Python. Therefore, the first step in installing `pip` is verifying that it is already installed. This step can vary between versions of Python as well as what machine it is running on. The examples below are for version 3.6.3 and above. They are also meant for Windows. A good resource for more specific instructions would be the [official python tutorial on installing packages](https://packaging.python.org/tutorials/installing-packages/).
 
