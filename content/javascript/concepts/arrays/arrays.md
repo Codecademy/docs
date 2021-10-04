@@ -69,7 +69,7 @@ console.log(cars[0]);
 Array elements can be changed by accessing the element and assigning a new value to it.
 
 ```js
-var cars = ['Saab', 'Volvo, 'BMW'];
+var cars = ['Saab', 'Volvo', 'BMW'];
 
 cars[1] = 'Tesla';
 
