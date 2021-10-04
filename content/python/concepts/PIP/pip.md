@@ -1,12 +1,10 @@
 ---
 Title: 'pip'
 Description: 'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.'
-Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
 Tags:
   - 'Conceptual'
   - 'Packages'
+
 CatalogContent:
   - 'learn-python-3'
   - 'paths/learn-python3'
