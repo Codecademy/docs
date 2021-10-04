@@ -11,12 +11,15 @@ When choosing a "Title" for this issue, it should be as descriptive as possible 
 
 ## Description
 
-<!--- Please write a summary of the issue, including information such as:
+<!--- 
+Please write a summary of the issue, including information such as:
 
-- Which topic (JavaScript) and/or file  is raising concerns?
-- Quoted entry text and/or code snippets.
+- Which topic and/or file is raising concerns?
+- For entry request, send a link to the GitHub folder where the entry should live.
 
-Please also include relevant motivation and context: -->
+Please also include relevant motivation and context:
+-->
+
 
 
 ## Type of Bug Request
@@ -44,7 +47,7 @@ Please also include relevant motivation and context: -->
 - [ ] A similar issue hasn't already been created.
 - [ ] No more than 3 entries requested.
 
-## Maintainers
+## For Maintainers
 
 - [ ] Labels are added
 - [ ] Assignee is added
