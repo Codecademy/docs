@@ -1,8 +1,6 @@
 ---
-Title:'pip'
-
-Description:'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.'
-
+Title: 'pip'
+Description: 'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.'
 Tags:
   - 'Conceptual'
   - 'Packages'
