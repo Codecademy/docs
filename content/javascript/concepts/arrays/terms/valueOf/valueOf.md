@@ -1,6 +1,6 @@
 ---
 Title: '.valueOf()'
-Description: 'The .valueOf() method returns the value of all the elements of the original array.'
+Description: 'Returns the value of all the elements of the original array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The .valueOf() method returns the value of all the elements of the original array.
+The `.valueOf()` method returns the value of all the elements of the original array.
 
 ## Syntax
 
