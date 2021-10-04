@@ -1,6 +1,6 @@
 ---
-Title: ''
-Description: ''
+Title: 'pip'
+Description: 'Much like how npm is used to manage code packages in JavaScript, pip also offers practical ways to install and use pre-made code.'
 Tags:
   - 'Conceptual'
   - 'Packages'
