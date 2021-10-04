@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Conceptual'
   - 'Packages'
-  - 'An nth tag'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/learn-python3'
