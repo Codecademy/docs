@@ -4,7 +4,6 @@ Description: 'pip is a tool used in Python to implement packages, pre-designed c
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
-  - 'Web Development'
 Tags:
   - 'Conceptual'
   - 'Packages'
