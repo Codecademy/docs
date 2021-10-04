@@ -1,6 +1,6 @@
 ---
 Title: 'OUTER JOIN'
-Description: 'Ccombine rows from different tables even if the join condition is not met.'
+Description: 'Combine rows from different tables even if the join condition is not met.'
 Subjects:
   - 'Data Science'
 Tags:

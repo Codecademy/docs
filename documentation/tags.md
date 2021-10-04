@@ -65,6 +65,7 @@ Data Types
 Database
 Date
 Debugging
+Decorators
 Deep Learning
 Dependency
 Developer Tools
