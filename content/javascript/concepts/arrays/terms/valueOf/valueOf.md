@@ -32,4 +32,4 @@ console.log(newArray);
 // Output: ['JS', 'Python', 'Java', 'C++']
 ```
 
-**Note:** This method will not change the original array. However, if the original array or the variable which holds it (using the `.valueOf` method) is manipulated, the value of the array will change accordingly.
+**Note:** This method will not change the original array. However, if the original array or the variable which holds it (using the `.valueOf()` method) is manipulated, the value of the array will change accordingly.
