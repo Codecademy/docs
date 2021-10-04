@@ -1,15 +1,15 @@
 ---
-Title: 'pip' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'pip'
 Description: 'pip is a tool used in Python to implement packages, pre-designed code with specific functionality, into a user's Python project. Essentially the 'npm' of Python.'
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
   - 'Web Development'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Conceptual'
   - 'Packages'
   - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-python-3'
   - 'paths/learn-python3'
 ---
