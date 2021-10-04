@@ -10,7 +10,6 @@ Tags:
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
 Bots are software applications which perform automated services. Bots perform tedious and repetitive tasks quicker and more efficiently than it would take humans.
