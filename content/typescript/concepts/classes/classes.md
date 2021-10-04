@@ -18,10 +18,10 @@ TypeScript adds a few new syntaxes such as type annotations to help write classe
 
 Class members' types work similarly to parameter and variable types.
 If an initial value exists, the member's type is inferred to be that type.
-If no initial value exists, the member is implicitly type `any` unless a type annotation exists on its name.
+If no initial value exists, the member is implicitly of type `any` unless a type annotation exists on its name.
 
 In the following `Box` class, `count` is inferred to be type `number` because its initial value is `0`, while `value` is explicitly declared as type `string`.
-Asking for the `count` of a `Box` instance therefore is of type `number`, and the `value` is of type `string`:
+Asking for the `count` of a `Box` instance, therefore, is of type `number`, and the `value` is of type `string`:
 
 ```ts
 class Box {
