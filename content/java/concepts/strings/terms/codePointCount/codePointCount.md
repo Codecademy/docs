@@ -20,7 +20,7 @@ string.codePointCount(int indexStart, int indexEnd)
 ```
 
 - `indexStart` (required): The index of the first character in the string to start counting from.
-- `indexEnd` (required): The index to the last character in the string to stop counting at.
+- `indexEnd` (required): One more than the index of the last character in the string to stop counting at.
 
 ## Example 1
 
