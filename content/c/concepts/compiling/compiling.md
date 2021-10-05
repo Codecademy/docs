@@ -31,11 +31,8 @@ In this stage, the preprocessed code is translated into assembly code and syntax
 
 ### 3. Assembly
 
-In this stage, an assembler is used to translate the assembly code into object code (machine code). 
+In this stage, an assembler is used to translate the assembly code into object code (machine code).
 
 ### 4. Linking
 
 Linking is the final stage in the process of compilation. In this stage, all the object code from multiple modules is merged together so that it can finally be executed by the processor.
-
-
-
