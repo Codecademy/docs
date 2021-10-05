@@ -56,7 +56,7 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
 
 ```markdown
-> #### The quarterly results look great.
+> ### The quarterly results look great
 >
 > - Dogecoin was off the chart!
 > - Apes together stonk!
@@ -68,7 +68,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 The output would be:
 
 ```markdown
-> #### The quarterly results look great.
+> ### The quarterly results look great
 >
 > - Dogecoin was off the charts!
 > - Apes together stonk!
