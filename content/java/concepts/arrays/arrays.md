@@ -60,7 +60,7 @@ System.out.println(marks[4]);
 
 In Java, an `ArrayList` is used to represent a dynamic list.
 
-While arrays are fixed in size (the size cannot be modified), an `ArrayList` allows flexibility by being able to both add and remove elements.
+While arrays are fixed in size (the length cannot be modified), an `ArrayList` allows flexibility by allowing for the addition and removal of elements.
 
 ```java
 // Import the ArrayList package
@@ -72,11 +72,11 @@ ArrayList<String> students = new ArrayList<String>();
 
 ## Modifying ArrayLists in Java
 
-An `ArrayList` can easily be modified using built in methods.
+An `ArrayList` can easily be modified using built-in methods.
 
 To add elements to an ArrayList, you use the `.add()` method. The element that you want to add goes inside of the `()`.
 
-To remove elements from an ArrayList, you use the `.remove()` method. Inside the () you can specify the index of the element that you want to remove. Alternatively, you can specify directly the element that you want to remove.
+To remove elements from an ArrayList, you use the `.remove()` method. Inside the `()` you can specify the index of the element that you want to remove. Alternatively, you can directly specify the element that you want to remove.
 
 ```java
 import java.util.ArrayList;
@@ -101,4 +101,5 @@ public class Students {
 
     System.out.println(studentList);
   }
+}
 ```

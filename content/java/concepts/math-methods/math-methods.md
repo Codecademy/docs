@@ -1,6 +1,6 @@
 ---
 Title: 'Math Methods'
-Description: 'The Java Math class provides several methods that allows us to work on math calculations with numbers. java Math.method();  Here are the Math methods in alphabetical order:'
+Description: 'The Java Math class provides several methods that allows us to work on mathematical calculations with numbers. java Math.method();  Here are the Math methods in alphabetical order:'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Java `Math` class provides several methods that allows us to work on math calculations with numbers.
+The Java `Math` class provides several methods that allows us to work on mathematical calculations with numbers.
 
 ```java
 Math.method();
