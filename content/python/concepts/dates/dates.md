@@ -1,27 +1,19 @@
 ---
+Title: 'Dates'
 
-Title:  'Dates'
-
-Description:  'Python doesn't have any data types for date and time but we can work with date and time in python using 'datetime' module. It comes built in with python so we don't have to install it but it needs to be imported using 'import datetime' statement. It can be used to create & modify datetime objects or to get current datetime. For example .datetime.now() method will return the current date and time.'
+Description: 'Python does not have any data types for date and time but we can work with date and time in python using "datetime" module. It comes built in with python so we do not have to install it but it needs to be imported using "import datetime" statement. It can be used to create & modify datetime objects or to get current datetime. For example .datetime.now() method will return the current date and time.'
 
 Subjects:
-
--  'Computer Science'
-
--  'Data Science'
+  - 'Computer Science'
+  - 'Data Science'
 
 Tags:
-
--  'Date'
-
-- 'Time'
+  - 'Date'
+  - 'Time'
 
 CatalogContent:
-
--  'learn-python-3'
-
--  'paths/computer-science'
-
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 Python doesn't have a data type for datetime but it has a module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify datetime objects.
