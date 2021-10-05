@@ -1,4 +1,4 @@
-<!-- 
+<!--
 When choosing a "Title" for this issue, it should be as descriptive as possible while still being brief. Below are a few examples of different issue titles for different contexts.
 
 - [Bug] Path separator is different for Mac and Windows
