@@ -1,3 +1,8 @@
+<!--
+👋 Hi, thanks for sending a PR to Codecademy Docs! 💖
+Please fill out all fields below to ensure your PR is reviewed quickly.
+-->
+
 ### Description
 
 <!-- Please write a summary of the change, such as which topic(s) and file(s) that you have edited or created. Please also include relevant motivation and context: -->
