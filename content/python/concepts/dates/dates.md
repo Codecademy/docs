@@ -20,7 +20,7 @@ Because the module comes built-in with Python installation is not required, but 
 import datetime
 ```
 
-For example `.datetime.now()` method will return the current date and time.
+As an example, the code below employs the `.datetime.now()` method to return the current date and time:
 
 ```codebyte/py
 import datetime
