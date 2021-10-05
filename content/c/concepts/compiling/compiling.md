@@ -13,7 +13,7 @@ CatalogContent:
 
 Compiling is a term used for converting code written by a programmer in languages such as C, C++, etc. (source code) into machine understandable code (machine code). Compiling is carried out by a compiler and this whole process of converting source code into machine code is known as Compilation.
 
-## Stages of Compiling a C Program.
+## Stages of Compiling a C Program
 
 There are 4 stages in the process of compilation of a C Program.
 
