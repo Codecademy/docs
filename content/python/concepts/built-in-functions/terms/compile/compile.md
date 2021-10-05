@@ -27,17 +27,25 @@ compile(source, filename, mode)
 - `source`: string or AST object
 - `filename`: The file from which the code is being read
 - `mode`:
-  - `eval`: accepts only a single expression.
+  - `eval`: It accepts only a single expression.
   - `exec`: It can take a code block that has Python statements, class and functions, and so on.
-  - `single`: if it consists of a single interactive statement
-- `flags` (optional) and `dont_inherit` (optional): controls which future statements affect the compilation of the source. Default set to 0.
-- `optimize` (optional): optimization level of the compiler. Default set to -1.
+  - `single`: It consists of a single interactive statement.
+- `flags` (optional) and `dont_inherit` (optional): Controls which future statements affect the compilation of the source. Default set to 0.
+- `optimize` (optional): The optimization level of the compiler. Default set to -1.
 
 ## Example 1
 
-Use `compile()` to return the absolute value of `-6.5`:
+Use `compile()` to take a code block and return a runnable code object.
 
 ```py
 x = compile('print(55)\nprint(88)', 'test', 'exec')
+
 exec(x)
+```
+
+This will output:
+
+```
+55
+88
 ```
