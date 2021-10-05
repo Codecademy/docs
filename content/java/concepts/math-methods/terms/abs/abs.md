@@ -23,13 +23,17 @@ Math.abs(n)
 
 ## Example 1
 
-Use `Math.abs()` to return the absolute value of `-6.5`:
+Use `Math.abs()` to return the absolute values of `-6.5` and `2`:
 
 ```java
 double x = -6.5;
+int y = 2;
 
 System.out.println(Math.abs(x));
 // Output: 6.5
+
+System.out.println(Math.abs(y));
+// Output: 2
 ```
 
 ## Example 2

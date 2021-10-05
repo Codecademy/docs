@@ -43,13 +43,40 @@ The output would be:
 8
 ```
 
-## For-Each Statement
+## For Loop
 
-In Java, the `for`-`each` statement allows you to directly loop through each item in an array or `ArrayList` and perform some action with each item.
+A `for` loop iterates over a range of values. Its declaration is made up of the following three parts, each separated by a semicolon:
 
-When creating a `for`-`each` statement, you must include the `for` keyword and two expressions inside of parentheses, separated by a colon. These include:
+1. The initialization of the loop control variable.
+2. A conditional expression.
+3. An expression that modifies the loop control variable.
 
-- The handle for an element we’re currently iterating over.
+In this example, the loop control variable starts at 3 and decrements. The loop will continue iterating until the conditional expression is no longer true:
+
+```java
+for (int i = 3; i > 0; i--) {
+  System.out.println(i);
+}
+
+System.out.println("Liftoff!");
+```
+
+The output would be:
+
+```shell
+3
+2
+1
+Liftoff!
+```
+
+## For-Each Loop
+
+In Java, the `for`-`each` loop allows you to directly loop through each item in an array or `ArrayList` and perform some action with each item.
+
+When creating a `for`-`each` loop, you must include the `for` keyword and two expressions inside of parentheses, separated by a colon. These include:
+
+- The data type and handle for an element we’re currently iterating over.
 - The source array or ArrayList we’re iterating over.
 
 ```java
