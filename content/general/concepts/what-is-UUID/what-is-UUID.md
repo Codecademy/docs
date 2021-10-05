@@ -20,10 +20,13 @@ They are useful any time we need an ID that needs to be unique in an application
 ## UUID example in JavaScript
 
 UUIDs can be used in JavaScript with the `uuid` package and installed via npm:
+
 ```
 npm install uuid
 ```
+
 This example shows how to generate a UUID with the `uuidv4()` function:
+
 ```js
 const { v4: uuidv4 } = require('uuid');
 
