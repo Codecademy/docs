@@ -75,3 +75,4 @@ The output would be:
 > - $AMC to the moon!
 >
 >   _Everything_ is going according to **the plan**.
+```
