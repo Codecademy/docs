@@ -1,5 +1,3 @@
-**Note**: Before creating a new issue, please ensure that a similar issue hasn't already been posted in the ["Issues" tab](https://github.com/Codecademy/docs/issues).
-
 <!-- 
 When choosing a "Title" for this issue, it should be as descriptive as possible while still being brief. Below are a few examples of different issue titles for different contexts.
 
