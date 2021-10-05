@@ -14,7 +14,7 @@ CatalogContent:
 
 Python doesn't have a data type for datetime but there's a built-in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify datetime objects.
 
-The module comes built in with python so installation is not required but we need to import it at top of Python file as below:
+Because the module comes built-in with Python installation is not required, but we do need to import it at top of a Python file.
 
 ```py
 import datetime
