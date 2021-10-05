@@ -21,12 +21,14 @@ Java strings provide a way to store something like a word, sentence, or whole pa
 String name = "Codecademy";
 
 // Creating another String variable
-String address = "575 Broadway #5, New York, NY 10012"
+String address = "575 Broadway #5, New York, NY 10012";
 ```
 
-To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`.
+To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`. `.equals()` will compare the values of the strings, while `==` compares the references (location in memory) of the strings.
 
 ```java
- // The following will print "false" because strings are case-sensitive
+String name = "Bob";
+
+// The following will print "false" because strings are case-sensitive
 System.out.println(name.equals("bob"));
 ```
