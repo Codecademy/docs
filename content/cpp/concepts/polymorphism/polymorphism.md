@@ -1,6 +1,6 @@
 ---
 Title: 'Polymorphism'
-Description: 'The word 'Polymorphism' means having many form. Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) can behave differently in different scenarios.'
+Description: 'The word Polymorphism means having many form. Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) can behave differently in different scenarios.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
