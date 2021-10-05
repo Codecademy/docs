@@ -1,6 +1,6 @@
 **Note**: Before creating a new issue, please ensure that a similar issue hasn't already been posted in the ["Issues" tab](https://github.com/Codecademy/docs/issues).
 
-<!-- 
+<!--
 When choosing a "Title" for this issue, it should be as descriptive as possible while still being brief. Below are a few examples of different issue titles for different contexts.
 
 - [Bug] Path separator is different for Mac and Windows
@@ -11,7 +11,7 @@ When choosing a "Title" for this issue, it should be as descriptive as possible 
 
 ## Description
 
-<!--- 
+<!---
 Please write a summary of the issue, including information such as:
 
 - Which topic and/or file is raising concerns?
@@ -19,8 +19,6 @@ Please write a summary of the issue, including information such as:
 
 Please also include relevant motivation and context:
 -->
-
-
 
 ## Type of Bug Request
 
