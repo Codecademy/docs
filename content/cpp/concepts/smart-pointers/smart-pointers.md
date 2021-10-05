@@ -18,13 +18,13 @@ A smart pointer is a class that holds and manages a pointer through RAII. It all
 
 Key Concept:
 
-- Ownership: When refering to memory, ownership answers the question: 'Who is in charge of freeing the given resource?'
+ - Ownership: When refering to memory, ownership answers the question: 'Who is in charge of freeing the given resource?'
 
 There are three standard smart pointers defined in the `<memory>` header file:
 
-- `std::unique_ptr<T>` A unique pointer does not share ownership, and will free the resource at the end of the scope.
-- `std::shared_ptr<T>` A shared pointer does share ownership, and will only free the resource when there are no other owners counted and it has reached the end of the scope.
-- `std::weak_ptr<T>` A weak pointer is used with a shared_pointer, but it does not add to the reference counter like a shared pointer does.
+ - `std::unique_ptr<T>` A unique pointer does not share ownership, and will free the resource at the end of the scope.
+ - `std::shared_ptr<T>` A shared pointer does share ownership, and will only free the resource when there are no other owners counted and it has reached the end of the scope.
+ - `std::weak_ptr<T>` A weak pointer is used with a shared_pointer, but it does not add to the reference counter like a shared pointer does.
 
 Both `unique_ptr` and `shared_ptr` have a corresponding function to create their respective pointers:
 
