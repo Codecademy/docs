@@ -23,7 +23,7 @@ string.concat(String str)
 
 ## Example 1
 
-Append the string `flavor` to `dessert`:
+Append the string `dessert` to `flavor`:
 
 ```java
 class FlavoredDessert {
@@ -39,7 +39,7 @@ class FlavoredDessert {
 
 ## Example 2
 
-Concat the strings `firstName`, `middleName`, and `lastName`:
+Concatenate the strings `firstName`, `middleName`, and `lastName`:
 
 ```java
 class FullName {
