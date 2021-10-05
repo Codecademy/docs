@@ -28,7 +28,7 @@ Here's the basic syntax for creating an `enum`:
 ```java
 public enum name {
   constant1,
-  constant1,
+  constant2,
   ...
 }
 ```
