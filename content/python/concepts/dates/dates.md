@@ -1,22 +1,18 @@
 ---
 Title: 'Dates'
-
-Description: 'Python does not have any data types for date and time but we can work with date and time in python using "datetime" module. It comes built in with python so we do not have to install it but it needs to be imported using "import datetime" statement. It can be used to create & modify datetime objects or to get current datetime. For example .datetime.now() method will return the current date and time.'
-
+Description: 'The built-in Python module called datetime is used to create and modify dates and times.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
-
 Tags:
   - 'Date'
   - 'Time'
-
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-Python doesn't have a data type for datetime but there is built in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify datetime objects.
+Python doesn't have a data type for datetime but there's a built-in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify datetime objects.
 
 The module comes built in with python so installation is not required but we need to import it at top of Python file as below:
 
@@ -55,7 +51,6 @@ time_object = datetime.time(10,5,31)
 
 datetime_object=datetime.datetime(2021,10,5,10,5,31)
 # Create datetime object with year=2021, month=10, day=5,hour=10,minute=5 and second=31
-
 ```
 
 Further more we also have a timedelta type which is used to represent time difference.
@@ -71,13 +66,12 @@ For example: If you want to add 2 months to a current date , it can be done as b
 import datetime
 
 current_date = datetime.datetime.now()
-#get current datetime
+#Get current datetime
 
 date_after_two_months = current_date + datetime.timedelta(days=30*2)
 
 print(date_after_two_months)
 # Displays date 2 months from current date.
-
 ```
 
 Date and time difference can be calculated using difference operation in `datetime` module.
@@ -86,7 +80,7 @@ Date and time difference can be calculated using difference operation in `dateti
 import datetime
 
 current_date = datetime.datetime.now()
-#get current datetime
+#Get current datetime
 
 date_after_interval = datetime.datetime(2023,10,5)
 
