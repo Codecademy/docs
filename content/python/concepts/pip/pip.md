@@ -23,7 +23,7 @@ The concept of packages is not unique to `pip`. A package is a collection of cod
 - Instructions for installing the package.
 - One or more examples of how the package is implemented.
 
-## `pip` installation
+## `pip` Installation
 
 `pip` commonly comes with the installation of Python. Therefore, the first step in installing `pip` is verifying that it is already installed. This step can vary between versions of Python as well as what machine it is running on. The examples below are for version 3.6.3 and above. A good resource for more specific instructions would be the [official python tutorial on installing packages](https://packaging.python.org/tutorials/installing-packages/).
 
