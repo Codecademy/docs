@@ -40,7 +40,7 @@ YYYY-MM-DD hh:mm:ss.ffffff
 
 ## Creating New datetime Objects
 
-The `datetime` module has three main types available: 
+The `datetime` module has three main types available:
 
 - `date`
 - `time`
