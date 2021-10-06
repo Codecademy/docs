@@ -55,6 +55,7 @@ If `pip` is out of date, the following command will upgrade it:
 ```
 # Window
 py -m pip install --upgrade
+
 # Linux/macOS
 python -m pip install --upgrade
 ```
