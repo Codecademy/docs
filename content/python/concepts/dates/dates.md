@@ -52,7 +52,7 @@ Furthermore, we also have a timedelta type which is used to represent time diffe
 `timedelta(days, seconds, microseconds, milliseconds, minutes, hours, weeks)`
 All arguments are optional and have default value of 0.
 
-## Operations on datetime object
+## Operations on datetime Objects
 
 We can perform different operations on a datetime object.
 For example, if we want to add 2 months to a current date, it can be done as below:
