@@ -1,6 +1,6 @@
 ---
 Title: 'Modulo'
-Description: 'In Python, the percent sign is known as the Modulo Operator.'
+Description: 'In Python, the percent sign is known as the modulo operator.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
