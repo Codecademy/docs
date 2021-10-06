@@ -16,11 +16,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An object is an instance of a class. It is created when we instantiate the class.
+An object is an instance of a class. It contains the properties and functionalities of its class.
 
-An object contains the properties and functionalities of its class. When an object is created, memory will be allocated for it.
+When an object is created, memory will be allocated for it.
 
-## Object Example in Java:
+## Object Example in Java
 
 In Java, an object is created using the `new` keyword. The `new` keyword tells the compiler to create a new instance of a class and allocate memory for it.
 
@@ -42,4 +42,9 @@ Employee bob = new Employee();
 Employee gene = new Employee();
 ```
 
-In the above example, five different objects from the class `Employee` were created.
+In the above example, five different objects were created from the class `Employee`.
+
+## Objects in Different Languages
+
+- [Objects in C++](https://www.codecademy.com/resources/docs/cpp/objects)
+- [Objects in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects)
