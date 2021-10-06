@@ -29,7 +29,7 @@ The result will be the current date and time as below:
 
 `2021-10-05 10:20:57.944968`
 
-It contains year,month,day,hour,minute,second and microsecond.
+It contains the year, month, day, hour, minute, second and microsecond.
 
 ## Creating new datetime object
 
