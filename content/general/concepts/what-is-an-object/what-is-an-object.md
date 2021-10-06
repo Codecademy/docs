@@ -1,5 +1,5 @@
 ---
-Title: 'What is an Object?'
+Title: 'Objects'
 Description: 'An object is an instance of a class. It has the properties and behaviors of its class.'
 Subjects:
   - 'Computer Science'
