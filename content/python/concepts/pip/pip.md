@@ -1,6 +1,9 @@
 ---
 Title: 'pip'
 Description: 'pip offers practical ways to install and use pre-made code for Python.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Conceptual'
   - 'Packages'
@@ -13,13 +16,13 @@ CatalogContent:
 
 ## Packages
 
-The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers. 
+The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers.
 
 One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development, Flask can offer the same reproducible and concise solution for developers who use Python.
 
 ## Python Package Index Repository (PyPI)
 
-[The Python Package Index Repository](https://pypi.org/) (PyPI), hosts a large collection of packages. The official package installer of the PyPI is `pip`, which is used in the command line. A good practice to understand how to use a package is reading its documentation on PyPI. 
+[The Python Package Index Repository](https://pypi.org/) (PyPI), hosts a large collection of packages. The official package installer of the PyPI is `pip`, which is used in the command line. A good practice to understand how to use a package is reading its documentation on PyPI.
 
 Documentation on PyPI typically comes with the following:
 
