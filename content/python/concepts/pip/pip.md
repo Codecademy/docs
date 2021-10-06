@@ -9,7 +9,7 @@ CatalogContent:
   - 'paths/learn-python3'
 ---
 
-`pip` is the package installer used in Python to install code packages. A similar tool is Node Package Manager (npm) in JavaScript. Much like npm, `pip` is the same community driven package space, but for Python.
+[pip](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager (npm) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.
 
 ## Packages
 
