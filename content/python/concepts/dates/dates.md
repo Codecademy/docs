@@ -66,7 +66,7 @@ current_date = datetime.datetime.now()
 date_after_two_months = current_date + datetime.timedelta(days=30*2)
 
 print(date_after_two_months)
-# Displays date 2 months from current date.
+# Displays date 2 months from current date
 ```
 
 Date and time difference can be calculated using difference operation in `datetime` module.
