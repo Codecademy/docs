@@ -5,8 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Constructors'
-  - 'Default'
-  - 'Parameterized'
+  - 'Parameters'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
