@@ -59,7 +59,7 @@ All arguments are optional and have default value of 0.
 
 ## Operations on datetime object
 
-We can perform different operation on a datetime object.
+We can perform different operations on a datetime object.
 For example: If you want to add 2 months to a current date , it can be done as below
 
 ```codebyte/py
