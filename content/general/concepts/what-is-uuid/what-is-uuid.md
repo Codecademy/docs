@@ -21,7 +21,7 @@ UUIDs are usually used in database tables as unique keys. They are useful any ti
 UUIDs can be used in JavaScript with the `uuid` package. The package can be installed via npm:
 
 ```shell
-$ npm install uuid
+npm install uuid
 ```
 
 This example shows how to generate a UUID with the `uuidv4()` function:
