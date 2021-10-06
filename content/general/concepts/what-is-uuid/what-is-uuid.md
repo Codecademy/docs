@@ -18,7 +18,7 @@ UUIDs are usually used in database tables as unique keys. They are useful any ti
 
 ## UUID Example in JavaScript
 
-UUIDs can be used in JavaScript with the `uuid` package. The package can be installed via npm:
+UUIDs can be used in JavaScript with the [uuid](https://www.npmjs.com/package/uuid) package. The package can be installed via npm:
 
 ```shell
 npm install uuid
