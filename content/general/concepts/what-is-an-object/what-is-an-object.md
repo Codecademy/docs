@@ -42,4 +42,4 @@ Employee emp1=new Employee();
 
 ```
 
-In the above example we created an object for the class ***Employee***. In Java we create an object using the **new** keyword. The **new** keyword tells the compiler to create a new instance of a class and allocate memory for it.
+In the above example we created an object for the class **_Employee_**. In Java we create an object using the **new** keyword. The **new** keyword tells the compiler to create a new instance of a class and allocate memory for it.
