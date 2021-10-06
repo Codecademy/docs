@@ -37,7 +37,7 @@ py --version
 python3 --version
 ```
 
-It should be noted that as per the [`pip` documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below. That being said, you will mostly likely have a better experience using `pip` with Python 3. At the time of writting this, the latest version of Python is 3.9.7. To upgrade Python, [python.org](python.org) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
+It should be noted that as per the [`pip` documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below. That being said, you will most likely have a better experience using `pip` with Python 3. At the time of writing, the latest version of Python is 3.9.7. To upgrade Python, [python.org](python.org) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
 
 The following command is run to check the latest version `pip`:
 
