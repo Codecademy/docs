@@ -1,0 +1,92 @@
+---
+Title: 'Dates'
+Description: 'The built-in Python module called datetime is used to create and modify dates and times.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Date'
+  - 'Time'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
+
+Python has a built-in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify datetime objects.
+
+Because the module comes built-in with Python installation is not required, but we do need to import it at top of a Python file.
+As an example, the code below employs the `.datetime.now()` method to return the current date and time:
+
+```codebyte/py
+import datetime
+
+current_datetime = datetime.datetime.now()
+
+print(current_datetime)
+```
+
+The result will be the current date and time as below:
+
+```
+2022-10-05 10:20:57.944968
+```
+
+It contains the year, month, day, hour, minute, second, and microsecond.
+
+## Creating New datetime Objects
+
+The `datetime` module has three main types available: `date` , `time`, and `datetime`.
+
+```py
+import datetime
+
+# Create date object with year=2021, month=10, and day=5
+date_object = datetime.date(2021, 10, 5)
+
+# Create time object with hour=10, minute=5, and seconds=31
+time_object = datetime.time(10, 5, 31)
+
+# Create datetime object with year=2021, month=10, day=5, hour=10, minute=5 and second=31
+datetime_object = datetime.datetime(2021, 10, 5, 10, 5, 31)
+```
+
+Furthermore, we also have a `timedelta` type which is used to represent time difference.
+
+```py
+timedelta(days, seconds, microseconds, milliseconds, minutes, hours, weeks)
+```
+
+Note that all of the arguments are optional and have default value of 0.
+
+## Operations on datetime Objects
+
+We can perform different operations on a `datetime` object.
+For example, if we want to add 2 months to a current date, it can be done as below:
+
+```codebyte/py
+import datetime
+
+# Assign current datetime
+current_date = datetime.datetime.now()
+
+date_after_two_months = current_date + datetime.timedelta(days = 30*2)
+
+print(date_after_two_months)
+# Displays date 2 months from current date
+```
+
+Date and time differences can be calculated using the difference or subtraction operator on `datetime` objects.
+
+```codebyte/py
+import datetime
+
+# Assign current datetime
+current_date = datetime.datetime.now()
+
+date_after_interval = datetime.datetime(2023, 10, 5)
+
+date_difference = date_after_interval - current_date
+
+print(date_difference)
+# Displays date interval
+```
