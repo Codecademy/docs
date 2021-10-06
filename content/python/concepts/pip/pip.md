@@ -19,7 +19,9 @@ One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express]
 
 ## Python Package Index Repository (PyPI)
 
-[The Python Package Index Repository](https://pypi.org/) (PyPI), hosts a large collection of packages. The official package installer of the PyPI is `pip`, which is used in the command line. A good practice to understand how to use a package is reading it's documentation on PyPI. Documentation on PyPI typically comes with the following:
+[The Python Package Index Repository](https://pypi.org/) (PyPI), hosts a large collection of packages. The official package installer of the PyPI is `pip`, which is used in the command line. A good practice to understand how to use a package is reading its documentation on PyPI. 
+
+Documentation on PyPI typically comes with the following:
 
 - A list of requirements to run the package.
 - Instructions for installing the package.
