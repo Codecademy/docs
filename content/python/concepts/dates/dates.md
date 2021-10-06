@@ -84,7 +84,7 @@ print(date_after_two_months)
 # Displays date 2 months from current date
 ```
 
-Date and time differences can be calculated using the difference or subtraction operator on `datetime` objects.
+Date and time differences can be calculated using the subtraction operator `-` on `datetime` objects.
 
 ```codebyte/py
 import datetime
