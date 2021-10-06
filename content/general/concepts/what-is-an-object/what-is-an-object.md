@@ -18,11 +18,11 @@ CatalogContent:
 
 An object is an instance of a class. It is created when we instantiate the class.
 
-An object contains the properties and functionalities of its class. When an Object is created, memory will be allocated for it.
+An object contains the properties and functionalities of its class. When an object is created, memory will be allocated for it.
 
-Creating an Object in Java:
+Creating an object in Java:
 
-```
+```java
 // Creating the Employee class
 class Employee {
   int id;
@@ -40,4 +40,4 @@ Employee bob = new Employee();
 Employee gene = new Employee();
 ```
 
-In the above example we created an object for the class **_Employee_**. In Java we create an object using the **new** keyword. The **new** keyword tells the compiler to create a new instance of a class and allocate memory for it.
+In the above example, five different objects from the class `Employee` were created. In Java, an object is created using the `new` keyword. The `new` keyword tells the compiler to create a new instance of a class and allocate memory for it.
