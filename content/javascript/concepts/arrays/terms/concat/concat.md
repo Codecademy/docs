@@ -44,7 +44,7 @@ console.log(grocery);
 
 ## Example 2
 
-```codebyte/js
+```js
 const balls1 = ['⚽', '🏈', '⚾', '🎾'];
 const balls2 = ['🏀', '🏐'];
 
@@ -58,7 +58,7 @@ console.log(balls);
 
 Concatenating three arrays:
 
-```js
+```codebyte/js
 const num1 = [1, 2, 3];
 const num2 = [4, 5, 6];
 const num3 = [7, 8, 9];
