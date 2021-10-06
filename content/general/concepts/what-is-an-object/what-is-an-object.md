@@ -43,3 +43,8 @@ Employee gene = new Employee();
 ```
 
 In the above example, five different objects were created from the class `Employee`.
+
+## Objects in Different Languages
+
+- [Objects in C++](https://www.codecademy.com/resources/docs/cpp/objects)
+- [Objects in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects)
