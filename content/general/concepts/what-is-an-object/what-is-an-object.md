@@ -16,9 +16,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An object is an instance of a class. It is created when we instantiate the class.
+An object is an instance of a class. It contains the properties and functionalities of its class. 
 
-An object contains the properties and functionalities of its class. When an object is created, memory will be allocated for it.
+When an object is created, memory will be allocated for it.
 
 ## Object Example in Java
 
