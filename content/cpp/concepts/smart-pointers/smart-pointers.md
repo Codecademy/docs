@@ -12,8 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Smart Pointers
-
 A smart pointer is a class that holds and manages a pointer through RAII. It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
 
 ## Ownership
