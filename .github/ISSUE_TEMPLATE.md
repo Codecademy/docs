@@ -13,7 +13,7 @@ When choosing a "Title" for this issue, it should be as descriptive as possible 
 Please write a summary of the issue, including information such as:
 
 - Which topic and/or file is raising concerns?
-- For entry request, send a link to the GitHub folder where the entry should live.
+- For entry request(s), send a link to the GitHub folder where the entry should live.
 
 Please also include relevant motivation and context:
 -->
