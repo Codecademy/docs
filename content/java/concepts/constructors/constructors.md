@@ -12,21 +12,27 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 # Constructors 
+
 Constructors are like normal methods within the class, but are used to initialise the object of the class. Everytime you use the new() keyword to create an object atleast one constructor is called.
+
 ## Types of constructors in Java
+
 1. Default Constructor<br />
 These constructors do not accept any parameters.<br />
-1. Parameterized constructor<br />
+2. Parameterized constructor<br />
 These constructors accept a specific number of parameters.<br />
+
 ## Rules for creating constructors in Java
+
 1. Constructor always has same name as class name.
-1. You cannot declare constructor as abstract, static, final and synchronized.
-1. Construtors do not have any explicit return types.
+2. You cannot declare constructor as abstract, static, final and synchronized.
+3. Construtors do not have any explicit return types.
 
 ## Creating default constructor
+
 Here class Tree has a defult constructor named Tree with no parameters, when the instance of class is created at main function the constructor is called.
+
 ```
 class Tree{  
   //creating a default constructor  
@@ -39,12 +45,17 @@ class Tree{
   }  
 }  
 ```
+
 Output:
+
 ```
 Tree is created
 ```
+
 ## Creating parameterized constructor
+
 Here the class Employee has a parameterized constructor which takes parameters "int i" and "string n" respectively these values are passed while creating and instance of class from main function.
+
 ```
 class Employee{  
     int id;  
@@ -64,7 +75,9 @@ class Employee{
    }  
 }  
 ```
+
 Output:
+
 ```
 110 Ashish
 ```
