@@ -33,7 +33,7 @@ It contains the year, month, day, hour, minute, second and microsecond.
 
 ## Creating new datetime object
 
-`datetime` module have three main available types i.e `date` , `time` and `datetime`.
+The `datetime` module has three main types available: `date` , `time` and `datetime`.
 
 ```codebyte/py
 import datetime
