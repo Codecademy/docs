@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An object is an instance of a class. It contains the properties and functionalities of its class. 
+An object is an instance of a class. It contains the properties and functionalities of its class.
 
 When an object is created, memory will be allocated for it.
 

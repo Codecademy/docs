@@ -26,7 +26,6 @@ A UUID is usually represented as 32 hexadecimals, sepeated in five groups by 4 h
 
 So a total of 36 characters in the form `8-4-4-4-12`.
 
-
 ## UUID Example in JavaScript
 
 UUIDs can be used in JavaScript with the [uuid](https://www.npmjs.com/package/uuid) package. The package can be installed via [npm](https://www.codecademy.com/resources/docs/javascript/npm):
