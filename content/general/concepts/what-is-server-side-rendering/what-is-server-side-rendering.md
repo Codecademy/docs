@@ -1,0 +1,11 @@
+# What is Server-side Rendering
+
+Server-side rendering is rendering the content on the server and presenting it to the client when the request is made. While in the client-side rendering (opposite of server-side rendering) when a request is made server sends separate files and the content is rendered in the browser. Javascript works both on server and browser, so it is possible for the developers to render the content of an application where they want.
+
+## Why Server-side Rendering is Important
+
+- When the content is rendered on the server, the time required for downloading, parsing, and executing the javascript code is reduced. Thus ensuring fast load time of the web page.
+
+- Server-side rendering helps in improving SEO by pre-rendering the page. Thus search engine crawlers can easily read the generated HTML file. While in client-side rendering crawlers read an empty HTML file with links to javascript, which reduces the search ranking of the webpage. Fast loading of the server-side rendered webpage also helps the site to rank higher in search results.
+
+- On server-side rendered webpages, when the user clicks on a link for some content, the whole website is rendered again on the server. And if the number of concurrent users increases, the load on the servers increases. This is where the server-side rendering approach is not useful.
