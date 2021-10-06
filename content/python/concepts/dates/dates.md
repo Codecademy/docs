@@ -66,7 +66,7 @@ For example, if we want to add 2 months to a current date, it can be done as bel
 import datetime
 
 current_date = datetime.datetime.now()
-#Get current datetime
+# Assign current datetime
 
 date_after_two_months = current_date + datetime.timedelta(days=30*2)
 
