@@ -75,7 +75,7 @@ Date and time differences can be calculated using the difference or subtraction 
 import datetime
 
 current_date = datetime.datetime.now()
-#Get current datetime
+# Assign current datetime
 
 date_after_interval = datetime.datetime(2023,10,5)
 
