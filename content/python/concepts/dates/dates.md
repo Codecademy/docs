@@ -45,7 +45,7 @@ time_object = datetime.time(10,5,31)
 # Creates time object with hour=10, minute=5 and seconds=31
 
 datetime_object=datetime.datetime(2021,10,5,10,5,31)
-# Create datetime object with year=2021, month=10, day=5,hour=10,minute=5 and second=31
+# Creates datetime object with year=2021, month=10, day=5, hour=10, minute=5 and second=31
 ```
 
 Further more we also have a timedelta type which is used to represent time difference.
