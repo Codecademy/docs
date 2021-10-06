@@ -43,7 +43,7 @@ int main() {
 
 ```cpp
 int main() {
-    auto ptr = std::make_shared<int>(10); 
+    auto ptr = std::make_shared<int>(10);
     std::cout << ptr.use_count() << '\n'; // Prints the reference count (1)
     {
         auto ptr2 = ptr1; // Reference count is now 2
