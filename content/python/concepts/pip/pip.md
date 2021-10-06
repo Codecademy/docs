@@ -13,7 +13,9 @@ CatalogContent:
 
 ## Packages
 
-The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers. One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development, Flask can offer the same reproduceable and concise solution for developers who use Python.
+The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers. 
+
+One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development, Flask can offer the same reproducible and concise solution for developers who use Python.
 
 ## Python Package Index Repository (PyPI)
 
