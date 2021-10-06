@@ -12,8 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# Constructors 
-
 Constructors are like normal methods within the class, but are used to initialise the object of the class. Everytime you use the new() keyword to create an object atleast one constructor is called.
 
 ## Types of constructors in Java
