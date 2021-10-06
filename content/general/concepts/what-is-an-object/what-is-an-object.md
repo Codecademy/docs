@@ -12,12 +12,13 @@ Tags:
   - 'Encapsulation'
   - 'Classes'
 CatalogContent:
-  - 'paths/code-foundations'
+  - 'learn-c-plus-plus'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
-An Object is an instance of a class. It is created when we instantiate the class. Object contains the properties and functionalities. When an Object is created memory will be allocated for it.
+An object is an instance of a class. It is created when we instantiate the class.
+
+An object contains the properties and functionalities of its class. When an Object is created, memory will be allocated for it.
 
 Creating an Object in Java:
 
