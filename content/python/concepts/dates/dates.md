@@ -50,7 +50,7 @@ datetime_object=datetime.datetime(2021,10,5,10,5,31)
 
 Furthermore, we also have a timedelta type which is used to represent time difference.
 `timedelta(days, seconds, microseconds, milliseconds, minutes, hours, weeks)`
-All arguments are optional and have default value of 0.
+Note that all of the arguments are optional and have default value of 0.
 
 ## Operations on datetime Objects
 
