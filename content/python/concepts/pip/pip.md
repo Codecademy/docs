@@ -13,11 +13,12 @@ CatalogContent:
 
 ## Packages
 
-The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers. One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development, Flask can offer the same reproduceable and concise solution for developers who use Python.  
+The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers. One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development, Flask can offer the same reproduceable and concise solution for developers who use Python.
 
 ## Python Package Index Repository (PyPI)
 
 [The Python Package Index Repository](https://pypi.org/) (PyPI), hosts a large collection of packages. The official package installer of the PyPI is `pip`, which is used in the command line. A good practice to understand how to use a package is reading it's documentation on PyPI. Documentation on PyPI typically comes with the following:
+
 - A list of requirements to run the package.
 - Instructions for installing the package.
 - One or more examples of how the package is implemented.
@@ -25,6 +26,7 @@ The concept of packages is not unique to `pip`. A package is a collection of cod
 ## `pip` installation
 
 `pip` commonly comes with the installation of Python. Therefore, the first step in installing `pip` is verifying that it is already installed. This step can vary between versions of Python as well as what machine it is running on. The examples below are for version 3.6.3 and above. A good resource for more specific instructions would be the [official python tutorial on installing packages](https://packaging.python.org/tutorials/installing-packages/).
+
 ```
 # Windows
 py --version
@@ -32,6 +34,7 @@ py --version
 # Unix/macOS
 python3 --version
 ```
+
 It should be noted that as per the [`pip` documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below. That being said, you will mostly likely have a better experience using `pip` with Python 3. At the time of writting this, the latest version of Python is 3.9.7. To upgrade Python, [python.org](python.org) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
 
 The following command is run to check the latest version `pip`:
@@ -59,8 +62,3 @@ Finally, it is now possible to start installing packages from PyPI. In the follo
 ```
 py -m pip install "ACoolPackage"
 ```
-## requirements.txt
-
-A common feature of package managers is their ability to download a list of packages from a premade list. For example, in npm this list is the package.json file, while in `pip` it is the requirements.txt file. To be specific, these files contain metadata about a project, which can then be used to reproduce the enviornment in which a program was developed in. 
-
-One situation that best explains this, is when you are developing a program locally on your machine. Projects can involve a variety of packages, and although you may not use all the code in these packages, your project's code base will grow nonetheless. This can pose a problem when pushing commits to your Git repository, or when other developers try to download your code. 
