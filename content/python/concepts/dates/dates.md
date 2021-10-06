@@ -31,7 +31,7 @@ The result will be the current date and time as below:
 
 It contains the year, month, day, hour, minute, second and microsecond.
 
-## Creating new datetime object
+## Creating New datetime Objects
 
 The `datetime` module has three main types available: `date` , `time` and `datetime`.
 
