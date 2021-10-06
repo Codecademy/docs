@@ -18,7 +18,7 @@ In React, components make up the UI of the application. Components are pieces of
 
 ## Class Components
 
-Class componenets contain a state and use a `render()` function to return JSX markup. When defined, the `class` has to be an extention of the `React.Component` class:
+Class components contain a state and use a `render()` function to return JSX markup. When defined, the `class` has to be an extention of the `React.Component` class:
 
 ```jsx
 import React from 'react';
