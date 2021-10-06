@@ -15,7 +15,7 @@ CatalogContent:
 
 In Python, the percent sign (`%`) is known as the modulo operator. A modulo calculation returns the remainder of a division between the first and second number.
 
-## For example
+## Example
 
 ```py
 # Define a variable with a modulo operator
