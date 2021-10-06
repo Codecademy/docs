@@ -1,6 +1,6 @@
 ---
 Title: 'pip'
-Description: 'Much like how npm is used to manage code packages in JavaScript, pip also offers practical ways to install and use pre-made code, but for Python. pip can be a practical tool when doing backend development. One example is Flask, which is a package that facilitates the creation of server routes. '
+Description: 'pip offers practical ways to install and use pre-made code for Python.'
 Tags:
   - 'Conceptual'
   - 'Packages'
