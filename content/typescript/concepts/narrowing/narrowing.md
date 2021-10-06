@@ -1,6 +1,6 @@
 ---
 Title: 'Narrowing'
-Description: 'Union types represent entities that may be one of two or more different types. Because they only allow access to members known to be on all possible types, you need to narrow down a value to a more specific type before using non-shared members. TypeScript recognizes types as being narrowed when it sees JavaScript logic branches based on the type of code. If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that branch. For example, in this code, value is of type string | undefined, but TypeScript narrows it down to string in the if statements body. It knows the value cant be undefined and still reach block of code, though outside of the block there is no narrowing: ts'
+Description: 'Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -12,21 +12,48 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Union types represent entities that may be one of two or more different types.
-Because they only allow access to members known to be on all possible types, you need to narrow down a value to a more specific type before using non-shared members.
+Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type.
 
-TypeScript recognizes types as being narrowed when it sees JavaScript logic branches based on the type of code.
-If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that branch.
+[Union types](https://www.codecademy.com/resources/docs/typescript/unions) represent entities that may be one of two or more different types. Because they only allow access to members known to be on all possible types, we need to narrow down a value to a more specific type before using non-shared members.
 
-For example, in this code, `value` is of type `string | undefined`, but TypeScript narrows it down to `string` in the `if` statement's body.
-It knows the value can't be `undefined` and still reach block of code, though outside of the block there is no narrowing:
+## Where Narrowing Happens
+
+TypeScript recognizes types as being narrowed when it sees branches of JavaScript control-flow logic, including:
+
+- `if/else` conditional statements.
+- Other conditionals, like ternaries and switches.
+- Looping statments, such as `for`- and `while`-loops.
+- Truthiness checks for entities that don't point to `false`-like values.
+
+If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that control flow branch.
+
+## Example: Narrowing with `if` Statement
+
+In this example, our `logValueIfExists()` function accepts a `value` parameter with a union-type of `string | undefined`. If we want TypeScript to explicitly narrow our `value` down to a `string` type, we can use an `if` statement to act as a "type guard".
+
+```ts
+function logValueIfExists(value: string | undefined) {
+  if (typeof value === 'string') {
+    console.log(`Yay! ${value}!`);
+  }
+}
+
+logValueIfExists('narrowing');
+// output: Yay! narrowing!
+```
+
+We invoked `logValueIfExists()` with a string variable, "narrowing". Since the `value` is of type `string`, the code in the `if` statement will run and a new string will be logged to the console.
+
+## Exapmle: Narrowing with truthiness
+
+In the example below, we changed the `if` statement slightly to check if `value` has any value that is "truthy" and doesn't evaluate to a falsey value such as `0`, `false`, or `undefined`.
 
 ```ts
 function logValueIfExists(value: string | undefined) {
   value; // Type: string | undefined
 
   if (value) {
-    console.log(`Yay! ${value}`);
+    console.log(`Yay! ${value}!`);
 
     value; // Type: string
     value.length; // Type: number
@@ -35,4 +62,13 @@ function logValueIfExists(value: string | undefined) {
   value.length;
   // Error: Object is possibly 'undefined'.
 }
+
+logValueIfExists('truthiness');
+// output: Yay! truthiness!
+
+let newValue;
+logValueIfExists(newValue);
+// newValue is "undefined"; nothing is logged.
 ```
+
+Outside of the `if` statement, `value` is a union type (`string | undefined`) and is not narrowed, meaning that calling `value.length` won't work. Inside the `if` statment, because `value` was narrowed to a `string` type, it now has a `length` property.

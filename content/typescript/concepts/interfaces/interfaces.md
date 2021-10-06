@@ -1,6 +1,6 @@
 ---
 Title: 'Interfaces'
-Description: 'JavaScript code often necessitates passing around objects known to have specific shapes. Interfaces are a way in TypeScript to declare that an object provided in a location must have at least a certain set of members. Interfaces may be declared by starting with the interface keyword, a name for the interface, and then an object containing any number of members. In this example, the Dog interface declares fluffy and woof members. Any value declared to be of type Dog is therefore known to have those members. Any other member, such as bark, is not known to exist, and accessing it would be a type error: ts'
+Description: 'Interfaces are used to "shape" an object by describing a certain set of members and/or type annotations.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -12,14 +12,28 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-JavaScript code often necessitates passing around objects known to have specific shapes.
-Interfaces are a way in TypeScript to declare that an object provided in a location must have at least a certain set of members.
+Interfaces are used to "shape" an object by describing a certain set of members and/or type annotations.
 
-Interfaces may be declared by starting with the `interface` keyword, a name for the interface, and then an object containing any number of members.
+## Syntax
 
-In this example, the `Dog` interface declares `fluffy` and `woof` members.
-Any value declared to be of type `Dog` is therefore known to have those members.
-Any other member, such as `bark`, is not known to exist, and accessing it would be a type error:
+Interfaces may be declared by:
+
+1. Starting with the `interface` keyword.
+2. Giving the interface a name.
+3. Creating an object that contains a set of members and/or type annotations.
+
+```ts
+interface myType {
+  memberOne: string;
+  memberTwo: number;
+};
+
+let myVar: myType = {"My favorite number is ", 42 };
+```
+
+## `Dog` Interface Example
+
+In this example, the `Dog` interface declares `fluffy` and `woof` members. Any value declared to be of type `Dog` is therefore known to have those members:
 
 ```ts
 interface Dog {
@@ -39,10 +53,11 @@ function interactWithDog(dog: Dog) {
 }
 ```
 
+Members that do not exist in the interface, such as `bark()`, cannot be accessed and will throw a type error
+
 ## Optional Members
 
-Here, the `Pet` interface doesn't assume the pets has received a `name` yet, but it does assume there is a `species`.
-Declaring an object of type `Pet` doesn't need a `name` but does need a `species`:
+Here, the `Pet` interface uses `?` to set `name` as an optional member. The only member that is required is `species`. Declaring an object of type `Pet` doesn't need a `name` but does need a `species`:
 
 ```ts
 interface Pet {
@@ -68,12 +83,11 @@ let invalid: Pet = {
 
 ## Interface Extensions
 
-Interfaces may be marked as _extending_ another interface.
-Doing so indicates that the derived interface (the interface extending others) includes all members from the base interfaces (the interface being extended).
+Interfaces may be marked as _extending_ another interface. Doing so indicates that the derived child interface (the interface extending others) includes all members from the base parent interfaces (the interface being extended).
 
 To mark an interface as extending other(s), add the `extends` keyword after its name followed by any number of interfaces to extend, with `,` commas between interface names.
 
-In this example, the `Cat` interface is given a `.walk()` method by extending `Animal`, but `Animal` instances don't have the members added by `Cat`:
+In this example, the `Cat` interface is given a `.walk()` method by being an extension of the `Animal` interface. However, instance of type `Animal` don't have access to members and methods defined in the `Cat` interface:
 
 ```ts
 interface Animal {
