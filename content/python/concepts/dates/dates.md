@@ -38,7 +38,7 @@ The `datetime` module has three main types available: `date` , `time` and `datet
 ```codebyte/py
 import datetime
 
-date_object = datetime.date(2021,10,5)
+date_object = datetime.date(2021, 10, 5)
 # Creates date object with year=2021, month=10 and day=5
 
 time_object = datetime.time(10,5,31)
