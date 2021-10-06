@@ -79,7 +79,7 @@ current_date = datetime.datetime.now()
 
 date_after_interval = datetime.datetime(2023,10,5)
 
-date_difference = date_after_interval-current_date
+date_difference = date_after_interval - current_date
 print(date_difference)
 # Displays date interval
 ```
