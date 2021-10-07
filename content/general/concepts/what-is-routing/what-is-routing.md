@@ -1,6 +1,6 @@
 ---
 Title: 'What is Routing?'
-Description: 'Routing or network routing involves the process of selecting a path across one or more networks.'
+Description: 'Routing, or network routing, involves the process of directing path traffic across one or more networks.'
 Subjects:
   - 'Computer Science'
   - 'Internet Routing'
