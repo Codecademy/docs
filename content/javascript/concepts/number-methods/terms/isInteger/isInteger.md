@@ -22,7 +22,7 @@ Number.isInteger(value);
 
 ## Example
 
-To verify if a `value` is an integer or not:
+To verify if a value is an integer or not:
 
 ```js
 const x = 13 / 5;
