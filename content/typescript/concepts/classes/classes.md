@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'With TypeScript, `class` objects can use type annotation to describe the relationship between class members and their static types.'
+Description: 'With TypeScript, class objects can use type annotation to describe the relationship between class members and their static types.'
 Subjects:
   - 'Web Development'
 Tags:
