@@ -20,7 +20,7 @@ These constructors do not accept any parameters.<br />
 2. Parameterized constructor<br />
 These constructors accept a specific number of parameters.<br />
 
-## Rules for creating constructors in Java
+## Rules for Creating Constructors
 
 1. Constructor always has same name as class name.
 2. You cannot declare constructor as abstract, static, final and synchronized.
