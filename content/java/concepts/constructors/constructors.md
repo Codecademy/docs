@@ -68,10 +68,5 @@ class Employee{
      
    }  
 }  
-```
 
-Output:
-
-```shell
-110 Ashish
-```
+// Output: 110 Ashish
