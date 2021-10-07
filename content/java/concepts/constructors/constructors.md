@@ -45,7 +45,7 @@ class Tree{
 
 Output:
 
-```
+```shell
 Tree is created
 ```
 
