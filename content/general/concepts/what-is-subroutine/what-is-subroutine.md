@@ -9,22 +9,29 @@ CatalogContent:
   - 'paths/code-foundations'
   - 'learn-how-to-code'
 ---
+
 Subroutine is a set of computer instructions written to perform a specific task. A subroutine is also known as a function or a procedure. Subroutine breaks code the code into smaller section which makes code more reusable and readable.
+
 ## Syntax
+
 Every programming languages has their own syntax of defining and calling subroutine or function. Let's take a look at pseudo codes for subroutines.
 
 Pseudo code for declaraing subroutine:
+
 ```pseudo
 declare <suboroutine_name>
     #subroutine code
 end Subroutine
 ```
+
 Pseudo code for calling subroutine :
+
 ```pseudo
 call <subroutine_name>
 ```
 
 In modern programming languages , we use functions which is simlar to subroutines it takes some arguments and may return some value after execution. Let's look at the syntax of C++.
+
 ```js
 //declaraing function
 function function_name(var1,var2,var3,...)
@@ -37,18 +44,21 @@ function function_name(var1,var2,var3,...)
 //calling function
 function_name(var1,var2,var3,...)
 ```
+
 For example :
+
 ```js
 //declaraing
-function sum(var1,var2){
-    let return_value = var1+var2
-    return return_value
+function sum(var1, var2) {
+  let return_value = var1 + var2;
+  return return_value;
 }
 
-//calling 
-let total = sum(10,12)
-console.log(total)
+//calling
+let total = sum(10, 12);
+console.log(total);
 ```
+
 ## Subroutine/Function in Different Languages
 
 - [Functions in C++](https://www.codecademy.com/resources/docs/cpp/functions)
