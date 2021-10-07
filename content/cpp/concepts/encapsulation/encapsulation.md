@@ -2,8 +2,8 @@
 Title: 'Encapsulation'
 Description: 'Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes code cleaner, readable, and maintainable.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
-  - 'Game Development'
 Tags:
   - 'Encapsulation'
 CatalogContent:
