@@ -13,7 +13,7 @@ CatalogContent:
 
 Constructors are like normal methods within the class but are used to initialize the object of the class. Every time the `new` keyword is used to create an object, at least one constructor is called.
 
-## Types of constructors in Java
+## Types of Constructors
 
 1. Default Constructor<br />
 These constructors do not accept any parameters.<br />
