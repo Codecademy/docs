@@ -22,7 +22,7 @@ C++ supports different types of bitwise operators that can perform operations on
 - `|` Bitwise OR
 - `<<` Bitwise Left Shift
 - `>>` Bitwise Right Shift
-- `~` Bitwise Complement 
+- `~` Bitwise Complement
 - `^` Bitwise XOR
 
 #### 1. `&` Bitwise AND:
@@ -46,7 +46,7 @@ For example:
 
 int main() {
     std::cout << (4 & 5) << std::endl;
-    
+
     return 0;
 }
 ```
@@ -72,7 +72,7 @@ For example
 
 int main() {
     std::cout << (4 | 5) << std::endl;
-    
+
     return 0;
 }
 ```
@@ -165,6 +165,7 @@ The XOR Operator returns 1 if both the operands are different and returns 0 if b
       ____
       0110 which is 6 in decimal system.
 ```
+
 ```codebyte/cpp
 #include<iostream>
 
