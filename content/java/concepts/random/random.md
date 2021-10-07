@@ -31,6 +31,7 @@ Random rand1 = new Random();
 //Random number with an arbitrary seed of long type
 long seed = (long)3.142;
 Random rand2 = new Random(seed);
+```
 
 The value of the seed can be set or modified at any point during the execution of the program using the `setSeed()` method.
 
@@ -45,7 +46,7 @@ Note that _if two objects of type `Random` are created with the same seed, they 
 
 The following methods can be used to generate the next pseudorandom number from the generator's sequence. 
 
-- The `nextDouble()` and `nextFloat()` methods return values between 0 and 1. 
+- The `nextDouble()` and `nextFloat()` methods return values in range \[0,1). This means that the range is inclusive of zero (indicated by the square bracket) and exclusive of 1 (indicated by the parantheses). 
 - The `nextInt()` and `nextLong()` methods have no such limits.
 
 Note that in the absence of a seed, these methods return different values every time they are called or even for separate instances.
@@ -62,8 +63,15 @@ System.out.println("Random double: " + d);
 System.out.println("Random integer: " + i);
 System.out.println("Random long: " + l);
 System.out.println("Random boolean: " + b);
+```
 
 The output will look like this:
+
+> Random float: 0.13293427  
+> Random double: 0.900476085026994  
+> Random integer: 152429987  
+> Random long: -4775630185711902523  
+> Random boolean: 1   
 
 
 The `nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
@@ -75,6 +83,7 @@ System.out.println("Random integer in range [0,25) : " + i);
 
 The output will be:
 
+> Random integer in range \[0,25) : 16 
 
 A byte array can also be filled with random elements using the `nextBytes()` method.
 
@@ -86,6 +95,11 @@ System.out.print("Random byte array : ");
 
 for (byte j: b)
   System.out.print(j + " ");
+```
+The output looks like this: 
+
+>Random byte array : -44 -82 44 62 -111
+
 
 ## Generating Streams
 
