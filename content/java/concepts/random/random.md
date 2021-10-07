@@ -70,7 +70,7 @@ Output
 >Random long: -4775630185711902523
 >Random boolean: 1
 
-Further, the `nextInt()` method can also be used with an upper bound so that the value generated is between 0 and that value.
+The `nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
 
 ```java
 i = rand1.nextInt(25);
