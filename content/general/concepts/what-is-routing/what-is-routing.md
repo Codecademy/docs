@@ -22,10 +22,18 @@ CatalogContent:
 
 Routing is the process of directing network traffic and transferring packet data from the source to the destination. Routing is performed by a special device known as a router. The router works at the heart of the network layer in the [OSI model](https://en.wikipedia.org/wiki/OSI_model) and in the internet layer of the[ TCP/IP model](https://en.wikipedia.org/wiki/Internet_protocol_suite).
 
-A router is a networking device that forwards the packet based on the information available in the packet header and forwarding table.
-The routing algorithms are used for routing the packets. The routing algorithm is nothing but a software responsible for deciding the optimal path through which packet can be transmitted.
+## Routers and Routing Protocols
 
-The routing protocols use the metric to determine the best path for the packet delivery. The metric is the standard of measurement such as hop count, bandwidth, delay, current load on the path, etc. used by the routing algorithm to determine the optimal path to the destination.The routing algorithm initializes and maintains the routing table for the process of path determination.
+A router is a networking device that forwards the data packet based on the information available in the packet header and forwarding table. It uses an algorithm that is nothing but software responsible for deciding which path is optimal for the packet can be transmitted.
+
+The routing protocols use metrics to determine the best path for the packet delivery, including:
+
+- Hop count
+- Bandwidth
+- Delay
+- Current load on the path
+
+Together, these metrics are used by the routing algorithm to determine the optimal path to the destination. The routing algorithm initializes and maintains the routing table for the process of path determination.
 
 ## How Does Routing Work?
 
