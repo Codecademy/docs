@@ -1,20 +1,20 @@
 ---
 Title: 'Polymorphism'
-Description: 'Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) can behave differently in different scenarios.'
+Description: 'Polymorphism is an important concept of object-oriented programming. It means more than one form — the same entity (function or operator) can behave differently in different scenarios.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Function'
+  - 'Functions'
   - 'Polymorphism'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) can operate differently under different situations.
+Polymorphism is an important concept of object-oriented programming. It means more than one form — the same entity (function or operator) can operate differently under different situations.
 
-In C++, we have two types of polymorphism:
+There are two types of polymorphism in C++:
 
 - Compile-time polymorphism: This is also called static (or early) binding.
 - Runtime polymorphism: This is also called dynamic (or late) binding.
@@ -23,9 +23,9 @@ In C++, we have two types of polymorphism:
 
 Compile-time polymorphism is perfect for function overloading as well as operator overloading.
 
-In the below example, there are two functions with the same name but a different number of arguments.
+In the example below, there are two functions with the same name but a different number of arguments.
 
-Based on the number of parameters we pass during function invocation (function calling) determines which function is to be called, this is why it is considered as an example of polymorphism because in different conditions the output is different. Since, the call is determined during compile time that's why it is called compile-time polymorphism.
+The number of parameters we pass during function invocation (function calling) determines which function is to be called. This is why it is considered as an example of polymorphism because in different conditions the output is different. Since the call is determined during compile time that's why it is called compile-time polymorphism.
 
 ```cpp
 #include <iostream>
@@ -69,9 +69,9 @@ Function overriding is an example of runtime polymorphism.
 
 ### Function overriding
 
-It is a concept when child class declares a method, which is already present in the parent class then this is called function overriding, here child class overrides the parent class.
+It is a concept when a child class declares a method, which is already present in the parent class then this is called function overriding, here the child class overrides the parent class.
 
-In case of function overriding we have two definitions of the same function, one is parent class and one in child class. The call to the function is determined at runtime to decide which definition of the function is to be called, thats the reason it is called runtime polymorphism.
+In the case of function overriding, we have two definitions of the same function, one in the parent class and one in the child class. Since the call to the function is determined at runtime to decide which definition of the function is to be called, it is called runtime polymorphism.
 
 ```cpp
 #include <iostream>
