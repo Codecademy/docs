@@ -30,6 +30,7 @@ const x = 0 / 0;
 // 0/0 or the square root of a negative number would return NaN
 
 const y = 5;
+
 console.log(Number.isNaN(x));
 // Output: true
 
