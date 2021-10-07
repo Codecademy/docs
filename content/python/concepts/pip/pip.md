@@ -65,7 +65,7 @@ py -m pip install --upgrade
 python -m pip install --upgrade
 ```
 
-Finally, it is now possible to start installing packages from PyPI. In the following example, a fake package called "ACoolPackage" will be used. This isn't a real package on PyPI, rather it is just a placeholder for a real package. It is recommended to visit the PyPI page of the package being installed for more specific instructions.
+Finally, it is now possible to start installing packages from PyPI. In the following example, a fake package called `ACoolPackage` will be used. This isn't a real package on PyPI, rather it is just a placeholder for a real package. It is recommended to visit the PyPI page of the package being installed for more specific instructions.
 
 ```
 py -m pip install ACoolPackage
