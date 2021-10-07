@@ -47,7 +47,7 @@ class Tree{
 
 // Output: Tree is created
 
-## Creating parameterized constructor
+## Creating Parameterized Constructor
 
 Here the class `Employee` has a parameterized constructor which takes parameters `int i` and `string n` respectively these values are passed while creating and instance of class from `main()` function.
 
