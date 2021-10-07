@@ -150,7 +150,7 @@ Classes can use the TypeScript `interface` keyword to further define the "shape"
 
 To use interfaces with classes, we use the `implements` keyword between the class name and name of the interface followed by the opening curly bracket `{`.
 
-In this example, the `Speaker` interface has a single `speak()` method, and so the `SpeechGiver` class may be marked as implementing it:
+In this example, the `Speaker` interface has a single `speak()` method, so the `SpeechGiver` class may be marked as implementing it:
 
 ```ts
 interface Speaker {
