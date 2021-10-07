@@ -79,7 +79,7 @@ function getRandomFriend(fallback: string) {
 const friend = getRandomFriend('Codey'); // Type: string
 ```
 
-We can explicitly declare the return type of a function by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
+The return type of a function can be declared by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
 
 - We can make sure the function returns that type.
 - TypeScript will not attempt to infer the return type of a recursive function.
