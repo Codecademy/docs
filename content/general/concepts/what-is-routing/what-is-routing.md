@@ -57,15 +57,15 @@ In networking, a protocol is a standardized way of formatting data so that any c
 
 Routing protocols provide a standard way of formatting the data so that any connected device maybe servers or local systems can understand the data.Routing protocol is basically a way that is used for indentifying the network paths to travesre for the data.
 
-* The following are some protocols that help packets to find their way across the internet:
+The following are some protocols that help packets to find their way across the internet:
 
-IP: The Internet Protocol (IP) specifies the origin and destination for each data packet. Routers inspect each packet's IP header to identify where to send them.
+- The Internet Protocol (IP) specifies the origin and destination for each data packet, where routers inspect each packet's IP header to identify where to send them.
 
-BGP: The Border Gateway Protocol (BGP) routing protocol is used to announce which networks control which IP addresses, and which networks connect to each other. (The large networks that make these BGP announcements are called autonomous systems.) BGP is a dynamic routing protocol.
+- The Border Gateway Protocol (BGP) is a dynamic routing protocol used to announce which networks control which IP addresses, and which networks connect to each other. (Large networks that make these BGP announcements are called autonomous systems.)
 
-OSPF: The Open Shortest Path First (OSPF) protocol is commonly used by network routers to dynamically identify the fastest and shortest available routes for sending packets to their destination.
+- The Open Shortest Path First (OSPF) protocol is commonly used by network routers to dynamically identify the fastest and shortest available routes for sending packets to their destination.
 
-RIP: The Routing Information Protocol (RIP) uses "hop count" to find the shortest path from one network to another, where "hop count" means number of routers a packet must pass through on the way. (When a packet goes from one network to another, this is known as a "hop.")
+- The Routing Information Protocol (RIP) uses "hop count" to find the shortest path from one network to another. "Hop count" represents the number of routers a packet must pass through on the way. (When a packet goes from one network to another, this is known as a "hop.")
 
 ## AWS Routing?
 
