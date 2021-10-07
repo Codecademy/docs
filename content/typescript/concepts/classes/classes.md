@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'With TypeScript, `class` objects can use type annotation to describe the relationship between class members and their static types.'
+Description: 'With TypeScript, class objects can use type annotation to describe the relationship between class members and their static types.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -44,7 +44,7 @@ myBox.value; // Type: string
 
 ## Member Visibility
 
-JavaScript recently added a `#` syntax to mark a member as private, meaning it can only be accessed inside its class:
+JavaScript has a `#` syntax to mark a member as private, meaning it can only be accessed inside its class:
 
 ```ts
 class Secret {
@@ -85,7 +85,7 @@ In this example, the `Base` class sets up five variables:
 
 - The first two, `first` and `second`, are publicly accessible.
 - The third, `third`, is protected and only accessible in the class or a derived class.
-- The fourth and fifth, `fourth`, and `fifth`, are set to private with `private` and `#`, respectively.
+- The fourth and fifth, `fourth` and `fifth`, are set to private with `private` and `#`, respectively.
 
 ```ts
 class Base {
@@ -121,7 +121,7 @@ class Derived extends Base {
 }
 ```
 
-Notice how `first`, `second`, and even the protected `third` are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
+Notice how `first`, `second`, and even the protected `third`, are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
 
 The example below shows how some members of `Dervied` can be invoked through an instance variable, `derived`, while others are not as accessible. While `third` can be used within the actual `Derived` classs, as a protected member, it cannot be used outside of the class with an instance variable.
 

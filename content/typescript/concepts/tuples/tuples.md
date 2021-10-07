@@ -53,7 +53,7 @@ console.log(
   }.`
 );
 
-console.log(`One of their most famous songs is ${popSingle}`);
+console.log(`One of their most famous songs is ${popSingle}.`);
 ```
 
 Destructuring tuple types allows to be able to better interpolate their values and the output will be:

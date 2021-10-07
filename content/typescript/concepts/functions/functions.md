@@ -60,7 +60,7 @@ logFavoriteNumberAndReason();
 
 Most functions are written in a way that TypeScript can infer what value they return by looking at all the `return` statements in the function. Functions that don't return a value are considered to have a return type of `void`.
 
-In this example, the `getRandomFriend()` function is inferred to return a `string` type because all `return` statements a value of type `string`, including the `fallback` parameter:
+In this example, the `getRandomFriend()` function is inferred to return a `string` type because all `return` statements have a value of type `string`, including the `fallback` parameter:
 
 ```ts
 function getRandomFriend(fallback: string) {
@@ -79,9 +79,9 @@ function getRandomFriend(fallback: string) {
 const friend = getRandomFriend('Codey'); // Type: string
 ```
 
-We can explicitly declare the return type of a function by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
+The return type of a function can be declared by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
 
-- We can explicitly make sure the function really does return that type.
+- We can make sure the function returns that type.
 - TypeScript will not attempt to infer the return type of a recursive function.
 
 The following recursive `fibonacci()` function needs an explicit `: number` return type annotation for TypeScript to understand it returns type `number`:
