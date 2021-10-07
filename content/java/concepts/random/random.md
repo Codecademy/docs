@@ -27,10 +27,10 @@ During instance creation, we can either set a seed value or pass no arguments to
 ```java
 //Random number generator object
 Random rand1 = new Random();
-long seed = (long)3.142;
+
 //Random number with an arbitrary seed of long type
+long seed = (long)3.142;
 Random rand2 = new Random(seed);
-```
 
 The value of the seed can be set or modified at any point during the execution of the program using the `setSeed()` method.
 
