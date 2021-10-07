@@ -50,4 +50,4 @@ int main()
 }
 ```
 
-In the above example, data member `num` and functions `setNum` and `getNum` are wrapped together into one class called `Encapsualtion`. `num` can only be accessed by either `setNum` or `getNum` function. `setNum` is used to set the value of `num` and `getNum` return the value of `num`.
+In the example above, data member `num` and functions `setNum()` and `getNum()` are wrapped together into one class called `Encapsulation`. `num` can only be accessed by either the `setNum()` or `getNum()` function. `setNum()` is used to set the value of `num` and `getNum()` returns the value of `num`.
