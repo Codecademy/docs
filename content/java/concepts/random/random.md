@@ -63,12 +63,8 @@ System.out.println("Random integer: " + i);
 System.out.println("Random long: " + l);
 System.out.println("Random boolean: " + b);
 
-Output
->Random float: 0.13293427
->Random double: 0.900476085026994
->Random integer: 152429987
->Random long: -4775630185711902523
->Random boolean: 1
+The output will look like this:
+
 
 The `nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
 
@@ -77,26 +73,26 @@ i = rand1.nextInt(25);
 System.out.println("Random integer in range [0,25) : " + i);
 ```
 
-Output
->Random integer in range [0,25) : 16
+The output will be:
 
-A byte array can also be filled with random elements using the following function.
+
+A byte array can also be filled with random elements using the `nextBytes()` method.
 
 ```java
 byte[] b = new byte [5];
 rand1.nextBytes(b);
-System.out.print("Random byte array : ");
-for (byte j: b)
- System.out.print(j + " ");
-```
 
-Output
->Random byte array : -44 -82 44 62 -111
+System.out.print("Random byte array : ");
+
+for (byte j: b)
+  System.out.print(j + " ");
 
 ## Generating Streams
 
- `IntStream`, `DoubleStream` and  `LongStream` objects can be produced using the `ints()`, `doubles()` and `longs()` methods.
-The following example illustrates the generation of `DoubleStream` object and can be extrapolated for other two object types as well.
+ `IntStream`, `DoubleStream` and  `LongStream` objects can be produced using the `ints()`, `doubles()` and `longs()` methods, respectively.
+ 
+The following example illustrates the generation of a `DoubleStream` object and can be extrapolated for two object types as well.
+
 In order to use an object of this type, the following import statement must be used:
 
 ```java
