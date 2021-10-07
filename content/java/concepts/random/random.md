@@ -99,7 +99,7 @@ In order to use an object of this type, the following import statement must be u
 import java.util.stream.DoubleStream;
 ```
 
-An effectively unlimited stream of pseudorandom `double` values, each in range [0,1) can be generated using:
+An unlimited stream of pseudorandom `double` values, each in the range [0,1), can be generated using:
 
 ```java
 DoubleStream stream;
