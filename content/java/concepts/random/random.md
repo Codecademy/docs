@@ -56,12 +56,12 @@ double d = rand1.nextDouble();
 int i = rand1.nextInt();
 long l = rand1.nextLong();
 boolean b = rand1.nextBoolean();
+
 System.out.println("Random float: " + f);
 System.out.println("Random double: " + d);
 System.out.println("Random integer: " + i);
 System.out.println("Random long: " + l);
 System.out.println("Random boolean: " + b);
-```
 
 Output
 >Random float: 0.13293427
