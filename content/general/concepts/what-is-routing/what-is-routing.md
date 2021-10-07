@@ -51,7 +51,7 @@ Dynamic routing tables update automatically. Dynamic routers use various routing
 
 Dynamic routing requires more computing power, which is why smaller networks may rely on static routing. But for medium-sized and large networks, dynamic routing is much more efficient.
 
-## What are the main routing protocols?
+## What Are the Main Routing Protocols?
 
 In networking, a protocol is a standardized way of formatting data so that any connected computer can understand the data. A routing protocol is a protocol used for identifying or announcing network paths.
 
