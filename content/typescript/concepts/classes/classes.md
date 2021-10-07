@@ -85,7 +85,7 @@ In this example, the `Base` class sets up five variables:
 
 - The first two, `first` and `second`, are publicly accessible.
 - The third, `third`, is protected and only accessible in the class or a derived class.
-- The fourth and fifth, `fourth`, and `fifth`, are set to private with `private` and `#`, respectively.
+- The fourth and fifth, `fourth` and `fifth`, are set to private with `private` and `#`, respectively.
 
 ```ts
 class Base {
