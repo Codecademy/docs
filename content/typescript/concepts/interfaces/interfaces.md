@@ -1,6 +1,6 @@
 ---
 Title: 'Interfaces'
-Description: 'Interfaces are used to "shape" an object by describing a certain set of members and/or type annotations.'
+Description: 'Interfaces are used to shape an object by describing a certain set of members and/or type annotations.'
 Subjects:
   - 'Web Development'
 Tags:
