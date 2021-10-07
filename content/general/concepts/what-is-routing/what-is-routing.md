@@ -18,6 +18,8 @@ CatalogContent:
   - 'paths/backend-engineer-career-path'
 ---
 
+
+
 ## What Is Routing?
 
 Routing is a process of selecting path along which the data can be transferred from source to the destination. Routing is performed by a special device known as a router. The Router works at the heart of the network layer in the OSI model and in the internet layer in TCP/IP model.
