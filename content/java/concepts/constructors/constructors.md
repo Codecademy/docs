@@ -1,6 +1,6 @@
 ---
 Title: 'Constructors'
-Description: 'Explained constructors and their types, gave examples of default and parameterized constructors.'
+Description: 'Constructors are like normal methods within the class, but are used to initialize the object of the class.'
 Subjects:
   - 'Computer Science'
 Tags:
