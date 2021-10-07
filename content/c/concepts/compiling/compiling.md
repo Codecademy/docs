@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Compiling'
+  - 'Command Line'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
