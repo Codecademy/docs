@@ -11,7 +11,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The wrapping up of data members and functions together in a single unit called class is known as **Encapsulation**. It makes code cleaner and easy to read. The data can only be accessed by member functions that are wrapped in the class. Encapsulation led to the important OOP concept of data hiding or abstraction.
+Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes the code cleaner, readable, and maintainable. 
+
+The data can only be accessed by member functions that are wrapped in the class. Encapsulation led to the important OOP concept of data hiding or abstraction.
 
 ```cpp
 #include<iostream>
