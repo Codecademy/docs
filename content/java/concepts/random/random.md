@@ -2,14 +2,14 @@
 Title: 'Random' 
 Description: 'Instances of the Random class in Java can be used to generate streams of pseudorandom numbers' 
 Subjects: 
-- 'Code Foundations'
-- 'Computer Science'
+ - 'Code Foundations'
+ - 'Computer Science'
 Tags: 
-- 'Random'
-- 'Methods'
+ - 'Random'
+ - 'Methods'
 CatalogContent: 
-- 'learn-java'
-- 'paths/computer-science'
+ - 'learn-java'
+ - 'paths/computer-science'
 ---
 # Random 
 The [`Random`](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) class in Java is present in the java.util package and is used to generate random values or streams of random values of specific datatypes.
