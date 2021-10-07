@@ -121,7 +121,7 @@ class Derived extends Base {
 }
 ```
 
-Notice how `first`, `second`, and even the protected `third` are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
+Notice how `first`, `second`, and even the protected `third`, are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
 
 The example below shows how some members of `Dervied` can be invoked through an instance variable, `derived`, while others are not as accessible. While `third` can be used within the actual `Derived` classs, as a protected member, it cannot be used outside of the class with an instance variable.
 
