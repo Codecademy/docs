@@ -43,14 +43,9 @@ class Tree{
   public static void main(String args[]){  
    Tree t=new Tree();  // Calling a default constructor  
   }  
-}  
-```
+}
 
-Output:
-
-```shell
-Tree is created
-```
+// Output: Tree is created
 
 ## Creating parameterized constructor
 
