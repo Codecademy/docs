@@ -44,7 +44,7 @@ myBox.value; // Type: string
 
 ## Member Visibility
 
-JavaScript recently added a `#` syntax to mark a member as private, meaning it can only be accessed inside its class:
+JavaScript has a `#` syntax to mark a member as private, meaning it can only be accessed inside its class:
 
 ```ts
 class Secret {
