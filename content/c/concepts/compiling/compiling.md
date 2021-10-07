@@ -1,6 +1,6 @@
 ---
 Title: 'Compiling'
-Description: 'Compiling is a term used for converting code written by a programmer (source code) into machine understandable code (machine code).'
+Description: 'Compiling is the process that converts code written by a programmer (source code) into a language that the computer understands (machine code).'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
