@@ -33,7 +33,7 @@ array.filter((element, index, array) => { ... })
 
 A new array with the elements that pass the test.
 
-**Note:** If no elements that pass the test, an empty array will be returned.
+**Note:** If no elements pass the test, an empty array will be returned.
 
 ## Examples
 
