@@ -1,6 +1,6 @@
 ---
-Title: 'Bitwise Operators'
-Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit level, types of Bitwise Operators supported in C++ are: - & Bitwise AND - | Bitwise OR - << Bitwise Left Shift - >> Bitwise Right Shift - ~ Bitwise Complement  - ^ Bitwise XOR'
+Title: 'Bitwise-Operators'
+Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit level, types of Bitwise Operators supported in C++ are:`
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -25,7 +25,7 @@ C++ supports different types of bitwise operators that can perform operations on
 - `~` Bitwise Complement
 - `^` Bitwise XOR
 
-#### 1. `&` Bitwise AND:
+### 1. `&` Bitwise AND
 
 The Bitwise AND operator returns 1 if both the bits are 1 else, it returns 0.
 
@@ -51,7 +51,7 @@ int main() {
 }
 ```
 
-#### 2. `|` Bitwise OR:
+### 2. `|` Bitwise OR
 
 The Bitwise OR operator returns 1 if at least one of the bit is 1, 0 if both of them are 0, it returns 0.
 
@@ -77,7 +77,7 @@ int main() {
 }
 ```
 
-#### 3. `<<` Bitwise Left Shift:
+### 3. `<<` Bitwise Left Shift
 
 The left shift operator shifts all the bits towards left side by the number of bits specified and adds 0's to the right side.
 
@@ -106,7 +106,7 @@ int main() {
 }
 ```
 
-#### 4. `>>` Bitwise Right Shift:
+### 4. `>>` Bitwise Right Shift
 
 The right shift operator shifts all the bits towards right side by the number of bits specified and discards theh right most bits.
 
@@ -135,7 +135,7 @@ int main() {
 }
 ```
 
-#### 5. `~` Bitwise Complement:
+### 5. `~` Bitwise Complement
 
 The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0
 
@@ -152,7 +152,7 @@ int main() {
 
 Here we would get a different result because first bit of a signed integer is used to determine whether it's positive or negative.
 
-#### 6. `^` Bitwise XOR:
+### 6. `^` Bitwise XOR
 
 The XOR Operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
