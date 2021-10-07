@@ -43,10 +43,12 @@ Note that _if two objects of type `Random` are created with the same seed, they 
 
 ## Generating Individual Values
 
-The following methods can be used to generate the next pseudorandom number from the generator's sequence. Note that in the absence of a seed, these return different values every time they are called or even for separate instances.
-Also note that the `nextDouble()` and `nextFloat()`
-methods return values between 0 and 1 while the `nextInt()` and `nextLong()` methods have no such
-limits.
+The following methods can be used to generate the next pseudorandom number from the generator's sequence. 
+
+- The `nextDouble()` and `nextFloat()` methods return values between 0 and 1. 
+- The `nextInt()` and `nextLong()` methods have no such limits.
+
+Note that in the absence of a seed, these methods return different values every time they are called or even for separate instances.
 
 ```java
 float f = rand1.nextFloat();
