@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Compiling means converting code written by a programmer (source code) in languages such as C and C++, into machine understandable code (machine code). 
+Compiling means converting code written by a programmer (source code) in languages such as C and C++, into machine understandable code (machine code).
 
 Compiling is carried out by a compiler. The process of converting source code into machine code is known as compilation.
 
