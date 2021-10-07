@@ -12,7 +12,8 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Number.isNaN()` method determines whether the passed value is NaN.
+The `Number.isNaN()` method is a part of the `Number` class in JavaScript. It determines whether the passed value is NaN. 
+It accepts a single argument, `value`, and returns `true` if the passed argument is NaN, and returns `false` otherwise.
 
 ## Syntax
 
@@ -20,25 +21,19 @@ The `Number.isNaN()` method determines whether the passed value is NaN.
 Number.isNaN(value);
 ```
 
-## Example 1
+## Example
 
 To verify if a value is NaN:
 
 ```js
-const x = 0/0; // 0/0 or the square root of a negative number would return NaN
+const x = 0/0; 
+// 0/0 or the square root of a negative number would return NaN
+
+const y = 5;
 
 console.log(Number.isNaN(x));
 // Output: true
-```
 
-## Example 2
-
-To verify if a value is NaN:
-
-```js
-const x = 5;
-
-console.log(Number.isNaN(x));
+console.log(Number.isNaN(y));
 // Output: false
 ```
-
