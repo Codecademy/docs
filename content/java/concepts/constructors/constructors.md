@@ -16,15 +16,18 @@ Constructors are like normal methods within the class but are used to initialize
 ## Types of Constructors
 
 ### 1. Default Constructor
+
 These constructors do not accept any parameters.
+
 ### 2. Parameterized constructor
+
 These constructors accept a specific number of parameters.
 
 ## Rules for Creating Constructors
 
-* Constructor always has same name as class name.
-* You cannot declare constructor as abstract, static, final and synchronized.
-* Construtors do not have any explicit return types.
+- Constructor always has same name as class name.
+- You cannot declare constructor as abstract, static, final and synchronized.
+- Construtors do not have any explicit return types.
 
 ## Creating Default constructor
 
