@@ -20,7 +20,7 @@ CatalogContent:
 
 ## What Is Routing?
 
-Routing is a process of selecting path along which the data can be transferred from source to the destination. Routing is performed by a special device known as a router. The Router works at the heart of the network layer in the OSI model and in the internet layer in TCP/IP model.
+Routing is the process of directing network traffic and transferring packet data from the source to the destination. Routing is performed by a special device known as a router. The router works at the heart of the network layer in the [OSI model](https://en.wikipedia.org/wiki/OSI_model) and in the internet layer of the[ TCP/IP model](https://en.wikipedia.org/wiki/Internet_protocol_suite).
 
 A router is a networking device that forwards the packet based on the information available in the packet header and forwarding table.
 The routing algorithms are used for routing the packets. The routing algorithm is nothing but a software responsible for deciding the optimal path through which packet can be transmitted.
