@@ -50,7 +50,7 @@ describe('Codecademy Docs Content', () => {
         if (fs.statSync(childPath).isDirectory()) {
           checkChild(childPath); // step into directory and make sure it's a valid child
         } else {
-          const nodeName = nodePath.split('/').slice(-1)[0];
+          const nodeName = nodePath.split(path.sep).slice(-1)[0];
           expect(childPath).toBe(path.join(nodePath, `${nodeName}.md`));
         }
       });
