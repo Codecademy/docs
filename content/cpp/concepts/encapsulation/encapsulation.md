@@ -1,6 +1,6 @@
 ---
 Title: 'Encapsulation'
-Description: 'The wrapping up of data members and functions together in a single unit called class is known as Encapsulation. It makes code cleaner and easy to read.'
+Description: 'Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes code cleaner, readable, and maintainable.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
