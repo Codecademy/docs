@@ -12,8 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Number.isNaN()` method is a part of the `Number` class in JavaScript. It determines whether the passed value is NaN.
-It accepts a single argument, `value`, and returns `true` if the passed argument is NaN, and returns `false` otherwise.
+The `Number.isNaN()` method is a part of the `Number` class in JavaScript. It accepts a single argument, `value`, and returns `true` if the passed argument is not a number, or `NaN`, and returns `false`, otherwise.
 
 ## Syntax
 
