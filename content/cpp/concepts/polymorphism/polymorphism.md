@@ -52,7 +52,7 @@ int main() {
 
   // This will call the second variant of sum() function
   std::cout << "Output: " << obj.sum(11, 22, 33); << "\n";
-  
+
   return 0;
 }
 ```
