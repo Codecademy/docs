@@ -38,7 +38,7 @@ Documentation on PyPI typically comes with the following:
 # Windows
 py --version
 
-# Unix/macOS
+# Linux/macOS
 python3 --version
 ```
 
