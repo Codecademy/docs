@@ -1,5 +1,5 @@
 ---
-Title: 'Class Methods'
+Title: 'Methods'
 Description: 'C++ class methods are user-defined functions that you can use within an instance of the class. We use a . before method names to distinguish them from regular functions'
 Subjects:
   - 'Computer Science'
@@ -14,9 +14,10 @@ CatalogContent:
 
 C++ class methods are user-defined functions that you can use within an instance of the class. We use a . before method names to distinguish them from regular functions.
 
-# Class Methods
+## Class Methods
 
 A Class Method can be defined in two ways:
+
 - Inside the class definition
 - Outside the class definition
 
