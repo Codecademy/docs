@@ -47,18 +47,19 @@ int main() {
   // Create object of Add class
   Add obj;
 
-  // This will call the first variant of sum() function (the one with 2 parameters)
+  // This will call the first variant of sum() function
   std::cout << "Output: " << obj.sum(10, 20) << "\n";
 
-  // This will call the second variant of sum() function (the one with 3 parameters)
-  std::cout << "Output: " << obj.sum(11, 22, 33);
+  // This will call the second variant of sum() function
+  std::cout << "Output: " << obj.sum(11, 22, 33); << "\n";
+
   return 0;
 }
 ```
 
 Above code snippet will generated below output.
 
-```cpp
+```shell
 Output: 30 // Result of first function invocation
 Output: 66 // Result of second function invocation
 ```
@@ -105,7 +106,7 @@ int main() {
 
 Above code snippet will generated below output.
 
-```cpp
+```shell
 Output: Parent Class Function // Result of parent print() function invocation
 Output: Child Class Function // Result of child print() function invocation
 ```
