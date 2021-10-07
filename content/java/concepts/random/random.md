@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The [`Random`](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) class in Java is present in the java.util package and is used to generate random values or streams of random values of specific datatypes.
+The [`Random`](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) class is present in the `java.util` package. It is used to generate random values or streams of random values of specific data types.
 
 ## Usage
 
