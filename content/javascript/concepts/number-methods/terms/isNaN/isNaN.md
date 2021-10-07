@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Number.isNaN()` determines whether the passed value is NaN.
+The `Number.isNaN()` method determines whether the passed value is NaN.
 
 ## Syntax
 
