@@ -43,7 +43,7 @@ Routers work in the following way: when a router receives a packet, it reads the
 
 Routers do this millions of times a second with millions of packets. As a packet travels to its destination, it may be routed several times by different routers.
 
-## Routing Types: Static And Dynamic?
+## Routing Tables: Static and Dynamic
 
 Routing tables can either be static or dynamic. Static routing tables do not change. A network administrator manually sets up static routing tables. This essentially sets in stone the routes data packets take across the network, unless the administrator manually updates the tables.
 
