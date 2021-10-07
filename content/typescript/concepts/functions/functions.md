@@ -60,7 +60,7 @@ logFavoriteNumberAndReason();
 
 Most functions are written in a way that TypeScript can infer what value they return by looking at all the `return` statements in the function. Functions that don't return a value are considered to have a return type of `void`.
 
-In this example, the `getRandomFriend()` function is inferred to return a `string` type because all `return` statements a value of type `string`, including the `fallback` parameter:
+In this example, the `getRandomFriend()` function is inferred to return a `string` type because all `return` statements have a value of type `string`, including the `fallback` parameter:
 
 ```ts
 function getRandomFriend(fallback: string) {
