@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Server-side rendering is rendering the content on the server and presenting it to the client when the request is made. While in the client-side rendering (opposite of server-side rendering) when a request is made server sends separate files and the content is rendered in the browser. Javascript works both on server and browser, so it is possible for the developers to render the content of an application where they want.
+Server-side rendering (SSR) is rendering the content on the server and presenting it to the client when a request is made. When a request is made in client-side rendering (opposite of server-side rendering), the server sends separate files and content that is rendered in the browser. JavaScript works both on the server and browser, so it is possible for developers to render the content of an application where they want.
 
 ## Why Server-Side Rendering is Important
 
