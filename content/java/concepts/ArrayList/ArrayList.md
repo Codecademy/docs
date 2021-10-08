@@ -34,18 +34,18 @@ ArrayList<String> arr = new ArrayList<String>();
 
 # **ArrayList Methods**
 
-| Methods     | Description |
-| ----------- | ----------- |
-|add(Object O)      | appends the specified element to the end of the ArrayList       |
-|add(int index, Onject o)   | insterts the element at the specified position int the list        |
-|remove(int index) | Deletes the element of the specified index |
-|remove(Object O) | Removes the first occurance of the specified element from the list|
-|contains(Object O) | Returns 'true' if the list contains specified element
-|get(int index) |Returns the element of the specified position|
-|set(int index, Object O)| replaces the Object with the element of the specified index|
-|size() |Returns the number of elements in the list |
-|clear() |Removes all the elements of the list|
-| isEmpty()| Returns true if the list is empty else false |
+| Methods                  | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| add(Object O)            | appends the specified element to the end of the ArrayList          |
+| add(int index, Onject o) | insterts the element at the specified position int the list        |
+| remove(int index)        | Deletes the element of the specified index                         |
+| remove(Object O)         | Removes the first occurance of the specified element from the list |
+| contains(Object O)       | Returns 'true' if the list contains specified element              |
+| get(int index)           | Returns the element of the specified position                      |
+| set(int index, Object O) | replaces the Object with the element of the specified index        |
+| size()                   | Returns the number of elements in the list                         |
+| clear()                  | Removes all the elements of the list                               |
+| isEmpty()                | Returns true if the list is empty else false                       |
 
 
 # **ArrayList Example**
