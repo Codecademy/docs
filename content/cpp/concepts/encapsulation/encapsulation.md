@@ -11,35 +11,31 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes the code cleaner, readable, and maintainable. 
+Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes the code cleaner, readable, and maintainable.
 
 The data can only be accessed by member functions that are wrapped in the class. Encapsulation led to the important OOP concept of data hiding or abstraction.
 
 ```cpp
 #include <iostream>
 
-class Encapsulation
-{
+class Encapsulation {
     private:
         // data hidden from outside world
         int num;
 
     public:
         // function to set value of num
-        void setNum(int x)
-        {
+        void setNum(int x) {
             num = x;
         }
 
         // function to return value of variable num
-        int getNum()
-        {
+        int getNum() {
             return num;
         }
 };
 
-int main()
-{
+int main() {
     Encapsulation obj;
 
     obj.set(10);
