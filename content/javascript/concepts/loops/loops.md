@@ -69,6 +69,54 @@ for (let i = 0; i < 4; i += 1) {
 // Output: 0, 1, 2, 3
 ```
 
+## For..of.. Loop
+
+A `for..of..` loop loops over the items in an Array, allowing to directly access them without having to access them by the index.
+
+- The `for..of..` loop can be used to iterate Arrays, String and other array-like Objects
+
+```js
+const items = ["apple", "banana", "cherry"]
+
+for (const item of items) {
+  console.log(item);
+}
+
+// Output: 
+apple
+banana
+cherry
+```
+
+## For..in.. Loop
+
+A `for..in..` loop loops over the string keys in an Object
+
+- allows to iterate over Objects that use string type keys
+- iterating via the keys allows to access the values easily too
+
+```
+const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
+
+for (const fruit in shoppingCart) {
+  console.log(fruit);
+}
+
+// Output:
+banana
+apple
+cherry
+
+for (const fruit in shoppingCart) {
+  console.log(shoppingCart[fruit]);
+}
+
+// Output:
+2
+5
+0
+```
+
 ## Reverse Loop
 
 A `for` loop can iterate “in reverse” by initializing the loop variable to the starting value, testing for when the variable hits the ending value, and decrementing (subtracting from) the loop variable at each iteration.
