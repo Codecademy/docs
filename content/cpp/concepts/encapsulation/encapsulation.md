@@ -38,9 +38,9 @@ class Encapsulation {
 int main() {
     Encapsulation obj;
 
-    obj.set(10);
+    obj.setNum(10);
 
-    std::cout << obj.get(); // Output: 10
+    std::cout << obj.getNum(); // Output: 10
 
     return 0;
 }
