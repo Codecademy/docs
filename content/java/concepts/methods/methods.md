@@ -15,12 +15,13 @@ CatalogContent:
 Methods are reusable pieces of code in classes. The difference between a method to a function is that methods are always related to class or object. As in Java there is no possibility to define logic outside of a class there are no real functions per definition. However in that case most likely static methods are used to have reusable logic without object state.
 
 Methods consist at least of the following pieces:
+
 - return type
 - name
 - arguments
 
-
 Additionally they optionally define:
+
 - modifier
 - exceptions
 - body
@@ -30,6 +31,7 @@ Additionally they optionally define:
 ```java
 int sum(int number1, int number2);
 ```
+
 return type: `int`
 name: `sum`
 arguments: `int number1, , int number2`
@@ -37,18 +39,18 @@ arguments: `int number1, , int number2`
 ## Return type
 
 If methods shouldn't return a value they have to be defined as methods with return type `void`.
-Further possibilities as return types can be seen (here)[data-types.md]
+Further possibilities as return types can be seen (in the chapter "data types".
 
 ## Modifier
 
 Modifiers have the possibility to change the way how a method is allowed to be called (public, protected, private, package private),
-if the method is working on object state or should be executable without creating an object out of a class (static), 
+if the method is working on object state or should be executable without creating an object out of a class (static),
 if the method is allowed to be replaced by inherited classes (final).
 
 ```java
 public int sum(int number1, int number2) {
     return number1 + number2;
-} 
+}
 ```
 
 ### Visibility modifiers
