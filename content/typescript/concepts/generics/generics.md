@@ -1,6 +1,6 @@
 ---
 Title: 'Generics'
-Description: 'Some data structures, such as Arrays and Maps, may be used with any kind of data contents. TypeScript allows defining a slot for whatever generic types are desired at usage time on the name of the construct with with  brackets surrounding name(s), like Array or Map. Classes, functions, interfaces, and type aliases may be declared with a generic type; uses of them can then provide varying types in that generic slot. In the following snippet, Box is a generic interface that with a generic for the value within. Variables are then explicitly declared to be of type Box and Box, respectively: ts interface Box {'
+Description: 'In TypeScript, generics are used to assign multiple types to a function or variable without the value losing that specific type information upon return.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,12 +11,30 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Some data structures, such as Arrays and Maps, may be used with any kind of data contents.
-TypeScript allows defining a slot for whatever generic types are desired at usage time on the name of the construct with with `<` `>` brackets surrounding name(s), like `Array<T>` or `Map<Key, Value>`.
-Classes, functions, interfaces, and type aliases may be declared with a generic type; uses of them can then provide varying types in that generic slot.
+In TypeScript, generics are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accomodates any and all types. However, it will not retain specific type information.
 
-In the following snippet, `Box<Value>` is a generic interface that with a generic for the value within.
-Variables are then explicitly declared to be of type `Box<number>` and `Box<string>`, respectively:
+## Syntax
+
+Generics are defined with `<` `>` brackets surrounding name(s) of the generic type(s), like `Array<T>` or `Map<Key, Value>`.
+
+```ts
+interface MyType<GenericValue> {
+  value: GenericValue;
+}
+
+let myVar: MyType<string> = { value: 'Hello, World!' };
+```
+
+Generic types can be used with the following:
+
+- Classes
+- Functions
+- Interfaces
+- Type aliases
+
+## Example of Using Generics
+
+In the following snippet, `Box<Value>` is a generic `interface` that with a generic `Value` type within. Next, two variables, `numberBox` and `stringBox`, are explicitly declared to be of type `Box<number>` and `Box<string>`, respectively:
 
 ```ts
 interface Box<Value> {
@@ -26,6 +44,8 @@ interface Box<Value> {
 let numberBox: Box<number> = { value: 7 };
 let stringBox: Box<string> = { value: 'Marathon' };
 ```
+
+## Inferring Generic Types
 
 Generics can be inferred from usage when not explicitly provided.
 
@@ -40,7 +60,7 @@ function logAndReturnValue<Value>(value: Value): Value {
 const result = logAndReturnValue(new Date('2021-12-21')); // Type: Date
 ```
 
-Here, the `KeyValueStore` class instance is inferred to have generic `<string, number>`, and its `makePair` therefore returns type `[string, number]`:
+Here, the `KeyValueStore` class instance is inferred to have generic `<string, number>`, and its `makePair()`, therefore, returns type `[string, number]`:
 
 ```ts
 class KeyValueStore<Key, Value> {
