@@ -22,7 +22,7 @@ The `Random` class can be accessed by importing it as follows:
 import java.util.Random;
 ```
 
-During instance creation, we can either set a seed value or pass no arguments to the constructor.
+When an instance of the `Random` class is created,  either a `seed` value is passed to the constructor or none are passed at all.
 
 ```java
 //Random number generator object
@@ -141,4 +141,3 @@ stream = rand1.doubles(5, 0, 10);
 //`The parameters are the size of stream, the lower bound and the upper bound respectively.
 ```
 
----
