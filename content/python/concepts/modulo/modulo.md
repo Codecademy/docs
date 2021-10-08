@@ -1,6 +1,6 @@
 ---
 Title: 'Modulo'
-Description: 'In Python, the percent sign is known as the modulo operator.'
+Description: 'A modulo calculation returns the remainder of the division between two numbers.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
