@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.isFinite()` method is a part of the `Number` class in JavaScript. It accepts a single argument, `value`, returns `true` if the passed argument is a finite number, and returns `false` if the passed argument is either positive `Infinity`, negative `Infinity`, or `NaN`.
+The `.isFinite()` method is a part of the `Number` class in JavaScript. It accepts a single argument `value`, returns `true` if the passed argument is a finite number, and returns `false` if the passed argument is either positive `Infinity`, negative `Infinity`, or `NaN`.
 
 ## Syntax
 
@@ -44,4 +44,4 @@ console.log(Number.isFinite(z));
 // Output: true
 ```
 
-The above example passes three constant values, an `Infinity`, a `NaN` and an integer value, into `Number.isFinite()` method to verify if a value is finite or not. The result is then printed.
+The above example passes three constant values, an `Infinity`, a `NaN`, and an integer value, into `Number.isFinite()` method to verify if a value is finite or not. The result is then printed.
