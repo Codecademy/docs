@@ -67,11 +67,13 @@ System.out.println("Random boolean: " + b);
 
 The output will look like this:
 
-> Random float: 0.13293427  
-> Random double: 0.900476085026994  
-> Random integer: 152429987  
-> Random long: -4775630185711902523  
-> Random boolean: 1
+```
+ Random float: 0.13293427
+ Random double: 0.900476085026994
+ Random integer: 152429987
+ Random long: -4775630185711902523
+ Random boolean: 1
+```
 
 The `nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
 
@@ -82,7 +84,9 @@ System.out.println("Random integer in range [0,25) : " + i);
 
 The output will be:
 
-> Random integer in range \[0,25) : 16
+```
+ Random integer in range \[0,25) : 16
+```
 
 A byte array can also be filled with random elements using the `nextBytes()` method.
 
@@ -98,7 +102,9 @@ for (byte j: b)
 
 The output looks like this:
 
-> Random byte array : -44 -82 44 62 -111
+```
+ Random byte array : -44 -82 44 62 -111
+```
 
 ## Generating Streams
 
