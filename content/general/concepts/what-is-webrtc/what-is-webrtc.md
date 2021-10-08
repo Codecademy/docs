@@ -8,9 +8,9 @@ Subjects:
   - 'Mobile Development'
   - 'Web Development'
 Tags:
+  - 'APIs'
   - 'WebRTC'
   - 'Video'
-  - 'Data'
 CatalogContent:
   - 'learn-websockets'
   - `paths/front-end-engineer-career-path`
