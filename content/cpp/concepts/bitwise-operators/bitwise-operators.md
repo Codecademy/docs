@@ -24,7 +24,7 @@ C++ supports different types of bitwise operators that can perform operations on
 
 ### 1. `&` Bitwise AND
 
-The bitwise AND operator, `&`, returns 1 if both the bits are 1. Else, it returns 0.
+The bitwise AND operator, `&`, returns 1 if both the bits are 1 (1, 1). Else ((1, 0), (0, 1), (0, 0)), it returns 0.
 
 For example:
 
