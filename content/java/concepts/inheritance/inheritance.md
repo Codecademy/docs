@@ -56,7 +56,7 @@ public class Vehicle {
   ...
 }
 ```
-Here, `Vehicle` is one class which has above mentioned properties and behaviors. Now this is more of a generic class. While creating a specific class let's say `Car`, which has these properties and behaviors plus some extra properties, instead of defining all these properties again in the new class we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable. Similarly, we can make another class let's say `Airplane` which can again access the properties present in `Vehicle` class.
+Here, `Vehicle` is a class which has above mentioned properties and behaviors. Now this is more of a generic class. While creating a specific class let's say `Car`, which has these properties and behaviors plus some extra properties, instead of defining all these properties again in the new class we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable. Similarly, we can make another class let's say `Airplane` which can again access the properties present in `Vehicle` class.
 
 Here's a `Car` class which inherits `Vehicle` class:
 
