@@ -14,9 +14,9 @@ CatalogContent:
   - 'learn-websockets'
 ---
 
-WebRTC is a collection of API’s that allow peer to peer connection’s between two or more browser clients
+Web real-time communication (WebRTC) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.
 
-It was developed and is maintained by google, It has been published as a specification by the W3C and all browsers support it.
+Originally developed in 2011 and currently maintained by Google, WebRTC has been published as a specification by the W3C and is supported by all major browsers.
 
 ## WebRTC vs websockets
 
