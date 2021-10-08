@@ -20,7 +20,7 @@ Web real-time communication (WebRTC) is a free and open-source collection of API
 
 Originally developed in 2011 and currently maintained by Google, WebRTC has been published as a specification by the W3C and is supported by all major browsers.
 
-## WebRTC vs websockets
+## WebRTC vs WebSockets
 
 WebRTC is commonly used for video chatting apps as it allows two or more computers to connect and send video and audio data without need for a server.
 
