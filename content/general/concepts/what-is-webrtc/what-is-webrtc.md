@@ -24,4 +24,4 @@ Originally developed in 2011 and currently maintained by Google, WebRTC has been
 
 WebRTC is commonly used for video chatting apps as it allows two or more computers to connect and send video and audio data without need for a server.
 
-Websockets allow for a 2 way connection between a server and client using the `ws://` protocol
+Conversely, WebSockets allow for a two-way connection between a server and client using the `ws://` protocol.
