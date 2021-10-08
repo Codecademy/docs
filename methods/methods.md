@@ -39,7 +39,7 @@ int main() {
 
   // Calls the method
   robert.get_name();
-  
+
   return 0;
 }
 ```
@@ -90,9 +90,9 @@ int main() {
 
   // Sets the name class memeber
   robert.set_name("Robert");
-  
+
   // Prints "Robert"
   std::cout << robert.get_name();
-  return 0;  
+  return 0;
 }
 ```
