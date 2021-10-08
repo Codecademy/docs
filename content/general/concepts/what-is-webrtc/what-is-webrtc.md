@@ -12,6 +12,7 @@ Tags:
   - 'Data'
 CatalogContent:
   - 'learn-websockets'
+  - `paths/front-end-engineer-career-path`
 ---
 
 Web real-time communication (WebRTC) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.
