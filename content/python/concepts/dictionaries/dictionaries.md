@@ -62,7 +62,7 @@ Values can be any type such as strings, numbers, lists, even other dictionaries.
 
 Dictionaries can be referred to by using the key name:
 
-```codebyte/py
+```py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 
 print(coffee_shop["cold brew"])
@@ -71,54 +71,40 @@ print(coffee_shop["cold brew"])
 
 When you try to access a key that does not exist, it will throw a `KeyError`.
 
-## Iterating through a Dictionary
+## Iterating Through a Dictionary
 
-To access only the keys:
-
-```codebyte/py
-dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
-
-for key in dict.keys():
-  print(key)
-```
-
-To access only the values:
+There are several ways to iterate through a dictionary, depending on which data you want to access: keys, values, or both.
 
 ```codebyte/py
-dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 
-for value in dict.values():
-  print(value)
-```
+# accessing only the keys
+for key in coffee_shop.keys():
+    print(key)
 
-Key and value as an item, formatted as a tuple:
+# accessing only the values
+for value in coffee_shop.values():
+    print(value)
 
-```codebyte/py
-dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+# key and value as an item, formatted as a tuple
+for item in coffee_shop.items():
+    print(item)
 
-for item in dict.items():
-  print(item)
-```
-
-Individual key and value:
-
-```codebyte/py
-dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
-
-for key, value in dict.items():
-  print(key, value)
+# individual key and value:
+for key, value in coffee_shop.items():
+    print(key, value)
 ```
 
 ## Add an Entry
 
 ```py
-dict[new_key] = new_value
+my_dict[new_key] = new_value
 ```
 
 ## Create a Dictionary using List Comprehension
 
 ```py
-dict = {key: value for key, value in zip(list1, list2)}
+my_dict = {key: value for key, value in zip(list1, list2)}
 ```
 
 The values of the first list become the keys, and the values of the second list become the values.
