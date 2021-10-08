@@ -30,13 +30,13 @@ The bitwise AND operator, `&`, returns 1 if both the bits are 1. Else, it return
 For example:
 
 ```
-4 = 100 (Binary)
-5 = 101 (Binary)
+4 = 100 (Base-2 binary system)
+5 = 101 (Base-2 binary system)
 
     100
     101
     ___
-    100, which is equal to 4 in Decimal System
+    100, which is equal to 4 in base-2 binary system
 ```
 
 ```codebyte/cpp
@@ -59,8 +59,8 @@ The Bitwise OR operator returns either of the following:
 For example:
 
 ```
-4 = 100 (Binary)
-5 = 101 (Binary)
+4 = 100 (Base-2 binary system)
+5 = 101 (Base-2 binary system)
 
     100
     101
@@ -80,20 +80,20 @@ int main() {
 
 ### 3. `<<` Bitwise Left Shift
 
-The left shift operator shifts all the bits towards left side by the number of bits specified and adds 0's to the right side.
+The left shift operator shifts all the bits towards the left side according to the number of bits specified and adds trailing 0's to the right side.
 
 For example:
 
 ```
-4 = 100 (Binary)
+4 = 100 (Base-2 binary system)
 
 4 << 1
 100 + 0
-1000 which is equal to 8
+1000 which is equal to 8 in base-2 binary system
 
 4 << 2
 100 + 00
-10000 which is equal to 16
+10000 which is equal to 16 in base-2 binary system
 ```
 
 ```codebyte/cpp
@@ -114,15 +114,15 @@ The right shift operator shifts all the bits towards right side by the number of
 For example:
 
 ```
-4 = 100 (Binary)
+4 = 100 (Base-2 binary system)
 
 4 >> 1
 0 + 100 - 0
-10 which is equal to 2
+10 which is equal to 2 in base-2 binary system
 
 4 << 2
 00 + 100 + 00
-1 which is equal to 1
+1 which is equal to 1 in base-2 binary system
 ```
 
 ```codebyte/cpp
@@ -144,8 +144,9 @@ The complement operator flips the binary digits, that is from 0 to 1 and from 1 
 #include<iostream>
 
 int main() {
-  std::cout << (~(int)5) << std::endl;
-  std::cout << (~(unsigned int)5) << std::endl;
+  std::cout << (~(int)5) << std::endl; // Complement of a signed integer 5 would yield -6 as a result
+
+  std::cout << (~(unsigned int)5) << std::endl; // Complement of an unsigned integer 5 would yield 4294967290 as a result
 
   return 0;
 }
@@ -158,13 +159,13 @@ Here we would get a different result because first bit of a signed integer is us
 The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
 ```
-12 = 01100(Binary)
-10 = 01010(Binary)
+12 = 01100(Base-2 binary system)
+10 = 01010(Base-2 binary system)
 
       1100
       1010
       ____
-      0110 which is 6 in decimal system.
+      0110 which is 6 in base-2 binary system.
 ```
 
 ```codebyte/cpp
