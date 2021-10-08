@@ -3,7 +3,7 @@ Title: 'Bitwise-Operators'
 Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit-level.'
 Subjects:
  - 'Code Foundations'
-  - 'Computer Science'
+ - 'Computer Science'
 Tags:
   - 'Operators'
   - 'Binary'
@@ -51,7 +51,7 @@ int main() {
 
 ### 2. `|` Bitwise OR
 
-The Bitwise OR operator returns either of the following: 
+The Bitwise OR operator returns either of the following:
 
 - 1 if at least one of the bits is 1.
 - 0 if both of them are 0.
