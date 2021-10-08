@@ -84,7 +84,7 @@ The return type of a function can be declared by adding a type annotation after 
 - We can make sure the function returns that type.
 - TypeScript will not attempt to infer the return type of a recursive function.
 
-The following recursive `fibonacci()` function needs an explicit `: number` return type annotation for TypeScript to understand it returns type `number`:
+The following recursive `fibonacci()` function needs an explicit `: number` return type annotation for TypeScript to understand it. This returns type `number`:
 
 ```ts
 function fibonacci(i: number): number {
