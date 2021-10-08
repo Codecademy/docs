@@ -22,7 +22,7 @@ x = 12 % 5
 print(x) # Output: 2
 ```
 
-Because 12 is not evenly divisible by 5,  the value of x is 2.
+Because 12 is not evenly divisible by 5, the value of x is 2.
 
 ## Codebyte Example
 
