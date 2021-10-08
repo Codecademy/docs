@@ -17,7 +17,7 @@ Server-side rendering is rendering the content on the server and presenting it t
 
 ## Why Server-side Rendering is Important
 
-- When the content is rendered on the server, the time required for downloading, parsing, and executing the javascript code is reduced. Thus ensuring fast load time of the web page.
+- When content is rendered on a server, the time required for downloading, parsing, and executing JavaScript code is reduced. This will ensure fast load times for web pages.
 
 - Server-side rendering helps in improving SEO by pre-rendering the page. Thus search engine crawlers can easily read the generated HTML file. While in client-side rendering crawlers read an empty HTML file with links to javascript, which reduces the search ranking of the webpage. Fast loading of the server-side rendered webpage also helps the site to rank higher in search results.
 
