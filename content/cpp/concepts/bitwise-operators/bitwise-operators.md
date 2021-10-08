@@ -15,7 +15,7 @@ CatalogContent:
 ---
 
 
-C++ supports different types of bitwise operators that can perform operations on integers on bit level, types of Bitwise Operators supported in C++ are:
+C++ supports different types of bitwise operators that can perform operations on integers on bit-level. Supported types of bitwise operators include:
 
 - `&` Bitwise AND
 - `|` Bitwise OR
