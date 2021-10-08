@@ -76,16 +76,16 @@ A `for..of..` loop loops over the items in an Array, allowing to directly access
 - The `for..of..` loop can be used to iterate Arrays, String and other array-like Objects
 
 ```js
-const items = ["apple", "banana", "cherry"]
+const items = ['apple', 'banana', 'cherry'];
 
 for (const item of items) {
   console.log(item);
 }
 
-// Output: 
-apple
-banana
-cherry
+// Output:
+apple;
+banana;
+cherry;
 ```
 
 ## For..in.. Loop
