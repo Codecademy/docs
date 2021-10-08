@@ -17,7 +17,6 @@ In Python, the percent sign (`%`) is known as the modulo operator. A modulo calc
 ## Example 1
 
 ```py
-# Define a variable with a modulo operator
 x = 12 % 5
 
 print(x) # Output: 2
