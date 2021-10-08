@@ -163,11 +163,11 @@ Employee is derived from `ABC`, making it an Abstract Base Class and `.calculate
 
 ## Types of Inheritance
 ### Single inheritance
-<center><img src="../../../../media/Single.png" width=40%></center>
+<center><img src="../../../../media/Single.png" width=30%></center>
 When a child class inherits from only one parent class, it is called single inheritance. All code above uses single inheritance.
 
 ### Multiple inheritance
-<center><img src="../../../../media/Multiple-Inheritance.png" width=40%></center>
+<center><img src="../../../../media/Multiple-Inheritance.png" width=30%></center>
 When a child class inherits from multiple parent classes, it is called multiple inheritance.
 
 ```py
@@ -197,7 +197,7 @@ print("Hi! I am {}. I have been a physician for {} years.".format(y.name, y.expe
 Here *PhysicianRobot* IS-A *Robot* and a *Physician*, i.e., it inherits from both these classes.
 
 ### Multilevel inheritance
-<center><img src="../../../../media/multilevel.jpg" width=40%></center>
+<center><img src="../../../../media/multilevel.jpg" width=30%></center>
 When we have a child and grandchild relationship, i.e., a derived class inherit from a base class and also acts like a base class to another class.
 
 ```py
@@ -236,7 +236,7 @@ print(g.getName(), g.getAge(), g.getAddress())
 ```
 
 ### Hierarchical inheritance
-<center><img src="../../../../media/hierarchical.jpg" width=75%></center>
+<center><img src="../../../../media/hierarchical.jpg" width=45%></center>
 
 More than one derived classes are created from a single base class.
 
@@ -263,7 +263,7 @@ print(x.name)
 ```
 
 ### Hybrid inheritance
-<center><img src="../../../../media/HybridInheritance.png" width=60%></center>
+<center><img src="../../../../media/HybridInheritance.png" width=40%></center>
 
 This form combines more than one form of inheritance. Basically, it is a blend of more than one type of inheritance.
 
@@ -274,6 +274,6 @@ If not carefully used, inheritance can lead to a huge hierarchical structure of 
 The program works as expected, but with many classes to support the idea implementation the class hierarchy will inevitably grow as new requirements come leading to the class explosion problem where your hierarchies will become so big that they’ll be hard to understand and maintain.
 
 ### Diamond Problem
-<center><img src="../../../../media/Diamond.svg.png" width=40% height=50% ></center>
+<center><img src="../../../../media/Diamond.svg.png" width=20% height=50% ></center>
 
 The **diamond problem** is an ambiguity that arises in multiple inheritance, when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
