@@ -1,3 +1,16 @@
+---
+Title: 'ArrayList'
+Description: 
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'ArrayList'
+  - 'Collection'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
 # **ArrayList in Java**
 
 ArrayList is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
@@ -12,9 +25,10 @@ The important points about Java **ArrayList** class are:
 -  ArrayList allows random access because array works at the index basis.
 - In ArrayList, manipulation is little bit slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
 
-# **Initialization of ArrrayList**
+# **Declaring of ArrrayList**
 
 ```
+//Declaring ArrayList
 ArrayList<String> arr = new ArrayList<String>();
 ```
 
