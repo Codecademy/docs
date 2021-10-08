@@ -37,3 +37,4 @@ console.log(Number.isInteger(x));
 console.log(Number.isInteger(y));
 // Output: true
 ```
+The above example passes two constant values, an integer and a decimal value, into `Number.isInteger()` method to verify if a value is an integer or not. The result is then printed.
