@@ -16,7 +16,7 @@ Encapsulation is a way of organizing data members and functions by wrapping them
 The data can only be accessed by member functions that are wrapped in the class. Encapsulation led to the important OOP concept of data hiding or abstraction.
 
 ```cpp
-#include<iostream>
+#include <iostream>
 
 class Encapsulation
 {
