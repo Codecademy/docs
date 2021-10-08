@@ -48,20 +48,21 @@ class Tree {
 Here the class `Employee` has a parameterized constructor which takes parameters `int i` and `string n` respectively these values are passed while creating and instance of class from `main()` function.
 
 ```java
-class Employee {  
-  int id;  
-  String name;  
-  
-  // Creating a parameterized constructor  
-  Employee(int i, String n) {  
-    id = i;  
+class Employee {
+  int id;
+  String name;
+
+  // Creating a parameterized constructor
+  Employee(int i, String n) {
+    id = i;
     name = n;
     System.out.println(id + " " + name);
   }
 
   public static void main(String args[]) {
     Employee e = new Employee(110, "Ashish"); // Creating objects and passing values
-  }  
+  }
 }
 
 // Output: 110 Ashish
+```
