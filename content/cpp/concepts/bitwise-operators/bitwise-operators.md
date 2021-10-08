@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Operators'
   - 'Binary'
-  - 'Bitwise-Operators'
   - 'Logical'
 CatalogContent:
   - 'learn-c-plus-plus'
@@ -54,7 +53,7 @@ int main() {
 
 The Bitwise OR operator returns 1 if at least one of the bit is 1, 0 if both of them are 0, it returns 0.
 
-For example
+For example:
 
 ```
 4 = 100 (Binary)
@@ -80,7 +79,7 @@ int main() {
 
 The left shift operator shifts all the bits towards left side by the number of bits specified and adds 0's to the right side.
 
-For example
+For example:
 
 ```
 4 = 100 (Binary)
@@ -109,7 +108,7 @@ int main() {
 
 The right shift operator shifts all the bits towards right side by the number of bits specified and discards theh right most bits.
 
-For example
+For example:
 
 ```
 4 = 100 (Binary)
