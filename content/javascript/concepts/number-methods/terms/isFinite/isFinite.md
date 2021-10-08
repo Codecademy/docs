@@ -44,4 +44,4 @@ console.log(Number.isFinite(z));
 // Output: true
 ```
 
-The above example passes three constant values, an `Infinity`, a `NaN`, and an integer value, into `Number.isFinite()` method to verify if a value is finite or not. The result is then printed.
+The above example passes an `Infinity`, a `NaN`, and an integer value, into the `Number.isFinite()` method to verify if each value is finite or not. The result is then printed.
