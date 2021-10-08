@@ -52,7 +52,10 @@ int main() {
 
 ### 2. `|` Bitwise OR
 
-The Bitwise OR operator returns 1 if at least one of the bit is 1, 0 if both of them are 0, it returns 0.
+The Bitwise OR operator returns either of the following: 
+
+- 1 if at least one of the bits is 1.
+- 0 if both of them are 0.
 
 For example
 
