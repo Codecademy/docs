@@ -16,7 +16,7 @@ Takes any Python iterable as the argument, and returns an element sampled at ran
 
 ## Syntax
 
-```python
+```py
 random.choice(iterable)
 ```
 
@@ -25,7 +25,7 @@ random.choice(iterable)
 
 Use `random.choice()` to return an element sampled at random from the list `list_1 = ["a","b","c"]`:
 
-```python
+```py
 import random
 
 print(random.choice(list_1))
@@ -35,7 +35,7 @@ print(random.choice(list_1))
 
 Use `random.choice()` to return a random character from the string `string_1 = "Coding!"`:
 
-```python
+```py
 import random
 
 print(random.choice(string_1))
