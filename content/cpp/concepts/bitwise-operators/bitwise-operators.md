@@ -2,8 +2,8 @@
 Title: 'Bitwise-Operators'
 Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit-level.'
 Subjects:
- - 'Code Foundations'
- - 'Computer Science'
+  - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Operators'
   - 'Binary'
@@ -12,7 +12,6 @@ CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
-
 
 C++ supports different types of bitwise operators that can perform operations on integers on bit-level. Supported types of bitwise operators include:
 
