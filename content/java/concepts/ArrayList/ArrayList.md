@@ -75,4 +75,4 @@ class Example
 []
 ```
 
-In the same way you can try for other ArrayList methods from the above list.
+In the same way you can also try for other methods from the above list.
