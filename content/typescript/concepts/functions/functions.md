@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'JavaScript functions take in zero or more parameters and return some kind of value. TypeScript will infer the types of both of those areas when possible, and allows to add type declarations on both of them. The types of function parameters work similarly to variable declarations. If the parameter has a default value, it will take on the type of that value. Otherwise you may declare the type of that parameter by adding a type annotation after its name. Here, the logAgeAndName() function explicitly declares age to be of type number, while name is inferred to be of type string from its default value: ts'
+Description: 'With functions, TypeScript infers the types of its parameters as well as any return value.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,14 +11,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-JavaScript functions take in zero or more parameters and return some kind of value.
-TypeScript will infer the types of both of those areas when possible, and allows to add type declarations on both of them.
+With functions, TypeScript infers the types of its parameters as well as any return value.
 
 ## Function Parameters
 
-The types of function parameters work similarly to variable declarations.
-If the parameter has a default value, it will take on the type of that value.
-Otherwise you may declare the type of that parameter by adding a type annotation after its name.
+The types of function parameters work similarly to variable declarations. If the parameter has a default value, it will take on the type of that value. Otherwise, we may declare the type of that parameter by adding a type annotation after its name.
 
 Here, the `logAgeAndName()` function explicitly declares `age` to be of type `number`, while `name` is inferred to be of type `string` from its default value:
 
@@ -27,20 +24,21 @@ function logAgeAndName(age: number, name = '(anonymous)') {
   console.log(`${name}, age ${age}`);
 }
 
-logAgeAndName(16, 'Mulan'); // Ok
-logAgeAndName(0); // Ok
+logAgeAndName(16, 'Mulan'); // ok: Mulan, age 16
+
+logAgeAndName(0); // also ok: (anonymous), age 0
 
 logAgeAndName('Mulan', 16);
 // Argument of type 'string' is not assignable to parameter of type 'number'
 ```
 
+The last use of `logAgeAndName()` shows that the order of the parameters passed to the function matter. The first agrument is expected to be of type `number` while the second is inferred to be of type `string`.
+
 ### Optional Parameters
 
-Some function parameters don't have a default value but should still be allowed to be not provided or be equal to `undefined`.
-You can mark them as optional in TypeScript by adding a `?` question mark after their name, before any type annotation.
-TypeScript will understand that they don't need to be provided, and their type is a union that includes `undefined`.
+Function parameters can be made optional by adding a `?` question mark after their name, before any type annotation. TypeScript will understand that they don't need to be provided when the function is invoked. Additionally, their type is a union that includes `undefined`. This means that if a given function does not use the optional parameter, its value is set to `undefined`.
 
-The following `logFavoriteNumberAndReason()` function indicates `favorite` as a required `number` and `reason` as an optional `string`, so the function must be called with at least a `number`:
+The following `logFavoriteNumberAndReason()` function indicates `favorite` as a required `number` and `reason` as an optional `string`, so the function must be called with at least one `number` parameter:
 
 ```ts
 function logFavoriteNumberAndReason(favorite: number, reason?: string) {
@@ -60,10 +58,9 @@ logFavoriteNumberAndReason();
 
 ## Return Types
 
-Most functions are written in a way that TypeScript can infer what value they return by looking at all the `return` statements in the function.
-Functions that don't return a value are considered to return type `void`.
+Most functions are written in a way that TypeScript can infer what value they return by looking at all the `return` statements in the function. Functions that don't return a value are considered to have a return type of `void`.
 
-In this example, the `getRandomFriend()` function is inferred to return `string` because all its `return`s return a value of type `string`:
+In this example, the `getRandomFriend()` function is inferred to return a `string` type because all `return` statements have a value of type `string`, including the `fallback` parameter:
 
 ```ts
 function getRandomFriend(fallback: string) {
@@ -82,11 +79,10 @@ function getRandomFriend(fallback: string) {
 const friend = getRandomFriend('Codey'); // Type: string
 ```
 
-You can explicitly declare the return type of a function by adding a type annotation after the `)` right parenthesis following its list of parameters.
-Doing so can be useful in two situations:
+The return type of a function can be declared by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
 
-- You'd like to explicitly make sure the function really does return that type
-- TypeScript will not attempt to infer the return type of a recursive function
+- We can make sure the function returns that type.
+- TypeScript will not attempt to infer the return type of a recursive function.
 
 The following recursive `fibonacci()` function needs an explicit `: number` return type annotation for TypeScript to understand it returns type `number`:
 
@@ -102,10 +98,9 @@ function fibonacci(i: number): number {
 
 ## Function Types
 
-The types of functions may be represented in the type system.
-A function type looks a lot like an arrow lambda, but with the return type instead of the function body.
+Function types may be represented in the type system. They look a lot like an arrow lambda, but with the return type instead of the function body.
 
-This `withIncrementedValue()` takes in a `receiveNewValue` parameter that itself takes in a `number` and returns nothing.
+This `withIncrementedValue()` takes in a `receiveNewValue` parameter function that itself takes in a `number` and returns nothing (`void`).
 
 ```ts
 let value = 0;
@@ -120,5 +115,4 @@ withIncrementedValue((receivedValue) => {
 });
 ```
 
-Function parameters' types may be inferred if their parent function is in a location with a known function type.
-In the prior example, the `receivedValue` parameter was inferred to be type `number`.
+Function parameters' types may be inferred if their parent function is in a location with a known function type. In the prior example, the `receivedValue` parameter was inferred to be type `number`.
