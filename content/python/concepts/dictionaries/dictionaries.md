@@ -58,11 +58,11 @@ Values can be any type such as strings, numbers, lists, even other dictionaries.
 - `"latte": 4.25`
 - `"cappucino": 3.99`
 
-## Using a Dictionary
+## Accessing a Dictionary
 
 Dictionaries can be referred to by using the key name:
 
-```py
+```codebyte/py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 
 print(coffee_shop["cold brew"])
@@ -70,6 +70,44 @@ print(coffee_shop["cold brew"])
 ```
 
 When you try to access a key that does not exist, it will throw a `KeyError`.
+
+## Iterating through a Dictionary
+
+To access only the keys:
+
+```codebyte/py
+dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+
+for key in dict.keys():
+  print(key)
+```
+
+To access only the values:
+
+```codebyte/py
+dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+
+for value in dict.values():
+  print(value)
+```
+
+Key and value as an item, formatted as a tuple:
+
+```codebyte/py
+dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+
+for item in dict.items():
+  print(item)
+```
+
+Individual key and value:
+
+```codebyte/py
+dict = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+
+for key, value in dict.items():
+  print(key, value)
+```
 
 ## Add an Entry
 
