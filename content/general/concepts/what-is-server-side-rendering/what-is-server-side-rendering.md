@@ -15,7 +15,7 @@ CatalogContent:
 
 Server-side rendering is rendering the content on the server and presenting it to the client when the request is made. While in the client-side rendering (opposite of server-side rendering) when a request is made server sends separate files and the content is rendered in the browser. Javascript works both on server and browser, so it is possible for the developers to render the content of an application where they want.
 
-## Why Server-side Rendering is Important
+## Why Server-Side Rendering is Important
 
 - When content is rendered on a server, the time required for downloading, parsing, and executing JavaScript code is reduced. This will ensure fast load times for web pages.
 
