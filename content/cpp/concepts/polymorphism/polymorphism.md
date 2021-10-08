@@ -33,12 +33,12 @@ The number of parameters we pass during function invocation (function calling) d
 class Add {
   public:
     // Function sum() with 2 parameters
-    int sum(int num1, int num2){
+    int sum(int num1, int num2) {
       return num1 + num2;
     }
 
     // Function sum() with 3 parameters
-    int sum(int num1, int num2, int num3){
+    int sum(int num1, int num2, int num3) {
       return num1 + num2 + num3;
     }
 };
@@ -57,11 +57,11 @@ int main() {
 }
 ```
 
-Above code snippet will generated below output.
+The output would look like:
 
 ```shell
-Output: 30 // Result of first function invocation
-Output: 66 // Result of second function invocation
+Output: 30
+Output: 66
 ```
 
 ## Runtime Polymorphism
@@ -79,14 +79,14 @@ In the case of function overriding, we have two definitions of the same function
 
 class A {
   public:
-    void print(){
+    void print() {
       std::cout << "Output: Parent Class Function" << "\n";
     }
 };
 
-class B: public A{
+class B: public A {
   public:
-    void print(){
+    void print() {
       std::cout << "Output: Child Class Function";
     }
 };
@@ -104,9 +104,9 @@ int main() {
 }
 ```
 
-Above code snippet will generated below output.
+The output would look like:
 
 ```shell
-Output: Parent Class Function // Result of parent print() function invocation
-Output: Child Class Function // Result of child print() function invocation
+Output: Parent Class Function
+Output: Child Class Function
 ```
