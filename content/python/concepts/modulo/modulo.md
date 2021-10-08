@@ -27,7 +27,12 @@ Because 12 is not evenly divisible by 5,  the value of x is 2.
 ## Codebyte Example
 
 ```codebyte/py
-x = 12 % 5
+num = 3
+
+if (num % 2) == 0:
+  print("Even")
+else:
+  print("Odd")
 
 print(x)
 ```
