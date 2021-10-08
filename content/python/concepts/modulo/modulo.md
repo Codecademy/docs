@@ -25,6 +25,17 @@ print(x)
 
 Because 12 is not evenly divisible by 5, the value of `x` is 2.
 
+## Example 2
+
+```py
+y = 10 % 5
+
+print(y)
+# Output: 0
+```
+
+Because 10 is evenly divisible by 5, the value of `y` is 0.
+
 ## Codebyte Example
 
 ```codebyte/py
