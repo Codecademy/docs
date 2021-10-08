@@ -153,7 +153,7 @@ Here we would get a different result because first bit of a signed integer is us
 
 ### 6. `^` Bitwise XOR
 
-The XOR Operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
+The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
 ```
 12 = 01100(Binary)
