@@ -3,7 +3,7 @@ Title: 'Bitwise-Operators'
 Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit-level.'
 Subjects:
  - 'Code Foundations'
-  - 'Computer Science'
+ - 'Computer Science'
 Tags:
   - 'Operators'
   - 'Binary'
