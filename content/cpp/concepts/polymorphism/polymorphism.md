@@ -25,7 +25,7 @@ Compile-time polymorphism is perfect for function overloading as well as operato
 
 In the example below, there are two functions with the same name but a different number of arguments.
 
-The number of parameters we pass during function invocation (function calling) determines which function is to be called. This is why it is considered as an example of polymorphism because in different conditions the output is different. Since the call is determined during compile time that's why it is called compile-time polymorphism.
+The number of parameters we pass during function invocation (function calling) determines which function to be called. This is why it is considered as an example of polymorphism because the output is different in different conditions. Since the call is determined during compile time, it is called compile-time polymorphism.
 
 ```cpp
 #include <iostream>
@@ -33,12 +33,12 @@ The number of parameters we pass during function invocation (function calling) d
 class Add {
   public:
     // Function sum() with 2 parameters
-    int sum(int num1, int num2){
+    int sum(int num1, int num2) {
       return num1 + num2;
     }
 
     // Function sum() with 3 parameters
-    int sum(int num1, int num2, int num3){
+    int sum(int num1, int num2, int num3) {
       return num1 + num2 + num3;
     }
 };
@@ -57,20 +57,20 @@ int main() {
 }
 ```
 
-Above code snippet will generated below output.
+The output would look like:
 
 ```shell
-Output: 30 // Result of first function invocation
-Output: 66 // Result of second function invocation
+Output: 30
+Output: 66
 ```
 
 ## Runtime Polymorphism
 
 Function overriding is an example of runtime polymorphism.
 
-### Function overriding
+### Function Overriding
 
-It is a concept when a child class declares a method, which is already present in the parent class then this is called function overriding, here the child class overrides the parent class.
+When a child class declares a method that is already present in the parent class, it is called function overriding because the child class overrides the parent class.
 
 In the case of function overriding, we have two definitions of the same function, one in the parent class and one in the child class. Since the call to the function is determined at runtime to decide which definition of the function is to be called, it is called runtime polymorphism.
 
@@ -79,14 +79,14 @@ In the case of function overriding, we have two definitions of the same function
 
 class A {
   public:
-    void print(){
+    void print() {
       std::cout << "Output: Parent Class Function" << "\n";
     }
 };
 
-class B: public A{
+class B: public A {
   public:
-    void print(){
+    void print() {
       std::cout << "Output: Child Class Function";
     }
 };
@@ -104,9 +104,9 @@ int main() {
 }
 ```
 
-Above code snippet will generated below output.
+The output would look like:
 
 ```shell
-Output: Parent Class Function // Result of parent print() function invocation
-Output: Child Class Function // Result of child print() function invocation
+Output: Parent Class Function
+Output: Child Class Function
 ```
