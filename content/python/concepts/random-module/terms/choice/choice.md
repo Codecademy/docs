@@ -20,7 +20,6 @@ Takes any Python iterable as the argument, and returns an element sampled at ran
 random.choice(iterable)
 ```
 
-
 ## Example 1
 
 Use `random.choice()` to return an element sampled at random from the list `list_1 = ["a","b","c"]`:
@@ -42,6 +41,7 @@ print(random.choice(string_1))
 ```
 
 ## Codebyte Example
+
 Use `random.choice()` to return a random element from the tuple `tuple_1`:
 
 ```codebyte/python
