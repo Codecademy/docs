@@ -1,15 +1,15 @@
 ---
-Title: 'Random'
-Description: 'Instances of the Random class in Java can be used to generate streams of pseudorandom numbers.'
+Title: "Random"
+Description: "Instances of the Random class in Java can be used to generate streams of pseudorandom numbers."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Random'
-  - 'Methods'
+  - "Random"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The [`Random`](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) class is present in the `java.util` package. It is used to generate random values or streams of random values of specific data types.
@@ -25,10 +25,8 @@ import java.util.Random;
 When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all. The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
 
 ```java
-//Random number generator object
 Random rand1 = new Random();
 
-//Random number with an arbitrary seed of long type
 long seed = (long)3.142;
 Random rand2 = new Random(seed);
 ```
@@ -125,24 +123,22 @@ DoubleStream stream;
 stream = rand1.doubles();
 ```
 
-An effectively unlimited stream of pseudorandom `double` values, each in the range specified, can be generated using:
+An effectively unlimited stream of pseudorandom `double` values, each in the range specified, can be generated using the following code snippet. The parameters are the the lower bound and the upper bound respectively.
 
 ```java
 stream = rand1.doubles(0,10);
-//The parameters are the the lower bound and the upper bound respectively.
 ```
 
 **Note:** In the above method, the lower bound is inclusive but the upper bound is exclusive.
 
-A stream of specified size of values in range [0,1) can be generated using:
+A stream of specified size of values in range [0,1) can be generated using the following code snippet. The parameter is the size of the stream.
 
 ```java
 stream = rand1.doubles(5);
 ```
 
-A stream of specified size with values in a specified range can be generated using:
+A stream of specified size with values in a specified range can be generated using the following code snippet. The parameters are the size of stream, the lower bound and the upper bound respectively.
 
 ```java
 stream = rand1.doubles(5, 0, 10);
-//`The parameters are the size of stream, the lower bound and the upper bound respectively.
 ```
