@@ -1,4 +1,4 @@
-### Title: git status
+### Title: Git status
 
 ### Subject: Git
 
