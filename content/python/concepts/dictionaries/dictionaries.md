@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is an ordered set of key: value pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values dont have to be. Python dictionaries are dynamic and mutable which means they can be changed. If you assign a value to an already existing dictionary key, it does not add the key a second time, but instead replaces the existing value. Dictionaries also have a number of built in methods which make it easier to manipulate the datastructure and objects containted within. Note: As of Python version 3.7, dictionaries are ordered, but in Python 3.6 and earlier, dictionaries are unordered. The syntax of a dictionary is as follows: pseudo dictionary_name = {key1: value1, key2: value2, key3: value3}'
+Description: 'A dictionary is an ordered set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated to keys.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A dictionary is an ordered set of `key: value` pairs. It provides a way to map pieces of data to each other, and allows for quick access to values associated to keys. Keys must be unique in dictionaries, but the values don't have to be.
+A dictionary is an ordered set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys. Keys must be unique in dictionaries, but the values don't have to be.
 
-Python dictionaries are dynamic and mutable which means they can be changed.
+Python dictionaries are dynamic and mutable, which means they can change.
 
-If you assign a value to an already existing dictionary key, it does not add the key a second time, but instead replaces the existing value. Dictionaries also have a number of built in methods which make it easier to manipulate the datastructure and objects containted within.
+If you assign a value to an already existing dictionary key, it does not add the key a second time. Instead, it replaces the existing value. Dictionaries also have several built-in methods which make it easier to manipulate the data structure and objects contained within.
 
-**Note:** As of Python version 3.7, dictionaries are ordered, but in Python 3.6 and earlier, dictionaries are unordered.
+**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in Python 3.6 and earlier.
 
 ## Syntax
 
@@ -28,31 +28,31 @@ The syntax of a dictionary is as follows:
 dictionary_name = {key1: value1,  key2: value2,  key3: value3}
 ```
 
-Each entry in a dictionary is a `key: value` pair. Each pair is separated by a comma.
+Each entry in a dictionary is a key-value pair. Each pair is separated by a comma.
 
-Dictionary keys must be immutable types such as numbers and strings, because keys should not change. Keys cannot be lists, as lists are mutable and can change. Otherwise, it will throw a `TypeError`.
+Dictionary keys must be immutable types such as numbers and strings because keys should not change. Keys cannot be lists because lists are mutable, and it will throw a `TypeError`.
 
-Values can be any type such as strings, numbers, lists, even other dictionaries.
+Values can be any type, such as strings, numbers, lists, and even other dictionaries.
 
 ## Create a Dictionary
 
-1. An empty dictionary is created using curly braces `{` `}`:
+1. An empty dictionary is created with curly braces:
 
-   ```py
-   diner = {}
-   ```
+```py
+diner = {}
+```
 
-2. An empty dictionary can also be created using the built-in function `dict()` with no arguments:
+2. An empty dictionary can also be created using the built-in function, `dict()`, with no arguments:
 
-   ```py
-   diner = dict()
-   ```
+```py
+diner = dict()
+```
 
 3. A dictionary with entries:
 
-   ```py
-   coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
-   ```
+```py
+coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+```
 
 - `"cold brew": 3.50`
 - `"latte": 4.25`
