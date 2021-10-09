@@ -36,19 +36,19 @@ Values can be any type, such as strings, numbers, lists, and even other dictiona
 
 ## Create a Dictionary
 
-1. An empty dictionary is created with curly braces:
+An empty dictionary is created with curly braces:
 
 ```py
 diner = {}
 ```
 
-2. An empty dictionary can also be created using the built-in function, `dict()`, with no arguments:
+An empty dictionary can also be created using the built-in function, `dict()`, with no arguments:
 
 ```py
 diner = dict()
 ```
 
-3. A dictionary with entries:
+A dictionary with entries:
 
 ```py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
@@ -109,7 +109,7 @@ To add an entry, use square brackets to index into the dictionary's `new_key` an
 my_dict[new_key] = new_value
 ```
 
-## Create a Dictionary using List Comprehension 
+## Create a Dictionary using List Comprehension
 
 ```py
 my_dict = { key: value for key, value in zip(list1, list2) }
