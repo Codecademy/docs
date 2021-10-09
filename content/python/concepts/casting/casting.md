@@ -13,9 +13,11 @@ CatalogContent:
 ---
 
 ## Casting
+
 Since casting helps in changing the variable data type. We can type cast integer to float using `flaot()` function or integer to string using `str()` function and vice versa. These conversion can be implicit or explicit.
 
 ## Implict Type Conversion
+
 In this Pyhton convert one data type into another without user's involvement. Python itself render variable's data type. Variable type need not to be defined as we do in C++/C.
 
 ```py
@@ -34,12 +36,12 @@ This will be output:
 ```
 
 ## Explicit Type Conversion
-In this user convert the data type of variable with the help of predefined function like `float()`, `int()`, `str()` to convert the variable data type. 
+
+In this user convert the data type of variable with the help of predefined function like `float()`, `int()`, `str()` to convert the variable data type.
 
 `str()`: `str()` function takes int or float as argument and convet it to string data type.
 `int()`: `int()` function takes string or float as argument convert it to integer data type.
 `float()`: `float()` function takes integer or string as argument and covert it to float data type.
-
 
 ### Type casting `int` to `string`
 
