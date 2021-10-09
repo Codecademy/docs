@@ -103,7 +103,7 @@ The `for` loops access and print each key, value, key-value as a tuple, and indi
 
 ## Add an Entry
 
-To add an entry, use square brackets to index into the dictionary's `new_key` and assign it a `new_value`:
+To add an entry, use square brackets to create an index into a `new_key` and assign it a `new_value`:
 
 ```py
 my_dict[new_key] = new_value
