@@ -117,7 +117,7 @@ Like a list comprehension, a dictionary comprehension is a pythonic way to creat
 my_dict_comp = { expression for key, value in dictionary if condition }
 ```
 
-The `if condition` is optional, but is a great tool for filtering data. For example, given a dictionary with key value pairs as a person's name and their age, make a new dictionary to filter only those whose age is less than 25:
+The `if condition` is optional, but is a great tool for filtering data. For example, given a dictionary with a person's name and age, make a new dictionary that only contains people with an age under 25:
 
 ```py
 person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
