@@ -124,7 +124,7 @@ person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Al
 person_age_filtered = { name: age for name, age in person_age.items() if age < 25 }
 ```
 
-The expression is `name: age`, as that's how the new dictionary will be formatted. Then, the typical for loop iteration, `for name, age in person_age.items()`. Lastly, the if condition that filters out the results. 
+The expression is `name: age`, as that's how the new dictionary will be formatted. Then, the typical for loop iteration, `for name, age in person_age.items()`. Lastly, the if condition that filters out the results.
 
 The expression can also perform operations on the data being extracting. For example, to create a dictionary with key value pairs of a number and its square given a list of numbers:
 
