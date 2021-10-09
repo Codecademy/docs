@@ -13,17 +13,8 @@ tracked and will be saved in the next commit.
 
 ### Commands used:
 
-1) 
-```
-git add
-```
+1) ```git add```
 
-2)
-```
-touch
-```
+2) ```touch```
 
-3)
-```
-git status
-```
+3) ```git status```
