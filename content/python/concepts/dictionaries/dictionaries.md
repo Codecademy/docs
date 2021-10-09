@@ -34,7 +34,7 @@ Dictionary keys must be immutable types such as numbers and strings because keys
 
 Values can be any type, such as strings, numbers, lists, and even other dictionaries.
 
-## Create a Dictionary
+## Creating a Dictionary
 
 An empty dictionary is created with curly braces:
 
@@ -101,7 +101,7 @@ for key, value in coffee_shop.items():
 
 The `for` loops access and print each key, value, key-value as a tuple, and individual key-values in `coffee_shop`, respectively.
 
-## Add an Entry
+## Adding an Entry
 
 To add an entry, use square brackets to create an index into a `new_key` and assign it a `new_value`:
 
@@ -109,7 +109,7 @@ To add an entry, use square brackets to create an index into a `new_key` and ass
 my_dict[new_key] = new_value
 ```
 
-## Create a Dictionary using Dictionary Comprehension
+## Creating a Dictionary using Dictionary Comprehension
 
 Like a list comprehension, a dictionary comprehension is a pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
 
