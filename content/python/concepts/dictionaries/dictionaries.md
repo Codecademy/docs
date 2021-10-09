@@ -109,10 +109,28 @@ To add an entry, use square brackets to create an index into a `new_key` and ass
 my_dict[new_key] = new_value
 ```
 
-## Create a Dictionary using List Comprehension
+## Create a Dictionary using Dictionary Comprehension
+
+Like a list comprehension, a dictionary comprehension is a pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
 
 ```py
-my_dict = { key: value for key, value in zip(list1, list2) }
+my_dict_comp = { expression for key, value in dictionary if condition }
 ```
 
-The values of the first list become the keys, and the values of the second list become the values.
+The `if condition` is optional, but is a great tool for filtering data. For example, if we have a dictionary with key value pairs as a person's name and their age, we could make a new dictionary to filter only those whose age is less than 25.
+
+```py
+person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
+person_age_filtered = { name: age for name, age in person_age.items() if age < 25 }
+```
+
+Our expression is `name: age`, as that's how we want our new dictionary formatted. Then, we have the typical for loop iteration, `for name, age in person_age.items()`. Lastly, we have our if condition that filters out the results. 
+
+Going one step further, we can use the expression to perform operations on the data we're extracting. For example, if we had a list of numbers 1 through 5, and wanted to create a dictionary with key value pairs of the number and its square, we could do something like this:
+
+```py
+nums_list = [ 1, 2, 3, 4, 5 ]
+nums_squared = { num: num**2 for num in nums_list }
+```
+
+While this syntax is slightly different, the same structure is evident. You can see here that we are not only able to manipulate the data in our expression, but we can even create a dictionary based on a single list. Cool, right?
