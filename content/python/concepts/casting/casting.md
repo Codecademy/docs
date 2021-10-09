@@ -14,7 +14,7 @@ CatalogContent:
 
 ## Casting
 
-Since casting helps in changing the variable data type. We can type cast integer to float using `flaot()` function or integer to string using `str()` function and vice versa. These conversion can be implicit or explicit.
+Since casting helps in changing the variable data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
 
 ## Implict Type Conversion
 
