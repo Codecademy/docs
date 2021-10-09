@@ -36,9 +36,9 @@ This will be output:
 ## Explicit Type Conversion
 In this user convert the data type of variable with the help of predefined function like `float()`, `int()`, `str()` to convert the variable data type. 
 
-str(): str() function takes int or float as argument and convet it to string data type.
-int(): int() function takes string or float as argument convert it to integer data type.
-float(): float() function takes integer or string as argument and covert it to float data type.
+`str()`: `str()` function takes int or float as argument and convet it to string data type.
+`int()`: `int()` function takes string or float as argument convert it to integer data type.
+`float()`: `float()` function takes integer or string as argument and covert it to float data type.
 
 
 ### Type casting `int` to `string`
@@ -66,11 +66,11 @@ This will be output:
 ```py
 x = 7.2  # Float type variable
 
-y=str(x) # Casting into string
+y = str(x) # Casting into string
 
 print(type(x))
 print(y)
-print(type(y)) 
+print(type(y))
 ```
 
 This will be output:
