@@ -48,7 +48,15 @@ console.log(lastIndexOfCherry);
 Check if color `'blue'` is in the `rainbow` array and before the fifth element:
 
 ```js
-const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const rainbow = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'blue',
+  'indigo',
+  'violet',
+];
 const checkIndigo = rainbow.indexOf('indigo', 4);
 console.log(checkIndigo);
 // Output: -1
