@@ -1,6 +1,6 @@
 ---
 Title: 'ArrayList'
-Description: 
+Description: 'ArrayList is a class in java that uses dynamic array for storing the elements.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,28 +11,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# **ArrayList in Java**
-
 ArrayList is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
 
 The ArrayList in Java can have the duplicate elements also. It implements the List interface so we can use all the methods of List interface here. The ArrayList maintains the insertion order internally. So when you display the ArrayList it will print in the same order as the elements was inserted.
 
 The important points about Java **ArrayList** class are:
 
--  ArrayList class can contain duplicate elements.
--  ArrayList class maintains insertion order.
--  ArrayList class is non synchronized.
--  ArrayList allows random access because array works at the index basis.
+- ArrayList class can contain duplicate elements.
+- ArrayList class maintains insertion order.
+- ArrayList class is non synchronized.
+- ArrayList allows random access because array works at the index basis.
 - In ArrayList, manipulation is little bit slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
 
-# **Declaring of ArrrayList**
+## Declaring of ArrrayList
 
 ```
 //Declaring ArrayList
 ArrayList<String> arr = new ArrayList<String>();
 ```
 
-# **ArrayList Methods**
+## ArrayList Methods
 
 | Methods                  | Description                                                        |
 | ------------------------ | ------------------------------------------------------------------ |
@@ -47,8 +45,7 @@ ArrayList<String> arr = new ArrayList<String>();
 | clear()                  | Removes all the elements of the list                               |
 | isEmpty()                | Returns true if the list is empty else false                       |
 
-
-# **ArrayList Example**
+## ArrayList Example
 
 ```
 //ArrayList is present in util package so import
@@ -59,10 +56,10 @@ class Example
     public static void main(String []args)
     {
         ArrayList<String> arr = new ArrayList<>();
-        
+
         System.out.println(arr);
         //the above statement prints empty list
-    
+
         arr.add("hello");
         arr.add("India");
 
