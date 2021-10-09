@@ -1,0 +1,64 @@
+---
+Title: 'find()'
+Description: 'Search through a string for the occurrence of a pattern, or a substring.'
+Subjects:
+  - 'Data Science'
+  - 'Computer Science'
+Tags:
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+  - 'paths/computer-science'
+---
+
+- Search through a string for the occurrence of a pattern, or a substring.
+- Return the starting index of the first occurrence of the pattern or substring.
+- Return -1 if the pattern is not found.
+
+## Syntax
+
+```py
+string.find(pattern,start,end)
+```
+
+In the above syntax for the `find()` method:
+
+- `string`: The string that you need to search. (Required)
+- `pattern`: The pattern that you are searching for. (Required)
+- `start`: The starting index of the slice of `string` that you need to search through. (Optional, Default: start of the string - index `0`)
+- `end`: The index of the slice of `string` that you need to search up to. (Optional, Default: end of the string )
+
+## Example 1
+
+Use `find()` method to search for the occurrence of `"Python"` in the string `my_string`:
+
+```py
+my_string = "I love Python!"
+my_string.find("Python")
+
+#Output
+0 #as "Python" occurs at the start of the string
+```
+
+## Example 2
+
+Use `find()` method to search for the occurrence of `"JavaScript"` in the string `my_string`:
+
+```py
+my_string = "I love Python!"
+my_string.find("JavaScript")
+
+#Output
+-1 #as "JavaScript" does not occur in the string
+```
+
+## Codebyte Example
+
+Use `find()` method to search for the occurrence of `"fun"` in a slice of the string `my_string`, that is `my_string[7:13]`:
+
+```codebyte/py
+my_string = "Coding is fun!"
+my_string.find("fun",7,13)
+```
