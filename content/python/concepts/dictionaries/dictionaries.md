@@ -54,6 +54,8 @@ diner = dict()
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 ```
 
+The three key-value pairs in the `coffee_shop` dictionary:
+
 - `"cold brew": 3.50`
 - `"latte": 4.25`
 - `"cappucino": 3.99`
@@ -73,38 +75,44 @@ When you try to access a key that does not exist, it will throw a `KeyError`.
 
 ## Iterating Through a Dictionary
 
-There are several ways to iterate through a dictionary, depending on which data you want to access: keys, values, or both.
+There are several ways to iterate through a dictionary depending on which data you want to access: keys, values, or both.
+
+The following codebyte consists of four `for` loops that iterate through the `coffee_shop` dictionary:
 
 ```codebyte/py
 coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
 
-# accessing only the keys
+# Access keys
 for key in coffee_shop.keys():
     print(key)
 
-# accessing only the values
+# Access values
 for value in coffee_shop.values():
     print(value)
 
-# key and value as an item, formatted as a tuple
+# Key-value as an item, formatted as a tuple
 for item in coffee_shop.items():
     print(item)
 
-# individual key and value:
+# Individual key and value:
 for key, value in coffee_shop.items():
     print(key, value)
 ```
 
+The `for` loops access and print each key, value, key-value as a tuple, and individual key-values in `coffee_shop`, respectively.
+
 ## Add an Entry
+
+To add an entry, use square brackets to index into the dictionary's `new_key` and assign it a `new_value`:
 
 ```py
 my_dict[new_key] = new_value
 ```
 
-## Create a Dictionary using List Comprehension
+## Create a Dictionary using List Comprehension 
 
 ```py
-my_dict = {key: value for key, value in zip(list1, list2)}
+my_dict = { key: value for key, value in zip(list1, list2) }
 ```
 
 The values of the first list become the keys, and the values of the second list become the values.
