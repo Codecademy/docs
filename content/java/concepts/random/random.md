@@ -32,7 +32,7 @@ long seed = (long)3.142;
 Random rand2 = new Random(seed);
 ```
 
-The value of the seed can be set or modified at any point during the execution of the program using the `setSeed()` method.
+The value of the seed can be set or modified at any point during the execution of the program using the `.setSeed()` method.
 
 ```java
 long newseed = (long)2.7182;
@@ -45,10 +45,10 @@ rand2.setSeed(newseed);
 
 The following methods can be used to generate the next pseudorandom number from the generator's sequence.
 
-- The `nextDouble()` and `nextFloat()` methods return values in range \[0,1). This means that the range is inclusive of zero (indicated by the square bracket) and exclusive of 1 (indicated by the parantheses).
-- The `nextInt()` and `nextLong()` methods have no such limits.
+- The `.nextDouble()` and `.nextFloat()` methods return values in range [0,1). This means that the range is inclusive of zero (indicated by the square bracket) and exclusive of 1 (indicated by the parenthesis).
+- The `.nextInt()` and `.nextLong()` methods have no such limits.
 
-**Note:** In the absence of a `seed`, these methods return different values every time they are called or even for separate instances.
+**Note:** In the absence of a `seed`, these methods return different values every time they are called or even for separate instances:
 
 ```java
 float f = rand1.nextFloat();
@@ -74,7 +74,7 @@ Random long: -4775630185711902523
 Random boolean: 1
 ```
 
-The `nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
+The `.nextInt()` method can also be used with an upper bound so that the generated value is between 0 and that upper bound.
 
 ```java
 i = rand1.nextInt(25);
@@ -87,7 +87,7 @@ The output will be:
 Random integer in range [0,25) : 16
 ```
 
-A byte array can also be filled with random elements using the `nextBytes()` method.
+A byte array can also be filled with random elements using the `.nextBytes()` method.
 
 ```java
 byte[] b = new byte [5];
@@ -107,24 +107,24 @@ Random byte array : -44 -82 44 62 -111
 
 ## Generating Streams
 
-`IntStream`, `DoubleStream` and `LongStream` objects can be produced using the `ints()`, `doubles()` and `longs()` methods, respectively.
+`IntStream`, `DoubleStream` and `LongStream` objects can be produced using the `.ints()`, `.doubles()` and `.longs()` methods, respectively.
 
 The following example illustrates the generation of a `DoubleStream` object and can be extrapolated for the other two object types as well.
 
-In order to use an object of this type, the following import statement must be used:
+To use an object of this type, the following import statement must be used:
 
 ```java
 import java.util.stream.DoubleStream;
 ```
 
-An unlimited stream of pseudorandom `double` values, each in the range [0,1), can be generated using the following code snippet. A `DoubleStream` is a stream over objects of `double` type.
+An unlimited stream of pseudorandom `double` values, each in the range [0,1), can be generated using the following code snippet. A `DoubleStream` is a stream over objects of `double` type:
 
 ```java
 DoubleStream stream;
 stream = rand1.doubles();
 ```
 
-An effectively unlimited stream of pseudorandom `double` values, each in the range specified, can be generated using the following code snippet. The parameters are the the lower bound and the upper bound respectively.
+An effectively unlimited stream of pseudorandom `double` values, each in the range specified, can be generated using the following code snippet. The parameters are the lower bound and the upper bound, respectively:
 
 ```java
 stream = rand1.doubles(0,10);
@@ -132,13 +132,13 @@ stream = rand1.doubles(0,10);
 
 **Note:** In the above method, the lower bound is inclusive but the upper bound is exclusive.
 
-A stream of specified size of values in range [0,1) can be generated using the following code snippet. The parameter represents the size of the stream.
+A stream of specified size of values in range [0,1) can be generated using the following code snippet. The parameter represents the size of the stream:
 
 ```java
 stream = rand1.doubles(5);
 ```
 
-A stream of specified size with values in a specified range can be generated using the following code snippet. The parameters are the size of stream, the lower bound and the upper bound respectively.
+A stream of specified size with values in a specified range can be generated using the following code snippet. The parameters are the size of stream, the lower bound and the upper bound, respectively:
 
 ```java
 stream = rand1.doubles(5, 0, 10);
