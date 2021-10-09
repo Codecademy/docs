@@ -40,7 +40,7 @@ long newseed = (long)2.7182;
 rand2.setSeed(newseed);
 ```
 
-Note that _if two objects of type `Random` are created with the same seed, they will generate the same sequence of numbers, provided they are subject to the same sequence of method calls._
+**Note:** If two objects of type `Random` are created with the same seed, they will generate the same sequence of numbers, provided they are subject to the same sequence of method calls.
 
 ## Generating Individual Values
 
@@ -49,7 +49,7 @@ The following methods can be used to generate the next pseudorandom number from 
 - The `nextDouble()` and `nextFloat()` methods return values in range \[0,1). This means that the range is inclusive of zero (indicated by the square bracket) and exclusive of 1 (indicated by the parantheses).
 - The `nextInt()` and `nextLong()` methods have no such limits.
 
-Note that in the absence of a seed, these methods return different values every time they are called or even for separate instances.
+**Note:** In the absence of a seed, these methods return different values every time they are called or even for separate instances.
 
 ```java
 float f = rand1.nextFloat();
@@ -132,7 +132,7 @@ stream = rand1.doubles(0,10);
 //The parameters are the the lower bound and the upper bound respectively.
 ```
 
-_Note that in the above method, the lower bound is inclusive but the upper bound is exclusive._
+**Note:** In the above method, the lower bound is inclusive but the upper bound is exclusive.
 
 A stream of specified size of values in range [0,1) can be generated using:
 
