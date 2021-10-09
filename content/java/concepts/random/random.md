@@ -22,7 +22,7 @@ The `Random` class can be accessed by importing it as follows:
 import java.util.Random;
 ```
 
-When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or none are passed at all. The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
+When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all. The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
 
 ```java
 //Random number generator object
@@ -85,7 +85,7 @@ System.out.println("Random integer in range [0,25) : " + i);
 The output will be:
 
 ```
-Random integer in range \[0,25) : 16
+Random integer in range [0,25) : 16
 ```
 
 A byte array can also be filled with random elements using the `nextBytes()` method.
