@@ -59,7 +59,7 @@ let total = sum(10, 12);
 console.log(total);
 ```
 
-## Subroutine/Function in Different Languages
+## Links for Subroutines / Functions in Different Languages
 
 - [Functions in C++](https://www.codecademy.com/resources/docs/cpp/functions)
 - [Functions in JavaScript](https://www.codecademy.com/resources/docs/javascript/functions)
