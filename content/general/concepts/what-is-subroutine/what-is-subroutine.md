@@ -33,7 +33,7 @@ call <subroutine_name>
 In modern programming languages , we use functions which is simlar to subroutines it takes some arguments and may return some value after execution. Let's look at the syntax of C++.
 
 ```js
-//declaraing function
+// declaring function
 function function_name(var1,var2,var3,...)
 {
     // function body
