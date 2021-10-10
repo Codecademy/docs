@@ -1,6 +1,6 @@
 ---
 Title: random.choice()
-Description: 'Takes in any iterable (list, tuple, string etc.) and returns an element sampled at random from the iterable.'
+Description: 'Takes in any iterable, and returns an item sampled at random from the iterable.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes any Python iterable as the argument, and returns an element sampled at random from the iterable.
+Takes in any iterable, and returns an item sampled at random from the iterable.
 
 ## Syntax
 
@@ -22,32 +22,31 @@ random.choice(iterable)
 
 ## Example 1
 
-Use `random.choice()` to return an element sampled at random from the list `list_1 = ["a","b","c"]`:
+Use `random.choice()` to return an item sampled at random from the list `shopping_list`:
 
 ```py
 import random
-
-print(random.choice(list_1))
+shopping_list = ["bread","pens","apples","milk"]
+to_buy = random.choice(shopping_list)
+print(to_buy)
 ```
 
 ## Example 2
 
-Use `random.choice()` to return a random character from the string `string_1 = "Coding!"`:
+Use `random.choice()` to return a random character from `my_string`:
 
 ```py
 import random
-
-print(random.choice(string_1))
+my_string = "Coding!"
+print(random.choice(my_string))
 ```
 
 ## Codebyte Example
 
-Use `random.choice()` to return a random element from the tuple `tuple_1`:
+Use `random.choice()` to return a random element from the tuple `to_learn`:
 
 ```codebyte/python
 import random
-
-tuple_1 = ("Apple, "Mango","Banana")
-
-print(random.choice(tuple_1))
+to_learn = ("Python","JavaScript","Go")
+print(random.choice(to_learn))
 ```
