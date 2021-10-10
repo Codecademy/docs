@@ -16,7 +16,7 @@ CatalogContent:
 
 Every programming language has its own syntax for defining and calling a subroutine or function. Often, the  basic format of a subroutine will follow the model below:
 
-Pseudo code for declaraing subroutine:
+Pseudo code for declaring a subroutine:
 
 ```pseudo
 declare <suboroutine_name>
