@@ -56,9 +56,39 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
+
+## Adding elements
+
+There are two different ways to insert elements into the vector.
+
+## push_back()
+ It push the elements into a vector from the back
+ ```cpp
+ std::vector<int> v = {1,2,3,4};
+ v.push_back(5);
+ int n = v.size();
+ cout << "\nThe last element is: " << v[n - 1];
+ ```
+ 
+## insert()
+
+ It inserts new elements before the element at the specified position
+ 
+ ```cpp
+  std::vector<int> v = {1,2,3,4};
+  
+  //insert at beginning
+  v.insert(v.begin(), 0);
+  //insert at end
+  v.insert(v.end(),6);
+  
+  cout << "\nThe first element is: " << v[0];  //outputs 0
+  cout << "\nThe last element is: " << v[5]; //outputs 6
+```
+
 ## Codebyte Example
 
-To create a vector named `grade` with 3 items:
+To create a vector named `grade` with 3 items and then add elements afterwards using push_back() and insert() functions:
 
 ```codebyte/cpp
 #include <iostream>
