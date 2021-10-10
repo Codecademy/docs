@@ -56,9 +56,9 @@ my_string.find("JavaScript")
 
 ## Codebyte Example
 
-Use `find()` method to search for the occurrence of `"fun"` in a slice of the string `my_string`, that is `my_string[7:13]`:
+Use `find()` method to search for the occurrence of `"fun"` in a slice of the string `my_string`, that is `my_string[7:14]`:
 
 ```codebyte/py
 my_string = "Coding is fun!"
-my_string.find("fun",7,13)
+my_string.find("fun",7,14)
 ```
