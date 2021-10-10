@@ -30,7 +30,7 @@ dictionary_name = {key1: value1,  key2: value2,  key3: value3}
 
 Each entry in a dictionary is a key-value pair. Each pair is separated by a comma.
 
-Dictionary keys must be immutable types such as numbers and strings because keys should not change. Keys cannot be lists because lists are mutable, and it will throw a `TypeError`.
+Dictionary keys must be immutable types such as numbers and strings because keys should not change. Keys cannot be lists because lists are mutable, and it will raise a `TypeError`.
 
 Values can be any type, such as strings, numbers, lists, and even other dictionaries.
 
@@ -71,7 +71,7 @@ print(coffee_shop["cold brew"])
 # Output: 3.5
 ```
 
-When you try to access a key that does not exist, it will throw a `KeyError`.
+When you try to access a key that does not exist, it will raise a `KeyError`.
 
 ## Iterating Through a Dictionary
 
