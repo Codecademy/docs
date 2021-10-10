@@ -41,7 +41,7 @@ function function_name(var1,var2,var3,...)
     // return statement is optional
 }
 
-//calling function
+// calling function
 function_name(var1,var2,var3,...)
 ```
 
