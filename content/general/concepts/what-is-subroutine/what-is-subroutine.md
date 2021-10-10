@@ -48,7 +48,7 @@ function_name(var1,var2,var3,...)
 For example :
 
 ```js
-//declaraing
+// declaring
 function sum(var1, var2) {
   let return_value = var1 + var2;
   return return_value;
