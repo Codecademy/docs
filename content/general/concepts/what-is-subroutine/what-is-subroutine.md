@@ -24,7 +24,7 @@ declare <suboroutine_name>
 end Subroutine
 ```
 
-Pseudo code for calling subroutine :
+Pseudo code for calling a subroutine:
 
 ```pseudo
 call <subroutine_name>
