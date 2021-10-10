@@ -30,7 +30,7 @@ Pseudo code for calling subroutine :
 call <subroutine_name>
 ```
 
-In modern programming languages , we use functions which is simlar to subroutines it takes some arguments and may return some value after execution. Let's look at the syntax of C++.
+In modern programming languages we use functions, which are similar to subroutines, that take an argument(s) and may return some value(s) after execution. Let's look at the syntax of Javascript.
 
 ```js
 // declaring function
