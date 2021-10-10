@@ -14,7 +14,7 @@ Subroutine is a set of computer instructions written to perform a specific task.
 
 ## Syntax
 
-Every programming languages has their own syntax of defining and calling subroutine or function. Let's take a look at pseudo codes for subroutines.
+Every programming language has its own syntax for defining and calling a subroutine or function. Often, the  basic format of a subroutine will follow the model below:
 
 Pseudo code for declaraing subroutine:
 
