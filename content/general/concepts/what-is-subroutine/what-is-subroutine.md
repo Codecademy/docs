@@ -45,7 +45,7 @@ function function_name(var1,var2,var3,...)
 function_name(var1,var2,var3,...)
 ```
 
-For example :
+For example:
 
 ```js
 // declaring
