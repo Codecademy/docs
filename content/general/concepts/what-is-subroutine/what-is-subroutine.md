@@ -54,7 +54,7 @@ function sum(var1, var2) {
   return return_value;
 }
 
-//calling
+// calling
 let total = sum(10, 12);
 console.log(total);
 ```
