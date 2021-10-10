@@ -1,6 +1,6 @@
 ---
 Title: 'What is Subroutine?'
-Description: 'Subroutine is a set of computer instructions written to perform a specific tasks.A subroutine is also known as a function or a procedure. Subroutine breaks code the code into smaller section which makes code more reusable and readable. Every programming languages has their own way of defining and calling subroutine or function.'
+Description: 'A subroutine is a set of computer instructions written to perform a specific tasks. It is also known as a function or a procedure. A subroutine packages code for an operation or a set of operations, which makes code more reusable and readable. Every programming languages has their own way of defining and calling a subroutine or function.'
 Subjects:
   - 'Computer Science'
 Tags:
