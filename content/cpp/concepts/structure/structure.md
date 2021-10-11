@@ -114,33 +114,35 @@ struct structure_name1
     member2;
     member3;
     struct structure_name2
-   {
-    member1;
-    member2;
-    member3;
-    .
-    .
-    .
-    memberM;
-    }var1;
+    {
+        member1;
+        member2;
+        member3;
+        .
+        .
+        .
+        memberM;
+
+    }var2;
     .
     .
     .
     memberN;
-}var2;
+}var1;
 ```
 **Example**
 ```cpp
 struct Coder
 {
-   char Name[30];
-   char Username[15];
-   long ID;
-   struct DOB
-   {
-      int Day;
-      char Month[12];
-      int year;
-   }D;
+    char Name[30];
+    char Username[15];
+    long ID;
+    struct DOB
+    {
+        int Day;
+        char Month[12];
+        int Year;
+
+    }D;
 }C;
 ```
