@@ -104,6 +104,13 @@ int main() {
 
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
-  std::cout << grades[2];
+  std::cout << grades[2] << endl;
+
+  grades.push_back(88);
+  std::cout << grades[3];
+
+  grades.insert(v.end(),100);
+  std::cout << grades[4];
+
 }
 ```
