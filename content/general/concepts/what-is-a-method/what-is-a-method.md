@@ -26,7 +26,7 @@ In object oriented programming, methods promotes reusability and keep functional
 Let's say we want to create a class for a character in a game. We want the character to do certain thingss
 
 - introduce themself
-- move given a direction
+- move in given a direction
 
 ```rb
 class Character {
