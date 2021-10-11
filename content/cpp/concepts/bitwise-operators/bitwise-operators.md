@@ -46,12 +46,7 @@ int main() {
 
     return 0;
 }
-```
-
-Output:
-
-```
-100
+// Output: 100
 ```
 
 ### 2. `|` Bitwise OR
@@ -81,12 +76,7 @@ int main() {
 
     return 0;
 }
-```
-
-Output:
-
-```
-101
+// Output: 101
 ```
 
 ### 3. `<<` Bitwise Left Shift
@@ -187,10 +177,5 @@ int main() {
 
   return 0;
 }
-```
-
-Output:
-
-```
-6
+// Output: 6
 ```
