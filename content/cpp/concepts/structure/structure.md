@@ -14,11 +14,12 @@ CatalogContent:
 
 A structure is a user-defined data type in C/C++. It can be used to store together elements of different data types. It can also be called as an array of heterogeneous elements(here elements means members).
 
-`struct` keyword is used to create a structure.
-
 ## Defining Structure
 
-### Syntax
+`struct` keyword is used to create a structure.
+
+Syntax of defining a structure:
+
 ```cpp
 struct structure_name
 {
@@ -32,7 +33,7 @@ struct structure_name
 };
 ```
 
-### Example
+Example:
 
 ```cpp
 struct Coder
@@ -47,6 +48,7 @@ struct Coder
 
 The members cannot be initialized inside the structure defination but it is accepted in C++11 and higher.
 
+An example of declaring and initializing a structure variable:
 ```cpp
 #include <iostream>
 using namespace std;
@@ -65,7 +67,7 @@ int main()
 }
 ```
 
-**Output**
+Output:
 
 ```
 x1 = 2, y1 = 2
@@ -75,6 +77,8 @@ x2 = 0, y2 = 1
 ## Array of Structure
 
 Like other primitive data types, we can create an array of structures. 
+
+An example of array of structure:
 
 ```cpp
 #include <iostream>
@@ -98,7 +102,7 @@ int main()
 }
 ```
 
-**Input**
+Input:
 
 ```
 1 0
@@ -106,7 +110,7 @@ int main()
 1 1
 0 2
 ```
-**Output**
+Output:
 
 ```
 x1=1    y1=0
@@ -121,7 +125,8 @@ The members of a structure can be of any data type including structure type i.e.
 
 A structure variable can also be a member of another structure. This is called nesting of structure.
 
-### Syntax
+Syntax:
+
 ```cpp
 struct structure_name1
 {
@@ -146,7 +151,7 @@ struct structure_name1
 }var1;
 ```
 
-**Example**
+Example of using nested structure:
 
 ```cpp
 struct Coder
