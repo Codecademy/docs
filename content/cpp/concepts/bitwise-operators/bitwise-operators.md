@@ -38,7 +38,7 @@ For example:
     100, which is equal to 4 in base-2 binary system
 ```
 
-```codebyte/cpp
+```cpp
 # include<iostream>
 
 int main() {
@@ -46,6 +46,10 @@ int main() {
 
     return 0;
 }
+```
+Output:
+```
+100
 ```
 
 ### 2. `|` Bitwise OR
@@ -67,7 +71,7 @@ For example:
     101, which is equal to 5 in Decimal System.
 ```
 
-```codebyte/cpp
+```cpp
 # include<iostream>
 
 int main() {
@@ -75,6 +79,11 @@ int main() {
 
     return 0;
 }
+```
+
+Output:
+```
+101
 ```
 
 ### 3. `<<` Bitwise Left Shift
@@ -167,7 +176,7 @@ The exclusive or (XOR) operator returns 1 if both the operands are different and
       0110 which is 6 in base-2 binary system.
 ```
 
-```codebyte/cpp
+```cpp
 #include<iostream>
 
 int main() {
@@ -175,4 +184,8 @@ int main() {
 
   return 0;
 }
+```
+Output:
+```
+6
 ```
