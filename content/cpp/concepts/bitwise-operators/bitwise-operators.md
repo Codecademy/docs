@@ -47,7 +47,9 @@ int main() {
     return 0;
 }
 ```
+
 Output:
+
 ```
 100
 ```
@@ -68,7 +70,7 @@ For example:
     100
     101
     ___
-    101, which is equal to 5 in Decimal System.
+    101, which is equal to 5 in base-2 binary system.
 ```
 
 ```cpp
@@ -82,6 +84,7 @@ int main() {
 ```
 
 Output:
+
 ```
 101
 ```
@@ -185,7 +188,9 @@ int main() {
   return 0;
 }
 ```
+
 Output:
+
 ```
 6
 ```
