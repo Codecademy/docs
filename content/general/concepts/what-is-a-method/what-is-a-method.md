@@ -13,7 +13,7 @@ Tags:
 CatalogContent: 
     - 'learn-phython-3'
     - 'learn-c++'
-    - 'learn-java
+    - 'learn-java'
     - 'paths/computer-science/'
 ---
 
