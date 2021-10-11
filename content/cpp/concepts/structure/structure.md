@@ -105,7 +105,7 @@ x4=0    y4=2
 ```
 
 ### Nested Structure
-The members of a structure can of any data type including structure type i.e. we can include a structure within another structure.
+The members of a structure can be of any data type including structure type i.e. we can include a structure within another structure.
 A structure variable can also be a member of another structure. This is called nesting of structure.
 ```cpp
 struct structure_name1
