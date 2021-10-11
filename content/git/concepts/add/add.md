@@ -1,8 +1,10 @@
-### Title: Git add
+### Title: "Git add"
 
-### Subject: Git
+### Subject: 
+    -"Git"
 
-### Tags: Git
+### Tags: 
+    -"Git"
 
 "git add" command is used to push a file from your working tree to the staging area(where all the files will be saved with the next commit).
 
