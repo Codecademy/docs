@@ -25,7 +25,7 @@ If you assign a value to an already existing dictionary key, it does not add the
 The syntax of a dictionary is as follows:
 
 ```pseudo
-dictionary_name = {key1: value1,  key2: value2,  key3: value3}
+dictionary_name = { key1: value1,  key2: value2,  key3: value3 }
 ```
 
 Each entry in a dictionary is a key-value pair. Each pair is separated by a comma.
@@ -51,7 +51,7 @@ diner = dict()
 A dictionary with entries:
 
 ```py
-coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
 ```
 
 The three key-value pairs in the `coffee_shop` dictionary:
@@ -65,7 +65,7 @@ The three key-value pairs in the `coffee_shop` dictionary:
 The values in a dictionary can be accessed by passing the associated key name:
 
 ```py
-coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
 
 print(coffee_shop["cold brew"])
 # Output: 3.5
@@ -80,26 +80,22 @@ There are several ways to iterate through a dictionary depending on which data y
 The following codebyte consists of four `for` loops that iterate through the `coffee_shop` dictionary:
 
 ```codebyte/py
-coffee_shop = {"cold brew": 3.50, "latte": 4.25, "cappucino": 3.99}
+coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
 
-# Access keys
 for key in coffee_shop.keys():
     print(key)
 
-# Access values
 for value in coffee_shop.values():
     print(value)
 
-# Key-value as an item, formatted as a tuple
 for item in coffee_shop.items():
     print(item)
 
-# Individual key and value:
 for key, value in coffee_shop.items():
     print(key, value)
 ```
 
-The `for` loops access and print each key, value, key-value as a tuple, and individual key-values in `coffee_shop`, respectively.
+The `for` loops access and print each key, value, key-value tuple, and individual key-values in `coffee_shop`, respectively.
 
 ## Adding an Entry
 
