@@ -42,6 +42,7 @@ struct Coder
 ```
 
 ### Declaring and Initializing Structure Variable
+The members cannot be initialized inside the structure defination but it is accepted in C++11 and higher.
 ```cpp
 #include <iostream>
 using namespace std;
@@ -66,6 +67,7 @@ x2 = 0, y2 = 1
 ```
 
 ### Array of Structure
+Like other primitive data types, we can create an array of structures. 
 ```cpp
 #include <iostream>
 using namespace std;
@@ -100,4 +102,45 @@ x1=1    y1=0
 x2=1    y2=2
 x3=1    y3=1
 x4=0    y4=2
+```
+
+### Nested Structure
+The members of a structure can of any data type including structure type i.e. we can include a structure within another structure.
+A structure variable can also be a member of another structure. This is called nesting of structure.
+```cpp
+struct structure_name1
+{
+    member1;
+    member2;
+    member3;
+    struct structure_name2
+   {
+    member1;
+    member2;
+    member3;
+    .
+    .
+    .
+    memberM;
+    }var1;
+    .
+    .
+    .
+    memberN;
+}var2;
+```
+**Example**
+```cpp
+struct Coder
+{
+   char Name[30];
+   char Username[15];
+   long ID;
+   struct DOB
+   {
+      int Day;
+      char Month[12];
+      int year;
+   }D;
+}C;
 ```
