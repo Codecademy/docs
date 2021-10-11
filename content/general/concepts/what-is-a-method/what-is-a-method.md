@@ -1,20 +1,20 @@
 ---
 Title: 'What is a Method?'
 Description: 'A method is a function within a class that can be used with an instance of a class. You can think of a class in two parts, the data and the behavior. The method is the behavior part of a class.'
-Subjects: 
-    - 'Computer Science'
-    - 'Object Oriented Programing'
-Tags: 
-    - 'Classes'
-    - 'Objects'
-    - 'Methods'
-    - 'OOP'
-    - 'Functions'
-CatalogContent: 
-    - 'learn-phython-3'
-    - 'learn-c++'
-    - 'learn-java'
-    - 'paths/computer-science/'
+Subjects:
+  - 'Computer Science'
+  - 'Object Oriented Programing'
+Tags:
+  - 'Classes'
+  - 'Objects'
+  - 'Methods'
+  - 'OOP'
+  - 'Functions'
+CatalogContent:
+  - 'learn-phython-3'
+  - 'learn-c++'
+  - 'learn-java'
+  - 'paths/computer-science/'
 ---
 
 A method is a function within a class that can be used with an instance of that class. You can think of a class in two parts: the data and the behaviors. Methods are the behavior part of the class. When you create an object from a class, you can use that object to call the methods that are associated with that class. Methods can accept parameters as arguments and produce a result by using these parameters.
