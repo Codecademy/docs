@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Game Development'
 Tags:
-  - 'Arrays'
   - 'Structure'
 CatalogContent:
   - 'learn-c-plus-plus'
@@ -17,6 +16,8 @@ A structure is a user-defined data type in C/C++. It can be used to store togeth
 ## Defining Structure
 
 `struct` keyword is used to create a structure.
+
+Remember to end the declaration with a semicolon `;`.
 
 Syntax of defining a structure:
 
