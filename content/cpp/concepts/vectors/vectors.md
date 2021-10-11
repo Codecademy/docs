@@ -62,7 +62,7 @@ There are two different ways to insert elements into the vector.
 
 ## push_back()
 
- It push the elements into a vector from the back
+It push the elements into a vector from the back
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
@@ -73,9 +73,9 @@ cout << "\nThe last element is: " << v[n - 1];
 
 ## insert()
 
- It inserts new elements before the element at the specified position
+It inserts new elements before the element at the specified position
 
- ```cpp
+```cpp
 std::vector<int> v = {1,2,3,4};
 
 //insert at beginning
