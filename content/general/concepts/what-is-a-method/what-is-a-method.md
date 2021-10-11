@@ -17,13 +17,13 @@ CatalogContent:
     - 'paths/computer-science/'
 ---
 
-A method is a function within a class that can be used with an instance of that class. You can think of a class in two parts: the data and the behaviors. Methods are the behavior part of the class. When you create an object from a class, you can use that object to call the methods that are associated with that class. Methods can accept parameters as arguments and produce a result by using these parameters. 
+A method is a function within a class that can be used with an instance of that class. You can think of a class in two parts: the data and the behaviors. Methods are the behavior part of the class. When you create an object from a class, you can use that object to call the methods that are associated with that class. Methods can accept parameters as arguments and produce a result by using these parameters.
 
 In object oriented programming, methods promotes reusability and keep functionality encapsulated inside an object.
 
 ## Example
 
-Let's say we want to create a class for a character in a game. We want the character to do certain thingss
+Let's say we want to create a class for a character in a game. We want the character to do certain things.
 
 - introduce themself
 - move in given a direction
@@ -40,4 +40,4 @@ class Character {
 }
 ```
 
-Now, when we create a character object for our game, we can get that character to introduce themself or move by using the methods on that character.  
+Now, when we create a character object for our game, we can get that character to introduce themself or move by using the methods on that character object.
