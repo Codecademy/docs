@@ -20,13 +20,13 @@ This process of converting the source code into machine code is known as compila
 ### Compile
 
 ```shell
-$ gcc –Wall hello.c
+gcc –Wall hello.c
 ```
 
 This compiles a file named **hello.c** and the output file will be named **a.out**.
 
 ```shell
-$ gcc –Wall hello.c –o hello
+gcc –Wall hello.c –o hello
 ```
 
 This compiles a file named **hello.c** and specifies the output file name as **hello**. The option `-o` is used to name the output file.
@@ -34,7 +34,7 @@ This compiles a file named **hello.c** and specifies the output file name as **h
 ### Execute
 
 ```shell
-$ ./hello
+./hello
 ```
 
 The executable file **hello** is loaded from the disk to memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
