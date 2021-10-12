@@ -62,4 +62,3 @@ Use `index()` method to search for the occurrence of `"code"` in a slice of the 
 my_string = "Learning to code is fun!"
 my_string.index("code",8,16)
 ```
-
