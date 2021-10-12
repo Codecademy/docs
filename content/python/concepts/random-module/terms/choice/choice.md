@@ -1,6 +1,6 @@
 ---
-Title: random.choice()
-Description: 'Takes in any iterable, and returns an item sampled at random from the iterable.'
+Title: '.choice()'
+Description: 'Takes in any iterable, and returns an item sampled at random from that iterable.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes in any iterable, and returns an item sampled at random from the iterable.
+Takes in any iterable, and returns an item sampled at random from that iterable.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ Use `random.choice()` to return an item sampled at random from the list `shoppin
 
 ```py
 import random
-shopping_list = ["bread","pens","apples","milk"]
+shopping_list = ["bread", "pens", "apples", "milk"]
 to_buy = random.choice(shopping_list)
 print(to_buy)
 ```
@@ -47,6 +47,6 @@ Use `random.choice()` to return a random element from the tuple `to_learn`:
 
 ```codebyte/python
 import random
-to_learn = ("Python","JavaScript","Go")
+to_learn = ("Python", "JavaScript", "Go")
 print(random.choice(to_learn))
 ```
