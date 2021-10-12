@@ -81,7 +81,7 @@ class Person{
   void set_name(string newName){
     name = newName;
   }
-  
+
   void get_name() {
     return name;
   }
@@ -95,7 +95,7 @@ int main() {
 
   // Prints "Robert"
   std::cout << robert.get_name();
-  
+
   return 0;
 }
 ```

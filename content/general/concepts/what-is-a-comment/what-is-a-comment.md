@@ -1,6 +1,6 @@
 ---
-Title: 'What is a Comment?'
-Description: 'A comment is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for ourselves or other developers to understand in the future, and they are generally ignored by compilers and interpreters. Comments are typically formatted as either: - Single-line comments, which start with a comment delimiter and continue until the end of the line. - Multi-line comments, which start with a start delimiter and end with an end delimiter and can span multiple lines. Some programming languages support only one type of comment. For example, Python comments are single-line comments: They start with # and continue to the end of the line. Other languages employ both single-line and multi-line comments. For example, C and C++ have single-line comments that start with // and multi-line comments between / and / that can span multiple lines. How best to make use of comments is subject to dispute. Here are some common ways comments are used:'
+Title: 'Comment'
+Description: 'A comment is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for ourselves or other developers to understand in the future, and they are generally ignored by compilers and interpreters.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'

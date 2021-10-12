@@ -1,6 +1,6 @@
 ---
-Title: 'What is a String?'
-Description: 'In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as: - Letters - Numbers - Symbols - Whitespace (spaces, tabs, new lines) It is usually contained within a pair of single quotes or "double quotes". A string can be thought of as a list of characters. Like any other list, each character in a string has an index.'
+Title: 'String'
+Description: 'In computer science, sequences of characters are referred to as strings. Strings can be any length and can include any character such as letters, numbers, symbols, whitespace (spaces, tabs, new lines). It is usually contained within a pair of single quotes or "double quotes". A string can be thought of as a list of characters. Like any other list, each character in a string has an index.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
