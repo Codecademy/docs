@@ -101,7 +101,7 @@ For example:
 #include<iostream>
 
 int main() {
-  std::cout << (4 << 1) << std::endl;
+  std::cout << (4 << 1) << std::endl; // Output: 1000 = 8
   std::cout << (4 << 2) << std::endl;
 
   return 0;
