@@ -1,6 +1,6 @@
 ---
 Title: 'Bitwise-Operators'
-Description: 'C++ supports different types of bitwise operators that can perform operations on integers on bit-level.'
+Description: 'C++ supports different types of bitwise operators that can perform operations on integers at bit-level.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ supports different types of bitwise operators that can perform operations on integers on bit-level. Supported types of bitwise operators include:
+C++ supports different types of bitwise operators that can perform operations on integers at bit-level. Supported types of bitwise operators include:
 
 - `&` Bitwise AND
 - `|` Bitwise OR
@@ -35,7 +35,7 @@ For example:
     100
     101
     ___
-    100, which is equal to 4 in base-10 binary system
+    100, which is equal to 4 in the base-10 decimal system
 ```
 
 ```cpp
@@ -46,7 +46,7 @@ int main() {
 
     return 0;
 }
-// Output: 4 = 100 (Base-2 binary system)
+// Output: 100 (Base-2 binary system) = 4
 ```
 
 ### 2. `|` Bitwise OR
@@ -65,7 +65,7 @@ For example:
     100
     101
     ___
-    101, which is equal to 5 in base-10 binary system.
+    101, which is equal to 5 in the base-10 decimal system.
 ```
 
 ```cpp
@@ -76,7 +76,7 @@ int main() {
 
     return 0;
 }
-// Output: 5 = 101 (Base-2 binary system)
+// Output: 101 (Base-2 binary system) = 5
 ```
 
 ### 3. `<<` Bitwise Left Shift
@@ -91,12 +91,12 @@ For example:
 4 << 1
 100 << 1
 100 + 0
-1000 which is equal to 8 in base-10 binary system
+1000 which is equal to 8 in the base-10 decimal system
 
 4 << 2
 100 << 2
 100 + 00
-10000 which is equal to 16 in base-10 binary system
+10000 which is equal to 16 in the base-10 decimal system
 ```
 
 ```cpp
@@ -121,16 +121,18 @@ For example:
 
 4 >> 1
 0 + 100 - 0
+```
 
-Here 0 was added to the left side of 4 (100) and then the rightmost bit was removed, which yields
-10 which is equal to 2 in base-10 binary system
+In the example above, 0 is added to the left side of 4 (100 in base-2). Then, the rightmost bit is removed, which yields
+10 (base-2) or 2 (base-10).
 
+```
 4 << 2
 00 + 100 + 00
-
-Here 00 was added to the left side of 4(100) and then the two rightmost bits were removed, which yields
-1 which is equal to 1 in base-10 binary system
 ```
+
+In the example above, 00 is added to the left side of 4 (100 in base-2). Then, the two rightmost bits are removed, which yields
+1 (base-2) or 1 (base-10).
 
 ```cpp
 #include<iostream>
@@ -145,7 +147,7 @@ int main() {
 
 ### 5. `~` Bitwise Complement
 
-The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0
+The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0.
 
 For example:
 
@@ -159,17 +161,15 @@ unsigned(5) = 00000000000000000000000000000101 in base-2 binary system
 
 ~5 = 11111111111111111111111111111010 in base-2 binary system
   => 4294967290 in base-10 binary system
-
-Here we would get a different result because the first bit of a signed integer is used to determine whether it's positive or negative.
 ```
+
+The first bit of a signed integer is used to determine whether the result is positive or negative. Therefore, a signed 5 and an unsigned 5 yield different results.
 
 ```cpp
 #include<iostream>
 
 int main() {
   std::cout << (~(int)5) << std::endl; // Output: 1111111111111010 = -6
-  // Complement of a signed integer 5 would yield -6 as a result
-
   std::cout << (~(unsigned int)5) << std::endl; // Output: 11111111111111111111111111111010 = 4294967290
 
   return 0;
