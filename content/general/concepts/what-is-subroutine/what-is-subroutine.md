@@ -37,9 +37,9 @@ A function, `func_name`, is declared and takes in any number of arguments (`var1
 ```js
 function func_name(var1, var2, var3,...) {
     // Function body
-    
-    return return_value
+
     // Return statement is optional
+    return return_value
 }
 ```
 
