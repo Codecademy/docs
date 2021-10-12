@@ -11,9 +11,39 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Encapsulation is a way of organizing data members and functions by wrapping them together in a single class. By bundling them together in a single unit, the code is cleaner, more readable, and more maintainable.
+Encapsulation is a way of organizing data members (attributes) and function members (methods) by wrapping them together in a single class. By bundling them together in a single unit, the code is cleaner, more readable, and more maintainable.
 
-The data can only be accessed by member functions that are wrapped in the class. Encapsulation led to the important OOP concept of data hiding or abstraction.
+```pseudo
+class Example {
+  // Some attributes
+  // Some methods
+}
+```
+
+Here's a `Rectangle` class with `length` and `width` attributes and a `.Area()` method:
+
+```cpp
+class Rectangle {
+  public:
+    int length;
+    int width;
+
+    int Area() {
+      return length * width;
+    }
+};
+```
+
+## Data Hiding
+
+Encapsulation led to the important OOP concept of data hiding or abstraction.
+
+Access specifiers are C++ keywords that determine the scope of class components:
+
+- `public`: Public class members are accessible from anywhere in the program.
+- `private`: Private class members are only accessible from inside the class.
+
+Data hiding is achieved by declaring class attributes as `private`:
 
 ```cpp
 #include <iostream>
