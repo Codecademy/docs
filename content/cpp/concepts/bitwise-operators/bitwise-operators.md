@@ -153,7 +153,7 @@ int main() {
 }
 ```
 
-Here we would get a different result because first bit of a signed integer is used to determine whether it's positive or negative.
+Here we would get a different result because the first bit of a signed integer is used to determine whether it's positive or negative.
 
 ### 6. `^` Bitwise XOR
 
