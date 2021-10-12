@@ -1,6 +1,6 @@
 ---
 Title: 'Compiling'
-Description: 'Compiling is the process that converts code written by a programmer (source code) into a language that the computer understands (machine code).'
+Description: 'A compiler translates the C program (source code) into machine language (machine code) which it stores on the disk as a file.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -11,9 +11,33 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Compiling means converting code written by a programmer (source code) in languages such as C and C++, into machine understandable code (machine code).
+A compiler translates the C program (source code) into machine language (machine code) which it stores on the disk as a file.
 
-Compiling is carried out by a compiler. The process of converting source code into machine code is known as compilation.
+This process of converting the source code into machine code is known as compilation.
+
+## Commands
+
+### Compile
+
+```shell
+$ gcc –Wall hello.c
+```
+
+This compiles a file named **hello.c** and the output file will be named **a.out**.
+
+```shell
+$ gcc –Wall hello.c –o hello
+```
+
+This compiles a file named **hello.c** and specifies the output file name as **hello**. The option `-o` is used to name the output file.
+
+### Execute
+
+```shell
+$ ./hello
+```
+
+The executable file **hello** is loaded from the disk to memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
 
 ## Stages of Compiling a C Program
 
@@ -23,7 +47,7 @@ There are 4 stages in the process of compilation of a C Program.
 
 Preprocessing is the first stage in the process of compilation. In this stage:
 
-- Preprocessor commands begin with `#` are interpreted.
+- Preprocessor commands that begin with `#` are interpreted.
 - Comments are removed from the source code.
 - Macros are expanded.
 
@@ -37,4 +61,8 @@ In this stage, an assembler is used to translate the assembly code into object c
 
 ### 4. Linking
 
-Linking is the final stage in the process of compilation. In this stage, all the object code from multiple modules is merged together so that it can finally be executed by the processor.
+Linking is the final stage in the process of compilation. In this stage, all the object code from multiple modules is merged (linked) together and creates an executable image which is also saved on the disk, usually as a file with the file name without any extension (e.g. **hello**), so that it can finally be executed by the processor.
+
+![xkcd comic](https://imgs.xkcd.com/comics/compiling.png)
+
+([xkcd](https://xkcd.com/303/): Compiling)
