@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Server-side rendering (SSR) is rendering the content on the server and presenting it to the client when a request is made. 
+Server-side rendering (SSR) is rendering the content on the server and presenting it to the client when a request is made.
 
 When a request is made in client-side rendering (opposite of server-side rendering), the server sends separate files and content that is rendered in the browser. JavaScript works both on the server and browser, so it is possible for developers to render the content of an application where they want.
 
