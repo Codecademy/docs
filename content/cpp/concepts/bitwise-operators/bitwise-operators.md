@@ -35,7 +35,7 @@ For example:
     100
     101
     ___
-    100, which is equal to 4 in base-2 binary system
+    100, which is equal to 4 in base-10 binary system
 ```
 
 ```cpp
@@ -65,7 +65,7 @@ For example:
     100
     101
     ___
-    101, which is equal to 5 in base-2 binary system.
+    101, which is equal to 5 in base-10 binary system.
 ```
 
 ```cpp
@@ -89,15 +89,17 @@ For example:
 4 = 100 (Base-2 binary system)
 
 4 << 1
+100 << 1
 100 + 0
-1000 which is equal to 8 in base-2 binary system
+1000 which is equal to 8 in base-10 binary system
 
 4 << 2
+100 << 2
 100 + 00
-10000 which is equal to 16 in base-2 binary system
+10000 which is equal to 16 in base-10 binary system
 ```
 
-```codebyte/cpp
+```cpp
 #include<iostream>
 
 int main() {
@@ -110,7 +112,8 @@ int main() {
 
 ### 4. `>>` Bitwise Right Shift
 
-The right shift operator shifts all the bits towards right side by the number of bits specified and discards theh right most bits.
+The right shift operator shifts all the bits towards the right side by the number of bits specified and discards the right most bits.
+
 
 For example:
 
@@ -119,19 +122,23 @@ For example:
 
 4 >> 1
 0 + 100 - 0
-10 which is equal to 2 in base-2 binary system
+
+Here 0 was added to the left side of 4 (100) and then the rightmost bit was removed, which yields
+10 which is equal to 2 in base-10 binary system
 
 4 << 2
 00 + 100 + 00
-1 which is equal to 1 in base-2 binary system
+
+Here 00 was added to the left side of 4(100) and then the two rightmost bits were removed, which yields
+1 which is equal to 1 in base-10 binary system
 ```
 
-```codebyte/cpp
+```cpp
 #include<iostream>
 
 int main() {
-  std::cout << (4 >> 1) << std::endl;
-  std::cout << (4 >> 2) << std::endl;
+  std::cout << (4 >> 1) << std::endl; // Output: 10 = 2
+  std::cout << (4 >> 2) << std::endl; // Output: 1 = 1
 
   return 0;
 }
@@ -141,19 +148,34 @@ int main() {
 
 The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0
 
-```codebyte/cpp
+For example:
+
+```
+5 = 0000000000000101 in Base-2 binary system
+
+~5 = 1111111111111010 in base-2 binary system
+  => -6 in base-10 binary system.
+
+unsigned(5) = 00000000000000000000000000000101 in base-2 binary system
+
+~5 = 11111111111111111111111111111010 in base-2 binary system
+  => 4294967290 in base-10 binary system
+
+Here we would get a different result because the first bit of a signed integer is used to determine whether it's positive or negative.
+```
+
+```cpp
 #include<iostream>
 
 int main() {
-  std::cout << (~(int)5) << std::endl; // Complement of a signed integer 5 would yield -6 as a result
+  std::cout << (~(int)5) << std::endl; // Output: 1111111111111010 = -6
+  // Complement of a signed integer 5 would yield -6 as a result
 
-  std::cout << (~(unsigned int)5) << std::endl; // Complement of an unsigned integer 5 would yield 4294967290 as a result
+  std::cout << (~(unsigned int)5) << std::endl; // Output: 11111111111111111111111111111010 = 4294967290
 
   return 0;
 }
 ```
-
-Here we would get a different result because the first bit of a signed integer is used to determine whether it's positive or negative.
 
 ### 6. `^` Bitwise XOR
 
@@ -166,7 +188,7 @@ The exclusive or (XOR) operator returns 1 if both the operands are different and
       1100
       1010
       ____
-      0110 which is 6 in base-2 binary system.
+      0110 which is 6 in base-10 binary system.
 ```
 
 ```cpp
