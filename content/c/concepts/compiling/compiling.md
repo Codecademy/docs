@@ -15,30 +15,6 @@ A compiler translates the C program (source code) into machine language (machine
 
 This process of converting the source code into machine code is known as compilation.
 
-## Commands
-
-### Compile
-
-```shell
-$ gcc –Wall hello.c
-```
-
-This compiles a file named **hello.c** and the output file will be named **a.out**.
-
-```shell
-$ gcc –Wall hello.c –o hello
-```
-
-This compiles a file named **hello.c** and specifies the output file name as **hello**. The option `-o` is used to name the output file.
-
-### Execute
-
-```shell
-$ ./hello
-```
-
-The executable file **hello** is loaded from the disk to memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
-
 ## Stages of Compiling a C Program
 
 There are 4 stages in the process of compilation of a C Program.
@@ -62,6 +38,28 @@ In this stage, an assembler is used to translate the assembly code into object c
 ### 4. Linking
 
 Linking is the final stage in the process of compilation. In this stage, all the object code from multiple modules is merged (linked) together and creates an executable image which is also saved on the disk, usually as a file with the file name without any extension (e.g. **hello**), so that it can finally be executed by the processor.
+
+## Compile Command
+
+```shell
+gcc –Wall hello.c
+```
+
+This compiles a file named **hello.c** and the output file will be named **a.out**.
+
+```shell
+gcc –Wall hello.c –o hello
+```
+
+This compiles a file named **hello.c** and specifies the output file name as **hello**. The option `-o` is used to name the output file.
+
+## Execute Command
+
+```shell
+./hello
+```
+
+The executable file **hello** is loaded from the disk to memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
 
 ![xkcd comic](https://imgs.xkcd.com/comics/compiling.png)
 
