@@ -76,7 +76,7 @@ int main() {
 
     return 0;
 }
-// Output: 101
+// Output: 5 = 101 (Base-2 binary system)
 ```
 
 ### 3. `<<` Bitwise Left Shift
