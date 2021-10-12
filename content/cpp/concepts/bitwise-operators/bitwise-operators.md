@@ -114,7 +114,6 @@ int main() {
 
 The right shift operator shifts all the bits towards the right side by the number of bits specified and discards the right most bits.
 
-
 For example:
 
 ```
