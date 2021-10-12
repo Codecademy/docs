@@ -76,4 +76,8 @@ int main() {
 }
 ```
 
-In the example above, data member `num` and functions `setNum()` and `getNum()` are wrapped together into one class called `Encapsulation`. `num` can only be accessed by either the `setNum()` or `getNum()` function. `setNum()` is used to set the value of `num` and `getNum()` returns the value of `num`.
+In the example above, the `num` attribute and `.setNum()` and `.getNum()` methods are wrapped together into one class called `Encapsulation`. 
+
+- `num` can only be accessed by either the `.setNum()` or `.getNum()` method.
+- `.setNum()` is used to set the value of `num`.
+- `.getNum()` is used to return the value of `num`.
