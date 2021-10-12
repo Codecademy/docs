@@ -50,7 +50,7 @@ int main() {
   } // The ptr2 reaches end of scope, reference count is 1 so resource not freed
   
   std::cout<< *ptr << "\n";
-} // The ptr reaches end of scope, reference count is 0 so resrouce is freed
+} // The ptr reaches end of scope, reference count is 0 so resource is freed
 ```
 
 ## Exception Safety
