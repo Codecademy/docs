@@ -46,7 +46,7 @@ int main() {
 
     return 0;
 }
-// Output: 100
+// Output: 4 = 100 (Base-2 binary system)
 ```
 
 ### 2. `|` Bitwise OR
