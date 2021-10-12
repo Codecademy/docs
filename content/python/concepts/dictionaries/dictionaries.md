@@ -110,7 +110,7 @@ my_dict[new_key] = new_value
 Like a list comprehension, a dictionary comprehension is a pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
 
 ```py
-my_dict_comp = { expression for key, value in dictionary if condition }
+new_dict = { expression for key, value in old_dict.items() if condition }
 ```
 
 The `if condition` is optional, but is a great tool for filtering data. For example, given a dictionary with a person's name and age, make a new dictionary that only contains people with an age under 25:
