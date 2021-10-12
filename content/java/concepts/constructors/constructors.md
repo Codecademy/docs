@@ -11,22 +11,26 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Constructors are like normal methods within the class but are used to initialize the object of the class. Every time the `new` keyword is used to create an object, at least one constructor is called.
+Constructors are like normal methods within the class but are used to initialize the object of the class.
+
+In Java, every time the `new` keyword is used to create an object, at least one constructor is called.
 
 ## Types of Constructors
 
-1. Default Constructor: These constructors do not accept any parameters.
-2. Parameterized constructor: These constructors accept a specific number of parameters.
+- Default constructor: These constructors do not accept any parameters.
+- Parameterized constructor: These constructors accept a specific number of parameters.
 
-## Rules for Creating Constructors
+## Creating Constructors
 
-- Constructor always has same name as class name.
-- You cannot declare constructor as abstract, static, final and synchronized.
+Here are some rules for creating constructors:
+
+- Constructors always have same name as their class name.
+- Constructors cannot be declared as `abstract`, `static`, `final`, and `synchronized`.
 - Construtors do not have any explicit return types.
 
-## Creating Default Constructor
+### Creating a Default Constructor
 
-Here, class `Tree` has a default constructor named `Tree()` with no parameters, when the instance of the class is created at the `main()` function the constructor is called.
+Here, the `Tree` class has a default constructor named `Tree()` with no parameters. When the instance of the class is created in `main()`, the constructor is called.
 
 ```java
 class Tree {
@@ -43,9 +47,9 @@ class Tree {
 // Output: Tree is created
 ```
 
-## Creating Parameterized Constructor
+### Creating a Parameterized Constructor
 
-Here the class `Employee` has a parameterized constructor which takes parameters `int i` and `string n` respectively these values are passed while creating and instance of class from `main()` function.
+Here, the `Employee` class has a parameterized constructor which takes parameters `int i` and `string n` respectively. These values are passed while creating an instance of class in `main()`.
 
 ```java
 class Employee {
