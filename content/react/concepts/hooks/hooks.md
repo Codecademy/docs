@@ -18,8 +18,8 @@ In React, hooks are functions that give functional components class-like abiliti
 
 There are a few rules when using hooks! Specifically:
 
-- Only call hooks at the top level of React functions. If you do it in a loop, condition, or nested function, the hooks may not render in the same order every time.
-- Only call hooks from React functions and not regular Javascript functions.
+- Only call hooks at the top level of React functions. If you do it in a loop, condition, or nested function, they may not render in the same order every time.
+- Only call hooks from React functions and not regular JavaScript functions.
 
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
 
