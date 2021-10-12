@@ -22,13 +22,15 @@ C++ supports different types of bitwise operators that can perform operations on
 - `~` Bitwise Complement
 - `^` Bitwise XOR
 
-### 1. `&` Bitwise AND
+## `&` Bitwise AND
 
-The bitwise AND operator, `&`, returns 1 if both the bits are 1 (1, 1). Else ((1, 0), (0, 1), (0, 0)), it returns 0.
+The bitwise AND operator, `&`:
+- Returns 1 if both the bits are 1 (1, 1). 
+- Else ((1, 0), (0, 1), (0, 0)), it returns 0.
 
 For example:
 
-```
+```pseudo
 4 = 100 (Base-2 binary system)
 5 = 101 (Base-2 binary system)
 
@@ -39,17 +41,17 @@ For example:
 ```
 
 ```cpp
-# include<iostream>
+#include <iostream>
 
 int main() {
-    std::cout << (4 & 5) << std::endl;
+  std::cout << (4 & 5) << "\n";
 
-    return 0;
+  return 0;
 }
 // Output: 100 (Base-2 binary system) = 4
 ```
 
-### 2. `|` Bitwise OR
+## `|` Bitwise OR
 
 The Bitwise OR operator returns either of the following:
 
@@ -58,7 +60,7 @@ The Bitwise OR operator returns either of the following:
 
 For example:
 
-```
+```pseudo
 4 = 100 (Base-2 binary system)
 5 = 101 (Base-2 binary system)
 
@@ -69,23 +71,23 @@ For example:
 ```
 
 ```cpp
-# include<iostream>
+#include <iostream>
 
 int main() {
-    std::cout << (4 | 5) << std::endl;
+  std::cout << (4 | 5) << std::endl;
 
-    return 0;
+  return 0;
 }
 // Output: 101 (Base-2 binary system) = 5
 ```
 
-### 3. `<<` Bitwise Left Shift
+## `<<` Bitwise Left Shift
 
 The left shift operator shifts all the bits towards the left side according to the number of bits specified and adds trailing 0's to the right side.
 
 For example:
 
-```
+```pseudo
 4 = 100 (Base-2 binary system)
 
 4 << 1
@@ -100,23 +102,23 @@ For example:
 ```
 
 ```cpp
-#include<iostream>
+#include <iostream>
 
 int main() {
-  std::cout << (4 << 1) << std::endl; // Output: 1000 = 8
-  std::cout << (4 << 2) << std::endl; // Output: 10000 = 16
+  std::cout << (4 << 1) << "\n"; // Output: 1000 = 8
+  std::cout << (4 << 2) << "\n"; // Output: 10000 = 16
 
   return 0;
 }
 ```
 
-### 4. `>>` Bitwise Right Shift
+## `>>` Bitwise Right Shift
 
 The right shift operator shifts all the bits towards the right side by the number of bits specified and discards the right most bits.
 
 For example:
 
-```
+```pseudo
 4 = 100 (Base-2 binary system)
 
 4 >> 1
@@ -126,7 +128,7 @@ For example:
 In the example above, 0 is added to the left side of 4 (100 in base-2). Then, the rightmost bit is removed, which yields
 10 (base-2) or 2 (base-10).
 
-```
+```pseudo
 4 << 2
 00 + 100 + 00
 ```
@@ -135,24 +137,24 @@ In the example above, 00 is added to the left side of 4 (100 in base-2). Then, t
 1 (base-2) or 1 (base-10).
 
 ```cpp
-#include<iostream>
+#include <iostream>
 
 int main() {
-  std::cout << (4 >> 1) << std::endl; // Output: 10 = 2
-  std::cout << (4 >> 2) << std::endl; // Output: 1 = 1
+  std::cout << (4 >> 1) << "\n"; // Output: 10 = 2
+  std::cout << (4 >> 2) << "\n"; // Output: 1 = 1
 
   return 0;
 }
 ```
 
-### 5. `~` Bitwise Complement
+## `~` Bitwise Complement
 
 The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0.
 
 For example:
 
-```
-5 = 0000000000000101 in Base-2 binary system
+```pseudo
+5 = 0000000000000101 in base-2 binary system
 
 ~5 = 1111111111111010 in base-2 binary system
   => -6 in base-10 binary system.
@@ -166,21 +168,21 @@ unsigned(5) = 00000000000000000000000000000101 in base-2 binary system
 The first bit of a signed integer is used to determine whether the result is positive or negative. Therefore, a signed 5 and an unsigned 5 yield different results.
 
 ```cpp
-#include<iostream>
+#include <iostream>
 
 int main() {
-  std::cout << (~(int)5) << std::endl; // Output: 1111111111111010 = -6
-  std::cout << (~(unsigned int)5) << std::endl; // Output: 11111111111111111111111111111010 = 4294967290
+  std::cout << (~(int)5) << "\n"; // Output: 1111111111111010 = -6
+  std::cout << (~(unsigned int)5) << "\n"; // Output: 11111111111111111111111111111010 = 4294967290
 
   return 0;
 }
 ```
 
-### 6. `^` Bitwise XOR
+## `^` Bitwise XOR
 
 The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
-```
+```pseudo
 12 = 01100(Base-2 binary system)
 10 = 01010(Base-2 binary system)
 
@@ -191,10 +193,10 @@ The exclusive or (XOR) operator returns 1 if both the operands are different and
 ```
 
 ```cpp
-#include<iostream>
+#include <iostream>
 
 int main() {
-  std::cout << (12 ^ 10) << std::endl;
+  std::cout << (12 ^ 10) << "\n";
 
   return 0;
 }
