@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Web real-time communication (WebRTC) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.
+[WebRTC](https://webrtc.org/) (Web Real-Time Communication) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.
 
 Originally developed in 2011 and currently maintained by Google, WebRTC has been published as a specification by the W3C and is supported by all major browsers.
 
