@@ -1,6 +1,6 @@
 ---
 Title: 'Hooks'
-Description: 'In React, hooks are functions that give functional components class-like abilities.'
+Description: 'In React, hooks are functions that give function components class-like abilities.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,19 +11,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In React, hooks are functions that give functional components class-like abilities. These abilities include:
+In React, hooks are functions that give function components class-like abilities. These abilities include:
 
 - Using `state`
 - Performing side effects
 
 There are a few rules when using hooks! Specifically:
 
-- Only call hooks at the top level of React functions. If you do it in a loop, condition, or nested function, they may not render in the same order every time.
-- Only call hooks from React functions and not regular JavaScript functions.
+- Call hooks at the top level of React functions. If hooks are called in a loop, condition, or nested function, they may not render in the same order every time.
+- Call hooks from React functions and not regular JavaScript functions.
 
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
 
-Most hooks are imported from the `react` library:
+Hooks are imported at the top of a file from the `react` library:
 
 ```jsx
 import React, { useState, useEffect } from 'react';
@@ -44,7 +44,7 @@ const [state, setState] = useState(initialValue);
 
 ## Syntax of `useEffect()`
 
-Pass a callback function, `sideEffects()` into `useEffect()`. This hook and function will execute whenever the component mounts or updates. It is similar to React's lifecycle methods: `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. The component's `state` can also be accessed inside of `sideEffect()`.
+The `useEffect()` hook and function will execute whenever a component mounts or updates. It is similar to React's lifecycle methods: `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. A callback function, `sideEffects()`, is passed into `useEffect()`. The component's `state` can also be accessed inside of `sideEffect()`.
 
 ```jsx
 useEffect(function sideEffects() {
