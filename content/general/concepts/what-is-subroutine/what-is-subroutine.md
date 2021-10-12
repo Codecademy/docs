@@ -1,6 +1,6 @@
 ---
 Title: 'What is Subroutine?'
-Description: 'A subroutine is a set of computer instructions written to perform a specific tasks. It is also known as a function or a procedure. A subroutine packages code for an operation or a set of operations, which makes code more reusable and readable. Every programming languages has their own way of defining and calling a subroutine or function.'
+Description: 'A subroutine is a set of computer instructions written to perform specific tasks.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -10,7 +10,7 @@ CatalogContent:
   - 'learn-how-to-code'
 ---
 
-'A subroutine is a set of computer instructions written to perform a specific tasks. It is also known as a function or a procedure. A subroutine packages code for an operation or a set of operations, which makes code more reusable and readable.
+A subroutine is a set of computer instructions written to perform specific tasks. It is also known as a function or a procedure. A subroutine packages code for an operation or a set of operations, which makes code reusable and readable.
 
 ## Syntax
 
@@ -19,9 +19,9 @@ Every programming language has its own syntax for defining and calling a subrout
 Pseudo code for declaring a subroutine:
 
 ```pseudo
-declare <suboroutine_name>
+declare <subroutine_name>
     #subroutine code
-end Subroutine
+end
 ```
 
 Pseudo code for calling a subroutine:
@@ -30,31 +30,33 @@ Pseudo code for calling a subroutine:
 call <subroutine_name>
 ```
 
-In modern programming languages we use functions, which are similar to subroutines, that take an argument(s) and may return some value(s) after execution. Let's look at the syntax of Javascript.
+In modern programming languages, we use functions that are similar to subroutines. These functions take in argument(s) and may return some value(s) after execution. Let's look at the syntax of JavaScript.
+
+A function, `func_name`, is declared and takes in any number of arguments (`var1`, `var2`, etc). 
 
 ```js
-// declaring function
-function function_name(var1,var2,var3,...)
-{
-    // function body
+function func_name(var1, var2, var3,...) {
+    // Function body
+    
     return return_value
-    // return statement is optional
+    // Return statement is optional
 }
-
-// calling function
-function_name(var1,var2,var3,...)
 ```
 
-For example:
+To call or invoke the function with any number of arguments:
 
 ```js
-// declaring
+func_name(var1, var2, var3,...)
+```
+
+## Example
+
+```codebyte/js
 function sum(var1, var2) {
   let return_value = var1 + var2;
   return return_value;
 }
 
-// calling
 let total = sum(10, 12);
 console.log(total);
 ```
