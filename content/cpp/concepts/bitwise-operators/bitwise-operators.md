@@ -60,7 +60,7 @@ The Bitwise OR operator returns either of the following:
 
 For example:
 
-```
+```pseudo
 4 = 100 (Base-2 binary system)
 5 = 101 (Base-2 binary system)
 
@@ -87,7 +87,7 @@ The left shift operator shifts all the bits towards the left side according to t
 
 For example:
 
-```shell
+```pseudo
 4 = 100 (Base-2 binary system)
 
 4 << 1
