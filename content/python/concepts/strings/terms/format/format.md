@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Formats the string by inserting the objects which are passed into the arguments to the placeholders in the string.
+Python's built-in string function `.format()` converts strings by inserting values passed through placeholders.
 
 `{}` is a placeholder. All the arguments specified in the format method will be replacing the placeholders in the string.
 
