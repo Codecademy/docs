@@ -96,7 +96,6 @@ public static void main(String args[]) {
 
 ## Types of Inheritance
 
-
 - Single Inheritance: When a child class `inherits` a parent class.
 
 ```java
@@ -109,6 +108,7 @@ public class Child extends Parent{
   // Child class properties and methods
 }
 ```
+
 - Multilevel Inheritance: When a child class `inherits` a parent class which in turn `inherits` another parent class.
 
 ```java
@@ -126,6 +126,7 @@ public class GrandChild extends Child{
   // GrandChild class properties and methods
 }
 ```
+
 - Hierarchical Inheritance: When a child class `inherits` a parent class and there is another sibling class that also `inherits` from same parent class.
 
 ```java
@@ -146,7 +147,7 @@ public class Sibling extends Parent{
 ```
 
 ## Advantages of Inheritance
+
 - Code reusability - Same properties and methods of a class can be used by inheriting that class.
 - Lower maintenance cost - If a piece of code needs to be updated, it can be done at minimal place if inheritance is used.
 - Easier to add new features - If a same new feature needs to be added to multiple classes, through inheritance it can be added in parent class and all the child classes inheriting this parent class would get that feature instantly.
-
