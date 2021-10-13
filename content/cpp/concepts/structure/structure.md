@@ -126,32 +126,6 @@ The members of a structure can be of any data type including structure type i.e.
 
 A structure variable can also be a member of another structure. This is called nesting of structure.
 
-Syntax:
-
-```cpp
-struct structure_name1
-{
-    member1;
-    member2;
-    member3;
-    struct structure_name2
-    {
-        member1;
-        member2;
-        member3;
-        .
-        .
-        .
-        memberM;
-
-    }var2;
-    .
-    .
-    .
-    memberN;
-}var1;
-```
-
 Example of using nested structure:
 
 ```cpp
