@@ -93,7 +93,7 @@ banana
 cherry
 ```
 
-## For..in.. Loop
+## `for...in` Loop
 
 A `for..in..` loop loops over the string keys in an Object
 
