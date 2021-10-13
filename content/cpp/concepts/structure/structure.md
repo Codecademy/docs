@@ -90,16 +90,16 @@ struct Coordinates {
  
 int main()
 {
-    struct Coordinates c[4];
-    int i;
-    for(i=0;i<4;i++)
-    cin>>c[i].x>>c[i].y;
-    for(i=0;i<4;i++)
-    {
-      cout<<"x"<<i+1<<"="<<c[i].x<<"\t";
-      cout<<"y"<<i+1<<"="<<c[i].y<<endl;
-    }
-    return 0;
+  struct Coordinates c[4];
+  int i;
+  for(i = 0; i < 4; i++)
+  cin >> c[i].x >> c[i].y;
+  for(i = 0; i < 4; i++)
+  {
+    cout << "x" << i+1 << "=" << c[i].x << "\t";
+    cout << "y" << i+1 << "=" << c[i].y << "\n";
+  }
+  return 0;
 }
 ```
 
