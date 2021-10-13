@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the last index at which an element can be found. Returns `-1` if element is not found. The array is searched backwards, starting at `fromIndex`.
+Returns the last index at which an element can be found. Returns `-1` if the element is not found. 
+
+The array is searched backward, starting at `fromIndex`. If `fromIndex` is undefined, the search starts from the last index.
 
 ## Syntax
 
