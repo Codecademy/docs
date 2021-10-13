@@ -18,7 +18,7 @@ Searches through a string for the occurrence of a substring and returns the star
 ## Syntax
 
 ```py
-string.index(pattern,start,end)
+string.index(pattern, start, end)
 ```
 
 In the above syntax for the `index()` method:
