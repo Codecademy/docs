@@ -35,7 +35,7 @@ After `to_buy` is assigned one of the four shopping items with `random.choice()`
 
 ## Example 2
 
-Use `random.choice()` to return a random character from `my_string`:
+Here, `random.choice()` is used to return a single character that is sampled from a `str` variable:
 
 ```py
 import random
