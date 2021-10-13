@@ -36,7 +36,7 @@ Use `find()` method to search for the occurrence of `"Python"` in the string `my
 my_string = "I love Python!"
 my_string.find("Python")
 
-#Output
+# Output: 7
 0 #as "Python" occurs at the start of the string
 ```
 
