@@ -76,22 +76,25 @@ print(returned_value)
 ```
 
 ## Default Values for Function Parameters
+
 When one or more of the function's parameters take the same value in most function calls, it's recommended to initialize the parameter to a default value.
 
-In the function `calc_total()`, the default value of `discount` is 10. 
+In the function `calc_total()`, the default value of `discount` is 10.
 
 When the discount value is explicitly specified in the function call, that value is used. Else, the default value of 10 is used.
+
 ```codebyte/python
 def calc_total(amount,discount=10):
   total = amount*(1 - 0.01*discount)
   return total
-  
+
 calc_total(100)
 
 calc_total(250,5)
 ```
 
 ## Functions with Variable Number of Parameters
+
 When the number of arguments can be different in each function call, the function definition can be modified accordingly.
 
 In the function definition, `*args` is used with the special character `*` indicating that it's possible to loop through and consume all arguments in `*args`.
@@ -105,12 +108,11 @@ def multiply(*args):
   for arg in args:
     product*= arg
   return product
-  
+
 multiply(21,24,17)
 
 multiply(10,5,3,6)
 ```
-
 
 ## Recursion
 
