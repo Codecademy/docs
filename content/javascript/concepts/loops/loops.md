@@ -88,9 +88,9 @@ for (const item of items) {
 
 ```
 // Output:
-apple;
-banana;
-cherry;
+apple
+banana
+cherry
 ```
 
 ## For..in.. Loop
