@@ -45,7 +45,7 @@ print(author_name.title())
 
 ## Codebyte Example
 
-Use `.title()` method to format the string `my_string` in the title case:
+Use `.title()` to format the string `my_string` in the title case:
 
 ```codebyte/python
 my_string = "Codecademy docs is a cool project!"
