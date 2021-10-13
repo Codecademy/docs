@@ -1,6 +1,6 @@
 ---
-Title: 'What is a Relational Database?'
-Description: ''
+Title: 'Relational Database'
+Description: 'A relational database is a store of data organized in tables made of columns and rows, and the relationships between those tables.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

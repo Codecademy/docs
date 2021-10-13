@@ -1,6 +1,6 @@
 ---
-Title: 'What is Node.js?'
-Description: ''
+Title: 'Node.js'
+Description: 'Node.js is a JavaScript runtime for building server-side or desktop applications. It is free and open-sourced.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
