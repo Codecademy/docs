@@ -34,7 +34,7 @@ struct structure_name
 };
 ```
 
-Example:
+## Example
 
 ```cpp
 struct Coder
