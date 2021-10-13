@@ -19,6 +19,7 @@ The `random.choice()` function returns a random sample drawn from an iterable ar
 ```py
 random.choice(iterable)
 ```
+
 An `iterable` can be any kind of sequence-oriented variable, including:
 
 - A string of characters. (`"Hello, World!"`)
