@@ -1,6 +1,6 @@
 ---
 Title: 'find()'
-Description: 'Search through a string for the occurrence of a pattern, or a substring.'
+Description: 'Searches a string for the occurrence of a pattern, or a substring, and returns the starting index of the substring (or -1 if there is no match).'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
