@@ -26,9 +26,9 @@ console.log(currency + userIncome + ' is more than the average income.');
 
 To declare a variable in JavaScript, any of these three keywords can be used along with a variable name:
 
-- `var` is used in pre-ES6 versions of JavaScript.
-- `let` is the preferred way to declare a variable when it can be reassigned.
-- `const` is the preferred way to declare a variable with a constant value.
+- `var` is used in pre-ES6 versions of JavaScript. It is function scoped.
+- `let` is the preferred way to declare a variable when it can be reassigned. It is block scoped.
+- `const` is the preferred way to declare a variable with a constant value. It is also block scoped.
 
 ```js
 var age;
