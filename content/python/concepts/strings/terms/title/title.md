@@ -40,7 +40,7 @@ Use `.title()` to format `author_name` in the title case:
 author_name = "jane smith"
 print(author_name.title())
 
-#Output
+# Output: Jane Smith
 Jane Smith
 ```
 
