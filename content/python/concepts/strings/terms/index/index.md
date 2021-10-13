@@ -1,6 +1,6 @@
 ---
 Title: 'index()'
-Description: 'The `index()` function searches through a string variable for the occurrence of a pattern or a substring.'
+Description: 'The `index()` method searches through a string variable for the occurrence of a pattern or a substring.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `index()` function searches through a string variable for the occurrence of a pattern or a substring.
+The `index()` method searches through a string variable for the occurrence of a pattern or a substring.
 
 If the substring is not found, a `ValueError` will be raised.
 
@@ -51,6 +51,7 @@ my_string = "Learning Python is fun!"
 my_string.index("Coding")
 
 # Output: ValueError: substring not found
+```
 
 ## Codebyte Example
 
