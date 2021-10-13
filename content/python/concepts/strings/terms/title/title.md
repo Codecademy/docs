@@ -52,3 +52,4 @@ my_string = "Codecademy docs is a cool project!"
 print(my_string.title())
 
 # Output: Codecademy Docs Is A Cool Project!
+```
