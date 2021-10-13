@@ -69,7 +69,7 @@ for (let i = 0; i < 4; i += 1) {
 // Output: 0, 1, 2, 3
 ```
 
-## For..of.. Loop
+## `for...of` Loop
 
 A `for..of..` loop loops over the items in an Array, allowing to directly access them without having to access them by the index.
 
