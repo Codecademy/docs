@@ -1,32 +1,38 @@
 ---
-Title: 'What is a Method?'
-Description: 'A method is a function within a class that can be used with an instance of a class. You can think of a class in two parts, the data and the behavior. The method is the behavior part of a class.'
+Title: 'Method'
+Description: 'A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
-  - 'Object Oriented Programing'
 Tags:
   - 'Classes'
   - 'Objects'
   - 'Methods'
   - 'OOP'
-  - 'Functions'
 CatalogContent:
-  - 'learn-phython-3'
+  - 'learn-python-3'
   - 'learn-c++'
   - 'learn-java'
   - 'paths/computer-science/'
 ---
 
-A method is a function within a class that can be used with an instance of that class. You can think of a class in two parts: the data and the behaviors. Methods are the behavior part of the class. When you create an object from a class, you can use that object to call the methods that are associated with that class. Methods can accept parameters as arguments and produce a result by using these parameters.
+A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program. 
 
-In object oriented programming, methods promotes reusability and keep functionality encapsulated inside an object.
+Classes can be broken into two core parts: 
+
+- The data that is attributed to a class's members or properties.
+- The behaviors that are defined or inherited in the class. 
+
+Methods are the "behavior" part of the class. When an instance variable is created from a class, it has access to the class's associated methods. Methods can accept parameters (sometimes they're called "arguments") and return a result.
+
+In object-oriented programming, methods promote reusability and keep functionality encapsulated inside an object.
 
 ## Example
 
-Let's say we want to create a class for a character in a game. We want the character to do certain things.
+In the JavaScript example below, a class for a character in a game, `Character`, is defined with certain behaviors.
 
-- introduce themself
-- move in given a direction
+- Introduce themselves with a phrase.
+- Move the character in a given direction.
 
 ```rb
 class Character {
@@ -40,4 +46,4 @@ class Character {
 }
 ```
 
-Now, when we create a character object for our game, we can get that character to introduce themself or move by using the methods on that character object.
+Now, when an instance of `Character` is created, the game character can introduce themselves or move in a certain direction.
