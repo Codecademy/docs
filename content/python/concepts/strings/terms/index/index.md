@@ -57,5 +57,5 @@ Use `index()` to search for the occurrence of `"code"` in a slice of the string 
 
 ```codebyte/python
 my_string = "Learning to code is fun!"
-my_string.index("code",8,16)
+my_string.index("code", 8, 16)
 ```
