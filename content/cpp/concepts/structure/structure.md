@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure is a user-defined data type in C/C++. It can be used to store together elements of different data types. It can also be called as an array of heterogeneous elements(here elements means members).
+A structure is used to store together elements of different data types. It can also be used as an array of elements (or members) of different types.
 
 ## Syntax
 
