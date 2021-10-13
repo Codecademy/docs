@@ -26,7 +26,7 @@ In the above syntax for the `index()` method:
 - `string` is the string variable to search through. (Required)
 - `pattern` is the pattern or substring to search for. (Required)
 - `start` is the starting index of the slice of `string` to search through. (Optional, Default: start of the string - index `0`)
-- `end`the index of the slice of `string` to search up to. (Optional, Default: end of the string )
+- `end` is the index of the slice of `string` to search up to (non-inclusive). (Optional, Default: end of the string )
 
 ## Example 1
 
