@@ -1,27 +1,25 @@
 ---
 Title: 'Java: Inheritance'
-Description: 'Inheritance is one of the basic Object Oriented Programming(OOP) concepts'
+Description: 'Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class.'
 Subjects:
   - 'Computer Science'
 Tags:
   - 'Inheritance'
   - 'OOP'
-  - 'Parent-child'
-  - 'Java'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-Inheritance is one of the basic Object Oriented Programming(OOP) concepts. Inheritance is the concept by which we can pass `properties` and `behaviors` from parent class to child class.
+Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class.
 
-In day to day life we might have already heard about inheritance, when something gets passed from parents to child we say that child inherited from parents. Similarly, in JAVA when some `properties` or `behaviors` get passed from parent class to the child class we say that child class inherited from parent class.
+In day to day life we might have already heard about inheritance, when something gets passed from parents to child we say that child inherited from parents. Similarly, in Java when some properties or behaviors get passed from parent class to the child class we say that child class inherited from parent class.
 
-Child class can have properties and methods of its own.
+Child class can have properties and methods of its own as well.
 
-It can also override the behaviors(methods) of the parent class. This is called polymorphism, another OOP concept.
+It can also override the behaviors (methods) of the parent class. This is called polymorphism, another OOP concept.
 
-We can implement inheritance by using `extends` keyword.
+We can implement inheritance by using the `extends` keyword.
 
 ## Syntax
 
@@ -45,16 +43,19 @@ public class Vehicle {
   public int getNumWheels() {
     return numWheels;
   }
+
   public void setNumWheels(int wheels) {
     this.numWheels = wheels;
   }
+
   public String getEngineNum() {
     return engineNum;
   }
+
   public void setEngineNum(String engineNum) {
     this.engineNum = engineNum;
   }
-  //Similarly for other properties
+  // Similar getters and setters for other properties
   ...
 }
 ```
@@ -65,12 +66,13 @@ Here's a `Car` class which inherits `Vehicle` class:
 
 ```java
 public class Car extends Vehicle {
-  //Vehicle class properties and methods accessible here
+  // Vehicle class properties and methods accessible here
   private int airbagCount;
 
   public int getAirbagCount() {
     return airbagCount;
   }
+
   public void setAirbagCount(int airbagCount){
     this.airbagCount = airbagCount;
   }
@@ -83,18 +85,19 @@ Below is how you can access properties and methods of parent class
 ```java
 public static void main(String args[]) {
   Car car = new Car();
-  car.setNumWheels(4);  //Parent class method. This would set the wheel count to 4
-  System.out.println(car.getNumWheels());//Parent class method. Prints numWheels
+  car.setNumWheels(4);  // Parent class method. This would set the wheel count to 4
+  System.out.println(car.getNumWheels());// Parent class method. Prints numWheels
 
-  car.setAirbagCount(2);  //Child class method. This would set the airbag count
-  System.out.println(car.getAirbagCount()); //Child class method. Prints airbag count
+  car.setAirbagCount(2);  // Child class method. This would set the airbag count
+  System.out.println(car.getAirbagCount()); // Child class method. Prints airbag count
   ...
 }
 ```
 
 ## Types of Inheritance
 
-- `Single Inheritance` When a child class `inherits` a parent class.
+
+- Single Inheritance: When a child class `inherits` a parent class.
 
 ```java
 public class Parent {
@@ -106,8 +109,7 @@ public class Child extends Parent{
   // Child class properties and methods
 }
 ```
-
-- `Multilevel Inheritance` When a child class `inherits` a parent class which in turn `inherits` another parent class.
+- Multilevel Inheritance: When a child class `inherits` a parent class which in turn `inherits` another parent class.
 
 ```java
 public class Parent {
@@ -124,8 +126,7 @@ public class GrandChild extends Child{
   // GrandChild class properties and methods
 }
 ```
-
-- `Hierarchical Inheritance` When a child class `inherits` a parent class and there is another sibling class that also `inherits` from same parent class.
+- Hierarchical Inheritance: When a child class `inherits` a parent class and there is another sibling class that also `inherits` from same parent class.
 
 ```java
 public class Parent {
@@ -145,7 +146,7 @@ public class Sibling extends Parent{
 ```
 
 ## Advantages of Inheritance
+- Code reusability - Same properties and methods of a class can be used by inheriting that class.
+- Lower maintenance cost - If a piece of code needs to be updated, it can be done at minimal place if inheritance is used.
+- Easier to add new features - If a same new feature needs to be added to multiple classes, through inheritance it can be added in parent class and all the child classes inheriting this parent class would get that feature instantly.
 
-- `Code reusability` - Same properties and methods of a class can be used by inheriting that class.
-- `Lower maintenance cost` - If a piece of code needs to be updated, it can be done at minimal place if inheritance is used.
-- `Easier to add new features` - If a same new feature needs to be added to multiple classes, through inheritance it can be added in Parent class and all the child classes inheriting this Parent class would get that feature instantly.
