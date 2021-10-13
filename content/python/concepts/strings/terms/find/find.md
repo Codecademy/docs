@@ -23,7 +23,7 @@ string.find(pattern,start,end)
 
 In the above syntax for the `find()` method:
 
-- `string`: The string that you need to search. (Required)
+- `string` is the string to search. (Required)
 - `pattern`: The pattern that you are searching for. (Required)
 - `start`: The starting index of the slice of `string` that you need to search through. (Optional, Default: start of the string - index `0`)
 - `end`: The index of the slice of `string` that you need to search up to. (Optional, Default: end of the string )
