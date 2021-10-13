@@ -1,5 +1,5 @@
 ---
-Title: 'What is UUID?'
+Title: 'UUID'
 Description: 'UUID is a universally unique identifier. It can be generated on any computer without the use of a centralized authority.'
 Subjects:
   - 'Computer Science'

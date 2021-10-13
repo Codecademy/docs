@@ -1,5 +1,5 @@
 ---
-Title: 'What is GraphQL?'
+Title: 'GraphQL'
 Description: 'GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.'
 Subjects:
   - 'Computer Science'
