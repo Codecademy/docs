@@ -50,6 +50,7 @@ Use `random.choice()` to return a random element from the tuple `to_learn`:
 
 ```codebyte/python
 import random
+
 to_learn = ("Python", "JavaScript", "Go")
 print(random.choice(to_learn))
 ```
