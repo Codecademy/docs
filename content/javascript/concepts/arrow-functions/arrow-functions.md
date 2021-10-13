@@ -69,3 +69,4 @@ console.log(multiply(2, 30));
 - Arrow functions do not have their own bindings to `this` or `super`, and should not be used as methods.
 - Arrow functions cannot be used as constructors.
 - Arrow functions cannot use `yield`, within its body.
+- Arrow functions don't have special `arguments` keyword.
