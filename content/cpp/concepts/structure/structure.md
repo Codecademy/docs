@@ -63,7 +63,7 @@ int main()
     c1.x=2;
     c1.y=2;
     cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // for variable c1
-    cout << "x2 = " << c2.x << ", y2 = " << c2.y;//for variable c2 
+    cout << "x2 = " << c2.x << ", y2 = " << c2.y; // for variable c2 
     return 0;
 }
 ```
