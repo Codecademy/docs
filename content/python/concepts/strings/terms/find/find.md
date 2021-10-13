@@ -37,7 +37,6 @@ my_string = "I love Python!"
 my_string.find("Python")
 
 # Output: 7
-0 #as "Python" occurs at the start of the string
 ```
 
 ## Example 2
