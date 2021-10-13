@@ -66,7 +66,7 @@ System.out.println("Random boolean: " + b);
 
 The output will look like this:
 
-```
+```shell
 Random float: 0.13293427
 Random double: 0.900476085026994
 Random integer: 152429987
@@ -83,7 +83,7 @@ System.out.println("Random integer in range [0,25) : " + i);
 
 The output will be:
 
-```
+```shell
 Random integer in range [0,25) : 16
 ```
 
@@ -101,7 +101,7 @@ for (byte j: b)
 
 The output looks like this:
 
-```
+```shell
 Random byte array : -44 -82 44 62 -111
 ```
 
