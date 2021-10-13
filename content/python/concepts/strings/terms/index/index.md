@@ -1,6 +1,6 @@
 ---
 Title: 'index()'
-Description: 'Searches through a string for the occurrence of a pattern, or a substring.'
+Description: 'The `index()` function searches through a string variable for the occurrence of a pattern or a substring.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
