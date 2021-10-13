@@ -50,6 +50,7 @@ struct Coder
 The members cannot be initialized inside the structure defination but it is accepted in C++11 and higher.
 
 An example of declaring and initializing a structure variable:
+
 ```cpp
 #include <iostream>
 using namespace std;
