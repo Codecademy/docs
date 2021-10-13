@@ -53,7 +53,7 @@ print(random.choice(my_string))
 
 ## Codebyte Example
 
-Use `random.choice()` to return a random element from the tuple `to_learn`:
+In the example below, `random.choice()` is used to return a random element from the tuple, `to_learn`:
 
 ```codebyte/python
 import random
