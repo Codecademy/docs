@@ -15,11 +15,11 @@ A structure is used to store together elements of different data types. It can a
 
 ## Syntax
 
-`struct` keyword is used to create a structure.
+A structure is defined with: 
 
-Remember to end the declaration with a semicolon `;`.
-
-Syntax of defining a structure:
+1. The `struct` keyword in the beginning.
+2. Curly brackets (`{ }`) to define the body.
+3. A semicolon (`;`) at the end.
 
 ```cpp
 struct structure_name
