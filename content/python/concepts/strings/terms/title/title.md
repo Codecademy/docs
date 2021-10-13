@@ -41,7 +41,6 @@ author_name = "jane smith"
 print(author_name.title())
 
 # Output: Jane Smith
-Jane Smith
 ```
 
 ## Codebyte Example
