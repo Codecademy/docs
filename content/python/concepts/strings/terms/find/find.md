@@ -30,7 +30,7 @@ In the above syntax for the `find()` method:
 
 ## Example 1
 
-Use `find()` method to search for the occurrence of `"Python"` in the string `my_string`:
+Use `find()` to search for the occurrence of `"Python"` in the string `my_string`:
 
 ```py
 my_string = "I love Python!"
