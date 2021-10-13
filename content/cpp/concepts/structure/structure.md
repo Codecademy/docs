@@ -85,7 +85,7 @@ An example of array of structure:
 #include <iostream>
 using namespace std;
 struct Coordinates {
-    int x, y;
+  int x, y;
 };
  
 int main()
