@@ -27,7 +27,10 @@ array.lastIndexOf(searchElement, fromIndex);
 
 A negative `fromIndex` will offset from the end of the array to begin search. The array is still searched from back to front.
 
-## Examples
+Note that the default value of `fromIndex` is `array.length - 1`.
+
+
+## Example #1
 
 Find the last index of `2` in the `numbers` array:
 
@@ -38,6 +41,8 @@ console.log(lastIndexOf2);
 // Output: 1
 ```
 
+## Example #2
+
 If the element is not found, the result will be `-1`:
 
 ```js
@@ -46,6 +51,8 @@ const lastIndexOfCherry = fruits.lastIndexOf('cherry');
 console.log(lastIndexOfCherry);
 // Output: -1
 ```
+
+## Example #3
 
 Check if the color `'blue'` is in the `rainbow` array, before the fifth element:
 
@@ -63,6 +70,8 @@ const checkIndigo = rainbow.indexOf('indigo', 4);
 console.log(checkIndigo);
 // Output: -1
 ```
+
+## Example #4
 
 Multiple matches will only return the last index where a match occurs:
 
