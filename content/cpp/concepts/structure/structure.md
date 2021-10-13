@@ -54,7 +54,7 @@ An example of declaring and initializing a structure variable:
 #include <iostream>
 using namespace std;
 struct Coordinates {
-    int x, y;
+  int x, y;
 }c1;//Declairing variable c1
  
 int main()
