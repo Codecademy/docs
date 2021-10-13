@@ -71,9 +71,12 @@ for (let i = 0; i < 4; i += 1) {
 
 ## `for...of` Loop
 
-A `for..of..` loop loops over the items in an Array, allowing to directly access them without having to access them by the index.
+A `for...of` loop iterates over an object's _values_ rather than their keys. This allows for direct access to the items, as opposed to index-reference. Examples of iterable objects include:
 
-- The `for..of..` loop can be used to iterate Arrays, String and other array-like Objects
+- An `Array` of elements.
+- A `String` of characters.
+- A `Map` of key/value pairs.
+
 
 ```js
 const items = ['apple', 'banana', 'cherry'];
