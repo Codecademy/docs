@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-'Searches through a string for the occurrence of a substring and returns the starting index of the first occurrence of the substring (or raises a `ValueError` if the substring is not found).'
+Searches through a string for the occurrence of a substring and returns the starting index of the first occurrence of the substring (or raises a `ValueError` if the substring is not found).
 
 ## Syntax
 
@@ -58,7 +58,7 @@ ValueError: substring not found
 
 Use `index()` to search for the occurrence of `"code"` in a slice of the string `my_string`, that is `my_string[8:16]`:
 
-```codebyte/py
+```codebyte/python
 my_string = "Learning to code is fun!"
 my_string.index("code",8,16)
 ```
