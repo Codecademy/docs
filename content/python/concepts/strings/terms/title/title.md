@@ -29,7 +29,7 @@ Use `.title()` to format a string in title case:
 my_string = "Learn coding from Codecademy"
 print(my_string.title())
 
-#Output
+# Output: Learn Coding From Codecademy
 Learn Coding From Codecademy
 ```
 
