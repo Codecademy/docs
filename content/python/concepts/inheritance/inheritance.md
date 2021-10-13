@@ -61,7 +61,7 @@ doc.intro()
 # and I am a physician!
 ```
 
-Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`. 
+Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`.
 
 _Note_: The same number and type of arguments need to be passed in the parent class method inside the child class.
 
@@ -82,7 +82,8 @@ doc.intro()
 # Hi! I am Dr. Frankenstein
 # and I am a physician!
 ```
-Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`.  
+
+Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`.
 
 _Note_: `self` argument is not needed here and the same number and type of arguments need to be passed in the parent class method inside the child class.
 
@@ -305,20 +306,20 @@ The **diamond problem** is an ambiguity that arises in multiple inheritance, whe
 class A:
     def m(self):
         print("inside A")
-       
+
 class B(A):
     def m(self):
         print("in B")
- 
+
 class C(A):
     def m(self):
-        print("in C") 
-        
+        print("in C")
+
 class D(B, C):
     pass
-     
+
 obj = D()
 obj.m() #Output: in B
 ```
 
- Call to `obj.m()` the output is `in B`. If D is declared as `D(C, B)` then the output of `obj.m()` will be `in C`. So, the order of parent classes decides which class it inherits from. To call the parent function of choice use the [super() method](#super()) inside the child class.
+Call to `obj.m()` the output is `in B`. If D is declared as `D(C, B)` then the output of `obj.m()` will be `in C`. So, the order of parent classes decides which class it inherits from. To call the parent function of choice use the [super() method](<#super()>) inside the child class.
