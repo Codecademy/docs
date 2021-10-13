@@ -95,10 +95,7 @@ cherry
 
 ## `for...in` Loop
 
-A `for..in..` loop loops over the string keys in an Object
-
-- allows to iterate over Objects that use string type keys
-- iterating via the keys allows to access the values easily too
+A `for..in..` loop iterates over any object with `"string"`-type keys and allows for access to the values by index-reference.
 
 ```js
 const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
