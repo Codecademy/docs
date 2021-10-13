@@ -49,7 +49,7 @@ my_string = "I love Python!"
 my_string.find("JavaScript")
 
 # Output: -1
--1 #as "JavaScript" does not occur in the string
+# "JavaScript" does not occur in the string, therefore there are no matches
 ```
 
 ## Codebyte Example
