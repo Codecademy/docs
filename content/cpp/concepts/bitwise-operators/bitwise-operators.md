@@ -1,5 +1,5 @@
 ---
-Title: 'Bitwise-Operators'
+Title: 'Bitwise Operators'
 Description: 'C++ supports different types of bitwise operators that can perform operations on integers at bit-level.'
 Subjects:
   - 'Code Foundations'
@@ -22,10 +22,11 @@ C++ supports different types of bitwise operators that can perform operations on
 - `~` Bitwise Complement
 - `^` Bitwise XOR
 
-## `&` Bitwise AND
+## & Bitwise AND
 
 The bitwise AND operator, `&`:
-- Returns 1 if both the bits are 1 (1, 1). 
+
+- Returns 1 if both the bits are 1 (1, 1).
 - Else ((1, 0), (0, 1), (0, 0)), it returns 0.
 
 For example:
@@ -51,7 +52,7 @@ int main() {
 // Output: 100 (Base-2 binary system) = 4
 ```
 
-## `|` Bitwise OR
+## | Bitwise OR
 
 The Bitwise OR operator returns either of the following:
 
@@ -81,7 +82,7 @@ int main() {
 // Output: 101 (Base-2 binary system) = 5
 ```
 
-## `<<` Bitwise Left Shift
+## << Bitwise Left Shift
 
 The left shift operator shifts all the bits towards the left side according to the number of bits specified and adds trailing 0's to the right side.
 
@@ -112,7 +113,7 @@ int main() {
 }
 ```
 
-## `>>` Bitwise Right Shift
+## >> Bitwise Right Shift
 
 The right shift operator shifts all the bits towards the right side by the number of bits specified and discards the right most bits.
 
@@ -147,7 +148,7 @@ int main() {
 }
 ```
 
-## `~` Bitwise Complement
+## ~ Bitwise Complement
 
 The complement operator flips the binary digits, that is from 0 to 1 and from 1 to 0.
 
@@ -178,7 +179,7 @@ int main() {
 }
 ```
 
-## `^` Bitwise XOR
+## ^ Bitwise XOR
 
 The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
