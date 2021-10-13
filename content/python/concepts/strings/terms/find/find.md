@@ -58,4 +58,6 @@ Use `find()` to search for the occurrence of `"fun"` in a slice of the string `m
 ```codebyte/py
 my_string = "Coding is fun!"
 my_string.find("fun",7,14)
+
+Output: 10
 ```
