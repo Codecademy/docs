@@ -31,6 +31,8 @@ to_buy = random.choice(shopping_list)
 print(to_buy)
 ```
 
+After `to_buy` is assigned one of the four shopping items with `random.choice()`, it is printed.
+
 ## Example 2
 
 Use `random.choice()` to return a random character from `my_string`:
