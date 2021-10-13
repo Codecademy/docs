@@ -26,6 +26,7 @@ In the example below, `random.choice()` returns an item sampled at random from a
 
 ```py
 import random
+
 shopping_list = ["bread", "pens", "apples", "milk"]
 to_buy = random.choice(shopping_list)
 print(to_buy)
