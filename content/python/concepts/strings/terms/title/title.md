@@ -23,7 +23,7 @@ string.title()
 
 ## Example 1
 
-Use `.title()` method to format a string in title case:
+Use `.title()` to format a string in title case:
 
 ```py
 my_string = "Learn coding from Codecademy"
