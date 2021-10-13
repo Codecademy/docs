@@ -23,7 +23,7 @@ array.lastIndexOf(searchElement, fromIndex);
 ```
 
 - `searchElement`: The element we are looking for.
-- `fromIndex`: The index position to begin search from backwards. Optional.
+- `fromIndex` (optional): The starting index position that search begins.
 
 A negative `fromIndex` will offset from the end of the array to begin search. The array is still searched from back to front.
 
