@@ -60,9 +60,9 @@ std::cout << order[2];
 
 There are two different ways to insert elements into the vector.
 
-## push_back()
+### `push_back()`
 
-It push the elements into a vector from the back
+Push the elements into a vector from the back.
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
@@ -71,9 +71,9 @@ int n = v.size();
 cout << "\nThe last element is: " << v[n - 1];
 ```
 
-## insert()
+### `insert()`
 
-It inserts new elements before the element at the specified position
+Insert new elements before the element at the specified position.
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
@@ -104,13 +104,13 @@ int main() {
 
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
-  std::cout << grades[2] << endl;
+  std::cout << grades[2] << "\n";
 
   grades.push_back(88);
-  std::cout << grades[3];
+  std::cout << grades[3] << "\n";
 
   grades.insert(v.end(),100);
-  std::cout << grades[4];
+  std::cout << grades[4] << "\n";
 
 }
 ```
