@@ -1,5 +1,5 @@
 ---
-Title: 'What is Augmented Reality?'
+Title: 'Augmented Reality'
 Description: 'Augmented Reality (AR) is a digitally enhanced real world experience provided through hardware. In many instances AR provides an additional sensory experience to natural settings. A popular example of Augmented Reality in application is the video game Pokemon Go.'
 Subjects:
   - 'Computer Science'
