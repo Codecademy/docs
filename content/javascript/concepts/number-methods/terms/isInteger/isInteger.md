@@ -1,6 +1,6 @@
 ---
 Title: '.isInteger()'
-Description: 'Determine whether the passed value is an integer.'
+Description: 'Determines whether the passed value is an integer.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.isInteger()` method is a part of the `Number` class in JavaScript. It accepts a single argument, `value`, returns `true` if the passed argument is an integer, and returns `false` otherwise.
+The `Number.isInteger()` method is a part of the `Number` class in JavaScript.
+
+It accepts a single argument, `value`, and returns `true` if the passed argument is an integer, and returns `false` otherwise.
 
 ## Syntax
 
@@ -20,7 +22,9 @@ The `.isInteger()` method is a part of the `Number` class in JavaScript. It acce
 Number.isInteger(value);
 ```
 
-## Example
+- `value` (required): The value to check.
+
+## Examples
 
 To verify if a value is an integer or not:
 
@@ -28,14 +32,26 @@ To verify if a value is an integer or not:
 const x = 13 / 5;
 // x = 2.6
 
-const y = 10 / 5;
-// y = 2
-
 console.log(Number.isInteger(x));
 // Output: false
+```
+
+```js
+const y = 10 / 5;
+// y = 2
 
 console.log(Number.isInteger(y));
 // Output: true
 ```
 
 The above example passes an integer and a decimal value into `Number.isInteger()` method, to verify if the value is an integer or not. Then, the result is printed.
+
+## Codebyte Example
+
+```codebyte/js
+console.log(Number.isInteger(0));
+console.log(Number.isInteger(3));
+console.log(Number.isInteger(-3));
+console.log(Number.isInteger(3.14));
+console.log(Number.isInteger('3'));
+```
