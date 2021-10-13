@@ -41,7 +41,7 @@ my_string.find("Python")
 
 ## Example 2
 
-Use `find()` method to search for the occurrence of `"JavaScript"` in the string `my_string`:
+Use `find()` to search for the occurrence of `"JavaScript"` in the string `my_string`:
 
 ```py
 my_string = "I love Python!"
