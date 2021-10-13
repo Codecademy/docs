@@ -32,21 +32,21 @@ call <subroutine_name>
 
 In modern programming languages, we use functions that are similar to subroutines. These functions take in argument(s) and may return some value(s) after execution. Let's look at subroutine in JavaScript syntax.
 
-A function, `func_name`, is declared and takes in any number of arguments: 
+A function, `func_name`, is declared and takes in any number of arguments:
 
 ```js
 function func_name(/* var1, var2, var3,... */) {
-    // Function body
+  // Function body
 
-    // Return statement is optional
-    return return_value
+  // Return statement is optional
+  return return_value;
 }
 ```
 
 To call or invoke the function with any number of arguments:
 
 ```js
-func_name(/* var1, var2, var3,... */)
+func_name(/* var1, var2, var3,... */);
 ```
 
 ## Example

@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `Number.isInteger()` method is a part of the `Number` class in JavaScript. 
+The `Number.isInteger()` method is a part of the `Number` class in JavaScript.
 
 It accepts a single argument, `value`, and returns `true` if the passed argument is an integer, and returns `false` otherwise.
 
