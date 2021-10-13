@@ -84,7 +84,9 @@ const items = ['apple', 'banana', 'cherry'];
 for (const item of items) {
   console.log(item);
 }
+```
 
+```
 // Output:
 apple;
 banana;
@@ -98,22 +100,28 @@ A `for..in..` loop loops over the string keys in an Object
 - allows to iterate over Objects that use string type keys
 - iterating via the keys allows to access the values easily too
 
-```
+```js
 const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
 
 for (const fruit in shoppingCart) {
   console.log(fruit);
 }
+```
 
+```
 // Output:
 banana
 apple
 cherry
+```
 
+```js
 for (const fruit in shoppingCart) {
   console.log(shoppingCart[fruit]);
 }
+```
 
+```
 // Output:
 2
 5
