@@ -1,5 +1,5 @@
 ---
-Title: '.choice()'
+Title: 'random.choice()'
 Description: 'Takes in any iterable, and returns an item sampled at random from that iterable.'
 Subjects:
   - 'Computer Science'
