@@ -44,7 +44,7 @@ const [state, setState] = useState(initialValue);
 
 ## Syntax of `useEffect()`
 
-The `useEffect()` hook and function will execute whenever a component mounts or updates. It is similar to React's lifecycle methods: `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. A callback function, `sideEffects()`, is passed into `useEffect()`. The component's `state` can also be accessed inside of `sideEffect()`.
+The `useEffect()` hook and function will execute whenever a component mounts or updates. It is similar to React's lifecycle methods: `componentDidMount()`, `componentDidUpdate()`, and `componentWillUnmount()`. A callback function, `sideEffects()`, is passed into `useEffect()`. The component's `state` can also be accessed inside of `sideEffect()`.
 
 ```jsx
 useEffect(function sideEffects() {
