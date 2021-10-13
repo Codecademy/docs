@@ -38,7 +38,7 @@ Use `index()` to search for the occurrence of `"Python"` in the string `my_strin
 my_string = "Learning Python is fun!"
 my_string.index("Python")
 
-# Output: 9 
+# Output: 9
 # The starting index of the substring "Python" is 9.
 ```
 
