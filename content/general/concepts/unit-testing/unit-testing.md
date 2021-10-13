@@ -8,7 +8,7 @@ Tags:
   - 'Best Practices'
   - 'Code Quality'
 CatalogContent:
-  - 'paths/code-foundations'
+  - 'learn-javascript-unit-testing'
   - 'paths/computer-science'
 ---
 
