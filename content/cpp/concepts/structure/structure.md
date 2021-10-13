@@ -15,7 +15,7 @@ A structure is used to store together elements of different data types. It can a
 
 ## Syntax
 
-A structure is defined with: 
+A structure is defined with:
 
 1. The `struct` keyword in the beginning.
 2. Curly brackets (`{ }`) to define the body.
@@ -57,14 +57,14 @@ using namespace std;
 struct Coordinates {
   int x, y;
 }c1;//Declairing variable c1
- 
+
 int main()
 {
-  struct Coordinates c2 = { 0, 1 }; // Declairing and initializing variable c2 
+  struct Coordinates c2 = { 0, 1 }; // Declairing and initializing variable c2
     c1.x = 2;
     c1.y = 2;
     cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // for variable c1
-    cout << "x2 = " << c2.x << ", y2 = " << c2.y; // for variable c2 
+    cout << "x2 = " << c2.x << ", y2 = " << c2.y; // for variable c2
     return 0;
 }
 ```
@@ -78,7 +78,7 @@ x2 = 0, y2 = 1
 
 ## Array of Structure
 
-Like other primitive data types, we can create an array of structures. 
+Like other primitive data types, we can create an array of structures.
 
 An example of array of structure:
 
@@ -88,7 +88,7 @@ using namespace std;
 struct Coordinates {
   int x, y;
 };
- 
+
 int main()
 {
   struct Coordinates c[4];
