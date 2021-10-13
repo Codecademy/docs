@@ -25,7 +25,7 @@ In the above syntax for the `find()` method:
 
 - `string` is the string to search. (Required)
 - `pattern` is the pattern that you are searching for. (Required)
-- `start`: The starting index of the slice of `string` that you need to search through. (Optional, Default: start of the string - index `0`)
+- `start` is the starting index of the slice to search through. (Optional, Default: start of the string - index `0`)
 - `end`: The index of the slice of `string` that you need to search up to. (Optional, Default: end of the string )
 
 ## Example 1
