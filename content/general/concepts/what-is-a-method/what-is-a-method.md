@@ -49,3 +49,4 @@ class Character:
 ```
 
 Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
+
