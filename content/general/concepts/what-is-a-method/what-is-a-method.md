@@ -46,7 +46,6 @@ class Character:
     def moveRight(self, x):
         # Code to move the character right by x pixels.
         self.movex += x
-}
 ```
 
 Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
