@@ -11,8 +11,6 @@ Tags:
   - 'OOP'
 CatalogContent:
   - 'learn-python-3'
-  - 'learn-c++'
-  - 'learn-java'
   - 'paths/computer-science/'
 ---
 
@@ -29,21 +27,26 @@ In object-oriented programming, methods promote reusability and keep functionali
 
 ## Example
 
-In the JavaScript example below, a class for a character in a game, `Character`, is defined with certain behaviors.
+In the Python example below, a class for a character in a game, `Character`, is defined with certain behaviors. The character can: 
 
-- Introduce themselves with a phrase.
-- Move the character in a given direction.
+- Introduce themselves.
+- Move left given an integer amount.
+- Move right given an integer amount.
 
-```rb
-class Character {
-    introduceSelf() {
-        # Code to print out an introduction phrase
-    }
+```py
+class Character:
+    def introduceSelf(self):
+        # Code to print out an introduction phrase.
+        Print(f"Hello! I'm {self.name}.")
 
-    move(direction) {
-        # Code for the character to move in the given direction
-    }
+    def moveLeft(self, x):
+        # Code to move the character left by x pixels.
+        self.movex -= x
+    
+    def moveRight(self, x):
+        # Code to move the character right by x pixels.
+        self.movex += x
 }
 ```
 
-Now, when an instance of `Character` is created, the game character can introduce themselves or move in a certain direction.
+Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
