@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-Output:
+The output will look like this:
 
 ```
 x1 = 2, y1 = 2
