@@ -53,7 +53,7 @@ my_string.index("Coding")
 
 ## Codebyte Example
 
-Use `index()` to search for the occurrence of `"code"` in a slice of the string `my_string`, that is `my_string[8:16]`:
+Use `index()` to search for the occurrence of `"code"` in a slice of the string `my_string` (i.e. from the character at index 8 up to, but not including, the character at index 16):
 
 ```codebyte/python
 my_string = "Learning to code is fun!"
