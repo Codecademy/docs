@@ -122,9 +122,7 @@ x4=0    y4=2
 
 ## Nested Structure
 
-The members of a structure can be of any data type including structure type i.e. we can include a structure within another structure.
-
-A structure variable can also be a member of another structure. This is called nesting of structure.
+A structure variable can also be a member of, or nested in, another structure.
 
 Example of using nested structure:
 
