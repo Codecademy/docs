@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes in any iterable, and returns an item sampled at random from that iterable.
+The `random.choice()` function returns a random sample drawn from an iterable argument, such as a list.
 
 ## Syntax
 
