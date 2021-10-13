@@ -49,10 +49,7 @@ Use `index()` to search for the occurrence of `"Coding"` in the string `my_strin
 my_string = "Learning Python is fun!"
 my_string.index("Coding")
 
-# Output
-ValueError: substring not found 
-# as "Coding" does not occur in the string
-```
+# Output: ValueError: substring not found
 
 ## Codebyte Example
 
