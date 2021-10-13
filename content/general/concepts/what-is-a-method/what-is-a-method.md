@@ -42,7 +42,7 @@ class Character:
     def moveLeft(self, x):
         # Code to move the character left by x pixels.
         self.movex -= x
-    
+
     def moveRight(self, x):
         # Code to move the character right by x pixels.
         self.movex += x
