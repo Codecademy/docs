@@ -77,7 +77,6 @@ A `for...of` loop iterates over an object's _values_ rather than their keys. Thi
 - A `String` of characters.
 - A `Map` of key/value pairs.
 
-
 ```js
 const items = ['apple', 'banana', 'cherry'];
 
