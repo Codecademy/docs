@@ -5,6 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Subroutine'
+  - 'Functions'
 CatalogContent:
   - 'paths/code-foundations'
   - 'learn-how-to-code'
