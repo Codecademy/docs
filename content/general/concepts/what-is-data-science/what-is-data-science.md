@@ -1,5 +1,5 @@
 ---
-Title: 'What is Data Science?'
+Title: 'Data Science'
 Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines. Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insight from data for finding new efficiencies in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including: - Data Visualization - Data Engineering - Machine Learning & Deep Learning - Artificial Intelligence - Cloud and Distributed Computing'
 Subjects:
   - 'Data Science'

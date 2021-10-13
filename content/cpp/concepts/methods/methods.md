@@ -21,14 +21,14 @@ A class method can be defined in two ways:
 - Inside the class definition
 - Outside the class definition
 
-## Inside Class
+### Inside the Class
 
 ```cpp
 class Person {
   string name;
 
   public:
-  // Method
+  // Defines the method
   void get_name() {
     return name;
   }
@@ -44,7 +44,7 @@ int main() {
 }
 ```
 
-## Outside Class
+### Outside the Class
 
 ```cpp
 class Person {
@@ -54,8 +54,9 @@ class Person {
     void get_name();
 }
 
+// Defines the method
 void Person::get_name() {
-    return name;
+  return name;
 }
 
 int main() {
@@ -68,7 +69,7 @@ int main() {
 }
 ```
 
-You can also add parameters to class methods
+Parameters can also be added to class methods:
 
 ```cpp
 class Person{
@@ -76,10 +77,11 @@ class Person{
 
   public:
 
-  // Method
+  // Defines the method
   void set_name(string newName){
     name = newName;
   }
+
   void get_name() {
     return name;
   }
@@ -93,6 +95,7 @@ int main() {
 
   // Prints "Robert"
   std::cout << robert.get_name();
+
   return 0;
 }
 ```
