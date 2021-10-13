@@ -30,7 +30,6 @@ my_string = "Learn coding from Codecademy"
 print(my_string.title())
 
 # Output: Learn Coding From Codecademy
-Learn Coding From Codecademy
 ```
 
 ## Example 2
