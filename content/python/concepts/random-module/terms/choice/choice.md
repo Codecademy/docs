@@ -22,7 +22,7 @@ random.choice(iterable)
 
 ## Example 1
 
-Use `random.choice()` to return an item sampled at random from the list `shopping_list`:
+In the example below, `random.choice()` returns an item sampled at random from a list called `shopping_list`:
 
 ```py
 import random
