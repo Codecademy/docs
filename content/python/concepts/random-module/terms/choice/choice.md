@@ -39,6 +39,7 @@ Here, `random.choice()` is used to return a single character that is sampled fro
 
 ```py
 import random
+
 my_string = "Coding!"
 print(random.choice(my_string))
 ```
