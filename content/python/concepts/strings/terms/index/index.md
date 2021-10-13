@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Searches through a string for the occurrence of a substring and returns the starting index of the first occurrence of the substring (or raises a `ValueError` if the substring is not found).
+The `index()` function searches through a string variable for the occurrence of a pattern or a substring.
+
+If the substring is not found, a `ValueError` will be raised.
 
 ## Syntax
 
