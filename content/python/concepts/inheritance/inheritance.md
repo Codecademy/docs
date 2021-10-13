@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Inheritance is a concept in object-oriented programming in which a class derives (or inherits) attributes and behaviors from another class without needing to implement them again. The methods inherited by a subclass is considered to be reused in the subclass. It represents a IS-A relationship between real-world objects.
+Inheritance is an object-oriented programming concept where a class derives attributes and behaviors from another class, eliminating the need to implement them again. The methods inherited by a subclass is considered to be reused in the subclass. It represents a IS-A relationship between real-world objects.
 
 ```py
 # base/super/parent class
@@ -31,7 +31,7 @@ y = PhysicianRobot("Jamie")
 print(y.name) # Output: Jamie
 ```
 
-In the above code subclass _PhysicianRobot_ inherits `name`, `__init__` from the base class _Robot_.
+In the above code subclass _PhysicianRobot_ inherits variable `name` and method `__init__` from the base class _Robot_.
 
 ## Reusing Parent methods
 
@@ -61,7 +61,9 @@ doc.intro()
 # and I am a physician!
 ```
 
-Derived class _PhysicianRobot_ calls parent class method `say_hi()` in method `intro()`. Notice how same number and type of arguments need to be passed in the child class.
+Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`. 
+
+_Note_: The same number and type of arguments need to be passed in the parent class method inside the child class.
 
 ### super()
 
@@ -80,6 +82,9 @@ doc.intro()
 # Hi! I am Dr. Frankenstein
 # and I am a physician!
 ```
+Derived class _PhysicianRobot_ calls parent class method `say_hi()` inside `intro()`.  
+
+_Note_: `self` argument is not needed here and the same number and type of arguments need to be passed in the parent class method inside the child class.
 
 ## Overriding methods
 
@@ -99,7 +104,7 @@ y.say_hi()
 # James takes care of you!
 ```
 
-If a method is overridden in a class, the original method can still be accessed, but we have to do it by calling the method directly with the parent class name.
+If a method is overridden in a class, the original method can still be accessed but we have to do it by calling the method directly with the parent class name and pass the child calss object as an argument.
 
 ```py
 y = PhysicianRobot("Doc James")
@@ -117,7 +122,7 @@ Robot.say_hi(y) # using the overridden method from parent
 ## Private variables in Base
 
 Instance variables of the parent class don’t always need to be inherited by the child class. Make such instance variables of the parent class _private_. These then won’t be available to the child class.<br>
-Instance variables of a class can be made private by adding double underscores before its name.
+Instance variables of a class can be made private by adding double underscores (`__`) before its name.
 
 ```py
 class Robot:
@@ -133,7 +138,7 @@ print(y.name) # Output: James
 print(y.__model) # AttributeError
 ```
 
-Since `__model` is a private variable in parent class _Robot_ it cannot be access by child class object _y_.
+Since `__model` is a private variable in parent class _Robot_, it cannot be access by child class object _y_.
 
 ## isinstance() & issubclass()
 
@@ -182,12 +187,10 @@ Employee is derived from `ABC`, making it an Abstract Base Class and `.calculate
 
 ### Single inheritance
 
-<center><img src="../../../../media/Single.png" width=30%></center>
-When a child class inherits from only one parent class, it is called single inheritance. All code above uses single inheritance.
+When a child class inherits from only one parent class, it is called single inheritance. All code snippets above use single inheritance.
 
 ### Multiple inheritance
 
-<center><img src="../../../../media/Multiple-Inheritance.png" width=30%></center>
 When a child class inherits from multiple parent classes, it is called multiple inheritance.
 
 ```py
@@ -219,7 +222,6 @@ Here _PhysicianRobot_ IS-A _Robot_ and a _Physician_, i.e., it inherits from bot
 
 ### Multilevel inheritance
 
-<center><img src="../../../../media/multilevel.jpg" width=30%></center>
 When we have a child and grandchild relationship, i.e., a derived class inherit from a base class and also acts like a base class to another class.
 
 ```py
@@ -259,8 +261,6 @@ print(g.getName(), g.getAge(), g.getAddress())
 
 ### Hierarchical inheritance
 
-<center><img src="../../../../media/hierarchical.jpg" width=45%></center>
-
 More than one derived classes are created from a single base class.
 
 ```py
@@ -287,8 +287,6 @@ print(x.name)
 
 ### Hybrid inheritance
 
-<center><img src="../../../../media/HybridInheritance.png" width=40%></center>
-
 This form combines more than one form of inheritance. Basically, it is a blend of more than one type of inheritance.
 
 ## Look out for
@@ -301,6 +299,26 @@ The program works as expected, but with many classes to support the idea impleme
 
 ### Diamond Problem
 
-<center><img src="../../../../media/Diamond.svg.png" width=20% height=50% ></center>
-
 The **diamond problem** is an ambiguity that arises in multiple inheritance, when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
+
+```py
+class A:
+    def m(self):
+        print("inside A")
+       
+class B(A):
+    def m(self):
+        print("in B")
+ 
+class C(A):
+    def m(self):
+        print("in C") 
+        
+class D(B, C):
+    pass
+     
+obj = D()
+obj.m() #Output: in B
+```
+
+ Call to `obj.m()` the output is `in B`. If D is declared as `D(C, B)` then the output of `obj.m()` will be `in C`. So, the order of parent classes decides which class it inherits from. To call the parent function of choice use the [super() method](#super()) inside the child class.
