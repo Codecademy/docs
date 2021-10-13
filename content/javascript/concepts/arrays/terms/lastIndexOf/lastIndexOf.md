@@ -38,7 +38,7 @@ console.log(lastIndexOf2);
 // Output: 1
 ```
 
-If element is not found the result will be `-1`:
+If the element is not found, the result will be `-1`:
 
 ```js
 const fruits = ['apple', 'orange', 'peach'];
