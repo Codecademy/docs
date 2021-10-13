@@ -1,6 +1,6 @@
 ---
 Title: 'random.choice()'
-Description: 'Takes in any iterable, and returns an item sampled at random from that iterable.'
+Description: The `random.choice()` function returns a random sample drawn from an iterable argument, such as a list.
 Subjects:
   - 'Computer Science'
   - 'Data Science'
