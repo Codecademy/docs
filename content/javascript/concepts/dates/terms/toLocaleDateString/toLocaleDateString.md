@@ -14,26 +14,25 @@ CatalogContent:
 
 # **toLocaleDateString()**
 
- This method returns a string with a language sensitive representation of the date portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and allow to customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
+This method returns a string with a language sensitive representation of the date portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and allow to customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
 
 # **Syntax**
+
 ```
 toLocaleDateString()
 toLocaleDateString(locales)
 toLocaleDateString(locales, options)
 ```
+
 The locales and options arguments customize the behavior of the function and let applications specify the language whose formatting conventions should be used. In implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
-
-
-
 
 # **Example**
 
 In basic use without specifying a locale, a formatted string in the default locale and with default options is returned.
 
- ```
+```
 
- var date = new Date(Date.UTC(2012, 11, 12, 3, 0, 0));
+var date = new Date(Date.UTC(2012, 11, 12, 3, 0, 0));
 
 // toLocaleDateString() without arguments depends on the implementation,
 
@@ -42,9 +41,10 @@ console.log(date.toLocaleDateString());
 
 // → "12/11/2012" if run in en-US locale with time zone America/Los_Angeles
 
- ```
+```
 
 # **Some more Examples of toLocaleDateString()**
+
 ```
 var date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
