@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-- Search through a string for the occurrence of a pattern, or a substring.
-- Return the starting index of the first occurrence of the pattern or substring.
-- Return -1 if the pattern is not found.
+'Searches a string for the occurrence of a pattern, or a substring, and returns the starting index of the substring (or -1 if there is no match).'
 
 ## Syntax
 
