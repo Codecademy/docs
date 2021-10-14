@@ -26,6 +26,7 @@ community include:
 
 Examples of unacceptable behavior include:
 
+- Plagerism of any kind from other documentation sites
 - The use of sexualized language or imagery, and sexual attention or
   advances of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
@@ -33,7 +34,7 @@ Examples of unacceptable behavior include:
 - Publishing others' private information, such as a physical or email
   address, without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+  professional setting 
 
 ## Enforcement Responsibilities
 
@@ -62,21 +63,14 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:
 
-### 1. Correction
+### 1. Warning
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+**Community Impact**: Plagiarism or use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in PRs, Issues, comments, reviews, and the community.
 
-**Consequence**: A private, written warning from community leaders, providing
+**Consequence**: A written warning from maintainers, providing
 clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
-
-### 2. Warning
-
-**Community Impact**: A violation through a single incident or series
-of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No
+behavior was inappropriate, as well as consequences for continued behavior. No
 interaction with the people involved, including unsolicited interaction with
 those enforcing the Code of Conduct, for a specified period of time. This
 includes avoiding interactions in community spaces as well as external channels
@@ -86,7 +80,7 @@ permanent ban.
 ### 3. Temporary Ban
 
 **Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+sustained inappropriate behavior, or the 2nd case of plagerism after receiving the 1st warning.
 
 **Consequence**: A temporary ban from any sort of interaction or public
 communication with the community for a specified period of time. No public or
@@ -101,13 +95,12 @@ standards, including sustained inappropriate behavior, harassment of an
 individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
-the community.
+Docs and the community. Any future PRs will be automatically closed.
 
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+version 2.0.
 
 [homepage]: https://www.contributor-covenant.org
 
