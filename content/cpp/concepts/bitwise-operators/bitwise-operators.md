@@ -32,8 +32,8 @@ The bitwise AND operator, `&`:
 For example:
 
 ```pseudo
-4 = 100 (Base-2 binary system)
-5 = 101 (Base-2 binary system)
+4 = 100 (base-2 binary system)
+5 = 101 (base-2 binary system)
 
     100
     101
@@ -49,7 +49,7 @@ int main() {
 
   return 0;
 }
-// Output: 100 (Base-2 binary system) = 4
+// Output: 100 (base-2 binary system) = 4
 ```
 
 ## | Bitwise OR
@@ -62,8 +62,8 @@ The Bitwise OR operator returns either of the following:
 For example:
 
 ```pseudo
-4 = 100 (Base-2 binary system)
-5 = 101 (Base-2 binary system)
+4 = 100 (base-2 binary system)
+5 = 101 (base-2 binary system)
 
     100
     101
@@ -79,7 +79,7 @@ int main() {
 
   return 0;
 }
-// Output: 101 (Base-2 binary system) = 5
+// Output: 101 (base-2 binary system) = 5
 ```
 
 ## << Bitwise Left Shift
@@ -89,7 +89,7 @@ The left shift operator shifts all the bits towards the left side according to t
 For example:
 
 ```pseudo
-4 = 100 (Base-2 binary system)
+4 = 100 (base-2 binary system)
 
 4 << 1
 100 << 1
@@ -120,7 +120,7 @@ The right shift operator shifts all the bits towards the right side by the numbe
 For example:
 
 ```pseudo
-4 = 100 (Base-2 binary system)
+4 = 100 (base-2 binary system)
 
 4 >> 1
 0 + 100 - 0
@@ -184,8 +184,8 @@ int main() {
 The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
 ```pseudo
-12 = 01100(Base-2 binary system)
-10 = 01010(Base-2 binary system)
+12 = 01100 (base-2 binary system)
+10 = 01010 (base-2 binary system)
 
       1100
       1010
