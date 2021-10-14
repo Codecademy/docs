@@ -77,7 +77,7 @@ print(returned_value)
 
 ## Default Values for Function Parameters
 
-When one or more of the function's parameters take the same value in most function calls, it's recommended to initialize the parameter to a default value.
+Function parameters can also be initialized to a default value.
 
 In the function `calc_total()`, the default value of `discount` is 10.
 
