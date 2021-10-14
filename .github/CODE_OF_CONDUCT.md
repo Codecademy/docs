@@ -80,7 +80,7 @@ permanent ban.
 ### 3. Temporary Ban
 
 **Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+sustained inappropriate behavior, or the 2nd case of plagerism after receiving the 1st warning.
 
 **Consequence**: A temporary ban from any sort of interaction or public
 communication with the community for a specified period of time. No public or
