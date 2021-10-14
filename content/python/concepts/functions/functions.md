@@ -96,7 +96,7 @@ calc_total(250, 5)
 
 ## Functions with Variable Number of Parameters
 
-When the number of arguments can be different in each function call, the function definition can be modified accordingly.
+When the number of arguments varies with each function call, the function definition can be modified accordingly.
 
 In the function definition, `*args` is used with the special character `*` indicating that it's possible to loop through and consume all arguments in `*args`.
 
