@@ -12,24 +12,31 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Since casting changes the variable's data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
+Since casting changes the variable's data type, the `float()` function type cast an integer to a float. Alternatively, `str()` function type cast an integer to a string. These conversions can be implicit
+or explicit.
 
 ## Implicit Type Conversion
 
-Python converts one data type into another without the user's involvement and renders a variable's data type. Unlike C++/C, in Python, variable types do not need to be defined.
+Python interpreter automatically type cast one data type into another data type. Such type of coversions
+are done without user's involvement.
 
 ```py
-x = 7
-print(type(x))
+a = 7  # Int type variable
+b = 2.2 # Float type variable
+print(type(a))
+print(type(b))
 
-y = 7.0
-print(type(x))
+y = a + b # Python automatically type cast 'y' into float
+print(y)  
+print(type(y))
 ```
 
 This will output:
 
 ```shell
 <class 'int'>
+<class 'float'>
+9.2
 <class 'float'>
 ```
 
