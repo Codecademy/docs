@@ -1,5 +1,5 @@
 ---
-Title: 'What is Git?'
+Title: 'Git'
 Description: 'Git is a version control system that allows developers to track changes made to their project files. Teams can use Git to collaborate on projects at scale.'
 Subjects:
   - 'Web Development'
