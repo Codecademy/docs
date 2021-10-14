@@ -1,5 +1,5 @@
 ---
-Title: .title()
+Title: '.title()'
 Description: 'Takes in a string and returns a copy of the string formatted in the title case: each word in the string is capitalized.'
 Subjects:
   - 'Data Science'
