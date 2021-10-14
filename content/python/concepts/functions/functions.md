@@ -81,7 +81,7 @@ Function parameters can also be initialized to a default value.
 
 In the function `calc_total()`, the default value of `discount` is 10.
 
-- When the `discount` value is explicitly specified in the function call, that value is used. 
+- When the `discount` value is explicitly specified in the function call, that value is used.
 - Else, the default value of 10 is used.
 
 ```py
