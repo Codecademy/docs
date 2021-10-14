@@ -20,7 +20,7 @@ Methods consist of at least the following elements:
 - name
 - arguments
 
-Additionally they optionally define:
+Additionally they optionally include:
 
 - modifier
 - exceptions
