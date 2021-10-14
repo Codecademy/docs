@@ -95,7 +95,7 @@ standards, including sustained inappropriate behavior, harassment of an
 individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
-the community.
+Docs and the community. Any future PRs will be automatically closed.
 
 ## Attribution
 
