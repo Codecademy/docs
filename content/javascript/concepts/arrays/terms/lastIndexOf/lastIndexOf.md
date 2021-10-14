@@ -41,6 +41,7 @@ console.log(lastIndexOf2);
 // Output: 1
 ```
 Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1. 
+
 ## Example 2
 
 If the element is not found, the result will be `-1`:
