@@ -91,7 +91,7 @@ def calc_total(amount,discount=10):
 
 calc_total(100)
 
-calc_total(250,5)
+calc_total(250, 5)
 ```
 
 ## Functions with Variable Number of Parameters
