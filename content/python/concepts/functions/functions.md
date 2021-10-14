@@ -105,9 +105,9 @@ The function call can have 2,3,5 or any number of arguments as needed.
 
 ```py
 def multiply(*args):
-  product=1
+  product = 1
   for arg in args:
-    product*= arg
+    product *= arg
   return product
 
 multiply(21, 24, 17)
