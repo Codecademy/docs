@@ -25,35 +25,38 @@ array.lastIndexOf(searchElement, fromIndex);
 - `searchElement`: The element we are looking for.
 - `fromIndex` (optional): The starting index position that search begins.
 
-A negative `fromIndex` will offset from the end of the array to begin search. The array is still searched from back to front.
+A negative `fromIndex` will offset from the end of the array to begin search. The array is still searched backward.
 
-Note that the default value of `fromIndex` is `array.length - 1`.
+**Note:** The default value of `fromIndex` is `array.length - 1`.
 
-## Example #1
+## Example 1
 
 Find the last index of `2` in the `numbers` array:
 
 ```js
 const numbers = [1, 2, 3];
 const lastIndexOf2 = numbers.lastIndexOf(2);
+
 console.log(lastIndexOf2);
 // Output: 1
 ```
 
-## Example #2
+## Example 2
 
 If the element is not found, the result will be `-1`:
 
 ```js
 const fruits = ['apple', 'orange', 'peach'];
+
 const lastIndexOfCherry = fruits.lastIndexOf('cherry');
+
 console.log(lastIndexOfCherry);
 // Output: -1
 ```
 
-## Example #3
+## Example 3
 
-Check if the color `'blue'` is in the `rainbow` array, before the fifth element:
+Check if the color 'blue' is in the `rainbow` array, before the fifth element:
 
 ```js
 const rainbow = [
@@ -65,18 +68,22 @@ const rainbow = [
   'indigo',
   'violet',
 ];
+
 const checkIndigo = rainbow.indexOf('indigo', 4);
+
 console.log(checkIndigo);
 // Output: -1
 ```
 
-## Example #4
+## Example 4
 
 Multiple matches will only return the last index where a match occurs:
 
 ```js
 const repeatGreeting = ['hello world', 'hello world', 'hello world'];
+
 const lastGreeting = repeatGreeting.lastIndexOf('hello world');
+
 console.log(lastGreeting);
 // Output: 2
 ```
