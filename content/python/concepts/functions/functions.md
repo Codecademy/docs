@@ -100,7 +100,7 @@ When the number of arguments can be different in each function call, the functio
 
 In the function definition, `*args` is used with the special character `*` indicating that it's possible to loop through and consume all arguments in `*args`.
 
-In the example below, the function `multiply()` returns the product of all numbers used in the function call.
+In the example below, the `multiply()` function returns the product of all numbers used in the function call.
 The function call can have 2,3,5 or any number of arguments as needed.
 
 ```py
