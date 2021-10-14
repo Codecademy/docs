@@ -69,7 +69,7 @@ Methods declared as package private can only be called from classes within the s
 
 #### protected
 
-Methods declared as protected can only be called within a class hierachy.
+Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
 
 ### Additional modifiers
 
