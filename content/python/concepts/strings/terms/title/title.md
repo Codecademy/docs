@@ -27,8 +27,8 @@ Use `.title()` to format a string in title case:
 
 ```py
 my_string = "Learn coding from Codecademy"
-print(my_string.title())
 
+print(my_string.title())
 # Output: Learn Coding From Codecademy
 ```
 
@@ -38,8 +38,8 @@ Use `.title()` to format `author_name` in the title case:
 
 ```py
 author_name = "jane smith"
-print(author_name.title())
 
+print(author_name.title())
 # Output: Jane Smith
 ```
 
@@ -50,6 +50,4 @@ Use `.title()` to format the string `my_string` in the title case:
 ```codebyte/python
 my_string = "Codecademy docs is a cool project!"
 print(my_string.title())
-
-# Output: Codecademy Docs Is A Cool Project!
 ```
