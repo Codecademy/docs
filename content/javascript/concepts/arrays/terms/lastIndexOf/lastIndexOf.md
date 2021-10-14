@@ -76,6 +76,7 @@ console.log(checkIndigo);
 // Output: -1
 ```
 Since `fromIndex` is assigned to 4, the search will begin at `blue` and search all previous elements before it.  The element `indigo` will not be found by the search because none of the elements after `blue` will be searched.
+
 ## Example 4
 
 Multiple matches will only return the last index where a match occurs:
