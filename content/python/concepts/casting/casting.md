@@ -64,7 +64,7 @@ This will output:
 
 ```shell
 <class 'int'>
-7.2
+7
 <class 'str'>
 ```
 
@@ -88,7 +88,7 @@ This will output:
 <class 'str'>
 ```
 
-### Type Casting `string` to `int`
+### Type Casting `str` to `int`
 
 ```py
 x = "7" # String type variable
