@@ -12,8 +12,6 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-## Casting
-
 Since casting helps in changing the variable data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
 
 ## Implict Type Conversion
@@ -43,7 +41,7 @@ In this user convert the data type of variable with the help of predefined funct
 `int()`: `int()` function takes string or float as argument convert it to integer data type.
 `float()`: `float()` function takes integer or string as argument and covert it to float data type.
 
-### Type casting `int` to `string`
+### Type Casting `int` to `string`
 
 ```py
 x = 7  # Int type variable
@@ -63,7 +61,7 @@ This will be output:
 <class 'str'>
 ```
 
-### Type casting `float` to `string`
+### Type Casting `float` to `string`
 
 ```py
 x = 7.2  # Float type variable
@@ -103,7 +101,7 @@ This will be output:
 <class 'int'>
 ```
 
-### Type casting `string` to `float`
+### Type Casting `string` to `float`
 
 ```py
 x = "7.2" # String type variable
@@ -123,7 +121,7 @@ This will be output:
 <class 'float'>
 ```
 
-### Type casting `int` to `float`
+### Type Casting `int` to `float`
 
 ```py
 x = 7  # Int type variable
