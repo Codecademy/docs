@@ -1,15 +1,15 @@
 ---
 Title: 'Casting'
-Description: 'Casting is a method in which a variable's data type converts into another data type.'
+Description: 'Casting is a method in which a variables data type converts into another data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Functions'
   - 'Classes'
+  - 'Functions'
 CatalogContent:
   - 'learn-python-3'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
 Since casting changes the variable's data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
