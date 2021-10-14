@@ -110,9 +110,9 @@ def multiply(*args):
     product*= arg
   return product
 
-multiply(21,24,17)
+multiply(21, 24, 17)
 
-multiply(10,5,3,6)
+multiply(10, 5, 3, 6)
 ```
 
 ## Recursion
