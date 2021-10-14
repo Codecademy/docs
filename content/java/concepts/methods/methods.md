@@ -57,7 +57,7 @@ public int sum(int number1, int number2) {
 
 #### public
 
-Methods declared as public can be called from everywhere of the outside of the object or the class.
+Methods declared as public can be called from everywhere, inside and outside of the object or the class.
 
 #### private
 
