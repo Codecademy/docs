@@ -1,6 +1,6 @@
 ---
 Title: 'Casting'
-Description: 'Casting is method in which variable data type is converted into another data type.'
+Description: 'Casting is a method in which a variable's data type converts into another data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-Since casting helps in changing the variable data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
+Since casting changes the variable's data type, we can type cast an integer to a float using the `float()` function. Alternatively, we can convert an integer to a string using the `str()` function. These conversions can be implicit or explicit.
 
-## Implict Type Conversion
+## Implicit Type Conversion
 
-In this Pyhton convert one data type into another without user's involvement. Python itself render variable's data type. Variable type need not to be defined as we do in C++/C.
+Python converts one data type into another without the user's involvement and renders a variable's data type. Unlike C++/C, in Python, variable types do not need to be defined.
 
 ```py
 x = 7
@@ -26,7 +26,7 @@ y = 7.0
 print(type(x))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'int'>
@@ -37,9 +37,9 @@ This will be output:
 
 In this user convert the data type of variable with the help of predefined function like `float()`, `int()`, `str()` to convert the variable data type.
 
-`str()`: `str()` function takes int or float as argument and convet it to string data type.
-`int()`: `int()` function takes string or float as argument convert it to integer data type.
-`float()`: `float()` function takes integer or string as argument and covert it to float data type.
+- `str()`: This function takes int or float as an argument and converts it to string data type.
+- `int()`: This function takes string or float as an argument converts it to integer data type.
+- `float()`: This function takes integer or string as an argument and converts it to float data type.
 
 ### Type Casting `int` to `string`
 
@@ -53,7 +53,7 @@ print(y)
 print(type(y))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'int'>
@@ -73,7 +73,7 @@ print(y)
 print(type(y))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'float'>
@@ -93,7 +93,7 @@ print(y)
 print(type(y))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'str'>
@@ -113,7 +113,7 @@ print(y)
 print(type(y))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'str'>
@@ -133,7 +133,7 @@ print(y)
 print(type(y))
 ```
 
-This will be output:
+This will output:
 
 ```shell
 <class 'int'>
