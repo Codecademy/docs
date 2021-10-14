@@ -39,7 +39,7 @@ arguments: `int number1, , int number2`
 ## Return type
 
 If methods shouldn't return a value they have to be defined as methods with return type `void`.
-Further possibilities as return types can be seen (in the chapter "data types".
+Further possibilities as return types can be seen under "data types".
 
 ## Modifier
 
