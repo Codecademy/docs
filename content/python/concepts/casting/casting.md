@@ -17,8 +17,7 @@ or explicit.
 
 ## Implicit Type Conversion
 
-Python interpreter automatically type cast one data type into another data type. Such type of coversions
-are done without user's involvement.
+Python interpreter automatically type cast one data type into another data type. Such type of coversions are done without user's involvement.
 
 ```py
 a = 7  # Int type variable
