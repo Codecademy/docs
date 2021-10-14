@@ -69,7 +69,7 @@ const rainbow = [
   'violet',
 ];
 
-const checkIndigo = rainbow.indexOf('indigo', 4);
+const checkIndigo = rainbow.lastIndexOf('indigo', 4);
 
 console.log(checkIndigo);
 // Output: -1
