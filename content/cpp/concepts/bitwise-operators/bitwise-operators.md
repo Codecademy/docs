@@ -184,13 +184,13 @@ int main() {
 The exclusive or (XOR) operator returns 1 if both the operands are different and returns 0 if both of them are the same (1, 1 or 0, 0)
 
 ```pseudo
-12 = 01100 (base-2 binary system)
-10 = 01010 (base-2 binary system)
+12 = 1100 (base-2 binary system)
+10 = 1010 (base-2 binary system)
 
-      1100
-      1010
-      ____
-      0110 which is 6 in base-10 binary system.
+     1100
+     1010
+     ____
+     0110 which is 6 in base-10 binary system.
 ```
 
 ```cpp
