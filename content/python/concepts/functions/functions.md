@@ -84,7 +84,7 @@ In the function `calc_total()`, the default value of `discount` is 10.
 - When the `discount` value is explicitly specified in the function call, that value is used. 
 - Else, the default value of 10 is used.
 
-```codebyte/python
+```py
 def calc_total(amount,discount=10):
   total = amount*(1 - 0.01*discount)
   return total
