@@ -48,4 +48,4 @@ Changes to be committed:
   new file:   example.txt
 ```
 
-You will observe that the file name(now appearing as green) is now pushed to the staging area and will be saved with the next commit.
+The file name now appears in green when running `git status` and will be pushed to the staging area and will be saved with the next commit.
