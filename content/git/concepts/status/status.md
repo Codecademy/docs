@@ -6,6 +6,7 @@ Subjects:
   - 'Developer Tools'
 Tags:
   - 'Git'
+  - 'Version Control'
 CatalogContent:
   - 'learn-git'
   - 'learn-the-command-line'
