@@ -56,41 +56,40 @@ boolean result = a > b;
 // result now holds the boolean value true
 ```
 
-## Bitwise operators
+## Bitwise Operators
 
 Bitwise operators are used to manipulate individual bits of a number.
 
 - `&` Bitwise AND
 - `|` Bitwise OR
 - `^` Bitwise XOR
-- `~` Bitwise Complement
-- `<<` Signed Right shift operator
-- `>>` Signed Left shift operator
-- `>>>` Unsigned Right shift operator
-- `<<<` Unsigned Left shift operator
+- `~` Bitwise complement
+- `<<` Signed right shift operator
+- `>>` Signed left shift operator
+- `>>>` Unsigned right shift operator
+- `<<<` Unsigned left shift operator
 
-They can only be operated on data of int,char,byte,long and short.
+They can only be operated on data of `int`, `char`, `byte`, `long`, and `short`.
 
 ```java
 int a = 5;
 int b = 3;
 
 int bitwiseAnd = a & b;
-// bitwiseAnd now holds the value 1
+// 1
 
 int bitwiseOr = a | b;
-// bitwiseAnd now holds the value 7
+// 7
 
 int bitwiseXor = a ^ b;
-// bitwiseXor now holds the value 6
+// 6
 
 int bitwiseComplement = ~a;
-// bitwiseComplement now holds the value -6
+// -6
 
 int bitwiseRightShift = a >> b;
-// bitwiseRightShift now holds the value 0
+// 0
 
 int bitwiseLeftShift = a << b;
-// bitwiseLeftShift now holds the value 40
-
+// 40
 ```
