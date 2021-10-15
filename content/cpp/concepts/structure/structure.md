@@ -36,6 +36,10 @@ struct structure_name
 
 ## Example
 
+The example below contains a structure of structure name(or tag name) as `Coder` and it contains three members `Name` , `Username` and `ID` declared within a pair of curly brackets(`{ }`).
+
+A `;` is used after the close bracket to end the declaration of the structure.
+
 ```cpp
 struct Coder
 {
@@ -142,4 +146,16 @@ struct Coder
 
     }D;
 }C;
+```
+
+`D` is the structure variable for structure `DOB` and `C` is the structure variable for structure `Coder`.
+
+The members of structure inside another structure(nested structure) can be accessed in this way:
+
+`var1.var2.member1`
+
+Initializing a member of above example:
+
+```cpp
+C.D.Day=10;
 ```
