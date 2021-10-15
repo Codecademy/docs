@@ -28,7 +28,7 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	example.txt
+  example.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -42,7 +42,7 @@ No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-	new file:   example.txt
+  new file:   example.txt
 ```
 
 You will observe that the file name(now appearing as green) is now pushed to the staging area and will be saved with the next commit.
