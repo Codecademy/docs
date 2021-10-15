@@ -1,6 +1,6 @@
 ---
 Title: 'Status'
-Description: 'Git status shows the state of the working directory and staging area and which files are untracked (names showed in red)(not staged) and tracked(shown in green)(staged). The next time you commit, the tracked files or the files added to the staging area will be saved with the commit.'
+Description: 'Git status shows the state of the working directory and staging area and which files are untracked and tracked.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -15,6 +15,5 @@ CatalogContent:
 
 Git status shows the state of the working directory and staging area and which files are untracked (names showed in red)(not staged) and tracked(shown in green)(staged). The tracked files which are shown in green are the files found in the staging area and will be saved with the next commit. 
 
-### Commands used:
+For an example for the usage of the command, please refer to the ```git add``` command file.
 
-1) ```git staus```
