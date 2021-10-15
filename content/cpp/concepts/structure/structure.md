@@ -22,8 +22,7 @@ A structure is defined with:
 3. A semicolon (`;`) at the end.
 
 ```cpp
-struct structure_name
-{
+struct structure_name {
     member1;
     member2;
     member3;
@@ -41,8 +40,7 @@ The example below contains a structure of structure name(or tag name) as `Coder`
 A `;` is used after the close bracket to end the declaration of the structure.
 
 ```cpp
-struct Coder
-{
+struct Coder {
    char Name[30];
    char Username[15];
    long ID;
@@ -133,13 +131,11 @@ A structure variable can also be a member of, or nested in, another structure.
 In the example below, a `DOB` structure is nested in a `Coder` structure:
 
 ```cpp
-struct Coder
-{
+struct Coder {
     char Name[30];
     char Username[15];
     long ID;
-    struct DOB
-    {
+    struct DOB {
         int Day;
         char Month[12];
         int Year;
