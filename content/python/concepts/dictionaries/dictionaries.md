@@ -107,20 +107,20 @@ my_dict[new_key] = new_value
 
 ## Creating a Dictionary using Dictionary Comprehension
 
-Like a list comprehension, a dictionary comprehension is a pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
+Like a list comprehension, a dictionary comprehension is a Pythonic way to create a dictionary. They can be used to filter and manipulate data in tons of useful ways. The syntax is as follows:
 
 ```py
 new_dict = { expression for key, value in old_dict.items() if condition }
 ```
 
-The `if condition` is optional, but is a great tool for filtering data. For example, given a dictionary with a person's name and age, make a new dictionary that only contains people with an age under 25:
+The `if` condition at the end is optional, but is a great tool for filtering data. For example, given a dictionary with a person's name and age, make a new dictionary that only contains people with an age under 25:
 
 ```py
 person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
 person_age_filtered = { name: age for name, age in person_age.items() if age < 25 }
 ```
 
-The expression is `name: age`, as that's how the new dictionary will be formatted. Then, the typical for loop iteration, `for name, age in person_age.items()`. Lastly, the if condition that filters out the results.
+The expression is `name: age`, as that's how the new dictionary will be formatted. Then, the typical for loop iteration, `for name, age in person_age.items()`. Lastly, the `if` condition filters out the results.
 
 The expression can also perform operations on the data being extracting. For example, to create a dictionary with key value pairs of a number and its square given a list of numbers:
 
