@@ -17,21 +17,21 @@ Inheritance is an object-oriented programming concept where a class derives attr
 
 ```py
 # Base/super/parent class
-class Robot:
+class ProgramLanguage:
     def __init__(self, name):
         self.name = name
 
 # Derived/sub/child class
-class PhysicianRobot(Robot):
+class Python(ProgramLanguage):
     pass
 
 # Create object of derived class
-y = PhysicianRobot("Jamie")
+y = Python("Inheritance")
 
-print(y.name) # Output: Jamie
+print(y.name) # Output: Inheritance
 ```
 
-In the above code subclass _PhysicianRobot_ inherits variable `name` and method `__init__` from the base class _Robot_.
+In the above code subclass _Python_ inherits variable `name` and method `__init__` from the base class _ProgramLanguage_.
 
 ## Reusing Parent Methods
 
@@ -39,29 +39,26 @@ Base class methods can be reused in the derived classes. This prevents redundant
 
 ```py
 # Base class
-class Robot:
-    def __init__(self, name):
-        self.name = name
-
+class ProgramLanguage:
     def say_hi(self):
-        print("Hi! I am",self.name)
+        print("Hi! I am a Programming Language.")
 
 # Derived class
-class PhysicianRobot(Robot):
+class Python(ProgramLanguage):
     def intro(self):
-        Robot.say_hi(self) # Parent class method
-        print("and I am a physician!")
+        ProgramLanguage.say_hi(self) # Parent class method
+        print("Python here!")
 
 # Object of the derived class
-doc = PhysicianRobot("Dr. Frankenstein")
+doc = Python()
 doc.intro()
 
 # Output:
-# Hi! I am Dr. Frankenstein
-# and I am a physician!
+# Hi! I am a Programming Language.
+# Python here!
 ```
 
-Derived class `PhysicianRobot` calls parent class method `say_hi()` inside `intro()`.
+Derived class `Python` calls parent class method `say_hi()` inside `intro()`.
 
 **Note**: The same number and type of arguments need to be passed in the parent class method inside the child class.
 
@@ -70,20 +67,20 @@ Derived class `PhysicianRobot` calls parent class method `say_hi()` inside `intr
 Another way of reusing parent methods in child classes is the `super()` function. `super()` alone returns a temporary object of the superclass that then allows to call that superclass’s methods. This comes in handy when using [multiple inheritance](#multiple-inheritance).
 
 ```py
-class PhysicianRobot(Robot):
+class Python(ProgramLanguage):
     def intro(self):
         super().say_hi() # Reuse parent class method
-        print("and I am a physician!")
+        print("Python here!")
 
-doc = PhysicianRobot("Dr. Frankenstein")
+doc = Python()
 doc.intro()
 
 # Output:
-# Hi! I am Dr. Frankenstein
-# and I am a physician!
+# Hi! I am a Programming Language.
+# Python here!
 ```
 
-Derived class _PhysicianRobot_ calls parent class method `.say_hi()` inside `intro()`.
+Derived class _Python_ calls parent class method `.say_hi()` inside `intro()`.
 
 **Note**: `self` argument is not needed here and the same number and type of arguments need to be passed in the parent class method inside the child class.
 
@@ -92,32 +89,29 @@ Derived class _PhysicianRobot_ calls parent class method `.say_hi()` inside `int
 A method of a parent class gets overridden by simply defining a method with the same name in the child class.
 
 ```py
-class PhysicianRobot(Robot):
-    def say_hi(self): # overriding parent method
-        print("Everything will be okay! ")
-        print(self.name + " takes care of you!")
+class Python(ProgramLanguage):
+    def say_hi(self): # Overriding parent method
+        print("Hi! I am Python. I am fun!")
 
-y = PhysicianRobot("James")
+y = Python()
 y.say_hi()
 
 # Output:
-# Everything will be okay!
-# James takes care of you!
+# Hi! I am Python. I am fun!
 ```
 
 If a method is overridden in a class, the original method can still be accessed but we have to do it by calling the method directly with the parent class name and pass the child calss object as an argument.
 
 ```py
-y = PhysicianRobot("Doc James")
+y = Python()
 y.say_hi()
-print("... and now the 'old' robot way of saying hi")
-Robot.say_hi(y) # Using the overridden method from parent class
+print("... and now the 'old' ProgramLanguage way of saying hi")
+ProgramLanguage.say_hi(y) # Using the overridden method from parent class
 
 # Output:
-# Everything will be okay!
-# Doc James takes care of you!
-# ... and now the 'old' robot way of saying hi
-# Hi, I am Doc James
+# Hi! I am Python.
+# ... and now the 'old' ProgramLanguage way of saying hi
+# Hi! I am a Programming Language.
 ```
 
 ## Private Variables in Base
@@ -127,20 +121,20 @@ Instance variables of the parent class don’t always need to be inherited by th
 Instance variables of a class can be made private by adding double underscores (`__`) before its name.
 
 ```py
-class Robot:
+class ProgramLanguage:
     def __init__(self, name):
         self.name = name
-        self.__model = '099-AI' # Private variable
+        self.__private = 'Not a Snake' # Private variable
 
-class PhysicianRobot(Robot):
+class Python(ProgramLanguage):
     pass
 
-y = PhysicianRobot("James")
-print(y.name) # Output: James
-print(y.__model) # AttributeError
+y = Python("Inheritance")
+print(y.name) # Output: Inheritance
+print(y.__private) # AttributeError
 ```
 
-Since `__model` is a private variable in parent class _Robot_, it cannot be access by child class object _y_.
+Since `__model` is a private variable in parent class _ProgramLanguage_, it cannot be access by child class object _y_.
 
 ## `isinstance()` and `issubclass()`
 
@@ -197,30 +191,30 @@ When a child class inherits from multiple parent classes, it is called multiple 
 
 ```py
 # Parent 1
-class Robot:
+class ProgramLanguage:
     def __init__(self, name):
         self.name = name
 
 # Parent 2
-class Physician:
-    def __init__(self, experience):
-        self.experience = experience
+class ScriptLanguage:
+    def __init__(self, text):
+        self.text = text
 
 # Child class
-class PhysicianRobot(Robot, Physician):
+class Python(ProgramLanguage, ScriptLanguage):
     # Reusing methods/constructors and overriding __init__()
-    def __init__(self,name, experience):
-        Robot.__init__(self,name)
-        Physician.__init__(self,experience)
+    def __init__(self,name, text):
+        ProgramLanguage.__init__(self,name)
+        ScriptLanguage.__init__(self,text)
 
 # create object of derived class
-y = PhysicianRobot("Jamie",3)
-print("Hi! I am {}. I have been a physician for {} years.".format(y.name, y.experience))
+y = Python("Inheritance","I allow code reusability.")
+print("Hi! I am {}. {}".format(y.name, y.text))
 
-# Output: Hi! I am Jamie. I have been a physician for 3 years.
+# Output: Hi! I am Inheritance. I allow code reusability.
 ```
 
-Here `PhysicianRobot` IS-A `Robot` and a `Physician`, i.e., it inherits from both these classes.
+Here `Python` IS-A `ProgramLanguage` and a `ScriptLanguage`, i.e., it inherits from both these classes.
 
 ### Multilevel Inheritance
 
@@ -266,25 +260,24 @@ print(g.getName(), g.getAge(), g.getAddress())
 More than one derived classes are created from a single base class.
 
 ```py
-class Robot:
+class ProgramLanguage:
     def __init__(self, name):
         self.name = name
-        self.__model = '099-AI'
 
-class PhysicianRobot(Robot):
+class Python(ProgramLanguage):
     pass
 
-class NurseRobot(Robot):
+class Java(ProgramLanguage):
     pass
 
-y = PhysicianRobot("James")
+y = Python("Python")
 print(y.name)
-x = NurseRobot("Jamie")
+x = Java("Java")
 print(x.name)
 
 # Output:
-# James
-# Jamie
+# Python
+# Java
 ```
 
 ### Hybrid Inheritance
