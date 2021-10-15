@@ -48,6 +48,6 @@ print(author_name.title())
 Use `.title()` to format the string `my_string` in the title case:
 
 ```codebyte/python
-my_string = "Codecademy docs is a cool project!"
+my_string = "Soon everyone will have a 5g connection!"
 print(my_string.title())
 ```
