@@ -126,7 +126,7 @@ x4=0    y4=2
 
 A structure variable can also be a member of, or nested in, another structure.
 
-Example of using nested structure:
+In the example below, a `DOB` structure is nested in a `Coder` structure:
 
 ```cpp
 struct Coder
