@@ -33,9 +33,12 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-As the file (appearing in red) is not untracked, to track the file we use the `git add filename.extention` after which if you use the `git status` command, you will observe the following.
+Since the file (in red) is untracked, `git add` can be used to stage it for the next commit. Afterwards, running `git status` again should yield the following:
 
-```
+```git
+git add example.txt
+git status
+
 On branch master
 
 No commits yet
