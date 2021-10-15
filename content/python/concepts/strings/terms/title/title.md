@@ -34,7 +34,7 @@ print(my_string.title())
 
 ## Example 2
 
-Use `.title()` to format `author_name` in the title case:
+Use `.title()` to format `author_name` in title case:
 
 ```py
 author_name = "jane smith"
