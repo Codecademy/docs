@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.title()` method takes in a string and returns a copy of the string formatted in the title case: each word in the string is capitalized.
+The `.title()` string method takes in a string and returns a copy of the string formatted in the title case: each word in the string is capitalized.
 
 ## Syntax
 
