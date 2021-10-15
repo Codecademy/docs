@@ -40,7 +40,8 @@ const lastIndexOf2 = numbers.lastIndexOf(2);
 console.log(lastIndexOf2);
 // Output: 1
 ```
-Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1. 
+
+Since the `fromIndex` is not specified, the search will start at the end of the array. Then, iterating backward, the element we are searching for is found at index 1.
 
 ## Example 2
 
@@ -75,7 +76,8 @@ const checkIndigo = rainbow.lastIndexOf('indigo', 4);
 console.log(checkIndigo);
 // Output: -1
 ```
-Since `fromIndex` is assigned to 4, the search will begin at `blue` and search all previous elements before it.  The element `indigo` will not be found by the search because none of the elements after `blue` will be searched.
+
+Since `fromIndex` is assigned to 4, the search will begin at `blue` and search all previous elements before it. The element `indigo` will not be found by the search because none of the elements after `blue` will be searched.
 
 ## Example 4
 
