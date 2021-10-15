@@ -60,7 +60,7 @@ struct Coordinates {
 
 int main()
 {
-  struct Coordinates c2 = { 0, 1 }; // Declairing and initializing variable c2
+  struct Coordinates c2 = { 0, 1 }; // Declaring and initializing variable c2
     c1.x = 2;
     c1.y = 2;
     cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // for variable c1
