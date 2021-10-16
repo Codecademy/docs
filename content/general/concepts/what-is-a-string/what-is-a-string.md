@@ -25,7 +25,7 @@ In computer science, sequences of characters are referred to as strings. Strings
 
 They are usually contained within a pair of `'single quotes'` or `"double quotes"`.
 
-## Example of strings
+## Examples of strings
 
 Here are some examples of strings:
 
