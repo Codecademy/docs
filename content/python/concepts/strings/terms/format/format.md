@@ -25,20 +25,22 @@ string.format(obj1, obj2, ...)
 
 ## Example 1
 
-Using plain placeholders `{}`.
+Using empty placeholders `{}`.
 
-```codebyte/python
+```py
 string1 = "I like to eat {} and {}"
 new_string = string1.format("apple", "orange")
 print(new_string)
 # output: I like to eat apple and orange
 ```
 
+Values are inserted in the order they appear in `.format()` when using multiple empty placeholders.
+
 ## Example 2
 
 Using numbered placeholders `{0,1,2,...}`.
 
-```codebyte/python
+```py
 string1 = "I like to eat {0} and {1}"
 new_string1 = string1.format("apple", "orange")
 
@@ -52,11 +54,13 @@ print(new_string2)
 # I like to eat orange and apple
 ```
 
+Each value in `.format()` is assigned with an index starting from `0`. When the index is called in the placeholder, the corresponding value will be entered in.
+
 ## Example 3
 
 Using keyword placeholders `{food1, food2, ...}`.
 
-```codebyte/python
+```py
 string1 = "I like to eat {food1} and {food2}"
 new_string1 = string1.format(food1="apple", food2="orange")
 
@@ -69,6 +73,8 @@ print(new_string2)
 # I like to eat apple and orange
 # I like to eat orange and apple
 ```
+
+Similar to example 2, values in `.format()` can be used with keyword arguments. When the keyword is claled in the placeholder, the corresponding value will be entered in.
 
 ## Example 4
 
@@ -87,3 +93,5 @@ print(new_string2)
 # I like to eat apple and orange
 # I like to eat orange and apple
 ```
+
+By combining index from example 2 and keyword from example 3, both can be used in a single `.format()` statement.
