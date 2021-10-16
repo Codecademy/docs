@@ -23,7 +23,7 @@ In computer science, sequences of characters are referred to as strings. Strings
 - Symbols
 - Whitespace (spaces, tabs, new lines)
 
-It is usually contained within a pair of `'single quotes'` or `"double quotes"`.
+They are usually contained within a pair of `'single quotes'` or `"double quotes"`.
 
 ## Example of strings
 
