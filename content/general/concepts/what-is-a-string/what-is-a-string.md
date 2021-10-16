@@ -36,7 +36,7 @@ old_password = "Tr0ub4dor&3"
 new_password = "correcthorsebatterystaple"
 ```
 
-Like any other list, each character in a string has an index, which denotes the position of the character in the string. For the example above, if we provide the index of the string `message`, we can add `[]` after the string to find out the character at that position. Do note that in programming, the index starts from 0, so the index of the first character would be 0.
+Like any other list, each character in a string has an index, which denotes the position of the character in the string. For the Python example above, if we provide the index of the string `message`, we can add `[]` after the string to find out the character at that position. Do note that in programming, the index starts from 0, so the index of the first character would be 0. 
 
 ## To find out the character in a string given its index (Python)
 
