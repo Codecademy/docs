@@ -22,14 +22,15 @@ A structure is defined with:
 3. A semicolon (`;`) at the end.
 
 ```cpp
-struct structure_name {
-    member1;
-    member2;
-    member3;
-    .
-    .
-    .
-    memberN;
+struct StructureName {
+  // Structure body
+  member1;
+  member2;
+  member3;
+  .
+  .
+  .
+  memberN;
 };
 ```
 
