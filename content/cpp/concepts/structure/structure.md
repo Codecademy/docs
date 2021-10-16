@@ -151,11 +151,11 @@ struct Coder {
 
 `D` is the structure variable for structure `DOB` and `C` is the structure variable for structure `Coder`.
 
-Members of a nested structure can be accessed the following way:
+Members of a nested structure can be accessed in the following way:
 
 `var1.var2.member1`
 
-Initializing a member of the example above:
+Initializing a member of the structure `DOB` from the example above:
 
 ```cpp
 C.D.Day=10;
