@@ -1,6 +1,6 @@
 ---
 Title: 'Structure'
-Description: 'A structure is used to store together elements of different data types. It can also be used as an array of elements (or members) of different types.'
+Description: 'A structure stores together elements of different data types.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure is used to store together elements of different data types. It can also be used as an array of elements (or members) of different types.
+A structure stores together elements of different data types, including arrays.
 
 ## Syntax
 
@@ -36,9 +36,13 @@ struct StructureName {
 
 ## Example
 
-The example below contains a structure of structure name(or tag name) as `Coder` and it contains three members `Name` , `Username` and `ID` declared within a pair of curly brackets(`{ }`).
+The example below is a `struct` with the tag name `Coder`. This structure contains three members declared within a pair of curly brackets (`{ }`):
 
-A `;` is used after the close bracket to end the declaration of the structure.
+- `Name`
+- `Username`
+- `ID`
+
+A `;` is used after the closing bracket to end the declaration of the structure.
 
 ```cpp
 struct Coder {
@@ -48,9 +52,9 @@ struct Coder {
 };
 ```
 
-## Declaring and Initializing Structure Variable
+## Declaring and Initializing Structure Variables
 
-The members cannot be initialized inside the structure defination but it is accepted in C++11 and higher.
+The members of a structure can be initialized inside the structure definition in C++11 and higher.
 
 An example of declaring and initializing a structure variable:
 
@@ -147,11 +151,11 @@ struct Coder {
 
 `D` is the structure variable for structure `DOB` and `C` is the structure variable for structure `Coder`.
 
-The members of structure inside another structure(nested structure) can be accessed in this way:
+Members of a nested structure can be accessed the following way:
 
 `var1.var2.member1`
 
-Initializing a member of above example:
+Initializing a member of the example above:
 
 ```cpp
 C.D.Day=10;
