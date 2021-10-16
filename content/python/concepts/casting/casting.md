@@ -40,7 +40,7 @@ This will output:
 
 ## Explicit Type Conversion
 
-In explicit type conversion or type casting, the user converts the data type of variable with the help of predefined functions:
+In explicit type casting (also known as type conversion), the user converts the data type of variable with the help of predefined functions:
 
 - `str()`: This function takes int or float as an argument and converts it to string data type.
 - `int()`: This function takes string or float as an argument converts it to integer data type.
