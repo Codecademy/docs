@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'Inheritance supports code reusability. It allows programmers to create classes that are built upon existing classes, and this enables a class created through inheritance to inherit/reuse the attributes and methods of the parent class.'
+Description: 'Inheritance supports code reusability and allows programmers to create classes built upon existing classes.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Inheritance is an object-oriented programming concept where a class derives attributes and behaviors from another class, eliminating the need to implement them again. The methods inherited by a subclass is considered to be reused in the subclass. It represents a IS-A relationship between real-world objects.
+Inheritance is an object-oriented programming concept where a class (often referred to as the child class) derives attributes and behaviors from another class (often referred to as the parent class). This eliminates the need to implement the methods inherited by a subclass, or child class, again. In other words, it enables a child class to inherit/reuse the attributes and methods of a parent class. In terms of real-world objects, it represents an IS-A relationship.
 
 ```py
 # Base/super/parent class
@@ -25,17 +25,20 @@ class ProgramLanguage:
 class Python(ProgramLanguage):
     pass
 
-# Create object of derived class
+# Create an object of the derived class
 y = Python("Inheritance")
 
-print(y.name) # Output: Inheritance
+print(y.name)
+# Output: Inheritance
 ```
 
-In the above code subclass _Python_ inherits variable `name` and method `__init__` from the base class _ProgramLanguage_.
+In the above code, subclass `Python` inherits the variable `name` and method `__init__` from the base class `ProgramLanguage`. The `pass` statement acts as a placeholder for the class body.
 
 ## Reusing Parent Methods
 
 Base class methods can be reused in the derived classes. This prevents redundant code.
+
+Derived class `Python` calls `.say_hi()` on the `ProgramLanguage` class inside `intro()` method.
 
 ```py
 # Base class
@@ -58,18 +61,18 @@ doc.intro()
 # Python here!
 ```
 
-Derived class `Python` calls parent class method `say_hi()` inside `intro()`.
-
-**Note**: The same number and type of arguments need to be passed in the parent class method inside the child class.
+**Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class's method.
 
 ### `super()`
 
-Another way of reusing parent methods in child classes is the `super()` function. `super()` alone returns a temporary object of the superclass that then allows to call that superclass’s methods. This comes in handy when using [multiple inheritance](#multiple-inheritance).
+`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
+
+Derived class `Python` calls `.say_hi()` on `super()` inside `intro()`:
 
 ```py
 class Python(ProgramLanguage):
     def intro(self):
-        super().say_hi() # Reuse parent class method
+        super().say_hi()
         print("Python here!")
 
 doc = Python()
@@ -80,13 +83,9 @@ doc.intro()
 # Python here!
 ```
 
-Derived class _Python_ calls parent class method `.say_hi()` inside `intro()`.
-
-**Note**: `self` argument is not needed here and the same number and type of arguments need to be passed in the parent class method inside the child class.
-
 ## Overriding Methods
 
-A method of a parent class gets overridden by simply defining a method with the same name in the child class.
+In the child class, a parent class method gets overridden when a method of the same name is declared within it.
 
 ```py
 class Python(ProgramLanguage):
@@ -100,13 +99,14 @@ y.say_hi()
 # Hi! I am Python. I am fun!
 ```
 
-If a method is overridden in a class, the original method can still be accessed but we have to do it by calling the method directly with the parent class name and pass the child calss object as an argument.
+If a method is overridden in the child class, the original method can still be accessed by calling the method directly on the parent class name and passing the child class object as an argument:
 
 ```py
 y = Python()
 y.say_hi()
 print("... and now the 'old' ProgramLanguage way of saying hi")
-ProgramLanguage.say_hi(y) # Using the overridden method from parent class
+# Using the overridden method from parent class
+ProgramLanguage.say_hi(y)
 
 # Output:
 # Hi! I am Python.
@@ -114,27 +114,30 @@ ProgramLanguage.say_hi(y) # Using the overridden method from parent class
 # Hi! I am a Programming Language.
 ```
 
-## Private Variables in Base
+## Private Variables
 
-Instance variables of the parent class don’t always need to be inherited by the child class. Make such instance variables of the parent class _private_. These then won’t be available to the child class.
+When instance variables of the parent class don’t need to be inherited by the child class, they can be privatized and made unavailable to the child class.
 
-Instance variables of a class can be made private by adding double underscores (`__`) before its name.
+Adding double underscores (`__`) before an instance variable's name will keep the variable, private.
 
 ```py
 class ProgramLanguage:
     def __init__(self, name):
         self.name = name
-        self.__private = 'Not a Snake' # Private variable
+        self.__private = 'Private variable'
 
 class Python(ProgramLanguage):
     pass
 
-y = Python("Inheritance")
-print(y.name) # Output: Inheritance
-print(y.__private) # AttributeError
+y = Python("Python")
+print(y.name)
+print(y.__private)
+# Output:
+# Python
+# AttributeError: 'Python' object has no attribute '__private'
 ```
 
-Since `__model` is a private variable in parent class _ProgramLanguage_, it cannot be access by child class object _y_.
+`__private` is a private variable in parent class `ProgramLanguage` and can't be accessed by `y`, an instance of child class `Python`.
 
 ## `isinstance()` and `issubclass()`
 
@@ -143,31 +146,31 @@ Python has two built-in functions that work with inheritance:
 - `isinstance()`
 - `issubclasss()`
 
-Use `isinstance()` to check an instance’s type.
+`isinstance()` checks an instance’s type:
 
 ```py
 isinstance(obj, int)
 ```
 
-This will be `True` only if `obj` is an object of class `int` or an object of some derived class of `int`.
+The code above will be `True` only if `obj` is an object of class `int` or an object of some derived class of `int`.
 
-Use `issubclass()` to check class inheritance.
+`issubclass()` checks class inheritance:
 
 ```py
-issubclass(bool, int) # True
-issubclass(float, int)  # False
+print(issubclass(bool, int)) # True
+print(issubclass(float, int))  # False
 ```
 
-This will be `True` since `bool` is a subclass of `int`. However, since `float` is not a subclass of `int`, it returns `False`.
+Since `bool` is a subclass of `int`, it returns `True`. However, since `float` is not a subclass of `int`, it returns `False`.
 
-## Abstract Base class
+## Abstract Base Class
 
-Abstract base classes exist to be inherited, but never instantiated. Use leading underscores in class name or [`abc module`](https://docs.python.org/3/library/abc.html) to communicate that objects of that class should not be created.
+Abstract base classes are inherited rather than instantiated.
 
 ```py
 from abc import ABC, abstractmethod
 
-class Employee(ABC):
+class AbstractClass(ABC):
     def __init__(self, id, name):
         self.id = id
         self.name = name
@@ -177,17 +180,19 @@ class Employee(ABC):
         pass
 ```
 
-Employee is derived from `ABC`, making it an Abstract Base Class and `.calculate_payroll()` decorate the method with the `@abstractmethod` decorator telling users of the module that objects of type Employee can’t be created and other developers that if they derive from Employee, then they must override the `.calculate_payroll()` abstract method.
+`AbstractClass` is derived from `ABC`, making it an Abstract Base Class. `.calculate_payroll()` decorates the method with the `@abstractmethod` decorator. This tells users of the module that objects of class `Employee` can’t be created. It also tells other developers that if they derive from the `Employee` class, they must override the `.calculate_payroll()` abstract method by defining it in the inherited class.
 
 ## Types of Inheritance
 
 ### Single Inheritance
 
-When a child class inherits from only one parent class, it is called single inheritance. All code snippets above use single inheritance.
+When a child class inherits from only one parent class, it is called single inheritance. All prior code snippets use single inheritance.
 
 ### Multiple Inheritance
 
 When a child class inherits from multiple parent classes, it is called multiple inheritance.
+
+`Python` IS-A `ProgramLanguage` and a `ScriptLanguage`; it inherits from both these classes:
 
 ```py
 # Parent 1
@@ -203,22 +208,22 @@ class ScriptLanguage:
 # Child class
 class Python(ProgramLanguage, ScriptLanguage):
     # Reusing methods/constructors and overriding __init__()
-    def __init__(self,name, text):
-        ProgramLanguage.__init__(self,name)
-        ScriptLanguage.__init__(self,text)
+    def __init__(self, name, text):
+        ProgramLanguage.__init__(self, name)
+        ScriptLanguage.__init__(self, text)
 
-# create object of derived class
+# Create object of derived class
 y = Python("Inheritance","I allow code reusability.")
 print("Hi! I am {}. {}".format(y.name, y.text))
 
 # Output: Hi! I am Inheritance. I allow code reusability.
 ```
 
-Here `Python` IS-A `ProgramLanguage` and a `ScriptLanguage`, i.e., it inherits from both these classes.
-
 ### Multilevel Inheritance
 
-When we have a child and grandchild relationship, i.e., a derived class inherit from a base class and also acts like a base class to another class.
+When a derived class inherits from another derived class.
+
+In the code below, class `GrandChild()` inherits from class `Child`:
 
 ```py
 # Base 1
@@ -230,7 +235,7 @@ class Base(object):
         return self.name
 
 
-# Inherited or Sub class
+# Inherited/sub class
 class Child(Base):
     def __init__(self, name, age):
         Base.__init__(self, name)
@@ -239,7 +244,7 @@ class Child(Base):
     def getAge(self):
         return self.age
 
-# Inherited class from above sub class
+# Inherited class from sub class above
 class GrandChild(Child):
     def __init__(self, name, age, address):
         Child.__init__(self, name, age)
@@ -257,7 +262,7 @@ print(g.getName(), g.getAge(), g.getAddress())
 
 ### Hierarchical Inheritance
 
-More than one derived classes are created from a single base class.
+More than one derived class is created from a single base class:
 
 ```py
 class ProgramLanguage:
@@ -282,19 +287,19 @@ print(x.name)
 
 ### Hybrid Inheritance
 
-This form combines more than one form of inheritance. Basically, it is a blend of more than one type of inheritance.
+This form is a blend of more than one type of inheritance mentioned above.
 
 ## Look out for
 
-### Class Explosion problem
+### Class Explosion Problem
 
-If not carefully used, inheritance can lead to a huge hierarchical structure of classes that is hard to understand and maintain. This is known as the **class explosion problem**.
-
-The program works as expected, but with many classes to support the idea implementation the class hierarchy will inevitably grow as new requirements come leading to the class explosion problem where your hierarchies will become so big that they’ll be hard to understand and maintain.
+Although a program may work as expected, having many classes to support the idea implementation causes the class hierarchy's inevitable growth. All this leads to the _class explosion problem_ where class hierarchies become too extensive and make code hard to understand and maintain.
 
 ### Diamond Problem
 
-The **diamond problem** is an ambiguity that arises in multiple inheritance, when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C?
+The _diamond problem_ is an obscurity that arises in multiple inheritance.
+
+Classes, `B` and `C`, inherit from class `A`, and class `D` inherits from both `B` and `C`. If there is a method in `A` that `B` and `C` have overridden and `D` does not override it, which version of the method does `D` inherit: that of B, or that of C?
 
 ```py
 class A:
@@ -313,7 +318,8 @@ class D(B, C):
     pass
 
 obj = D()
-obj.m() # Output: in B
+obj.m()
+# Output: in B
 ```
 
-Call to `obj.m()` the output is `in B`. If D is declared as `D(C, B)` then the output of `obj.m()` will be `in C`. So, the order of parent classes decides which class it inherits from. To call the parent function of choice use the [super() method](<#super()>) inside the child class.
+The order of parent classes decide which class `D` inherits from. To call the parent function of choice, the [super() method](<#super()>) is called inside the child class.
