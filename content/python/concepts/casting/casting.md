@@ -16,7 +16,7 @@ Casting is a method that converts a variable's data type into another data type.
 
 ## Implicit Type Conversion
 
-Python's interpreter automatically type casts one data type into another data type. This type of coversion is done without any user involvement.
+Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement.
 
 ```py
 a = 7  # Int type variable
