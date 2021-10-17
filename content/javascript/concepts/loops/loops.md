@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met. The while loop creates a loop that is executed as long as a specified condition evaluates to true. The loop will continue to run until the condition evaluates to false. The condition is specified before the loop, and usually, some variable is incremented or altered in the while loop body to determine when the loop should stop. pseudo while (condition) { // Code block to be executed } '
+Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -69,6 +69,64 @@ for (let i = 0; i < 4; i += 1) {
 // Output: 0, 1, 2, 3
 ```
 
+## `for...of` Loop
+
+A `for...of` loop iterates over an object's values rather than their keys. This allows for direct access to the items, as opposed to index-reference. Examples of iterable objects include:
+
+- An `Array` of elements.
+- A `String` of characters.
+- A `Map` of key/value pairs.
+
+```js
+const items = ['apple', 'banana', 'cherry'];
+
+for (const item of items) {
+  console.log(item);
+}
+```
+
+The output would be:
+
+```shell
+apple
+banana
+cherry
+```
+
+## `for...in` Loop
+
+A `for..in..` loop iterates over any object with string type keys and allows for access to the values by index-reference.
+
+```js
+const shoppingCart = { banana: 2, apple: 5, cherry: 0 };
+
+for (const fruit in shoppingCart) {
+  console.log(fruit);
+}
+```
+
+The output would be:
+
+```shell
+banana
+apple
+cherry
+```
+
+```js
+for (const fruit in shoppingCart) {
+  console.log(shoppingCart[fruit]);
+}
+```
+
+The output would be:
+
+```shell
+2
+5
+0
+```
+
 ## Reverse Loop
 
 A `for` loop can iterate “in reverse” by initializing the loop variable to the starting value, testing for when the variable hits the ending value, and decrementing (subtracting from) the loop variable at each iteration.
@@ -83,7 +141,7 @@ for (let i = items.length - 1; i >= 0; i -= 1) {
 
 The output should look like:
 
-```
+```shell
 2. cherry
 1. banana
 0. apricot
