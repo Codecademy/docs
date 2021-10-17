@@ -62,5 +62,5 @@ In the example below, the effect runs the first time a component mounts. Subsequ
 ```jsx
 useEffect(function sideEffects() {
   ...
-}, []); // Runs the effect when a component rendered first time
+}, []); // Runs the effect when a component renders the first time
 ```
