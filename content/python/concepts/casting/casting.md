@@ -16,15 +16,10 @@ Casting is a method that converts a variable's data type into another data type.
 
 ## Implicit Type Conversion
 
-Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement.
+Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement. Since Python always convert smaller data type to higher data type to avoid data loss. In below example `7` a integer (lower data type) is type casted to float (higher data type) when added with `2.2` to avoid data loss. So finally data type of y is `float`.
 
 ```py
-a = 7  # Int type variable
-b = 2.2 # Float type variable
-print(type(a))
-print(type(b))
-
-y = a + b # Python automatically type cast 'y' into float
+y = 7 + 2.2 # Python automatically type cast 'y' into float
 print(y)
 print(type(y))
 ```
@@ -48,6 +43,8 @@ In explicit type casting (also known as type conversion), the user converts the 
 
 ### Type Casting `int` to `str`
 
+Let's see casting of an integer to  string with `str()` function. In below example `x` being an integer casted to string where `str()` function take x as argument.
+
 ```py
 x = 7  # Int type variable
 
@@ -68,6 +65,8 @@ This will output:
 
 ### Type Casting `str` to `int`
 
+Now let's convert string data type to int data type. In below example `x` being of string data type is casted to integer by `int()` function where `int()` function take x as argument in below example.
+
 ```py
 x = "7" # String type variable
 
@@ -86,16 +85,35 @@ This will output:
 <class 'int'>
 ```
 
+In the above example x being string data type, contain number. So on converion does not show any error while type casting. If x is being string of character or letters will raise `valueError`. Below is illustration of this.
+
+```py
+x='seven'  # x being string of letters
+
+y=int(x)
+print(type(y))
+```
+
+This will output:
+
+```shell
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+ValueError: invalid literal for int() with base 10: 'seven'
+```
+
 ### Type Casting `float` to `str`
+
+Below is illustration of casting of float data type to string where `float()` function take `x` as argument.
 
 ```py
 x = 7.2  # Float type variable
 
 y = str(x) # Casting into string
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -108,14 +126,16 @@ This will output:
 
 ### Type Casting `str` to `float`
 
+Let's see the example of casting of string data type to float. In below example `x` is being  of string data type is casted to float where `float()` function take `x` as argument.
+
 ```py
 x = "7.2" # String type variable
 
 y = float(x) # Casting into float
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -128,14 +148,16 @@ This will output:
 
 ### Type Casting `int` to `float`
 
+Below is an example to show how an int variable is converted to float. In below example `float()` function take `x` as argument where `x` in integer type data.
+
 ```py
 x = 7  # Int type variable
 
 y = float(x) # Casting into float
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -148,12 +170,27 @@ This will output:
 
 ### Type Casting `float` to `int`
 
+Similarly like above example , in this float data type variable is casted to intger where `int()` function take x as argument.
+
 ```codebyte/py
 x = 7.2 # Float variable type
 
 y = int(x) # Casting into int
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
+
+This will ouput:
+
+```py
+<class 'float'>
+7
+<class 'int'>
+```
+
+## Other functions that can used-
+
+- `ord()`: This function convert character to integer.
+- `hex()`: This function convert integer to octal string.
