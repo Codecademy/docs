@@ -21,14 +21,12 @@ Python's interpreter automatically type casts one data type into another data ty
 ```py
 y = 7 + 2.2 # Python automatically type cast 'y' into float
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
 
 ```shell
-<class 'int'>
-<class 'float'>
 9.2
 <class 'float'>
 ```
@@ -50,9 +48,9 @@ x = 7  # Int type variable
 
 y = str(x) # Casting into string
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -65,16 +63,16 @@ This will output:
 
 ### Type Casting `str` to `int`
 
-Now let's convert string data type to int data type. In below example `x` being of string data type is casted to integer by `int()` function where `int()` function take x as argument in below example.
+Now let's convert string data type to int data type. In below example `x` being of string data type is casted to integer by `int()` function where `int()` function take x as argument in below example. Note that string has to be int value for cast to work.
 
 ```py
 x = "7" # String type variable
 
 y = int(x) # Casting into integer
 
-print(type(x))
+print(type(x)) # Print the datatype of x
 print(y)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -91,7 +89,7 @@ In the above example x being string data type, contain number. So on converion d
 x='seven'  # x being string of letters
 
 y=int(x)
-print(type(y))
+print(type(y)) # Print the datatype of y
 ```
 
 This will output:
@@ -189,8 +187,3 @@ This will ouput:
 7
 <class 'int'>
 ```
-
-## Other functions that can used-
-
-- `ord()`: This function convert character to integer.
-- `hex()`: This function convert integer to octal string.
