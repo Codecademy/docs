@@ -50,26 +50,30 @@ Ideally the programmer calling the method knows what the method does without hav
 to look at the body. By following the rule that a method should only do one thing, it's also easier
 to give it concise name.
 A valid name must follow the rules:
-- they have to start with a letter and can contain digits. 
+
+- they have to start with a letter and can contain digits.
 - they can also start with an under-score `_`
 - they could also start with a `$` but the specification of the language says that this shouldn't be done
 - they can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
 - they can't start with digit however they can contain digits
 
 Examples for valid method names:
+
 - getObject
 - setNumber
 - countUntil300
-- _isValidCharacter
+- \_isValidCharacter
 - GET_MAX_VALUE
 
 Examples for invalid method names:
+
 - 123number (method names mustn't start with a number)
 - get-object (hyphens are not allowed inside a method name)
 - sum_number1&number2 (ampersands are not allowed inside a method name)
 - assert (method names mustn't have the name of a keyword)
 
 By convention method names start with a verb and each word after the first word starts with a capitalized letter.
+
 ## Parameters
 
 A parameter is described by a data type and a name.
@@ -77,15 +81,16 @@ With that name the parameter can be used to access the value inside the method b
 A method without any parameters must have empty parenthesis `()` after the method name.
 Multiple parameters have to be seperated by a comma `,`.
 
-*Parameters* are the definitions inside the parenthesis of a method while *arguments* are the values provided,
+_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided,
 when the methods is actually called and the values of the arguments are made available via the parameter names inside the method body.
 
-By convention a method should have a maximum three parameters. 
+By convention a method should have a maximum three parameters.
 If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
+
 ## Modifier
 
 Modifiers have the possibility to change the way how a method is allowed to be called (public, protected, private, package private),
-if the method is working on object state or should be executable without creating an object out of a class (static) 
+if the method is working on object state or should be executable without creating an object out of a class (static)
 or if the method is allowed to be replaced by inherited classes (final).
 
 ```java
@@ -93,6 +98,7 @@ public int sum(int number1, int number2) {
     return number1 + number2;
 }
 ```
+
 - modifier: `public`
 - return type: `int`
 - name: `sum`
