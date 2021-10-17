@@ -16,30 +16,41 @@ Methods are reusable pieces of code in classes. The difference between a method 
 
 Methods consist of at least the following elements:
 
-- return type
-- name
-- arguments
+- return type: the type of the value that is returned from the method
+- name: the name of the method
 
 Additionally they optionally include:
 
-- modifier
-- exceptions
-- body
+- arguments: methods can no, one or multiple arguments which consist of a type and a name. Arguments provide values to the method which can be used in the logic of the method
+- modifier: modifier define in which way and from where a method is callable
+- exceptions: exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file)
+- body: the body of a method contain all statements the method should execute when being called. The body is only optional in interfaces and abstract classes
 
-## Signature
+## A minimal signature
 
 ```java
-int sum(int number1, int number2);
+int getOneNumber() {
+  return 1;
+};
 ```
 
 return type: `int`
-name: `sum`
-arguments: `int number1, , int number2`
+name: `getOneNumber`
+modifier: `package private`
 
 ## Return type
 
 If methods shouldn't return a value they have to be defined as methods with return type `void`.
 Further possibilities as return types can be seen under "data types".
+
+## Name
+
+The name of a method should describe as much as possible what the method is doing.
+Ideally the programmer calling the method knows what the method does without having the need
+to look at the body. By following the rule that a method should only do one thing, it's also easier
+to give it concise name.
+A valid name must follow the rules:
+## Arguments
 
 ## Modifier
 
@@ -55,21 +66,10 @@ public int sum(int number1, int number2) {
 
 ### Visibility modifiers
 
-#### public
-
-Methods declared as public can be called from everywhere, inside and outside of the object or the class.
-
-#### private
-
-Methods declared as private can only be called within the object or the class.
-
-#### package private
-
-Methods declared as package private can only be called from classes within the same package.
-
-#### protected
-
-Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
+- public: Methods declared as public can be called from everywhere, inside and outside of the object or the class.
+- private: Methods declared as private can only be called within the object or the class.
+- package private: Methods declared as package private can only be called from classes within the same package.-
+- protected: Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
 
 ### Additional modifiers
 
@@ -102,3 +102,5 @@ public static void main(String[] args) throws Exception {
     System.out.println(randomNewTextFile.readLine());
 }
 ```
+
+## Body
