@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science/'
 ---
 
-A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program.
+A method is a small piece of code, usually defined in a class, that can be used in other parts of the program.
 
 Classes can be broken into two core parts:
 
@@ -29,12 +29,13 @@ In object-oriented programming, methods promote reusability and keep functionali
 
 In the Python example below, a class for a character in a game, `Character`, is defined with certain behaviors. The character can:
 
-- Introduce themselves.
-- Move left given an integer amount.
-- Move right given an integer amount.
+- Introduce themselves via `introduceSelf(self)`.
+- Move left given an integer amount via `moveLeft(self, x)`.
+- Move right given an integer amount via `moveRight(self, x)`.
 
 ```py
 class Character:
+    
     def introduceSelf(self):
         # Code to print out an introduction phrase.
         Print(f"Hello! I'm {self.name}.")
