@@ -11,46 +11,42 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure stores together elements of different data types, including arrays.
+A structure in C++ stores together data elements under a single name. The data elements, also called data memebers, can be of different data types.
 
 ## Syntax
 
 A structure is defined with:
 
 1. The `struct` keyword in the beginning.
-2. Curly brackets (`{ }`) to define the body.
-3. A semicolon (`;`) at the end.
+2. Curly brackets `{` `}` to define the body.
+3. A semicolon `;` at the end.
 
-```cpp
-struct StructureName {
+```pseudo
+struct name {
   // Structure body
-  member1;
-  member2;
-  member3;
-  .
-  .
-  .
-  memberN;
+  member1_type member1_name;
+  member2_type member2_name;
+  member3_type member3_name;
 };
 ```
 
 ## Example
 
-The example below is a `struct` with the tag name `Coder`. This structure contains three members declared within a pair of curly brackets (`{ }`):
-
-- `Name`
-- `Username`
-- `ID`
-
-A `;` is used after the closing bracket to end the declaration of the structure.
+The example below is a `struct` with the name `coder`:
 
 ```cpp
-struct Coder {
-   char Name[30];
-   char Username[15];
-   long ID;
+struct coder {
+  long id;
+  char name[30];
+  char username[15];
 };
 ```
+
+This structure contains three members:
+
+- `name`
+- `username`
+- `id`
 
 ## Declaring and Initializing Structure Variables
 
@@ -60,26 +56,33 @@ An example of declaring and initializing a structure variable:
 
 ```cpp
 #include <iostream>
-using namespace std;
 
-struct Coordinates {
-  int x, y;
-} c1; // Declaring variable c1
+struct coordinates {
+  int x;
+  int y;
+};
 
-int main()
-{
-  struct Coordinates c2 = { 0, 1 }; // Declaring and initializing variable c2
-    c1.x = 2;
-    c1.y = 2;
-    cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // For variable c1
-    cout << "x2 = " << c2.x << ", y2 = " << c2.y; // For variable c2
-    return 0;
+int main() {
+  
+  // Declaring variable c1
+  struct coordinates c1;
+
+  c1.x = 2;
+  c1.y = 2;
+  
+  // Declaring and initializing variable c2
+  struct coordinates c2 = { 0, 1 };
+
+  std::cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // For variable c1
+  std::cout << "x2 = " << c2.x << ", y2 = " << c2.y << "\n"; // For variable c2
+  
+  return 0;
 }
 ```
 
 The output will look like this:
 
-```
+```shell
 x1 = 2, y1 = 2
 x2 = 0, y2 = 1
 ```
@@ -92,30 +95,31 @@ An example of array of structure:
 
 ```cpp
 #include <iostream>
-using namespace std;
 
-struct Coordinates {
-  int x, y;
+struct coordinates {
+  int x;
+  int y;
 };
 
-int main()
-{
-  struct Coordinates c[4];
+int main() {
+  struct coordinates c[4];
   int i;
-  for(i = 0; i < 4; i++)
-  cin >> c[i].x >> c[i].y;
-  for(i = 0; i < 4; i++)
-  {
-    cout << "x" << i+1 << "=" << c[i].x << "\t";
-    cout << "y" << i+1 << "=" << c[i].y << "\n";
+  
+  for (i = 0; i < 4; i++)
+    std::cin >> c[i].x >> c[i].y;
+    
+  for (i = 0; i < 4; i++) {
+    std::cout << "x" << i+1 << "=" << c[i].x << "\t";
+    std::cout << "y" << i+1 << "=" << c[i].y << "\n";
   }
+  
   return 0;
 }
 ```
 
 Input:
 
-```
+```shell
 1 0
 1 2
 1 1
@@ -124,7 +128,7 @@ Input:
 
 Output:
 
-```
+```shell
 x1 = 1  y1 = 0
 x2 = 1  y2 = 2
 x3 = 1  y3 = 1
@@ -135,30 +139,27 @@ x4 = 0  y4 = 2
 
 A structure's variable can also be a member of, or nested in, another structure.
 
-In the example below, a `DOB` structure is nested in a `Coder` structure:
+In the example below, a `DOB` structure is nested in a `coder` structure:
 
 ```cpp
-struct Coder {
-    char Name[30];
-    char Username[15];
-    long ID;
-    struct DOB {
-        int Day;
-        char Month[12];
-        int Year;
-
-    } D;
-} C;
+struct coder {
+  char name[30];
+  char username[15];
+  long id;
+  struct DOB {
+    int month;
+    int day;
+    int year;
+  } d;
+} bjarne;
 ```
 
-`D` is the structure's variable for `struct DOB` and `C` is the structure variable for `struct Coder`.
+`d` is the structure's variable for `struct DOB` and `bjarne` is the structure variable for `struct coder`.
 
-Members of a nested structure can be accessed in the following way:
-
-`var1.var2.member1`
+Members of a nested structure can be accessed using `var1.var2.member1`.
 
 Initializing a member of the structure `DOB` from the example above:
 
 ```cpp
-C.D.Day = 10;
+bjarne.d.day = 10;
 ```
