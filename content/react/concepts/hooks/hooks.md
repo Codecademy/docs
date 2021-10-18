@@ -16,15 +16,20 @@ In React, hooks are functions that give function components class-like abilities
 - Using `state`
 - Performing side effects
 
+There are a few rules when using hooks! Specifically:
+
+- Call hooks at the top level of React functions. If hooks are called in a loop, condition, or nested function, they may not render in the same order every time.
+- Call hooks from React functions and not regular JavaScript functions.
+
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
 
-Most hooks are imported from the `react` library:
+Hooks are imported at the top of a file from the `react` library:
 
 ```jsx
 import React, { useState, useEffect } from 'react';
 ```
 
-## Syntax of useState()
+## Syntax of `useState()`
 
 Pass an `initialValue` into `useState()` to return a pair of new values:
 
@@ -35,9 +40,13 @@ Pass an `initialValue` into `useState()` to return a pair of new values:
 const [state, setState] = useState(initialValue);
 ```
 
-## Syntax of useEffect()
+`useState()` returns an array. The first element is the `initialValue` assigned to `state`. The second element is a function with a similar use case as React's `this.setState()` class component method.
 
-Pass a callback function, `sideEffects()` into `useEffect()`. This hook and function will execute whenever the componnet mounts or updates. It is similar to React's lifecycle methods: `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. The component's `state` can also be accessed inside of `sideEffect()`.
+## Syntax of `useEffect()`
+
+The `useEffect()` hook and function will execute whenever a component mounts or updates. It is equivalent to React's class component lifecycle methods: `componentDidMount()`, `componentDidUpdate()`, and `componentWillUnmount()`.
+
+A callback function, `sideEffects()`, is passed into `useEffect()`. In addition, the component's `state` can be accessed inside of `sideEffect()`.
 
 ```jsx
 useEffect(function sideEffects() {
