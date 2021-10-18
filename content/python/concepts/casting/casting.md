@@ -41,7 +41,7 @@ In explicit type casting (also known as type conversion), the user converts the 
 
 ### Type Casting `int` to `str`
 
-Let's see casting of an integer to  string with `str()` function. In below example `x` being an integer casted to string where `str()` function take x as argument.
+Let's see casting of an integer to string with `str()` function. In below example `x` being an integer casted to string where `str()` function take x as argument.
 
 ```py
 x = 7  # Int type variable
@@ -124,7 +124,7 @@ This will output:
 
 ### Type Casting `str` to `float`
 
-Let's see the example of casting of string data type to float. In below example `x` is being  of string data type is casted to float where `float()` function take `x` as argument.
+Let's see the example of casting of string data type to float. In below example `x` is being of string data type is casted to float where `float()` function take `x` as argument.
 
 ```py
 x = "7.2" # String type variable
