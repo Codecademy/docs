@@ -21,7 +21,7 @@ Classes can be broken into two core parts:
 - The data that is attributed to a class's members or properties.
 - The behaviors that are defined or inherited in the class.
 
-Methods are the "behavior" part of the class. When an instance variable is created from a class, it has access to the class's associated methods. Methods can accept parameters (sometimes they're called "arguments") and return a result.
+Methods are the "behavior" part of the class. When an instance variable is created from a class, it has access to the class's associated methods. Methods can accept parameters (sometimes they're called "arguments") and can return a result.
 
 In object-oriented programming, methods promote reusability and keep functionality encapsulated inside an object.
 
