@@ -21,10 +21,10 @@ Methods consist of at least the following elements:
 
 Additionally they optionally include:
 
-- parameters: methods can no, one or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. parameters provide values to the method which can be used in the logic of the method
-- modifier: modifier define in which way and from where a method is callable
+- parameters: methods can no, one or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. parameters make it possible to provide values to the method which can be used inside the body of a method
+- modifier: modifiers define in which way and from which context a method is callable
 - exceptions: exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file)
-- body: the body of a method contain all statements the method should execute when being called. The body is only optional in interfaces and abstract classes
+- body: the body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes
 
 ## A minimal signature
 
@@ -40,8 +40,9 @@ int getOneNumber() {
 
 ## Return type
 
-If methods shouldn't return a value they have to be defined as methods with return type `void`.
-Further possibilities as return types can be seen under [data types](https://www.codecademy.com/resources/docs/java/data-types/).
+Methods can return any type listet under [data types](https://www.codecademy.com/resources/docs/java/data-types/).
+Additionally they can return instances any class.
+If a method shouldn't return a value they have to be defined with the return type `void`.
 
 ## Name
 
@@ -51,11 +52,11 @@ to look at the body. By following the rule that a method should only do one thin
 to give it concise name.
 A valid name must follow the rules:
 
-- they have to start with a letter and can contain digits.
-- they can also start with an under-score `_`
-- they could also start with a `$` but the specification of the language says that this shouldn't be done
-- they can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
-- they can't start with digit however they can contain digits
+- it has to start with a letter and can contain digits.
+- it can start with an under-score `_`
+- it could also start with a `$` but the specification of the language says that this shouldn't be done
+- it can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
+- it can't start with digit however they can contain digits
 
 Examples for valid method names:
 
@@ -82,7 +83,7 @@ A method without any parameters must have empty parenthesis `()` after the metho
 Multiple parameters have to be seperated by a comma `,`.
 
 _Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided,
-when the methods is actually called and the values of the arguments are made available via the parameter names inside the method body.
+when the methods is actually called. The values of the arguments are made available via the parameter names inside the method body.
 
 By convention a method should have a maximum three parameters.
 If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
@@ -109,7 +110,7 @@ public int sum(int number1, int number2) {
 
 - public: Methods declared as public can be called from everywhere, inside and outside of the object or the class.
 - private: Methods declared as private can only be called from inside the object or the class.
-- package private: Methods declared as package private can only be called from classes within the same package.-
+- package private: Methods declared as package private can only be called from classes within the same package.
 - protected: Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
 
 ### Additional modifiers
@@ -117,7 +118,7 @@ public int sum(int number1, int number2) {
 ### static
 
 Static methods can be called in classes without creating an object instance out of that class.
-That's why the object state can't be accessed with `this`.
+That's why the object state in those methods can't be accessed with `this`.
 The `static` modifier can be combined with visibility modifiers.
 
 ```java
@@ -142,6 +143,8 @@ The `final` modifier can be combined with visibility modifiers.
 Methods can throw Exceptions. An example for this is trying to access a file which doesn't exist.
 When calling a method which throws an exception the calling method has to take care of that exception
 or has to throw an Exception as well.
+Here is an example how Java throws an exception in a method which could possibly execute a division by 0
+and therefore the method has to throw an exception.
 
 ```java
 public float divide(float dividend, float divisor) throws ArithmeticException {
@@ -163,5 +166,5 @@ The body contains the actual code, statements or logic which is executed when th
 
 If the method has a return type there needs to be at least one line in the body which returns a value of that type (i.e. `return a+b;`).
 
-Methods also have access to values of the instance of the object when using the word `this`.
+Methods also have access to values of the instance of a class when using the word `this`.
 With `this` other methods of that same class can be called or instance fields of the class can be accessed which hold values which are accessible through all methods of the class.
