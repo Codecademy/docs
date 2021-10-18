@@ -1,5 +1,5 @@
 ---
-Title: 'Who is Bjarne Stroustrup?'
+Title: 'Bjarne Stroustrup'
 Description: 'Bjarne Stroustrup is a Danish computer scientist and principle designer of C++, an extension of the C programming language. Stroustrup has authored several computer programming books focused on C++, including The C++ Programming Language, and is currently a Visiting Professor in Computer Science at Columbia University. As the principle designer of C++, Bjarne Stroustrups goal was to add object-oriented programming into C, a language well-respected for its portability and low-level functionality, and to do so efficiently. Stroustrups continued work in maintaining C++ is associated with improvements in performance and efficiency for a great number of applications including AI/ML, RDBMS, video games, financial systems, and graphics. Dr. Stroustrup played a key role in the development of Codecademys Learn C++ course. Heres an insightful interview called Talking C++ that took part in the last segment of the production.'
 Subjects:
   - 'Computer Science'

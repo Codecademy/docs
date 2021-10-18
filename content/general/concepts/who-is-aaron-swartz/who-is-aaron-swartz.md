@@ -1,5 +1,5 @@
 ---
-Title: 'Who is Aaron Swartz?'
+Title: 'Aaron Swartz'
 Description: 'Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py. Aaron Swartz was a co-founder of a startup called Infogami, which later became the social news site Reddit. He was given the title of a co-founder of Reddit by Paul Graham of Y Combinator. In 2008, Swartz published an essay called Guerilla Open Access Manifesto: > Sharing isnt immoral — its a moral imperative. Only those blinded by greed would refuse to let a friend make a copy. In 2010, he co-founded an activist organization, Demand Progress, and led the charge fighting the Stop Online Piracy Act (SOPA). In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting to the campus network in an unlocked closet, to massive download academic journal articles. Federal prosecutors later charged him with wire fraud and violations of the Computer Fraud and Abuse Act, carrying a maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, and supervised release.'
 Subjects:
   - 'Computer Science'

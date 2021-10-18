@@ -1,5 +1,5 @@
 ---
-Title: 'What is Cloud Computing?'
+Title: 'Cloud Computing'
 Description: 'Cloud computing is the distribution of technology services over the internet.'
 Subjects:
   - 'Computer Science'

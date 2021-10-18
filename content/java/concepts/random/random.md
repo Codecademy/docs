@@ -22,8 +22,11 @@ The `Random` class can be accessed by importing it as follows:
 import java.util.Random;
 ```
 
-When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all. The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
-In this snippet, objects `rand1` and `rand2` of the `Random` type are created using the `new` keyword. While no parameters are passed during the creation of `rand1`, a `seed` value is used during the creation of `rand2`.
+When an instance of the `Random` class is created, either a `seed` value is passed to the constructor or no values are passed at all.
+
+The `seed` is a value that gets manipulated (using a linear congruential formula) to produce a stream of pseudorandom values. The `Random` class uses a 48-bit `seed`.
+
+In this code, objects `rand1` and `rand2` of the `Random` type are created using the `new` keyword. While no parameters are passed during the creation of `rand1`, a `seed` value is used during the creation of `rand2`.
 
 ```java
 Random rand1 = new Random();
@@ -66,7 +69,7 @@ System.out.println("Random boolean: " + b);
 
 The output will look like this:
 
-```
+```shell
 Random float: 0.13293427
 Random double: 0.900476085026994
 Random integer: 152429987
@@ -78,13 +81,13 @@ The `.nextInt()` method can also be used with an upper bound so that the generat
 
 ```java
 i = rand1.nextInt(25);
-System.out.println("Random integer in range [0,25) : " + i);
+System.out.println("Random integer in range [0,25): " + i);
 ```
 
 The output will be:
 
-```
-Random integer in range [0,25) : 16
+```shell
+Random integer in range [0,25): 16
 ```
 
 A byte array can also be filled with random elements using the `.nextBytes()` method.
@@ -93,7 +96,7 @@ A byte array can also be filled with random elements using the `.nextBytes()` me
 byte[] b = new byte [5];
 rand1.nextBytes(b);
 
-System.out.print("Random byte array : ");
+System.out.print("Random byte array: ");
 
 for (byte j: b)
   System.out.print(j + " ");
@@ -101,8 +104,8 @@ for (byte j: b)
 
 The output looks like this:
 
-```
-Random byte array : -44 -82 44 62 -111
+```shell
+Random byte array: -44 -82 44 62 -111
 ```
 
 ## Generating Streams
