@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes a string, and returns a copy of that string in which all letters are lowercase. Numbers and symbols are not changed.
+Takes a string, and returns a copy of that string in which all letters are uppercase. Numbers and symbols are not changed.
 
 ## Syntax
 
