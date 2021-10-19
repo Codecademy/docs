@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-ArrayList is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
+`ArrayList` is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
 
 
 Some other important points about the `ArrayList` class include:
@@ -26,7 +26,6 @@ Some other important points about the `ArrayList` class include:
 ## Syntax
 
 ```
-//Declaring ArrayList
 ArrayList<String> arr = new ArrayList<String>();
 ```
 
@@ -54,9 +53,11 @@ class Example
         //removes element hello
         arr.remove("hello");
 
-        System.out.println(arr.size()); // returns size of list
+        System.out.println(arr.size()); 
+        // returns size of list
 
-        arr.clear();    // removes all the elements from list
+        arr.clear();    
+        // removes all the elements from list
 
         System.out.println(arr);
 
@@ -72,4 +73,3 @@ class Example
 []
 ```
 
-Here are the `ArrayList` methods in alphabetical order:
