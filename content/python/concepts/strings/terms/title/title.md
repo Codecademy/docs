@@ -26,10 +26,10 @@ string.title()
 Use `.title()` to format a string in title case:
 
 ```py
-my_string = "Learn coding from Codecademy"
+my_string = "Codecademy docs"
 
 print(my_string.title())
-# Output: Learn Coding From Codecademy
+# Output: Codecademy Docs
 ```
 
 ## Example 2
@@ -49,5 +49,6 @@ Use `.title()` to format the string `my_string` in title case:
 
 ```codebyte/python
 my_string = "Soon everyone will have a 5g connection!"
+
 print(my_string.title())
 ```
