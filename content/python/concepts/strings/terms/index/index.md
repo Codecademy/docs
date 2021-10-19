@@ -1,6 +1,6 @@
 ---
-Title: 'index()'
-Description: 'The `index()` method searches through a string variable for the occurrence of a pattern or a substring.'
+Title: '.index()'
+Description: 'The `.index()` method searches through a string variable for the occurrence of a pattern or a substring.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `index()` method searches through a string variable for the occurrence of a pattern or a substring.
+The `.index()` method searches through a string variable for the occurrence of a pattern or a substring.
 
 If the substring is not found, a `ValueError` will be raised.
 
@@ -23,7 +23,7 @@ If the substring is not found, a `ValueError` will be raised.
 string.index(pattern, start, end)
 ```
 
-In the above syntax for the `index()` method:
+In the above syntax for the `.index()` method:
 
 - `string` is the string variable to search through. (Required)
 - `pattern` is the pattern or substring to search for. (Required)
@@ -44,7 +44,7 @@ my_string.index("Python")
 
 ## Example 2
 
-Use `index()` to search for the occurrence of `"Coding"` in the string `my_string`:
+Use `.index()` to search for the occurrence of `"Coding"` in the string `my_string`:
 
 ```py
 my_string = "Learning Python is fun!"
@@ -55,7 +55,7 @@ my_string.index("Coding")
 
 ## Codebyte Example
 
-Use `index()` to search for the occurrence of `"code"` in a slice of the string `my_string` (i.e. from the character at index 8 up to, but not including, the character at index 16):
+Use `.index()` to search for the occurrence of `"code"` in a slice of the string `my_string` (i.e. from the character at index 8 up to, but not including, the character at index 16):
 
 ```codebyte/python
 my_string = "Learning to code is fun!"
