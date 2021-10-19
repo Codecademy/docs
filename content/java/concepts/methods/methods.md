@@ -52,8 +52,7 @@ to look at the body. By following the rule that a method should only do one thin
 to give it concise name.
 A valid name must follow the rules:
 
-- it has to start with a letter and can contain digits.
-- it can start with an under-score `_`
+- it has to start with a letter or an underscore (`_`) and can contain digits.
 - it could also start with a `$` but the specification of the language says that this shouldn't be done
 - it can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
 - it can't start with digit however they can contain digits
