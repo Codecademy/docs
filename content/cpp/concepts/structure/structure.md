@@ -23,7 +23,6 @@ A structure is defined with:
 
 ```pseudo
 struct name {
-  // Structure body
   member1_type member1_name;
   member2_type member2_name;
   member3_type member3_name;
@@ -44,9 +43,9 @@ struct coder {
 
 This structure contains three members:
 
+- `id`
 - `name`
 - `username`
-- `id`
 
 ## Declaring and Initializing Structure Variables
 
@@ -143,9 +142,9 @@ In the example below, a `DOB` structure is nested in a `coder` structure:
 
 ```cpp
 struct coder {
+  long id;
   char name[30];
   char username[15];
-  long id;
   struct DOB {
     int month;
     int day;
@@ -154,7 +153,7 @@ struct coder {
 } bjarne;
 ```
 
-`d` is the structure's variable for `struct DOB` and `bjarne` is the structure variable for `struct coder`.
+The `d` is the structure's variable for `struct DOB` and `bjarne` is the structure variable for `struct coder`.
 
 Members of a nested structure can be accessed using `var1.var2.member1`.
 
