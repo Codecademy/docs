@@ -142,7 +142,8 @@ Let's see the example of casting of string data type to float. In below example 
 ```py
 x = "7.2"
 
-y = float(x) # Casting into float
+# Casting into float
+y = float(x)
 
 print(type(x))
 print(y)
@@ -162,7 +163,7 @@ This will output:
 Below is an example to show how an int variable is converted to float. In below example `float()` function take `x` as argument where `x` in integer type data.
 
 ```py
-x = 7  # Int type variable
+x = 7
 
 # Casting into float
 y = float(x)
