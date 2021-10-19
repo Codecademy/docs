@@ -49,8 +49,7 @@ class Example
 
         System.out.println(arr);
 
-        //removes element hello
-        arr.remove("hello");
+        arr.remove("hello");  // removes element with "hello"
 
         System.out.println(arr.size()); 
         // returns size of list
