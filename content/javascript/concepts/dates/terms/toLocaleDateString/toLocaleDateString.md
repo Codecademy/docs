@@ -12,7 +12,6 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-# **toLocaleDateString()**
 
 This method returns a string with a language sensitive representation of the date portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and allow to customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
 
