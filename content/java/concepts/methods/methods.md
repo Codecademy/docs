@@ -141,6 +141,7 @@ The `final` modifier can be combined with visibility modifiers.
 Methods can throw Exceptions. An example for this is trying to access a file which doesn't exist.
 When calling a method which throws an exception the calling method has to take care of that exception
 or has to throw an Exception as well.
+
 Here is an example how Java throws an exception in a method which could possibly execute a division by 0
 and therefore the method has to throw an exception.
 
