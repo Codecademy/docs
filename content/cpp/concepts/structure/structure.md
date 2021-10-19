@@ -142,9 +142,9 @@ In the example below, a `DOB` structure is nested in a `coder` structure:
 
 ```cpp
 struct coder {
+  long id;
   char name[30];
   char username[15];
-  long id;
   struct DOB {
     int month;
     int day;
@@ -153,7 +153,7 @@ struct coder {
 } bjarne;
 ```
 
-`d` is the structure's variable for `struct DOB` and `bjarne` is the structure variable for `struct coder`.
+The `d` is the structure's variable for `struct DOB` and `bjarne` is the structure variable for `struct coder`.
 
 Members of a nested structure can be accessed using `var1.var2.member1`.
 
