@@ -42,7 +42,7 @@ class Example
         ArrayList<String> arr = new ArrayList<>();
 
         System.out.println(arr);
-        //the above statement prints empty list
+        // prints an empty list
 
         arr.add("hello");
         arr.add("India");
