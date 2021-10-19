@@ -41,8 +41,7 @@ class Example
     {
         ArrayList<String> arr = new ArrayList<>();
 
-        System.out.println(arr);
-        // prints an empty list
+        System.out.println(arr);   // prints an empty list
 
         arr.add("hello");
         arr.add("India");
@@ -51,11 +50,9 @@ class Example
 
         arr.remove("hello");  // removes element with "hello"
 
-        System.out.println(arr.size()); 
-        // returns size of list
+        System.out.println(arr.size());  // returns size of list
 
-        arr.clear();    
-        // removes all the elements from list
+        arr.clear();  // removes all the elements from list
 
         System.out.println(arr);
 
