@@ -38,7 +38,7 @@ In the above code, subclass `Python` inherits the variable `name` and method `__
 
 Base class methods can be reused in the derived classes. This prevents redundant code.
 
-Derived class `Python` calls `.say_hi()` on the `ProgramLanguage` class inside `intro()` method.
+In the example below, the derived class (`Python`) implements the `.say_hi()` parent method inside the `intro()` definition:
 
 ```py
 # Base class
@@ -61,13 +61,13 @@ doc.intro()
 # Python here!
 ```
 
-**Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class's method.
+**Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
 
 ### `super()`
 
 `super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
 
-Derived class `Python` calls `.say_hi()` on `super()` inside `intro()`:
+In this case, the `.say_hi()` method is implemented utilizing `super()` inside `intro()`:
 
 ```py
 class Python(ProgramLanguage):
@@ -116,9 +116,7 @@ ProgramLanguage.say_hi(y)
 
 ## Private Variables
 
-When instance variables of the parent class don’t need to be inherited by the child class, they can be privatized and made unavailable to the child class.
-
-Adding double underscores (`__`) before an instance variable's name will keep the variable, private.
+When instance variables of the parent class don’t need to be inherited by the child class, they can be made unavailable to the child class by adding double underscores (`__`) before the variable name. This appends `_classname` before the variable name. So, when we try to access it like other instance variables of the class it gives an Attribute error.
 
 ```py
 class ProgramLanguage:
@@ -137,7 +135,9 @@ print(y.__private)
 # AttributeError: 'Python' object has no attribute '__private'
 ```
 
-`__private` is a private variable in parent class `ProgramLanguage` and can't be accessed by `y`, an instance of child class `Python`.
+`__private` in parent class `ProgramLanguage` is now `_ProgramLanguage__private` and can't be accessed using `.__private`. Same is true for class methods.
+
+**Note :** This only makes the method or variable inaccessible using the originally declared name. These can still be accessed ,like `y._ProgramLanguage__private` in the above example. It is an indication of how the variable or method should be treated.
 
 ## `isinstance()` and `issubclass()`
 
