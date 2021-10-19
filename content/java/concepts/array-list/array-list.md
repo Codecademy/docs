@@ -32,7 +32,7 @@ ArrayList<String> arr = new ArrayList<String>();
 ## Example
 
 ```
-//ArrayList is present in util package so import
+// import from the java.util package
 import java.util.*;
 
 class Example
