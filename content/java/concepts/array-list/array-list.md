@@ -23,7 +23,7 @@ The important points about Java **ArrayList** class are:
 - ArrayList allows random access because array works at the index basis.
 - In ArrayList, manipulation is little bit slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
 
-## Declaring of ArrrayList
+## Syntax
 
 ```
 //Declaring ArrayList
