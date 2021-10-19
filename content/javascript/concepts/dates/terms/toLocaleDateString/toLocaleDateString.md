@@ -12,7 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+<<<<<<< HEAD
 This method converts the date object into string by using some locale conventions and returns it, which can be easily read by the users and understandable. It only retruns the date and if you want time too then you may use `toLocaleTimeString()`.
+=======
+This method returns a string with a language sensitive representation of the date portion of this date. The new locales and options arguments let applications specify the language whose formatting conventions should be used and allow to customize the behavior of the function. In older implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
+>>>>>>> 29d04067be7d37534b9634ff0ebc1e5fb4520233
 
 ## Syntax
 
