@@ -26,7 +26,7 @@ Additionally they optionally include:
 - exceptions: exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file)
 - body: the body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes
 
-## A minimal signature
+## A Minimal Signature
 
 ```java
 int getOneNumber() {
@@ -38,7 +38,7 @@ int getOneNumber() {
 - name: `getOneNumber`
 - modifier: `package private` (the default)
 
-## Return type
+## Return Type
 
 Methods can return any type listet under [data types](https://www.codecademy.com/resources/docs/java/data-types/).
 Additionally they can return instances any class.
@@ -104,16 +104,16 @@ public int sum(int number1, int number2) {
 - parameters: `int number1, int number2`
 - body: `return number1 + number2;`
 
-### Visibility modifiers
+### Visibility Modifiers
 
 - public: Methods declared as public can be called from everywhere, inside and outside of the object or the class.
 - private: Methods declared as private can only be called from inside the object or the class.
 - package private: Methods declared as package private can only be called from classes within the same package.
 - protected: Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
 
-### Additional modifiers
+### Additional Modifiers
 
-### static
+### `static`
 
 Static methods can be called in classes without creating an object instance out of that class.
 That's why the object state in those methods can't be accessed with `this`.
@@ -131,7 +131,7 @@ public static void main(String[] args) {
 - parameters: `String[] args`
 - body: `System.out.println("Hello world");`
 
-### final
+### `final`
 
 The `final` keywords prevents methods from being overwritten in inherited classes.
 The `final` modifier can be combined with visibility modifiers.
