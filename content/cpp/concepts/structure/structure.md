@@ -63,19 +63,19 @@ struct coordinates {
 };
 
 int main() {
-  
+
   // Declaring variable c1
   struct coordinates c1;
 
   c1.x = 2;
   c1.y = 2;
-  
+
   // Declaring and initializing variable c2
   struct coordinates c2 = { 0, 1 };
 
   std::cout << "x1 = " << c1.x << ", y1 = " << c1.y << "\n"; // For variable c1
   std::cout << "x2 = " << c2.x << ", y2 = " << c2.y << "\n"; // For variable c2
-  
+
   return 0;
 }
 ```
@@ -104,15 +104,15 @@ struct coordinates {
 int main() {
   struct coordinates c[4];
   int i;
-  
+
   for (i = 0; i < 4; i++)
     std::cin >> c[i].x >> c[i].y;
-    
+
   for (i = 0; i < 4; i++) {
     std::cout << "x" << i+1 << "=" << c[i].x << "\t";
     std::cout << "y" << i+1 << "=" << c[i].y << "\n";
   }
-  
+
   return 0;
 }
 ```
