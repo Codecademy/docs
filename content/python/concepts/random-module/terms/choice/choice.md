@@ -61,7 +61,7 @@ In the example below, `random.choice()` is used to return a random element from 
 ```codebyte/python
 import random
 
-to_learn = ("Python", 
+to_learn = ("Python",
             "Matplotlib",
             "NumPy",
             "Pandas",
