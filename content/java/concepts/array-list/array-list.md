@@ -1,6 +1,6 @@
 ---
 Title: 'ArrayList'
-Description: 'ArrayList is a class in java that uses dynamic array for storing the elements.'
+Description: 'The `ArrayList` class uses dynamic arrays for storing elements. It is like an array, but there is no size limit.
 Subjects:
   - 'Computer Science'
 Tags:
