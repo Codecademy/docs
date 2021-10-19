@@ -182,7 +182,7 @@ This will output:
 
 ### Type Casting `float` to `int`
 
-Similarly like above example , in this float data type variable is casted to intger where `int()` function take x as argument.
+Similarly like above example , in this float data type variable is casted to integer where `int()` function take x as argument.
 
 ```codebyte/py
 x = 7.2
