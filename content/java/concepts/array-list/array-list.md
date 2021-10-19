@@ -4,8 +4,9 @@ Description: 'The `ArrayList` class uses dynamic arrays for storing elements. It
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'ArrayList'
-  - 'Collection'
+  - 'Arrays'
+  - 'Classes'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
