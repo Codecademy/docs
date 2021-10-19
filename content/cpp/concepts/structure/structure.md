@@ -1,5 +1,5 @@
 ---
-Title: 'Structure'
+Title: 'Structures'
 Description: 'A structure stores together elements of different data types, including arrays.'
 Subjects:
   - 'Computer Science'
