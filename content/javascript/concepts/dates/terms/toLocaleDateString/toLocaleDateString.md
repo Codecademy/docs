@@ -25,7 +25,7 @@ toLocaleDateString(locales, options)
 
 The locales and options arguments customize the behavior of the function and let applications specify the language whose formatting conventions should be used. In implementations, which ignore the locales and options arguments, the locale used and the form of the string returned are entirely implementation dependent.
 
-# **Example**
+## Example
 
 In basic use without specifying a locale, a formatted string in the default locale and with default options is returned.
 
