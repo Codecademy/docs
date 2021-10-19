@@ -33,7 +33,7 @@ ArrayList<String> arr = new ArrayList<String>();
 
 ```
 // import from the java.util package
-import java.util.*;
+import java.util.ArrayList;
 
 class Example
 {
