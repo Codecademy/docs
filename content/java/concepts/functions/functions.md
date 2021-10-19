@@ -59,14 +59,15 @@ class NewClass {
 ## Types of Methods
 
 Java functions are of two types:-
-1. Predefined Method 
+
+1. Predefined Method
 2. User-defined Method
 
 ## Predefined Method
 
-Methods which are already defined in Java is known as predifined methods. 
+Methods which are already defined in Java is known as predifined methods.
 Examples for pre-defined methods are
-`sqrt()`, `length()`, `equals()`, `abs()` etc. 
+`sqrt()`, `length()`, `equals()`, `abs()` etc.
 
 To use a predefined method in your program, you need to specify the <b>java class</b> associated with the method.
 
