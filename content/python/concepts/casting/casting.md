@@ -16,7 +16,7 @@ Casting is a method that converts a variable's data type into another data type.
 
 ## Implicit Type Conversion
 
-Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement. 
+Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement.
 
 Since Python always convert smaller data type to higher data type to avoid data loss. In the below example, `7` a integer (lower data type) is type casted to a float (higher data type) when added with `2.2` to avoid data loss. So finally data type of y is `float`.
 
@@ -94,7 +94,7 @@ This will output:
 <class 'int'>
 ```
 
-In the above example, `x` is a string that contains a number. So there's no error during type casting. 
+In the above example, `x` is a string that contains a number. So there's no error during type casting.
 
 If `x` is a string of characters or letters, it will raise `valueError` during type casting. Below is illustration of this.
 
