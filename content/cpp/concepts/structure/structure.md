@@ -43,9 +43,9 @@ struct coder {
 
 This structure contains three members:
 
+- `id`
 - `name`
 - `username`
-- `id`
 
 ## Declaring and Initializing Structure Variables
 
