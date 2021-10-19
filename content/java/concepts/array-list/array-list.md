@@ -71,4 +71,4 @@ class Example
 []
 ```
 
-In the same way you can also try for other methods from the above list.
+Here are the `ArrayList` methods in alphabetical order:
