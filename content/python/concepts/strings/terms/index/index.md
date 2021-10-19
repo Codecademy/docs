@@ -57,7 +57,7 @@ my_string.index("Coding")
 
 Use `.index()` to search for the occurrence of `"code"` in a slice of the string `my_string` (i.e. from the character at index 8 up to, but not including, the character at index 16):
 
-```codebyte/python
+```codebyte/py
 my_string = "Learning to code is fun!"
 my_string.index("code", 8, 16)
 ```
