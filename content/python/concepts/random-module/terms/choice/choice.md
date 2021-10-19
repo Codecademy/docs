@@ -1,6 +1,6 @@
 ---
 Title: 'random.choice()'
-Description: The `random.choice()` function returns a random sample drawn from an iterable argument, such as a list.
+Description: 'Returns a random sample drawn from an iterable argument, such as a list.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -22,10 +22,10 @@ random.choice(iterable)
 
 An `iterable` can be any kind of sequence-oriented variable, including:
 
-- A string of characters. (`"Hello, World!"`)
-- A range of steps. (`range(10)`)
-- A list of items. (`[0, 1]`)
-- A tuple of data. (`(0, "one")`)
+- A string of characters (`"Hello, World!"`)
+- A range of steps (`range(10)`)
+- A list of items (`[0, 1]`)
+- A tuple of data (`(0, "one")`)
 
 ## Example 1
 
@@ -36,6 +36,7 @@ import random
 
 shopping_list = ["bread", "pens", "apples", "milk"]
 to_buy = random.choice(shopping_list)
+
 print(to_buy)
 ```
 
@@ -49,6 +50,7 @@ Here, `random.choice()` is used to return a single character that is sampled fro
 import random
 
 my_string = "Coding!"
+
 print(random.choice(my_string))
 ```
 
@@ -59,6 +61,12 @@ In the example below, `random.choice()` is used to return a random element from 
 ```codebyte/python
 import random
 
-to_learn = ("Python", "JavaScript", "Go")
+to_learn = ("Python", 
+            "Matplotlib",
+            "NumPy",
+            "Pandas",
+            "Beautiful Soup",
+            "SQL")
+
 print(random.choice(to_learn))
 ```
