@@ -1,7 +1,6 @@
 ---
 Title: 'Functions'
-Description: '
-Functions are chunks of code that can be used multiple times in a program. In Java, functions are usually referred as <b>methods</b>.'
+Description: 'Functions are chunks of code that can be used multiple times in a program. In Java, functions are usually referred as methods.'
 Subjects:
   - 'Computer Science'
 Tags:
