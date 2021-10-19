@@ -55,8 +55,8 @@ y = str(x)
 print(x)
 print(y)
 
-print(type(x))
-print(type(y))
+print(type(x)) # Printing the data type of x
+print(type(y)) # Printing the data type of y
 ```
 
 This will output:
