@@ -40,17 +40,9 @@ like_result = new_string.find("like")
 drink_result = new_string.find("drink")
 to_result = new_string.find("to")
 
-print(like_result)
-print(drink_result)
-print(to_result)
-```
-
-The output will be:
-
-```
-2
--1
-7
+print(like_result)   # Output: 2
+print(drink_result)  # Output: -1
+print(to_result)     # Output: 7
 ```
 
 - `like` is found at index 2 of the `new_string` string.
@@ -69,15 +61,10 @@ like_4_result = new_string.find("like", 4)
 to_5_result = new_string.find("to", 5)
 to_10_result = new_string.find("to", 10)
 
-print(like_2_result)
-print(like_4_result)
-print(to_5_result)
-print(to_10_result)
-# output:
-# 2
-# -1
-# 7
-# 18
+print(like_2_result)  # Output: 2
+print(like_4_result)  # Output: -1
+print(to_5_result)    # Output: 7
+print(to_10_result)   # Output: 18
 ```
 
 - If index starts on 2 ("l" in "like"), `like` is found at index 2.
@@ -85,7 +72,7 @@ print(to_10_result)
 - If index starts on 5 ("e" in "like"), `to` is found at two places in the `new_string` string, but `.find()` returns the first occurrence, instead of the other occurrence at index 18.
 - If index starts on 10 ("e" in "eat"), `to` is found at index 18.
 
-## Example 3
+## Codebyte Example
 
 Use `.find()` with the `start` and `end` index specified:
 
@@ -103,18 +90,12 @@ print(like_4_length_result)
 print(like_0_3_result)
 print(like_0_15_result)
 print(like_0_last3_result)
-# output:
-# 2 (start: "l" in "like", end: end of string)
-# -1 (start: "k" in "like", end: end of string)
-# -1 (start: beginning of string, end: "i" in "like")
-# 2 (start: beginning of string, end: first "o" in "potato")
-# 2 (start: beginning of string, end: "a" in "potato")
+
+print("")
 
 to_0_length_result = new_string.find("to", 0, len(new_string))
 to_15_length_result = new_string.find("to", 15, len(new_string))
+
 print(to_0_length_result)
 print(to_15_length_result)
-# output:
-# 7 (start: beginning of string, end: end of string)
-# 18 (start: first "o" in "potato", end: end of string)
 ```
