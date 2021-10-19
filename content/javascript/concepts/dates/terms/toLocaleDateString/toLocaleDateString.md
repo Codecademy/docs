@@ -42,7 +42,7 @@ console.log(date.toLocaleDateString());
 
 ```
 
-# **Some more Examples of toLocaleDateString()**
+## More Examples
 
 ```
 var date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
