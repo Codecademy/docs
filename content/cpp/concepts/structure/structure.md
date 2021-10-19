@@ -23,7 +23,6 @@ A structure is defined with:
 
 ```pseudo
 struct name {
-  // Structure body
   member1_type member1_name;
   member2_type member2_name;
   member3_type member3_name;
