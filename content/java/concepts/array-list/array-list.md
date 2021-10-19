@@ -14,7 +14,6 @@ CatalogContent:
 
 ArrayList is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
 
-
 Some other important points about the `ArrayList` class include:
 
 - Ability to contain duplicate elements.
@@ -29,7 +28,6 @@ Some other important points about the `ArrayList` class include:
 //Declaring ArrayList
 ArrayList<String> arr = new ArrayList<String>();
 ```
-
 
 ## Example
 
