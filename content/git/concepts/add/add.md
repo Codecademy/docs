@@ -1,6 +1,6 @@
 ---
 Title: 'Add'
-Description: 'In Git, adding is used to add changes from the working tree to the staging area or where changes are saved for the next commit.'
+Description: 'In Git, adding is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Git, adding is used to add changes from the working tree to the staging area or where changes are saved for the next commit. The filename now appears in green, indicating that it is tracked and will be staged for the next commit.
+In Git, adding is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit. The filename now appears in green, indicating that it is tracked and will be staged for the next commit.
 
 ## Example
 
