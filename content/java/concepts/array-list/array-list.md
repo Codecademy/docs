@@ -45,7 +45,7 @@ ArrayList<String> arr = new ArrayList<String>();
 | clear()                  | Removes all the elements of the list                               |
 | isEmpty()                | Returns true if the list is empty else false                       |
 
-## ArrayList Example
+## Example
 
 ```
 //ArrayList is present in util package so import
