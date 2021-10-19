@@ -36,7 +36,7 @@ int getOneNumber() {
 
 - return type: `int`
 - name: `getOneNumber`
-- modifier: `package private`
+- modifier: `package private` (the default)
 
 ## Return type
 
