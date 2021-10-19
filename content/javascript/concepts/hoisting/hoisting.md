@@ -182,7 +182,8 @@ name3 = "James";
 console.log(name3); // SyntaxError: Missing initializer in const declaration
 ```
 
-The reason we cannot use `let` and `const` variables before they have been initialized is that they will be in `Temporal Dead Zone` (TDZ). `TDZ` is a scope which is from the start of the block to the initalization line of a variable declared with `let` or `const`.
+The reason we cannot use `let` and `const` variables before they have been initialized is that they will be in `Temporal Dead Zone` (TDZ).
+`TDZ` is a scope which is from the start of the block to the initalization line of a variable declared with `let` or `const`.
 
 ```js
 1. // in TDZ, cannot read or write the variable foo
