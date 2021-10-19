@@ -35,7 +35,7 @@ In the Python example below, a class for a character in a game, `Character`, is 
 
 ```py
 class Character:
-    
+
     def introduceSelf(self):
         # Code to print out an introduction phrase.
         Print(f"Hello! I'm {self.name}.")
