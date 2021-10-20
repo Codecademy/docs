@@ -23,7 +23,7 @@ Additionally, they optionally include:
 
 - parameters: Methods can have no, one, or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. Parameters make it possible to provide values to the method which can be used inside the body of a method.
 - modifier: Modifiers define in which way and from which context a method is callable.
-- exceptions: Exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file).
+- exceptions: Exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non-existing file).
 - body: The body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes.
 
 ## A Minimal Signature
