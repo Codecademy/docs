@@ -75,7 +75,7 @@ A parameter is described by a data type and a name. With that name, the paramete
 
 _Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the method is called. The values of the arguments are made available via the parameter names inside the method body.
 
-By convention, a method should have a maximum three parameters. If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
+By convention, a method should have a maximum of three parameters. If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
 
 ## Modifier
 
