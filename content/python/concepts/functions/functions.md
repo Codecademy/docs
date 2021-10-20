@@ -103,7 +103,6 @@ In the function declaration, `args`,  is passed in with the special character `*
 `*` turns the variable into a tuple, which is an iterable object.
 
 In the example below, the `multiply()` function returns the product of all numbers used in the function call.
-The function call can have 2,3,5 or any number of arguments as needed.
 
 ```py
 def multiply(*args):
