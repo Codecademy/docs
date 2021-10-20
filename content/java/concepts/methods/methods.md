@@ -147,4 +147,4 @@ Everything between `{` and `}` is called the body of the method. The body contai
 
 If the method has a return type there needs to be at least one line in the body which returns a value of that type (i.e. `return a+b;`).
 
-Methods also have access to values of the instance of a class when using the word `this`. With `this` other methods of that same class can be called or instance fields of the class can be accessed which hold values which are accessible through all methods of the class.
+Methods also have access to values of the instance of a class when using the word `this`. With `this` other methods of that same class can be called or instance fields of the class can be accessed which hold values that are accessible through all methods of the class.
