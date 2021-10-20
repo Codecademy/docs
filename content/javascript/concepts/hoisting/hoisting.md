@@ -183,7 +183,7 @@ console.log(name3); // SyntaxError: Missing initializer in const declaration
 ```
 
 The reason we cannot use `let` and `const` variables before they have been initialized is that they will be in `Temporal Dead Zone` (TDZ).
-`TDZ` is a scope which is from the start of the block to the initalization line of a variable declared with `let` or `const`.
+For a given variable declared with `let` or `const`, `TDZ` is the scope which is from the start of the block to the initialization line of that variable.
 
 ```js
 1. // in TDZ, cannot read or write the variable foo
@@ -194,4 +194,4 @@ The reason we cannot use `let` and `const` variables before they have been initi
 ...
 ```
 
-So, why is this useful? Accessing variables and functions before they are declared isn't good practice. Because, it is hard to understand and confusing for people that read your code. With `var`, you may read or change the variable unintentionally before it is initialized, but Javascript doesn't give you an error that you may be doing something wrong. But, thanks to `let` and `const` and `TDZ` we can avoid and catch many potential bugs.
+So, why is this useful? Accessing variables and functions before they are declared isn't good practice because it is hard to understand and confusing for people that read your code. With `var`, you may read or change the variable unintentionally before it is initialized, but Javascript doesn't give you an error that you may be doing something wrong. But, thanks to `let` and `const` and `TDZ` we can avoid and catch many potential bugs.
