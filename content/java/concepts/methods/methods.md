@@ -120,7 +120,7 @@ public static void main(String[] args) {
 
 ### `final`
 
-The `final` keywords prevents methods from being overwritten in inherited classes. The `final` modifier can be combined with visibility modifiers.
+The `final` keyword prevents methods from being overwritten in inherited classes. It can be combined with other modifiers.
 
 ## Exceptions
 
