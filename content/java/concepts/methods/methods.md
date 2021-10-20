@@ -44,7 +44,7 @@ Methods can return any type listed under [data types](https://www.codecademy.com
 
 ## Name
 
-The name of a method should describe as much as possible what the method is doing. Ideally, the programmer calling the method knows what the method does without having the need to look at the body. By following the rule that a method should only do one thing, it's also easier to give it concise name.
+The name of a method should describe as much as possible what the method is doing. Ideally, the programmer calling the method knows what the method does without needing to look at the body. By following the rule that a method should only do one thing, it's also easier to give it a concise name.
 
 A valid name must follow the rules:
 
