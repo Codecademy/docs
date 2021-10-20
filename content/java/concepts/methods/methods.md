@@ -73,7 +73,7 @@ By convention, method names start with a verb, and each word after the first wor
 
 A parameter is described by a data type and a name. With that name, the parameter can be used to access the value inside the method body. A method without any parameters must have empty parenthesis `()` after the method name. Multiple parameters have to be seperated by a comma `,`.
 
-_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the methods is actually called. The values of the arguments are made available via the parameter names inside the method body.
+_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the method is called. The values of the arguments are made available via the parameter names inside the method body.
 
 By convention, a method should have a maximum three parameters. If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
 
