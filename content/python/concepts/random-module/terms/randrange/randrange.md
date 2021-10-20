@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Generates random numbers from a defined range of `int` values.
+The `random.randrange()` method generates random numbers from a defined range of `int` values.
 
 ## Syntax
 
