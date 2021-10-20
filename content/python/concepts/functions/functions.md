@@ -98,7 +98,9 @@ calc_total(250, 5)
 
 When the number of arguments varies with each function call, the function definition can be modified accordingly.
 
-In the function definition, `*args` is used with the special character `*` indicating that it's possible to loop through and consume all arguments in `*args`.
+In the function declaration, `args`,  is passed in with the special character `*` indicating that it's possible to loop through varying amounts of arguments during the function call. 
+
+`*` turns the variable into a tuple, which is an iterable object.
 
 In the example below, the `multiply()` function returns the product of all numbers used in the function call.
 The function call can have 2,3,5 or any number of arguments as needed.
