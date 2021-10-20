@@ -40,7 +40,7 @@ int getOneNumber() {
 
 ## Return Type
 
-Methods can return any type listet under [data types](https://www.codecademy.com/resources/docs/java/data-types/). Additionally, they can return instances any class. If a method shouldn't return a value they have to be defined with the return type `void`.
+Methods can return any type listed under [data types](https://www.codecademy.com/resources/docs/java/data-types/). Additionally, they can return instances any class. If a method shouldn't return a value they have to be defined with the return type `void`.
 
 ## Name
 
