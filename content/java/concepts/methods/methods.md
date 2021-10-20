@@ -16,15 +16,15 @@ Methods are reusable pieces of code in classes. The difference between a method 
 
 Methods consist of at least the following elements:
 
-- return type: the type of the value that is returned from the method
-- name: the name of the method
+- return type: The type of the value that is returned from the method
+- name: The name of the method
 
-Additionally they optionally include:
+Additionally, they optionally include:
 
-- parameters: methods can have no, one or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. parameters make it possible to provide values to the method which can be used inside the body of a method
-- modifier: modifiers define in which way and from which context a method is callable
-- exceptions: exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file)
-- body: the body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes
+- parameters: Methods can have no, one, or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. Parameters make it possible to provide values to the method which can be used inside the body of a method.
+- modifier: Modifiers define in which way and from which context a method is callable.
+- exceptions: Exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non existing file).
+- body: The body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes.
 
 ## A Minimal Signature
 
@@ -40,21 +40,17 @@ int getOneNumber() {
 
 ## Return Type
 
-Methods can return any type listet under [data types](https://www.codecademy.com/resources/docs/java/data-types/).
-Additionally they can return instances any class.
-If a method shouldn't return a value they have to be defined with the return type `void`.
+Methods can return any type listet under [data types](https://www.codecademy.com/resources/docs/java/data-types/). Additionally, they can return instances any class. If a method shouldn't return a value they have to be defined with the return type `void`.
 
 ## Name
 
-The name of a method should describe as much as possible what the method is doing.
-Ideally the programmer calling the method knows what the method does without having the need
-to look at the body. By following the rule that a method should only do one thing, it's also easier
-to give it concise name.
+The name of a method should describe as much as possible what the method is doing. Ideally, the programmer calling the method knows what the method does without having the need to look at the body. By following the rule that a method should only do one thing, it's also easier to give it concise name.
+
 A valid name must follow the rules:
 
-- it has to start with a letter or an underscore (`_`) and can contain digits.
-- it could also start with a `$` but the specification of the language says that this shouldn't be done
-- it can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
+- It has to start with a letter or an underscore (`_`) and can contain digits.
+- It could also start with a `$` but the specification of the language says that this shouldn't be done
+- It can't have a name of keyword (i.e. `return` or `while`) however keywords can be within the name
 
 Examples for valid method names:
 
@@ -71,26 +67,19 @@ Examples for invalid method names:
 - sum_number1&number2 (ampersands are not allowed inside a method name)
 - assert (method names mustn't have the name of a keyword)
 
-By convention method names start with a verb and each word after the first word starts with a capitalized letter.
+By convention, method names start with a verb, and each word after the first word starts with a capitalized letter.
 
 ## Parameters
 
-A parameter is described by a data type and a name.
-With that name the parameter can be used to access the value inside the method body.
-A method without any parameters must have empty parenthesis `()` after the method name.
-Multiple parameters have to be seperated by a comma `,`.
+A parameter is described by a data type and a name. With that name, the parameter can be used to access the value inside the method body. A method without any parameters must have empty parenthesis `()` after the method name. Multiple parameters have to be seperated by a comma `,`.
 
-_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided,
-when the methods is actually called. The values of the arguments are made available via the parameter names inside the method body.
+_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the methods is actually called. The values of the arguments are made available via the parameter names inside the method body.
 
-By convention a method should have a maximum three parameters.
-If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
+By convention, a method should have a maximum three parameters. If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
 
 ## Modifier
 
-Modifiers have the possibility to change the way how a method is allowed to be called (public, protected, private, package private),
-if the method is working on object state or should be executable without creating an object out of a class (static)
-or if the method is allowed to be replaced by inherited classes (final).
+Modifiers have the possibility to change the way how a method is allowed to be called (public, protected, private, package private), if the method is working on object state or should be executable without creating an object out of a class (static) or if the method is allowed to be replaced by inherited classes (final).
 
 ```java
 public int sum(int number1, int number2) {
@@ -115,9 +104,7 @@ public int sum(int number1, int number2) {
 
 ### `static`
 
-Static methods can be called in classes without creating an object instance out of that class.
-That's why the object state in those methods can't be accessed with `this`.
-The `static` modifier can be combined with visibility modifiers.
+Static methods can be called in classes without creating an object instance out of that class. That's why the object state in those methods can't be accessed with `this`. The `static` modifier can be combined with visibility modifiers.
 
 ```java
 public static void main(String[] args) {
@@ -133,17 +120,13 @@ public static void main(String[] args) {
 
 ### `final`
 
-The `final` keywords prevents methods from being overwritten in inherited classes.
-The `final` modifier can be combined with visibility modifiers.
+The `final` keywords prevents methods from being overwritten in inherited classes. The `final` modifier can be combined with visibility modifiers.
 
 ## Exceptions
 
-Methods can throw Exceptions. An example for this is trying to access a file which doesn't exist.
-When calling a method which throws an exception the calling method has to take care of that exception
-or has to throw an Exception as well.
+Methods can throw Exceptions. An example for this is trying to access a file which doesn't exist. When calling a method, which throws an exception, the calling method has to take care of that exception or has to throw an Exception as well.
 
-Here is an example how Java throws an exception in a method which could possibly execute a division by 0
-and therefore the method has to throw an exception.
+Here is an example how Java throws an exception in a method which could possibly execute a division by 0 and therefore the method has to throw an exception.
 
 ```java
 public float divide(float dividend, float divisor) throws ArithmeticException {
@@ -160,10 +143,8 @@ public float divide(float dividend, float divisor) throws ArithmeticException {
 
 ## Body
 
-Everything between `{` and `}` is called the body of the method.
-The body contains the actual code, statements or logic which is executed when the method is called.
+Everything between `{` and `}` is called the body of the method. The body contains the actual code, statements, or logic which is executed when the method is called.
 
 If the method has a return type there needs to be at least one line in the body which returns a value of that type (i.e. `return a+b;`).
 
-Methods also have access to values of the instance of a class when using the word `this`.
-With `this` other methods of that same class can be called or instance fields of the class can be accessed which hold values which are accessible through all methods of the class.
+Methods also have access to values of the instance of a class when using the word `this`. With `this` other methods of that same class can be called or instance fields of the class can be accessed which hold values which are accessible through all methods of the class.
