@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Takes as input two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
+The `random.randint()` function takes in two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
 
 ## Syntax
 
