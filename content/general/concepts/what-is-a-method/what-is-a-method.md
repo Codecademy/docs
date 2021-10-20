@@ -37,7 +37,7 @@ In the Python example below, a class for a character in a game, `Character`, is 
 class Character:
     self.name = "Player"  # charater name
     self.movex = 0    # character's starting position
-    
+
     def introduceSelf(self):
         # Code to print out an introduction phrase.
         Print(f"Hello! I'm {self.name}.")
