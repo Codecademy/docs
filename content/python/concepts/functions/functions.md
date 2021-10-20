@@ -86,7 +86,7 @@ In the function `calc_total()`, the default value of `discount` is 10.
 
 ```py
 def calc_total(amount, discount=10):
-  total = amount*(1 - 0.01*discount)
+  total = amount * (1 - 0.01*discount)
   return total
 
 calc_total(100)
