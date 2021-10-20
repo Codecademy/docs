@@ -35,7 +35,7 @@ In the Python example below, a class for a character in a game, `Character`, is 
 
 ```py
 class Character:
-    self.name = name  # charater name
+    self.name = "Player"  # charater name
     self.movex = 0    # character's starting position
     
     def introduceSelf(self):
