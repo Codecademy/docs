@@ -137,7 +137,7 @@ print(y.__private)
 
 `__private` in parent class `ProgramLanguage` is now `_ProgramLanguage__private` and can't be accessed using `.__private`. Same is true for class methods.
 
-**Note :** This only makes the method or variable inaccessible using the originally declared name. These can still be accessed ,like `y._ProgramLanguage__private` in the above example. It is an indication of how the variable or method should be treated.
+**Note:** Employing a double underscore prefix only makes the method or variable inaccessible using the originally declared name. These can still be accessed, like `y._ProgramLanguage__private` in the above example. The use of this syntax is an indication of how the variable or method should be treated.
 
 ## `isinstance()` and `issubclass()`
 
@@ -289,7 +289,7 @@ print(x.name)
 
 This form is a blend of more than one type of inheritance mentioned above.
 
-## Look out for
+## Potential Complications
 
 ### Class Explosion Problem
 
