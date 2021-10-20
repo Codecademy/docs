@@ -71,7 +71,7 @@ By convention, method names start with a verb, and each word after the first wor
 
 ## Parameters
 
-A parameter is described by a data type and a name. With that name, the parameter can be used to access the value inside the method body. A method without any parameters must have empty parenthesis `()` after the method name. Multiple parameters have to be seperated by a comma `,`.
+A parameter is described by a data type and a name. With that name, the parameter can be used to access the value inside the method body. A method without any parameters must have empty parenthesis `()` after the method name. Multiple parameters have to be separated by a comma `,`.
 
 _Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the method is called. The values of the arguments are made available via the parameter names inside the method body.
 
