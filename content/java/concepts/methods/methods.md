@@ -79,7 +79,7 @@ By convention, a method should have a maximum of three parameters. If it's neces
 
 ## Modifier
 
-Modifiers have the possibility to change the way how a method is allowed to be called (public, protected, private, package private), if the method is working on object state or should be executable without creating an object out of a class (static) or if the method is allowed to be replaced by inherited classes (final).
+Modifiers can change how a method is allowed to be called (public, protected, private, package private), if the method is working on object state or should be executable without creating an object out of a class (static), or if the method is allowed to be replaced by inherited classes (final).
 
 ```java
 public int sum(int number1, int number2) {
