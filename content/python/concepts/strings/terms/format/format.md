@@ -29,9 +29,11 @@ Using empty placeholders `{}`.
 
 ```py
 string1 = "I like to eat {} and {}"
+
 new_string = string1.format("apple", "orange")
+
 print(new_string)
-# output: I like to eat apple and orange
+# Output: I like to eat apple and orange
 ```
 
 Values are inserted in the order they appear in `.format()` when using multiple empty placeholders.
@@ -47,11 +49,8 @@ new_string1 = string1.format("apple", "orange")
 string2 = "I like to eat {1} and {0}"
 new_string2 = string2.format("apple", "orange")
 
-print(new_string1)
-print(new_string2)
-# output:
-# I like to eat apple and orange
-# I like to eat orange and apple
+print(new_string1) # Output: I like to eat apple and orange
+print(new_string2) # Output: I like to eat orange and apple
 ```
 
 Each value in `.format()` is assigned with an index starting from `0`. When the index is called in the placeholder, the corresponding value will be entered in.
@@ -67,11 +66,8 @@ new_string1 = string1.format(food1="apple", food2="orange")
 string2 = "I like to eat {food2} and {food1}"
 new_string2 = string2.format(food1="apple", food2="orange")
 
-print(new_string1)
-print(new_string2)
-# output:
-# I like to eat apple and orange
-# I like to eat orange and apple
+print(new_string1) # Output: I like to eat apple and orange
+print(new_string2) # Output: I like to eat orange and apple
 ```
 
 Similar to example 2, values in `.format()` can be used with keyword arguments. When the keyword is claled in the placeholder, the corresponding value will be entered in.
@@ -89,9 +85,6 @@ new_string2 = string2.format("orange", food1="apple")
 
 print(new_string1)
 print(new_string2)
-# output:
-# I like to eat apple and orange
-# I like to eat orange and apple
 ```
 
 By combining index from example 2 and keyword from example 3, both can be used in a single `.format()` statement.
