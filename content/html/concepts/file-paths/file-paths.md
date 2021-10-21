@@ -1,6 +1,6 @@
 ---
 Title: 'File Paths'
-Description: 'A file path describes the location of a file in a web sites folder structure. They are used to link to external files, like: - Websites - Images - Videos - MP3 files - Style sheets - JavaScript code'
+Description: 'A file path describes the location of a file in a web sites folder structure. They are used to link to external files.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -26,7 +26,7 @@ A file path describes the location of a file in a web site's folder structure. T
 
 URL paths in HTML can be absolute paths, like a full URL, for example:
 
-### https\:\/\/codecademy\.com/resources/docs
+**<span>https\:<span>\/\/codecademy\.com/resources/docs**
 
 ```html
 <a href="https://www.codecademy.com/resources/docs">
@@ -59,7 +59,7 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
   <p id="id-of-element-to-link-to">A different part of the page!</p>
 </div>
 
-<!-- ...later in the page --->
+<!-- Later in the page --->
 
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
