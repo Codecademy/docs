@@ -84,29 +84,29 @@ v.insert(v.begin(), 0);
 // Insert at end
 v.insert(v.end(),6);
 
-cout << "\nThe first element is: " << v[0]; 
+cout << "\nThe first element is: " << v[0];
 // Output: The first element is: 0
-cout << "\nThe last element is: " << v[5]; 
+cout << "\nThe last element is: " << v[5];
 // Output: The last element is: 6
 ```
 
 ## Codebyte Example
 
-To create a vector named `grade` with 3 items and then insert elements to the last of the vector using .push_back() and .insert() functions : 
+To create a vector named `grade` with 3 items and then insert elements to the last of the vector using .push_back() and .insert() functions :
 
 ```codebyte/cpp
 #include <iostream>
 #include <vector>
 
 int main() {
-  std::vector<int> grades(3); 
+  std::vector<int> grades(3);
   // Initializes an array of size 3
 
   grades[0] = 20;
   grades[1] = 30;
   grades[2] = 40;
   //Assign the values to the vector elements
-  
+
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
   std::cout << grades[2] << "\n";
