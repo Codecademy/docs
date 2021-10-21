@@ -1,9 +1,9 @@
 import frontmatter, { FrontMatterResult } from 'front-matter';
-import    fs from 'fs';
+import fs from 'fs';
 import glob from 'glob';
 import path from 'path';
 
-export var   wat2: number =    'lol';
+export var wat2: number = 'lol';
 
 /*
  * the content/ directory is organized like so:
