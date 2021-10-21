@@ -16,6 +16,7 @@
     "markdownlint-cli": "~0.28.1",
     "prettier": "^2.2.1",
     "ts-jest": "^27.0.4",
+    "ts-node": "^10.3.1",
     "typescript": "^4.2.4"
   },
   "scripts": {
@@ -26,7 +27,8 @@
     "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
     "lint:md": "markdownlint \"./content/**/*.md\"",
     "lint": "yarn lint:md && yarn lint:js",
-    "test": "jest"
+    "test": "jest",
+    "update-cotw": "ts-node ./bin/update-concept-of-the-week.ts"
   },
   "license": "UNLICENSED",
   "version": "1.0.0"
