@@ -56,7 +56,7 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
-## Adding elements
+## Adding Elements
 
 There are two different ways to insert elements into the vector.
 
@@ -105,20 +105,20 @@ int main() {
   grades[0] = 20;
   grades[1] = 30;
   grades[2] = 40;
-  //Assign the values to the vector elements
+  // Assign the values to the vector elements
 
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
   std::cout << grades[2] << "\n";
-  //Displaying all 3 vector elements
+  // Displaying all 3 vector elements
 
   grades.push_back(50);
   std::cout << grades[3] << "\n";
-  //Outputs 50
+  // Output: 50
 
   grades.insert(grades.end(),60);
   std::cout << grades[4] << "\n";
-  //Outputs 60
+  // Output: 60
 
 }
 ```
