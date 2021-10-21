@@ -66,8 +66,10 @@ This method pushes elements to the back of a vector.
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
+
 v.push_back(5);
 int n = v.size();
+
 cout << "\nThe last element is: " << v[n - 1];
 // Output: The last element is: 5
 ```
@@ -99,18 +101,18 @@ To create a vector named `grade` with 3 items and then insert elements to the la
 #include <vector>
 
 int main() {
-  std::vector<int> grades(3);
   // Initializes an array of size 3
+  std::vector<int> grades(3);
 
+  // Assign the values to the vector elements
   grades[0] = 20;
   grades[1] = 30;
   grades[2] = 40;
-  // Assign the values to the vector elements
 
+  // Display all 3 vector elements
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
   std::cout << grades[2] << "\n";
-  // Displaying all 3 vector elements
 
   grades.push_back(50);
   std::cout << grades[3] << "\n";
@@ -119,6 +121,5 @@ int main() {
   grades.insert(grades.end(),60);
   std::cout << grades[4] << "\n";
   // Output: 60
-
 }
 ```
