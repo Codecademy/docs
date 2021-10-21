@@ -116,10 +116,8 @@ int main() {
 
   grades.push_back(50);
   std::cout << grades[3] << "\n";
-  // Output: 50
 
   grades.insert(grades.end(),60);
   std::cout << grades[4] << "\n";
-  // Output: 60
 }
 ```
