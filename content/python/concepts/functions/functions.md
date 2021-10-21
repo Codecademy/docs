@@ -75,6 +75,49 @@ returned_value = check_leap_year(year_to_check)
 print(returned_value)
 ```
 
+## Default Values for Function Parameters
+
+Function parameters can also be initialized to a default value.
+
+In the function `calc_total()`, the default value of `discount` is 10.
+
+- When the `discount` value is explicitly specified in the function call, that value is used.
+- Else, the default value of 10 is used.
+
+```py
+def calc_total(amount, discount=10):
+  total = amount * (1 - 0.01*discount)
+  return total
+
+calc_total(100)
+
+calc_total(250, 5)
+```
+
+## Functions with Variable Number of Parameters
+
+When the number of arguments varies with each function call, the function definition can be modified accordingly.
+
+In the function declaration, `args`, is passed in with the special character `*` indicating that it's possible to loop through varying number of arguments during the function call.
+
+`*` turns the variable into a tuple, which is an iterable object.
+
+It is important to note `*` is the operator here, `args` is just the variable name.
+
+In the example below, the `multiply()` function returns the product of all numbers used in the function call.
+
+```py
+def multiply(*args):
+  product = 1
+  for arg in args:
+    product *= arg
+  return product
+
+multiply(21, 24, 17)
+
+multiply(10, 5, 3, 6)
+```
+
 ## Recursion
 
 Functions in Python can call themselves — a concept known as "recursion". Recursion provides an elegant way to solve problems by breaking them down into smaller, more easily-solvable parts, and using those parts to build up a solution.
