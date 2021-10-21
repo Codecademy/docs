@@ -189,7 +189,7 @@ For a given variable declared with `let` or `const`, TDZ is the scope which is f
 1. // in TDZ, cannot read or write the variable foo
 2. // in TDZ, cannot read or write the variable foo
 3. // in TDZ, cannot read or write the variable foo
-4. let foo = 4;
+/* Line 4 */ let foo = 4;
 5. // Now, can read and write the variable foo
 ...
 ```
