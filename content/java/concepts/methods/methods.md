@@ -143,7 +143,7 @@ public float divide(float dividend, float divisor) throws ArithmeticException {
 
 ## Body
 
-Everything between `{` and `}` is called the body of the method. The body contains the actual code, statements, or logic which is executed when the method is called.
+Everything between `{` and `}` is called the body of the method. The body contains the actual code, statements, or logic that is executed when the method is called.
 
 If the method has a return type there needs to be at least one line in the body which returns a value of that type (i.e. `return a+b;`).
 
