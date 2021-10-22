@@ -36,7 +36,7 @@ old_password = "Tr0ub4dor&3"
 new_password = "correcthorsebatterystaple"
 ```
 
-## Finding the character in a string given its index (Python)
+## Finding the Character in a String given its Index (Python)
 
 Like any other list, each character in a string has an index that denotes a character's position. For the Python example above, to provide the index of the string `message`, add square brackets `[` `]` to find out the character at that position. 
 
