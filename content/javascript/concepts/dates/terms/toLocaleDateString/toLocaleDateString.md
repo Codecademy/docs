@@ -34,6 +34,7 @@ console.log(date.toLocaleDateString());
 ```
 
 ## More Examples
+
 You can also get the dates based on different countries by passing their short-codes(string) as a parameter as shown on the below examples.
 
 ```
