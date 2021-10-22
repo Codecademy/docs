@@ -29,7 +29,7 @@ The `.replace()` string method takes in three parameters:
 
 ## Example 1
 
-`.replace()` can be called either directly on a string:
+`.replace()` can be called either directly on a string: hi
 
 ```py
 welcome = "Hello, world!".replace("world", "Codecademy")
