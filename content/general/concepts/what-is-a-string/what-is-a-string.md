@@ -44,9 +44,11 @@ Like any other list, each character in a string has an index that denotes a char
 
 ```py
 message = "Hello, world"
-print (message[0])
+
+print(message[0])
 # Output: H
-print (message[5])
+
+print(message[5])
 # Output: ,
 ```
 
@@ -57,6 +59,8 @@ It is also possible to concatenate strings together using `+` in some languages,
 ```codebyte/py
 block_number = "60"
 street_name = "Sixth Avenue"
+
 address = block_number + street_name
-print (address)
+
+print(address)
 ```
