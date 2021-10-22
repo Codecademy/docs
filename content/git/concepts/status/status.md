@@ -15,7 +15,6 @@ CatalogContent:
 
 Git status shows the state of the working directory, staging area, and which files are untracked (names shown in red and not staged) or tracked (shown in green and staged). The tracked files, shown in green, are found in the staging area and will be saved with the next commit.
 
-
 ## Example
 
 Below is a short example of how the `git status` command works. Assuming a change was saved in a text file, `example.txt`, running `git status` will show that:
