@@ -42,10 +42,12 @@ Like any other list, each character in a string has an index that denotes a char
 
 **Note:** In programming, the index starts from 0, so the index of the first character would be 0.
 
-```codebyte/py
+```py
 message = "Hello, world"
 print (message[0])
+# Output: H
 print (message[5])
+# Output: ,
 ```
 
 ## Example of concatenation
@@ -53,8 +55,8 @@ print (message[5])
 It is also possible to concatenate strings together using `+` in some languages, such as Python and C++.
 
 ```codebyte/py
-Block number = "60"
-Street name = "Sixth Avenue"
-Address = Block number + Street name
-print (Address)
+block_number = "60"
+street_name = "Sixth Avenue"
+address = block_number + street_name
+print (address)
 ```
