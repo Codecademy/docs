@@ -51,7 +51,7 @@ Changes to be committed:
 The file now appears in green when running `git status`, indicating that it is staged and will be saved with the next commit.
 
 ## `git add` Extensions
- 
+
 There are many extentions to the `git add` command such as:
 
 1. -n : Where the file will not be added to the staging area but will show wether or not the file exists and/or if it will be ignored.
