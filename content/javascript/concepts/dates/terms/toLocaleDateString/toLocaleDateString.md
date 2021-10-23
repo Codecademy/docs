@@ -14,7 +14,6 @@ CatalogContent:
 
 The `.toLocalDateString()` method returns a modified string of a given `Date` object, usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
 
-
 ## Syntax
 
 ```js
@@ -22,11 +21,11 @@ const myEventDate = new Date("December 31st, 2021");
 
 const locale = "en-US";
 
-const options = { 
-  weekday: 'long', 
-  month: 'long', 
-  day: 'numeric', 
-  year: 'numeric' 
+const options = {
+  weekday: 'long',
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric'
 };
 
 myEventDate.toLocaleDateString(locale  options)
@@ -76,13 +75,13 @@ options = {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
-  weekday: 'long'
+  weekday: 'long',
 };
 
 console.log(birthday.toLocaleDate('en-US', options));
 ```
 
-The output will be: 
+The output will be:
 
 ```shell
 Monday April 11, 2022

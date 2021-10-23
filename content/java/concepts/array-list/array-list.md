@@ -58,9 +58,7 @@ class Example {
 }
 ```
 
-
 The output will be
-
 
 ```
 []
