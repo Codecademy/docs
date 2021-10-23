@@ -1,6 +1,6 @@
 ---
 Title: 'ArrayList'
-Description: 'The `ArrayList` class uses dynamic arrays for storing elements. It is like an array, but there is no size limit.'
+Description: 'Uses dynamic arrays for storing elements. It is like an array, but there is no size limit.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
