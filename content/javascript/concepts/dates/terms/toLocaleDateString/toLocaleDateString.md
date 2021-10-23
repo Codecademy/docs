@@ -17,7 +17,18 @@ The `.toLocalDateString()` method returns a modified string of a given `Date` ob
 ## Syntax
 
 ```
-date.toLocaleDateString()
+const myEventDate = new Date("December 31st, 2021");
+
+const locale = "en-US";
+
+const options = { 
+  weekday: 'long', 
+  month: 'long', 
+  day: 'numeric', 
+  year: 'numeric' 
+};
+
+myEventDate.toLocaleDateString(locale  options)
 ```
 
 ## Example
