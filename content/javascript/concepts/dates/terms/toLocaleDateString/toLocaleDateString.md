@@ -46,7 +46,7 @@ console.log(date.toLocaleDateString()); // Output: "12/31/2021"
 
 ## More Examples
 
-You can also get the dates based on different countries by passing their short-codes(string) as a parameter as shown on the below examples.
+Dates with a specific language-translation can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the examaples below:
 
 ```
 const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
