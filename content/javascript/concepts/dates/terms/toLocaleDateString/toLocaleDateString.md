@@ -1,6 +1,6 @@
 ---
 Title: '.toLocaleDateString()'
-Description: 'Returns a modified string from a given `Date` object, usually for events. It is translated to a specific language format according to an event's `locale` and other `options`.'
+Description: 'Returns a modified string from a given `Date` object, usually for events. It is translated to a specific language format according to an events `locale` and other `options`.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
