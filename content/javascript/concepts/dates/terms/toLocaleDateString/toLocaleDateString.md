@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-This method converts the date object into string by using some locale conventions and returns it, which can be easily read by the users and understandable. It only retruns the date and if you want time too then you may use `toLocaleTimeString()`.
+The `.toLocalDateString()` method returns a modified string of a given `Date` object, usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
 
 ## Syntax
 
