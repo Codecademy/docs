@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-`ArrayList` is a class in java that uses dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. It is found in the java.util package. It is like the Vector in C++.
+The `ArrayList` class uses dynamic arrays for storing elements. Conceptually, an `ArrayList` is like an array, but they have no size limit. Elements can be added or removed at any time. Therefore, instances of the `ArrayList` class are much more flexible than the traditional array. This class is found in the `java.util` package.
 
 Some other important points about the `ArrayList` class include:
 
