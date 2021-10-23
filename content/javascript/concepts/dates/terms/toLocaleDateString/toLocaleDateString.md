@@ -38,7 +38,7 @@ When used without any parameters, `.toLocaleDateString()` returns a string with 
 In the example below, `.toLocaleDateString()` is being used in the `en-US` locale (more specifically, in the `America/Los_Angeles` timezone).
 
 ```
-var date = new Date(Date.UTC(2012, 11, 12, 3, 0, 0));
+const date = new Date(Date.UTC(2021, 12, 31, 3, 0, 0));
 
 console.log(date.toLocaleDateString());
 
