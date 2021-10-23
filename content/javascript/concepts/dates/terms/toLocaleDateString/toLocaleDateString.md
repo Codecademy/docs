@@ -40,9 +40,7 @@ In the example below, `.toLocaleDateString()` is being used in the `en-US` local
 ```
 const date = new Date(Date.UTC(2021, 12, 31, 3, 0, 0));
 
-console.log(date.toLocaleDateString());
-
-// "12/11/2012"  en-US locale
+console.log(date.toLocaleDateString()); // Output: "12/31/2021"
 
 ```
 
