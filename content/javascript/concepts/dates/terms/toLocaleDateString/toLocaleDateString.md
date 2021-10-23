@@ -33,7 +33,9 @@ myEventDate.toLocaleDateString(locale  options)
 
 ## Example Without Parameters
 
-In basic use without specifying a locale, a formatted string in the default locale and with default options is returned ie. en-US.
+When used without any parameters, `.toLocaleDateString()` returns a string with the `month`, `day`, and `year` options defaulted to `numeric`. How they're arranged and formatted depends on the default `locale` in which the method was used.
+
+In the example below, `.toLocaleDateString()` is being used in the `en-US` locale (more specifically, in the `America/Los_Angeles` timezone).
 
 ```
 var date = new Date(Date.UTC(2012, 11, 12, 3, 0, 0));
