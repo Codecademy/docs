@@ -55,7 +55,6 @@ class Example {
         System.out.println(arr);
 
     }
-
 }
 ```
 
