@@ -35,10 +35,8 @@ ArrayList<String> arr = new ArrayList<String>();
 // import from the java.util package
 import java.util.ArrayList;
 
-class Example
-{
-    public static void main(String []args)
-    {
+class Example {
+    public static void main(String []args) {
         ArrayList<String> arr = new ArrayList<>();
 
         System.out.println(arr);   // prints an empty list
