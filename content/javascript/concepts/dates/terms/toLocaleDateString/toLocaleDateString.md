@@ -49,7 +49,7 @@ console.log(date.toLocaleDateString()); // Output: "12/31/2021"
 You can also get the dates based on different countries by passing their short-codes(string) as a parameter as shown on the below examples.
 
 ```
-var date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
 // US English uses month-day-year order
 console.log(date.toLocaleDateString('en-US'));
