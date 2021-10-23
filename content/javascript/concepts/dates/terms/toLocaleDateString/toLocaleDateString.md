@@ -44,17 +44,24 @@ console.log(date.toLocaleDateString()); // Output: "12/31/2021"
 
 ```
 
-## More Examples
+## Format Based on Language/Region
 
-Dates with a specific language-translation can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the examaples below:
+Dates with a specific language-format can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the examaples below:
 
 ```
-const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+const date = new Date(2021, 11, 31);
 
-// US English uses month-day-year order
+// US English - month/day/year
 console.log(date.toLocaleDateString('en-US'));
 
 
-// British English uses day-month-year order
-console.log(date.toLocaleDateString('en-GB'));
+// Korea - year. month. day.
+console.log(date.toLocaleDateString('ko-KR'));
+```
+
+The output will be:
+
+```
+12/31/2021
+2021. 12. 31.
 ```
