@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toLocalDateString()` method returns a modified string of a given `Date` object, usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
+The `.toLocalDateString()` method returns a modified string of a given [`Date` object](https://www.codecademy.com/resources/docs/javascript/dates), usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
 
 ## Syntax
 
