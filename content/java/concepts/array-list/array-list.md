@@ -36,24 +36,23 @@ ArrayList<String> arr = new ArrayList<String>();
 import java.util.ArrayList;
 
 class Example {
-    public static void main(String []args) {
-        ArrayList<String> arr = new ArrayList<>();
+  public static void main(String []args) {
+    ArrayList<String> arr = new ArrayList<>();
 
-        System.out.println(arr);   // prints an empty list
+    System.out.println(arr);   // Prints an empty list
 
-        arr.add("hello");
-        arr.add("India");
+    arr.add("hello");
+    arr.add("India");
 
-        System.out.println(arr);
+    System.out.println(arr);
 
-        arr.remove("hello");  // removes element with "hello"
+    arr.remove("hello");  // Removes element with "hello"
 
-        System.out.println(arr.size());  // returns size of list
+    System.out.println(arr.size());  // Returns size of list
 
-        arr.clear();  // removes all the elements from list
+    arr.clear();  // Removes all the elements from list
 
-        System.out.println(arr);
-
+    System.out.println(arr);
     }
 }
 ```
