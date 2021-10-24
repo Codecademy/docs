@@ -45,3 +45,12 @@ floating-point numbers can contain a decimal point. There are 2 different sizes.
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `float32`    | 32-bit                                                                         |
 | `float64`    | 64-bit                                  |
+
+### Complex Numbers
+
+Complex numbers consist of a real and an imaginary number. The real number is either a float. There are 2 different sizes.
+
+| Data Type   | Description                                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `complex64`    | 32-bit float + imaginary number                                                                         |
+| `complex128`    | 64-bit float + imaginary number                                  |
