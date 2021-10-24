@@ -14,35 +14,76 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<time>` semantic tag represents a specific date, time or duration, 
+The `<time>` semantic tag represents a specific date (in the Gregorian calendar), time (on a 24-hour clock) or a [valid time duration]( https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). Its `datetime` attribute translates the info to a machine-readable format.
 
 ## Syntax
 
 ```html
 <time>
-  <!-- Mark content goes inside the tag -->
+  <!-- Date and/or time info goes inside the tag -->
 </time>
 ```
 
-`<mark>` requires a closing tag and wraps around a block of text. By default, browsers will render it as black font on a yellow background, but this can be changed via CSS.
+`<time>` requires a closing tag and wraps around a block of text.
+Its `datetime` attribute should be a in a valid format for it to be translated to machine-readable info, see below examples.
 
 ## Example
 
-### Highlighting key concepts
-
-A typical usage example would be to highlight key concepts in a text, so that they immediately stand out to the reader and can be easily singled out.
+### Time string
 
 ```html
-<html>
-  <head> </head>
-  <body>
-    <p>
-        <!-- Main concepts in the paragraph are enclosed in <mark> tags and will be rendered highlighted  -->
-The <mark>properties</mark> of the noble gases can be well explained by modern theories of atomic structure: Their <mark>outer shell of valence electrons</mark> is considered to be <mark>"full"</mark>, giving them little tendency to participate in chemical reactions, and it has been possible to prepare only a few hundred noble gas compounds. The melting and boiling points for a given noble gas are close together, differing by less than 10 °C (18 °F); that is, they are <mark>liquids over only a small temperature range</mark>.
-    </p>
-  </body>
-</html>
+05:50:30
 ```
+
+### Week string
+
+```html
+1995-W32
+```
+
+### Date string
+
+```html
+2021-10-24
+```
+
+### Duration string
+
+```html
+10h 35m 24s
+```
+
+### Local date and time string
+
+```html
+2021-10-24 18:38
+```
+
+### Global date and time string
+
+```html
+2021-10-24 18:39-0100
+```
+
+### Yearless date string
+
+```html
+10-24
+```
+
+### Year string
+
+```html
+2021
+```
+
+### Month string
+
+```html
+2021-10
+```
+
+
 
 
 
