@@ -1,6 +1,6 @@
 ---
 Title: '.toLocaleDateString()'
-Description: 'Returns a modified string from a given `Date` object, usually for events. It is translated to a specific language format according to an event `locale` and other `options`.'
+Description: 'Returns a modified string from a given Date object, usually for events. It is translated to a specific language format according to an event locale and other options.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -45,7 +45,7 @@ console.log(date.toLocaleDateString()); // Output: 12/31/2021
 
 ## Format Based on Language/Region
 
-Dates with a specific language-format can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the examaples below:
+Dates with a specific language format can be returned by passing a country or region's short-code (string) as the `locale` parameter, as shown in the example below:
 
 ```js
 const date = new Date(2021, 11, 31);
