@@ -17,18 +17,18 @@ The `.toLocalDateString()` method returns a modified string of a given `Date` ob
 ## Syntax
 
 ```js
-const myEventDate = new Date("December 31, 2021");
+const myEventDate = new Date('December 31, 2021');
 
-const locale = "en-US";
+const locale = 'en-US';
 
 const options = {
   weekday: 'long',
   month: 'long',
   day: 'numeric',
-  year: 'numeric'
+  year: 'numeric',
 };
 
-myEventDate.toLocaleDateString(locale, options)
+myEventDate.toLocaleDateString(locale, options);
 ```
 
 ## Example Without Parameters
