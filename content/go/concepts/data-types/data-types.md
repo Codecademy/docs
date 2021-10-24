@@ -36,4 +36,12 @@ Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed
 | `rune`      | synonym for int32 and also represents Unicode code points                                       |
 | `byte`      | synonym for int8                                       |
 | `uintptr`      | unsigned integer type with undefined width. Can hold all bits of a pointer value                                       |
-                                                                                                            |
+
+### Floating-Point Numbers
+
+floating-point numbers can contain a decimal point. There are 2 different sizes.
+
+| Data Type   | Description                                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `float32`    | 32-bit                                                                         |
+| `float64`    | 64-bit                                  |
