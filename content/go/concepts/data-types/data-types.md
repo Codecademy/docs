@@ -54,3 +54,22 @@ Complex numbers consist of a real and an imaginary number. The real number is ei
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `complex64`    | 32-bit float + imaginary number                                                                         |
 | `complex128`    | 64-bit float + imaginary number                                  |
+
+## String
+
+A String represents a sequence of characters. Strings are immutable, meaning once they are created they can't be modified.
+
+```go
+  var s string
+  s = "Hello, World!"
+```
+
+## Boolean
+
+A Boolean can hold 2 possible values, either `true` or `false`.
+
+```go
+  var isValid bool
+  isValid = true
+  isValid = false
+```
