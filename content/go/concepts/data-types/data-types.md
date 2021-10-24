@@ -73,3 +73,26 @@ A Boolean can hold 2 possible values, either `true` or `false`.
   isValid = true
   isValid = false
 ```
+
+## Lists (Array, Slice)
+
+A list contains a sequence of elements of the same type. There are 2 different types of Lists in Go: Array (fixed capacity) and Slice (dynamic capacity).
+
+### Array
+
+Arrays can't change their capacity after declaration.
+
+```go
+  // declare and initialize an arraz of capacity 5 and fill it with elements
+  someArray := [5]int{0,2,3,4,5}
+```
+
+### Slice
+
+Slices can change their capacity dynamically even after their declaration. Under the hood a slice references an array. If the array changes, so does the slice.
+
+```go
+  // copy the elements from index 0 until (excluding) index 3 into a slace
+  var slice []int = someArary[0:3]
+```
+
