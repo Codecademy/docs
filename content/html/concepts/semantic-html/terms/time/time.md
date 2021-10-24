@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<time>` semantic tag represents a specific date (in the Gregorian calendar), time (on a 24-hour clock) or a [valid time duration]( https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). Its `datetime` attribute translates the info to a machine-readable format.
+The `<time>` semantic tag represents a specific date (in the Gregorian calendar), time (on a 24-hour clock) or a [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). Its `datetime` attribute translates the info to a machine-readable format.
 
 ## Syntax
 
@@ -82,9 +82,3 @@ Its `datetime` attribute should be a in a valid format for it to be translated t
 ```html
 2021-10
 ```
-
-
-
-
-
-
