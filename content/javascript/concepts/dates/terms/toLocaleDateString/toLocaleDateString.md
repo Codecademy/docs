@@ -17,7 +17,7 @@ The `.toLocalDateString()` method returns a modified string of a given `Date` ob
 ## Syntax
 
 ```js
-const myEventDate = new Date("December 31st, 2021");
+const myEventDate = new Date("December 31, 2021");
 
 const locale = "en-US";
 
@@ -28,7 +28,7 @@ const options = {
   year: 'numeric'
 };
 
-myEventDate.toLocaleDateString(locale  options)
+myEventDate.toLocaleDateString(locale, options)
 ```
 
 ## Example Without Parameters
@@ -53,7 +53,7 @@ const date = new Date(2021, 11, 31);
 // US English - month/day/year
 console.log(date.toLocaleDateString('en-US'));
 
-// Korea - year. month. day.
+// Korean - year. month. day.
 console.log(date.toLocaleDateString('ko-KR'));
 ```
 
@@ -78,7 +78,7 @@ options = {
   weekday: 'long',
 };
 
-console.log(birthday.toLocaleDate('en-US', options));
+console.log(birthday.toLocaleDateString('en-US', options));
 ```
 
 The output will be:

@@ -31,11 +31,11 @@ ArrayList<String> arr = new ArrayList<String>();
 
 ## Example
 
-```
-// import from the java.util package
+```java
+// Import from the java.util package
 import java.util.ArrayList;
 
-class Example {
+public class Example {
   public static void main(String []args) {
     ArrayList<String> arr = new ArrayList<>();
 
