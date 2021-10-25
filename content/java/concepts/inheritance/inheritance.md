@@ -11,13 +11,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class.
+Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from a parent class are passed on to a child class.
 
-In day to day life we might have already heard about inheritance, when something gets passed from parents to child we say that child inherited from parents. Similarly, in Java when some properties or behaviors get passed from parent class to the child class we say that child class inherited from parent class.
+In day-to-day life, when something gets passed from a parent to a child, it is said that child inherits from their parent. Similarly, in Java, when some properties or behaviors get passed from parent class to the child class, it is said that child class inherits from a parent class.
 
-Child class can have properties and methods of its own as well.
+Child classes can have properties and methods of its own as well.
 
-It can also override the behaviors (methods) of the parent class. This is called polymorphism, another OOP concept.
+They can also override the behaviors (methods) of the parent class. This is called polymorphism (another OOP concept).
 
 We can implement inheritance by using the `extends` keyword.
 
@@ -59,7 +59,7 @@ public class Vehicle {
 }
 ```
 
-Here, `Vehicle` is a class which has above mentioned properties and behaviors. Now this is more of a generic class. While creating a specific class let's say `Car`, which has these properties and behaviors plus some extra properties, instead of defining all these properties again in the new class we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable. Similarly, we can make another class let's say `Airplane` which can again access the properties present in `Vehicle` class.
+In the code above, `Vehicle` is a class that has properties and behaviors. This is more of a generic class. While creating a specific class, for example, `Car` which has these properties and behaviors and some extra properties, instead of defining all these properties again in the new class, we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable. Similarly, we can make another class, for example, `Airplane`, which can access the properties present in `Vehicle` class.
 
 Here's a `Car` class which inherits `Vehicle` class:
 
