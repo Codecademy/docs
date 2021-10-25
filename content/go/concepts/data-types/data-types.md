@@ -95,3 +95,36 @@ Slices can change their capacity dynamically even after their declaration. Under
   // copy the elements from index 0 until (excluding) index 3 into a slace
   var slice []int = someArary[0:3]
 ```
+
+## Struct
+
+In Go a Struct is a more complex type that can contain custom fields. It's similar to a Map in JavaScript or a Dict in Python. The fields of a Struct can be accessed with a dot "."
+
+```go
+  // declaration with "type ... struct" keywords
+  type Box struct {
+    X int
+    Y int
+  }
+```
+
+```go
+  // Initialization
+  b := Box{1,2}
+```
+
+## Pointer
+
+Pointers contain the memory address of the variable they are based on. Pointers used "*".
+
+```go
+  // declaration of a Pointer with *
+  var p *int
+```
+
+```go
+  someInteger := 42
+  
+  // create Pointer from Variable using "&"
+  p = &i
+```
