@@ -126,5 +126,5 @@ Pointers contain the memory address of the variable they are based on. Pointers 
   someInteger := 42
 
   // create Pointer from Variable using "&"
-  p = &i
+  p = &someInteger
 ```
