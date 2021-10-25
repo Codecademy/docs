@@ -23,7 +23,7 @@ We can implement inheritance by using the `extends` keyword.
 
 ## Syntax
 
-Here's the basic syntax for implementing `inheritance`:
+Here's the basic syntax for implementing inheritance:
 
 ```java
 public class Child extends Parent {
@@ -78,7 +78,7 @@ public class Car extends Vehicle {
 }
 ```
 
-Below is how you can access properties and methods of parent class
+Below is how you can access properties and methods of parent class:
 
 ```java
 public static void main(String args[]) {
@@ -93,7 +93,7 @@ public static void main(String args[]) {
 
 ## Types of Inheritance
 
-- Single Inheritance: When a child class `inherits` a parent class.
+- Single Inheritance: When a child class inherits from a parent class.
 
 ```java
 public class Parent {
@@ -106,7 +106,7 @@ public class Child extends Parent {
 }
 ```
 
-- Multilevel Inheritance: When a child class `inherits` a parent class which in turn `inherits` another parent class.
+- Multilevel Inheritance: When a child class inherits from a parent class which in turn inherits from another parent class.
 
 ```java
 public class Parent {
@@ -124,7 +124,7 @@ public class GrandChild extends Child {
 }
 ```
 
-- Hierarchical Inheritance: When a child class `inherits` a parent class and there is another sibling class that also `inherits` from same parent class.
+- Hierarchical Inheritance: When a child class inherits from a parent class and there is another sibling class that also inherits from the same parent class.
 
 ```java
 public class Parent {
@@ -145,6 +145,6 @@ public class Sibling extends Parent{
 
 ## Advantages of Inheritance
 
-- Code reusability - Same properties and methods of a class can be used by inheriting that class.
-- Lower maintenance cost - If a piece of code needs to be updated, it can be done at minimal place if inheritance is used.
-- Easier to add new features - If a same new feature needs to be added to multiple classes, through inheritance it can be added in parent class and all the child classes inheriting this parent class would get that feature instantly.
+- Code reusability: Same properties and methods of a class can be used by inheriting that class.
+- Lower maintenance cost: If a piece of code needs to be updated, it can be done at minimal place if inheritance is used.
+- Easier to add new features: If a same new feature needs to be added to multiple classes, through inheritance it can be added in parent class and all the child classes inheriting this parent class would get that feature instantly.
