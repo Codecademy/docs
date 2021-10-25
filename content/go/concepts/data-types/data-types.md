@@ -115,7 +115,7 @@ In Go a Struct is a more complex type that can contain custom fields. It's simil
 
 ## Pointer
 
-Pointers contain the memory address of the variable they are based on. Pointers used "*".
+Pointers contain the memory address of the variable they are based on. Pointers used "\*".
 
 ```go
   // declaration of a Pointer with *
@@ -124,7 +124,7 @@ Pointers contain the memory address of the variable they are based on. Pointers 
 
 ```go
   someInteger := 42
-  
+
   // create Pointer from Variable using "&"
   p = &i
 ```
