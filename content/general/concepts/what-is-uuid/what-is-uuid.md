@@ -1,5 +1,5 @@
 ---
-Title: 'What is UUID?'
+Title: 'UUID'
 Description: 'UUID is a universally unique identifier. It can be generated on any computer without the use of a centralized authority.'
 Subjects:
   - 'Computer Science'
@@ -18,7 +18,7 @@ UUIDs are usually used in database tables as unique keys. They are useful any ti
 
 ## Format
 
-A UUID is usually represented as 32 hexadecimals, sepeated in five groups by 4 hyphens. For example:
+A UUID is usually represented as 32 hexadecimals, separated in five groups by 4 hyphens. For example:
 
 ```pseudo
 123e4567-e89b-12d3-a456-42661417400

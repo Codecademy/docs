@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[pip](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager (npm) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.
+[pip](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager ([npm](https://www.codecademy.com/resources/docs/javascript/npm)) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.
 
 ## Packages
 
@@ -38,11 +38,11 @@ Documentation on PyPI typically comes with the following:
 # Windows
 py --version
 
-# Unix/macOS
+# Linux/macOS
 python3 --version
 ```
 
-It should be noted that as per the [pip documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below. That being said, you will most likely have a better experience using `pip` with Python 3.
+It should be noted that as per the [pip documentation](https://pip.pypa.io/en/stable/development/release-process/?highlight=python%202#:~:text=pip%E2%80%99s%20public%20API.-,Python%202%20Support,-%C2%B6), `pip` maintainers are no longer supporting Python 2 and below.
 
 To upgrade Python, [python.org](python.org) will have the latest version for install. In addition, Python 3.4 and above will have `pip` [installed by default](https://docs.python.org/3/installing/index.html#key-terms).
 

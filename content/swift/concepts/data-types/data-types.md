@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later. | Type | Example | Description | | ----------- | :--------------: | --------------------- | | Int | 5, -638 | Integer whole number | | Float | 3.14, -8.323 | Floating point number | | Double | 6.2831853071 | Floating point number |'
+Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later. Int, Float, Double, String, Character, Bool.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
