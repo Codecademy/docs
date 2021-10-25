@@ -26,34 +26,34 @@ In Go any number is regarded as number, but there are 3 sub-categories: Integers
 
 Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed integers are declared with int and unsigned integers are declared with uint. Each comes in 4 different memory sizes.
 
-| Data Type   | Description                                                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `int8 / uint8`    | 8-bit                                                                         |
-| `int16 / uint16`    | 16-bit                                  |
-| `int32 / uint32`    | 32-bit |
-| `int64 / uint64`   | 64-bit                                                                       |
-| `int / uint`      | depending on the system architecture it will  be 32- or 64-bit                                       |
-| `rune`      | synonym for int32 and also represents Unicode code points                                       |
-| `byte`      | synonym for int8                                       |
-| `uintptr`      | unsigned integer type with undefined width. Can hold all bits of a pointer value                                       |
+| Data Type        | Description                                                                      |
+| ---------------- | -------------------------------------------------------------------------------- |
+| `int8 / uint8`   | 8-bit                                                                            |
+| `int16 / uint16` | 16-bit                                                                           |
+| `int32 / uint32` | 32-bit                                                                           |
+| `int64 / uint64` | 64-bit                                                                           |
+| `int / uint`     | depending on the system architecture it will be 32- or 64-bit                    |
+| `rune`           | synonym for int32 and also represents Unicode code points                        |
+| `byte`           | synonym for int8                                                                 |
+| `uintptr`        | unsigned integer type with undefined width. Can hold all bits of a pointer value |
 
 ### Floating-Point Numbers
 
 floating-point numbers can contain a decimal point. There are 2 different sizes.
 
-| Data Type   | Description                                                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `float32`    | 32-bit                                                                         |
-| `float64`    | 64-bit                                  |
+| Data Type | Description |
+| --------- | ----------- |
+| `float32` | 32-bit      |
+| `float64` | 64-bit      |
 
 ### Complex Numbers
 
 Complex numbers consist of a real and an imaginary number. The real number is either a float. There are 2 different sizes.
 
-| Data Type   | Description                                                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `complex64`    | 32-bit float + imaginary number                                                                         |
-| `complex128`    | 64-bit float + imaginary number                                  |
+| Data Type    | Description                     |
+| ------------ | ------------------------------- |
+| `complex64`  | 32-bit float + imaginary number |
+| `complex128` | 64-bit float + imaginary number |
 
 ## String
 
@@ -95,4 +95,3 @@ Slices can change their capacity dynamically even after their declaration. Under
   // copy the elements from index 0 until (excluding) index 3 into a slace
   var slice []int = someArary[0:3]
 ```
-
