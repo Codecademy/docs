@@ -26,8 +26,8 @@ We can implement inheritance by using the `extends` keyword.
 Here's the basic syntax for implementing `inheritance`:
 
 ```java
-public class Child extends Parent{
-  ...
+public class Child extends Parent {
+  // Class body
 }
 ```
 
@@ -56,7 +56,6 @@ public class Vehicle {
     this.engineNum = engineNum;
   }
   // Similar getters and setters for other properties
-  ...
 }
 ```
 
@@ -73,10 +72,9 @@ public class Car extends Vehicle {
     return airbagCount;
   }
 
-  public void setAirbagCount(int airbagCount){
+  public void setAirbagCount(int airbagCount) {
     this.airbagCount = airbagCount;
   }
-  ...
 }
 ```
 
@@ -85,12 +83,11 @@ Below is how you can access properties and methods of parent class
 ```java
 public static void main(String args[]) {
   Car car = new Car();
-  car.setNumWheels(4);  // Parent class method. This would set the wheel count to 4
-  System.out.println(car.getNumWheels());// Parent class method. Prints numWheels
+  car.setNumWheels(4); // Parent class method. This would set the wheel count to 4
+  System.out.println(car.getNumWheels()); // Parent class method. Prints numWheels
 
-  car.setAirbagCount(2);  // Child class method. This would set the airbag count
+  car.setAirbagCount(2); // Child class method. This would set the airbag count
   System.out.println(car.getAirbagCount()); // Child class method. Prints airbag count
-  ...
 }
 ```
 
@@ -103,7 +100,7 @@ public class Parent {
   // Parent class properties and methods
 }
 
-public class Child extends Parent{
+public class Child extends Parent {
   // Parent class properties and methods accessible here due to inheritance
   // Child class properties and methods
 }
@@ -116,12 +113,12 @@ public class Parent {
   // Parent class properties and methods
 }
 
-public class Child extends Parent{
+public class Child extends Parent {
   // Parent class properties and methods accessible here due to inheritance
   // Child class properties and methods
 }
 
-public class GrandChild extends Child{
+public class GrandChild extends Child {
   // Parent class and Child class properties and methods accessible here due to inheritance
   // GrandChild class properties and methods
 }
