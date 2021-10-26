@@ -5,13 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Arrays'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
-  - 'Slices'
-  - 'Structs'
-  - 'Pointers'
+  - 'Data Types'
+  - 'Go'
 CatalogContent:
   - 'introduction-to-go'
 ---
