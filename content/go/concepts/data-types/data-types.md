@@ -16,7 +16,11 @@ Data types are the classifications we give to the different kinds of data that w
 
 ## Number
 
-In Go any number is regarded as number, but there are 3 sub-categories: Integers (signed and unsigned Integers), floating-point numbers and complex numbers.
+In Go, any number is regarded as number, but there are 3 sub-categories: 
+
+* Integers (signed and unsigned)
+* Floating-point numbers
+* Complex numbers
 
 ### Integers
 
