@@ -12,7 +12,15 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-Data types are the classifications we give to the different kinds of data that we use in programming. In Go, there are seven fundamental data types:
+Data types are the classifications given to the different kinds of values used in everyday programming. In Go, there are seven fundamental data types:
+
+* [Numbers](#Numbers)
+* [Strings](#Strings)
+* [Booleans](#Booleans)
+* [Arrays](#Arrays)
+* [Structures](#Structures)
+* [Slices](#Slices)
+* [Pointers](#Pointers)
 
 ## Number
 
