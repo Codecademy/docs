@@ -70,7 +70,7 @@ A String represents a sequence of characters. Strings are immutable; once they a
   s = "Hello, World!"
 ```
 
-## Boolean
+## Booleans
 
 A Boolean can hold 2 possible values, either `true` or `false`.
 
