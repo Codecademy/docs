@@ -119,7 +119,7 @@ In Go a Struct is a more complex type that can contain custom fields. It's simil
   b := Box{1,2}
 ```
 
-## Pointer
+## Pointers
 
 Pointers contain the memory address of the variable they are based on. Pointers used "\*".
 
