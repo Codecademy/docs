@@ -49,10 +49,8 @@ Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed
 
 floating-point numbers can contain a decimal point. There are 2 different sizes.
 
-| Data Type | Description |
-| --------- | ----------- |
-| `float32` | 32-bit      |
-| `float64` | 64-bit      |
+* 32-bit: `float32`
+* 64-bit: `float64`
 
 ### Complex Numbers
 
