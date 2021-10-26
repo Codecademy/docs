@@ -54,7 +54,7 @@ floating-point numbers can contain a decimal point. There are 2 different sizes.
 
 ### Complex Numbers
 
-Complex numbers consist of a real and an imaginary number. The real number is either a float. There are 2 different sizes.
+Complex numbers are composed of a real number and an imaginary number. The real number is either a float. There are two different sizes:
 
 | Data Type    | Description                     |
 | ------------ | ------------------------------- |
