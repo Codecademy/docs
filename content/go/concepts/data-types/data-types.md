@@ -84,7 +84,7 @@ A Boolean can hold 2 possible values, either `true` or `false`.
 
 A list contains a sequence of elements of the same type. There are 2 different types of Lists in Go: Array (fixed capacity) and Slice (dynamic capacity).
 
-### Array
+### Arrays
 
 Arrays can't change their capacity after declaration.
 
