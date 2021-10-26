@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Data types are the classifications we give to the different kinds of data that we use in programming. In Go, there are seven fundamental data types: Number, String, Boolean, Array, Struct, Slices, Pointers.'
+Description: 'Classifications of data used in everyday programming. In Go, there are seven fundamental data types: Number, String, Boolean, Array, Struct, Slices, and Pointers.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
