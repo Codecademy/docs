@@ -51,6 +51,7 @@ In Git, adding is used to add changes from the working tree to the staging area.
  The file now appears in green when running `git status`, indicating that it is staged and will be saved with the next commit.
  
  There are many extentions to the `git add` command such as:
+ 
  1. `-n` : Where the file will not be added to the staging area but will show wether or not the file exists and/or if it will be ignored.
  2. `-f` : Which stages all files including those which are ignored.
  3. `.a` : Which stages all the files in the current directory.
