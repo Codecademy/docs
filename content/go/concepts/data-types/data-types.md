@@ -14,21 +14,21 @@ CatalogContent:
 
 Data types are the classifications given to the different kinds of values used in everyday programming. In Go, there are seven fundamental data types:
 
-* [Numbers](#Numbers)
-* [Strings](#Strings)
-* [Booleans](#Booleans)
-* [Arrays](#Arrays)
-* [Structures](#Structures)
-* [Slices](#Slices)
-* [Pointers](#Pointers)
+- [Numbers](#Numbers)
+- [Strings](#Strings)
+- [Booleans](#Booleans)
+- [Arrays](#Arrays)
+- [Structures](#Structures)
+- [Slices](#Slices)
+- [Pointers](#Pointers)
 
 ## Number
 
-In Go, any number is regarded as number, but there are 3 sub-categories: 
+In Go, any number is regarded as number, but there are 3 sub-categories:
 
-* Integers (signed and unsigned)
-* Floating-point numbers
-* Complex numbers
+- Integers (signed and unsigned)
+- Floating-point numbers
+- Complex numbers
 
 ### Integers
 
@@ -49,8 +49,8 @@ Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed
 
 floating-point numbers can contain a decimal point. There are 2 different sizes.
 
-* 32-bit: `float32`
-* 64-bit: `float64`
+- 32-bit: `float32`
+- 64-bit: `float64`
 
 ### Complex Numbers
 
