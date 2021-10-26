@@ -63,7 +63,7 @@ Complex numbers are composed of a real number and an imaginary number. The real 
 
 ## String
 
-A String represents a sequence of characters. Strings are immutable, meaning once they are created they can't be modified.
+A String represents a sequence of characters. Strings are immutable; once they are created they can't be modified.
 
 ```go
   var s string
