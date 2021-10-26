@@ -93,7 +93,7 @@ Arrays can't change their capacity after declaration.
   someArray := [5]int{0,2,3,4,5}
 ```
 
-### Slice
+### Slices
 
 Slices can change their capacity dynamically even after their declaration. Under the hood a slice references an array. If the array changes, so does the slice.
 
