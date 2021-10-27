@@ -80,20 +80,16 @@ A Boolean can hold 2 possible values, either `true` or `false`.
   isValid = false
 ```
 
-## Lists (Array, Slice)
+## Arrays
 
-A list contains a sequence of elements of the same type. There are 2 different types of Lists in Go: Array (fixed capacity) and Slice (dynamic capacity).
-
-### Arrays
-
-Arrays can't change their capacity after declaration.
+Arrays are list with static capacity. They can't change their capacity after the declaration.
 
 ```go
   // declare and initialize an arraz of capacity 5 and fill it with elements
   someArray := [5]int{0,2,3,4,5}
 ```
 
-### Slices
+## Slices
 
 Slices can change their capacity dynamically even after their declaration. Under the hood a slice references an array. If the array changes, so does the slice.
 
@@ -102,7 +98,7 @@ Slices can change their capacity dynamically even after their declaration. Under
   var slice []int = someArary[0:3]
 ```
 
-## Struct
+## Structs
 
 In Go, a Struct is a more complex type that can contain custom fields. It's similar to an [object in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects) or a [dictionary in Python](https://www.codecademy.com/resources/docs/python/dictionaries). The fields of a Struct can be accessed with a dot "."
 
