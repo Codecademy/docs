@@ -56,10 +56,19 @@ floating-point numbers can contain a decimal point. There are 2 different sizes.
 
 Complex numbers are composed of a real number and an imaginary number. The real number is either a float. There are two different sizes:
 
-| Data Type    | Description                     |
-| ------------ | ------------------------------- |
-| `complex64`  | 32-bit float + imaginary number |
-| `complex128` | 64-bit float + imaginary number |
+- 32-bit float + imaginary number: `complex64`
+- 64-bit float + imaginary number: `complex128`
+
+```go
+  // initialize with complex() taking 2 arguments: 1) a float and 2) a complex number
+  var complex complex64 = complex(1, 2) // equals 1 + 2i
+```
+
+variables can also be initialized with a shorthand
+
+```go
+  complex := 1 + 2i 
+```
 
 ## String
 
@@ -109,6 +118,8 @@ In Go, a Struct is a more complex type that can contain custom fields. It's simi
     Y int
   }
 ```
+
+To initialize a Struct we have to reference the name of the Struct and pass 0, any or all of the fields of the struct. The fields without a value will be initialized with zero-values by default.
 
 ```go
   // Initialization
