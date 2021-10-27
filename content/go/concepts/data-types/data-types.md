@@ -34,16 +34,13 @@ In Go, any number is regarded as number, but there are 3 sub-categories:
 
 Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed integers are declared with int and unsigned integers are declared with uint. Each comes in 4 different memory sizes.
 
-| Data Type        | Description                                                                      |
-| ---------------- | -------------------------------------------------------------------------------- |
-| `int8 / uint8`   | 8-bit                                                                            |
-| `int16 / uint16` | 16-bit                                                                           |
-| `int32 / uint32` | 32-bit                                                                           |
-| `int64 / uint64` | 64-bit                                                                           |
-| `int / uint`     | depending on the system architecture it will be 32- or 64-bit                    |
-| `rune`           | synonym for int32 and also represents Unicode code points                        |
-| `byte`           | synonym for int8                                                                 |
-| `uintptr`        | unsigned integer type with undefined width. Can hold all bits of a pointer value |
+- 8-bit: `int8 / uint8`
+- 16-bit: `int16 / uint16`
+- 32-bit: `int32 / uint32`
+- 64-bit: `int64 / uint64`
+- 32- or 64-bit based on system architecture: `int / uint`
+- synonym for int32: `rune`
+- synonym for int8: `byte`
 
 ### Floating-Point Numbers
 
