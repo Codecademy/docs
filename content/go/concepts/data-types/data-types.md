@@ -18,7 +18,7 @@ Data types are the classifications given to the different kinds of values used i
 - [Strings](#Strings)
 - [Booleans](#Booleans)
 - [Arrays](#Arrays)
-- [Structures](#Structures)
+- [Structs](#Structs)
 - [Slices](#Slices)
 - [Pointers](#Pointers)
 
@@ -104,7 +104,7 @@ Slices can change their capacity dynamically even after their declaration. Under
 
 ## Struct
 
-In Go a Struct is a more complex type that can contain custom fields. It's similar to a Map in JavaScript or a Dict in Python. The fields of a Struct can be accessed with a dot "."
+In Go, a Struct is a more complex type that can contain custom fields. It's similar to an [object in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects) or a [dictionary in Python](https://www.codecademy.com/resources/docs/python/dictionaries). The fields of a Struct can be accessed with a dot "."
 
 ```go
   // declaration with "type ... struct" keywords
