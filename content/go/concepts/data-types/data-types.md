@@ -32,7 +32,12 @@ In Go, any number is regarded as number, but there are 3 sub-categories:
 
 ### Integers
 
-Integers can come as signed(ϵ Natural Numbers) or unsigned(ϵ Integers). Signed integers are declared with int and unsigned integers are declared with uint. Each comes in 4 different memory sizes.
+Integers are number-types that are either:
+
+* Signed (`int`) integers that can be positive or negative.
+* Unsigned (`uint`) integers ranging from 0 to positive infinity. 
+
+Each integer value comes in 4 different memory sizes.
 
 - 8-bit: `int8 / uint8`
 - 16-bit: `int16 / uint16`
