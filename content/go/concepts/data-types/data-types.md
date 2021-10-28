@@ -24,7 +24,7 @@ Data types are the classifications given to the different kinds of values used i
 
 ## Number
 
-In Go, any number is regarded as number, but there are 3 sub-categories:
+In Go, any number is regarded as number, but there are three sub-categories:
 
 - Integers (signed and unsigned)
 - Floating-point numbers
@@ -49,7 +49,7 @@ Each integer value comes in 4 different memory sizes.
 
 ### Floating-Point Numbers
 
-floating-point numbers can contain a decimal point. There are 2 different sizes.
+floating-point numbers can contain a decimal point. There are two different sizes.
 
 - 32-bit: `float32`
 - 64-bit: `float64`
@@ -83,7 +83,7 @@ A String represents a sequence of characters. Strings are immutable; once they a
 
 ## Booleans
 
-A Boolean can hold 2 possible values, either `true` or `false`.
+A Boolean can hold one of two possible values, either `true` or `false`.
 
 ```go
   var isValid bool
