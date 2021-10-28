@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform operations on variables and values. PHP has the following basic arithmetic operators to perform common mathematical operations: | Operator | Name | Description | | -------- | -------------- | --------------------------------------------------------------- | | + | Addition | $x + $y returns the sum of $x and $y | | - | Subtraction | $x - $y returns the difference of $x and $y | |  | Multiplication | $x  $y returns the product of $x and $y |'
+Description: 'Operators are used to perform operations on variables and values. PHP has the following basic arithmetic operators to perform common mathematical operations: addition, subtraction, multiplication, division, modulo, exponentiation.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -11,7 +11,6 @@ Tags:
   - 'Logical'
 CatalogContent:
   - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'
 ---
 
