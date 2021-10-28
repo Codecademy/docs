@@ -125,5 +125,5 @@ while True:
         # If StopIteration is raised, break from loop
         break
 ```
- In the above code Build-in `iter()` method is equivalent to user-defined `__iter__()` method, when `iter()` method is invoked it invokes `__iter__()` method after data type checks.Similarly, `next(cake_after_cutting)` is same as `cake_after_cutting.__next__()`.
- When `next()` method is invoked it invokes `__next__()` method after data type checks.
+ In the above code Build-in `iter()` method is equivalent to user-defined `__iter__()` method, when `iter()` method is invoked it invokes `__iter__()` method after checking the data type of input argument. Similarly, `next(cake_after_cutting)` is same as `cake_after_cutting.__next__()`.
+ When `next()` method is invoked it invokes `__next__()` method after checking data type of input argument.
