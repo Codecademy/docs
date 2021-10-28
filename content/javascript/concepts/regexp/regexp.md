@@ -149,7 +149,7 @@ Character classes specify a given type of character to match.
 | `\D`                        | Matches any character that is not a digit (Arabic numeral).                                         |
 | `\w`                        | Matches any alphanumeric character from Latin alphabet, including underscore.                       |
 | `\W`                        | Matches any character that is not an alphanumeric character from Latin alphabet or underscore.      |
-| `\s`                        | Matches any whitespace character (space, tab, newline, non-breaking space and similar).             |
+| `\s`                        | Matches any whitespace character (space, tab, newline, non-breaking space, and similar).             |
 | `\S`                        | Matches any character that isn't a whitespace character.                                            |
 | `\t`                        | Matches a horizontal tab.                                                                           |
 | `\r`                        | Matches a carriage return.                                                                          |
