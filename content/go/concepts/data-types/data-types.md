@@ -34,8 +34,8 @@ In Go, any number is regarded as number, but there are 3 sub-categories:
 
 Integers are number-types that are either:
 
-* Signed (`int`) integers that can be positive or negative.
-* Unsigned (`uint`) integers ranging from 0 to positive infinity. 
+- Signed (`int`) integers that can be positive or negative.
+- Unsigned (`uint`) integers ranging from 0 to positive infinity.
 
 Each integer value comes in 4 different memory sizes.
 
@@ -69,7 +69,7 @@ Complex numbers are composed of a real number and an imaginary number. The real 
 variables can also be initialized with a shorthand
 
 ```go
-  complex := 1 + 2i 
+  complex := 1 + 2i
 ```
 
 ## String
