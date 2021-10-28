@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Iterator
 
-In Python, an *iterator* is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through the collection to perform the required tasks. An iterator supports the `next()` method which takes no arguments and always returns the next element of the collection. When all elements are exhausted it returns the `StopIteration` exception.
+In Python, an _iterator_ is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through the collection to perform the required tasks. An iterator supports the `next()` method which takes no arguments and always returns the next element of the collection. When all elements are exhausted it returns the `StopIteration` exception.
 
 ## Iterables
 
@@ -24,11 +24,11 @@ Objects that can be converted into iterators are called *iterables*. Datatypes s
 
 Also, it is important to understand that all iterators are iterable but the converse is not true.
 
-## Code for an iterator using a list
+## Code for an Iterator using a List
 
-The following code shows the generation of  an iterator from a list using the `iter()` method  and usage of the `next()` method by manually iterating through all the items of iterator.  When there are no more elements left in iterator, it returns the `StopIteration` exception.
+The following code shows the generation of an iterator from a list using the `iter()` method and usage of the `next()` method by manually iterating through all the items of the iterator. When there are no more elements left in an iterator, it returns the `StopIteration` exception.
 
-*Note*: Once an iterator has been iterated through, cannot be re-iterated again.
+**Note:** Once an iterator has been iterated through, it cannot be re-iterated again.
 
 ```codebyte/py
 # Defining list cake, which is iterable
@@ -54,10 +54,9 @@ except StopIteration:
 ```
 ## Iterator in a `for` loop
 
-The `for` loop has built-in `iter()` and `next()` methods, which allows running iterations in a more elegant way.
+The `for` loop has built-in `iter()` and `next()` methods, which allows running iterations more elegantly.
 
 ```codebyte/py
-
 # Defining list cake, which is iterable
 cake = ["piece1", "piece2", "piece3"] 
 
@@ -65,16 +64,14 @@ cake = ["piece1", "piece2", "piece3"]
 # The for loop itself convert iterable into iterator and returns elements
 for piece in cake:   
   print(piece)
-
 ```
 ## Iteration using a `while` loop
 
 The `while` loop does not have the built-in `iter()` and `next()` methods as in the `for` loop, so the `iter()` and `next()` methods need to be used separately.
 
 ```codebyte/py
-
 # Defining list cake, which is iterable
-cake = ["piece1", "peice2", "peice3"] 
+cake = ["piece1", "piece2", "piece3"]  
 
 # Converting list into iterator using iter() method
 cake_ready_to_distribute = iter(cake)
@@ -87,13 +84,12 @@ while True :
   except StopIteration:
       # if StopIteration is raised, break from loop
       break
-
 ```
 
 
-## Creating a user-defined iterable object
+## Creating a User-Defined Iterable Object
 
-Since an iterable object is an object that can be converted into Iterator, for an object to be iterable it needs to support the `iter()` method, and the iterator generated must also support `next()`.
+Since an iterable object is an object that can be converted into Iterator, for an object to be iterable it needs to support the `iter()` method and the iterator generated must also support `next()`.
 
 ```codebyte/py
 class cake:
@@ -112,24 +108,22 @@ class cake:
         else:
             raise StopIteration
 
-
 # Creating object cake along with number of pieces to be distributed
 cake_before_cutting = cake(10)
 
 # The object cake is iterable as we defined iter method  
-# Build-in iter() method is equivalent to user-defined __iter__() method
-# When iter() method is invoked it invokes __iter__() method after data type checks 
 cake_after_cutting = iter(cake_before_cutting)
 
 while True:
  
     try:
         # Printing next piece  
-        # next(cake_after_cutting) is same as cake_after_cutting.__next__()
-        # When next() method is invoked it invokes __next__() method after data type checks 
+ 
         print(next(cake_after_cutting))  
         
     except StopIteration:
         # If StopIteration is raised, break from loop
         break
 ```
+ In the above code Build-in `iter()` method is equivalent to user-defined `__iter__()` method, when `iter()` method is invoked it invokes `__iter__()` method after data type checks.Similarly, `next(cake_after_cutting)` is same as `cake_after_cutting.__next__()`.
+ When `next()` method is invoked it invokes `__next__()` method after data type checks.
