@@ -77,7 +77,7 @@ When specified, these flags change the default match behavor of the `RegExp` obj
 | Flag | Description                                                              |
 | ---- | ------------------------------------------------------------------------ |
 | `g`  | Performs a global match, finding all matches rather than just the first. |
-| `i`  | Makes matches case-insensitive.                                          |
+| `i`  | Makes matches case-insensitive. Matches both uppercase and lowercase.    |
 | `m`  | Performs multiline matches. (Changes behavior of `^`,`$`)                |
 | `s`  | Allows `.` to match newline characters.                                  |
 | `u`  | Enables Unicode support.                                                 |
@@ -149,7 +149,7 @@ Character classes specify a given type of character to match.
 | `\D`                        | Matches any character that is not a digit (Arabic numeral).                                         |
 | `\w`                        | Matches any alphanumeric character from Latin alphabet, including underscore.                       |
 | `\W`                        | Matches any character that is not an alphanumeric character from Latin alphabet or underscore.      |
-| `\s`                        | Matches any whitespace character.                                                                   |
+| `\s`                        | Matches any whitespace character (space, tab, newline, non-breaking space, and similar).            |
 | `\S`                        | Matches any character that isn't a whitespace character.                                            |
 | `\t`                        | Matches a horizontal tab.                                                                           |
 | `\r`                        | Matches a carriage return.                                                                          |
@@ -185,8 +185,8 @@ console.log(str.replace(re, 'x'));
 Indicate groups and ranges of characters to match.
 
 | Characters                           | Meaning                                                                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `x\|y`                               | Matches either `x` or `y`.                                                                                                                        |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| `x                                   | y`                                                                                                                                                | Matches either `x` or `y`. |
 | `[xyz]`                              | Matches the character `x`, `y` or `z`.                                                                                                            |
 | `[a-c]`                              | Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\*                                                              |
 | `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                |
