@@ -37,7 +37,7 @@ Values are retrieved by their keys from `Map` objects using the `Map.prototype.g
 
 ```js
 console.log(fruits.get('Apples')); // Output: 5
-console.log(fruits.get('Oranges')); // expected output: 8
+console.log(fruits.get('Oranges')); // Output: 8
 ```
 
 This retrieves the information that there are 5 apples and 8 oranges in the store.
