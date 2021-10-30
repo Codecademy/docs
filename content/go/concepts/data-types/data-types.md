@@ -121,10 +121,10 @@ In Go, a Struct is a more complex type that can contain custom fields. It's simi
   }
 ```
 
-Structs are initialized by: 
+Structs are initialized by:
 
 1. Referencing the name of the Struct
-2. Passing zero, any or all of the fields of the struct. 
+2. Passing zero, any or all of the fields of the struct.
 
 The fields without a value will be initialized with zero-values by default.
 
