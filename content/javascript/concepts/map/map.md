@@ -73,7 +73,7 @@ console.log(fruits.delete('Strawberries')); // Output: false
 ```
 
 The first statement returns `true` because `fruits` contain `Oranges` as a key and has removed it.
-The second statement returns false because `Strawberries` is not a key in fruits.
+The second statement returns `false` because `Strawberries` is not a key in fruits.
 
 
 ## Codebyte Example
