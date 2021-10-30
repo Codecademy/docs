@@ -1,6 +1,6 @@
 ---
 Title: 'Map'
-Description: '`Map` is an object in Javascript that stores key-value pairs and their original insertion order.'
+Description: 'Map is an object in JavaScript that stores key-value pairs and their original insertion order.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
