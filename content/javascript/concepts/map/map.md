@@ -36,7 +36,7 @@ This stores in `fruits`, 5 apples and 8 oranges.
 Values are retrieved by their keys from `Map` objects using the `Map.prototype.get(key)` function.
 
 ```js
-console.log(fruits.get('Apples')); // expected output: 5
+console.log(fruits.get('Apples')); // Output: 5
 console.log(fruits.get('Oranges')); // expected output: 8
 ```
 
