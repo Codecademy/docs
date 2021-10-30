@@ -54,13 +54,13 @@ print(message[5])
 
 ## Example of Concatenation
 
-It is also possible to concatenate strings together using `+` in some languages, such as Python and C++.
+It is also possible to concatenate strings together using `+` in some languages, such as Python and C++. To add a space between strings, an empty space can be put between quotation marks.
 
 ```codebyte/py
 block_number = "60"
 street_name = "Sixth Avenue"
 
-address = block_number + street_name
+address = block_number + ' ' + street_name
 
 print(address)
 ```
