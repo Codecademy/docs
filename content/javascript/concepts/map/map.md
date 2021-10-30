@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`Map` is an object in Javascript that stores key-value pairs and their original insertion order. 
+`Map` is an object in JavaScript that stores key-value pairs in their original insertion order. 
 
 A new map can be defined as follows. This map will store the number of fruits a store has. 
 
