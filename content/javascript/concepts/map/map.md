@@ -61,7 +61,7 @@ The number of keys in a `Map` object can be checked using the `Map.prototype.siz
 console.log(fruits.size); // expected output: 2
 ```
 
-There are 2 keys in `fruits`: `Apples` and `Oranges`.
+There are 2 key-value pairs in `fruits`: `'Apples' : 5` and `'Oranges' : 8`.
 
 ## Removing data from Map
 
