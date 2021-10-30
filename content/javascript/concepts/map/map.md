@@ -69,7 +69,7 @@ Data can be removed from `Map` using the `Map.prototype.delete(key)` function.
 
 ```js
 console.log(fruits.delete('Oranges')); // Output: true
-console.log(fruits.delete('Strawberries')); // expected output: false
+console.log(fruits.delete('Strawberries')); // Output: false
 ```
 
 The first statement returns true because `fruits` contains `Oranges` as a key and has removed it.
