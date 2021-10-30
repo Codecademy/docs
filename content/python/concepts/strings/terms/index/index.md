@@ -25,7 +25,7 @@ string.index(pattern, start, end)
 In the above syntax for the `.index()` method:
 
 - `pattern` (Required): The pattern or substring to search for.
-- `start` (Optional): The starting index of the slice of `string` to search through. The default is 0.
+- `start` (Optional): The starting index of `string` to search through. The default is 0.
 - `end` (Optional): The index of the slice of `string` to search up to, non-inclusive. The default is end of the string.
 
 ## Example 1
@@ -34,8 +34,8 @@ Use `.index()` method to search for the occurrence of `"Python"` in the string v
 
 ```python
 my_string = "Learning Python is fun!"
-my_string.index("Python")
 
+my_string.index("Python")
 # Output: 9
 ```
 
@@ -47,6 +47,7 @@ Use `.index()` method to search for the occurrence of `"Coding"` in the string v
 
 ```py
 my_string = "Learning Python is fun!"
+
 my_string.index("Coding")
 ```
 
@@ -62,5 +63,6 @@ Use `.index()` method to search for the occurrence of `"code"` in a slice of the
 
 ```codebyte/py
 my_string = "Learning to code is fun!"
+
 my_string.index("code", 8, 16)
 ```
