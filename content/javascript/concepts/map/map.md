@@ -28,7 +28,8 @@ Key-value pairs are stored in `Map` using the `Map.prototype.set(key, value)` fu
 fruits.set('Apples', 5);
 fruits.set('Oranges', 8);
 ```
-This stores in `fruits` that there are 5 apples and 8 oranges.
+
+This stores in `fruits`, 5 apples and 8 oranges.
 
 ## Retrieving data from Map
 
