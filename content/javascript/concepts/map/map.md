@@ -68,7 +68,7 @@ There are 2 key-value pairs in `fruits`: `'Apples' : 5` and `'Oranges' : 8`.
 Data can be removed from `Map` using the `Map.prototype.delete(key)` function.
 
 ```js
-console.log(fruits.delete('Oranges')); // expected output: true
+console.log(fruits.delete('Oranges')); // Output: true
 console.log(fruits.delete('Strawberries')); // expected output: false
 ```
 
