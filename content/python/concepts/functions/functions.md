@@ -42,24 +42,27 @@ doHomework()
 
 ## Function Parameters
 
-Sometimes functions require input to provide data for their code. This input is defined using parameters.
+Functions often process data to achieve their intended task. Each value required by a function is passed as an argument when that function is called.
 
-Parameters are variables that are defined in the function definition. They are assigned the values which were passed as arguments when the function was called, elsewhere in the code.
+Parameters are variables that are declared in the function definition. When a function is called, each parameter is assigned the value which was passed as a corresponding argument.
 
-For example, the function definition defines parameters for a character, a setting, and a skill, which are used as inputs to write the first sentence of a book.
+For example, the function below contains parameters for a `character`, a `setting`, and a `skill`, which are used as inputs to write the first sentence of a book.
 
 ```py
 def write_a_book(character, setting, special_skill):
   print(character + " is in " +
         setting + " practicing her " +
         special_skill)
+
+write_a_book("Naomi", "engineering", "welding")
+# Output: Naomi is in engineering practicing her welding
 ```
 
-## Returning Value from Function
+## Returning Values from Functions
 
 The `return` keyword is used to return a value from a Python function. The value returned from a function can be assigned to a variable which can then be used in the program.
 
-In the example, the function `check_leap_year()` returns a string which indicates if the passed parameter is a leap year or not.
+In the example below, the function `check_leap_year()` returns a string which indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
 def check_leap_year(year):
@@ -82,27 +85,41 @@ Function parameters can also be initialized to a default value.
 In the function `calc_total()`, the default value of `discount` is 10.
 
 - When the `discount` value is explicitly specified in the function call, that value is used.
-- Else, the default value of 10 is used.
+- Otherwise, the default value of 10 is used.
 
 ```py
 def calc_total(amount, discount=10):
   total = amount * (1 - 0.01*discount)
   return total
 
-calc_total(100)
-
-calc_total(250, 5)
+calc_total(100)     # Output: 90.0
+calc_total(250, 5)  # Output: 237.5
 ```
 
-## Functions with Variable Number of Parameters
+## Keyword Arguments
 
-When the number of arguments varies with each function call, the function definition can be modified accordingly.
+Unless specified otherwise, the arguments passed into a function are assigned to each parameter in order in which they appear in the function call. Thus, they are also known as "positional arguments".
 
-In the function declaration, `args`, is passed in with the special character `*` indicating that it's possible to loop through varying number of arguments during the function call.
+Python also supports keyword arguments — prefixing arguments with the names of parameters to assign them directly, regardless of the order.
 
-`*` turns the variable into a tuple, which is an iterable object.
+```py
+def write_a_book(name, color, clothing_item):
+  print(name + " was wearing a " + color +
+        " " + clothing_item + ".")
 
-It is important to note `*` is the operator here, `args` is just the variable name.
+write_a_book(color="yellow", clothing_item="raincoat", name="Jonas")
+# output: Jonas was wearing a yellow raincoat.
+```
+
+Keyword arguments must be passed after positional arguments. The following call will raise an error.
+
+```py
+write_a_book(name="Jonas", "yellow", "raincoat")
+```
+
+## Functions with Varying Number of Arguments
+
+When defining a function, it may not be necessary to know in advance how many arguments will be needed. In such cases, a special parameter `*args` is passed in. The asterisk, known in this context as the "packing operator", packs the arguments into a [tuple](https://www.codecademy.com/resources/docs/python/tuples) stored in `args`. This tuple can then be iterated through within the function.
 
 In the example below, the `multiply()` function returns the product of all numbers used in the function call.
 
@@ -113,9 +130,45 @@ def multiply(*args):
     product *= arg
   return product
 
-multiply(21, 24, 17)
+multiply(21, 24)
+multiply(10, 5, 3, 6, 17)
+```
 
-multiply(10, 5, 3, 6)
+Similarly, functions can be called with an arbitrary number of keyword arguments. In this case, a special parameter `**kwargs` is passed in, where the double asterisk is a packing operator that produces a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) rather than a tuple. The parameter name and value of each keyword argument are packed as a key-value pair stored in `kwargs`.
+
+```py
+def north_american_leaders(**kwargs):
+  for country in kwargs:
+    print(country + ": " + kwargs[country])
+
+north_american_leaders(canada="Trudeau", us="Biden", mexico="López Obrador")
+
+# Output:
+#   canada: Trudeau
+#   us: Biden
+#   mexico: López Obrador
+```
+
+When defining a function, both forms of argument packing can be used. However, `args` must always precede `kwargs`.
+
+## Dynamically Passing Arguments
+
+When many arguments need to be passed into a function, it can be tedious to type them out individually. Instead, "argument unpacking" can be used to pass positional or keyword arguments dynamically.
+
+```codebyte/py
+def print_biography(name, country, age, hobby):
+  print("Hello! My name is " + name + " and I'm " + str(age) +
+        " years old. I come from " + country + ", and in my
+        free time I like to " + hobby + ".")
+  
+adam = {
+  "name": "Adam",
+  "country": "Germany",
+  "age": 23,
+  "hobby": "paint"
+}
+
+print_biography(**adam)
 ```
 
 ## Recursion
@@ -139,7 +192,7 @@ for i in range(6):
   print(fibonacci(i))
 ```
 
-Notice how inside the `fibonacci()` function, it calls itself.
+Notice how the definition for `fibonacci()` contains a call to itself (line 7).
 
 ## Higher-Order Functions
 
@@ -165,7 +218,7 @@ print(list(perfect_squares))
 
 ## Anonymous Functions
 
-The act of defining a function using the `def` keyword binds that function to a name. However, functions can also be defined without giving them a name. Such functions are called "anonymous" and are defined using the `lambda` keyword.
+The act of defining a function using the `def` keyword binds that function to a name. However, some functions can be defined without giving them a name. Such functions are called "anonymous" and are defined using the `lambda` keyword.
 
 ```pseudo
 lambda <parameters> : <function body>
@@ -184,6 +237,8 @@ add = lambda a, b: a + b
 
 The expression to the right of the assignment operator is called a "lambda expression". The Python interpreter takes this expression and defines a function object which can be bound to an identifier (in this case, `add`). There is no difference between binding a function to a name using the assignment operator or by using the `def` keyword.
 
+Parameters are optional when defining an anonymous function. However, a function body must be present, and it must only contain a single return expression.
+
 Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions.
 
 ```py
@@ -191,8 +246,15 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 odd_numbers = filter(lambda n : n % 2 == 1, numbers)
 
-print(list(perfect_squares))
+print(list(odd_numbers))
 # Output: [1, 3, 5, 7, 9]
+```
+
+Anonymous functions can also be invoked immediately after they are defined.
+
+```py
+print((lambda a, b: a + b)(1986, 33))
+# output: 2019
 ```
 
 For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
