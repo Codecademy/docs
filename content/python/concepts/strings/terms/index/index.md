@@ -25,7 +25,7 @@ string.index(pattern, start, end)
 In the above syntax for the `.index()` method:
 
 - `pattern` (Required): The pattern or substring to search for.
-- `start` (Optional): The starting index of `string` to search through. The default is 0.
+- `start` (Optional): The starting index of `string` to search. The default is 0.
 - `end` (Optional): The index of the slice of `string` to search up to, non-inclusive. The default is end of the string.
 
 ## Example 1
