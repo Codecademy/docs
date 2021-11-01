@@ -28,6 +28,8 @@ Additionally, they optionally include:
 
 ## A Minimal Signature
 
+Creating a method called `.getOneNumber()`:
+
 ```java
 int getOneNumber() {
   return 1;
@@ -136,7 +138,7 @@ public float divide(float dividend, float divisor) throws ArithmeticException {
 
 - Modifiers: `public`
 - Return type: `float`
-- nName: `divide`
+- Name: `divide`
 - Parameters: `float dividend, float divisor`
 - Thrown exception: `throws ArithmeticException`
 - Body: `return dividend / divisor`
