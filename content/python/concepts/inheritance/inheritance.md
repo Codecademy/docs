@@ -40,7 +40,7 @@ In the above code, subclass `Python` inherits the variable `name` and method `__
 
 Base class methods can be reused in the derived classes. This prevents redundant code.
 
-In the example below, the derived class (`Python`) implements the `.say_hi()` parent method inside the `intro()` definition:
+In the example below, the derived class, `Python`, implements the `.say_hi()` parent method inside the `.intro()` definition:
 
 ```py
 # Base class
