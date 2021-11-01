@@ -32,7 +32,7 @@ old_password = "Tr0ub4dor&3"
 new_password = "correcthorsebatterystaple"
 ```
 
-# Index
+## Index
 
 Like any other list, each character in a string has an index that denotes a character's position. 
 
@@ -42,7 +42,6 @@ message = 'Howdy!'
 ```
 
 **Note:** In programming, the index starts from 0, so the index of the first character would be 0.
-
 
 ## Finding the Character in a String Given its Index (Python)
 
