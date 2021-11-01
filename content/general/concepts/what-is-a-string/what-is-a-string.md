@@ -34,7 +34,7 @@ new_password = "correcthorsebatterystaple"
 
 ## Index
 
-Like any other list, each character in a string has an index that denotes a character's position. 
+Like any other list, each character in a string has an index that denotes a character's position.
 
 ```pseudo
 message = 'Howdy!'
