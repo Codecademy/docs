@@ -68,9 +68,10 @@ This method pushes elements to the back of a vector.
 std::vector<int> v = {1,2,3,4};
 
 v.push_back(5);
+
 int n = v.size();
 
-cout << "\nThe last element is: " << v[n - 1];
+std::cout << "The last element is: " << v[n - 1];
 // Output: The last element is: 5
 ```
 
@@ -83,12 +84,13 @@ std::vector<int> v = {1,2,3,4};
 
 // Insert at beginning
 v.insert(v.begin(), 0);
+
 // Insert at end
 v.insert(v.end(),6);
 
-cout << "\nThe first element is: " << v[0];
+std::cout << "The first element is: " << v[0] << "\n";
 // Output: The first element is: 0
-cout << "\nThe last element is: " << v[5];
+std::cout << "The last element is: " << v[5] << "\n";
 // Output: The last element is: 6
 ```
 
