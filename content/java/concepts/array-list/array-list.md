@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ArrayList` class uses dynamic arrays for storing elements. Conceptually, it is like an array but with no size limit. 
+The `ArrayList` class uses dynamic arrays for storing elements. Conceptually, it is like an array but with no size limit.
 
 Elements can be added or removed at any time. Therefore, instances of the `ArrayList` class are much more flexible than the traditional array. This class is found in the `java.util` package.
 
