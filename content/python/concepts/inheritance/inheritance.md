@@ -72,7 +72,7 @@ Python here!
 
 `super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
 
-In this case, the `.say_hi()` method is implemented utilizing `super()` inside `intro()`:
+In this case, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
 
 ```py
 class Python(ProgramLanguage):
@@ -127,7 +127,7 @@ Hi! I am a Programming Language.
 
 ## Private Variables
 
-When instance variables of the parent class don’t need to be inherited by the child class, they can be made unavailable to the child class by adding double underscores (`__`) before the variable name. This appends `_classname` before the variable name. So, when we try to access it like other instance variables of the class it gives an Attribute error.
+When instance variables of the parent class don’t need to be inherited by the child class, they can be made unavailable to the child class by adding double underscores (`__`) before the variable name. This appends `_classname` before the variable name. So, when we try to access it like other instance variables of the class it gives an "Attribute error".
 
 ```py
 class ProgramLanguage:
@@ -144,10 +144,9 @@ print(y.name)
 print(y.__private)
 ```
 
-The output would be:
+The error would be:
 
-```shell
-Python
+```error
 AttributeError: 'Python' object has no attribute '__private'
 ```
 
@@ -196,7 +195,9 @@ class AbstractClass(ABC):
     pass
 ```
 
-`AbstractClass` is derived from `ABC`, making it an Abstract Base Class. `.calculate_payroll()` decorates the method with the `@abstractmethod` decorator. This tells users of the module that objects of class `Employee` can’t be created. It also tells other developers that if they derive from the `Employee` class, they must override the `.calculate_payroll()` abstract method by defining it in the inherited class.
+`AbstractClass` is derived from `ABC`, making it an Abstract Base Class. 
+
+`.calculate_payroll()` decorates the method with the `@abstractmethod` decorator. This tells users of the module that objects of class `Employee` can’t be created. It also tells other developers that if they derive from the `Employee` class, they must override the `.calculate_payroll()` abstract method by defining it in the inherited class.
 
 ## Types of Inheritance
 
@@ -255,7 +256,6 @@ class Base(object):
   def getName(self):
     return self.name
 
-
 # Inherited/sub class
 class Child(Base):
   def __init__(self, name, age):
@@ -277,8 +277,7 @@ class GrandChild(Child):
 g = GrandChild("James", 23, "Transylvania")
 print(g.getName(), g.getAge(), g.getAddress())
 
-# Output:
-# James 23 Transylvania
+# Output: James 23 Transylvania
 ```
 
 ### Hierarchical Inheritance
