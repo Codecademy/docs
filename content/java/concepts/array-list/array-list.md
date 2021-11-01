@@ -41,7 +41,7 @@ public class Example {
   public static void main(String []args) {
     ArrayList<String> arr = new ArrayList<>();
 
-    System.out.println(arr);   // Prints an empty list
+    System.out.println(arr);  // Prints an empty list
 
     arr.add("hello");
     arr.add("India");
