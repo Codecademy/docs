@@ -16,8 +16,8 @@ CatalogContent:
 
 Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are eight fundamental data types:
 
-| Data Type | Description |
-| --- | --- |
+| Data Type   | Description                                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Number`    | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                         |
 | `BigInt`    | Any number, greater than 2^53-1 or less than -(2^53-1) with `n` appended to the number: `1234567890123456n`.                                  |
 | `String`    | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes `''` or double quotes `""`. |
