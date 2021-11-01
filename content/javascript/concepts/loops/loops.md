@@ -192,7 +192,7 @@ for (let outer = 0; outer < 2; outer += 1) {
 
 The output should look like:
 
-```
+```shell
 0-0
 0-1
 0-2
