@@ -11,10 +11,8 @@ Tags:
   - 'OOP'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science/'
+  - 'paths/computer-science'
 ---
-
-A method is a small piece of code, usually defined in a class, that can be used in other parts of the program.
 
 Classes can be broken into two core parts:
 
@@ -29,26 +27,34 @@ In object-oriented programming, methods promote reusability and keep functionali
 
 In the Python example below, a class for a character in a game, `Character`, is defined with certain behaviors. The character can:
 
-- Introduce themselves via `introduceSelf(self)`.
-- Move left given an integer amount via `moveLeft(self, x)`.
-- Move right given an integer amount via `moveRight(self, x)`.
+- Introduce themselves via `.introduceSelf()`.
+- Move left given an integer amount via `.moveLeft()`.
+- Move right given an integer amount via `.moveRight()`.
 
 ```py
 class Character:
-    self.name = "Player"  # charater name
-    self.movex = 0    # character's starting position
+  def __init__(self, name, movex):
+    self.name = "Player"  # Character's name
+    self.movex = 0        # Character's starting position
 
-    def introduceSelf(self):
-        # Code to print out an introduction phrase.
-        Print(f"Hello! I'm {self.name}.")
+  def introduceSelf(self):
+    # Print out an introduction phrase
+    print(f"Hello! I'm {self.name}.")
 
-    def moveLeft(self, x):
-        # Code to move the character left by x pixels.
-        self.movex -= x
+  def moveLeft(self, x):
+    # Move the character left by x pixels
+    self.movex -= x
 
-    def moveRight(self, x):
-        # Code to move the character right by x pixels.
-        self.movex += x
+  def moveRight(self, x):
+    # Move the character right by x pixels
+    self.movex += x
 ```
 
 Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
+
+## Methods in Different Langauges
+
+- [Methods in C++](https://www.codecademy.com/resources/docs/cpp/methods)
+- [Methods in Java](https://www.codecademy.com/resources/docs/java/methods)
+- [Methods in JavaScript](https://www.codecademy.com/resources/docs/javascript/methods)
+- [Methods in Python](https://www.codecademy.com/resources/docs/python)
