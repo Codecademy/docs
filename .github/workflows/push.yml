@@ -1,4 +1,4 @@
-name: Push CI
+name: Push
 
 jobs:
   ci:
@@ -11,6 +11,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        command: ["compile", "format:verify", "lint", "test"]
+        command: ["compile", "format:verify", "lint:js", "lint:md", "test"]
 
 on: push

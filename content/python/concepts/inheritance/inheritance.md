@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Inheritance is an object-oriented programming concept where a class (often referred to as the child class) derives attributes and behaviors from another class (often referred to as the parent class). 
+Inheritance is an object-oriented programming concept where a class (often referred to as the child class) derives attributes and behaviors from another class (often referred to as the parent class).
 
 This eliminates the need to implement the methods inherited by a subclass, or child class, again. In other words, it enables a child class to inherit/reuse the attributes and methods of a parent class. In terms of real-world objects, it represents an IS-A relationship.
 
