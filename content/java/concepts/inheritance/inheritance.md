@@ -59,7 +59,7 @@ public class Vehicle {
 }
 ```
 
-In the code above, `Vehicle` is a class that has properties and behaviors. This is more of a generic class. 
+In the code above, `Vehicle` is a class that has properties and behaviors. This is more of a generic class.
 
 While creating a specific class, for example, `Car` which has these properties and behaviors and some extra properties, instead of defining all these properties again in the new class, we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable.
 
