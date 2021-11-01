@@ -1,5 +1,5 @@
 ---
-Title: 'Java: Inheritance'
+Title: 'Inheritance'
 Description: 'Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class.'
 Subjects:
   - 'Computer Science'
@@ -59,7 +59,11 @@ public class Vehicle {
 }
 ```
 
-In the code above, `Vehicle` is a class that has properties and behaviors. This is more of a generic class. While creating a specific class, for example, `Car` which has these properties and behaviors and some extra properties, instead of defining all these properties again in the new class, we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable. Similarly, we can make another class, for example, `Airplane`, which can access the properties present in `Vehicle` class.
+In the code above, `Vehicle` is a class that has properties and behaviors. This is more of a generic class.
+
+While creating a specific class, for example, `Car` which has these properties and behaviors and some extra properties, instead of defining all these properties again in the new class, we can make use of inheritance to pass on the properties defined in `Vehicle` class and access them in `Car` class. This would make code written in `Vehicle` class reusable.
+
+Similarly, we can make another class, for example, `Airplane`, which can access the properties present in `Vehicle` class.
 
 Here's a `Car` class which inherits `Vehicle` class:
 
@@ -93,7 +97,9 @@ public static void main(String args[]) {
 
 ## Types of Inheritance
 
-- Single Inheritance: When a child class inherits from a parent class.
+### Single Inheritance
+
+Single inheritance is when a child class inherits from a parent class.
 
 ```java
 public class Parent {
@@ -106,7 +112,9 @@ public class Child extends Parent {
 }
 ```
 
-- Multilevel Inheritance: When a child class inherits from a parent class which in turn inherits from another parent class.
+### Multilevel Inheritance
+
+Multilevel inheritance is when a child class inherits from a parent class which in turn inherits from another parent class.
 
 ```java
 public class Parent {
@@ -124,7 +132,9 @@ public class GrandChild extends Child {
 }
 ```
 
-- Hierarchical Inheritance: When a child class inherits from a parent class and there is another sibling class that also inherits from the same parent class.
+### Hierarchical Inheritance
+
+Hierarchical inheritance is when a child class inherits from a parent class and there is another sibling class that also inherits from the same parent class.
 
 ```java
 public class Parent {
