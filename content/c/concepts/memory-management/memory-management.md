@@ -31,11 +31,9 @@ const int maxScore = 10; // Constant, can not be changed
 
 In this type of allocation system memory is managed at runtime. Dynamic memory management in C programming language is performed using four functions named `malloc()`, `calloc()`, `realloc()`, and `free()`. These four functions are defined in the C standard library header file `<stdlib.h>`. It uses the heap space of the system memory.
 
-Let's know about each function in detail:
+### `malloc()`
 
-### malloc()
-
-`malloc()` function is used to allocate a block of memory in the heap. It allocates the user a specified number of bytes but does not initialize. Once allocated, the program accesses this block of memory via a pointer that `malloc()` returns.
+The `malloc()` function is used to allocate a block of memory in the heap. It allocates the user a specified number of bytes but does not initialize. Once allocated, the program accesses this block of memory via a pointer that `malloc()` returns.
 
 The default pointer returned by `malloc()` is of the type `void` but can be cast into a pointer of any data type. However, if the space is insufficient for the amount of memory requested by `malloc()`, then the allocation fails and a `NULL` pointer is returned.
 
@@ -48,9 +46,9 @@ ptr = (int*) malloc(5 * sizeof(int));
 
 Since the size of `int` is 4 bytes, the above statement will allocate 20 bytes (4 \* 5) of memory.
 
-### calloc()
+### `calloc()`
 
-`calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compared to `malloc()` which only has one parameter.
+The `calloc()` function is used to dynamically allocate the specified number of blocks of memory of the specified type. It is very much similar to `malloc()` but the difference is that it initializes each block with a default value `0` and it has two parameters as compared to `malloc()` which only has one parameter.
 
 ```c
 int *ptr;
@@ -61,9 +59,9 @@ ptr = (int*) calloc(5, sizeof(int));
 
 The above statement allocates contiguous space in memory for 5 elements each with the size of the `int`.
 
-### realloc()
+### `realloc()`
 
-`realloc()` function is used to dynamically change the memory which was previously allocated. It means that if the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, so it can be reallocated using the `realloc()` function.
+The `realloc()` function is used to dynamically change the memory which was previously allocated. It means that if the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, so it can be reallocated using the `realloc()` function.
 
 ```c
 int *ptr;
@@ -75,9 +73,9 @@ ptr = (int*) malloc(5 * sizeof(int));
 ptr = realloc(ptr, 10 * sizeof(int));
 ```
 
-### free()
+### `free()`
 
-`free()` function is used to dynamically de-allocate the memory. The memory allocated using functions `malloc()` and `calloc()` must be de-allocated manually by the user using the `free()` function when not in use. It helps to reduce the wastage of memory by freeing it.
+The `free()` function is used to dynamically de-allocate the memory. The memory allocated using functions `malloc()` and `calloc()` must be de-allocated manually by the user using the `free()` function when not in use. It helps to reduce the wastage of memory by freeing it.
 
 ```c
 int *ptr;
