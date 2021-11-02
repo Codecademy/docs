@@ -17,4 +17,4 @@ Lovelace is known for her work on Charles Babbage's Analytical Engine, the first
 
 While this machine was revolutionary, the Analytical Engine's capabilities were misunderstood at the time. However, Ada Lovelace's excellent implementation for calculating Bernoulli numbers on the conceptual machine became the first published algorithm and aided in legitimizing the practically of such a device.
 
-**Fun fact:** One of the main conference rooms was named after Ada Lovelace at Codecademy's old office.
+**Fun fact:** One of the main conference rooms at Codecademy's old office was named after Ada Lovelace.
