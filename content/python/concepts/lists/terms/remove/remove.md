@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Remove an item from a list by passing in the value of the item to be removed as an argument.'
+Description: 'Removes an item from a list by passing in the value of the item to be removed as an argument.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Remove an item from a list by passing in the value of the item to be removed as an argument.
+The `.remove()` method removes an item from a list by passing in the value of the item to be removed as an argument.
 
 ## Syntax
 
@@ -25,6 +25,17 @@ In the case where two or more elements in the list have the same value, the firs
 
 ## Example
 
+```python
+inventory = ['⚽', '🏀', '⚾️', '🎾', '🏐']
+
+inventory.remove('⚾️')
+
+print(inventory)
+# Output: ['⚽', '🏀', '🎾', '🏐']
+```
+
+## Codebyte Example
+
 To remove the first occurance of `'eggs'`:
 
 ```codebyte/python
@@ -33,5 +44,4 @@ grocery_list = ['blueberries', 'mochi', 'eggs', 'chocolate']
 grocery_list.remove('eggs')
 
 print(grocery_list)
-# Output: ['blueberries', 'mochi', 'chocolate']
 ```
