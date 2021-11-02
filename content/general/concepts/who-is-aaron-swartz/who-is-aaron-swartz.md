@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py.
+Aaron Swartz (1986-2013) was an American programmer, writer, entrepreneur, and internet activist. He was involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py.
 
 He was a co-founder of a startup called Infogami, which later became the social news site Reddit. In his later years, he co-founded an activist organization, Demand Progress, and led the charge fighting the Stop Online Piracy Act (SOPA).
 
