@@ -24,13 +24,11 @@ The `<mark>` semantic tag represents part of a text that should be rendered as m
 </mark>
 ```
 
-`<mark>` requires a closing tag and wraps around a block of text. By default, browsers will render it as black font on a yellow background, but this can be changed via CSS.
+Using the `<mark>` element requires an opening and closing tag that wraps around a block of text. By default, browsers will render it as a black font on a yellow background, but this can be restyled via CSS.
 
-## Example
+## Example of Highlighting Key Concepts
 
-### Highlighting key concepts
-
-A typical usage example would be to highlight key concepts in a text, so that they immediately stand out to the reader and can be easily singled out.
+In the example below, the `<mark>` element is used to highlight important words and phrases: 
 
 ```html
 <html>

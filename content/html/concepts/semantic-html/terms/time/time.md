@@ -1,6 +1,6 @@
 ---
 Title: '<time>'
-Description: 'Represents a specific date, time or duration. It can take a ```datetime``` attribute that makes it machine-readable'
+Description: 'Represents a time-related piece of information and can take a `datetime` attribute that makes it machine-readable'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -14,7 +14,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<time>` semantic tag represents a specific date (in the Gregorian calendar), time (on a 24-hour clock) or a [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). Its `datetime` attribute translates the info to a machine-readable format.
+The `<time>` semantic tag represents a time-related piece of information, including:
+* A specific date in the Gregorian calendar.
+* The time on a 24-hour clock.
+* A [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). 
+The `<time>` element accepts a  `datetime` attribute that translates the info to a machine-readable format.
 
 ## Syntax
 
@@ -24,61 +28,16 @@ The `<time>` semantic tag represents a specific date (in the Gregorian calendar)
 </time>
 ```
 
-`<time>` requires a closing tag and wraps around a block of text.
-Its `datetime` attribute should be a in a valid format for it to be translated to machine-readable info, see below examples.
+The `<time>` element requires opening and closing tags that wrap around a block of text. 
+
+Its `datetime` attribute should be in a valid format for it to be translated to machine-readable info, see below examples.
 
 ## Example
 
-### Time string
+### Using the <time> element inside of another element
 
 ```html
-05:50:30
-```
-
-### Week string
-
-```html
-1995-W32
-```
-
-### Date string
-
-```html
-2021-10-24
-```
-
-### Duration string
-
-```html
-10h 35m 24s
-```
-
-### Local date and time string
-
-```html
-2021-10-24 18:38
-```
-
-### Global date and time string
-
-```html
-2021-10-24 18:39-0100
-```
-
-### Yearless date string
-
-```html
-10-24
-```
-
-### Year string
-
-```html
-2021
-```
-
-### Month string
-
-```html
-2021-10
+<p>
+Our flight is scheduled on <time datetime="2021-12-20">December 20th, 2021</time> at <time datetime="18:00">6:00pm</time>.
+</p>
 ```
