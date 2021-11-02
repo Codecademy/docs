@@ -44,7 +44,7 @@ Each integer value comes in 4 different memory sizes.
 - 32-bit: `int32 / uint32`
 - 64-bit: `int64 / uint64`
 - 32- or 64-bit based on system architecture: `int / uint`
-- synonym for int32: `rune`
+- Synonym for int32: `rune`
 - synonym for int8: `byte`
 
 ### Floating-Point Numbers
