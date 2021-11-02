@@ -1,6 +1,6 @@
 ---
 Title: 'Git'
-Description: 'Git is a version control system that allows developers to track changes made to their project files. Teams can use Git to collaborate on projects at scale.'
+Description: 'Git is a distributed version control system that allows developers to track changes made to their project files. Teams can use Git to collaborate on projects at scale.'
 Subjects:
   - 'Web Development'
   - 'Developer Tools'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[Git](https://git-scm.com) is a version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the `main` branch of the codebase (or Git repository).
+[Git](https://git-scm.com) is a distributed version control system that allows a developer to track changes made to files in their projects. Teams of developers can use Git to collaborate on a single project at scale. This is made possible by branching, which allows developers to make specific changes to eventually be merged into the `main` branch of the codebase (or Git repository).
 
 At it's core, Git is a command line tool that comes with built-in commands for performing a variety of tasks.
 
