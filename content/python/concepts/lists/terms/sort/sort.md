@@ -28,12 +28,12 @@ Numerical lists will be sorted in ascending order, and lists of strings will be 
 To sort a list called `exampleList`:
 
 ```python
-exampleList = [2, 1, 2]
+name = ['c', 'h', 'l', 'o', 'e']
 
-exampleList.sort()
+name.sort()
 
-print(exampleList)
-# Output: [1, 2, 2]
+print(name)
+# Output: ['c', 'e', 'h', 'l', 'o']
 ```
 
 ## Codebyte Example
