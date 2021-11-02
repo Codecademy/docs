@@ -62,14 +62,14 @@ Complex numbers are composed of a real number and an imaginary number. The real 
 - 64-bit float + imaginary number: `complex128`
 
 ```go
-  // initialize with complex() taking 2 arguments: 1) a float and 2) a complex number
-  var complex complex64 = complex(1, 2) // equals 1 + 2i
+// Initialize with complex() taking 2 arguments: 1) a float and 2) a complex number
+var complex complex64 = complex(1, 2) // Equals 1 + 2i
 ```
 
 variables can also be initialized with a shorthand
 
 ```go
-  complex := 1 + 2i
+complex := 1 + 2i
 ```
 
 ## String
@@ -77,8 +77,8 @@ variables can also be initialized with a shorthand
 A String represents a sequence of characters. Strings are immutable; once they are created they can't be modified.
 
 ```go
-  var s string
-  s = "Hello, World!"
+var s string
+s = "Hello, World!"
 ```
 
 ## Booleans
@@ -86,9 +86,9 @@ A String represents a sequence of characters. Strings are immutable; once they a
 A Boolean can hold one of two possible values, either `true` or `false`.
 
 ```go
-  var isValid bool
-  isValid = true
-  isValid = false
+var isValid bool
+isValid = true
+isValid = false
 ```
 
 ## Arrays
@@ -96,8 +96,8 @@ A Boolean can hold one of two possible values, either `true` or `false`.
 Arrays are list with static capacity. They can't change their capacity after the declaration.
 
 ```go
-  // declare and initialize an arraz of capacity 5 and fill it with elements
-  someArray := [5]int{0,2,3,4,5}
+// Declare and initialize an arraz of capacity 5 and fill it with elements
+someArray := [5]int{0,2,3,4,5}
 ```
 
 ## Slices
@@ -105,8 +105,8 @@ Arrays are list with static capacity. They can't change their capacity after the
 Slices can change their capacity dynamically even after their declaration. Under the hood a slice references an array. If the array changes, so does the slice.
 
 ```go
-  // copy the elements from index 0 until (excluding) index 3 into a slace
-  var slice []int = someArary[0:3]
+// Copy the elements from index 0 until (excluding) index 3 into a slace
+var slice []int = someArary[0:3]
 ```
 
 ## Structs
@@ -114,11 +114,11 @@ Slices can change their capacity dynamically even after their declaration. Under
 In Go, a Struct is a more complex type that can contain custom fields. It's similar to an [object in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects) or a [dictionary in Python](https://www.codecademy.com/resources/docs/python/dictionaries). The fields of a Struct can be accessed with a dot "."
 
 ```go
-  // declaration with "type ... struct" keywords
-  type Box struct {
-    X int
-    Y int
-  }
+// Declaration with "type ... struct" keywords
+type Box struct {
+  X int
+  Y int
+ }
 ```
 
 Structs are initialized by:
@@ -129,8 +129,8 @@ Structs are initialized by:
 The fields without a value will be initialized with zero-values by default.
 
 ```go
-  // Initialization
-  b := Box{1,2}
+// Initialization
+b := Box{1,2}
 ```
 
 ## Pointers
@@ -138,13 +138,13 @@ The fields without a value will be initialized with zero-values by default.
 Pointers contain the memory address of the variable they are based on. Pointers used "\*".
 
 ```go
-  // declaration of a Pointer with *
-  var p *int
+// Declaration of a Pointer with *
+var p *int
 ```
 
 ```go
   someInteger := 42
 
-  // create Pointer from Variable using "&"
-  p = &someInteger
+// Create Pointer from Variable using "&"
+p = &someInteger
 ```
