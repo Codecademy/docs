@@ -56,23 +56,70 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
+## Adding Elements
+
+There are two different ways to insert elements into the vector.
+
+### `.push_back()`
+
+This method pushes elements to the back of a vector.
+
+```cpp
+std::vector<int> v = {1,2,3,4};
+
+v.push_back(5);
+
+int n = v.size();
+
+std::cout << "The last element is: " << v[n - 1];
+// Output: The last element is: 5
+```
+
+### `.insert()`
+
+This method inserts new elements before the element at the specified position.
+
+```cpp
+std::vector<int> v = {1,2,3,4};
+
+// Insert at beginning
+v.insert(v.begin(), 0);
+
+// Insert at end
+v.insert(v.end(),6);
+
+std::cout << "The first element is: " << v[0] << "\n";
+// Output: The first element is: 0
+std::cout << "The last element is: " << v[5] << "\n";
+// Output: The last element is: 6
+```
+
 ## Codebyte Example
 
-To create a vector named `grade` with 3 items:
+To create a vector named `grade` with 3 items and then insert elements to the last of the vector using .push_back() and .insert() functions :
 
 ```codebyte/cpp
 #include <iostream>
 #include <vector>
 
 int main() {
+  // Initializes an array of size 3
   std::vector<int> grades(3);
 
-  grades[0] = 90;
-  grades[1] = 86;
-  grades[2] = 98;
+  // Assign the values to the vector elements
+  grades[0] = 20;
+  grades[1] = 30;
+  grades[2] = 40;
 
+  // Display all 3 vector elements
   std::cout << grades[0] << ", ";
   std::cout << grades[1] << ", ";
-  std::cout << grades[2];
+  std::cout << grades[2] << "\n";
+
+  grades.push_back(50);
+  std::cout << grades[3] << "\n";
+
+  grades.insert(grades.end(),60);
+  std::cout << grades[4] << "\n";
 }
 ```
