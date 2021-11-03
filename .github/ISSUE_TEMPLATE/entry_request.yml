@@ -10,9 +10,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: Tells us what should be included in the new entries/terms.
+      placeholder: Include link to relevant Docs subject (ex. JavaScript - https://www.codecademy.com/resources/docs/javascript)
     validations:
       required: true
   - type: checkboxes
