@@ -13,4 +13,6 @@ jobs:
       matrix:
         command: ["compile", "format:verify", "lint:js", "lint:md", "test"]
 
-on: push
+on:
+  push:
+  pull_request:
