@@ -84,7 +84,7 @@ s = "Hello, World!"
 
 ## Booleans
 
-A Boolean can hold one of two possible values, either `true` or `false`.
+A boolean can hold one of two possible values, either `true` or `false`.
 
 ```golang
 var isValid bool
@@ -113,7 +113,7 @@ var slice []int = someArary[0:3]
 
 ## Structs
 
-In Go, a struct is a more complex type that can contain custom fields. It's similar to an [object in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects) or a [dictionary in Python](https://www.codecademy.com/resources/docs/python/dictionaries). The fields of a Struct can be accessed with a dot "."
+In Go, a struct is a more complex type that can contain custom fields. It's similar to an [object in JavaScript](https://www.codecademy.com/resources/docs/javascript/objects) or a [dictionary in Python](https://www.codecademy.com/resources/docs/python/dictionaries). The fields of a struct can be accessed with a dot `.`.
 
 ```golang
 // Declaration with "type ... struct" keywords
@@ -132,12 +132,12 @@ The fields without a value will be initialized with zero-values by default.
 
 ```golang
 // Initialization
-b := Box{1,2}
+b := Box{1, 2}
 ```
 
 ## Pointers
 
-Pointers contain the memory address of the variable they are based on. Pointers used "\*".
+Pointers contain the memory address of the variable they are based on. Pointers used `*`.
 
 ```golang
 // Declaration of a pointer with *
