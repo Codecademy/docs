@@ -33,7 +33,7 @@ compile(source, filename, mode)
 - `flags` (optional) and `dont_inherit` (optional): Controls which future statements affect the compilation of the source. Default set to 0.
 - `optimize` (optional): The optimization level of the compiler. Default set to -1.
 
-## Example 1
+## Example
 
 Use `compile()` to take a code block and return a runnable code object.
 
@@ -45,7 +45,7 @@ exec(x)
 
 This will output:
 
-```
+```shell
 55
 88
 ```
