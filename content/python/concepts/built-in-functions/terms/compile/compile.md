@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 Returns a runnable code object created from a `string`.
