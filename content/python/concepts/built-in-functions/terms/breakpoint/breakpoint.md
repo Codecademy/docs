@@ -1,6 +1,6 @@
 ---
 Title: 'breakpoint()'
-Description: 'Engage, configure, and change the debugger program used in a script.'
+Description: 'Engages, configures, and changes the debugger program used in a script.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Engage, configure, and change the debugger program used in a script.
+The `breakpoint()` function engages, configures, and changes the debugger program used in a script.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ breakpoint()
 
 By default, the `breakpoint()` function imports the `pdb` debugger module.
 
-## Example 1
+## Example
 
 Use `breakpoint()` to open the `pdb` debugger console:
 
