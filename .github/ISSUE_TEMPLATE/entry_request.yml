@@ -1,11 +1,10 @@
-name: Entry/Term Request
+name: "**Entry/Term Request**"
 description: Use this form to request 1-3 new entries/ terms for Docs.
 title: "[Entry/Term Request]: Subject - Topic(s)"
 body:
   - type: markdown
     attributes:
-      value: "## Entry/Term Request \n
-        Thanks for taking the time to tell us what Docs is missing!"
+      value: Thanks for taking the time to tell us what Docs is missing!
   - type: textarea
     id: description
     attributes:
