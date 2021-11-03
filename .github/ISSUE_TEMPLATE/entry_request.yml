@@ -6,9 +6,8 @@ assignees: "List assignee(s) here"
 body:
   - type: markdown
     attributes:
-      label: Entry/Term Request
-      value: |
-        Thanks for taking the time to tell us what Docs is missing!
+      value: "## Entry/Term Request"
+      value: Thanks for taking the time to tell us what Docs is missing!
   - type: textarea
     id: description
     attributes:
