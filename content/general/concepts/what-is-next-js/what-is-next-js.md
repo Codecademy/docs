@@ -1,6 +1,6 @@
 ---
 Title: 'Next.js'
-Description: 'Open-source development framework that brings the best of React's client-side abilities to the server-side along with built-in features like TypeScript support and route pre-fetching.'
+Description: 'Next.js is an open-source development framework that brings the best of React's client-side abilities to the server-side along with built-in features like TypeScript support and route pre-fetching.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
