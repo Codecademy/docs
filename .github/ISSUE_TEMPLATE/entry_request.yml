@@ -1,5 +1,6 @@
-name: [Entry/Term Request] Subject - Topic
+name: Entry/Term Request
 description: Use this form to request 1-3 new entries/ terms for Docs.
+title: "[Entry/Term Request]: Subject - Topic(s)"
 body:
   - type: markdown
     attributes:
