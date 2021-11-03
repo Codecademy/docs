@@ -23,7 +23,6 @@ We are currently building a team of community volunteers and educators to mainta
 
 ### 🏗 Engineering Team
 
-- [@li-codecademy](https://github.com/li-codecademy)
 - [@christian-dinh](https://github.com/christian-dinh)
 - [@judahtanthony](https://github.com/judahtanthony)
 - [@sresnik11](https://github.com/aresnik11)

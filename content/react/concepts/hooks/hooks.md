@@ -53,3 +53,23 @@ useEffect(function sideEffects() {
   ...
 })
 ```
+
+The default behavior for effects is to invoke the effect after every completed render.
+
+To fire the effect function conditionally, a second argument is passed to `useEffect`. This argument is an array of values that the effect depends on.
+
+**Note:** When registering event listeners inside the effect function, it is not ideal to call them every time a component rerenders. Registering a new listener on every update might cause memory leaks.
+
+```jsx
+useEffect(function sideEffects() {
+  ...
+}, [dep1, dep2, ...]); // Re-runs the effect if a value in the array changes
+```
+
+In the example below, the effect runs the first time a component mounts. Subsequent rerenders don't fire the effect. This might be useful for setting up a subscription to an external service or registering event listeners.
+
+```jsx
+useEffect(function sideEffects() {
+  ...
+}, []); // Runs the effect when a component renders the first time
+```

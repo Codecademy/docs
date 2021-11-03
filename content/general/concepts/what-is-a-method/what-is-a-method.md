@@ -1,5 +1,5 @@
 ---
-Title: 'Methods'
+Title: 'Method'
 Description: 'A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program.'
 Subjects:
   - 'Code Foundations'
