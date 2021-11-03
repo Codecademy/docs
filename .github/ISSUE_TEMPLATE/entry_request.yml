@@ -4,7 +4,7 @@ title: "[Entry/Term Request]: Subject - Topic(s)"
 body:
   - type: markdown
     attributes:
-      value: "## Entry/Term Request |
+      value: "## Entry/Term Request \n
         Thanks for taking the time to tell us what Docs is missing!"
   - type: textarea
     id: description
