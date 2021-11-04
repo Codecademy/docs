@@ -108,7 +108,9 @@ For
 Foreign Key
 Form
 Frameworks
+Function Composition
 Functions
+Functional Programming
 Ggplot2
 Git
 GitHub
@@ -197,6 +199,7 @@ Print
 Probability
 Promise
 Properties
+Pure Functions
 Queries
 Queues
 Quicksort
@@ -209,6 +212,7 @@ Readr
 Recursion
 Redux
 References
+Referential Transparency
 Regular Expressions
 Requests
 Responsive
