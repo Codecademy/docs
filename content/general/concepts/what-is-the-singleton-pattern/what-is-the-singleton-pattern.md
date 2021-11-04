@@ -1,12 +1,12 @@
 ---
-Title: 'Singleton'
+Title: 'What is the Singleton Pattern?'
 
-Description: 'The singleton pattern ensures a class has one, and only one object instantiated during the program's lifecycle. It is used to 
+Description: 'The singleton pattern ensures a class has one, and only one object instantiated during the program's lifecycle. It is used to
 guarantee the control of a resource through its implementation.'
 
 Subjects:
 - 'Computer Science'
-- 'Interview Prep' 
+- 'Interview Prep'
 
 Tags:
 - 'Classes'
@@ -23,7 +23,7 @@ The singleton pattern ensures a class has one, and only one object instantiated 
 guarantee the control of a resource through its implementation.
 
 ## UML Design
-![UML diagram of a singleton](assets/singleton-uml.png)
+![UML diagram of a singleton](media/singleton-uml.png)
 
 ## Implementation
 ```java
