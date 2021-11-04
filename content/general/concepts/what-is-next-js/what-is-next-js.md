@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Next.js](https://nextjs.org) is an open-source development framework that brings the best of React's client-side functionality to the server-side when building web applicatons. Additionally, Next.js comes with built-in features including the following:
+[Next.js](https://nextjs.org) is an open-source development framework that brings the best of React's client-side functionality to the server-side when building web applicatons.
+
+Additionally, Next.js comes with built-in features including the following:
 
 - A page-based routing system that supports dynamic routes.
 - Every page is pre-rendered for improved site performance and SEO.
@@ -24,4 +26,4 @@ CatalogContent:
 
 Next.js was originally authored by Guillermo Rauch on GitHub in 2016 and due to its functionality, large companies such as Netflix, Starbucks, Uber, GitHub, and Ticketmaster have all used Next.js for their website development. It is currently owned and maintained by the company [Vercel](https://vercel.com).
 
-**Fun Fact:** Codecademy Docs is written with Next.js.
+**Fun Fact:** Codecademy Docs is built with Next.js.
