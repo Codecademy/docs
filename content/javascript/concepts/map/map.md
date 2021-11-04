@@ -47,7 +47,7 @@ This retrieves the information that there are 5 apples and 8 oranges in the stor
 Checking whether a key is in a `Map` object can be done using the `Map.prototype.has(key)` function.
 
 ```js
-console.log(fruits.has('Apples')); // expected output: true
+console.log(fruits.has('Apples')); // Output: true
 console.log(fruits.has('Bananas')); // expected outpute: false
 ```
 
