@@ -23,7 +23,6 @@ We are currently building a team of community volunteers and educators to mainta
 
 ### 🏗 Engineering Team
 
-- [@li-codecademy](https://github.com/li-codecademy)
 - [@christian-dinh](https://github.com/christian-dinh)
 - [@judahtanthony](https://github.com/judahtanthony)
 - [@sresnik11](https://github.com/aresnik11)
@@ -37,11 +36,11 @@ There are many ways to contribute to Codecademy Docs:
 
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
-- Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
+- Give product feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
-Whether you are a code newbie or a seasoned hacker, we have something for you!
+Whether you are a code newbie or a seasoned hacker, there's something for you!
 
 Please read through the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) ✨. There you'll find a write-up of our content standards and style guide, as well as templates for creating your entries.
 

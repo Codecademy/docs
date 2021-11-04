@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Emojicode, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. Here are a few basic data types in Emojicode: | Type | Description | | ---- | ---------------------- | | 🔢 | Integer numbers | | 💯 | Decimal numbers |'
+Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Emojicode, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. Here are a few basic data types in Emojicode: 🔢, 💯, 🔡, and 👌.'
 Subjects:
   - 'Computer Science'
 Tags:
