@@ -20,7 +20,7 @@ Git status shows the state of the working directory, staging area, and which fil
 Below is a short example of how the `git status` command works. Assuming a change was saved in a text file, **example.txt**, running `git status` will show that:
 
 ```shell
-git status
+$ git status
 
 On branch master
 
