@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In Python, an iterator is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through the collection to perform the required tasks. 
+In Python, an iterator is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through the collection to perform the required tasks.
 
 An iterator supports the `next()` function which takes no arguments and always returns the next element of the collection. When all elements are exhausted, it returns the `StopIteration` exception.
 
 ## Iterables
 
-Objects that can be converted into iterators are called iterables. Datatypes such as lists, tuples, dictionaries, and sets are iterable, meaning that they can be converted into iterators using the `iter()` function. 
+Objects that can be converted into iterators are called iterables. Datatypes such as lists, tuples, dictionaries, and sets are iterable, meaning that they can be converted into iterators using the `iter()` function.
 
 The difference between an iterable and an iterator can be easily be understood by considering iterable as a birthday cake that we need to distribute to a number of people. We cut cake into several pieces using the `iter()` function to get an iterator. Then we use `next()` to distribute each piece.
 
@@ -123,6 +123,6 @@ while True:
     break
 ```
 
-In the above code, built-in `iter()` function is equivalent to user-defined `__iter__()` method, when `iter()` function is invoked it invokes `__iter__()` method after checking the data type of input argument. 
+In the above code, built-in `iter()` function is equivalent to user-defined `__iter__()` method, when `iter()` function is invoked it invokes `__iter__()` method after checking the data type of input argument.
 
 Similarly, `next(cake_after_cutting)` is same as `cake_after_cutting.__next__()`. When `next()` function is invoked it invokes `__next__()` method after checking data type of input argument.
