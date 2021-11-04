@@ -58,7 +58,7 @@ The first statement checks that there are apples in `fruits`, while the second s
 The number of keys in a `Map` object can be checked using the `Map.prototype.size` property.
 
 ```js
-console.log(fruits.size); // expected output: 2
+console.log(fruits.size); // Output: 2
 ```
 
 There are 2 key-value pairs in `fruits`: `'Apples' : 5` and `'Oranges' : 8`.
