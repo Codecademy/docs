@@ -18,7 +18,7 @@ The `<time>` semantic tag represents a time-related piece of information, includ
 * A specific date in the Gregorian calendar.
 * The time on a 24-hour clock.
 * A [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). 
-The `<time>` element accepts a  `datetime` attribute that translates the info to a machine-readable format.
+The `<time>` element accepts a `datetime` attribute that translates the info to a machine-readable format.
 
 ## Syntax
 
