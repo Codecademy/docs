@@ -48,7 +48,7 @@ Checking whether a key is in a `Map` object can be done using the `Map.prototype
 
 ```js
 console.log(fruits.has('Apples')); // Output: true
-console.log(fruits.has('Bananas')); // expected outpute: false
+console.log(fruits.has('Bananas')); // Output: false
 ```
 
 The first statement checks that there are apples in `fruits`, while the second statement finds that there are no bananas in `fruits` and returns false. 
