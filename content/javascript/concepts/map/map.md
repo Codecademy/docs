@@ -51,7 +51,7 @@ console.log(fruits.has('Apples')); // Output: true
 console.log(fruits.has('Bananas')); // Output: false
 ```
 
-The first statement checks that there are apples in `fruits`, while the second statement finds that there are no bananas in `fruits` and returns false. 
+The first statement checks that there are apples in `fruits`, while the second statement finds that there are no bananas in `fruits` and returns `false`.
 
 ## Retrieving the size of a map
 
