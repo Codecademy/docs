@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`Map` is an object in JavaScript that stores key-value pairs in their original insertion order. 
+`Map` is an object in JavaScript that stores key-value pairs in their original insertion order.
 
-A new map can be defined as follows. This map will store the number of fruits a store has. 
+A new map can be defined as follows. This map will store the number of fruits a store has.
 
 ```js
 const fruits = new Map();
@@ -22,7 +22,7 @@ const fruits = new Map();
 
 ## Storing data in Map
 
-Key-value pairs are stored in `Map` using the `Map.prototype.set(key, value)` function. 
+Key-value pairs are stored in `Map` using the `Map.prototype.set(key, value)` function.
 
 ```js
 fruits.set('Apples', 5);
@@ -74,7 +74,6 @@ console.log(fruits.delete('Strawberries')); // Output: false
 
 The first statement returns `true` because `fruits` contain `Oranges` as a key and has removed it.
 The second statement returns `false` because `Strawberries` is not a key in fruits.
-
 
 ## Codebyte Example
 
