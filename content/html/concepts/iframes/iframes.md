@@ -26,8 +26,8 @@ The example features an `iframe` element with the URL from the National Park Ser
 <iframe
   class="i-frame-element"
   src="https://www.nps.gov/caco/index.html"
-  width="1000"
-  height="100vh"
+  width="100vw"
+  height="1000"
 >
   Alt-text for IFrame
 </iframe>
