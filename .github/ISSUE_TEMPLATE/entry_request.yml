@@ -5,8 +5,8 @@ labels: ["new entry"]
 assignees: "name(s) here"
 body:
   - type: markdown
-    id: contributions
-    value: Please refer to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) before submitting a PR.
+    attributers:
+      value: Please refer to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) before submitting a PR.
   - type: dropdown
     id: entries
     attributes:
