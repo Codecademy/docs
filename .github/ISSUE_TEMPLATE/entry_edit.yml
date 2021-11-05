@@ -1,0 +1,31 @@
+name: "**Entry/Term Edit Request**"
+description: Use this form to request edits to 1-3 existing entries/terms in Docs.
+title: "[Entry/Term Edit Request]: Subject - Topic(s)"
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for improving our entries/terms in Docs!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please tell us how these entries/terms can be better.
+    validations:
+      required: true
+  - type: dropdown
+    id: edits
+    atributes:
+      label: What kind of edits would you like to make? (check all that apply)
+      multiple: true
+      options:
+        - Grammar/spelling
+        - Structure/formatting
+        - Text/code-snippets
+        - New sections/code-snippets
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: For Maintainers
+      options:
+        - label: Labels are added
+        - label: Assignee(s) added
