@@ -35,7 +35,7 @@ public class Singleton {
       the same time.
     */
     public static synchronized Singleton getInstance() {
-        // creates new instance if none exists.
+        // Creates new instance if none exists.
         if (instance == null) {
             instance = new Singleton();
         }
