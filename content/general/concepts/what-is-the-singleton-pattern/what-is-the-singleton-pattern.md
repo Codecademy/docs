@@ -1,6 +1,6 @@
 ---
 Title: 'What is the Singleton Pattern?'
-Description: 'The singleton pattern ensures a class has only one object instantiated during the programs lifecycle. It is used to guarantee the control of a resource through its implementation.'
+Description: 'The singleton pattern ensures a class has only one object instantiated during the programs lifecycle.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
