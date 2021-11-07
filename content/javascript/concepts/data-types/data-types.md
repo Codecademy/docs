@@ -33,11 +33,11 @@ At first, eight types may not seem like that many, but they are the foundation t
 
 ### Examples
 
-* Number and BigInt
+- Number and BigInt
 
 ```js
-var num     = 7;
-var bigNum  = 9999999999999999n;
+var num = 7;
+var bigNum = 9999999999999999n;
 ```
 
 ```codebyte/js
@@ -46,37 +46,38 @@ console.log(9999999999999999);  // Output: 10000000000000000
 console.log(9999999999999999n); // Output: 9999999999999999n
 ```
 
-* String
+- String
 
 ```js
 // String in JavaScript can be defined with both '' or ""
 var greeting = 'Hi buddy';
-var message  = "You are doing great! Keep studying!";
+var message = 'You are doing great! Keep studying!';
 ```
 
-* Boolean
+- Boolean
+
 ```js
 // Boolean is for truth values
 var isTheEarthFlat = false;
 ```
 
-* Null and Undefined
+- Null and Undefined
 
 ```js
 // Null and Undefined are both for the absence of a value, but they have different meanings
 // Undefined means there should be some values, but it is undefined now
-var finishCourseTime    = undefined;
+var finishCourseTime = undefined;
 // Null means there is no value here
-var finishStudyingDate  = null;
+var finishStudyingDate = null;
 ```
 
-* Object
+- Object
 
 ```js
 // object can have fields with different values and types inside
 const user = {
-    name: "John",
-    age: 20,
-    isActive: true
+  name: 'John',
+  age: 20,
+  isActive: true,
 };
 ```
