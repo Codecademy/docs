@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Data types is a classification concept of data in programming. In JavaScript, there are eight fundamental data types:
+Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types:
 
 | Data Type   | Description                                                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
