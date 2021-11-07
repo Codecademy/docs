@@ -24,6 +24,7 @@ To illustrate the _builder pattern_, below provides a real world example, in Jav
 PizzaOrder class has 5 properties; toppings, cheese, sauce, pizzaBase and stuffCrust. During construction, it requires both pizzaBase and stuffCrust 
 to be set explicitly, and should cheese and / or sauce not be set before build(), default values will be assigned. Construction of a PizzaOrder 
 object is enforced through the PizzaOrder's Builder inner class. After creation, a PizzaOrder object's properties are immutable.
+
 ```java
 public class PizzaOrder {
     public static class Builder {
@@ -91,11 +92,37 @@ public class PizzaOrder {
     // Getters below. (Note: setters negated for immutability.)
 }
 ```
+
+Note: some Enums have been provided to safely model the choices an order may have. 
+
+```java
+public enum Topping
+{
+    HAM,
+    PINEAPPLE,
+    SWEETCORN
+}
+```
+
+```java
+public enum Sauce {
+    TOMATO,
+    BBQ
+}
+```
+
+```java
+public enum Base {
+    THIN_BASE,
+    DEEP_PAN
+}
+```
+
 ```java
 public class Main {
     public static void main(String[] args) {
         // Create concrete object
-        PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(sauce.BBQ)
+        PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(Sauce.BBQ)
                                                                            .build();
     }
 }
