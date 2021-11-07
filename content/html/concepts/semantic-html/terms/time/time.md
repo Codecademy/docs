@@ -12,10 +12,11 @@ CatalogContent:
 ---
 
 The `<time>` semantic tag represents a time-related piece of information, including:
-* A specific date in the Gregorian calendar.
-* The time on a 24-hour clock.
-* A [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string). 
-The `<time>` element accepts a `datetime` attribute that translates the info to a machine-readable format.
+
+- A specific date in the Gregorian calendar.
+- The time on a 24-hour clock.
+- A [valid time duration](https://www.w3.org/TR/2014/REC-html5-20141028/infrastructure.html#valid-duration-string).
+  The `<time>` element accepts a `datetime` attribute that translates the info to a machine-readable format.
 
 ## Syntax
 
@@ -25,7 +26,7 @@ The `<time>` element accepts a `datetime` attribute that translates the info to 
 </time>
 ```
 
-The `<time>` element requires opening and closing tags that wrap around a block of text. 
+The `<time>` element requires opening and closing tags that wrap around a block of text.
 
 Its `datetime` attribute should be in a valid format for it to be translated to machine-readable info, see below examples.
 
@@ -35,6 +36,8 @@ Using the `<time>` element inside of another element
 
 ```html
 <p>
-Our flight is scheduled on <time datetime="2021-12-20">December 20th, 2021</time> at <time datetime="18:00">6:00pm</time>.
+  Our flight is scheduled on
+  <time datetime="2021-12-20">December 20th, 2021</time> at
+  <time datetime="18:00">6:00pm</time>.
 </p>
 ```

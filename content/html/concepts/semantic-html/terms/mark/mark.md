@@ -25,7 +25,7 @@ Using the `<mark>` element requires an opening and closing tag that wraps around
 
 ## Example
 
-In the example below, the `<mark>` element is used to highlight important words and phrases: 
+In the example below, the `<mark>` element is used to highlight important words and phrases:
 
 ```html
 <html>
