@@ -1,20 +1,17 @@
 ---
 Title: '<mark>'
-Description: "Represents part of a text that should be rendered as marked or highlighted, due to its being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase or section."
+Description: 'Represents part of a text that should be rendered as marked or highlighted, due to its being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase or section.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'HTML'
-  - 'Semantic'
-  - 'Syntax'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<mark>` semantic tag represents part of a text that should be rendered as marked or highlighted, due to its being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase or section.
+The `<mark>` semantic tag represents part of a text that should be rendered as marked or highlighted, due to being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase, or section.
 
 ## Syntax
 
@@ -26,7 +23,7 @@ The `<mark>` semantic tag represents part of a text that should be rendered as m
 
 Using the `<mark>` element requires an opening and closing tag that wraps around a block of text. By default, browsers will render it as a black font on a yellow background, but this can be restyled via CSS.
 
-## Example of Highlighting Key Concepts
+## Example
 
 In the example below, the `<mark>` element is used to highlight important words and phrases: 
 

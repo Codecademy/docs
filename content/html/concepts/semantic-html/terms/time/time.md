@@ -1,13 +1,10 @@
 ---
 Title: '<time>'
-Description: 'Represents a time-related piece of information and can take a `datetime` attribute that makes it machine-readable'
+Description: 'Represents a time-related piece of information and can take a datetime attribute that makes it machine-readable'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'HTML'
-  - 'Semantic'
-  - 'Syntax'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
@@ -34,7 +31,7 @@ Its `datetime` attribute should be in a valid format for it to be translated to 
 
 ## Example
 
-### Using the <time> element inside of another element
+Using the `<time>` element inside of another element
 
 ```html
 <p>
