@@ -7,8 +7,7 @@ Subjects:
 - 'Classes'
 - 'Conceptual'
 - 'Constructors'
-- 'Objects'
-  CatalogContent:
+- 'Objects' CatalogContent:
 - 'learn-java'
 - 'paths/computer-science'
 ---
