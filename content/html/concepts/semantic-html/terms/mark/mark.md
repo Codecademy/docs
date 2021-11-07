@@ -1,6 +1,6 @@
 ---
 Title: '<mark>'
-Description: 'Represents part of a text that should be rendered as marked or highlighted, due to its being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase or section.'
+Description: 'Represents part of a text that should be rendered as marked or highlighted.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
