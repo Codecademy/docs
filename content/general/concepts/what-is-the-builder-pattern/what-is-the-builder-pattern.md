@@ -49,13 +49,25 @@ public class PizzaOrder {
             return this;
         }
         
-        public Builder cheese(Cheese cheese) { ... }
+        public Builder cheese(Cheese cheese) { 
+            this.cheese = cheese;
+            return this;
+        }
         
-        public Builder sauce(Sauce sauce) { ... }
+        public Builder sauce(Sauce sauce) { 
+            this.sauce = sauce;
+            return this;
+        }
         
-        public Builder base(Base pizzaBase) { ... }
+        public Builder base(Base pizzaBase) { 
+            this.pizzaBase = pizzaBase;
+            return this;
+        }
         
-        public Builder stuffCrust(boolean stuffCrust) { ... }
+        public Builder stuffCrust(boolean stuffCrust) { 
+            this.stuffCrust = stuffCrust;
+            return this;
+        }
 
         // When build() is called, a new concrete object is returned with the desired properties set
         public PizzaOrder build() { return new PizzaOrder(this); }
