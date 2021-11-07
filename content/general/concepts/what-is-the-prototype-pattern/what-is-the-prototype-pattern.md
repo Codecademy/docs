@@ -121,6 +121,135 @@ public class Main {
 
 
 ## Example: Prototype
+User Repo
+```java
+public class UserRepository {
 
+    public List<String> getUserFilmsHistory() {
+        return Arrays.asList("Army of the Dead", "King Arthur: Legend of the Sword", "Total Recall", "Friday the 13th", "The General's Daughter",
+                             "American Gangster", "Replicas", "Army of Thieves", "21 Jump Street", "The Harder They Fall");
+    }
+
+    public List<String> getUserTvSeriesHistory() {
+        return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid",
+                             "Colin in Black and White", "Squid Game", "You");
+    }
+}
+```
+Models
+```java
+public abstract class Show<T> implements Cloneable
+{
+    @Override
+    public T clone() throws CloneNotSupportedException {
+        return (T) super.clone();
+    }
+}
+```
+
+```java
+public class Film extends Show<Film>
+{
+    private String title;
+    private String format;
+    private String thumbnailLocation;
+
+    // Getters, setters and toString
+}
+```
+
+```java
+public class TvSeries extends Show<TvSeries>
+{
+    private String title;
+    private String format;
+    private String thumbnailLocation;
+
+    // Getters, setters and ToString
+}
+```
+Registory
+```java
+public class ShowCache
+{
+
+    public static Hashtable<String, Show<?>> showMap = new Hashtable<>();
+
+    public static void loadCache()
+    {
+        final TvSeries tvSeries = new TvSeries();
+        final Film film = new Film();
+        showMap.put("Tv Series", tvSeries);
+        showMap.put("Film", film);
+    }
+
+    public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException
+    {
+        switch (showId)
+        {
+            case "Film":
+                Film cashedFilm = (Film) showMap.get(showId);
+                return cashedFilm.clone();
+            case "Tv Series":
+                TvSeries cashedTvSeries = (TvSeries) showMap.get(showId);
+                return cashedTvSeries.clone();
+            default:
+                throw new ShowIdNotRecognisedException("Unable to get show: " + showId);
+        }
+    }
+}
+```
+
+```java
+public class ShowIdNotRecognisedException extends Throwable
+{
+    private static final long serialVersionUID = 1;
+
+    public ShowIdNotRecognisedException(final String message)
+    {
+        super(message);
+    }
+}
+
+```
+Main
+```java
+public class Main {
+
+    public static void main(String[] args)
+    {
+        ShowCache.loadCache();
+        final UserRepository userRepository = new UserRepository();
+        final List<Film> filmHistory = userRepository.getUserFilmsHistory().stream().map(entry -> {
+            Film film = null;
+            try {
+                film = (Film) getShow("Film").clone();
+                film.setTitle(entry);
+                film.setFormat(".mp4");
+                film.setThumbnailLocation("films/assets/" + entry.toLowerCase().replace(" ", "_") + film.getFormat());
+            } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
+                e.printStackTrace();
+            }
+            return film;
+        }).collect(Collectors.toList());
+
+        final List<TvSeries> tvSeriesHistory = userRepository.getUserTvSeriesHistory().stream().map(entry -> {
+            TvSeries tvSeries = null;
+            try {
+                tvSeries = (TvSeries) getShow("Tv Series").clone();
+                tvSeries.setTitle(entry);
+                tvSeries.setFormat(".mp4");
+                tvSeries.setThumbnailLocation("tv-shows/assets/" + entry.toLowerCase().replace(" ", "_") + tvSeries.getFormat());
+            } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
+                e.printStackTrace();
+            }
+            return tvSeries;
+        }).collect(Collectors.toList());
+
+        System.out.println(filmHistory);
+        System.out.println(tvSeriesHistory);
+    }
+}
+```
 
 
