@@ -118,18 +118,19 @@ public class Main {
 
 ## UML Design
 
-
+![UML diagram of a prototype](../../../../media/prototype-uml.png)
 
 ## Example: Prototype
 User Repo
 ```java
 public class UserRepository {
-
+    // Returns a list of film titles
     public List<String> getUserFilmsHistory() {
         return Arrays.asList("Army of the Dead", "King Arthur: Legend of the Sword", "Total Recall", "Friday the 13th", "The General's Daughter",
                              "American Gangster", "Replicas", "Army of Thieves", "21 Jump Street", "The Harder They Fall");
     }
 
+    // Returns a list of Tv show titles
     public List<String> getUserTvSeriesHistory() {
         return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid",
                              "Colin in Black and White", "Squid Game", "You");
@@ -140,6 +141,7 @@ Models
 ```java
 public abstract class Show<T> implements Cloneable
 {
+    // Implements clone in abstract class to make use of generics
     @Override
     public T clone() throws CloneNotSupportedException {
         return (T) super.clone();
@@ -148,6 +150,7 @@ public abstract class Show<T> implements Cloneable
 ```
 
 ```java
+// Film extends Show<Film>, so its clone method will return a Film instance
 public class Film extends Show<Film>
 {
     private String title;
@@ -159,6 +162,7 @@ public class Film extends Show<Film>
 ```
 
 ```java
+// TvSeries extends Show<TvSeries>, so its clone method will return TvSeries instance
 public class TvSeries extends Show<TvSeries>
 {
     private String title;
@@ -172,9 +176,10 @@ Registory
 ```java
 public class ShowCache
 {
-
+    // A HashTable that contains the initial model object from which we clone from
     public static Hashtable<String, Show<?>> showMap = new Hashtable<>();
 
+    // Instanciats the initial objects from which we clone from
     public static void loadCache()
     {
         final TvSeries tvSeries = new TvSeries();
@@ -183,8 +188,10 @@ public class ShowCache
         showMap.put("Film", film);
     }
 
+    // Returns clone of object stored in showMap to client
     public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException
     {
+        // Switch statement to find out which clone is needed
         switch (showId)
         {
             case "Film":
@@ -218,8 +225,10 @@ public class Main {
 
     public static void main(String[] args)
     {
+        // Create initial objects
         ShowCache.loadCache();
         final UserRepository userRepository = new UserRepository();
+        // For each film title, clone Film object and set appropriate properties. Return list
         final List<Film> filmHistory = userRepository.getUserFilmsHistory().stream().map(entry -> {
             Film film = null;
             try {
@@ -233,6 +242,7 @@ public class Main {
             return film;
         }).collect(Collectors.toList());
 
+        // For each tv show title, clone TvSeries object and set appropriate properties. Return list
         final List<TvSeries> tvSeriesHistory = userRepository.getUserTvSeriesHistory().stream().map(entry -> {
             TvSeries tvSeries = null;
             try {
@@ -245,7 +255,8 @@ public class Main {
             }
             return tvSeries;
         }).collect(Collectors.toList());
-
+        
+        // Print filmHistory and tvSeriesHistory to the console
         System.out.println(filmHistory);
         System.out.println(tvSeriesHistory);
     }
