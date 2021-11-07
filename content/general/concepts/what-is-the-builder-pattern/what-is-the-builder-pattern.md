@@ -119,6 +119,13 @@ public enum Base {
 ```
 
 ```java
+public enum Cheese {
+    NONE,
+    MOZZARELLA
+}
+```
+
+```java
 public class Main {
     public static void main(String[] args) {
         // Create concrete object
