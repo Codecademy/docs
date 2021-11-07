@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Data types is a classification concept of data in programming. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
+Description: 'Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
