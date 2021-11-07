@@ -9,6 +9,8 @@ jobs:
           command: 'update-cotw'
       - name: 'Commit changes'
         run: |
+          git config user.email "dev@codecademy.com"
+          git config user.name "codecademydev"
           git add ./bin/concept-of-the-week.txt
           git commit -m "🤖 update concept of the week"
           git push

@@ -1,6 +1,6 @@
 ---
 Title: 'Attributes'
-Description: 'HTML attributes can be added to the opening tag of an HTML element to change the elements default behavior or provide additional information about the element. They consist of a name and a value using the following syntax: name="value". pseudo   So for example, the  image element has a mandatory src attribute that contains the image file path/URL: html'
+Description: 'HTML attributes can be added to the opening tag of an HTML element to change the elements default behavior or provide additional information about the element. They consist of a name and a value using the following syntax: name="value".'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -44,7 +44,7 @@ In HTML, specific and unique `id` attributes can be assigned to different elemen
 
 When needed, the `id` value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only.
 
-Valid `id` attributes should begin with a letter and should only contain letters (`a-Z`), digits (`0-9`), hyphens (`-`), underscores (`_`), and periods (`.`).
+Valid `id` attributes should begin with a letter and should only contain letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
 
 ```html
 <h1 id="th1s_is.v4lid">Hello World</h1>
