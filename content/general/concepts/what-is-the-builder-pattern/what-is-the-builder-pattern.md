@@ -93,7 +93,7 @@ public class PizzaOrder {
 }
 ```
 
-Note: some Enums have been provided to safely model the choices an order may have. 
+Note: Some Enums have been provided to safely model the choices an order may have. 
 
 ```java
 public enum Topping
@@ -124,6 +124,8 @@ public enum Cheese {
     MOZZARELLA
 }
 ```
+
+Note: The Main class below shows how to instanciate a PizzaOrder object through its inner Builder class.
 
 ```java
 public class Main {
