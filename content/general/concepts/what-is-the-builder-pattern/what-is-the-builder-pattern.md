@@ -3,8 +3,7 @@ Title: 'What is the Builder Pattern?'
 Description: 'The builder pattern decouples the responsibility of object creation from the desired objects class.'
 Subjects:
 - 'Computer Science'
-- 'Interview Prep'
-  Tags:
+- 'Interview Prep' Tags:
 - 'Classes'
 - 'Conceptual'
 - 'Constructors'
