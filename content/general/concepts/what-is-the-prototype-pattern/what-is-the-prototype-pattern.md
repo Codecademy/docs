@@ -1,0 +1,126 @@
+---
+Title: 'What is the Prototype Pattern?'
+Description: 'The _prototype pattern_ adds cloning functionality to an objet's class.'
+Subjects:
+- 'Computer Science'
+- 'Interview Prep'
+  Tags:
+- 'Classes'
+- 'Conceptual'
+- 'Constructors'
+- 'Objects'
+  CatalogContent:
+- 'learn-java'
+- 'paths/computer-science'
+---
+The _prototype pattern_ adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the 
+need for the 'new' keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
+
+There are two types of copying associated with the prototype pattern. They are:
+- Shallow Copy (copies the immediate property values)
+- Deep Copy (copies the immediate values, plus any referenced object)
+
+## Example: Shallow Copy Vs Deep Copy
+To illustrate the difference between the shallow and deep copy, a model has been provided below, consisting of two classes TvSeries and Episode. 
+Cloning functionality has been added to TvSeries by implementing the Cloneable interface.
+
+```java
+public class TvSeries implements Cloneable
+{
+    private final String name;
+    private final int seriesNo;
+    // Notice one or more properties are a complex type and mutable
+    private final List<Episode> episodes;
+
+    public TvSeries(String name, int seriesNo, List<Episode> episodes)
+    {
+        this.name = name;
+        this.seriesNo = seriesNo;
+        this.episodes = episodes;
+    }
+    
+    // Shallow copy method
+    @Override
+    public TvSeries clone() throws CloneNotSupportedException {
+        // Cast to TvSeries as super returns Object
+        return (TvSeries) super.clone();
+    }
+
+    // Deep copy
+    public TvSeries deepCopy() {
+        // New Episode objects are created during the copy
+        return new TvSeries(this.name, this.seriesNo, this.episodes.stream()
+                                                                 .map(episode -> new Episode(episode.getName(), episode.getEpNo()))
+                                                                 .collect(Collectors.toList()));
+    }
+    
+    // Getters and toString
+}
+
+```
+```java
+public class Episode
+{
+    private String name;
+    private int epNo;
+
+    public Episode(String name, int epNo)
+    {
+        this.name = name;
+        this.epNo = epNo;
+    }
+
+    // Getters, setters and toString
+}
+```
+Note: The properties of the episode class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the 
+TvSeries class.
+```java
+public class Main {
+    public static void main(String[] args) throws CloneNotSupportedException
+    {
+        // A 'new' TvSeries object is created as seriesOne
+        Episode episodeOne = new Episode("Hello Friend", 13);
+        final Series seriesOne = new Series("Mr Robot", 1, Collections.singletonList(episodeOne));
+
+        // A second TvSeries object is created by shallow copying seriesOne
+        final Series seriesTwo = seriesOne.clone();
+        // Change the name of S2ep1
+        seriesTwo.getEpisodes().get(0).setName("Unmask");
+        // S2ep1 name has changed
+        System.out.println(seriesTwo.getEpisodes().get(0).getName()); // Unmask
+        // But, so has S1ep1 :(
+        System.out.println(seriesOne.getEpisodes().get(0).getName()); // Unmask
+    }
+}
+```
+The shallow copy only copies the outermost object, and references the same complex object properties in memory. As there is now one object with 
+two references to it, changing a value may result in unwanted behaviour. Below is the same example but using the deepCopy() in place of clone().
+```java
+public class Main {
+    public static void main(String[] args) throws CloneNotSupportedException
+    {
+        // A 'new' TvSeries object is created as seriesOne
+        Episode episodeOne = new Episode("Hello Friend", 13);
+        final Series seriesOne = new Series("Mr Robot", 1, Collections.singletonList(episodeOne));
+
+        // A second TvSeries object is created using a deep copy of seriesOne
+        final Series seriesTwo = seriesOne.deepCopy();
+        // Change the name of S2ep1
+        seriesTwo.getEpisodes().get(0).setName("Unmask");
+        // S2ep1 name has changed
+        System.out.println(seriesTwo.getEpisodes().get(0).getName()); // Unmask
+        // And s1ep1 name remains correct :)
+        System.out.println(seriesOne.getEpisodes().get(0).getName()); // Hello Friend
+    }
+}
+```
+
+## UML Design
+
+
+
+## Example: Prototype
+
+
+
