@@ -1,6 +1,6 @@
 ---
 Title: '<time>'
-Description: 'Represents a time-related piece of information and can take a datetime attribute that makes it machine-readable'
+Description: 'Represents a time-related piece of information and can take a datetime attribute that makes it machine-readable.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
