@@ -13,6 +13,7 @@ CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
+
 The _builder pattern_ decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during it's construction and may be used to ensure immutability. 
 
 ## UML Design
