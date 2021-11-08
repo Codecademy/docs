@@ -32,7 +32,7 @@ Its `datetime` attribute should be in a valid format for it to be translated to 
 
 ## Example
 
-Using the `<time>` element inside of another element
+Using the `<time>` element inside of another element:
 
 ```html
 <p>
