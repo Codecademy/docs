@@ -30,7 +30,6 @@ In the example below, the `<mark>` element is used to highlight important words 
 ```html
 <html>
   <head>
-    <!-- Metadata -->
   </head>
   <body>
     <p>
