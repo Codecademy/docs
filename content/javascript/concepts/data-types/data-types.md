@@ -40,11 +40,11 @@ var num = 7;
 var bigNum = 9999999999999999n;
 ```
 
+BigInt is necessary for big numbers because they are unreliable with Number type:
+
 ```codebyte/js
-// BigInt is necessary for big numbers because they are unreliable with Number type:
-console.log(9999999999999999);  // Output: 10000000000000000
-console.log(9999999999999999n); // Output: 9999999999999999n
-```
+console.log(9999999999999999);
+console.log(9999999999999999n);
 
 - String
 
