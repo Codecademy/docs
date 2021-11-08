@@ -36,8 +36,8 @@ This stores in `fruits`, 5 apples and 8 oranges.
 Values are retrieved by their keys from `Map` objects using the `.get()` method.
 
 ```js
-console.log(fruits.get('Apples'));   // Output: 5
-console.log(fruits.get('Oranges'));  // Output: 8
+console.log(fruits.get('Apples')); // Output: 5
+console.log(fruits.get('Oranges')); // Output: 8
 ```
 
 This retrieves the information that there are 5 apples and 8 oranges in the store.
@@ -47,8 +47,8 @@ This retrieves the information that there are 5 apples and 8 oranges in the stor
 Checking whether a key is in a `Map` object can be done using the `.has()` method.
 
 ```js
-console.log(fruits.has('Apples'));   // Output: true
-console.log(fruits.has('Bananas'));  // Output: false
+console.log(fruits.has('Apples')); // Output: true
+console.log(fruits.has('Bananas')); // Output: false
 ```
 
 The first statement checks that there are apples in `fruits`, while the second statement finds that there are no bananas in `fruits` and returns `false`.
@@ -68,8 +68,8 @@ There are 2 key-value pairs in `fruits`: `'Apples' : 5` and `'Oranges' : 8`.
 Data can be removed from `Map` using the `.delete()` method.
 
 ```js
-console.log(fruits.delete('Oranges'));       // Output: true
-console.log(fruits.delete('Strawberries'));  // Output: false
+console.log(fruits.delete('Oranges')); // Output: true
+console.log(fruits.delete('Strawberries')); // Output: false
 ```
 
 The first statement returns `true` because `fruits` contain `Oranges` as a key and has removed it.

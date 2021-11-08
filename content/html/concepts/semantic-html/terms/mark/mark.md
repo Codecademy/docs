@@ -29,8 +29,7 @@ In the example below, the `<mark>` element is used to highlight important words 
 
 ```html
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <p>
       <!-- Main concepts in the paragraph are in <mark> tags and will be highlighted -->
