@@ -29,7 +29,7 @@ Data types are how data in programming is classified. In JavaScript, there are e
 
 The first 7 of those types are considered primitive data types. They are the most basic data types in the language. Objects are a little more complex.
 
-At first, eight types may not seem like that many, but they are the foundation that helps programmers to build a whole new world.
+At first, eight types may not seem like that many, but they are the foundation that helps programmers build a whole new world.
 
 ### Examples
 
