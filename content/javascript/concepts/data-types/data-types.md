@@ -63,13 +63,14 @@ var isTheEarthFlat = false;
 
 - Null and Undefined
 
+Null and Undefined are both for the absence of a value, but they have different meanings.
+
 ```js
-// Null and Undefined are both for the absence of a value, but they have different meanings
 // Undefined means there should be some values, but it is undefined now
 var finishCourseTime = undefined;
+
 // Null means there is no value here
 var finishStudyingDate = null;
-```
 
 - Object
 
