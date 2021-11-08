@@ -75,7 +75,7 @@ var finishStudyingDate = null;
 - Object
 
 ```js
-// object can have fields with different values and types inside
+// Objects can have fields with different values and types inside
 const user = {
   name: 'John',
   age: 20,
