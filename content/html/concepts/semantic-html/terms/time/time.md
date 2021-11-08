@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<time>` semantic tag represents a time-related piece of information, including:
+The `<time>` semantic HTML element represents a time-related piece of information, including:
 
 - A specific date in the Gregorian calendar.
 - The time on a 24-hour clock.
