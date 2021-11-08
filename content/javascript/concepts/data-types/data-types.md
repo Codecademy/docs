@@ -52,7 +52,7 @@ console.log(9999999999999999n);
 ```js
 // Strings in JavaScript can be defined with either '' or ""
 var greeting = 'Hi buddy';
-var message = "You are doing great! Keep studying!";
+var message = 'You are doing great! Keep studying!';
 ```
 
 - Boolean
@@ -66,7 +66,7 @@ var isTheEarthFlat = false;
 
 Null and Undefined are both for the absence of a value, but they have different meanings.
 
-```js
+````js
 // Undefined means there should be some values, but it is undefined now
 var finishCourseTime = undefined;
 
@@ -82,4 +82,4 @@ const user = {
   age: 20,
   isActive: true
 };
-```
+````
