@@ -99,7 +99,7 @@ Arrays are list with static capacity. They can't change their capacity after the
 
 ```golang
 // Declare and initialize an arraz of capacity 5 and fill it with elements
-someArray := [5]int{0,2,3,4,5}
+someArray := [5]int{0, 2, 3, 4, 5}
 ```
 
 ## Slices
