@@ -57,7 +57,7 @@ var message = "You are doing great! Keep studying!";
 - Boolean
 
 ```js
-// Boolean is for truth values
+// Boolean is for truthy or falsy values
 var isTheEarthFlat = false;
 ```
 
