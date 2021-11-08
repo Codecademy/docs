@@ -49,7 +49,7 @@ console.log(9999999999999999n);
 - String
 
 ```js
-// String in JavaScript can be defined with both '' or ""
+// Strings in JavaScript can be defined with either '' or ""
 var greeting = 'Hi buddy';
 var message = "You are doing great! Keep studying!";
 ```
