@@ -83,6 +83,6 @@ Objects can have fields with different values and types inside:
 const user = {
   name: 'Jane',
   age: 20,
-  isActive: true
+  isActive: true,
 };
-````
+```
