@@ -2,14 +2,16 @@
 Title: 'What is the Builder Pattern?'
 Description: 'The builder pattern decouples the responsibility of object creation from the desired objects class.'
 Subjects:
-- 'Computer Science'
-- 'Interview Prep' Tags:
-- 'Classes'
-- 'Conceptual'
-- 'Constructors'
-- 'Objects' CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'Computer Science'
+  - 'Interview Prep' 
+Tags:
+  - 'Classes'
+  - 'Conceptual'
+  - 'Constructors'
+  - 'Objects'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 The _builder pattern_ decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during it's construction and may be used to ensure immutability. 
 
