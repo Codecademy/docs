@@ -45,6 +45,7 @@ BigInt is necessary for big numbers because they are unreliable with Number type
 ```codebyte/js
 console.log(9999999999999999);
 console.log(9999999999999999n);
+```
 
 - String
 
@@ -79,6 +80,6 @@ var finishStudyingDate = null;
 const user = {
   name: 'John',
   age: 20,
-  isActive: true,
+  isActive: true
 };
 ```
