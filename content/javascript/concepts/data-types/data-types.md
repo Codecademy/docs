@@ -52,7 +52,7 @@ console.log(9999999999999999n);
 ```js
 // Strings in JavaScript can be defined with either '' or ""
 var greeting = 'Hi buddy';
-var message = 'You are doing great! Keep studying!';
+var message = "You are doing great! Keep studying!";
 ```
 
 - Boolean
