@@ -22,7 +22,11 @@ The _builder pattern_ decouples the responsibility of object creation from the d
 
 ## Example
 
-To illustrate the _builder pattern_, below provides a real world example, in Java, depicting potential considerations for a pizza order. The PizzaOrder class has 5 properties; toppings, cheese, sauce, pizzaBase and stuffCrust. During construction, it requires both pizzaBase and stuffCrust to be set explicitly, and should cheese and / or sauce not be set before build(), default values will be assigned. Construction of a PizzaOrder object is enforced through the PizzaOrder's Builder inner class. After creation, a PizzaOrder object's properties are immutable.
+To illustrate the _builder pattern_, below provides a real-world example, in Java, depicting potential considerations for a pizza order. The 
+`PizzaOrder` class has 5 properties; `toppings`, `cheese`, `sauce`, `pizzaBase` and `stuffCrust`. During construction, both `pizzaBase` and 
+`stuffCrust` are required to be set explicitly, and should cheese and/or sauce not be set before `build()`, default values will be assigned. 
+Construction of a `PizzaOrder` object is enforced through the `PizzaOrder`'s `Builder` inner class. After creation, a `PizzaOrder` object's properties 
+are immutable.
 
 ```java
 public class PizzaOrder {
