@@ -22,11 +22,16 @@ The _builder pattern_ decouples the responsibility of object creation from the d
 
 ## Example
 
-To illustrate the _builder pattern_, below provides a real-world example, in Java, depicting potential considerations for a pizza order. The
-`PizzaOrder` class has 5 properties; `toppings`, `cheese`, `sauce`, `pizzaBase` and `stuffCrust`. During construction, both `pizzaBase` and
-`stuffCrust` are required to be set explicitly, and should cheese and/or sauce not be set before `build()`, default values will be assigned.
-Construction of a `PizzaOrder` object is enforced through the `PizzaOrder`'s `Builder` inner class. After creation, a `PizzaOrder` object's properties
-are immutable.
+To illustrate the _builder pattern_, below provides a real-world example in Java, depicting potential considerations for a pizza order. The
+`PizzaOrder` class has 5 properties:
+
+- `toppings`
+- `cheese`
+- `sauce`
+- `pizzaBase`
+- `stuffCrust`
+
+During construction, both `pizzaBase` and `stuffCrust` are required to be set explicitly, and should cheese and/or sauce not be set before `.build()`, default values will be assigned. Construction of a `PizzaOrder` object is enforced through the `PizzaOrder`'s `Builder` inner class. After creation, a `PizzaOrder` object's properties are immutable.
 
 ```java
 public class PizzaOrder {
@@ -47,7 +52,7 @@ public class PizzaOrder {
       this.sauce = Sauce.TOMATO;
     }
 
-    // Sets property and returns itself (either for next property to be set, or build() to be invoked)
+    // Sets property and returns itself (either for next property to be set, or .build() to be invoked)
     public Builder toppings(List<Topping> toppings) {
       this.toppings = toppings;
       return this;
@@ -73,9 +78,10 @@ public class PizzaOrder {
       return this;
     }
 
-    // When build() is called, a new concrete object is returned with the desired properties set
-    public PizzaOrder build() { return new PizzaOrder(this); }
-
+    // When .build() is called, a new concrete object is returned with the desired properties set
+    public PizzaOrder build() {
+      return new PizzaOrder(this);
+    }
   }
 
   private final List<Topping> toppings;
@@ -93,17 +99,14 @@ public class PizzaOrder {
     this.stuffCrust = builder.stuffCrust;
   }
 
-    // Getters below.
+  // Getters below
 }
 ```
 
-**Note:** setters negated for immutability.
-
-Some Enums have been provided to safely model the choices an order may have.
+**Note:** Setters are negated for immutability. Some Enums have been provided to safely model the choices an order may have.
 
 ```java
-public enum Topping
-{
+public enum Topping {
   HAM,
   PINEAPPLE,
   SWEETCORN
@@ -137,8 +140,7 @@ The `Main` class below shows how to instantiate a `PizzaOrder` object through it
 public class Main {
   public static void main(String[] args) {
     // Create concrete object
-    PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(Sauce.BBQ)
-                                                                       .build();
-    }
+    PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(Sauce.BBQ).build();
+  }
 }
 ```
