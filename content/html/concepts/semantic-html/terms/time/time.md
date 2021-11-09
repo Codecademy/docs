@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<time>` semantic tag represents a time-related piece of information, including:
+The `<time>` semantic HTML element represents a time-related piece of information, including:
 
 - A specific date in the Gregorian calendar.
 - The time on a 24-hour clock.
@@ -32,7 +32,7 @@ Its `datetime` attribute should be in a valid format for it to be translated to 
 
 ## Example
 
-Using the `<time>` element inside of another element
+Using the `<time>` element inside of another element:
 
 ```html
 <p>

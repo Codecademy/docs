@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<mark>` semantic tag represents part of a text that should be rendered as marked or highlighted, due to being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase, or section.
+The `<mark>` semantic HTML element represents part of a text that should be rendered as marked or highlighted, due to being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase, or section.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ In the example below, the `<mark>` element is used to highlight important words 
   <head> </head>
   <body>
     <p>
-      <!-- Main concepts in the paragraph are enclosed in <mark> tags and will be rendered highlighted  -->
+      <!-- Main concepts in the paragraph are in <mark> tags and will be highlighted -->
       The <mark>properties</mark> of the noble gases can be well explained by
       modern theories of atomic structure: Their
       <mark>outer shell of valence electrons</mark> is considered to be

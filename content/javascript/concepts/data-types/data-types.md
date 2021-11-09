@@ -31,9 +31,7 @@ The first 7 of those types are considered primitive data types. They are the mos
 
 At first, eight types may not seem like that many, but they are the foundation that helps programmers build a whole new world.
 
-### Examples
-
-- Number and BigInt
+## Number and BigInt
 
 ```js
 var num = 7;
@@ -47,39 +45,44 @@ console.log(9999999999999999);
 console.log(9999999999999999n);
 ```
 
-- String
+## String
+
+Strings in JavaScript can be defined with either `'` `'` or `"` `"`.
 
 ```js
-// Strings in JavaScript can be defined with either '' or ""
 var greeting = 'Hi buddy';
 var message = 'You are doing great! Keep studying!';
 ```
 
-- Boolean
+## Boolean
+
+Boolean is for truthy or falsy values:
 
 ```js
-// Boolean is for truthy or falsy values
+var lateToWork = true;
 var isTheEarthFlat = false;
 ```
 
-- Null and Undefined
+## Null and Undefined
 
 Null and Undefined are both for the absence of a value, but they have different meanings.
 
-````js
+```js
 // Undefined means there should be some values, but it is undefined now
 var finishCourseTime = undefined;
 
 // Null means there is no value here
 var finishStudyingDate = null;
+```
 
-- Object
+## Object
+
+Objects can have fields with different values and types inside:
 
 ```js
-// Objects can have fields with different values and types inside
 const user = {
-  name: 'John',
+  name: 'Jane',
   age: 20,
-  isActive: true
+  isActive: true,
 };
-````
+```
