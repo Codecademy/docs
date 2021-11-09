@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
+Description: 'Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are eight fundamental data types:
+Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types:
 
 | Data Type   | Description                                                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,4 +29,60 @@ Data types are the classifications we give to the different kinds of data that w
 
 The first 7 of those types are considered primitive data types. They are the most basic data types in the language. Objects are a little more complex.
 
-At first, eight types may not seem like that many, but soon you’ll observe the world opens with possibilities once you start leveraging each one.
+At first, eight types may not seem like that many, but they are the foundation that helps programmers build a whole new world.
+
+## Number and BigInt
+
+```js
+var num = 7;
+var bigNum = 9999999999999999n;
+```
+
+BigInt is necessary for big numbers because they are unreliable with Number type:
+
+```codebyte/js
+console.log(9999999999999999);
+console.log(9999999999999999n);
+```
+
+## String
+
+Strings in JavaScript can be defined with either `'` `'` or `"` `"`.
+
+```js
+var greeting = 'Hi buddy';
+var message = 'You are doing great! Keep studying!';
+```
+
+## Boolean
+
+Boolean is for truthy or falsy values:
+
+```js
+var lateToWork = true;
+var isTheEarthFlat = false;
+```
+
+## Null and Undefined
+
+Null and Undefined are both for the absence of a value, but they have different meanings.
+
+```js
+// Undefined means there should be some values, but it is undefined now
+var finishCourseTime = undefined;
+
+// Null means there is no value here
+var finishStudyingDate = null;
+```
+
+## Object
+
+Objects can have fields with different values and types inside:
+
+```js
+const user = {
+  name: 'Jane',
+  age: 20,
+  isActive: true,
+};
+```

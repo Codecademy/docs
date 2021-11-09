@@ -159,6 +159,7 @@ Logic
 Logical
 Logistic Regression
 Loops
+Map
 Margin
 MATLAB
 Matplotlib
