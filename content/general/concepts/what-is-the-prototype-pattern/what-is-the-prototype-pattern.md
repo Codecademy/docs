@@ -96,21 +96,20 @@ The shallow copy only copies the outermost object, and references the same compl
 
 ```java
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException
-    {
-        // A 'new' TvSeries object is created as seriesOne
-        Episode episodeOne = new Episode("Hello Friend", 13);
-        final Series seriesOne = new Series("Mr Robot", 1, Collections.singletonList(episodeOne));
+  public static void main(String[] args) throws CloneNotSupportedException {
+    // A 'new' TvSeries object is created as seriesOne
+    Episode episodeOne = new Episode("Hello Friend", 13);
+    final Series seriesOne = new Series("Mr Robot", 1, Collections.singletonList(episodeOne));
 
-        // A second TvSeries object is created using a deep copy of seriesOne
-        final Series seriesTwo = seriesOne.deepCopy();
-        // Change the name of S2ep1
-        seriesTwo.getEpisodes().get(0).setName("Unmask");
-        // S2ep1 name has changed
-        System.out.println(seriesTwo.getEpisodes().get(0).getName()); // Unmask
-        // And s1ep1 name remains correct :)
-        System.out.println(seriesOne.getEpisodes().get(0).getName()); // Hello Friend
-    }
+    // A second TvSeries object is created using a deep copy of seriesOne
+    final Series seriesTwo = seriesOne.deepCopy();
+    // Change the name of S2ep1
+    seriesTwo.getEpisodes().get(0).setName("Unmask");
+    // S2ep1 name has changed
+    System.out.println(seriesTwo.getEpisodes().get(0).getName()); // Unmask
+    // And s1ep1 name remains correct :)
+    System.out.println(seriesOne.getEpisodes().get(0).getName()); // Hello Friend
+  }
 }
 ```
 
@@ -125,17 +124,17 @@ A `UserRepository` has been created with two methods; `getUserFilmHistory()` and
 
 ```java
 public class UserRepository {
-    // Returns a list of film titles
-    public List<String> getUserFilmsHistory() {
-        return Arrays.asList("Army of the Dead", "King Arthur: Legend of the Sword", "Total Recall", "Friday the 13th", "The General's Daughter",
-                             "American Gangster", "Replicas", "Army of Thieves", "21 Jump Street", "The Harder They Fall");
-    }
+  // Returns a list of film titles
+  public List<String> getUserFilmsHistory() {
+    return Arrays.asList("Army of the Dead", "King Arthur: Legend of the Sword", "Total Recall", "Friday the 13th", "The General's Daughter",
+                         "American Gangster", "Replicas", "Army of Thieves", "21 Jump Street", "The Harder They Fall");
+  }
 
-    // Returns a list of Tv show titles
-    public List<String> getUserTvSeriesHistory() {
-        return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid",
-                             "Colin in Black and White", "Squid Game", "You");
-    }
+  // Returns a list of Tv show titles
+  public List<String> getUserTvSeriesHistory() {
+    return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid", 
+                         "Colin in Black and White", "Squid Game", "You");
+  }
 }
 ```
 
@@ -144,11 +143,11 @@ To model the object types to be returned, `Film` and `TvSeries` have been outlin
 ```java
 public abstract class Show<T> implements Cloneable
 {
-    // Implements clone in abstract class to make use of generics
-    @Override
-    public T clone() throws CloneNotSupportedException {
-        return (T) super.clone();
-    }
+  // Implements clone in abstract class to make use of generics
+  @Override
+  public T clone() throws CloneNotSupportedException {
+    return (T) super.clone();
+  }
 }
 ```
 
@@ -156,11 +155,11 @@ public abstract class Show<T> implements Cloneable
 // Film extends Show<Film>, so its clone method will return a Film instance
 public class Film extends Show<Film>
 {
-    private String title;
-    private String format;
-    private String thumbnailLocation;
+  private String title;
+  private String format;
+  private String thumbnailLocation;
 
-    // Getters, setters and toString
+  // Getters, setters and toString
 }
 ```
 
@@ -168,11 +167,11 @@ public class Film extends Show<Film>
 // TvSeries extends Show<TvSeries>, so its clone method will return TvSeries instance
 public class TvSeries extends Show<TvSeries>
 {
-    private String title;
-    private String format;
-    private String thumbnailLocation;
+  private String title;
+  private String format;
+  private String thumbnailLocation;
 
-    // Getters, setters and ToString
+  // Getters, setters and ToString
 }
 ```
 
@@ -181,46 +180,46 @@ Finally `ShowCache` has been made to add an object registry to the program. When
 ```java
 public class ShowCache
 {
-    // A HashTable that contains the initial model object from which we clone from
-    public static Hashtable<String, Show<?>> showMap = new Hashtable<>();
+  // A HashTable that contains the initial model object from which we clone from
+  public static Hashtable<String, Show<?>> showMap = new Hashtable<>();
 
-    // Instanciats the initial objects from which we clone from
-    public static void loadCache()
-    {
-        final TvSeries tvSeries = new TvSeries();
-        final Film film = new Film();
-        showMap.put("Tv Series", tvSeries);
-        showMap.put("Film", film);
-    }
+  // Instanciats the initial objects from which we clone from
+  public static void loadCache()
+  {
+    final TvSeries tvSeries = new TvSeries();
+    final Film film = new Film();
+    showMap.put("Tv Series", tvSeries);
+    showMap.put("Film", film);
+  }
 
-    // Returns clone of object stored in showMap to client
-    public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException
+  // Returns clone of object stored in showMap to client
+  public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException
+  {
+    // Switch statement to find out which clone is needed
+    switch (showId)
     {
-        // Switch statement to find out which clone is needed
-        switch (showId)
-        {
-            case "Film":
-                Film cashedFilm = (Film) showMap.get(showId);
-                return cashedFilm.clone();
-            case "Tv Series":
-                TvSeries cashedTvSeries = (TvSeries) showMap.get(showId);
-                return cashedTvSeries.clone();
-            default:
-                throw new ShowIdNotRecognisedException("Unable to get show: " + showId);
-        }
+      case "Film":
+        Film cashedFilm = (Film) showMap.get(showId);
+        return cashedFilm.clone(); 
+      case "Tv Series":
+        TvSeries cashedTvSeries = (TvSeries) showMap.get(showId);
+        return cashedTvSeries.clone();
+      default:
+         throw new ShowIdNotRecognisedException("Unable to get show: " + showId); 
     }
+  }
 }
 ```
 
 ```java
 public class ShowIdNotRecognisedException extends Throwable
 {
-    private static final long serialVersionUID = 1;
+  private static final long serialVersionUID = 1;
 
-    public ShowIdNotRecognisedException(final String message)
-    {
-        super(message);
-    }
+  public ShowIdNotRecognisedException(final String message)
+  {
+    super(message);
+  }
 }
 
 ```
@@ -231,42 +230,41 @@ The `Main` class both starts the program and acts as the client in this example.
 ```java
 public class Main {
 
-    public static void main(String[] args)
-    {
-        // Create initial objects
-        ShowCache.loadCache();
-        final UserRepository userRepository = new UserRepository();
-        // For each film title, clone Film object and set appropriate properties. Return list
-        final List<Film> filmHistory = userRepository.getUserFilmsHistory().stream().map(entry -> {
-            Film film = null;
-            try {
-                film = (Film) getShow("Film").clone();
-                film.setTitle(entry);
-                film.setFormat(".mp4");
-                film.setThumbnailLocation("films/assets/" + entry.toLowerCase().replace(" ", "_") + film.getFormat());
-            } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
-                e.printStackTrace();
-            }
-            return film;
-        }).collect(Collectors.toList());
+  public static void main(String[] args) {
+    // Create initial objects
+    ShowCache.loadCache();
+    final UserRepository userRepository = new UserRepository();
+    // For each film title, clone Film object and set appropriate properties. Return list
+    final List<Film> filmHistory = userRepository.getUserFilmsHistory().stream().map(entry -> {
+      Film film = null;
+      try {
+        film = (Film) getShow("Film").clone();
+        film.setTitle(entry);
+        film.setFormat(".mp4");
+        film.setThumbnailLocation("films/assets/" + entry.toLowerCase().replace(" ", "_") + film.getFormat());
+      } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
+        e.printStackTrace();
+      }
+      return film;
+    }).collect(Collectors.toList());
 
-        // For each tv show title, clone TvSeries object and set appropriate properties. Return list
-        final List<TvSeries> tvSeriesHistory = userRepository.getUserTvSeriesHistory().stream().map(entry -> {
-            TvSeries tvSeries = null;
-            try {
-                tvSeries = (TvSeries) getShow("Tv Series").clone();
-                tvSeries.setTitle(entry);
-                tvSeries.setFormat(".mp4");
-                tvSeries.setThumbnailLocation("tv-shows/assets/" + entry.toLowerCase().replace(" ", "_") + tvSeries.getFormat());
-            } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
-                e.printStackTrace();
-            }
-            return tvSeries;
-        }).collect(Collectors.toList());
+    // For each tv show title, clone TvSeries object and set appropriate properties. Return list
+    final List<TvSeries> tvSeriesHistory = userRepository.getUserTvSeriesHistory().stream().map(entry -> {
+      TvSeries tvSeries = null;
+      try {
+        tvSeries = (TvSeries) getShow("Tv Series").clone();
+        tvSeries.setTitle(entry);
+        tvSeries.setFormat(".mp4");
+        tvSeries.setThumbnailLocation("tv-shows/assets/" + entry.toLowerCase().replace(" ", "_") + tvSeries.getFormat());
+      } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
+        e.printStackTrace();
+      }
+      return tvSeries;
+    }).collect(Collectors.toList());
         
-        // Print filmHistory and tvSeriesHistory to the console
-        System.out.println(filmHistory);
-        System.out.println(tvSeriesHistory);
+    // Print filmHistory and tvSeriesHistory to the console
+    System.out.println(filmHistory);
+    System.out.println(tvSeriesHistory);
     }
 }
 ```
