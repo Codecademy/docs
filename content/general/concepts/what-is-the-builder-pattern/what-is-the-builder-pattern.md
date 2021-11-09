@@ -93,11 +93,14 @@ public class PizzaOrder {
     this.stuffCrust = builder.stuffCrust;
   }
 
-    // Getters below. (Note: setters negated for immutability.)
+    // Getters below.
 }
 ```
 
-Note: Some Enums have been provided to safely model the choices an order may have.
+**Note:** setters negated for immutability.
+
+Some Enums have been provided to safely model the choices an order may have.
+
 
 ```java
 public enum Topping
@@ -129,7 +132,7 @@ public enum Cheese {
 }
 ```
 
-Note: The Main class below shows how to instantiate a PizzaOrder object through its inner Builder class.
+The `Main` class below shows how to instantiate a `PizzaOrder` object through its inner `Builder` class.
 
 ```java
 public class Main {
