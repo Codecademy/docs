@@ -30,67 +30,68 @@ are immutable.
 
 ```java
 public class PizzaOrder {
-    public static class Builder {
-        // Same properties as the outer PizzaOrder class
-        private final List<Topping> toppings;
-        private final Cheese cheese;
-        private final Sauce sauce;
-        private final Base pizzaBase;
-        private final boolean stuffCrust;
-
-        public Builder(Base pizzaBase, boolean stuffCrust) {
-            // Enforce required choices
-            this.pizzaBase = pizzaBase;
-            this.stuffCrust = stuffCrust;
-            // Default values
-            this.cheese = Cheese.MOZZARELLA;
-            this.sauce = Sauce.TOMATO;
-        }
-
-        // Sets property and returns itself (either for next property to be set, or build() to be invoked)
-        public Builder toppings(List<Topping> toppings) {
-            this.toppings = toppings;
-            return this;
-        }
-
-        public Builder cheese(Cheese cheese) {
-            this.cheese = cheese;
-            return this;
-        }
-
-        public Builder sauce(Sauce sauce) {
-            this.sauce = sauce;
-            return this;
-        }
-
-        public Builder base(Base pizzaBase) {
-            this.pizzaBase = pizzaBase;
-            return this;
-        }
-
-        public Builder stuffCrust(boolean stuffCrust) {
-            this.stuffCrust = stuffCrust;
-            return this;
-        }
-
-        // When build() is called, a new concrete object is returned with the desired properties set
-        public PizzaOrder build() { return new PizzaOrder(this); }
-    }
-
+  public static class Builder {
+    // Same properties as the outer PizzaOrder class
     private final List<Topping> toppings;
     private final Cheese cheese;
     private final Sauce sauce;
     private final Base pizzaBase;
     private final boolean stuffCrust;
 
-    // Removes default constructor and forces object creation through Builder inner class
-    private PizzaOrder(Builder builder) {
-        // Constructs concrete object with builder's property values
-        this.toppings = builder.toppings;
-        this.cheese = builder.cheese;
-        this.sauce = builder.sauce;
-        this.stuffCrust = builder.stuffCrust;
+    public Builder(Base pizzaBase, boolean stuffCrust) {
+      // Enforce required choices
+      this.pizzaBase = pizzaBase;
+      this.stuffCrust = stuffCrust;
+      // Default values
+      this.cheese = Cheese.MOZZARELLA;
+      this.sauce = Sauce.TOMATO;
     }
+
+    // Sets property and returns itself (either for next property to be set, or build() to be invoked)
+    public Builder toppings(List<Topping> toppings) {
+      this.toppings = toppings;
+      return this;
+    }
+
+    public Builder cheese(Cheese cheese) {
+      this.cheese = cheese;
+      return this;
+    }
+
+    public Builder sauce(Sauce sauce) {
+      this.sauce = sauce;
+      return this;
+    }
+
+    public Builder base(Base pizzaBase) {
+      this.pizzaBase = pizzaBase;
+      return this;
+    }
+
+    public Builder stuffCrust(boolean stuffCrust) {
+      this.stuffCrust = stuffCrust;
+      return this;
+    }
+
+    // When build() is called, a new concrete object is returned with the desired properties set
+    public PizzaOrder build() { return new PizzaOrder(this); }
+      
+  }
+
+  private final List<Topping> toppings;
+  private final Cheese cheese;
+  private final Sauce sauce;
+  private final Base pizzaBase;
+  private final boolean stuffCrust;
+
+  // Removes default constructor and forces object creation through Builder inner class
+  private PizzaOrder(Builder builder) {
+    // Constructs concrete object with builder's property values
+    this.toppings = builder.toppings;
+    this.cheese = builder.cheese;
+    this.sauce = builder.sauce;
+    this.stuffCrust = builder.stuffCrust;
+  }
 
     // Getters below. (Note: setters negated for immutability.)
 }
@@ -101,41 +102,41 @@ Note: Some Enums have been provided to safely model the choices an order may hav
 ```java
 public enum Topping
 {
-    HAM,
-    PINEAPPLE,
-    SWEETCORN
+  HAM,
+  PINEAPPLE,
+  SWEETCORN
 }
 ```
 
 ```java
 public enum Sauce {
-    TOMATO,
-    BBQ
+  TOMATO,
+  BBQ
 }
 ```
 
 ```java
 public enum Base {
-    THIN_BASE,
-    DEEP_PAN
+  THIN_BASE,
+  DEEP_PAN
 }
 ```
 
 ```java
 public enum Cheese {
-    NONE,
-    MOZZARELLA
+  NONE,
+  MOZZARELLA
 }
 ```
 
-Note: The Main class below shows how to instanciate a PizzaOrder object through its inner Builder class.
+Note: The Main class below shows how to instantiate a PizzaOrder object through its inner Builder class.
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        // Create concrete object
-        PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(Sauce.BBQ)
-                                                                           .build();
+  public static void main(String[] args) {
+    // Create concrete object
+    PizzaOrder pizzaOrder = new PizzaOrder.Builder(Base.DEEP_PAN, true).sauce(Sauce.BBQ)
+                                                                       .build();
     }
 }
 ```
