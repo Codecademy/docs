@@ -108,7 +108,6 @@ For
 Foreign Key
 Form
 Frameworks
-Function Composition
 Functions
 Functional Programming
 Ggplot2
@@ -199,7 +198,6 @@ Print
 Probability
 Promise
 Properties
-Pure Functions
 Queries
 Queues
 Quicksort
