@@ -71,7 +71,9 @@ public class Episode {
 }
 ```
 
-*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class.
+*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class. 
+
+The following code demonstrates a limitation of the shallow copy: 
 
 ```java
 public class Main {
