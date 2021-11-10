@@ -10,7 +10,7 @@ Tags:
 - 'Conceptual'
 - 'Constructors'
 - 'Objects'
-  CatalogContent:
+CatalogContent:
 - 'learn-java'
 - 'paths/computer-science'
 ---
