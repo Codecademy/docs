@@ -12,15 +12,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-Data types are the classifications given to the different kinds of values used in everyday programming. In Go, there are seven fundamental data types:
-
-- [Numbers](#numbers)
-- [Strings](#strings)
-- [Booleans](#booleans)
-- [Arrays](#arrays)
-- [Structs](#structs)
-- [Slices](#slices)
-- [Pointers](#pointers)
+Data types are the classifications given to the different kinds of values used in everyday programming. In Go, there are seven fundamental data types: Numbers, Strings, Booleans, Arrays, Structs, Slices, and Pointers.
 
 ## Numbers
 
@@ -99,7 +91,7 @@ Arrays are list with static capacity. They can't change their capacity after the
 
 ```golang
 // Declare and initialize an arraz of capacity 5 and fill it with elements
-someArray := [5]int{0,2,3,4,5}
+someArray := [5]int{0, 2, 3, 4, 5}
 ```
 
 ## Slices

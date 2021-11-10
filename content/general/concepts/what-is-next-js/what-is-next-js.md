@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Next.js](https://nextjs.org) is an open-source development framework that brings the best of React's client-side functionality to the server-side when building web applicatons. 
+[Next.js](https://nextjs.org) is an open-source development framework that brings the best of React's client-side functionality to the server-side when building web applicatons.
 
 Additionally, Next.js comes with built-in features including the following:
 
