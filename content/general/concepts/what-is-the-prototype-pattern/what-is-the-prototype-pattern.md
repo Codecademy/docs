@@ -14,7 +14,7 @@ CatalogContent:
 - 'learn-java'
 - 'paths/computer-science'
 ---
-The _prototype pattern_ adds cloning functionality to an objects class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
+The _prototype pattern_ adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
 
 There are two types of copying associated with the prototype pattern. They are:
 - Shallow Copy (copies the immediate property values)
@@ -71,7 +71,7 @@ public class Episode {
 }
 ```
 
-**Note:** The properties of the episode class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the TvSeries class.
+**Note:** The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class.
 
 ```java
 public class Main {
@@ -118,9 +118,9 @@ public class Main {
 ![UML diagram of a prototype](/media/prototype-uml.png)
 
 ## Example: Prototype
-To illustrate the _prototype pattern_, below provides a real world example, in java, depicting potential considerations for a video streaming service. For some reason, returning `Film` or `TvSeries` objects is considered to be expensive and when providing the user with their watch history, we can use the `UserRepository` to set the needed properties from cloned objects provided by a registry. 
+To illustrate the _prototype pattern_, below provides a real world example, in Java, depicting potential considerations for a video streaming service. For some reason, returning `Film` or `TvSeries` objects is considered to be expensive and when providing the user with their watch history, we can use the `UserRepository` to set the needed properties from cloned objects provided by a registry. 
 
-A `UserRepository` has been created with two methods; `getUserFilmHistory()` and `getUserTvSeriesHistory()`. Both simply return a list of `Strings` representing a users watch history.
+A `UserRepository` has been created with two methods; `getUserFilmHistory()` and `getUserTvSeriesHistory()`. Both simply return a list of `Strings` representing a user's watch history.
 
 ```java
 public class UserRepository {
@@ -175,7 +175,7 @@ public class TvSeries extends Show<TvSeries>
 }
 ```
 
-Finally `ShowCache` has been made to add an object registry to the program. When `loadCache()` is called two template objects are created using the `new` keyword and placed in a static map. When `getShow()` is called by a client, the correct clone (taken from `showMap`) is returned, ready for its properties to be set. If the requested `showId` is not recognised, an exception is thrown.
+Finally `ShowCache` has been made to add an object registry to the program. When `loadCache()` is called two template objects are created using the `new` keyword and placed in a static map. When `getShow()` is called by a client, the correct clone (taken from `showMap`) is returned, ready for its properties to be set. If the requested `showId` is not recognized, an exception is thrown.
 
 ```java
 public class ShowCache
@@ -223,7 +223,7 @@ public class ShowIdNotRecognisedException extends Throwable
 }
 
 ```
-The `Main` class both starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from, before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a users previously watched shows.
+The `Main` class below both starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from, before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a users previously watched shows.
 
 **Note:** After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
 
