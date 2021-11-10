@@ -71,7 +71,7 @@ public class Episode {
 }
 ```
 
-**Note:** The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class.
+*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class.
 
 ```java
 public class Main {
@@ -225,7 +225,7 @@ public class ShowIdNotRecognisedException extends Throwable
 ```
 The `Main` class below both starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from, before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a users previously watched shows.
 
-**Note:** After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
+*Note:* After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
 
 ```java
 public class Main {
