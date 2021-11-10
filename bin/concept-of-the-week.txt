@@ -1,1 +1,1 @@
-content/typescript/concepts/type-aliases/type-aliases.md
+content/html/concepts/classes/classes.md
