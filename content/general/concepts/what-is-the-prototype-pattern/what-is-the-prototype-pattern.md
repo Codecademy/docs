@@ -4,8 +4,8 @@ Description: 'The _prototype pattern_ adds cloning functionality to an objets cl
 removes the need for the new keyword in creating subsequent objects at run time.'
 Subjects:
 - 'Computer Science'
-- 'Interview Prep'
-  Tags:
+- 'Interview Prep' 
+Tags:
 - 'Classes'
 - 'Conceptual'
 - 'Constructors'
