@@ -1,6 +1,6 @@
 name: Bug Report
 description: Brief description of bug in Docs code/codebytes
-title: "[Bug Report]: "
+title: "[Bug/Error]: "
 labels: ["bug"]
 assignees: "name(s) here"
 body:
@@ -36,7 +36,6 @@ body:
         - Safari
         - Microsoft Edge
         - Opera
-        - Brave
         - Other (not listed here)
   - type: checkboxes
     id: terms
@@ -52,6 +51,6 @@ body:
       label: For Maintainers
       options:
         - label: Labels added
-          required: false
+          required: true
         - label: Issue is assigned
           required: false

@@ -1,6 +1,6 @@
 name: Entry Edit
 description: Request for edits to 1-3 existing entries/terms.
-title: "[Entry/Term Edit] subject : entry name(s)"
+title: "[Edit] subject : entry name(s)"
 labels: ["enhancement", "typo"]
 assignees: "name(s) here"
 body:
@@ -29,6 +29,6 @@ body:
       label: For Maintainers
       options:
         - label: Labels added
-          required: false
+          required: true
         - label: Assignee(s) added
           required: false
