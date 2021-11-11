@@ -1,8 +1,8 @@
 name: Entry Edit
 description: Request for edits to 1-3 existing entries/terms.
-title: "[Edit] subject : entry name(s)"
+title: "[Edit] Subject : Entry Name(s)"
 labels: ["enhancement", "typo"]
-assignees: "name(s) here"
+assignees: "Name(s) here"
 body:
   - type: dropdown
     id: edits

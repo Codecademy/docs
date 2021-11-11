@@ -1,8 +1,8 @@
 name: Bug Report
 description: Brief description of bug in Docs code/codebytes
-title: "[Bug/Error]: "
+title: "[Bug/Error] Subject : Entry Name(s)"
 labels: ["bug"]
-assignees: "name(s) here"
+assignees: "Name(s) here"
 body:
   - type: markdown
     attributes:
