@@ -68,9 +68,33 @@ When called on an instance, the `.promote()` function will set its `manager` pro
 
 In Swift, the `init()` method is called when a class instance is created.
 
-Sandy Cheeks works for "Tree Dome Enterprises Limited" and makes 10,000 acorns a year. Below, `sandyCheeks` variable is assigned to the value of `Employee()` that creates an instance of the class `Employee`. Sandy's name and salary are set through the initialization method.
+Sandy Cheeks works for "Tree Dome Enterprises Limited" and makes 10,000 acorns a year. Below, `sandyCheeks` variable is assigned to the value of `Employee()`. This creates an instance of the class `Employee`.
+
+Sandy's name and salary are set through the initialization method:
 
 ```swift
 var sandyCheeks = Employee(name: "Sandy Cheeks", salary: 10000)
 ```
 
+## Access Functions and Variables
+
+To view an instance's characteristics or properties:
+
+```swift
+print(sandyCheeks.name)
+// Output: Sandy Cheeks
+
+print(sandyCheeks.salary)
+// Output: 10000
+```
+
+Congrats! Sandy is getting a promotion, so the `promote` function will be called on `sandyCheeks` instance:
+
+```swift
+print(sandyCheeks.manager)
+// Output: false
+
+sandyCheeks.promote()
+print(sandyCheeks.manager)
+// Output: true
+```
