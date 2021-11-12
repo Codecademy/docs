@@ -13,7 +13,7 @@ CatalogContent:
 
 Classes serve as a template to define characteristics and behaviors of an object.
 
-They are reference types, meaning all _instances_ of a class carry the same characteristics and behaviors.
+They are _reference types_, meaning all _instances_ of a class carry the same characteristics and behaviors. 
 
 An instance is an object created based on a class.
 
@@ -22,7 +22,7 @@ An instance is an object created based on a class.
 In Swift, classes are defined using the `class` keyword, followed by a class name, and a pair of curly braces `{}`.
 
 ```swift
-class Employee {
+class myClass {
   // Class body
 }
 ```
@@ -76,6 +76,8 @@ Sandy's name and salary are set through the initialization method:
 var sandyCheeks = Employee(name: "Sandy Cheeks", salary: 10000)
 ```
 
+**Note:** Classes are also _named types_: types that are given a name when defined and can be referred to as such, i.e. instances of `Employee` have the type `Employee`.
+
 ## Access Functions and Variables
 
 To view an instance's characteristics or properties:
@@ -88,7 +90,7 @@ print(sandyCheeks.salary)
 // Output: 10000
 ```
 
-Congrats! Sandy is getting a promotion, so the `promote` function will be called on `sandyCheeks` instance:
+Sandy is getting a promotion! So the `promote` function will be called on `sandyCheeks` instance:
 
 ```swift
 print(sandyCheeks.manager)
