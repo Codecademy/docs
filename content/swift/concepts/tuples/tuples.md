@@ -13,7 +13,7 @@ CatalogContent:
 
 Tuples are a data type introduced in Swift version 4. They are used to group multiple value, separated by commas `,`, into a single value that is enclosed in parentheses `()`.
 
-**Note:** Tuples are _compound types_. This means that they  combine different types of data.
+**Note:** Tuples are _compound types_. This means that they combine different types of data.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ Tuples are a data type introduced in Swift version 4. They are used to group mul
 var myTuple = (value1, value2, ...)
 ```
 
-## Accessing Values
+## Accessing and Changing Values
 
 Values of a tuple can be accessed using indeces:
 
@@ -34,7 +34,7 @@ print(computerScience.1)
 // Output: George Forsythe
 ```
 
-Values can also be named and accessed through them:
+Values or elements can also be named and accessed through them:
 
 ```swift
 var alanTuring = (
@@ -43,13 +43,18 @@ var alanTuring = (
   inventions: ["Universal Turing Machine", "Bombe"]
 )
 
-print(alanTuring.name)
-// Alan Mathison Turing
-print(alanTuring.born)
-// 1912
-print(alanTuring.inventions)
-// ["Universal Turing Machine", "Bombe"]
+print("\(alanTuring.name) was born in \(alanTuring.born) and invented the \(alanTuring.inventions[0]).")
+// Alan Mathison Turing was born in 1912 and invented the Universal Turing Machine.
 ```
 
-## Changing Values
+These values can then be altered through their indeces or name:
 
+```swift
+computerScience.0 = 1961
+print(computerScience.0)
+// Output: 1961
+
+alanTuring.inventions.append("Automatic Computing Engine")
+print(alanTuring.inventions)
+// Output: [""Universal Turing Machine", "Bombe", Automatic Computing Engine"]
+```
