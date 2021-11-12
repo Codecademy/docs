@@ -22,7 +22,7 @@ An instance is an object created based on a class.
 In Swift, classes are defined using the `class` keyword, followed by a class name, and a pair of curly braces `{}`.
 
 ```swift
-class myClass {
+class MyClass {
   // Class body
 }
 ```
