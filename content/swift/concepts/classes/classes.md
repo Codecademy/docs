@@ -13,7 +13,7 @@ CatalogContent:
 
 Classes serve as a template to define characteristics and behaviors of an object.
 
-They are _reference types_, meaning all _instances_ of a class carry the same characteristics and behaviors. 
+They are _reference types_, meaning all _instances_ of a class carry the same characteristics and behaviors.
 
 An instance is an object created based on a class.
 
