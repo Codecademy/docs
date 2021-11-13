@@ -2,16 +2,16 @@
 Title: 'What is the Prototype Pattern?'
 Description: 'The prototype pattern adds cloning functionality to an objects class.'
 Subjects:
-- 'Computer Science'
-- 'Interview Prep' 
+  - 'Computer Science'
+  - 'Interview Prep'
 Tags:
-- 'Classes'
-- 'Conceptual'
-- 'Constructors'
-- 'Objects'
+  - 'Classes'
+  - 'Conceptual'
+  - 'Constructors'
+  - 'Objects'
 CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The _prototype pattern_ adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
