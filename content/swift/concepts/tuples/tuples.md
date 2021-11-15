@@ -58,5 +58,5 @@ print(computerScience.0)
 
 alanTuring.inventions.append("Automatic Computing Engine")
 print(alanTuring.inventions)
-// Output: [""Universal Turing Machine", "Bombe", Automatic Computing Engine"]
+// Output: ["Universal Turing Machine", "Bombe", "Automatic Computing Engine"]
 ```
