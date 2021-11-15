@@ -1,3 +1,16 @@
+---
+Title: 'Closures'
+Description: 'Closures allows for more flexible code'
+Subjects:
+  - 'iOS'
+  - 'Mobile Development'
+Tags:
+  - 'Closures'
+Catalogue Content:
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
+---
+
 # Swift Closures
 Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and can be reused within the same code. 
 
