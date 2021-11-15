@@ -49,6 +49,7 @@ public class TvSeries implements Cloneable {
   public TvSeries deepCopy() {
     // New Episode objects are created during the copy
     final List<Episode> episodes = new ArrayList<>();
+
     for (Episode episode : this.episodes) {
       episodes.add(new Episode(episode.getName, episode.getEpNo));
     }
@@ -56,7 +57,7 @@ public class TvSeries implements Cloneable {
     return new TvSeries(this.name, this.seriesNo, episodes);
   }
 
-    // Getters and toString
+  // Getters and toString
 }
 ```
 
@@ -264,6 +265,7 @@ public class Main {
     // For each film title, clone Film object and set appropriate properties. Return list
     final List<Film> filmHistory = userRepository.getUserFilmsHistory().stream().map(entry -> {
       Film film = null;
+
       try {
         film = (Film) getShow("Film").clone();
         film.setTitle(entry);
@@ -272,12 +274,14 @@ public class Main {
       } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
         e.printStackTrace();
       }
+
       return film;
     }).collect(Collectors.toList());
 
     // For each tv show title, clone TvSeries object and set appropriate properties. Return list
     final List<TvSeries> tvSeriesHistory = userRepository.getUserTvSeriesHistory().stream().map(entry -> {
       TvSeries tvSeries = null;
+
       try {
         tvSeries = (TvSeries) getShow("Tv Series").clone();
         tvSeries.setTitle(entry);
@@ -286,6 +290,7 @@ public class Main {
       } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
         e.printStackTrace();
       }
+      
       return tvSeries;
     }).collect(Collectors.toList());
 
