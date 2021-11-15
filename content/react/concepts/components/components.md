@@ -13,8 +13,8 @@ CatalogContent:
 
 In React, components make up the UI of the application. Components are pieces of code that are reuseable and independent. Each component comes with 1 or 2 of the following things:
 
-- `state`: Data in a component expected to change over time
-- `props`: Data that can be shared from parent component to child component
+- [state](https://www.codecademy.com/resources/docs/react/state) : Data in a component expected to change over time 
+- [props](https://www.codecademy.com/resources/docs/react/props) : Data that can be shared from parent component to child component
 
 ## Class Components
 
@@ -45,7 +45,20 @@ class ClassComponent extends React.Component {
 Function components are stateless and only use the `return` statement. No import statement necessary:
 
 ```jsx
-function FunctionComponent() {
+function FunctionComponent(props) {
+  return (
+    <div>
+      ...
+    <div>
+  )
+}
+```
+## Arrow function
+
+ ES6 version of JavaScript
+ 
+```jsx
+const FunctionComponent = (props) => {
   return (
     <div>
       ...
