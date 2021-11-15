@@ -24,37 +24,51 @@ There are two types of copying associated with the prototype pattern. They are:
 To illustrate the difference between the shallow and deep copy, a model has been provided below, consisting of two classes `TvSeries` and `Episode`. Cloning functionality has been added to TvSeries by implementing the Cloneable interface.
 
 ```java
-public class TvSeries implements Cloneable {
-  private final String name;
-  private final int seriesNo;
-  // Notice one or more properties are a complex type and mutable
-  private final List<Episode> episodes;
+import java.util.ArrayList;
 
-  public TvSeries(String name, int seriesNo, List<Episode> episodes) {
-    this.name = name;
-    this.seriesNo = seriesNo;
-    this.episodes = episodes;
-  }
-    
-  // Shallow copy method
-  @Override
-  public TvSeries clone() throws CloneNotSupportedException {
-    // Cast to TvSeries as super returns Object
-    return (TvSeries) super.clone();
-  }
+public class TvSeries implements Cloneable
+{
 
-  // Deep copy
-  public TvSeries deepCopy() {
-    // New Episode objects are created during the copy
-    return new TvSeries(this.name, this.seriesNo, this.episodes.stream()
-                                                               .map(episode -> new Episode(episode.getName(), episode.getEpNo()))
-                                                               .collect(Collectors.toList()));
-  }
-    
-  // Getters and toString
+    private final String name;
+    private final int seriesNo;
+    // Notice one or more properties are a complex type and mutable
+    private final List<Episode> episodes;
+
+    public TvSeries(String name, int seriesNo, List<Episode> episodes)
+    {
+        this.name = name;
+        this.seriesNo = seriesNo;
+        this.episodes = episodes;
+    }
+
+    // Shallow copy method
+    @Override
+    public TvSeries clone() throws CloneNotSupportedException
+    {
+        return (TvSeries) super.clone();
+    }
+
+    // Deep copy
+    public TvSeries deepCopy()
+    {
+        // New Episode objects are created during the copy
+        final List<Episode> episodes = new ArrayList<>();
+        for (Episode episode : this.episodes) {
+            episodes.add(new Episode(episode.getName, episode.getEpNo));
+        }
+        return new TvSeries(this.name, this.seriesNo, episodes);
+    }
+
+    // Getters and toString
 }
 
 ```
+
+As the `TvSeries` class has a list of complex objects (`Episode`) as one of its properties, shallow copying through `clone()` will only copy the outermost `TvSeries` object and negate creating new objects to reference for the list of episodes. Instead, when the `clone` method is called, two`TvSeries` objects will reference the same list of episodes. 
+
+The `deepCopy()` method by comparison iterates through the list of `Episode` to create a list of new `TvSeries` objects. This list is then used by the `TvSeries` constructor when creating a copy. The new `TvSeries` object references a new (and independent) list of episodes.
+
+Below provides a model class for the complex object type `Episode` described above.
 
 ```java
 public class Episode {
@@ -71,7 +85,7 @@ public class Episode {
 }
 ```
 
-*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in the shallow copy method implemented in the `TvSeries` class. 
+*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in `clone()`. 
 
 The following code demonstrates a limitation of the shallow copy: 
 
@@ -93,8 +107,9 @@ public class Main {
   }
 }
 ```
+Our main method starts by creating two new objects; `episodeOne` of type `Episode`, and `seriesOne` of type `Series`. `seriesOne` is then cloned using a shallow copy to instantiate `seriesTwo`, and as a result our program now has two `Series` objects (`seriesOne` and `seriesTwo`) referencing a single list of episodes in memory. Finally, when we change the name of the episode through its setter method, the name change appears in both Series 1 Episode 1 and Series 2 Episode 1.
 
-The shallow copy only copies the outermost object, and references the same complex object properties in memory. As there is now one `Epesode` object with two references to it, changing a value may result in unwanted behaviour. Below is the same example but using the `deepCopy()` in place of `clone()`.
+Below is the same example but using the `deepCopy()` in place of `clone()`.
 
 ```java
 public class Main {
@@ -114,6 +129,8 @@ public class Main {
   }
 }
 ```
+
+This time, rather than instantiating two `TvSeries` objects that reference a single list of episodes in memory, the `deepCopy()` creates a list of new episodes in memory by iterating over the old. We now have two `TvSeries` objects referencing two `Episode` objects in memory, and can change the name of each `Episode` object independently.
 
 ## UML Design
 
