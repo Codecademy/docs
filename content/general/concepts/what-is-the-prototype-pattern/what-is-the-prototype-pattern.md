@@ -290,7 +290,7 @@ public class Main {
       } catch (CloneNotSupportedException | ShowIdNotRecognisedException e) {
         e.printStackTrace();
       }
-      
+
       return tvSeries;
     }).collect(Collectors.toList());
 
