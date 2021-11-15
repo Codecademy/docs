@@ -1,56 +1,53 @@
 ---
 Title: 'What is the Prototype Pattern?'
-Description: 'The _prototype pattern_ adds cloning functionality to an objets class. After the instantiation an initial object, the prototype 
-removes the need for the new keyword in creating subsequent objects at run time.'
+Description: 'The prototype pattern adds cloning functionality to an objects class.'
 Subjects:
-- 'Computer Science'
-- 'Interview Prep' 
+  - 'Computer Science'
+  - 'Interview Prep'
 Tags:
-- 'Classes'
-- 'Conceptual'
-- 'Constructors'
-- 'Objects'
+  - 'Classes'
+  - 'Conceptual'
+  - 'Constructors'
+  - 'Objects'
 CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
+
 The _prototype pattern_ adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
 
 There are two types of copying associated with the prototype pattern. They are:
-- Shallow Copy (copies the immediate property values)
-- Deep Copy (copies the immediate values, plus any referenced object)
 
-## Example: Shallow Copy Vs Deep Copy
-To illustrate the difference between the shallow and deep copy, a model has been provided below, consisting of two classes `TvSeries` and `Episode`. Cloning functionality has been added to TvSeries by implementing the Cloneable interface.
+- Shallow copy: Copies the immediate property values.
+- Deep copy: Copies the immediate values, plus any referenced object.
+
+## Example: Shallow Copy vs Deep Copy
+
+To illustrate the difference between the shallow and deep copy, a model has been provided below, consisting of two classes `TvSeries` and `Episode`. Cloning functionality has been added to `TvSeries` by implementing the `Cloneable` interface.
 
 ```java
-import java.util.ArrayList;
-
-public class TvSeries implements Cloneable
-{
+public class TvSeries implements Cloneable {
 
     private final String name;
     private final int seriesNo;
     // Notice one or more properties are a complex type and mutable
     private final List<Episode> episodes;
 
-    public TvSeries(String name, int seriesNo, List<Episode> episodes)
-    {
-        this.name = name;
-        this.seriesNo = seriesNo;
-        this.episodes = episodes;
-    }
+  public TvSeries(String name, int seriesNo, List<Episode> episodes) {
+    this.name = name;
+    this.seriesNo = seriesNo;
+    this.episodes = episodes;
+  }
 
-    // Shallow copy method
-    @Override
-    public TvSeries clone() throws CloneNotSupportedException
-    {
-        return (TvSeries) super.clone();
-    }
+  // Shallow copy method
+  @Override
+  public TvSeries clone() throws CloneNotSupportedException {
+    // Cast to TvSeries as super returns Object
+    return (TvSeries) super.clone();
+  }
 
     // Deep copy
-    public TvSeries deepCopy()
-    {
+    public TvSeries deepCopy() {
         // New Episode objects are created during the copy
         final List<Episode> episodes = new ArrayList<>();
         for (Episode episode : this.episodes) {
@@ -75,19 +72,18 @@ public class Episode {
   private String name;
   private int epNo;
 
-  public Episode(String name, int epNo)
-  {
+  public Episode(String name, int epNo) {
     this.name = name;
     this.epNo = epNo;
   }
 
-  // Getters, setters and toString
+  // Getters, setters, and toString
 }
 ```
 
-*Note:* The properties of the `Episode` class are mutable. This is to illustrate a potential drawback in `clone()`. 
+**Note:** The properties of the `Episode` class are mutable.
 
-The following code demonstrates a limitation of the shallow copy: 
+The following code demonstrates a limitation of the shallow copy:
 
 ```java
 public class Main {
@@ -151,17 +147,16 @@ public class UserRepository {
 
   // Returns a list of Tv show titles
   public List<String> getUserTvSeriesHistory() {
-    return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid", 
+    return Arrays.asList("Maya and the Three", "The Thundermans", "Riverdale",  "Locke and Key", "Catching Killers", "Cocomelon", "Maid",
                          "Colin in Black and White", "Squid Game", "You");
   }
 }
 ```
 
-To model the object types to be returned, `Film` and `TvSeries` have been outlined. They both extend an abstract parent class of `Show`. This allows us to use generics in `clone()`, making the returned object automatically cast to the correct type. 
+To model the object types to be returned, `Film` and `TvSeries` have been outlined. They both extend an abstract parent class of `Show`. This allows us to use generics in `clone()`, making the returned object automatically cast to the correct type.
 
 ```java
-public abstract class Show<T> implements Cloneable
-{
+public abstract class Show<T> implements Cloneable {
   // Implements clone in abstract class to make use of generics
   @Override
   public T clone() throws CloneNotSupportedException {
@@ -172,20 +167,18 @@ public abstract class Show<T> implements Cloneable
 
 ```java
 // Film extends Show<Film>, so its clone method will return a Film instance
-public class Film extends Show<Film>
-{
+public class Film extends Show<Film> {
   private String title;
   private String format;
   private String thumbnailLocation;
 
-  // Getters, setters and toString
+  // Getters, setters, and toString
 }
 ```
 
 ```java
 // TvSeries extends Show<TvSeries>, so its clone method will return TvSeries instance
-public class TvSeries extends Show<TvSeries>
-{
+public class TvSeries extends Show<TvSeries> {
   private String title;
   private String format;
   private String thumbnailLocation;
@@ -197,14 +190,12 @@ public class TvSeries extends Show<TvSeries>
 Finally `ShowCache` has been made to add an object registry to the program. When `loadCache()` is called two template objects are created using the `new` keyword and placed in a static map. When `getShow()` is called by a client, the correct clone (taken from `showMap`) is returned, ready for its properties to be set. If the requested `showId` is not recognized, an exception is thrown.
 
 ```java
-public class ShowCache
-{
+public class ShowCache {
   // A HashTable that contains the initial model object from which we clone from
   public static Hashtable<String, Show<?>> showMap = new Hashtable<>();
 
   // Instanciats the initial objects from which we clone from
-  public static void loadCache()
-  {
+  public static void loadCache() {
     final TvSeries tvSeries = new TvSeries();
     final Film film = new Film();
     showMap.put("Tv Series", tvSeries);
@@ -212,39 +203,37 @@ public class ShowCache
   }
 
   // Returns clone of object stored in showMap to client
-  public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException
-  {
+  public static Show<?> getShow(String showId) throws CloneNotSupportedException, ShowIdNotRecognisedException {
     // Switch statement to find out which clone is needed
     switch (showId)
     {
       case "Film":
         Film cashedFilm = (Film) showMap.get(showId);
-        return cashedFilm.clone(); 
+        return cashedFilm.clone();
       case "Tv Series":
         TvSeries cashedTvSeries = (TvSeries) showMap.get(showId);
         return cashedTvSeries.clone();
       default:
-         throw new ShowIdNotRecognisedException("Unable to get show: " + showId); 
+         throw new ShowIdNotRecognisedException("Unable to get show: " + showId);
     }
   }
 }
 ```
 
 ```java
-public class ShowIdNotRecognisedException extends Throwable
-{
+public class ShowIdNotRecognisedException extends Throwable {
   private static final long serialVersionUID = 1;
 
-  public ShowIdNotRecognisedException(final String message)
-  {
+  public ShowIdNotRecognisedException(final String message) {
     super(message);
   }
 }
 
 ```
-The `Main` class below both starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from, before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a users previously watched shows.
 
-*Note:* After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
+The `Main` class below both starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from, before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a user's previously watched shows.
+
+**Note:** After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
 
 ```java
 public class Main {
@@ -280,7 +269,7 @@ public class Main {
       }
       return tvSeries;
     }).collect(Collectors.toList());
-        
+
     // Print filmHistory and tvSeriesHistory to the console
     System.out.println(filmHistory);
     System.out.println(tvSeriesHistory);
