@@ -56,7 +56,7 @@ function FunctionComponent(props) {
 
 ## Arrow function
 
-Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner way compared to regular functions:
+The [arrow function](https://www.codecademy.com/resources/docs/javascript/arrow-functions) is a feature that was introduced in ES6. It uses the `=` and `>` characters to define a function like a variable. In React, function components can be defined with this syntax:
  
 ```jsx
 const FunctionComponent = (props) => {
