@@ -11,10 +11,10 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In React, components make up the UI of the application. Components are pieces of code that are reuseable and independent. Each component comes with 1 or 2 of the following things:
+In React, components make up the UI of the application. Components are pieces of code that are reusable and independent. Each component comes with one or both of the following:
 
-- [state](https://www.codecademy.com/resources/docs/react/state) : Data in a component expected to change over time 
-- [props](https://www.codecademy.com/resources/docs/react/props) : Data that can be shared from parent component to child component
+- A [`state` object](https://www.codecademy.com/resources/docs/react/state) that contains component data that is expected to change over time. 
+- A [`props` object](https://www.codecademy.com/resources/docs/react/props) with data that can be passed down from parent component to child component.
 
 ## Class Components
 
@@ -53,9 +53,10 @@ function FunctionComponent(props) {
   )
 }
 ```
+
 ## Arrow function
 
- ES6 version of JavaScript
+Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner way compared to regular functions:
  
 ```jsx
 const FunctionComponent = (props) => {
