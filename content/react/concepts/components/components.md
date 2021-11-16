@@ -1,6 +1,6 @@
 ---
 Title: 'Components'
-Description: 'In React, components make up the UI of the application. Components are pieces of code that are reuseable and independent. Each component comes with 1 or 2 of the following things: - state: Data in a component expected to change over time - props: Data that can be shared from parent component to child component Class componenets contain a state and use a render() function to return JSX markup. When defined, the class has to be an extention of the React.Component class: jsx import React from react; class ClassComponent extends React.Component {'
+Description: 'Make up the UI of the application. Components are pieces of code that are reuseable and independent.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -54,7 +54,7 @@ function FunctionComponent(props) {
 }
 ```
 
-## Arrow function
+## Arrow Function
 
 The [arrow function](https://www.codecademy.com/resources/docs/javascript/arrow-functions) is a feature that was introduced in ES6. It uses the `=` and `>` characters to define a function like a variable. In React, function components can be defined with this syntax:
  
