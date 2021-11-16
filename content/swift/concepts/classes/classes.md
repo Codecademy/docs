@@ -39,7 +39,11 @@ Variables can be defined with the following steps:
 
 `init()` is a special method that gets called when a class instance is created. It can take any number of arguments in the form of `property: DataType`. The `self` keyword refers to the instance itself.
 
-Functions within a class use the `func` keyword, followed by the function's name, and a set of curly braces `{}` to hold the function's body.
+Functions within a class are defined with the following steps:
+
+1. Use the `func` keyword
+2. Name the function.
+3. Provide a set of curly braces `{}` to hold the function's body.
 
 ```swift
 class Employee {
