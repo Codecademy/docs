@@ -56,9 +56,9 @@ class Employee {
 
 In the code above, `Employee` class is given three properties or variables:
 
-- `name`: Set to an empty string `""`.
-- `salary`: Set to the integer `0`.
-- `manager`: Set to the boolean value `false`.
+- A `name` set to an empty string `""`.
+- A `salary` set to an integer value of `0`.
+- A `manager` boolean value set to `false`.
 
 The `init()` method takes in `name` and `salary` arguments that are of data type string and integer, respectively.
 
