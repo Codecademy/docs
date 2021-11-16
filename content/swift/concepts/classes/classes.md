@@ -62,7 +62,7 @@ In the code above, `Employee` class is given three properties or variables:
 
 The `init()` method takes in `name` and `salary` arguments that are of data type string and integer, respectively.
 
-When called on an instance, the `.promote()` function will set its `manager` property to true.
+When called on an instance, the `.promote()` function will set its `manager` property to `true`.
 
 ## Creating an Instance
 
