@@ -25,7 +25,7 @@ var myTuple = (value1, value2, ...)
 
 ## Accessing and Changing Values
 
-Values of a tuple can be accessed using indeces:
+Values of a tuple can be accessed using indices:
 
 ```swift
 var computerScience = (1960, "George Forsythe")
