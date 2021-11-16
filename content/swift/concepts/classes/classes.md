@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'Classes serve as a template to define characteristics and behaviors of an object.'
+Description: 'Defines characteristics and behaviors of an object.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
