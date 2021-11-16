@@ -31,7 +31,11 @@ class MyClass {
 
 ### `var`, `init()`, and `func`
 
-Variables can be defined using the keyword `var`, followed by the variable name, and a value assignment.
+Variables can be defined with the following steps:
+
+1. Use the `var` keyword.
+2. Provide a variable name.
+3. Assign a value with `=`.
 
 `init()` is a special method that gets called when a class instance is created. It can take any number of arguments in the form of `property: DataType`. The `self` keyword refers to the instance itself.
 
