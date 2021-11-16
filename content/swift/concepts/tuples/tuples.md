@@ -36,7 +36,7 @@ print(computerScience.1)
 // Output: George Forsythe
 ```
 
-Values or elements can also be named and accessed through them:
+Values or elements can also be referenced with a named property:
 
 ```swift
 var alanTuring = (
