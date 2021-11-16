@@ -16,17 +16,19 @@ Methods are reusable pieces of code in classes. The difference between a method 
 
 Methods consist of at least the following elements:
 
-- return type: The type of the value that is returned from the method
-- name: The name of the method
+- Return type: The type of the value that is returned from the method
+- Name: The name of the method
 
 Additionally, they optionally include:
 
-- parameters: Methods can have no, one, or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. Parameters make it possible to provide values to the method which can be used inside the body of a method.
-- modifier: Modifiers define in which way and from which context a method is callable.
-- exceptions: Exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non-existing file).
-- body: The body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes.
+- Parameters: Methods can have no, one, or multiple parameters which consist of a [data type](https://www.codecademy.com/resources/docs/java/data-types/) and a name. Parameters make it possible to provide values to the method which can be used inside the body of a method.
+- Modifier: Modifiers define in which way and from which context a method is callable.
+- Exceptions: Exceptions can be thrown by method to make the caller react to unexpected situations (i.e. a non-existing file).
+- Body: The body of a method contains all statements the method should execute when being called. The body is only optional in interfaces and abstract classes.
 
 ## A Minimal Signature
+
+Creating a method called `.getOneNumber()`:
 
 ```java
 int getOneNumber() {
@@ -34,9 +36,9 @@ int getOneNumber() {
 };
 ```
 
-- return type: `int`
-- name: `getOneNumber`
-- modifier: `package private` (the default)
+- Return type: `int`
+- Name: `getOneNumber`
+- Modifier: `package private` (the default)
 
 ## Return Type
 
@@ -54,18 +56,18 @@ A valid name must follow the rules:
 
 Examples for valid method names:
 
-- getObject
-- setNumber
-- countUntil300
-- \_isValidCharacter
-- GET_MAX_VALUE
+- `getObject`
+- `setNumber`
+- `countUntil300`
+- `_isValidCharacter`
+- `GET_MAX_VALUE`
 
 Examples for invalid method names:
 
-- 123number (method names mustn't start with a number)
-- get-object (hyphens are not allowed inside a method name)
-- sum_number1&number2 (ampersands are not allowed inside a method name)
-- assert (method names mustn't have the name of a keyword)
+- `123number` (method names mustn't start with a number)
+- `get-object` (hyphens are not allowed inside a method name)
+- `sum_number1&number2` (ampersands are not allowed inside a method name)
+- `assert` (method names mustn't have the name of a keyword)
 
 By convention, method names start with a verb, and each word after the first word starts with a capitalized letter.
 
@@ -73,7 +75,7 @@ By convention, method names start with a verb, and each word after the first wor
 
 A parameter is described by a data type and a name. With that name, the parameter can be used to access the value inside the method body. A method without any parameters must have empty parenthesis `()` after the method name. Multiple parameters have to be separated by a comma `,`.
 
-_Parameters_ are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the method is called. The values of the arguments are made available via the parameter names inside the method body.
+Parameters are the definitions inside the parenthesis of a method while _arguments_ are the values provided, when the method is called. The values of the arguments are made available via the parameter names inside the method body.
 
 By convention, a method should have a maximum of three parameters. If it's necessary to have more than three it makes sense to create an object which is passed and contains the data.
 
@@ -83,22 +85,22 @@ Modifiers can change how a method is allowed to be called (public, protected, pr
 
 ```java
 public int sum(int number1, int number2) {
-    return number1 + number2;
+  return number1 + number2;
 }
 ```
 
-- modifier: `public`
-- return type: `int`
-- name: `sum`
-- parameters: `int number1, int number2`
-- body: `return number1 + number2;`
+- Modifier: `public`
+- Return type: `int`
+- Name: `sum`
+- Parameters: `int number1, int number2`
+- Pody: `return number1 + number2;`
 
 ### Visibility Modifiers
 
-- public: Methods declared as public can be called from everywhere, inside and outside of the object or the class.
-- private: Methods declared as private can only be called from inside the object or the class.
-- package private: Methods declared as package private can only be called from classes within the same package.
-- protected: Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
+- `public`: Methods declared as public can be called from everywhere, inside and outside of the object or the class.
+- `private`: Methods declared as private can only be called from inside the object or the class.
+- `package private`: Methods declared as package private can only be called from classes within the same package.
+- `protected`: Methods declared as protected can only be called from inside the class or from inside classes inherited from that class.
 
 ### Additional Modifiers
 
@@ -108,15 +110,15 @@ Static methods can be called in classes without creating an object instance out 
 
 ```java
 public static void main(String[] args) {
-    System.out.println("Hello world");
+  System.out.println("Hello world");
 }
 ```
 
-- modifiers: `public static`
-- return type: `void`
-- name: `main`
-- parameters: `String[] args`
-- body: `System.out.println("Hello world");`
+- Modifiers: `public static`
+- Return type: `void`
+- Name: `main`
+- Parameters: `String[] args`
+- Body: `System.out.println("Hello world");`
 
 ### `final`
 
@@ -130,16 +132,16 @@ Here is an example of how Java throws an exception in a method that could execut
 
 ```java
 public float divide(float dividend, float divisor) throws ArithmeticException {
-    return dividend / divisor;
+  return dividend / divisor;
 }
 ```
 
-- modifiers: `public`
-- return type: `float`
-- name: `divide`
-- parameters: `float dividend, float divisor`
-- thrown exception: `throws ArithmeticException`
-- body: `return dividend / divisor`
+- Modifiers: `public`
+- Return type: `float`
+- Name: `divide`
+- Parameters: `float dividend, float divisor`
+- Thrown exception: `throws ArithmeticException`
+- Body: `return dividend / divisor`
 
 ## Body
 
