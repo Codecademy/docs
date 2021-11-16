@@ -76,7 +76,7 @@ Sandy's name and salary are set through the initialization method:
 var sandyCheeks = Employee(name: "Sandy Cheeks", salary: 10000)
 ```
 
-**Note:** Classes are also _named types_: types that are given a name when defined and can be referred to as such, i.e. instances of `Employee` have the type `Employee`.
+**Note:** Classes are also _named types_, which are types that are given a name when defined and can be referred to as such (i.e. instances of `Employee` have the type `Employee`).
 
 ## Access Functions and Variables
 
