@@ -1,125 +1,125 @@
 # Content Catalog
 
-The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include 2 slugs:
+The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include **two** slugs. Preferably:
 
-- 1 Free Course
-- 1 Pro Course or Path
+- A free course
+- A Pro course/Path
 
 These slugs may vary for different topics.
 
-Feel free to add suggestions for new slugs to the lists as part of your Pr! Be sure to insert them alphabetically.
+Feel free to add suggestions for new slugs to the lists as part of your PR! Be sure to insert them alphabetically.
 
-## C++
-
-```
-learn-c-plus-plus
-paths/computer-science
-```
-
-## CSS
+### C++
 
 ```
-learn-css
-paths/front-end-engineer-career-path
+- "learn-c-plus-plus"
+- "paths/computer-science"
 ```
 
-## Emojicode
+### CSS
 
 ```
-learn-emojicode
-paths/computer-science
+- "learn-css"
+- "paths/front-end-engineer-career-path"
 ```
 
-## Git
+### Emojicode
 
 ```
-learn-git
-learn-the-command-line
-paths/computer-science
+- "learn-emojicode"
+- "paths/computer-science"
 ```
 
-## Go
+### Git
 
 ```
-learn-go
-paths/back-end-engineer-career-path
-paths/computer-science
+- "learn-git"
+- "learn-the-command-line"
+- "paths/computer-science"
 ```
 
-## HTML
+### Go
 
 ```
-learn-html
-paths/front-end-engineer-career-path
+- "learn-go"
+- "paths/back-end-engineer-career-path"
+- "paths/computer-science"
 ```
 
-## Java
+### HTML
 
 ```
-learn-java
-paths/computer-science
+- "learn-html"
+- "paths/front-end-engineer-career-path"
 ```
 
-## JavaScript
+### Java
 
 ```
-introduction-to-javascript
-paths/front-end-engineer-career-path
+- "learn-java"
+- "paths/computer-science"
 ```
 
-## Markdown
+### JavaScript
 
 ```
-learn-html
-paths/front-end-engineer-career-path
+- "introduction-to-javascript"
+- "paths/front-end-engineer-career-path"
 ```
 
-## PHP
+### Markdown
 
 ```
-learn-php
-paths/computer-science
+- "learn-html"
+- "paths/front-end-engineer-career-path"
 ```
 
-## Python
+### PHP
 
 ```
-learn-python-3
-paths/computer-science
+- "learn-php"
+- "paths/computer-science"
 ```
 
-## React
+### Python
 
 ```
-react-101
-paths/front-end-engineer-career-path
+- "learn-python-3"
+- "paths/computer-science"
 ```
 
-## Ruby
+### React
 
 ```
-learn-rails
-learn-ruby
-paths/full-stack-engineer-career-path
+- "react-101"
+- "paths/front-end-engineer-career-path"
 ```
 
-## SQL
+### Ruby
 
 ```
-learn-sql
-paths/analyze-data-with-sql
+- "learn-rails"
+- "learn-ruby"
+- "paths/full-stack-engineer-career-path"
 ```
 
-## Swift
+### SQL
 
 ```
-learn-swift
-paths/build-ios-apps-with-swiftui
+- "learn-sql"
+- "paths/analyze-data-with-sql"
 ```
 
-## TypeScript
+### Swift
 
 ```
-learn-typescript
-paths/full-stack-engineer-career-path
+- "learn-swift"
+- "paths/build-ios-apps-with-swiftui"
+```
+
+### TypeScript
+
+```
+- "learn-typescript"
+- "paths/full-stack-engineer-career-path"
 ```
