@@ -33,7 +33,7 @@ class MyClass {
 
 Variables can be defined using the keyword `var`, followed by the variable name, and a value assignment.
 
-`init()` is a special method that gets called when an instance is created. It can take any number of arguments in the form of `property: DataType`. The `self` keyword refers to the instance itself.
+`init()` is a special method that gets called when a class instance is created. It can take any number of arguments in the form of `property: DataType`. The `self` keyword refers to the instance itself.
 
 Functions within a class use the `func` keyword, followed by the function's name, and a set of curly braces `{}` to hold the function's body.
 
