@@ -9,28 +9,28 @@ These slugs may vary for different topics.
 
 Feel free to add suggestions for new slugs to the lists as part of your PR! Be sure to insert them alphabetically.
 
-## C++
+### C++
 
 ```
 - "learn-c-plus-plus"
 - "paths/computer-science"
 ```
 
-## CSS
+### CSS
 
 ```
 - "learn-css"
 - "paths/front-end-engineer-career-path"
 ```
 
-## Emojicode
+### Emojicode
 
 ```
 - "learn-emojicode"
 - "paths/computer-science"
 ```
 
-## Git
+### Git
 
 ```
 - "learn-git"
@@ -38,7 +38,7 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - "paths/computer-science"
 ```
 
-## Go
+### Go
 
 ```
 - "learn-go"
@@ -46,56 +46,56 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - "paths/computer-science"
 ```
 
-## HTML
+### HTML
 
 ```
 - "learn-html"
 - "paths/front-end-engineer-career-path"
 ```
 
-## Java
+### Java
 
 ```
 - "learn-java"
 - "paths/computer-science"
 ```
 
-## JavaScript
+### JavaScript
 
 ```
 - "introduction-to-javascript"
 - "paths/front-end-engineer-career-path"
 ```
 
-## Markdown
+### Markdown
 
 ```
 - "learn-html"
 - "paths/front-end-engineer-career-path"
 ```
 
-## PHP
+### PHP
 
 ```
 - "learn-php"
 - "paths/computer-science"
 ```
 
-## Python
+### Python
 
 ```
 - "learn-python-3"
 - "paths/computer-science"
 ```
 
-## React
+### React
 
 ```
 - "react-101"
 - "paths/front-end-engineer-career-path"
 ```
 
-## Ruby
+### Ruby
 
 ```
 - "learn-rails"
@@ -103,21 +103,21 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - "paths/full-stack-engineer-career-path"
 ```
 
-## SQL
+### SQL
 
 ```
 - "learn-sql"
 - "paths/analyze-data-with-sql"
 ```
 
-## Swift
+### Swift
 
 ```
 - "learn-swift"
 - "paths/build-ios-apps-with-swiftui"
 ```
 
-## TypeScript
+### TypeScript
 
 ```
 - "learn-typescript"
