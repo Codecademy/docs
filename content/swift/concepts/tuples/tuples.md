@@ -49,7 +49,7 @@ print("\(alanTuring.name) was born in \(alanTuring.born) and invented the \(alan
 // Alan Mathison Turing was born in 1912 and invented the Universal Turing Machine.
 ```
 
-These values can then be altered through their indeces or name:
+These values can then be altered through their indices or name:
 
 ```swift
 computerScience.0 = 1961
