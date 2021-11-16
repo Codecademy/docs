@@ -46,7 +46,7 @@ Functions often process data to achieve their intended task. Each value required
 
 Parameters are variables that are declared in the function definition. When a function is called, each parameter is assigned the value which was passed as a corresponding argument.
 
-For example, the function below contains parameters for a `character`, a `setting`, and a `skill`, which are used as inputs to write the first sentence of a book.
+For example, the function below contains parameters for a `character`, a `setting`, and a `special_skill`, which are used as inputs to write the first sentence of a book.
 
 ```py
 def write_a_book(character, setting, special_skill):
@@ -130,8 +130,8 @@ def multiply(*args):
     product *= arg
   return product
 
-multiply(21, 24)
-multiply(10, 5, 3, 6, 17)
+multiply(21, 24)           # Output: 504
+multiply(10, 5, 3, 6, 17)  # Output: 15300
 ```
 
 Similarly, functions can be called with an arbitrary number of keyword arguments. In this case, a special parameter `**kwargs` is passed in, where the double asterisk is a packing operator that produces a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) rather than a tuple. The parameter name and value of each keyword argument are packed as a key-value pair stored in `kwargs`.
