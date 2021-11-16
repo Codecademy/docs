@@ -160,7 +160,7 @@ def print_biography(name, country, age, hobby):
   print("Hello! My name is " + name + " and I'm " + str(age) +
         " years old. I come from " + country + ", and in my
         free time I like to " + hobby + ".")
-  
+
 adam = {
   "name": "Adam",
   "country": "Germany",
