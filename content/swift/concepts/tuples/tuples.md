@@ -1,6 +1,6 @@
 ---
 Title: 'Tuples'
-Description: 'Tuples compound multiple values into a single value.'
+Description: 'Compounds multiple values into a single value.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
