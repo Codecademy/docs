@@ -32,6 +32,7 @@ var computerScience = (1960, "George Forsythe")
 
 print(computerScience.0)
 // Output: 1960
+
 print(computerScience.1)
 // Output: George Forsythe
 ```
