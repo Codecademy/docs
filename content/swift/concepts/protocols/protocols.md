@@ -1,6 +1,6 @@
 ---
 Title: 'Protocols'
-Description: 'Protocols are a collection of methods, properties, and rules that a class, structure, or enumeration can adopt.'
+Description: 'A collection of methods, properties, and rules that a class, structure, or enumeration can adopt.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
