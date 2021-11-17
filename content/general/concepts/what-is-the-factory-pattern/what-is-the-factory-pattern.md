@@ -4,7 +4,7 @@ Description: 'The _factory pattern_ defers instantiation logic of a parent abstr
 Subjects:
 - 'Computer Science'
 - 'Interview Prep'
-  Tags:
+Tags:
 - 'Classes'
 - 'Conceptual'
 - 'Constructors'
@@ -18,6 +18,8 @@ class type may not be known, in which a creator class' factory method is used to
 methods parameters and a switch statement.
 
 ## UML Design
+
+![UML diagram of a factory](/media/factory-uml.png)
 
 ## Example
 Model
