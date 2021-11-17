@@ -16,7 +16,7 @@ In Java, a HashMap is used to store items as a "key/value" pairs.
 The keys and values can be of either same or different types.
 
 ```java
-// Create a HashMap which stores courses and their teachers as a key/value pair 
+// Create a HashMap which stores courses and their teachers as a key/value pair
 HashMap<String, String> courseTeacher = new HashMap<String, String>();
 ```
 
@@ -31,7 +31,7 @@ Identify the datatype of the key and the value for the key-value pair. Then foll
 ```java
   import java.util.HashMap; // import the HashMap class
 
-  // Create a HashMap which stores courses and their teachers as a key/value pair 
+  // Create a HashMap which stores courses and their teachers as a key/value pair
   HashMap<String, String> courseTeacher = new HashMap<String, String>();
 ```
 
@@ -91,7 +91,7 @@ public class Main {
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
-    System.out.println(courseTeacher); 
+    System.out.println(courseTeacher);
     //Output: {Mathematics=Jeanette, History=Ben, Physics=Lily}
 
 
@@ -132,9 +132,9 @@ public class Main {
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
-    
+
     courseTeacher.remove("Physics");
-    System.out.println(courseTeacher); 
+    System.out.println(courseTeacher);
 
   }
 }
@@ -160,9 +160,9 @@ public class Main {
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
-    
+
     courseTeacher.clear();
-    System.out.println(courseTeacher); 
+    System.out.println(courseTeacher);
 
   }
 }
@@ -187,21 +187,21 @@ public class Main {
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
-    
+
     System.out.println("Courses offered at our Institute:");
-    
-    for (String i : courseTeacher.keySet()) 
-      System.out.println(i); 
-      
-    System.out.println("\nTeachers teaching at our Institute:"); 
-    
-    for (String i : courseTeacher.values()) 
-      System.out.println(i); 
-      
+
+    for (String i : courseTeacher.keySet())
+      System.out.println(i);
+
+    System.out.println("\nTeachers teaching at our Institute:");
+
+    for (String i : courseTeacher.values())
+      System.out.println(i);
+
   }
 }
 
-/* 
+/*
 Output:
 Courses offered at our Institute:
 Mathematics
