@@ -1,18 +1,19 @@
 ---
 Title: 'What is the Factory Pattern?'
-Description: 'The _factory pattern_ defers instantiation logic of a parent abstract class to its concrete sub-classes.'
+Description: 'The factory pattern defers instantiation logic of a parent abstract class to its concrete sub-classes.'
 Subjects:
-- 'Computer Science'
-- 'Interview Prep'
+  - 'Computer Science'
+  - 'Interview Prep'
 Tags:
-- 'Classes'
-- 'Conceptual'
-- 'Constructors'
-- 'Objects'
-  CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'Classes'
+  - 'Conceptual'
+  - 'Constructors'
+  - 'Objects'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
+
 The _factory pattern_ defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods parameters and a switch statement.
 
 ## UML Design
@@ -118,7 +119,7 @@ The constructors for these concrete models, calls `super()` which intern calls t
 
 The overridden method `createTaxtRequest()` handles the instantiation logic of the class. The properties `pickUpLocation`, `destination`, and`distance` are set, with the `estimatedPrice` programmatically calculated using the static property `FARE_MULTIPLIER`. A print statement has been added to help illustrated the pattern.
 
-Below provides the concrete subclass `FoodDeliveryRequest` that extends the abstract class, `TaxiRequest`: 
+Below provides the concrete subclass `FoodDeliveryRequest` that extends the abstract class, `TaxiRequest`:
 
 ```java
 public class FoodDeliveryRequest extends TaxiRequest<Restaurant> {
@@ -226,17 +227,17 @@ public class TaxiCreator {
 }
 ```
 
-The factory method `getTaxiRequest()` has been overloaded using four different signatures. 
+The factory method `getTaxiRequest()` has been overloaded using four different signatures.
 
-The first (`getTaxiRequest(String, String int)`) returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String`  and both `numberOfPassingers` and `TaxiType` have been negated from the method call.
+The first (`getTaxiRequest(String, String int)`) returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both `numberOfPassingers` and `TaxiType` have been negated from the method call.
 
 The second (`getTaxiRequest(Resteraunt, String, int)`) returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
 
 The third (`getTaxiRequest(int, String, String, int)`) returns a taxi request based on the number of passengers provided and determined by a switch statement. Should the number of passengers exceed or fall below the required amount an exception is thrown.
 
-Finally, the fourth (`getTaxiRequest(TaxiType, String, String, int)`) returns a taxi request based on the `TaxiType` specified and determined by a switch statement. Should the `TaxiType` not be recognised, an exception is thrown.  
+Finally, the fourth (`getTaxiRequest(TaxiType, String, String, int)`) returns a taxi request based on the `TaxiType` specified and determined by a switch statement. Should the `TaxiType` not be recognised, an exception is thrown.
 
-Below provides the enum `TaxiType` for requesting a specific taxi: 
+Below provides the enum `TaxiType` for requesting a specific taxi:
 
 ```java
 public enum TaxiType
