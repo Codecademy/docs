@@ -44,9 +44,9 @@ This prints out:
 "Hello, Sonny!" 
 
 There are three important parts to this closure:
-* The type, `(String) -> ()`, which specifies the value being taken in and returned by the closure 
-* The expression, `{name in ...}`, where `in` separates the parameters from the closure body
-* The call, `hello(...)`, executes the closure
+- The type, `(String) -> ()`, which specifies the value being taken in and returned by the closure 
+- The expression, `{name in ...}`, where `in` separates the parameters from the closure body
+- The call, `hello(...)`, executes the closure
 
 It is important to note the return type is `()` because nothing of a specific type is being returned in this example. This can also be written as `(void)`
 
