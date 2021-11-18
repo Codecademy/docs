@@ -12,7 +12,8 @@ Catalogue Content:
 ---
 
 # Swift Closures
-Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and can be reused within the same code. 
+
+Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and reused within the same code. 
 
 They can store and capture references to variables and constants which is also referred to as closing over constants and variables. The best part is that all memory management is handled by swift. 
 
