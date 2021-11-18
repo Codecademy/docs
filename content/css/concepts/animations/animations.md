@@ -38,5 +38,6 @@ h1 {
   color: yellow;
   animation-name: color-change;
   animation-duration: 5s;
+  transition: 5s;
 }
 ```
