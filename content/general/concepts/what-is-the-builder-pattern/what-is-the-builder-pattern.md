@@ -18,7 +18,7 @@ The builder pattern decouples the responsibility of object creation from the des
 
 ## UML Design
 
-![UML diagram of a builder](media/builder-uml.png)
+![UML diagram of a builder](https://raw.githubusercontent.com/Codecademy/docs/main/media/builder-uml.png)
 
 ## Jave Example
 
