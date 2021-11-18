@@ -121,11 +121,10 @@ This function prints "The result was true!" when the argument is true, else it p
 Notice when calling the function the comparison argument is in curly braces. These can be removed when using an autoclosure, as shown below:
 
 ```swift
-func find(search: @autoclosure () -> Bool){
+func find(search: @autoclosure () -> Bool) {
     if search() {
         print("The result was true!")
-    }
-    else {
+    } else {
         print("The result came back false!")
     }
 }
