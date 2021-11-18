@@ -1,11 +1,13 @@
 ---
 Title: 'Classes'
-Description: 'Defines characteristics and behaviors of an object.'
+Description: 'Classes in Swift defines characteristics and behaviors of an object.'
 Subjects:
-  - 'iOS'
+ 
+ 'iOS'
   - 'Mobile Development'
 Tags:
   - 'Classes'
+  - 'Objects'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -13,7 +15,7 @@ CatalogContent:
 
 Classes serve as a template to define characteristics and behaviors of an object.
 
-They are _reference types_, meaning all _instances_ of a class carry the same characteristics and behaviors.
+They are reference types, meaning all instances of a class carry the same characteristics and behaviors.
 
 An instance is an object created based on a class.
 
@@ -41,7 +43,7 @@ Variables can be defined with the following steps:
 
 Functions within a class are defined with the following steps:
 
-1. Use the `func` keyword
+1. Use the `func` keyword.
 2. Name the function.
 3. Provide a set of curly braces `{}` to hold the function's body.
 
@@ -70,7 +72,7 @@ In the code above, `Employee` class is given three properties or variables:
 
 The `init()` method takes in `name` and `salary` arguments that are of data type string and integer, respectively.
 
-When called on an instance, the `.promote()` function will set its `manager` property to `true`.
+When called on an instance, the `.promote()` method will set its `manager` property to `true`.
 
 ## Creating an Instance
 
@@ -84,7 +86,7 @@ Sandy's name and salary are set through the initialization method:
 var sandyCheeks = Employee(name: "Sandy Cheeks", salary: 10000)
 ```
 
-**Note:** Classes are also _named types_, which are types that are given a name when defined and can be referred to as such (i.e. instances of `Employee` have the type `Employee`).
+**Note:** Classes are also named types, which are types that are given a name when defined and can be referred to as such (i.e. instances of `Employee` have the type `Employee`).
 
 ## Access Functions and Variables
 
@@ -98,7 +100,7 @@ print(sandyCheeks.salary)
 // Output: 10000
 ```
 
-Sandy is getting a promotion! So the `promote` function will be called on `sandyCheeks` instance:
+Sandy is getting a promotion! So the `.promote()` method will be called on `sandyCheeks` instance:
 
 ```swift
 print(sandyCheeks.manager)
