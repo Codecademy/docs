@@ -1,6 +1,6 @@
 ---
 Title: 'Closures'
-Description: 'Closures allows for more flexible code'
+Description: 'Closures allows for more flexible code.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
