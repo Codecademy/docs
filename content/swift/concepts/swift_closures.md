@@ -106,11 +106,10 @@ It makes for slightly cleaner code because the curly brackets are eliminated whe
 Take the following code for example that does not take an autoclosure:
 
 ```swift
-func find(search: () -> Bool){
+func find(search: () -> Bool) {
     if search() {
         print("The result was true!")
-    }
-    else {
+    } else {
         print("The result came back false!")
     }
 }
