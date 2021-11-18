@@ -39,14 +39,14 @@ Property requirements are variables that indicate a type and the `get`/`set` key
 
 ```swift
 protocol MyProtocol {
-  var getAndSet: Int { get set}
+  var getAndSet: Int { get set }
   var onlyGet: String { get }
 }
 ```
 
 **Note:** Gettable variables can be read and settable variables can be set or changed. Programmers sometimes only allow a variable to be gettable because they don't want it to be mutated.
 
-Data types that adopt a protocol, must _conform_ to the properties and methods defined in it.
+Data types that adopt a protocol, must conform to the properties and methods defined in it.
 
 ```swift
 protocol Grammar {
