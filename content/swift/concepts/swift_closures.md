@@ -41,7 +41,7 @@ helloName("Sonny")
 ```
 This prints out:
 
-"Hello, Sonny!" 
+`Hello, Sonny!` 
 
 There are three important parts to this closure:
 - The type, `(String) -> ()`, which specifies the value being taken in and returned by the closure 
@@ -64,7 +64,7 @@ var sortedNumbers = numbers.sorted( by: { (num1:Int, num2:Int) -> Bool in
     return num1 < num2
 })
 ```
-The closure inside the curly brackets is the argument the numbers are being sorted by. Two integers, `num1` and `num2`, are taken in and a boolean is returned. When num1 is less than num2, it returns true. Otherwise, it returns false.
+The closure inside the curly brackets is the argument the numbers are being sorted by. Two integers, `num1` and `num2`, are taken in and a boolean is returned. When `num1` is less than `num2`, it returns `true`. Otherwise, it returns `false`.
 
 The `.sorted()` method sorts through the whole array and returns a new array.
 
@@ -121,7 +121,7 @@ func find(search: () -> Bool) {
 
 find(search: { 122 < 82 })
 ```
-This function prints "The result was true!" when the argument is true, else it prints "The result came back false". In this example, the latter is printed since 122 is not less than 82. 
+This function prints `The result was true!` when the argument is `true`, else it prints `The result came back false`. In this example, the latter is printed since `122` is not less than `82`. 
 
 Notice when calling the function the comparison argument is in curly braces. These can be removed when using an autoclosure, as shown below:
 
