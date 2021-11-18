@@ -28,7 +28,7 @@ hello()
 The closure is the code between the curly brackets, `{` and `}`. The closure is then called by using the opening and closing parenthesis, `(` and `)`, on the constant `hello`. This executes the closure and prints out *Hello World!*.
 
 ### Parameters
-Just like functions, closures can also take in parameters or input values. The previous example can be changed to say 'Hello' to a specific person instead of the generic 'Hello World'.
+Just like functions, closures can also take in parameters or input values. The previous example can be changed to say "Hello" to a specific person instead of the generic "Hello World".
 
 ```swift
 let helloName:(String) -> () = { name in 
