@@ -15,6 +15,12 @@ body:
         - Add new content (definitions, codeblocks, etc.)
     validations:
       required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description (optional)
+      description: "Additional context behind edits."
+      placeholder: "Please write here to provide any additional context/reasoning behind the edits."
   - type: checkboxes
     id: terms
     attributes:
