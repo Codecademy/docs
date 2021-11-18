@@ -26,7 +26,7 @@ let hello = { print("Hello World!") }
 
 hello()
 ```
-The closure is the code between the curly brackets, `{` and `}`. The closure is then called by using the opening and closing parenthesis, `(` and `)`, on the constant `hello`. This executes the closure and prints out "Hello World!".
+The closure is the code between the curly brackets, `{` and `}`. The closure is then called by using the opening and closing parenthesis, `(` and `)`, on the constant `hello`. This executes the closure and prints out `Hello World!`.
 
 ### Parameters
 
@@ -94,7 +94,7 @@ sortedNumbers = numbers.sorted(by: { $0 < $1 })
 ```
 ### Operations
 
-Swift has type-specific implementations of operators. In the above closure expression when the `<` operator is being used on integers, Swift can further infer that two integers must be taken in and a value of type Bool will be returned. 
+Swift has type-specific implementations of operators. In the above closure expression when the `<` operator is being used on integers, Swift can further infer that two integers must be taken in and a value of type `Bool` will be returned. 
 
 The shorthand expression names can be removed entirely and just the operator needs to be passed in as the argument, like so:
 
