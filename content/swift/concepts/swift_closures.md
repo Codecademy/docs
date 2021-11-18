@@ -176,7 +176,7 @@ func counter() -> () -> Int {
 }
 
 let countUp = counter()
-print(countUp()) // prints 1
+print(countUp()) // Prints 1
 print(countUp()) // prints 2
 print(countUp()) // prints 3
 
