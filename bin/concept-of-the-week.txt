@@ -1,1 +1,1 @@
-content/html/concepts/classes/classes.md
+docs/content/html/concepts/file-paths/file-paths.md
