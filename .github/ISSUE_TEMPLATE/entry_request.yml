@@ -1,5 +1,5 @@
 name: Entry Request
-description: Request for a single new entry or term.
+description: Request for a single new entry concept or terms.
 title: "[Entry] Subject : Entry Name"
 labels: ["new entry"]
 assignees: "Name here"
