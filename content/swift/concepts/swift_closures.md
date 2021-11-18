@@ -76,7 +76,7 @@ sortedNumbers = numbers.sorted(by: { num1, num2 in return num1 < num2 })
 
 ### Single Expression Closures
 
-If the closure uses a single expression, like the one above where (num1 < num2) is the sole expression, Swift knows what is needed to be returned.
+If the closure uses a single expression, like the one above where `num1 < num2` is the sole expression, Swift knows what is needed to be returned.
 
 Due to this, there is no need to write the `return` key in the argument. This can be omitted in the above example, and written as follows:   
 
