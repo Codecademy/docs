@@ -1,5 +1,5 @@
 ---
-Title: 'What is the Prototype Pattern?'
+Title: 'Prototype Pattern'
 Description: 'The prototype pattern adds cloning functionality to an objects class.'
 Subjects:
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The _prototype pattern_ adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
+The prototype pattern adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
 
 Two types of copying are associated with the prototype pattern:
 
@@ -131,7 +131,7 @@ Rather than instantiating two `TvSeries` objects that reference a single list of
 
 ## UML Design
 
-![UML diagram of a prototype](/media/prototype-uml.png)
+![UML diagram of a prototype](https://raw.githubusercontent.com/Codecademy/docs/main/media/prototype-uml.png)
 
 ## Example: Prototype
 
@@ -204,11 +204,11 @@ public class TvSeries extends Show<TvSeries> {
   private String format;
   private String thumbnailLocation;
 
-  // Getters, setters and ToString
+  // Getters, setters, and toString
 }
 ```
 
-Finally, `ShowCache` has been made to add an object registry to the program. When `loadCache()` is called, two template objects are created using the `new` keyword and placed in a static map. When `getShow()` is called by a client, the correct clone (taken from `showMap`) is returned, ready for its properties to be set. If the requested `showId` is not recognized, an exception is thrown.
+Finally, `ShowCache` has been made to add an object registry to the program. When `.loadCache()` is called, two template objects are created using the `new` keyword and placed in a static map. When `getShow()` is called by a client, the correct clone (taken from `showMap`) is returned, ready for its properties to be set. If the requested `showId` is not recognized, an exception is thrown.
 
 ```java
 public class ShowCache {
@@ -247,13 +247,12 @@ public class ShowIdNotRecognisedException extends Throwable {
   public ShowIdNotRecognisedException(final String message) {
     super(message);
   }
-}
-
+} f
 ```
 
 The `Main` class below, starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a user's previously watched shows.
 
-**Note:** After the instantiation of initial objects in the registry's `loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
+**Note:** After the instantiation of initial objects in the registry's `.loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
 
 ```java
 public class Main {
