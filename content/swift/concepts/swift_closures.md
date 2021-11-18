@@ -18,6 +18,7 @@ Similar to blocks in C or lambdas in other programming languages, closures in Sw
 They can store and capture references to variables and constants which is also referred to as closing over constants and variables. The best part is that all memory management is handled by Swift. 
 
 ## Using Closures
+
 Closures look very similar to functions. To show this, a variable called `hello` is assigned to a closure that prints out "Hello World":
 
 ```swift
@@ -28,6 +29,7 @@ hello()
 The closure is the code between the curly brackets, `{` and `}`. The closure is then called by using the opening and closing parenthesis, `(` and `)`, on the constant `hello`. This executes the closure and prints out *Hello World!*.
 
 ### Parameters
+
 Just like functions, closures can also take in parameters or input values. The previous example can be changed to say "Hello" to a specific person instead of the generic "Hello World".
 
 ```swift
@@ -49,12 +51,13 @@ There are three important parts to this closure:
 It is important to note the return type is `()` because nothing of a specific type is being returned in this example. This can also be written as `(void)`
 
 ### Type Inference
-Swift can infer the type for the parameters and the return type. To demonstrate this, the following numbers will be sorted from decreasing to increasing order using Swift's `.sorted` method.
+
+Swift can infer the type for the parameters and the return type. To demonstrate this, the following numbers will be sorted from decreasing to increasing order using Swift's `.sorted()` method.
 
 ```swift
 let numbers = [38, 45, 66, 72, 19, 73]
 ```
-Here, a variable named `sortedNumbers` is created and the `.sorted` method is called on the `numbers` array:
+Here, a variable named `sortedNumbers` is created and the `.sorted()` method is called on the `numbers` array:
 
 ```swift
 var sortedNumbers = numbers.sorted( by: { (num1:Int, num2:Int) -> Bool in
@@ -63,9 +66,9 @@ var sortedNumbers = numbers.sorted( by: { (num1:Int, num2:Int) -> Bool in
 ```
 The closure inside the curly brackets is the argument the numbers are being sorted by. Two integers, `num1` and `num2`, are taken in and a boolean is returned. When num1 is less than num2, it returns true. Otherwise, it returns false.
 
-The `.sorted` method sorts through the whole array and returns a new array.
+The `.sorted()` method sorts through the whole array and returns a new array.
 
-Since `.sorted` method is being called on an array of integers, Swift can infer that the argument is of type `(Int, Int) -> (Bool)`. This means types do not need to be written in the argument, the above expression can be written as follows:  
+Since `.sorted()` method is being called on an array of integers, Swift can infer that the argument is of type `(Int, Int) -> (Bool)`. This means types do not need to be written in the argument, the above expression can be written as follows:  
 
 ```swift
 sortedNumbers = numbers.sorted(by: { num1, num2 in return num1 < num2 })
@@ -90,6 +93,7 @@ When using shorthand argument names, the argument list and the `in` keyword can 
 sortedNumbers = numbers.sorted(by: { $0 < $1 })
 ```
 ### Operations
+
 Swift has type-specific implementations of operators. In the above closure expression when the `<` operator is being used on integers, Swift can further infer that two integers must be taken in and a value of type Bool will be returned. 
 
 The shorthand expression names can be removed entirely and just the operator needs to be passed in as the argument, like so:
@@ -99,6 +103,7 @@ sortedNumbers = numbers.sorted(by: < )
 ```
 
 ## Autoclosures
+
 Autoclosures are used to wrap a closure expression being passed as an argument of a function. 
 
 It makes for slightly cleaner code because the curly brackets are eliminated when calling the function. This allows the function to be called like it had a String parameter rather than a closure.  
@@ -136,6 +141,7 @@ The `@autoclosure` attribute is used right before the parameters in the closure 
 Autoclosures can be very useful because they delay code execution. After all, the closure doesn't run unless called.
 
 ## Trailing Closures
+
 When using a closure as the final argument of a function, Swift has a trailing closure syntax that is useful especially if the closure expression is too long to be written in the function's argument field. The trailing closure syntax allows for defining the closure outside of the function.
 
 Take the following code, for example, the closure is the only and final argument of the function. Using trailing closure syntax, the closure can be defined outside of the function call.
@@ -160,6 +166,7 @@ Inside closure
 After closure call
 
 ## Capturing Values 
+
 Closures can capture values from the context surrounding them. Swift stores the external values alongside the closure so it can easily refer to and modify. 
 
 Take the following code for example, which is a simple counter function that increments the count by one when it's called. 
@@ -187,6 +194,7 @@ print(countUp()) // prints 4
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` does not do anything to `countUp` because they are not in the same context as each other. 
 
 ## Why use closures?
+
 Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any uneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants. 
 
 
