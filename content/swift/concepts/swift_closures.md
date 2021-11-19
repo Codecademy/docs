@@ -65,6 +65,7 @@ var sortedNumbers = numbers.sorted( by: { (num1:Int, num2:Int) -> Bool in
     return num1 < num2
 })
 ```
+
 The closure inside the curly brackets is the argument the numbers are being sorted by. Two integers, `num1` and `num2`, are taken in and a boolean is returned. When `num1` is less than `num2`, it returns `true`. Otherwise, it returns `false`.
 
 The `.sorted()` method sorts through the whole array and returns a new array.
