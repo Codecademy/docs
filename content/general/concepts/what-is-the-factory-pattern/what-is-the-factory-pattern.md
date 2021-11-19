@@ -50,8 +50,7 @@ The constructor of `TaxiRequest` calls an abstract method `createTaxtRequest`. T
 Below provides the concrete subclasses of `StandardTaxtRequest`, `SevenSeaterTaxiRequest` and `MiniBusTaxiRequest` that all extend the abstract class above, `TaxiRequest`:
 
 ```java
-public class StandardTaxiRequest extends TaxiRequest<String>
-{
+public class StandardTaxiRequest extends TaxiRequest<String> {
   private static final double FARE_MULTIPLIER = 1.5;
 
   public StandardTaxiRequest(final String pickUpLocation, final String destination, final int distance) {
@@ -70,18 +69,15 @@ public class StandardTaxiRequest extends TaxiRequest<String>
 ```
 
 ```java
-public class SevenSeaterTaxiRequest extends TaxiRequest<String>
-{
+public class SevenSeaterTaxiRequest extends TaxiRequest<String> {
   private static final double FARE_MULTIPLIER = 2;
 
-  public SevenSeaterTaxiRequest(String pickUpLocation, String destination, int distance)
-  {
+  public SevenSeaterTaxiRequest(String pickUpLocation, String destination, int distance) {
     super(pickUpLocation, destination, distance);
   }
 
   @Override
-  public void createTaxiRequest(String pickUpLocation, String destination, int distance)
-  {
+  public void createTaxiRequest(String pickUpLocation, String destination, int distance) {
     this.pickUpLocation = pickUpLocation;
     this.destination = destination;
     this.distance = distance;
@@ -92,8 +88,7 @@ public class SevenSeaterTaxiRequest extends TaxiRequest<String>
 ```
 
 ```java
-public class MiniBusTaxiRequest extends TaxiRequest<String>
-{
+public class MiniBusTaxiRequest extends TaxiRequest<String> {
   private static final double FARE_MULTIPLIER = 3.4;
 
   public MiniBusTaxiRequest(final String pickUpLocation, final String destination, final int distance) {
@@ -127,15 +122,13 @@ public class FoodDeliveryRequest extends TaxiRequest<Restaurant> {
 
   private double foodBill;
 
-  public FoodDeliveryRequest(Restaurant pickUpLocation, String destination, int distance)
-  {
+  public FoodDeliveryRequest(Restaurant pickUpLocation, String destination, int distance) {
     super(pickUpLocation, destination, distance);
   }
 
 
   @Override
-  public void createTaxiRequest(Restaurant pickUpLocation, String destination, int distance)
-  {
+  public void createTaxiRequest(Restaurant pickUpLocation, String destination, int distance) {
     this.pickUpLocation = pickUpLocation;
     this.destination = destination;
     this.distance = distance;
@@ -157,8 +150,7 @@ The `FoodDeliveryRequest` differs from the other concrete model classes in two i
 Below provides an enum modeling the restaurant choice and its associated price:
 
 ```java
-public enum Restaurant
-{
+public enum Restaurant {
   MACDONALD(5.30),
   KFC(4.99),
   BURGER_KING(8.20),
@@ -166,8 +158,7 @@ public enum Restaurant
 
   private final double price;
 
-  Restaurant(double price)
-  {
+  Restaurant(double price) {
     this.price = price;
   }
 
@@ -239,8 +230,7 @@ Finally, the fourth (`getTaxiRequest(TaxiType, String, String, int)`) returns a 
 Below provides the enum `TaxiType` for requesting a specific taxi: 
 
 ```java
-public enum TaxiType
-{
+public enum TaxiType {
   STANDARD_TAXI,
   SEVEN_SEATER,
   MINI_BUS
