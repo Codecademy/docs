@@ -26,6 +26,7 @@ let hello = { print("Hello World!") }
 
 hello()
 ```
+
 The closure is the code between the curly brackets, `{` and `}`. The closure is then called by using the opening and closing parenthesis, `(` and `)`, on the constant `hello`. This executes the closure and prints out `Hello World!`.
 
 ### Parameters
