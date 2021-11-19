@@ -48,7 +48,7 @@ There are three important parts to this closure:
 - The expression, `{name in ...}`, where `in` separates the parameters from the closure body
 - The call, `hello(...)`, executes the closure
 
-It is important to note the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`
+It is important to note the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`.
 
 ### Type Inference
 
