@@ -34,21 +34,25 @@ Just like functions, closures can also take in parameters or input values. The p
 
 ```swift
 let helloName:(String) -> () = { name in 
-    print("Hello, \(name)!")
+  print("Hello, \(name)!")
 }
 
 helloName("Sonny")
 ```
 This prints out:
 
-`Hello, Sonny!` 
+```shell
+Hello, Sonny!
+``` 
 
-There are three important parts to this closure:
-- The type, `(String) -> ()`, which specifies the value being taken in and returned by the closure 
-- The expression, `{name in ...}`, where `in` separates the parameters from the closure body
-- The call, `hello(...)`, executes the closure
+There are two important parts to this closure:
 
-It is important to note the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`.
+- The type, `(String) -> ()`, which specifies the value being taken in and returned by the closure. 
+- The expression, `{name in ...}`, where `in` separates the parameters from the closure body.
+
+The function call, `hello(...)`, executes the closure.
+
+It is also important to note the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`.
 
 ### Type Inference
 
@@ -62,7 +66,7 @@ Here, a variable named `sortedNumbers` is created and the `.sorted()` method is 
 
 ```swift
 var sortedNumbers = numbers.sorted( by: { (num1:Int, num2:Int) -> Bool in
-    return num1 < num2
+  return num1 < num2
 })
 ```
 
@@ -114,11 +118,11 @@ Take the following code for example that does not take an autoclosure:
 
 ```swift
 func find(search: () -> Bool) {
-    if search() {
-        print("The result was true!")
-    } else {
-        print("The result came back false!")
-    }
+  if search() {
+      print("The result was true!")
+  } else {
+      print("The result came back false!")
+  }
 }
 
 find(search: { 122 < 82 })
@@ -130,11 +134,11 @@ Notice when calling the function the comparison argument is in curly braces. The
 
 ```swift
 func find(search: @autoclosure () -> Bool) {
-    if search() {
-        print("The result was true!")
-    } else {
-        print("The result came back false!")
-    }
+  if search() {
+      print("The result was true!")
+  } else {
+      print("The result came back false!")
+  }
 }
 
 find(search: 122 < 82 )
@@ -151,18 +155,18 @@ Take the following code, for example, the closure is the only and final argument
 
 ```swift
 func function(closure: () -> Void) {
-    print("Inside function call");
-    closure();
-    print("After closure call")
+  print("Inside function call");
+  closure();
+  print("After closure call")
 }
 
 function {
-    print("Inside closure");
+  print("Inside closure");
 }
 ```
 The output is:
 
-``` 
+```shell
 Inside function call
 
 Inside closure
@@ -178,29 +182,26 @@ Take the following code for example, which is a simple counter function that inc
 
 ```swift
 func counter() -> () -> Int {
-    var count = 0
-    let add = { () -> Int in
-        count += 1
-        return count
-    }
-    return add
+  var count = 0
+  let add = { () -> Int in
+      count += 1
+      return count
+  }
+  return add
 }
 
 let countUp = counter()
-print(countUp()) // Prints 1
-print(countUp()) // prints 2
-print(countUp()) // prints 3
+print(countUp()) // Output 1
+print(countUp()) // Output 2
+print(countUp()) // Output 3
 
 let countUpTwo = counter()
-print(countUpTwo()) //prints 1
+print(countUpTwo()) // Output 1
 
-print(countUp()) // prints 4
+print(countUp()) // Output 4
 ```
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other. 
 
 ## Why use closures?
 
 Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any uneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants. 
-
-
-
