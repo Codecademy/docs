@@ -1,5 +1,5 @@
 ---
-Title: 'What is the Factory Pattern?'
+Title: 'Factory Pattern'
 Description: 'The factory pattern defers instantiation logic of a parent abstract class to its concrete sub-classes.'
 Subjects:
   - 'Computer Science'
