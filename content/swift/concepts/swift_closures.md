@@ -11,7 +11,6 @@ Catalogue Content:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-# Swift Closures
 
 Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and reused within the same code. 
 
