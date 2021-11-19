@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The _factory pattern_ defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods parameters and a switch statement.
+The factory pattern defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods, parameters, and a switch statement.
 
 ## UML Design
 
@@ -22,7 +22,7 @@ The _factory pattern_ defers instantiation logic of a parent abstract class to i
 
 ## Example
 
-To illustrate the _factory pattern_, below provides a real world example, in Java, depicting potential considerations for a taxi and food delivery booking application. A user of the app will need to send a request for either a standard taxi, a large taxi, a mini bus or wish to have food delivered from a restaurant, however before the program understands their needs, which of the above requests needed remains unknown. When a request object is created, an estimated price is calculated and returned.
+To illustrate the factory pattern, below provides a real-world example, in Java, depicting potential considerations for a taxi and food delivery booking application. A user of the app will need to send a request for either a standard taxi, a large taxi, a mini bus, or wish to have food delivered from a restaurant. However, before the program understands their needs, the needed request needed remains unknown. When a request object is created, an estimated price is calculated and returned.
 
 Below provides a parent abstract class of a taxi request:
 
@@ -44,11 +44,12 @@ public abstract class TaxiRequest<T> {
 }
 ```
 
-**Note:** As the `pickUpLocation` property may be an address or a restaurant, we have made use of generics when modeling the `TaxiRequest`. The other property's object types are known.
+**Note:** As the `pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other property's object types are known.
 
-The constructor of `TaxiRequest` calls an abstract method `createTaxtRequest`. This enforces `TaxiRequest`'s subclasses to override the method with instantiation logic. Although the constructors of the subclasses may make use of the abstract super's constructor, instantiation logic remains in the concrete.
+The constructor of `TaxiRequest` calls an abstract method `createTaxiRequest`. This enforces `TaxiRequest`'s subclasses to override the method 
+with instantiation logic. Although the constructors of the subclasses may make use of the abstract super's constructor, instantiation logic remains in the concrete.
 
-Below provides the concrete subclasses of `StandardTaxtRequest`, `SevenSeaterTaxiRequest` and `MiniBusTaxiRequest` that all extend the abstract class above, `TaxiRequest`:
+Below provides the concrete subclasses of `StandardTaxiRequest`, `SevenSeaterTaxiRequest`, and `MiniBusTaxiRequest` that all extend the abstract `TaxiRequest` class above:
 
 ```java
 public class StandardTaxiRequest extends TaxiRequest<String> {
@@ -112,7 +113,7 @@ As these model classes inherit their properties from the super, they each automa
 
 The constructors for these concrete models, calls `super()` which intern calls the overridden method `createTaxiRequest`.
 
-The overridden method `createTaxtRequest()` handles the instantiation logic of the class. The properties `pickUpLocation`, `destination`, and`distance` are set, with the `estimatedPrice` programmatically calculated using the static property `FARE_MULTIPLIER`. A print statement has been added to help illustrated the pattern.
+The overridden method `createTaxiRequest()` handles the instantiation logic of the class. The properties `pickUpLocation`, `destination`, and `distance` are set, with the `estimatedPrice` programmatically calculated using the static property `FARE_MULTIPLIER`. A print statement has been added to help illustrate the pattern.
 
 Below provides the concrete subclass `FoodDeliveryRequest` that extends the abstract class, `TaxiRequest`:
 
@@ -167,7 +168,7 @@ public enum Restaurant {
 }
 ```
 
-**Note:** when the restaurant type is chosen, the constructor provides the property `price` with the correct value.
+**Note:** When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
 
 The factory class gives us an opportunity to think how the client may need to instantiate different objects and what information may be required. In this example, if little information is provided, a `StandardTaxiRequest` is returned. If the `pickUpLocation` is a restaurant then a `FoodDeliveryRequest` is returned. A taxi can be ordered based on the amount of passengers. And finally a specific `TaxiType` can be explicitly requested.
 
@@ -220,13 +221,14 @@ public class TaxiCreator {
 
 The factory method `getTaxiRequest()` has been overloaded using four different signatures.
 
-The first (`getTaxiRequest(String, String int)`) returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both `numberOfPassingers` and `TaxiType` have been negated from the method call.
+The first `getTaxiRequest(String, String int)` that returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both 
+`numberOfPassingers` and `TaxiType` have been negated from the method call.
 
-The second (`getTaxiRequest(Resteraunt, String, int)`) returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
+The second `getTaxiRequest(Resteraunt, String, int)` that returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
 
-The third (`getTaxiRequest(int, String, String, int)`) returns a taxi request based on the number of passengers provided and determined by a switch statement. Should the number of passengers exceed or fall below the required amount an exception is thrown.
+The third `getTaxiRequest(int, String, String, int)` that returns a taxi request is based on the number of passengers provided and is determined by a switch statement. Should the number of passengers exceed or fall below the required amount, an exception is thrown.
 
-Finally, the fourth (`getTaxiRequest(TaxiType, String, String, int)`) returns a taxi request based on the `TaxiType` specified and determined by a switch statement. Should the `TaxiType` not be recognised, an exception is thrown.
+Finally, the fourth `getTaxiRequest(TaxiType, String, String, int)` that returns a taxi request based on the `TaxiType` is specified and determined by a switch statement. Should the `TaxiType` not be recognized, an exception is thrown.
 
 Below provides the enum `TaxiType` for requesting a specific taxi:
 
