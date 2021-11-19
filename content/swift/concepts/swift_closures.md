@@ -120,6 +120,7 @@ func find(search: () -> Bool) {
 }
 
 find(search: { 122 < 82 })
+# Output: The result came back false!
 ```
 This function prints `The result was true!` when the argument is `true`, else it prints `The result came back false`. In this example, the latter is printed since `122` is not less than `82`. 
 
