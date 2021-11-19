@@ -1,6 +1,18 @@
 <!--
 👋 Hi, thanks for sending a PR to Codecademy Docs! 💖
 Please fill out all fields below to ensure your PR is reviewed quickly.
+
+**IMPORTANT**
+
+If you would like to receive credit for your contribution to an entry, make sure to have your Codecademy user profile linked to your GitHub account:
+
+1. Go to your Codecademy dashboard.
+2. Click on your profile image in the top-right and then choose "Profile".
+3. Then click "Edit Profile".
+4. In the "GitHub Username" field, add your username (without the @).
+5. Click "Save Changes"
+
+Of course, you can opt not to do this and be listed as an "Anonymous contributor", instead. :)
 -->
 
 ### Description
@@ -40,11 +52,4 @@ Having trouble with the PR checker? Here are some common issues and resolutions:
   - ensure any new markdown files have a `Title` and `Description` defined in their metadata
   - ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory
   - if that looks ok, running `yarn test` locally should let you know what the issue is
-
-If you want your Codecademy username to be displayed in your entry (feature coming in October), make sure to have your Codecademy user profile linked to your GitHub:
-
-1. Go to your Codecademy dashboard.
-2. Click on your profile image in the top-right and then choose "Profile".
-3. Then click "Edit Profile".
-4. In the GitHub field, add your GitHub profile URL.
 -->
