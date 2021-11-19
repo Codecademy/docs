@@ -57,6 +57,7 @@ Swift can infer the type for the parameters and the return type. To demonstrate 
 ```swift
 let numbers = [38, 45, 66, 72, 19, 73]
 ```
+
 Here, a variable named `sortedNumbers` is created and the `.sorted()` method is called on the `numbers` array:
 
 ```swift
