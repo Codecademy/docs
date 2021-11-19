@@ -153,7 +153,7 @@ Below provides an enum modeling the restaurant choice and its associated price:
 
 ```java
 public enum Restaurant {
-  MACDONALD(5.30),
+  MCDONALD(5.30),
   KFC(4.99),
   BURGER_KING(8.20),
   DOMINOS(10.99);
@@ -250,7 +250,7 @@ public class Main {
     TaxiCreator.getTaxiRequest("1 Charming Av", "49 GoodFeeling Ln", 5);
 
     System.out.print("Food Delivery (Restaurant) - ");
-    TaxiCreator.getTaxiRequest(Restaurant.MACDONALD,"49 GoodFeeling Ln", 5);
+    TaxiCreator.getTaxiRequest(Restaurant.MCDONALD,"49 GoodFeeling Ln", 5);
 
     System.out.print("Seven seater (passengers) - ");
     TaxiCreator.getTaxiRequest(6, "1 Charming Av", "49 GoodFeeling Ln", 5);
