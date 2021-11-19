@@ -18,7 +18,7 @@ The factory pattern defers instantiation logic of a parent abstract class to its
 
 ## UML Design
 
-![UML diagram of a factory](/media/factory-uml.png)
+![UML diagram of a factory](https://raw.githubusercontent.com/Codecademy/docs/main/media/factory-uml.png)
 
 ## Example
 
