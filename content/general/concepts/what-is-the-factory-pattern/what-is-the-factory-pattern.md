@@ -40,7 +40,7 @@ public abstract class TaxiRequest<T> {
   public abstract void createTaxiRequest(final T pickUpLocation, final String destination, final int distance);
 
 
-  // getters and setters
+  // Getters and setters
 }
 ```
 
