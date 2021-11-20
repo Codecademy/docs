@@ -135,7 +135,7 @@ Rather than instantiating two `TvSeries` objects that reference a single list of
 
 ## Example: Prototype
 
-To illustrate the _prototype pattern_, below provides a real-world example, in Java, depicting potential considerations for a video streaming service. For some reason, returning `Film` or `TvSeries` objects is considered to be expensive. When providing the user with their watch history, the `UserRepository` can be used to set the needed properties from cloned objects provided by a registry.
+To illustrate the prototype pattern, below provides a real-world example, in Java, depicting potential considerations for a video streaming service. For some reason, returning `Film` or `TvSeries` objects is considered to be expensive. When providing the user with their watch history, the `UserRepository` can be used to set the needed properties from cloned objects provided by a registry.
 
 A `UserRepository` has been created with two methods: `getUserFilmHistory()` and `getUserTvSeriesHistory()`. Both simply return a list of `Strings` representing a user's watch history.
 
