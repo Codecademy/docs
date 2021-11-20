@@ -11,7 +11,6 @@ Catalogue Content:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-
 Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and reused within the same code. 
 
 They can store and capture references to variables and constants which is also referred to as closing over constants and variables. The best part is that all memory management is handled by Swift. 
@@ -39,6 +38,7 @@ let helloName:(String) -> () = { name in
 
 helloName("Sonny")
 ```
+
 This prints out:
 
 ```shell
@@ -89,6 +89,7 @@ Due to this, there is no need to write the `return` key in the argument. This ca
 ```swift
 sortedNumbers = numbers.sorted(by: { num1, num2 in num1 < num2 })
 ```
+
 ### Shorthand Argument Names
 
 There are also shorthand argument names Swift makes available to inline closures. They are based on the closure's argument values. `$0` is used for the first argument value, `$1` for the second value, `$2` for the third, and so on. 
@@ -98,6 +99,7 @@ When using shorthand argument names, the argument list and the `in` keyword can 
 ```swift
 sortedNumbers = numbers.sorted(by: { $0 < $1 })
 ```
+
 ### Operations
 
 Swift has type-specific implementations of operators. In the above closure expression when the `<` operator is being used on integers, Swift can further infer that two integers must be taken in and a value of type `Bool` will be returned. 
@@ -128,6 +130,7 @@ func find(search: () -> Bool) {
 find(search: { 122 < 82 })
 # Output: The result came back false!
 ```
+
 This function prints `The result was true!` when the argument is `true`, else it prints `The result came back false`. In this example, the latter is printed since `122` is not less than `82`. 
 
 Notice when calling the function the comparison argument is in curly braces. These can be removed when using an autoclosure, as shown below:
@@ -143,6 +146,7 @@ func find(search: @autoclosure () -> Bool) {
 
 find(search: 122 < 82 )
 ```
+
 The `@autoclosure` attribute is used right before the parameters in the closure argument. When the function is called, the argument is automatically converted into a closure.
 
 Autoclosures can be very useful because they delay code execution. After all, the closure doesn't run unless called.
@@ -164,6 +168,7 @@ function {
   print("Inside closure");
 }
 ```
+
 The output is:
 
 ```shell
@@ -200,6 +205,7 @@ print(countUpTwo()) // Output 1
 
 print(countUp()) // Output 4
 ```
+
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other. 
 
 ## Why use closures?
