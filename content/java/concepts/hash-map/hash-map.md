@@ -30,7 +30,7 @@ HashMap<KeyDatatype, ValueDatatype> HashMapName = new HashMap<KeyDatatype, Value
 import java.util.HashMap;
 
   // Create a HashMap which stores courses and their teachers as a key/value pair
-  HashMap<String, String> courseTeacher = new HashMap<String, String>();
+HashMap<String, String> courseTeacher = new HashMap<String, String>();
 ```
 
 Here, courseTeacher stores the key value Course which is of `String` type and the value are the Teacher assigned for the course which is also of `String` type.
