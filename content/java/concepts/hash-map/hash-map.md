@@ -101,7 +101,7 @@ public class Main {
 
 In Java, an item can be accessed within a `HashMap` using the `get()` method.
 
-The `get()` method takes in 1 attribute which is the key and returns the corresponding value.
+The `.get()` method takes in one attribute which is the key and returns the corresponding value.
 
 ```java
 courseTeacher.get("Physics");
