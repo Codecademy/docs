@@ -137,7 +137,7 @@ public class Main {
   }
 }
 
-//Output: {Mathematics=Jeanette, History=Ben}
+// Output: { Mathematics = Jeanette, History = Ben }
 ```
 
 The `clear` method can be used to delete all the items from the `HashMap`.
