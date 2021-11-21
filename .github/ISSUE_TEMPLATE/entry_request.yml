@@ -13,7 +13,7 @@ body:
       label: Entry Type (select all that apply)
       multiple: true
       options:
-        - New Subject with Entries/Terms
+        - New Subject with New Entry/Term
         - New Entry for Existing Subject
         - New Term for Existing Entry
     validations:
