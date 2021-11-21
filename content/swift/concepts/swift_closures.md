@@ -6,7 +6,7 @@ Subjects:
   - 'Mobile Development'
 Tags:
   - 'Closures'
-Catalogue Content:
+CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
