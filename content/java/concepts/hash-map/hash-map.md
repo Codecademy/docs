@@ -82,7 +82,8 @@ The `.put()` method takes in 2 attributes:
 - value
 
 ```java
-import java.util.HashMap; // import the HashMap class
+// Import the HashMap class
+import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
