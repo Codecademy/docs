@@ -2,25 +2,25 @@
 Title: 'Functional Programming'
 Description: 'Encourages programming with pure functions and evaluating expressions instead of statements.'
 Subjects:
-- 'Code foundations'
-- 'Computer Science'
-- 'Web Development'
+  - 'Code foundations'
+  - 'Computer Science'
+  - 'Web Development'
 Tags:
-- 'Functions'
-- 'Recursion'
+  - 'Functions'
+  - 'Recursion'
 CatalogContent:
-- 'learn-to-code'
-- 'paths/code-foundations'
+  - 'learn-to-code'
+  - 'paths/code-foundations'
 ---
 
-_Functional Programming_ (FP) is a declarative software development paradigm which encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application. 
+_Functional Programming_ (FP) is a declarative software development paradigm which encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application.
 
 In FP, dependencies such as variables or objects needed for a function, are always declared explicitly by passing them into the function as arguments. Any operation inside the function is therefore bound to the arguments passed, instead of depending on global objects or variables. This makes the function:
 
 - Suitable for testing and debugging.
 - Predictable, reusable, and stable when refactoring code.
 
-FP helps make code more modular, readable and easier to reason about in general. 
+FP helps make code more modular, readable and easier to reason about in general.
 
 ## Core Principles of FP
 
@@ -30,7 +30,7 @@ In FP, functions are considered to be first-class entities. This means that func
 
 - Assigned to a variable
 - Passed as arguments into other functions
-- Returned from other functions, just as any other data type can. 
+- Returned from other functions, just as any other data type can.
 
 Higher-order functions are a type of first-class functions, as they can take functions as arguments and/or return a function.
 
