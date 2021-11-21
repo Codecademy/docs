@@ -22,9 +22,8 @@ HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
 In Java, a `HashMap` can be created in the following way:
 
-Identify the datatype of the key and the value for the key-value pair. Then follow the following template to create a new `HashMap`.
-
-`HashMap<KeyDatatype, ValueDatatype> HashMapName = new HashMap<KeyDatatype, ValueDatatype>();`
+```java
+HashMap<KeyDatatype, ValueDatatype> HashMapName = new HashMap<KeyDatatype, ValueDatatype>();
 
 ```java
   import java.util.HashMap; // import the HashMap class
