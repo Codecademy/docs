@@ -2,12 +2,11 @@
 Title: 'Functional Programming'
 Description: 'Encourages programming with pure functions and evaluating expressions instead of statements.'
 Subjects:
-- 'Code Foundations'
+- 'Code foundations'
 - 'Computer Science'
 - 'Web Development'
 Tags:
 - 'Functions'
-- 'Pure Functions'
 - 'Recursion'
 CatalogContent:
 - 'learn-to-code'
@@ -20,6 +19,8 @@ In FP, dependencies such as variables or objects needed for a function, are alwa
 
 - Suitable for testing and debugging.
 - Predictable, reusable, and stable when refactoring code.
+
+FP helps make code more modular, readable and easier to reason about in general. 
 
 ## Core Principles of FP
 
@@ -42,10 +43,6 @@ Pure functions are the bread and butter of FP. They are functions that always pr
 That latter property of pure functions can further be defined as _immutability_. This means that variables or objects outside of the function are unaffected. Instead, copies are created and returned from the function if needed.
 
 Generally speaking, FP is about avoiding a shared mutable state, which is when different parts of the program are able to access data that can be modified and that exist in a shared scope.
-
-### Referential Transparency
-
-Pure functions also provide what is known as referential transparency. An expression is referentially transparent if it can be replaced with its returned value without changing the program's behavior. 
 
 ### Function Composition
 
