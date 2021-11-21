@@ -1,1 +1,1 @@
-docs/content/html/concepts/file-paths/file-paths.md
+docs/content/general/concepts/what-is-object-oriented-programming/what-is-object-oriented-programming.md
