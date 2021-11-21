@@ -174,7 +174,7 @@ A `HashMap` can easily be traversed with the for-each loop.
 
 The `keySet()` method can be used to obtain only the keys while the `values()` method can be used to obtain only values.
 
-```java
+```codebyte/java
 import java.util.HashMap; // import the HashMap class
 
 public class Main {
