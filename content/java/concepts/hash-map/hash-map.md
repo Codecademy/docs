@@ -87,7 +87,6 @@ import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
-
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
     // Add keys and values (CourseNames, Teacher)
