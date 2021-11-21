@@ -76,7 +76,10 @@ public class Main {
 
 In Java, an item can be added to a `HashMap` using the `.put()` method.
 
-The `put()` method takes in 2 attributes. The first attribute is the key and the second attribute is the corresponding value.
+The `.put()` method takes in 2 attributes:
+
+- key
+- value
 
 ```java
 import java.util.HashMap; // import the HashMap class
