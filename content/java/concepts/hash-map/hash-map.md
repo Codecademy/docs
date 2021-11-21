@@ -50,7 +50,8 @@ Here, `studentMarks` stores keys of student names of `String` type and values of
 A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
 
 ```java
-import java.util.HashMap; // import the HashMap class
+// Import the HashMap class
+import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
