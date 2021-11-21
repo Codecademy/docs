@@ -105,7 +105,7 @@ The `get()` method takes in 1 attribute which is the key and returns the corresp
 
 ```java
 courseTeacher.get("Physics");
-//Returns "Lily" which is the value for the key "Physics"
+// Returns "Lily" which is the value for the key "Physics"
 ```
 
 ## Removing Items
