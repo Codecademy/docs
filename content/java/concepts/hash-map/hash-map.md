@@ -39,8 +39,8 @@ Here, `courseTeacher` will store keys of courses with `String` type and values o
 // Import the HashMap class
 import java.util.HashMap;
 
-  // Create a HashMap which stores students and their marks as a key/value pair
-  HashMap<String, Integer> studentMarks = new HashMap<String, Integer>();
+// Create a HashMap which stores students and their marks as a key-value pair
+HashMap<String, Integer> studentMarks = new HashMap<String, Integer>();
 ```
 
 Here, studentMarks stores the key value Student name which is of `String` type and the value are the Marks secured by the student which is also of `Integer` type.
