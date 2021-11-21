@@ -1,6 +1,6 @@
 ---
 Title: '.sort()'
-Description: 'Sort the contents of the list it is called on.'
+Description: 'Sorts the contents of the list it is called on.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Sort the contents of the list it is called on.
+The `.sort()` method sorts the contents of the list it is called on.
 
 ## Syntax
 
@@ -27,11 +27,23 @@ Numerical lists will be sorted in ascending order, and lists of strings will be 
 
 To sort a list called `exampleList`:
 
+```python
+name = ['c', 'h', 'l', 'o', 'e']
+
+name.sort()
+
+print(name)
+# Output: ['c', 'e', 'h', 'l', 'o']
+```
+
+## Codebyte Example
+
+To sort a list called `exampleList`:
+
 ```codebyte/python
 exampleList = [4, 2, 1, 3]
 
 exampleList.sort()
 
 print(exampleList)
-# Output: [1, 2, 3, 4]
 ```

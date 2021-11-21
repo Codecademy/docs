@@ -1,22 +1,17 @@
 ---
-Title: 'Functional Progtamming'
-Description: 'Functional Programming (FP) is a declarative software development paradigm which encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application. In Functional Programming, dependencies such as variables or objects needed for a function, are always declared explicitly by passing them into the function as arguments. Any operation inside the function is therefore binded to the arguments passed, instead of depending on global objects or variables. This makes the function easier to test and debug, and allows for more predictability, reusability and stability when altering and refactoring code.'
+Title: 'Functional Programming'
+Description: 'Encourages programming with pure functions and evaluating expressions instead of statements.'
 Subjects:
+- 'Code Foundations'
 - 'Computer Science'
 - 'Web Development'
-- 'Data Science'
 Tags:
-- 'Function Composition'
 - 'Functions'
 - 'Pure Functions'
 - 'Recursion'
-- 'Referential Transparency'
 CatalogContent:
+- 'learn-to-code'
 - 'paths/code-foundations'
-- 'paths/computer-science'
-- 'paths/data-science'
-- 'paths/front-end-engineer-career-path'
-- 'paths/back-end-engineer-career-path'
 ---
 
 _Functional Programming_ (FP) is a declarative software development paradigm which encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application. 

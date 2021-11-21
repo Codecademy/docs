@@ -108,7 +108,6 @@ For
 Foreign Key
 Form
 Frameworks
-Function Composition
 Functions
 Functional Programming
 Ggplot2
@@ -160,6 +159,7 @@ Logic
 Logical
 Logistic Regression
 Loops
+Map
 Margin
 MATLAB
 Matplotlib
@@ -199,7 +199,6 @@ Print
 Probability
 Promise
 Properties
-Pure Functions
 Queries
 Queues
 Quicksort
