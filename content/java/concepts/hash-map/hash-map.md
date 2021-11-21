@@ -11,9 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, a HashMap is used to store items as a "key/value" pairs.
-
-The keys and values can be of either same or different types.
+In Java, a HashMap is used to store items as key-value pairs. The key and value can be of the same or different data type.
 
 ```java
 // Create a HashMap which stores courses and their teachers as a key/value pair
