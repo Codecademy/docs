@@ -33,7 +33,7 @@ import java.util.HashMap;
 HashMap<String, String> courseTeacher = new HashMap<String, String>();
 ```
 
-Here, courseTeacher stores the key value Course which is of `String` type and the value are the Teacher assigned for the course which is also of `String` type.
+Here, `courseTeacher` will store keys of courses with `String` type and values of Teacher assigned for the course also of `String` type.
 
 ```java
   import java.util.HashMap; // import the HashMap class
