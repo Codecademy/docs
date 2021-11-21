@@ -47,7 +47,7 @@ Here, `studentMarks` stores keys of student names of `String` type and values of
 
 ## Key-Value
 
-A `Key` can be used to uniquely identify a `Value` in a `HashMap`. This allows for efficient data storage and easy access. In the example below the `Course Names` are the `Keys` and the `Teacher` assigned are the `Values` which can be accessed using the `Key` which is the corresponding `Course Names`.
+A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
 
 ```java
 import java.util.HashMap; // import the HashMap class
