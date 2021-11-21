@@ -43,7 +43,7 @@ import java.util.HashMap;
 HashMap<String, Integer> studentMarks = new HashMap<String, Integer>();
 ```
 
-Here, studentMarks stores the key value Student name which is of `String` type and the value are the Marks secured by the student which is also of `Integer` type.
+Here, `studentMarks` stores keys of student names of `String` type and values of marks secured by the student of `Integer` type.
 
 ## Key-Value
 
