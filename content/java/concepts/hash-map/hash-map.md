@@ -74,7 +74,7 @@ public class Main {
 
 ## Adding Items
 
-In Java, an item can be added to a `HashMap` using the `put()` method.
+In Java, an item can be added to a `HashMap` using the `.put()` method.
 
 The `put()` method takes in 2 attributes. The first attribute is the key and the second attribute is the corresponding value.
 
