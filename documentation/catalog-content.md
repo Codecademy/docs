@@ -1,4 +1,4 @@
-# Content Catalog
+# Catalog Content
 
 The [metadata](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#standards-metadata) which go at the top of the file, should include **two** slugs. Preferably:
 
