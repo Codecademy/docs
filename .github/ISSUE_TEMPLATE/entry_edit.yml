@@ -36,5 +36,5 @@ body:
       options:
         - label: Labels added
           required: true
-        - label: Assignee(s) added
+        - label: Issue is assigned
           required: false
