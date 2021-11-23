@@ -127,7 +127,6 @@ public class Main {
 
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
-    // put(CourseName, Teacher)
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
