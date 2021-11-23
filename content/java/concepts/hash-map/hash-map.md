@@ -141,7 +141,7 @@ public class Main {
 // Output: { Mathematics = Jeanette, History = Ben }
 ```
 
-The `clear` method can be used to delete all the items from the `HashMap`.
+The `.clear()` method can be used to remove all the items from the `HashMap`.
 
 
 ```java
