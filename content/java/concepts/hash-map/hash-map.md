@@ -117,7 +117,7 @@ Items can be removed from a `HashMap` using the `.remove()` method. It accepts o
 
 
 ```java
-import java.util.HashMap; // import the HashMap class
+import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
