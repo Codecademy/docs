@@ -111,7 +111,7 @@ public class MiniBusTaxiRequest extends TaxiRequest<String> {
 As these model classes inherit their properties from the base class, they each automatically have `pickUpLocation`, `destination`, and `distance` as fields.
 The `pickUpLocation` in these cases is an address, and therefore, `pickUpLocation` is of type `String`.
 
-The constructors for these concrete models, calls `super()` which intern calls the overridden method `createTaxiRequest`.
+The constructors for these concrete models, call `super()` which in turn calls the overridden method `createTaxiRequest`.
 
 The overridden method `createTaxiRequest()` handles the instantiation logic of the class. The properties `pickUpLocation`, `destination`, and `distance` are set, with the `estimatedPrice` programmatically calculated using the static property `FARE_MULTIPLIER`. A print statement has been added to help illustrate the pattern.
 
