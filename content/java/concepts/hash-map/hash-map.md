@@ -165,9 +165,7 @@ public class Main {
 
 ## Traversing a HashMap
 
-A `HashMap` can easily be traversed with the for-each loop.
-
-The `keySet()` method can be used to obtain only the keys while the `values()` method can be used to obtain only values.
+A `HashMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
 ```codebyte/java
 import java.util.HashMap;
