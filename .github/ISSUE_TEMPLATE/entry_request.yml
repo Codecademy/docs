@@ -1,8 +1,8 @@
 name: Entry Request
-description: Request for 1-3 new entry topics and/or terms.
-title: "[Entry] Subject : Entry Name(s)"
+description: Request for a single new entry concept or term.
+title: "[Entry] Subject : Entry Name"
 labels: ["new entry"]
-assignees: "Name(s) here"
+assignees: "Name here"
 body:
   - type: markdown
     attributes:
@@ -13,7 +13,7 @@ body:
       label: Entry Type (select all that apply)
       multiple: true
       options:
-        - New Subject with Entries/Terms
+        - New Subject with New Entry/Term
         - New Entry for Existing Subject
         - New Term for Existing Entry
     validations:
