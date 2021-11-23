@@ -224,7 +224,7 @@ The factory method `getTaxiRequest()` has been overloaded using four different s
 The first `getTaxiRequest(String, String int)` that returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both 
 `numberOfPassingers` and `TaxiType` have been negated from the method call.
 
-The second `getTaxiRequest(Resteraunt, String, int)` that returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
+The second `getTaxiRequest(Restaurant, String, int)` that returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
 
 The third `getTaxiRequest(int, String, String, int)` that returns a taxi request is based on the number of passengers provided and is determined by a switch statement. Should the number of passengers exceed or fall below the required amount, an exception is thrown.
 
