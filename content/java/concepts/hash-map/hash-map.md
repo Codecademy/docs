@@ -163,7 +163,7 @@ public class Main {
 // Output: {}
 ```
 
-## Traversing through a HashMap
+## Traversing a HashMap
 
 A `HashMap` can easily be traversed with the for-each loop.
 
