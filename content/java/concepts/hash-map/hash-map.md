@@ -115,9 +115,6 @@ courseTeacher.get("Physics");
 
 Items can be removed from a `HashMap` using the `.remove()` method. It accepts one parameter, the key, removes the corresponding key-value pair from the `HashMap`.
 
-```java
-courseTeacher.remove("Physics");
-```
 
 ```java
 import java.util.HashMap; // import the HashMap class
