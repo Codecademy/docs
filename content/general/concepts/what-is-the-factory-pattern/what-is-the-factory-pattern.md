@@ -44,10 +44,9 @@ public abstract class TaxiRequest<T> {
 }
 ```
 
-**Note:** As the `pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other property's object types are known.
+*Note:* As the `pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other properties' object types are known.
 
-The constructor of `TaxiRequest` calls an abstract method `createTaxiRequest`. This enforces `TaxiRequest`'s subclasses to override the method 
-with instantiation logic. Although the constructors of the subclasses may make use of the abstract super's constructor, instantiation logic remains in the concrete.
+The constructor of `TaxiRequest` calls an abstract method `createTaxiRequest`. This enforces `TaxiRequest`'s subclasses to override the method with instantiation logic. Although the constructors of the subclasses may make use of the abstract super's constructor, instantiation logic remains in the concrete.
 
 Below provides the concrete subclasses of `StandardTaxiRequest`, `SevenSeaterTaxiRequest`, and `MiniBusTaxiRequest` that all extend the abstract `TaxiRequest` class above:
 
