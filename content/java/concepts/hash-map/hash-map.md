@@ -181,13 +181,15 @@ public class Main {
 
     System.out.println("Courses offered at our Institute:");
 
-    for (String i : courseTeacher.keySet())
+    for (String i : courseTeacher.keySet()) {
       System.out.println(i);
+    }
 
     System.out.println("\nTeachers teaching at our Institute:");
 
-    for (String i : courseTeacher.values())
+    for (String i : courseTeacher.values()) {
       System.out.println(i);
+    }
 
   }
 }
