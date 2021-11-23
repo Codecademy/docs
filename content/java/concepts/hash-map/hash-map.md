@@ -97,7 +97,7 @@ public class Main {
     courseTeacher.put("Physics", "Lily");
 
     System.out.println(courseTeacher);
-    //Output: {Mathematics=Jeanette, History=Ben, Physics=Lily}
+    // Output: {Mathematics=Jeanette, History=Ben, Physics=Lily}
   }
 }
 ```
