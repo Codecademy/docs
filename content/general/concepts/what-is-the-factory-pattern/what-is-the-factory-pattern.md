@@ -108,7 +108,8 @@ public class MiniBusTaxiRequest extends TaxiRequest<String> {
 }
 ```
 
-As these model classes inherit their properties from the super, they each automatically have `pickUpLocation`, `destination`, and `distance` as fields. The `pickUpLocation` in these cases is an address, and therefore, `pickUpLocation` is of type `String`.
+As these model classes inherit their properties from the base class, they each automatically have `pickUpLocation`, `destination`, and `distance` as fields.
+The `pickUpLocation` in these cases is an address, and therefore, `pickUpLocation` is of type `String`.
 
 The constructors for these concrete models, calls `super()` which intern calls the overridden method `createTaxiRequest`.
 
