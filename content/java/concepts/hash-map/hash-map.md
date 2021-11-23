@@ -143,9 +143,6 @@ public class Main {
 
 The `clear` method can be used to delete all the items from the `HashMap`.
 
-```java
-courseTeacher.clear();
-```
 
 ```java
 import java.util.HashMap;
