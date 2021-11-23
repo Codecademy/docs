@@ -24,7 +24,7 @@ HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
 In Java, a `HashMap` can be created in the following way:
 
-````java
+```java
 HashMap<KeyDatatype, ValueDatatype> HashMapName = new HashMap<KeyDatatype, ValueDatatype>();
 
 ```java
