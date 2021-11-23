@@ -168,7 +168,7 @@ public class Main {
   }
 }
 
-//Output: {}
+// Output: {}
 ```
 
 ## Traversing through a HashMap
