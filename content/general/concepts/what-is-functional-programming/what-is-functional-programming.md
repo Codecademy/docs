@@ -6,11 +6,11 @@ Subjects:
 - 'Computer Science'
 - 'Web Development'
 Tags:
-- 'Functions'
-- 'Recursion'
+  - 'Functions'
+  - 'Recursion'
 CatalogContent:
-- 'learn-to-code'
-- 'paths/code-foundations'
+  - 'learn-to-code'
+  - 'paths/code-foundations'
 ---
 
 Functional Programming (FP) is a declarative software development paradigm that encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application. 
@@ -32,7 +32,7 @@ In FP, functions are considered to be first-class entities. This means that func
 
 - Assigned to a variable
 - Passed as arguments into other functions
-- Returned from other functions, just as any other data type can. 
+- Returned from other functions, just as any other data type can.
 
 Higher-order functions are a type of first-class functions, as they can take functions as arguments and/or return a function.
 

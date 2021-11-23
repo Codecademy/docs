@@ -211,7 +211,6 @@ Readr
 Recursion
 Redux
 References
-Referential Transparency
 Regular Expressions
 Requests
 Responsive
