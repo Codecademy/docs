@@ -168,7 +168,7 @@ public enum Restaurant {
 }
 ```
 
-**Note:** When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
+*Note:* When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
 
 The factory class gives us an opportunity to think how the client may need to instantiate different objects and what information may be required. In this example, if little information is provided, a `StandardTaxiRequest` is returned. If the `pickUpLocation` is a restaurant then a `FoodDeliveryRequest` is returned. A taxi can be ordered based on the amount of passengers. And finally a specific `TaxiType` can be explicitly requested.
 
