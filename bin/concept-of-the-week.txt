@@ -1,1 +1,1 @@
-content/general/concepts/what-is-object-oriented-programming/what-is-object-oriented-programming.md
+content/general/concepts/what-is-the-prototype-pattern/what-is-the-prototype-pattern.md
