@@ -1,1 +1,1 @@
-content/html/concepts/classes/classes.md
+content/general/concepts/what-is-the-prototype-pattern/what-is-the-prototype-pattern.md
