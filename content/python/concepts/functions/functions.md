@@ -55,14 +55,19 @@ def write_a_book(character, setting, special_skill):
         special_skill)
 
 write_a_book("Naomi", "engineering", "welding")
-# Output: Naomi is in engineering practicing her welding
+```
+
+The output will be:
+
+```pseudo
+Naomi is in engineering practicing her welding.
 ```
 
 ## Returning Values from Functions
 
 The `return` keyword is used to return a value from a Python function. The value returned from a function can be assigned to a variable which can then be used in the program.
 
-In the example below, the function `check_leap_year()` returns a string which indicates if the passed parameter is a leap year or not.
+In the example below, the check_leap_year()` function returns a string which indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
 def check_leap_year(year):
@@ -82,7 +87,7 @@ print(returned_value)
 
 Function parameters can also be initialized to a default value.
 
-In the function `calc_total()`, the default value of `discount` is 10.
+In the `calc_total()` function, there are `amount` and `discount` parameters.
 
 - When the `discount` value is explicitly specified in the function call, that value is used.
 - Otherwise, the default value of 10 is used.
@@ -98,7 +103,7 @@ calc_total(250, 5)  # Output: 237.5
 
 ## Keyword Arguments
 
-Unless specified otherwise, the arguments passed into a function are assigned to each parameter in order in which they appear in the function call. Thus, they are also known as "positional arguments".
+Unless specified otherwise, the arguments passed into a function are assigned to each parameter in the order in which they appear in the function signature. Thus, they are also known as "positional arguments".
 
 Python also supports keyword arguments — prefixing arguments with the names of parameters to assign them directly, regardless of the order.
 
@@ -108,13 +113,24 @@ def write_a_book(name, color, clothing_item):
         " " + clothing_item + ".")
 
 write_a_book(color="yellow", clothing_item="raincoat", name="Jonas")
-# output: Jonas was wearing a yellow raincoat.
 ```
 
-Keyword arguments must be passed after positional arguments. The following call will raise an error.
+The output will be:
+
+```pseudo
+Jonas was wearing a yellow raincoat.
+```
+
+Keyword arguments must be passed after positional arguments.
 
 ```py
 write_a_book(name="Jonas", "yellow", "raincoat")
+```
+
+The call above raises the following exception:
+
+```py
+SyntaxError: positional argument follows keyword argument
 ```
 
 ## Functions with Varying Number of Arguments
@@ -137,16 +153,19 @@ multiply(10, 5, 3, 6, 17)  # Output: 15300
 Similarly, functions can be called with an arbitrary number of keyword arguments. In this case, a special parameter `**kwargs` is passed in, where the double asterisk is a packing operator that produces a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) rather than a tuple. The parameter name and value of each keyword argument are packed as a key-value pair stored in `kwargs`.
 
 ```py
-def north_american_leaders(**kwargs):
+def north_american_capitals(**kwargs):
   for country in kwargs:
     print(country + ": " + kwargs[country])
 
-north_american_leaders(canada="Trudeau", us="Biden", mexico="López Obrador")
+north_american_capitals(canada="Ottawa", us="Washington D.C.", mexico="Mexico City")
+```
 
-# Output:
-#   canada: Trudeau
-#   us: Biden
-#   mexico: López Obrador
+The output of the function call will be:
+
+```pseudo
+canada: Ottawa
+us: Washington, D.C.
+mexico: Mexico City
 ```
 
 When defining a function, both forms of argument packing can be used. However, `args` must always precede `kwargs`.
@@ -192,7 +211,7 @@ for i in range(6):
   print(fibonacci(i))
 ```
 
-Notice how the definition for `fibonacci()` contains a call to itself (line 7).
+Inside the `else` block of the function definition, two recursive calls to `fibonacci()` (representing the two previous numbers) are added and returned. Once `n` is equal to `0` or `1`, the base case (the `if` block) runs instead.
 
 ## Higher-Order Functions
 
@@ -239,7 +258,7 @@ The expression to the right of the assignment operator is called a "lambda expre
 
 Parameters are optional when defining an anonymous function. However, a function body must be present, and it must only contain a single return expression.
 
-Lambda expressions are most commonly used to define simple, single-use functions which are passed to higher-order functions.
+Lambda expressions are most commonly used to define single-use functions which are passed to higher-order functions.
 
 ```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -250,11 +269,11 @@ print(list(odd_numbers))
 # Output: [1, 3, 5, 7, 9]
 ```
 
-Anonymous functions can also be invoked immediately after they are defined.
+Anonymous functions can also be evaluated immediately after they are defined. The expression inside the `print()` function below is known as an "immediately-invoked function expression" (IIFE).
 
 ```py
 print((lambda a, b: a + b)(1986, 33))
-# output: 2019
+# Output: 2019
 ```
 
-For more complex functions with larger bodies, it is recommended to use the `def` keyword to keep code readable.
+If the function can be written in a single line, `lambda` could be useful. Otherwise, if the function is more complex, it is recommended to use the `def` keyword.
