@@ -100,7 +100,9 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
-## Additional Notes
+## Additional Resources
+
+- [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
