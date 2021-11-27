@@ -268,7 +268,7 @@ Abstract Factory
 
 ```java
 public abstract class AccountFactory<T> {
-    public static AccountFactory getAccountFactory(AccountType accountType) {
+    public static AccountFactory<?> getAccountFactory(AccountType accountType) {
         switch (accountType) {
             case SAVINGS :
                 return new SavingAccountFactory();
