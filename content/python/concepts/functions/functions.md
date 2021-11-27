@@ -42,32 +42,32 @@ doHomework()
 
 ## Function Parameters
 
-Functions often process data to achieve their intended task. Each value required by a function is passed as an argument when that function is called.
+Functions often need outside data to achieve their intended task. This is where parameters can be used as placeholders for that data.
 
-Parameters are variables that are declared in the function definition. When a function is called, each parameter is assigned the value which was passed as a corresponding argument.
+Parameters are variables that are declared in the function definition. They are usually processed in the function body to produce a desired result. When the function is called, each parameter is assigned the value which was passed as a corresponding argument.
 
-For example, the function below contains parameters for a `character`, a `setting`, and a `special_skill`, which are used as inputs to write the first sentence of a book.
+For example, the function below contains parameters for a `character`, a `setting`, and a `skill`, which are used as inputs to write the first sentence of a book.
 
 ```py
-def write_a_book(character, setting, special_skill):
+def write_a_book(character, setting, skill):
   print(character + " is in " +
         setting + " practicing her " +
-        special_skill)
+        skill + ".")
 
-write_a_book("Naomi", "engineering", "welding")
+write_a_book("Naomi", "engineering school", "welding")
 ```
 
 The output will be:
 
-```pseudo
-Naomi is in engineering practicing her welding.
+```
+Naomi is in engineering school practicing her welding.
 ```
 
 ## Returning Values from Functions
 
 The `return` keyword is used to return a value from a Python function. The value returned from a function can be assigned to a variable which can then be used in the program.
 
-In the example below, the check_leap_year()` function returns a string which indicates if the passed parameter is a leap year or not.
+In the example below, the `check_leap_year()` function returns a string which indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
 def check_leap_year(year):
@@ -85,9 +85,7 @@ print(returned_value)
 
 ## Default Values for Function Parameters
 
-Function parameters can also be initialized to a default value.
-
-In the `calc_total()` function, there are `amount` and `discount` parameters.
+Function parameters can also be initialized to a default value. In the `calc_total()` function, there are `amount` and `discount` parameters.
 
 - When the `discount` value is explicitly specified in the function call, that value is used.
 - Otherwise, the default value of 10 is used.
@@ -117,7 +115,7 @@ write_a_book(color="yellow", clothing_item="raincoat", name="Jonas")
 
 The output will be:
 
-```pseudo
+```
 Jonas was wearing a yellow raincoat.
 ```
 
@@ -162,7 +160,7 @@ north_american_capitals(canada="Ottawa", us="Washington D.C.", mexico="Mexico Ci
 
 The output of the function call will be:
 
-```pseudo
+```
 canada: Ottawa
 us: Washington, D.C.
 mexico: Mexico City
@@ -239,7 +237,7 @@ print(list(perfect_squares))
 
 The act of defining a function using the `def` keyword binds that function to a name. However, some functions can be defined without giving them a name. Such functions are called "anonymous" and are defined using the `lambda` keyword.
 
-```pseudo
+```
 lambda <parameters> : <function body>
 ```
 
