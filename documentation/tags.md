@@ -109,6 +109,7 @@ Foreign Key
 Form
 Frameworks
 Functions
+Functional Programming
 Ggplot2
 Git
 GitHub
