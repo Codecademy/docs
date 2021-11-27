@@ -44,7 +44,7 @@ public abstract class TaxiRequest<T> {
 }
 ```
 
-*Note:* As the `pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other properties' object types are known.
+_Note:_ As the `pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other properties' object types are known.
 
 The constructor of `TaxiRequest` calls an abstract method `createTaxiRequest`. This enforces `TaxiRequest`'s subclasses to override the method with instantiation logic. Although the constructors of the base class' may make use of the abstract super's constructor, instantiation logic remains in the concrete subclass.
 
@@ -168,7 +168,7 @@ public enum Restaurant {
 }
 ```
 
-*Note:* When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
+_Note:_ When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
 
 The factory class gives us an opportunity to think how the client may need to instantiate different objects and what information may be required. In this example, if little information is provided, a `StandardTaxiRequest` is returned. If the `pickUpLocation` is a restaurant then a `FoodDeliveryRequest` is returned. A taxi can be ordered based on the amount of passengers. And finally a specific `TaxiType` can be explicitly requested.
 
@@ -221,7 +221,7 @@ public class TaxiCreator {
 
 The factory method `getTaxiRequest()` has been overloaded using four different signatures.
 
-The first `getTaxiRequest(String, String int)` that returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both 
+The first `getTaxiRequest(String, String int)` that returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both
 `numberOfPassingers` and `TaxiType` have been negated from the method call.
 
 The second `getTaxiRequest(Restaurant, String, int)` that returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
