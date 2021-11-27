@@ -17,7 +17,7 @@ Subjects:
 Abstract factory pattern.
 ## UML Design
 
-![UML diagram of a builder](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-factory-uml.png)
+![UML diagram of an abstract factory](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-factory-uml.png)
 
 ## Java Example
 
@@ -103,27 +103,7 @@ public abstract class CurrentAccount {
 
   public abstract void increaseOverdraft(int requestedLimit);
 
-  public String getAccountUID()
-  {
-    return accountUID;
-  }
-
-  public Customer getAccountHolder() {
-    return accountHolder;
-  }
-
-  public int getAgreedOverdraftLimit() {
-    return agreedOverdraftLimit;
-  }
-
-  public void setAgreedOverdraftLimit(int agreedOverdraftLimit)
-  {
-    this.agreedOverdraftLimit = agreedOverdraftLimit;
-  }
-
-  public int getBalance() {
-    return balance;
-  }
+  // Getters
 }
 ```
 
@@ -224,29 +204,7 @@ public abstract class SavingAccount {
 
   public abstract void addInterest();
 
-  public String getAccountUID()
-  {
-    return accountUID;
-  }
-
-  public Customer getAccountHolder()
-  {
-    return accountHolder;
-  }
-
-  public LocalDate getDateOpened()
-  {
-    return dateOpened;
-  }
-
-  public double getBalance() {
-    return balance;
-  }
-
-  public void setBalance(double balance)
-  {
-    this.balance = balance;
-  }
+  // Getters and setter
 }
 ```
 
