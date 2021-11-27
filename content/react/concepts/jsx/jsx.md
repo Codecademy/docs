@@ -1,6 +1,6 @@
 ---
 Title: 'JSX'
-Description: 'JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. Its used to create DOM elements which are then rendered in the React DOM. While not required in React, JSX provides a neat visual reqresentation of the applications UI. A JavaScript file containing JSX will have to be compiled before it reaches a web browser. JSX looks a lot like HTML: js const headerElement = This is a header; '
+Description: 'JavaScript XML (JSX) is a syntax extension of JavaScript that provides highly functional and reusable markup code. It is used to create DOM elements which are then rendered in the React DOM. JSX provides a neat visual representation of the UI.'
 Subjects:
   - 'Web Development'
 Tags:
