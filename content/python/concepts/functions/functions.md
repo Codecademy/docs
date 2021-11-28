@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the def keyword. Function definitions may include parameters, providing data input to the function. Functions may return a value using the return keyword followed by the value to return. py def myfunction(x): return x + 1 print(myfunction(2)) # Output: 3 print(my_function(3 + 5)) # Output: 9'
+Description: 'Defined using the def keyword, functions allow tasks to be performed multiple times within a program without having to rewrite the same code in multiple places.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -19,12 +19,12 @@ Some tasks need to be performed multiple times within a program. Rather than rew
 Functions may return a value using the `return` keyword followed by the value to return.
 
 ```py
-# Define a function my_function() with parameter x
+# Define a function named my_function with parameter x
 
 def my_function(x):
   return x + 1
 
-# Invoke the function
+# Invoke the function and print the result
 
 print(my_function(2))      # Output: 3
 print(my_function(3 + 5))  # Output: 9
@@ -32,26 +32,28 @@ print(my_function(3 + 5))  # Output: 9
 
 ## Calling Functions
 
-Python uses simple syntax to use, invoke, or call a preexisting function. A function can be called by writing the name of it, followed by parentheses.
+In Python, a preexisting function can be invoked, or called, by writing the name of the function followed by parentheses.
 
-For example, the code provided would call the `doHomework()` function.
+For example, the code provided would call the `do_homework()` function.
 
 ```py
-doHomework()
+do_homework()
 ```
+
+**Note:** Function names in Python are written in snake_case.
 
 ## Function Parameters
 
 Functions often need outside data to achieve their intended task. This is where parameters can be used as placeholders for that data.
 
-Parameters are variables that are declared in the function definition. They are usually processed in the function body to produce a desired result. When the function is called, each parameter is assigned the value which was passed as a corresponding argument.
+Parameters are variables that are declared in the function definition. They are usually processed in the function body to produce the desired result. When the function is called, each parameter is assigned the value which was passed as a corresponding argument.
 
 For example, the function below contains parameters for a `character`, a `setting`, and a `skill`, which are used as inputs to write the first sentence of a book.
 
 ```py
 def write_a_book(character, setting, skill):
   print(character + " is in " +
-        setting + " practicing her " +
+        setting + " practicing " +
         skill + ".")
 
 write_a_book("Naomi", "engineering school", "welding")
@@ -60,14 +62,14 @@ write_a_book("Naomi", "engineering school", "welding")
 The output will be:
 
 ```
-Naomi is in engineering school practicing her welding.
+Naomi is in engineering school practicing welding.
 ```
 
 ## Returning Values from Functions
 
 The `return` keyword is used to return a value from a Python function. The value returned from a function can be assigned to a variable which can then be used in the program.
 
-In the example below, the `check_leap_year()` function returns a string which indicates if the passed parameter is a leap year or not.
+In the example below, the `check_leap_year()` function returns a string that indicates if the passed parameter is a leap year or not.
 
 ```codebyte/py
 def check_leap_year(year):
@@ -92,7 +94,7 @@ Function parameters can also be initialized to a default value. In the `calc_tot
 
 ```py
 def calc_total(amount, discount=10):
-  total = amount * (1 - 0.01*discount)
+  total = amount * (1 - 0.01 * discount)
   return total
 
 calc_total(100)     # Output: 90.0
@@ -127,7 +129,7 @@ write_a_book(name="Jonas", "yellow", "raincoat")
 
 The call above raises the following exception:
 
-```py
+```
 SyntaxError: positional argument follows keyword argument
 ```
 
@@ -213,7 +215,7 @@ Inside the `else` block of the function definition, two recursive calls to `fibo
 
 ## Higher-Order Functions
 
-In Python, functions are treated as "first-class objects". This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions.
+In Python, functions are treated as first-class objects. This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions.
 
 A function is considered to be of "higher-order" if it takes a function as a parameter or returns a function. One example is the built-in `filter()` function:
 
@@ -231,7 +233,7 @@ print(list(perfect_squares))
 # Output: [4, 9, 25, 81, 100]
 ```
 
-`filter()` takes a predicate (a function that returns a boolean value) and an iterable, and returns a new iterable containing all elements of the first one that make the predicate true.
+`filter()` takes a predicate (a function that returns a boolean value) and an iterable, and returns a new iterable containing all elements of the first one that makes the predicate true.
 
 ## Anonymous Functions
 
