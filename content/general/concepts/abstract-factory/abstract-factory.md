@@ -1,6 +1,6 @@
 ---
 Title: 'Abstract Factory Pattern'
-Description: 'Abstract factory pattern.'
+Description: 'The abstract factory is often thought of a factory of factory patterns. Much like the factory pattern, the abstract factory relies on a common interface and defers instantiation logic to its concrete model classes.'
 Subjects:
 - 'Computer Science'
 - 'Interview Prep'
@@ -14,7 +14,8 @@ Subjects:
 - 'paths/computer-science'
 ---
 
-Abstract factory pattern.
+The abstract factory is often thought of a factory of factory patterns. Much like the factory pattern, the abstract factory relies on a common interface and defers instantiation logic to its concrete model classes. Unlike the factory pattern, the abstract factory is typically built using composition where the factory is not.
+
 ## UML Design
 
 ![UML diagram of an abstract factory](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-factory-uml.png)
