@@ -25,13 +25,10 @@ The abstract factory is often thought of a factory of factory patterns. Much lik
 Gateway
 
 ```java
-public class CreditAgencyGateway
-{
-
-  public Customer getCustomer(String name)
-  {
-    switch (name)
-    {
+public class CreditAgencyGateway {
+  // Depending on which name is searched for, a different customer object is returned
+  public Customer getCustomer(String name) {
+    switch (name) {
       case "Harry":
         return new Customer("Harry",
                             "Potter",
@@ -101,7 +98,7 @@ public abstract class CurrentAccount {
       System.out.println("Insufficient funds. Unable to withdraw " + amount);
     }
   }
-
+  // Enforces concrete classes to override this method
   public abstract void increaseOverdraft(int requestedLimit);
 
   // Getters
@@ -110,13 +107,13 @@ public abstract class CurrentAccount {
 
 ```java
 public class GoldPersonal extends CurrentAccount {
+  // The Gold Personal has a high max overdraft limit
   public static final int MAX_OVERDRAFT = 3500;
 
-  public GoldPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit)
-  {
+  public GoldPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-
+  // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
     if (requestedLimit < MAX_OVERDRAFT) {
@@ -128,12 +125,13 @@ public class GoldPersonal extends CurrentAccount {
 
 ```java
 public class SilverPersonal extends CurrentAccount {
+  // The Silver Personal has a mid max overdraft limit
   public static final int MAX_OVERDRAFT = 1200;
 
   public SilverPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-
+  // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
     if (requestedLimit < MAX_OVERDRAFT) {
@@ -145,12 +143,13 @@ public class SilverPersonal extends CurrentAccount {
 
 ```java
 public class BronzePersonal extends CurrentAccount {
+  // The Bronze Personal has a low max overdraft limit
   public static final int MAX_OVERDRAFT = 500;
 
   public BronzePersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-
+  // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
     if (requestedLimit < MAX_OVERDRAFT) {
@@ -162,20 +161,19 @@ public class BronzePersonal extends CurrentAccount {
 
 ```java
 public class CreditBuilder extends CurrentAccount {
-    public static final int MAX_OVERDRAFT = 0;
+  // The Credit Builder does not allow for an overdraft
+  public static final int MAX_OVERDRAFT = 0;
 
-    public CreditBuilder(Customer accountHolder, int initBalance, int agreedOverdraftLimit)
-    {
-        super(accountHolder, initBalance, agreedOverdraftLimit);
+  public CreditBuilder(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
+    super(accountHolder, initBalance, agreedOverdraftLimit);
+  }
+  // Concrete overridden method
+  @Override
+  public void increaseOverdraft(int requestedLimit) {
+    if (requestedLimit < MAX_OVERDRAFT) {
+      this.setAgreedOverdraftLimit(requestedLimit);
     }
-
-    @Override
-    public void increaseOverdraft(int requestedLimit)
-    {
-        if (requestedLimit < MAX_OVERDRAFT) {
-            this.setAgreedOverdraftLimit(requestedLimit);
-        }
-    }
+  }
 }
 ```
 
@@ -188,8 +186,7 @@ public abstract class SavingAccount {
   private final LocalDate dateOpened;
   private double balance;
 
-  public SavingAccount(Customer accountHolder, LocalDate dateOpened, double initBalance)
-  {
+  public SavingAccount(Customer accountHolder, LocalDate dateOpened, double initBalance) {
     this.accountHolder = accountHolder;
     this.dateOpened = dateOpened;
     this.balance = initBalance;
@@ -202,7 +199,7 @@ public abstract class SavingAccount {
   public void withdrawFunds(final int amount) {
     balance -= amount;
   }
-
+  // Enforces concrete classes to override this method
   public abstract void addInterest();
 
   // Getters and setter
@@ -211,57 +208,58 @@ public abstract class SavingAccount {
 
 ```java
 public class GoldSaver extends SavingAccount {
-    public static final double INTEREST_RATE_MULTIPLIER = 1.05;
+  // The Gold Saver has a high interest rate
+  public static final double INTEREST_RATE_MULTIPLIER = 1.05;
 
-    public GoldSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
-        super(accountHolder, dateOpened, initBalance);
-    }
-
-
-    @Override
-    public void addInterest() {
-        if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
+  public GoldSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
+    super(accountHolder, dateOpened, initBalance);
+  }
+  // Concrete overridden method
+  @Override
+  public void addInterest() {
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
-            this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
-        }
+      this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
     }
+  }
 }
 ```
 
 ```java
 public class SilverSaver extends SavingAccount {
-    public static final double INTEREST_RATE_MULTIPLIER = 1.03;
+  // The Silver Saver has an mid interest rate
+  public static final double INTEREST_RATE_MULTIPLIER = 1.03;
 
-    public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
-        super(accountHolder, dateOpened, initBalance);
-    }
-
-    @Override
-    public void addInterest() {
-        if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
+  public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
+    super(accountHolder, dateOpened, initBalance);
+  }
+  // Concrete overridden method
+  @Override
+  public void addInterest() {
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
-            this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
-        }
+      this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
     }
+  }
 }
 ```
 
 ```java
 public class BronzeSaver extends SavingAccount {
-    public static final double INTEREST_RATE_MULTIPLIER = 1.015;
+  // The Bronze Saver has a low interest rate
+  public static final double INTEREST_RATE_MULTIPLIER = 1.015;
 
-    public BronzeSaver(Customer accountHolder, LocalDate dateOpened, int initBalance) {
+  public BronzeSaver(Customer accountHolder, LocalDate dateOpened, int initBalance) {
         super(accountHolder, dateOpened, initBalance);
-    }
-
-
-    @Override
-    public void addInterest() {
-        if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
+  }
+  // Concrete overridden method
+  @Override
+  public void addInterest() {
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
-            this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
-        }
+      this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER); 
     }
+  }
 }
 ```
 
@@ -269,81 +267,79 @@ Abstract Factory
 
 ```java
 public abstract class AccountFactory<T> {
-    public static AccountFactory<?> getAccountFactory(AccountType accountType) {
-        switch (accountType) {
-            case SAVINGS :
-                return new SavingAccountFactory();
-            case CURRENT :
-                return new CurrentAccountFactory();
-            default:
-                throw new IllegalArgumentException("Unknown account type: " + accountType);
-        }
+  // Returns different concrete factory depending on AccountType
+  public static AccountFactory<?> getAccountFactory(AccountType accountType) {
+    switch (accountType) {
+      case SAVINGS :
+        return new SavingAccountFactory();
+      case CURRENT :
+        return new CurrentAccountFactory();
+      default:
+        throw new IllegalArgumentException("Unknown account type: " + accountType);
     }
-
-    public abstract T getAccount(Customer customer);
-
-    protected CustomerType getCustomerType(Customer customer) {
-        if (customer.getCreditScore() > 700) {
-            return CustomerType.GOLD;
-        } else if (customer.getCreditScore() > 400) {
-            return CustomerType.SILVER;
-        } else if (customer.getCreditScore() > 200){
-            return CustomerType.BRONZE;
-        } else {
-            return CustomerType.BUILDER;
-        }
+  }
+  // Enforces concrete factories to override this method
+  public abstract T getAccount(Customer customer);
+  // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
+  protected CustomerType getCustomerType(Customer customer) {
+    if (customer.getCreditScore() > 700) {
+      return CustomerType.GOLD;
+    } else if (customer.getCreditScore() > 400) {
+      return CustomerType.SILVER;
+    } else if (customer.getCreditScore() > 200){
+      return CustomerType.BRONZE;
+    } else {
+      return CustomerType.BUILDER;
     }
+  }
 }
 ```
 
 ```java
 public enum AccountType {
-    SAVINGS,
-    CURRENT
+  SAVINGS,
+  CURRENT
 }
 ```
 
 Concrete Factories
 
 ```java
-public class CurrentAccountFactory extends AccountFactory<CurrentAccount> {
-    @Override
-    public CurrentAccount getAccount(Customer customer) {
-        final CustomerType customerType = getCustomerType(customer);
+public class CurrentAccountFactory extends AccountFactory<CurrentAccount>
+{
 
-        switch (customerType) {
-            case GOLD:
-                return new GoldPersonal(customer, 0, 0);
-            case SILVER:
-                return new SilverPersonal(customer, 0, 0);
-            case BRONZE:
-                return new BronzePersonal(customer, 0, 0);
-            case BUILDER:
-                return new CreditBuilder(customer, 0, 0);
-            default:
-                throw new IllegalArgumentException("Unable to create account.");
-        }
-    }
+  // Concrete overridden method
+  @Override
+  public CurrentAccount getAccount(Customer customer) {
+    final CustomerType customerType = getCustomerType(customer);
+
+    return switch (customerType) {
+      case GOLD -> new GoldPersonal(customer, 0, 0);
+      case SILVER -> new SilverPersonal(customer, 0, 0);
+      case BRONZE -> new BronzePersonal(customer, 0, 0);
+      case BUILDER -> new CreditBuilder(customer, 0, 0);
+      default -> throw new IllegalArgumentException("Unable to create account.");
+    };
+  }
 }
 ```
 
 ```java
-public class SavingAccountFactory extends AccountFactory<SavingAccount> {
-    @Override
-    public SavingAccount getAccount(Customer customer) {
-        final CustomerType customerType = getCustomerType(customer);
+public class SavingAccountFactory extends AccountFactory<SavingAccount>
+{
 
-        switch (customerType) {
-            case GOLD:
-                return new GoldSaver(customer, LocalDate.now(), 0);
-            case SILVER:
-                return new SilverSaver(customer, LocalDate.now(), 0);
-            case BRONZE: case BUILDER:
-                return new BronzeSaver(customer, LocalDate.now(), 0);
-            default:
-                throw new IllegalArgumentException("Unable to create account.");
-        }
-    }
+  // Concrete overridden method
+  @Override
+  public SavingAccount getAccount(Customer customer) {
+    final CustomerType customerType = getCustomerType(customer);
+    
+    return switch (customerType) {
+      case GOLD -> new GoldSaver(customer, LocalDate.now(), 0);
+      case SILVER -> new SilverSaver(customer, LocalDate.now(), 0);
+      case BRONZE, BUILDER -> new BronzeSaver(customer, LocalDate.now(), 0);
+      default -> throw new IllegalArgumentException("Unable to create account.");
+    };
+  }
 }
 ```
 
@@ -351,18 +347,20 @@ Client
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        final CreditAgencyGateway creditAgencyGateway = new CreditAgencyGateway();
-        // Change name to change outputted account types.
-        final Customer customer = creditAgencyGateway.getCustomer("Sirius");
-
-        AccountFactory<?> accountFactory = AccountFactory.getAccountFactory(AccountType.CURRENT);
-        final CurrentAccount currentAccount = (CurrentAccount) accountFactory.getAccount(customer);
-        System.out.println(currentAccount.getClass());
-
-        accountFactory = AccountFactory.getAccountFactory(AccountType.SAVINGS);
-        final SavingAccount savingAccount = (SavingAccount) accountFactory.getAccount(customer);
-        System.out.println(savingAccount.getClass());
-    }
+  public static void main(String[] args) {
+    final CreditAgencyGateway creditAgencyGateway = new CreditAgencyGateway();
+    // Get customer. Change name to change outputted account types.
+    final Customer customer = creditAgencyGateway.getCustomer("Sirius");
+    // Capture correct concrete factory
+    AccountFactory<?> accountFactory = AccountFactory.getAccountFactory(AccountType.CURRENT);
+    // Get correct account
+    final CurrentAccount currentAccount = (CurrentAccount) accountFactory.getAccount(customer);
+    System.out.println(currentAccount.getClass());
+    // Capture correct concrete factory
+    accountFactory = AccountFactory.getAccountFactory(AccountType.SAVINGS);
+    // Get correct account
+    final SavingAccount savingAccount = (SavingAccount) accountFactory.getAccount(customer);
+    System.out.println(savingAccount.getClass());
+  }
 }
 ```
