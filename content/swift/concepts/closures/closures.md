@@ -144,7 +144,7 @@ func find(search: @autoclosure () -> Bool) {
   }
 }
 
-find(search: 122 < 82 )
+find(search: 122 < 82)
 ```
 
 The `@autoclosure` attribute is used right before the parameters in the closure argument. When the function is called, the argument is automatically converted into a closure.
@@ -196,14 +196,15 @@ func counter() -> () -> Int {
 }
 
 let countUp = counter()
-print(countUp()) // Output 1
-print(countUp()) // Output 2
-print(countUp()) // Output 3
+
+print(countUp())    // Output: 1
+print(countUp())    // Output: 2
+print(countUp())    // Output: 3
 
 let countUpTwo = counter()
-print(countUpTwo()) // Output 1
 
-print(countUp()) // Output 4
+print(countUpTwo()) // Output: 1
+print(countUp())    // Output: 4
 ```
 
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other.
