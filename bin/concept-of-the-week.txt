@@ -1,1 +1,1 @@
-docs/content/cpp/concepts/classes/classes.md
+docs/content/javascript/concepts/loops/loops.md
