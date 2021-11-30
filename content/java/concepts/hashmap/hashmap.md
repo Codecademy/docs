@@ -143,7 +143,7 @@ public class Main {
 
 A `HashMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
-```codebyte/java
+```java
 import java.util.HashMap;
 
 public class Main {
@@ -172,7 +172,7 @@ public class Main {
 
 The output will be:
 
-```
+```shell
 Courses offered at our Institute:
 Mathematics
 History
