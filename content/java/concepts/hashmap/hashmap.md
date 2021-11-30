@@ -1,6 +1,6 @@
 ---
 Title: 'HashMap'
-Description: 'Used to store items as a key-value pairs. The keys and values can be of either same or different types.'
+Description: 'HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -21,7 +21,7 @@ The `HashMap` class comes from the `java.util` package. Therefore, it must be im
 import java.util.HashMap
 ```
 
-Next, the `HashMap` is initialized with two generic types inside angle brackets `<>`:
+Next, the `HashMap` is initialized with two generic types inside angle brackets `<` `>`:
 
 ```java
 HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
