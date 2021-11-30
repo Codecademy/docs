@@ -11,14 +11,15 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-The ```<!DOCTYPE>``` tag tells the users browser that the current file is HTML and not another type such as JS or CSS 
+The `<!DOCTYPE>` tag tells the users browser that the current file is HTML and not another type such as JS or CSS
 
 ## How to Use
-To use in a HTML file, simply add the ```<!DOCTYPE>``` tag to the top of your HTML
 
-```html 
-  <!DOCTYPE html>
-  <html>
+To use in a HTML file, simply add the `<!DOCTYPE>` tag to the top of your HTML
+
+```html
+<!DOCTYPE html>
+<html>
   <head>
     <title>Title of the document</title>
   </head>
@@ -26,6 +27,5 @@ To use in a HTML file, simply add the ```<!DOCTYPE>``` tag to the top of your HT
   <body>
     The content of the document......
   </body>
-
-  </html>
+</html>
 ```
