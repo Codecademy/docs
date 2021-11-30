@@ -22,7 +22,7 @@ The factory pattern defers instantiation logic of a parent abstract class to its
 
 ## Java Example
 
-To illustrate the factory pattern, below provides a real-world example, in Java, depicting potential considerations for a taxi and food delivery booking application. 
+To illustrate the factory pattern, below provides a real-world example, in Java, depicting potential considerations for a taxi and food delivery booking application.
 
 A user of the app will need to send a request for either a standard taxi, a large taxi, a mini bus, or wish to have food delivered from a restaurant. However, before the program understands their needs, the needed request needed remains unknown. When a request object is created, an estimated price is calculated and returned.
 
@@ -226,7 +226,7 @@ public class TaxiCreator {
 The factory method `.getTaxiRequest()` has been overloaded using four different signatures.
 
 1. The first `.getTaxiRequest(String, String int)` that returns a `StandardTaxiRequest` object as the `pickUpLocation` is of type `String` and both
-`numberOfPassingers` and `TaxiType` have been negated from the method call.
+   `numberOfPassingers` and `TaxiType` have been negated from the method call.
 
 2. The second `.getTaxiRequest(Restaurant, String, int)` that returns a `FoodDeliveryRequest` object as the `pickUpLocation` is of type `Restaurant`.
 
