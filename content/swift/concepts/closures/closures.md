@@ -144,7 +144,7 @@ func find(search: @autoclosure () -> Bool) {
   }
 }
 
-find(search: 122 < 82 )
+find(search: 122 < 82)
 ```
 
 The `@autoclosure` attribute is used right before the parameters in the closure argument. When the function is called, the argument is automatically converted into a closure.
