@@ -22,57 +22,60 @@ The abstract factory is often thought of a factory of factory patterns. Much lik
 
 ## Java Example
 
-Gateway
+To illustrate the abstract factory pattern, below provides a real-world example, in Java, depicting potential considerations for a banking account system. A potential customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Blow is a table of accounts and their privileges: 
+
+| Customer Type | Current                     | Saving                |
+|---------------|-----------------------------|-----------------------|
+| Gold          | Max overdraft limit of 3500 | Interest rate of 5%   |
+| Silver        | Max overdraft limit of 1200 | Interest rate of 3%   |
+| Bronze        | Max overdraft limit of 500  | Interest rate of 1.5% |
+| Builder       | No overdraft                | Interest rate of 1.5% |
+  
+To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customers name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. We can later use this class to see the different paths through our abstract factory.
 
 ```java
 public class CreditAgencyGateway {
   // Depending on which name is searched for, a different customer object is returned
   public Customer getCustomer(String name) {
-    switch (name) {
-      case "Harry":
-        return new Customer("Harry",
-                            "Potter",
-                            LocalDate.of(1980, 7, 31),
-                            "4 Privet Drive, Little Whinging",
-                            795);
-      case "Ron":
-        return new Customer("Ron",
-                            "Weasley",
-                            LocalDate.of(1980, 3, 1),
-                            "Shell Cottage, Cornwall",
-                            379);
-      case "Hermione":
-        return new Customer("Hermione",
-                            "Granger",
-                            LocalDate.of(1979, 9, 19),
-                            "12 Grimmauld Palace, London",
-                            843);
-      case "Lucius":
-        return new Customer("Lucius",
-                            "Malfoy",
-                            LocalDate.of(1954, 2, 4),
-                            "Malfoy Mannor, Wiltshire",
-                            978);
-      case "Dobby":
-        return new Customer("Dobby",
-                            "the house elf",
-                            LocalDate.of(1972, 6, 28),
-                            "Malfoy Mannor, Wiltshire",
-                            256);
-      case "Sirius":
-        return new Customer("Sirius",
-                            "Black",
-                            LocalDate.of(1959, 11, 3),
-                            "12, Grimmauld Place, London",
-                            169);
-      default:
-        throw new IllegalArgumentException("Could not return the credit history for " + name);
-    }
+    return switch (name) {
+      case "Harry" -> new Customer("Harry",
+                                   "Potter",
+                                   LocalDate.of(1980, 7, 31),
+                                   "4 Privet Drive, Little Whinging",
+                                   795);
+      case "Ron" -> new Customer("Ron",
+                                 "Weasley",
+                                 LocalDate.of(1980, 3, 1),
+                                 "Shell Cottage, Cornwall",
+                                 379);
+      case "Hermione" -> new Customer("Hermione",
+                                      "Granger",
+                                      LocalDate.of(1979, 9, 19),
+                                      "12 Grimmauld Palace, London",
+                                      843);
+      case "Lucius" -> new Customer("Lucius",
+                                    "Malfoy",
+                                    LocalDate.of(1954, 2, 4),
+                                    "Malfoy Mannor, Wiltshire",
+                                    978);
+      case "Dobby" -> new Customer("Dobby",
+                                   "the house elf",
+                                   LocalDate.of(1972, 6, 28),
+                                   "Malfoy Mannor, Wiltshire",
+                                   256);
+      case "Sirius" -> new Customer("Sirius",
+                                    "Black",
+                                    LocalDate.of(1959, 11, 3),
+                                    "12, Grimmauld Place, London",
+                                    169);
+      default -> throw new IllegalArgumentException("Could not return the credit history for " + name);
+    };
   }
 }
 ```
+The `CreditAgencyGateway` uses a switch statement to query a provided `name`. If the name is recognised a new customer is returned, else an exception is thrown.
 
-Modal : Current accounts
+One of the main advantages to factory patterns, are they allow for a large amount of model classes and enforce a common interface between them. Below provides an abstract model `CurrentAccount` class for its concrete sub-classes to be based on:
 
 ```java
 public abstract class CurrentAccount {
@@ -104,6 +107,10 @@ public abstract class CurrentAccount {
   // Getters
 }
 ```
+
+The parent class above, as well as providing the common fields and constructor, requires its children to implement the `increaseOverdraft` method. This is the differentiating feature described between each current account. 
+
+Below provides the concrete implementations of `CurrentAccount` for this example:
 
 ```java
 public class GoldPersonal extends CurrentAccount {
@@ -177,7 +184,9 @@ public class CreditBuilder extends CurrentAccount {
 }
 ```
 
-Model : Savings accounts
+In each concrete current account, a `static` variable (`MAX_OVERDRAFT`) hase been provided and constructed with the correct value. This is then used in the `increaseOverdraft` method to ensure this limit is not exceeded.
+
+Below provides an abstract model `SavingsAccount` class for its concrete sub-classes to be based on:
 
 ```java
 public abstract class SavingAccount {
@@ -205,6 +214,10 @@ public abstract class SavingAccount {
   // Getters and setter
 }
 ```
+
+Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `addInterest` method. This is the differentiating feature described between each savings account.
+
+Below provides the concrete implementations of `SavingAccount` for this example:
 
 ```java
 public class GoldSaver extends SavingAccount {
@@ -263,20 +276,19 @@ public class BronzeSaver extends SavingAccount {
 }
 ```
 
-Abstract Factory
+In each concrete savings account, a `static` variable (`INTEREST_RATE_MULTIPLIER`) has been provided and constructed with the correct value. This is then used to calculate interest in the `addInterest` method.
+
+The purpose of the `AccountFactory` is to return one of its concrete factories. Below provides the example of the abstract factory `AccountFactory`.
 
 ```java
 public abstract class AccountFactory<T> {
   // Returns different concrete factory depending on AccountType
   public static AccountFactory<?> getAccountFactory(AccountType accountType) {
-    switch (accountType) {
-      case SAVINGS :
-        return new SavingAccountFactory();
-      case CURRENT :
-        return new CurrentAccountFactory();
-      default:
-        throw new IllegalArgumentException("Unknown account type: " + accountType);
-    }
+    return switch (accountType) {
+        case SAVINGS -> new SavingAccountFactory();
+        case CURRENT -> new CurrentAccountFactory();
+        default -> throw new IllegalArgumentException("Unknown account type: " + accountType);
+      };
   }
   // Enforces concrete factories to override this method
   public abstract T getAccount(Customer customer);
@@ -286,7 +298,7 @@ public abstract class AccountFactory<T> {
       return CustomerType.GOLD;
     } else if (customer.getCreditScore() > 400) {
       return CustomerType.SILVER;
-    } else if (customer.getCreditScore() > 200){
+    } else if (customer.getCreditScore() > 200) {
       return CustomerType.BRONZE;
     } else {
       return CustomerType.BUILDER;
@@ -294,6 +306,9 @@ public abstract class AccountFactory<T> {
   }
 }
 ```
+The `AccountFactory` enforces its concrete sub-classes to implement its abstract method `getAccount`. It also includes an implemented method `getCustomerType` to reduce duplication. The logic for returning a `CustomerType` is the same in both `CurrentAccountFactory` and `SavingAccountFactory`. We might expect this logic to be in the concrete classes below as they use this logic, but in this example it doesn't matter.
+
+Finally, the `getAccountFactory` method uses a switch statement to return a concrete factory depending on an `AccountType`. The `AccountType` enum is provided below:
 
 ```java
 public enum AccountType {
@@ -302,12 +317,10 @@ public enum AccountType {
 }
 ```
 
-Concrete Factories
+The concrete factories `CurrentAccountfactory` and `SavingAccountFactory` are responsible for returning the correct concrete model class when called. See the implementation below:
 
 ```java
-public class CurrentAccountFactory extends AccountFactory<CurrentAccount>
-{
-
+public class CurrentAccountFactory extends AccountFactory<CurrentAccount> {
   // Concrete overridden method
   @Override
   public CurrentAccount getAccount(Customer customer) {
@@ -325,9 +338,7 @@ public class CurrentAccountFactory extends AccountFactory<CurrentAccount>
 ```
 
 ```java
-public class SavingAccountFactory extends AccountFactory<SavingAccount>
-{
-
+public class SavingAccountFactory extends AccountFactory<SavingAccount> {
   // Concrete overridden method
   @Override
   public SavingAccount getAccount(Customer customer) {
@@ -343,7 +354,9 @@ public class SavingAccountFactory extends AccountFactory<SavingAccount>
 }
 ```
 
-Client
+An implementation has been provided for the `getAccount` method. The `CustomerType` is worked out using its parent's `getCustomerType` method and captured before being used in a switch statement that returns the appropriate objects. 
+
+The `Main` class below, starts the program and acts as the client in this example. It begins by getting a customer from the `CreditAgencyGateway`and gets an appropriate factory by using the `getAccountFactory` method. Changing the name in the `getCustomer` method or changing the `AccountType` in the `getAccountFactory` method will yield different results. A specific `CurrentAccount` or `SavingAccount` can then be returned by the `getAccount` method.
 
 ```java
 public class Main {
