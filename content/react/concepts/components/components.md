@@ -13,12 +13,12 @@ CatalogContent:
 
 In React, components make up the UI of the application. Components are pieces of code that are reusable and independent. Each component comes with one or both of the following:
 
-- A [`state` object](https://www.codecademy.com/resources/docs/react/state) that contains component data that is expected to change over time.
-- A [`props` object](https://www.codecademy.com/resources/docs/react/props) with data that can be passed down from parent component to child component.
+- A [state object](https://www.codecademy.com/resources/docs/react/state) that contains component data that is expected to change over time.
+- A [props object](https://www.codecademy.com/resources/docs/react/props) with data that can be passed down from parent component to child component.
 
 ## Class Components
 
-Class components contain a state and use a `render()` function to return JSX markup. When defined, the `class` has to be an extention of the `React.Component` class:
+Class components contain a state and use a `render()` function to return [JSX](https://www.codecademy.com/resources/docs/react/jsx) markup. When defined, the `class` has to be an extention of the `React.Component` class:
 
 ```jsx
 import React from 'react';

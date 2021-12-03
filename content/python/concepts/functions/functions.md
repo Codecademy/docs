@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the `def` keyword. Function definitions may include parameters, providing data input to the function.
@@ -61,7 +60,7 @@ write_a_book("Naomi", "engineering school", "welding")
 
 The output will be:
 
-```
+```shell
 Naomi is in engineering school practicing welding.
 ```
 
@@ -117,7 +116,7 @@ write_a_book(color="yellow", clothing_item="raincoat", name="Jonas")
 
 The output will be:
 
-```
+```shell
 Jonas was wearing a yellow raincoat.
 ```
 
@@ -129,7 +128,7 @@ write_a_book(name="Jonas", "yellow", "raincoat")
 
 The call above raises the following exception:
 
-```
+```error
 SyntaxError: positional argument follows keyword argument
 ```
 
@@ -162,7 +161,7 @@ north_american_capitals(canada="Ottawa", us="Washington D.C.", mexico="Mexico Ci
 
 The output of the function call will be:
 
-```
+```shell
 canada: Ottawa
 us: Washington, D.C.
 mexico: Mexico City
@@ -239,7 +238,7 @@ print(list(perfect_squares))
 
 The act of defining a function using the `def` keyword binds that function to a name. However, some functions can be defined without giving them a name. Such functions are called "anonymous" and are defined using the `lambda` keyword.
 
-```
+```pseudo
 lambda <parameters> : <function body>
 ```
 
