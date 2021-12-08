@@ -21,10 +21,10 @@ React Router is a third-party library that allow components to be used as routed
 - `react-router-native`: React Native version
 - `react-router-dom`: Recommended for web applications
 
-Install with `npm`:
+Install the newest version with `npm`:
 
 ```
-npm install react-router-dom
+npm install react-router-dom@latest
 ```
 
 ## Example
