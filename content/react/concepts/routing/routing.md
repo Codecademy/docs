@@ -29,7 +29,7 @@ npm install react-router-dom
 
 ## Example
 
-Below, a `BrowserRouter` is used to map the navigation `<Link/>` components to a `<Switch/>` component. The `<Switch/>` renders the appropriate `<Route>` based on a top-down search and match between the `to` attribute in the `Link` and the `path` attribute in the `Route`.
+Below, a `<BrowserRouter/>` (aliased as `<Router/>`) is used to map the navigation `<Link/>` components to a `<Routes/>` component. The `<Routes/>` renders the appropriate `<Route>` based on the most specific-matching `path` among all possible matches .
 
 ```jsx
 import Home from './Home';
