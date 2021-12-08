@@ -128,7 +128,7 @@ func find(search: () -> Bool) {
 }
 
 find(search: { 122 < 82 })
-# Output: The result came back false!
+// Output: The result came back false!
 ```
 
 This function prints `The result was true!` when the argument is `true`, else it prints `The result came back false`. In this example, the latter is printed since `122` is not less than `82`.
@@ -144,7 +144,7 @@ func find(search: @autoclosure () -> Bool) {
   }
 }
 
-find(search: 122 < 82 )
+find(search: 122 < 82)
 ```
 
 The `@autoclosure` attribute is used right before the parameters in the closure argument. When the function is called, the argument is automatically converted into a closure.
@@ -196,14 +196,15 @@ func counter() -> () -> Int {
 }
 
 let countUp = counter()
-print(countUp()) // Output 1
-print(countUp()) // Output 2
-print(countUp()) // Output 3
+
+print(countUp())    // Output: 1
+print(countUp())    // Output: 2
+print(countUp())    // Output: 3
 
 let countUpTwo = counter()
-print(countUpTwo()) // Output 1
 
-print(countUp()) // Output 4
+print(countUpTwo()) // Output: 1
+print(countUp())    // Output: 4
 ```
 
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other.
