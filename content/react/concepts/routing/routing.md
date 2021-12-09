@@ -1,6 +1,6 @@
 ---
 Title: 'Routing'
-Description: 'React Router is a third-party library that allows components to be used as routed endpoints on an application.'
+Description: 'Allows React components to be used as routed endpoints within an application.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
 
 In React, routing is most commonly achieved through React Router.
 
-React Router is a third-party library that allow components to be used as routed endpoints on an application. This library comes in three packages:
+React Router is a third-party library that allow components to be used as routed endpoints with an application. This library comes in three packages:
 
 - `react-router`: For core functionality
 - `react-router-native`: React Native version
