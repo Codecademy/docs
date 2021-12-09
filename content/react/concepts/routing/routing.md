@@ -34,7 +34,7 @@ The newest version of React Router is v6, which comes with many breaking changes
 
 ## Example
 
-Below, a `<BrowserRouter/>` (aliased as `<Router/>`) is used to map the navigation `<Link/>` components to a `<Routes/>` component. The `<Routes/>` renders the appropriate `<Route>` based on the most specific-matching `path` among all possible matches .
+Below, a `<BrowserRouter/>` (aliased as `<Router/>`) is used to map the navigation `<Link/>` components to a `<Routes/>` component. The `<Routes/>` renders the appropriate `<Route>` based on the most specific-matching `path` among all possible matches.
 
 ```jsx
 import Home from './Home';
