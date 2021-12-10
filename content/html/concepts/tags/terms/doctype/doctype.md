@@ -12,7 +12,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<!DOCTYPE>` tag tells the users browser that the current file is HTML and not another type such as JS or CSS
+The `<!DOCTYPE>` tag tells the browser that the current file is written in HTML and not another type such as JavaScript or CSS.
 
 ## How to Use
 
