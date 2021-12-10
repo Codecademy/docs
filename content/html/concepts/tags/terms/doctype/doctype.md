@@ -12,11 +12,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The doctype tells the browser that a given file is a markup (`.html`) file and that a set of web standards must be applied to it.
+The doctype tells the browser that a given file is a markup **.html** file and that a set of web standards must be applied to it.
 
 ## Syntax
 
-`<!DOCTYPE html>`
+```html
+<!DOCTYPE html>
+```
 
 ## Example
 
