@@ -28,7 +28,7 @@ The HTML element is everything from the opening tag to the closing tag:
 - `Hello World!` is the content.
 - `</p>` is the closing tag.
 
-**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are "self-closing".
+**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are "self-closing". Also self closing tags such as `<br>` can have a slash at the end like this `<br />` but it is not required and it will render the same.
 
 ## Nested HTML Elements
 
@@ -61,6 +61,6 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 
 So here are the relationships for `<h1>`:
 
-- `<h1>` is the child of `<div>`
-- `<h1>` is the grandchild of `<body>`
+- `<h1>` is the child of `<div>` and the `div` is the parent of the `<h1>`
+- `<h1>` is the grandchild of `<body>` and the `<body>` is the grandparent of the `<h1>`
 - `<h1>` is the sibling of `<h2>`
