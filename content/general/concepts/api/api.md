@@ -30,8 +30,6 @@ APIs can be divided into three groups:
 
 ## Benefits and Risks of Using APIs
 
-APIs make it possible for developers to connect to vendors, products, services or infrastructure and to use them for their own needs.
-
 The main benefits of using APIs are:
 
 - Cost saving through the elimination of the need to build and maintain local physical infrastructure and services.
