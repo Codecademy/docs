@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<!DOCTYPE>` tag tells the browser that the current file is written in HTML and not another type such as JavaScript or CSS.
+The `<!DOCTYPE>` tag tells the browser that a given file is a markup (`.html`) file and that the browser must apply full web standards to it.
 
 ## Syntax
 
