@@ -1,6 +1,6 @@
 ---
 Title: '<embed>'
-Description: 'The <embed> tag allows you to "Embed" a video, image, page and more.'
+Description: 'Inserts a video, image, page, and more.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
