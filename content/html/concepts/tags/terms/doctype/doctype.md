@@ -16,7 +16,7 @@ The `<!DOCTYPE>` tag tells the browser that the current file is written in HTML 
 
 ## How to Use
 
-To use in a HTML file, simply add the `<!DOCTYPE>` tag to the top of your HTML
+The `<!DOCTYPE>` tag is added to the top of an HTML file.
 
 ```html
 <!DOCTYPE html>
