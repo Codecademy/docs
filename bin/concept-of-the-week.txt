@@ -1,1 +1,1 @@
-content/css/concepts/grids/grids.md
+content/general/concepts/ken-thompson/ken-thompson.md
