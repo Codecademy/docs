@@ -27,3 +27,26 @@ APIs can be divided into three groups:
 - Private APIs, also known as Internal APIs, are used primarily within a company to share resources and facilitate the business. (e.g. Company Warehouse API for managing inventory with code).
 
 - Partner APIs require rights or specific licenses for use. These APIs are popular in software-as-a-service platforms (e.g. [AWS API](https://docs.aws.amazon.com/general/latest/gr/aws-apis.html)).
+
+## Benefits and Risks of Using APIs
+
+The main benefits of using APIs are:
+
+- Cost saving through the elimination of the need to build and maintain local physical infrastructure and services.
+
+- Opportunity to leverage the expertise of different vendors instead of having to reinvent from scratch things like authentication, payment processing, maps, etc. 
+
+- Possibility to build new businesses based on the exchange of data between users and various online services offering API access to independent developers. 
+
+
+The main risks associated with using APIs are:
+
+- Having no control over the vendor's infrastrucure or how the vendor allows developers to access it through the API. 
+
+- Unpredictability of the vendor's internal decision-making may have a very adverse effect on businesses relying on the API. 
+
+- Having little or no control over exactly what data the API collects and how it ends up being used by the API's provider.
+
+- APIs are gateways and are often subject to hacker attacks. As soon as an API is breached, other systems become vulnerable. It is commonly predicted that API abuses will become the most frequent vector of attack in the coming years. 
+
+- API providers run the risk of their legitimate business partners abusing the API to suit their own needs. 
