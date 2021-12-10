@@ -26,7 +26,7 @@ The `<!DOCTYPE>` tag is added to the top of an HTML file.
   </head>
 
   <body>
-    The content of the document......
+    The content of the document...
   </body>
 </html>
 ```
