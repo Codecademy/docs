@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<!DOCTYPE>` tag tells the browser that a given file is a markup (`.html`) file and that the browser must apply full web standards to it.
+The doctype tells the browser that a given file is a markup (`.html`) file and that full web standards must be applied to it.
 
 ## Syntax
 
