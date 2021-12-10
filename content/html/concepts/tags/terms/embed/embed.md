@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<embed>` tag allows you to embed content onto your page. It can be used to embed many types of content, however there are more specific tags such as `<video>`, `<img>` and `<iframe>`. It should only be used if there is no better option
+The `<embed>` tag allows you to embed content onto your page. It can be used to embed many types of content, however, there are more specific tags such as `<video>`, `<img>` and `<iframe>`. It should only be used if there is no better option.
 
 <!--  -->
 
