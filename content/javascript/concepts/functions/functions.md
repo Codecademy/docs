@@ -24,7 +24,7 @@ Function declarations are used to create named functions. These functions can be
 - An optional list of parameters separated by commas enclosed by a set of parentheses `()`.
 - A function body enclosed in a set of curly braces `{}`.
 
-The example code provided contains a function named `add()` that takes in 2 values and prints the sum of those numbers:
+The example code provided contains a function named `sum()` that takes in 2 values and prints the sum of those numbers:
 
 ```js
 function sum(number1, number2) {
