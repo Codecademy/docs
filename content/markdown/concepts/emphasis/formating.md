@@ -62,7 +62,7 @@ To make text strikethrough, use 2 `~` before and after a piece of text.
 For example:
 
 ```markdown
-I did ~~not~~ code a website
+I did ~~not~~ build a website.
 ```
 
 You can also combine diffrent formmating opptions.
