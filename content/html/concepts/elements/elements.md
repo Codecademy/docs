@@ -28,7 +28,7 @@ The HTML element is everything from the opening tag to the closing tag:
 - `Hello World!` is the content.
 - `</p>` is the closing tag.
 
-**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are "self-closing". Also self closing tags such as `<br>` can have a slash at the end like this `<br />` but it is not required and it will render the same.
+**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are referred to as self-closing. Also, self-closing tags such as `<br>` can have a slash at the end like this `<br />` but it is not required and will render the same.
 
 ## Nested HTML Elements
 
