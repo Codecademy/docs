@@ -27,7 +27,7 @@ Function declarations are used to create named functions. These functions can be
 The example code provided contains a function named `add()` that takes in 2 values and prints the sum of those numbers:
 
 ```js
-function add(number1, number2) {
+function sum(number1, number2) {
   console.log(number1 + number2);
 }
 ```
