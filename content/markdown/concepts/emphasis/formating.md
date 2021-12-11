@@ -50,3 +50,24 @@ For example:
 ```markdown
 This avacado egg sandwich is _very_ good.
 ```
+
+## Strikethrough 
+
+To make text strikethrough, use 2 ~ before and after a peace of text.
+
+```markdown
+~~Strikethrough text~~
+```
+
+For example:
+
+```markdown
+I did ~~not~~ code a website
+```
+
+You can also combine diffrent formmating opptions.
+Example:
+
+```markdown
+**This is bold __and italics__ ~~and strikethrough~~**
+```
