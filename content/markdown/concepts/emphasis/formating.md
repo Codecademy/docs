@@ -65,9 +65,9 @@ For example:
 I did ~~not~~ build a website.
 ```
 
-You can also combine diffrent formmating opptions.
+You can also combine different formatting options.
+
 Example:
 
 ```markdown
-**This is bold __and italics__ ~~and strikethrough~~**
-```
+**This is in bold, _italics_, ~~and strikethrough~~**
