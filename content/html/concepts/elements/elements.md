@@ -61,6 +61,8 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 
 So here are the relationships for `<h1>`:
 
-- `<h1>` is the child of `<div>` and the `div` is the parent of the `<h1>`
-- `<h1>` is the grandchild of `<body>` and the `<body>` is the grandparent of the `<h1>`
+- `<h1>` is the child of `<div>`
+- `<div>` is the parent of the `<h1>`
+- `<h1>` is the grandchild of `<body>`
+- `<body>` is the grandparent of the `<h1>`
 - `<h1>` is the sibling of `<h2>`
