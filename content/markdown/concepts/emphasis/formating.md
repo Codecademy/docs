@@ -53,7 +53,7 @@ This avacado egg sandwich is _very_ good.
 
 ## Strikethrough 
 
-To make text strikethrough, use 2 ~ before and after a peace of text.
+To make text strikethrough, use 2 `~` before and after a piece of text.
 
 ```markdown
 ~~Strikethrough text~~
