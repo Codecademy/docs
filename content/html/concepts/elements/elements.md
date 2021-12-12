@@ -19,7 +19,7 @@ An HTML element is a piece of content in an HTML document.
 HTML elements typically use the following syntax:
 
 ```pseudo
-<opening tag>content</closing tag>
+<opening tag> content </closing tag>
 ```
 
 ## Example
