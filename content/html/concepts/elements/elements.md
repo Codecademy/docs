@@ -65,7 +65,7 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 </body>
 ```
 
-Here are the relationships depicted above in relation to the '<h1>' tag:
+Here are the relationships depicted above in relation to the `<h1>` tag:
 
 - `<h1>` is the child of `<div>`
 - `<div>` is the parent of the `<h1>`
