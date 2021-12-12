@@ -15,7 +15,7 @@ CatalogContent:
 An HTML element is a piece of content in an HTML document and uses the following syntax:
 
 ```html
-<opening tag> content <closing tag></closing></opening>
+<opening tag>content<closing tag></closing></opening>
 ```
 
 The HTML element is everything from the opening tag to the closing tag:
