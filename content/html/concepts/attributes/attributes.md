@@ -1,6 +1,6 @@
 ---
 Title: 'Attributes'
-Description: 'HTML attributes can be added to the opening tag of an HTML element to change the elements default behavior or provide additional information about the element. They consist of a name and a value using the following syntax: name="value".'
+Description: 'Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it. Attributes consist of a name and a value in the format name="value".'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-HTML attributes can be added to the opening tag of an HTML element to change the element's default behavior or provide additional information about the element.
+Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it.
 
-They consist of a name and a value using the following syntax: `name="value"`.
+Attributes consist of a name and a value in the format `name="value"`:
 
 ```pseudo
 <tag name="value"></tag>
@@ -30,21 +30,19 @@ So for example, the `<img>` image element has a mandatory `src` attribute that c
 - `src` is the attribute name.
 - `codecademy_logo.png` is the attribute value.
 
-All HTML elements can have attributes. Multiple of them, too!
+All HTML elements can have attributes; many have more than one.
 
 ```html
 <img src="nyan_cat.gif" width="500" height="600" />
 ```
 
-**Note:** Attribute names are case insensitive, but it is a good practice to keep HTML markup lowercase.
+**Note:** Attribute names are not case-sensitive, but it is good practise to write HTML markup in lowercase.
 
 ## Unique ID Attributes
 
-In HTML, specific and unique `id` attributes can be assigned to different elements in order to differentiate between them.
+Specific and unique `id` attributes can be assigned to elements to differentiate them, and `id` values can be referenced in CSS and JavaScript to manipulate, format, and perform specific instructions on a single element alone, without affecting others of the same type.
 
-When needed, the `id` value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only.
-
-Valid `id` attributes should begin with a letter and should only contain letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
+Valid `id` attribute values begin with a letter and must comprise only letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
 
 ```html
 <h1 id="th1s_is.v4lid">Hello World</h1>
@@ -52,7 +50,7 @@ Valid `id` attributes should begin with a letter and should only contain letters
 
 ## Example
 
-In the provided example, we are giving the `<p>` paragraph element an unique identifier using the `id` attribute and changing the color of the default text using the `style` attribute:
+In this example, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
 
 ```html
 <p id="my-paragraph" style="color: aqua;">
