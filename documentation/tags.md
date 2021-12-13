@@ -113,7 +113,6 @@ Functional Programming
 Ggplot2
 Git
 GitHub
-Go
 Graphics
 Graphs
 Graph Search
@@ -126,7 +125,6 @@ Headings
 Heap
 Heroku
 Histograms
-HTML
 HTTP
 Id
 IDE
