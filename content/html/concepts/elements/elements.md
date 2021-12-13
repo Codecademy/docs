@@ -24,7 +24,6 @@ HTML elements typically use the following syntax:
 
 ## Example
 
-
 ```html
 <p>Hello World!</p>
 ```
