@@ -1,6 +1,6 @@
 ---
 Title: 'Elements'
-Description: 'An HTML element is a piece of content in an HTML document and uses the following syntax: html  content   The HTML element is everything from the opening tag to the closing tag: html Hello World!'
+Description: 'An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,13 +12,17 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An HTML element is a piece of content in an HTML document and uses the following syntax:
+An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag.
 
-```html
-<opening tag> content <closing tag></closing></opening>
+## Syntax
+
+HTML elements typically use the following syntax:
+
+```pseudo
+<opening tag> content </closing tag>
 ```
 
-The HTML element is everything from the opening tag to the closing tag:
+## Example
 
 ```html
 <p>Hello World!</p>
@@ -28,7 +32,7 @@ The HTML element is everything from the opening tag to the closing tag:
 - `Hello World!` is the content.
 - `</p>` is the closing tag.
 
-**Note:** Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag, so they are "self-closing".
+**Note:** Some HTML elements have no content, like the `<br>` element. These elements are called empty elements. Empty elements do not have a closing tag, so they are referred to as self-closing. Also, self-closing tags such as `<br>` can have a slash at the end like so: `<br />`.
 
 ## Nested HTML Elements
 
@@ -59,8 +63,10 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 </body>
 ```
 
-So here are the relationships for `<h1>`:
+Here are the relationships depicted above in relation to the `<h1>` tag:
 
 - `<h1>` is the child of `<div>`
+- `<div>` is the parent of the `<h1>`
 - `<h1>` is the grandchild of `<body>`
+- `<body>` is the grandparent of the `<h1>`
 - `<h1>` is the sibling of `<h2>`
