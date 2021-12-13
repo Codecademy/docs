@@ -22,15 +22,15 @@ The abstract factory is often thought of a factory of factory patterns. Much lik
 
 ## Java Example
 
-To illustrate the abstract factory pattern, below provides a real-world example, in Java, depicting potential considerations for a banking account system. A potential customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Blow is a table of accounts and their privileges: 
+To illustrate the abstract factory pattern, below provides a real-world example, in Java, depicting potential considerations for a banking account system. A potential customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Blow is a table of accounts and their privileges:
 
 | Customer Type | Current                     | Saving                |
-|---------------|-----------------------------|-----------------------|
+| ------------- | --------------------------- | --------------------- |
 | Gold          | Max overdraft limit of 3500 | Interest rate of 5%   |
 | Silver        | Max overdraft limit of 1200 | Interest rate of 3%   |
 | Bronze        | Max overdraft limit of 500  | Interest rate of 1.5% |
 | Builder       | No overdraft                | Interest rate of 1.5% |
-  
+
 To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customers name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. We can later use this class to see the different paths through our abstract factory.
 
 ```java
@@ -73,6 +73,7 @@ public class CreditAgencyGateway {
   }
 }
 ```
+
 The `CreditAgencyGateway` uses a switch statement to query a provided `name`. If the name is recognised a new customer is returned, else an exception is thrown.
 
 One of the main advantages to factory patterns, are they allow for a large amount of model classes and enforce a common interface between them. Below provides an abstract model `CurrentAccount` class for its concrete sub-classes to be based on:
@@ -108,7 +109,7 @@ public abstract class CurrentAccount {
 }
 ```
 
-The parent class above, as well as providing the common fields and constructor, requires its children to implement the `increaseOverdraft` method. This is the differentiating feature described between each current account. 
+The parent class above, as well as providing the common fields and constructor, requires its children to implement the `increaseOverdraft` method. This is the differentiating feature described between each current account.
 
 Below provides the concrete implementations of `CurrentAccount` for this example:
 
@@ -230,7 +231,7 @@ public class GoldSaver extends SavingAccount {
   // Concrete overridden method
   @Override
   public void addInterest() {
-    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
       this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
     }
@@ -249,7 +250,7 @@ public class SilverSaver extends SavingAccount {
   // Concrete overridden method
   @Override
   public void addInterest() {
-    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
       this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
     }
@@ -268,9 +269,9 @@ public class BronzeSaver extends SavingAccount {
   // Concrete overridden method
   @Override
   public void addInterest() {
-    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth() 
+    if (LocalDate.now().getMonth() == this.getDateOpened().getMonth()
             && LocalDate.now().getDayOfMonth() == this.getDateOpened().getDayOfMonth()) {
-      this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER); 
+      this.setBalance(this.getBalance() * INTEREST_RATE_MULTIPLIER);
     }
   }
 }
@@ -306,6 +307,7 @@ public abstract class AccountFactory<T> {
   }
 }
 ```
+
 The `AccountFactory` enforces its concrete sub-classes to implement its abstract method `getAccount`. It also includes an implemented method `getCustomerType` to reduce duplication. The logic for returning a `CustomerType` is the same in both `CurrentAccountFactory` and `SavingAccountFactory`. We might expect this logic to be in the concrete classes below as they use this logic, but in this example it doesn't matter.
 
 Finally, the `getAccountFactory` method uses a switch statement to return a concrete factory depending on an `AccountType`. The `AccountType` enum is provided below:
@@ -343,7 +345,7 @@ public class SavingAccountFactory extends AccountFactory<SavingAccount> {
   @Override
   public SavingAccount getAccount(Customer customer) {
     final CustomerType customerType = getCustomerType(customer);
-    
+
     return switch (customerType) {
       case GOLD -> new GoldSaver(customer, LocalDate.now(), 0);
       case SILVER -> new SilverSaver(customer, LocalDate.now(), 0);
@@ -354,7 +356,7 @@ public class SavingAccountFactory extends AccountFactory<SavingAccount> {
 }
 ```
 
-An implementation has been provided for the `getAccount` method. The `CustomerType` is worked out using its parent's `getCustomerType` method and captured before being used in a switch statement that returns the appropriate objects. 
+An implementation has been provided for the `getAccount` method. The `CustomerType` is worked out using its parent's `getCustomerType` method and captured before being used in a switch statement that returns the appropriate objects.
 
 The `Main` class below, starts the program and acts as the client in this example. It begins by getting a customer from the `CreditAgencyGateway`and gets an appropriate factory by using the `getAccountFactory` method. Changing the name in the `getCustomer` method or changing the `AccountType` in the `getAccountFactory` method will yield different results. A specific `CurrentAccount` or `SavingAccount` can then be returned by the `getAccount` method.
 

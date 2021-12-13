@@ -21,4 +21,3 @@ Creational design patterns concern themselves with the instantiation of objects.
 - [Prototype](../general/prototype-pattern) : Adds cloning functionality to an objects class.
 - [Factory](../general/factory-pattern) : Creates objects without specifying the specific class.
 - [Abstract Factory](../general/abstract-factory-pattern) : Groups object factories based on a common theme.
-  
