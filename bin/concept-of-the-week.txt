@@ -1,1 +1,1 @@
-content/general/concepts/ken-thompson/ken-thompson.md
+content/swift/concepts/sets/sets.md
