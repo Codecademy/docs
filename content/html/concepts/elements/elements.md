@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An HTML element is a piece of content in an HTML document.
+An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag.
 
 ## Syntax
 
