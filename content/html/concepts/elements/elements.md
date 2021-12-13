@@ -24,7 +24,6 @@ HTML elements typically use the following syntax:
 
 ## Example
 
-The HTML element is everything from the opening tag to the closing tag:
 
 ```html
 <p>Hello World!</p>
