@@ -51,7 +51,7 @@ For example:
 This avacado egg sandwich is _very_ good.
 ```
 
-## Strikethrough 
+## Strikethrough
 
 To make a strikethrough text, use 2 tildes `~` before and after a piece of text.
 
