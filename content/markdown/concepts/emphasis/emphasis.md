@@ -51,9 +51,9 @@ For example:
 This avacado egg sandwich is _very_ good.
 ```
 
-## Strikethrough
+## Strikethrough 
 
-To strikethrough text, use 2 tildes `~` before and after a piece of text.
+To make a strikethrough text, use 2 tildes `~` before and after a piece of text.
 
 ```markdown
 ~~Strikethrough text~~
@@ -65,9 +65,7 @@ For example:
 I did ~~not~~ build a website.
 ```
 
-You can also combine different formatting options.
-
-Example:
+Different formatting options can be combined:
 
 ```markdown
 **This is in bold, _italics_, ~~and strikethrough~~**
