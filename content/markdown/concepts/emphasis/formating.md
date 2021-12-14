@@ -67,7 +67,5 @@ I did ~~not~~ build a website.
 
 Different formatting options can be combined:
 
-Example:
-
 ```markdown
 **This is in bold, _italics_, ~~and strikethrough~~**
