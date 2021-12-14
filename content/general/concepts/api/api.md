@@ -36,7 +36,7 @@ The main benefits of using APIs are:
 
 - Opportunities to leverage the expertise of other vendors instead of having to reinvent solutions for common problems. (authentication, payment processing, maps, etc.)
 
-- Possibility to build new businesses based on the exchange of data between users and various online services offering API access to independent developers.
+- Possibilities to build new businesses and products based on the exchange of data between users and various online services offering API access to independent developers.
 
 The main risks associated with using APIs are:
 
