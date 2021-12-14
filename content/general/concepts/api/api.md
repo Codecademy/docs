@@ -48,4 +48,4 @@ The main risks associated with using APIs are:
 
 - Nonsecure APIs can become gateways to hacker attacks. As soon as it is breached, other dependent systems become vulnerable. It is commonly predicted that API abuses will become the most frequent vector of attack in the coming years.
 
-- API providers run the risk of their legitimate business partners abusing the API to suit their own needs.
+- APIs can be abused by the clients themselves. One example is excessive requests to the API, which is what rate limits are meant to prevent.
