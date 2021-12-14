@@ -65,7 +65,7 @@ For example:
 I did ~~not~~ build a website.
 ```
 
-You can also combine different formatting options.
+Different formatting options can be combined:
 
 Example:
 
