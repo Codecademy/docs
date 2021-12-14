@@ -32,7 +32,7 @@ APIs can be divided into three groups:
 
 The main benefits of using APIs are:
 
-- Cost saving through the elimination of the need to build and maintain local physical infrastructure and services.
+- Cost savings through the elimination of the need to build and maintain local physical infrastructure and services.
 
 - Opportunity to leverage the expertise of different vendors instead of having to reinvent from scratch things like authentication, payment processing, maps, etc.
 
