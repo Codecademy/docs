@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in a string, and returns a copy of the string with all characters in lower case.
+Takes in a string, and returns a copy of the string with all characters in lower case. `casefold()` is similar to `lower()`, but whereas that method deals purely with ASCII text, `casefold()` converts more (unicode) characters. Take the German lowercase letter "ß", for example. `lower()` does not convert it, but `casefold()` converts it to "ss".
 
 ## Syntax
 
@@ -38,4 +38,14 @@ text = "this Should All Be In Lower Case!"
 
 x = text.casefold()
 print(x)
+```
+
+## Example 3
+
+Use `casefold()` to set all characters in a string to lower case:
+
+```codebyte/python
+text = "Straße"
+
+print(text.casefold())
 ```
