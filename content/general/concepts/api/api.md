@@ -40,11 +40,7 @@ The main benefits of using APIs are:
 
 The main risks associated with using APIs are:
 
-- Having no control over the vendor's infrastrucure or how the vendor allows developers to access it through the API.
-
-- Unpredictability of the vendor's internal decision-making may have a very adverse effect on businesses relying on the API.
-
-- Having little or no control over exactly what data the API collects and how it ends up being used by the API's provider.
+- Little to no control over the impact of vendor-only changes including business infrastructure, version updates, and data collection. 
 
 - Nonsecure APIs can become gateways to hacker attacks. As soon as it is breached, other dependent systems become vulnerable. It is commonly predicted that API abuses will become the most frequent vector of attack in the coming years.
 
