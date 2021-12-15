@@ -323,7 +323,7 @@ public enum AccountType {
 }
 ```
 
-The concrete factories `CurrentAccountfactory` and `SavingAccountFactory` are responsible for returning the correct concrete model class when called. See the implementation below:
+The following factories, `CurrentAccountFactory` and `SavingAccountFactory`, are responsible for returning the correct concrete model class when called:
 
 ```java
 public class CurrentAccountFactory extends AccountFactory<CurrentAccount> {
