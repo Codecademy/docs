@@ -279,7 +279,7 @@ public class BronzeSaver extends SavingAccount {
 }
 ```
 
-In each concrete savings account, a `static` variable (`INTEREST_RATE_MULTIPLIER`) has been provided and constructed with the correct value. This is then used to calculate interest in the `addInterest` method.
+In each concrete savings account, a `static` variable, the `INTEREST_RATE_MULTIPLIER`, has been provided and constructed with the correct value. It is then used to calculate interest in the `.addInterest()` method.
 
 The purpose of the `AccountFactory` is to return one of its concrete factories. Below provides the example of the abstract factory `AccountFactory`.
 
