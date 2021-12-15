@@ -179,7 +179,7 @@ public class CreditBuilder extends CurrentAccount {
   public CreditBuilder(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-  
+
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
@@ -252,7 +252,7 @@ public class SilverSaver extends SavingAccount {
   public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
     super(accountHolder, dateOpened, initBalance);
   }
-  
+
   // Concrete overridden method
   @Override
   public void addInterest() {
@@ -272,7 +272,7 @@ public class BronzeSaver extends SavingAccount {
   public BronzeSaver(Customer accountHolder, LocalDate dateOpened, int initBalance) {
         super(accountHolder, dateOpened, initBalance);
   }
-  
+
   // Concrete overridden method
   @Override
   public void addInterest() {
@@ -298,10 +298,10 @@ public abstract class AccountFactory<T> {
         default -> throw new IllegalArgumentException("Unknown account type: " + accountType);
       };
   }
-  
+
   // Enforces concrete factories to override this method
   public abstract T getAccount(Customer customer);
-  
+
    // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
   protected CustomerType getCustomerType(Customer customer) {
     if (customer.getCreditScore() > 700) {
@@ -373,20 +373,20 @@ The `Main` class below, starts the program and acts as the client in this exampl
 public class Main {
   public static void main(String[] args) {
     final CreditAgencyGateway creditAgencyGateway = new CreditAgencyGateway();
-    
+
     // Get customer. Change name to change outputted account types.
     final Customer customer = creditAgencyGateway.getCustomer("Sirius");
-    
+
     // Capture correct concrete factory
     AccountFactory<?> accountFactory = AccountFactory.getAccountFactory(AccountType.CURRENT);
-    
+
     // Get correct account
     final CurrentAccount currentAccount = (CurrentAccount) accountFactory.getAccount(customer);
     System.out.println(currentAccount.getClass());
-    
+
     // Capture correct concrete factory
     accountFactory = AccountFactory.getAccountFactory(AccountType.SAVINGS);
-    
+
     // Get correct account
     final SavingAccount savingAccount = (SavingAccount) accountFactory.getAccount(customer);
     System.out.println(savingAccount.getClass());
