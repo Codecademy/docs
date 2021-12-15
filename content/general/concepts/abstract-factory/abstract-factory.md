@@ -122,6 +122,7 @@ public class GoldPersonal extends CurrentAccount {
   public GoldPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
+  
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
