@@ -47,6 +47,8 @@ _italic text_
 
 For example:
 
+## Italics
+
 ```markdown
 This avacado egg sandwich is _very_ good.
 ```
