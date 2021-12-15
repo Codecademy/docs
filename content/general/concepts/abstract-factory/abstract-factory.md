@@ -143,6 +143,7 @@ public class SilverPersonal extends CurrentAccount {
   public SilverPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
+  
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
