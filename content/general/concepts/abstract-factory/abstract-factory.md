@@ -139,7 +139,7 @@ public class SilverPersonal extends CurrentAccount {
 }
 ```
 
-Lastly, here is the Bronze-level implementation:
+Here is the Bronze-level implementation:
 
 ```java
 public class BronzePersonal extends CurrentAccount {
@@ -159,6 +159,8 @@ public class BronzePersonal extends CurrentAccount {
   }
 }
 ```
+
+And finally, the Credit Builder:
 
 ```java
 public class CreditBuilder extends CurrentAccount {
@@ -181,7 +183,7 @@ public class CreditBuilder extends CurrentAccount {
 
 In each concrete current account, a `static` variable (`MAX_OVERDRAFT`) has been provided and constructed with the correct value. This is then used in the `.increaseOverdraft()` method to ensure this limit is not exceeded.
 
-Below provides an abstract model `SavingsAccount` class for its concrete sub-classes to be based on:
+Below provides an abstract model `SavingAccount` class for its concrete sub-classes to be based on:
 
 ```java
 public abstract class SavingAccount {
@@ -213,7 +215,7 @@ public abstract class SavingAccount {
 
 Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `.addInterest()` method. This is the differentiating feature described between each savings account.
 
-Below provides the concrete implementations of `SavingAccount` for this example:
+Below provides the concrete implementations of `SavingAccount` for this example. The first is the Gold-level:
 
 ```java
 public class GoldSaver extends SavingAccount {
@@ -235,6 +237,8 @@ public class GoldSaver extends SavingAccount {
 }
 ```
 
+Then the Silver-level:
+
 ```java
 public class SilverSaver extends SavingAccount {
   // The Silver Saver has a mid interest rate
@@ -254,6 +258,8 @@ public class SilverSaver extends SavingAccount {
   }
 }
 ```
+
+And finally the Bronze-level implementation:
 
 ```java
 public class BronzeSaver extends SavingAccount {
@@ -292,8 +298,8 @@ public abstract class AccountFactory<T> {
 
   // Enforces concrete factories to override this method
   public abstract T getAccount(Customer customer);
-
-   // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
+  
+  // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
   protected CustomerType getCustomerType(Customer customer) {
     if (customer.getCreditScore() > 700) {
       return CustomerType.GOLD;
