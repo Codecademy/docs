@@ -131,6 +131,8 @@ public class GoldPersonal extends CurrentAccount {
 }
 ```
 
+Next is the Silver-level implementation of the `CurrentAccount`:
+
 ```java
 public class SilverPersonal extends CurrentAccount {
   // The Silver Personal has a mid max overdraft limit
