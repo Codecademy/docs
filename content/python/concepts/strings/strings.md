@@ -71,7 +71,7 @@ But here, upon this bank and shoal of time,
 We'ld jump the life to come."""
 ```
 
-## Escape Character
+## Escape Characters
 
 Sometimes a string may have a character that Python tries to interpret, such as `'`.
 
