@@ -31,7 +31,7 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 
 <!-- Please check ALL the boxes: -->
 
-- [ ] All writings are my own.
+- [ ] All writing is my own.
 - [ ] My entry follows the Codecademy Docs style guide.
 - [ ] My changes generate no new warnings.
 - [ ] I have performed a self-review of my own writing and code.
