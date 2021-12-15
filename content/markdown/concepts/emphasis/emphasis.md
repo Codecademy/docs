@@ -1,6 +1,6 @@
 ---
 Title: 'Emphasis'
-Description: 'Applies importance by making text bold, italic, and/or strikethrough.'
+Description: 'Applies importance to text by making it bold, italic, and/or strikethrough.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
@@ -46,8 +46,6 @@ _italic text_
 ```
 
 For example:
-
-## Italics
 
 ```markdown
 This avacado egg sandwich is _very_ good.
