@@ -164,6 +164,7 @@ public class BronzePersonal extends CurrentAccount {
   public BronzePersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
+  
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
