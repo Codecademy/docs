@@ -237,6 +237,7 @@ public class GoldSaver extends SavingAccount {
   public GoldSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
     super(accountHolder, dateOpened, initBalance);
   }
+  
   // Concrete overridden method
   @Override
   public void addInterest() {
