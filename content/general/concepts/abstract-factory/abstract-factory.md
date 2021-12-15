@@ -94,6 +94,7 @@ public abstract class CurrentAccount {
   // Getters
 }
 ```
+**Note:** Getters have been excluded from the above code snippet.
 
 The parent `CurrentAccount` class above, as well as providing the common fields and constructor, requires its children to implement the `.increaseOverdraft()` method. This is the differentiating feature described between each current account.
 
@@ -209,9 +210,11 @@ public abstract class SavingAccount {
   // Enforces concrete classes to override this method
   public abstract void addInterest();
 
-  // Getters and setter
+  // Getters
 }
 ```
+
+**Note:** Getters have been excluded from the above code snippet.
 
 Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `.addInterest()` method. This is the differentiating feature described between each savings account.
 
