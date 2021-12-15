@@ -314,7 +314,7 @@ public abstract class AccountFactory<T> {
 
 The `AccountFactory` enforces its concrete sub-classes to implement its abstract `.getAccount()` method. A `.getCustomerType()` is included to reduce duplication. The same logic for returning a `CustomerType` is used in `CurrentAccountFactory` and `SavingAccountFactory`. We might expect this logic to be in the concrete classes below as they use this logic, but in this example it doesn't matter.
 
-Finally, the `getAccountFactory` method uses a switch statement to return a concrete factory depending on an `AccountType`. The `AccountType` enum is provided below:
+Finally, the `.getAccountFactory()` method uses a `switch` statement to return a concrete factory depending on an `AccountType`, with the `enum` provided below:
 
 ```java
 public enum AccountType {
