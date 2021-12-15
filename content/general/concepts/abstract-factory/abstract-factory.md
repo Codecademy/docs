@@ -241,7 +241,7 @@ public class GoldSaver extends SavingAccount {
 
 ```java
 public class SilverSaver extends SavingAccount {
-  // The Silver Saver has an mid interest rate
+  // The Silver Saver has a mid interest rate
   public static final double INTEREST_RATE_MULTIPLIER = 1.03;
 
   public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
