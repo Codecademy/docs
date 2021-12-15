@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Creational design patterns concern themselves with the instantiation of objects. At time of creation, additional logic may be needed to decide what or how object type needs to be created. Below outline the five main creational design patterns:
+Creational design patterns concern themselves with the instantiation of objects. At time of creation, additional logic may be needed to decide what or how object type needs to be created. There are five main creational design patterns, outlined below:
 
 - [Singleton](https://www.codecademy.com/resources/docs/general/singleton-pattern): Ensures a class has only one object instantiated during the programs lifecycle.
 - [Builder](https://www.codecademy.com/resources/docs/general/builder-pattern): Decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during its construction.
