@@ -1,6 +1,6 @@
 ---
 Title: 'Emphasis'
-Description: 'Applies importance to text by making it bold, italic, and/or strikethrough.'
+Description: 'Emphasis applies importance to text in Markdown by making it bold, italic, and/or strikethrough.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
