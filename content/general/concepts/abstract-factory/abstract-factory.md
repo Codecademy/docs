@@ -185,7 +185,7 @@ public class CreditBuilder extends CurrentAccount {
 }
 ```
 
-In each concrete current account, a `static` variable (`MAX_OVERDRAFT`) hase been provided and constructed with the correct value. This is then used in the `increaseOverdraft` method to ensure this limit is not exceeded.
+In each concrete current account, a `static` variable (`MAX_OVERDRAFT`) has been provided and constructed with the correct value. This is then used in the `.increaseOverdraft()` method to ensure this limit is not exceeded.
 
 Below provides an abstract model `SavingsAccount` class for its concrete sub-classes to be based on:
 
