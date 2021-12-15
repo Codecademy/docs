@@ -19,15 +19,15 @@ Functions are one of the fundamental building blocks in JavaScript. A function i
 
 Function declarations are used to create named functions. These functions can be called using their declared name. Function declarations are built from:
 
-- The function keyword.
+- The `function` keyword.
 - The function name.
 - An optional list of parameters separated by commas enclosed by a set of parentheses `()`.
 - A function body enclosed in a set of curly braces `{}`.
 
-The example code provided contains a function named `add()` that takes in 2 values and prints the sum of those numbers:
+The example code provided contains a function named `sum()` that takes in two values and prints their sum:
 
 ```js
-function add(number1, number2) {
+function sum(number1, number2) {
   console.log(number1 + number2);
 }
 ```
