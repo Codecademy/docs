@@ -111,7 +111,7 @@ public abstract class CurrentAccount {
 
 The parent class above, as well as providing the common fields and constructor, requires its children to implement the `increaseOverdraft` method. This is the differentiating feature described between each current account.
 
-Below provides the concrete implementations of `CurrentAccount` for this example:
+The code snippets below are the concrete implementations of `CurrentAccount`. The first is the Gold-level:
 
 ```java
 public class GoldPersonal extends CurrentAccount {
