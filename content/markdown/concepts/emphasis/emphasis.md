@@ -1,6 +1,6 @@
 ---
 Title: 'Emphasis'
-Description: 'Emphasis can be added by making text bold, italic, or strikethrough.'
+Description: 'Applies importance by making text bold, italic, and/or strikethrough.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
