@@ -67,6 +67,8 @@ For example:
 I did ~~not~~ build a website.
 ```
 
+## Emphasis Combinations
+
 Different formatting options can be combined:
 
 ```markdown
