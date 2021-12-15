@@ -362,7 +362,7 @@ public class SavingAccountFactory extends AccountFactory<SavingAccount> {
 
 An implementation has been provided for the `getAccount` method. The `CustomerType` is worked out using its parent's `getCustomerType` method and captured before being used in a switch statement that returns the appropriate objects.
 
-The `Main` class below, starts the program and acts as the client in this example. It begins by getting a customer from the `CreditAgencyGateway`and gets an appropriate factory by using the `getAccountFactory` method. Changing the name in the `getCustomer` method or changing the `AccountType` in the `getAccountFactory` method will yield different results. A specific `CurrentAccount` or `SavingAccount` can then be returned by the `getAccount` method.
+The `Main` class below, starts the program and acts as the client in this example. It begins by getting a customer from the `CreditAgencyGateway` and gets an appropriate factory by using the `.getAccountFactory()` method. Changing the name in the `.getCustomer()` method or changing the `AccountType` in the `.getAccountFactory()` method will yield different results. A specific `CurrentAccount` or `SavingAccount` can then be returned by the `getAccount` method.
 
 ```java
 public class Main {
