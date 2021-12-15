@@ -216,7 +216,7 @@ public abstract class SavingAccount {
 }
 ```
 
-Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `addInterest` method. This is the differentiating feature described between each savings account.
+Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `.addInterest()` method. This is the differentiating feature described between each savings account.
 
 Below provides the concrete implementations of `SavingAccount` for this example:
 
