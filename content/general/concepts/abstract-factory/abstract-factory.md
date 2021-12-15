@@ -293,9 +293,11 @@ public abstract class AccountFactory<T> {
         default -> throw new IllegalArgumentException("Unknown account type: " + accountType);
       };
   }
+  
   // Enforces concrete factories to override this method
   public abstract T getAccount(Customer customer);
-  // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
+  
+   // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
   protected CustomerType getCustomerType(Customer customer) {
     if (customer.getCreditScore() > 700) {
       return CustomerType.GOLD;
