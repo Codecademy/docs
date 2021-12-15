@@ -22,7 +22,7 @@ The abstract factory is often thought of a factory of factory patterns. Much lik
 
 ## Java Example
 
-To illustrate the abstract factory pattern, below provides a real-world example, in Java, depicting potential considerations for a banking account system. A potential customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Blow is a table of accounts and their privileges:
+To illustrate the abstract factory pattern, below is a real-world example, written in Java, that explores potential considerations for a banking account system. A new customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Below is a table of accounts and their privileges:
 
 | Customer Type | Current                     | Saving                |
 | ------------- | --------------------------- | --------------------- |
