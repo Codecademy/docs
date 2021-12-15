@@ -53,21 +53,6 @@ public class CreditAgencyGateway {
                                       LocalDate.of(1979, 9, 19),
                                       "12 Grimmauld Palace, London",
                                       843);
-      case "Lucius" -> new Customer("Lucius",
-                                    "Malfoy",
-                                    LocalDate.of(1954, 2, 4),
-                                    "Malfoy Mannor, Wiltshire",
-                                    978);
-      case "Dobby" -> new Customer("Dobby",
-                                   "the house elf",
-                                   LocalDate.of(1972, 6, 28),
-                                   "Malfoy Mannor, Wiltshire",
-                                   256);
-      case "Sirius" -> new Customer("Sirius",
-                                    "Black",
-                                    LocalDate.of(1959, 11, 3),
-                                    "12, Grimmauld Place, London",
-                                    169);
       default -> throw new IllegalArgumentException("Could not return the credit history for " + name);
     };
   }
