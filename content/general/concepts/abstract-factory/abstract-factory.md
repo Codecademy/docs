@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The abstract factory is often thought of a factory of factory patterns. Much like the factory pattern, the abstract factory relies on a common interface and defers instantiation logic to its concrete model classes. Unlike the factory pattern, the abstract factory is typically built using composition where the factory is not.
+The abstract factory is often thought of as a factory of factory patterns. Similar to the factory pattern, the abstract factory relies on a common interface and defers instantiation logic to its concrete model classes. However, it covers multiple factories. Additionally, unlike the factory pattern, the abstract factory is typically built using composition whereas the factory is not.
 
 ## UML Design
 
