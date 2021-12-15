@@ -175,6 +175,7 @@ public class CreditBuilder extends CurrentAccount {
   public CreditBuilder(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
+  
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
