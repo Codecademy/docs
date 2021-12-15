@@ -76,7 +76,7 @@ public class CreditAgencyGateway {
 
 The `CreditAgencyGateway` class uses a `switch` statement to query a provided `name`. If the name is recognized a new customer is returned. Otherwise, an exception is thrown.
 
-One of the main advantages to factory patterns, are they allow for a large amount of model classes and enforce a common interface between them. Below provides an abstract model `CurrentAccount` class for its concrete sub-classes to be based on:
+One of the main advantages of factory patterns is they allow for a large amount of model classes and enforce a common interface between them. In the code below, an abstract model `CurrentAccount` class works as an extension for its concrete sub-classes to be based on:
 
 ```java
 public abstract class CurrentAccount {
