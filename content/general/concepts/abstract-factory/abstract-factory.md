@@ -151,6 +151,8 @@ public class SilverPersonal extends CurrentAccount {
 }
 ```
 
+Lastly, here is the Bronze-level implementation:
+
 ```java
 public class BronzePersonal extends CurrentAccount {
   // The Bronze Personal has a low max overdraft limit
