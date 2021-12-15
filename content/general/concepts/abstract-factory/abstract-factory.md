@@ -1,6 +1,6 @@
 ---
 Title: 'Abstract Factory Pattern'
-Description: 'The abstract factory is often thought of a factory of factory patterns. Much like the factory pattern, the abstract factory relies on a common interface and defers instantiation logic to its concrete model classes.'
+Description: 'Relies on a common interface for multiple factories and defers instantiation logic to their concrete model classes.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
