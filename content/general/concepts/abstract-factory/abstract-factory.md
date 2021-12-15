@@ -247,6 +247,7 @@ public class SilverSaver extends SavingAccount {
   public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
     super(accountHolder, dateOpened, initBalance);
   }
+  
   // Concrete overridden method
   @Override
   public void addInterest() {
