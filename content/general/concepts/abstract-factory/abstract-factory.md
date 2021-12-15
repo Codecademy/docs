@@ -368,15 +368,20 @@ The `Main` class below, starts the program and acts as the client in this exampl
 public class Main {
   public static void main(String[] args) {
     final CreditAgencyGateway creditAgencyGateway = new CreditAgencyGateway();
+    
     // Get customer. Change name to change outputted account types.
     final Customer customer = creditAgencyGateway.getCustomer("Sirius");
+    
     // Capture correct concrete factory
     AccountFactory<?> accountFactory = AccountFactory.getAccountFactory(AccountType.CURRENT);
+    
     // Get correct account
     final CurrentAccount currentAccount = (CurrentAccount) accountFactory.getAccount(customer);
     System.out.println(currentAccount.getClass());
+    
     // Capture correct concrete factory
     accountFactory = AccountFactory.getAccountFactory(AccountType.SAVINGS);
+    
     // Get correct account
     final SavingAccount savingAccount = (SavingAccount) accountFactory.getAccount(customer);
     System.out.println(savingAccount.getClass());
