@@ -87,13 +87,14 @@ public abstract class CurrentAccount {
       System.out.println("Insufficient funds. Unable to withdraw " + amount);
     }
   }
-  
+
   // Enforces concrete classes to override this method
   public abstract void increaseOverdraft(int requestedLimit);
 
   // Getters
 }
 ```
+
 **Note:** Getters have been excluded from the above code snippet.
 
 The parent `CurrentAccount` class above, as well as providing the common fields and constructor, requires its children to implement the `.increaseOverdraft()` method. This is the differentiating feature described between each current account.
@@ -108,7 +109,7 @@ public class GoldPersonal extends CurrentAccount {
   public GoldPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-  
+
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
@@ -129,7 +130,7 @@ public class SilverPersonal extends CurrentAccount {
   public SilverPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-  
+
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
@@ -150,7 +151,7 @@ public class BronzePersonal extends CurrentAccount {
   public BronzePersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
     super(accountHolder, initBalance, agreedOverdraftLimit);
   }
-  
+
   // Concrete overridden method
   @Override
   public void increaseOverdraft(int requestedLimit) {
@@ -206,7 +207,7 @@ public abstract class SavingAccount {
   public void withdrawFunds(final int amount) {
     balance -= amount;
   }
-  
+
   // Enforces concrete classes to override this method
   public abstract void addInterest();
 
@@ -228,7 +229,7 @@ public class GoldSaver extends SavingAccount {
   public GoldSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
     super(accountHolder, dateOpened, initBalance);
   }
-  
+
   // Concrete overridden method
   @Override
   public void addInterest() {
@@ -301,7 +302,7 @@ public abstract class AccountFactory<T> {
 
   // Enforces concrete factories to override this method
   public abstract T getAccount(Customer customer);
-  
+
   // Returns CustomerType depending on creditScore property. Put in the abstract to reduce duplicate code
   protected CustomerType getCustomerType(Customer customer) {
     if (customer.getCreditScore() > 700) {
