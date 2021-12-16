@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A string is a sequence of characters contained within a pair of single quotes (') or double quotes("). Strings can store words, sentences, or whole paragraphs. They can be any length and can contain letters, numbers, symbols, and spaces. Other data types such as integers, doubles, and booleans can also be strings so long as they are wrapped in quotes.'
+Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes. Strings can be of any length and can contain letters, words, spaces, and symbols. Other data types such as integers, doubles, and booleans can also be strings so long as they are wrapped in quotes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -21,7 +21,7 @@ message1 = "I am a string"
 message2 = 'I am also a string'
 ```
 
-Other data types such as `integers`, `doubles`, and `booleans` can also be `strings` so long as they are wrapped in quotes.
+Other data types such as `integers`, `doubles`, and `booleans` can also be `strings` provided that they are wrapped in quotes.
 
 All of the below are strings:
 
@@ -31,7 +31,7 @@ All of the below are strings:
 "True"
 ```
 
-None of the below are strings:
+None of the following are strings:
 
 ```shell
 7
@@ -110,7 +110,7 @@ print(my_string)
 # Output: It's a lovely day!
 ```
 
-Python also has a series of non-printing characters that can modify strings. For example, `\n` adds a new line, and `\t` adds a tab:
+Python also has a series of non-printing characters that can modify strings. For example, `\n` adds a new line and `\t` adds a tab:
 
 ```codebyte/py
 note = "I am on top!\nI am on bottom. \tI am indented!"
