@@ -36,7 +36,7 @@ All HTML elements can have attributes; many have more than one.
 <img src="nyan_cat.gif" width="500" height="600" />
 ```
 
-**Note:** Attribute names are not case-sensitive, but it is good practise to write HTML markup in lowercase.
+**Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
 
 ## Unique ID Attributes
 
