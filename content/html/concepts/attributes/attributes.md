@@ -50,7 +50,7 @@ Valid `id` attribute values begin with a letter and must comprise only letters (
 
 ## Example
 
-In this example, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
+In the example below, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
 
 ```html
 <p id="my-paragraph" style="color: aqua;">
