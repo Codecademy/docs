@@ -1,6 +1,6 @@
 ---
 Title: 'Attributes'
-Description: 'Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it. Attributes consist of a name and a value in the format name="value".'
+Description: 'Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
