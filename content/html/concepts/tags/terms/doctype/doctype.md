@@ -1,18 +1,19 @@
 ---
 Title: '<!DOCTYPE>'
-Description: 'Tells the browser that the current file is in the HTML format.'
+Description: 'Tells the browser that the file is in the HTML format.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
   - 'Browsers'
-  - 'HTML'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The doctype tells the browser that a given file is a markup **.html** file and that a set of web standards must be applied to it.
+The `<!DOCTYPE>` declaration tells the browser that a given file is a markup **.html** file and that a set of web standards must be applied to it. It is the first line of code that go at the top of every HTML or XHTML file.
+
+**Note:** `<!DOCTYPE>` is not an element or a tag.
 
 ## Syntax
 
@@ -22,7 +23,7 @@ The doctype tells the browser that a given file is a markup **.html** file and t
 
 ## Example
 
-The `<!DOCTYPE>` tag is added to the top of an HTML file.
+The `<!DOCTYPE>` declaration is added to the top of an HTML file.
 
 ```html
 <!DOCTYPE html>
