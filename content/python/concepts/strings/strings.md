@@ -23,7 +23,7 @@ message2 = 'I am also a string'
 
 Other data types such as `integers`, `doubles`, and `booleans` can also be `strings` provided that they are wrapped in quotes.
 
-All of the below are strings:
+All of the following are strings:
 
 ```py
 "2"
@@ -31,7 +31,7 @@ All of the below are strings:
 "True"
 ```
 
-None of the following are strings:
+However, none of the following are strings:
 
 ```shell
 7
