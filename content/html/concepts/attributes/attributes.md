@@ -32,9 +32,13 @@ So for example, the `<img>` image element has a mandatory `src` attribute that c
 
 HTML elements can have one or more attributes.
 
+The example below displays an image element with three attributes:
+
 ```html
 <img src="nyan_cat.gif" width="500" height="600" />
 ```
+
+ These declare its source, width, and height.
 
 **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
 
