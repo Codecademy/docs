@@ -1,6 +1,6 @@
 ---
 Title: 'Headings'
-Description: 'Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website: html  Heading 1   Heading 2'
+Description: 'There are 6 heading elements in HTML. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -15,38 +15,15 @@ CatalogContent:
 Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website:
 
 ```html
-<h1>
-  Heading 1
-  <h1>
-    <h2>
-      Heading 2
-      <h2>
-        <h3>
-          Heading 3
-          <h3>
-            <h4>
-              Heading 4
-              <h4>
-                <h5>
-                  Heading 5
-                  <h5>
-                    <h6>
-                      Heading 6
-                      <h6></h6>
-                    </h6>
-                  </h5>
-                </h5>
-              </h4>
-            </h4>
-          </h3>
-        </h3>
-      </h2>
-    </h2>
-  </h1>
-</h1>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 ```
 
-![Rendered page with the 6 HTML heading elements](https://i.imgur.com/8NNe3NE.png)
+![Rendered page with the 6 HTML heading elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-headings.png)
 
 ## Accessibility with Headings
 
