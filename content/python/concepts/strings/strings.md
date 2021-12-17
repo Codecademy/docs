@@ -140,7 +140,7 @@ if "World" in new_combo:
   # Output: It's here!
 ```
 
-Strings in Python are technically a type of list in which each character is a separate element in that list. This means we can access each letter in a string just as we access the elements of a list:
+Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
 
 ```codebyte/py
 myString = "Hello, World!"
