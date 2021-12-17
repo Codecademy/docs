@@ -30,7 +30,7 @@ So for example, the `<img>` image element has a mandatory `src` attribute that c
 - `src` is the attribute name.
 - `codecademy_logo.png` is the attribute value.
 
-All HTML elements can have attributes; many have more than one.
+HTML elements can have one or more attributes.
 
 ```html
 <img src="nyan_cat.gif" width="500" height="600" />
