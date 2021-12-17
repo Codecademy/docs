@@ -52,6 +52,8 @@ Valid `id` attribute values begin with a letter and must comprise only letters (
 <h1 id="th1s_is.v4lid">Hello World</h1>
 ```
 
+**Note:** While `th1s_is.v4lid` is indeed a valid `id` value, it's best to use a consistent naming scheme such as camel case (`thisIsValid`), dash case (`this-is-valid`), or snake case (`this_is_valid`).
+
 ## Example
 
 In the example below, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
