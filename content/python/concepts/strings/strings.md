@@ -101,7 +101,7 @@ print(my_string)
 # Output: It's a lovely day!
 ```
 
-You could also get around this problem by wrapping strings containing `'` characters in double quotes:
+This problem can be avoided by wrapping strings containing `'` characters in double quotes:
 
 ```py
 my_string = "It's a lovely day!"
