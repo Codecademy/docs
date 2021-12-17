@@ -120,7 +120,7 @@ print(note)
 
 ## Modifying Strings
 
-Python has special operators to modify strings. For example, we can use `+` to concatenate two strings, and `*` to duplicate a string. We can also use the keyword `in` to see if a given character exists in a `string`.
+Python has special operators to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
 
 ```py
 string_one = "Hello, "
