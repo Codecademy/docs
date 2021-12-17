@@ -1,6 +1,6 @@
 ---
 Title: 'Grids'
-Description: 'CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. This layout system makes it easier to design and fine-tune the layout of web pages without having to use positioning and floats. A grid layout consists of a parent element, with one or more child elements. html  1 2 3'
+Description: 'CSS Grid is a two-dimensional grid-based layout system, with rows, columns and gaps. This layout system makes it easier to design and fine-tune the layout of web pages without having to use positioning and floats.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
