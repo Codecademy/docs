@@ -38,7 +38,7 @@ The example below displays an image element with three attributes:
 <img src="nyan_cat.gif" width="500" height="600" />
 ```
 
- These declare its source, width, and height.
+These declare its source, width, and height.
 
 **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
 
