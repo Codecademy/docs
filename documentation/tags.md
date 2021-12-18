@@ -30,6 +30,7 @@ Best Practices
 Binary Search
 Binary Tree
 Block
+Blockchain
 Body
 Booleans
 Bootstrap
@@ -172,6 +173,7 @@ MySQL
 Naive Bayes
 Natural Language Processing
 Netlify
+NFT
 NLP
 Node
 NPM
