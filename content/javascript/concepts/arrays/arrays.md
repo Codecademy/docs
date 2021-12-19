@@ -130,5 +130,4 @@ const nested = [
  console.log(nested[0][1][1]);
  // Output: 4
  ```
- 
 
