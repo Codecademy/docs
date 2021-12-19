@@ -33,11 +33,7 @@ const fruit = ['Apple', 'Orange', 'Banana'];
 Whitespace is ignored and declarations can span multiple lines:
 
 ```js
-const fruit = [
-  'Apple', 
-  'Orange', 
-  'Banana'
-];
+const fruit = ['Apple', 'Orange', 'Banana'];
 ```
 
 Using the JavaScript Keyword `new` is another way to create an array.
@@ -90,7 +86,7 @@ const fruit = ['Apple', 'Orange', 'Banana'];
 
 fruit[4] = 'Mango'; // a valid assignment
 
-console.log(fruit[3]);  
+console.log(fruit[3]);
 // Output: undefined
 ```
 
@@ -103,11 +99,11 @@ Any object can be an element of an array. This includes other arrays. When an ar
 const food = [
   ['Apple', 'Orange', 'Banana'],
   ['Strawberry', 'Blueberry', 'Raspberry'],
-  ['Potato', 'Carrot', 'Broccoli']
+  ['Potato', 'Carrot', 'Broccoli'],
 ];
 
 // Retrieve the object at index 2 of the array at index 1
-console.log(food[1][2]); 
+console.log(food[1][2]);
 // Output: Raspberry
 
 // Retrieve the object at index 1 of the array at index 0
@@ -120,13 +116,20 @@ The same process applies to arrays that themselves contain nested arrays. To acc
 ```js
 // More levels of nesting
 const nested = [
-  [[1,2],[3,4],[5,6]],
-  [['A','B','C'],['D','E','F']]
- ]
- 
- console.log(nested[1][0][2]);
- // Output: C
- 
- console.log(nested[0][1][1]);
- // Output: 4
- ```
+  [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+  ],
+  [
+    ['A', 'B', 'C'],
+    ['D', 'E', 'F'],
+  ],
+];
+
+console.log(nested[1][0][2]);
+// Output: C
+
+console.log(nested[0][1][1]);
+// Output: 4
+```
