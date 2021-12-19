@@ -33,7 +33,11 @@ const fruit = ['Apple', 'Orange', 'Banana'];
 Whitespace is ignored and declarations can span multiple lines:
 
 ```js
-const fruit = ['Apple', 'Orange', 'Banana'];
+const fruit = [
+'Apple',
+'Orange',
+'Banana'
+];
 ```
 
 Using the JavaScript Keyword `new` is another way to create an array.
