@@ -30,15 +30,7 @@ The most straightforward way to create an array is using an array literal.
 const fruit = ['Apple', 'Orange', 'Banana'];
 ```
 
-Whitespace is ignored and declarations can span multiple lines:
-
-```js
-const fruit = [
-'Apple',
-'Orange',
-'Banana'
-];
-```
+Whitespace is ignored and declarations can span multiple lines.
 
 Using the JavaScript Keyword `new` is another way to create an array.
 
