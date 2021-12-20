@@ -21,7 +21,7 @@ For example, a 1 GBP note is fungible because you are able to replace that note 
 
 Creating an NFT is known as “minting”. Minting an NFT is the process of taking a piece of content and putting it on a digital registry. In this process, you are putting some critical information such as owner name, date and time on the blockchain. The most common blockchain for minting NFTs is Ethereum. A person can manage any NFTs that the person mints or owns through a crypto wallet.
 
-A crypto wallet is like a real wallet but it is only used to store cryptocurrencies and NFTs. Minting or purchasing an NFT can only be done through a crypto wallet. The ownership history of an NFT is easily traceable, verifiable and can be seen by anyone.
+A crypto wallet is a digital wallet used to store cryptocurrencies and NFTs. Minting or purchasing an NFT can only be done through a crypto wallet. The ownership history of an NFT is easily traceable, verifiable and can be seen by anyone using the blockchain.
 
 As of now, NFTs are most popularly to prove ownership over a digital good but they have many other uses yet to be explored.
 
