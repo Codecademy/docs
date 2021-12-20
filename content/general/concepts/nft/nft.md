@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A non-fungible token (NFT) acts as a digital representation to prove a ownership for a digital good backed by blockchain technology.
+A non-fungible token (NFT) acts as a digital representation to prove ownership for a digital good backed by blockchain technology.
 
 The term "token" in the phrase "non-fungible token" refers to this digital representation. "Non-fungible" simply means "non-replaceable". It can't be replaced, there is only one of them. It is always unique.
 
