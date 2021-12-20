@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.islower()` string method takes in a string and returns `True` if all the letters in the string are in lowercase, else returns `False`. This method ignores spaces, newlines, numeric and special characters in the string.
+The `.islower()` string method takes in a string and returns `True` if all the letters in the string are in lowercase, else returns `False`. This method ignores spaces, newlines, numeric, and special characters in the string.
 
 ## Syntax
 
