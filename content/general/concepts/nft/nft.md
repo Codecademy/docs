@@ -19,7 +19,7 @@ The term "token" in the phrase "non-fungible token" refers to this digital repre
 
 For example, a 1 GBP note is fungible because you are able to replace that note with another note. However, each NFT is always unique, and you cannot simply swap for another different NFT, even if they are both a representation of the same good. This means that non-fungible things can be far more valuable than fungible things.
 
-Creating an NFT is known as “minting”. Minting an NFT is the process of taking a piece of content and putting it on a digital registry. In this process, you are putting some critical information such as owner name, date and time on the blockchain. The most common blockchain for minting NFTs is Ethereum. A person can manage any NFTs that the person mint or own through a crypto wallet.
+Creating an NFT is known as “minting”. Minting an NFT is the process of taking a piece of content and putting it on a digital registry. In this process, you are putting some critical information such as owner name, date and time on the blockchain. The most common blockchain for minting NFTs is Ethereum. A person can manage any NFTs that the person mints or owns through a crypto wallet.
 
 A crypto wallet is like a real wallet but it is only used to store cryptocurrencies and NFTs. Minting or purchasing an NFT can only be done through a crypto wallet. The ownership history of an NFT is easily traceable, verifiable and can be seen by anyone.
 
