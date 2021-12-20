@@ -24,7 +24,3 @@ Creating an NFT is known as “minting”. Minting an NFT is the process of taki
 A crypto wallet is a digital wallet used to store cryptocurrencies and NFTs. Minting or purchasing an NFT can only be done through a crypto wallet. The ownership history of an NFT is easily traceable, verifiable and can be seen by anyone using the blockchain.
 
 As of now, NFTs are most often used to prove ownership over a digital good, but they have many other potential uses yet to be explored.
-
-## Reference
-
-- [What is blockchain?](https://www.codecademy.com/resources/blog/what-is-blockchain/)
