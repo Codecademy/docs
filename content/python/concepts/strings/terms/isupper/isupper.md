@@ -40,4 +40,3 @@ Use `.isupper()` to check if `my_string` contains only uppercase letters:
 my_string = "--PYTHON3--"
 print(my_string.isupper())
 ```
-
