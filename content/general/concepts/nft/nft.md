@@ -1,6 +1,6 @@
 ---
 Title: 'NFT'
-Description: 'Non-fungible token which act like a digital representation to prove a ownership for a digital good backed by blockchain technology.'
+Description: 'A Non-fungible token (NFT) acts as a digital representation to prove a ownership for a digital good backed by blockchain technology.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
