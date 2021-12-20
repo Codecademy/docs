@@ -15,7 +15,7 @@ CatalogContent:
 
 A non-fungible token (NFT) acts as a digital representation to prove a ownership for a digital good backed by blockchain technology.
 
-The term "token" in the phrase "non-fungible token" refers to this digital representation, and the NFT is just a reference to the original. "Non-fungible" in other word simply means "non-replacable". It can't be replaced, there is only one of them. It is always unique.
+The term "token" in the phrase "non-fungible token" refers to this digital representation. "Non-fungible" simply means "non-replaceable". It can't be replaced, there is only one of them. It is always unique.
 
 For example, a 1 GBP note is fungible because you are able to replace that note with another note. However, each NFT is always unique, and you cannot simply swap for another different NFT, even if they are both a representation of the same good. This concludes that non-fungible things are far more valuable than fungible things.
 
