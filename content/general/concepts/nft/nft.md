@@ -21,7 +21,7 @@ For example, a 1 U.S. Dollar note is fungible because you are able to replace th
 
 ## Minting an NFT
 
-Creating an NFT is known as “minting”. Minting an NFT is the process of taking a piece of content and putting it on a digital registry. In this process, some critical information such as owner name, date, and time is placed on the blockchain. The most common blockchain for minting NFTs is Ethereum. A person can manage any NFTs that the person mints or owns through a crypto wallet.
+Creating an NFT is known as “minting”. Minting an NFT is the process of taking a piece of content and putting it on a digital registry. In this process, some critical information such as owner name, date, and time is placed on the blockchain. The most common blockchain for minting NFTs is [Ethereum](https://ethereum.org/en). A person can manage any NFTs that the person mints or owns through a crypto wallet.
 
 A crypto wallet is a digital wallet used to store cryptocurrencies and NFTs. Minting or purchasing an NFT can only be done through a crypto wallet. The ownership history of an NFT is easily traceable, verifiable and can be seen by anyone using the blockchain.
 
