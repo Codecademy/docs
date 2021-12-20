@@ -174,7 +174,6 @@ MySQL
 Naive Bayes
 Natural Language Processing
 Netlify
-NFT
 NLP
 Node
 NPM
