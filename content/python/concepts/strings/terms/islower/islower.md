@@ -21,7 +21,7 @@ The `.islower()` string method takes in a string and returns `True` if all the l
 string.islower()
 ```
 
-## Example 
+## Example
 
 Use `.islower()` to check if a string contains only lowercase letters:
 

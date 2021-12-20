@@ -21,7 +21,7 @@ The `.isupper()` string method takes in a string and returns `True` if all the l
 string.isupper()
 ```
 
-## Example 
+## Example
 
 Use `.isupper()` to check if a string contains only uppercase letters:
 
