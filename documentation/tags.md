@@ -43,6 +43,7 @@ Bubble Sort
 Catch
 Characters
 Chatbots
+Cryptocurrency
 Classes
 Code Editors
 Colors
@@ -275,6 +276,7 @@ Vim
 Visibility
 VR
 Vue
+Web3
 WebRTC
 While
 Whiteboarding
