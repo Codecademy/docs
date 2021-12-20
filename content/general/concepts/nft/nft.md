@@ -5,10 +5,11 @@ Subjects:
   - 'Computer Science'
   - 'Web Development'
 Tags:
-  - 'NFT'
   - 'Blockchain'
+  - 'Web3'
+  - 'Cryptocurrency'
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
+  - 'introduction-to-blockchain'
   - 'paths/computer-science'
 ---
 
