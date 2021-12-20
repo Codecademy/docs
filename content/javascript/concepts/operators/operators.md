@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'The assignment operator (=) assigns a value to a variable. js var x = 10;  Arithmetic operators are used to perform arithmetic on numbers: - + addition - - subtraction'
+Description: 'An operator is a special character or series of characters that perform a task in JavaScript.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,6 +12,8 @@ CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
+
+An operator is a special character or series of characters that perform a task in JavaScript.
 
 ## Assignment Operator
 

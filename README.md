@@ -11,7 +11,7 @@
 
 ## What stage of development are we in right now?
 
-Docs is live with about 650 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
+Docs is live with about 710 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ### 📝 Content Team
 
@@ -23,7 +23,6 @@ We are currently building a team of community volunteers and educators to mainta
 
 ### 🏗 Engineering Team
 
-- [@li-codecademy](https://github.com/li-codecademy)
 - [@christian-dinh](https://github.com/christian-dinh)
 - [@judahtanthony](https://github.com/judahtanthony)
 - [@sresnik11](https://github.com/aresnik11)

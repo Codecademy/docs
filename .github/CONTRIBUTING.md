@@ -89,7 +89,7 @@ To link your Codecademy user profile to GitHub:
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
-- We require one approval from one [core team member](https://github.com/codecademy/docs#core-team) for each PR.
+- We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed within the hour after it's merged!
 
@@ -100,7 +100,9 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
-## Additional Notes
+## Additional Resources
+
+- [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy).
 

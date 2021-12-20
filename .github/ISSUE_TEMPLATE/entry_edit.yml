@@ -1,0 +1,40 @@
+name: Entry Edit
+description: Request for edits to a single existing entry or term.
+title: "[Edit] Subject : Entry Name"
+labels: ["enhancement", "typo"]
+assignees: "Name here"
+body:
+  - type: dropdown
+    id: edits
+    attributes:
+      label: Type of Edit (select all that apply)
+      multiple: true
+      options:
+        - Fix grammar, spelling
+        - Clarify unclear content and/or terms
+        - Add new content (definitions, codeblocks, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description (optional)
+      description: "Additional context behind edits."
+      placeholder: "Please write here to provide any additional context/reasoning behind the edits."
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Codecademy/docs/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow Codecademy Doc's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: maintainers
+    attributes:
+      label: For Maintainers
+      options:
+        - label: Labels added
+          required: true
+        - label: Issue is assigned
+          required: false
