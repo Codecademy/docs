@@ -1,6 +1,6 @@
 ---
 Title: '.isupper()'
-Description: 'Takes in a string and returns True if all the letters are in uppercase, else returns False. Ignores spaces, newlines, numeric and special characters in the string.'
+Description: 'Takes in a string and returns True if all the letters in the string are in uppercase, else returns False. Ignores spaces, newlines, numeric and special characters in the string.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.isupper()` string method takes in a string and returns `True` if all the letters are in uppercase, else returns `False`. This method ignores spaces, newlines, numeric and special characters in the string.
+The `.isupper()` string method takes in a string and returns `True` if all the letters in the string are in uppercase, else returns `False`. This method ignores spaces, newlines, numeric and special characters in the string.
 
 ## Syntax
 
