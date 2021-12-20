@@ -32,7 +32,6 @@ print(my_string.islower())
 # Output: True
 ```
 
-
 ## Codebyte Example
 
 Use `.islower()` to check if `my_string` contains only lowercase letters:
@@ -41,4 +40,3 @@ Use `.islower()` to check if `my_string` contains only lowercase letters:
 my_string = "Learn--to--code--from--Codecademy!\n"
 print(my_string.islower())
 ```
-
