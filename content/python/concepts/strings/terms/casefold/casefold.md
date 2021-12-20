@@ -1,6 +1,6 @@
 ---
 Title: .casefold()
-Description: 'Takes in a string, and returns a copy of the string with all characters in lowercase.'
+Description: 'Returns a copy of the string with all characters in lowercase.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Returns a copy of a string with all characters in lowercase. `.casefold()` is similar to `.lower()`, but whereas that method deals purely with ASCII text, `.casefold()` can also convert Unicode characters.
+The `.casefold()` method returns a copy of a string with all characters in lowercase. It is similar to `.lower()`, but whereas that method deals purely with ASCII text, `.casefold()` can also convert Unicode characters.
 
 ## Syntax
 
