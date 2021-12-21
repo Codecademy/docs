@@ -21,22 +21,31 @@ The `.casefold()` method returns a copy of a string with all characters in lower
 "String".casefold() # Output: string
 ```
 
-## Examples
+## Example 1
 
-Below are some examples of `casefold()` being used to set all characters in a string to lowercase:
+Below is an example of `casefold()` being used to set all characters in a string to lowercase:
 
 ```py
-example1 = "THIS SHOULD ALL BE IN LOWERCASE!"
-print(example1.casefold())
-
-example2 = "this Should ALSO Be Entirely In Lowercase!"
-print(example2.casefold())
+my_string_1 = "THIS SHOULD ALL BE IN LOWERCASE!"
+print(my_string_1.casefold())
 ```
 
 The output would be:
 
-```
+```pseudo
 this should all be in lowercase!
+```
+
+## Example 2
+
+```py
+my_string_2 = "this Should ALSO Be Entirely In Lowercase!"
+print(my_string_2.casefold())
+```
+
+The output would be:
+
+```pseudo
 this should also be entirely in lowercase!
 ```
 
