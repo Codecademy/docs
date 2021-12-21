@@ -51,7 +51,7 @@ this should also be entirely in lowercase!
 
 ## Codebyte Example
 
-Again, `.casefold()` can convert a wider scope of characters than `.lower()` can, including characters unique to human languages. Take the German lowercase letter "ß", for example. While `.lower()` cannot convert it, `.casefold()` can convert it to "ss":
+`.casefold()` can convert a wider scope of characters than `.lower()` can, including characters unique to human languages. Take the German lowercase letter "ß", for example. While `.lower()` cannot convert it, `.casefold()` can convert it to "ss":
 
 ```codebyte/python
 text = "Straße"
