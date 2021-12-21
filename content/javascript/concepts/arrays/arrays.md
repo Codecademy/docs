@@ -22,7 +22,7 @@ const numberArray = [0, 1, 2, 3];
 const mixedArray = [1, 'chicken', false];
 ```
 
-## Creating an array
+## Creating an Array
 
 The most straightforward way to create an array is using an array literal.
 
