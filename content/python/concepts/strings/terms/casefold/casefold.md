@@ -1,6 +1,6 @@
 ---
 Title: .casefold()
-Description: 'Takes in a string, and returns a copy of the string with all characters in lower case.'
+Description: 'Returns a copy of the string with all characters in lowercase.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -13,29 +13,48 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Takes in a string, and returns a copy of the string with all characters in lower case.
+The `.casefold()` method returns a copy of a string with all characters in lowercase. It is similar to `.lower()`, but whereas that method deals purely with ASCII text, `.casefold()` can also convert Unicode characters.
 
 ## Syntax
 
 ```py
-"string".casefold()
+"String".casefold() # Output: string
 ```
 
 ## Example 1
 
-Use `casefold()` to set all characters in a string to lower case:
+Below is an example of `casefold()` being used to set all characters in a string to lowercase:
 
-```codebyte/python
-print("THIS SHOULD ALL BE IN LOWERCASE!".casefold())
+```py
+my_string_1 = "THIS SHOULD ALL BE IN LOWERCASE!"
+print(my_string_1.casefold())
+```
+
+The output would be:
+
+```pseudo
+this should all be in lowercase!
 ```
 
 ## Example 2
 
-Use `casefold()` to set all characters in a string to lower case:
+```py
+my_string_2 = "this Should ALSO Be Entirely In Lowercase!"
+print(my_string_2.casefold())
+```
+
+The output would be:
+
+```pseudo
+this should also be entirely in lowercase!
+```
+
+## Codebyte Example
+
+`.casefold()` can convert a wider scope of characters than `.lower()` can, including characters unique to human languages. Take the German lowercase letter "ß", for example. While `.lower()` cannot convert it, `.casefold()` can convert it to "ss":
 
 ```codebyte/python
-text = "this Should All Be In Lower Case!"
+text = "Straße"
 
-x = text.casefold()
-print(x)
+print(text.casefold())
 ```
