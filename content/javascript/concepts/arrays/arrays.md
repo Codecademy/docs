@@ -40,7 +40,7 @@ const fruit = new Array('Apple', 'Orange', 'Banana');
 
 Though, because the effect is exactly the same, it is preferable to use the literal method for simplicity and execution speed.
 
-## Accessing the elements of an array
+## Accessing the Elements of an Array
 
 JavaScript array elements are arranged by index values, starting at 0:
 
