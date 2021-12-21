@@ -9,7 +9,7 @@ Tags:
   - 'Print'
   - 'Variables'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 
