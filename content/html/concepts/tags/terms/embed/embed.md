@@ -12,7 +12,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<embed>` tag allows you to embed content onto your page. It can be used to embed many types of content, however, there are more specific tags such as `<video>`, `<img>` and `<iframe>`. It should only be used if there is no better option.
+The `<embed>` tag renders an element that wraps around interactive content, including images, videos, and even other web pages. This is achieved with tools such as browser plug-ins. However, since most modern browsers no longer support plug-ins, there are other tags to use instead of `<embed>`. This includes:
+
+- Playing video content with the [`<video>`](https://www.codecademy.com/resources/docs/html/tags/video) tag.
+- Displaying images with the [`<img>`](https://www.codecademy.com/resources/docs/html/tags/img) tag.
+- Rendering additional markup with the [`<iframe>`](https://www.codecademy.com/resources/docs/html/tags/iframe) tag.
+
+Since those tags are available, using the `<embed>` tag is discouraged.
 
 ## Syntax
 
