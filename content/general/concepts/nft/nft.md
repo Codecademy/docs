@@ -30,4 +30,3 @@ As of now, NFTs are most often used to prove ownership over a digital good, but 
 ## Environmental Impact
 
 The amount of electricity consumed for regulating and verifying blockchain transactions leads to massive carbon emissions. It’s estimated that a single NFT transaction (minting or selling) can emit an average of [40kg of CO2](https://earth.org/nfts-environmental-impact/).
-
