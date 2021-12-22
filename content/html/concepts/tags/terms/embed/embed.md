@@ -22,12 +22,21 @@ Since those tags are available, using the `<embed>` tag is discouraged.
 
 ## Syntax
 
-The `<embed>`tag accepts at least four properties:
+The `<embed>`tag is self-closing and accepts at least four properties:
 
 - The `type` of content to be embedded.
 - The `src` of the content.
-- The content's `height` and `width`, measured in pixels.
+- The content's `height`, measured in pixels.
+- The content's `width`, measured in pixels.
 
 ```html
-<embed type="image/jpg" src="my_image.jpg" width="300" height="200" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning about HTML</title>
+  </head>
+  <body>
+    <embed type="image/jpg" src="my_image.jpg" width="300" height="200" />
+  </body>
+</html>
 ```
