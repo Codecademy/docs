@@ -1,6 +1,6 @@
 ---
 Title: '<embed>'
-Description: 'Inserts a video, image, page, and more.'
+Description: 'Inserts external content such as a video, image, page, and more.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
