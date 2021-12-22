@@ -22,6 +22,12 @@ Since those tags are available, using the `<embed>` tag is discouraged.
 
 ## Syntax
 
+The `<embed>`tag accepts at least four properties:
+
+- The `type` of content to be embedded.
+- The `src` of the content.
+- The content's `height` and `width`, measured in pixels.
+
 ```html
 <embed type="image/jpg" src="my_image.jpg" width="300" height="200" />
 ```
