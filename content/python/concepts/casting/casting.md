@@ -122,4 +122,3 @@ print(num ** 2)
 ```
 
 What happened? The `input()` function takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type. Try to edit the above Codebyte to successfully square a number inputted by the user.
-
