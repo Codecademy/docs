@@ -34,7 +34,7 @@ print(my_string.isupper())
 
 ## Codebyte Example
 
-Use `.isupper()` to check if `my_string` contains only uppercase letters:
+Use `.isupper()` to check if `my_string` contains only uppercase letters, ignoring the dashes:
 
 ```codebyte/python
 my_string = "--PYTHON3--"
