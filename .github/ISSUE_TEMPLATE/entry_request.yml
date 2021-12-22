@@ -7,6 +7,11 @@ body:
   - type: markdown
     attributes:
       value: Please refer to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) before submitting a PR.
+  - type: textarea
+    id: description
+    attributes:
+      label: Reason/inspiration (optional)
+      placeholder: Tell us more about why you would like to add this to Docs?
   - type: dropdown
     id: entries
     attributes:
