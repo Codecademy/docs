@@ -1,6 +1,6 @@
 name: Entry Request
-description: Request for a single new entry concept or term.
-title: "[Entry] Subject : Entry Name"
+description: Request for a single new topic, concept, or term entry.
+title: "[Entry] Topic : Entry Name"
 labels: ["new entry"]
 assignees: "Name here"
 body:
@@ -18,9 +18,9 @@ body:
       label: Entry Type (select all that apply)
       multiple: true
       options:
-        - New Subject with New Entry/Term
-        - New Entry for Existing Subject
-        - New Term for Existing Entry
+        - New Topic Entry
+        - New Concept Entry for Existing Topic
+        - New Term for Existing Concept Entry
     validations:
       required: true
   - type: checkboxes
