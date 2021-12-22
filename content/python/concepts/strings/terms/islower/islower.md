@@ -34,7 +34,7 @@ print(my_string.islower())
 
 ## Codebyte Example
 
-Use `.islower()` to check if `my_string` contains only lowercase letters:
+Use `.islower()` to check if `my_string` contains only lowercase letters, ignoring the dashes, exclamation point, and newline:
 
 ```codebyte/python
 my_string = "Learn--to--code--from--Codecademy!\n"
