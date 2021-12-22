@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Images'
   - 'Video'
-  - 'HTML'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
