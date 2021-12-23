@@ -98,7 +98,7 @@ const food = [
   ['Potato', 'Carrot', 'Broccoli'],
 ];
 
-// Retrieve the object at index 2 of the array at index 1
+// Retrieve the food string at index 2 of the array at index 1
 console.log(food[1][2]);
 // Output: Raspberry
 
