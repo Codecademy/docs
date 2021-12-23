@@ -109,9 +109,9 @@ console.log(food[0][1]);
 
 The same process applies to nested arrays that themselves contain nested arrays. The more "nested" the array, the more indices, or bracket pairs `[ ]`, are required for accessing their elements.
 
-```js
+```codebyte/js
 // More levels of nesting
-const nested = [
+const nestedArray = [
   [
     [1, 2],
     [3, 4],
