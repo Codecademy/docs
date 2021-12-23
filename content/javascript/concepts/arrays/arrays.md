@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Arrays are lists of ordered, stored data. They can hold items that are of any data type. 
+Arrays are lists of ordered, stored data. They can hold items that are of any data type.
 
 ## Syntax
 
