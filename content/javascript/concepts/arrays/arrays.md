@@ -102,7 +102,7 @@ const food = [
 console.log(food[1][2]);
 // Output: Raspberry
 
-// Retrieve the object at index 1 of the array at index 0
+// Retrieve the food string at index 1 of the array at index 0
 console.log(food[0][1]);
 // Output: Orange
 ```
