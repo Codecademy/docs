@@ -123,9 +123,9 @@ const nestedArray = [
   ],
 ];
 
-console.log(nested[1][0][2]);
+console.log(nestedArray[1][0][2]);
 // Output: C
 
-console.log(nested[0][1][1]);
+console.log(nestedArray[0][1][1]);
 // Output: 4
 ```
