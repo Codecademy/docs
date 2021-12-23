@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are lists of ordered, stored data. They can hold items that are of any data type. Arrays are created by using square brackets, with individual elements separated by commas. js // An array containing numbers const numberArray = [0, 1, 2, 3]; // An array containing different data types const mixedArray = [1, chicken, false]; '
+Description: 'Arrays are lists of ordered, stored datathat can be of any data type.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Arrays are lists of ordered, stored data. They can hold items that are of any data type. Arrays are created by using square brackets, with individual elements separated by commas.
+Arrays are lists of ordered, stored data. They can hold items that are of any data type. 
+
+## Syntax
+
+Arrays can be created by using square brackets, with individual elements separated by commas.
 
 ```js
 // An array containing numbers
@@ -24,7 +28,7 @@ const mixedArray = [1, 'chicken', false];
 
 ## Creating an Array
 
-The most straightforward way to create an array is using an array literal.
+The most straightforward way to create an array is using an array literal as in the above example.
 
 ```js
 const fruit = ['Apple', 'Orange', 'Banana'];
@@ -47,13 +51,9 @@ Array elements are ordered by index values, starting at 0:
 - Index 0 has the first element.
 - Index 1 has the second element.
 - Index 2 has the third element.
-- ...and so on.
+- Index n-1 has the nth element.
 
 Individual elements in the array can be accessed using the array name and the element's index surrounded by square brackets.
-
-```pseudo
-array[index]
-```
 
 This code accesses the value of the first element in the `fruit` array:
 
