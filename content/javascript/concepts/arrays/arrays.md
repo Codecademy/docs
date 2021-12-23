@@ -32,7 +32,7 @@ const fruit = ['Apple', 'Orange', 'Banana'];
 
 Whitespace is ignored and declarations can span multiple lines.
 
-Using the JavaScript Keyword `new` is another way to create an array.
+Arrays can also be created with the `Array` class by using the `new` keyword and passing in the elements as arguments:
 
 ```js
 const fruit = new Array('Apple', 'Orange', 'Banana');
