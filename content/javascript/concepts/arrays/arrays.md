@@ -88,7 +88,7 @@ console.log(fruit[3]);
 
 ## Nested Arrays
 
-Any object can be an element of an array. This includes other arrays. When an array has one or more arrays as elements, it is referred to as a "nested array". Accessing the elements of a nested array is similar to accessing the elements of a regular array. It just requires the additional index to reference the element in the inner array.
+Any object can be an element of an array, including other arrays. Arrays with one or more arrays as elements are referred to as "nested arrays". Similar to accessing the elements of a regular array, accessing elements within nested arrays requires the additional indices for referencing inner array elements.
 
 ```js
 // Create a nested array
