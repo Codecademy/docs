@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are lists of ordered, stored datathat can be of any data type.'
+Description: 'Arrays are lists of ordered, stored data that can be of any data type.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
