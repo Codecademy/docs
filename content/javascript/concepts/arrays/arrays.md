@@ -42,7 +42,7 @@ Though, because the effect is exactly the same, it is preferable to use the lite
 
 ## Accessing the Elements of an Array
 
-JavaScript array elements are arranged by index values, starting at 0:
+Array elements are ordered by index values, starting at 0:
 
 - Index 0 has the first element.
 - Index 1 has the second element.
