@@ -107,7 +107,7 @@ console.log(food[0][1]);
 // Output: Orange
 ```
 
-The same process applies to arrays that themselves contain nested arrays. To access the elements in the "bottom" array requires an additional index for each level of nesting.
+The same process applies to nested arrays that themselves contain nested arrays. The more "nested" the array, the more indices, or bracket pairs `[ ]`, are required for accessing their elements.
 
 ```js
 // More levels of nesting
