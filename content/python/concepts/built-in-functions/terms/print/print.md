@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The print() function takes in a string or any other element such as int converted to a string using str() and displays those values to the standard output device.
+The `print()` function takes in a string or any other element such as an integer converted to a string using `str()` and displays those values to the standard output device.
 
 ## Syntax
 
