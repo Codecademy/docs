@@ -27,7 +27,7 @@ BEGIN
 END//
 # Set the delimiter back to the default
 DELIMITER ;
-# Execute the stored procedure 
+# Execute the stored procedure
 CALL add_int(5,3,@z);
 # Return the output parameter
 SELECT @z AS Result;
@@ -36,5 +36,5 @@ SELECT @z AS Result;
 Output:
 
 | Result |
-|---|
-| 8 |
+| ------ |
+| 8      |
