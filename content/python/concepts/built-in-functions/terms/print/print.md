@@ -36,6 +36,6 @@ print(str(3.14))
 
 The output would be:
 
-```py
+```pseudo
 3.14
 ```
