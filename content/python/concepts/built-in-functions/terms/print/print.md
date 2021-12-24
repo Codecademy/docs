@@ -24,7 +24,7 @@ print("Hello, World!")
 
 The output would be:
 
-```py
+```pseudo
 Hello, World!
 ```
 
