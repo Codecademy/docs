@@ -26,6 +26,11 @@ const numberArray = [0, 1, 2, 3];
 const mixedArray = [1, 'chicken', false];
 ```
 
+Another way to creating a new instance of the `Array` class and passing the elements as a comma-separated list of arguments:
+
+```js
+const classArray = new Array(0, 1, 2, 3);
+
 ## Creating an Array
 
 The most straightforward way to create an array is using an array literal as in the above example.
