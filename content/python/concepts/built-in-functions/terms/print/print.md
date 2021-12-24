@@ -28,14 +28,4 @@ The output would be:
 Hello, World!
 ```
 
-If one were to print an integer of a floating-point number they can do so by using the str() function:
-
-```py
-print(str(3.14))
-```
-
-The output would be:
-
-```pseudo
-3.14
-```
+If one were to print an integer of a floating-point number they can do so by using the str() function.
