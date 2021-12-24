@@ -19,7 +19,7 @@ The `print()` function takes in a string or any other element such as an integer
 ## Syntax
 
 ```py
-print("Hello, World!")
+print(object)
 ```
 
 The output would be:
