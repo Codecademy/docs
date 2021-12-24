@@ -30,6 +30,7 @@ Another way to creating a new instance of the `Array` class and passing the elem
 
 ```js
 const classArray = new Array(0, 1, 2, 3);
+```
 
 ## Creating an Array
 
