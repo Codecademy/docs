@@ -114,7 +114,7 @@ ValueError: invalid literal for int() with base 10: 'seven'
 
 ## Operations on Different Types of Data
 
-When operating on data, it is important to keep their type in mind. The following code is a flawed attempt to print the square of a number specified by the user. Try running it and ponder the result.
+When operating on data, it is important to keep their data type in mind. The following code is a flawed attempt to print the square of a number specified by the user. Try running it and ponder the result.
 
 ```codebyte/py
 num = input("Please enter a number: ")
