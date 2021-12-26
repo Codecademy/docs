@@ -20,8 +20,8 @@ Scope refers to the areas in which variables are visible and accessible. Variabl
 
  ~~~
 def fun():
-    x = 200
-    print(x)
+  x = 200
+  print(x)
 
 myfun()
  ~~~
