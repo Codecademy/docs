@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Command Line'
+  - 'Developer Tools'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
