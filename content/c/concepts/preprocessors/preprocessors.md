@@ -34,12 +34,12 @@ The preprocessor includes several statements used for conditional compilation: `
 The preprocessor also includes `#ifdef` and `#ifndef` which are shorthand for `#if defined(...)` and `#if !defined(...)`.
 
 ```c
-#if HELLO > 0 
+#if HELLO > 0
   printf("Hello world!");
 #endif
 ```
 
-If the macro `HELLO` is greater than zero, then the `printf("Hello world!")` command will be compiled. 
+If the macro `HELLO` is greater than zero, then the `printf("Hello world!")` command will be compiled.
 If not, then the command will be omitted from the final code being compiled.
 
 ```c
