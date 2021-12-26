@@ -32,12 +32,15 @@ In the example below, a variable `x` is defined within the local scope of the `o
 
 ```
 def outerfun():
-    x = 200        #initialised in outer function.
-    def innerfun():
-        print(x)
-    innerfun()
+  x = 200
+  #initialised in outer function.
+  
+  def innerfun():
+      print(x)
+  innerfun()
 
 outerfun()
+# Output: 200
 ```
 
 ## Global Scope
