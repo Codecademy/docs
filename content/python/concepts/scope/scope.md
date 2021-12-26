@@ -2,9 +2,8 @@
 Title: 'Scope'
 Description: 'The variable is only usable inside the region it is created is called as scope in python'
 Subjects:
+  - `Code Foundations`
   - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
 Tags:
   - 'Lists'
   - 'Arrays'
