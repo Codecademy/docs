@@ -34,7 +34,7 @@ const mySet = new Set();
 ```js
 mySet.add(1); // Set { 1 }
 mySet.add('text'); // Set { 1, 'text' }
-mySet.add(1); // Still Set { 1, 'text' } because 1 is already in the set
+mySet.add(1); // Still, Set { 1, 'text' } because 1 is already in the set
 ```
 
 ## Determining whether a value is in a `Set`
@@ -56,8 +56,8 @@ There are 2 values in `mySet`: `1` and `text`
 ## Removing values from a `Set`
 
 ```js
-console.log(mySet.delete(1)); // Output: true, Set {'text'}
-console.log(mySet.delete(5)); // Output: false, Set {'text'}
+console.log(mySet.delete(1)); // Output: true, Set { 'text' }
+console.log(mySet.delete(5)); // Output: false, Set { 'text' }
 ```
 
 The first statement returns `true` because `mySet` contain `1` as a value and has removed it.
@@ -66,15 +66,15 @@ The second statement returns `false` because `5` is not a value in `mySet`.
 ## Removing everything from a `Set`
 
 ```js
-mySet.size; // 1, {'text'}
-mySet.clear(); // undefined, Set {size: 0} in chrome
+mySet.size; // 1, Set { 'text' }
+mySet.clear(); // undefined, Set { size: 0 } in chrome
 ```
 
 ## Initializing a `Set` using iterables (e.g. arrays)
 
 ```js
 const newSet = new Set([2, true, 2, 'some string', { name: 'John' }]);
-console.log(newSet); // Set {2, true, 'some string', {name: 'John'}}
+console.log(newSet); // Set { 2, true, 'some string', { name: 'John' } }
 newSet.size; // 4
 ```
 
