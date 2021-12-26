@@ -14,8 +14,7 @@ CatalogContent:
 
 Scope refers to the areas in which variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist in the local scope.
 
-## Types of Scopes
- **Local Scope**: 
+## Local Scope
  
  Suppose there is a function and a variable is initialized in it. Now this variable can only be used within that funtion not from outside the function.
 
