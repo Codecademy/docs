@@ -54,7 +54,6 @@ def fun():
 
 fun()
 print(x)
-
 """
 Output:
 200
