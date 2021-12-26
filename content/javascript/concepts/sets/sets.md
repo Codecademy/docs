@@ -1,6 +1,6 @@
 ---
 Title: 'Set'
-Description: 'Set is a special object without keys which can only store unique values.'
+Description: 'A set is a special object that stores unique values without a key.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`Set` is an object in JavaScript that is a collection of unique values.
+A set is an object in JavaScript that is a collection of unique values.
 
-A set object can be created with the `Set()` constructor function.
+A `Set` object can be created with the `Set()` constructor function.
 
 ```js
 const set = new Set();
@@ -23,21 +23,21 @@ const set = new Set();
 
 ## Main methods
 
-- `set.add(value)` - adds a value to the set. If the value is already in the set, it doesn't do anything.
-- `set.delete(value)` - removes the given value, returns `true` if the value existed in the set, otherwise `false`.
-- `set.has(value)` - returns `true` if the value exists in the set, otherwise `false`.
-- `set.clear()` - deletes everything from the set.
-- `set.size` - returns the number of elements in the set.
+- `set.add(value)`: Adds a value to the set. If the value is already in the set, it doesn't do anything.
+- `set.delete(value)`: Removes the given value, returns `true` if the value existed in the set, otherwise `false`.
+- `set.has(value)`: Returns `true` if the value exists in the set, otherwise `false`.
+- `set.clear()`: Deletes everything from the set.
+- `set.size`: Returns the number of elements in the set.
 
-## Adding value to Set
+## Adding value to a `Set`
 
 ```js
-set.add(1); // Set {1}
-set.add('text'); // Set {1, 'text'}
-set.add(1); // still Set {1, 'text'} because 1 is already in the set
+set.add(1); // Set { 1 }
+set.add('text'); // Set { 1, 'text' }
+set.add(1); // Still Set { 1, 'text' } because 1 is already in the set
 ```
 
-## Determining Whether Value is in Set
+## Determining whether a value is in a `Set`
 
 ```js
 console.log(set.has(1)); // Output: true
@@ -45,7 +45,7 @@ console.log(set.has('text')); // Output: true
 console.log(set.has(5)); // Output: false
 ```
 
-## Retrieving the Size of a Set
+## Retrieving the size of a `Set`
 
 ```js
 console.log(set.size); // Output: 2
@@ -53,7 +53,7 @@ console.log(set.size); // Output: 2
 
 There are 2 values in `set`: `1` and `text`
 
-## Removing Value from Set
+## Removing values from a `Set`
 
 ```js
 console.log(set.delete(1)); // Output: true, Set {'text'}
@@ -63,14 +63,14 @@ console.log(fruits.delete(5)); // Output: false, Set {'text'}
 The first statement returns `true` because `set` contain `1` as a value and has removed it.
 The second statement returns `false` because `5` is not a value in `set`.
 
-## Removing everything from Set
+## Removing everything from a `Set`
 
 ```js
 set.size; // 1, {'text'}
 set.clear(); // undefined, Set {size: 0} in chrome
 ```
 
-## Intializing Set using iterables (e.g. arrays)
+## Initializing a `Set` using iterables (e.g. arrays)
 
 ```js
 const mySet = new Set([2, true, 2, 'some string', { name: 'John' }]);
