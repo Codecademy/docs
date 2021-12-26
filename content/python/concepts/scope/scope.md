@@ -26,7 +26,7 @@ def fun():
 myfun()
  ~~~
 
-**Nexted Functions Scope**:
+## Nested Functions and Local Scope
 
 In the example below, a variable `x` is defined within the local scope of the `outerfun()` function, followed by a defined `innerfun()` function. Since `innerfun()` exists within the local scope of `outerfun()`, `x` can be accessed and printed within `innerfun()`:
 
