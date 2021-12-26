@@ -1,58 +1,63 @@
 ---
 Title: 'Scope'
-Description: 'The variable is only usable inside the region it is created is called as scope in python'
+Description: 'Scope refers to the areas in which variables are visible and accessible.'
 Subjects:
+  - `Code Foundations`
   - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
 Tags:
-  - 'Lists'
-  - 'Arrays'
-  - 'Objects'
-  - 'Data Structures'
-  - 'Data Types'
+  - `Conceptual`
+  - `Scope`
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The variable is only usable inside the region it is created is called as **scope** in python. Now this region can be anything a class, method(function), loops, if statements, etc.
+Scope refers to the areas in which variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist in the local scope.
 
-## Types of Scopes
- **Local Scope**: 
+## Local Scope
  
  Suppose there is a function and a variable is initialized in it. Now this variable can only be used within that funtion not from outside the function.
 
- ~~~
+ ```
 def fun():
-    x = 200
-    print(x)
+  x = 200
+  print(x)
 
 myfun()
- ~~~
+ ```
 
-**Nexted Functions Scope**:
+## Nested Functions and Local Scope
 
-Here, if the variable initialised in the outer function and that variable is used in the inner function then its totally fine, but when the case is vice versa it will generate an exception.
+In the example below, a variable `x` is defined within the local scope of the `outerfun()` function, followed by a defined `innerfun()` function. Since `innerfun()` exists within the local scope of `outerfun()`, `x` can be accessed and printed within `innerfun()`:
+
 ```
 def outerfun():
-    x = 200        #initialised in outer function.
-    def innerfun():
-        print(x)
-    innerfun()
+  x = 200
+  #initialised in outer function.
+  
+  def innerfun():
+      print(x)
+  innerfun()
 
 outerfun()
+# Output: 200
 ```
 
-**Global Scope**:
+## Global Scope
 
 A variable initialised in the main body is defined as a **global** variable and can be used anywhere in the code. It could be nested blocks, loops, etc.
 ```
-x = 200     #global variable
+x = 200
 
 def fun():
-    print(x)
+  print(x)
 
 fun()
 print(x)
+
+"""
+Output:
+200
+200
+"""
 ```
