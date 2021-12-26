@@ -1,6 +1,6 @@
 ---
 Title: 'Scope'
-Description: 'The variable is only usable inside the region it is created is called as scope in python'
+Description: 'Scope refers to the areas in which variables are visible and accessible.'
 Subjects:
   - `Code Foundations`
   - 'Computer Science'
