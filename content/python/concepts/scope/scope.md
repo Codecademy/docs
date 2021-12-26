@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The variable is only usable inside the region it is created is called as **scope** in python. Now this region can be anything a class, method(function), loops, if statements, etc.
+Scope refers to the areas in which variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist in the local scope.
 
 ## Types of Scopes
  **Local Scope**: 
