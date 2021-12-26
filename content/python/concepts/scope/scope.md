@@ -40,7 +40,7 @@ def outerfun():
 outerfun()
 ```
 
-**Global Scope**:
+## Global Scope
 
 A variable initialised in the main body is defined as a **global** variable and can be used anywhere in the code. It could be nested blocks, loops, etc.
 ```
