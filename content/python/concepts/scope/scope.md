@@ -28,7 +28,8 @@ myfun()
 
 **Nexted Functions Scope**:
 
-Here, if the variable initialised in the outer function and that variable is used in the inner function then its totally fine, but when the case is vice versa it will generate an exception.
+In the example below, a variable `x` is defined within the local scope of the `outerfun()` function, followed by a defined `innerfun()` function. Since `innerfun()` exists within the local scope of `outerfun()`, `x` can be accessed and printed within `innerfun()`:
+
 ```
 def outerfun():
     x = 200        #initialised in outer function.
