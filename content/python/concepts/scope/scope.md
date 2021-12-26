@@ -5,11 +5,8 @@ Subjects:
   - `Code Foundations`
   - 'Computer Science'
 Tags:
-  - 'Lists'
-  - 'Arrays'
-  - 'Objects'
-  - 'Data Structures'
-  - 'Data Types'
+  - `Conceptual`
+  - `Scope`
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
