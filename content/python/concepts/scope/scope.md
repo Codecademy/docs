@@ -47,11 +47,16 @@ outerfun()
 
 A variable initialised in the main body is defined as a **global** variable and can be used anywhere in the code. It could be nested blocks, loops, etc.
 ```
-x = 200     #global variable
+x = 200
 
 def fun():
-    print(x)
+  print(x)
 
 fun()
 print(x)
+"""
+Output:
+200
+200
+"""
 ```
