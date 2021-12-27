@@ -27,11 +27,4 @@ print(object)
 print("Hello, World!")
 # Output: Hello, World!
 ```
-
-The output would be:
-
-```pseudo
-Hello, World!
-```
-
 **Note:** To print an integer of a floating-point number, use the str() function.
