@@ -215,8 +215,6 @@ public abstract class SavingAccount {
 }
 ```
 
-**Note:** Getters have been excluded from the above code snippet.
-
 Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `.addInterest()` method. This is the differentiating feature described between each savings account.
 
 Below provides the concrete implementations of `SavingAccount` for this example. The first is the Gold-level:
