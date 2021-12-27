@@ -11,7 +11,6 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 The `print()` function takes in a string parameter or any other element, such as an integer. The parameter is converted to a string through an implicit call of the built-in `str()` function and the value is outputted.
