@@ -31,7 +31,7 @@ To illustrate the abstract factory pattern, below is a real-world example, writt
 | Bronze        | Max overdraft limit of 500  | Interest rate of 1.5% |
 | Builder       | No overdraft                | Interest rate of 1.5% |
 
-To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customers name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. We can later use this class to see the different paths through our abstract factory.
+To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customer's name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. We can later use this class to see the different paths through our abstract factory.
 
 ```java
 public class CreditAgencyGateway {
