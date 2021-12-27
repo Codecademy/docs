@@ -1,6 +1,6 @@
 ---
 Title: 'print()'
-Description: 'Outputs the string representation of an object.'
+Description: 'Prints the string representation of an object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
