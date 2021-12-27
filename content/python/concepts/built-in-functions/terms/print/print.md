@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `print()` function takes in a string parameter or any other element, such as an integer. The parameter is converted to a string through an implicit call of the built-in `str()` function and the value is outputted.
+The `print()` function accepts an object as a parameter, such as a string, a number, or a list. It is then converted to a string through an implicit call of the built-in `str()` function and the value is printed to an output stream.
 
 ## Syntax
 
