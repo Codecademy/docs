@@ -374,7 +374,7 @@ public class Main {
     final CreditAgencyGateway creditAgencyGateway = new CreditAgencyGateway();
 
     // Get customer. Change name to change outputted account types.
-    final Customer customer = creditAgencyGateway.getCustomer("Sirius");
+    final Customer customer = creditAgencyGateway.getCustomer("Hermione");
 
     // Capture correct concrete factory
     AccountFactory<?> accountFactory = AccountFactory.getAccountFactory(AccountType.CURRENT);
