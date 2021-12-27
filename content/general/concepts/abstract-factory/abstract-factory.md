@@ -95,8 +95,6 @@ public abstract class CurrentAccount {
 }
 ```
 
-**Note:** Getters have been excluded from the above code snippet.
-
 The parent `CurrentAccount` class above, as well as providing the common fields and constructor, requires its children to implement the `.increaseOverdraft()` method. This is the differentiating feature described between each current account.
 
 The code snippets below are the concrete implementations of `CurrentAccount`. The first is the Gold-level:
