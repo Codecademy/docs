@@ -51,7 +51,7 @@ public class CreditAgencyGateway {
       case "Hermione" -> new Customer("Hermione",
                                       "Granger",
                                       LocalDate.of(1979, 9, 19),
-                                      "12 Grimmauld Palace, London",
+                                      "Hampstead Garden Suburb, London",
                                       843);
       default -> throw new IllegalArgumentException("Could not return the credit history for " + name);
     };
