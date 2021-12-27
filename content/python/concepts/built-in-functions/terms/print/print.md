@@ -24,7 +24,8 @@ print(object)
 ## Example
 
 ```py
-print("Hello, World")
+print("Hello, World!")
+# Output: Hello, World!
 ```
 
 The output would be:
