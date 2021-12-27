@@ -1,6 +1,6 @@
 ---
 Title: 'Creational Design Patterns'
-Description: 'Concern themselves with the instantiation, or creation, of objects.'
+Description: 'Creational design patterns concern themselves with the instantiation, or creation, of objects.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
