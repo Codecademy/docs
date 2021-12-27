@@ -91,7 +91,7 @@ public abstract class CurrentAccount {
   // Enforces concrete classes to override this method
   public abstract void increaseOverdraft(int requestedLimit);
 
-  // Getters
+  // Getters below
 }
 ```
 
