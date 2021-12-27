@@ -46,7 +46,7 @@ public class CreditAgencyGateway {
       case "Ron" -> new Customer("Ron",
                                  "Weasley",
                                  LocalDate.of(1980, 3, 1),
-                                 "Shell Cottage, Cornwall",
+                                 "The Burrow, Devon",
                                  379);
       case "Hermione" -> new Customer("Hermione",
                                       "Granger",
