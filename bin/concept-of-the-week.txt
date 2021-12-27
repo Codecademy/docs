@@ -1,1 +1,1 @@
-content/ruby/concepts/modulo/modulo.md
+content/swift/concepts/closures/closures.md
