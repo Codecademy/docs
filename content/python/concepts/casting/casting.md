@@ -1,6 +1,6 @@
 ---
 Title: 'Casting'
-Description: 'Casting is a method that converts a variables data type into another data type.'
+Description: 'Casting, also known as type conversion, is a process that converts a variable's data type into another data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
