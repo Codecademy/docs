@@ -36,8 +36,8 @@
   "version": "1.0.0",
   "lint-staged": {
     "*.md": [
-      "npm run format:md",
-      "npm run lint:md"
+      "npm run format",
+      "markdownlint"
     ]
   }
 }
