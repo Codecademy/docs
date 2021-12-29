@@ -16,14 +16,14 @@ Scope refers to the areas that variables are visible and accessible. Variables t
 
 ## Local Scope
 
-Suppose there is a function and a variable is initialized in it. Now this variable can only be used within that funtion not from outside the function.
+Suppose a variable is initialized within a function. This variable can only be used within that function and not from outside the function.
 
 ```
-def fun():
+def my_function():
  x = 200
  print(x)
 
-myfun()
+my_function()
 ```
 
 ## Nested Functions and Local Scope
@@ -45,7 +45,7 @@ outer_function()
 
 ## Global Scope
 
-A variable initialised in the main body is defined as a **global** variable and can be used anywhere in the code. It could be nested blocks, loops, etc.
+A variable initialized in the main body is defined as a global variable and can be used anywhere in the code, including nested blocks, loops, etc. This is because these variables exist in the global scope of the code.
 
 ```py
 x = 200
