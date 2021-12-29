@@ -31,15 +31,15 @@ myfun()
 In the example below, a variable `x` is defined within the local scope of the `outerfun()` function, followed by a defined `innerfun()` function. Since `innerfun()` exists within the local scope of `outerfun()`, `x` can be accessed and printed within `innerfun()`:
 
 ```
-def outerfun():
+def outer_function():
   x = 200
   #initialised in outer function.
 
-  def innerfun():
+  def inner_function():
       print(x)
-  innerfun()
+  inner_function()
 
-outerfun()
+outer_function()
 # Output: 200
 ```
 
