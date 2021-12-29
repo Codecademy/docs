@@ -17,15 +17,33 @@ The `print()` function accepts an object as a parameter, such as a string, a num
 
 ## Syntax
 
+The object to be printed is passed to the `print()` function:
+
 ```py
 print(object)
 ```
 
 ## Example
 
+Below is an example of the string being printed:
+
 ```py
 print("Hello, World!")
 # Output: Hello, World!
 ```
 
-**Note:** To print an integer of a floating-point number, use the str() function.
+Multiple objects can also be printed within one `print()` when passed as a comma-separated list of paramters. By default, each object is separated by one space in the printed result:
+
+```py
+print("Hello,", "World!")
+# Output: Hello, World!
+```
+
+## Codebyte Example
+
+In additional to printing multiple objects, the `print()` function also comes with `sep` and `end` parameters to further format the printed result:
+
+```codebyte/py
+print("Python", "is", "awesome", sep="-", end="!\n")
+```
+
