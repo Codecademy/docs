@@ -22,10 +22,10 @@ The Python interpreter automatically performs type conversion on some operations
 To avoid data loss, Python converts smaller data types to higher data types. In the below example, the integer 7 is converted to a float when added with 2.2. Since the expression represents the sum of two `float` values, the data type of `y` is also `float`.
 
 ```py
-y = 7 + 2.2 
+y = 7 + 2.2
 # Python automatically type casts y into float
 
-print(y) 
+print(y)
 # Output: 9.2
 
 print(type(y))
