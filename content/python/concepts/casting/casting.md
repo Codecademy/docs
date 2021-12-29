@@ -19,7 +19,7 @@ Casting, also known as type conversion, is a process that converts a variable's 
 
 The Python interpreter automatically performs type conversion on some operations without any user involvement.
 
-To avoid data loss, Python converts smaller data types to higher data types. In the below example, the integer 7 is converted to a float when added with 2.2. Since the expression represents the sum of two `float` values, the data type of `y` is also `float`.
+Python avoids data loss by converting lower data types to higher data types. For example, an integer, 7, is converted to a float when added with another float, 2.2:
 
 ```py
 y = 7 + 2.2
