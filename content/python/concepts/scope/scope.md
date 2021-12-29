@@ -33,10 +33,10 @@ In the example below, a variable `x` is defined within the local scope of the `o
 ```
 def outer_function():
   x = 200
-  #initialised in outer function.
+  # Initialized in outer function
 
   def inner_function():
-      print(x)
+    print(x)
   inner_function()
 
 outer_function()
@@ -54,6 +54,7 @@ def fun():
   print(x)
 
 fun()
+
 print(x)
 """
 Output:
