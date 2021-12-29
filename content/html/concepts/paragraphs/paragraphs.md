@@ -1,6 +1,6 @@
 ---
 Title: 'Paragraphs'
-Description: 'Paragraph element contains and displays a block of text. They are among the most common text-based HTML elements. They are block-level, which means it is as wide as its parent element and as tall as its contents height. The pargraph element is enclosed by an opening tag  and a closing tag : html  This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+Description: 'Paragraphs are block-level elements that contain and display a block of text. They are enclosed by an opening and closing tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
