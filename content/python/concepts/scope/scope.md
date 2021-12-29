@@ -1,6 +1,6 @@
 ---
 Title: 'Scope'
-Description: 'Scope refers to the areas in which variables are visible and accessible.'
+Description: 'Scope refers to the areas that variables are visible and accessible.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
