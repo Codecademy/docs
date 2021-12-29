@@ -18,7 +18,7 @@ Scope refers to the areas that variables are visible and accessible. Variables t
 
 Suppose a variable is initialized within a function. This variable can only be used within that function and not from outside the function.
 
-```
+```py
 def my_function():
  x = 200
  print(x)
@@ -30,7 +30,7 @@ my_function()
 
 In the example below, a variable `x` is defined within the local scope of the `outer_function()` function, followed by a defined `inner_function()` function. Since `inner_function()` exists within the local scope of `outer_function()`, `x` can be accessed and printed within `inner_function()`:
 
-```
+```py
 def outer_function():
   x = 200
   # Initialized in outer function
