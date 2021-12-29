@@ -46,4 +46,3 @@ In additional to printing multiple objects, the `print()` function also comes wi
 ```codebyte/py
 print("Python", "is", "awesome", sep="-", end="!\n")
 ```
-
