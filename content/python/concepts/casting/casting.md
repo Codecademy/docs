@@ -32,12 +32,7 @@ print(type(y))
 # Output: <class 'float'>
 ```
 
-This will output:
-
-```shell
-9.2
-<class 'float'>
-```
+Since the expression above represents the sum of two `float` values, the data type of `y` is also a `float`.
 
 ## Explicit Type Conversion
 
