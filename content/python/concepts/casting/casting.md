@@ -17,15 +17,19 @@ Casting, also known as type conversion, is a process that converts a variable's 
 
 ## Implicit Type Conversion
 
-Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement.
+The Python interpreter automatically performs type conversion on some operations without any user involvement.
 
 To avoid data loss, Python converts smaller data types to higher data types. In the below example, the integer 7 is converted to a float when added with 2.2. Since the expression represents the sum of two `float` values, the data type of `y` is also `float`.
 
 ```py
-y = 7 + 2.2 # Python automatically type casts y into float
+y = 7 + 2.2 
+# Python automatically type casts y into float
 
-print(y)
+print(y) 
+# Output: 9.2
+
 print(type(y))
+# Output: <class 'float'>
 ```
 
 This will output:
@@ -37,11 +41,11 @@ This will output:
 
 ## Explicit Type Conversion
 
-In explicit type casting, the user converts the data type of a variable using a predefined function. This function is typically the constructor of another data type.
+Explicit type casting involves Python's predefined functions that act as a constructor of another data type:
 
-- `str()`: This function takes an integer or float as an argument and converts it to a string.
-- `int()`: This function takes string or float as an argument converts it to an integer.
-- `float()`: This function takes integer or string as an argument and converts it to a float.
+- The `str()` function takes an integer or float as an argument and converts it to a string.
+- The [`int()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/int) takes a string or float as an argument converts it to an integer.
+- The [`float()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/float) takes an integer or string as an argument and converts it to a float.
 
 ### Type Casting `int` to `str`
 
@@ -114,11 +118,11 @@ ValueError: invalid literal for int() with base 10: 'seven'
 
 ## Operations on Different Types of Data
 
-When operating on data, it is important to keep their data type in mind. The following code is a flawed attempt to print the square of a number specified by the user. Try running it and ponder the result.
+When operating on data, it is important to be mindful of the data types associated with it. The following code is a flawed attempt to print the square of a number specified by the user. When run, a `TypeError` will be thrown:
 
 ```codebyte/py
 num = input("Please enter a number: ")
 print(num ** 2)
 ```
 
-The `input()` function takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type. Try to edit the code above to successfully square a number inputted by the user.
+The [`input()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/input) takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type. Try to edit the code above to successfully square a number inputted by the user.
