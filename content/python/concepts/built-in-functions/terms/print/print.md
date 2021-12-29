@@ -17,7 +17,7 @@ The `print()` function accepts an object as a parameter, such as a string, a num
 
 ## Syntax
 
-The object to be printed is passed to the `print()` function:
+The object to be printed is passed to the `print()` function as a parameter:
 
 ```py
 print(object)
