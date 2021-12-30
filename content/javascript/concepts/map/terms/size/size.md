@@ -19,7 +19,7 @@ Returns the number of entries inside of a `Map` object.
 Since `.size` is a property of `Map`, no parentheses are needed:
 
 ```js
-myMap.size;
+map.size;
 ```
 
 ## Example
