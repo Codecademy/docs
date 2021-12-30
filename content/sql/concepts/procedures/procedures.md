@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Procedures are blocks of SQL code that are saved in a database and can be executed repeatedly on demand. Also referred to as stored procedures — they can be defined with parameters to be used within the body of the procedure. They can also define parameters that return an output value.
+Procedures are blocks of SQL code that are saved in a database and can be executed repeatedly on demand. Also referred to as stored procedures — they can be defined with parameters to be used within the body of the procedure, produce an output value, or both.
 
 The syntax for creating a procedure varies depending upon the type of database management system (DBMS) being used. Below is an example procedure defined and executed with [MySQL](https://www.mysql.com/) that accepts two parameters and returns an output value.
 
