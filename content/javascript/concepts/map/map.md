@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`Map` is an object in JavaScript that stores entries of key-value pairs in their original insertion order.
+A `Map` is an object in JavaScript that stores entries of key-value pairs in their original insertion order.
 
 - Values mapped to existing keys can be overwritten later.
 - Keys/values can either be an [object](https://www.codecademy.com/resources/docs/javascript/objects) or a variable of [any data type](https://www.codecademy.com/resources/docs/javascript/data-types).
