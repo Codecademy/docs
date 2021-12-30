@@ -19,7 +19,7 @@ Retrieves a value associated with a given key in a `Map` object.
 The `.get()` method accepts a `key` parameter and checks it against a `Map` object. If the `key` exists in the map, the accosiated value is returned. If not, `undefined` is returned.
 
 ```js
-map.get(key)
+map.get(key);
 ```
 
 ## Example
@@ -29,7 +29,7 @@ Values are retrieved by their keys from `Map` objects using the `.get()` method.
 ```js
 const fruits = new Map([
   ['Apples', 5],
-  ['Oranges', 8]
+  ['Oranges', 8],
 ]);
 
 console.log(fruits.get('Apples')); // Output: 5

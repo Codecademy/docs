@@ -19,7 +19,7 @@ Returns a boolean telling whether an entry with a given key exists in a `Map` ob
 The `.has()` method accepts a `key` as a parameter:
 
 ```js
-map.has(key)
+map.has(key);
 ```
 
 If the `key` exists in `map`, `.has()` returns `true`. Otherwise, it returns `false`.
@@ -31,7 +31,7 @@ Checking whether a key is in `fruits` map can be done using the `.has()` method:
 ```js
 const fruits = new Map([
   ['Apples', 5],
-  ['Oranges', 8]
+  ['Oranges', 8],
 ]);
 
 console.log(fruits.has('Apples')); // Output: true

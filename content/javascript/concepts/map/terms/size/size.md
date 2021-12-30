@@ -29,7 +29,7 @@ Assumming there is a map of `fruits` with two key-value pairs: `'Apples' : 5` an
 ```js
 const fruits = new Map([
   ['Apples', 5],
-  ['Oranges', 8]
+  ['Oranges', 8],
 ]);
 ```
 
