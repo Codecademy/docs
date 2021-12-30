@@ -26,13 +26,13 @@ str()
 
 The `str()` function can change the datatype of a `float` value, `314.0`, into a string:
 
-```codebyte/python
+```python
 print(str(314.0))
 ```
 
 ## Example 2
 
-`str()` can also wrap around other type conversions. How could that be done in the example below?
+The `str()` function can also wrap around other type conversions. How could that be done in the example below?
 
 ```codebyte/python
 print(int(3.14))
