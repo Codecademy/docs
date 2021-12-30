@@ -29,8 +29,8 @@ Data can be removed from `Map` using the `.delete()` method.
 ```js
 const fruits = new Map([
   ['Apples', 5],
-  ['Oranges', 8]
-])
+  ['Oranges', 8],
+]);
 
 console.log(fruits.delete('Oranges')); // Output: true
 console.log(fruits.delete('Strawberries')); // Output: false
