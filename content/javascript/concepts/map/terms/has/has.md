@@ -26,7 +26,7 @@ If the `key` exists in `map`, `.has()` returns `true`. Otherwise, it returns `fa
 
 ## Example
 
-Checking whether a key is in `fruits` map can be done using the `.has()` method:
+Checking whether a key is in the `fruits` Map object can be done using the `.has()` method:
 
 ```js
 const fruits = new Map([
