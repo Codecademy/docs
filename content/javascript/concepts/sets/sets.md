@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A set is an object in JavaScript that is a collection of unique values.
+A `Set` is an object in JavaScript that is a collection of unique values.
 
 A `Set` object can be created with the `Set()` constructor function.
 
