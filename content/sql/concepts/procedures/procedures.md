@@ -24,7 +24,8 @@ DELIMITER //
 CREATE PROCEDURE add_int (IN x INT, IN y INT, OUT z INT)
 BEGIN
   SELECT x + y INTO z;
-END//
+END //
+
 # Set the delimiter back to the default
 DELIMITER ;
 # Execute the stored procedure
