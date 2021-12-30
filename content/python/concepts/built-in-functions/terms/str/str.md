@@ -32,7 +32,7 @@ print(str(314.0))
 
 ## Example 2
 
-Use `str()` to change the datatype of an `int` value `314` into a string:
+`str()` can also wrap around other type conversions. How could that be done in the example below?
 
 ```codebyte/python
 print(int(314))
