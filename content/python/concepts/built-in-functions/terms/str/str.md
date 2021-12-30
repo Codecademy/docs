@@ -35,5 +35,5 @@ print(str(314.0))
 `str()` can also wrap around other type conversions. How could that be done in the example below?
 
 ```codebyte/python
-print(int(314))
+print(int(3.14))
 ```
