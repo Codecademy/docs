@@ -1,6 +1,6 @@
 ---
 Title: '.has()'
-Description: 'Returns a boolean telling whether an entry with a given key exists in a Map object.'
+Description: 'Returns a boolean reflecting whether an entry with a given key exists in a Map object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns a boolean telling whether an entry with a given key exists in a `Map` object.
+Returns a boolean reflecting whether an entry with a given key exists in a `Map` object.
 
 ## Syntax
 
