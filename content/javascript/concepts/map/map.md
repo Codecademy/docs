@@ -14,13 +14,13 @@ CatalogContent:
 
 `Map` is an object in JavaScript that stores entries of key-value pairs in their original insertion order.
 
-- Values mapped to existing keys can be overwritten later on.
+- Values mapped to existing keys can be overwritten later.
 - Keys/values can either be an [object](https://www.codecademy.com/resources/docs/javascript/objects) or a variable of [any data type](https://www.codecademy.com/resources/docs/javascript/data-types).
 - Maps are directly iterable whereas objects are not.
 
 ## Syntax
 
-A new map can be defined with the `new` keyword:
+A map can be defined with the `new` keyword:
 
 ```js
 const map = new Map();
