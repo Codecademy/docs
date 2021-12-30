@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Takes in a value that can be converted into a string, and returns a copy of the value in the `string` datatype.
+Takes in a value that can be converted into a string, and returns a copy of the value in the `string` datatype. If nothing is passed into `str()`, then an empty string is returned.
 
 ## Syntax
 
