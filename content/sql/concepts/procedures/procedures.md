@@ -1,6 +1,6 @@
 ---
 Title: 'Procedures'
-Description: 'Procedures (also stored procedures) are blocks of SQL code that are saved in a database and can be executed repeatedly on demand.'
+Description: 'Procedures are blocks of SQL code that are saved in a database and can be executed repeatedly on demand.'
 Subjects:
   - 'Data Science'
 Tags:
