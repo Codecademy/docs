@@ -1,6 +1,6 @@
 ---
 Title: 'Set'
-Description: 'A set is a special object that stores unique values without a key.'
+Description: 'A Set is a special object that stores unique values without a key.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
