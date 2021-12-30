@@ -16,7 +16,7 @@ Stores or updates entries of key-value pairs in a `Map` object.
 
 ## Syntax
 
-The `.set()` method aceepts two parameters, the `key` and the `value`, and assigns the entry to a map:
+The `.set()` method accepts two parameters, the `key` and the `value`, and assigns the entry to a `Map` object:
 
 ```js
 const map = new Map();
