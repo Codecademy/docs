@@ -24,7 +24,7 @@ map.delete(key);
 
 ## Example
 
-Data can be removed from `Map` using the `.delete()` method.
+Data can be removed from a `Map` object using the `.delete()` method.
 
 ```js
 const fruits = new Map([
