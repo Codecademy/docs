@@ -26,7 +26,7 @@ A map can be defined with the `new` keyword:
 const map = new Map();
 ```
 
-The example above creates an empty `Map` object, `myMap`.
+The example above creates an empty `Map` object, `map`.
 
 ## Example
 
