@@ -24,7 +24,7 @@ str()
 
 ## Example 1
 
-Use `str()` to change the datatype of a `float` value `314.0` into a string:
+The `str()` function can change the datatype of a `float` value, `314.0`, into a string:
 
 ```codebyte/python
 print(str(314.0))
