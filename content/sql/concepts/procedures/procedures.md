@@ -13,7 +13,7 @@ CatalogContent:
 
 Procedures (also stored procedures) are blocks of SQL code that are saved in a database and can be executed repeatedly on demand. Procedures can be defined to take parameters that can be used within the body of the procedure, as well as define parameters that return an output value.
 
-The syntax for creating a procedure varies depending upon the type of database management system (DBMS) being used. Below is an example procedure defined and executed with MySQL that takes two parameters and returns an output value.
+The syntax for creating a procedure varies depending upon the type of database management system (DBMS) being used. Below is an example procedure defined and executed with [MySQL](https://www.mysql.com/); it accepts two parameters and returns an output value.
 
 ## MySQL Example
 
