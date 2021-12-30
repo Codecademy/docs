@@ -20,6 +20,7 @@ The syntax for creating a procedure varies depending upon the type of database m
 ```sql
 # Set the default delimiter so the procedure can include semicolons
 DELIMITER //
+
 # Create the procedure
 CREATE PROCEDURE add_int (IN x INT, IN y INT, OUT z INT)
 BEGIN
