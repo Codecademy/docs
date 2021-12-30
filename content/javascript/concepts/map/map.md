@@ -20,7 +20,7 @@ A `Map` is an object in JavaScript that stores entries of key-value pairs in the
 
 ## Syntax
 
-A map can be defined with the `new` keyword:
+A map can be defined with the `new` keyword. The example below creates an empty `Map` object, `map`:
 
 ```js
 const map = new Map();
