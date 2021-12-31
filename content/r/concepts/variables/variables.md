@@ -23,7 +23,7 @@ Variables are instead created with the assignment operator, `<-`. (The more fami
 variable <- "value"
 ```
 
-The assignment operator can be chained together to initalize multiple variables at once:
+The assignment operator can be chained together to initialize multiple variables at once:
 
 ```r
 var1 <- var2 <- var3 <- 0
@@ -47,7 +47,7 @@ The name of an `R` variable must adhere to the following constraints:
 
 - The name is a combination of letters, digits, period(.) and underscore(_).
 - It must start with a letter or a period.
-- If it starts with a period, the second caracter cannot be a number.
+- If it starts with a period, the second character cannot be a number.
 - It cannot start with a number or an underscore.
 - Variable names are case-sensitive.
 - Reserved words (TRUE,FALSE,print...) cannot be used for variable names.
