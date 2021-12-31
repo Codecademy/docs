@@ -64,12 +64,12 @@ const addressBook = new Map([
   ['Tom', '12231543']
 ]);
 
-console.log("Size of address book: ", addressBook.size);
+console.log('Size of address book: ', addressBook.size);
 
 console.log('Paul\'s number was', addressBook.get('Paul'));
 addressBook.set('Paul', '12355932');
-console.log('Paul\'s number is now ", addressBook.get('Paul'));
+console.log('Paul\'s number is now ', addressBook.get('Paul'));
 
 console.log(addressBook.delete('Tom'));
-console.log("Size of updated address book: ", addressBook.size);
+console.log('Size of updated address book: ', addressBook.size);
 ```
