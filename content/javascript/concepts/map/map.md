@@ -42,7 +42,7 @@ console.log(hogwartsStudents);
 
 The output will be:
 
-```
+```pseudo
 Map(3) {
   'Gryffindor' => 'Harry Potter',
   'Slytherin' => 'Draco Malfoy',
@@ -54,8 +54,8 @@ Map(3) {
 
 In the example below, an `addressBook` maps a person's name to a phone number. By the end of the program:
 
-- Tom has moved and deleted their phone number with `.delete()`.
-- Paul has changed their phone number using `.set()`.
+- Tom has moved and deleted their phone number with the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete).
+- Paul has changed their phone number using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
 
 ```codebyte/js
 const addressBook = new Map([
@@ -64,12 +64,12 @@ const addressBook = new Map([
   ['Tom', '12231543']
 ]);
 
-console.log("Size of address book: ", addressBook.size);
+console.log('Size of address book: ', addressBook.size);
 
 console.log('Paul\'s number was', addressBook.get('Paul'));
 addressBook.set('Paul', '12355932');
-console.log('Paul\'s number is now ", addressBook.get('Paul'));
+console.log('Paul\'s number is now ', addressBook.get('Paul'));
 
 console.log(addressBook.delete('Tom'));
-console.log("Size of updated address book: ", addressBook.size);
+console.log('Size of updated address book: ', addressBook.size);
 ```
