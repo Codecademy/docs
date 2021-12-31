@@ -12,7 +12,6 @@ Tags:
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
-  - 'paths/data-science'
 ---
 
 A variable is used to store data that can be accessed later by subsequent code. In `R` there is no variable "declaration" commands.
@@ -45,7 +44,7 @@ print(score) # Output 100
 
 The name of an `R` variable must adhere to the following constraints:
 
-- The name is a combination of letters, digits, period(.) and underscore(_).
+- The name is a combination of letters, digits, period(.) and underscore(\_).
 - It must start with a letter or a period.
 - If it starts with a period, the second character cannot be a number.
 - It cannot start with a number or an underscore.
