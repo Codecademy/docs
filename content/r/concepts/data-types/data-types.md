@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'R has a number of differnt data types with different uses and characteristics.'
+Description: 'R has a number of different data types with different uses and characteristics.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,8 +14,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-R has a number of differnt data types with different uses and characteristics.
-R variables can hold different data types, and are not limited to storing the data type they were initally assigned.
+R has a number of different data types with different uses and characteristics.
+R variables can hold different data types, and are not limited to storing the data type they were initially assigned.
 
 ```r
 # This is legal in R
@@ -33,7 +33,7 @@ R supports the following basic data types:
 - `integer`: A whole number followed by `L`. (i.e. 100L)
 - `complex`: A number with an imaginary part. (i.e. 5 + 7i, `i` denoting the imaginary part)
 - `character`: A string of characters, (i.e. "Hello World!")
-- `logical`: A boolean value. (i.e. `TRUE` or `FALSE`)
+- `logical`: A Boolean value. (i.e. `TRUE` or `FALSE`)
 
 The `class()` function can be used to determine the data type of a variable.
 
@@ -42,7 +42,7 @@ x <- 3 + 2i
 class(x) # Output: "complex"
 
 x <- 100
-class(x) # Output: "neumeric"
+class(x) # Output: "numeric"
 
 x <- 100L
 class(x) # Output: "integer"
