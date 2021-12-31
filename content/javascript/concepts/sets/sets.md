@@ -1,12 +1,12 @@
 ---
-Title: 'Set'
+Title: 'Sets'
 Description: 'A Set is a special object that stores unique values without a key.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Set'
-  - 'Object'
+  - 'Sets'
+  - 'Objects'
   - 'Collections'
 CatalogContent:
   - 'introduction-to-javascript'
