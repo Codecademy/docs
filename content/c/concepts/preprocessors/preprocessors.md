@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Preprocessors in C scan the source code before it is compiled and transform it with tools like macros.
+Preprocessors in C scan the source code before it is [compiled](https://www.codecademy.com/resources/docs/c/compiling) and transform it with tools like macros.
 
 Preprocessor commands and macros are included in the source code file and are interpreted before the source code is passed to the compiler.
 
