@@ -81,6 +81,6 @@ Note: The long form of AND and OR (`&&` and `||`) are preferred for `if` stateme
 
 R uses the following miscellaneous operators:
 
-- `:`: Creates a sequence of numbers from the left argument to the right one.
-- `%in%`: `TRUE` if the left argument is in the vector to the right.
-- `%*%`: Performs matrix multiplication on two matrices.
+- The `:` operator creates a sequence of numbers from the left argument to the right one.
+- The `%in%` operator returns `TRUE` if the left argument is in the vector to the right.
+- The `%*%` operator performs matrix multiplication on two matrices.
