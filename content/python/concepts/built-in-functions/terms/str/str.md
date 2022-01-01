@@ -32,7 +32,7 @@ print(str(314.0))
 
 ## Example 2
 
-The `str()` function can also wrap around other type conversions. How could that be done in the example below?
+The `str()` function can also wrap around other type conversions.
 
 ```codebyte/python
 print(int(3.14))
