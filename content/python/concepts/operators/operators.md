@@ -15,8 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Operators are used to perform various operations on variables and values.
-The standard arithmetic and assignment operators are the most familiar.
+Operators are used to perform various operations on variables and values. The standard arithmetic and assignment operators are the most familiar.
 
 The following bit of Python code uses a multiplication operator, `*`, to calculate the product of two numbers,
 and the assignment operator, `=` to store the result in the variable `x`.
