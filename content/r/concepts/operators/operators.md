@@ -36,13 +36,13 @@ Operators in R can be organized into the following groups:
 
 R supports the following arithmetic operators:
 
-- Addition, `+`, for returning the sum of two numbers.
-- Subtraction, `-`, for returning the difference between two numbers.
-- Multiplication, `*`, for returning the product of two numbers.
-- Division, `/`: Division, for returning the quotient of two numbers.
-- Exponents, `^`, for returning the value of one number raised to the power of another.
-- Modulus, `%%`, for returning the remainder of one number divided by another.
-- Integer Division, `%/%`, returning the integer quotient of two numbers.
+- Addition, `+`, which returns the sum of two numbers.
+- Subtraction, `-`, which returns the difference between two numbers.
+- Multiplication, `*`, which returns the product of two numbers.
+- Division, `/`: Division, which returns the quotient of two numbers.
+- Exponents, `^`, which returns the value of one number raised to the power of another.
+- Modulus, `%%`, which returns the remainder of one number divided by another.
+- Integer Division, `%/%`, which returns the integer quotient of two numbers.
 
 ## Assignment operators
 
