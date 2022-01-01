@@ -46,7 +46,7 @@ R supports the following arithmetic operators:
 
 ## Assignment operators
 
-R has the following assignment operators:
+R uses the following assignment operators:
 
 - `<-` assigns a value to a variable from right to left.
 - `->` assigns a value to a variable left to right.
