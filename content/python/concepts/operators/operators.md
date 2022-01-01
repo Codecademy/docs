@@ -60,12 +60,12 @@ Python includes the following assignment operators:
 
 Python has the following comparison operators:
 
-- `==`: Equal, `True` if two values are equal.
-- `!=`: Not equal, `True` if two values are not equal.
-- `<`: Less than, `True` if left value less than right value.
-- `<=`: Less than or equal to, `True` if left value is less than or equal to right value.
-- `>`: Greater than, `True` if left value greater than right value.
-- `>=`: Greater than or equal to, `True` if left value greater than or equal to right value.
+- Equal, `==`, for returning `True` if two values are equal.
+- Not equal, `!=`, for returning `True` if two values are not equal.
+- Less than, `<`, for returning `True` if left value less than right value.
+- Less than or equal to, `<=`, for returning `True` if left value is less than or equal to right value.
+- Greater than, `>`, for returning `True` if left value greater than right value.
+- Greater than or equal to, `>=`, for returning `True` if left value greater than or equal to right value.
 
 ## Logical Operators
 
