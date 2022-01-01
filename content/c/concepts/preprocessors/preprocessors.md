@@ -59,7 +59,7 @@ If the macro `HELLO` is greater than zero, then the `printf("Hello world!")` com
 #endif
 ```
 
-The above will compile different code for different operating systems based on if the macros `_WIN32` or `_WIN64` exist.
+The example above will compile different code for different operating systems based on if the macros `_WIN32` or `_WIN64` exist.
 
 ### Defining Macros
 
