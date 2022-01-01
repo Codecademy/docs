@@ -34,7 +34,7 @@ Operators in R can be organized into the following groups:
 
 ## Arithmetic operators
 
-R has the following arithmetic operators:
+R supports the following arithmetic operators:
 
 - `+`: Addition, returns the sum of two numbers.
 - `-`: Subtraction, returns the difference of two numbers.
