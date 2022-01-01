@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.'
+Description: 'Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion (converting one type to another without a specific call to a conversion function).'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -35,7 +35,7 @@ Python includes the following categories of built-in data types:
 
 ## type()
 
-The `type()` function can be used to retrieve the data type of an object.
+The `type()` function can be used to retrieve the data type of an object:
 
 ```py
 message = "Hello, world!"
