@@ -16,8 +16,9 @@ CatalogContent:
 
 Operators are used in R to perform various operations on variables and values. Among the most commonly used ones are arithmetic and assignment operators.
 
-The following bit of R code uses a multiplication operator, `*`, to calculate the product of two numbers,
-and the assignment operator, `<-` to store the result in the variable `x`.
+## Syntax
+
+The following bit of R code uses an arithmetic operator for multiplication, `*`, to calculate the product of two numbers, along with the assignment operator, `<-` to store the result in the variable `x`.
 
 ```r
 # Store five times three in variable x
