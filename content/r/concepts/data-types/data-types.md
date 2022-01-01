@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-R has a number of different data types with different uses and characteristics.
-R variables can hold different data types, and are not limited to storing the data type they were initially assigned.
+R supports many data types, each with different uses and characteristics. Variables can hold different data types, and are not limited to storing the data type they were initially assigned.
 
 ```r
 # This is legal in R
