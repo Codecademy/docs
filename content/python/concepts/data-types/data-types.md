@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Python is a strongly typed language. Strongly typed means that the data type of a value doesnt change in unexpected ways. py codecademy = 575 codecademy = "575 broadway"  After line 1, codecademy is an int. After line 2, codecademy is a str. Here are Pythons built-in data types:'
+Description: 'Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.
+Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion (converting one type to another without a specific call to a conversion function).
 
 ```py
 codecademy = 575
@@ -23,7 +23,7 @@ codecademy = "575 broadway"
 
 After line 1, `codecademy` is an `int`. After line 2, `codecademy` is a `str`.
 
-Here are Python's built-in data types:
+Python includes the following categories of built-in data types:
 
 - String type: `str`
 - Boolean type: `bool`
@@ -35,7 +35,7 @@ Here are Python's built-in data types:
 
 ## type()
 
-To find the data type of any object, the `type()` function can be used:
+The `type()` function can be used to retrieve the data type of an object.
 
 ```py
 message = "Hello, world!"
@@ -51,7 +51,7 @@ This will output:
 
 ## isinstance()
 
-You can also use the built-in `isinstance()` function to test if a variable is an instance of a specified type:
+The `isinstance()` function can be used to test if an object is an instance of a specified type:
 
 ```py
 
