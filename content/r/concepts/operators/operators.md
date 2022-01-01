@@ -25,7 +25,7 @@ and the assignment operator, `<-` to store the result in the variable `x`.
 x <- 5 * 3
 ```
 
-R Operators can be organized into the following groups:
+Operators in R can be organized into the following groups:
 
 - Arithmetic operators
 - Assignment operators
