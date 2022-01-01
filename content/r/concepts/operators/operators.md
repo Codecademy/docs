@@ -58,24 +58,24 @@ R uses the following assignment operators:
 
 R has the following comparison operators:
 
-- Equal, `==`, for returning `TRUE` if two values are equal.
-- Not equal, `!=`, for returning `TRUE` if two values are not equal.
-- Less than, `<`, for returning `TRUE` if left value less than right value.
-- Less than or equal to, `<=`, `TRUE` if left value is less than or equal to right value.
-- Greater than, `>`, for returning `TRUE` if left value greater than right value.
-- Greater than or equal to, `>=`, for returning `TRUE` if left value greater than or equal to right value.
+- Equal, `==`, which returns `TRUE` if two values are equal.
+- Not equal, `!=`, which returns `TRUE` if two values are not equal.
+- Less than, `<`, which returns `TRUE` if left value less than right value.
+- Less than or equal to, `<=`, which returns `TRUE` if left value is less than or equal to right value.
+- Greater than, `>`, which returns `TRUE` if left value greater than right value.
+- Greater than or equal to, `>=`, which returns `TRUE` if left value greater than or equal to right value.
 
 ## Logical operators
 
 R has the following logical operators:
 
 - Element-wise AND, `&`, for comparing each element and returning `TRUE` if both elements are `TRUE`.
-- Logical AND, `&&`, for returning `TRUE` if both values are `TRUE`, only evaluates as many elements as necessary.
+- Logical AND, `&&`, which returns `TRUE` if both values are `TRUE`, only evaluates as many elements as necessary.
 - Element-wise OR, `|`, for comparing each element and returning `TRUE` if either element is `TRUE`.
-- Logical OR, `||`, for returning `TRUE` if either value is `TRUE`, only evaluates as many elements as necessary.
-- Logical NOT, `!`, for returning `TRUE` if the associated statement is `FALSE`.
+- Logical OR, `||`, which returns `TRUE` if either value is `TRUE`, only evaluates as many elements as necessary.
+- Logical NOT, `!`, which returns `TRUE` if the associated statement is `FALSE`.
 
-Note: The long form is preferred for `if` statements as the short form can produce a vector value.
+Note: The long form of AND and OR (`&&` and `||`) are preferred for `if` statements as the short form can produce a vector value.
 
 ## Miscellaneous operators
 
