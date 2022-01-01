@@ -27,7 +27,7 @@ The assignment operator can be chained together to initialize multiple variables
 var1 <- var2 <- var3 <- 0
 ```
 
-In `R`, putting a variable name by itself on a line has the effect of printing the value of that variable:
+In R, writing a defined variable name by itself on a line has the effect of printing its associated value:
 
 ```r
 score <- 100
