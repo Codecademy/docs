@@ -41,7 +41,7 @@ Python has the following arithmetic operators:
 - Subtraction, `-`, which returns the difference of two numbers.
 - Multiplication, `*`, which returns the product of two numbers.
 - Division, `/`, which returns the quotient of two numbers.
-- Exponentation, `**`, which returns the value of one number raised to the power of another.
+- Exponentiation, `**`, which returns the value of one number raised to the power of another.
 - Modulus, `%`, which returns the remainder of one number divided by another.
 - Floor division, `//`, which returns the integer quotient of two numbers.
 
