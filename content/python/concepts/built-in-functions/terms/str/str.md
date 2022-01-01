@@ -19,7 +19,7 @@ Takes in a value that can be converted into a string, and returns a copy of the 
 ## Syntax
 
 ```py
-str()
+str(object)
 ```
 
 ## Example 1
