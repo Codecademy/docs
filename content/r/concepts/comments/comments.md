@@ -14,8 +14,9 @@ CatalogContent:
 
 A comment is a piece of text within an R program that is not executed. It can be used to provide additional information to aid in understanding the code. Many languages support single line and multi-line comments. Only single-line comments are supported in R.
 
-Comments in `R` begin with a `#` character. Everything after the `#` on that line will be ignored.
-The comment can go at the beginning of the line, or after code that will be executed:
+## Syntax
+
+Comments in R begin with a `#` character. Everything after the `#` on that line will be ignored. The comment can either go at the beginning of the line or immediately after the code that will be executed:
 
 ```r
 # This is a comment and won't be executed.
