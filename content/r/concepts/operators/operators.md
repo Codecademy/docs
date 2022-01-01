@@ -48,11 +48,11 @@ R supports the following arithmetic operators:
 
 R has the following assignment operators:
 
-- `<-`: Assigns value on right to variable on left.
-- `->`: Assigns value on left to variable on right.
-- `<<-`: Global version of `<-`.
-- `->>`: Global version of `->`.
-- `=` : Same as `<-`, but use is discouraged.
+- `<-` assigns a value to a variable from right to left.
+- `->` assigns a value to a variable left to right.
+- `<<-` is a global version of `<-`.
+- `->>` is a global version of `->`.
+- `=` works the same way as `<-`, but its use is discouraged.
 
 ## Comparison operators
 
