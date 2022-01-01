@@ -71,6 +71,6 @@ Python has the following comparison operators:
 
 Python has the following logical operators:
 
-- `and` : Returns `True` if both statements are `True`.
-- `or` : Returns `True` if either statement is `True`.
-- `not` : Returns `True` if following statement is `False`.
+- The `and` operator returns `True` if both statements are `True`.
+- The `or` operator returns `True` if either statement is `True`.
+- The `not` operator returns `True` if its associated statement is `False`.
