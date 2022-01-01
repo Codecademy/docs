@@ -41,7 +41,7 @@ print(score) # Output 100
 
 ## Variable Naming Rules
 
-The name of an `R` variable must adhere to the following constraints:
+R variables must adhere to the following naming conventions:
 
 - The name is a combination of letters, digits, period(.) and underscore(\_).
 - It must start with a letter or a period.
