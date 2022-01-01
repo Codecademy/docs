@@ -14,8 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Operators are used to perform various operations on variables and values.
-The standard arithmetic and assignment operators are the most familiar.
+Operators are used in R to perform various operations on variables and values. Among the most commonly used ones are arithmetic and assignment operators.
 
 The following bit of R code uses a multiplication operator, `*`, to calculate the product of two numbers,
 and the assignment operator, `<-` to store the result in the variable `x`.
