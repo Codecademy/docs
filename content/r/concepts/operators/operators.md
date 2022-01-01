@@ -69,11 +69,11 @@ R has the following comparison operators:
 
 R has the following logical operators:
 
-- `&`: Element-wise AND, compares each element and returns `TRUE` if both elements are `TRUE`.
-- `&&`: Logical AND, `TRUE` if both values are `TRUE`, only evaluates as many elements as necessary.
-- `|`: Element-wise OR, compares each element and returns `TRUE` if either element is `TRUE`.
-- `||`: Logical OR, `TRUE` if either value is `TRUE`, only evaluates as many elements as necessary.
-- `!`: Logical NOT, `TRUE` if following statement is `FALSE`.
+- Element-wise AND, `&`, for comparing each element and returning `TRUE` if both elements are `TRUE`.
+- Logical AND, `&&`, for returning `TRUE` if both values are `TRUE`, only evaluates as many elements as necessary.
+- Element-wise OR, `|`, for comparing each element and returning `TRUE` if either element is `TRUE`.
+- Logical OR, `||`, for returning `TRUE` if either value is `TRUE`, only evaluates as many elements as necessary.
+- Logical NOT, `!`, for returning `TRUE` if the associated statement is `FALSE`.
 
 Note: The long form is preferred for `if` statements as the short form can produce a vector value.
 
