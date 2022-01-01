@@ -58,12 +58,12 @@ R uses the following assignment operators:
 
 R has the following comparison operators:
 
-- `==`: Equal, `TRUE` if two values are equal.
-- `!=`: Not equal, `TRUE` if two values are not equal.
-- `<`: Less than, `TRUE` if left value less than right value.
-- `<=`: Less than or equal to, `TRUE` if left value is less than or equal to right value.
-- `>`: Greater than, `TRUE` if left value greater than right value.
-- `>=`: Greater than or equal to, `TRUE` if left value greater than or equal to right value.
+- Equal, `==`, for returning `TRUE` if two values are equal.
+- Not equal, `!=`, for returning `TRUE` if two values are not equal.
+- Less than, `<`, for returning `TRUE` if left value less than right value.
+- Less than or equal to, `<=`, `TRUE` if left value is less than or equal to right value.
+- Greater than, `>`, for returning `TRUE` if left value greater than right value.
+- Greater than or equal to, `>=`, for returning `TRUE` if left value greater than or equal to right value.
 
 ## Logical operators
 
