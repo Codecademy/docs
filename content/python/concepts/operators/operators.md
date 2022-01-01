@@ -29,7 +29,7 @@ x = 5 * 3
 Python operators can be organized into the following groups:
 
 - Arithmetic operators for performing traditional math evaluations.
-- Assignment operators
+- Assignment operators for assigning values to variables.
 - Comparison operators
 - Logical operators
 
