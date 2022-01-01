@@ -30,8 +30,8 @@ Python operators can be organized into the following groups:
 
 - Arithmetic operators for performing traditional math evaluations.
 - Assignment operators for assigning values to variables.
-- Comparison operators
-- Logical operators
+- Comparison operators for comparing two values.
+- Logical operators for combining boolean values.
 
 ## Arithmetic Operators
 
