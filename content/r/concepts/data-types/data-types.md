@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'R has a number of different data types with different uses and characteristics.'
+Description: 'R supports many data types, each with different uses and characteristics.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
