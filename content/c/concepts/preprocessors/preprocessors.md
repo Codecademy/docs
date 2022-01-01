@@ -15,6 +15,7 @@ CatalogContent:
 A preprocessor scans the C program source code before it is compiled, allowing the source code to expand macros, include other files, and conditionally compile blocks of source code.
 
 Preprocessor commands and macros are included in the source code file and are interpreted before the source code is passed to the compiler.
+
 The preprocessor can modify the final code that is compiled or provide messages to the developer during preprocessing.
 
 ## Common Uses of Preprocessor Commands
