@@ -41,32 +41,19 @@ The `type()` function can be used to retrieve the data type of an object:
 message = "Hello, world!"
 
 print(type(message))
-```
-
-This will output:
-
-```shell
-<class 'str'>
+# Output: <class 'str'>
 ```
 
 ## isinstance()
 
-The `isinstance()` function can be used to test if an object is an instance of a specified type:
+The `isinstance()` function can be used to test if an object is an instance of a specified type. This will print a boolean value for each function call, indicating if the object is an instance of the given type:
 
 ```py
 
 word = "purple"
 languages = ("Python", "JavaScript", "Go")
 
-print(isinstance(word, str))
-print(isinstance(languages, list))
-print(isinstance(languages, tuple))
-```
-
-This will print a boolean value for each function call indicating if the object is an instance of the given type:
-
-```shell
-True
-False
-True
+print(isinstance(word, str)) # Output: True
+print(isinstance(languages, list)) # Output: False
+print(isinstance(languages, tuple)) # Ouput: True
 ```
