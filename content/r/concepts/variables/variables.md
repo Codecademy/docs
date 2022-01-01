@@ -50,9 +50,11 @@ R variables must adhere to the following naming conventions:
 - Variable names are case-sensitive.
 - Reserved words (TRUE,FALSE,print...) cannot be used for variable names.
 
-```r
-# Examples of valid variable names in R
+## Examples
 
+The following code snippet shows examples of valid variable names in R:
+
+```r
 foo <- 1
 Foo <- 2 # a different variable from "foo" above
 .bar <- TRUE
