@@ -32,7 +32,7 @@ The preprocessor will replace `#include <stdio.h>` with the text contents of the
 
 ### Conditional Compilation
 
-The preprocessor includes several statements used for conditional compilation: 
+The preprocessor includes several statements used for conditional compilation:
 
 - `#if`
 - `#elif`
