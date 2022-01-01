@@ -49,12 +49,12 @@ Python has the following arithmetic operators:
 
 Python includes the following assignment operators:
 
-- `=`: Assigns the value on the left to the variable on the right.
-- `+=`: Adds the value on the right to the variable on the left then assigns the result to the variable on the left.
-- `-=`: Subtracts the value on the right from the variable on the left then assigns the result to the variable on the left.
-- `*=`: Multiplies the value on the right with the variable on the left then assigns the result to the variable on the left.
-- `/=`: Divides the value on the right into the variable on the left then assigns the result to the variable on the left.
-- `%=`: Calculates the modulus of the variable on the right with the value on the left and assigns the result to the variable on the left.
+- The `=` operator assigns the value on the left to the variable on the right.
+- The `+=` operator updates a variable by incrementing its value and reassigning it.
+- The `-=` operator updates a variable by decrementing its value and reassigning it.
+- The `*=` operator updates a variable by multiplying its value and reassigning it.
+- The `/=` operator updates a variable by dividing its value and reassigning it.
+- The `%=` operator updates a variable by calculating its modulus against another value and reassigning.
 
 ## Comparison Operators
 
