@@ -31,8 +31,14 @@ The preprocessor will replace `#include <stdio.h>` with the text contents of the
 
 ### Conditional Compilation
 
-The preprocessor includes several statements used for conditional compilation: `#if`,`#elif`,`#else` and `#endif`.
-The preprocessor also includes `#ifdef` and `#ifndef` which are shorthand for `#if defined(...)` and `#if !defined(...)`.
+The preprocessor includes several statements used for conditional compilation: 
+
+- `#if`
+- `#elif`
+- `#else`
+- `#endif`
+- `#ifdef`: shorthand for `#if defined(...)`
+- `#ifndef`: shorthand for `#if !defined(...)`
 
 ```c
 #if HELLO > 0
