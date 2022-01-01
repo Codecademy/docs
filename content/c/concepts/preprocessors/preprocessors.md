@@ -63,8 +63,7 @@ The example above will compile different code for different operating systems ba
 
 ### Defining Macros
 
-When the preprocessor encounters a macro in the source code, it will replace the macro with the value it has been assigned.
-Macros are defined by using `#define` and can be undefined using `#undef`.
+When the preprocessor encounters a macro in the source code, it will replace the macro with the value it has been assigned. Macros are defined by using `#define` and can be undefined using `#undef`.
 
 ```c
 #define PI 3.1416
