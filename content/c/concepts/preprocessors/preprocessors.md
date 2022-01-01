@@ -22,7 +22,7 @@ The preprocessor can modify the final code that is compiled or provide messages 
 
 ### Including Additional Files
 
-The most common preprocessor command is `#include` which is used to include the text contents of some other file into the one being compiled.
+One of the most common preprocessor commands is `#include` which is used to include the text contents of some other file into the one being compiled.
 
 ```c
 #include <stdio.h>
