@@ -54,7 +54,7 @@ Python includes the following assignment operators:
 - The `-=` operator updates a variable by decrementing its value and reassigning it.
 - The `*=` operator updates a variable by multiplying its value and reassigning it.
 - The `/=` operator updates a variable by dividing its value and reassigning it.
-- The `%=` operator updates a variable by calculating its modulus against another value and reassigning.
+- The `%=` operator updates a variable by calculating its modulus against another value and reassigning it.
 
 ## Comparison Operators
 
