@@ -46,8 +46,7 @@ The preprocessor includes several statements used for conditional compilation:
 #endif
 ```
 
-If the macro `HELLO` is greater than zero, then the `printf("Hello world!")` command will be compiled.
-If not, then the command will be omitted from the final code being compiled.
+If the macro `HELLO` is greater than zero, then the `printf("Hello world!")` command will be compiled. If not, then the command will be omitted from the final code being compiled.
 
 ```c
 #ifdef _WIN32
