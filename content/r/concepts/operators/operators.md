@@ -26,11 +26,11 @@ x <- 5 * 3
 
 Operators in R can be organized into the following groups:
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- Miscellaneous operators
+- Arithmetic operators for traditional mathematical evaluations such as addition and subtraction.
+- Assignment operators for assigning values to variables.
+- Comparison operators for testing equality between values.
+- Logical operators for evaluating the "truthiness" of values against one another.
+- Miscellaneous operators for various tasks including vectors and sequencing.
 
 ## Arithmetic operators
 
