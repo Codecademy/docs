@@ -48,7 +48,7 @@ R variables must adhere to the following naming conventions:
 - If it starts with a period, the second character cannot be a number.
 - It cannot start with a number or an underscore.
 - Variable names are case-sensitive.
-- Reserved words (TRUE,FALSE,print...) cannot be used for variable names.
+- Reserved words (`TRUE`, `FALSE`, `print`, etc.) cannot be used as variable names.
 
 ## Examples
 
