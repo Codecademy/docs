@@ -39,7 +39,7 @@ score # Output 100
 print(score) # Output 100
 ```
 
-## Variable Naming Rules
+## Variable Names
 
 R variables must adhere to the following naming conventions:
 
