@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion (converting one type to another without a specific call to a conversion function).'
+Description: 'Python is a strongly typed language. At runtime, it prevents typing errors and engages in little implicit type conversion.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
