@@ -19,11 +19,10 @@ Operators are used to perform various operations on variables and values. The st
 
 ## Syntax
 
-The following code snippet uses an arithmetic operator for multiplication, `*`, to calculate the product of two numbers, along with the assignment operator, `=`, to store the result in the variable `x`.
+The following code snippet uses the assignment operator, `=`, to set `my_variable` to the value of `num1` and `num2` with an arithmetic operator acting on them. For example, if `operator` represented an asterisk, *, `my_variable` would be assigned a value of `num1` * `num2`.
 
-```py
-# Store five times three in variable x
-x = 5 * 3
+```pseudo
+my_variable = num1 operator num2
 ```
 
 Python operators can be organized into the following groups:
@@ -74,3 +73,18 @@ Python has the following logical operators:
 - The `and` operator returns `True` if both statements are `True`.
 - The `or` operator returns `True` if either statement is `True`.
 - The `not` operator returns `True` if its associated statement is `False`.
+
+## Order of Operations
+
+Python evaluates an expression in order of precedence as follows:
+
+- Items in parentheses, (`(`...`)`), have the highest level of precedence, expressions within them are evaluated first.
+- Exponentiation (`**`)
+- Multiplication and division operators (`*`, `/`, `//` & `%`)
+- Addition and subtraction (`+` & `-`)
+- Comparison (`<`, `<=`, `>` & `>=`)
+- Equality (`==` & `!=`)
+- `not`
+- `and`
+- `or`
+- Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
