@@ -49,7 +49,6 @@ print(type(message))
 The `isinstance()` function can be used to test if an object is an instance of a specified type. This will print a boolean value for each function call, indicating if the object is an instance of the given type:
 
 ```py
-
 word = "purple"
 languages = ("Python", "JavaScript", "Go")
 
