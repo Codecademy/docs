@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are used to perform operations on variables and values. In the example below, we use the + operator to add together two values: py print(10 + 5)  Python divides the operators in the following groups: - Arithmetic operators'
+Description: 'Operators are used to perform various operations on variables and values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,64 +15,77 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Operators are used to perform operations on variables and values.
+Operators are used to perform various operations on variables and values. The standard arithmetic and assignment operators are the most familiar.
 
-In the example below, we use the `+` operator to add together two values:
+## Syntax
 
-```py
-print(10 + 5)
+The following code snippet uses the assignment operator, `=`, to set `my_variable` to the value of `num1` and `num2` with an arithmetic operator acting on them. For example, if `operator` represented `*`, `my_variable` would be assigned a value of `num1 * num2`.
+
+```pseudo
+my_variable = num1 operator num2
 ```
 
-Python divides the operators in the following groups:
+Python operators can be organized into the following groups:
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
+- Arithmetic operators for performing traditional math evaluations.
+- Assignment operators for assigning values to variables.
+- Comparison operators for comparing two values.
+- Logical operators for combining boolean values.
 
 ## Arithmetic Operators
 
-Arithmetic operators are used with numeric values to perform common mathematical operations:
+Python has the following arithmetic operators:
 
-| Operator | Name           | Example  |
-| -------- | -------------- | -------- |
-| `+`      | Addition       | `a + b`  |
-| `-`      | Subtraction    | `a - b`  |
-| `*`      | Multiplication | `x * y`  |
-| `/`      | Division       | `x / y`  |
-| `%`      | Modulus        | `x % y`  |
-| `**`     | Exponentiation | `x ** y` |
-| `//`     | Floor division | `x // y` |
+- Addition, `+`, which returns the sum of two numbers.
+- Subtraction, `-`, which returns the difference of two numbers.
+- Multiplication, `*`, which returns the product of two numbers.
+- Division, `/`, which returns the quotient of two numbers.
+- Exponentiation, `**`, which returns the value of one number raised to the power of another.
+- Modulus, `%`, which returns the remainder of one number divided by another.
+- Floor division, `//`, which returns the integer quotient of two numbers.
 
 ## Assignment Operators
 
-Assignment operators are used to assign values to variables:
+Python includes the following assignment operators:
 
-- `+=`
-- `-=`
-- `*=`
-- `/=`
-- `%=`
+- The `=` operator assigns the value on the left to the variable on the right.
+- The `+=` operator updates a variable by incrementing its value and reassigning it.
+- The `-=` operator updates a variable by decrementing its value and reassigning it.
+- The `*=` operator updates a variable by multiplying its value and reassigning it.
+- The `/=` operator updates a variable by dividing its value and reassigning it.
+- The `%=` operator updates a variable by calculating its modulus against another value and reassigning it.
 
 ## Comparison Operators
 
-Comparison operators are used to compare two values:
+Python has the following comparison operators:
 
-| Operator | Name                     | Example  |
-| -------- | ------------------------ | -------- |
-| `==`     | Equal                    | `a == b` |
-| `!=`     | Not equal                | `a != b` |
-| `<`      | Less than                | `a < b`  |
-| `>`      | Greater than             | `a > b`  |
-| `<=`     | Less than or equal to    | `a <= b` |
-| `>=`     | Greater than or equal to | `a >= b` |
+- Equal, `==`, for returning `True` if two values are equal.
+- Not equal, `!=`, for returning `True` if two values are not equal.
+- Less than, `<`, for returning `True` if left value less than right value.
+- Less than or equal to, `<=`, for returning `True` if left value is less than or equal to right value.
+- Greater than, `>`, for returning `True` if left value greater than right value.
+- Greater than or equal to, `>=`, for returning `True` if left value greater than or equal to right value.
 
 ## Logical Operators
 
-Logical operators are used to combine conditional statements:
+Python has the following logical operators:
 
-| Operator | Description                                             | Example            |
-| -------- | ------------------------------------------------------- | ------------------ |
-| `and`    | Returns True if both statements are true                | `x < 5 and x < 10` |
-| `or`     | Returns True if one of the statements is true           | `x < 5` or `x < 4` |
-| `not`    | Reverse the result, returns False if the result is true | `not(x < 10)`      |
+- The `and` operator returns `True` if both statements are `True`.
+- The `or` operator returns `True` if either statement is `True`.
+- The `not` operator returns `True` if its associated statement is `False`.
+
+## Order of Operations
+
+Python evaluates an expression in order of precedence as follows:
+
+- Items in parentheses, (`(`...`)`), have the highest level of precedence, expressions within them are evaluated first.
+- Exponentiation (`**`)
+- Multiplication and division operators (`*`, `/`, `//` & `%`)
+- Addition and subtraction (`+` & `-`)
+- Comparison (`<`, `<=`, `>` & `>=`)
+- Equality (`==` & `!=`)
+- `not`
+- `and`
+- `or`
+
+**Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
