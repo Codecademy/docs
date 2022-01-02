@@ -87,4 +87,5 @@ Python evaluates an expression in order of precedence as follows:
 - `not`
 - `and`
 - `or`
-- Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
+
+**Note:** Items at the same precedence are evaluated left to right. The exception to this is exponentiation, which evaluates right to left.
