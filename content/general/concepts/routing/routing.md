@@ -13,14 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-When one device communicates to another across a network, such as a PC communicating to a printer across a LAN, or a phone's web browser communicating to a web server over the Internet,
-there are generally multiple ways the signals, called packets, can travel from the source to the destination. The process of deciding what path packets travel across a network is called routing.
-The process of routing is executed by devices called routers that live on the network where there are junctions (nodes) between these various paths.
+When one device communicates to another across a network, such as a PC communicating to a printer across a LAN, or a phone's web browser communicating to a web server over the Internet, there are generally multiple ways the signals, called packets, can travel from the source to the destination. The process of deciding what path packets travel across a network is called routing. The process of routing is executed by devices called routers that live on the network where there are junctions (nodes) between these various paths.
 
 A router can be physical piece of hardware, or it can be software based. Software-based routers tend to be more limited in functionality.
 
-In deciding paths to route traffic, a router always has some default path to send traffic with no specific destination specified. For traffic with a specific destination, if there is more than one path,
-the router can make a decision on what path to use based on several criteria, which can include:
+In deciding paths to route traffic, a router always has some default path to send traffic with no specific destination specified. For traffic with a specific destination, if there is more than one path, the router can make a decision on what path to use based on several criteria, which can include:
 
 - Hop Count
 - Bandwidth
