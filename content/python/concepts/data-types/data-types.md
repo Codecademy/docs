@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion or [casting](https://www.codecademy.com/resources/docs/python/casting) i.e. converting one type to another without a specific call to a conversion function.
+Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion or [casting](https://www.codecademy.com/resources/docs/python/casting), i.e. converting one type to another without a specific call to a conversion function.
 
 ```py
 codecademy = 575
