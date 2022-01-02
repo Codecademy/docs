@@ -1,1 +1,1 @@
-content/swift/concepts/closures/closures.md
+content/emojicode/concepts/comments/comments.md
