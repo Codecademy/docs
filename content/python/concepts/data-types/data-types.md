@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Python is a strongly typed language. Strongly typed means that the data type of a value doesnt change in unexpected ways. py codecademy = 575 codecademy = "575 broadway"  After line 1, codecademy is an int. After line 2, codecademy is a str. Here are Pythons built-in data types:'
+Description: 'Python is a strongly typed language. At runtime, it prevents typing errors and engages in little implicit type conversion.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python is a strongly typed language. Strongly typed means that the data type of a value doesn't change in unexpected ways.
+Python is a strongly typed language, in the sense that at runtime it prevents typing errors and it engages in little implicit type conversion or [casting](https://www.codecademy.com/resources/docs/python/casting), i.e. converting one type to another without a specific call to a conversion function.
 
 ```py
 codecademy = 575
@@ -23,7 +23,7 @@ codecademy = "575 broadway"
 
 After line 1, `codecademy` is an `int`. After line 2, `codecademy` is a `str`.
 
-Here are Python's built-in data types:
+Python includes the following categories of built-in data types:
 
 - String type: `str`
 - Boolean type: `bool`
@@ -35,38 +35,24 @@ Here are Python's built-in data types:
 
 ## type()
 
-To find the data type of any object, the `type()` function can be used:
+The `type()` function can be used to retrieve the data type of an object:
 
 ```py
 message = "Hello, world!"
 
 print(type(message))
-```
-
-This will output:
-
-```shell
-<class 'str'>
+# Output: <class 'str'>
 ```
 
 ## isinstance()
 
-You can also use the built-in `isinstance()` function to test if a variable is an instance of a specified type:
+The `isinstance()` function can be used to test if an object is an instance of a specified type. This will print a boolean value for each function call, indicating if the object is an instance of the given type:
 
 ```py
-
 word = "purple"
 languages = ("Python", "JavaScript", "Go")
 
-print(isinstance(word, str))
-print(isinstance(languages, list))
-print(isinstance(languages, tuple))
-```
-
-This will print a boolean value for each function call indicating if the object is an instance of the given type:
-
-```shell
-True
-False
-True
+print(isinstance(word, str)) # Output: True
+print(isinstance(languages, list)) # Output: False
+print(isinstance(languages, tuple)) # Ouput: True
 ```
