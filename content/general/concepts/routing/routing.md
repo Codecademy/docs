@@ -23,6 +23,8 @@ In deciding paths to route traffic, a router always has some default path to sen
 - Bandwidth
 - Delay/Latency
 
+## Type of Routing
+
 There are several types of routing, based on the characteristics of the destination:
 
 - Unicast Routing: the packet is being sent to a single specified location.
