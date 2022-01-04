@@ -1,6 +1,6 @@
 ---
 Title: 'Routing'
-Description: 'The process of deciding what path packets travel across a network is called routing.'
+Description: 'Routing is the process of deciding what paths communication signals may take across one or more networks.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
