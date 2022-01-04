@@ -20,7 +20,9 @@ Routing is the process of deciding what paths communication signals may take acr
 
 Through routing, these communication signals, called packets, can take multiple paths from the source to the destination.
 
-A router can be physical piece of hardware, or it can be software based. Software-based routers tend to be more limited in functionality.
+## Routers
+
+The process of routing is executed by devices known as  routers. They live on the network where there are junctions (nodes) between these various paths. Routers can either be physical pieces of hardware or software based, which tend to be more limited in functionality.
 
 In deciding paths to route traffic, a router always has some default path to send traffic with no specific destination specified. For traffic with a specific destination, if there is more than one path, the router can make a decision on what path to use based on several criteria, which can include:
 
