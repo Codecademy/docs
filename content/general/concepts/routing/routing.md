@@ -26,9 +26,9 @@ The process of routing is executed by devices known as  routers. They live on th
 
 In deciding paths to route traffic, a router always has some default path to send traffic with no specific destination specified. For traffic with a specific destination, if there is more than one path, the router can make a decision on what path to use based on several criteria, which can include:
 
-- Hop Count
-- Bandwidth
-- Delay/Latency
+- Hop Count: The number of intermediate devices (routers) between the source and destination.
+- Bandwidth: The maximum amount of data that can travel a route in a given period of time.
+- Delay/Latency: The time between a signal sent on a route, and the response received.
 
 ## Type of Routing
 
