@@ -21,31 +21,24 @@ Below is an example of the `<main>` tag being used to display a list of notable 
 ```html
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+  </head>
   <body>
     <header>
-      <img
-        src="https://cdn.pixabay.com/photo/2014/04/03/11/50/drama-312318_640.png"
-      />
+      <img src="https://cdn.pixabay.com/photo/2014/04/03/11/50/drama-312318_640.png">
     </header>
     <main>
       <h1>My favorite Shakespeare lines</h1>
 
       <ul>
         <li>"To be, or not to be: that is the question." - Hamlet</li>
-        <li>
-          "Friends, Romans, countrymen, lend me your ears!" - Julius Caesar
-        </li>
-        <li>
-          "Shall I compare thee to a summer’s day? Thou art more lovely and more
-          temperate." - Sonnet 18
-        </li>
+        <li>"Friends, Romans, countrymen, lend me your ears!" - Julius Caesar</li>
+        <li>"Shall I compare thee to a summer’s day? Thou art more lovely and more temperate." - Sonnet 1</li>
       </ul>
     </main>
     <footer>
-      <a href="https://en.wikipedia.org/wiki/William_Shakespeare"
-        >Learn more about William Shakespeare</a
-      >
+      <a href="https://en.wikipedia.org/wiki/William_Shakespeare">Learn more about William Shakespeare
+      </a>
     </footer>
   </body>
 </html>
