@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<main>` semantic tag represents the primary content within the `<body>` of the web page. This excludes content from other structural elements such as the [header](https://www.codecademy.com/resources/docs/html/semantic-html/header) and [footer](https://www.codecademy.com/resources/docs/html/semantic-html/footer).
+The `<main>` semantic tag represents the primary content within the `<body>` of the web page. This excludes content from other structural elements such as the [header](https://www.codecademy.com/resources/docs/html/semantic-html/header) or [footer](https://www.codecademy.com/resources/docs/html/semantic-html/footer).
 
 ## Example
 
@@ -21,23 +21,30 @@ Below is an example of the `<main>` tag being used to display a list of notable 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <header>
-      <img src="https://cdn.pixabay.com/photo/2014/04/03/11/50/drama-312318_640.png">
+      <img
+        src="https://cdn.pixabay.com/photo/2014/04/03/11/50/drama-312318_640.png"
+      />
     </header>
     <main>
       <h1>My favorite Shakespeare lines</h1>
 
       <ul>
         <li>"To be, or not to be: that is the question." - Hamlet</li>
-        <li>"Friends, Romans, countrymen, lend me your ears!" - Julius Caesar</li>
-        <li>"Shall I compare thee to a summer’s day? Thou art more lovely and more temperate." - Sonnet 1</li>
+        <li>
+          "Friends, Romans, countrymen, lend me your ears!" - Julius Caesar
+        </li>
+        <li>
+          "Shall I compare thee to a summer’s day? Thou art more lovely and more
+          temperate." - Sonnet 1
+        </li>
       </ul>
     </main>
     <footer>
-      <a href="https://en.wikipedia.org/wiki/William_Shakespeare">Learn more about William Shakespeare
+      <a href="https://en.wikipedia.org/wiki/William_Shakespeare"
+        >Learn more about William Shakespeare
       </a>
     </footer>
   </body>
