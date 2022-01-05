@@ -159,6 +159,24 @@ for (let i = 0; i < array.length; i++) {
 // Output: Every item in the array
 ```
 
+## Looping Through Objects
+
+To loop through objects use `Object.entries` which will first convert the objects into an array and then loop through that array. 
+
+Using `Object.entries` an array of arrays is created which will contain both the property and the value respectively.
+
+```js
+const objectK = {
+  name: 'Codecademy',
+  age: 10
+};
+```
+The output would look like:
+``` 
+"name: Codecademy"
+"age: 10"
+```
+
 ## Break Keyword
 
 Within a loop, the break keyword may be used to exit the loop immediately, continuing execution after the loop body.
