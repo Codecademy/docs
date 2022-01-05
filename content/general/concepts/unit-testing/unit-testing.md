@@ -1,6 +1,6 @@
 ---
 Title: 'Unit Testing'
-Description: 'Unit testing involves testing ] parts of code to verify its behavior.'
+Description: 'Unit testing involves testing parts of code to verify its behavior.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
