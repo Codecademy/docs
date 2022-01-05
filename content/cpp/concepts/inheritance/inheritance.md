@@ -46,10 +46,11 @@ A good example is a `Shape` class that might include:
 - A `center` property with (x, y) coordinates.
 - A `weight` property that defines a line width.
 - A `color` property that would define a fill color.
+- A `translate` method that relocates the center property.
 
 Some possible sub-classes derived from this base class might be:
-- A`Rectangle` class which would have `height` and `width` properties.
-- A `Circle` class that would have a `radius` property.
+- A `Rectangle` class which would have `height` and `width` properties. It could also have its own `perimeter` method.
+- A `Circle` class that would have a `radius` property. It could also have its own `circumference` method.
 
 Both the `Circle` and `Rectangle` classes would share the properties and methods of their base `Shape` class, `Shape`, in addition to properties and methods unique to their own class definition.
 
@@ -60,6 +61,11 @@ class Shape {
     int center[2];
     int weight;
     int color;
+    
+    void translate(int deltaX, int deltaY) {
+      center[0] += deltaX;
+      center[1] += deltaY;
+    }
 };
 
 // Create sub-class Rectangle
@@ -67,11 +73,19 @@ class Rectangle: public Shape {
   public:
     int height;
     int width;
+    
+    int perimeter() {
+      return (height + width) * 2;
+    }
 };
 
 // Create sub-class Circle
 class Circle: public Shape {
   public:
     int radius;
+    
+    float circumference() {
+      return 2.0 * 3.1416 * float (radius);
+    }
 };
 ```
