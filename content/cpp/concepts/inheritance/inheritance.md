@@ -19,9 +19,23 @@ Inheritance is the ability to create a new class based on an existing class, sta
 
 The class that inherits these properties and methods is called the "derived class" or "sub-class". The class that the sub-class inherits from is called the "base class".
 
-A good example is a `Shape` class. It might have a `center` property with x,y coordinates, a `weight` property that defines a line width, and a `color` property that would define a fill color. Derived from this base class might be a `Rectangle` which would have `height` and `width` properties, and a `Circle` that would have a `radius` property. Both `Circle` and `Rectangle` would share the properties and methods of their base class, `Shape`, as well as the additional properties and methods that are in their own class definition.
+```pseudo
+class BaseClass {
+  accessModifier:
+    dataType property1;
+    dataType property2;
+};
 
-## Syntax
+class SubClass: public BaseClass {
+  accessModifier:
+    dataType subProp1;
+    dataType subProp2;
+};
+```
+
+## Example
+
+A good example is a `Shape` class. It might have a `center` property with x,y coordinates, a `weight` property that defines a line width, and a `color` property that would define a fill color. Derived from this base class might be a `Rectangle` which would have `height` and `width` properties, and a `Circle` that would have a `radius` property. Both `Circle` and `Rectangle` would share the properties and methods of their base class, `Shape`, as well as the additional properties and methods that are in their own class definition.
 
 ```cpp
 // Create the base Shape class
