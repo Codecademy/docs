@@ -36,11 +36,11 @@ The output would look like:
 Cell widths can vary, as shown below.
 
 ```markdown
-| Month    | Savings |
+| Month | Savings |
 | -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| January | $250 |
+| February | $80 |
+| March | $420 |
 ```
 
 The output will look exactly the same.
