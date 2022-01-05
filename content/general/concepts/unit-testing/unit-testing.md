@@ -13,7 +13,7 @@ CatalogContent:
 
 Unit testing is an essential part of the coding process. It verifies that all parts of the code work correctly.
 
-A part or unit of code can be anything from a class function to a small snippet of code that performs a specific task. By testing individual components, it makes it easier to find exactly where an error lies.
+A part or unit of code can be anything from a class function to a small snippet of code that performs a specific task. Testing individual components makes it easier to find exactly where an error lies.
 
 There are usually two types of unit testing — manual and automated testing.
 
