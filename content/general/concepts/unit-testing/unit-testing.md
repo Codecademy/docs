@@ -19,7 +19,7 @@ There are usually two types of unit testing — manual and automated testing.
 
 ## Manual Testing
 
-Manual testing is when tests are being done manually by people. It can involve clicking on objects, providing input, or scrolling through items.
+Manual testing is when tests are done directly by people. It can involve clicking on objects, providing input, or scrolling through items.
 
 Depending on the length of the software, this type of testing can be a lengthy process. A faster alternative to this would be automated testing.
 
