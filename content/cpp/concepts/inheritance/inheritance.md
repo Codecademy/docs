@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'Inheritance is the ability to base a new class on an existing class, creating a class that starts out with the same properties and methods as the existing class.'
+Description: 'Inheritance is the ability to create a new class based on an existing class, starting out with the same existing properties and methods.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
