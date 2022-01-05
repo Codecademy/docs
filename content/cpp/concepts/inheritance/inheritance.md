@@ -62,7 +62,7 @@ class Shape {
     int center[2];
     int weight;
     int color;
-    
+
     void translate(int deltaX, int deltaY) {
       center[0] += deltaX;
       center[1] += deltaY;
@@ -74,7 +74,7 @@ class Rectangle: public Shape {
   public:
     int height;
     int width;
-    
+
     int perimeter() {
       return (height + width) * 2;
     }
@@ -84,7 +84,7 @@ class Rectangle: public Shape {
 class Circle: public Shape {
   public:
     int radius;
-    
+
     float circumference() {
       return 2.0 * 3.1416 * float (radius);
     }
