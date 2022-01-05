@@ -39,16 +39,17 @@ class SubClass: public BaseClass {
 - `protected` members of the base class are accessible by the derived class, but not outside the class.
 - `private` members of the base class aren't accessible to the derived class.
 
-
 ## Example
 
 A good example is a `Shape` class that might include:
+
 - A `center` property with (x, y) coordinates.
 - A `weight` property that defines a line width.
 - A `color` property that would define a fill color.
 - A `translate` method that relocates the center property.
 
 Some possible sub-classes derived from this base class might be:
+
 - A `Rectangle` class which would have `height` and `width` properties. It could also have its own `perimeter` method.
 - A `Circle` class that would have a `radius` property. It could also have its own `circumference` method.
 
