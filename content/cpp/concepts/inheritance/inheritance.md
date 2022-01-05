@@ -33,6 +33,13 @@ class SubClass: public BaseClass {
 };
 ```
 
+### Access Specifiers
+
+- `public` members of the base class are `public` in the derived class.
+- `protected` members of the base class are accessible by the derived class, but not outside the class.
+- `private` members of the base class aren't accessible to the derived class.
+
+
 ## Example
 
 A good example is a `Shape` class. It might have a `center` property with x,y coordinates, a `weight` property that defines a line width, and a `color` property that would define a fill color. Derived from this base class might be a `Rectangle` which would have `height` and `width` properties, and a `Circle` that would have a `radius` property. Both `Circle` and `Rectangle` would share the properties and methods of their base class, `Shape`, as well as the additional properties and methods that are in their own class definition.
@@ -60,8 +67,4 @@ class Circle: public Shape {
 };
 ```
 
-## Access Specifiers
 
-- `public` members of the base class are `public` in the derived class.
-- `protected` members of the base class are accessible by the derived class, but not outside the class.
-- `private` members of the base class aren't accessible to the derived class.
