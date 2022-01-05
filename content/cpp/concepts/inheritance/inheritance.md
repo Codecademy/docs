@@ -42,7 +42,16 @@ class SubClass: public BaseClass {
 
 ## Example
 
-A good example is a `Shape` class. It might have a `center` property with x,y coordinates, a `weight` property that defines a line width, and a `color` property that would define a fill color. Derived from this base class might be a `Rectangle` which would have `height` and `width` properties, and a `Circle` that would have a `radius` property. Both `Circle` and `Rectangle` would share the properties and methods of their base class, `Shape`, as well as the additional properties and methods that are in their own class definition.
+A good example is a `Shape` class that might include:
+- A `center` property with (x, y) coordinates.
+- A `weight` property that defines a line width.
+- A `color` property that would define a fill color.
+
+Some possible sub-classes derived from this base class might be:
+- A`Rectangle` class which would have `height` and `width` properties.
+- A `Circle` class that would have a `radius` property.
+
+Both the `Circle` and `Rectangle` classes would share the properties and methods of their base `Shape` class, `Shape`, in addition to properties and methods unique to their own class definition.
 
 ```cpp
 // Create the base Shape class
@@ -66,5 +75,3 @@ class Circle: public Shape {
     int radius;
 };
 ```
-
-
