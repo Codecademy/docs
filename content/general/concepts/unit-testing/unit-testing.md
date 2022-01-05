@@ -11,7 +11,7 @@ CatalogContent:
   - 'learn-javascript-unit-testing'
 ---
 
-Unit testing is an essential part of the coding process to verify all parts of code work correctly.
+Unit testing is an essential part of the coding process. It verifies that all parts of the code work correctly.
 
 A part or unit of code can be anything from a class function to a small snippet of code that performs a specific task. By testing individual components, it makes it easier to find exactly where an error lies.
 
