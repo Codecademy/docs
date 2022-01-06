@@ -43,7 +43,7 @@ print(score) # Output 100
 
 R variables must adhere to the following naming conventions:
 
-- The name is a combination of letters, digits, period(.) and underscore(\_).
+- The name can be a combination of letters, digits, period(.) and underscore(\_).
 - It must start with a letter or a period.
 - If it starts with a period, the second character cannot be a number.
 - It cannot start with a number or an underscore.
@@ -56,8 +56,8 @@ The following code snippet shows examples of valid variable names in R:
 
 ```r
 foo <- 1
-Foo <- 2 # a different variable from "foo" above
+Foo <- 2 # A different variable from "foo" above
 .bar <- TRUE
 foo_bar <- "value"
-Foo123.4 <- 3.5
+3.5 -> Foo123.4 # Rightward assignment.
 ```
