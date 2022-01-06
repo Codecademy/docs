@@ -40,7 +40,7 @@ R supports the following arithmetic operators:
 - Addition, `+`, which returns the sum of two numbers.
 - Subtraction, `-`, which returns the difference between two numbers.
 - Multiplication, `*`, which returns the product of two numbers.
-- Division, `/`: Division, which returns the quotient of two numbers.
+- Division, `/`, which returns the quotient of two numbers.
 - Exponents, `^`, which returns the value of one number raised to the power of another.
 - Modulus, `%%`, which returns the remainder of one number divided by another.
 - Integer Division, `%/%`, which returns the integer quotient of two numbers.
