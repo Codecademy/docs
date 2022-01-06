@@ -28,11 +28,11 @@ var1 <- "Hello world!"
 
 R supports the following basic data types:
 
-- The `numeric` type for whole numbers or decimals. (i.e. 5.12, 16)
-- The `integer` type for whole numbers followed by an `L`. (i.e. 100L)
-- The `complex` type for numbers with an imaginary part, denoted by an `i`. (i.e. 5 + 7i)
-- The `character` type for strings of characters. (i.e. "Hello World!")
-- The `logical` for Boolean values. (i.e. `TRUE` or `FALSE`)
+- The `numeric` type for whole numbers or decimals. (5.12, 16)
+- The `integer` type for whole numbers followed by an `L`. (100L)
+- The `complex` type for numbers with an imaginary part, denoted by an `i`. (5 + 7i)
+- The `character` type for strings of characters. ("Hello World!")
+- The `logical` for Boolean values. (`TRUE` or `FALSE`)
 
 The `class()` function can be used to determine the data type of a variable.
 
