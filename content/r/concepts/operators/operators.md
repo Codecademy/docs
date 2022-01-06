@@ -18,7 +18,7 @@ Operators are used in R to perform various operations on variables and values. A
 
 ## Syntax
 
-The following bit of R code uses an arithmetic operator for multiplication, `*`, to calculate the product of two numbers, along with the assignment operator, `<-` to store the result in the variable `x`.
+The following R code uses an arithmetic operator for multiplication, `*`, to calculate the product of two numbers, along with the assignment operator, `<-` to store the result in the variable `x`.
 
 ```r
 # Store five times three in variable x
