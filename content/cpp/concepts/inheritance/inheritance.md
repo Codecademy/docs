@@ -53,7 +53,7 @@ Some possible sub-classes derived from this base class might be:
 - A `Rectangle` class which would have `height` and `width` properties. It could also have its own `perimeter` method.
 - A `Circle` class that would have a `radius` property. It could also have its own `circumference` method.
 
-Both the `Circle` and `Rectangle` classes would share the properties and methods of their base `Shape` class, `Shape`, in addition to properties and methods unique to their own class definition.
+Both the `Circle` and `Rectangle` classes would share the properties and methods of their base class, `Shape`, in addition to properties and methods unique to their own class definition.
 
 ```cpp
 // Create the base Shape class
