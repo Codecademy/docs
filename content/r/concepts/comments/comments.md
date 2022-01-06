@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A comment is a piece of text within an R program that is not executed. It can be used to provide additional information to aid in understanding the code. Many languages support single line and multi-line comments. Only single-line comments are supported in R.
+A comment is a piece of text within an R program that is not executed. It can be used to provide additional information to aid in understanding the code. It can also serve to "comment out" blocks of code that the programmer doesn't want to be executed at the moment but for some reason, such as archival purposes or debugging, doesn't want to delete from the source code entirely.  Many languages support single line and multi-line comments. Only single-line comments are supported in R.
 
 ## Syntax
 
