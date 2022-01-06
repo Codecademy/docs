@@ -61,7 +61,7 @@ R has the following comparison operators:
 
 - Equal, `==`, which returns `TRUE` if two values are equal.
 - Not equal, `!=`, which returns `TRUE` if two values are not equal.
-- Less than, `<`, which returns `TRUE` if left value less than right value.
+- Less than, `<`, which returns `TRUE` if left value is less than right value.
 - Less than or equal to, `<=`, which returns `TRUE` if left value is less than or equal to right value.
 - Greater than, `>`, which returns `TRUE` if left value greater than right value.
 - Greater than or equal to, `>=`, which returns `TRUE` if left value greater than or equal to right value.
