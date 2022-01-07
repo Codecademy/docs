@@ -42,7 +42,7 @@ We'll describe the standards for each of these components separately.
 
 ## Standards: File Name
 
-The file name should be the title of the entry, in lowercase, with words replaced by dashes and punctuation removed, followed by **.md**.
+The file name should be the title of the entry, in lowercase, with spaces replaced by dashes and punctuation removed, followed by **.md**.
 
 To give an example, an entry titled "What is Three.js?" should have the file name **what-is-three-js.md**.
 
