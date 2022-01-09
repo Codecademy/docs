@@ -17,7 +17,7 @@ CatalogContent:
 A variable is used to store data that can be accessed later by subsequent code. In R, there are no variable "declaration" commands. Instead, they are created with the assignment operator, `<-` (The more familiar assignment operator, `=`, can be used instead, but is discouraged).
 
 ```r
-# this creates a variable containing the string "value"
+# This creates a variable containing the string "value"
 variable <- "value"
 ```
 
