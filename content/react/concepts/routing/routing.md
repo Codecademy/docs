@@ -1,6 +1,6 @@
 ---
 Title: 'Routing'
-Description: 'In React, routing is most commonly achieved through React Router. React Router is a third-party library that allow components to be used as routed endpoints on an application. This library comes in three packages: - react-router: For core functionality - react-router-native: React Native version - react-router-dom: Recommended for web applications Install with npm: '
+Description: 'Allows React components to be used as routed endpoints within an application.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -13,35 +13,47 @@ CatalogContent:
 
 In React, routing is most commonly achieved through React Router.
 
-## React Router
-
-React Router is a third-party library that allow components to be used as routed endpoints on an application. This library comes in three packages:
+React Router is a third-party library that allow components to be used as routed endpoints within an application. This library comes in three packages:
 
 - `react-router`: For core functionality
 - `react-router-native`: React Native version
 - `react-router-dom`: Recommended for web applications
 
-Install with `npm`:
+Install the newest version with `npm`:
 
 ```
-npm install react-router-dom
+npm install react-router-dom@latest
 ```
+
+The newest version of React Router is [v6](https://reactrouter.com/docs/en/v6/getting-started/overview), which comes with many breaking changes including:
+
+- Using a `<Routes />` component instead of a `<Switch />` component for `<Route />` configuration.
+- Using the `element` attribute instead of `component` when passing a JSX to a `<Link />`.
 
 ## Example
 
-Below, a `BrowserRouter` is used to map the navigation `<Link/>` components to a `<Switch/>` component. The `<Switch/>` renders the appropriate `<Route>` based on a top-down search and match between the `to` attribute in the `Link` and the `path` attribute in the `Route`.
+Below, a `<BrowserRouter/>` (aliased as `<Router/>`) is used to map the navigation `<Link/>` components to a `<Routes/>` component. The `<Routes/>` renders the appropriate `<Route>` based on the most specific-matching `path` among all possible matches.
 
 ```jsx
-import React from 'react';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
         <nav>
           <ul>
+            <Routes>
+              <Route path="/about" element={<About />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/" element={<Home />} />
+            </Routes>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -56,26 +68,8 @@ const App = () => {
             </li>
           </ul>
         </nav>
-
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-
-          <Route path="/projects">
-            <Projects />
-          </Route>
-
-          <Route path="/contact">
-            <Contact />
-          </Route>
-
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
 

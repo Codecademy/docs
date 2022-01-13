@@ -10,7 +10,7 @@ Tags:
   - 'Variables'
   - 'Arrays'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 

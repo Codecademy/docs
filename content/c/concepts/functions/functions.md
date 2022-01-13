@@ -8,7 +8,7 @@ Tags:
   - 'Functions'
   - 'Arguments'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 

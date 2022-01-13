@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Convert a string to lowercase letters.
+The `.toLowerCase()` method converts a string to lowercase letters in JavaScript.
 
 ## Syntax
 

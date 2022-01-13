@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-While many websites are primarily text, embedding images within a site allows for more lively pages that can be more attractive and informative to visitors. However, when serving images there are concerns of the impact to page loading speeds as well as to accessability, so knowledge on how images can be best served to users is critical for good development.
+While many websites are primarily text, embedding images within a site allows for more lively pages that can be more attractive and informative to visitors. However, when serving images there are concerns of the impact to page loading speeds as well as to accessibility, so knowledge on how images can be best served to users is critical for good development.
 
 ## Choosing an Image Format
 

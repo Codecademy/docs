@@ -30,6 +30,7 @@ Best Practices
 Binary Search
 Binary Tree
 Block
+Blockchain
 Body
 Booleans
 Bootstrap
@@ -42,6 +43,7 @@ Bubble Sort
 Catch
 Characters
 Chatbots
+Cryptocurrency
 Classes
 Code Editors
 Colors
@@ -113,7 +115,6 @@ Functional Programming
 Ggplot2
 Git
 GitHub
-Go
 Graphics
 Graphs
 Graph Search
@@ -126,7 +127,6 @@ Headings
 Heap
 Heroku
 Histograms
-HTML
 HTTP
 Id
 IDE
@@ -275,6 +275,7 @@ Vim
 Visibility
 VR
 Vue
+Web3
 WebRTC
 While
 Whiteboarding

@@ -9,6 +9,13 @@ These slugs may vary for different topics.
 
 Feel free to add suggestions for new slugs to the lists as part of your PR! Be sure to insert them alphabetically.
 
+### C
+
+```
+- "learn-c"
+- "paths/computer-science"
+```
+
 ### C++
 
 ```

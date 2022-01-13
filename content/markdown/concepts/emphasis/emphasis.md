@@ -1,6 +1,6 @@
 ---
 Title: 'Emphasis'
-Description: 'Emphasis can be added by making text bold or italic. To bold text, add two asterisks  or underscores __ before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.'
+Description: 'Emphasis applies importance to text in Markdown by making it bold, italic, and/or strikethrough.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
@@ -38,7 +38,7 @@ Please do **NOT** touch your pimples.
 To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 ```markdown
-\*_italic text_
+_italic text_
 ```
 
 ```markdown
@@ -49,4 +49,26 @@ For example:
 
 ```markdown
 This avacado egg sandwich is _very_ good.
+```
+
+## Strikethrough
+
+To make a strikethrough text, use 2 tildes `~` before and after a piece of text.
+
+```markdown
+~~Strikethrough text~~
+```
+
+For example:
+
+```markdown
+I did ~~not~~ build a website.
+```
+
+## Emphasis Combinations
+
+Different formatting options can be combined:
+
+```markdown
+**This is in bold, _italics_, ~~and strikethrough~~**
 ```

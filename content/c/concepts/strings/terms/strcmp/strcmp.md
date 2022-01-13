@@ -11,7 +11,7 @@ Tags:
   - 'Arrays'
   - 'Functions'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 

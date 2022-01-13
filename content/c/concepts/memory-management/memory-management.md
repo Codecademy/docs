@@ -7,7 +7,7 @@ Tags:
   - 'Memory'
   - 'Memory Management'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 

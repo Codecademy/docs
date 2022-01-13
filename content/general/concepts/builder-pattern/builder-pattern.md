@@ -20,7 +20,7 @@ The builder pattern decouples the responsibility of object creation from the des
 
 ![UML diagram of a builder](https://raw.githubusercontent.com/Codecademy/docs/main/media/builder-uml.png)
 
-## Jave Example
+## Java Example
 
 To illustrate the builder pattern, below provides a real-world example in Java, depicting potential considerations for a pizza order. The
 `PizzaOrder` class has 5 properties:

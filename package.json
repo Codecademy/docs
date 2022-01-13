@@ -8,25 +8,35 @@
     "@codecademy/eslint-config": "^3.1.0",
     "@codecademy/prettier-config": "^0.1.10",
     "@codecademy/tsconfig": "^0.2.0",
-    "@types/jest": "^26.0.24",
     "@types/glob": "^7.1.4",
+    "@types/jest": "^26.0.24",
     "@types/node": "^16.4.3",
     "eslint": "^7.25.0",
+    "husky": "^7.0.4",
     "jest": "^27.0.6",
+    "lint-staged": "^12.1.2",
     "markdownlint-cli": "~0.28.1",
     "prettier": "^2.2.1",
     "ts-jest": "^27.0.4",
     "typescript": "^4.2.4"
   },
+  "lint-staged": {
+    "*.md": [
+      "npm run format",
+      "markdownlint"
+    ]
+  },
   "scripts": {
     "compile": "tsc --noEmit",
     "format": "prettier --ignore-path .prettierignore --write",
+    "format:md": "prettier --ignore-path .prettierignore --write \"./**/*.(md)\"",
     "format:all": "prettier --ignore-path .prettierignore --write \"./**/*.(ts|md)\"",
     "format:verify": "prettier \"./**/*.(ts|md)\" --list-different",
     "lint:js": "eslint \"./**.ts\" --max-warnings 0 ",
     "lint:md": "markdownlint \"./content/**/*.md\"",
     "lint": "yarn lint:md && yarn lint:js",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "license": "UNLICENSED",
   "version": "1.0.0"

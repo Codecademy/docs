@@ -8,7 +8,7 @@ Tags:
   - 'Variables'
   - 'Data Types'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 

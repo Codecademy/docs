@@ -10,7 +10,7 @@ Tags:
   - 'Characters'
   - 'Arrays'
 CatalogContent:
-  - 'learn-c-plus-plus'
+  - 'learn-c'
   - 'paths/computer-science'
 ---
 
