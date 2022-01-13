@@ -38,7 +38,7 @@ Please do **NOT** touch your pimples.
 To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 ```markdown
-\*_italic text_
+_italic text_
 ```
 
 ```markdown
