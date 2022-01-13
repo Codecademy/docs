@@ -36,6 +36,19 @@ Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow t
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app.
 
+## How can I test my changes before submitting a PR?
+
+There are a few tools you'll need to install in order to run our test suites locally:
+
+- [yarn](https://classic.yarnpkg.com/lang/en/docs/install): we use yarn to manage dependencies (instead of npm)
+- [node 16.0.0 (or newer)](https://nodejs.org/en/download/): the tests will likely run on earlier versions of node, but if you'd like your changes to be formatted automatically when you commit then you will need to be on node 16 or greater
+- [nvm](https://github.com/nvm-sh/nvm#installing-and-updating): while not required, we recommend using nvm to manage multiple versions of node on the same machine
+
+With everything installed, in the repository root (whatever directory contains the `package.json` file) you can run
+
+- `yarn format:verify` and `yarn lint:md` to validate markdown file contents
+- `yarn test` to validate `content/` directory structure
+
 ## I submitted a PR but tests are failing, how do I fix them?
 
 Here are some common issues and resolutions:
