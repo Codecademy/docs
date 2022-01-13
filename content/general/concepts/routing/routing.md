@@ -34,7 +34,7 @@ In deciding paths to route traffic, a router always has some default path to sen
 
 There are several types of routing, based on the characteristics of the destination:
 
-- Unicast Routing: the packet is being sent to a single specified location.
-- Broadcast Routing: the packet is sent to all nodes on the network, even nodes that haven't requested it.
-- Multicast Routing: like broadcast routing, but packets are only sent to nodes that want them.
-- Anycast Routing: the destination consists of several devices with the same logical address, and the packet is routed to the closest of these devices.
+- Unicast Routing: The packet is being sent to a single specified location.
+- Broadcast Routing: The packet is sent to all nodes on the network, even nodes that haven't requested it.
+- Multicast Routing: Similar to broadcast routing, but packets are only sent to nodes that want them.
+- Anycast Routing: The destination consists of several devices with the same logical address and the packet is routed to the closest of these devices.
