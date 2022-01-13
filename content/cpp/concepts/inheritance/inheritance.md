@@ -17,7 +17,7 @@ Inheritance is the ability to create a new class based on an existing class, sta
 
 ## Syntax
 
-The class that inherits these properties and methods is called the "derived class" or "sub-class". The class that the sub-class inherits from is called the "base class".
+The class that inherits these properties and methods is called the derived class or sub-class. The class that the sub-class inherits from is called the base class.
 
 ```pseudo
 class BaseClass {
