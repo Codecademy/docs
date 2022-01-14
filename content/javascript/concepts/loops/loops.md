@@ -161,9 +161,7 @@ for (let i = 0; i < array.length; i++) {
 
 ## Looping Through Objects
 
-To loop through objects use `Object.entries` which will first convert the objects into an array and then loop through that array. 
-
-Using `Object.entries` an array of arrays is created which will contain both the property and the value respectively.
+The `Object.entries()` method can be used to loop through an object's key-value pairs as an array. It creates an array of arrays, each of which contain a respective key and value.
 
 ```js
 const objectK = {
