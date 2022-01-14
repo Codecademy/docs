@@ -1,1 +1,1 @@
-content/emojicode/concepts/comments/comments.md
+content/cpp/concepts/exceptions/exceptions.md
