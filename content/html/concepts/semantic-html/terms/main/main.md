@@ -44,8 +44,8 @@ Below is an example of the `<main>` tag being used to display a list of notable 
       </ul>
     </main>
     <footer>
-      <a href="https://en.wikipedia.org/wiki/William_Shakespeare"
-        >Learn more about William Shakespeare
+      <a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+        Learn more about William Shakespeare
       </a>
     </footer>
   </body>
