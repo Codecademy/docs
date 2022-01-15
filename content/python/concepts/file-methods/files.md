@@ -39,7 +39,7 @@ CatalogContent:
   .read(x) - reads the file and prints the first x bytes; the whole file will be printed if x is not specified\
   .readlines(x) - reads each line in a file and generates a list\
   .write(str) - writes the string str as a line in the file\
-  .writelines(str_list) - writes each string element in the list str_list as a line\
+  .writelines(str_list) - writes each string element in the list str_list as a line
 
   ```py
 
