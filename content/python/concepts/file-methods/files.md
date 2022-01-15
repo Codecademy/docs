@@ -22,7 +22,7 @@ CatalogContent:
 
   r - reads a file\
   w - writes a file\
-  a - appends a file\ 
+  a - appends a file\
   x - creates a file
 
   Files can be read in either text or binary, and are denoted as `t` and `b` respectively. The default is text. 
