@@ -1,6 +1,6 @@
 ---
 Title: '<main>'
-Description: 'Represents the primary content within the <body> of the web page.'
+Description: 'Represents the primary content within the body element of the web page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
