@@ -26,6 +26,7 @@ Below is an example of the `<main>` tag being used to display a list of notable 
     <header>
       <img
         src="https://cdn.pixabay.com/photo/2014/04/03/11/50/drama-312318_640.png"
+        width="200" height="200
       />
     </header>
     <main>
