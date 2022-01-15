@@ -13,6 +13,7 @@ CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
+---
 
   ## Opening files
   In Python, the `open()` function is built-in, and can be used to open files. To open a file, the file name can be specified in the function. Do note that the entire file path has to be specified unless the file is in the current directory.
