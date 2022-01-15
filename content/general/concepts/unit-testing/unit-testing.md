@@ -9,6 +9,7 @@ Tags:
   - 'Development'
 CatalogContent:
   - 'learn-javascript-unit-testing'
+  - 'paths/front-end-engineer-career-path`
 ---
 
 Unit testing is an essential part of the coding process. It verifies that all parts of the code work correctly.
