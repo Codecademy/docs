@@ -166,11 +166,13 @@ The `Object.entries()` method can be used to loop through an object's key-value 
 ```js
 const objectK = {
   name: 'Codecademy',
-  age: 10
+  age: 10,
 };
 ```
+
 The output would look like:
-``` 
+
+```
 "name: Codecademy"
 "age: 10"
 ```
