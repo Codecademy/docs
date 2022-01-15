@@ -36,10 +36,10 @@ CatalogContent:
   ## Methods
   The above only opens the file. To edit the contents, the `write()` method can be used in `w`, `a` or 'x' mode. In the `w` mode, the data will be overwritten by the contents specified in `write()`. In the `a` mode, the new contents will be appended at the end of the file. Other methods that can be used after opening a file are listed below.
 
-  .read(x) - reads the file and prints the first x bytes; the whole file will be printed if x is not specified
-  .readlines(x) - reads each line in a file and generates a list
-  .write(str) - writes the string str as a line in the file
-  .writelines(str_list) - writes each string element in the list str_list as a line 
+  .read(x) - reads the file and prints the first x bytes; the whole file will be printed if x is not specified\
+  .readlines(x) - reads each line in a file and generates a list\
+  .write(str) - writes the string str as a line in the file\
+  .writelines(str_list) - writes each string element in the list str_list as a line\
 
   ```py
 
