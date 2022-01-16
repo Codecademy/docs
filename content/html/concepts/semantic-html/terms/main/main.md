@@ -14,6 +14,18 @@ CatalogContent:
 
 The `<main>` semantic tag represents the primary content within the `<body>` of the web page. This excludes content from other structural elements such as the [header](https://www.codecademy.com/resources/docs/html/semantic-html/header) or [footer](https://www.codecademy.com/resources/docs/html/semantic-html/footer).
 
+## Syntax
+
+The `<main>` can be placed anywhere inside of the `<body>`:
+  
+```pseudo
+<body>
+  <main>
+    <!-- Main content goes here. -->
+  </main>
+</body>
+```
+  
 ## Example
 
 Below is an example of the `<main>` tag being used to display a list of notable lines from works by Shakespeare:
