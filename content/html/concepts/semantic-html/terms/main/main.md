@@ -17,7 +17,7 @@ The `<main>` semantic tag represents the primary content within the `<body>` of 
 ## Syntax
 
 The `<main>` can be placed anywhere inside of the `<body>`:
-  
+
 ```pseudo
 <body>
   <main>
@@ -25,7 +25,7 @@ The `<main>` can be placed anywhere inside of the `<body>`:
   </main>
 </body>
 ```
-  
+
 ## Example
 
 Below is an example of the `<main>` tag being used to display a list of notable lines from works by Shakespeare:
@@ -44,7 +44,6 @@ Below is an example of the `<main>` tag being used to display a list of notable 
     </header>
     <main>
       <h1>My Favorite Shakespeare Lines</h1>
-
       <ul>
         <li>"To be, or not to be: that is the question." - Hamlet</li>
         <li>
