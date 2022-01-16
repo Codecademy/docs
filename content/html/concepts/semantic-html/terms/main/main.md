@@ -31,7 +31,7 @@ Below is an example of the `<main>` tag being used to display a list of notable 
       />
     </header>
     <main>
-      <h1>My favorite Shakespeare lines</h1>
+      <h1>My Favorite Shakespeare Lines</h1>
 
       <ul>
         <li>"To be, or not to be: that is the question." - Hamlet</li>
