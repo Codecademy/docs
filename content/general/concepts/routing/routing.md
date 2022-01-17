@@ -24,7 +24,7 @@ Through routing, these communication signals, called packets, can take multiple 
 
 The process of routing is executed by devices known as routers. They live on the network where there are junctions (nodes) between these various paths. Routers can either be physical pieces of hardware or software based, which tend to be more limited in functionality.
 
-A router always has some default path to send network traffic if no specific destination is specified. For traffic with a specific destination, if there is more than one path, the router can make a decision on what path to use based on several criteria, which can include:
+A router always has some default path to send network traffic if no specific destination is specified. For packets with a specific destination, if there is more than one path, the router can make a decision on what path to use based on several criteria, which can include:
 
 - Hop Count: The number of intermediate devices (routers) between the source and destination.
 - Bandwidth: The maximum amount of data that can travel a route in a given period of time.
