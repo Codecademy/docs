@@ -41,3 +41,23 @@ class DivideByZero {
     }
 }
 ```
+
+## Example Errors
+
+- `NoClassDefFoundError` - Java cannot find the file with the class containing the `main()` method. 
+- `NoSuchMethodFoundError` - Java cannot find a method being called in the program.
+- `ClassFormatError` - Java cannot read a class file or cannot interpret it.
+- `IncompatibleClassChangeError` - Code has tried to change a base class after a child class has been initalized.
+- `NoSuchFieldError` - Code has tried to access a field in an object and the field no longer exists.
+ 
+## Example Exceptions
+
+- `ArrayIndexOutOfBoundsException` - Code has tried to access an array with an index outside the established values.
+- `StringIndexOutOfBoundsException` - Code has tried to access part of a string past the boundaries of the string.
+- `NullPointerException` - Code is trying to access an object reference that does not have an instance assigned to it.
+- `ArrayStoreException` - Code has violated the rules for casting elements into arrays.
+- `ClassCastException` - Code is trying to cast an object to the wrong class.
+- `FileNotFoundException`- Java cannot find a file with the specified path.
+- `AccessControlException` - Java has been denied access to a system resource (file, network, etc.).
+- `EOFException` - Code has unexpectedly reached the end of a file or stream during input.
+- `NumberFormatException` - Code has tried to convert a string to a numeric type and the string is not a number.
