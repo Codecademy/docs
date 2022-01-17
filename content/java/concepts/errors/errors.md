@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: ''
+Description: 'In Java there are two subclasses of the java.lang.Throwable class, Errors and Exceptions.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
