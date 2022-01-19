@@ -1,207 +1,54 @@
 ---
 Title: 'Casting'
-Description: 'Casting is a method that converts a variables data type into another data type.'
+Description: 'Casting, also known as type conversion, is a process that converts the data type of a variable into another data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Classes'
-  - 'Functions'
+  - 'Data Types'
+  - 'Variables'
+  - 'Variable Types'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-Casting is a method that converts a variable's data type into another data type. These conversions can be implicit (automatically compiled) or explicit (using built-in functions).
+Casting, also known as type conversion, is a process that converts a variable's data type into another data type. These conversions can be implicit (automatically interpreted) or explicit (using built-in functions).
 
 ## Implicit Type Conversion
 
-Python's interpreter automatically type casts one data type into another data type. This type of conversion is done without any user involvement.
+The Python interpreter automatically performs type conversion on some operations without any user involvement.
 
-Since Python always convert smaller data type to higher data type to avoid data loss. In the below example, `7` a integer (lower data type) is type casted to a float (higher data type) when added with `2.2` to avoid data loss. So finally data type of y is `float`.
+Python avoids data loss by converting lower data types to higher data types. For example, an integer, 7, is converted to a float when added with another float, 2.2:
 
 ```py
-y = 7 + 2.2 # Python automatically type cast y into float
+y = 7 + 2.2
+# Python automatically type casts y into float
 
 print(y)
+# Output: 9.2
+
 print(type(y))
+# Output: <class 'float'>
 ```
 
-This will output:
-
-```shell
-9.2
-<class 'float'>
-```
+Since the expression above represents the sum of two `float` values, the data type of `y` is also a `float`.
 
 ## Explicit Type Conversion
 
-In explicit type casting (also known as type conversion), the user converts the data type of variable with the help of predefined functions:
+Explicit type casting involves Python's predefined functions that act as a constructor of another data type:
 
-- `str()`: This function takes int or float as an argument and converts it to string data type.
-- `int()`: This function takes string or float as an argument converts it to integer data type.
-- `float()`: This function takes integer or string as an argument and converts it to float data type.
+- The `str()` function takes an integer or float as an argument and converts it to a string.
+- The [`int()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/int) takes a string or float as an argument converts it to an integer.
+- The [`float()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/float) takes an integer or string as an argument and converts it to a float.
 
-### Type Casting `int` to `str`
+## Operations on Different Types of Data
 
-Let's see casting of an integer to string with `str()` function. In below example `x` being an integer casted to string where `str()` function take x as argument.
-
-```py
-x = 7
-
-# Casting into string
-y = str(x)
-
-print(x)
-print(y)
-
-print(type(x)) # Printing the data type of x
-print(type(y)) # Printing the data type of y
-```
-
-This will output:
-
-```shell
-7
-7
-<class 'int'>
-<class 'str'>
-```
-
-### Type Casting `str` to `int`
-
-Now let's convert string data type to int data type. In below example `x` being of string data type is casted to integer by `int()` function where `int()` function take x as argument in below example. Note that string has to be int value for cast to work.
-
-```py
-x = "7"
-
-# Casting into integer
-y = int(x)
-
-print(x)
-print(y)
-
-print(type(x))
-print(type(y))
-```
-
-This will output:
-
-```shell
-7
-7
-<class 'str'>
-<class 'int'>
-```
-
-In the above example, `x` is a string that contains a number. So there's no error during type casting.
-
-If `x` is a string of characters or letters, it will raise `valueError` during type casting. Below is illustration of this.
-
-```py
-x = 'seven'
-
-# Casting into integer
-y = int(x)
-```
-
-This will output:
-
-```error
-Traceback (most recent call last):
-  File "<string>", line 3, in <module>
-ValueError: invalid literal for int() with base 10: 'seven'
-```
-
-### Type Casting `float` to `str`
-
-Below is illustration of casting of float data type to string where `float()` function take `x` as argument.
-
-```py
-x = 7.2
-
-y = str(x) # Casting into string
-
-print(type(x))
-print(y)
-print(type(y))
-```
-
-This will output:
-
-```shell
-<class 'float'>
-7.2
-<class 'str'>
-```
-
-### Type Casting `str` to `float`
-
-Let's see the example of casting of string data type to float. In below example `x` is being of string data type is casted to float where `float()` function take `x` as argument.
-
-```py
-x = "7.2"
-
-# Casting into float
-y = float(x)
-
-print(type(x))
-print(y)
-print(type(y))
-```
-
-This will output:
-
-```shell
-<class 'str'>
-7.2
-<class 'float'>
-```
-
-### Type Casting `int` to `float`
-
-Below is an example to show how an int variable is converted to float. In below example `float()` function take `x` as argument where `x` in integer type data.
-
-```py
-x = 7
-
-# Casting into float
-y = float(x)
-
-print(type(x))
-print(y)
-print(type(y))
-```
-
-This will output:
-
-```shell
-<class 'int'>
-7.0
-<class 'float'>
-```
-
-### Type Casting `float` to `int`
-
-Similarly like above example , in this float data type variable is casted to integer where `int()` function take x as argument.
+When operating on data, it is important to be mindful of the data types associated with it. The following code is a flawed attempt to print the square of a number specified by the user. When run, a `TypeError` will be thrown:
 
 ```codebyte/py
-x = 7.2
-
-# Casting into int
-y = int(x)
-
-print(x)
-print(y)
-
-print(type(x))
-print(type(y))
+num = input("Please enter a number: ")
+print(num ** 2)
 ```
 
-This will ouput:
-
-```shell
-<class 'float'>
-7
-<class 'int'>
-```
+The [`input()` function](https://www.codecademy.com/resources/docs/python/built-in-functions/input) takes input from the user and stores it in a variable as a string. However, the `**` operator takes two numbers and returns the first number to the power of the second. In order to make the code work, the input variable must be cast to a number type. Try to edit the code above to successfully square a number inputted by the user.

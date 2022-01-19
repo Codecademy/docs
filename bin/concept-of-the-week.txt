@@ -1,1 +1,1 @@
-content/swift/concepts/closures/closures.md
+content/html/concepts/file-paths/file-paths.md

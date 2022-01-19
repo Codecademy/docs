@@ -1,6 +1,6 @@
 ---
 Title: 'Map'
-Description: 'Map is an object in JavaScript that stores key-value pairs and their original insertion order.'
+Description: 'A Map is an object in JavaScript that stores entries of key-value pairs in their original insertion order.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,83 +12,64 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-`Map` is an object in JavaScript that stores key-value pairs in their original insertion order.
+A `Map` is an object in JavaScript that stores entries of key-value pairs in their original insertion order.
 
-A new map can be defined as follows. This map will store the number of fruits a store has.
+- Values mapped to existing keys can be overwritten later.
+- Keys/values can either be an [object](https://www.codecademy.com/resources/docs/javascript/objects) or a variable of [any data type](https://www.codecademy.com/resources/docs/javascript/data-types).
+- Maps are directly iterable whereas objects are not.
 
-```js
-const fruits = new Map();
-```
+## Syntax
 
-## Storing Data in Map
-
-Key-value pairs are stored in `Map` using the `.set()` method.
+A map can be defined with the `new` keyword. The example below creates an empty `Map` object, `map`:
 
 ```js
-fruits.set('Apples', 5);
-fruits.set('Oranges', 8);
+const map = new Map();
 ```
 
-This stores in `fruits`, 5 apples and 8 oranges.
+## Example
 
-## Retrieving Data from Map
-
-Values are retrieved by their keys from `Map` objects using the `.get()` method.
+To create a non-empty `Map` object, an array of arrays is passed into `Map()`. Each inner array represents a key-value pair:
 
 ```js
-console.log(fruits.get('Apples')); // Output: 5
-console.log(fruits.get('Oranges')); // Output: 8
+const hogwartsStudents = new Map([
+  ['Gryffindor', 'Harry Potter'],
+  ['Slytherin', 'Draco Malfoy'],
+  ['Hufflepuff', 'Cedric Diggory'],
+]);
+
+console.log(hogwartsStudents);
 ```
 
-This retrieves the information that there are 5 apples and 8 oranges in the store.
+The output will be:
 
-## Determining Whether Keys are in Map
-
-Checking whether a key is in a `Map` object can be done using the `.has()` method.
-
-```js
-console.log(fruits.has('Apples')); // Output: true
-console.log(fruits.has('Bananas')); // Output: false
+```pseudo
+Map(3) {
+  'Gryffindor' => 'Harry Potter',
+  'Slytherin' => 'Draco Malfoy',
+  'Hufflepuff' => 'Cedric Diggory'
+}
 ```
-
-The first statement checks that there are apples in `fruits`, while the second statement finds that there are no bananas in `fruits` and returns `false`.
-
-## Retrieving the Size of a Map
-
-The number of keys in a `Map` object can be checked using the `.size` property.
-
-```js
-console.log(fruits.size); // Output: 2
-```
-
-There are 2 key-value pairs in `fruits`: `'Apples' : 5` and `'Oranges' : 8`.
-
-## Removing Data from Map
-
-Data can be removed from `Map` using the `.delete()` method.
-
-```js
-console.log(fruits.delete('Oranges')); // Output: true
-console.log(fruits.delete('Strawberries')); // Output: false
-```
-
-The first statement returns `true` because `fruits` contain `Oranges` as a key and has removed it.
-The second statement returns `false` because `Strawberries` is not a key in fruits.
 
 ## Codebyte Example
 
+In the example below, an `addressBook` maps a person's name to a phone number. By the end of the program:
+
+- Tom has moved and deleted their phone number with the [`.delete()` method](https://www.codecademy.com/resources/docs/javascript/map/delete).
+- Paul has changed their phone number using the [`.set()` method](https://www.codecademy.com/resources/docs/javascript/map/set).
+
 ```codebyte/js
-const addressBook = new Map();
+const addressBook = new Map([
+  ['Paul', '11254932'],
+  ['Jane', '12939582'],
+  ['Tom', '12231543']
+]);
 
-addressBook.set('Paul', '11254932');
-addressBook.set('Jane', '12939582');
-addressBook.set('Tom', '12231543');
+console.log('Size of address book: ', addressBook.size);
 
-console.log(addressBook.size);
-console.log(addressBook.get('Paul'));
-console.log(addressBook.has('Jane'));
-console.log(addressBook.has('Peter'));
+console.log('Paul\'s number was', addressBook.get('Paul'));
+addressBook.set('Paul', '12355932');
+console.log('Paul\'s number is now ', addressBook.get('Paul'));
+
 console.log(addressBook.delete('Tom'));
-console.log(addressBook.delete('Peter'));
-console.log(addressBook.size);
+console.log('Size of updated address book: ', addressBook.size);
 ```

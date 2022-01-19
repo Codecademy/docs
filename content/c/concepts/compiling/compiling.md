@@ -21,7 +21,7 @@ There are 4 stages in the process of compilation of a C Program.
 
 ### 1. Preprocessing
 
-Preprocessing is the first stage in the process of compilation. In this stage:
+[Preprocessing](https://www.codecademy.com/resources/docs/c/preprocessors) is the first stage in the process of compilation. In this stage:
 
 - Preprocessor commands that begin with `#` are interpreted.
 - Comments are removed from the source code.

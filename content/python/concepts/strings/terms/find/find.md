@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `.find()` string method takes in a substring (and optionally start/end index), returns the index number of the first occurrence of the substring inside a string.
+The `.find()` string method takes in a substring (and optionally start/end index), returns the index number of the first occurrence of the substring inside a string. It is case sensitive.
 
 If the substring is not found, returns `-1`.
 
