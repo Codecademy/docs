@@ -16,18 +16,20 @@ Unit testing is an essential part of the coding process. It verifies that all pa
 
 A part or unit of code can be anything from a class function to a small snippet of code that performs a specific task. Testing individual components makes it easier to find exactly where an error lies.
 
-There are usually two types of unit testing:
+## Types of Unit Testing
+
+Unit testing is usually categorized into two types:
 
 - Manual testing
 - Automated testing
 
-## Manual Testing
+### Manual Testing
 
 Manual testing is when tests are done directly by people. It can involve clicking on objects, providing input, or scrolling through items.
 
 Depending on the length of the software, this type of testing can be time-consuming. An alternative to unit testing would be automated testing.
 
-## Automated Testing
+### Automated Testing
 
 Writing scripts to test parts of code is a way to automate testing. Combined with a testing automation tool, these scripts can run automatically and immediately inform developers if any errors have occurred.
 
