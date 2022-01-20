@@ -32,6 +32,6 @@ The `<audio>` tag may contain one or more than one `<source>` tags with differen
 The `<audio>` tag may include `<source>` tags and fallback text. It may also use attributes to convey intention, some common ones are below:
 
 - `autoplay`: if this attribute is present the audio will play automatically.
-- `controls`: if this attribute is present the audio will have an overlay allowing the user to control the video.
+- `controls`: if this attribute is present the audio will have an overlay allowing the user to control the audio.
 - `loop`: it specifies that the audio will start over again, every time it is finished.
 - `src`: the URL for the audio that should be shown to the user.
