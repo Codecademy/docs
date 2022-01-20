@@ -14,15 +14,17 @@ CatalogContent:
 Represents an interface for adding audio content to the page.
 
 HTML supports three different audio format types which are as follows:
+
 - MP3
 - WAV
 - OGG.
 
 ## Syntax
+
 ```html
 <audio controls>
-  <source src="audioFile_name.ogg" type="audio/ogg">
-  <source src="audioFile_name.mp3" type="audio/mpeg">
+  <source src="audioFile_name.ogg" type="audio/ogg" />
+  <source src="audioFile_name.mp3" type="audio/mpeg" />
   <h3>Fallback text if audio will not play</h3>
 </audio>
 ```
