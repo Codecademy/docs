@@ -31,9 +31,9 @@ Depending on the length of the software, this type of testing can be time-consum
 
 ### Automated Testing
 
-Writing scripts to test parts of code is a way to automate testing. Combined with a testing automation tool, these scripts can run automatically and immediately inform developers if any errors have occurred.
+Automated testing is when programs are written specifically to test code. This is optimal when manual testing becomes tedious, frequent testing is needed, or when multiple individuals are adding or making changes to the code.
 
-Automated testing is a better way to test code when the process of doing it manually is tedious, frequent testing is needed, or when multiple individuals are adding or making changes to the code.
+Writing scripts to test parts of the source code is a way to automate testing. Combined with a testing automation tool, these scripts can run automatically and immediately inform developers if any errors have occurred.
 
 ## Why use Unit Testing?
 
