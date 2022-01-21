@@ -13,7 +13,7 @@ CatalogContent:
 
 Represents an interface for adding audio content to the page.
 
-HTML supports three different audio format types which are as follows:
+HTML supports the following audio format types:
 
 - MP3
 - WAV
