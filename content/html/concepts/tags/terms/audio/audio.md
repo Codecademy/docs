@@ -29,7 +29,7 @@ HTML supports the following audio format types:
 </audio>
 ```
 
-The `<audio>` tag may contain one or more than one `<source>` tags with different audio sources. The browser will run the first source which is supported by it.
+The `<audio>` tag may contain one or more `<source>` tags with different audio formats. The browser will run the format most suitable for the browser.
 
 The `<audio>` tag may include `<source>` tags and fallback text. It may also use attributes to convey intention, some common ones are below:
 
