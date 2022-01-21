@@ -37,4 +37,4 @@ Writing scripts to test parts of the source code is a way to automate testing. C
 
 ## Why use Unit Testing?
 
-Unit testing is an important part of the development phase when writing code. It's best practice to test parts or units of code to verify its correctness during development or after making changes. A unit of code can be anything from a class function to a snippet of code and testing can be done manually or through automation.
+Unit testing is an important part of the development phase when writing code because it can potentially highlight errors earlier in development. It's best practice to test parts or units of code to verify its correctness during development or after making changes.
