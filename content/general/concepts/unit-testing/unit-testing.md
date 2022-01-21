@@ -25,7 +25,7 @@ Unit testing is usually categorized into two types:
 
 ### Manual Testing
 
-Manual testing is when tests are done directly by people. It can involve clicking on objects, providing input, or scrolling through items.
+Manual testing is when tests are done directly by testers. This can involve actions such as clicking on objects, providing input, or scrolling through items.
 
 Depending on the length of the software, this type of testing can be time-consuming. An alternative to unit testing would be automated testing.
 
