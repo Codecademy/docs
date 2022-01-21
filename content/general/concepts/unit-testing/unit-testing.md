@@ -14,7 +14,7 @@ CatalogContent:
 
 Unit testing is an important part of coding and software development because it verifies whether individual parts of the source code behave and work as expected.
 
-A part or unit of code can be anything from a class function to a small snippet of code that performs a specific task. Testing individual components makes it easier to find exactly where an error lies.
+These parts, or units, of code can be anything from a class function to a snippet of code that performs a specific task. Testing these units individually allows for finding errors earlier on in the development process.
 
 ## Types of Unit Testing
 
