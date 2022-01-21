@@ -17,7 +17,7 @@ HTML supports the following audio format types:
 
 - MP3
 - WAV
-- OGG.
+- OGG
 
 ## Syntax
 
