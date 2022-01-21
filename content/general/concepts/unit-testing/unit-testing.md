@@ -35,6 +35,26 @@ Automated testing is when programs are written specifically to test code. This i
 
 Writing scripts to test parts of the source code is a way to automate testing. Combined with a testing automation tool, these scripts can run automatically and immediately inform developers if any errors have occurred.
 
-## Why use Unit Testing?
+## Pros and Cons
 
 Unit testing is an important part of the development phase when writing code because it can potentially highlight errors earlier in development. It's best practice to test parts or units of code to verify its correctness during development or after making changes.
+
+Every project can benefit from unit testing because:
+
+- It can reduce the chances of having compound errors
+
+- Makes debugging easier 
+
+- Helps creators write better code by encouraging them to write in smaller chunks 
+
+- Makes it easier to make changes to the source code
+
+However, it is important to note that there are some disadvantages to unit testing including:
+
+- One line of code may need multiple lines of test code to test it 
+
+- Can’t test everything; not every execution path can be covered with unit testing
+
+- It can not catch integration errors or broad system errors
+
+Unit-testing may seem like a time-consuming process that could take a while to get a handle on. However, having a process in place that contributes to the robustness and correctness of the source code can save time in the long-run.
