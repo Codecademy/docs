@@ -57,4 +57,4 @@ However, it is important to note that there are some disadvantages to unit testi
 
 - It can not catch integration errors or broad system errors
 
-Unit-testing may seem like a time-consuming process that could take a while to get a handle on. However, having a process in place that contributes to the robustness and correctness of the source code can save time in the long-run.
+Unit-testing may seem like a time-consuming process that could take a while to get a handle on. Nevertheless, having a process in place that contributes to the robustness and correctness of the source code can save time in the long-run.
