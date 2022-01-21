@@ -30,7 +30,7 @@ A router always has some default path to send network traffic if no specific des
 - Bandwidth: The maximum amount of data that can travel a route in a given period of time.
 - Delay/Latency: The time between a signal sent on a route, and the response received.
 
-## Type of Routing
+## Types of Routing
 
 There are several types of routing, based on the characteristics of the destination:
 
