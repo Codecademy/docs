@@ -1,6 +1,6 @@
 ---
 Title: 'Open Source'
-Description: ''
+Description: '"Open source" refers to software that is released with the source code made freely available for modification and possible redistribution.'
 Subjects:
   - 'Computer Science'
 Tags:
