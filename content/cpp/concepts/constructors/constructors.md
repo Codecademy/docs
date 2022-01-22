@@ -18,11 +18,11 @@ A constructor is a specially defined method in a c++ class that is automatically
 
 ### Syntax and Examples
 
-A constructor method is defined within a class by using the class name followed by parenthesis: 
+A constructor method is defined within a class by using the class name followed by parenthesis:
 
 ```cpp
 class MyClass {
-  public:     
+  public:
     MyClass() {    // This defines a constructor that outputs a message
       cout << "The constructor was executed!";
     }
@@ -53,11 +53,11 @@ int main() {
   // Call the constructor using arguments
   Circle myCircle1(5,5,10);
   Circle myCircle2(0,0,5);
- 
+
   // Print out the attribute values set for each object
   cout << "X=" << myCircle1.X << ", Y=" << myCircle1.Y << ", radius=" << myCircle1.radius << "\n";
   cout << "X=" << myCircle2.X << ", Y=" << myCircle2.Y << ", radius=" << myCircle2.radius << "\n";
-  
+
   return 0;
 }
 ```
