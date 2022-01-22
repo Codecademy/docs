@@ -9,7 +9,7 @@ Tags:
   - 'Development'
 CatalogContent:
   - 'learn-javascript-unit-testing'
-  - 'paths/front-end-engineer-career-path`
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Unit testing is an important part of coding and software development because it verifies whether individual parts of the source code behave and work as expected.
@@ -41,20 +41,20 @@ Unit testing is an important part of the development phase when writing code bec
 
 Every project can benefit from unit testing because:
 
-- It can reduce the chances of having compound errors
+- It can reduce the chances of having compound errors.
 
-- Makes debugging easier 
+- Makes debugging easier.
 
-- Helps creators write better code by encouraging them to write in smaller chunks 
+- Helps creators write better code by encouraging them to write in smaller chunks.
 
-- Makes it easier to make changes to the source code
+- Makes it easier to make changes to the source code.
 
 However, it is important to note that there are some disadvantages to unit testing including:
 
-- One line of code may need multiple lines of test code to test it 
+- One line of code may need multiple lines of test code to test it.
 
-- Can’t test everything; not every execution path can be covered with unit testing
+- Can’t test everything; not every execution path can be covered with unit testing.
 
-- It can not catch integration errors or broad system errors
+- It can not catch integration errors or broad system errors.
 
 Unit-testing may seem like a time-consuming process that could take a while to get a handle on. Nevertheless, having a process in place that contributes to the robustness and correctness of the source code can save time in the long-run.
