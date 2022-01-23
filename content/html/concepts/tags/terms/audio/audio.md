@@ -23,9 +23,7 @@ HTML supports the following audio formats:
 
 ```html
 <audio controls>
-  <source src="audioFile_name.ogg" type="audio/ogg" />
-  <source src="audioFile_name.mp3" type="audio/mpeg" />
-  <h3>Fallback text if audio will not play</h3>
+  Source tags with different audio formats go here
 </audio>
 ```
 
