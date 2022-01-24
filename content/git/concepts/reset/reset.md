@@ -31,16 +31,6 @@ Suppose a file named **example.md** is accidentally committed to a Git repositor
 
 **Note:** HEAD refers to the current commit while index refers to the staging area where files are [added using Git](https://www.codecademy.com/resources/docs/git/add).
 
-## Before Committing
-
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   example.txt
-```
-
 ## After Committing
 
 ```
