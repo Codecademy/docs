@@ -168,13 +168,23 @@ const objectK = {
   name: 'Codecademy',
   age: 10,
 };
+
+const myEntries = Object.entries(objectK);
+
+console.log(myEntries);
+// Output: [ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
 ```
 
-The output would look like:
+Below, a `for` loop prints the `key`'s and `value`'s for `myEntries`:
 
-```
-"name: Codecademy"
-"age: 10"
+```js
+for(const [key, value] of myEntries) {
+  console.log(`${key}: ${value}`);
+}
+
+// Output:
+// name: Codecademy
+// age: 10
 ```
 
 ## Break Keyword
