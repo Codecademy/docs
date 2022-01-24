@@ -178,7 +178,7 @@ console.log(myEntries);
 Below, a `for` loop prints the `key`'s and `value`'s for `myEntries`:
 
 ```js
-for(const [key, value] of myEntries) {
+for (const [key, value] of myEntries) {
   console.log(`${key}: ${value}`);
 }
 
