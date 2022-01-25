@@ -16,11 +16,16 @@ In Git, the `reset` command is used to change the state of the Git repository or
 
 ## Syntax
 
-```
-git reset <mode-option> <commit>
+```pseudo
+git reset <mode-option> <commit-reference-number>
 ```
 
-The mode refers to the options for the reset command. These include:
+The `<mode-options>` refer to how far `reset` will go in when rolling back changes, in the following contexts:
+- Where the `HEAD` is pointing towards (usually done with just `git reset`).
+- Whether the staging area, or Index, reflects the commit the `HEAD` is now pointing towards.
+- Whether the working tree is rolled back to reflect the changes reset in the `HEAD` and staging area.
+
+More specifically, these options include:
 1. --soft: This undoes the commit but still shows the file as staged and permits only new commits.
 2. --mixed: This undoes the commit and unstages the file and the file can be edited and committed normally.
 3. --hard: This removes the new commit including all changes and uncommitted files.
