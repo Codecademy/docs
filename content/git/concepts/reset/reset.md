@@ -15,9 +15,11 @@ CatalogContent:
 In Git, the `reset` command is used to change the state of the Git repository or undo commits.
 
 ## Syntax
+
 ```
 git reset <mode-option> <commit>
 ```
+
 The mode refers to the options for the reset command. These include:
 1. --soft: This undoes the commit but still shows the file as staged and permits only new commits.
 2. --mixed: This undoes the commit and unstages the file and the file can be edited and committed normally.
