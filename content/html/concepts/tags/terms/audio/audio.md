@@ -35,3 +35,15 @@ The `<audio>` tag may include `<source>` tags and fallback text. It may also use
 - `controls`: if this attribute is present the audio will have an overlay allowing the user to control the audio.
 - `loop`: specifies that when the audio ends, it will begin again.
 - `src`: the URL for the audio that should be shown to the user.
+  
+## Example
+  
+```html  
+<audio controls>
+  <source src="audioFile_name.ogg" type="audio/ogg" />
+  <source src="audioFile_name.mp3" type="audio/mpeg" />
+  <h3>Fallback text if audio will not play</h3>
+</audio>
+```
+  
+In the example above, the `<audio>` tag contains a controls attribute to display user controls for the audio content such as a play and pause button. In addition, there are two `<source>` tags with different audio formats. If the browser doesn't support the **.ogg** file format, it will run the **.mp3** file. Lastly, the text that trails after the `<source>` tags will display if the `<audio>` tag is not supported by the browser.
