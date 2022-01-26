@@ -24,10 +24,10 @@ git reset <mode-option> <commit-reference-number>
 
 ### Mode Options
 
-The `<mode-options>` refer to how far `reset` will go in when rolling back changes, in the following contexts:
+The `<mode-options>` refers to how far `reset` will go when rolling back changes to a previous commit, including:
 
 - Where the `HEAD` is pointing towards (usually done with just `git reset`).
-- Whether the staging area, or Index, reflects the commit the `HEAD` is now pointing towards.
+- Whether the staging area or Index, reflects the commit the `HEAD` is now pointing towards.
 - Whether the working tree is rolled back to reflect the changes reset in the `HEAD` and staging area.
 
 More specifically, these options include:
