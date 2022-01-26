@@ -161,7 +161,7 @@ for (let i = 0; i < array.length; i++) {
 
 ## Looping Through Objects
 
-The `Object.entries()` method can be used to loop through an object's key-value pairs as an array. It returns an array of arrays, each of which represents a key-value pair. In the example below, `Object.entries()` is used to define a variable called `myEntries`: 
+The `Object.entries()` method can be used to loop through an object's key-value pairs as an array. It returns an array of arrays, each of which represents a key-value pair. In the example below, `Object.entries()` is used to define a variable called `myEntries`:
 
 ```js
 const objectK = {
@@ -180,10 +180,10 @@ Next, a `for..of` loop can be used to print the `key`'s and `value`'s for `myEnt
 ```js
 for (const [key, value] of myEntries) {
   console.log(`${key}: ${value}`);
-}
+};
 ```
 
-When run, the output will look like this
+The output will look like this
 
 ```shell
 name: Codecademy
