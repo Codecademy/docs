@@ -46,20 +46,22 @@ Since `maybeInt` is previously declared as nil, `myInt` will default to 27.
 `if` `let` is an optional binding control structure.
 
 ```swift
-var maybeString: String?
+var maybeString: String? = "maybeString"
 
 if let myString = maybeString {
-  print("\(maybeString) and \(myString) are equal")
+  print("\(maybeString) and myString are equal!")
 } else {
-  print("myString could not be assigned to \(maybeString)")
+  print("myString could not be assigned to nil.")
 }
+
+// Output: Optional("maybeString") and myString are equal!
 ```
 
 `myString` is declared and conditionally bound to the `maybeString` optional. The value of `myString` can be accessed from inside the `if` statement and within `myString`'s outer scope.
 
 ### `guard` `let`
 
-`guard` `let` is another optional binding control structure.
+`guard` `let` is another optional binding control structure that can be used within a function.
 
 ```swift
 guard let myInt = maybeInt else {
@@ -67,18 +69,26 @@ guard let myInt = maybeInt else {
 }
 ```
 
-`guard` is
+If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherwise, the `else` block will run and hit the `return` statement.
 
 **Note:** The following ways to upwrap optionals is not recommended because it does not handle nil cases.
 
 ### Forced upwrapping
 
 ```swift
+var maybeInt: Int? = 27
+
 var myInt: Int = maybeInt!
+
+print(myInt)
+// Output: 27
 ```
 
-### Implicit upwrapping
+Alternatively, this can be done implicitly:
 
 ```swift
 var myInt = maybeInt!
+
+print(myInt)
+// Output: 27
 ```
