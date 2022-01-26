@@ -180,10 +180,10 @@ Next, a `for..of` loop can be used to print the `key`'s and `value`'s for `myEnt
 ```js
 for (const [key, value] of myEntries) {
   console.log(`${key}: ${value}`);
-};
+}
 ```
 
-The output will look like this
+The output will look like this:
 
 ```shell
 name: Codecademy
