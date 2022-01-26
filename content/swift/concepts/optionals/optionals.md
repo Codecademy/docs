@@ -25,11 +25,11 @@ var maybeInt: Int? = nil
 
 **Note:** If `myInt` is not assigned the value of nil, it will default to nil.
 
-## Unwrapping optionals
+## Unwrapping Optionals
 
 Optional types can be unwrapped if it's certain that a value is present. Below are some ways this can be done.
 
-### Nil-coalescing
+### Nil Coalescing
 
 The nil coalescing operator, `??`, checks the value on the left. If that value is nil, the default value on the right side is used.
 
@@ -73,7 +73,7 @@ If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherw
 
 **Note:** The following ways to upwrap optionals is not recommended because it does not handle nil cases.
 
-### Forced upwrapping
+### Forced Upwrapping
 
 ```swift
 var maybeInt: Int? = 27

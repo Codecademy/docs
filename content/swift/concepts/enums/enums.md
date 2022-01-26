@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, an enumeration (enum) is an
+In Swift, an enumeration (enum) is a collection of values that can be referenced throughout a program.
 
 ## Syntax
 
@@ -22,7 +22,13 @@ enum MyEnum {
 }
 ```
 
-## Examples
+To access specific cases in `MyEnum`, the dot operator `.` is used, following the case name:
+
+```pseudo
+MyEnum.case
+```
+
+## Creating an `enum`
 
 `enum` cases can be written in a single line:
 
@@ -42,17 +48,21 @@ enum Level {
 }
 ```
 
-### Raw value
+### Raw Value
+
+Raw values can be added for each case if a raw type is defined after the trailing colon `:` that follows the `enum` name.
+
+The following example displays an `enum` with a raw type of `String` and cases assigned to their respective raw values:
 
 ```swift
 enum Level: String {
-  case beginner = ""
-  case intermediate = ""
-  case advanced = ""
+  case beginner = "Tadpole"
+  case intermediate = "Froglet"
+  case advanced = "Frog"
 }
 ```
 
-### Associated value
+### Associated Value
 
 ```swift
 enum Level: String {
@@ -71,3 +81,9 @@ enum Level: String, CaseIterable {
   case advanced = ""
 }
 ```
+
+## Accessing an `enum`
+
+### Switch Case Example
+
+### Iterative Example
