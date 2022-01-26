@@ -12,20 +12,62 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, an enumeration (enum) is a
+In Swift, an enumeration (enum) is an
 
 ## Syntax
 
-[Text about subsection 1]
+```swift
+enum MyEnum {
+  // Enumeration cases
+}
+```
 
-## Example
+## Examples
 
-[Text about subsection 2]
+`enum` cases can be written in a single line:
 
-## Codebyte Example
+```swift
+enum Level {
+  case beginner, intermediate, advanced
+}
+```
 
-[Text about subsection n]
+Another way to display `enum` cases is by defining them on separate lines:
 
-```codebyte/swift
+```swift
+enum Level {
+  case beginner
+  case intermediate
+  case advanced
+}
+```
 
+### Raw value
+
+```swift
+enum Level: String {
+  case beginner = ""
+  case intermediate = ""
+  case advanced = ""
+}
+```
+
+### Associated value
+
+```swift
+enum Level: String {
+  case beginner = ""
+  case intermediate = ""
+  case advanced = ""
+}
+```
+
+### `CaseIterable`
+
+```swift
+enum Level: String, CaseIterable {
+  case beginner = ""
+  case intermediate = ""
+  case advanced = ""
+}
 ```
