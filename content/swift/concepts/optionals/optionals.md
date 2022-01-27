@@ -1,6 +1,6 @@
 ---
 Title: 'Optionals'
-Description: ''
+Description: 'Optionals are types that deal with scenarios involving the potential presence or absence of a value (nil).'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
