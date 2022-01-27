@@ -29,7 +29,7 @@ class MyClass {
 };
 
 int main() {
-  MyClass myObj;    // This calls the constructor
+  MyClass myObj;  // This calls the constructor
   return 0;
 }
 ```
