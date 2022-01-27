@@ -45,20 +45,20 @@ class DivideByZero {
 
 ## Example Errors
 
-- The `NoClassDefFoundError` occurs when the file with the class containing the `main()` method cannot be found.
-- The `NoSuchMethodFoundError` occurs when a method is called in the program but cannot be found.
 - The `ClassFormatError` occurs when a class file cannot be read or interpreted.
 - The `IncompatibleClassChangeError` occurs when a base class is altered after a child class has already been initialized.
-- The `NoSuchFieldError` occurs when an attempt to access a field in an object is made but the field no longer exists.
+- The `NoClassDefFoundError` occurs when the file with the class containing the `main()` method cannot be found.
+- The `NoSuchFieldError` occurs when an attempt to access a field in an object is made but the field no longer exists. 
+- The `NoSuchMethodFoundError` occurs when a method is called in the program but cannot be found.
 
 ## Example Exceptions
 
+- The `AccessControlException` occurs when access to a system resource (file, network, etc.) has been denied.
 - The `ArrayIndexOutOfBoundsException` occurs when an attempt to access an array is made with an index outside the established values.
-- The `StringIndexOutOfBoundsException` occurs when an attempt is made to access an out-of-range part of a string.
-- The `NullPointerException` occurs when an attempt is made to access an object reference that does not have an instance assigned to it.
 - The `ArrayStoreException` occurs when the rules for casting elements into arrays are violated.
 - The `ClassCastException` occurs when an object is cast to the wrong class.
-- The `FileNotFoundException`occurs when a file with the specified path cannot be found.
-- The `AccessControlException` occurs when access to a system resource (file, network, etc.) has been denied.
 - The `EOFException` occurs when the end of a file or stream during input is unexpectedly reached.
+- The `FileNotFoundException`occurs when a file with the specified path cannot be found.
+- The `NullPointerException` occurs when an attempt is made to access an object reference that does not have an instance assigned to it.
 - The `NumberFormatException` occurs when an attempt is made to convert a string to a numeric type and the string does not contain a number.
+- The `StringIndexOutOfBoundsException` occurs when an attempt is made to access an out-of-range part of a string.
