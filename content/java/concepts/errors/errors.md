@@ -13,7 +13,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java there are two subclasses of the java.lang.Throwable class, Errors and Exceptions. Errors are caused by illegal operations in the code that cause an abnormal state in the program. Exceptions refer to an abnormal or unexpected event that disrupts the flow of the program. An error is a serious abnormality in the program that the programmer should not try and `catch` during runtime. Exceptions are those conditions that a reasonable programmer might try to `catch`.
+In Java, there are two subclasses of the `java.lang.Throwable` class:
+
+- The `Error` class shows illegal operations in the code that cause an abnormal state in the program. An error is a serious abnormality in the program that the programmer should not try and `catch` during runtime.
+- The `Exception` class refers to an abnormal or unexpected event that disrupts the flow of the program. Exceptions are those conditions that a reasonable programmer might try to `catch`.
 
 ## Try Catch Syntax
 
