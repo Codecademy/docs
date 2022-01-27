@@ -23,7 +23,8 @@ Some simple data types are:
 | Data Type   | Description                                                                                                               |
 
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Numbers` | Numbers include `-1`, `0`, `1` and so on. (Depending on the languge deciamls are a diffrent data type.)                                         |
+| `Numbers` | Numbers include `-1`, `0`, `1`, and so on. (Depending on the language decimals are a different data type.)                                         |
+
 | `String` | Strings is just text. You can use single quotes (`''`) or double quotes (`""`) For example: `"Codecademy is awsome! 🖥️⌨️"`                      |
 | `Boolean` | Booleans are a `true` for `false` value. Ex: `codeingIsFun = true`                                                                              |
 | `null` | `null` repersents no value.                                                                                                                        |
