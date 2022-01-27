@@ -18,7 +18,6 @@ In Git, the `reset` command is used to change the state of the Git repository or
 
 In the terminal, the `git reset` command generally follows this template:
 
-
 ```pseudo
 git reset <mode-option> <commit-reference>
 ```
