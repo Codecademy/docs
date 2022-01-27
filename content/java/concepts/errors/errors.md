@@ -2,8 +2,8 @@
 Title: 'Errors'
 Description: 'In Java situations where things go wrong in the program are predominantly handled by the Error and Exception classes.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Errors'
   - 'Error Handling'
