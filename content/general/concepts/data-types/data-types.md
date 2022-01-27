@@ -28,7 +28,8 @@ Some simple data types are:
 | `String` | Strings is just text. You can use single quotes (`''`) or double quotes (`""`) For example: `"Codecademy is awsome! 🖥️⌨️"`                      |
 | `Boolean` | Booleans are a `true` for `false` value. Ex: `codeingIsFun = true`                                                                              |
 | `null` | `null` repersents no value.                                                                                                                        |
-| `Undefined` | `Undefined` also repersents no value.                                                                                                         |
+| `Undefined` | `Undefined` also represents no value.                                                                                                         |
+
 
 The complex data types are:
 
