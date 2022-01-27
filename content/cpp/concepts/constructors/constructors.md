@@ -1,6 +1,6 @@
 ---
 Title: 'Constructors'
-Description: 'A constructor is a specially defined method in a c<span class="x x-first x-last">=C</span>++ class that is automatically called when an instance of that class is created.'
+Description: 'A constructor is a specially defined method in a C++ class that is automatically called when an instance of that class is created.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
