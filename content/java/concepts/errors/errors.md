@@ -21,7 +21,7 @@ In Java, situations where things go wrong in the program are predominantly handl
 
 ## Syntax
 
-A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potentially thrown `Exception` (but never an `Error`) before it halts execution of the program. 
+A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potentially thrown `Exception` (but never an `Error`) before it halts execution of the program.
 
 ```java
 class DivideByZero {
@@ -48,7 +48,7 @@ class DivideByZero {
 - The `ClassFormatError` occurs when a class file cannot be read or interpreted.
 - The `IncompatibleClassChangeError` occurs when a base class is altered after a child class has already been initialized.
 - The `NoClassDefFoundError` occurs when the file with the class containing the `main()` method cannot be found.
-- The `NoSuchFieldError` occurs when an attempt to access a field in an object is made but the field no longer exists. 
+- The `NoSuchFieldError` occurs when an attempt to access a field in an object is made but the field no longer exists.
 - The `NoSuchMethodFoundError` occurs when a method is called in the program but cannot be found.
 
 ## Example Exceptions
