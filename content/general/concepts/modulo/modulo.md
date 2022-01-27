@@ -17,14 +17,18 @@ Most programming languages use the symbol `%` to represent the modulo operation,
 
 ## Examples
 
-```pseudo
-14 % 5 // Results in a modulus of 4
-```
+The following is an example of the modulo operator in Python:
 
 ```pseudo
-37 % 3 // Results in a modulus of 1
-```
+modulus = 14 % 5 
+print(f"14 % 5 results in a modulus of {modulus}")
+// Output : 14 % 5 results in a modulus of 4
 
-```pseudo
-21 % 7 // Results in a modulus of 0
+modulus = 37 % 3 
+print(f"37 % 3 Results in a modulus of {modulus}")
+// Output: 37 % 3 Results in a modulus of 1
+
+modulus = 21 % 7 
+print(f"21 % 7 results in a modulus of {modulus}")
+// Output: 21 % 7 results in a modulus of 0
 ```
