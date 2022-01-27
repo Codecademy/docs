@@ -45,11 +45,11 @@ class DivideByZero {
 
 ## Example Errors
 
-- `NoClassDefFoundError` - Java cannot find the file with the class containing the `main()` method.
-- `NoSuchMethodFoundError` - Java cannot find a method being called in the program.
-- `ClassFormatError` - Java cannot read a class file or cannot interpret it.
-- `IncompatibleClassChangeError` - Code has tried to change a base class after a child class has been initalized.
-- `NoSuchFieldError` - Code has tried to access a field in an object and the field no longer exists.
+- The `NoClassDefFoundError` occurs when the file with the class containing the `main()` method cannot be found.
+- The `NoSuchMethodFoundError` occurs when a method is called in the program but cannot be found.
+- The `ClassFormatError` occurs when a class file cannot be read or interpreted.
+- The `IncompatibleClassChangeError` occurs when a base class is altered after a child class has already been initialized.
+- The `NoSuchFieldError` occurs when an attempt to access a field in an object is made but the field no longer exists.
 
 ## Example Exceptions
 
