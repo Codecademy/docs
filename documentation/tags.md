@@ -182,6 +182,7 @@ NumPy
 Objects
 OOP
 Operators
+Optionals
 Output
 p5
 Packages
