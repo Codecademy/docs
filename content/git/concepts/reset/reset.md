@@ -47,7 +47,6 @@ More specifically, these options include:
 
 If, for example, an error was made in a text file, **example.txt**, and the changes were accidentally [added](https://www.codecademy.com/resources/docs/git/add) and [committed](codecademy.com/resources/docs/git/commit), `git reset` can be used to go back to the state before that commit was made.
 
-
 This is what the terminal would look like after creating the new accidental commit on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
 ```
