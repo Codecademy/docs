@@ -61,7 +61,7 @@ int main() {
   return 0;
 }
 
-// Output: 
+// Output:
 // X=5, Y=5, radius=10
 // X=0, Y=0, radius=5
 ```
