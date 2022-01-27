@@ -29,6 +29,7 @@ The complex data types are:
 
 | Data Type   | Description  of said data type                                                                                                                |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Arrays | Arrays (called lists in some languges) are a list that a computer can easly read. You can find a value using the index. The index starts at 0. Ex: `randomThings = ["javascript, true, 5, null, [1, 2, 3]]` Javscript index is 0, true is 1 and so on. You can acsess values like this: `randomThings[2]` and that has the value of 5. You can have arrays with in arrays you can acsess the value like this: `randomThings[4][1]` and that has the value of 2.                                                   |
+| Arrays | Arrays (called lists in some languages) are lists the compiler can read. Values can be found using the index. The index starts at 0. Ex: `randomThings = ["javascript, true, 5, null, [1, 2, 3]]` `javascript` is at index 0, `true` is at index 1, and so on.  `randomThings[2]`  will access the third item which has the value of `5`. Arrays can be within arrays, a value of a nested array can be accessed like this: `randomThings[4][1]`, this has the value of `2`.                                                   |
+
 | Objects | Objects are is a group of related data.                                                                                                           |
 | Classes | Classes are templates for objects
