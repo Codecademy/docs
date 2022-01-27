@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, there are two subclasses of the `java.lang.Throwable` class:
+In Java, situations where things go wrong in the program are predominantly handled by following subclasses of the `java.lang.Throwable` class:
 
 - The `Error` class shows illegal operations in the code that cause an abnormal state in the program. An error is a serious abnormality in the program that the programmer should not try and `catch` during runtime.
 - The `Exception` class refers to an abnormal or unexpected event that disrupts the flow of the program. Exceptions are those conditions that a reasonable programmer might try to `catch`.
