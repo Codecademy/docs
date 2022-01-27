@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Errors'
   - 'Error Handling'
+  - 'Exceptions'
   - 'Debugging'
 CatalogContent:
   - 'learn-java'
