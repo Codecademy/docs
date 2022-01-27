@@ -25,7 +25,8 @@ Some simple data types are:
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Numbers` | Numbers include `-1`, `0`, `1`, and so on. (Depending on the language decimals are a different data type.)                                         |
 
-| `String` | Strings is just text. You can use single quotes (`''`) or double quotes (`""`) For example: `"Codecademy is awsome! 🖥️⌨️"`                      |
+| `String` | Strings is just text. Either single quotes (`''`) or double quotes (`""`) can be used.  For example: `"Codecademy is awesome! 🖥️⌨️"`                      |
+
 | `Boolean` | Booleans are a `true` for `false` value. Ex: `codeingIsFun = true`                                                                              |
 | `null` | `null` repersents no value.                                                                                                                        |
 | `Undefined` | `Undefined` also represents no value.                                                                                                         |
