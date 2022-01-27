@@ -53,12 +53,12 @@ class DivideByZero {
 
 ## Example Exceptions
 
-- `ArrayIndexOutOfBoundsException` - Code has tried to access an array with an index outside the established values.
-- `StringIndexOutOfBoundsException` - Code has tried to access part of a string past the boundaries of the string.
-- `NullPointerException` - Code is trying to access an object reference that does not have an instance assigned to it.
-- `ArrayStoreException` - Code has violated the rules for casting elements into arrays.
-- `ClassCastException` - Code is trying to cast an object to the wrong class.
-- `FileNotFoundException`- Java cannot find a file with the specified path.
-- `AccessControlException` - Java has been denied access to a system resource (file, network, etc.).
-- `EOFException` - Code has unexpectedly reached the end of a file or stream during input.
-- `NumberFormatException` - Code has tried to convert a string to a numeric type and the string is not a number.
+- The `ArrayIndexOutOfBoundsException` occurs when an attempt to access an array is made with an index outside the established values.
+- The `StringIndexOutOfBoundsException` occurs when an attempt is made to access an out-of-range part of a string.
+- The `NullPointerException` occurs when an attempt is made to access an object reference that does not have an instance assigned to it.
+- The `ArrayStoreException` occurs when the rules for casting elements into arrays are violated.
+- The `ClassCastException` occurs when an object is cast to the wrong class.
+- The `FileNotFoundException`occurs when a file with the specified path cannot be found.
+- The `AccessControlException` occurs when access to a system resource (file, network, etc.) has been denied.
+- The `EOFException` occurs when the end of a file or stream during input is unexpectedly reached.
+- The `NumberFormatException` occurs when an attempt is made to convert a string to a numeric type and the string does not contain a number.
