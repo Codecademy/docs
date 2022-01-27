@@ -20,7 +20,7 @@ In Java, there are two subclasses of the `java.lang.Throwable` class:
 
 ## Try Catch Syntax
 
-A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potential java.lang.Throwable class being thrown before it halts execution of the program. Note that programs should not `try...catch` Errors, only Exceptions.
+A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potential `java.lang.Throwable` class being thrown before it halts execution of the program. Note that programs should not `try...catch` `Errors`, only `Exceptions`.
 
 ```java
 class DivideByZero {
