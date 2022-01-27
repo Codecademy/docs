@@ -19,7 +19,7 @@ In Java, situations where things go wrong in the program are predominantly handl
 - The `Error` class represents illegal operations that cause serious abnormalities in the program and are not recommended to `catch`.
 - The `Exception` class refers to abnormal, unexpected events that disrupt the flow of the program but can be reasonably handled by a `catch`-statement.
 
-## Try Catch Syntax
+## Syntax
 
 A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potential `java.lang.Throwable` class being thrown before it halts execution of the program. Note that programs should not `try...catch` `Errors`, only `Exceptions`.
 
