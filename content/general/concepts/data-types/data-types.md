@@ -1,4 +1,16 @@
-## Data types
+---
+Title: 'Data Types'
+Description: 'Data is classified into data types that tell the compiler how the data is intended to be used.'
+Subjects:
+  - 'Computer Science'
+  - 'Code Foundations'
+Tags:
+  - 'Data Types'
+  - 'Types'
+CatalogContent:
+  - 'learn-c-sharp'
+  - 'paths/build-web-apps-with-asp-net'
+---
 
 Data is the foundation of all programs. In programing there are 5 simple data types and 3 complex data types. 
 
