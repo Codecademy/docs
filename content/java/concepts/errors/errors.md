@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'In Java there are two subclasses of the java.lang.Throwable class, Errors and Exceptions.'
+Description: 'In Java situations where things go wrong in the program are predominantly handled by the Error and Exception classes.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
