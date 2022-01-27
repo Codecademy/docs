@@ -21,7 +21,7 @@ In Java, situations where things go wrong in the program are predominantly handl
 
 ## Syntax
 
-A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potential `java.lang.Throwable` class being thrown before it halts execution of the program. Note that programs should not `try...catch` `Errors`, only `Exceptions`.
+A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potentially thrown `Exception` (but never an `Error`) before it halts execution of the program. 
 
 ```java
 class DivideByZero {
