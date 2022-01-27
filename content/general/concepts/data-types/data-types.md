@@ -27,7 +27,8 @@ Some simple data types are:
 
 | `String` | Strings is just text. Either single quotes (`''`) or double quotes (`""`) can be used.  For example: `"Codecademy is awesome! 🖥️⌨️"`                      |
 
-| `Boolean` | Booleans are a `true` for `false` value. Ex: `codeingIsFun = true`                                                                              |
+| `Boolean` | Booleans are a `true` or `false` value. Ex: `codeingIsFun = true`                                                                              |
+
 | `null` | `null` repersents no value.                                                                                                                        |
 | `Undefined` | `Undefined` also represents no value.                                                                                                         |
 
