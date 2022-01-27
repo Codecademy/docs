@@ -19,7 +19,7 @@ Such projects are intended to foster open collaboration from a variety of perspe
 
 Open source software (OSS) is also thought to be more trustworthy. Since all the code is available to the public, any unwanted or nefarious behavior or activity will be quickly exposed by the development community surrounding the project.
 
-## Examples of Open Source Software
+## Examples of OSS
 
 - Linux: Ever since the Linux kernel was released by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) in 1991, an endless variety of Linux distributions have been produced, all similarly open source. The majority of software for the Linux operating system is open source as well.
 - LibreOffice: a competitor to Microsoft Office, that offers word processing, spreadsheet, presentation and database software.
