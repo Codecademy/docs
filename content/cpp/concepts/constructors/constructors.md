@@ -55,8 +55,8 @@ int main() {
   Circle myCircle2(0,0,5);
 
   // Print out the attribute values set for each object
-  cout << "X=" << myCircle1.X << ", Y=" << myCircle1.Y << ", radius=" << myCircle1.radius << "\n";
-  cout << "X=" << myCircle2.X << ", Y=" << myCircle2.Y << ", radius=" << myCircle2.radius << "\n";
+  <span class="x x-first x-last">std::</span>cout &lt;&lt; "X=" &lt;&lt; myCircle1.X &lt;&lt; ", Y=" &lt;&lt; myCircle1.Y &lt;&lt; ", radius=" &lt;&lt; myCircle1.radius &lt;&lt; "\n";
+  <span class="x x-first x-last">std::</span>cout &lt;&lt; "X=" &lt;&lt; myCircle2.X &lt;&lt; ", Y=" &lt;&lt; myCircle2.Y &lt;&lt; ", radius=" &lt;&lt; myCircle2.radius &lt;&lt; "\n";
 
   return 0;
 }
