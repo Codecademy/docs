@@ -17,7 +17,7 @@ CatalogContent:
 In Java, situations where things go wrong in the program are predominantly handled by following subclasses of the `java.lang.Throwable` class:
 
 - The `Error` class represents illegal operations that cause serious abnormalities in the program and are not recommended to `catch`.
-- The `Exception` class refers to an abnormal or unexpected event that disrupts the flow of the program. Exceptions are those conditions that a reasonable programmer might try to `catch`.
+- The `Exception` class refers to abnormal, unexpected events that disrupt the flow of the program but can be reasonably handled by a `catch`-statement.
 
 ## Try Catch Syntax
 
