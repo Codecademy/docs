@@ -29,7 +29,8 @@ Some simple data types are:
 
 | `Boolean` | Booleans are a `true` or `false` value. Ex: `codeingIsFun = true`                                                                              |
 
-| `null` | `null` repersents no value.                                                                                                                        |
+| `null` | `null` represents no value.                                                                                                                        |
+
 | `Undefined` | `Undefined` also represents no value.                                                                                                         |
 
 
