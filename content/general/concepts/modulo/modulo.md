@@ -22,13 +22,13 @@ The following is an example of the modulo operator in Python:
 ```python
 modulus = 14 % 5
 print(f"14 % 5 results in a modulus of {modulus}")
-// Output : 14 % 5 results in a modulus of 4
+# Output : 14 % 5 results in a modulus of 4
 
 modulus = 37 % 3
 print(f"37 % 3 Results in a modulus of {modulus}")
-// Output: 37 % 3 Results in a modulus of 1
+# Output: 37 % 3 Results in a modulus of 1
 
 modulus = 21 % 7
 print(f"21 % 7 results in a modulus of {modulus}")
-// Output: 21 % 7 results in a modulus of 0
+# Output: 21 % 7 results in a modulus of 0
 ```
