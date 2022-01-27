@@ -33,8 +33,7 @@ class DivideByZero {
       int c = a / b;
       System.out.println("I'm never executed!");
     } catch (ArithmeticException e) {
-      // If the above Exception is thrown, code will resume execution here
-      // This block is not run if no Exception is thrown
+      // If the ArithmeticException is thrown above, code execution will resume here
       System.out.println("Exception Caught!");
       e.printStackTrace();
     }
