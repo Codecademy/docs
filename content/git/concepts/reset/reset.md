@@ -23,7 +23,11 @@ In the terminal, the `git reset` command generally follows this template:
 git reset <mode-option> <commit-reference>
 ```
 
-**Note:** HEAD refers to the current commit while index refers to the staging area where files are [added using Git](https://www.codecademy.com/resources/docs/git/add).
+### Referencing Commits
+
+The `commit-reference` refers to a commit's unique hash, or save point, that was generated after creation. This hash is a long string that is a mix of characters and numbers that is usually represented by a shorter version: `05df67f9066c8ddd95c8d7bb2137acfb8b18e167` -> `05df67f`
+
+`git reset` can be used with either the commit hash or with the `HEAD` keyword, which refers to the commit being viewed on the currently checked-out branch.
 
 ### Mode Options
 
