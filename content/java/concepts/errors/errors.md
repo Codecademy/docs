@@ -28,13 +28,13 @@ In Java, situations where things might go wrong in the program are predominantly
   - The `FileNotFoundException`, which occurs when a file with the specified path cannot be found.
   - The `NumberFormatException`, which occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
 
-## Codebyte Example
+## Example
 
 A `try...catch` block is a means for a programmer to encapsulate a block of code and "catch" a potentially-thrown `Exception` (but never an `Error`) before it halts execution of the program.
 
 In the example below, the code used in the `try` block will run until the `Exception` is thrown by the assignment to the `c` variable because division by zero, 0, is not possible. In the `catch` block, an `ArithmeticException` is thrown and yields a printed message along with details about where the `Exception` can be traced.
 
-```codebyte/java
+```java
 class DivideByZero {
   public static void main(String[] args) {
     int a = 27, b = 0;
