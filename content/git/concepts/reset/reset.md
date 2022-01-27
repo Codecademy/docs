@@ -56,7 +56,19 @@ The text above indicates the following:
 - The branch is up to date, with the `HEAD` pointing the the most recent commit.
 - There is nothing to commit in the staging area.
 - New changes haven't been made yet in the working tree.
+
 To reset the `HEAD` pointer and the staging area back by 1 commit, one of the following commands can be run:
+
+```
+git reset --hard <commit-hash>
+git reset --mixed HEAD~1
+```
+
+To receive the commit hash, run the following command:
+
+```
+git rev-parse HEAD
+```
 
 If `git status` is run once more, the following should appear on the terminal:
 
@@ -69,6 +81,7 @@ Untracked files:
         example.txt
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+
 The text above indicates the following:
 - The HEAD pointer has moved back by 1 commit which is reflected by "Your branch is behind 'origin/main' by 1 commit".
 - The staging area has been reset which is reflected by "nothing added to commit but untracked files present"
