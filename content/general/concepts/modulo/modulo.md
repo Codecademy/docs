@@ -19,7 +19,7 @@ Most programming languages use the symbol `%` to represent the modulo operation,
 
 The following is an example of the modulo operator in Python:
 
-```python
+```py
 modulus = 14 % 5
 print(f"14 % 5 results in a modulus of {modulus}")
 # Output : 14 % 5 results in a modulus of 4
