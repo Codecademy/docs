@@ -14,7 +14,8 @@ CatalogContent:
 
 Data is the foundation of all programs. In programing there are 5 simple data types and 3 complex data types. 
 
-The simple data types are:
+Some simple data types are:
+
 
 | Data Type   | Description  of said data type                                                                                                                |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
