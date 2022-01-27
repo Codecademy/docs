@@ -44,7 +44,7 @@ Suppose an error was made in a file named **example.txt** and was accidentally a
 
 **Note:** HEAD refers to the current commit while index refers to the staging area where files are [added using Git](https://www.codecademy.com/resources/docs/git/add).
 
-## After Committing
+This is what the terminal would look like after creating a new commit on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
 ```
 On branch main
@@ -52,7 +52,13 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-## After Resetting
+The text above indicates the following:
+- The branch is up to date, with the `HEAD` pointing the the most recent commit.
+- There is nothing to commit in the staging area.
+- New changes haven't been made yet in the working tree.
+To reset the `HEAD` pointer and the staging area back by 1 commit, one of the following commands can be run:
+
+If `git status` is run once more, the following should appear on the terminal:
 
 ```
 On branch main
@@ -63,3 +69,6 @@ Untracked files:
         example.txt
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+The text above indicates the following:
+- The HEAD pointer has moved back by 1 commit which is reflected by "Your branch is behind 'origin/main' by 1 commit".
+- The staging area has been reset which is reflected by "nothing added to commit but untracked files present"
