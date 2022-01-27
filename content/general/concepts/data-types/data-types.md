@@ -32,7 +32,8 @@ Some simple data types are:
 | `Undefined` | `Undefined` also represents no value.                                                                                                         |
 
 
-The complex data types are:
+Some complex data types are:
+
 
 | Data Type   | Description  of said data type                                                                                                                |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
