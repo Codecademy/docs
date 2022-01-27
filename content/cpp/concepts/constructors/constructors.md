@@ -23,7 +23,7 @@ A constructor method is defined within a class by using the class name followed 
 ```cpp
 class MyClass {
   public:
-    MyClass() {    // This defines a constructor that outputs a message
+    MyClass() {  // This defines a constructor that outputs a message
       cout << "The constructor was executed!";
     }
 };
