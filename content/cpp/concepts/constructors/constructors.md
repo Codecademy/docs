@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A constructor is a specially defined method in a C++ class that is automatically called when an instance of that class is created. It is typically used for tasks such as initializing class attributes in a new object. A constructor can take arguments, like any other function, which can aid in that initialization. Arguments are passed to the constructor method when a new object is created.
+A constructor is a specially defined method in a C++ class that is automatically called when an instance of that class is created. It is typically used for tasks such as initializing class attributes in a new object. Like with functions, a constructor can take arguments that can aid in the initialization. The arguments are passed to the constructor method when a new object is created.
 
 ### Syntax and Examples
 
