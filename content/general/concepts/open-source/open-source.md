@@ -23,4 +23,4 @@ Open source software (OSS) is also thought to be more trustworthy. Since all the
 
 - Linux: Ever since the Linux kernel was released by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) in 1991, an endless variety of Linux distributions have been produced, all similarly open source. The majority of software for the Linux operating system is open source as well.
 - LibreOffice: a competitor to Microsoft Office, which offers word processing, spreadsheet, presentation, and database software.
-- MySQL: a database which is commonly used as a back-end database on many websites.
+- MySQL: a database that is commonly used as a back-end database on many websites.
