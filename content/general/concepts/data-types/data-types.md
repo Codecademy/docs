@@ -12,27 +12,27 @@ CatalogContent:
   - 'paths/build-web-apps-with-asp-net'
 ---
 
-Data is the foundation of all programs. In programming, data is classified into different types to let the compiler know how the data can be used. 
+Data is the foundation of all programs. In programming, data is classified into different types to let the compiler know how the data can be used.
 
 Data types can be simple or complex. Simple data types are the most basic types and usually hold a single value. A complex data type can be composed of multiple data types and often group multiple values.
 
 ## Common Simple Data Types
 
-| Data Type | Description |
-| --- | --- |
-| number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
-| string | Strings are text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used.  For example: `"Codecademy is awesome! 🖥️⌨️"` |
-| boolean | Booleans hold a true or false value. |
-| null | `null` or `nil` represents the absence of a value. |
-| undefined | Undefined represents a value that has not yet been defined. |
+| Data Type | Description                                                                                                                                         |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| number    | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type.                                |
+| string    | Strings are text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| boolean   | Booleans hold a true or false value.                                                                                                                |
+| null      | `null` or `nil` represents the absence of a value.                                                                                                  |
+| undefined | Undefined represents a value that has not yet been defined.                                                                                         |
 
 ## Common Complex Data Types
 
-| Data Type | Description |
-| --- | --- |
-| Arrays | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
-| Objects | Objects are groups of related data. |
-| Classes | Classes are templates for objects |
+| Data Type | Description                                                                                                                                                                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Arrays    | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
+| Objects   | Objects are groups of related data.                                                                                                                                                                                                                                               |
+| Classes   | Classes are templates for objects                                                                                                                                                                                                                                                 |
 
 ## Data Types Vary
 

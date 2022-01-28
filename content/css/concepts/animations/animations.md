@@ -26,16 +26,25 @@ To get an animation to work, the animation must be bound to an element and the `
 /* The animation */
 @keyframes color-change {
   from {
+    color: purple;
+  }
+  25% {
     color: yellow;
   }
+  50% {
+    color: red;
+  }
+  75% {
+    color: blue;
+  }
   to {
-    color: orange;
+    color: yellow;
   }
 }
 
 /* The element */
 h1 {
-  color: yellow;
+  color: purple;
   animation-name: color-change;
   animation-duration: 5s;
 }
