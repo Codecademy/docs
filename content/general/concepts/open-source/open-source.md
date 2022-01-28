@@ -21,6 +21,6 @@ Open source software (OSS) is also thought to be more trustworthy. Since all the
 
 ## Examples of OSS
 
-- Linux: Ever since the Linux kernel was released by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) in 1991, an endless variety of Linux distributions have been produced, all similarly open source. The majority of software for the Linux operating system is open source as well.
+- [Linux](https://www.linux.org/): Ever since the Linux kernel was released by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) in 1991, an endless variety of Linux distributions have been produced, all similarly open source. The majority of software for the Linux operating system is open source as well.
 - [LibreOffice](https://www.libreoffice.org/): A competitor to Microsoft Office, which offers word processing, spreadsheet, presentation, and database software.
 - [MySQL](https://www.mysql.com/): A database that is commonly used as a back-end database on many websites.
