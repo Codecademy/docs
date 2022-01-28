@@ -14,7 +14,7 @@ CatalogContent:
 
 Data is the foundation of all programs. In programming, data is classified into data types to let the compiler know how the data is being used. 
 
-Data types can be simple or complex. Simple data types are the most basic types and usually hold a single value.  A complex data type can be composed of multiple data types and often group multiple values.
+Data types can be simple or complex. Simple data types are the most basic types and usually hold a single value. A complex data type can be composed of multiple data types and often group multiple values.
 
 Some simple data types are:
 
