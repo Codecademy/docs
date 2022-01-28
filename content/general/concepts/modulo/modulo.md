@@ -26,7 +26,7 @@ Most programming languages use the `%` symbol to represent the modulo operation,
 
 ## Examples
 
-The following is an example of the modulo operator in Python:
+The following is an example of the modulo operator in [Python](https://www.codecademy.com/resources/docs/python):
 
 ```codebyte/py
 modulus = 14 % 5
