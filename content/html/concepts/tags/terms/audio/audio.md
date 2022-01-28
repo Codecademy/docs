@@ -27,7 +27,7 @@ HTML supports the following audio formats:
 
 The `<audio>` tag may contain one or more `<source>` tags with different audio formats. The browser will run the format most suitable for the browser.
 
-The `<audio>` tag may include `<source>` tags and fallback text. It may also use attributes to convey intention, some common ones are below:
+The `<audio>` tag may include `<source>` tags and fallback text. It may also use attributes to convey intention, such as the ones listed below:
 
 - Using `autoplay` automatically plays the audio.
 - Using `controls` has an overlay to allow the user to control the audio.
