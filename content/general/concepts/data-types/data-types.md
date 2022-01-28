@@ -28,7 +28,8 @@ Data types can be simple or complex. Simple data types are the most basic types 
 | undefined | Undefined represents a value that has not been defined. |
 
 
-Some complex data types are:
+## Common Complex Data Types
+
 
 | Data Type | Description |
 | --- | --- |
