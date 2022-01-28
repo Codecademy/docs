@@ -66,7 +66,7 @@ int main() {
 // X=0, Y=0, radius=5
 ```
 
-Like other functions, a constructor can be defined outside the class:
+Like member functions, once declared in the class, the constructor can be defined outside the class:
 
 ```cpp
 class Circle {
