@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arithmetic'
+  - 'Numbers'
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
