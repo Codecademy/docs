@@ -17,7 +17,7 @@ An abstract syntax tree (AST) is a language-agnostic, hierarchical representatio
 
 Tokenization is the process of breaking source code into its basic fundamental elements (tokens). The source code can be thought of as an array of such tokens. The AST is a graph of these tokens, specifically arranged to preserve the context of each element. For example, in some languages, `=` is both a comparison operator and an assignment operator. Simple tokenization will represent the symbol `=` but not communicate its function in the program. In an AST, the token's position in the tree and relation to other tokens is also represented. So, examining the tree indicates the difference between assigning `a` to `b`,`a = b`, on a line by itself and comparing `a` and `b` using an `if` conditional, `if a = b then ...`, even when `=` is the same token in both cases.
 
-Like pseudocode, there is no common format for representing an AST. The output for an AST will vary based on the language that is used and the tool that is used to create the AST. However, all ASTs will have the property of completly representing the source code in a reproducable manner.
+Like pseudocode, there are many ways to represent an AST. The output for an AST will vary based on the language and tool to create it. However, all ASTs should have the property of completely representing the source code in a reproducible manner.
 
 ## Uses of an AST
 
