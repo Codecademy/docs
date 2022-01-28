@@ -2,8 +2,8 @@
 Title: 'Modulo'
 Description: 'A modulo operation takes two arguments and returns the remainder of the first argument divided by the second.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Arithmetic'
 CatalogContent:
