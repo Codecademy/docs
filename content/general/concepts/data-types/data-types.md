@@ -44,4 +44,8 @@ Data types may vary from one programming language to another:
 - [C++ data types](https://www.codecademy.com/resources/docs/cpp/data-types)
 - [JavaScript data types](https://www.codecademy.com/resources/docs/javascript/data-types)
 - [Java data types](https://www.codecademy.com/resources/docs/java/data-types)
-
+- [Go data types](https://www.codecademy.com/resources/docs/go/data-types)
+- [Python data types](https://www.codecademy.com/resources/docs/python/data-types)
+- [R data types](https://www.codecademy.com/resources/docs/r/data-types)
+- [Ruby data types](https://www.codecademy.com/resources/docs/ruby/data-types)
+- [swift data types](https://www.codecademy.com/resources/docs/swift/data-types)
