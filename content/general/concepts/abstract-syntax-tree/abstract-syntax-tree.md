@@ -21,7 +21,7 @@ Like pseudocode, there are many ways to represent an AST. The output for an AST 
 
 ## Uses of an AST
 
-- ASTs are used by compilers to translate source code into equvelant binary forms.
-- ASTs can be used in code review to quickly identify functionally similar elements in large repositories, such as identifying vulnrabilities that may be repeated in many places.
-- ASTs can be used to quickly do things like chanage variable names with respect to the scope of the particular variable.
+- ASTs are used by compilers to translate source code into equivalent binary forms.
+- ASTs can be used in code review to quickly identify functionally similar elements in large repositories, such as identifying commonly occurring vulnerabilities in a program.
+- ASTs can be used for efficient refactoring like changing variable names with respect to the scope of the particular variable.
 - ASTs can be used to isolate a particular method and identify all sections of the code that refer to that particular method.
