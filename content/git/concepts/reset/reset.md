@@ -22,14 +22,6 @@ In the terminal, the `git reset` command generally follows this template:
 git reset <mode-option> <commit-reference>
 ```
 
-### Referencing Commits
-
-The `commit-reference` refers to a commit's unique hash, or save point, that was generated after creation. This hash is a long string that is a mix of characters and numbers that is usually represented by a shorter version: `05df67f9066c8ddd95c8d7bb2137acfb8b18e167` -> `05df67f`
-
-`git reset` can be used with either the commit hash or with the `HEAD` keyword, which refers to the commit being viewed on the currently checked-out branch.
-
-### Mode Options
-
 The `<mode-options>` refer to how far `reset` will go when rolling back changes to a previous commit, including:
 
 - Where the `HEAD` is pointing towards (usually done with just `git reset`).
@@ -42,9 +34,15 @@ More specifically, these options include:
 - `--mixed`: In addition to moving the `HEAD` pointer to an earlier commit, the staging area is cleared to reflect the changes made in that commit (this option runs by default).
 - `--hard`: This goes one step further and resets the working tree to reflect the previous commit reflected in the staging area and the `HEAD` pointer.
 
-## Example
-
 If, for example, an error was made in a text file, **example.txt**, and the changes were accidentally [added](https://www.codecademy.com/resources/docs/git/add) and [committed](codecademy.com/resources/docs/git/commit), `git reset` can be used to go back to the state before that commit was made.
+
+### Referencing Commits
+
+The `commit-reference` refers to a commit's unique hash, or save point, that was generated after creation. This hash is a long string that is a mix of characters and numbers that is usually represented by a shorter version: `05df67f9066c8ddd95c8d7bb2137acfb8b18e167` -> `05df67f`
+
+`git reset` can be used with either the commit hash or with the `HEAD` keyword, which refers to the commit being viewed on the currently checked-out branch.
+
+## Example
 
 This is what the terminal would look like after creating the new accidental commit on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
