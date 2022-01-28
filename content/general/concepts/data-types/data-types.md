@@ -21,11 +21,12 @@ Data types can be simple or complex. Simple data types are the most basic types 
 
 | Data Type | Description |
 | --- | --- |
-| `Number` | Numbers include `-1`, `0`, `1`, and so on. (Depending on the language decimals are a different data type.) |
-| `String` | Strings is just text. Either single quotes (`''`) or double quotes (`""`) can be used.  For example: `"Codecademy is awesome! 🖥️⌨️"` |
-| `Boolean` | Booleans are a `true` or `false` value. Ex: `codeingIsFun = true` |
-| `null` | `null` represents no value. |
-| `Undefined` | `Undefined` also represents no value. |
+| number | Numbers include `-1`, `0`, `1`, and so on. (Depending on the language, numbers with decimals are of a different type.) |
+| string | Strings are text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used.  For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| boolean | Booleans hold a true or false value. |
+| null | `null` or `nil` represents the absence of a value. |
+| undefined | Undefined represents a value that has not been defined. |
+
 
 Some complex data types are:
 
