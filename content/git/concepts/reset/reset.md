@@ -82,4 +82,4 @@ nothing added to commit but untracked files present (use "git add" to track)
 The text above indicates the following:
 
 - The `HEAD` pointer has been properly reset to before the accidental commit was created.
-- Additionally, staging area has been cleared set to before changes in **example.txt** were added for the commit.
+- Additionally, the staging area has been cleared set to before changes in **example.txt** were added for the commit.
