@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The term "open source" refers to softwares that are freely available for modification and possible redistribution. Open source projects allow the source code to be reused by anyone with the restriction that any derivative projects are released under the same license.
+The term "open source" refers to software that is freely available for modification and possible redistribution. Open source projects allow the source code to be reused by anyone with the restriction that any derivative projects are released under the same license.
 
 Such projects are intended to foster open collaboration from a variety of perspectives on problem-solving. The code is reviewed and updated by groups of developers of all sizes. One benefit of this is that it provides greater opportunity for bugs and security holes to be detected and handled effectively.
 
