@@ -12,9 +12,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Modulo is a mathematical operation available in every programming language along with more common ones like addition and multiplication. A modulo operation takes two arguments and returns the remainder of the first argument divided by the second. The result of the operation is called the modulus.
+Modulo is a mathematical operation that returns the remainder of a division of two arguments. It is available in every programming language.
 
-Most programming languages use the symbol `%` to represent the modulo operation, though some may use `mod` or other variations.
+## Syntax
+
+The remainder is what is left over after dividing the first argument, the dividend, by the second, the divisor or modulus:
+
+
+
+Most programming languages use the `%` symbol to represent the modulo operation, though some may use `mod` or other variations.
 
 ## Examples
 
