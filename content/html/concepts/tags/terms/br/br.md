@@ -16,7 +16,7 @@ Represents a break in text. This tag is used when text needs to span multiple li
 ## Syntax
 
 ```html
-Text that will appear on one line.<br />Text that will appear on the next line.
+Text that will appear on one line.<br>Text that will appear on the next line.
 ```
 
 The `<br>` tag will move the text after it to a new line.
@@ -31,8 +31,8 @@ Suppose there is an address that needs to be shown to the user so that they may 
   <body>
     <h3>Payment Address:</h3>
     <p>
-      5000 Sheffield Street <br />
-      Suite #210 <br />
+      5000 Sheffield Street <br>
+      Suite #210 <br>
       Smithville Flats, MO, 11110
     </p>
   </body>
