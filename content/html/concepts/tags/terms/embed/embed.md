@@ -36,7 +36,7 @@ The `<embed>`tag is self-closing and accepts at least four properties:
     <title>Learning about HTML</title>
   </head>
   <body>
-    <embed type="image/jpg" src="my_image.jpg" width="300" height="200" />
+    <embed type="image/jpg" src="my_image.jpg" width="300" height="200">
   </body>
 </html>
 ```
