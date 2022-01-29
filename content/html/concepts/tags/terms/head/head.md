@@ -36,7 +36,7 @@ The `<head>` tag is the perfect place to tell the document where these things li
     <title>My Home | Codecademy</title>
 
     <!-- This loads a stylesheet file called styles.css, and applies the rules to tags in the body -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
 
     <!-- This loads and executes a script from a file called app.js -->
     <script type="text/javascript" src="app.js"></script>
