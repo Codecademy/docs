@@ -1,6 +1,6 @@
 ---
 Title: 'Links'
-Description: 'The anchor element  is used to link to another page or to a certain part of the page if you use its id. And the  element defines a link between a document and an external resource.  links are visible to the end users, whereas  links are not. The  anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference attribute, href. The href determines the location the anchor element points to. html  Visit this site'
+Description: 'The anchor element `<a>` is used to link to another page or to a certain part of the page if you use its `id`. And the `<link>` element defines a link between a document and an external resource.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -37,7 +37,7 @@ The `href` determines the location the anchor element points to.
 ```html
 <!-- Creating an image link -->
 
-<a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
+<a href="http://www.codecademy.com"> <img src="logo.jpg">Click this image </a>
 ```
 
 ## Link Element
@@ -54,7 +54,7 @@ The two primary attributes are:
 <html lang="en">
   <head>
     <title>Links in HTML</title>
-    <link rel="stylesheet" href="some/outside/source.css" />
+    <link rel="stylesheet" href="some/outside/source.css">
   </head>
   <body>
     ...
