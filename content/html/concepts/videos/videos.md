@@ -1,6 +1,6 @@
 ---
 Title: 'Videos'
-Description: 'Embedding videos within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium. Unless videos are preloaded or set to automatically play, their impact on page speed should be minimal. However, attention should be paid to video file sizes to guarantee that the greatest numbers of users can stream them. Videos typically contain multiple items: the collection of images that is the video, the audio accompanying those images, and any number of subtitles or captions. Therefore there is a distinction between the format of the codec used to encode each of these individual items as well as the format of the container meant to package it all together. Container and codec support is browser dependent, with the latest generation of codecs attempting to provide even better video compression with less quality loss. MP4 is not only the most widely supported container format, but also supports the largest number of codecs, so it is the default option for containers. The situation for audio codecs is similar, with AAC being the default due to its good compression and wide spread use.'
+Description: 'Embedding videos within a site creates more lively and informative pages that are more attractive to visitors.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -35,7 +35,7 @@ Below is an example of how a video is commonly inserted into a page:
 
 ```html
 <video controls poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost.mp4" />
+  <source type="video/mp4" src="spooky_ghost.mp4">
 
   Sorry, your browser doesn't support this video. Click
   <a href="spooky_ghost.mp4">here</a> to download it instead.
@@ -53,8 +53,8 @@ Sources are written in preference order, so that the first source listed is play
 
 ```html
 <video controls poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost_av1.mp4" />
-  <source type="video/mp4" src="spooky_ghost_h264.mp4" />
+  <source type="video/mp4" src="spooky_ghost_av1.mp4">
+  <source type="video/mp4" src="spooky_ghost_h264.mp4">
 
   Sorry, your browser doesn't support this video. Click
   <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
@@ -79,20 +79,20 @@ Captions can be added as a child of the `<video>` element using the `<track>` ta
 
 ```html
 <video controls poster="spooky_ghost.jpg">
-  <source type="video/mp4" src="spooky_ghost_av1.mp4" />
-  <source type="video/mp4" src="spooky_ghost_h264.mp4" />
+  <source type="video/mp4" src="spooky_ghost_av1.mp4">
+  <source type="video/mp4" src="spooky_ghost_h264.mp4">
   <track
     kind="caption"
     label="English"
     srclang="en"
     src="spooky_ghost-en.vtt"
-  />
+  >
   <track
     kind="caption"
     label="Español"
     srclang="es"
     src="spooky_ghost-es.vtt"
-  />
+  >
 
   Sorry, your browser doesn't support this video. Click
   <a href="spooky_ghost_h264.mp4">here</a> to download it instead.
