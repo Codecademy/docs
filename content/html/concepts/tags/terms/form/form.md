@@ -40,10 +40,10 @@ Suppose that Codecademy needs a form for visitors to create a new account. Here 
     <!-- This form will send the email and password to https://codecademy.com/sign-up using a POST request -->
     <form action="https://codecademy.com/sign-up" method="POST">
       <label>Email Address</label>
-      <input name="user_email" type="email" />
+      <input name="user_email" type="email">
 
       <label>Password</label>
-      <input name="user_password" type="password" />
+      <input name="user_password" type="password">
 
       <!-- Clicking a button with type submit will submit the form it is inside of -->
       <button type="submit">Submit</button>
