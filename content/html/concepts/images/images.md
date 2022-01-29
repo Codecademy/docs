@@ -1,6 +1,6 @@
 ---
 Title: 'Images'
-Description: 'While many websites are primarily text, embedding images within a site allows for more lively pages that can be more attractive and informative to visitors. However, when serving images there are concerns of the impact to page loading speeds as well as to accessability, so knowledge on how images can be best served to users is critical for good development. As images make up most of the bandwidth for a standard webpage, and therefore can slow the speed of page loads, it is best to optimize the size of images as much as possible ahead of time. While there are a myriad of image formats available, only a few key formats are needed for most use cases: - JPEG: Best for minimizing image sizes at the cost of some graphical fidelity - PNG: Best for images where graphical fidelity is of the upmost importance - SVG: Best for vector images, such as simple symbols and shapes There are also new image formats such as AVIF and WebP that are attempting to replace JPEG. While their browser support may currently be limited, their reductions in file sizes are significant. Below is an example of how an image is commonly inserted into a page:'
+Description: 'While many websites are primarily text, embedding images within a site allows for more lively pages that can be more attractive and informative to visitors.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -28,19 +28,19 @@ There are also new image formats such as `AVIF` and `WebP` that are attempting t
 Below is an example of how an image is commonly inserted into a page:
 
 ```html
-<img src="logo.png" alt="Codecademy logo" />
+<img src="logo.png" alt="Codecademy logo">
 ```
 
 It is recommended to describe image dimensions using percents of the current screen size to best support both smaller mobile devices as well larger workstations. The below image would take up the top half of any screen, regardless of its size:
 
 ```html
-<img src="logo.png" alt="Codecademy logo" height="50%" width="100%" />
+<img src="logo.png" alt="Codecademy logo" height="50%" width="100%">
 ```
 
 However, this may lead to stretched images on wider screens, so setting a maximum width may be preferred:
 
 ```html
-<img src="logo.png" alt="Codecademy logo" height="50%" max-width="800px" />
+<img src="logo.png" alt="Codecademy logo" height="50%" max-width="800px">
 ```
 
 To only serve higher resolution images to certain devices with higher resolution screens, the `srcset` attribute can be used. `srcset` allows the browser to choose an image based on the given amount of pixels on the screen. For example, to serve users with ultra-wide screens a larger, high-resolution image of a logo, as well as provide support for standard desktop and mobile sizes, the following `<img>` element can be used:
@@ -50,16 +50,16 @@ To only serve higher resolution images to certain devices with higher resolution
   src="logo-mobile.png"
   srcset="logo-desktop.png 1000w, logo-ultra-wide-hires.png 2000w"
   alt="Codecademy logo"
-/>
+>
 ```
 
 Note that `srcset` is intended only to serve the same image at different resolutions. This is to save bandwidth by providing higher-quality images only to the devices that can support it. To serve different images for other uses, such as for artistic direction or to support cutting-edge filetypes such as AVIF and WebP, it is best to use the `<picture>` element. `<picture>` elements are a collection of `<source>` elements ordered in terms of preference with an `<img>` element as fallback. For example, to prefer to serve an `AVIF` image, that falls back to a `WebP` image if that is not supported, and finally resort to a `JPEG` image if neither of those are available, use the following `<picture>` element:
 
 ```html
 <picture>
-  <source srcset="logo.avif" type="image/avif" />
-  <source srcset="logo.webp" type="image/webp" />
-  <img src="logo.jpeg" alt="Codecademy logo" />
+  <source srcset="logo.avif" type="image/avif">
+  <source srcset="logo.webp" type="image/webp">
+  <img src="logo.jpeg" alt="Codecademy logo">
 </picture>
 ```
 
@@ -73,7 +73,7 @@ The semantic `<figure>` element serves a similar purpose to the alternate text a
 
 ```html
 <figure>
-  <img src="logo.png" alt="Codecademy logo" />
+  <img src="logo.png" alt="Codecademy logo">
   <figcaption>The Codecademy logo</figcaption>
 </figure>
 ```
