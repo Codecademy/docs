@@ -16,7 +16,7 @@ Represents an interface to provide metadata pertaining to the document. Metadata
 ## Syntax
 
 ```html
-<meta />
+<meta>
 ```
 
 `<meta>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
@@ -31,16 +31,16 @@ Represents an interface to provide metadata pertaining to the document. Metadata
 <html>
   <head>
     <!-- Sets the character set used to create this HTML file -->
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <!-- Details the author of the document -->
-    <meta name="author" content="Jasmine the Gorilla" />
+    <meta name="author" content="Jasmine the Gorilla">
     <!-- Provides a description used to improve discovery in search engines -->
     <meta
       name="description"
       content="A short fable about the origin of bananas, and the joy they provide."
-    />
+    >
     <!-- Sets the color scheme to dark if possible, but lets the browser know that light will render correctly, too -->
-    <meta name="color-scheme" content="dark light" />
+    <meta name="color-scheme" content="dark light">
   </head>
 
   <body></body>
