@@ -24,7 +24,7 @@ Attributes consist of a name and a value in the format `name="value"`:
 So for example, the `<img>` image element has a mandatory `src` attribute that contains the image file path/URL:
 
 ```html
-<img src="codecademy_logo.png" />
+<img src="codecademy_logo.png">
 ```
 
 - `src` is the attribute name.
@@ -35,7 +35,7 @@ HTML elements can have any number of attributes.
 The example below displays an image element with three attributes:
 
 ```html
-<img src="nyan_cat.gif" width="500" height="600" />
+<img src="nyan_cat.gif" width="500" height="600">
 ```
 
 These declare its source, width, and height.
