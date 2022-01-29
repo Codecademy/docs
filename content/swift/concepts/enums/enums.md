@@ -16,9 +16,9 @@ In Swift, an enumeration (enum) is a collection of set values that can be refere
 
 ## Syntax
 
-```swift
+```pseudo
 enum MyEnum {
-  // Enumeration cases
+  Enumeration cases go here
 }
 ```
 
@@ -50,10 +50,10 @@ enum Level {
 
 ### Raw Value
 
-Raw values can be added for each case if a raw type is defined after the `enum` name and trailing colon `:`.
+Raw values can be added for each case if a raw [type](https://www.codecademy.com/resources/docs/swift/data-types) is defined after the `enum` name and trailing colon `:`.
 
 ```swift
-enum Bishop : String {
+enum Bishop: String {
   case novice = "Beginner"
   case firstJob = "Magician"
   case secondJob = "Cleric"
@@ -103,7 +103,7 @@ An enumeration can be accessed with the dot `.` syntax.
 
 ```swift
 enum MageAdvancementTree: CaseIterable {
-  case novice = "Beginner", firstJob = "Magician", secondJob = "Cleric", thirdJob = "Priest", fourthJob = "Bishop"
+  case novice, firstJob, secondJob, thirdJob, fourthJob
 }
 
 var bishop = MageAdvancementTree.thirdJob
@@ -113,9 +113,11 @@ print(bishop)
 // Output: fourthJob
 ```
 
-When a variable is declared and set to an enumeration, it can be set to a different value with the shortened dot syntax shown above.
+When a variable is declared and set to an enumeration, it can be re-assigned to a different case value with the shortened dot syntax shown above.
 
 ### Switch Case
+
+A `switch` statement is another way to access values within an enumeration. In the example below, the `bishop` variable will be evaluated to match `case .fourthJob` because it was previously set to the `fourthJob` value. Access to the values in `enum MageAdvancementTree` is possible becase `bishop` is already set to it.
 
 ```swift
 switch bishop {
@@ -135,17 +137,20 @@ switch bishop {
 
 ### Iterative
 
+Notice that `MageAdvancementTree` is adopts the `CaseIterable` protocol which gives access to the `allCases` property. Using a `for...in` loop, each value within the enumeration can be accessed.
+
 ```swift
 for job in MageAdvancementTree.allCases {
   print(job.rawValue)
 }
-
-// Output:
-// Beginner
-// Magician
-// Cleric
-// Priest
-// Bishop
 ```
 
-The `CaseIterable` protocol allows `enum MageAdvancementTree` to call the `allCases` property. Then, the raw value for each case is printed.
+This would output the raw values in `MageAdvancementTree`:
+
+```
+Beginner
+Magician
+Cleric
+Priest
+Bishop
+```
