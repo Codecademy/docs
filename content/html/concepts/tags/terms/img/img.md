@@ -16,7 +16,7 @@ Used to add an image to the document. It can also be used inside an anchor tag t
 ## Syntax
 
 ```html
-<img src="image URL" alt="text used for accessibility" />
+<img src="image URL" alt="text used for accessibility">
 ```
 
 `<img>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
@@ -35,7 +35,7 @@ Below is an example of an image wrapped in an anchor tag which creates an image 
   <head> </head>
   <body>
     <a href="https://codecademy.com">
-      <img src="logo.png" alt="Codecademy Home Page" width="256" height="64" />
+      <img src="logo.png" alt="Codecademy Home Page" width="256" height="64">
     </a>
   </body>
 </html>
