@@ -11,25 +11,26 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Optionals are types that deal with scenarios involving the potential presence or absence of a value (nil).
+Optionals are types that deal with scenarios involving the potential presence or absence of a value (`nil`).
 
 ## Syntax
 
-In Swift, a non-optional variable can't be set to nil. Rather, the optional type must be defined using the added question mark `?`.
+In Swift, a non-optional variable should not be set to `nil`. Rather, the optional type must be defined using the added question mark `?`.
 
-Below, a variable `myInt` is declared and set to the optional `Int` type, `Int?`. It can either be equal to any integer or nil.
+There are two ways to use an optional. Below, a variable named `myVariable` is set to an optional `Type`, `Type?`. `Type` refered to a [Swift data type](https://www.codecademy.com/resources/docs/swift/data-types). It can either be equal to some value with the specified data type or `nil`.
 
-```swift
-var maybeInt: Int? = nil
+```pseudo
+var myVariable: Type?
+var myVariable: Optional<Type>
 ```
 
-**Note:** If `myInt` is not assigned the value of nil, it will default to nil.
+**Note:** If `myVariable` is not assigned a value of the specified data type, it will default to `nil`.
 
 ## Unwrapping Optionals
 
-Optional types can be unwrapped if it's certain that a value is present. Below are some ways this can be done.
+Optional types should unwrapped only if it's certain that a value is present. An [error](https://www.codecademy.com/resources/docs/general/error) will result if an optional without a value is unwrapped. Below are some ways this can be done.
 
-### Nil Coalescing
+### Nil-Coalescing
 
 The nil coalescing operator, `??`, checks the value on the left. If that value is nil, the default value on the right side is used.
 
@@ -37,13 +38,11 @@ The nil coalescing operator, `??`, checks the value on the left. If that value i
 var myInt = maybeInt ?? 27
 ```
 
-Since `maybeInt` is previously declared as nil, `myInt` will default to 27.
+**Note:** In the following code blocks, a mutable `var`-variable can be used in place of any constant `let`-variable.
 
-**Note:** In the following code blocks, a mutable variable `var` can be used in place of any constant variable `let`.
+### `if let`
 
-### `if` `let`
-
-`if` `let` is an optional binding control structure.
+`if let` is an optional binding control structure.
 
 ```swift
 var maybeString: String? = "maybeString"
@@ -59,9 +58,9 @@ if let myString = maybeString {
 
 `myString` is declared and conditionally bound to the `maybeString` optional. The value of `myString` can be accessed from inside the `if` statement and within `myString`'s outer scope.
 
-### `guard` `let`
+### `guard let`
 
-`guard` `let` is another optional binding control structure that can be used within a function.
+`guard let` is another optional binding control structure that can be used within a function.
 
 ```swift
 guard let myInt = maybeInt else {
@@ -71,7 +70,7 @@ guard let myInt = maybeInt else {
 
 If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherwise, the `else` block will run and hit the `return` statement.
 
-**Note:** The following ways to upwrap optionals is not recommended because it does not handle nil cases.
+**Note:** The following ways to upwrap optionals is not recommended because it does not handle `nil` cases.
 
 ### Forced Upwrapping
 
