@@ -71,7 +71,7 @@ Suppose the page needs a clickable logo:
 
 ```html
 <!-- This link will be an image -->
-<a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
+<a href="http://www.codecademy.com"> <img src="logo.jpg">Click this image </a>
 ```
 
 Anything that is inside the anchor tag will be treated as a link. In this case the Codecademy logo will take the user to the Codecademy home page.
