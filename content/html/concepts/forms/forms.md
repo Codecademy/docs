@@ -21,14 +21,14 @@ The HTML `<form>` element is used to collect and send information to an external
 ```html
 <form method="post" action="http://server1">
   Enter your name:
-  <input type="text" name="fname" />
-  <br />
+  <input type="text" name="fname">
+  <br>
 
   Enter your age:
-  <input type="text" name="age" />
-  <br />
+  <input type="text" name="age">
+  <br>
 
-  <input type="submit" value="Submit" />
+  <input type="submit" value="Submit">
 </form>
 ```
 
@@ -50,5 +50,5 @@ In HTML, input fields have an attribute called `required` which specifies that t
 The example code block shows an input field that is required. The attribute can be written as `required="true"` or simply `required`.
 
 ```html
-<input type="password" name="password" required />
+<input type="password" name="password" required>
 ```
