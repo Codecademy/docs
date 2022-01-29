@@ -16,7 +16,7 @@ Creates an interactive element, usually used within a form to allow user input. 
 ## Syntax
 
 ```html
-<input />
+<input>
 ```
 
 `<input>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
@@ -48,27 +48,27 @@ Creates an interactive element, usually used within a form to allow user input. 
     <form>
       <!-- This input type requires the user to enter a valid email address -->
       <label>Email Address</label>
-      <input type="email" />
+      <input type="email">
 
       <!-- This input hides the typed password with ****s -->
       <label>Password</label>
-      <input type="password" />
+      <input type="password">
 
       <!-- This input provides a checkbox -->
-      <input type="checkbox" /><label>Remember Me</label>
+      <input type="checkbox"><label>Remember Me</label>
 
       <!-- This input provides a radio button group -->
       <label>
-        <input type="radio" value="yes" name="contact_me" />
+        <input type="radio" value="yes" name="contact_me">
         Contact Me
       </label>
       <label>
-        <input type="radio" value="no" name="contact_me" />
+        <input type="radio" value="no" name="contact_me">
         Do Not Contact Me
       </label>
 
       <!-- This input will submit the form -->
-      <input type="submit" value="Create Account" />
+      <input type="submit" value="Create Account">
     </form>
   </body>
 </html>
