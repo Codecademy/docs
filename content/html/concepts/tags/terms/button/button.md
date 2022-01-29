@@ -48,10 +48,10 @@ Suppose there is a form that needs both a submit and reset button, and that the 
   <body>
     <form>
       <label>Your Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name">
       <!-- More form elements -->
       <button type="reset">Reset Form</button>
-      <button type="submit"><img src="submit.png" alt="Submit Form" /></button>
+      <button type="submit"><img src="submit.png" alt="Submit Form"></button>
     </form>
   </body>
 </html>
