@@ -18,7 +18,7 @@ Represents an interface for adding video content to the page.
 ```html
 <!-- Surrounding source tag -->
 <video>
-  <source src="filename.mp4" type="video/mp4" />
+  <source src="filename.mp4" type="video/mp4">
   <h3>Fallback text if video will not play</h3>
 </video>
 
@@ -43,7 +43,7 @@ The `<video>` tag may include `<source>` tags and fallback text. It may also use
   <head> </head>
   <body>
     <video controls height="480" poster="spooky_ghost.jpg">
-      <source type="video/webm" src="spooky_ghost.webm" />
+      <source type="video/webm" src="spooky_ghost.webm">
 
       Sorry you can't watch this video in your browser. Click
       <a href="spooky_ghost.webm">here</a> to download it, instead.
