@@ -32,7 +32,7 @@ HTML elements typically use the following syntax:
 - `Hello World!` is the content.
 - `</p>` is the closing tag.
 
-**Note:** Some HTML elements have no content, like the `<br>` element. These elements are called empty elements. Empty elements do not have a closing tag, so they are referred to as self-closing. Also, self-closing tags such as `<br>` can have a slash at the end like so: `<br />`.
+**Note:** Some HTML elements have no content, like the `<br>` element. These elements are called empty elements. Empty elements do not have a closing tag, so they are referred to as self-closing. Also, self-closing tags such as `<br>` can have a slash at the end like so: `<br />`. However, it is best practice not to use the trailing slash in those cases.
 
 ## Nested HTML Elements
 
