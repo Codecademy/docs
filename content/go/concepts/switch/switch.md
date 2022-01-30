@@ -91,9 +91,9 @@ Values are compared left-to-right and top-to-bottom. The first one to match the 
 i := 7
 switch i % 2 {
   case 0:
-     fmt.Printf("%d is even./n",i)
+     fmt.Printf("%d is even.\n",i)
   case 1:
-     fmt.Printf("%d is odd./n",i)
+     fmt.Printf("%d is odd.\n",i)
 }
 ```
 
