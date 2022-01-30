@@ -65,7 +65,7 @@ git reset HEAD~1
 git reset --mixed HEAD~1
 ```
 
-If `git status` is run once more, the following should appear on the terminal:
+If `git status` is run once more, this should appear on the terminal:
 
 ```
 On branch main
