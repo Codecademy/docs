@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-A `switch` statement allows the selective execution of one out of of several blocks of code based on the value of an expression. It can be thought of as a expanded `if ... then ... else` statement, with many potential `then` clauses.
+A `switch` statement allows the selective execution of one out of several blocks of code based on the value of an expression. It can be thought of as a expanded `if ... then ... else` statement, with many potential `then` clauses.
 
 ## Syntax 1
 
@@ -59,9 +59,9 @@ switch {
 }
 ```
 
-In this example the first expression that evaluates true will execute the corrisponding `case` `<staements>` block. Again, `default` is optional, and will execute its `<statements` block if none of the `case` statements are executed.
+In this example the first expression that evaluates true will execute the corresponding `case` `<statements>` block. Again, `default` is optional, and will execute its `<statements>` block if none of the `case` statements are executed.
 
-This is equevlenet to:
+This is equivalent to:
 
 ```pseudo
 switch true { ... }
