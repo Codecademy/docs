@@ -1,1 +1,1 @@
-content/javascript/concepts/arrow-functions/arrow-functions.md
+content/css/concepts/grids/grids.md
