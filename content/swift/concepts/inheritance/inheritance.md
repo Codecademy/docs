@@ -68,7 +68,7 @@ print(wrangler.topSpeed)
 
 wrangler.currentNumberOfMiles = 300
 print(wrangler.currentNumberOfMiles)
-//prints 300
+// Output: 300
 ```
 
 ## Override
