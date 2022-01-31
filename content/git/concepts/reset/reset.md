@@ -46,7 +46,7 @@ The `commit-reference` refers to a commit's unique hash, or save point, that was
 
 This is what the terminal would look like after creating the new accidental commit on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
-```
+```shell
 On branch main
 Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
@@ -58,26 +58,26 @@ The text above indicates the following:
 - There is nothing to commit in the staging area.
 - New changes haven't been made yet in the working tree.
 
-To reset the `HEAD` pointer and the staging area back by 1 commit, one of the following commands can be run:
+To move the `HEAD` pointer behind `origin/main` by 1 commit, one of the following commands can be run:
 
-```git
+```shell
 git reset HEAD~1
 git reset --mixed HEAD~1
 ```
 
 If `git status` is run once more, this should appear on the terminal:
 
-```
+```shell
 On branch main
-Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        example.txt
-nothing added to commit but untracked files present (use "git add" to track)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 The text above indicates the following:
 
 - The `HEAD` pointer has been properly reset to before the accidental commit was created.
-- Additionally, the staging area has been cleared set to before changes in **example.txt** were added for the commit.
+- Additionally, the staging area is cleared and set to before changes in **example.txt** were added for the commit.
