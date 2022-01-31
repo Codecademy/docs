@@ -32,7 +32,7 @@ Optional types should unwrapped only if it's certain that a value is present. An
 
 ### Nil-Coalescing
 
-The nil coalescing operator, `??`, checks the value on the left. If that value is nil, the default value on the right side is used.
+The nil-coalescing operator, ??, assigns a value by checking from left to right. If the preceding Optional values are nil, the default value on the right is assigned. In the example below, since maybeInt was previously declared as nil, myInt will default to 27:
 
 ```swift
 var myInt = maybeInt ?? 27
