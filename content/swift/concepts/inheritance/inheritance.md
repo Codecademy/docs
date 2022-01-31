@@ -119,7 +119,7 @@ Overriding can be prevented by using the `final` keyword when declaring the meth
 ```swift
 class Car {
   var topSpeed = 200
-    final func drive() { //declaring drive() final
+    final func drive() { // Declaring final for drive()
       print("Driving")
     }
 }
