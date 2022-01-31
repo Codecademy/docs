@@ -33,7 +33,7 @@ The subclass will inherit all the properties and methods from the superclass and
 
 ## Example
 
-The following is a class named `Car` with one variable,`topSpeed`, which is equal to 200 and a function named `drive()`:
+The following  example is a class named `Car` with one variable, `topSpeed` that is equal to 200, and a function named `drive()` that prints a string:
 
 ```swift
 class Car {
