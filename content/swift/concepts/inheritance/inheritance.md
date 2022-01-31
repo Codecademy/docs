@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'Inheritance allows for reusing of code by sharing features between classes.'
+Description: 'Inheritance allows code reusability by sharing features between classes.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
