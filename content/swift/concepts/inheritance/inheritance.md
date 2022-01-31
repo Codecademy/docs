@@ -108,8 +108,6 @@ When `.drive()` is called on an instance of the class, both the superclass and o
 
 ```swift
 modelY.drive()
-// "Driving"
-// "Driving very quietly"
 ```
 
 ### Prevent Overriding
