@@ -40,8 +40,8 @@ The `<audio>` tag may include `<source>` tags and fallback text. It may also use
 
 ```html
 <audio controls>
-  <source src="audioFile_name.ogg" type="audio/ogg"/>
-  <source src="audioFile_name.mp3" type="audio/mpeg"/>
+  <source src="audioFile_name.ogg" type="audio/ogg" />
+  <source src="audioFile_name.mp3" type="audio/mpeg" />
   <h3>Fallback text if audio will not play</h3>
 </audio>
 ```
