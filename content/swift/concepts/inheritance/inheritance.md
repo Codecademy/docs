@@ -13,7 +13,7 @@ CatalogContent:
 
 Inheritance allows for the transferring of properties, methods, and other characteristics between classes. This is a feature that differentiates Swift classes from other types.
 
-The class that inherits features is known as the child class or subclass. The class that the subclass inherited from is known as the parent class or superclass.
+A class that inherits features is known as the child class or subclass. The class that the subclass inherited from is known as the parent class or superclass.
 
 ## Syntax
 
