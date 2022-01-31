@@ -32,7 +32,7 @@ Data types can be simple or complex. Simple data types are the most basic types 
 | --- | --- |
 | Arrays | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
 | Objects | Objects are groups of related data. |
-| Classes | Classes are templates for objects |
+| Classes | Classes are templates for objects. |
 
 ## Data Types Vary
 
