@@ -68,9 +68,9 @@ git reset --mixed HEAD~1
 
 Since the `--mixed` mode runs by default, both of the commands are identical in function. This will do the following:
 
-* It will move the `HEAD` pointer back by one (`~1`) commit.
-* The staging area will be cleared of changes.
-* The overall state of the `main` branch is set to before changes in **example.txt** were added for the commit. 
+- It will move the `HEAD` pointer back by one (`~1`) commit.
+- The staging area will be cleared of changes.
+- The overall state of the `main` branch is set to before changes in **example.txt** were added for the commit.
 
 If `git status` is run once more, this should appear on the terminal:
 
