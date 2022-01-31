@@ -25,7 +25,7 @@ class SuperClass {
 }
 
 class SubClass: SuperClass {
-  //subclass definition goes here
+  // Subclass definition goes here
 }
 ```
 
