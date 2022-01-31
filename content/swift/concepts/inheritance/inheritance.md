@@ -125,7 +125,7 @@ class Car {
 }
 
 class Tesla: Car {
-  override func drive() { //ERROR: Instance method overrides a 'final' instance method
+  override func drive() { // ERROR: Instance method overrides a 'final' instance method
     super.drive()
     print("Driving very quietly")
   }
