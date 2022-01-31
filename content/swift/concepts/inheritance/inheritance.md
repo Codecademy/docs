@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Inheritance allows properties, methods, and other characteristics to be transferred between classes. This is a feature that differentiates Swift classes from other types.
+Inheritance allows properties, methods, and other characteristics to be transferred between classes. This is a feature that differentiates Swift classes from other [types](https://www.codecademy.com/resources/docs/swift/data-types).
 
 A class that inherits features is known as the child class or subclass. The class that the subclass inherited from is known as the parent class or superclass.
 
@@ -111,6 +111,11 @@ modelY.drive()
 ```
 
 This will output:
+
+```swift
+Driving
+Driving very quietly
+```
 
 ### Prevent Overriding
 
