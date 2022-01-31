@@ -73,7 +73,7 @@ print(wrangler.currentNumberOfMiles)
 
 ## Override
 
-A method of a superclass can be overrided within the subclass by using the `override` keyword. The following example creates a new subclass of `Car` called `Tesla` and uses the override keyword on the `drive()` function:
+A method of a superclass can be overridden within the subclass by using the `override` keyword. The following example creates a new subclass of `Car` called `Tesla` and uses the `override` keyword on the `drive()` function:
 
 ```swift
 class Tesla: Car {
