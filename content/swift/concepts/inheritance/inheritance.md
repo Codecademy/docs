@@ -132,4 +132,4 @@ class Tesla: Car {
 }
 ```
 
-When the method is declared `final`, it can no longer be overriden. Any attempt to ovveride a method declared `final` will result in an error.
+When the method is declared `final`, any attempt to override a method declared `final` will result in an error.
