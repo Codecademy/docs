@@ -21,7 +21,7 @@ A class can inherit from another class with the following syntax:
 
 ```swift
 class SuperClass {
-  //superclass definition goes here
+  // Superclass definition goes here
 }
 
 class SubClass: SuperClass {
