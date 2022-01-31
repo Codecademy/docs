@@ -88,7 +88,7 @@ When an instance of `Tesla` is created and the `func` method is called on it, th
 ```swift
 let modelY = Tesla()
 modelY.drive()
-// prints "Driving very quietly"
+// Output: Driving very quietly
 ```
 
 ### Accessing Superclass Method After Override
