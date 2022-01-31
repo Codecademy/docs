@@ -110,6 +110,8 @@ When `.drive()` is called on an instance of the class, both the superclass and o
 modelY.drive()
 ```
 
+This will output:
+
 ### Prevent Overriding
 
 Overriding can be prevented by using the `final` keyword when declaring the method in the superclass. An example of this is shown below using the previous example:
