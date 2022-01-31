@@ -64,7 +64,7 @@ Properties can be accessed or changed like this:
 ```swift
 wrangler.topSpeed = 100
 print(wrangler.topSpeed)
-//prints 100
+// Output: 100
 
 wrangler.currentNumberOfMiles = 300
 print(wrangler.currentNumberOfMiles)
