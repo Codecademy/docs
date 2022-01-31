@@ -48,7 +48,7 @@ A second class can inherit from the `Car` class as shown below:
 
 ```swift
 class Jeep: Car {
-  //creating new property
+  // Creating new property
   var currentNumberOfMiles = 0
 }
 ```
