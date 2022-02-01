@@ -29,6 +29,7 @@ Data types can be simple or complex. Simple data types are the most basic types 
 
 ## Common Complex Data Types
 
+<!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
 | Arrays | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
