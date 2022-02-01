@@ -44,9 +44,9 @@ Inline style syntax (this only affects this single `<p>` element):
 
 There are several parts to the CSS in the above two examples. 
 
-![Ruleset Anatomy](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-anatomy-1.png)
+![Ruleset Anatomy](https://raw.githubusercontent.com/SSwiniarski/docs/css-anatomy/media/css-anatomy-1.png)
 
-![Inline Style Anatomy](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-anatomy-2.png)
+![Inline Style Anatomy](https://raw.githubusercontent.com/SSwiniarski/docs/css-anatomy/media/css-anatomy-2.png)
 
 In the ruleset example, the initial `p` is known as a selector. In its simplest form, the selector can just be the element tag it applies to, i.e. `img`, `div`, `span`, `p`, though the selector can be much more specific about the elements it targets. 
 
