@@ -18,6 +18,7 @@ Data types can be simple or complex. Simple data types are the most basic types 
 
 ## Common Simple Data Types
 
+<!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
 | Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
