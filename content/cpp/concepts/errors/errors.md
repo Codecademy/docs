@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'Errors makes it easier to locate and correct problems within the source code.'
+Description: 'Errors make it easier to locate and correct problems within the source code.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
