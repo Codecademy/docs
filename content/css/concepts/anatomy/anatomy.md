@@ -37,7 +37,7 @@ p {
 Inline style syntax (this only affects this single `<p>` element):
 
 ```html
-<p style="color:blue;">Hello World"</p>
+<p style='color:blue;'>Hello World!</p>
 ```
 
 ## Anatomy
