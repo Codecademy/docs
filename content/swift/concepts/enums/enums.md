@@ -104,7 +104,7 @@ When a variable is declared and set to an enumeration, it can be re-assigned to 
 
 ### Switch Case
 
-A `switch` statement is another way to access values within an enumeration. In the example below, the `bishop` variable will be evaluated to match `case .fourthJob` because it was previously set to the `fourthJob` value. Access to the values in `enum MageAdvancementTree` is possible becase `bishop` is already set to it.
+A `switch` statement is another way to access values within an enumeration. In the example below, the `bishop` variable will be evaluated to match `case .fourthJob` because it was previously set to the `fourthJob` value. Access to the values in `enum MageAdvancementTree` is possible because `bishop` is already set to it.
 
 ```swift
 switch bishop {
