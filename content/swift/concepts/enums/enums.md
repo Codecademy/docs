@@ -84,25 +84,12 @@ print(bishop)
 
 An `enum` named `MageAdvancementTree` is created and most of its cases have associated values. Then, a `bishop` variable is declared as a `MageAdvancementTree` and sets the `mage` to a string, `"Priest"`.
 
-### `CaseIterable`
-
-By conforming to the [`CaseIterable`](https://developer.apple.com/documentation/swift/caseiterable) protocol, certain properties like `allCases` can be accessed:
-
-```swift
-enum MageAdvancementTree: CaseIterable {
-  case novice, firstJob, secondJob, thirdJob, fourthJob
-}
-
-print("You will have \(MageAdvancementTree.allCases.count) different jobs as a Mage.")
-// Output: You will have 5 different jobs as a Mage.
-```
-
 ## Accessing an `enum` and Examples
 
 An enumeration can be accessed with the dot `.` syntax.
 
 ```swift
-enum MageAdvancementTree: CaseIterable {
+enum MageAdvancementTree {
   case novice, firstJob, secondJob, thirdJob, fourthJob
 }
 
@@ -137,9 +124,13 @@ switch bishop {
 
 ### Iterative
 
-Notice that `MageAdvancementTree` is adopts the `CaseIterable` protocol which gives access to the `allCases` property. Using a `for...in` loop, each value within the enumeration can be accessed.
+Notice that `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codecademy.com/resources/docs/swift/protocols) protocol which gives access to the `allCases` property. Using a `for...in` loop, each value within the enumeration can be accessed.
 
 ```swift
+enum MageAdvancementTree: CaseIterable {
+  case novice, firstJob, secondJob, thirdJob, fourthJob
+}
+
 for job in MageAdvancementTree.allCases {
   print(job.rawValue)
 }
