@@ -28,7 +28,7 @@ var myVariable: Optional<Type>
 
 ## Unwrapping Optionals
 
-Optional types should unwrapped only if it's certain that a value is present. An [error](https://www.codecademy.com/resources/docs/general/error) will result if an optional without a value is unwrapped. Below are some ways this can be done.
+Optional types should be unwrapped only if it's certain that a value is present. An [error](https://www.codecademy.com/resources/docs/general/error) will result if an optional without a value is unwrapped. Below are some ways this can be done.
 
 ### Nil-Coalescing
 
