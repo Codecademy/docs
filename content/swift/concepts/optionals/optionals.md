@@ -17,7 +17,7 @@ Optionals are types that deal with scenarios involving the potential presence or
 
 In Swift, a non-optional variable should not be set to `nil`. Rather, the optional type must be defined using the added question mark `?`.
 
-There are two ways to use an optional. Below, a variable named `myVariable` is set to an optional `Type`, `Type?`. `Type` refered to a [Swift data type](https://www.codecademy.com/resources/docs/swift/data-types). It can either be equal to some value with the specified data type or `nil`.
+There are two ways to use an optional. Below, a variable named `myVariable` is set to an optional `Type`, `Type?`. `Type` referred to a [Swift data type](https://www.codecademy.com/resources/docs/swift/data-types). It can either be equal to some value with the specified data type or `nil`.
 
 ```pseudo
 var myVariable: Type?
