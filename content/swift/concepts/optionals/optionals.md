@@ -38,7 +38,7 @@ The nil-coalescing operator, `??`, assigns a value by checking from left to righ
 var myInt = maybeInt ?? 27
 ```
 
-**Note:** In the following code blocks, a mutable `var`-variable can be used in place of any constant `let`-variable.
+**Note:** In the following code blocks, a mutable `var` variable can be used in place of any constant `let` variable.
 
 ### `if let`
 
