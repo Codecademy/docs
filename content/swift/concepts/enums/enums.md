@@ -128,7 +128,11 @@ Notice that `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codeca
 
 ```swift
 enum MageAdvancementTree: CaseIterable {
-  case novice, firstJob, secondJob, thirdJob, fourthJob
+  case novice = "Beginner"
+  case firstJob = "Magician"
+  case secondJob = "Cleric"
+  case thirdJob = "Priest"
+  case fourthJob = "Bishop"
 }
 
 for job in MageAdvancementTree.allCases {
