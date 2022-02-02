@@ -1,6 +1,6 @@
 ---
 Title: 'Anatomy'
-Description: ''
+Description: 'There are two syntaxes used to apply CSS to a web-page. The first is as a _ruleset_, the second is as an _inline style_. A ruleset is defined within a block inside an HTML document, or in a separate file (called a stylesheet), and an inline style is applied as an attribute of the element the style is being applied to.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
