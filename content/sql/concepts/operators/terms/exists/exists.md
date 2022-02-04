@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-`EXISTS` tests a subquery and returns `TRUE` if there are any records in it.
+`EXISTS` tests a subquery and returns `TRUE` if there are any current records.
 
 ## Syntax
 
