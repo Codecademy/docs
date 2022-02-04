@@ -59,7 +59,7 @@ switch {
 }
 ```
 
-In this example the first expression that evaluates true will execute the corresponding `case` `<statements>` block. Again, `default` is optional, and will execute its `<statements>` block if none of the `case` statements are executed.
+In this example, the first expression that evaluates true will execute the corresponding `case` `<statements>` block. Again, `default` is optional, and will execute its `<statements>` block if none of the `case` statements are executed.
 
 This is equivalent to:
 
