@@ -1,6 +1,6 @@
 ---
 Title: 'Switch'
-Description: 'A switch statement allows the selective execution of one out of several blocks of code based on the value of an expression.'
+Description: 'A switch statement allows the selective execution of one of several blocks of code based on the value of an expression.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
