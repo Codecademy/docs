@@ -21,7 +21,7 @@ CatalogContent:
 
 ## Syntax
 
-```sql
+```pseudo
 SELECT column1, column2, ...
 FROM table_one
 WHERE EXISTS (SELECT column1 FROM table_two WHERE condition);
