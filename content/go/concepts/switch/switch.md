@@ -100,7 +100,8 @@ switch i % 2 {
 ```
 
 ```go
-switch time.Now().Weekday() {
+func main() {
+  switch time.Now().Weekday() {
   case time.Saturday, time.Sunday:
     fmt.Println("It's the weekend")
   case time.Friday:
