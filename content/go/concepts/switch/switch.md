@@ -83,7 +83,7 @@ default:
 }
 ```
 
-Values are compared left-to-right and top-to-bottom. The first one to match the `switch` expression determines the `case` `<statements>` block to be executed.
+Values are compared left-to-right and top-to-bottom. The first `case` block to match the `switch` expression will be executed.
 
 ## Examples
 
