@@ -95,6 +95,8 @@ switch i % 2 {
   case 1:
      fmt.Printf("%d is odd.\n",i)
 }
+
+// Output: 7 is odd.
 ```
 
 ```go
