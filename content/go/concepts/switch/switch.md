@@ -33,19 +33,6 @@ case <value N>:
 default:
   <statements>
 }
-switch <expression> {
-  case <value 1>:
-    <statements>
-  case <value 2>:
-    <statements>
-   .
-   .
-   .
- case <value N>:
-   <statements>
-default:
-  <statements>
-}
 ```
 
 When `<expression>` is equal to the value of one of the `case` statements, the corresponding `<statements>` block is executed. If the `<expression>` matches none of the `case` values, then the optional `default` `<statements>` block is executed.
@@ -58,17 +45,17 @@ The expression can be omitted after the `switch` and the `switch` behaves more l
 
 ```pseudo
 switch {
-  case <expression 1>:
-    <statements>
-  case <expression 2>:
-    <statements>
+case <expression 1>:
+  <statements>
+case <expression 2>:
+  <statements>
     .
     .
     .
-  case <expression N>
-    <statements>
-  default:
-    <statements>
+case <expression N>
+  <statements>
+default:
+  <statements>
 }
 ```
 
@@ -86,8 +73,8 @@ A given `case` statement can have more than one matching value, separated by com
 
 ```pseudo
 switch <expression> {
-  case <value 1>, <value 2>, ... <value N>:
-    <statements>
+case <value 1>, <value 2>, ... <value N>:
+  <statements>
     .
     .
     .
@@ -103,10 +90,10 @@ Values are compared left-to-right and top-to-bottom. The first `case` block to m
 ```go
 i := 7
 switch i % 2 {
-  case 0:
-     fmt.Printf("%d is even.\n",i)
-  case 1:
-     fmt.Printf("%d is odd.\n",i)
+case 0:
+   fmt.Printf("%d is even.\n",i)
+case 1:
+   fmt.Printf("%d is odd.\n",i)
 }
 
 // Output: 7 is odd.
