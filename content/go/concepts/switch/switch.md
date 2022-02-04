@@ -99,7 +99,13 @@ switch i % 2 {
 // Output: 7 is odd.
 ```
 
-```go
+```codebyte/go
+package main
+
+import (
+  "fmt"
+  "time"
+)
 func main() {
   switch time.Now().Weekday() {
   case time.Saturday, time.Sunday:
