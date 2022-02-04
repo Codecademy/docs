@@ -1,6 +1,6 @@
 ---
 Title: 'endswith()'
-Description: 'Checks whether the given character is found at the last position of the given string'
+Description: 'Checks whether or not a string ends with the given character or string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,13 +14,12 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `endswith()` function, takes in a character and checks if the given character is found at the last position
-of the string and returns the result as a boolean value.
+The `endswith()` function in Python, takes in a string or character and checks whether or not the given string variable ends with it and the result is returned as a boolean value.
 
 ## Syntax
 
 ```py
-stringvariable.endswith("character")
+stringvariable.endswith("string")
 ```
 
 ## Example 1
@@ -38,6 +37,38 @@ print(check)
 ```py
 example= "This is a string"
 check = example.endswith("s")
+print(check)
+
+# Output: False
+```
+
+## Example 3
+
+```py
+example= "This is a string"
+check = example.endswith("ring")
+print(check)
+
+# Output: True
+```
+
+## Example 4
+
+```py
+example= "This is a string"
+check = example.endswith("st")
+print(check)
+
+# Output: False
+```
+
+**Note:** The `endswith()` function is case-sensitive and is demonstrated by the example given below.
+
+## Example 5
+
+```py
+example= "This is a string"
+check = example.endswith("G")
 print(check)
 
 # Output: False
