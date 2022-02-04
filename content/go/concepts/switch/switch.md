@@ -108,5 +108,6 @@ func main() {
     fmt.Println("T.G.I.F.")
   default:
     fmt.Println("It's a weekday")
+  }
 }
 ```
