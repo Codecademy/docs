@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-A `switch` statement allows the selective execution of one out of several blocks of code based on the value of an expression. It can be thought of as a expanded `if ... then ... else` statement, with many potential `then` clauses.
+A `switch` statement allows the selective execution of one of several blocks of code based on the value of an expression. It can be thought of as an expanded `if ... then ... else` statement, with many potential `then` clauses.
 
 ## Syntax 1
 
