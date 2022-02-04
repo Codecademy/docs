@@ -1,5 +1,5 @@
 ---
-Title: EXISTS
+Title: 'EXISTS'
 Description: 'EXISTS tests a subquery and returns TRUE if there are any current records.'
 Subjects:
   - 'Data Science'
