@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-web-apps-with-asp-net'
 ---
 
-Data is the foundation of all programs. In programming, data is classified into different types to let the compiler know how the data can be used.
+Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler.
 
 Data types can be simple or complex. Simple data types are the most basic types and usually hold a single value. A complex data type can be composed of multiple data types and often group multiple values.
 
