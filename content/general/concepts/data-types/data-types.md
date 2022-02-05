@@ -14,20 +14,18 @@ CatalogContent:
 
 Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler.
 
-Data types can be simple or complex. Simple data types are the most basic types and usually hold a single value. A complex data type can be composed of multiple data types and often group multiple values.
+Data types can be primitive, composite or unique. Primitive data types are the most Primitive types and usually hold a single value. A composite data type can be composed of multiple data types and often group multiple values. A unique data type does not store a value(s) in the sense other types do.
 
-## Common Simple Data Types
+## Common Primitive Data Types
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
 | Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
 | String | Strings are text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
-| Boolean | Booleans hold a true or false value. |
-| Null | `null` or `nil` represents the absence of a value. |
-| Undefined | Undefined represents a value that has not yet been defined. |
+| Boolean | Booleans hold a `true` or `false` value. |
 
-## Common Complex Data Types
+## Common Composite Data Types
 
 <!-- prettier-ignore -->
 | Data Type | Description |
@@ -35,6 +33,15 @@ Data types can be simple or complex. Simple data types are the most basic types 
 | Arrays | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
 | Objects | Objects are groups of related data. |
 | Classes | Classes are templates for objects. |
+
+## Common Unique Data Types
+
+<!-- prettier-ignore -->
+| Data Type | Description |
+| --- | --- |
+| Null | `null` or `nil` represents the absence of a value. |
+| Undefined | Undefined represents a value that has not yet been defined. |
+| Function | A function has code that is not immediately executed once the code is ran. It exucutes when the function is called. |
 
 ## Data Types in Different Languages
 
