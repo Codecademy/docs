@@ -36,7 +36,7 @@ Data types can be simple or complex. Simple data types are the most basic types 
 | Objects | Objects are groups of related data. |
 | Classes | Classes are templates for objects. |
 
-## Data Types Vary
+## Data Types in Different Languages
 
 Data types may vary from one programming language to another:
 
