@@ -38,7 +38,7 @@ Data types can be simple or complex. Simple data types are the most basic types 
 
 ## Data Types in Different Languages
 
-Data types may vary from one programming language to another:
+The way that data types look and work may vary from one programming language to another:
 
 - [C++ data types](https://www.codecademy.com/resources/docs/cpp/data-types)
 - [Go data types](https://www.codecademy.com/resources/docs/go/data-types)
