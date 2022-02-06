@@ -5,7 +5,10 @@ Subjects:
   - 'iOS'
   - 'Mobile Development'
 Tags:
-  - 'Closures'
+  - 'Inheritance'
+  - 'Classes'
+  - 'Objects'
+  - 'OOP'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
