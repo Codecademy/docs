@@ -1,6 +1,6 @@
 ---
 Title: 'Pull'
-Description: 'In Git, pulling is the process of moving code from one repository to another one. Often this is used to move code from a remote machine to a local one, or retrieving code from a repository hosting service like GitHub. Pulling a repository allows a programmer to access code from a remote backup and make it available on their local machine. It is also used when collaborating with people to keep the local code up to date with the teams current version. The basic syntax for pulling in Git is this: shell git pull    This will move the code from  currently in branch , and move it to your local computer under branch .'
+Description: 'In Git, pulling is the process of moving code from one repository to another one. Often this is used to move code from a remote machine to a local one, or retrieving code from a repository hosting service like GitHub. Pulling a repository allows a programmer to access code from a remote backup and make it available on their local machine. It is also used when collaborating with people to keep the local code up to date with the teams current version. The basic syntax for pulling in Git is this: shell git pull    This will move the code from  currently in branch , and move it to your local computer on the branch you currently have checked out.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -24,7 +24,7 @@ The basic syntax for pulling in Git is this:
 git pull <remote-name> <branch-name>
 ```
 
-This will move the code from `<remote-name>` currently in branch `<branch-name>`, and move it to your local computer under branch `<branch-name>`.
+This will move the code from `<remote-name>` currently in branch `<branch-name>`, and move it to your local computer on the branch you currently have checked out.
 
 ## How to Pull
 
@@ -41,19 +41,19 @@ Prerequisites to pulling from a remote repository include:
   nothing to commit, working tree clean
   ```
 
-- Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
+- Having a valid remote repository set, in this case there is remote repository called `origin`:
 
   ```shell
   $ git remote -v
 
-  companyname-dev    https://github.com/CompanyName/product-dev.git (fetch)
-  companyname-dev    https://github.com/CompanyName/product-dev.git (push)
+  origin    https://github.com/CompanyName/product-dev.git (fetch)
+  origin    https://github.com/CompanyName/product-dev.git (push)
   ```
 
 At this stage, pulling is as simple as using the basic syntax with the correct remote and branch names:
 
 ```shell
-git pull companyname-dev new-feature-branch
+git pull origin new-feature-branch
 ```
 
 When the pull completes, it will display a message like this:

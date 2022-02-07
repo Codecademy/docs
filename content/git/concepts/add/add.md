@@ -53,5 +53,5 @@ There are many extentions to the `git add` command such as:
 
 1. `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
 2. `-f`: Which stages all files including those which are ignored.
-3. `.a`: Which stages all the files in the current directory.
+3. `.` : Which stages all the files in the current directory. If you are familiar with the command line, you will recognize the use of `.` to reference the directory you are currently in.
 4. `-A`: Which stages all the files in the current directory as well as subdirectories.

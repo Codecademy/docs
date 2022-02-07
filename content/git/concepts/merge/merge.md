@@ -1,6 +1,6 @@
 ---
 Title: 'Merge'
-Description: 'In Git, what if you wanted to include all the changes you made to a branch onto the main branch? Merge a pull request into the main branch when work is completed. Anyone with push access to the repository can complete the merge. To merge a branch into the main branch: shell git merge branchname  For example, if we want to merge our featuretest branch to the main branch: shell'
+Description: 'In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. If you are working with a remote repository, you will need to open a Pull Request in order to do this. Anyone with push access to the repository can complete the merge.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,23 +12,27 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, what if you wanted to include all the changes you made to a branch onto the `main` branch? Merge a pull request into the `main` branch when work is completed. Anyone with push access to the repository can complete the merge.
+In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. If you are working with a remote repository, you will need to open a Pull Request in order to do this. Anyone with push access to the repository can complete the merge.
 
 ## Git Command
 
-To merge a branch into the `main` branch:
+To merge a branch into your local `main` branch:
 
 ```shell
+git checkout main     # make sure you are on the main branch 
 git merge branch_name
 ```
 
 For example, if we want to merge our `feature_test` branch to the `main` branch:
 
 ```shell
+git checkout main
 git merge feature_test
 ```
 
 ## Merging a Pull Request on GitHub
+
+> _For information on how to open a Pull Request, see the [Pull Requests](https://www.codecademy.com/resources/docs/git/pull-requests) section._
 
 1. On the GitHub repository page, click the "Pull requests" tab at the top.
 

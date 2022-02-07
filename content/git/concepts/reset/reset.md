@@ -32,7 +32,7 @@ The `<mode-options>` refer to how far `reset` will go when rolling back changes 
 
 More specifically, these modes include:
 
-- `--soft`: This rolls back to an earlier commit by moving the `HEAD` pointer towards it but leaving the staging area and working tree untouched, allowing for new commits to be made (this runs by default).
+- `--soft`: This rolls back to an earlier commit by moving the `HEAD` pointer towards it but leaving the staging area and working tree untouched, allowing for new commits to be made.
 - `--mixed`: In addition to moving the `HEAD` pointer to an earlier commit, the staging area is cleared to reflect the changes made in that commit (this runs by default).
 - `--hard`: This goes one step further and resets the working tree to reflect the previous commit reflected in the staging area and the `HEAD` pointer.
 
@@ -70,7 +70,7 @@ Since the `--mixed` mode runs by default, both of the commands are identical in 
 
 - It will move the `HEAD` pointer back by one (`~1`) commit.
 - The staging area will be cleared of changes.
-- The overall state of the `main` branch is set to before changes in **example.txt** were added for the commit.
+- The overall state of the `main` branch is set to before changes in **example.txt** were added to the staging area for the previous commit.
 
 If `git status` is run once more, this should appear on the terminal:
 
