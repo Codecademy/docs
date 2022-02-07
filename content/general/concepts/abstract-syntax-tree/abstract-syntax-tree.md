@@ -29,7 +29,7 @@ if a = b
 
 A graphical representation of the AST would look like this:
 
-![Abstract Syntax Tree Graph](https://raw.githubusercontent.com/Codecademy/docs/abstract-syntax-tree/media/abstract-syntax-tree.png 'Abstract Syntax Tree Graph')
+![Abstract Syntax Tree Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-syntax-tree.png 'Abstract Syntax Tree Graph')
 
 Like pseudocode, there are many ways to represent an AST. The output for an AST will vary based on the language and tool used to create it. However, all ASTs should have the property of completely representing the source code in a reproducible manner.
 
