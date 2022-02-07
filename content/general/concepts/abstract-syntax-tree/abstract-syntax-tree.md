@@ -10,6 +10,7 @@ Tags:
   - 'Developer Tools'
   - 'Documentation'
 CatalogContent:
+  - 'learn-complex-data-structures'
   - 'paths/computer-science'
 ---
 
