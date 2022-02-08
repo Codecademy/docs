@@ -41,4 +41,4 @@ Like pseudocode, there are many ways to represent an AST. The output for an AST 
 - By compilers to translate source code into equivalent binary forms.
 - In code reviews for identifying redundant elements in a codebase or detecting possible vulnerabilities.
 - Efficient refactors such as changing variable names with respect to their scope in the program.
-- Isolating a particular method and identifying all sections of the code that refer to that particular method
+- Isolating a particular method and identifying all sections of the code that refer to that particular method.
