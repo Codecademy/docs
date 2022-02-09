@@ -40,6 +40,8 @@ Like pseudocode, there are many ways to represent an AST. The output for an AST 
 
 ## Uses of an AST
 
+ASTs have many uses in different situations, including:
+
 - By compilers to translate source code into equivalent binary forms.
 - In code reviews for identifying redundant elements in a codebase or detecting possible vulnerabilities.
 - Efficient refactors such as changing variable names with respect to their scope in the program.
