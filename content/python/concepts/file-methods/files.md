@@ -1,5 +1,5 @@
 ---
-Title: 'File Methods'
+Title: 'Files'
 Description: 'Files are named locations on disk to store related information that can be used in Python.'
 Subjects:
   - 'Computer Science'
