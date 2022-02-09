@@ -1,55 +1,54 @@
 ---
-Title: 'Files'
-Description: 'Handling files is a basic function many computer languages can perform. Python also has this function, and can perform basic tasks like opening and creating files, as well as editing the contents of files.'
+Title: 'File Methods'
+Description: 'Files are named locations on disk to store related information that can be used in Python.'
 Subjects:
-  - 'Code Foundations'
   - 'Computer Science'
-  - 'Web Development'
+  - 'Data Science'
 Tags:
   - 'Files'
-  - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/code-foundations'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
-## Opening files
+Files are named locations on the computer's disk that permanently store information for future use of its data. They are used to permanently store data in a non-volatile memory (e.g. hard disk) as opposed to volatile sources like Random Access Memory (RAM](https://www.codecademy.com/resources/docs/general/ram)), which loses its data when the computer is turned off.
 
-In Python, the `open()` function is built-in, and can be used to open files. To open a file, the file name can be specified in the function. Do note that the entire file path has to be specified unless the file is in the current directory.
+## File Handling
 
-There are several modes Python can do when opening a file. The default one is reading. Here is a list of modes.
+Handling files is a common feature that many languages use to work with the computer's file system. In Python, file handling is possible and usually takes place in the following order:
 
-r - reads a file\
-w - writes a file\
-a - appends a file\
-x - creates a file
+1. Open (or create) the file.
+2. Perform operations on the file, such as reading or writing to it.
+3. Close the file to its resources are freed.
 
-Files can be read in either text or binary, and are denoted as `t` and `b` respectively. The default is text.
+## Example
 
-```py
-  
-open("text.txt") # To open a file. Remember the default is reading in text form!
-open("text.txt", 'bx') # Creates a file in binary mode
-
-```
-
-## Methods
-
-The above only opens the file. To edit the contents, the `write()` method can be used in `w`, `a` or 'x' mode. In the `w` mode, the data will be overwritten by the contents specified in `write()`. In the `a` mode, the new contents will be appended at the end of the file. Other methods that can be used after opening a file are listed below.
-
-.read(x) - reads the file and prints the first x bytes; the whole file will be printed if x is not specified\
-.readlines(x) - reads each line in a file and generates a list\
-.write(str) - writes the string str as a line in the file\
-.writelines(str_list) - writes each string element in the list str_list as a line
+The code snippet below displays a small example of how one process of file handling works.
 
 ```py
+# Create, or overwrite, a file and open for writing
+file = open("myfile.txt", "w")
+file.write("Hello world!")
+file.close()
 
-file = open("myfile.txt", 'x') # Creates a file for writing
-file.write("Hello world!") # Writes "Hello world!" in the file
-file.read(2) # Output: 'He' 
-file.read(3) # Output: 'llo'
-file.read()  # Output: ' world!' The rest of the file is read
-
+# Open existing file to read and print text content
+file = open("myfile.txt", "r")
+first_two_bytes = file.read(2)
+next_three_bytes = file.read(3)
+the_rest = file.read()
+print(first_two_bytes, next_three_bytes, the_rest, sep="\n")
+file.close()
 ```
+
+In the first part of the code example, a plain text file named **myfile.txt** was created and opened in the `"w"` "write"-mode. Then a piece of text was written to the file and closed afterward.
+
+In the next part, a few calls to the `.read()` method are assigned to some [variables](https://www.codecademy.com/resources/docs/python/variables) and then each one is [printed](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on a new line:
+
+```shell
+He
+llo
+ world!
+```
+
+More information about file methods in Python can be found below.
