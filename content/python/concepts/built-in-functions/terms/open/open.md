@@ -1,5 +1,5 @@
 ---
-Title: 'Files'
+Title: 'open()'
 Description: ''
 Subjects:
   - 'Computer Science'
