@@ -74,6 +74,8 @@ If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherw
 
 ### Forced Upwrapping
 
+Placing an `!` after an optional value forces it to unwrap its value:
+
 ```swift
 var maybeInt: Int? = 27
 
