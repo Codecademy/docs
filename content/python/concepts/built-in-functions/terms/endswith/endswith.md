@@ -1,6 +1,6 @@
 ---
 Title: 'endswith()'
-Description: 'Checks whether or not a string ends with the given character or string.'
+Description: 'Checks whether or not a string ends with the given value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,18 +14,25 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `endswith()` function in Python, takes in a string or character and checks whether or not the given string variable ends with it and the result is returned as a boolean value.
+The `endswith()` string method checks to see if a particular value is attached to the end of the string it is called on and returns a boolean value.
 
 ## Syntax
 
-```py
-stringvariable.endswith("string")
+```pseudo
+string.endswith(value, start, end)
 ```
+## Parameters
+
+- `value` (required):  value to be checked at the end of the string
+- `start` (optional): specifies the starting index
+- `end` (optional): specifies the ending index
 
 ## Example 1
 
+Checking for the value `g` at the end of the string, `example`:
+
 ```py
-example= "This is a string"
+example = "This is a string"
 check = example.endswith("g")
 print(check)
 
@@ -34,8 +41,10 @@ print(check)
 
 ## Example 2
 
+Checking for the value `s`:
+
 ```py
-example= "This is a string"
+example = "This is a string"
 check = example.endswith("s")
 print(check)
 
@@ -44,8 +53,10 @@ print(check)
 
 ## Example 3
 
+Checking for the value `ring`:
+
 ```py
-example= "This is a string"
+example = "This is a string"
 check = example.endswith("ring")
 print(check)
 
@@ -54,12 +65,14 @@ print(check)
 
 ## Example 4
 
+The following checks for `st` and has a starting index of `5` and an ending index of `12`:
+
 ```py
-example= "This is a string"
-check = example.endswith("st")
+example = "This is a string"
+check = example.endswith("st", 5, 12)
 print(check)
 
-# Output: False
+# Output: True
 ```
 
 **Note:** The `endswith()` function is case-sensitive and is demonstrated by the example given below.
