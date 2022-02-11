@@ -80,7 +80,7 @@ print(check)
 ## Example 5
 
 ```py
-example= "This is a string"
+example = "This is a string"
 check = example.endswith("G")
 print(check)
 
