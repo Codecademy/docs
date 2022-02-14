@@ -21,9 +21,10 @@ The `endswith()` string method checks to see if a particular value is attached t
 ```pseudo
 string.endswith(value, start, end)
 ```
+
 ## Parameters
 
-- `value` (required):  value to be checked at the end of the string
+- `value` (required): value to be checked at the end of the string
 - `start` (optional): specifies the starting index
 - `end` (optional): specifies the ending index
 
