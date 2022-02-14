@@ -41,7 +41,7 @@ The `switch` statement in Go differs from other languages like C++ and Java, in 
 
 ## Syntax 2
 
-The expression can be omitted after the `switch` and the `switch` behaves more like an `if ... then ... else` statement:
+The expression can be omitted after the `switch` making it behave more like an `if ... then ... else` statement:
 
 ```pseudo
 switch {
