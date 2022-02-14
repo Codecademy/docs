@@ -29,7 +29,7 @@ WHERE EXISTS (SELECT column1 FROM table_two WHERE condition);
 
 ## Example
 
-Return all rows from table `users` where `user_id` appears in table `locked_out`
+Return all rows from table `users` where `user_id` appears in table `locked_out`:
 
 ```sql
 SELECT *
