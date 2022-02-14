@@ -37,7 +37,7 @@ switch <expression> {
 
 When `<expression>` is equal to the value of one of the `case` statements, the corresponding `<statements>` block is executed. If the `<expression>` matches none of the `case` values, then the optional `default` `<statements>` block is executed.
 
-The `switch` statement in Go differs from other languages like C++ and Java, in that the values used by the `case` statements don't need to be constants, they can be variables or full expressions. Also, unlike in C ++ and Java, Go only executes the selected "case" statement block, so no "break" statement is needed.
+The `switch` statement in Go differs from other languages like [C++](https://www.codecademy.com/resources/docs/cpp/switch) and [Java](https://www.codecademy.com/resources/docs/java/switch), in that the values used by the `case` statements don't need to be constants, they can be variables or full expressions. Also, unlike in C ++ and Java, Go only executes the selected "case" statement block, so no "break" statement is needed.
 
 ## Syntax 2
 
