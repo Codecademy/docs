@@ -1,6 +1,6 @@
 ---
 Title: 'EXISTS'
-Description: 'EXISTS tests a subquery and returns TRUE if at least one record satisfies it.'
+Description: 'Tests a subquery and returns TRUE if at least one record satisfies it.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
