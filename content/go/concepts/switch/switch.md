@@ -17,7 +17,7 @@ A `switch` statement allows the selective execution of one of several blocks of 
 
 ## Syntax 1
 
-There are many syntaxes that be used in the `switch` statement. Probably the most common one looks like this:
+There are many syntaxes that be used in the `switch` statement. The following is probably the most common syntax:
 
 ```pseudo
 switch <expression> {
