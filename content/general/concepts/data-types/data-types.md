@@ -27,7 +27,7 @@ In computer programming, primitive data types are the building blocks for any va
 
 ## Composite Data Types
 
-While primitive types are the building blocks, composite data types are the building. They can be composed of either the 
+While primitive types are the building blocks, composite data types are the building. They can be composed of either the
 
 <!-- prettier-ignore -->
 | Data Type | Description |
@@ -46,6 +46,7 @@ Data types have gone beyond just composites and primitives and include ones with
 | Null | `null` or `nil` represents the absence of a value. |
 | Undefined | Undefined represents a value that has not yet been defined. |
 | Function | Depending on the language, functions can be utilized as variables and arguments for other functions. |
+| Void | Sets a function to have side effects but return no specific result. Common in C-based languages. |
 | Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
 ## Data Types in Different Languages
