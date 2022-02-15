@@ -29,7 +29,7 @@ WHERE EXISTS (SELECT column1 FROM table_two WHERE condition);
 
 ## Example
 
-Return all rows from table `users` where `user_id` appears in table `locked_out`:
+In the example below, the statement returns `TRUE` if at least one row (or all columns) in the `users` table also exists in the `locked_out` table, per a match in `user_id`. Otherwise, if none match, the statement returns `FALSE`.
 
 ```sql
 SELECT *
