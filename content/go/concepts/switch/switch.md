@@ -85,7 +85,9 @@ default:
 
 Values are compared left-to-right and top-to-bottom. The first `case` block to match the `switch` expression will be executed.
 
-## Examples
+## Example
+
+In the example below, a variable `i` is declared and used in a `switch` expression to test whether the result will be even or odd:
 
 ```go
 i := 7
