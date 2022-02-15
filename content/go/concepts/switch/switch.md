@@ -113,7 +113,7 @@ import (
 
 func main() {
   today := time.Now().Weekday()
-    
+
   switch today {
   case time.Saturday, time.Sunday:
     fmt.Println("It's the weekend")
