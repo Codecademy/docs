@@ -2,46 +2,51 @@
 Title: 'Data Types'
 Description: 'Data is classified into data types that tell the compiler how the data is intended to be used.'
 Subjects:
-  - 'Computer Science'
   - 'Code Foundations'
+  - 'Computer Science'
 Tags:
   - 'Data Types'
   - 'Types'
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/build-web-apps-with-asp-net'
+  - 'paths/code-foundations'
+  - 'paths/computer-science'
 ---
 
-Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler.
+Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler. While there are certainly other kinds, data types are mostly categorized as either being primitive or composite in value.
 
-Data types can be primitive, composite or unique. Primitive data types are the most Primitive types and usually hold a single value. A composite data type can be composed of multiple data types and often group multiple values. A unique data type does not store a value(s) in the sense other types do.
+## Primitive Data Types
 
-## Common Primitive Data Types
+In computer programming, primitive data types are the building blocks for any variable or data structure in a program. They usually contain a single value such as a character, byte, or digit. Below are a few examples of primitive types:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
 | Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
-| String | Strings are text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
 | Boolean | Booleans hold a `true` or `false` value. |
 
-## Common Composite Data Types
+## Composite Data Types
+
+While primitive types are the building blocks, composite data types are the building. They can be composed of either the 
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Arrays | Arrays, called lists in some languages, are lists the compiler can read. Values can be found using the index which starts at 0, then 1, and so on. Indexing into arrays will access the item at the specified index. Arrays within arrays can exist and are called nested arrays. |
-| Objects | Objects are groups of related data. |
-| Classes | Classes are templates for objects. |
+| Array | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. |
+| Object | Objects are groups of related data that are usually organized as property-value pairs. |
+| Class | Templates for objects that may contain properties or methods. |
 
-## Common Unique Data Types
+## Other Common Data Types
+
+Data types have gone beyond just composites and primitives and include ones with unique qualities such as the following:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
 | Null | `null` or `nil` represents the absence of a value. |
 | Undefined | Undefined represents a value that has not yet been defined. |
-| Function | A function has code that is not immediately executed once the code is ran. It exucutes when the function is called. |
+| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. |
+| Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
 ## Data Types in Different Languages
 
