@@ -35,7 +35,7 @@ default:
 }
 ```
 
-When `<expression>` is equal to the value of one of the case statements, the corresponding `<statements>` block is executed. If the `<expression>` matches none of the `case` values, then the optional `default` statements block is executed. If there the `default` block is omitted, and none of the values are matched, none of the statements in the switch block are executed.
+When `<expression>` is equal to the value of one of the case statements, the corresponding `<statements>` block is executed. If the `<expression>` matches none of the `case` values, then the optional `default` statements block is executed. If the `default` block is omitted, and none of the values are matched, none of the statements in the switch block are executed.
 
 In Go, the `switch` statement differs from other languages like [C++](https://www.codecademy.com/resources/docs/cpp/switch) and [Java](https://www.codecademy.com/resources/docs/java/switch) in that the values used by the `case` statements are not limited to constants. They can also be variables or full expressions. Additionally, Go only executes the selected `case <expressions>` block, or the `default` block, so no "break" statement is needed, code execution automatically resumes after the `switch` statement.
 
