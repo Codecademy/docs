@@ -101,6 +101,8 @@ case 1:
 // Output: 7 is odd.
 ```
 
+## Codebyte Example
+
 ```codebyte/go
 package main
 
