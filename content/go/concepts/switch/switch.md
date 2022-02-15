@@ -69,7 +69,7 @@ switch true { ... }
 
 ## Syntax 3
 
-A given `case` statement can have more than one matching value, separated by commas:
+In each case, a given `case` statement can have more than one matching value (or expression), separated by commas:
 
 ```pseudo
 switch <expression> {
