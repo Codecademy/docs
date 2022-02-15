@@ -59,7 +59,7 @@ default:
 }
 ```
 
-In this example, the first expression that evaluates true will execute the corresponding `case` `<statements>` block. Again, `default` is optional, and will execute its `<statements>` block if none of the `case` statements are executed.
+The first `case <expression>` that evaluates to true will execute its corresponding `<statements>`. Again, the `default` block is optional, and will execute its `<statements>` if none of the `case` statements are executed.
 
 This is equivalent to:
 
