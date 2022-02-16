@@ -32,7 +32,7 @@ Optional types should be unwrapped only if it's certain that a value is present.
 
 ### Nil-Coalescing
 
-The nil-coalescing operator, `??`, assigns a value by checking from left to right. If the preceding optional values are `nil`, the default value on the right is assigned. 
+The nil-coalescing operator, `??`, assigns a value by checking from left to right. If the preceding optional values are `nil`, the default value on the right is assigned.
 
 In the example below,`maybeInt` is declared as an optional integer type and set to `nil`, therefore `myInt` will default to `27`:
 
@@ -62,7 +62,7 @@ if let myString = maybeString {
 // Output: Optional("maybeString") and myString are equal!
 ```
 
-`myString` is declared and conditionally bound to the `maybeString` optional. The value of `myString` can be accessed from inside the `if` statement and within `myString`'s outer scope.
+`myString` is declared and conditionally bound to the `maybeString` optional. The value of `myString` can be accessed from inside the `if` statement, but not in the outer scope. An alternative to `if let` that allows upwrapped values to be accessed in the outer scope, is the `guard let` statement.
 
 ### `guard let`
 
@@ -71,12 +71,11 @@ if let myString = maybeString {
 ```swift
 var maybeInt: Int? = 2022
 
-func findInt(){
+func findInt() {
   guard let myInt = maybeInt else {
     return
   }
-   print(myInt)
-}
+  print(myInt)
 }
 
  findInt()
