@@ -37,7 +37,11 @@ The nil-coalescing operator, `??`, assigns a value by checking from left to righ
 In the example below,`maybeInt` is declared as an optional integer type and set to `nil`, therefore `myInt` will default to `27`:
 
 ```swift
+var maybeInt: Int? = nil
 var myInt = maybeInt ?? 27
+
+print(myInt)
+// Output: 27
 ```
 
 **Note:** In the following code blocks, a mutable `var` variable can be used in place of any constant `let` variable.
