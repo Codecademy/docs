@@ -21,17 +21,17 @@ There are many syntaxes that can be used in the `switch` statement. The followin
 
 ```pseudo
 switch <expression> {
-case <value 1>:
-  <statements>
-case <value 2>:
-  <statements>
+  case <value 1>:
+    <statements>
+  case <value 2>:
+    <statements>
   .
   .
   .
-case <value N>:
-  <statements>
-default:
-  <statements>
+  case <value N>:
+    <statements>
+  default:
+    <statements>
 }
 ```
 
