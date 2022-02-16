@@ -65,6 +65,9 @@ if let myString = maybeString {
 `guard let` is another optional binding control structure that can be used within a function.
 
 ```swift
+var maybeInt: Int? = 2022
+
+func findInt(){
   guard let myInt = maybeInt else {
     return
   }
