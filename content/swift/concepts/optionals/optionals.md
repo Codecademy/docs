@@ -73,6 +73,7 @@ func findInt(){
   }
    print(myInt)
 }
+}
 
  findInt()
  // Output: 2022
