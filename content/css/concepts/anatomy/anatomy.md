@@ -52,9 +52,9 @@ Conversely, inline styles apply a visually-similar syntax to a single element:
 
 There are several parts to the CSS in both the ruleset and the inline-style:
 
-![Ruleset Anatomy](https://raw.githubusercontent.com/SSwiniarski/docs/css-anatomy/media/css-anatomy-1.png)
+![Ruleset Anatomy](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-anatomy-1.png)
 
-![Inline Style Anatomy](https://raw.githubusercontent.com/SSwiniarski/docs/css-anatomy/media/css-anatomy-2.png)
+![Inline Style Anatomy](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-anatomy-2.png)
 
 In the ruleset example above, the initial `p` is a selector that can is applied to any and every valid instance of that element. Selectors possess a wide range of specificity, including:
 
