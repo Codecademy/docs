@@ -56,7 +56,12 @@ There are several parts to the CSS in the above two examples.
 
 ![Inline Style Anatomy](https://raw.githubusercontent.com/SSwiniarski/docs/css-anatomy/media/css-anatomy-2.png)
 
-In the ruleset example, the initial `p` is known as a selector. In its simplest form, the selector can just be the element tag it applies to, i.e. `img`, `div`, `span`, `p`, though the selector can be much more specific about the elements it targets.
+In the ruleset example, the initial `p` is a selector that can is applied to any and every valid instance of that element. Selectors possess a wide range of specificity, including:
+
+* General selection by HTML element-name.
+* Specific `class` and `id` selectors for elements.
+* Pseudo-class and pseudo-element selectors.
+* Reserved keyword rules like `!important` and `@media`.
 
 Next in the ruleset syntax is the block of declarations between the two braces `{...}`. This is the block of code that defines the style that will be applied. In the inline style example, this is equivalent to the `style` attribute value.
 
