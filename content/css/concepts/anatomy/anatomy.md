@@ -32,9 +32,14 @@ Inline styles are commonly used for situations such as the following:
 Stylesheet/ruleset syntax (this will affect every `<p>` element in the HTML this apples to):
 
 ```css
-p {
-  color: blue;
+/* Start of Ruleset */
+selector:pseudo-class::pseudo-element {
+
+  /* Declaration */
+  property: value-or-keyword;
+
 }
+/* End of Ruleset */
 ```
 
 Inline style syntax (this only affects this single `<p>` element):
