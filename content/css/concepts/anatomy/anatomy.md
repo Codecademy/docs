@@ -29,7 +29,7 @@ Inline styles are commonly used for situations such as the following:
 
 ## Syntax
 
-Stylesheet/ruleset syntax (this will affect every `<p>` element in the HTML this apples to):
+Rulesets use the following syntax for selecting and styling any and every instance of an existing element:
 
 ```css
 /* Start of Ruleset */
