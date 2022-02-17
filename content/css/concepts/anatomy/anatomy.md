@@ -21,14 +21,11 @@ There are two syntaxes for the anatomy of [CSS](https://www.codecademy.com/resou
 
 While inline styles are directly applied to a single element, rulesets can define multiple styles across multiple elements. Another key difference between the two is that a ruleset can utilize `id` and `class` [selectors](https://www.codecademy.com/resources/docs/css/selectors) as well as children of specific parent-elements.
 
-CSS defined in a ruleset can also target elements in multiple different ways:
+Inline styles are commonly used for situations such as the following:
 
-- Element type
-- Class of the element
-- ID of the element
-- Parent of the Element
-
-Typically an inline style is used mainly for unique situations in HTML code where the style won't be repeated, in cases where HTML is dynamically generated and the CSS stylesheet is static, or in other situations where it isn't advisable (or possible) to edit the stylesheet(s) for a page.
+* The style being applied in the markup is unique and won't be repeated.
+* The HTML markup is dynamically generated and the CSS stylesheet is static.
+* Other situations where it isn't advisable (or possible) to edit the stylesheet(s) for a page.
 
 ## Syntax
 
