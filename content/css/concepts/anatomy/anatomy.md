@@ -13,7 +13,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-There are two syntaxes used to apply CSS to a web-page. The first is as a _ruleset_, the second is as an _inline style_. A ruleset is defined within a block inside an HTML document, or in a separate file (called a stylesheet), and an inline style is applied as an attribute of the element the style is being applied to. The main difference between the two other than the syntax itself, is that CSS applied as an inline style only affects the one element it's applied to, whereas a CSS style defined in a ruleset can affect many elements at once. Also a ruleset can have many different styles defined, where an inline style can have only one.
+There are two syntaxes for the anatomy of [CSS](https://www.codecademy.com/resources/docs/css) styles that are applied to a web-page:
+
+* A _ruleset_ that is defined within either an [HTML](https://www.codecademy.com/resources/docs/html) document or in a separate file (known as stylesheets) that uses the **.css** extension.
+
+* _Inline styles_ can be applied [attributes](https://www.codecademy.com/resources/docs/html/attributes) for styling [HTML elements](https://www.codecademy.com/resources/docs/html/elements) directly.
+
+While inline styles are directly applied to a single element, rulesets can define multiple styles across multiple elements. Another key difference between the two is that a ruleset can utilize `id` and `class` [selectors](https://www.codecademy.com/resources/docs/css/selectors) as well as children of specific parent-elements.
 
 CSS defined in a ruleset can also target elements in multiple different ways:
 
