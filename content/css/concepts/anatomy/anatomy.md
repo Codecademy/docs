@@ -42,7 +42,7 @@ selector:pseudo-class::pseudo-element {
 /* End of Ruleset */
 ```
 
-Inline style syntax (this only affects this single `<p>` element):
+Conversely, inline styles apply a visually-similar syntax to a single element:
 
 ```pseudo
 <element style="property:value;">Hello World!</element>
