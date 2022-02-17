@@ -15,17 +15,17 @@ CatalogContent:
 
 The anatomy of [CSS](https://www.codecademy.com/resources/docs/css) style syntax applies to the two methods of incorporating CSS into a web-page:
 
-* A _ruleset_ that is defined within either the [HTML](https://www.codecademy.com/resources/docs/html) document itself, or in one or more separate files (known as stylesheets) that use the **.css** extension.
+- A _ruleset_ that is defined within either the [HTML](https://www.codecademy.com/resources/docs/html) document itself, or in one or more separate files (known as stylesheets) that use the **.css** extension.
 
-* _Inline styles_ can be applied [attributes](https://www.codecademy.com/resources/docs/html/attributes) for styling individual [HTML elements](https://www.codecademy.com/resources/docs/html/elements) directly.
+- _Inline styles_ can be applied [attributes](https://www.codecademy.com/resources/docs/html/attributes) for styling individual [HTML elements](https://www.codecademy.com/resources/docs/html/elements) directly.
 
 While inline styles are directly applied to a single element, rulesets can define multiple styles across multiple elements. Another key difference between the two is that a ruleset can utilize `id` and `class` [selectors](https://www.codecademy.com/resources/docs/css/selectors) to identify targeted elements, as well as designating children of specific parent-elements.
 
 Inline styles are commonly used for situations such as the following:
 
-* The style being applied in the markup is unique and won't be repeated.
-* The HTML markup is dynamically generated and the CSS stylesheet is static.
-* Other situations where it isn't advisable (or possible) to edit the stylesheet(s) for a page.
+- The style being applied in the markup is unique and won't be repeated.
+- The HTML markup is dynamically generated and the CSS stylesheet is static.
+- Other situations where it isn't advisable (or possible) to edit the stylesheet(s) for a page.
 
 ## Syntax
 
@@ -58,10 +58,10 @@ There are several parts to the CSS in both the ruleset and the inline-style:
 
 In the ruleset example above, the initial `p` is a selector that can is applied to any and every valid instance of that element. Selectors possess a wide range of specificity, including:
 
-* General selection by HTML element-name.
-* Specific `class` and `id` selectors for elements.
-* Pseudo-class and pseudo-element selectors.
-* Reserved keyword rules like `!important` and `@media`.
+- General selection by HTML element-name.
+- Specific `class` and `id` selectors for elements.
+- Pseudo-class and pseudo-element selectors.
+- Reserved keyword rules like `!important` and `@media`.
 
 Next in the ruleset syntax is the block of declarations between the two braces `{...}`. This is the block of code that defines the style that will be applied. This is equivalent to the `style` attribute value in the inline-style example.
 
