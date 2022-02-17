@@ -45,7 +45,7 @@ selector:pseudo-class::pseudo-element {
 Inline style syntax (this only affects this single `<p>` element):
 
 ```html
-<p style="color:blue;">Hello World!</p>
+<element style="property:value;">Hello World!</element>
 ```
 
 ## Anatomy
