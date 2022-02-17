@@ -81,7 +81,7 @@ else {
 
 Output:
 
-```cpp
+```shell
 Not a single person is reading this
 ```
 
