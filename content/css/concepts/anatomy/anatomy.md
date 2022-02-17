@@ -65,4 +65,6 @@ In the ruleset example, the initial `p` is a selector that can is applied to any
 
 Next in the ruleset syntax is the block of declarations between the two braces `{...}`. This is the block of code that defines the style that will be applied. In the inline style example, this is equivalent to the `style` attribute value.
 
-The declaration block, or attribute value, is made up of one or more declarations. In the examples, `color:blue;` is a declaration. A declaration is made up of a CSS property name, followed by a colon (`color:`) then a value, followed by a semicolon, (`blue;`). In either syntax, there can be an arbitrary number of declarations. Whitespace does not affect the declarations, but typically ruleset declarations are set off on their own lines, while inline style declarations are all placed on the same line.
+The declaration block, or attribute value, is made up of one or more declarations. In the examples, `color:blue;` is a declaration. A declaration is made up of a CSS property name, followed by a colon (`color:`) then a value, followed by a semicolon, (`blue;`).
+
+For either syntax, there can be an arbitrary number of declarations. While whitespacing has no effect, ruleset declarations are usually set on their own lines while inline style declarations are all placed on the same line.
