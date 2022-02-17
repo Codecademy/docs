@@ -34,14 +34,14 @@ it is also used as a fallback if any of the sources fail to meet the required sp
   <head> </head>
   <body>
     <picture>
-      <source media="(min-width:700px)" srcset="img_white_shoes.jpg">
-      <source media="(min-width:540px)" srcset="img_blue_shoes.jpg">
-      <img src="img_red_shoes.jpg" alt="Shoes" style="width:auto;">
+      <source media="(min-width:700px)" srcset="img_white_shoes.jpg" />
+      <source media="(min-width:540px)" srcset="img_blue_shoes.jpg" />
+      <img src="img_red_shoes.jpg" alt="Shoes" style="width:auto;" />
     </picture>
   </body>
 </html>
 ```
 
 A use case for this example is **Art Direction** where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
-  
+
 Another use case is **Page Load Time Optimization**. In situations when certain images take longer to load, having an alternative image that loads faster improves the page load time.
