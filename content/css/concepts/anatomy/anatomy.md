@@ -31,7 +31,7 @@ Inline styles are commonly used for situations such as the following:
 
 Rulesets use the following syntax for selecting and styling any and every instance of an existing element:
 
-```css
+```pseudo
 /* Start of Ruleset */
 selector:pseudo-class::pseudo-element {
 
