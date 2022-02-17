@@ -14,7 +14,7 @@ CatalogContent:
 
 # Booleans
 
-Booleans hold a true or false value. Booleans are used in conditnal statments. Ex:
+Booleans hold a true or false value. Booleans are used in conditional statements. Ex:
 
 ```javascript
 if (true) { // true would always evaluate to true so the folloing line will always run.
