@@ -21,7 +21,7 @@ Represents a generic division of content. It has no semantic meaning, but will s
 </picture>
 ```
 
-`<picture>` is a tag that allows developers to use a variety of image resources to meet different requirements.
+`<picture>` is a tag that allows developers the flexibility to use different image specifications.
 
 ## Example
 
