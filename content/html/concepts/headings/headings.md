@@ -23,7 +23,7 @@ Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1
 <h6>Heading 6</h6>
 ```
 
-<details>
+<details open>
   <summary>Headings</summary>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
