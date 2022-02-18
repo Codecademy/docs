@@ -29,7 +29,7 @@ range(start, stop, step)
 
 ## Example 1
 
-Here the range is set to `stop` before 5.
+Here the range is set to stop before 5.
 
 ```python
 x = range(5)
