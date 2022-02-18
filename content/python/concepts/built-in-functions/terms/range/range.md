@@ -17,7 +17,7 @@ Returns a sequence of numbers based on the given range.
 
 ## Syntax
 
-```python
+```pseudo
 range(stop)
 range(start, stop)
 range(start, stop, step)
