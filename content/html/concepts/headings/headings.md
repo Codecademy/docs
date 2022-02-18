@@ -23,7 +23,12 @@ Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1
 <h6>Heading 6</h6>
 ```
 
-![Rendered page with the 6 HTML heading elements](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-headings.png)
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
 ## Accessibility with Headings
 
