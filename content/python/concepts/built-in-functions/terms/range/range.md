@@ -41,7 +41,7 @@ print(list(x))
 
 ## Example 2
 
-Here the range is set to `start` at 5 and `stop` before 11.
+Here the range is set to start at 5 and stop before 11.
 
 ```python
 y = range(5, 11)
