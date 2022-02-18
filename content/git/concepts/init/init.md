@@ -20,11 +20,11 @@ In Git, `init` is used to initiate the process of creating a repository. When be
 git init
 ```
 
-## How Do I Init?
+## Initializing a Git Repository
 
-### Step 1: Correct Directory
+### Step 1: Navigate to the Correct Directory
 
-Make sure to be working from the correct directory; the `cd` command can be used to navigate the filesystem.
+The `init` command initializes a Git repository in the current directory. Prior to using this command, users must take care to navigate to the appropriate directory&mdash;typically, the root directory of the project. The `cd` command can be used to navigate the filesystem from the command line:
 
 ```shell
 cd go/to/desired/project/directory
@@ -32,7 +32,7 @@ cd go/to/desired/project/directory
 
 ### Step 2: Init
 
-Next, run the following command:
+From within the appropriate directory, running `git init` will initialize a repository and Git will begin tracking changes made to all the files within:
 
 ```shell
 git init
