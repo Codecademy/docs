@@ -14,7 +14,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Running into an error is common when using C++. Error messages and the types associated with them make it easier to locate and correct a problem.
+In C++, error messages and their different types help detect and debug issues in the code.
+
+
+
+
+
+
+
 
 Some common types of errors are:
 
