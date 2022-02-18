@@ -17,21 +17,21 @@ A `switch` statement allows the selective execution of one of several blocks of 
 
 ## Syntax 1
 
-There are many syntaxes that can be used in the `switch` statement. The following is probably the most common syntax:
+There are many syntaxes that can be used in the `switch` statement. The following is probably the most common:
 
 ```pseudo
 switch <expression> {
-  case <value 1>:
-    <statements>
-  case <value 2>:
-    <statements>
-  .
-  .
-  .
-  case <value N>:
-    <statements>
-  default:
-    <statements>
+case <value 1>:
+  <statements>
+case <value 2>:
+  <statements>
+.
+.
+.
+case <value N>:
+  <statements>
+default:
+  <statements>
 }
 ```
 
