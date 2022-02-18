@@ -16,13 +16,6 @@ CatalogContent:
 
 In C++, error messages and their different types help detect and debug issues in the code.
 
-
-
-
-
-
-
-
 Some common types of errors are:
 
 - Syntax Errors
