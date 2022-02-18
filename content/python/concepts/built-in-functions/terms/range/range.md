@@ -61,4 +61,6 @@ Here the range is set to start at 10, stop before 60, and increment by 10.
 z = range(10, 60, 10)
 
 print(list(z))
+
+# Output: [10,20,30,40,50]
 ```
