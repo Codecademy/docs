@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Returns a sequence of numbers based on the given range.
+The `range()` function returns a sequence of numbers based on the given range.
 
 ## Syntax
 
