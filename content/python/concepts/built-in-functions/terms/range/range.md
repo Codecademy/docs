@@ -29,7 +29,7 @@ range(start, stop, step)
 
 ## Example 1
 
-Here the range is set to `stop` before 5. 
+Here the range is set to `stop` before 5.
 
 ```python
 x = range(5)
@@ -53,7 +53,7 @@ print(list(y))
 
 ## Example 3
 
-Here the range is set to `start` at 10, `stop` before 60, and  `step` or increment by 10. 
+Here the range is set to `start` at 10, `stop` before 60, and `step` or increment by 10.
 
 `range(start, stop, step)`
 
