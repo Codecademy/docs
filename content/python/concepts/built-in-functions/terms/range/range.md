@@ -53,7 +53,7 @@ print(list(y))
 
 ## Example 3
 
-Here the range is set to `start` at 10, `stop` before 60, and `step` or increment by 10.
+Here the range is set to start at 10, stop before 60, and increment by 10.
 
 `range(start, stop, step)`
 
