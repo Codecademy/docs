@@ -6,6 +6,9 @@ Subjects:
   - 'Web Design'
 Tags:
   - 'Tags'
+  - 'DOM'
+  - 'Elements'
+  - 'Semantic'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
