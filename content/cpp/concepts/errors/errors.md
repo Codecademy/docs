@@ -14,14 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, error messages and their different types help detect and debug issues in the code.
-
-Some common types of errors are:
-
-- Syntax Errors
-- Run-Time Errors
-- Link-Time Errors
-- Logic Errors
+In C++, error messages and their different types help detect and debug issues in the code. Errors can be detected before, during, or after the code has been compiled and executed. Since there are many different errors that could occur, they are classified into groups.
 
 ## Syntax Errors
 
