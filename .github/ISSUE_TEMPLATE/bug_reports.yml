@@ -50,6 +50,6 @@ body:
       label: For Maintainers
       options:
         - label: Labels added
-          required: true
+          required: false
         - label: Issue is assigned
           required: false
