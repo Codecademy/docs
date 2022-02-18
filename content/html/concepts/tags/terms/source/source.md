@@ -16,6 +16,8 @@ CatalogContent:
 
 The `<source>` element allows for multiple sources to be in one element in case one type is not supported. The `<source>` element is nested within an `<video>`, `<img>` or another tag that embeds content. It allows for multiple files to be referenced in one element in case a file type is not supported. If one file type can not be displayed, the browser will attempt to display the next.
 
+## Example
+
 ```html
 
 <video>
