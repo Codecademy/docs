@@ -30,7 +30,7 @@ Before using `git commit`, make sure to have all the neccessary files staged for
 git add <filename>
 ```
 
-You can also use `git add .` to add all files in your current directory.
+The `git add .` command can be used to add all files in the current directory.
 
 ### Step 2: Commit
 
@@ -40,9 +40,9 @@ After the files are staged for commit, use the following syntax:
 git commit
 ```
 
-Note: Using the `git commit` command by itself will open up an editor (usually set to Vim by default), where you will be asked to add a commit message. Once you add a message, save and close the file (`:wq` in Vim), that message will be added to your commit.
+Note: Using the `git commit` command by itself will open up an editor (usually set to Vim by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
 
-Here is an example of what the commit message prompt might look like when you use `git commit`:
+Here is an example of what the commit message prompt might look like when using `git commit`:
 
 ```sh
 Add git_practice.js and install dependencies
@@ -68,7 +68,7 @@ $ git commit
  create mode 100644 package.json
 ```
 
-You can also do `git commit -m <message>` to add a commit message without opening up an editor:
+Using the `-m` flag like so, `git commit -m <message>`, adds a commit message without opening up an editor:
 
 ```shell
 $ git commit -m "this is a commit message"

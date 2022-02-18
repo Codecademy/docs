@@ -36,7 +36,7 @@ git branch -d <branch-name>
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-Sometimes Git will tell you that you cannot delete your branch because it has changes that have not been merged into the upstream or remote version of that branch.  In these cases, you can _force_ Git to delete the branch by changing the flag to a capital "D" or adding the `--force` flag like so:
+Sometimes Git will refuse to delete a branch because it has changes that have not been merged into the upstream or remote version of that branch. In these cases, Git can be _forced_ to delete the branch by changing the flag to a capital "D" or adding the `--force` flag like so:
 
 ```shell
 # Option 1:
@@ -46,7 +46,7 @@ git branch -D <branch-name>
 git branch -d --force <branch-name>
 ```
 
-By performing a force delete, you are telling Git that you understand you will lose the changes on that branch forever, and you want to perform the delete anyway.
+By performing a force delete, the user is telling Git that they understand all changes on that branch will be lost forever, and they want to perform the delete anyway.
 
 ## Moving Between Branches
 
@@ -58,7 +58,7 @@ git checkout <branch-name>
 
 This will change the active branch to the one named `<branch-name>`. Any editing done at this point will be to the copy of the code within `<branch-name>` rather than the previous branch.
 
-The `checkout` command is often used immediately after creating a new branch.  In fact, this is so common that there is a shorthand command to create a new branch and switch to it automatically:
+The `checkout` command is often used immediately after creating a new branch. In fact, this is so common that there is a shorthand command to create a new branch and switch to it automatically:
 
 ```shell
 git checkout -b <branch-name>

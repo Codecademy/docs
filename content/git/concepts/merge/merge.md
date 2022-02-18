@@ -1,6 +1,6 @@
 ---
 Title: 'Merge'
-Description: 'In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. If you are working with a remote repository, you will need to open a Pull Request in order to do this. Anyone with push access to the repository can complete the merge.'
+Description: 'In Git, what if you wanted to incorporate all the changes you made to a branch onto the main branch? Merge your changes into the main branch when work is completed. When collaborating on a remote repository, a Pull Request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,14 +12,14 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. If you are working with a remote repository, you will need to open a Pull Request in order to do this. Anyone with push access to the repository can complete the merge.
+In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. When collaborating on a remote repository, a Pull Request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.
 
 ## Git Command
 
 To merge a branch into your local `main` branch:
 
 ```shell
-git checkout main     # make sure you are on the main branch 
+git checkout main     # make sure you are on the main branch
 git merge branch_name
 ```
 

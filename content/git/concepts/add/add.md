@@ -21,7 +21,7 @@ Below is a short example of how the `git add` command works. Assuming a change w
 ```shell
 $ git status
 
-On branch master
+On branch main
 
 No commits yet
 
@@ -38,7 +38,7 @@ Since the file is untracked, `git add` can be used to stage it for the next comm
 $ git add message.txt
 $ git status
 
-On branch master
+On branch main
 
 No commits yet
 
@@ -53,5 +53,5 @@ There are many extentions to the `git add` command such as:
 
 1. `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
 2. `-f`: Which stages all files including those which are ignored.
-3. `.` : Which stages all the files in the current directory. If you are familiar with the command line, you will recognize the use of `.` to reference the directory you are currently in.
+3. `.` : Which stages all the files in the current directory. (On the command line, the use of `.` references the directory a user is currently in.)
 4. `-A`: Which stages all the files in the current directory as well as subdirectories.
