@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.random()` method generates a pseudo-random number between 0 and 1. It takes no parameters.
+The `random.random()` method generates a pseudo-random floating-point number between 0 and 1. It takes no parameters.
 
 It can be useful to create a pseudo-random float less than a given number just by multiplying that number by `random.random()`.
 
