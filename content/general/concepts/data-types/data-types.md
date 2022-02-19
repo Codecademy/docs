@@ -21,9 +21,9 @@ In computer programming, primitive data types are the building blocks for any va
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. Learn more [place holder](place holder) |
+| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. Learn more [here](https://www.codecademy.com/resources/docs/general/number) |
 | String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` Learn more [here](https://www.codecademy.com/resources/docs/general/string) |
-| Boolean | Booleans hold a `true` or `false` value. Learn more [place holder](place holder) |
+| Boolean | Booleans hold a `true` or `false` value. Learn more [here](https://www.codecademy.com/resources/docs/general/boolean) |
 
 ## Composite Data Types
 
@@ -45,7 +45,7 @@ Data types have gone beyond just composites and primitives and include ones with
 | --- | --- |
 | Null | `null` or `nil` represents the absence of a value. |
 | Undefined | Undefined represents a value that has not yet been defined. |
-| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. Learn more [place holder](place holder) |
+| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. Learn more [number](https://www.codecademy.com/resources/docs/general/function) |
 | Void | Sets a function to have side effects but return no specific result. Common in C-based languages. |
 | Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
