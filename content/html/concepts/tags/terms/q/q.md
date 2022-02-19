@@ -12,7 +12,7 @@ CatalogContent:
 ---
 
 The `<q>` tag is used to represent a brief inline quotation.
-It accepts a `cite` attribute which will link to a source, providing further context for the quotation.
+It accepts a `cite` attribute which will link to a source that provides further context for the quotation.
 
 ## Syntax
 
@@ -20,9 +20,9 @@ It accepts a `cite` attribute which will link to a source, providing further con
 <q><!-- brief quotation goes inside the tag --></q>
 ```
 
-The `<q>` tag requires an opening and closing tag wrapped around a line of text. By default, the browser will render this enclosed in quotation marks.
+The `<q>` tag requires an opening and closing tag wrapped around a line of text. The browser will automatically enclose the text in quotation marks.
 
-Its `cite` attribute should be a valid URL.
+The `cite` attribute should be a valid URL.
 
 ## Example
 
