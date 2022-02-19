@@ -56,7 +56,7 @@ There are several parts to the CSS in both the ruleset and the inline-style:
 
 ![Inline Style Anatomy](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-anatomy-2.png)
 
-In the ruleset example above, the initial `p` is a selector that can is applied to any and every valid instance of that element. Selectors possess a wide range of specificity, including:
+In the ruleset example above, the initial `p` is a selector that can be applied to any and every valid instance of that element. Selectors possess a wide range of specificity, including:
 
 - General selection by HTML element-name.
 - Specific `class` and `id` selectors for elements.
