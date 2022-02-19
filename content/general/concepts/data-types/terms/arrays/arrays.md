@@ -12,8 +12,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# Arrays
-
 Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible.
 
 ```javascript
