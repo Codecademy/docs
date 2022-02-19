@@ -67,4 +67,4 @@ Next in the ruleset syntax is the block of declarations between the two braces `
 
 The declaration block, or attribute value, is made up of one or more declarations. In the examples, `color:blue;` is a declaration. A declaration is made up of a CSS property name, followed by a colon (`color:`) then a value, followed by a semicolon, (`blue;`).
 
-For either syntax, there can be an arbitrary number of declarations. While whitespacing has no effect, ruleset declarations are usually set on their own lines while inline style declarations are all placed on the same line.
+For either syntax, there can be an arbitrary number of declarations. While whitespace has no effect, ruleset declarations are usually set on their own lines while inline style declarations are all placed on the same line.
