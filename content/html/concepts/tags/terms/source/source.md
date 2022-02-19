@@ -8,7 +8,6 @@ Tags:
   - 'Tags'
   - 'DOM'
   - 'Elements'
-  - 'Semantic'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
@@ -20,8 +19,8 @@ The `<source>` element allows for multiple sources to be in one element in case 
 
 ```html
 <video>
-  <source src = "./video.mp4" type="video/mp4">
-  <source src = "./video.webm" type="video/webm">
+  <source src="./video.mp4" type="video/mp4" />
+  <source src="./video.webm" type="video/webm" />
   Video not supported
 </video>
 ```
