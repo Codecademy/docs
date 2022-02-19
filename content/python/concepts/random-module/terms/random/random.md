@@ -1,6 +1,6 @@
 ---
 Title: 'random()'
-Description: 'Returns a psuedo-random flot between 0 and 1.'
+Description: 'Returns a psuedo-random floating-point between 0 and 1.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
