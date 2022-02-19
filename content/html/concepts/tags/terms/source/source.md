@@ -26,4 +26,4 @@ The `<source>` element allows for multiple sources to be in one element in case 
 </video>
 ```
 
-The browser will first try and play the **./video.mp4** file and if it can't it will try the **./video.webm** file. And if neither of those work it will display "Video not supported". You can have as many `<source>` elements as you want as long as you have files for each one.
+The browser will first try and play the **./video.mp4** file and if it can't it will try the **./video.webm** file. And if neither of those work it will display "Video not supported". A large amount of `<source>` elements can be used as long as there is a valid file sourced for each one.
