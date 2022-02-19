@@ -21,9 +21,9 @@ In computer programming, primitive data types are the building blocks for any va
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. Learn more [here](https://www.codecademy.com/resources/docs/general/data-types/numbers) |
-| String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` Learn more [here](https://www.codecademy.com/resources/docs/general/data-types/strings) |
-| Boolean | Booleans hold a `true` or `false` value. Learn more [here](https://www.codecademy.com/resources/docs/general/data-types/booleans) |
+| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. Learn more [place holder](place holder) |
+| String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` Learn more [here](https://www.codecademy.com/resources/docs/general/string) |
+| Boolean | Booleans hold a `true` or `false` value. Learn more [place holder](place holder) |
 
 ## Composite Data Types
 
@@ -32,8 +32,8 @@ While primitive types are the building blocks, composite data types are the buil
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Array | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. Learn more [here](https://www.codecademy.com/resources/docs/general/data-types/arrays) |
-| Object | Objects are groups of related data that are usually organized as property-value pairs. |
+| Array | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. Learn more [here](https://www.codecademy.com/resources/docs/general/array) |
+| Object | Objects are groups of related data that are usually organized as property-value pairs. Learn more [here](https://www.codecademy.com/resources/docs/general/object) |
 | Class | Templates for objects that may contain properties or methods. |
 
 ## Other Common Data Types
@@ -45,7 +45,7 @@ Data types have gone beyond just composites and primitives and include ones with
 | --- | --- |
 | Null | `null` or `nil` represents the absence of a value. |
 | Undefined | Undefined represents a value that has not yet been defined. |
-| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. Learn more [here](https://www.codecademy.com/resources/docs/general/data-types/functions) |
+| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. Learn more [place holder](place holder) |
 | Void | Sets a function to have side effects but return no specific result. Common in C-based languages. |
 | Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
