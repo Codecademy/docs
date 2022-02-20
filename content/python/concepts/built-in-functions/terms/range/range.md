@@ -19,7 +19,7 @@ The `range()` function returns a sequence of numbers based on the given range.
 
 ```pseudo
 range(stop)
-range(start, stop)
+range(start = 0, stop)
 range(start = 0, stop, step = 1)
 ```
 
