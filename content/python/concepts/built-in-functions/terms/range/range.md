@@ -51,7 +51,7 @@ print(list(y))
 # Output: [5,6,7,8,9,10]
 ```
 
-## Example 3
+## Codebyte Example
 
 Here the range is set to start at 10, stop before 60, and increment by 10.
 
