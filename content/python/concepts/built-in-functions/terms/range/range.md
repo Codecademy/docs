@@ -54,6 +54,4 @@ In the example below, the range is set to 10 and increments by 10, stopping befo
 z = range(10, 60, 10)
 
 print(list(z))
-
-# Output: [10,20,30,40,50]
 ```
