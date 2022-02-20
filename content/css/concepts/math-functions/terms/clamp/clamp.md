@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `clamp()` function restricts a given value between an upper and lower bound. In this way acts like a combination of the [`min()`]https://www.codecademy.com/resources/docs/css/math-functions/min and [`max()`](https://www.codecademy.com/resources/docs/css/math-functions/max) functions.
+The `clamp()` function restricts a given value between an upper and lower bound. In this way acts like a combination of the [`min()`](https://www.codecademy.com/resources/docs/css/math-functions/min) and [`max()`](https://www.codecademy.com/resources/docs/css/math-functions/max) functions.
 
 ## Syntax
 
