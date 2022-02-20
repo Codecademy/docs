@@ -34,7 +34,8 @@ Each argument of the `clamp()` function can be one of the following:
 
 ```css
 .display-font {
-  font-size: clamp(2rem, 3vw, 5rem)
+  font-size: clamp(2rem, 3vw, 5rem);
 }
 ```
+
 This results in a font size for `.display-font` elements that will change with the viewport width, but not smaller than 2rem or larger than 5rem.
