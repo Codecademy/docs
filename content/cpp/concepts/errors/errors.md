@@ -31,7 +31,7 @@ A link-time or linker error occurs when the executable for the program cannot be
 An example of this is shown below, where the function `peopleReadingThis` is declared but not defined, calling it generates an error.
 
 ```cpp
-//initialize a variable
+// Initialize a variable
 int person = 1;
 
 //declare function
