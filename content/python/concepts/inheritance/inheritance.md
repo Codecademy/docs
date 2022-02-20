@@ -195,9 +195,9 @@ class AbstractClass(ABC):
     pass
 ```
 
-`AbstractClass` is derived from `ABC`, making it an Abstract Base Class.
+`AbstractClass` is derived from `ABC`, making it an Abstract Base Class. This tells users of the module that `AbstractClass` can not be instantiated, only inherited.
 
-`.calculate_payroll()` decorates the method with the `@abstractmethod` decorator. This tells users of the module that objects of class `Employee` can’t be created. It also tells other developers that if they derive from the `Employee` class, they must override the `.calculate_payroll()` abstract method by defining it in the inherited class.
+`.calculate_payroll()` is decorated with `@abstractmethod`, denoting it as an abstract method. This tells developers that if they wish to inherit from `AbstractClass`, they must override the `.calculate_payroll()` method. Otherwise, the derived class cannot be instantiated.
 
 ## Types of Inheritance
 
