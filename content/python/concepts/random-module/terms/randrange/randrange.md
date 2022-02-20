@@ -18,7 +18,7 @@ The `random.randrange()` function selects a random number from a defined range o
 ## Syntax
 
 ```pseudo
-random.randrange(start, stop, steps)
+random.randrange(start, stop, step)
 ```
 
 ## Example
