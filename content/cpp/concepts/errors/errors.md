@@ -62,7 +62,6 @@ When a program doesn't yield expected results, it is often due to a logic error.
 The following example should print `Someone is reading this` when `person` is set to one or greater. Otherwise, it should print `Not a single person is reading this`:
 
 ```cpp
-
 int person = 1;
 if (person > 1) {
   std::cout << "Someone is reading this";
