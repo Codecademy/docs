@@ -24,8 +24,8 @@ range(start, stop, step)
 ```
 
 - `stop` (required) specifies where to stop. Range ends at `stop - 1`.
-- `start` (optional) specifies where to start. Default is 0.
-- `step` (optional) specifies incrementation. Default is 1.
+- `start` (optional): specifies where the range will start, defaulting at 0.
+- `step` (optional): specifies how many steps the range will increment be reaching the end, defaulting to 1.
 
 ## Example
 
