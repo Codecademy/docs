@@ -27,7 +27,7 @@ range(start, stop, step)
 - `start` (optional) specifies where to start. Default is 0.
 - `step` (optional) specifies incrementation. Default is 1.
 
-## Example 1
+## Example
 
 Here the range is set to stop before 5.
 
