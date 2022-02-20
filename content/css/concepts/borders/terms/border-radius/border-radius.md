@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 The `border-radius` property defines rounded corners on an element. It allows separate radii for each corner and can have from one to four values.
+
 ## Syntax
 
 ```pseudo
@@ -56,7 +57,7 @@ Sets a 3px solid black border around each header 1 element with 25px rounding on
 
 ```css
 #with-background {
-  background: #73AD21;
+  background: #73ad21;
   border-radius: 25px;
 }
 ```
