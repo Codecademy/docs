@@ -43,7 +43,7 @@ grid: <grid-auto-flow> <grid-auto-rows> / <grid-template-columns>;
 ```css
 .my-grid {
   display: grid;
-  grid: repeat(3, 200px) / 25% 75%
+  grid: repeat(3, 200px) / 25% 75%;
 }
 ```
 
@@ -54,11 +54,8 @@ Defines a grid that has first three rows 200px tall, one column at 25% and the o
 ```css
 .my-grid {
   display: grid;
-  grid: auto / auto auto auto
+  grid: auto / auto auto auto;
 }
 ```
 
 Defines a grid that's three columns wide and has auto-sized rows and columns.
-
-
-
