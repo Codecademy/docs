@@ -50,8 +50,6 @@ print(list(y))
 
 In the example below, the range is set to 10 and increments by 10, stopping before 60:
 
-`range(start, stop, step)`
-
 ```codebyte/py
 z = range(10, 60, 10)
 
