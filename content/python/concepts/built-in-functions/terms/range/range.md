@@ -23,7 +23,7 @@ range(start, stop)
 range(start, stop, step)
 ```
 
-- `stop` (required) specifies where to stop. Range ends at `stop - 1`.
+- `stop` (required): specifies where the range will stop, ending at `stop - 1` due to zero-indexing.
 - `start` (optional): specifies where the range will start, defaulting at 0.
 - `step` (optional): specifies how many steps the range will increment be reaching the end, defaulting to 1.
 
