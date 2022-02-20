@@ -18,7 +18,7 @@ The `clamp()` function restricts a given value between an upper and lower bound.
 ## Syntax
 
 ```pseudo
-<property>: clamp(<lower bound><value><upper bound>)
+<property>: clamp(<lower bound>, <value>, <upper bound>)
 ```
 
 The value will be the given `<value>` as long as it is between the `<lower bound>` and `<upper bound>`. The minimum value returned will be the `<lower bound>` and the maximum value returned will be the `<upper bound>`.
