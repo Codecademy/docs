@@ -26,7 +26,7 @@ Another way of writing this would be `randrange(int_a, int_b + 1)`.
 
 In the example below, `random.randint()` is used to return a random number between `0` and `50`:
 
-```codebyte/py
+```py
 import random
 
 print(random.randint(0, 50))
