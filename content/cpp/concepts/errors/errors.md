@@ -37,7 +37,7 @@ int person = 1;
 // Declare function
 string peopleReadingThis(int);
 
-//call function
+// Call function
 peopleReadingThis(person); // Error: expecting a definition
 ```
 
