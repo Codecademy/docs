@@ -34,7 +34,7 @@ An example of this is shown below, where the function `peopleReadingThis` is dec
 // Initialize a variable
 int person = 1;
 
-//declare function
+// Declare function
 string peopleReadingThis(int);
 
 //call function
