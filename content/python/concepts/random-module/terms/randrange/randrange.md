@@ -1,5 +1,5 @@
 ---
-Title: 'random.randrange()'
+Title: '.randrange()'
 Description: 'Generates random numbers from a defined range of int values.'
 Subjects:
   - 'Computer Science'
@@ -13,29 +13,29 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.randrange()` method generates random numbers from a defined range of `int` values.
+The `random.randrange()` function generates random numbers from a defined range of `int` values.
 
 ## Syntax
 
-```py
+```pseudo
 random.randrange(start, stop, steps)
 ```
 
-## Example 1
+## Example
 
-Use `random.randrange()` to return a random number between `0` and `99`:
+Here, `random.randrange()` is used to return a random number between `0` and `99`:
 
-```codebyte/python
+```py
 import random
 
 print(random.randrange(0, 100))
 ```
 
-## Example 2
+## Codebyte Example
 
-Use `random.randrange()` to return a random number between `0` and `99` and is divisible by `5`:
+In the example below, `random.randrange()` is used to return a random number that is between `0` and `99` and divisible by `5`:
 
-```codebyte/python
+```codebyte/py
 import random
 
 print(random.randrange(0, 100, 5))
