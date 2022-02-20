@@ -53,7 +53,7 @@ print(list(y))
 
 ## Codebyte Example
 
-Here the range is set to start at 10, stop before 60, and increment by 10.
+In the example below, the range is set to 10 and increments by 10, stopping before 60:
 
 `range(start, stop, step)`
 
