@@ -62,3 +62,19 @@ let english = Language(alphabet: "abcdefghijklmnopqrstuvwxyz")
 print(english.alphabet)
 // Output: abcdefghijklmnopqrstuvwxyz
 ```
+
+## Built-in Protocols
+
+Swift includes certain built-in protocols.
+
+### CaseIterable
+
+[`CaseIterable`](https://developer.apple.com/documentation/swift/caseiterable) has an `allCases` property. An enumeration can adopt this protocol to gain access to all its values.
+
+```swift
+enum MageAdvancementTree: CaseIterable {
+  case novice, firstJob, secondJob, thirdJob, fourthJob
+}
+print("You will have \(MageAdvancementTree.allCases.count) different jobs as a Mage.")
+// Output: You will have 5 different jobs as a Mage.
+```
