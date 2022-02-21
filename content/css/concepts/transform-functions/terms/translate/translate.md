@@ -1,5 +1,5 @@
 ---
-Title: 'translate'
+Title: 'translate()'
 Description: 'Translates an element along the X and/or Y axes.'
 Subjects:
   - 'Web Development'
