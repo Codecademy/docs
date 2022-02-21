@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `translateY` property translates an element along the Y axis.
+The `translateY` function translates an element along the Y axis.
 
 ## Syntax
 
