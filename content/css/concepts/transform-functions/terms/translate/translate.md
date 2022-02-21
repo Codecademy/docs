@@ -1,5 +1,5 @@
 ---
-Title: 'translate()'
+Title: 'translate'
 Description: 'Translates an element by one or more axes.'
 Subjects:
   - 'Web Development'
@@ -13,12 +13,16 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Translates an element by one or more axes.
+Translates an element along the X and/or Y axes.
 
 ## Syntax
 
-```css
-transform: translate(<value>);
+```pseudo
+/* With a single value */
+transform: translate(<X-value>);
+
+/* With both values */
+transform: translate(<X-value>, <Y-value>);
 ```
 
 where a required `<value>` can be one of the following:
@@ -26,11 +30,11 @@ where a required `<value>` can be one of the following:
 - Length value: `100px`, `1.5em`
 - Percentage value: `25%`, `50%`
 
-**Note:** Providing only a single value will represent the horizontal axis. Providing a second comma separated value will represent the vertical axis. Values can be negative to translate elements in the opposite direction along the axes.
+Providing only a single value will represent the horizontal axis. Providing a second comma separated value will represent the vertical axis. A positive value moves the element right along the horizontal axis and down the vertical axis while a negative value moves the element left along the horizontal axis and up the vertical axis.
 
 ## Example 1
 
-Move the `.box` element `100px` along the horizontal axis:
+Move the `.box` element `100px` right along the horizontal axis:
 
 ```css
 .box {
@@ -40,7 +44,7 @@ Move the `.box` element `100px` along the horizontal axis:
 
 ## Example 2
 
-Move the `.box` element along the horizontal axis `200px` and `100px` up the vertical axis:
+Move the `.box` element `200px` tight along the horizontal axis and `100px` up the vertical axis:
 
 ```css
 .box {
