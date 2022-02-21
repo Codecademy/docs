@@ -1,5 +1,5 @@
 ---
-Title: 'rotate()'
+Title: 'rotate'
 Description: 'Rotates an element around a fixed point in a 2D space.'
 Subjects:
   - 'Web Development'
