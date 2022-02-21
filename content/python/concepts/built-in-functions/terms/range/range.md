@@ -33,18 +33,17 @@ Here, the range is set to stop before 5.
 
 ```python
 x = range(5)
-
-print(list(x))
-
-# Output: [0,1,2,3,4]
-```
-
-```python
 y = range(5, 11)
 
-print(list(y))
+print("x: ", list(x))
+print("y: ", list(y))
+```
 
-# Output: [5,6,7,8,9,10]
+The output from the code above would look like this:
+
+```shell
+x: [0,1,2,3,4]
+y: [5,6,7,8,9,10]
 ```
 
 ## Codebyte Example
@@ -54,5 +53,5 @@ In the example below, the range is set to 10 and increments by 10, stopping befo
 ```codebyte/py
 z = range(10, 60, 10)
 
-print(list(z))
+print("z: ", list(z))
 ```
