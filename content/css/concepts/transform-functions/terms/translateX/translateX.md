@@ -1,6 +1,6 @@
 ---
 Title: 'translateX'
-Description: 'Translates an element by one or more axes.'
+Description: 'Translates an element along the X axis.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
