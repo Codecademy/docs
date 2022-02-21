@@ -26,7 +26,7 @@ The required `<value>` can be one of the following:
 - Length value: `100px`, `1.5em`
 - Percentage value: `25%`, `50%`
 
-A positive value moves the element down the virtical axis while a negative value will move an element up.
+A positive value moves the element down the vertical axis while a negative value will move an element up.
 
 ## Example 1
 
