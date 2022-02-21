@@ -1,5 +1,5 @@
 ---
-Title: 'scale()'
+Title: 'scale'
 Description: 'Changes the size of an element to make it larger or smaller.'
 Subjects:
   - 'Web Development'
