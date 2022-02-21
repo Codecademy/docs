@@ -1,5 +1,5 @@
 ---
-Title: 'translateX'
+Title: 'translateX()'
 Description: 'Translates an element along the X axis.'
 Subjects:
   - 'Web Development'
@@ -18,7 +18,7 @@ The `translateX` property translates an element along the X axis.
 ## Syntax
 
 ```pseudo
-translateX: <value>;
+transform: translateX(<value>);
 ```
 
 The required `<value>` can be one of the following:
@@ -28,7 +28,7 @@ The required `<value>` can be one of the following:
 
 A positive value moves an element right along the horizontal axis while a negative value will move an element left.
 
-Note: `translateX: <value>;` is functionally equivalent to `translate: <value>;` when [`translate`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) is called with a single value.
+Note: `translateX(<value>)` is functionally equivalent to `translate(<value>)` when [`translate`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) is called with a single value.
 
 ## Example 1
 
