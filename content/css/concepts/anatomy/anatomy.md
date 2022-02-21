@@ -15,9 +15,9 @@ CatalogContent:
 
 The anatomy of [CSS](https://www.codecademy.com/resources/docs/css) style syntax applies to the two methods of incorporating CSS into a web-page:
 
-- A _ruleset_ that is defined within either the [HTML](https://www.codecademy.com/resources/docs/html) document itself, or in one or more separate files (known as stylesheets) that use the **.css** extension.
+- Rulesets: A ruleset is defined within either the [HTML](https://www.codecademy.com/resources/docs/html) document itself, or in one or more separate files (known as stylesheets) that use the **.css** extension.
 
-- _Inline styles_ can be applied [attributes](https://www.codecademy.com/resources/docs/html/attributes) for styling individual [HTML elements](https://www.codecademy.com/resources/docs/html/elements) directly.
+- Inline styles: An inline style is set in a `style` [attribute](https://www.codecademy.com/resources/docs/html/attributes) and applies to individual [HTML elements](https://www.codecademy.com/resources/docs/html/elements) directly.
 
 While inline styles are directly applied to a single element, rulesets can define multiple styles across multiple elements. Another key difference between the two is that a ruleset can utilize `id` and `class` [selectors](https://www.codecademy.com/resources/docs/css/selectors) to identify targeted elements, as well as designating children of specific parent-elements.
 
