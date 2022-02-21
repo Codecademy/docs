@@ -29,7 +29,7 @@ range(start = 0, stop, step = 1)
 
 ## Example
 
-Here the range is set to stop before 5.
+Here, the range is set to stop before 5.
 
 ```python
 x = range(5)
@@ -38,6 +38,7 @@ print(list(x))
 
 # Output: [0,1,2,3,4]
 ```
+
 ```python
 y = range(5, 11)
 
