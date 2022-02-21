@@ -1,5 +1,5 @@
 ---
-Title: 'translateY'
+Title: 'translateY()'
 Description: 'Translates an element along the Y axis.'
 Subjects:
   - 'Web Development'
@@ -18,7 +18,7 @@ The `translateY` property translates an element along the Y axis.
 ## Syntax
 
 ```pseudo
-translateY: <value>;
+transform: translateY(<value>);
 ```
 
 The required `<value>` can be one of the following:
