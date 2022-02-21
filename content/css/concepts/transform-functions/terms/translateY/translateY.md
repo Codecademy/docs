@@ -30,7 +30,7 @@ A positive value moves the element down the virtical axis while a negative value
 
 ## Example 1
 
-Move the `.box` element `100px` down the vertical axis:
+Move the `.box` element `100px` down:
 
 ```css
 .box {
@@ -40,7 +40,7 @@ Move the `.box` element `100px` down the vertical axis:
 
 ## Example 2
 
-Move the `.box` element `10em` up along the vertical axis:
+Move the `.box` element `10em` up:
 
 ```css
 .box {
