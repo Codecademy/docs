@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'Errors make it easier to locate and correct problems within the source code.'
+Description: 'In C++, errors help with locating and correcting problems within the source code.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
