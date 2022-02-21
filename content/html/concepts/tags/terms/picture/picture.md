@@ -1,6 +1,6 @@
 ---
 Title: '<picture>'
-Description: 'The <picture> tag gives developers more flexibility when specifying image resources.'
+Description: 'Gives developers more flexibility when specifying image resources.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
