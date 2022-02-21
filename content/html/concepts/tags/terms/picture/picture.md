@@ -26,7 +26,7 @@ Represents a generic division of content. It has no semantic meaning but will se
 ## Example
 
 The `<picture>` tag is typically used with one or more `<source>` elements and one `<img>` element in order to offer different versions of an image for different scenarios.
-Using different sources allows more options for the browser. The `<img>` tag is used as the last child of the `<picture>` element and not only does it describe attributes of the image
+Using different sources allows more options for the browser. The `<img>` tag is used as the last child of the `<picture>` element. It describes the attributes of the image
 it is also used as a fallback if any of the sources fail to meet the required specifications.
 
 ```html
