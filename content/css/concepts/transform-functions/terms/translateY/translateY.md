@@ -1,6 +1,6 @@
 ---
 Title: 'translateY'
-Description: 'Translates an element by one or more axes.'
+Description: 'Translates an element along the Y axis.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
