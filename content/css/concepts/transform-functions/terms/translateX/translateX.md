@@ -1,5 +1,5 @@
 ---
-Title: 'translateX()'
+Title: 'translateX'
 Description: 'Translates an element by one or more axes.'
 Subjects:
   - 'Web Development'
