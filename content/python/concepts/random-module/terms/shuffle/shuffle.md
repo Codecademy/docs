@@ -1,5 +1,5 @@
 ---
-Title: 'shuffle()'
+Title: '.shuffle()'
 Description: 'Takes a list and randomly re-orders the contents.'
 Subjects:
   - 'Computer Science'
