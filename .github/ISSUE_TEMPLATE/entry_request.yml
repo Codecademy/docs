@@ -1,6 +1,6 @@
 name: Entry Request
 description: Request for a single new topic, concept, or term entry.
-title: "[Entry] Topic : Entry Name"
+title: "[Entry] Subject: Entry Name"
 labels: ["new entry"]
 assignees: "Name here"
 body:
@@ -37,6 +37,6 @@ body:
       label: For Maintainers
       options:
         - label: Labels added
-          required: true
+          required: false
         - label: Issue is assigned
           required: false
