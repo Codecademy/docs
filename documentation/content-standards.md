@@ -24,7 +24,7 @@ Some of these entries, such as the Python's [Lists](https://www.codecademy.com/r
 
 Term entries are like sub-entries that covers a concept's functions, methods, properties, etc. They are featured in a table of links located at the bottom of its relevant concept entry.
 
-The [Python: Lists](https://www.codecademy.com/resources/docs/python/lists) entry, for example, features a table of term entires including:
+The Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, for example, features a table of term entries including:
 
 - [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
 - [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
