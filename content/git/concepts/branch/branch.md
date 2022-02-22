@@ -1,6 +1,6 @@
 ---
 Title: 'Branch'
-Description: 'In Git, a branch represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.  The basic syntax for creating a branch in Git is this: shell git branch   Using this command from  will create a new branch called  based off of the code that is currently in .'
+Description: 'In Git a branch represents a way to provide an isolated copy of the current code and can be modified without affecting the original code.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'

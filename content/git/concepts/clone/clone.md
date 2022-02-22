@@ -1,6 +1,6 @@
 ---
 Title: 'Clone'
-Description: 'In Git, cloning means copying an existing remote repository to your current directory. Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on your computer. Heres a command that will help you interact with a remote branch &mdash; a branch on a server that can be accessed through the internet. The basic syntax for cloning in Git is this: shell git clone   For example, if you want to clone Codecademy Docs, you can do so like this:'
+Description: 'Cloning means copying an existing remote repository to your current local directory.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'

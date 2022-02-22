@@ -1,6 +1,6 @@
 ---
 Title: 'Init'
-Description: 'In Git, init is used to initiate the process of creating a repository. When beginning a new project, this is the first step to take in order to track changes to the code throughout all files and folders. shell git init  Make sure to be working from the correct directory; the cd command can be used to navigate the filesystem. shell cd go/to/desired/project/directory'
+Description: 'In Git, init is used to initialize a repository. When beginning a new project, this is the first step to take in order to track changes.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
