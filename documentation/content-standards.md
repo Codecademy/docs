@@ -18,7 +18,7 @@ Python (language specific):
 - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
 - [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries)
 
-Some of these entries, such as the [Python: Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
+Some of these entries, such as the Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, will have a terms table at the bottom with more nested term entries.
 
 ## 2. Term Entry
 
