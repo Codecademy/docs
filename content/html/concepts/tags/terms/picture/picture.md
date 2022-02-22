@@ -27,7 +27,8 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ## Example
 
-The `<picture>` tag is typically used with one or more `<source>` elements and one `<img>` element in order to offer different versions of an image for different scenarios.
+The `<picture>` tag is used with zero or more `<source>` elements followed by one [`<img>` element ](https://www.codecademy.com/resources/docs/html/images).
+
 Using different sources allows more options for the browser. The `<img>` tag is used as the last child of the `<picture>` element. It describes the attributes of the image
 and acts as a fallback if any of the sources fail to meet the required specifications.
 
