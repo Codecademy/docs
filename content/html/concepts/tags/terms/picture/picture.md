@@ -44,6 +44,7 @@ Using different sources provides more options for the browser with regards to th
 </html>
 ```
 
-A use case for this example is **Art Direction** where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
+Some use cases for this example include the following:
 
-Another use case is **Page Load Time Optimization**. In situations when certain images take longer to load, having an alternative image that loads faster improves the page load time.
+* Art direction, where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
+* Optimizing page load times in situations where certain images take longer to load and having an alternative image that loads faster comes in handy.
