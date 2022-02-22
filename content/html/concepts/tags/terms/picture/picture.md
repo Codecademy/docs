@@ -17,7 +17,8 @@ Represents a generic division of content. It has no semantic meaning but will se
 
 ```pseudo
 <picture>
-  <!-- source and image tags go here -->
+  <!-- zero or more source tags go here -->
+  <!-- followed by one img tag here -->
 </picture>
 ```
 
