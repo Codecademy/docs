@@ -15,6 +15,14 @@ CatalogContent:
 
 The `random.shuffle()` method takes a list as a parameter and randomly re-orders the contents in place.
 
+## Syntax
+
+```pseudo
+random.shuffle(<list>)
+```
+
+Where `<list>` is the list of items to be shuffled in place. 
+
 ## Codebyte Example
 
 ```codebyte/py
