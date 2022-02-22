@@ -15,7 +15,7 @@ Represents a generic division of content. It has no semantic meaning but will se
 
 ## Syntax
 
-```html
+```pseudo
 <picture>
   <!-- source and image tags go here -->
 </picture>
