@@ -1,6 +1,6 @@
 ---
 Title: '<picture>'
-Description: 'Gives developers more flexibility when specifying image resources.'
+Description: 'Represents multiple possible image sources to be applied to different devices and screen-sizes.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
