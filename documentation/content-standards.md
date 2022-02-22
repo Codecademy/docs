@@ -30,7 +30,7 @@ The Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) ent
 - [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
 - [.copy()](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
 
-## Standards: Components of an Entry
+## Components of an Entry
 
 All Codecademy Docs entries are Markdown files and should consist of three parts:
 
