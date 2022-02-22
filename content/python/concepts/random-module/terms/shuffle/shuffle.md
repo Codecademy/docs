@@ -21,7 +21,7 @@ The `random.shuffle()` method takes a list as a parameter and randomly re-orders
 random.shuffle(<list>)
 ```
 
-Where `<list>` is the list of items to be shuffled in place. 
+Where `<list>` is the list of items to be shuffled in place.
 
 ## Codebyte Example
 
