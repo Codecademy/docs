@@ -40,7 +40,6 @@ peopleReadingThis(person); // Error: expecting a definition
 
 Although the `person` variable is a valid argument for `peopleReadingThis()`, the function's body was never defined and so calling it causes the error.
 
-
 ## Run-Time Errors
 
 An error that occurs after successful execution of the program is called a run-time error. This can happen when excessive memory is used.
