@@ -20,16 +20,16 @@ Some of the basic Git commands have been performed only on a local branch, that 
 
 The basic syntax for cloning in Git via HTTPS is this:
 
-```shell
-git clone <repo-URL>.git
+```psuedo
+git clone https://github.com/repository/URL.git
 ```
 
 ## Example
 
-For example, if you want to clone [Codecademy Docs](https://github.com/codecademy/docs), you can do so like this:
+In the example below, `git clone` is run to clone the repository for [Codecademy Docs](https://github.com/codecademy/docs), you can do so like this:
 
 ```shell
-$ git clone https://github.com/codecademy/docs.git
+$ git clone https://github.com/Codecademy/docs.git
 
   Cloning into 'docs'...
   remote: Enumerating objects: 21512, done.

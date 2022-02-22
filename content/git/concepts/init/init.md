@@ -22,11 +22,11 @@ git init
 
 ## Initializing a Git Repository
 
-### Step 1: Navigate to the Correct Directory
+### Step 1: Navigate to the Desired Directory
 
-The `init` command initializes a Git repository in the current directory. Prior to using this command, users must take care to navigate to the appropriate directory&mdash;typically, the root directory of the project. The `cd` command can be used to navigate the filesystem from the command line:
+The `init` command initializes a Git repository in the current directory. Prior to using this command, users must take care to navigate to the appropriate directory &mdash; this will become the root directory of the repository. The `cd` command can be used to navigate the filesystem from the command line:
 
-```shell
+```pseudo
 cd go/to/desired/project/directory
 ```
 

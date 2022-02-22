@@ -51,7 +51,7 @@ The file now appears in green when running `git status`, indicating that it is s
 
 There are many extentions to the `git add` command such as:
 
-1. `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
-2. `-f`: Which stages all files including those which are ignored.
-3. `.` : Which stages all the files in the current directory. (On the command line, the use of `.` references the directory a user is currently in.)
-4. `-A`: Which stages all the files in the current directory as well as subdirectories.
+- `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
+- `-f`: Which stages all files including those which are ignored.
+- `.` : Which stages all the files in the current directory. (On the command line, the use of `.` references the directory a user is currently in.)
+- `-A`: Which stages all the files in the current directory as well as subdirectories.

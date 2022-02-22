@@ -27,7 +27,7 @@ git commit
 Before using `git commit`, make sure to have all the neccessary files staged for the commit.
 
 ```shell
-git add <filename>
+git add filename
 ```
 
 The `git add .` command can be used to add all files in the current directory.
@@ -44,7 +44,7 @@ Note: Using the `git commit` command by itself will open up an editor (usually s
 
 Here is an example of what the commit message prompt might look like when using `git commit`:
 
-```sh
+```shell
 Add git_practice.js and install dependencies
 
 # Please enter the commit message for your changes. Lines starting
