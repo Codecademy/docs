@@ -38,7 +38,7 @@ Using different sources provides more options for the browser with regards to th
     <picture>
       <source media="(min-width:700px)" srcset="img_white_shoes.jpg" />
       <source media="(min-width:540px)" srcset="img_blue_shoes.jpg" />
-      <img src="img_red_shoes.jpg" alt="Shoes" style="width:auto;" />
+      <img src="img_red_shoes.jpg" alt="Red Shoes" style="width:auto;" />
     </picture>
   </body>
 </html>
