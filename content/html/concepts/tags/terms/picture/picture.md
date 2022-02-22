@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Images'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
