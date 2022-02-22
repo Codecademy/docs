@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<picture>` tag represents multiple possible image sources to be applied to different devices and screen-sizes. While it has no semantic meaning, `<picture>` will separate its contents from the rest of the document.
+The `<picture>` tag represents multiple possible image sources to be applied to different devices and screen-sizes. While it has no semantic meaning, the `<picture>` tag will separate its contents from the rest of the document.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ## Example
 
-The `<picture>` tag is used with zero or more `<source>` elements followed by one [`<img>` element ](https://www.codecademy.com/resources/docs/html/images).
+The `<picture>` tag is used with zero or more `<source>` elements followed by one [`<img>` element](https://www.codecademy.com/resources/docs/html/images).
 
 Using different sources provides more options for the browser with regards to the screen or host device. The `<img>` tag is used as the last option of the `<picture>` element, acting as a fallback if any of the sources are invalid.
 
@@ -46,5 +46,5 @@ Using different sources provides more options for the browser with regards to th
 
 Some use cases for this example include the following:
 
-* Art direction, where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
-* Optimizing page load times in situations where certain images take longer to load and having an alternative image that loads faster comes in handy.
+- Art direction, where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
+- Optimizing page load times in situations where certain images take longer to load and having an alternative image that loads faster comes in handy.
