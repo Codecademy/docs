@@ -17,6 +17,12 @@ The `random.random()` method generates a pseudo-random floating-point number bet
 
 It can be useful to create a pseudo-random float less than a given number just by multiplying that number by `random.random()`.
 
+## Syntax
+
+```py
+random.random()
+```
+
 ## Codebyte Example
 
 ```codebyte/py
