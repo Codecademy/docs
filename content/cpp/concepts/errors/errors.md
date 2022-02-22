@@ -26,20 +26,20 @@ int num = 28 // Error: missing ';'
 
 ## Link-Time Errors
 
-A link-time or linker error occurs when the executable for the program cannot be created. This happens when the linker can't combine all the object files into an executable program.
+A link-time, or linker, error, occurs when the executable for the program cannot be created. This happens when the linker can't combine all the object files into an executable program.
 
-An example of this is shown below, where the function `peopleReadingThis` is declared but not defined, calling it generates an error.
+An example of this is shown below, where the function `peopleReadingThis()` is declared but not defined, and calling it generates an error. This is a common ocurrence of the link-time error:
 
 ```cpp
-// Initialize a variable
 int person = 1;
 
-// Declare function
 string peopleReadingThis(int);
 
-// Call function
 peopleReadingThis(person); // Error: expecting a definition
 ```
+
+Although the `person` variable is a valid argument for `peopleReadingThis()`, the function's body was never defined and so calling it causes the error.
+
 
 ## Run-Time Errors
 
