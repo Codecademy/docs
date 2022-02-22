@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Represents a generic division of content. It has no semantic meaning but will separate its contents from the rest of the document.
+The `<picture>` tag represents multiple possible image sources to be applied to different devices and screen-sizes. While it has no semantic meaning, `<picture>` will separate its contents from the rest of the document.
 
 ## Syntax
 
