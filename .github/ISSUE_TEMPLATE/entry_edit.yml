@@ -1,6 +1,6 @@
 name: Entry Edit
 description: Request for edits to a single existing topic, conecept, or term entry.
-title: "[Edit] Subject : Entry Name"
+title: "[Edit] Subject: Entry Name"
 labels: ["enhancement", "typo"]
 assignees: "Name here"
 body:
@@ -35,6 +35,6 @@ body:
       label: For Maintainers
       options:
         - label: Labels added
-          required: true
+          required: false
         - label: Issue is assigned
           required: false
