@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The [`random` module](https://docs.python.org/3/library/random.html) is built into Python and used for working with numbers randomly generated from collections such as [lists](https://www.codecademy.com/resources/docs/python/lists) and [strings](https://www.codecademy.com/resources/docs/python/strings).
+In Python, the built-in [`random` module](https://docs.python.org/3/library/random.html) is used to randomly generate numbers as well as randomly manipulate collections such as [lists](https://www.codecademy.com/resources/docs/python/lists) and [strings](https://www.codecademy.com/resources/docs/python/strings).
 
 This module can be used when imported at the top of a Python file:
 
