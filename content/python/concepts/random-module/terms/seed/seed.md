@@ -1,6 +1,6 @@
 ---
 Title: '.seed()'
-Description: 'Save the state of the pseudo-random number generator.'
+Description: 'Initializes a pseudo-random number generator with a seeded a value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,21 +15,23 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-Save the state of the pseudo-random number generator.
+In the Python `random` module, the `.seed()` function is used to create a pseudo-random number generator. Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed, which acts as the first "previous" value in the sequence of numbers. By using a particular seed value, a user is able to reproduce the same random numbers multiple times.
 
 ## Syntax
 
-```py
-random.seed()
+The `.seed()` function sets the first random number of the generator, either with a `value` or without one:
+
+```pseudo
+random.seed(value)
 ```
 
-Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed, which acts as the first "previous" value in the sequence of numbers. By using a particular seed value, a user is able to reproduce the same random numbers multiple times. If no value is input into the method, the random number generator will use the current system time to create the seed.
+If a `value` is not provied, the random number generator will use the current system time to create the seed. The `value` can be an `int`, `float`, `byte`, `bytearray`, or `NoneType`, and
 
-## Example 1
+## Example
 
-Use `.seed()` to initialize the pseudo-random number generator in Python with the current-time value:
+In most cases, the `.seed()` function uses the current time of the computer's system to initialize a new generator:
 
-```codebyte/python
+```py
 import random
 
 random.seed()
@@ -37,24 +39,20 @@ random.seed()
 print(random.random())
 ```
 
-## Example 2
+## Codebyte Example
 
-Use `.seed()` to initialize the pseudo-random number generator in Python with a particular value:
+In the example below, the `.seed()` function is used three times, once with no value and the other two with the same value of `5`. In the output, we will notice that each call to `random.seed(5)` guaruntees the first pseudo-random value is the same each time:
 
-```codebyte/python
+```codebyte/py
 import random
+
+random.seed()
+
+print(random.random())
 
 random.seed(5)
 
 print(random.random())
-```
-
-## Example 3
-
-Use `.seed()` to initialize the pseudo-random number generator in Python with a particular value:
-
-```codebyte/python
-import random
 
 random.seed(5)
 
