@@ -27,7 +27,7 @@ git reset <mode-option> <commit-reference>
 The `<mode-options>` refer to how far `reset` will go when rolling back changes to a previous commit, including:
 
 - Where the `HEAD` is pointing towards (usually done with just `git reset`).
-- Whether the staging area or Index, reflects the commit the `HEAD` is now pointing towards.
+- Whether the staging area or index, reflects the commit the `HEAD` is now pointing towards.
 - Whether the working tree is rolled back to reflect the changes reset in the `HEAD` and staging area.
 
 More specifically, these modes include:
@@ -46,7 +46,7 @@ The `commit-reference` refers to a commit's unique hash, or save point, that was
 
 ## Example
 
-This is what the terminal would look like after creating commit by accident on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
+This is what the terminal would look like after creating a commit by accident on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
 ```shell
 On branch main
