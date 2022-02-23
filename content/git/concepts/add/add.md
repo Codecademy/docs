@@ -16,7 +16,7 @@ In Git, adding is used to add changes from the working tree to the staging area.
 
 ## Example
 
-Below is a short example of how the `git add` command works. Assuming a change was saved in a **message.txt** text file, running `git status` will show that:
+Below is a short example of how the `git add` command works. Assuming a change was saved in a **message.txt** text file, running `git status` will show this:
 
 ```shell
 $ git status
