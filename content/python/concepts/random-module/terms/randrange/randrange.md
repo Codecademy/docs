@@ -1,6 +1,6 @@
 ---
 Title: '.randrange()'
-Description: 'Generates random numbers from a defined range of int values.'
+Description: 'Selects a random number from a defined range of int values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,12 +13,12 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.randrange()` function generates random numbers from a defined range of `int` values.
+The `random.randrange()` function selects a random number from a defined range of `int` values.
 
 ## Syntax
 
 ```pseudo
-random.randrange(start, stop, steps)
+random.randrange(start, stop, step)
 ```
 
 ## Example
