@@ -1,5 +1,5 @@
 ---
-Title: 'Booleans'
+Title: 'Boolean'
 Description: 'The boolean data type.'
 Subjects:
   - 'Code Foundations'
