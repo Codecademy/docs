@@ -19,16 +19,12 @@ Many of today's languages, therefore, treat functions as first-class objects, wh
 * They can be assigned to variables.
 * They can be passed as arguments to or returned by other functions.
 
-```javascript
-function someFunction() {
-  return 'Hello World!';
-} // nothing happends
+## Functions in Different Languages
 
-somefunction(); // outputs Hello World! because the function was called
-
-function otherFunction(name) {
-  return `Hi ${name} welcome to Codecademy docs!`;
-} // nothing happends
-
-otherFunction('Codecademy'); // outputs Hi Codecademy welcome to Codecademy docs! because the function was called and we use the Codecademy as the agument.
-```
+* [C: Functions](https://www.codecademy.com/resources/docs/c/functions)
+* [C++: Functions](https://www.codecademy.com/resources/docs/cpp/functions)
+* [JavaScript: Functions](https://www.codecademy.com/resources/docs/javascript/functions)
+* [PHP: Functions](https://www.codecademy.com/resources/docs/php/functions)
+* [Python: Functions](https://www.codecademy.com/resources/docs/python/functions)
+* [Ruby: Functions](https://www.codecademy.com/resources/docs/ruby/functions)
+* [TypeScript: Functions](https://www.codecademy.com/resources/docs/typescript/functions)
