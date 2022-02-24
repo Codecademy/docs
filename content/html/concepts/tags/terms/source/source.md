@@ -18,7 +18,7 @@ The `<source>` element allows for multiple sources to be in one element in case 
 ## Example
 
 ```html
-<video>
+<video controls>
   <source src="./video.mp4" type="video/mp4" />
   <source src="./video.webm" type="video/webm" />
   Video not supported
