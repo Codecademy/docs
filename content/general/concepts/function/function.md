@@ -1,5 +1,5 @@
 ---
-Title: 'Functions'
+Title: 'Function'
 Description: 'The function data type.'
 Subjects:
   - 'Code Foundations'
