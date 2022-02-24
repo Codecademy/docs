@@ -23,7 +23,7 @@ range(start = 0, stop)
 range(start = 0, stop, step = 1)
 ```
 
-- `stop` (required): specifies where the range will stop, ending at `stop - 1` due to zero-indexing.
+- `stop` (required): specifies where the range will stop, ending at `stop - 1` due to zero-based indexing.
 - `start` (optional): specifies where the range will start, defaulting at 0.
 - `step` (optional): specifies how many steps are taken between indexes, defaulting to 1.
 
