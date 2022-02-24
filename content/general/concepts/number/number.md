@@ -1,5 +1,5 @@
 ---
-Title: 'Numbers'
+Title: 'Number'
 Description: 'The numbers data type.'
 Subjects:
   - 'Code Foundations'
