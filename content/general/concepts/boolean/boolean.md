@@ -21,7 +21,7 @@ Because functions are derived from objects, their closest classification is with
 ## JavaScript Example
 
 The following example uses [a JavaScript conditional statement](https://www.codecademy.com/resources/docs/javascript/conditionals), along with a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` if 42 is, in fact, "42":
-```javascript
+```js
 if (true) {
   // true would always evaluate to true so the folloing line will always run.
   console.log('this will always print');
