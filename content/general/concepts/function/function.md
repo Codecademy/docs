@@ -12,7 +12,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Depending on the language, functions can be utilized as variables and arguments for other functions.
+In programming, functions hold a distinct place among the [data types](https://www.codecademy.com/resources/docs/general/data-types). While, on the surface, functions are algorithms that yield results or produce side-effects, they are usually processed as objects of data. 
+
+Many of today's languages, therefore, treat functions as first-class objects, which means:
+
+* They can be assigned to variables.
+* They can be passed as arguments to or returned by other functions.
 
 ```javascript
 function someFunction() {
