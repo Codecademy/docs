@@ -14,6 +14,9 @@ CatalogContent:
 
 Booleans hold a true or false value. Booleans are used in conditional statements. Ex:
 
+## JavaScript Example
+
+The following example uses [a JavaScript conditional statement](https://www.codecademy.com/resources/docs/javascript/conditionals), along with a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` if 42 is, in fact, "42":
 ```javascript
 if (true) {
   // true would always evaluate to true so the folloing line will always run.
