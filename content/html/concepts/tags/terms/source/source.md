@@ -25,4 +25,9 @@ The `<source>` element allows for multiple sources to be in one element in case 
 </video>
 ```
 
-The browser will first try and play the **./video.mp4** file and if it can't it will try the **./video.webm** file. And if neither of those work it will display "Video not supported". A large amount of `<source>` elements can be used as long as there is a valid file sourced for each one.
+The browser will first try and play the **./video.mp4** file and if it can't it will try the **./video.webm** file. If neither of those work one of the following will happen:
+
+* `<video>` will remain inline within the page's markup with only the controls visible (if they're enabled).
+* Fallback content (like "Video not supported") is displayed for browsers that do not support HTML5, which includes the `<audio>` or `<video>` tags.
+
+A large amount of `<source>` elements can be used as long as there is a valid file sourced for each one.
