@@ -1,6 +1,6 @@
 ---
 Title: 'Boolean'
-Description: 'The boolean data type.'
+Description: 'The boolean data type represents the logical values of true and false.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
