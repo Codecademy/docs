@@ -21,9 +21,9 @@ In computer programming, primitive data types are the building blocks for any va
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. Learn more [here](https://www.codecademy.com/resources/docs/general/number) |
-| String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` Learn more [here](https://www.codecademy.com/resources/docs/general/string) |
-| Boolean | Booleans hold a `true` or `false` value. Learn more [here](https://www.codecademy.com/resources/docs/general/boolean) |
+| [Number](https://www.codecademy.com/resources/docs/general/number) | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
+| [String](https://www.codecademy.com/resources/docs/general/string) | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Booleans hold a `true` or `false` value. |
 
 ## Composite Data Types
 
