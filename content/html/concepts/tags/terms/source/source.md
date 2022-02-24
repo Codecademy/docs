@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<source>` element allows for multiple sources to be in one element in case one type is not supported. The `<source>` element is nested within an `<video>`, `<img>` or another tag that embeds content. It allows for multiple files to be referenced in one element in case a file type is not supported. If one file type can not be displayed, the browser will attempt to display the next.
+The `<source>` element allows for multiple sources or file formats to be associated with the `<audio>`, `<video>`, and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content.
 
 ## Example
 
