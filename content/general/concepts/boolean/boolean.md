@@ -12,7 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Booleans hold a true or false value. Booleans are used in conditional statements. Ex:
+Booleans hold a true or false value and are mostly used in conditional statements to control a program's flow of execution. This data type is named after George Boole, a 19th century English logician.
+
+Some languages use comparison operators (`>=`, `==`, `is`, `not`, etc.) to produce boolean values, while others may use "falsy" values like `""`, `null`, or `0`. Some even use a combination of both of these approaches.
+
+Because functions are derived from objects, their closest classification is with composite data types.
 
 ## JavaScript Example
 
