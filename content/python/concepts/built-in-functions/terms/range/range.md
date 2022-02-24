@@ -29,7 +29,7 @@ range(start = 0, stop, step = 1)
 
 ## Example
 
-Here, the range is set to stop before 5.
+Here, two variables are created. One with the range set to stop before 5. The other is set to start at 5 and stop before 11. Both are converted to [lists](https://www.codecademy.com/resources/docs/python/lists) before being printed.
 
 ```python
 x = range(5)
