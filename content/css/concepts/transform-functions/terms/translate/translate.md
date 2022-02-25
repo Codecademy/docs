@@ -44,7 +44,7 @@ Move the `.box` element `100px` right along the horizontal axis:
 
 ## Example 2
 
-Move the `.box` element `200px` tight along the horizontal axis and `100px` up the vertical axis:
+Move the `.box` element `200px` along the horizontal X-axis and `100px` up the vertical Y-axis:
 
 ```css
 .box {
