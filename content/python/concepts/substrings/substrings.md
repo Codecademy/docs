@@ -86,7 +86,7 @@ print(reversed)
 
 ### Keyword `in`
 
-The `in` keyword checks for a specific value in a sequence. The following checks for `de` in `string`:
+The `in` keyword can be used to check for a specific substring, like in the example below:
 
 ```python
 print('de' in string)
