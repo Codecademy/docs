@@ -62,4 +62,4 @@ Sets a 3-pixel solid black border around each heading element with 25-pixel roun
 }
 ```
 
-The #with-background element will have 25px rounded corners, even if no border is displayed.
+The element with an `id` of `with-background`, will have 25-pixel rounded corners, even if no border is displayed.
