@@ -15,7 +15,6 @@ CatalogContent:
 
 The `random.random()` method accepts no parameters and returns a pseudo-random floating-point number between 0.0 and 1.0.
 
-It can be useful to create a pseudo-random float less than a given number just by multiplying that number by `random.random()`.
 
 ## Syntax
 
