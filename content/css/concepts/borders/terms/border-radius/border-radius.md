@@ -40,7 +40,7 @@ p {
 }
 ```
 
-Sets a 1px blue border around each paragraph with 10px rounded corners.
+Sets a 1-pixel blue border around each paragraph with 10-pixel rounded corners.
 
 ## Example 2
 
