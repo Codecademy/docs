@@ -22,7 +22,7 @@ The `random.sample()` method takes a population (list, range, set, or string) an
 random.sample(<population>,<number>)
 ```
 
-Where `<population>` is the list (or range, or set) where items are being selected from, and `<number>` is the number of items selected to return.
+Where `<population>` is the sequence the items are selected from, and `<number>` is the number of item(s) to be returned.
 
 ## Codebyte Example
 
