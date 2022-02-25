@@ -18,7 +18,7 @@ The `random.shuffle()` method takes a list as a parameter and randomly re-orders
 ## Syntax
 
 ```pseudo
-random.shuffle(<list>)
+random.shuffle(list)
 ```
 
 Where `<list>` is the list of items to be shuffled in place.
