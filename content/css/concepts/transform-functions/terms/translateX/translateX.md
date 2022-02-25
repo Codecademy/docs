@@ -1,6 +1,6 @@
 ---
 Title: 'translateX()'
-Description: 'Translates an element along the X axis.'
+Description: 'Translates an element along the X-axis.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
