@@ -32,7 +32,7 @@ Note: `translateX(<value>)` is functionally equivalent to `translate(<value>)` w
 
 ## Example 1
 
-Move the `.box` element `100px` right:
+Move the element, with a `class` of `box`, `100px` to the right:
 
 ```css
 .box {
