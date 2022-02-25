@@ -13,24 +13,24 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<abbr>` tag indicates an acronym or abbreviation of a longer word or phrase. It can contain the `<title>` attribute which isn't mandatory despite being recommended.
+The `<abbr>` tag indicates an acronym or abbreviation of a longer word or phrase. It can use the `title` attribute which is optional but recommended.
 
 ## Syntax
 
+Whenever the `<abbr>` tag is used, it should use the `title` attribute, which indicates the meaning of the abbreviation or acronym.
 ```html
-<abbr><!-- The acronym or abbreviation goes in here --></abbr>
+<abbr title=""><!-- The acronym or abbreviation here --></abbr>
 ```
 
-Whenever the `<abbr>` tag is used, it should use the `title` attribute, which indicates the meaning of the abbreviation or acronym.
-Users don't see the text in the attribute, but browsers, search engines, and assistive technologies do use this information. Some browsers also apply default styling to the `<abbr>` tag like dotted underlines or translating the text into small letters.
+While using the `title` attribute can semantically helpful, it is still a good practice in accessibility to spell out the word/phrase in the text the first time before applying the `<abbr>` tag. Some browsers also apply default styling to the `<abbr>` tag like dotted underlines or translating the text into small letters.
 
 ## Example
 
 ```html
 <p>
-  Tomorrow I'll be heading to the
+  Tomorrow I'll be heading to the Kennedy Space Center to learn about the National Aeronautics and Space Administration (NASA). Touring through the rockets used in
   <abbr title="National Aeronautics and Space Administration">NASA</abbr>
-  department for a guided tour.
+  will be such fun!
 </p>
 ```
 
