@@ -28,7 +28,7 @@ Where `<list>` is the list of items to be shuffled in place.
 ```codebyte/py
 import random
 
-myList = [0,1,2,3,4,5,6,7,8,9]
+my_list = [0,1,2,3,4,5,6,7,8,9]
 
 random.shuffle(my_list)
 
