@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.sample()` method takes a population (list, range, set) and a number as arguments and returns a list consisting of that number of randomly selected, non-duplicated, items from the population.
+The `random.sample()` method takes a population (list, range, set, or string) and a number as arguments. It returns a list with the specified number of items. Each item is randomly selected without duplication from the population.
 
 ## Syntax
 
