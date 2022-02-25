@@ -24,6 +24,8 @@ random.random()
 
 ## Codebyte Example
 
+It is possible to generate a pseudo-random float between 0 and a given number by multiplying it by `random.random()`:
+
 ```codebyte/py
 import random
 
