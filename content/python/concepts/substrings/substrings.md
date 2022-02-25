@@ -29,7 +29,7 @@ string[start:end:step]
 
 ## Examples
 
-The following examples are different ways to obtain subsets of a string. All examples are performed on the same string,
+The following examples show different ways of obtaining substrings, all from the same original string.
 
 ```python
 string = "Codecademy"
