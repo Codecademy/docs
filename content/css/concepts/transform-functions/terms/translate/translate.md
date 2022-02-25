@@ -34,7 +34,7 @@ Providing only a single value will represent the horizontal axis. Providing a se
 
 ## Example 1
 
-Move the `.box` element `100px` right along the horizontal axis:
+Move the element, with a `class` of `box`, `100px` right along the horizontal X-axis:
 
 ```css
 .box {
