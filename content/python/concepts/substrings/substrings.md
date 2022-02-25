@@ -45,7 +45,7 @@ print(string[0])
 # Output: C
 ```
 
-Negative numbers work on the string backwards. For example, index `-1` retrieves the character at the end of the string:
+Negative numbers work on the string backwards. For example, index `-1` retrieves the last character of the string:
 
 ```python
 print(string[-1])
