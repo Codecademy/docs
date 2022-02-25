@@ -1,6 +1,6 @@
 ---
 Title: 'translateY()'
-Description: 'Translates an element along the Y axis.'
+Description: 'Translates an element along the Y-axis.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
