@@ -31,7 +31,7 @@ string[start:end:step]
 
 The following examples show different ways of obtaining substrings, all from the same original string.
 
-```python
+```py
 string = "Codecademy"
 ```
 
@@ -42,12 +42,12 @@ When only one index is specified, a single character is returned. An index of `0
 ```py
 print(string[0])
 
-# Output: C
+#Output: C
 ```
 
 Negative numbers work on the string backwards. For example, index `-1` retrieves the last character of the string:
 
-```python
+```py
 print(string[-1])
 
 #Output: y
@@ -57,7 +57,7 @@ print(string[-1])
 
 Using a negative start index (`-n`) with the default end value gives the last `n` characters of the string. The following gives the last three characters of the string:
 
-```python
+```py
 print(string[-3:])
 
 #Output: emy
@@ -67,7 +67,7 @@ print(string[-3:])
 
 To specify only an end index, use `[:n]`, where `n` is the ending position. This will return the first `n` characters.
 
-```python
+```py
 print(string[:4])
 
 #Output: Code
@@ -77,7 +77,7 @@ print(string[:4])
 
 Given a negative step value, returns the results backward:
 
-```python
+```py
 reversed = string[::-2]
 print(reversed)
 
@@ -88,7 +88,7 @@ print(reversed)
 
 The `in` keyword can be used to check for a specific substring, like in the example below:
 
-```python
+```py
 print('de' in string)
 
 #Output: True
@@ -98,7 +98,7 @@ print('de' in string)
 
 The string method [`.find()`](https://www.codecademy.com/resources/docs/python/strings/find) can also be used to find a subset. It returns the index of the first occurrence of the substring. If the substring is not found, it returns -1.
 
-```python
+```codebyte/py
 print(string.find('em'))
 
 #Output: 7
