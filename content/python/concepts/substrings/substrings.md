@@ -39,7 +39,7 @@ string = "Codecademy"
 
 When only one index is specified, a single character is returned. An index of `0` retrieves the character at the beginning of the string:
 
-```python
+```py
 print(string[0])
 
 #Output: C
