@@ -1,5 +1,5 @@
 ---
-Title: 'uniform()'
+Title: '.uniform()'
 Description: 'Returns a pseudo-random floating-point number between two given numbers, inclusive.'
 Subjects:
   - 'Computer Science'
