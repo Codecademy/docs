@@ -1,6 +1,6 @@
 ---
 Title: 'grid'
-Description: 'Shorthand for setting the following properties: grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, grid-auto-flow.'
+Description: 'Shorthand for setting grid property values.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
