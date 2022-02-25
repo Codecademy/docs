@@ -38,4 +38,4 @@ Each argument of the `clamp()` function can be one of the following:
 }
 ```
 
-This results in a font size for `.display-font` elements that will change with the viewport width, but not smaller than 2rem or larger than 5rem.
+This results in a font size for `.display-font` elements that will span `3%` of the viewport's width, not smaller than `2rem`, or larger than `5rem`.
