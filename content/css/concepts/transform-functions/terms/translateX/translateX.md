@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `translateX` function translates an element along the X axis.
+The `translateX` function moves an element along the horizontal X-axis.
 
 ## Syntax
 
