@@ -25,7 +25,7 @@ transform: translate(<X-value>);
 transform: translate(<X-value>, <Y-value>);
 ```
 
-A required `<X-value>` or `<Y-value` can be one of the following:
+A required `<X-value>` or `<Y-value>` can be one of the following:
 
 - Length value: `100px`, `1.5em`
 - Percentage value: `25%`, `50%`
@@ -44,7 +44,7 @@ Move the element, with a `class` of `box`, `100px` right along the horizontal X-
 
 ## Example 2
 
-Move the `.box` element `200px` along the horizontal X-axis and `100px` up the vertical Y-axis:
+Move the `.box` element `200px` right along the horizontal X-axis and `100px` up the vertical Y-axis:
 
 ```css
 .box {
