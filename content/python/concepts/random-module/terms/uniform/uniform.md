@@ -18,10 +18,10 @@ The `random.uniform()` method takes two numbers as arguments and returns a pseud
 ## Syntax
 
 ```pseudo
-random.uniform(<low value>,<high value>)
+random.uniform(value1,value2)
 ```
 
-Where `<low value>` is the number representing the lower bound of possible values and `<high value>` is a number representing the higher bound of possible values.
+Where `value1` and `value2` are numbers bounding the choice of a random floating-point number.
 
 ## Codebyte Example
 
