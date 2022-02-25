@@ -1,6 +1,6 @@
 ---
 Title: '.shuffle()'
-Description: 'Takes a list and randomly re-orders the contents.'
+Description: 'Takes a list and randomly re-orders the items.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
