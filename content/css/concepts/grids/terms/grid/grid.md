@@ -49,8 +49,6 @@ Define a grid with three rows that are 200-pixel high, and two columns; the firs
 }
 ```
 
-Defines a grid that has first three rows 200px tall, one column at 25% and the other column at 75%.
-
 ## Example 2
 
 ```css
