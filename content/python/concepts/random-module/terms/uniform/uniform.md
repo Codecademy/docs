@@ -1,6 +1,6 @@
 ---
 Title: '.uniform()'
-Description: 'Returns a pseudo-random floating-point number between two given numbers, inclusive.'
+Description: 'Returns a pseudo-random floating-point number between two given numbers.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
