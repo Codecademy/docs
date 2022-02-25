@@ -1,6 +1,6 @@
 ---
 Title: 'Number'
-Description: 'The number data type. It holds a number as its value.'
+Description: 'The number data type encompasses many numeric values.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
