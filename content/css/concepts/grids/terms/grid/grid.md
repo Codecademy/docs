@@ -25,7 +25,7 @@ The `grid` property is shorthand for setting the following properties:
 ## Syntax
 
 ```pseudo
-grid: <grid-template-rows> / <grid-template-rows>;
+grid: <grid-template-rows> / <grid-template-columns>;
 
 grid: <grid-template-areas>;
 
