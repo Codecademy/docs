@@ -34,7 +34,7 @@ border-radius: <all>;
 ## Example 1
 
 ```css
-p (
+p {
   border: 1px solid blue;
   border-radius: 10px;
 }
