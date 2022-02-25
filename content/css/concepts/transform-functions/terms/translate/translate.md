@@ -25,7 +25,7 @@ transform: translate(<X-value>);
 transform: translate(<X-value>, <Y-value>);
 ```
 
-where a required `<value>` can be one of the following:
+A required `<X-value>` or `<Y-value` can be one of the following:
 
 - Length value: `100px`, `1.5em`
 - Percentage value: `25%`, `50%`
