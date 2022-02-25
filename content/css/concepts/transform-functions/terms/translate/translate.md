@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `translate` function translates an element along the X and/or Y axes.
+The `translate` function moves an element along the X- and/or Y-axis.
 
 ## Syntax
 
