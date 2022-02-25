@@ -44,6 +44,6 @@ Move the `.box` element `10em` up:
 
 ```css
 .box {
-  transform: translateX(-10em);
+  transform: translateY(-10em);
 }
 ```
