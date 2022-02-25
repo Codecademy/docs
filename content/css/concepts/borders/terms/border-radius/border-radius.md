@@ -51,7 +51,7 @@ h1 {
 }
 ```
 
-Sets a 3px solid black border around each header 1 element with 25px rounding only on the top right and bottom left.
+Sets a 3-pixel solid black border around each heading element with 25-pixel rounding only on the top right and bottom left.
 
 ## Example 3
 
