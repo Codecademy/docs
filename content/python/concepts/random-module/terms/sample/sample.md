@@ -1,5 +1,5 @@
 ---
-Title: 'sample()'
+Title: '.sample()'
 Description: 'Returns a given number of randomly selected items from a given population.'
 Subjects:
   - 'Computer Science'
