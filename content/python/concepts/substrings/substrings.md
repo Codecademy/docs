@@ -37,7 +37,7 @@ string = "Codecademy"
 
 ### Retrieving Single Characters
 
-When only one index is specified, a single character is returned. An index of `0` retrieves the character at the beginning of the string:
+When only one index is specified, a single character is returned. An index of `0` retrieves the first character of the string:
 
 ```py
 print(string[0])
