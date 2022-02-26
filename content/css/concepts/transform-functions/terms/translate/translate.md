@@ -38,7 +38,7 @@ A single value will represent only the horizontal axis. Providing a second comma
 
 ## Example 1
 
-Move the element, with a `class` of `box`, `100px` right along the horizontal X-axis:
+In the example below, an element with a `.box` class is moved `100px` to the right, along the X-axis:
 
 ```css
 .box {
