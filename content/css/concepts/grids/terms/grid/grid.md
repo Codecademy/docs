@@ -40,7 +40,10 @@ grid: <grid-auto-flow> <grid-auto-rows> / <grid-template-columns>;
 
 ## Example 1
 
-Define a grid with three rows that are 200-pixel high, and two columns; the first column at `25%` wide, and the second at 75% wide.
+In the example below is a `grid` declaration for the rows and column (separated by a `/`) with the following:
+
+* There are three rows that are 200-pixels high each.
+* There are two columns, with one being `25%` of the grid's width and another at `75%`-wide.
 
 ```css
 .my-grid {
