@@ -1,6 +1,6 @@
 ---
 Title: 'border-radius'
-Description: 'Adds rounded corners to an element.'
+Description: 'Makes the corners of an element rounder.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
