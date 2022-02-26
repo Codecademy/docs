@@ -18,7 +18,7 @@ The `translate` function moves an element along the X- and/or Y-axis.
 ## Syntax
 
 ```pseudo
-/* With a single value */
+/* Single value */
 transform: translate(<X-value>);
 
 /* With both values */
