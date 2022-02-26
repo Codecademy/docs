@@ -48,6 +48,8 @@ There are a few tools you'll need to install in order to run our test suites loc
 
 With everything installed, in the repository root (whatever directory contains the `package.json` file) you can run
 
+**Note**: If you use `npm` instead of `yarn`, it is fine to do so with the commands described below.
+
 - `yarn format:verify` and `yarn lint:md` to validate markdown file contents
 - `yarn test` to validate `content/` directory structure
 
