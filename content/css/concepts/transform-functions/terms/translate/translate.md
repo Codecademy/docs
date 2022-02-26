@@ -30,10 +30,6 @@ transform: translate(<X-value>);
 transform: translate(<X-value>, <Y-value>);
 ```
 
-A required `<X-value>` or `<Y-value>` can be one of the following:
-
-- Length value: `100px`, `1.5em`
-- Percentage value: `25%`, `50%`
 
 Providing only a single value will represent the horizontal axis. Providing a second comma-separated value will represent the vertical axis. A positive value moves the element towards the right along the horizontal X-axis and down the vertical Y-axis. A negative value moves the element left along the horizontal X-axis and up the vertical Y-axis.
 
