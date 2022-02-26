@@ -28,7 +28,7 @@ The required `<value>` can be one of the following:
 
 A positive value moves an element towards the right along the horizontal X-axis, while a negative value will move an element left.
 
-Note: `translateX(<value>)` is functionally equivalent to `translate(<value>)` when [`translate`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) is called with a single value.
+**Note**: `translateX(<value>)` is functionally equivalent to `translate(<value>)` when [`translate`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) is called with a single value.
 
 ## Example 1
 
