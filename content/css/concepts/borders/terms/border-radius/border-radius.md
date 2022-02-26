@@ -44,16 +44,20 @@ p {
 
 Sets a 1-pixel blue border around each paragraph with 10-pixel rounded corners.
 
+![Border Radius Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-radius-1.png)
+
 ## Example 2
 
 ```css
-h1 {
+p {
   border: 3px solid black;
   border-radius: 0px 25px;
 }
 ```
 
-Sets a 3-pixel solid black border around each heading element with 25-pixel rounding only on the top right and bottom left.
+Sets a 3-pixel solid black border around each paragraph with 25-pixel rounding only on the top right and bottom left.
+
+![Border Radius Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-radius-2.png)
 
 ## Example 3
 
@@ -65,3 +69,5 @@ Sets a 3-pixel solid black border around each heading element with 25-pixel roun
 ```
 
 The element with an `id` of `with-background`, will have 25-pixel rounded corners, even if no border is displayed.
+
+![Border Radius Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-radius-3.png)
