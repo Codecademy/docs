@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. When computing numbers such they trade-off accuracy for range. Witch means they trade-off how acute it is with how many numbers it can compute.
+Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. When they are computed, there is a trade-off in accuracy for range. Which means they trade-off how acute it is with how many numbers it can compute.
 
 ## Arithmetic Accuracy 
 
