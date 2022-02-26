@@ -61,4 +61,4 @@ In the example below is a `grid` declaration for the rows and column (separated 
 }
 ```
 
-Defines a grid that's three columns wide and has auto-sized rows and columns.
+The example above defines a grid that has three columns. Each column and row is `auto`-sized.
