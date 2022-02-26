@@ -21,7 +21,7 @@ The `clamp()` function restricts a given value between an upper and lower bound.
 <property>: clamp(<lower bound>, <value>, <upper bound>)
 ```
 
-The value will be the given `<value>` as long as it is between the `<lower bound>` and `<upper bound>`. The minimum value returned will be the `<lower bound>` and the maximum value returned will be the `<upper bound>`.
+The `<value>` is valid as long as it is between the `<lower bound>` and `<upper bound>`. This ensures that the `<property>` has a minimum and maximum `<value>`.
 
 Each argument to `clamp()` can be a combination of [CSS units](https://www.codecademy.com/resources/docs/css/units), or evaluations of them, using the following:
 
