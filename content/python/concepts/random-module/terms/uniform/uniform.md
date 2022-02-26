@@ -33,7 +33,7 @@ import random
 print(random.uniform(10,15))
 print(random.uniform(100,150))
 print(random.uniform(-10,10))
-print(random.uniform(0.75,0.90)
+print(random.uniform(0.75,0.90))
 ```
 
 Example output:
