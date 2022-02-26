@@ -30,7 +30,7 @@ A positive value moves the element down the vertical Y-axis, while a negative va
 
 ## Example 1
 
-Move the `.box` element `100px` down:
+In the example below, a `.box` element is moved down the Y-axis by `100px`:
 
 ```css
 .box {
