@@ -32,7 +32,7 @@ A positive value moves an element towards the right along the horizontal X-axis,
 
 ## Example 1
 
-Move the element, with a `class` of `box`, `100px` to the right:
+In the example below, an element with a `.box` class is moved `100px` to the right:
 
 ```css
 .box {
