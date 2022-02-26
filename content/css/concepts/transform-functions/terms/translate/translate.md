@@ -33,8 +33,8 @@ transform: translate(<X-value>, <Y-value>);
 
 A single value will represent only the horizontal axis. Providing a second comma-separated value will represent the vertical axis, as well. As as the direction goes:
 
-* A positive value moves the element towards the right along the horizontal X-axis and down the vertical Y-axis (southeast). 
-* A negative value moves the element left along the horizontal X-axis and up the vertical Y-axis (northwest).
+* A positive value moves the element towards the right along the horizontal X-axis or down the vertical Y-axis. 
+* A negative value moves the element left along the horizontal X-axis or up the vertical Y-axis.
 
 ## Example 1
 
