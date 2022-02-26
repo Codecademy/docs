@@ -48,7 +48,7 @@ In the example below, an element with a `.box` class is moved `100px` to the rig
 
 ## Example 2
 
-Move the `.box` element `200px` right along the horizontal X-axis and `100px` up the vertical Y-axis:
+In this example, the `.box` class element is moved `200px` to the right, along the X-axis, and `100px` up the vertical Y-axis.
 
 ```css
 .box {
