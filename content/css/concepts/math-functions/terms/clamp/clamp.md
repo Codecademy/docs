@@ -27,8 +27,8 @@ Each argument to `clamp()` can be a combination of [CSS units](https://www.codec
 
 - Absolute units: `10px`
 - Relative units: `40vh`
+- Math expressions: `40vw - 20px`
 - Nested math function values: `min(20vw, 200px)`
-- Math expressions using arithmetic operators: `40vw - 20px`
 
 ## Example
 
