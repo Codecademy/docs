@@ -23,7 +23,7 @@ The `clamp()` function restricts a given value between an upper and lower bound.
 
 The value will be the given `<value>` as long as it is between the `<lower bound>` and `<upper bound>`. The minimum value returned will be the `<lower bound>` and the maximum value returned will be the `<upper bound>`.
 
-Each argument of the `clamp()` function can be one of the following:
+Each argument to `clamp()` can be a combination of [CSS units](https://www.codecademy.com/resources/docs/css/units), or evaluations of them, using the following:
 
 - Length values: `10px`
 - Relative length values: `40vh`
