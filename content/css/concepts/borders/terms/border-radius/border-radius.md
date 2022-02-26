@@ -31,6 +31,8 @@ border-radius: <top left + bottom right> <top right + bottom left>;
 border-radius: <all>;
 ```
 
+Both [absolute and relative units](https://www.codecademy.com/resources/docs/css/units) can be used as values for this property.
+
 ## Example 1
 
 ```css
