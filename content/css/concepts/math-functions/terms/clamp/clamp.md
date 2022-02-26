@@ -26,7 +26,7 @@ The `<value>` is valid as long as it is between the `<lower bound>` and `<upper 
 Each argument to `clamp()` can be a combination of [CSS units](https://www.codecademy.com/resources/docs/css/units), or evaluations of them, using the following:
 
 - Absolute units: `10px`
-- Relative length values: `40vh`
+- Relative units: `40vh`
 - Nested math function values: `min(20vw, 200px)`
 - Math expressions using arithmetic operators: `40vw - 20px`
 
