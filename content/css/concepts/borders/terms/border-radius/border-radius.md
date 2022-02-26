@@ -25,7 +25,7 @@ border-radius: <top left> <top right> <bottom right> <bottom left>;
 border-radius: <top left> <top right + bottom left> <bottom right>;
 
 /* Two values */
-border-radius: <top left + bottom right> <top right + bottom left>;
+border-radius: <top-left + bottom-right> <top-right + bottom-left>;
 
 /* One value */
 border-radius: <all corners>;
