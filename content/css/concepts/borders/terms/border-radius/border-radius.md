@@ -21,7 +21,7 @@ The `border-radius` property defines rounded corners on an element. It measures 
 /* Using four values */
 border-radius: <top left> <top right> <bottom right> <bottom left>;
 
-/* Using three values */
+/* Three values */
 border-radius: <top-left> <top-right + bottom-left> <bottom-right>;
 
 /* Two values */
