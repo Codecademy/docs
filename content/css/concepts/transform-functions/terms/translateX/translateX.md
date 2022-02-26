@@ -42,7 +42,7 @@ In the example below, an element with a `.box` class is moved `100px` to the rig
 
 ## Example 2
 
-Move the `.box` element `10em` left:
+In this example, the element is moved to the left by `-10em`, relative to the width of its direct parent:
 
 ```css
 .box {
