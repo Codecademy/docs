@@ -68,6 +68,6 @@ Sets a 3-pixel solid black border around each paragraph with 25-pixel rounding o
 }
 ```
 
-The element with an `id` of `with-background`, will have 25-pixel rounded corners, even if no border is displayed.
+The element with an `id` of `#with-background` will have 25-pixel rounded corners, even if no border is displayed.
 
 ![Border Radius Example 3](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-border-radius-3.png)
