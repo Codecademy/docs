@@ -1,6 +1,6 @@
 ---
 Title: 'grid'
-Description: 'Shorthand for setting grid property values.'
+Description: 'Shorthand for setting multiple grid property values.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
