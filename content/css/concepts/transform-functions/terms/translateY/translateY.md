@@ -40,7 +40,7 @@ In the example below, a `.box` element is moved down the Y-axis by `100px`:
 
 ## Example 2
 
-Move the `.box` element `10em` up:
+In this example, the element is moved up the Y-axis by `-10em`, relative to the height of its direct parent element.
 
 ```css
 .box {
