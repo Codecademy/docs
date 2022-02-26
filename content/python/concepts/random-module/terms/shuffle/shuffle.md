@@ -23,6 +23,22 @@ random.shuffle(list)
 
 The `list` is the collection of items to be shuffled in place.
 
+## Example
+
+After importing the `random` module, lists can be rearranged with `random.shuffle()`:
+
+```py
+import random
+
+my_list = [0,1,2,3,4,5,6,7,8,9]
+
+random.shuffle(my_list)
+
+print(my_list)
+
+# Output: [2, 3, 5, 0, 6, 8, 4, 7, 1, 9]
+```
+
 ## Codebyte Example
 
 ```codebyte/py
