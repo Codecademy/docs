@@ -16,8 +16,6 @@ Booleans hold a true or false value and are mostly used in conditional statement
 
 Some languages use comparison operators (`>=`, `==`, `is`, `not`, etc.) to produce boolean values, while others may use "falsy" values like `""`, `null`, or `0`. Some even use a combination of both of these approaches.
 
-Because functions are derived from objects, their closest classification is with composite data types.
-
 ## JavaScript Example
 
 The following example uses [a JavaScript conditional statement](https://www.codecademy.com/resources/docs/javascript/conditionals), along with a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` if 42 is, in fact, "42":
