@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `border-radius` property defines rounded corners on an element. It allows separate radii for each corner and can have one to four values.
+The `border-radius` property defines rounded corners on an element. It measures the radii for each corner and can have one to four specified values.
 
 ## Syntax
 
