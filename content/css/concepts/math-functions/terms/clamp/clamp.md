@@ -38,4 +38,4 @@ Each argument to `clamp()` can be a combination of [CSS units](https://www.codec
 }
 ```
 
-This results in a font size for `.display-font` elements that will span `3%` of the viewport's width, not smaller than `2rem`, or larger than `5rem`.
+In the example above, `.display-font` elements will have their `font-size` clamped down to span `3%` of the viewport's width. However, it can be no more than `5rem` and no less than `2rem`.
