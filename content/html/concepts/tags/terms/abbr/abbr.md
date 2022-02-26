@@ -18,6 +18,7 @@ The `<abbr>` tag indicates an acronym or abbreviation of a longer word or phrase
 ## Syntax
 
 Whenever the `<abbr>` tag is used, it should use the `title` attribute, which indicates the meaning of the abbreviation or acronym.
+
 ```html
 <abbr title=""><!-- The acronym or abbreviation here --></abbr>
 ```
@@ -28,7 +29,9 @@ While using the `title` attribute can semantically helpful, it is still a good p
 
 ```html
 <p>
-  Tomorrow I'll be heading to the Kennedy Space Center to learn about the National Aeronautics and Space Administration (NASA). Touring through the rockets used in
+  Tomorrow I'll be heading to the Kennedy Space Center to learn about the
+  National Aeronautics and Space Administration (NASA). Touring through the
+  rockets used in
   <abbr title="National Aeronautics and Space Administration">NASA</abbr>
   will be such fun!
 </p>
