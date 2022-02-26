@@ -17,6 +17,11 @@ The `translate` function moves an element along the X- and/or Y-axis.
 
 ## Syntax
 
+The required `<X-value>` or `<Y-value>` can be one of the following:
+
+- Length value: `100px`, `1.5em`
+- Percentage value: `25%`, `50%`
+
 ```pseudo
 /* Single value */
 transform: translate(<X-value>);
