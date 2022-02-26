@@ -25,14 +25,24 @@ Where `value1` and `value2` are numbers bounding the choice of a random floating
 
 ## Example
 
+The below example prints the output of `random.uniform()` picking random floating point numbers between 10 and 15, 100 and 150, -10 and 10, and 0.75 and 0.90.
+
 ```py
->>> import random
->>> print(random.uniform(10,15))
+import random
+
+print(random.uniform(10,15))
+print(random.uniform(100,150))
+print(random.uniform(-10,10))
+print(random.uniform(0.75,0.90)
+```
+
+Example output:
+
+```pseudo
 10.188312896316244
->>> print(random.uniform(10,15))
-13.543866583400094
->>> print(random.uniform(10,15))
-12.435917997367799
+132.543866583400094
+-2.435917997367799
+0.885416960748279
 ```
 
 ## Codebyte Example
