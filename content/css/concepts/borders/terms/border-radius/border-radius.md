@@ -27,7 +27,7 @@ border-radius: <top left> <top right + bottom left> <bottom right>;
 /* Using two values */
 border-radius: <top left + bottom right> <top right + bottom left>;
 
-/* Using one value */
+/* One value */
 border-radius: <all>;
 ```
 
