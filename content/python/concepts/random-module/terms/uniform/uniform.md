@@ -30,19 +30,13 @@ The below example prints the output of `random.uniform()` picking random floatin
 ```py
 import random
 
-print(random.uniform(10,15))
-print(random.uniform(100,150))
-print(random.uniform(-10,10))
-print(random.uniform(0.75,0.90))
+print (random.uniform(10,20))
 ```
 
 Example output:
 
 ```pseudo
-10.188312896316244
-132.543866583400094
--2.435917997367799
-0.885416960748279
+13.188312896316244
 ```
 
 ## Codebyte Example
@@ -50,5 +44,8 @@ Example output:
 ```codebyte/py
 import random
 
-print (random.uniform(10,20))
+print(random.uniform(10,15))
+print(random.uniform(100,150))
+print(random.uniform(-10,10))
+print(random.uniform(0.75,0.90))
 ```
