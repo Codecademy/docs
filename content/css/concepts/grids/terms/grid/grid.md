@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `grid` property is shorthand for setting the following properties:
+The `grid` property is a shorthand for setting the following properties:
 
 - [`grid-template-rows`](https://www.codecademy.com/resources/docs/css/grids/grid-template-rows)
 - [`grid-template-columns`](https://www.codecademy.com/resources/docs/css/grids/grid-template-columns)
