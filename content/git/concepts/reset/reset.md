@@ -1,6 +1,6 @@
 ---
 Title: 'Reset'
-Description: 'In Git, reset is used to set the HEAD pointer back to a previous commit and optionally undo staged changes and the working tree.'
+Description: 'The git reset command is used to set the HEAD pointer back to a previous commit and optionally undo staged changes and the working tree.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'

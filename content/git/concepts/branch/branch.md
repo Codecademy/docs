@@ -1,6 +1,6 @@
 ---
 Title: 'Branch'
-Description: 'In Git a branch represents a way to provide an isolated copy of the current code and can be modified without affecting the original code.'
+Description: 'A branch represents a way to provide an isolated copy of the current code which can be modified without affecting the original code.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -36,7 +36,7 @@ git branch -d <branch-name>
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-Sometimes, Git will refuse to delete a branch because it has changes that have not yet been merged into an existing upstream or remote version of that branch. In such cases, it can be forcefully deleted with either the `-d --force` or capital `-D` flags, like so in the `my-branch` examples below.
+Sometimes, Git will refuse to delete a branch because it has unmerged changes in an existing upstream or remote version of that branch. In such cases, it can be forcefully deleted with either the `-d --force` or capitalized `-D` flag, like so in the `my-branch` examples below.
 
 Option 1:
 
@@ -50,7 +50,7 @@ Option 2:
 git branch -D my-branch
 ```
 
-By performing a force delete, the user is telling Git that they understand all changes on that branch will be lost forever, and they want to perform the delete anyway.
+Performing a force delete tells Git the user understands that all changes on that branch will be lost forever, and they want to delete the branch anyway.
 
 ## Moving Between Branches
 
@@ -62,13 +62,13 @@ git checkout branch-name
 
 This will change the active branch to the one named `branch-name`. Any editing done at this point will be to the copy of the code within `branch-name` rather than the previous branch.
 
-The `checkout` command is often used immediately after creating a new branch. In fact, this is so common that there is a shorthand command to create a new branch and switch to it automatically:
+The `checkout` command is often used immediately after creating a new branch. This is so common that there is a shorthand command to create a new branch and switch to it automatically:
 
 ```shell
 git checkout -b branch-name
 ```
 
-This is exactly the same is performing the following commands in direct succession:
+This is the same as performing the following commands in direct succession:
 
 ```shell
 git branch branch-name

@@ -1,6 +1,6 @@
 ---
 Title: 'Status'
-Description: 'In Git, the status command shows the state of the working directory, staging area, and which files are untracked or tracked.'
+Description: 'The git status command shows the state of the working directory, staging area, and which files are untracked or tracked.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'

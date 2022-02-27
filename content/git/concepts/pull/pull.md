@@ -1,6 +1,6 @@
 ---
 Title: 'Pull'
-Description: 'In Git, pulling is the process of moving code from one repository to another. Often this is used to move code from a remote machine to a local one.'
+Description: 'Pulling is the process of moving code from one repository to another in Git. Often this is used to move code from a remote machine to a local one.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -20,7 +20,7 @@ Pulling a repository allows a programmer to access code from a remote backup and
 
 The basic syntax for pulling in Git is this:
 
-```shell
+```pseudo
 git pull <remote-name> <branch-name>
 ```
 
@@ -41,7 +41,7 @@ Prerequisites to pulling from a remote repository include:
   nothing to commit, working tree clean
   ```
 
-- Having a valid remote repository set, in this case there is remote repository called `origin`:
+- Having a valid remote repository set. In this case the remote repository is named `origin` and can be found at the url `https://github.com/CompanyName/product-dev`:
 
   ```shell
   $ git remote -v

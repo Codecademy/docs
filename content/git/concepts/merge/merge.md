@@ -1,6 +1,6 @@
 ---
 Title: 'Merge'
-Description: 'In Git, what if you want to apply all changes from your branch onto the main branch? Merge your changes into the main branch when work is completed.'
+Description: 'Merging allows a user to apply all changes from one branch to another when the work is completed.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,18 +12,18 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, what if you wanted to incorporate all the changes you made to a branch onto the `main` branch? Merge your changes into the `main` branch when work is completed. When collaborating on a remote repository, a Pull Request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.
+In Git, completed changes made to a branch can be merged to the `main` branch. When collaborating on a remote repository, a pull request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.
 
 ## Git Command
 
-To merge a branch into your local `main` branch:
+To merge a branch into the local `main` branch:
 
 ```shell
-git checkout main     # make sure you are on the main branch
+git checkout main     # Switch to the main branch
 git merge branch_name
 ```
 
-For example, if we want to merge our `feature_test` branch to the `main` branch:
+For example, the following merges a branch called `feature_test` branch to the `main` branch:
 
 ```shell
 git checkout main
@@ -32,7 +32,7 @@ git merge feature_test
 
 ## Merging a Pull Request on GitHub
 
-> _For information on how to open a Pull Request, see the [Pull Requests](https://www.codecademy.com/resources/docs/git/pull-requests) section._
+> _For information on how to open a pull request, see the [Pull Requests](https://www.codecademy.com/resources/docs/git/pull-requests) section._
 
 1. On the GitHub repository page, click the "Pull requests" tab at the top.
 

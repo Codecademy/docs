@@ -1,6 +1,6 @@
 ---
 Title: 'Commit'
-Description: 'In Git, commits are used as snapshots of a given branch in a repository. They serve as the growth history of all the branches in a Git repository.'
+Description: 'Commits are used as snapshots of a given branch in a repository. They serve as the growth history of all the branches in a Git repository.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -40,7 +40,7 @@ After the files are staged for commit, use the following syntax:
 git commit
 ```
 
-Note: Using the `git commit` command by itself will open up an editor (usually set to Vim by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
+**Note:** Using the `git commit` command by itself will open up an editor (usually set to Vim by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
 
 Here is an example of what the commit message prompt might look like when using `git commit`:
 
@@ -57,7 +57,7 @@ Add git_practice.js and install dependencies
 #       new file:   package.json
 ```
 
-And here is what the command line would like look afterwards:
+Here is what the command line would look like afterwards:
 
 ```shell
 $ git commit

@@ -1,6 +1,6 @@
 ---
 Title: 'Push'
-Description: 'In Git, pushing is the process of moving code from one repository to another. Often this is used to move code from a local machine to GitHub.'
+Description: 'Pushing is the process of moving code from one Git repository to another. Often this is used to move code from a local machine to GitHub.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -38,7 +38,7 @@ Prerequisites to pushing from within a repository include:
   nothing to commit, working tree clean
   ```
 
-- Having a valid remote repository set, in this case there is remote repository called `origin`:
+- Having a valid remote repository set. In this case the remote repository is named `origin` and can be found at the url `https://github.com/CompanyName/product-dev`:
 
   ```shell
   $ git remote -v

@@ -1,6 +1,6 @@
 ---
 Title: 'Clone'
-Description: 'Cloning means copying an existing remote repository to your current local directory.'
+Description: 'Cloning means copying an existing remote repository to the current local directory.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, cloning means copying an existing remote repository to your current directory.
+In Git, cloning means copying an existing remote repository to the current directory.
 
 Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on a local machine. Here's a command that will interact with a remote branch &mdash; a branch on a server that can be accessed through the internet.
 
@@ -26,7 +26,7 @@ git clone https://github.com/repository/URL.git
 
 ## Example
 
-In the example below, `git clone` is run to clone the repository for [Codecademy Docs](https://github.com/codecademy/docs), you can do so like this:
+Run `git clone` to clone the repository for [Codecademy Docs](https://github.com/codecademy/docs), like so:
 
 ```shell
 $ git clone https://github.com/Codecademy/docs.git

@@ -1,6 +1,6 @@
 ---
 Title: 'Add'
-Description: 'In Git, adding is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit.'
+Description: 'The git add command is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -49,9 +49,9 @@ Changes to be committed:
 
 The file now appears in green when running `git status`, indicating that it is staged and will be saved with the next commit.
 
-There are many extentions to the `git add` command such as:
+There are many extensions to the `git add` command such as:
 
 - `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
 - `-f`: Which stages all files including those which are ignored.
-- `.` : Which stages all the files in the current directory. (On the command line, the use of `.` references the directory a user is currently in.)
+- `.` : Which stages all the files in the current directory. On the command line, it references the current directory.
 - `-A`: Which stages all the files in the current directory as well as subdirectories.
