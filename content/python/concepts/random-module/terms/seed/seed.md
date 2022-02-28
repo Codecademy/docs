@@ -1,6 +1,6 @@
 ---
 Title: '.seed()'
-Description: 'Initializes a pseudo-random number generator with a seeded a value.'
+Description: 'Initializes a pseudo-random number generator with a seeded value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
