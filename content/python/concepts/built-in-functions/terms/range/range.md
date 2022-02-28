@@ -50,7 +50,7 @@ y: [5,6,7,8,9,10]
 
 In the example below, the range is set to 10 and increments by 10, stopping before 60:
 
-```codebyte/py
+```codebyte/python
 z = range(10, 60, 10)
 
 print("z: ", list(z))
