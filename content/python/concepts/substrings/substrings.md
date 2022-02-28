@@ -32,7 +32,7 @@ string[start:end:step]
 The following examples show different ways of obtaining substrings, all from the same original string.
 
 ```py
-string = "Codecademy"
+name = "Code Ninja"
 ```
 
 ### Retrieving Single Characters
@@ -40,7 +40,7 @@ string = "Codecademy"
 When only one index is specified, a single character is returned. An index of `0` retrieves the first character of the string:
 
 ```py
-print(string[0])
+print(name[0])
 
 #Output: C
 ```
@@ -48,9 +48,9 @@ print(string[0])
 Negative numbers work on the string backwards. For example, index `-1` retrieves the last character of the string:
 
 ```py
-print(string[-1])
+print(name[-1])
 
-#Output: y
+#Output: a
 ```
 
 ### Negative Start Index
@@ -58,9 +58,9 @@ print(string[-1])
 Using a negative start index (`-n`) with the default end value gives the last `n` characters of the string. The following gives the last three characters of the string:
 
 ```py
-print(string[-3:])
+print(name[-3:])
 
-#Output: emy
+#Output: nja
 ```
 
 ### End Index
@@ -68,7 +68,7 @@ print(string[-3:])
 To specify only an end index, use `[:n]`, where `n` is the ending position. This will return the first `n` characters.
 
 ```py
-print(string[:4])
+print(name[:4])
 
 #Output: Code
 ```
@@ -78,10 +78,10 @@ print(string[:4])
 Given a negative step value, returns the results backward:
 
 ```py
-reversed = string[::-2]
+reversed = name[::-2]
 print(reversed)
 
-#Output: yeaeo
+#Output: anNeo
 ```
 
 ### Keyword `in`
@@ -89,7 +89,7 @@ print(reversed)
 The `in` keyword can be used to check for a specific substring, like in the example below:
 
 ```py
-print('de' in string)
+print('de' in name)
 
 #Output: True
 ```
@@ -99,7 +99,7 @@ print('de' in string)
 The string method [`.find()`](https://www.codecademy.com/resources/docs/python/strings/find) can also be used to find a subset. It returns the index of the first occurrence of the substring. If the substring is not found, it returns -1.
 
 ```codebyte/py
-print(string.find('em'))
+print(name.find('ni'))
 
-#Output: 7
+#Output: -1
 ```
