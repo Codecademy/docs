@@ -20,7 +20,7 @@ This module can be used when imported at the top of a Python file:
 import random
 ```
 
-The `random` variable can then be used for executing its supplied functions.
+The `random` variable can then be used for executing the functions within the module.
 
 ```py
 random.random()
