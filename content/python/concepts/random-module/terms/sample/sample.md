@@ -31,9 +31,9 @@ The `population` is a sequence of items can either be a [list](https://www.codec
 ```codebyte/python
 import random
 
-myRange = range(1000)
+my_range = range(1000)
 
-mySample = random.sample(myRange,10)
+my_sample = random.sample(my_range,10)
 
-print(mySample)
+print(my_sample)
 ```
