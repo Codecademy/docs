@@ -32,7 +32,7 @@ Select all columns from `table`:
 SELECT * FROM table;
 ```
 
-Note: It is best practice to never rely on column order when using `*`.
+**Note:** It is best practice to never rely on column order when using `*`.
 
 ## Examples
 
@@ -42,12 +42,12 @@ Select all columns from `table1` and `table2`:
 SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 ```
 
-Note: When selecting all columns from more than one table, if column names are duplicated across tables this will generate an error.
+**Note:** When selecting all columns from more than one table, if column names are duplicated across tables this will generate an error.
 
 Select all columns from `table1` and named columns from `table2`:
 
 ```sql
-SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB
+SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 ```
 
-Note: If a column name used from `table2` duplicates one in `table1` it should be used with an alias as in the example.
+**Note:** If a column name used from `table2` duplicates one in `table1` it should be used with an alias as in the example.
