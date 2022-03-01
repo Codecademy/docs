@@ -12,18 +12,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<q>` tag is used to represent a brief inline quotation.
-It accepts a `cite` attribute which will link to a source that provides further context for the quotation.
+The `<q>` tag is used to represent a brief inline quotation, as opposed the [`<blockquote>` tag](https://www.codecademy.com/resources/docs/html/tags/blockquote) being used for longer ones.
 
 ## Syntax
 
 ```html
-<q><!-- brief quotation goes inside the tag --></q>
+<q cite=""><!-- brief quotation goes inside the tag --></q>
 ```
 
-The `<q>` tag requires an opening and closing tag wrapped around a line of text. The browser will automatically enclose the text in quotation marks.
-
-The `cite` attribute should be a valid URL.
+It accepts a `cite` attribute that links to a valid URL that provides further context for the quotation.
 
 ## Example
 
@@ -38,3 +35,5 @@ The `cite` attribute should be a valid URL.
   One can't help but agree with it!
 </p>
 ```
+
+![Example of what the rendered text would look like](./q.jpg)
