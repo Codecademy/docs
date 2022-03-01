@@ -16,36 +16,38 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Fetchs data from a database. Every query will begin with `SELECT`.
+Fetches data from a database. Every query will begin with `SELECT`. The `SELECT` command is followed by a list of columns to be returned from the tables listed in the `FROM` clause. `SELECT` can also use the special character `*` to represent all columns from a table or tables. `*` can be mixed with explicit column names in a `SELECT` statement though duplicated column names should be distinguished with an alias.
 
 ## Syntax
 
-The `SELECT *` statement returns all columns from the provided table in the result set:
+Selecting columns from `table` by name. 
 
 ```sql
-SELECT *
-FROM table_name;
+SELECT column1, column2, ... columnN FROM table;
 ```
 
-You can also select individual columns:
+Select all columns from `table`:
 
 ```sql
-SELECT column_name(s)
-FROM table_name;
+SELECT * FROM table;
 ```
+
+Note: It is best practice to never rely on column order when using `*`.
 
 ## Examples
 
-The following query will fetch all columns and records (rows) from the `movies` table:
+Select all columns from `table1` and `table2`:
 
 ```sql
-SELECT *
-FROM movies;
+SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 ```
 
-And this query will select just the `title` and `rating` columns from the `movies` table:
+Note: When selecting all columns from more than one table, if column names are duplicated across tables this will generate an error.
+
+Select all columns from `table1` and named columns from `table2`:
 
 ```sql
-SELECT title, rating
-FROM movies;
+SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB
 ```
+
+Note: If a column name used from `table2` duplicates one in `table1` it should be used with an alias as in the example.
