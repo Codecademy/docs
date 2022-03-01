@@ -107,7 +107,7 @@ Currently, Codebytes supports the following languages:
 
 - C++: \```cpp
 - C#: \```csharp
-- Go: \```go
+- Go: \```golang
 - JavaScript:\```javascript
 - PHP: \```php
 - Python: \```python
