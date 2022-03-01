@@ -103,7 +103,7 @@ case 1:
 
 ## Codebyte Example
 
-```codebyte/go
+```codebyte/golang
 package main
 
 import (
