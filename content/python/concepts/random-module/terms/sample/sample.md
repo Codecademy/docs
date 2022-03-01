@@ -18,6 +18,8 @@ The `random.sample()` method returns a list of items that are randomly sampled f
 
 ## Syntax
 
+For arguments, the `random.sample()` method accepts a `population` and a `number` to set the length of the returned sample. 
+
 ```pseudo
 random.sample(<population>,<number>)
 ```
