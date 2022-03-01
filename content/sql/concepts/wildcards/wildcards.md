@@ -28,7 +28,7 @@ Some SQL implementations add additional types of wildcards. (Microsoft Access SQ
 
 Wildcards are typically used with the [`LIKE`](https://www.codecademy.com/resources/docs/sql/operators/like) operator, which returns true if the first string argument matches the wildcard pattern in the second.
 
-#Examples
+## Examples
 
 Select all rows where `column`'s value has "H" as the second character.
 
