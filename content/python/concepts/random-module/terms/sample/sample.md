@@ -28,7 +28,7 @@ The `population` is a sequence of items can either be a [list](https://www.codec
 
 ## Codebyte Example
 
-```codebyte/py
+```codebyte/python
 import random
 
 myRange = range(1000)
