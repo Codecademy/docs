@@ -30,7 +30,7 @@ Wildcards are typically used with the [`LIKE`](https://www.codecademy.com/resour
 
 ## Examples
 
-Select all rows where `column`'s value has "H" as the second character.
+Select all rows where `column`'s value has "H" as the second character:
 
 ```sql
 SELECT * FROM table WHERE column LIKE '_H%';
@@ -38,7 +38,7 @@ SELECT * FROM table WHERE column LIKE '_H%';
 
 Matches "THE" and "WHERE" but not "HOUSE" or "BREATH".
 
-Select all rows where `column`'s value contanes an "H" anywhere.
+Select all rows where `column`'s value contanes an "H" anywhere:
 
 ```sql
 SELECT * FROM table WHERE column LIKE '%H%';
