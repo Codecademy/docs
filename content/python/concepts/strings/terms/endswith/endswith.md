@@ -1,5 +1,5 @@
 ---
-Title: 'endswith()'
+Title: '.endswith()'
 Description: 'Checks whether or not a string ends with the given value.'
 Subjects:
   - 'Computer Science'
@@ -14,23 +14,19 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `endswith()` string method checks to see if a particular value is attached to the end of the string it is called on and returns a boolean value.
+TThe `.endswith()` method returns `True` if a particular value is attached to the end of a given string. Otherwise, it returns `False`.
 
 ## Syntax
 
-```pseudo
-string.endswith(value, start, end)
-```
+Given a  `string`, the `.endswith()` method can be used in the following way:
 
-## Parameters
+The `value` is required argument that is checked for whether it exists at the beginning of the `string`.  It is also case-sensitive.
 
-- `value` (required): value to be checked at the end of the string
-- `start` (optional): specifies the starting index
-- `end` (optional): specifies the ending index
+Conversely, the `value` can be tested whether it is the end of a particular substring of `string` by using the optional `start` and `end` index arguments.
 
-## Example 1
+## Examples
 
-Checking for the value `g` at the end of the string, `example`:
+The following checks for the value `g` at the end of the `example` string:
 
 ```py
 example = "This is a string"
@@ -40,9 +36,7 @@ print(check)
 # Output: True
 ```
 
-## Example 2
-
-Checking for the value `s`:
+This example returns `False` after checking for the value `s`:
 
 ```py
 example = "This is a string"
@@ -51,20 +45,6 @@ print(check)
 
 # Output: False
 ```
-
-## Example 3
-
-Checking for the value `ring`:
-
-```py
-example = "This is a string"
-check = example.endswith("ring")
-print(check)
-
-# Output: True
-```
-
-## Example 4
 
 The following checks for `st` and has a starting index of `5` and an ending index of `12`:
 
@@ -76,14 +56,17 @@ print(check)
 # Output: True
 ```
 
-**Note:** The `endswith()` function is case-sensitive and is demonstrated by the example given below.
+## Codebyte example
 
-## Example 5
+```codebyte/py
 
-```py
-example = "This is a string"
-check = example.endswith("G")
-print(check)
+example_A = "This is a string"
+check_A = example_A.endswith("ring")
+print(check_A)
 
-# Output: False
+// .endswith() is case-sensitive
+
+example_B = "This is a string"
+check_B = example_B.endswith("G")
+print(check_B)
 ```
