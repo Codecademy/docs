@@ -105,13 +105,13 @@ console.log('Hello, World!');
 
 Currently, Codebytes supports the following languages:
 
-- C++: \```cpp
-- C#: \```csharp
-- Go: \```golang
-- JavaScript:\```javascript
-- PHP: \```php
-- Python: \```python
-- Ruby: \```ruby
+- C++: `cpp`
+- C#: `csharp`
+- Go: `golang`
+- JavaScript: `javascript`
+- PHP: `php`
+- Python: `python`
+- Ruby: `ruby`
 
 **Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
