@@ -20,7 +20,7 @@ Fetches data from a database. Every query will begin with `SELECT`. The `SELECT`
 
 ## Syntax
 
-Selecting columns from `table` by name. 
+Selecting columns from `table` by name.
 
 ```sql
 SELECT column1, column2, ... columnN FROM table;

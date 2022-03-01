@@ -46,6 +46,7 @@ Select all rows where `column`'s value contanes an "H" anywhere:
 ```sql
 SELECT * FROM table WHERE column LIKE '%H%';
 ```
+
 Matches "THE", "WHERE", "HOUSE" and "BREATH".
 
 Select all rows where `column`'s value is three characters long and has an "H" as the second character:
