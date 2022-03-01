@@ -21,7 +21,7 @@ The `random.sample()` method returns a list of items that are randomly sampled f
 For arguments, the `random.sample()` method accepts a `population` and a `number` to set the length of the returned sample. 
 
 ```pseudo
-random.sample(<population>,<number>)
+random.sample(population, number)
 ```
 
 Where `<population>` is the sequence the items are selected from, and `<number>` is the number of item(s) to be returned.
