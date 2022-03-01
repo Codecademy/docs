@@ -1,6 +1,6 @@
 ---
 Title: LIKE
-Description: 'Perform case-sensitive pattern matching on TEXT data through the use of wildcard characters.'
+Description: 'Returns `TRUE` if its first text argument matches the wildcard pattern in its second argument.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,98 +17,41 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Perform case-sensitive pattern matching on `TEXT` data through the use of wildcard characters.
+The `LIKE` operator returns `TRUE` if its first text argument matches the [wildcard](https://www.codecademy.com/resources/docs/sql/wildcards) pattern in its second argument.
 
 ## Syntax
 
-```sql
-SELECT column_name(s)
-FROM table_name
-WHERE column_name LIKE pattern;
-```
-
-`LIKE` is a special operator used with the `WHERE` clause to search for a specific pattern in a column.
-
-## Wildcard `%`
-
-The `%` wildcard can be used in a `LIKE` operator pattern to match zero or more unspecified character(s).
-
-```sql
-SELECT name
-FROM movies
-WHERE name LIKE 'The%';
-```
-
-The given query will match any movie that begins with `The`, followed by zero or more of any characters.
-
-## Wildcard `_`
-
-The `_` wildcard can be used in a `LIKE` operator pattern to match any single unspecified character.
-
-```sql
-SELECT name
-FROM movies
-WHERE name LIKE '_ove';
-```
-
-The given query will match any movie which begins with a single character, followed by `ove`.
-
-## Example 1
-
-To pattern match all match any movie that begins with `Star` in its title, like `'Star Wars'` and `'Star Trek'`.
-
-```sql
-SELECT name
-FROM movies
-WHERE name LIKE 'Star%';
-```
-
-## Example 2
-
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` anywhere in the sequence:
+`LIKE` is typically used in a `WHERE` clause to select rows based on a column matching a given pattern.
 
 ```sql
 SELECT *
-FROM inventory
-WHERE item_name LIKE `%abc%`;
+FROM table
+WHERE column LIKE pattern;
 ```
 
-## Example 3
+`pattern` is made up of a string including the special characters `%`, which matches 0 to any number of arbitrary characters, and `_` which matches a single arbitrary character.
 
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that end with `abc`:
+## Examples
+
+Select all rows where `column`'s value has "H" as the second character:
 
 ```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `%abc`;
+SELECT * FROM table WHERE column LIKE '_H%';
 ```
 
-## Example 4
+Matches "THE" and "WHERE" but not "HOUSE" or "BREATH".
 
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain `abc` in specifically the second position of the sequence:
+Select all rows where `column`'s value contanes an "H" anywhere:
 
 ```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `_abc%`;
+SELECT * FROM table WHERE column LIKE '%H%';
 ```
+Matches "THE", "WHERE", "HOUSE" and "BREATH".
 
-## Example 5
-
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that begin with `abc` with a length of at least 3 characters in the sequence:
+Select all rows where `column`'s value is three characters long and has an "H" as the second character:
 
 ```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `abc__%`;
+SELECT * FROM table WHERE column LIKE '_H_';
 ```
 
-## Example 6
-
-To pattern match all sequences of characters in the `item_name` column from the `inventory` folder that contain begin with `abc` and end with `xyz`:
-
-```sql
-SELECT *
-FROM inventory
-WHERE item_name LIKE `abc%xyz`;
-```
+Matches "THE" but not "WHERE", "HOUSE" or "BREATH".
