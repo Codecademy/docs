@@ -28,7 +28,8 @@ Attributes provide additional characteristics to the element. Some common attrib
   - `media`: tells which device the document is optimized for
   - `sizes`: sets out the size of visual media icons
   - `type`: specifies the content type e.g., `video/mp4` or `audio/ogg`
-	  
+```
+
 ## Example
 
 ```html
