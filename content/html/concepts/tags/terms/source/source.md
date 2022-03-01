@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<source>` element allows for multiple sources or file formats to be associated with the `<audio>`, `<video>`, and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<sourse>` tag is a child of a `<audio>`, `<video>`, or `<picture>` and has atleast 1 attribute. The `src` attribute needs to be in every `<source>` tag with the file path to the media.
+The `<source>` element allows for multiple sources or file formats to be associated with the [`<audio>`](https://www.codecademy.com/resources/docs/html/tags/audio), [`<video>`](https://www.codecademy.com/resources/docs/html/tags/video), and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<source>` tag is a child of a `<audio>`, `<video>`, or `<picture>` and has at least one [attribute](https://www.codecademy.com/resources/docs/html/attributes).
 
 ## Example
 
