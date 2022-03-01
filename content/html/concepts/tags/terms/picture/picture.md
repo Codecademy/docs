@@ -18,8 +18,8 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ```pseudo
 <picture>
-  <!-- zero or more source tags go here -->
-  <!-- followed by one img tag here -->
+  Zero or more source tags go here,
+  followed by one image tag here.
 </picture>
 ```
 
