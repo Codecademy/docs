@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.sample()` method returns a list of items that are randomly sampled from a given population. Each item is randomly selected without duplication from the population.
+The `random.sample()` method returns a list of items that are randomly sampled from a given population. The returned list consists of randomly selected items without duplicates.
 
 ## Syntax
 
