@@ -15,6 +15,12 @@ CatalogContent:
 
 The `<source>` element allows for multiple sources or file formats to be associated with the [`<audio>`](https://www.codecademy.com/resources/docs/html/tags/audio), [`<video>`](https://www.codecademy.com/resources/docs/html/tags/video), and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<source>` tag is a child of a `<audio>`, `<video>`, or `<picture>` and has at least one [attribute](https://www.codecademy.com/resources/docs/html/attributes).
 
+## Syntax
+
+`<source>` is an empty element. It has no child nodes and no closing tag.
+
+```pseudo 
+       <source <!-- attributes go here --> > 
 
 Attributes provide additional characteristics to the element. Some common attributes used with `<source>` are:
   - `src`: specifies the URL of the media, used for `<audio>` and `<video>` tags
