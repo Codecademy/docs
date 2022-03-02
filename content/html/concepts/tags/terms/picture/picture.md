@@ -46,5 +46,5 @@ Using different sources provides more options for the browser with regards to th
 
 Some use cases for this example include the following:
 
-- Art direction, where responsive designs offer an alternative image to fit within smaller or larger displays based on the media being used.
+- Creating a responsive design where an alternative image is used based on the display size.
 - Optimizing page load times in situations where certain images take longer to load and having an alternative image that loads faster comes in handy.
