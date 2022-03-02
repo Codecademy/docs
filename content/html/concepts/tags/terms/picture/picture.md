@@ -18,7 +18,7 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ```pseudo
 <picture>
-  Zero or more source tags go here,
+  Zero or more <source> tags go here,
   followed by one image tag here.
 </picture>
 ```
