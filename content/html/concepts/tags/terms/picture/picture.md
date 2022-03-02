@@ -15,9 +15,9 @@ CatalogContent:
 The `<picture>` tag represents multiple possible image sources to be applied to different devices and screen-sizes. While it has no semantic meaning, the `<picture>` tag will separate its contents from the rest of the document.
 
 ## Syntax
-  
+
 The `<picture>` tag is used with zero or more `<source>` elements followed by one [`<img>` element](https://www.codecademy.com/resources/docs/html/images).
-  
+
 ```pseudo
 <picture>
   Zero or more <source> tags go here,
