@@ -20,7 +20,20 @@ The `<source>` element allows for multiple sources or file formats to be associa
 `<source>` is an empty element. It has no child nodes and no closing tag.
 
 ```pseudo 
-       <source <!-- attributes go here --> > 
+<audio>
+  <source src="link-or-path.here" />
+  <!-- Fallback content here. -->
+</audio>
+
+<video>
+  <source src="link-or-path.here" />
+  <!-- Fallback content here. -->
+</video>
+
+<picture>
+  <source srcset="comma-separated-links, for-different-contexts" />
+  <!-- Fallback content here. -->
+</picture>
 ```
 
 Attributes provide additional characteristics to the element. Some common attributes used with `<source>` are:
