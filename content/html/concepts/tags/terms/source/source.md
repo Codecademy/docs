@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<source>` element allows for multiple sources or file formats to be associated with the [`<audio>`](https://www.codecademy.com/resources/docs/html/tags/audio), [`<video>`](https://www.codecademy.com/resources/docs/html/tags/video), and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<source>` tag is a child of a `<audio>`, `<video>`, or `<picture>` and has at least one [attribute](https://www.codecademy.com/resources/docs/html/attributes). Note that with the `<picture>` tag the `srcset` is perfered over `src`.
+The `<source>` element allows for multiple sources or file formats to be associated with the [`<audio>`](https://www.codecademy.com/resources/docs/html/tags/audio), [`<video>`](https://www.codecademy.com/resources/docs/html/tags/video), and `<picture>` tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<source>` tag is a child of an `<audio>`, `<video>`, or `<picture>` and has at least one [attribute](https://www.codecademy.com/resources/docs/html/attributes). 
 
 ## Syntax
 
