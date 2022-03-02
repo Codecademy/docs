@@ -23,7 +23,7 @@ Whenever the `<abbr>` tag is used, it should use the `title` attribute, which in
 <abbr title=""><!-- The acronym or abbreviation here --></abbr>
 ```
 
-While using the `title` attribute can semantically helpful, it is still a good practice in accessibility to spell out the word/phrase in the text the first time before applying the `<abbr>` tag. Some browsers also apply default styling to the `<abbr>` tag like dotted underlines or translating the text into small letters.
+While using the `title` attribute can be semantically helpful, it is still a good practice in accessibility to spell out the word/phrase in the text the first time before applying the `<abbr>` tag. Some browsers also apply default styling to the `<abbr>` tag like dotted underlines or translating the text into small letters.
 
 ## Example
 
@@ -37,4 +37,4 @@ While using the `title` attribute can semantically helpful, it is still a good p
 </p>
 ```
 
-When the mouse moves over the element then it shows the information written inside the `title` attribute on a tooltip.
+When the mouse moves over the element, the information written inside the `title` attribute on a tooltip is displayed.
