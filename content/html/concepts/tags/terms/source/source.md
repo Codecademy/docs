@@ -17,7 +17,7 @@ The `<source>` element allows for multiple sources or file formats to be associa
 
 ## Syntax
 
-`<source>` is an empty element. It has no child nodes and no closing tag.
+`<source>` is an empty tag and has no children or closing tags.
 
 ```pseudo 
 <audio>
