@@ -36,7 +36,8 @@ The `<source>` element allows for multiple sources or file formats to be associa
 </picture>
 ```
 
-Attributes provide additional characteristics to the element. Some common attributes used with `<source>` are:
+Attributes provide additional characteristics to the element. Certain attributes are available to the `<source>` tag, depending on which element it is nested in. Listed are some common `<source>` attributes and their compatibilities:
+
   - `src`: specifies the URL of the media, used for `<audio>` and `<video>` tags
   - `srcset`: defines a set of images for the browser to choose from, used with `<picture>`  
   - `media`: tells which device the document is optimized for
