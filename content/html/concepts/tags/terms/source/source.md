@@ -39,7 +39,7 @@ The `<source>` element allows for multiple sources or file formats to be associa
 Attributes provide additional characteristics to the element. Certain attributes are available to the `<source>` tag, depending on which element it is nested in. Listed are some common `<source>` attributes and their compatibilities:
 
   - `src`: specifies the URL of the media; required when the parent element of `<source>` is an `<audio>` or `<video>` element, but not allowed when the parent is a `<picture>` element.
-  - `srcset`: defines a set of images for the browser to choose from, used with `<picture>`  
+  - `srcset`: defines a set of images for the browser to choose from; required when the parent element of `<source>` is a `<picture>` element,  but not allowed when the parent is an `<audio>` or `<video>` element.
  - `media`: tells which device the document is optimized for, only allowed when the parent element of `<source>` is a `<picture>` element.
   - `sizes`: sets out the size of visual media icons
   - `type`: specifies the content type e.g., `video/mp4` or `audio/ogg`
