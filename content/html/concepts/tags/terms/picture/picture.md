@@ -21,7 +21,7 @@ The `<picture>` tag is used with zero or more `<source>` elements followed by on
 ```pseudo
 <picture>
   Zero or more <source> tags go here,
-  followed by at least one <image> tag here.
+  followed by at least one <img> tag here.
 </picture>
 ```
 
