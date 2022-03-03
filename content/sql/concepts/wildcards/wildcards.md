@@ -21,7 +21,7 @@ Wildcards are special characters used in SQL to represent one or more arbitrary 
 
 There are two wildcards generally recognized across SQL implementations:
 
-- `%` which matches any arbitrary number of characters. (Including 0 characters.)
+- `%` which matches any arbitrary number of characters, including zero characters.
 - `_` which matches any one single character.
 
 Some SQL implementations add additional types of wildcards. (Microsoft Access SQL, in particular, is non-standard, using `*` in place of `%` and `?` in place of `_`.)
