@@ -29,7 +29,10 @@ FROM table
 WHERE column LIKE pattern;
 ```
 
-`pattern` is made up of a string including the special characters `%`, which matches 0 to any number of arbitrary characters, and `_` which matches a single arbitrary character.
+The `pattern` is made up of a string that includes the following wildcards:
+
+* The percent character `%` matches zero to any number of arbitrary characters.
+* The underscore character `_` matches a single arbitrary character.
 
 ## Examples
 
