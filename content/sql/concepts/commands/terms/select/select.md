@@ -26,7 +26,7 @@ The `SELECT` command is followed by a list of columns to be returned from the ta
 SELECT column1, column2, ... columnN FROM table;
 ```
 
-Select all columns from `table`:
+`SELECT` can also use the special `*` character to represent all columns from the table(s):
 
 ```sql
 SELECT * FROM table;
