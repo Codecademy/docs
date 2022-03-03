@@ -49,5 +49,3 @@ The next example selects all columns from `table1` and a named column `columnA` 
 ```sql
 SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 ```
-
-**Note:** If a column name used from `table2` duplicates one in `table1` it should be used with an alias as in the example.
