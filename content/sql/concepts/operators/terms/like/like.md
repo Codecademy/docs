@@ -33,11 +33,6 @@ The `pattern` is made up of a string that includes the following wildcards:
 
 - The percent character `%` matches zero to any number of arbitrary characters.
 - The underscore character `_` matches a single arbitrary character.
-  <<<<<<< HEAD
-
-=======
-
-- > > > > > > > 71922471162bb09cf7ff13208419218cc07c9d16
 
 ## Examples
 
