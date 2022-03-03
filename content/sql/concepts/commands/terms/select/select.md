@@ -36,7 +36,7 @@ SELECT * FROM table;
 
 ## Examples
 
-Select all columns from `table1` and `table2`:
+The following example selects all columns from `table1` and `table2`:
 
 ```sql
 SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
