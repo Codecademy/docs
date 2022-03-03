@@ -31,9 +31,9 @@ WHERE column LIKE pattern;
 
 The `pattern` is made up of a string that includes the following wildcards:
 
-* The percent character `%` matches zero to any number of arbitrary characters.
-* The underscore character `_` matches a single arbitrary character.
-
+- The percent character `%` matches zero to any number of arbitrary characters.
+- The underscore character `_` matches a single arbitrary character.
+- 
 ## Examples
 
 Select all rows where `column`'s value has "H" as the second character:
