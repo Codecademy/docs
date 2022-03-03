@@ -52,7 +52,7 @@ SELECT * FROM table WHERE column LIKE '%H%';
 
 Matches values like "THE", "WHERE", "HOUSE" and "BREATH".
 
-Select all rows where `column`'s value is three characters long and has an "H" as the second character:
+This example selects all rows where `column`'s value is three characters long and has an "H" as the second character:
 
 ```sql
 SELECT * FROM table WHERE column LIKE '_H_';
