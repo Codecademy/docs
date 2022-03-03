@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Wildcards are special characters that are used in SQL to represent one or more arbitrary characters. They allow flexibility in matching string values using the LIKE operator.
+Wildcards are special characters used in SQL to represent one or more arbitrary characters.
 
 There are two wildcards generally recognized across SQL implementations:
 
