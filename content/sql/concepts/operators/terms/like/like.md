@@ -42,7 +42,7 @@ Select all rows where `column`'s value has "H" as the second character:
 SELECT * FROM table WHERE column LIKE '_H%';
 ```
 
-Matches "THE" and "WHERE" but not "HOUSE" or "BREATH".
+The matches would include patterns like "THE" and "WHERE" but not "HOUSE", or "BREATH".
 
 Select all rows where `column`'s value contanes an "H" anywhere:
 
