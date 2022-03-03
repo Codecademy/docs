@@ -42,9 +42,9 @@ The following example selects all columns from `table1` and `table2`:
 SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 ```
 
-**Note:** When selecting all columns from more than one table, if column names are duplicated across tables this will generate an error.
+When selecting all columns from across multiple tables, duplicate column names will generate an error unless they are distinguished with an alias.
 
-Select all columns from `table1` and named columns from `table2`:
+The next example selects all columns from `table1` and a named column `columnA` from `table2`. It is presumed that both tables have a duplicate `columnA` and, therefore, an alias should be used to avoid an error :
 
 ```sql
 SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
