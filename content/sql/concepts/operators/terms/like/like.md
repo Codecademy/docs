@@ -42,7 +42,7 @@ Select all rows where `column`'s value has "H" as the second character:
 SELECT * FROM table WHERE column LIKE '_H%';
 ```
 
-The matches would include patterns like "THE" and "WHERE" but not "HOUSE", or "BREATH".
+The matches would include values like "THE" and "WHERE" but not "HOUSE", or "BREATH".
 
 Select all rows where `column`'s value contanes an "H" anywhere:
 
@@ -50,7 +50,7 @@ Select all rows where `column`'s value contanes an "H" anywhere:
 SELECT * FROM table WHERE column LIKE '%H%';
 ```
 
-Matches "THE", "WHERE", "HOUSE" and "BREATH".
+Matches values like "THE", "WHERE", "HOUSE" and "BREATH".
 
 Select all rows where `column`'s value is three characters long and has an "H" as the second character:
 
@@ -58,4 +58,4 @@ Select all rows where `column`'s value is three characters long and has an "H" a
 SELECT * FROM table WHERE column LIKE '_H_';
 ```
 
-Matches "THE" but not "WHERE", "HOUSE" or "BREATH".
+Matches values like "THE" but not "WHERE", "HOUSE" or "BREATH".
