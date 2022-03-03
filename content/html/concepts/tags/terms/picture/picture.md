@@ -16,7 +16,7 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ## Syntax
 
-The `<picture>` tag is used with zero or more `<source>` elements followed by one [`<img>` element](https://www.codecademy.com/resources/docs/html/images).
+The `<picture>` tag is used with zero or more [`<source>` elements](https://www.codecademy.com/resources/docs/html/tags/source) followed by one [`<img>` element](https://www.codecademy.com/resources/docs/html/images).
 
 ```pseudo
 <picture>
