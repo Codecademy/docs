@@ -1,6 +1,6 @@
 ---
 Title: 'SELECT'
-Description: 'Fetches data from a database. Every query will begin with SELECT.'
+Description: 'Every SQL query will begin with the `SELECT` command to fetch data from one or more tables.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Fetches data from a database. Every query will begin with `SELECT`. The `SELECT` command is followed by a list of columns to be returned from the tables listed in the `FROM` clause. `SELECT` can also use the special character `*` to represent all columns from a table or tables. `*` can be mixed with explicit column names in a `SELECT` statement though duplicated column names should be distinguished with an alias.
+Every SQL query will begin with the `SELECT` command to fetch data from one or more tables.
 
 ## Syntax
 
