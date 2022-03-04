@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-In the Python `random` module, the `.seed()` function is used to create a pseudo-random number generator. Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed and it sets the first "random" value of the number sequence. With seeds, a user is able to reproduce the same random numbers multiple times.
+In the Python `random` module, the `.seed()` method is used to create a pseudo-random number generator. Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed and it sets the first "random" value of the number sequence. With seeds, a user is able to reproduce the same random numbers multiple times.
 
 ## Syntax
 
