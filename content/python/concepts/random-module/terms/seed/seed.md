@@ -42,7 +42,7 @@ print(random.random())
 
 ## Codebyte Example
 
-In the example below, the `.seed()` function is used three times, once with no value and the other two with the same value of `5`. In the output, each call to `random.seed(5)` guarantees the first pseudo-random value from the output will be the same every time:
+In the example below, the `.seed()` method is used three times, once with no value and the other two with the same value of `5`. In the output, each call to `random.seed(5)` guarantees the first pseudo-random value from the output will be the same every time:
 
 ```codebyte/python
 import random
