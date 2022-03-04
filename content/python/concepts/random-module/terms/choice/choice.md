@@ -58,7 +58,7 @@ print(random.choice(my_string))
 
 In the example below, `random.choice()` is used to return a random element from the `to_learn` tuple:
 
-```codebyte/py
+```codebyte/python
 import random
 
 to_learn = ("Python",
