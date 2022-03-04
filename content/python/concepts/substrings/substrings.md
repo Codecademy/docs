@@ -42,7 +42,7 @@ When only one index is specified, a single character is returned. An index of `0
 ```py
 print(name[0])
 
-#Output: C
+# Output: C
 ```
 
 Negative numbers work on the string backwards. For example, index `-1` retrieves the last character of the string:
