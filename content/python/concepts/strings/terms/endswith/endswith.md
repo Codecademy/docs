@@ -1,6 +1,6 @@
 ---
 Title: '.endswith()'
-Description: 'Checks whether or not a string ends with the given value.'
+Description: 'Checks whether or not a string ends with a given value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,17 +14,21 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-TThe `.endswith()` method returns `True` if a particular value is attached to the end of a given string. Otherwise, it returns `False`.
+The `.endswith()` method checks a value against a given string and returns `True` if the string ends with that value. Otherwise, it returns `False`.
 
 ## Syntax
 
-Given a  `string`, the `.endswith()` method can be used in the following way:
+```pseudo
+string.endswith(value, start, end)
+```
 
-The `value` is required argument that is checked for whether it exists at the beginning of the `string`.  It is also case-sensitive.
+Given a `string`, the `.endswith()` method can be used in the following way:
 
-Conversely, the `value` can be tested whether it is the end of a particular substring of `string` by using the optional `start` and `end` index arguments.
+The `value` is a required argument that is checked if it exists at the end of the `string`.  It is also case-sensitive.
 
-## Examples
+Optionally, the `value` can be tested for whether it is at the end of a particular substring within the `string`. This is done within the `start` and `end` index arguments.
+
+## Example
 
 The following checks for the value `g` at the end of the `example` string:
 
@@ -56,15 +60,13 @@ print(check)
 # Output: True
 ```
 
-## Codebyte example
+## Codebyte Example
 
-```codebyte/py
+```codebyte/python
 
 example_A = "This is a string"
 check_A = example_A.endswith("ring")
 print(check_A)
-
-// .endswith() is case-sensitive
 
 example_B = "This is a string"
 check_B = example_B.endswith("G")
