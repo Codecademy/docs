@@ -50,7 +50,7 @@ Negative numbers work on the string backwards. For example, index `-1` retrieves
 ```py
 print(name[-1])
 
-#Output: a
+# Output: a
 ```
 
 ### Negative Start Index
