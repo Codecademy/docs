@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `random.choice()` function returns a random item chosen from an `iterable` argument, such as a [list](https://www.codecademy.com/resources/docs/python/lists) or a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries).
+The `.choice()` method returns a random item chosen from an `iterable` argument, such as a [list](https://www.codecademy.com/resources/docs/python/lists) or a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries).
 
 ## Syntax
 
