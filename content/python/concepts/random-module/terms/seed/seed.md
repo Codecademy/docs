@@ -19,7 +19,7 @@ In the Python `random` module, the `.seed()` method is used to create a pseudo-r
 
 ## Syntax
 
-The `.seed()` function sets the first random number of the generator, either with a `value` or without one:
+The `.seed()` method sets the first random number of the generator, either with a `value` or without one:
 
 ```pseudo
 random.seed(value)
