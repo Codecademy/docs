@@ -23,9 +23,9 @@ A slice is made by using the open `[` and closed `]` square brackets next to a s
 string[start:end:step]
 ```
 
-- `start` gives the initial position the slice will start from (default: 0)
-- `end` is the position where the slicing will end (default: -1)
-- `step` indicates the number of steps to take in between indexes (default: 1)
+- `start` defaults to 0 and gives the initial position the slice will start from.
+- `end` defaults to -1 and is the position where the slicing will end.
+- `step` defaults to 1 and indicates the number of steps to take in between indexes.
 
 ## Examples
 
