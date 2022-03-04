@@ -55,7 +55,7 @@ print(name[-1])
 
 ### Negative Start Index
 
-Using a negative start index (`-n`) with the default end value gives the last `n` characters of the string. The following gives the last three characters of the string:
+Using a negative start index (`-n`) with the default end value accesses the last `n` characters of the string. The following gives access to the last three characters of the string:
 
 ```py
 print(name[-3:])
