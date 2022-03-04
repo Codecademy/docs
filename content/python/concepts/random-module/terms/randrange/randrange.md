@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.randrange()` function selects a random number from a defined range of `int` values.
+The `.randrange()` method selects a random number from a defined range of `int` values.
 
 ## Syntax
 
