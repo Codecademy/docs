@@ -70,7 +70,7 @@ To specify only an end index, use `[:n]`, where `n` is the ending position. This
 ```py
 print(name[:4])
 
-#Output: Code
+# Output: Code
 ```
 
 ### Negative Step Value
@@ -81,7 +81,7 @@ Given a negative step value, returns the results backward:
 reversed = name[::-2]
 print(reversed)
 
-#Output: anNeo
+# Output: anNeo
 ```
 
 ### Keyword `in`
@@ -91,7 +91,7 @@ The `in` keyword can be used to check for a specific substring, like in the exam
 ```py
 print('de' in name)
 
-#Output: True
+# Output: True
 ```
 
 ### `.find()` Method
