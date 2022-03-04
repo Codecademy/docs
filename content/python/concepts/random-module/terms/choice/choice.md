@@ -22,10 +22,10 @@ random.choice(iterable)
 
 An `iterable` can be any kind of sequence-oriented variable, including:
 
-- A [string](https://www.codecademy.com/resources/docs/python/strings) of characters (`"Hello, World!"`)
-- A range of steps (`range(10)`)
-- A list of items (`[0, 1]`)
-- A [tuple](https://www.codecademy.com/resources/docs/python/tuples) of data (`(0, "one")`)
+- A [string](https://www.codecademy.com/resources/docs/python/strings) of characters (`"Hello, World!"`).
+- A range of steps (`range(10)`).
+- A list of items (`[0, 1]`).
+- A [tuple](https://www.codecademy.com/resources/docs/python/tuples) of data values (`(0, "one")`).
 
 ## Example 1
 

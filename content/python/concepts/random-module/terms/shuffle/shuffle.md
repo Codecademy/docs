@@ -41,7 +41,7 @@ print(my_list)
 
 ## Codebyte Example
 
-```codebyte/py
+```codebyte/python
 import random
 
 deck_of_cards = [

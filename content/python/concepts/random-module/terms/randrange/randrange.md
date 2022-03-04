@@ -35,7 +35,7 @@ print(random.randrange(0, 100))
 
 In the example below, `random.randrange()` is used to return a random number that is between `0` and `99` and divisible by `5`:
 
-```codebyte/py
+```codebyte/python
 import random
 
 print(random.randrange(0, 100, 5))

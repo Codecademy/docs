@@ -36,7 +36,7 @@ print(random.randint(0, 50))
 
 The `random.randint()` function can also be applied to negative `int` values, as shown in the example below:
 
-```codebyte/py
+```codebyte/python
 import random
 
 print(random.randint(-25, 25))
