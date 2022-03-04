@@ -30,7 +30,7 @@ The `value` can be an `int`, `float`, `str`, `byte`, `bytearray`, or `NoneType`.
 
 ## Example
 
-In most cases, the `.seed()` function uses the current time of the computer's system to initialize a new generator:
+In most cases, the `.seed()` method uses the current time of the computer's system to initialize a new generator:
 
 ```py
 import random
