@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `random.randint()` function returns a random integer that exists between two `int` values, `int_a` and `int_b` (inclusive), passed as arguments.
+The `.randint()` method returns a random integer that exists between two `int` values, `int_a` and `int_b` (inclusive), passed as arguments.
 
 ## Syntax
 
