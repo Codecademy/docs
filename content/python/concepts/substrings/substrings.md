@@ -99,5 +99,6 @@ print('de' in name)
 The string method [`.find()`](https://www.codecademy.com/resources/docs/python/strings/find) can also be used to find a subset. It returns the index of the first occurrence of the substring. If the substring is not found, it returns `-1`.
 
 ```codebyte/python
+name = "Code Ninja"
 print(name.find('ni'))
 ```
