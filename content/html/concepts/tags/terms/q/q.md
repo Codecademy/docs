@@ -14,13 +14,15 @@ CatalogContent:
 
 The `<q>` tag is used to represent a brief inline quotation, as opposed to the [`<blockquote>` tag](https://www.codecademy.com/resources/docs/html/tags/blockquote) being used for longer ones.
 
+It accepts a `cite` attribute that links to a valid URL that provides further context for the quotation.
+
 ## Syntax
+
+The `<q>` tag requires an opening and closing tag wrapped around a line of text. The browser will automatically enclose the text in quotation marks:
 
 ```html
 <q cite=""><!-- Brief quotation goes inside the tag --></q>
 ```
-
-It accepts a `cite` attribute that links to a valid URL that provides further context for the quotation.
 
 ## Example
 
