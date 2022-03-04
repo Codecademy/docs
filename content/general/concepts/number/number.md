@@ -16,4 +16,4 @@ Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers wi
 
 ## Arithmetic Accuracy 
 
-Languages such as Javascript and Python yield interesting results when arithmetic operations are performed on numeric values. For example, `.1+.2` would evaluate tol `0.30000000000000004`, whereas adding whole numbers wouldn't do this. But you need to keep in mind the integer limit. It is the number where the compiler won't understand the numbers anymore.
+Languages such as Javascript and Python yield interesting results when arithmetic operations are performed on numeric values. For example, `.1+.2` would evaluate to `0.30000000000000004`, whereas adding whole numbers wouldn't do this. But you need to keep in mind the integer limit. It is the number where the compiler won't understand the numbers anymore.
