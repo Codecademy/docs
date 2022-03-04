@@ -29,7 +29,7 @@ string[start:end:step]
 
 ## Examples
 
-The following examples show different ways of obtaining substrings, all from the same original string.
+The following examples show different ways of obtaining substrings from an original string `name`.
 
 ```py
 name = "Code Ninja"
