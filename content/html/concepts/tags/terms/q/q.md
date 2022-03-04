@@ -38,4 +38,4 @@ The `<q>` tag requires an opening and closing tag wrapped around a line of text.
 </p>
 ```
 
-![Example of what the rendered text would look like](../../../../../../media/q.jpg)
+![Example of what the rendered text would look like](https://raw.githubusercontent.com/Codecademy/docs/main/media/q.jpg)
