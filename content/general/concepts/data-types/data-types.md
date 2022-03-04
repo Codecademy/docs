@@ -33,7 +33,7 @@ While primitive types are the building blocks, composite data types are the buil
 | Data Type | Description |
 | --- | --- |
 | [Array](https://www.codecademy.com/resources/docs/general/array) | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. |
-| [Object](https://www.codecademy.com/resources/docs/general/object) | Objects are groups of related data that are usually organized as property-value pairs. Learn more |
+| [Object](https://www.codecademy.com/resources/docs/general/object) | Objects are groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
 ## Other Common Data Types
