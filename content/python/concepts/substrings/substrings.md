@@ -60,7 +60,7 @@ Using a negative start index (`-n`) with the default end value accesses the last
 ```py
 print(name[-3:])
 
-#Output: nja
+# Output: nja
 ```
 
 ### End Index
