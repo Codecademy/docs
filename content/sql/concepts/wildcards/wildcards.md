@@ -1,5 +1,5 @@
 ---
-Title: Wildcards
+Title: 'Wildcards'
 Description: 'Wildcards are special characters used in SQL to represent one or more arbitrary characters.'
 Subjects:
   - 'Data Science'
