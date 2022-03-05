@@ -21,7 +21,7 @@ The `LIKE` operator returns `TRUE` if its first text argument matches the [wildc
 
 ## Syntax
 
-`LIKE` is commonly used in a [`WHERE` clause](https://www.codecademy.com/resources/docs/sql/commands/where) to select rows based on a column matching a given string pattern.
+`LIKE` is commonly used in a [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause to select rows based on a column matching a given string pattern.
 
 ```pseudo
 SELECT *
