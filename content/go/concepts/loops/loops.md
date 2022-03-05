@@ -64,7 +64,7 @@ for countdown > 0 {
 
 ## An Infinite Loop
 
-If the condition statement is omitted along with the post and init statements, the loop will execute indefinitely unless a `break` statement is encountered. 
+If the condition statement is omitted along with the post and init statements, the loop will execute indefinitely unless a `break` statement is encountered.
 
 ### Syntax
 
@@ -136,6 +136,3 @@ for {
   fmt.Println(i) // only prints numbers 0 to 49
 }
 ```
-
-
-
