@@ -38,7 +38,7 @@ SELECT * FROM table WHERE column LIKE '_H%';
 
 The matches would include values like "THE" and "WHERE" but not "HOUSE", or "BREATH".
 
-Select all rows where `column`'s value contanes an "H" anywhere:
+Select all rows where `column`'s value contains an "H" anywhere:
 
 ```sql
 SELECT * FROM table WHERE column LIKE '%H%';
