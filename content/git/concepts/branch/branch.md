@@ -1,6 +1,6 @@
 ---
 Title: 'Branch'
-Description: 'In Git, a branch represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.  The basic syntax for creating a branch in Git is this: shell git branch   Using this command from  will create a new branch called  based off of the code that is currently in .'
+Description: 'A branch represents a way to provide an isolated copy of the current code which can be modified without affecting the original code.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -18,39 +18,78 @@ In Git, a branch represents a way to provide an isolated copy of the current cod
 
 ## Creating a Branch
 
-The basic syntax for creating a branch in Git is this:
+The syntax for creating a branch in Git is this:
 
-```shell
+```pseudo
 git branch <branch-name>
 ```
 
 Using this command from `<current-branch>` will create a new branch called `<branch-name>` based off of the code that is currently in `<current-branch>`.
 
+## Renaming a branch
+
+To rename a local branch in Git, use the following syntax:
+
+```pseudo
+git branch -m <old-branch-name> <new-branch-name>
+```
+
+The `-m` flag here is short for `--move`. A good way to remember this is to think of renaming as "moving" the branch from one name to another.
+
 ## Deleting a Branch
 
-The basic syntax for removing a branch in Git is this:
+The syntax for removing a branch in Git is this:
 
-```shell
+```pseudo
 git branch -d <branch-name>
 ```
 
 As long as the branch has no uncommitted code, this command will remove the branch entirely. It will no longer be available to check out, and the changed code will be unrecoverable.
 
-## Moving Between Branches
+Sometimes, Git will refuse to delete a branch because it has unmerged changes in an existing upstream or remote version of that branch. In such cases, it can be forcefully deleted with either the `-d --force` or capitalized `-D` flag, like so in the `my-branch` examples below.
 
-The basic syntax for moving between branches in Git is this:
+Option 1:
 
 ```shell
-git checkout <branch-name>
+git branch -d --force my-branch
 ```
 
-This will change the active branch to the one named `<branch-name>`. Any editing done this point will be to the copy of the code within `<branch-name>` rather than the previous branch.
+Option 2:
+
+```shell
+git branch -D my-branch
+```
+
+Performing a force delete tells Git the user understands that all changes on that branch will be lost forever, and they want to delete the branch anyway.
+
+## Moving Between Branches
+
+The syntax for moving between branches in Git is this:
+
+```shell
+git checkout branch-name
+```
+
+This will change the active branch to the one named `branch-name`. Any editing done at this point will be to the copy of the code within `branch-name` rather than the previous branch.
+
+The `checkout` command is often used immediately after creating a new branch. This is so common that there is a shorthand command to create a new branch and switch to it automatically:
+
+```shell
+git checkout -b branch-name
+```
+
+This is the same as performing the following commands in direct succession:
+
+```shell
+git branch branch-name
+git checkout branch-name
+```
 
 ## Merging Branches
 
-The basic syntax for moving code from one branch into another in Git is this:
+The syntax for moving code from one branch into another in Git is this:
 
-```shell
+```pseudo
 git merge <branch-name>
 ```
 
