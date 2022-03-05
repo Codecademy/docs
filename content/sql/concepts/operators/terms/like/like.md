@@ -36,7 +36,7 @@ The `pattern` is made up of a string that includes the following wildcards:
 
 ## Examples
 
-Select all rows where `column`'s value has "H" as the second character:
+Select all rows where the `column`'s value has "H" as the second character:
 
 ```sql
 SELECT * FROM table WHERE column LIKE '_H%';
