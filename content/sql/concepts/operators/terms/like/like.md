@@ -44,18 +44,4 @@ SELECT * FROM table WHERE column LIKE '_H%';
 
 The matches would include values like "THE" and "WHERE" but not "HOUSE", or "BREATH".
 
-The next example selects all rows where an "H" is anywhere in the value of `column`:
-
-```sql
-SELECT * FROM table WHERE column LIKE '%H%';
-```
-
-Matches values like "THE", "WHERE", "HOUSE" and "BREATH".
-
-This example selects all rows where `column`'s value is three characters long and has an "H" as the second character:
-
-```sql
-SELECT * FROM table WHERE column LIKE '_H_';
-```
-
-Matches values like "THE" but not "WHERE", "HOUSE" or "BREATH".
+More examples are shown in the [wildcards](https://www.codecademy.com/resources/docs/sql/wildcards) entry.
