@@ -18,7 +18,7 @@ Pulling a repository allows a programmer to access code from a remote backup and
 
 ## Syntax
 
-The basic syntax for pulling in Git is this:
+The syntax for pulling changes in Git is this:
 
 ```pseudo
 git pull <remote-name> <branch-name>
@@ -50,7 +50,7 @@ Prerequisites to pulling from a remote repository include:
   origin    https://github.com/CompanyName/product-dev.git (push)
   ```
 
-At this stage, pulling is as simple as using the basic syntax with the correct remote and branch names:
+At this stage, pulling can be accomplished with a valid remote and branch name:
 
 ```shell
 git pull origin new-feature-branch

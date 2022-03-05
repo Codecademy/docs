@@ -18,7 +18,7 @@ Pushing a repository allows a programmer to maintain an easily accessible backup
 
 ## Syntax
 
-The basic syntax for pushing in Git is this:
+The syntax for pushing changes in Git is this:
 
 ```shell
 git push <remote-name> <branch-name>
@@ -47,7 +47,7 @@ Prerequisites to pushing from within a repository include:
   origin    https://github.com/CompanyName/product-dev.git (push)
   ```
 
-At this stage, pushing is as simple as using the basic syntax with the correct remote and branch names:
+At this stage, pushing can be accomplished with a valid remote and branch name:
 
 ```shell
 git push origin main

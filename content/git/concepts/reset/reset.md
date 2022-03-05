@@ -55,7 +55,7 @@ nothing to commit, working tree clean
 
 The text above indicates the following:
 
-- The `main` branch is up to date, with the `HEAD` pointing towards the the most recent commit.
+- The `main` branch is up to date, with the `HEAD` pointing towards the most recent commit.
 - There is nothing to commit in the staging area.
 - New changes haven't been made yet in the working tree, hence why it is "clean".
 

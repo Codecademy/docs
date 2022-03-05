@@ -14,11 +14,11 @@ CatalogContent:
 
 In Git, cloning means copying an existing remote repository to the current directory.
 
-Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on a local machine. Here's a command that will interact with a remote branch &mdash; a branch on a server that can be accessed through the internet.
+Many common Git commands are performed only on a local repository, that is, a repository that exists on a local machine. Here's a command that will interact with a remote repository &mdash; a repository on a server that can be accessed through the internet.
 
 ## Syntax
 
-The basic syntax for cloning in Git via HTTPS is this:
+The syntax for cloning in Git via HTTPS is this:
 
 ```psuedo
 git clone https://github.com/repository/URL.git
@@ -26,7 +26,7 @@ git clone https://github.com/repository/URL.git
 
 ## Example
 
-Run `git clone` to clone the repository for [Codecademy Docs](https://github.com/codecademy/docs), like so:
+In the example below, `git clone` is used to clone the [Codecademy Docs](https://github.com/codecademy/docs) repository:
 
 ```shell
 $ git clone https://github.com/Codecademy/docs.git
