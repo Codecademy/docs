@@ -1,5 +1,5 @@
 ---
-Title: LIKE
+Title: 'LIKE'
 Description: 'Returns `TRUE` if its first text argument matches the wildcard pattern in its second argument.'
 Subjects:
   - 'Data Science'
