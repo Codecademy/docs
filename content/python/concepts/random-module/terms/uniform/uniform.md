@@ -25,8 +25,6 @@ Where `value1` and `value2` are numbers bounding the choice of a random floating
 
 ## Example
 
-The following example prints the output of a random floating-point number between 10 and 15, 100 and 150, -10 and 10, and 0.75 and 0.90.
-
 ```py
 import random
 
@@ -40,6 +38,8 @@ Example output:
 ```
 
 ## Codebyte Example
+
+The following example prints the output of a random floating-point number between 10 and 15, 100 and 150, -10 and 10, and 0.75 and 0.90.
 
 ```codebyte/py
 import random
