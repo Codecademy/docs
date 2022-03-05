@@ -18,19 +18,29 @@ In Git, a branch represents a way to provide an isolated copy of the current cod
 
 ## Creating a Branch
 
-The basic syntax for creating a branch in Git is this:
+The syntax for creating a branch in Git is this:
 
-```shell
+```pseudo
 git branch <branch-name>
 ```
 
 Using this command from `<current-branch>` will create a new branch called `<branch-name>` based off of the code that is currently in `<current-branch>`.
 
+## Renaming a branch
+
+To rename a local branch in Git, use the following syntax:
+
+```pseudo
+git branch -m <old-branch-name> <new-branch-name>
+```
+
+The `-m` flag here is short for `--move`. A good way to remember this is to think of renaming as "moving" the branch from one name to another.
+
 ## Deleting a Branch
 
-The basic syntax for removing a branch in Git is this:
+The syntax for removing a branch in Git is this:
 
-```shell
+```pseudo
 git branch -d <branch-name>
 ```
 
@@ -77,9 +87,9 @@ git checkout branch-name
 
 ## Merging Branches
 
-The basic syntax for moving code from one branch into another in Git is this:
+The syntax for moving code from one branch into another in Git is this:
 
-```shell
+```pseudo
 git merge <branch-name>
 ```
 
