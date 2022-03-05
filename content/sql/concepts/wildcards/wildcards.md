@@ -24,7 +24,7 @@ There are two wildcards generally recognized across SQL implementations:
 - `%` which matches zero to any arbitrary number of characters.
 - `_` which matches any one single arbitrary character.
 
-Some SQL implementations add additional types of wildcards. (Microsoft Access SQL, in particular, is non-standard, using `*` in place of `%` and `?` in place of `_`.)
+Some SQL implementations add additional types of wildcards. Microsoft Access SQL, in particular, is non-standard, using `*` in place of `%` and `?` in place of `_`.
 
 Wildcards are commonly used with the [`LIKE` operator](https://www.codecademy.com/resources/docs/sql/operators/like), which returns `TRUE` if the wildcard pattern matches with the provided string value.
 
