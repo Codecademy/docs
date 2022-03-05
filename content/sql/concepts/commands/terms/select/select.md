@@ -1,6 +1,6 @@
 ---
 Title: 'SELECT'
-Description: 'Every SQL query will begin with the `SELECT` command to fetch data from one or more tables.'
+Description: 'Every SQL query will begin with the SELECT command to fetch data from one or more tables.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
