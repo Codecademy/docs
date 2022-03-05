@@ -20,7 +20,7 @@ The `.randint()` method returns a random integer that exists between two `int` v
 random.randint(int_a, int_b)
 ```
 
-Another way of writing this would be `randrange(int_a, int_b + 1)`.
+Another way of writing this would be `random.randrange(int_a, int_b + 1)`.
 
 ## Example
 
