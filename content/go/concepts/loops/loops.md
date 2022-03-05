@@ -33,7 +33,7 @@ Here `init` is a statement initalizing an index variable. `condition` is a boole
 
 ```go
 countdown := 10
-for i := countdown; i > 0; i := i - 1 {
+for i := countdown; i > 0; i-- {
   fmt.Println(i) // Counts down from 10 to 1
 }
 ```
@@ -58,7 +58,7 @@ The loop will execute as long as `condition` remains true.
 countdown := 10
 for countdown > 0 {
   fmt.Println(countdown) // counts down from 10 to 1
-  countdown := countdown - 1
+  countdown--
 }
 ```
 
