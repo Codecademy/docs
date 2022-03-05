@@ -41,7 +41,7 @@ Example output:
 
 The following example prints the output of a random floating-point number between 10 and 15, 100 and 150, -10 and 10, and 0.75 and 0.90.
 
-```codebyte/py
+```codebyte/python
 import random
 
 print(random.uniform(10,15))
