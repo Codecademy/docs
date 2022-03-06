@@ -94,7 +94,7 @@ for index, value = range collection {
 }
 ```
 
-Where `index` is an variable containing the index of the collection, `value` is a variable used to step through the values in `collection`, and `collection` is the collection the loop is stepping through.
+Where `index` is a variable containing the index of the collection, `value` is a variable used to step through the values in `collection`, and `collection` is the collection the loop is stepping through.
 
 ### Example
 
