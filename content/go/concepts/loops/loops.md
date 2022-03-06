@@ -40,7 +40,7 @@ for i := countdown; i > 0; i-- {
 
 ## The While Loop
 
-A "while" loop is one where the loop continues to execute as long as some condition remains true. In some languages this is implemented with a keyword `while`, in Go, the "while" loop is implemented with a `for` loop omitting the `init` and `post` statements.
+A "while" loop is a loop that runs as long as the condition is true. In some languages, this is implemented with the keyword `while`. In Go, the "while" loop is implemented with a `for` loop omitting the `init` and `post` statements.
 
 ### Syntax
 
