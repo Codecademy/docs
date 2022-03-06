@@ -23,16 +23,16 @@ In computer programming, primitive data types are the building blocks for any va
 | --- | --- |
 | [Number](https://www.codecademy.com/resources/docs/general/number) | Includes `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
 | [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (''), double quotes (""), and/or backticks (` `` `), depending on the language. For example: `"Codecademy is awesome! 🖥️⌨️"` |
-| [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Booleans hold a `true` or `false` value. |
+| [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Holds a logical value of `true` or `false`. |
 
 ## Composite Data Types
 
-While primitive types are the building blocks, composite data types are the building. They can be composed of either the
+While primitive types are the building blocks, composite data types are the building. They are composed of multiple primitive data types, sometimes referred to as members, elements, or items. These items can all be of one uniform data type or be a mix of different ones. The follow are examples of well known composite types:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Array](https://www.codecademy.com/resources/docs/general/array) | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. |
+| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are accessed at a specific numbered index, which usually start at 0, then 1, and so on. Nested arrays (arrays within arrays) are also possible. Referred to as lists in some languages. |
 | [Object](https://www.codecademy.com/resources/docs/general/object) | Groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
