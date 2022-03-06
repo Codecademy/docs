@@ -22,7 +22,7 @@ In computer programming, primitive data types are the building blocks for any va
 | Data Type | Description |
 | --- | --- |
 | [Number](https://www.codecademy.com/resources/docs/general/number) | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
-| [String](https://www.codecademy.com/resources/docs/general/string) | Strings are sequences of characters. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| [String](https://www.codecademy.com/resources/docs/general/string) | Strings are sequences of characters surrounded by single quotes (''), double quotes (""), and/or backticks (` `` `), depending on the language. For example: `"Codecademy is awesome! 🖥️⌨️"` |
 | [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Booleans hold a `true` or `false` value. |
 
 ## Composite Data Types
