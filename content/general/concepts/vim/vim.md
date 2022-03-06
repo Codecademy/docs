@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Vim] (https://www.vim.org/) Vim is a free, open source, and customizable text editor for Linux. It can be run dirrectly from the command line interface or from it's GUI interface. When running from the terminal, Vim has 12 different modes. Among which are Normal, Insert, and Command Line. Insert mode allows the user to type into the file. Command Line mode allows users to send commands, such as skip to end of line or save and quit. 
+[Vim](https://www.vim.org/) Vim is a free, open source, and customizable text editor for Linux. It can be run dirrectly from the command line interface or from it's GUI interface. When running from the terminal, Vim has 12 different modes. Among which are Normal, Insert, and Command Line. Insert mode allows the user to type into the file. Command Line mode allows users to send commands, such as skip to end of line or save and quit. 
 
 ## Launching Vim
 ```bash 
@@ -28,16 +28,5 @@ vim filename.txt
 - p (paste after cursor)
 - $ (jump to end of the line)
 
-
-
-## Subsection 2
-
-[Text about subsection 2]
-
-## Subsection n
-
-[Text about subsection n]
-
-```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
-console.log('Hello, World!');
-```
+## Vim Screenshot
+![Vim screenshot](/media/vim.png)
