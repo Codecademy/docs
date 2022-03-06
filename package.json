@@ -2,7 +2,8 @@
   "name": "codecademy-docs",
   "dependencies": {
     "front-matter": "^4.0.2",
-    "glob": "^7.1.7"
+    "glob": "^7.1.7",
+    "markdownlint": "^0.25.1"
   },
   "devDependencies": {
     "@codecademy/eslint-config": "^3.1.0",
