@@ -62,7 +62,7 @@ SELECT * FROM table WHERE column LIKE 'H%';
 
 Matches the value "HOUSE" but not "THE", "WHERE" or "BREATH".
 
-Select all rows where column ends with "H":
+Select all rows where `column`'s value ends with "H":
 
 ```sql
 SELECT * FROM table WHERE column LIKE '%H';
