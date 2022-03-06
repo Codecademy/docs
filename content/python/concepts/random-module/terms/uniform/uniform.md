@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.uniform()` method takes two numbers as arguments and returns a pseudo-random floating-point number between them. The result is inclusive of the first value, and possibly inclusive of the second value, depending on rounding.
+The `.uniform()` method takes two numbers as arguments and returns a pseudo-random floating-point number between them. The result is inclusive of the first value, and possibly inclusive of the second value, depending on rounding.
 
 ## Syntax
 
