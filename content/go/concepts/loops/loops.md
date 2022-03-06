@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'There are several different types of loops in Go. All are written using the `for` command using different syntax.'
+Description: 'There are several different types of loops in Go. All are written using the `for` statement with different syntaxes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
