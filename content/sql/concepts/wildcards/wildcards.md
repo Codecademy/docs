@@ -53,3 +53,19 @@ SELECT * FROM table WHERE column LIKE '_H_';
 ```
 
 Matches the value "THE" but not "WHERE", "HOUSE" or "BREATH".
+
+Select all rows where `column`'s value begins with "H";
+
+```sql
+SELECT * FROM table WHERE column LIKE 'H%';
+```
+
+Matches the value "HOUSE" but not "THE", "WHERE" or "BREATH".
+
+Select all rows where column ends with "H":
+
+```sql
+SELECT * FROM table WHERE column LIKE '%H';
+```
+
+Matches the value "BREATH" but not "THE", "WHERE" or "HOUSE".
