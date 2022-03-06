@@ -90,7 +90,7 @@ By using the `range` keyword, a `for` loop can step through the items in a colle
 
 ```pseudo
 for index, value = range collection {
-  staements
+  statements
 }
 ```
 
