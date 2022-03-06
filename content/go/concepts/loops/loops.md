@@ -118,7 +118,7 @@ The `break` and `continue` statements work in Go as they do in C and Java. A `br
 ### Examples
 
 ```go
-for i := 0, i < 100, i++ {
+for i := 0; i < 100; i++ {
   if i % 2 == 0 {
     continue
   }
