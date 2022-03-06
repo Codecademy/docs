@@ -15,7 +15,7 @@ CatalogContent:
 
 There are several different types of loops in Go. All are written using the `for` command using different syntax.
 
-## Three Component Loop
+## Three-Component Loop
 
 The three-component loop syntax is the same as those used in C or Java. This is often called a `for` loop in other languages.
 
