@@ -17,7 +17,7 @@ There are several different types of loops in Go. All are written using the `for
 
 ## Three Component Loop
 
-The three component loop syntax is the same as ones used in C or Java. This is what is most often called a `for` loop in other languages.
+The three-component loop syntax is the same as those used in C or Java. This is often called a `for` loop in other languages.
 
 ### Syntax
 
