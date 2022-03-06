@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Functions'
+  - 'Methods'
   - 'Random'
 CatalogContent:
   - 'learn-python-3'
@@ -24,7 +25,7 @@ Another way of writing this would be `random.randrange(int_a, int_b + 1)`.
 
 ## Example
 
-In the example below, `random.randint()` is used to return a random number between `0` and `50`:
+In the example below, `.randint()` is used to return a random number between `0` and `50`:
 
 ```py
 import random
@@ -34,7 +35,7 @@ print(random.randint(0, 50))
 
 ## Codebtye Example
 
-The `random.randint()` function can also be applied to negative `int` values, as shown in the example below:
+The `.randint()` method can also be applied to negative `int` values, as shown in the example below:
 
 ```codebyte/python
 import random

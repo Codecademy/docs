@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Functions'
+  - 'Methods
   - 'Random'
 CatalogContent:
   - 'learn-python-3'
@@ -29,7 +30,7 @@ An `iterable` can be any kind of sequence-oriented variable, including:
 
 ## Example 1
 
-In the example below, `random.choice()` returns an item sampled at random from a list called `shopping_list`:
+In the example below, `.choice()` returns an item sampled at random from a list called `shopping_list`:
 
 ```py
 import random
@@ -40,11 +41,11 @@ to_buy = random.choice(shopping_list)
 print(to_buy)
 ```
 
-After `to_buy` is assigned one of the four shopping items with `random.choice()`, it is printed.
+After `to_buy` is assigned one of the four shopping items with `.choice()`, it is printed.
 
 ## Example 2
 
-Since strings are lists of single characters, they can be passed as arguments to `random.choice()`:
+Since strings are lists of single characters, they can be passed as arguments to the `.choice()` method:
 
 ```py
 import random
@@ -56,7 +57,7 @@ print(random.choice(my_string))
 
 ## Codebyte Example
 
-In the example below, `random.choice()` is used to return a random element from the `to_learn` tuple:
+In the example below, `.choice()` is used to return a random element from the `to_learn` tuple:
 
 ```codebyte/python
 import random

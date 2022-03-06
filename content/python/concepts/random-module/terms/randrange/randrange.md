@@ -5,8 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Random'
   - 'Functions'
+  - 'Methods'
+  - 'Random'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -23,7 +24,7 @@ random.randrange(start, stop, step)
 
 ## Example
 
-Here, `random.randrange()` is used to return a random number between `0` and `99`:
+Here, `.randrange()` is used to return a random number between `0` and `99`:
 
 ```py
 import random
@@ -33,7 +34,7 @@ print(random.randrange(0, 100))
 
 ## Codebyte Example
 
-In the example below, `random.randrange()` is used to return a random number that is between `0` and `99` and divisible by `5`:
+In the example below, `.randrange()` is used to return a random number that is between `0` and `99` and divisible by `5`:
 
 ```codebyte/python
 import random

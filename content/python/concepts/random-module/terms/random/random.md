@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Random'
+  - 'Methods'
   - 'Functions'
 CatalogContent:
   - 'learn-python-3'
@@ -13,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.random()` method accepts no parameters and returns a pseudo-random floating-point number between 0.0 and 1.0.
+The `.random()` method accepts no parameters and returns a pseudo-random floating-point number between 0.0 and 1.0.
 
 ## Syntax
 
