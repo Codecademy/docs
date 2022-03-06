@@ -31,16 +31,17 @@ Here `init` is a statement initalizing an index variable. `condition` is a boole
 
 ### Example
 
+This example counts down from ten to one. The init statement sets the variable `i` to 10, the condition ends the loop when `i` is no longer greater than zero, and the post statement decrements `i` by one after each pass.
+
 ```go
-countdown := 10
-for i := countdown; i > 0; i-- {
+for i := 10; i > 0; i-- {
   fmt.Println(i) // Counts down from 10 to 1
 }
 ```
 
 ## The While Loop
 
-A "while" loop is a loop that runs as long as the condition is true. In some languages, this is implemented with the keyword `while`. In Go, the "while" loop is implemented with a `for` loop omitting the `init` and `post` statements.
+A "while" loop is a loop that runs as long as the condition is true. In some languages, this is implemented with the keyword `while`. In Go, the "while" loop is implemented with a `for` loop omitting the init and post statements.
 
 ### Syntax
 
@@ -54,6 +55,8 @@ The loop will execute as long as `condition` remains true.
 
 ### Example
 
+This example behaves exactly the same way as the prior example, except the variable `countdown` is initalized outside the loop, and is decremented inside the loop itself. The condition still runs the loop as long as `countdown` is still greater than zero.
+
 ```go
 countdown := 10
 for countdown > 0 {
@@ -64,7 +67,7 @@ for countdown > 0 {
 
 ## An Infinite Loop
 
-If the condition statement is omitted along with the `post` and `init` statements, the loop will execute indefinitely unless a `break` statement is encountered.
+If the condition statement is omitted along with the post and init statements, the loop will execute indefinitely unless a `break` statement is encountered.
 
 ### Syntax
 
@@ -76,6 +79,8 @@ for {
 
 ### Example
 
+This example will print the string "Help! I'm trapped in a loop!" until the program is halted externally.
+
 ```go
 for {
   fmt.Println("Help! I'm trapped in a loop!") // executes forever
@@ -84,7 +89,7 @@ for {
 
 ## A Range Loop
 
-By using the `range` keyword, a `for` loop can step through the items in a collection such as a `map`, `slice`, `channel` or `string`.
+By using the `range` keyword, a `for` loop can step through the items in a collection such as a array, map, slice, channel or string.
 
 ### Syntax
 
@@ -97,6 +102,8 @@ for index, value = range collection {
 Where `index` is a variable containing the index of the collection, `value` is a variable used to step through the values in `collection`, and `collection` is the collection the loop is stepping through.
 
 ### Example
+
+This range loop will step through the elements of the slice `numbers`, printing the index and value of each element.
 
 ```go
 
@@ -117,22 +124,26 @@ The `break` and `continue` statements work in Go as they do in C and Java. A `br
 
 ### Examples
 
-```go
+```codebyte/golang
+package main
+import "fmt"
 for i := 0; i < 100; i++ {
   if i % 2 == 0 {
     continue
   }
-  fmt.Println(i) // only prints odd numbers
+  fmt.Println(i) 
 }
 ```
 
-```go
+```codebyte/golang
+package main
+import "fmt"
 i := 0
 for {
   i++
   if i == 50 {
     break
   }
-  fmt.Println(i) // only prints numbers 0 to 49
+  fmt.Println(i) 
 }
 ```
