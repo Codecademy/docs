@@ -1,6 +1,6 @@
 ---
 Title: 'Reset'
-Description: 'In Git, reset is used to set the HEAD pointer back to a previous commit and optionally undo staged changes and the working tree.'
+Description: 'The git reset command is used to set the HEAD pointer back to a previous commit and optionally undo staged changes and the working tree.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -27,12 +27,12 @@ git reset <mode-option> <commit-reference>
 The `<mode-options>` refer to how far `reset` will go when rolling back changes to a previous commit, including:
 
 - Where the `HEAD` is pointing towards (usually done with just `git reset`).
-- Whether the staging area or Index, reflects the commit the `HEAD` is now pointing towards.
+- Whether the staging area or index, reflects the commit the `HEAD` is now pointing towards.
 - Whether the working tree is rolled back to reflect the changes reset in the `HEAD` and staging area.
 
 More specifically, these modes include:
 
-- `--soft`: This rolls back to an earlier commit by moving the `HEAD` pointer towards it but leaving the staging area and working tree untouched, allowing for new commits to be made (this runs by default).
+- `--soft`: This rolls back to an earlier commit by moving the `HEAD` pointer towards it but leaving the staging area and working tree untouched, allowing for new commits to be made.
 - `--mixed`: In addition to moving the `HEAD` pointer to an earlier commit, the staging area is cleared to reflect the changes made in that commit (this runs by default).
 - `--hard`: This goes one step further and resets the working tree to reflect the previous commit reflected in the staging area and the `HEAD` pointer.
 
@@ -46,7 +46,7 @@ The `commit-reference` refers to a commit's unique hash, or save point, that was
 
 ## Example
 
-This is what the terminal would look like after creating commit by accident on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
+This is what the terminal would look like after creating a commit by accident on the `main` branch and running [a `git status` check](https://www.codecademy.com/resources/docs/git/status):
 
 ```shell
 On branch main
@@ -55,7 +55,7 @@ nothing to commit, working tree clean
 
 The text above indicates the following:
 
-- The `main` branch is up to date, with the `HEAD` pointing towards the the most recent commit.
+- The `main` branch is up to date, with the `HEAD` pointing towards the most recent commit.
 - There is nothing to commit in the staging area.
 - New changes haven't been made yet in the working tree, hence why it is "clean".
 
@@ -70,7 +70,7 @@ Since the `--mixed` mode runs by default, both of the commands are identical in 
 
 - It will move the `HEAD` pointer back by one (`~1`) commit.
 - The staging area will be cleared of changes.
-- The overall state of the `main` branch is set to before changes in **example.txt** were added for the commit.
+- The overall state of the `main` branch is set to before changes in **example.txt** were added to the staging area for the previous commit.
 
 If `git status` is run once more, this should appear on the terminal:
 
