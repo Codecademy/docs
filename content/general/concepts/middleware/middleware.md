@@ -19,11 +19,11 @@ Middleware is software that connects applications together. The term _middleware
 
 ### Message-oriented middleware
 
-This middleware allows applications to exchange messages and communicate between eachother.
+This type of middleware allows applications to exchange messages and communicate between eachother.
 
 ### Database middleware
 
-This middleware gives access to databases and provides points of interaction between a variety of databases.
+This type of middleware gives access to databases and provides points of interaction between a variety of databases.
 
 ### Application Programming Interface (API) Middleware
 
