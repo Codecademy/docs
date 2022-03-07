@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Accessibility'
   - 'DOM'
   - 'Semantic'
   - 'Tags'
@@ -17,10 +18,12 @@ The `<abbr>` tag indicates an acronym or abbreviation of a longer word or phrase
 
 ## Syntax
 
-Whenever the `<abbr>` tag is used, it should use the `title` attribute, which indicates the meaning of the abbreviation or acronym.
+Whenever the `<abbr>` tag is used, it should use the `title` attribute to convey a semantic meaning of the abbreviation or acronym.
 
 ```html
-<abbr title=""><!-- The acronym or abbreviation here --></abbr>
+<abbr title="">
+  <!-- The acronym or abbreviation here -->
+</abbr>
 ```
 
 While using the `title` attribute can be semantically helpful, it is still a good practice in accessibility to spell out the word/phrase in the text the first time before applying the `<abbr>` tag. Some browsers also apply default styling to the `<abbr>` tag like dotted underlines or translating the text into small letters.
