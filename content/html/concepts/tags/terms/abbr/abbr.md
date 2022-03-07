@@ -40,4 +40,6 @@ While using the `title` attribute can be semantically helpful, it is still a goo
 </p>
 ```
 
+![Abbr example](../../../../../../media/abbr-example.png)
+
 When the mouse moves over the element, the information written inside the `title` attribute on a tooltip is displayed.
