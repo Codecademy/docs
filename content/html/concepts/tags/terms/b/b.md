@@ -1,0 +1,28 @@
+---
+Title: '<b>'
+Description: 'Used to bring the readers attention to HTML text. This is typically done by making the text bold.'
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Tags'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+---
+  
+The `<b>` element is used to draw the reader's attention to the marked text without assigning any additional importance to it. This is typically done by making the text bold.
+
+## Syntax
+
+```html
+<u><!-- text which should be annotated goes here --></u>
+```
+
+The `<u>` tag should only contain text content or other tags meant for text content.
+
+## Example
+
+```html
+<p>Please pay attention to <b>this</b> word.</p>
+```
