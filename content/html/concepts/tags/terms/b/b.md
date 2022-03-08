@@ -1,6 +1,6 @@
 ---
 Title: '<b>'
-Description: 'Used to bring the readers attention to HTML text. This is typically done by making the text bold.'
+Description: 'Used to bring the reader's attention to HTML text. This is typically done by making the text bold.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
