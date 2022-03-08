@@ -13,6 +13,8 @@ CatalogContent:
   
 The `<b>` element is used to draw the reader's attention to the marked text without assigning any additional importance to it. This is typically done by making the text bold.
 
+**Note:** While historically this tag was used to boldface text, it should now be avoided for solely styling text. Modern best practice to use CSS for text formatting.
+
 ## Syntax
 
 ```html
