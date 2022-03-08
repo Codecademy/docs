@@ -13,7 +13,7 @@ CatalogContent:
 
 The `<u>` tag is used to mark HTML text to be displayed with an underline or other non-textual annotation. The default rendering of this tag is a simple solid underline, but it may be altered using CSS.
 
-**Note:** While historically this tag was used to underline text, it should now be avoided for solely styling text. Modern best practice to use CSS for text formatting.
+**Note:** While historically this tag was used to underline text, it should now be avoided for solely styling text. Modern best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used for underlining text is [`text-decoration`](https://www.codecademy.com/resources/docs/css/typography/text-decoration).
 
 ## Syntax
 
