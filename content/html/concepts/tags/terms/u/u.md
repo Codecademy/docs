@@ -16,7 +16,7 @@ The `<u>` tag is used to mark HTML text to be displayed with an underline or oth
 ## Syntax
 
 ```html
-<u><!-- text which should be underlined goes here --></u>
+<u><!-- text which should be annotated goes here --></u>
 ```
 
 The `<u>` tag should only contain text content or other tags meant for text content.
@@ -25,6 +25,6 @@ The `<u>` tag should only contain text content or other tags meant for text cont
 
 ```html
 <p>
-  <u>Except for this</u>, most of this paragraph is not underlined.
+  You can use this tag to indicate things such as <u>mispelt</u> words.
 </p>
 ```
