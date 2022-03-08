@@ -1,5 +1,5 @@
 ---
-Title: '<b>'
+Title: 'b'
 Description: 'Used to draw the reader's attention to a section of HTML text, typically rendered in boldface.'
 Subjects:
   - 'Web Development'
