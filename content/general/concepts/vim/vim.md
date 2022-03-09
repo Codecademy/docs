@@ -3,16 +3,11 @@ Title: 'Vim'
 Description: 'Vim is a free, open source, and customizable text editor for Linux.'
 Subjects:
   - 'Bash/Shell'
-
   - 'Developer Tools'
-
 Tags:
   - 'Vim'
-
   - 'Linux'
-
   - 'Developer Tools'
-
 CatalogContent:
   - 'paths/computer-science'
 ---
@@ -22,9 +17,7 @@ CatalogContent:
 ## Launching Vim
 
 ```bash
-
 vim filename.txt
-
 ```
 
 ## Common Commands
