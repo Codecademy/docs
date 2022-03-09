@@ -138,22 +138,9 @@ func main() {
     if i % 2 == 0 {
       continue
     }
-    fmt.Println(i)
-  }
-}
-```
-
-```codebyte/golang
-package main
-import "fmt"
-
-func main() {
-  i := 0
-  for {
-    i++
     if i == 50 {
       break
-    }
+    }    
     fmt.Println(i)
   }
 }
