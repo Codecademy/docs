@@ -27,7 +27,7 @@ In computer programming, primitive data types are the building blocks for any va
 
 ## Composite Data Types
 
-While primitive types are the building blocks, composite data types are the building. They are composed of multiple primitive data types, sometimes referred to as members, elements, or items. These items can all be of one uniform data type or be a mix of different ones. The follow are examples of well known composite types:
+Primitive types are the building blocks for composite data types. Composite data types can be composed of multiple of the same or different primitive data types, sometimes referred to as members, elements, or items. The following are examples of well known composite types:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
