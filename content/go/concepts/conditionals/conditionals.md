@@ -20,7 +20,7 @@ Other statements that can use conditional statements are [`switch`](https://www.
 
 ## The `if...else if...else` Statements
 
-One of the statements that's thought of most often in connection with conditional statements is the `if` statement. In it's most basic form, the `if` statement evaluates if a condition is `true`, and if so, executes its associated code block. The addition of `else if` allows additional conditions to be tested if the prior ones are `false`, each associted with its own block of code to execute if its condition is `true`. The `else` statement provides a final block of code to execute if all prior `if` and `else if` conditions are `false`.
+One of the statements that's thought of most often in connection with conditional statements is the `if` statement. In its most basic form, the `if` statement evaluates if a condition is `true`, and if so, executes its associated code block. The addition of `else if` allows additional conditions to be tested if the prior ones are `false`, each is associated with its own block of code to execute if its condition is `true`. The `else` statement provides a final block of code to execute if all prior `if` and `else if` conditions are `false`.
 
 ### Syntax
 
