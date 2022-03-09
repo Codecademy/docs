@@ -21,10 +21,10 @@ Therefore, many of today's languages treat functions as first-class objects, whi
 
 ## Functions in Different Languages
 
-- [C: Functions](https://www.codecademy.com/resources/docs/c/functions)
-- [C++: Functions](https://www.codecademy.com/resources/docs/cpp/functions)
-- [JavaScript: Functions](https://www.codecademy.com/resources/docs/javascript/functions)
-- [PHP: Functions](https://www.codecademy.com/resources/docs/php/functions)
-- [Python: Functions](https://www.codecademy.com/resources/docs/python/functions)
-- [Ruby: Functions](https://www.codecademy.com/resources/docs/ruby/functions)
-- [TypeScript: Functions](https://www.codecademy.com/resources/docs/typescript/functions)
+- [C](https://www.codecademy.com/resources/docs/c/functions)
+- [C++](https://www.codecademy.com/resources/docs/cpp/functions)
+- [JavaScript](https://www.codecademy.com/resources/docs/javascript/functions)
+- [PHP](https://www.codecademy.com/resources/docs/php/functions)
+- [Python](https://www.codecademy.com/resources/docs/python/functions)
+- [Ruby](https://www.codecademy.com/resources/docs/ruby/functions)
+- [TypeScript](https://www.codecademy.com/resources/docs/typescript/functions)
