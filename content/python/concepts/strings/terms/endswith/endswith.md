@@ -30,35 +30,23 @@ Optionally, the `value` can be tested for whether it is at the end of a particul
 
 ## Example
 
-The following checks for the value `g` at the end of the `example` string:
-
 ```py
-example = "This is a string"
-check = example.endswith("g")
-print(check)
+example_str = "This is a string"
 
-# Output: True
+check_A = example_str.endswith("g")
+check_B = example_str.endswith("s")
+check_C = example_str.endswith("st", 5, 12)
+
+print("A: ", check_A)
+print("B: ", check_B)
+print("C: ", check_C)
+
+# Output A: True
+# Output B: False
+# Output C: True
 ```
 
-This example returns `False` after checking for the value `s`:
-
-```py
-example = "This is a string"
-check = example.endswith("s")
-print(check)
-
-# Output: False
-```
-
-The following checks for `st` and has a starting index of `5` and an ending index of `12`:
-
-```py
-example = "This is a string"
-check = example.endswith("st", 5, 12)
-print(check)
-
-# Output: True
-```
+From the above example, for ```check_A``` the output is True as the ```.endswith()``` function checks whether the the string ```example_str``` ends with the character "g".
 
 ## Codebyte Example
 
