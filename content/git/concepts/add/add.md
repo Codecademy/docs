@@ -1,6 +1,6 @@
 ---
 Title: 'Add'
-Description: 'In Git, adding is used to add changes from the working tree to the staging area. This iswhere changes are saved for the next commit.'
+Description: 'The git add command is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -16,12 +16,12 @@ In Git, adding is used to add changes from the working tree to the staging area.
 
 ## Example
 
-Below is a short example of how the `git add` command works. Assuming a change was saved in a **message.txt** text file, running `git status` will show that:
+Below is a short example of how the `git add` command works. Assuming a change was saved in a **message.txt** text file, running `git status` will show this:
 
 ```shell
 $ git status
 
-On branch master
+On branch main
 
 No commits yet
 
@@ -38,7 +38,7 @@ Since the file is untracked, `git add` can be used to stage it for the next comm
 $ git add message.txt
 $ git status
 
-On branch master
+On branch main
 
 No commits yet
 
@@ -49,9 +49,9 @@ Changes to be committed:
 
 The file now appears in green when running `git status`, indicating that it is staged and will be saved with the next commit.
 
-There are many extentions to the `git add` command such as:
+There are many extensions to the `git add` command such as:
 
-1. `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
-2. `-f`: Which stages all files including those which are ignored.
-3. `.a`: Which stages all the files in the current directory.
-4. `-A`: Which stages all the files in the current directory as well as subdirectories.
+- `-n`: Where the file will not be added to the staging area but will show whether or not the file exists and/or if it will be ignored.
+- `-f`: Which stages all files including those which are ignored.
+- `.` : Which stages all the files in the current directory. On the command line, it references the current directory.
+- `-A`: Which stages all the files in the current directory as well as subdirectories.
