@@ -1,6 +1,6 @@
 ---
 Title: 'Function'
-Description: 'The function data type.'
+Description: 'The function data type. The code is not immediately ran on the execution of the file.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
