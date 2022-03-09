@@ -73,7 +73,7 @@ if number == 0 {
 
 ## Comparison Operators
 
-Conditional expressions often use comparison operators. Comparison operators compare two expressions and return `true` or `false` based on the operatior and the values of the expression. Go has the following comparison operators.
+Conditional expressions often use comparison operators. Comparison operators compare two expressions and return `true` or `false` based on the operator and the values of the expression. Go has the following comparison operators.
 
 - `==` returns `true` if both expressions are equal.
 - `!=` return `true` if both expressions are not equal.
