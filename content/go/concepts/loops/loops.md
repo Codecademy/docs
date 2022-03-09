@@ -106,7 +106,6 @@ Where `index` is a variable containing the index of the collection, `value` is a
 In the example below. a range loop steps through the elements of the slice `numbers`, printing the index-value pair for each element.
 
 ```go
-
 numbers := []string{"One","Two","Three"}
 for i, n := range numbers {
   fmt.Println(i,n)
