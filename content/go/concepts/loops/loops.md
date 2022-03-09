@@ -120,7 +120,10 @@ for i, n := range numbers {
 
 ## `break` and `continue`
 
-The `break` and `continue` statements work in Go as they do in C and Java. A `break` statement halts execution of a loop and continues with the next statement after the loop. The `continue` statement skips execution to the next iteration of the loop.
+The `break` and `continue` statements work in Go as they do in C and Java.
+
+* A `break` statement halts execution of a loop and continues with the next statement after the loop.
+* The `continue` statement skips execution to the next iteration of the loop.
 
 ### Examples
 
