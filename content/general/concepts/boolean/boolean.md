@@ -18,7 +18,7 @@ Some languages use comparison operators (`>=`, `==`, `is`, `not`, etc.) to produ
 
 ## JavaScript Example
 
-The following example uses [a JavaScript conditional statement](https://www.codecademy.com/resources/docs/javascript/conditionals), along with a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` if 42 is, in fact, "42":
+The following example uses a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` based on the evaluation of the `42 != 5` statement. Then, the [JavaScript conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) determines whether the `if` or `else` block will run.
 
 ```codebyte/javascript
 if (42 != 5) {
