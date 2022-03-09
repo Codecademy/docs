@@ -27,6 +27,6 @@ This type of middleware allows applications to exchange messages and communicate
 
 This type of middleware gives access to databases and provides points of interaction between a variety of databases.
 
-### Application Programming Interface (API) Middleware
+### API Middleware
 
 This type of middleware provides developers with the tools to create and manage APIs used in application
