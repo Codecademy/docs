@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-There are several different types of loops in Go. All are written using the `for` statement with different syntaxes.
+There are several kinds of loops in Go, all written with a syntax similar to the `for` loop statement.
 
 ## Three-Component Loop
 
