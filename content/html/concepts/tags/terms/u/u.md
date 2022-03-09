@@ -26,7 +26,5 @@ The `<u>` tag should only contain text content or other tags meant for text cont
 ## Example
 
 ```html
-<p>
-  You can use this tag to indicate things such as <u>mispelt</u> words.
-</p>
+<p>You can use this tag to indicate things such as <u>mispelt</u> words.</p>
 ```
