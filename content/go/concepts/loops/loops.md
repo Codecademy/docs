@@ -27,7 +27,7 @@ for init; condition; post {
 }
 ```
 
-Here `init` is a statement initalizing an index variable. `condition` is a boolean expression checking the index variable before every loop, telling the loop to execute as long as it's true. And `post` is a statement executed after every loop to increment/decrement the index variable.
+Here, the `init` statement initializes an index variable. Next, a `condition` is used to check the index variable against a boolean expression before every loop. As long as it's true, the iteration will go forward and `statements` inside the loop will execute. Lastly, the `post` statement executes after every loop, usually to increment/decrement the index variable.
 
 ### Example
 
