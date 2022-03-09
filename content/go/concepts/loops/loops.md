@@ -110,11 +110,14 @@ numbers := []string{"One","Two","Three"}
 for i, n := range numbers {
   fmt.Println(i,n)
 }
+```
 
-// Output:
-// 0 One
-// 1 Two
-// 2 Three
+This example leads to the following output:
+
+```pseudo
+0 One
+1 Two
+2 Three
 ```
 
 ## `break` and `continue`
@@ -129,23 +132,29 @@ The `break` and `continue` statements work in Go as they do in C and Java.
 ```codebyte/golang
 package main
 import "fmt"
-for i := 0; i < 100; i++ {
-  if i % 2 == 0 {
-    continue
+
+func main() {
+  for i := 0; i < 100; i++ {
+    if i % 2 == 0 {
+      continue
+    }
+    fmt.Println(i)
   }
-  fmt.Println(i)
 }
 ```
 
 ```codebyte/golang
 package main
 import "fmt"
-i := 0
-for {
-  i++
-  if i == 50 {
-    break
+
+func main() {
+  i := 0
+  for {
+    i++
+    if i == 50 {
+      break
+    }
+    fmt.Println(i)
   }
-  fmt.Println(i)
 }
 ```
