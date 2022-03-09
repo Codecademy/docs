@@ -6,7 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Functions'
-  - 'Methods
+  - 'Methods'
   - 'Random'
 CatalogContent:
   - 'learn-python-3'
