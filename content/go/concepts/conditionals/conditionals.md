@@ -50,7 +50,7 @@ if condition {
 
 ## The `else if` Statement
 
-The addition of `else if` statements allow additional conditions to be tested if the prior ones are `false`, each is associated with its own block of code to execute if its condition is `true`. 
+The addition of `else if` statements allow additional conditions to be tested if the prior ones are `false`, each is associated with its own block of code to execute if its condition is `true`.
 
 ### Syntax
 
