@@ -1,50 +1,51 @@
 ---
-Title: 'random.choice()'
-Description: 'Returns a random sample drawn from an iterable argument, such as a list.'
+Title: '.choice()'
+Description: 'Returns a random item chosen from an iterable argument, such as a list or a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Functions'
+  - 'Methods'
   - 'Random'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `random.choice()` method returns a random sample drawn from an iterable argument, such as a list.
+The `.choice()` method returns a random item chosen from an `iterable` argument, such as a [list](https://www.codecademy.com/resources/docs/python/lists) or a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries).
 
 ## Syntax
 
-```py
+```pseudo
 random.choice(iterable)
 ```
 
 An `iterable` can be any kind of sequence-oriented variable, including:
 
-- A string of characters (`"Hello, World!"`)
-- A range of steps (`range(10)`)
-- A list of items (`[0, 1]`)
-- A tuple of data (`(0, "one")`)
+- A [string](https://www.codecademy.com/resources/docs/python/strings) of characters (`"Hello, World!"`).
+- A range of steps (`range(10)`).
+- A list of items (`[0, 1]`).
+- A [tuple](https://www.codecademy.com/resources/docs/python/tuples) of data values (`(0, "one")`).
 
 ## Example 1
 
-In the example below, `random.choice()` returns an item sampled at random from a list called `shopping_list`:
+In the example below, `.choice()` returns an item sampled at random from a list called `shopping_list`:
 
 ```py
 import random
 
-shopping_list = ["bread", "pens", "apples", "milk"]
+shopping_list = ["milk", "eggs", "bread", "apples"]
 to_buy = random.choice(shopping_list)
 
 print(to_buy)
 ```
 
-After `to_buy` is assigned one of the four shopping items with `random.choice()`, it is printed.
+After `to_buy` is assigned one of the four shopping items with `.choice()`, it is printed.
 
 ## Example 2
 
-Here, `random.choice()` is used to return a single character that is sampled from a `str` variable:
+Since strings are lists of single characters, they can be passed as arguments to the `.choice()` method:
 
 ```py
 import random
@@ -56,7 +57,7 @@ print(random.choice(my_string))
 
 ## Codebyte Example
 
-In the example below, `random.choice()` is used to return a random element from the tuple, `to_learn`:
+In the example below, `.choice()` is used to return a random element from the `to_learn` tuple:
 
 ```codebyte/python
 import random
