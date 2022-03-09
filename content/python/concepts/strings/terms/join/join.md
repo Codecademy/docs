@@ -26,7 +26,7 @@ string.join(iterable)
 
 ## Example
 
-The following combines the elements of a list using a space (`" "`) as a separator:
+The following example returns a string version of the `fruits` list, separated by a single space (`" "`):
 
 ```py
 fruits = ["Apples", "Bananas", "Blueberries"]
