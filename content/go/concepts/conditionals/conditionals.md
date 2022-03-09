@@ -18,9 +18,9 @@ Conditionals are used to evaluate if an expression is `true` or `false` and exec
 
 Other statements that can use conditional statements are [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops).
 
-## The `if...else if...else` Statements
+## The `if` Statement
 
-One of the statements that's thought of most often in connection with conditional statements is the `if` statement. In its most basic form, the `if` statement evaluates if a condition is `true`, and if so, executes its associated code block. The addition of `else if` allows additional conditions to be tested if the prior ones are `false`, each is associated with its own block of code to execute if its condition is `true`. The `else` statement provides a final block of code to execute if all prior `if` and `else if` conditions are `false`.
+One of the statements that's thought of most often in connection with conditional statements is the `if` statement. In its most basic form, the `if` statement evaluates if a condition is `true`, and if so, executes its associated code block.
 
 ### Syntax
 
@@ -32,6 +32,12 @@ if condition {
 }
 ```
 
+## The `else` Statement
+
+The `else` statement provides an optional block of code to execute if the prior `if` (and `else if`) conditions are `false`.
+
+### Syntax
+
 If `condition` is `true`, execute `statements_1`. If `condition` is `false`, execute `statements_2`. Execution then continues after the `else` block.
 
 ```pseudo
@@ -41,6 +47,12 @@ if condition {
   statements_2
 }
 ```
+
+## The `else if` Statement
+
+The addition of `else if` statements allow additional conditions to be tested if the prior ones are `false`, each is associated with its own block of code to execute if its condition is `true`. 
+
+### Syntax
 
 If `condition_1` is `true`, execute `statements_1`. If `condition_1` is `false` and `condition_2` is `true`, then execute `statements_2`. If neither condition is `true`, execute `statements_3`. Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
 
@@ -54,7 +66,7 @@ if condition_1 {
 }
 ```
 
-### Example
+## Example
 
 ```codebyte/golang
 package main
@@ -75,12 +87,12 @@ if number == 0 {
 
 Conditional expressions often use comparison operators. Comparison operators compare two expressions and return `true` or `false` based on the operator and the values of the expression. Go has the following comparison operators.
 
-- `==` returns `true` if both expressions are equal.
-- `!=` return `true` if both expressions are not equal.
-- `<` returns `true` if the left expression is numerically less than or comes lexically before the right one.
-- `<=` returns `true` if the left expression is numerically less than or comes lexically before the right one, or if both expressions are equal.
-- `>` returns `true` if the left expression is numerically greater than or comes lexically after the right one.
-- `>=` returns `true` if the left expression is numerically greater than or comes lexically after the right one, or if both expressions are equal.
+- `==` Takes two expressions, `(A == B)`, and returns `true` if both expressions are equal.
+- `!=` Takes two expressions, `(A != B)`, and returns `true` if both expressions are not equal.
+- `<` Takes two expressions, `(A < B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one.
+- `<=` Takes two expressions, `(A <= B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one, or if both expressions are equal.
+- `>` Takes two expressions, `(A > B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one.
+- `>=` Takes two expressions, `(A >= B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one, or if both expressions are equal.
 
 ## Logical Operators
 
