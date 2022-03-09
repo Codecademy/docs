@@ -124,8 +124,8 @@ This example leads to the following output:
 
 The `break` and `continue` statements work in Go as they do in C and Java.
 
-* A `break` statement halts execution of a loop and continues with the next statement after the loop.
-* The `continue` statement skips execution to the next iteration of the loop.
+- A `break` statement halts execution of a loop and continues with the next statement after the loop.
+- The `continue` statement skips execution to the next iteration of the loop.
 
 ### Codebyte Example
 
@@ -140,7 +140,7 @@ func main() {
     }
     if i == 50 {
       break
-    }    
+    }
     fmt.Println(i)
   }
 }
