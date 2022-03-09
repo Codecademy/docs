@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-Middleware is software that connects applications together. The term _middleware_ comes from the fact that this software sits between the front-end or client side of an application and the back-end where the resources are being requested. Middleware connects or "glues" together data, APIs, software tools and other applications in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware is listed below.
+Middleware is software that connects applications together. The term "middleware" comes from the fact that this software sits between the front-end, or client-side, of an application and the back-end, or server-side, where the resources are being requested.
+
+Data, APIs, software tools, and other applications are connected by middleware in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware is listed below.
 
 ## Types of Middleware
 
