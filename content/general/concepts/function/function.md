@@ -14,7 +14,7 @@ CatalogContent:
 
 In programming, functions hold a distinct place among the [data types](https://www.codecademy.com/resources/docs/general/data-types). Functions are blocks of code that yield results or perform a specific task. In some programming languages, they are processed as objects of data. This is because in some languages they are derived from objects and its closest classification is with composite data types.
 
-Therefore, many of today's languages treat functions as first-class objects, which means:
+Many languages treat functions as first-class objects, which means:
 
 - They can be assigned to variables.
 - They can be passed as arguments to or returned by other functions.
