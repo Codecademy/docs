@@ -46,6 +46,4 @@ vehicles = ("bicycle", "car", "moped", "truck")
 
 joined = "-".join(vehicles)
 print(joined)
-
-# Output: bicycle-car-moped-truck
 ```
