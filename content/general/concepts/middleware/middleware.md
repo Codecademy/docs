@@ -9,7 +9,7 @@ Tags:
   - 'Database'
   - 'Middleware'
 CatalogContent:
-  - 'learn-html'
+  - 'learn-sql'
   - 'paths/back-end-engineer-career-path'
 ---
 
