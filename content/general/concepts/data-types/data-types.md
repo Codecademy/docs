@@ -32,7 +32,7 @@ While primitive types are the building blocks, composite data types are the buil
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are accessed at a specific numbered index, which usually start at 0, then 1, and so on. Nested arrays (arrays within arrays) are also possible. Referred to as lists in some languages. |
+| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are accessed at a specific numbered index, which usually start at `0`, then `1`, and so on. Nested arrays (arrays within arrays) are also possible. They are referred to as lists in some languages. |
 | [Object](https://www.codecademy.com/resources/docs/general/object) | Groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
