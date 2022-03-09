@@ -19,7 +19,7 @@ Data, APIs, software tools, and other applications are connected by middleware i
 
 ## Types of Middleware
 
-### Message-oriented middleware
+### Message Oriented Middleware
 
 This type of middleware allows applications to exchange messages and communicate between eachother.
 
