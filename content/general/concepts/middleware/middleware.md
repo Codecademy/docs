@@ -1,6 +1,6 @@
 ---
 Title: 'Middleware'
-Description: 'Middleware is software that connects applications together. Middleware connects data, APIs, software tools and other applications in other to bring a complete application to the end user.'
+Description: 'Middleware is software that connects data, APIs, software tools, and other applications in order to bring a complete application to the end user.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
