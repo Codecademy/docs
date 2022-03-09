@@ -1,6 +1,6 @@
 ---
 Title: 'Function'
-Description: 'The function data type. The code is not immediately ran on the execution of the file.'
+Description: 'The function data type does not immediately run upon the execution of a file. It must be called on to perform a specific task.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
