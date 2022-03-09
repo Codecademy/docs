@@ -103,7 +103,7 @@ Where `index` is a variable containing the index of the collection, `value` is a
 
 ### Example
 
-This range loop will step through the elements of the slice `numbers`, printing the index and value of each element.
+In the example below. a range loop steps through the elements of the slice `numbers`, printing the index-value pair for each element.
 
 ```go
 
