@@ -21,7 +21,7 @@ The `<b>` element is used to draw the reader's attention to the marked text with
 <u><!-- text which should be annotated goes here --></u>
 ```
 
-The `<b>` tag should only contain text content or other tags meant for text content.
+The `<b>` tag should only contain text or other tags meant for text content.
 
 ## Example
 
