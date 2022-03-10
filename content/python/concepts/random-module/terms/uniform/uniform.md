@@ -25,6 +25,8 @@ Where `value1` and `value2` are numbers bounding the choice of a random floating
 
 ## Example
 
+In the example below, `.uniform()` is used to return a random floating-point number between 10 and 20:
+
 ```py
 import random
 
