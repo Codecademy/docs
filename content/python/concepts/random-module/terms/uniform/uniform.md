@@ -18,7 +18,7 @@ The `.uniform()` method takes two numbers as arguments and returns a pseudo-rand
 ## Syntax
 
 ```pseudo
-random.uniform(value1,value2)
+random.uniform(value1, value2)
 ```
 
 Where `value1` and `value2` are numbers bounding the choice of a random floating-point number.
@@ -30,12 +30,12 @@ In the example below, `.uniform()` is used to return a random floating-point num
 ```py
 import random
 
-print (random.uniform(10,20))
+print(random.uniform(10,20))
 ```
 
 Example output:
 
-```pseudo
+```shell
 13.188312896316244
 ```
 
