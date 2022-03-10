@@ -32,7 +32,7 @@ While historically `<b>`,`<i>` and `<u>` tags were used to explicitly format tex
 
 ## CSS
 
-To render text with some specific format, CSS is used. CSS can be applied using a stylesheet or using the `style` attribute. (see [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy)) The following CSS properties can be used to format text:
+To render text with some specific format, CSS is used. [CSS Anatomy](https://www.codecademy.com/resources/docs/css/anatomy) can be applied using a stylesheet or using the `style` attribute. The following CSS properties can be used to format text:
 
 - [`@font-face`](https://www.codecademy.com/resources/docs/css/typography/font-face): Specifies a custom font to be used to display text.
 - [`font`](https://www.codecademy.com/resources/docs/css/typography/font): Shorthand property that sets different properties for an element's font in a single declaration.
