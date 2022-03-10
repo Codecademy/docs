@@ -36,7 +36,7 @@ SELECT * FROM table;
 
 ## Examples
 
-The following example selects all columns from `table1` and `table2` with an [`INNER JOIN`](https://www.codecademy.com/resources/docs/sql/joins) restricting the rows to where `table1.columnA` and `table2.columnB` are equal:
+The following example selects all columns from `table1` and `table2` with an [`INNER JOIN`](https://www.codecademy.com/resources/docs/sql/joins), restricting the rows to where `table1.columnA` and `table2.columnB` are equal:
 
 ```sql
 SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
