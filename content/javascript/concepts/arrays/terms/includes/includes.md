@@ -40,7 +40,7 @@ It can also be used with a variable assigned to an array:
 const myArray = [1, '2', 3];
 
 myArray.includes(2);
-// Output: falsee
+// Output: false
 ```
 
 The reason the output above was `false` is because `.includes()` is type-sensitive and it checked for a number-type value 2 whereas `myArray` has no such value. Instead, it has a string literal that reads as "2".
