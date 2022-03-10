@@ -34,7 +34,7 @@ The `.includes()` method can be used in a few ways. First, it can be used direct
 // Output: true
 ```
 
-It can also be used with a variable assinged with a string value:
+It can also be used with a variable assigned to a string value:
 
 ```js
 const helloWorld = 'Hello World!';
