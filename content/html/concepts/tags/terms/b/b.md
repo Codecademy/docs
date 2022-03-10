@@ -1,6 +1,6 @@
 ---
 Title: '<b>'
-Description: 'Used to draw the reader''s attention to a section of HTML text, typically rendered in boldface.'
+Description: 'Used to draw attention to a section of text, usually rendered in boldface.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
