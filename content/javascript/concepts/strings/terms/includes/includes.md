@@ -1,6 +1,6 @@
 ---
 Title: '.includes()'
-Description: 'Returns true if a given value is included in a string'
+Description: 'Returns true if a given value is included in a string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
