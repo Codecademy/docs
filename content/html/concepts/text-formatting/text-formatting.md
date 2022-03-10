@@ -21,12 +21,12 @@ There are two ways to format text with HTML. One way is to use [HTML tags](https
 
 The following HTML tags can affect the formatting of text:
 
-- [`<b>`](https://www.codecademy.com/resources/docs/html/tags/b) Represents text that the reader's attention should be directed to, without signifying any importance. Typically displayed with boldface.
-- [`<i>`](https://www.codecademy.com/resources/docs/html/tags/i) Represents text set off as an idiomatic expression, technical term, taxonomical designation and so on. Typically displayed with italics.
-- [`<u>`](https://www.codecademy.com/resources/docs/html/tags/u) Represents text to be displayed with a non-textual annotation. Typically displayed using a solid underline.
-- [`<strong>`](https://www.codecademy.com/resources/docs/html/tags/strong) Represents text that is urgent or important. Typically displayed with boldface.
-- [`<em>`](https://www.codecademy.com/resources/docs/html/tags/em) Represents text which is emphasized. Typically displayed with italics.
-- [`<h1> - <h6>`](https://www.codecademy.com/resources/docs/html/tags/h1-h6) Represents various heading levels for text. Typically affects font size and weight.
+- [`<b>`](https://www.codecademy.com/resources/docs/html/tags/b): Represents text that the reader's attention should be directed to, without signifying any importance. Usually displayed with boldface.
+- [`<i>`](https://www.codecademy.com/resources/docs/html/tags/i): Represents text set off as an idiomatic expression, technical term, taxonomical designation and so on. Usually displayed with italics.
+- [`<u>`](https://www.codecademy.com/resources/docs/html/tags/u): Represents text to be displayed with a non-textual annotation. Usually displayed using a solid underline.
+- [`<strong>`](https://www.codecademy.com/resources/docs/html/tags/strong) Represents text that is urgent or important. Usually displayed with boldface.
+- [`<em>`](https://www.codecademy.com/resources/docs/html/tags/em): Represents text which is emphasized. Usually displayed with italics.
+- [`<h1> - <h6>`](https://www.codecademy.com/resources/docs/html/tags/h1-h6): Represents various heading levels for text. Usually affects font size and weight.
 
 While historically `<b>`,`<i>` and `<u>` tags were used to explicitly format text in a HTML document, that use has been depreciated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific specified format is required, CSS should be used.
 
