@@ -43,7 +43,7 @@ myArray.includes(2);
 // Output: false
 ```
 
-The reason the output above was `false` is because `.includes()` is type-sensitive and it checked for a number-type value 2 whereas `myArray` has no such value. Instead, it has a string literal that reads as "2".
+The output above is `false` because `.includes()` is type-sensitive. A number-type value 2 was checked for when `myArray` has no such value. Instead, it has a string literal that reads as '2'.
 
 Some edge-cases to keep in mind about `.includes()`:
 
