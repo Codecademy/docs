@@ -44,7 +44,7 @@ SELECT * FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
 
 When selecting all columns from across multiple tables, duplicate column names will generate an error unless they are distinguished with an alias.
 
-The next example selects all columns from `table1` and a named column `columnA` from `table2`. It is presumed that both tables have a column named `columnA` and, therefore, an alias should be used to avoid an error :
+The next example selects all columns from `table1` and a named column, `columnA`, from `table2`. It is presumed that both tables have a column named `columnA` and, therefore, an alias should be used to avoid an error:
 
 ```sql
 SELECT table1.*, table2.columnA AS colA, table2.columnB FROM table1 INNER JOIN table2 ON table1.columnA = table2.columnB;
