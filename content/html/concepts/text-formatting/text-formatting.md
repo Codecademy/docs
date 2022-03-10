@@ -1,6 +1,6 @@
 ---
 Title: 'Text Formatting'
-Description: 'There are two ways to format text with HTML. One is to use HTML tags, the other is to use CSS.'
+Description: 'The two ways to format text are with HTML tags and CSS styles.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
