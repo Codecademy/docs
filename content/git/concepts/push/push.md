@@ -1,6 +1,6 @@
 ---
 Title: 'Push'
-Description: 'In Git, pushing is the process of moving code from one repository to another one. Often this is used to move code from a local machine to a remote one, or to a repository hosting service like GitHub. Pushing a repository allows a programmer to maintain an easily accessible backup in a second location. It is also used when collaborating with people that would not have access to the computer that the code is written on. The basic syntax for pushing in Git is this: shell git push    Prerequisites to pushing from within a repository include:'
+Description: 'Pushing is the process of moving code from one Git repository to another. Often this is used to move code from a local machine to GitHub.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -18,7 +18,7 @@ Pushing a repository allows a programmer to maintain an easily accessible backup
 
 ## Syntax
 
-The basic syntax for pushing in Git is this:
+The syntax for pushing changes in Git is this:
 
 ```shell
 git push <remote-name> <branch-name>
@@ -38,19 +38,19 @@ Prerequisites to pushing from within a repository include:
   nothing to commit, working tree clean
   ```
 
-- Having a valid remote repository set, in this case there is remote repository called `companyname-dev`:
+- Having a valid remote repository set. In this case the remote repository is named `origin` and can be found at the url `https://github.com/CompanyName/product-dev`:
 
   ```shell
   $ git remote -v
 
-  companyname-dev    https://github.com/CompanyName/product-dev.git (fetch)
-  companyname-dev    https://github.com/CompanyName/product-dev.git (push)
+  origin    https://github.com/CompanyName/product-dev.git (fetch)
+  origin    https://github.com/CompanyName/product-dev.git (push)
   ```
 
-At this stage, pushing is as simple as using the basic syntax with the correct remote and branch names:
+At this stage, pushing can be accomplished with a valid remote and branch name:
 
 ```shell
-git push companyname-dev main
+git push origin main
 ```
 
 When the push completes, it will display a message like this:
