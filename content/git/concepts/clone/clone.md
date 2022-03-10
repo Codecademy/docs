@@ -1,6 +1,6 @@
 ---
 Title: 'Clone'
-Description: 'In Git, cloning means copying an existing remote repository to your current directory. Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on your computer. Heres a command that will help you interact with a remote branch &mdash; a branch on a server that can be accessed through the internet. The basic syntax for cloning in Git is this: shell git clone   For example, if you want to clone Codecademy Docs, you can do so like this:'
+Description: 'Cloning means copying an existing remote repository to the current local directory.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -12,24 +12,24 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, cloning means copying an existing remote repository to your current directory.
+In Git, cloning means copying an existing remote repository to the current directory.
 
-Some of the basic Git commands have been performed only on a local branch, that is, a branch that exists on your computer. Here's a command that will help you interact with a remote branch &mdash; a branch on a server that can be accessed through the internet.
+Many common Git commands are performed only on a local repository, that is, a repository that exists on a local machine. Here's a command that will interact with a remote repository &mdash; a repository on a server that can be accessed through the internet.
 
 ## Syntax
 
-The basic syntax for cloning in Git is this:
+The syntax for cloning in Git via HTTPS is this:
 
-```shell
-git clone <repo-URL>
+```psuedo
+git clone https://github.com/repository/URL.git
 ```
 
 ## Example
 
-For example, if you want to clone [Codecademy Docs](https://github.com/codecademy/docs), you can do so like this:
+In the example below, `git clone` is used to clone the [Codecademy Docs](https://github.com/codecademy/docs) repository:
 
 ```shell
-$ git clone https://github.com/codecademy/docs
+$ git clone https://github.com/Codecademy/docs.git
 
   Cloning into 'docs'...
   remote: Enumerating objects: 21512, done.
