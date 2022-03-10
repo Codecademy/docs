@@ -22,7 +22,7 @@ CatalogContent:
 map(func_name, iterable)
 ```
 
-The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on.
+The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable`, such as a list, contains the items the function will act on.
 
 ## Example 1
 
