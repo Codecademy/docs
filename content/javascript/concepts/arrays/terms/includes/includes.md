@@ -53,7 +53,10 @@ Some edge-cases to keep in mind about `.includes()`:
 
 ## Codebyte Example
 
-If a given array `myArray` contains an object, only references to that object return `true` from `.includes()`. Even checking against an object literal with the same property-value pairs will yield `false`:
+For objects, `.includes()` only returns `true` for references of the same object. Even checking against an object literal with the same property-value pairs will yield `false`.
+
+The example below uses `.includes()` on an array, `myArray`, to check for an object reference, an object literal, and a number. 
+
 
 ```codebyte/javascript
 const myArray = [
