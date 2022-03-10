@@ -4,7 +4,7 @@ Description: 'The front-end of a website includes elements that the end user int
 Subjects:
   - 'Web Design'
   - 'Web Development'
-Tags
+Tags:
   - 'Browsers'
   - 'Debugging'
   - 'Development'
