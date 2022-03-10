@@ -4,22 +4,16 @@ Description: 'The front-end of a website includes elements that the end user int
 Subjects:
   - 'Web Design'
   - 'Web Development'
-Tags:
-  - 'Android'
+Tags
   - 'Browsers'
   - 'Debugging'
   - 'Development'
   - 'Frameworks'
-  - 'iOS'
   - 'jQuery'
   - 'Responsive'
-  - 'Search'
-  - 'Semantic'
-  - 'Technical Interviews'
 CatalogContent:
+  - 'learn-html'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/pass-the-technical-interview-with-javascript'
-  - 'paths/computer-science'
 ---
 
 <link rel=“canonical” href="https://www.codecademy.com/resources/blog/what-is-front-end/" />
