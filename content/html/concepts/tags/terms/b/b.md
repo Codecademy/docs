@@ -6,6 +6,7 @@ Subjects:
   - 'Web Design'
 Tags:
   - 'Tags'
+  - 'Style'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
@@ -18,7 +19,7 @@ The `<b>` element is used to draw the reader's attention to the marked text with
 ## Syntax
 
 ```html
-<u><!-- text which should be annotated goes here --></u>
+<b><!-- used to draw attention to the text here --></b>
 ```
 
 The `<b>` tag should only contain text or other tags meant for text content.
