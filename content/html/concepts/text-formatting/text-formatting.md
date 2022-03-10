@@ -28,7 +28,7 @@ The following HTML tags can affect the formatting of text:
 - [`<em>`](https://www.codecademy.com/resources/docs/html/tags/em): Represents text which is emphasized. Usually displayed with italics.
 - [`<h1> - <h6>`](https://www.codecademy.com/resources/docs/html/tags/h1-h6): Represents various heading levels for text. Usually affects font size and weight.
 
-While historically `<b>`,`<i>` and `<u>` tags were used to explicitly format text in a HTML document, that use has been depreciated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific specified format is required, CSS should be used.
+While historically the `<b>`,`<i>`, and `<u>` tags were used to explicitly format text in a HTML document, that use has been depreciated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific specified format is required, CSS should be used.
 
 ## CSS
 
