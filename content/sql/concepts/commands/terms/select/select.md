@@ -32,7 +32,7 @@ SELECT column1, column2, ... columnN FROM table;
 SELECT * FROM table;
 ```
 
-**Note:** It is best practice to never rely on column order when using `*`.
+**Note:** It is best practice to not rely on column order when using `*`.
 
 ## Examples
 
