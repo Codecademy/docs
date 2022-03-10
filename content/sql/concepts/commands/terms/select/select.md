@@ -20,7 +20,7 @@ Every SQL query will begin with the `SELECT` command to fetch data from one or m
 
 ## Syntax
 
-The `SELECT` command is followed by one or more of column names to be returned from the table(s) listed in the `FROM` clause:
+The `SELECT` command is followed by one or more column names to be returned from the table(s) listed in the `FROM` clause:
 
 ```sql
 SELECT column1, column2, ... columnN FROM table;
