@@ -1,105 +1,83 @@
 ---
 Title: 'Arrays'
-Description: 'In Java, an array is used to store a list of elements of the same datatype. Arrays are fixed in size and their elements are ordered. java // Create an array of 5 int elements int[] marks = {10, 20, 30, 40, 50};  In Java, an array can be created in the following ways:'
+Description: 'Arrays are used for storing elements of the same data type in a fixed collection, ordered by insertion.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Arrays'
   - 'Data Types'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-In Java, an array is used to store a list of elements of the same datatype.
+In Java, an array is used for storing elements of the same data type in a fixed collection, ordered by insertion.
 
-Arrays are fixed in size and their elements are ordered.
+## Syntax
 
-```java
-// Create an array of 5 int elements
-int[] marks = {10, 20, 30, 40, 50};
+Array variables are defined with a type followed by square brackets `[]`. Next, the actual elements are comma-separated and surrounded by curly brackets `{}`:
+
+```pseudo
+dataType[] varName = {elemOne, elemTwo, elemThree, elemN};
 ```
 
-## Creating an Array
+Alternatively, an array can be defined with the `new` keyword, the `arrayLength` integer defined, and each of the elements defined afterward:
 
-In Java, an array can be created in the following ways:
+```pseudo
+dataType[] varName = dataType[arrayLength];
 
-1. Using the {} notation, by adding each element all at once.
-
-   ```java
-   int[] age = {20, 21, 30};
-   ```
-
-2. Using the new keyword, and assigning each position of the array individually.
-
-   ```java
-   int[] marks = new int[3];
-
-   marks[0] = 50;
-   marks[1] = 70;
-   marks[2] = 93;
-   ```
-
-## Index
-
-An index refers to an element’s position within an array.
-
-The index of an array starts from 0 and goes up to one less than the total length of the array.
-
-```java
-int[] marks = {50, 55, 60, 70, 80};
-
-System.out.println(marks[0]);
-// Output: 50
-
-System.out.println(marks[4]);
-// Output: 80
+varName[0] = valueOne;
+varName[1] = valueTwo;
+varName[n] = valueN;
 ```
 
-## ArrayList
+It is important the referenced index is valid. Otherwise, an `ArrayIndexOutOfBoundsException` will be thrown.
 
-In Java, an `ArrayList` is used to represent a dynamic list.
+## Example
 
-While arrays are fixed in size (the length cannot be modified), an `ArrayList` allows flexibility by allowing for the addition and removal of elements.
+In the example below, an array can be created in the following ways:
 
 ```java
-// Import the ArrayList package
-import java.util.ArrayList;
+int[] semesterOneMarks = {10, 20, 30, 40, 50};
 
-// Create an ArrayList called students
-ArrayList<String> students = new ArrayList<String>();
+String[] semesterOneCourses = new String[5];
+
+semesterOneCourses[0] = "Algebra";
+semesterOneCourses[1] = "World History";
+semesterOneCourses[2] = "Literature";
+semesterOneCourses[3] = "Programming";
+semesterOneCourses[4] = "Gym";
 ```
 
-## Modifying ArrayLists in Java
-
-An `ArrayList` can easily be modified using built-in methods.
-
-To add elements to an ArrayList, you use the `.add()` method. The element that you want to add goes inside of the `()`.
-
-To remove elements from an ArrayList, you use the `.remove()` method. Inside the `()` you can specify the index of the element that you want to remove. Alternatively, you can directly specify the element that you want to remove.
+Their elements can be accessed and changed as well:
 
 ```java
-import java.util.ArrayList;
+System.out.print(semesterOneCourses[0] + ": ");
+System.out.println(semesterOneMarks[0]);
 
-public class Students {
-  public static void main(String[] args) {
+// Changed from "World History" to "History"
+semesterOneCourses[1] = "History";
+System.out.print(semesterOneCourses[1] + ": ");
+System.out.println(semesterOneMarks[1]);
 
-    // Create an ArrayList called studentList, which initially holds []
-    ArrayList<String> studentList = new ArrayList<String>();
+System.out.print(semesterOneCourses[2] + ": ");
+System.out.println(semesterOneMarks[2]);
 
-    // Add students to the ArrayList
-    studentList.add("John");
-    studentList.add("Lily");
-    studentList.add("Samantha");
-    studentList.add("Tony");
+System.out.print(semesterOneCourses[3] + ": ");
+System.out.println(semesterOneMarks[3]);
 
-    // Remove John from the ArrayList, then Lily
-    studentList.remove(0);
-    studentList.remove("Lily");
+System.out.print(semesterOneCourses[4] + ": ");
+System.out.println(semesterOneMarks[4]);
+```
 
-    // studentList now holds [Samantha, Tony]
+The output will look like this:
 
-    System.out.println(studentList);
-  }
-}
+```shell
+Algebra: 10
+History: 20
+Literature: 30
+Programming: 40
+Gym: 50
 ```
