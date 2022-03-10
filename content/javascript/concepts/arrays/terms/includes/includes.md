@@ -1,6 +1,6 @@
 ---
 Title: '.includes()'
-Description: 'Returns true if a given value is included in an array'
+Description: 'Returns true if a given value is included in an array.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
