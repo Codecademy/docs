@@ -1,6 +1,6 @@
 ---
 Title: 'filter()'
-Description: 'A built-in function that applies a function to each item in an iterable and returns the values that are true.'
+Description: 'Returns a filter object that applies a function to each item in an iterable and returns the values that are True.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,32 +14,37 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-'A built-in function that applies a function to each item in an interable and returns the values that are true. The output of `filter()` is a filter object, in the examples below `list()` is applied to the filter expressions to return a new list.'
+'The `filter()` function returns a filter object that contains values filtered from an interable where a function returns `True` for a given item's value.'
 
 ## Syntax
 
-```py
+```psuedo
 filter(func_name, iterable)
 ```
+The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on. 
 
 ## Example 1
 
 Use `filter()` to return all the odd values in the following list:
 
-```codebyte/python
+```py
 nums = [33, 99, 63, 29, 25, 96, 61, 25, 22, 89, 90, 90]
 
-print(list(filter(lambda x: x % 2 != 0, nums)))
+def odds_test(n):
+    n = True if n % 2 == 1 else False
+    return n
+ 
+print(list(filter(odds_test, nums)))
 
-# Output: [33, 99, 63, 29, 25, 61, 25, 89]```
+# Output: [33, 99, 63, 29, 25, 61, 25, 89]
+```
 
 ## Example 2
 
-Use `filter()` to return only the strings that are all lowercase:
+`filter()` can be used to return only the strings that are all lowercase:
 
 ```codebyte/python
 some_strings = ['Learn','How', 'to', 'Code', 'Online']
 
 list(filter(lambda x: x.islower(), some_strings))
-
-# Output: ['to']```
+```

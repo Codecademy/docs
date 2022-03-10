@@ -1,6 +1,6 @@
 ---
 Title: 'map()'
-Description: 'A built-in function that takes a function and applies it to every item in an iterable.'
+Description: 'Returns an iterator that takes a function and applies it to every item in an iterable.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -18,15 +18,17 @@ CatalogContent:
 
 ## Syntax
 
-```py
+```psuedo
 map(func_name, iterable)
 ```
+
+The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on.
 
 ## Example 1
 
 Use `map()` to return the length of each string in the following list:
 
-```codebyte/python
+```py
 some_strings = ['learn', 'how', 'to', 'code', 'online']
 
 print(list(map(len, some_strings))
@@ -36,12 +38,11 @@ print(list(map(len, some_strings))
 
 ## Example 2
 
-Use `map()` to change all the list items to integers:
+The `map()` function can be used to transform all the list items to integers:
 
 ```codebyte/python
 a_list = [1.6, 5.4,12.0]
 
-print(list(map(lambda x: int(x), a_list))
+print(list(map(lambda x: int(x), a_list)))
 
-# Output: [1, 5, 12]
 ```
