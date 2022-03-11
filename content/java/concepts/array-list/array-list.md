@@ -25,7 +25,7 @@ Some other important points about the `ArrayList` class include:
 
 ## Syntax
 
-This class is imported with the in the `java.util` package.
+This class is imported with the `java.util` package.
 
 ```java
 import java.util.ArrayList;
