@@ -101,6 +101,6 @@ Assignment operators store the value of an expression into a variable. The varia
 
   `C |= A` is the same as `C = C | A`.
 
-- `^=` Do a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
+- `^=`: Does a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
 
   `C ^= A` is the same as `C = C ^ A`.
