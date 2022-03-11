@@ -66,7 +66,7 @@ if condition_1 {
 }
 ```
 
-## Example
+## Codebyte Example
 
 ```codebyte/golang
 package main
