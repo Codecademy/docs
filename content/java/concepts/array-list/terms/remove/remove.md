@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Removes a specied element from an ArrayList.'
+Description: 'Removes a specified element from an ArrayList.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
