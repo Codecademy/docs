@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-Conditionals are used to evaluate if an expression is `true` or `false` and execute code based on that value. There are several statements that use conditional expressions to determine what code to execute. The primary one being the `if...else if...else` statements.
+In Go, conditionals are used to execute based on whether an expression evaluates to `true` or `false`, primarily with the `if`, `else`, and `else if` statements.
 
 Other statements that can use conditional statements are [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops).
 
