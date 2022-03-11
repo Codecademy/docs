@@ -21,7 +21,7 @@ In HTML, the `<span>` tag is used for grouping text or elements together for sty
 <span><!-- Place content here. --></span>
 ```
 
-The `<span>` tag is usually wrapped inside another tag such as `<li>` or `<p>`. It can also use global attributes such as the following:
+The `<span>` tag is usually wrapped inside another tag such as [`<li>`](https://www.codecademy.com/resources/docs/html/tags/li) or [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs). It can also use global attributes such as the following:
 
 - Selecting with `class` and `id` attributes for stylesheet rules or DOM manipulation.
 - Inline styling with the `style` attribute.
