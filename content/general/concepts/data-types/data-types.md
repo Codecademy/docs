@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Data Structures'
   - 'Data Types'
   - 'Types'
 CatalogContent:
@@ -12,27 +13,27 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler. While there are certainly other kinds, data types are mostly categorized as either being primitive or composite in value.
+Data is foundational in programming and is classified into different types to indicate how it can be interpreted, compiled, and used in software. For the most part, data types are categorized into two groups: primitive or composite values.
 
 ## Primitive Data Types
 
-In computer programming, primitive data types are the building blocks for any variable or data structure in a program. They usually contain a single value such as a character, byte, or digit. Below are a few examples of primitive types:
+Primitive data types are the building blocks for any variable or data structure in a program. They usually contain a single value such as a character, byte, or digit. A few examples of primitive types are listed below:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Number](https://www.codecademy.com/resources/docs/general/number) | Includes `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
-| [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (`''`), double quotes (`""`), and/or backticks (` `` `), depending on the language. For example: `"Codecademy is awesome! 🖥️⌨️"` |
+| [Number](https://www.codecademy.com/resources/docs/general/number) | Includes `-1`, `0`, `1`, and `3.14`(numbers with decimals treated as a separate type in some languages). |
+| [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (`''`), double quotes (`""`), and/or backticks (` `` `), depending on the language (e.g. `"Codecademy is awesome! 🖥️⌨️"` ).|
 | [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Holds a logical value of `true` or `false`. |
 
 ## Composite Data Types
 
-Primitive types are the building blocks for composite data types. Composite data types can be composed of multiple of the same or different primitive data types, sometimes referred to as members, elements, or items. The following are examples of well known composite types:
+Composite data types can be composed of multiple of the same or different primitive data types, sometimes referred to as members, elements, or items. The following are examples of well known composite types:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are accessed at a specific numbered index, which usually start at `0`, then `1`, and so on. Nested arrays (arrays within arrays) are also possible. They are referred to as lists in some languages. |
+| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0 (nested arrays, or arrays within arrays, are also possible). |
 | [Object](https://www.codecademy.com/resources/docs/general/object) | Groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
