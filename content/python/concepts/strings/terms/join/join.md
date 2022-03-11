@@ -21,7 +21,7 @@ The `.join()` method concatenates all items from an iterable into a single strin
 string.join(iterable)
 ```
 
-- `string` is the separator `.join()` is called on. The separator is used to separate each element of the iterable. It can be any string including an empty string.
+- The `.join()` method is called on a separator of type string. The separator can be any string, including an empty string, and is used to separate each element of the iterable.
 - `iterable` is any object that can be iterated over like tuples, lists, etc. All values of the iterable must be strings.
 
 ## Example
