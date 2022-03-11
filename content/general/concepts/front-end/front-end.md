@@ -1,5 +1,5 @@
 ---
-Title: 'Front-end'
+Title: 'Front-End'
 Description: 'The front-end of a website includes elements that the end user interacts with directly.'
 Subjects:
   - 'Web Design'
@@ -26,7 +26,7 @@ The front-end of a website includes elements that the end user interacts with di
 
 ## Common Tasks
 
-Front-end web development can include a variety of tasks, including:
+Front-end web development can involve a variety of tasks, including:
 
 - Creating and updating webpages.
 - Building HTML emails for email campaigns.
