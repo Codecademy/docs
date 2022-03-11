@@ -16,11 +16,11 @@ CatalogContent:
 
 In Go, conditionals are used to execute based on whether an expression evaluates to `true` or `false`, primarily with the `if`, `else`, and `else if` statements.
 
-Conditionals can  be nested elsewhere such as inside the [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops) statements.
+Conditionals can be nested elsewhere such as inside the [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops) statements.
 
 ## The `if` Statement
 
-The `if` statement is mostly associated with conditionals. The code block inside an `if` statement executes if a condition evaluates  `true`. Otherwise, it is skipped.
+The `if` statement is mostly associated with conditionals. The code block inside an `if` statement executes if a condition evaluates `true`. Otherwise, it is skipped.
 
 ### Syntax
 
@@ -72,12 +72,11 @@ The addition of `else if` statements allow additional conditions to be tested if
 
 ### Syntax
 
-
 The control flow logic of the code below can be broken down like this:
 
-* If `condition_1` is `true`, `statements_1` will execute. 
-* Else, if `condition_1` is `false` and `condition_2` is `true`, `statements_2` will be executed instead. 
-* However, if neither condition is `true`, `statements_3` will execute. 
+- If `condition_1` is `true`, `statements_1` will execute.
+- Else, if `condition_1` is `false` and `condition_2` is `true`, `statements_2` will be executed instead.
+- However, if neither condition is `true`, `statements_3` will execute.
 
 Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
 

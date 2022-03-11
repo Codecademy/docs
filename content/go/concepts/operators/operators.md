@@ -62,35 +62,45 @@ Bitwise operators manipulate the individual bits of their numeric expressions.
 Assignment operators store the value of an expression into a variable. The variable being assigned to is always on the left.
 
 - `=` Simply assigns the value of the expression to the right to the variable on the left.
- 
+
   `C = A + B` stores the value of `A + B` into the variable `C`.
+
 - `+=` Adds the value on the right to the value in the variable on the left and assigns it to the variable.
 
   `C += A` is the same as `C = C + A`.
+
 - `-=` Subtracts the value on the right from the value in the variable on the left and assigns it to the variable.
 
   `C -= A` is the same as `C = C - A`.
+
 - `*=` Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
 
   `C *= A` is the same as `C = C * A`.
+
 - `/=` Divides the value in the variable on the left by the value on the right and stores the result in the variable.
 
   `C /= A` is the same as `C = C / A`.
+
 - `%=` Do an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
 
   `C %= A` is the same as `C = C % A`.
+
 - `<<=` Do a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
 
   `C <<= A` is the same as `C = C << A`.
+
 - `>>=` Do a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
 
   `C >>= A` is the same as `C = C >> A`.
+
 - `&=` Do a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
 
   `C &= A` is the same as `C = C & A`.
+
 - `|=` Do a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
 
   `C |= A` is the same as `C = C | A`.
+
 - `^=` Do a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
 
   `C ^= A` is the same as `C = C ^ A`.
