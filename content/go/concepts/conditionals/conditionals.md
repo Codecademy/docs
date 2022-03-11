@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals are used to evaluate if an expression is `true` or `false` and execute code based on that value.'
+Description: 'Conditionals are used to evaluate if an expression is true or false and execute code based on that value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
