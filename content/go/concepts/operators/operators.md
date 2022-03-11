@@ -43,9 +43,9 @@ Comparison operators compare two expressions and return `true` or `false` based 
 
 Logical operators return a `true` or `false` value based on the `true` or `false` values of the expressions they operate on. When expressions are numeric, a zero value is treated as `false` and a non-zero value is treated as `true`.
 
-- `&&` AND operator. Takes two expressions, `(A && B)`, and returns `true` if both expressions are `true`.
-- `||` OR operator. Takes two expressions, `(A || B)`, and returns `true` if one of them is `true`.
-- `!` NOT operator. Takes one expression, `!(A)`, and returns `true` if its value is `false`.
+- `&&` AND operator: Takes two expressions, `(A && B)`, and returns `true` if both expressions are `true`.
+- `||` OR operator: Takes two expressions, `(A || B)`, and returns `true` if one of them is `true`.
+- `!` NOT operator: Takes one expression, `!(A)`, and returns `true` if its value is `false`.
 
 ## Bitwise Operators
 
