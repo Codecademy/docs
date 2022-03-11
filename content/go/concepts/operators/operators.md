@@ -85,19 +85,19 @@ Assignment operators store the value of an expression into a variable. The varia
 
   `C %= A` is the same as `C = C % A`.
 
-- `<<=` Do a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+- `<<=`: Does a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
 
   `C <<= A` is the same as `C = C << A`.
 
-- `>>=` Do a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+- `>>=`: Does a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
 
   `C >>= A` is the same as `C = C >> A`.
 
-- `&=` Do a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
+- `&=`: Does a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
 
   `C &= A` is the same as `C = C & A`.
 
-- `|=` Do a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
+- `|=`: Does a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
 
   `C |= A` is the same as `C = C | A`.
 
