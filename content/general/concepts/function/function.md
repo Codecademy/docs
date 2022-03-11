@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Data Types'
+  - 'Functions'
   - 'Types'
 CatalogContent:
   - 'paths/code-foundations'
