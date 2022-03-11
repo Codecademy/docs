@@ -1,6 +1,6 @@
 ---
 Title: '<center>'
-Description: 'Depreciated block-level element that displays its contents centered horizontally in the containing element. CSS should be used instead.'
+Description: 'Displays its contents centered horizontally in the containing element. This is now deprecated and CSS should be used instead.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
