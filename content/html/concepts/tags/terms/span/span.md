@@ -27,7 +27,7 @@ The `<span>` tag is usually wrapped inside another tag such as `<li>` or `<p>`. 
 - Inline styling with the `style` attribute.
 - Creating custom property values with the `data-*` attribute.
 
-This tag should only be used whenenver there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
+This tag should only be used whenever there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
 
 ## Example
 
