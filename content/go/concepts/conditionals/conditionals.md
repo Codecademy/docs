@@ -24,7 +24,7 @@ The `if` statement is mostly associated with conditionals. The code block inside
 
 ### Syntax
 
-If `condition` is `true`, execute `statements`. Execution continues after the `if` block regardless of the value of `condition`.
+If the `condition` is `true`, the `statements` inside the code block will be executed. Execution continues after the `if` block regardless of the value of `condition`.
 
 ```pseudo
 if condition {
