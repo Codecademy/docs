@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, an array is used for storing elements of the same data type in a fixed collection, ordered by insertion.
+In Java, an array is used for storing elements of the same data type in a fixed-sized collection, ordered by insertion. Being fixed in size means that unlike with [ArrayList](https://www.codecademy.com/resources/docs/java/array-list), elements cannot be removed or added after the array has been created. They can only be modified.
 
 ## Syntax
 
