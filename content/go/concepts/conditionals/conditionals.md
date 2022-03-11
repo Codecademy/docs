@@ -38,7 +38,7 @@ The `else` statement provides an optional block of code that execute if the prio
 
 ### Syntax
 
-If `condition` is `true`, execute `statements_1`. If `condition` is `false`, execute `statements_2`. Execution then continues after the `else` block.
+If `condition` is `true`, `statements_1` will execute. If `condition` is `false`, `statements_2` will execute instead. Execution then continues after the `else` block.
 
 ```pseudo
 if condition {
