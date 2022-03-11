@@ -31,6 +31,7 @@ Historical use:
 Modern alternative:
 
 ```html
+<!-- Use this, instead. :) -->
 <div style="text-align:center;">
   This is centered text.
   <p>This is a centered paragraph</p>
