@@ -34,7 +34,7 @@ if condition {
 
 ## The `else` Statement
 
-The `else` statement provides an optional block of code to execute if the prior `if` (and `else if`) conditions are `false`.
+The `else` statement provides an optional block of code that execute if the prior conditions evaluate to `false`.
 
 ### Syntax
 
