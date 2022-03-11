@@ -20,7 +20,7 @@ Conditionals can  be nested elsewhere such as inside the [`switch`](https://www.
 
 ## The `if` Statement
 
-One of the statements that's thought of most often in connection with conditional statements is the `if` statement. In its most basic form, the `if` statement evaluates if a condition is `true`, and if so, executes its associated code block.
+The `if` statement is mostly associated with conditionals. The code block inside an `if` statement executes if a condition evaluates  `true`. Otherwise, it is skipped.
 
 ### Syntax
 
