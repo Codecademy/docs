@@ -25,6 +25,11 @@ The following parameters are used:
 - A case-sensitive `value` that is checked for inclusion in the `array`.
 - An optional `index`, defaulted to 0, that tells `.includes()` where to begin the check.
 
+Here are some edge-cases to consider when using `.includes()`:
+
+- It will not work if the provided `index` is greater than the length of the string. Instead, `false` will be returned.
+- If the `index` is less than or equal to 0, the entire string will be searched.
+
 ## Example
 
 The `.includes()` method can be used in a few ways. First, it can be used directly with a string:
@@ -43,19 +48,16 @@ helloWorld.includes('world');
 // Output: false
 ```
 
-The reason the output above was `false` is because `.includes()` is case-sensitive and it checked for a string literal of `world`, which is not in the `helloWorld` string. Instead, it includes string literal that reads as "World" with a capital "W".
+The output above is `false` because `.includes()` is case-sensitive. The string literal `world` was checked for with a lowercase "w" rather than a capital "W" like in the`helloWorld` string.
 
 ## Codebyte Example
 
-Some edge-cases to keep in mind about `.includes()`:
-
-- It will not work if the provided `index` is greater than the length of the string. Instead, `false` will be returned.
-- If the `index` is less than or equal to 0, the entire string will be searched.
+In the example below, the `.indludes()` method is applied three times to the `myString` string variable, using a combination of optional parameters:
 
 ```codebyte/javascript
 const myString = "Let's learn JavaScript!";
 
-console.log(myString.includes("Javascript");
+console.log(myString.includes("Javascript"));
 console.log(myString.includes("Javascript", 100));
 console.log(myString.includes("Javascript", -1));
 ```
