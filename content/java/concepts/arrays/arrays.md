@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are used for storing elements of the same data type in a fixed collection, ordered by insertion.'
+Description: 'Arrays are used for storing elements of the same data type in a fixed-sized collection, ordered by insertion.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
