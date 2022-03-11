@@ -21,6 +21,7 @@ The current practice to center text in HTML is to use the [CSS](https://www.code
 Historical use:
 
 ```html
+<!-- Don't use this! -->
 <center>
   This is centered text.
   <p>This is a centered paragraph</p>
