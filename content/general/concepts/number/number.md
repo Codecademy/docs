@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Data Types'
+  - 'Numbers'
   - 'Types'
 CatalogContent:
   - 'paths/code-foundations'
