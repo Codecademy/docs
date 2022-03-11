@@ -54,7 +54,14 @@ The addition of `else if` statements allow additional conditions to be tested if
 
 ### Syntax
 
-If `condition_1` is `true`, execute `statements_1`. If `condition_1` is `false` and `condition_2` is `true`, then execute `statements_2`. If neither condition is `true`, execute `statements_3`. Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
+
+The control flow logic of the code below can be broken down like this:
+
+* If `condition_1` is `true`, `statements_1` will execute. 
+* Else, if `condition_1` is `false` and `condition_2` is `true`, `statements_2` will be executed instead. 
+* However, if neither condition is `true`, `statements_3` will execute. 
+
+Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
 
 ```pseudo
 if condition_1 {
