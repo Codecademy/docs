@@ -18,13 +18,13 @@ Go supports a number of different operators. These are symbols that modify the v
 
 ## Arithmetic Operators
 
-Arithmetic operatiors take one or two numeric expressions and return a numeric result.
+Arithmetic operators take one or two numeric expressions and return a numeric result.
 
 - `+` Takes two expressions, `(A + B)`, and returns the sum of the two expressions.
 - `-` Takes two expressions, `(A - B)`, and returns the difference of the two expressions, the first expression minus the second.
 - `*` Takes two expressions, `(A * B)`, and returns the product of the two expressions.
-- `/` Takes two expressions, `(A / B)`, and returns the first expression devided by the second.
-- `%` Takes two expressions, `(A % B)`, and returns the modulus, the remander after the integer division of the first expression by the second.
+- `/` Takes two expressions, `(A / B)`, and returns the first expression divided by the second.
+- `%` Takes two expressions, `(A % B)`, and returns the modulus, the remainder after the integer division of the first expression by the second.
 - `++` Takes one expression, `(A++)`, and returns the expression incremented by one.
 - `--` Takes one expression, `(B--)`, and returns the expression decremented by one.
 
@@ -51,9 +51,9 @@ Logical operators return a `true` or `false` value based on the `true` or `false
 
 Bitwise operators manipulate the individual bits of their numeric expressions.
 
-- `&` Binary AND Operator. Takes two expressions, `(A & B)`, result will have a bit set if the corrisponding bit in each expression is set.
-- `|` Binary OR Operator. Takes two expressions, `(A | B)`, result will have a bit set if eather expression has the corrisponding bit set.
-- `^` Binary XOR Operator. Takes two arguments, (A ^ B), result wil have a bit set if only one corrisponding bit is set between the two expressions.
+- `&` Binary AND Operator. Takes two expressions, `(A & B)`, result will have a bit set if the corresponding bit in each expression is set.
+- `|` Binary OR Operator. Takes two expressions, `(A | B)`, result will have a bit set if either expression has the corresponding bit set.
+- `^` Binary XOR Operator. Takes two arguments, (A ^ B), result wil have a bit set if only one corresponding bit is set between the two expressions.
 - `<<` Binary Left Shift Operator. Takes two arguments, (A << B), result will be the first argument with its bits moved to the left the number of positions specified by the second.
 - `>>` Binary Right Shift Operator. Takes two arguments, `(A >> B)`, result will be the first argument with its bits moved to the right the number of positions specified by the second.
 
@@ -72,6 +72,3 @@ Assignment operators store the value of an expression into a variable. The varia
 - `&=` Do a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable. `C &= A` is the same as `C = C & A`.
 - `|=` Do a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable. `C |= A` is the same as `C = C | A`.
 - `^=` Do a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable. `C ^= A` is the same as `C = C ^ A`.
-- 
-
-
