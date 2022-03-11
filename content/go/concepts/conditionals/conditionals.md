@@ -16,7 +16,7 @@ CatalogContent:
 
 In Go, conditionals are used to execute based on whether an expression evaluates to `true` or `false`, primarily with the `if`, `else`, and `else if` statements.
 
-Other statements that can use conditional statements are [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops).
+Conditionals can  be nested elsewhere such as inside the [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops) statements.
 
 ## The `if` Statement
 
