@@ -32,12 +32,12 @@ Arithmetic operators take one or two numeric expressions and return a numeric re
 
 Comparison operators compare two expressions and return `true` or `false` based on the operator and the values of the expression. Go has the following comparison operators.
 
-- `==` Takes two expressions, `(A == B)`, and returns `true` if both expressions are equal.
-- `!=` Takes two expressions, `(A != B)`, and returns `true` if both expressions are not equal.
-- `<` Takes two expressions, `(A < B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one.
-- `<=` Takes two expressions, `(A <= B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one, or if both expressions are equal.
-- `>` Takes two expressions, `(A > B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one.
-- `>=` Takes two expressions, `(A >= B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one, or if both expressions are equal.
+- `==`: Takes two expressions, `(A == B)`, and returns `true` if both expressions are equal.
+- `!=`: Takes two expressions, `(A != B)`, and returns `true` if both expressions are not equal.
+- `<`: Takes two expressions, `(A < B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one.
+- `<=`: Takes two expressions, `(A <= B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one, or if both expressions are equal.
+- `>`: Takes two expressions, `(A > B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one.
+- `>=`: Takes two expressions, `(A >= B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one, or if both expressions are equal.
 
 ## Logical Operators
 
