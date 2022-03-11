@@ -73,15 +73,15 @@ Assignment operators store the value of an expression into a variable. The varia
 
   `C -= A` is the same as `C = C - A`.
 
-- `*=` Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
+- `*=`: Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
 
   `C *= A` is the same as `C = C * A`.
 
-- `/=` Divides the value in the variable on the left by the value on the right and stores the result in the variable.
+- `/=`: Divides the value in the variable on the left by the value on the right and stores the result in the variable.
 
   `C /= A` is the same as `C = C / A`.
 
-- `%=` Do an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
+- `%=`: Performs an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
 
   `C %= A` is the same as `C = C % A`.
 
