@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<center>` tag was used historically to center elements, usually text, within their containing element. It has been removed from the HTML specification, and while some browsers might support it for backwards compatibility, it should no longer be used.
+The `<center>` tag was used historically to center content, usually text, within their containing elements. It has since been removed and deprecated from the HTML specification, and while some browsers might support it for backwards compatibility, it should no longer be used.
 
 The current practice to center text in HTML is to use the [CSS](https://www.codecademy.com/resources/docs/css) property [`text-align`](https://www.codecademy.com/resources/docs/css/typography/text-align) and to use properties of the [CSS box model](https://www.codecademy.com/resources/docs/css/box-model) to center other elements.
 
