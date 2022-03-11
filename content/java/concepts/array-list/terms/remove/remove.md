@@ -16,7 +16,7 @@ The `.remove()` method is used for removing specified elements from instances of
 
 ## Syntax
 
-An element can be removed an `arrayListInstance` by being passed to the `.add()` method. It can be referenced either by value or index:
+An element can be removed from an `ArrayList` instance by being passed to the `.remove()` method. It can be referenced either by value or index:
 
 ```pseudo
 arrayListInstance.remove(element);
