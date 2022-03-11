@@ -17,8 +17,8 @@ Booleans hold a true or false value and are mostly used in conditional statement
 
 Some languages use comparison operators such as:
 
-* `>=` and `<=`, for "greater than" and "less than", respectively.
-* `==` and `is` or `!=` and `not` to test for equality and inequality, respectively.
+- `>=` and `<=`, for "greater than" and "less than", respectively.
+- `==` and `is` or `!=` and `not` to test for equality and inequality, respectively.
 
 Other languages may use "falsy" values like `""`, `null`, or `0`. Some even use a combination of both approaches.
 

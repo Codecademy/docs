@@ -23,7 +23,7 @@ Primitive data types are the building blocks for any variable or data structure 
 | Data Type | Description |
 | --- | --- |
 | [Number](https://www.codecademy.com/resources/docs/general/number) | Includes `-1`, `0`, `1`, and `3.14`(numbers with decimals treated as a separate type in some languages). |
-| [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (`''`), double quotes (`""`), and/or backticks (` `` `), depending on the language (e.g. `"Codecademy is awesome! 🖥️⌨️"` ).|
+| [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (`''`), double quotes (`""`), and/or backticks (` `` `), depending on the language (e.g. `"Codecademy is awesome! 🖥️⌨️"` ). |
 | [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Holds a logical value of `true` or `false`. |
 
 ## Composite Data Types
@@ -33,7 +33,7 @@ Composite data types can be composed of multiple of the same or different primit
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0 (nested arrays, or arrays within arrays, are also possible). |
+| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0. |
 | [Object](https://www.codecademy.com/resources/docs/general/object) | Groups of related data that are usually organized as property-value pairs. |
 | [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
