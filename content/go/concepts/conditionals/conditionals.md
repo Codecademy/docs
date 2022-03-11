@@ -32,6 +32,24 @@ if condition {
 }
 ```
 
+The `if` statement in Go also allows a small statement to be executed before the condition is evaluated. In this respect it is similar to the [`for`](https://www.codecademy.com/resources/docs/go/loops) statement.
+
+```pseudo
+if statement; condition {
+  statements
+}
+```
+
+### Example
+
+```go
+i := 0
+
+if i++; i > 0 {
+  fmt.Println("This line will be executed.")
+}
+```
+
 ## The `else` Statement
 
 The `else` statement provides an optional block of code that executes if all prior conditions evaluate to `false`.
