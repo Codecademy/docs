@@ -34,7 +34,7 @@ if condition {
 
 ## The `else` Statement
 
-The `else` statement provides an optional block of code that execute if the prior conditions evaluate to `false`.
+The `else` statement provides an optional block of code that executes if all prior conditions evaluate to `false`.
 
 ### Syntax
 
@@ -92,21 +92,4 @@ func main() {
 }
 ```
 
-## Comparison Operators
-
-Conditional expressions often use comparison operators. Comparison operators compare two expressions and return `true` or `false` based on the operator and the values of the expression. Go has the following comparison operators.
-
-- `==` Takes two expressions, `(A == B)`, and returns `true` if both expressions are equal.
-- `!=` Takes two expressions, `(A != B)`, and returns `true` if both expressions are not equal.
-- `<` Takes two expressions, `(A < B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one.
-- `<=` Takes two expressions, `(A <= B)`, and returns `true` if the left expression is numerically less than or comes lexically before the right one, or if both expressions are equal.
-- `>` Takes two expressions, `(A > B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one.
-- `>=` Takes two expressions, `(A >= B)`, and returns `true` if the left expression is numerically greater than or comes lexically after the right one, or if both expressions are equal.
-
-## Logical Operators
-
-Conditional expressions may use logical operators. Logical operators return a `true` or `false` value based on the `true` or `false` values of the expressions they operate on.
-
-- `&&` AND operator. Takes two expressions, `(A && B)`, and returns `true` if both expressions are `true`.
-- `||` OR operator. Takes two expressions, `(A || B)`, and returns `true` if one of them is `true`.
-- `!` NOT operator. Takes one expression, `!(A)`, and returns `true` if its value is `false`.
+For further information on writing conditional expressions see the sections "Comparison Operators" and "Logical Operators" under [Go Operators](https://www.codecademy.com/resources/docs/go/operators)
