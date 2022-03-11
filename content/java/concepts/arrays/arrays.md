@@ -51,7 +51,7 @@ semesterOneCourses[3] = "Programming";
 semesterOneCourses[4] = "Gym";
 ```
 
-Their elements can be accessed and changed as well:
+Elements within the array can be accessed and changed as well:
 
 ```java
 System.out.print(semesterOneCourses[0] + ": ");
