@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Booleans'
   - 'Data Types'
   - 'Types'
 CatalogContent:
@@ -14,11 +15,16 @@ CatalogContent:
 
 Booleans hold a true or false value and are mostly used in conditional statements to control a program's flow of execution. This data type is named after George Boole, a 19th century English logician.
 
-Some languages use comparison operators (`>=`, `==`, `is`, `not`, etc.) to produce boolean values, while others may use "falsy" values like `""`, `null`, or `0`. Some even use a combination of both of these approaches.
+Some languages use comparison operators such as:
+
+* `>=` and `<=`, for "greater than" and "less than", respectively.
+* `==` and `is` or `!=` and `not` to test for equality and inequality, respectively.
+
+Other languages may use "falsy" values like `""`, `null`, or `0`. Some even use a combination of both approaches.
 
 ## JavaScript Example
 
-The following example uses a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` based on the evaluation of the `42 != 5` statement. Then, the [JavaScript conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) determines whether the `if` or `else` block will run.
+The following example uses a comparison [operator](https://www.codecademy.com/resources/docs/javascript/operators) to return `true` or `false` based on the evaluation of the given statement. Then, a JavaScript [conditional](https://www.codecademy.com/resources/docs/javascript/conditionals) is used to determines whether the `if` or `else` code block will run:
 
 ```codebyte/javascript
 if (42 != 5) {
