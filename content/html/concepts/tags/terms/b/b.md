@@ -19,7 +19,9 @@ The `<b>` element is used to draw the reader's attention to the marked text with
 ## Syntax
 
 ```html
-<b><!-- used to draw attention to the text here --></b>
+<b>
+  <!-- Text to draw attention to here -->
+</b>
 ```
 
 The `<b>` tag should only contain text or other tags meant for text content.
