@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<i>` tag is used to set off HTML text, indicating idiomatic expressions, technical terms, taxonomical designations, and so on. Typically, this is illustrated by displaying the text in italics.
 
-**Note:** While historically this tag was used just to italicize text, it should now be avoided for solely styling text. Modern best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used to italicize text is [`font-style`](https://www.codecademy.com/resources/docs/css/typography/font-style).
+**Note:** Original legacy usage of this element tag was just to italicize text, but it should now be avoided for solely styling text. Best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used to italicize text is [`font-style`](https://www.codecademy.com/resources/docs/css/typography/font-style).
 
 ## Syntax
 
