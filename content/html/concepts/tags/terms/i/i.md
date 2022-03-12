@@ -29,7 +29,5 @@ The `<i>` element should only contain text content or other tags meant for text 
 ## Example
 
 ```html
-<p>
-  The technical term for this element is the <i>Idiomatic Text</i> Element
-</p>
+<p>The technical term for this element is the <i>Idiomatic Text</i> Element</p>
 ```
