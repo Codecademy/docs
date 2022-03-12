@@ -36,7 +36,7 @@ To render text with some specific format, CSS is used. [CSS can be applied](http
 
 - [`@font-face`](https://www.codecademy.com/resources/docs/css/typography/font-face): Specifies a custom font to be used to display text.
 - [`font`](https://www.codecademy.com/resources/docs/css/typography/font): Shorthand property that sets different properties for an element's font in a single declaration.
-- [`font-family`](https://www.codecademy.com/resources/docs/css/typography/font-family): Specify the typeface in a rule set.
+- [`font-family`](https://www.codecademy.com/resources/docs/css/typography/font-family): Specify the typeface.
 - [`font-size`](https://www.codecademy.com/resources/docs/css/typography/font-size): Sets the text size.
 - [`font-style`](https://www.codecademy.com/resources/docs/css/typography/font-style): To set the font style in which text will appear. Should be used instead of `<i>` to display italics.
 - [`font-weight`](https://www.codecademy.com/resources/docs/css/typography/font-weight): To set the text to be thicker or thinner. Should be used instead of `<b>` to make text bold.
