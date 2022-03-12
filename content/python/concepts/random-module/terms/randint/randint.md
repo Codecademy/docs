@@ -1,40 +1,41 @@
 ---
-Title: random.randint()
-Description: 'Takes as input two int values, and returns a pseudo-random integer within the defined range of int values.'
+Title: .randint()
+Description: 'Returns a random integer that exists between two values.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Functions'
+  - 'Methods'
   - 'Random'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `random.randint()` function takes in two `int` values, and returns a pseudo-random integer within the defined range of `int` values.
+The `.randint()` method returns a random integer that exists between two `int` values, `int_a` and `int_b` (inclusive), passed as arguments.
 
 ## Syntax
 
-```python
-random.randint(start, end)
+```pseudo
+random.randint(int_a, int_b)
 ```
 
-An alias for `randrange(start, end(+1))`.
+Another way of writing this would be `random.randrange(int_a, int_b + 1)`.
 
-## Example 1
+## Example
 
-Use `random.randint()` to return a random number between `0` and `50`:
+In the example below, `.randint()` is used to return a random number between `0` and `50`:
 
-```codebyte/python
+```py
 import random
 
 print(random.randint(0, 50))
 ```
 
-## Example 2
+## Codebtye Example
 
-Use `random.randint()` to return a random number between `-25` and `25`:
+The `.randint()` method can also be applied to negative `int` values, as shown in the example below:
 
 ```codebyte/python
 import random
