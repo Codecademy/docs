@@ -24,7 +24,7 @@ The `<u>` tag is used to mark HTML text to be displayed with a non-textual annot
 </u>
 ```
 
-The `<u>` tag should only contain text content or other tags meant for text content.
+The `<u>` element should only contain text content or other tags meant for text content.
 
 ## Example
 
