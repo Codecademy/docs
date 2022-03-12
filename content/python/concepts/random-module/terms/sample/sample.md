@@ -5,8 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Random'
   - 'Functions'
+  - 'Methods'
+  - 'Random'
   - 'Statistics'
 CatalogContent:
   - 'learn-python-3'
@@ -14,11 +15,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `random.sample()` method returns a list of items that are randomly sampled from a given population. The returned list consists of randomly selected items without duplicates.
+The `.sample()` method returns a list of items that are randomly sampled from a given population. The returned list consists of randomly selected items without duplicates.
 
 ## Syntax
 
-For arguments, the `random.sample()` method accepts a `population` and a `number` to set the length of the returned sample.
+For arguments, the `.sample()` method accepts a `population` and a `number` to set the length of the returned sample.
 
 ```pseudo
 random.sample(population, number)
