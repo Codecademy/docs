@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<b>` element is used to draw the reader's attention to the marked text without assigning any additional importance to it. This is typically done by making the text bold.
 
-**Note:** While historically this tag was used just to set text as bold, it should now be avoided for solely styling text. Modern best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used for making boldface text is [`font-weight`](https://www.codecademy.com/resources/docs/css/typography/font-weight).
+**Note:** Original legacy usage of this element is just to set text as bold, but it should now be avoided for solely styling text. Best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used for making boldface text is [`font-weight`](https://www.codecademy.com/resources/docs/css/typography/font-weight).
 
 ## Syntax
 
