@@ -30,6 +30,6 @@ The `<i>` element should only contain text content or other tags meant for text 
 
 ```html
 <p>
-  The technical term for the &lt;i&gt; tag is the <i>Idiomatic Text</i> Element
+  The technical term for this element is the <i>Idiomatic Text</i> Element
 </p>
 ```
