@@ -24,7 +24,7 @@ The `<b>` element is used to draw the reader's attention to the marked text with
 </b>
 ```
 
-The `<b>` tag should only contain text or other tags meant for text content.
+The `<b>` element should only contain text or other tags meant for text content.
 
 ## Example
 
