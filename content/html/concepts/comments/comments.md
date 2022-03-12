@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'An HTML comment is markup that is included in the HTML source, but does not affect the rendering of the HTML document.'
+Description: 'HTML comments are markup that are included in the HTML source, but do not affect the rendering of the HTML document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An HTML comment is markup that is included in the HTML source, but does not affect the rendering of the HTML document. They are used for documenting the HTML code and for "commenting out" HTML that the developer doesn't want to render, but does not desire to delete, generally for historical or debugging purposes.
+HTML comments are markup that are included in the HTML source, but do not affect the rendering of the HTML document. They are used for documenting the HTML code and for "commenting out" HTML that the developer doesn't want to render, but does not desire to delete, generally for historical or debugging purposes.
 
 ## Syntax
 
