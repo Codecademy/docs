@@ -23,7 +23,7 @@ An HTML comment can contain any other HTML markup between the opening `<!--` and
 
 Also, an HTML comment can be placed anywhere inside another HTML element except inside the tags themselves. In other words they can't be placed between the opening `<` and closing `>` of a another tag.
 
-```html
+```pseudo
 <p>Some text that <!-- This is a legal comment --> gets displayed</p>
 
 <p <!-- This is an illegal comment -->>Some more text.</p>
