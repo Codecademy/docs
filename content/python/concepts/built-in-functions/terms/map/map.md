@@ -44,5 +44,4 @@ The `map()` function can be used to transform all the list items to integers:
 a_list = [1.6, 5.4,12.0]
 
 print(list(map(lambda x: int(x), a_list)))
-
 ```
