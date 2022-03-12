@@ -21,7 +21,7 @@ There are two ways to format text with HTML. One way is to use [HTML tags](https
 
 The following HTML tags can affect the formatting of text:
 
-- [`<b>`](https://www.codecademy.com/resources/docs/html/tags/b): Represents text that the reader's attention should be directed to, without signifying any importance. Usually displayed with boldface.
+- [`<b>`](https://www.codecademy.com/resources/docs/html/tags/b): Represents text that the reader's attention should be directed to, without further significance. Usually displayed with boldface.
 - [`<i>`](https://www.codecademy.com/resources/docs/html/tags/i): Represents text set off as an idiomatic expression, technical term, taxonomical designation and so on. Usually displayed with italics.
 - [`<u>`](https://www.codecademy.com/resources/docs/html/tags/u): Represents text to be displayed with a non-textual annotation. Usually displayed using a solid underline.
 - [`<strong>`](https://www.codecademy.com/resources/docs/html/tags/strong): Represents text that is urgent or important. Usually displayed with boldface.
