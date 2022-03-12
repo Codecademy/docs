@@ -24,9 +24,9 @@ string.endswith(value, start, end)
 
 Given a `string`, the `.endswith()` method can be used in the following way:
 
-The `value` is a required argument that is checked if it exists at the end of the `string`.  It is also case-sensitive.
+- The required `value` argument, which is checked if it exists at the end of the `string`.  It is also case-sensitive.
 
-Optionally, the `value` can be tested for whether it is at the end of a particular substring within the `string`. This is done within the `start` and `end` index arguments.
+- Optionally, the `value` can be tested for whether it is at the end of a particular substring within the `string` using the `start` and `end` index arguments.
 
 ## Example
 
@@ -40,18 +40,19 @@ check_C = example_str.endswith("st", 5, 12)
 print("A: ", check_A)
 print("B: ", check_B)
 print("C: ", check_C)
-
-# Output A: True
-# Output B: False
-# Output C: True
 ```
 
-From the above example, for ```check_A``` the output is True as the ```.endswith()``` function checks whether the the string ```example_str``` ends with the character "g".
+```shell
+A: True
+B: False
+C: True
+```
+
+From the above example, for `check_A` the output is True as the `.endswith()` function checks whether the the string `example_str` ends with the character "g".
 
 ## Codebyte Example
 
 ```codebyte/python
-
 example_A = "This is a string"
 check_A = example_A.endswith("ring")
 print(check_A)
