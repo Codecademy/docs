@@ -21,7 +21,7 @@ Data, APIs, software tools, and other applications are connected by middleware i
 
 ### Message Oriented Middleware
 
-This type of middleware allows applications to exchange messages and communicate between eachother.
+A message oriented middleware, or MOM, allows applications to exchange messages and communicate between one another.
 
 ### Database middleware
 
