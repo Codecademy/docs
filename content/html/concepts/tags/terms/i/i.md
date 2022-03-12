@@ -24,7 +24,7 @@ The `<i>` tag is used to set off HTML text, indicating idiomatic expressions, te
 </i>
 ```
 
-The `<i>` tag should only contain text content or other tags meant for text content.
+The `<i>` element should only contain text content or other tags meant for text content.
 
 ## Example
 
