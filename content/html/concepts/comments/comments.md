@@ -28,7 +28,7 @@ Also, an HTML comment can be placed anywhere inside another HTML element except 
 
 <p <!-- This is an illegal comment -->>Some more text.</p>
 
-<!-- Outer Comment <!-- Inner comment --> This text will render. -->
+<!-- Outer comment <!-- Inner comment --> This text will render. -->
 ```
 
 ## Example
