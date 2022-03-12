@@ -31,7 +31,7 @@ Use `map()` to return the length of each string in the following list:
 ```py
 some_strings = ['learn', 'how', 'to', 'code', 'online']
 
-print(list(map(len, some_strings))
+print(list(map(len, some_strings)))
 
 # Output: [5, 3, 2, 4, 6]
 ```
