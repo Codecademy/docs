@@ -30,7 +30,7 @@ The following HTML tags can affect the formatting of text:
 
 While historically the `<b>`,`<i>`, and `<u>` tags were used to explicitly format text in a HTML document, that use has been depreciated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific specified format is required, CSS should be used.
 
-## CSS
+## Style HTML Using CSS
 
 To render text with some specific format, CSS is used. [CSS can be applied](https://www.codecademy.com/resources/docs/css/anatomy) using a stylesheet or using the `style` attribute. The following CSS properties can be used to format text:
 
