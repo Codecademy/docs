@@ -20,7 +20,7 @@ Some languages use comparison operators such as:
 - `>=` and `<=`, for "greater than" and "less than", respectively.
 - `==` and `is` or `!=` and `not` to test for equality and inequality, respectively.
 
-Other languages may use "falsy" values like `""`, `null`, or `0`. And "truthy" values such as `1`. Some even use a combination of both approaches.
+Other languages may use a combination of "falsy" values (e.g. `""`, `null`, or `0`) and "truthy" values such as `1`.
 
 ## JavaScript Example
 
