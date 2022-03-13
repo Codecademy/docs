@@ -61,46 +61,79 @@ Bitwise operators manipulate the individual bits of their numeric expressions.
 
 Assignment operators store the value of an expression into a variable. The variable being assigned to is always on the left.
 
-- `=`: Assigns the value of the expression to the right to the variable on the left.
+<details>
+  <summary>
+    <code>=</code>: Assigns the value of the expression to the right to the variable on the left.
+  </summary>
+  <code>C = A + B</code> stores the value of <code>A + B</code> into the variable <code>C</code>.
+</details>
 
-  `C = A + B` stores the value of `A + B` into the variable `C`.
+<details>
+  <summary>
+    <code>+=</code>: Adds the value on the right to the value in the variable on the left and assigns it to the variable.
+  </summary>
+  <code>C += A</code> is the same as <code>C = C + A</code>.
+</details>
 
-- `+=`: Adds the value on the right to the value in the variable on the left and assigns it to the variable.
+<details>
+  <summary>
+    <code>-=</code>: Subtracts the value on the right from the value in the variable on the left and assigns it to the variable.
+  </summary>
+  <code>C -= A</code> is the same as <code>C = C - A</code>.
+</details>
 
-  `C += A` is the same as `C = C + A`.
+<details>
+  <summary>
+    <code>*=</code>: Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
+  </summary>
+  <code>C *= A</code> is the same as <code>C = C * A</code>.
+</details>
+  
+<details>
+  <summary>
+    <code>/=</code>: Divides the value in the variable on the left by the value on the right and stores the result in the variable.
+  </summary>
+  <code>C /= A</code> is the same as <code>C = C / A</code>.
+</details>
 
-- `-=`: Subtracts the value on the right from the value in the variable on the left and assigns it to the variable.
+<details>
+  <summary>
+    <code>%=</code>: Performs an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
+  </summary>
+  <code>C %= A</code> is the same as <code>C = C % A</code>.
+</details>
 
-  `C -= A` is the same as `C = C - A`.
+<details>
+  <summary>
+    <code><<=</code>: Does a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+  </summary>
+  <code>C <<= A</code> is the same as <code>C = C << A</code>.
+</details>
 
-- `*=`: Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
+<details>
+  <summary>
+    <code>>>=</code>: Does a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+  </summary>
+  <code>C >>= A</code> is the same as <code>C = C >> A</code>.
+</details>
 
-  `C *= A` is the same as `C = C * A`.
+<details>
+  <summary>
+    <code>&=</code>: Does a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
+  </summary>
+  <code>C &= A</code> is the same as <code>C = C & A</code>.
+</details>
 
-- `/=`: Divides the value in the variable on the left by the value on the right and stores the result in the variable.
+<details>
+  <summary>
+    <code>|=</code>: Does a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
+  </summary>
+  <code>C |= A</code> is the same as <code>C = C | A</code>.
+</details>
 
-  `C /= A` is the same as `C = C / A`.
-
-- `%=`: Performs an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
-
-  `C %= A` is the same as `C = C % A`.
-
-- `<<=`: Does a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
-
-  `C <<= A` is the same as `C = C << A`.
-
-- `>>=`: Does a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
-
-  `C >>= A` is the same as `C = C >> A`.
-
-- `&=`: Does a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
-
-  `C &= A` is the same as `C = C & A`.
-
-- `|=`: Does a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
-
-  `C |= A` is the same as `C = C | A`.
-
-- `^=`: Does a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
-
-  `C ^= A` is the same as `C = C ^ A`.
+<details>
+  <summary>
+    <code>^=</code>: Does a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
+  </summary>
+  <code>C ^= A</code> is the same as <code>C = C ^ A</code>.
+</details>
