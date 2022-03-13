@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-Conditionals,  primarily the `if`, `else`, and `else if` statements, are used to execute based on whether an expression evaluates to `true` or `false`.
+Conditionals, primarily the `if`, `else`, and `else if` statements, are used to execute based on whether an expression evaluates to `true` or `false`.
 
 Conditionals can be nested elsewhere such as inside the [`switch`](https://www.codecademy.com/resources/docs/go/switch) and [`for`](https://www.codecademy.com/resources/docs/go/loops) statements.
 
