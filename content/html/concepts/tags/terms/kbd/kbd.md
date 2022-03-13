@@ -30,7 +30,7 @@ You can copy text by pressing ``CTRL`` + ``c``.
 ## Example 2
 
 ```html
-<p>You can peaste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>c</kbd></kbd>.</p>
+<p>You can peaste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>v</kbd></kbd>.</p>
 ```
 Result:
 
