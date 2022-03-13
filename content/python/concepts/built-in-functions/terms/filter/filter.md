@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-'The `filter()` function returns a filter object that contains values filtered from an iterable where a function returns `True` for a given item's value.'
+The `filter()` function returns a filter object that contains values filtered from an iterable where a function returns `True` for a given item's value.
 
 ## Syntax
 
