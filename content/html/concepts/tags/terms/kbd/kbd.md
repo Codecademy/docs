@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<kbd>` tag makes charecters look like they are keys on a keyboard.
+The `<kbd>` tag makes characters look like they are keys on a keyboard.
 
 ## Syntax
 
-All that is needed to be done is put the charecters between an opening and closing tag. The `<kbd>` tag has no attrubutes. They are able to be nested but the result will be the same.
+All that is needed to be done is put the characters between an opening and closing tag. The `<kbd>` tag has no attributes. They can be nested but the result will be the same.
 
 ## Example 1
 
