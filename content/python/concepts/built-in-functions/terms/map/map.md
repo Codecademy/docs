@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-'A built-in function that takes a function and applies it to every item in an iterable. The output of `map()` is a map object, in the examples below `list()` is applied to the map expression to return a new list.'
+The `map()` built-in function takes a function and applies it to every item in an iterable. The output of `map()` is a map object, in the examples below `list()` is applied to the map expression to return a new list.
 
 ## Syntax
 
