@@ -42,7 +42,7 @@ The `.includes()` method can be used in a few ways. First, it can be used direct
 // Output: true
 ```
 
-It can also be used with a variable assigned to an array:
+It can also be used with an array assigned to a variable:
 
 ```js
 const myArray = [1, '2', 3];
