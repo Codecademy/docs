@@ -24,13 +24,13 @@ The `if` statement is mostly associated with conditionals. The code block inside
 
 ### Syntax
 
-If the `condition` is `true`, the `statements` inside the code block will be executed. Execution continues after the `if` block regardless of the value of `condition`.
-
 ```pseudo
 if condition {
   statements
 }
 ```
+
+If the `condition` is `true`, the `statements` inside the code block will be executed. Execution continues after the `if` block regardless of the value of `condition`.
 
 The `if` statement in Go also allows a small statement to be executed before the condition is evaluated. In this respect it is similar to the [`for`](https://www.codecademy.com/resources/docs/go/loops) statement.
 
@@ -56,8 +56,6 @@ The `else` statement provides an optional block of code that executes if all pri
 
 ### Syntax
 
-If `condition` is `true`, `statements_1` will execute. If `condition` is `false`, `statements_2` will execute instead. Execution then continues after the `else` block.
-
 ```pseudo
 if condition {
   statements_1
@@ -66,19 +64,13 @@ if condition {
 }
 ```
 
+If `condition` is `true`, `statements_1` will execute. If `condition` is `false`, `statements_2` will execute instead. Execution then continues after the `else` block.
+
 ## The `else if` Statement
 
 The addition of `else if` statements allow additional conditions to be tested if the prior ones are `false`. Each is associated with its own block of code to execute if its condition is `true`.
 
 ### Syntax
-
-The control flow logic of the code below can be broken down like this:
-
-- If `condition_1` is `true`, `statements_1` will execute.
-- Else, if `condition_1` is `false` and `condition_2` is `true`, `statements_2` will be executed instead.
-- However, if neither condition is `true`, `statements_3` will execute.
-
-Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
 
 ```pseudo
 if condition_1 {
@@ -89,6 +81,14 @@ if condition_1 {
   statements_3
 }
 ```
+
+The control flow logic of the code below can be broken down like this:
+
+- If `condition_1` is `true`, `statements_1` will execute.
+- Else, if `condition_1` is `false` and `condition_2` is `true`, `statements_2` will be executed instead.
+- However, if neither condition is `true`, `statements_3` will execute.
+
+Execution then continues after the `else` block. There can be any number of `else if` statements, and the final `else` is optional.
 
 ## Codebyte Example
 
