@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Entities are character sequences placed in the text of an HTML document to print out reserved or other special characters. When parsing the HTML, a browser replaces the entity's sequence of characters with the character it represents.
+Entities are character sequences placed in the text of an HTML document to print out reserved or other special characters which may otherwise be interpreted as HTML code by a browser. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
 
 ## Syntax
 
