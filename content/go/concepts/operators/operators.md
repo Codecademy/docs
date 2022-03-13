@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Go supports a number of different operators. These are symbols that modify the value of one or more expressions. These symbols include arithmetic operators, comparison operators, logical operators, bitwise operators and assignment operators.
+Go supports a number of different operators. These are symbols that modify the value of one or more expressions. These symbols include arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators.
 
 ## Arithmetic Operators
 
