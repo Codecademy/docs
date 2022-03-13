@@ -5,7 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Arrays'
+  - 'Strings'
   - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
