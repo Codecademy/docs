@@ -15,7 +15,7 @@ The `float` propertie moves an element with in its parent.
 
 ## Syntax
 
-The `float` property takes 5 different values. They are, `left`, `right`, and `none`. The value `left` makes the element float on the left of a parent. The value `right` makes the element float on the right of a parent. The value `none` makes the element not float at all.
+The `float` property takes 3 different values. They are, `left`, `right`, and `none`. The value `left` makes the element float on the left of a parent. The value `right` makes the element float on the right of a parent. The value `none` makes the element not float at all.
 
 ## Example 1
 
