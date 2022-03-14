@@ -15,13 +15,23 @@ CatalogContent:
 
 The `<applet>` tag was used to embed Java applets into an HTML page. It has been depreciated and removed from the HTML specification and should no longer be used. Most browsers no longer support this tag.
 
-The `<applet>` functionality is now incorporated into the [`<object>`](https://www.codecademy.com/resources/docs/html/tags/object) tag.
+The `<applet>` element included zero or more [`<param>`](https://www.codecademy.com/resources/docs/html/tags/param) elements to pass parameters on to the Java applet. The `<applet>` functionality is now incorporated into the [`<object>`](https://www.codecademy.com/resources/docs/html/tags/object) tag.
 
 ## Syntax
 
 ```html
 <!-- This is no longer supported -->
 <applet code="url of Java class file">
+  Text displayed when no Java runtime is available.
+</applet>
+```
+
+With parameter:
+
+```html
+<!-- This is no longer supported -->
+<applet code="url of Java class file">
+  <param name="name of parameter" value="value of parameter" />
   Text displayed when no Java runtime is available.
 </applet>
 ```
