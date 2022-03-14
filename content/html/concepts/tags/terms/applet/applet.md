@@ -1,0 +1,27 @@
+---
+Title: '<applet>'
+Description: 'Depreciated tag that was used to embed Java applets in HTML documents. It is no longer supported.'
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Tags'
+  - 'Obsolete'
+CatalogContent:
+  - 'learn-html'
+  - 'learn-java'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The `<applet>` tag was used to embed Java applets into an HTML page. It has been depreciated and removed from the HTML specification and should no longer be used. Most browsers no longer support this tag.
+
+The `<applet>` functionality is now incorporated into the `<object>` tag.
+
+## Syntax
+
+```html
+<!-- This is no longer supported -->
+<applet code="url of Java class file">
+  Text displayed when no Java runtime is available.
+</applet>
+```
