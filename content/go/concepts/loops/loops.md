@@ -89,7 +89,7 @@ for {
 
 ## A Range Loop
 
-By using the `range` keyword, a `for` loop can step through the items in a collection such as a array, map, slice, channel or string.
+By using the `range` keyword, a `for` loop can step through the items in a collection such as a array, map, slice, channel, or string.
 
 ### Syntax
 
