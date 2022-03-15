@@ -15,9 +15,9 @@ CatalogContent:
 
 Middleware is software that connects applications together. The term "middleware" comes from the fact that this software sits between the front-end, or client-side, of an application and the back-end, or server-side, where the resources are being requested.
 
-Data, APIs, software tools, and other applications are connected by middleware in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware is listed below.
-
 ## Types of Middleware
+
+Data, APIs, software tools, and other applications are connected by middleware in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware is listed below.
 
 ### Message Oriented Middleware
 
@@ -25,17 +25,20 @@ A message oriented middleware, or MOM, allows applications to exchange messages 
 
 #### Examples
 
-- RabbitMQ
-
+<details>
+  <summary>RabbitMQ</summary>
 RabbitMQ is a messaging broker platform used by applications to send and recieve messages.
+</details>
 
-- IBM MQ
-
+<details>
+  <summary>IBM MQ</summary>
 IBM MQ is another example of message oriented middleware. Some of the core components include messages, message queues and queue manager.
+</details>
 
-- Amazon SNS
-
+<details>
+  <summary>Amazon SNS</summary>
 Amazon simple notification service is a way to manage messaging between applications and users.
+</details>
 
 ### Database Middleware
 
@@ -43,13 +46,15 @@ This type of middleware gives access to databases and provides points of interac
 
 #### Examples
 
-- ODBC
+<details>
+  <summary>ODBC</summary>
+  Open Database Connectivity is an API used for accessing database management systems.
+</details>
 
-Open Database Connectivity is an API used for accessing database management systems.
-
-- JDBC
-
+<details>
+  <summary>JDBC</summary>
 Java Database Connectivity is an API that utilizes the Java programming language to access databases.
+</details>
 
 ### API Middleware
 
@@ -57,10 +62,12 @@ This type of middleware provides developers with the tools to create and manage 
 
 #### Examples
 
-- API management platforms
-
+<details>
+  <summary>API management platforms</summary>
 API management platforms allow developers to access, control, and analyze APIs.
+</details>
 
-- API gateways
-
+<details>
+  <summary>API gateways</summary>
 API gateways provide services related to user authentication and rate litmiting.
+</details>
