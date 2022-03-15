@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-'A built-in function that takes a function and applies it to every item in an iterable. The output of `map()` is a map object, in the examples below `list()` is applied to the map expression to return a new list.'
+The `map()` built-in function takes a function and applies it to every item in an iterable. The output of `map()` is a map object, in the examples below `list()` is applied to the map expression to return a new list.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ Use `map()` to return the length of each string in the following list:
 ```py
 some_strings = ['learn', 'how', 'to', 'code', 'online']
 
-print(list(map(len, some_strings))
+print(list(map(len, some_strings)))
 
 # Output: [5, 3, 2, 4, 6]
 ```
@@ -44,5 +44,4 @@ The `map()` function can be used to transform all the list items to integers:
 a_list = [1.6, 5.4,12.0]
 
 print(list(map(lambda x: int(x), a_list)))
-
 ```
