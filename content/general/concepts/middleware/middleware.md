@@ -53,7 +53,7 @@ This type of middleware gives access to databases and provides points of interac
 
 <details>
   <summary>JDBC</summary>
-Java Database Connectivity is an API that utilizes the Java programming language to access databases.
+  Java Database Connectivity is an API that uses Java to access databases.
 </details>
 
 ### API Middleware
