@@ -13,21 +13,18 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In HTML, the `<span>` tag is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>` tag](https://www.codecademy.com/resources/docs/html/tags/div), `<span>` is an inline tag.
-
+In HTML, the `<span>` tag is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>` tag](https://www.codecademy.com/resources/docs/html/tags/div), `<span>` is an inline tag. This tag should only be used whenever there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
+ 
 ## Syntax
 
-```html
-<span><!-- Place content here. --></span>
+```pseudo
+<span attributes=""><!-- Place content here. --></span>
 ```
 
-The `<span>` tag is usually wrapped inside another tag such as [`<li>`](https://www.codecademy.com/resources/docs/html/tags/li) or [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs). It can also use global attributes such as the following:
+The `<span>` tag is usually wrapped inside another tag such as [`<li>`](https://www.codecademy.com/resources/docs/html/tags/li) or [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs). It can also use global attributes to accomplish tasks including:
 
-- Selecting with [attributes](https://www.codecademy.com/resources/docs/html/attributes) such as [classes](https://www.codecademy.com/resources/docs/html/classes) for stylesheet rules or DOM manipulation.
-- Inline styling with the `style` attribute.
+- Selecting with [attributes](https://www.codecademy.com/resources/docs/html/attributes) such as `class` or `style`.
 - Creating custom property values with the `data-*` attribute.
-
-This tag should only be used whenever there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
 
 ## Example
 
