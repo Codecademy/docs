@@ -37,7 +37,7 @@ IBM MQ is another example of message oriented middleware. Some of the core compo
 
 Amazon simple notification service is a way to manage messaging between applications and users.
 
-### Database middleware
+### Database Middleware
 
 This type of middleware gives access to databases and provides points of interaction between a variety of databases. This middleware improves efficiency however it can be language specific which can create limitations.
 
