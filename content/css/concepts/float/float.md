@@ -30,6 +30,7 @@ The `float` property takes 3 different values. They are, `left`, `right`, and `n
     <p>This example shows CSS floats.</p>
   </section>
 ```
+
 ```css
 .item_1 {
   float: left;
