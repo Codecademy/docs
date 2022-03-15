@@ -16,7 +16,7 @@ CatalogContent:
 In HTML, the `<span>` tag is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>` tag](https://www.codecademy.com/resources/docs/html/tags/div), `<span>` is an inline tag. This is usually wrapped inside another tag such as [`<li>`](https://www.codecademy.com/resources/docs/html/tags/li) or [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs).
   
 This tag should only be used whenever there is no [semantic element](https://www.codecademy.com/resources/docs/html/semantic-html) to use instead.
- 
+
 ## Syntax
 
 ```pseudo
