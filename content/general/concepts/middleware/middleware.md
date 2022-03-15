@@ -69,5 +69,5 @@ This type of middleware provides developers with the tools to create and manage 
 
 <details>
   <summary>API gateways</summary>
-API gateways provide services related to user authentication and rate litmiting.
+  API gateways provide services related to user authentication and rate litmiting.
 </details>
