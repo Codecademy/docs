@@ -50,7 +50,7 @@ B: False
 C: True
 ```
 
-From the above example, for `check_A` the output is True as the `.endswith()` function checks whether the the string `example_str` ends with the character "g".
+From the above example, for `check_A` the output is `True` as the `.endswith()` function checks whether the `example_str` string ends with the character "g".
 
 ## Codebyte Example
 
