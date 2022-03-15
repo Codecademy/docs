@@ -64,7 +64,7 @@ This type of middleware provides developers with the tools to create and manage 
 
 <details>
   <summary>API management platforms</summary>
-API management platforms allow developers to access, control, and analyze APIs.
+  API management platforms allow developers to access, control, and analyze APIs.
 </details>
 
 <details>
