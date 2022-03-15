@@ -58,7 +58,7 @@ This type of middleware gives access to databases and provides points of interac
 
 ### API Middleware
 
-This type of middleware provides developers with the tools to create and manage APIs used in applications. This middleware offers scalability but connections can be slow when dealing with different servers.
+This type of middleware provides developers with the tools to create and manage APIs used in applications. While it offers scalability, connections can be slow when dealing with different servers.
 
 #### Examples
 
