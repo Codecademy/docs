@@ -86,7 +86,7 @@ Assignment operators store the value of an expression into a variable. The varia
   <summary>
     <code>*=</code>: Multiplies the value on the right to the value in the variable to the left and assigns it to the variable.
   </summary>
-  <code>C *= A</code> is the same as <code>C = C * A</code>.
+  <code>C <!-- prettier-ignore -->*= A</code> is the same as <code>C = C * A</code>.
 </details>
   
 <details>
