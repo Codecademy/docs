@@ -37,7 +37,7 @@ A message oriented middleware, or MOM, allows applications to exchange messages 
 
 <details>
   <summary>Amazon SNS</summary>
-Amazon simple notification service is a way to manage messaging between applications and users.
+  Amazon simple notification service is a way to manage messaging between applications and users.
 </details>
 
 ### Database Middleware
