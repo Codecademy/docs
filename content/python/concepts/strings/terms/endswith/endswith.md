@@ -22,11 +22,11 @@ The `.endswith()` method checks a value against a given string and returns `True
 string.endswith(value, start, end)
 ```
 
-Given a `string`, the `.endswith()` method can be used in the following way:
+Given a string, the `.endswith()` method can be used in the following way:
 
-- The required `value` argument, which is checked if it exists at the end of the `string`. It is also case-sensitive.
+- The required value argument, which is checked if it exists at the end of the string. It is also case-sensitive.
 
-- Optionally, the `value` can be tested for whether it is at the end of a particular substring within the `string` using the `start` and `end` index arguments.
+- Optionally, the value can be tested for whether it is at the end of a particular substring within the string using the start and end index arguments.
 
 ## Example
 
