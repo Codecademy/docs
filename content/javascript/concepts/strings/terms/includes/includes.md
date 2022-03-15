@@ -32,14 +32,14 @@ Here are some edge-cases to consider when using `.includes()`:
 
 ## Example
 
-The `.includes()` method can be used in a few ways. First, it can be used directly with a string:
+The `.includes()` method can be used in a few ways. First, it can be applied directly to a string:
 
 ```js
 'Hello World!'.includes('World');
 // Output: true
 ```
 
-It can also be used with a  string value assigned to a variable:
+It can also be used with a string value assigned to a variable:
 
 ```js
 const helloWorld = 'Hello World!';

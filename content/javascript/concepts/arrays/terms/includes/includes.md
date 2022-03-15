@@ -30,8 +30,7 @@ Here are some edge-cases to consider when using `.includes()`:
 - It will not work if the provided `index` is greater than the length of the array. Instead, `false` will be returned.
 - If the `index` is less than or equal to 0, the entire array will be searched.
 - By itself, this method isn't suitable for nested array and should be used with the `.flat()` and/or [`.find()`](https://www.codecademy.com/resources/docs/javascript/arrays/find) methods.
-
-For objects, `.includes()` only returns `true` for references of the same object. Even checking against an object literal with the same property-value pairs will yield `false`.
+- For objects, `.includes()` only returns `true` for references of the same object (even checking against an object with the same property-value pairs returns `false`).
 
 ## Example
 
