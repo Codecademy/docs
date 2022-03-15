@@ -32,7 +32,7 @@ A message oriented middleware, or MOM, allows applications to exchange messages 
 
 <details>
   <summary>IBM MQ</summary>
-IBM MQ is another example of message oriented middleware. Some of the core components include messages, message queues and queue manager.
+  IBM MQ is another example of message oriented middleware. Some of the core components include messages, message queues, and queue manager.
 </details>
 
 <details>
