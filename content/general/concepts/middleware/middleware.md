@@ -27,7 +27,7 @@ A message oriented middleware, or MOM, allows applications to exchange messages 
 
 <details>
   <summary>RabbitMQ</summary>
-RabbitMQ is a messaging broker platform used by applications to send and recieve messages.
+  RabbitMQ is a messaging broker platform used by applications to send and receive messages.
 </details>
 
 <details>
