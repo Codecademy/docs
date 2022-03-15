@@ -28,6 +28,6 @@ With a parameter:
 
 ```html
 <object type="MIME type" data="URL of resource">
-  <param name="parameter name" value="parameter value" />  
+  <param name="parameter name" value="parameter value" />
 </object>
 ```
