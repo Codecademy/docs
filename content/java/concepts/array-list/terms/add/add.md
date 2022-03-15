@@ -39,9 +39,13 @@ public class Students {
     studentList.add("Samantha");
     studentList.add("Tony");
 
-    // studentList now holds [Samantha, Tony]
-
     System.out.println(studentList);
   }
 }
+```
+
+The output from the snippet above would look like this:
+
+```shell
+[Samantha, Tony]
 ```
