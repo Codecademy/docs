@@ -23,7 +23,7 @@ The `.join()` method is called on a `separator` string:
 string.join(iterable)
 ```
 
-- The `.join()` method is called on a separator of type string. The separator can be any string, including an empty string, and is used to separate each element of the iterable.
+- The `separator` can be any string, even an empty one, and is placed between each element from the `iterable`.
 - The `iterable` is any object that can be iterated over like tuples or lists. All values of the `iterable` must be strings.
 
 ## Example
