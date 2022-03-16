@@ -41,7 +41,7 @@ print(combined)
 
 ## Codebyte Example
 
-Using `.join()` to combine elements of a tuple with a dash (`"-"`) as a separator:
+Using `.join()` to append elements of a tuple with a dash (`"-"`) as a separator:
 
 ```codebyte/python
 vehicles = ("bicycle", "car", "moped", "truck")
