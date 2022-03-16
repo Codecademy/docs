@@ -17,7 +17,7 @@ Middleware is software that connects applications together. The term "middleware
 
 ## Types of Middleware
 
-Data, APIs, software tools, and other applications are connected by middleware in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware is listed below.
+Data, APIs, software tools, and other applications are connected by middleware in order to bring a complete or bundled application to the end user. There are many types of middleware software depending on the use cases. Some of the most commonly used middleware are listed below.
 
 ### Message Oriented Middleware
 
