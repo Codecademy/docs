@@ -21,7 +21,7 @@ Data, APIs, software tools, and other applications are connected by middleware i
 
 ### Message Oriented Middleware
 
-A message oriented middleware, or MOM, allows applications to exchange messages and communicate between one another. This middleware offers ease of use but can be costly at larger scales.
+A message oriented middleware, or MOM, allows applications to exchange messages and communicate with one another. This middleware offers ease of use but can be costly at larger scales.
 
 #### Examples
 
