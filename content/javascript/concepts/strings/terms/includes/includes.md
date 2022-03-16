@@ -52,7 +52,7 @@ The output above is `false` because `.includes()` is case-sensitive. The string 
 
 ## Codebyte Example
 
-In the example below, the `.indludes()` method is applied three times to the `myString` string variable, using a combination of optional parameters:
+In the example below, the `.includes()` method is applied three times to the `myString` variable, using a combination of optional parameters:
 
 ```codebyte/javascript
 const myString = "Let's learn JavaScript!";
