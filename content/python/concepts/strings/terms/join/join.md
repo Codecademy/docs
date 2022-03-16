@@ -17,6 +17,8 @@ The `.join()` method concatenates all items from an iterable into a single strin
 
 ## Syntax
 
+The `.join()` method is called on a `separator` string:
+
 ```pseudo
 string.join(iterable)
 ```
