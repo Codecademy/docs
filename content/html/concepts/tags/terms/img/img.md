@@ -23,8 +23,8 @@ The `<img>` tag displays an image on the web page.
 
 - `src`: the URL or filename of the image that supports a litany of formats (GIF, JPEG, PNG, etc.).`
 - `alt`: alternative text used by screen readers and when the image does not load.
-- `height`: the height of the image, in pixels.
-- `width`: the width of the image, in pixels.
+- `height`: the height of the image, measured in pixels.
+- `width`: the width of the image, measured in pixels.
 
 ## Example 1
 
