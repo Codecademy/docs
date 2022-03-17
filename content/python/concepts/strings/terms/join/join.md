@@ -2,7 +2,6 @@
 Title: '.join()'
 Description: 'Concatenates all items from an iterable into a single string.'
 Subjects:
-  - 'Code Foundations'
   - 'Computer Science'
   - 'Data Science'
 Tags:
