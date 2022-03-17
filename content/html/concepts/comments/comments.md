@@ -6,6 +6,7 @@ Subjects:
   - 'Web Design'
 Tags:
   - 'Comments'
+  - 'Documentation'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
