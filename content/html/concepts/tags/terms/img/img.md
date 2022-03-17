@@ -21,10 +21,10 @@ The `<img>` tag displays an image on the web page.
 
 `<img>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
 
-- `src`: the URL location of the image
-- `alt`: alternative text used by screen readers and when the image does not load
-- `height`: the height of the image, in pixels
-- `width`: the width of the image, in pixels
+- `src`: the URL or filename of the image that supports a litany of formats (GIF, JPEG, PNG, etc.).`
+- `alt`: alternative text used by screen readers and when the image does not load.
+- `height`: the height of the image, in pixels.
+- `width`: the width of the image, in pixels.
 
 ## Example
 
