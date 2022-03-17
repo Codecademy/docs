@@ -15,7 +15,7 @@ CatalogContent:
 
 The `<blink>` tag is an obsolete tag that was used historically to make the text it contained flash on and off. It is non-standard, depreciated, and not part of the HTML specifications and should not be used.
 
-Using this element is bad design practice and is discouraged by accesability standards. The CSS specification allows browsers to ignore this tag.
+Using this element is a bad design practice and is discouraged by accessibility standards. The CSS specification allows browsers to ignore this tag.
 
 ## Syntax
 
