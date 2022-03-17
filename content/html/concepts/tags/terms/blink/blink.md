@@ -21,5 +21,5 @@ Using this element is a bad design practice and is discouraged by accessibility 
 
 ```html
 <!-- Don't use this tag! -->
-<blink><!-- blinking text goes here --></blink>
+<blink><!-- Blinking text goes here --></blink>
 ```
