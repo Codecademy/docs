@@ -81,26 +81,26 @@ Assignment operators store the value of an expression into a variable. The varia
 
   `C /= A` is the same as `C = C / A`.
 
-- `%=`: Performs an integer division of the value in the variable on the left by the value on the right and store the remainder in the variable.
+- `%=`: Performs an integer division of the value in the variable on the left by the value on the right and stores the remainder in the variable.
 
   `C %= A` is the same as `C = C % A`.
 
-- `<<=`: Does a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+- `<<=`: Does a binary left shift operation on the value in the variable on the left by the number of positions specified on the right and stores the result in the variable.
 
   `C <<= A` is the same as `C = C << A`.
 
-- `>>=`: Does a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and store the result in the variable.
+- `>>=`: Does a binary right shift operation on the value in the variable on the left by the number of positions specified on the right and stores the result in the variable.
 
   `C >>= A` is the same as `C = C >> A`.
 
-- `&=`: Does a bitwise AND operation between the value in the variable on the left with the value on the right and store the result in the variable.
+- `&=`: Does a bitwise AND operation between the value in the variable on the left with the value on the right and stores the result in the variable.
 
   `C &= A` is the same as `C = C & A`.
 
-- `|=`: Does a bitwise OR operation between the value in the variable on the left and the value on the right and store the result in the variable.
+- `|=`: Does a bitwise OR operation between the value in the variable on the left and the value on the right and stores the result in the variable.
 
   `C |= A` is the same as `C = C | A`.
 
-- `^=`: Does a bitwise XOR operation between the value in the variable on the left and the value on the right and store the value in the variable.
+- `^=`: Does a bitwise XOR operation between the value in the variable on the left and the value on the right and stores the value in the variable.
 
   `C ^= A` is the same as `C = C ^ A`.
