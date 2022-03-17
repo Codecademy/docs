@@ -16,7 +16,7 @@ HTML comments are markup that are included in the HTML source, but do not affect
 ## Syntax
 
 ```html
-<!-- comment goes here -->
+<!-- Comment goes here -->
 ```
 
 An HTML comment can contain any other HTML markup between the opening `<!--` and the closing `-->` except for another comment. Attempting to nest HTML comments will result in unexpected behavior because the comment is closed at the first `-->` it encounters. All text after the first `-->` will render, including the outer enclosing `-->`. Thus, when commenting out HTML code, the developer must make sure any interior comments are removed or strip the trailing `-->`s.
