@@ -26,7 +26,7 @@ The `<img>` tag displays an image on the web page.
 - `height`: the height of the image, in pixels.
 - `width`: the width of the image, in pixels.
 
-## Example
+## Example 1
 
 Below is an example of an image wrapped in an anchor tag which creates an image link:
 
@@ -35,8 +35,11 @@ Below is an example of an image wrapped in an anchor tag which creates an image 
   <head> </head>
   <body>
     <a href="https://codecademy.com">
-      <img src="logo.png" alt="Codecademy Home Page" width="256" height="64" />
+      <img src="cc_logo.png" alt="Codecademy Home Page" width="256" height="64" />
     </a>
   </body>
 </html>
 ```
+This is what the rendered image look like:
+
+[Codecademy logo](![Codecademy logo](../../../../../../media/cc_logo.png)
