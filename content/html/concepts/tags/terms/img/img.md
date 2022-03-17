@@ -42,4 +42,4 @@ Below is an example of an image wrapped in an anchor tag which creates an image 
 ```
 This is what the rendered image look like:
 
-[Codecademy logo](![Codecademy logo](../../../../../../media/cc_logo.png)
+![Codecademy logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/cc_logo.png)
