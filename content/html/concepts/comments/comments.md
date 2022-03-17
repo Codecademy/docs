@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-HTML comments are markup included in the HTML source that do not affect the rendering of the HTML document. They are used for documenting the HTML code and commenting out HTML that the developer doesn't want to render. It does not desire to delete and is generally for historical or debugging purposes.
+HTML comments are markup included in the HTML source that do not affect the rendering of the HTML document. They are used for documenting the HTML code and commenting out HTML that the developer doesn't want to render but does not desire to delete. This is generally for historical or debugging purposes.
 
 ## Syntax
 
