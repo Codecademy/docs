@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'HTML comments are markup that are included in the HTML source, but do not affect the rendering of the HTML document.'
+Description: 'HTML comments are markup included in the HTML source that do not affect the rendering of the HTML document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
