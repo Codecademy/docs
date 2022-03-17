@@ -1,6 +1,6 @@
 ---
 Title: '<blink>'
-Description: 'Obsolete tag that originally caused text to flash on and off. It is now depreciated and should not be used.'
+Description: 'Obsolete tag that originally caused text to flash on and off. It is now deprecated and non-standard.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
