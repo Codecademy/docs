@@ -20,6 +20,6 @@ Using this element is a bad design practice and is discouraged by accessibility 
 ## Syntax
 
 ```html
-<!-- Don't use this tag! -->
+<!-- Not advised to use this tag! -->
 <blink><!-- Blinking text goes here --></blink>
 ```
