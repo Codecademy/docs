@@ -52,4 +52,4 @@ This last example will render as follows:
 
 This will display:
 
-![HTML Comments B](![HTML Comments A](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-1.png)
+![HTML Comments B](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-1.png)
