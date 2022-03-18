@@ -20,10 +20,9 @@ HTML comments are used for documentation and excluding markup from being rendere
 <!-- Comments go between these tags. -->
 ```
 
-HTML comments always start with an opening `<!--` and end with a closing tag `-->`. They may contain anything from text to other markup that will not be rendered. 
+HTML comments always start with an opening `<!--` and end with a closing tag `-->`. They may contain anything from text to other markup that will not be rendered.
 
 Nested comments are not recommended because they may cause unexpected behavior. Comments generally end after the first closing tag `-->`. Anything after that will be rendered on the page, including all outer closing tags. Thus, when commenting out HTML code, developers should remove any interior comment tags (or at least the trailing ones `-->`).
-
 
 ```pseudo
 <p>Some text that <!-- This is a legal comment --> gets displayed</p>
