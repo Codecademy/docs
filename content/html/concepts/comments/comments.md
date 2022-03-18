@@ -24,15 +24,22 @@ HTML comments always start with an opening `<!--` and end with a closing tag `--
 
 Nested comments are not recommended because they may cause unexpected behavior. Comments generally end after the first closing tag `-->`. Anything after that will be rendered on the page, including all outer closing tags. Thus, when commenting out HTML code, developers should remove any interior comment tags (or at least the trailing ones `-->`).
 
-Comments can also be placed anywhere inside another [element](https://www.codecademy.com/resources/docs/html/elements). However, they cannot be placed inside the element tags themselves (e.g. between the left angle `<` and right angle bracket`>` of a tag).
 
 ```pseudo
 <p>Some text that <!-- This is a legal comment --> gets displayed</p>
 
 <p <!-- This is an illegal comment -->>Some more text.</p>
+```
 
+Comments can also be placed anywhere inside another [element](https://www.codecademy.com/resources/docs/html/elements). However, they cannot be placed inside the element tags themselves (e.g. between the left angle `<` and right angle bracket`>` of a tag).
+
+```pseudo
 <!-- Outer comment <!-- Inner comment --> This text will render. -->
 ```
+
+This last example will render as follows:
+
+
 
 ## Example
 
