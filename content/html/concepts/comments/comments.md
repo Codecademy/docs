@@ -32,7 +32,7 @@ This example will render as follows:
 
 ![HTML Comments A](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-2.png)
 
-Comments can also be placed anywhere inside another [element](https://www.codecademy.com/resources/docs/html/elements). 
+Comments can also be placed anywhere inside another [element](https://www.codecademy.com/resources/docs/html/elements).
 
 ```pseudo
 <p>Some text that <!-- This is a legal comment --> gets displayed</p>
