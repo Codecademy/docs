@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-HTML [comments](https://www.codecademy.com/resources/docs/general/comment) are markup included in the HTML source that do not affect the rendering of the HTML document. They are used for documenting the HTML code. They are also used for commenting out HTML that the developer doesn't want to render but does not desire to delete, either for historical or debugging purposes.
+HTML comments are used for documentation and excluding markup from being rendered. Like with [comments](https://www.codecademy.com/resources/docs/general/comment) in other languages, developers may also use HTML comments for historical or debugging purposes.
 
 ## Syntax
 
