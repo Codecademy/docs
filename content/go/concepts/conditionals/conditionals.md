@@ -32,7 +32,7 @@ if condition {
 
 If the `condition` is `true`, the `statements` inside the code block will be executed. Execution continues after the `if` block regardless of the value of `condition`.
 
-The `if` statement in Go also allows a small statement to be executed before the condition is evaluated. In this respect it is similar to the [`for`](https://www.codecademy.com/resources/docs/go/loops) statement.
+The `if` statement in Go also allows a small statement to be executed before the condition is evaluated. In this respect, it is similar to the [`for`](https://www.codecademy.com/resources/docs/go/loops) statement.
 
 ```pseudo
 if statement; condition {
