@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Images'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
@@ -35,11 +36,17 @@ Below is an example of an image wrapped in an anchor tag which creates an image 
   <head> </head>
   <body>
     <a href="https://codecademy.com">
-      <img src="cc_logo.png" alt="Codecademy Home Page" width="256" height="64" />
+      <img
+        src="cc_logo.png"
+        alt="Codecademy Home Page"
+        width="256"
+        height="64"
+      />
     </a>
   </body>
 </html>
 ```
+
 This is what the rendered image look like:
 
 ![Codecademy logo](https://raw.githubusercontent.com/Codecademy/docs/main/media/cc_logo.png)
