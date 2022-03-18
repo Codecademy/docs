@@ -20,7 +20,9 @@ HTML comments are used for documentation and excluding markup from being rendere
 <!-- Comments go between these tags. -->
 ```
 
-An HTML comment can contain any other HTML markup between the opening `<!--` and the closing tag `-->` except for another comment. Attempting to nest HTML comments will result in unexpected behavior because the comment is closed at the first `-->` it encounters. All text after the first `-->` will render, including the outer enclosing `-->`. Thus, when commenting out HTML code, the developer must make sure any interior comments are removed or strip the trailing `-->`s.
+HTML comments always start with an opening `<!--` and end with a closing tag `-->`. They may contain anything from text to other markup that will not be rendered. 
+
+Nested comments are not recommended because they may cause unexpected behavior. Comments generally end after the first closing tag `-->`. Anything after that will be rendered on the page, including all outer closing tags. Thus, when commenting out HTML code, developers should remove any interior comment tags (or at least the trailing ones `-->`).
 
 Comments can also be placed anywhere inside another [element](https://www.codecademy.com/resources/docs/html/elements). However, they cannot be placed inside the element tags themselves (e.g. between the left angle `<` and right angle bracket`>` of a tag).
 
