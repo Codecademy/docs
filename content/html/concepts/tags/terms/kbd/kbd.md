@@ -29,13 +29,14 @@ All that is needed to be done is put the characters between an opening and closi
 
 Result:
 
-![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example.png)
+![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example%201.png)
   
 ## Example 2
 
 ```html
 <p>You can peaste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>v</kbd></kbd>.</p>
 ```
+  
 Result:
 
-You can paste text by pressing ``CTRL`` + ``V``.
+![picture of the <kbd> tag in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example%202.png)
