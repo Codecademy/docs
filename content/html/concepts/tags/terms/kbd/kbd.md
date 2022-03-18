@@ -29,8 +29,8 @@ All that is needed to be done is put the characters between an opening and closi
 
 Result:
 
-You can copy text by pressing ``CTRL`` + ``C``.
-
+![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example.png)
+  
 ## Example 2
 
 ```html
