@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<blink>` tag is an obsolete tag that was used historically to make text flash on and off. It is non-standard, depreciated, and not part of the HTML specifications.
+The `<blink>` tag is an obsolete tag that was used historically to make text flash on and off. It is non-standard, depreciated, and not part of the current [HTML specifications](https://html.spec.whatwg.org/).
 
-Using this element is a bad design practice and is discouraged by accessibility standards. The CSS specification allows browsers to ignore this tag.
+Using this element is a bad design practice and is discouraged by [accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/). The [CSS specification](https://www.w3.org/TR/css-2021/) allows browsers to ignore this tag.
 
 ## Syntax
 
