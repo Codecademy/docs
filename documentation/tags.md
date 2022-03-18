@@ -181,6 +181,7 @@ NPM
 Numbers
 NumPy
 Objects
+Obsolete
 OOP
 Operators
 Optionals
