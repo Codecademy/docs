@@ -53,6 +53,6 @@ However, they cannot be placed inside the element tags themselves (e.g. between 
 -->
 ```
 
-This will display:
+This will render as follows:
 
 ![HTML Comments B](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-1.png)
