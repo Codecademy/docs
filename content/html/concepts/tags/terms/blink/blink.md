@@ -1,6 +1,6 @@
 ---
 Title: '<blink>'
-Description: 'Used to make text to flash on and off and is now obsolete, deprecated, and non-standard.'
+Description: 'Used to make text flash on and off and is now obsolete, deprecated, and non-standard.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
