@@ -26,7 +26,7 @@ The HTML image tag, `<img>`, has no closing tag, meaning that it cannot have oth
 - `height` is the height of the image, measured in pixels.
 - `width` is the width of the image, measured in pixels.
 
-## Example 1
+## Example
 
 Below is an example of an image wrapped in an anchor tag which creates an image link:
 
