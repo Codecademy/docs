@@ -53,7 +53,7 @@ Bitwise operators manipulate the individual bits of their numeric expressions.
 
 - `&` Binary AND Operator: Takes two expressions, `(A & B)`, result will have a bit set if the corresponding bit in each expression is set.
 - `|` Binary OR Operator: Takes two expressions, `(A | B)`, result will have a bit set if either expression has the corresponding bit set.
-- `^` Binary XOR Operator: Takes two arguments, `(A ^ B)`, result wil have a bit set if only one corresponding bit is set between the two expressions.
+- `^` Binary XOR Operator: Takes two arguments, `(A ^ B)`, result will have a bit set if only one corresponding bit is set between the two expressions.
 - `<<` Binary Left Shift Operator: Takes two arguments, `(A << B)`, result will be the first argument with its bits moved to the left the number of positions specified by the second.
 - `>>` Binary Right Shift Operator: Takes two arguments, `(A >> B)`, result will be the first argument with its bits moved to the right the number of positions specified by the second.
 
