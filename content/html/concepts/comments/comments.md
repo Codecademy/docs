@@ -39,7 +39,7 @@ Comments can also be placed anywhere inside another [element](https://www.codeca
 
 This last example will render as follows:
 
-
+![HTML Comments A](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-2.png)
 
 ## Example
 
@@ -49,3 +49,7 @@ This last example will render as follows:
   <p>This will not</p>
 -->
 ```
+
+This will display:
+
+[HTML Comments B](![HTML Comments A](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-comments-1.png)
