@@ -34,4 +34,4 @@ You can copy text by pressing ``CTRL`` + ``c``.
 ```
 Result:
 
-You can peaste text by pressing ``CTRL`` + ``c``.
+You can paste text by pressing ``CTRL`` + ``v``.
