@@ -17,6 +17,10 @@ The `<kbd>` tag makes characters look like they are keys on a keyboard.
 
 All that is needed to be done is put the characters between an opening and closing tag. The `<kbd>` tag has no attributes. They can be nested but the result will be the same.
 
+```pseudo
+<kbd><!-- Text goes here --></kbd>
+```
+  
 ## Example 1
 
 ```html
@@ -25,7 +29,7 @@ All that is needed to be done is put the characters between an opening and closi
 
 Result:
 
-You can copy text by pressing ``CTRL`` + ``c``.
+You can copy text by pressing ``CTRL`` + ``C``.
 
 ## Example 2
 
@@ -34,4 +38,4 @@ You can copy text by pressing ``CTRL`` + ``c``.
 ```
 Result:
 
-You can paste text by pressing ``CTRL`` + ``v``.
+You can paste text by pressing ``CTRL`` + ``V``.
