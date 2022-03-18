@@ -19,7 +19,7 @@ The `<img>` tag displays an image on the web page.
 <img src="image URL" alt="text used for accessibility" />
 ```
 
-`<img>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
+The HTML image tag, `<img>`, has no closing tag, meaning that it cannot have other tags inside of an image element. It uses attributes to set properties, some common attributes are:
 
 - `src`: the URL or filename of the image that supports a litany of formats (GIF, JPEG, PNG, etc.).`
 - `alt`: alternative text used by screen readers and when the image does not load.
