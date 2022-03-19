@@ -1,6 +1,6 @@
 ---
 Title: '<kbd>'
-Description: 'Makes charecters look like keys on a keyboard'
+Description: 'Makes characters look like keys on a keyboard.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
