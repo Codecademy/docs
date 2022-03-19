@@ -7,7 +7,7 @@ Tags:
   - 'Data Types'
   - 'Integers'
   - 'Strings'
-  - 'Numbers'
+  - 'Booleans'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
