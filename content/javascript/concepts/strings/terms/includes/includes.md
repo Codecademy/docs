@@ -35,7 +35,7 @@ Here are some edge-cases to consider when using `.includes()`:
 The `.includes()` method can be used in a few ways. First, it can be applied directly to a string:
 
 ```js
-'Hello World!'.includes('World');
+console.log('Hello World!'.includes('World'));
 // Output: true
 ```
 
@@ -44,7 +44,7 @@ It can also be used with a string value assigned to a variable:
 ```js
 const helloWorld = 'Hello World!';
 
-helloWorld.includes('world');
+console.log(helloWorld.includes('world'));
 // Output: false
 ```
 
@@ -57,7 +57,7 @@ In the example below, the `.includes()` method is applied three times to the `my
 ```codebyte/javascript
 const myString = "Let's learn JavaScript!";
 
-console.log(myString.includes("Javascript"));
-console.log(myString.includes("Javascript", 100));
-console.log(myString.includes("Javascript", -1));
+console.log(myString.includes("JavaScript"));
+console.log(myString.includes("JavaScript", 100));
+console.log(myString.includes("JavaScript", -1));
 ```

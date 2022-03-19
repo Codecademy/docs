@@ -37,7 +37,7 @@ Here are some edge-cases to consider when using `.includes()`:
 The `.includes()` method can be used in a few ways. First, it can be used directly with an array:
 
 ```js
-[1, 2, 3].includes(3);
+console.log([1, 2, 3].includes(3));
 // Output: true
 ```
 
@@ -46,7 +46,7 @@ It can also be used with an array assigned to a variable:
 ```js
 const myArray = [1, '2', 3];
 
-myArray.includes(2);
+console.log(myArray.includes(2));
 // Output: false
 ```
 
