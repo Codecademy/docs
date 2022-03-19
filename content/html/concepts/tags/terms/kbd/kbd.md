@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<kbd>` tag makes characters look like they are keys on a keyboard.
+The `<kbd>` tag emphasizes characters to look like keys on a keyboard.
 
 ## Syntax
 
