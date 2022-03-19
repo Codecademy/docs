@@ -35,7 +35,7 @@ Result:
 ## Example 2
 
 ```html
-<p>You can peaste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>v</kbd></kbd>.</p>
+<p>You can paste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>V</kbd></kbd>.</p>
 ```
   
 Result:
