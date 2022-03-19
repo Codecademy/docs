@@ -17,7 +17,9 @@ Classes are HTML attributes used to select one or more elements for CSS styling 
 
 ## For Styling
 
-The `class` attribute is commonly used for assigning styles to one or more elements. Multiple classes can be assigned to 1 element by putting a space ` ` in between the classes being assigned. Inside the stylesheet, a class name is selected with the following syntax:
+The `class` attribute is commonly used for assigning styles to one or more elements. Multiple classes can be assigned to a single element in a space-separated list. (e.g. `class="class1 class2 class3"`)
+
+Inside the stylesheet, a class name is selected with the following syntax:
 
 ```css
 .class-name {
