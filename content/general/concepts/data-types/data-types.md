@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Data Structures'
   - 'Data Types'
   - 'Types'
 CatalogContent:
@@ -12,29 +13,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Data is foundational in programming and is classified into different types to indicate how it can be interpreted and used in the compiler. While there are certainly other kinds, data types are mostly categorized as either being primitive or composite in value.
+Data is foundational in programming and is classified into different types to indicate how it can be interpreted, compiled, and used in software. For the most part, data types are categorized into two groups: primitive or composite values.
 
 ## Primitive Data Types
 
-In computer programming, primitive data types are the building blocks for any variable or data structure in a program. They usually contain a single value such as a character, byte, or digit. Below are a few examples of primitive types:
+Primitive data types are the building blocks for any variable or data structure in a program. They usually contain a single value such as a character, byte, or digit. A few examples of primitive types are listed below:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Number | Numbers include `-1`, `0`, `1`, and so on. Depending on the language, numbers with decimals are of a different type. |
-| String | Strings are collections of characters text. Depending on the language, single quotes (`''`) or double quotes (`""`) can be used. For example: `"Codecademy is awesome! 🖥️⌨️"` |
-| Boolean | Booleans hold a `true` or `false` value. |
+| [Number](https://www.codecademy.com/resources/docs/general/number) | Includes `-1`, `0`, `1`, and `3.14`(numbers with decimals treated as a separate type in some languages). |
+| [String](https://www.codecademy.com/resources/docs/general/string) | Sequences of characters surrounded by single quotes (`''`), double quotes (`""`), and/or backticks (` `` `), depending on the language (e.g. `"Codecademy is awesome! 🖥️⌨️"` ). |
+| [Boolean](https://www.codecademy.com/resources/docs/general/boolean) | Holds a logical value of `true` or `false`. |
 
 ## Composite Data Types
 
-While primitive types are the building blocks, composite data types are the building. They can be composed of either the
+Composite data types can be composed of multiple of the same or different primitive data types, sometimes referred to as members, elements, or items. The following are examples of well known composite types:
 
 <!-- prettier-ignore -->
 | Data Type | Description |
 | --- | --- |
-| Array | Arrays (or lists, depending on the language) are collections of values. Their values are zero-indexed (they start at 0, then 1, and so on) and are usually accessed at a specified index. Nested arrays (arrays within arrays) are also possible. |
-| Object | Objects are groups of related data that are usually organized as property-value pairs. |
-| Class | Templates for objects that may contain properties or methods. |
+| [Array](https://www.codecademy.com/resources/docs/general/array) | Collections of values that are usually defined with `[]` brackets and referenced by index starting at 0. |
+| [Object](https://www.codecademy.com/resources/docs/general/object) | Groups of related data that are usually organized as property-value pairs. |
+| [Class](https://www.codecademy.com/resources/docs/general/class) | Templates for objects that may contain properties or methods. |
 
 ## Other Common Data Types
 
@@ -44,8 +45,8 @@ Data types have gone beyond just composites and primitives and include ones with
 | Data Type | Description |
 | --- | --- |
 | Null | `null` or `nil` represents the absence of a value. |
-| Undefined | Undefined represents a value that has not yet been defined. |
-| Function | Depending on the language, functions can be utilized as variables and arguments for other functions. |
+| Undefined | Represents a value that has not yet been defined. |
+| [Function](https://www.codecademy.com/resources/docs/general/function) | Depending on the language, functions can be utilized as variables and arguments for other functions. |
 | Void | Sets a function to have side effects but return no specific result. Common in C-based languages. |
 | Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
