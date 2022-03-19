@@ -25,7 +25,7 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
 ## Example 1
 
 ```html
-<p>You can copy text by pressing <kbd>CTRL</kbd> + <kbd>c</kbd>.</p>
+<p>You can copy text by pressing <kbd>CTRL</kbd> + <kbd>C</kbd>.</p>
 ```
 
 Result:
