@@ -31,7 +31,7 @@ def SerializeDict(input_dict):
   print("Serializing input to JSON")
   output_str = json.dumps(input_dict)
   print(output_str)
-  
+
 test_dict = {
   "make": "Chevy",
   "model": "Silverado",
