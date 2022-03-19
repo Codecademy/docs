@@ -30,7 +30,6 @@ def memo_function(args):
     return memo[args]
   else:
     # Do this and update memo.
-
 ```
 
 In Python, one way memoized results are represented is with [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). In a given function, if a previously calculated result exists in the `memo` dictionary, it is returned. Otherwise, normal calculations take place and the `memo` dictionary is updated.
@@ -60,7 +59,6 @@ print(get_square(30000))
 end = time.time()
 total_1 = round((end - start)*1000, 5)
 print("First Call: ", total_1, "s\n")
-
 
 print("With get_square_memo()\n----------------------")
 startA = time.time()
