@@ -33,7 +33,7 @@ def memo_function(args):
 
 ```
 
-In Python, one way memoized results are represented is with [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). In a given function, if a previously calculated result exists in the `memo` dictionary, it is returned. Otherwise, normal calculations take place and the `memo` is updated.
+In Python, one way memoized results are represented is with [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries). In a given function, if a previously calculated result exists in the `memo` dictionary, it is returned. Otherwise, normal calculations take place and the `memo` dictionary is updated.
 
 ## Example
 
