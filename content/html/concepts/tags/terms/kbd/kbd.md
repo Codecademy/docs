@@ -40,4 +40,4 @@ Result:
   
 Result:
 
-![picture of the <kbd> tag in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb-tag-example-2.png)
+![Keyboard Tag Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/kdb-tag-example-2.png)
