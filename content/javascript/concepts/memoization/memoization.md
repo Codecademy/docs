@@ -34,7 +34,7 @@ function memoFunction(arg) {
 }
 ```
 
-Memoized results can be represented with [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) or [objects](https://www.codecademy.com/resources/docs/javascript/objects). In a given function, if a previously calculated result exists in the `memo` dictionary, it is returned. Otherwise, normal calculations take place and the `memo` is updated.
+Memoized results can be represented with [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) or [objects](https://www.codecademy.com/resources/docs/javascript/objects). In a given function, if a previously calculated result exists in the `memo` array, it is returned. Otherwise, normal calculations take place and the `memo` array is updated.
 
 ## Example
 
