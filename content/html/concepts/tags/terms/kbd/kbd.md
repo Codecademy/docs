@@ -16,7 +16,7 @@ The `<kbd>` tag makes characters look like they are keys on a keyboard.
 
 ## Syntax
 
-All that is needed to be done is put the characters between an opening and closing tag. The `<kbd>` tag has no attributes. They can be nested but the result will be the same.
+The `<kbd>` tag has no attributes. Text is placed in between the opening and closing `<kbd>` tags and will render in the browser's default monospace font. `<kbd>` can be nested but the result will be the same.
 
 ```pseudo
 <kbd><!-- Text goes here --></kbd>
