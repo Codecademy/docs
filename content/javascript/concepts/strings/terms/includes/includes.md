@@ -48,7 +48,7 @@ helloWorld.includes('world');
 // Output: false
 ```
 
-The output above is `false` because `.includes()` is case-sensitive. The string literal `world` was checked for with a lowercase "w" rather than a capital "W" like in the`helloWorld` string.
+The output above is `false` because `.includes()` is case-sensitive. The string literal `world` was checked for with a lowercase "w" rather than a capital "W" like in the `helloWorld` string.
 
 ## Codebyte Example
 
