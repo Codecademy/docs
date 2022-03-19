@@ -30,7 +30,7 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
 
 Result:
 
-![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example%201.png)
+![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb-tag-example-1.png)
   
 ## Example 2
 
@@ -40,4 +40,4 @@ Result:
   
 Result:
 
-![picture of the <kbd> tag in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb%20tag%20example%202.png)
+![picture of the <kbd> tag in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb-tag-example-2.png)
