@@ -23,14 +23,14 @@ The key distinctions between regular data and big data are volume, velocity, and
 Big data is utilized across multiple industries and applied in many ways, including the following:
 
 - Marketing departments use this data for targeted advertising, promoting products, and services that align with company interests.
-- Healthcare professionals may use big data gathered from devices like wearables and track metrics such as heart rate, breathing, and sleep habits.
-- The transportation and automobile industries may use big data to track informations related to pedestrians, weather, and road conditions.
+- Healthcare professionals may track data such as heart rate and sleep habits to improve health surveillance and assist people with performing ADLs (activities of daily living).
+- The transportation and automobile industries may use big data to improve road safety and navigation, as well as take prevetative measures against inclement weather.
 
 ## Processing Big Data
 
 Because big data is so vast and comprehensive, it needs to be processed before being analyzed for insights. This involves collecting and comparing data from multiple sources, cleaning it to remove any errors or duplicates, and more.
 
-After processing, data sciencist go through and try to find any relevant patterns in the big data. This often involves the use of machine learning algorithms as well as data visualization methods for creating insights. Statistics also play a key role in data analysis as it seeks to explain the relationships between data and probable outcomes.
+After processing, data scientists go through the data to find any relevant patterns in the big data. This often involves the use of machine learning algorithms and data visualization methods for creating insights. Statistics also play a key role in data analysis as it seeks to explain the relationships between the data and probable outcomes.
 
 ## Programming Languages
 
@@ -38,7 +38,7 @@ There are several programming languages used to collect, process, analyze, and v
 
 - [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp) still hold up as solid choices.
 - [Java](https://www.codecademy.com/resources/docs/java) has big data tools that are open-source, flexible, and free to use.
-- [JavaScript](https://www.codecademy.com/resources/docs/javascript) is a ideal for building interactive web pages that share big data-generated information.
+- [JavaScript](https://www.codecademy.com/resources/docs/javascript) is ideal for building interactive web pages that share big data-generated information.
 - [Python](https://www.codecademy.com/resources/docs/python) features many libraries that specialize in working with statistical anlysis and big data.
 - [R](https://www.codecademy.com/resources/docs/r) excels at using statistical analysis and visualization to draw insightful and actionable conclusions.
 - [SQL](https://www.codecademy.com/resources/docs/sql) was developed for handling large databases with relationships between different variables from different datasets.
