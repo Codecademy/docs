@@ -30,7 +30,7 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
 
 Result:
 
-![picture of the <kbd> in action](https://raw.githubusercontent.com/ethan-master-coding/docs/kdb-tag/media/kdb-tag-example-1.png)
+![Keyboard Tag Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/kdb-tag-example-1.png)
   
 ## Example 2
 
