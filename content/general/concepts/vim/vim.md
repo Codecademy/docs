@@ -32,4 +32,4 @@ vim filename.txt
 
 ## Vim Screenshot
 
-![Vim screenshot](/media/vim.png)
+![Vim screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim.png)
