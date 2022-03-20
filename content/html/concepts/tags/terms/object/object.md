@@ -35,6 +35,10 @@ With a parameter:
 ## Example
 
 ```html
-<object width="420" height="315" type="video/mp4" data="https://www.youtube.com/v/138enunVlfs">
-</object>
+<object
+  width="420"
+  height="315"
+  type="video/mp4"
+  data="https://www.youtube.com/v/138enunVlfs"
+></object>
 ```
