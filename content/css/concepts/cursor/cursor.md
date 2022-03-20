@@ -13,10 +13,9 @@ CatalogContent:
 
 The `cursor` property sets the appearance of the mouse cursor when hovering over an element. The apperance can be set by specifying the type of cursor, or by loading a specific icon. When using an icon, fallback images and be used, ending with a manditory keyword fallback.
 
-The these are common keywords used to specify the type of cursor to display.
+These are common keywords used to specify the type of cursor to display.
 
 ![Cursors](https://raw.githubusercontent.com/Codecademy/docs/main/media/cursors-1.png)
-
 
 ## Syntax
 
