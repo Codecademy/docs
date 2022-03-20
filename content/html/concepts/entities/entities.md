@@ -16,7 +16,7 @@ Entities are character sequences placed in the text of an HTML document to print
 
 ## Syntax
 
-Entities can take one of three forms.
+Entities are case-sensitive and can take one of three forms.
 
 The first form references an entity by name:
 
