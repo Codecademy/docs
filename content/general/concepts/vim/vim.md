@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Vim](https://www.vim.org/) is a free, open source, and customizable text editor that can be run on Windows, Mac, Unix, Linux, or Android. It can be run directly from the command line interface or from it's GUI interface. It is based on 'vi', another text editor that was created for the unix operating system. Many plugins are available to add to the many built in features. Developers will find it useful for working on source code or scripting files. Vim is also very convenient for editing configuration files when working from the terminal.
+[Vim](https://www.vim.org/) is a text editor that is free, [open-source](https://www.codecademy.com/resources/docs/general/open-source), and based on the `vi` editor that was originally created for the Unix operating system. However, it can be run on other systems such as Windows, Mac, Linux, or Android. 
+
+Many plugins are available to add to the many features built into Vim. Developers will find it useful for working on source code or scripting files. Vim is ideal for editing configuration files when working from the [terminal](https://www.codecademy.com/resources/docs/general/terminal).
 
 ## Features
 
