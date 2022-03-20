@@ -39,6 +39,7 @@ Of course, you can opt not to do this and be listed as an "Anonymous contributor
 - [ ] I have made corresponding changes to the documentation if needed.
 - [ ] I have confirmed my changes are not being pushed from my forked `main` branch.
 - [ ] I have confirmed that I'm pushing from a new branch named after the changes I'm making.
+- [ ] Under "Development" on the right, I have linked any issues that are relevant to this PR (write "Closes #<issue number> in the "Description" above).
 
 <!--
 Having trouble with the PR checker? Here are some common issues and resolutions:
