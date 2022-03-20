@@ -37,7 +37,5 @@ Result:
 ```html
 <p>You can paste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>V</kbd></kbd>.</p>
 ```
-  
-Result:
 
 ![Keyboard Tag Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/kdb-tag-example-2.png)
