@@ -5,15 +5,16 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Random'
   - 'Functions'
+  - 'Methods'
+  - 'Random'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-The `random.shuffle()` method takes a list as a parameter and randomly re-orders the contents in place.
+The `.shuffle()` method takes a list as a parameter and randomly re-orders the contents in place.
 
 ## Syntax
 
@@ -25,7 +26,7 @@ The `list` is the collection of items to be shuffled in place.
 
 ## Example
 
-After importing the `random` module, lists can be rearranged with `random.shuffle()`:
+After importing the `random` module, lists can be rearranged with `.shuffle()`:
 
 ```py
 import random
@@ -41,7 +42,7 @@ print(my_list)
 
 ## Codebyte Example
 
-```codebyte/py
+```codebyte/python
 import random
 
 deck_of_cards = [
