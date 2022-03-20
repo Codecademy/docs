@@ -1,6 +1,6 @@
 ---
 Title: 'Floats'
-Description: ''
+Description: 'The float property moves an element to the left or right within its parent, outside of the default positioning.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
