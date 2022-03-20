@@ -42,16 +42,18 @@ So the `©` entity can be represented as `&copy;`, `&#169` or `&#x000A9;`.
 
 There are many, many HTML entities. The following are some common ones:
 
-- `&nbsp;` or `&#160;`: non-breaking space.
-- `&lt` or `&#60;` : The `<` character.
-- `&gt` or `&#62;` : The `>` character.
-- `&amp;` or `&#38;` : The `&` character.
-- `&quot;` or `&#34;` : The `"` character.
-- `&apos;` or `&#39;` : The `'` character.
-- `&copy;` or `&#169;` : The `©` character.
-- `&deg;` or `&#176;` : The `°` character.
-- `&euro;` or `&#8364;` : The `€` character.
-- `&bullet;` or `&#8226;` : The `•` character.
+| Entity Name | 1st Form | 2nd Form | 3rd Form |
+| ------ | ------ | ------ | ------ |
+| Non-breaking space | `&nbsp;` | `&#160;` | `&#x000A0;` |
+| Less-than sign `<` | `&lt;` | `&#60;` | `&#x0003C;` |
+| Greater-than sign `>` | `&gt;` | `&#62;` | `&#x0003E;` |
+| Ampersand `&` | `&amp;` | `&#38;` | `&#x00026;` |
+| Quote `"` | `&quot;` | `&#34;` | `&#x00022;` |
+| Apostrophe | `&apos;` | `&#39;` | `&#x00027;` |
+| Copyright `©` | `&copy;` | `&#169;` | `&#169;` |
+| Degree `°` | `&deg;` | `&#176;` | `&#x000B0;` |
+| Euro `€` | `&euro;` | `&#8364;` | `&#x020AC;` |
+| Bullet character `•` | `&bullet;` | `&#8226;` | `&#x02022;` |
 
 More can be found in an [extensive HTML 5 entity reference](https://dev.w3.org/html5/html-author/charref).
 
