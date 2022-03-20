@@ -33,7 +33,7 @@ The second form references it by the decimal unicode number:
 The third represents it with the hexadecimal unicode number, often with leading zeros:
 
 ```pseudo
-&#xnumber
+&#xnumber;
 ```
 
 So the `©` entity can be represented as `&copy;`, `&#169` or `&#x000A9;`.
