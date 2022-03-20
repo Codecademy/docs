@@ -28,8 +28,6 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
 <p>You can copy text by pressing <kbd>CTRL</kbd> + <kbd>C</kbd>.</p>
 ```
 
-Result:
-
 ![Keyboard Tag Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/kdb-tag-example-1.png)
   
 ## Example 2
