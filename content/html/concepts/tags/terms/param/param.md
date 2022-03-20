@@ -22,3 +22,11 @@ The `<param>` tag is used within an [`<object>`](https://www.codecademy.com/reso
 ```html
 <param name="parameter name" value="parameter value" />
 ```
+
+## Example
+
+```html
+<object type="audio/x-wav" data="sound.wav">
+  <param name="autoplay" value="true" />
+</object>
+```
