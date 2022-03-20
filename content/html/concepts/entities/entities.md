@@ -36,7 +36,7 @@ The third represents it with the hexadecimal unicode number, often with leading 
 &#xnumber;
 ```
 
-So the `©` entity can be represented as `&copy;`, `&#169` or `&#x000A9;`.
+So the copyright entity (`©`) can be represented as `&copy;`, `&#169` or `&#x000A9;`.
 
 ## Entity Values
 
