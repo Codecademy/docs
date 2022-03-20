@@ -9,6 +9,7 @@ Tags:
   - 'Linux'
   - 'Developer Tools'
 CatalogContent:
+  - 'learn-the-command-line'
   - 'paths/computer-science'
 ---
 
