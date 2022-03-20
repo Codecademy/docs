@@ -24,6 +24,8 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
   
 ## Example 1
 
+Leaving out an external `<kbd>` wrapper element is value and will have no effect.
+  
 ```html
 <p>You can copy text by pressing <kbd>CTRL</kbd>+<kbd>C</kbd>.</p>
 ```
@@ -32,6 +34,8 @@ The `<kbd>` tag has no attributes. Text is placed in between the opening and clo
   
 ## Example 2
 
+However, nested `<kbd>` tags may be useful for certain stylesheet setups.
+  
 ```html
 <p>You can paste text by pressing <kbd><kbd>CTRL</kbd>+<kbd>V</kbd></kbd>.</p>
 ```
