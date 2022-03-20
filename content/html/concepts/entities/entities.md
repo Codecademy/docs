@@ -53,7 +53,7 @@ There are many, many HTML entities. The following are some common ones:
 - `&euro;` or `&#8364;` : The `€` character.
 - `&bullet;` or `&#8226;` : The `•` character.
 
-Here is a [extensive HTML 5 entity reference](https://dev.w3.org/html5/html-author/charref). Note that entity names are case sensitive.
+More can be found in an [extensive HTML 5 entity reference](https://dev.w3.org/html5/html-author/charref).
 
 ## The Tab Entity
 
