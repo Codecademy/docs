@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<object>` tag represents some resource external to the HTML document. This resource can be treated as an image, an embedded browsing context, or as content to be handled by a browser plugin.
 
-The `<object>` tag requires at least the `type` and `data` attributes specified. The `type` attribute tells the browser what MIME type of content is to be displayed, such as "application/pdf", "application/x-java-applet" or "audio/mp4". The `data` attribute contains the URL to the resource being used.
+The `<object>` tag requires at least the `type` and `data` attributes specified. The `type` attribute tells the browser what MIME type of content to be displayed, such as "application/pdf", "application/x-java-applet" or "audio/mp4". The `data` attribute contains the URL to the resource being used.
 
 An `<object>` element may contain zero or more [`<param>`](https://www.codecademy.com/resources/docs/html/tags/param) elements to pass parameters on to the resource it is displaying.
 
