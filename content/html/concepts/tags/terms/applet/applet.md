@@ -15,7 +15,6 @@ CatalogContent:
 
 The `<applet>` tag was used to embed Java applets into an HTML page. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). This tag should no longer be used as browsers no longer support it.
 
-
 ## Syntax
 
 ```html
