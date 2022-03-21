@@ -41,7 +41,6 @@ Depending on the specific needs, forward proxy servers come in the following for
 
 ## Reverse Proxy Servers
 
-Reverse proxy servers are used by people and organizations for managing incoming web traffic
-and housing data on multiple servers. With this server in place, all website requests are directed to a single proxy server that can then fetch the requested data and send it back to the computer.
+Reverse proxy servers are used by people and organizations for managing incoming web traffic and housing data on multiple servers. With this server in place, all website requests are directed to a single proxy server that can then fetch the requested data and send it back to the computer.
 
 In this setup, the reverse proxy server acts as a traffic cop to ensure that no website server is overloaded with requests. It also serves as a security buffer that prevents people from directly communicating with company servers.
