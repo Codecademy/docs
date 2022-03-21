@@ -27,7 +27,7 @@ The `float` property takes 3 different values. They are, `left`, `right`, and `n
   <div class="item_2">
     <p>This is the second item</p>
   </div>
-  <p>This example shows CSS floats.</p>
+  <p>This example shows CSS floats</p>
 </section>
 ```
 
