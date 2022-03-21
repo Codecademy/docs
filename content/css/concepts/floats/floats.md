@@ -62,7 +62,7 @@ In the above snipit the elements with the class `item_1` and `item_2` you can se
   float: right;
 }
 
-div {
+section > p {
   border: thick double black;
 }
 ```
