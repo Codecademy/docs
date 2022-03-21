@@ -1,6 +1,6 @@
 ---
 Title: '<applet>'
-Description: 'Depreciated tag that was used to embed Java applets in HTML documents. It is no longer supported.'
+Description: 'Used to embed Java applets in HTML documents but is no longer supported.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
