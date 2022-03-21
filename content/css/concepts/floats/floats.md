@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The float property moves an element to the left or right within its parent, outside of the default positioning.
+The `float` property moves an element to the left or right within its containing element, outside of the default [positioning](https://www.codecademy.com/resources/docs/css/position).
 
 ## Syntax
 
