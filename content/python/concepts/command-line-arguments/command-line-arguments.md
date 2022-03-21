@@ -18,8 +18,8 @@ Python offers several methods of parsing command line arguments that are used wh
 
 Arguments are passed differently depending on the operating system:
 
-- Unix-like arguments are a single letter preceeded by a dash (`-h`) or a word preceeded by two dashes (`--help`).
-- Windows arguments are a letter or a whole word preceeded by a slash (`/h` or `/help`).
+- Unix-like arguments are a single letter preceded by a dash (`-h`) or a word preceded by two dashes (`--help`).
+- Windows arguments are a letter or a whole word preceded by a slash (`/h` or `/help`).
 
 ## Parsing Command Line Arguments With `sys.argv`
 
