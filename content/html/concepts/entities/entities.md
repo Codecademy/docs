@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Entities are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using refrence numbers, an entity can represent any unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
+Entities are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.
 
 ## Syntax
 
