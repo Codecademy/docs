@@ -24,13 +24,13 @@ The first form references an entity by name:
 &name;
 ```
 
-The second form references it by the decimal unicode number:
+The second form references it by the decimal Unicode number:
 
 ```pseudo
 &#number;
 ```
 
-The third represents it with the hexadecimal unicode number, often with leading zeros:
+The third represents it with the hexadecimal Unicode number, often with leading zeros:
 
 ```pseudo
 &#xnumber;
