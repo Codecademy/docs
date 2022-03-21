@@ -44,3 +44,7 @@ This tag may contain zero or more [`<param>`](https://www.codecademy.com/resourc
   data="https://www.youtube.com/v/138enunVlfs"
 ></object>
 ```
+
+Looks like this:
+
+<object width="420" height="315" type="video/mp4" data="https://www.youtube.com/v/138enunVlfs"></object>
