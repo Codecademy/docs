@@ -63,8 +63,14 @@ In the above snipit the elements with the class `item_1` and `item_2` you can se
   float: right;
 }
 
-section > p {
+div {
   border: thick double black;
+}
+
+section > p {
+  margin: auto;
+  text-align: center;
+  width: 50%;
 }
 ```
 
