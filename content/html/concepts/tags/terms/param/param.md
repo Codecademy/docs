@@ -20,6 +20,11 @@ The `<param>` tag is used within an [`<object>`](https://www.codecademy.com/reso
 <param name="parameter name" value="parameter value" />
 ```
 
+The `<param>` tag uses two attributes:
+
+- A `name` for the parameter.
+- A `value` to specify the named parameter's value.
+
 ## Example
 
 ```html
