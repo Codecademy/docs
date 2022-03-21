@@ -41,4 +41,4 @@ The `float` property takes 3 different values. They are, `left`, `right`, and `n
 }
 ```
 
-The div with the class `item_1` will float to the left of the text `This example shows CSS floats.` And the div with the class `item_2` will float to the right of the text `This example shows CSS floats.`
+The `<div>` tags with the `.item_1` and `.item_2` classes will float to the left and right of the "CSS floats" text, respectively.
