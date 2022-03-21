@@ -27,6 +27,8 @@ The `<param>` tag uses two attributes:
 
 ## Example
 
+This example will play the "sound.wav" file as soon as the browser finishes loading the page.
+
 ```html
 <object type="audio/x-wav" data="sound.wav">
   <param name="autoplay" value="true" />
