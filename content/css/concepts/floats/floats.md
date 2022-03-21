@@ -39,17 +39,17 @@ The `float` property primarily uses the following three values:
 ## Example
 
 ```html
-  <section>
-  <div class="item_1">
-    <p>This is the first item and I will float left.</p>
-  </div>
-  <div class="item_2">
-    <p>This is the second item and I will float right</p>
-  </div>
-    <br>
-    <br>
-    <br>
-  <p>This example shows CSS floats and I wont float at all.</p>
+<section>
+<div class="item_1">
+  <p>This is the first item and I will float left.</p>
+</div>
+<div class="item_2">
+  <p>This is the second item and I will float right</p>
+</div>
+  <br>
+  <br>
+  <br>
+<p>This example shows CSS floats and I wont float at all.</p>
 ```
 
 In the above snipit the elements with the class `item_1` and `item_2` you can set the float in an external style sheet.
