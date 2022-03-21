@@ -18,25 +18,24 @@ The `map()` built-in function takes a function and applies it to every item in a
 
 ## Syntax
 
-```psuedo
+```pseudo
 map(func_name, iterable)
 ```
 
 The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable`, such as a list, contains the items the function will act on.
 
-## Example 1
+## Example
 
-Use `map()` to return the length of each string in the following list:
+The following example uses `map()` to return the length of each string in the list `some_strings`:
 
 ```py
 some_strings = ['learn', 'how', 'to', 'code', 'online']
 
 print(list(map(len, some_strings)))
-
 # Output: [5, 3, 2, 4, 6]
 ```
 
-## Example 2
+## Codebyte Example
 
 The `map()` function can be used to transform all the list items to integers:
 
