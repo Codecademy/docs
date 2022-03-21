@@ -27,7 +27,7 @@ Depending on the setup, use-cases for a single proxy server include the followin
 - It can serve as a common "exit point" for the client and the network to access the internet.
 - It can be an "entry point" for clients outside of the network to access multiple internal servers.
 
-Unlike VPNs, which offer a secure connection that is system-wide, proxy servers only offers privacy protection while web browsing.
+Unlike [VPNs](https://www.codecademy.com/resources/blog/what-is-a-vpn/), which offer a secure connection that is system-wide, proxy servers only offer privacy protection while web browsing.
 
 ## Forward Proxy Servers
 
