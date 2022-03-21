@@ -34,7 +34,7 @@ This prints the script name followed by a list of the command line arguments pas
 ```python
 import sys
 
-print(f"The program name used to lauch me is {sys.argv[0]}.")
+print(f"The program name used to launch me is {sys.argv[0]}.")
 print("I was passed the following arguments:")
 for arg in sys.argv[1:]:
   print(arg)
@@ -49,9 +49,29 @@ $ test.py --arg1 --arg2 "arg 3"
 It results in the following output:
 
 ```pseudo
-The program name used to lauch me is test.py.
+The program name used to launch me is test.py.
 I was passed the following arguments:
 --arg1
 --arg2
 arg 3
+```
+
+## Parsing Command Line Arguments With `getopt()` 
+
+Using `getopt()` requires importing both the `sys` and `getopt` modules to work. With `getopt`, parameter validation is added to command line parsing. This is done by passing a list of the command line arguments themselves, a string of short (one character) options, and a list of long (full word) options. To indicate that the option requires a value to be passed along with it, the short option is followed by a colon (`:`), and the long option is followed by an equals sign (`=`). So to set up options for "help","argument" and a "value" that requires an additionally passed value, the short options would be a string like this, `"hav:"` and the long options would be a list like this, `["help","argument","value="]`.
+
+### Syntax
+
+```python
+options, values = getopt.getopt(arguments,short_options,long_options)
+```
+
+Where the results of `getopt()` are `options` which is a list of option/value pairs, and `values` which is a list of arguments left after the option list was stripped. The parameters passed to `getopt()` are `arguments`, a list of the arguments as provided by `sys.argv` without the initial program name, the string `short_options` and the list `long_options` as described above.
+
+If `arguments` contains an option that is not in `short_options` or `long_options` then an `getopt.error` exception is thrown.
+
+### Example
+
+```python
+
 ```
