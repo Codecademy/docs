@@ -63,7 +63,7 @@ Using `getopt()` requires importing both the `sys` and `getopt` modules to work.
 ### Syntax
 
 ```python
-options, values = getopt.getopt(arguments,short_options,long_options)
+options, values = getopt.getopt(arguments, short_options, long_options)
 ```
 
 Where the results of `getopt()` are `options` which is a list of option/value pairs, and `values` which is a list of arguments left after the option list was stripped. The parameters passed to `getopt()` are `arguments`, a list of the arguments as provided by `sys.argv` without the initial program name, the string `short_options` and the list `long_options` as described above.
@@ -72,6 +72,32 @@ If `arguments` contains an option that is not in `short_options` or `long_option
 
 ### Example
 
-```python
+This prints the option/value pairs passed as command line arguments.
 
+```python
+import sys, getopt
+
+arguments = sys.argv[1:]
+short_options = "hav:"
+long_options = ["help","argument","value="]
+
+options, values = getopt.getopt(arguments, short_options, long_options)
+
+for o, v in options:
+  print(f"Option is {o}. Value is {v}.")
 ```
+
+If this is named **test.py** and is launched as follows:
+
+```bash
+$ test.py -a --value=test
+```
+
+It results in the following output:
+
+```pseudo
+Option is -a. Value is .
+Option is --value. Value is test.
+```
+
+Note that since `-a` wasn't defined as requiring a value passed to it, the corresponding value for the option is empty.
