@@ -21,7 +21,6 @@ The `float` property primarily uses the following three values:
 * The `right` value that makes the element float on the right of its container.
 * The `none` value that causes the element not to float.
 
-
 ```pseudo
 .item_x {
   float: none;
