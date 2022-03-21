@@ -43,7 +43,7 @@ public class Example{
       System.out.println(w);
     }
   }
-}  
+}
 ```
 
 This outputs the following:
@@ -70,7 +70,7 @@ public class Example{
       System.out.println(w);
     }
   }
-}  
+}
 ```
 
 This outputs the following:
