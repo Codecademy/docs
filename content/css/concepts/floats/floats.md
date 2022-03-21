@@ -17,9 +17,9 @@ The `float` property moves an element to the left or right within its containing
 
 The `float` property primarily uses the following three values:
 
-* The `left` value that makes the element float on the left of its container.
-* The `right` value that makes the element float on the right of its container.
-* The `none` value that causes the element not to float.
+- The `left` value that makes the element float on the left of its container.
+- The `right` value that makes the element float on the right of its container.
+- The `none` value that causes the element not to float.
 
 ```pseudo
 .item_x {
@@ -45,9 +45,9 @@ The `float` property primarily uses the following three values:
   <div class="item_2">
     <p>This is the second item and I will float right</p>
   </div>
-    <br>
-    <br>
-    <br>
+  <br />
+  <br />
+  <br />
   <p>This example shows CSS floats and I wont float at all.</p>
 </section>
 ```
