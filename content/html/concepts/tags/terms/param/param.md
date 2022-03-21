@@ -14,9 +14,6 @@ CatalogContent:
 
 The `<param>` tag is used within an [`<object>`](https://www.codecademy.com/resources/docs/html/tags/object) element to pass parameters to the resource it is displaying. It has two attributes:
 
-- `name` to specify the parameter's name.
-- `value` to specify the named parameter's value.
-
 ## Syntax
 
 ```html
