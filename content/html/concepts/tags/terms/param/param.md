@@ -1,6 +1,6 @@
 ---
 Title: '<param>'
-Description: 'Used to pass parameters to a resource defined in an object element.'
+Description: 'Used to pass parameters to a resource defined in an object tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
