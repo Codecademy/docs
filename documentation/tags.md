@@ -261,7 +261,6 @@ Types
 Type Guard
 Type Narrowing
 Typography
-UI
 Union
 Unicode
 Units
