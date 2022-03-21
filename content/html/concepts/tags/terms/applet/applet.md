@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<applet>` tag was used to embed Java applets into an HTML page. It has been depreciated and removed from the [HTML specification](https://html.spec.whatwg.org/) and should no longer be used. Most browsers no longer support this tag.
+The `<applet>` tag was used to embed Java applets into an HTML page. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). This tag should no longer be used as browsers no longer support it.
 
 
 ## Syntax
