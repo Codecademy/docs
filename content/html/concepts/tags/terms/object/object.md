@@ -1,6 +1,6 @@
 ---
 Title: '<object>'
-Description: 'Represents some resource external to the HTML document that can be treated as an image, a nested browsing context, or content to be handled by a browser plugin.'
+Description: 'Represents an external resource such as an image, a nested browsing context, or content to be handled by a browser plugin.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
