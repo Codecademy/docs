@@ -19,15 +19,21 @@ Many plugins are available to add to the many features built into Vim. Developer
 
 ## Features
 
-- Text completion
-- File comparison and merging
-- Search for regular expressions
-- Can perform complicated tasks using only commands
-- Open multiple tabs
-- Create macros
-- Save sessions
+This section describes some of the important features of the Vim editor.
+
+- It has text completion for faster editing.
+- It is able to compare differences between files and merge them.
+- It can search for regular expressions.
+- Users can perform complicated tasks using commands.
+- Users can open files in mulitple tabs.
+- Users can create macros of a sequence of commands. 
+- Users can save sessions to start where you left off last time.
 
 ## Launching Vim
+
+Vim can be run directly from the command line interface or from its GUI.
+
+The following command will open a file named `filename.txt` in the Vim editor. If `filename.txt` does not exist, it will be created. 
 
 ```bash
 vim filename.txt
@@ -35,4 +41,6 @@ vim filename.txt
 
 ## Vim Screenshot
 
-![Vim screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim.png)
+![Vim terminal screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-terminal.png)
+
+![Vim gui screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-gui.png)
