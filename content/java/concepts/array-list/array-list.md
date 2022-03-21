@@ -13,9 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ArrayList` class uses dynamic arrays for storing elements. Conceptually, it is like an array but with no size limit.
-
-Elements can be added or removed at any time. Therefore, instances of the `ArrayList` class are much more flexible than the traditional array. This class is found in the `java.util` package.
+The `ArrayList` class uses dynamic arrays that are resizable, unlike traditional fixed [arrays](https://www.codecademy.com/resources/docs/java/arrays). However, each element must still be of the same type. Elements can be added or removed at any time, making the `ArrayList` more flexible.
 
 Some other important points about the `ArrayList` class include:
 
@@ -27,11 +25,21 @@ Some other important points about the `ArrayList` class include:
 
 ## Syntax
 
+This class is imported with the `java.util` package.
+
 ```java
-ArrayList<String> arr = new ArrayList<String>();
+import java.util.ArrayList;
+```
+
+The syntax for defining an instance of `ArrayList` is similar to defining a traditional array. A key difference is that angle brackets `<>` are used instead of square brackets:
+
+```pseudo
+ArrayList<DataType> arrayListInstance = new ArrayList<DataType>();
 ```
 
 ## Example
+
+In the example below, a new `ArrayList` instance `arr` is defined. There are print statements throughout to show elements being added to and removed from `arr` before it is ultimately cleared:
 
 ```java
 // Import from the java.util package
@@ -41,20 +49,20 @@ public class Example {
   public static void main(String []args) {
     ArrayList<String> arr = new ArrayList<>();
 
-    System.out.println(arr);  // Prints an empty list
+    System.out.println(arr);  // Currently empty
 
     arr.add("hello");
     arr.add("India");
 
     System.out.println(arr);
 
-    arr.remove("hello");  // Removes element with "hello"
+    arr.remove("hello");
 
-    System.out.println(arr.size());  // Returns size of list
+    System.out.println(arr.size());  // Prints size of ArrayList
 
-    arr.clear();  // Removes all the elements from list
+    arr.clear();
 
-    System.out.println(arr);
+    System.out.println(arr); // Empty again
   }
 }
 ```
