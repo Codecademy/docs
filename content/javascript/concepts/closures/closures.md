@@ -43,7 +43,7 @@ This example describes the three primary scopes visible to closures:
 
 ## Codebyte Example
 
-Another common instance of JavaScript closures with with [callbacks](https://www.codecademy.com/resources/docs/javascript/callbacks).
+Another common instance of JavaScript closures is with [callbacks](https://www.codecademy.com/resources/docs/javascript/callbacks).
 
 In the example below, the `setInterval()` function creates a closure in the `count()` callback that captures the references to the global variables `myInterval` and `counter`. Each second, `counter` is incremented by one, with its value preserved from the previous call. After it gets to seven, `myInterval` is cleared and reset to `null`:
 
