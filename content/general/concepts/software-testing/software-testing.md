@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-software-testing/" />
 
-Software testing is the process of verifying and evaluating the functionality of a software application or product. It reduces and eliminates bugs as well as mitigates the long-term costs for a company in terms of any fixes and updates that would be needed.
+Software testing is the process of verifying and evaluating the functionality of a software application or product. It reduces and eliminates bugs, and mitigates the long-term costs for a company in terms of any fixes and updates that would be needed.
 
 ## Testing Types
 
