@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<param>` tag is used within an [`<object>`](https://www.codecademy.com/resources/docs/html/tags/object) element to pass parameters to the resource it is displaying. It has two attributes:
+The `<param>` tag is used within an [`<object>`](https://www.codecademy.com/resources/docs/html/tags/object) tag to pass parameters to the resource it is displaying.
 
 ## Syntax
 
