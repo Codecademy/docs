@@ -56,7 +56,7 @@ I was passed the following arguments:
 arg 3
 ```
 
-## Parsing Command Line Arguments With `getopt()` 
+## Parsing Command Line Arguments With `getopt()`
 
 Using `getopt()` requires importing both the `sys` and `getopt` modules to work. With `getopt`, parameter validation is added to command line parsing. This is done by passing a list of the command line arguments themselves, a string of short (one character) options, and a list of long (full word) options. To indicate that the option requires a value to be passed along with it, the short option is followed by a colon (`:`), and the long option is followed by an equals sign (`=`). So to set up options for "help","argument" and a "value" that requires an additionally passed value, the short options would be a string like this, `"hav:"` and the long options would be a list like this, `["help","argument","value="]`.
 
