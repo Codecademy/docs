@@ -32,7 +32,7 @@ There are several kinds of software testing with varying degrees of specificity,
 
 ## Testing Strategies
 
-There are also two specific techniques used to assess the stability and performance of software: black-box and white-box testing. Each offers a different perspective into how well the coding holds up.
+Two specific techniques are used to assess the stability and performance of software: black-box and white-box testing. Each offers a different perspective into how well the source code holds up.
 
 - Black-box testing involves testing software without looking inside — the coding, systems, and dependencies.
 - White-box testing aims to examine the structure within the application, or the inner workings of the app, as opposed to its overall functionality.
