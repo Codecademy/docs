@@ -35,7 +35,7 @@ Forward proxy servers are used to manage how a person or organization communicat
 
 Depending on the specific needs, forward proxy servers come in the following forms and configurations:
 
-- Transparency proxies are commonly used by institutions (schools, libraries, etc.) to enforce Acceptable Use Policies and cache content for improved performance.
+- Transparency proxies are commonly used by institutions (schools, libraries, etc.) to enforce acceptable use policies and cache content for improved performance.
 - An anonymous server uses its own IP address for web requests while identifying itself as a proxy (ideal for avoiding ads).
 - High anonymity proxies usually change their IP address after each request, maximizing privacy.
 
