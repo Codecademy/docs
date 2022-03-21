@@ -40,15 +40,10 @@ for arg in sys.argv[1:]:
   print(arg)
 ```
 
-If this is named **test.py** and is launched as follows:
+If this is named **test.py** it can be launched with the following result:
 
 ```bash
 $ test.py --arg1 --arg2 "arg 3"
-```
-
-It results in the following output:
-
-```pseudo
 The program name used to launch me is test.py.
 I was passed the following arguments:
 --arg1
@@ -87,15 +82,10 @@ for o, v in options:
   print(f"Option is {o}. Value is {v}.")
 ```
 
-If this is named **test.py** and is launched as follows:
+If this is named **test.py** it can be launched with the following results:
 
 ```bash
 $ test.py -a --value=test
-```
-
-It results in the following output:
-
-```pseudo
 Option is -a. Value is .
 Option is --value. Value is test.
 ```
