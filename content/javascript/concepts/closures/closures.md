@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Closures are [functions](https://www.codecademy.com/resources/docs/javascript/functions) that can refer to [variables](https://www.codecademy.com/resources/docs/javascript/variables) and other bindings beyond its scope, even after being called.
+Closures are [functions](https://www.codecademy.com/resources/docs/javascript/functions) that can refer to [variables](https://www.codecademy.com/resources/docs/javascript/variables) and other bindings beyond their scope, even after being called.
 
 ## Example
 
