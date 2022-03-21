@@ -40,7 +40,7 @@ So the copyright entity (`©`) can be represented as `&copy;`, `&#169` or `&#x00
 
 ## Entity Values
 
-There are many, many HTML entities. The following are some common ones:
+There are many HTML entities. The following are some common ones:
 
 | Entity Name           | 1st Form   | 2nd Form  | 3rd Form    |
 | --------------------- | ---------- | --------- | ----------- |
