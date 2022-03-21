@@ -38,7 +38,7 @@ Comments can also be placed anywhere inside another [element](https://www.codeca
 <p>Some text that <!-- This is a legal comment --> gets displayed</p>
 ```
 
-However, they cannot be placed inside the element tags themselves (e.g. between the left angle `<` and right angle bracket`>` of a tag).
+However, they cannot be placed inside the element tags themselves (e.g. between the left angle `<` and right angle bracket `>` of a tag).
 
 ```pseudo
 <p <!-- This is an illegal comment -->>Some more text.</p>
