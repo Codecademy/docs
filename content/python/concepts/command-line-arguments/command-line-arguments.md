@@ -101,3 +101,11 @@ Option is --value. Value is test.
 ```
 
 Note that since `-a` wasn't defined as requiring a value passed to it, the corresponding value for the option is empty.
+
+## Other Methods of Parsing the Command Line
+
+There are other methods of parsing command line arguments in Python, which add varying functionality to the task. Some examples include:
+
+- The `argparse` module that's been available since Python 3.2, validates fixed and optional arguments, and offers a default help message displaying the accepted arguments.
+- The `docopt` module, which is complex and versatile, providing its own language to describe command line options.
+- The `click` module, which provides arbitrary nesting of commands and automatic help page generation.
