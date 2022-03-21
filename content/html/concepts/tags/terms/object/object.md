@@ -21,7 +21,12 @@ The `<object>` tag represents some resource external to the HTML document. This 
 <object type="MIME type" data="URL of resource"></object>
 ```
 
-With a parameter:
+The `<object>` tag requires the following attributes to work properly:
+
+* A `type` attribute that tells the browser what content media (MIME) type will be displayed ("application/pdf", "application/x-java-applet", "audio/mp4", etc.)
+* A `data` attribute that contains the URL to the resource being used.
+
+This tag may contain zero or more [`<param>`](https://www.codecademy.com/resources/docs/html/tags/param) tags to pass parameters on to the resource it is displaying:
 
 ```html
 <object type="MIME type" data="URL of resource">
