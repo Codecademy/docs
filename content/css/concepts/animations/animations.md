@@ -29,7 +29,7 @@ To get an animation to work, the animation must be bound to an element and the `
     color: purple;
   }
   25% {
-    color: yellow;
+    color: orange;
   }
   50% {
     color: red;
