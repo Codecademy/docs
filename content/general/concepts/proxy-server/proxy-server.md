@@ -1,5 +1,5 @@
 ---
-Title: 'Proxy Servers'
+Title: 'Proxy Server'
 Description: 'Proxy servers are intermediary computers that allows a client to connect with a web server while maintaining privacy.'
 Subjects:
   - 'Computer Science'
