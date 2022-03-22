@@ -1,6 +1,6 @@
 ---
 Title: 'Vim'
-Description: 'Vim is a free, open source, and customizable text editor for Linux.'
+Description: 'Vim is a free, open source text editor that is customizable text and available on many operating systems.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
