@@ -41,7 +41,7 @@ The following command will open a file named `filename.txt` in the Vim editor. I
 vim filename.txt
 ```
 
-## Vim Screenshot
+## Vim GUI
 
 Vim is also available as a GUI application:
 
