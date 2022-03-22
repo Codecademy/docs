@@ -31,7 +31,9 @@ This section describes some of the important features of the Vim editor.
 
 ## Launching Vim
 
-Vim can be run directly from the command line interface or from its GUI.
+Vim can be launch directly from the terminal by running the `vim` command. The start screen will look like this:
+
+![Vim terminal screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-terminal.png)
 
 The following command will open a file named `filename.txt` in the Vim editor. If `filename.txt` does not exist, it will be created.
 
