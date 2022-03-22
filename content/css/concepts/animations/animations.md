@@ -18,7 +18,7 @@ To use CSS animation, some keyframes for the animation must be specified.
 
 ## `@keyframes` Rule
 
-Keyframes hold what CSS styles the element will have at certain times. When specifying styles inside the `@keyframes` rule, the animation will gradually change from the current styles to the new styles.
+Keyframes hold what CSS styles the element will have at certain times. When specifying styles inside the `@keyframes` rule, the animation will gradually change from the current style(s) to the new style(s).
 
 To get an animation to work, the animation must be bound to an element and the `animation-duration` should be defined. In this example code, the `<h1>` element will load as purple and gradually change to yellow over the course of 5 seconds.
 
