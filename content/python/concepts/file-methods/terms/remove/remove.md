@@ -26,10 +26,10 @@ Entire folders or directories can be removed using the [`.rmdir()`](https://www.
 
 ## Example
 
-Use `.remove()` to delete the **remove_me.txt** file:
+Use `.remove()` to delete the **my_file.txt** file:
 
 ```python
 import os
 
-os.remove("remove_me.txt")
+os.remove("my_file.txt")
 ```

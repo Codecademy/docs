@@ -26,10 +26,10 @@ Files can be removed using the [`.remove()`](https://www.codecademy.com/resource
 
 ## Example
 
-Use `.rmdir()` to delete the **removeme** folder:
+Use `.rmdir()` to delete the **myfolder** folder:
 
 ```python
 import os
 
-os.rmdir("removeme")
+os.rmdir("myfolder")
 ```
