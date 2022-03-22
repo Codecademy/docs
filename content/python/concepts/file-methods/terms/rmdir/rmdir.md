@@ -22,7 +22,7 @@ The Python `.rmdir()` method allows the user to delete a folder if it exists in 
 os.rmdir("foldername")
 ```
 
-Files can be removed using the [`.remove()](https://www.codecademy.com/resources/docs/python/file-methods/remove)` method.
+Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) method.
 
 ## Example
 
