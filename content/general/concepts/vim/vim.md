@@ -41,6 +41,6 @@ vim filename.txt
 
 ## Vim Screenshot
 
-![Vim terminal screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-terminal.png)
+Vim is also available as a GUI application:
 
 ![Vim gui screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-gui.png)
