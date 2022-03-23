@@ -52,7 +52,7 @@ The `float` property primarily uses the following three values:
 </section>
 ```
 
-In the above snipit the elements with the class `item_1` and `item_2` you can set the float in an external style sheet.
+In the above snippet, the elements with the class `item_1` and `item_2` can be set to float in an external style sheet.
 
 ```css
 .item_1 {
