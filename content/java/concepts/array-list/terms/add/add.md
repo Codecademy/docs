@@ -47,5 +47,5 @@ public class Students {
 The output from the snippet above would look like this:
 
 ```shell
-[Samantha, Tony]
+[John, Lily, Samantha, Tony]
 ```
