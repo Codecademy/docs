@@ -43,7 +43,7 @@ The `float` property primarily uses the following three values:
     <p>This is the first item and I will float left.</p>
   </div>
   <div class="item_2">
-    <p>This is the second item and I will float right</p>
+    <p>This is the second item and I will float right.</p>
   </div>
   <br />
   <br />
