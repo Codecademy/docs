@@ -19,7 +19,7 @@ Many plugins are available to add to the many features built into Vim. Developer
 
 ## Features
 
-This section describes some of the important features of the Vim editor.
+This section describes some important features of the Vim editor.
 
 - It has text completion for faster editing.
 - It is able to compare differences between files and merge them.
