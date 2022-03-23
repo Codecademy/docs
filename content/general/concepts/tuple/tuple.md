@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A tuple in computer science is a data structure consisting of an ordered collection of an arbitrary number of elements. A tuple of N elements is generally referred to as an N-tuple. Many computer languages implement a tuple as its own structure or object type. Such tuples are generally ordered collections of elements that are themselves different object types.
+A tuple in computer science is a data structure consisting of an ordered collection of an arbitrary number of elements. A tuple of N elements is generally referred to as an N-tuple. Many computer languages implement a tuple as its own structure or object type. 
 
 A tuple implementation in any programming language typically has the following characteristics:
 
