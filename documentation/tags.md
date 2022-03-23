@@ -181,8 +181,10 @@ NPM
 Numbers
 NumPy
 Objects
+Obsolete
 OOP
 Operators
+Optionals
 Output
 p5
 Packages
