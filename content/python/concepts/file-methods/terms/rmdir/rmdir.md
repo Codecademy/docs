@@ -36,5 +36,9 @@ Use `.rmdir()` to delete the **myfolder** folder:
 ```python
 import os
 
+# Delete folder in current directory
 os.rmdir("myfolder")
+
+# Delete folder in another directory
+os.rmdir("/path/to/myfolder")
 ```

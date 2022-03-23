@@ -36,5 +36,9 @@ Use `.remove()` to delete the **my_file.txt** file:
 ```python
 import os
 
+# Delete file in current directory
 os.remove("my_file.txt")
+
+# Delete file in another directory
+os.remove("path/to/my_file.txt")
 ```
