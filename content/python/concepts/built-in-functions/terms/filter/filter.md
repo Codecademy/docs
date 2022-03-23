@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `filter()` function returns a filter object that contains values filtered from an iterable where a function returns `True` for a given item's value.
+The `filter()` function returns a filter object that contains values from an iterable. If a function returns `True` for a given item's value, that value will be included in the returned object.
 
 ## Syntax
 
@@ -23,6 +23,8 @@ filter(func_name, iterable)
 ```
 
 The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on.
+
+In the examples below `list()` is applied to the filter expression to return a new list.
 
 ## Example
 

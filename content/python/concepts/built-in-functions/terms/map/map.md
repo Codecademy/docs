@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `map()` built-in function takes a function and applies it to every item in an iterable. The output of `map()` is a map object, in the examples below `list()` is applied to the map expression to return a new list.
+The `map()` built-in function accepts a function and applies it to every item in an iterable. It outputs a map object.
 
 ## Syntax
 
@@ -23,6 +23,8 @@ map(func_name, iterable)
 ```
 
 The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable`, such as a list, contains the items the function will act on.
+
+In the examples below `list()` is applied to the map expression to return a new list.
 
 ## Example
 
