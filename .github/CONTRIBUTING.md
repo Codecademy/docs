@@ -67,6 +67,10 @@ Here are some common issues and resolutions:
   - Ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory.
   - If that looks okay, running `yarn test` locally should let you know what the issue is.
 
+## Some checks are not running how do I fix this?
+
+This is just a glitch. Take away 1 character and add it back to force the checks to rerun and this will fix the problem.
+
 ## What do I need to do before creating new entries?
 
 Before creating new entries, poke around the [/content](https://github.com/Codecademy/docs/tree/main/content) folder. This is where all the content is stored.
