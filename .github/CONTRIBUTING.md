@@ -69,7 +69,7 @@ Here are some common issues and resolutions:
 
 ## Some checks are not running how do I fix this?
 
-This is just a glitch. Take away 1 character and add it back to force the checks to rerun and this will fix the problem.
+This is just a glitch. Take away 1 character and add it back to force the checks to rerun and this will fix the problem. Don't forget to give the checks a few minutes to run before doing this.
 
 ## What do I need to do before creating new entries?
 
