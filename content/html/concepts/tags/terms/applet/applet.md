@@ -42,6 +42,6 @@ The `<applet>` tag included zero or more [`<param>`](https://www.codecademy.com/
 <!-- This is no longer supported -->
 <applet code="myApplet.class" height="300" width="300">
   <param name="input" value="This is deprecated HTML" />
-  This browser dosen't support Java applets.
+  This browser doesn't support Java applets.
 </applet>
 ```
