@@ -5,7 +5,7 @@ Subjects:
   - 'Mobile Development'
   - 'Web Development'
 Tags:
-  - 'Accessibility`
+  - 'Accessibility'
   - 'Browsers'
   - 'Browser Compatibility'
   - 'Development'
