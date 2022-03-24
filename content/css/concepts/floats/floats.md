@@ -76,4 +76,4 @@ section > p {
 
 The `<div>` tags with the `.item_1` and `.item_2` classes will float to the left and right of the "CSS floats" text, respectively.
 
-![Image of rendered float elements](https://raw.githubusercontent.com/Codecademy/docs/Floats/media/css_float.png)
+![Image of rendered float elements](https://raw.githubusercontent.com/ethan-master-coding/docs/Floats/media/css_floats.png)
