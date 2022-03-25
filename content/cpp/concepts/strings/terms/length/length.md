@@ -22,7 +22,7 @@ stringName.length();
 
 ## Codebyte Example
 
-In the example below, `.length()` is called on the string variable, `snack`:
+In the example below, `.length()` is called on the `snack` string:
 
 ```codebyte/cpp
 #include <iostream>
