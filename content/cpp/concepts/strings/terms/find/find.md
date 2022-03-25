@@ -81,6 +81,8 @@ Output:
 18446744073709551615
 ```
 
+## Codebyte Example
+
 However, if the previous example is changed to search for the first two characters of `bad` instead, then a result is found:
 
 ```codebyte/cpp
