@@ -16,7 +16,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-react-native/" />
 
-[React Native](https://reactnative.dev/) is an open-source, mobile development framework that works across different operating systems like iOS and Android. It was released in 2015 by Facebook (now Meta) and can be used on many smart devices (like phones, personal computers, and TVs) to provide a consistent interface and user experience.
+[React Native](https://reactnative.dev/) is an open-source mobile development framework that works across different operating systems like iOS and Android. It was released in 2015 by Facebook (now Meta) and can be used on many smart devices, such as phones, personal computers, and TVs, to provide a consistent interface and user experience.
 
 Traditional mobile app development required multiple codebases for each operating system (iOS, Android, AppleTV, etc.) along with their associated programming languages ([Swift](https://www.codecademy.com/resources/docs/swift), [Java](https://www.codecademy.com/resources/docs/java), etc.). However, React Native provides a single codebase written in [React](https://www.codecademy.com/resources/docs/react)-based JavaScript and rendered in the device's native language.
 
