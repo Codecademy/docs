@@ -64,9 +64,9 @@ Output:
 18446744073709551615
 ```
 
-The output `18446744073709551615` represents `size::npos`. This means the sequence, `izz`, could not be found with the parameters given. `izz` is at index 1 which comes before the specified start position of `2`. Therefore, it is outside of the search range and is not found.
+The output `18446744073709551615` represents `string::npos`. This means the sequence, `izz`, could not be found with the parameters given. `izz` is at index 1 which comes before the specified start position of `2`. Therefore, it is outside of the search range and is not found.
 
-Searching for a sequence not in the string also returns `size::npos`. The following example searches for `bad` which is not in string `food`:
+Searching for a sequence not in the string also returns `string::npos`. The following example searches for `bad` which is not in string `food`:
 
 ```cpp
 #include <iostream>
