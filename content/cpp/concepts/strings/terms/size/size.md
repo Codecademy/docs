@@ -22,7 +22,7 @@ stringName.size();
 
 ## Codebyte Example
 
-In the example below, `.size()` is called on the string variable, `bird`:
+In the example below, `.size()` is called on the `bird` string:
 
 ```codebyte/cpp
 #include <iostream>
