@@ -22,9 +22,11 @@ The `.find()` method returns the index of the first occurrence of the specified 
 stringName.find(sequence, position, count)
 ```
 
-- sequence: the char or string to search for
-- position (optional): index to start search at (default: 0)
-- count (optional): the number of characters that must match (default: length of sequence)
+The following arguments are applied to the `.find()` method:
+
+- `sequence`: the char or string to be searched for.
+- `position` (optional): the index to start the search at at (defaults to 0).
+- `count` (optional): the number of characters that must match (defaults to the length of `sequence`).
 
 ## Example
 
