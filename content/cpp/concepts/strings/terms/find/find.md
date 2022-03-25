@@ -28,7 +28,7 @@ The following arguments are applied to the `.find()` method:
 - `position` (optional): the index to start the search at at (defaults to 0).
 - `count` (optional): the number of characters that must match (defaults to the length of `sequence`).
 
-## Example
+## Examples
 
 The following example searches for `izz` in the `food` string:
 
