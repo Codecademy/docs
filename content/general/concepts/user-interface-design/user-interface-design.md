@@ -16,7 +16,7 @@ CatalogContent:
 
 User interface (UI) design is the art and science of maximizing the usability of a digital product or service. With the advent of web applications, responsive design, and mobile development, UI design has grown into a field of its own.
 
-Overall, users have less and less tolerance for a text-heavy UI — especially on smaller devices. Poor UI leads to a poor user experience (UX), and many people flee at the sight of a poorly designed screen. As a result, many sites and apps invest a lot of time and effort into making their UI responsive with visually appealing and easy-to-use functions.
+Overall, users have less and less tolerance for a text-heavy UI, especially on smaller devices. Poor UI leads to a poor user experience (UX), and many people flee at the sight of a poorly designed screen. As a result, many sites and apps invest a lot of time and effort into making their UI responsive with visually appealing and easy-to-use functions.
 
 ## Design Rules
 
