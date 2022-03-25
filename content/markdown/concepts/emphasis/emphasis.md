@@ -49,7 +49,7 @@ This avacado egg sandwich is _very_ good.
 
 The output would be:
 
-This avacado egg sandwich is _very_ good.
+This avocado egg sandwich is _very_ good.
 
 ## Strikethrough
 
