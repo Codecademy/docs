@@ -43,12 +43,6 @@ int main(){
 }
 ```
 
-Output:
-
-```shell
-1
-```
-
 A starting index can also be specified:
 
 ```cpp
