@@ -39,7 +39,7 @@ This example describes the three primary scopes visible to closures:
 
 - `myGlobalString` exists in the global scope since it is not defined inside something else, like a function.
 - From the point-of-view of the `inner()` function, everything outside its scope (outer functions, the global environment, etc.) is in the lexical environment, including `myLexicalString` and `myGlobalString`.
-- Inside the `inner()` is a locally-bound variable, `myLocalString`, that uses all the variables from its lexical environment.
+- Inside the `inner()` function is a locally-bound variable, `myLocalString`, that uses all the variables from its lexical environment.
 
 ## Codebyte Example
 
