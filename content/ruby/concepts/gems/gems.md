@@ -17,7 +17,7 @@ In Ruby, gems are open-source Ruby libraries or applications that lend extra uti
 - Any documentation with metadata such as the name, version, and platform.
 - A **.gemspec** file holding all Gem-related metadata.
 
-Gems can be referenced, installed, and published from an online registry called [Rubygems.org](https://rubygems.org/).
+Gems can be referenced, installed, and published from an online registry called [RubyGems](https://rubygems.org/).
 
 To install gems to the local machine:
 
