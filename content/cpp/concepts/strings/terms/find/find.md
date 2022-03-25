@@ -75,7 +75,7 @@ int main(){
 }
 ```
 
-Output:
+The output for the snippet above would look like this:
 
 ```shell
 18446744073709551615
