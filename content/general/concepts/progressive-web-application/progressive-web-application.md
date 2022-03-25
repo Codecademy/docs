@@ -29,7 +29,7 @@ Rather than being a programming language or separate technology, PWAs are a coll
 
 - Discoverable: The app can be readily found on app stores and search engines.
 - Installability: The app can be installed as a "native-like app" on a device for later use on the browser.
-- Linkability: A unique link can be used to visit and share the app.
+- Linkable: A secure and unique link can be used to visit and share the app.
 - Network independence: The app use provides an offline experience with service workers and other web APIs.
 - Re-engageability: The app can update content when not in use and push notifications.
 - Responsive design: The app's user interface is consistent across all resolutions and screen sizes.
