@@ -44,7 +44,7 @@ _italic text_
 For example:
 
 ```markdown
-This avacado egg sandwich is _very_ good.
+This avocado egg sandwich is _very_ good.
 ```
 
 The output would be:
