@@ -21,7 +21,7 @@ CatalogContent:
 
 [Ruby on Rails](https://rubyonrails.org/), or "Rails", is an open-source server-side framework written in [Ruby](https://www.codecademy.com/resources/docs/ruby) and used for building web applications. Rails provides a pre-built, boilerplate code that can be reused or customized in an application.
 
-While popular with startups in particular, some well-known companies that use Rails include Airbnb, Basecamp, Github, Shopify, and Soundcloud.
+While particularly popular with startups, some well-known companies that use Rails include Airbnb, Basecamp, Github, Shopify, and SoundCloud.
 
 ## Installation
 
