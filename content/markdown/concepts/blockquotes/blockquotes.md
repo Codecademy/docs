@@ -67,7 +67,6 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 
 The output would be:
 
-```markdown
 > ### The quarterly results look great
 >
 > - Dogecoin was off the charts!
@@ -75,4 +74,3 @@ The output would be:
 > - $AMC to the moon!
 >
 >   _Everything_ is going according to **the plan**.
-```
