@@ -16,7 +16,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/" />
 
-A progressive web application (PWA) is a software that is built with common web technologies to provide a consistent, browser-based experience across multiple platforms like mobile and desktop. Browser-compatbility for PWAs is various but is generally supported in the following:
+A progressive web application (PWA) is software that is built with common web technologies to provide a consistent, browser-based experience across multiple platforms like mobile and desktop. Browser compatibility for PWAs is various but is generally supported in the following:
 
 - Google Chrome
 - Apple Safari
