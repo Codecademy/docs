@@ -1,6 +1,6 @@
 ---
 Title: 'Ruby'
-Description: 'Ruby is a dynamic, general-purpose programming language commonly used for Web Development.'
+Description: 'Ruby is a dynamic, general-purpose programming language commonly used for web development.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/ruby' # If codecademy.com doesn't have a hub page for this language, that's okay too. You can leave this field as `null`
 CatalogContent:
   - 'learn-ruby'
