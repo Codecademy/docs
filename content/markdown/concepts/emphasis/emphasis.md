@@ -23,23 +23,19 @@ To bold text, add two asterisks `**` or underscores `__` before and after a word
 **bold text**
 ```
 
-```markdown
-**bold text**
-```
-
 For example:
 
 ```markdown
 Please do **NOT** touch your pimples.
 ```
 
+Will render as:
+
+Please do **NOT** touch your pimples.
+
 ## Italic
 
 To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
-
-```markdown
-_italic text_
-```
 
 ```markdown
 _italic text_
@@ -50,6 +46,10 @@ For example:
 ```markdown
 This avacado egg sandwich is _very_ good.
 ```
+
+The output would be:
+
+This avacado egg sandwich is _very_ good.
 
 ## Strikethrough
 
@@ -65,6 +65,10 @@ For example:
 I did ~~not~~ build a website.
 ```
 
+The output would be:
+
+I did ~~not~~ build a website.
+
 ## Emphasis Combinations
 
 Different formatting options can be combined:
@@ -72,3 +76,7 @@ Different formatting options can be combined:
 ```markdown
 **This is in bold, _italics_, ~~and strikethrough~~**
 ```
+
+The output would be:
+
+**This is in bold, _italics_, ~~and strikethrough~~**
