@@ -37,8 +37,9 @@ The following example searches for `izz` in the `food` string:
 #include <string>
 
 int main(){
-    std::string food = "pizzabagle";
-    std::cout << food.find("izz");
+  std::string food = "pizzabagle";
+  std::cout << food.find("izz");
+  // Output: 1
 }
 ```
 
