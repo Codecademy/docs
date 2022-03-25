@@ -1,6 +1,6 @@
 ---
 Title: 'React Native'
-Description: 'React Native is an open-source, mobile development framework that works across different operating systems like iOS and Android.'
+Description: 'React Native is an open-source mobile development framework that works across different operating systems like iOS and Android.'
 Subjects:
   - 'Mobile Development'
   - 'Web Development'
