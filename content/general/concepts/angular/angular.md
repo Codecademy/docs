@@ -1,6 +1,6 @@
 ---
 Title: 'Angular'
-Description: 'Angular is a free,open-source framework used for building single-page applications.'
+Description: 'Angular is a free, open-source framework used for building single-page applications.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
