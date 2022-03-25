@@ -41,6 +41,6 @@ These frameworks are used for developing any softwares for the Web, including we
 
 These frameworks are used for building applications that be used on various mobile devices including phones, tablets, and wearables. A few common examples of mobile frameworks include:
 
-- Flutter, an open-source framework, supported on iOS and Android, and features customizable widgets.
+- [Flutter](https://flutter.dev/) is an open-source framework supported on iOS and Android and features customizable widgets.
 - [React Native](https://www.codecademy.com/resources/docs/general/react-native), a framework that is cross-platform and written in [JavaScript](https://www.codecademy.com/resources/docs/javascript).
 - NameScript, an JavaScript framework that features robust backend-end support.
