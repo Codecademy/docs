@@ -17,7 +17,7 @@ The `.size()` method finds the size of the string it is called on, in terms of b
 ## Syntax
 
 ```pseudo
-stringName.size()
+stringName.size();
 ```
 
 ## Codebyte Example
