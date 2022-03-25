@@ -20,4 +20,4 @@ This technique gets its name from the Latin word, "memorandum", that means "to b
 - Making calls to recursive or pure function where some calculations use the same inputs and return the same outputs.
 - Fetching from the server with the same base API endpoints.
 
-Memoization can be implemented in most programming languages, including [JavaScript](https://www.codecademy.com/resources/docs/javascript/memoization) and [Python](https://www.codecademy.com/resources/docs/python/memoization). However, while memoization saves performance time it comes with a cost in memory space since it is caching results that were already calculated.
+Memoization can be implemented in most programming languages, including [JavaScript](https://www.codecademy.com/resources/docs/javascript/memoization) and [Python](https://www.codecademy.com/resources/docs/python/memoization). However, while memoization saves performance time, it comes with a cost in memory space since it is caching results that were already calculated.
