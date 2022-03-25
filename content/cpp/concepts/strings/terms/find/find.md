@@ -30,7 +30,7 @@ The following arguments are applied to the `.find()` method:
 
 ## Example
 
-The following example searches for `izz` in string `food`:
+The following example searches for `izz` in the `food` string:
 
 ```cpp
 #include <iostream>
