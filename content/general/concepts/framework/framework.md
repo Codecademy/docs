@@ -43,4 +43,4 @@ These frameworks are used for building applications that can be used on various 
 
 - [Flutter](https://flutter.dev/) is an open-source framework supported on iOS and Android and features customizable widgets.
 - [React Native](https://www.codecademy.com/resources/docs/general/react-native), a framework that is cross-platform and written in [JavaScript](https://www.codecademy.com/resources/docs/javascript).
-- NameScript, an JavaScript framework that features robust backend-end support.
+- [NativeScript](https://nativescript.org/), an JavaScript framework that features robust backend-end support.

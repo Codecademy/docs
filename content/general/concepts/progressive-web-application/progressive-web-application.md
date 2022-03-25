@@ -28,9 +28,9 @@ A progressive web application (PWA) is software that is built with common web te
 Rather than being a programming language or separate technology, PWAs are a collection of key principles followed in every application, including:
 
 - Discoverable: The app can be readily found on app stores and search engines.
-- Installability: The app can be installed as a "native-like app" on a device for later use on the browser.
+- Installable: The app can be installed as a "native-like app" on a device for later use on the browser.
 - Linkable: A secure and unique link can be used to visit and share the app.
-- Network independence: The app use provides an offline experience with service workers and other web APIs.
-- Re-engageability: The app can update content when not in use and push notifications.
+- Network independence: The app provides an offline experience with service workers and other web APIs.
+- Re-engagement: The app can update content when not in use and push notifications to the user.
 - Responsive design: The app's user interface is consistent across all resolutions and screen sizes.
-- Security: The app uses HTTPS for safer browsing.
+- Secure: The app uses HTTPS for secure browsing.

@@ -1,6 +1,6 @@
 ---
 Title: 'Ruby on Rails'
-Description: 'Ruby on Rails is an open-source Ruby framework used for building web applications.'
+Description: 'Ruby on Rails is an open-source, server-side Ruby framework used for building web applications.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -32,7 +32,7 @@ Rails can be installed as a [Ruby gem](https://www.codecademy.com/resources/docs
 - [Node.js](https://www.codecademy.com/resources/docs/general/node-js) (version 8.16.0 or later) for running [JavaScript](https://www.codecademy.com/resources/docs/javascript) alongside Rails.
 - Yarn (version 1 or 2 are both fine) for installing and managing JavaScript packages.
 
-Help with installing these prerequisites can be found [here](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails).
+Help with installing these prerequisites can be found in ["Getting Started with Rails"](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails).
 
 Lastly, Rails can be installed with the following command:
 
