@@ -17,7 +17,7 @@ The `.length()` method finds the length of the string it is called on, in terms 
 ## Syntax
 
 ```pseudo
-stringName.length()
+stringName.length();
 ```
 
 ## Codebyte Example
