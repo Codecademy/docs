@@ -50,7 +50,7 @@ Rails uses a common structural pattern known as the Model-View-Controller (MVC) 
 
 ## Use Cases
 
-Ruby on Rails is used across many industries for building web apps and services. This includes applications like marketing websites, CMSs, eCommerce sites, and custom web applications. The duties for anyone working with Rails may include:
+Ruby on Rails is used across many industries for building web apps and services. This includes applications like marketing websites, Content Management Systems (CMSs), eCommerce sites, and custom web applications. Tasks for working with Rails may include:
 
 - Creating templates that generate web pages for the front end.
 - Writing web services that return JSON for JavaScript-based front-end applications.
