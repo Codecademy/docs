@@ -26,15 +26,15 @@ accessModifier class ClassName {
   dataType attributeN;
 
   static void classMethod {
-    // Method code here.
+    // Method code here
   }
 }
 ```
 
-- Class names must always be in "TitleCase" and match the name the filename (e.g. `ClassName.java`).
+- Class names must always be in "PascalCase" and match the name of the file (e.g. `ClassName.java`).
 - Java uses the `class` keyword for creating classes.
 - They use an `accessModifier` (`public`, `private`, and `protected`) to determine its visibility to other files.
-- Inside the class "blueprint" are members
+- Inside the class "blueprint" are members.
 
 ## Class Instances
 
