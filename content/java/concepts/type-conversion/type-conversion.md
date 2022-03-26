@@ -1,6 +1,6 @@
 ---
 Title: 'Type Conversion'
-Description: 'Type conversion is the process where a value of one data type is converted to a value of another data type.'
+Description: 'Type conversion is the process of converting a value of one data type into another data type.'
 Subjects:
   - 'Computer Science'
 Tags:
