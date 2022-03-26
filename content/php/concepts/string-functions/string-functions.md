@@ -14,6 +14,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-PHP has several built-in functions for text processing and the manipulation of strings. 
+PHP has several built-in functions for text processing and the manipulation of strings.
 
 A list of PHP string and text processing functions can be found in the table below:
