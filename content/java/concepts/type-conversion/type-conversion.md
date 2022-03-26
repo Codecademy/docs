@@ -48,7 +48,7 @@ y = (int)x; // y is now 15
 `String` values are not directly compatible with numeric values. However, Java provides `Number` subclasses for the primitive numeric types; `Byte`, `Integer`, `Double`, `Float`, `Long` and `Short`. Each of these provides a `.parseXXXX()` method that takes a string and provides the equivalent data type.
 
 ```java
-// Convert a string into a number using .parseXXXX
+// Convert a string into a number using .parseXXXX()
 String s = "15";
 // Convert a string into an integer.
 int x = Integer.parseInt(s); // x is now 15
