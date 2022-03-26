@@ -15,7 +15,7 @@ CatalogContent:
 
 The `state` object is where we store data in a component that is expected to change over time. When the `state` object changes, the component re-renders.
 
-Props are passed down by parent components, whereas state is created and maintained by the component itself.
+[Props](https://www.codecademy.com/resources/docs/react/props) are passed down by parent components, whereas state is created and maintained by the component itself.
 
 Class and functional components handle state differently. Functional components use [hooks](https://www.codecademy.com/resources/docs/react/hooks) to manage state. The following will address how class components manage state.
 
@@ -76,7 +76,7 @@ class Car extends React.Component {
 }
 ```
 
-It will look like:
+It will look like this:
 
 ```html
 <h1>My First Car</h1>
