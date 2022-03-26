@@ -48,5 +48,7 @@ print(list(filter(odds_test, nums)))
 ```codebyte/python
 some_strings = ['Learn','How', 'to', 'Code', 'Online']
 
-list(filter(lambda x: x.islower(), some_strings))
+filtered = list(filter(lambda x: x.islower(), some_strings))
+
+print(filtered)
 ```
