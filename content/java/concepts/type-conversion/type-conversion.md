@@ -71,7 +71,7 @@ String s = "" + i; // s now has the value "15"
 The `String.valueOf()` method can be used:
 
 ```java
-// Convert an integer to a string using the .valueOf method.
+// Convert an integer to a string using the .valueOf() method.
 int i = 15;
 String s = String.valueOf(i); // s now has the value "15"
 ```
