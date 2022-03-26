@@ -45,7 +45,7 @@ SerializeDict(test_dict)
 
 The output looks like this:
 
-```pseudo
+```shell
 Serializing input to JSON
 {"make": "Chevy", "model": "Silverado", "msrp": 15000, "options": ["4-wheel-drive", "Towing Package", "Heated Seats"], "year": 2019}
 ```
