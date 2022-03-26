@@ -1,6 +1,6 @@
 ---
 Title: 'Serialization/Deserialization'
-Description: 'Serialization is the process of translating a complex object into a string of characters that can be later deserialized back into a copy of the original object.'
+Description: 'Serialization is the process of translating a complex object into a format that can be later deserialized back into a copy of the original object.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
