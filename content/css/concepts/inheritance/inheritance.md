@@ -25,6 +25,7 @@ CSS inheritance is the cascading in CSS. Inheritance is when styles are applied 
 | [`color`](https://www.codecademy.com/resources/docs/css/colors) |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) |
 | All [Typograpgy](https://www.codecademy.com/resources/docs/css/typography) properties exept `text-decoration` and `text-overflow`. | 
+
 ## Non inherided propities
 
 <!-- prettier-ignore -->
