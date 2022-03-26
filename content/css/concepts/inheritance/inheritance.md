@@ -19,15 +19,16 @@ CSS inheritance is the cascading in CSS. Inheritance is when styles are applied 
 
 ## Inherided propities
 
-| Propity |
+<!-- prettier-ignore -->
+| Property |
 | --- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors) |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) |
 
-
 ## Non inherided propities
 
-| Propity |
+<!-- prettier-ignore -->
+| Property |
 | --- |
 | All [`background` properties](https://www.codecademy.com/resources/docs/css/background) |
 | [`border`](https://www.codecademy.com/resources/docs/css/borders) |
