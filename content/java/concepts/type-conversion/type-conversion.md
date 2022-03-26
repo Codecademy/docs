@@ -17,7 +17,7 @@ Type conversion is the process of converting a value of one [data type](https://
 
 ## Converting Between Numeric Types
 
-In certain situations, where the data types are compatible, Java can do type conversion automatically. This happens when a smaller data type (like `int`) is assigned to a variable of a longer data type (like `long`).
+In certain situations, where the data types are compatible, Java can do type conversion automatically. This happens when a smaller data type, like `int`, is assigned to a variable of a longer data type, like `long`.
 
 ```java
 // Automatic type conversion
