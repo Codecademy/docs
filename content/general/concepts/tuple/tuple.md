@@ -28,7 +28,7 @@ Some languages, such as [Python](https://www.codecademy.com/resources/docs/pytho
 
 ## Examples
 
-The following defines three different tuples in Python.
+The following defines three different tuples in Python:
 
 ```python
 a = (1, 2, 3)
