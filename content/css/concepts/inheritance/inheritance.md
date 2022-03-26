@@ -42,3 +42,4 @@ CSS inheritance is the cascading in CSS. Inheritance is when styles are applied 
 | All [`position` properties](https://www.codecademy.com/resources/docs/css/position) |
 | All [`sizing` properties](https://www.codecademy.com/resources/docs/css/sizing) |
 | All [`transition` properties](https://www.codecademy.com/resources/docs/css/transition) |
+| All [`transform` properties](https://www.codecademy.com/resources/docs/css/transform-functions) |
