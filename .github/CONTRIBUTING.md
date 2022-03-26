@@ -117,6 +117,14 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
+## How to keep a PR branch upto date
+
+To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
+
+![Image of where the `Fetch upstream` button is](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-tp-date-1.png)
+
+![Image of the `Fetch and merge` button is](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
+
 ## Additional Resources
 
 - [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
