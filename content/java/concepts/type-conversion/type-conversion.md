@@ -51,7 +51,7 @@ y = (int)x; // y is now 15
 // Convert a string into a number using .parseXXXX
 String s = "15";
 // Convert a string into an integer.
-int x = Integer.parseInteger(s); // x is now 15
+int x = Integer.parseInt(s); // x is now 15
 // Convert a string into a float.
 float y = Float.parseFloat(s); // y is now 15f
 ```
