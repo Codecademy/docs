@@ -68,7 +68,7 @@ class Car extends React.Component {
           It is a {this.state.color}
           {this.state.brand}
           {this.state.model}
-          from {this.state.year}. 🚙
+          made in {this.state.year}. 🚙
         </p>
       </div>
     );
@@ -81,9 +81,9 @@ It will look like this:
 ```html
 <h1>My First Car</h1>
 
-<p>It is a white Chevrolet Malibu from 1998. 🚙</p>
+<p>It is a white Chevrolet Malibu made in 1998. 🚙</p>
 ```
 
 ## Caution
 
-When you update a React component’s state, it will automatically re-render. That means you should never update the state in a `render()` method because it will cause an infinite loop.
+When React component’s state is updated, it will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
