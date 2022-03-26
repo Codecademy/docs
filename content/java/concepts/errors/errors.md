@@ -27,7 +27,7 @@ The `Exception` class refers to abnormal and unexpected events that disrupt the 
 - The `ArrayIndexOutOfBoundsException`, which occurs when attemptting to access an an index that does not exist within a given array.
 - The `FileNotFoundException`, which occurs when a file with the specified path cannot be found.
 - The `NumberFormatException`, which occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
-- The `NullPointerException`, which occurs when attempting to use a `null` value in a place where an object is required.
+- The `NullPointerException`, which occurs when attempting to use a `null` value in place of where an object is required.
 
 ## Example
 
