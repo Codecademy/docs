@@ -26,7 +26,7 @@ Where `$format` is a string value containing the format instructions and `$value
 
 ## Format Directive Syntax
 
-The format string is an ordinary string consisting of any arbitrary text containing one or more directives indicating how the values passed in the `sprintf()` function should be expressed within the format string. The format directive follows the following syntax:
+The format string is an ordinary string consisting of any arbitrary text containing one or more directives indicating how the values passed in the `sprintf()` function should be expressed within the format string. The format directives obey the following syntax:
 
 ```pseudo
 %[num$][flags][width][.precision]specifier
