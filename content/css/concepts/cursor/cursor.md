@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Style'
   - 'UI'
 CatalogContent:
   - 'learn-css'
