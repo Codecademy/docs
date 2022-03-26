@@ -79,7 +79,7 @@ String s = String.valueOf(i); // s now has the value "15"
 Also, each of the `Number` subclasses has a `.toString()` method that converts its associated primitive numeric type into a `String`:
 
 ```java
-// Convert an integer to a string using the .toString method.
+// Convert an integer to a string using the .toString() method.
 int i = 15;
 String s = Integer.toString(i); // s now has the value "15"
 ```
