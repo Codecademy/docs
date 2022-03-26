@@ -1,6 +1,6 @@
 ---
 Title: 'Tuple'
-Description: 'A tuple in computer science is a data structure consisting of an ordered collection of an arbitrary number of elements.'
+Description: 'A tuple is a data structure consisting of an ordered collection with an arbitrary number of elements.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
