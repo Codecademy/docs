@@ -32,19 +32,19 @@ If the primary `cursor_image` fails to load, an optional `fallback_cursor_image`
 
 These are some common keywords used to specify the type of cursor to display:
 
-| Keyword       | Example Cursor                                                                                                     | Description                                                  |
-| ------------- | :----------------------------------------------------------------------------------------------------------------:| ------------------------------------------------------------ |
+| Keyword       |                                                   Example Cursor                                                   | Description                                                  |
+| ------------- | :----------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------ |
 | auto          |                                                                                                                    | Detrmines the cursor to display based on context.            |
 | none          |                                                                                                                    | No cursor is displayed.                                      |
-| default       | ![Default Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-default.png)             | The default system cursor, usually an arrow.                 |
-| context-menu  | ![Context Menu Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-context-menu.png)   | Indicates a context menu is avalible.                        |
-| help          | ![Help Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-help.png)                   | Indicates help information is avalible.                      |
-| pointer       | ![Pointer Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-pointer.png)             | Indicates a link.                                            |
-| progress      | ![Progress Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-progress.png)           | System is busy in the background but interaction is allowed. |
-| wait          | ![Wait Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-wait.png)                   | System is busy and interaction is not allowed.               |
-| cell          | ![Cell Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-cell.png)                   | Indicates a table cell or cells can be selected.             |
-| crosshair     | ![Crosshair Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-crosshair.png)         | Used to mark selections in an image.                         |
-| text          | ![Text Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-text.png)                   | Used to indicate editable text.                              |
+| default       |       ![Default Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-default.png)       | The default system cursor, usually an arrow.                 |
+| context-menu  |  ![Context Menu Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-context-menu.png)  | Indicates a context menu is avalible.                        |
+| help          |          ![Help Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-help.png)          | Indicates help information is avalible.                      |
+| pointer       |       ![Pointer Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-pointer.png)       | Indicates a link.                                            |
+| progress      |      ![Progress Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-progress.png)      | System is busy in the background but interaction is allowed. |
+| wait          |          ![Wait Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-wait.png)          | System is busy and interaction is not allowed.               |
+| cell          |          ![Cell Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-cell.png)          | Indicates a table cell or cells can be selected.             |
+| crosshair     |     ![Crosshair Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-crosshair.png)     | Used to mark selections in an image.                         |
+| text          |          ![Text Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-text.png)          | Used to indicate editable text.                              |
 | vertical-text | ![Vertical Text Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-vertical-text.png) | Used to indicate editable vertical text.                     |
 
 ## Example
