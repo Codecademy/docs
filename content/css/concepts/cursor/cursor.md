@@ -42,7 +42,7 @@ cursor: keyword;
 It can also accept one or more URLs:
 
 ```pseudo
-cursor: url(cursor_image),url(fallback_cursor_image), keyword;
+cursor: url(cursor_image), url(fallback_cursor_image), keyword;
 ```
 
 Where `cursor_image` is the URL of the primary image for the cursor, `fallback_cursor_image` is optional. It is the URL to load if the prior image fails. There can be any number of fallback images. `keyword` is a mandatory cursor specifier in case all the image URLs fail to load.
