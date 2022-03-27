@@ -32,4 +32,4 @@ FROM contacts
 WHERE CONTAINS(names, 'Paul');
 ```
 
-In this example, we will search the `names` column for any matches to the name `Paul`. 
+In this example, we will search the `names` column for any matches to the name `Paul`.
