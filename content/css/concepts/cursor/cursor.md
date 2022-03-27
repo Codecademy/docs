@@ -49,6 +49,8 @@ If the primary `cursor_image` fails to load, an optional `fallback_cursor_image`
 
 ## Example
 
+In the example below, a `pointer` hand will appear whenever the cursor is hovered over the [paragraph](https://www.codecademy.com/resources/docs/html/paragraphs):
+
 ```html
 <p style="cursor: pointer;">The cursor is pointing at this paragraph!</p>
 ```
