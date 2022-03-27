@@ -86,7 +86,7 @@ list, of, words
 
 # Example 3
 
-This example shows the diffrence between a negative limit and a limit of zero.
+This example shows the difference between a negative limit and a limit of zero.
 
 ```java
 public class Example{
