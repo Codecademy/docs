@@ -45,7 +45,7 @@ It can also accept one or more URLs:
 cursor: url(cursor_image), url(fallback_cursor_image), keyword;
 ```
 
-Where `cursor_image` is the URL of the primary image for the cursor, `fallback_cursor_image` is optional. It is the URL to load if the prior image fails. There can be any number of fallback images. `keyword` is a mandatory cursor specifier in case all the image URLs fail to load.
+If the primary `cursor_image` fails to load, an optional `fallback_cursor_image` can be applied instead. However, in case all the image URLs fail to load, the mandatory `keyword` will be used as a last resort.
 
 ## Example
 
