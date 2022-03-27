@@ -33,7 +33,7 @@ vertical-text|![Vertical Text Cursor](https://raw.githubusercontent.com/Codecade
 
 ## Syntax
 
-Without a URL:
+The `cursor` property can be set a specific `keyword` value:
 
 ```pseudo
 cursor: keyword;
