@@ -30,7 +30,7 @@ The optional `limit` parameter is an integer, and has the following behavior:
 - `limit` < 0: `.split()` will match as many times as possible, resulting in an array of any size.
 - `limit` = 0: `.split()` is the same as `limit` < 0 except that trailing empty strings will be discarded.
 
-## Example
+## Example 1
 
 The following uses the regular expression "\s+" which matches one or more whitespace characters.
 
