@@ -1,6 +1,6 @@
 ---
-Title: 'ClassFormatError'
-Description: 'Occurs when a class file cannot be read or interpreted.'
+Title: 'IncompatibleClassChangeError'
+Description: 'Occurs when a base class is altered after a child class has already been initialized.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,4 +14,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ClassFormatError` is an [error](https://www.codecademy.com/resources/docs/general/error) that occurs when a class file cannot be read or interpreted.
+The `IncompatibleClassChangeError` is an [error](https://www.codecademy.com/resources/docs/general/error) that occurs when a base class is altered after a child class has already been initialized.
