@@ -39,7 +39,7 @@ The `cursor` property can be set a specific `keyword` value:
 cursor: keyword;
 ```
 
-With one or more URLs:
+It can also accept one or more URLs:
 
 ```pseudo
 cursor: url(cursor_image),url(fallback_cursor_image), keyword;
