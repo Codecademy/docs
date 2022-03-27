@@ -14,7 +14,7 @@ CatalogContent:
 
 The `.split()` method takes a string and splits it into an array of substrings based on a pattern delimiter. The pattern provided is a regular expression that will split the original string based on where the pattern is matched in the string.
 
-The method will throw a `PatternSyntaxException` for an pattern that's an invalid regular expression.
+The method will throw a `PatternSyntaxException` for a pattern that's an invalid regular expression.
 
 ## Syntax
 
