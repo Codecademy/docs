@@ -14,20 +14,20 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, situations where things might go wrong in the program are predominantly handled by the following subclasses of the `java.lang.Throwable` class: `Error` and `Exception`.
+In Java, situations where [things might go wrong in the program](https://www.codecademy.com/resources/docs/general/error) are predominantly handled by the following subclasses of the `java.lang.Throwable` class: `Error` and `Exception`.
 
 The `Error` class represents illegal operations that cause serious abnormalities in the program and are not recommended to `catch`. Some examples include:
 
-- The `ClassFormatError`, which occurs when a class file cannot be read or interpreted.
-- The `IncompatibleClassChangeError`, which occurs when a base class is altered after a child class has already been initialized.
-- The `NoClassDefFoundError`, which occurs when the file with the class containing the `main()` method cannot be found.
+- The [`ClassFormatError`](https://www.codecademy.com/resources/docs/general/error/classformaterror), which occurs when a class file cannot be read or interpreted.
+- The [`IncompatibleClassChangeError`](https://www.codecademy.com/resources/docs/general/error/incompatableclasschangeerror), which occurs when a base class is altered after a child class has already been initialized.
+- The [`NoClassDefFoundError`](https://www.codecademy.com/resources/docs/general/error/noclassdeffounderror), which occurs when the file with the class containing the `main()` method cannot be found.
 
 The `Exception` class refers to abnormal and unexpected events that disrupt the flow of the program but can be reasonably handled by a `catch`-statement. Some examples include:
 
-- The `ArrayIndexOutOfBoundsException`, which occurs when attemptting to access an an index that does not exist within a given array.
-- The `FileNotFoundException`, which occurs when a file with the specified path cannot be found.
-- The `NumberFormatException`, which occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
-- The `NullPointerException`, which occurs when attempting to use a `null` value in place of where an object is required.
+- The [`ArrayIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/general/error/arrayindexoutofboundsexception), which occurs when attemptting to access an an index that does not exist within a given array.
+- The [`FileNotFoundException`](https://www.codecademy.com/resources/docs/general/error/filenotfoundexception), which occurs when a file with the specified path cannot be found.
+- The [`NumberFormatException`](https://www.codecademy.com/resources/docs/general/error/numberformatexception), which occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
+- The [`NullPointerException`](https://www.codecademy.com/resources/docs/general/error/nullpointerexception), which occurs when attempting to use a `null` value in place of where an object is required.
 
 ## Example
 
