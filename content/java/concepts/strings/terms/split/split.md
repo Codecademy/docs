@@ -83,3 +83,26 @@ comma
 delimited
 list, of, words
 ```
+
+# Example 3
+
+This example shows the diffrence between a negative limit and a limit of zero.
+
+```java
+public class Example{
+  public static void main(String args[]){
+    String words = "This,string,has,extra,commas,,,,";
+    String[] result1 = words.split(",",-2); // Split on each comma.
+    String[] result2 = words.split(",",0); // Split on each comma, but discard trailing empty strings.
+    System.out.println("Limit of -2 produces an array of length " + result1.length);
+    System.out.println("Limit of 0 produces an array of length " + result2.length);
+  }
+}
+```
+
+This outputs the following:
+
+```pseudo
+Limit of -2 produces an array of length 9
+Limit of 0 produces an array of length 5
+```
