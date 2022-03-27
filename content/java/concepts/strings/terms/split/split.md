@@ -84,7 +84,7 @@ delimited
 list, of, words
 ```
 
-# Example 3
+## Example 3
 
 This example shows the difference between a negative limit and a limit of zero.
 
