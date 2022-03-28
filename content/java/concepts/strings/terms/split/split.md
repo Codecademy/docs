@@ -102,7 +102,7 @@ public class Example{
 
 This outputs the following:
 
-```pseudo
+```shell
 Limit of -2 produces an array of length 9
 Limit of 0 produces an array of length 5
 ```
