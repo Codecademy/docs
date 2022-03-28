@@ -46,4 +46,4 @@ CSS inheritance is the cascading in CSS. Inheritance is when styles are applied 
 | All [`transition` properties](https://www.codecademy.com/resources/docs/css/transition) |
 | All [`transform` properties](https://www.codecademy.com/resources/docs/css/transform-functions/transform) |
 | [`text-decoration`](https://www.codecademy.com/resources/docs/css/typography/text-decoration) |
-| [`text-overflow`](https://www.codecademy.com/resources/docs/css/typography/text-overflow)) |
+| [`text-overflow`](https://www.codecademy.com/resources/docs/css/typography/text-overflow) |
