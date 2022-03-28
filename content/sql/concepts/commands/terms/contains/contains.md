@@ -16,7 +16,7 @@ CatalogContent:
 
 CONTAINS() is a predicate used to search for matches to words or phrases in a column.
 
-## Code Example
+## Syntax
 
 `CONTAINS()` takes two arguements. A column, and the word/phrase to search for.
 
