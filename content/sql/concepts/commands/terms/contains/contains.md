@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-CONTAINS() is a predicate used to search for matches to words or phrases in a column.
+In SQL, CONTAINS is a predicate used to search for matches to words or phrases in a column.
 
 ## Syntax
 
