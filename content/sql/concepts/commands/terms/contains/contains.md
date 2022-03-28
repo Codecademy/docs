@@ -26,6 +26,8 @@ FROM table_name
 WHERE CONTAINS(column_name, 'word');
 ```
 
+## Example
+
 ```sql
 SELECT *
 FROM contacts
