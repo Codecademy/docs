@@ -48,7 +48,7 @@ public class Example{
 
 This outputs the following:
 
-```pseudo
+```shell
 This
 is
 a
