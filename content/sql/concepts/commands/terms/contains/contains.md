@@ -27,7 +27,7 @@ WHERE CONTAINS(column_name, 'word');
 ```
 
 ```sql
-SELECT names
+SELECT *
 FROM contacts
 WHERE CONTAINS(names, 'Paul');
 ```
