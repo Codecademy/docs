@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-In SQL, CONTAINS is a predicate used to search for matches to words or phrases in a column. Unlike LIKE, CONTAINS performs full-text searches only on indexed columns, resulting in faster performance. 
+In SQL, CONTAINS is a predicate used to search for matches to words or phrases in a column. Unlike LIKE, CONTAINS performs full-text searches only on indexed columns, resulting in faster performance.
 
 ## Syntax
 
