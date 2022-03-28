@@ -29,7 +29,7 @@ WHERE CONTAINS(column_name, 'word');
 ```sql
 SELECT *
 FROM contacts
-WHERE CONTAINS(names, 'Paul');
+WHERE CONTAINS(first_name, 'Paul');
 ```
 
 In this example, we will search the `names` column for any matches to the name `Paul`.
