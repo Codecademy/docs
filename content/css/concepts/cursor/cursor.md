@@ -34,7 +34,7 @@ These are some common keywords used to specify the type of cursor to display:
 
 | Keyword       |                                                   Example Cursor                                                   | Description                                                  |
 | ------------- | :----------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------ |
-| auto          |                                                                                                                    | Detrmines the cursor to display based on context.            |
+| auto          |                                                                                                                    | Determines the cursor to display based on context.            |
 | none          |                                                                                                                    | No cursor is displayed.                                      |
 | default       |       ![Default Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-default.png)       | The default system cursor, usually an arrow.                 |
 | context-menu  |  ![Context Menu Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-context-menu.png)  | Indicates a context menu is avalible.                        |
