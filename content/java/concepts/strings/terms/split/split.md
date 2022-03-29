@@ -19,7 +19,7 @@ The method will throw a `PatternSyntaxException` for a pattern that is an invali
 ## Syntax
 
 ```java
-String[] result = string.split(delimiter,limit);
+String[] result = string.split(delimiter, limit);
 ```
 
 Where `string` is the string to be split, and `delimiter` is a string containing a regular expression pattern.
