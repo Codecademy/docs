@@ -23,7 +23,7 @@ Arguments are passed differently depending on the operating system:
 
 ## Parsing Command Line Arguments With `sys.argv`
 
-The `sys` module offers the most straightforward method of accessing command line arguments, but it also requires the programmer to do most of the work interpreting them. With the `sys` module the arguments are passed along in a simple list structure named `sys.argv`.
+The `sys` module offers the most straightforward method of accessing command line arguments, but it also requires the programmer to do most of the work interpreting them. With the `sys` module, the arguments are passed along in a simple list structure named `sys.argv`.
 
 The first item in the list, `sys.argv[0]` is the name used to launch the Python program, along with the path used. Each subsequent item is a space-delimited argument from the command line used to launch the program. If an argument requires embedded spaces, it needs to be enclosed in quotes to be parsed correctly.
 
