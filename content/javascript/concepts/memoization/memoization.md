@@ -17,7 +17,7 @@ In JavaScript, [memoization](https://www.codecademy.com/resources/docs/general/m
 
 This is ideal whenever the same calculations (with the same inputs and outputs) are known to take place. Memoization helps by saving, or caching, these results in computer memory for later use. It can be applied to many contexts, including:
 
-- Making calls to recursive or pure function where some calculations use the same inputs and return the same outputs.
+- Making calls to recursive or pure functions where some calculations use the same inputs and return the same outputs.
 - Fetching from the server with the same base API endpoints.
 
 ## Syntax
