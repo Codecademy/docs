@@ -1,6 +1,6 @@
 ---
 Title: 'State'
-Description: 'The state object is where we store data in a component that is expected to change over time. When the state object changes, the component re-renders. Props are passed down by parent components, whereas state is created and maintained by the component itself. The state object is initialized in the components constructor(): js class Car extends React.Component { constructor(props) { super(props);'
+Description: 'The state object holds data in a component that is expected to change over time. It is created and maintained by the component itself, and when it changes, the component re-renders.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -15,7 +15,9 @@ CatalogContent:
 
 The `state` object is where we store data in a component that is expected to change over time. When the `state` object changes, the component re-renders.
 
-Props are passed down by parent components, whereas state is created and maintained by the component itself.
+[Props](https://www.codecademy.com/resources/docs/react/props) are passed down by parent components, whereas state is created and maintained by the component itself.
+
+Class and functional components handle state differently. Functional components use [hooks](https://www.codecademy.com/resources/docs/react/hooks) to manage state. The following will address how class components manage state.
 
 ## Creating the `state` Object
 
@@ -66,7 +68,7 @@ class Car extends React.Component {
           It is a {this.state.color}
           {this.state.brand}
           {this.state.model}
-          from {this.state.year}. 🚙
+          made in {this.state.year}. 🚙
         </p>
       </div>
     );
@@ -74,12 +76,14 @@ class Car extends React.Component {
 }
 ```
 
-It will look like:
+It will look like this:
 
-## My First Car
+```html
+<h1>My First Car</h1>
 
-It is a white Chevrolet Malibu from 1998. 🚙
+<p>It is a white Chevrolet Malibu made in 1998. 🚙</p>
+```
 
 ## Caution
 
-When you update a React component’s state, it will automatically re-render. That means you should never update the state in a `render()` method because it will cause an infinite loop.
+When React component’s state is updated, it will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
