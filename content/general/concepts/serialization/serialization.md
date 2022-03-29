@@ -18,7 +18,7 @@ Serialization is the process of translating a complex object into a format, typi
 
 Common formats for serialization include XML and JSON, which have the advantage of being human-readable. However, that is not a requirement, and in some cases, serialization uses other formats such as binary which aren't human-readable. Regardless of the format, the purpose of serialization is that at a later point in time, the serialized data can be read or processed as input and be deserialized back into a copy of the original object.
 
-When programming languages implement serialization, they often require special declarations in defined classes to make their associated objects serializable, and often require special libraries to implement this functionality.
+When programming languages implement serialization, they often require special declarations in defined classes to make their associated objects serializable and often require special libraries to implement this functionality.
 
 ## Example
 
