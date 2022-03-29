@@ -76,7 +76,7 @@ class Car extends React.Component {
 }
 ```
 
-It will look like this:
+It will appear like this:
 
 ![React State Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/react-state-example.png)
 
