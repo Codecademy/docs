@@ -64,8 +64,8 @@ This example uses the pattern ",\s\*" which matches a comma followed by zero or 
 ```java
 public class Example{
   public static void main(String args[]){
-    String words = "This, is,  a, comma,delimited,  list, of, words";
-    String[] result = words.split(",\\s*",6); // splits words on matching commas followed by arbitrary whitespace.
+    String words = "This, is, a, comma,delimited, list, of, words";
+    String[] result = words.split(",\\s*",6); // Splits words on matching commas followed by arbitrary whitespace.
     for(String w:result){
       System.out.println(w);
     }
