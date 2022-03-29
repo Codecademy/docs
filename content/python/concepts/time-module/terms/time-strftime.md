@@ -1,7 +1,6 @@
 ---
 Title: 'time.strftime()'
 Description: 'Returns a time as a string based on one or more formatting codes.'
-
 Subjects:
   - 'Computer Science'
   - 'Data Science'

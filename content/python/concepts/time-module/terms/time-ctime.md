@@ -1,7 +1,6 @@
 ---
 Title: 'time.ctime()'
 Description: 'Returns a time expressed in seconds (since the epoch) to a string format.'
-
 Subjects:
   - 'Computer Science'
   - 'Data Science'

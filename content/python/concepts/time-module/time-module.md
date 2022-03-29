@@ -1,7 +1,6 @@
 ---
 Title: 'Time Module'
 Description: 'Python has a built-in time module that we can use for assorted time functions. The following functions are provided by this module.'
-
 Subjects:
   - 'Computer Science'
   - 'Data Science'
