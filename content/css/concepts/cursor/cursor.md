@@ -37,8 +37,8 @@ These are some common keywords used to specify the type of cursor to display:
 | auto          |                                                                                                                    | Determines the cursor to display based on context.           |
 | none          |                                                                                                                    | No cursor is displayed.                                      |
 | default       |       ![Default Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-default.png)       | The default system cursor, usually an arrow.                 |
-| context-menu  |  ![Context Menu Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-context-menu.png)  | Indicates a context menu is available.                        |
-| help          |          ![Help Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-help.png)          | Indicates help information is available.                      |
+| context-menu  |  ![Context Menu Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-context-menu.png)  | Indicates a context menu is available.                       |
+| help          |          ![Help Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-help.png)          | Indicates help information is available.                     |
 | pointer       |       ![Pointer Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-pointer.png)       | Indicates a link.                                            |
 | progress      |      ![Progress Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-progress.png)      | System is busy in the background but interaction is allowed. |
 | wait          |          ![Wait Cursor](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-cursor-wait.png)          | System is busy and interaction is not allowed.               |
