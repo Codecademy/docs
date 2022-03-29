@@ -1,5 +1,5 @@
 ---
-Title: 'Serialization/Deserialization'
+Title: 'Serialization'
 Description: 'Serialization is the process of translating a complex object into a format that can be deserialized back into a copy of the original object.'
 Subjects:
   - 'Computer Science'
