@@ -38,7 +38,7 @@ The following uses the regular expression "\s+" which matches one or more whites
 public class Example{
   public static void main(String args[]){
     String words = "This  is  a    string    of  words.";
-    String[] result = words.split("\\s+"); // splits words on matching sequences of whitespace.
+    String[] result = words.split("\\s+"); // Splits words on matching sequences of whitespace.
     for(String w:result){
       System.out.println(w);
     }
