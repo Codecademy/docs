@@ -5,12 +5,14 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Assert'
+  - 'Debugging'
+  - 'Development'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-'A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code and debug.'
+A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code and debug.
 
 ## Syntax
 
@@ -18,7 +20,7 @@ CatalogContent:
 assert some_condition, assert_message
 ```
 
-The `assert` keyword is followed by the statement containing the condition to be tested, such as validating a data type or membership within a given container, etc. An optional message can be added that will be printed when the assertion error is raised.
+The `assert` keyword is followed by the statement containing the condition to be tested, such as validating a data type or membership within a given container. An optional message can be added that will be printed when the assertion error is raised.
 
 ## Example
 

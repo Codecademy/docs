@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-'A function that returns the data type of an object.'
+A function that returns the data type of an object.
 
 ## Syntax
 
@@ -27,7 +27,7 @@ The `type()` function can be used to confirm the data type of the object `spam`:
 spam = 10
 
 print(type(spam))
-#Output: str
+#Output: int
 ```
 
 ## Codebyte Example
