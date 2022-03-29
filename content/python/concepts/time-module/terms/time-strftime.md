@@ -23,9 +23,9 @@ Returns a time as a string based on one or more formatting codes.
 strftime(formatting_exp, time_value)
 ```
 
-The argument `formatting_exp` is the combination of formatting codes to be applied to the time input. The `time_value` is the time to be formatted. If no argument is provided the function will return the current local time as formatted by the given expression. 
+The argument `formatting_exp` is the combination of formatting codes to be applied to the time input. The `time_value` is the time to be formatted. If no argument is provided the function will return the current local time as formatted by the given expression.
 
-## Example 
+## Example
 
 The `strftime()` function can be used to translate a time to display the associated date:
 
@@ -33,10 +33,10 @@ The `strftime()` function can be used to translate a time to display the associa
 import time
 
 print(time.strftime('%x,time.ctime(1648501804)))
-# Output: 03/28/22 
+# Output: 03/28/22
 ```
 
-## Codebyte Example 
+## Codebyte Example
 
 The `strftime()` function can be used to return the current local time as the day and time formatted using a 12 hour clock format.
 
