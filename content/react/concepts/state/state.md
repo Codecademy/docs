@@ -78,11 +78,7 @@ class Car extends React.Component {
 
 It will look like this:
 
-```html
-<h1>My First Car</h1>
-
-<p>It is a white Chevrolet Malibu made in 1998. 🚙</p>
-```
+![React State Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/react-state-example.png)
 
 ## Caution
 
