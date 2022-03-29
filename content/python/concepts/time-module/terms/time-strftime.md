@@ -25,6 +25,12 @@ strftime(formatting_exp, time_value)
 
 The argument `formatting_exp` is the combination of formatting codes to be applied to the time input. The `time_value` is the time to be formatted. If no argument is provided the function will return the current local time as formatted by the given expression.
 
+A few common codes are:
+
+- %a - Day name abbreviation (Mon)
+- %d - Day of month in two decimal format (28)
+- %Y - Year in four decimal format (2020)
+
 ## Example
 
 The `strftime()` function can be used to translate a time to display the associated date:
