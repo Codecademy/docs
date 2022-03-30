@@ -22,6 +22,8 @@ The Python `.unlink()` file method allows the user to delete a file path if it e
 os.unlink("file_path")
 ```
 
+Entire folders or directories can be removed using the [`.rmdir()`](https://www.codecademy.com/resources/docs/python/file-methods/rmdir) method.
+
 ## Example
 
 Use `.unlink()` to delete the **my_file.txt** file:
