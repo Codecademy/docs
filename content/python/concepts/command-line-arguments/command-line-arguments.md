@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Python offers several methods of parsing command line arguments that are used when launching a program. The user has the option of passing various parameters to the program by adding them after the program name. These parameters can be accessed through various modules. The parameter names are left up to the programmer, though by convention the parameter `-h` or `--help` (and `/h` and `/help` in Windows) is reserved to print a help message to the console listing the various command line options recognized by the program.
+Python offers several methods of parsing command line arguments that are used when launching a program. The user has the option of passing various parameters to the program by adding them after the program name. These parameters can be accessed through various modules. The parameter names are left up to the programmer. By convention the parameter `-h` or `--help` (and `/h` and `/help` in Windows) is reserved to print a help message to the console listing the various command line options recognized by the program.
 
 Arguments are passed differently depending on the operating system:
 
