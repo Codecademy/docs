@@ -90,7 +90,7 @@ Option is -a. Value is .
 Option is --value. Value is test.
 ```
 
-Note that since `-a` wasn't defined as requiring a value passed to it, the corresponding value for the option is empty.
+**Note**: Since `-a` wasn't defined as requiring a value passed to it, the corresponding value for the option is empty.
 
 ## Other Methods of Parsing the Command Line
 
