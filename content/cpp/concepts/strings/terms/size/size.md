@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.size()` method finds the size of the string it is called on, in terms of bytes. The [`.length()`](https://www.codecademy.com/resources/docs/python/strings/length) method functions in the same way and can be used in place of `.size()`.
+The `.size()` method returns the size of a given string in terms of bytes. It functions just like the [`.length()`](https://www.codecademy.com/resources/docs/python/strings/length) method, but `.size()` is there to follow the consistency of other standard library containers (e.g., maps and [vectors](https://www.codecademy.com/resources/docs/cpp/vectors)).
 
 ## Syntax
 
