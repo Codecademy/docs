@@ -16,19 +16,7 @@ CatalogContent:
 
 Hypertext Transfer Protocol (HTTP) is used for fetching [HTML](https://www.codecademy.com/resources/docs/html) documents and other Web-based resources. It follows a model where a client (most commonly a browser) requests content stored somewhere on a server.
 
-## Caches and Proxies
-
-HTTP can be used for improving web performance with [caches](https://www.codecademy.com/resources/docs/general/cache) and [proxy servers](https://www.codecademy.com/resources/docs/general/proxy-server).
-
-Client browsers can use caches for serving content instead of making repeated requests for the same content. Examples of caches include:
-
-- [CDNs](https://www.codecademy.com/resources/docs/general/cdn) that retain copies of web content and serve from close network connections.
-- Proxy browser caches, like ones used in [progressive web apps](https://www.codecademy.com/resources/docs/general/progressive-web-application) that allow a single user to cache and access content offline.
-- Shared proxy caches that store resources for multiple users (internet service provider, company staff network, etc.).
-
-Proxies are used to mask a client's IP address by assigning one to a proxy server and have requests sent from there.
-
-## HTTPS
+## HTTP/HTTPS
 
 Instead of HTTP, a more secure version, HTTPS, should be used in order to encrypt information sent between the client and server. This encryption is done with Transport Layer Security (or TLS, formerly [SSL](https://www.codecademy.com/resources/docs/general/ssl)). Some benifits of HTTPS include:
 
@@ -64,13 +52,13 @@ An HTTP client requests information specific URLs using four primary methods:
 If the server is able to connect with the client and fullfill its request, it will send back a response that includes the following parts:
 
 - The version of HTTP being used.
-- A status code with a message explaining why the request succeeded or failed.
 - Headers similar to the ones used for HTTP requests.
 - A body that contains the successfully requested resource.
+- A status code with a message explaining why the request succeeded or failed.
 
 A breakdown of response status codes is shown below.
 
-### Information
+### Status Codes
 
 | Status Code | Name       | Description                                                      |
 | ----------- | ---------- | ---------------------------------------------------------------- |
@@ -105,3 +93,15 @@ A breakdown of response status codes is shown below.
 | ----------- | --------------------- | ----------------------------------------------- |
 | 500         | Internal Server Error | Error occurred on the server-side.              |
 | 502         | Bad Gateway           | Invalid resonse from a gateway or proxy server. |
+
+## Caches and Proxies
+
+HTTP can be used for improving web performance with [caches](https://www.codecademy.com/resources/docs/general/cache) and [proxy servers](https://www.codecademy.com/resources/docs/general/proxy-server).
+
+Client browsers can use caches for serving content instead of making repeated requests for the same content. Examples of caches include:
+
+- [CDNs](https://www.codecademy.com/resources/docs/general/cdn) that retain copies of web content and serve from close network connections.
+- Proxy browser caches, like ones used in [progressive web apps](https://www.codecademy.com/resources/docs/general/progressive-web-application) that allow a single user to cache and access content offline.
+- Shared proxy caches that store resources for multiple users (internet service provider, company staff network, etc.).
+
+Proxies are used to mask a client's IP address by assigning one to a proxy server and have requests sent from there.
