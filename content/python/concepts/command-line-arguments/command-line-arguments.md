@@ -96,6 +96,6 @@ Option is --value. Value is test.
 
 There are other methods of parsing command line arguments in Python, which add varying functionality to the task. Some examples include:
 
-- The `argparse` module that's been available since Python 3.2, validates fixed and optional arguments and offers a default help message displaying the accepted arguments.
+- The `argparse` module, that's been available since Python 3.2, validates fixed and optional arguments and offers a default help message displaying the accepted arguments.
 - The `docopt` module, which is complex and versatile, provides its own language to describe command line options.
 - The `click` module provides arbitrary nesting of commands and automatic help page generation.
