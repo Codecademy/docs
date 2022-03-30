@@ -16,6 +16,8 @@ CatalogContent:
 
 The Python `.rmdir()` method allows the user to delete a folder if it exists in the system or computer and does not contain other folders or files. This method is provided by the `os` module which must be imported beforehand.
 
+**Note**  A `FileNotFoundError` is raised if the directory is not found or isn't in the current directory.
+
 ## Syntax
 
 ```pseudo
@@ -25,7 +27,7 @@ os.rmdir("folder_path")
 ```
 
 - A folder that is passed into `.rmdir()` will be successfully deleted if it exists in the current directory.
-- A folder's path can also be passed into `.rmdir()` if it doesn't exist in the current directory.
+- A folder's path can also be passed into `.rmdir()` if it's outside the current directory.
 
 Files can be removed using the [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) method.
 
