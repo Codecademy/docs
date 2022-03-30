@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.length()` method finds the length of the string it is called on, in terms of bytes. This is the same functionality as the [`.size()`](https://www.codecademy.com/resources/docs/python/strings/size) method.
+The `.length()` method returns the length of the given string in terms of bytes. It functions exactly like the [.size()](https://www.codecademy.com/resources/docs/python/strings/size) method but follows a more intuitive terminology, i.e., "the length of a string" rather than "the size of a string." However, both methods yield the same results.
 
 ## Syntax
 
