@@ -14,4 +14,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ArrayIndexOutOfBoundsException` is an [exception](https://www.codecademy.com/resources/docs/general/error) that occurs when attemptting to access an an index that does not exist within a given array.
+The `ArrayIndexOutOfBoundsException` is an [exception](https://www.codecademy.com/resources/docs/general/error) that occurs when attempting to access an index that does not exist within a given array.
