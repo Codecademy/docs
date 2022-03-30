@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Input'
   - 'Arguments'
-  - 'Bash\Shell'
+  - 'Bash/Shell'
   - 'Command Line'
 CatalogContent:
   - 'learn-python-3'
