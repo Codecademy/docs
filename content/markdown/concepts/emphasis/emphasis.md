@@ -24,7 +24,7 @@ To bold text, add two asterisks `**` or underscores `__` before and after a word
 ```
 
 ```markdown
-__bold text__
+**bold text**
 ```
 
 For example:
@@ -32,6 +32,7 @@ For example:
 ```markdown
 Please do **NOT** touch your pimples.
 ```
+
 > Please do **NOT** touch your pimples.
 
 ## Italic
@@ -43,7 +44,7 @@ _italic text_
 ```
 
 ```markdown
-*italic text*
+_italic text_
 ```
 
 For example:
@@ -51,6 +52,7 @@ For example:
 ```markdown
 This avocado egg sandwich is _very_ good.
 ```
+
 > This avocado egg sandwich is _very_ good.
 
 ## Strikethrough
@@ -66,6 +68,7 @@ For example:
 ```markdown
 I did ~~not~~ build a website.
 ```
+
 > I did ~~not~~ build a website.
 
 ## Emphasis Combinations
@@ -75,4 +78,5 @@ Different formatting options can be combined:
 ```markdown
 **This is in bold, _italics_, ~~and strikethrough~~**
 ```
+
 > **This is in bold, _italics_, ~~and strikethrough~~**
