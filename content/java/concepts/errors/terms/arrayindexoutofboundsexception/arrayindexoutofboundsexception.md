@@ -1,6 +1,6 @@
 ---
 Title: 'ArrayIndexOutOfBoundsException'
-Description: 'Occurs when attemptting to access an an index that does not exist within a given array.'
+Description: 'Occurs when attempting to access an index that does not exist within a given array.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
