@@ -24,7 +24,7 @@ Typically, a tuple implementation in any programming language has the following 
 - Its elements are iterable.
 - Instances are not equal unless they consist of the same members in the same order. (i.e. (1,2,3) <> (3,2,1))
 
-Some languages, such as [Python](https://www.codecademy.com/resources/docs/python), have built-in support for tuples, while other languages, such as [Java](https://www.codecademy.com/resources/docs/java), don't have built-in support for tuples and need to define a class, or import a special library to implement them.
+Some languages, such as [Python](https://www.codecademy.com/resources/docs/python/tuples), have built-in support for tuples, while other languages, such as [Java](https://www.codecademy.com/resources/docs/java), don't have built-in support for tuples and need to define a class, or import a special library to implement them.
 
 ## Examples
 
