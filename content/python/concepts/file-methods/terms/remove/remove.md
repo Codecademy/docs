@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Python `.remove()` file method allows the user to delete a file if it exists in the system or computer. This method is provided by the `os` module which must be imported beforehand.
+The Python `.remove()` file method allows the user to delete a file if it exists in the system or computer. This method is provided by the `os` module which must be imported beforehand. [`.unlink()`](https://www.codecademy.com/resources/docs/python/file-methods/unlink) is an alternative to delete a file.
 
 **Note**: A `FileNotFoundError` is raised if the file is not found or isn't in the current directory.
 
@@ -26,7 +26,7 @@ os.remove("file_name.file_type")
 os.remove("file_path")
 ```
 
-- A file that is passed into `.remove()` will be successfully deleted if it exists in the current directory.
+- A file string argument that is passed into `.remove()` will be successfully deleted if it exists in the current directory.
 - A file's path can also be passed into `.remove()` if it's outside the current directory.
 
 Entire folders or directories can be removed using the [`.rmdir()`](https://www.codecademy.com/resources/docs/python/file-methods/rmdir) method.
