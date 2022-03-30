@@ -24,10 +24,10 @@ The `Error` class represents illegal operations that cause serious abnormalities
 
 The `Exception` class refers to abnormal and unexpected events that disrupt the flow of the program but can be reasonably handled by a `catch`-statement. Some examples include:
 
-- The [`ArrayIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/general/error/arrayindexoutofboundsexception), which occurs when attemptting to access an an index that does not exist within a given array.
-- The [`FileNotFoundException`](https://www.codecademy.com/resources/docs/general/error/filenotfoundexception), which occurs when a file with the specified path cannot be found.
-- The [`NumberFormatException`](https://www.codecademy.com/resources/docs/general/error/numberformatexception), which occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
-- The [`NullPointerException`](https://www.codecademy.com/resources/docs/general/error/nullpointerexception), which occurs when attempting to use a `null` value in place of where an object is required.
+- The [`ArrayIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/general/error/arrayindexoutofboundsexception) occurs when attempting to access an index that does not exist within a given array.
+- The [`FileNotFoundException`](https://www.codecademy.com/resources/docs/general/error/filenotfoundexception) occurs when a file with the specified path cannot be found.
+- The [`NumberFormatException`](https://www.codecademy.com/resources/docs/general/error/numberformatexception) occurs when an attempt is made to convert a string to a numeric type and the string contains non-numeric characters.
+- The [`NullPointerException`](https://www.codecademy.com/resources/docs/general/error/nullpointerexception) occurs when attempting to use a `null` value in place of where an object is required.
 
 ## Example
 
