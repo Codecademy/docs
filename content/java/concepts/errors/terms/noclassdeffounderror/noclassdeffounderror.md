@@ -1,6 +1,6 @@
 ---
 Title: 'NoClassDefFoundError'
-Description: 'Occurs when the file with the class containing the `main()` method cannot be found.'
+Description: 'Occurs when the file with the class containing the main method cannot be found.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
