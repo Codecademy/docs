@@ -20,7 +20,7 @@ Typically, a tuple implementation in any programming language has the following 
 - It can contain any data or object type in any combination.
 - It allows duplicate entries.
 - It has a specified order.
-- It is immutable and cannot have its elements change once it is defined.
+- It is immutable and cannot have its elements changed once it is defined.
 - Its elements are iterable.
 - Instances are not equal unless they consist of the same members in the same order. (i.e. (1,2,3) <> (3,2,1))
 
