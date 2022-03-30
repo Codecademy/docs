@@ -18,9 +18,9 @@ In Java, situations where [things might go wrong in the program](https://www.cod
 
 The `Error` class represents illegal operations that cause serious abnormalities in the program and are not recommended to `catch`. Some examples include the following:
 
-- The [`ClassFormatError`](https://www.codecademy.com/resources/docs/general/error/classformaterror), which occurs when a class file cannot be read or interpreted.
-- The [`IncompatibleClassChangeError`](https://www.codecademy.com/resources/docs/general/error/incompatableclasschangeerror), which occurs when a base class is altered after a child class has already been initialized.
-- The [`NoClassDefFoundError`](https://www.codecademy.com/resources/docs/general/error/noclassdeffounderror), which occurs when the file with the class containing the `main()` method cannot be found.
+- The [`ClassFormatError`](https://www.codecademy.com/resources/docs/general/error/classformaterror) occurs when a class file cannot be read or interpreted.
+- The [`IncompatibleClassChangeError`](https://www.codecademy.com/resources/docs/general/error/incompatableclasschangeerror) occurs when a base class is altered after a child class has already been initialized.
+- The [`NoClassDefFoundError`](https://www.codecademy.com/resources/docs/general/error/noclassdeffounderror) occurs when the file with the class containing the `main()` method cannot be found.
 
 The `Exception` class refers to abnormal and unexpected events that disrupt the flow of the program but can be reasonably handled by a `catch`-statement. Some examples include:
 
