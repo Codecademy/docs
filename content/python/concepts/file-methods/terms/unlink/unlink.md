@@ -19,8 +19,6 @@ The Python `.unlink()` file method allows the user to delete a file path if it e
 ## Syntax
 
 ```pseudo
-os.unlink("file_name.file_type")
-
 os.unlink("file_path")
 ```
 
