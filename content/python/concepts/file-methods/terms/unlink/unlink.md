@@ -29,7 +29,6 @@ Use `.unlink()` to delete the **my_file.txt** file:
 ```python
 import os
 
-os.unlink("my_file.txt")
-
+# Delete file path
 os.unlink("path/to/my_file.txt")
 ```
