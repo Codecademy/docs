@@ -49,7 +49,7 @@ An HTTP client requests information specific URLs using four primary methods:
 
 ## Responses
 
-If the server is able to connect with the client and fullfill its request, it will send back a response that includes the following parts:
+If the server is able to connect with the client and fulfill its request, it will send back a response that includes the following parts:
 
 - The version of HTTP being used.
 - Headers similar to the ones used for HTTP requests.
