@@ -16,6 +16,8 @@ CatalogContent:
 
 In Java, situations where [things might go wrong in the program](https://www.codecademy.com/resources/docs/general/error) are predominantly handled by the following subclasses of the `java.lang.Throwable` class: `Error` and `Exception`.
 
+## Errors
+
 The `Error` class represents illegal operations that cause serious abnormalities in the program and are not recommended to `catch`. Some examples include the following:
 
 - The [`ClassFormatError`](https://www.codecademy.com/resources/docs/general/error/classformaterror) occurs when a class file cannot be read or interpreted.
