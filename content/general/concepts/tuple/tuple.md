@@ -30,7 +30,7 @@ Some languages, such as [Python](https://www.codecademy.com/resources/docs/pytho
 
 The following defines three different tuples in Python:
 
-```python
+```py
 a = (1, 2, 3)
 b = ('x', 23, [0,6,15])
 c = (a, b)
