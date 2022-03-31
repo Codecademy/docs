@@ -39,7 +39,7 @@ Files can be removed using the [`.remove()`](https://www.codecademy.com/resource
 
 Use `.rmdir()` to delete the **myfolder** folder:
 
-```python
+```py
 import os
 
 # Delete folder in current directory
