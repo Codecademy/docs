@@ -14,11 +14,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Python `.rmdir()` method allows the user to delete a folder if it exists in the system or computer and does not contain other folders or files. This method is provided by the `os` module which must be imported beforehand.
+The Python `.rmdir()` method allows the user to delete a folder if it exists in the system or computer and does not contain other folders or files.
 
-**Note**: A `FileNotFoundError` is raised if the directory is not found or isn't in the current directory.
+**Note**: A `FileNotFoundError` is raised if the directory is not found.
 
 ## Syntax
+
+This method is provided by the `os` module which must be imported beforehand.
 
 ```pseudo
 os.rmdir("folder_name")
