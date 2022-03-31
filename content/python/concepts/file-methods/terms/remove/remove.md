@@ -28,7 +28,7 @@ os.remove("file_name.file_type")
 os.remove("file_path")
 ```
 
-The `.remove()` works in the following ways:
+The `.remove()` method works in the following ways:
 
 - If the file exists in the current directory, a string argument for the file (written as `"file_name.file_type"`) can be used to successfully delete it.
 - A `"file_path"` can also be passed if a file exists outside the current directory.
