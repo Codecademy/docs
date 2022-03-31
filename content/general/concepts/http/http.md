@@ -18,7 +18,7 @@ Hypertext Transfer Protocol (HTTP) is used for fetching [HTML](https://www.codec
 
 ## HTTP/HTTPS
 
-Instead of HTTP, a more secure version, HTTPS, should be used in order to encrypt information sent between the client and server. This encryption is done with Transport Layer Security (or TLS, formerly [SSL](https://www.codecademy.com/resources/docs/general/ssl)). Some benifits of HTTPS include:
+Instead of HTTP, a more secure version, HTTPS, should be used in order to encrypt information sent between the client and server. This encryption is done with Transport Layer Security (or TLS, formerly [SSL](https://www.codecademy.com/resources/docs/general/ssl)). Some benefits of HTTPS include:
 
 - Financial data, like credit card information or bank account numbers, are protected from interception.
 - Domain-ownership can be better verified by users.
