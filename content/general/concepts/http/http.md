@@ -84,7 +84,7 @@ A breakdown of response status codes is shown below.
 | Status Code | Name         | Description                                                             |
 | ----------- | ------------ | ----------------------------------------------------------------------- |
 | 400         | Bad Request  | Invalid request based on client-side error (invalid syntax, URL, etc.). |
-| 401         | Unauthorized | Invalid client creditials, such as an API key.                          |
+| 401         | Unauthorized | Invalid client credentials, such as an API key.                          |
 | 404         | Not Found    | Server couldn't find resource (e.g. invalid URL).                       |
 
 ### Server Errors
