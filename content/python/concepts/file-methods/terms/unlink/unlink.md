@@ -1,6 +1,6 @@
 ---
 Title: '.unlink()'
-Description: 'Allows the user to delete a file path.'
+Description: 'Allows the user to delete a file path if it exists.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'

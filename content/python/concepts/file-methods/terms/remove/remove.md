@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Allows the user to delete a file.'
+Description: 'Allows the user to delete a file if it exists.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -26,16 +26,18 @@ os.remove("file_name.file_type")
 os.remove("file_path")
 ```
 
-- A file string argument that is passed into `.remove()` will be successfully deleted if it exists in the current directory.
-- A file's path can also be passed into `.remove()` if it's outside the current directory.
+The `.remove()` works in the following ways:
+
+- If the file exists in the current directory, a string argument for the file (written as `"file_name.file_type"`) can be used to successfully delete it.
+- A `"file_path"` can also be passed if a file exists outside the current directory.
 
 Entire folders or directories can be removed using the [`.rmdir()`](https://www.codecademy.com/resources/docs/python/file-methods/rmdir) method.
 
 ## Example
 
-Use `.remove()` to delete the **my_file.txt** file:
+In the example below, the `.remove()` method is used to delete the **my_file.txt** file:
 
-```python
+```py
 import os
 
 # Delete file in current directory
