@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Hypertext Transfer Protocol (HTTP) is used for fetching [HTML](https://www.codecademy.com/resources/docs/html) documents and other Web-based resources. It follows a model where a client (most commonly a browser) requests content stored somewhere on a server.
+Hypertext Transfer Protocol (HTTP) is used for fetching [HTML](https://www.codecademy.com/resources/docs/html) documents and other web-based resources. It follows a model where a client (most commonly a browser) requests content stored on a server.
 
 ## HTTP/HTTPS
 
