@@ -1,6 +1,6 @@
 ---
 Title: 'HTTP'
-Description: 'HTTP is used for fetching HTML documents and other Web-based resources.'
+Description: 'HTTP is used for fetching HTML documents and other web-based resources.'
 Subjects:
   - 'Code Foundations'
   - 'Web Development'
@@ -23,6 +23,8 @@ Instead of HTTP, a more secure version, HTTPS, should be used in order to encryp
 - Financial data, like credit card information or bank account numbers, are protected from interception.
 - Domain-ownership can be better verified by users.
 - A growing standard of trust around sites that use HTTPS.
+
+Websites can be [certified](https://https.cio.gov/certificates/#does-the-us-government-operate-a-publicly-trusted-certificate-authority) with HTTPS so that browsers "know" the official site for a person, business, etc. These certifications are approved and signed by a trusted certificate authority (CA).
 
 ## Requests
 
@@ -84,14 +86,14 @@ A breakdown of response status codes is shown below.
 | Status Code | Name         | Description                                                             |
 | ----------- | ------------ | ----------------------------------------------------------------------- |
 | 400         | Bad Request  | Invalid request based on client-side error (invalid syntax, URL, etc.). |
-| 401         | Unauthorized | Invalid client credentials, such as an API key.                          |
+| 401         | Unauthorized | Invalid client credentials, such as an API key.                         |
 | 404         | Not Found    | Server couldn't find resource (e.g. invalid URL).                       |
 
 ### Server Errors
 
-| Status Code | Name                  | Description                                     |
-| ----------- | --------------------- | ----------------------------------------------- |
-| 500         | Internal Server Error | Error occurred on the server-side.              |
+| Status Code | Name                  | Description                                      |
+| ----------- | --------------------- | ------------------------------------------------ |
+| 500         | Internal Server Error | Error occurred on the server-side.               |
 | 502         | Bad Gateway           | Invalid response from a gateway or proxy server. |
 
 ## Caches and Proxies
