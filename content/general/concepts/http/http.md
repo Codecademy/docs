@@ -72,7 +72,7 @@ A breakdown of response status codes is shown below.
 | 200         | OK       | The request is successful and a response was sent.    |
 | 202         | Accepted | Processing not yet finished but request was accepted. |
 
-### Redirection'
+### Redirection
 
 | Status Code | Name              | Description                                                            |
 | ----------- | ----------------- | ---------------------------------------------------------------------- |
