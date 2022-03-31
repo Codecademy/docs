@@ -92,7 +92,7 @@ A breakdown of response status codes is shown below.
 | Status Code | Name                  | Description                                     |
 | ----------- | --------------------- | ----------------------------------------------- |
 | 500         | Internal Server Error | Error occurred on the server-side.              |
-| 502         | Bad Gateway           | Invalid resonse from a gateway or proxy server. |
+| 502         | Bad Gateway           | Invalid response from a gateway or proxy server. |
 
 ## Caches and Proxies
 
