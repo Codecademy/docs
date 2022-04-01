@@ -60,7 +60,7 @@ If the server is able to connect with the client and fulfill its request, it wil
 
 A breakdown of response status codes is shown below.
 
-### Status Codes
+### Informational
 
 | Status Code | Name       | Description                                                      |
 | ----------- | ---------- | ---------------------------------------------------------------- |
