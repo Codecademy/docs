@@ -23,6 +23,8 @@ The Python `.remove()` file method allows the user to delete a file if it exists
 This method is provided by the `os` module which must be imported beforehand.
 
 ```pseudo
+import os
+
 os.remove("file_name.file_type")
 
 os.remove("file_path")
