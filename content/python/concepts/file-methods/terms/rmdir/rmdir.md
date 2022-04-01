@@ -23,6 +23,8 @@ The Python `.rmdir()` method allows the user to delete a folder if it exists in 
 This method is provided by the `os` module which must be imported beforehand.
 
 ```pseudo
+import os
+
 os.rmdir("folder_name")
 
 os.rmdir("folder_path")
