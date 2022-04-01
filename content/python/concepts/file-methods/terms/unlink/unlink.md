@@ -23,6 +23,8 @@ The Python `.unlink()` file method allows the user to delete a file path if it e
 This method is provided by the `os` module which must be imported beforehand.
 
 ```pseudo
+import os
+
 os.unlink("file_path")
 ```
 
