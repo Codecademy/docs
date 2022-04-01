@@ -61,7 +61,7 @@ The output for the snippet above would look like this:
 18446744073709551615
 ```
 
-The output `18446744073709551615` represents the `string::npos` constant to indicate that a match could not be found with the given parameters. The sequence, `izz`, begins at index 1 while the call to the `.find()` method begins at index 2. Therefore, it is outside of the search range and a matching index was not found.
+The output `18446744073709551615` represents the `string::npos` constant that indicates a match was not found with the given parameters. The sequence, `izz`, begins at index 1 while the call to the `.find()` method begins at index 2. Therefore, it is outside of the search range and a matching index was not found.
 
 Searching for a sequence not in the string also returns `string::npos`. The following example searches for `bad` which is not in string `food`:
 
