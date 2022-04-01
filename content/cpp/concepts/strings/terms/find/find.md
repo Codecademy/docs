@@ -25,7 +25,7 @@ stringName.find(sequence, position, count)
 The following arguments are applied to the `.find()` method:
 
 - `sequence`: the char or string to be searched for.
-- `position` (optional): the index to start the search at at (defaults to 0).
+- `position` (optional): the index to start the search at (defaults to 0).
 - `count` (optional): the number of characters that must match (defaults to the length of `sequence`).
 
 ## Examples
