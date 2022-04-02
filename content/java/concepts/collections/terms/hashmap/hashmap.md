@@ -19,15 +19,11 @@ The `HashMap` class comes from the `java.util` package. Therefore, it must be im
 
 ```java
 import java.util.HashMap
-```
 
-Next, the `HashMap` is initialized with two generic types inside angle brackets `<` `>`:
-
-```java
 HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
 ```
 
-The generic data type for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `HashMap` is initialized with two generic types inside angle brackets `<` `>` The generic data type for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Keys and Values
 
