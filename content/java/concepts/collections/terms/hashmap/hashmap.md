@@ -44,12 +44,16 @@ public class Main {
     courseTeacher.put("Physics", "Lily");
 
     System.out.println(courseTeacher.get("Physics"););
-    // Output: Lily
-
     System.out.println(courseTeacher.get("History"););
-    // Output: Ben
   }
 }
+```
+
+This will output:
+
+```shell
+Lily
+Ben
 ```
 
 ## Adding Items
@@ -71,19 +75,23 @@ public class Main {
     System.out.println(courseTeacher);
   }
 }
+```
 
-// Output: { Mathematics=Jeanette, History=Ben, Physics=Lily }
+This will output:
+
+```shell
+{History=Ben, Mathematics=Jeanette, Physics=Lily}
 ```
 
 ## Accessing an Item
 
-An item can be accessed within a `HashMap` using the `.get()` method. It accepts one parameter, the key, and returns the corresponding value. Based on the previous example:
+An item can be accessed within a `HashMap` using the `.get()` method. It accepts one parameter, the key, and returns the corresponding value. From the first example:
 
 ```java
-courseTeacher.get("Physics"); // Output: "Lily"
+System.out.println(courseTeacher.get("Physics"));
 ```
 
-"Lily" is returned because it is the corresponding value for the "Physics" key.
+Will print "Lily" because `.get()` returns the corresponding value for the "Physics" key.
 
 ## Removing Items
 
@@ -103,11 +111,14 @@ public class Main {
 
     courseTeacher.remove("Physics");
     System.out.println(courseTeacher);
-
   }
 }
+```
 
-// Output: { Mathematics = Jeanette, History = Ben }
+This will output:
+
+```shell
+{History=Ben, Mathematics=Jeanette}
 ```
 
 ## Removing All Items
@@ -128,14 +139,17 @@ public class Main {
 
     courseTeacher.clear();
     System.out.println(courseTeacher);
-
   }
 }
-
-// Output: {}
 ```
 
-## Traversing a HashMap
+This will output:
+
+```shell
+{}
+```
+
+## Traversing a `HashMap`
 
 A `HashMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
