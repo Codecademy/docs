@@ -126,13 +126,21 @@ Currently, Codebytes supports the following languages:
 | `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry. We're storing all of our slugs in the [catalog-content.md file](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md).<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path). | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |
 
 #### General Writing Tips
-
+- Be clear and concise
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible.
 - Avoid using first- and second-person pronouns (e.g. I, we, you) if possible.
 - Brevity without sacrificing clarity. Make every word count.
 - If the concept is hard, make it easy. If it's dry, make it fun. If it's simple, keep it simple.
 - 90% of writing is rewriting.
-
+- Minimize the length of your sentence,and each one should communicate a point (paragraphs should be a maximum of 4-6 lines)
+- Use white spaces and bullet points as much as you can (this makes words easier to read and aids comprehension)
+- Always explain an abbreviation the first time.
+- Identify your target audience.
+- Use punctuations properly.
+- Avoid using complex and non-contextual grammar.
+- Run your contents through writing tools (Grammarly, Prowriting Aid, Hemingway App) to check for grammar errors.
+- Re-read your contents carefully, considering every line written.
+- The title of your content should contain keywords for SEO purposes.
 #### File Hosting
 
 If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
