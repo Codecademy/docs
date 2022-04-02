@@ -18,7 +18,7 @@ A `TreeMap`, like a [`HashMap`](https://www.codecademy.com/resources/docs/java/c
 The `TreeMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used:
 
 ```java
-import java.util.HashMap
+import java.util.TreeMap
 
 TreeMap<KeyDatatype, ValueDatatype> myTreeMap = new TreeMap<KeyDatatype, ValueDatatype>();
 ```
