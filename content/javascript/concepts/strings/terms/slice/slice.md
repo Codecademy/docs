@@ -1,6 +1,6 @@
 ---
 Title: '.slice()'
-Description: 'Returns a selected portion of an array.'
+Description: 'Returns a selected portion of a string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The JavaScript method `.slice()` returns a selected portion of an array.
+The JavaScript method `.slice()` returns a selected portion of a string.
 
 ## Syntax
 
