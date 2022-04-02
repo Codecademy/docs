@@ -134,7 +134,7 @@ Currently, Codebytes supports the following languages:
 - 90% of writing is rewriting.
 - Minimize the length of your sentence,and each one should communicate a point (paragraphs should be a maximum of 4-6 lines)
 - Use white spaces and bullet points as much as you can (this makes words easier to read and aids comprehension)
-- Always explain an abbreviation the first time.
+- Always expand and explain an abbreviation the first time it is mentioned.
 - Identify your target audience.
 - Use punctuations properly.
 - Avoid using complex and non-contextual grammar.
