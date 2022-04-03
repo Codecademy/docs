@@ -26,6 +26,8 @@ In both cases the result will be a new `string` with all instances of `oldValue`
 
 ## Example
 
+In the example below, a substring in `s`, "Hello", is replaced with "Goodbye" and reassigned:
+
 ```java
 public class ReplaceMe {
   public static void main(String args[]) {
