@@ -20,11 +20,11 @@ The `UNION` command allows for the combination of the results of two or more [`S
 
 The combined queries can be any valid `SELECT` statements, including [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where), [`GROUP BY`](https://www.codecademy.com/resources/docs/sql/commands/group-by), or [`HAVING`](https://www.codecademy.com/resources/docs/sql/commands/having) clauses. The only restriction is that the number of columns returned for each query is the same, and the corresponding columns of each query have data types that are compatible with the columns in the first query. The result set will use the column names of the first query, ignoring column names from each subsequent query.
 
-The `UNION` command has a `UNION ALL` option. The difference between `UNION` and `UNION ALL` is that `UNION` will combine rows between queries where all the columns are equal, whereas `UNION ALL` will keep the rows separate and simply append the complete results of one query to another. 
+The `UNION` command has a `UNION ALL` option. The difference between `UNION` and `UNION ALL` is that `UNION` will drop any duplicated rows in the result, whereas `UNION ALL` will keep the rows separate and simply append the complete results of one query to another. 
 
 ## Syntax
 
-Return all rows from `table1` and `table2`, combining the rows from `table1` with rows from `table2` where all the columns are equal:
+Return all rows from `table1` and `table2`, dropping any duplicated rows:
 
 ```sql
 SELECT column1, column2, column2 ... columnN
