@@ -38,7 +38,7 @@ Where:
 - `flags`: Optional specification for padding and leading `+` sign for numeric values.
 - `width`: Optional specification of the minimum number of characters the formatted value should fill. (Padding specified by `flags` with a space as the default.
 - `.precision`: Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
-- `specifier`: an alpha character that specifies the format of the output.
+- `specifier`: An alpha character that specifies the format of the output.
 
 The following table lists the possible flags:
 
