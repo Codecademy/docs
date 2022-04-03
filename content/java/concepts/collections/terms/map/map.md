@@ -4,6 +4,7 @@ Description: 'A collection interface allowing items to be stored as key-value pa
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Collections'
   - 'Data Structures'
   - 'Interface'
 CatalogContent:
