@@ -38,8 +38,3 @@ public class ReplaceMe{
 }
 ```
 
-Output:
-
-```pseudo
-Goodbye World!
-```
