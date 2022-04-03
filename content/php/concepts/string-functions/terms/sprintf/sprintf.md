@@ -83,7 +83,7 @@ echo sprintf($format, $str1, $str2);
 
 This results in the following output:
 
-```pseudo
+```shell
 This string is right justified and padded with "^" characters: "^^^^^PHP".
 This string is left justified and padded with spaces: "code    ".
 ```
