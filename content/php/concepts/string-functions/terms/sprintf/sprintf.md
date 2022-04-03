@@ -18,7 +18,7 @@ The `sprintf()` function returns a string with the specified formatting. Its par
 
 ## Syntax
 
-```php
+```pseudo
 sprintf($format, $value1, $value2, ... $valueN)
 ```
 
