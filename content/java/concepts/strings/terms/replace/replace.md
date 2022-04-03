@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Takes a String and replaces a given char or CharSequence with another given char or CharSequence.'
+Description: 'Returns a new string where a given char or CharSequence replaced with another char or CharSequence.'
 Subjects:
   - 'Computer Science'
 Tags:
