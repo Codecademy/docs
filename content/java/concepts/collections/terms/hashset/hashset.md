@@ -59,7 +59,7 @@ public class Main {
 
 This will output:
 
-```pseudo
+```shell
 [Pizza, Sausage, Potatoes, Cabbage, Salad]
 ```
 
@@ -72,7 +72,7 @@ Items can be removed from the `HashSet` with the `.remove()` method.
 ### Syntax
 
 ```java
-hashset.add(item)
+hashset.remove(item)
 ```
 
 Where `item` is the item to be removed from `hashset`. If `item` is not part of `hashset` the method has no effect.
@@ -98,7 +98,7 @@ public class Main {
 
 This will output:
 
-```pseudo
+```shell
 [Pizza, Potatoes, Cabbage, Salad]
 ```
 
@@ -138,7 +138,7 @@ public class Main {
 
 This will output:
 
-```pseudo
+```shell
 Safe to eat.
 ```
 
@@ -176,7 +176,7 @@ public class Main {
 
 This will output:
 
-```pseudo
+```shell
 5
 4
 ```
@@ -207,7 +207,7 @@ public class Main {
 
 This will output:
 
-```pseudo
+```shell
 Pizza
 Sausage
 Potatoes
