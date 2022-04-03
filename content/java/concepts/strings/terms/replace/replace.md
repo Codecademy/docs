@@ -18,9 +18,7 @@ The `.replace()` String method takes a string and replaces a given char or `Char
 
 ```pseudo
 string.replace(char oldValue, char newValue)
-```
 
-```pseudo
 string.replace(CharSequence oldValue, CharSequence newValue)
 ```
 
