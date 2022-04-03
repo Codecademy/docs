@@ -24,7 +24,7 @@ import java.util.TreeMap
 TreeMap<KeyDatatype, ValueDatatype> myTreeMap = new TreeMap<KeyDatatype, ValueDatatype>();
 ```
 
-The `TreeMap` is initialized with two generic types inside angle brackets `<` `>` The generic data type for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Keys and Values
 
