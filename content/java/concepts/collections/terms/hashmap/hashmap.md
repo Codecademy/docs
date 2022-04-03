@@ -25,7 +25,7 @@ import java.util.HashMap
 HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
 ```
 
-The `HashMap` is initialized with two generic types inside angle brackets `<` `>`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Keys and Values
 
