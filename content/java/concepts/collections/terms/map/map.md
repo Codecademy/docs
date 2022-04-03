@@ -19,7 +19,7 @@ A `Map` is an interface provided in `java.util` that allows collections to store
 MapClass<KeyDataType,ValueDataType> myMap = new MapClass<KeyDataType,ValueDataType>
 ```
 
-The `MapClass` is a class that implements the `Map` interface, and is initialized with two generic types inside angle brackets `<` `>`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `MapClass` is a class that implements the `Map` interface, and is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Methods
 
