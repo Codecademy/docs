@@ -103,6 +103,6 @@ echo sprintf($format, $num1, $num2);
 
 This results in the following output:
 
-```pseudo
+```shell
 The number 63 in hexadecimal is 003F. The number 87 in binary is 01010111.
 ```
