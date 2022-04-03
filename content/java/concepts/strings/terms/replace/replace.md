@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Returns a new string where a given char or CharSequence replaced with another char or CharSequence.'
+Description: 'Takes a string and returns a new string where a given char or CharSequence is replaced with another char or CharSequence.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -38,4 +38,3 @@ public class ReplaceMe {
   }
 }
 ```
-
