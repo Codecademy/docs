@@ -3,6 +3,7 @@ Title: 'HashMap'
 Description: 'HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
 Subjects:
   - 'Computer Science'
+  - 'Collections'
 Tags:
   - 'HashMap'
   - 'Data Types'
