@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
+  - 'Collections'
   - 'Data Types'
   - 'Data Structures'
 CatalogContent:
