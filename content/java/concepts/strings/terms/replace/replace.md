@@ -2,6 +2,7 @@
 Title: '.replace()'
 Description: 'Returns a new string where a given char or CharSequence replaced with another char or CharSequence.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Strings'
