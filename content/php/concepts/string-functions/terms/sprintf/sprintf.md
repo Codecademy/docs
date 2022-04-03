@@ -64,7 +64,7 @@ The following table lists the possible specifiers:
 |       `G` | General numeric format converting numeric value to a float and treating exponents as `E`.           |
 |       `h` | Like `g` but treats floats as `F`.                                                                  |
 |       `H` | Like `G` but treats floats as `F`.                                                                  |
-|       `o` | Numeric value is converted to an integer and shown as an octal number.                               |
+|       `o` | Numeric value is converted to an integer and shown as an octal number.                              |
 |       `s` | Value is treated as a string.                                                                       |
 |       `u` | Numeric value is converted to an integer and is shown as a unsigned decimal number.                 |
 |       `x` | Numeric value is converted to an integer and shown as a hexadecimal number with lower case letters. |
@@ -100,4 +100,3 @@ echo sprintf($format, $num1, $num2);
 ```
 
 **Note:** The format string must be in single quotes or else PHP will try to interpret the `$d` in the `%1$d` and `%2$d` format directives as a variable.
-
