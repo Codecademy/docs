@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Classes'
+  - 'Collections'
   - 'Data Structures'
 CatalogContent:
   - 'learn-java'
