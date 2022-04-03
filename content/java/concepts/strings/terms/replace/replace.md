@@ -29,8 +29,8 @@ In both cases the result will be a new `string` with all instances of `oldValue`
 ## Example
 
 ```java
-public class ReplaceMe{
-  public static void main(String args[]){
+public class ReplaceMe {
+  public static void main(String args[]) {
     String s = "Hello World!";
     s = s.replace("Hello","Goodbye");
     System.out.println(s);
