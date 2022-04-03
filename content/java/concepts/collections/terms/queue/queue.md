@@ -4,6 +4,7 @@ Description: 'A collection interface offering additional operations to access or
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Collections'
   - 'Queues'
   - 'Data Structures'
 CatalogContent:
