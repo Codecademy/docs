@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replace()` String method takes a string and replaces a given char or CharSequence with another given char or CharSequence.
+The `.replace()` String method takes a string and replaces a given char or `CharSequence` with another char or `CharSequence`, returning the new string.
 
 ## Syntax
 
