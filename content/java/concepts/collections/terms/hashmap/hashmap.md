@@ -4,6 +4,7 @@ Description: 'HashMap is used to store items as a key-value pairs. The keys and 
 Subjects:
   - 'Computer Science'
   - 'Collections'
+  - 'Data Structures'
 Tags:
   - 'HashMap'
   - 'Data Types'
