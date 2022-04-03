@@ -3,6 +3,8 @@ Title: 'HashSet'
 Description: 'Used to store an unordered set of unique items of a given datatype.'
 Subjects:
   - 'Computer Science'
+  - 'Collections'
+  - 'Data Structures'
 Tags:
   - 'Data Structures'
   - 'Data Types'
