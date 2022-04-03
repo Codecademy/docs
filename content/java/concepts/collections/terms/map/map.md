@@ -1,5 +1,5 @@
 ---
-Title: 'Queue'
+Title: 'Map'
 Description: 'A collection interface allowing items to be stored as key-value pairs.'
 Subjects:
   - 'Computer Science'
