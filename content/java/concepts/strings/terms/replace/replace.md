@@ -34,6 +34,7 @@ public class ReplaceMe{
     String s = "Hello World!";
     s = s.replace("Hello","Goodbye");
     System.out.println(s);
+    // Output: Goodbye World!
   }
 }
 ```
