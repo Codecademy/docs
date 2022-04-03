@@ -88,9 +88,9 @@ This string is right justified and padded with "^" characters: "^^^^^PHP".
 This string is left justified and padded with spaces: "code    ".
 ```
 
-## Example 2
+## Codebyte Example
 
-```php
+```codebyte/php
 <?php
 $num1 = 63;
 $num2 = 87;
@@ -99,10 +99,5 @@ echo sprintf($format, $num1, $num2);
 ?>
 ```
 
-**Note:** This format string must be in single quotes or else PHP will try to interpret the `$d` in the `%1$d` and `%2$d` format directives as a variable.
+**Note:** The format string must be in single quotes or else PHP will try to interpret the `$d` in the `%1$d` and `%2$d` format directives as a variable.
 
-This results in the following output:
-
-```shell
-The number 63 in hexadecimal is 003F. The number 87 in binary is 01010111.
-```
