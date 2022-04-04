@@ -35,7 +35,16 @@ Vim can be launched directly from the terminal by running the `vim` command. The
 
 ![Vim terminal screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-terminal.png)
 
-The following command will open a file named `filename.txt` in the Vim editor. If `filename.txt` does not exist, it will be created.
+The following command can be used used for exiting `vim` on the terminal:
+
+```bash
+~
+~
+~
+:q!
+```
+
+A file named `filename.txt` can be opened in the Vim editor. If `filename.txt` does not exist, the file will be created:
 
 ```bash
 vim filename.txt
