@@ -29,9 +29,7 @@ For example:
 Please do **NOT** touch your pimples.
 ```
 
-Will render as:
-
-Please do **NOT** touch your pimples.
+> Please do **NOT** touch your pimples.
 
 ## Italic
 
@@ -47,9 +45,7 @@ For example:
 This avocado egg sandwich is _very_ good.
 ```
 
-The output would be:
-
-This avocado egg sandwich is _very_ good.
+> This avocado egg sandwich is _very_ good.
 
 ## Strikethrough
 
@@ -65,9 +61,7 @@ For example:
 I did ~~not~~ build a website.
 ```
 
-The output would be:
-
-I did ~~not~~ build a website.
+> I did ~~not~~ build a website.
 
 ## Emphasis Combinations
 
@@ -77,6 +71,4 @@ Different formatting options can be combined:
 **This is in bold, _italics_, ~~and strikethrough~~**
 ```
 
-The output would be:
-
-**This is in bold, _italics_, ~~and strikethrough~~**
+> **This is in bold, _italics_, ~~and strikethrough~~**
