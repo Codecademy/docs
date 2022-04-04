@@ -1,8 +1,9 @@
 ---
 Title: 'assert'
-Description: 'A keyword for confirming the truthiness of a given statement'
+Description: 'A keyword for confirming the truthiness of a given statement.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Assert'
   - 'Debugging'
