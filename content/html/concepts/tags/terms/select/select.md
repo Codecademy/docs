@@ -16,7 +16,6 @@ The `<select>` tag creates a dropdown list where the user can select from among 
 
 The `<select>` element is typically used with the `<option>` elements to gather user input in a [form](https://www.codecademy.com/resources/docs/html/forms).
 
-
 ## Syntax
 
 ```html
