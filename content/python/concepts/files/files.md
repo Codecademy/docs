@@ -24,7 +24,7 @@ Handling files is a common feature that many languages use to work with the comp
 
 ## Example
 
-The code snippet below displays a small example of how one process of file handling works.
+The small example below demonstrates how one process of file handling could work:
 
 ```py
 # Create, or overwrite, a file and open for writing
