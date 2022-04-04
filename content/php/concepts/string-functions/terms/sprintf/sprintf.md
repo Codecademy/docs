@@ -70,7 +70,7 @@ The following table lists the possible specifiers:
 |       `x` | Numeric value is converted to an integer and shown as a hexadecimal number with lower case letters. |
 |       `X` | Numeric value is converted to an integer and shown as a hexadecimal number with upper case letters. |
 
-## Example 1
+## Example
 
 ```php
 <?php
