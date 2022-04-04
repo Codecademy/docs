@@ -35,7 +35,7 @@ Vim can be launched directly from the terminal by running the `vim` command. The
 
 ![Vim terminal screenshot](https://raw.githubusercontent.com/Codecademy/docs/main/media/vim-terminal.png)
 
-The following command can be used used for exiting `vim` on the terminal:
+The following command is commonly used for exiting Vim on the terminal:
 
 ```bash
 ~
@@ -43,6 +43,16 @@ The following command can be used used for exiting `vim` on the terminal:
 ~
 :q!
 ```
+
+While this will close the current buffer, it will not save any changes made in the file. Here are some recommended safeguards:
+
+| Command | Description |
+| ------- | ----------- |
+| `:!wq` | Closes the current file buffer and saves the changes. |
+| `:!xa` | Saves all changes and exits Vim.
+| `!wqa` | Works the same as the `:!xa` command. |
+| `:!qa` | Closes Vim without warning by ending all file buffers and not saving their changes.|
+| `:qa` | Will not close Vim if there are any unsaved changes. |
 
 A file named `filename.txt` can be opened in the Vim editor. If `filename.txt` does not exist, the file will be created:
 
