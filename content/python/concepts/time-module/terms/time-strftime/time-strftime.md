@@ -14,21 +14,21 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns a time as a string based on one or more formatting codes.
+The `strftime()` function returns a time string based on one or more formatting codes and a time represented as a tuple or `stuct_time` format.
 
 ## Syntax
 
 ```pseudo
-strftime(formatting_exp, time_value)
+strftime(format_codes, time_value)
 ```
 
-The argument `formatting_exp` is the combination of formatting codes to be applied to the time input. The `time_value` is the time to be formatted. If no argument is provided the function will return the current local time as formatted by the given expression.
+A combination of `format_codes` are used to format the returned string. The `time_value` is the time that will be formatted and can be represented as a [tuple](https://www.codecademy.com/resources/docs/python/tuples) or `struct_time` value. If no `time_value` is provided the function will return the current local time as formatted by the given expression.
 
 A few common codes are:
 
-- %a - Day name abbreviation (Mon)
-- %d - Day of month in two decimal format (28)
-- %Y - Year in four decimal format (2020)
+- %a - The abbreviated day of the week (e.g. Mon)
+- %d - The day of month as two decimals (08)
+- %Y - The calendar year represented as four decimals (2020)
 
 ## Example
 
@@ -37,13 +37,12 @@ The `strftime()` function can be used to translate a time to display the associa
 ```py
 import time
 
-print(time.strftime('%x,time.ctime(1648501804)))
-# Output: 03/28/22
+print(time.strftime('%x',time.localtime()))
 ```
 
 ## Codebyte Example
 
-The `strftime()` function can be used to return the current local time as the day and time formatted using a 12 hour clock format.
+The `strftime()` function can be used to return the current local time with the day and time formatted for a 12-hour clock.
 
 ```codebyte/python
 import time
