@@ -43,7 +43,7 @@ console.log(berries);
 
 In the example below the animals array is created. Then the birds array is created to extract the birds "eagles" and "owls". Lastly, the birds array is used to output a sentence.
 
-```codebyte/python
+```codebyte/javascript
 let animals = ['elephants', 'eagles', 'owls', 'tigers'];
 
 let birds = animals.slice(1, 3);
