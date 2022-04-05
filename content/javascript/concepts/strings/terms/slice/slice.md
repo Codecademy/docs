@@ -22,8 +22,8 @@ slice(start)
 slice(start, stop)
 ```
 
-- `start` utilizes zero based indexing and represents the starting index of the extraction (inclusive). This is optional and the default is 0.
-- `stop` utilizes zero based indexing and represents the ending index of the extraction (not inclusive). This is optional and the default is the rest of the array (`arr.length`).
+- The `start` index is optional and begins at zero (inclusive).
+- The `stop` index is also optional and defaults to the length of the string (not inclusive).
 
 ## Example
 
