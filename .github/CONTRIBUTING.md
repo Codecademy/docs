@@ -125,6 +125,11 @@ To keep your PR branch up to date navigate to the branch on your fork. Then pres
 
 ![Image of the `Fetch and merge` button is](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
 
+If you want to use the command line with git run the following commands:
+`git remote add upstream https://github.com/Codecademy/docs.git`
+`git fetch upstream`
+`git rebase upstream master`
+
 ## Additional Resources
 
 - [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
