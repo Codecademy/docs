@@ -18,8 +18,9 @@ The JavaScript method `.slice()` returns a selected portion of a string.
 ## Syntax
 
 ```pseudo
-slice(start)
-slice(start, stop)
+string.slice(start);
+
+string.slice(start, stop);
 ```
 
 - The `start` index is optional and begins at zero (inclusive).
