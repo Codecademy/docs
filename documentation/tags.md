@@ -46,6 +46,7 @@ Chatbots
 Cryptocurrency
 Classes
 Code Editors
+Collections
 Colors
 Combinators
 Command Line
