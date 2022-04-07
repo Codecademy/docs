@@ -127,9 +127,11 @@ To keep your PR branch up to date navigate to the branch on your fork. Then pres
 
 If you want to use the command line with git run the following commands:
 
-`git remote add upstream https://github.com/Codecademy/docs.git`
-`git fetch upstream`
-`git rebase upstream master`
+```pseudo
+git remote add upstream https://github.com/Codecademy/docs.git
+git fetch upstream`
+git rebase upstream master
+```
 
 ## Additional Resources
 
