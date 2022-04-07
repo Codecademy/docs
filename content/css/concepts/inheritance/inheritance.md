@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'The cascading in CSS. Styling that applies the the child element when the parent is the selector'
+Description: 'The cascading in CSS. Styling that is applied to a chilled element when they are applied to its parent.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Inheritance
 
-CSS inheritance is the cascading in CSS. Inheritance is when styles are applied to children of a parent when the parent is the selector. Some properties are inherited but others are not.
+CSS inheritance is the cascading in CSS. Inheritance is when styling that is applied to a chilled element when they are applied to its parent. Some properties are inherited but others are not.
 
 ## Inherided propities
 
