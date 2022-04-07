@@ -1,0 +1,32 @@
+---
+Title: 'Set'
+Description: 'An interface for collections that contain no duplicate elements.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Collections'
+  - 'Data Structures'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+A `Set` is an interface provided in `java.util` that implements collections that have no duplicate elements. Some implementations will have retrictions on the elements the `Set` can contain, such as excluding `null` elements. Adding an inelgible element will typically throw an unchecked `NullPointerException` or a `ClassCastException`.
+
+## Syntax
+
+```pseudo
+SetClass<DataType> mySet = new SetClass<DataType>
+```
+
+The `SetClass` is a class that implements the `Set` interface, and is initialized with a generic type inside angle brackets `< ... >`.
+
+## Methods
+
+The `Set` interface utilizes the following methods:
+
+- `.add()` : `.add(item)` adds `item` to the `Set` if it is not already present.
+- `.clear()` : Removes all the elements from the `Set`
+- `.contains()` : `.contains(item) returns `true` if `item` is a member of the `Set`.
+- `.remove()` : `.remove(item)` will remove `item` from the `Set`.
+- `.size()` : Returns the number of items in the `Set`.
