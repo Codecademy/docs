@@ -27,6 +27,6 @@ The `Set` interface utilizes the following methods:
 
 - `.add()` : `.add(item)` adds `item` to the `Set` if it is not already present.
 - `.clear()` : Removes all the elements from the `Set`
-- `.contains()` : `.contains(item) returns `true` if `item` is a member of the `Set`.
+- `.contains()` : `.contains(item) returns `true`if`item`is a member of the`Set`.
 - `.remove()` : `.remove(item)` will remove `item` from the `Set`.
 - `.size()` : Returns the number of items in the `Set`.
