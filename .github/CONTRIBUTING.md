@@ -129,8 +129,8 @@ If you want to use the command line with git run the following commands:
 
 ```pseudo
 git remote add upstream https://github.com/Codecademy/docs.git
-git fetch upstream`
-git rebase upstream master
+git fetch upstream
+git rebase upstream main
 ```
 
 ## Additional Resources
