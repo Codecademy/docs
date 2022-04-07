@@ -37,6 +37,6 @@ Angular uses the model-view-controller (MVC) pattern for structuring the code in
 
 ## Routing and Binding
 
-Single page applications (SPAs) are built with Angular and feature a URL that doesn't require a page reload to function. Agular uses routing is map the URL in the web browser to a specific state in the web application.
+Single page applications (SPAs) are built with Angular and feature a URL that doesn't require a page reload to function. Angular uses routing to map the URL in the web browser to a specific state in the web application.
 
 Angular also uses two-way data binding to inherently link the views and model data with one another. Updates in one causes updates in the other. This allows for data to be readily shared between components throughout the application.
