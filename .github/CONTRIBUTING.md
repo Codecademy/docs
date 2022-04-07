@@ -131,6 +131,7 @@ If you want to use the command line with git run the following commands:
 git remote add upstream https://github.com/Codecademy/docs.git
 git fetch upstream
 git rebase upstream main
+git push -f
 ```
 
 ## Additional Resources
