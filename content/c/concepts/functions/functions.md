@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are blocks of code that can be run multiple times within a program. They are stored under a name similar to a variable and can be called using this name. A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets. pseudo return_type name(parameters) { // Code goes here } '
+Description: 'Functions are blocks of code that can be reused within a program.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,17 +12,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Functions are blocks of code that can be run multiple times within a program. They are stored under a name similar to a variable and can be called using this name.
+Functions are blocks of code that can be reused within a program. They are stored under a name similar to a variable and can be called using this name.
 
-## Declaring a Function
-
-A function is declared with the return type, the function name, parameter(s), and the code for it to run in curly brackets.
+## Syntax
 
 ```pseudo
 return_type name(parameters) {
   // Code goes here
 }
 ```
+
+Functions are declared with the following pieces:
+
+- A `return_type` that denotes the specific type of data output.
+- The `name` of the functions.
+- The `parameters` are used for processing data in the function body., and the code for it to run in curly brackets.
 
 A function named `greet()` that prints a greeting to the console can be declared like this:
 
@@ -31,6 +35,8 @@ void greet(void) {
   puts("Howdy!");
 }
 ```
+
+The `greet()` function uses a [`void`](https://www.codecademy.com/resources/docs/general/void) type to indicate that no output is returned after execution.
 
 ## Calling a Function
 

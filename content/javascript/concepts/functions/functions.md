@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it. Function declarations are used to create named functions. These functions can be called using their declared name. Function declarations are built from: - The function keyword. - The function name. - An optional list of parameters separated by commas enclosed by a set of parentheses (). - A function body enclosed in a set of curly braces {}. The example code provided contains a function named add() that takes in 2 values and prints the sum of those numbers:'
+Description: 'Functions are reusable pieces of code that perform tasks, process data, and possible return values.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -135,4 +135,14 @@ function rocketToMars() {
 const rocketToMars = function () {
   return 'BOOM!';
 };
+```
+
+## Void Functions
+
+JavaScript uses the `void` keyword for denoting expressions that return a value of `undefined`. These expressions can be in the form of variables or functions. This allows functions to work as expressions and not declarations:
+
+```codebyte/javascript
+void function printHello() {
+  console.log("Hello, Code Ninjas!");
+}();
 ```
