@@ -117,7 +117,7 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
-## How to keep a PR branch upto date
+## How do we update a PR branch?
 
 To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
 
