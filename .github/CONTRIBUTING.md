@@ -123,7 +123,7 @@ To keep your PR branch up to date navigate to the branch on your fork. Then pres
 
 ![Image of where the `Fetch upstream` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-tp-date-1.png)
 
-![Image of the `Fetch and merge` button is](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
+![Image of the `Fetch and merge` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
 
 The following Git commands can be run on the command line:
 
