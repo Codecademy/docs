@@ -1,5 +1,5 @@
 ---
-Title: 'Units'
+Title: 'Inheritance'
 Description: 'The cascading in CSS. Styling that applies the the child element when the parent is the selector'
 Subjects:
   - 'Web Development'
