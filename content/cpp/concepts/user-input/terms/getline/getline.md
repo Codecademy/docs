@@ -43,7 +43,6 @@ cin.getline(string, length, delim)
 
 ```cpp
 #include <iostream>
-// Variables can be declared as strings with the following header.
 #include <string>
 using namespace std;
 
