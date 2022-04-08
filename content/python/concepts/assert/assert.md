@@ -1,6 +1,6 @@
 ---
 Title: 'assert'
-Description: 'A keyword for confirming the truthiness of a given statement.'
+Description: 'The assert keyword confirms the truthiness of a given statement.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code and debug.
+A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code, and debug.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ A keyword for confirming the truthiness of a given statement that is often used 
 assert some_condition, assert_message
 ```
 
-The `assert` keyword is followed by the statement containing the condition to be tested, such as validating a data type or membership within a given container. An optional message can be added that will be printed when the assertion error is raised.
+The `assert` keyword is followed by `some_condition` to be tested, such as validating a data type or membership within a given container. An optional `assert_message` can be added that will be printed when the assertion error is raised.
 
 ## Example
 
@@ -31,6 +31,8 @@ The `assert` keyword can be used to validate a value (or evaluate some other con
 fav_color = 'blue'
 
 assert fav_color == 'red'
+
+# Output: AssertionError
 ```
 
 ## Codebyte Example

@@ -1,6 +1,6 @@
 ---
 Title: 'type()'
-Description: 'A function that returns the data type of an object.'
+Description: 'Returns the data type of an object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -28,6 +28,7 @@ The `type()` function can be used to confirm the data type of the object `spam`:
 spam = 10
 
 print(type(spam))
+
 # Output: int
 ```
 
