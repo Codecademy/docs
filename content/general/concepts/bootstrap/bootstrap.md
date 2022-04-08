@@ -72,7 +72,7 @@ Instead of being downloaded, Bootstrap's source files can be linked directly int
 
 As its popularity grew, people started creating templates based on Bootstrap in order to accelerate the web development process even further. There are many websites out there dedicated to sharing and buying custom templates based on Bootstrap.
 
-Here are the official themes built by or reviewed by Bootstrap's creators: https://themes.getbootstrap.com
+Here are the official themes built or reviewed by Bootstrap's creators: https://themes.getbootstrap.com
 
 ## Example: Normal Button vs Bootstrap Button
 
