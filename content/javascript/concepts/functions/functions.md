@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are reusable pieces of code that perform tasks, process data, and possible return values.'
+Description: 'Functions are reusable pieces of code that perform tasks, process data, and possibly return values.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
