@@ -1,6 +1,6 @@
 ---
 Title: 'getline()'
-Description: 'Gets the user input up to a character, if specified, and stores it to a variable.'
+Description: 'Converts the user input into a string delimited by a character, if specified, and then stored into a variable.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the `getline()` function gets the user's input up to a character and stores it in a variable. If the character, referred to as the delimiting character, is not specified, then the entire input will be stored.
+In C++, the `getline()` function converts the user's input into a character-delimited string and stores them in a variable. If a delimiting character is not specified, then the entire input will be stored.
 
 ## Syntax
 
@@ -26,6 +26,7 @@ The `getline()` function is part of the `<string>` header.
 getline(cin, string, delim)
 ```
 
+- `getline()` is part of the `<string>` header, so it is included at the top of the file.
 - `cin` is the object in the stream, which would be the user input.
 - `string` refers to the variable the user input is set to.
 - `delim` refers to a character that the user's input is stored up to.
@@ -36,7 +37,7 @@ Although not recommended, `getline()` can be called on the `cin` object as a mem
 cin.getline(string, length, delim)
 ```
 
-- `length` is the expected length of the character array.
+- `length` is the expected size of the character array.
 
 ## Examples
 
@@ -59,7 +60,7 @@ int main() {
 
 In the example above the user will be prompted to enter a pet name. Then, the `getline()` function will take the input and set it to the `my_str` variable. `my_str` can then be used and for following operations. If the user inputs a string, `"Nimbus"`, what's printed to the console is `"My pet's name is Nimbus!"`.
 
-To show the same example of `getline()` but called on the `cin` object would look like this:
+The same example of `getline()`, but called upon the `cin` object, would look like this:
 
 ```cpp
 #include <iostream>
