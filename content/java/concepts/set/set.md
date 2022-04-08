@@ -16,7 +16,7 @@ A `Set` is an interface provided in the `java.util` package that implements coll
 ## Syntax
 
 ```pseudo
-SetClass<DataType> mySet = new SetClass<DataType>
+SetClass<DataType> mySet = new SetClass<DataType> ();
 ```
 
 The `SetClass` is a class that implements the `Set` interface, and is initialized with a generic type inside angle brackets `< ... >`.
