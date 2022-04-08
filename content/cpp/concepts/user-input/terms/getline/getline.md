@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the `getline()` function gets the user's input up to a character and stores it to a variable. If the character, refered to as the delimiting character, is not specified, then the entire input will be stored.
+In C++, the `getline()` function gets the user's input up to a character and stores it in a variable. If the character, referred to as the delimiting character, is not specified, then the entire input will be stored.
 
 ## Syntax
 
