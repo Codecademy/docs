@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `Queue` is an interface provided in `java.util` that extends collections to provide additional methods to access or manipulate items at the head of the queue. Where the "head" of the queue is will be defined by the particular implementation. In a typical implementation, the queue will access elements in a FIFO (first-in-first-out) manner. However, in an stack implementation, the order will be LIFO (last-in-first-out). In a priority queue implementation, the first item out will be defined by its specified priority.
+A `Queue` is an interface provided in the `java.util` package that extends collections to provide additional methods to access or manipulate items at the head of the queue. Where the "head" of the queue is defined by the particular implementation. In a typical implementation, the queue will access elements in a FIFO (first-in-first-out) manner. However, in a stack implementation, the order will be LIFO (last-in-first-out). In a priority queue implementation, the first item out will be defined by its specified priority.
 
 The `Queue` interface utilizes the following methods:
 
