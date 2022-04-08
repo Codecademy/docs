@@ -26,7 +26,7 @@ Functions are declared with the following pieces:
 
 - A `return_type` that denotes the specific type of data output.
 - The `name` of the functions.
-- The `parameters` are used for processing data in the function body., and the code for it to run in curly brackets.
+- The `parameters` are used for processing data in the function body, and the code for it to run in curly brackets.
 
 A function named `greet()` that prints a greeting to the console can be declared like this:
 
