@@ -132,15 +132,15 @@ Currently, Codebytes supports the following languages:
 - Brevity without sacrificing clarity. Make every word count and be clear and concise.
 - If the concept is hard, make it easy. If it's dry, make it fun. If it's simple, keep it simple.
 - 90% of writing is rewriting.
-- Minimize the length of your sentence,and each one should communicate a point (paragraphs should be a maximum of 4-6 lines).
+-  Minimize the length of your sentences, and each one should communicate a point (paragraphs should be a maximum of 4-6 lines).
 - Use white spaces, lists, and markdown tables wherever possible to improve readability and aid comprehension.
 - Always expand and explain an abbreviation the first time it is mentioned.
-- Identify your target audience.
-- Use punctuations properly.
+- Be aware of your target audience and write to their level.
+- Use punctuation properly.
 - Avoid using idioms as well as complex and non-contextual grammar.
-- Run your contents through proofreading tools (e.g. Grammarly, Prowriting Aid, Hemingway App) to check for grammar errors.
+- Run your contents through proofreading tools (e.g. Grammarly, Prowriting Aid, Hemingway App) to check for grammar and spelling errors.
 - Re-read your contents carefully, considering every line written.
-- The title of your content should contain keywords for SEO purposes.
+- The description of your content should contain keywords for SEO purposes.
   
 #### File Hosting
 
