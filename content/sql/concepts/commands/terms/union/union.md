@@ -34,7 +34,6 @@ FROM table2
 
 Returns all rows from `table1` and `table2`, dropping any duplicated rows.
 
-
 The `UNION` command also has a `UNION ALL` option. The difference between `UNION` and `UNION ALL` is that where `UNION` will drop any duplicated rows in the result, `UNION ALL` will append the complete results of one query to another regardless of duplication.
 
 ```sql
@@ -52,9 +51,9 @@ Appends all the rows from `table2` to all the rows from `table1`.
 This example combines the rows from two student tables, removing any duplicates.
 
 ```sql
-SELECT first_name, last_name, final_grade 
+SELECT first_name, last_name, final_grade
 FROM students_term_one
-UNION 
-SELECT first_name, last_name, final_grade 
+UNION
+SELECT first_name, last_name, final_grade
 FROM students_term_two
 ```
