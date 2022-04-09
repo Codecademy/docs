@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<select>` tag creates a dropdown list where the user can select from among a number of [`<option>`](https://www.codecademy.com/resources/docs/html/tags/option) elements.
 
-The `<select>` element is typically used with the `<option>` elements to gather user input in a [form](https://www.codecademy.com/resources/docs/html/forms).
+The `<select>` element is normally used with `<option>` elements for gathering user input in a [form](https://www.codecademy.com/resources/docs/html/forms).
 
 ## Syntax
 
