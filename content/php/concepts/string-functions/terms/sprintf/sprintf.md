@@ -26,18 +26,16 @@ Where `$format` is a string value containing the format instructions and `$value
 
 ## Format Directive Syntax
 
-The format string is an ordinary string consisting of any arbitrary text containing one or more directives indicating how the values passed in the `sprintf()` function should be expressed within the format string. The format directives obey the following syntax:
+The format string is an ordinary string consisting of any arbitrary text containing one or more directives indicating how the values passed in the `sprintf()` function should be expressed within the format string. The format directives obey the following syntax (aside from the `secifier`, all the arguments are optional): 
 
 ```pseudo
 %[num$][flags][width][.precision]specifier
 ```
 
-Where:
-
-- `num$`: The number (one-based) of the value argument to format followed by `$`. Optional, but if specified for one directive in the format string, it should be specified for all, or the function will return unexpected results.
-- `flags`: Optional specification for padding and leading `+` sign for numeric values.
-- `width`: Optional specification of the minimum number of characters the formatted value should fill. (Padding specified by `flags` with a space as the default.
-- `.precision`: Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
+- `num$`: The number (one-based) of the value argument to format followed by `$`. If specified for one directive in the format string, it should be specified for all, or the function will return unexpected results.
+- `flags`: Specification for padding and leading `+` sign for numeric values.
+- `width`: Specification of the minimum number of characters the formatted value should fill. (Padding specified by `flags` with a space as the default.
+- `.precision`:Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
 - `specifier`: An alpha character that specifies the format of the output.
 
 The following table lists the possible flags:
@@ -74,10 +72,10 @@ The following table lists the possible specifiers:
 
 ```php
 <?php
-$str1 = 'PHP';
-$str2 = 'code';
-$format = "This string is right justified and padded with \"^\" characters: \"%'^8s\".  \nThis string is left justified and padded with spaces: \"%-8s\".";
-echo sprintf($format, $str1, $str2);
+  $str1 = 'PHP';
+  $str2 = 'code';
+  $format = "This string is right justified and padded with \"^\" characters: \"%'^8s\".  \nThis string is left justified and padded with spaces: \"%-8s\".";
+  echo sprintf($format, $str1, $str2);
 ?>
 ```
 
@@ -92,10 +90,10 @@ This string is left justified and padded with spaces: "code    ".
 
 ```codebyte/php
 <?php
-$num1 = 63;
-$num2 = 87;
-$format = 'The number %1$d in hexadecimal is %1$04X. The number %2$d in binary is %2$08b.';
-echo sprintf($format, $num1, $num2);
+  $num1 = 63;
+  $num2 = 87;
+  $format = 'The number %1$d in hexadecimal is %1$04X. The number %2$d in binary is %2$08b.';
+  echo sprintf($format, $num1, $num2);
 ?>
 ```
 
