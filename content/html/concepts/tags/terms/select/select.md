@@ -30,7 +30,7 @@ The `<select>` element is given a `name` attribute to reference it in the form d
 
 ## Example
 
-Here's a simple form that allows the user to select one of four different types of meals.
+The example form below allows the user to select one of four different types of meals:
 
 ```html
 <html>
