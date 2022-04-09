@@ -27,7 +27,7 @@ The `Queue` interface utilizes the following methods:
 
 ## Syntax
 
-This is an example of an implementation of the `Queue` interface implemented by a `LinkedList`:
+This is an example of the `Queue` interface implemented by a `LinkedList`:
 
 ```java
 import java.util.LinkedList;
