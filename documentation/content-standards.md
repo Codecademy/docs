@@ -140,8 +140,13 @@ Currently, Codebytes supports the following languages:
 - Avoid using idioms as well as complex and non-contextual grammar.
 - Run your contents through proofreading tools (e.g. Grammarly, Prowriting Aid, Hemingway App) to check for grammar and spelling errors.
 - Re-read your contents carefully, considering every line written.
+<<<<<<< HEAD
 - The description of your content should contain keywords for SEO purposes.
   
+=======
+- The title of your content should contain keywords for SEO purposes.
+
+>>>>>>> fb649c55aeab0bfb31037821228f7d3f20014d10
 #### File Hosting
 
 If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
