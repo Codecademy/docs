@@ -26,7 +26,7 @@ The `<select>` element is typically used with the `<option>` elements to gather 
 </select>
 ```
 
-The `<select>` element is given a `name` attribute to reference it in the form data, and the `<option>` elements will each have a `value` attribute to pass along when the form is submitted with that option selected.
+The `<select>` element is referenced in the form data with a `name` attribute. Inside, the `<option>` elements will each have a `value` attribute that is submitted with the form if that option is selected.
 
 ## Example
 
