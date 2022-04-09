@@ -99,4 +99,4 @@ echo sprintf($format, $num1, $num2);
 ?>
 ```
 
-**Note:** The format string must be in single quotes or else PHP will try to interpret the `$d` in the `%1$d` and `%2$d` format directives as a variable.
+**Note**: The format string must be in single quotes, otherwise PHP will try to interpret the `$d` in the `%1$d` and `%2$d` format directives as a variable.
