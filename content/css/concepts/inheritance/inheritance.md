@@ -31,7 +31,7 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 | Property | Description |
 | --- | --- |
 | All [background](https://www.codecademy.com/resources/docs/css/background) properties | Adds wallpaper visuals for HTML elements. | 
-| [`border`](https://www.codecademy.com/resources/docs/css/borders) |
+| All [border](https://www.codecademy.com/resources/docs/css/borders) properties | Defines the border styles of an element. |
 | [`box-sizing`](https://www.codecademy.com/resources/docs/css/box-sizing) |
 | [`float`](https://www.codecademy.com/resources/docs/css/floats) |
 | All [`padding` properties](https://www.codecademy.com/resources/docs/css/padding) |
