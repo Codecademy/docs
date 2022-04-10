@@ -39,10 +39,10 @@ The example form below allows the user to select one of four different types of 
     <form>
       <label for="food">Select Meal Type</label>
       <select name="food" id="food">
-        <option value"1">Beef</option>
-        <option value"2">Chicken</option>
-        <option value"3">Fish</option>
-        <option value"4">Vegetarian</option>
+        <option value="1">Beef</option>
+        <option value="2">Chicken</option>
+        <option value="3">Fish</option>
+        <option value="4">Vegetarian</option>
       </select>
       <input type="submit" value="Order Dinner" />
     </form>
