@@ -1,6 +1,6 @@
 ---
 Title: 'Inheritance'
-Description: 'The cascading in CSS. Styling that is applied to a chilled element when they are applied to its parent.'
+Description: 'Inheritance describes how certain styles are initialized or computed depending on the CSS property and whether a value was set.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
