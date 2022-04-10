@@ -18,7 +18,6 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 
 Inherited properties apply to the element and its children.
 
-<!-- prettier-ignore -->
 | Property | Description |
 | --- | --- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors/color) | Sets the text color of an element. |
@@ -30,7 +29,6 @@ Inherited properties apply to the element and its children.
 
 Non-inherited properties are not inherited by its children.
 
-<!-- prettier-ignore -->
 | Property | Description |
 | --- | --- |
 | All [background](https://www.codecademy.com/resources/docs/css/background) properties | Adds wallpaper visuals for HTML elements. | 
