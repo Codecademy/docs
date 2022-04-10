@@ -18,8 +18,8 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 ## Inherited properties
 
 <!-- prettier-ignore -->
-| Property |
-| --- |
+| Property | Description |
+| --- | --- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors) |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) |
 | All [Typograpgy](https://www.codecademy.com/resources/docs/css/typography) properties exept `text-decoration` and `text-overflow`. |
