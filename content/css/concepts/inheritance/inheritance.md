@@ -22,8 +22,21 @@ Inherited properties apply to the element and its children.
 | --- | --- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors/color) | Sets the text color of an element. |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) | Hides or reveals an element without affecting its placement within the page. |
-| All [Typograpgy](https://www.codecademy.com/resources/docs/css/typography) properties exept `text-decoration` and `text-overflow`. |
 | [`cursor`](https://www.codecademy.com/resources/docs/css/cursor) |
+| [`font`](https://www.codecademy.com/resources/docs/css/typography/font) | Sets an element's font properties in a single declaration. |
+| [`font-family`](https://www.codecademy.com/resources/docs/css/typography/font-family) | Specifies a font typeface in a ruleset. |
+| [`font-size`](https://www.codecademy.com/resources/docs/css/typography/font-size) | Sets the font size of an element's text. |
+| [`font-style`](https://www.codecademy.com/resources/docs/css/typography/font-style) | To set the font style in which text will appear. |
+| [`font-weight`](https://www.codecademy.com/resources/docs/css/typography/font-weight) | To set the text to be thicker or thinner. |
+| [`letter-spacing`](https://www.codecademy.com/resources/docs/css/typography/letter-spacing) | Set the horizontal spacing between the individual characters in an element. |
+| [`line-height`](https://www.codecademy.com/resources/docs/css/typography/line-height) | Set the vertical spacing between lines of text.|
+| [`text-align`](https://www.codecademy.com/resources/docs/css/typography/text-align) | To set the text alignment of inline contents. |
+| [`text-indent`](https://www.codecademy.com/resources/docs/css/typography/text-indent) | Indents (leaves empty space) the first line in a text-block. |
+| [`text-justify`](https://www.codecademy.com/resources/docs/css/typography/text-justify) | Sets the justifcation method of text when `text-align: justify;` is applied to an element. |
+| [`text-shadow`](https://www.codecademy.com/resources/docs/css/typography/text-shadow) | Adds shadow to text. |
+| [`text-transform`](https://www.codecademy.com/resources/docs/css/typography/text-transform) | Specifies how to capitalize an element’s text. |
+| [`word-spacing`](https://www.codecademy.com/resources/docs/css/typography/word-spacing) | Set space between words. |
+
 
 ## Non-inherited properties
 
