@@ -20,7 +20,7 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 <!-- prettier-ignore -->
 | Property | Description |
 | --- | --- |
-| [`color`](https://www.codecademy.com/resources/docs/css/colors) |
+| [`color`](https://www.codecademy.com/resources/docs/css/colors/color) | Sets the text color of an element. |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) |
 | All [Typograpgy](https://www.codecademy.com/resources/docs/css/typography) properties exept `text-decoration` and `text-overflow`. |
 | [`cursor`](https://www.codecademy.com/resources/docs/css/cursor) |
