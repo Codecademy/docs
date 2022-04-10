@@ -30,7 +30,7 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 <!-- prettier-ignore -->
 | Property | Description |
 | --- | --- |
-| All [`background` properties](https://www.codecademy.com/resources/docs/css/background) |
+| All [background](https://www.codecademy.com/resources/docs/css/background) properties | Adds wallpaper visuals for HTML elements. | 
 | [`border`](https://www.codecademy.com/resources/docs/css/borders) |
 | [`box-sizing`](https://www.codecademy.com/resources/docs/css/box-sizing) |
 | [`float`](https://www.codecademy.com/resources/docs/css/floats) |
