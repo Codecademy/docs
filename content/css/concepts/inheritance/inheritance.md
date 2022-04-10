@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-CSS inheritance is the cascading in CSS. Inheritance is when styling that is applied to a chilled element when they are applied to its parent. Some properties are inherited but others are not.
+CSS inheritance describes how certain styles are initialized or computed depending on the CSS property and whether a value was set. Some properties are inherited with an initial, default value. Other properties are non-inherited and set to the computed value of its containing element by default.
 
 ## Inherited properties
 
