@@ -28,8 +28,8 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 ## Non-inherited properties
 
 <!-- prettier-ignore -->
-| Property |
-| --- |
+| Property | Description |
+| --- | --- |
 | All [`background` properties](https://www.codecademy.com/resources/docs/css/background) |
 | [`border`](https://www.codecademy.com/resources/docs/css/borders) |
 | [`box-sizing`](https://www.codecademy.com/resources/docs/css/box-sizing) |
