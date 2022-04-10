@@ -15,7 +15,7 @@ CatalogContent:
 
 CSS inheritance is the cascading in CSS. Inheritance is when styling that is applied to a chilled element when they are applied to its parent. Some properties are inherited but others are not.
 
-## Inherided propities
+## Inherited properties
 
 <!-- prettier-ignore -->
 | Property |
