@@ -22,7 +22,7 @@ Inherited properties apply to the element and its children.
 | --- | --- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors/color) | Sets the text color of an element. |
 | [`visibility`](https://www.codecademy.com/resources/docs/css/visibility) | Hides or reveals an element without affecting its placement within the page. |
-| [`cursor`](https://www.codecademy.com/resources/docs/css/cursor) |
+| [`cursor`](https://www.codecademy.com/resources/docs/css/cursor) | The `cursor` property sets the appearance of the mouse cursor when hovering over an element. |
 | [`font`](https://www.codecademy.com/resources/docs/css/typography/font) | Sets an element's font properties in a single declaration. |
 | [`font-family`](https://www.codecademy.com/resources/docs/css/typography/font-family) | Specifies a font typeface in a ruleset. |
 | [`font-size`](https://www.codecademy.com/resources/docs/css/typography/font-size) | Sets the font size of an element's text. |
@@ -57,7 +57,7 @@ Non-inherited properties are not inherited by its children.
 | All [sizing](https://www.codecademy.com/resources/docs/css/sizing) properties | Defines the `height` and `width` values of an element. |
 | [`text-decoration`](https://www.codecademy.com/resources/docs/css/typography/text-decoration) | Styles the text of an element with line decorations. |
 | [`text-overflow`](https://www.codecademy.com/resources/docs/css/typography/text-overflow) | Specifies how hidden content is signaled to the user. |
-| [`transform`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) |
+| [`transform`](https://www.codecademy.com/resources/docs/css/transform-functions/transform) | Allows us to rotate, scale, skew or translate an element. |
 | [`transform-origin`](https://www.codecademy.com/resources/docs/css/transform-functions/transform-origin) | Sets the position of a transformed element relative to its origin. |
 | [`transform-style`](https://www.codecademy.com/resources/docs/css/transform-functions/transform-style) | Confirms whether an element's children are flattened or positioned in a 3D space. |
 | All [transition](https://www.codecademy.com/resources/docs/css/transition) properties | Controls the animation speed and timing of property changes in an element. |
