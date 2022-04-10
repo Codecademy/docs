@@ -17,6 +17,8 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 
 ## Inherited properties
 
+Inherited properties apply to the element and its children.
+
 <!-- prettier-ignore -->
 | Property | Description |
 | --- | --- |
@@ -26,6 +28,8 @@ CSS inheritance describes how certain styles are initialized or computed dependi
 | [`cursor`](https://www.codecademy.com/resources/docs/css/cursor) |
 
 ## Non-inherited properties
+
+Non-inherited properties are not inherited by its children.
 
 <!-- prettier-ignore -->
 | Property | Description |
