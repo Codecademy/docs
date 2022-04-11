@@ -21,6 +21,7 @@ SQL Injection is a technique to inject unwanted code into a database. Malicious 
 ## Examples
 
 ## Retrieving Data
+
 In this example, there is a form that asks for your `User ID`. This form will run this SQL command to check if the user exists:
 
 ```sql
@@ -30,6 +31,7 @@ SELECT * FROM users WHERE UserID = "input from user"
 Now if a user enters `1 OR 1=1`, then the user injecting the code will be able to access all the UserId's because `1=1` will always execute as `true`.
 
 ## Dropping a Table
+
 This example will send a command to the database to drop a table.
 
 ```sql
