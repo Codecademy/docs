@@ -28,7 +28,7 @@ Where `h` is the newly created `HashSet` and `DataType` is the data type that wi
 
 ## Adding Items
 
-New items can be added to the `HasSet` with the `.add()` method.
+New items can be added to the `HashSet` with the `.add()` method.
 
 ### Syntax
 
