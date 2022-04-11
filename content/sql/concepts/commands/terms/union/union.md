@@ -48,7 +48,7 @@ Appends all the rows from `table2` to all the rows from `table1`.
 
 ## Example
 
-This example combines the rows from two student tables, removing any duplicates.
+This example combines the rows from two student tables, `students_term_one` and `students_term_two`, removing any duplicates.
 
 ```sql
 SELECT first_name, last_name, final_grade
