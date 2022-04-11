@@ -24,7 +24,7 @@ import java.util.HashSet;
 HashSet<DataType> h = new HashSet<DataType>();
 ```
 
-Where `h` is the newly created `HashSet` and `DataType` is the data type that will be stored in it.
+Where `h` is a `HashSet` created with the `new` keyword and `DataType` is the data type that will be stored in it.
 
 ## Adding Items
 
