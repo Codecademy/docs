@@ -18,7 +18,7 @@ CatalogContent:
 
 SQL Injection is a technique to inject unwanted code into a database. Malicious code can be sent to a database and run without permission. The result can be anything from bypassing login to data theft or corruption of a databse. The code is typically entered when a website or application asks for user input. It is important to protect your database by making sure your database does not take user input as a command to be run. Testing of your database can show any vulnarabilites to SQL Injection. Also, use SQL parameters to protect from injection, allowing you to have more control over the values being passed. This will ensure SQL will treat the data as text and not as a command to be executed.
 
-## Examples
+## Example
 
 In this example, there is a form that asks for your `User ID`. This form will run this SQL command to check if the user exists:
 
