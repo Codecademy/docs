@@ -1,6 +1,6 @@
 ---
 Title: 'time.ctime()'
-Description: 'Returns a formatted string of the time elapsed since the epoch, expressed in seconds.'
+Description: 'Takes a time, expressed in seconds elapsed since the epoch, and returns a formatted string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `ctime()` function returns a formatted string of the time elapsed, expressed in seconds, since the epoch.
+The `ctime()` function takes a time, expressed in seconds since the epoch, and returns a formatted string.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The `ctime()` function returns a formatted string of the time elapsed, expressed
 ctime(s)
 ```
 
-The argument `s` is the number of seconds since the epoch. The epoch is defined as January 1, 1970, 00:00:00. If no argument is provided the function will return the current local time.
+The argument `s` is the number of seconds since the epoch. The epoch is defined as January 1, 1970, 00:00:00. If no argument is provided the function will use the current local time.
 
 ## Example
 
