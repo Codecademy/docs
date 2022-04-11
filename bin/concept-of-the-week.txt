@@ -1,1 +1,1 @@
-content/css/concepts/grids/grids.md
+content/java/concepts/array-list/array-list.md
