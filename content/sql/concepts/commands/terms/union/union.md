@@ -1,6 +1,6 @@
 ---
 Title: 'UNION'
-Description: 'Allows the combination of the results of two or more SELECT queries.'
+Description: 'Combines the results of two or more SELECT queries.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
