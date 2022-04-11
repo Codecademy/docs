@@ -104,7 +104,7 @@ This will output:
 
 ## Checking For Existence of an Item
 
-The `HasSet` can be checked if it contains a particular item with the `.contains()` method.
+The `HashSet` can be checked if it contains a particular item with the `.contains()` method.
 
 ### Syntax
 
