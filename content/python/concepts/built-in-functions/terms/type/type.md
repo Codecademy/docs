@@ -20,6 +20,8 @@ A function that returns the data type of an object.
 type(some_object)
 ```
 
+The `type()` function primarily accepts `some_object` as a parameter, which can be any of Python's [data types](https://www.codecademy.com/resources/docs/python/data-types).
+
 ## Example
 
 The `type()` function can be used to confirm the data type of the object `spam`:
@@ -37,7 +39,7 @@ print(type(spam))
 The following example uses the `type()` function to return the data type of the `strings` object:
 
 ```codebyte/python
-strings = ['foo','bar']
+strings = ['foo', 'bar']
 
 print(type(strings))
 ```
