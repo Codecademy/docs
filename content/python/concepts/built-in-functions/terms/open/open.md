@@ -47,7 +47,7 @@ There are several modes Python can do when opening a file. Some commonly-used mo
 Files can be read in either a textual or binary format and denoted as `t` and `b`, respectively. The default format is text.
 
 ```py
-open("text.txt") # To open a file.
+open("text.txt") # To open a file
 open("text.txt", 'bx') # Creates a file in binary mode
 ```
 
@@ -56,22 +56,22 @@ open("text.txt", 'bx') # Creates a file in binary mode
 In the example below, multiple calls to the `open()` function are made, using several modes to initially create a file with some content and then overwrite it:
 
 ```codebyte/python
-## Create the file.
+# Create the file
 f = open("text.txt", "w")
 
-f.write("Hello, World!")
+f.write("Hello, World!\n")
 
-## Ammend the file.
+# Amend the file
 f = open("text.txt", "a")
 
 f.write("Hello, Code Ninjas!")
 
-## Read from the file.
+# Read from the file
 f = open("text.txt", "r")
 
-## Display its contents.
+# Display its contents
 print(f.read())
 
-## Close the file.
+# Close the file
 f.close()
 ```
