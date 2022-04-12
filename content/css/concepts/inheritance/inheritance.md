@@ -21,7 +21,6 @@ Inherited properties apply to the element and its children.
 | Property                                                                                    | Description                                                                                  |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | [`color`](https://www.codecademy.com/resources/docs/css/colors/color)                       | Sets the text color of an element.                                                           |
-| [`visibility`](https://www.codecademy.com/resources/docs/css/visibility)                    | Hides or reveals an element without affecting its placement within the page.                 |
 | [`cursor`](https://www.codecademy.com/resources/docs/css/cursor)                            | The `cursor` property sets the appearance of the mouse cursor when hovering over an element. |
 | [`font`](https://www.codecademy.com/resources/docs/css/typography/font)                     | Sets an element's font properties in a single declaration.                                   |
 | [`font-family`](https://www.codecademy.com/resources/docs/css/typography/font-family)       | Specifies a font typeface in a ruleset.                                                      |
@@ -35,6 +34,7 @@ Inherited properties apply to the element and its children.
 | [`text-justify`](https://www.codecademy.com/resources/docs/css/typography/text-justify)     | Sets the justifcation method of text when `text-align: justify;` is applied to an element.   |
 | [`text-shadow`](https://www.codecademy.com/resources/docs/css/typography/text-shadow)       | Adds shadow to text.                                                                         |
 | [`text-transform`](https://www.codecademy.com/resources/docs/css/typography/text-transform) | Specifies how to capitalize an element’s text.                                               |
+| [`visibility`](https://www.codecademy.com/resources/docs/css/visibility)                    | Hides or reveals an element without affecting its placement within the page.                 |
 | [`word-spacing`](https://www.codecademy.com/resources/docs/css/typography/word-spacing)     | Set space between words.                                                                     |
 
 ## Non-inherited properties
@@ -43,12 +43,12 @@ Non-inherited properties are not inherited by its children.
 
 | Property                                                                                                 | Description                                                                              |
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| All [Flexbox](https://www.codecademy.com/resources/docs/css/flexbox) properties                          | Arranges elements responsively and according to screen size.                             |
+| All [Grid](https://www.codecademy.com/resources/docs/css/grids) properties                               | Uses rows, columns, and gaps to organize content on a web page.                          |
 | All [background](https://www.codecademy.com/resources/docs/css/background) properties                    | Adds wallpaper visuals for HTML elements.                                                |
 | All [border](https://www.codecademy.com/resources/docs/css/borders) properties                           | Defines the border styles of an element.                                                 |
 | [`box-sizing`](https://www.codecademy.com/resources/docs/css/box-sizing)                                 | Includes `padding` and `border` in the calculation of an element's `height` and `width`. |
-| All [Flexbox](https://www.codecademy.com/resources/docs/css/flexbox) properties                          | Arranges elements responsively and according to screen size.                             |
 | [`float`](https://www.codecademy.com/resources/docs/css/floats)                                          | Repositions an element to the left or right side of its containing element.              |
-| All [Grid](https://www.codecademy.com/resources/docs/css/grids) properties                               | Uses rows, columns, and gaps to organize content on a web page.                          |
 | All [`margin` properties](https://www.codecademy.com/resources/docs/css/margins)                         | Sets the spacing beyond the border of an element.                                        |
 | All [overflow properties](https://www.codecademy.com/resources/docs/css/overflow)                        | Manages content that spills outside of its box.                                          |
 | All [padding](https://www.codecademy.com/resources/docs/css/padding) properties                          | Sets the spacing between the content and margin of an element.                           |
