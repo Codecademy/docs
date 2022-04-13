@@ -70,53 +70,6 @@ This will output:
 [Pizza, Sausage, Potatoes, Cabbage, Salad]
 ```
 
-## `.peek()` and `.poll()` Methods
-
-The `Queue` methods `.peek()` and `.poll()` operate on the item at the head of the `PriorityQueue`. `.peek()` will return the item at the head of the queue without removing it, while `.poll()` will return the head of the queue and remove it.
-
-### Syntax
-
-```java
-Datatype i = priorityqueue.peek();
-Datatype j = priorityqueue.poll();
-```
-
-Where `DataType` is the data type that `priorityqueue` was defined with. Both return a null value when operating on an empty `PriorityQueue`.
-
-### Example
-
-```java
-import java.util.PriorityQueue;
-
-public class Main {
- public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
-   System.out.println(food.peek());
-   while (food.size() >0) {
-     System.out.println(food.poll());
-   }
-   System.out.println(food.peek());
- }
-}
-```
-
-This will output:
-
-```shell
-Cabbage
-Cabbage
-Pizza
-Potatoes
-Salad
-Sausage
-null
-```
-
 ## Removing Specific Items
 
 Specific Items can be removed from the `PriorityQueue` with the `.remove()` method.
@@ -280,3 +233,98 @@ Sausage
 Potatoes
 Salad
 ```
+
+## `.peek()` and `.poll()` Methods
+
+The `Queue` methods `.peek()` and `.poll()` operate on the item at the head of the `PriorityQueue`. `.peek()` will return the item at the head of the queue without removing it, while `.poll()` will return the head of the queue and remove it.
+
+### Syntax
+
+```java
+Datatype i = priorityqueue.peek();
+Datatype j = priorityqueue.poll();
+```
+
+Where `DataType` is the data type that `priorityqueue` was defined with. Both return a null value when operating on an empty `PriorityQueue`.
+
+### Example
+
+```java
+import java.util.PriorityQueue;
+
+public class Main {
+ public static void main(String[] args) {
+   PriorityQueue<String> food = new PriorityQueue<String>();
+   food.add("Cabbage");
+   food.add("Pizza");
+   food.add("Sausage");
+   food.add("Potatoes");
+   food.add("Salad");
+   System.out.println(food.peek());
+   while (food.size() >0) {
+     System.out.println(food.poll());
+   }
+   System.out.println(food.peek());
+ }
+}
+```
+
+This will output:
+
+```shell
+Cabbage
+Cabbage
+Pizza
+Potatoes
+Salad
+Sausage
+null
+```
+
+## Using a Custom Comparitor
+
+To prioritize items by some other scheme than the natural sort order, a custom `Comparitor` must be used. A `Comparitor` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparitor<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a `1` if the first argument comes before the second, and a `-1` if the first argument comes after the second.
+
+### Syntax
+
+```java
+static class CustomComparitor implements Comparitor<DataType> {
+  @Override
+  public int compare(DataType item1, DataType item2)
+  {
+    // return 1 if item1 < item2, and -1 if item1 > item2
+  }
+  
+PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparitor());
+```
+
+### Example
+
+The following example reverses the ordering of the `String` values in the `PriorityQueue`:
+
+```java
+import java.util.PriorityQueue;
+
+static class CustomComparitor implements Comparitor<String> {
+  @Override
+  public int compare(String item1, DataType item2)
+  {
+    // return 1 if item1 < item2, and -1 if item1 > item2
+  }
+
+public class Main {
+ public static void main(String[] args) {
+   PriorityQueue<String> food = new PriorityQueue<String>();
+   food.add("Cabbage");
+   food.add("Pizza");
+   food.add("Sausage");
+   food.add("Potatoes");
+   food.add("Salad");
+   while (food.size() >0) {
+     System.out.println(food.poll());
+     System.out.println(food.size());
+   }
+ }
+}
+```
+
