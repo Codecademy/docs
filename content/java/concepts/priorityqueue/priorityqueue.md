@@ -284,7 +284,7 @@ null
 
 ## Using a Custom Comparator
 
-To prioritize items by some other scheme than the natural sort order, a custom `Comparator` must be used. A `Comparator` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparator<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a `1` if the first argument comes before the second, and a `-1` if the first argument comes after the second.
+To prioritize items by some other scheme than the natural sort order, a custom `Comparator` must be used. A `Comparator` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparator<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a positive value if the first argument comes before the second, and a negative value if the first argument comes after the second.
 
 ### Syntax
 
@@ -297,7 +297,7 @@ static class CustomComparator implements Comparator<DataType> {
   @Override
   public int compare(DataType item1, DataType item2)
   {
-    // return 1 if item1 < item2, and -1 if item1 > item2
+    // return positive if item1 < item2, and negative if item1 > item2
   }
   
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
@@ -305,7 +305,7 @@ PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 
 ### Example
 
-The following example reverses the ordering of the `String` values in the `PriorityQueue`:
+The following example reverses the priorities of the `String` values in the `PriorityQueue`:
 
 ```java
 import java.util.PriorityQueue;
