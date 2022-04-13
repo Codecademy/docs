@@ -1,6 +1,6 @@
 ---
 Title: 'PriorityQueue'
-Description: 'A PriorityQueue stores elements in a collection sorted by natural ordering or by a custom Comparitor.'
+Description: 'A PriorityQueue stores elements in a collection sorted by natural ordering or by a custom Comparator.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `PriorityQueue` is an implementation of the `Queue` interface and stores elements in a collection prioritized by natural ordering, or by a custom `Comparitor`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
+A `PriorityQueue` is an implementation of the `Queue` interface and stores elements in a collection prioritized by natural ordering, or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
 
 ## Syntax
 
@@ -28,11 +28,12 @@ Where `q` is a `PriorityQueue` created with the `new` keyword and `DataType` is 
 
 ```java
 import java.util.PriorityQueue;
+import java.util.Comparator;
 
-PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparitor());
+PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-Where `CustomComparitor` is a  custom `Comparitor` for `DataType` or a parent class of `DataType`.
+Where `CustomComparator` is a  custom `Comparator` for `DataType` or a parent class of `DataType`.
 
 ## Adding Items
 
@@ -281,21 +282,25 @@ Sausage
 null
 ```
 
-## Using a Custom Comparitor
+## Using a Custom Comparator
 
-To prioritize items by some other scheme than the natural sort order, a custom `Comparitor` must be used. A `Comparitor` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparitor<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a `1` if the first argument comes before the second, and a `-1` if the first argument comes after the second.
+To prioritize items by some other scheme than the natural sort order, a custom `Comparator` must be used. A `Comparator` is a special class that is used by the `PriorityQueue` to determine when one item of a given data type should come before another item of the same data type. The function should implement the `Comparator<DataType>` interface, where `DataType` is the data type being compared, and override the `compare` method, which takes two arguments of `DataType` and returns a `1` if the first argument comes before the second, and a `-1` if the first argument comes after the second.
 
 ### Syntax
 
 ```java
-static class CustomComparitor implements Comparitor<DataType> {
+import java.util.PriorityQueue;
+
+import java.util.Comparator;
+
+static class CustomComparator implements Comparator<DataType> {
   @Override
   public int compare(DataType item1, DataType item2)
   {
     // return 1 if item1 < item2, and -1 if item1 > item2
   }
   
-PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparitor());
+PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
 ### Example
@@ -304,17 +309,20 @@ The following example reverses the ordering of the `String` values in the `Prior
 
 ```java
 import java.util.PriorityQueue;
+import java.util.Comparator;
 
-static class CustomComparitor implements Comparitor<String> {
-  @Override
-  public int compare(String item1, DataType item2)
-  {
-    // return 1 if item1 < item2, and -1 if item1 > item2
-  }
 
 public class Main {
+  static class CustomComparator implements Comparator<String> {
+    @Override
+    public int compare(String item1, String item2)
+    {
+      return item1.compareTo(item2) < 0 ? 1 : -1;
+    }    
+  }
+    
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
+   PriorityQueue<String> food = new PriorityQueue<String>(new CustomComparator());
    food.add("Cabbage");
    food.add("Pizza");
    food.add("Sausage");
@@ -322,9 +330,18 @@ public class Main {
    food.add("Salad");
    while (food.size() >0) {
      System.out.println(food.poll());
-     System.out.println(food.size());
    }
  }
 }
+
 ```
 
+This will output:
+
+```shell
+Sausage
+Salad
+Potatoes
+Pizza
+Cabbage
+```
