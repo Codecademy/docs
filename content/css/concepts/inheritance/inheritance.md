@@ -43,12 +43,12 @@ Non-inherited properties are not inherited by its children.
 
 | Property                                                                                                 | Description                                                                              |
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| All [Flexbox](https://www.codecademy.com/resources/docs/css/flexbox) properties                          | Arranges elements responsively and according to screen size.                             |
-| All [Grid](https://www.codecademy.com/resources/docs/css/grids) properties                               | Uses rows, columns, and gaps to organize content on a web page.                          |
 | All [background](https://www.codecademy.com/resources/docs/css/background) properties                    | Adds wallpaper visuals for HTML elements.                                                |
 | All [border](https://www.codecademy.com/resources/docs/css/borders) properties                           | Defines the border styles of an element.                                                 |
 | [`box-sizing`](https://www.codecademy.com/resources/docs/css/box-sizing)                                 | Includes `padding` and `border` in the calculation of an element's `height` and `width`. |
+| All [Flexbox](https://www.codecademy.com/resources/docs/css/flexbox) properties                          | Arranges elements responsively and according to screen size.                             |
 | [`float`](https://www.codecademy.com/resources/docs/css/floats)                                          | Repositions an element to the left or right side of its containing element.              |
+| All [Grid](https://www.codecademy.com/resources/docs/css/grids) properties                               | Uses rows, columns, and gaps to organize content on a web page.                          |
 | All [`margin` properties](https://www.codecademy.com/resources/docs/css/margins)                         | Sets the spacing beyond the border of an element.                                        |
 | All [overflow properties](https://www.codecademy.com/resources/docs/css/overflow)                        | Manages content that spills outside of its box.                                          |
 | All [padding](https://www.codecademy.com/resources/docs/css/padding) properties                          | Sets the spacing between the content and margin of an element.                           |
