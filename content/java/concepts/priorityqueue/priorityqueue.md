@@ -33,7 +33,7 @@ import java.util.Comparator;
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
-Where `CustomComparator` is a  custom `Comparator` for `DataType` or a parent class of `DataType`.
+Where `CustomComparator` is a custom `Comparator` for `DataType` or a parent class of `DataType`.
 
 ## Adding Items
 
@@ -299,7 +299,7 @@ static class CustomComparator implements Comparator<DataType> {
   {
     // return positive if item1 < item2, and negative if item1 > item2
   }
-  
+
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
 
@@ -318,9 +318,9 @@ public class Main {
     public int compare(String item1, String item2)
     {
       return item1.compareTo(item2) < 0 ? 1 : -1;
-    }    
+    }
   }
-    
+
  public static void main(String[] args) {
    PriorityQueue<String> food = new PriorityQueue<String>(new CustomComparator());
    food.add("Cabbage");
