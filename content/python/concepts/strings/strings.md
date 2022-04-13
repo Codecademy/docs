@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes. Strings can be of any length and can contain letters, words, spaces, and symbols. Other data types such as integers, doubles, and booleans can also be strings so long as they are wrapped in quotes.'
+Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -43,14 +43,21 @@ Strings are immutable; they cannot change. Every time an operation is performed 
 
 ## Accessing the Characters of a String
 
-A string can be thought of as a list of characters. Each character has an index, starting at 0:
+Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
 
-```py
-name = "phillis"
-name[0] # "p"
+```codebyte/py
+myString = "Hello, World!"
+
+var_1 = myString[0]
+var_2 = myString[7:]
+var_3 = myString[1:4]
+
+print("var_1: " + var_1)
+print("var_2: " + var_2)
+print("var_3: " + var_3)
 ```
 
-If you try to access an index out of bounds, it will return an `IndexError`.
+If an attempt is made to access an index out of bounds, it will return an `IndexError`.
 
 ```py
 name = "phillis"
@@ -59,7 +66,7 @@ name[8] # Throws an IndexError
 
 ## Multi-line Strings
 
-Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three single or double quotes:
+Strings can be long or short. If for longer text, a multi-line string can be used. Multi-line strings begin and end with three single or double quotes:
 
 ```py
 my_string = """If it were done when 'tis done, then 'twere well
@@ -120,7 +127,7 @@ print(note)
 
 ## Modifying Strings
 
-Python has special operators to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
+Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
 
 ```py
 string_one = "Hello, "
@@ -140,18 +147,26 @@ if "World" in new_combo:
   # Output: It's here!
 ```
 
-Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
+## Comparing Strings
 
-```codebyte/py
-myString = "Hello, World!"
+Python can use comparison [operators](https://www.codecademy.com/resources/docs/python/operators) to compare the contents of two strings. The operators behave as they do with numeric arguments:
 
-var_1 = myString[0]
-var_2 = myString[7:]
-var_3 = myString[1:4]
+- Equal, `==`, for returning `True` if two strings are equal.
+- Not equal, `!=`, for returning `True` if two strings are not equal.
+- Less than, `<`, for returning `True` if the left string is lexically prior to than the right string.
+- Less than or equal to, `<=`, for returning `True` if the left string is equal to or lexically prior to than the right string.
+- Greater than, `>`, for returning `True` if the left string comes lexically after the right string.
+- Greater than or equal to, `>=`, for returning `True` if the left string is equal to or comes lexically after the right string.
 
-print("var_1: " + var_1)
-print("var_2: " + var_2)
-print("var_3: " + var_3)
+```py
+string_one = "Hello"
+string_two = "World"
+
+print(string_one > string_two)
+# Output: False
+
+print(string_one < string_two)
+# Output: True
 ```
 
 ## Built-in String Methods
