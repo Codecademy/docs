@@ -1,6 +1,6 @@
 ---
 Title: 'getline()'
-Description: 'Converts the user input into a string delimited by a character, if specified, and then stored into a variable.'
+Description: 'Converts user input into a string delimited by a character, if specified, and then stored into a variable.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
