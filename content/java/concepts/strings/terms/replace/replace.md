@@ -21,7 +21,7 @@ A char represents a single character while `CharSequence` is the interface repre
 ```pseudo
 string.replace(char oldValue, char newValue);
 
-string.replace(CharSequence oldValue, CharSequence newValue)
+string.replace(CharSequence oldValue, CharSequence newValue);
 ```
 
 In both cases the result will be a new `string` with all instances of `oldValue` replaced with `newValue`.
