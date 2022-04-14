@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replace()` `String` method takes a string and replaces a given char or `CharSequence` with another char or `CharSequence`, returning the new string.
+The `.replace()` `String` method takes a string and replaces the given char or `CharSequence` with another char or `CharSequence`, returning the new string.
 
 A char represents a single character while `CharSequence` is the interface representing a sequence of characters. The `String` class is one implementation of this interface.
 
