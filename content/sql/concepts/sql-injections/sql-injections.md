@@ -28,7 +28,7 @@ In this example, there is a form that asks for your `User ID`. This form will ru
 SELECT * FROM users WHERE UserID = 'input from user'
 ```
 
-Now if a user enters `1 OR 1=1`, then the user injecting the code will be able to access all the UserId's because `1=1` will always execute as `true`.
+Now if a user enters `1' OR '1'='1`, then the SQL command becomes `SELECT * FROM users WHERE UserID = '1' OR '1'='1'`. The user injecting the code will be able to access all the UserID's because `1=1` will always execute as `true`.
 
 ## Dropping a Table
 
