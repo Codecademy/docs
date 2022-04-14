@@ -19,7 +19,7 @@ A char represents a single character while `CharSequence` is the interface repre
 ## Syntax
 
 ```pseudo
-string.replace(char oldValue, char newValue)
+string.replace(char oldValue, char newValue);
 
 string.replace(CharSequence oldValue, CharSequence newValue)
 ```
