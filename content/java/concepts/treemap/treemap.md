@@ -38,7 +38,6 @@ public class Main {
 
     TreeMap<String, String> courseTeacher = new TreeMap<String, String>();
 
-    // Add keys and values (CourseNames, Teacher)
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
