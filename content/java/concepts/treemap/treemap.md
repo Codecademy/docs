@@ -1,6 +1,6 @@
 ---
 Title: 'TreeMap'
-Description: 'Used to store items as a key-value pairs, insuring items are sorted in natural key order. The keys and values can be of either same or different types.'
+Description: 'Used to store items as key-value pairs, ensuring items are sorted in a natural key order. The keys and values can be either the same or of different types.'
 Subjects:
   - 'Computer Science'
 Tags:
