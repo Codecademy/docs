@@ -31,7 +31,7 @@ The format string consists of any arbitrary text containing one or more directiv
 %[num$][flags][width][.precision]specifier
 ```
 
-Aside from the `specifier`, the rest of the following arguments are optional:
+Aside from the `specifier`, all of the following arguments are optional:
 
 - `num$`: The number (one-based) of the value argument to format followed by `$`. If specified for one directive in the format string, it should be specified for all, or the function will return unexpected results.
 - `flags`: Specification for padding and leading `+` sign for numeric values.
