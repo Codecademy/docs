@@ -117,7 +117,7 @@ public class Main {
 }
 ```
 
-This will output:
+The following output will look like this:
 
 ```shell
 {History=Ben, Mathematics=Jeanette}
