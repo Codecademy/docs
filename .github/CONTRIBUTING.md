@@ -99,7 +99,7 @@ To link your Codecademy user profile to GitHub:
 4. Select the Github icon under "Or log in using:"
 5. Proceed through the OAuth process.
 
-## Any tips for a Pull Request?
+## Any tips for a Pull Request (PR)?
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
@@ -116,6 +116,23 @@ To link your Codecademy user profile to GitHub:
 - Formatting standards
 - Typos/bugs
 - Plagiarism
+
+## How do we update a PR branch?
+
+To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
+
+![Image of where the `Fetch upstream` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-tp-date-1.png)
+
+![Image of the `Fetch and merge` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
+
+The following Git commands can be run on the command line:
+
+```pseudo
+git remote add upstream https://github.com/Codecademy/docs.git
+git fetch upstream
+git rebase upstream main
+git push -f
+```
 
 ## Additional Resources
 
