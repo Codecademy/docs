@@ -31,7 +31,7 @@ SELECT column1, column2, column2 ... columnN
 FROM table2
 ```
 
-Returns all rows from `table1` and `table2`, dropping any duplicated rows.
+In the snippet above, all rows from `table1` and `table2` are returned, excluding duplicates.
 
 The `UNION` command also has a `UNION ALL` option. The difference between `UNION` and `UNION ALL` is that where `UNION` will drop any duplicated rows in the result, `UNION ALL` will append the complete results of one query to another regardless of duplication.
 
