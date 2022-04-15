@@ -36,7 +36,7 @@ Aside from the `specifier`, the rest of the following arguments are optional:
 - `num$`: The number (one-based) of the value argument to format followed by `$`. If specified for one directive in the format string, it should be specified for all, or the function will return unexpected results.
 - `flags`: Specification for padding and leading `+` sign for numeric values.
 - `width`: Specification of the minimum number of characters the formatted value should fill. (Padding specified by `flags` with a space as the default.
-- `.precision`:Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
+- `.precision`: Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
 - `specifier`: An alpha character that specifies the format of the output.
 
 The possible flags are listed in the table below:
