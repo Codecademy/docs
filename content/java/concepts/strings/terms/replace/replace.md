@@ -20,8 +20,6 @@ A char represents a single character while `CharSequence` is the interface repre
 
 ```pseudo
 string.replace(char oldValue, char newValue);
-
-string.replace(CharSequence oldValue, CharSequence newValue);
 ```
 
 A char represents a single character. Other legitimate values that can be applied to the `.replace()` method include the following:
