@@ -24,7 +24,7 @@ The combined queries can be any valid `SELECT` statements, including [`WHERE`](h
 
 ## Syntax
 
-```sql
+```pseudo
 SELECT column1, column2, column2 ... columnN
 FROM table1
 UNION
