@@ -181,7 +181,7 @@ public class Main {
 }
 ```
 
-The output will be:
+The following output will look like this:
 
 ```shell
 Courses offered at our Institute:
