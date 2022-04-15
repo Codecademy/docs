@@ -75,7 +75,7 @@ public class Main {
 }
 ```
 
-This will output:
+This will output the following "course=teacher" assignments:
 
 ```shell
 {History=Ben, Mathematics=Jeanette, Physics=Lily}
