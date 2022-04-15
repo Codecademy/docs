@@ -36,7 +36,7 @@ Returns all rows from `table1` and `table2`, dropping any duplicated rows.
 
 The `UNION` command also has a `UNION ALL` option. The difference between `UNION` and `UNION ALL` is that where `UNION` will drop any duplicated rows in the result, `UNION ALL` will append the complete results of one query to another regardless of duplication.
 
-```sql
+```pseudo
 SELECT column1, column2, column2 ... columnN
 FROM table1
 UNION ALL
