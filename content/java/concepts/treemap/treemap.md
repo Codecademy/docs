@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `TreeMap`, like a [`HashMap`](https://www.codecademy.com/resources/docs/java/HashMap), implements the [`Map`](https://www.codecademy.com/resources/docs/java/Map) interface, which means it stores items as key-value pairs. Unlike a `HashMap`, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The tradeoff for this natural ordering of the `TreeMap` is that it operates slower than a `HashMap`.
+A `TreeMap`, like a [`HashMap`](https://www.codecademy.com/resources/docs/java/HashMap), uses the [`Map`](https://www.codecademy.com/resources/docs/java/Map) interface, which means it stores items as key-value pairs. Unlike a `HashMap`, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The tradeoff for this natural ordering of the `TreeMap` is that it operates slower than a `HashMap`.
 
 ## Syntax
 
