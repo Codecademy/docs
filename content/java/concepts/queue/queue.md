@@ -15,6 +15,16 @@ CatalogContent:
 
 A `Queue` is an interface provided in the `java.util` package that extends collections to provide additional methods to access or manipulate items at the head of the queue. Where the "head" of the queue is defined by the particular implementation. In a typical implementation, the queue will access elements in a FIFO (first-in-first-out) manner. However, in a stack implementation, the order will be LIFO (last-in-first-out). In a priority queue implementation, the first item out will be defined by its specified priority.
 
+## Syntax
+
+```java
+import java.util.Queue;
+
+Queue<DataType> q = new QueueClass<DataType>();
+```
+
+Where `DataType` is the data type to be stored in the queue, and `QueueClass` is some class implementing the `Queue` interface.
+
 ## Mehods
 
 The `Queue` interface utilizes the following methods:
@@ -26,7 +36,7 @@ The `Queue` interface utilizes the following methods:
 - `.element()` : returns the head of the `Queue` without removing it.
 - `.peek()` : returns the head of the `Queue` without removing it.
 
-## Syntax
+## Example
 
 This is an example of the `Queue` interface implemented by a `LinkedList`:
 
