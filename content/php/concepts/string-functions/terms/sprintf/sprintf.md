@@ -39,7 +39,7 @@ Aside from the `specifier`, the rest of the following arguments are optional:
 - `.precision`:Period followed by a number. For `e`, `E`, `f`, and `F` specifiers it is the number of digits after the decimal. For `g`, `G`, `h`, and `H` specifiers it is the maximum significant digits. For `s` specifier, it specifies the maximum character limit.
 - `specifier`: An alpha character that specifies the format of the output.
 
-The following table lists the possible flags:
+The possible flags are listed in the table below:
 
 |    Flag | Description                                                                                       |
 | ------: | ------------------------------------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ The following table lists the possible flags:
 |     `0` | Left-pads numbers with zeros. With the `s` specifier will also right-pad with zeros.              |
 | `'char` | Pads the result with the character `char`.                                                        |
 
-The following table lists the possible specifiers:
+The possible specifiers are listed in the table below:
 
 | Specifier | Description                                                                                         |
 | --------: | --------------------------------------------------------------------------------------------------- |
