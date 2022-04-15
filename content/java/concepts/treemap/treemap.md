@@ -26,7 +26,7 @@ TreeMap<KeyDatatype, ValueDatatype> myTreeMap = new TreeMap<KeyDatatype, ValueDa
 
 The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
-## Keys and Values
+## Accessing Items
 
 A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
 
