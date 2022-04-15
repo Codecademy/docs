@@ -51,7 +51,7 @@ public class Main {
 }
 ```
 
-This will output:
+This will print the following output:
 
 ```shell
 Lily
