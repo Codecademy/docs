@@ -13,7 +13,6 @@ Tags:
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
 ---
 
 The `UNION` command combines the results of two or more [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) queries. When two queries with the same number of columns are joined together with the `UNION` command, the combined results from both queries are returned. `UNION` is placed between the two queries being combined.
