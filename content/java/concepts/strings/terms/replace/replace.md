@@ -33,7 +33,7 @@ In any case, the returned result will always be a new `String` object with all i
 
 ## Example
 
-In the example below, a substring in `s`, "Hello", is replaced with "Goodbye" and reassigned:
+The example below tests a string `s` with the usage of char values, `Character` instances, and a `CharSequence` where a substring, "Hello", is replaced with "Goodbye" and reassigned:
 
 ```java
 public class ReplaceMe {
