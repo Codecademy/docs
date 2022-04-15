@@ -17,15 +17,13 @@ A `HashMap`, like a [`TreeMap`](https://www.codecademy.com/resources/docs/java/T
 
 ## Syntax
 
-The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used:
-
 ```java
 import java.util.HashMap
 
 HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
 ```
 
-The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used.  The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Keys and Values
 
