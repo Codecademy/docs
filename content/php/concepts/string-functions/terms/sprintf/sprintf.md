@@ -1,6 +1,6 @@
 ---
 Title: 'sprintf()'
-Description: 'Returns a string with the specified formatting.'
+Description: 'Returns a string with a specified formatting.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
