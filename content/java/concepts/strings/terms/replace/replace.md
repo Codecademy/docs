@@ -24,7 +24,12 @@ string.replace(char oldValue, char newValue);
 string.replace(CharSequence oldValue, CharSequence newValue);
 ```
 
-In both cases the result will be a new `string` with all instances of `oldValue` replaced with `newValue`.
+A char represents a single character. Other legitimate values that can be applied to the `.replace()` method include the following:
+
+- An instance of the `Character` class that resolves to a single character.
+- A `CharSequence` interface that represents a sequence of characters (the `String` class is one implementation of this interface).
+
+In any case, the returned result will always be a new `String` object with all instances of `oldValue` replaced with the `newValue`.
 
 ## Example
 
