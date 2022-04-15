@@ -81,16 +81,6 @@ This will output:
 {History=Ben, Mathematics=Jeanette, Physics=Lily}
 ```
 
-## Accessing an Item
-
-An item can be accessed within a `TreeMap` using the `.get()` method. It accepts one parameter, the key, and returns the corresponding value. From the first example:
-
-```java
-System.out.println(courseTeacher.get("Physics"));
-```
-
-Will print "Lily" because `.get()` returns the corresponding value for the "Physics" key.
-
 ## Removing Items
 
 Items can be removed from a `TreeMap` using the `.remove()` method. It accepts one parameter, the key, and removes the corresponding key-value pair from the `HashMap`.
