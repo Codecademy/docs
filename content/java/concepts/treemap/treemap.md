@@ -16,15 +16,13 @@ A `TreeMap`, like a [`HashMap`](https://www.codecademy.com/resources/docs/java/H
 
 ## Syntax
 
-The `TreeMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used:
-
 ```java
 import java.util.TreeMap
 
 TreeMap<KeyDatatype, ValueDatatype> myTreeMap = new TreeMap<KeyDatatype, ValueDatatype>();
 ```
 
-The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `TreeMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used. The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
 ## Accessing Items
 
