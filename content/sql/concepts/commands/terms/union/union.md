@@ -44,7 +44,7 @@ SELECT column1, column2, column2 ... columnN
 FROM table2
 ```
 
-Appends all the rows from `table2` to all the rows from `table1`.
+All the rows from `table2` are appended with all of the rows from `table1`.
 
 ## Example
 
