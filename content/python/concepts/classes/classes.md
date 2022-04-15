@@ -62,7 +62,7 @@ When calling a class method, no argument is provided for the parameter `self`, b
 ```py
 class Home:
   def paint_wall(self, color):
-    # ...
+    # Method body
 
 # Creating an instance of the class
 blue_home = Home()
