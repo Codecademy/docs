@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `String` class' `.replace()` method returns a new string where all instances of a given value are switched with a new value. 
+The `String` class' `.replace()` method returns a new string where all instances of a given value are switched with a new value.
 
 ## Syntax
 
