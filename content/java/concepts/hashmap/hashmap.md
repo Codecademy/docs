@@ -27,9 +27,9 @@ HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDa
 
 The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used.  The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
-## Keys and Values
+## Accessing Items
 
-A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
+Keys are used for uniquely identifying a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed by passing the corresponding key into the .get() method.
 
 ```java
 // Import the HashMap class
@@ -69,7 +69,6 @@ public class Main {
   public static void main(String[] args) {
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
-    // Add keys and values (CourseNames, Teacher)
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
@@ -84,16 +83,6 @@ This will output the following "course=teacher" assignments:
 ```shell
 {History=Ben, Mathematics=Jeanette, Physics=Lily}
 ```
-
-## Accessing an Item
-
-An item can be accessed within a `HashMap` using the `.get()` method. It accepts one parameter, the key, and returns the corresponding value. From the first example:
-
-```java
-System.out.println(courseTeacher.get("Physics"));
-```
-
-Will print "Lily" because `.get()` returns the corresponding value for the "Physics" key.
 
 ## Removing Items
 
