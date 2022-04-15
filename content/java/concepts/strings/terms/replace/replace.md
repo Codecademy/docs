@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Takes a string and returns a new string where a given char or CharSequence is replaced with another char or CharSequence.'
+Description: 'Returns a new string where all instances of a given value are switched with a new value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,9 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replace()` method belongs to the `String` class and returns a new string where all instances of a given value is switched with a new value. 
-
-A char represents a single character while `CharSequence` is the interface representing a sequence of characters. The `String` class is one implementation of this interface.
+The `String` class' `.replace()` method returns a new string where all instances of a given value are switched with a new value. 
 
 ## Syntax
 
@@ -49,4 +47,13 @@ public class ReplaceMe {
     System.out.println("With CharSequence: " + s.replace("Hello", testC));
   }
 }
+```
+
+This results in the following output:
+
+```shell
+Original String: Hello World!
+With primitive char: Heeeo Wored!
+With Character class: Hello oorld!
+With CharSequence: Goodbye World!
 ```
