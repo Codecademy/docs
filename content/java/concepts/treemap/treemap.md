@@ -142,7 +142,7 @@ public class Main {
 }
 ```
 
-This will output:
+The emptied `TreeMap` will be displayed in the output below:
 
 ```shell
 {}
