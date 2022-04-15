@@ -10,7 +10,6 @@ Tags:
   - 'Functions'
 CatalogContent:
   - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'
 ---
 
