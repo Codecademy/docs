@@ -39,9 +39,16 @@ In the example below, a substring in `s`, "Hello", is replaced with "Goodbye" an
 public class ReplaceMe {
   public static void main(String args[]) {
     String s = "Hello World!";
-    s = s.replace("Hello","Goodbye");
-    System.out.println(s);
-    // Output: Goodbye World!
+    System.out.println("Original String: " + s);
+
+    char testA = 'e';
+    System.out.println("With primitive char: " + s.replace(s.charAt(2), testA));
+
+    Character testB = new Character('o');
+    System.out.println("With Character class: " + s.replace(s.charAt(6), testB));
+
+    CharSequence testC = "Goodbye";
+    System.out.println("With CharSequence: " + s.replace("Hello", testC));
   }
 }
 ```
