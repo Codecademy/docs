@@ -1,6 +1,6 @@
 ---
 Title: 'Set'
-Description: 'An interface for collections that contain no duplicate elements.'
+Description: 'A Set is an interface for collections that contain zero duplicate elements.'
 Subjects:
   - 'Computer Science'
 Tags:
