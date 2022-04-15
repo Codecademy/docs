@@ -145,7 +145,7 @@ public class Main {
 }
 ```
 
-This will output:
+An empty `HashMap` will be displayed in the output below:
 
 ```shell
 {}
