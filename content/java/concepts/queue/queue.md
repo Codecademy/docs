@@ -1,6 +1,6 @@
 ---
 Title: 'Queue'
-Description: 'A collection interface offering additional operations to access or manipulate items at the head of the queue.'
+Description: 'A Queue is a collection interface that offers additional operations for accessing or manipulating items at the head of the queue.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
