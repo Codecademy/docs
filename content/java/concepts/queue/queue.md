@@ -2,6 +2,7 @@
 Title: 'Queue'
 Description: 'A collection interface offering additional operations to access or manipulate items at the head of the queue.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Collections'
