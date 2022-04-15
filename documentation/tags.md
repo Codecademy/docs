@@ -46,6 +46,7 @@ Chatbots
 Cryptocurrency
 Classes
 Code Editors
+Collections
 Colors
 Combinators
 Command Line
@@ -261,6 +262,7 @@ Types
 Type Guard
 Type Narrowing
 Typography
+UI
 Union
 Unicode
 Units
