@@ -141,7 +141,7 @@ Currently, Codebytes supports the following languages:
 - Run your content through proofreading tools (e.g. Grammarly, Prowriting Aid, Hemingway App) to check for grammar and spelling errors.
 - Re-read your contents carefully, considering every line written.
 - The description of your content should contain keywords for SEO purposes.
-  
+
 #### File Hosting
 
 If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
