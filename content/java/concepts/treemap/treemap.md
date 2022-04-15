@@ -26,7 +26,7 @@ The `TreeMap` class comes from the `java.util` package. Therefore, it must be im
 
 ## Accessing Items
 
-A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
+Keys are used for uniquely identifying a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed by passing the corresponding key into the `.get()` method.
 
 ```java
 import java.util.TreeMap;
