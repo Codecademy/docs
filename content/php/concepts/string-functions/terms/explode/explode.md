@@ -22,7 +22,7 @@ The `explode()` function takes a string and splits it on a given delimiter strin
 explode($delimiter, $string, $limit)
 ```
 
-The `$delimiter` parameter specifies the string on which `$string` will be split. 
+The `$delimiter` parameter specifies the string on which `$string` will be split.
 The `$string` parameter is the string that will be split by the `explode()` function.
 
 The `$limit` parameter is an optional `int` that specifies how many strings will be returned in the resulting array as follows:
