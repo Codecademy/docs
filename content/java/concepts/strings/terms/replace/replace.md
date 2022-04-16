@@ -20,7 +20,7 @@ The `String` class' `.replace()` method returns a new string where all instances
 string.replace(char oldValue, char newValue);
 ```
 
-A char represents a single character. Other legitimate values that can be applied to the `.replace()` method include the following:
+A char represents a single character. Other valid inputs for the `.replace()` method include the following:
 
 - An instance of the `Character` class that resolves to a single character.
 - A `CharSequence` interface that represents a sequence of characters (the `String` class is one implementation of this interface).
