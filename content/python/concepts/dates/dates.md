@@ -1,6 +1,6 @@
 ---
 Title: 'Dates'
-Description: 'The built-in Python module called datetime is used to create and modify dates and times.'
+Description: 'Dates and times are created and modified in Python with the built-in datetime module.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,86 +16,18 @@ Python has a built-in module called [datetime](https://docs.python.org/3/library
 
 Because the module comes built-in with Python, installation is not required, but we do need to import it at top of a Python file.
 
-As an example, the code below employs the `.datetime.now()` method to return the current date and time:
-
-```codebyte/py
-import datetime
-
-current_datetime = datetime.datetime.now()
-
-print(current_datetime)
-```
-
-The result will be the current date and time, something like:
-
-```shell
-2022-10-05 10:20:57.944968
-```
-
-It contains the year, month, day, hour, minute, second, and microsecond:
+## Syntax
 
 ```pseudo
-YYYY-MM-DD hh:mm:ss.ffffff
+import datetime
 ```
 
-## Creating New datetime Objects
+## Creating datetime Objects
 
 The `datetime` module has three main types available:
 
-- `date`
-- `time`
-- `datetime`
+- [`date`](https://www.codecademy.com/resources/docs/python/dates/date): Returns a date in the year-month-day format.
+- [`time`](https://www.codecademy.com/resources/docs/python/dates/time): Returns a time in the hour-minute-second format with optional microsecond and timezone information.
+- [`datetime`](https://www.codecademy.com/resources/docs/python/dates/datetime): Returns a date and time in the year-month-day and hour-minute-second formats.
 
-```py
-import datetime
-
-# Create date object with year=2021, month=10, and day=5
-meeting_date = datetime.date(2021, 10, 5)
-
-# Create time object with hour=10, minute=5, and seconds=31
-meeting_time = datetime.time(10, 5, 31)
-
-# Create datetime object with year=2021, month=10, day=5, hour=10, minute=5 and seconds=31
-meeting = datetime.datetime(2021, 10, 5, 10, 5, 31)
-```
-
-Furthermore, we also have a `timedelta` type which is used to represent time difference.
-
-```py
-timedelta(days, seconds, microseconds, milliseconds, minutes, hours, weeks)
-```
-
-Note that all of the arguments are optional and have default value of 0.
-
-## Operations on datetime Objects
-
-We can perform different operations on a `datetime` object.
-For example, if we want to add 2 months to a current date, it can be done as below:
-
-```codebyte/py
-import datetime
-
-# Assign current datetime
-current_date = datetime.datetime.now()
-
-date_after_two_months = current_date + datetime.timedelta(days = 30*2)
-
-print(date_after_two_months)
-# Displays date 2 months from current date
-```
-
-Date and time differences can be calculated using the subtraction operator `-` on `datetime` objects.
-
-```codebyte/py
-import datetime
-
-# Assign current datetime
-current_date = datetime.datetime.now()
-
-date_after_interval = datetime.datetime(2023, 10, 5)
-
-date_difference = date_after_interval - current_date
-
-print(date_difference)
-# Displays date interval
-```
+Durations between any of these types can be returned by the [`.timedelta()`] method.
