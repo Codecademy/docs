@@ -41,7 +41,7 @@ The `$length` parameter is an optional `int` that specifies the number of charac
 ```codebyte/php
 <?php
   $str = "Hello World!";
-  
+
   echo(substr($str,6) . "<br/>");
   echo(substr($str,0,5) . "<br/>");
   echo(substr($str,-6,-1) . "<br/>");
