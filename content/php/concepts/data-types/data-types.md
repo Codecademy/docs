@@ -16,16 +16,71 @@ CatalogContent:
 
 PHP supports the following primitive data types:
 
-- bool
-- int
-- float
-- string
-- array
-- object
-- callable
-- iterable
-- resource
-- NULL
+- bool: a value that's either `true` or `false`.
+- int: a whole number value.
+- float: a numeric value with decimal.
+- string: a seies of characters.
+- array: an ordered map of key/value pairs.
+- object: an instance of a pre-defined class.
+- callable: a refrence to a PHP function.
+- iterable: represents any array or object implementing the `Traversable` interface.
+- resource: a refrence to an external resource.
+- NULL: represents a variable with no value.
 
-Types for variables are generally not set by the developer. PHP typically decides types at runtime depending on context.
+Rather than being declared in code, PHP typically decides types at runtime depending on context. There are a number of ways to determine the type of a variable or expression.
 
+## The `var_dump()` Function
+
+The `var_dump()` function returns the type and value of an expression.
+
+### Example
+
+```php
+$text = "PHP";
+echo(var_dump($text));
+```
+
+Restults in the output:
+
+```pseudo
+string(3) "PHP"
+```
+
+## The `gettype()` Function
+
+The `gettype()` function returns a human readable string representing the data type of an expression.
+
+### Example
+
+```php
+$text = "PHP";
+echo(gettype($text));
+```
+
+Restults in the output:
+
+```pseudo
+string
+```
+
+## "is_type" Functions
+
+PHP has a number of "is_type" functions to check the type of a variable.
+
+- `is_bool($value)` returns `true` if `$value` is a bool value.
+- `is_int($value)` returns `true` if `$value` is an int value. (Also `is_integer()`.)
+- `is_float($value)` returns `true` if `$value` is a float value. 
+- `is_string($value)` returns true if `$value` is a string.
+- `is_array($value)` returns `true` if `$value` is an array value.
+- `is_object($value)` rerurns `true` if `$value` is an object value.
+- `is_iterable($value)` returns `true` if `$value` is an iterable value.
+- `is_resource($value)` returns `true` if `$value` is a resource value.
+- `is_null($value)` returns `true` if `$value` is a `NULL` value.
+
+The `is_callable()` function has a slightly more complicated syntax:
+
+```php
+is_callable($value, $syntax_only, $callable_name)
+```
+
+Where `$value` is the value being checked. The `$syntax_only` parameter is  an optional boolean flag that if set `true` will only check if $value is properly structured to be used as a callback. The $callable_name is optional, and if included, will be set to the name of the callable function or method referred to by `$value`. The function will return `true` if `$value` is a callable value. 
