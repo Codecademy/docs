@@ -53,3 +53,13 @@ Text Month, Day | "July 4", "DEC 31"
 Day, Text Month | "4 July", "31 DEC"
 Month Abbreviation, Day, Year | "Jul-4-76", "Dec-31-2011"
 Year, Month Abbreviation, Day | "76-Jul-04", "2001-DEC-31"
+
+### Compound Formats
+
+Description | Example
+------------|---------
+EXIF | "2011:12:31 15:25:27"
+MySQL | "2011-12-31 15:25:27"
+SOAP | "2011-12-31T15:25:27.05"
+XMLRPC | "20111231T15:25:27"
+WDDX | "2011-12-31T15:25:27"
