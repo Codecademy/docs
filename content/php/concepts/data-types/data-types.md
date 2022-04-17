@@ -31,13 +31,13 @@ Rather than being declared in code, PHP typically decides types at runtime depen
 
 ## The `var_dump()` Function
 
-The `var_dump()` function returns the type and value of an expression.
+The `var_dump()` function prints out the type and value of an expression.
 
 ### Example
 
 ```php
 $text = "PHP";
-echo(var_dump($text));
+var_dump($text);
 ```
 
 Restults in the output:
