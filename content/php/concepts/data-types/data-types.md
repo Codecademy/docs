@@ -70,7 +70,7 @@ PHP has a number of "is_type" functions to check the type of a variable.
 - `is_bool($value)` returns `true` if `$value` is a bool value.
 - `is_int($value)` returns `true` if `$value` is an int value. (Also `is_integer()`.)
 - `is_float($value)` returns `true` if `$value` is a float value.
-- `is_string($value)` returns true if `$value` is a string.
+- `is_string($value)` returns `true` if `$value` is a string.
 - `is_array($value)` returns `true` if `$value` is an array value.
 - `is_object($value)` rerurns `true` if `$value` is an object value.
 - `is_iterable($value)` returns `true` if `$value` is an iterable value.
