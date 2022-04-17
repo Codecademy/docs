@@ -28,6 +28,18 @@ The `<select>` element is normally used with `<option>` elements for gathering u
 
 The `<select>` element is referenced in the form data with a `name` attribute. Inside, the `<option>` elements will each have a `value` attribute that is submitted with the form if that option is selected.
 
+### Attributes
+
+The attributes that can be used with the `<select>` tag include:
+
+- `autofocus` indicates the drop-down list gets the focus automatically when the page loads.
+- `disabled` indicates that the drop-down list is disabled.
+- `form` specifies the form that the drop-down list belongs to.
+- `multiple` indicates that multiple options can be selected.
+- `name` specifies the name of the drop-down list.
+- `required` indicates that the drop-down list requires a selection before the form can be submitted.
+- `size` specifies the number of options visible in the drop-down list.
+
 ## Example
 
 The example form below allows the user to select one of four different types of meals:
