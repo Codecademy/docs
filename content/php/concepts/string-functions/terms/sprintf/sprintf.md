@@ -41,33 +41,33 @@ Aside from the `specifier`, all of the following arguments are optional:
 
 The possible flags are listed in the table below:
 
-|    Flag | Description                                                                                       |
-| ------: | ------------------------------------------------------------------------------------------------- |
-|     `-` | Left justify within the specified width. Right justification is the default.                      |
-|     `+` | Prefix positive numbers with a `+` sign. By default only negative numbers are prefixed by a sign. |
-|     `0` | Left-pads numbers with zeros. With the `s` specifier will also right-pad with zeros.              |
+|  Flag   | Description                                                                                       |
+| :-----: | ------------------------------------------------------------------------------------------------- |
+|   `-`   | Left justify within the specified width. Right justification is the default.                      |
+|   `+`   | Prefix positive numbers with a `+` sign. By default only negative numbers are prefixed by a sign. |
+|   `0`   | Left-pads numbers with zeros. With the `s` specifier will also right-pad with zeros.              |
 | `'char` | Pads the result with the character `char`.                                                        |
 
 The possible specifiers are listed in the table below:
 
 | Specifier | Description                                                                                         |
-| --------: | --------------------------------------------------------------------------------------------------- |
-|       `b` | Numeric value is converted to an integer and shown as a binary number.                              |
-|       `c` | Numeric value is converted to an integer and is shown as a character with that ASCII value.         |
-|       `d` | Numeric value is converted to an integer and is shown as a signed decimal number.                   |
-|       `e` | Numeric value is converted to a float and shown with scientific notation with a lower case "e".     |
-|       `E` | Numeric value is converted to a float and shown with scientific notation with an upper case "E".    |
-|       `f` | Numeric value is converted to a float and shown as a locale aware floating-point number.            |
-|       `F` | Numeric value is converted to a float and shown as a non-locale aware floating-point number.        |
-|       `g` | General numeric format converting numeric value to a float and treating exponents as `e`.           |
-|       `G` | General numeric format converting numeric value to a float and treating exponents as `E`.           |
-|       `h` | Like `g` but treats floats as `F`.                                                                  |
-|       `H` | Like `G` but treats floats as `F`.                                                                  |
-|       `o` | Numeric value is converted to an integer and shown as an octal number.                              |
-|       `s` | Value is treated as a string.                                                                       |
-|       `u` | Numeric value is converted to an integer and is shown as a unsigned decimal number.                 |
-|       `x` | Numeric value is converted to an integer and shown as a hexadecimal number with lower case letters. |
-|       `X` | Numeric value is converted to an integer and shown as a hexadecimal number with upper case letters. |
+| :-------: | --------------------------------------------------------------------------------------------------- |
+|    `b`    | Numeric value is converted to an integer and shown as a binary number.                              |
+|    `c`    | Numeric value is converted to an integer and is shown as a character with that ASCII value.         |
+|    `d`    | Numeric value is converted to an integer and is shown as a signed decimal number.                   |
+|    `e`    | Numeric value is converted to a float and shown with scientific notation with a lower case "e".     |
+|    `E`    | Numeric value is converted to a float and shown with scientific notation with an upper case "E".    |
+|    `f`    | Numeric value is converted to a float and shown as a locale aware floating-point number.            |
+|    `F`    | Numeric value is converted to a float and shown as a non-locale aware floating-point number.        |
+|    `g`    | General numeric format converting numeric value to a float and treating exponents as `e`.           |
+|    `G`    | General numeric format converting numeric value to a float and treating exponents as `E`.           |
+|    `h`    | Like `g` but treats floats as `F`.                                                                  |
+|    `H`    | Like `G` but treats floats as `F`.                                                                  |
+|    `o`    | Numeric value is converted to an integer and shown as an octal number.                              |
+|    `s`    | Value is treated as a string.                                                                       |
+|    `u`    | Numeric value is converted to an integer and is shown as a unsigned decimal number.                 |
+|    `x`    | Numeric value is converted to an integer and shown as a hexadecimal number with lower case letters. |
+|    `X`    | Numeric value is converted to an integer and shown as a hexadecimal number with upper case letters. |
 
 ## Example
 
