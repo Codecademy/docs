@@ -14,7 +14,7 @@ CatalogContent:
 
 The `<option>` tag represents one possible selection in the dropdown created by the [`<select>`](https://www.codecademy.com/resources/docs/html/tags/select) tag.
 
-The `<select>` element is typically used with  `<option>` elements to gather user input in a [form](https://www.codecademy.com/resources/docs/html/forms).
+The `<select>` element is typically used with `<option>` elements to gather user input in a [form](https://www.codecademy.com/resources/docs/html/forms).
 
 ## Syntax
 
@@ -36,7 +36,7 @@ The attributes that can be used with the `<option>` tag include:
 - `label` specifies a shorter label for an option.
 - `selected` indicates that the option is pre-selected when the page loads.
 - `value` specifies the value to be sent when the option is selected.
-  
+
 ## Example
 
 The example form below allows the user to select one of four different types of meals:
