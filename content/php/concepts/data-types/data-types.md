@@ -83,4 +83,4 @@ The `is_callable()` function has a slightly more complicated syntax:
 is_callable($value, $syntax_only, $callable_name)
 ```
 
-Where `$value` is the value being checked. The `$syntax_only` parameter is an optional boolean flag that if set `true` will only check if $value is properly structured to be used as a callback. The $callable_name is optional, and if included, will be set to the name of the callable function or method referred to by `$value`. The function will return `true`if`$value` is a callable value.
+Where `$value` is the value being checked. The `$syntax_only` parameter is an optional boolean flag that if set `true` will only check if `$value` is properly structured to be used as a callback. The $callable_name parameter is optional, and if included, will be set to the name of the callable function or method referred to by `$value`. The function will return `true`if`$value` is a callable value.
