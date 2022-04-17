@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: ''
+Description: 'PHP supports a number of primitive data types.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
