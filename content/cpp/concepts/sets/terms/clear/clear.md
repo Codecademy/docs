@@ -1,6 +1,6 @@
 ---
 Title: '.clear()'
-Description: 'The `.clear()` method removes all values from a set.'
+Description: 'Removes all values from a set.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
