@@ -1,6 +1,6 @@
 ---
 Title: 'Sets'
-Description: 'Sets are associative containers that store unique elements which can be referenced by an element's value.'
+Description: 'Sets are associative containers that store unique elements which can be referenced by the value of the element.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
