@@ -1,5 +1,5 @@
 ---
-Title: 'time.ctime()'
+Title: '.ctime()'
 Description: 'Takes a time, expressed in seconds elapsed since the epoch, and returns a formatted string.'
 Subjects:
   - 'Computer Science'
@@ -22,7 +22,7 @@ The `ctime()` function takes a time, expressed in seconds since the epoch, and r
 ctime(s)
 ```
 
-The argument `s` is the number of seconds since the epoch. The epoch is defined as January 1, 1970, 00:00:00. If no argument is provided the function will use the current local time.
+The argument `s` is the number of seconds since the epoch. The epoch is defined as January 1, 1970, 00:00:00 UTC. If no argument is provided the function will use the current local time.
 
 ## Example
 
