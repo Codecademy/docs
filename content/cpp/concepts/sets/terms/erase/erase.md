@@ -1,6 +1,6 @@
 ---
 Title: '.erase()'
-Description: 'The `.erase()` method removes a single value from a set.'
+Description: 'Removes a single value from a set.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
