@@ -1,6 +1,6 @@
 ---
 Title: '.insert()'
-Description: 'Values can be inserted into a set that has been declared with the `.insert()` method. '
+Description: 'Inserts a single value into a set.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
