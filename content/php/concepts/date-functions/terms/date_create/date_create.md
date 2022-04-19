@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Date'
   - 'Time'
+  - 'Objects'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
