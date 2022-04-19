@@ -1,6 +1,6 @@
 ---
 Title: 'Date Functions'
-Description: 'PHP generally stores and manipulates date-time values using `DateTime` objects.'
+Description: 'PHP manipulates dates in a numer of ways, using arrays, strings, Unix timestamps or `DateTime` objects.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,4 +12,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-PHP generally stores and manipulates date-time values using `DateTime` objects. PHP provides a number of built-in functions to manipulate these objects.
+PHP manipulates dates in a numer of ways, using arrays, strings, Unix timestamps or `DateTime` objects. PHP provides a number of built-in functions manipulating dates using these various data types.
