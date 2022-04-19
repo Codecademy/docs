@@ -1,0 +1,23 @@
+---
+Title: 'time()'
+Description: 'Returns current time measured in seconds from the Unix Epoch.'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Date'
+  - 'Time'
+CatalogContent:
+  - 'learn-php'
+  - 'paths/computer-science'
+---
+
+The `time()` function returns the current time measured in seconds from the Unix Epoch, Midnight GMT January 1, 1970.
+
+## Codebyte Example
+
+```php
+<?php
+  echo(time());
+?>
+```
