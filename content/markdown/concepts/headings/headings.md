@@ -1,6 +1,6 @@
 ---
 Title: 'Headings'
-Description: 'There are 6 heading elements in markdown. They are made with #, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website.'
+Description: 'Headings are markdown elements used for displaying titles, subtitles, or different sections in a website. There are six headings in total. They are made with a hash symbol, #, with 1 being the largest and 6 being the smallest.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
