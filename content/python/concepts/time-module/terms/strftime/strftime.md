@@ -26,14 +26,17 @@ A combination of `format_codes` are used to format the returned string. The `tim
 
 A few common codes are:
 
-- %a - The abbreviated day of the week (e.g. Mon)
-- %d - The day of month as two decimals (01,02,...,12)
-- %Y - The calendar year represented as four decimals (2020)
-- %H - The hour of a 24-hour clock as two decimals (00,01,02,...,23)
-- %I - The hour of a 12-hour clock as two decimals (01,02,03,...,12)
-- %j - The day of the year represented as three decimals (001,002,003,...,366)
-- %p - The locale's equivalent for AM and PM
-- %x - The locale's date
+| Code | Description                                          | Example/Range         |
+| :--: | ---------------------------------------------------- | --------------------- |
+| `%a` | The abbreviated day of the week.                     | Mon, Tues, etc.       |
+| `%A` | The day of the week (full name).                     | Monday, Tuesday, etc. |
+| `%d` | The day of of the month in two decimals.             | 01 - 31               |
+| `%Y` | The calendar year represented as four decimals.      | 2020                  |
+| `%H` | The hour of a 24-hour clock in two decimals.         | 00 - 23               |
+| `%I` | The hour of a 12-hour clock in two decimals.         | 00 - 12               |
+| `%j` | The day of the year represented as three decimals.   | 000 - 366             |
+| `%p` | The locale’s equivalent for before and after midday. | AM/PM                 |
+| `%x` | The locale’s equivalent of a date.                   | 01/01/01              |
 
 ## Example
 
