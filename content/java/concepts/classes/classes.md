@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'A class is a blueprint or a template for an object. Blueprints detail the general structure (information and behavior) about an object. java public class Cat { String name; String color; int age; public static void main(String[] args) {'
+Description: 'A class is a blueprint or template for an object in Java.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -15,31 +15,34 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A class is a blueprint or a template for an object. Blueprints detail the general structure (information and behavior) about an object.
+In Java, classes are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior.
 
 ## Syntax
 
-```java
-public class Cat {
-  String name;
-  String color;
-  int age;
+```pseudo
+accessModifier class ClassName {
+  dataType attributeOne;
+  dataType attributeTwo;
+  dataType attributeN;
 
-  public static void main(String[] args) {
-    Cat myCat = new Cat();
-
-    System.out.println("Name: " + myCat.name);
-    System.out.println("Color: " + myCat.color);
-    System.out.println("Age: " + myCat.age);
+  static void classMethod {
+    // Method code here
   }
 }
 ```
 
-## Java Instance
+- Class names must always be in "PascalCase" and match the name of the file (e.g. `ClassName.java`).
+- Java uses the `class` keyword for creating classes.
+- They use an `accessModifier` (`public`, `private`, and `protected`) to determine its visibility to other files.
+- Inside the class "blueprint" are members.
 
-Java instances are objects that are based on classes. For example, `Bob` and `Alice` may each be an instance of the class `Person`.
+## Class Instances
 
-Every instance has access to its own set of variables which are known as _instance fields_, which are variables declared within the scope of the instance. Values for instance fields are assigned within the constructor method.
+In Java, instances are objects that are based on existing classes.
+
+Every instance has access to its own set of variables known as instance fields. These are variables declared within the scope of the instance and supplied with new values within the class constructor method during initialization.
+
+For example, `Bob` and `Alice` may each be defined as instances of the class called `Person` with the `new` keyword:
 
 ```java
 public class Person {
@@ -55,29 +58,29 @@ public class Person {
   public static void main(String[] args) {
     Person Bob = new Person(31, "Bob");
     Person Alice = new Person(27, "Alice");
+
+    System.out.println(Bob.name + " is " + Bob.age + ".");
+    System.out.println(Alice.name + " is " + Alice.age + ".");
   }
 }
 ```
 
-## Creating a New Class Instance
+Each instance of the `Person` class has an `age` and `name` field. When initialized, they are passed as arguments into the class contstructor. The example from above would return the following output:
 
-In Java, we use the `new` keyword followed by a call to the class constructor in order to create a new instance of a class.
+```shell
+Bob is 31.
+Alice is 27.
+```
 
-The constructor can be used to provide initial values to instance fields.
+## Abstract Classes
+
+Classes can also use the `abstract` keyword to supply common method implentations to multiple subclasses. Any class that contains abstraction (e.g. methods, fields, etc.), then it must also be abstract:
 
 ```java
-public class Person {
+abstract class Person {
   int age;
-  // Constructor
-  public Person(int a) {
-    this.age = a;
-  }
+  String name;
 
-  public static void main(String [] args) {
-    // Here, we create a new instance of the Person class:
-    Person p = new Person(28);
-    System.out.println("Age is " + p.age);
-    // Output: Age is 28
-  }
+  abstract void talk(String message);
 }
 ```
