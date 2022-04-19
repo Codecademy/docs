@@ -35,7 +35,7 @@ The number of number signs you use should correspond to the heading level. For e
 ###### Heading level 6
 ```
 
-<details>
+<details open>
   <summary>Headings</summary>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
