@@ -36,7 +36,7 @@ Character|Description
 `W` | ISO 8601 week of the year, weeks starting on Monday
 `F` | Full name of month
 `m` | Two digit number of month with leading zeros
-`M` | Three character abbrveation of month name
+`M` | Three character abbreviation of month name
 `n` | Number of month without leading zeros
 `t` | Number of days in the given month
 `L` | 1 for a leap year, 0 otherwise
