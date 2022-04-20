@@ -24,7 +24,8 @@ import java.util.PriorityQueue;
 PriorityQueue<DataType> q = new PriorityQueue<DataType>();
 ```
 
-Where `q` is a `PriorityQueue` created with the `new` keyword and `DataType` is the data type that will be stored in it.
+- `q` is a `PriorityQueue` created with the `new` keyword.
+- `DataType` is the data type that will be stored in it.
 
 ```java
 import java.util.PriorityQueue;
