@@ -2,8 +2,7 @@
   "name": "codecademy-docs",
   "dependencies": {
     "front-matter": "^4.0.2",
-    "glob": "^7.1.7",
-    "yarn": "^1.22.18"
+    "glob": "^7.1.7"
   },
   "devDependencies": {
     "@codecademy/eslint-config": "^3.1.0",
@@ -12,7 +11,7 @@
     "@types/glob": "^7.1.4",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.3",
-    "eslint": "^6.8.0",
+    "eslint": "^7.25.0",
     "husky": "^7.0.4",
     "jest": "^27.0.6",
     "lint-staged": "^12.1.2",
