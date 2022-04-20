@@ -20,7 +20,7 @@ The `date()` function crates a formatted date-time string from a local date-time
 $datestring = date($format, $timestamp);
 ```
 
-The `$format` string is a string specifying how the date/time is to be formatted. It uses the same syntax as the [`date_format()`](https://www.codecademy.com/resources/docs/php/date-functions/date_format) function.
+The `$format` string is a string specifying how the date/time is to be formatted. It uses the same syntax as the [`date_format()`](https://www.codecademy.com/resources/docs/php/date-functions/date-format) function.
 
 The `$timestamp` parameter is a Unix timestamp, the date-time expressed as seconds elapsed from the Unix Epoch (Midnight GMT, January 1st, 1970). It is optional, and if omitted or `NULL` it defaults to the current local date and time.
 
