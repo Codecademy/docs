@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `PriorityQueue` is an implementation of the `Queue` interface. It stores elements in a collection prioritized by natural ordering or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
+A `PriorityQueue` is an implementation of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a collection prioritized by natural ordering or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
 
 ## Syntax
 
@@ -54,13 +54,17 @@ Where `item` is the item to be added, which should match the datatype `priorityq
 import java.util.PriorityQueue;
 
 public class Main {
+ public static PriorityQueue<String> SetupPriorityQueue() {
+   PriorityQueue<String> result = new PriorityQueue<String>();
+   result.add("Cabbage");
+   result.add("Pizza");
+   result.add("Sausage");
+   result.add("Potatoes");
+   result.add("Salad");
+   return result;
+ } 
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    System.out.println(food);
  }
 }
@@ -69,7 +73,7 @@ public class Main {
 This will output:
 
 ```shell
-[Pizza, Sausage, Potatoes, Cabbage, Salad]
+[Cabbage, Pizza, Sausage, Potatoes, Salad]
 ```
 
 ## Removing Specific Items
@@ -86,23 +90,16 @@ Where `item` is the item to be removed from `priorityqueue`. If `item` is not pa
 
 ### Example
 
-```java
-import java.util.PriorityQueue;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    food.remove("Pizza");
    while (food.size() >0) {
      System.out.println(food.poll());
    }
  }
-}
 ```
 
 This will output:
@@ -128,24 +125,17 @@ Where `result` will be `true` if `priorityqueue` contains `item` as one of its m
 
 ### Example
 
-```java
-import java.util.PriorityQueue;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    if (food.contains("Nuts")) {
      System.out.println("Allergen warning!");
    } else {
      System.out.println("Safe to eat.");
    }
  }
-}
 ```
 
 This will output:
@@ -168,23 +158,16 @@ Where `ItemCount` is the number of items in `priorityqueue`.
 
 ### Example
 
-```java
-import java.util.PriorityQueue;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    while (food.size() >0) {
      System.out.println(food.poll());
      System.out.println(food.size());
    }
  }
-}
 ```
 
 This will output:
@@ -208,22 +191,16 @@ A `PriorityQueue` can be traversed with a for-each loop. Note that when doing so
 
 ### Example
 
-```java
-import java.util.PriorityQueue;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    for (String i : food) {
      System.out.println(i);
    }
  }
-}
+
 ```
 
 This will output:
@@ -251,24 +228,17 @@ Where `DataType` is the data type that `priorityqueue` was defined with. Both re
 
 ### Example
 
-```java
-import java.util.PriorityQueue;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   PriorityQueue<String> food = new PriorityQueue<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   PriorityQueue<String> food = SetupPriorityQueue();
    System.out.println(food.peek());
    while (food.size() >0) {
      System.out.println(food.poll());
    }
    System.out.println(food.peek());
  }
-}
 ```
 
 This will output:
