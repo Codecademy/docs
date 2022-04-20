@@ -33,7 +33,7 @@ Description | Examples
 12 Hour, Minutes, AM/PM | "1:27 am", "12:35P.M."
 12 Hour, Minutes, Seconds, AM/PM | "1:27:16 am", "12:35:08P.M."
 24 Hour, Minutes | "01:27", "12.35", "T19:43"
-24 Hour, Minites w/o colon | "0127", "t1235", "T1943"
+24 Hour, Minutes w/o colon | "0127", "t1235", "T1943"
 24 Hour, Minutes, Seconds | "01.27.15", "T19:43:12"
 24 Hour, Minutes, Seconds w/o colon | "012715", "T194512"
 
