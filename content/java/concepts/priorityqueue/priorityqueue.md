@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `PriorityQueue` is an implementation of the `Queue` interface and stores elements in a collection prioritized by natural ordering, or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
+A `PriorityQueue` is an implementation of the `Queue` interface. It stores elements in a collection prioritized by natural ordering or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.
 
 ## Syntax
 
