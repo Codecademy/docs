@@ -16,8 +16,6 @@ A `HashSet` is used to store an unordered set of unique items of a given [data t
 
 ## Syntax
 
-`HashSet` is a member of the `java.util` package which must be imported first.
-
 ```java
 import java.util.HashSet;
 
@@ -25,6 +23,8 @@ HashSet<DataType> h = new HashSet<DataType>();
 ```
 
 Where `h` is a `HashSet` created with the `new` keyword and `DataType` is the data type that will be stored in it.
+
+**Note:** `HashSet` is a member of the `java.util` package which must be imported first.
 
 ## Adding Items
 
@@ -44,13 +44,17 @@ Where `item` is the item to be added, which should match the datatype `hashset` 
 import java.util.HashSet;
 
 public class Main {
+ public static HashSet<String> SetupHashSet() {
+   HashSet<String> result = new HashSet<String>();
+   result.add("Cabbage");
+   result.add("Pizza");
+   result.add("Sausage");
+   result.add("Potatoes");
+   result.add("Salad");
+   return result;
+ }    
  public static void main(String[] args) {
-   HashSet<String> food = new HashSet<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   HashSet<String> food = SetupHashSet();
    food.add("Sausage");
    System.out.println(food);
  }
@@ -79,21 +83,14 @@ Where `item` is the item to be removed from `hashset`. If `item` is not part of 
 
 ### Example
 
-```java
-import java.util.HashSet;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   HashSet<String> food = new HashSet<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   HashSet<String> food = SetupHashSet();
    food.remove("Sausage");
    System.out.println(food);
  }
-}
 ```
 
 This will output:
@@ -116,24 +113,17 @@ Where `result` will be `true` if `hashset` contains `item` as one of its members
 
 ### Example
 
-```java
-import java.util.HashSet;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   HashSet<String> food = new HashSet<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   HashSet<String> food = SetupHashSet();
    if (food.contains("Nuts")) {
      System.out.println("Allergen warning!");
    } else {
      System.out.println("Safe to eat.");
    }
  }
-}
 ```
 
 This will output:
@@ -156,22 +146,15 @@ Where `ItemCount` is the number of items in `hashset`.
 
 ### Example
 
-```java
-import java.util.HashSet;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   HashSet<String> food = new HashSet<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   HashSet<String> food = SetupHashSet();
    System.out.println(food.size());
    food.remove("Sausage");
    System.out.println(food.size());
  }
-}
 ```
 
 This will output:
@@ -187,22 +170,16 @@ A `HashSet` can be traversed with a for-each [loop](https://www.codecademy.com/r
 
 ### Example
 
-```java
-import java.util.HashSet;
+Changing the `.main()` method of the above example:
 
-public class Main {
+```java
  public static void main(String[] args) {
-   HashSet<String> food = new HashSet<String>();
-   food.add("Cabbage");
-   food.add("Pizza");
-   food.add("Sausage");
-   food.add("Potatoes");
-   food.add("Salad");
+   HashSet<String> food = SetupHashSet();
    for (String i : food) {
      System.out.println(i);
    }
  }
-}
+
 ```
 
 This will output:
