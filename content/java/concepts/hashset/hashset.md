@@ -36,7 +36,7 @@ New items can be added to the `HashSet` with the `.add()` method.
 hashset.add(item)
 ```
 
-Where `item` is the item to be added, which should match the datatype `hashset` was defined with.
+Where `item` is the item to be added, which should match the data type `hashset` was defined with.
 
 ### Example
 
