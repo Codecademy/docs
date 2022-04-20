@@ -52,7 +52,7 @@ public class Main {
    result.add("Potatoes");
    result.add("Salad");
    return result;
- }    
+ }
  public static void main(String[] args) {
    HashSet<String> food = SetupHashSet();
    food.add("Sausage");
