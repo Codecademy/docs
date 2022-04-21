@@ -169,7 +169,7 @@ Python can use comparison [operators](https://www.codecademy.com/resources/docs/
 | Less than or equal to | `<=` | Returns `True` if the left string is equal to or lexically prior to the right string. |
 | Greater than or equal to | `>=` | Returns `True` if the left string is equal to or comes lexically after the right string. |
 
-```py
+```codebyte/python
 string_one = "Hello"
 string_two = "World"
 
