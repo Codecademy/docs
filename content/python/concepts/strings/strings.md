@@ -160,14 +160,14 @@ if "World" in new_combo:
 
 Python can use comparison [operators](https://www.codecademy.com/resources/docs/python/operators) to compare the contents of two strings. The operators behave as they do with numeric arguments:
 
-| Term | Operator | Description |
+| Operator | Term | Description |
 | :---: | :---: | --- |
-| Equal | `==` | Returns `True` if two strings are equal. |
-| Not equal |`!=` | Returns `True` if two strings are not equal. |
-| Less than | `<` | Returns `True` if the left string is lexically prior the right string. |
-| Greater than | `>` | Returns `True` is the left string comes lexically after the right string.  |
-| Less than or equal to | `<=` | Returns `True` if the left string is equal to or lexically prior to the right string. |
-| Greater than or equal to | `>=` | Returns `True` if the left string is equal to or comes lexically after the right string. |
+| `==` | Equal | Returns `True` if two strings are equal. |
+|`!=` | Not equal | Returns `True` if two strings are not equal. |
+| `<` | Less than | Returns `True` if the left string is lexically prior the right string. |
+| `>` | Greater than | Returns `True` is the left string comes lexically after the right string.  |
+| `<=` | Less than or equal to | Returns `True` if the left string is equal to or lexically prior to the right string. |
+| `>=` | Greater than or equal to | Returns `True` if the left string is equal to or comes lexically after the right string. |
 
 ```codebyte/python
 string_one = "Hello"
