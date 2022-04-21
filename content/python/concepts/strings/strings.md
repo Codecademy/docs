@@ -43,7 +43,7 @@ Strings are immutable; they cannot change. Every time an operation is performed 
 
 ## Accessing the Characters of a String
 
-Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
+Strings in Python are technically a type of [list](https://www.codecademy.com/resources/docs/python/lists) — one in which each character is a separate element. This means each character in a string can be individually accessed by index, like with the elements in a list:
 
 ```py
 myString = "Hello, World!"
