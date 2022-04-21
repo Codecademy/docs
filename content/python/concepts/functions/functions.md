@@ -66,7 +66,6 @@ numbers = [3, 4, 37, 9, 7, 32, 25, 81, 79, 100]
 perfect_squares = filter(is_perfect_square, numbers)
 
 print(list(perfect_squares))
-# Output: [4, 9, 25, 81, 100]
 ```
 
 `filter()` takes a predicate (a function that returns a boolean value) and an iterable, and returns a new iterable containing all elements of the first one that makes the predicate true.

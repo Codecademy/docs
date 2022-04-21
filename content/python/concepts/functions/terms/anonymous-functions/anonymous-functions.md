@@ -46,7 +46,6 @@ Anonymous functions can also be evaluated immediately after they are defined, si
 
 ```codebyte/python
 print((lambda a, b: a + b)(1986, 33))
-# Output: 2019
 ```
 
 If the function can be written in a single line, `lambda` could be useful. Otherwise, if the function is more complex, it is recommended to use the `def` keyword.
