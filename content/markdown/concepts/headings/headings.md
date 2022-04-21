@@ -35,13 +35,14 @@ The number of number signs you use should correspond to the heading level. For e
 ###### Heading level 6
 ```
 
-<!-- prettier-ignore -->
+<!-- prettier-ignore
 # Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+-->
 
 ## Alternate Syntax
 
