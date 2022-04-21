@@ -66,7 +66,7 @@ name[8] # Throws an IndexError
 
 ## Multi-line Strings
 
-Strings can be long or short. If for longer text, a multi-line string can be used. Multi-line strings begin and end with three single or double quotes:
+Strings can be long or short. For longer text, a multi-line string can be used. Multi-line strings begin and end with three single or double quotes:
 
 ```py
 my_string = """If it were done when 'tis done, then 'twere well
