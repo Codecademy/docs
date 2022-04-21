@@ -168,15 +168,15 @@ Python can use comparison [operators](https://www.codecademy.com/resources/docs/
 |   `<=`   |  Less than or equal to   | Returns `True` if the left string is equal to or lexically prior to the right string.    |
 |   `>=`   | Greater than or equal to | Returns `True` if the left string is equal to or comes lexically after the right string. |
 
-```py
+The following example demonstrates string comparison:
+
+```codebyte/python
 string_one = "Hello"
 string_two = "World"
 
 print(string_one > string_two)
-# Output: False
 
 print(string_one < string_two)
-# Output: True
 ```
 
 ## Built-in String Methods
