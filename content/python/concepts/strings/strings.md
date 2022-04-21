@@ -45,16 +45,16 @@ Strings are immutable; they cannot change. Every time an operation is performed 
 
 Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
 
-```codebyte/py
+```py
 myString = "Hello, World!"
 
 var_1 = myString[0]
 var_2 = myString[7:]
 var_3 = myString[1:4]
 
-print("var_1: " + var_1)
-print("var_2: " + var_2)
-print("var_3: " + var_3)
+print("var_1: " + var_1) # Output: var_1: H
+print("var_2: " + var_2) # Output: var_2: World!
+print("var_3: " + var_3) # Output: var_3: ell
 ```
 
 If an attempt is made to access an index out of bounds, it will return an `IndexError`.
@@ -90,7 +90,7 @@ print(my_string)
 
 This will raise an error, because the interpreter thinks the second `'` marks the end of the string.
 
-```error
+```shell
   File "main.py", line 1
     my_string = 'It's a lovely day!'
                     ^
@@ -119,11 +119,20 @@ print(my_string)
 
 Python also has a series of non-printing characters that can modify strings. For example, `\n` adds a new line and `\t` adds a tab:
 
-```codebyte/py
-note = "I am on top!\nI am on bottom. \tI am indented!"
+```py
+note = "I am on top!\nI am on bottom. \n\tI am indented!"
 
 print(note)
 ```
+
+This will output:
+
+```shell
+I am on top!
+I am on bottom. 
+	I am indented!
+```
+
 
 ## Modifying Strings
 
