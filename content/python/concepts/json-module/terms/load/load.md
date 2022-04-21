@@ -1,5 +1,5 @@
 ---
-Title: 'json.load()'
+Title: '.load()'
 Description: 'Decodes a json file and returns a Python object.'
 Subjects:
   - 'Computer Science'
@@ -42,7 +42,7 @@ print(type(eggs))
 
 ## Codebyte Example
 
-The `json.load` function can be used to convert a json file to a Python object:
+The `json.load()` function can be used to convert a json file to a Python object:
 
 ```codebyte/python
 import json
