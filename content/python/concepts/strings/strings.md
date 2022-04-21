@@ -130,7 +130,7 @@ This will output:
 ```shell
 I am on top!
 I am on bottom.
-	I am indented!
+        I am indented!
 ```
 
 ## Modifying Strings
