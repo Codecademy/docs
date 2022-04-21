@@ -34,6 +34,7 @@ The number of number signs you use should correspond to the heading level. For e
 
 ###### Heading level 6
 ```
+
 # Heading 1
 ## Heading 2
 ### Heading 3
