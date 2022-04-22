@@ -26,7 +26,7 @@ A set can be created by using the `set` keyword and declaring a [data type](http
 
 By default, values of the set are sorted in ascending order. The comparison function can be changed from the default to `std::greater<int>` in order to sort the values in descending order:
 
-```psuedo
+```pseudo
 std::set<int, std::greater<int> > setName;
 ```
 
