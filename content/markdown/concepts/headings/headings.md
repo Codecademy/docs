@@ -22,6 +22,7 @@ The number of number signs you use should correspond to the heading level. For e
 ## Syntax
 
 <!-- markdownlint-disable -->
+
 ```markdown
 # Heading level 1
 
@@ -35,9 +36,7 @@ The number of number signs you use should correspond to the heading level. For e
 
 ###### Heading level 6
 ```
-<!-- markdownlint-restore -->
 
-<!-- markdownlint-disable -->
 # Heading 1
 
 ## Heading 2
@@ -49,6 +48,7 @@ The number of number signs you use should correspond to the heading level. For e
 ##### Heading 5
 
 ###### Heading 6
+
 <!-- markdownlint-restore -->
 
 ## Alternate Syntax
