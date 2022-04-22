@@ -1,6 +1,6 @@
 ---
 Title: 'Arguments'
-Description: 'Supplies data to a funciton when it is called in a program by order of appearance.'
+Description: 'Supplies data to a function when it is called in a program.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
