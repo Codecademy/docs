@@ -30,7 +30,7 @@ def recursiveSyntax(parameter_1, parameter_2, ..., parameterN):
 Recursive functions are commonly structured to operate on their parameters under two scenarios:
 
 - A `recursive_call` to the `recursiveSyntax()` but with smaller values for the parameters.
-- One or more `base_cases` that stop the line of recursive calls and returns data that can be aggregate back up the `recursive_call` chain.
+- One or more `base_cases` that stop the line of recursive calls and return data that can be aggregated back up the `recursive_call` chain.
 
 ## Example
 
