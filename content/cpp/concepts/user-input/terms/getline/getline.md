@@ -1,6 +1,6 @@
 ---
 Title: 'getline()'
-Description: 'Converts user input into a string delimited by a character, if specified, and then stored into a variable.'
+Description: 'Converts user input into a string delimited by a character, if specified, and then stores it into a variable.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -71,6 +71,6 @@ int main() {
   cout << "Enter a pet name: ";
   cin.getline(my_char_array, 20);
 
-  cout << "My pet's name is " << my_char_array << "!;
+  cout << "My pet's name is " << my_char_array << "!";
 }
 ```
