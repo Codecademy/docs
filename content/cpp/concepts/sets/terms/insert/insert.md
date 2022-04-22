@@ -22,11 +22,11 @@ setName.insert(value);
 
 - `value` is the element to be inserted; it must be of the same data type as the set it is being inserted into.
 
-## Example
+## Codebyte Example
 
-The following example creates a `grades` set of type `int` and inserts several values before being printed:
+The following codebyte example creates a `grades` set of type `int` and inserts several values before being printed:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <set>
 
