@@ -1,6 +1,6 @@
 ---
 Title: 'Headings'
-Description: 'Headings are titles or subtitles that you want to display with Markdown. There is a total of 6 different headings. To create a heading, add hashtag signs # in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three , use three number signs (e.g., ### My Header). markdown  example Alternatively, on the line below the text:'
+Description: 'Headings are markdown elements used for displaying titles, subtitles, or different sections in a website. There are six headings in total. They are made with a hash symbol, #, with 1 being the largest and 6 being the smallest.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
@@ -35,7 +35,14 @@ The number of number signs you use should correspond to the heading level. For e
 ###### Heading level 6
 ```
 
-![example](https://i.imgur.com/8NNe3NE.png)
+<!-- prettier-ignore
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+-->
 
 ## Alternate Syntax
 
