@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `lambda` keyword produces anonymous function expressions without using the `def` keyword. Lambda expressions are commonly used for defining single-use functions which are then passed to higher-order functions.
+The `lambda` keyword produces [anonymous function](https://www.codecademy.com/resources/docs/python/functions/anonymous-functions) expressions without using the `def` keyword. Lambda expressions are commonly used for defining single-use functions which are then passed to higher-order functions.
 
 ## Syntax
 

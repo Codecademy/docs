@@ -25,7 +25,12 @@ print(my_function(2))
 print(my_function(3 + 5))
 ```
 
-Functions may return a value using the `return` keyword followed by a `value`. Then can then be called, or invoked, elsewhere in the program.
+Functions may return a value using the `return` keyword followed by a `value`. They can then be called, or invoked, elsewhere in the program. The output from the snippet above would look similar to this:
+
+```shell
+3
+9
+```
 
 **Note:** Function names in Python are written in snake_case.
 
@@ -47,6 +52,12 @@ year_to_check = 2018
 returned_value = check_leap_year(year_to_check)
 
 print(returned_value)
+```
+
+The result output will look like this:
+
+```shell
+2018 is not a leap year.
 ```
 
 ## Higher-Order Functions
