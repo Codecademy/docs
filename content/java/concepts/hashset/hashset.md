@@ -1,6 +1,6 @@
 ---
 Title: 'HashSet'
-Description: 'A HashSet stores a set of items that are unique, unordered, and of a given datatype.'
+Description: 'A HashSet stores a set of items that are unique, unordered, and of a given data type.'
 Subjects:
   - 'Computer Science'
 Tags:
