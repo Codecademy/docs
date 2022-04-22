@@ -53,7 +53,7 @@ print(returned_value)
 
 In Python, functions are treated as first-class objects. This means that they can be assigned to variables, stored in data structures, and passed to or returned from other functions.
 
-Functions are considered to be "higher-order" values because they can be used as parameters or returns values for other functions. One example is the built-in `filter()` function:
+Functions are considered to be "higher-order" values because they can be used as parameters or return values for other functions. One example is the built-in `filter()` function:
 
 ```codebyte/python
 # Returns True if n is a perfect square, and False otherwise
