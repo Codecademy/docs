@@ -22,9 +22,7 @@ import java.util.HashSet;
 HashSet<DataType> h = new HashSet<DataType>();
 ```
 
-Where `h` is a `HashSet` created with the `new` keyword and `DataType` is the data type that will be stored in it.
-
-**Note:** `HashSet` is a member of the `java.util` package which must be imported first.
+Where `h` is a `HashSet` created with the `new` keyword and `DataType` is the data type that will be stored in it. `HashSet` is a member of the `java.util` package which must be imported first.
 
 ## Adding Items
 
@@ -166,7 +164,7 @@ This will output:
 
 ## Traversing a `HashSet`
 
-A `HashSet` can be traversed with a `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). Note that when doing so, the items will not be returned in any particular order.
+A `HashSet` can be traversed with a `for-each` [loop](https://www.codecademy.com/resources/docs/java/loops). Note that when doing so, the items will not be returned in any particular order.
 
 ### Example
 
