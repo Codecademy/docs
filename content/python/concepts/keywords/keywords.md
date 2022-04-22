@@ -13,4 +13,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Certain keywords are reserved in Python and are not available to be assigned as variables or named functions. There are many keywords where some specilize in control-flow (e.g. `if/else` and `for`) while others work as [operators](https://www.codecademy.com/resources/docs/python/operators) (e.g. `and`, `in`, and `is`).
+Certain keywords are reserved in Python and are not available to be assigned as variables or named functions. There are many keywords where some specialize in control-flow (e.g. `if/else` and `for`) while others work as [operators](https://www.codecademy.com/resources/docs/python/operators) (e.g. `and`, `in`, and `is`).
