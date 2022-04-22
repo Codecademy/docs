@@ -1,6 +1,6 @@
 ---
 Title: '.dump()'
-Description: 'Encodes a Python object as a json file.'
+Description: 'Encodes a Python object as a JSON file.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,11 +14,11 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `dump()` function encodes a Python object as a json file. The encoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `dumps()` function, alternatively, takes a Python object and returns a json string.
+The `.dump()` function encodes a Python object as a JSON file. The encoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.dumps()` function, alternatively, takes a Python object and returns a JSON string.
 
 ## Syntax
 
-```psuedo
+```pseudo
 json.dump(py_obj)
 
 json.dumps(py_obj)
@@ -28,7 +28,7 @@ A `py_obj` can be a string, list, dictionary, etc.
 
 ## Example
 
-The `json.dump` function can be used to convert a Python object to a json file:
+The `.dump()` function can be used to convert a Python object to a JSON file:
 
 ```py
 import json

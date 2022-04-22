@@ -1,6 +1,6 @@
 ---
-Title: 'json'
-Description: 'A module for encoding and decoding objects to and from the json format.'
+Title: 'JSON Module'
+Description: 'The `json` module is used for encoding and decoding objects to and from the JSON format.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `json` module provides tools for working with the json format. It can be imported with the following line:
+The `json` module provides tools for working with the Javascript Object Notation (JSON) format. It can be imported with the following line:
 
 ```py
 import json
