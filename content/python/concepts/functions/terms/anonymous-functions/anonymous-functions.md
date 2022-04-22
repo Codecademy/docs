@@ -48,4 +48,4 @@ Anonymous functions can also be evaluated immediately after they are defined, si
 print((lambda a, b: a + b)(1986, 33))
 ```
 
-If the function can be written in a single line, `lambda` could be useful. Otherwise, if the function is more complex, it is recommended to use the `def` keyword.
+Anonymous functions are useful when the function can be written in a single line. Otherwise, if the function is more complex, it is recommended to use the `def` keyword.
