@@ -18,35 +18,15 @@ The `any()` built-in function takes in an iterable object such as a list or tupl
 
 ## Syntax
 
-```py
+```pseudo
 any(iterable)
 ```
 
-## Example 1
+The `iterable` is any sequence or collection that can be traversed, such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [list](https://www.codecademy.com/resources/docs/python/list).
 
-Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
+The inside of the pseudocode can be broken down in the following way:
 
-```python
-print(any([True, 0, False]))
-# Output: True
-```
-
-## Example 2
-
-Use `any()` to check if there is a `True` statement in a dictionary:
-
-```python
-my_dict = {1 : "On"}
-
-print(any(my_dict))
-# Output: True
-```
-
-## The Function
-
-The `any()` built-in function is essentially:
-
-```python
+```pseudo
 def any(iterable):
   for element in iterable:
     if element:
@@ -54,14 +34,32 @@ def any(iterable):
   return False
 ```
 
+Inside the loop, at the first instance of an `element` existing in the `iterable`, execution will stop and `True` will be returned. If the end of the loop is reached and the element is not found, `False` is returned instead.
+
+## Example
+
+Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
+
+```py
+print(any([True, 0, False]))
+print(any({1 : "On"}))
+```
+
+The following output will be printed to the shell:
+
+```shell
+True
+True
+```
+
 ## Codebyte Example
 
-```codebyte/py
-# List
+The following example calls the `any()` function with both a list `my_list` and a dictionary `my_dict`:
+
+```codebyte/python
 my_list = [0, 2, False]
 print(any(my_list))
 
-# Dictionary
 my_dict = {0 : "Off"}
 print(any(my_dict))
 ```
