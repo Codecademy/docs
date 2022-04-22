@@ -35,17 +35,17 @@ The number of number signs you use should correspond to the heading level. For e
 ###### Heading level 6
 ```
 
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 # Heading 1
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 ## Heading 2
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 ### Heading 3
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 #### Heading 4
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 ##### Heading 5
-<!-- prettier-ignore -->
+<!-- markdownlint-disable-next-line -->
 ###### Heading 6
 
 ## Alternate Syntax
