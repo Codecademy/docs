@@ -45,7 +45,19 @@ def sodaCount(count):
     print(f"{count} bottles of soda left on the shelf.")
     return sodaCount(count-1)
 
-sodaCount(5)
+print(sodaCount(5))
+```
+
+The resulting output will look like this:
+
+```shell
+5 bottles of soda left on the shelf.
+4 bottles of soda left on the shelf.
+3 bottles of soda left on the shelf.
+2 bottles of soda left on the shelf.
+1 bottles of soda left on the shelf.
+All of the soda is gone!
+None
 ```
 
 ## Codebyte Example

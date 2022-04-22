@@ -44,13 +44,20 @@ Function parameters can also be initialized to a default value. In the `calc_tot
 - When the `discount` value is explicitly specified in the function call, that value is used.
 - Otherwise, the default value of 10 is used.
 
-```codebyte/python
+```py
 def calc_total(amount, discount=10):
   total = amount * (1 - 0.01 * discount)
   return total
 
-calc_total(100)     # Output: 90.0
-calc_total(250, 5)  # Output: 237.5
+print(calc_total(100))
+print(calc_total(250, 5))
+```
+
+The output will look like the following:
+
+```shell
+90.0
+237.5
 ```
 
 ## Arguments
@@ -100,8 +107,8 @@ def multiply(*args):
     product *= arg
   return product
 
-multiply(21, 24)
-multiply(10, 5, 3, 6, 17)
+print(multiply(21, 24))
+print(multiply(10, 5, 3, 6, 17))
 ```
 
 The output will look like this:

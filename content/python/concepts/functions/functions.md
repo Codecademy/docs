@@ -54,7 +54,7 @@ returned_value = check_leap_year(year_to_check)
 print(returned_value)
 ```
 
-The result output will look like this:
+The resulting output will look like this:
 
 ```shell
 2018 is not a leap year.

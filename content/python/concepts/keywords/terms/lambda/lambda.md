@@ -21,7 +21,7 @@ The `lambda` keyword produces [anonymous function](https://www.codecademy.com/re
 lambda parameter_list : expression
 ```
 
-A comma-separated `paramter_list` is provided and mapped into the `expression` on the other side of the colon `:`.
+A comma-separated `parameter_list` is provided and mapped into the `expression` on the other side of the colon `:`.
 
 ## Example
 
