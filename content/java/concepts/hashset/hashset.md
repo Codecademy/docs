@@ -166,7 +166,7 @@ This will output:
 
 ## Traversing a `HashSet`
 
-A `HashSet` can be traversed with a for-each [loop](https://www.codecademy.com/resources/docs/java/loops). Note that when doing so, the items will not be returned in any particular order.
+A `HashSet` can be traversed with a `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). Note that when doing so, the items will not be returned in any particular order.
 
 ### Example
 
