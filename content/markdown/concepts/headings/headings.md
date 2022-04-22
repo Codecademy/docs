@@ -39,10 +39,15 @@ The number of number signs you use should correspond to the heading level. For e
 
 <!-- markdownlint-disable -->
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 <!-- markdownlint-restore -->
 
