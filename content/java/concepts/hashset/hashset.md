@@ -67,7 +67,7 @@ This will output:
 [Pizza, Sausage, Potatoes, Cabbage, Salad]
 ```
 
-**Note:** Members of the `HashSet` must be unique, so adding the same item twice ("Sausage" above) will have no effect. Also, the `HashSet` items have no particular order, regardless of when they were inserted.
+**Note:** Members of the `HashSet` must be unique, so adding the same item twice will have no effect, like in the example above where "Sausage" is added a second time. Also, the `HashSet` items have no particular order, regardless of when they were inserted.
 
 ## Removing Items
 
