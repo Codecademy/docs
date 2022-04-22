@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Dictionary'
   - 'Objects'
   - 'Classes'
   - 'OOP'
