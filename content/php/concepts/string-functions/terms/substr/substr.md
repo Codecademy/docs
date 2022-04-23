@@ -23,7 +23,7 @@ substr($string, $offset, $length)
 
 The `$string` parameter is the string in which a portion will be returned.
 
-The `$offset` parameter is an `int` value ad specifies the start of the substring in the following manner:
+The `$offset` parameter is an `int` value and specifies the start of the substring in the following manner:
 
 - Positive or zero values specifies the zero-based character position from the start of the string.
 - Negative values indicate the character position from the end of the string.
