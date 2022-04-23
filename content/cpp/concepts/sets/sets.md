@@ -53,6 +53,8 @@ This outputs the following:
 
 ```shell
 10 19 25 42 
+```
+
 By default, values of the set are sorted in ascending order.
 
 ## Setting a Different Comparison Function
