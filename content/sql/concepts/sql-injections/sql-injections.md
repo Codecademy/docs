@@ -34,7 +34,7 @@ Now if a user enters `1' OR '1'='1`, then the SQL command becomes `SELECT * FROM
 This example will send a command to the database to drop a table.
 
 ```sql
-SELECT * FROM Users WHERE UserID = 'input from user'
+SELECT * FROM Projects WHERE UserID = 'input from user'
 ```
 
 If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find the user with the UserId = 1, then it will run what it believes to be the next command `DELETE FROM Projects WHERE '1'='1'` which will delete all rows from the `Projects` table.
