@@ -1,6 +1,6 @@
 ---
 Title: 'SQL Injections'
-Description: 'SQL Injection is a technique to inject malicious code into a database.'
+Description: 'SQL injection is a technique used to inject malicious code into a database.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
