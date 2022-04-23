@@ -18,7 +18,7 @@ In C++, the `getline()` function converts user input into a character-delimited 
 
 ## Syntax
 
-The `getline()` function is part of the `<string>` header.
+The `getline()` function is defined in the `<string>` header.
 
 ```pseudo
 #include <string>
