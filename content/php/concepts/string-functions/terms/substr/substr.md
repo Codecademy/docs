@@ -25,7 +25,7 @@ The `$string` parameter is the string in which a portion will be returned.
 
 The `$offset` parameter is an `int` value and specifies the start of the substring in the following manner:
 
-- Positive or zero values specifies the zero-based character position from the start of the string.
+- Positive or zero values specify the zero-based character position from the start of the string.
 - Negative values indicate the character position from the end of the string.
 - An `$offset` greater than the length of `$string` will return an empty string.
 
