@@ -21,7 +21,7 @@ To prevent SQL injection, databases should not take user input as a command to b
 
 ## Examples
 
-## Retrieving Data
+## Vulnerable SQL queries
 
 In this example, there is a form that asks for your `User ID`. This form will run this SQL command to check if the user exists:
 
@@ -31,8 +31,6 @@ SELECT * FROM users WHERE UserID = 'input from user'
 
 Now if a user enters `1' OR '1'='1`, then the SQL command becomes `SELECT * FROM users WHERE UserID = '1' OR '1'='1'`. The user injecting the code will be able to access all the UserID's because `1=1` will always execute as `true`.
 
-## Dropping a Table
-
 This example will send a command to the database to drop a table.
 
 ```sql
@@ -40,6 +38,13 @@ SELECT * FROM Projects WHERE UserID = 'input from user'
 ```
 
 If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find the user with the UserId = 1, then it will run what it believes to be the next command `DELETE FROM Projects WHERE '1'='1'` which will delete all rows from the `Projects` table.
+
+## Prevention with Parametized Queries
+```sql
+string sql = "SELECT * FROM users WHERE UserID = $userInput"
+```
+
+This example saves the query as a string and passes the value of the user's input as a variable into the string.
 
 ## Ways to Prevent SQL Injection
 
