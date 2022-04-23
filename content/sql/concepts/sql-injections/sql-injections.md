@@ -40,3 +40,11 @@ SELECT * FROM Projects WHERE UserID = 'input from user'
 ```
 
 If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find the user with the UserId = 1, then it will run what it believes to be the next command `DELETE FROM Projects WHERE '1'='1'` which will delete all rows from the `Projects` table.
+
+## Ways to Prevent SQL Injection
+
+Techniques to keep your database safe:
+  - Be aware of SQL Injection techniques
+  - Set up a filter for user input
+  - Treat user input as untrusted
+  - Use parameterized queries
