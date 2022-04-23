@@ -44,6 +44,7 @@ If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find th
 ## Ways to Prevent SQL Injection
 
 Techniques to keep your database safe:
+
 - Be aware of SQL Injection techniques
 - Set up a filter for user input
 - Treat user input as untrusted
