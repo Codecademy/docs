@@ -40,6 +40,7 @@ SELECT * FROM Projects WHERE UserID = 'input from user'
 If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find the user with the UserId = 1, then it will run what it believes to be the next command `DELETE FROM Projects WHERE '1'='1'` which will delete all rows from the `Projects` table.
 
 ## Prevention with Parametized Queries
+
 ```sql
 string sql = "SELECT * FROM users WHERE UserID = $userInput"
 ```
