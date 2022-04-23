@@ -31,7 +31,7 @@ getline(cin, string, delim)
 - `string` refers to the variable the user input is set to.
 - `delim` refers to a character that the user's input is stored up to.
 
-Although not recommended, `getline()` can be called on the `cin` object as a member function like this:
+Although not recommended in C++, since it deals with [C strings](https://www.codecademy.com/resources/docs/c/strings), `getline()` can be called on the `cin` object as a member function like this:
 
 ```pseudo
 cin.getline(string, length, delim)
