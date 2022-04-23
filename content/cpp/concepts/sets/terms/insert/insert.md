@@ -47,9 +47,3 @@ int main(){
   }
 }
 ```
-
-The example above outputs the following:
-
-```shell
-2 34 90 101
-```
