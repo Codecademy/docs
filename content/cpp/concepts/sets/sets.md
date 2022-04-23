@@ -22,15 +22,49 @@ std::set<datatype> setName;
 
 A set can be created by using the `set` keyword and declaring a [data type](https://www.codecademy.com/resources/docs/cpp/data-types) and name.
 
+## Example
+
+The example below initiates a set, inserts values into it using the [.insert()](https://www.codecademy.com/resources/docs/cpp/sets/insert) method, and then prints out the set:
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main(){
+  // Initiate set
+  std::set<int> numSet;
+
+  // Insert values into set
+  numSet.insert(25);
+  numSet.insert(42);
+  numSet.insert(10);
+  numSet.insert(19);
+
+  // Print out set
+  std::set<int> :: iterator iter;
+  for(iter = numSet.begin(); iter != numSet.end(); iter++)
+  {
+  std::cout<< *iter << " ";
+  }
+}
+```
+
+This outputs the following:
+
+```shell
+10 19 25 42 
+```
+By default, values of the set are sorted in ascending order.
+
 ## Setting a Different Comparison Function
 
-By default, values of the set are sorted in ascending order. The comparison function can be changed from the default to `std::greater<int>` in order to sort the values in descending order:
+The comparison function can be changed from the default to `std::greater<int>` in order to sort the values in descending order:
 
 ```pseudo
 std::set<int, std::greater<int> > setName;
 ```
 
-The following example shows this in use:
+Setting the previous example's comparison function to `std::greater<int>`:
 
 ```cpp
 #include <iostream>
