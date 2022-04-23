@@ -74,11 +74,11 @@ def fibonacci():
   # Generate first number
   a = 1
   yield a
-  
+
   # Generate second number
   b = 1
   yield b
-  
+
   # Infinite loop
   while True:
     # return sum of a + b
@@ -87,7 +87,7 @@ def fibonacci():
     # Function resumes loop here on next call
     a = b
     b = c
-    
+
 # Iterate through the Fibonacci sequence untill we hit a limit
 for num in fibonacci():
   if num > 50:
