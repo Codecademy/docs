@@ -21,7 +21,7 @@ The `substr()` function returns a portion of a string specified by parameters fo
 substr($string, $offset, $length)
 ```
 
-The `$string` parameter is the string in which a portion will be returned.
+The `$string` parameter is the string from which a portion will be returned.
 
 The `$offset` parameter is an `int` value and specifies the start of the substring in the following manner:
 
