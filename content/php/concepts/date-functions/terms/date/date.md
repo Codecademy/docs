@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `date()` function crates a formatted date-time string from a local date-time.
+The `date()` function creates a formatted date-time string from a local date-time.
 
 ## Syntax
 
