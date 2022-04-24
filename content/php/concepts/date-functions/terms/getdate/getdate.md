@@ -20,7 +20,7 @@ The `getdate()` function returns an array representing information about the cur
 $t = getdate($timestamp);
 ```
 
-The `$timestamp` parameter is optimal. It is an int representing a Unix timestamp, i.e. the number of seconds from the Unix Epoch, midnight GMT on January 1st 1970. If omitted, `getdate()` returns information on the current date and time.
+The `$timestamp` parameter is optional. It is an int representing a Unix timestamp, i.e. the number of seconds from the Unix Epoch, midnight GMT on January 1st, 1970. If omitted, `getdate()` returns information on the current date and time.
 
 The `getdate()` function returns an associative array, `$t`, providing information on the current date or `$timestamp` with the following members:
 
