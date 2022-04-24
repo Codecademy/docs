@@ -19,7 +19,7 @@ PHP supports the following primitive data types:
 - bool: a value that's either `true` or `false`.
 - int: a whole number value.
 - float: a numeric value with decimal.
-- string: a seies of characters.
+- string: a series of characters.
 - array: an ordered map of key/value pairs.
 - object: an instance of a pre-defined class.
 - callable: a refrence to a PHP function.
