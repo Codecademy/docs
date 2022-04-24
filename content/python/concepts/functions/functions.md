@@ -69,7 +69,7 @@ Functions using `yield` rather than `return` are known as generator functions. S
 The example below will automatically generate successive Fibonacci numbers.
 
 ```py
-# function to produce infinite Fibonacci numbers
+# Function to produce infinite Fibonacci numbers
 def fibonacci():
   # Generate first number
   a = 1
