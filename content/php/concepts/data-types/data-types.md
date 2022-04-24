@@ -40,7 +40,7 @@ $text = "PHP";
 var_dump($text);
 ```
 
-Restults in the output:
+Results in the output:
 
 ```pseudo
 string(3) "PHP"
