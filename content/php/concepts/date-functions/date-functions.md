@@ -1,6 +1,6 @@
 ---
 Title: 'Date Functions'
-Description: 'PHP manipulates dates in a numer of ways, using arrays, strings, Unix timestamps or `DateTime` objects.'
+Description: 'PHP manipulates dates in a number of ways, using arrays, strings, Unix timestamps or `DateTime` objects.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
