@@ -81,7 +81,7 @@ def fibonacci():
 
   # Infinite loop
   while True:
-    # return sum of a + b
+    # Return sum of a + b
     c = a + b
     yield c
     # Function resumes loop here on next call
