@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.read_csv()` function takes a path to a csv file and reads the data into a Pandas [`dataframe`](https://www.codecademy.com/resources/docs/python/pandas-modules/dataframe) object.
+The `.read_csv()` function takes a path to a csv file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/python/pandas-modules/dataframe) object.
 
 ## Syntax
 
