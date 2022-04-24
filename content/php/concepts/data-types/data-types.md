@@ -24,7 +24,7 @@ PHP supports the following primitive data types:
 - object: an instance of a pre-defined class.
 - callable: a refrence to a PHP function.
 - iterable: represents any array or object implementing the `Traversable` interface.
-- resource: a refrence to an external resource.
+- resource: a reference to an external resource.
 - NULL: represents a variable with no value.
 
 Rather than being declared in code, PHP typically decides types at runtime depending on context. There are a number of ways to determine the type of a variable or expression.
