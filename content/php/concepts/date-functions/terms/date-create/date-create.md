@@ -64,3 +64,16 @@ Valid date-time formats for `$datetime` include the following:
 | SOAP        | "2011-12-31T15:25:27.05" |
 | XMLRPC      | "20111231T15:25:27"      |
 | WDDX        | "2011-12-31T15:25:27"    |
+
+## Codebyte Example
+
+```codebyte/php
+<?php
+  $date1 = date_create("7/4/76");
+  $date2 = date_create("2011-12-31 15:25:27");
+
+  var_dump(date_format($date1, 'Y-M-d'));
+  echo "\n";
+  var_dump(date_format($date2, 'Y-M-d'));
+?>
+```
