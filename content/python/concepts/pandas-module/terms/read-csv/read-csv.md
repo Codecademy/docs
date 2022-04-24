@@ -27,16 +27,16 @@ The `filepath_or_buffer` parameter is the path to the csv file. It can be a path
 
 Some of the more signifigant parameters are listed here:
 
-Parameter Name | Data Type |Usage
----------------|:-----------:|-----
-`filepath_or_buffer` | str | Path to the csv file to import.
-`sep` | str | Delimiter to use. Values longer than 1 character will be interpreted as Regular Expressions.
-`delimiter` | str | alias for `sep`.
-`header` | int, list of int, None | Row number(s) to use as column names, and start of data.
-`names` | array-like | List of column names to use. If file contains a header row, explicitly set `header=0` to override the column names.
-`usecols` | list-like or callable | List of column numbers or names to import. If callable, uses columns where the name passed to the callable results in `True`.
-`skiprows` | list-like, int or callable | Inital lines to skip (int). Row numbers to skip (list). Or callable that returns `True` when the row number passed to it should be skipped.
-`skip_blank_lines` | bool | `True` to skip blank lines rather than reading `NaN` values. Default is `True`.
+| Parameter Name       |         Data Type          | Usage                                                                                                                                       |
+| -------------------- | :------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `filepath_or_buffer` |            str             | Path to the csv file to import.                                                                                                             |
+| `sep`                |            str             | Delimiter to use. Values longer than 1 character will be interpreted as Regular Expressions.                                                |
+| `delimiter`          |            str             | alias for `sep`.                                                                                                                            |
+| `header`             |   int, list of int, None   | Row number(s) to use as column names, and start of data.                                                                                    |
+| `names`              |         array-like         | List of column names to use. If file contains a header row, explicitly set `header=0` to override the column names.                         |
+| `usecols`            |   list-like or callable    | List of column numbers or names to import. If callable, uses columns where the name passed to the callable results in `True`.               |
+| `skiprows`           | list-like, int or callable | Inital lines to skip (int). Row numbers to skip (list). Or callable that returns `True` when the row number passed to it should be skipped. |
+| `skip_blank_lines`   |            bool            | `True` to skip blank lines rather than reading `NaN` values. Default is `True`.                                                             |
 
 ## Example
 
