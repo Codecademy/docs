@@ -79,7 +79,7 @@ PHP has a number of "is_type" functions to check the type of a variable.
 
 The `is_callable()` function has a slightly more complicated syntax:
 
-```php
+```pseudo
 is_callable($value, $syntax_only, $callable_name)
 ```
 
