@@ -57,7 +57,7 @@ $text = "PHP";
 echo(gettype($text));
 ```
 
-Restults in the output:
+Results in the output:
 
 ```pseudo
 string
