@@ -88,7 +88,7 @@ def fibonacci():
     a = b
     b = c
 
-# Iterate through the Fibonacci sequence untill we hit a limit
+# Iterate through the Fibonacci sequence until a limit is reached
 for num in fibonacci():
   if num > 50:
     break
