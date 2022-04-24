@@ -18,7 +18,7 @@ The `explode()` function takes a string and splits it on a given delimiter strin
 
 ## Syntax
 
-```php
+```pseudo
 explode($delimiter, $string, $limit)
 ```
 
