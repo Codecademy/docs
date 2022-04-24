@@ -22,7 +22,7 @@ PHP supports the following primitive data types:
 - string: a series of characters.
 - array: an ordered map of key/value pairs.
 - object: an instance of a pre-defined class.
-- callable: a refrence to a PHP function.
+- callable: a reference to a PHP function.
 - iterable: represents any array or object implementing the `Traversable` interface.
 - resource: a reference to an external resource.
 - NULL: represents a variable with no value.
