@@ -42,7 +42,7 @@ var_dump($text);
 
 Results in the output:
 
-```pseudo
+```shell
 string(3) "PHP"
 ```
 
