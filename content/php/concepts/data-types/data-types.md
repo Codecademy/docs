@@ -59,7 +59,7 @@ echo(gettype($text));
 
 Results in the output:
 
-```pseudo
+```shell
 string
 ```
 
