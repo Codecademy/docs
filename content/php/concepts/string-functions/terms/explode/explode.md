@@ -34,7 +34,7 @@ The `$limit` parameter is an optional `int` that specifies how many strings will
 
 The `$delimiter` has the following behaviors:
 
-- If `$delimiter` is an empty string, `explode()` with throw a `ValueError` exception.
+- If `$delimiter` is an empty string, `explode()` will throw a `ValueError` exception.
 - If `$delimiter` is not found in `$string` and a negative `$length` is used, and empty array is returned.
 - If `$delimiter` is not found in `$string` and `$length` is positive or omitted, an array containing `$string` is returned.
 - If `$delimiter` is found at the start or end of `$string` empty values for each `$delimiter` will be added to the start or end of the returned array respectively.
