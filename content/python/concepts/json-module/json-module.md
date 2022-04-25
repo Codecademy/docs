@@ -8,13 +8,14 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
+  - 'JSON'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-The `json` module provides tools for working with the Javascript Object Notation (JSON) format. It can be imported with the following line:
+The `json` module provides tools for working with the JavaScript Object Notation (JSON) format. It can be imported with the following line:
 
 ```py
 import json

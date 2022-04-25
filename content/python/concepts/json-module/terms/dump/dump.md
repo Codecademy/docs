@@ -8,6 +8,7 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
+  - 'JSON'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -19,7 +20,7 @@ The `.dump()` function encodes a Python object as a JSON file. The encoding conv
 ## Syntax
 
 ```pseudo
-json.dump(py_obj)
+json.dump(py_obj, file_name)
 
 json.dumps(py_obj)
 ```

@@ -8,6 +8,7 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
+  - 'JSON'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
