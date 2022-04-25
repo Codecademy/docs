@@ -29,15 +29,15 @@ string.slice(start, stop);
 ## Example
 
 ```js
-let fruits = ['Mango', 'Apple', 'Strawberry', 'Blueberry', 'Pineapple'];
+let smoothie = 'mango strawberry pineapple';
 
-let berries = fruits.slice(2, 4);
+let berry = smoothie.slice(6, 16);
 
-console.log(fruits);
-// Output: ['Mango', 'Apple', 'Strawberry', 'Blueberry', 'Pineapple']
+console.log(fruit);
+// Output: mango strawberry pineapple
 
-console.log(berries);
-// Output: ['Strawberry', 'Blueberry']
+console.log(berry);
+// Output: strawberry
 ```
 
 ## Codebyte Example
