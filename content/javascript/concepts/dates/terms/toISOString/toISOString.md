@@ -35,7 +35,7 @@ const today = new Date();
 console.log(today.toISOString());
 ```
 
-The snippet above will log the following to the console:
+The snippet above will log to the console something similar to the following:
 
 ```shell
 2022-04-22T18:12:21.369Z

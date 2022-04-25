@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-In JavaScript, `Date` objects represent a single moment in time stored as a number, representing the number of milliseconds since midnight on January 1st 1970 UTC.
+In JavaScript, `Date` objects represent a single moment in time stored as a representation of the number of milliseconds since midnight on January 1st 1970 UTC.
 
-**Note:** This is different from the UNIX epoch, the number of _seconds_ since midnight on January 1st 1970 UTC. Even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone (which may be different from UTC).
+**Note:** This is different from a UNIX timestamp, which is the number of seconds since the Epoch (Midnight UTC on January 1st 1970). Even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone (which may differ from UTC).
 
 ## Syntax
 
@@ -39,17 +39,18 @@ const d = new Date(year, month, day, hour, minute, second, millisecond);
 
 In JavaScript, the following three date format types are commonly used:
 
-|              Format Type              | Syntax                                                  | Example Output                                              |
-| :-----------------------------------: | ------------------------------------------------------- | ----------------------------------------------------------- |
-| ISO Date (The International Standard) | `date.toISOString()`                                    | "2015-04-05T00:00:00.000Z"                                  |
-|              Short Date               | `new Date("YYYY-MM-DD")` / `new Date("YYYY/MM/DD")`     | "Wed Mar 25 2015 00:00:00 GMT-0400 (Eastern Daylight Time)" |
-|               Long Date               | `new Date("Mon DD YYYY")` / `new Date("DD Month YYYY")` | "Sun Apr 05 2015 00:00:00 GMT-0400 (Eastern Daylight Time)" |
+|              Format Type              | Syntax                                              |
+| :-----------------------------------: | --------------------------------------------------- |
+| ISO Date (The International Standard) | `new Date("YYYY-MM-DDThh:mm:ss.sssZ)`               |
+|              Short Date               | `new Date("YYYY-MM-DD")` / `new Date("YYYY/MM/DD")` |
+|               Long Date               | `new Date("Mon DD YYYY")` ( or `"DD Month YYYY"`)   |
 
 With regards to ISO dates:
 
-- It is the only one that is strictly enforced while the others may vary in functionality depending on the browser.
+- It is the only format that is strictly enforced while the others may vary in functionality depending on the browser.
 - "YYYY-MM-DD" or "YYYY/MM/DD" is the preferred format.
-- In the output, the `T` separates the the date from the time and the `Z` represents UTC time.
+- In the output, the `T` separates the the date from the time while the `Z` represents the UTC timezone.
+- Existing dates can be converted to ISO with the [`.toISOString()`](https://www.codecademy.com/resources/docs/javascript/dates/toisostring) method.
 
 With regards to short dates:
 
@@ -60,7 +61,7 @@ With regards to long dates:
 
 - The day and month can be in any order.
 - The month can either be abbreviated ("Mar") or written in full ("March").
-- Names are case-sensitive and commas can be ignored. (e.g. `new Date("MONTH", "DD", "YYYY")`)
+- Names are case-sensitive and commas can be ignored. (e.g. `new Date("MONTH DD YYYY")`)
 
 ## Example
 
@@ -74,7 +75,7 @@ const then = new Date();
 console.log(then);
 ```
 
-The following output would look like this:
+The output from the snippet above would look similar to this:
 
 ```shell
 Fri Apr 22 2022 17:59:19 GMT+0000 (Coordinated Universal Time)
