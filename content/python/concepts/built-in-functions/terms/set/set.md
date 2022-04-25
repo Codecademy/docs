@@ -22,7 +22,7 @@ The built-in `set()` function returns a new [set](https://www.codecademy.com/res
 set(iterable)
 ```
 
-The `iterable` parameter is optional. If nothing is passed, an empty set is created and "set()" would be printed to the shell.
+The `iterable` parameter is optional. If nothing is passed, an empty set is created.
 
 ## Example
 

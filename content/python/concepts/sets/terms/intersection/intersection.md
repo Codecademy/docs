@@ -53,10 +53,10 @@ The output would be:
 In the example, a set of trips for the next year is created with the `.intersection()` method:
 
 ```codebyte/python
-goal_trips_last_year = set(["San Francisco", "Dublin", "London", "Naples", "Tokyo", "New York", "Seoul"])
-actually_visited_last_year = set(["San Francisco", "London", "Tokyo", "Naples"])
+flight_A = set(["San Francisco", "Atlanta", "New York", "London", "Naples", "Seoul", "Tokyo"])
+flight_B = set(["New York", "London", "Paris", "Sydney", "Mumbai", "Tokyo", "Seattle"])
 
-goal_trips_next_year = goal_trips_last_year.intersection(actually_visited_last_year)
+mutual_stops = flight_A.intersection(flight_B)
 
-print(goal_trips_next_year)
+print(mutual_stops)
 ```

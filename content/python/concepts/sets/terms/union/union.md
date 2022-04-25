@@ -26,7 +26,7 @@ setA | setB | setC
 
 ## Example
 
-In the example below, two sets of `liked_artists_` are created using two alternate syntaxes. Next, they are combined and stored in a new set, `all_likes`, using the `.union()` method:
+In the example below, two sets of `liked_artists` are created using two alternate syntaxes. Next, they are combined and stored in a new set, `all_likes`, using the `.union()` method:
 
 ```py
 liked_artists_1 = {'Grimes', 'Billie Eilish'}
@@ -45,13 +45,16 @@ The output would be the following:
 
 ## Codebyte Example
 
-In the example, a set of trips for the next year is created with the `.union()` method:
+In this example, a new set, `three_Bs`, is created with the alternative syntax of the `.union()` method:
 
 ```codebyte/python
-goal_trips_last_year = set(["San Francisco", "Dublin", "London", "Naples", "Tokyo", "New York", "Seoul"])
-actually_visited_last_year = set(["San Francisco", "London", "Tokyo", "Naples"])
+bears = set(["Grizzly", "Polar", "Panda"])
 
-goal_trips_next_year = goal_trips_last_year.union(actually_visited_last_year)
+beets = set(["Avalanche", "Bull's Blood", "Crosby Egyptian"])
 
-print(goal_trips_next_year)
+battlestar_gallactica = set(["Razor", "The Plan"])
+
+three_Bs = bears | beets | battlestar_gallactica
+
+print(three_Bs)
 ```

@@ -21,7 +21,7 @@ The built-in `len()` function returns the length of an object, which can either 
 len(object)
 ```
 
-Again, any `object` passed to the `len()` function is commonly one of the following:
+An `object` passed to the `len()` function is commonly one of the following:
 
 - It can be a sequence such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [tuple](https://www.codecademy.com/resources/docs/python/tuples).
 - It can also be a collection such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), or [set](https://www.codecademy.com/resources/docs/python/set).

@@ -1,6 +1,6 @@
 ---
 Title: 'frozenset()'
-Description: 'Returns a new set or frozenset using an optional iterable object such as a string or list.'
+Description: 'Returns a new frozenset using an optional iterable object such as a string or list.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The built-in `frozenset()` function returns a new set or frozenset using an optional iterable object objects such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [list](https://www.codecademy.com/resources/docs/python/lists).
+The built-in `frozenset()` function returns a new frozenset using an optional iterable object objects such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [list](https://www.codecademy.com/resources/docs/python/lists).
 
-Frozensets are a special type of set that are immutable. Like [tuples](https://www.codecademy.com/resources/docs/python/tuples), their contents are frozen and cannot be changed after creation.
+Frozensets are a specific type of [set](https://www.codecademy.com/resources/docs/python/sets) that are immutable. Like [tuples](https://www.codecademy.com/resources/docs/python/tuples), their contents are frozen and cannot be changed after creation.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ frozenset({'glacier', 'ice cube', 'frozen_set'})
 
 ## Codebyte Example
 
-In the example below, the `frozenset()` function is used to create a new object called `continents`:
+In the example below, the `frozenset()` function is used to create a new frozenset called `continents`:
 
 ```codebyte/python
 continents = frozenset(["Africa", "Antarctica", "Asia", "Australia", "Europe", "North America", "South America"])

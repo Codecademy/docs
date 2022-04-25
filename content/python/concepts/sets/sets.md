@@ -24,7 +24,7 @@ set_A = set(iterable)
 set_B = {element_A, element_B, .., elementZ}
 ```
 
-There are several ways to create a set, which includes:
+There are several ways to create a set, which include:
 
 - Using the built-in [`set()`](https://www.codecademy.com/resources/docs/python/built-in-functions/set) function and passing in an optional `iterable` parameter.
 - Hard-coding a set with dictionary-like syntax (`{}`) where each element is unique.
@@ -34,7 +34,7 @@ There are several ways to create a set, which includes:
 In the example below, sets are created with lists and the `set()` function. The following observations can be made:
 
 - The first time the `animals` set is created with no parameters and printed, "set()" is printed to the shell.
-- When the `dog_breeds` set is created, it has duplicate elements with a `corgie` value that is reduced to one by the time the set is printed.
+- When the `dog_breeds` set is created, it has duplicate elements with a `corgi` value that is reduced to one by the time the set is printed.
 
 ```codebyte/python
 animals = set()

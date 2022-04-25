@@ -1,6 +1,6 @@
 ---
 Title: '.difference()'
-Description: 'Returns a new set of objects unique between two or more sets.'
+Description: 'Returns a new set of objects unique to a given set when compared to others.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.difference()` method is used for identifying objects unique between two or more [sets](https://www.codecademy.com/resources/docs/python/sets) and returns a new set of those objects.
+The `.difference()` method returns a new set of objects unique to a given set when compared to others.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ The following syntaxes can be used:
 
 ## Example
 
-The following example uses the `-` operator to create a new set of likes that are not shared between `sue_likes` and `erika_likes`:
+The following example uses the `-` operator to create a new set of likes unique to `sue_likes` when compared with another set, `erika_likes`:
 
 ```py
 sue_likes = {'Pizza', 'Tofu', 'Poke'}

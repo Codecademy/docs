@@ -38,28 +38,69 @@ Inside the loop, at the first instance of an `element` existing in the `iterable
 
 ## Example
 
-Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
+In the following example, the any() function is used to return a boolean after checking a list and a dictionary:
 
 ```py
 print(any([True, 0, False]))
-print(any({1 : "On"}))
+print(any({0 : "Off"}))
 ```
 
 The following output will be printed to the shell:
 
 ```shell
 True
-True
+False
 ```
 
 ## Codebyte Example
 
-The following example calls the `any()` function with both a list `my_list` and a dictionary `my_dict`:
+In the example below, a team of Pokemon are created in preparation for a battle. They are selected based on various properties such as `"level"` and `"type(s)"`. The `any()` function is ultimately used to pick out the Pokemon that meet that criteria:
 
 ```codebyte/python
-my_list = [0, 2, False]
-print(any(my_list))
+my_team = []
 
-my_dict = {0 : "Off"}
-print(any(my_dict))
+def add_pokemon_to_team(pokemon):
+  my_team.append(pokemon)
+
+pokemon = [
+  {
+    "name": "Magikarp",
+    "type(s)": ["Water"],
+    "level": 21,
+    "evolved": False
+  },
+  {
+    "name": "Charizard",
+    "type(s)": ["Fire", "Flying"],
+    "level": 36,
+    "evolved": True
+  },
+  {
+    "name": "Zubat",
+    "type(s)": ["Poison", "Flying"],
+    "level": 18,
+    "evolved": False
+  },
+  {
+    "name": "Ivysaur",
+    "type(s)": ["Grass", "Poison"],
+    "level": 30,
+    "evolved": True
+  }
+]
+
+for p in pokemon:
+  poison_type = "Poison" in p["type(s)"]
+  fire_type = "Fire" in p["type(s)"]
+  acceptable_level = p["level"] >= 25
+
+  necessary_to_win_battle = [
+    poison_type and acceptable_level,
+    fire_type and acceptable_level
+  ]
+
+  if any(necessary_to_win_battle):
+    add_pokemon_to_team(p["name"])
+
+print(my_team)
 ```
