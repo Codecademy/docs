@@ -45,9 +45,7 @@ console.log(berry);
 In the example below, the `animals` array is created. Then the `birds` array is created to extract the birds "eagles" and "owls". Lastly, the `birds` array is used to output a sentence.
 
 ```codebyte/javascript
-let animals = ['elephants', 'eagles', 'owls', 'tigers'];
+let animals = 'elephants, eagles, owls, and tigers';
 
-let birds = animals.slice(1, 3);
-
-console.log(`${birds[0]} and ${birds[1]} are cool birds`);
+console.log(`${animals.slice(11,17)} and ${animals.slice(19,23)} are cool birds`);
 ```
