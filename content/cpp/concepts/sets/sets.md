@@ -61,15 +61,15 @@ By default, values of the set are sorted in ascending order.
 
 The comparison function can be changed from the default to `std::greater<dataType>` in order to sort the values in descending order.
 
-## Syntax
+### Syntax
 
 ```pseudo
 std::set<dataType, std::greater<dataType> > setName;
 ```
 
-- `dataType` for the comparison function must match the data type for the set.
+- `dataType` for the comparison function must match the data type of the set.
 
-## Example
+### Example
 
 Setting the previous example's comparison function to `std::greater<int>`:
 
