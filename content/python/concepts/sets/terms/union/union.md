@@ -52,9 +52,9 @@ bears = set(["Grizzly", "Polar", "Panda"])
 
 beets = set(["Avalanche", "Bull's Blood", "Crosby Egyptian"])
 
-battlestar_gallactica = set(["Razor", "The Plan"])
+battlestar_galactica = set(["Razor", "The Plan"])
 
-three_Bs = bears | beets | battlestar_gallactica
+three_Bs = bears | beets | battlestar_galactica
 
 print(three_Bs)
 ```
