@@ -52,7 +52,7 @@ int main(){
 This outputs the following:
 
 ```shell
-10 19 25 42 
+10 19 25 42
 ```
 
 By default, values of the set are sorted in ascending order.
