@@ -30,15 +30,15 @@ df = DataFrame.drop(names) # Drop names from rows. (axis defaults to "0")
 
 `DataFrame.drop()` has the following parameters:
 
-Parameter Name | Data Type | Usage
----------------|-----------|------
-`labels` | single label or list | The labels to drop from columns or index as specified by `axis`.
-`axis` | 0/1 or 'index'/'columns' | Specifies if `labels` refers to columns or indicies. Defaults to `0`.
-`index` | single label or list | Specifies index labels to drop. Ignores `axis`.
-`columns` | single label or list | Specifies column labels to drop. Ignores `axis`.
-`level` | index of level name | For MultiIndex dataframes, the level from which the label(s) will be removed.
-`inplace` | bool | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.
-`errors` | 'ignore'/'raise' | Specifies if exception is raised for non-existent labels ('raise') or if those labels are ignored ('ignore'). Default is 'raise'.
+| Parameter Name | Data Type                | Usage                                                                                                                             |
+| -------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| `labels`       | single label or list     | The labels to drop from columns or index as specified by `axis`.                                                                  |
+| `axis`         | 0/1 or 'index'/'columns' | Specifies if `labels` refers to columns or indicies. Defaults to `0`.                                                             |
+| `index`        | single label or list     | Specifies index labels to drop. Ignores `axis`.                                                                                   |
+| `columns`      | single label or list     | Specifies column labels to drop. Ignores `axis`.                                                                                  |
+| `level`        | index of level name      | For MultiIndex dataframes, the level from which the label(s) will be removed.                                                     |
+| `inplace`      | bool                     | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                                  |
+| `errors`       | 'ignore'/'raise'         | Specifies if exception is raised for non-existent labels ('raise') or if those labels are ignored ('ignore'). Default is 'raise'. |
 
 ## Example
 
