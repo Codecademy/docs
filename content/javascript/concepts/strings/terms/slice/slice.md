@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.slice()` method selects and returns a portion of a string.
+The `.slice()` method selects and returns a selected portion of a string.
 
 ## Syntax
 
