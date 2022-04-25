@@ -42,7 +42,7 @@ console.log(berries);
 
 ## Codebyte Example
 
-In the example below the animals array is created. Then the birds array is created to extract the birds "eagles" and "owls". Lastly, the birds array is used to output a sentence.
+In the example below, the `animals` array is created. Then the `birds` array is created to extract the birds "eagles" and "owls". Lastly, the `birds` array is used to output a sentence.
 
 ```codebyte/javascript
 let animals = ['elephants', 'eagles', 'owls', 'tigers'];
