@@ -17,7 +17,7 @@ Sets are associative containers which store unique elements that can be referenc
 ## Syntax
 
 ```pseudo
-std::set<datatype> setName;
+std::set<dataType> setName;
 ```
 
 A set can be created by using the `set` keyword and declaring a [data type](https://www.codecademy.com/resources/docs/cpp/data-types) and name.
@@ -59,11 +59,17 @@ By default, values of the set are sorted in ascending order.
 
 ## Setting a Different Comparison Function
 
-The comparison function can be changed from the default to `std::greater<int>` in order to sort the values in descending order:
+The comparison function can be changed from the default to `std::greater<dataType>` in order to sort the values in descending order.
+
+## Syntax
 
 ```pseudo
-std::set<int, std::greater<int> > setName;
+std::set<dataType, std::greater<dataType> > setName;
 ```
+
+- `dataType` for the comparison function must match the data type for the set.
+
+## Example
 
 Setting the previous example's comparison function to `std::greater<int>`:
 
