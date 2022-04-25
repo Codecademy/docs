@@ -39,3 +39,30 @@ Parameter Name | Data Type | Usage
 `level` | index of level name | For MultiIndex dataframes, the level from which the label(s) will be removed.
 `inplace` | bool | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.
 `errors` | 'ignore'/'raise' | Specifies if exception is raised for non-existent labels ('raise') or if those labels are ignored ('ignore'). Default is 'raise'.
+
+## Example
+
+```py
+>>> import pandas as pd
+>>> d = {'col 1' : [1,2,3,4], 'col 2' : ['A','B','C','D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
+>>> df = pd.DataFrame(data = d)
+>>> df
+   col 1 col 2  col 3 col 4
+0      1     A      5     E
+1      2     B      6     F
+2      3     C      7     G
+3      4     D      8     H
+
+>>> df.drop(columns='col 3')
+   col 1 col 2 col 4
+0      1     A     E
+1      2     B     F
+2      3     C     G
+3      4     D     H
+>>> df.drop(2)
+
+   col 1 col 2  col 3 col 4
+0      1     A      5     E
+1      2     B      6     F
+3      4     D      8     H
+```
