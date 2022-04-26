@@ -1,6 +1,6 @@
 ---
 Title: 'DataFrame'
-Description: 'One of the primary object used by Pandas to store and manipulate data.'
+Description: 'The primary object used by Pandas to store and manipulate data.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
