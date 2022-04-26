@@ -8,7 +8,6 @@ Subjects:
 Tags:
   - 'Data Structures'
   - 'Modules'
-  - 'CSV'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
