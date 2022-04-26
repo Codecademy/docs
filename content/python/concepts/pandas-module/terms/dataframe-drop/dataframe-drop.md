@@ -33,7 +33,7 @@ df = DataFrame.drop(names) # Drop names from rows. (axis defaults to "0")
 | Parameter Name | Data Type                | Usage                                                                                                                             |
 | -------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | `labels`       | single label or list     | The labels to drop from columns or index as specified by `axis`.                                                                  |
-| `axis`         | 0/1 or 'index'/'columns' | Specifies if `labels` refers to columns or indices. Defaults to `0`.                                                             |
+| `axis`         | 0/1 or 'index'/'columns' | Specifies if `labels` refers to columns or indices. Defaults to `0`.                                                              |
 | `index`        | single label or list     | Specifies index labels to drop. Ignores `axis`.                                                                                   |
 | `columns`      | single label or list     | Specifies column labels to drop. Ignores `axis`.                                                                                  |
 | `level`        | index of level name      | For MultiIndex dataframes, the level from which the label(s) will be removed.                                                     |
