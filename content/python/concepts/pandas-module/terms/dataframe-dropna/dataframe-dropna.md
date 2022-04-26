@@ -23,19 +23,19 @@ df = DataFrame.dropna() # Drop rows with any NA values.
 
 df = DataFrame.dropna(axis) # Drop from specified axis where NA values appear.
 
-df = DataFrame.dropba(axis,how) # Specify dropping from axis if any values are NA, or if all values are NA. 
+df = DataFrame.dropba(axis,how) # Specify dropping from axis if any values are NA, or if all values are NA.
 ```
 
 `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`. `how` can be "any" or "all" and defaults to "any," specifies if row or column is dropped if any values are `NA` or if all values are `NA`.
 
 `DataFrame.dropna()` has the following parameters:
 
-| Parameter Name | Data Type                | Usage                                                                                                                             |
-| -------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| `axis`| 0/1 or 'index'/'columns' | Specifies dropping to columns or rows (indices). Defaults to `0`. |
-| `how` | 'any' or 'all' | Specified dropping when any value is `NA` or if all values are `NA`|
-| `subset` | column label or sequence | Specifies labels to check for `NA` values along other axis. (i.e. columns to check if dropping rows.)|
-| `inplace` | bool | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`. |
+| Parameter Name | Data Type                | Usage                                                                                                 |
+| -------------- | ------------------------ | ----------------------------------------------------------------------------------------------------- |
+| `axis`         | 0/1 or 'index'/'columns' | Specifies dropping to columns or rows (indices). Defaults to `0`.                                     |
+| `how`          | 'any' or 'all'           | Specified dropping when any value is `NA` or if all values are `NA`                                   |
+| `subset`       | column label or sequence | Specifies labels to check for `NA` values along other axis. (i.e. columns to check if dropping rows.) |
+| `inplace`      | bool                     | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.      |
 
 ## Example
 
