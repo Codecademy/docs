@@ -27,7 +27,7 @@ PHP supports the following primitive data types:
 - resource: a reference to an external resource.
 - NULL: represents a variable with no value.
 
-Rather than being declared in code, PHP typically decides types at runtime depending on context. There are a number of ways to determine the type of a variable or expression.
+Rather than being declared in code, the data type is decided at runtime depending on the context. There are many ways to determine the type of a variable or expression.
 
 ## Printing the Type and Value
 
