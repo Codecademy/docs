@@ -24,7 +24,7 @@ $datestring = date_format($object,$format);
 The `$object` parameter is a `DateTime` object as returned by [`date_create()`](https://www.codecademy.com/resources/docs/php/date-functions/date_create). And the `$format` parameter is a format string that can use the following characters:
 
 | Character | Description                                                                        |
-| --------- | ---------------------------------------------------------------------------------- |
+| :---------: | ---------------------------------------------------------------------------------- |
 | `d`       | Two digit day of the month with leading zero                                       |
 | `D`       | Three character abbreviation of day of the week                                    |
 | `j`       | Day of the month without leading zeros                                             |
