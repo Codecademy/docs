@@ -78,7 +78,7 @@ This will output:
 
 ## Removing Specific Items
 
-Specific Items can be removed from the `PriorityQueue` with the `.remove()` method.
+Specific items can be removed from the `PriorityQueue` with the `.remove()` method.
 
 ### Syntax
 
