@@ -38,7 +38,7 @@ The `getdate()` function returns an associative array, `$t`, providing informati
 
 ## Codebyte Example
 
-```php
+```codebyte/php
 <?php
   $today = getdate();
   echo ($today['weekday'] . "," . $today['month'] . " " . $today['mday'] . " " . $today['year']);
