@@ -27,14 +27,14 @@ PriorityQueue<DataType> q = new PriorityQueue<DataType>();
 - `q` is a `PriorityQueue` created with the `new` keyword.
 - `DataType` is the data type that will be stored in it.
 
-```java
+`CustomComparator` is a custom `Comparator` for `DataType` or a parent class of `DataType`. The following syntax sets a `CustomComparator` to a `PriorityQueue`:
+
+``java
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
 ```
-
-`CustomComparator` is a custom `Comparator` for `DataType` or a parent class of `DataType`. The following syntax sets a `CustomComparator` to a `PriorityQueue`:
 
 ## Adding Items
 
