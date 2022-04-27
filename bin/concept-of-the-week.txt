@@ -1,1 +1,1 @@
-content/java/concepts/array-list/array-list.md
+content/javascript/concepts/arrays/arrays.md
