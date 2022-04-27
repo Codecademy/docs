@@ -63,7 +63,7 @@ Results in the output:
 string
 ```
 
-## "is_type" Functions
+## Checking Types
 
 PHP has a number of "is_type" functions to check the type of a variable.
 
