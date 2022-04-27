@@ -17,7 +17,7 @@ The `substr()` function returns a portion of a string specified by parameters fo
 
 ## Syntax
 
-```php
+```pseudo
 substr($string, $offset, $length)
 ```
 
