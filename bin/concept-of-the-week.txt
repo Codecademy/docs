@@ -1,1 +1,1 @@
-content/javascript/concepts/modules/modules.md
+content/javascript/concepts/arrays/arrays.md
