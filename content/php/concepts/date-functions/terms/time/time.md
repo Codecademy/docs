@@ -16,7 +16,7 @@ The `time()` function returns the current time measured in seconds from the Unix
 
 ## Codebyte Example
 
-```php
+```codebyte/php
 <?php
   echo(time());
 ?>
