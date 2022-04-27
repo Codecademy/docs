@@ -18,7 +18,7 @@ The `date_create()` function creates a new `DateTime` object based on a formatte
 ## Syntax
 
 ```pseudo
-date_create($datetime,$timezone)
+date_create($datetime, $timezone)
 ```
 
 Where `$datetime` is a string with a formatted date-time value. And `$timezone` is an optional `DateTimeZone` object. If omitted, the current timezone will be used.
