@@ -16,7 +16,7 @@ The `date()` function creates a formatted date-time string from a local date-tim
 
 ## Syntax
 
-```php
+```pseudo
 $datestring = date($format, $timestamp);
 ```
 
