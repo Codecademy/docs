@@ -17,7 +17,7 @@ The `date_create()` function creates a new `DateTime` object based on a formatte
 
 ## Syntax
 
-```php
+```pseudo
 date_create($datetime,$timezone)
 ```
 
