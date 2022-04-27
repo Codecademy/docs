@@ -16,7 +16,7 @@ The `getdate()` function returns an array representing information about the cur
 
 ## Syntax
 
-```php
+```pseudo
 $t = getdate($timestamp);
 ```
 
