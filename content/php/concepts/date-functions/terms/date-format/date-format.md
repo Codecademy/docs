@@ -17,7 +17,7 @@ The `date_format()` function takes a `DateTime` object and a format string and r
 
 ## Syntax
 
-```php
+```pseudo
 $datestring = date_format($object,$format);
 ```
 
