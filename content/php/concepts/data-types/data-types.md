@@ -40,7 +40,7 @@ $text = "PHP";
 var_dump($text);
 ```
 
-Results in the output:
+The output looks like this:
 
 ```shell
 string(3) "PHP"
