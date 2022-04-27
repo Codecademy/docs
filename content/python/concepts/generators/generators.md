@@ -21,9 +21,9 @@ Generators are a convenient means of employing [iterator](https://www.codecademy
 
 ## A Generator Function
 
-The following code shows the creation of a generator function. In the function definiton the `yield` statement is used to return or include an item in the final generator object.
+The following code shows the creation of a generator function. In the function definition, the `yield` statement is used to return or include an item in the final generator object.
 
-```codebyte/py
+```py
 def return_evens(lst):
     for l in lst:
         if l % 2 == 0:
@@ -32,13 +32,14 @@ def return_evens(lst):
 eggs = [x for x in range(20)]
 
 print(list(return_evens(eggs)))
+# Output: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 ```
 
 ## A Generator Expression
 
 The functionality in the previous example can alternatively be defined as an expression. A generator expression utilizes the same syntax as a list comprehension with parentheses framing the statement instead of square brackets.
 
-```codebyte/py
+```py
 eggs = [x for x in range(20)] # a list comprehension
 
 list((x for x in eggs if x % 2 == 0)) # a generator expression
@@ -48,7 +49,7 @@ list((x for x in eggs if x % 2 == 0)) # a generator expression
 
 A generator object can be incrementally advanced with the `next()` function. When `next()` is called the current item is returned and the state is saved.
 
-```codebyte/py
+```codebyte/python
 eggs = [x for x in range(20)]
 
 spam = (x for x in eggs if x % 2 == 0)

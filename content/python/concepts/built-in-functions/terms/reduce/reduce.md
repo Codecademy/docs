@@ -22,7 +22,7 @@ The `reduce()` function returns an aggregated value that results from the applic
 reduce(func_name, iterable, initializer)
 ```
 
-The `func_name` is the function to be applied to the iterable and can be a lambda function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on. The `initializer` is an optional parameter that provides the ability to subsitute an initial value for the first calculation. With the `initializer` set the first calculation will be between the `initializer` value and the first item in the sequence in lieu of first and second items of the sequence.
+The `func_name` is the function to be applied to the iterable and can be a [lambda](https://www.codecademy.com/resources/docs/python/keywords/lambda) function or the name of any defined function. The `iterable` contains the items, such as a list, the function will act on. The `initializer` is an optional parameter that provides the ability to substitute an initial value for the first calculation. With the `initializer` set, the first calculation will be between the `initializer` value and the first item in the sequence in lieu of the first and second items of the sequence.
 
 ## Example
 
