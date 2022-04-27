@@ -29,7 +29,7 @@ PHP supports the following primitive data types:
 
 Rather than being declared in code, PHP typically decides types at runtime depending on context. There are a number of ways to determine the type of a variable or expression.
 
-## The `var_dump()` Function
+## Printing the Type and Value
 
 The `var_dump()` function prints out the type and value of an expression.
 
