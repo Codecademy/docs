@@ -96,7 +96,7 @@ Changing the `.main()` method of the above example:
  public static void main(String[] args) {
    PriorityQueue<String> food = SetupPriorityQueue();
    food.remove("Pizza");
-   while (food.size() >0) {
+   while (food.size() > 0) {
      System.out.println(food.poll());
    }
  }
