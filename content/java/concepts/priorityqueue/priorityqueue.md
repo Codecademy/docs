@@ -46,7 +46,7 @@ New items can be added to the `PriorityQueue` with the `.add()` method.
 priorityqueue.add(item)
 ```
 
-Where `item` is the item to be added, which should match the datatype `priorityqueue` was defined with.
+Where `item` is the item to be added, which should match the data type of the `priorityqueue`.
 
 ### Example
 
