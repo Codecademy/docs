@@ -27,7 +27,7 @@ The `$offset` parameter is an `int` value and specifies the start of the substri
 
 - Positive or zero values specify the zero-based character position from the start of the string.
 - Negative values indicate the character position from the end of the string.
-- An `$offset` greater than the length of `$string` will return an empty string.
+- A value greater than the length of `$string` will return an empty string.
 
 The `$length` parameter is an optional `int` that specifies the number of characters to return in the following manner:
 
