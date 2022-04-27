@@ -38,6 +38,8 @@ The `$length` parameter is an optional `int` that specifies the number of charac
 
 ## Codebyte Example
 
+The following example gives three examples of the `substr()` function operating on the same string. 
+
 ```codebyte/php
 <?php
   $str = "Hello World!";
