@@ -36,7 +36,7 @@ Member | Data Type | Description | Range
 `$t["yday"]` | int | Day of the year. | 0-365
 `$t["weekday"]` | string | Full name of the weekday. | "Sunday" to "Saturday"
 `$t["month"]` | string | Full name of the month. | "January" to "December"
-`$t[0]` | int | the Unix timestamp. |
+`$t[0]` | int | The Unix timestamp. |
 
 ## Codebyte Example
 
