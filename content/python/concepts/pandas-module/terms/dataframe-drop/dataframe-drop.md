@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `DataFrame.drop()` function returns a new `DataFrame` object with rows or columns removed based on column or index names. The original `DataFrame` object used to call the method remains unchanged.
+The `DataFrame.drop()` function returns a new `DataFrame` object with rows or columns removed based on column or index names. The original `DataFrame` object, used to call the method, remains unchanged.
 
 ## Syntax
 
