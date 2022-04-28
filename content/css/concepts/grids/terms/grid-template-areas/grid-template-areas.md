@@ -1,6 +1,6 @@
 ---
 Title: 'grid-template-areas'
-Description: 'A property that defines a grid template by referencing the names of the grid areas.'
+Description: 'Defines a grid template by referencing the names of the grid areas.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -11,15 +11,11 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines a grid template by referencing the names of the `grid-area` property, establishing cells in the grid and assigning them names.
-The `grid-template` property can be used as a shorthand to define the areas as well as defining the sizes of the columns and rows.
+The `grid-template-areas` property defines a CSS grid by assigning a [`grid-area`](https://www.codecademy.com/resources/docs/css/grids/grid-area) name to each element in the template. The `grid-template` property can be used as a shorthand to define the areas as well as defining the sizes of the columns and rows.
 
 ## Syntax
-
-To use `grid-template-areas` it's required to assign names, using `grid-area` property on each grid item. The grid-template-areas are defined in the grid container.
 
 ```css
 .item-one {
@@ -40,6 +36,8 @@ To use `grid-template-areas` it's required to assign names, using `grid-area` pr
     'footer footer footer';
 }
 ```
+
+Each grid item can be assigned a name with the `grid-area` property. Then, the `grid-template-areas` utilizes these areas in the grid container. For this properties to work, `display: grid` must be set in the `.grid-container`.
 
 ![Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area1.png)
 
@@ -72,9 +70,9 @@ By using `grid-template-areas`, it is not required to specify anything on the in
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr 3fr 1fr 1fr);
   grid-template-areas:
-    ' nav     nav   nav'
-    ' main   main  sidebar'
-    ' main   main  sidebar'
+    'nav    nav      nav'
+    'main  main    sidebar'
+    'main  main    sidebar'
     'footer footer footer';
 }
 ```
@@ -110,13 +108,13 @@ In the example above, each of the areas spans multiple grid cells and this can b
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr 3fr 1fr 1fr);
   grid-template-areas:
-    ' nav     nav   nav'
-    ' main   main   sidebar'
-    ' main   main   ... '
+    'nav     nav     nav'
+    'main   main   sidebar'
+    'main   main   ...'
     'footer footer footer';
 }
 ```
 
 ![Example2](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area3.png)
 
-It's also possible to leave grid cells empty with this method of layout. To leave an empty cell as in the example above, use `.` instead of white space or names. It can be used as a single dot or multiple ones as long as there is no white space between them.
+Grid cells can also be left empty with a period `.` instead of white space or names. As long as there is no white space between them, one or more periods can be used for the empty cell.
