@@ -299,7 +299,7 @@ public class Main {
    food.add("Sausage");
    food.add("Potatoes");
    food.add("Salad");
-   while (food.size() >0) {
+   while (food.size() > 0) {
      System.out.println(food.poll());
    }
  }
