@@ -234,7 +234,7 @@ Changing the `.main()` method of the above example:
  public static void main(String[] args) {
    PriorityQueue<String> food = SetupPriorityQueue();
    System.out.println(food.peek());
-   while (food.size() >0) {
+   while (food.size() > 0) {
      System.out.println(food.poll());
    }
    System.out.println(food.peek());
