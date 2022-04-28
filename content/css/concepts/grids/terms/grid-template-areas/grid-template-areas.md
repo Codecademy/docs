@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 The `grid-template-areas` property defines a CSS grid by assigning a [`grid-area`](https://www.codecademy.com/resources/docs/css/grids/grid-area) name to each element in the template. The `grid-template` property can be used as a shorthand to define the areas as well as defining the sizes of the columns and rows.
+This property is collectively used with [`grid-template-columns`](https://www.codecademy.com/resources/docs/css/grids/grid-template-columns) and [`grid-template-rows`](https://www.codecademy.com/resources/docs/css/grids/grid-template-rows) under the [`grid-template`](https://www.codecademy.com/resources/docs/css/grids/grid-template) shorthand property.
 
 ## Syntax
 
