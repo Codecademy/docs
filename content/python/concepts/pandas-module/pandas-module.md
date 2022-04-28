@@ -1,6 +1,6 @@
 ---
 Title: 'Pandas Module'
-Description: 'Pandas is a popular open source Python module, used for data analysis and manipulation.'
+Description: 'Pandas is a popular open-source Python module, used for data analysis and manipulation.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
