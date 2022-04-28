@@ -1,1 +1,1 @@
-content/css/concepts/grids/grids.md
+content/javascript/concepts/arrays/arrays.md
