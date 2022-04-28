@@ -64,7 +64,7 @@ The resulting output will look like this:
 
 A function can also return values with the `yield` keyword. Like `return`, `yield` suspends the function's execution and returns the value specified. Unlike `return`, the `yield` statement retains the state of the function and will resume where it left off on the next function call (i.e. execution resumes after the last `yield` statement). This way, the function can produce a number of values over time.
 
-Functions using `yield` rather than `return` are known as generator functions. Such a function can be used as an [iterator](https://www.codecademy.com/resources/docs/python/iterators).
+Functions using `yield` rather than `return` are known as [generator](https://www.codecademy.com/resources/docs/python/generators) functions. Such a function can be used as an [iterator](https://www.codecademy.com/resources/docs/python/iterators).
 
 The example below will automatically generate successive Fibonacci numbers.
 
