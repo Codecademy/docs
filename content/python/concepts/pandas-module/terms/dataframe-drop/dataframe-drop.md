@@ -26,7 +26,9 @@ df = DataFrame.drop(columns=names) # Drop names from columns.
 df = DataFrame.drop(names) # Drop names from rows. (axis defaults to "0")
 ```
 
-`names` is a single label or a list of the items to drop. `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`. The parameters `columns` or `index` can be used to specify the labels to drop without using `axis`.
+- `names` is a single label or a list of the items to drop.
+- `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`.
+- `columns` or `index` can be used to specify the labels to drop without using `axis`.
 
 `DataFrame.drop()` has the following parameters:
 
