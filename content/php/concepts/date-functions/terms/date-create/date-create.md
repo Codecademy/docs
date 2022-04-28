@@ -68,6 +68,9 @@ Valid date-time formats for `$datetime` include the following:
 ## Codebyte Example
 
 ```codebyte/php
+
+The below example creates dates using two different string formats.
+
 <?php
   $date1 = date_create("7/4/76");
   $date2 = date_create("2011-12-31 15:25:27");
