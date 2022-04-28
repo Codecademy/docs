@@ -19,7 +19,7 @@ The `.read_excel()` function takes a path to a csv file and reads the data into 
 ## Syntax
 
 ```py
-pandas.read_excel(io,sheet_name)
+pandas.read_excel(io, sheet_name)
 ```
 
 The `io` parameter is the path to the csv file. It can be a path on the local machine, or a valid URL. It is the first parameter of the function, and can be used by itself.
