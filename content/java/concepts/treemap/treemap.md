@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `TreeMap` uses the [`Map`](https://www.codecademy.com/resources/docs/java/Map) interface, which means it stores items as key-value pairs.
+A `TreeMap` uses the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means it stores items as key-value pairs.
 
-They are like the [`HashMap`](https://www.codecademy.com/resources/docs/java/HashMap). However, a `HashMap`, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The tradeoff for this natural ordering of the `TreeMap` is that its operations are slower than a `HashMap`.
+They are like the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap). However, a `HashMap`, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The tradeoff for this natural ordering of the `TreeMap` is that its operations are slower than a `HashMap`.
 
 ## Syntax
 
@@ -141,7 +141,7 @@ The emptied `TreeMap` will be displayed in the output below:
 
 ## Traversing a `TreeMap`
 
-A `TreeMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
+A `TreeMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
 ```java
 import java.util.TreeMap;
