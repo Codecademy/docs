@@ -29,7 +29,8 @@ df = DataFrame.dropna(axis)
 df = DataFrame.dropba(axis,how)
 ```
 
-`axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`. `how` can be "any" or "all" and defaults to "any," specifies if row or column is dropped if any values are `NA` or if all values are `NA`.
+- `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`.
+- `how` can be "any" or "all" and defaults to "any," which specifies if a row or column is dropped if any values are `NA` or if all values are `NA`.
 
 `DataFrame.dropna()` has the following parameters:
 
