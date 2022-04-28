@@ -61,6 +61,8 @@ The `$object` parameter is a `DateTime` object as returned by [`date_create()`](
 
 ## Codebyte Example
 
+The below example creates as `DateTime` object, then prints the date with a format string.
+
 ```codebyte/php
 <?php
   $date = date_create("12/1/2020 1:30pm");
