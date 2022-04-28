@@ -142,7 +142,7 @@ An empty `HashMap` will be displayed in the output below:
 
 ## Traversing a `HashMap`
 
-A `HashMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
+A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
 ```java
 import java.util.HashMap;
