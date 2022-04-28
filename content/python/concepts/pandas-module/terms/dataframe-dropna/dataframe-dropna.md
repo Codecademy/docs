@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `DataFrame.dropna()` function returns a new `DataFrame` object with rows or columns removed if they conatain `NA` values. The original `DataFrame` object used to call the method remains unchanged.
+The `DataFrame.dropna()` function returns a new `DataFrame` object with rows or columns removed if they contain `NA` values. The original `DataFrame` object, used to call the method, remains unchanged.
 
 ## Syntax
 
