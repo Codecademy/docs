@@ -24,19 +24,19 @@ The `$timestamp` parameter is optional. It is an int representing a Unix timesta
 
 The `getdate()` function returns an associative array, `$t`, providing information on the current date or `$timestamp` with the following members:
 
-Member | Data Type | Description | Range
-:-----:|:---------:|-------------|------
-`$t["seconds"]` | int | Number of the second. | 0-59
-`$t["minutes"]` | int | Number of the minute. | 0-59
-`$t["hours"]` | int | Number of the hour. | 0-23
-`$t["mday"]` | int | Day of the month. | 0-31
-`$t["wday"]` | int | Day of the week, starting on Sunday. | 0-6
-`$t["mon"]` | int | Number of the month. | 1-12
-`$t["year"]` | int | Four digit year. |
-`$t["yday"]` | int | Day of the year. | 0-365
-`$t["weekday"]` | string | Full name of the weekday. | "Sunday" to "Saturday"
-`$t["month"]` | string | Full name of the month. | "January" to "December"
-`$t[0]` | int | The Unix timestamp. |
+|     Member      | Data Type | Description                          | Range                   |
+| :-------------: | :-------: | ------------------------------------ | ----------------------- |
+| `$t["seconds"]` |    int    | Number of the second.                | 0-59                    |
+| `$t["minutes"]` |    int    | Number of the minute.                | 0-59                    |
+|  `$t["hours"]`  |    int    | Number of the hour.                  | 0-23                    |
+|  `$t["mday"]`   |    int    | Day of the month.                    | 0-31                    |
+|  `$t["wday"]`   |    int    | Day of the week, starting on Sunday. | 0-6                     |
+|   `$t["mon"]`   |    int    | Number of the month.                 | 1-12                    |
+|  `$t["year"]`   |    int    | Four digit year.                     |
+|  `$t["yday"]`   |    int    | Day of the year.                     | 0-365                   |
+| `$t["weekday"]` |  string   | Full name of the weekday.            | "Sunday" to "Saturday"  |
+|  `$t["month"]`  |  string   | Full name of the month.              | "January" to "December" |
+|     `$t[0]`     |    int    | The Unix timestamp.                  |
 
 ## Codebyte Example
 
