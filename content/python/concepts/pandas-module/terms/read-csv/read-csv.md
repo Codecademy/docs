@@ -1,6 +1,6 @@
 ---
 Title: '.read_csv()'
-Description: 'Reads a csv file into a Pandas DataFrame object.'
+Description: 'Reads a CSV file into a Pandas DataFrame object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -29,7 +29,7 @@ Some of the more signifigant parameters are listed here:
 
 | Parameter Name       |         Data Type          | Usage                                                                                                                                        |
 | -------------------- | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `filepath_or_buffer` |            str             | Path to the csv file to import.                                                                                                              |
+| `filepath_or_buffer` |            str             | Path to the CSV file to import.                                                                                                              |
 | `sep`                |            str             | Delimiter to use. Values longer than 1 character will be interpreted as Regular Expressions.                                                 |
 | `delimiter`          |            str             | alias for `sep`.                                                                                                                             |
 | `header`             |   int, list of int, None   | Row number(s) to use as column names, and start of data.                                                                                     |
