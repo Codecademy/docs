@@ -163,7 +163,7 @@ Changing the `.main()` method of the above example:
 ```java
  public static void main(String[] args) {
    PriorityQueue<String> food = SetupPriorityQueue();
-   while (food.size() >0) {
+   while (food.size() > 0) {
      System.out.println(food.poll());
      System.out.println(food.size());
    }
