@@ -34,7 +34,7 @@ import java.util.PriorityQueue;
 import java.util.Comparator;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
-````
+```
 
 ## Adding Items
 
@@ -44,7 +44,7 @@ New items can be added to the `PriorityQueue` with the `.add()` method.
 
 ```java
 priorityqueue.add(item)
-````
+```
 
 Where `item` is the item to be added, which should match the data type of the `priorityqueue`.
 
