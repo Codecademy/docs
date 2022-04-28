@@ -66,6 +66,6 @@ The below example creates as `DateTime` object, then prints the date with a form
 ```codebyte/php
 <?php
   $date = date_create("12/1/2020 1:30pm");
-  echo(date_format($date,"G:i l, F jS, Y"));
+  echo(date_format($date, "G:i l, F jS, Y"));
 ?>
 ```
