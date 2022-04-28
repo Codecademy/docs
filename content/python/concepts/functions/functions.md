@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions allow tasks to be performed multiple times within a program without having to be rewritten'
+Description: 'Functions allow tasks to be performed multiple times within a program without having to be rewritten.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
