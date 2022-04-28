@@ -19,11 +19,14 @@ The `DataFrame.drop()` function returns a new `DataFrame` object with rows or co
 ## Syntax
 
 ```py
-df = DataFrame.drop(names,axis) # Drop names from specified axis.
+# Drop names from specified axis.
+df = DataFrame.drop(names, axis)
 
-df = DataFrame.drop(columns=names) # Drop names from columns.
+# Drop names from columns.
+df = DataFrame.drop(columns=names)
 
-df = DataFrame.drop(names) # Drop names from rows. (axis defaults to "0")
+# Drop names from rows. (axis defaults to "0")
+df = DataFrame.drop(names)
 ```
 
 - `names` is a single label or a list of the items to drop.
