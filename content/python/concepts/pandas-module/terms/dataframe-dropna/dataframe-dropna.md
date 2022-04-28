@@ -19,11 +19,14 @@ The `DataFrame.dropna()` function returns a new `DataFrame` object with rows or 
 ## Syntax
 
 ```py
-df = DataFrame.dropna() # Drop rows with any NA values.
+# Drop rows with any NA values.
+df = DataFrame.dropna()
 
-df = DataFrame.dropna(axis) # Drop from specified axis where NA values appear.
+# Drop from specified axis where NA values appear.
+df = DataFrame.dropna(axis)
 
-df = DataFrame.dropba(axis,how) # Specify dropping from axis if any values are NA, or if all values are NA.
+# Specify dropping from axis if any values are NA, or if all values are NA.
+df = DataFrame.dropba(axis,how)
 ```
 
 `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`. `how` can be "any" or "all" and defaults to "any," specifies if row or column is dropped if any values are `NA` or if all values are `NA`.
