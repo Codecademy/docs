@@ -34,7 +34,6 @@ import java.util.PriorityQueue;
 import java.util.Comparator;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>(new CustomComparator());
-
 ````
 
 ## Adding Items
