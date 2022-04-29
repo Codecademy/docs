@@ -29,6 +29,8 @@ For example:
 Please do **NOT** touch your pimples.
 ```
 
+The output would be:
+
 > Please do **NOT** touch your pimples.
 
 ## Italic
@@ -45,6 +47,8 @@ For example:
 This avocado egg sandwich is _very_ good.
 ```
 
+The output would be:
+
 > This avocado egg sandwich is _very_ good.
 
 ## Strikethrough
@@ -60,6 +64,8 @@ For example:
 ```md
 I did ~~not~~ build a website.
 ```
+
+The output would be:
 
 > I did ~~not~~ build a website.
 

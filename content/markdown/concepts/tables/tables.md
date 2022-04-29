@@ -48,7 +48,7 @@ The output will look exactly the same.
 
 ## Text Alignment
 
-You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
+Align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
 ```md
 | Item              | In Stock | Price |
@@ -65,10 +65,10 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 ## Text Formatting
 
-The text can be formatted within tables. For example, you can add links, emphasis, and inline code (words or phrases in backticks only, not code blocks).
+Text can be formatted within tables. For example, links, emphasis, and inline code (words or phrases in backticks only, not code blocks) are all readily available for use within a table.
 
-You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+Several formatting options are not availble within tables. Most notably headings, blockquotes, lists, horizontal rules, images, and HTML tags.
 
 ## Escaping Characters
 
-You can display a vertical line "|" character in a table by using its HTML character code `&#124;`.
+To display a vertical line "|" character in a table, use the HTML character code `&#124;`.

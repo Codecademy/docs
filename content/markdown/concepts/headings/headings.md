@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Headings are titles or subtitles that you want to display with Markdown. There is a total of 6 different headings.
+Headings are titles or subtitles that can be used with Markdown. There is a total of 6 different heading options.
 
-To create a heading, add hashtag signs `#` in front of a word or phrase.
+To create a heading, add pound symbols `#` to the front of a word or phrase.
 
-The number of number signs you use should correspond to the heading level. For example, to create a heading level three `<h3>`, use three number signs (e.g., `### My Header`).
+The number of number signs used should correspond to the heading level. For example, to create a heading level three `<h3>`, use three number signs (e.g., `### My Header`).
 
 ## Syntax
 
@@ -60,7 +60,7 @@ For compatibility, always put a space between the number signs and the heading n
 
 🚫 Don't: `#Breaking News`
 
-You should also put blank lines before and after a heading for compatibility and readability.
+Put blank lines before and after a heading for compatibility and readability.
 
 ```md
 ... text ends here.
