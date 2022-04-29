@@ -53,13 +53,7 @@ The output would be:
 
 ## Strikethrough
 
-To make a strikethrough text, use 2 tildes `~` before and after a piece of text.
-
-```md
-~~Strikethrough text~~
-```
-
-For example:
+A strikethrough can be applied to text by surrounding with two tildes `~~`, like in the example below:
 
 ```md
 I did ~~not~~ build a website.
