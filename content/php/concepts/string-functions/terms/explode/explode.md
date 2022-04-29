@@ -29,7 +29,7 @@ The `$limit` parameter is an optional `int` that specifies how many strings will
 
 - A positive value will return up to `$limit` strings, if more than `$limit` strings can be produced splitting on `$delimiter`, the last element will contain the remainder of `$string`.
 - A `$limit` of zero is treated as 1.
-- A negative `$limit` will omit the last -`$limit` elements from the result.
+- A negative `$limit` will omit the last n elements from the result.
 - If `$limit` is omitted, `explode()` will return as many substrings as possible.
 
 The `$delimiter` has the following behaviors:
