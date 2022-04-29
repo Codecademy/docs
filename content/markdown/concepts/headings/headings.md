@@ -21,7 +21,7 @@ The number of number signs you use should correspond to the heading level. For e
 
 ## Syntax
 
-```markdown
+```md
 # Heading level 1
 
 ## Heading level 2
@@ -44,7 +44,7 @@ Alternatively, on the line below the text:
 - Add any number of `==` characters for heading level 1
 - Add any number or `--` characters for heading level 2.
 
-```markdown
+```md
 # Heading level 1
 
 ## Heading level 2
@@ -62,7 +62,7 @@ For compatibility, always put a space between the number signs and the heading n
 
 You should also put blank lines before and after a heading for compatibility and readability.
 
-```markdown
+```md
 ... text ends here.
 
 # Heading
@@ -72,7 +72,7 @@ More text starts here.
 
 ## Example
 
-```markdown
+```md
 # Headings
 
 This page is about headings.

@@ -17,7 +17,7 @@ A table is an arrangement of data in rows and columns.
 
 To add a table in Markdown, use the vertical line `|` to separate each column, and use three or more dahses `---` to create each column’s header. A vertical line should also be added at either end of the row.
 
-```markdown
+```md
 | Month    | Savings |
 | -------- | ------- |
 | January  | $250    |
@@ -36,7 +36,7 @@ The output would look like:
 Cell widths can vary, as shown below.
 
 <!-- prettier-ignore -->
-```markdown
+```md
 | Month | Savings |
 | -------- | ------- |
 | January | $250 |
@@ -50,7 +50,7 @@ The output will look exactly the same.
 
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
-```markdown
+```md
 | Item              | In Stock | Price |
 | :---------------- | :------: | ----: |
 | Python Hat        |   True   | 23.99 |
