@@ -69,7 +69,7 @@ Valid date-time formats for `$datetime` include the following:
 
 ```codebyte/php
 
-The below example creates `DateTime` objects using two different string formats.
+The example below creates `DateTime` objects using two different string formats.
 
 <?php
   $date1 = date_create("7/4/76");
