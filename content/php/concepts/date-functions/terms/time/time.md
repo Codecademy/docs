@@ -16,7 +16,7 @@ The `time()` function returns the current time measured in seconds from the Unix
 
 ## Codebyte Example
 
-The below example prints out the Unix timestamp for the current date.
+The example below prints out the Unix timestamp for the current date.
 
 ```codebyte/php
 <?php
