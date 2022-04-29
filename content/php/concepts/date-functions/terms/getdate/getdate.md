@@ -40,7 +40,7 @@ The `getdate()` function returns an associative array, `$t`, providing informati
 
 ## Codebyte Example
 
-The below example gets an array from the `getdate()` function, and prints out various elements from it.
+The example below gets an array from the `getdate()` function, and prints out various elements from it.
 
 ```codebyte/php
 <?php
