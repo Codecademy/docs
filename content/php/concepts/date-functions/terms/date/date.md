@@ -26,7 +26,7 @@ The `$timestamp` parameter is a Unix timestamp, the date-time expressed as secon
 
 ## Codebyte Example
 
-The below example prints the current date and time using the `date()` function.
+The example below prints the current date and time using the `date()` function.
 
 ```codebyte/php
 <?php
