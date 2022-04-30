@@ -18,7 +18,7 @@ The `DataFrame.drop()` function returns a new `DataFrame` object with rows or co
 
 ## Syntax
 
-```py
+```pseudo
 # Drop names from specified axis.
 df = DataFrame.drop(names, axis)
 
