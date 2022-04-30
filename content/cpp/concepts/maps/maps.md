@@ -135,7 +135,7 @@ Setting the previous example's comparison function to `std::greater<int>`:
 int main(){
 
  // Initializing map with items
- std::map <int, std::string, std::greater<int>> reptiles {
+ std::map<int, std::string, std::greater<int>> reptiles {
    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"} };
 
 
