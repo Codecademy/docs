@@ -112,7 +112,7 @@ The default comparison function can be changed to `std::greater<dataType>` in or
 To set the comparison function while intializing an empty map:
 
 ```pseudo
-std::map <type1, type2, std::greater<dataType>> mapName;
+std::map<type1, type2, std::greater<dataType>> mapName;
 ```
 
 To set the comparison function while intializing a map with items:
