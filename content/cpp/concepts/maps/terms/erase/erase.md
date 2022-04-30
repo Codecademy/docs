@@ -1,6 +1,6 @@
 ---
 Title: '.erase()'
-Description: 'Removes an element by it's key from a map.'
+Description: 'Removes an element by key from a map.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
