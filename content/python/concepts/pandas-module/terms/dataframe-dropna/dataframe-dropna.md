@@ -26,7 +26,7 @@ df = DataFrame.dropna()
 df = DataFrame.dropna(axis)
 
 # Specify dropping from axis if any values are NA, or if all values are NA.
-df = DataFrame.dropba(axis,how)
+df = DataFrame.dropna(axis,how)
 ```
 
 - `axis` is equal to `0` for dropping rows and `1` for dropping columns, it defaults to `0`.
