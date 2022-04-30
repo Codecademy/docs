@@ -28,7 +28,7 @@ std::map<type1, type2> mapName;
 To set a list at declaration, the following syntax is used:
 
 ```pseudo
-map<type1, type2> mapName { {key1, value1}, {key2, value2}, ...};
+std::map<type1, type2> mapName { {key1, value1}, {key2, value2}, ...};
 ```
 
 Each `value` must have a unique `key` assigned to it.
