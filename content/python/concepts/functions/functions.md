@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are defined with the def keyword and allow tasks to be performed multiple times within a program without having to be rewritten'
+Description: 'Functions allow tasks to be performed multiple times within a program without having to be rewritten.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -58,6 +58,55 @@ The resulting output will look like this:
 
 ```shell
 2018 is not a leap year.
+```
+
+## Returning Values With `yield`
+
+A function can also return values with the `yield` keyword. Like `return`, `yield` suspends the function's execution and returns the value specified. Unlike `return`, the `yield` statement retains the state of the function and will resume where it left off on the next function call (i.e. execution resumes after the last `yield` statement). This way, the function can produce a number of values over time.
+
+Functions using `yield` rather than `return` are known as [generator](https://www.codecademy.com/resources/docs/python/generators) functions. Such a function can be used as an [iterator](https://www.codecademy.com/resources/docs/python/iterators).
+
+The example below will automatically generate successive Fibonacci numbers.
+
+```py
+# Function to produce infinite Fibonacci numbers
+def fibonacci():
+  # Generate first number
+  a = 1
+  yield a
+
+  # Generate second number
+  b = 1
+  yield b
+
+  # Infinite loop
+  while True:
+    # Return sum of a + b
+    c = a + b
+    yield c
+    # Function resumes loop here on next call
+    a = b
+    b = c
+
+# Iterate through the Fibonacci sequence until a limit is reached
+for num in fibonacci():
+  if num > 50:
+    break
+  print(num)
+```
+
+This will output the following:
+
+```shell
+1
+1
+2
+3
+5
+8
+13
+21
+34
 ```
 
 ## Higher-Order Functions
