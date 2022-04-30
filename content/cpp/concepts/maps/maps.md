@@ -66,7 +66,7 @@ This returns the mapped value associated with the `key`.
 The `sweaters` element is retrieved from the `clothingStore` map initialized in the previous example:
 
 ```cpp
-std::cout<< clothingStore["sweaters"]; // Output: 18
+std::cout << clothingStore["sweaters"]; // Output: 18
 ```
 
 ## Comparison Function
