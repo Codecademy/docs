@@ -39,7 +39,7 @@ int main(){
   supplies.clear();
 
   // Print size of map
-  std::cout<<supplies.size();
+  std::cout << supplies.size();
 
 }
 ```
