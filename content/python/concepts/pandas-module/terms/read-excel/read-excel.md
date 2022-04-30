@@ -18,7 +18,7 @@ The `.read_excel()` function takes a path to a Excel file and reads the data int
 
 ## Syntax
 
-```py
+```pseudo
 pandas.read_excel(io, sheet_name)
 ```
 
