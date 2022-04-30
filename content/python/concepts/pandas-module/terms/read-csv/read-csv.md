@@ -25,7 +25,7 @@ pandas.read_csv(filepath_or_buffer)
 
 The `filepath_or_buffer` parameter is the path to the CSV file. It can be a path on the local machine, or a valid URL. It is the first parameter of the function, and can be used by itself. There are however many other parameters that are optional or have default settings. These are usually passed as [keyword arguments](https://www.codecademy.com/resources/docs/python/functions/arguments-parameters) since using the parameter order is generally inconvenient.
 
-Some of the more signifigant parameters are listed here:
+Some of the more significant parameters are listed here:
 
 | Parameter Name       |         Data Type          | Usage                                                                                                                                        |
 | -------------------- | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
