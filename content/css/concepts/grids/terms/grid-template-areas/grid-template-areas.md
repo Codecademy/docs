@@ -32,15 +32,15 @@ This property is collectively used with [`grid-template-columns`](https://www.co
 .grid-container {
   display: grid;
   grid-template-areas:
-    'nav nav nav'
-    'main main main'
+    'nav     nav    nav'
+    'main    main   main'
     'footer footer footer';
 }
 ```
 
 Each grid item can be assigned a name with the `grid-area` property. Then, the `grid-template-areas` utilizes these areas in the grid container. For this properties to work, `display: grid` must be set in the `.grid-container`.
 
-![Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area1.png)
+![CSS grid-template-areas Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area.png)
 
 ## Example 1
 
@@ -78,7 +78,7 @@ By using `grid-template-areas`, it is not required to specify anything on the in
 }
 ```
 
-![Example1](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area2.png)
+![CSS grid-template-areas Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area-example-1.png)
 
 In the example above, each of the areas spans multiple grid cells and this can be achieved by repeating the name of that grid area multiple times with white space between them. Multiple white spaces can be used without causing any error. This might come in handy to place the names above each other to make it more readable. Each section in quotes represents a row and each word represents a column. At this point in time, the area created must be rectangular, because there is no way to create another shaped area.
 
@@ -116,6 +116,6 @@ In the example above, each of the areas spans multiple grid cells and this can b
 }
 ```
 
-![Example2](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area3.png)
+![CSS grid-template-areas Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area-example-2.png)
 
 Grid cells can also be left empty with a period `.` instead of white space or names. As long as there is no white space between them, one or more periods can be used for the empty cell.
