@@ -118,7 +118,7 @@ std::map<type1, type2, std::greater<dataType>> mapName;
 To set the comparison function while intializing a map with items:
 
 ```pseudo
-map<type1, type2,  std::greater<dataType>> mapName { {key1, value1}, {key2, value2}, ...};
+std::map<type1, type2,  std::greater<dataType>> mapName { {key1, value1}, {key2, value2}, ...};
 ```
 
 - `dataType` for the comparison function must be the same as `type1` which is the data type for the keys.
