@@ -20,7 +20,7 @@ Maps are associative containers that have elements with key, value pairs. The ke
 An empty map can be created by using the map keyword, declaring the data types of the key and value, and setting a `mapName`:
 
 ```pseudo
-map<type1, type2> mapName;
+std::map<type1, type2> mapName;
 ```
 
 `type1` and `type2` are the data types of the key and value, respectively.
