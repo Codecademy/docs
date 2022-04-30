@@ -19,7 +19,7 @@ The `.read_csv()` function takes a path to a CSV file and reads the data into a 
 
 ## Syntax
 
-```py
+```pseudo
 pandas.read_csv(filepath_or_buffer)
 ```
 
