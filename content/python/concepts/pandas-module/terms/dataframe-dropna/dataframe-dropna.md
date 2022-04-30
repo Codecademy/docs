@@ -18,7 +18,7 @@ The `DataFrame.dropna()` function returns a new `DataFrame` object with rows or 
 
 ## Syntax
 
-```py
+```pseudo
 # Drop rows with any NA values.
 df = DataFrame.dropna()
 
