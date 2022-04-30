@@ -81,7 +81,7 @@ By default, elements are sorted by their key in ascending order.
 int main(){
 
  // Initializing map with items
- std::map <int, std::string> reptiles {
+ std::map<int, std::string> reptiles {
    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"} };
 
 
