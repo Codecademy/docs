@@ -1,6 +1,6 @@
 ---
 Title: '.setdefault()'
-Description: 'Returns the value of a specified key. If key doesn''t exist, insert it with the specified value.'
+Description: "Returns the value of a specified key. If key doesn't exist, insert it with the specified value."
 Subjects:
   - 'Computer Science'
   - 'Data Science'
