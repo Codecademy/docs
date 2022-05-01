@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is an ordered set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated to keys.'
+Description: 'A dictionary is an ordered set of key-value pairs.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ A dictionary is an ordered set of key-value pairs. It provides a way to map piec
 
 Python dictionaries are dynamic and mutable, which means they can change.
 
-If you assign a value to an already existing dictionary key, it does not add the key a second time. Instead, it replaces the existing value. Dictionaries also have several built-in methods which make it easier to manipulate the data structure and objects contained within.
+If you assign a value to an already existing dictionary key, it does not add the key a second time. Instead, it replaces the existing value. Dictionaries also have several built-in methods, listed at the end of this entry, which make it easier to manipulate the data structure and objects contained within.
 
 **Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in Python 3.6 and earlier.
 
