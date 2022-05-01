@@ -33,7 +33,7 @@ let smoothie = "mango strawberry pineapple";
 
 let berry = smoothie.slice(6, 16);
 
-console.log(fruit);
+console.log(smoothie);
 // Output: mango strawberry pineapple
 
 console.log(berry);
