@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Dictionaries'
-  - 'Data Types'
   - 'Methods'
 CatalogContent:
   - 'learn-python-3'
