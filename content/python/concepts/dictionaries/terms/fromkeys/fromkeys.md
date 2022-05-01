@@ -20,11 +20,11 @@ The `.fromkeys()` method returns a dictionary with a specified set of keys. It c
 dict.fromkeys(keys,value)
 ```
 
-Where `keys` is an iterable containing the keys for the new dictionary and `value` is an optional inital value for the new entries in the dictionary. If `value` is not specified, the default inital value for each key will be `None`.
+Where `keys` is an iterable containing the keys for the new dictionary and `value` is an optional initial value for the new entries in the dictionary. If `value` is not specified, the default initial value for each key will be `None`.
 
 ## Codebyte Example
 
-The following example creates a new dictionary with an inital value for each key.
+The following example creates a new dictionary with an initial value for each key.
 
 ```py
 keylist = ('A','B','C','D')
