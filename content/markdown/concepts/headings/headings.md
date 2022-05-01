@@ -1,6 +1,6 @@
 ---
 Title: 'Headings'
-Description: 'Headings are markdown elements used for displaying titles, subtitles, or different sections in a website. There are six headings in total. They are made with a hash symbol, #, with 1 being the largest and 6 being the smallest.'
+Description: 'Headings are Markdown elements used for displaying titles, subtitles, or different sections in a website. There are six headings in total. They are made with a hash symbol, #, with 1 being the largest and 6 being the smallest.'
 Subjects:
   - 'Developer Tools'
   - 'Web Development'
@@ -35,14 +35,7 @@ The number of number signs you use should correspond to the heading level. For e
 ###### Heading level 6
 ```
 
-<!-- prettier-ignore
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
--->
+![Rendered markdown headings](https://raw.githubusercontent.com/Codecademy/docs/main/media/rendered-markdown-headings.png)
 
 ## Alternate Syntax
 
