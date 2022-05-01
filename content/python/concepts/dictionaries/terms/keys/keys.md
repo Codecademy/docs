@@ -1,0 +1,31 @@
+---
+Title: '.keys()'
+Description: 'Returns a list of keys for a dictionary.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Dictionaries'
+  - 'Methods'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/computer-science'
+---
+
+The `.keys()` method of a Python dictionary returns list of its keys. It takes no arguments.
+
+## Syntax
+
+```py
+dictionary.keys()
+```
+
+## Codebyte Example
+
+The following example creates a distionary then prints a list of its keys.
+
+```codebyte/py
+d = {1:'one',2:'two',3:'three'}
+d_keys = d.keys()
+print(d_keys)
+```
