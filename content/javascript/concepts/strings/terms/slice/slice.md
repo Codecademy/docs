@@ -29,7 +29,7 @@ string.slice(start, stop);
 ## Example
 
 ```js
-let smoothie = 'mango strawberry pineapple';
+let smoothie = "mango strawberry pineapple";
 
 let berry = smoothie.slice(6, 16);
 
