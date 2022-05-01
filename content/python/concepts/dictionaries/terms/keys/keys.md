@@ -22,7 +22,7 @@ dictionary.keys()
 
 ## Codebyte Example
 
-The following example creates a distionary then prints a list of its keys.
+The following example creates a dictionary then prints a list of its keys.
 
 ```codebyte/py
 d = {1:'one',2:'two',3:'three'}
