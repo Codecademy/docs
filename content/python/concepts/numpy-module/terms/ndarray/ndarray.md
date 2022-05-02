@@ -35,6 +35,6 @@ Method|Syntax|Description
 `zeros_like()`|`numpy.zeros_like(model,dtype)`|Operates the same as `empty_like()`, but initalizes all the array elements with a value of zero.
 `full()`|`numpy.full(shape,value,dtype)`|Operates the same as `empty()`, but initalizes all the array elements with the specified `value`.
 `full_like()`|`numpy.full_like(model,value,dtype)`|Operates the same as `empty_like()`, but initalizes all the array elements with the specified `value`.
-`array()`|`numpy.array(object,dtype)`|Creates an `ndarray` based on the given `object` (such as a list of lists) with the optional `dtype` if not specified, the data type will be based on the contents of `object`.
+`array()`|`numpy.array(object,dtype)`|Creates an `ndarray` based on the given `object` (such as a list of lists) with the optional `dtype`. If not specified, the data type will be based on the contents of `object`.
 
 
