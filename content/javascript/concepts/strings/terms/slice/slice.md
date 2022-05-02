@@ -24,7 +24,7 @@ string.slice(start, stop);
 ```
 
 - The `start` index is optional and begins at zero (inclusive) by default.
-- The `stop` index is also optional and defaults to the length of the string (not inclusive). Default is last element.
+- The `stop` index is also optional and defaults to the length of the string (not inclusive).
 
 ## Example
 
