@@ -67,9 +67,9 @@ Operator|Ufunc|Description
 :------:|-----|-----------
 `+` | `numpy.add(X,Y)` | Adds arguments, element-wise. 
 `-` | `numpy.subtract(X,Y) | Subtracts arguments, element-wise.
-`\*` | `numpy.multiply(X,Y) | Multiplies arguments, element-wise.
+`*` | `numpy.multiply(X,Y) | Multiplies arguments, element-wise.
 `/` | `numpy.divide(X,Y) | Division of arguments, element-wise.
-`\*\*` | `numpy.power(X,Y)` | First array rased to powers of second array, element-wise.
+`**` | `numpy.power(X,Y)` | First array rased to powers of second array, element-wise.
 `%` | `numpy.mod(X,Y)` | Integer remainder of division, element-wise.
 `//` | `numpy.floor_divide(X,Y) | Integer result of division, rounded down, element-wise.
 `@` | `numpy.matmul(X,Y)` | Matrix multiplication of arguments. (The `@` operator was introduced in Python 3.5)
