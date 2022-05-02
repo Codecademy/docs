@@ -7,7 +7,9 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Data Structures'
+  - 'Arrays'
   - 'Modules'
+  - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
