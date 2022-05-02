@@ -23,7 +23,7 @@ string.slice(start);
 string.slice(start, stop);
 ```
 
-- The `start` index is optional and begins at zero (inclusive). Default is 0.
+- The `start` index is optional and begins at zero (inclusive) by default.
 - The `stop` index is also optional and defaults to the length of the string (not inclusive). Default is last element.
 
 ## Example
