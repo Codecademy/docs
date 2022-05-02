@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Map` interface is found in `java.util` and it allows collections to store items as key-value pairs. It is implemented in the [`HashMap`](https://www.codecademy.com/resources/docs/java/HashMap) and [`TreeMap`](https://www.codecademy.com/resources/docs/java/TreeMap) classes. A `Map` allows its contents to be accessed as a set of keys, a set of values, or a set of key-value pairs. The [data types](https://www.codecademy.com/resources/docs/java/data-types) of the keys and values are set when the `Map` is declared, and each can be any data type.
+The `Map` interface is found in `java.util` and it allows collections to store items as key-value pairs. It is implemented in the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) and [`TreeMap`](https://www.codecademy.com/resources/docs/java/treemap) classes. A `Map` allows its contents to be accessed as a set of keys, a set of values, or a set of key-value pairs. The [data types](https://www.codecademy.com/resources/docs/java/data-types) of the keys and values are set when the `Map` is declared, and each can be any data type.
 
 ## Syntax
 
