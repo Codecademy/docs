@@ -42,7 +42,7 @@ console.log(berry);
 
 ## Codebyte Example
 
-In the example below, the `animals` array is created. Then the `birds` array is created to extract the birds "eagles" and "owls". Lastly, the `birds` array is used to output a sentence.
+In the example below, an `animals` string is created. Next, the `.slice()` method is used to pick out substrings of certain animals, specifically birds:
 
 ```codebyte/javascript
 let animals = 'elephants, eagles, owls, and tigers';
