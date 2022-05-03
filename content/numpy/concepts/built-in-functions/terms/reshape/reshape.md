@@ -33,6 +33,7 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 The following example creates an `ndarray` then uses `.reshape()` to change its dimensions.
 
 ```py
+>>> import numpy as np
 >>> nd1 = np.array([[1,2,3],[4,5,6]])
 >>> print(nd1)
 [[1 2 3]
