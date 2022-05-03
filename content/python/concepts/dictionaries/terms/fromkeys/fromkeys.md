@@ -16,7 +16,7 @@ The `.fromkeys()` method returns a dictionary with a specified set of keys. It c
 
 ## Syntax
 
-```py
+```pseudo
 dict.fromkeys(keys,value)
 ```
 
