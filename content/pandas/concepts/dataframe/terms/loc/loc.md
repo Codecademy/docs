@@ -63,6 +63,3 @@ Name: col 3, dtype: int64
 0     A      5     E
 3     D      8     H
 ```
-
-
-
