@@ -1,6 +1,6 @@
 ---
 Title: 'File formats'
-Description: 'File formats'
+Description: 'File formats determine how information or data, such as text and images, are created, stored, and read.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
