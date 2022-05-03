@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.append()` function add values to the end of an array and returns a [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) with the values appended.
+The `.append()` function adds values to the end of an array and returns a [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) with the values appended.
 
 ## Syntax
 
