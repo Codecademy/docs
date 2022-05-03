@@ -26,7 +26,7 @@ Where `keys` is an iterable containing the keys for the new dictionary and `valu
 
 The following example creates a new dictionary with an initial value for each key.
 
-```py
+```codebyte/python
 keylist = ('A','B','C','D')
 value = 0
 d = dict.fromkeys(keylist,value)
