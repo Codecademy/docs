@@ -35,7 +35,7 @@ The output would be:
 
 ## Italic
 
-To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
+Text can be italicized by surrounding with either one asterisk `*` or one underscore `_` on each side. Parts of a word can even be italicized by surrounding the letters with one asterisk, no spaces.
 
 ```md
 _italic text_
