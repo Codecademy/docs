@@ -60,7 +60,7 @@ For compatibility, always put a space between the number signs and the heading n
 
 🚫 Don't: `#Breaking News`
 
-Put blank lines before and after a heading for compatibility and readability.
+Headings should have a blank line above and below for compatibility and readability:
 
 ```md
 ... text ends here.
