@@ -27,7 +27,7 @@ The output would be:
 
 ## Multiple Paragraphs
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+Blockquotes can contain multiple paragraphs by having a chevron `>` on the blank lines between them:
 
 ```md
 > The first rule about fight club is you don’t talk about fight club.
