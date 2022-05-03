@@ -1,1 +1,1 @@
-content/java/concepts/array-list/array-list.md
+content/python/concepts/dictionaries/dictionaries.md
