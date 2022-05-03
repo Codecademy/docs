@@ -67,7 +67,14 @@ Align text in the columns to the left, right, or center by adding a colon `:` to
 
 Text can be formatted within tables. For example, links, emphasis, and inline code (words or phrases in backticks only, not code blocks) are all readily available for use within a table.
 
-Several formatting options are not availble within tables. Most notably headings, blockquotes, lists, horizontal rules, images, and HTML tags.
+Several formatting options are not available within tables, including:
+
+- Headings
+- Blockquotes
+- Horizontal rules
+- Images
+- Lists
+- HTML tags
 
 ## Escaping Characters
 
