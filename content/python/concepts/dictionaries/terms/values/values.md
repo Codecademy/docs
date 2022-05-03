@@ -16,7 +16,7 @@ The `.values()` method of a Python dictionary returns list of its values. It tak
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.values()
 ```
 
