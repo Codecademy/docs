@@ -24,7 +24,7 @@ The `.reshape()` function rearranges the data in an [`ndarray`](https://www.code
 numpy.reshape(array, newshape)
 ```
 
-Where `array` is the array to be reshaped, and `newshape` can be an integer or a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) representing the size of the new array. If an dimension is `-1`, that dimension will be inferred from the size of the original array.
+Where `array` is the array to be reshaped, and `newshape` can be an integer or a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) representing the size of the new array. If a dimension is `-1`, that dimension will be inferred from the size of the original array.
 
 If possible, the `ndarray` returned will be a view of the original `ndarray`'s data.
 
@@ -50,6 +50,3 @@ The following example creates an `ndarray` then uses `.reshape()` to change its 
  [6]]
 >>> 
 ```
-
-
-
