@@ -13,7 +13,7 @@ CatalogContent:
 
 File formats determine how information or data, such as text and images, are created, stored, and read. Each file format has a unique extension. For example, a CSV (Comma Separated Values) file has the extension **.csv**.
 
-Certain formats are designed to compress data for fast processing. Others may contain more features, like how PDF (Portable Document Format) files can contain graphs and charts along with table data whereas a CSV file can only contain plain table data.
+Certain formats are designed to compress data for fast processing. Others may contain more features, like how XLSX (Microsoft Excel) files can contain graphs and charts along with table data whereas a CSV file can only contain plain table data.
 
 Files can also be converted to other formats, however, some features for data display may be lost depending on the type of conversion.
 
