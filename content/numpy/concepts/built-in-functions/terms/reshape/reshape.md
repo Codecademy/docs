@@ -49,5 +49,5 @@ The following example creates an `ndarray` then uses `.reshape()` to change its 
  [4]
  [5]
  [6]]
->>> 
+>>>
 ```

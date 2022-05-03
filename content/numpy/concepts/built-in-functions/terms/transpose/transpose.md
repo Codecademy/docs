@@ -41,5 +41,5 @@ The below example creates an `ndarray` and then uses `.transpose()` on it.
 >>> print(np.transpose(nd1))
 [[1 4]
  [2 5]
- [3 6]] 
+ [3 6]]
 ```

@@ -43,5 +43,5 @@ The example below crates two `ndarrays` and appends one to the other.
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
->>> 
+>>>
 ```
