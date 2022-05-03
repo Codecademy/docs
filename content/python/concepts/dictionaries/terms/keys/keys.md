@@ -16,7 +16,7 @@ The `.keys()` method of a Python dictionary returns list of its keys. It takes n
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.keys()
 ```
 
