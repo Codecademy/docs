@@ -7,7 +7,8 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Data Structures'
-  - 'Modules'
+  - 'Functions'
+  - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
