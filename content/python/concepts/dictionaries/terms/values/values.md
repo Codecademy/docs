@@ -24,7 +24,7 @@ dictionary.values()
 
 The following example creates a dictionary then prints a list of its values.
 
-```codebyte/py
+```codebyte/python
 d = {1:'one',2:'two',3:'three'}
 d_values = d.values()
 print(d_values)
