@@ -33,7 +33,7 @@ The output would look like:
 | February | $80     |
 | March    | $420    |
 
-Cell widths can vary, as shown below.
+Cell widths can vary, as shown below:
 
 <!-- prettier-ignore -->
 ```md
