@@ -43,7 +43,7 @@ The output would be:
 
 ## Nested Blockquotes
 
-Blockquotes can also be nested! To nest a paragraph add `>>` to the front of it.
+Blockquotes can also be nested by adding two chevrons `>>` in front of it:
 
 ```md
 > Dorothy followed her through many of the beautiful rooms in her castle.
