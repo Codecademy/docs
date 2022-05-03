@@ -58,9 +58,9 @@ Blockquotes can contain other Markdown formatted elements, though, not all eleme
 ```md
 > ### The quarterly results look great
 >
-> - Dogecoin was off the chart!
-> - Apes together stonk!
-> - $AMC to the moon!
+> - Sales were off the chart!
+> - Morale is strong!
+> - Poised to go public next spring!
 >
 > > _Everything_ is going according to **the plan**.
 ```
