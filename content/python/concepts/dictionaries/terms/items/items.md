@@ -24,7 +24,7 @@ dictionary.items()
 
 The following example creates a dictionary then prints the dictionary and the output from `.items()`.
 
-```codebyte/py
+```codebyte/python
 d = {1:'one',2:'two',3:'three'}
 d_items = d.items()
 print(d)
