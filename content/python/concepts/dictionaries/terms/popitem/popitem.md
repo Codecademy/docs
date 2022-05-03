@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.popitem()` method of a Python dictionary returns the last inserted key/value pair from a dictionary as a tuple, and removes the entry. It takes no arguments.
+The `.popitem()` method of a Python dictionary returns the last inserted key/value pair from a dictionary as a tuple and removes the entry. It takes no arguments.
 
 **Note:** Prior to Python version 3.7, this method would remove a random item from the dictionary.
 
