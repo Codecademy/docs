@@ -28,6 +28,8 @@ string.slice(start, stop);
 
 ## Example
 
+In the example below, a `smoothie` string is created. Next, the `.slice()` method is used to extract substrings for the berry variable:
+
 ```js
 let smoothie = "mango strawberry pineapple";
 
