@@ -16,7 +16,7 @@ The `.items()` method of a Python dictionary returns a list of tuples for each k
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.items()
 ```
 
