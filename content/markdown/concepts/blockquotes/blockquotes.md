@@ -69,8 +69,8 @@ The output would be:
 
 > ### The quarterly results look great
 >
-> - Dogecoin was off the charts!
-> - Apes together stonk!
-> - $AMC to the moon!
+> - Sales were off the chart!
+> - Morale is strong!
+> - Poised to go public next spring!
 >
 > > _Everything_ is going according to **the plan**.
