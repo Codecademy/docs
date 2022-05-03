@@ -78,4 +78,4 @@ Several formatting options are not available within tables, including:
 
 ## Escaping Characters
 
-To display a vertical line "|" character in a table, use the HTML character code `&#124;`.
+Pipe characters "|" can be displayed in a table with the [HTML character code](https://www.codecademy.com/resources/docs/html/entities) `&#124;`.
