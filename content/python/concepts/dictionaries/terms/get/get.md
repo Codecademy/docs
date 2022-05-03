@@ -18,7 +18,7 @@ The `.get()` method will return the value of a dictionary entry for a specified 
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.get(key,value)
 ```
 
