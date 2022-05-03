@@ -24,7 +24,7 @@ dictionary.clear()
 
 The following example creates a dictionary with some values, then replaces the contents by clearing the dictionary and adding different values.
 
-```codebyte/py
+```codebyte/python
 d = {1:'one',2:'two',3:'three'}
 d.clear()
 d[4] = 'four'
