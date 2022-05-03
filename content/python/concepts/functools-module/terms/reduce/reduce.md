@@ -10,7 +10,6 @@ Tags:
   - 'Strings'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
@@ -29,6 +28,7 @@ The `func_name` is the function to be applied to the iterable and can be a [lamb
 The following example uses `reduce()` to sum all the values in the `nums` list and add this value to an initial sum `start`:
 
 ```py
+from functools import reduce
 start = 30
 nums = [x for x in range(10)]
 
@@ -41,6 +41,7 @@ print(reduce(lambda x, y: x + y, nums, start))
 `reduce()` can be used to return the minimum value within a list:
 
 ```codebyte/python
+from functools import reduce
 foo = [5, 14, 56, 89, 4, 20]
 
 print(reduce(lambda x, y: x if x < y else y, foo))

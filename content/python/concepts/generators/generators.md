@@ -19,7 +19,7 @@ In Python, a generator is a function or expression that will process a given ite
 
 Generators are a convenient means of employing [iterator](https://www.codecademy.com/resources/docs/python/iterators) functionality within the syntax of a function or expression. One of the main advantages of generators is that they evaluate items on demand, which means only one item is in memory at a time in lieu of the entire sequence (as with a list).
 
-## A Generator Function
+### A Generator Function
 
 The following code shows the creation of a generator function. In the function definition, the `yield` statement is used to return or include an item in the final generator object.
 
@@ -35,7 +35,7 @@ print(list(return_evens(eggs)))
 # Output: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 ```
 
-## A Generator Expression
+### A Generator Expression
 
 The functionality in the previous example can alternatively be defined as an expression. A generator expression utilizes the same syntax as a list comprehension with parentheses framing the statement instead of square brackets.
 
