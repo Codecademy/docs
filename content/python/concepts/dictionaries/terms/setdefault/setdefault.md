@@ -16,7 +16,7 @@ The `.setdefault()` method will return the value of a dictionary entry for a spe
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.setdefault(key,value)
 ```
 
