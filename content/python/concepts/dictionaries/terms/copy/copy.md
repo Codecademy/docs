@@ -16,7 +16,7 @@ The `.copy()` method of a Python dictionary returns a copy of the dictionary. It
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.copy()
 ```
 
