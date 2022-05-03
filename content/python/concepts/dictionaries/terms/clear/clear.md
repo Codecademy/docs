@@ -16,7 +16,7 @@ The `.clear()` method of a Python dictionary removes all the entries in the dict
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.clear()
 ```
 
