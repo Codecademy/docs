@@ -16,7 +16,7 @@ The `.update()` method of a Python dictionary adds the entries from another dict
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.update(entries)
 ```
 
