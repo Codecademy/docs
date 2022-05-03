@@ -38,7 +38,7 @@ The output would be:
 Text can be italicized by surrounding with either one asterisk `*` or one underscore `_` on each side. Parts of a word can even be italicized by surrounding the letters with one asterisk, no spaces.
 
 ```md
-_italic text_
+_Italic text_ is *awe*some!
 ```
 
 For example:
