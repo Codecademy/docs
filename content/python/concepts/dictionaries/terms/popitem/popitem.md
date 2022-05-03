@@ -18,7 +18,7 @@ The `.popitem()` method of a Python dictionary returns the last inserted key/val
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.popitem()
 ```
 
