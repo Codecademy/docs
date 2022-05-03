@@ -16,7 +16,7 @@ The `.pop()` method of a Python dictionary returns the value of a specified key,
 
 ## Syntax
 
-```py
+```pseudo
 dictionary.pop(key)
 ```
 
