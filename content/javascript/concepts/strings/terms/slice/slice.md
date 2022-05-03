@@ -40,6 +40,12 @@ console.log(berry);
 // Output: strawberry
 ```
 
+The output will look like the following:
+
+```shell
+mango strawberry pineapple
+strawberry
+```
 ## Codebyte Example
 
 In the example below, an `animals` string is created. Next, the `.slice()` method is used to pick out substrings of certain animals, specifically birds:
