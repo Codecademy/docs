@@ -1,1 +1,1 @@
-content/javascript/concepts/modules/modules.md
+content/python/concepts/dictionaries/dictionaries.md

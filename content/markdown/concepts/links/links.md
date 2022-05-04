@@ -15,13 +15,13 @@ CatalogContent:
 
 In Markdown, a link is created by enclosing the link text in square brackets `[Link text]` and then following it immediately with the URL in parentheses `(https://website-name.com)`.
 
-```markdown
+```md
 [Link text](https://website-name.com)
 ```
 
 For example:
 
-```markdown
+```md
 We just launched [Codecademy Docs](https://producthunt.com) on Product Hunt!
 ```
 
@@ -35,13 +35,13 @@ A title for a link can be optionally added. This will appear as a tooltip when t
 
 Links should have link titles so that screenreaders can narrate them as well as a user can <kbd>Tab</kbd> through the page.
 
-```markdown
+```md
 [Link text](https://website-name.com 'Link title')
 ```
 
 For example:
 
-```markdown
+```md
 My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
 ```
 
