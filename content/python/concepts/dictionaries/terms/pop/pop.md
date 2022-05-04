@@ -1,6 +1,6 @@
 ---
 Title: '.pop()'
-Description: 'Returns the value of a specified key, then removes the key/value pair from a dictionary.'
+Description: 'Returns the value of a specified key, then removes the key-value pair from a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
