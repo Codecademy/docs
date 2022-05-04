@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.items()` method of a Python dictionary returns a list of [tuples](https://www.codecademy.com/resources/docs/python/tuples) for each key/value pair in a dictionary. It takes no arguments.
+The `.items()` method of a Python dictionary returns a list of [tuples](https://www.codecademy.com/resources/docs/python/tuples) for each key-value pair in a dictionary. It takes no arguments.
 
 ## Syntax
 
