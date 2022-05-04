@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.loc` property of the [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object allows the return of specified rows and/or columns from that `DataFrame`. It can do so using a label or labe(s), or a boolean array of the same size as the axis being filtered.
+The `.loc` property of the [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object allows the return of specified rows and/or columns from that `DataFrame`. It can do so using a label or label(s), or a boolean array of the same size as the axis being filtered.
 
 ## Syntax
 
