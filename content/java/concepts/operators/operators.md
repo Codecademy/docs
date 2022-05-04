@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Basic math operations can be applied to int, double, and float data types: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) These operations are not supported for other data types.'
+Description: 'Operators are used to perform various operations on variables and values of various data types.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -9,6 +9,8 @@ CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
+
+Operators are used to perform various operations on variables and values of various data types.
 
 ## Arithmetic Operators
 
@@ -54,6 +56,18 @@ int b = 3;
 
 boolean result = a > b;
 // result now holds the boolean value true
+```
+
+There is also a type comparison operator, `instanceof`. The `instanceof` operator tests if a given object is an instance of a particular class, subcalss or interface. It will return `false` if the object being compared has a null value.
+
+```java
+class Example{
+  public static void main(String args[]){
+  Example test = new Example();
+  System.out.println(test instanceof Example);
+  // Outputs true
+ }  
+}  
 ```
 
 ## Bitwise Operators
