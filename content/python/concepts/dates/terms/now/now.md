@@ -1,5 +1,5 @@
 ---
-Title: '.now()'
+Title: '.datetime.now()'
 Description: 'Returns the current date and timestamp.'
 Subjects:
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.now()` method of the Python `datetime` module returns the current local date and timestamp as a new `datetime` instance.
+The `.datetime.now()` method returns a new `datetime` object with the current local date and timestamp.
 
 ## Syntax
 
@@ -21,8 +21,6 @@ datetime.datetime.now(time_zone=None)
 ```
 
 The result from the `.datetime.now()` method contains the year, month, day, hour, minute, second, and microsecond (expressed as `YYYY-MM-DD hh:mm:ss.ffffff`).
-
-````
 
 It also accepts an optional `time_zone` parameter, which is set to `None` by default.
 
@@ -36,4 +34,4 @@ import datetime
 today = datetime.datetime.now()
 
 print(today)
-````
+```

@@ -1,6 +1,6 @@
 ---
 Title: '.time()'
-Description: 'Returns the time '
+Description: 'Returns the seconds elapsed since the epoch.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.time()` method returns the time in seconds that has passed since the epoch set on the computer.
+The `datetime.time()` method returns a time in seconds that has passed since the epoch set on the computer.
 
 ## Syntax
 

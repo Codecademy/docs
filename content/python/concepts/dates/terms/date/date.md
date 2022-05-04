@@ -1,6 +1,6 @@
 ---
-Title: '.date()'
-Description: 'Returns a date in the year-month-day format.'
+Title: 'datetime.date()'
+Description: 'Returns a date object in the year-month-day format.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.date()` method returns a date in the year-month-day format.
+The `datetime.date()` method returns a date object in the year-month-day format.
 
 ## Syntax
 
@@ -20,7 +20,13 @@ The `.date()` method returns a date in the year-month-day format.
 datetime.date(YYYY, MM, DD)
 ```
 
-All parameters passed to the `.date()` method in the snippet above are required and must be passed in order. Otherwise, a `TypeError` is thrown.
+All parameters passed to the `datetime.date()` method in the snippet above are required and must be passed in order. Otherwise, a `TypeError` is thrown.
+
+| Parameter | Description                                   |                    Range                     |
+| :-------: | --------------------------------------------- | :------------------------------------------: |
+|  `YYYY`   | The year expressed in four digits.            |                   1 - 9999                   |
+|   `MM`    | The month expressed in two digits.            |                    1 - 12                    |
+|   `DD`    | The day of the month expressed in two digits. | 1 - number of days in a given month and year |
 
 ## Codebyte Example
 
