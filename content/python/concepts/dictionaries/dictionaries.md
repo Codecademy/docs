@@ -62,7 +62,7 @@ The three key-value pairs in the `coffee_shop` dictionary:
 
 ## Accessing a Dictionary
 
-The values in a dictionary can be accessed by passing the associated key name:
+The values in a dictionary can be accessed by passing the associated key name in a `dictionary[key]` syntax:
 
 ```py
 coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
