@@ -12,9 +12,8 @@ Tags:
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
-Python has a module with functions that support a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
+The `functools` module contains functions that support a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach in Python.
 
 The following functions are provided by this module.
