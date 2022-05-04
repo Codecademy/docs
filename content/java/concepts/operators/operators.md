@@ -66,8 +66,8 @@ class Example{
   Example test = new Example();
   System.out.println(test instanceof Example);
   // Outputs true
- }  
-}  
+ }
+}
 ```
 
 ## Bitwise Operators
