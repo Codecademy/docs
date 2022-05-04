@@ -24,7 +24,7 @@ dataframe.loc[rows,columns]
 
 **Note:** `.loc` is not a method, it is a property indexed via square brackets.
 
-Inside the square brackets are specified indicies for `rows` and, optionally, specified indicies for `columns`.
+Inside the square brackets are specified indices for `rows` and, optionally, specified indices for `columns`.
 
 The indicies to access can be specified in several ways:
 
