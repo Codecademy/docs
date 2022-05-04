@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.pop()` method of a Python dictionary returns the value of a specified key, then removes the key/value pair from the dictionary.
+The `.pop()` method of a Python dictionary returns the value of a specified key, then removes the key-value pair from the dictionary.
 
 ## Syntax
 
