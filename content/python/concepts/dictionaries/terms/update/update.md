@@ -20,7 +20,7 @@ The `.update()` method of a Python dictionary adds the entries from another dict
 dictionary.update(entries)
 ```
 
-Where `entries` is another dictionary or an iterable of key/value pairs.
+Where `entries` is another dictionary or an iterable of key-value pairs.
 
 ## Codebyte Example
 
