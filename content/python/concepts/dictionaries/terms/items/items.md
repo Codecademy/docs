@@ -1,6 +1,6 @@
 ---
 Title: '.items()'
-Description: 'Returns a list of tuples for eack key/value pair in a dictionary.'
+Description: 'Returns a list of tuples for each key-value pair in a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
