@@ -1,7 +1,6 @@
 ---
 Title: 'Functools Module'
 Description: 'Python has a module with functions that support a functional programming approach.'
-
 Subjects:
   - 'Computer Science'
   - 'Data Science'
