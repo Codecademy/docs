@@ -31,7 +31,7 @@ string.slice(start, stop);
 In the example below, a `smoothie` string is created. Next, the `.slice()` method is used to extract substrings for the berry variable:
 
 ```js
-let smoothie = "mango strawberry pineapple";
+let smoothie = 'mango strawberry pineapple';
 
 let berry = smoothie.slice(6, 16);
 
@@ -46,6 +46,7 @@ The output will look like the following:
 mango strawberry pineapple
 strawberry
 ```
+
 ## Codebyte Example
 
 In the example below, an `animals` string is created. Next, the `.slice()` method is used to pick out substrings of certain animals, specifically birds:
