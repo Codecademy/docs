@@ -1,5 +1,5 @@
 ---
-Title: 'Pandas'
+Title: 'Python:Pandas'
 Description: 'Pandas is a popular open-source Python module, used for data analysis and manipulation.'
 Subjects:
   - 'Computer Science'
