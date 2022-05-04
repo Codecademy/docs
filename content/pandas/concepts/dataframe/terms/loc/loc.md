@@ -26,7 +26,7 @@ dataframe.loc[rows,columns]
 
 Inside the square brackets are specified indices for `rows` and, optionally, specified indices for `columns`.
 
-The indicies to access can be specified in several ways:
+The indices to access can be specified in several ways:
 
 - A single label. **Note:** an integer is treated as a label, not a row or column position.
 - An array of labels.
