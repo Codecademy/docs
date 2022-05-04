@@ -1,5 +1,5 @@
 ---
-Title: 'NumPy'
+Title: 'Python:NumPy'
 Description: 'NumPy is a popular open-source Python module, used for complex mathematical operations and multi-dimentional arrays.'
 Subjects:
   - 'Computer Science'
