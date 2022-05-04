@@ -1,6 +1,6 @@
 ---
 Title: '.update()'
-Description: 'Adds the entries in a specified dictionary, or iterable of key/value pairs, to a dictionary.'
+Description: 'Adds the entries in a specified dictionary, or iterable of key-value pairs, to a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
