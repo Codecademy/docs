@@ -39,7 +39,7 @@ cin.getline(string, length, delim)
 
 - `length` is the expected size of the character array.
 
-## Examples
+## Example
 
 ```cpp
 #include <iostream>
@@ -57,11 +57,13 @@ int main() {
 }
 ```
 
+## Codebyte Example
+
 In the example above, the user will be prompted to enter a pet name. Then, the `getline()` function will take the input and set it to the `my_str` variable. `my_str` can then be used in the following operations. If the user inputs a string, `"Nimbus"`, what's printed to the console is `"My pet's name is Nimbus!"`.
 
 The same example of `getline()`, but called upon the `cin` object, would look like this:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 using namespace std;
 
