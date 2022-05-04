@@ -36,10 +36,8 @@ let smoothie = "mango strawberry pineapple";
 let berry = smoothie.slice(6, 16);
 
 console.log(smoothie);
-// Output: mango strawberry pineapple
 
 console.log(berry);
-// Output: strawberry
 ```
 
 The output will look like the following:
