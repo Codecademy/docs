@@ -20,11 +20,11 @@ The `.clear()` method removes all values from a set. This will destroy every val
 setName.clear();
 ```
 
-## Example
+## Codebyte Example
 
 The following shows the `.clear()` method being used on the `composers` set:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <set>
 #include <string>

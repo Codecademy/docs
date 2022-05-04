@@ -20,7 +20,7 @@ The `.erase()` method removes a single value from a set.
 setName.erase(value);
 ```
 
-- `value` is the element to be removed from the set.
+The `value` is the element to be removed from the set.
 
 ## Codebyte Example
 

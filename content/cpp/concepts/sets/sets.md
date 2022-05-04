@@ -67,13 +67,13 @@ The comparison function can be changed from the default to `std::greater<dataTyp
 std::set<dataType, std::greater<dataType> > setName;
 ```
 
-- `dataType` for the comparison function must match the data type of the set.
+The `dataType` for the comparison function must match the data type of the `set`.
 
-### Example
+### Codebyte Example
 
 Setting the previous example's comparison function to `std::greater<int>`:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <set>
 
@@ -94,10 +94,4 @@ int main(){
   std::cout<< *iter << " ";
   }
 }
-```
-
-The example above outputs the following:
-
-```shell
-42 25 19 10
 ```
