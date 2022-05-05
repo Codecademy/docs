@@ -1,6 +1,6 @@
 ---
 Title: 'GitHub'
-Description: 'Github is a UI based version control that uses git.'
+Description: 'Github is a UI-based version control that uses Git.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
