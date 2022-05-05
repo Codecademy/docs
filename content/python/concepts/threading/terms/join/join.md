@@ -20,11 +20,11 @@ The `.join()` method delays a program's flow of execution until the target threa
 thread_object.join(timeout)
 ```
 
-The `.join()` method always returns `None`. There is also an `timeout` parameter that is set to `None` by default. If set otherwise, it must be represented in seconds with a floating-point value.
+The `.join()` method always returns `None`. There is also a `timeout` parameter that is set to `None` by default. If set otherwise, it must be represented in seconds with a floating-point value.
 
 ## Example
 
-The following example features two threads, `thread_A` and `thread_A`. Each thread makes a call to [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start), immediately followed by a call to `.join()`.
+The following example features two threads, `thread_A` and `thread_B`. Each thread makes a call to [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start), immediately followed by a call to `.join()`.
 
 ```py
 import threading

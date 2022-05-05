@@ -1,6 +1,6 @@
 ---
 Title: '.run()'
-Description: ''
+Description: 'Returns the activity that takes place within a thread.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -18,7 +18,7 @@ The `.run()` method returns the activity that takes place within a thread. It no
 
 ```pseudo
 thread_object.start()
-# run() executing in the background
+# .run() executing in the background
 ```
 
 The `.run()` method commonly takes the form of the `target` function passed to the `thread_object`, if any.
@@ -38,7 +38,7 @@ custom_thread = CustomThread()
 custom_thread.start()
 ```
 
-After the `.start()` methoed is called against the `custom_thread`, the overriden `.run()` method is executed and the following is printed:
+After the `.start()` method is called against the `custom_thread`, the overriden `.run()` method is executed and the following is printed:
 
 ```shell
 This is my custom run!

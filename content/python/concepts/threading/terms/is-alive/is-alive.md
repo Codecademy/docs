@@ -1,6 +1,6 @@
 ---
 Title: '.is_alive()'
-Description: 'eturns True if the thread is still running and False, otherwise.'
+Description: 'Returns True if the thread is still running and False, otherwise.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `is_alive()` method returns `True` if the thread is still running and `False`, otherwise.
+The `.is_alive()` method returns `True` if the thread is still running and `False`, otherwise.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The `is_alive()` method returns `True` if the thread is still running and `False
 thread_object.is_alive()
 ```
 
-This method will return `True` from when the [`.run()`](https://www.codecademy.com/resources/docs/python/threading/run) method starts until just after if finishes.
+This method will return `True` from when the [`.run()`](https://www.codecademy.com/resources/docs/python/threading/run) method starts until just after it finishes.
 
 ## Example
 

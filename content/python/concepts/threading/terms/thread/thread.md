@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.Thread()` method is a class constructor that returns a thread object that can run a function with zero or more arguments.
+The `.Thread()` method is a class constructor which returns a thread object that can run a function with zero or more arguments.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ threading.Thread(target=object, args=())
 
 ## Example
 
-The object returns from the `.Thread()` constructor can be assigned to its own variable, as shown in the example below:
+The object that returns from the `.Thread()` constructor can be assigned to its own variable, as shown in the example below:
 
 ```py
 import threading
@@ -45,7 +45,7 @@ Every thread object has a `name` attribute that, unless otherwise specified, def
 
 ## Codebyte Example
 
-In the example below, a thread, `hello_thread`, targeting the `say_hello()` function with supplied arguments. After the thread is created, the targeted `say_hello()` function is exectued when the [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start) method is run.
+In the example below, a thread, `hello_thread`, targets the `say_hello()` function with supplied arguments. After the thread is created, the targeted `say_hello()` function is executed when the [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start) method is run.
 
 ```codebyte/python
 import threading
