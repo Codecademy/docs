@@ -17,6 +17,8 @@ The `.clear()` method removes all elements of a map. This destroys the elements 
 
 ## Syntax
 
+This method is applied by adding `.clear()` to the end of the specified `mapName`:
+
 ```pseudo
 mapName.clear()
 ```
