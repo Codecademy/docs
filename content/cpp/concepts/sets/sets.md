@@ -87,7 +87,7 @@ int main(){
   numSet.insert(10);
   numSet.insert(19);
 
-  // Print out set
+  // Print set
   std::set<int> :: iterator iter;
   for(iter = numSet.begin(); iter != numSet.end(); iter++)
   {
