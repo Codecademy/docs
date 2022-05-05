@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.update()` method of a Python dictionary adds the entries from another dictionary, or an iterable of key-value pairs, to the dictionary.
+The `.update()` method returns new Python dictionary with entries from another dictionary, or some other iterable, to it.
 
 ## Syntax
 
