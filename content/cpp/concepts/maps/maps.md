@@ -123,7 +123,7 @@ std::map<type1, type2, std::greater<dataType>> mapName { {key1, value1}, {key2, 
 
 The `dataType` for the comparison function above must be the same as `type1` which is the data type for the keys.
 
-### Example
+### Codebyte Example
 
 Setting the previous example's comparison function to `std::greater<int>`:
 
