@@ -24,7 +24,7 @@ Where `key` is the key of the value to return and the entry to remove.
 
 ## Codebyte Example
 
-The following example creates a dictionary and "pops" a value from it.
+The following example creates a dictionary and "pops" a value from it:
 
 ```codebyte/python
 d = {1:'one',2:'two',3:'three'}
