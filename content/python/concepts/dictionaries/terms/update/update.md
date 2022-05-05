@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.update()` method returns new Python dictionary with entries from another dictionary, or some other iterable, to it.
+The `.update()` method returns new Python dictionary with entries from another dictionary, or some other iterable, added to it.
 
 ## Syntax
 
