@@ -34,7 +34,11 @@ This example will send a command to the database to drop a table.
 SELECT * FROM Projects WHERE UserID = 'input from user'
 ```
 
-If a user enters `1'; DELETE FROM Projects WHERE '1'='1` This will first find the user with the UserId = 1, then it will run what it believes to be the next command `DELETE FROM Projects WHERE '1'='1'` which will delete all rows from the `Projects` table.
+If the input is something like `'1'; DELETE FROM Projects WHERE '1'='1'`, the following will happen:
+
+1. Users with a `UserID` set to `1` will be located and retrieved.
+2. The semi-colon `;` indicates the end of a command and the beginning of the next one.
+3. The next command will delete all such rows from the `Projects` table.
 
 ## Prevention with Parametized Queries
 
