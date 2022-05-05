@@ -12,4 +12,4 @@ CatalogContent:
   - "paths/learn-how-to-build-websites"
 ---
 
-Github is a UI-based version control that runs on [git](Not sure to link to the genral entry or the git website). Github offers many services mainly version control but also hosting for a static website, contributing to OSS (Open sourced) projects, and many more.
+GitHub is a UI-based version control platform that runs on [Git](https://www.codecademy.com/resources/docs/git). It offers many services including version control,  static website hosting, open-source software ([OSS](https://www.codecademy.com/resources/docs/general/open-source)) projects, and much more.
