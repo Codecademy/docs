@@ -31,9 +31,13 @@ Metacharacter|Description|Example
 `*` | Matches the preceeding element zero or more times.| `co*t` matches "ct", "cot" and "coot"
 `+` | Matches the preceeding element one or more times.| `co+t` matches "cot","coot" but not "ct"
 `?` | Matches the preceeding element zero or one time.| `co?t` matches "ct","cot" but not "coot"
+`{n}` | Matches the preceeding element exactly n times | `co{2}t` matches "coot" but not "cot" or "cooot"
 `{m,n}` | Matches the preceeding element at least `m` and not more than `n` times.| `co{2,3}t` matches "coot" and "cooot" but not "cot"
-`[ ]` | Matches the characters inside the brackets. Can also specify ranges of characters such as `[a-z]`.
-`[^ ]` | Matches characters not inside the brackets. Can also specify ranges of characters such as `[^a-z]`.
+`[ ]` | Matches the characters inside the brackets. Can also specify ranges of characters such as `[a-z]`.| `[bcm]at` matches "cat","bat" and "mat"
+`[^ ]` | Matches characters not inside the brackets. Can also specify ranges of characters such as `[^a-z]`.| `b[^a]t` matches "bit","bot", and "but" but not "bat"
+`|` | Matches the pattern on the right of the `|` or the pattern on the left. | `yes|no` matches both "yes" and "no"
+`( )` | Groups a pattern together and marks it for future refrence | `(ca|bi)t` matches "cat" and "bit"
+
 
 
 
