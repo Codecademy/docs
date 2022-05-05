@@ -20,7 +20,7 @@ The `.update()` method returns new Python dictionary with entries from another d
 dictionary.update(entries)
 ```
 
-Where `entries` is another dictionary or an iterable of key-value pairs. Pairs. in `dictionary` are replaced by any pair in `entries` with a duplicate key.
+Where `entries` is another dictionary or an iterable of key-value pairs. Pairs in `dictionary` are replaced by any pair in `entries` with a duplicate key.
 
 ## Codebyte Example
 
