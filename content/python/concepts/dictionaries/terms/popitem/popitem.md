@@ -1,6 +1,6 @@
 ---
 Title: '.popitem()'
-Description: 'Returns the last inserted key/value pair from a dictionary as a tuple, and removes the entry.'
+Description: 'Returns the last inserted key-value pair from a dictionary as a tuple, and removes the entry.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
