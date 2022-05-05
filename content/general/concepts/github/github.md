@@ -1,5 +1,5 @@
 ---
-Title: 'Github'
+Title: 'GitHub'
 Description: 'Github is a UI based version control that uses git.'
 Subjects:
   - 'Computer Science'
