@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A dictionary is a set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys. Keys must be unique in dictionaries, but the values don't have to be.
+A dictionary is a data set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys.
 
 Python dictionaries are dynamic and mutable, which means they can change.
 
