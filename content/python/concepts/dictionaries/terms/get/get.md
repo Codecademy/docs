@@ -14,7 +14,7 @@ CatalogContent:
 
 The `.get()` method will return the value of a dictionary entry for a specified key. It may also specify a fallback value if the specified key does not exist in the dictionary.
 
-`.get()` offers an alternative to the `dictionary[key]` syntax that does not produce an exception when a key doesn't exist.
+This method is an alternative to the `dictionary[key]` syntax that does not produce an exception when a key doesn't exist.
 
 ## Syntax
 
