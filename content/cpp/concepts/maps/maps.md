@@ -1,6 +1,6 @@
 ---
 Title: 'Maps'
-Description: 'Maps are associative containers that have elements with key, value pairs.'
+Description: 'Maps are associative containers that have elements with key-value pairs.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Maps are associative containers that have elements with key, value pairs. The keys are used to sort and identify the elements, while the values store the content associated with the keys. Each mapped value must have a unique key value.
+Maps are associative containers that have elements with key-value pairs. The keys are used to sort and identify the elements, while the values store the content associated with the keys. Each mapped value must have a unique key value.
 
 ## Syntax
 
