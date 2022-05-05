@@ -17,7 +17,7 @@ The `.setdefault()` method will return the value of a dictionary entry for a spe
 ## Syntax
 
 ```pseudo
-dictionary.setdefault(key,value)
+dictionary.setdefault(key, value)
 ```
 
 Where `key` is the key of the value to return. If `key` does not exist in `dictionary`, it will be created. `value` is an optional parameter specifying the value for `key` if a new entry is created, it has no effect otherwise. If `value` is not specified, the value `None` will be used.
