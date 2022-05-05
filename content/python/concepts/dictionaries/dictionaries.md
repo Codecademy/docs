@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is a set of key-value pairs.'
+Description: 'A dictionary is a data set of key-value pairs.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
