@@ -16,7 +16,7 @@ A dictionary is a set of key-value pairs. It provides a way to map pieces of dat
 
 Python dictionaries are dynamic and mutable, which means they can change.
 
-**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in Python 3.6 and earlier.
+**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in previous versions.
 
 ## Syntax
 
