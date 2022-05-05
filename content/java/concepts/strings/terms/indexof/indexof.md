@@ -19,7 +19,8 @@ The `.indexOf()` method returns the zero-indexed position of the first occurrenc
 string.indexOf(str, index)
 ```
 
-Where `str` is a `String`, or an `int` representing a character or Unicode value, to find the index of, and `index` is an optional index position in the string to search from.
+- `str` can be a `String`, or an `int` representing a character or Unicode value. The index where this value is found will be returned.
+- `index` is an optional index position in the string to start the search from.
 
 ## Example
 
