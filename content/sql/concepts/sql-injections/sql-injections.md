@@ -40,7 +40,7 @@ If the input is something like `'1'; DELETE FROM Projects WHERE '1'='1'`, the fo
 2. The semi-colon `;` indicates the end of a command and the beginning of the next one.
 3. The next command will delete all such rows from the `Projects` table.
 
-## Prevention with Parametized Queries
+## Parameterized queries
 
 ```sql
 string sql = "SELECT * FROM users WHERE UserID = $userInput"
