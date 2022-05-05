@@ -21,6 +21,8 @@ Elements can be added to a map by inserting key-value pairs using the `.insert()
 mapName.insert(std::pair<type1, type2>(key, value));
 ```
 
+Respectively, `type1` and `type2` are the [data types](https://www.codecademy.com/resources/docs/cpp/data-types) of the `key` and `value` that will be inserted.
+
 ## Codebyte Example
 
 The following codebyte example inserts different mammals and their average lifespans into the `lifeSpan` map:
