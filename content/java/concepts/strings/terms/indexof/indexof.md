@@ -16,7 +16,7 @@ The `.indexOf()` method returns the zero-indexed position of the first occurrenc
 ## Syntax
 
 ```java
-string.indexOf(str,index)
+string.indexOf(str, index)
 ```
 
 Where `str` is a `String`, or an `int` representing a character or Unicode value, to find the index of, and `index` is an optional index position in the string to search from.
