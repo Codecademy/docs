@@ -19,7 +19,7 @@ This method is an alternative to the `dictionary[key]` syntax that does not prod
 ## Syntax
 
 ```pseudo
-dictionary.get(key,value)
+dictionary.get(key, value)
 ```
 
 Where `key` is the key of the value to return and `value` is an optional value to return if `key` does not exist in `dictionary`. If `value` isn't specified, the fallback value will be `None`.
