@@ -24,7 +24,7 @@ dictionary.popitem()
 
 ## Codebyte Example
 
-The following example creates a dictionary, adds an item, then uses `.popitem()` to remove it.
+The following example creates a dictionary, adds an item, then uses `.popitem()` to remove it:
 
 ```codebyte/python
 d = {1:'one',2:'two',3:'three'}
