@@ -1,6 +1,6 @@
 ---
 Title: '.values()'
-Description: 'Returns a list of values for a dictionary.'
+Description: 'Returns a view of values for a dictionary.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.values()` method returns all of its values of a Python dictionary. It takes no arguments.
+The `.values()` method returns all of its values of a Python dictionary in a view object that will refect any changes to the dictionary values. It takes no arguments.
 
 ## Syntax
 
