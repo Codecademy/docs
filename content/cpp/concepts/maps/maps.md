@@ -97,7 +97,7 @@ int main(){
 }
 ```
 
-The above outputs the following:
+The snippet above outputs the following:
 
 ```shell
 8   Leatherback Sea Turtle
