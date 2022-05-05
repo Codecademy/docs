@@ -30,4 +30,4 @@ The `datetime` module has three main types available:
 - [`time`](https://www.codecademy.com/resources/docs/python/dates/time): Returns a time in the hour-minute-second format with optional microsecond and timezone information.
 - [`datetime`](https://www.codecademy.com/resources/docs/python/dates/datetime): Returns a date and time in the year-month-day and hour-minute-second formats.
 
-Durations between any of these types can be returned by the [`.timedelta()`] method.
+Durations between any of these types can be returned by the [`.timedelta()`](https://www.codecademy.com/resources/docs/python/dates/timedelta) method.
