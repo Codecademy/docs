@@ -28,7 +28,7 @@ SELECT * FROM users WHERE UserID = 'input from user'
 
 Now if a user enters `1' OR '1'='1`, then the SQL command becomes `SELECT * FROM users WHERE UserID = '1' OR '1'='1'`. The user injecting the code will be able to access all the UserID's because `1=1` will always execute as `true`.
 
-This example will send a command to the database to drop a table.
+This example will send a command to the database to drop a table:
 
 ```sql
 SELECT * FROM Projects WHERE UserID = 'input from user'
