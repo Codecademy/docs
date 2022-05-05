@@ -26,7 +26,7 @@ Where `key` is the key of the value to return and `value` is an optional value t
 
 ## Codebyte Example
 
-The following example creates a dictionary, then retrieves some values for keys using `.get()`.
+The following example creates a dictionary, then retrieves some values for keys using `.get()`:
 
 ```codebyte/python
 d = {1:'one',2:'two',3:'three'}
