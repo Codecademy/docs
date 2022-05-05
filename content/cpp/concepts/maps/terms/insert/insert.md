@@ -17,6 +17,8 @@ Elements can be added to a map by inserting key-value pairs using the `.insert()
 
 ## Syntax
 
+A pair can be inserted using `std::pair` which is a class template used to store two different objects as a single unit.
+
 ```pseudo
 mapName.insert(std::pair<type1, type2>(key, value));
 ```
