@@ -26,10 +26,12 @@ The following example creates a dictionary, creates a copy of the dictionary, th
 
 ```codebyte/python
 d = {1:'one',2:'two',3:'three'}
+
 d_copy = d.copy()
 d_copy[4] = 'four'
 d_copy[5] = 'five'
 d_copy[6] = 'six'
+
 print(d)
 print(d_copy)
 ```
