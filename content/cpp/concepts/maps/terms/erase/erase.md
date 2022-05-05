@@ -21,7 +21,7 @@ The `.erase()` method removes an element by it's key from a map.
 mapName.erase(key);
 ```
 
-- `key` is the element to be erased
+The `key` is the element to be erased.
 
 ## Codebyte Example
 
