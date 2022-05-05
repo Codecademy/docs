@@ -14,7 +14,7 @@ CatalogContent:
 
 A dictionary is a data set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys.
 
-Python dictionaries are dynamic and mutable, which means they can change.
+In Python, dictionaries are dynamic and mutable, which means they can change.
 
 **Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in previous versions.
 
