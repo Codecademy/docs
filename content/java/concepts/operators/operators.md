@@ -58,7 +58,7 @@ boolean result = a > b;
 // result now holds the boolean value true
 ```
 
-There is also a type comparison operator, `instanceof`. The `instanceof` operator tests if a given object is an instance of a particular class, subcalss or interface. It will return `false` if the object being compared has a null value.
+There is also a type comparison operator, `instanceof`. It tests if a given object is an instance of a particular class, subclass or interface. It will return `false` if the object being compared has a `null` value.
 
 ```java
 class Example{
