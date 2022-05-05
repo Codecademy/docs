@@ -16,8 +16,6 @@ A dictionary is a set of key-value pairs. It provides a way to map pieces of dat
 
 Python dictionaries are dynamic and mutable, which means they can change.
 
-If you assign a value to an already existing dictionary key, it does not add the key a second time. Instead, it replaces the existing value. Dictionaries also have several built-in methods, listed at the end of this entry, which make it easier to manipulate the data structure and objects contained within.
-
 **Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in Python 3.6 and earlier.
 
 ## Syntax
@@ -71,7 +69,7 @@ print(coffee_shop["cold brew"])
 # Output: 3.5
 ```
 
-When you try to access a key that does not exist, it will raise a `KeyError`.
+When you try to retrieve a value for a key that does not exist, it will raise a `KeyError`. If you assign a value to a key that doesn't exist, the new key-value pair will be added. If you assign a value to an already existing dictionary key it replaces the existing value.
 
 ## Iterating Through a Dictionary
 
@@ -130,3 +128,5 @@ nums_squared = { num: num**2 for num in nums_list }
 ```
 
 `nums_squared` will produce a result of: `{ 1: 1, 2: 4, 3: 9, 4: 16, 5: 25 }`
+
+The following built-in methods listed below help with manipulating dictionaries and the objects within>
