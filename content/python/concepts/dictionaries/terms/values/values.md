@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.values()` method of a Python dictionary returns all of its values. It takes no arguments.
+The `.values()` method returns all of its values of a Python dictionary. It takes no arguments.
 
 ## Syntax
 
