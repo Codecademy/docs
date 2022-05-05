@@ -44,11 +44,7 @@ string sql = "SELECT * FROM users WHERE UserID = $userInput"
 
 This example saves the query as a string and passes the value of the user's input as a variable into the string.
 
-## Ways to Prevent SQL Injection
+## Resources
 
-Techniques to keep your database safe:
-
-- Be aware of SQL Injection techniques
-- Set up a filter for user input
-- Treat user input as untrusted
-- Use parameterized queries
+- [In-depth Codecademy Article](https://www.codecademy.com/courses/defending-express-applications-from-sql-injection-xss-csrf-attacks/articles/sql-injection)
+- [SQL Injection Prevention Cheatsheet](https://www.codecademy.com/learn/seasp-defending-node-applications-from-sql-injection-xss-csrf-attacks/modules/seasp-preventing-sql-injection-attacks/cheatsheet)
