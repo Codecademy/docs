@@ -16,4 +16,4 @@ GitHub (GH) is a UI-based version control platform that runs on [Git](https://ww
 
 ## Github Pages
 
-Github pages is a service GH offers that will host static websites for free with an unlimited amount of vists. It automaticly has encryption with HTTPS. GH pages also supports cutsom domains.
+[Github Pages](https://pages.github.com/) is a service offered by GH for hosting static websites for free with an unlimited amount of visits. It automatically has encryption with HTTPS. GitHub Pages also supports custom domains.
