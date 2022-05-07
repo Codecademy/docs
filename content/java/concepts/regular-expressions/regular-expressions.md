@@ -44,5 +44,5 @@ The `Pattern` class has the following methods:
 - `.pattern()` : Returns the string pattern with which the instance was compiled.
 - `.flags()` : Returns the flags bit mask with which the instance was compiled.
 - `.matcher(input)` : Returns a `Matcher` instance that applies the `Pattern` instance against the supplied `input` text.
-- `.matches(pattern,input) : Static method returns a boolean if the given `pattern` matches a string in the supplied `input` text.
-- `.split(input,limit) : Returns an array that splits the `input` around the matches found by the compiled pattern, optional int `limit` specifies the maximum number of strings to return in the array.
+- `.matches(pattern,input)` : Static method returns a boolean if the given `pattern` matches a string in the supplied `input` text.
+- `.split(input,limit)` : Returns an array that splits the `input` around the matches found by the compiled pattern, optional int `limit` specifies the maximum number of strings to return in the array.
