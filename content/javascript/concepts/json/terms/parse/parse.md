@@ -41,7 +41,7 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example futher demonstrates how the `.parse()` method works:
+The following example further demonstrates how the `.parse()` method works:
 
 ```codebyte/javascript
 let json = `{
