@@ -34,21 +34,29 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 The following example creates an `ndarray` then uses `.reshape()` to change its dimensions.
 
 ```py
->>> import numpy as np
->>> nd1 = np.array([[1,2,3],[4,5,6]])
->>> print(nd1)
+import numpy as np
+
+nd1 = np.array([[1,2,3],[4,5,6]])
+
+print(nd1)
+print(nd1.reshape(3,2))
+print(nd1.reshape((-1,1)))
+```
+
+This produces the following output:
+
+```shell
 [[1 2 3]
  [4 5 6]]
->>> print(nd1.reshape(3,2))
+
 [[1 2]
  [3 4]
  [5 6]]
->>> print(nd1.reshape((-1,1)))
+
 [[1]
  [2]
  [3]
  [4]
  [5]
  [6]]
->>>
 ```
