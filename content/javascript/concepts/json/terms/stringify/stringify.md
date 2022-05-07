@@ -43,7 +43,7 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example futher demonstrates how the `.stringify()` method works:
+The following example further demonstrates how the `.stringify()` method works:
 
 ```codebyte/javascript
 let json = {
