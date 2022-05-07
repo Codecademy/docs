@@ -55,7 +55,7 @@ int a = 5;
 int b = 3;
 
 boolean result = a > b;
-// result now holds the boolean value true
+// Result now holds the boolean value true
 ```
 
 There is also a type comparison operator, `instanceof`. It tests if a given object is an instance of a particular class, subclass, or interface. It will return `false` if the object being compared has a `null` value.
