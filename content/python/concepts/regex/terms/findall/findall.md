@@ -22,7 +22,7 @@ Iterates over a string to find a subset of characters that match a specified pat
 re.findall(<pattern>, string)
 ```
 
-where `<pattern>` can include any of the following:
+where `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/regular-expressions) that can include any of the following:
 
 - A string: `Jane`
 - A character class code: `/w`, `/s` , `/d`
