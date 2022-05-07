@@ -12,8 +12,7 @@ Tags:
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.transpose()` function reveres or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).
