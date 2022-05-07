@@ -1,6 +1,6 @@
 ---
 Title: 'Dates'
-Description: 'In JavaScript, Date objects represent a single moment in time stored as a number, representing the number of milliseconds since midnight on January 1st 1970 UTC.'
+Description: 'In JavaScript, Date objects represent a single moment in time stored as a number, representing the number of milliseconds since midnight on January 1st, 1970 UTC.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
