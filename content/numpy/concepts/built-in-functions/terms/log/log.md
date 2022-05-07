@@ -12,8 +12,7 @@ Tags:
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.log()` function returns an element-wise natural logarithm of an array.
