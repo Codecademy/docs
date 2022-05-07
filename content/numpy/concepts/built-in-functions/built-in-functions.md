@@ -1,5 +1,5 @@
 ---
-Title: 'Built in Functions'
+Title: 'Built-in Functions'
 Description: 'NumPy has many built-in functions for mathematical operations and array manipulation.'
 Subjects:
   - 'Computer Science'
