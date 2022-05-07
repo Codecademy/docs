@@ -1,6 +1,6 @@
 ---
 Title: '.parse()'
-Description: ''
+Description: 'Returns a new value taken from a provided JSON string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,15 +13,17 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.parse()` method is one of two methods belonging to the reserved `JSON` object, the other one being the [`.stringify()`](https://www.codecademy.com/resources/docs/javascript/json/stringify) method.
+The `.parse()` method returns a new value taken from a provided JSON string.
 
 ## Syntax
 
 ```pseudo
-JSON.parse(jsonString);
+JSON.parse(jsonString, transformer);
 ```
 
-The `jsonString` must be a valid JSON object. Otherwise, a `SyntaxError` is thrown.
+The `jsonString` must contain valid JSON. Otherwise, a `SyntaxError` is thrown. Common JSON includes single [objects](https://www.codecademy.com/resources/docs/javascript/objects) or [arrays](https://www.codecademy.com/resources/docs/javascript/arrays) of them. However, [data types](https://www.codecademy.com/resources/docs/javascript/data-types) like booleans and numbers are also valid.
+
+The `transformer` function is an optional parameter that operates directly on the parsed `jsonString` before the resulting transformation is returned.
 
 ## Example
 
@@ -44,13 +46,25 @@ The output will look like this:
 The following example further demonstrates how the `.parse()` method works:
 
 ```codebyte/javascript
-let json = `{
-  "propA": "valueA",
+let classicJSON = `{
+  "propA": "valueOne",
   "propB": {
-    "propC": "valueB"
+    "propC": "valueTwo"
   },
-  "propD": "valueC"
+  "propD": "valueThree"
 }`;
 
-console.log(JSON.parse(json));
+let stringJSON = '"Strings should be wrapped in double-, then in single-quotes."';
+
+let boolJSON = 'true';
+
+let numJSON = 42;
+
+let arrayJSON = '[1, 2, 3]';
+
+console.log(JSON.parse(classicJSON));
+console.log(JSON.parse(stringJSON));
+console.log(JSON.parse(boolJSON));
+console.log(JSON.parse(numJSON));
+console.log(JSON.parse(arrayJSON));
 ```
