@@ -43,7 +43,7 @@ This produces the following output:
 ```shell
 [[1.      2.71828]
  [2.71828 1.     ]]
- 
+
  [[0.         0.99999933]
  [0.99999933 0.        ]]
 ```
