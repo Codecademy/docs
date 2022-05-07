@@ -22,7 +22,7 @@ Replace matching substrings with a new string for all occurrences, or a specifie
 re.sub(<pattern>, <repl>, string, <count>, <flags>)
 ```
 
-A `<pattern>` can include any of the following:
+A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/regular-expressions) that can include any of the following:
 
 - A string: `Jane Smith`
 - A character class code: `/w`, `/s` , `/d`
