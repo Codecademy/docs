@@ -41,22 +41,33 @@ There are several routines for creating `ndarray` objects. These are preferred t
 The following shows various methods of creating an `ndarray`.
 
 ```py
->>> import numpy as np
->>> nd1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
->>> print(nd1)
+import numpy as np
+
+nd1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+nd2 = np.ones_like(nd1)
+nd3 = np.full((2,2),5)
+
+print(nd1)
+print(nd2)
+print(nd3)
+```
+
+This produces the following output:
+
+```shell
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
->>> nd2 = np.ones_like(nd1)
->>> print(nd2)
+
 [[1 1 1]
  [1 1 1]
  [1 1 1]]
->>> nd3 = np.full((2,2),5)
->>> print(nd3)
+
 [[5 5]
  [5 5]]
 ```
+
+
 
 ## Operations on an `ndarray`
 
@@ -78,21 +89,31 @@ The standard mathematical [operations](https://www.codecademy.com/resources/docs
 The following example creates an `ndarray` and performs several operations on it.
 
 ```py
->>> import numpy as np
->>> nd1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
->>> print(nd1)
+import numpy as np
+
+nd1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+
+print(nd1)
+print(nd1 + 5)
+print(nd1 % 2)
+print(np.matmul(nd1, nd1 % 2))
+```
+
+This produces the following output:
+
+```shell
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
->>> print(nd1 + 5)
+
 [[ 6  7  8]
  [ 9 10 11]
  [12 13 14]]
->>> print(nd1 % 2)
+
 [[1 0 1]
  [0 1 0]
  [1 0 1]]
->>> print(np.matmul(nd1, nd1 % 2))
+
 [[ 4  2  4]
  [10  5 10]
  [16  8 16]]
