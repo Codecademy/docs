@@ -12,8 +12,7 @@ Tags:
   - 'NumPy'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 NumPy has many built-in functions for mathematical operations and array manipulation. Selected ones are listed below.
