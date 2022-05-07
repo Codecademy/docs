@@ -25,7 +25,7 @@ Separate instances of an `ndarray` can share contents so that changes in one `nd
 There are several routines for creating `ndarray` objects. These are preferred to using the `ndarray` constructor, which operates at a very low level. Here are a few examples.
 
 | Method          | Syntax                               | Description                                                                                                                                                                      |
-| --------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------: | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `.empty()`      | `numpy.empty(shape,dtype)`           | Creates a `ndarray` of the given `shape` tuple, and the optional `dtype` (default is `numpy.float64`) with uninitalized values.                                                  |
 | `.empty_like()` | `numpy.empty_like(model,dtype)`      | Creates a `ndarray` based on the `shape` of the `model`, with the optional `dtype` (default is data type of `model`) with uninitalized values.                                   |
 | `.ones()`       | `numpy.ones(shape,dtype)`            | Operates the same as `.empty()`, but initalizes all the array elements with a value of one.                                                                                      |
