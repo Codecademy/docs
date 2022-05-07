@@ -15,8 +15,8 @@ CatalogContent:
 ---
   
 ## `<acronym>` tag
-  
-The `<acronym>` was used the make acronyms before it was depricated. Now use the [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) instead. When using the tag there will be a dotted underline for the word to signify that it is an acronym.
+
+The `<acronym>` was used the make acronyms before it was deprecated. Now use the [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) instead. When using the tag there will be a dotted underline for the word to signify that it is an acronym.
   
 ## Syntax
 
