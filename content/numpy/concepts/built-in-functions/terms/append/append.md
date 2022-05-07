@@ -30,17 +30,25 @@ Where `array` is the array being appended to. The `values` parameter is another 
 The example below crates two `ndarrays` and appends one to the other.
 
 ```py
->>> import numpy as np
->>> nd1 = np.array([[1,2,3],[4,5,6]])
->>> print(nd1)
+import numpy as np
+
+nd1 = np.array([[1,2,3],[4,5,6]])
+nd2 = np.array([[7,8,9]])
+
+print(nd1)
+print(nd2)
+print(np.append(nd1,nd2,0))
+```
+
+This produces the following output:
+
+```shell
 [[1 2 3]
  [4 5 6]]
->>> nd2 = np.array([[7,8,9]])
->>> print(nd2)
+
 [[7 8 9]]
->>> print(np.append(nd1,nd2,0))
+
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
->>>
 ```
