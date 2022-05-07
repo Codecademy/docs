@@ -32,12 +32,20 @@ If possible, the `ndarray` returned will be a view of the original `ndarray`'s d
 The below example creates an `ndarray` and then uses `.transpose()` on it.
 
 ```py
->>> import numpy as np
->>> nd1 = np.array([[1,2,3],[4,5,6]])
->>> print(nd1)
+import numpy as np
+
+nd1 = np.array([[1,2,3],[4,5,6]])
+
+print(nd1)
+print(np.transpose(nd1))
+```
+
+This produces the following output:
+
+```shell
 [[1 2 3]
  [4 5 6]]
->>> print(np.transpose(nd1))
+
 [[1 4]
  [2 5]
  [3 6]]
