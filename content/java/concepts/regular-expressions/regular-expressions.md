@@ -28,15 +28,15 @@ Where `pattern` is a regular expression pattern. And `flags` is an optional int 
 
 The `flags` parameter can include the following:
 
--  `CASE_INSENSITIVE`: Enables case-insensitive matching
--  `MULTILINE`: Enables multiline mode where `^` and `$` match the start and end of a line rather than start and end of the whole text.
--  `DOTALL`: Allows `.` to match any character, including a line terminator.
--  `UNICODE_CASE`: Allows `CASE_INSENSITIVE` to follow the Unicode standard, rather than restricting to the US-ASCII character set.
--  `CANON_EQ`: Forces matching to take canonical equivalence into account.
--  `UNIX_LINES`: Forces `\n` to be the only line delimiter recognized by `.`,`^` and `$`.
--  `LITERAL`: Forces all metacharacters in the pattern to be interpreted as literal characters instead.
--  `UNICODE_CHARACTER_CLASS`: Enables the Unicode version of character classes.
--  `COMMENTS`: Allows whitespace and comments in pattern.
+-  `Pattern.CASE_INSENSITIVE`: Enables case-insensitive matching
+-  `Pattern.MULTILINE`: Enables multiline mode where `^` and `$` match the start and end of a line rather than start and end of the whole text.
+-  `Pattern.DOTALL`: Allows `.` to match any character, including a line terminator.
+-  `Pattern.UNICODE_CASE`: Allows `CASE_INSENSITIVE` to follow the Unicode standard, rather than restricting to the US-ASCII character set.
+-  `Pattern.CANON_EQ`: Forces matching to take canonical equivalence into account.
+-  `Pattern.UNIX_LINES`: Forces `\n` to be the only line delimiter recognized by `.`,`^` and `$`.
+-  `Pattern.LITERAL`: Forces all metacharacters in the pattern to be interpreted as literal characters instead.
+-  `Pattern.UNICODE_CHARACTER_CLASS`: Enables the Unicode version of character classes.
+-  `Pattern.COMMENTS`: Allows whitespace and comments in pattern.
 
 The `Pattern` class has the following methods:
 
@@ -45,4 +45,16 @@ The `Pattern` class has the following methods:
 - `.flags()` : Returns the flags bit mask with which the instance was compiled.
 - `.matcher(input)` : Returns a `Matcher` instance that applies the `Pattern` instance against the supplied `input` text.
 - `.matches(pattern,input)` : Static method returns a boolean if the given `pattern` matches a string in the supplied `input` text.
-- `.split(input,limit)` : Returns an array that splits the `input` around the matches found by the compiled pattern, optional int `limit` specifies the maximum number of strings to return in the array.
+- `.split(input,limit)` : Returns an array that splits the `input` around the matches found by the compiled pattern, and the optional int `limit` specifies the maximum number of strings to return in the array.
+
+## Using the `Matcher` Class
+
+An instance of the `Matcher` class is used to perform operations against input text using a compiled `Pattern` instance. A `Matcher` instance is created from a `Pattern` instance using the following syntax.
+
+```java
+Matcher m = pattern.matcher(input)
+```
+
+Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, submatches, and their locations in the `input` text.
+
+The `Matcher` class has the following methods:
