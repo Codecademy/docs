@@ -62,7 +62,7 @@ There is also a type comparison operator, `instanceof`. It tests if a given obje
 
 ```java
 class Example {
-  public static void main(String args[]){
+  public static void main(String args[]) {
   Example test = new Example();
   System.out.println(test instanceof Example);
   // Outputs true
