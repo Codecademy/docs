@@ -28,15 +28,15 @@ Where `pattern` is a regular expression pattern. And `flags` is an optional int 
 
 The `flags` parameter can include the following:
 
--  `Pattern.CASE_INSENSITIVE`: Enables case-insensitive matching
--  `Pattern.MULTILINE`: Enables multiline mode where `^` and `$` match the start and end of a line rather than start and end of the whole text.
--  `Pattern.DOTALL`: Allows `.` to match any character, including a line terminator.
--  `Pattern.UNICODE_CASE`: Allows `CASE_INSENSITIVE` to follow the Unicode standard, rather than restricting to the US-ASCII character set.
--  `Pattern.CANON_EQ`: Forces matching to take canonical equivalence into account.
--  `Pattern.UNIX_LINES`: Forces `\n` to be the only line delimiter recognized by `.`,`^` and `$`.
--  `Pattern.LITERAL`: Forces all metacharacters in the pattern to be interpreted as literal characters instead.
--  `Pattern.UNICODE_CHARACTER_CLASS`: Enables the Unicode version of character classes.
--  `Pattern.COMMENTS`: Allows whitespace and comments in pattern.
+- `Pattern.CASE_INSENSITIVE`: Enables case-insensitive matching
+- `Pattern.MULTILINE`: Enables multiline mode where `^` and `$` match the start and end of a line rather than start and end of the whole text.
+- `Pattern.DOTALL`: Allows `.` to match any character, including a line terminator.
+- `Pattern.UNICODE_CASE`: Allows `CASE_INSENSITIVE` to follow the Unicode standard, rather than restricting to the US-ASCII character set.
+- `Pattern.CANON_EQ`: Forces matching to take canonical equivalence into account.
+- `Pattern.UNIX_LINES`: Forces `\n` to be the only line delimiter recognized by `.`,`^` and `$`.
+- `Pattern.LITERAL`: Forces all metacharacters in the pattern to be interpreted as literal characters instead.
+- `Pattern.UNICODE_CHARACTER_CLASS`: Enables the Unicode version of character classes.
+- `Pattern.COMMENTS`: Allows whitespace and comments in pattern.
 
 The `Pattern` class includes the following methods:
 
@@ -92,5 +92,3 @@ public class Example {
     }
 }
 ```
-
-
