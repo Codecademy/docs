@@ -1,6 +1,6 @@
 ---
 Title: 'Cryptocurrency'
-Description: 'A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralised networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world.'
+Description: 'A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralised networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world. Cryptocurrencies are not issued or controlled by any central authority, such as the federal bank of a sovereign nation as is the case with fiat money such as the US dollar. Cryptocurrencies are therefore protected from government interference, although this does not mean they cannot be manipulated by other parties.
+A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world. Cryptocurrencies are not issued or controlled by any central authority, such as the federal bank of a sovereign nation as is the case with fiat money such as the US dollar. Cryptocurrencies are therefore protected from government interference, although this does not mean they cannot be manipulated by other parties.
 
 ## Key Concepts
 
@@ -23,9 +23,9 @@ Units of cryptocurrencies are created through a process known as mining, which i
 
 ### Types
 
-Bitcoin is the most popular and widely known cryptocurrency, as well as the most valuable as measured by total market capitalisation. It was created by an individual (or perhaps a group) called Satoshi Nakamoto and introduced via a white paper in 2008. With the success of Bitcoin, thousands of other cryptocurrencies have since been created with different attributes for various functions.
+Bitcoin is the most popular and widely known cryptocurrency, as well as the most valuable as measured by total market capitalization. It was created by an individual (or perhaps a group) called Satoshi Nakamoto and introduced via a white paper in 2008. With the success of Bitcoin, thousands of other cryptocurrencies have since been created with different attributes for various functions.
 
-Ethereum, the second most valuable cryptocurrency, features a smart contract platform that allows for numerous protocols including borrowing and lending services. There are also “stable coin” cryptocurrencies, which attempt to offer price stability and are backed by a reserve asset such as US dollars. There are also “altcoins”, some of which are forks of Bitcoin and others are new currencies, tokens or assets that have been built from scratch. These altcoins include meme coins inspired by memes and internet jokes. Dogecoin, for example, was inspired by the Doge meme created from a viral photo of a Shiba Inu.
+Ethereum, the second most valuable cryptocurrency, features a smart contract platform that allows for numerous protocols including borrowing and lending services. There are also “stable coin” cryptocurrencies, which attempt to offer price stability and are backed by a reserve asset such as US dollars. There are also “altcoins”, some of which are forks of Bitcoin and others are new currencies, tokens, or assets that have been built from scratch. These altcoins include meme coins inspired by memes and internet jokes. Dogecoin, for example, was inspired by the Doge meme created from a viral photo of a Shiba Inu.
 
 ### Purchasing Cryptocurrencies
 
@@ -46,8 +46,8 @@ Outlined below are the primary advantages and disadvantages of cryptocurrencies.
 ### Disadvantages
 
 - _Pseudo-anonymity_: While cryptocurrencies are not generally connected to an individual’s name, transactions on the blockchain can be tracked and traced. Furthermore, exchanges around the world almost universally require know-your-customer (KYC) regulation, which forces these institutions to collect identifying personal details before a customer is able to trade on their platform.
-- _Criminal activity_: Cryptocurrencies have the potential to be used by criminals, although the same is also true for physical cash. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activity.
+- _Criminal activity_: Cryptocurrencies have the potential to be used by criminals, although the same is also true for physical cash. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activities.
 - _Decentralization_: While in theory, cryptocurrencies are meant to be decentralized, their ownership is often highly concentrated and the most value is generally accrued by the early investors. The statistic of highly skewed ownership is easily verifiable using blockchain data, and in one MIT study, it was demonstrated that just 11,000 investors held close to half of Bitcoin’s value.
 - _Security_: Cryptocurrency blockchains are very secure through cryptography, though the wallets and exchanges where cryptocurrency assets are held can be hacked. One of the most famous exchange hacks occurred in 2014 when hackers accessed and stole over 700,000 bitcoins.
 - _Price volatility_: Cryptocurrencies frequently experience high volatility, often changing value over the course of minutes or hours by more than those experienced in traditional financial markets over months or years. For example, on December 22, 2017, the price of Bitcoin dropped more than 30% in a single day from over US$16,000 to nearly US$11,000.
-- _Energy usage_: The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as entire countries. While that may be true, cryptocurrency supporters argue that existing financial structure uses far more energy than the power required for mining.
+- _Energy usage_: The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as entire countries. While that may be true, cryptocurrency supporters argue that the existing financial structure uses far more energy than the power required for mining.
