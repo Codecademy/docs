@@ -55,6 +55,24 @@ An instance of the `Matcher` class is used to perform operations against input t
 Matcher m = pattern.matcher(input)
 ```
 
-Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, submatches, and their locations in the `input` text.
+Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, sub-matches, and their locations in the `input` text.
 
 The `Matcher` class has the following methods:
+
+- `.end(group)` : Returns the offset after the last character matched. If optional `int` `group` included, returns the index of the match made by the given subgroup during the last match operation. (Subgroups defined by enclosing parentheses `(...)`)
+- `.find(start)` : Attempts to find the next match in the input. If optional `int` `start` included, resets the `Matcher` instance and finds the next match after the specified index in the input.
+- `.group(group)` : Returns the section of input last matched in the input. If optional `int` `group` specified, find the numbered subgroup matched in the input. (Subgroups defined by enclosing parentheses `(...)`)
+- `.hitEnd()` : Returns true if the last match hit the ned of input.
+- `.lookingAt()` : Attempts to find a match beginning at start of region. True if one found.
+- `.matches()` : Attempts to find a match in the entire region. True if found.
+- `.pattern()` : Returns the `Pattern` instance used by this `Matcher` instance.
+- `.region(start, end)` : Sets the region of input used by this `Matcher` instance.
+- `.regionEnd()` : Returns the end of region for this `Matcher` instance.
+- `.regionStart()` : Returns the start of region for this `Matcher` instance.
+- `.replaceAll(replacement)` : Replaces all incidences of matches with the given `replacement` string. Returns modified string.
+- `.replaceFirst(replacement) : Replaces first match in the input with the given `replacement` string. Returns modified string.
+- `.reset(input)` : Resets this `Matcher` instance. If optional `input` specified, resets with new `input` text.
+- `.start(group)` : Returns the offset of the first character matched. If optional `int` `group` included, returns the index of the match made by the given subgroup during the last match operation. (Subgroups defined by enclosing parentheses `(...)`)
+- `.usePattern(pattern)` : Sets `Matcher` instance to use new `Pattern` instance `pattern`.
+- 
+
