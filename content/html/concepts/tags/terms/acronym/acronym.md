@@ -1,6 +1,6 @@
 ---
 Title: '<acronym>'
-Description: 'Creates text when hovered over the text will be displated'
+Description: 'Creates text that will be displayed when hovered over.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
