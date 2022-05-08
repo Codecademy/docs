@@ -38,7 +38,7 @@ The `flags` parameter can include the following:
 -  `Pattern.UNICODE_CHARACTER_CLASS`: Enables the Unicode version of character classes.
 -  `Pattern.COMMENTS`: Allows whitespace and comments in pattern.
 
-The `Pattern` class has the following methods:
+The `Pattern` class includes the following methods:
 
 - `.compile(pattern, flags)` : Static method that returns a `Pattern` instance based on the given `pattern` and optional `flags`.
 - `.pattern()` : Returns the string pattern with which the instance was compiled.
@@ -57,7 +57,7 @@ Matcher m = pattern.matcher(input)
 
 Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, sub-matches, and their locations in the `input` text.
 
-The `Matcher` class has the following methods:
+The `Matcher` class includes the following methods:
 
 - `.end(group)` : Returns the offset after the last character matched. If optional `int` `group` included, returns the index of the match made by the given subgroup during the last match operation. (Subgroups defined by enclosing parentheses `(...)`)
 - `.find(start)` : Attempts to find the next match in the input. If optional `int` `start` included, resets the `Matcher` instance and finds the next match after the specified index in the input.
@@ -74,5 +74,6 @@ The `Matcher` class has the following methods:
 - `.reset(input)` : Resets this `Matcher` instance. If optional `input` specified, resets with new `input` text.
 - `.start(group)` : Returns the offset of the first character matched. If optional `int` `group` included, returns the index of the match made by the given subgroup during the last match operation. (Subgroups defined by enclosing parentheses `(...)`)
 - `.usePattern(pattern)` : Sets `Matcher` instance to use new `Pattern` instance `pattern`.
-- 
+
+
 
