@@ -33,9 +33,9 @@ Use the `title` attribute to add the meaning of the acronym. It is not required 
   Tomorrow I'll be heading to the Kennedy Space Center to learn about the
   National Aeronautics and Space Administration (NASA). Touring through the
   rockets used in
-  <abbr title="National Aeronautics and Space Administration">NASA</abbr>
+  <acronym title="National Aeronautics and Space Administration">NASA</acronym>
   will be such fun!
 </p>
 ```
   
-![Abbr example](https://raw.githubusercontent.com/Codecademy/docs/main/media/abbr-example.png)
+![Acronym example](https://raw.githubusercontent.com/Codecademy/docs/main/media/abbr-example.png)
