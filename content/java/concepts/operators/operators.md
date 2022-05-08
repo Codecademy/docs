@@ -61,7 +61,7 @@ boolean result = a > b;
 There is also a type comparison operator, `instanceof`. It tests if a given object is an instance of a particular class, subclass, or interface. It will return `false` if the object being compared has a `null` value.
 
 ```java
-class Example{
+class Example {
   public static void main(String args[]){
   Example test = new Example();
   System.out.println(test instanceof Example);
