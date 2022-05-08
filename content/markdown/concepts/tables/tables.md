@@ -17,7 +17,7 @@ A table is an arrangement of data in rows and columns.
 
 To add a table in Markdown, use the vertical line `|` to separate each column, and use three or more dahses `---` to create each column’s header. A vertical line should also be added at either end of the row.
 
-```markdown
+```md
 | Month    | Savings |
 | -------- | ------- |
 | January  | $250    |
@@ -33,10 +33,10 @@ The output would look like:
 | February | $80     |
 | March    | $420    |
 
-Cell widths can vary, as shown below.
+Cell widths can vary, as shown below:
 
 <!-- prettier-ignore -->
-```markdown
+```md
 | Month | Savings |
 | -------- | ------- |
 | January | $250 |
@@ -48,9 +48,9 @@ The output will look exactly the same.
 
 ## Text Alignment
 
-You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
+Align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the dashes `---` within the header row.
 
-```markdown
+```md
 | Item              | In Stock | Price |
 | :---------------- | :------: | ----: |
 | Python Hat        |   True   | 23.99 |
@@ -65,10 +65,17 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 ## Text Formatting
 
-The text can be formatted within tables. For example, you can add links, emphasis, and inline code (words or phrases in backticks only, not code blocks).
+Text can be formatted within tables. For example, links, emphasis, and inline code (words or phrases in backticks only, not code blocks) are all readily available for use within a table.
 
-You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+Several formatting options are not available within tables, including:
+
+- Headings
+- Blockquotes
+- Horizontal rules
+- Images
+- Lists
+- HTML tags
 
 ## Escaping Characters
 
-You can display a vertical line "|" character in a table by using its HTML character code `&#124;`.
+Pipe characters "|" can be displayed in a table with the [HTML character code](https://www.codecademy.com/resources/docs/html/entities) `&#124;`.
