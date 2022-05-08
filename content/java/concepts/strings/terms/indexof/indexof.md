@@ -32,7 +32,7 @@ class FindIndex {
     String greeting = "Hello World";
 
     System.out.println(greeting.indexOf("World"));
-    }
+  }
 }
 ```
 
