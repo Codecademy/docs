@@ -4,7 +4,6 @@ Description: 'Sorts an array into ascending order.'
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Strings'
   - 'Methods'
   - 'Arrays'
 CatalogContent:
