@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-IFrame (Inline Frame) is an HTML document embedded inside another HTML document on a website. It provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. Some sites such as Youtube will provide an iframe for you instead of you needing to make one yourself.
+IFrame (Inline Frame) is an HTML document embedded inside another HTML document on a website. It provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. Some sites such as Youtube will provide iframe markup for you instead of you needing to make one yourself.
 
 These smaller windows are known as "browsing contexts", because the URL passed to the `iframe` element is still functional as a web page. This makes their usage somewhat controversial as many commercial websites have safeguards against their URL being passed to this particular element.
 
