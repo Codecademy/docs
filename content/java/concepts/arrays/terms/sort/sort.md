@@ -22,7 +22,7 @@ Arrays.sort(array)
 Arrays.sort(array,start,end)
 ```
 
-Where `array` is the array being sorted. `start` and `end` indicies can also be specified and the sort will be confined to the given range.
+Where `array` is the array being sorted. `start` and `end` indices can also be specified and the sort will be confined to the given range.
 
 ## Example
 
