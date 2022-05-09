@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-In JavaScript, `Date` objects represent a single moment in time stored as a representation of the number of milliseconds since midnight on January 1st 1970 UTC.
+In JavaScript, `Date` objects represent a single moment in time stored as a representation of the number of milliseconds since midnight on January 1st, 1970 UTC.
 
 **Note:** This is different from a UNIX timestamp, which is the number of seconds since the Epoch (Midnight UTC on January 1st, 1970). Even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone (which may differ from UTC).
 
