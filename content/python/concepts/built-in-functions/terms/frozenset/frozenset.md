@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The built-in `frozenset()` function returns a new frozenset using an optional iterable object objects such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [list](https://www.codecademy.com/resources/docs/python/lists).
+The built-in `frozenset()` function returns a new frozenset using an optional iterable object such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [list](https://www.codecademy.com/resources/docs/python/lists).
 
 Frozensets are a specific type of [set](https://www.codecademy.com/resources/docs/python/sets) that are immutable. Like [tuples](https://www.codecademy.com/resources/docs/python/tuples), their contents are frozen and cannot be changed after creation.
 
@@ -24,7 +24,7 @@ Frozensets are a specific type of [set](https://www.codecademy.com/resources/doc
 frozenset(iterable)
 ```
 
-The `iterable` parameter is optional and must be a hashable object. In nothing is passed into the `frozenset()` function, an empty frozenset is created.
+The `iterable` parameter is optional and must be a hashable object. If nothing is passed into the `frozenset()` function, an empty frozenset is created.
 
 ## Example
 

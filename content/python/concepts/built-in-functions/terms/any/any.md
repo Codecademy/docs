@@ -89,6 +89,7 @@ pokemon = [
   }
 ]
 
+# We'll build out team based on type and level.
 for p in pokemon:
   poison_type = "Poison" in p["type(s)"]
   fire_type = "Fire" in p["type(s)"]
@@ -99,6 +100,7 @@ for p in pokemon:
     fire_type and acceptable_level
   ]
 
+  # Add pokemon to team if poison-/fire-type and is level 25 or higher.
   if any(necessary_to_win_battle):
     add_pokemon_to_team(p["name"])
 

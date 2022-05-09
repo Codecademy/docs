@@ -24,7 +24,7 @@ len(object)
 An `object` passed to the `len()` function is commonly one of the following:
 
 - It can be a sequence such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [tuple](https://www.codecademy.com/resources/docs/python/tuples).
-- It can also be a collection such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), or [set](https://www.codecademy.com/resources/docs/python/set).
+- It can also be a collection such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [set](https://www.codecademy.com/resources/docs/python/set).
 
 ## Example
 
@@ -37,7 +37,7 @@ print(len("Hello, World!"))
 
 ## Codebyte Example
 
-In the example below, the `len()` function is used to return the length of a few collections, including a [list](https://www.codecademy.com/resources/docs/python/lists):
+In the example below, the `len()` function is used to return the length of a string, dictionary, and [list](https://www.codecademy.com/resources/docs/python/lists):
 
 ```codebyte/python
 trainer_name = "Code Ninja"

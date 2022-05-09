@@ -45,6 +45,6 @@ The following output will look like this:
 Use `float()` to create a new float value:
 
 ```codebyte/python
-f = float()
+f = float("1.23")
 print(f)
 ```

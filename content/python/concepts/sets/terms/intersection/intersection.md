@@ -18,13 +18,13 @@ The `.intersection()` method returns a new set with objects that exist inside tw
 
 ## Syntax
 
+The following syntaxes can be used:
+
 ```pseudo
 set.intersection(set1, set2, .., setN)
 
 setA & setB & setC
 ```
-
-The following syntaxes can be used:
 
 - The `.intersection()` method can be called directly against `set` with multiple sets passed as arguments.
 - Optionally, the `&` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between sets `setA`, `setB`, and `setC` where it will return the same result as the `.intersection()` method.
@@ -34,7 +34,7 @@ The following syntaxes can be used:
 In the following example, a set of `mutual_friends` is created with the `.intersection()` method using two sets of friend groups:
 
 ```py
-friend_group_1= {'Juan', 'Mary', 'David', 'Yukiko', 'Alice'}
+friend_group_1 = {'Juan', 'Mary', 'David', 'Yukiko', 'Alice'}
 friend_group_2 = {'Yukiko', 'Peter', 'Juan', 'Alice'}
 
 mutual_friends = friend_group_1.intersection(friend_group_2)

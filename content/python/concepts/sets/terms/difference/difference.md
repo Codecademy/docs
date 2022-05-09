@@ -18,13 +18,13 @@ The `.difference()` method returns a new set of objects unique to a given set wh
 
 ## Syntax
 
+The following syntaxes can be used:
+
 ```pseudo
 set.difference(set1, set2, .., setN)
 
 setA - setB - setC
 ```
-
-The following syntaxes can be used:
 
 - The `.difference()` method can be called directly against `set` with multiple sets passed as arguments.
 - Optionally, the `-` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between sets `setA`, `setB`, and `setC` where it will return the same result as the `.difference()` method.

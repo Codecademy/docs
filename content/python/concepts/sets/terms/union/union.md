@@ -18,11 +18,16 @@ The `.union()` method returns a new set that combines objects from all [sets](ht
 
 ## Syntax
 
+The following syntaxes can be used:
+
 ```pseudo
 set.union(set1, set2, .., setN)
 
 setA | setB | setC
 ```
+
+- The `.union()` method can be called directly against `set` with multiple sets passed as arguments.
+- Optionally, the `|` [operator](https://www.codecademy.com/resources/docs/python/operators) can be used between sets `setA`, `setB`, and `setC` where it will return the same result as the `.union()` method.
 
 ## Example
 
@@ -30,7 +35,7 @@ In the example below, two sets of `liked_artists` are created using two alternat
 
 ```py
 liked_artists_1 = {'Grimes', 'Billie Eilish'}
-liked_artists_2 = set({'Daft Punk', 'Iggy Azalea'})
+liked_artists_2 = {'Daft Punk', 'Iggy Azalea'}
 
 all_likes = liked_artists_1.union(liked_artists_2)
 
