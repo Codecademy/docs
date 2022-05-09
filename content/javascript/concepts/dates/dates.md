@@ -27,7 +27,7 @@ The `dateValue` can be either of the following:
 
 - It can be a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a date that is valid and [IETF-compliant](https://datatracker.ietf.org/doc/html/rfc2822#page-14)
 - It can be another instance of the `Date` class.
-- It can be an integer that represents the date measured in milliseconds since January 1st 1970 UTC.
+- It can be an integer that represents the date measured in milliseconds since January 1st, 1970 UTC.
 
 The defined range for a `Date` value is between April 20, 271821 BCE to September 13, 275760 CE. Individual datetime elements can be defined in the `Date()` constructor with the following syntax:
 
