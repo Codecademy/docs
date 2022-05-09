@@ -26,7 +26,7 @@ It also accepts an optional `time_zone` parameter, which is set to `None` by def
 
 ## Codebyte Example
 
-The current date and time can be retreived and stored in a variable as shown below:
+The current date and time can be retrieved and stored in a variable as shown below:
 
 ```codebyte/python
 import datetime
