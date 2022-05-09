@@ -14,7 +14,7 @@ CatalogContent:
 
 Python has a built-in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify `datetime` objects.
 
-Because the module comes built-in with Python, installation is not required, but we do need to import it at top of a Python file.
+Because the module comes built-in with Python, installation is not required, but we do need to import it at the top of a Python file.
 
 ## Syntax
 
