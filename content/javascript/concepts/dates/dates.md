@@ -54,7 +54,7 @@ With regards to ISO dates:
 
 With regards to short dates:
 
-- It is a best practice to use leading zeroes when referring to single-digit calendar days.
+- It is best practice to use leading zeroes when referring to single-digit calendar days.
 - If using "YYYY-MM-DD" returns `NaN` the alternative format "YYYY/MM/DD" should be tested (and vice versa).
 
 With regards to long dates:
