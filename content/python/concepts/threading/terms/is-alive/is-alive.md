@@ -30,7 +30,7 @@ In the example below, two `print(f'...')` statements are written to show calls t
 import threading
 
 def countdown(count):
-  print(f'Alive? {thread.is_alive()}')
+  print(f'Thread alive? {thread.is_alive()}')
   print("Counting down...")
   while count > 0:
     print(f'{count} left')
@@ -42,8 +42,23 @@ thread = threading.Thread(target=countdown, args=(5,))
 thread.start()
 thread.join()
 
-print(f'Still alive? {thread.is_alive()}')
+print(f'Thread still alive? {thread.is_alive()}')
 print("End of program.")
+```
+
+The output will look like the following:
+
+```shell
+Thread alive? True
+Counting down...
+5 left
+4 left
+3 left
+2 left
+1 left
+We made it!
+Thread still alive? False
+End of program.
 ```
 
 ## Codebyte Example

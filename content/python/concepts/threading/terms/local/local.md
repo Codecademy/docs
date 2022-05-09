@@ -26,7 +26,7 @@ No parameters are used in the `.local()` method.
 
 Additionally, the object returned by `.local()` can be assigned to a variable, which is then stored in memory:
 
-```pseudo
+```py
 import threading
 
 local_thread = threading.local()
