@@ -25,7 +25,7 @@ All of the parameters are optional and default to zero.
 ## Codebyte Example
 
 We can perform different operations on a `datetime` object.
-For example, if we want to add 2 months to a current date, it can be done as below:
+For example, if we want to add 2 months to the current date, it can be done as below:
 
 ```codebyte/python
 import datetime
