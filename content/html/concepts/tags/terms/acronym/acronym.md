@@ -36,5 +36,4 @@ The `title` attribute adds meaning of the acronym. It is not required but, when 
   will be such fun!
 </p>
 ```
-  
 ![Acronym example](https://raw.githubusercontent.com/Codecademy/docs/main/media/abbr-example.png)
