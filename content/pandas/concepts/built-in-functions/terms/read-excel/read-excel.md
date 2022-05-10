@@ -32,7 +32,7 @@ There are many other parameters that are optional or have default settings. Thes
 Some of the more significant parameters are listed here:
 
 | Parameter Name |            Data Type             | Usage                                                                                                                                                            |
-| -------------- | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------: | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `io`           |               str                | Path to the Excel file to import.                                                                                                                                |
 | `sheet_name`   | int,str,list of int, list of str | Worksheet names or indices.                                                                                                                                      |
 | `header`       |      int, list of int, None      | Row number(s) to use as column names.                                                                                                                            |
