@@ -23,7 +23,6 @@ The `<acronym>` was used to highlight acronyms before it was deprecated. The [`<
 ```
   
 The `title` attribute adds meaning of the acronym. It is not required but, when omitted, nothing will happen when it is hovered over.
-  
 ## Example
 ```html
 <p>
