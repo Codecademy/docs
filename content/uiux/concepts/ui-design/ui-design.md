@@ -1,0 +1,41 @@
+---
+Title: 'User Interface (UI) Design' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Description: 'User interface (UI) design is a design discipline focused on the visual design of the interface through which users interact with a product or system.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
+Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+  - 'Web Design'
+Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+  - 'UI'
+  - 'UX'
+CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+  - 'intro-to-ui-ux'
+  - 'paths/front-end-engineer-career-path'
+---
+
+_User interface (UI) design_ is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system. 
+
+UI design considerations include:
+
+* **Layout**: Where do elements appear on the screen?
+* **Colors**: What palette is used and what emotions do those colors evoke? 
+* **Typography**: What typefaces are used and what do they communicate?
+* **Interaction design**: How do elements respond to user interaction?
+* **Brand identity**: How do all of the visual elements come together to represent the brand's vision?
+* **Responsiveness and usability**: Is the interface easy to use across different devices?
+* **[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
+* **[Front-end](https://www.codecademy.com/resources/docs/general/front-end) development**: What is the technical backbone powering the interface?
+
+![Examples of user interfaces on differently sized screens: smartphones, laptops, a large monitor, and a smart watch.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/devices.png)
+
+UI designers are focused on the design of [user interfaces](DOCS LINK), or what will appear on the screen through which a user interacts with a device. This role is most responsible for the [visceral](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design) experience of the product, ensuring it sets its best foot forward and makes a good impression on users. UI designers are usually most involved later in the product development process, with creating the "surface" of the product as described by the [5 Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
+
+![The Five Elements of UX Design, from concrete to abstract: Surface, Skeleton, Structure, Scope, and Strategy, with UX design encompassing the entire process, and UI design focused on the Surface.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/five-elements-of-ux-design.svg)
+
+A day in the life of a UI designer may include:
+
+* Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design
+* Deciding on a color palette for a mobile app
+* Creating a visual style guide for a new sub-brand
+* Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design
+* Communicating with developers about technical design requirements
+
+Both user interface (UI) design and [user experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) are centered on users and ensure that the products and systems are meeting real needs and are as intuitive and pleasant as possible to use.
