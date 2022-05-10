@@ -18,7 +18,6 @@ The `<acronym>` was used to highlight acronyms before it was deprecated. The [`<
   
 ## Syntax
 
-  
 ```html
 <p>A great place to learn to code is <acronym title="Codecademy">CC</acronym><p>
 ```
