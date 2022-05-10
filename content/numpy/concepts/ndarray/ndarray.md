@@ -28,12 +28,12 @@ There are several routines for creating `ndarray` objects. These are preferred t
 | :-------------: | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   `.empty()`    | `numpy.empty(shape,dtype)`           | Creates a `ndarray` of the given `shape` tuple, and the optional `dtype` (default is `numpy.float64`) with uninitalized values.                                                  |
 | `.empty_like()` | `numpy.empty_like(model,dtype)`      | Creates a `ndarray` based on the `shape` of the `model`, with the optional `dtype` (default is data type of `model`) with uninitalized values.                                   |
-|    `.ones()`    | `numpy.ones(shape,dtype)`            | Operates the same as `.empty()`, but initializes all the array elements with a value of one.                                                                                      |
-| `.ones_like()`  | `numpy.ones_like(model,dtype)`       | Operates the same as `.empty_like()`, but initializes all the array elements with a value of one.                                                                                 |
-|   `.zeros()`    | `numpy.zeros(shape,dtype)`           | Operates the same as `.empty()`, but initializes all the array elements with a value of zero.                                                                                     |
-| `.zeros_like()` | `numpy.zeros_like(model,dtype)`      | Operates the same as `.empty_like()`, but initializes all the array elements with a value of zero.                                                                                |
-|    `.full()`    | `numpy.full(shape,value,dtype)`      | Operates the same as `.empty()`, but initializes all the array elements with the specified `value`.                                                                               |
-| `.full_like()`  | `numpy.full_like(model,value,dtype)` | Operates the same as `.empty_like()`, but initializes all the array elements with the specified `value`.                                                                          |
+|    `.ones()`    | `numpy.ones(shape,dtype)`            | Operates the same as `.empty()`, but initializes all the array elements with a value of one.                                                                                     |
+| `.ones_like()`  | `numpy.ones_like(model,dtype)`       | Operates the same as `.empty_like()`, but initializes all the array elements with a value of one.                                                                                |
+|   `.zeros()`    | `numpy.zeros(shape,dtype)`           | Operates the same as `.empty()`, but initializes all the array elements with a value of zero.                                                                                    |
+| `.zeros_like()` | `numpy.zeros_like(model,dtype)`      | Operates the same as `.empty_like()`, but initializes all the array elements with a value of zero.                                                                               |
+|    `.full()`    | `numpy.full(shape,value,dtype)`      | Operates the same as `.empty()`, but initializes all the array elements with the specified `value`.                                                                              |
+| `.full_like()`  | `numpy.full_like(model,value,dtype)` | Operates the same as `.empty_like()`, but initializes all the array elements with the specified `value`.                                                                         |
 |   `.array()`    | `numpy.array(object,dtype)`          | Creates an `ndarray` based on the given `object` (such as a list of lists) with the optional `dtype`. If not specified, the data type will be based on the contents of `object`. |
 
 ### Example
@@ -77,7 +77,7 @@ The standard mathematical [operations](https://www.codecademy.com/resources/docs
 |   `-`    | `numpy.subtract(X,Y)`     | Subtracts arguments, element-wise.                                                  |
 |   `*`    | `numpy.multiply(X,Y)`     | Multiplies arguments, element-wise.                                                 |
 |   `/`    | `numpy.divide(X,Y)`       | Division of arguments, element-wise.                                                |
-|   `**`   | `numpy.power(X,Y)`        | First array raised to powers of second array, element-wise.                          |
+|   `**`   | `numpy.power(X,Y)`        | First array raised to powers of second array, element-wise.                         |
 |   `%`    | `numpy.mod(X,Y)`          | Integer remainder of division, element-wise.                                        |
 |   `//`   | `numpy.floor_divide(X,Y)` | Integer result of division, rounded down, element-wise.                             |
 |   `@`    | `numpy.matmul(X,Y)`       | Matrix multiplication of arguments. (The `@` operator was introduced in Python 3.5) |
