@@ -82,7 +82,7 @@ Specific items can be removed from the `PriorityQueue` with the `.remove()` meth
 
 ### Syntax
 
-```java
+```pseudo
 priorityqueue.remove(item)
 ```
 
