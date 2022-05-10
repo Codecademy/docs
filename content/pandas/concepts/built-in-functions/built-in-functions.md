@@ -1,5 +1,5 @@
 ---
-Title: 'Built in Functions'
+Title: 'Built-in Functions'
 Description: 'Pandas provides a wide variety of built-in functions for data access and manipulation.'
 Subjects:
   - 'Computer Science'
