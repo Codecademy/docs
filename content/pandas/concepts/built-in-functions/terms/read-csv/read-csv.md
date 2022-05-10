@@ -29,7 +29,7 @@ The `filepath_or_buffer` parameter is the path to the CSV file. It can be a path
 Some of the more significant parameters are listed here:
 
 | Parameter Name       |         Data Type          | Usage                                                                                                                                        |
-| :--------------------: | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------: | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `filepath_or_buffer` |            str             | Path to the CSV file to import.                                                                                                              |
 | `sep`                |            str             | Delimiter to use. Values longer than 1 character will be interpreted as Regular Expressions.                                                 |
 | `delimiter`          |            str             | alias for `sep`.                                                                                                                             |
@@ -42,9 +42,14 @@ Some of the more significant parameters are listed here:
 ## Example
 
 ```py
->>> import pandas
->>> df = pandas.read_csv("data.csv")
->>> print(df)
+import pandas
+df = pandas.read_csv("data.csv")
+print(df)
+```
+
+Output will show the contents of the CSV file loaded into the DataFrame:
+
+```shell
   column 1 column 2 column 3
 0        A        B        C
 1        D        E        F
