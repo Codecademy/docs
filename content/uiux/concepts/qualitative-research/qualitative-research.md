@@ -1,6 +1,6 @@
 ---
 Title: 'Qualitative Research'
-Description: 'Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a user's experience.'
+Description: 'Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a users experience.'
 Subjects:
   - 'Web Design'
 Tags:
