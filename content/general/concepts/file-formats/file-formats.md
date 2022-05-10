@@ -22,9 +22,9 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
-| File Format                                                                             | Extension | Description                                                                                                  |
-| :---------------------------------------------------------------------------------------: | :---------: | ------------------------------------------------------------------------------------------------------------ |
-| [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)   | **.csv**  | Contains spreadsheet/table data.                                                                             |
-| PDF (Portable Document Format)                                                          | **.pdf**  | Created to be accessed on many devices and operating system. Contains text and image data.                   |
+|                                       File Format                                       | Extension | Description                                                                                                  |
+| :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
+|  [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)  | **.csv**  | Contains spreadsheet/table data.                                                                             |
+|                             PDF (Portable Document Format)                              | **.pdf**  | Created to be accessed on many devices and operating system. Contains text and image data.                   |
 | [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
-| JPEG (Joint Photographic Experts Group)                                                 | **.jpeg** | Standard use for minimized images.                                                                           |
+|                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
