@@ -22,7 +22,6 @@ The `<acronym>` was used to highlight acronyms before it was deprecated. The [`<
 <p>
   A great place to learn to code is <acronym title="Codecademy">CC</acronym>
 </p>
-<p></p>
 ```
 
 The `title` attribute adds meaning of the acronym. It is not required but, when omitted, nothing will happen when it is hovered over.
