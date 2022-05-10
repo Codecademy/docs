@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<acronym>` was used to highlight acronyms before it was deprecated. Now use the [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) tag instead. When using the tag there will be a dotted underline for the word to signify that it is an acronym.
+The `<acronym>` was used to highlight acronyms before it was deprecated. The [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) tag is used instead. When the tag is used, the acronym will be signified with a dotted underline for the word or phrase.
   
 ## Syntax
 
