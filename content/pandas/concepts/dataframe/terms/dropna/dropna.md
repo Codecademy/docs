@@ -10,8 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.dropna()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with rows or columns removed if they contain `NA` values. The original `DataFrame` object, used to call the method, remains unchanged.
@@ -43,24 +42,40 @@ df = DataFrame.dropna(axis,how)
 
 ## Example
 
+In the following example, the `.dropna()` method is used in two separate instances:
+
 ```py
->>> import pandas as pd
->>> import numpy as np
->>> d = {'col 1' : [1,2,3,np.nan], 'col 2' : ['A','B',np.nan,'D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
->>> df = pd.DataFrame(data = d)
->>> df
+import pandas as pd
+import numpy as np
+
+d = {'col 1' : [1,2,3,np.nan], 'col 2' : ['A','B',np.nan,'D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
+
+df = pd.DataFrame(data = d)
+print(f'Original df:\n{df}\n')
+
+first_dropna = df.dropna()
+print(f'First dropna():\n{first_dropna}\n')
+
+second_dropna = df.dropna('columns')
+print(f'Second dropna(\'columns\'):\n{second_dropna}')
+```
+
+The output from these instances of the `.dropna()` method is shown below:
+
+```shell
+Original df:
    col 1 col 2  col 3 col 4
 0    1.0     A      5     E
 1    2.0     B      6     F
 2    3.0   NaN      7     G
 3    NaN     D      8     H
 
->>> df.dropna()
+After first dropna():
    col 1 col 2  col 3 col 4
 0    1.0     A      5     E
 1    2.0     B      6     F
 
->>> df.dropna('columns')
+After second dropna('columns'):
    col 3 col 4
 0      5     E
 1      6     F

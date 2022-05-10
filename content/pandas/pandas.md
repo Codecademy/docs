@@ -4,7 +4,7 @@ Description: 'Pandas is a popular open-source Python module, used for data analy
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
 [Pandas](https://pandas.pydata.org/) is a popular open-source Python module used for data analysis and manipulation. To use Pandas objects and methods, it will need to be installed first. There are instructions on how to do so on the [Pandas website](https://pandas.pydata.org/docs/getting_started/install.html).

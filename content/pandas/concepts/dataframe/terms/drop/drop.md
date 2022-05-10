@@ -10,8 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.drop()` method returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with rows or columns removed based on column or index names. The original `DataFrame` object, used to call the method, remains unchanged.
@@ -47,26 +46,42 @@ df = DataFrame.drop(names)
 
 ## Example
 
+In the following example, the `.drop()` method is used in two separate instances:
+
 ```py
->>> import pandas as pd
->>> d = {'col 1' : [1,2,3,4], 'col 2' : ['A','B','C','D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
->>> df = pd.DataFrame(data = d)
->>> df
-   col 1 col 2  col 3 col 4
+import pandas as pd
+
+d = {'col 1' : [1,2,3,4], 'col 2' : ['A','B','C','D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
+
+df = pd.DataFrame(data = d)
+print(f"Original df:\n {df}\n")
+
+first_drop = df.drop(columns='col 3')
+print(f"First drop():\n {first_drop}\n")
+
+second_drop = df.drop(2)
+print(f"Second drop():\n {second_drop}")
+```
+
+For the first `.drop()`, the entire third column (`'col 3'`) is removed. With the next `.drop()`, the second row is removed altogether. These instances are reflected in the output below:
+
+```shell
+Original df:
+    col 1 col 2  col 3 col 4
 0      1     A      5     E
 1      2     B      6     F
 2      3     C      7     G
 3      4     D      8     H
 
->>> df.drop(columns='col 3')
-   col 1 col 2 col 4
+After first drop:
+    col 1 col 2 col 4
 0      1     A     E
 1      2     B     F
 2      3     C     G
 3      4     D     H
->>> df.drop(2)
 
-   col 1 col 2  col 3 col 4
+After second drop:
+    col 1 col 2  col 3 col 4
 0      1     A      5     E
 1      2     B      6     F
 3      4     D      8     H

@@ -12,8 +12,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.read_csv()` function takes a path to a CSV file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object.
@@ -43,6 +42,7 @@ Some of the more significant parameters are listed here:
 
 ```py
 import pandas
+
 df = pandas.read_csv("data.csv")
 print(df)
 ```

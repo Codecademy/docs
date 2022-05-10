@@ -10,8 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 A `DataFrame` is the primary object used by the Pandas module to store and manipulate data. It is a structured collection of data arranged in rows and columns, similar to a database table.

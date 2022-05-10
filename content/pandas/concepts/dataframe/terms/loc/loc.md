@@ -10,8 +10,7 @@ Tags:
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science'
 ---
 
 The `.loc` property of the [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object allows the return of specified rows and/or columns from that `DataFrame`. It can do so using a label or label(s), or a boolean array of the same size as the axis being filtered.
@@ -35,30 +34,50 @@ The indices to access can be specified in several ways:
 
 ## Example
 
-The example below creates a DataFrame and uses the `.loc` property to return various combinations of rows and columns.
+The example below creates a DataFrame and uses the `.loc` property to return various combinations of rows and columns:
 
 ```py
->>> import pandas as pd
->>> d = {'col 1' : [1,2,3,4], 'col 2' : ['A','B','C','D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
->>> df = pd.DataFrame(data = d)
->>> df
+import pandas as pd
+
+d = {'col 1' : [1,2,3,4], 'col 2' : ['A','B','C','D'], 'col 3' : [5,6,7,8], 'col 4' : ['E','F','G','H']}
+
+df = pd.DataFrame(data = d)
+print(f'Original df:\n{df}\n')
+
+first_loc = df.loc[:,'col 3']
+print(f'First .loc:\n{first_loc}\n')
+
+second_loc = df.loc[:2]
+print(f'Second .loc:\n{second_loc}\n')
+
+third_loc = df.loc[[0,3],'col 2':]
+print(f'Third .loc:\n{third_loc}')
+```
+
+This will print the following:
+
+```shell
+Original df:
    col 1 col 2  col 3 col 4
 0      1     A      5     E
 1      2     B      6     F
 2      3     C      7     G
 3      4     D      8     H
->>> print(df.loc[:,'col 3'])
+
+First .loc:
 0    5
 1    6
 2    7
 3    8
 Name: col 3, dtype: int64
->>> print(df.loc[:2])
+
+Second .loc:
    col 1 col 2  col 3 col 4
 0      1     A      5     E
 1      2     B      6     F
 2      3     C      7     G
->>> print(df.loc[[0,3],'col 2':])
+
+Third .loc:
   col 2  col 3 col 4
 0     A      5     E
 3     D      8     H
