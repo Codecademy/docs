@@ -10,7 +10,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/front-end-engineer-career-path'
 ---
 
-An X coordinate and a Y coordinate indicate the location of a point along the X-axis (horizontal) and Y-axis (vertical). 
+An X coordinate and a Y coordinate indicate the location of a point along the X-axis (horizontal) and Y-axis (vertical).
 
 In design software, X and Y coordinates reflect the layer’s location on the canvas. If a layer is inside a frame, the coordinates represent its position within the frame.
 
