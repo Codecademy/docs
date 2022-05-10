@@ -24,6 +24,8 @@ Use the `title` attribute to add the meaning of the acronym. It is not required 
 <p>A great place to learn to code is <acronym title="Codecademy">CC</acronym><p>
 ```
   
+The `title` attribute adds meaning of the acronym. It is not required but, when omitted, nothing will happen when it is hovered over.
+  
 ## Example
   
 ```html
