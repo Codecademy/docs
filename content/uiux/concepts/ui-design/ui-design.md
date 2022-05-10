@@ -1,12 +1,12 @@
 ---
-Title: 'User Interface (UI) Design' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'User interface (UI) design is a design discipline focused on the visual design of the interface through which users interact with a product or system.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'User Interface (UI) Design'
+Description: 'User interface (UI) design is a design discipline focused on the visual design of the interface through which users interact with a product or system.'
+Subjects:
   - 'Web Design'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'UI'
   - 'UX'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
 ---
