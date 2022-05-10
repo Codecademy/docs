@@ -32,7 +32,7 @@ There are many other parameters that are optional or have default settings. Thes
 Some of the more significant parameters are listed here:
 
 | Parameter Name |            Data Type             | Usage                                                                                                                                                            |
-| :--------------: | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------: | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `io`           |               str                | Path to the Excel file to import.                                                                                                                                |
 | `sheet_name`   | int,str,list of int, list of str | Worksheet names or indices.                                                                                                                                      |
 | `header`       |      int, list of int, None      | Row number(s) to use as column names.                                                                                                                            |
@@ -43,9 +43,14 @@ Some of the more significant parameters are listed here:
 ## Example
 
 ```py
->>> import pandas
->>> df = pandas.read_excel("data.xlsx")
->>> print(df)
+import pandas
+df = pandas.read_excel("data.xlsx")
+print(df)
+```
+
+Output will show the contents of the Excel file loaded into the DataFrame:
+
+```shell
   column 1 column 2 column 3
 0        A        B        C
 1        D        E        F
