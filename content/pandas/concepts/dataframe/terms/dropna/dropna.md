@@ -35,7 +35,7 @@ df = DataFrame.dropna(axis,how)
 `DataFrame.dropna()` has the following parameters:
 
 | Parameter Name | Data Type                | Usage                                                                                                 |
-| -------------- | ------------------------ | ----------------------------------------------------------------------------------------------------- |
+| :--------------: | ------------------------ | ----------------------------------------------------------------------------------------------------- |
 | `axis`         | 0/1 or 'index'/'columns' | Specifies dropping to columns or rows (indices). Defaults to `0`.                                     |
 | `how`          | 'any' or 'all'           | Specified dropping when any value is `NA` or if all values are `NA`                                   |
 | `subset`       | column label or sequence | Specifies labels to check for `NA` values along other axis. (i.e. columns to check if dropping rows.) |
