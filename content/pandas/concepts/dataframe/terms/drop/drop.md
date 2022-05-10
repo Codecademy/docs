@@ -36,7 +36,7 @@ df = DataFrame.drop(names)
 `DataFrame.drop()` has the following parameters:
 
 | Parameter Name | Data Type                | Usage                                                                                                                             |
-| -------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------: | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | `labels`       | single label or list     | The labels to drop from columns or index as specified by `axis`.                                                                  |
 | `axis`         | 0/1 or 'index'/'columns' | Specifies if `labels` refers to columns or indices. Defaults to `0`.                                                              |
 | `index`        | single label or list     | Specifies index labels to drop. Ignores `axis`.                                                                                   |
