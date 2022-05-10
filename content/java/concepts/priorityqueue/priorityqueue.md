@@ -29,7 +29,7 @@ PriorityQueue<DataType> q = new PriorityQueue<DataType>();
 
 `CustomComparator` is a custom `Comparator` for `DataType` or a parent class of `DataType`. The following syntax sets a `CustomComparator` to a `PriorityQueue`:
 
-```java
+```pseudo
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
