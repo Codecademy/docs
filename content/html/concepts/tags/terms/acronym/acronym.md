@@ -15,7 +15,6 @@ CatalogContent:
 ---
 
 The `<acronym>` was used to highlight acronyms before it was deprecated. The [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) tag is used instead. When the tag is used, the acronym will be signified with a dotted underline for the word or phrase.
-  
 ## Syntax
 
 ```html
