@@ -29,7 +29,7 @@ The `filepath_or_buffer` parameter is the path to the CSV file. It can be a path
 Some of the more significant parameters are listed here:
 
 | Parameter Name       |         Data Type          | Usage                                                                                                                                        |
-| -------------------- | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------------: | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `filepath_or_buffer` |            str             | Path to the CSV file to import.                                                                                                              |
 | `sep`                |            str             | Delimiter to use. Values longer than 1 character will be interpreted as Regular Expressions.                                                 |
 | `delimiter`          |            str             | alias for `sep`.                                                                                                                             |
