@@ -13,8 +13,6 @@ CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
-  
-## `<acronym>` tag
 
 The `<acronym>` was used to highlight acronyms before it was deprecated. Now use the [`<abbr>`](https://www.codecademy.com/resources/docs/html/tags/abbr) tag instead. When using the tag there will be a dotted underline for the word to signify that it is an acronym.
   
