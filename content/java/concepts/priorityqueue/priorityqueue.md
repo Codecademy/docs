@@ -18,7 +18,7 @@ A `PriorityQueue` is an implementation of the [`Queue`](https://www.codecademy.c
 
 `PriorityQueue` is a member of the `java.util` package which must be imported first.
 
-```java
+```pseudo
 import java.util.PriorityQueue;
 
 PriorityQueue<DataType> q = new PriorityQueue<DataType>();
