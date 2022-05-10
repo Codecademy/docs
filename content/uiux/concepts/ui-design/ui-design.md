@@ -11,18 +11,18 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'paths/front-end-engineer-career-path'
 ---
 
-_User interface (UI) design_ is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system. 
+_User interface (UI) design_ is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.
 
 UI design considerations include:
 
-* **Layout**: Where do elements appear on the screen?
-* **Colors**: What palette is used and what emotions do those colors evoke? 
-* **Typography**: What typefaces are used and what do they communicate?
-* **Interaction design**: How do elements respond to user interaction?
-* **Brand identity**: How do all of the visual elements come together to represent the brand's vision?
-* **Responsiveness and usability**: Is the interface easy to use across different devices?
-* **[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
-* **[Front-end](https://www.codecademy.com/resources/docs/general/front-end) development**: What is the technical backbone powering the interface?
+- **Layout**: Where do elements appear on the screen?
+- **Colors**: What palette is used and what emotions do those colors evoke?
+- **Typography**: What typefaces are used and what do they communicate?
+- **Interaction design**: How do elements respond to user interaction?
+- **Brand identity**: How do all of the visual elements come together to represent the brand's vision?
+- **Responsiveness and usability**: Is the interface easy to use across different devices?
+- **[Accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) and [inclusivity](https://www.codecademy.com/resources/docs/uiux/inclusive-design)**: Does the interface work for everyone?
+- **[Front-end](https://www.codecademy.com/resources/docs/general/front-end) development**: What is the technical backbone powering the interface?
 
 ![Examples of user interfaces on differently sized screens: smartphones, laptops, a large monitor, and a smart watch.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/devices.png)
 
@@ -32,10 +32,10 @@ UI designers are focused on the design of [user interfaces](DOCS LINK), or what 
 
 A day in the life of a UI designer may include:
 
-* Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design
-* Deciding on a color palette for a mobile app
-* Creating a visual style guide for a new sub-brand
-* Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design
-* Communicating with developers about technical design requirements
+- Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design
+- Deciding on a color palette for a mobile app
+- Creating a visual style guide for a new sub-brand
+- Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design
+- Communicating with developers about technical design requirements
 
 Both user interface (UI) design and [user experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) are centered on users and ensure that the products and systems are meeting real needs and are as intuitive and pleasant as possible to use.
