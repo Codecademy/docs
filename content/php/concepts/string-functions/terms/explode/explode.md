@@ -43,7 +43,7 @@ The `$delimiter` has the following behaviors:
 
 The following shows three examples of the `explode()` function operating on one comma-delimited string.
 
-```codebyte\php
+```codebyte/php
 <?php
   $str = "list,of,comma,delimited,strings,";
   $strarr1 = explode(",",$str);
