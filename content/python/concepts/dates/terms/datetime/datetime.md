@@ -17,7 +17,7 @@ The `.datetime()` method returns a new object with date and time properties.
 ## Syntax
 
 ```pseudo
-datetime.datetime(YYYY, M, D, hh, mm, ss)
+datetime.datetime(YYYY, MM, DD, hh, mm, ss)
 ```
 
 The following parameters must be valid when passed into the `.datetime()` method:
