@@ -36,7 +36,7 @@ class FindIndex {
 }
 ```
 
-This outputs:
+This outputs the following:
 
 ```shell
 6
