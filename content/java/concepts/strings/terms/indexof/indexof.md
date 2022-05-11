@@ -15,7 +15,7 @@ The `.indexOf()` method returns the zero-indexed position of the first occurrenc
 
 ## Syntax
 
-```java
+```pseudo
 string.indexOf(str, index)
 ```
 
