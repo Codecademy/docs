@@ -29,7 +29,7 @@ The following example finds the position of the string "World" in "Hello World!"
 ```java
 class FindIndex {
   public static void main(String[] args) {
-    String greeting = "Hello World";
+    String greeting = "Hello World!";
 
     System.out.println(greeting.indexOf("World"));
   }
