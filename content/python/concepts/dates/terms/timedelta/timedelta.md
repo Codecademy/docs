@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `datetime.timedelta()` method returns an object representing a duration, resolved to microseconds, that occurs between [`date`](https://www.codecademy.com/resources/docs/python/dates/date)s, [`time`](https://www.codecademy.com/resources/docs/python/dates/time)s, and [`datetime`](https://www.codecademy.com/resources/docs/python/dates/datetime)s.
+The `datetime.timedelta()` method returns an object representing a duration, resolved to microseconds, that occurs between [`date`s](https://www.codecademy.com/resources/docs/python/dates/date), [`time`s](https://www.codecademy.com/resources/docs/python/dates/time), and [`datetime`s](https://www.codecademy.com/resources/docs/python/dates/datetime).
 
 ## Syntax
 
