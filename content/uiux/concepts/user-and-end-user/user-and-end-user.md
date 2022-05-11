@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The _user_ refers broadly to anyone who may use or maintain a product, and could include people such as system administrators, IT experts, and computer technicians. 
+The _user_ refers broadly to anyone who may use or maintain a product, and could include people such as system administrators, IT experts, and computer technicians.
 
 The _end-user_ is the person ultimately intended to use a product, who may not have the technical know-how or skill of the product’s administrators or designers.
 
