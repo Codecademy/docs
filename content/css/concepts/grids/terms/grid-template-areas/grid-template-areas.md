@@ -22,9 +22,11 @@ This property is collectively used with [`grid-template-columns`](https://www.co
 .item-one {
   grid-area: nav;
 }
+
 .item-two {
   grid-area: main;
 }
+
 .item-three {
   grid-area: footer;
 }
@@ -38,7 +40,7 @@ This property is collectively used with [`grid-template-columns`](https://www.co
 }
 ```
 
-Each grid item can be assigned a name with the `grid-area` property. Then, the `grid-template-areas` utilizes these areas in the grid container. For this properties to work, `display: grid` must be set in the `.grid-container`.
+Each grid item can be assigned a name with the `grid-area` property. Then, the `grid-template-areas` utilizes these areas in the grid container. For these properties to work, `display: grid` must be set in the `.grid-container`.
 
 ![CSS grid-template-areas Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area.png)
 
@@ -51,14 +53,17 @@ By using `grid-template-areas`, it is not required to specify anything on the in
   grid-area: nav;
   background-color: lightpink;
 }
+
 .item-two {
   grid-area: main;
   background-color: lightblue;
 }
+
 .item-three {
   grid-area: footer;
   background-color: lightgreen;
 }
+
 .item-four {
   grid-area: sidebar;
   background-color: lightsalmon;
@@ -89,14 +94,17 @@ In the example above, each of the areas spans multiple grid cells and this can b
   grid-area: nav;
   background-color: lightpink;
 }
+
 .item-two {
   grid-area: main;
   background-color: lightblue;
 }
+
 .item-three {
   grid-area: footer;
   background-color: lightgreen;
 }
+
 .item-four {
   grid-area: sidebar;
   background-color: lightsalmon;
@@ -118,4 +126,4 @@ In the example above, each of the areas spans multiple grid cells and this can b
 
 ![CSS grid-template-areas Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/grid-template-area-example-2.png)
 
-Grid cells can also be left empty with a period `.` instead of white space or names. As long as there is no white space between them, one or more periods can be used for the empty cell.
+Grid cells can also be left empty with a period `.` instead of white spaces or names. As long as there is no white space between them, one or more period(s) can be used for the empty cell.
