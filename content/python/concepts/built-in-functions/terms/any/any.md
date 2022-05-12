@@ -59,6 +59,7 @@ In the example below, a team of Pokemon are created in preparation for a battle.
 ```codebyte/python
 my_team = []
 
+# Function to add pokemon to array
 def add_pokemon_to_team(pokemon):
   my_team.append(pokemon)
 
