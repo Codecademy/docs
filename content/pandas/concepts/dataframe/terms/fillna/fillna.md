@@ -25,13 +25,13 @@ df = DataFrame.dropna(value)
 
 `.fillna()` has the following parameters:
 
-| Parameter Name | Data Type                | Usage                                                                                                 |
-| :------------: | ------------------------ | ----------------------------------------------------------------------------------------------------- |
-| `value` | scalar, dict, Series, Dataframe | Value used to fill holes. A scalar or a dict/Series/DataFrame specifying replacement values for each column. |
-| `method` | 'backfill','bfill','pad','ffill',`None` | 'backfill'/'bfill' fills holes with next valid observation. 'pad'/'ffill' fills holes with last valid observation. |
-| `axis` | 0/1 or 'index'/'columns' | Axis along witch to fill missing values. |                                     
-| `inplace` | bool | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.      |
-| `limit` | int | Maximum consecutive items to back/forward fill. Defaults to `None` |
+| Parameter Name | Data Type                               | Usage                                                                                                              |
+| :------------: | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+|    `value`     | scalar, dict, Series, Dataframe         | Value used to fill holes. A scalar or a dict/Series/DataFrame specifying replacement values for each column.       |
+|    `method`    | 'backfill','bfill','pad','ffill',`None` | 'backfill'/'bfill' fills holes with next valid observation. 'pad'/'ffill' fills holes with last valid observation. |
+|     `axis`     | 0/1 or 'index'/'columns'                | Axis along witch to fill missing values.                                                                           |
+|   `inplace`    | bool                                    | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                   |
+|    `limit`     | int                                     | Maximum consecutive items to back/forward fill. Defaults to `None`                                                 |
 
 ## Example
 
@@ -77,6 +77,3 @@ After second fillna():
 2    3.0     X    7.0     G
 3    0.0     D    8.0     H
 ```
-
-
-
