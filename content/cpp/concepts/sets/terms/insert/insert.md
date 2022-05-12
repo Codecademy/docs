@@ -40,7 +40,7 @@ int main(){
   grades.insert(2);
   grades.insert(101);
 
-  // Print out set
+  // Print set
   std::set<int> :: iterator iter;
   for(iter = grades.begin(); iter != grades.end(); iter++){
     std::cout<< *iter << " ";
