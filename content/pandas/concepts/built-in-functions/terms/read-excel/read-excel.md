@@ -30,14 +30,14 @@ There are many other parameters that are optional or have default settings. Thes
 
 Some of the more significant parameters are listed here:
 
-| Parameter Name |            Data Type             | Usage                                                                                                                                                            |
-| :------------: | :------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|      `io`      |               str                | Path to the Excel file to import.                                                                                                                                |
+| Parameter Name |             Data Type              | Usage                                                                                                                                                            |
+| :------------: | :--------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      `io`      |                str                 | Path to the Excel file to import.                                                                                                                                |
 |  `sheet_name`  | int, str, list of int, list of str | Worksheet names or indices.                                                                                                                                      |
-|    `header`    |      int, list of int, None      | Row number(s) to use as column names.                                                                                                                            |
-|    `names`     |            array-like            | List of column names to use.                                                                                                                                     |
-|   `usecols`    |      list-like or callable       | Excel column letters or ranges, or column numbers, or column names to import, If callable, uses columns where the name passed to the callable results in `True`. |
-|   `skiprows`   |    list-like, int, or callable    | Initial lines to skip (int) or line numbers to skip (list). Or callable that returns `True` when the row number passed to it should be skipped.                  |
+|    `header`    |       int, list of int, None       | Row number(s) to use as column names.                                                                                                                            |
+|    `names`     |             array-like             | List of column names to use.                                                                                                                                     |
+|   `usecols`    |       list-like or callable        | Excel column letters or ranges, or column numbers, or column names to import. If callable, uses columns where the name passed to the callable results in `True`. |
+|   `skiprows`   |    list-like, int, or callable     | Initial lines to skip (int) or line numbers to skip (list). Or callable that returns `True` when the row number passed to it should be skipped.                  |
 
 ## Example
 
