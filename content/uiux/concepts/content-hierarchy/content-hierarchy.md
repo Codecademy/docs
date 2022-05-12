@@ -11,8 +11,8 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/front-end-engineer-career-path'
 ---
 
-Content hierarchy is established by giving precedence and priority to certain content within a digital interface. 
+Content hierarchy is established by giving precedence and priority to certain content within a digital interface.
 
-The type of content (i.e. [image](https://www.codecademy.com/resources/docs/uiux/images), [text](https://www.codecademy.com/resources/docs/uiux/text), [buttons](https://www.codecademy.com/resources/docs/uiux/buttons), etc.), where it is placed, and how it is presented, are some factors that help establish content hierarchy. 
+The type of content (i.e. [image](https://www.codecademy.com/resources/docs/uiux/images), [text](https://www.codecademy.com/resources/docs/uiux/text), [buttons](https://www.codecademy.com/resources/docs/uiux/buttons), etc.), where it is placed, and how it is presented, are some factors that help establish content hierarchy.
 
 Content hierarchy can be established by adjusting the size and page position of elements. For example, content with greater priority is often larger in size and towards the top of a page, whereas lesser priority content is smaller and towards the bottom of a page.

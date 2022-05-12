@@ -17,8 +17,8 @@ High-fidelity prototypes, for example, are used to work through more granular qu
 
 High-fidelity prototypes help answer questions like:
 
-* Are stylistic elements such as typeface, font size, and font color legible and appropriate?
-* Is the color scheme well-aligned to the brand or product?
-* Does the page design and style guide meet accessibility standards?
-* Does a particular tagline work alongside a particular image?
-* Does this video or image thumbnail work well and draw attention within the context of the page?
+- Are stylistic elements such as typeface, font size, and font color legible and appropriate?
+- Is the color scheme well-aligned to the brand or product?
+- Does the page design and style guide meet accessibility standards?
+- Does a particular tagline work alongside a particular image?
+- Does this video or image thumbnail work well and draw attention within the context of the page?

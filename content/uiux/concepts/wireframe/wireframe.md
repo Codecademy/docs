@@ -11,9 +11,9 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/front-end-engineer-career-path'
 ---
 
-A wireframe is a low-fidelity representation of a digital interface that defines the content layout and page elements. 
+A wireframe is a low-fidelity representation of a digital interface that defines the content layout and page elements.
 
-Wireframes are meant to show an idea, or proof of concept, without investing too much time and resources. Wireframes can be sketched or created in [design software](https://www.codecademy.com/resources/docs/uiux/design-software) (such as [Figma](https://www.figma.com/) and [AdobeXD](https://www.adobe.com/products/xd.html)). It is important to remember that when creating wireframes not to dwell on cosmetic elements like [font](https://www.codecademy.com/resources/docs/uiux/text-properties), colors, [imagery](https://www.codecademy.com/resources/docs/uiux/images), and even accurate spacing. 
+Wireframes are meant to show an idea, or proof of concept, without investing too much time and resources. Wireframes can be sketched or created in [design software](https://www.codecademy.com/resources/docs/uiux/design-software) (such as [Figma](https://www.figma.com/) and [AdobeXD](https://www.adobe.com/products/xd.html)). It is important to remember that when creating wireframes not to dwell on cosmetic elements like [font](https://www.codecademy.com/resources/docs/uiux/text-properties), colors, [imagery](https://www.codecademy.com/resources/docs/uiux/images), and even accurate spacing.
 
 ![Example of a wireframe concept and the live implementation of the Codecademy's sign up page.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/wireframe.png)
 
