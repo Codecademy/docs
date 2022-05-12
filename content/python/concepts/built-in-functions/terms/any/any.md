@@ -92,7 +92,7 @@ pokemon = [
   }
 ]
 
-# We'll build out team based on type and level.
+# Build team based on type and level.
 for p in pokemon:
   poison_type = "Poison" in p["type(s)"]
   fire_type = "Fire" in p["type(s)"]
