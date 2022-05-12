@@ -57,6 +57,7 @@ False
 In the example below, a team of Pokemon are created in preparation for a battle. They are selected based on various properties such as `"level"` and `"type(s)"`. The `any()` function is ultimately used to pick out the Pokemon that meet that criteria:
 
 ```codebyte/python
+# Declare empty array
 my_team = []
 
 # Function to add pokemon to array
