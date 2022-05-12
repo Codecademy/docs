@@ -48,7 +48,7 @@ df = pandas.read_excel("data.xlsx")
 print(df)
 ```
 
-Output will show the contents of the Excel file loaded into the DataFrame:
+The output will show the contents of the Excel file loaded into the DataFrame:
 
 ```shell
   column 1 column 2 column 3
