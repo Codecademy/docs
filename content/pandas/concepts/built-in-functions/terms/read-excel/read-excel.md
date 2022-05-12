@@ -22,7 +22,7 @@ The `.read_excel()` function takes a path to an Excel file and reads the data in
 pandas.read_excel(io, sheet_name)
 ```
 
-The `io` parameter is the path to the Excel file. It can be a path on the local machine, or a valid URL. It is the first parameter of the function, and can be used by itself.
+The `io` parameter is the path to the Excel file. It can be a path on the local machine or a valid URL. It is the first parameter of the function and can be used by itself.
 
 The second parameter `sheet_name` specifies the worksheet(s) to import. It can be a string, or list of strings to specify worksheet names, or it can be an integer or list of integers to specify zero-indexed sheet positions. (Chart sheets are ignored for this purpose.) Specifying `None` will retrieve all worksheets. The default is `0`.
 
