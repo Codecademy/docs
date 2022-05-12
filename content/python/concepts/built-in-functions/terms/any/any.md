@@ -103,7 +103,7 @@ for p in pokemon:
     fire_type and acceptable_level
   ]
 
-  # Add pokemon to team if poison-/fire-type and is level 25 or higher.
+  # Add pokemon of poison-/fire-type and level 25 or higher.
   if any(necessary_to_win_battle):
     add_pokemon_to_team(p["name"])
 
