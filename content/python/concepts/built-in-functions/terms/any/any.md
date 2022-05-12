@@ -62,6 +62,7 @@ my_team = []
 def add_pokemon_to_team(pokemon):
   my_team.append(pokemon)
 
+# Array of pokemon
 pokemon = [
   {
     "name": "Magikarp",
