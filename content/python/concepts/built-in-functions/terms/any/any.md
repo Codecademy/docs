@@ -57,14 +57,14 @@ False
 In the example below, a team of Pokemon are created in preparation for a battle. They are selected based on various properties such as `"level"` and `"type(s)"`. The `any()` function is ultimately used to pick out the Pokemon that meet that criteria:
 
 ```codebyte/python
-# Declare empty array
+# Declare empty array.
 my_team = []
 
-# Function to add pokemon to array
+# Add pokemon to array with function.
 def add_pokemon_to_team(pokemon):
   my_team.append(pokemon)
 
-# Array of pokemon
+# Create array of pokemon objects.
 pokemon = [
   {
     "name": "Magikarp",
@@ -103,9 +103,10 @@ for p in pokemon:
     fire_type and acceptable_level
   ]
 
-  # Add pokemon of poison-/fire-type and level 25 or higher.
+  # Add pokemon of poison-/fire-types and level 25 or above.
   if any(necessary_to_win_battle):
     add_pokemon_to_team(p["name"])
 
+# Print the array of pokemon that qualify for battle.
 print(my_team)
 ```
