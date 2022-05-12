@@ -22,7 +22,7 @@ The built-in `float()` function returns a float value based on a [string](https:
 float(num_string)
 ```
 
-The `num_string` parameter is optional and should either be string or numeric type.
+The `num_string` parameter is optional and should either be a string or numeric type.
 
 ## Example
 
