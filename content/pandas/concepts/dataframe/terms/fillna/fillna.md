@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.fillna()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object `NA` values replaced with a specified value. The original `DataFrame` object, used to call the method, remains unchanged.
+The `.fillna()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with `NA` values replaced with a specified value. The original `DataFrame` object, used to call the method, remains unchanged.
 
 ## Syntax
 
