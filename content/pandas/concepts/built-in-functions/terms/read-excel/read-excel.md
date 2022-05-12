@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.read_excel()` function takes a path to a Excel file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object.
+The `.read_excel()` function takes a path to an Excel file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object.
 
 ## Syntax
 
