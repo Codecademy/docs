@@ -1,6 +1,6 @@
 ---
 Title: 'Fill'
-Description: **Fill** refers to the color or image that is applied within a layer’s bounds.  
+Description: '**Fill** refers to the color or image that is applied within a layer’s bounds.'  
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!

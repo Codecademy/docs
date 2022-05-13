@@ -1,6 +1,6 @@
 ---
 Title: 'Opacity'
-Description: **Opacity** correlates to transparency or the amount of light that passes through an object.   
+Description: '**Opacity** correlates to transparency or the amount of light that passes through an object.'   
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!

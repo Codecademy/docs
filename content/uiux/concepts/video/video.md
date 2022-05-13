@@ -1,6 +1,6 @@
 ---
 Title: 'Video'
-Description: A **video** is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images. 
+Description: 'A **video** is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images.' 
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!

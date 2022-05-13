@@ -1,6 +1,6 @@
 ---
 Title: 'Text Properties'
-Description: **Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment. 
+Description: '**Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment.' 
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!

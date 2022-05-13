@@ -1,6 +1,6 @@
 ---
 Title: 'Text'
-Description: **Text** refers to written content that consists of letters, numbers, punctuation, or symbols.
+Description: '**Text** refers to written content that consists of letters, numbers, punctuation, or symbols.'
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
