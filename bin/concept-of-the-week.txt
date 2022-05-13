@@ -1,1 +1,1 @@
-content/javascript/concepts/arrays/arrays.md
+content/java/concepts/loops/loops.md
