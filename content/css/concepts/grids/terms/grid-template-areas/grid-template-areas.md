@@ -35,7 +35,7 @@ This property is collectively used with [`grid-template-columns`](https://www.co
   display: grid;
   grid-template-areas:
     'nav     nav    nav'
-    'main   main   main'
+    'main    main   main'
     'footer footer footer';
 }
 ```
