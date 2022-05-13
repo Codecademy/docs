@@ -33,5 +33,5 @@ The following example creates a dictionary, then retrieves some values for keys 
 d = {1:'one', 2:'two', 3:'three'}
 print(d.get(3))
 print(d.get(4))
-print(d.get(4,'empty'))
+print(d.get(4, 'empty'))
 ```
