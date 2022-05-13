@@ -8,6 +8,7 @@ Tags:
   - 'Files'
   - 'Types'
 CatalogContent:
+  - 'learn-the-command-line'
   - 'paths/code-foundations'
   - 'paths/computer-science'
 ---
@@ -25,6 +26,6 @@ File formats exist for different types of files. Some common file types and form
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
 |  [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)  | **.csv**  | Contains spreadsheet/table data.                                                                             |
-|                             PDF (Portable Document Format)                              | **.pdf**  | Created to be accessed on many devices and operating system. Contains text and image data.                   |
+|                             PDF (Portable Document Format)                              | **.pdf**  | Created to be accessed on many devices and operating systems. Contains text and image data.                   |
 | [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
 |                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
