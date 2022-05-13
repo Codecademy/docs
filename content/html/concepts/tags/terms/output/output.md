@@ -41,12 +41,18 @@ The example form below features an output element displaying the slider value mu
   <head> </head>
   <body>
     <form
-      oninput="result.value=parseInt(sliderInput.value)*2"
+      oninput="result.value=parseInt(sliderInput.value)*2; document.querySelector('span').innerText=sliderInput.value"
       id="calculation-form"
     >
+      <label for="slideInput" id="sliderValue">
+        Slider Value: <span> </span>
+      </label>
       <input name="sliderInput" type="range" value="0" />
-      <output name="result" for="sliderInput" form="calculation-form"></output>
+      <label for="result"> Output (Slider value * 2): </label>
+      <output name="result" for="sliderInput" form="calculation-form"> </output>
     </form>
   </body>
 </html>
 ```
+
+![Example of what the rendered text would look like](https://raw.githubusercontent.com/Codecademy/docs/main/media/output-tag.gif)
