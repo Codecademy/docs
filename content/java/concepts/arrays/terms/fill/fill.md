@@ -16,9 +16,9 @@ The `.fill()` method of the `Arrays` class fills a given array with a given valu
 ## Syntax
 
 ```java
-Arrays.fill(array,value)
+Arrays.fill(array, value)
 
-Arrays.fill(array,start,end,value)
+Arrays.fill(array, start, end, value)
 ```
 
 here `array` is the array being filled and `value` is the value beeing filled in the array. `start` and `end` indices can also be specified and the fill will be confined to the given range.
@@ -32,8 +32,8 @@ import java.util.*;
 
 public class Example {
     public static void main(String args[]) {
-      String[] a = {"one","two","three","four","five","six"};
-      Arrays.fill(a,1,5,"zero");
+      String[] a = {"one", "two", "three", "four", "five", "six"};
+      Arrays.fill(a, 1, 5, "zero");
       for (int i = 0; i < 6; i++) {
         System.out.println(a[i]);
        }
