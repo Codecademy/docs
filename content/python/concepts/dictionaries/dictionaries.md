@@ -129,4 +129,4 @@ nums_squared = { num: num**2 for num in nums_list }
 
 `nums_squared` will produce a result of: `{ 1: 1, 2: 4, 3: 9, 4: 16, 5: 25 }`
 
-The following built-in methods listed below help with manipulating dictionaries and the objects within>
+The following built-in methods listed below help with manipulating dictionaries and the objects within:
