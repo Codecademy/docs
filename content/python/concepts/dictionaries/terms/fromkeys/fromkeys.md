@@ -30,6 +30,6 @@ The following example creates a new dictionary with an initial value for each ke
 ```codebyte/python
 keylist = ('A','B','C','D')
 value = 0
-d = dict.fromkeys(keylist,value)
+d = dict.fromkeys(keylist, value)
 print(d)
 ```
