@@ -28,9 +28,9 @@ Where `key` is the key of the value to return. If `key` does not exist in `dicti
 The following example creates a dictionary, then uses `.setdefault()` to return values from it:
 
 ```codebyte/python
-d = {1:'one',2:'two',3:'three'}
+d = {1:'one', 2:'two', 3:'three'}
 print(d.setdefault(3))
-print(d.setdefault(4,'four'))
+print(d.setdefault(4, 'four'))
 print(d.setdefault(5))
 print(d)
 ```
