@@ -31,7 +31,7 @@ If `subpos` and `sublen` aren't specified, the entire `str` is used for the repl
 
 ## Codebyte Example
 
-The following replaces a portion of a base string with a portion of another string:
+The following example replaces a portion of a base string with a portion of another string:
 
 ```codebyte/cpp
 #include <iostream>
