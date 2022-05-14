@@ -41,9 +41,9 @@ int main()
 {
     std::string base="this is a test string.";
     std::string repl="replacement string.";
-    
+
     std::cout << base.replace(10,4,repl,0,11) << '\n';
-    
+
     return 0;
 }
 ```
