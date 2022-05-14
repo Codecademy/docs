@@ -18,10 +18,10 @@ The `.fillna()` function returns a new [`DataFrame`](https://www.codecademy.com/
 ## Syntax
 
 ```pseudo
-df = DataFrame.dropna(value)
+df = dataframevalue.fillna(value)
 ```
 
-`value` is the value used to fill holes. It can be a scalar such as `0`, or it can be a DataFrame specifying replacement values for each column. Column labels not in `value` won't be filled.
+`dataframevalue` is the DataFrame with the source data and `value` is the value used to fill holes. `value` can be a scalar such as `0`, or it can be a DataFrame specifying replacement values for each column. Column labels not in `value` won't be filled.
 
 `.fillna()` has the following parameters:
 
