@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.transpose()` method reveres or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).
+The `.transpose()` method reverses or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).
 
 ## Syntax
 
