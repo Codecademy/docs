@@ -25,7 +25,7 @@ ndarray.reshape(newshape)
 
 Where `newshape` can be an integer or a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) representing the size of the new array. If a dimension is `-1`, that dimension will be inferred from the size of the original array.
 
-Unlike the built-in NumPy function [`.reshape()`](https://www.codecademy.com/resources/docs/numpy/built-in-functions/reshape) , dimensions for this method can also be passed as seprate arguments: i.e. `array.reshape(2,3)` is the same as `array.reshape((2,3))`.
+Unlike the built-in NumPy function [`.reshape()`](https://www.codecademy.com/resources/docs/numpy/built-in-functions/reshape), dimensions for this method can also be passed as separate arguments: i.e. `array.reshape(2,3)` is the same as `array.reshape((2,3))`.
 
 If possible, the `ndarray` returned will be a view of the original `ndarray`'s data.
 
