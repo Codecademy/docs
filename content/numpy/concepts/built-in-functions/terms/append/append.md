@@ -20,7 +20,7 @@ The `.append()` function adds values to the end of an array and returns a [`ndar
 ## Syntax
 
 ```pseudo
-numpy.append(array,values,axis)
+numpy.append(array, values, axis)
 ```
 
 Where `array` is the array being appended to. The `values` parameter is another array specifying the values to add to `array`. If `axis` is specified, `values` must be the same shape as `array` without that axis. If `axis` is not specified, `values` can be any shape, and both `array` and `values` will be flattened before the values are appended. The `axis` value specifies the axis along which values are appended.
