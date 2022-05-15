@@ -28,7 +28,7 @@ str_replace($search, $replace, $base, $count)
 
 ## Codebyte Example
 
-This example provides a three demonstrations of `str_replace()` operating on a string.
+This example provides three demonstrations of `str_replace()` operating on a string.
 
 ```codebyte/php
 <?php
