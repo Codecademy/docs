@@ -20,7 +20,7 @@ The `.front()` method returns the next element within the queue. This will be th
 The `.front()` method can be called on a queue using the following syntax:
 
 ```pseudo
-queueName.front()
+queueName.front();
 ```
 
 ## Codebyte Example
