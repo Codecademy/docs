@@ -40,4 +40,4 @@ Attribute names have the same restrictions as element names.
 
 ## Comments
 
-XML permits comments anywhere except inside element tags. They are enclosed between `<!--` and `-->` and generally do not affect the parsing of the xml document.
+XML permits comments anywhere except inside element tags. They are enclosed between `<!--` and `-->` and generally do not affect the parsing of the XML document.
