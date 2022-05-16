@@ -1,6 +1,6 @@
 ---
-Title: 're.search()'
-Description: 'Returns the first match of a character pattern anywhere in a given string.'
+Title: 're.match()'
+Description: 'Returns a matching character pattern anywhere at the beginning of a given string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,12 +15,12 @@ CatalogContent:
   - 'text-preprocessing'
 ---
 
-The `.search()` method returns the first match of a character pattern anywhere in a given string.
+The `.match()` method returns a matching character pattern anywhere at the beginning of a given string.
 
 ## Syntax
 
 ```pseudo
-re.search(<pattern>, string, <optional args>)
+re.match(<pattern>, string, <flags>)
 ```
 
 A `<pattern>` can include any of the following:
@@ -29,11 +29,7 @@ A `<pattern>` can include any of the following:
 - A character class code: `/w`, `/s` , `/d`
 - A regex symbol: `$`, `|`, `^`
 
-There are optional arguments that include the following:
-
-- A starting index value (pos): `3`
-- An index value to end the search (endpos): `40`
-- Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
+The `<flags>` are optional and can be set to `IGNORECASE`, `VERBOSE`, or `DOTALL`.
 
 **Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
 
@@ -44,8 +40,8 @@ All content that appears within parentheses are matched with the `.search()` met
 ```py
 import re
 
-result = re.search(r'\(.*\)', 'the coordinates (lat:48,lon:-120)')
-# Backslashes designate a symbol as part of the pattern
+result = re.match(r'www\S+', 'www.codeacademy.com')
+# \S matches any character except a space, tab or newline
 
 print(result)
 ```
@@ -53,17 +49,17 @@ print(result)
 The output will look like this:
 
 ```shell
-<re.Match object; span=(16, 33), match='(lat:48,lon:-120)'>
+<re.Match object; span=(0, 19), match='www.codeacademy.com'>
 ```
 
 ## Codebyte Example
 
-The following example features a regex used by the `.search()` method to match a web address:
+The following example returns `None` because the test pattern is not at the beginning of the string:
 
 ```py
 import re
 
-result = re.search(r'www\S+', 'the tutorials at www.codeacademy.com')
+result = re.search(r'codecademy', 'www.codeacademy.com')
 # \S matches any character except a space, tab or newline
 
 print(result)

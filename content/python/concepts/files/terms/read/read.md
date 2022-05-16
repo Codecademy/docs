@@ -1,6 +1,6 @@
 ---
 Title: '.read()'
-Description: 'Allows the user to read the contents of an open file.'
+Description: 'Allows the user to read the contents of an open file and return the number of associated bytes.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,38 +14,50 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.read()` file method allows the user to read the contents of an open file.
+The `.read()` file method allows the user to read the contents of an open file and return the number of associated bytes.
 
 ## Syntax
 
-```py
-file.read()
-```
-
-It also returns the number of bytes from the file.
-
-```py
+```pseudo
 file.read(size)
 ```
 
-The `size` argument is optional and specifies the number of characters to read. The default `size` is -1, which means the whole file.
+The `size` argument is optional and specifies the number of characters (or bytes) to read. The default `size` is -1, which means the whole file will be read.
 
-## Example 1
+## Example
 
-Use `.read()` to read the full contents of the **gullivers_travels.txt** file:
+In the following example reads the full contents of the **lorem_ipsum.txt** file:
 
 ```python
-f = open("gullivers_travels.txt", "r", encoding='utf8')
+f = open("lorem_ipsum.txt", "w")
+f.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+f.close()
 
-f.read()
+f = open("lorem_ipsum.txt", "r", encoding='utf8')
+
+read_data = f.read()
+print(read_data)
+f.close()
 ```
 
-## Example 2
+This will print the following:
 
-Use `.read()` to read the first 100 characters of the **gullivers_travels.txt** file:
+```shell
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+```
 
-```python
+## Codebyte Example
+
+The `.read()` is used to read the first 100 characters of the **gullivers_travels.txt** file in the example below:
+
+```codebyte/python
+f = open("gullivers_travels.txt", "w")
+f.write("The author gives some account of himself and family. His first inducements to travel. He is shipwrecked, and swims for his life. Gets safe on shore in the country of Lilliput; is made a prisoner, and carried up the country.")
+f.close()
+
 f = open("gullivers_travels.txt", "r", encoding='utf8')
 
-f.read(100)
+read_data = f.read(100)
+print(read_data)
+f.close()
 ```

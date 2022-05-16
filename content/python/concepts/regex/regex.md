@@ -1,6 +1,6 @@
 ---
 Title: 'Regular Expressions'
-Description: 'Regex, short for Regular Expressions, is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python. In Python, regular expressions are available through the re module: python import re  The following are some of the regular expression operations:'
+Description: 'Regular expressions use a powerful system for searching text. They are implemented in a variety of languages including Java and Python.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -9,18 +9,25 @@ Tags:
   - 'Regular Expressions'
   - 'Functions'
   - 'Methods'
+  - 'Strings'
+  - 'Characters'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
-Regex, short for Regular Expressions, is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python.
+Regex, short for "regular expressions", uses a powerful system for searching text and is implemented in a variety of languages including Python.
 
-In Python, regular expressions are available through the `re` module:
+## Syntax
 
-```python
+Operations for regular expressions are available through the `re` module:
+
+```pseudo
 import re
+
+regex = r'this is a regex pattern'
 ```
 
-The following are some of the regular expression operations:
+For the most part, regex patterns are expressed with raw string notation (hence, the preceding `r` character).
+
+The following entries explore some terms and operations related to Python regular expressions:
