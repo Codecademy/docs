@@ -33,8 +33,8 @@ Element names are case sensitive and cannot contain spaces or special characters
 
 Attributes consist of name-value pairs that can be included in an opening tag of an element, after the element's name. Any attribute name can appear only once, and can only have one value. The following are examples of attributes:
 
-- `<tag attribute="value" />
-- `<tag attr1="value 1" attr2="value 2" />
+- `<tag attribute="value" />`
+- `<tag attr1="value 1" attr2="value 2" />`
 
 Attribute names have the same restrictions as element names.
 
