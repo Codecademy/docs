@@ -1,19 +1,20 @@
 ---
 Title: 'Cryptocurrency'
-Description: 'A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world.'
+Description: 'Cryptocurrencies are digital assets or tokens secured by cryptography and transferred on decentralized networks based on blockchain technology.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Blockchain'
+  - 'Cryptocurrency'
 CatalogContent:
   - 'introduction-to-blockchain'
   - 'paths/computer-science'
 ---
 
-A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology, which is a distributed ledger enforced by a network of computers (called nodes) around the world. Cryptocurrencies are not issued or controlled by any central authority, such as the federal bank of a sovereign nation as is the case with fiat money such as the US dollar. Cryptocurrencies are therefore protected from government interference, although this does not mean they cannot be manipulated by other parties.
+A cryptocurrency is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology.
 
-## Key Concepts
+Cryptocurrencies are not issued or controlled by any central authority, such as the federal bank of a sovereign nation as is the case with fiat money such as the US dollar. Cryptocurrencies are therefore protected from government interference, although this does not mean they cannot be manipulated by other parties.
 
 ### Blockchain
 
@@ -25,29 +26,60 @@ Units of cryptocurrencies are created through a process known as mining, which i
 
 Bitcoin is the most popular and widely known cryptocurrency, as well as the most valuable as measured by total market capitalization. It was created by an individual (or perhaps a group) called Satoshi Nakamoto and introduced via a white paper in 2008. With the success of Bitcoin, thousands of other cryptocurrencies have since been created with different attributes for various functions.
 
-Ethereum, the second most valuable cryptocurrency, features a smart contract platform that allows for numerous protocols including borrowing and lending services. There are also “stable coin” cryptocurrencies, which attempt to offer price stability and are backed by a reserve asset such as US dollars. There are also “altcoins”, some of which are forks of Bitcoin and others are new currencies, tokens, or assets that have been built from scratch. These altcoins include meme coins inspired by memes and internet jokes. Dogecoin, for example, was inspired by the Doge meme created from a viral photo of a Shiba Inu.
+Ethereum, the second most valuable cryptocurrency, features a smart contract platform that allows for numerous protocols including borrowing and lending services. There are also “stable coin” cryptocurrencies, which attempt to offer price stability and are backed by a reserve asset such as US dollars.
 
-### Purchasing Cryptocurrencies
+There are also “altcoins”, some of which are forks of Bitcoin and others are new currencies, tokens, or assets that have been built from scratch. These altcoins include meme coins inspired by memes and internet jokes. Dogecoin, for example, was inspired by the Doge meme created from a viral photo of a Shiba Inu.
+
+### Purchasing cryptocurrencies
 
 The primary method to convert fiat currency into a cryptocurrency like Bitcoin is using an exchange. Cryptocurrency exchanges enable users to purchase crypto assets by funding their account using government-issued currencies such as the US dollar or the Euro and then trading on their platform. The exchange generates an online wallet where the assets are stored, although these assets can generally be withdrawn to a private wallet. Exchanges are almost universally required to comply with various Know Your Customer (KYC) regulations, which is an identity verification process that must be completed before a user purchases or sells cryptocurrencies.
 
-## Advantages and Disadvantages
+## Advantages and disadvantages
 
 Cryptocurrencies were originally designed with the intent of revolutionizing existing financial infrastructure through greater efficiency and transparency combined with lower costs. There exists however a notable divide between the theoretical ideal of a transparent and decentralized system and its practical implementation in the real world.
+
 Outlined below are the primary advantages and disadvantages of cryptocurrencies.
 
 ### Advantages
 
-- _Decentralization_: Unlike traditional financial infrastructures, such as banks and monetary institutions, centralized intermediaries are unnecessary to enforce trust and facilitate transactions between two parties. Decentralized cryptocurrencies theoretically remove the ability of a central party to censor transactions or adjust the money supply. They also allow parties in any part of the world to transact without requiring permission from governing authorities.
-- _Efficiency_: Cryptocurrency transfers are often much faster than transactions using third-party intermediaries, and on many platforms, can be very low cost. It is possible, for example, to send millions of dollars for under $5 on the Ethereum network. At times, however, the transaction costs for the most popular cryptocurrencies can rise to up to $50 per transaction.
-- _Transparency_: All cryptocurrency transactions are visible on the publicly distributed blockchain ledger and there are tools that allow anyone to look up the data for any transactions that have occurred on the network. It is also possible to audit the money supply to ensure that additional coins have not been illegitimately generated.
-- _Security_: The only way to sign transactions or access the funds in your wallet is by gaining access to the private key of your crypto wallet. Furthermore, transactions are secured by the cryptographic nature of the blockchain and cannot be reversed like credit cards. There are, however, drawbacks to the nature of crypto assets discussed below.
+#### Decentralization
+
+Unlike traditional financial infrastructures, such as banks and monetary institutions, centralized intermediaries are unnecessary to enforce trust and facilitate transactions between two parties. Decentralized cryptocurrencies theoretically remove the ability of a central party to censor transactions or adjust the money supply. They also allow parties in any part of the world to transact without requiring permission from governing authorities.
+
+#### Efficiency
+
+Cryptocurrency transfers are often much faster than transactions using third-party intermediaries, and on many platforms, can be very low cost. It is possible, for example, to send millions of dollars for under $5 on the Ethereum network. At times, however, the transaction costs for the most popular cryptocurrencies can rise to up to $50 per transaction.
+
+#### Transparency
+
+All cryptocurrency transactions are visible on the publicly distributed blockchain ledger and there are tools that allow anyone to look up the data for any transactions that have occurred on the network. It is also possible to audit the money supply to ensure that additional coins have not been illegitimately generated.
+
+#### Security
+
+The only way to sign transactions or access the funds in your wallet is by gaining access to the private key of your crypto wallet. Furthermore, transactions are secured by the cryptographic nature of the blockchain and cannot be reversed like credit cards. There are, however, drawbacks to the nature of crypto assets discussed below.
 
 ### Disadvantages
 
-- _Pseudo-anonymity_: While cryptocurrencies are not generally connected to an individual’s name, transactions on the blockchain can be tracked and traced. Furthermore, exchanges around the world almost universally require know-your-customer (KYC) regulation, which forces these institutions to collect identifying personal details before a customer is able to trade on their platform.
-- _Criminal activity_: Cryptocurrencies have the potential to be used by criminals, although the same is also true for physical cash. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activities.
-- _Decentralization_: While in theory, cryptocurrencies are meant to be decentralized, their ownership is often highly concentrated and the most value is generally accrued by the early investors. The statistic of highly skewed ownership is easily verifiable using blockchain data, and in one MIT study, it was demonstrated that just 11,000 investors held close to half of Bitcoin’s value.
-- _Security_: Cryptocurrency blockchains are very secure through cryptography, though the wallets and exchanges where cryptocurrency assets are held can be hacked. One of the most famous exchange hacks occurred in 2014 when hackers accessed and stole over 700,000 bitcoins.
-- _Price volatility_: Cryptocurrencies frequently experience high volatility, often changing value over the course of minutes or hours by more than those experienced in traditional financial markets over months or years. For example, on December 22, 2017, the price of Bitcoin dropped more than 30% in a single day from over US$16,000 to nearly US$11,000.
-- _Energy usage_: The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as entire countries. While that may be true, cryptocurrency supporters argue that the existing financial structure uses far more energy than the power required for mining.
+#### Pseudo-anonymity
+
+While cryptocurrencies are not generally connected to an individual’s name, transactions on the blockchain can be tracked and traced. Furthermore, exchanges around the world almost universally require know-your-customer (KYC) regulation, which forces these institutions to collect identifying personal details before a customer is able to trade on their platform.
+
+#### Criminal activity
+
+Cryptocurrencies have the potential to be used by criminals, although the same is also true for physical cash. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activities.
+
+#### Decentralization
+
+While in theory, cryptocurrencies are meant to be decentralized, their ownership is often highly concentrated and the most value is generally accrued by the early investors. The statistic of highly skewed ownership is easily verifiable using blockchain data, and in one MIT study, it was demonstrated that just 11,000 investors held close to half of Bitcoin’s value.
+
+#### Security
+
+Cryptocurrency blockchains are very secure through cryptography, though the wallets and exchanges where cryptocurrency assets are held can be hacked. One of the most famous exchange hacks occurred in 2014 when hackers accessed and stole over 700,000 bitcoins.
+
+#### Price volatility
+
+Cryptocurrencies frequently experience high volatility, often changing value over the course of minutes or hours by more than those experienced in traditional financial markets over months or years. For example, on December 22, 2017, the price of Bitcoin dropped more than 30% in a single day from over US$16,000 to nearly US$11,000.
+
+#### Energy usage
+
+The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as entire countries. While that may be true, cryptocurrency supporters argue that the existing financial structure uses far more energy than the power required for mining.
