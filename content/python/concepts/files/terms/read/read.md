@@ -26,7 +26,7 @@ The `size` argument is optional and specifies the number of characters (or bytes
 
 ## Example
 
-In the following example reads the full contents of the **lorem_ipsum.txt** file:
+The following example reads the full contents of the **lorem_ipsum.txt** file:
 
 ```python
 f = open("lorem_ipsum.txt", "w")
