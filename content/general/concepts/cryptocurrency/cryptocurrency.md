@@ -18,7 +18,11 @@ Cryptocurrencies are not issued or controlled by any central authority, such as 
 
 ### Blockchain
 
-Blockchain is essentially a set of interconnected “blocks” that form an online ledger that is distributed across computers around the world. Transactions are recorded in blocks that are linked together to form a chain, and these transactions are verified by nodes in the network. A node is a computer on the network running the software client that stores the blockchain data locally. The data is updated as transactions are stored in each block and every copy of the blockchain is updated simultaneously, keeping all the records identical and accurate. As the network relies on consensus mechanisms to verify transactions, it is almost impossible to forge a fraudulent transaction.
+A blockchain is essentially a set of interconnected “blocks” that form an online ledger that is distributed across computers around the world. These linked blocks contain recorded transactions that are verified by nodes in the network. Nodes are the network computers running the software client that locally stores the blockchain data.
+
+The data is updated as transactions are stored in each block and every copy of the blockchain is updated simultaneously, keeping all the records identical and accurate. As the network relies on consensus mechanisms to verify transactions, it is almost impossible to forge a fraudulent transaction.
+
+### Mining
 
 Units of cryptocurrencies are created through a process known as mining, which involves using computing power to solve complex mathematical problems. The computer in the network that solves the problem the fastest generates the next block in the chain and is rewarded with units of that network, such as bitcoin. In the early days of Bitcoin, individual users were able to participate in mining, although nowadays the computing power necessary is only achieved through a powerful network of computers known as a “mining pool”.
 
@@ -66,20 +70,20 @@ While cryptocurrencies are not generally connected to an individual’s name, tr
 
 #### Criminal activity
 
-Cryptocurrencies have the potential to be used by criminals, although the same is also true for physical cash. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activities.
+Like with physical cash, cryptocurrencies have the potential to be used by criminals. In the early days of Bitcoin, there was an online marketplace on the dark web called Silk Road which allowed users to purchase illegal drugs and conduct other nefarious activities.
 
 #### Decentralization
 
-While in theory, cryptocurrencies are meant to be decentralized, their ownership is often highly concentrated and the most value is generally accrued by the early investors. The statistic of highly skewed ownership is easily verifiable using blockchain data, and in one MIT study, it was demonstrated that just 11,000 investors held close to half of Bitcoin’s value.
+While in theory, cryptocurrencies are meant to be decentralized, their ownership is often highly concentrated and the most value is generally accrued by the early investors. The statistic of highly skewed ownership is easily verifiable using blockchain data. In a study conducted by Makarov and Schoar (2021), conducted by the National Bureau of Economic Research, it was found around 10,000 individuals held about one-third of Bitcoin at that time.
 
 #### Security
 
-Cryptocurrency blockchains are very secure through cryptography, though the wallets and exchanges where cryptocurrency assets are held can be hacked. One of the most famous exchange hacks occurred in 2014 when hackers accessed and stole over 700,000 bitcoins.
+Cryptocurrency blockchains are very secure through cryptography, though the wallets and exchanges where cryptocurrency assets are held can be hacked. One of the most famous exchange hacks occurred in 2014 when hackers accessed and stole over 700,000 Bitcoin.
 
 #### Price volatility
 
-Cryptocurrencies frequently experience high volatility, often changing value over the course of minutes or hours by more than those experienced in traditional financial markets over months or years. For example, on December 22, 2017, the price of Bitcoin dropped more than 30% in a single day from over US$16,000 to nearly US$11,000.
+The frequency and volatility of cryptocurrency price changes are remarkable when compared with traditional financial markets. For example, on December 22, 2017, the price of Bitcoin dropped more than 30% in a single day from over $16,000 USD to nearly $11,000 USD.
 
 #### Energy usage
 
-The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as entire countries. While that may be true, cryptocurrency supporters argue that the existing financial structure uses far more energy than the power required for mining.
+The mining of popular cryptocurrencies requires substantial energy costs, in some cases as much as what powers entire countries. While that may be true, cryptocurrency supporters argue that the existing financial structure uses far more energy than the power required for mining.
