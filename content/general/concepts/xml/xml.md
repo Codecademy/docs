@@ -40,4 +40,26 @@ Attribute names have the same restrictions as element names.
 
 ## Comments
 
-XML permits comments anywhere except inside element tags. They are enclosed between `<!--` and `-->` and generally do not affect the parsing of the XML document.
+XML permits comments anywhere except inside element tags. They are enclosed between the tags `<!--` and `-->` and do not affect the parsing of the XML document. They behave exactly like [HTML comments](https://www.codecademy.com/resources/docs/html/comments).
+
+## Entities
+
+For rendering special characters, XML uses [entities like HTML](https://www.codecademy.com/resources/docs/html/entities). Entities can be used inside attribute and text values, but not in element and attribute names. They are required for some special characters. Unlike HTML, XML only has five predefined entities:
+
+Name | Entity | Character
+-----|--------|----------
+quotation mark | `&quot;` | `"`
+ampersand | `&amp;` | `&`
+apostrophe | `&apos;` | `'`
+less-than sign | `&lt;` | `<`
+greater-than sign | `&gt;` | `>`
+
+`&amp;` and `&lt;` are required when rendering those characters in any content. `&quot;` and `&apos;` are required when rendering those characters in attribute values.
+
+Like HTML, XML allows numeric entity refrences, allowing most Unicode characters to be used in content. These are used in the following way:
+
+- `&#number;` : where `number` is the character's decimal unicode number.
+- `&#xnumber;` : where `number` is the characters's hexadecimal Unicode number.
+
+So the `©` character can be represented as `&#169;` or `&#xA9;`
+
