@@ -24,7 +24,7 @@ The position of the additional text is determined by the mode the file was acces
 file.write(text)
 ```
 
-The `text` is a string that is written to a given `file`. Afterwards, the number of length of `text` is returned.
+The `text` is a string that is written to a given `file`. Then, the length of `text` is returned.
 
 ## Example
 
