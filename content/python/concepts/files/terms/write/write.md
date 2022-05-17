@@ -28,7 +28,7 @@ The `text` is a string that is written to a given `file`. Then, the length of `t
 
 ## Example
 
-In the example below, the `.write()` method is set to append mode (`"a"`) to add text to the end of the **gullivers_travels.txt** file. It is then opened the file to view changes to the file:
+In the example below, the `.write()` method is set to append mode (`"a"`) to add text to the end of the **gullivers_travels.txt** file. The file is then opened to view changes to it:
 
 ```py
 f = open("gullivers_travels.txt", "a")
