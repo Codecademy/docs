@@ -58,7 +58,7 @@ objectName.propertyName
 person.lastName;
 ```
 
-Or using square brackets:
+Or using square brackets. You must use bracket notation if the property name has numbers, spaces, or special characters:
 
 ```pseudo
 objectName["propertyName"]
