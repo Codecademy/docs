@@ -42,7 +42,7 @@ Consider the following XML document:
 </A>
 ```
 
-Example expressions include:
+Example XPath expressions include:
 
 - `A/B/D`, the most basic type of XPath expresion. The slashes represent the child axis, and `A`,`B` & `C` represent the element nodes we're matching. This matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example.
 - `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elemets that are descendants of the `A` element.
