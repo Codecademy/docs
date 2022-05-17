@@ -29,6 +29,24 @@ XPath treats an XML document as a tree structure, much like folders stored on a 
 - a node test specifing what node we want to match.
 - zero or more predicates that add restrictions onto what node the expression will ultimatly match. (i.e. conditions the node has to satisfy in order to match.)
 
+Consider the following XML document:
 
+```pseudo
+<A>
+  <B C="1">
+    <D E="2"/>
+  </B>
+  <B C="3">
+    <D F="4"/>
+  </B>
+</A>
+```
+
+Example expressions include:
+
+- `A/B/D`, the most basic type of XPath expresion. The slashes represent the child axis, and `A`,`B` & `C` represent the element nodes we're matching. This matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example.
+- `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elemets that are descendants of the `A` element.
+- `A//D[1]` adds a predicate (in the square brackets `[...]`) to the `D` node test. This predicate specifies that we're only matching the first `D` descendant of `A`.
+- `A//@C` adding the `@` before the node test means we're seaching along the attribute axis. In this case we're looking for all `C` attributes belonging to `A` or `A`'s descendants. This matches the two `C` attributes in the `B` elements in the example.
 
 
