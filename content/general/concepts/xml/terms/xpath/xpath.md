@@ -44,10 +44,24 @@ XPath uses the following axis specifiers:
 - `ancestor`
 - `ancestor-or-self`
 - `attribute` : `@a` is an abbreviation for `attribute::a`.
-- `child` : the default axis `a` is an abbrviation for `child::a`.
+- `child` : The default axis. `a` is an abbrviation for `child::a`.
+- `descendant`
+- `descendant-or-self` : `//` is an abbreviation for `/descendant-or-self::node()/`
+- `following`
+- `following-sibling`
+- `namespace`
+- `parent` : `..` is an abbreviation for `parent::node()`
+- `preceding`
+- `preceding-sibling`
+- `self` : `.` is an abbreviation for `self::node()`
 
+### Node Tests
 
+Node tests consist of specific node names, or more general expressions. The more general expressions include:
 
+- `node()` or `*` matches any node at all.
+- `comment()` matches an XML comment node.
+- `text()` matches a text node excluding any children.
 
 ### Examples
 
