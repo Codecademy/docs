@@ -23,11 +23,33 @@ XPath is implemented via libraries for many different programming languages, suc
 
 ## Basic Syntax
 
-XPath treats an XML document as a tree structure, much like folders stored on a disk drive. In fact, in it's simplest form, XPath expressions can resemble file paths. These file-path-like expressions are referred to as location paths. Each location path consists of a sequence of location steps, and each location step has three components:
+XPath treats an XML document as a tree structure, much like folders stored on a disk drive. In fact, in it's simplest form, XPath expressions can resemble file paths. These file-path-like expressions are referred to as location paths. Each location path consists of a sequence of location steps seperated by slashes (`/`), and each location step has three components:
 
 - an axis specifing what "direction" we're looking for a node.
 - a node test specifing what node we want to match.
 - zero or more predicates that add restrictions onto what node the expression will ultimatly match. (i.e. conditions the node has to satisfy in order to match.)
+
+A location step's full syntax is:
+
+```pseudo
+axis-specifier::node-test[predicate]
+```
+
+The most common axes have abreviated syntax so the whole axis name doesn't need to be used. An example of this is the fact the child axis is the default so doesn't require an axis specifier at all.
+
+### Axis Specifiers
+
+XPath uses the following axis specifiers:
+
+- `ancestor`
+- `ancestor-or-self`
+- `attribute` : `@a` is an abbreviation for `attribute::a`.
+- `child` : the default axis `a` is an abbrviation for `child::a`.
+
+
+
+
+### Examples
 
 Consider the following XML document:
 
@@ -48,6 +70,8 @@ Example XPath expressions include:
 - `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elemets that are descendants of the `A` element. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D`
 - `A//D[1]` adds a predicate (in the square brackets `[...]`) to the `D` node test. Using a number alone in the square brackets is a shorthand way of specifying the position of the element. This predicate specifies that we're only matching the first `D` descendant of `A`. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D[position()=1]`
 - `A//@C` the `@` indicates we're seaching along the attribute axis. In this case we're looking for all `C` attributes belonging to `A` or `A`'s descendants. This matches the two `C` attributes in the `B` elements in the example. The expanded form of the expression is `child::A/descendant-or-self::node()/attribute::C`
-- `//*[../@C="3"]` The `*` is a wildcard that matches any node. `..` means the parent axis, in this case the parent of the node refrenced by the predicate. This expression matches any node in the document whose parent has a `C` attribute with a value of `3`. In the above case that is the second `D` element. The full expanded form of the expression is `descenant-or-self::node()/child::node()[parent::node/attribute::C="3"]`. 
+- `//*[../@C="3"]` The `*` is a wildcard that matches any node. `..` means the parent axis, in this case the parent of the node refrenced by the predicate. This expression matches any node in the document whose parent has a `C` attribute with a value of `3`. In the above case that is the second `D` element. The full expanded form of the expression is `/descenant-or-self::node()/child::node()[parent::node()/attribute::C="3"]`. 
+- `//*[./@C="3"]` Is the same as the prior example, except that `.` means the self axis. In this case that refers to the node refrenced by the predicate. This expression matches any node in the document that has a `C` attribute with a value of `3`. In the above case that is the second `B` element. The full expanded form of the expression is `/descenant-or-self::node()/child::node()[self::node()/attribute::C="3"]`.
+
 
 
