@@ -44,9 +44,10 @@ Consider the following XML document:
 
 Example XPath expressions include:
 
-- `A/B/D`, the most basic type of XPath expresion. The slashes represent the child axis, and `A`,`B` & `C` represent the element nodes we're matching. This matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example.
-- `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elemets that are descendants of the `A` element.
-- `A//D[1]` adds a predicate (in the square brackets `[...]`) to the `D` node test. This predicate specifies that we're only matching the first `D` descendant of `A`.
-- `A//@C` adding the `@` before the node test means we're seaching along the attribute axis. In this case we're looking for all `C` attributes belonging to `A` or `A`'s descendants. This matches the two `C` attributes in the `B` elements in the example.
+- `A/B/D`, the most basic type of XPath expresion. Each location step is separated by a slash.  The default axis is the child axis and `A`,`B` & `C` represent the element nodes we're matching. This expression matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example. The expression can be written in full expanded form as `child::A/child::B/child::D`
+- `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elemets that are descendants of the `A` element. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D`
+- `A//D[1]` adds a predicate (in the square brackets `[...]`) to the `D` node test. Using a number alone in the square brackets is a shorthand way of specifying the position of the element. This predicate specifies that we're only matching the first `D` descendant of `A`. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D[position()=1]`
+- `A//@C` the `@` indicates we're seaching along the attribute axis. In this case we're looking for all `C` attributes belonging to `A` or `A`'s descendants. This matches the two `C` attributes in the `B` elements in the example. The expanded form of the expression is `child::A/descendant-or-self::node()/attribute::C`
+- `//\*[../@C="3"] The `\*` is a wildcard that matches any node. `..` means the parent axis, in this case the parent of the node refrenced by the predicate. This expression matches any node in the document whose parent has a `C` attribute with a value of `3`. In the above case that is the second `D` element. The full expanded form of the expression is `descenant-or-self::node()/child::node()[parent::node/attribute::C="3"]`. 
 
 
