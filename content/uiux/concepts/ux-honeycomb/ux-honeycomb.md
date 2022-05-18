@@ -1,0 +1,31 @@
+---
+Title: 'UX Honeycomb'
+Description: 'The UX Honeycomb diagram defines &quo;good&quo; UX design as useful, usable, desirable, findable, accessible, credible, and valuable.'
+Subjects:
+  - 'Web Design'
+Tags:
+  - 'UI'
+  - 'UX'
+CatalogContent:
+  - 'intro-to-ui-ux'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The _UX Honeycomb_ diagram, created by designer and information architect [Peter Morville](https://semanticstudios.com/about/), defines "good" UX design as useful, usable, desirable, findable, accessible, credible, and valuable.
+
+The UX Honeycomb, [according to Morville](https://semanticstudios.com/user_experience_design/), is intended to take the conversation about what defines good design beyond usability and make some of the trade-offs made during a given design process more explicit.
+
+![An illustration of Peter Morville's UX Honeycomb diagram, with seven adjectives within each hexagon: usable, useful, desirable, valuable, findable, credible, and accessible.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/defining-good-ux.png)
+
+The terms included in the UX Honeycomb can be defined as follows:
+
+* **Useful**: fulfills a user's needs
+* **Usable**: easy to use and understand
+* **Desirable**: visually attractive and succinct
+* **Findable**: easy to navigate and find information
+* **Accessible**: users with disabilities can use the product
+* **Credible**: the product, company, and services are trustworthy
+* **Valuable**: delivers business value
+
+The distinction between descriptors like these is helpful when assessing a product or design. For example, a usable and desirable design may not be useful, or answer a user's needs.
+
