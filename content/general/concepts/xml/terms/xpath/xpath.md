@@ -62,8 +62,13 @@ Node tests consist of specific node names, or more general expressions. The more
 - `node()` or `*` matches any node at all.
 - `comment()` matches an XML comment node.
 - `text()` matches a text node excluding any children.
+- `processing-instruction() matches XML processing instructions.
 
-### Examples
+### Predicates
+
+
+
+## Examples
 
 Consider the following XML document:
 
