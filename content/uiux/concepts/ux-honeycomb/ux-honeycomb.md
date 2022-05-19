@@ -19,13 +19,12 @@ The UX Honeycomb, [according to Morville](https://semanticstudios.com/user_exper
 
 The terms included in the UX Honeycomb can be defined as follows:
 
-* **Useful**: fulfills a user's needs
-* **Usable**: easy to use and understand
-* **Desirable**: visually attractive and succinct
-* **Findable**: easy to navigate and find information
-* **Accessible**: users with disabilities can use the product
-* **Credible**: the product, company, and services are trustworthy
-* **Valuable**: delivers business value
+- **Useful**: fulfills a user's needs
+- **Usable**: easy to use and understand
+- **Desirable**: visually attractive and succinct
+- **Findable**: easy to navigate and find information
+- **Accessible**: users with disabilities can use the product
+- **Credible**: the product, company, and services are trustworthy
+- **Valuable**: delivers business value
 
 The distinction between descriptors like these is helpful when assessing a product or design. For example, a usable and desirable design may not be useful, or answer a user's needs.
-

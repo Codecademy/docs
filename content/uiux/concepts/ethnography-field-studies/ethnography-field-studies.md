@@ -15,10 +15,10 @@ _Ethnography and field studies_ are [user research](https://www.codecademy.com/r
 
 Common ethnography techniques in user research include:
 
-* **Field studies**: Field studies refer to any studies conducted in the participant's natural context or location.
-* **Contextual inquiry**: Researchers conduct an interview in context as participants complete tasks.
-* **Digital ethnography**: Researchers observe an online community or space.
-* **Auto-ethnography**: The researcher is the subject of their own study, and examines their own behavior.
+- **Field studies**: Field studies refer to any studies conducted in the participant's natural context or location.
+- **Contextual inquiry**: Researchers conduct an interview in context as participants complete tasks.
+- **Digital ethnography**: Researchers observe an online community or space.
+- **Auto-ethnography**: The researcher is the subject of their own study, and examines their own behavior.
 
 Anthropologist [Margaret Mead](https://en.wikipedia.org/wiki/Margaret_Mead) once said, “What people say, what people do, and what people say they do are entirely different things.” [Behavioral research](https://www.codecademy.com/resources/docs/uiux/behavioral-research) methods like ethnography and field studies offer insight into what people do in practice, alongside [attitudinal research](https://www.codecademy.com/resources/docs/uiux/attitudinal-research) methods that focus on what people say.
 
@@ -27,7 +27,8 @@ In ethnographic research, the researcher may navigate the group being studied as
 Researchers should also consider the ethics of whether to disclose their identity as a researcher to the study group (overt) vs. whether to conceal their identity (covert), and how knowledge of the researcher's presence might influence the behavior of those being studied (the [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect)).
 
 **Learn more about ethnography and field studies:**
-* [User Interviews: Ethnography](https://www.userinterviews.com/ux-research-field-guide-chapter/ethnography) 
-* [UX Planet: Ethnography and User  Research](https://uxplanet.org/ethnography-and-user-research-a59820d8f595) 
-* [UserZoom: What is an ethnographic study?](https://www.userzoom.com/ux-library/what-is-an-ethnographic-study/) 
-* [Nielsen Norman Group: Field Studies](https://www.nngroup.com/articles/field-studies/)
+
+- [User Interviews: Ethnography](https://www.userinterviews.com/ux-research-field-guide-chapter/ethnography)
+- [UX Planet: Ethnography and User Research](https://uxplanet.org/ethnography-and-user-research-a59820d8f595)
+- [UserZoom: What is an ethnographic study?](https://www.userzoom.com/ux-library/what-is-an-ethnographic-study/)
+- [Nielsen Norman Group: Field Studies](https://www.nngroup.com/articles/field-studies/)
