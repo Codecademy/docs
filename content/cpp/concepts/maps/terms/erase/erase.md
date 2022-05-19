@@ -27,7 +27,7 @@ The `key` is the element to be erased.
 
 The following codebyte example uses `.erase()` to remove an element from the `fields` map:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <iterator>
 #include <map>
