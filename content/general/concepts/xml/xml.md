@@ -17,7 +17,7 @@ XML (Extensible Markup Language) is used to define the content and structure of 
 
 Many computer languages, such as [Python](https://www.codecademy.com/resources/docs/python) or [Java](https://www.codecademy.com/resources/docs/java), provide their own libraries or modules for processing XML documents. XML has proved to be a popular format for [serializing](https://www.codecademy.com/resources/docs/general/serialization) objects.
 
-The an XML document can consist of the following pieces: 
+The an XML document can consist of the following pieces:
 
 ## Elements
 
@@ -48,13 +48,13 @@ XML permits comments anywhere except inside element tags. They are enclosed betw
 
 For rendering special characters, XML uses [entities like HTML](https://www.codecademy.com/resources/docs/html/entities). Entities can be used inside attribute and text values, but not in element and attribute names. They are required for some special characters. Unlike HTML, XML only has five predefined entities:
 
-Name | Entity | Character
------|--------|----------
-quotation mark | `&quot;` | `"`
-ampersand | `&amp;` | `&`
-apostrophe | `&apos;` | `'`
-less-than sign | `&lt;` | `<`
-greater-than sign | `&gt;` | `>`
+| Name              | Entity   | Character |
+| ----------------- | -------- | --------- |
+| quotation mark    | `&quot;` | `"`       |
+| ampersand         | `&amp;`  | `&`       |
+| apostrophe        | `&apos;` | `'`       |
+| less-than sign    | `&lt;`   | `<`       |
+| greater-than sign | `&gt;`   | `>`       |
 
 `&amp;` and `&lt;` are required when rendering those characters in any content. `&quot;` and `&apos;` are required when rendering those characters in attribute values.
 

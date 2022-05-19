@@ -19,7 +19,7 @@ XPath is a language used to query different parts of an [XML](https://www.codeca
 - [XPath 3.0](https://www.w3.org/TR/xpath-30/) was introduced in 2014 and is a subset of XQuery 3.0.
 - [XPath 3.1](https://www.w3.org/TR/xpath-31/) was introduced in 2017 with additional data types to support JSON.
 
-XPath is implemented via libraries for many different programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java) and [JavaScript](https://www.codecademy.com/resources/docs/javascript). If a language offers tools for any sort of XML processing, it will probably offer support for using some version of XPath to query XML documents. 
+XPath is implemented via libraries for many different programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java) and [JavaScript](https://www.codecademy.com/resources/docs/javascript). If a language offers tools for any sort of XML processing, it will probably offer support for using some version of XPath to query XML documents.
 
 ## Basic Syntax
 
@@ -66,7 +66,7 @@ Node tests consist of specific node names, or more general expressions. The more
 
 ### Predicates
 
-Predicates define an expression that must evaluate true for the node test to succeed. There can be any number of predicates, and they are evaluated in order from left to right, i.e. `A[1][./@C = "1"]` matches only if the first `A` element has an attribute `C` equal to "1" whereas `A[./@C="1"][1]` matches the first `A` element that has an attribute `C` equal to "1". A predicate must have a numeric or boolean value. A predicate that has a numeric value is equivalent to specifying the position of the node to match, i.e. `A[5]` is the same as `A[position()=5]`. 
+Predicates define an expression that must evaluate true for the node test to succeed. There can be any number of predicates, and they are evaluated in order from left to right, i.e. `A[1][./@C = "1"]` matches only if the first `A` element has an attribute `C` equal to "1" whereas `A[./@C="1"][1]` matches the first `A` element that has an attribute `C` equal to "1". A predicate must have a numeric or boolean value. A predicate that has a numeric value is equivalent to specifying the position of the node to match, i.e. `A[5]` is the same as `A[position()=5]`.
 
 Location paths can be used inside predicates, and are evaluated relative to the node being tested. so the `./@C` in `A[./@C="1"]` is looking to match the `C` attribute of the `A` element.
 
@@ -88,7 +88,7 @@ Predicates also have a number of functions available in XPath 1.0, the following
 - `normalize-space(string)` : Returns `string` with leading and trailing whitespace removed, and all sequences of whitespace characters replaced by a single space. If omitted, operates on the context node converted to a string.
 - `position()` : Returns the numeric position of the current node.
 - `starts-with(string1, string2)` : Checks if `string1` starts with `string2` and returns true or false.
-- `sum(node-set)` : Converts the string values of the nodes in `node-set` into numbers and returns the sum of those numbers.. 
+- `sum(node-set)` : Converts the string values of the nodes in `node-set` into numbers and returns the sum of those numbers..
 - `true()` : Returns true.
 
 ## Examples
@@ -108,9 +108,9 @@ Consider the following XML document:
 
 Example XPath expressions include:
 
-- `A/B/D`, the most basic type of XPath expression. Each location step is separated by a slash.  The default axis is the child axis and `A`,`B` & `C` represent the element nodes we're matching. This expression matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example. The expression can be written in full expanded form as `child::A/child::B/child::D`
+- `A/B/D`, the most basic type of XPath expression. Each location step is separated by a slash. The default axis is the child axis and `A`,`B` & `C` represent the element nodes we're matching. This expression matches all `D` elements that are children of `B` elements that are children of `A` elements. It would match both `D` elements in the example. The expression can be written in full expanded form as `child::A/child::B/child::D`
 - `A//D`, also matches both `D` elements in the example, because the double slash (`//`) represents the descendant-or-self axis. This expression matches all `D` elements that are descendants of the `A` element. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D`
 - `A//D[1]` adds a predicate (in the square brackets `[...]`) to the `D` node test. Using a number alone in the square brackets is a shorthand way of specifying the position of the element. This predicate specifies that we're only matching the first `D` descendant of `A`. The expanded form of the expression is `child::A/descendant-or-self::node()/child::D[position()=1]`
 - `A//@C` the `@` indicates we're searching along the attribute axis. In this case we're looking for all `C` attributes belonging to `A` or `A`'s descendants. This matches the two `C` attributes in the `B` elements in the example. The expanded form of the expression is `child::A/descendant-or-self::node()/attribute::C`
-- `//*[../@C="3"]` The `*` is a wildcard that matches any node. `..` means the parent axis, in this case the parent of the node referenced by the predicate. This expression matches any node in the document whose parent has a `C` attribute with a value of `3`. In the above case that is the second `D` element. The full expanded form of the expression is `/descenant-or-self::node()/child::node()[parent::node()/attribute::C="3"]`. 
+- `//*[../@C="3"]` The `*` is a wildcard that matches any node. `..` means the parent axis, in this case the parent of the node referenced by the predicate. This expression matches any node in the document whose parent has a `C` attribute with a value of `3`. In the above case that is the second `D` element. The full expanded form of the expression is `/descenant-or-self::node()/child::node()[parent::node()/attribute::C="3"]`.
 - `//*[./@C="3"]` Is the same as the prior example, except that `.` means the self axis. In this case that refers to the node referenced by the predicate. This expression matches any node in the document that has a `C` attribute with a value of `3`. In the above case that is the second `B` element. The full expanded form of the expression is `/descenant-or-self::node()/child::node()[self::node()/attribute::C="3"]`.
