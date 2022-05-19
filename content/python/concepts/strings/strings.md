@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes. Strings can be of any length and can contain letters, words, spaces, and symbols. Other data types such as integers, doubles, and booleans can also be strings so long as they are wrapped in quotes.'
+Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -43,14 +43,21 @@ Strings are immutable; they cannot change. Every time an operation is performed 
 
 ## Accessing the Characters of a String
 
-A string can be thought of as a list of characters. Each character has an index, starting at 0:
+Strings in Python are technically a type of [list](https://www.codecademy.com/resources/docs/python/lists) — one in which each character is a separate element. This means each character in a string can be individually accessed by index, like with the elements in a list:
 
 ```py
-name = "phillis"
-name[0] # "p"
+myString = "Hello, World!"
+
+var_1 = myString[0]
+var_2 = myString[7:]
+var_3 = myString[1:4]
+
+print("var_1: " + var_1) # Output: var_1: H
+print("var_2: " + var_2) # Output: var_2: World!
+print("var_3: " + var_3) # Output: var_3: ell
 ```
 
-If you try to access an index out of bounds, it will return an `IndexError`.
+If an attempt is made to access an index out of bounds, it will return an `IndexError`.
 
 ```py
 name = "phillis"
@@ -59,7 +66,7 @@ name[8] # Throws an IndexError
 
 ## Multi-line Strings
 
-Strings can be long or short. If your text is long, you may want to use a multi-line string. Multi-line strings begin and end with three single or double quotes:
+Strings can be long or short. For longer text, a multi-line string can be used. Multi-line strings begin and end with three single or double quotes:
 
 ```py
 my_string = """If it were done when 'tis done, then 'twere well
@@ -83,7 +90,7 @@ print(my_string)
 
 This will raise an error, because the interpreter thinks the second `'` marks the end of the string.
 
-```error
+```shell
   File "main.py", line 1
     my_string = 'It's a lovely day!'
                     ^
@@ -112,15 +119,23 @@ print(my_string)
 
 Python also has a series of non-printing characters that can modify strings. For example, `\n` adds a new line and `\t` adds a tab:
 
-```codebyte/py
-note = "I am on top!\nI am on bottom. \tI am indented!"
+```py
+note = "I am on top!\nI am on bottom. \n\tI am indented!"
 
 print(note)
 ```
 
+This will output:
+
+```shell
+I am on top!
+I am on bottom.
+        I am indented!
+```
+
 ## Modifying Strings
 
-Python has special operators to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
+Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
 
 ```py
 string_one = "Hello, "
@@ -140,18 +155,28 @@ if "World" in new_combo:
   # Output: It's here!
 ```
 
-Strings in Python are technically a type of list—one in which each character is a separate element in that list. This means each letter in a string can be accessed by indexing, as with the elements in a list:
+## Comparing Strings
 
-```codebyte/py
-myString = "Hello, World!"
+Python can use comparison [operators](https://www.codecademy.com/resources/docs/python/operators) to compare the contents of two strings. The operators behave as they do with numeric arguments:
 
-var_1 = myString[0]
-var_2 = myString[7:]
-var_3 = myString[1:4]
+| Operator |           Term           | Description                                                                              |
+| :------: | :----------------------: | ---------------------------------------------------------------------------------------- |
+|   `==`   |          Equal           | Returns `True` if two strings are equal.                                                 |
+|   `!=`   |        Not equal         | Returns `True` if two strings are not equal.                                             |
+|   `<`    |        Less than         | Returns `True` if the left string is lexically prior the right string.                   |
+|   `>`    |       Greater than       | Returns `True` is the left string comes lexically after the right string.                |
+|   `<=`   |  Less than or equal to   | Returns `True` if the left string is equal to or lexically prior to the right string.    |
+|   `>=`   | Greater than or equal to | Returns `True` if the left string is equal to or comes lexically after the right string. |
 
-print("var_1: " + var_1)
-print("var_2: " + var_2)
-print("var_3: " + var_3)
+The following example demonstrates string comparison:
+
+```codebyte/python
+string_one = "Hello"
+string_two = "World"
+
+print(string_one > string_two)
+
+print(string_one < string_two)
 ```
 
 ## Built-in String Methods
