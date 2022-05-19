@@ -80,13 +80,10 @@ The following operators can be used inside of predicates in XPath 1.0:
 
 Predicates also have a number of functions avalible in XPath 1.0, the following are some of the more commonly used ones:
 
-- Node functions
- - `count(node-set)` returns the number of nodes in `node-set`.
- - `last()` returns the position of the last macth of the current node test.
- - `position()` returns the numeric position of the current node. 
-
-
-
+- `count(node-set)` returns the number of nodes in `node-set`.
+- `last()` returns the position of the last match of the current node test.
+- `local-name(node-set)` returns the local name of the first node in `node-set`, or if `node-set` is omitted, the local name of the current node.
+- `position()` returns the numeric position of the current node. 
 
 ## Examples
 
