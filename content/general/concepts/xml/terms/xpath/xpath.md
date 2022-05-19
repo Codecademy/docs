@@ -62,9 +62,29 @@ Node tests consist of specific node names, or more general expressions. The more
 - `node()` or `*` matches any node at all.
 - `comment()` matches an XML comment node.
 - `text()` matches a text node excluding any children.
-- `processing-instruction() matches XML processing instructions.
+- `processing-instruction()` matches XML processing instructions.
 
 ### Predicates
+
+Predicates define an expression that must evaluate true for the node test to succeed. There can be any number of predicates, and they are evaluated in order from left to right, i.e. `A[1][./@C = "1"]` matches only if the first `A` element has an attribute `C` equal to "1" whereas `A[./@C="1"][1]` matches the first `A` element that has an attribute `C` equal to "1". A predicate must have a numeric or boolean value. A predicate that has a numeric value is equivelant to specifying the position of the node to match, i.e. `A[5]` is the same as `A[position()=5]`. 
+
+Location paths can be used inside predicates, and are evaluated relitive to the node being tested. so the `./@C` in `A[./@C="1"]` is looking to match the `C` attribute of the `A` element.
+
+The following operators can be used inside of predicates in XPath 1.0:
+
+- `|`, the union operator creates the union of two node sets.
+- the boolean operators `and` & `or`.
+- the boolean function `not()`
+- mathematical operators: `+`,`-`,`*`,`div` (divide) and `mod`.
+- the comparison operators `=`,`!=`,`<`,`>`,`<=` & `>=`
+
+Predicates also have a number of functions avalible in XPath 1.0, the following are some of the more commonly used ones:
+
+- Node functions
+- - `count(node-set)` returns the number of nodes in `node-set`.
+- - `last()` returns the position of the last macth of the current node test.
+- - `position()` returns the numeric position of the current node. 
+
 
 
 
