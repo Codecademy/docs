@@ -22,7 +22,7 @@ Separate instances of an `ndarray` can share contents so that changes in one `nd
 
 ## Creating a `ndarray`
 
-There are several routines for creating `ndarray` objects. These are preferred to using the `ndarray` constructor, which operates at a very low level. Here are a few examples.
+There are several routines for creating `ndarray` objects. These are preferred to using the `ndarray` constructor, which operates at a very low level. Here are a few examples:
 
 |     Method      | Syntax                               | Description                                                                                                                                                                      |
 | :-------------: | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
