@@ -2,6 +2,7 @@
 Title: '.sort()'
 Description: 'Sorts an array into ascending order.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Methods'
