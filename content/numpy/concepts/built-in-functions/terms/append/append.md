@@ -27,7 +27,7 @@ Where `array` is the array being appended to. The `values` parameter is another 
 
 ## Example
 
-The example below crates two `ndarrays` and appends one to the other.
+The example below creates two `ndarrays` and appends one to the other.
 
 ```py
 import numpy as np
