@@ -15,7 +15,7 @@ The `.sort()` method of the `Arrays` class sorts a given array into ascending or
 
 ## Syntax
 
-```java
+```pseudo
 Arrays.sort(array)
 
 Arrays.sort(array, start, end)
