@@ -15,7 +15,7 @@ The `.fill()` method of the `Arrays` class fills a given array with a given valu
 
 ## Syntax
 
-```java
+```pseudo
 Arrays.fill(array, value)
 
 Arrays.fill(array, start, end, value)
