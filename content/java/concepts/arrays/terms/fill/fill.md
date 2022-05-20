@@ -21,7 +21,7 @@ Arrays.fill(array, value)
 Arrays.fill(array, start, end, value)
 ```
 
-here `array` is the array being filled and `value` is the value beeing filled in the array. `start` and `end` indices can also be specified and the fill will be confined to the given range.
+Here, `array`, is the array being filled and `value` is the value being filled in the array. `start` and `end` indices can also be specified and the fill will be confined to the given range.
 
 ## Example
 
