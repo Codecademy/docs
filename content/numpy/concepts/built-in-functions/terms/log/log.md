@@ -23,7 +23,7 @@ The `.log()` function returns an element-wise natural logarithm of an array.
 numpy.log(array)
 ```
 
-`.log()` returns an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) with each element the natural logarithm of the corresponding element in `array`.
+`.log()` returns an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) with each element as the natural logarithm of the corresponding element in `array`.
 
 ## Example
 
