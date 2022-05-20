@@ -69,7 +69,7 @@ This produces the following output:
 
 ## Operations on an `ndarray`
 
-The standard mathematical [operations](https://www.codecademy.com/resources/docs/python/operators), when applied to `ndarrays` are evaluated internally as equivelent universal functions ("ufuncs") which are functions that operate on `ndarrays` on an element-by-element basis. There are over 60 of these universal functions and there are ufuncs for each mathematical operation. Some of the most popular operations are summarized below:
+The standard mathematical [operations](https://www.codecademy.com/resources/docs/python/operators), when applied to `ndarrays` are evaluated internally as equivalent universal functions ("ufuncs") which are functions that operate on `ndarrays` on an element-by-element basis. There are over 60 of these universal functions and there are ufuncs for each mathematical operation. Some of the most popular operations are summarized below:
 
 | Operator | Ufunc                     | Description                                                                         |
 | :------: | ------------------------- | ----------------------------------------------------------------------------------- |
