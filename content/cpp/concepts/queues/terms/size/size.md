@@ -1,6 +1,6 @@
 ---
 Title: '.size()'
-Description: 'Returns the size of the queue.'
+Description: 'Returns the number of elements in the queue.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
