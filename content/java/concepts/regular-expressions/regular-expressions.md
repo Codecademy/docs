@@ -22,10 +22,10 @@ Details on the syntax of regular expressions can be found in the [general regula
 An instance of the `Pattern` class is used to hold a compiled version of a regular expression pattern. The syntax for creating a pattern instance is:
 
 ```pseudo
-Pattern p = Pattern.compile(pattern, flags)
+Pattern p = Pattern.compile(re, flags)
 ```
 
-Where `pattern` is a regular expression pattern. And `flags` is an optional int bit mask specifying the flags for the pattern.
+Where `re` is a regular expression pattern. And `flags` is an optional int bit mask specifying the flags for the pattern.
 
 The `flags` parameter can include the following:
 
