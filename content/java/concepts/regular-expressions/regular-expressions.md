@@ -52,7 +52,7 @@ The `Pattern` class includes the following methods:
 
 An instance of the `Matcher` class is used to perform operations against input text using a compiled `Pattern` instance. A `Matcher` instance is created from a `Pattern` instance using the following syntax.
 
-```java
+```pseudo
 Matcher m = pattern.matcher(input)
 ```
 
