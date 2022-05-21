@@ -20,7 +20,7 @@ The `.replace()` function returns a string with a portion replaced by another st
 baseString.replace(pos, len, str, subpos, sublen)
 ```
 
-- `basestring` is the string whose contents are being replaced.
+- `baseString` is the string whose contents are being replaced.
 - `pos` is the zero-based starting position of the replacement.
 - `len` is the number of characters to be replaced.
 - `str` is the replacement string.
