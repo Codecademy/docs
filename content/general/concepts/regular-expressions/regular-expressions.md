@@ -28,7 +28,7 @@ Regular expressions use the following metacharacters and sequences for pattern m
 | :-----------: | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 |      `^`      | Matches the start of text, or the start of a line, depending on the settings of the regex engine.   | `^a` only matches the first "a" in "a match is made"  |
 |      `$`      | Matches the end of text, or the end of a line, depending on the settings of the regex engine.       | `!$` only matches the second "!" in "Hello! World!"   |
-|      `.`      | Matches any one character.                                                                          | `.` matches "c","a" and "t" in "cat"                  |
+|      `.`      | Matches any one character.                                                                          | `.` matches "c", "a" and "t" in "cat"                  |
 |      `*`      | Matches the preceding element zero or more times.                                                   | `co*t` matches "ct", "cot" and "coot"                 |
 |      `+`      | Matches the preceding element one or more times.                                                    | `co+t` matches "cot","coot" but not "ct"              |
 |      `?`      | Matches the preceding element zero or one time.                                                     | `co?t` matches "ct","cot" but not "coot"              |
