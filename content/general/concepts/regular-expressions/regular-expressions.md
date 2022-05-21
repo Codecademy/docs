@@ -30,7 +30,7 @@ Regular expressions use the following metacharacters and sequences for pattern m
 |      `$`      | Matches the end of text, or the end of a line, depending on the settings of the regex engine.       | `!$` only matches the second "!" in "Hello! World!"   |
 |      `.`      | Matches any one character.                                                                          | `.` matches "c", "a" and "t" in "cat"                  |
 |      `*`      | Matches the preceding element zero or more times.                                                   | `co*t` matches "ct", "cot" and "coot"                 |
-|      `+`      | Matches the preceding element one or more times.                                                    | `co+t` matches "cot","coot" but not "ct"              |
+|      `+`      | Matches the preceding element one or more times.                                                    | `co+t` matches "cot", "coot" but not "ct"              |
 |      `?`      | Matches the preceding element zero or one time.                                                     | `co?t` matches "ct","cot" but not "coot"              |
 |     `{n}`     | Matches the preceding element exactly `n` times.                                                    | `co{2}t` matches "coot" but not "cot" or "cooot"      |
 |   `{,max}`    | Matches the preceding element zero to `max` times.                                                  | `co{,2]t` matches "ct", "cot", "coot" but not "cooot"   |
