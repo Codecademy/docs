@@ -63,3 +63,5 @@ The anchor element `<a>` can create hyperlinks to different parts of the same HT
 
 <a href="#id-of-element-to-link-to">Take me to a different part of the page</a>
 ```
+
+![output of the cite tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-cite-example.png)
