@@ -17,7 +17,7 @@ The `.replace()` function returns a string with a portion replaced by another st
 ## Syntax
 
 ```pseudo
-basestring.replace(pos, len, str, subpos, sublen)
+baseString.replace(pos, len, str, subpos, sublen)
 ```
 
 - `basestring` is the string whose contents are being replaced.
