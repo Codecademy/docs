@@ -57,4 +57,4 @@ Suppose there is a form that needs both a submit and reset button, and that the 
 </html>
 ```
 
-![Output of the example for the button tag](https://raw.githubusercontent.com/ethan-master-coding/docs/HTML-examples/media/html-button-example.png)
+![Output of the example for the button tag](https://raw.githubusercontent.com/Codecademy/main/media/html-button-example.png)
