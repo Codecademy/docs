@@ -50,4 +50,4 @@ Suppose there is an article on the integral, from calculus, on this page. It fea
 </html>
 ```
 
-![output of the cite tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-cite-example.png)
+![Output of the cite tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-cite-example.png)
