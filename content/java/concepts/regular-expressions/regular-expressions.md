@@ -20,7 +20,7 @@ Details on the syntax of regular expressions can be found in the [general regula
 
 An instance of the `Pattern` class is used to hold a compiled version of a regular expression pattern. The syntax for creating a pattern instance is:
 
-```java
+```pseudo
 Pattern p = Pattern.compile(pattern, flags)
 ```
 
