@@ -20,7 +20,7 @@ Implementation in each programming language is generally through functions and m
 
 ## Regular Expression Patterns
 
-A regular expression pattern is a string made up of normal characters mixed with metacharacters that have special meanings defining how characters should be matched. For instance, the pattern "h" by itself would match the single letter "h", where if we add the metacharacter ".", which matches any one character, then "h." would match sequences such as "ha","ho","h5" and "h!".
+A regular expression pattern is a string made up of normal characters mixed with metacharacters that have special meanings defining how characters should be matched. For instance, the pattern "h" by itself would match the single letter "h", whereas if we add the metacharacter ".", which matches any one character, then "h." would match sequences such as "ha", "ho", "h5" and "h!".
 
 Regular expressions use the following metacharacters and sequences for pattern matching:
 
