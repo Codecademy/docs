@@ -78,6 +78,8 @@ The `Matcher` class includes the following methods:
 
 ## Codebyte Example
 
+The following example finds all the words that start with "s" and have an "e" as the second or third character.
+
 ```codebyte/java
 import java.util.regex.*;
 
