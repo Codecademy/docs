@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.size()` method returns the size of the queue.
+The `.size()` method returns the number of elements in the queue.
 
 ## Syntax
 
