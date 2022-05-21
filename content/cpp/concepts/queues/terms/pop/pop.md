@@ -20,7 +20,7 @@ The `.pop()` method removes the element at the front of the queue.
 The `.pop()` method is called on a queue using the following syntax:
 
 ```pseudo
-queueName.pop()
+queueName.pop();
 ```
 
 ## Codebyte Example
