@@ -56,7 +56,7 @@ An instance of the `Matcher` class is used to perform operations against input t
 Matcher m = pattern.matcher(input)
 ```
 
-Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, sub-matches, and their locations in the `input` text.
+Where `pattern` is a compiled `Pattern` instance and `input` is the input text to be matched against it. The `Matcher` can be used to search the whole input, or a region of the input, finding each match, sub-matches, and their locations in the `input` text.
 
 The `Matcher` class includes the following methods:
 
