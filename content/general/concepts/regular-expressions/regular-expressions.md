@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'Regular Expressions'
   - 'Strings'
   - 'Data Types'
   - 'Characters'
