@@ -33,7 +33,7 @@ Regular expressions use the following metacharacters and sequences for pattern m
 |      `+`      | Matches the preceding element one or more times.                                                    | `co+t` matches "cot","coot" but not "ct"              |
 |      `?`      | Matches the preceding element zero or one time.                                                     | `co?t` matches "ct","cot" but not "coot"              |
 |     `{n}`     | Matches the preceding element exactly `n` times.                                                    | `co{2}t` matches "coot" but not "cot" or "cooot"      |
-|   `{,max}`    | Matches the preceding element zero to `max` times.                                                  | `co{,2]t` matches "ct","cot","coot" but not "cooot"   |
+|   `{,max}`    | Matches the preceding element zero to `max` times.                                                  | `co{,2]t` matches "ct", "cot", "coot" but not "cooot"   |
 |   `{min,}`    | Matches the preceding element `min` or more times.                                                  | `co{2,}t` matches "coot" and "cooot" but not "cot"    |
 |    `{m,n}`    | Matches the preceding element at least `m` and not more than `n` times.                             | `co{2,3}t` matches "coot" and "cooot" but not "cot"   |
 |     `[ ]`     | Matches the characters inside the brackets. Can also specify ranges of characters such as `[a-z]`.  | `[bcm]at` matches "cat", "bat" and "mat"               |
