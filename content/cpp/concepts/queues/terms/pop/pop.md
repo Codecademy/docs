@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.pop()` method removes the element at the front of the queue.
+The `.pop()` method removes the element at the front of the queue. This will be the oldest element in the queue, the element which was added the earliest.
 
 ## Syntax
 
