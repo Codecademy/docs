@@ -1,6 +1,6 @@
 ---
 Title: 'Regular Expressions'
-Description: 'Regex, short for Regular Expressions, is a powerful system for searching text.'
+Description: 'Regex, short for regular expressions, is a powerful system for searching text.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
