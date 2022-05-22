@@ -46,3 +46,5 @@ The `<summary>` element can only be used as a first child element of the `<detai
   </body>
 </html>
 ```
+
+![[Output of the summary tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-summary-example.png)
