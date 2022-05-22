@@ -50,4 +50,4 @@ The `<details>` element must contain a `<summary>` element which will provide a 
 </html>
 ```
 
-  ![[Output of the details tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-details-tag-example.png)
+![[Output of the details tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-details-tag-example.png)
