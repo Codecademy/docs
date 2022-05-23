@@ -41,11 +41,13 @@ In the example below, the `len()` function is used to return the length of a str
 
 ```codebyte/python
 trainer_name = "Code Ninja"
+
 badges = {
   "pewter city": "boulder badge",
   "cerulean city": "cascade badge",
   "vermillion city": "thunder badge"
 }
+
 pokemon_team = ["Pikachu", "Charmander", "Pidgeotto"]
 
 print(len(trainer_name))
