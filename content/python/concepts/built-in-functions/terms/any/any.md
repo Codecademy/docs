@@ -18,35 +18,15 @@ The `any()` built-in function takes in an iterable object such as a list or tupl
 
 ## Syntax
 
-```py
+```pseudo
 any(iterable)
 ```
 
-## Example 1
+The `iterable` is any sequence or collection that can be traversed, such as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) or [list](https://www.codecademy.com/resources/docs/python/list).
 
-Use `any()` to check if there is a `True` statement in a list `[True, 0, False]`:
+The inside of the pseudocode can be broken down in the following way:
 
-```python
-print(any([True, 0, False]))
-# Output: True
-```
-
-## Example 2
-
-Use `any()` to check if there is a `True` statement in a dictionary:
-
-```python
-my_dict = {1 : "On"}
-
-print(any(my_dict))
-# Output: True
-```
-
-## The Function
-
-The `any()` built-in function is essentially:
-
-```python
+```pseudo
 def any(iterable):
   for element in iterable:
     if element:
@@ -54,14 +34,79 @@ def any(iterable):
   return False
 ```
 
+Inside the loop, at the first instance of an `element` existing in the `iterable`, execution will stop and `True` will be returned. If the end of the loop is reached and the element is not found, `False` is returned instead.
+
+## Example
+
+In the following example, the any() function is used to return a boolean after checking a list and a dictionary:
+
+```py
+print(any([True, 0, False]))
+print(any({0 : "Off"}))
+```
+
+The following output will be printed to the shell:
+
+```shell
+True
+False
+```
+
 ## Codebyte Example
 
-```codebyte/py
-# List
-my_list = [0, 2, False]
-print(any(my_list))
+In the example below, a team of Pokemon are created in preparation for a battle. They are selected based on various properties such as `"level"` and `"type(s)"`. The `any()` function is ultimately used to pick out the Pokemon that meet that criteria:
 
-# Dictionary
-my_dict = {0 : "Off"}
-print(any(my_dict))
+```codebyte/python
+# Declare empty array.
+my_team = []
+
+# Add pokemon to array with function.
+def add_pokemon_to_team(pokemon):
+  my_team.append(pokemon)
+
+# Create array of pokemon objects.
+pokemon = [
+  {
+    "name": "Magikarp",
+    "type(s)": ["Water"],
+    "level": 21,
+    "evolved": False
+  },
+  {
+    "name": "Charizard",
+    "type(s)": ["Fire", "Flying"],
+    "level": 36,
+    "evolved": True
+  },
+  {
+    "name": "Zubat",
+    "type(s)": ["Poison", "Flying"],
+    "level": 18,
+    "evolved": False
+  },
+  {
+    "name": "Ivysaur",
+    "type(s)": ["Grass", "Poison"],
+    "level": 30,
+    "evolved": True
+  }
+]
+
+# Build team based on type and level.
+for p in pokemon:
+  poison_type = "Poison" in p["type(s)"]
+  fire_type = "Fire" in p["type(s)"]
+  acceptable_level = p["level"] >= 25
+
+  necessary_to_win_battle = [
+    poison_type and acceptable_level,
+    fire_type and acceptable_level
+  ]
+
+  # Add pokemon of poison-/fire-types and level 25 or above.
+  if any(necessary_to_win_battle):
+    add_pokemon_to_team(p["name"])
+
+# Print the array of pokemon that qualify for battle.
+print(my_team)
 ```
