@@ -21,7 +21,7 @@ The `.union()` method returns a new set that combines objects from all [sets](ht
 The following syntaxes can be used:
 
 ```pseudo
-set.union(set1, set2, .., setN)
+set.union(set1, set2, ..., setN)
 
 setA | setB | setC
 ```
