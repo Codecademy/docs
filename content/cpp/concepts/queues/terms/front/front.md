@@ -25,7 +25,7 @@ queueName.front();
 
 ## Codebyte Example
 
-The following codebyte example calls the `.front` method on the `colors` queue:
+The following codebyte example calls the `.front()` method on the `colors` queue:
 
 ```codebyte/cpp
 #include <iostream>
