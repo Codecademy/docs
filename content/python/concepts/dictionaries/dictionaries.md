@@ -69,11 +69,11 @@ print(coffee_shop["cold brew"])
 # Output: 3.5
 ```
 
-When you try to retrieve a value for a key that does not exist, it will raise a `KeyError`. If you assign a value to a key that doesn't exist, the new key-value pair will be added. If you assign a value to an already existing dictionary key it replaces the existing value.
+When a value is retrieved from a key that does not exist, `KeyError` is raised. If a value is assigned to a key that doesn't exist, the new key-value pair will be added. If a value is assigned to an existing dictionary key, it replaces the existing value.
 
 ## Iterating Through a Dictionary
 
-There are several ways to iterate through a dictionary depending on which data you want to access: keys, values, or both.
+There are several ways to iterate through a dictionary depending on which data that is accessed: keys, values, or both.
 
 The following codebyte consists of four `for` loops that iterate through the `coffee_shop` dictionary:
 
