@@ -21,7 +21,7 @@ Sets are especially useful for performing logical operations like finding the un
 ```pseudo
 set_A = set(iterable)
 
-set_B = {element_A, element_B, .., elementZ}
+set_B = {element_A, element_B, ..., elementZ}
 ```
 
 There are several ways to create a set, which include:
