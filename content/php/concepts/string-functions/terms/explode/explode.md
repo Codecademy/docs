@@ -46,9 +46,9 @@ The following shows three examples of the `explode()` function operating on one 
 ```codebyte/php
 <?php
   $str = "list,of,comma,delimited,strings,";
-  $strarr1 = explode(",",$str);
-  $strarr2 = explode(",",$str,5);
-  $strarr3 = explode(",",$str,-2);
+  $strarr1 = explode(",", $str);
+  $strarr2 = explode(",", $str, 5);
+  $strarr3 = explode(",", $str, -2);
 
   var_dump($strarr1);
   echo("<br/>");
@@ -57,5 +57,4 @@ The following shows three examples of the `explode()` function operating on one 
   var_dump($strarr3);
   echo("<br/>");
 ?>
-
 ```
