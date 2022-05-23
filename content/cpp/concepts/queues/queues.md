@@ -1,6 +1,6 @@
 ---
 Title: 'Queues'
-Description: 'Queues are container adaptors that store elements in a First-In-First-Out order.'
+Description: 'Queues are container adaptors that store elements in a first-in-first-out order.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
