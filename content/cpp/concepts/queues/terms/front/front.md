@@ -31,7 +31,7 @@ The following codebyte example calls the `.front()` method on the `colors` queue
 #include <iostream>
 #include <queue>
 
-int main(){
+int main() {
   // Declaring a queue
   std::queue<std::string> colors;
 

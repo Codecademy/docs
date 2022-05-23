@@ -31,7 +31,7 @@ The codebyte example below uses the `.size()` method on the `pizzas` queue:
 #include <iostream>
 #include <queue>
 
-int main(){
+int main() {
   // Declaring a queue
   std::queue<std::string> pizzas;
 

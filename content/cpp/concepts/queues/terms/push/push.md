@@ -33,7 +33,7 @@ The codebyte example below uses `.push()` to insert several even integers into t
 #include <iostream>
 #include <queue>
 
-int main(){
+int main() {
   // Declaring a queue
   std::queue<int> even;
 

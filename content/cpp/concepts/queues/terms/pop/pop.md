@@ -31,7 +31,7 @@ The codebyte example below shows `.pop()` being used on the `utensils` queue:
 #include <iostream>
 #include <queue>
 
-int main(){
+int main() {
   // Declaring a queue
   std::queue<std::string> utensils;
 

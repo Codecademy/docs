@@ -31,7 +31,7 @@ The following codebyte example checks whether the `temperatures` queue is empty 
 #include <iostream>
 #include <queue>
 
-int main(){
+int main() {
   // Declare queue
   std::queue<int> temperatures;
 
@@ -42,7 +42,7 @@ int main(){
   temperatures.push(83);
 
   // Check if queue is empty
-  if(temperatures.empty()) {
+  if (temperatures.empty()) {
     std::cout << "The queue is empty.";
   }
   else {
