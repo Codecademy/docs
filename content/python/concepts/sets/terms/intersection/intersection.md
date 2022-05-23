@@ -21,7 +21,7 @@ The `.intersection()` method returns a new set with objects that exist inside tw
 The following syntaxes can be used:
 
 ```pseudo
-set.intersection(set1, set2, .., setN)
+set.intersection(set1, set2, ..., setN)
 
 setA & setB & setC
 ```
