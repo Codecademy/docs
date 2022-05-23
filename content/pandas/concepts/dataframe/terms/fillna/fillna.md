@@ -31,7 +31,7 @@ df = dataframevalue.fillna(value)
 |    `method`    | 'backfill','bfill','pad','ffill',`None` | 'backfill'/'bfill' fills holes with next valid observation. 'pad'/'ffill' fills holes with last valid observation. |
 |     `axis`     | 0/1 or 'index'/'columns'                | Axis along which to fill missing values.                                                                           |
 |   `inplace`    | bool                                    | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                   |
-|    `limit`     | int                                     | Maximum consecutive items to back/forward fill. Defaults to `None`                                                 |
+|    `limit`     | int                                     | Maximum consecutive items to back/forward fill. Defaults to `None`.                                                |
 
 ## Example
 
@@ -46,11 +46,11 @@ df = pd.DataFrame(data = d)
 
 print(f'Original df:\n{df}\n')
 
-df2 = df.fillna(0)
-print(f'After first fillna():\n{first_dropna}\n')
+first_fillna = df.fillna(0)
+print(f'After first fillna():\n{first_fillna}\n')
 
-df3 = df.fillna({'col 1':0,'col 2':'X','col 3':0,'col 4':'X'})
-print(f'After second fillna():\n{df3}\n')
+second_fillna = df.fillna({'col 1':0,'col 2':'X','col 3':0,'col 4':'X'})
+print(f'After second fillna():\n{second_fillna}\n')
 ```
 
 The output from these instances of the `.fillna()` method is shown below:
