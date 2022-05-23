@@ -42,7 +42,7 @@ int main(){
   temperatures.push(83);
 
   // Check if queue is empty
-  if(temperatures.empty()){
+  if(temperatures.empty()) {
     std::cout << "The queue is empty.";
   }
   else{
