@@ -45,7 +45,7 @@ int main(){
   if(temperatures.empty()) {
     std::cout << "The queue is empty.";
   }
-  else{
+  else {
     std::cout << "The queue is not empty.";
   }
 }
