@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.empty` method returns `true` if the [size](https://www.codecademy.com/resources/docs/cpp/queues/size) of the queue is 0. Otherwise, it returns `false`.
+The `.empty()` method returns `true` if the [size](https://www.codecademy.com/resources/docs/cpp/queues/size) of the queue is 0. Otherwise, it returns `false`.
 
 ## Syntax
 
