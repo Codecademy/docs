@@ -1,6 +1,6 @@
 ---
 Title: '.empty()'
-Description: 'Checks if queue has no elements.'
+Description: 'Checks if a queue has no elements.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
