@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Queues are container adaptors that store elements in a First-In-First-Out (FIFO) order. Elements inserted into the queue first are removed first.
+Queues are container adaptors that store elements in a first-in-first-out (FIFO) order. Elements inserted into the queue first are removed first.
 
 ## Syntax
 
