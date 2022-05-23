@@ -21,7 +21,7 @@ The `.difference()` method returns a new set of objects unique to a given set wh
 The following syntaxes can be used:
 
 ```pseudo
-set.difference(set1, set2, .., setN)
+set.difference(set1, set2, ..., setN)
 
 setA - setB - setC
 ```
