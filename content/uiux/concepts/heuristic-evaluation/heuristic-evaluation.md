@@ -19,13 +19,13 @@ The heuristic evaluation is a relatively quick and flexible method of usability 
 
 Designs are evaluated based on compliance with this set of interaction design principles so that designers can continue to iterate and make their designs more usable. Evaluators are tasked with classifying usability problems into categories based on an agreed-upon set of heuristics and rating the seriousness of each problem (source: [Nielsen Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)):
 
-- 0 = I don't agree that this is a usability problem at all
-- 1 = Cosmetic problem only: need not be fixed unless extra time is available on project
-- 2 = Minor usability problem: fixing this should be given low priority
-- 3 = Major usability problem: important to fix, so should be given high priority
-- 4 = Usability catastrophe: imperative to fix this before product can be released
+- 0 - I don't agree that this is a usability problem at all
+- 1 - Cosmetic problem only: need not be fixed unless extra time is available on project
+- 2 - Minor usability problem: fixing this should be given low priority
+- 3 - Major usability problem: important to fix, so should be given high priority
+- 4 - Usability catastrophe: imperative to fix this before product can be released
 
-**Learn more about the heuristic evaluation**:
+Learn more about the heuristic evaluation:
 
 - [Nielsen Norman Group: How to Conduct a Heuristic Evaluation](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)
 - [Nielsen Norman Group: Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
