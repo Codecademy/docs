@@ -34,7 +34,7 @@ The following example prints out a section of a longer string.
 
 int main()
 {
-    std::string base="this is a test string.";
+    std::string base = "this is a test string.";
 
     std::cout << base.substr(10,4) << '\n';
 
