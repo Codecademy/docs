@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.substr()` method returns a portion of a string specified by starting position and length.
+The `.substr()` method returns a portion of a string specified by a starting position and length.
 
 ## Syntax
 
