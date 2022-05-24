@@ -13,7 +13,6 @@ CatalogContent:
 
 The term "wicked problems", coined by design theorist Horst Rittel and often associated with [design thinking](https://www.codecademy.com/resources/docs/uiux/design-thinking), describes the types of extremely complex, multi-dimensional problems that designers are often tasked to solve. Framing design in terms of "wicked problems" acknowledges the complexity of these problems&mdash;and the ways that design can affect change at a systemic level.
 
-
 ## Ten Characteristics of Wicked Problems
 
 According to [Horst Rittel and Melvin Webber](https://link.springer.com/article/10.1007/bf01405730), wicked problems have [ten characteristics](https://www.stonybrook.edu/commcms/wicked-problem/about/What-is-a-wicked-problem):
