@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Qualitative research_ methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a user's experience.
+Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a user's experience.
 
 Qualitative methods can be used at any stage of the design process, but may provide especially useful insights during the exploratory discovery and ideation stages, when teams are trying to get to know target users in-depth.
 
