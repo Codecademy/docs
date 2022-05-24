@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Quantitative research_ methods are those that collect numerically measurable data. These methods allow UX professionals to discover broad patterns, compare different designs and their trade-offs, and tie their work back to company goals and key performance indicators (KPIs).
+Quantitative research methods are those that collect numerically measurable data. These methods allow UX professionals to discover broad patterns, compare different designs and their trade-offs, and tie their work back to company goals and key performance indicators (KPIs).
 
 Quantitative methods can be used at any stage of the design process, but are often used at the beginning and end of the design process, first to gain an understanding of the market or ecosystem, and later to evaluate the performance of a product or design.
 
