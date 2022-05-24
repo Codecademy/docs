@@ -15,20 +15,29 @@ Callback functions are functions that are passed as arguments in other functions
 
 In JavaScript, functions can be passed as arguments because functions are objects.
 
-Suppose there are two functions, `functionA()` and `functionB()`:
+Suppose we want to create a function which makes a calculation and doubles the results of that calculation:
 
 ```js
-function functionA(num1, num2) {
+function doubleResult(num1, num2, calc) {
+  return calc(num1, num2) * 2;
+}
+
+function add(num1, num2) {
   return num1 + num2;
 }
 
-function functionB(callback) {
-  return callback(2, 4) * 2;
+function multiply(num1, num2) {
+  return num1 * num2;
 }
 
-console.log(functionB(functionA)); // Output: 12
+console.log(doubleResult(4, 2, add)); // Output: 12
+console.log(doubleResult(4, 2, multiply)); // Output: 16
 ```
 
-In the code above, `functionA()` accepts two arguments `num1` and `num2`. The other function, `functionB()`, accepts a single argument `callback`. When `functionB()` is executed, the value of the executed `callback` argument is returned.
+In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `calc`. `num1` and `num2` are the numbers which the user wants to be used in the calculation. `calc` is a function which the user passes as the third argument into the `doubleResult` function and contains the calculation code.
 
-In the log statment, we pass `functionA()` as the callback to `functionB()` and 12 is logged to the console.
+`add` and `multiply` functions are just two basic functions which add OR multiply the two numbers passed into them as arguments.
+
+In the log statments, we envoke `doubleResult()` function and pass two numbers as first and second arguments. We pass `add` OR `multiply`, as the third argument, to `doubleResult()` and 12 OR 16 is logged to the console depending on the third argument.
+
+In the above example `douleResult` is called a **higher order function** while `add` and `multiply` are called **callback functions**.
