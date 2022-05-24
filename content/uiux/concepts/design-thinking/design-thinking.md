@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Design thinking_ is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) that puts people at the center of every process and encourages designers to set aside assumptions. This formal methodology has [developed across multiple disciplines since the 1960s](https://www.interaction-design.org/literature/article/design-thinking-get-a-quick-overview-of-the-history) and is commonly associated with the design and consulting firm [IDEO](https://designthinking.ideo.com/) and the Stanford School of Design (the [d.school](https://dschool.stanford.edu/)).
+Design thinking is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) that puts people at the center of every process and encourages designers to set aside assumptions. This formal methodology has [developed across multiple disciplines since the 1960s](https://www.interaction-design.org/literature/article/design-thinking-get-a-quick-overview-of-the-history) and is commonly associated with the design and consulting firm [IDEO](https://designthinking.ideo.com/) and the Stanford School of Design (the [d.school](https://dschool.stanford.edu/)).
 
 ![A diagram of the five phases of the design thinking process: Empathize, Define, Ideate, Prototype, and Test.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/design-thinking-5-steps.png)
 
