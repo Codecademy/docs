@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Personas_ are fictional archetypes of the target users of a product or design, created as composites of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) or market research. Businesses create personas in order to build empathy for users and foster a shared understanding of the types of people who use a product.
+Personas are fictional archetypes of the target users of a product or design, created as composites of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) or market research. Businesses create personas in order to build empathy for users and foster a shared understanding of the types of people who use a product.
 
 Tools like personas, user journey maps, and storyboards are used by researchers to advocate for the user, tell stories, and circulate key points from user research across an organization. Using a range of multiple personas offers an opportunity to share research on both "typical" users of a product and fringe or outlier users in a concise, memorable way.
 
@@ -39,7 +39,7 @@ Similar to [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-f
 
 ![Illustrations of three tools used by user researchers to communicate their research findings: personas, storyboards, and journey maps.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/ux-research.png)
 
-**Learn more about personas:**
+Learn more about personas:
 
 - [Codecademy: Creating User Personas](https://www.codecademy.com/article/ui-design-personas)
 - [Interaction Design Foundation: Personas – A Simple Introduction](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)
