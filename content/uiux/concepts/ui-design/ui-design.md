@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_User interface (UI) design_ is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.
+User interface (UI) design is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.
 
 UI design considerations include:
 
@@ -26,16 +26,16 @@ UI design considerations include:
 
 ![Examples of user interfaces on differently sized screens: smartphones, laptops, a large monitor, and a smart watch.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/devices.png)
 
-UI designers are focused on the design of [user interfaces](DOCS LINK), or what will appear on the screen through which a user interacts with a device. This role is most responsible for the [visceral](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design) experience of the product, ensuring it sets its best foot forward and makes a good impression on users. UI designers are usually most involved later in the product development process, with creating the "surface" of the product as described by the [5 Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
+UI designers are focused on the design of [user interfaces](DOCS LINK), or what will appear on the screen through which a user interacts with a device. This role is most responsible for the [visceral](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design) experience of the product, ensuring it sets its best foot forward and makes a good impression on users. UI designers are usually most involved later in the product development process, with creating the "surface" of the product as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
 
 ![The Five Elements of UX Design, from concrete to abstract: Surface, Skeleton, Structure, Scope, and Strategy, with UX design encompassing the entire process, and UI design focused on the Surface.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/five-elements-of-ux-design.svg)
 
 A day in the life of a UI designer may include:
 
-- Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design
-- Deciding on a color palette for a mobile app
-- Creating a visual style guide for a new sub-brand
-- Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design
-- Communicating with developers about technical design requirements
+- Creating [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) digital prototypes of a design.
+- Deciding on a color palette for a mobile app.
+- Creating a visual style guide for a new sub-brand.
+- Checking the [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) of a design.
+- Communicating with developers about technical design requirements.
 
 Both user interface (UI) design and [user experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) are centered on users and ensure that the products and systems are meeting real needs and are as intuitive and pleasant as possible to use.
