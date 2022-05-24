@@ -1,6 +1,6 @@
 ---
 Title: '.substr()'
-Description: 'Returns a portion of a string specified by starting position and length.'
+Description: 'Returns a portion of a string specified by a starting position and length.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
