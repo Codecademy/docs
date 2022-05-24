@@ -11,7 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Accessibility_ refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use the device or product.
+Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use the device or product.
+
+## Accessibility Guidelines
 
 The Web Content Accessibility Guidelines (WCAG) break down accessibility into [four main principles](https://www.w3.org/WAI/standards-guidelines/wcag/glance/):
 
@@ -22,9 +24,9 @@ The Web Content Accessibility Guidelines (WCAG) break down accessibility into [f
 
 [Inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
-**Learn more about accessibility and design**:
+Learn more about accessibility and design:
 
-- [Codecademy: What is Digital Accessibility?](https://www.codecademy.com/content-items/c2b65f9281fdeff54c3a228926ed913c?preview=true)
+- [Codecademy: What is Digital Accessibility?](https://www.codecademy.com/article/what-is-digital-accessibility)
 - [W3C: Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [The A11Y Project](https://www.a11yproject.com/)
 - [Interaction Design Foundation: What Is Accessibility?](https://www.interaction-design.org/literature/topics/accessibility)
