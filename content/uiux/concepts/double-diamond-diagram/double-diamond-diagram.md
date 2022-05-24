@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The _double diamond diagram_ is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of a two-diamond structure that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process. The four phases of the double diamond process are: discover, define, develop, and deliver.
+The double diamond diagram is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of a two-diamond structure that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process. The four phases of the double diamond process are: discover, define, develop, and deliver.
 
 ![The Double Diamond diagram: two diamonds side-by-side, broken down into Strategy (Discover and Define) and Execution (Develop and Deliver) phases, moving from problem to solution.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/double-diamond.png)
 
@@ -21,9 +21,11 @@ The double diamond diagram illustrates two modes of thinking that occur during t
 
 The four phases of the double diamond process are as follows:
 
+## Double Diamond Phases
+
 1. **Discover (divergent strategy)**: Explore the problem and landscape, and learn from users and the market through user interviews, surveys, and other research.
 2. **Define (convergent strategy)**: Sort and analyze the information gathered during the discovery stage and hone in on the problem we're trying to solve.
 3. **Develop (divergent execution)**: Generate a range of ideas for possible solutions through brainstorms, workshops, low fidelity prototypes, and other ideation methods. Test different ideas with users or within the company to see what resonates.
 4. **Deliver (convergent execution)**: Hone in on, develop, and deliver the solution. Continue evaluating and testing the developed design to ensure it meets user needs.
 
-This methodology was [formalized by the British Design Council](<https://www.designcouncil.org.uk/sites/default/files/asset/document/ElevenLessons_Design_Council%20(2).pdf>) in 2005 through an in-depth study of 11 global brands, including LEGO, Microsoft, Sony, and Starbucks.
+This methodology was [formalized by the British Design Council](https://www.designcouncil.org.uk/sites/default/files/asset/document/ElevenLessons_Design_Council%20(2).pdf) in 2005 through an in-depth study of 11 global brands, including LEGO, Microsoft, Sony, and Starbucks.
