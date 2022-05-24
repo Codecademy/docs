@@ -35,10 +35,10 @@ selector1 ~ selector2 ... ~ selectorN {
 }
 ```
 
-<!-- markdownlint-disable no-space-in-code -->
+<!-- markdownlint-disable MD038 -->
 
 - The space selector (` `) matches all descendants of a specified element.
-<!-- markdownlint-enable no-space-in-code -->
+<!-- markdownlint-enable MD038 -->
 - The child selector (`>`) matches all children of a specified element.
 - The adjacent sibling selector (`+`) matches all elements directly after the preceding element.
 - The general sibling selector (`~`) matches all elements that are next to the preceding element.
