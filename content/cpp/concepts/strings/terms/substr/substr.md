@@ -22,7 +22,7 @@ basestring.substr(pos,len)
 
 - `basestring` is the string whose substring is being returned.
 - `pos` is the zero-based starting position of the substring. An exception is thrown if `pos` is greater than [`.size()`](https://www.codecademy.com/resources/docs/cpp/strings/size)
-- `len` is the number of characters to return in substring. If `len` is greater than the number of characters after`pos`, the whole remainder of the string is returned.
+- `len` is the number of characters to return in the substring. If `len` is greater than the number of characters after `pos`, the whole remainder of the string is returned.
 
 ## Codebyte Example
 
