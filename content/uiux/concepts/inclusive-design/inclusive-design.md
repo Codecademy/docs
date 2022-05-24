@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Inclusive design_ is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities, with a focus on those who may have been historically marginalized or excluded.
+Inclusive design is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities, with a focus on those who may have been historically marginalized or excluded.
 
 One tenet of inclusive design, as outlined by Microsoft, is "solve for one, extend to many", or the idea that inclusive design practices benefit people universally.
 
@@ -19,7 +19,7 @@ Inclusive design focuses on designing for users of all demographics and abilitie
 
 Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
-**Learn more about designing for equity and inclusion**:
+Learn more about designing for equity and inclusion:
 
 - [Nielsen Norman Group: Inclusive Design](https://www.nngroup.com/articles/inclusive-design/)
 - [Microsoft: Inclusive Design](https://www.microsoft.com/design/inclusive/)
