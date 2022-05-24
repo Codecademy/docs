@@ -35,7 +35,7 @@ df = dataframevalue.fillna(value)
 
 ## Example
 
-In the following example, the `.fillna()` method is used in to fill `NA` values in a DataFrame first with a scalar, then with a dict:
+In the following example, the `.fillna()` method is used to fill in `NA` values in a DataFrame first with a scalar, then with a dict:
 
 ```py
 import pandas as pd
