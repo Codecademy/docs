@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_User-centered design (UCD)_ is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of an iterative process that puts users at the center of product development and involves them in the design from the beginning. User-centered design processes generally involve the following activities: understand, specify, design, and evaluate.
+User-centered design (UCD) is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of an iterative process that puts users at the center of product development and involves them in the design from the beginning. UCD processes generally involve the following activities: understand, specify, design, and evaluate.
 
 ![A cycle diagram of the user-centered design process, with people at the center of the diagram. The four steps of the cycle are Understand, Specify, Design, and Evaluate.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/user-centered-design.png)
 
-User-centered design responds to both contexts of use (such as the user's environment, technology, and emotional state) and business goals. While user-centered design processes may define the steps differently, they generally involve the following activities:
+UCD responds to both contexts of use (such as the user's environment, technology, and emotional state) and business goals. While UCD processes may define the steps differently, they generally involve the following activities:
 
 1. **Understand**: Empathize with the user.
 2. **Specify**: Hone in on a specific problem to solve.
