@@ -25,7 +25,7 @@ User experience (UX) design focuses on:
 - **Storyboards**: A sequence of panels (often resembling a comic book) depicting a user journey chronologically.
 - **[High-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes**: Iterative models, sketches or [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe) of a design used to gather feedback and inform the final design.
 
-UX designers are involved in the whole product or service experience from start to finish, including the strategy, scope, structure, skeleton, and surface, as described by the [5 Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
+UX designers are involved in the whole product or service experience from start to finish, including the strategy, scope, structure, skeleton, and surface, as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
 
 ![The Five Elements of UX Design, from concrete to abstract: Surface, Skeleton, Structure, Scope, and Strategy, with UX design encompassing the entire process, and UI design focused on the Surface.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/five-elements-of-ux-design.svg)
 
