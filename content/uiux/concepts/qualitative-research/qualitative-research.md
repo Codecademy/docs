@@ -1,6 +1,6 @@
 ---
 Title: 'Qualitative Research'
-Description: 'Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a users experience.'
+Description: 'Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind their experience.'
 Subjects:
   - 'Web Design'
 Tags:
@@ -13,13 +13,13 @@ CatalogContent:
 
 Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind a user's experience.
 
-Qualitative methods can be used at any stage of the design process, but may provide especially useful insights during the exploratory discovery and ideation stages, when teams are trying to get to know target users in-depth.
+While can be used at any stage of the design process, qualitative methods may provide especially useful insights during the exploratory discovery and ideation stages, when teams are trying to get to know target users in-depth.
 
 Compared to [quantitative research](https://www.codecademy.com/resources/docs/uiux/quantitative-research), qualitative research generally provides richer data about a smaller number of participants. Combining qualitative methods with quantitative methods can help explain _why_ users are behaving in a particular way. Quantitative research can help build empathy with users and provide illustrative anecdotes.
 
 Qualitative [attitudinal](https://www.codecademy.com/resources/docs/uiux/attitudinal-research) data may include thoughts, beliefs, and self-reported needs from interviews, focus groups, and diary studies, while qualitative [behavioral](https://www.codecademy.com/resources/docs/uiux/behavioral-research) data focuses on behaviors from methods such as contextual inquiry and ethnography.
 
-**Learn more about qualitative research methods and analysis:**
+Learn more about qualitative research methods and analysis:
 
 - [Adobe XD: The “Why” Behind Qualitative User Research](https://xd.adobe.com/ideas/process/user-research/why-behind-qualitative-user-research/)
 - [Nielsen Norman Group: How to Analyze Qualitative Data from UX Research: Thematic Analysis](https://www.nngroup.com/articles/thematic-analysis/)
