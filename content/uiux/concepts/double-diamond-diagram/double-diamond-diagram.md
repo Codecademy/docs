@@ -19,9 +19,9 @@ This model promotes creativity and innovation while making it clear when decisio
 
 The double diamond diagram illustrates two modes of thinking that occur during the strategy and execution stages of the design process. [Divergent thinking](https://www.codecademy.com/resources/docs/uiux/divergent-thinking) explores many possible solutions and generates novel ideas. [Convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) analyzes, filters, and focuses ideas and leads to decisions.
 
-The four phases of the double diamond process are as follows:
-
 ## Double Diamond Phases
+
+The four phases of the double diamond process are as follows:
 
 1. **Discover (divergent strategy)**: Explore the problem and landscape, and learn from users and the market through user interviews, surveys, and other research.
 2. **Define (convergent strategy)**: Sort and analyze the information gathered during the discovery stage and hone in on the problem we're trying to solve.
