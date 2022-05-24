@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The _context of use_ describes the environment and conditions under which a product or design will be used.
+The context of use describes the environment and conditions under which a product or design will be used.
 
 [User experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) considers the entire experience around a product or service, taking into account the user's emotional state, the context of use or environment, and the designed system or artifact.
 
