@@ -28,7 +28,7 @@ df = dataframevalue.fillna(value)
 | Parameter Name | Data Type                               | Usage                                                                                                              |
 | :------------: | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 |    `value`     | scalar, dict, Series, Dataframe         | Value used to fill holes. A scalar or a dict/Series/DataFrame specifying replacement values for each column.       |
-|    `method`    | 'backfill','bfill','pad','ffill',`None` | 'backfill'/'bfill' fills holes with next valid observation. 'pad'/'ffill' fills holes with last valid observation. |
+|    `method`    | 'backfill', 'bfill', 'pad', 'ffill', `None` | 'backfill'/'bfill' fills holes with next valid observation. 'pad'/'ffill' fills holes with last valid observation. |
 |     `axis`     | 0/1 or 'index'/'columns'                | Axis along which to fill missing values.                                                                           |
 |   `inplace`    | bool                                    | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                   |
 |    `limit`     | int                                     | Maximum consecutive items to back/forward fill. Defaults to `None`.                                                |
