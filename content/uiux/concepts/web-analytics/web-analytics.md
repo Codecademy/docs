@@ -11,9 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Web analytics_ are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design. While they are commonly associated with marketing, web analytics are also helpful for [user research](https://www.codecademy.com/resources/docs/uiux/user-research).
+Web analytics are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design. While they are commonly associated with marketing, web analytics are also helpful for [user research](https://www.codecademy.com/resources/docs/uiux/user-research).
 
 Web analytics are a source of [quantitative](https://www.codecademy.com/resources/docs/uiux/quantitative-research) data, since they can be measured numerically, and are considered a [behavioral research method](https://www.codecademy.com/resources/docs/uiux/behavioral-research), since they observe real user behavior. Web analytics are an evaluative research method, and can only be gathered after a product has been released to assess its performance.
+
+## Examples
 
 Common forms of web analytics include:
 
@@ -24,7 +26,8 @@ Common forms of web analytics include:
 - **[A/B testing](https://www.nngroup.com/articles/putting-ab-testing-in-its-place/)**: A/B testing presents two or more different versions of a design to users to test their effectiveness. [Multivariate testing](https://www.nngroup.com/articles/multivariate-testing/) is similar to A/B testing, but involves varying multiple design elements at the same time.
 - **Heatmaps or clickmaps**: Heatmaps or clickmaps offer visual representations of how users are interacting with a design and where they are looking or clicking the most. Common heatmap tools include [CrazyEgg](https://crazyegg.com) and [Hotjar](https://hotjar.com).
 
-**Learn more about web analytics for UX:**
+
+Learn more about web analytics for UX:
 
 - [Mixpanel: Data-informed design: Getting started with UX analytics](https://mixpanel.com/blog/what-is-ux-analytics/)
 - [UX Booth: Complete Beginner’s Guide to Analytics](https://www.uxbooth.com/articles/complete-beginners-guide-to-web-analytics-and-measurement/)
