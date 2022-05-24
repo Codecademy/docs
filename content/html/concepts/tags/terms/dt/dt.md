@@ -1,0 +1,49 @@
+---
+Title: '<dt>'
+Description: ''
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Lists'
+  - 'Tags'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The `<dt>` tag describes a term found inside a `<dl>` tag. It usually comes with at least one corresponding `<dd>` details tag.
+
+## Syntax
+
+```html
+<dl>
+  <dt>Term</dt>
+  <!-- <dd> detail(s) here -->
+</dl>
+```
+
+In order to render correctly, the `<dt>` tag must be placed inside a `<dl>` tag.
+
+## Example
+
+In the example below, the `<dt>` is used (and highlighted with some styling):
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Styles are omitted for purposes of this example. -->
+  </head>
+  <body>
+    <dl>
+      <dt class="term">Term</dt>
+      <dd class="detail">Detail</dd>
+    </dl>
+  </body>
+</html>
+```
+
+The following output would be rendered:
+
+![Example of d t tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/dt-tag-example.png)

@@ -1,0 +1,62 @@
+---
+Title: '<dl>'
+Description: 'Dislpays terms and details, commonly for metadata purposes.'
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Lists'
+  - 'Tags'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The `<dl>` tag is a description list that displays terms and details, commonly for metadata purposes.
+
+## Syntax
+
+```html
+<dl>
+  <!-- <dt> terms here -->
+  <!-- <dd> details here -->
+</dl>
+```
+
+Inside the `<dl>` tag, one or more `<dt>` and `<dd>` tags can be used.
+
+**Note**: For Apple VoiceOver, the `<dl>` tag will be recognized and announced as a "list" on macOS devices whereas it [will not](https://cdpn.io/pen/debug/NzGaKP) be recognized on iOS devices.
+
+With iOS, the `<dl>` be recognized by may not always be the best option
+
+## Example
+
+The `<dl>` tag also supports nesting `<dt>`-`<dd>` pairs inside a [`<div>`](https://www.codecademy.com/resources/docs/html/tags/div) tag when working with content microdata, global attributes, or general [CSS](https://www.codecademy.com/resources/docs/css) styling.
+
+In the example below, this technique is used inside the `<dl>` tag. Additionally, some default styling is in place to highlight the list itself:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Styles are omitted for purposes of this example. -->
+  </head>
+  <body>
+    <dl>
+      <div>
+        <dt id="term-a" class="term">Term A</dt>
+        <dd class="detail">Detail A</dd>
+      </div>
+
+      <div>
+        <dt id="term-b" class="term">TermB</dt>
+        <dd class="detail">Detail B</dd>
+      </div>
+    </dl>
+  </body>
+</html>
+```
+
+The rendered output is shown below:
+
+![Example of d l tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/dl-tag-example.png)
