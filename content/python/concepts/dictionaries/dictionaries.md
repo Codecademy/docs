@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is an ordered set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated to keys.'
+Description: 'A dictionary is a data set of key-value pairs.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,13 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A dictionary is an ordered set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys. Keys must be unique in dictionaries, but the values don't have to be.
+A dictionary is a data set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys.
 
-Python dictionaries are dynamic and mutable, which means they can change.
+In Python, dictionaries are dynamic and mutable, which means they can change.
 
-If you assign a value to an already existing dictionary key, it does not add the key a second time. Instead, it replaces the existing value. Dictionaries also have several built-in methods which make it easier to manipulate the data structure and objects contained within.
-
-**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in Python 3.6 and earlier.
+**Note:** As of Python version 3.7, dictionaries are ordered based on insertion, but this is not the case in previous versions.
 
 ## Syntax
 
@@ -62,7 +60,7 @@ The three key-value pairs in the `coffee_shop` dictionary:
 
 ## Accessing a Dictionary
 
-The values in a dictionary can be accessed by passing the associated key name:
+The values in a dictionary can be accessed by passing the associated key name in a `dictionary[key]` syntax:
 
 ```py
 coffee_shop = { "cold brew": 3.50, "latte": 4.25, "cappucino": 3.99 }
@@ -71,11 +69,11 @@ print(coffee_shop["cold brew"])
 # Output: 3.5
 ```
 
-When you try to access a key that does not exist, it will raise a `KeyError`.
+When a value is retrieved from a key that does not exist, `KeyError` is raised. If a value is assigned to a key that doesn't exist, the new key-value pair will be added. If a value is assigned to an existing dictionary key, it replaces the existing value.
 
 ## Iterating Through a Dictionary
 
-There are several ways to iterate through a dictionary depending on which data you want to access: keys, values, or both.
+There are several ways to iterate through a dictionary depending on which data that is accessed: keys, values, or both.
 
 The following codebyte consists of four `for` loops that iterate through the `coffee_shop` dictionary:
 
@@ -130,3 +128,5 @@ nums_squared = { num: num**2 for num in nums_list }
 ```
 
 `nums_squared` will produce a result of: `{ 1: 1, 2: 4, 3: 9, 4: 16, 5: 25 }`
+
+The following built-in methods listed below help with manipulating dictionaries and the objects within:
