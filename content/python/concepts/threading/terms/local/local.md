@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.local()` method returns a local thread object with data that is specific to that thread.
+The `.local()` method returns a local thread object with data that is specific to that thread. This data can be anything from arbitruary numbers to session-specific information like usernames.
 
 ## Syntax
 
@@ -23,24 +23,6 @@ threading.local()
 No parameters are used in the `.local()` method.
 
 ## Example
-
-Additionally, the object returned by `.local()` can be assigned to a variable, which is then stored in memory:
-
-```py
-import threading
-
-local_thread = threading.local()
-
-print(local_thread)
-```
-
-The output would look like this:
-
-```shell
-<_thread._local object at 0x7fde6ae24200>
-```
-
-## Codebyte Example
 
 Data can be locally stored as a property in a specific thread, as shown in the example below:
 
@@ -55,4 +37,26 @@ local_2.x = 2
 
 print(local_1.x)
 print(local_2.x)
+```
+
+The output would look like this:
+
+```shell
+1
+2
+```
+
+## Codebyte Example
+
+Additionally, the object returned by `.local()` can be assigned to a variable, which is then stored in memory. Any stored data can be found in the local thread's predefined `__dict__` attribute:
+
+```codebyte/python
+import threading
+
+local_user_session = threading.local()
+
+local_user_session.username = 'Code Ninja'
+local_user_session.userID = 82011
+
+print(local_user_session.__dict__)
 ```

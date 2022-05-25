@@ -1,6 +1,6 @@
 ---
 Title: '.run()'
-Description: 'Returns the activity that takes place within a thread.'
+Description: 'Executes any target function belonging to a given thread object that is now active.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.run()` method returns the activity that takes place within a thread. It normally executes in the background after the [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start) method is invoked.
+The `.run()` method executes any target function belonging to a given thread object that is now active. It normally executes in the background after the [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start) method is invoked.
 
 ## Syntax
 
