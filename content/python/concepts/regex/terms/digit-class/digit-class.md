@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `\d` character class matches any digit (0-9) in a given pattern. The inverse of this class is designated with a capital, `\D`, and will match any character that is not a digit.
+The `\d` character class matches any digit (0-9) in a given pattern. The inverse of this class is designated with a capital, [`\D`](https://www.codecademy.com/resources/docs/python/regex/non-digit-class), and will match any character that is not a digit.
 
 ## Syntax
 

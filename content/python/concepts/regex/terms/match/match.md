@@ -31,17 +31,16 @@ A `<pattern>` can include any of the following:
 
 The `<flags>` are optional and can be set to `IGNORECASE`, `VERBOSE`, or `DOTALL`.
 
-**Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
+**Note:** [`.search()`](https://www.codecademy.com/resources/docs/python/regex/search) will only return the the first match (as a match object) within the string; alternatively, the [`.findall()`](https://www.codecademy.com/resources/docs/python/regex/findall) method matches every occurrence (and returns a list of matches).
 
 ## Example
 
-All content that appears within parentheses are matched with the `.search()` method in the example below:
+In the example below, the `.match()` method is used to find a pattern at the beginning of the string:
 
 ```py
 import re
 
-result = re.match(r'www\S+', 'www.codeacademy.com')
-# \S matches any character except a space, tab or newline
+result = re.match(r'www', 'www.codeacademy.com')
 
 print(result)
 ```
@@ -49,7 +48,7 @@ print(result)
 The output will look like this:
 
 ```shell
-<re.Match object; span=(0, 19), match='www.codeacademy.com'>
+<_sre.SRE_Match object; span=(0, 3), match='www'>
 ```
 
 ## Codebyte Example
@@ -59,8 +58,7 @@ The following example returns `None` because the test pattern is not at the begi
 ```py
 import re
 
-result = re.search(r'codecademy', 'www.codeacademy.com')
-# \S matches any character except a space, tab or newline
+result = re.match(r'codecademy', 'www.codeacademy.com')
 
 print(result)
 ```

@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `\D` character class matches any non-digit (0-9) in a given pattern. The inverse of this class is designated with a lowercase, `\d`, and will match any character that is a digit.
+The `\D` character class matches any non-digit (0-9) in a given pattern. The inverse of this class is designated with a lowercase, [`\d`](https://www.codecademy.com/resources/docs/python/regex/digit-class), and will match any character that is a digit.
 
 ## Syntax
 
 ```pseudo
-a_given_time = r'\d:\d\d'
+`/D'
 ```
 
-Used by itself, the `\d` class will match a single valid character inside the pattern.
+Used by itself, the `\D` class will match a single valid character inside the pattern that is not a digit.
 
 ## Example
 
@@ -46,7 +46,7 @@ The output would look like the following:
 
 ## Codebyte Example
 
-The example below matches the names of the racers with the help of the `\d` character class:
+The example below matches the names of the racers with the help of the `\D` character class:
 
 ```codebyte/python
 import re
