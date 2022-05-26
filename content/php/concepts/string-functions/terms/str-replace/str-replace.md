@@ -35,7 +35,7 @@ This example provides three demonstrations of `str_replace()` operating on a str
   $search = array("a", "e", "i", "o", "u");
   $replace = array("1", "2", "3", "4", "5");
 
-  echo(str_replace($search,$replace,"Hello World!") . "<br/>");
+  echo(str_replace($search,$replace,"Hello World!") . "\n");
   echo(str_replace($search,"x","Hello World!") . "<br/>");
 
   $result = str_replace("o","0","Hello World!",$count);
