@@ -25,7 +25,7 @@ baseString.replace(pos, len, str, subpos, sublen)
 - `len` is the number of characters to be replaced.
 - `str` is the replacement string.
 - `subpos` is optional, and is the zero-based starting point of the replacement characters used from `str`.
-- `sublen` is optional, and is the number of replacement characters used from `str`
+- `sublen` is optional, and is the number of replacement characters used from `str`.
 
 If `subpos` and `sublen` aren't specified, the entire `str` is used for the replacement.
 
