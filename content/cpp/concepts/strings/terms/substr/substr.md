@@ -28,7 +28,7 @@ basestring.substr(pos,len)
 
 The following example prints out a section of a longer string.
 
-```codebyte\cpp
+```codebyte/cpp
 #include <iostream>
 #include <string>
 
