@@ -95,3 +95,12 @@ public class Example {
     }
 }
 ```
+
+This produces the following output:
+
+```shell
+sells
+sea
+shells
+sea
+```
