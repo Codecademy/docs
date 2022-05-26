@@ -76,7 +76,7 @@ The `Matcher` class includes the following methods:
 - `.start(group)` : Returns the offset of the first character matched. If optional `int` `group` included, returns the index of the match made by the given subgroup during the last match operation. (Subgroups defined by enclosing parentheses `(...)`)
 - `.usePattern(pattern)` : Sets `Matcher` instance to use new `Pattern` instance `pattern`.
 
-## Codebyte Example
+## Example
 
 The following example finds all the words that start with "s" and have an "e" as the second or third character.
 
