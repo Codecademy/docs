@@ -22,7 +22,7 @@ Divide a string into substrings at each occurrence of the specified character(s)
 re.split(<pattern>, string, <maxsplit>, <flags>)
 ```
 
-A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/regular-expressions) that can include any of the following:
+A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
 
 - A string: `Jane Smith`
 - A character class code: `/w`, `/s` , `/d`
