@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.local()` method returns a local thread object with data that is specific to that thread. This data can be anything from arbitruary numbers to session-specific information like usernames.
+The `.local()` method returns a local thread object with data that is specific to that thread. This data can be anything from arbitrary numbers to session-specific information like usernames.
 
 ## Syntax
 
