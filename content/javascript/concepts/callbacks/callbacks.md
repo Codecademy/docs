@@ -41,3 +41,27 @@ In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `c
 In the log statments, we envoke `doubleResult()` function and pass two numbers as first and second arguments. We pass `add` OR `multiply`, as the third argument, to `doubleResult()` and 12 OR 16 is logged to the console depending on the third argument.
 
 In the above example `douleResult` is called a **higher order function** while `add` and `multiply` are called **callback functions**.
+
+## Codebyte Example
+
+Here, `createNewArray` function returns a new array based on array and callback function passed to it as arguments.
+
+```codebyte/javascript
+function createNewArray(arr, callback) {
+  const output = [];
+  for (let i = 0; i < arr.length; i++) {
+    output.push(callback(arr[i]));
+  };
+  return output;
+}
+
+function double(input) { return input * 2; };
+function divide(input) { return input / 2; };
+function increment(input) { return input + 1 };
+
+const array = [1, 2, 3];
+
+console.log(createNewArray(array, double));
+console.log(createNewArray(array, divide));
+console.log(createNewArray(array, increment));
+```
