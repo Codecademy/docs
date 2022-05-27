@@ -36,13 +36,15 @@ Using different sources provides more options for the browser with regards to th
   <head> </head>
   <body>
     <picture>
-      <source media="(min-width:700px)" srcset="img_white_shoes.jpg" />
-      <source media="(min-width:540px)" srcset="img_blue_shoes.jpg" />
-      <img src="img_red_shoes.jpg" alt="Red Shoes" style="width:auto;" />
+      <source media="(min-width:700px)" srcset="CodecademyLogoLarge.jpg" />
+      <source media="(min-width:540px)" srcset="CodecademyLogoSmall.jpg" />
+      <img src="CodecademyLogoLarge.jpg" alt="The Codecademy logo" style="width:auto;" />
     </picture>
   </body>
 </html>
 ```
+
+![Output of the picture tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/cc_logo.png)
 
 Some use cases for this example include the following:
 
