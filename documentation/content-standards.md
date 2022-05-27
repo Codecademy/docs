@@ -144,7 +144,9 @@ Currently, Codebytes supports the following languages:
 
 #### File Hosting
 
-If you'd like to include an image, video, GIF, or other file in your entry, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media). That way we'll never have any broken links!
+If you'd like to host files such as images, videos, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media) and use the format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`. That way we'll never have any broken links!
+
+**Note**: Some images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecodemy course content and are for internal-use only. Please disregard those and use the `media` folder and format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`, instead.
 
 ### I've read all the content standards. Now what?
 
