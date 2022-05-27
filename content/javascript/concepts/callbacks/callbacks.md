@@ -15,7 +15,7 @@ Callback functions are functions that are passed as arguments in other functions
 
 In JavaScript, functions can be passed as arguments because functions are objects.
 
-Suppose we want to create a function which makes a calculation and doubles the results of that calculation:
+Suppose a function is created which makes a calculation and doubles the results of that calculation:
 
 ```js
 function doubleResult(num1, num2, calc) {
