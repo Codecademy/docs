@@ -36,7 +36,7 @@ console.log(doubleResult(4, 2, multiply)); // Output: 16
 
 In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `calc`. `num1` and `num2` are the numbers which the user wants to be used in the calculation. `calc` is a function which the user passes as the third argument into the `doubleResult` function and contains the calculation code.
 
-`add` and `multiply` functions are just two basic functions which add OR multiply the two numbers passed into them as arguments.
+`add` and `multiply` functions are two basic functions which add or multiply the two numbers passed into them as arguments.
 
 In the log statments, we envoke `doubleResult()` function and pass two numbers as first and second arguments. We pass `add` OR `multiply`, as the third argument, to `doubleResult()` and 12 OR 16 is logged to the console depending on the third argument.
 
