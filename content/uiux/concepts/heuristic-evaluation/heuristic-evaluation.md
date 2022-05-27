@@ -15,8 +15,6 @@ The heuristic evaluation is a form of usability testing in which a group of expe
 
 The heuristic evaluation is a relatively quick and flexible method of usability testing, compared to other methods. Heuristic evaluation is highly based on the evaluators' expertise, and is not a replacement for testing a product with real users.
 
-![An illustrated list of Jakob Nielsen's ten usability heuristics.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/usability-heuristics.png)
-
 Designs are evaluated based on compliance with this set of interaction design principles so that designers can continue to iterate and make their designs more usable. Evaluators are tasked with classifying usability problems into categories based on an agreed-upon set of heuristics and rating the seriousness of each problem (source: [Nielsen Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)):
 
 - 0 - A usability problem cannot be agreed upon.
