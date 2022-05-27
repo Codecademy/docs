@@ -20,10 +20,10 @@ User experience (UX) design focuses on:
 - **User journey**: The entire process surrounding the use of a product, from the problem to be solved through the impact of the solution.
 - **[User research](https://www.codecademy.com/resources/docs/uiux/user-research)**: Qualitative and quantitative research to put the user at the center of the design process.
 - **Deliverables** to document the user experience and define the workflows and features of a product or design, such as:
-- **[Personas](https://www.codecademy.com/resources/docs/uiux/personas)**: Summaries of example and target users, generally based on a composite of user research.
-- **User journey maps**: A timeline of user actions related to accomplishing a particular goal related to a product or design.
-- **Storyboards**: A sequence of panels (often resembling a comic book) depicting a user journey chronologically.
-- **[High-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes**: Iterative models, sketches or [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe) of a design used to gather feedback and inform the final design.
+  - **[Personas](https://www.codecademy.com/resources/docs/uiux/personas)**: Summaries of example and target users, generally based on a composite of user research.
+  - **User journey maps**: A timeline of user actions related to accomplishing a particular goal related to a product or design.
+  - **Storyboards**: A sequence of panels (often resembling a comic book) depicting a user journey chronologically.
+  - **[High-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes**: Iterative models, sketches or [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe) of a design used to gather feedback and inform the final design.
 
 UX designers are involved in the whole product or service experience from start to finish, including the strategy, scope, structure, skeleton, and surface, as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
 
