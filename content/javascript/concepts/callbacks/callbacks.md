@@ -38,7 +38,7 @@ In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `c
 
 `add` and `multiply` functions are two basic functions which add or multiply the two numbers passed into them as arguments.
 
-In the log statments, we envoke `doubleResult()` function and pass two numbers as first and second arguments. We pass `add` OR `multiply`, as the third argument, to `doubleResult()` and 12 OR 16 is logged to the console depending on the third argument.
+In the log statements, the `doubleResult()` function is invoked with numbers as first and second arguments. The function `add` or `multiply` is passed as the third argument.
 
 In the above example `douleResult` is called a **higher order function** while `add` and `multiply` are called **callback functions**.
 
