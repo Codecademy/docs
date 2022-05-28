@@ -45,7 +45,7 @@ nd = np.array([[1,2,3],[4,5,6]])
 
 print(np.sum(nd))
 print(np.sum(nd, axis=0))
-print(np.sum(nd, axis=1)
+print(np.sum(nd, axis=1))
 ```
 
 This produces the following output:
