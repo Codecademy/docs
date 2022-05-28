@@ -31,6 +31,16 @@ File formats exist for different types of files. Some common file types and form
 | Python                                                                                  | **.py**   | Contrains a Python program.                                                                                  |
 | HTML (HyperText Markup Language)                                                        | **.html** | Contains an HTML web page.                                                                                   |
 | CSS (Cascading Style Sheets)                                                            | **.css**  | Contains the styling for an HTML page.                                                                       |
+| PHP (Hypertext Preprocessor)                                                            | **.php**  | Contains a PHP program.                                                                                      |
+| C                                                                                       | **.c**    | Contains a C program.                                                                                        |
+| C++                                                                                     | **.cpp**  | Conatins a C++ program.                                                                                      |
+| Go                                                                                      | **.go**   | Conatins a Go program.                                                                                       |
+| Java                                                                                    | **.java** | Conatins a Java program.                                                                                     |
+| R                                                                                       | **.r**    | Contains an R program.                                                                                       |
+| Ruby                                                                                    | **.rb**   | Contains a Ruby program.                                                                                     |
+| SQL (Structured Query Language)                                                         | **.sql**  | Contains an SQL program.                                                                                     |
+| Swift                                                                                   | **.swift**| Contains a Swift program.                                                                                    |
+| TS (TypeScript)                                                                         | **.ts**   | Contains a Typescript program.                                                                               |
 
 ### Image file formats
 
