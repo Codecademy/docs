@@ -20,13 +20,9 @@ A file path describes the location of a file in a computer's folder structure. T
 - Videos
 - Other programs
 
-## Absolute File Paths
+## URLS and File Paths
 
-URL paths in HTML can be absolute paths, like a full URL, for example:
-
-```pesudo
-https://www.codecademy.com/resources/docs
-```
+URLs are addresses where data and websites are hosted on the web and are more permanent. File paths are relative to where they are hosted normally on a server inaccessible to most people and are more temporary.
 
 ## Relative File Paths
 
