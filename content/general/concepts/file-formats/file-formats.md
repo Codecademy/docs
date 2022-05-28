@@ -23,9 +23,28 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
+### Programing file formats
+
+|                                       File Format                                       | Extension | Description                                                                                                  |
+| :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
+| JS (Javascript)                                                                         | **.js**   | Contains a Javasript program.                                                                                |
+| Python                                                                                  | **.py**   | Contrains a Python program.                                                                                  |
+| HTML (Hyper Text Markup Languge)                                                        | **.html** | Contains an HTML web page.                                                                                   |
+| CSS (Cascading Style Sheets)                                                            | **.css**  | Contains the styling for an HTML page.                                                                       |
+
+### Image file formats
+
+|                                       File Format                                       | Extension | Description                                                                                                  |
+| :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
+| [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
+|                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
+| PNG (Portable Network Graphics)                                                         | **.png**  | Common file format for hight resolution images.
+
+### Other file formats
+
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
 |  [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)  | **.csv**  | Contains spreadsheet/table data.                                                                             |
 |                             PDF (Portable Document Format)                              | **.pdf**  | Created to be accessed on many devices and operating systems. Contains text and image data.                  |
-| [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
-|                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
+| MD (Markdown)                                                                           | **.md**   | Conatins easly readable markup.                                                                              |
+| Exacutable                                                                              | **.exe**  | Contains and exacutable.                                                                                     |
