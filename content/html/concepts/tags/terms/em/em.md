@@ -35,3 +35,5 @@ The `<em>` tag represents text which is emphasized. Browsers will show the enclo
   </body>
 </html>
 ```
+
+![Output of the example above for em tag](https://raw.githubusercontent.com/Codecademy/docs/docs/media/em-tag-example.png)
