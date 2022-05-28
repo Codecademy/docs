@@ -34,3 +34,26 @@ All arguments except `a`, the array of elements to sum, are optional. Using `a` 
 - `inital` : Starting value for sum.
 - `where` : A boolean array that maps to `array` and selects elements to include into the sum.
 
+## Example
+
+The following example creates an array then uses some `.sum` operations to sum the elements.
+
+```python
+import numpy as np
+
+nd = np.array([[1,2,3],[4,5,6]])
+
+print(np.sum(nd))
+print(np.sum(nd, axis=0))
+print(np.sum(nd, axis=(1))
+```
+
+This produces the following output:
+
+```shell
+21
+
+[5 7 9]
+
+[ 6 15]
+```
