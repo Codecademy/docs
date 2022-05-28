@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A file path describes the location of a file in a programs folder structure. They are used to link files, like:
+A file path describes the location of a file in a computer's folder structure. They are used to locate files, like:
 
 - Websites
 - Images
