@@ -31,4 +31,4 @@ Relative file path are paths that links to a local file in the same folder or on
 - **./js/script.js**
 - **./scripts/main.py**
 
-Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
+Relative file paths begin with `./` followed by a path to the local file. `./` tells the program to look for the file path from the current folder.
