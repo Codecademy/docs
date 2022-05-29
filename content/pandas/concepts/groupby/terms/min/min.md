@@ -38,7 +38,7 @@ print(df)
 
 group = df.groupby(['Key'])
 
-print(group.max())
+print(group.min())
 ```
 
 This example produces the following output:
