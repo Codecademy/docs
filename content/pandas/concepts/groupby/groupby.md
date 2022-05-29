@@ -63,3 +63,5 @@ A    18.333333
 B     6.500000
 C    12.000000
 ```
+
+Selected methods of the GroupBy object are listed below:
