@@ -23,8 +23,8 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
-
 ### Programing file formats
+
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
@@ -43,8 +43,8 @@ File formats exist for different types of files. Some common file types and form
 | Swift                                                                                   | **.swift**| Contains a Swift program.                                                                                    |
 | TS (TypeScript)                                                                         | **.ts**   | Contains a Typescript program.                                                                               |
 
-
 ### Image file formats
+
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
@@ -52,8 +52,8 @@ File formats exist for different types of files. Some common file types and form
 |                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
 | PNG (Portable Network Graphics)                                                         | **.png**  | Common file format for high resolution images.                                                               |
 
-
 ### Other file formats
+
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
