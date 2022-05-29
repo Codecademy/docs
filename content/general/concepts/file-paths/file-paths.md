@@ -10,15 +10,14 @@ Tags:
   - 'URL'
 CatalogContent:
   - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/computer-science'
 ---
 
 A file path describes the location of a file in a computer's folder structure. They are used to locate files, like:
 
-- Websites
 - Images
-- Videos
 - Other programs
+- Libretys/frame works
 
 ## URLS and File Paths
 
@@ -30,5 +29,6 @@ Relative file path are paths that links to a local file in the same folder or on
 
 - **./about.html**
 - **./js/script.js**
+- **./scripts/main.py**
 
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the browser to look for the file path from the current folder.
