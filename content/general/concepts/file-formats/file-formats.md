@@ -23,6 +23,7 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
+
 ### Programing file formats
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
@@ -42,6 +43,7 @@ File formats exist for different types of files. Some common file types and form
 | Swift                                                                                   | **.swift**| Contains a Swift program.                                                                                    |
 | TS (TypeScript)                                                                         | **.ts**   | Contains a Typescript program.                                                                               |
 
+
 ### Image file formats
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
@@ -49,6 +51,7 @@ File formats exist for different types of files. Some common file types and form
 | [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
 |                         JPEG (Joint Photographic Experts Group)                         | **.jpeg** | Standard use for minimized images.                                                                           |
 | PNG (Portable Network Graphics)                                                         | **.png**  | Common file format for high resolution images.                                                               |
+
 
 ### Other file formats
 
