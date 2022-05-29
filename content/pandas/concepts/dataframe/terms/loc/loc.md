@@ -18,7 +18,7 @@ The `.loc` property of the [`DataFrame`](https://www.codecademy.com/resources/do
 ## Syntax
 
 ```pseudo
-dataframe.loc[rows,columns]
+dataframevalue.loc[rows,columns]
 ```
 
 **Note:** `.loc` is not a method, it is a property indexed via square brackets.
