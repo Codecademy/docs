@@ -17,7 +17,7 @@ A file path describes the location of a file in a computer's folder structure. T
 
 - Images
 - Other programs
-- Libretys/frame works
+- Libraries/frameworks
 
 ## URLS and File Paths
 
