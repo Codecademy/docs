@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.join()` method delays a program's flow of execution until the target thread has been comletely read.
+The `.join()` method delays a program's flow of execution until the target thread has been completely read.
 
 ## Syntax
 
