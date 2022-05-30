@@ -1,1 +1,1 @@
-content/general/concepts/back-end/back-end.md
+content/python/concepts/operators/operators.md
