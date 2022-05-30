@@ -63,4 +63,4 @@ Like HTML, XML allows numeric entity references, allowing most Unicode character
 - `&#number;` : where `number` is the character's decimal Unicode number.
 - `&#xnumber;` : where `number` is the character’s hexadecimal Unicode number.
 
-So the `©` character can be represented as `&#169;` or `&#xA9;`
+So the `©` copyright character can be represented as `&#169;` or `&#xA9;`
