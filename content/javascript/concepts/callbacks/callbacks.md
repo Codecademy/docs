@@ -30,8 +30,8 @@ function multiply(num1, num2) {
   return num1 * num2;
 }
 
-console.log(doubleResult(4, 2, add)); // Output: 12
-console.log(doubleResult(4, 2, multiply)); // Output: 16
+console.log(doubleResult(4, 2, add));
+console.log(doubleResult(4, 2, multiply));
 ```
 
 In the code above, `doubleResult` accepts three arguments `num1`, `num2`, and `calc`. `num1` and `num2` are the numbers which the user wants to be used in the calculation. `calc` is a function which the user passes as the third argument into the `doubleResult` function and contains the calculation code.
