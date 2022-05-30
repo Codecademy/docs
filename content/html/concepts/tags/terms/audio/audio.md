@@ -47,7 +47,7 @@ The `<audio>` tag may include `<source>` tags and fallback text. It may also use
 ```
 
 <audio controls>
-  <source src="audioFile_name.ogg" type="audio/ogg" />
+  <source src="https://raw.githubusercontent.com/Codecademy/docs/main/media/introducing_docs_audio.mp3" type="audio/mp3" />
   <h3>Fallback text if audio will not play</h3>
 </audio>
 
