@@ -66,7 +66,7 @@ The actions defined by these links will be completed depending on the user's dev
 
 ## Link Element
 
-The [`<link>`](https://www.codecademy.com/resources/docs/html/tags/link) tag is used to connect the document to an outside resource, most commonly stylesheets. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
+The [`<link>`](https://www.codecademy.com/resources/docs/html/tags/link) tag is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/tags/head) tag. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
 
 The two primary attributes are:
 

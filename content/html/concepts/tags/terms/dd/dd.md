@@ -36,8 +36,11 @@ In the example below, the `<dd>` is used (and highlighted with some styling):
   </head>
   <body>
     <dl>
-      <dt class="term">Term</dt>
-      <dd class="detail">Detail</dd>
+      <dt class="term">Aardvark</dt>
+      <dd class="detail">
+        A large burrowing African mammal that feeds on ants and termintes with
+        its long sticky tongue.
+      </dd>
     </dl>
   </body>
 </html>
