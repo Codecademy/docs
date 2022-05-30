@@ -48,13 +48,13 @@ XML permits comments anywhere except inside element tags. They are enclosed betw
 
 For rendering special characters, XML uses [entities like HTML](https://www.codecademy.com/resources/docs/html/entities). Entities can be used inside attribute and text values, but not in element and attribute names. They are required for some special characters. Unlike HTML, XML only has five predefined entities:
 
-| Name              | Entity   | Character |
-| ----------------- | :--------: | :---------: |
-| Quotation mark    | `&quot;` | `"`       |
-| Ampersand         | `&amp;`  | `&`       |
-| Apostrophe        | `&apos;` | `'`       |
-| Less-than sign    | `&lt;`   | `<`       |
-| Greater-than sign | `&gt;`   | `>`       |
+| Name              |  Entity  | Character |
+| ----------------- | :------: | :-------: |
+| Quotation mark    | `&quot;` |    `"`    |
+| Ampersand         | `&amp;`  |    `&`    |
+| Apostrophe        | `&apos;` |    `'`    |
+| Less-than sign    |  `&lt;`  |    `<`    |
+| Greater-than sign |  `&gt;`  |    `>`    |
 
 `&amp;` and `&lt;` are required when rendering those characters in any content. `&quot;` and `&apos;` are required when rendering those characters in attribute values.
 
