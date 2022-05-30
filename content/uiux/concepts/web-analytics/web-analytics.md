@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Web analytics are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design. While they are commonly associated with marketing, web analytics are also helpful for [user research](https://www.codecademy.com/resources/docs/uiux/user-research).
+**Web analytics** are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design. While they are commonly associated with marketing, web analytics are also helpful for [user research](https://www.codecademy.com/resources/docs/uiux/user-research).
 
 Web analytics are a source of [quantitative](https://www.codecademy.com/resources/docs/uiux/quantitative-research) data, since they can be measured numerically, and are considered a [behavioral research method](https://www.codecademy.com/resources/docs/uiux/behavioral-research), since they observe real user behavior. Web analytics are an evaluative research method, and can only be gathered after a product has been released to assess its performance.
 

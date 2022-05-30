@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Diary studies are a form of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) that collect longitudinal, or longer-term, qualitative data from participants by asking them to complete entries in a diary which may include a series of prompts. Diary studies allow participants to complete entries at their own pace in a natural context without a researcher looking over their shoulder, and allow researchers to examine how participant attitudes and behavior evolve over a set time period.
+**Diary studies** are a form of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) that collect longitudinal, or longer-term, qualitative data from participants by asking them to complete entries in a diary which may include a series of prompts. Diary studies allow participants to complete entries at their own pace in a natural context without a researcher looking over their shoulder, and allow researchers to examine how participant attitudes and behavior evolve over a set time period.
 
 Because diary studies rely on data self-reported by users, they are considered an [attitudinal research method](https://www.codecademy.com/resources/docs/uiux/attitudinal-research). Diary studies are considered a [qualitative research method](https://www.codecademy.com/resources/docs/uiux/qualitative-research) since they focus on the in-depth motivations and thought processes behind the user experience.
 

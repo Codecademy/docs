@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The Product Development Life Cycle (PDLC) is a cross-functional, iterative process that can be viewed as five stages: brainstorm, define, design, test, and launch.
+The **Product Development Life Cycle (PDLC)** is a cross-functional, iterative process that can be viewed as five stages: brainstorm, define, design, test, and launch.
 
 The PDLC usually involves many stakeholders across an organization. This process starts from a problem or pain point to ensure that product development meets a real user need and that the whole team is aligned around the same goals.
 

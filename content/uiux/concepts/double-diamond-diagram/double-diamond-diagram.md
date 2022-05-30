@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The double diamond diagram is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of a two-diamond structure that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process. The four phases of the double diamond process are: discover, define, develop, and deliver.
+The **double diamond diagram** is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of a two-diamond structure that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process. The four phases of the double diamond process are: discover, define, develop, and deliver.
 
 ![The Double Diamond diagram: two diamonds side-by-side, broken down into Strategy (Discover and Define) and Execution (Develop and Deliver) phases, moving from problem to solution.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/double-diamond.png)
 

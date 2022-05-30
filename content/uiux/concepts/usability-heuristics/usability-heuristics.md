@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The ten usability heuristics, developed by [Jakob Nielsen](https://www.nngroup.com/people/jakob-nielsen/) and [Don Norman](https://jnd.org/), are a set of general principles for creating effective interaction design. They help designers assess where a design is excelling and falling short, and what trade-offs are being made in a design process. The ten usability heuristics are used in the [heuristic evaluation](https://www.codecademy.com/resources/docs/uiux/heuristic-evaluation), a relatively quick and flexible method of usability testing.
+The ten **usability heuristics**, developed by [Jakob Nielsen](https://www.nngroup.com/people/jakob-nielsen/) and [Don Norman](https://jnd.org/), are a set of general principles for creating effective interaction design. They help designers assess where a design is excelling and falling short, and what trade-offs are being made in a design process. The ten usability heuristics are used in the [heuristic evaluation](https://www.codecademy.com/resources/docs/uiux/heuristic-evaluation), a relatively quick and flexible method of usability testing.
 
 ![An illustrated list of Jakob Nielsen's ten usability heuristics.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/usability-heuristics.png)
 

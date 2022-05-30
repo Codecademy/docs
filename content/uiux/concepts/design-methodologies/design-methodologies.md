@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Design methodologies are systems or models that offer structure or consistency to focus on problems and drive success within a design process.
+**Design methodologies** are systems or models that offer structure or consistency to focus on problems and drive success within a design process.
 
 Methodologies help align all stakeholders within a project, an organization, or an industry. Some popular design methodologies include the [product development life cycle (PDLC)](https://www.codecademy.com/resources/docs/uiux/product-development-life-cycle), [double diamond diagram](https://www.codecademy.com/resources/docs/uiux/double-diamond-diagram), [design thinking](https://www.codecademy.com/resources/docs/uiux/design-thinking), and [user-centered design (UCD)](https://www.codecademy.com/resources/docs/uiux/user-centered-design). These processes often emphasize an iterative, cyclical approach to design, incorporating [user research](https://www.codecademy.com/resources/docs/uiux/user-research) to drive decisions from defining a problem to building a solution.
 

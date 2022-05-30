@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The five elements of UX design, from abstract to concrete, are strategy, scope, structure, skeleton, and surface. This model was created and defined by designer Jesse James Garrett in [The Elements of User Experience](http://www.jjg.net/elements/). [User experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) encompasses the entire process, while [user interface (UI) design](https://www.codecademy.com/resources/docs/uiux/ui-design) primarily focuses on the surface.
+The **five elements of UX design**, from abstract to concrete, are strategy, scope, structure, skeleton, and surface. This model was created and defined by designer Jesse James Garrett in [The Elements of User Experience](http://www.jjg.net/elements/). [User experience (UX) design](https://www.codecademy.com/resources/docs/uiux/ux-design) encompasses the entire process, while [user interface (UI) design](https://www.codecademy.com/resources/docs/uiux/ui-design) primarily focuses on the surface.
 
 ![The Five Elements of UX Design, from concrete to abstract: Surface, Skeleton, Structure, Scope, and Strategy, with UX design encompassing the entire process, and UI design focused on the Surface.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/five-elements-of-ux-design.svg)
 

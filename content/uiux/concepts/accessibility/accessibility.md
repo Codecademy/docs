@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use the device or product.
+**Accessibility** refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use the device or product.
 
 ## Accessibility Guidelines
 

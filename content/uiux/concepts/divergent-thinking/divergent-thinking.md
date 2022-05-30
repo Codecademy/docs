@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Divergent thinking is a creative mode of thinking that explores many possible solutions and generates novel ideas.
+**Divergent thinking** is a creative mode of thinking that explores many possible solutions and generates novel ideas.
 
 Design activities that encourage divergent thinking often emphasize spontaneity and playfulness, and aim to create an open atmosphere for sharing good and bad ideas. Activities could include brainstorming, free writing, and bubble mapping. Once divergent thinking methods are used to generate a wide range of ideas, [convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) can be used to hone in on ideas and make decisions.
 

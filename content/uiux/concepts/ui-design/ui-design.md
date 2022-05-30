@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-User interface (UI) design is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.
+**User interface (UI) design** is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.
 
 UI design considerations include:
 

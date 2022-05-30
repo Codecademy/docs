@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Focus groups are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where a researcher guides a group of 3 &ndash; 10 participants through a series of questions about a topic, product, or design. Focus groups can be conducted either remotely or in-person.
+**Focus groups** are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where a researcher guides a group of 3 &ndash; 10 participants through a series of questions about a topic, product, or design. Focus groups can be conducted either remotely or in-person.
 
 Because focus groups rely on self-reported user data, they are considered an [attitudinal research method](https://www.codecademy.com/resources/docs/uiux/attitudinal-research). Focus groups are considered a [qualitative research method](https://www.codecademy.com/resources/docs/uiux/qualitative-research) since they focus on the in-depth motivations and thought processes behind the user experience. [Interviews](https://www.codecademy.com/resources/docs/uiux/interviews) are typically one-on-one, while focus groups collect qualitative feedback from a group of participants.
 

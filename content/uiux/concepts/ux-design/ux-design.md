@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-User experience (UX) design is a human-centered [design](https://www.codecademy.com/resources/docs/uiux/design) discipline that deals with the holistic experience around a product or service, taking into consideration the user, system, and context.
+**User experience (UX) design** is a human-centered [design](https://www.codecademy.com/resources/docs/uiux/design) discipline that deals with the holistic experience around a product or service, taking into consideration the user, system, and context.
 
 ![A Venn diagram of the intersection of three circles: Context, User, and System, with User Experience (UX) at the center.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/what-are-ui-ux-design/ux-venn-diagram.svg)
 

@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-User research is the systematic study of target users of a product or interface to understand their behaviors, needs, and motivations. User research can happen at every stage of the design process to inform decisions.
+**User research** is the systematic study of target users of a product or interface to understand their behaviors, needs, and motivations. User research can happen at every stage of the design process to inform decisions.
 
 ![Illustrations of three tools used by user researchers to communicate their research findings: personas, storyboards, and journey maps.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/ux-research.png)
 

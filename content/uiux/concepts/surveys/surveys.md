@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Surveys or questionnaires are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method in which a broad range of users are sent the same set of questions to collect broad insights and trends about a given topic or market.
+**Surveys** or questionnaires are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method in which a broad range of users are sent the same set of questions to collect broad insights and trends about a given topic or market.
 
 Because surveys rely on data self-reported by users, they are considered an [attitudinal research method](https://www.codecademy.com/resources/docs/uiux/attitudinal-research). Surveys are generally considered a [quantitative research method](https://www.codecademy.com/resources/docs/uiux/quantitative-research) since their results can be measured numerically. In some cases, surveys can provide a combination of quantitative and [qualitative](https://www.codecademy.com/resources/docs/uiux/qualitative-research) data by including a combination of closed questions (participants select from a limited set of options) and open-ended questions (participants explain their answer in a text box).
 

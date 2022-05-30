@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Ethnography and field studies are [user research](https://www.codecademy.com/resources/docs/uiux/user-research) methods that draw from anthropology to study how users behave in context. These methods observe behavior in a natural setting and often occur over time, offering more long-term or continuous insight into participant behavior.
+**Ethnography and field studies** are [user research](https://www.codecademy.com/resources/docs/uiux/user-research) methods that draw from anthropology to study how users behave in context. These methods observe behavior in a natural setting and often occur over time, offering more long-term or continuous insight into participant behavior.
 
 ## Techniques
 

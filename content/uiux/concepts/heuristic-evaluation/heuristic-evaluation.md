@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The heuristic evaluation is a form of usability testing in which a group of expert evaluators classifies usability problems based on the [ten usability heuristics](https://www.codecademy.com/resources/docs/uiux/usability-heuristics).
+The **heuristic evaluation** is a form of usability testing in which a group of expert evaluators classifies usability problems based on the [ten usability heuristics](https://www.codecademy.com/resources/docs/uiux/usability-heuristics).
 
 The heuristic evaluation is a relatively quick and flexible method of usability testing, compared to other methods. Heuristic evaluation is highly based on the evaluators' expertise, and is not a replacement for testing a product with real users.
 
