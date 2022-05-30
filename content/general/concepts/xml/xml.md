@@ -60,7 +60,7 @@ For rendering special characters, XML uses [entities like HTML](https://www.code
 
 Like HTML, XML allows numeric entity references, allowing most Unicode characters to be used in content. These are used in the following way:
 
-- `&#number;` : where `number` is the character's decimal Unicode number.
-- `&#xnumber;` : where `number` is the character’s hexadecimal Unicode number.
+- `&#number;`: where `number` is the character's decimal Unicode number.
+- `&#xnumber;`: where `number` is the character’s hexadecimal Unicode number.
 
 So the `©` copyright character can be represented as `&#169;` or `&#xA9;`
