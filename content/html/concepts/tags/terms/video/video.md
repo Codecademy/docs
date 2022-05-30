@@ -53,5 +53,5 @@ The `<video>` tag may include `<source>` tags and fallback text. It may also use
 ```
 
 <video controls>
-  <source type="video/mp4" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/html-video-tag-example.mp4" />
+  <source src="https://raw.githubusercontent.com/Codecademy/docs/main/media/html-video-tag-example.mp4" type="video/mp4" />
 </video>
