@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure in C++ stores together data elements under a single name. The data elements, also called data memebers, can be of different data types.
+A structure in C++ stores together data elements under a single name. The data elements, also called data members, can be of different data types.
 
 ## Syntax
 
