@@ -66,7 +66,7 @@ Node tests consist of specific node names, or more general expressions. The more
 
 ### Predicates
 
-Predicates define an expression that must evaluate true for the node test to succeed. There can be any number of predicates, and they are evaluated in order from left to right, i.e. `A[1][./@C = "1"]` matches only if the first `A` element has an attribute `C` equal to "1" whereas `A[./@C="1"][1]` matches the first `A` element that has an attribute `C` equal to "1". A predicate must have a numeric or boolean value. A predicate that has a numeric value is equivalent to specifying the position of the node to match, i.e. `A[5]` is the same as `A[position()=5]`.
+Predicates define an expression that must evaluate true for the node test to succeed. There can be any number of predicates, and they are evaluated in order from left to right. For example, `A[1][./@C = "1"]` matches only if the first `A` element has an attribute `C` equal to "1" whereas `A[./@C="1"][1]` matches the first `A` element that has an attribute `C` equal to "1". A predicate must have a numeric or boolean value. A numeric value is equivalent to specifying the position of the node to match (i.e. `A[5]` is the same as `A[position()=5]`).
 
 Location paths can be used inside predicates, and are evaluated relative to the node being tested. so the `./@C` in `A[./@C="1"]` is looking to match the `C` attribute of the `A` element.
 
