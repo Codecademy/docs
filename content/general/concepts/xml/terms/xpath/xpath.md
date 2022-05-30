@@ -80,16 +80,16 @@ The following operators can be used inside of predicates in XPath 1.0:
 
 Predicates also have a number of functions available in XPath 1.0, the following are some of the more commonly used ones:
 
-- `contains(string1, string2)` : Checks if `string2` is contained withing `string1` and returns true or false.
-- `count(node-set)` : Returns the number of nodes in `node-set`.
-- `false()` : Returns false.
-- `last()` : Returns the position of the last match of the current node test.
-- `local-name(node-set)` : Returns the local name of the first node in `node-set`, or if `node-set` is omitted, the local name of the current node.
-- `normalize-space(string)` : Returns `string` with leading and trailing whitespace removed, and all sequences of whitespace characters replaced by a single space. If omitted, operates on the context node converted to a string.
-- `position()` : Returns the numeric position of the current node.
-- `starts-with(string1, string2)` : Checks if `string1` starts with `string2` and returns true or false.
-- `sum(node-set)` : Converts the string values of the nodes in `node-set` into numbers and returns the sum of those numbers..
-- `true()` : Returns true.
+- `contains(string1, string2)`: Checks if `string2` is contained within `string1` and returns true or false.
+- `count(node-set)`: Returns the number of nodes in `node-set`.
+- `false()`: Returns false.
+- `last()`: Returns the position of the last match of the current node test.
+- `local-name(node-set)`: Returns the local name of the first node in `node-set`, or if `node-set` is omitted, the local name of the current node.
+- `normalize-space(string)`: Returns `string` with leading and trailing whitespace removed, and all sequences of whitespace characters replaced by a single space. If omitted, operates on the context node converted to a string.
+- `position()`: Returns the numeric position of the current node.
+- `starts-with(string1, string2)`: Checks if `string1` starts with `string2` and returns true or false.
+- `sum(node-set)`: Converts the string values of the nodes in `node-set` into numbers and returns the sum of those numbers.
+- `true()`: Returns true.
 
 ## Examples
 
