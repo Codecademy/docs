@@ -17,7 +17,7 @@ XML (Extensible Markup Language) is used to define the content and structure of 
 
 Many computer languages, such as [Python](https://www.codecademy.com/resources/docs/python) or [Java](https://www.codecademy.com/resources/docs/java), provide their own libraries or modules for processing XML documents. XML has proved to be a popular format for [serializing](https://www.codecademy.com/resources/docs/general/serialization) objects.
 
-The an XML document can consist of the following pieces:
+An XML document can consist of the following pieces:
 
 ## Elements
 
