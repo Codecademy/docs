@@ -25,9 +25,9 @@ XPath is implemented via libraries for many different programming languages, suc
 
 XPath treats an XML document as a tree structure, much like folders stored on a disk drive. In fact, in it's simplest form, XPath expressions can resemble file paths. These file-path-like expressions are referred to as location paths. Each location path consists of a sequence of location steps separated by slashes (`/`), and each location step has three components:
 
-- an axis specifying what "direction" we're looking for a node.
-- a node test specifying what node we want to match.
-- zero or more predicates that add restrictions onto what node the expression will ultimately match. (i.e. conditions the node has to satisfy in order to match.)
+- An axis specifying what "direction" we're looking for a node.
+- A node test specifying what node we want to match.
+- Zero or more predicates that add restrictions onto what node the expression will ultimately match. (i.e. conditions the node has to satisfy in order to match.)
 
 A location step's full syntax is:
 
