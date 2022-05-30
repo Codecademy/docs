@@ -34,7 +34,7 @@ import pandas as pd
 
 df = pd.DataFrame({'Key' : ['A', 'A', 'A', 'B', 'B', 'C'],
                    'Value' : [15., 23., 17., 5., 8., 12.]})
-print(df)          
+print(df)
 
 group = df.groupby(['Key'])
 
@@ -53,7 +53,7 @@ This example produces the following output:
 5   C   12.0
 
      Value
-Key       
+Key
 A     15.0
 B      5.0
 C     12.0
