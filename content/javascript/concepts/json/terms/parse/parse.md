@@ -56,15 +56,15 @@ let classicJSON = `{
 
 let stringJSON = '"Strings should be wrapped in double-, then in single-quotes."';
 
-let boolJSON = 'true';
+let booleanJSON = 'true';
 
-let numJSON = 42;
+let numberJSON = 42;
 
 let arrayJSON = '[1, 2, 3]';
 
 console.log(JSON.parse(classicJSON));
 console.log(JSON.parse(stringJSON));
-console.log(JSON.parse(boolJSON));
-console.log(JSON.parse(numJSON));
+console.log(JSON.parse(booleanJSON));
+console.log(JSON.parse(numberJSON));
 console.log(JSON.parse(arrayJSON));
 ```

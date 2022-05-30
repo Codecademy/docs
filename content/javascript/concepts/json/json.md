@@ -20,4 +20,4 @@ In JavaScript, the reserved `JSON` object is used to convert values to JavaScrip
 JSON.staticMethod();
 ```
 
-The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods (links below).
+The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods, shown below:

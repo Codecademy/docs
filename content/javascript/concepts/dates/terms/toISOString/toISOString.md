@@ -23,7 +23,7 @@ The `.toISOString()` method returns a string representation of a date in an [ISO
 date.toISOString();
 ```
 
-The string returned from the `.toISOString()` method will always be 24 or 27 characters long such as `YYYY-MM-DDTHH:mm:ss.sssZ` or `±YYYYYY-MM-DDTHH:mm:ss.sssZ`, respectively.
+The string returned from the `.toISOString()` method will always be 24 or 27 characters long such as `YYYY-MM-DDThh:mm:ss.sssZ` or `±YYYYYY-MM-DDThh:mm:ss.sssZ`, respectively.
 
 ## Example
 
@@ -35,7 +35,7 @@ const today = new Date();
 console.log(today.toISOString());
 ```
 
-The snippet above will log to the console something similar to the following:
+The snippet above will output something similar to the following:
 
 ```shell
 2022-04-22T18:12:21.369Z

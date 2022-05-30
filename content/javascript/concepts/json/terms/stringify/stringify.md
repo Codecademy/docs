@@ -1,6 +1,6 @@
 ---
 Title: '.stringify()'
-Description: 'Returns a string representation of a JSON object.'
+Description: 'Returns the string representation of a JSON object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.stringify()` method is one of two methods belonging to the reserved `JSON` object, the other being the [`.parse()`](https://www.codecademy.com/resources/docs/javascript/json/parse) method. It returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a given JSON object.
+The `.stringify()` method returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a given JSON object. It is one of two methods belonging to the reserved `JSON` object, the other being the [`.parse()`](https://www.codecademy.com/resources/docs/javascript/json/parse) method.
 
 ## Syntax
 

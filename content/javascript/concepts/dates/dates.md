@@ -23,7 +23,7 @@ In JavaScript, `Date` objects represent a single moment in time stored as a repr
 const myDate = new Date(dateValue);
 ```
 
-The `dateValue` can be either of the following:
+The `dateValue` can be any of the following:
 
 - It can be a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a date that is valid and [IETF-compliant](https://datatracker.ietf.org/doc/html/rfc2822#page-14)
 - It can be another instance of the `Date` class.
@@ -45,19 +45,19 @@ In JavaScript, the following three date format types are commonly used:
 |              Short Date               | `new Date("YYYY-MM-DD")` / `new Date("YYYY/MM/DD")` |
 |               Long Date               | `new Date("Mon DD YYYY")` ( or `"DD Month YYYY"`)   |
 
-With regards to ISO dates:
+With regard to ISO dates:
 
 - It is the only format that is strictly enforced while the others may vary in functionality depending on the browser.
 - "YYYY-MM-DD" or "YYYY/MM/DD" is the preferred format.
 - In the output, the `T` separates the the date from the time while the `Z` represents the UTC timezone.
 - Existing dates can be converted to ISO with the [`.toISOString()`](https://www.codecademy.com/resources/docs/javascript/dates/toisostring) method.
 
-With regards to short dates:
+With regard to short dates:
 
-- It is best practice to use leading zeroes when referring to single-digit calendar days.
+- It is best practice to use leading zeros when referring to single-digit calendar days.
 - If using "YYYY-MM-DD" returns `NaN` the alternative format "YYYY/MM/DD" should be tested (and vice versa).
 
-With regards to long dates:
+With regard to long dates:
 
 - The day and month can be in any order.
 - The month can either be abbreviated ("Mar") or written in full ("March").
