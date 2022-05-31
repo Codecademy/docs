@@ -59,4 +59,4 @@ File formats exist for different types of files. Some common file types and form
 | MD (Markdown)                                                                           | **.md**   | Contains easily readable markup.                                                                             |
 | Executable                                                                              | **.exe**  | Contains an executable.                                                                                     |
 | TXT (Text)                                                                              | **.txt**  | Contains text.                                                                                               |
-| Zip                                                                                     | **.zip**  | Compresses files into a fold that can be uncompresed into its original form.                                 |
+| Zip                                                                                     | **.zip**  | Compresses files into a folder that can be uncompressed into its original form.                                 |
