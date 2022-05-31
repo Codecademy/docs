@@ -17,6 +17,6 @@ Effective IA allows users to complete tasks with the least effort required. [Sit
 
 A mobile food ordering application, for example, could have its menu structured into categories such as entrees, sides, drinks, dessert, and a kid’s menu. When users want to add a drink to their order, they intuitively expect the drinks to be contained in the drinks category, so they navigate to that location. It would be confusing and misleading to contain entrees such as a sandwich or pizza under the drinks category. These would be best placed in the entrees tab.
 
-When users navigate through an interface, it is important they are able to easily find what they’re looking for and almost predict what the IA looks like without actually seeing a high-level view of the interface.
+When users navigate through an interface, it is important that they are able to easily find what they’re looking for and almost predict what the IA looks like without actually seeing a high-level view of the interface.
 
 ![Information Architecture - Site Map example](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/information-architecture.svg)

@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 High-fidelity refers to design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables) that are realistic and near final-product quality.
 
-High-fidelity prototypes, for example, are used to work through more granular questions about visual design and content and are often created after a team has aligned around topics like structure using lower-fidelity wireframes.
+High-fidelity prototypes, for example, are used to work through more granular questions about visual design and content and are often created after a team has aligned around topics, like structure, using lower-fidelity wireframes.
 
 High-fidelity prototypes help answer questions like:
 

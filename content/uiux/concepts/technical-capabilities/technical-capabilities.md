@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/front-end-engineer-career-path'
 ---
 
-_Technical capabilities_ refer to the limitations of what’s possible for a product development team. Variables to consider include:
+Technical capabilities refer to the limitations of what is possible for a product development team. Variables to consider include:
 
 - **Design capabilities**: After brainstorming, sketching, and wireframing, it's time to transition concepts and ideas into testable prototypes. Are the proposed concepts possible to recreate in a design software environment and within the capabilities of the design team?
 
