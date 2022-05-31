@@ -1,6 +1,6 @@
 ---
 Title: 'Stroke'
-Description: 'A **stroke**, also referred to as a **border**, is a line that wraps around a layer.'
+Description: 'A stroke, also referred to as a border, is a line that wraps around a layer.'
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!

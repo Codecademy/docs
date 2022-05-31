@@ -1,6 +1,6 @@
 ---
 Title: 'Text Properties'
-Description: '**Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment.'
+Description: 'Text properties refer to the text’s style settings, such as typeface, size, spacing, and alignment.'
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
@@ -13,7 +13,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), default text properties are applied, and each property can be adjusted to suit the needs of the design.
 
-**Typeface** refers to a distinct visual style applied to the characters. For example, Times New Roman, Calibri, and Cambria are typefaces. The terms font and typeface are often used interchangeably, but **font** is a more specific description that includes the typeface, size, and weight. For example, “Times New Roman 24 Bold” and “Times New Roman 24 Light” are different fonts. For additional information, check out this [resource about typefaces and fonts](https://www.editorx.com/shaping-design/article/typefaces-vs-fonts).
+**Typeface** refers to a distinct visual style applied to the characters. For example, Times New Roman, Calibri, and Cambria are typefaces. The terms font and typeface are often used interchangeably, but font is a more specific description that includes the typeface, size, and weight. For example, "Times New Roman 24 Bold" and "Times New Roman 24 Light" are different fonts. For additional information, check out this [resource about typefaces and fonts](https://www.editorx.com/shaping-design/article/typefaces-vs-fonts).
 
 ![A diagram that shows the difference between a typeface, such as “Inter” and a font, such as “Inter 40 Bold.” ](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Text-Typeface-Font.png)
 
@@ -21,7 +21,7 @@ In [design software](https://www.codecademy.com/resources/docs/uiux/design-softw
 
 ![A diagram with text of different sizes, from size 12 up to size 72.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Text-Size.png)
 
-**Weight** refers to the thickness of the characters. Text with a heavier weight such as “Bold” is thicker than text with a lighter weight such as “Thin.” The range of available weights depends on the typeface, and some example weights include Thin, Regular, Medium, SemiBold, Bold, and Black.
+**Weight** refers to the thickness of the characters. Text with a heavier weight such as "Bold" is thicker than text with a lighter weight such as "Thin." The range of available weights depends on the typeface, and some example weights include Thin, Regular, Medium, SemiBold, Bold, and Black.
 
 ![A diagram with text of varying weights, arranged from lightest to heaviest.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Text-Weight.png)
 

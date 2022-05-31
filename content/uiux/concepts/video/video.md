@@ -1,6 +1,6 @@
 ---
 Title: 'Video'
-Description: 'A **video** is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images.'
+Description: 'A video is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images.'
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
@@ -11,7 +11,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/front-end-engineer-career-path'
 ---
 
-There are different methods to make videos, such as recording footage, capturing a screencast, or using software to create animations.
+There are different methods to make videos such as recording footage, capturing a screencast, or using software to create animations.
 
 With the potential to support and engage users, videos are commonly featured in digital products. Videos can be a powerful way to introduce information, demonstrate a process, tell a story, or [further a business strategy](https://wistia.com/learn/marketing/evolution-of-video-goals).
 

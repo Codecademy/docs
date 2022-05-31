@@ -1,6 +1,6 @@
 ---
 Title: 'Animation'
-Description: '**Animation** creates the illusion that inanimate objects are moving.'
+Description: 'Animation creates the illusion that inanimate objects are moving.'
 Subjects:
   - 'Web Design'
 Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
@@ -22,9 +22,7 @@ In UI and UX design projects, animations add motion, which transforms static des
 While variation exists across design software, standard animation settings include duration, style, and easing.
 
 - **Duration**, typically measured in milliseconds, is how long the animation lasts.
-
-- **Style** correlates to how the animation looks. For example, “Dissolve” creates a fading effect, and “Bounce” evokes a ball bouncing up and down.
-
+- **Style** correlates to how the animation looks. For example, "Dissolve" creates a fading effect, and "Bounce" evokes a ball bouncing up and down.
 - **Easing** refers to the way an animation accelerates throughout its duration. Adjusting the easing further customizes the visual style of the motion. Check out this [resource from Figma about easing](https://help.figma.com/hc/en-us/articles/360051748654/) to explore how different easing options impact the animation.
 
 Review [an article from Adobe XD](https://xd.adobe.com/ideas/principles/human-computer-interaction/animation-principles-for-ux-designers/) about animation principles to learn more about applying animations to a prototype.
