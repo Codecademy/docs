@@ -19,7 +19,7 @@ In UI and UX design projects, animations add motion, which transforms static des
 
 ### Animation Settings
 
-While variation exists across design software, standard animation settings include duration, style, and easing.
+While variation exists across design software, standard animation settings include the following:
 
 - **Duration**, typically measured in milliseconds, is how long the animation lasts.
 - **Style** correlates to how the animation looks. For example, "Dissolve" creates a fading effect, and "Bounce" evokes a ball bouncing up and down.
