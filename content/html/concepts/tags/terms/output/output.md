@@ -1,6 +1,6 @@
 ---
 Title: '<output>'
-Description: 'Represents the result of a calculation or user action.'
+Description: 'Displays the result of a calculation or user action.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
