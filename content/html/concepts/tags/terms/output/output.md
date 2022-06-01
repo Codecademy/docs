@@ -12,9 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<output>` displays the result of a calculation or user action.
-
-The `<output>` tag is typically used inside of a `<form>` element to dynamically show the result of user input, but it can also be used on its own.
+The `<output>` tag displays the result of a calculation or user action. It is commonly used inside of a [`<form>`](https://www.codecademy.com/resources/docs/html/tags/form) element to dynamically show the result of user input. However, the `<output>` tag can be used on its own.
 
 ## Syntax
 
