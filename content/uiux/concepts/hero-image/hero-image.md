@@ -3,10 +3,10 @@ Title: 'Hero Image'
 Description: 'A hero image, also called a banner or a hero header, is an image that’s displayed at the top of a page.'
 Subjects:
   - 'Web Design'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'UI'
   - 'UX'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'intro-to-ui-ux'
   - 'path/front-end-engineer-career-path'
 ---

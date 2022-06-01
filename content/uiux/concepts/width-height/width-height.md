@@ -1,5 +1,5 @@
 ---
-Title: 'Width and Height' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
+Title: 'Width and Height'
 Description: 'Width is the horizontal measurement of an object, and height is the vertical measurement.'
 Subjects:
   - 'Web Design'
