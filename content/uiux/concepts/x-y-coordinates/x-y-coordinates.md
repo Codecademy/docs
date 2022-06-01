@@ -10,8 +10,7 @@ CatalogContent:
   - 'intro-to-ui-ux'
   - 'path/front-end-engineer-career-path'
 ---
-
-X and Y coordinates are written in parenthesis: (9, 30). The first value is the X coordinate and the second value is the Y coordinate.
+An **X coordinate** and a **Y coordinate** indicate the location of a point along the X-axis (horizontal) and Y-axis (vertical). X and Y coordinates are written in parenthesis: (9, 30). The first value is the X coordinate and the second value is the Y coordinate.
 
 In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), X and Y coordinates represent a layer’s location on the canvas. If a layer is inside a frame, the coordinates represent its position within the frame.
 
