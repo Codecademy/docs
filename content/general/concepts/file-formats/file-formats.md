@@ -27,19 +27,19 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)                 | **.js**   | Contains a JavaScript program.                                                                                |
-| [Python](https://www.codecademy.com/resources/docs/python)                              | **.py**   | Contains a Python program.                                                                                  |
-| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)       | **.html** | Contains an HTML web page.                                                                                   |
-| [CSS(Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)            | **.css**  | Contains the styling for an HTML page.                                                                       |
-| [PHP (Hypertext Preprocessor)  ](https://www.codecademy.com/resources/docs/php)         | **.php**  | Contains a PHP program.                                                                                      |
-| [C](https://www.codecademy.com/resources/docs/c)                                        | **.c**    | Contains a C program.                                                                                        |
 | [C++](https://www.codecademy.com/resources/docs/cpp)                                    | **.cpp**  | Conatins a C++ program.                                                                                      |
+| [C](https://www.codecademy.com/resources/docs/c)                                        | **.c**    | Contains a C program.                                                                                        |
+| [CSS(Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)            | **.css**  | Contains the styling for an HTML page.                                                                       |
 | [Go ](https://www.codecademy.com/resources/docs/go)                                     | **.go**   | Conatins a Go program.                                                                                       |
 | [Java](https://www.codecademy.com/resources/docs/java)                                  | **.java** | Conatins a Java program.                                                                                     |
+| [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)                 | **.js**   | Contains a JavaScript program.                                                                               |
+| [PHP (Hypertext Preprocessor)  ](https://www.codecademy.com/resources/docs/php)         | **.php**  | Contains a PHP program.                                                                                      |
+| [Python](https://www.codecademy.com/resources/docs/python)                              | **.py**   | Contains a Python program.                                                                                   |
 | [R](https://www.codecademy.com/resources/docs/r)                                        | **.r**    | Contains an R program.                                                                                       |
 | [Ruby](https://www.codecademy.com/resources/docs/ruby)                                  | **.rb**   | Contains a Ruby program.                                                                                     |
 | [SQL (Structured Query Language)](https://www.codecademy.com/resources/docs/sql)        | **.sql**  | Contains an SQL program.                                                                                     |
 | [Swift](https://www.codecademy.com/resources/docs/swift)                                | **.swift**| Contains a Swift program.                                                                                    |
+| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)       | **.html** | Contains an HTML web page.                                                                                   |
 | [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)                 | **.ts**   | Contains a Typescript program.                                                                               |
 
 ### Image file formats
@@ -55,8 +55,8 @@ File formats exist for different types of files. Some common file types and form
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
 | [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)   | **.csv**  | Contains spreadsheet/table data.                                                                             |
-| PDF (Portable Document Format)                                                          | **.pdf**  | Created to be accessed on many devices and operating systems. Contains text and image data.                  |
 | [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)                     | **.md**   | Contains easily readable markup.                                                                             |
-| Executable                                                                              | **.exe**  | Contains an executable.                                                                                     |
+| Executable                                                                              | **.exe**  | Contains an executable.                                                                                      |
+| PDF (Portable Document Format)                                                          | **.pdf**  | Created to be accessed on many devices and operating systems. Contains text and image data.                  |
 | TXT (Text)                                                                              | **.txt**  | Contains text.                                                                                               |
-| Zip                                                                                     | **.zip**  | Compresses files into a folder that can be uncompressed into its original form.                                 |
+| Zip                                                                                     | **.zip**  | Compresses files into a folder that can be uncompressed into its original form.                              |
