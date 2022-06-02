@@ -27,7 +27,7 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| JS (Javascript)                                                                         | **.js**   | Contains a Javasript program.                                                                                |
+| JS (JavaScript)                                                                         | **.js**   | Contains a JavaScript program.                                                                                |
 | Python                                                                                  | **.py**   | Contrains a Python program.                                                                                  |
 | HTML (HyperText Markup Language)                                                        | **.html** | Contains an HTML web page.                                                                                   |
 | CSS (Cascading Style Sheets)                                                            | **.css**  | Contains the styling for an HTML page.                                                                       |
