@@ -22,11 +22,11 @@ datetime.date(YYYY, MM, DD)
 
 All parameters passed to the `datetime.date()` method in the snippet above are required and must be passed in order. Otherwise, a `TypeError` is thrown.
 
-| Parameter | Description                                   |                    Range                     |
-| :-------: | --------------------------------------------- | :------------------------------------------: |
-|  `YYYY`   | The year expressed in four digits.            |                   1 - 9999                   |
-|   `MM`    | The month expressed in two digits.            |                    1 - 12                    |
-|   `DD`    | The day of the month expressed in two digits. | 1 - number of days in a given month and year |
+| Parameter | Description                                          |                    Range                     |
+| :-------: | ---------------------------------------------------- | :------------------------------------------: |
+|  `YYYY`   | The year expressed in four digits.                   |                   1 - 9999                   |
+|   `MM`    | The month expressed in one or two digits.            |                    1 - 12                    |
+|   `DD`    | The day of the month expressed in one or two digits. | 1 - number of days in a given month and year |
 
 ## Codebyte Example
 
