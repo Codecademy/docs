@@ -34,14 +34,14 @@ A JSON object contains a series of any number of comma-delimited name-value pair
 
 Where the names are strings and the values can be any one of JSON's basic data types:
 
-- Number: A signed decimal number. JSON makes no distiction between integer and floating point.
+- Number: A signed decimal number. JSON makes no distinction between integer and floating point.
 - String: A sequence of zero or more Unicode characters enclosed in double quotes.
 - Boolean: Either `true` or `false`.
 - Array: An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
 - Object: A collection of name-value pairs inside curly brackets.
 - `null`: An empty value represented by the word `null`.
 
-Whitespace is ignored between names, values, and punctuation. JSON considers whitespace to be one of the four characters; space, tab, line feed, and carrage return.
+Whitespace is ignored between names, values, and punctuation. JSON considers whitespace to be one of the four characters; space, tab, line feed, and carriage return.
 
 JSON objects cannot contain comments.
 
@@ -63,7 +63,3 @@ Below is an example of a JSON object representing a vehicle:
   "lease" : false
 }
 ```
-
-
-
-
