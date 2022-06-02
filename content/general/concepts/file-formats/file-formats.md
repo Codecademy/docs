@@ -23,7 +23,7 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
-### Programing file formats
+### Programing File Formats
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
