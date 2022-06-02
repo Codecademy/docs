@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.dump()` function encodes a Python object as a JSON file. The encoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.dumps()` function, alternatively, takes a Python object and returns a JSON string.
+The `.dump()` function encodes a Python object as a [JSON](https://www.codecademy.com/resources/docs/general/json) file. The encoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.dumps()` function, alternatively, takes a Python object and returns a JSON string.
 
 ## Syntax
 
