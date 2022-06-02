@@ -18,7 +18,7 @@ JSON was first developed in the early 2000s as a means of server-to-browser comm
 
 ## Syntax
 
-A JSON object contains a series of any number of name-value pairs inside curly brackets:
+A JSON object contains a series of any number of comma-delimited name-value pairs inside curly brackets:
 
 ```pseudo
 {
@@ -40,6 +40,25 @@ Where the names are strings and the values can be any one of JSON's basic data t
 - Array: An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
 - Object: A collection of name-value pairs inside curly brackets.
 - `null`: An empty value represented by the word `null`.
+
+## Example
+
+Below is an example of a JSON object representing a vehicle:
+
+```pseudo
+{
+  "make" : "Chevy",
+  "model" : "Silverado",
+  "miles" : 27500,
+  "year" : 2020,
+  "owner" : {
+              "firstName" : "John",
+              "lastName" : "Doe"
+              },
+  "features" : ["4WD","Towing Package","Lift Kit"],
+  "lease" : false
+}
+```
 
 
 
