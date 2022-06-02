@@ -25,7 +25,7 @@ const myDate = new Date(dateValue);
 
 The `dateValue` can be any of the following:
 
-- It can be a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a date that is valid and [IETF-compliant](https://datatracker.ietf.org/doc/html/rfc2822#page-14)
+- It can be a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a date that is valid and [IETF-compliant](https://datatracker.ietf.org/doc/html/rfc2822#page-14).
 - It can be another instance of the `Date` class.
 - It can be an integer that represents the date measured in milliseconds since January 1st, 1970 UTC.
 
