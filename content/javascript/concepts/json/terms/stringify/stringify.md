@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `.stringify()` method returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a given JSON object. It is one of two methods belonging to the reserved `JSON` object, the other being the [`.parse()`](https://www.codecademy.com/resources/docs/javascript/json/parse) method.
+The `.stringify()` method returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a given JSON object. It is one of two methods that belong to the reserved `JSON` object, the other being the [`.parse()`](https://www.codecademy.com/resources/docs/javascript/json/parse) method.
 
 ## Syntax
 
