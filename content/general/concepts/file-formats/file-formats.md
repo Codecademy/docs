@@ -27,10 +27,10 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| JS (JavaScript)                                                                         | **.js**   | Contains a JavaScript program.                                                                                |
-| Python                                                                                  | **.py**   | Contains a Python program.                                                                                  |
-| HTML (HyperText Markup Language)                                                        | **.html** | Contains an HTML web page.                                                                                   |
-| CSS (Cascading Style Sheets)                                                            | **.css**  | Contains the styling for an HTML page.                                                                       |
+| [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)                 | **.js**   | Contains a JavaScript program.                                                                                |
+| [Python](https://www.codecademy.com/resources/docs/python)                              | **.py**   | Contains a Python program.                                                                                  |
+| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)       | **.html** | Contains an HTML web page.                                                                                   |
+| [CSS(Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)            | **.css**  | Contains the styling for an HTML page.                                                                       |
 | PHP (Hypertext Preprocessor)                                                            | **.php**  | Contains a PHP program.                                                                                      |
 | C                                                                                       | **.c**    | Contains a C program.                                                                                        |
 | C++                                                                                     | **.cpp**  | Conatins a C++ program.                                                                                      |
