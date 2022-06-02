@@ -1,6 +1,6 @@
 ---
 Title: 'Double Diamond Diagram'
-Description: 'The double diamond diagram is a design methodology consisting of a two-diamond structure that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process.'
+Description: 'The double diamond diagram is a structured design methodology that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process.'
 Subjects:
   - 'Web Design'
 Tags:
