@@ -30,6 +30,7 @@ A JSON object contains a series of any number of name-value pairs inside curly b
   .
   "nameN" : valueN
 }
+```
 
 Where the names are strings and the values can be any one of JSON's basic data types:
 
