@@ -16,7 +16,7 @@ The `<picture>` tag represents multiple possible image sources to be applied to 
 
 ## Syntax
 
-The `<picture>` tag is used with zero or more [`<source>` elements](https://www.codecademy.com/resources/docs/html/tags/source) followed by one [`<img>` element](https://www.codecademy.com/resources/docs/html/images).
+The `<picture>` tag is used with zero or more [`<source>`](https://www.codecademy.com/resources/docs/html/tags/source)tags followed by one [`<img>`](https://www.codecademy.com/resources/docs/html/images) element.
 
 ```pseudo
 <picture>
@@ -38,7 +38,11 @@ Using different sources provides more options for the browser with regards to th
     <picture>
       <source media="(min-width:700px)" srcset="CodecademyLogoLarge.jpg" />
       <source media="(min-width:540px)" srcset="CodecademyLogoSmall.jpg" />
-      <img src="CodecademyLogoLarge.jpg" alt="The Codecademy logo" style="width:auto;" />
+      <img
+        src="CodecademyLogoLarge.jpg"
+        alt="The Codecademy logo"
+        style="width:auto;"
+      />
     </picture>
   </body>
 </html>
