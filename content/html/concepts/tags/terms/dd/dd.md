@@ -1,10 +1,11 @@
 ---
 Title: '<dd>'
-Description: ''
+Description: 'Describes details found inside a <dl> tag. It usually comes with at least one correspoinding <dt> tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Lists'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
@@ -32,13 +33,13 @@ In the example below, the `<dd>` is used (and highlighted with some styling):
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Styles are omitted for purposes of this example. -->
+    <!-- Styles are omitted in this example. -->
   </head>
   <body>
     <dl>
       <dt class="term">Aardvark</dt>
       <dd class="detail">
-        A large burrowing African mammal that feeds on ants and termintes with
+        A large burrowing African mammal that feeds on ants and termites with
         its long sticky tongue.
       </dd>
     </dl>

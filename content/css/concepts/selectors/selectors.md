@@ -70,7 +70,7 @@ element[attribute='value'] {
 
 The `id` of an element is unique within a page, so the `id` selector is used to select one unique element. An element can be selected with a specific `id`, by using a hash (`#`) character, followed by the `id` of the element.
 
-Multiple `class` values can be assigned to a single element. Elements are selected by `class` with a period (`.`) character, followed by the class name. Unlike `id` values, `class` values can be duplicated on a page with difference elements.
+Multiple `class` values can be assigned to a single element. Elements are selected by `class` with a period (`.`) character, followed by the class name. Unlike `id` values, `class` values can be duplicated on a page with different elements.
 
 ### Example
 

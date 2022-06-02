@@ -15,7 +15,7 @@ CatalogContent:
 
 Combinators are CSS [selectors](https://www.codecademy.com/resources/docs/css/selectors) that are used to style elements that have a certain relationship with other selected elements.
 
-## Sytnax
+## Syntax
 
 ```pseudo
 selector1 selector2 ... selectorN {

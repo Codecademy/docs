@@ -42,7 +42,7 @@ Anchor tags can be used to link to certain parts of a page with a matching `id` 
 
 ### Image Links
 
-Anything that is inside the anchor tag will be treated as a link. In this case the Codecademy logo will take the user to the Codecademy home page.
+Anything that is inside the anchor tag will be treated as a link. In this case, the Codecademy logo will take the user to the Codecademy home page.
 
 ```html
 <!-- Creating an image link -->

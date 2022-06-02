@@ -29,7 +29,7 @@ The two primary attributes are:
 - A `rel` to describe the format of the external source.
 - An `href` that contains the filepath to the external source.
 
-It is a best practice that the `<link>` tag is always defined inside the [`<head>`](https://www.codecademy.com/resources/docs/html/tags/head) tag.
+It is best practice that the `<link>` tag is always defined inside the [`<head>`](https://www.codecademy.com/resources/docs/html/tags/head) tag.
 
 ## Example
 
