@@ -1,6 +1,6 @@
 ---
 Title: '<dt>'
-Description: ''
+Description: 'Describes a term found inside a <dl> tag. It usually comes with at least one corresponding <dd> details tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
