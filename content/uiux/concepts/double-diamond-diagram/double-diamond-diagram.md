@@ -17,7 +17,7 @@ The **double diamond diagram** is a [design methodology](https://www.codecademy.
 
 This model promotes creativity and innovation while making it clear when decisions should be made and when teams should commit to a direction. A well-executed double diamond process ensures that product requirements and subsequent design work are focused on user needs.
 
-The double diamond diagram illustrates two modes of thinking that occur during the strategy and execution stages of the design process. [Divergent thinking](https://www.codecademy.com/resources/docs/uiux/divergent-thinking) explores many possible solutions and generates novel ideas. [Convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) analyzes, filters, and focuses ideas and leads to decisions.
+The double diamond diagram illustrates two modes of thinking that occur during the strategy and execution stages of the design process. Teams can leverage [divergent thinking](https://www.codecademy.com/resources/docs/uiux/divergent-thinking) to explore many possible solutions and generate novel ideas. The second stage is dedicated to [convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) to analyze, filter, and focus ideas in order to bring clarity and direction to the design process.
 
 ## Double Diamond Phases
 
