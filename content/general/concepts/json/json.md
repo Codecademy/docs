@@ -41,6 +41,10 @@ Where the names are strings and the values can be any one of JSON's basic data t
 - Object: A collection of name-value pairs inside curly brackets.
 - `null`: An empty value represented by the word `null`.
 
+Whitespace is ignored between names, values, and punctuation. JSON considers whitespace to be one of the four characters; space, tab, line feed, and carrage return.
+
+JSON objects cannot contain comments.
+
 ## Example
 
 Below is an example of a JSON object representing a vehicle:
