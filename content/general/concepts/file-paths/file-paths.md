@@ -20,7 +20,7 @@ A file path describes the location of a file in a computer's folder structure. T
 - Files that may link to programs such as [CDNs](https://www.codecademy.com/resources/docs/general/cdn), [frameworks](https://www.codecademy.com/resources/docs/general/cdn), or [Node applications](https://www.codecademy.com/resources/docs/general/node-js).
 - Other files such [JSON](https://www.codecademy.com/resources/docs/general/json) or plain text.
 
-## URLS and File Paths
+## URLs and File Paths
 
 URLs are addresses where data and websites are hosted on the web and are more permanent. File paths are relative to where they are hosted normally on a server inaccessible to most people and are more temporary.
 
