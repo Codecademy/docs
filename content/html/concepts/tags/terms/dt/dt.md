@@ -39,7 +39,7 @@ In the example below, the `<dt>` is used (and highlighted with some styling):
     <dl>
       <dt class="term">Aardvark</dt>
       <dd class="detail">
-        A large burrowing African mammal that feeds on ants and termintes with
+        A large burrowing African mammal that feeds on ants and termites with
         its long sticky tongue.
       </dd>
     </dl>

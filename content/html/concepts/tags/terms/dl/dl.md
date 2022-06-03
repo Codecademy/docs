@@ -44,7 +44,7 @@ In the example below, this technique is used inside the `<dl>` tag. Additionally
       <div>
         <dt id="term-a" class="term">Aardvark</dt>
         <dd class="detail">
-          A large burrowing African mammal that feeds on ants and termintes with
+          A large burrowing African mammal that feeds on ants and termites with
           its long sticky tongue.
         </dd>
       </div>
