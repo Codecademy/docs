@@ -46,17 +46,17 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | **.svg**  | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
-| JPEG (Joint Photographic Experts Group)                                                 | **.jpeg** | Standard use for minimized images.                                                                           |
-| PNG (Portable Network Graphics)                                                         | **.png**  | Common file format for high resolution images.                                                               |
+| [SVG](https://www.codecademy.com/resources/docs/general/svg) (Scalable Vector Graphics) | `.svg`    | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
+| JPEG (Joint Photographic Experts Group)                                                 | `.jpeg`   | Standard use for minimized images.                                                                           |
+| PNG (Portable Network Graphics)                                                         | `.png`    | Common file format for high resolution images.                                                               |
 
 ### Other file formats
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)   | **.csv**  | Contains spreadsheet/table data.                                                                             |
-| [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)                     | **.md**   | Contains easily readable markup.                                                                             |
-| Executable                                                                              | **.exe**  | Contains an executable.                                                                                      |
-| PDF (Portable Document Format)                                                          | **.pdf**  | Created to be accessed on many devices and operating systems. Contains text and image data.                  |
-| TXT (Text)                                                                              | **.txt**  | Contains text.                                                                                               |
-| Zip                                                                                     | **.zip**  | Compresses files into a folder that can be uncompressed into its original form.                              |
+| [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values)   | `.csv`    | Contains spreadsheet/table data.                                                                             |
+| [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)                     | `.md`     | Contains easily readable markup.                                                                             |
+| Executable                                                                              | `.exe`    | Contains an executable.                                                                                      |
+| PDF (Portable Document Format)                                                          | `.pdf`    | Created to be accessed on many devices and operating systems. Contains text and image data.                  |
+| TXT (Text)                                                                              | `.txt`    | Contains text.                                                                                               |
+| Zip                                                                                     | `.zip`    | Compresses files into a folder that can be uncompressed into its original form.                              |
