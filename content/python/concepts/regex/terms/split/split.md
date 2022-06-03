@@ -21,7 +21,7 @@ The `.split()` method of the `re` module divides a string into substrings at eac
 re.split(<pattern>, string, <maxsplit>, <flags>)
 ```
 
-A `<pattern>` can include any of the following:
+A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
 
 - A string: `Jane Smith`
 - A character class code: `/w`, `/s` , `/d`

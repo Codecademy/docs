@@ -23,7 +23,7 @@ The `.search()` method returns the first match of a character pattern anywhere i
 re.search(<pattern>, string, <optional args>)
 ```
 
-A `<pattern>` can include any of the following:
+A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
 
 - A string: `Jane`
 - A character class code: `/w`, `/s` , `/d`

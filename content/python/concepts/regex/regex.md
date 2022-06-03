@@ -1,6 +1,6 @@
 ---
 Title: 'Regular Expressions'
-Description: 'Regular expressions use a powerful system for searching text. They are implemented in a variety of languages including Java and Python.'
+Description: 'Regex, short for regular expressions, is a powerful system for searching text.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Regex, short for "regular expressions", uses a powerful system for searching text and is implemented in a variety of languages including Python.
+Regex, short for [regular expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python.
 
 ## Syntax
 
