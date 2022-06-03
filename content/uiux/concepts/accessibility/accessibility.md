@@ -10,6 +10,7 @@ CatalogContent:
   - 'intro-to-ui-ux'
   - 'paths/front-end-engineer-career-path'
 ---
+
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-digital-accessibility" />
 
 **Accessibility** refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use the device or product.
