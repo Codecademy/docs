@@ -27,9 +27,9 @@ print(df)
 
 group = df.groupby(['Key'], as_index=False)
 
-print(group.count())
+print(group.count(), end='\n\n')
 
-print(group.sum())
+print(group.sum(), end='\n\n')
 
 print(group.mean())
 ```
