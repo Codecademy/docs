@@ -32,4 +32,4 @@ Relative file paths link to a local file in the same folder or on the same serve
 - `./js/script.js`
 - `./scripts/main.py`
 
-Relative file paths begin with `./` followed by a path to the local file. `./` tells the program to look for the file path from the current folder. To go up 1 level im the file structer you use `../`.
+Relative file paths begin with `./` followed by a path to the local file. `./` tells the program to look for the file path from the current folder. To go up 1 level in the file structer you use `../`.
