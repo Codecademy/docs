@@ -27,20 +27,20 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| [C++](https://www.codecademy.com/resources/docs/cpp)                                    | **.cpp**  | Conatins a C++ program.                                                                                      |
-| [C](https://www.codecademy.com/resources/docs/c)                                        | **.c**    | Contains a C program.                                                                                        |
-| [CSS(Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)            | **.css**  | Contains the styling for an HTML page.                                                                       |
-| [Go ](https://www.codecademy.com/resources/docs/go)                                     | **.go**   | Conatins a Go program.                                                                                       |
-| [Java](https://www.codecademy.com/resources/docs/java)                                  | **.java** | Conatins a Java program.                                                                                     |
-| [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)                 | **.js**   | Contains a JavaScript program.                                                                               |
-| [PHP (Hypertext Preprocessor)  ](https://www.codecademy.com/resources/docs/php)         | **.php**  | Contains a PHP program.                                                                                      |
-| [Python](https://www.codecademy.com/resources/docs/python)                              | **.py**   | Contains a Python program.                                                                                   |
-| [R](https://www.codecademy.com/resources/docs/r)                                        | **.r**    | Contains an R program.                                                                                       |
-| [Ruby](https://www.codecademy.com/resources/docs/ruby)                                  | **.rb**   | Contains a Ruby program.                                                                                     |
-| [SQL (Structured Query Language)](https://www.codecademy.com/resources/docs/sql)        | **.sql**  | Contains an SQL program.                                                                                     |
-| [Swift](https://www.codecademy.com/resources/docs/swift)                                | **.swift**| Contains a Swift program.                                                                                    |
-| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)       | **.html** | Contains an HTML web page.                                                                                   |
-| [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)                 | **.ts**   | Contains a Typescript program.                                                                               |
+| [C++](https://www.codecademy.com/resources/docs/cpp)                                    | `.cpp`    | Conatins a C++ program.                                                                                      |
+| [C](https://www.codecademy.com/resources/docs/c)                                        | `.c`      | Contains a C program.                                                                                        |
+| [CSS(Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)            | `.css`    | Contains the styling for an HTML page.                                                                       |
+| [Go ](https://www.codecademy.com/resources/docs/go)                                     | `.go`     | Conatins a Go program.                                                                                       |
+| [Java](https://www.codecademy.com/resources/docs/java)                                  | `.java`   | Conatins a Java program.                                                                                     |
+| [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)                 | `.js`     | Contains a JavaScript program.                                                                               |
+| [PHP (Hypertext Preprocessor)  ](https://www.codecademy.com/resources/docs/php)         | `.php`    | Contains a PHP program.                                                                                      |
+| [Python](https://www.codecademy.com/resources/docs/python)                              | `.py`     | Contains a Python program.                                                                                   |
+| [R](https://www.codecademy.com/resources/docs/r)                                        | `.r`      | Contains an R program.                                                                                       |
+| [Ruby](https://www.codecademy.com/resources/docs/ruby)                                  | `.rb`     | Contains a Ruby program.                                                                                     |
+| [SQL (Structured Query Language)](https://www.codecademy.com/resources/docs/sql)        | `.sql`    | Contains an SQL program.                                                                                     |
+| [Swift](https://www.codecademy.com/resources/docs/swift)                                | `.swift`  | Contains a Swift program.                                                                                    |
+| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)       | `.html`   | Contains an HTML web page.                                                                                   |
+| [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)                 | `.ts`     | Contains a Typescript program.                                                                               |
 
 ### Image file formats
 
