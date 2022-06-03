@@ -34,7 +34,7 @@ import pandas as pd
 
 df = pd.DataFrame({'Key' : ['A', 'A', 'A', 'B', 'B', 'C'],
                    'Value' : [15., 23., 17., 5., 8., 12.]})
-print(df)
+print(df, end='\n\n')
 
 group = df.groupby(['Key'], as_index=False)
 
