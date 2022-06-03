@@ -31,7 +31,7 @@ df = pd.DataFrame({'Key' : ['A', 'A', 'A', 'B', 'B', 'C'],
                    'Value' : [15., 23., 17., 5., 8., 12.]})
 print(df)
 
-group = df.groupby(['Key'])
+group = df.groupby(['Key'], as_index=False)
 
 print(group.count())
 ```
