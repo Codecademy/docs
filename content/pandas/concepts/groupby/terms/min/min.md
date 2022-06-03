@@ -22,8 +22,8 @@ groupbyobject.max(numeric_only, min_count)
 
 The `.min()` method has the following parameters:
 
-- `numeric_only` : Boolean value. `True` includes only int, float and boolean columns. Defaults `True`.
-- `min_count` : Int value. Required number of valid entries in order to produce a result. Defalts to 0.
+- `numeric_only`: Boolean value. `True` includes only int, float and boolean columns. Defaults `True`.
+- `min_count`: Int value. Required number of valid entries in order to produce a result. Defalts to 0.
 
 ## Example
 
