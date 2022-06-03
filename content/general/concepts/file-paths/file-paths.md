@@ -28,8 +28,8 @@ URLs are addresses where data and websites are hosted on the web and are more pe
 
 Relative file paths link to a local file in the same folder or on the same server, for example:
 
-- **./about.html**
-- **./js/script.js**
-- **./scripts/main.py**
+- `./about.html`
+- `./js/script.js`
+- `./scripts/main.py`
 
 Relative file paths begin with `./` followed by a path to the local file. `./` tells the program to look for the file path from the current folder.
