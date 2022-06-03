@@ -26,7 +26,7 @@ URLs are addresses where data and websites are hosted on the web and are more pe
 
 ## Relative File Paths
 
-Relative file path are paths that links to a local file in the same folder or on the same server, for example:
+Relative file paths link to a local file in the same folder or on the same server, for example:
 
 - **./about.html**
 - **./js/script.js**
