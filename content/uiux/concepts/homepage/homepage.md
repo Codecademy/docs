@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-The homepage is typically the first page a user lands on when [navigating](https://www.codecademy.com/resources/docs/uiux/navigation) to a website or digital interface. As a result, this provides a unique opportunity to make a first impression.
+The **homepage** is typically the first page a user lands on when [navigating](https://www.codecademy.com/resources/docs/uiux/navigation) to a website or digital interface. As a result, this provides a unique opportunity to make a first impression.
 
 The homepage of a digital interface is often utilized as a diving board that allows users to easily navigate to the information they seek and complete necessary actions toward the task they have set out to do.
 

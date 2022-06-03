@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-A site map is a high-level representation of [content hierarchy](https://www.codecademy.com/resources/docs/uiux/content-hierarchy) within a digital interface. Site maps define all pages that need to be built and how the content will be organized.
+A **site map** is a high-level representation of [content hierarchy](https://www.codecademy.com/resources/docs/uiux/content-hierarchy) within a digital interface. Site maps define all pages that need to be built and how the content will be organized.
 
 ![Information Architecture - Site Map example](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/information-architecture.svg)
 

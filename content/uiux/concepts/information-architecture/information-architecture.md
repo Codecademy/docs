@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-Information architecture (IA) is the organization, prioritization, and presentation of information within a product, website, and other software applications.
+**Information architecture (IA)** is the organization, prioritization, and presentation of information within a product, website, and other software applications.
 
 Effective IA allows users to complete tasks with the least effort required. [Site maps](https://www.codecademy.com/resources/docs/uiux/site-map) are a visual representation of IA and give context to how content is tiered. Although IA isn’t visually presented to the users, content should be grouped and structured in such a way that makes logical sense.
 

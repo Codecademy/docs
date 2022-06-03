@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-Low-fidelity refers to the intentional absence of detail in a design. Low-fidelity design deliverables, such as [sketches](https://www.codecademy.com/resources/docs/uiux/sketching) and [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe), contain few design elements and are often a rough draft of what the final product could look like, with emphasis on what content will be used and where it will be used.
+**Low-fidelity** refers to the intentional absence of detail in a design. Low-fidelity design deliverables, such as [sketches](https://www.codecademy.com/resources/docs/uiux/sketching) and [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe), contain few design elements and are often a rough draft of what the final product could look like, with emphasis on what content will be used and where it will be used.
 
 A design is considered low-fidelity when it contains little to no decorative elements and user interactivity. Low-fidelity wireframes are useful for gathering feedback on basic structural elements, such as [information architecture](https://www.codecademy.com/resources/docs/uiux/information-architecture) on a site or hierarchy of elements within a page, without the potential distraction of visual design factors like colors and typefaces.
 
