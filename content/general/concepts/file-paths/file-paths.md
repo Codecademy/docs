@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A file path describes the location of a file in a computer's folder structure. They are used to locate files, like:
+A **file path** describes the location of a file in a computer's folder structure. They are used to locate files, like:
 
 - Media files such as images.
 - Links to [stylesheets](https://www.codecademy.com/resources/docs/css) for the web page.
