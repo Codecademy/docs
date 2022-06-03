@@ -15,9 +15,10 @@ CatalogContent:
 
 A file path describes the location of a file in a computer's folder structure. They are used to locate files, like:
 
-- Images
-- Other programs
-- Libraries/frameworks
+- Media files such as images.
+- Links to [stylesheets](https://www.codecademy.com/resources/docs/css) for the web page.
+- Files that may link to programs such as [CDNs](https://www.codecademy.com/resources/docs/general/cdn), [frameworks](https://www.codecademy.com/resources/docs/general/cdn), or [Node applications](https://www.codecademy.com/resources/docs/general/node-js).
+- Other files such [JSON](https://www.codecademy.com/resources/docs/general/json) or plain text.
 
 ## URLS and File Paths
 
