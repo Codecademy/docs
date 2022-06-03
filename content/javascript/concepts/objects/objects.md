@@ -5,6 +5,7 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Dictionary'
   - 'Objects'
   - 'Classes'
   - 'OOP'
@@ -58,7 +59,7 @@ objectName.propertyName
 person.lastName;
 ```
 
-Or using square brackets:
+Bracket notation must be used if the property name has numbers, spaces, or special characters:
 
 ```pseudo
 objectName["propertyName"]
