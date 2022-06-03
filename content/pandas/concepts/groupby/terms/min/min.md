@@ -52,9 +52,8 @@ This example produces the following output:
 4   B    8.0
 5   C   12.0
 
-     Value
-Key
-A     15.0
-B      5.0
-C     12.0
+  Key  Value
+0   A   15.0
+1   B    5.0
+2   C   12.0
 ```
