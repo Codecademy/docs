@@ -17,6 +17,6 @@ Design activities that encourage divergent thinking often emphasize spontaneity 
 
 Many design methodologies explicitly define stages where divergent thinking is the focus. For example, in the [double diamond diagram](https://www.codecademy.com/resources/docs/uiux/double-diamond-diagram), the Discover stage focuses on divergent strategy, or exploring the problem and landscape, and the Develop stage focuses on divergent execution, or generating a range of ideas and solutions.
 
-![The Double Diamond diagram: two diamonds side-by-side, broken down into Strategy (Discover and Define) and Execution (Develop and Deliver) phases, moving from problem to solution.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/double-diamond.png)
+![The Double Diamond Diagram: two diamonds side-by-side, broken down into Strategy (Discover and Define) and Execution (Develop and Deliver) phases, moving from problem to solution.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/double-diamond.png)
 
 For more information, visit the [Interaction Design Foundation's divergent thinking definition](https://www.interaction-design.org/literature/topics/divergent-thinking).
