@@ -45,23 +45,20 @@ This produces the following output:
 4   B    8.0
 5   C   12.0
 
-     Value
-Key
-A        3
-B        2
-C        1
+  Key  Value
+0   A      3
+1   B      2
+2   C      1
 
-     Value
-Key
-A     55.0
-B     13.0
-C     12.0
+  Key  Value
+0   A   55.0
+1   B   13.0
+2   C   12.0
 
-         Value
-Key
-A    18.333333
-B     6.500000
-C    12.000000
+  Key      Value
+0   A  18.333333
+1   B   6.500000
+2   C  12.000000
 ```
 
 Selected methods of the GroupBy object are listed below:
