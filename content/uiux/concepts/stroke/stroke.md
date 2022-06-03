@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), the stroke properties can be updated to customize its style, size, and color.
+A **stroke**, also referred to as a border, is a line that wraps around a layer. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), the stroke properties can be updated to customize its style, size, and color.
 
 ### Stroke Properties
 

@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-Apps, websites, and other digital products include animations for many reasons, such as drawing the user’s attention to a particular area or providing visual feedback when the user interacts with a design element. Animation can support usability or undermine it, as discussed in [Nielsen Norman Group’s article about the role of animation in UX](https://www.nngroup.com/articles/animation-purpose-ux/).
+Apps, websites, and other digital products include **animations** for many reasons, such as drawing the user’s attention to a particular area or providing visual feedback when the user interacts with a design element. Animation can support usability or undermine it, as discussed in [Nielsen Norman Group’s article about the role of animation in UX](https://www.nngroup.com/articles/animation-purpose-ux/).
 
 ![Gif of two animations on Codecademy’s website. 1. Up-facing chevron spins down when it’s selected. 2. Course tiles pop up and appear 3D when the mouse hovers over them.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Animations.gif)
 

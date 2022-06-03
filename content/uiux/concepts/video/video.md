@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-There are different methods to make videos such as recording footage, capturing a screencast, or using software to create animations.
+There are different methods to make **videos** such as recording footage, capturing a screencast, or using software to create animations.
 
 With the potential to support and engage users, videos are commonly featured in digital products. Videos can be a powerful way to introduce information, demonstrate a process, tell a story, or [further a business strategy](https://wistia.com/learn/marketing/evolution-of-video-goals).
 

@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-An object with high opacity has low transparency, meaning little or no light can pass through.
+**Opacity** correlates to transparency or the amount of light that passes through an object. An object with high opacity has low transparency, meaning little or no light can pass through.
 
 If an object is completely opaque like a solid wood door, no light can pass through, and anything behind the door will not be visible. In contrast, a partially opaque object, like a window covered by a thin curtain, allows light to pass through and objects behind the window will be somewhat visible.
 

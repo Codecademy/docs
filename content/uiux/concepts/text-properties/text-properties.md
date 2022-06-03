@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), default text properties are applied, and each property can be adjusted to suit the needs of the design.
+**Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), default text properties are applied, and each property can be adjusted to suit the needs of the design.
 
 **Typeface** refers to a distinct visual style applied to the characters. For example, Times New Roman, Calibri, and Cambria are typefaces. The terms font and typeface are often used interchangeably, but font is a more specific description that includes the typeface, size, and weight. For example, "Times New Roman 24 Bold" and "Times New Roman 24 Light" are different fonts. For additional information, check out this [resource about typefaces and fonts](https://www.editorx.com/shaping-design/article/typefaces-vs-fonts).
 
