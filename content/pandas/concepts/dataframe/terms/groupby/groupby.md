@@ -42,7 +42,7 @@ df = pd.DataFrame({'Key' : ['A', 'A', 'A', 'B', 'B', 'C'],
                    'Value' : [15., 23., 17., 5., 8., 12.]})
 print(df)
 
-print(df.groupby(['Key']).mean())
+print(df.groupby(['Key'], as_index=False).mean(), end='\n\n')
 
 print(df.groupby(['Key'], as_index=False).sum())
 ```
