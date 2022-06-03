@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-Annotations are often in the form of notes or comments that are included in design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables). Annotations within a design deliverable look like this:
+**Annotations** are often in the form of notes or comments that are included in design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables). Annotations within a design deliverable look like this:
 
 ![A sketch of a product information page with the main image, image navigation arrows, and product variant options annotated.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/annotation.png)
 
