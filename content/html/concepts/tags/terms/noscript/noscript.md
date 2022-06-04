@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<noscript>` tag will display its contents when the user disabled Javascript for that site.
+The `<noscript>` tag displays its contents whenever [Javascript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser or it is not supported for a given site.
   
 ## Syntax
   
