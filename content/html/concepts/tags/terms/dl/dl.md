@@ -37,7 +37,7 @@ In the example below, this technique is used inside the `<dl>` tag. Additionally
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Styles are omitted for purposes of this example. -->
+    <!-- Styles are omitted in this example. -->
   </head>
   <body>
     <dl>
