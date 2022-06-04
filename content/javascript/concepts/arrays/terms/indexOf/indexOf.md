@@ -66,5 +66,4 @@ const repeatGreeting = ['hello world', 'hello world'];
 const firstGreeting = repeatGreeting.indexOf('hello world');
 
 console.log(firstGreeting);
-// Output: 0
 ```

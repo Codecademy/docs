@@ -57,7 +57,7 @@ The steps in an `alfredoRecipe` array are followed by using the `.shift()` metho
 const alfredoRecipe = [
   "1. Heat water to a boil, then add pasta (stirring occasionally).",
   "2. Grate pecorino (or parmesan) cheese as finely as possible in a small bowl.",
-  "3. Slowly heat butter in a saucepan on 'Low'",
+  "3. Slowly heat butter in a saucepan on 'Low'.",
   "4. Drain pasta (but reserve some pasta water).",
   "5. Combine cheese and water with pasta and mix until creamy.",
 ];
