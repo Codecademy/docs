@@ -1,6 +1,6 @@
 ---
 Title: '<dl>'
-Description: 'Dislpays terms and details, commonly for metadata purposes.'
+Description: 'Displays terms and details, commonly for metadata purposes.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
