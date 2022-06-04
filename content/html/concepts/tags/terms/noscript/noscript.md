@@ -29,7 +29,7 @@ The tag has no attributes and what is nested within the tag will be displayed.
   <p>Please enable Javascript for this page to load. Learn how to <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a></p>
 </noscript>
 ```
-  
+
 The output might look like this:
-  
+
 ![Output of the example](https://raw.githubusercontent.com/Codecademy/docs/main/media/no-script-tag-example.png)
