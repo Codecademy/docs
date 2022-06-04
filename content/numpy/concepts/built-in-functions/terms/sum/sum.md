@@ -52,8 +52,6 @@ This produces the following output:
 
 ```shell
 21
-
 [5 7 9]
-
 [ 6 15]
 ```
