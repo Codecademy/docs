@@ -38,7 +38,7 @@ The `a` argument is required and represents the array of elements to sum. All ot
 
 The following example creates an array then uses a few `.sum()` operations to sum the elements.
 
-```python
+```py
 import numpy as np
 
 nd = np.array([[1,2,3],[4,5,6]])
