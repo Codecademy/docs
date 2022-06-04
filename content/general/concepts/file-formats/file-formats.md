@@ -53,7 +53,7 @@ File formats exist for different types of files. Some common file types and form
 
 |                                      File Format                                      | Extension | Description                                                                                 |
 | :-----------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------- |
-| [CSV](https://www.codecademy.com/resources/docs/general/csv) (Comma Separated Values) |  `.csv`   | Contains spreadsheet/table data.                                                            |
+| [CSV (Comma-separated Values)](https://www.codecademy.com/resources/docs/general/csv) |  `.csv`   | Contains spreadsheet/table data.                                                            |
 |          [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)          |   `.md`   | Contains easily readable markup.                                                            |
 |                                      Executable                                       |  `.exe`   | Contains an executable.                                                                     |
 |                            PDF (Portable Document Format)                             |  `.pdf`   | Created to be accessed on many devices and operating systems. Contains text and image data. |
