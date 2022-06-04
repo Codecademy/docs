@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.groupby()` function groups a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) using a mapper or a series of columns and returns a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object. The GroupBy object can be used to apply functions and combine large amounts of data in these groups.
+The `.groupby()` function groups a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) using a mapper or a series of columns and returns a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object. A range of methods, as well as custom functions, can be applied to GroupBy objects in order to combine or transform large amounts of data in these groups.
 
 ## Syntax
 
