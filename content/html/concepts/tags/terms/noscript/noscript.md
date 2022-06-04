@@ -12,7 +12,6 @@ CatalogContent:
 ---
 
 The `<noscript>` tag displays its contents whenever [Javascript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser or it is not supported for a given site.
-  
 ## Syntax
   
 ```html
