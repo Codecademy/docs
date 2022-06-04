@@ -28,7 +28,7 @@ File formats exist for different types of files. Some common file types and form
 | :-------------------------------------------------------------------------------: | :-------: | -------------------------------------- |
 |               [C++](https://www.codecademy.com/resources/docs/cpp)                |  `.cpp`   | Conatins a C++ program.                |
 |                 [C](https://www.codecademy.com/resources/docs/c)                  |   `.c`    | Contains a C program.                  |
-|   [CSS (Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)    |  `.css`   | Contains the styling for an HTML page. |
+|   [CSS (Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)   |  `.css`   | Contains the styling for an HTML page. |
 |                [Go](https://www.codecademy.com/resources/docs/go)                 |   `.go`   | Conatins a Go program.                 |
 |              [Java](https://www.codecademy.com/resources/docs/java)               |  `.java`  | Conatins a Java program.               |
 |      [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)      |   `.js`   | Contains a JavaScript program.         |
@@ -38,7 +38,7 @@ File formats exist for different types of files. Some common file types and form
 |              [Ruby](https://www.codecademy.com/resources/docs/ruby)               |   `.rb`   | Contains a Ruby program.               |
 | [SQL (Structured Query Language)](https://www.codecademy.com/resources/docs/sql)  |  `.sql`   | Contains an SQL program.               |
 |             [Swift](https://www.codecademy.com/resources/docs/swift)              | `.swift`  | Contains a Swift program.              |
-| [HTML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html) |  `.html`  | Contains an HTML web page.             |
+| [HTML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html)|  `.html`  | Contains an HTML web page.             |
 |      [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)      |   `.ts`   | Contains a Typescript program.         |
 
 ### Image File Formats
