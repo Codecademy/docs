@@ -1,6 +1,6 @@
 ---
 Title: 'Attitudinal Research'
-Description: 'Attitudinal research methods focus on self-reported thoughts, beliefs, and needs from users, or put simply, what users say, rather than what they do.'
+Description: 'Attitudinal research methods focus on self-reported thoughts, beliefs, and needs from users.'
 Subjects:
   - 'Web Design'
 Tags:
