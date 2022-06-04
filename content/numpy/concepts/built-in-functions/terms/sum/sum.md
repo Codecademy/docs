@@ -36,7 +36,7 @@ The `a` argument is required and represents the array of elements to sum. All ot
 
 ## Example
 
-The following example creates an array then uses some `.sum` operations to sum the elements.
+The following example creates an array then uses a few `.sum()` operations to sum the elements.
 
 ```python
 import numpy as np
