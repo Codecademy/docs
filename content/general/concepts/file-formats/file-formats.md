@@ -45,17 +45,17 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-| [SVG (Scalable Vector Graphics)](https://www.codecademy.com/resources/docs/general/svg) |  `.svg`   | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
-|                         JPEG (Joint Photographic Experts Group)                         |  `.jpeg`  | Standard use for minimized images.                                                                           |
 |                             PNG (Portable Network Graphics)                             |  `.png`   | Common file format for high resolution images.                                                               |
+|                         JPEG (Joint Photographic Experts Group)                         |  `.jpeg`  | Standard use for minimized images.                                                                           |
+| [SVG (Scalable Vector Graphics)](https://www.codecademy.com/resources/docs/general/svg) |  `.svg`   | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
 
 ### Other File Formats
 
 |                                      File Format                                      | Extension | Description                                                                                 |
 | :-----------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------- |
-| [CSV (Comma-separated Values)](https://www.codecademy.com/resources/docs/general/csv) |  `.csv`   | Contains spreadsheet/table data.                                                            |
-|          [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)          |   `.md`   | Contains easily readable markup.                                                            |
-|                                      Executable                                       |  `.exe`   | Contains an executable.                                                                     |
-|                            PDF (Portable Document Format)                             |  `.pdf`   | Created to be accessed on many devices and operating systems. Contains text and image data. |
-|                                      TXT (Text)                                       |  `.txt`   | Contains text.                                                                              |
 |                                          Zip                                          |  `.zip`   | Compresses files into a folder that can be uncompressed into its original form.             |
+|                                      Executable                                       |  `.exe`   | Contains an executable.                                                                     |
+|                                      TXT (Text)                                       |  `.txt`   | Contains text.                                                                              |
+|                            PDF (Portable Document Format)                             |  `.pdf`   | Created to be accessed on many devices and operating systems. Contains text and image data. |
+|          [MD (Markdown)](https://www.codecademy.com/resources/docs/markdown)          |   `.md`   | Contains easily readable markup.                                                            |
+| [CSV (Comma-separated Values)](https://www.codecademy.com/resources/docs/general/csv) |  `.csv`   | Contains spreadsheet/table data.                                                            |
