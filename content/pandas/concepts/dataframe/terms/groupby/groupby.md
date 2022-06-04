@@ -22,7 +22,7 @@ dataframevalue.groupby(by, axis, level, as_index, sort, group_keys, observed, dr
 
 `.groupby()` uses the following parameters:
 
-- `by`: if a dict or Series is passed, the values will determine groups. If a list or [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray) with same length as the selected axis, the values will be used to form groups. A label or list of labels can be used to group by a particular column or columns.
+- `by`: if a dict or Series is passed, the values will determine groups. If a list or [ndarray](https://www.codecademy.com/resources/docs/numpy/ndarray) with the same length as the selected axis, the values will be used to form groups. A label or list of labels can be used to group by a particular column or columns.
 - `axis`: Split along rows (0 or "index") or columns (1 or "columns"). Default value is 0.
 - `level`: If the axis is a MultiIndex, group by a particular level or levels. Value is int or level name, or sequence of them. Default value is `None`.
 - `as_index`: Boolean value. `True` returns group labels as index in aggregated output, `False` returns lables as DataFrame columns. Default value is `True`.
