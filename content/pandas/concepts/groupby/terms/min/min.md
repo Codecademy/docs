@@ -1,6 +1,6 @@
 ---
 Title: '.min()'
-Description: 'Produces a Series or DataFrame with minimum values for the groups in a GroupBy object.'
+Description: 'Produces a new Series or DataFrame with minimum values for the groups in a GroupBy object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.min()` method produces a a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) with minimum values for the groups in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
+The `.min()` method produces a new Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) with minimum values for the groups in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
 ## Syntax
 
