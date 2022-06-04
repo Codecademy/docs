@@ -26,7 +26,7 @@ The `a` argument is required and represents the array of elements to sum. All ot
 
 `.sum()` provides the following arguments:
 
-- `a`: the array of elements to sum.
+- `a`: The array of elements to sum.
 - `axis`: An int or tuple of ints specifying the axis/axes along which to sum.
 - `dtype`: The type of the returned array and the accumulator used to sum elements. Defaults to the dtype of `array`.
 - `out`: An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
