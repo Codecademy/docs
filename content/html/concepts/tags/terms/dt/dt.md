@@ -33,7 +33,7 @@ In the example below, the `<dt>` is used (and highlighted with some styling):
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Styles are omitted for purposes of this example. -->
+    <!-- Styles are omitted in this example. -->
   </head>
   <body>
     <dl>
