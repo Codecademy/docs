@@ -109,6 +109,7 @@ To link your Codecademy user profile to GitHub:
 - We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed within the hour after it's merged!
+- Refer to the [Codecademy Markdown Style Guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
 
 ## What do we check for?
 
