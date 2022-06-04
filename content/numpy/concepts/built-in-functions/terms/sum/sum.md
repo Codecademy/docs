@@ -27,12 +27,12 @@ All arguments except `a`, the array of elements to sum, are optional. Using `a` 
 `.sum()` provides the following arguments:
 
 - `a`: the array of elements to sum.
-- `axis` : An int or tuple of ints specifying the axis/axes along which to sum.
-- `dtype` : The type of the returned array and the accumulator used to sum elements. Defaults to the dtype of `array`.
-- `out` : An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
-- `keepdims` : A boolean if true will keep reduced axes in the result as dimensions with size one.
-- `inital` : Starting value for sum.
-- `where` : A boolean array that maps to `array` and selects elements to include into the sum.
+- `axis`: An int or tuple of ints specifying the axis/axes along which to sum.
+- `dtype`: The type of the returned array and the accumulator used to sum elements. Defaults to the dtype of `array`.
+- `out`: An [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) to receive result. Must have the same shape as expected output.
+- `keepdims`: A boolean if true will keep reduced axes in the result as dimensions with size one.
+- `inital`: The starting value for sum.
+- `where`: A boolean array that maps to `array` and selects elements to include into the sum.
 
 ## Example
 
