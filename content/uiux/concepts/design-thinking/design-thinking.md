@@ -25,7 +25,7 @@ Design thinking's core activities are ideation, inspiration, and implementation,
 
 Like the [double diamond model](https://www.codecademy.com/resources/docs/uiux/double-diamond-diagram), design thinking offers opportunities to focus on both [divergent thinking](https://www.codecademy.com/resources/docs/uiux/divergent-thinking) and [convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) across its steps to encourage both creativity and problem solving.
 
-Design thinking isn't limited to creating new products&mdash;it can affect change at a systemic level. The term "[wicked problems](https://www.codecademy.com/resources/docs/uiux/wicked-problems)" was coined by design theorist Horst Rittel to describe the types of extremely complex, multi-dimensional problems that designers are often tasked to solve.
+Design thinking isn't limited to creating new products &mdash; it can affect change at a systemic level. The term "[wicked problems](https://www.codecademy.com/resources/docs/uiux/wicked-problems)" was coined by design theorist Horst Rittel to describe the types of extremely complex, multi-dimensional problems that designers are often tasked to solve.
 
 Design thinking is said to live at the intersection of desirability (people), viability (business), and feasibility (technology).
 
