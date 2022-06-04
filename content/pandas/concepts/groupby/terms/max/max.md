@@ -1,6 +1,6 @@
 ---
 Title: '.max()'
-Description: 'Produces a result with maximum values for the groups in a GroupBy object.'
+Description: 'Produces a Series or DataFrame with maximum values for the groups in a GroupBy object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.max()` method produces a result with maximum values for the groups in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
+The `.max()` method produces a a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) with maximum values for the groups in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
 ## Syntax
 
