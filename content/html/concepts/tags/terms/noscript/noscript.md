@@ -17,7 +17,7 @@ The `<noscript>` tag will display its contents when the user disabled Javascript
   
 ```html
 <noscript>
-  <!-- What should display if JS is not enabled -->
+  <!-- What should display if JavaScript is not enabled or supported. -->
 </noscript>
 ```
 
