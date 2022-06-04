@@ -12,7 +12,9 @@ CatalogContent:
 ---
 
 The `<noscript>` tag displays its contents whenever [Javascript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser or it is not supported for a given site.
+
 ## Syntax
+
 ```html
 <noscript>
   <!-- What should display if JavaScript is not enabled or supported. -->
@@ -20,13 +22,16 @@ The `<noscript>` tag displays its contents whenever [Javascript](https://www.cod
 ```
 
 The tag has no attributes and what is nested within the tag will be displayed.
-  
+
 ## Example
 
 ```html
 <script src="someScript.js"></script>
 <noscript>
-  <p>Please enable Javascript for this page to load. Learn how to <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a></p>
+  <p>
+    Please enable Javascript for this page to load. Learn how to
+    <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a>
+  </p>
 </noscript>
 ```
 
