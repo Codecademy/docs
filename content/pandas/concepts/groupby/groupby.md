@@ -1,6 +1,6 @@
 ---
 Title: 'GroupBy'
-Description: 'The GroupBy object is returned by calls to `.groupby()` on a Series or DataFrame, used to apply functions to, or aggregate groups.'
+Description: 'The GroupBy object is returned by calls to `.groupby()` on a Series or DataFrame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The GroupBy object is returned by calls to [`.groupby()`](https://www.codecademy.com/resources/docs/pandas/dataframe/groupby) on a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe), and is used to apply functions to, or aggregate groups.
+The GroupBy object is returned by calls to [`.groupby()`](https://www.codecademy.com/resources/docs/pandas/dataframe/groupby) on a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe). The `.groupby()` function reassembles the data into distinct groups, often for aggregation.
 
 ## Example
 
