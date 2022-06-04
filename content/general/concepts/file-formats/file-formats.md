@@ -45,8 +45,8 @@ File formats exist for different types of files. Some common file types and form
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
-|                             PNG (Portable Network Graphics)                             |  `.png`   | Common file format for high resolution images.                                                               |
 |                         JPEG (Joint Photographic Experts Group)                         |  `.jpeg`  | Standard use for minimized images.                                                                           |
+|                             PNG (Portable Network Graphics)                             |  `.png`   | Common file format for high resolution images.                                                               |
 | [SVG (Scalable Vector Graphics)](https://www.codecademy.com/resources/docs/general/svg) |  `.svg`   | Great for responsive design. Used for images that can be scaled up or down on a page without losing quality. |
 
 ### Other File Formats
