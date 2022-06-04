@@ -38,7 +38,7 @@ File formats exist for different types of files. Some common file types and form
 |              [Ruby](https://www.codecademy.com/resources/docs/ruby)               |   `.rb`   | Contains a Ruby program.               |
 | [SQL (Structured Query Language)](https://www.codecademy.com/resources/docs/sql)  |  `.sql`   | Contains an SQL program.               |
 |             [Swift](https://www.codecademy.com/resources/docs/swift)              | `.swift`  | Contains a Swift program.              |
-| [TML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html) |  `.html`  | Contains an HTML web page.             |
+| [HTML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html) |  `.html`  | Contains an HTML web page.             |
 |      [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)      |   `.ts`   | Contains a Typescript program.         |
 
 ### Image file formats
