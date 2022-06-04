@@ -22,7 +22,7 @@ The `.sum()` function sums the elements of an array over a given axis.
 numpy.sum(a, axis, dtype, out, keepdims, inital, where)
 ```
 
-All arguments except `a`, the array of elements to sum, are optional. Using `a` by itself will result in a scalar that sums all the elements of the array.
+The `a` argument is required and represents the array of elements to sum. All other arguments are optional. Used by itself, `a` will result in a scalar that sums all the elements of the array.
 
 `.sum()` provides the following arguments:
 
