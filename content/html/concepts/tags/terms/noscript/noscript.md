@@ -32,6 +32,6 @@ The tag has no attributes and what is nested within the tag will be displayed (i
 </noscript>
 ```
   
-Output of the example if JS is not enabled:
+The output might look like this:
   
 ![Output of the example](https://raw.githubusercontent.com/Codecademy/docs/main/media/no-script-tag-example.png)
