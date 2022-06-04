@@ -49,7 +49,7 @@ File formats exist for different types of files. Some common file types and form
 |                         JPEG (Joint Photographic Experts Group)                         |  `.jpeg`  | Standard use for minimized images.                                                                           |
 |                             PNG (Portable Network Graphics)                             |  `.png`   | Common file format for high resolution images.                                                               |
 
-### Other file formats
+### Other File Formats
 
 |                                      File Format                                      | Extension | Description                                                                                 |
 | :-----------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------- |
