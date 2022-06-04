@@ -21,7 +21,7 @@ The `<noscript>` tag displays its contents whenever [Javascript](https://www.cod
 </noscript>
 ```
 
-The tag has no attributes and what is nested within the tag will be displayed (if JS is not enabled).
+The tag has no attributes and what is nested within the tag will be displayed.
   
 ## Example
 
