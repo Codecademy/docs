@@ -41,7 +41,7 @@ File formats exist for different types of files. Some common file types and form
 | [HTML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html) |  `.html`  | Contains an HTML web page.             |
 |      [TS (TypeScript)](https://www.codecademy.com/resources/docs/typescript)      |   `.ts`   | Contains a Typescript program.         |
 
-### Image file formats
+### Image File Formats
 
 |                                       File Format                                       | Extension | Description                                                                                                  |
 | :-------------------------------------------------------------------------------------: | :-------: | ------------------------------------------------------------------------------------------------------------ |
