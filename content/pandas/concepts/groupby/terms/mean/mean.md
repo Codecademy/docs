@@ -17,7 +17,7 @@ The `.mean()` method produces a a Series or [DataFrame](https://www.codecademy.c
 ## Syntax
 
 ```pseudo
-groupbyobject.sum(numeric_only)
+groupbyobject.mean(numeric_only)
 ```
 
 `numeric_only` is a boolean value. `True` includes only int, float and boolean columns. It defaults to `True`.
