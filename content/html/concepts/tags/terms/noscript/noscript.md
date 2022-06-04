@@ -30,6 +30,7 @@ The tag has no attributes and what is nested within the tag will be displayed (i
 <no-script>
   <p>Please enable Javascript for this page to load. Learn how to <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a></p>
 </noscript>
+```
   
 Output of the example if JS is not enabled:
   
