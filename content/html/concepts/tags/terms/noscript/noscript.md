@@ -1,6 +1,6 @@
 ---
 Title: '<noscript>'
-Description: 'Displays if the user disabled Javascript in the browser.'
+Description: 'Displays content within if Javascript is disabled in the browser or not supported.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
