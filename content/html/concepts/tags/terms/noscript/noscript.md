@@ -26,7 +26,7 @@ The tag has no attributes and what is nested within the tag will be displayed.
 ## Example
 
 ```html
-<script href="someScript.js"></script>
+<script src="someScript.js"></script>
 <noscript>
   <p>Please enable Javascript for this page to load. Learn how to <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a></p>
 </noscript>
