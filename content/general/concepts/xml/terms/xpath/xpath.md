@@ -21,7 +21,7 @@ XPath is a language used to query different parts of an [XML](https://www.codeca
 
 XPath is implemented via libraries for many different programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java) and [JavaScript](https://www.codecademy.com/resources/docs/javascript). If a language offers tools for any sort of XML processing, it will probably offer support for using some version of XPath to query XML documents.
 
-## Basic Syntax
+## Syntax
 
 XPath treats an XML document as a tree structure, much like folders stored on a disk drive. In fact, in it's simplest form, XPath expressions can resemble file paths. These file-path-like expressions are referred to as location paths. Each location path consists of a sequence of location steps separated by slashes (`/`), and each location step has three components:
 
