@@ -25,9 +25,11 @@ An element is defined with an opening tag with an arbitrary name enclosed with a
 
 The following are all valid elements:
 
-- `<tag>text</tag>`
-- `<notext />`
-- `<outer><inner /></outer>`
+```pseudo
+<tag>text</tag>
+<notext />
+<outer><inner /></outer>
+```
 
 Element names are case sensitive and cannot contain spaces or special characters and cannot begin with a digit.
 
@@ -35,8 +37,10 @@ Element names are case sensitive and cannot contain spaces or special characters
 
 Attributes consist of name-value pairs that can be included in an opening tag of an element, after the element's name. Any attribute name can appear only once and can only have one value. The following are examples of attributes:
 
-- `<tag attribute="value" />`
-- `<tag attr1="value 1" attr2="value 2" />`
+```pseudo
+<tag attribute="value" />
+<tag attr1="value 1" attr2="value 2" />
+```
 
 Attribute names have the same restrictions as element names.
 
