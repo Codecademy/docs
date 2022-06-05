@@ -59,10 +59,10 @@ Below is an example of a JSON object representing a vehicle:
   "miles" : 27500,
   "year" : 2020,
   "owner" : {
-              "firstName" : "John",
-              "lastName" : "Doe"
-              },
-  "features" : ["4WD","Towing Package","Lift Kit"],
+    "firstName" : "John",
+    "lastName" : "Doe"
+   },
+  "features" : ["4WD", "Towing Package", "Lift Kit"],
   "lease" : false
 }
 ```
