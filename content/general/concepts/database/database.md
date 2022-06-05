@@ -1,6 +1,6 @@
 ---
 Title: 'Database'
-Description: 'A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.'
+Description: 'A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, databases are commonly accessed through a database management system, or DBMS.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
