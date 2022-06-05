@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-**ACID Properties** refer to properties a database [transaction](https://www.codecademy.com/resources/docs/general/database/transaction) must follow in order to maintain consistency in a database. Those properties are as follows:
+**ACID properties** refer to properties a database [transaction](https://www.codecademy.com/resources/docs/general/database/transaction) must follow in order to maintain consistency in a database. Those properties are as follows:
 
 - Atomicity: The entire transaction must occur, or none of it does. There are no partial transactions.
 - Consistency: The database must remain consistent before and after the transaction.
