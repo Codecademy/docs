@@ -25,6 +25,8 @@ The tag has no attributes and what is nested within the tag will be displayed.
 
 ## Example
 
+In the example below, if JavaScript isn't enabled, the [`<script>`](https://www.codecademy.com/resources/docs/html/tags/script) tag will not work and the content inside the `<noscript>` tag will render:
+
 ```html
 <script src="someScript.js"></script>
 <noscript>
