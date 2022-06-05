@@ -134,7 +134,7 @@ x = 19 >> 2;
 Assignment operators assign a value to the right to a variable on the left.
 
 | Operator | Name                      | Description                                |
-| -------- | ------------------------- | ------------------------------------------ |
+| :--------: | :-------------------------: | ------------------------------------------ |
 | `=`      | Assignment                | `a = 3` assigns value `3` to variable `a`. |
 | `+=`     | Addition Assignment       | `a += 3` is short for `a = a + 3`.         |
 | `-=`     | Subtraction Assignment    | `a -= 3` is short for `a = a - 3`.         |
