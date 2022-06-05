@@ -102,7 +102,7 @@ if (x == y && x < 0) {
 Bitwise operators manipulate individual bits in an integer.
 
 | Operator | Name        | Description                                                    |
-| -------- | ----------- | -------------------------------------------------------------- |
+| :--------: | :-----------: | -------------------------------------------------------------- |
 | `&`      | And         | Result has bit set only where both operands have that bit set. |
 | `\|`     | Or          | Result has bit set if either operand has that bit set.         |
 | `^`      | Xor         | Result has bit set only if only one operand has that bit set.  |
