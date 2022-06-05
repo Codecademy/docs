@@ -1,6 +1,6 @@
 ---
 Title: 'Database'
-Description: 'A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS. There are many different ways for database systems to structure and organize data. The type of database used is dependent on the type of data being stored, and the intended use for it. Relational Databases structure their data in tables made up of rows and columns. Multiple tables can have relationships to each other based on the values in key columns. They provide an efficient and flexible way to access structured information. Data is typically queried and manipulated through some form of Structured Query Language (SQL) implemented by the DBMS.'
+Description: 'A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-A database is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.
+A **database** is a collection of structured information stored so it can be easily accessed and updated. In a computer system, a database is typically accessed through a database management system, referred to as a DBMS.
 
 ## Types of Databases
 
