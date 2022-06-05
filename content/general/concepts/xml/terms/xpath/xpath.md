@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-analyst'
 ---
 
-XPath is a language used to query different parts of an [XML](https://www.codecademy.com/resources/docs/general/xml) document. There are several versions of the specification from the [World Wide Web Consortium](https://www.w3.org/) (W3C):
+**XPath** is a language used to query different parts of an [XML](https://www.codecademy.com/resources/docs/general/xml) document. There are several versions of the specification from the [World Wide Web Consortium](https://www.w3.org/) (W3C):
 
 - [XPath 1.0](https://www.w3.org/TR/1999/REC-xpath-19991116/) was introduced in 1999 and is still the most widely implemented version.
 - [XPath 2.0](https://www.w3.org/TR/xpath20/) was introduced in 2007, with a second edition in 2010. It offered considerable revisions primarily around a richer type system, and is a subset of version 1.0 of the more expansive XQuery language.
