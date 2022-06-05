@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Classes are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data.
+**Classes** are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data.
 
 The usage of classes in Python is a part of [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP) where "class instances" are created with member data and functions.
 
