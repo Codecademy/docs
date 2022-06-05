@@ -46,14 +46,14 @@ XPath uses the following axis specifiers:
 - `attribute`: `@a` is an abbreviation for `attribute::a`.
 - `child`: The default axis. `a` is an abbreviation for `child::a`.
 - `descendant`
-- `descendant-or-self`: `//` is an abbreviation for `/descendant-or-self::node()/`
+- `descendant-or-self`: `//` is an abbreviation for `/descendant-or-self::node()/`.
 - `following`
 - `following-sibling`
 - `namespace`
-- `parent`: `..` is an abbreviation for `parent::node()`
+- `parent`: `..` is an abbreviation for `parent::node()`.
 - `preceding`
 - `preceding-sibling`
-- `self`: `.` is an abbreviation for `self::node()`
+- `self`: `.` is an abbreviation for `self::node()`.
 
 ### Node Tests
 
