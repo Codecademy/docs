@@ -152,7 +152,7 @@ Assignment operators assign a value to the right to a variable on the left.
 Misc operators don't fit into a particular category.
 
 | Operator   | Name                   | Description                                                                     |
-| ---------- | ---------------------- | ------------------------------------------------------------------------------- |
+| :----------: | :----------------------: | ------------------------------------------------------------------------------- |
 | `sizeof()` | Addition Assignment    | `sizeof(x)` returns the size of variable `x`.                                   |
 | `&`        | Address                | `&x` returns the address of variable `x`.                                       |
 | `*`        | Pointer                | `*x` returns a pointer to variable `x`. Not to be confused with multiplication. |
