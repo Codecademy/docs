@@ -1,6 +1,6 @@
 ---
 Title: 'ACID Properties'
-Description: 'Referrs to properties a database transaction must follow in order to maintain consistency in a database.'
+Description: 'Refers to properties a database transaction must follow in order to maintain consistency in a database.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
