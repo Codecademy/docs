@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Operators are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical functions. The C language provides the following types of operators:
+**Operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical functions. The C language provides the following types of operators:
 
 - Arithmetic Operators
 - Relational Operators
