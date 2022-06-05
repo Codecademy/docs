@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-JavaScript Object Notation (JSON) is a data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of [JavaScript](https://www.codecademy.com/resources/docs/javascript) (ECMA-262) that was released back in December 1999. However, it is language-independent. Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data.
+**JavaScript Object Notation (JSON)** is a data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of [JavaScript](https://www.codecademy.com/resources/docs/javascript) (ECMA-262) that was released back in December 1999. However, it is language-independent. Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data.
 
 More can be learned about JSON by visiting [json.org](https://www.json.org/).
 
