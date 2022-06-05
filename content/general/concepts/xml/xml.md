@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-analyst'
 ---
 
-XML (Extensible Markup Language) is used to define the content and structure of arbitrary data in a document. It is a human-readable text-based markup language used to store and transmit many different types of data, from individual records in a database, to things as complex as a Microsoft Word document. XML is primarily defined in the [XML 1.0 Specification](http://www.w3.org/TR/REC-xml) from the [World Wide Web Consortium](https://www.w3.org/standards/) (W3C). XML was designed for simplicity, general application, and usability across the Internet. While document-based, it is widely used to store all types of arbitrary data structures.
+**XML (Extensible Markup Language)** is used to define the content and structure of arbitrary data in a document. It is a human-readable text-based markup language used to store and transmit many different types of data, from individual records in a database, to things as complex as a Microsoft Word document. XML is primarily defined in the [XML 1.0 Specification](http://www.w3.org/TR/REC-xml) from the [World Wide Web Consortium](https://www.w3.org/standards/) (W3C). XML was designed for simplicity, general application, and usability across the Internet. While document-based, it is widely used to store all types of arbitrary data structures.
 
 Many computer languages, such as [Python](https://www.codecademy.com/resources/docs/python) or [Java](https://www.codecademy.com/resources/docs/java), provide their own libraries or modules for processing XML documents. XML has proved to be a popular format for [serializing](https://www.codecademy.com/resources/docs/general/serialization) objects.
 
