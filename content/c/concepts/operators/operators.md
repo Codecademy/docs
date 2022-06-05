@@ -79,7 +79,7 @@ if (x == y) {
 Logical operators operate on boolean values and return boolean values.
 
 | Operator | Name | Description                                                        |
-| -------- | ---- | ------------------------------------------------------------------ |
+| :--------: | :----: | ------------------------------------------------------------------ |
 | `!`      | Not  | `!x` is `true` when `x` is `false` and `false` when `x` is `true`. |
 | `&&`     | And  | `x && y` is `true` only if `x` and `y` are both `true`.            |
 | `\|\|`   | Or   | `x \|\| y` is `true` if either `x` or `y` is `true`.               |
