@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Links are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.
+**Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.
 
 ## Hyperlinks
 

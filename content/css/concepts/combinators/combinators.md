@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Combinators are CSS [selectors](https://www.codecademy.com/resources/docs/css/selectors) that are used to style elements that have a certain relationship with other selected elements.
+**Combinators** are CSS [selectors](https://www.codecademy.com/resources/docs/css/selectors) that are used to style elements that have a certain relationship with other selected elements.
 
 ## Syntax
 

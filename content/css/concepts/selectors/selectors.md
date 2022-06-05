@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Selectors are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
+**Selectors** are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
 
 All markups can be selected with the `*` selector:
 
