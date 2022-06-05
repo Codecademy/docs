@@ -53,7 +53,7 @@ x--;       // x is now 2
 Relational operators compare two values and return `true` or `false`.
 
 | Operator | Name                     | Description                                                |
-| -------- | ------------------------ | ---------------------------------------------------------- |
+| :--------: | :------------------------: | ---------------------------------------------------------- |
 | `==`     | Equal                    | `x == y` is `true` if `x` and `y` are equal.               |
 | `!=`     | Not Equal                | `x != y` is `true` if `x` and `y` are not equal.           |
 | `<`      | Less Than                | `x < y` is `true` if `x` is less than `y`.                 |
