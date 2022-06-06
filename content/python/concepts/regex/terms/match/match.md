@@ -1,6 +1,6 @@
 ---
 Title: 're.match()'
-Description: 'Returns a matching character pattern anywhere at the beginning of a given string.'
+Description: 'Returns a matching character pattern at the beginning of a given string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
