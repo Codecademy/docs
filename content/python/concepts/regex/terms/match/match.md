@@ -15,7 +15,7 @@ CatalogContent:
   - 'text-preprocessing'
 ---
 
-The `.match()` method returns a matching character pattern anywhere at the beginning of a given string.
+The `.match()` method returns a matching character pattern at the beginning of a given string.
 
 ## Syntax
 
