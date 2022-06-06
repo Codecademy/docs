@@ -141,4 +141,4 @@ git push -f
 
 Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
-Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue! 🖖
+If you find any bugs or errors in the content, feel free to file an issue [here](https://github.com/Codecademy/docs/issues/new?assignees=Name+here&labels=bug&template=bug_reports.yml&title=%5BBug%2FError%5D+Subject%3A+Entry+Name)! 🖖
