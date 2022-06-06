@@ -48,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Codebyte Example
 
-The `.read()` is used to read the first 100 characters of the **gullivers_travels.txt** file in the example below:
+The example below reads the first 100 characters of the **gullivers_travels.txt** file:
 
 ```codebyte/python
 f = open("gullivers_travels.txt", "w")

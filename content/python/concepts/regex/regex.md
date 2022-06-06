@@ -20,7 +20,7 @@ CatalogContent:
 
 ## Syntax
 
-Operations for regular expressions are available through the `re` module:
+The regular expressions is accessed by importing the `re` module:
 
 ```pseudo
 import re
