@@ -18,7 +18,7 @@ Replace matching substrings with a new string for all occurrences, or a specifie
 ## Syntax
 
 ```pseudo
-re.sub(<pattern>, <replacment>, string, <count>, <flags>)
+re.sub(<pattern>, <replacement>, string, <count>, <flags>)
 ```
 
 A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
