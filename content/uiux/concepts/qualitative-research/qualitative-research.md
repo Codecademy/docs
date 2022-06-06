@@ -15,6 +15,8 @@ CatalogContent:
 
 While they can be used at any stage of the design process, qualitative methods may provide especially useful insights during the exploratory discovery and ideation stages, when teams are trying to get to know target users in-depth.
 
+## Qualitative Research Characteristics
+
 Compared to [quantitative research](https://www.codecademy.com/resources/docs/uiux/quantitative-research), qualitative research generally provides richer data about a smaller number of participants. Combining qualitative methods with quantitative methods can help explain _why_ users are behaving in a particular way. Quantitative research can help build empathy with users and provide illustrative anecdotes.
 
 Qualitative [attitudinal](https://www.codecademy.com/resources/docs/uiux/attitudinal-research) data may include thoughts, beliefs, and self-reported needs from interviews, focus groups, and diary studies, while qualitative [behavioral](https://www.codecademy.com/resources/docs/uiux/behavioral-research) data focuses on behaviors from methods such as contextual inquiry and ethnography.

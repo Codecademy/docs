@@ -13,7 +13,11 @@ CatalogContent:
 
 **Personas** are fictional archetypes of the target users of a product or design, created as composites of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) or market research. Businesses create personas in order to build empathy for users and foster a shared understanding of the types of people who use a product.
 
+## Benefits of Personas
+
 Tools like personas, user journey maps, and storyboards are used by researchers to advocate for the user, tell stories, and circulate key points from user research across an organization. Using a range of multiple personas offers an opportunity to share research on both "typical" users of a product and fringe or outlier users in a concise, memorable way.
+
+## Defining Personas
 
 Personas may include details on product usage as well as other details to humanize the user and paint a more complete picture, and can be adapted depending on what feels relevant to a particular product or research initiative.
 
@@ -34,6 +38,8 @@ Persona details might include:
 - Long-term goals or motivations
 - Frustrations or pain points
 - Favorite brands, media, or tools
+
+## High-Fidelity and Low-Fidelity Personas
 
 Similar to [high-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes, researchers might create high-fidelity or low-fidelity personas, where fidelity can signal the rigor of the research behind the persona. For example, a persona with a simple sketch instead of a photograph signals lower fidelity, while a persona with a photograph and richer text detail signals higher fidelity.
 

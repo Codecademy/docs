@@ -1,6 +1,6 @@
 ---
 Title: 'Inclusive Design'
-Description: 'Inclusive design is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities, with a focus on those who may have been historically marginalized or excluded.'
+Description: 'Inclusive design is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities.'
 Subjects:
   - 'Web Design'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
 
 **Inclusive design** is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities, with a focus on those who may have been historically marginalized or excluded.
 
-One tenet of inclusive design, as outlined by Microsoft, is "solve for one, extend to many", or the idea that inclusive design practices benefit people universally.
+One tenet of inclusive design, as outlined by [Microsoft](https://www.microsoft.com/design/inclusive/), is "solve for one, extend to many", or the idea that inclusive design practices benefit people universally.
 
 Inclusive design focuses on designing for users of all demographics and abilities, while [accessibility](https://www.codecademy.com/resources/docs/uiux/accessibility) is specifically focused on designing for people with disabilities. Inclusive design may focus on a range of specialized solutions, while "universal design" focuses on creating one experience that can include as many people as possible.
 
