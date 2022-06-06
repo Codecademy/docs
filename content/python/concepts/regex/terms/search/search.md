@@ -58,7 +58,7 @@ The output will look like this:
 
 ## Codebyte Example
 
-The following example features a regex used by the `.search()` method to match a web address:
+The following example features a regex that uses the `.search()` method to match a web address:
 
 ```py
 import re
