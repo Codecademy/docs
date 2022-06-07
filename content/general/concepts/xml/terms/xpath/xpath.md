@@ -72,7 +72,7 @@ Location paths can be used inside predicates, and are evaluated relative to the 
 
 The following operators can be used inside of predicates in XPath 1.0:
 
-- The union operator `|` creates the union of two node sets.
+- The union operator `|` creates the union of two node-sets.
 - The boolean operators `and` & `or`.
 - The boolean function `not()`.
 - Mathematical operators: `+`, `-`, `*`, `div` (divide), and `mod`.
