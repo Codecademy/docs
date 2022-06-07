@@ -62,7 +62,7 @@ For rendering special characters, XML uses [entities like HTML](https://www.code
 
 `&amp;` and `&lt;` are required when rendering those characters in any content. `&quot;` and `&apos;` are required when rendering those characters in attribute values.
 
-Like HTML, XML allows numeric entity references, allowing most Unicode characters to be used in content. These are used in the following way:
+Like HTML, XML allows numeric entity references, allowing most Unicode characters to be used in the content. These are used in the following way:
 
 - `&#number;`: where `number` is the character's decimal Unicode number.
 - `&#xnumber;`: where `number` is the character’s hexadecimal Unicode number.
