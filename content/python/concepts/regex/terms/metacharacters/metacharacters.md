@@ -36,7 +36,7 @@ Some metacharacters are concerned with the frequency of certain character patter
 |     `\|`      | Matches either the pattern before or after the `\|`.            | `r'true\|false'` matches "**true**" or "**false**."                     |
 |     `{x}`     | Matches if the preceding character occurred `x` times in a row. | `r're{2}d'` matches "r**ee**d" (2 "e"s) but not "r**e**d" (only 1 "e"). |
 
-## Capture Gropus
+## Capture Groups
 
 Capture groups can be used to check and quantify different patterns in the string. This can be done with parentheses `(...)`, as shown in the example below:
 
