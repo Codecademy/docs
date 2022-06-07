@@ -15,7 +15,6 @@ CatalogContent:
 
 ## The Five Phases of Design Thinking
 
-
 Design thinking's core activities are ideation, inspiration, and implementation, which occur across the five stages of the process:
 
 1. **Empathize**: Understand the user and the landscape.
@@ -26,9 +25,9 @@ Design thinking's core activities are ideation, inspiration, and implementation,
 
 Prototyping or testing may lead to redefining the problem altogether. As with the other processes we've covered, this is an iterative cycle.
 ![A diagram of the five phases of the design thinking process: Empathize, Define, Ideate, Prototype, and Test.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/design-thinking-5-steps.png)
-	
+
 ## About Design Thinking
-	
+
 Like the [double diamond model](https://www.codecademy.com/resources/docs/uiux/double-diamond-diagram), design thinking offers opportunities to focus on both [divergent thinking](https://www.codecademy.com/resources/docs/uiux/divergent-thinking) and [convergent thinking](https://www.codecademy.com/resources/docs/uiux/convergent-thinking) across its steps to encourage both creativity and problem solving.
 
 Design thinking isn't limited to creating new products &mdash; it can affect change at a systemic level. The term "[wicked problems](https://www.codecademy.com/resources/docs/uiux/wicked-problems)" was coined by design theorist Horst Rittel to describe the types of extremely complex, multi-dimensional problems that designers are often tasked to solve.

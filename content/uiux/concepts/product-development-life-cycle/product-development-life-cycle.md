@@ -21,7 +21,6 @@ UI and UX designers can use the stated goals and definitions from the PDLC to en
 
 ## The Five Stages
 
-
 The PDLC consists of the following five stages:
 
 1. **Brainstorm**: Starting from a defined problem or pain point, the team brainstorms all possible solutions. Market or user research can help inspire ideas.
