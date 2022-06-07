@@ -27,7 +27,7 @@ A negative `startIndex` will offset from the end of the array to begin search.
 
 ## Examples
 
-In the example below, the index with a value of 12 is logged to the console:
+In the example below, the index for the number 12 is logged to the console:
 
 ```js
 const numbers = [6, 12, 8, 10];
