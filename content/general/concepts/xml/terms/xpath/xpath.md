@@ -76,7 +76,7 @@ The following operators can be used inside of predicates in XPath 1.0:
 - The boolean operators `and` & `or`.
 - The boolean function `not()`.
 - Mathematical operators: `+`, `-`, `*`, `div` (divide), and `mod`.
-- The comparison operators `=`,`!=`,`<`,`>`,`<=` & `>=`.
+- The comparison operators `=`, `!=`, `<`, `>`, `<=` & `>=`.
 
 Predicates also have a number of functions available in XPath 1.0, the following are some of the more commonly used ones:
 
