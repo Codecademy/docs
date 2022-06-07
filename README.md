@@ -15,9 +15,12 @@ Docs is live with about 710 high-quality entries. Now that the MVP is out, our g
 
 ### 📝 Content Team
 
-- [@sonnynomnom](https://github.com/sonnynomnom)
-- [@dusch4593](https://github.com/dusch4593)
-- [@yangc95](https://github.com/yangc95)
+- [@lucwhite](https://github.com/lucwhite), Curriculum Developer
+- [@dusch4593](https://github.com/dusch4593), Content Contributor
+- [@yangc95](https://github.com/yangc95), Content Contributor
+- [@KTom101](https://github.com/KTom101), Content Contributor
+- [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
+- [@sswiniarski](https://github.com/sswiniarski), Content Contributor
 
 We are currently building a team of community volunteers and educators to maintain Codecademy Docs. Let us know if you are interested.
 
