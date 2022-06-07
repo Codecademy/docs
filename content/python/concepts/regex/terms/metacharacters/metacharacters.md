@@ -64,7 +64,7 @@ None
 
 ## Special Sequences
 
-The backslash `\` metacharacters has two primary uses:
+The backslash `\` metacharacters have two primary uses:
 
 - Matches most characters next to it literally.
 - Search for a match within a sequence of particular metacharacters sucha as digits.
