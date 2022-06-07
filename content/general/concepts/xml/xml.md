@@ -21,7 +21,7 @@ An XML document can consist of the following pieces:
 
 ## Elements
 
-An element is defined with an opening tag with an arbitrary name enclosed with angle brackets `<...>` and a closing tag defined by the same name enclosed in angle brackets and a leading slash `</...>`. Between these two tags can be an arbitrary number of other elements, or a text value. An element can combine opening and closing tags by enclosing the tag name with angle brackets and a trailing slash `<.../>`. A well-formed XML document has only one outermost element that contains the rest of the document's content.
+An element is defined with an opening tag with an arbitrary name enclosed with angle brackets `<...>` and a closing tag defined by the same name enclosed in angle brackets and a leading slash `</...>`. Between these two tags can be an arbitrary number of other elements or a text value. An element can combine opening and closing tags by enclosing the tag name with angle brackets and a trailing slash `<.../>`. A well-formed XML document has only one outermost element that contains the rest of the document's content.
 
 The following are all valid elements:
 
