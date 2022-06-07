@@ -54,7 +54,7 @@ print(re.match(capture_group, pattern_two))
 print(re.match(capture_group, pattern_three))
 ```
 
-The capture group uses the pipe `|` quantifer to match two out of the three patterns since they both have "e" or an "a". The following output will be printed:
+The capture group uses the pipe `|` quantifier to match two out of the three patterns since they both have "e" or an "a". The following output will be printed:
 
 ```shell
 <_sre.SRE_Match object; span=(0, 3), match='red'>
