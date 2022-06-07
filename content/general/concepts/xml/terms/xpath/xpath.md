@@ -78,7 +78,7 @@ The following operators can be used inside of predicates in XPath 1.0:
 - Mathematical operators: `+`, `-`, `*`, `div` (divide), and `mod`.
 - The comparison operators `=`, `!=`, `<`, `>`, `<=` & `>=`.
 
-Predicates also have a number of functions available in XPath 1.0, the following are some of the more commonly used ones:
+Predicates also have several functions available in XPath 1.0, the following are some of the more commonly used ones:
 
 - `contains(string1, string2)`: Checks if `string2` is contained within `string1` and returns true or false.
 - `count(node-set)`: Returns the number of nodes in `node-set`.
