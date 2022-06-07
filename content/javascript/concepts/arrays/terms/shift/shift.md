@@ -51,7 +51,7 @@ Rest of week: [ 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunda
 
 ## Codebyte Example
 
-The steps in an `alfredoRecipe` array are followed by using the `.shift()` method in a `while` [loop](https://www.codecademy.com/resources/docs/javascript/loops) and logging to the console:
+The instructions of the `alfredoRecipe` array are followed by a `while` [loop](https://www.codecademy.com/resources/docs/javascript/loops) that prints each step of the recipe to the console:
 
 ```codebyte/javascript
 const alfredoRecipe = [
