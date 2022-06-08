@@ -65,7 +65,7 @@ Multiple JSON objects can be collected in an array-like sequence:
 A few important points to note about JSON syntax:
 
 - While it is derived from from the JavaScript language, JSON itself is not JavaScript.
-- Trailing commas are forbidden
+- Trailing commas are forbidden.
 - Even thought JavaScript names are not this strict, JSON property names _must_ be in double-quotes.
 
 ## Bad Practices
