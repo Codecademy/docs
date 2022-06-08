@@ -36,7 +36,7 @@ More can be learned about JSON by visiting [json.org](https://www.json.org/).
 }
 ```
 
-Data is stored in name-value pairs in object- separated by a colon `:`. The pairs themselves are separated by a comma `,`. The following [data types](https://www.codecademy.com/resources/docs/general/data-types) can be used:
+Data is stored in an object, depicted by two curly braces `{``}`, and name-value pairs are separated by a colon `:`. The pairs themselves are separated by a comma `,`. The following are [data types](https://www.codecademy.com/resources/docs/general/data-types) that can be used:
 
 - [Strings](https://www.codecademy.com/resources/docs/general/string) (double-quoted)
 - [Numbers](https://www.codecademy.com/resources/docs/general/number) (integer or floating-point)
