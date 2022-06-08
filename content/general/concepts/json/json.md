@@ -42,7 +42,7 @@ Where the names are strings and the values can be any one of JSON's basic data t
 - [String](https://www.codecademy.com/resources/docs/general/string): A sequence of zero or more Unicode characters enclosed in double quotes.
 - `null`: An empty value represented by the word `null`.
 
-Whitespace is ignored between names, values, and punctuation. JSON considers whitespace to be one of the four characters; space, tab, line feed, and carriage return.
+Whitespace is ignored between names, values, and punctuation. The following four characters are all considered whitespace: space, tab, line feed, and carriage return.
 
 JSON objects cannot contain comments.
 
