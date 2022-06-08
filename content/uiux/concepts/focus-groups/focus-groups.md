@@ -19,7 +19,7 @@ Focus groups are commonly used in market research to collect feedback about a pr
 
 Before conducting a focus group, the moderator will need to prepare a discussion guide to focus the conversation. Adding activities like collaging, drawing, brainstorming with sticky notes, card sorting, or role-playing can help engage participants and break away from a standard question-and-answer format.
 
-Learn more about focus groups:
+## Focus Resources
 
 - [User Interviews: Focus Groups](https://www.userinterviews.com/ux-research-field-guide-chapter/focus-groups)
 - [Interaction Design Foundation: How to Conduct Focus Groups](https://www.interaction-design.org/literature/article/how-to-conduct-focus-groups)

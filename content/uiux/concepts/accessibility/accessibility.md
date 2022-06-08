@@ -26,7 +26,7 @@ The Web Content Accessibility Guidelines (WCAG) break down accessibility into [f
 
 [Inclusive design](https://www.codecademy.com/resources/docs/uiux/inclusive-design) focuses on designing for users of all demographics and abilities, while accessibility is specifically focused on designing for people with disabilities. Any product that doesn't consider accessibility and equity may (whether intentionally or not) exclude a portion of the population who would otherwise find it useful.
 
-## Accessibility and Design Resources
+## Resources
 
 - [Codecademy: What is Digital Accessibility?](https://www.codecademy.com/article/what-is-digital-accessibility)
 - [W3C: Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)

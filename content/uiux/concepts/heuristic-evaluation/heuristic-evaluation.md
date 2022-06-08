@@ -23,7 +23,7 @@ Designs are evaluated based on compliance with this set of interaction design pr
 - 3 - Major usability problem: important to fix, so should be given high priority.
 - 4 - Usability catastrophe: imperative to fix this before product can be released.
 
-Learn more about the heuristic evaluation:
+## Resources
 
 - [Nielsen Norman Group: How to Conduct a Heuristic Evaluation](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)
 - [Nielsen Norman Group: Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)

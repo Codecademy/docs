@@ -26,7 +26,7 @@ Common forms of web analytics include:
 - **[A/B testing](https://www.nngroup.com/articles/putting-ab-testing-in-its-place/)**: A/B testing presents two or more different versions of a design to users to test their effectiveness. [Multivariate testing](https://www.nngroup.com/articles/multivariate-testing/) is similar to A/B testing, but involves varying multiple design elements at the same time.
 - **Heatmaps or clickmaps**: Heatmaps or clickmaps offer visual representations of how users are interacting with a design and where they are looking or clicking the most. Common heatmap tools include [CrazyEgg](https://crazyegg.com) and [Hotjar](https://hotjar.com).
 
-Learn more about web analytics for UX:
+## Resources
 
 - [Mixpanel: Data-informed design: Getting started with UX analytics](https://mixpanel.com/blog/what-is-ux-analytics/)
 - [UX Booth: Complete Beginner’s Guide to Analytics](https://www.uxbooth.com/articles/complete-beginners-guide-to-web-analytics-and-measurement/)

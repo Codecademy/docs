@@ -21,7 +21,7 @@ Compared to [quantitative research](https://www.codecademy.com/resources/docs/ui
 
 Qualitative [attitudinal](https://www.codecademy.com/resources/docs/uiux/attitudinal-research) data may include thoughts, beliefs, and self-reported needs from interviews, focus groups, and diary studies, while qualitative [behavioral](https://www.codecademy.com/resources/docs/uiux/behavioral-research) data focuses on behaviors from methods such as contextual inquiry and ethnography.
 
-Learn more about qualitative research methods and analysis:
+## Resources
 
 - [Adobe XD: The “Why” Behind Qualitative User Research](https://xd.adobe.com/ideas/process/user-research/why-behind-qualitative-user-research/)
 - [Nielsen Norman Group: How to Analyze Qualitative Data from UX Research: Thematic Analysis](https://www.nngroup.com/articles/thematic-analysis/)

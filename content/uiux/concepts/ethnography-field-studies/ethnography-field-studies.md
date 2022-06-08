@@ -30,7 +30,7 @@ In ethnographic research, the researcher may navigate the group being studied as
 
 Researchers should also consider the ethics of whether to disclose their identity as a researcher to the study group (overt) vs. whether to conceal their identity (covert), and how knowledge of the researcher's presence might influence the behavior of those being studied (the [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect)).
 
-Learn more about ethnography and field studies:
+## Resources
 
 - [User Interviews: Ethnography](https://www.userinterviews.com/ux-research-field-guide-chapter/ethnography)
 - [UX Planet: Ethnography and User Research](https://uxplanet.org/ethnography-and-user-research-a59820d8f595)

@@ -29,7 +29,7 @@ Diaries might be recorded through a diary-specific tool like [dScout](https://ds
 
 Because of the time investment required for diary studies and the potential for participant drop off, it's a good practice to offer incentives or compensation at different stages of the study to keep participants engaged. Diary studies may be combined with or used as a warm-up for follow-up [interviews](https://www.codecademy.com/resources/docs/uiux/interviews) to explore themes from specific participants in further depth.
 
-Learn more about diary studies:
+## Resources
 
 - [Nielsen Norman Group: Diary Studies: Understanding Long-Term User Behavior and Experiences](https://www.nngroup.com/articles/diary-studies/)
 - [UXPA Magazine: Dear Diary: Using Diaries to Study User Experience](https://uxpamagazine.org/dear-diary-using-diaries-to-study-user-experience/)

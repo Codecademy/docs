@@ -27,7 +27,7 @@ A few interview formats include unstructured interviews, which include an agenda
 
 Interviews are often used in combination with other methods as part of mixed methods research. For example, interviews may be conducted after sending out a [survey](https://www.codecademy.com/resources/docs/uiux/surveys) or after user testing or [diary studies](https://www.codecademy.com/resources/docs/uiux/diary-study) to collect deeper reflections or feedback from participants or to gain a qualitative understanding of the meaning behind [quantitative](https://www.codecademy.com/resources/docs/uiux/quantitative-research) trends.
 
-Learn more about user interviews:
+## Resources
 
 - [Nielsen Norman Group: User Interviews: How, When, and Why to Conduct Them](https://www.nngroup.com/articles/user-interviews/)
 - [Interaction Design Foundation: User Interviews](https://www.interaction-design.org/literature/topics/user-interviews)
