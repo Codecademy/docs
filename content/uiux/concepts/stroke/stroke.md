@@ -25,4 +25,4 @@ A **stroke**, also referred to as a border, is a line that wraps around a layer.
 
 ![Diagram comparing different join styles that can be applied to a stroke: miter, bevel, round.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Stroke-Join-Styles.png)
 
-Check out [Figma’s resource about adjusting stroke properties](https://help.figma.com/hc/en-us/articles/360049283914-Apply-and-adjust-stroke-properties) for more information.
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360049283914-Apply-and-adjust-stroke-properties) about adjusting stroke properties.

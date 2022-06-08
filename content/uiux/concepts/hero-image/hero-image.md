@@ -19,6 +19,7 @@ Hero images are typically large and may stretch across the full width of the pag
 
 Because of its prominent size and placement, a hero image is likely to be the first element that the user notices. Thus, designers consider how the hero image can create an optimal first impression. The hero might be designed to spark curiosity, convey values, tell a story, or prompt the user to take action.
 
-Resources:
-[“Hero Image” from Optimizely](https://www.optimizely.com/optimization-glossary/hero-image/)
-[“Ultimate Guide to Hero Images” from Hubspot](https://blog.hubspot.com/marketing/hero-image)
+## Resources
+
+- [“Hero Image” from Optimizely](https://www.optimizely.com/optimization-glossary/hero-image/)
+- [“Ultimate Guide to Hero Images” from Hubspot](https://blog.hubspot.com/marketing/hero-image)

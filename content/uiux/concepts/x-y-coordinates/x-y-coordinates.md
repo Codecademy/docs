@@ -29,4 +29,4 @@ Because design software assigns X and Y coordinates for every layer, designers c
 
 For example, if a button should appear in the same position across multiple website pages, a designer can check the X and Y coordinates of the button to ensure that they are the same on every frame.
 
-For further reading on X and Y coordinates in design software, check out [Figma's article on alignment, rotation, and position](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position#Position).
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position#Position) on X and Y coordinations including alignment, rotation, and postiion.

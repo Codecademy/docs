@@ -25,4 +25,4 @@ While variation exists across design software, standard animation settings inclu
 - **Style** correlates to how the animation looks. For example, "Dissolve" creates a fading effect, and "Bounce" evokes a ball bouncing up and down.
 - **Easing** refers to the way an animation accelerates throughout its duration. Adjusting the easing further customizes the visual style of the motion. Check out this [resource from Figma about easing](https://help.figma.com/hc/en-us/articles/360051748654/) to explore how different easing options impact the animation.
 
-Review [an article from Adobe XD](https://xd.adobe.com/ideas/principles/human-computer-interaction/animation-principles-for-ux-designers/) about animation principles to learn more about applying animations to a prototype.
+[This article from Adobe XD](https://xd.adobe.com/ideas/principles/human-computer-interaction/animation-principles-for-ux-designers/) about animation principles discusses how to apply animations to a prototype.

@@ -17,4 +17,4 @@ In [design software](https://www.codecademy.com/resources/docs/uiux/design-softw
 
 ![Diagram of six rectangles with different corner radius values. The first rectangle has a corner radius of 0, and each subsequent rectangle has a larger corner radius, indicated by increased rounding on the corners.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Corner-Radius.png)
 
-Check out [Figma’s resource about corner radius](https://help.figma.com/hc/en-us/articles/360050986854-Adjust-corner-radius-and-smoothing) for more information.
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360050986854-Adjust-corner-radius-and-smoothing) about corner radius.

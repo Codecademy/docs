@@ -40,7 +40,7 @@ Designers typically categorize buttons as primary, secondary, or tertiary action
 
 ![Pop-up modal from Codecademy’s website that includes primary, secondary, and tertiary actions: 1. Primary button has a container with a solid fill. 2. Secondary button is text-only, with no container. 3. Tertiary button is an icon with no container.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Buttons-Primary-Secondary-Tertiary.png)
 
-Resources:
+## Resources
 
 - [Human Interface Guidelines: Buttons] (https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/)
 - [Material Design Guidelines: Buttons] (https://material.io/components/buttons#behavior

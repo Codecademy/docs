@@ -15,4 +15,4 @@ CatalogContent:
 
 ![Three white triangles against a purple background showing different fill options: 1. Solid fill with 100% opacity 2. Solid fill with 50% opacity 3. White border with no fill.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/docs/Fill.png).
 
-To learn more about how fill is used in design software, check out [Figma's resource about fills](https://help.figma.com/hc/en-us/articles/360040623954-Add-fills-to-text-and-shape-layers).
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360040623954-Add-fills-to-text-and-shape-layers) about how fills are used in design software.

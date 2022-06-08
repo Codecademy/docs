@@ -22,4 +22,6 @@ For digital images, the most common file types are raster and vector:
 
 Each file type has its advantages and disadvantages as discussed in [this article from Adobe XD](https://www.adobe.com/creativecloud/file-types/image/comparison/raster-vs-vector.html).
 
-[Design software](https://www.codecademy.com/resources/docs/uiux/design-software) includes tools for importing images and adjusting their properties. Additionally, images can be created in design software and exported as SVG, JPEG, PNG, or PDF files. For more information, check out [Figma’s resource on adjusting image properties](https://help.figma.com/hc/en-us/articles/360041098433-Adjust-the-properties-of-an-image).
+[Design software](https://www.codecademy.com/resources/docs/uiux/design-software) includes tools for importing images and adjusting their properties. Additionally, images can be created in design software and exported as SVG, JPEG, PNG, or PDF files.
+
+Figma, a prototyping tool and graphics editor, has [more information](https://help.figma.com/hc/en-us/articles/360041098433-Adjust-the-properties-of-an-image) about adjusting image properties.
