@@ -18,7 +18,7 @@ CatalogContent:
 
 JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Companies also use JSON to allow their data to used in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some example include:
 
-- [google maps]: https://developers.google.com/maps/documentation/geocoding/start
+- [google maps](https://developers.google.com/maps/documentation/geocoding/start)
 - [Google Auth 2.0 Authentication](https://developers.google.com/identity/protocols/oauth2/service-account)
 - [Meta (formerly Facebook) Send API](https://developers.facebook.com/docs/messenger-platform/reference/send-api)
 - [Spotify Music Web API](https://developer.spotify.com/documentation/web-api/)
