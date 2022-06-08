@@ -72,7 +72,7 @@ A few important points to note about JSON syntax:
 
 Below are a few points regarding what should be avoided when using JSON format:
 
-- It is not useful to abide by an XML-like, "attribute vs. element" framework. JSON is only about "name-value" pairs.
+- It is not useful to abide by an XML-like, "attribute vs. element" framework. JSON is only about name-value pairs.
 - While the nesting of inner-JSON objects is possible, going more than two levels deep could get complicated.
 
 ## Example
