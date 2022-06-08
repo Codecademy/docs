@@ -12,7 +12,17 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-JavaScript Object Notation (JSON) is a data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of [JavaScript](https://www.codecademy.com/resources/docs/javascript) (ECMA-262) that was released back in December 1999. However, it is language-independent.
+<link rel="canonical" href="https://www.codecademy.com/article/what-is-json" />
+
+**JavaScript Object Notation (JSON)** is a language-independent data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of a [JavaScript](https://www.codecademy.com/resources/docs/javascript) standard known as ([ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/). Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data.
+
+JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to use in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
+
+- [Google Maps](https://developers.google.com/maps/documentation/geocoding/start)
+- [Google Auth 2.0 Authentication](https://developers.google.com/identity/protocols/oauth2/service-account)
+- [Meta (formerly Facebook) Send API](https://developers.facebook.com/docs/messenger-platform/reference/send-api)
+- [Spotify Music Web API](https://developer.spotify.com/documentation/web-api/)
+- [LinkedIn Profile API](https://docs.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api)
 
 More can be learned about JSON by visiting [json.org](https://www.json.org/).
 
@@ -26,7 +36,20 @@ More can be learned about JSON by visiting [json.org](https://www.json.org/).
 }
 ```
 
-As a format, JSON is textual, minimal, and universal. Multiple JSON objects can be collected in an array-like sequence:
+Data is stored in an object, depicted by two curly braces ` {``} `, and name-value pairs are separated by a colon `:`. The pairs themselves are separated by a comma `,`. The following are [data types](https://www.codecademy.com/resources/docs/general/data-types) that can be used:
+
+- [Array](https://www.codecademy.com/resources/docs/general/array): An ordered, comma delimited, list of zero or more elements of one of JSON's data types, enclosed in square brackets.
+- [Boolean](https://www.codecademy.com/resources/docs/general/boolean): Either `true` or `false`.
+- [Number](https://www.codecademy.com/resources/docs/general/number): A signed decimal number. JSON makes no distinction between integer and floating point.
+- [Object](https://www.codecademy.com/resources/docs/general/object): A collection of name-value pairs inside curly brackets.
+- [String](https://www.codecademy.com/resources/docs/general/string): A sequence of zero or more Unicode characters enclosed in double quotes.
+- `null`: An empty value represented by the word `null`.
+
+Whitespace is ignored between names, values, and punctuation. The following four characters are all considered whitespace: space, tab, line feed, and carriage return.
+
+JSON objects cannot contain comments.
+
+Multiple JSON objects can be collected in an array-like sequence:
 
 ```pseudo
 [
@@ -43,11 +66,35 @@ As a format, JSON is textual, minimal, and universal. Multiple JSON objects can 
 ]
 ```
 
-An important point to note is that while it borrows from JavaScript-like syntax, JSON itself is not JavaScript.
+A few important points to note about JSON syntax:
+
+- While it is derived from from the JavaScript language, JSON itself is not JavaScript.
+- Trailing commas are forbidden.
+- Although JavaScript names are not this strict, JSON property names must be in double quotes.
 
 ## Bad Practices
 
-Below are a few points regarding what should be avoided when using JSON format:
+Below are two points regarding what should be avoided when using JSON format:
 
-- It is not useful to abide by an XML-like, "attribute vs. element" framework. JSON is only about "name:value"-pairs.
+- It is not useful to abide by an XML-like, "attribute vs. element" framework. JSON is only about name-value pairs.
 - While the nesting of inner-JSON objects is possible, going more than two levels deep could get complicated.
+
+## Example
+
+The following JSON example uses one level of nested objects, an array, and each valid data type:
+
+```pseudo
+{
+  "make" : "Chevy",
+  "model" : "Silverado",
+  "miles" : 27500.5,
+  "year" : 2020,
+  "owner" : {
+    "firstName" : "John",
+    "lastName" : "Doe"
+   },
+  "features" : ["4WD", "Towing Package", "Lift Kit"],
+  "lease" : false,
+  "customizations": null
+}
+```
