@@ -85,7 +85,6 @@ The following JSON example uses one level of nested objects, an array, and each 
     "name": "Codey",
     "age": 30,
     "fullTime": true,
-
     "languages": [ "JavaScript", "HTML", "CSS" ],
     "GPA": 3.9,
     "favoriteSubject": null
