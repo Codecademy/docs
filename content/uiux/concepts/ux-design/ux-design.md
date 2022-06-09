@@ -23,7 +23,7 @@ User experience (UX) design focuses on:
   - **[Personas](https://www.codecademy.com/resources/docs/uiux/personas)**: Summaries of example and target users, generally based on a composite of user research.
   - **User journey maps**: A timeline of user actions related to accomplishing a particular goal related to a product or design.
   - **Storyboards**: A sequence of panels (often resembling a comic book) depicting a user journey chronologically.
-  - **[High-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes**: Iterative models, sketches or [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe) of a design used to gather feedback and inform the final design.
+  - **[High-fidelity](https://www.codecademy.com/resources/docs/uiux/high-fidelity) and [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) prototypes**: Iterative models, sketches, or [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe) of a design used to gather feedback and inform the final design.
 
 UX designers are involved in the whole product or service experience from start to finish, including the strategy, scope, structure, skeleton, and surface, as described by the [Five Elements of UX Design](https://www.codecademy.com/resources/docs/uiux/five-elements-of-ux-design).
 
