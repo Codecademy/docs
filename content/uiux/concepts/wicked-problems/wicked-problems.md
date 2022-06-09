@@ -21,7 +21,7 @@ According to [Horst Rittel and Melvin Webber](https://link.springer.com/article/
 2. They do not have a “stopping rule.” In other words, these problems lack an inherent logic that signals when they are solved.
 3. Their solutions are not true or false, only good or bad.
 4. There is no way to test the solution to a wicked problem.
-5. They cannot be studied through trial and error. Their solutions are irreversible so, as Rittel and Webber put it, “every trial counts.”
+5. They cannot be studied through trial and error. Their solutions are irreversible, so as Rittel and Webber put it, “every trial counts.”
 6. There is no end to the number of solutions or approaches to a wicked problem.
 7. All wicked problems are essentially unique.
 8. Wicked problems can always be described as the symptom of other problems.

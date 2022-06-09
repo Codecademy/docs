@@ -19,7 +19,7 @@ User experience (UX) design focuses on:
 
 - **User journey**: The entire process surrounding the use of a product, from the problem to be solved through the impact of the solution.
 - **[User research](https://www.codecademy.com/resources/docs/uiux/user-research)**: Qualitative and quantitative research to put the user at the center of the design process.
-- **Deliverables** to document the user experience and define the workflows and features of a product or design, such as:
+- **Deliverables**: Documents that define the users, user experience, workflows, and features of a product or design, such as:
   - **[Personas](https://www.codecademy.com/resources/docs/uiux/personas)**: Summaries of example and target users, generally based on a composite of user research.
   - **User journey maps**: A timeline of user actions related to accomplishing a particular goal related to a product or design.
   - **Storyboards**: A sequence of panels (often resembling a comic book) depicting a user journey chronologically.
