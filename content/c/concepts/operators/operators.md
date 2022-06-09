@@ -131,7 +131,7 @@ x = 19 >> 2;
 
 ## Assignment Operators
 
-Assignment operators assign a value to the right to a variable on the left.
+Assignment operators assign the value on the right to the variable on the left.
 
 | Operator |           Name            | Description                                |
 | :------: | :-----------------------: | ------------------------------------------ |
