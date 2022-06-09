@@ -66,7 +66,7 @@ None
 
 The backslash `\` metacharacter has two primary uses:
 
-- It matches a character literals that would otherwise have meaning (e.g. `^` or `$`).
+- It matches a character literal that would otherwise have meaning (e.g. `^` or `$`).
 - It finds a match within particular character classes or sequences, such as digits.
 
 The table below describes these special metacharacters when used with the `\` backslash:
