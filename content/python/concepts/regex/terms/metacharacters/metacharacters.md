@@ -1,6 +1,6 @@
 ---
 Title: 'Metacharacters'
-Description: 'Matches any digit (0-9) in a given pattern.'
+Description: 'Matches or qualifies regular character patterns or other expressions.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
