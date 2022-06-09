@@ -17,7 +17,7 @@ The ten **usability heuristics**, developed by [Jakob Nielsen](https://www.nngro
 
 According to the [Nielsen-Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/), the ten heuristics can be defined as follows:
 
-1. **Visibility of system status**: The design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time.
+1. **Visibility of system status**: The design should always keep users informed about what is going on through appropriate feedback within a reasonable amount of time.
 2. **Match between system and the real world**: The design should speak the users' language. Use words, phrases, and concepts familiar to the user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order.
 3. **User control and freedom**: Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted action without having to go through an extended process.
 4. **Consistency and standards**: Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.
