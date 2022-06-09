@@ -19,4 +19,4 @@ A mobile food ordering application, for example, could have its menu structured 
 
 When users navigate through an interface, it is important that they are able to easily find what they’re looking for and almost predict what the IA looks like without actually seeing a high-level view of the interface.
 
-![Information Architecture - Site Map example](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/information-architecture.svg)
+![Information Architecture - Site Map example](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/information-architecture.png)
