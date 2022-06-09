@@ -19,7 +19,7 @@ Web analytics are a source of [quantitative](https://www.codecademy.com/resource
 
 Common forms of web analytics include:
 
-- **General web analytics**: Analytics such as pageviews and traffic acquisition data measured by tools like [Google Analytics](https://analytics.google.com).
+- **General web analytics**: Analytics such as page views and traffic acquisition data are measured by tools like [Google Analytics](https://analytics.google.com).
 - **Engagement data**: Engagement data reveals how deeply users are engaging with your design, and include analytics like time spent on a page and bounce rate.
 - **Conversion data**: Conversion data focuses on key business goals, such as whether users click a "contact sales" or purchase button, download a white paper, or sign up for your newsletter.
 - **Audience demographic data**: Data about who is using your website or app, for example, age and gender data, or data about which devices or browsers people tend to visit from.
