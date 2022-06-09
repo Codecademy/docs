@@ -156,4 +156,4 @@ Misc operators don't fit into a particular category.
 | `sizeof()` |  Addition Assignment   | `sizeof(x)` returns the size of variable `x`.                                   |
 |    `&`     |        Address         | `&x` returns the address of variable `x`.                                       |
 |    `*`     |        Pointer         | `*x` returns a pointer to variable `x`. Not to be confused with multiplication. |
-|    `?:`    | Conditional Expression | `expreesion?x:y` returns `x` when `expression` is `true`, `y` otherwise.        |
+|    `?:`    | Conditional Operator | `expression?x:y` returns `x` when `expression` is `true`, `y` otherwise.        |
