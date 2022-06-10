@@ -13,3 +13,69 @@ CatalogContent:
 ---
 
 The `.printf()` method prints output to the console with the use of various formatting commands.
+
+## Syntax
+
+```pseudo
+System.out.printf(formatstring, arg1, arg2, ... argN)
+```
+
+Where `formatstring` is a string containing various format commands defining how to print an arbitrary number of additional arguments, `arg1 ... argN`. The format string contains text which is rendered as it appears in the string, and format specifiers that output an argument in a specified format.
+
+Format specifiers obey the following sequence:
+
+```pseudo
+%[index$][flags][width][.precision]conversion-character
+```
+
+The elements in square brackets (`[...]`) are optional.
+
+`index$` is a number followed by `$` which specifies the index of the argument being formatted. The default is to format arguments in the order they appear.
+
+`flags` can contain one or more of the following characters:
+
+- `-`: Left-justify. (Right-justify is the default.)
+- `+`: For numerical values display a leading `+` or `-`.
+- `0`: Zero-pad numerical values. (Blank padding is the default.)
+- `,`: Use a comma grouping separator for numerical values. (i.e. 1,000,000.)
+- ` `: A space will show a leading `-` for negative numbers or a space for positive numbers.
+
+`width` is a number representing the minimum width used for outputting characters.
+
+`precision` is a number representing the number of digits used to the right of the decimal for floating point numbers, or the length of a substring to extract from a string.
+
+`conversion-characters` are one of the following:
+
+- `b`: Boolean value.
+- `B`: Boolean value, uppercase.
+- `c`: Unicode character.
+- `C`: Unicode character, force uppercase.
+- `d`: Decimal integer.
+- `f`: Floating-point number.
+- `h`: Hashcode.
+- `n`: Newline character, platform specific.
+- `s`: String.
+- `S`: String, force uppercase.
+- `t`: Time/Date formatting.
+
+The `t` time/date character can be followed by one of the following characters to extract parts of a datetime value:
+
+- `H`: Hour.
+- `M`: Minute.
+- `S`: Second.
+- `L`: Millisecond.
+- `N`: Nanosecond.
+- `p`: A.M./P.M.
+- `z`: Time zone offset.
+- `A`: Full day of the week.
+- `d`: Two digit day of the month.
+- `B`: Full month name.
+- `m`: Two-digit month.
+- `Y`: Four-digit year
+- `y`: Last two digits of year.
+
+## Example
+
+
+
+
