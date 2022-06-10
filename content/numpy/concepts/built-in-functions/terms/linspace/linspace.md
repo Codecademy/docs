@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`.linspace()`** function returns an array of evenly-spaced numbers over a the specified interval \[`start`,`stop`\], optionally excluding the `stop` value.
+The **`.linspace()`** function returns an array of evenly-spaced numbers over a specified interval \[`start`,`stop`\], optionally excluding the `stop` value.
 
 ## Syntax
 
