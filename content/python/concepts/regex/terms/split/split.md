@@ -41,6 +41,6 @@ import re
 
 race_info = '''The top three race finishers were: Jane Smith (2:14), Sarah Long (2:18) and Suzy Reynolds (2:20).'''
 
-re.split(r'\(|\)', race_info)
+re.split(r"\(|\)", race_info)
 # A backslash indicates that the parentheses are part of the pattern
 ```

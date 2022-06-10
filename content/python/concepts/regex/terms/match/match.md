@@ -40,7 +40,7 @@ In the example below, the `.match()` method is used to find a pattern at the beg
 ```py
 import re
 
-result = re.match(r'www', 'www.codeacademy.com')
+result = re.match(r"www", "www.codeacademy.com")
 
 print(result)
 ```
@@ -48,7 +48,7 @@ print(result)
 The output will look like this:
 
 ```shell
-<_sre.SRE_Match object; span=(0, 3), match='www'>
+<_sre.SRE_Match object; span=(0, 3), match="www">
 ```
 
 ## Codebyte Example
@@ -58,7 +58,7 @@ The following example returns `None` because the test pattern is not at the begi
 ```py
 import re
 
-result = re.match(r'codecademy', 'www.codeacademy.com')
+result = re.match(r"codecademy", "www.codeacademy.com")
 
 print(result)
 ```

@@ -25,7 +25,7 @@ Regular expressions are accessed by importing the `re` module:
 ```pseudo
 import re
 
-regex = r'this is a regex pattern'
+regex = r"this is a regex pattern"
 ```
 
 For the most part, regex patterns are expressed with raw string notation (hence, the preceding `r` character).

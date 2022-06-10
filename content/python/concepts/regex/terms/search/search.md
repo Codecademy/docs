@@ -44,7 +44,7 @@ All content that appears within parentheses are matched with the `.search()` met
 ```py
 import re
 
-result = re.search(r'\(.*\)', 'the coordinates (lat:48,lon:-120)')
+result = re.search(r"\(.*\)", "the coordinates (lat:48,lon:-120)")
 # Backslashes designate a symbol as part of the pattern
 
 print(result)
@@ -53,7 +53,7 @@ print(result)
 The output will look like this:
 
 ```shell
-<re.Match object; span=(16, 33), match='(lat:48,lon:-120)'>
+<re.Match object; span=(16, 33), match="(lat:48,lon:-120)">
 ```
 
 ## Codebyte Example
@@ -63,7 +63,7 @@ The following example features a regex that uses the `.search()` method to match
 ```py
 import re
 
-result = re.search(r'www\S+', 'the tutorials at www.codeacademy.com')
+result = re.search(r"www\S+", "the tutorials at www.codeacademy.com")
 # \S matches any character except a space, tab or newline
 
 print(result)

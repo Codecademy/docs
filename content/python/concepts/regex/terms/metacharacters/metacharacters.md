@@ -92,7 +92,7 @@ The following snippet can be used for practicing with regex metacharacters:
 import re
 
 # Practice area for regex metacharacters
-string = 'Codecademy'
-regex_pattern = r'e+'
+string = "Codecademy"
+regex_pattern = r"e+"
 print(re.findall(regex_pattern, string))
 ```

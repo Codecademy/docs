@@ -40,9 +40,9 @@ Match all of the times in the string:
 ```py
 import re
 
-movie_str = 'the evening shows start at 7:00pm and 10:15pm'
+movie_str = "the evening shows start at 7:00pm and 10:15pm"
 
-matches = re.findall(r'([\d:,.]+)(am|pm)?', movie_str)
+matches = re.findall(r"([\d:,.]+)(am|pm)?", movie_str)
 # Square brackets designate a custom character class
 # Parentheses identify a group within the pattern
 
@@ -52,7 +52,7 @@ print(matches)
 This will output the following:
 
 ```shell
-[('7:00', 'pm'), ('10:15', 'pm')]
+[("7:00", "pm"), ("10:15", "pm")]
 ```
 
 ## Codebyte Example
@@ -65,7 +65,7 @@ import re
 email_str = '''the emails are support@codecademy.com
  or help@codecademy.com'''
 
-emails = re.findall(r'\S+@\S+', email_str)
+emails = re.findall(r"\S+@\S+", email_str)
 # \S matches any character except a space, tab or newline
 
 print(emails)
