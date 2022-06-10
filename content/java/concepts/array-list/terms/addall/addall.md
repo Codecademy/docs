@@ -50,6 +50,7 @@ public class testAddAll {
     list2.add("Y");
     list2.add("Z");
 
+    // Print first ArrayList
     System.out.println("List 1:");
     System.out.println(list1);
 
