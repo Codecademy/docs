@@ -41,6 +41,7 @@ public class testAddAll {
     list1.add("C");
     list1.add("D");
 
+    // Create second ArrayList
     ArrayList<String> list2 = new ArrayList<String>();
 
     list2.add("W");
