@@ -32,6 +32,7 @@ import java.util.ArrayList;
 public class testAddAll {
   public static void main(String[] args) {
 
+    // Create first ArrayList
     ArrayList<String> list1 = new ArrayList<String>();
 
     list1.add("A");
