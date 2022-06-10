@@ -20,7 +20,7 @@ The `.addAll()` method is used to add the contents of a collection to an instanc
 arrayListInstance.addAll(index, collection);
 ```
 
-The contents of `collection` are inserted into the `arrayListInstance` at the index `index`. The `collection` must be of the same [datatype](https://www.codecademy.com/resources/docs/java/data-types) as `arrayListInstance`.
+The contents of `collection` are inserted into the `arrayListInstance` at the specified `index`. The `collection` must be of the same [datatype](https://www.codecademy.com/resources/docs/java/data-types) as `arrayListInstance`.
 
 ## Example
 
