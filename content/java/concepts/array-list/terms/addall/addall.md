@@ -35,6 +35,7 @@ public class testAddAll {
     // Create first ArrayList
     ArrayList<String> list1 = new ArrayList<String>();
 
+    // Add items to first ArrayList
     list1.add("A");
     list1.add("B");
     list1.add("C");
