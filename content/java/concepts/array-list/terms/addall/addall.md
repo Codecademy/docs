@@ -54,6 +54,7 @@ public class testAddAll {
     System.out.println("List 1:");
     System.out.println(list1);
 
+    // Print second ArrayList
     System.out.println("List 2:");
     System.out.println(list2);
 
