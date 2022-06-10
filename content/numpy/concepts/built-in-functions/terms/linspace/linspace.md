@@ -48,6 +48,9 @@ print(result)
 result2 = numpy.linspace(10, 20, num=6, endpoint=False)
 print(result2)
 
+result3 = numpy.linspace([1,2,3],[4,5,6], num=6)
+print(result3)
+
 ```
 
 This results in the following output:
@@ -56,4 +59,11 @@ This results in the following output:
 [10. 12. 14. 16. 18. 20.]
 
 [10.         11.66666667 13.33333333 15.         16.66666667 18.33333333]
+
+[[1.  2.  3. ]
+ [1.6 2.6 3.6]
+ [2.2 3.2 4.2]
+ [2.8 3.8 4.8]
+ [3.4 4.4 5.4]
+ [4.  5.  6. ]]
 ```
