@@ -54,7 +54,7 @@ The following example shows the `<video>` tag being used with embedded `<source>
 </html>
 ```
 
-<video controls style="width: 100%;">
+<video controls style="width: 100%;" crossorigin="anonymous">
   <source src="https://raw.githubusercontent.com/Codecademy/docs/main/media/html-video-tag-example.mp4" type="video/mp4" />
   <track default kind="captions" srclang="en" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/html-video-tag-example.vtt" />
 </video>
