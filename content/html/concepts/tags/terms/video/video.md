@@ -48,7 +48,7 @@ The following example shows the `<video>` tag being used with embedded `<source>
       <source type="video/webm" src="code_ninja.webm" />
 
       Sorry you can't watch this video in your browser. Click
-      <a href="spooky_ghost.webm">here</a> to download it, instead.
+      <a href="code_ninja.webm">here</a> to download it, instead.
     </video>
   </body>
 </html>
