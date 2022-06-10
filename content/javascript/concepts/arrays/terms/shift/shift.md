@@ -20,9 +20,9 @@ Removes and returns the first element of the array. All subsequent elements will
 array.shift();
 ```
 
-## Examples
+## Example
 
-To remove the element `'Monday'` from the `daysOfWeek` array:
+The following example shows how to shift the `daysOfWeeks` array and remove the first element:
 
 ```js
 const daysOfWeek = [
@@ -34,11 +34,37 @@ const daysOfWeek = [
   'Saturday',
   'Sunday',
 ];
-const monday = daysOfWeek.shift();
 
-console.log(monday);
-// Output: Monday
+const removed = daysOfWeek.shift();
 
-console.log(daysOfWeek);
-// Output: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+console.log('Removed day:', removed);
+
+console.log('Rest of week:', daysOfWeek);
+```
+
+This will produce the following output:
+
+```shell
+Removed day: Monday
+Rest of week: [ 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday' ]
+```
+
+## Codebyte Example
+
+The instructions of the `alfredoRecipe` array are followed by a `while` [loop](https://www.codecademy.com/resources/docs/javascript/loops) that prints each step of the recipe to the console:
+
+```codebyte/javascript
+const alfredoRecipe = [
+  "1. Heat water to a boil, then add pasta (stirring occasionally).",
+  "2. Grate pecorino (or parmesan) cheese as finely as possible in a small bowl.",
+  "3. Slowly heat butter in a saucepan on 'Low'.",
+  "4. Drain pasta (but reserve some pasta water).",
+  "5. Combine cheese and water with pasta and mix until creamy.",
+];
+
+while(alfredoRecipe.length > 0) {
+  console.log(alfredoRecipe.shift())
+}
+
+console.log("Enjoy!")
 ```
