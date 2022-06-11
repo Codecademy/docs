@@ -228,6 +228,7 @@ Search
 Selectors
 Semantic
 Servers
+Server-Side Rendering
 Sets
 Socket.IO
 Sort
@@ -236,6 +237,8 @@ Specificity
 Spread
 SQLite
 Stacks
+Static Site
+Static Site Generator
 Statistics
 Stringr
 Strings
