@@ -1,6 +1,6 @@
 ---
 Title: 'Iterator'
-Description: 'An **iterator** is a java object that allows code to step through collections.'
+Description: 'An iterator is a java object that allows code to step through collections.'
 Subjects:
   - 'Computer Science'
 Tags:
