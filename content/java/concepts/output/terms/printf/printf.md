@@ -38,7 +38,7 @@ The elements in square brackets (`[...]`) are optional.
 - `+`: For numerical values display a leading `+` or `-`.
 - `0`: Zero-pad numerical values. (Blank padding is the default.)
 - `,`: Use a comma grouping separator for numerical values. (i.e. 1,000,000.)
--    : A space will show a leading `-` for negative numbers or a space for positive numbers.
+- A space will show a leading `-` for negative numbers or a space for positive numbers.
 
 `width` is a number representing the minimum width used for outputting characters.
 
