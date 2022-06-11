@@ -46,9 +46,4 @@ The `<audio>` tag may include `<source>` tags and fallback text. It may also use
 </audio>
 ```
 
-<audio controls>
-  <source src="https://raw.githubusercontent.com/Codecademy/docs/main/media/introducing_docs_audio.mp3" type="audio/mp3" />
-  Fallback text if audio will not play
-</audio>
-
 In the example above, the `<audio>` tag contains the `controls` attribute to display user controls for the audio content such as a play and pause button. In addition, there are two `<source>` tags with different audio formats. If the browser doesn't support the **.ogg** file format, it will use the **.mp3** file. Lastly, the text that follows the `<source>` tags will display if the `<audio>` tag is not supported by the browser.

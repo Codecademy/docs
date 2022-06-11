@@ -7,19 +7,18 @@ Subjects:
 Tags:
   - 'Regular Expressions'
   - 'Strings'
+  - 'Characters'
 CatalogContent:
   - 'introduction-to-regular-expressions'
-  - 'practical-data-cleaning'
-  - 'language-parsing'
-  - 'text-preprocessing'
+  - 'paths/computer-science'
 ---
 
 Replace matching substrings with a new string for all occurrences, or a specified number.
 
 ## Syntax
 
-```py
-re.sub(<pattern>, <repl>, string, <count>, <flags>)
+```pseudo
+re.sub(<pattern>, <replacement>, string, <count>, <flags>)
 ```
 
 A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
@@ -30,33 +29,44 @@ A `<pattern>` is a [regular expression](https://www.codecademy.com/resources/doc
 
 The other arguments include:
 
-- The replacement string (repl): `foo`
-- An integer value for the number of replacements (count): `10`
-- Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
+- The replacement string (`<replacement>`): `foo`
+- An integer value for the number of replacements (`<count>`): `10`
+- `<flags>`: `IGNORECASE`, `VERBOSE`, `DOTALL`
 
-## Example 1
+## Example
 
-Replace all the occurrences of "BI" with "business intelligence":
+The following example replaces all occurrences of "BI" with "business intelligence":
 
 ```py
 import re
 
 blurb = '''The analytics firm uses a range of BI tools to  visualize data. Their internal data science team suggests
-    bi tools may be their most valuable resource.'''
+bi tools may be their most valuable resource.'''
 
-re.sub(r'bi','business intelligence',blurb,flags=re.IGNORECASE)
+match = re.sub(r'bi','business intelligence',blurb,flags=re.IGNORECASE)
 # The ignorecase flag allows for matches regardless of case
+
+print(match)
 ```
 
-## Example 2
+This will print the following where "bi" is replaced with "business intelligence":
+
+```shell
+The analytics firm uses a range of business intelligence tools to  visualize data. Their internal data science team suggests
+business intelligence tools may be their most valuable resource.
+```
+
+## Codebyte Example
 
 Replace all numerical values with "REDACTED":
 
-```py
+```codebyte/python
 import re
 
 confidential_str = '''The suspect's bank account (#333344444) and pin (#9999) were found in his cell'''
 
-re.sub(r'\d+', 'REDACTED', confidential_str)
+redacted = re.sub(r'\d+', 'REDACTED', confidential_str)
 # \d mathes any numerical character
+
+print(redacted)
 ```
