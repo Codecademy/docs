@@ -27,7 +27,7 @@ The `.sum()` method has the following parameters:
 
 ## Example
 
-The following example produces a GroupBy object from a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.sum()` method on it.
+The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.sum()` method on it.
 
 ```py
 import pandas as pd
