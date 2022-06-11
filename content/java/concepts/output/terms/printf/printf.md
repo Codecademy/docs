@@ -99,8 +99,5 @@ This will produce the following output (with the current date):
 ```shell
 This is a string: '    Output'
 This is a float: +123.46
-This is a date: Saturday, June 11 2022 
+This is a date: Saturday, June 11 2022
 ```
-
-
-
