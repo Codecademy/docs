@@ -61,4 +61,4 @@ This produces the following output:
 2   C  12.000000
 ```
 
-Selected methods of the GroupBy object are listed below:
+Selected methods of the `GroupBy` object are listed below:
