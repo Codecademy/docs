@@ -24,6 +24,7 @@ Design thinking's core activities are ideation, inspiration, and implementation,
 5. **Test**: Test the best solutions developed during prototyping.
 
 Prototyping or testing may lead to redefining the problem altogether. As with the other processes we've covered, this is an iterative cycle.
+
 ![A diagram of the five phases of the design thinking process: Empathize, Define, Ideate, Prototype, and Test.](https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/key-methodologies/design-thinking-5-steps.png)
 
 ## About Design Thinking

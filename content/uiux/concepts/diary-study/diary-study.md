@@ -25,7 +25,7 @@ In terms of timing, diary studies may use the following protocols:
 - Signal-contingent protocol where participants report their experience when prompted by a signaling device.
 - Event-contingent protocol where participants report each time a specific event occurs.
 
-Diaries might be recorded through a diary-specific tool like [dScout](https://dscout.com/) or [Indeemo](https://indeemo.com/), a multi-purpose survey or form tool like [Google Forms](https://docs.google.com/forms/), or even using pen and paper. Participants might be asked to include photos or drawings with their submissions, or other more creative prompts &mdash; it's totally up to the researcher!
+Diaries might be recorded through a diary-specific tool like [dscout](https://dscout.com/) or [Indeemo](https://indeemo.com/), a multi-purpose survey or form tool like [Google Forms](https://docs.google.com/forms/), or even using pen and paper. Participants might be asked to include photos or drawings with their submissions, or other more creative prompts &mdash; it's totally up to the researcher!
 
 Because of the time investment required for diary studies and the potential for participant drop off, it's a good practice to offer incentives or compensation at different stages of the study to keep participants engaged. Diary studies may be combined with or used as a warm-up for follow-up [interviews](https://www.codecademy.com/resources/docs/uiux/interviews) to explore themes from specific participants in further depth.
 
