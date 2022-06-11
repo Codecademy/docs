@@ -58,7 +58,7 @@ The elements in square brackets (`[...]`) are optional.
 - `S`: String, force uppercase.
 - `t`: Time/Date formatting.
 
-The `t` time/date character can be followed by one of the following characters to extract parts of a datetime value:
+The `t` time/date character is followed by one of the following characters to extract parts of a datetime value:
 
 - `T`: Time, hh:mm:ss.
 - `H`: Hour.
