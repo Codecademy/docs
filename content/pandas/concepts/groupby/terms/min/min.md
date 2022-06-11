@@ -27,7 +27,7 @@ The `.min()` method has the following parameters:
 
 ## Example
 
-The following example produces a GroupBy object from a [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.min()` method on it.
+The following example produces a `GroupBy` object from a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) and executes the `.min()` method on it.
 
 ```py
 import pandas as pd
