@@ -16,7 +16,7 @@ The `GroupBy` object is returned by calls to [`.groupby()`](https://www.codecade
 
 ## Example
 
-The following example produces a GroupBy object from a DataFrame and uses it to produce some aggregate results.
+The following example produces a `GroupBy` object from a `DataFrame` and uses it to produce some aggregate results.
 
 ```py
 import pandas as pd
