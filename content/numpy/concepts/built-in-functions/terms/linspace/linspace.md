@@ -31,7 +31,7 @@ The `start` and `stop` arguments are required and represent the beginning and en
 - `stop`: The (optionally included) endpoint of the sequence.
 - `num`: The number of values to generate. Defaults to 50.
 - `endpoint`: Boolean flag. If `True`, `stop` is included as the last value. If `False`, `stop` is excluded. Defaults to `True`.
-- `retstep`: Boolean flag. If `True` the result will include the calculated step size between values. Defaults to `False`.
+- `retstep`: Boolean flag. If `True`, the result will include the calculated step size between values. Defaults to `False`.
 - `dtype`: The `dtype` of the returned array, if omitted, `dtype` is inferred from `start` and `stop`. Defaults to `None`.
 - `axis`: If `start` and `stop` are arrays, this specifies on what axis the values will be added. If `0` the axis is added at the beginning. If `-1` it's added at the end. Defaults to `0`.
 
