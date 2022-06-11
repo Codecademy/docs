@@ -9,18 +9,25 @@ Tags:
   - 'Regular Expressions'
   - 'Functions'
   - 'Methods'
+  - 'Strings'
+  - 'Characters'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
 ---
 
-Regex, short for [regular expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python.
+**Regex**, short for [regular expressions](https://www.codecademy.com/resources/docs/general/regular-expressions), is a powerful system for searching text. Regular expressions are implemented in a variety of languages including java and python.
 
-In Python, regular expressions are available through the `re` module:
+## Syntax
 
-```python
+Regular expressions are accessed by importing the `re` module:
+
+```pseudo
 import re
+
+regex = r"this is a regex pattern"
 ```
 
-The following are some of the regular expression operations:
+For the most part, regex patterns are expressed with raw string notation (hence, the preceding `r` character).
+
+The following entries explore some terms and operations related to Python regular expressions:
