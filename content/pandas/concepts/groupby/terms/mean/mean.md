@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.mean()` method produces a new Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) with aggregate mean values for the groups in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
+The `.mean()` method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with aggregate mean values for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
 ## Syntax
 
