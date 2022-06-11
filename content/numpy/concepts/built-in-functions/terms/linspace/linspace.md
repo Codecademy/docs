@@ -50,7 +50,6 @@ print(result2)
 
 result3 = numpy.linspace([1,2,3],[4,5,6], num=6)
 print(result3)
-
 ```
 
 This results in the following output:
