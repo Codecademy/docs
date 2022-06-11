@@ -94,7 +94,7 @@ public class printExample {
   }
 ```
 
-This will produce the following output (with the current date.):
+This will produce the following output (with the current date):
 
 ```shell
 This is a string: '    Output'
