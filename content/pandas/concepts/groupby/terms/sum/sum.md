@@ -22,7 +22,7 @@ groupbyobject.sum(numeric_only, min_count)
 
 The `.sum()` method has the following parameters:
 
-- `numeric_only`: Boolean value. `True` includes only int, float and boolean columns. Default value is `True`.
+- `numeric_only`: Boolean value. `True` includes only int, float, and boolean columns. Default value is `True`.
 - `min_count`: Int value. Required number of valid entries in order to produce a result. Defalt value is 0.
 
 ## Example
