@@ -33,7 +33,7 @@ dataframevalue.groupby(by, axis, level, as_index, sort, group_keys, observed, dr
 
 ## Example
 
-This example uses `.groupby()` on a DataFrame to produce some aggregate results.
+This example uses `.groupby()` on a `DataFrame` to produce some aggregate results.
 
 ```py
 import pandas as pd
