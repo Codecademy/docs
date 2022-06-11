@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.count()` method produces a new Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe) with counts of the values for each group in a in a [GroupBy](https://www.codecademy.com/resources/docs/pandas/groupby) object.
+The `.count()` method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with counts of the values for each group in a in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
 ## Syntax
 
