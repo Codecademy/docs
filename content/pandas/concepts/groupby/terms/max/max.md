@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.max()` method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with maximum values for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.
+The **`.max()`** method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with maximum values for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.
 
 ## Syntax
 
