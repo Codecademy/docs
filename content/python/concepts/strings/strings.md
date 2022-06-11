@@ -9,6 +9,7 @@ Tags:
   - 'Strings'
   - 'Lists'
   - 'Data Types'
+  - 'Characters'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
@@ -175,7 +176,6 @@ string_one = "Hello"
 string_two = "World"
 
 print(string_one > string_two)
-
 print(string_one < string_two)
 ```
 
