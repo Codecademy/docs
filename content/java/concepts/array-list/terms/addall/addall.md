@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.addAll()` method is used to add the contents of a collection to an instance of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) class.
+The **`.addAll()`** method is used to add the contents of a collection to an instance of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) class.
 
 ## Syntax
 
