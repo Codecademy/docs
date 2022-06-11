@@ -29,7 +29,7 @@ dataframevalue.groupby(by, axis, level, as_index, sort, group_keys, observed, dr
 - `sort`: Boolean value. `True` sorts the group keys. Default value is `True`.
 - `group_keys`: Boolean value. Add group keys to index when calling apply. Default value is `True`.
 - `observed`: Boolean value. If `True`, only show observed values for categorical groupers, otherwise show all values. Default value is `False`.
-- `dropna`: Boolean value: If `True` drop groups whose keys contain `NA` values. If `False`, `NA` will be used as key for those groups. Default value is `True`.
+- `dropna`: Boolean value. If `True`, drop groups whose keys contain `NA` values. If `False`, `NA` will be used as a key for those groups. Default value is `True`.
 
 ## Example
 
