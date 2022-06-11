@@ -12,7 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-White spaces are spaces (` `) or blanck lines. Whitespaces are used to format code to improve the readablity of code. Take this as an example.
+White spaces are spaces (` `) or blanck lines. Whitespaces are used to format code to improve the readablity of code. 
+
+## Why they are important
+
+Take this as an example.
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
