@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The GroupBy object is returned by calls to [`.groupby()`](https://www.codecademy.com/resources/docs/pandas/dataframe/groupby) on a Series or [DataFrame](https://www.codecademy.com/resources/docs/pandas/dataframe). The `.groupby()` function reassembles the data into distinct groups, often for aggregation.
+The `GroupBy` object is returned by calls to [`.groupby()`](https://www.codecademy.com/resources/docs/pandas/dataframe/groupby) on a `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe). The `.groupby()` function reassembles the data into distinct groups, often for aggregation.
 
 ## Example
 
