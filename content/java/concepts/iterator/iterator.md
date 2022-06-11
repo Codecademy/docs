@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **iterator** is a java object that allows code to step through collections. Java has `Iterator` and `ListIterator` objects, the main difference between the two is that `ListIterator` allows bidirectional trasversal of collections. The `ListIterator` can only be retrieved from collections that implement the `List` interface. They are both imported through the `java.util` package.
+An **iterator** is a java object that allows code to step through collections. Java has `Iterator` and `ListIterator` objects. The main difference between the two is that `ListIterator` allows bidirectional trasversal of collections. The `ListIterator` can only be retrieved from collections that implement the `List` interface. They are both imported through the `java.util` package.
 
 ## Syntax
 
