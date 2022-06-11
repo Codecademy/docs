@@ -64,7 +64,6 @@ public class testAddAll {
     // Print the combined ArrayList
     System.out.println("List 1 + List 2:");
     System.out.println(list1);
-
   }
 }
 ```
