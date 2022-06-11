@@ -16,7 +16,7 @@ The `.hasNext()` method returns `true` if the `Iterator` or `ListIterator` has m
 ## Syntax
 
 ```pseudo
-iterator.hasNext()
+Boolean value = iterator.hasNext()
 ```
 
 Where `iterator` is a `Iterator` or `ListIterator` object.
