@@ -16,7 +16,7 @@ The `.remove()` method removes an item from the underlying collection of an `Ite
 ## Syntax
 
 ```pseudo
-iterator.remove()
+iterator.remove();
 ```
 
 Where `iterator` is an `Iterator` or `ListIterator` object.
