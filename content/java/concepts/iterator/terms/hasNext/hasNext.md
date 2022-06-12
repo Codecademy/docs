@@ -19,7 +19,7 @@ The `.hasNext()` method returns `true` if the `Iterator` or `ListIterator` has m
 Boolean value = iterator.hasNext();
 ```
 
-Where `iterator` is a `Iterator` or `ListIterator` object.
+Where `iterator` is an `Iterator` or `ListIterator` object.
 
 ## Example
 
