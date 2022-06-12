@@ -47,10 +47,10 @@ public class Example {
     
     while(i.hasNext()) {
       int item = (Integer) i.next();
-      i.add(item * 2)
+      i.add(item * 2);
     }
     
-    println(l);
+    System.out.println(l);
   }
 }
 ```
