@@ -16,7 +16,7 @@ The `.next()` method returns the next element from an `Iterator` or `ListIterato
 ## Syntax
 
 ```pseudo
-Object value = iterator.next()
+Object value = iterator.next();
 ```
 
 Where `iterator` is an `Iterator` or a `ListIterator`.
