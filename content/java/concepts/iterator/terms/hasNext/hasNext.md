@@ -1,6 +1,6 @@
 ---
 Title: '.hasNext()'
-Description: 'Returns true if the Iterator or ListIterator has more elements. Returns false otherwise.'
+Description: 'Returns true if an Iterator or a ListIterator object has more elements. Returns false otherwise.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.hasNext()`** method returns `true` if the `Iterator` or `ListIterator` has more elements. Returns `false` otherwise.
+The **`.hasNext()`** method returns `true` if an `Iterator` or a `ListIterator` object has more elements. Returns `false` otherwise.
 
 ## Syntax
 
