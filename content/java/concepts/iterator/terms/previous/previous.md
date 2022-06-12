@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.previous()` method returns the previous element from a `ListIterator` object.
+The **`.previous()`** method returns the previous element from a `ListIterator` object.
 
 ## Syntax
 
