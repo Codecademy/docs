@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.set()` method replaces the current entry in the underlying collection of a `ListIterator` object. This is the last item returned by the [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) or [`.previous()`](https://www.codecademy.com/resources/docs/java/iterator/previous) methods.
+The **`.set()`** method replaces the current entry in the underlying collection of a `ListIterator` object. This is the last item returned by the [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) or [`.previous()`](https://www.codecademy.com/resources/docs/java/iterator/previous) methods.
 
 ## Syntax
 
