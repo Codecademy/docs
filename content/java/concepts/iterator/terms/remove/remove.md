@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.remove()` method removes an item from the underlying collection of an `Iterator` or `ListIterator` object. This method removes the current element, i.e. the one returned by the last [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) method.
+The **`.remove()`** method removes an item from the underlying collection of an `Iterator` or a `ListIterator` object. This method removes the current element, i.e. the one returned by the last [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) or [`.previous()`](https://www.codecademy.com/resources/docs/java/iterator/previous) method.
 
 ## Syntax
 
