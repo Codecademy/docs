@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.nextIndex()` method returns the index of the next element from a `ListIterator` object. If there is not a next element, it returns the size of the underlying list.
+The **`.nextIndex()`** method returns the index of the next element from a `ListIterator` object. If there is not a next element, it returns the size of the underlying list.
 
 ## Syntax
 
