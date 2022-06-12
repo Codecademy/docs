@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.previousIndex()` method returns the index of the previous element from a `ListIterator` object. If there is not a previous element, it returns -1.
+The **`.previousIndex()`** method returns the index of the previous element from a `ListIterator` object. If there is not a previous element, it returns -1.
 
 ## Syntax
 
