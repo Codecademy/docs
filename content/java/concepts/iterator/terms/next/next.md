@@ -1,6 +1,6 @@
 ---
 Title: '.next()'
-Description: 'Returns the next element from an Iterator or ListIterator object.'
+Description: 'Returns the next element from an Iterator or a ListIterator object.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.next()` method returns the next element from an `Iterator` or `ListIterator` object.
+The **`.next()`** method returns the next element from an `Iterator` or a `ListIterator` object.
 
 ## Syntax
 
