@@ -30,26 +30,26 @@ import java.util.*;
 
 public class Example {
   public static void main(String args[]) {
-    
+
     // Create a new ArrayList
     ArrayList l = new ArrayList();
-    
+
     // Add some items to the ArrayList
     l.add(1);
     l.add(2);
     l.add(3);
     l.add(4);
     l.add(5);
-    
+
     ListIterator i = l.listIterator();
-    
+
     // Loop through ArrayList contents
-    
+
     while(i.hasNext()) {
       int item = (Integer) i.next();
       i.add(item * 2);
     }
-    
+
     System.out.println(l);
   }
 }

@@ -30,35 +30,35 @@ import java.util.*;
 
 public class Example {
   public static void main(String args[]) {
-    
+
     // Create a new ArrayList
     ArrayList l = new ArrayList();
-    
+
     // Add some items to the ArrayList
     l.add("A");
     l.add("B");
     l.add("C");
     l.add("D");
     l.add("E");
-    
+
     ListIterator i = l.listIterator();
-    
+
     // Loop through ArrayList contents
-    
+
     while(i.hasNext()) {
       int index = i.nextIndex();
       Object item = i.next();
       System.out.println(index + ": " + item);
     }
-        
+
     // Loop back through ArrayList contents
-    
+
     while(i.hasPrevious()) {
       int index = i.previousIndex();
       Object item = i.previous();
       System.out.println(index + ": " + item);
     }
-    
+
   }
 }
 ```

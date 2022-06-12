@@ -30,26 +30,26 @@ import java.util.*;
 
 public class Example {
   public static void main(String args[]) {
-    
+
     // Create a new ArrayList
     ArrayList l = new ArrayList();
-    
+
     // Add some items to the ArrayList
     l.add(1);
     l.add(2);
     l.add(3);
     l.add(4);
     l.add(5);
-    
+
     Iterator i = l.iterator();
-    
+
     // Loop through ArrayList contents
     while(i.hasNext()) {
       int item = (Integer) i.next();
       // If item is even remove the element
       if (item % 2 == 0) {
         i.remove();
-        } 
+        }
     }
     System.out.println(l);
   }
@@ -61,4 +61,3 @@ This results in the following output:
 ```shell
 [1, 3, 5]
 ```
-
