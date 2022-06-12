@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.hasNext()` method returns `true` if the `Iterator` or `ListIterator` has more elements. Returns `false` otherwise.
+The **`.hasNext()`** method returns `true` if the `Iterator` or `ListIterator` has more elements. Returns `false` otherwise.
 
 ## Syntax
 
