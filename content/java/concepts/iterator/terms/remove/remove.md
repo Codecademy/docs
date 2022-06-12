@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Removes an entry from the underlying collection of a Iterator or ListIterator object.'
+Description: 'Removes an entry from the underlying collection of an Iterator or ListIterator object.'
 Subjects:
   - 'Computer Science'
 Tags:
