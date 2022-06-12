@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.add()` method adds an item to the underlying collection of a `ListIterator` object. This method adds the item before the next element that would be returned by the [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) method.
+The **`.add()`** method adds an item to the underlying collection of a `ListIterator` object. This method adds the item before the next element that would be returned by the [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) method.
 
 ## Syntax
 
