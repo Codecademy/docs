@@ -1,6 +1,6 @@
 ---
 Title: '.hasPrevious()'
-Description: 'Returns true if the ListIterator has prior elements. Returns false otherwise.'
+Description: 'Returns true if a ListIterator object has prior elements. Returns false otherwise.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.hasPevious()` method returns `true` if the `ListIterator` has prior elements. (i.e. elements before the current element.) Returns `false` otherwise.
+The **`.hasPevious()`** method returns `true` if a `ListIterator` object has prior elements. (i.e. elements before the current element.) Returns `false` otherwise.
 
 ## Syntax
 
