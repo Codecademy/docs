@@ -27,7 +27,7 @@ A WSDL document is made up of the following elements:
 - `<binding>`: Defines the specific details on how a `<portType>` operation is actually transmitted.
 - `<port>`: An individual endpoint address for a binding.
 - `<service>`: Defines the collection of ports supported by the web service.
-- `<documentation>`: Human readable comments that can be included within any other WSDL element.
+- `<documentation>`: Human-readable comments that can be included within any other WSDL element.
 
 ## Structure
 
