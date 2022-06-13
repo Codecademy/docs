@@ -1,3 +1,4 @@
+<!-- markdownlint-disable -->
 <div align="center">
   <h1>📕 Codecademy Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
@@ -11,7 +12,7 @@
 
 ## What stage of development are we in right now?
 
-Docs is live with about 710 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
+Docs is live with over 1000 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ### 📝 Content Team
 
