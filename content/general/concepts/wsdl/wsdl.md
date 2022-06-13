@@ -47,7 +47,7 @@ The structure of a WSDL document looks like this:
 
    <portType>
       <operation>
-         description of an operation...  
+         description of an operation...
       </operation>
    </portType>
 
