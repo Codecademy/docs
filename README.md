@@ -1,4 +1,3 @@
-<!-- markdownlint-disable -->
 <div align="center">
   <h1>📕 Codecademy Docs</h1>
   <strong>Documentation for popular programming languages and frameworks.</strong><br>
