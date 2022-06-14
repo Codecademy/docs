@@ -38,7 +38,7 @@ return rangeIterator;
 }
 ```
 
-The above code is hard to read since it has no gaps and it also does not have indentiont with spaces so people can not easyly see what is nested within what. But when whitespaces are used it is easy to read.
+When whitespace is used, it is easier to read.
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
