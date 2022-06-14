@@ -40,7 +40,7 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Share your feedback in [this form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
+- Share your thoughts in this [Codecademy Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
