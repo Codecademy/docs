@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The `ORDER BY` command sorts the result set by a particular column either alphabetically or numerically.
+The **`ORDER BY`** command sorts the result set by a particular column either alphabetically or numerically.
 
 ## Syntax
 

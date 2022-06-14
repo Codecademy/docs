@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Creates a new table within a database.
+The **`CREATE TABLE`** command creates a new table within a database.
 
 ## Syntax
 
