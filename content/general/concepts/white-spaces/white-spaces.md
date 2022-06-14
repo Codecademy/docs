@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-White spaces are spaces (` `) or blanck lines. Whitespaces are used to format code to improve the readablity of code. 
+**Whitespace** is spaces or blank lines in programming. Whitespace is used to format code to improve its readability. 
 
 ## Why they are important
 
