@@ -1,6 +1,6 @@
 ---
 Title: 'Lists'
-Description: 'White spaces are spaces and blank lines in programing'
+Description: 'Whitespace is spaces and blank lines in programing.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
