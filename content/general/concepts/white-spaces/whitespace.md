@@ -1,5 +1,5 @@
 ---
-Title: 'Lists'
+Title: 'Whitespace'
 Description: 'Whitespace is spaces and blank lines in programing.'
 Subjects:
   - 'Computer Science'
