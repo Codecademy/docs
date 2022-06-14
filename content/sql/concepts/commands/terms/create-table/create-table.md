@@ -9,17 +9,17 @@ Tags:
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
 ---
 
 Creates a new table within a database.
 
 ## Syntax
 
-```sql
+```pseudo
 CREATE TABLE table_name (
   column_name column_definition,
   column_name column_definition,

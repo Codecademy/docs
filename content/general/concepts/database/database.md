@@ -6,9 +6,9 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
+  - 'Tables'
 CatalogContent:
-  - 'paths/design-databases-with-postgresql'
-  - 'paths/analyze-data-with-sql'
+  - 'learn-sql'
   - 'paths/data-science'
 ---
 
@@ -26,7 +26,7 @@ There are many different ways for database systems to structure and organize dat
 
 Object Databases structure their data in the form of objects (as used in [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming)) rather than tables. This is useful in software development where the application using the data, and the DBMS manipulating the data, can both use the same model of the data.
 
-### Object-Relational Databases
+#### Object-Relational Databases
 
 A hybrid of the above two models. Unlike pure object databases where the database is primarily a persistent store for objects created by a program written in an object-oriented programming language, object-relational databases are manipulated via a query language as in relational databases. Yet they still support objects, classes and inheritance like a pure object database.
 
