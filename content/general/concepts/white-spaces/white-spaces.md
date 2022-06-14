@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Why they are important
 
-Take this as an example.
+The below code is hard to read since it has no gaps and it also does not have indention with spaces so people can not easily see what is nested within what.
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
