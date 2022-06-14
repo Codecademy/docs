@@ -14,7 +14,7 @@ CatalogContent:
 
 **Whitespace** is spaces or blank lines in programming. Whitespace is used to format code to improve its readability. 
 
-## Why they are important
+## Example
 
 The below code is hard to read since it has no gaps and it also does not have indention with spaces so people can not easily see what is nested within what.
 
