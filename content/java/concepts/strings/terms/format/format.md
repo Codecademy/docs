@@ -34,9 +34,11 @@ Some common format specifiers include:
 | `%f`             | float    |
 | `%s`             | string   |
 
+**Note:** `NullPointerException` will be thrown if the format is `null`. An `IllegalFormatException` will be thrown if the specifier and argument don't match or the specifier does not exist.
+
 ## Example
 
-The following example prints out three strings:
+The following example prints out three strings. The first parameter includes a format specifier(s) within a string and has one or two arguments:
 
 ```java
 class MyFormat {
@@ -58,4 +60,3 @@ Katara is a water bender.
 100 years!
 Yip yip.
 ```
-
