@@ -1,6 +1,7 @@
 ---
 Title: 'Accessibility'
 Description: 'Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.'
+Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
