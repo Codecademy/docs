@@ -20,7 +20,7 @@ A database **index** is a data structure that improves the speed of data retriev
 
 By matching the values in the index, the database management system can quickly retrieve the corresponding row without having to search every row in the table.
 
-Tables are indexed on their primary key columns, and many database systems require an index on a foreign key column as well. During database design indexes are commonly also placed on columns that will most often be queried on.
+Tables are indexed on their primary key columns, and many database systems require an index on a foreign key column as well. It is also common practice to place indexes on columns that are likely to be queried often.
 
 ## SQL Example
 
