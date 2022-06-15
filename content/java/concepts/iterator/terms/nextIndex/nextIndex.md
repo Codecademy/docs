@@ -19,7 +19,7 @@ The **`.nextIndex()`** method returns the index of the next element from a `List
 int value = myListIterator.nextIndex();
 ```
 
-Where `listiterator` is a `ListIterator` object.
+Where `myListIterator` is a `ListIterator` object.
 
 ## Example
 
