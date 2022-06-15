@@ -23,7 +23,7 @@ Where `iterator` is an `Iterator` or `ListIterator` object.
 
 ## Example
 
-This example populates an `ArrayList` and then removes the even items with the `.remove()` method:
+This example populates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) and then removes the even items with the `.remove()` method:
 
 ```java
 import java.util.*;
