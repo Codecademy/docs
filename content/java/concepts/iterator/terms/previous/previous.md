@@ -16,7 +16,7 @@ The **`.previous()`** method returns the previous element from a `ListIterator` 
 ## Syntax
 
 ```pseudo
-Object value = listiterator.previous();
+Object value = myListIterator.previous();
 ```
 
 Where `iterator` is a `ListIterator`.
