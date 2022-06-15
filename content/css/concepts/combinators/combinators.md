@@ -71,4 +71,4 @@ h3 ~ p {
 
 The rendered output may look like this:
 
-![Rendered CSS combinators](https://raw.githubusercontent.com/Codecademy/docs/main/media/rendered-css-combinators)
+![Rendered CSS combinators](https://raw.githubusercontent.com/Codecademy/docs/main/media/rendered-css-combinators.png)
