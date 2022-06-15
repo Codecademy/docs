@@ -37,6 +37,6 @@ glob.glob('*.*')
 # Files in subfolder
 glob.glob('*/*')
 
-# Everything thing in current folder
+# Everything in current folder
 glob.glob('**/*', recursive=True)
 ```
