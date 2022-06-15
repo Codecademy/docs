@@ -19,7 +19,7 @@ The **`.previousIndex()`** method returns the index of the previous element from
 int value = myListIterator.previousIndex();
 ```
 
-Where `listiterator` is a `ListIterator` object.
+Where `myListIterator` is a `ListIterator` object.
 
 ## Example
 
