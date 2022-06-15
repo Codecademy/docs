@@ -26,7 +26,7 @@ Collections have an `.iterator()` method that returns an `Iterator` object. List
 
 ## Example
 
-The following example uses an `Iterator` to traverse an `ArrayList`:
+The following example uses an `Iterator` to traverse an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list):
 
 ```java
 import java.util.*;
