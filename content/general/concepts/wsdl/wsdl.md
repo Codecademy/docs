@@ -37,26 +37,26 @@ The structure of a WSDL document looks like this:
 
 ```pseudo
 <definitions>
-   <types>
-      description of types...
-   </types>
+  <types>
+    description of types...
+  </types>
 
-   <message>
-      description of a message...
-   </message>
+  <message>
+    description of a message...
+  </message>
 
-   <portType>
-      <operation>
-         description of an operation...
-      </operation>
-   </portType>
+  <portType>
+    <operation>
+      description of an operation...
+    </operation>
+  </portType>
 
-   <binding>
-      description of a binding...
-   </binding>
+  <binding>
+    description of a binding...
+  </binding>
 
-   <service>
-      description of a service...
-   </service>
+  <service>
+    description of a service...
+  </service>
 </definitions>
 ```
