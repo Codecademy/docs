@@ -23,7 +23,7 @@ Where `myListIterator` is a `ListIterator` object, and `value` is the object to 
 
 ## Example
 
-This example populates an `ArrayList` then inserts values between the existing values in the collection:
+This example populates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then inserts values between the existing values in the collection:
 
 ```java
 import java.util.*;
