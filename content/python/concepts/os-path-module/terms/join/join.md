@@ -29,9 +29,11 @@ The following example showcases the `.join()` method:
 ```codebyte/python
 import os.path
 
-path_a = "this-path"
-path_b = "that-path"
-path_c = "another-path"
+cc_courses_slug = "https://www.codecademy.com/courses/"
 
-print(os.path.join(path_a, path_b, path_c))
+python_3_lessons_slug = "learn-python-3/lessons/"
+
+second_lesson_slug = "string-methods/exercises/introduction-ii"
+
+print(os.path.join(cc_courses_slug, python_3_lessons_slug, second_lesson_slug))
 ```

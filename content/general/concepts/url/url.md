@@ -1,6 +1,6 @@
 ---
 Title: 'URL'
-Description: ''
+Description: 'Refers to where a resource can be found.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'

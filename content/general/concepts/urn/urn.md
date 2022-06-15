@@ -1,6 +1,6 @@
 ---
 Title: 'URN'
-Description: ''
+Description: 'Refers to resources without disclosing any location or proof of existence.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'

@@ -24,7 +24,7 @@ The `path_string` must be a string or byte [data type](https://www.codecademy.co
 
 ## Codebyte Example
 
-The following example showcases the `.basename()` method using a Codecademy [URL](https://www.codecademy.com/resources/docs/general/url):
+The following example showcases the `.basename()` method using a Codecademy course [URL](https://www.codecademy.com/resources/docs/general/url):
 
 ```codebyte/python
 import os.path
