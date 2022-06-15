@@ -34,7 +34,7 @@ Some common format specifiers include:
 | `%f`             | float    |
 | `%s`             | string   |
 
-**Note:** `NullPointerException` will be thrown if the format is `null`. An `IllegalFormatException` will be thrown if the specifier and argument don't match or the specifier does not exist.
+**Note:** `NullPointerException` will be thrown if the format is `null`. An `IllegalFormatException` will be thrown if the specifier and argument do not match or the specifier does not exist.
 
 ## Example
 
