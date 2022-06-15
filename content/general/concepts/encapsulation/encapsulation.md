@@ -1,6 +1,6 @@
 ---
 Title: 'Encapsulation'
-Description: 'Encapsulation is one of the four principles of object-oriented programming (OOP) which emphasize modularity and hiding away of complexities in order to better maintain and reason about code.'
+Description: 'Encapsulation is one of the four principles of object-oriented programming (OOP),  and it advances the benefits of modularity and hiding away of complexities in order to better maintain and reason about code.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
