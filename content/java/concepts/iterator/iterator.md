@@ -17,11 +17,9 @@ An **iterator** is an object that allows code to step through collections. Java 
 
 
 ```pseudo
-
 Iterator value = collection.iterator()
 
 ListIterator listvalue = listcollection.listIterator()
-
 ```
 
 Collections have an `.iterator()` method that returns an `Iterator` object. List collections also have a `.listIterator()` method that return a `ListIterator` object
