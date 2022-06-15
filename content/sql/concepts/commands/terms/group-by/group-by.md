@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`GROUP BY`** command groups a result-set of rows, usually based on an [aggregate function](https://www.codecademy.com/resources/docs/sql/aggregate-functions). It lists the number in each group.
+The **`GROUP BY`** command groups a result-set of rows, usually based on an [aggregate function](https://www.codecademy.com/resources/docs/sql/aggregate-functions).
 
 ## Syntax
 
