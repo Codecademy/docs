@@ -23,7 +23,7 @@ Where `iterator` is an `Iterator` or `ListIterator` object.
 
 ## Example
 
-The following example uses an `Iterator` to traverse an `ArrayList`:
+The following example uses an `Iterator` to traverse an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list):
 
 ```java
 import java.util.*;
