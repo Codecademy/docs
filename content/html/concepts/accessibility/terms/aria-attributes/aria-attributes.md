@@ -1,6 +1,7 @@
 ---
 Title: 'ARIA Attributes'
 Description: 'Depicts the relationship between HTML elements.'
+Subjects:
   - 'Web Design'
 Tags:
   - 'Accessibility'
