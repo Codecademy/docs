@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**ARIA attributes**, or states and properties, depict the relationships between [HTML elements](https://www.codecademy.com/resources/docs/html/elements). While property attributes are meant to be _static_ and never change, state attributes are _dynamic_ and change via [JavaScript](-backed user interaction.
+**ARIA attributes**, or states and properties, depict the relationships between [HTML elements](https://www.codecademy.com/resources/docs/html/elements). While property attributes are meant to be _static_ and never change, state attributes are _dynamic_ and change via [JavaScript](https://www.codecademy.com/resources/docs/javascript)-backed user interaction.
 
 ## Resources
 
