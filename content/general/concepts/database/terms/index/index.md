@@ -27,7 +27,7 @@ Tables are indexed on their primary key columns, and many database systems requi
 Index creation can vary from database to database, but in standard [SQL](https://www.codecademy.com/resources/docs/sql) it consists of:
 
 1. Using the `CREATE INDEX` statement, followed by a name for the index.
-2. Applying the `ON` clause to the table name, followed by a list of the columns to indexed.
+2. Applying the `ON` clause to the table name, followed by a list of the columns to be indexed.
 
 In the example below, adding an index on the `region` field of a `sales` table looks like this:
 
