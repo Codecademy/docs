@@ -19,7 +19,7 @@ The **`.set()`** method replaces the current entry in the underlying collection 
 myListIterator.set(value);
 ```
 
-Where `listiterator` is a `ListIterator` object, and `value` is the object to use in replacing the current element in the underlying collection.
+Where `myListIterator` is a `ListIterator` object, and `value` is the object to use in replacing the current element in the underlying collection.
 
 ## Example
 
