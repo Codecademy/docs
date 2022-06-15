@@ -16,7 +16,7 @@ The **`.add()`** method adds an item to the underlying collection of a `ListIter
 ## Syntax
 
 ```pseudo
-listiterator.add(value);
+myListIterator.add(value);
 ```
 
 Where `listiterator` is a `ListIterator` object, and `value` is the object to add to the underlying collection.
