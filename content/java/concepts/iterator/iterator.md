@@ -15,7 +15,6 @@ An **iterator** is an object that allows code to step through collections. Java 
 
 ## Syntax
 
-An iterator is retrieved with the following syntax:
 
 ```pseudo
 
