@@ -1,6 +1,6 @@
 ---
 Title: '.format()'
-Description: 'The .format() method returns a string with additional arguments in a specifically defined format'
+Description: 'Returns a string with additional arguments in a specifically defined format.'
 Subjects:
   - 'Computer Science'
 Tags:
