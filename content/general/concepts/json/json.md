@@ -16,7 +16,7 @@ CatalogContent:
 
 **JavaScript Object Notation (JSON)** is a language-independent data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of a [JavaScript](https://www.codecademy.com/resources/docs/javascript) standard known as ([ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/). Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data.
 
-JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to use in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
+JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to be accessed in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
 
 - [Google Maps](https://developers.google.com/maps/documentation/geocoding/start)
 - [Google Auth 2.0 Authentication](https://developers.google.com/identity/protocols/oauth2/service-account)

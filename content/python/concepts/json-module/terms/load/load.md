@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.load()` function decodes a json file and returns a Python object. The decoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.loads()` function, alternatively, takes a JSON string and returns a Python object.
+The `.load()` function decodes a [JSON](https://www.codecademy.com/resources/docs/general/json) file and returns a Python object. The decoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.loads()` function, alternatively, takes a JSON string and returns a Python object.
 
 ## Syntax
 
