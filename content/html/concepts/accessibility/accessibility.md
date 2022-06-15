@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Accessibility** refers to the efforts to encourage and empower as many people to use websites, regardless of ability.
+**Accessibility** refers to efforts to encourage and empower as many people as possible to use websites, regardless of ability.
 
 ## Resources
 
