@@ -16,7 +16,7 @@ The **`.nextIndex()`** method returns the index of the next element from a `List
 ## Syntax
 
 ```pseudo
-int value = listiterator.nextIndex();
+int value = myListIterator.nextIndex();
 ```
 
 Where `listiterator` is a `ListIterator` object.
