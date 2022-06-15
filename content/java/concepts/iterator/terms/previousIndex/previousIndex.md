@@ -16,7 +16,7 @@ The **`.previousIndex()`** method returns the index of the previous element from
 ## Syntax
 
 ```pseudo
-int value = listiterator.previousIndex();
+int value = myListIterator.previousIndex();
 ```
 
 Where `listiterator` is a `ListIterator` object.
