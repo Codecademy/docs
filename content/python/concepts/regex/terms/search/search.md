@@ -1,12 +1,13 @@
 ---
 Title: 're.search()'
-Description: 'Iterates over a string to find a subset of characters that match a specified pattern.'
+Description: 'Returns the first match of a character pattern anywhere in a given string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Regular Expressions'
   - 'Strings'
+  - 'Characters'
 CatalogContent:
   - 'introduction-to-regular-expressions'
   - 'practical-data-cleaning'
@@ -14,11 +15,11 @@ CatalogContent:
   - 'text-preprocessing'
 ---
 
-Iterates over a string to find a subset of characters that match a specified pattern.
+The `.search()` method returns the first match of a character pattern anywhere in a given string.
 
 ## Syntax
 
-```py
+```pseudo
 re.search(<pattern>, string, <optional args>)
 ```
 
@@ -36,28 +37,34 @@ There are optional arguments that include the following:
 
 **Note:** `.search()` will only return the the first match (as a match object) within the string; alternatively, the `.findall()` method matches every occurrence (and returns a list of matches).
 
-## Example 1
+## Example
 
-Match all content that appears within parentheses:
+All content that appears within parentheses are matched with the `.search()` method in the example below:
 
 ```py
 import re
 
-re.search(r'\(.*\)', 'the coordinates (lat:48,lon:-120)')
+result = re.search(r"\(.*\)", "the coordinates (lat:48,lon:-120)")
 # Backslashes designate a symbol as part of the pattern
 
-# Output: <regex.Match object; span=(16, 33), match='(lat:48,lon:-120)'>
+print(result)
 ```
 
-## Example 2
+The output will look like this:
 
-A regex to match a web address:
+```shell
+<re.Match object; span=(16, 33), match="(lat:48,lon:-120)">
+```
+
+## Codebyte Example
+
+The following example features a regex that uses the `.search()` method to match a web address:
 
 ```py
 import re
 
-re.search(r'www\S+', 'the tutorials at www.codeacademy.com')
+result = re.search(r"www\S+", "the tutorials at www.codeacademy.com")
 # \S matches any character except a space, tab or newline
 
-# Output: <regex.Match object; span=(17, 36), match='www.codeacademy.com'>
+print(result)
 ```

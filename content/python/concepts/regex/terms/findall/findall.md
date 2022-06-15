@@ -1,28 +1,27 @@
 ---
 Title: 're.findall()'
-Description: 'Iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every match that occurs in a given string.'
+Description: 'Returns a list of every pattern match that occurs in a given string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
   - 'Strings'
   - 'Regular Expressions'
+  - 'Characters'
 CatalogContent:
   - 'introduction-to-regular-expressions'
-  - 'practical-data-cleaning'
-  - 'language-parsing'
-  - 'text-preprocessing'
+  - 'paths/computer-science'
 ---
 
-Iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every match that occurs in a given string.
+The `.findall()` method iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every pattern match that occurs in a given string.
 
 ## Syntax
 
-```py
+```pseudo
 re.findall(<pattern>, string)
 ```
 
-Where `<pattern>` is a [regular expression](https://www.codecademy.com/resources/docs/general/regular-expressions) that can include any of the following:
+Where `<pattern>` can include any of the following:
 
 - A string: `Jane`
 - A character class code: `/w`, `/s` , `/d`
@@ -34,35 +33,40 @@ There are optional arguments that include the following:
 - An index value to end the search (endpos): `40`
 - Flags: `IGNORECASE`, `VERBOSE`, `DOTALL`
 
-## Example 1
+## Example
 
 Match all of the times in the string:
 
 ```py
 import re
 
-movie_str = 'the evening shows start at 7:00pm and 10:15pm'
+movie_str = "the evening shows start at 7:00pm and 10:15pm"
 
-re.findall(r'([\d:,.]+)(am|pm)?', movie_str)
-
+matches = re.findall(r"([\d:,.]+)(am|pm)?", movie_str)
 # Square brackets designate a custom character class
 # Parentheses identify a group within the pattern
 
-# Output: [('7:00', 'pm'), ('10:15', 'pm')]
+print(matches)
 ```
 
-## Example 2
+This will output the following:
+
+```shell
+[("7:00", "pm"), ("10:15", "pm")]
+```
+
+## Codebyte Example
 
 A regex to match all of the email addresses within a string:
 
-```py
+```codebyte/python
 import re
 
 email_str = '''the emails are support@codecademy.com
  or help@codecademy.com'''
 
-re.findall(r'\S+@\S+', email_str)
+emails = re.findall(r"\S+@\S+", email_str)
 # \S matches any character except a space, tab or newline
 
-# Output: ['support@codecademy.com', 'help@codecademy.com']
+print(emails)
 ```

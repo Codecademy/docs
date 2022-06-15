@@ -11,7 +11,7 @@
 
 ## What stage of development are we in right now?
 
-Docs is live with about 710 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
+Docs is live with over 1000 high-quality entries. Now that the MVP is out, our goal is to transition some ownership of Docs content to the Codecademy community, since maintaining a resource of this type at-scale is only possible if it's open-contribution. That means we need your help, whether it's contributing, reviewing, or evangelizing!
 
 ### 📝 Content Team
 
@@ -40,7 +40,7 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a typo/bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Give product feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Share your thoughts in this [Codecademy Docs feedback form](https://codecademyready.typeform.com/to/hzVIWDgz) to tell us how we can improve Docs!
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 Whether you are a code newbie or a seasoned hacker, there's something for you!
