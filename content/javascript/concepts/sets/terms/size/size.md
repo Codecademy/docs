@@ -1,0 +1,34 @@
+---
+Title: '.size'
+Description: 'Returns the number of values in a set.'
+Subjects:
+  - 'Web Development'
+  - 'Computer Science'
+Tags:
+  - 'Sets'
+  - 'Objects'
+  - 'Collections'
+CatalogContent:
+  - 'introduction-to-javascript'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The **`.size`** property returns the number of values in a set as an integer.
+
+## Syntax
+
+```pseudo
+set.size;
+```
+
+No paramters are needed for the `.size` property.
+
+## Codebyte Example
+
+```codebyte/javascript
+const mySet = new Set();
+mySet.add("text");
+mySet.add(5)
+
+console.log(mySet.size);
+```
