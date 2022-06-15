@@ -5,15 +5,17 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Interface'
   - 'Tags'
+  - 'UI'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Represents a button meant to be clicked by the user.
+The **`<button>`** tag represents a [button](https://www.codecademy.com/resources/docs/uiux/button) meant to be clicked by the user.
 
-While buttons are often associated with form submission, they can be used for any part of the page which needs a simple interface for user interaction.
+While buttons are often associated with [form](https://www.codecademy.com/resources/docs/html/forms) submission, they can be used for any part of the page which needs a interface for user interaction.
 
 ## Syntax
 
@@ -25,18 +27,17 @@ While buttons are often associated with form submission, they can be used for an
 
 `<button>` is a tag that wraps around a block of HTML. By default it appears inline, like a `<span>` tag, and is styled to appear consistent with buttons on the device it is viewed on.
 
-It is possible for the content to be simple text, or other HTML elements. This can include lists, paragraphs, or even images.
+It is possible for the content to be plain text, or other HTML [elements](https://www.codecademy.com/resources/docs/html/elements). This can include [lists](https://www.codecademy.com/resources/docs/html/lists), [paragraphs](https://www.codecademy.com/resources/docs/html/paragraphs), or even [images](https://www.codecademy.com/resources/docs/html/images).
 
-## Attributes
+### Attributes
 
-There are a large number of available attributes that provide extra meaning to the browser. Listed below are a few of the common ones:
+There are a large number of available attributes that provide extra meaning to the browser. A few of the common ones are shown below:
 
-- `autofocus` will make the button automatically focused on the page.
-- `disabled` will make the button unusable.
-- `type` sets the intended behavior of the button, with common values below:
-  - `submit`: This button should submit the form it is a part of.
-  - `reset`: This button should reset the values in the form it is a part of.
-  - `button`: This button should neither submit nor reset the form it is a part of.
+|  Attribute  | Data Type | Description                                                                                                                                                                                                                                                                                                   |
+| :---------: | :-------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `autofocus` |  Boolean  | Automatically makes the button focused on the page.                                                                                                                                                                                                                                                           |
+| `disabled`  |  Boolean  | Makes the button unusable.                                                                                                                                                                                                                                                                                    |
+|   `type`    |  String   | Sets the intended behavior of the button, including:<ul><li>`submit`: This button should submit the form it is a part of.</li><li>`reset`: This button should reset the values in the form it is a part of.</li><li>`button`: This button should neither submit nor reset the form it is a part of.</li></ul> |
 
 ## Example
 

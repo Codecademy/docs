@@ -5,31 +5,42 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Form'
+  - 'HTTP'
+  - 'Input'
+  - 'Interface'
   - 'Tags'
+  - 'UI'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<form>` tag represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
+The **`<form>`** tag represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
 
 ## Syntax
 
-```html
+```pseudo
 <form>
   <!-- Form content lives here -->
 </form>
 ```
 
-`<form>` is a tag that wraps around many other tags to create the form. It also uses attributes to define where the form data goes when the form is submitted. Common attributes are:
+The `<form>` tag wraps around many other tags to create the form.
 
-- `action`, which specifies the URL to send the form data to
-- `method`, which specifies the HTTP Verb used when submitting the form (examples are GET, POST, PATCH, PUT, and DELETE)
-- `autocomplete`, which specifies if the browser autocomplete feature should be available in this form
+## Attributes
+
+Common attributes of the `<form>` tag are shown below:
+
+|   Attribute    | Data Type | Description                                                                                                                                                                                                                                                                    |
+| :------------: | :-------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    `action`    |  String   | Specifies the [URL](https://www.codecademy.com/resources/docs/general/url) to send the form data to.                                                                                                                                                                           |
+|    `method`    |  String   | Specifies the [HTTP](https://www.codecademy.com/resources/docs/general/http) verb used when submitting the form. Examples include:<ul><li><code>GET</code></li><li><code>POST</code></li><li><code>PATCH</code></li><li><code>PUT</code></li><li><code>DELETE</code></li></ul> |
+| `autocomplete` |  Boolean  | Specifies if the browser autocomplete feature should be available in this form.                                                                                                                                                                                                |
 
 ## Example
 
-Suppose that Codecademy needs a form for visitors to create a new account. Here is one possible way to build it:
+Suppose that Codecademy needs a form, with required inputs, for visitors to create a new account. Here is one possible way to build it:
 
 ```html
 <html>
@@ -40,10 +51,10 @@ Suppose that Codecademy needs a form for visitors to create a new account. Here 
     <!-- This form will send the email and password to https://codecademy.com/sign-up using a POST request -->
     <form action="https://codecademy.com/sign-up" method="POST">
       <label>Email Address</label>
-      <input name="user_email" type="email" />
+      <input name="user_email" type="email" required />
 
       <label>Password</label>
-      <input name="user_password" type="password" />
+      <input name="user_password" type="password" required />
 
       <!-- Clicking a button with type submit will submit the form it is inside of -->
       <button type="submit">Submit</button>

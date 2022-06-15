@@ -1,21 +1,22 @@
 ---
 Title: '<br>'
-Description: 'Represents a break in text. This tag is used when text needs to span multiple lines rather than being in-line, such as an address. '
+Description: 'Represents a break in text and used when text needs to span multiple lines rather than being in-line, such as an address.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Elements'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Represents a break in text. This tag is used when text needs to span multiple lines rather than being in-line, such as an address.
+The **`<br>`** tag represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as an address.
 
 ## Syntax
 
-```html
+```pseudo
 Text that will appear on one line.<br />Text that will appear on the next line.
 ```
 
@@ -23,7 +24,7 @@ The `<br>` tag will move the text after it to a new line.
 
 ## Example
 
-Suppose there is an address that needs to be shown to the user so that they may mail a payment. It is important that the address is formatted in the standard way, to prevent confusion
+In the example below, text for an address is contained in a single `<p>` element. If the address were to be printed on a label, it should be formatted in a standard way to avoid confusion. This is done with self-closing `<br>` tags:
 
 ```html
 <html>

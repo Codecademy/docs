@@ -1,6 +1,6 @@
 ---
 Title: 'Lists'
-Description: 'The  list item element create list items inside: - Ordered lists  - Unordered lists  The ordered list  element creates a list of items in sequential order. html  Preheat oven to 325 F 👩‍🍳'
+Description: 'The list item element create list items inside: - Ordered lists  - Unordered lists  The ordered list  element creates a list of items in sequential order. html  Preheat oven to 325 F 👩‍🍳'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,48 +12,16 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<li>` list item element create list items inside:
+In HTML, **lists** are used to group pieces of related data together in a certain format. List items are represented by the [`<li>`](https://www.codecademy.com/resources/docs/html/tags/li) tag while the lists themselves are represented by the following:
 
-- Ordered lists `<ol>`
-- Unordered lists `<ul>`
+- [Ordered lists](https://www.codecademy.com/resources/docs/html/tags/ol) with items preceded by numbers.
+- [Unordered lists](https://www.codecademy.com/resources/docs/html/tags/ul) with items preceded by dots by default.
+- Unordered [menus](https://www.codecademy.com/resources/docs/html/tags/menu) with more semantic meaning than `<ul>` and user-interactive list items.
+- [Definition lists](https://www.codecademy.com/resources/docs/html/tags/dl) with [terms](https://www.codecademy.com/resources/docs/html/tags/dt) and [details](https://www.codecademy.com/resources/docs/html/tags/dd).
 
-## `<ol>` Ordered List Element
+## Nesting Lists
 
-The ordered list `<ol>` element creates a list of items in sequential order.
-
-```html
-<ol>
-  <li>Preheat oven to 325 F 👩‍🍳</li>
-  <li>Drop cookie dough 🍪</li>
-  <li>Bake for 15 min ⏰</li>
-</ol>
-```
-
-Each list item appears numbered by default:
-
-1. Preheat oven to 325 F 👩‍🍳
-2. Drop cookie dough 🍪
-3. Bake for 15 min ⏰
-
-## `<ul>` Unordered List Element
-
-The unordered list `<ul>` element is used to create a list of items in no particular order.
-
-```html
-<ul>
-  <li>Play more music 🎸</li>
-  <li>Read more books 📚</li>
-</ul>
-```
-
-Each individual list item will have a bullet point by default:
-
-- Play more music 🎸
-- Read more books 📚
-
-## Nesting Lists Elements
-
-Lists can be nested, meaning one list can be placed inside of another.
+Lists can be nested, meaning one list of one kind can be placed inside another list of another kind:
 
 ```html
 <ol>
@@ -71,8 +39,4 @@ Lists can be nested, meaning one list can be placed inside of another.
 
 This way, multilevel lists can be created with different indentations.
 
-1. Fruits
-   - Apples 🍎
-   - Oranges 🍊
-2. Vegetables
-   - Tomatoes 🍅
+![Rendered nested lists example](https://raw.githubusercontent.com/Codecademy/docs/main/media/nested-lists-example.png)

@@ -5,13 +5,14 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Lists'
   - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Represents a single item in a list of items. It and the other list items must be wrapped in an `<ol>`, `<ul>`, or `<menu>` tag.
+The **`<li>`** tag represents a single [list](https://www.codecademy.com/resources/docs/html/lists) item. This tag must be wrapped in an `<ol>`, `<ul>`, or `<menu>` tag.
 
 ## Syntax
 
@@ -19,28 +20,34 @@ Represents a single item in a list of items. It and the other list items must be
 <li>Text for list item</li>
 ```
 
-`<li>` is a tag that requires content between it and its closing tag. It can contain any valid HTML, and each `<li>` tag will be indented and preceded either with a number (for ordered lists), or a dot (for unordered lists and menus).
+Content is required to be between the opening and closing `<li>` tags. It can hold any valid HTML, and each `<li>` tag will be indented and preceded either with a number (for ordered lists), or a dot (for unordered lists and menus).
 
 ## Example
 
 ```html
+<!DOCTYPE html>
 <html>
   <head> </head>
   <body>
     <h3>My Favorite Things</h3>
-    <ol>
+    <ul>
       <li>Rain drops on roses</li>
       <li>Whiskers on kittens</li>
       <li>Bright copper kettles</li>
       <li>Warm woolen mittens</li>
+    </ul>
+
+    <h3>To-do List</h3>
+    <ol>
+      <li>Make bed</li>
+      <li>Brush teeth</li>
+      <li>Have breakfast</li>
+      <li>Continue learning HTML</li>
     </ol>
   </body>
 </html>
 ```
 
-The `<ol>` creates an ordered list. The content from each `<li>` tag will have a number before it:
+This will output the following;
 
-1. Rain drops on roses
-2. Whiskers on kittens
-3. Bright copper kettles
-4. Warm wollen mittens
+![Rendered <li> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/li-tag-example.png)

@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<nav>` is used to define a block of navigation links such as menus and tables of contents.
+The `<nav>` is used to define a [list](https://www.codecademy.com/resources/docs/html/lists) of [navigation](https://www.codecademy.com/resources/docs/uiux/navigation) links such as menus and tables of contents.
 
 ## Syntax
 

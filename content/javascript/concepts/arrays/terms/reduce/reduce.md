@@ -1,70 +1,67 @@
 ---
 Title: '.reduce()'
-Description: 'Combines each element of an array, using a reducer function you specify, and returns a single value.'
+Description: 'Combines each element of an array, using a specified reducer function, and returns a single value.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Arrays'
+  - 'Functions'
   - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.reduce()` array method combines each element of an array, using a reducer function you specify, and returns a single value.
+The **`.reduce()`** method combines each element of an array, using a specified reducer function, and returns a single value.
 
 ## Syntax
 
-```js
+```pseudo
 array.reduce((accumulator, currentValue, index, array) => {...}, initialValue)
 ```
 
-The reducer function takes four arguments:
+`.reduce()` takes two arguments:
 
-- `accumulator` is the returned value from the function.
-- `currentValue` is the element being iterated over.
-- `index` (optional) is the index of the `currentValue`.
-- `array` (optional) is the array the `.reduce()` was called on.
+- The first, is the reducer function that performs the reduction operation and takes four arguments:
+  - `accumulator` is the returned value from the function.
+  - `currentValue` is the element being iterated over.
+  - `index` (optional) is the index of the `currentValue`.
+  - `array` (optional) is the array the `.reduce()` was called on.
+- The second (optional) argument is an `initialValue` to pass to the function.
 
 The `accumulator`'s value accumulates with each iteration through the array, resulting in a single value.
 
-`.reduce()` takes two arguments:
-
-- The first, is the reducer function that performs the reduction operation.
-- The second (optional) argument is an initial value to pass to the function.
-
-For example:
+## Example
 
 ```js
-array.reduce((acc, curr) => acc + curr, 10);
+const arrayOne = ['a', 'b', 'c', 'd', 'e'];
+
+// Add strings in an array.
+console.log(
+  'Adding strings:',
+  arrayOne.reduce((acc, curr) => acc + curr)
+);
+
+// Add the values of each element together with an initial value.
+const arrayTwo = ['b', 'c', 'd', 'e'];
+
+console.log(
+  'Adding with initial value:',
+  arrayTwo.reduce((acc, curr) => acc + curr, 'a')
+);
 ```
 
-## Example 1
+This will yield the following output:
 
-Add strings in an array.
-
-```js
-const a = ['a', 'b', 'c', 'd', 'e'];
-
-console.log(a.reduce((acc, curr) => acc + curr));
-// Output: 'abcde'
+```shell
+Adding strings: abcde
+Adding with initial value: abcde
 ```
 
-## Example 2
+## Codebyte Example
 
-Add the values of each element together with an initial value.
-
-```js
-const a = ['b', 'c', 'd', 'e'];
-
-console.log(a.reduce((acc, curr) => acc + curr, 'a'));
-// Output: 'abcde'
-```
-
-## Example 3
-
-Subtract numbers in an array with initial value provided:
+The following example uses `.reduce()` to subtract numbers in an `expenses` array from the initial `monthlyBudget` provided:
 
 ```js
 const monthlyBudget = 3000;
@@ -73,5 +70,4 @@ const expenses = [300, 200, 454, 225, 1200];
 bankBalance = expenses.reduce((acc, curr) => acc - curr, monthlyBudget);
 
 console.log(bankBalance);
-// Output: 621
 ```

@@ -6,13 +6,14 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
+  - 'Functions'
   - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the first index at which an element can be found. Returns `-1` if element is not found.
+The **`.indexOf()`** method returns the first index at which an element can be found. Returns `-1` if element is not found.
 
 ## Syntax
 

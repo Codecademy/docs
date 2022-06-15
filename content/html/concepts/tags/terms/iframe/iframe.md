@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.
+The **`<iframe>`** tag represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.
 
 ## Syntax
 
-```html
+```pseudo
 <iframe></iframe>
 ```
 
@@ -35,8 +35,16 @@ Additional attributes set security policies (using `csp` or `referrerpolicy` att
   <body>
     <h1>This text is from the current webpage</h1>
 
-    <!-- This will add https://codecademy.com to the current page in an embedded frame -->
-    <iframe height="300" width="300" src="https://codecademy.com"></iframe>
+    <!-- This will add https://www.codecademy.com/learn to the current page in an embedded frame -->
+    <iframe
+      height="300"
+      width="300"
+      src="https://www.codecademy.com/learn"
+    ></iframe>
   </body>
 </html>
 ```
+
+This will render the following output:
+
+![Rendered <iframe> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/i-frame-tag-example.png)

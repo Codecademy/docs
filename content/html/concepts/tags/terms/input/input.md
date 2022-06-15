@@ -1,17 +1,21 @@
 ---
 Title: '<input>'
-Description: 'Creates an interactive element, usually used within a form to allow user input. Can be used to make text boxes, color pickers, date pickers, and more.'
+Description: 'Creates an interactive element, usually used within a form to allow user input. It can be used to make text boxes, color pickers, date pickers, and other UI elements.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Form'
+  - 'Input'
+  - 'Interface'
   - 'Tags'
+  - 'UI'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Creates an interactive element, usually used within a form to allow user input. Can be used to make text boxes, color pickers, date pickers, and more.
+The **`<input>`** tag creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input. It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements.
 
 ## Syntax
 
@@ -19,27 +23,27 @@ Creates an interactive element, usually used within a form to allow user input. 
 <input />
 ```
 
-`<input>` is a tag that has no closing tag, meaning that it cannot have tags inside of it. It uses attributes to set properties, some common attributes are:
+`<input>` is a tag that has no closing tag, meaning that it cannot have tags inside of it.
 
-- `type`: represents the input type, common values include
-  - `text`: creates a single-line text box
-  - `email`: creates a single-line text box that can validate email addresses
-  - `password`: creates a single-line text box that hides the input from view
-  - `checkbox`: creates a box that can be selected/deselected
-  - `radio`: creates a radio button allowing a user to select one choice from many options
-  - `number`: creates a text box that accepts numeric inputs only
-  - `range`: creates a slider that can accept values from a certain range
-  - `date`: creates a calendar picker to choose a date
-  - `time`: creates a text field for entering valid times
-  - `file`: creates a button that allows the user to send a file with the other form data
-  - `submit`: creates a button to submit a form
-- `autocomplete`: allows the browser to help the user fill in the field with previously typed data
-- `minlength` and `maxlength`: set the minimum and maximum length of the text, email, password inputs
-- `min` and `max`: set the minimum and maximum values for numeric inputs, ranges, dates, and times
-- `disabled`: marks the input field so that it will not accept input
-- `checked`: used with radio buttons to indicate which one is currently selected, and checkboxes to indicate if it is currently checked
+### Attributes
+
+Some common attributes used to set properties for the `<input>` tag are are shown below:
+
+|   Attribute    |   Data Type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| :------------: | :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `autocomplete` |    String     | Allows the browser to help the user fill in the field with previously typed data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|   `checked`    |    Boolean    | Used with radio buttons to indicate which one is currently selected, and checkboxes to indicate if it is currently checked.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   `disabled`   |    Boolean    | Marks the input field so that it will not accept input.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|     `max`      | Number/String | Sets the maximum value for numeric inputs, ranges, dates, and times.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|     `min`      | Number/String | Sets the minimum value for numeric inputs, ranges, dates, and times.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|  `maxlength`   |    Integer    | Sets the maximum length of text, email, and password inputs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|  `minlength`   |    Integer    | Sets the minimum length of text, email, and password inputs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|   `required`   |    Boolean    | Specifies that the field must include a value. Can be written as `required="true"` or as just `required`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|     `type`     |    String     | Represents the input type, including common values like:<ul><li>`text`: Creates a single-line text box.</li><li>`email`: Creates a single-line text box that can validate email addresses.</li><li>`password`: Creates a single-line text box that hides the input from view.</li><li>`checkbox`: Creates a box that can be selected/deselected.</li><li>`radio`: creates a radio button allowing a user to select one choice from many options.</li><li>`number`: Creates a text box that accepts numeric inputs only.</li><li>`range`: Creates a slider that can accept values from a certain range.</li><li>`date`: Creates a calendar picker to choose a date.</li><li>`time`: Creates a text field for entering valid times.</li><li>`file`: Creates a button that allows the user to send a file with the other form data.</li><li>`submit`: Creates a button to submit a form.</li></ul> |
 
 ## Example
+
+The following examples uses a `<form>` element that features `<input>` tags:
 
 ```html
 <html>
@@ -73,3 +77,5 @@ Creates an interactive element, usually used within a form to allow user input. 
   </body>
 </html>
 ```
+
+![Rendered <input> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/input-tag-example.png)
