@@ -1,6 +1,6 @@
 ---
 Title: 'Glob Module'
-Description: 'The glob module locates any and all pathnames matching a specific pattern, per Unix shell rules. '
+Description: 'The glob module locates any and all pathnames matching a specific pattern, per Unix shell rules.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
