@@ -19,7 +19,7 @@ The **`.add()`** method adds an item to the underlying collection of a `ListIter
 myListIterator.add(value);
 ```
 
-Where `listiterator` is a `ListIterator` object, and `value` is the object to add to the underlying collection.
+Where `myListIterator` is a `ListIterator` object, and `value` is the object to add to the underlying collection.
 
 ## Example
 
