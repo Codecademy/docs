@@ -66,7 +66,7 @@ This executes a file's inner `__main__` environment variable, which then runs th
 
 ### More on `__main__`
 
-Any time a `.py` file is run and interpreted, certain variables are set up and linked with the file. This includes `__main__` environment variable, which is assigned as the file's `__name__` variable. All Python programs feature these variables, which can be verified the following example:
+Any time a `.py` file is run and interpreted, certain variables are set up and linked with the file. This includes `__main__` environment variable, which is assigned as the file's `__name__` variable. All Python programs feature these variables, which can be verified as in the following example:
 
 ```py
 # example.py
