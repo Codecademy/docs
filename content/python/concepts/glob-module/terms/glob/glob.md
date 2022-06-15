@@ -1,6 +1,6 @@
 ---
 Title: '.glob()'
-Description: ''
+Description: 'Returns a list of possible matches for a pathname string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
