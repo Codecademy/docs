@@ -12,6 +12,6 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-SQL operates through declarative statements featuring **commands**. This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.
+SQL operates through declarative statements featuring **commands**.
 
 Here’s an appendix of commonly used commands.
