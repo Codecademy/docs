@@ -34,5 +34,5 @@ console.log(mySet);
 
 mySet.add(1);
 console.log(mySet)
-// Still, Set { 1, 'text' } because 1 is already in the set
+// Still, Set(2) { 1, 'text' } because 1 is already in the set
 ```
