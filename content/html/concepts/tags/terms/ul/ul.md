@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<ul>`** tag represents an unordred list of items.
+The **`<ul>`** element represents an unordered list of items.
 
 ## Syntax
 
