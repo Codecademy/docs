@@ -21,7 +21,7 @@ The **`.clear()`** method deletes all values from a `Set` and returns `undefined
 set.clear();
 ```
 
-No paramters are needed for the `.clear()` method.
+No parameters are needed for the `.clear()` method.
 
 ## Codebyte Example
 
