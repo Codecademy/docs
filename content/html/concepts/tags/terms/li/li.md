@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<li>`** tag represents a single [list](https://www.codecademy.com/resources/docs/html/lists) item. This tag must be wrapped in an `<ol>`, `<ul>`, or `<menu>` tag.
+The **`<li>`** element represents a single [list](https://www.codecademy.com/resources/docs/html/lists) item. This element must be wrapped in an `<ol>`, `<ul>`, or `<menu>` element.
 
 ## Syntax
 
