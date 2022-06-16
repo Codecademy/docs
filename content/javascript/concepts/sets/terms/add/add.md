@@ -18,7 +18,7 @@ The **`.add()`** method inserts a value into a `Set` (if it is unique) and retur
 ## Syntax
 
 ```pseudo
-set.add(value)
+set.add(value);
 ```
 
 The `value` in `set` is unique and of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
