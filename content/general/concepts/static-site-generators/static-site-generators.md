@@ -14,9 +14,9 @@ CatalogContent:
 
 A **static site generator (SSG)** is a tool used to render webpages on a server at build time, prior to when a client makes a request.
 
-## Evolution of webpage rendering
+## Evolution of Webpage Rendering
 
-In the early days of the web, websites were served as static pages, typically in the form of simple HTML files. A client would make a request to a server and in return, receive a set of unchanging (i.e., static) resources. Any visible changes to the site would need to be made by manually editing the HTML living on the server.
+In the early days of the web, websites were served as static pages, usually in the form of multiple [HTML](https://www.codecademy.com/resources/docs/html) files. A client would make a request to a server and in return, receive a set of unchanging (i.e., _static_) resources. Any visible changes to the site would need to be made by manually editing the HTML living on the server.
 
 However, as the web evolved, websites were no longer limited to providing static content. **[Server-side rendering](https://www.codecademy.com/resources/docs/general/server-side-rendering) (SSR)** was adopted and allowed for content to be “customized” dynamically. **Content Management Systems (CMSs)**, such as WordPress and Drupal, employ an SSR approach and were introduced in response to the growing amount of content that needed to be maintained.
 
