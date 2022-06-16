@@ -28,7 +28,7 @@ No parameters are needed for the `.clear()` method.
 ```codebyte/javascript
 const mySet = new Set();
 mySet.add("text");
-mySet.add(5)
+mySet.add(5);
 
 mySet.clear();
 
