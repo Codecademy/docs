@@ -21,7 +21,7 @@ The **`.size`** property returns the number of values in a `Set` as an integer.
 set.size;
 ```
 
-No paramters are needed for the `.size` property.
+No parameters are needed for the `.size` property.
 
 ## Codebyte Example
 
