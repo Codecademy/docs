@@ -39,7 +39,7 @@ return rangeIterator;
 }
 ```
 
-When whitespace is used, it is easier to read.
+When whitespace is used, the code is much more readable:
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
