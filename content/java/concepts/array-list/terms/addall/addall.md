@@ -59,7 +59,7 @@ public class testAddAll {
     System.out.println(list2);
 
     // Add second ArrayList to first ArrayList at index 3
-    list1.addAll(3,list2);
+    list1.addAll(3, list2);
 
     // Print the combined ArrayList
     System.out.println("List 1 + List 2:");
