@@ -23,7 +23,7 @@ The **`<input>`** tag creates an interactive element, usually used within a [for
 <input />
 ```
 
-`<input>` is a tag that has no closing tag, meaning that it cannot have tags inside of it.
+`<input>` is a element that has no closing tag, meaning that it cannot have elements inside of it.
 
 ### Attributes
 
