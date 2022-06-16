@@ -11,23 +11,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.format()` method returns a string with additional arguments in a specifically defined format.
+The **`.format()`** method returns a string with additional arguments in a specifically defined format.
 
 ## Syntax
 
 ```pseudo
-string.format(String str, ...args)
+string.format(String str, ...args);
 ```
 
 - `str` is of type `String` and includes a **format specifier**.
 - `args` is an optional argument which can be of any data type to be returned with the first string argument.
 
-## Format Specifiers
+### Format Specifiers
 
 Some common format specifiers include:
 
 | Format Specifier | Type     |
-| ---------------- | -------- |
+| :----------------: | :--------: |
 | `%b`             | boolean  |
 | `%c`             | char     |
 | `%d`             | integer  |
