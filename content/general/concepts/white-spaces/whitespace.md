@@ -7,6 +7,7 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Formatting'
+  - 'Typography'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
