@@ -48,5 +48,5 @@ An interesting usage of `Set` is that we can use it to filter out duplicate valu
 ```codebyte/javascript
 const duplicateArray = [1, 2, 1, 5, 1, 7, 2, 1, 8, 1];
 const uniqueArray = [...new Set(duplicateArray)];
-console.log(uniqueArray) // [1, 2, 5, 7, 8]
+console.log(uniqueArray);
 ```
