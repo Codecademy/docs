@@ -1,6 +1,6 @@
 ---
 Title: 'Lists'
-Description: 'The list item element create list items inside: - Ordered lists  - Unordered lists  The ordered list  element creates a list of items in sequential order. html  Preheat oven to 325 F 👩‍🍳'
+Description: 'In HTML, lists are used to group pieces of related data together in a certain format.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
