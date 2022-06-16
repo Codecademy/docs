@@ -17,7 +17,7 @@ A `Set` is an object in JavaScript that is a collection of unique values.
 
 ## Syntax
 
-```js
+```pseudo
 const mySet = new Set();
 ```
 
