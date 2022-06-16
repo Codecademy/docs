@@ -1,6 +1,6 @@
 ---
 Title: 'Whitespace'
-Description: 'Whitespace is spaces and blank lines in programing.'
+Description: 'Whitespace uses horizontal and vertical space characters or blank lines to format code and improve readability.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
