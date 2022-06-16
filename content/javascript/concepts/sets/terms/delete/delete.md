@@ -1,6 +1,6 @@
 ---
 Title: '.delete()'
-Description: 'Removes the specified value from the set and returns a boolean indicating whether or not the deletion was successful.'
+Description: 'Removes the specified value from the Set and returns a boolean indicating whether or not the deletion was successful.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.delete()`** method removes a specified value from the set and returns a boolean indicating whether or not the deletion was successful.
+The **`.delete()`** method removes a specified value from the `Set` and returns a boolean indicating whether or not the deletion was successful.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ The **`.delete()`** method removes a specified value from the set and returns a 
 set.delete(value);
 ```
 
-The `value` in the `set` is unique and of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
+The `value` is of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
 
 ## Codebyte Example
 

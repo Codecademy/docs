@@ -1,6 +1,6 @@
 ---
 Title: '.size'
-Description: 'Returns the number of values in a set.'
+Description: 'Returns the number of values in a Set.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.size`** property returns the number of values in a set as an integer.
+The **`.size`** property returns the number of values in a `Set` as an integer.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 ---
 Title: '.has()'
-Description: 'Checks whether a value exists in a given set and returns either true or false.'
+Description: 'Checks whether a value exists in a given Set and returns either true or false.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.has()`** method checks whether a value exists in a given set and returns either `true` or `false`.
+The **`.has()`** method checks whether a value exists in a given `Set` and returns either `true` or `false`.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ The **`.has()`** method checks whether a value exists in a given set and returns
 set.has(value);
 ```
 
-The `value` in the `set` is unique and of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
+The `value` is of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
 
 ## Codebyte Example
 

@@ -1,6 +1,6 @@
 ---
 Title: '.add()'
-Description: 'Inserts a value into a set (if it is unique) and returns the updated Set object.'
+Description: 'Inserts a value into a Set (if it is unique) and returns the updated Set object.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -21,7 +21,7 @@ The **`.add()`** method inserts a value into a `Set` (if it is unique) and retur
 set.add(value)
 ```
 
-The `value` in the `set` is unique and of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
+The `value` in `set` is unique and of a valid [data type](https://www.codecademy.com/resources/docs/javascript/data-types).
 
 ## Codebyte Example
 
