@@ -33,6 +33,6 @@ mySet.add("text");
 console.log(mySet);
 
 mySet.add(1);
-console.log(mySet)
+console.log(mySet);
 // Still, Set(2) { 1, 'text' } because 1 is already in the set
 ```
