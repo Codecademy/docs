@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<button>`** tag represents a [button](https://www.codecademy.com/resources/docs/uiux/button) meant to be clicked by the user.
+The **`<button>`** element represents a [button](https://www.codecademy.com/resources/docs/uiux/button) meant to be clicked by the user.
 
 While buttons are often associated with [form](https://www.codecademy.com/resources/docs/html/forms) submission, they can be used for any part of the page which needs a interface for user interaction.
 
