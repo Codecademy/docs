@@ -1,6 +1,6 @@
 ---
 Title: '<menu>'
-Description: ''
+Description: 'Represents an unordered list of items with more semantic meaning than a regular ul element.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
