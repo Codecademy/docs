@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Whitespace** is spaces or blank lines in programming. Whitespace is used to format code to improve its readability. 
+In programming, **whitespace** uses horizontal and vertical space characters or blank liens to format code and improve readability.
 
 ## Example
 
