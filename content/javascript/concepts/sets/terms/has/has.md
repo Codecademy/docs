@@ -31,5 +31,5 @@ mySet.add("text");
 mySet.add(5)
 
 console.log(mySet.has(5));
-console.log(mySet.has("5"))
+console.log(mySet.has("5"));
 ```
