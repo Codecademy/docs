@@ -17,7 +17,7 @@ In programming, **whitespace** uses horizontal and vertical space characters or 
 
 ## Example
 
-The below code is hard to read since it has no gaps and it also does not have indention with spaces so people can not easily see what is nested within what.
+The code example below is hard to read since there is little to no whitespace. It also does not have indention with spaces so people can not easily see what is nested within what.
 
 ```js
 function createRangeIterator(min = 0, max = Infinity, step = 1) {
