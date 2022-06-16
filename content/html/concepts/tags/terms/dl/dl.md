@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<dl>`** tag is a description list that displays terms and details, commonly for metadata purposes.
+The **`<dl>`** element is a description list that displays terms and details, commonly for metadata purposes.
 
 ## Syntax
 
