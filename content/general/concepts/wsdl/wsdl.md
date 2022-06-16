@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Data Structures'
   - 'Development'
-  - 'Tags'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
