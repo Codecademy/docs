@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<form>`** tag represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
+The **`<form>`** element represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.
 
 ## Syntax
 
