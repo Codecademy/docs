@@ -32,5 +32,4 @@ mySet.add(5);
 
 console.log(mySet);
 console.log(mySet.delete(5), ",", mySet);
-// Output: true, Set(1) { 'text' }
 ```
