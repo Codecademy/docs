@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In programming, **whitespace** uses horizontal and vertical space characters or blank liens to format code and improve readability.
+In programming, **whitespace** uses horizontal and vertical space characters or blank lines to format code and improve readability.
 
 ## Example
 
