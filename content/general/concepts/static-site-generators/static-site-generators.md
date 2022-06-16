@@ -20,7 +20,7 @@ In the early days of the web, websites were served as static pages, usually in t
 
 However, as the web evolved, websites were no longer limited to providing static content. **[Server-side rendering](https://www.codecademy.com/resources/docs/general/server-side-rendering) (SSR)** was adopted and allowed for content to be “customized” dynamically. **Content Management Systems (CMSs)**, such as WordPress and Drupal, employ an SSR approach and were introduced in response to the growing amount of content that needed to be maintained.
 
-## How SSGs differ from CMSs
+## How SSGs Differ from CMSs
 
 Static site generation is a concept that leverages the benefits of static pages and CMSs. Like CMSs, the content (data) and the structure (templates) are decoupled, but instead of the server generating the page at the time of a request, the page is pre-rendered at build time. The page can now be served as a static file in response to a client request, eliminating the time associated with generating the page on demand.
 
