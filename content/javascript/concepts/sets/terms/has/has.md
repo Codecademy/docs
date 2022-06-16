@@ -28,7 +28,7 @@ The `value` is of a valid [data type](https://www.codecademy.com/resources/docs/
 ```codebyte/javascript
 const mySet = new Set();
 mySet.add("text");
-mySet.add(5)
+mySet.add(5);
 
 console.log(mySet.has(5));
 console.log(mySet.has("5"));
