@@ -28,7 +28,7 @@ No parameters are needed for the `.size` property.
 ```codebyte/javascript
 const mySet = new Set();
 mySet.add("text");
-mySet.add(5)
+mySet.add(5);
 
 console.log(mySet.size);
 ```
