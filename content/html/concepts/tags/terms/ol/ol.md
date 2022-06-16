@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<ol>`** tag represents an ordered list of items.
+The **`<ol>`** element represents an ordered list of items.
 
 ## Syntax
 
