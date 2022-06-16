@@ -15,11 +15,11 @@ CatalogContent:
 
 An iterator is an object that implements the iteration protocols. Many built-in data types ([strings](https://www.codecademy.com/resources/docs/javascript/strings), [arrays](https://www.codecademy.com/resources/docs/javascript/arrays), [maps](https://www.codecademy.com/resources/docs/javascript/map), [sets](https://www.codecademy.com/resources/docs/javascript/sets), etc.) have an iterator property that make them iterable.
 
-## Iterable Objects and Iterator Protocols
+## Iterable and Iterator Protocols
 
-All iterable objects implement the `@@iterator` method. In other words, an object must have or inherit, via its prototype chain, the `@@iterator` property key. When an object is to be iterated, the `@@iterator` method is called without any arguments, and the returned iterator obtains the values or elements to be looped through.
+The **iterable protocol** stipulates that all iterable objects implement the `@@iterator` method. In other words, an object must have or inherit, via its prototype chain, the `@@iterator` property key. When an object is to be iterated, the `@@iterator` method is called without any arguments, and the returned iterator obtains the values or elements to be looped over.
 
-The iterator protocol, by definition, implements the `next()` method and returns an object with at least two properties:
+The **iterator protocol**, by definition, implements the `next()` method and returns an object with at least two properties:
 
 - `done` is a boolean that determines whether the sequence has been completed or consumed. If incomplete, its value is `false`. Otherwise, it is `true`.
 - `value` is any type of value the iterator returns.
