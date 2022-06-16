@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.add()`** method inserts a value into a set (if it is unique) and returns the updated `Set` object.
+The **`.add()`** method inserts a value into a `Set` (if it is unique) and returns the updated `Set` object.
 
 ## Syntax
 
