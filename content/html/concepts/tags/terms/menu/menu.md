@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<menu>`** tag represents an unordred list of items with more semantic meaning than a regular `<ul>` tag.
+The **`<menu>`** element represents an unordered list of items with more semantic meaning than a regular `<ul>` element.
 
 ## Syntax
 
