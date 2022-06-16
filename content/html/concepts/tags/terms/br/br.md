@@ -1,6 +1,6 @@
 ---
 Title: '<br>'
-Description: 'Represents a break in text and used when text needs to span multiple lines rather than being in-line, such as an address.'
+Description: 'Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
