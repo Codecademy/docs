@@ -1,6 +1,6 @@
 ---
 Title: '<ol>'
-Description: ''
+Description: 'Represents an ordered list of items.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
