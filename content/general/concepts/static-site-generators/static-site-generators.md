@@ -6,7 +6,6 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Static Site'
-  - 'Static Site Generator'
   - 'Server-Side Rendering'
 CatalogContent:
   - 'paths/computer-science'
@@ -14,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-A **static site generator (SSG)** is a tool used to render web pages on a server _at build time_, prior to when a client makes a request.
+A **static site generator (SSG)** is a tool used to render web pages on a server at build time, prior to when a client makes a request.
 
 ## Evolution of webpage rendering
 
@@ -28,7 +27,7 @@ Static site generation is a concept that leverages the benefits of static pages 
 
 ## Examples of SSGs
 
-Some commonly used SSGs include Jekyll, Hugo, Gatsby, and [Next.js](https://www.codecademy.com/resources/docs/general/next-js). Visit [staticgen.com](http://staticgen.com) for a comprehensive list of SSGs available in different languages.
+Some commonly used SSGs include Jekyll, Hugo, Gatsby, and [Next.js](https://www.codecademy.com/resources/docs/general/next-js). A comprehensive list of SSGs available in different languages is available at [staticgen.com](http://staticgen.com).
 
 ## Benefits of SSGs
 

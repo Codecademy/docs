@@ -238,7 +238,6 @@ Spread
 SQLite
 Stacks
 Static Site
-Static Site Generator
 Statistics
 Stringr
 Strings
