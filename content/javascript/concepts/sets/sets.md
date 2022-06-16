@@ -23,7 +23,7 @@ const mySet = new Set();
 
 A `Set` object can be created with the `Set()` constructor function.
 
-## Initializing with iterable objects
+## Initializing With Iterable Objects
 
 Sets can also be created with [iterators](https://www.codecademy.com/resources/docs/javascript/iterators) passed to the `Set()` constructor, as shown below:
 
