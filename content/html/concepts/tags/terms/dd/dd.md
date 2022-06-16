@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<dd>`** tag describes details found inside a `<dl>` tag. It usually comes with at least one corresponding `<dt>` term tag.
+The **`<dd>`** element describes details found inside a `<dl>` element. It usually comes with at least one corresponding `<dt>` term element.
 
 ## Syntax
 
