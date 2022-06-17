@@ -31,4 +31,4 @@ The font tag has 3 attributes but only 1 is required but you can have any comben
   <font face="verdana">This text is in verdana font</font>
 ```
     
-![Output of the font tag example](https://raw.githubusercontent.com/Codecademy/docs/main/content/font-tag-example.png)
+![Output of the font tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-tag-example.png)
