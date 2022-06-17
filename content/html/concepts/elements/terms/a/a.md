@@ -18,7 +18,7 @@ The **`<a>`** element, also known as the "anchor" element, creates a link to ano
 
 ## Syntax
 
-```html
+```pseudo
 <a href="url">Displayed Text</a>
 ```
 
@@ -26,15 +26,20 @@ The following attributes are commonly used in the `<a>` element:
 
 - `href`, which represents the [URL](https://www.codecademy.com/resources/docs/general/url) that the link points to.
 - `target`, which represents where to open and display the URL stored in the `href`.
+- `rel`, which describes the link type of for the element such as `"noopener"` and `"noreferrer"` when adding browser safeguards to links.
 
 ## Example
 
-The following example shows a list of [links](https://www.codecademy.com/resources/docs/html/links) that utilize the `<a>` tag:
+The following example shows a list of [links](https://www.codecademy.com/resources/docs/html/links) that utilize the `<a>` element:
 
 ```html
 <ul>
   <!-- External Link -->
-  <li><a href="https://codecademy.com" target="_blank">Codecademy</a></li>
+  <li>
+    <a href="https://codecademy.com" target="_blank" rel="noreferrer noopener"
+      >Codecademy</a
+    >
+  </li>
 
   <!-- Internal Link -->
   <li><a href="#about-us">About Us</a></li>
