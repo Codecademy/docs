@@ -25,14 +25,10 @@ The font tag has 3 attributes but only 1 is required but you can have any comben
   
 ## Example
   
-<!-- prettier-ignore-start -->
-  
 ```html
   <font color="pink">This text is pink</font>
   <font size="5">This size is 5</font>
   <font face="verdana">This text is in verdana font</font>
 ```
-  
-<!-- prettier-ignore-end -->
-  
+    
 ![Output of the font tag example](https://raw.githubusercontent.com/Codecademy/docs/main/content/font-tag-example.png)
