@@ -1,6 +1,6 @@
 ---
 Title: '<font>'
-Description: 'Used to be used to set the font of text. This is now deprecated.'
+Description: 'Used to be used to set the font characteristics of a text. This is now deprecated.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
