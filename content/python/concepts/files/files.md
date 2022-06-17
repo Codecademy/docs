@@ -20,7 +20,7 @@ Handling files is a common feature that many languages use to work with the comp
 
 1. Open (or create) the file.
 2. Perform operations on the file, such as reading or writing to it.
-3. Close the file to its resources are freed.
+3. Close the file to free up any resources used.
 
 ## Example
 

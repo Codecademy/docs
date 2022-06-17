@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-A database **index** is a data structure that improves the speed of data retrieval in the database. Indexes on a table consist of one or more columns of ordered data with links back to specific rows in a table.
+A database **index** is a data structure that improves the speed of data retrieval in the database. Indexes on a table consist of one or more columns of ordered data with links to specific rows in a table.
 
 By matching the values in the index, the database management system can quickly retrieve the corresponding row without having to search every row in the table.
 
