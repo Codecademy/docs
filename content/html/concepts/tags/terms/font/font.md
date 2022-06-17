@@ -1,6 +1,6 @@
 ---
 Title: '<font>'
-Description: 'The font tag used to be used to set the font of text.'
+Description: 'Used to be used to set the font of text. This is now deprecated.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
