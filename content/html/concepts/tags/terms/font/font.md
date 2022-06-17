@@ -1,6 +1,6 @@
 ---
-Title: '<b>'
-Description: 'Used to draw attention to a section of text, usually rendered in boldface.'
+Title: '<font>'
+Description: 'The font tag used to be used to set the font of text.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
