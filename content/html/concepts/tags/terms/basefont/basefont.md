@@ -13,7 +13,8 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<basefont>`** tag was used to set the font of a whole webpage. It is not used any more in favor of the [CSS](https://www.codecademy.com/resources/docs/css) [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property instead because the `<basefont>` tag is now deprecated. To set the font of specific parts of the webpage the [`<font>`](https://www.codecademy.com/resources/docs/html/tags/font) would be used in comebnation of the `<basefont>` tag.
+The **`<basefont>`** tag was used to set the font of a whole webpage. It is not used any more in favor of the [CSS](https://www.codecademy.com/resources/docs/css) [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property instead because the `<basefont>` tag is now deprecated. To set the font of specific parts of the webpage the [`<font>`](https://www.codecademy.com/resources/docs/html/tags/font) would be used in combination of the `<basefont>` tag.
+
 
 ## Syntax
 
