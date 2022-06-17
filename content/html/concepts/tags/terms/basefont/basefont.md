@@ -38,4 +38,4 @@ The tag must be a child of the [head](https://www.codecademy.com/resources/docs/
 </html>
 ```
 
-![Output of the font tag example]()
+![Output of the basefont tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/basefont-tag-example.png)
