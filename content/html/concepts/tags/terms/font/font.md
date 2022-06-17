@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
   
-The `<font>` tag was used to set the font of text. It is not used any more in favor of the [CSS](https://www.codecademy.com/resources/docs/css) property  [`font`](https://www.codecademy.com/resources/docs/css/typography/font-family) instead because the `<font>` tag is now depricated.
+The `<font>` tag was used to set the font of text. It is not used any more in favor of the [CSS](https://www.codecademy.com/resources/docs/css) [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property instead because the `<font>` tag is now deprecated.
 
 ## Syntax
   
