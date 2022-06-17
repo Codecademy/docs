@@ -17,7 +17,7 @@ The `<font>` tag was used to set the font of text. It is not used any more in fa
 
 ## Syntax
   
-The font tag has 3 attributes but only 1 is required but you can have any combenation of them.
+Any combination of the following three attributes could be used in the `<font>` tag, with at least one being required:
   
 * `color`: What [color](https://www.codecademy.com/resources/docs/css/colors) the font/text should be. The color can be set to a named [color], hexadecimal or rgb.
 * `face`: What font the text should be. For example to have the text be `verdana` the `face` attibute would be like this `face="verdana"`
