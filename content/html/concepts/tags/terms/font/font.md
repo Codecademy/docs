@@ -26,9 +26,9 @@ Any combination of the following three attributes could be used in the `<font>` 
 ## Example
 
 ```html
-<font color="pink">This text is pink</font>
-<font size="5">This size is 5</font>
-<font face="verdana">This text is in verdana font</font>
+  <font color="pink">This text is pink</font>
+  <font size="5">This size is 5</font>
+  <font face="verdana">This text is in verdana font</font>
 ```
 
 ![Output of the font tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-tag-example.png)
