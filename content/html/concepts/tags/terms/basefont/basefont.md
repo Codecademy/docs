@@ -21,8 +21,7 @@ The **`<basefont>`** tag was used to set the font of a whole webpage. It is not 
 The tag must be a child of the [head](https://www.codecademy.com/resources/docs/html/tags/head) tag. Any combination of the following three attributes could be used in the `<font>` tag, with at least one being required:
 
 - `color`: What [color](https://www.codecademy.com/resources/docs/css/colors) the font/text should be. The color can be set to a named [color], hexadecimal or RGB.
-
-- `face`: What font the text should be. For example to have the text be `verdana` the `face` attribute would be like this `face="verdana"`
+- `face`: What font the text should be. For example to have the text be `verdana` the `face` attribute would be like this `face="verdana"`.
 - `size`: Sets the size of the font/text. It can use absolute units ranging from 1-7. Absolute units are used by `size="5"` or any other number 1-7.
 
 ## Example
