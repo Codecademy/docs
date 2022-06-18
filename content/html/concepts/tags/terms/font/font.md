@@ -17,7 +17,7 @@ The **`<font>`** tag was used to set the font characteristics of a text. It is n
 
 ## Syntax
 
-Any combination of the following three attributes could be used in the `<font>` tag, at least any one attribute is required:
+At least one of the following three attributes is required for the `<font>`. However any combination of them can be used:
 
 - `color`: What [color](https://www.codecademy.com/resources/docs/css/colors) the font/text should be. The color can be set to a named `color`, hexadecimal or RGB.
 - `face`: What font the text should be. For example, to have the text be `verdana`, the `face` attribute would be set to `face="verdana"`.
