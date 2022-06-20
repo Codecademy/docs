@@ -52,3 +52,15 @@ The example code block shows an input field that is required. The attribute can 
 ```html
 <input type="password" name="password" required />
 ```
+
+## Forms Backend
+
+You can use a [static website forms](https://fabform.io) backend to save your form submissions like so
+
+```
+<form action="https://fabform.io/f/{form-id}" method="post">
+ <label for="email">Your Email</label>
+ <input name="email" type="email">
+ <button type="submit">Submit</button> 
+</form>
+```
