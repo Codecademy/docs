@@ -88,6 +88,7 @@ A breakdown of response status codes is shown below.
 | 400         | Bad Request  | Invalid request based on client-side error (invalid syntax, URL, etc.). |
 | 401         | Unauthorized | Invalid client credentials, such as an API key.                         |
 | 404         | Not Found    | Server couldn't find resource (e.g. invalid URL).                       |
+| 408         | Request Timeout    | The request is taking too long to finish.                       |
 
 ### Server Errors
 
