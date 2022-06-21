@@ -17,21 +17,21 @@ Endianness is a description of the order bytes are stored in memory for multi-by
 ## Example
 
 To store the 32-bit integer `0x0A0B0C0D` it is broken down into four bytes `0x0A`,`0x0B`,`0x0C`,`0x0D`. The endianness of the computer system defines in what order these bytes are stored in memory. The following examples show it stored at memory address `0xFFF0` for both big- and little-endian systems.
+
 ### Big-endian
 
-| Address | Value |
-|---------|-------|
-|`0xFFF0` |`0x0A` |
-|`0xFFF1` |`0x0B` |
-|`0xFFF2` |`0x0C` |
-|`0xFFF3` |`0x0D` |
-
+| Address  | Value  |
+| -------- | ------ |
+| `0xFFF0` | `0x0A` |
+| `0xFFF1` | `0x0B` |
+| `0xFFF2` | `0x0C` |
+| `0xFFF3` | `0x0D` |
 
 ### Little-endian
 
-| Address | Value |
-|---------|-------|
-|`0xFFF0` |`0x0D` |
-|`0xFFF1` |`0x0C` |
-|`0xFFF2` |`0x0B` |
-|`0xFFF3` |`0x0A` |
+| Address  | Value  |
+| -------- | ------ |
+| `0xFFF0` | `0x0D` |
+| `0xFFF1` | `0x0C` |
+| `0xFFF2` | `0x0B` |
+| `0xFFF3` | `0x0A` |
