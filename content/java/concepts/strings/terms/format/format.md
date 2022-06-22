@@ -24,13 +24,13 @@ string.format(String str, ...args);
 
 Some common format specifiers include:
 
-| Format Specifier | Type     |
-| :----------------: | :--------: |
-| `%b`             | boolean  |
-| `%c`             | char     |
-| `%d`             | integer  |
-| `%f`             | float    |
-| `%s`             | string   |
+| Format Specifier |  Type   |
+| :--------------: | :-----: |
+|       `%b`       | boolean |
+|       `%c`       |  char   |
+|       `%d`       | integer |
+|       `%f`       |  float  |
+|       `%s`       | string  |
 
 See Java's similar [`.printf()`](https://www.codecademy.com/resources/docs/java/output/printf) method for more information on format specifiers.
 
