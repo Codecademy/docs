@@ -22,8 +22,6 @@ string.format(String str, ...args);
 - `str` is of type `String` and includes a **format specifier**.
 - `args` is an optional argument which can be of any data type to be returned with the first string argument.
 
-### Format Specifiers
-
 Some common format specifiers include:
 
 | Format Specifier | Type     |
@@ -33,6 +31,8 @@ Some common format specifiers include:
 | `%d`             | integer  |
 | `%f`             | float    |
 | `%s`             | string   |
+
+See Java's similar [`.printf()`](https://www.codecademy.com/resources/docs/java/output/printf) method for more information on format specifiers.
 
 **Note:** `NullPointerException` will be thrown if the format is `null`. An `IllegalFormatException` will be thrown if the specifier and argument do not match or the specifier does not exist.
 
