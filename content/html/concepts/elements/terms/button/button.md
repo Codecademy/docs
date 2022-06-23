@@ -16,7 +16,7 @@ CatalogContent:
 
 The **`<button>`** element represents a [button](https://www.codecademy.com/resources/docs/uiux/button) meant to be clicked by the user.
 
-While buttons are often associated with [form](https://www.codecademy.com/resources/docs/html/forms) submission, they can be used for any part of the page which needs a interface for user interaction.
+While buttons are often associated with [form](https://www.codecademy.com/resources/docs/html/forms) submission, they can be used for any part of the page which needs an interface for user interaction.
 
 ## Syntax
 
@@ -26,9 +26,9 @@ While buttons are often associated with [form](https://www.codecademy.com/resour
 </button>
 ```
 
-`<button>` is a tag that wraps around a block of HTML. By default it appears inline, like a `<span>` tag, and is styled to appear consistent with buttons on the device it is viewed on.
+Opening and closing `<button>` tags wrap around a block of content. By default, it appears inline, like a [`<span>`](https://www.codecademy.com/resources/docs/html/elements/span) element, and is styled to appear consistent with buttons on the device it is viewed on.
 
-It is possible for the content to be plain text, or other HTML [elements](https://www.codecademy.com/resources/docs/html/elements). This can include [lists](https://www.codecademy.com/resources/docs/html/lists), [paragraphs](https://www.codecademy.com/resources/docs/html/paragraphs), or even [images](https://www.codecademy.com/resources/docs/html/images).
+It is possible for the content to be plain text or other HTML [elements](https://www.codecademy.com/resources/docs/html/elements). This can include [lists](https://www.codecademy.com/resources/docs/html/lists), [paragraphs](https://www.codecademy.com/resources/docs/html/paragraphs), or even [images](https://www.codecademy.com/resources/docs/html/images).
 
 ### Attributes
 

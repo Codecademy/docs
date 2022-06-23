@@ -30,7 +30,7 @@ The **`<video>`** element represents an interface for adding video content to th
 </video>
 ```
 
-The `<video>` element may include [`<source>`](https://www.codecademy.com/resources/docs/html/elements/source) elements and fallback text. It may also use attributes to convey intention, some common ones are below:
+The `<video>` element may include [`<source>`](https://www.codecademy.com/resources/docs/html/elements/source) elements and fallback text. It may also use attributes to convey intention. Some common ones are below:
 
 - `autoplay`: If this attribute is present the video will play automatically.
 - `controls`: If this attribute is present the video will have an overlay allowing the user to control the video.

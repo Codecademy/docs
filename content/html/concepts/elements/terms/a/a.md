@@ -26,7 +26,7 @@ The following attributes are commonly used in the `<a>` element:
 
 - `href`, which represents the [URL](https://www.codecademy.com/resources/docs/general/url) that the link points to.
 - `target`, which represents where to open and display the URL stored in the `href`.
-- `rel`, which describes the link type of for the element such as `"noopener"` and `"noreferrer"` when adding browser safeguards to links.
+- `rel`, which describes the link type of for the element (e.g., using `"noopener"` and `"noreferrer"` when adding browser safeguards to links).
 
 ## Example
 

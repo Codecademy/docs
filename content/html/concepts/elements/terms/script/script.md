@@ -35,7 +35,7 @@ The `<script>` element is allowed to be placed both into the `<head>` and `<body
 
 ## Example
 
-This example demonstrates the multiple places where a `<script>` element may live, and how execution is affected their location and attributes:
+This example demonstrates the multiple places where a `<script>` element may live, and how execution affects their location and attributes:
 
 ```html
 <html>

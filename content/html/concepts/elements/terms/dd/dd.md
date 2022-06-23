@@ -1,6 +1,6 @@
 ---
 Title: '<dd>'
-Description: 'Describes details found inside a <dl> element. It usually comes with at least one correspoinding <dt> term tag.'
+Description: 'Describes details found inside a <dl> element. It usually comes with at least one corresponding <dt> term tag.'
 Subjects:
   - 'Web Development'
   - 'Web Design'

@@ -63,7 +63,7 @@ Adding with initial value: abcde
 
 The following example uses `.reduce()` to subtract numbers in an `expenses` array from the initial `monthlyBudget` provided:
 
-```js
+```codebyte/javascript
 const monthlyBudget = 3000;
 const expenses = [300, 200, 454, 225, 1200];
 

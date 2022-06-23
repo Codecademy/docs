@@ -53,7 +53,7 @@ To only serve higher resolution images to certain devices with higher resolution
 />
 ```
 
-**Note**: `srcset` is intended only to serve the same image at different resolutions. This is to save bandwidth by providing higher-quality images only to the devices that can support it. To serve different images for other uses, such as for artistic direction or to support cutting-edge filetypes such as AVIF and WebP, it is best to use the [`<picture>`](https://www.codecademy.com/resources/docs/html/elements/picture) element. `<picture>` elements are a collection of `<source>` elements ordered in terms of preference with an `<img>` element as fallback. For example, to prefer to serve an `AVIF` image, that falls back to a `WebP` image if that is not supported, and finally resort to a `JPEG` image if neither of those are available, use the following `<picture>` element:
+**Note**: `srcset` is intended only to serve the same image at different resolutions. This is to save bandwidth by providing higher-quality images only to the devices that can support it. To serve different images for other uses, such as for artistic direction or to support cutting-edge filetypes such as AVIF and WebP, it is best to use the [`<picture>`](https://www.codecademy.com/resources/docs/html/elements/picture) element. `<picture>` elements are a collection of `<source>` elements ordered in terms of preference with an `<img>` element as a fallback. For example, to prefer to serve an `AVIF` image, that falls back to a `WebP` image if that is not supported, and finally, resort to a `JPEG` image if neither of those is available, use the following `<picture>` element:
 
 ```html
 <picture>
