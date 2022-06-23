@@ -20,9 +20,9 @@ The **`<basefont>`** tag was used to set the default font characteristics for th
 
 The tag must be a child of the [head](https://www.codecademy.com/resources/docs/html/tags/head) tag. Any combination of the following three attributes could be used in the `<font>` tag, with at least one being required:
 
-- `color`: What [color](https://www.codecademy.com/resources/docs/css/colors) the font/text should be. The color can be set to a named [color], hexadecimal or RGB.
-- `face`: What font the text should be. For example, to have the text be `verdana`, the `face` attribute would be set to `face="verdana"`.
-- `size`: Sets the size of the font/text. It can use absolute units ranging from 1-7. Absolute units are used by `size="5"` or any other number 1-7.
+- `color`: Sets the [color](https://www.codecademy.com/resources/docs/css/colors) for the font/text using a named color, hexadecimal, or RGB.
+- `face`: Sets the font for the text (e.g., `face="verdana"`).
+- `size`: Sets the size of the font/text using absolute units ranging from 1-7 (e.g., `size="5"`).
 
 ## Example
 
