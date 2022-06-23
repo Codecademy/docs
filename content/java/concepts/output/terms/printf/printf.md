@@ -60,7 +60,7 @@ The elements in square brackets (`[...]`) are optional.
 
 The `t` time/date character is followed by one of the following characters to extract parts of a datetime value:
 
-- `T`: Time, hh:mm:ss.
+- `T`: Time in hh:mm:ss format.
 - `H`: Hour.
 - `M`: Minute.
 - `S`: Second.
