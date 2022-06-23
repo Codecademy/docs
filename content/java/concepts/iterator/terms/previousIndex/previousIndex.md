@@ -50,7 +50,6 @@ public class Example {
     }
 
     // Loop back through ArrayList contents
-
     while(i.hasPrevious()) {
       int index = i.previousIndex();
       Object item = i.previous();
