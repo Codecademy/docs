@@ -1,6 +1,6 @@
 ---
 Title: '.previousIndex()'
-Description: 'Returns the index of previous element from a ListIterator object.'
+Description: 'Returns the index of the previous element from a ListIterator object.'
 Subjects:
   - 'Computer Science'
 Tags:
