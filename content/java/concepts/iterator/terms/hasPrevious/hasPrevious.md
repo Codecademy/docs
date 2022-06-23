@@ -43,7 +43,6 @@ public class Example {
     ListIterator i = l.listIterator();
 
     // Loop through ArrayList contents
-
     while(i.hasNext()) {
       Object item = i.next();
       System.out.print(item + ", ");
