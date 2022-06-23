@@ -21,7 +21,7 @@ Grace Hopper began her career in service in the United States Navy Reserve, and 
 
 ## Contributions
 
-While the actual phrase "phrase" wasn't coined by her, Grace Hopper and her team notably discovered an actual bug, a moth, stuck inside the computer and impacting its performance. They later documented this to be the "[f]irst actual case of a bug being found":
+While the actual phrase wasn't coined by her, Grace Hopper and her team notably discovered an actual bug, a moth, stuck inside the computer and impacting its performance. They later documented this to be the "[f]irst actual case of a bug being found":
 
 ![Bug found by Grace Hopper and her team.](https://raw.githubusercontent.com/Codecademy/docs/main/media/grace_hopper_bug.png)
 
