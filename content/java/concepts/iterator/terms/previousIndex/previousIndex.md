@@ -43,7 +43,6 @@ public class Example {
     ListIterator i = l.listIterator();
 
     // Loop through ArrayList contents
-
     while(i.hasNext()) {
       int index = i.nextIndex();
       Object item = i.next();
