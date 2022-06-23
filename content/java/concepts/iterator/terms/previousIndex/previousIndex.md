@@ -55,7 +55,6 @@ public class Example {
       Object item = i.previous();
       System.out.println(index + ": " + item);
     }
-
   }
 }
 ```
