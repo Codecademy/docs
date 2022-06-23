@@ -51,7 +51,6 @@ public class Example {
     System.out.println();
 
     // Loop back through ArrayList contents
-
     while(i.hasPrevious()) {
       Object item = i.previous();
       System.out.print(item + ", ");
