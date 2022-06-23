@@ -34,7 +34,7 @@ The elements in square brackets (`[...]`) are optional.
 
 `flags` can contain one or more of the following characters:
 
-- `-`: Left-justify. (Right-justify is the default.)
+- `-`: Left-justify. Defaults to right-justify.
 - `+`: For numerical values display a leading `+` or `-`.
 - `0`: Zero-pad numerical values. (Blank padding is the default.)
 - `,`: Use a comma grouping separator for numerical values. (i.e. 1,000,000.)
