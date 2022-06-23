@@ -23,7 +23,7 @@ Where `myListIterator` is a `ListIterator` object.
 
 ## Example
 
-The following example uses an `ListIterator` to traverse an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then traverse it back in the opposite direction printing the indices of each item:
+The following example uses a `ListIterator` to traverse an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) and then traverse it back in the opposite direction, printing the indices of each item:
 
 ```java
 import java.util.*;
