@@ -26,7 +26,7 @@ In 2008, Swartz published an essay called _Guerilla Open Access Manifesto_, whic
 
 ## United States v. Aaron Swartz
 
-In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting to the campus network in an unlocked closet, to massive download academic journal articles.
+In 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting to the campus network in an unlocked closet, to mass download academic journal articles.
 
 Federal prosecutors later charged him with wire fraud and violations of the Computer Fraud and Abuse Act, carrying a maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, and supervised release.
 

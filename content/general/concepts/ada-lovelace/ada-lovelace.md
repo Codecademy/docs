@@ -1,6 +1,6 @@
 ---
 Title: 'Ada Lovelace'
-Description: 'Ada Lovelace was an English writer and mathematician and is often considered to be the first computer programmer. Lovelace is known for her work on Charles Babbages Analytical Engine, the first programmable general-purpose computer.'
+Description: 'Ada Lovelace was an English writer and mathematician and is often considered to be the first computer programmer. Lovelace is known for her work on the first programmable general-purpose computer.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
