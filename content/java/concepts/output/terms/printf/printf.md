@@ -74,7 +74,7 @@ The `t` time/date character is followed by one of the following characters to ex
 - `d`: Two digit day of the month.
 - `B`: Full month name.
 - `m`: Two-digit month.
-- `Y`: Four-digit year
+- `Y`: Four-digit year.
 - `y`: Last two digits of year.
 
 ## Example
