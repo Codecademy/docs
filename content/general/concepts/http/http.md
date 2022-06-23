@@ -16,7 +16,7 @@ CatalogContent:
 
 Hypertext Transfer Protocol (HTTP) is used for fetching [HTML](https://www.codecademy.com/resources/docs/html) documents and other web-based resources. It follows a model where a client (most commonly a browser) requests content stored on a server.
 
-## HTTP/HTTPS
+## HTTPS
 
 Instead of HTTP, a more secure version, HTTPS, should be used in order to encrypt information sent between the client and server. This encryption is done with Transport Layer Security (or TLS, formerly [SSL](https://www.codecademy.com/resources/docs/general/ssl)). Some benefits of HTTPS include:
 
@@ -83,12 +83,12 @@ A breakdown of response status codes is shown below.
 
 ### Client Errors
 
-| Status Code | Name         | Description                                                             |
-| ----------- | ------------ | ----------------------------------------------------------------------- |
-| 400         | Bad Request  | Invalid request based on client-side error (invalid syntax, URL, etc.). |
-| 401         | Unauthorized | Invalid client credentials, such as an API key.                         |
-| 404         | Not Found    | Server couldn't find resource (e.g. invalid URL).                       |
-| 408         | Request Timeout    | The request is taking too long to finish.                       |
+| Status Code | Name            | Description                                                             |
+| ----------- | --------------- | ----------------------------------------------------------------------- |
+| 400         | Bad Request     | Invalid request based on client-side error (invalid syntax, URL, etc.). |
+| 401         | Unauthorized    | Invalid client credentials, such as an API key.                         |
+| 404         | Not Found       | Server couldn't find resource (e.g. invalid URL).                       |
+| 408         | Request Timeout | The request is taking too long to finish.                               |
 
 ### Server Errors
 
