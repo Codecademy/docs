@@ -1,6 +1,6 @@
 ---
 Title: '.set()'
-Description: 'Replaces current entry in the underlying collection of a ListIterator object.'
+Description: 'Replaces the current entry in the underlying collection of a ListIterator object.'
 Subjects:
   - 'Computer Science'
 Tags:
