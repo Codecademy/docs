@@ -46,7 +46,6 @@ public class Example {
     ListIterator i = l.listIterator();
 
     // Loop through ArrayList contents
-
     while(i.hasNext()) {
       int item = (Integer) i.next();
       i.set(item * 2);
