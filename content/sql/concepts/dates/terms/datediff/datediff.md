@@ -1,29 +1,30 @@
 ---
 Title: 'DATEDIFF()'
-Description: 'Calculates the difference between two date values.'
+Description: 'Calculates the difference between two date values. Available in SQL Server and MySQL.'
 Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
   - 'Queries'
-  - 'PostgreSQL'
   - 'MySQL'
-  - 'SQLite'
+  - 'SQL Server'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/design-databases-with-postgresql'
 ---
 
-The `DATEDIFF()` function calculates the difference between two date values.
+`DATEDIFF()` is a function found in SQL Server and MySQL that calculates the difference between two date values.
 
-## Syntax
+## SQL Server Syntax
+
+The `DATEFIFF()` function in SQL Server has three parameters:
 
 ```pseudo
 DATEDIFF(datePart, date1, date2)
 ```
 
-- `date1` and `date2` are the dates to compare.
+- `date1` and `date2` are the dates to compare. Follows the 'yyyy/mm/dd' format.
 - `datePart` is the part of the date to return. It can be one of the following formats:
   - Year: year, yyyy, yy
   - Quarter: quarter, qq, q
@@ -37,10 +38,32 @@ DATEDIFF(datePart, date1, date2)
   - Day of Year: dayofyear
   - Day: day, dy, y
 
-## Example
+### Example 1
 
-The following example calculates the difference between `2020/05/18` and `2022/05/18` in the `month` format:
+The following example calculates the difference in months between `2020/05/18` and `2022/05/18`:
 
 ```sql
 SELECT DATEDIFF(month, '2020/05/18', '2022/05/18'); /* Output: 24 */
+```
+
+### Example 2
+
+The following example calculates the difference in seconds between `2021/09/30 08:22:04` and `2021/09/30 08:25:06`:
+
+```sql
+SELECT DATEDIFF(second, '2021/09/30 08:22:04', '2021/09/30 08:25:06'); /* Output: 182 */
+```
+
+## MySQL Syntax
+
+MySQL only requires two date parameters in the `DATEDIFF()` and will return the number of days between `date1` and `date2`.
+
+```pseudo
+DATEDIFF(date1, date2)
+```
+
+### Example
+
+```sql
+SELECT DATEDIFF("2019-07-05", "2018-12-24"); /* Output: 193 */
 ```

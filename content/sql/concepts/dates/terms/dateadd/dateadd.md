@@ -1,0 +1,102 @@
+---
+Title: 'DATEADD()'
+Description: 'Adds a time or date interval to a specified date and returns it.'
+Subjects:
+  - 'Data Science'
+Tags:
+  - 'Database'
+  - 'Queries'
+  - 'PostgreSQL'
+  - 'MySQL'
+  - 'SQLite'
+CatalogContent:
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+  - 'paths/design-databases-with-postgresql'
+---
+
+The `DATEADD()` function in SQL Server and `DATE_ADD()` in MySQL adds a time or date interval to a specified date and returns it.
+
+## SQL Server Syntax
+
+The `DATEADD()` function in SQL Server has three parameters:
+
+```pseudo
+DATEADD(interval, amount, date)
+```
+
+- `date` is the date being added to.
+- `amount` is the amount of `interval` to add to `date`. A negative amount subtracts the interval from the date.
+- `interval` is the date or time interval to add to `date`. It can be one of the following formats:
+  - Year: year, yyyy, yy
+  - Quarter: quarter, qq, q
+  - Week: week, ww, wk
+  - Weekday: weekday, dw, w
+  - Second: second, ss, s
+  - Month: month, mm, m
+  - Minute: minute, mi, n
+  - Millisecond: millisecond, ms
+  - Hour: hour, hh
+  - Day of Year: dayofyear
+  - Day: day, dy, y
+
+### Example 1
+
+The following example adds `10` to the `month` position of `2022/06/22`:
+
+```sql
+SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
+```
+
+### Example 2
+
+The following example adds `28` to the seconds interval of `1990/08/25 04:23:10`:
+
+```sql
+SELECT DATEADD(second, 28, '1990/08/25 04:23:10'); /* Output: 1990-08-25 04:23:38.000 */
+```
+
+### Example 3
+
+Using a negative `amount` subtracts the `interval` from the `date`. The following example subtracts `24` years from `2022/12/07`:
+
+```sql
+SELECT DATEADD(year, -24, '2022/12/07'); /* Output: 1998-12-07 00:00:00.000 */
+```
+
+## MySQL Syntax
+
+The `DATE_ADD()` function in MySQL has the following syntax:
+
+```pseudo
+DATE_ADD(date, INTERVAL value unit)
+```
+
+- `date` is the date being added to.
+- `value` is the amount of the `unit` to add to `date`. A negative value subtracts the amount from the `date`.
+- `unit` can be one of the following:
+  - YEAR, SECOND, MONTH, MINUTE, HOUR, DAY
+
+### Example 1
+
+The following example adds `37` to the `DAY` part of `2002-10-31`:
+
+```sql
+SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY); /* Output: 2002-12-07 */
+```
+
+### Example 2
+
+The following example adds `30` to the `MINUTE` part of `2002-10-31 10:35:02`:
+
+```sql
+SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE); /* Output: 2002-10-31 11:05:02 */
+```
+
+### Example 3
+
+Using a negative `value` subtracts the specified amount from the `date`. The following example subtracts `4` months from `2000-03-15`:
+
+```sql
+SELECT DATE_ADD("2000-03-15", INTERVAL -4 MONTH); /* Output: 1999-11-15 */
+```
