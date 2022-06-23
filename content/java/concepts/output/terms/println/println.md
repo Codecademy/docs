@@ -30,13 +30,12 @@ The following example prints some content to the console.
 import java.io.*;
 
 public class printExample {
-  public static void main(String[] args)
-    {
-      System.out.println("Output");
-      System.out.println(123.456);
-      System.out.println(true);
-    }
+  public static void main(String[] args) {
+    System.out.println("Output");
+    System.out.println(123.456);
+    System.out.println(true);
   }
+}
 ```
 
 This results in the output:
