@@ -48,7 +48,7 @@ SELECT DATEDIFF(month, '2020/05/18', '2022/05/18'); /* Output: 24 */
 
 ### Example 2
 
-The following example calculates the difference in seconds between `2021/09/30 08:22:04` and `2021/09/30 08:25:06`:
+The following example returns the difference in seconds between `2021/09/30 08:22:04` and `2021/09/30 08:25:06`:
 
 ```sql
 SELECT DATEDIFF(second, '2021/09/30 08:22:04', '2021/09/30 08:25:06'); /* Output: 182 */
@@ -63,6 +63,8 @@ DATEDIFF(date1, date2)
 ```
 
 ### Example
+
+The following example returns the difference in days between `2019-07-05` and `2018-12-24`:
 
 ```sql
 SELECT DATEDIFF("2019-07-05", "2018-12-24"); /* Output: 193 */
