@@ -21,7 +21,7 @@ Iterator value = collection.iterator()
 ListIterator listvalue = listcollection.listIterator()
 ```
 
-Collections have an `.iterator()` method that returns an `Iterator` object. List collections also have a `.listIterator()` method that return a `ListIterator` object
+Collections have an `.iterator()` method that returns an `Iterator` object. List collections also have a `.listIterator()` method that return a `ListIterator` object.
 
 ## Example
 
