@@ -86,14 +86,13 @@ import java.io.*;
 import java.util.*;
 
 public class printExample {
-  public static void main(String[] args)
-    {
-      System.out.printf("This is a string: '%10s'%n", "Output");
-      System.out.printf("This is a float: %+.2f%n", 123.456);
-      Date date = new Date();
-      System.out.printf("This is a date: %1$tA, %1$tB %1$td %1$tY %n",date);
-    }
+  public static void main(String[] args) {
+    System.out.printf("This is a string: '%10s'%n", "Output");
+    System.out.printf("This is a float: %+.2f%n", 123.456);
+    Date date = new Date();
+    System.out.printf("This is a date: %1$tA, %1$tB %1$td %1$tY %n", date);
   }
+}
 ```
 
 This will produce the following output (with the current date):
