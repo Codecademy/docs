@@ -85,7 +85,7 @@ The following example uses `.printf()` to format various types of output.
 import java.io.*;
 import java.util.*;
 
-public class printExample {
+public class PrintExample {
   public static void main(String[] args) {
     System.out.printf("This is a string: '%10s'%n", "Output");
     System.out.printf("This is a float: %+.2f%n", 123.456);
