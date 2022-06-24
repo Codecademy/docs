@@ -17,7 +17,7 @@ The `.println()` method prints its argument to the console follwed by a new line
 ## Syntax
 
 ```pseudo
-System.out.println(argument)
+System.out.println(argument);
 ```
 
 The `argument` will be displayed on the console, followed by a new line.
