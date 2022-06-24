@@ -20,7 +20,7 @@ The `.printf()` method prints output to the console with the use of various form
 System.out.printf(formatstring, arg1, arg2, ... argN)
 ```
 
-Where `formatstring` is a string containing various format commands defining how to print an arbitrary number of additional arguments, `arg1 ... argN`. The format string contains text which is rendered as it appears in the string and format specifiers that output an argument in a specified format.
+Where `formatstring` is a string containing various format commands defining how to print an arbitrary number of additional arguments, `arg1, arg2, ... argN`. The format string contains text which is rendered as it appears in the string and format specifiers that output an argument in a specified format.
 
 ### Format Specifiers
 
