@@ -82,7 +82,6 @@ The `t` time/date character is followed by one of the following characters to ex
 The following example uses `.printf()` to format various types of output.
 
 ```java
-import java.io.*;
 import java.util.*;
 
 public class PrintExample {
