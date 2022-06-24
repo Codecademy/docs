@@ -24,11 +24,9 @@ The `argument` passed to the `print()` method will be displayed on the console.
 
 ## Example
 
-The following example prints some content to the console.
+The following example prints some content to the console (Note: if there is to be any spacing between uses of `.print()` it must be accounted for in the arguments.):
 
 ```java
-import java.io.*;
-
 Public class printExample {
   public static void main(String[] args) {
     System.out.print("Output");
