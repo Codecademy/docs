@@ -17,10 +17,9 @@ Big-O notation is a form of measuring the complexity of an algorithm. This can t
 
 Here are some common runtimes:
 
-<img title="a title" alt="Alt text" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/Big-O_Graph.png">
+<img title="a title" alt="Alt text" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/Big-O_Graph.png" width="500"/>
 
-- Exponential time: If the time is an exponential function of the input size.
-  - Brute-force search.
+
 - Polynomial time: If the time is a power of the input size.
   - Bubble sort has quadratic time complexity.
 - Linear time: If the time is proportional to the input size.
@@ -30,28 +29,18 @@ Here are some common runtimes:
 - Constant time: If the time needed by the algorithm is the same, regardless of the input size.
   - An access to an array element.
 
-## Example of an Algorithm
+## Simplifying Big-O Expressions
 
-This is a sorting algorithm implemented in Python:
+When determining an expression that charecterizes the time or space complexity of an algorithm, you may find that your expression contains multiple terms. For example: O(n) + O(ln(n)). In this situation, it is best practice to drop all of the lower order terms so the big-O notation would simplify into just O(n).
 
-```py
-# Python implementation of Bubble Sort
+## Python Big-O Practice
 
-def bubbleSort(_array):
-  n = len(_array)
-
-  for i in range(n-1):
-    for j in range(0, n-i-1):
-      if _array[j] > _array[j + 1]:
-        _array[j], _array[j + 1] = _array[j + 1], _array[j]
-
-_array = [3, 9, 12, 12, 100, 90]
-
-bubbleSort(_array)
-
-print ("Print sorted data:")
-
-for i in range(len(_array)):
-  print("% d" % _array[i]),
+```
+# Example function
+def foo(items):
+    for item in items:
+        for item2 in items:
+            print(item, ' ' ,item)
 ```
 
+Big-O Notation: $O(n^{2})$
