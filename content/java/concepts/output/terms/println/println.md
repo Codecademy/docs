@@ -20,7 +20,7 @@ The `.println()` method prints its argument to the console follwed by a new line
 System.out.println(argument)
 ```
 
-`argument` will be displayed on the console, followed by a new line.
+The `argument` will be displayed on the console, followed by a new line.
 
 ## Example
 
