@@ -1,19 +1,16 @@
 ---
-
 Title: 'Structures'
 Description: 'A structure is a collection that can be used to group different types of data together.'
 Subjects:
-
-- 'Code Foundations'
-- 'Computer Science'
-  Tags:
-- 'Arrays'
-- 'Lists'
-- 'Variable Types'
-  CatalogContent:
-- 'learn-c'
-- 'paths/computer-science'
-
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Arrays'
+  - 'Lists'
+  - 'Variable Types'
+CatalogContent:
+  - 'learn-c'
+  - 'paths/computer-science'
 ---
 
 A structure is a collection that can be used to group different types of data together. It is defined using the `struct` keyword.
