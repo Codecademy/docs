@@ -37,10 +37,10 @@ When determining an expression that charecterizes the time or space complexity o
 
 ```
 # Example function
-def foo(items):
-    for item in items:
-        for item2 in items:
-            print(item, ' ' ,item)
+def foo(list1, list2):
+    for item in list1:
+        for item2 in list2:
+            print("*")
 ```
 
 Big-O Notation: $O(n^{2})$
