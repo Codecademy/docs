@@ -17,7 +17,7 @@ The `.print()` method prints its argument to the console. Unlike the similar [`.
 ## Syntax
 
 ```pseudo
-System.out.print(argument)
+System.out.print(argument);
 ```
 
 The `argument` passed to the `print()` method will be displayed on the console.
