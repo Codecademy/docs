@@ -58,7 +58,7 @@ The elements in square brackets (`[...]`) are optional.
 - `n`: Newline character, platform specific.
 - `s`: String.
 - `S`: String, force uppercase.
-- `t`: Time/Date formatting.
+- `t`: Time/date formatting.
 
 The `t` time/date character is followed by one of the following characters to extract parts of a datetime value:
 
