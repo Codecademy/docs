@@ -27,8 +27,6 @@ The `argument` will be displayed on the console, followed by a new line.
 The following example prints some content to the console.
 
 ```java
-import java.io.*;
-
 public class PrintExample {
   public static void main(String[] args) {
     System.out.println("Output");
