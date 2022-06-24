@@ -29,7 +29,7 @@ The following example prints some content to the console.
 ```java
 import java.io.*;
 
-public class printExample {
+public class PrintExample {
   public static void main(String[] args) {
     System.out.println("Output");
     System.out.println(123.456);
