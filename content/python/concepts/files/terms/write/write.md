@@ -1,6 +1,6 @@
 ---
 Title: '.write()'
-Description: 'Allows the user to add additional text to a file when the file is opened in append mode.'
+Description: 'Adds additional text to a file when the file is opened in append mode.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -20,36 +20,49 @@ The position of the additional text is determined by the mode the file was acces
 
 ## Syntax
 
-```py
+```pseudo
 file.write(text)
 ```
 
-## Example 1
+The `text` is a string that is written to a given `file`. Then, the length of `text` is returned.
 
-Use `.write()` in append mode to add text to the end of the **gullivers_travels.txt** file, then open the file to view changes to the file:
+## Example
 
-```python
+In the example below, the `.write()` method is set to append mode (`"a"`) to add text to the end of the **gullivers_travels.txt** file. The file is then opened to view changes to it:
+
+```py
 f = open("gullivers_travels.txt", "a")
 
-f.write("Hello Gulliver!!")
+f.write("Hello Gulliver!!") # Returns 16
 f.close()
 
 f = open("gullivers_travels.txt", "r")
 
 print(f.read())
+
+f.close() # Always close the file
 ```
 
-## Example 2
+This will print the following:
 
-Use `.write()` in write mode to first delete all the original text in the **gullivers_travels.txt** file, then add text to the file. Finally view the changes to the file:
+```shell
+Hello Gulliver!!
+```
 
-```python
+## Codebyte Example
+
+When in write mode (`"w"`), the `.write()` method first deletes all of the original text in the **gullivers_travels.txt** file. Then, it adds text to the file:
+
+```codebyte/python
 f = open("gullivers_travels.txt", "w")
 
 f.write("Hello Gulliver!!")
 f.close()
 
+# File is re-opened in "read" mode.
 f = open("gullivers_travels.txt", "r")
 
 print(f.read())
+
+f.close()
 ```

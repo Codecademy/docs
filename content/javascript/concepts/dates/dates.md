@@ -1,141 +1,103 @@
 ---
 Title: 'Dates'
-Description: 'Date objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of seconds since midnight on January 1st 1970 UTC. Also note that, even though the representation of a Date is in UTC, the methods to fetch a date or its components work in the host systems local time zone. The defined range for a Date value is between April 20, 271821 BCE to September 13, 275760 CE. When used as a function, Date() returns the current date and time. When used as a constructor, Date() returns a new date object. javascript var now = Date(); console.log(now);'
+Description: 'In JavaScript, Date objects represent a single moment in time stored as a number, representing the number of milliseconds since midnight on January 1st, 1970 UTC.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Date'
   - 'Data Types'
+  - 'Date'
+  - 'Time'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-`Date` objects in JavaScript represent a single moment in time stored as a number that represents the number of milliseconds since midnight on January 1st 1970 UTC. Note that this is different from the UNIX epoch, the number of _seconds_ since midnight on January 1st 1970 UTC.
+In JavaScript, `Date` objects represent a single moment in time stored as a representation of the number of milliseconds since midnight on January 1st, 1970 UTC.
 
-Also note that, even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone.
-
-The defined range for a `Date` value is between April 20, 271821 BCE to September 13, 275760 CE.
+**Note:** This is different from a UNIX timestamp, which is the number of seconds since the Epoch (Midnight UTC on January 1st, 1970). Even though the representation of a `Date` is in UTC, the methods to fetch a date or its components work in the host system's local time zone (which may differ from UTC).
 
 ## Syntax
 
-When used as a function, `Date()` returns the current date and time. When used as a constructor, `Date()` returns a new date object.
-
-```javascript
-var now = Date();
-
-console.log(now);
-// Output: Current date as a string
-// Wed July 28 2021 16:47:34 GMT+0000 (Coordinated Universal Time)
-
-var then = new Date();
-
-console.log(then);
-// Output: Current date as a Date object
-// 2021-07-28T16:47:34.616Z
+```pseudo
+const myDate = new Date(dateValue);
 ```
 
-The date constructor can take several different parameters to create a new Date object.
+The `dateValue` can be any of the following:
 
-`var d = new Date();`
+- It can be a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of a date that is valid and [IETF-compliant](https://datatracker.ietf.org/doc/html/rfc2822#page-14).
+- It can be another instance of the `Date` class.
+- It can be an integer that represents the date measured in milliseconds since January 1st, 1970 UTC.
 
-- No parameter creates `Date` object with current date.
+The defined range for a `Date` value is between April 20, 271821 BCE to September 13, 275760 CE. Individual datetime elements can be defined in the `Date()` constructor with the following syntax:
 
-`var d = new Date(milliseconds);`
+```pseudo
+const d = new Date(year, month, day, hour, minute, second, millisecond);
+```
 
-- `milliseconds` creates `Date` object based on milliseconds from midnight 1/1/1970 UTC.
+### Date Format Types
 
-`var d = new Date(dateString);`
+In JavaScript, the following three date format types are commonly used:
 
-- `dateString` creates a `Date` object based on converting the sting to a date value.
+|              Format Type              | Syntax                                              |
+| :-----------------------------------: | --------------------------------------------------- |
+| ISO Date (The International Standard) | `new Date("YYYY-MM-DDThh:mm:ss.sssZ)`               |
+|              Short Date               | `new Date("YYYY-MM-DD")` / `new Date("YYYY/MM/DD")` |
+|               Long Date               | `new Date("Mon DD YYYY")` ( or `"DD Month YYYY"`)   |
 
-`var d = new Date(year, month, day, hour, minute, second, millisecond);`
+With regard to ISO dates:
 
-- Or you can specify the date referred to by the `Date` object by specifying the numeric value for each component of the date.
+- It is the only format that is strictly enforced while the others may vary in functionality depending on the browser.
+- "YYYY-MM-DD" or "YYYY/MM/DD" is the preferred format.
+- In the output, the `T` separates the the date from the time while the `Z` represents the UTC timezone.
+- Existing dates can be converted to ISO with the [`.toISOString()`](https://www.codecademy.com/resources/docs/javascript/dates/toisostring) method.
 
-## Date Methods
+With regard to short dates:
 
-### Static Methods
+- It is best practice to use leading zeros when referring to single-digit calendar days.
+- If using "YYYY-MM-DD" returns `NaN` the alternative format "YYYY/MM/DD" should be tested (and vice versa).
 
-| Method     | Description                                                                                               |
-| ---------- | --------------------------------------------------------------------------------------------------------- |
-| `.now()`   | Returns the number of milliseconds elapsed since midnight 1/1/1970 UTC.                                   |
-| `.parse()` | Parses a string representation of a date and returns the number of milliseconds represented by that date. |
+With regard to long dates:
 
-<!-- ### Instance Methods
+- The day and month can be in any order.
+- The month can either be abbreviated ("Mar") or written in full ("March").
+- Names are case-sensitive and commas can be ignored. (e.g. `new Date("MONTH DD YYYY")`)
 
-Method|Description
----|---
-`.getDate()`|Returns the day of the month (1-31) for the date represented by the `Date` object. (local time)
-`.getDay()`|Returns the day of the week (0-6) for the date represented by the `Date` object. (local time)
-`.getFullYear()`|Returns the year (4 digits for 4 digit years) for the date represented by the `Date` object. (local time)
-`.getHours()`|Returns the hour (0-23) for the date represented by the `Date` object. (local time)
-`.getMilliseconds()`|Returns the millisecond (0-999) for the date represented by the `Date` object. (local time)
-`.getMinutes()`|Returns the minute (0-59)  for the date represented by the `Date` object. (local time)
-`.getMonth()`|Returns the month (0-11) for the date represented by the `Date` object. (local time)
-`.getSeconds()`|Returns the second (0-59) for the date represented by the `Date` object. (local time)
-`.getTime()`|Returns the number of milliseconds from midnight 1/1/1970 UTC for the date represented by the `Date` object.
-`.getTimezoneOffset()`|Returns the time zone offset in minutes for the current locale.
-`.getUTCDate()`|Returns the day of the month (1-31) for the date represented by the `Date` object. (UTC time)
-`.getUTCDay()`|Returns the day of the week (0-6) for the date represented by the `Date` object. (UTC time)
-`.getUTCFullYear()`|Returns the year (4 digits for 4 digit years) for the date represented by the `Date` object. (UTC time)
-`.getUTCHours()`|Returns the hour (0-23) for the date represented by the `Date` object. (UTC time)
-`.getUTCMilliseconds()`|Returns the millisecond (0-999) for the date represented by the `Date` object. (UTC time)
-`.getUTCMinutes()`|Returns the minute (0-59)  for the date represented by the `Date` object. (UTC time)
-`.getUTCMonth()`|Returns the month (0-11) for the date represented by the `Date` object. (UTC time)
-`.getUTCSeconds()`|Returns the second (0-59) for the date represented by the `Date` object. (UTC time)
-`.setDate()`|Sets the day of the month for the `Date` object. (local time)
-`.setFullYear()`|Sets the full year (4 digits for 4 digit years) for the `Date` object. (local time)
-`.setHours()`|Sets the hour for the `Date` object. (local time)
-`.setMilliseconds()`|Sets the milliseconds for the `Date` object. (local time)
-`.setMinutes()`|Sets the minute for the `Date` object. (local time)
-`.setMonth()`|Sets the month for the `Date` object. (local time)
-`.setSeconds()`|Sets the second for the `Date` object. (local time)
-`.setTime()`|Sets the date of the `Date` object by using milliseconds from midnight 1/1/1970 UTC.
-`.setUTCDate()`|Sets the day of the month for the `Date` object. (UTC time)
-`.setUTCFullYear()`|Sets the full year (4 digits for 4 digit years) for the `Date` object. (UTC time)
-`.setUTCHours()`|Sets the hour for the `Date` object. (UTC time)
-`.setUTCMilliseconds()`|Sets the milliseconds for the `Date` object. (UTC time)
-`.setUTCMinutes()`|Sets the minute for the `Date` object. (UTC time)
-`.setUTCMonth()`|Sets the month for the `Date` object. (UTC time)
-`.setUTCSeconds()`|Sets the second for the `Date` object. (UTC time)
-`.toDateString()`|Returns the date portion stored in the `Date` object as a human-readable string.
-`.toISOString()`|Returns the date stored in the `Date` object in the IDO 8601 Extended Format.
-`.toJSON()`|Returns the date using `.toISOString()` for use with `JSON.stringify()`.
-`.toLocaleDateString()`|Returns the date portion stored in the `Date` object as a string based on the current locale.
-`.toLocaleString()`|Returns the locale date string, overrides `Object.prototype.toLocaleString()`.
-`.toLocaleTimeString()`|Returns the time portion stored in the `Date` object as a string based on the current locale.
-`.toString()`|Returns the date stored in the `Date` object as a human-readable string.
-`.toTimeString()`|Returns the time portion stored in the `Date` object as a human-readable string.
-`.toUTCString()`|Returns the date stored in the `Date` object as a human-readable string based on UTC timezone. -->
+## Example
 
-The instance methods are listed at the bottom of the page.
+When used as a function, `Date()` returns the current date and time. When used as a constructor, `Date()` returns a new date object.
 
-### Examples
+```js
+const now = Date();
+console.log(now);
 
-```javascript
-var d = new Date('2019-05-01 12:00:00.000');
+const then = new Date();
+console.log(then);
+```
+
+The output from the snippet above would look similar to this:
+
+```shell
+Fri Apr 22 2022 17:59:19 GMT+0000 (Coordinated Universal Time)
+2022-04-22T17:59:19.244Z
+```
+
+## Codebyte Example
+
+The example below defines a new `Date` object `d`. Many instance methods are used, which can be found at the bottom of this entry.
+
+```codebyte/javascript
+let d = new Date('2019-05-01 12:00:00.000');
 
 console.log(d.toDateString());
-// Output: Wed May 01 2019
-
 console.log(d.getFullYear());
-// Output: 2019
-
 console.log(d.toISOString());
-// Output: 2019-05-01T12:00:00.000Z
-
 console.log(d.toUTCString());
-// Output: Wed, 01 May 2019 12:00:00 GMT
 
 d.setFullYear(2020);
 d.setHours(16);
 d.setMinutes(30);
 
 console.log(d.toISOString());
-// Output: 2020-05-01T16:30:00.000Z
-
 console.log(d.getTime());
-// Output: 1588350600000
 ```

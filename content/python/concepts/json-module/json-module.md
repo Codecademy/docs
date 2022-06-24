@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `json` module provides tools for working with the JavaScript Object Notation (JSON) format. It can be imported with the following line:
+The `json` module provides tools for working with the [JavaScript Object Notation (JSON)](https://www.codecademy.com/resources/docs/general/json) format. It can be imported with the following line:
 
 ```py
 import json

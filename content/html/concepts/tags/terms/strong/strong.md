@@ -34,3 +34,5 @@ The `<strong>` tag should only contain text content or other tags meant for text
   </body>
 </html>
 ```
+
+![Output of the example above for strong tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/strong-tag-example.png)

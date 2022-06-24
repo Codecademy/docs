@@ -51,3 +51,5 @@ Suppose that Codecademy needs a form for visitors to create a new account. Here 
   </body>
 </html>
 ```
+
+![Output of the example above for form tag](https://raw.githubusercontent.com/Codecademy/docs/main/media/form-example.png)
