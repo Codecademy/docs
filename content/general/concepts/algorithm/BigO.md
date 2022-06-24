@@ -17,7 +17,7 @@ Big-O notation is a form of measuring the complexity of an algorithm. This can t
 
 Here are some common runtimes:
 
-<img title="a title" alt="Alt text" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/Big-O_Graph.png" width="500"/>
+![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/Big-O_Graph.png)
 
 
 - Polynomial time: If the time is a power of the input size.
