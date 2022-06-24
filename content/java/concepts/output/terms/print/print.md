@@ -20,7 +20,7 @@ The `.print()` method prints its argument to the console. Unlike the similar met
 System.out.print(argument)
 ```
 
-`argument` will be displayed on the console.
+The `argument` passed to the `print()` method will be displayed on the console.
 
 ## Example
 
