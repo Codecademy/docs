@@ -75,10 +75,10 @@ Area is: 78.540001
 
 C has a number of predefined macros, here's a list of the most prominent ones:
 
-- `__DATE__`:	Current date formatted as MMM DD YYYY.
-- `__TIME__`:	Current time formatted as HH:MM:SS.
-- `__FILE__`:	Current filename.
-- `__LINE__`:	Current line number.
+- `__DATE__`: Current date formatted as MMM DD YYYY.
+- `__TIME__`: Current time formatted as HH:MM:SS.
+- `__FILE__`: Current filename.
+- `__LINE__`: Current line number.
 
 ### Example
 
@@ -108,5 +108,3 @@ Date: Jun 25 2022
 Time: 14:05:33
 Line number: 7
 ```
-
-
