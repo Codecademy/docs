@@ -18,7 +18,9 @@ There are two types of macros: object-like macros and function-like macros.
 
 ## Object-like Macros
 
-These macros are simply replaced by their value in the source code before compilation. These are typically used to define constants to be used in the code. Note that macro definitions are not followed by a semicolon.
+These macros are replaced by their value in the source code before compilation. Their primary purpose is defining constants to be used in the code.
+
+**Note**: Macro definitions are not followed by a semicolon `;`.
 
 ### Example
 
