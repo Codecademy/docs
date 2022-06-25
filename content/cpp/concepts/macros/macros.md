@@ -79,8 +79,8 @@ Area is 78.54
 
 C++ has a number of predefined macros, including the following:
 
-- `__DATE__`: Current date formatted as MMM DD YYYY.
-- `__TIME__`: Current time formatted as HH:MM:SS.
+- `__DATE__`: Current date formatted as `MMM DD YYYY`.
+- `__TIME__`: Current time formatted as `HH:MM:SS`.
 - `__FILE__`: Current filename.
 - `__LINE__`: Current line number.
 
