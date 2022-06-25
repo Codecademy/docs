@@ -1,6 +1,6 @@
 ---
 Title: 'DATEADD()'
-Description: 'Adds a time or date interval to a specified date and returns it.'
+Description: 'Adds a time or date interval to a specified date and returns it. Versions are available in SQL Server and MySQL.'
 Subjects:
   - 'Data Science'
 Tags:
