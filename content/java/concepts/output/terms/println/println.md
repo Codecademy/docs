@@ -4,6 +4,7 @@ Description: 'Prints its argument to the console followed by a new line.'
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Output'
   - 'Strings'
   - 'Print'
@@ -12,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.println()` method prints its argument to the console follwed by a new line. It is probably the most common method of displaying output to the console.
+The **`.println()`** method prints its argument to the console follwed by a new line. It is probably the most common method of displaying output to the console.
 
 ## Syntax
 

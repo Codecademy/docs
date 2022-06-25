@@ -4,6 +4,7 @@ Description: 'Prints its argument to the console.'
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Output'
   - 'Strings'
   - 'Print'
@@ -12,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.print()` method prints its argument to the console. Unlike the similar [`.println()`](https://www.codecademy.com/resources/docs/java/output/println) method, `.print()` does not follow its argument with a new line, and any subsequent characters sent to the console will begin wherever the prior `.print()` command left off.
+The **`.print()`** method prints its argument to the console. Unlike the similar [`.println()`](https://www.codecademy.com/resources/docs/java/output/println) method, `.print()` does not follow its argument with a new line, and any subsequent characters sent to the console will begin wherever the prior `.print()` command left off.
 
 ## Syntax
 

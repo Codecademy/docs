@@ -4,6 +4,7 @@ Description: 'Prints output to the console using various formatting commands.'
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Output'
   - 'Strings'
   - 'Print'
@@ -12,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.printf()` method prints output to the console with the use of various formatting commands.
+The **`.printf()`** method prints output to the console with the use of various formatting commands.
 
 ## Syntax
 
