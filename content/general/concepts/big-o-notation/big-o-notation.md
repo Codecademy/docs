@@ -17,7 +17,7 @@ CatalogContent:
 
 Here are some common runtimes:
 
-![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph.png)
+![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/bigo-graph.png)
 
 - Polynomial time (red) $O(n^{2})$: If the time is a power of the input size.
   - Bubble sort has quadratic time complexity.
