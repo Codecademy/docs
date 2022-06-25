@@ -86,7 +86,7 @@ C++ has a number of predefined macros, including the following:
 
 ### Example
 
-The following example uses the above predefined macros:
+The following example uses the predefined macros mentioned above:
 
 ```cpp
 #include <iostream>
