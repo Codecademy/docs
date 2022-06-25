@@ -8,7 +8,6 @@ Tags:
   - 'Queries'
   - 'PostgreSQL'
   - 'MySQL'
-  - 'SQLite'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
