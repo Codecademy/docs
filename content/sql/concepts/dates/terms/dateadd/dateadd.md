@@ -41,7 +41,7 @@ DATEADD(interval, amount, date)
 
 ### Example 1
 
-The following example adds `10` to the `month` position of `2022/06/22`:
+The following example adds `10` months to `2022/06/22`:
 
 ```sql
 SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
