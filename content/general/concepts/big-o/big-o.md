@@ -17,7 +17,7 @@ Big-O notation is a form of measuring the complexity of an algorithm. This can t
 
 Here are some common runtimes:
 
-![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/Big-O_Graph.png)
+![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph.png)
 
 - Polynomial time: If the time is a power of the input size.
   - Bubble sort has quadratic time complexity.
