@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - 'Database'
   - 'Queries'
-  - 'PostgreSQL'
+  - 'SQL Server'
   - 'MySQL'
 CatalogContent:
   - 'learn-sql'
