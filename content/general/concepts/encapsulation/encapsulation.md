@@ -1,6 +1,6 @@
 ---
 Title: 'Encapsulation'
-Description: 'Encapsulation is one of the four principles of object-oriented programming (OOP) which emphasize modularity and hiding away of complexities in order to better maintain and reason about code. Most of the time encapsulation can be achieved by creating classes and naming private and public methods (or getters and setters) for our systems to interact. py class Robot(object): def init(self): self.__version = 22 def getVersion(self):'
+Description: 'Encapsulation is one of the four principles of object-oriented programming (OOP), and it advances the benefits of modularity and hiding away of complexities in order to better maintain and reason about code.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -13,11 +13,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Encapsulation is one of the four principles of object-oriented programming (OOP) which emphasize modularity and hiding away of complexities in order to better maintain and reason about code.
+**Encapsulation** advances the benefits of modularity and hiding away of complexities in order to better maintain and reason about code. It is one of the four principles of [object-oriented programming (OOP)](https://www.codecademy.com/resources/docs/general/object-oriented-programming).
 
-Most of the time encapsulation can be achieved by creating classes and naming private and public methods (or getters and setters) for our systems to interact.
+Most of the time encapsulation can be achieved by creating [classes](https://www.codecademy.com/resources/docs/general/class) with an overarching design structure that includes private and public [methods](https://www.codecademy.com/resources/docs/general/method) (or getters and setters) for our systems to interact.
 
-## Examples of Encapsulation
+## Python Example
+
+In the following [Python](https://www.codecademy.com/resources/docs/python) example, a `Robot` class is created with a `__version` property, initialized as a nubmer. Getter and setter methods are made to allow any instance of `Robot` to be set with a `__version` and have it changed later]:
 
 ```py
 class Robot(object):
