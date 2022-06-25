@@ -24,7 +24,7 @@ These macros are replaced by their value in the source code before compilation. 
 
 ### Example
 
-In the following example `PI` is defined as an object-like macro.
+In the following example, `PI` is defined as an object-like macro:
 
 ```cpp
 #include <iostream>
