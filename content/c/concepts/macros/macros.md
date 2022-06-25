@@ -71,3 +71,42 @@ This example outputs the following:
 Area is: 78.540001
 ```
 
+## Predefined Macros
+
+C has a number of predefined macros, here's a list of the most prominent ones:
+
+- `__DATE__`:	Current date formatted as MMM DD YYYY.
+- `__TIME__`:	Current time formatted as HH:MM:SS.
+- `__FILE__`:	Current filename.
+- `__LINE__`:	Current line number.
+
+### Example
+
+The following example uses the above predefined macros:
+
+```c
+#include <stdio.h>
+int main() {
+
+char file[] = __FILE__;
+char date[] = __DATE__;
+char time[] = __TIME__;
+int line = __LINE__;
+
+printf("File name: %s\n", file);
+printf("Date: %s\n", date);
+printf("Time: %s\n", time);
+printf("Line number: %d\n", line);
+}
+```
+
+The output resembles the following:
+
+```shell
+File name: main.c
+Date: Jun 25 2022
+Time: 14:01:56
+Line number: 15
+```
+
+
