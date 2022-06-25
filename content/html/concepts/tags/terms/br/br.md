@@ -38,3 +38,5 @@ Suppose there is an address that needs to be shown to the user so that they may 
   </body>
 </html>
 ```
+
+![Output of the br tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/html-br-example.png)

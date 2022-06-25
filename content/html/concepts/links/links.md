@@ -1,6 +1,6 @@
 ---
 Title: 'Links'
-Description: 'The anchor element  is used to link to another page or to a certain part of the page if you use its id. And the  element defines a link between a document and an external resource.  links are visible to the end users, whereas  links are not. The  anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference attribute, href. The href determines the location the anchor element points to. html  Visit this site'
+Description: 'Links are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -14,17 +14,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The anchor element `<a>` is used to link to another page or to a certain part of the page if you use its `id`. And the `<link>` element defines a link between a document and an external resource.
+**Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.
 
-`<a>` links are visible to the end users, whereas `<link>` links are not.
+## Hyperlinks
 
-## Anchor Element
+The [`<a>`](https://www.codecademy.com/resources/docs/html/tags/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
 
-The `<a>` anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference attribute, `href`.
+### Text Links
 
-The `href` determines the location the anchor element points to.
-
-### Text Link
+Text wrapped in a linked anchor tag becomes a hyperlink to another page:
 
 ```html
 <!-- Creating a text link -->
@@ -32,7 +30,19 @@ The `href` determines the location the anchor element points to.
 <a href="http://www.codecademy.com">Visit this site</a>
 ```
 
-### Image Link
+### Internal Links
+
+Anchor tags can be used to link to certain parts of a page with a matching `id` attribute:
+
+```html
+<!-- Creating a text link -->
+
+<a href="#about">About</a>
+```
+
+### Image Links
+
+Anything that is inside the anchor tag will be treated as a link. In this case, the Codecademy logo will take the user to the Codecademy home page.
 
 ```html
 <!-- Creating an image link -->
@@ -40,9 +50,23 @@ The `href` determines the location the anchor element points to.
 <a href="http://www.codecademy.com"> <img src="logo.jpg" />Click this image </a>
 ```
 
+### Email and Phone Links
+
+Special strings can be passed to the `href` attribute to link email accounts (`"mailto:exmail@address.com"`) or phone numbers (`"tel:###-###-####"`):
+
+```html
+<!-- This link will try to create a new email to foo@codecademy.com. -->
+<a href="mailto:foo@codecademy.com">foo@codecademy.com</a>
+
+<!-- This link will try to call phone number 234-555-1212. -->
+<a href="tel:234-555-1212">234-555-1212</a>
+```
+
+The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
+
 ## Link Element
 
-The `<link>` is used to connect the document to an outside resource, most commonly stylesheets. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
+The [`<link>`](https://www.codecademy.com/resources/docs/html/tags/link) tag is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/tags/head) tag. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
 
 The two primary attributes are:
 
@@ -57,7 +81,7 @@ The two primary attributes are:
     <link rel="stylesheet" href="some/outside/source.css" />
   </head>
   <body>
-    ...
+    <!-- markup here -->
   </body>
 </html>
 ```
