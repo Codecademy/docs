@@ -35,13 +35,17 @@ Below is an example of how an image is commonly inserted into a page using the H
 It is recommended to describe image [width and height](https://www.codecademy.com/resources/docs/uiux/width-height) using percents of the current screen size to best support both smaller mobile devices as well as larger workstations. The image below would take up the top half of any screen, regardless of its size:
 
 ```html
-<img src="logo.png" alt="Codecademy logo" height="50%" width="100%" />
+<img src="logo.png" alt="Codecademy logo" style="height:50%; width: 100%;" />
 ```
 
 However, this may lead to stretched images on wider screens, so setting a maximum width may be preferred:
 
 ```html
-<img src="logo.png" alt="Codecademy logo" height="50%" max-width="800px" />
+<img
+  src="logo.png"
+  alt="Codecademy logo"
+  style="height:50%; max-width: 100%;"
+/>
 ```
 
 To only serve higher resolution images to certain devices with higher resolution screens, the `srcset` attribute can be used. `srcset` allows the browser to choose an image based on the given amount of pixels on the screen. For example, to serve users with ultra-wide screens a larger, high-resolution image of a logo, as well as provide support for standard desktop and mobile sizes, the following HTML `<img>` element can be used:
