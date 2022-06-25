@@ -51,7 +51,7 @@ These macros behave like [functions](https://www.codecademy.com/resources/docs/c
 
 ### Example
 
-In the following example `AREA` is defined as a function-like macro. Note that other macros can be used in defining a subsequent macro. The inner macro is replaced by its value before the outer macro is replaced.
+In the following example, `AREA` is defined as a function-like macro. Note that other macros can be used in defining a subsequent macro. The inner macro is replaced by its value before the outer macro is replaced.
 
 ```c
 #include <stdio.h>
