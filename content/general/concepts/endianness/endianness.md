@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Endianness is a description of the order bytes are stored in memory for multi-byte values. The options are generally described as big-endian or little-endian. A big-endian system stores the most significant byte at the smallest memory address and the least significant byte at the largest. A little-endian system stores the least significant byte at the smallest memory address and the most significant byte at the largest.
+**Endianness** describes the order in which bytes are stored in memory for multi-byte values. The options are generally described as big-endian or little-endian. A big-endian system stores the most significant byte at the smallest memory address and the least significant byte at the largest. A little-endian system stores the least significant byte at the smallest memory address and the most significant byte at the largest.
 
 ## Example
 
