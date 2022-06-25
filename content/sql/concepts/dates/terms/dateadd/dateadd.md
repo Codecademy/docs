@@ -78,7 +78,7 @@ DATE_ADD(date, INTERVAL value unit)
 
 ### Example 1
 
-The following example adds `37` to the `DAY` part of `2002-10-31`:
+The following example adds `37` days to `2002-10-31`:
 
 ```sql
 SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY); /* Output: 2002-12-07 */
