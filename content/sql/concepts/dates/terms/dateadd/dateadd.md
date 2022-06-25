@@ -49,7 +49,7 @@ SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
 
 ### Example 2
 
-The following example adds `28` to the seconds interval of `1990/08/25 04:23:10`:
+The following example adds `28` seconds to `1990/08/25 04:23:10`:
 
 ```sql
 SELECT DATEADD(second, 28, '1990/08/25 04:23:10'); /* Output: 1990-08-25 04:23:38.000 */
