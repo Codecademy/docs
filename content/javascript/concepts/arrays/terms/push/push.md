@@ -20,7 +20,7 @@ The **`.push()`** method adds one or more elements to end of array and returns n
 array.push(item1, item2, ...itemN);
 ```
 
-A comma-separated list of elements can be passed to end of the `array`. The `.push()` method is not to be confused with returning an entirely new array with the passed object.
+A comma-separated list of items ([strings](https://www.codecademy.com/resources/docs/javascript/strings), [variables](https://www.codecademy.com/resources/docs/javascript/variables), [functions](https://www.codecademy.com/resources/docs/javascript/functions), etc.) can be passed to end of the `array`. The `.push()` method is not to be confused with returning an entirely new array with the passed object.
 
 ## Example
 
