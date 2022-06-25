@@ -77,7 +77,7 @@ Area is 78.54
 
 ## Predefined Macros
 
-C++ has a number of predefined macros, here's a list of the most prominent ones:
+C++ has a number of predefined macros, including the following:
 
 - `__DATE__`: Current date formatted as MMM DD YYYY.
 - `__TIME__`: Current time formatted as HH:MM:SS.
