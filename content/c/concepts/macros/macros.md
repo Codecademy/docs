@@ -105,8 +105,8 @@ The output resembles the following:
 ```shell
 File name: main.c
 Date: Jun 25 2022
-Time: 14:01:56
-Line number: 15
+Time: 14:05:33
+Line number: 7
 ```
 
 
