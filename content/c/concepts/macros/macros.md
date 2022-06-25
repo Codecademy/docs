@@ -45,7 +45,7 @@ Area is: 28.274401
 
 ## Function-like Macros
 
-These macros behave like functions, in that they take arguments that are used in the replaced code. Note that in defining a function-like macro, there cannot be a space between the macro name and the opening parenthesis.
+These macros behave like [functions](https://www.codecademy.com/resources/docs/c/functions), in that they take arguments that are used in the replaced code. Note that in defining a function-like macro, there cannot be a space between the macro name and the opening parenthesis.
 
 ### Example
 
