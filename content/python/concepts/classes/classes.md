@@ -6,7 +6,9 @@ Subjects:
   - 'Data Science'
   - 'Web Development'
 Tags:
+  - 'Attributes'
   - 'Classes'
+  - 'Methods'
   - 'Objects'
   - 'OOP'
 CatalogContent:
@@ -14,33 +16,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Classes** are templates used to define the properties and methods of objects in code. They can describe the kinds of information that the class holds, and also how a programmer interacts with that data.
+**Classes** are templates used to define the properties and methods of objects in code. They can describe the kinds of data that the class holds, and also how a programmer interacts with that data.
 
 The usage of classes are a key element of [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP) where "class instances" are created to implement design principles such as [inheritance](https://www.codecademy.com/resources/docs/general/inheritance) and [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation).
 
 ## Creating a Class
 
-In Python, classes are defined using the `class` keyword.
-
-```py
-class Animal:
-  def __init__(self, name, leg_count):
-    self.name = name
-    self.leg_count = leg_count
-```
-
-Class definitions cannot be empty, so the `pass` statement can be used as a placeholder to avoid errors.
-
 ```py
 class Home:
-  pass
+  # Class body starts here
 ```
 
-## Creating Instances of a Class
+In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword. Within the code of the class, we can call its methods and access its variables. We do this by using `self` followed by a period `.` and then followed by the method or variable.
 
-Objects can be created from classes. These objects are called instances of a class, and when we create an instance, that is known as instantiating a class.
+### Class Instances
 
-To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`.
+Objects can be created or instantiated, from classes. These objects are known as class instances. To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`:
 
 ```py
 my_home = Home()
@@ -48,9 +39,25 @@ my_home = Home()
 
 Here, the instance name is `my_home`, and the class is `Home`.
 
-## Class Methods
+### Attributes
 
-Methods are functions defined as part of a class. The first parameter for any class method is the actual object calling the method, usually called `self`.
+Class attributes are variables that are defined outside of all methods and have the same value for every instance of the class.
+
+```py
+class Bird:
+  # Class attribute
+  leg_count = 2
+
+parakeet = Bird()
+parrot = Bird()
+
+print(parakeet.leg_count) # Output: 2
+print(parrot.leg_count)   # Output: 2
+```
+
+### Methods
+
+Methods are [functions](https://www.codecademy.com/resources/docs/python/functions) defined as part of a class. The first parameter for any class method is the actual object calling the method, usually called `self`.
 
 For example, the following class `Home` has a method called `.paint_wall()`:
 
@@ -71,42 +78,9 @@ blue_home = Home()
 blue_home.paint_wall("blue")
 ```
 
-## Class Attributes
+#### Customized Class Methods
 
-Class attributes are variables that are defined outside of all methods and have the same value for every instance of the class.
-
-```py
-class Bird:
-  # Class attribute
-  leg_count = 2
-
-parakeet = Bird()
-parrot = Bird()
-
-print(parakeet.leg_count) # Output: 2
-print(parrot.leg_count)   # Output: 2
-```
-
-## Instance Variables
-
-Instance variables are variables that are unique to each instance of a class. They can be set initially within the `__init__()` method when the instance is created, or instance variables can be added by setting them to values.
-
-```py
-class Dog:
-  def __init__(self, breed):
-    # Instance variable:
-    self.breed = breed
-
-dog = Dog("Jindo")
-
-dog.name = "Ruff"
-```
-
-We give the instance `dog` a new instance variable called `name` and set it to the value `"Ruff"`.
-
-## **init**() Method
-
-This method is used to initialize a newly created object. It is called each time a class is instantiated. Instance variables are set within the `__init__()` method block. Input parameters can be set for this method, which are passed during instantiation.
+The `__init__()` method is used to initialize a newly created object. It is called each time a class is instantiated. Instance variables are set within the `__init__()` method block. They can be set initially within the `__init__()` method when the instance is created, or instance variables can be added by setting them to values.
 
 ```py
 class Home:
@@ -121,9 +95,7 @@ print(home.rooms)   # Output: 4
 print(home.stories) # Output: 2
 ```
 
-## **repr**() Method
-
-The `__repr__()` method returns the string representation of the class. One way to see the string representation is to call `print()` on the instance.
+The `__repr__()` method returns the string representation of the class. One way to see the string representation is to call [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance.
 
 ```py
 class Home:
@@ -141,71 +113,12 @@ home2 = Home(5, 2)
 print(home2) # Output: Home with 5 rooms and 2 stories
 ```
 
-## Accessing Methods and Variables in the Class
-
-Within the code of the class, we can call its methods and access its variables. We do this by using `self` followed by a period `.` and then followed by the method or variable.
-
-```py
-class Person:
-  def __init__(self, name):
-    self.name = name
-
-  def sayHi(self):
-    # Calls its method .getName()
-    print("Hi my name is {}".format(self.getName()))
-
-  def getName(self):
-    # Accesses the name variable
-    return self.name
-
-bob = Person("Bob")
-bob.sayHi()
-# Output: Hi my name is Bob
-```
-
-## type() Function
-
-The `type()` function returns the data type of the argument passed to it. When the argument is an instance of a class, it returns the class that it is an instance of.
-
-```py
-home = Home(4, 2)
-
-print(type(home))
-# Output: <class '__main__.Home'>
-```
-
-## hasattr() Function
-
-The `hasattr()` function can be used to check if an instance of a class has an attribute. It returns `True` if it does have the attribute, and `False` otherwise.
-
-```py
-home = Home(4, 2)
-
-print(hasattr(home, 'rooms')) # Output: True
-print(hasattr(home, 'year'))  # Output: False
-```
-
-## Deleting Objects
-
-Objects, or instances of classes, can be deleted using the `del` keyword.
-
-```py
-del instance_name
-```
-
-## Deleting Attributes
-
-Attributes of objects can be deleted using the `del` keyword.
-
-```py
-del instance_name.attribute_name
-```
-
 ## Example
 
-Lets demonstrate a class for an `Employee`:
+The following example demonstrates an `Employee` class defined in a file called `employee.py`:
 
 ```py
+# employee.py
 class Employee(object):
   name = "Sam"
   company = "ILoveCode Inc."
@@ -214,21 +127,48 @@ class Employee(object):
 
   def working(self, employee_name):
     self.name = employee_name
-    print(employee_name + " is working")
+    print(f"{employee_name} is working")
 ```
 
-Once we create an `Employee` class like we did above we can import the module in our code and create instances of it whenever and wherever we want, thereby enabling code reusablity and making our code more efficient and easier to maintain.
+Afterward, the `Employee` class can be imported in other files where new instances and methods can be created. This makes the code efficient, reusable, and maintainable:
 
 ```py
+# other_file.py
 from employee import Employee
 
 def create_employee():
-  print("employee is starting thier job")
-  employee1 = Employee(name="Blake")
-  name = employee1.name
+  print("Employee is starting thier job...")
+  employee1 = Employee()
+  employee1.name = "Blake"
+  employee1.working(employee1.name)
 
-  print(employee1.work(name))
-  # Output: Blake is working
+create_employee();
 ```
 
-When creating applications classes are a great way to organize and improve the quality of your code.
+Running the code in `other_file.py` will output the following:
+
+```shell
+Employee is starting thier job...
+Blake is working
+```
+
+## Codebyte Example
+
+Defined methods and variables can be accessed within the class definition. This is done with the `self` keyword, followed by a period `.`, and then followed by the method or variable. In the example below, the defined `.getName()` method is used inside the `.sayHi()` method:
+
+```py
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+  def sayHi(self):
+    # Calls its method .getName()
+    print(f"Hi! My name is {self.getName()}.")
+
+  def getName(self):
+    # Accesses the name variable
+    return self.name
+
+bob = Person("Bob")
+bob.sayHi()
+```

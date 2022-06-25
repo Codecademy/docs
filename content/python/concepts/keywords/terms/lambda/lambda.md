@@ -1,5 +1,5 @@
 ---
-Title: 'Lambda'
+Title: 'lambda'
 Description: 'Produces an anonymous function expression.'
 Subjects:
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `lambda` keyword produces [anonymous function](https://www.codecademy.com/resources/docs/python/functions/anonymous-functions) expressions without using the `def` keyword. Lambda expressions are commonly used for defining single-use functions which are then passed to higher-order functions.
+The **`lambda`** keyword produces [anonymous function](https://www.codecademy.com/resources/docs/python/functions/anonymous-functions) expressions without using the `def` keyword. Lambda expressions are commonly used for defining single-use functions which are then passed to higher-order functions.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ print(example(2, 3))
 
 ## Codebyte Example
 
-Below is another example of using a lambda expression:
+Below is another example of using a `lambda` expression:
 
 ```codebyte/python
 add_five = lambda num : num+5
