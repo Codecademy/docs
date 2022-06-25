@@ -1,9 +1,10 @@
 ---
 Title: '.compareTo()'
-Description: 'Compares two strings lexicographically based on the Unicode value of each character in the string.'
+Description: 'Returns 0 if two strings are equal in Unicode value. Otherwise, the lexicographical difference is returned.'
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Strings'
   - 'Methods'
 CatalogContent:
@@ -11,19 +12,30 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Compares two strings lexicographically based on the Unicode value of each character in the string.
-
-A value of `0` will be returned if equal to comparison, less than `0` if the string is lexicographically less, and greater than `0` if the string is lexicographically greater.
+The **`.compareTo()`** method compares two strings lexicographically based on the Unicode value of each character in the string.
 
 ## Syntax
 
-```java
-string.compareTo(String str)
+```pseudo
+stringA.compareTo(stringB);
 ```
 
-- `str` (required): A string value, the other string to compare to.
+Both `stringA` and `stringB` are required in order for the `.compareTo()` method to work properly.
 
-**Note:** Use `.compareToIgnoreCase()` if you want to compare lexicographically, while not comparing the upper and lower case differences. Use `.equals()` if you want to compare strings without taking into account Unicode values.
+A value of `0` will be returned if the strings are equal. Otherwise, the following will happen:
+
+- A number less than `0` is returned if `stringA` is lexicographically less than `stringB`.
+- A number greater than `0` is returned if `stringA` is lexicographically more than `stringB`.
+
+A way to think about this lexicographical evaluation is noting the Unicode values for the following character sets:
+
+| Character Set |  Range   | Example                                |
+| :-----------: | :------: | -------------------------------------- |
+|   `1` - `9`   | 49 - 57  | `"7".compareTo("3");` -> 55 - 51 = 4   |
+|   `A` - `Z`   | 65 - 90  | `"A".compareTo("B");` -> 65 - 66 = -1  |
+|   `a` - `z`   | 97 - 122 | `"z".compareTo("w");` -> 122 - 119 = 3 |
+
+**Note:** This method is case-sensitive. The [`.compareToIgnoreCase()`](https://www.codecademy.com/resources/docs/java/strings/compareToIgnoreCase) in order to not compare upper and lower case differences. Alternatively, the [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can used to compare strings without taking Unicode values into account.
 
 ## Example 1
 
