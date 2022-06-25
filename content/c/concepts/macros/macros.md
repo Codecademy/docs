@@ -22,7 +22,7 @@ These macros are simply replaced by their value in the source code before compil
 
 ### Example
 
-In the following example `PI` is defined as an object-like macro.
+In the following example, `PI` is defined as an object-like macro:
 
 ```c
 #include <stdio.h>
