@@ -14,7 +14,7 @@ CatalogContent:
 
 A **macro** is a label defined in the source code that is replaced by its value by the [preprocessor](https://www.codecademy.com/resources/docs/c/preprocessors) before compilation. Macros are initialized with the `#define` preprocessor command and can be undefined with the `#undef` command.
 
-There are two basic types of macros, object-like macros and function-like macros.
+There are two types of macros: object-like macros and function-like macros.
 
 ## Object-like Macros
 
