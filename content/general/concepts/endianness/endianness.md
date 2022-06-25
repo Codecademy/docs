@@ -1,6 +1,6 @@
 ---
 Title: 'Endianness'
-Description: 'Endianness is a description of the order bytes are stored in memory for multi-byte values.'
+Description: 'Endianness describes the order in which bytes are stored in memory for multi-byte values.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
