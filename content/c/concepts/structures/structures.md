@@ -46,11 +46,18 @@ struct Patient{
 
 ## Structure Variables
 
-Variables can be created in order to work with the `Patient` structure above. The following example declares and initializes a structure variable:
+[Variables](https://www.codecademy.com/resources/docs/c/variables) can be created in order to work with the `Patient` structure above. The following example declares and initializes a structure variable:
 
 ```c
 #include <stdio.h>
 #include <string.h>
+
+struct Patient{
+  char name[30];
+  int age;
+  int weight;
+  int heightInInches;
+};
 
 int main() {
 
@@ -68,6 +75,13 @@ Members can be accessed using the member operator `.`:
 ```c
 #include <stdio.h>
 #include <string.h>
+
+struct Patient{
+  char name[30];
+  int age;
+  int weight;
+  int heightInInches;
+};
 
 int main() {
 
@@ -93,9 +107,13 @@ Height: 74
 
 ## Nested Structures
 
-A structure can be within another structure. The following shows a `Hospital` structure member variable being declared within the `Patient` struct:
+A structure can be within another structure. The example below shows a `Hospital` structure member variable being declared within the `Patient` structure.
+Nested structure members can be accessed using the member operator `.`:
 
 ```c
+#include <stdio.h>
+#include <string.h>
+
 struct Hospital {
     char department[30];
     int roomNum;
@@ -108,11 +126,7 @@ struct Patient{
   int heightInInches;
   struct Hospital roomDetails;
 };
-```
 
-The nested structure members can be accessed using the member operator `.`:
-
-```c
 int main() {
     // Variable initialization at declaration
     struct Patient patientA = {"Douglas Franklin", 62, 280, 74, "oncology", 526};
