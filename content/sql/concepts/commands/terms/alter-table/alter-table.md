@@ -9,13 +9,13 @@ Tags:
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
 ---
 
-Adds, deletes, modifies or changes the data type of a column in a table.
+The `ALTER TABLE` command adds, deletes, modifies, or changes the data type of a column in a table.
 
 ## Code Example
 
