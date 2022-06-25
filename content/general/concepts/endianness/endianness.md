@@ -16,7 +16,14 @@ CatalogContent:
 
 ## Example
 
-To store the 32-bit integer `0x0A0B0C0D` it is broken down into four bytes `0x0A`,`0x0B`,`0x0C`,`0x0D`. The endianness of the computer system defines in what order these bytes are stored in memory. The following examples show it stored at memory address `0xFFF0` for both big- and little-endian systems.
+To store the 32-bit integer `0x0A0B0C0D` it is broken down into four bytes:
+
+- `0x0A`
+- `0x0B`
+- `0x0C`
+- `0x0D`
+
+The endianness of the computer system defines in what order these bytes are stored in memory. The following examples show it stored at memory address `0xFFF0` for both big- and little-endian systems:
 
 ### Big-endian
 
