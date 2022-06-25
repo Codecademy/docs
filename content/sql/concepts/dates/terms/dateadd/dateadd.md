@@ -1,14 +1,13 @@
 ---
 Title: 'DATEADD()'
-Description: 'Adds a time or date interval to a specified date and returns it.'
+Description: 'Adds a time or date interval to a specified date and returns it. Versions are available in SQL Server and MySQL.'
 Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
   - 'Queries'
-  - 'PostgreSQL'
+  - 'SQL Server'
   - 'MySQL'
-  - 'SQLite'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -42,7 +41,7 @@ DATEADD(interval, amount, date)
 
 ### Example 1
 
-The following example adds `10` to the `month` position of `2022/06/22`:
+The following example adds `10` months to `2022/06/22`:
 
 ```sql
 SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
@@ -50,7 +49,7 @@ SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
 
 ### Example 2
 
-The following example adds `28` to the seconds interval of `1990/08/25 04:23:10`:
+The following example adds `28` seconds to `1990/08/25 04:23:10`:
 
 ```sql
 SELECT DATEADD(second, 28, '1990/08/25 04:23:10'); /* Output: 1990-08-25 04:23:38.000 */
@@ -79,7 +78,7 @@ DATE_ADD(date, INTERVAL value unit)
 
 ### Example 1
 
-The following example adds `37` to the `DAY` part of `2002-10-31`:
+The following example adds `37` days to `2002-10-31`:
 
 ```sql
 SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY); /* Output: 2002-12-07 */
@@ -87,7 +86,7 @@ SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY); /* Output: 2002-12-07 */
 
 ### Example 2
 
-The following example adds `30` to the `MINUTE` part of `2002-10-31 10:35:02`:
+The following example adds `30` minutes to `2002-10-31 10:35:02`:
 
 ```sql
 SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE); /* Output: 2002-10-31 11:05:02 */
