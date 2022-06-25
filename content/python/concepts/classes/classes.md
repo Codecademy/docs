@@ -78,6 +78,33 @@ blue_home = Home()
 blue_home.paint_wall("blue")
 ```
 
+#### Static Methods
+
+It is also possible to create method that only apply to the class itself, not instances of the class. These can be distinguised with `@classmethod` and `@staticmethod`:
+
+```py
+class Home:
+  name="Code Ninja"
+  rooms = 4
+  stories = 2
+
+  @staticmethod
+  def is_on_market(home):
+    if(home.name == ""):
+      return True
+    else:
+      return False
+
+  @classmethod
+  def paint_wall(self, color):
+    return f"Painting wall with the color {color}."
+
+home = Home()
+
+print(Home.is_on_market(home))
+# Output: False
+```
+
 #### Customized Class Methods
 
 The `__init__()` method is used to initialize a newly created object. It is called each time a class is instantiated. Instance variables are set within the `__init__()` method block. They can be set initially within the `__init__()` method when the instance is created, or instance variables can be added by setting them to values.
