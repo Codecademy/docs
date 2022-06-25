@@ -86,7 +86,7 @@ SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY); /* Output: 2002-12-07 */
 
 ### Example 2
 
-The following example adds `30` to the `MINUTE` part of `2002-10-31 10:35:02`:
+The following example adds `30` minutes to `2002-10-31 10:35:02`:
 
 ```sql
 SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE); /* Output: 2002-10-31 11:05:02 */
