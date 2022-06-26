@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Geolocation** refers to the process of determining the geographic location of an object, typically through electronic means such as GPS. The most common example of geolocation currently is the location function in various electronic devices such as smartphones. 
+**Geolocation** refers to the process of determining the geographic location of an object, typically through electronic means such as GPS. The most common example of geolocation currently is the location function in various electronic devices such as smartphones.
 
 Most smartphones have a mapping app that can locate the phone on a street map in order to provide directions to some other location. There are three main ways a smartphone (and other consumer electronics) can do this:
 
