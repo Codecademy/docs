@@ -19,4 +19,4 @@ Most smartphones have a mapping app that can locate the phone on a street map in
 - Wireless: A device connects with several different cell towers in the area and using signal strength and triangulation determines its position on the ground. The disadvantage is this can be inaccurate when there are limited cell towers available, and will not work where there is no cell reception.
 - Wireless-assisted GPS: Combines both methods to compensate for the weaknesses of both. It can often get the device's location faster than GPS alone.
 
-Many modern applications can be given access to a device's geolocation data, so a review app can show restaurants within a few miles, a banking app can show nearby branches, or a game can offer augmented reality experiences based on where the device is located.
+Many modern applications can be given access to a device's geolocation data, so a review app can show restaurants within a few miles, a banking app can show nearby branches, or a game can offer [augmented reality](https://www.codecademy.com/resources/docs/general/augmented-reality) experiences based on where the device is located.
