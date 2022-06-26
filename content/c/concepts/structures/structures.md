@@ -1,6 +1,6 @@
 ---
 Title: 'Structures'
-Description: 'A structure is a collection that can be used to group different types of data together.'
+Description: 'A structure can be used to group different types of data together.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
