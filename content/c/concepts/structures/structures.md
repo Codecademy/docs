@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure is a collection that can be used to group different types of data together. It is defined using the `struct` keyword.
+A structure can be used to group different types of data together. It is defined using the `struct` keyword.
 
 ## Syntax
 
