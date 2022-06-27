@@ -27,5 +27,12 @@ No parameters are required for the `.length()` method.
 The `.length()` method is showcased in the following example:
 
 ```java
+import java.io.*;
 
+class Example {
+  public static void main(String[] args) {
+    String greetings = "Hello, Code Ninja!";
+    System.out.println(greetings.length());
+  }
+}
 ```

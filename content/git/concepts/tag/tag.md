@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-git'
 ---
 
-The **`tag`** command creates, lists, deletes, or verifies a commit marker with a [GnuPG tag object](https://gnupg.org/) attached. This helps add some semantic meaning to a commit its message.
+The **`tag`** command creates, lists, deletes, or verifies a commit marker with a [GnuPG tag object](https://gnupg.org/) attached. This helps add some semantic meaning to a commit message.
 
 ## Syntax
 
@@ -44,6 +44,6 @@ The `<tag-object>` is usually the commit that the new tag refers to (defalts to 
 
 The following is a small exapmle of the `tag` command being used to create and annotate an object for the `HEAD` commit pointer:
 
-```git
+```shell
 git tag -a tag-for-head-pointer
 ```

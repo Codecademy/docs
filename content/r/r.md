@@ -17,8 +17,8 @@ One of the most prominent IDEs for R programming is RStudio, which can be downlo
 
 The R programming langauge can be installed via [the Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). There are separate sets of download instructions for the following operating systems:
 
-- Windows (Microsoft)
+- [Windows (Microsoft)](https://cran.r-project.org/bin/windows/)
 
-- macOS (Apple)
+- [macOS (Apple)](https://cran.r-project.org/bin/macosx/)
 
 - [Linux](https://cran.r-project.org/bin/linux/) (there are separate processes for [Debian](https://cran.r-project.org/bin/linux/debian), [Fedora/Redhat](https://cran.r-project.org/bin/linux/fedora), and [Ubuntu](https://cran.r-project.org/bin/linux/ubuntu))
