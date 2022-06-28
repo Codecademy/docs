@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Example
 
-To store the 32-bit integer `0x0A0B0C0D` it is broken down into four bytes:
+To store the 32-bit integer `0x0A0B0C0D`, it is broken down into four bytes:
 
 - `0x0A`
 - `0x0B`
