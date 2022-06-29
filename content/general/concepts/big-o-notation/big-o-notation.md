@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Big-O notation** is a form of measuring the complexity of an algorithm. This can take the form of a time complexity analysis or a space complexity analysis. At times, an algorithm can be refactored or reworked to achieve a more efficient time and space complexity. To describe the time or space complexity, two different notations are used: big omega notation and big-O. Big omega describes the best running case scenario while big-O describes the worst case scenario.
+**Big-O notation** is a form of measuring the algorithmic complexity of a [function](https://www.codecademy.com/resources/docs/general/function) or [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) in the worst-case scenario. This can either analyze the maximum amount of possible time or memory space needed to solve a particular problem. Solutions can be refactored or reworked to achieve a more efficient time/space complexity with the help of Big-O notation.
 
 ## Common Runtimes
 
