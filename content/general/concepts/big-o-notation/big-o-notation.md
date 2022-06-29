@@ -1,6 +1,6 @@
 ---
 Title: 'Big-O Notation'
-Description: 'Big-O notation is a form of measuring the complexity of an algorithm. '
+Description: 'Big-O notation is a form of measuring the algorithmic time/space complexity of a function in worst-case scenario.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
