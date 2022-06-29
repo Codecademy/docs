@@ -56,7 +56,7 @@ SELECT DATEDIFF(second, '2021/09/30 08:22:04', '2021/09/30 08:25:06'); /* Output
 
 ## MySQL Syntax
 
-MySQL only requires two date parameters in the `DATEDIFF()` and will return the number of days between `date1` and `date2`.
+MySQL only requires two date parameters in the `DATEDIFF()` function and will return the number of days between `date1` and `date2`.
 
 ```pseudo
 DATEDIFF(date1, date2)
