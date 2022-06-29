@@ -38,7 +38,7 @@ The `<tag-name>` refers to the tag object for a commit.
 
 The `<commit-reference>` is the commit the tag will be attached to.
 
-The `<tag-object>` is usually the commit that the new tag refers to (defalts to the `HEAD`) pointer.
+The `<tag-object>` is usually the commit that the new tag refers to (defaults to the `HEAD`) pointer.
 
 ## Example
 
