@@ -14,7 +14,7 @@ CatalogContent:
 
 A **`String`** in Java is an object that holds a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive datatype.
 
-`String`s can either be compared by value via method (e.g., [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals)) or by reference, or location in memory, (e.g., `==`) via operator.
+Strings can either be compared by value via method (e.g., [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals)) or by reference, or location in memory, (e.g., `==`) via operator.
 
 ## Example
 
