@@ -110,3 +110,39 @@ Date: Jun 25 2022
 Time: 14:05:33
 Line number: 7
 ```
+
+## Undefining a Macro
+
+Once defined, a macro can be undefined with the `#undef` command. Using the macro after that point will result in a compile error.
+
+### Example
+
+```c
+#include <stdio.h>
+#define TEST 1
+
+int main() {
+  #ifdef TEST
+    printf("TEST defined\n");
+  #else
+    printf("TEST undefined\n");
+  #endif
+  
+  #undef TEST
+  
+  #ifdef TEST
+    printf("TEST defined\n");
+  #else
+    printf("TEST undefined\n");
+  #endif
+  
+}
+```
+
+This results in the output:
+
+```shell
+TEST defined
+TEST undefined
+```
+
