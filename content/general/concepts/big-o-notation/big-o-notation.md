@@ -46,4 +46,4 @@ def foo(list1, list2):
 foo(["Hello", "World"], ["Code", "Ninjas"])
 ```
 
-Big-O Notation: $O(n^{2})$
+For each item of `list1` in the outer loop, each item in `list2` is traversed in an inner loop. The Big-O notation for the `foo()` function would be $O(n^{2})$.
