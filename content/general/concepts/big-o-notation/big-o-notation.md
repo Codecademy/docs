@@ -32,7 +32,7 @@ Here are some common runtimes:
 
 ## Simplifying Big-O Expressions
 
-When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms. For example: O(n) + O(ln(n)). In this situation, it is best practice to drop all of the lower order terms so the big-O notation would simplify into just O(n).
+When determining an expression that characterizes the time or space complexity of an algorithm, an expression may contain multiple terms ( e.g., $O(n) + O(ln(n))$ ). In this situation, it is best practice to drop all of the lower order terms so the big-O notation would simplify into just O(n).
 
 ## Python Big-O Practice
 
