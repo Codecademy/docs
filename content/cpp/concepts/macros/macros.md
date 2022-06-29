@@ -18,7 +18,7 @@ There are two types of macros: [object](https://www.codecademy.com/resources/doc
 
 ## Object-like Macros
 
-These macros are replaced by their value in the source code before compilation. Their primary purpose is defining constants to be used in the code.
+These macros are replaced by their value in the source code before compilation. Their primary purpose is to define constants to be used in the code.
 
 **Note**: Macro definitions are not followed by a semicolon `;`.
 
