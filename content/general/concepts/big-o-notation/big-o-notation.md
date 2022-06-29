@@ -6,6 +6,8 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Algorithms'
+  - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
