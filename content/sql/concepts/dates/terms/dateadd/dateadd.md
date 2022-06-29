@@ -44,7 +44,8 @@ DATEADD(interval, amount, date)
 The following example adds `10` months to `2022/06/22`:
 
 ```sql
-SELECT DATEADD(month, 10, '2022/06/22'); /* Output: 2023-04-22 00:00:00.000 */
+SELECT DATEADD(month, 10, '2022/06/22');
+/* Output: 2023-04-22 00:00:00.000 */
 ```
 
 ### Example 2
