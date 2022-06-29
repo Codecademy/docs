@@ -22,60 +22,101 @@ The usage of classes are a key element of [object-oriented programming](https://
 
 ## Creating a Class
 
+In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword.
+
 ```py
 class Home:
   # Class body starts here
 ```
 
-In Python, classes are defined using the [`class`](https://www.codecademy.com/resources/docs/python/keywords/class) keyword. Within the code of the class, we can call its methods and access its variables. We do this by using `self` followed by a period `.` and then followed by the method or variable.
+**Note**: The example above would actually be invalid because class definitions cannot be empty. However, the `pass` statement can be used as a placeholder to avoid errors:
+
+```py
+class Home:
+  pass
+```
+
+In the class body, the `self` keyword, followed by a period `.`, can be used to call its methods and access its variables, as shown in the `__init__()` [dunder method](https://www.codecademy.com/resources/docs/python/dunder-methods) below:
+
+```py
+class Home:
+  def __init__(self, rooms, stories):
+    # Setting instance variables
+    self.rooms = rooms
+    self.stories = stories
+```
 
 ### Class Instances
 
-Objects can be created or instantiated, from classes. These objects are known as class instances. To create an instance of a class, we can set a variable equal to the class name followed by parentheses `()`:
+Objects can be created or instantiated, from classes. These objects are known as class instances and are created by setting a variable equal to the class name followed by parentheses `()`:
 
 ```py
 my_home = Home()
 ```
 
-Here, the instance name is `my_home`, and the class is `Home`.
+Here, the instance name is `my_home`, and the class is `Home`. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) method.
 
 ### Attributes
 
-Class attributes are variables that are defined outside of all methods and have the same value for every instance of the class.
+Class attributes are variables that are defined outside of all methods and have the same value for every instance of the class. They also can be accessed via the class name rather than the instance name. Setting the variable via the class name will change it for all instances.
+
+**Note**: Setting it via an instance name will break the connection for that instance.
 
 ```py
 class Bird:
   # Class attribute
-  leg_count = 2
+  is_hungry = True
 
 parakeet = Bird()
 parrot = Bird()
 
-print(parakeet.leg_count) # Output: 2
-print(parrot.leg_count)   # Output: 2
+
+print("Birds are hungry!")
+print("Feeding birds...")
+
+parakeet.is_hungry = False
+parrot.is_hungry = False
+
+print("Birds fed!")
+```
+
+This will output the following:
+
+```shell
+Birds are hungry!
+Feeding birds...
+Birds fed!
 ```
 
 ### Methods
 
-Methods are [functions](https://www.codecademy.com/resources/docs/python/functions) defined as part of a class. The first parameter for any class method is the actual object calling the method, usually called `self`.
+Methods are [functions](https://www.codecademy.com/resources/docs/python/functions) defined as part of a class. The first parameter for any class method, including dunder methods, is the actual object calling the method, usually called `self`.
 
-For example, the following class `Home` has a method called `.paint_wall()`:
-
-- The first parameter is `self`.
-- The second parameter is `color`.
-
-When calling a class method, no argument is provided for the parameter `self`, but arguments must be provided for each following parameter.
+The following is a slight modification of the `Bird` class from the previous section:
 
 ```py
-class Home:
-  def paint_wall(self, color):
-    # Method body
+class Bird:
+  # Class attribute
+  is_hungry = True
 
-# Creating an instance of the class
-blue_home = Home()
+  def feed_bird(self, food):
+    if(self.is_hungry):
+      self.is_hungry = False
+      print(f"Feeding with {food}. Bird fed!")
+    else:
+      print("Bird already ate.")
 
-# Calling the method on the instance
-blue_home.paint_wall("blue")
+sparrow = Bird()
+
+sparrow.feed_bird('seeds')
+sparrow.feed_bird('oats')
+```
+
+A `feed_bird()` method is defined in the `Bird` class body, accepting a `food` paramter. Inside, an `if..else` [conditional](https://www.codecademy.com/resources/docs/python/conditionals) prints a different message depending on whether or not the `is_hungry` attribute is true. The following will be printed based on the example:
+
+```shell
+Feeding with seeds. Bird fed!
+Bird already ate.
 ```
 
 #### Static Methods
@@ -103,41 +144,6 @@ home = Home()
 
 print(Home.is_on_market(home))
 # Output: False
-```
-
-#### Customized Class Methods
-
-The `__init__()` method is used to initialize a newly created object. It is called each time a class is instantiated. Instance variables are set within the `__init__()` method block. They can be set initially within the `__init__()` method when the instance is created, or instance variables can be added by setting them to values.
-
-```py
-class Home:
-  def __init__(self, rooms, stories):
-    # Setting instance variables
-    self.rooms = rooms
-    self.stories = stories
-
-home = Home(4, 2)
-
-print(home.rooms)   # Output: 4
-print(home.stories) # Output: 2
-```
-
-The `__repr__()` method returns the string representation of the class. One way to see the string representation is to call [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance.
-
-```py
-class Home:
-  def __init__(self, rooms, stories):
-    self.rooms = rooms
-    self.stories = stories
-
-  def __repr__(self):
-    return "Home with {} rooms and {} stories".format(self.rooms, self.stories)
-
-home1 = Home(4, 2)
-print(home1) # Output: Home with 4 rooms and 2 stories
-
-home2 = Home(5, 2)
-print(home2) # Output: Home with 5 rooms and 2 stories
 ```
 
 ## Example

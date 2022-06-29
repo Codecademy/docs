@@ -1,6 +1,6 @@
 ---
 Title: 'class'
-Description: ''
+Description: 'Used for defining classes in Python.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
