@@ -36,6 +36,8 @@ When determining an expression that characterizes the time or space complexity o
 
 ## Python Big-O Practice
 
+The following Python example analyzes the time/space complexity of the `foo()` function:
+
 ```
 def foo(list1, list2):
   for item in list1:
