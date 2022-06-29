@@ -42,7 +42,7 @@ The `<tag-object>` is usually the commit that the new tag refers to (defaults to
 
 ## Example
 
-The following is a small exapmle of the `tag` command being used to create and annotate an object for the `HEAD` commit pointer:
+The following is a small example of the `tag` command being used to create and annotate an object for the `HEAD` commit pointer:
 
 ```shell
 git tag -a tag-for-head-pointer
