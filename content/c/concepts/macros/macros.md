@@ -127,15 +127,15 @@ int main() {
   #else
     printf("TEST undefined\n");
   #endif
-  
+
   #undef TEST
-  
+
   #ifdef TEST
     printf("TEST defined\n");
   #else
     printf("TEST undefined\n");
   #endif
-  
+
 }
 ```
 
@@ -145,4 +145,3 @@ This results in the output:
 TEST defined
 TEST undefined
 ```
-
