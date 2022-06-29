@@ -25,19 +25,19 @@ The `DATEDIFF()` function in SQL Server has three parameters:
 DATEDIFF(datePart, date1, date2)
 ```
 
-- `date1` and `date2` are the dates to compare. Follows the 'yyyy/mm/dd' format.
 - `datePart` is the part of the date to return. It can be one of the following formats:
-  - Year: year, yyyy, yy
-  - Quarter: quarter, qq, q
-  - Week: week, ww, wk
-  - Weekday: weekday, dw, w
-  - Second: second, ss, s
-  - Month: month, mm, m
-  - Minute: minute, mi, n
-  - Millisecond: millisecond, ms
-  - Hour: hour, hh
-  - Day of Year: dayofyear
-  - Day: day, dy, y
+  - Year: `year`, `yyyy`, `yy`
+  - Quarter: `quarter`, `qq`, `q`
+  - Week: `week`, `ww`, `wk`
+  - Weekday: `weekday`, `dw`, `w`
+  - Second: `second`, `ss`, `s`
+  - Month: `month`, `mm`, `m`
+  - Minute: `minute`, `mi`, `n`
+  - Millisecond: `millisecond`, `ms`
+  - Hour: `hour`, `hh`
+  - Day of Year: `dayofyear`
+  - Day: `day`, `dy`, `y`
+- `date1` and `date2` are the dates to compare. Follows the 'yyyy/mm/dd' format.
 
 ### Example 1
 
