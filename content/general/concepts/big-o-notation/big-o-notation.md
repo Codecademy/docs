@@ -37,11 +37,13 @@ When determining an expression that characterizes the time or space complexity o
 ## Python Big-O Practice
 
 ```
-# Example function
 def foo(list1, list2):
-    for item in list1:
-        for item2 in list2:
-            print("*")
+  for item in list1:
+    print(f"Outer loop: {item}")
+    for item2 in list2:
+      print(f"Inner loop: {item2}")
+
+foo(["Hello", "World"], ["Code", "Ninjas"])
 ```
 
 Big-O Notation: $O(n^{2})$
