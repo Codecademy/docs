@@ -35,7 +35,7 @@ A way to think about this lexicographical evaluation is noting the Unicode value
 |   `A` - `Z`   | 65 - 90  | `"A".compareTo("B");` -> 65 - 66 = -1  |
 |   `a` - `z`   | 97 - 122 | `"z".compareTo("w");` -> 122 - 119 = 3 |
 
-**Note:** This method is case-sensitive. The [`.compareToIgnoreCase()`](https://www.codecademy.com/resources/docs/java/strings/compareToIgnoreCase) in order to not compare upper and lower case differences. Alternatively, the [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can used to compare strings without taking Unicode values into account.
+**Note:** This method is case-sensitive. The [`.compareToIgnoreCase()`](https://www.codecademy.com/resources/docs/java/strings/compareToIgnoreCase) can be used to ignore upper and lower case differences. Alternatively, the [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals) method can used to compare strings without taking Unicode values into account.
 
 ## Example 1
 
