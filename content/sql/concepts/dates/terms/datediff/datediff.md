@@ -18,7 +18,7 @@ CatalogContent:
 
 ## SQL Server Syntax
 
-The `DATEFIFF()` function in SQL Server has three parameters:
+The `DATEDIFF()` function in SQL Server has three parameters:
 
 ```pseudo
 DATEDIFF(datePart, date1, date2)
