@@ -118,3 +118,40 @@ Date: Jun 25 2022
 Time: 14:17:50
 Line number: 9
 ```
+
+## Undefining a Macro
+
+Once defined, a macro can be undefined with the `#undef` command. Using the macro after that point will result in a compile error.
+
+### Example
+
+```cpp
+#include <iostream>
+using namespace std;
+
+#define TEST 1
+
+int main() {
+  #ifdef TEST
+    cout << "TEST defined\n";
+  #else
+    cout << "TEST undefined\n";
+  #endif
+  
+  #undef TEST
+  
+  #ifdef TEST
+    cout << "TEST defined\n";
+  #else
+    cout << "TEST undefined\n";
+  #endif
+  
+}
+```
+
+This results in the output:
+
+```shell
+TEST defined
+TEST undefined
+```
