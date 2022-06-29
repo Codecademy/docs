@@ -25,7 +25,7 @@ import java.util.*;
 
 class StringExample {
   public static void main(String[] args) {
-    // Using a String literal
+    // Using a string literal
     System.out.println("Codecademy");
 
     // Creating a String variable
