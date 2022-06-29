@@ -27,17 +27,17 @@ DATEADD(interval, amount, date)
 - `date` is the date being added to.
 - `amount` is the amount of `interval` to add to `date`. A negative amount subtracts the interval from the date.
 - `interval` is the date or time interval to add to `date`. It can be one of the following formats:
-  - Year: year, yyyy, yy
-  - Quarter: quarter, qq, q
-  - Week: week, ww, wk
-  - Weekday: weekday, dw, w
-  - Second: second, ss, s
-  - Month: month, mm, m
-  - Minute: minute, mi, n
-  - Millisecond: millisecond, ms
-  - Hour: hour, hh
-  - Day of Year: dayofyear
-  - Day: day, dy, y
+  - Year: `year`, `yyyy`, `yy`
+  - Quarter: `quarter`, `qq`, `q`
+  - Week: `week`, `ww`, `wk`
+  - Weekday: `weekday`, `dw, `w`
+  - Second: `second`, `ss`, `s`
+  - Month: `month`, `mm`, `m`
+  - Minute: `minute`, `mi`, `n`
+  - Millisecond: `millisecond`, `ms`
+  - Hour: `hour`, `hh`
+  - Day of Year: `dayofyear`
+  - Day: `day`, `dy`, `y`
 
 ### Example 1
 
