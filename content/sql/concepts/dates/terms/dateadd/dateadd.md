@@ -25,8 +25,6 @@ The `DATEADD()` function in SQL Server has three parameters:
 DATEADD(interval, amount, date)
 ```
 
-- `date` is the date being added to.
-- `amount` is the amount of `interval` to add to `date`. A negative amount subtracts the interval from the date.
 - `interval` is the date or time interval to add to `date`. It can be one of the following formats:
   - Year: `year`, `yyyy`, `yy`
   - Quarter: `quarter`, `qq`, `q`
@@ -39,6 +37,8 @@ DATEADD(interval, amount, date)
   - Hour: `hour`, `hh`
   - Day of Year: `dayofyear`
   - Day: `day`, `dy`, `y`
+- `amount` is the amount of `interval` to add to `date`. A negative amount subtracts the interval from the date.
+- `date` is the date being added to.
 
 ### Example 1
 
