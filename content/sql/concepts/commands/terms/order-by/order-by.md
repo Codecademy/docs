@@ -10,6 +10,7 @@ Tags:
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -27,8 +28,8 @@ ORDER BY column_name ASC | DESC;
 
 `ORDER BY` can be set in two ways:
 
-- `DESC` is a keyword used to sort the results in descending order.
 - `ASC` is a keyword used to sort the results in ascending order (default).
+- `DESC` is a keyword used to sort the results in descending order.
 
 ## Example
 

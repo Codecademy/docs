@@ -1,6 +1,6 @@
 ---
 Title: 'DELETE'
-Description: 'Removes existing record(s) from a table. If a WHERE statement is excluded, all records in the table will be deleted.'
+Description: 'Removes existing row(s) from a table. If a WHERE statement is excluded, all rows in the table will be deleted.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -9,24 +9,33 @@ Tags:
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/design-databases-with-postgresql'
 ---
 
-Removes existing record(s) from a table. If a `WHERE` statement is excluded, all records in the table will be deleted.
+The **`DELETE`** command removes existing row(s) from a table.
 
-## Example
+## Syntax
 
-Suppose there's a `students` table and we want to delete all the non-current students:
+```pseudo
+DELETE FROM table WHERE condition;
+```
+
+**Note**: If the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause is excluded, all rows in the `table` will be deleted.
+
+## Examples
+
+The first example assumes there is a `students` table and all the rows where the student has a `not_current` status are deleted:
 
 ```sql
 DELETE FROM students
 WHERE enrolled_status = 'not_current';
 ```
 
-Suppose we want to delete all entries in the `students` table:
+The next example is more destructive. The entire `students` table will be deleted due to there being no `WHERE` clause:
 
 ```sql
 DELETE FROM students;
