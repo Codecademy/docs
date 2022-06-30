@@ -12,15 +12,17 @@ CatalogContent:
   - 'learn-git'
 ---
 
-In Git, the `reset` command is used to change the state of the Git repository or undo commits.
+The **`reset`** command is used to change the state of the Git repository or undo commits.
+
+**Note**: This command is ideal for undoing uncommited changes made in a private, local repository. For undoing changes in a public, remote repository, the `revert` command is recommended.
 
 ## Syntax
-
-The `git reset` command is run in the [terminal](https://www.codecademy.com/resources/docs/general/terminal) and generally follows this template:
 
 ```pseudo
 git reset <mode-option> <commit-reference>
 ```
+
+This is run in the [terminal](https://www.codecademy.com/resources/docs/general/terminal). The `<mode-options>` and `<commit-reference>` are discussed in more detail below.
 
 ### Mode Options
 
@@ -43,6 +45,8 @@ If, for example, an error was made in a text file, **example.txt**, and the chan
 The `commit-reference` refers to a commit's unique hash, or save point, that was generated after creation. This hash is a long string that is a mix of characters and numbers that is usually represented by a shorter version: `05df67f9066c8ddd95c8d7bb2137acfb8b18e167` -> `05df67f`
 
 `git reset` can be used with either the commit hash or with the `HEAD` keyword, which refers to the commit being viewed on the currently checked-out branch.
+
+Alternatively, a filename can be used in place of the `commit-reference` to undo a `git add` for a file that wasn't meant to be staged for commit.
 
 ## Example
 
