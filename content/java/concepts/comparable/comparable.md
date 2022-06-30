@@ -17,10 +17,10 @@ The **Comparable** interface is used to define how a class is to be sorted. It i
 The Comparable interface only has one method, `.compareTo()` that is used to compare the current instance of the class with another instance of the same class, and the sort is based on the return value of `.compareTo()`:
 
 | Return Value | Means                           |
-|:------------:|---------------------------------|
+| :----------: | ------------------------------- |
 |    `>= 1`    | this instance > passed instance |
-|      `0`     | this instance = passed instance |
-|    `<= -1`   | this instance < passed instance |
+|     `0`      | this instance = passed instance |
+|   `<= -1`    | this instance < passed instance |
 
 This method determines how items are sorted by methods such as `Arrays.sort()` and `Collections.sort()`.
 
@@ -52,18 +52,18 @@ import java.util.*;
 class Employee implements Comparable<Employee> {
   String firstName;
   String lastName;
-  
+
   public Employee(String first, String last)
   {
     this.firstName = first;
     this.lastName = last;
   }
-  
+
   public String toString()
   {
     return "( " + lastName + ", " + firstName + " )";
   }
-  
+
   @Override public int compareTo(Employee value)
   {
     if (this.lastName.compareTo(value.lastName) != 0) {
@@ -83,9 +83,9 @@ public class SortExample {
     a[2] = new Employee("Martin","Sheen");
     a[3] = new Employee("Charlie","Sheen");
     a[4] = new Employee("Michael","Douglas");
-    
+
     Arrays.sort(a);
-    
+
     for (int i=0; i < a.length; i++) {
       System.out.println(a[i]);
     }

@@ -17,10 +17,10 @@ The **Comparator** interface is used to order objects of an arbitrary class. It 
 The Comparator interface has a method, `.compare()` that is used to compare two instances of the same class, passed as agruments. The sorting is based on the return value of `.compare()`:
 
 | Return Value | Means                                          |
-|:------------:|------------------------------------------------|
+| :----------: | ---------------------------------------------- |
 |    `>= 1`    | first object instance > second object instance |
-|      `0`     | first object instance = second object instance |
-|    `<= -1`   | first object instance < second object instance |
+|     `0`      | first object instance = second object instance |
+|   `<= -1`    | first object instance < second object instance |
 
 A Comparator class can be passed as an argument to methods such as `Arrays.sort()` and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
 
@@ -50,13 +50,13 @@ import java.util.*;
 class Employee {
   String firstName;
   String lastName;
-  
+
   public Employee(String first, String last)
   {
     this.firstName = first;
     this.lastName = last;
   }
-  
+
   public String toString()
   {
     return "( " + lastName + ", " + firstName + " )";
@@ -64,7 +64,7 @@ class Employee {
 }
 
 class EmployeeSort implements Comparator<Employee> {
-  
+
   @Override public int compare(Employee valueA, Employee valueB)
   {
     if (valueA.lastName.compareTo(valueB.lastName) != 0) {
@@ -84,9 +84,9 @@ public class SortExample {
     a[2] = new Employee("Martin","Sheen");
     a[3] = new Employee("Charlie","Sheen");
     a[4] = new Employee("Michael","Douglas");
-    
+
     Arrays.sort(a, new EmployeeSort());
-    
+
     for (int i=0; i < a.length; i++) {
       System.out.println(a[i]);
     }
