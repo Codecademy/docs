@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The abstract factory pattern utilizes a common interface for multiple factories without defining their concrete model classes. It is often thought of as a factory of factory patterns where object composition is used to separate instantiation logic from application logic.
+The **abstract factory pattern** utilizes a common interface for multiple factories without defining their concrete model classes. It is often thought of as a factory of factory patterns where object composition is used to separate instantiation logic from application logic.
 
 ## UML Design
 
