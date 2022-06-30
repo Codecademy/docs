@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A String in Java is an object that holds a sequence of characters contained within a pair of double quotes ("). It is not a primitive datatype. Java strings provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces. java // Creating a String variable String name = "Codecademy"; // Creating another String variable String address = "575 Broadway #5, New York, NY 10012"'
+Description: 'A string in Java is an object that holds a sequence of characters contained within a pair of double quotes (").'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,23 +12,32 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `String` in Java is an object that holds a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive datatype.
+**Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive data type.
 
-Java strings provide a way to store something like a word, sentence, or whole paragraph. They can be any length and can contain letters, numbers, symbols, and spaces.
+Strings can either be compared by value via method (e.g., [`.equals()`](https://www.codecademy.com/resources/docs/java/strings/equals)) or by reference, or location in memory, (e.g., `==`) via operator.
+
+## Example
+
+Java strings provide a way to store text such as words, sentences, or whole paragraphs. They can be any length and may contain letters, numbers, symbols, and spaces:
 
 ```java
-// Creating a String variable
-String name = "Codecademy";
+import java.util.*;
 
-// Creating another String variable
-String address = "575 Broadway #5, New York, NY 10012";
+class StringExample {
+  public static void main(String[] args) {
+    // Using a string literal
+    System.out.println("Codecademy");
+
+    // Creating a String variable
+    String address = "575 Broadway #5, New York, NY 10012";
+    System.out.println(address);
+  }
+}
 ```
 
-To compare `String`s, the `.equals()` method must be used instead of the primitive equality comparator `==`. `.equals()` will compare the values of the strings, while `==` compares the references (location in memory) of the strings.
+This will output the following:
 
-```java
-String name = "Bob";
-
-// The following will print "false" because strings are case-sensitive
-System.out.println(name.equals("bob"));
+```shell
+Codecademy
+575 Broadway #5, New York, NY 10012
 ```
