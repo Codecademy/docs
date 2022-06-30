@@ -5,6 +5,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
+  - 'Date'
   - 'Queries'
   - 'SQL Server'
   - 'MySQL'
