@@ -16,7 +16,7 @@ A **macro** is a label defined in the source code that is replaced by its value 
 
 There are two types of macros: object-like macros and function-like macros.
 
-## Object-like Macros
+## Object-Like Macros
 
 These macros are replaced by their value in the source code before compilation. Their primary purpose is to define constants to be used in the code.
 
@@ -45,7 +45,7 @@ This example outputs the following:
 Area is: 28.274401
 ```
 
-## Function-like Macros
+## Function-Like Macros
 
 These macros behave like [functions](https://www.codecademy.com/resources/docs/c/functions), in that they take arguments that are used in the replaced code. Note that in defining a function-like macro, there cannot be a space between the macro name and the opening parenthesis.
 
