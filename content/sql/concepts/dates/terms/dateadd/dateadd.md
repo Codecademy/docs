@@ -29,7 +29,7 @@ DATEADD(interval, amount, date)
   - Year: `year`, `yyyy`, `yy`
   - Quarter: `quarter`, `qq`, `q`
   - Week: `week`, `ww`, `wk`
-  - Weekday: `weekday`, `dw, `w`
+  - Weekday: `weekday`, `dw`, `w`
   - Second: `second`, `ss`, `s`
   - Month: `month`, `mm`, `m`
   - Minute: `minute`, `mi`, `n`
