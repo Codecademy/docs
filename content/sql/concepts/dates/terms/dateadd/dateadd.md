@@ -75,8 +75,7 @@ DATE_ADD(date, INTERVAL value unit)
 
 - `date` is the date being added to.
 - `value` is the amount of the `unit` to add to `date`. A negative value subtracts the amount from the `date`.
-- `unit` can be one of the following:
-  - YEAR, SECOND, MONTH, MINUTE, HOUR, DAY
+- `unit` can be set to `YEAR`, `SECOND`, `MONTH`, `MINUTE`, `HOUR`, or `DAY`.
 
 ### Example 1
 
