@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-Functional Programming (FP) is a declarative software development paradigm that encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application.
+**Functional programming (FP)** is a declarative software development paradigm that encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application.
 
 In FP, dependencies such as variables or objects needed for a function, are always declared explicitly by passing them into the function as arguments. Any operation inside the function is therefore bound to the arguments passed, instead of depending on global objects or variables. This makes the function:
 
@@ -26,12 +26,12 @@ FP helps make code more modular and understandable.
 
 FP revolves around a few fundamental concepts that are important to discern in order to understand what makes it a popular approach to software development.
 
-### First-class entities
+### First-Class Entities
 
 In FP, functions are considered to be first-class entities. This means that functions can be:
 
-- Assigned to a variable
-- Passed as arguments into other functions
+- Assigned to a variable.
+- Passed as arguments into other functions.
 - Returned from other functions, just as any other data type can.
 
 Higher-order functions are a type of first-class functions, as they can take functions as arguments and/or return a function.
