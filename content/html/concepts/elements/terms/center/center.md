@@ -38,7 +38,7 @@ Historical use:
 </center>
 ```
 
-The modern alternative is using the [`<div>`](https://www.codecademy.com/resources/docs/html/tags/div) tag, instead:
+The modern alternative is using a [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) element, instead:
 
 ```html
 <!-- Use this, instead. :) -->
