@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`Comparator`** interface is used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
 
-The Comparator interface has a method, `.compare()` that is used to compare two instances of the same class, passed as agruments. The sorting is based on the return value of `.compare()`:
+The `Comparator` interface has a `.compare()` method that is used to compare two instances of the same class, passed as arguments. The sorting is based on the return value of `.compare()`:
 
 | Return Value | Means                                          |
 | :----------: | ---------------------------------------------- |
