@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code. In JavaScript, single-line comments are created with two consecutive forward slashes //. js // Prints 5 to the console console.log(5);  A single-line comment can also be used to comment after a line of code:'
+Description: 'A comment is a piece of text within a program that is not executed but provides additional information to aid in understanding the code.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,18 +12,18 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
+In JavaScript **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
 ## Single-line Comments
 
-In JavaScript, single-line comments are created with two consecutive forward slashes `//`.
+Single-line comments are created with two consecutive forward slashes `//`:
 
 ```js
 // Prints 5 to the console
 console.log(5);
 ```
 
-A single-line comment can also be used to comment after a line of code:
+A single-line comment can also be used inline to comment after a line of code:
 
 ```js
 console.log(5); // Prints 5
@@ -35,7 +35,7 @@ Multi-line comments are created by surrounding the lines with `/*` at the beginn
 
 ```js
 /*  
-The below configuration must be 
+The configuration below must be 
 changed before deployment. 
 */
 
@@ -50,9 +50,9 @@ console.log(/* IGNORED! */ 5); // Still prints 5
 
 ## Codebyte Example
 
-Try commenting and uncommenting the code below:
+The code in the following that is not commented out will execute when the program is run:
 
-```codebyte/js
+```codebyte/javascript
 /*
 console.log("Howdy!")
 */

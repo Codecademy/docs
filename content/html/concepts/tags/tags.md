@@ -1,6 +1,6 @@
 ---
 Title: 'Tags'
-Description: 'A HTML tag is commonly defined as a set of characters constituting a formatted command for a web page. During the early days of the World Wide Web, they were responsible for a majority of the webs code. Here are some of the most common HTML tags ordered alphabetically:'
+Description: 'A tag is a set of characters constituting a formatted command for a web page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -11,6 +11,14 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A HTML tag is commonly defined as a set of characters constituting a formatted command for a web page. During the early days of the World Wide Web, they were responsible for a majority of the web's code.
+In HTML, **tags** are commonly defined as a set of characters constituting a formatted command for a web page. They are used for making [elements](https://www.codecademy.com/resources/docs/html/elements) for the web page's markup. During the early days of the World Wide Web, tags were responsible for a majority of the web's code.
 
-Here are some of the most common HTML tags ordered alphabetically:
+## Syntax
+
+```pseudo
+<element-name> content </element-name>
+
+<self-closing-element-tag />
+```
+
+A single tag is made of an opening angle bracket `<`, followed by the `element-name`, followed by the closing angle bracket. While most elements are made of opening and closing tags but some are self-closing. Furthermore, some self-closing elements like [`<br>`](https://www.codecademy.com/resources/docs/html/elements/br) can have a slash at the end like so: `<br />`.
