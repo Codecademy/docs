@@ -22,7 +22,7 @@ The `Comparator` interface has a `.compare()` method that is used to compare two
 |     `0`      | first object instance = second object instance |
 |   `<= -1`    | first object instance < second object instance |
 
-A Comparator class can be passed as an argument to methods such as `Arrays.sort()` and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
+A Comparator class can be passed as an argument to methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
 
 ## Syntax
 
