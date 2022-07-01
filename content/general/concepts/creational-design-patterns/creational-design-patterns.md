@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Creational design patterns concern themselves with the instantiation of objects. At the time of creation, additional logic may be needed to decide what or how object types need to be created.
+**Creational design patterns** concern themselves with the instantiation of objects. At the time of creation, additional logic may be needed to decide what or how object types need to be created.
 
 Five main creational design patterns are outlined below:
 
