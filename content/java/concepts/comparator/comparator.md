@@ -37,7 +37,7 @@ class MyComparator implements Comparator<MyClass> {
 }
 ```
 
-The Comparator class `MyComparator` will define a sort order for `MyClass` using its `.compare()` method, which takes two `MyClass` instances as arguments. The `.compare()` method will use its comparison logic to return a result reflecting the relative ordering of `MyClass` `a` and `b`.
+The `MyComparator` class will define a sort order for `MyClass` using its `.compare()` method, which takes two `MyClass` instances as arguments. The `.compare()` method will use its comparison logic to return a result reflecting the relative ordering of `MyClass`, `a`, and `b`.
 
 ## Example
 
