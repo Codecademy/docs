@@ -11,7 +11,7 @@ CatalogContent:
   - 'path/front-end-engineer-career-path'
 ---
 
-**Navigation** allows users to travel through a digital interface and interact with elements such as [links](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/html/tags/button). Interacting with these elements can result in internal or external navigation.
+**Navigation** allows users to travel through a digital interface and interact with elements such as [links](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/html/elements/button). Interacting with these elements can result in internal or external navigation.
 
 _Internal_ navigation directs users to a location within the same website or interface. For example, navigating to the products page from the homepage of the same website is internal navigation.
 
