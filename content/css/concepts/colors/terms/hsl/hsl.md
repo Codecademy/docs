@@ -7,17 +7,19 @@ Subjects:
 Tags:
   - 'Color'
   - 'Functions'
+  - 'Methods'
+  - 'Style'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `hsl()` function defines the color value by providing three comma separated values. The first value represents the hue value, the base of the color. The second represents the saturation value, and the third represents the luminance value.
+The **`hsl()`** function defines the hue, saturation, and luminance of an [element's](https://www.codecademy.com/resources/docs/html/elements) color value.
 
 ## Syntax
 
-```css
+```pseudo
 <property>: hsl(hue, saturation, luminance);
 ```
 

@@ -28,7 +28,7 @@ The following HTML tags can affect the formatting of text:
 - [`<strong>`](https://www.codecademy.com/resources/docs/html/tags/strong): Represents text that is urgent or important. Usually displayed with boldface.
 - [`<u>`](https://www.codecademy.com/resources/docs/html/tags/u): Represents text to be displayed with a non-textual annotation. Usually displayed using a solid underline.
 
-While legacy usage of the `<b>`,`<i>`, and `<u>` tags were to explicitly format text in a HTML document, that use has been depreciated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific specified format is required, CSS should be used.
+While legacy usage of the `<b>`,`<i>`, and `<u>` elements were to explicitly format text in a HTML document, that use has been deprecated. These tags now indicate characteristics of the text without specifying a definitive format for how it is rendered. If a specific format is required, CSS should be used.
 
 ## Style HTML Using CSS
 
