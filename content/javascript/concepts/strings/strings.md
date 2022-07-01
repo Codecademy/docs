@@ -32,7 +32,7 @@ console.log(displayText);
 
 ## Interpolation
 
-String interpolation is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc). It can be performed using template literals (`text ${expression} text`), like in the following example:
+String interpolation is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc). It can be performed using template literals (`text ${expression} text`), as in the following example:
 
 ```js
 let age = 7;
