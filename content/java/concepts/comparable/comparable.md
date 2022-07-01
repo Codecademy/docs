@@ -22,7 +22,7 @@ The Comparable interface only has one method, `.compareTo()` that is used to com
 |     `0`      | this instance = passed instance |
 |   `<= -1`    | this instance < passed instance |
 
-This method determines how items are sorted by methods such as `Arrays.sort()` and `Collections.sort()`.
+This method determines how items are sorted by methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()`.
 
 ## Syntax
 
