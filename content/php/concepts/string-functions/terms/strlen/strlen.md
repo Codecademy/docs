@@ -1,6 +1,6 @@
 ---
 Title: 'strlen()'
-Description: 'Returns the number of byte in a given string.'
+Description: 'Returns the number of bytes in a given string.'
 Subjects:
   - 'Computer Science'
   - 'Web Design'
