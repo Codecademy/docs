@@ -47,6 +47,7 @@ The following example defines an `Employee` class and a Comparator class that so
 import java.io.*;
 import java.util.*;
 
+// Employee.java
 class Employee {
   String firstName;
   String lastName;
