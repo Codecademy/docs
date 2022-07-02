@@ -75,6 +75,7 @@ class Employee implements Comparable<Employee> {
   }
 }
 
+// SortExample.java
 public class SortExample {
   public static void main(String[] args)
   {
