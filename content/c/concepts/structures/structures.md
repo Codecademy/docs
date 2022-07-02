@@ -25,7 +25,7 @@ struct Name{
   type3 memberName3;
   ...
   typeN memberNameN;
-}
+};
 ```
 
 A structure is made up of members where each `memberName` has to be declared with a `type`.
