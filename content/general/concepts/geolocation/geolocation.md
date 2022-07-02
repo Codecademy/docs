@@ -20,6 +20,6 @@ Also, most smartphones have a mapping app that can locate the phone on a street 
 
 There are three main ways a smartphone (and other consumer electronic device) can provide geolocation services:
 
-- GPS: A device can have a GPS receiver that communicates with the GPS satellite system that uses the positions of the satellites it can communicate with to determine its position on the ground. A disadvantage is that things like heavy tree cover or buildings can interfere with the signal.
+- The Global Positioning System (GPS): A device can have a GPS receiver that communicates with the GPS satellite system that uses the positions of the satellites it can communicate with to determine its position on the ground. A disadvantage is that things like heavy tree cover or buildings can interfere with the signal.
 - Wireless: A device connects with several different cell towers in the area and using signal strength and [triangulation](https://en.wikipedia.org/wiki/Triangulation) determines its position on the ground. The disadvantage is this can be inaccurate when there are limited cell towers available, and will not work where there is no cell reception.
 - Wireless-assisted GPS: Combines both methods to compensate for the weaknesses of both. It can often get the device's location faster than GPS alone.
