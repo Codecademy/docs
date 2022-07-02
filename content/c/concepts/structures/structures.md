@@ -95,7 +95,7 @@ int main() {
 }
 ```
 
-The example above outputs the following:
+This will output the following:
 
 ```shell
 Name: Douglas Franklin
