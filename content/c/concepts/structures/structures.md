@@ -106,8 +106,7 @@ Height: 74
 
 ## Nested Structures
 
-A structure can be within another structure. The example below shows a `Hospital` structure member variable being declared within the `Patient` structure.
-Nested structure members can be accessed using the member operator `.`:
+A structure can be within another structure. Nested structure members can be accessed using the member operator `.`. The example below shows a `Hospital` structure member variable being declared within the `Patient` structure:
 
 ```c
 #include <stdio.h>
