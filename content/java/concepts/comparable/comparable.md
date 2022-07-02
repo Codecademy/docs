@@ -49,6 +49,7 @@ The following example defines an `Employee` class that sorts based on `lastName`
 import java.io.*;
 import java.util.*;
 
+// Employee.java
 class Employee implements Comparable<Employee> {
   String firstName;
   String lastName;
