@@ -76,6 +76,7 @@ class EmployeeSort implements Comparator<Employee> {
   }
 }
 
+// SortExample.java
 public class SortExample {
   public static void main(String[] args)
   {
