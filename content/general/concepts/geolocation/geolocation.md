@@ -6,6 +6,7 @@ Subjects:
   - 'Mobile Development'
 Tags:
   - 'Map'
+  - 'Positioning'
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
