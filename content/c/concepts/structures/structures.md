@@ -85,7 +85,6 @@ struct Patient{
 };
 
 int main() {
-
   // Variable initialization at declaration
   struct Patient patientA = {"Douglas Franklin", 62, 280, 74};
 
@@ -93,7 +92,6 @@ int main() {
   printf("Name: %s \nAge: %d \nWeight: %d \nHeight: %d\n",
         patientA.name, patientA.age, patientA.weight, patientA.heightInInches);
   return 0;
-
 }
 ```
 
