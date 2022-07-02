@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure can be used to group different types of data together. It is defined using the `struct` keyword.
+A **structure** is used to group different types of data together. It is defined using the `struct` keyword.
 
 ## Syntax
 
