@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Arrays'
   - 'Lists'
+  - 'Structure'
   - 'Variable Types'
 CatalogContent:
   - 'learn-c'
