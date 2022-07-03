@@ -34,6 +34,7 @@ A `Counter` supplies the following additional methods beyond those for a standar
 - `.total()`: Returns the sum of all the counts.
 
 Other differences from a standard dictionary:
+
 - A `Counter` does not implement the [`.fromkeys()`](https://www.codecademy.com/resources/docs/python/dictionaries/fromkeys) method.
 - The [`.update()`](https://www.codecademy.com/resources/docs/python/dictionaries/update) method adds counter values rather than replacing them, making it the opposite of `.subtract()` above.
 
