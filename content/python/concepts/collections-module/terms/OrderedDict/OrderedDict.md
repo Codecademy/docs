@@ -20,7 +20,7 @@ An **OrderedDict** is an datatype in the collections module that is [`dict`](htt
 myOrderedDict = collections.OrderedDict()
 ```
 
-Like a regular dictionary, an `OrderedDict` can also be initalized with the `.fromkeys()` method.
+Like a regular dictionary, an `OrderedDict` can also be initialized with the `.fromkeys()` method.
 
 ```pseudo
 myOrderedDict = collections.OrderedDict.fromkeys(keylist,value)
@@ -28,7 +28,7 @@ myOrderedDict = collections.OrderedDict.fromkeys(keylist,value)
 
 ## Additional Methods
 
-An `OrderedDict` has the following methods in addition to the stardard `dict` methods:
+An `OrderedDict` has the following methods in addition to the standard `dict` methods:
 
 - `.popitem(last)`: Returns and removes a key-value pair from the `OrderedDict`. The pairs are returned in LIFO order if `last` is true and FIFO order if `last` is false. The `last` argument is optional and defaults to `True`.
 - `.move_to_end(key,last)`: Moves the `key` to one end of the `OrderedDict`. If `last` is `True` it is moved to the right end (last entered) otherwise it is moved to the start (first entered). The `last` argument is optional and defaults to `True`.  
@@ -56,4 +56,3 @@ d.move_to_end("C",False)
 print(d)
 
 ```
-
