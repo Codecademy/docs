@@ -23,7 +23,7 @@ myOrderedDict = collections.OrderedDict()
 Like a regular dictionary, an `OrderedDict` can also be initalized with the `.fromkeys()` method.
 
 ```pseudo
-myOrderedDict = collection.OrderedDict.fromkeys(keylist,value)
+myOrderedDict = collections.OrderedDict.fromkeys(keylist,value)
 ```
 
 ## Additional Methods
