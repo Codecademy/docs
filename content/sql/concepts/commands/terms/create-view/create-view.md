@@ -26,7 +26,19 @@ CREATE VIEW viewname AS
 SELECT statements
 ```
 
-Where `viewname` is a valid SQL name and `SELECT statements` can be any valid `SELECT` query involving any number of tables and may include [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where), [`GROUP BY`](https://www.codecademy.com/resources/docs/sql/commands/group-by), `HAVING`(https://www.codecademy.com/resources/docs/sql/commands/having) or any type of join.
+Where `viewname` is a valid SQL name and `SELECT statements` can be any valid `SELECT` query involving any number of tables and may include [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where), [`GROUP BY`](https://www.codecademy.com/resources/docs/sql/commands/group-by), `HAVING`(https://www.codecademy.com/resources/docs/sql/commands/having) or any type of join. A view can also reference other views as well as tables.
+
+**Note:** A view will require each column have a unique name.
 
 ## Example
 
+The following example creates a view named `student_count_by_country` based on a `SELECT` statement grouping the `students` table by `birth_country`:
+
+```sql
+CREATE VIEW student_count_by_country
+AS
+SELECT COUNT(student_name) AS student_count,
+  birth_country
+FROM students
+GROUP BY birth_country
+```
