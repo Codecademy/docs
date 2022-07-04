@@ -29,7 +29,7 @@ A `Counter` can also be initialized from an iterable or initialized from another
 A `Counter` supplies the following additional methods beyond those for a standard dictionary:
 
 - `.elements()`: Returns an iterator for the keys of the `Counter` repeating each element as many times as its count. It will ignore items with a count of less than one.
-- `.most_common(n)`: Returns the `n` most common key-count pairs, in descending order of their counts. If `n` is omitted, the entire contents of the `Collection` are returned.
+- `.most_common(n)`: Returns the `n` most common key-count pairs, in descending order of their counts. If `n` is omitted or `None`, the entire contents of the `Collection` are returned.
 - `.subtract(values)`: Where `values` is an iterable or mapping. Matching keys have their values subtracted from the elements in the `Counter`.
 - `.total()`: Returns the sum of all the counts.
 
