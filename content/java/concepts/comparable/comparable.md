@@ -43,7 +43,7 @@ Using the interface in `MyClass` requires it to implement `Comparable<MyClass>` 
 
 ## Example
 
-The following example defines an `Employee` class that sorts based on `lastName` then on `firstName`.
+The following example defines an `Employee` class that sorts based on `lastName` and then on `firstName`.
 
 ```java
 import java.io.*;
