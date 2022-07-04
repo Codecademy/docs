@@ -41,7 +41,7 @@ The `MyComparator` class will define a sort order for `MyClass` using its `.comp
 
 ## Example
 
-The following example defines an `Employee` class and a Comparator class that sorts based on `lastName` then on `firstName`.
+The following example defines an `Employee` class and a Comparator class that sorts based on `lastName` and then on `firstName`.
 
 ```java
 import java.io.*;
