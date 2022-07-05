@@ -163,7 +163,7 @@ class Employee(object):
     print(f"{employee_name} is working")
 ```
 
-Afterward, the `Employee` class can be imported in other files where new instances and methods can be created. This makes the code efficient, reusable, and maintainable:
+Afterward, the `Employee` class can be imported into other files where new instances and methods can be created. This makes the code efficient, reusable, and maintainable:
 
 ```py
 # other_file.py
