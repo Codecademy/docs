@@ -32,7 +32,7 @@ Below is an example of how an image is commonly inserted into a page using the H
 <img src="logo.png" alt="Codecademy logo" />
 ```
 
-It is recommended to describe image [width and height](https://www.codecademy.com/resources/docs/uiux/width-height) using percents of the current screen size to best support both smaller mobile devices as well as larger workstations. The image below would take up the top half of any screen, regardless of its size:
+It is recommended to specify the image's [width and height](https://www.codecademy.com/resources/docs/uiux/width-height) using the percent of the current screen size to best support both smaller mobile devices as well as larger workstations. The image below would take up the top half of any screen, regardless of its size:
 
 ```html
 <img src="logo.png" alt="Codecademy logo" style="height:50%; width: 100%;" />
