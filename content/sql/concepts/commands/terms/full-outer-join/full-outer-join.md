@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`FULL OUTER JOIN`** command combines matching rows with rows from both the left- and right-side tables.
+The **`FULL OUTER JOIN`** command combines matching rows with all rows from both the left- and right-side tables.
 
 ## Syntax
 
