@@ -21,7 +21,7 @@ The **`.length()`** method returns the length of the given string in terms of by
 string.length();
 ```
 
-The `string` must be defined with `std::string` prior to using to the `.length()` method.
+The `string` must be defined with `std::string` prior to using with the `.length()` method.
 
 ## Codebyte Example
 
