@@ -30,7 +30,7 @@ LEFT JOIN table_2
   ON table_1.column_name = table_2.column_name;
 ```
 
-Every row in the left table is returned in the result set, and if the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
+Every row in the left table is returned in the result set. If the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
 
 ## Example
 
