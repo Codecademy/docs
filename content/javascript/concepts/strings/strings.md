@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes  or double quotes ". js let single = Wheres my bandit hat?; let double = Wheres my bandit hat?;  The .length property of a string returns the number of characters that make up the string. js'
+Description: 'Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes or double quotes.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,30 +13,13 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes `'` or double quotes `"`.
+**Strings** are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes `'` or double quotes `"`.
 
-```js
-let question = 'Wheres my bandit hat?';
-```
+## Concatenation
 
-## Length Property
+In JavaScript, multiple strings can be concatenated or joined together using the `+` [operator](https://www.codecademy.com/resources/docs/javascript/operators).
 
-The `.length` property of a string returns the number of characters that make up the string.
-
-```js
-let message = 'good nite';
-console.log(message.length);
-// Output: 9
-
-console.log('howdy'.length);
-// Output: 5
-```
-
-## String Concatenation
-
-In JavaScript, multiple strings can be concatenated together using the `+` operator.
-
-In the example, multiple strings and variables containing string values have been concatenated. After execution of the code block, the displayText variable will contain the concatenated string.
+In the example below, multiple strings and variables containing string values have been concatenated. After the code block is run, the `displayText` variable will contain the concatenated string:
 
 ```js
 let service = 'credit card';
@@ -47,11 +30,9 @@ console.log(displayText);
 // Output: Your credit card bill is due on May 30th.
 ```
 
-## String Interpolation
+## Interpolation
 
-String interpolation is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc).
-
-It can be performed using template literals: `text ${expression} text`.
+String interpolation is the process of evaluating string literals containing one or more placeholders (expressions, variables, etc). It can be performed using template literals (`text ${expression} text`), as in the following example:
 
 ```js
 let age = 7;
