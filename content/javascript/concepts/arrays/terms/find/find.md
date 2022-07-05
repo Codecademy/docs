@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.find()`** method returns the first element in the array that satifies the given function.
+The **`.find()`** method returns the first element in the array that satisfies the given function.
 
 ## Syntax
 
