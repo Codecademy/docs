@@ -1,6 +1,6 @@
 ---
 Title: '__init__()'
-Description: 'Initalizes a newly created object and is called each time a new class instance is created.'
+Description: 'Initializes a newly created object and is called each time a new class instance is created.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
