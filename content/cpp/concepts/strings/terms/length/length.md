@@ -6,19 +6,22 @@ Subjects:
   - 'Game Development'
 Tags:
   - 'Strings'
+  - 'Functions'
   - 'Methods'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-The `.length()` method returns the length of the given string in terms of bytes. It functions exactly like the [.size()](https://www.codecademy.com/resources/docs/python/strings/size) method but follows a more intuitive terminology, i.e., "the length of a string" rather than "the size of a string." However, both methods yield the same results.
+The **`.length()`** method returns the length of the given string in terms of bytes. It functions exactly like the [.size()](https://www.codecademy.com/resources/docs/python/strings/size) method but follows a more intuitive terminology (i.e., "the length of a string" rather than "the size of a string"). However, both methods yield the same result.
 
 ## Syntax
 
 ```pseudo
-stringName.length();
+string.length();
 ```
+
+The `string` must be defined with `std::string` prior to using with the `.length()` method.
 
 ## Codebyte Example
 
