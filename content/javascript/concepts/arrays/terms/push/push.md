@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.push()`** method adds one or more elements to end of array and returns new length.
+The **`.push()`** method adds one or more elements to the end of an array and returns the new length.
 
 ## Syntax
 
