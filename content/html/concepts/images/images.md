@@ -76,7 +76,7 @@ Image paths can also be used as [URLs](https://www.codecademy.com/resources/docs
 
 ## Accessible Images and Semantic HTML
 
-The goal of creating accessible images is to convey the same content and function that the image would normally provide to those people that are not able to view it. Images are an important tool for communication. Accessible images should not impede that goal, but instead communicate that content to even more users.
+The goal of creating accessible images is to convey the same content and function that the image would normally provide to those people that are not able to view it. Images are an important tool for communication. Accessible images should not impede that goal, but instead, communicate that content to even more users.
 
 This is best done by the alternate text `alt` attribute. As an image is intended to convey a message, to best serve the users who cannot view that image, the same message needs to be conveyed in textual form. This should leave any user able to properly consume the entirety of the content, regardless of ability.
 
