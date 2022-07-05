@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__init__()`** method is used to initialize a newly created object. It is called each time a new instance of defined class is created.
+The **`__init__()`** method initializes a newly created object. It is called each time a new instance of the defined class is created.
 
 ## Syntax
 
