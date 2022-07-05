@@ -18,8 +18,8 @@ While many websites are primarily text, embedding **images** using HTML within a
 
 Images make up most of the bandwidth for a standard webpage, and therefore can slow the speed of page loads. It is best to optimize the size of images as much as possible ahead of time. While there are a myriad of image formats available, only a few key formats are needed for most use cases:
 
-- `JPEG`: Best for minimizing image sizes at the cost of some graphical fidelity.
-- `PNG`: Best for images where graphical fidelity is of the upmost importance.
+- `JPEG`: Best for minimizing image sizes at the cost of some [graphical fidelity](https://en.wikipedia.org/wiki/Image_fidelity).
+- `PNG`: Best for images where graphical fidelity is important.
 - `SVG`: Best for vector images, such as simple symbols and shapes.
 
 There are also new image formats such as `AVIF` and `WebP` that are attempting to replace `JPEG`. While their browser support may currently be limited, their reductions in file sizes are significant.
