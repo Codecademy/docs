@@ -112,7 +112,7 @@ sparrow.feed_bird('seeds')
 sparrow.feed_bird('oats')
 ```
 
-A `feed_bird()` method is defined in the `Bird` class body, accepting a `food` paramter. Inside, an `if..else` [conditional](https://www.codecademy.com/resources/docs/python/conditionals) prints a different message depending on whether or not the `is_hungry` attribute is true. The following will be printed based on the example:
+A `feed_bird()` method is defined in the `Bird` class body, accepting a `food` parameter. Inside, an `if..else` [conditional](https://www.codecademy.com/resources/docs/python/conditionals) prints a different message depending on whether or not the `is_hungry` attribute is true. The following will be printed based on the example:
 
 ```shell
 Feeding with seeds. Bird fed!
