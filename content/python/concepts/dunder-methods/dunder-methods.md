@@ -38,7 +38,7 @@ The following example showcases the [`__init__()`](https://www.codecademy.com/re
 
 ```py
 class Home:
-  __init__(self, rooms):
+  def __init__(self, rooms):
     self.rooms = rooms
 
 myHome = Home(4)
