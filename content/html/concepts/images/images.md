@@ -26,7 +26,7 @@ There are also new image formats such as `AVIF` and `WebP` that are attempting t
 
 ## Inserting and Sizing an Image
 
-Below is an example of how an image is commonly inserted into a page using the HTML image tag, [`<img>`](https://www.codecademy.com/resources/docs/html/tags/img):
+Below is an example of how an image is commonly inserted into a page using the HTML [`<img>`](https://www.codecademy.com/resources/docs/html/elements/img) element:
 
 ```html
 <img src="logo.png" alt="Codecademy logo" />
@@ -58,7 +58,7 @@ To only serve higher resolution images to certain devices with higher resolution
 />
 ```
 
-**Note**: `srcset` is intended only to serve the same image at different resolutions. This is to save bandwidth by providing higher-quality images only to the devices that can support it. To serve different images for other uses, such as for artistic direction or to support cutting-edge filetypes such as AVIF and WebP, it is best to use the `<picture>` element. `<picture>` elements are a collection of `<source>` elements ordered in terms of preference with an `<img>` element as fallback. For example, to prefer to serve an `AVIF` image, that falls back to a `WebP` image if that is not supported, and finally resort to a `JPEG` image if neither of those are available, use the following `<picture>` element:
+**Note**: `srcset` is intended only to serve the same image at different resolutions. This is to save bandwidth by providing higher-quality images only to the devices that can support it. To serve different images for other uses, such as for artistic direction or to support cutting-edge filetypes such as AVIF and WebP, it is best to use the [`<picture>`](https://www.codecademy.com/resources/docs/html/elements/picture) element. `<picture>` elements are a collection of `<source>` elements ordered in terms of preference with an `<img>` element as a fallback. For example, to prefer to serve an `AVIF` image, that falls back to a `WebP` image if that is not supported, and finally, resort to a `JPEG` image if neither of those is available, use the following `<picture>` element:
 
 ```html
 <picture>
@@ -80,7 +80,7 @@ The goal of creating accessible images is to convey the same content and functio
 
 This is best done by the alternate text `alt` attribute. As an image is intended to convey a message, to best serve the users who cannot view that image, the same message needs to be conveyed in textual form. This should leave any user able to properly consume the entirety of the content, regardless of ability.
 
-The semantic `<figure>` element serves a similar purpose to the alternate text attribute by providing additional context to browsers and screen readers. It is a self-contained image within the main flow of content, and usually paired with a `<figcaption>` child element to provide additional context to the reader. Note that the use of the `<figcaption>` does not replace the need for an `alt` attribute for the corresponding image.
+The semantic [`<figure>`](https://www.codecademy.com/resources/docs/html/semantic-html/figure) element serves a similar purpose to the alternate text attribute by providing additional context to browsers and screen readers. It is a self-contained image within the main flow of content, and usually paired with a [`<figcaption>`](https://www.codecademy.com/resources/docs/html/semantic-html/figcaption) child element to provide additional context to the reader. Note that the use of the `<figcaption>` does not replace the need for an `alt` attribute for the corresponding image.
 
 ```html
 <figure>
