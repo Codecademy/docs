@@ -121,7 +121,7 @@ Bird already ate.
 
 #### Static Methods
 
-It is also possible to create method that only apply to the class itself, not instances of the class. These can be distinguised with `@classmethod` and `@staticmethod`:
+It is also possible to create a method that only applies to the class itself, not instances of the class. These can be distinguished with `@classmethod` and `@staticmethod`:
 
 ```py
 class Home:
