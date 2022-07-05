@@ -15,9 +15,10 @@ CatalogContent:
 **Geolocation** refers to the process of determining the geographic location of an object, usually through electronic means such as GPS. A modern example of geolocation is the location function in various electronic devices such as smartphones.
 
 Many modern applications can be given access to a device's geolocation data, so a review app can show restaurants within a few miles/kilometers, a banking app can show nearby branches, or a game can offer [augmented reality](https://www.codecademy.com/resources/docs/general/augmented-reality) experiences based on where the device is located.
+
 Also, most smartphones have a mapping app that can locate the phone on a street map in order to provide directions to some other location.
 
-## Common Methods of Geolocation
+## Common Geolocation Methods 
 
 These are the main ways a smartphone (and other consumer electronic device) can provide geolocation services:
 
