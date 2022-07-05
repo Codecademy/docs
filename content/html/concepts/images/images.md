@@ -74,7 +74,7 @@ Image paths can also be used as [URLs](https://www.codecademy.com/resources/docs
 <div style="background-image: url('logo.jpeg');"></div>
 ```
 
-## Accessibile Images and Semantic HTML
+## Accessible Images and Semantic HTML
 
 The goal of creating accessible images is to convey the same content and function that the image would normally provide to those people that are not able to view it. Images are an important tool for communication. Accessible images should not impede that goal, but instead communicate that content to even more users.
 
