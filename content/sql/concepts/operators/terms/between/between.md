@@ -25,7 +25,7 @@ FROM table
 WHERE column BETWEEN value_A AND value_B;
 ```
 
-The `column` must exist, and `value_A` and `value_B` must define a valid range. `BETWEEN` works with numbers, text, or date data types.
+The `column` must exist and `value_A` and `value_B` must define a valid range. `BETWEEN` works with numbers, text, or date data types.
 
 ## Example
 

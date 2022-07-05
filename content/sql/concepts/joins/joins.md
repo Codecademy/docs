@@ -52,7 +52,7 @@ SELECT name
 FROM last_names;
 ```
 
-For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a last_names table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names:
+For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a `last_names` table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names:
 
 | name     |
 | -------- |
