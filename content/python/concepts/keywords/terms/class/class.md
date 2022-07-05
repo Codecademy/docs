@@ -32,7 +32,7 @@ class ClassName:
 
 ## Codebyte Example
 
-The follwing example is a small Python class made with the `class` keyword:
+The following example is a small Python class made with the `class` keyword:
 
 ```codebyte/python
 class Student:
