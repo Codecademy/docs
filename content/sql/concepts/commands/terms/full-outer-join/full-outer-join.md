@@ -29,7 +29,7 @@ ON table_A.column(s) = table_B.column(s)
 WHERE condition;
 ```
 
-One or more matching `column(s)` can be selected and joined from `table_A` and `table_B` based on matching columns between tables in the `ON` clause. The results can be further filtered based on a `condition` in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause.
+One or more matching `column(s)` can be selected and joined from `table_A` and `table_B` based on matching columns between tables in the `ON` clause to define which rows are combined. Other rows from each table appear in the result separately. The results can be further filtered based on a `condition` in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause.
 
 ## Example
 
