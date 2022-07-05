@@ -18,7 +18,7 @@ Many modern applications can be given access to a device's geolocation data, so 
 
 Also, most smartphones have a mapping app that can locate the phone on a street map in order to provide directions to some other location.
 
-## Common Geolocation Methods 
+## Common Geolocation Methods
 
 These are the main ways a smartphone (and other consumer electronic device) can provide geolocation services:
 
