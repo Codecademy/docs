@@ -25,7 +25,7 @@ Depending on the `object`, the `del` keyword will do one of the following:
 
 - Plain deletion where the name of the `object` variable is removed from the local/global namespace.
 - Recursive deletion where any inner-elements or attributes of the `object` (e.g., lists and classes) are deleted as well.
-  - These inner-elements can include list items and class attributes.
+  - These inner elements can include list items and class attributes.
 - Slicing of specific inner elements in a sequence.
 
 ## Codebyte Example
