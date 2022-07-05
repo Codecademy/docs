@@ -1,6 +1,6 @@
 ---
 Title: '.push()'
-Description: 'Adds one or more elements to end of array and returns new length.'
+Description: 'Adds one or more elements to the end of the array and returns the new length.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'

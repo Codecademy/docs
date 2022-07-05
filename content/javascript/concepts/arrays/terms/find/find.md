@@ -1,6 +1,6 @@
 ---
 Title: '.find()'
-Description: 'Returns the first element in the array that satifies the given function.'
+Description: 'Returns the first element in the array that satisfies the given function.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
