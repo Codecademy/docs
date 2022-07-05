@@ -24,7 +24,7 @@ A comma-separated list of items ([strings](https://www.codecademy.com/resources/
 
 ## Example
 
-Add one item to end of `colors` array:
+Add one item to the end of the `colors` array:
 
 ```js
 const colors = ['red', 'orange'];
