@@ -22,7 +22,7 @@ The **`.length`** property returns the number of characters in a string.
 string.length;
 ```
 
-The `string` can either be a literal sequence of characters surrounded in quotes or a variable that refers to such a sequence.
+The `string` can either be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence.
 
 ## Example
 

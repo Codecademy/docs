@@ -17,9 +17,9 @@ CatalogContent:
 
 ## Concatenation
 
-In JavaScript, multiple strings can be concatenated, or joined, together using the `+` [operator](https://www.codecademy.com/resources/docs/javascript/operators).
+In JavaScript, multiple strings can be concatenated or joined together using the `+` [operator](https://www.codecademy.com/resources/docs/javascript/operators).
 
-In the example below, multiple strings and variables containing string values have been concatenated. After code block is run, the `displayText` variable will contain the concatenated string:
+In the example below, multiple strings and variables containing string values have been concatenated. After the code block is run, the `displayText` variable will contain the concatenated string:
 
 ```js
 let service = 'credit card';

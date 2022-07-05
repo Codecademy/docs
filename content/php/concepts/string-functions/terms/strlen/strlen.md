@@ -21,11 +21,11 @@ The **`strlen()`** method returns the number of bytes in a given string.
 strlen(string);
 ```
 
-The `string` can either be a literal sequence of characters surrounded in quotes or a variable that refers to such a sequence.
+The `string` can either be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence.
 
 ## Codebyte Example
 
-In the following example showcases the two ways of using the `strlen()` method:
+The following example showcases the two ways of using the `strlen()` method:
 
 ```codebyte/php
 <?php

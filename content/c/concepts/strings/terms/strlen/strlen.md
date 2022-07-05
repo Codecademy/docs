@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strlen()`** string function returns the length of the string without including terminating character `'\n'`.
+The **`strlen()`** string function returns the length of the string without including the terminating character, `'\n'`.
 
 ## Syntax
 
