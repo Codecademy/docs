@@ -33,7 +33,7 @@ One or more matching `column(s)` can be selected and joined from `table_A` and `
 
 ## Example
 
-The following example selects the all rows (`*`) from the tables `books` and `authors` that have matching author IDs less than 11:
+The following example selects the all rows (`*`) from the table `books` with an `author_id` less than 11, and any rows from the `authors` table that have a matching `id` in the filtered `books` table:
 
 ```sql
 SELECT *
