@@ -30,7 +30,7 @@ class ClassName:
     # Method body here
 ```
 
-The `methodname` is all lowercase even if there is more than one word in the name. The first parameter, `self`, is never explicity passed as an argument because it refers to the class instance the method would be called against. However, any parameters defined afterward (`param1, param2, ... paramN`) must be passed as arguments when the dunder method is called.
+The `methodname` is all lowercase even if there is more than one word in the name. The first parameter, `self`, is never explicitly passed as an argument because it refers to the class instance the method would be called against. However, any parameters defined afterward (`param1, param2, ... paramN`) must be passed as arguments when the dunder method is called.
 
 ## Example
 
