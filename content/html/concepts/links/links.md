@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Hyperlinks
 
-The [`<a>`](https://www.codecademy.com/resources/docs/html/tags/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
+The [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) anchor tag is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL using the hyperlink reference `href` attribute.
 
 ### Text Links
 
@@ -64,9 +64,9 @@ Special strings can be passed to the `href` attribute to link email accounts (`"
 
 The actions defined by these links will be completed depending on the user's device and settings. For example, clicking a phone link while on a cell phone may use the built in dialer to complete the call.
 
-## Link Element
+## `<link>` Element
 
-The [`<link>`](https://www.codecademy.com/resources/docs/html/tags/link) tag is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/tags/head) tag. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
+The [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element is used to connect the document to an outside resource, most commonly stylesheets, via the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element. Unlike most elements, which come as opening and closing tags, the `<link />` is self-closing and only contains attributes.
 
 The two primary attributes are:
 
