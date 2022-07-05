@@ -36,7 +36,7 @@ new_instance = ClassName()
 
 ## Codebyte Example
 
-The example below showcases the `__init__()` method being implictly called after a new instance of the `Home` class, `home`, is created with `rooms` and `stories` attribtues passed in:
+The example below showcases the `__init__()` method being implicitly called after a new instance of the `Home` class, `home`, is created with `rooms` and `stories` attributes passed in:
 
 ```codebyte/python
 class Home:
