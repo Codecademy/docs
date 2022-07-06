@@ -110,6 +110,7 @@ Fonts
 For
 Foreign Key
 Form
+Formatting
 Frameworks
 Functions
 Functional Programming
@@ -228,6 +229,7 @@ Search
 Selectors
 Semantic
 Servers
+Server-Side Rendering
 Sets
 Socket.IO
 Sort
@@ -236,6 +238,7 @@ Specificity
 Spread
 SQLite
 Stacks
+Static Site
 Statistics
 Stringr
 Strings
