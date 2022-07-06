@@ -20,7 +20,7 @@ string.format(String str, ...args);
 ```
 
 - `str` is of type `String` and includes a **format specifier**.
-- `args` is an optional argument which can be of any data type to be returned with the first string argument.
+- `args` is an optional argument, which can be of any data type, to be returned with the first string argument.
 
 Some common format specifiers include:
 
