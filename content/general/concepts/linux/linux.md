@@ -25,8 +25,3 @@ Many Linux distros are developed with a specific use case in mind. Some examples
 - [HandyLinux](https://en.wikipedia.org/wiki/HandyLinux): Was a desktop OS designed for accessibility and ability to run on old hardware.
 - [Raspberry Pi OS](https://www.raspberrypi.com/software/): A Linux distro specifically for the low-cost line of Raspberry PI single-board computers.
 - [Kali Linux](https://www.kali.org/): Used for digital forensics and penetration testing.
-
-
-
-
-
