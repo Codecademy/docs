@@ -23,7 +23,7 @@ class ClassName:
   # Class body
 ```
 
-The name of the class should be in "CamelCase". The indented class body contains definitions for any attributes or methods. Class definitions cannot be empty, so the `pass` statement can be used as a placeholder to avoid errors.
+The name of the class should be in CamelCase. The indented class body contains definitions for any attributes or methods. Class definitions cannot be empty, so the `pass` statement can be used as a placeholder to avoid errors.
 
 ```pseudo
 class ClassName:
