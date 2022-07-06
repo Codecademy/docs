@@ -6,6 +6,8 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Linux'
+  - 'Developer Tools'
+  - 'Operating Systems'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/code-foundations'
