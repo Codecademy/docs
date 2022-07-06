@@ -26,7 +26,7 @@ CREATE VIEW viewname AS
 SELECT statements
 ```
 
-Where `viewname` is a valid SQL name and `SELECT statements` can be any valid `SELECT` query involving any number of tables and may include [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where), [`GROUP BY`](https://www.codecademy.com/resources/docs/sql/commands/group-by), [`HAVING`](https://www.codecademy.com/resources/docs/sql/commands/having) or any type of join. A view can also reference other views as well as tables.
+Where `viewname` is a valid SQL name and `SELECT statements` can be any valid `SELECT` query involving any number of tables and may include [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where), [`GROUP BY`](https://www.codecademy.com/resources/docs/sql/commands/group-by), [`HAVING`](https://www.codecademy.com/resources/docs/sql/commands/having) or any type of [`JOIN`](https://www.codecademy.com/resources/docs/sql/joins). A view can also reference other views as well as tables.
 
 **Note:** A view will require each column have a unique name.
 
