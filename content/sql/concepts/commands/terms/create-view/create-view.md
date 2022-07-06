@@ -1,6 +1,6 @@
 ---
 Title: 'CREATE VIEW'
-Description: 'Creates a persistent virtual table based on a saved query.'
+Description: 'Creates a virtual table based on a saved query.'
 Subjects:
   - 'Data Science'
 Tags:
