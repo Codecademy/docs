@@ -1,6 +1,6 @@
 ---
 Title: 'Linux'
-Description: 'Linux refers to a class of Unix-like operating systems that are all based on the Linux kernel.'
+Description: 'Linux is a family of Unix-like operating systems that are all based on the Linux kernel.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
