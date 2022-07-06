@@ -185,6 +185,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Operating Systems
 Operators
 Optionals
 Output
