@@ -41,8 +41,8 @@ class Home:
     return "Home with {} rooms and {} stories".format(self.rooms, self.stories)
 
 home1 = Home(4, 2)
-print(home1) # Output: Home with 4 rooms and 2 stories
+print(home1)
 
 home2 = Home(5, 2)
-print(home2) # Output: Home with 5 rooms and 2 stories
+print(home2)
 ```
