@@ -101,5 +101,6 @@ SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE);
 A negative `value` subtracts the specified amount from the `date`. The following example subtracts `4` months from `2000-03-15`:
 
 ```sql
-SELECT DATE_ADD("2000-03-15", INTERVAL -4 MONTH); /* Output: 1999-11-15 */
+SELECT DATE_ADD("2000-03-15", INTERVAL -4 MONTH);
+/* Output: 1999-11-15 */
 ```
