@@ -19,6 +19,7 @@ CatalogContent:
 The **`CREATE VIEW`** command creates a virtual table based on a saved query. The resulting view can be accessed via a [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statement, just like a normal table in the database.
 
 ## Syntax
+
 ```pseudo
 CREATE VIEW viewname AS
 SELECT statements
