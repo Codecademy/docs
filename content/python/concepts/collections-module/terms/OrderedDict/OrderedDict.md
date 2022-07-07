@@ -31,7 +31,7 @@ myOrderedDict = collections.OrderedDict.fromkeys(keylist, value)
 In addition to the standard `dict` methods, the following are specific to an `OrderedDict`:
 
 - `.popitem(last)`: Returns and removes a key-value pair from the `OrderedDict`. The pairs are returned in LIFO (last-in-first-out) order if `last` is `True` and FIFO (first-in-first-out) order if `last` is `False`. The `last` argument is optional and defaults to `True`.
-- `.move_to_end(key,last)`: Moves the `key` to one end of the `OrderedDict`. If `last` is `True` it is moved to the right end (last entered) otherwise it is moved to the start (first entered). The `last` argument is optional and defaults to `True`.
+- `.move_to_end(key, last)`: Moves the `key` to one end of the `OrderedDict`. If `last` is `True` it is moved to the right end (last entered). Otherwise, it is moved to the start (first entered). The `last` argument is optional and defaults to `True`.
 
 ## Codebyte Example
 
