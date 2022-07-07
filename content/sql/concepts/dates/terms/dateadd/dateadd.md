@@ -22,6 +22,8 @@ The **`DATEADD()`** function in SQL Server and **`DATE_ADD()`** function in MySQ
 DATEADD(interval, amount, date)
 ```
 
+The `DATEADD()` function in SQL Server has three parameters:
+
 - `interval` is the date or time interval to add to `date`. It can be one of the following formats:
   - Year: `year`, `yyyy`, `yy`
   - Quarter: `quarter`, `qq`, `q`
