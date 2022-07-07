@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`CASE`** command is a logical test that returns different output based on the conditions of each statement, closes with an `END` clause.
+The **`CASE`** command is a logical test that returns different output based on the conditions of each statement and closes with an `END` clause.
 
 ## Syntax
 
