@@ -8,6 +8,7 @@ Tags:
   - 'Linux'
   - 'Developer Tools'
   - 'Operating Systems'
+  - 'Unix'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/code-foundations'
