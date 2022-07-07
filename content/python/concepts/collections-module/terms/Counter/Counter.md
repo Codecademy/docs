@@ -45,7 +45,7 @@ The following example creates a `Counter` from an iterable (a string) and output
 ```codebyte/python
 import collections
 c = collections.Counter("supercalifragilisticexpialidocious")
-print(c)
-print(c.most_common(5))
-sorted(c.elements())
+print(f"Counter Collection: {c}\n")
+print(f"Sorted: {sorted(c.elements())}\n")
+print("5 Most Common Items: {c.most_common(5)}")
 ```
