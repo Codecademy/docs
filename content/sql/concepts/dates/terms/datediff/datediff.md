@@ -22,6 +22,8 @@ CatalogContent:
 DATEDIFF(datePart, date1, date2)
 ```
 
+The `DATEDIFF()` function in SQL Server has three parameters:
+
 - `datePart` is the part of the date to return. It can be one of the following formats:
   - Year: `year`, `yyyy`, `yy`
   - Quarter: `quarter`, `qq`, `q`
