@@ -1,6 +1,6 @@
 ---
 Title: 'Collections Module'
-Description: 'The collections module implements several container types in addition to the standard Python built-in collections, dict, list, set and tuple.'
+Description: 'The collections module implements several container types in addition to the standard Python built-in collections, dict, list, set, and tuple.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
