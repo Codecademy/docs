@@ -116,7 +116,7 @@ struct Hospital {
     int roomNum;
 };
 
-struct Patient{
+struct Patient {
   char name[30];
   int age;
   int weight;
