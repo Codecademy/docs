@@ -14,7 +14,7 @@ CatalogContent:
 
 **Unix** is a family of operating systems that are all derived from the original AT&T Unix developed at Bell Labs in 1969. Unix is a multitasking, multiuser operating system that is characterized by the implementation of many small modular software tools that can be combined using a scripting language known as the [Unix shell](https://en.wikipedia.org/wiki/Unix_shell). Unix and Unix-like operating systems are currently used widely on servers, workstations and mobile devices.
 
-Originally developed for internal use at Bell labs, in the late 1970s AT&T licensed Unix to a variety of outside parties, leading to a number of academic and commercial Unix variants. These include:
+Originally developed for internal use at Bell labs in the late 1970s, AT&T licensed Unix to a variety of outside parties, leading to a number of academic and commercial Unix variants. These include:
 
 - [Berkely Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution#External_links) from the University of California, Berkley (now discontinued).
 - [SunOS/Solaris](https://www.oracle.com/solaris/solaris11/) from Sun Microsystems (now Oracle).
