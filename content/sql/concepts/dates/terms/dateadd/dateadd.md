@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`DATEADD()`** function in SQL Server and **`DATE_ADD()`** function in MySQL return a date/time that is added to a specified date.
+The **`DATEADD()`** function in SQL Server and **`DATE_ADD()`** function in MySQL return a date/time interval that is added to a specified date.
 
 ## SQL Server Syntax
 
