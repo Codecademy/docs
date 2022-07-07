@@ -53,7 +53,8 @@ SELECT DATEADD(month, 10, '2022/06/22');
 The following example adds `28` seconds to `1990/08/25 04:23:10`:
 
 ```sql
-SELECT DATEADD(second, 28, '1990/08/25 04:23:10'); /* Output: 1990-08-25 04:23:38.000 */
+SELECT DATEADD(second, 28, '1990/08/25 04:23:10');
+/* Output: 1990-08-25 04:23:38.000 */
 ```
 
 ### Example 3
