@@ -20,7 +20,7 @@ An **OrderedDict** is a data type in the `collections` module. It is a [`dict`](
 myOrderedDict = collections.OrderedDict()
 ```
 
-Like a regular dictionary, an `OrderedDict` can also be initialized with the `.fromkeys()` method.
+Like a regular dictionary, an `OrderedDict` can also be initialized with the [`.fromkeys()`](https://www.codecademy.com/resources/docs/python/dictionaries/fromkeys) method.
 
 ```pseudo
 myOrderedDict = collections.OrderedDict.fromkeys(keylist, value)
