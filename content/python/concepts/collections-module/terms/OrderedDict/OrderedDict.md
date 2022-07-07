@@ -1,6 +1,6 @@
 ---
 Title: 'collections.OrderedDict'
-Description: 'A dict subclass that tracks the order in which items were added.'
+Description: 'Tracks the order in which items were added.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
