@@ -28,10 +28,11 @@ class ClassName:
     self.paramN = paramN
 ```
 
-Instance variables (`param1, param2, ..., paramN`) are set within the `__init__()` method block. They can be set initially within the `__init__()` method when the instance is created, or instance variables can be added by setting them to values:
+Instance variables (`param1, param2, ..., paramN`) are set within the block of the `__init__()` method. They can be set initially after creation, or they can be added to a specific instance afterwards:
 
 ```pseudo
-new_instance = ClassName()
+new_instance = ClassName(value1, value2, ..., valueN)
+new_instance.specific_variable = value
 ```
 
 ## Codebyte Example
