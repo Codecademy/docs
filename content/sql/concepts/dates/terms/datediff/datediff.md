@@ -1,6 +1,6 @@
 ---
 Title: 'DATEDIFF()'
-Description: 'Calculates the difference between two date values. Available in SQL Server and MySQL.'
+Description: 'Calculates and returns the difference between two date values. Available in SQL Server and MySQL.'
 Subjects:
   - 'Data Science'
 Tags:
