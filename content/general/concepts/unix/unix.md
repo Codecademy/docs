@@ -16,9 +16,9 @@ Unix is a family of operating systems that are all derived from the original AT&
 
 Originally developed for internal use at Bell labs, in the late 1970s AT&T licensed Unix to a variety of outside parties, leading to a number of academic and commercial Unix variants. These include:
 
-- BSD: From the University of California, Berkley.
-- SunOS/Solaris: From Sun Microsystems.
-- AIX: From IBM
+- [Berkely Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution#External_links) from the University of California, Berkley (now discontinued).
+- [SunOS/Solaris](https://www.oracle.com/solaris/solaris11/) from Sun Microsystems (now Oracle).
+- [Advanced Interactive eXecutive (AIX)](https://www.ibm.com/it-infrastructure/power/os/aix) from IBM.
 
 In 1991, [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) released the [open source](https://www.codecademy.com/resources/docs/general/open-source) [Linux](https://www.codecademy.com/resources/docs/general/linux) kernel as a Unix-like free alternative to proprietary Unix systems. It had since exploded into dozens, if not hundreds of different variant distributions.
 
