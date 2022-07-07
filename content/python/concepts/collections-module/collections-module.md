@@ -5,10 +5,12 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Collections'
   - 'Dictionaries'
   - 'Lists'
   - 'Tuples'
   - 'Data Types'
+  - 'Sets'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
