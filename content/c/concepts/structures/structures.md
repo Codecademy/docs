@@ -76,7 +76,7 @@ Members can be accessed using the member operator `.`:
 #include <stdio.h>
 #include <string.h>
 
-struct Patient{
+struct Patient {
   char name[30];
   int age;
   int weight;
