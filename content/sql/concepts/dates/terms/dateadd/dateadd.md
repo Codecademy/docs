@@ -62,7 +62,8 @@ SELECT DATEADD(second, 28, '1990/08/25 04:23:10');
 Using a negative `amount` subtracts the `interval` from the `date`. The following example subtracts `24` years from `2022/12/07`:
 
 ```sql
-SELECT DATEADD(year, -24, '2022/12/07'); /* Output: 1998-12-07 00:00:00.000 */
+SELECT DATEADD(year, -24, '2022/12/07');
+/* Output: 1998-12-07 00:00:00.000 */
 ```
 
 ## MySQL Syntax
