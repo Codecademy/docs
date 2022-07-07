@@ -15,7 +15,7 @@ CatalogContent:
 
 **Linux** is a family of [open source](https://www.codecademy.com/resources/docs/general/open-source), [Unix](https://www.codecademy.com/resources/docs/general/unix)-like operating systems that are all based on the Linux kernel. The Linux kernel was developed by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) and first released on September 17, 1991.
 
-Since its release, the Linux kernel has been adopted by many operating system distributions (commonly called "distros") for a wide variety of applications, from web-servers to mobile platforms. The most well known pure Linux distro is Ubuntu. However, other well-known operating systems, such as Android and Chrome OS are based on the Linux kernel&mdash; though with modifications that typically have them categorized outside of Linux distros in general.
+Since its release, the Linux kernel has been adopted by many operating system distributions (commonly called "distros") for a wide variety of applications, from web-servers to mobile platforms. The most well known pure Linux distro is Ubuntu. However, other well-known operating systems, such as Android and Chrome OS, are based on the Linux kernel &mdash; though with modifications that typically have them categorized outside of Linux distros in general.
 
 Many Linux distros are developed with a specific use case in mind. Some examples include:
 
