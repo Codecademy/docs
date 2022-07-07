@@ -10,6 +10,7 @@ Tags:
   - 'MySQL'
   - 'SQLite'
   - 'Tables'
+  - 'Views'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
