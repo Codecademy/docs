@@ -92,7 +92,8 @@ SELECT DATE_ADD("2002-10-31", INTERVAL 37 DAY);
 The following example adds `30` minutes to `2002-10-31 10:35:02`:
 
 ```sql
-SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE); /* Output: 2002-10-31 11:05:02 */
+SELECT DATE_ADD("2002-10-31 10:35:02", INTERVAL 30 MINUTE);
+/* Output: 2002-10-31 11:05:02 */
 ```
 
 ### Example 3
