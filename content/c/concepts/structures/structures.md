@@ -64,7 +64,6 @@ int main() {
   // Variable initialization at declaration
   struct Patient patientA = {"Douglas Franklin", 62, 280, 74};
   return 0;
-
 }
 ```
 
