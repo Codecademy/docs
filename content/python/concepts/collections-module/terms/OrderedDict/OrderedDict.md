@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **OrderedDict** is a data type in the collections module that is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that tracks the order in which items were added. It offers all the standard dictionary methods as well as two additional methods that deal with the ordering of the `OrderedDict`.
+An **OrderedDict** is a data type in the `collections` module. It is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that tracks the order in which items were added. It offers all the standard dictionary methods as well as two additional methods that deal with the ordering of the `OrderedDict`.
 
 ## Syntax
 
