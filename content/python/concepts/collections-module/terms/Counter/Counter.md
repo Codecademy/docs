@@ -40,7 +40,7 @@ Other differences from a standard dictionary:
 
 ## Codebyte Example
 
-The following example creates a `Counter` from an iterable (a string) and outputs various characteristics of the `Counter`.
+The following example creates a `Counter` from an iterable (a string) and outputs various characteristics of the `Counter`:
 
 ```codebyte/python
 import collections
