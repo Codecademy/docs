@@ -18,6 +18,7 @@ CatalogContent:
 **`DATEDIFF()`** is a function found in SQL Server and MySQL that calculates and returns the difference between two date values.
 
 ## SQL Server Syntax
+
 ```pseudo
 DATEDIFF(datePart, date1, date2)
 ```

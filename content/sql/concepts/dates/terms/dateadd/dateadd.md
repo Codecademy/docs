@@ -18,6 +18,7 @@ CatalogContent:
 The **`DATEADD()`** function in SQL Server and **`DATE_ADD()`** function in MySQL return a date/time that is added to a specified date.
 
 ## SQL Server Syntax
+
 ```pseudo
 DATEADD(interval, amount, date)
 ```
