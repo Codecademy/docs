@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-**`DATEDIFF()`** is a function found in SQL Server and MySQL that calculates the difference between two date values.
+**`DATEDIFF()`** is a function found in SQL Server and MySQL that calculates and returns the difference between two date values.
 
 ## SQL Server Syntax
 
