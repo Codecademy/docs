@@ -19,16 +19,14 @@ CatalogContent:
 
 Here are some common runtimes:
 
-![graft of the different kinds of big O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph.png)
+![Graph of the different kinds of Big-O notation](https://raw.githubusercontent.com/Codecademy/docs/main/media/big-o-graph.png)
 
-- Polynomial time (red) $O(n^{2})$: If the time is a power of the input size.
-  - Bubble sort has quadratic time complexity.
-- Linear time (blue) $O(n)$: If the time is proportional to the input size.
-  - The traverse of a list.
-- Logarithmic time (green) $O(ln(n))$: If the time is a logarithmic function of the input size.
-  - Binary search algorithm.
-- Constant time (purple) $O(1)$: If the time needed by the algorithm is the same, regardless of the input size.
-  - An access to an array element.
+|  Runtime   |                Name                | Description                                                                    | Use Case(s)                                                                                                                                                                 |
+| :--------: | :--------------------------------: | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $O(n^{2})$ | Polynomial/quadratic time (in red) | The time needed is the input size, `n`, multiplied by itself.                  | [Bubble sort](https://www.codecademy.com/learn/sorting-algorithms-java/modules/bubble-sort-java/cheatsheet) has quadratic time complexity.                                  |
+|   $O(n)$   |       Linear time (in blue)        | The time needed is proportional to the input size `n`.                         | Traversing an [array](https://www.codecademy.com/resources/docs/general/array) of `n`-size.                                                                                 |
+| $O(ln(n))$ |    Logarithmic time (in green)     | The time is a logarithmic function `ln()` of the input size `n`.               | Analyzing the [binary search algorithm](https://www.codecademy.com/learn/fscp-22-search-graph-search-algorithms/modules/wdcp-22-binary-search-and-search-trees/cheatsheet). |
+|   $O(1)$   |     Constant time (in purple)      | If the time needed by the algorithm is the same, regardless of the input size. | Accessing an element in an array.                                                                                                                                           |
 
 ## Simplifying Big-O Expressions
 
