@@ -36,7 +36,7 @@ When determining an expression that characterizes the time or space complexity o
 
 The following Python example analyzes the time/space complexity of the `foo()` function:
 
-```
+```py
 def foo(list1, list2):
   for item in list1:
     print(f"Outer loop: {item}")
