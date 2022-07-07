@@ -25,7 +25,7 @@ The **`FULL OUTER JOIN`** command combines matching rows with all rows from both
 SELECT column(s)
 FROM table_A
 FULL OUTER JOIN table_B
-ON table_A.column(s) = table_B.column(s)
+  ON table_A.column(s) = table_B.column(s)
 WHERE condition;
 ```
 
