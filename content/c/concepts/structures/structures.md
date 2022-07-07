@@ -89,6 +89,7 @@ int main() {
   // Accessing members
   printf("Name: %s \nAge: %d \nWeight: %d \nHeight: %d\n",
         patientA.name, patientA.age, patientA.weight, patientA.heightInInches);
+
   return 0;
 }
 ```
