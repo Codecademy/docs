@@ -32,7 +32,7 @@ Every row in the right table is returned in the result set, and if the join cond
 
 ## Example
 
-To create a result set of every row in the `students` table combined with the `transfer_data` table where student IDs match. And if the `ON` condition is not met, then `NULL` values are used to fill in the columns from the `transfer_data` table.
+To create a result set of every row in the `students` table combined with the `transfer_data` table where student IDs match. If the `ON` condition is not met, then `NULL` values are used to fill in the columns from the `transfer_data` table.
 
 ```sql
 SELECT
