@@ -28,4 +28,4 @@ In 1991, [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linu
 
 In 1992, a free derivative of BSD Unix was released, leading to the [NetBSD](https://www.netbsd.org/) and [FreeBSD](https://www.freebsd.org/) projects. Since 1994 BSD Unix has developed several different branches, including [OpenBSD](https://www.openbsd.org/).
 
-In 2000 Apple released a BSD Unix System named [Darwin](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29#External_links) that eventually became the core of the macOS operating system.
+In 2000, Apple released a BSD Unix System named [Darwin](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29#External_links) that eventually became the core of the macOS operating system.
