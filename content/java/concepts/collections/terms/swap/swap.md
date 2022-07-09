@@ -1,0 +1,54 @@
+---
+Title: '.swap()'
+Description: 'Swaps the position of two elements in a List.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Collections'
+  - 'Data Structures'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`Collections.swap()`** method swaps the positions of two elements in a list.
+
+## Syntax
+
+```java
+import java.util.*;
+
+Collections.swap(myList,index1,index2);
+```
+
+This will swap the element in `myList` at zero-based index `index1` with the element at zero-based index `index2`. `index1` and `index2` are both `int`s.
+
+## Example
+
+The following example creates an `ArrayList` then uses `Collections.swap()` to reorder some elements:
+
+```java
+import java.util.*;
+
+public class Main {
+ public static void main(String[] args) {
+   ArrayList<String> food = new ArrayList<String>();
+   food.add("Cabbage");
+   food.add("Pizza");
+   food.add("Sausage");
+   food.add("Potatoes");
+   food.add("Salad");
+
+   System.out.println(food);
+   Collections.swap(food,2,4);
+   System.out.println(food);
+ }
+}
+```
+
+This will output the following:
+
+```shell
+[Cabbage, Pizza, Sausage, Potatoes, Salad]
+[Cabbage, Pizza, Salad, Potatoes, Sausage]
+```
