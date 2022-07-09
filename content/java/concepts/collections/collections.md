@@ -1,0 +1,23 @@
+---
+Title: 'Collections'
+Description: 'The Collections class provides static methods that operate on or return collections.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Methods'
+  - 'Collections'
+  - 'Data Structures'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`Collections`** class provides static methods that operate on or return collections. It is part of the `java.util` package.
+
+```pseudo
+import java.util
+
+Collections.method()
+```
+
+Below is a list of methods provided by the `Collections` class:
