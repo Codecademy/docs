@@ -69,7 +69,3 @@ This will output the following:
 true
 [Pizza, Sausage, Potatoes, Salad]
 ```
-
-
-
-
