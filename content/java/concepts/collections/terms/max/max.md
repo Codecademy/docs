@@ -18,10 +18,10 @@ The **`Collections.max()`** method returns the maximum member of a List based on
 ```java
 import java.util.*;
 
-// This provides the miximum element via natural ordering.
+// This provides the maximum element via natural ordering.
 myMax = Collections.max(myList);
 
-// This provides the miximum element via a Comparator
+// This provides the maximum element via a Comparator
 myMax = Collections.max(myList,myComparator);
 ```
 
