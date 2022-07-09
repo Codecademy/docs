@@ -21,7 +21,7 @@ import java.util.*;
 Collections.swap(myList,index1,index2);
 ```
 
-This will swap the element in `myList` at zero-based index `index1` with the element at zero-based index `index2`. `index1` and `index2` are both `int`s.
+This will swap the element in `myList` at zero-based `int` index `index1` with the element at zero-based `int` index `index2`.
 
 ## Example
 
