@@ -68,7 +68,7 @@ To only serve higher resolution images to certain devices with higher resolution
 </picture>
 ```
 
-Image paths can also be used as [URLs](https://www.codecademy.com/resources/docs/general/url) to style the `background-image` property of an element:
+Image paths can also be used as [URLs](https://www.codecademy.com/resources/docs/general/url) to style the [`background-image`](https://www.codecademy.com/resources/docs/css/background/background-image) property of an element:
 
 ```html
 <div style="background-image: url('logo.jpeg');"></div>

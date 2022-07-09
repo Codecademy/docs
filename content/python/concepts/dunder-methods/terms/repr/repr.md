@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__repr__()`** method returns the string representation of the object or class. This overwrites the built-in `repr()` This representation can be seen by calling [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance.
+The **`__repr__()`** method returns the string representation of the object or class. This overwrites the built-in `repr()`. This representation can be seen by calling [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance.
 
 ## Syntax
 

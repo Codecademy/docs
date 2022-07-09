@@ -48,13 +48,13 @@ class Home:
 
 ### Class Instances
 
-Objects can be created or instantiated, from classes. These objects are known as class instances and are created by setting a variable equal to the class name followed by parentheses `()`:
+Objects can be created or instantiated from classes. These objects are known as class instances and are created by setting a variable equal to the class name followed by parentheses `()`:
 
 ```py
 my_home = Home()
 ```
 
-Here, the instance name is `my_home`, and the class is `Home`. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) method.
+Here, the instance name is `my_home`, which derives from the `Home` class. Calling this line implicitly calls the `Home` class's [`__init__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/__init__) method.
 
 ### Attributes
 
@@ -170,7 +170,7 @@ Afterward, the `Employee` class can be imported into other files where new insta
 from employee import Employee
 
 def create_employee():
-  print("Employee is starting thier job...")
+  print("Employee is starting their job...")
   employee1 = Employee()
   employee1.name = "Blake"
   employee1.working(employee1.name)
@@ -181,7 +181,7 @@ create_employee();
 Running the code in `other_file.py` will output the following:
 
 ```shell
-Employee is starting thier job...
+Employee is starting their job...
 Blake is working
 ```
 
@@ -189,7 +189,7 @@ Blake is working
 
 Defined methods and variables can be accessed within the class definition. This is done with the `self` keyword, followed by a period `.`, and then followed by the method or variable. In the example below, the defined `.getName()` method is used inside the `.sayHi()` method:
 
-```py
+```codebyte/python
 class Person:
   def __init__(self, name):
     self.name = name
