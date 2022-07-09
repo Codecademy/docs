@@ -15,7 +15,7 @@ CatalogContent:
 The **`Collections`** class provides static methods that operate on or return [`Collection`](https://www.codecademy.com/resources/docs/java/collection) objects. It is part of the `java.util` package.
 
 ```pseudo
-import java.util;
+import java.util.Collections;
 
 Collections.method();
 ```
