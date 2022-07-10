@@ -50,10 +50,11 @@ The interface can have any number of each of these elements, but it must have at
 
 The following example uses an interface to demonstrate polymorphism, the ability of an object to take different forms at runtime:
 
-```java
-import java.util.*;
+Define the `Food` interface:
 
-interface Food {
+```java
+// Food.java
+public interface Food {
 
   String name();
 
@@ -61,8 +62,13 @@ interface Food {
     return "Food";
   }
 }
+```
 
-class Cabbage implements Food {
+Define the `Cabbage` class implementing `Food`:
+
+```java
+// Cabbage.java
+public class Cabbage implements Food {
 
   @Override
   public String name() {
@@ -74,8 +80,13 @@ class Cabbage implements Food {
     return "Vegetable";
   }
 }
+```
 
-class Sausage implements Food {
+Define the `Sausage` class implementing `Food`:
+
+```java
+// Sausage.java
+public class Sausage implements Food {
 
   @Override
   public String name() {
@@ -87,15 +98,25 @@ class Sausage implements Food {
     return "Meat";
   }
 }
+```
 
-class Pizza implements Food {
+Define the `Pizza` class implementing `Food`:
+
+```java
+// Pizza.java
+public class Pizza implements Food {
 
   @Override
   public String name() {
     return "Pizza";
   }
 }
+```
 
+Demonstrate the interface and all the classes implementing it:
+
+```java
+// Main.java
 public class Main {
   public static void main(String[] args) {
     Collection<Food> foods = new ArrayList<Food>();
@@ -108,7 +129,6 @@ public class Main {
     }
   }
 }
-
 ```
 
 This outputs the following:
