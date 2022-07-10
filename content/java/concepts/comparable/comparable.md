@@ -45,12 +45,13 @@ Using the interface in `MyClass` requires it to implement `Comparable<MyClass>` 
 
 The following example defines an `Employee` class that sorts based on `lastName` and then on `firstName`.
 
+Implementing the class:
+
 ```java
-import java.io.*;
 import java.util.*;
 
-// Employee class
-class Employee implements Comparable<Employee> {
+// Employee.java
+public class Employee implements Comparable<Employee> {
   String firstName;
   String lastName;
 
@@ -79,8 +80,14 @@ class Employee implements Comparable<Employee> {
     }
   }
 }
+```
 
-// SortExample class
+Demonstrating the class:
+
+```java
+import java.util.*;
+
+// SortExample.java
 public class SortExample {
   public static void main(String[] args)
   {
