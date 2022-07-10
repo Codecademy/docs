@@ -43,12 +43,11 @@ The `MyComparator` class will define a sort order for `MyClass` using its `.comp
 
 The following example defines an `Employee` class and a Comparator class that sorts based on `lastName` and then on `firstName`.
 
-```java
-import java.io.*;
-import java.util.*;
+Defining the `Employee` class:
 
-// Employee class
-class Employee {
+```java
+// Employee.java
+public class Employee {
   String firstName;
   String lastName;
 
@@ -65,9 +64,15 @@ class Employee {
     return "( " + lastName + ", " + firstName + " )";
   }
 }
+```
 
-// EmployeeSort class
-class EmployeeSort implements Comparator<Employee> {
+Defining a Comparator class:
+
+```java
+import java.util.*;
+
+// EmployeeSort.java
+public class EmployeeSort implements Comparator<Employee> {
 
   // Implement the Comparator interface
   @Override public int compare(Employee valueA, Employee valueB)
@@ -81,8 +86,14 @@ class EmployeeSort implements Comparator<Employee> {
     }
   }
 }
+```
 
-// SortExample class
+Demonstrating the Comparator:
+
+```java
+import java.util.*;
+
+// SortExample.java
 public class SortExample {
   public static void main(String[] args)
   {
