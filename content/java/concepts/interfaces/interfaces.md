@@ -16,6 +16,7 @@ CatalogContent:
 When a variable is defined as having the data type of an interface, it means it can hold any instance of a class implementing that interface, the interface itself can not be instantiated directly.
 
 The following items are allowed in an interface definition:
+
 - Constant variables. These are `public`, `static` and `final` by definition.
 - Abstract methods. These must be overridden by the class implementing the interface.
 - Static methods. These are not overridden, but accessed like any class static method.
@@ -30,13 +31,13 @@ Below is the basic syntax defining an interface:
 ```java
 interface InterfaceName {
   String constantVariable = "value";
-  
+
   int abstractMethod();
-  
+
   static void staticMethod() {
     // Method body
   }
-  
+
   default void defaultMethod() {
     // Method body
   }
@@ -55,19 +56,19 @@ import java.util.*;
 interface Food {
 
   String name();
-  
+
   default String kind() {
     return "Food";
   }
 }
 
 class Cabbage implements Food {
-  
+
   @Override
   public String name() {
     return "Cabbage";
   }
-  
+
   @Override
   public String kind() {
     return "Vegetable";
@@ -75,12 +76,12 @@ class Cabbage implements Food {
 }
 
 class Sausage implements Food {
-  
+
   @Override
   public String name() {
     return "Sausage";
   }
-  
+
   @Override
   public String kind() {
     return "Meat";
