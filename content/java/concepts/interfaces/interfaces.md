@@ -43,7 +43,7 @@ interface InterfaceName {
 }
 ```
 
-The interface can have any number of each of these elements, but it must have at least one, it cannot be empty.
+The interface can have any number of each of these elements, but it must have at least one. It cannot be empty.
 
 ## Example
 
