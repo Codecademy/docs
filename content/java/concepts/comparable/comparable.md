@@ -33,7 +33,7 @@ class MyClass implements Comparable<MyClass> {
 
 Applying the `Comparable` interface to `MyClass` requires the `implements` keyword (e.g., `Comparable<MyClass>`). This interface has a single `.compareTo()` method that returns an `int` value based on whether the `value` of a current class instance (referenced by `this`) can be logically sorted with the value of another instance of the same class.
 
-| Return Value | Meaning                        |
+| Return Value | Meaning                         |
 | :----------: | ------------------------------- |
 |    `>= 1`    | this instance > passed instance |
 |     `0`      | this instance = passed instance |
