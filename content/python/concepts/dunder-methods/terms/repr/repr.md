@@ -8,15 +8,17 @@ Subjects:
 Tags:
   - 'Attributes'
   - 'Classes'
+  - 'Functions'
   - 'Methods'
   - 'Objects'
   - 'OOP'
+  - 'Strings'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The **`__repr__()`** method returns the string representation of the object or class. This overwrites the built-in `repr()`. This representation can be seen by calling [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance.
+The **`__repr__()`** dunder method returns the string representation of the object or class. This overwrites the built-in `repr()` function.
 
 ## Syntax
 
@@ -29,7 +31,7 @@ The `__repr__()` method accepts no parameters. `self` is an implicit reference t
 
 ## Codebyte Example
 
-In the following example, the `__repr__()` function is written to return a formatted string of the `Home` class (with the help of the [`.format()`](https://www.codecademy.com/resources/docs/python/strings/format) string function):
+A class string representation can be seen by calling [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) on the instance. In the following example, the `__repr__()` method is written to return a formatted string representation of the `Home` class (with the help of the [`.format()`](https://www.codecademy.com/resources/docs/python/strings/format) string function):
 
 ```codebyte/python
 class Home:
