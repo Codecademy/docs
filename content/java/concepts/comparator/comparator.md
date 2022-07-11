@@ -86,7 +86,7 @@ public class EmployeeSort implements Comparator<Employee> {
 }
 ```
 
-Demonstrating the Comparator:
+This last snippet demonstrates the `Comparator` interface:
 
 ```java
 import java.util.*;
