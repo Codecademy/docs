@@ -25,7 +25,7 @@ This will swap the element in `myList` at zero-based `int` index `index1` with t
 
 ## Example
 
-The following example creates an `ArrayList` then uses `Collections.swap()` to reorder some elements:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then uses `Collections.swap()` to reorder some elements:
 
 ```java
 import java.util.*;
