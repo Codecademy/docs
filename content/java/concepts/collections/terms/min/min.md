@@ -22,7 +22,7 @@ import java.util.*;
 myMax = Collections.min(myList);
 
 // This provides the minimum element via a Comparator
-myMax = Collections.min(myList,myComparator);
+myMax = Collections.min(myList, myComparator);
 ```
 
 Both methods return the minimum element of `myList`. The first determines the minimum element using the natural ordering of the elements, the second uses `myComparator` to determine the minimum.
