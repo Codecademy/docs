@@ -18,7 +18,7 @@ There are many varied `Collection` types in Java, and the special [`Collections`
 
 ## Syntax
 
-```java
+```pseudo
 import java.util;
 
 Collection<DataType> c = new CollectionClass<DataType>();
