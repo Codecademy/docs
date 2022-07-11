@@ -42,7 +42,7 @@ The `Collection` interface utilizes the following methods:
 |  `.removeAll()`  | `.removeAll(collection)` | Removes all items in `collection` from the `Collection`.                         |
 |    `.size()`     |        `.size()`         | Returns the number of elements in the `Collection`                               |
 |   `.toArray()`   |       `.toArray()`       | Returns an array containing all the elements in the collection.                  |
-|                  |     `toArray(array)`     | Returns an array whose data type is the same as `array`.                         |
+|                  |     `.toArray(array)`    | Returns an array whose data type is the same as `array`.                         |
 
 ## Example
 
