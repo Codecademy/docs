@@ -6,7 +6,9 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Collections'
+  - 'Comparison'
   - 'Data Structures'
+  - 'Sort'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
