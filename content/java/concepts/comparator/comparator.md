@@ -39,7 +39,15 @@ class MyComparator implements Comparator<MyClass> {
 }
 ```
 
-The `MyComparator` class will define a sort order for `MyClass` using its `.compare()` method, which takes two `MyClass` instances as arguments. The `.compare()` method will use its comparison logic to return a result reflecting the relative ordering of `MyClass`, `a`, and `b`.
+Applying the `Comparator` interface to a class, `MyComparator`, requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a single `.compareTo()` method that returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted.
+
+| Return Value | Meaning                                          |
+| :----------: | ---------------------------------------------- |
+|    `>= 1`    | first object instance > second object instance |
+|     `0`      | first object instance = second object instance |
+|   `<= -1`    | first object instance < second object instance |
+
+A `Comparator` class can be passed as an argument to methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
 
 ## Example
 
