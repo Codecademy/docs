@@ -120,6 +120,6 @@ This example results in the following output:
 ( Brooks, Mel )
 ( Douglas, Kirk )
 ( Douglas, Michael )
-( Sheen, Charlie )
-( Sheen, Martin )
+( Fonda, Henry )
+( Fonda, Jane )
 ```
