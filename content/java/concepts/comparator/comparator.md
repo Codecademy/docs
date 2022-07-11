@@ -99,8 +99,8 @@ public class SortExample {
     Employee a[] = new Employee[5];
     a[0] = new Employee("Kirk","Douglas");
     a[1] = new Employee("Mel","Brooks");
-    a[2] = new Employee("Martin","Sheen");
-    a[3] = new Employee("Charlie","Sheen");
+    a[2] = new Employee("Jane","Fonda");
+    a[3] = new Employee("Henry","Fonda");
     a[4] = new Employee("Michael","Douglas");
 
     // Use .sort() method with Comparable class.
