@@ -22,7 +22,7 @@ import java.util.*;
 Collections.sort(myList);
 
 // This sorts by a Comparator
-Collections.sort(myList,myComparator);
+Collections.sort(myList, myComparator);
 ```
 
 Both methods sort `myList`. The first sorts `myList` using the natural ordering of the elements, the second uses `myComparator` to order the elements.
