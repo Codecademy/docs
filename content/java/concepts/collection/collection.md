@@ -43,7 +43,7 @@ The `Collection` interface utilizes the following methods:
 
 ## Example
 
-This is an exaple of the `Collection` interface implemented by an `ArrayList`:
+This is an example of the `Collection` interface being implemented by an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list):
 
 ```java
 import java.util.*;
