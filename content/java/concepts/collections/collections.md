@@ -4,6 +4,7 @@ Description: 'The Collections class provides static methods that operate on or r
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Classes'
   - 'Methods'
   - 'Collections'
   - 'Data Structures'
