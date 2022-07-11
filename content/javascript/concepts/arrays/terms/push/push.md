@@ -1,6 +1,6 @@
 ---
 Title: '.push()'
-Description: 'Adds one or more elements to end of array and returns new length.'
+Description: 'Adds one or more elements to the end of the array and returns the new length.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,42 +12,40 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Adds one or more elements to end of array and returns new length.
+The **`.push()`** method adds one or more elements to the end of an array and returns the new length.
 
 ## Syntax
 
-The `.push()` method is not to be confused with returning an entirely new array with the passed object.
-
 ```js
-array.push(item);
+array.push(item1, item2, ...itemN);
 ```
 
-Multiple elements can be passed to end of array.
+A comma-separated list of items ([strings](https://www.codecademy.com/resources/docs/javascript/strings), [variables](https://www.codecademy.com/resources/docs/javascript/variables), or [functions](https://www.codecademy.com/resources/docs/javascript/functions)) can be passed to the end of the `array`. The `.push()` method is not to be confused with returning an entirely new array with the passed object.
 
-```js
-array.push(item1, item2);
-```
+## Example
 
-## Examples
-
-Add one item to end of `colors` array:
+Add one item to the end of the `colors` array:
 
 ```js
 const colors = ['red', 'orange'];
 colors.push('yellow');
-// Output: 3
 
 console.log(colors);
-// Output: ['red', 'orange', 'yellow']
 ```
 
-Add multiple items to end of `colors` array:
+This will output the following:
 
-```js
-const colors = ['red', 'orange', 'yellow'];
-colors.push('green', 'blue');
-// Output: 5
+```shell
+["red", "orange", "yellow"]
+```
+
+## Codebyte Example
+
+The following example adds multiple colors to the `colors` array:
+
+```codebyte/javascript
+const colors = ["red", "orange", "yellow"];
+colors.push("green", "blue");
 
 console.log(colors);
-// Output: ['red', 'orange', 'yellow', 'green', 'blue']
 ```
