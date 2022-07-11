@@ -15,7 +15,7 @@ The **`Collections.min()`** method returns the minimum member of a List based on
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.*;
 
 // This provides the minimum element via natural ordering.
