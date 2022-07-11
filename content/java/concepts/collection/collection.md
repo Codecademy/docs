@@ -30,16 +30,19 @@ Where `DataType` is the data type to be stored in the collection and `Collection
 
 The `Collection` interface utilizes the following methods:
 
-- `add()`: `add(item)` adds `item` to the `Collection` if it wasn't a member already.
-- `addAll()`: `addAll(collection)` adds the elements in `collection` to the `Collection`.
-- `clear()`: Removes all the items in the `Collection`.
-- `contains()`: `contains(item)` returns `true` if `item` is a member of the `Collection`.
-- `containsAll()`: `contains(collection)` returns true if all the items in `collection` are contained in the `Collection`.
-- `isEmpty()`: Returns `true` if the `Collection` contains no elements.
-- `remove()`: `remove(item)` removes `item` from the `Collection`.
-- `removeAll()`: `removeAll(collection)` removes all items in `collection` from the `Collection`.
-- `size()`: Returns the number of elements in the `Collection`.
-- `toArray()`: Returns an array containing all the elements in the collection. `toArray(array)` returns an array whose data type is the same as `array`.
+| Method | Syntax | Description                   |
+|:------:|:------:|-------------------------------|
+| `.add()` | `.add(item)`| Adds `item` to the `Collection` if it wasn't a member already.|
+| `.addAll()` | `.addAll(collection)` | Adds the elements in `collection` to the `Collection`. |
+| `.clear()`| `.clear()` | Removes all the items in the `Collection`. |
+| `.contains()`| `.contains(item)` | Returns `true` if `item` is a member of the `Collection`. |
+| `.containsAll()`| `.contains(collection)` | Returns true if all the items in `collection` are contained in the `Collection`. |
+| `.isEmpty()`| `.isEmpty()`| Returns `true` if the `Collection` contains no elements.|
+| `.remove()`| `.remove(item)`| Removes `item` from the `Collection`. |
+| `.removeAll()`| `.removeAll(collection)` | Removes all items in `collection` from the `Collection`.|
+| `.size()`| `.size()`| Returns the number of elements in the `Collection`|
+| `.toArray()`| `.toArray()` | Returns an array containing all the elements in the collection. |
+| |`toArray(array)`| Returns an array whose data type is the same as `array`. |
 
 ## Example
 
