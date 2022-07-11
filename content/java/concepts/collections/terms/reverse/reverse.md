@@ -15,7 +15,7 @@ The **`Collections.reverse()`** method reverses the current ordering of a List.
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.*;
 
 Collections.reverse(myList);
