@@ -66,7 +66,7 @@ public class Employee {
 }
 ```
 
-Defining a Comparator class:
+The next snippet defines an `EmployeeSort` class that implements the `Comparator` interface and overrides its `.compare()` method to sort based on `lastName` and then on `firstName`:
 
 ```java
 import java.util.*;
