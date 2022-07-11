@@ -18,7 +18,7 @@ The **`Collections.swap()`** method swaps the positions of two elements in a Lis
 ```java
 import java.util.*;
 
-Collections.swap(myList,index1,index2);
+Collections.swap(myList, index1, index2);
 ```
 
 This will swap the element in `myList` at zero-based `int` index `index1` with the element at zero-based `int` index `index2`.
