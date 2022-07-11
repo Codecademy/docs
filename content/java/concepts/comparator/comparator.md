@@ -16,16 +16,6 @@ CatalogContent:
 
 The **`Comparator`** interface is used to order objects of an arbitrary [class](https://www.codecademy.com/resources/docs/java/classes). It is not to be confused with the [`Comparable`](https://www.codecademy.com/resources/docs/java/comparable) interface, which is implemented by the class to be sorted. The `Comparator` interface is implemented in a separate class.
 
-The `Comparator` interface has a `.compare()` method that is used to compare two instances of the same class, passed as arguments. The sorting is based on the return value of `.compare()`:
-
-| Return Value | Means                                          |
-| :----------: | ---------------------------------------------- |
-|    `>= 1`    | first object instance > second object instance |
-|     `0`      | first object instance = second object instance |
-|   `<= -1`    | first object instance < second object instance |
-
-A Comparator class can be passed as an argument to methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()` to specify the sort order, potentially overriding the natural sort order defined by the class’s own `.compareTo()` method.
-
 ## Syntax
 
 ```pseudo
@@ -39,9 +29,9 @@ class MyComparator implements Comparator<MyClass> {
 }
 ```
 
-Applying the `Comparator` interface to a class, `MyComparator`, requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a single `.compareTo()` method that returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted.
+Applying the `Comparator` interface to a class, `MyComparator`, requires the `implements` keyword (e.g., `Comparator<MyClass>`). This interface has a `.compare()` method that returns an `int` value based on whether two `MyClass` instances, `a` and `b`, can be logically sorted.
 
-| Return Value | Meaning                                          |
+| Return Value | Meaning                                        |
 | :----------: | ---------------------------------------------- |
 |    `>= 1`    | first object instance > second object instance |
 |     `0`      | first object instance = second object instance |
