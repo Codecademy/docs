@@ -6,6 +6,8 @@ Subjects:
 Tags:
   - 'Collections'
   - 'Data Structures'
+  - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
