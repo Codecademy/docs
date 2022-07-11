@@ -41,7 +41,15 @@ class MyClass implements Comparable<MyClass> {
 }
 ```
 
-Using the interface in `MyClass` requires it to implement `Comparable<MyClass>` and override the `.compareTo()` method. The `.compareTo()` method can then use any applicable logic to decide if `this` instance comes before, after, or in the same place as `value` in the sort order and return the appropriate `int` value.
+Applying the `Comparable` interface to `MyClass` requires the `implements` keyword (e.g., `Comparable<MyClass>`). This interface has a single `.compareTo()` method that returns an `int` value based on whether the `value` of a current class instance (referenced by `this`) can be logically sorted with the value of another instance of the same class.
+
+| Return Value | Meaning                        |
+| :----------: | ------------------------------- |
+|    `>= 1`    | this instance > passed instance |
+|     `0`      | this instance = passed instance |
+|   `<= -1`    | this instance < passed instance |
+
+This method determines how items are sorted by methods such as [`Arrays.sort()`](https://www.codecademy.com/resources/docs/java/arrays/sort) and `Collections.sort()`.
 
 ## Example
 
