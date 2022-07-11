@@ -15,7 +15,7 @@ The **`Collections.shuffle()`** method randomizes the order of elements in a Lis
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.*;
 
 Collections.shuffle(myList);
