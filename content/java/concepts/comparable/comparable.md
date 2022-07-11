@@ -82,7 +82,7 @@ public class Employee implements Comparable<Employee> {
 }
 ```
 
-Demonstrating the class:
+This last snippet demonstrates the `Comparable` interface:
 
 ```java
 import java.util.*;
