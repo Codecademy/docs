@@ -24,7 +24,7 @@ import java.util.*;
 myMax = Collections.max(myList);
 
 // This provides the maximum element via a Comparator
-myMax = Collections.max(myList,myComparator);
+myMax = Collections.max(myList, myComparator);
 ```
 
 Both methods return the maximum element of `myList`. The first determines the maximum element using the natural ordering of the elements, the second uses `myComparator` to determine the maximum.
