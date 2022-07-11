@@ -25,7 +25,7 @@ Collections.shuffle(myList);
 
 ## Example
 
-The following example creates an `ArrayList` then uses `Collections.shuffle()` to reorder the elements:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then uses `Collections.shuffle()` to reorder the elements:
 
 ```java
 import java.util.*;
