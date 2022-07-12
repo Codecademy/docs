@@ -20,7 +20,7 @@ The **`Collections.max()`** method returns the maximum member of a List based on
 ```pseudo
 import java.util.*;
 
-// This provides the maximum element via natural ordering.
+// This provides the maximum element via natural ordering
 myMax = Collections.max(myList);
 
 // This provides the maximum element via a Comparator
