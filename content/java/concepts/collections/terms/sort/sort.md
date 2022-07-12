@@ -18,7 +18,7 @@ The **`Collections.sort()`** method sorts a List based on natural ordering or ba
 ```pseudo
 import java.util.*;
 
-// This sorts by natural ordering.
+// This sorts by natural ordering
 Collections.sort(myList);
 
 // This sorts by a Comparator
