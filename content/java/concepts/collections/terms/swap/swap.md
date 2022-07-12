@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Collections.swap()`** method swaps the positions of two elements in a List.
+The **`Collections.swap()`** method swaps the positions of two elements in a `List`.
 
 ## Syntax
 
