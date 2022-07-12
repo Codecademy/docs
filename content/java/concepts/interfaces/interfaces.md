@@ -22,7 +22,7 @@ The following items are allowed in an interface definition:
 - Static methods. These are not overridden but accessed like any class static method.
 - Default methods. These may be overridden, but if not, the definition in the interface is used.
 
-No interface method can be `protected` or `final`.
+**Note:** No interface method can be `protected` or `final`.
 
 ## Syntax
 
