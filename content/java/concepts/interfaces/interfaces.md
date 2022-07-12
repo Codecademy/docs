@@ -17,7 +17,7 @@ When a variable is defined as having the data type of an interface, it means it 
 
 The following items are allowed in an interface definition:
 
-- Constant variables. These are `public`, `static` and `final` by definition.
+- Constant variables. These are `public`, `static`, and `final` by definition.
 - Abstract methods. These must be overridden by the class implementing the interface.
 - Static methods. These are not overridden, but accessed like any class static method.
 - Default methods. These may be overridden, but if not, the definition in the interface is used.
