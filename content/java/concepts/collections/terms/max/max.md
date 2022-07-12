@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Collections.max()`** method returns the maximum member of a List based on natural ordering or based on a [Comparator](https://www.codecademy.com/resources/docs/java/comparator). To use natural ordering, the elements of the List must implement the [Comparable](https://www.codecademy.com/resources/docs/java/comparable) interface.
+The **`Collections.max()`** method returns the maximum member of a `List` based on natural ordering or based on a [Comparator](https://www.codecademy.com/resources/docs/java/comparator). To use natural ordering, the elements of the `List` must implement the [Comparable](https://www.codecademy.com/resources/docs/java/comparable) interface.
 
 ## Syntax
 
