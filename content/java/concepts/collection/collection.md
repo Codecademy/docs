@@ -30,19 +30,19 @@ Where `DataType` is the data type to be stored in the collection and `Collection
 
 The `Collection` interface utilizes the following methods:
 
-|      Method      |          Syntax          | Description                                                                      |
-| :--------------: | :----------------------: | -------------------------------------------------------------------------------- |
-|     `.add()`     |       `.add(item)`       | Adds `item` to the collection if it wasn't a member already.                     |
-|   `.addAll()`    |  `.addAll(collection)`   | Adds the elements in `collection` to the collection.                             |
-|    `.clear()`    |        `.clear()`        | Removes all the items in the collection.                                         |
-|  `.contains()`   |    `.contains(item)`     | Returns `true` if `item` is a member of the collection.                          |
-| `.containsAll()` | `.contains(collection)`  | Returns true if all the items in `collection` are contained in the collection.   |
-|   `.isEmpty()`   |       `.isEmpty()`       | Returns `true` if the collection contains no elements.                           |
-|   `.remove()`    |     `.remove(item)`      | Removes `item` from the collection.                                              |
-|  `.removeAll()`  | `.removeAll(collection)` | Removes all items in `collection` from the collection.                           |
-|    `.size()`     |        `.size()`         | Returns the number of elements in the collection.                                |
-|   `.toArray()`   |       `.toArray()`       | Returns an array containing all the elements in the collection.                  |
-|                  |    `.toArray(array)`     | Returns an array whose data type is the same as `array`.                         |
+|      Method      |          Syntax          | Description                                                                    |
+| :--------------: | :----------------------: | ------------------------------------------------------------------------------ |
+|     `.add()`     |       `.add(item)`       | Adds `item` to the collection if it wasn't a member already.                   |
+|   `.addAll()`    |  `.addAll(collection)`   | Adds the elements in `collection` to the collection.                           |
+|    `.clear()`    |        `.clear()`        | Removes all the items in the collection.                                       |
+|  `.contains()`   |    `.contains(item)`     | Returns `true` if `item` is a member of the collection.                        |
+| `.containsAll()` | `.contains(collection)`  | Returns true if all the items in `collection` are contained in the collection. |
+|   `.isEmpty()`   |       `.isEmpty()`       | Returns `true` if the collection contains no elements.                         |
+|   `.remove()`    |     `.remove(item)`      | Removes `item` from the collection.                                            |
+|  `.removeAll()`  | `.removeAll(collection)` | Removes all items in `collection` from the collection.                         |
+|    `.size()`     |        `.size()`         | Returns the number of elements in the collection.                              |
+|   `.toArray()`   |       `.toArray()`       | Returns an array containing all the elements in the collection.                |
+|                  |    `.toArray(array)`     | Returns an array whose data type is the same as `array`.                       |
 
 ## Example
 
