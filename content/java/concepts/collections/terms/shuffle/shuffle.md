@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Collections.shuffle()`** method randomizes the order of elements in a List.
+The **`Collections.shuffle()`** method randomizes the order of elements in a `List`.
 
 ## Syntax
 
