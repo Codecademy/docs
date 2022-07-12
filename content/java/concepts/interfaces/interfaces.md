@@ -4,6 +4,7 @@ Description: 'Interfaces are abstract types describing methods and variables tha
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Classes'
   - 'Inheritance'
   - 'OOP'
 CatalogContent:
