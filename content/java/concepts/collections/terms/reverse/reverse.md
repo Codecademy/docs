@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Collections.reverse()`** method reverses the current ordering of a List.
+The **`Collections.reverse()`** method reverses the current ordering of a `List`.
 
 ## Syntax
 
