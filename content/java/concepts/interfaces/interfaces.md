@@ -28,7 +28,7 @@ The following items are allowed in an interface definition:
 
 Below is the basic syntax defining an interface:
 
-```java
+```pseudo
 interface InterfaceName {
   String constantVariable = "value";
 
