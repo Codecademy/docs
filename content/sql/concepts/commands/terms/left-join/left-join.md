@@ -1,32 +1,36 @@
 ---
-Title: 'OUTER JOIN'
-Description: 'Combine rows from different tables even if the join condition is not met.'
+Title: 'LEFT JOIN'
+Description: 'Combines matching rows with rows from the left-side table.'
 Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
   - 'Queries'
+  - 'Join'
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/design-databases-with-postgresql'
 ---
 
-Combine rows from different tables even if the join condition is not met.
+The **`LEFT JOIN`** command combines matching rows with rows from the left-side table.
+
+![LEFT JOIN GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
 
 ## Syntax
 
-Every row in the left table is returned in the result set, and if the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
-
-```sql
+```pseudo
 SELECT column_name(s)
 FROM table_1
 LEFT JOIN table_2
   ON table_1.column_name = table_2.column_name;
 ```
+
+Every row in the left table is returned in the result set. If the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
 
 ## Example
 
