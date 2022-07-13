@@ -1,6 +1,6 @@
 ---
-Title: 'INSERT'
-Description: 'Inserts new rows into a table.'
+Title: 'INSERT INTO'
+Description: 'Creates and places new rows into a table.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -9,24 +9,25 @@ Tags:
   - 'PostgreSQL'
   - 'MySQL'
   - 'SQLite'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
   - 'paths/design-databases-with-postgresql'
 ---
 
-Inserts new rows into a table.
+The **`INSERT INTO`** command creates and places new rows into a table.
 
 ## Syntax
 
-```sql
+```pseudo
 INSERT INTO table_name
 VALUES (value1, value2, ...);
 ```
 
 Multiple rows can be inserted by adding additional sets to the `VALUES` clause:
 
-```sql
+```pseudo
 INSERT INTO table_name
 VALUES
   (value1, value2, ...),
@@ -35,14 +36,14 @@ VALUES
 
 To add values corresponding to only specific columns, thereby leaving the rest of the row as default values, specify them alongside the table name:
 
-```sql
+```pseudo
 INSERT INTO table_name (column1, column2, ...)
 VALUES (value1, value2, ...);
 ```
 
 Default values can also be added using the `DEFAULT` keyword for the relevant column value:
 
-```sql
+```pseudo
 INSERT INTO table_name
 VALUES (value1, DEFAULT, value3, ...);
 ```

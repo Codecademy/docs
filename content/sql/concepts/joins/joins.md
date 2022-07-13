@@ -1,56 +1,48 @@
 ---
 Title: 'Joins'
-Description: 'In order to efficiently store data, we often spread related information across multiple tables. Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter. The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause. INNER JOIN is the default JOIN and it will only return results matching the condition specified by ON. Heres joining the books table and the authors table on books.author_id column and the authors.id column: sql SELECT *'
+Description: 'The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Joins'
+  - 'Database'
+  - 'Join'
   - 'Documentation'
+  - 'Queries'
+  - 'Tables'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
 ---
 
-In order to efficiently store data, we often spread related information across multiple tables.
+The **`JOIN`** clause combines rows from two or more tables by joining them together with other results based on common column values specified using an `ON` condition.
 
-Connecting or joining these tables to find interesting data is a common task that a Data Analyst, Data Scientist, or Data Engineer will often encounter.
+In order to efficiently store data, we often spread related information across multiple tables. Connecting or joining these tables to find interesting data is a common task that a data analyst, data scientist, or data engineer will often encounter.
 
-## Inner Join
+## INNER JOIN
 
-The `JOIN` clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an `ON` clause.
+[`INNER JOIN`](https://www.codecademy.com/resources/docs/sql/commands/inner-join) is the default `JOIN` and it will only return results matching the condition specified by `ON`.
 
-`INNER JOIN` is the default `JOIN` and it will only return results matching the condition specified by `ON`.
-
-Here's joining the `books` table and the `authors` table on `books.author_id` column and the `authors.id` column:
+The following only returns rows from the `books` and `authors` tables on the condition that `books.author_id` and `authors.id` columns match:
 
 ```sql
 SELECT *
 FROM books
-JOIN authors
+INNER JOIN authors
   ON books.author_id = authors.id;
 ```
 
-![Inner Join GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/inner-join.gif)
+## OUTER JOIN
 
-## Outer Join
+An [OUTER JOIN](https://www.codecademy.com/resources/docs/sql/commands/outer-join) will combine rows from different tables even if the join condition is not met. These commands include the following:
 
-An outer join will combine rows from different tables even if the join condition is not met.
-
-In a `LEFT JOIN`, every row in the left table is returned in the result set, and if the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
-
-```sql
-SELECT column_name(s)
-FROM table1
-LEFT JOIN table2
-  ON table1.column_name = table2.column_name;
-```
-
-![Outer Join GIF](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
+- [`LEFT JOIN`](https://www.codecademy.com/resources/docs/sql/commands/left-join), which combines matches with all rows from the left-side table.
+- [`RIGHT JOIN`](https://www.codecademy.com/resources/docs/sql/commands/right-join), which combines matches with all rows from the right-side table.
+- [`FULL OUTER JOIN`](https://www.codecademy.com/resources/docs/sql/commands/outer-join), which combines matches with all rows from the left- and right-side tables.
 
 ## UNION
 
-The `UNION` clause is used to combine results that appear from multiple `SELECT` statements and filter duplicates.
+The [`UNION`](https://www.codecademy.com/resources/docs/sql/commands/union) clause is used to combine results that appear from multiple [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statements and filter duplicates.
 
 ```sql
 SELECT name
@@ -60,25 +52,10 @@ SELECT name
 FROM last_names;
 ```
 
-For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a last_names table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names:
+For example, given a `first_names` table with a column name containing rows of data “James” and “Hermione”, and a `last_names` table with a column name containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three names:
 
 | name     |
 | -------- |
 | Cassidy  |
 | James    |
 | Hermione |
-
-## CROSS JOIN
-
-The `CROSS JOIN` clause is used to combine each row from one table with each row from another in the result set. This `JOIN` is helpful for creating all possible combinations for the records (rows) in two tables.
-
-```sql
-SELECT shirts.shirt_color,
-   pants.pants_color
-FROM shirts
-CROSS JOIN pants;
-```
-
-The given query will select the `shirt_color` and `pants_color` columns from the result set, which will contain all combinations of combining the rows in the shirts and pants tables.
-
-If there are 3 different shirt colors in the shirts table and 5 different pants colors in the pants table then the result set will contain 3 x 5 = 15 rows.
