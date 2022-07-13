@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`DELETE`** command removes existing row(s) from a table.
+The **`DELETE`** command removes one or more existing rows from a table.
 
 ## Syntax
 
