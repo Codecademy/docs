@@ -99,7 +99,7 @@ public class Sausage implements Food {
 }
 ```
 
-Define the `Pizza` class implementing `Food`:
+Multiple classes can implement the same interface, like with the `Pizza` class below:
 
 ```java
 // Pizza.java
