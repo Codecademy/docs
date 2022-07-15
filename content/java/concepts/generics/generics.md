@@ -17,11 +17,11 @@ CatalogContent:
 
 **Generics** refer to the ability to use a type as a parameter to methods and classes. This provides the ability to a set of related classes or methods that can operate on many different types with a single declaration. This also allows type safety at compile-time allowing invalid types to be caught during compilation.
 
-**Note:** Java type parameters can only be refrence types, not primitive types (like int, double or char).
+**Note:** Java type parameters can only be reference types, not primitive types (like int, double or char).
 
 ## Generic Methods
 
-A generic method declaration can be called with arguments of different types. The compiler handles each method call appropriatly based on the types of the arguments.
+A generic method declaration can be called with arguments of different types. The compiler handles each method call appropriately based on the types of the arguments.
 
 ### Syntax
 
@@ -34,4 +34,111 @@ A generic method declaration can be called with arguments of different types. Th
 
 The type parameter section is before the return type and is enclosed in angle brackets `<...>`. Inside are one or more type parameters separated by commas, `T` above, each one is a identifier for a specific type name. The identifiers can used to declare the return type, the types of the arguments passed to the method, and as type specifiers within the method body.
 
+### Example
 
+The following example shows how a generic method can accept arrays of different types.
+
+```java
+public class GenericMethodExample {
+  // Generic method
+  public static <T> void arrayPrint( T[] a ) {
+    for(T item : a) {
+      System.out.printf("%s",item);
+      System.out.println();
+    }
+  }
+  // Use example
+  public static void main(String args[]) {
+    Integer[] array1 = {0,1,2,3};
+    String[] array2 = {"Hello","World"};
+    Character[] array3 = {'G','E','N','E','R','I','C'};
+    
+    arrayPrint(array1);
+    arrayPrint(array2);
+    arrayPrint(array3);
+  }
+}
+```
+
+This results in the output:
+
+```shell
+0
+1
+2
+3
+Hello
+World
+G
+E
+N
+E
+R
+I
+C
+```
+
+## Generic Classes
+
+A generic class takes one or more type parameters when it is defined. One of the more familiar uses of a generic class is with Java's various collection classes. An `ArrayList` for instance is a generic class, when it is defined it requires a type parameter to specify what kind of type the `ArrayList` contains. For example:
+
+```java
+ArrayList<String> a = new ArrayList<String>();
+```
+
+### Syntax
+
+A generic class is defined just like a normal class, with the addition of a list of type parameters in angle brackets `<...>` after the class name. The type parameters can then be used throughout the class definition to declare variables and specify parameter types for methods.
+
+```pseudo
+accessModifier class ClassName<T> {
+  // Class body
+}
+```
+
+### Example
+
+This example creates a `Bucket` class that can hold contents of various types.
+
+This defines the generic `Bucket` class:
+```java
+// Bucket.java
+class Bucket<T> {
+  private T item;
+  
+  public void putInBucket(T item) {
+    this.item = item;
+  }
+  
+  public T fetchFromBucket() {
+    return item;
+  }
+}
+```
+
+This uses the generic `Bucket` class:
+
+```java
+// UseBucket.java
+public class UseBucket {
+
+  public static void main(String[] args) {
+    Bucket<String> bucket1 = new Bucket<String>();
+    Bucket<Integer> bucket2 = new Bucket<Integer>();
+    
+    bucket1.putInBucket("Hello World!");
+    bucket2.putInBucket(12345);
+    
+    System.out.printf("%s",bucket1.fetchFromBucket());
+    System.out.println();
+    System.out.printf("%s",bucket2.fetchFromBucket());
+  }
+}
+```
+
+This results in the output:
+
+```shell
+Hello World!
+12345
+```
