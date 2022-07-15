@@ -17,7 +17,7 @@ CatalogContent:
 
 **Generics** refer to the ability to use a type as a parameter to methods and classes. This provides the ability to a set of related classes or methods that can operate on many different types with a single declaration. This also allows type safety at compile-time allowing invalid types to be caught during compilation.
 
-**Note:** Java type parameters can only be reference types, not primitive types (like int, double or char).
+**Note:** Java type parameters can only be reference types, not primitive types (like `int`, `double` or `char`).
 
 ## Generic Methods
 
