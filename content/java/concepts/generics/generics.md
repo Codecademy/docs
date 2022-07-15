@@ -80,7 +80,7 @@ C
 
 ## Generic Classes
 
-A generic class takes one or more type parameters when it is defined. One of the more familiar uses of a generic class is with Java's various collection classes. An `ArrayList` for instance is a generic class, when it is defined it requires a type parameter to specify what kind of type the `ArrayList` contains. For example:
+A generic class takes one or more type parameters when it is defined. One of the more familiar uses of a generic class is with Java's various collection classes. An `ArrayList` for instance is a generic class. When it is declared it requires a type parameter to specify what kind of type the `ArrayList` contains. For example:
 
 ```java
 ArrayList<String> a = new ArrayList<String>();
