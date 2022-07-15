@@ -49,9 +49,7 @@ The interface can have any number of each of these elements, but it must have at
 
 ## Example
 
-The following example uses an interface to demonstrate [polymorphism](https://www.codecademy.com/resources/docs/general/polymorphism), the ability of an object to take different forms at runtime:
-
-Define the `Food` interface:
+The following example uses a `Food` interface to demonstrate [polymorphism](https://www.codecademy.com/resources/docs/general/polymorphism), the ability of an object to take different forms at runtime:
 
 ```java
 // Food.java
