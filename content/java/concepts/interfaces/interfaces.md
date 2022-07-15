@@ -63,7 +63,7 @@ public interface Food {
 }
 ```
 
-Define the `Cabbage` class implementing `Food`:
+Next, a `Cabbage` class is defined, implementing the `Food` interface:
 
 ```java
 // Cabbage.java
