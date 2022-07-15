@@ -28,7 +28,7 @@ A generic method declaration can be called with arguments of different types. Th
 ```pseudo
 
 <T> void myMethod( T argument ) {
-  // Method body 
+  // Method body
   }
 ```
 
@@ -52,7 +52,7 @@ public class GenericMethodExample {
     Integer[] array1 = {0,1,2,3};
     String[] array2 = {"Hello","World"};
     Character[] array3 = {'G','E','N','E','R','I','C'};
-    
+
     arrayPrint(array1);
     arrayPrint(array2);
     arrayPrint(array3);
@@ -101,15 +101,16 @@ accessModifier class ClassName<T> {
 This example creates a `Bucket` class that can hold contents of various types.
 
 This defines the generic `Bucket` class:
+
 ```java
 // Bucket.java
 class Bucket<T> {
   private T item;
-  
+
   public void putInBucket(T item) {
     this.item = item;
   }
-  
+
   public T fetchFromBucket() {
     return item;
   }
@@ -125,10 +126,10 @@ public class UseBucket {
   public static void main(String[] args) {
     Bucket<String> bucket1 = new Bucket<String>();
     Bucket<Integer> bucket2 = new Bucket<Integer>();
-    
+
     bucket1.putInBucket("Hello World!");
     bucket2.putInBucket(12345);
-    
+
     System.out.printf("%s",bucket1.fetchFromBucket());
     System.out.println();
     System.out.printf("%s",bucket2.fetchFromBucket());
