@@ -29,7 +29,7 @@ A generic method declaration can be called with arguments of different types. Th
 
 <T> void myMethod( T argument ) {
   // Method body
-  }
+}
 ```
 
 The type parameter section is before the return type and is enclosed in angle brackets `<...>`. Inside are one or more type parameters separated by commas (`T` above) each one is a identifier for a specific type name. The identifiers can used to declare the return type, the types of the arguments passed to the method, and as type specifiers within the method body.
