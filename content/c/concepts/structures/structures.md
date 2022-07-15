@@ -112,8 +112,8 @@ A structure can be within another structure. Nested structure members can be acc
 #include <string.h>
 
 struct Hospital {
-    char department[30];
-    int roomNum;
+  char department[30];
+  int roomNum;
 };
 
 struct Patient {
@@ -125,13 +125,13 @@ struct Patient {
 };
 
 int main() {
-    // Variable initialization at declaration
-    struct Patient patientA = {"Douglas Franklin", 62, 280, 74, "oncology", 526};
+  // Variable initialization at declaration
+  struct Patient patientA = {"Douglas Franklin", 62, 280, 74, "oncology", 526};
 
-    // Accessing nested structure members
-    printf("Department: %s \nRoom: %d \n", patientA.roomDetails.department, patientA.roomDetails.roomNum);
+  // Accessing nested structure members
+  printf("Department: %s \nRoom: %d \n", patientA.roomDetails.department, patientA.roomDetails.roomNum);
 
-    return 0;
+  return 0;
 }
 ```
 
