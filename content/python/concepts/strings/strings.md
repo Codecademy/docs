@@ -7,6 +7,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Strings'
+  - 'Formatting'
   - 'Lists'
   - 'Data Types'
   - 'Characters'
@@ -24,21 +25,14 @@ message2 = 'I am also a string'
 
 Other data types such as `integers`, `doubles`, and `booleans` can also be `strings` provided that they are wrapped in quotes.
 
-All of the following are strings:
-
-```py
-"2"
-'3.6'
-"True"
-```
-
-However, none of the following are strings:
-
-```shell
-7
-Hello
-True
-```
+| Example                    | String? |
+| -------------------------- | ------- |
+| "2" (with double-quotes)   | Yes ✅  |
+| '3.6' (with single-quotes) | Yes ✅  |
+| "True" (also in quotes)    | Yes ✅  |
+| 7 (integer)                | No ❌   |
+| Hello (no quotes)          | No ❌   |
+| True (boolean)             | No ❌   |
 
 Strings are immutable; they cannot change. Every time an operation is performed on a string, a new string is created in memory.
 
@@ -136,7 +130,7 @@ I am on bottom.
 
 ## Modifying Strings
 
-Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to duplicate a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
+Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to mu a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
 
 ```py
 string_one = "Hello, "
@@ -155,6 +149,11 @@ if "World" in new_combo:
   print("It's here!")
   # Output: It's here!
 ```
+
+Strings can also be formatted with either of the following:
+
+- The `f/F` flag (placed before the opening quotation mark).
+- The [.format()](https://www.codecademy.com/resources/docs/python/strings/format) method (requires manually assigned placeholders).
 
 ## Comparing Strings
 
