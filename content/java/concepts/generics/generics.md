@@ -26,7 +26,6 @@ A generic method declaration can be called with arguments of different types. Th
 ### Syntax
 
 ```pseudo
-
 <T> void myMethod( T argument ) {
   // Method body
 }
