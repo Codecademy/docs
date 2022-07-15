@@ -36,7 +36,7 @@ The type parameter section is before the return type and is enclosed in angle br
 
 ### Example
 
-The following example shows how a generic method can accept arrays of different types.
+The following example shows how a generic method can accept [arrays](https://www.codecademy.com/resources/docs/java/arrays) of different types:
 
 ```java
 public class GenericMethodExample {
