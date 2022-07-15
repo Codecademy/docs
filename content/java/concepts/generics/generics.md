@@ -46,7 +46,7 @@ public class GenericMethodExample {
       System.out.println();
     }
   }
-  
+
   // Use example
   public static void main(String args[]) {
     Integer[] array1 = {0,1,2,3};
