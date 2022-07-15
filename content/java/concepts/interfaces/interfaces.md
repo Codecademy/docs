@@ -112,7 +112,7 @@ public class Pizza implements Food {
 }
 ```
 
-Demonstrate the interface and all the classes implementing it:
+The following demonstrates the interface and all the classes implementing it:
 
 ```java
 // Main.java
