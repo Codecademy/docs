@@ -185,6 +185,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Operating Systems
 Operators
 Optionals
 Output
@@ -237,6 +238,7 @@ Span
 Specificity
 Spread
 SQLite
+SQL Server
 Stacks
 Static Site
 Statistics
