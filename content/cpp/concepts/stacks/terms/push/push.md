@@ -14,11 +14,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.push()`** method adds an element to the top of the stack..
+The **`.push()`** method adds an element to the top of the [`stack`](https://www.codecademy.com/resources/docs/cpp/stacks).
 
 ## Syntax
 
-The `.push()` method is called on a stack using the following syntax:
+The `.push()` method is called on a `stack` using the following syntax:
 
 ```pseudo
 stackName.push(value);
