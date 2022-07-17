@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.pop()`** method removes the last item addted to the top of the stack, reducing its size bt one.
+The **`.pop()`** method removes the last item addted to the top of the [`stack`](https://www.codecademy.com/resources/docs/cpp/stacks), reducing its size bt one.
 
 ## Syntax
 
