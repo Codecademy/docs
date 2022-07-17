@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`Collection`** is an interface allowing items to be grouped within a single container object. It is found in the `java.util` package, and is implemented by `List`, [`Set`](https://www.codecademy.com/resources/docs/java/set) and [`Queue`](https://www.codecademy.com/resources/docs/java/queue).
+A **`Collection`** is an interface allowing items to be grouped within a single container object. It is found in the `java.util` package and is implemented by `List`, [`Set`](https://www.codecademy.com/resources/docs/java/set), and [`Queue`](https://www.codecademy.com/resources/docs/java/queue).
 
 There are many varied `Collection` types in Java, and the special [`Collections`](https://www.codecademy.com/resources/docs/java/collections) class is provided to manipulate them.
 
