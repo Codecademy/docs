@@ -27,7 +27,7 @@ A `stack` requires a [data type](https://www.codecademy.com/resources/docs/cpp/d
 
 ## Codebyte Example
 
-The following example creates a `stack` and pushes and pops elements off the stack:
+The following example creates a `stack` and [pushes](https://www.codecademy.com/resources/docs/cpp/stacks/push) and [pops](https://www.codecademy.com/resources/docs/cpp/stacks/pop) elements off the stack:
 
 ```codebyte/cpp
 #include <iostream>
