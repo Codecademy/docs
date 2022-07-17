@@ -25,7 +25,7 @@ myMax = Collections.min(myList);
 myMax = Collections.min(myList, myComparator);
 ```
 
-Both methods return the minimum element of `myList`. The first determines the minimum element using the natural ordering of the elements, the second uses `myComparator` to determine the minimum.
+Both methods return the minimum element of `myList`. The first determines the minimum element using the natural ordering of the elements. The second uses `myComparator` to determine the minimum.
 
 ## Example
 
