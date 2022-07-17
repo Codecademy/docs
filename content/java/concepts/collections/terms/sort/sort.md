@@ -25,7 +25,7 @@ Collections.sort(myList);
 Collections.sort(myList, myComparator);
 ```
 
-Both methods sort `myList`. The first sorts `myList` using the natural ordering of the elements, the second uses `myComparator` to order the elements.
+Both methods sort `myList`. The first sorts `myList` using the natural ordering of the elements. The second uses `myComparator` to order the elements.
 
 ## Example
 
