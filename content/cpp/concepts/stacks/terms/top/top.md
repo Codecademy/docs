@@ -40,7 +40,7 @@ int main(){
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
- 
+
   while (!myStack.empty()) {
     std::cout << ' ' << myStack.top();
     myStack.pop();

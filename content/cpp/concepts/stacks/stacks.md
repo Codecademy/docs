@@ -41,10 +41,10 @@ int main(){
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
-  
+
   myStack.pop();
   myStack.pop();
-  
+
   while (!myStack.empty()) {
     std::cout << ' ' << myStack.top();
     myStack.pop();
