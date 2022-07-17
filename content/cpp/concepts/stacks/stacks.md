@@ -1,6 +1,6 @@
 ---
 Title: 'Stacks'
-Description: 'Stacks are a container that stores elements in a last-in first-out (LIFO) order.'
+Description: 'A stack is a container that stores elements in a last-in first-out (LIFO) order.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
