@@ -39,14 +39,14 @@ int main(){
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
-  
+
   std::cout << myStack.size() << '\n';
-  
+
   myStack.pop();
   myStack.pop();
-  
+
   std::cout << myStack.size() << '\n';
-  
+
   while (!myStack.empty()) {
     myStack.pop();
   }
