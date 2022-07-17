@@ -25,7 +25,7 @@ This reverses the ordering of the elements in `myList`.
 
 ## Example
 
-The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then uses `Collections.reverse()` to reorder the elements:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) and then uses `Collections.reverse()` to reorder the elements:
 
 ```java
 import java.util.*;
