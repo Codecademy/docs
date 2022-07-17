@@ -29,7 +29,7 @@ Both methods return the minimum element of `myList`. The first determines the mi
 
 ## Example
 
-The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then uses `Collections.min()` to return some elements:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) and then uses `Collections.min()` to return some elements:
 
 ```java
 import java.util.*;
