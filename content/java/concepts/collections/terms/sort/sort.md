@@ -29,7 +29,7 @@ Both methods sort `myList`. The first sorts `myList` using the natural ordering 
 
 ## Example
 
-The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) then uses `Collections.sort()` to reorder its elements:
+The following example creates an [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) and then uses `Collections.sort()` to reorder its elements:
 
 ```java
 import java.util.*;
