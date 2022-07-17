@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.push()` method adds an element to the top of the stack..
+The **`.push()`** method adds an element to the top of the stack..
 
 ## Syntax
 
