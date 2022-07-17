@@ -18,7 +18,7 @@ The **`.top()`** method returns the top element on the [`stack`](https://www.cod
 
 ## Syntax
 
-The `.top()` method can be called on a queue using the following syntax:
+The `.top()` method can be called on a `stack` using the following syntax:
 
 ```pseudo
 stackName.top();
