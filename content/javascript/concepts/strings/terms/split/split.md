@@ -66,7 +66,7 @@ console.log("No separator; entire string is lone element:\n", arrayOfNames, "\n"
 
 arrayOfNames = stringOfNames.split(`, `);
 
-// Iterate through arrayOfNames and .split() each name string at index i.
+// Iterate through arrayOfNames and .split() each name string into separate characters.
 for(let i = 0; i < arrayOfNames.length; i++) {
   console.log(arrayOfNames[i].split(""));
 };

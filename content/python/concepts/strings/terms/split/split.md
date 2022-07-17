@@ -47,8 +47,6 @@ print(my_list)
 # Output: ['I', 'like', 'waffles', 'from', 'Belgium']
 ```
 
-It is also possible to use escape characters with `.split()`, such as `\t` (tab) and `\n` (newline)
-
 The next example shows the following:
 
 - It is possible to use escape characters (tab `\t`, newline `\n`, etc.) as delimiters (in `list_a`).

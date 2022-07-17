@@ -130,7 +130,7 @@ I am on bottom.
 
 ## Modifying Strings
 
-Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to mu a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
+Python has special [operators](https://www.codecademy.com/resources/docs/python/operators) to modify strings. For example, `+` can be used to concatenate strings, and `*` can be used to multiply a string. The keyword `in` can be used to see if a given character or substring exists in a `string`.
 
 ```py
 string_one = "Hello, "

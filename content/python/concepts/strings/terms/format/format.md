@@ -1,6 +1,6 @@
 ---
 Title: '.format()'
-Description: 'Returns a string with values inserted via placeholder.'
+Description: 'Returns a string with values inserted via placeholders.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.format()`** string function returns a string with values inserted via placeholder.
+The **`.format()`** string function returns a string with values inserted via placeholders.
 
 Python's built-in string function `.format()` converts strings by inserting values passed through placeholders.
 
