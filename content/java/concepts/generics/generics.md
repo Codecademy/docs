@@ -10,6 +10,7 @@ Tags:
   - 'Constructors'
   - 'Methods'
   - 'OOP'
+  - 'Parameters'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
