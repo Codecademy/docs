@@ -15,6 +15,8 @@ CatalogContent:
 
 **Font Awesome** is a very popular icon toolkit for the web, based on [CSS](https://www.codecademy.com/resources/docs/css) and [Less](https://lesscss.org/). It was developed by Dave Gandy in 2012 and is currently up to version 6. All versions through version 4 were free to use, while versions 5 & 6 have paid and free versions.
 
+## Syntax
+
 Font Awesome is most easily used by including a line in the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element of the web page that allows the use of the Font Awesome icons and their CSS modifiers. The line to include will differ depending on what version you're using.
 
 For version 4, the line to include is:
@@ -28,6 +30,8 @@ Using the free version of 6 requires a "Kit Code" that can be retrieved by [sign
 ```html
 <script src="https://kit.fontawesome.com/kitcode.js" crossorigin="anonymous"></script>
 ```
+
+## Using Font Awesome
 
 Utilizing the fonts and features of Font Awesome require applying different class attributes to HTML elements on the page. The icons themselves are designed to use inline elements and are typically displayed using an [`<i>`](https://www.codecademy.com/resources/docs/html/elements/i) element.
 
@@ -43,3 +47,4 @@ Version 6 would use `fas` followed by the icon name. The `s` stands for "solid".
 <i class="fas fa-file-code"></i><i class="far fa-file-code"></i>
 ```
 
+There are several different values that can be added to the class attribute to modify the apperance of the Font Awesome icons. Several are listed below:
