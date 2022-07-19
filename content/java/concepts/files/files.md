@@ -88,7 +88,7 @@ import java.io.FileWriter;
 FileWriter myWriter = new FileWriter(filePath, append); 
 ```
 
-Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is a boolean specifing if writing will append to the file.
+Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is an optional boolean specifing if writing will append to the file.
 
 ### Methods
 
@@ -122,3 +122,46 @@ public class FileWriterExample {
 ## Reading From a File
 
 It is possible to read data from a file using the `FileReader` class.
+
+### Syntax
+
+To use the `FileReader` class, it's necessary to create an object of that class and specify a path/filename.
+
+```pseudo
+import java.io.FileReader; 
+
+FileReader myReader = new FileReader(filePath); 
+```
+
+Once declared, the `myReader` object can be used to read characters from the file specified by `filePath`.
+
+### Methods
+
+The `FileReader` class offeres the following methods to read from a file:
+
+- `close()`: Closes the FileReader. Should be done after all reads are complete.
+- `read()`: Reads a character from the file, or reads caharacters into a buffer.
+
+### Example
+
+The following example reads all the characters from a file. Again the file access code is in a `try ... catch` block.
+
+```java
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileReaderExample {
+  public static void main(String[] args) {
+    try {
+      FileReader myReader = new FileReader("test.txt");
+      int i;
+      while ((i = myReader.read()) != -1)
+        System.out.print((char)i);
+      myReader.close();
+    } catch (IOException e) {
+      System.out.println("An error was thrown.");
+      e.printStackTrace();
+    }
+  }
+}
+```
