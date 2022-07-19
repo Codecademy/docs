@@ -14,16 +14,16 @@ Java provides a number of different classes and methods for utilizing files and 
 
 ## Accessing a File
 
-Basic accessing of files and directories can be done through the use of the `File` class. 
+Basic accessing of files and directories can be done through the use of the `File` class.
 
 ### Syntax
 
 To use the `File` class, it's necessary to create an object of that class and specify a path/filename.
 
 ```pseudo
-import java.io.File; 
+import java.io.File;
 
-File myFile = new File(filePath); 
+File myFile = new File(filePath);
 ```
 
 Once declared, the `myFile` object can be used to manipulate and gather information about the file or directory specified by `filePath`.
@@ -42,7 +42,7 @@ The `File` object includes the following methods to manipulate the specified fil
 - `isDirectory()`: Returns `true` if instance points to a directory.
 - `isFile()`: Returns `true` if instance points to a file.
 - `length()`: Returns the size of the file in bytes.
-- `list()`:	Returns a `String[]` array of the files in the directory.
+- `list()`: Returns a `String[]` array of the files in the directory.
 - `mkdir()`: Creates a directory.
 
 ### Example
@@ -63,7 +63,7 @@ public class FileExample {
         if (myFile.createNewFile()) {
           System.out.println("File created: " + myFile.getName());
         } else {
-          System.out.println("File was not created.");        
+          System.out.println("File was not created.");
         }
       }
     } catch (IOException e) {
@@ -83,9 +83,9 @@ It is possile to write to a file using the `FileWriter` class.
 To use the `FileWriter` class, it's necessary to create an object of that class and specify a path/filename.
 
 ```pseudo
-import java.io.FileWriter; 
+import java.io.FileWriter;
 
-FileWriter myWriter = new FileWriter(filePath, append); 
+FileWriter myWriter = new FileWriter(filePath, append);
 ```
 
 Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is an optional boolean specifing if writing will append to the file.
@@ -128,9 +128,9 @@ It is possible to read data from a file using the `FileReader` class.
 To use the `FileReader` class, it's necessary to create an object of that class and specify a path/filename.
 
 ```pseudo
-import java.io.FileReader; 
+import java.io.FileReader;
 
-FileReader myReader = new FileReader(filePath); 
+FileReader myReader = new FileReader(filePath);
 ```
 
 Once declared, the `myReader` object can be used to read characters from the file specified by `filePath`.
