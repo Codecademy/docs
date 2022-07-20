@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Scope refers to the areas that variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist only in the local scope.
+**Scope** refers to the areas that variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist only in the local scope.
 
 ## Local Scope
 
@@ -47,7 +47,7 @@ outer_function()
 
 A variable initialized in the main body is defined as a global variable and can be used anywhere in the code, including nested blocks, loops, etc. This is because these variables exist in the global scope of the code.
 
-```py
+```codebyte/python
 x = 200
 
 def fun():
@@ -56,9 +56,4 @@ def fun():
 fun()
 
 print(x)
-"""
-Output:
-200
-200
-"""
 ```

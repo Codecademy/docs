@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
+  - 'Functions'
   - 'Lists'
   - 'Methods'
 CatalogContent:
@@ -18,7 +19,7 @@ The **`.splice()`** method modifies an array in place by inserting, removing, an
 ## Syntax
 
 ```pseudo
-array.splice(start, itemCount, item1, item2,..., itemN);
+array.splice(start, itemCount, item1, item2, ..., itemN);
 ```
 
 - `start`: The array index at which the insertion and/or removal is to begin.
