@@ -5,7 +5,6 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
-  - 'Libraries'
   - 'World Wide Web'
   - 'Fonts'
 CatalogContent:
