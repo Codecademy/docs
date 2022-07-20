@@ -1,1 +1,1 @@
-content/general/concepts/comment/comment.md
+content/general/concepts/ada-lovelace/ada-lovelace.md
