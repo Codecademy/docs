@@ -41,10 +41,15 @@ Version 4 would use the prefix `fa` followed by the icon name:
 <i class="fa fa-check-square"></i>
 ```
 
+![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-check.png)
+
 Version 6 would use `fas` followed by the icon name. The `s` stands for "solid". Some icons also have a "regular" version accessed by using `far` instead.
 
 ```html
-<i class="fas fa-file-code"></i><i class="far fa-file-code"></i>
+<i class="fas fa-file-code"></i>
+<i class="far fa-file-code"></i>
 ```
+
+![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-code.png)
 
 There are several different values that can be added to the class attribute to modify the apperance of the Font Awesome icons. Several are listed below:
