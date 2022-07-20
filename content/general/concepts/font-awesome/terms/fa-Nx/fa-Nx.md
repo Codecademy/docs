@@ -12,4 +12,21 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **fa-*N*x** classes, where _N_ can be a number from 2 to 10, adjusts the icon size relative to its container. 
+The **`fa-Nx`** classes, where _N_ can be a number from 2 to 10, adjusts the icon size relative to its container. In addition to `fa-2x ... fa-10x`, there's also `fa-xs`, `fa-sm` and `fa-lg`.
+
+## Example
+
+```html
+<i class="fas fa-file-code fa-xs"></i>
+<i class="fas fa-file-code fa-sm"></i>
+<i class="fas fa-file-code fa-lg"></i>
+<i class="fas fa-file-code fa-2x"></i>
+<i class="fas fa-file-code fa-4x"></i>
+<i class="fas fa-file-code fa-6x"></i>
+<i class="fas fa-file-code fa-8x"></i>
+<i class="fas fa-file-code fa-10x"></i>
+```
+
+Results in:
+
+![Sizing](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-size.png)
