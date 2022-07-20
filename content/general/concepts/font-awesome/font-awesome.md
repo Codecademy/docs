@@ -43,7 +43,7 @@ Version 4 would use the prefix `fa` followed by the icon name:
 
 ![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-check.png)
 
-Version 6 would use `fas` followed by the icon name. The `s` stands for "solid". Some icons also have a "regular" version accessed by using `far` instead.
+Version 6 uses `fas` followed by the icon name. The `s` stands for "solid". Some icons also have a "regular" version accessed by using `far` instead.
 
 ```html
 <i class="fas fa-file-code"></i>
