@@ -23,4 +23,4 @@ The **`fa-spin`** class causes any icon to rotate with 8 discrete steps.
 
 Results in:
 
-![Sizing](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pulse.png)
+![Pulsing](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pulse.png)
