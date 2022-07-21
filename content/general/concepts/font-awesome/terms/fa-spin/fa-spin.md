@@ -24,4 +24,4 @@ The **`fa-spin`** class causes any icon to rotate.
 
 Results in:
 
-![Sizing](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-spin.png)
+![Spinning](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-spin.png)
