@@ -33,7 +33,7 @@ For instance, suppose there's a `transactions` table with the following values:
 | 2023-01-31 | 6.00   |
 | 2023-01-31 | 4.20   |
 
-The given query will return the smallest value from the `amount` column:
+The given query will return the sum of all values from the `amount` column:
 
 ```sql
 SELECT SUM(amount)
