@@ -24,8 +24,14 @@ The **`fa-border`** class is used to place a border around an icon. For addtiona
 
 ```html
 <i class="fas fa-chess-pawn fa-border"></i>
-<i class="fas fa-chess-pawn fa-border" style="--fa-border-radius: 100%;--fa-border-color: red;"></i>
-<i class="fas fa-chess-pawn fa-border" style="--fa-border-width: 3px; --fa-border-color:  black; --fa-border-style: dotted;"></i>
+<i
+  class="fas fa-chess-pawn fa-border"
+  style="--fa-border-radius: 100%;--fa-border-color: red;"
+></i>
+<i
+  class="fas fa-chess-pawn fa-border"
+  style="--fa-border-width: 3px; --fa-border-color:  black; --fa-border-style: dotted;"
+></i>
 ```
 
 Results in:

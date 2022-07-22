@@ -17,8 +17,7 @@ The **`fa-spin`** class causes any icon to rotate with 8 discrete steps.
 ## Example
 
 ```html
-<i class="fas fa-cog fa-pulse"></i>
-<i class="fas fa-spinner fa-pulse"></i>
+<i class="fas fa-cog fa-pulse"></i> <i class="fas fa-spinner fa-pulse"></i>
 ```
 
 Results in:

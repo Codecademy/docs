@@ -21,7 +21,6 @@ The **`fa-stack`** classes are used to stack icons on top of each other. The `fa
   <i class="fas fa-bug fa-stack-1x"></i>
   <i class="fas fa-ban fa-stack-2x" style="color:red;"></i>
 </span>
-
 ```
 
 Results in:

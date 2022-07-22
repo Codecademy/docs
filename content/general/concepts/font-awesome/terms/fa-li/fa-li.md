@@ -18,9 +18,15 @@ The **`fa-li`** class is used with the `fa-ul` class to create custom bullets in
 
 ```html
 <ul class="fa-ul">
-  <li><span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 1</li>
-  <li><span class="fa-li"><i class="far fa-comment"></i></span>List Item 2</li>
-  <li><span class="fa-li"><i class="fas fa-star"></i></span>List Item 3</li>
+  <li>
+    <span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 1
+  </li>
+  <li>
+    <span class="fa-li"><i class="far fa-comment"></i></span>List Item 2
+  </li>
+  <li>
+    <span class="fa-li"><i class="fas fa-star"></i></span>List Item 3
+  </li>
 </ul>
 ```
 

@@ -21,13 +21,19 @@ Font Awesome is most easily used by including a line in the [`<head>`](https://w
 For version 4, the line to include is:
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 ```
 
 Using the free version of 6 requires a "Kit Code" that can be retrieved by [signing up for an account](https://fontawesome.com/start) at Font Awesome. With the "Kit Code" the line to include Font Awesome on a web page is this:
 
 ```html
-<script src="https://kit.fontawesome.com/kitcode.js" crossorigin="anonymous"></script>
+<script
+  src="https://kit.fontawesome.com/kitcode.js"
+  crossorigin="anonymous"
+></script>
 ```
 
 ## Using Font Awesome
@@ -39,6 +45,7 @@ Version 4 would use the prefix `fa` followed by the icon name:
 ```html
 <i class="fa fa-check-square"></i>
 ```
+
 Results in:
 
 ![Example 1](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-check.png)
@@ -46,8 +53,7 @@ Results in:
 Version 6 uses `fas` followed by the icon name. The `s` stands for "solid". Some icons also have a "regular" version accessed by using `far` instead.
 
 ```html
-<i class="fas fa-file-code"></i>
-<i class="far fa-file-code"></i>
+<i class="fas fa-file-code"></i> <i class="far fa-file-code"></i>
 ```
 
 Results in:

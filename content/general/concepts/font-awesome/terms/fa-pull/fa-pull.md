@@ -19,7 +19,8 @@ The **`fa-pull`** classes are used to put the icon to the left or right of the c
 ```html
 <i class="fas fa-quote-left fa-2x fa-pull-left"></i>
 <i class="fas fa-quote-right fa-2x fa-pull-right"></i>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.
 ```
 
 Results in:
