@@ -1,6 +1,6 @@
 ---
 Title: 'global'
-Description: 'Creates a global variable that can be updated '
+Description: 'Creates a global variable that can be updated.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
