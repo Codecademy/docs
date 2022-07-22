@@ -1,6 +1,6 @@
 ---
 Title: 'input()'
-Description: 'Prompts the user for data and returns as a string.'
+Description: 'Prompts the user for data and returns it as a string.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
