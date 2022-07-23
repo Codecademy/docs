@@ -64,4 +64,35 @@ Thread thread = new Thread(runnable);
 thread.start()
 ```
 
+In both cases the `.IsAlive()` method of the `Thread` class will return a boolean that is `true` as long as the thread is running.
+
+## Example
+
+This example prints out some messages from the main thread and from a seprate thread.
+
+```java
+public class Example extends Thread {
+
+  public static void main(String[] args) {
+    Example thread = new Example();
+    System.out.println("This is the main thread.");
+    thread.start();
+    System.out.println("This is the main thread.");
+  }
+  
+  public void run() {
+    System.out.println("This is a seprate thread.");
+    System.out.println("This is a seprate thread.");
+  }
+}
+```
+
+This results in output like:
+
+```shell
+This is the main thread.
+This is the main thread.
+This is a seprate thread.
+This is a seprate thread.
+```
 
