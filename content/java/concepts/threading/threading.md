@@ -51,7 +51,7 @@ The second way of using threads in java is to implement the `Runnable` interface
 ```java
 public class MyRunnable implements Runnable {
   public void run() {
-    System.out.println("This code is running in a thread");
+    // Code to run in seprate thread
   }
 }
 ```
