@@ -1,6 +1,6 @@
 ---
 Title: 'Threading'
-Description: 'Threading is the ability for different parts of a program to run simultaniously.'
+Description: 'Threading is the ability for different parts of a program to run simultaneously.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Threading** is the ability for different parts of a program to run simultaniously. The currently running part of the program can start another process that will run in the background as the code that spawned the background process continues to execute. This allows complex processes to run without holding up execution of the rest of the program.
+**Threading** is the ability for different parts of a program to run simultaneously. The currently running part of the program can start another process that will run in the background as the code that spawned the background process continues to execute. This allows complex processes to run without holding up execution of the rest of the program.
 
 Different parts of the program that are operating at the same time are called "threads" and the code that started executing first, starting these other processes, is typically known as the "main thread". 
 
@@ -30,12 +30,12 @@ The first way is by extending the `Thread` class and overriding its `.run()` met
 ```java
 public class MyThread extends Thread {
   public void run() {
-    // Code to run in seprate thread
+    // Code to run in separate thread
   }
 }
 ```
 
-The code in the `.run()` method is what will run in a seprate thread when the thread is started. The thread is started by creating an instance of this class and calling its `.start()` method:
+The code in the `.run()` method is what will run in a separate thread when the thread is started. The thread is started by creating an instance of this class and calling its `.start()` method:
 
 ```java
 MyThread thread = new MyThread();
@@ -51,12 +51,12 @@ The second way of using threads in java is to implement the `Runnable` interface
 ```java
 public class MyRunnable implements Runnable {
   public void run() {
-    // Code to run in seprate thread
+    // Code to run in separate thread
   }
 }
 ```
 
-Again, the code in the `.run()` method is what will run in a seprate thread when the thread is started. The thread is started by creating an instance of this class to the `Thread` class's constructor, then calling the `.start()` method on that instance of the `Thread` class.
+Again, the code in the `.run()` method is what will run in a separate thread when the thread is started. The thread is started by creating an instance of this class to the `Thread` class's constructor, then calling the `.start()` method on that instance of the `Thread` class.
 
 ```java
 MyRunnable runnable = new MyRunnable();
@@ -68,7 +68,7 @@ In both cases the `.IsAlive()` method of the `Thread` class will return a boolea
 
 ## Example
 
-This example prints out some messages from the main thread and from a seprate thread.
+This example prints out some messages from the main thread and from a separate thread.
 
 ```java
 public class Example extends Thread {
@@ -81,8 +81,8 @@ public class Example extends Thread {
   }
   
   public void run() {
-    System.out.println("This is a seprate thread.");
-    System.out.println("This is a seprate thread.");
+    System.out.println("This is a separate thread.");
+    System.out.println("This is a separate thread.");
   }
 }
 ```
@@ -92,7 +92,6 @@ This results in output like:
 ```shell
 This is the main thread.
 This is the main thread.
-This is a seprate thread.
-This is a seprate thread.
+This is a separate thread.
+This is a separate thread.
 ```
-
