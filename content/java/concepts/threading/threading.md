@@ -15,7 +15,7 @@ CatalogContent:
 
 **Threading** is the ability for different parts of a program to run simultaneously. The currently running part of the program can start another process that will run in the background as the code that spawned the background process continues to execute. This allows complex processes to run without holding up execution of the rest of the program.
 
-Different parts of the program that are operating at the same time are called "threads" and the code that started executing first, starting these other processes, is typically known as the "main thread". 
+Different parts of the program that are operating at the same time are called "threads" and the code that started executing first, starting these other processes, is typically known as the "main thread".
 
 One important thing to be aware of when working with threads is the possibility of concurrency problems, which happen when threads share access to a particular variable. If multiple threads access one variable, no thread can predict what its value will be since each thread operates independently and may be in a different stage in its process at any given time. Best practice is to avoid accessing such variables unless its confirmed that the threads that can modify them have completed their execution.
 
@@ -79,7 +79,7 @@ public class Example extends Thread {
     thread.start();
     System.out.println("This is the main thread.");
   }
-  
+
   public void run() {
     System.out.println("This is a separate thread.");
     System.out.println("This is a separate thread.");
