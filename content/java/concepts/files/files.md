@@ -1,6 +1,6 @@
 ---
 Title: 'Files'
-Description: 'Java provides a number of different classes and methods for utilizing files and the computers file system.'
+Description: 'Java provides a number of different classes and methods for utilizing files and the computer's file system.'
 Subjects:
   - 'Computer Science'
 Tags:
