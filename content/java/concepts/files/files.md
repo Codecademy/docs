@@ -12,7 +12,7 @@ CatalogContent:
 
 Java provides a number of different classes and methods for utilizing files and a computer's file system. They include the classes `File`, `FileReader`, and `FileWriter.`
 
-## Accessing a File
+## Accessing Files
 
 Basic accessing of files and directories can be done through the use of the `File` class.
 
