@@ -35,7 +35,7 @@ The `File` object includes the following methods to manipulate the specified fil
 - `canRead()`: Returns `true` if the file is readable.
 - `canWrite()`: Returns `true` if the file is writable.
 - `createNewFile()`: Creates an empty file. Returns `true` if successful.
-- `delete()`: Deletes a file. Can delete directory if it is empty.
+- `delete()`: Deletes a file. Can delete a directory if it is empty.
 - `exists()`: Returns `true` if the file/directory exists.
 - `getName()`: Returns the name of the file/directory.
 - `getAbsolutePath()`: Returns the full pathname of the file/directory.
