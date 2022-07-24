@@ -137,7 +137,7 @@ Once declared, the `myReader` object can be used to read characters from the fil
 
 ### Methods
 
-The `FileReader` class offeres the following methods to read from a file:
+The `FileReader` class offers the following methods to read from a file:
 
 - `close()`: Closes the FileReader. Should be done after all reads are complete.
 - `read()`: Reads a character from the file, or reads caharacters into a buffer.
