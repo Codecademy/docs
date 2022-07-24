@@ -35,7 +35,7 @@ A function is called by using its name, followed by parenthesis enclosing any pa
 my_function(parameters)
 ```
 
-Parameters can be passed to a function by position or by name. By position passes arguments in the order they were defined in the function. By name specifies the name of the parameter given by the function.
+Arguments can be passed to a function by position or by name. By position passes arguments in the order they were defined in the function. By name specifies the name of the parameter given by the function.
 
 ```r
 my_function <- function(arg1, arg2, arg3) {
