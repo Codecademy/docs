@@ -56,7 +56,7 @@ public class MyRunnable implements Runnable {
 }
 ```
 
-Again, the code in the `.run()` method is what will run in a separate thread when the thread is started. The thread is started by creating an instance of this class to the `Thread` class's constructor, then calling the `.start()` method on that instance of the `Thread` class.
+Again, the code in the `.run()` method is what will run in a separate thread when the thread is started. The thread is started by creating an instance of this class and passing it to the `Thread` class's constructor, then calling the `.start()` method on that instance of the `Thread` class.
 
 ```java
 MyRunnable runnable = new MyRunnable();
