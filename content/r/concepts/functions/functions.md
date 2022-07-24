@@ -49,8 +49,16 @@ odd_or_even <- function(num) {
 }
 
 odd_or_even(20)
-# Output: Even.
-
 odd_or_even(15)
-#Output: Odd.
 ```
+
+The output of the above will be:
+
+```shell
+[1] "Even."
+[2] "Odd."
+```
+
+## The `return` Keyword
+
+The `return` keyword stops execution of the function and returns a result value
