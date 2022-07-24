@@ -26,7 +26,7 @@ stackName.pop();
 
 ## Codebyte Example
 
-The following example cerates a stack `myStack` and after adding some elements, removes them with the `.pop()` method. Note at the end, `myStack` is empty.
+The following example creates a stack `myStack` and after adding some elements, removes them with the `.pop()` method. Note at the end, `myStack` is empty.
 
 ```codebyte/cpp
 #include <iostream>
