@@ -42,10 +42,10 @@ my_function <- function(arg1, arg2, arg3) {
   print((arg1 + arg2) * arg3)
 }
 
-# Calling arguments by position:
+# Passing arguments by position:
 my_function(value1, value2, value3)
 
-# Calling arguments by name:
+# Passing arguments by name:
 my_function(arg1 = value1, arg2 = value2, arg3 = value3)
 ```
 
