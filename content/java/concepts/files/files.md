@@ -88,7 +88,7 @@ import java.io.FileWriter;
 FileWriter myWriter = new FileWriter(filePath, append);
 ```
 
-Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is an optional boolean specifing if writing will append to the file.
+Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is an optional boolean specifying if writing will append to the file.
 
 ### Methods
 
