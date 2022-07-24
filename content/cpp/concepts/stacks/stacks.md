@@ -23,7 +23,7 @@ std::stack<dataType> stackName;
 std::stack<dataType, containerType<dataType>> stackName;
 ```
 
-A `stack` requires a [data type](https://www.codecademy.com/resources/docs/cpp/data-types) specified. A container type can be specified, but it must use the same data type. If a container type is not specified, the default `deque<dataType>` is used.
+A `stack` requires a [`dataType`](https://www.codecademy.com/resources/docs/cpp/data-types) to be specified. A `containerType` can be specified, but it must be the same data type. If a container type is not specified, the default `deque<dataType>` is used.
 
 ## Codebyte Example
 
