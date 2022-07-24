@@ -119,7 +119,7 @@ public class FileWriterExample {
 }
 ```
 
-## Reading From a File
+## Reading Files
 
 It is possible to read data from a file using the `FileReader` class.
 
