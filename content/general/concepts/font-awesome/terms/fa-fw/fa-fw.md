@@ -1,6 +1,6 @@
 ---
 Title: 'fa-fw'
-Description: 'Used to set an icon to be fixed width.'
+Description: 'Sets an icon to a fixed width.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
