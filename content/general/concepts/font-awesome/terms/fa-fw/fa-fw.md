@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-fw`** class is used to set an icon to be fixed width. This is useful when verically aligning icons in a list.
+The **`fa-fw`** class is used to set an icon to a fixed width. This is useful when vertically aligning icons in a list.
 
 ## Example
 
