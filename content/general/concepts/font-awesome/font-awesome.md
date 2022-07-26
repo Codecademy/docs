@@ -27,7 +27,7 @@ For version 4, the line to include is:
 />
 ```
 
-Using the free version of 6 requires a "Kit Code" that can be retrieved by [signing up for an account](https://fontawesome.com/start) at Font Awesome. With the "Kit Code" the line to include Font Awesome on a web page is this:
+The free part of version 6 requires a "Kit Code" that can be retrieved by [signing up for a Font Awesome account](https://fontawesome.com/start). The "Kit Code" can then be referenced in a [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) element:
 
 ```pseudo
 <script
