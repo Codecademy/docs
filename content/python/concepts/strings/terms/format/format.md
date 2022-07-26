@@ -27,7 +27,7 @@ string = "{placeholder_1} {placeholder_2}"
 string.format(placeholder_1, placeholder_2)
 ```
 
-When using multiple `placeholder_` values, they are inserted into the `string` in the order they appear in `.format()`. Each value in `.format()` is assigned with an index starting from `0`. When the index is called in the placeholder, the corresponding value will be entered in.
+When using multiple `placeholder_` values, they are inserted into the `string` in the order they appear in `.format()`. Each value in `.format()` is assigned with an index starting from `0`. When the index is called in the placeholder, the corresponding value will be placed in.
 
 ## Examples
 
