@@ -153,7 +153,7 @@ if "World" in new_combo:
 Strings can also be formatted with either of the following:
 
 - The `f/F` flag (placed before the opening quotation mark).
-- The [.format()](https://www.codecademy.com/resources/docs/python/strings/format) method (requires manually assigned placeholders).
+- The [.format()](https://www.codecademy.com/resources/docs/python/strings/format) method (requires manually adding placeholders).
 
 ## Comparing Strings
 
