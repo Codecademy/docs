@@ -30,6 +30,4 @@ The **`fa-li`** class is used with the [`fa-ul`](https://www.codecademy.com/reso
 </ul>
 ```
 
-Results in:
-
-![Unordered List](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-list.png)
+![Font Awesome Unordered List Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-list.png)
