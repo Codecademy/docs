@@ -32,10 +32,12 @@ For version 4, it be in referenced in a [`<link>`](https://www.codecademy.com/re
 The free part of version 6 requires a "Kit Code" that can be retrieved by [signing up for a Font Awesome account](https://fontawesome.com/start). The "Kit Code" can then be referenced in a [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) element:
 
 ```pseudo
-<script
-  src="https://kit.fontawesome.com/kitcode.js"
-  crossorigin="anonymous"
-></script>
+<head>
+  <script
+    src="https://kit.fontawesome.com/kitcode.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
 ```
 
 ## Using Font Awesome
