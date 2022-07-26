@@ -79,7 +79,7 @@ print(new_phrase_1)
 print(new_phrase_2)
 ```
 
-Similar to the previous example, values in `.format()` can be used with keyword arguments. When the keyword is called in the placeholder, the corresponding value will be entered in:
+Similar to the previous example, values in `.format()` can be used with keyword arguments. When the keyword is called in the placeholder, the corresponding value will be placed in:
 
 ```shell
 I like to eat apples and oranges.
