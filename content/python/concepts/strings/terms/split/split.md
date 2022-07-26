@@ -36,7 +36,7 @@ If no parameters are passed to the `.split()` method, a list is returned with th
 
 ## Examples
 
-If the paramaters of `.split()` are left blank, the delimiter will default to whitespace and the maximum number of items to split will be infinite.
+If the parameters of `.split()` are left blank, the delimiter will default to whitespace and the maximum number of items to split will be infinite.
 
 ```py
 my_string = "I like waffles from Belgium"
