@@ -25,7 +25,7 @@ a string to a list.
 string.split(delimiter, number_of_items)
 ```
 
-The `.split()` method takes the following optional paramters:
+The `.split()` method takes the following optional parameters:
 
 - A `delimiter` that is a either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
 - A maximum `number_of_items` for the returned list.
