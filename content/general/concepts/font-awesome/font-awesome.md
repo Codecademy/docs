@@ -21,10 +21,12 @@ Font Awesome is most easily used by including a line in the [`<head>`](https://w
 For version 4, it be in referenced in a [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element via [CDN](https://www.codecademy.com/resources/docs/general/cdn):
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
 ```
 
 The free part of version 6 requires a "Kit Code" that can be retrieved by [signing up for a Font Awesome account](https://fontawesome.com/start). The "Kit Code" can then be referenced in a [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) element:
