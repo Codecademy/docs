@@ -32,7 +32,7 @@ tuple = (value1, value2, ... valueN)
 tuple = (singleValue, )
 ```
 
-There are multiple ways to create tuples in Python.
+There are multiple ways to create tuples in Python:
 
 - The first way is with the built-in `tuple()` function that accepts an iterable value such as a list.
 - Tuples can also be created with just parentheses.
