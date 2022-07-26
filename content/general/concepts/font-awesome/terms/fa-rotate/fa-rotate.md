@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-rotate`** classes are used to rotate an icon 90, 180, or 270 degrees.
+The **`fa-rotate`** classes are used to rotate an icon by 90, 180, or 270 degrees.
 
 ## Example
 
