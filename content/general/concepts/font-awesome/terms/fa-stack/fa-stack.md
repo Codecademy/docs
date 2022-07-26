@@ -23,6 +23,4 @@ The **`fa-stack`** classes are used to stack icons on top of each other. The `fa
 </span>
 ```
 
-Results in:
-
-![Stack](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-stack.png)
+![Font Awesome Stack Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-stack.png)
