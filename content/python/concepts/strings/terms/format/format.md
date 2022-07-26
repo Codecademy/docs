@@ -41,7 +41,7 @@ formatted_phrase = phrase.format("apple", "orange")
 print(formatted_phrase)
 ```
 
-The resulting output shows that the arguments strings `"apple"` and `"orange"` are placed into `new_string` in the order they appear in `.format()`:
+The resulting output shows that the string arguments `"apple"` and `"orange"` are placed into `new_string` in the order they appear in `.format()`:
 
 ```shell
 I like to eat apples and oranges.
