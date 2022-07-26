@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-pull`** classes are used to put the icon to the left or right of the container, allowing contents to flow around it. The `fa-pull-right` class places the icon on the right and the `fa-pull-left` class puts the icon on the left.
+The **`fa-pull`** classes are used to put the icon to the left- (`fa-pull-left`) or right-side (`fa-pull-right`) of its container, allowing contents to flow around it.
 
 ## Example
 
