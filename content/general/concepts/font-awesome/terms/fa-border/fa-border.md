@@ -34,6 +34,4 @@ The **`fa-border`** class is used to place a border around an icon. For addtiona
 ></i>
 ```
 
-Results in:
-
-![Border](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-border.png)
+![Font Awesome Border Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-border.png)
