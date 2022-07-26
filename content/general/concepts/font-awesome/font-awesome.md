@@ -40,7 +40,7 @@ The free part of version 6 requires a "Kit Code" that can be retrieved by [signi
 
 ## Using Font Awesome
 
-Utilizing the fonts and features of Font Awesome require applying different class attributes to HTML elements on the page. The icons themselves are designed to use inline elements and are typically displayed using an [`<i>`](https://www.codecademy.com/resources/docs/html/elements/i) element.
+Utilizing the fonts and features of Font Awesome require applying different [class](https://www.codecademy.com/resources/docs/html/classes) names to HTML elements on the page. The icons themselves are designed to use inline elements and are displayed with an [`<i>`](https://www.codecademy.com/resources/docs/html/elements/i) element.
 
 Version 4 would use the prefix `fa` followed by the icon name:
 
