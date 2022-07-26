@@ -23,7 +23,7 @@ message1 = "I am a string"
 message2 = 'I am also a string'
 ```
 
-Other data types such as `integers`, `doubles`, and `booleans` can also be `strings` provided that they are wrapped in quotes.
+Other [data types](https://www.codecademy.com/resources/docs/python/data-types) such as `integers`, `doubles`, and `booleans` can also be `strings` provided that they are wrapped in quotes.
 
 | Example                    | String? |
 | -------------------------- | ------- |
