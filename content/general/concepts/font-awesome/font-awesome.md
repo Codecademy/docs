@@ -1,6 +1,6 @@
 ---
 Title: 'Font Awesome'
-Description: 'Font Awesome is a very popular icon toolkit for the web, based on CSS and Less.'
+Description: 'Font Awesome is an icon toolkit for the web, based on CSS and Less.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
