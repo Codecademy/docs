@@ -27,6 +27,6 @@ The following jQuery code will show the element selected with `#hide` when the `
 
 ```js
 $("#show").click(function(){
-  $("#hide").hide();
+  $("#hide").show();
 });
 ```
