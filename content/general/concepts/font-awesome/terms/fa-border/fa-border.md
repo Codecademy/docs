@@ -18,7 +18,7 @@ The **`fa-border`** class is used to place a border around an icon. For addtiona
 - `--fa-border-padding`: Sets the CSS [`padding`](https://www.codecademy.com/resources/docs/css/padding) value.
 - `--fa-border-radius`: Sets the CSS [`border-radius`](https://www.codecademy.com/resources/docs/css/borders/border-radius) value.
 - `--fa-border-style`: Sets the CSS [`border-style`](https://www.codecademy.com/resources/docs/css/borders/border-style) value.
-- `--fa-border-width`: sets the CSS [`border-width`](https://www.codecademy.com/resources/docs/css/borders/border-width) value.
+- `--fa-border-width`: Sets the CSS [`border-width`](https://www.codecademy.com/resources/docs/css/borders/border-width) value.
 
 ## Example
 
