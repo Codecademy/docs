@@ -27,6 +27,4 @@ The **`fa-fw`** class is used to set an icon to a fixed width. This is useful wh
 <div><i class="fas fa-mobile-alt"></i> Item 3</div>
 ```
 
-Results in:
-
-![Fixed Width](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-fixed.png)
+![Font Awesome Fixed Width Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-fixed.png)
