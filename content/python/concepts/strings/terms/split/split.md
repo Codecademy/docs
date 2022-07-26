@@ -79,7 +79,7 @@ Limited number of list items: ['Breakfast', 'Eggs', 'Tomatoes', 'Beans|Waffles']
 
 ## Codebyte Example
 
-The following example showcases a regular expression (`r"ea"`) being applied as a delemiter for the `.split()` method:
+The following example showcases a regular expression (`r"ea"`) being applied as a delimiter for the `.split()` method:
 
 ```codebyte/python
 example_string = "Bears, beans, and breakfast."
