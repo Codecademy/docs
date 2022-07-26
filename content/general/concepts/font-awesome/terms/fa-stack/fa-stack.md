@@ -1,6 +1,6 @@
 ---
 Title: 'fa-stack'
-Description: 'Used to stack icons on top of each other.'
+Description: 'Stacks icons on top of each other.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
