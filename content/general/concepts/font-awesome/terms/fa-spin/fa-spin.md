@@ -22,6 +22,4 @@ The **`fa-spin`** class causes any icon to rotate.
 <i class="fas fa-cog fa-spin"></i>
 ```
 
-Results in:
-
-![Spinning](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-spin.png)
+![Font Awesome Spin Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-spin.png)
