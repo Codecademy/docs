@@ -23,6 +23,4 @@ The **`fa-rotate`** classes are used to rotate an icon by 90, 180, or 270 degree
 <i class="fas fa-cut fa-rotate-270"></i>
 ```
 
-Results in:
-
-![Rotate](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-rotate.png)
+![Font Awesome Rotate Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-rotate.png)
