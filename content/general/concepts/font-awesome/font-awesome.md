@@ -20,7 +20,7 @@ Font Awesome is most easily used by including a line in the [`<head>`](https://w
 
 For version 4, it be in referenced in a [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element via [CDN](https://www.codecademy.com/resources/docs/general/cdn):
 
-```html
+```pseudo
 <head>
   <link
     rel="stylesheet"
