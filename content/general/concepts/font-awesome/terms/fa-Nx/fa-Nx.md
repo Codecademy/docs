@@ -1,6 +1,6 @@
 ---
 Title: 'fa-Nx'
-Description: 'Where N can be a number from 2 to 10, adjusts the icon size relative to its container.'
+Description: 'Adjusts the icon size relative to its container.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
