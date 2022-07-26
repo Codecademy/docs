@@ -59,4 +59,4 @@ Results in:
 
 ![Example 2](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-code.png)
 
-There are several different values that can be added to the class attribute to modify the apperance of the Font Awesome icons. Several are listed below:
+There are several different values that can be added to the `class` attribute to modify the appearance of the Font Awesome icons. Several are listed below:
