@@ -37,7 +37,7 @@ There are multiple ways to create tuples in Python:
 - The first way is with the built-in `tuple()` function that accepts an iterable value such as a list.
 - Tuples can also be created with just parentheses.
 
-**Note**: If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python will interpet the surrounding parentheses as an expression instead of a tuple:
+**Note**: If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python will interpret the surrounding parentheses as an expression instead of a tuple:
 
 ```py
 streaming_days = (3)
