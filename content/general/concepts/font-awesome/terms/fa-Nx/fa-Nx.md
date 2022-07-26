@@ -27,4 +27,4 @@ The **`fa-Nx`** classes, where `N` can be a number from 2 to 10, adjusts the ico
 <i class="fas fa-file-code fa-10x"></i>
 ```
 
-![Sizing Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-size.png)
+![Font Awesome Sizing Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-size.png)
