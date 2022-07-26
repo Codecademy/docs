@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-spin`** class causes any icon to rotate with 8 discrete steps.
+The **`fa-pulse`** class causes any icon to rotate with 8 discrete steps.
 
 ## Example
 
