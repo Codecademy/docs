@@ -29,7 +29,7 @@ For version 4, the line to include is:
 
 Using the free version of 6 requires a "Kit Code" that can be retrieved by [signing up for an account](https://fontawesome.com/start) at Font Awesome. With the "Kit Code" the line to include Font Awesome on a web page is this:
 
-```html
+```pseudo
 <script
   src="https://kit.fontawesome.com/kitcode.js"
   crossorigin="anonymous"
