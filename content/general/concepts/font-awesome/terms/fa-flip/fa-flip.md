@@ -22,6 +22,4 @@ The **`fa-flip`** classes are used to flip an icon on the horizontal or vertical
 <i class="fas fa-truck fa-flip-vertical"></i>
 ```
 
-Results in:
-
-![Flip](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-flip.png)
+![Font Awesome Flip Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-flip.png)
