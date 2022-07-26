@@ -17,8 +17,6 @@ CatalogContent:
 
 The **`.split()`** method returns a new [list](https://www.codecademy.com/resources/docs/python/lists) of substrings based on a given string.
 
-a string to a list.
-
 ## Syntax
 
 ```pseudo
