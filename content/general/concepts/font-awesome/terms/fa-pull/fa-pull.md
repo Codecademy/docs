@@ -23,6 +23,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua.
 ```
 
-Results in:
-
-![Pull](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pull.png)
+![Font Awesome Pull Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pull.png)
