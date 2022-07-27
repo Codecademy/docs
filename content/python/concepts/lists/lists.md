@@ -28,7 +28,7 @@ list_a = []
 list_b = list()
 ```
 
-Lists can either be defined with square brackets (`[]`) or the with the built-in `list()` constructor method. In any case, the values initially passed to the new list must be comma-separated.
+Lists can either be defined with square brackets (`[]`) or with the built-in `list()` constructor method. In any case, the values initially passed to the new list must be comma-separated.
 
 The following example showcases how lists can hold items of the same type or a mix of different types:
 
