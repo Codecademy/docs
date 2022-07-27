@@ -13,7 +13,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-The **`pull`** command retrieves and integrates changes from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch). This command is like a combination of the [`fetch`](https://www.codecademy.com/resources/docs/git/fetch) and [`merge`](https://www.codecademy.com/resources/docs/git/merge) commands, and is often used for the following:
+The **`pull`** command retrieves and integrates changes from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch). This command is like a combination of the [`fetch`](https://www.codecademy.com/resources/docs/git/fetch) and [`merge`](https://www.codecademy.com/resources/docs/git/merge) commands and is often used for the following:
 
 - Move code from a remote machine or repository to a local one.
 - Retrieve code from a repository hosting service like [GitHub](https://www.codecademy.com/resources/docs/general/github).
