@@ -27,7 +27,7 @@ This will bring in changes made in the `<branch-name>` that exist in the Git `<r
 
 ## Fetching From a Remote
 
-A common use-case for the `fetch` command is bringing in and reviewing changes made in a remote branch. The remote must exist in order for `fetch` to be able to access and retrieve the changes made there.
+A common use case for the `fetch` command is bringing in and reviewing changes made in a remote branch. The remote must exist in order for `fetch` to be able to access and retrieve the changes made there.
 
 ```shell
 $ git remote -v
