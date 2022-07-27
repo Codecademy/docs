@@ -50,7 +50,7 @@ my_function(arg1 = value1, arg2 = value2, arg3 = value3)
 
 ## Example
 
-The following takes a numeric argument and prints a string saying if it is even or odd:
+The following example defines an `odd_or_even()` function that takes a `num` argument. When called, it prints a message saying if `num` is even or odd:
 
 ```r
 odd_or_even <- function(num) {
