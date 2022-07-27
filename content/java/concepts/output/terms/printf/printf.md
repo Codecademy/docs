@@ -5,6 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Characters'
+  - 'Formatting'
   - 'Output'
   - 'Strings'
   - 'Print'
