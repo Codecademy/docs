@@ -1,6 +1,6 @@
 ---
 Title: 'Fetch'
-Description: 'Retreives changes (commits, files, etc.) from another repository or local branch, but does not integrate them.'
+Description: 'Retrieves changes (commits, files, etc.) from another repository or local branch, but does not integrate them.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
