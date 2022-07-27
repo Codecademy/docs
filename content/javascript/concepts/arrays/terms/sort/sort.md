@@ -21,7 +21,7 @@ The **`.sort()`** method returns an array with its items sorted in place.
 ## Syntax
 
 ```pseudo
-// No paramters
+// No parameters
 array.sort();
 
 // With optional function
