@@ -97,7 +97,7 @@ The output of the above will be:
 [1] 2
 ```
 
-## Default Parameter Values
+### Default Parameter Values
 
 R functions can be defined with default values for arguments that are omitted when the function is called. This is done with the following syntax:
 
