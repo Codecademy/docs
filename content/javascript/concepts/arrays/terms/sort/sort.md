@@ -36,8 +36,6 @@ An optional function is used to define how items are sorted. This is done by ite
 
 In the following example, the `.sort()` method is applied to two arrays, `letters` and `numbers` (a mix of floats and integers):
 
-Sort strings in an array alphabetically:
-
 ```js
 const letters = ['d', 'b', 'e', 'a', 'c'];
 const numbers = [5, 2, 123, 5.01, 43.5];

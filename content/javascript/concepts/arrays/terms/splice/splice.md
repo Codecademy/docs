@@ -1,6 +1,6 @@
 ---
 Title: '.splice()'
-Description: 'Modifies array by inserting, deleting, and/or replacing array elements then returns an array of deleted elements.'
+Description: 'Modifies an array by inserting, deleting, and/or replacing array elements then returns an array of deleted elements.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
