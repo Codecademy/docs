@@ -25,7 +25,7 @@ The **`.sort()`** method returns an array with its items sorted in place.
 array.sort();
 
 // With optional function
-array.sort((firstElement, secondElement) => { /* compison body */ };
+array.sort((firstElement, secondElement) => { /* function body */ };
 ```
 
 If the `.sort()` method is used with no arguments, all items with `undefined` values are shifted to the end of the array while the remaining items are converted to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and sorted by [Unicode code point value](https://en.wikipedia.org/wiki/Code_point).
