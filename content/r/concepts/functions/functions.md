@@ -82,7 +82,7 @@ my_function <- function() {
   x <- 1
   x <- x + 1
   return (x)
-  
+
   # The following lines are never executed.
   x <- 15
   print(x)
