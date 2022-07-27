@@ -29,7 +29,7 @@ my_function(parameters)
 
 - `my_function`: The name of the function. It is a [variable](https://www.codecademy.com/resources/docs/r/variables) and obeys the naming convention for variables.
 - `parameters`: Zero or more comma-separated variables that will be passed on to the code block when the function is called.
-- `code to execute`: The code that executes when the function is called.
+- `# Code to execute`: The code that executes when the function is called.
 
 A function is called by using its name, followed by parenthesis enclosing any parameters the function expects:
 ### Arguments
