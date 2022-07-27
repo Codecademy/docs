@@ -68,7 +68,7 @@ In both cases the `.IsAlive()` method of the `Thread` class will return a boolea
 
 ## Example
 
-This example prints out some messages from the main thread and from a separate thread.
+This example prints out some messages from the main thread and from a separate thread:
 
 ```java
 public class Example extends Thread {
