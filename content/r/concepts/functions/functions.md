@@ -23,6 +23,8 @@ The syntax for a function in R is slightly different than in other programming l
 my_function <- function(parameters) {
   # Code to execute.
 }
+
+my_function(parameters)
 ```
 
 - `my_function`: The name of the function. It is a [variable](https://www.codecademy.com/resources/docs/r/variables) and obeys the naming convention for variables.
