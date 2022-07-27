@@ -23,7 +23,7 @@ The two ways that threads can be implemented in Java is either with [classes](ht
 
 ## Using the Thread Class
 
-The first way is by extending the `Thread` class and overriding its `.run()` method.
+The first way is by extending the `Thread` class and overriding its `.run()` method:
 
 ### Syntax
 
