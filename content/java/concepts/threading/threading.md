@@ -27,7 +27,7 @@ The first way is by extending the `Thread` class and overriding its `.run()` met
 
 ### Syntax
 
-```java
+```pseudo
 public class MyThread extends Thread {
   public void run() {
     // Code to run in separate thread
