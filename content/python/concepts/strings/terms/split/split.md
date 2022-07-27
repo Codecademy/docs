@@ -5,27 +5,38 @@ Subjects:
   - 'Data Science'
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Strings'
   - 'Methods'
   - 'Functions'
+  - 'Formatting'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
 ---
 
-Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters.
+The **`.split()`** method returns a new [list](https://www.codecademy.com/resources/docs/python/lists) of substrings based on a given string.
 
 ## Syntax
 
-```python
-string.split("delimiter", maximum number of items to split)
+```pseudo
+string.split(delimiter, number_of_items)
 ```
 
-## Example 1
+The `.split()` method takes the following optional parameters:
 
-If the paramaters of `.split()` are left blank, the delimiter will default to whitespace and the maximum number of items to split will be infinite.
+- A `delimiter` that is a either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
+- A maximum `number_of_items` for the returned list.
 
-```python
+If no parameters are passed to the `.split()` method, a list is returned with the `string` as the sole element.
+
+**Note**: An empty string (`""`) cannot be used as a `delimiter` to return a list of single characters from a given `string`. Using the built-in `list()` method can achieve this.
+
+## Examples
+
+If the parameters of `.split()` are left blank, the delimiter will default to whitespace and the maximum number of items to split will be infinite.
+
+```py
 my_string = "I like waffles from Belgium"
 
 my_list = my_string.split()
@@ -34,45 +45,44 @@ print(my_list)
 # Output: ['I', 'like', 'waffles', 'from', 'Belgium']
 ```
 
-## Delimiter
+The next example shows the following:
 
-Whatever is set as the delimiter will be removed:
+- It is possible to use escape characters (tab `\t`, newline `\n`, etc.) as delimiters (in `list_a`).
+- The `number_of_items` can control the size of the returned `list_b`.
 
-```python
-my_string = "color=red:size=medium:type=shirt"
-
-my_list = my_string.split(":")
-
-print(my_list)
-# Output: ['color=red', 'size=medium', 'type=shirt']
-```
-
-## Example 3
-
-It is also possible to use escape characters with `.split()`, such as `\t` (tab) and `\n` (newline):
-
-```python
-my_string = """
+```py
+multiline_string = """
 Beets
 Bears
 Battlestar Galactica
 """
 
-my_list = my_string.split("\n")
-
-print(my_list)
-# Output: ['', 'Beets', 'Bears', 'Battlestar Galactica', '']
-```
-
-## Example 4
-
-To limit the number of items in the list, set the maximum number of items to split paramater:
-
-```python
 menu = "Breakfast|Eggs|Tomatoes|Beans|Waffles"
 
-my_list = menu.split("|", 3)
+list_a = multiline_string.split("\n")
 
-print(my_list)
-# Output: ['Breakfast', 'Eggs', 'Tomatoes', 'Beans|Waffles']
+list_b = menu.split("|", 3)
+
+print(f"Using escape characters: {list_a}")
+
+print(f"Limited number of list items: {list_b}")
+```
+
+The following output is shown below:
+
+```shell
+Using escape characters: ['', 'Beets', 'Bears', 'Battlestar Galactica', '']
+Limited number of list items: ['Breakfast', 'Eggs', 'Tomatoes', 'Beans|Waffles']
+```
+
+## Codebyte Example
+
+The following example showcases a regular expression (`r"ea"`) being applied as a delimiter for the `.split()` method:
+
+```codebyte/python
+example_string = "Bears, beans, and breakfast."
+
+regex_string = r"ea"
+
+print(example_string.split(regex_string))
 ```
