@@ -44,7 +44,7 @@ thread.start();
 
 ## Implementing the Runnable Interface
 
-The second way of using threads in java is to implement the `Runnable` interface.
+The second way of using threads is by implementing the `Runnable` interface:
 
 ### Syntax
 
