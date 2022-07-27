@@ -87,7 +87,7 @@ public class Example extends Thread {
 }
 ```
 
-This results in output like:
+This results in output like the following:
 
 ```shell
 This is the main thread.
