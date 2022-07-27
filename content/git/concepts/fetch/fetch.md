@@ -13,7 +13,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-The **`fetch`** command retreives changes (commits, files, etc.) from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch), but does not integrate them. This command allows programmers to bring in and review changes made in a central repository into their local machine.
+The **`fetch`** command retrieves changes (commits, files, etc.) from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch), but does not integrate them. This command allows programmers to bring in and review changes made in a central repository into their local machine.
 
 ## Syntax
 
