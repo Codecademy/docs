@@ -48,7 +48,7 @@ The second way of using threads is by implementing the `Runnable` interface:
 
 ### Syntax
 
-```java
+```pseudo
 public class MyRunnable implements Runnable {
   public void run() {
     // Code to run in separate thread
