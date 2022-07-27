@@ -73,7 +73,7 @@ The output of the above will be:
 [2] "Odd."
 ```
 
-## The `return()` Function
+### The `return()` Function
 
 The `return()` function stops execution of the function and returns a result value. Unlike other languages, `return()` in R is a function and the result being returned must be enclosed in parenthesis.
 
