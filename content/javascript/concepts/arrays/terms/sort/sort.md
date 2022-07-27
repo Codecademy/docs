@@ -30,7 +30,7 @@ array.sort((firstElement, secondElement) => { /* function body */ };
 
 If the `.sort()` method is used with no arguments, all items with `undefined` values are shifted to the end of the array while the remaining items are converted to [strings](https://www.codecademy.com/resources/docs/javascript/strings) and sorted by [Unicode code point value](https://en.wikipedia.org/wiki/Code_point).
 
-An optional function is used to define how items are sorted. This is done by iterating over the `array` and comparing every `firstElement` and `secondElement` in the `/* compison body */`.
+An optional function is used to define how items are sorted. This is done by iterating over the `array` and comparing every `firstElement` and `secondElement` in the `/* function body */`.
 
 ## Example
 
