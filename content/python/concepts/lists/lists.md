@@ -40,7 +40,7 @@ list_2 = ["one", 2, "3"]
 
 ## Stacks and Queues
 
-Python lists can be also be made to behave like stacks and queues.
+Python lists can also be made to behave like stacks and queues.
 
 Stacks follow a "last-in, first-out" insertion order. This behavior can be showcased with the [`.append()`](https://www.codecademy.com/resources/docs/python/lists/append) and [`.pop()`](https://www.codecademy.com/resources/docs/python/lists/pop) methods for adding to and removing from the top of the stack, respectively:
 
