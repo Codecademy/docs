@@ -26,7 +26,7 @@ Will hide the element(s) specified by `selector`. `speed` and `callback` are opt
 The following jQuery code will hide the element selected with `#hide` when it is clicked.
 
 ```js
-$("#hide").click(function(){
-  $("#hide").hide();
+$('#hide').click(function () {
+  $('#hide').hide();
 });
 ```

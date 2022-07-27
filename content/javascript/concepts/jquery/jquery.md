@@ -19,7 +19,7 @@ Including a downloaded library looks like this (downloaded into the same directo
 
 ```html
 <head>
-<script src="jquery-3.6.0.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
 </head>
 ```
 
@@ -27,7 +27,7 @@ Including from a CDN (in this case Google) looks like this:
 
 ```html
 <head>
-<script src="jquery-3.6.0.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
 </head>
 ```
 
