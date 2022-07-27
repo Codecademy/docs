@@ -45,7 +45,7 @@ Prerequisites to pulling from a remote repository include:
   nothing to commit, working tree clean
   ```
 
-- Having a valid remote repository set. In this case the remote repository is named `origin` and can be found at the URL `https://github.com/CodeNinja/product-dev`:
+- Having a valid remote repository set. In this case, the remote repository is named `origin` and can be found at the URL `https://github.com/CodeNinja/product-dev`:
 
   ```shell
   $ git remote -v
