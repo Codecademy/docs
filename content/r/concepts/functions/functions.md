@@ -32,6 +32,8 @@ my_function(parameters)
 - `code to execute`: The code that executes when the function is called.
 
 A function is called by using its name, followed by parenthesis enclosing any parameters the function expects:
+### Arguments
+
 Arguments can be passed to a function by position or by name. By position passes arguments in the order they were defined in the function. By name specifies the name of the parameter given by the function.
 
 ```r
