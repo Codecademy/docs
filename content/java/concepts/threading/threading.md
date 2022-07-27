@@ -19,7 +19,7 @@ Different parts of the program that are operating at the same time are called "t
 
 One important thing to be aware of when working with threads is the possibility of concurrency problems, which happen when threads share access to a particular variable. If multiple threads access one variable, no thread can predict what its value will be since each thread operates independently and may be in a different stage in its process at any given time. Best practice is to avoid accessing such variables unless its confirmed that the threads that can modify them have completed their execution.
 
-There are two ways of implementing threading in Java:
+The two ways that threads can be implemented in Java is either with [classes](https://www.codecademy.com/resources/docs/java/classes) or with [interfaces](https://www.codecademy.com/resources/docs/java/interfaces).
 
 ## Using the Thread Class
 
