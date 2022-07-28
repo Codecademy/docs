@@ -24,7 +24,7 @@ The `.push()` method is called on a `stack` using the following syntax:
 stackName.push(value);
 ```
 
-The `value` must be of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types) that `stackName` was defined with.
+**Note:** Each `value` in `stackName` must be of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
 ## Codebyte Example
 
