@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Java provides a number of different classes and methods for utilizing files and a computer's file system. They include the classes `File`, `FileReader`, and `FileWriter.`
+Java provides a number of different classes and methods for utilizing files and a computer's file system. They include the `File`, `FileReader`, and `FileWriter` classes (all from the `java.io` package).
 
 ## Accessing Files
 
