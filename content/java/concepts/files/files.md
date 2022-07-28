@@ -117,7 +117,7 @@ public class FileWriterExample {
 
 ## Reading Files
 
-It is possible to read data from a file using the `FileReader` class.
+Data can be read from a file with the `FileReader` class.
 
 ### Syntax
 ```pseudo
