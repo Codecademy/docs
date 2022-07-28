@@ -16,7 +16,7 @@ Java provides a number of different classes and methods for utilizing files and 
 
 ## Accessing Files
 
-Basic accessing of files and directories can be done through the use of the `File` class.
+Files and directories can be accessed with the `File` class.
 
 ### Syntax
 
