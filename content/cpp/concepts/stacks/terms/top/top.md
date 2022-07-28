@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.top()`** method returns the top element on the [`stack`](https://www.codecademy.com/resources/docs/cpp/stacks). This will be the most recently added element on the `stack` since they follow a last-in first-out (LIFO) insertion order.
+The **`.top()`** method returns the top element on the `stack`. This will be the most recently added element on the `stack` since they follow a last-in first-out (LIFO) insertion order.
 
 ## Syntax
 
