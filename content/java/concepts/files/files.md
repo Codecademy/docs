@@ -137,7 +137,7 @@ The `FileReader` class offers the following methods to read from a file:
 
 ### Example
 
-The following example reads all the characters from a file. Again the file access code is in a `try ... catch` block.
+The following example reads all the characters from a file (again, within a `try ... catch` block):
 
 ```java
 import java.io.FileReader;
