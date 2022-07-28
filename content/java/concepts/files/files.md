@@ -25,7 +25,7 @@ import java.io.File;
 File myFile = new File(pathString);
 ```
 
-Once declared, the `myFile` object can be used to manipulate and gather information about the file or directory specified by `filePath`.
+The constructor of the `File` class accepts a `pathString` that specifies path/filename. Once declared, the new `myFile` object can be used to manipulate and gather information about the file or directory specified by `pathString`.
 
 ### Methods
 
