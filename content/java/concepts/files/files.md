@@ -95,7 +95,7 @@ The following methods are provided by the `FileWriter`:
 
 ### Example
 
-The following example writes a string out to a file. Again the file access code is in a `try ... catch` block.
+The following example writes a string out to a file (again, within a `try ... catch` block):
 
 ```java
 import java.io.FileWriter;
