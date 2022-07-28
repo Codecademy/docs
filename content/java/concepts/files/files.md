@@ -126,7 +126,7 @@ import java.io.FileReader;
 FileReader myReader = new FileReader(pathString);
 ```
 
-Once declared, the `myReader` object can be used to read characters from the file specified by `filePath`.
+The constructor of the `FileReader` class takes a pathString that specifies a path/filename. Once declared, the new `myReader` object can be used to read characters from the file specified by `pathString`.
 
 ### Methods
 
