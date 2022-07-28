@@ -28,7 +28,7 @@ stackName.push(value);
 
 ## Codebyte Example
 
-The codebyte example below uses `.push()` to add several items to `myStack`:
+The following example uses adds several values to `myStack` with the `.push()` method:
 
 ```codebyte/cpp
 #include <iostream>
