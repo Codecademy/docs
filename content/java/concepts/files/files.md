@@ -78,9 +78,6 @@ public class FileExample {
 Data can be written to a file with the `FileWriter` class.
 
 ### Syntax
-
-To use the `FileWriter` class, it's necessary to create an object of that class and specify a path/filename.
-
 ```pseudo
 import java.io.FileWriter;
 
