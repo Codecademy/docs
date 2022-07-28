@@ -26,7 +26,7 @@ stackName.top();
 
 ## Codebyte Example
 
-The following codebyte example calls the `.top()` method to print successive entries from `myStack`:
+The following example calls the `.top()` method to print successive entries from `myStack`:
 
 ```codebyte/cpp
 #include <iostream>
