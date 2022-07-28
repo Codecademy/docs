@@ -123,9 +123,6 @@ public class FileWriterExample {
 It is possible to read data from a file using the `FileReader` class.
 
 ### Syntax
-
-To use the `FileReader` class, it's necessary to create an object of that class and specify a path/filename.
-
 ```pseudo
 import java.io.FileReader;
 
