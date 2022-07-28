@@ -75,7 +75,7 @@ public class FileExample {
 
 ## Writing to a File
 
-It is possible to write to a file using the `FileWriter` class.
+Data can be written to a file with the `FileWriter` class.
 
 ### Syntax
 
