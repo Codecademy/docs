@@ -22,7 +22,7 @@ Files and directories can be accessed with the `File` class.
 ```pseudo
 import java.io.File;
 
-File myFile = new File(filePath);
+File myFile = new File(pathString);
 ```
 
 Once declared, the `myFile` object can be used to manipulate and gather information about the file or directory specified by `filePath`.
