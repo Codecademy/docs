@@ -19,6 +19,7 @@ Java provides a number of different classes and methods for utilizing files and 
 Files and directories can be accessed with the `File` class.
 
 ### Syntax
+
 ```pseudo
 import java.io.File;
 
@@ -78,6 +79,7 @@ public class FileExample {
 Data can be written to a file with the `FileWriter` class.
 
 ### Syntax
+
 ```pseudo
 import java.io.FileWriter;
 
@@ -120,6 +122,7 @@ public class FileWriterExample {
 Data can be read from a file with the `FileReader` class.
 
 ### Syntax
+
 ```pseudo
 import java.io.FileReader;
 
