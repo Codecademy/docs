@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.empty()`** method returns `true` if the [`stack`](https://www.codecademy.com/resources/docs/cpp/stacks) has no elements. Otherwise, it returns `false`.
+The **`.empty()`** method returns `true` if the `stack` has no elements. Otherwise, it returns `false`.
 
 ## Syntax
 
