@@ -46,7 +46,7 @@ The `File` object includes the following methods to manipulate the specified fil
 
 ### Example
 
-The following example creates a `File` object, checks if its corresponding file exists, and if not, creates it. Note that the file access is placed within a `try ... catch` block in case the file system throws any [errors](https://www.codecademy.com/resources/docs/java/errors).
+The following example creates a `File` object, checks if its corresponding file exists, and if not, creates it (file access is placed within a `try ... catch` block in case the file system throws any [errors](https://www.codecademy.com/resources/docs/java/errors)):
 
 ```java
 import java.io.File;
