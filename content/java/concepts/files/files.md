@@ -81,7 +81,7 @@ Data can be written to a file with the `FileWriter` class.
 ```pseudo
 import java.io.FileWriter;
 
-FileWriter myWriter = new FileWriter(filePath, append);
+FileWriter myWriter = new FileWriter(pathString, append);
 ```
 
 Once declared, the `myWriter` object can be used to write to the file specified by `filePath`. `append` is an optional boolean specifying if writing will append to the file.
