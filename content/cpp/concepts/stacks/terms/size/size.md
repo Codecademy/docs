@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.size()` method returns the number of elements in the [`stack`](https://www.codecademy.com/resources/docs/cpp/sets).
+The `.size()` method returns the number of elements in the `stack`.
 
 ## Syntax
 
