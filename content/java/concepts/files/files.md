@@ -19,9 +19,6 @@ Java provides a number of different classes and methods for utilizing files and 
 Files and directories can be accessed with the `File` class.
 
 ### Syntax
-
-To use the `File` class, it's necessary to create an object of that class and specify a path/filename.
-
 ```pseudo
 import java.io.File;
 
