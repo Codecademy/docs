@@ -123,7 +123,7 @@ Data can be read from a file with the `FileReader` class.
 ```pseudo
 import java.io.FileReader;
 
-FileReader myReader = new FileReader(filePath);
+FileReader myReader = new FileReader(pathString);
 ```
 
 Once declared, the `myReader` object can be used to read characters from the file specified by `filePath`.
