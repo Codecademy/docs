@@ -25,7 +25,7 @@ stackName.size();
 
 ## Codebyte Example
 
-The codebyte example below uses the `.size()` method on `myStack`:
+The following example uses the `.size()` method on `myStack`:
 
 ```codebyte/cpp
 #include <iostream>
