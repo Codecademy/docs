@@ -90,7 +90,7 @@ The constructor of the `FileWriter` class takes a `pathString` that specifies a 
 
 The following methods are provided by the `FileWriter`:
 
-- `close()`: Closes the FileWriter. Should be done after all writes are complete.
+- `close()`: Closes the `FileWriter`. Should be done after all writes are complete.
 - `write()`: Writes a string or char sequence to the file.
 
 ### Example
