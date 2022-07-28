@@ -4,7 +4,9 @@ Description: 'Java provides a number of different classes and methods for utiliz
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Classes'
   - 'Files'
+  - 'Methods'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
