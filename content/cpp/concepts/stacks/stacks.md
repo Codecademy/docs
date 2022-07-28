@@ -24,30 +24,3 @@ std::stack<dataType, containerType<dataType>> stackName;
 ```
 
 A `stack` requires a [`dataType`](https://www.codecademy.com/resources/docs/cpp/data-types) to be specified. A `containerType` can be specified, but it must be the same data type. If a container type is not specified, the default `deque<dataType>` is used.
-
-## Codebyte Example
-
-The following example creates a `stack` and [pushes](https://www.codecademy.com/resources/docs/cpp/stacks/push) and [pops](https://www.codecademy.com/resources/docs/cpp/stacks/pop) elements off the stack:
-
-```codebyte/cpp
-#include <iostream>
-#include <stack>
-#include <string>
-
-int main(){
-
-  std::stack<std::string> myStack;
-  myStack.push("A");
-  myStack.push("B");
-  myStack.push("C");
-  myStack.push("D");
-
-  myStack.pop();
-  myStack.pop();
-
-  while (!myStack.empty()) {
-    std::cout << ' ' << myStack.top();
-    myStack.pop();
-  }
-}
-```
