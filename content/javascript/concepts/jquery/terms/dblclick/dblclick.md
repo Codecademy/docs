@@ -25,7 +25,7 @@ A `handler` function will be assigned to the `"double-click"` event of the HTML 
 
 ## Example
 
-The following jQuery code will spawn a message box every time a paragraph in the document is double-clicked.
+The following jQuery code will spawn a message box every time a paragraph in the document is double-clicked:
 
 ```js
 $('p').dblclick(function () {
