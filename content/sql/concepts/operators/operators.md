@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'SQL operators are unique keywords used in the WHERE clause of a statement to perform arithmetic, comparison, and logical operations. Arithmetic operators are used to perform arithmetic on numeric types: - +: Addition - -: Subtraction - *: Multiplication - /: Division - %: Modulo (remainder)'
+Description: 'Operators are unique keywords used in the WHERE clause of a statement to perform arithmetic, comparison, and logical operations.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-SQL operators are unique keywords used in the `WHERE` clause of a statement to perform arithmetic, comparison, and logical operations.
+**Operators** are unique keywords used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of a statement to perform arithmetic, comparison, and logical operations.
 
 ## Arithmetic Operators
 
@@ -27,9 +27,9 @@ Arithmetic operators are used to perform arithmetic on numeric types:
 - `-`: Subtraction
 - `*`: Multiplication
 - `/`: Division
-- `%`: Modulo (remainder)
+- `%`: [Modulo](https://www.codecademy.com/resources/docs/general/modulo) (remainder)
 
-For example:
+### Example
 
 ```sql
 -- Addition
@@ -55,7 +55,7 @@ Comparison operators can be used to compare two values:
 - `<=`: Less than or equal to
 - `!=`: Not equal
 
-For example:
+### Example
 
 ```sql
 SELECT *
@@ -65,4 +65,4 @@ WHERE gpa > 25;
 
 ## Logical Operators
 
-Logical operators can be used to combine multiple conditions such as `AND`, `OR`, `NOT` or perform operations such as `NOT` and `BETWEEN`.
+Logical operators can be used to combine multiple conditions such as [`AND`](https://www.codecademy.com/resources/docs/sql/operators/and), [`OR`](https://www.codecademy.com/resources/docs/sql/operators/or), [`NOT`](https://www.codecademy.com/resources/docs/sql/operators/not) or perform operations such as `NOT` and [`BETWEEN`](https://www.codecademy.com/resources/docs/sql/operators/between).

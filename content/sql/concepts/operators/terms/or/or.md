@@ -1,6 +1,6 @@
 ---
 Title: OR
-Description: 'Filters the result set to only include rows where either condition is true.'
+Description: 'Returns rows fron a table where any condition evaluates to TRUE.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,16 +17,20 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Filters the result set to only include rows where either condition is true.
+The **`OR`** operator is used in a [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause to return rows from a table where any condition evaluates to `TRUE`.
 
 ## Syntax
 
-```sql
+```pseudo
 SELECT column_name
 FROM table_name
-WHERE column_name = value_1
-   OR column_name = value_2;
+WHERE condition1
+  OR condition2
+  ...
+  OR conditionN;
 ```
+
+If any of the `condition_`s evaluate to `TRUE`, the row(s) can be returned. However, if all of the `condition_`s were to evaluate to `NOT TRUE`, then the row(s) would not be returnef from the query.
 
 ## Example 1
 
