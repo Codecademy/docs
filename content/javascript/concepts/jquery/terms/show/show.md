@@ -25,7 +25,7 @@ The element(s) specified by `selector` will be shown. The `speed` and `callback`
 
 ## Example
 
-The following jQuery code will show the element selected with `#hide` when the `#show` element is clicked.
+The following jQuery code will show the element selected with `#hide` when the `#show` element is clicked:
 
 ```js
 $('#show').click(function () {
