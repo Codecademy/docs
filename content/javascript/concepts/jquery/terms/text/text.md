@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.text()`** method gets or sets the text of of an HTML element.
+The **`.text()`** method gets or sets the text of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
