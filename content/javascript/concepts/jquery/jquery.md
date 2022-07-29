@@ -42,6 +42,8 @@ jQuery syntax consists of selecting [HTML elements](https://www.codecademy.com/r
 $(selector).action()
 ```
 
+The following syntax is used:
+
 - `$`: A leading `$` to access jQuery.
 - `selector`: A `selector` that uses [CSS syntax](https://www.codecademy.com/resources/docs/css/selectors) for selecting HTML elements.
 - `action` : one of the many jQuery methods to be performed on the selected element(s).
