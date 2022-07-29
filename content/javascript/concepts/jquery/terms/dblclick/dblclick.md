@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.dblclick()`** method attaches a handler to the double-click event of an HTML element.
+The **`.dblclick()`** method attaches an [event handler](https://www.codecademy.com/resources/docs/javascript/events) to the `"dblclick"` event of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
