@@ -21,7 +21,7 @@ The **`.hide()`** method hides an [HTML element](https://www.codecademy.com/reso
 $(selector).hide(speed, callback);
 ```
 
-Will hide the element(s) specified by `selector`. `speed` and `callback` are optional. `speed` can be "slow" or "fast" or number of millisecods. `callback` is a function that is called once hiding is complete.
+The element(s) specified by `selector` will be hidden. The `speed` and `callback` parameters are optional. `speed` can be "slow" or "fast" or number of milliseconds. `callback` is a [function](https://www.codecademy.com/resources/docs/javascript/callbacks) that is called once hiding is complete.
 
 ## Example
 
