@@ -21,7 +21,7 @@ The **`.click()`** method attaches an [event handler](https://www.codecademy.com
 $(selector).click(handler);
 ```
 
-Will assign the `handler` function to the click event of the HTML element(s) specified by `selector`.
+A `handler` function will be assigned to the `"click"` event of the HTML element(s) specified by `selector`.
 
 ## Example
 
