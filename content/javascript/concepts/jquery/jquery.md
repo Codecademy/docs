@@ -5,6 +5,8 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'DOM'
+  - 'Events'
   - 'jQuery'
 CatalogContent:
   - 'introduction-to-javascript'
