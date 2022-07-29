@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.show()`** method shows a hidden HTML element.
+The **`.show()`** method shows a hidden [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
