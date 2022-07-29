@@ -26,7 +26,7 @@ $(selector).html();
 Setting HTML, the `.html()` method is called with a parameter containing the new HTML:
 
 ```pseudo
-$(selector).html(newhtml)
+$(selector).html(newHTML)
 ```
 
 ## Example
