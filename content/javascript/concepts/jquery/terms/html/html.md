@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.html()`** method gets or sets the HTML contents of of an HTML element.
+The **`.html()`** method gets or sets the contents of of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
