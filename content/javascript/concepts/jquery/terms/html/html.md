@@ -31,7 +31,7 @@ $(selector).html(newHTML)
 
 ## Example
 
-The following jQuery code will read and reset the HTML in `#p1` when `#btn` is clicked.
+The following jQuery code will read and reset the HTML in `#p1` when `#btn` is clicked:
 
 ```js
 $("#btn").click(function(){
