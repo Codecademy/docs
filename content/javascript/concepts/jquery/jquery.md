@@ -38,9 +38,6 @@ Including from a CDN (in this case Google) looks like this:
 ## Syntax
 
 jQuery syntax consists of selecting [HTML elements](https://www.codecademy.com/resources/docs/html/elements) and then performing some sort of action on them.
-
-The basic syntax looks like this:
-
 ```pseudo
 $(selector).action()
 ```
