@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The **`.hide()`** method hides an HTML element.
+The **`.hide()`** method hides an [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
