@@ -1,6 +1,6 @@
 ---
 Title: '.html()'
-Description: 'Gets or sets the HTML contents of an HTML element.'
+Description: 'Gets or sets the contents of an HTML element.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
