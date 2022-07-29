@@ -5,8 +5,9 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'jQuery'
+  - 'DOM'
   - 'Events'
+  - 'jQuery'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/full-stack-engineer-career-path'
