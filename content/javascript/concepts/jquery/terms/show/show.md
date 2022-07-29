@@ -18,7 +18,7 @@ The **`.show()`** method shows a hidden [HTML element](https://www.codecademy.co
 ## Syntax
 
 ```pseudo
-$(selector).show(speed,callback);
+$(selector).show(speed, callback);
 ```
 
 Will show the element(s) specified by `selector`. `speed` and `callback` are optional. `speed` can be "slow" or "fast" or number of millisecods. `callback` is a function that is called once showing is complete.
