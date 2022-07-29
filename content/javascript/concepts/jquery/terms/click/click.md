@@ -25,7 +25,7 @@ A `handler` function will be assigned to the `"click"` event of the HTML element
 
 ## Example
 
-The following jQuery code will spawn a message box every time a paragraph in the document is clicked.
+The following jQuery code will spawn a message box every time a paragraph in the document is clicked:
 
 ```js
 $('p').click(function () {
