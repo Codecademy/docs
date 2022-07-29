@@ -25,7 +25,7 @@ The element(s) specified by `selector` will be hidden. The `speed` and `callback
 
 ## Example
 
-The following jQuery code will hide the element selected with `#hide` when it is clicked.
+The following jQuery code will hide the element selected with `#hide` when it is clicked:
 
 ```js
 $('#hide').click(function () {
