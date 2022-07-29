@@ -18,7 +18,7 @@ The **`.hide()`** method hides an [HTML element](https://www.codecademy.com/reso
 ## Syntax
 
 ```pseudo
-$(selector).hide(speed,callback);
+$(selector).hide(speed, callback);
 ```
 
 Will hide the element(s) specified by `selector`. `speed` and `callback` are optional. `speed` can be "slow" or "fast" or number of millisecods. `callback` is a function that is called once hiding is complete.
