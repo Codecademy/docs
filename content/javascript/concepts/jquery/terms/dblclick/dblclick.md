@@ -21,7 +21,7 @@ The **`.dblclick()`** method attaches an [event handler](https://www.codecademy.
 $(selector).dblclick(handler);
 ```
 
-Will assign the `handler` function to the double-click event of the HTML element(s) specified by `selector`.
+A `handler` function will be assigned to the `"double-click"` event of the HTML element(s) specified by `selector`.
 
 ## Example
 
