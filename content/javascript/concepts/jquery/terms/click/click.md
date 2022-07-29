@@ -1,6 +1,6 @@
 ---
 Title: '.click()'
-Description: 'Attaches a handler to the click event of an HTML element.'
+Description: 'Attaches an event handler to the "click" event of an HTML element.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
