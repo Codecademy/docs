@@ -1,75 +1,73 @@
 ---
 Title: '.split()'
-Description: 'Breaks the string on which it called into an array of substrings, and returns the new array. '
+Description: 'Returns a new array of substrings based on a given string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Strings'
+  - 'Functions'
   - 'Methods'
+  - 'Formatting'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Breaks the string on which it called into an array of substrings, and returns the new array.
+The **`.split()`** method returns a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) of substrings based on a given string.
 
 ## Syntax
 
-```js
-string.split(separator);
-```
-
-The `separator` (optional) describes the pattern where each split should occur. It may be a string or a regular expression. If not provided, the returned array will contain the entire string as its lone element.
-
-```js
+```pseudo
 string.split(separator, limit);
 ```
 
-The `limit` (optional) determines the number of substring elements included in the array.
+The `separator` (optional) describes the pattern where each split should occur. It may be one of the following:
 
-## Examples
+- A string of one or more characters.
+- A [regular expression](https://www.codecademy.com/resources/docs/javascript/regexp).
 
-Split string into array of names:
+If a `separator` is not provided, the returned array will contain the entire `string` as its lone element.
+
+The `limit` (also optional) determines the number of substring elements included in the returned array.
+
+## Example
+
+The following example splits a string into an array of names:
 
 ```js
-const stringOfPeople = 'Dominic, Shelly, Luka, Devin';
+const stringOfNames = 'Dominic, Shelly, Luka, Devin';
 
-const arrayOfPeople = stringOfPeople.split(', ');
+console.log('No limit:', stringOfNames.split(', '));
 
-console.log(arrayOfPeople);
-// Output: ['Dominic', 'Shelly, 'Luka, 'Devin']
+console.log('Limited to 3 elements:', stringOfNames.split(', ', 3));
 ```
 
-Limit the number of names in array to three:
+This will log the following output:
 
-```js
-const stringOfPeople = 'Dominic, Shelly, Luka, Devin';
-
-const arrayOfPeople = stringOfPeople.split(', ', 3);
-
-console.log(arrayOfPeople);
-// Output: ['Dominic', 'Shelly, 'Luka']
+```shell
+No limit: [ 'Dominic', 'Shelly', 'Luka', 'Devin' ]
+Limited to 3 elements: [ 'Dominic', 'Shelly', 'Luka' ]
 ```
 
-Split string without providing a separator argument:
+## Codebyte Example
 
-```js
-const stringOfPeople = 'Dominic, Shelly, Luka, Devin';
+The following example showcases the `.split()` in two ways:
 
-const arrayOfPeople = stringOfPeople.split();
+1. Not including a `separator` returns an `arrayOfNames` with the entire `stringOfNames` as the sole element.
+2. The `arrayOfNames` is reassigned with a `separator` and then traversed with `.split()` being invoked on each name.
 
-console.log(arrayOfPeople);
-// Output: ['Dominic, Shelly, Luka, Devin']
-```
+```codebyte/javascript
+const stringOfNames = 'Dominic, Shelly, Luka, Devin';
 
-Split string on each character:
+let arrayOfNames = stringOfNames.split();
 
-```js
-const letters = 'abcde';
+console.log("No separator; entire string is lone element:\n", arrayOfNames, "\n");
 
-const lettersArray = letters.split('');
+arrayOfNames = stringOfNames.split(`, `);
 
-console.log(lettersArray);
-// Output: ['a', 'b', 'c', 'd', 'e']
+// Iterate through arrayOfNames and .split() each name string into separate characters.
+for(let i = 0; i < arrayOfNames.length; i++) {
+  console.log(arrayOfNames[i].split(""));
+};
 ```
