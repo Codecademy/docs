@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`eval()`** function returns the value of a python expression passed as a string. 
+The **`eval()`** function returns the value of a python expression passed as a string.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ The **`eval()`** function returns the value of a python expression passed as a s
 eval(expression, globals, locals)
 ```
 
-The argument `expression` is the expression to evaluate. The optional argument `globals` is a dictionary defining what variables are in the `expression`'s global scope. If `globals` isn't specified, `eval()` uses the current global scope.  The optional argument `locals` is a dictionary defining the variables in the `expression`'s local scope. If the `locals` argument is specified, the `globals` argument must be specified as well. It's not possible to use keyword arguments with `eval()`.
+The argument `expression` is the expression to evaluate. The optional argument `globals` is a dictionary defining what variables are in the `expression`'s global scope. If `globals` isn't specified, `eval()` uses the current global scope. The optional argument `locals` is a dictionary defining the variables in the `expression`'s local scope. If the `locals` argument is specified, the `globals` argument must be specified as well. It's not possible to use keyword arguments with `eval()`.
 
 **Note:** While using the `globals` argument overrides the user defined variables avalible, if it doesn't specify a value for the key `__builtins__`, then a refrence for it is automatically added so that `eval()` will have access to all of Python's built-in names when evaluating `expression`.
 
