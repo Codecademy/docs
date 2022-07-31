@@ -29,6 +29,8 @@ The argument `expression` is the expression to evaluate. The optional argument `
 
 ## Examples
 
+The following example uses `eval()` to evealuate an expression using variables in the current global scope, the evaluates the same expression with its own global scope.
+
 ```py
 x = 10
 y = 5
@@ -36,3 +38,7 @@ y = 5
 print(eval("x + y")) # Output 15.
 print(eval("x + y"), {"x":15, "y":y}) # Output 20.
 ```
+
+## Security Concerns
+
+While `eval()` can be useful, care must be taken to understand the security implications of this function. If `eval()` is used with user generated strings, it's possible for a malicious user to execute arbitrary code through the function. Good programming practice generally advises against using `eval()`. If it is used, it should never be used with untrusted input.
