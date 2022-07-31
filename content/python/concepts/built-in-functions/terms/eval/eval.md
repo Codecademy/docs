@@ -8,7 +8,7 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Strings'
- CatalogContent:
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
