@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'Operators are unique keywords used in the WHERE clause of a statement to perform arithmetic, comparison, and logical operations.'
+Description: 'Operators are unique keywords used to perform arithmetic, comparison, and logical operations.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**Operators** are unique keywords used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of a statement to perform arithmetic, comparison, and logical operations.
+**Operators** are unique keywords used to perform arithmetic, comparison, and logical operations. They are commonly used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of an SQL query.
 
 ## Arithmetic Operators
 

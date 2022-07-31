@@ -31,7 +31,7 @@ The `directive` is set to either of the following:
 
 ## Example
 
-The following is an example of a response header that is set to accepts requests from the `origin`, "https://www.codecademy.com/learn":
+The following is an example of a response header that is set to accept requests from the `origin`, "https://www.codecademy.com/learn":
 
 ```shell
 Access-Control-Allow-Origin: https://www.codecademy.com/learn
