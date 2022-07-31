@@ -1,6 +1,6 @@
 ---
 Title: 'AND'
-Description: 'Returns rows from a table based on all conditions evaluating to TRUE.'
+Description: 'Tests if all conditions in a given expression evaluate to TRUE.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`AND`** operator is used in a [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause to return rows from a table based on all conditions evaluating to `TRUE`.
+The **`AND`** operator tests if all conditions in a given expression evaluate to `TRUE`.
 
 ## Syntax
 

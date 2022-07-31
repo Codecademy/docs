@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The `IN` operator allows the user to specify multiple values in the `WHERE` clause.
+The **`IN`** operator allows the user to specify multiple values in the `WHERE` clause.
 
 ## Syntax
 

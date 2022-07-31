@@ -1,6 +1,6 @@
 ---
 Title: OR
-Description: 'Returns rows fron a table where any condition evaluates to TRUE.'
+Description: 'Test if any condition in a given expression evaluates to TRUE.'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`OR`** operator is used in a [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause to return rows from a table where any condition evaluates to `TRUE`.
+The **`OR`** operator tests if any condition in a given expression evaluates to `TRUE`.
 
 ## Syntax
 

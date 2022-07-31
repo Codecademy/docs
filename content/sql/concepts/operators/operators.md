@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-**Operators** are unique keywords used to perform arithmetic, comparison, and logical operations. They are commonly used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of an SQL query.
+**Operators** are unique keywords used to perform arithmetic, comparison, and logical operations. They are commonly used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of an expression.
 
 ## Arithmetic Operators
 
