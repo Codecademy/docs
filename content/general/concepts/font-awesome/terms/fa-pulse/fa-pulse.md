@@ -22,4 +22,4 @@ The **`fa-pulse`** class causes any icon to rotate with 8 discrete steps.
 <i class="fas fa-cog fa-pulse"></i> <i class="fas fa-spinner fa-pulse"></i>
 ```
 
-![Font Awesome Pulse Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pulse.png)
+![Font Awesome Pulse Examples](https://raw.githubusercontent.com/Codecademy/docs/main/media/font-awesome-pulse.gif)
