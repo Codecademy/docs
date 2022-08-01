@@ -19,7 +19,7 @@ CatalogContent:
 
 Font Awesome is commonly used via [HTML](https://www.codecademy.com/resources/docs/html) by including a line in the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element of the web page. This allows the use of the Font Awesome icons and their CSS modifiers. The line to include will differ depending on the version being used.
 
-For version 4, it be in referenced in a [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element via [CDN](https://www.codecademy.com/resources/docs/general/cdn):
+For version 4, it is referenced in a [`<link>`](https://www.codecademy.com/resources/docs/html/elements/link) element via [CDN](https://www.codecademy.com/resources/docs/general/cdn):
 
 ```pseudo
 <head>
