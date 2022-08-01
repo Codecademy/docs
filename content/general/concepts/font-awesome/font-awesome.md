@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Font Awesome** is an icon toolkit for the web, based on [CSS](https://www.codecademy.com/resources/docs/css) and [Less](https://lesscss.org/). It was developed by Dave Gandy in 2012 (originally for sites that used [Bootstrap](https://www.codecademy.com/resources/docs/general/bootstrap)). The latest release is version 6 (February 2022). The first four versions (1-4) were free to use; all releases of Font Awesome since (5 & 6) then have paid and free versions.
+**Font Awesome** is an icon toolkit for the web, based on [CSS](https://www.codecademy.com/resources/docs/css) and [Less](https://lesscss.org/). It was developed by Dave Gandy in 2012 (originally for sites that used [Bootstrap](https://www.codecademy.com/resources/docs/general/bootstrap)). The [latest release](https://fontawesome.com/versions) is version 6 (February 2022). The first four versions (1-4) were free to use; all releases of Font Awesome since (5 & 6) then have paid and free versions.
 
 ## Syntax
 
