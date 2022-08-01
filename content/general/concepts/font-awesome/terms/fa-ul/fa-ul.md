@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-ul`** class is used with the [`fa-li`](https://www.codecademy.com/resources/docs/general/font-awesome/fa-li) class to create custom bullets in unordered lists.
+The **`fa-ul`** class is used with the [`fa-li`](https://www.codecademy.com/resources/docs/general/font-awesome/fa-li) class to create custom bullets in [unordered lists](https://www.codecademy.com/resources/docs/html/elements/ul).
 
 ## Example
 
