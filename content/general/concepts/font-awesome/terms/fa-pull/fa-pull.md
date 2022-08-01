@@ -1,6 +1,6 @@
 ---
 Title: 'fa-pull'
-Description: 'Puts the icon to the left- or right-side of its container and allows contents to flow around it.'
+Description: 'Puts the icon to the left-side or right-side of its container and allows contents to flow around it.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
