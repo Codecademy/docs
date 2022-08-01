@@ -1,6 +1,6 @@
 ---
 Title: NOT
-Description: 'Queries for items in a table that return NOT TRUE for some condition(s).'
+Description: 'Queries for items in an expression that return NOT TRUE for some condition(s).'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
