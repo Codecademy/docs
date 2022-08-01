@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`fa-border`** class is used to place a border around an icon. For addtional control there are [CSS](https://www.codecademy.com/resources/docs/css) custom properties associated with the border that can be set:
+The **`fa-border`** class is used to place a border around an icon. For additional control there are [CSS](https://www.codecademy.com/resources/docs/css) custom properties associated with the border that can be set:
 
 - `--fa-border-color`: Sets the CSS [`border-color`](https://www.codecademy.com/resources/docs/css/borders/border-color) value.
 - `--fa-border-padding`: Sets the CSS [`padding`](https://www.codecademy.com/resources/docs/css/padding) value.
