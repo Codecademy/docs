@@ -30,44 +30,44 @@ Depending on the implementation, the encoded values may be represented by actual
 
 Original data:
 
-Category | Value
-:-------:|:----:
-A | 24
-A | 90
-A | 75
-A | 36
-B | 45
-B | 28
-B | 62
-C | 65
-C | 97
+| Category | Value |
+| :------: | :---: |
+|    A     |  24   |
+|    A     |  90   |
+|    A     |  75   |
+|    A     |  36   |
+|    B     |  45   |
+|    B     |  28   |
+|    B     |  62   |
+|    C     |  65   |
+|    C     |  97   |
 
 Assigning integer values to category values:
 
-Category | Integer Value
-:-------:|:------------:
-A | 0
-B | 1
-C | 2
+| Category | Integer Value |
+| :------: | :-----------: |
+|    A     |       0       |
+|    B     |       1       |
+|    C     |       2       |
 
 Assigning vectors to values:
 
-Category | Integer Value | Vector
-:-------:|:-------------:|-------
-A | 0 | \[1,0,0\]
-B | 1 | \[0,1,0\]
-C | 2 | \[0,0,1\]
+| Category | Integer Value | Vector    |
+| :------: | :-----------: | --------- |
+|    A     |       0       | \[1,0,0\] |
+|    B     |       1       | \[0,1,0\] |
+|    C     |       2       | \[0,0,1\] |
 
 Applying the vector values as columns to original data:
 
-Category | Value| A | B | C
-:-------:|:----:|:-:|:-:|:-:
-A | 24 | 1 | 0 | 0
-A | 90 | 1 | 0 | 0
-A | 75 | 1 | 0 | 0
-A | 36 | 1 | 0 | 0
-B | 45 | 0 | 1 | 0
-B | 28 | 0 | 1 | 0
-B | 62 | 0 | 1 | 0
-C | 65 | 0 | 0 | 1
-C | 97 | 0 | 0 | 1
+| Category | Value |  A  |  B  |  C  |
+| :------: | :---: | :-: | :-: | :-: |
+|    A     |  24   |  1  |  0  |  0  |
+|    A     |  90   |  1  |  0  |  0  |
+|    A     |  75   |  1  |  0  |  0  |
+|    A     |  36   |  1  |  0  |  0  |
+|    B     |  45   |  0  |  1  |  0  |
+|    B     |  28   |  0  |  1  |  0  |
+|    B     |  62   |  0  |  1  |  0  |
+|    C     |  65   |  0  |  0  |  1  |
+|    C     |  97   |  0  |  0  |  1  |
