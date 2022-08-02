@@ -15,6 +15,8 @@ CatalogContent:
 
 A **hash table** is a data structure that stores an arbitrary number of items, mapping keys to values, and uses a hash function to compute an index. The hash table relates the hashed keys to an [array](https://www.codecademy.com/resources/docs/general/array) of buckets where the associated value can be found. When looking up a value, the provided key is hashed and the resulting hash is used to retrieve the corresponding value.
 
+## Implementation
+
 Hash tables are implemented in many different programming languages such as [Java](https://www.codecademy.com/resources/docs/java) (as a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) or a [`HashTable`](https://www.codecademy.com/resources/docs/javascript/hashtables)) and [Python](https://www.codecademy.com/resources/docs/python) (as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries)). Hash table implementations typically allow the modification, insertion, and deletion of the contained key-value pairs.
 
 ## Efficiency 
