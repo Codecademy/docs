@@ -57,3 +57,17 @@ Category | Integer Value | Vector
 A | 0 | \[1,0,0\]
 B | 1 | \[0,1,0\]
 C | 2 | \[0,0,1\]
+
+Applying the vector values as columns to original data:
+
+Category | Value| A | B | C
+:-------:|:----:|:-:|:-:|:-:
+A | 24 | 1 | 0 | 0
+A | 90 | 1 | 0 | 0
+A | 75 | 1 | 0 | 0
+A | 36 | 1 | 0 | 0
+B | 45 | 0 | 1 | 0
+B | 28 | 0 | 1 | 0
+B | 62 | 0 | 1 | 0
+C | 65 | 0 | 0 | 1
+C | 97 | 0 | 0 | 1
