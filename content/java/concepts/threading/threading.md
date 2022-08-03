@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Threading** is the ability for different parts of a program to run simultaneously. The currently running part of the program can start another process that will run in the background as the code that spawned the background process continues to execute. This allows complex processes to run without holding up execution of the rest of the program.
+**Threading** is the ability for different parts of a program to run simultaneously. The currently running part of the program can start another process that will run in the background as the code that spawned the background process continues to execute. This allows complex processes to run without holding up the execution of the rest of the program.
 
 Different parts of the program that are operating at the same time are called "threads" and the code that started executing first, starting these other processes, is typically known as the "main thread".
 
