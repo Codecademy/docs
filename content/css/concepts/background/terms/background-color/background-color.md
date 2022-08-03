@@ -32,7 +32,7 @@ Where `<value>` can be one of the following:
 
 ## Example 1
 
-Set background color of the [`h1`](https://www.codecademy.com/resources/docs/html/tags/h1-h6) element to be `green`:
+Set background color of the [`h1`](https://www.codecademy.com/resources/docs/html/elements/h1-h6) element to be `green`:
 
 ```css
 h1 {
