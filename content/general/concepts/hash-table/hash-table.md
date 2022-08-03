@@ -17,7 +17,7 @@ A **hash table** is a data structure that stores an arbitrary number of items, m
 
 ## Implementation
 
-Hash tables are implemented in many different programming languages such as [Java](https://www.codecademy.com/resources/docs/java) (as a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) or a [`HashTable`](https://www.codecademy.com/resources/docs/javascript/hashtables)) and [Python](https://www.codecademy.com/resources/docs/python) (as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries)). Hash table implementations typically allow the modification, insertion, and deletion of the contained key-value pairs.
+Hash tables are implemented in many different programming languages such as [Java](https://www.codecademy.com/resources/docs/java) (as a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap)) or JavaScript as a [`HashTable`](https://www.codecademy.com/resources/docs/javascript/hashtables) or [Python](https://www.codecademy.com/resources/docs/python) (as a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries)). Hash table implementations typically allow the modification, insertion, and deletion of the contained key-value pairs.
 
 ## Efficiency
 
