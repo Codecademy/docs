@@ -130,6 +130,7 @@ Heap
 Heroku
 Histograms
 HTTP
+Icons
 Id
 IDE
 If
