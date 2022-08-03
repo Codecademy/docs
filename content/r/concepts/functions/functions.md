@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Functions are blocks of code that can be repeatedly called by other code. A function is not called when it is defined, but only when another part of the code executes the function.
+[**Functions**](https://www.codecademy.com/resources/docs/general/function) are blocks of code that perform specific tasks. It can be repeatedly called within other parts of the code. A function is not called when it is defined, but only when another part of the code executes the function.
 
 ## Syntax
 
