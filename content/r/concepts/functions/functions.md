@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are blocks of code that can be repeatedly called by other code.'
+Description: 'Functions are blocks of code that perform specific tasks. It can be repeatedly called within other parts of the code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
