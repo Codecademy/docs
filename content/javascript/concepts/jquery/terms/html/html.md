@@ -7,7 +7,9 @@ Subjects:
 Tags:
   - 'DOM'
   - 'Events'
+  - 'Functions'
   - 'jQuery'
+  - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/full-stack-engineer-career-path'
