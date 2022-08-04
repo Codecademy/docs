@@ -34,7 +34,7 @@ If any of the `condition_`s evaluate to `TRUE`, the row(s) can be returned. Howe
 
 ## Example 1
 
-To query for records where item_name is equal to `'brush'` or `'gloves'` in the `inventory` table:
+To query for records where `item_name` is equal to `'brush'` or `'gloves'` in the `inventory` table:
 
 ```sql
 SELECT *
@@ -44,7 +44,7 @@ WHERE item_name = 'brush' OR 'gloves';
 
 ## Example 2
 
-To query for records where item_name is equal to `'plunger'` or `'soap'` or `'wipes'` in the `inventory` table:
+To query for records where `item_name` is equal to `'plunger'` or `'soap'` or `'wipes'` in the `inventory` table:
 
 ```sql
 SELECT *
