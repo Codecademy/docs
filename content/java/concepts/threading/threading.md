@@ -21,7 +21,6 @@ Different parts of the program that are operating at the same time are called "t
 
 Since Java supports running multiple threads at the same time, the risk of causing a concurrency problem, or a race condition, is always there. This happens when a particular [variable](https://www.codecademy.com/resources/docs/java/variables) is being accessed and updated by many threads (which are running independently and may not be finished executing). Such variables should be avoided unless it's confirmed that the threads that can modify them have completed their execution.
 
-The two ways that threads can be implemented in Java are either with [classes](https://www.codecademy.com/resources/docs/java/classes) or with [interfaces](https://www.codecademy.com/resources/docs/java/interfaces).
 
 ## Using the Thread Class
 
