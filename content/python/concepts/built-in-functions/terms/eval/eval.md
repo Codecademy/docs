@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`eval()`** function returns the value of a python expression passed as a string.
+The **`eval()`** function returns the value of a Python expression passed as a [string](https://www.codecademy.com/resources/docs/python/strings).
 
 ## Syntax
 
