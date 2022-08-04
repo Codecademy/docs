@@ -25,7 +25,7 @@ $(selector).hide(speed, callback);
 
 - `selector`: Specifies the elements that will be hidden.
 - `speed`(optional): Can be "slow" or "fast" or the number of milliseconds.
-- `callback`(optional): A [function](https://www.codecademy.com/resources/docs/javascript/callbacks) that is called once hiding is complete.
+- `callback`(optional): A [function](https://www.codecademy.com/resources/docs/javascript/callbacks) that is called once the element is hidden.
 
 ## Example
 
