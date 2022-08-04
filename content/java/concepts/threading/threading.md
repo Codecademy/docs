@@ -69,7 +69,7 @@ In both cases, the `.isAlive()` method of the `Thread` class will return a boole
 
 ## Example
 
-This example prints out some messages from the main thread and from a separate thread:
+This example prints out some messages from both the main thread and a separate thread:
 
 ```java
 public class Example extends Thread {
