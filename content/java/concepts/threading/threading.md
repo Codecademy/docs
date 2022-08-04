@@ -17,7 +17,9 @@ CatalogContent:
 
 Different parts of the program that are operating at the same time are called "threads" and the code that started executing first, starting these other processes, is typically known as the "main thread".
 
-One important thing to be aware of when working with threads is the possibility of concurrency problems, which happen when threads share access to a particular variable. If multiple threads access one variable, no thread can predict what its value will be since each thread operates independently and may be in a different stage in its process at any given time. It is best practice to avoid accessing such variables unless it's confirmed that the threads that can modify them have completed their execution.
+## Race Conditions
+
+Since Java supports running multiple threads at the same time, the risk of causing a concurrency problem, or a race condition, is always there. This happens when a particular [variable](https://www.codecademy.com/resources/docs/java/variables) is being accessed and updated by many threads (which are running independently and may not be finished executing). Such variables should be avoided unless it's confirmed that the threads that can modify them have completed their execution.
 
 The two ways that threads can be implemented in Java are either with [classes](https://www.codecademy.com/resources/docs/java/classes) or with [interfaces](https://www.codecademy.com/resources/docs/java/interfaces).
 
