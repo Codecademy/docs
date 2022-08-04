@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Usage
 
-jQuery can be added to a website by either downloading the library from [jQuery.com](https://jquery.com/download/), or including it from a [CDN](https://www.codecademy.com/resources/docs/general/cdn).
+jQuery can be added to a website by either downloading the library from [jQuery.com](https://jquery.com/download/) or including it from a [CDN](https://www.codecademy.com/resources/docs/general/cdn).
 
 Including a downloaded library looks like this (downloaded into the same directory as the page using it):
 
