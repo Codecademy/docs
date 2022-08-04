@@ -45,7 +45,7 @@ thread.start();
 
 ## Implementing the Runnable Interface
 
-The second way of using threads is by implementing the `Runnable` interface:
+Another way to create threads is by implementing the `Runnable` interface:
 
 ### Syntax
 
