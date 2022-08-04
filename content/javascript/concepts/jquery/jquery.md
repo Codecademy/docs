@@ -49,7 +49,7 @@ The following syntax is used:
 - `selector`: Uses [CSS selector](https://www.codecademy.com/resources/docs/css/selectors) syntax for selecting HTML elements.
 - `action`: One of the many jQuery methods to be performed on the selected element(s).
 
-It is best practice to perform jQuery actions only after the document is finished loading, otherwise some actions might fail. To insure this, it is best to enclose jQuery code inside a document ready event:
+It is best practice to perform jQuery actions only after the document is finished loading, otherwise, some actions might fail. To insure this, it is best to enclose jQuery code inside a document-ready event:
 
 ```pseudo
 $(document).ready(function(){
