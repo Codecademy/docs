@@ -24,7 +24,7 @@ Since Java supports running multiple threads at the same time, the risk of causi
 
 ## Using the Thread Class
 
-The first way is by extending the `Thread` class and overriding its `.run()` method:
+Threads can be defined in a class that extends the `Thread` class and overrides its `.run()` method:
 
 ### Syntax
 
