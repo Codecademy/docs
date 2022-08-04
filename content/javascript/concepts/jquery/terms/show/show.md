@@ -31,6 +31,7 @@ $(selector).show(speed, callback);
 
 The following jQuery code will show the element selected with `#hide` when the `#show` element is clicked:
 
+<!-- prettier-ignore -->
 ```js
 $("#show").click(function() {
   $("#hide").show();
