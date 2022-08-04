@@ -1,5 +1,5 @@
 ---
-Title: '.shows()'
+Title: '.show()'
 Description: 'Shows a hidden HTML element.'
 Subjects:
   - 'Web Development'
