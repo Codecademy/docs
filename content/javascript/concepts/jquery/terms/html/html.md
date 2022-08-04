@@ -36,8 +36,8 @@ $(selector).html(newHTML)
 The following jQuery code will read and reset the HTML in `#p1` when `#btn` is clicked:
 
 ```js
-$("#btn").click(function(){
-  alert($("#p1).html());
-  $("#p1").html("<b>New Text.</b>");
+$('#btn').click(function () {
+  alert($('#p1').html());
+  $('#p1').html('<b>New Text.</b>');
 });
 ```
