@@ -21,7 +21,9 @@ The **`.show()`** method shows a hidden [HTML element](https://www.codecademy.co
 $(selector).show(speed, callback);
 ```
 
-The element(s) specified by `selector` will be shown. The `speed` and `callback` parameters are optional. `speed` can be "slow" or "fast" or number of milliseconds. `callback` is a [function](https://www.codecademy.com/resources/docs/javascript/callbacks) that is called once showing is complete.
+- `selector`: Specifies the elements that will be shown. 
+- `speed`(optional): Can be "slow" or "fast" or the number of milliseconds. 
+- `callback`(optional): A [function](https://www.codecademy.com/resources/docs/javascript/callbacks) that is called once showing is complete.
 
 ## Example
 
