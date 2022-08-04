@@ -19,10 +19,10 @@ CatalogContent:
 
 The process of one hot encoding is as follows:
 
-- Each possible value in the data being encoded is assigned a unique sequential integer value.
-- Each of those values is represented by a binary vector with a position for each integer value.
-- Each vector has a value of `1` in the position for its corresponding integer value, and a `0` elsewhere.
-- The categorical values in the data are replaced by the corresponding vector.
+1. Each possible value in the data being encoded is assigned a unique sequential integer value.
+2. Each of those values is represented by a binary vector with a position for each integer value.
+3. Each vector has a value of `1` in the position for its corresponding integer value, and a `0` elsewhere.
+4. The categorical values in the data are replaced by the corresponding vector.
 
 Depending on the implementation, the encoded values may be represented by actual vector datatypes, or they may be expanded as additional columns in the data.
 
