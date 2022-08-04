@@ -30,7 +30,7 @@ WHERE condition1
   OR conditionN;
 ```
 
-If any of the `condition_`s evaluate to `TRUE`, the row(s) can be returned. However, if all of the `condition_`s were to evaluate to `NOT TRUE`, then the row(s) would not be returnef from the query.
+If any of the `condition_`s evaluate to `TRUE`, the row(s) can be returned. However, if all of the `condition_`s were to evaluate to `NOT TRUE`, then the row(s) would not be returned from the query.
 
 ## Example 1
 
