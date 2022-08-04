@@ -15,6 +15,10 @@ CatalogContent:
 
 The **`eval()`** function returns the value of a Python expression passed as a [string](https://www.codecademy.com/resources/docs/python/strings).
 
+## Security Concerns
+
+While `eval()` can be useful, care must be taken to understand the security implications of this function. If `eval()` is used with user generated strings, it's possible for a malicious user to execute arbitrary code through the function. Good programming practice generally advises against using `eval()`. If it is used, it should never be used with untrusted input.
+
 ## Syntax
 
 ```pseudo
@@ -38,7 +42,3 @@ y = 5
 print(eval("x + y")) # Output 15.
 print(eval("x + y"), {"x":15, "y":y}) # Output 20.
 ```
-
-## Security Concerns
-
-While `eval()` can be useful, care must be taken to understand the security implications of this function. If `eval()` is used with user generated strings, it's possible for a malicious user to execute arbitrary code through the function. Good programming practice generally advises against using `eval()`. If it is used, it should never be used with untrusted input.
