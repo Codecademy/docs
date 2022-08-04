@@ -32,7 +32,7 @@ $(selector).show(speed, callback);
 The following jQuery code will show the element selected with `#hide` when the `#show` element is clicked:
 
 ```js
-$('#show').click(function () {
-  $('#hide').show();
+$("#show").click(function() {
+  $("#hide").show();
 });
 ```
