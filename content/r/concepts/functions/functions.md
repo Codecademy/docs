@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are blocks of code that perform specific tasks. It can be repeatedly called within other parts of the code.'
+Description: 'Functions are blocks of code that perform specific tasks and can be repeatedly called within other parts of the code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,13 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[**Functions**](https://www.codecademy.com/resources/docs/general/function) are blocks of code that perform specific tasks. It can be repeatedly called within other parts of the code. A function is not called when it is defined, but only when another part of the code executes the function.
+**Functions** are blocks of code that perform specific tasks and can be repeatedly called within other parts of the code. A function is not called when it is defined, but only when another part of the code executes the function.
 
 ## Syntax
 
-The syntax for a function in R is slightly different than in other programming languages.
-
-```r
+```pseudo
 my_function <- function(parameters) {
   # Code to execute.
 }
@@ -27,15 +25,18 @@ my_function <- function(parameters) {
 my_function(parameters)
 ```
 
+Other than being defined with a `function` keyword, the syntax for R functions is slightly different compared to other programming languages:
+
 - `my_function`: The name of the function. It is a [variable](https://www.codecademy.com/resources/docs/r/variables) and obeys the naming convention for variables.
+- `<-`: The operator that assigns the function definition to the `my_function` variable.
 - `parameters`: Zero or more comma-separated variables that will be passed on to the code block when the function is called.
-- `# Code to execute`: The code that executes when the function is called.
+- `# Code to execute`: The code inside curly brackets `{}` that executes when the function is called.
 
 A function is called with its name, followed by any parameters that are expected in the parentheses.
 
 ### Arguments
 
-Arguments can be passed to a function by position or by name. By position passes arguments in the order they were defined in the function. By name specifies the name of the parameter given by the function.
+Arguments can be passed to a function by position or by name. Positional arguments are passed in the order they were defined in the function. Named arguments specify the name of the parameter given by the function.
 
 ```pseudo
 my_function <- function(arg1, arg2, arg3) {
@@ -75,13 +76,13 @@ The output of the above will be:
 
 ### The `return()` Function
 
-The `return()` function stops execution of the function and returns a result value. Unlike other languages, `return()` in R is a function and the result being returned must be enclosed in parenthesis.
+The `return()` function stops execution of the function and returns a result value. Unlike other languages, `return()` in R is a function and the result argument must be enclosed in parentheses:
 
 ```r
 my_function <- function() {
   x <- 1
   x <- x + 1
-  return (x)
+  return(x)
 
   # The following lines are never executed.
   x <- 15
