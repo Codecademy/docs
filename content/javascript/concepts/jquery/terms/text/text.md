@@ -35,9 +35,10 @@ $(selector).text(newtext)
 
 The following jQuery code will read and reset the text in `#p1` when `#btn` is clicked:
 
+<!-- prettier-ignore -->
 ```js
-$('#btn').click(function () {
-  alert($('#p1').text());
-  $('#p1').text('New Text.');
+$("#btn").click(function() {
+  alert($("#p1").text());
+  $("#p1").text("New Text.");
 });
 ```
