@@ -21,4 +21,4 @@ Hash tables are implemented in many different programming languages such as [Jav
 
 ## Efficiency
 
-Often hash tables prove to be on average more efficient than other table lookup structures. Because of this, they are widely used for things such as [dictionaries](https://www.codecademy.com/resources/docs/general/dictionary), [database indexing](https://www.codecademy.com/resources/docs/general/database/index), and [caching](https://www.codecademy.com/resources/docs/general/cache).
+On average, hash tables prove to be more efficient than other table lookup structures. Because of this, they are widely used for things such as [dictionaries](https://www.codecademy.com/resources/docs/general/dictionary), [database indexing](https://www.codecademy.com/resources/docs/general/database/index), and [caching](https://www.codecademy.com/resources/docs/general/cache).
