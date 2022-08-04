@@ -29,8 +29,9 @@ A `handler` function will be assigned to the `"click"` event of the HTML element
 
 The following jQuery code will spawn a message box every time a paragraph in the document is clicked:
 
+<!-- prettier-ignore -->
 ```js
-$('p').click(function () {
-  alert('Paragraph clicked!');
+$("p").click(function() {
+  alert("Paragraph clicked!");
 });
 ```

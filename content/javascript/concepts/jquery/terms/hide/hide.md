@@ -31,8 +31,9 @@ $(selector).hide(speed, callback);
 
 The following jQuery code will hide the element selected with `#hide` when it is clicked:
 
+<!-- prettier-ignore -->
 ```js
-$('#hide').click(function () {
-  $('#hide').hide();
+$("#hide").click(function() {
+  $("#hide").hide();
 });
 ```

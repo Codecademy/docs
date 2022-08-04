@@ -29,8 +29,9 @@ A `handler` function will be assigned to the `"double-click"` event of the HTML 
 
 The following jQuery code will spawn a message box every time a paragraph in the document is double-clicked:
 
+<!-- prettier-ignore -->
 ```js
-$('p').dblclick(function () {
-  alert('Paragraph double-clicked!');
+$("p").dblclick(function() {
+  alert("Paragraph double-clicked!");
 });
 ```
