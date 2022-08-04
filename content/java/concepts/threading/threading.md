@@ -65,7 +65,7 @@ Thread thread = new Thread(runnable);
 thread.start()
 ```
 
-In both cases, the `.IsAlive()` method of the `Thread` class will return a boolean that is `true` as long as the thread is running.
+In both cases, the `.isAlive()` method of the `Thread` class will return a boolean that is `true` as long as the thread is running.
 
 ## Example
 
