@@ -57,7 +57,7 @@ int main ()
 
 The output would be:
 
-```
+```shell
 Hello World!
 Copied String.
 ```
