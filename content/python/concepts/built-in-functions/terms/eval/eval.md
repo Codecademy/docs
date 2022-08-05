@@ -39,6 +39,6 @@ The following example uses `eval()` to evaluate an expression using variables in
 x = 10
 y = 5
 
-print(eval("x + y")) # Output 15.
-print(eval("x + y"), {"x":15, "y":y}) # Output 20.
+print(eval("x + y")) # Output: 15
+print(eval("x + y"), {"x":15, "y":y}) # Output: 20
 ```
