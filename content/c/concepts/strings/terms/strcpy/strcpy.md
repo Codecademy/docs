@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `strcpy()` string function copies one string into another string.
+The **`strcpy()`** string function copies one string into another string.
 
 ## Syntax
 
