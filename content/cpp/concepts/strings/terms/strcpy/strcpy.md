@@ -41,7 +41,7 @@ The following example prints a string, copies a second string over it, and print
 #include <iostream>
 using namespace std;
 #include<string.h>
- 
+
 int main ()
 {
     char str1[40]="Hello World!";
@@ -50,7 +50,7 @@ int main ()
     cout << str1 << "\n";
     strcpy(str1, str2);
     cout << str1 << "\n";
-   
+
     return 0;
 }
 ```

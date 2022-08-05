@@ -45,7 +45,7 @@ The following performs comparisons on three strings and prints out information a
 #include <iostream>
 using namespace std;
 #include<string.h>
- 
+
 int main ()
 {
     char str1[40]="Microsoft";
@@ -59,7 +59,7 @@ int main ()
     } else {
         cout << str1 << " is equal to " << str2 << ". \n";
     }
-    
+
     if (strcmp(str1,str3) < 0) {
         cout << str1 << " comes before " << str3 << ". \n";
     } else if (strcmp(str1,str3) > 0) {
@@ -67,7 +67,7 @@ int main ()
     } else {
         cout << str1 << " is equal to " << str3 << ". \n";
     }
-    
+
     return 0;
 }
 ```
@@ -75,6 +75,6 @@ int main ()
 This produces the following output:
 
 ```shell
-Apple comes before Microsoft. 
-Linux comes before Microsoft. 
+Apple comes before Microsoft.
+Linux comes before Microsoft.
 ```
