@@ -74,7 +74,7 @@ int main ()
 
 This produces the following output:
 
-```pseudo
+```shell
 Apple comes before Microsoft. 
 Linux comes before Microsoft. 
 ```
