@@ -15,9 +15,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strcpy()`** string function copies one c-style string into another string.
+The **`strcpy()`** string function copies one C-style string into another string.
 
-> **Note:** `strcpy()` only works on c-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
+> **Note:** `strcpy()` only works on C-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
 
 ## Syntax
 
@@ -27,7 +27,7 @@ The `string.h` header file needs to be included at the top of the file:
 #include <string.h>
 ```
 
-`strcopy()` function copies the c-style string `string2` into c-style string `string1`, including the terminating `null` character (`'\0'`).
+`strcopy()` function copies the C-style string `string2` into C-style string `string1`, including the terminating `null` character (`'\0'`).
 
 ```cpp
 strcpy(string1, string2)
