@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `strcmp()` string function compares two strings and returns an integer value.
+The **`strcmp()`** string function compares two strings and returns an integer value.
 
 ## Syntax
 
