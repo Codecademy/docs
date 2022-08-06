@@ -1,0 +1,48 @@
+---
+Title: '.reverse()'
+Description: 'Reverses the sequence of characters in the StringBuilder.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Characters'
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`.reverse()`** method reverses the sequence of characters in the `StringBuilder`. It returns a reference to the `StringBuilder`.
+
+## Syntax
+
+```pseudo
+myStringBuilder.reverse();
+```
+
+The `.reverse()` method takes no arguments.
+
+## Example
+
+The following example creates a `StringBuilder` with a specified `String` then uses the `.reverse()` method on it:
+
+```java
+import java.util.*;
+
+public class Example {
+  public static void main(String[] args)
+  {
+    StringBuilder str = new StringBuilder("Hello World!");
+    System.out.println(str.toString());
+    str.reverse();
+    System.out.println(str.toString());
+  }
+}
+```
+
+The above example results in the following output:
+
+```shell
+Hello World!
+!dlroW olleH
+```
