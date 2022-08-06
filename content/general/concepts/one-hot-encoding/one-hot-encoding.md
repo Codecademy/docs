@@ -24,7 +24,7 @@ The process of one hot encoding is as follows:
 3. Each vector has a value of `1` in the position for its corresponding integer value, and a `0` elsewhere.
 4. The categorical values in the data are replaced by the corresponding vector.
 
-Depending on the implementation, the encoded values may be represented by actual vector datatypes, or they may be expanded as additional columns in the data.
+Depending on the implementation, the encoded values may be represented by actual vector data types, or they may be expanded as additional columns in the data.
 
 ## Example
 
