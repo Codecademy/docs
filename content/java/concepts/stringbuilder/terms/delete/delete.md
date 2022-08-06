@@ -20,7 +20,7 @@ The **`.delete()`** method removes a substring from the contents of a `StringBui
 myStringbuilder.detete(start, end);
 ```
 
-The `int` arguments `start` and `end` specify the zero-based start and end character indices of the substring to delete. The last character deleted is at `end` - 1. If `end` is past the end of the sequence stored in the `StringBuilder`, characters are deleted through the end of the sequence. If `start` is equal to `end`, no changes are made. If `start` is greater than `end`, past the end of the sequence in the `StringBuilder`, or is negative, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors) is thrown.
+The `int` arguments `start` and `end` specify the zero-based start and end character indices of the substring to delete. The last character deleted is at `end` - 1. If `end` is past the end of the sequence stored in the `StringBuilder`, characters are deleted through the end of the sequence. If `start` is equal to `end`, no changes are made. If `start` is greater than `end`, past the end of the sequence in the `StringBuilder`, or is negative, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
 
 ## Example
 
