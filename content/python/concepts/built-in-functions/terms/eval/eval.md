@@ -17,7 +17,7 @@ The **`eval()`** function returns the value of a Python expression passed as a [
 
 ## Security Concerns
 
-While `eval()` can be useful, care must be taken to understand the security implications of this function. If `eval()` is used with user generated strings, it's possible for a malicious user to execute arbitrary code through the function. Good programming practice generally advises against using `eval()`. If it is used, it should never be used with untrusted input.
+While `eval()` can be useful, care must be taken to understand the security implications of this function. If `eval()` is used with user-generated strings, a malicious user could execute arbitrary code through the function. Good programming practice generally advises against using `eval()`. If it is used, it should never be used with untrusted input.
 
 ## Syntax
 
