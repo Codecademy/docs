@@ -30,7 +30,7 @@ If the optional `int` `index` is provided, `.indexOf()` will return the first oc
 
 ## Example
 
-The following example created a `StringBuilder` with a specified string then uses `.indexOf()` to find the index of a particular substring:
+The following example creates a `StringBuilder` with a specified string then uses `.indexOf()` to find the index of a particular substring:
 
 ```java
 import java.util.*;
