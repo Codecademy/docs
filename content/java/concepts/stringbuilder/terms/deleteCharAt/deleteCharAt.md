@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.deleteCharAt()`** method removes the character at the specified index from the contents of a StringBuilder. It returns the `StringBuilder`.
+The **`.deleteCharAt()`** method removes the character at the specified index from the contents of a `StringBuilder`. It returns the `StringBuilder`.
 
 ## Syntax
 
