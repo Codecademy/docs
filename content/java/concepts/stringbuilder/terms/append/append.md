@@ -20,7 +20,7 @@ The **`.append()`** method appends the string value of its argument to the `Stri
 myStringBuilder.append(argument);
 ```
 
-If `argument` is a [`String`](https://www.codecademy.com/resources/docs/java/strings) a `CharSequence` or a `char[]` array, the characters contained are appended to the end of the `StringBuilder` and its capacity is increased by the number of characters appended. For other types, it behaves as if `argument` was first converted to a string by using `String.valueOf(argument)`.
+If `argument` is a [`String`](https://www.codecademy.com/resources/docs/java/strings), a `CharSequence`, or a `char[]` array, the characters contained are appended to the end of the `StringBuilder` and its capacity is increased by the number of characters appended. For other types, it behaves as if `argument` was first converted to a string by using `String.valueOf(argument)`.
 
 For `CharSequence` arguments, `.append()` can have two additional optional `int` arguments:
 
