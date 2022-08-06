@@ -1,0 +1,47 @@
+---
+Title: '.deleteCharAt()'
+Description: 'Removes the character at the specified index from the contents of a StringBuilder.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Characters'
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`.deleteCharAt()`** method removes the character at the specified index from the contents of a StringBuilder. It returns the `StringBuilder`.
+
+## Syntax
+
+```pseudo
+myStringbuilder.deteteCharAt(index);
+```
+
+The `int` argument `index` specifies the zero-based index of the character to delete. The sequence is shortened by one character. If `index` is negative or greater than the length of the sequence, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors) is thrown.
+## Example
+
+The following example creates a `StringBuilder` with a specified `String` then uses the `.deleteCharAt()` method to change its contents:
+
+```java
+import java.util.*;
+
+public class Example {
+  public static void main(String[] argv)
+  {
+    StringBuilder str = new StringBuilder("Hello World!");
+    System.out.println(str.toString());
+    str.deleteCharAt(11);
+    System.out.println(str.toString());
+  }
+}
+```
+
+The above example produces the following output:
+
+```shell
+Hello World!
+Hello World
+```
