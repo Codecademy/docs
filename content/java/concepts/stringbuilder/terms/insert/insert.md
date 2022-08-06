@@ -30,14 +30,13 @@ myStringBuilder.insert(index, str, start, end)
 
 In this case, `.insert()` will insert the subsequence defined by the start and end points specified by `start` and `end`.
 
-For `char[]` arguments, `.insert()` can have two additional optional `int` arguments: 
+For `char[]` arguments, `.insert()` can have two additional optional `int` arguments:
 
 ```pseudo
 myStringBuilder.insert(index, str, start, len)
 ```
 
 In this case, `.insert()` will insert the subsequence defined by the start point and legnth specified by `start` and `len`.
-
 
 ## Example
 

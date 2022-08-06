@@ -30,7 +30,7 @@ myStringBuilder.append(argument, start, end)
 
 In this case, `.append()` will append the subsequence defined by the start and end points specified by `start` and `end`.
 
-For `char[]` arguments, `.append()` can have two additional optional `int` arguments: 
+For `char[]` arguments, `.append()` can have two additional optional `int` arguments:
 
 ```pseudo
 myStringBuilder.append(index, str, start, len)

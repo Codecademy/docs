@@ -21,6 +21,7 @@ myStringbuilder.deteteCharAt(index);
 ```
 
 The `int` argument `index` specifies the zero-based index of the character to delete. The sequence is shortened by one character. If `index` is negative or greater than the length of the sequence, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
+
 ## Example
 
 The following example creates a `StringBuilder` with a specified `String` then uses the `.deleteCharAt()` method to change its contents:
