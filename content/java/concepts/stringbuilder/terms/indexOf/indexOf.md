@@ -17,13 +17,13 @@ The **`.indexOf()`** method returns the index of the first occurrence of a subst
 ## Syntax
 
 ```pseudo
-myStringBuilder.indexOf(substring)
+myStringBuilder.indexOf(substring);
 ```
 
 The argument `substring` is the [`String`](https://www.codecademy.com/resources/docs/java/strings) being matched.
 
 ```pseudo
-myStringBuilder.indexOf(substring, index)
+myStringBuilder.indexOf(substring, index);
 ```
 
 If the optional `int` `index` is provided, `.indexOf()` will return the first occurrence of `substring` occurring after that index in the `StringBuilder`.
