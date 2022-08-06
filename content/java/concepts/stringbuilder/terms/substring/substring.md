@@ -20,7 +20,7 @@ The **`.substring()`** method returns a [String](https://www.codecademy.com/reso
 myStringBuilder.substring(start, end);
 ```
 
-The `.substring()` method will return the substring starting at the zero-indexed `int` `start` index to the character specified at index `end` - 1. If the `int` `end` is omitted, the substring will extend from `start` to the end of the sequence. If `start` or `end` is negative, greater than the length of the `StringBuilder`, or `start` is greater than `end`, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors) is thrown.
+The `.substring()` method will return the substring starting at the zero-indexed `int` `start` index to the character specified at index `end` - 1. If the `int` `end` is omitted, the substring will extend from `start` to the end of the sequence. If `start` or `end` is negative, greater than the length of the `StringBuilder`, or `start` is greater than `end`, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
 
 ## Example
 
