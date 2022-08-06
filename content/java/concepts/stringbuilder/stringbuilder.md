@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`StringBuilder`** class in Java represents a sequence of characters like a [`String`](https://www.codecademy.com/resources/docs/java/strings), but unlike a Java `String`, this sequence is mutable. This provides an alternative to the `String` calss when the it's a requirement to change a character sequence once it is defined.
+The **`StringBuilder`** class in Java represents a sequence of characters like a [`String`](https://www.codecademy.com/resources/docs/java/strings), but unlike a Java `String`, this sequence is mutable. This provides an alternative to the `String` class when the it's a requirement to change a character sequence once it is defined.
 
-It is similar to another class, `StringBuffer`, but is faster in most curcumstances. The difference between `StringBuilder` and `StringBuffer` is that `StringBuilder` is not thread-safe. Because `StringBuilder` offers no guarantee of synchronization, it should not be used across multiple [threads](https://www.codecademy.com/resources/docs/java/threading).
+It is similar to another class, `StringBuffer`, but is faster in most circumstances. The difference between `StringBuilder` and `StringBuffer` is that `StringBuilder` is not thread-safe. Because `StringBuilder` offers no guarantee of synchronization, it should not be used across multiple [threads](https://www.codecademy.com/resources/docs/java/threading).
 
 ## Syntax
 
