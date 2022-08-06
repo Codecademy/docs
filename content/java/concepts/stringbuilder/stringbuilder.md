@@ -29,7 +29,30 @@ StringBuilder s3 = new StringBuilder(str);
 A `StringBuilder` can be created the following ways:
 
 - Calling the [constructor](https://www.codecademy.com/resources/docs/java/constructors) with no arguments creates a `StringBuilder` with no contents and a capacity of 16 characters.
-- Calling the constructor with the int argument `capacity` creates a `StringBuilder` with no contents and a capacity of `capacity` characters.
+- Calling the constructor with the `int` argument `capacity` creates a `StringBuilder` with no contents and a capacity of `capacity` characters.
 - Calling the constructor with a `str` argument that is either a `String` or a `CharSequence` creates a `StringBuilder` with contents and capacity equal to the specified `String` or `CharSequence`.
 
+## Example
 
+The following example creates a `StringBuilder` with a specified `String` then changes it by appending another `String`.
+
+```java
+import java.util.*;
+
+public class Example {
+  public static void main(String[] argv)
+  {
+    StringBuilder str = new StringBuilder("Hello");
+    System.out.println(str.toString());
+    str.append(" World!");
+    System.out.println(str.toString());
+  }
+}
+```
+
+The above creates the following output:
+
+```shell
+Hello
+Hello World!
+```
