@@ -22,13 +22,21 @@ myStringBuilder.append(argument);
 
 If `argument` is a [`String`](https://www.codecademy.com/resources/docs/java/strings) a `CharSequence` or a `char[]` array, the characters contained are appended to the end of the `StringBuilder` and its capacity is increased by the number of characters appended. For other types, it behaves as if `argument` was first converted to a string by using `String.valueOf(argument)`.
 
-For `CharSequence` and `char[]` arguments, `.append()` can have two additional optional `int` arguments:
+For `CharSequence` arguments, `.append()` can have two additional optional `int` arguments:
 
 ```pseudo
 myStringBuilder.append(argument, start, end)
 ```
 
 In this case, `.append()` will append the subsequence defined by the start and end points specified by `start` and `end`.
+
+For `char[]` arguments, `.append()` can have two additional optional `int` arguments: 
+
+```pseudo
+myStringBuilder.append(index, str, start, len)
+```
+
+In this case, `.append()` will append the subsequence defined by the start point and legnth specified by `start` and `len`.
 
 ## Example
 
