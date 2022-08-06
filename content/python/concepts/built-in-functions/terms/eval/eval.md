@@ -31,7 +31,7 @@ eval(expression, globals, locals)
 
 > **Note:** While using the `globals` argument overrides the user defined variables available, if it doesn't specify a value for the `__builtins__` key, then a reference for it is automatically added so that `eval()` will have access to all of Python's built-in names when evaluating `expression`.
 >
-> **Note:** `eval()` doesn't work with compound statements or assignment operations. It only works with expressions that can be evaluated to be equal to some value.
+> **Note:** `eval()` does not support keyword arguments and it doesn't work on compound statements or assignment operations. It only works with expressions that can be evaluated to be equal to some value.
 
 ## Examples
 
