@@ -1,0 +1,56 @@
+---
+Title: '.append()'
+Description: 'Appends the string representation of its argument.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Characters'
+  - 'Strings'
+  - 'Methods'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`.append()`** method appends the string value of its argument to the `StringBuilder`. It returns a reference to the `StringBuilder` object.
+
+## Syntax
+
+```pseudo
+myStringBuilder.append(argument)
+```
+
+If `argument` is a `String` a `CharSequence` or a `char[]` array, the characters contained are appended to the end of the `StringBuilder` and its capacity is increased by the number of characters appended. For other types, it behaves as if `argument` was first converted to a string by using `String.valueOf(argument)`.
+
+For `CharSequence` and `char[]` arguments, `.append()` can have two additional optional `int` arguments:
+
+```pseudo
+myStringBuilder.append(argument, start, end)
+```
+
+In this case, `.append()` will append the subsequence defined by the start and end points specified by `start` and `end`.
+
+## Example
+
+The following example creates a `StringBuilder` with a specified `String` then uses the `.append()` method to change it:
+
+```java
+import java.util.*;
+
+public class Example {
+  public static void main(String[] argv)
+  {
+    StringBuilder str = new StringBuilder("Hello");
+    System.out.println(str.toString());
+    str.append(" World!");
+    System.out.println(str.toString());
+  }
+}
+```
+
+The above creates the following output:
+
+```shell
+Hello
+Hello World!
+```
