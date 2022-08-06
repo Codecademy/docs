@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.replace()`** method replaces a substring in a `StringBuilder` with the specified String. It returns the `StringBuilder`.
+The **`.replace()`** method replaces a substring in a `StringBuilder` with the specified [`String`](https://www.codecademy.com/resources/docs/java/strings). It returns the `StringBuilder`.
 
 ## Syntax
 
