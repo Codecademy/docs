@@ -40,7 +40,7 @@ The following example creates a `StringBuilder` with a specified `String` then c
 import java.util.*;
 
 public class Example {
-  public static void main(String[] argv)
+  public static void main(String[] args)
   {
     StringBuilder str = new StringBuilder("Hello");
     System.out.println(str.toString());
