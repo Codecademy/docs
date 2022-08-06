@@ -35,7 +35,7 @@ eval(expression, globals, locals)
 
 ## Examples
 
-The following example uses `eval()` to evaluate an expression using variables in the current global scope, the evaluates the same expression with its own global scope:
+The following example uses `eval()` to evaluate an expression using variables in the current global scope, then evaluates the same expression with its own global scope:
 
 ```py
 x = 10
