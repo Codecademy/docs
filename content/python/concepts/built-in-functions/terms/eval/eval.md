@@ -26,8 +26,8 @@ eval(expression, globals, locals)
 ```
 
 - `expression`: The expression to evaluate.
-- `globals` (optional): A [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) defining which [variables](https://www.codecademy.com/resources/docs/python/variables) are in the `expression`'s global [scope](https://www.codecademy.com/resources/docs/python/scope). If `globals` isn't specified, `eval()` uses the current global scope. 
-- `locals` (optional): A dictionary defining the variables in the `expression`'s local scope. If the `locals` argument is specified, the `globals` argument must be specified as well. 
+- `globals` (optional): A [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) defining which [variables](https://www.codecademy.com/resources/docs/python/variables) are in the `expression`'s global [scope](https://www.codecademy.com/resources/docs/python/scope). If `globals` isn't specified, `eval()` uses the current global scope.
+- `locals` (optional): A dictionary defining the variables in the `expression`'s local scope. If the `locals` argument is specified, the `globals` argument must be specified as well.
 
 > **Note:** While using the `globals` argument overrides the user defined variables available, if it doesn't specify a value for the `__builtins__` key, then a reference for it is automatically added so that `eval()` will have access to all of Python's built-in names when evaluating `expression`.
 >
