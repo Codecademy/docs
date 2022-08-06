@@ -58,7 +58,7 @@ Assigning vectors to values:
 |    B     |       1       | \[0,1,0\] |
 |    C     |       2       | \[0,0,1\] |
 
-Applying the vector values as columns to original data:
+Applying the vector values as columns to the original data:
 
 | Category | Value |  A  |  B  |  C  |
 | :------: | :---: | :-: | :-: | :-: |
