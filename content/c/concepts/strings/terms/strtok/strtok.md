@@ -1,6 +1,6 @@
 ---
 Title: 'strtok()'
-Description: 'Breaks a string into a series of tokens using a delimiter.'
+Description: 'Breaks a string into a series of tokens using a list of delimiters.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -15,15 +15,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strtok()`** function breaks a C string into a series of tokens using a delimiter.
+The **`strtok()`** function breaks a string into a series of tokens using a list of delimiters.
 
 ## Syntax
 
 ```pseudo
-char *token = strtok(string, delimiter);
+char *token = strtok(string, delimiters);
 ```
 
-The `strtok()` function splits the C string `string` into tokens on the C string `delimiter` and returns the pointer to the first token. Subsequent calls to strtok with `string` = `NULL` will return subsequent tokens. It returns a `NULL` pointer when there are no more tokens to retrieve.
+The `strtok()` function splits the string `string` into tokens on occurrences of any character in the string `delimiters` and returns the pointer to the first token. Subsequent calls to strtok with `string` = `NULL` will return subsequent tokens. It returns a `NULL` pointer when there are no more tokens to retrieve.
 
 ## Example
 
