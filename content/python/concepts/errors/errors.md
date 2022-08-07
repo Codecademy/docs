@@ -37,7 +37,7 @@ Even if a statement or expression is syntactically correct, it may cause an erro
 
 ### Value Error
 
-`ValueError` is thrown when a function's argument is of an inappropriate type.
+`ValueError` is thrown when a function's argument is of the correct type, but an inapprpriate value, such as being out of range.
 
 ```error
 Traceback (most recent call last):
