@@ -79,6 +79,17 @@ import notamodule
 ModuleNotFoundError: No module named 'notamodule'
 ```
 
+### Type Error
+
+`TypeError` is thrown when a function's argument is of an inappropriate type.
+
+```error
+Traceback (most recent call last):
+File "script.py", line 1, in <module>
+max(True)
+TypeError: 'bool' object is not iterable
+```
+
 ### Zero Division Error
 
 `ZeroDivisionError` is thrown when the second operator in the division is zero.
