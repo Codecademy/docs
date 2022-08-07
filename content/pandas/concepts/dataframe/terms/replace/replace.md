@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Returns DataFrame Object after values within DataFrame have been changed'
+Description: 'Returns DataFrame Object after values within DataFrame have been changed.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -21,7 +21,7 @@ The `.replace()` function returns a new [`DataFrame`](https://www.codecademy.com
 df = dataframe.replace(value_to_replace, new_value, inplace=True)
 ```
 
-`dataframe` is the DataFrame with the source data and `value_to_replace` is the value you are targeting within the DataFrame. `new_value` is the value you want to have in place of the original value. `inplace` is `False` by default meaning that your original DataFrame values will not be replaced unless `inplace` is explicitly declared to `True` within the parameters.
+`dataframe` is the `DataFrame` with the source data and `value_to_replace` is the value you are targeting within the `DataFrame`. `new_value` is the value you want to have in place of the original value. `inplace` is `False` by default meaning that your original `DataFrame` values will not be replaced unless `inplace` is explicitly declared to `True` within the parameters.
 
 `.replace()` has the following parameters:
 
@@ -34,7 +34,7 @@ df = dataframe.replace(value_to_replace, new_value, inplace=True)
 
 ## Example
 
-In the following example, the `.replace()` method is used to replace `???` values in a DataFrame first with a scalar, then with a dict. For the second example with dict it will be shown with differing amounts of `?`:
+In the following example, the `.replace()` method is used to replace `???` values in a `DataFrame`, first with a scalar, then with a dict. For the second example with dict, it will be shown with differing amounts of `?`:
 
 ```py
 import pandas as pd
