@@ -37,7 +37,7 @@ int main () {
    char str[] = "Comma,Delimited,List";
    const char s[] = ",";
    char *token = strtok(str, s);
-  
+
    while( token != NULL ) {
       printf( "%s\n", token );
       token = strtok(NULL, s);
