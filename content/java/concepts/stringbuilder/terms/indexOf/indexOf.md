@@ -1,6 +1,6 @@
 ---
 Title: '.indexOf()'
-Description: 'Returns the index of the first occurance of a substring in the StringBuilder.'
+Description: 'Returns the index of the first occurrence of a substring in the StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
