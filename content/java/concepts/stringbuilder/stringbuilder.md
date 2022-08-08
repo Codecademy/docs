@@ -26,7 +26,7 @@ StringBuilder s2 = new StringBuilder(capacity);
 StringBuilder s3 = new StringBuilder(str);
 ```
 
-A `StringBuilder` can be created the following ways:
+A `StringBuilder` can be created in the following ways:
 
 - Calling the [constructor](https://www.codecademy.com/resources/docs/java/constructors) with no arguments creates a `StringBuilder` with no contents and a capacity of 16 characters.
 - Calling the constructor with the `int` argument `capacity` creates a `StringBuilder` with no contents and a capacity of `capacity` characters.
