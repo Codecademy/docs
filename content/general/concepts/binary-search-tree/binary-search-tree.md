@@ -21,7 +21,7 @@ Below is a diagram of a binary search tree.
 
 ![Binary Search Tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-tree.png 'Binary Search Tree Diagram')
 
-The part of the tree with nodes `1`,`2` & `3` is referred to as the left subtree, and the part with nodes `5`,`6` & `7` is referred to as the right subtree. Both subtrees are themselves binary search trees. The nodes `1`,`3`,`5` & `7` are referred to as leaf nodes, because they have no children.
+The part of the tree with nodes `1`, `2` & `3` is referred to as the left subtree, and the part with nodes `5`, `6` & `7` is referred to as the right subtree. Both subtrees are themselves binary search trees. The nodes `1`, `3`, `5` & `7` are called leaf nodes because they have no children.
 
 ## Binary Search Tree vs. Hash Table
 
