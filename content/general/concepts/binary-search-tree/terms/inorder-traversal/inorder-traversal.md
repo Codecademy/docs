@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inorder traversal** is a method of traversing a binary search tree by first traversing the left subtree, then the root, then traversing the right subtree. This provides the nodes of the binary search tree in increasing order. To get nodes in a decreasing order, inorder traversal can be done in reverse.
+**Inorder traversal** is a method of traversing a binary search tree by first traversing the left subtree, then the root, then traversing the right subtree. This provides the nodes of the binary search tree in increasing order. To get nodes in decreasing order, inorder traversal can be done in reverse.
 
 ## Algorithm
 
