@@ -40,7 +40,7 @@ In this case, `.append()` will append the subsequence defined by the start point
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String` then uses the `.append()` method to change it:
+The following example creates a `StringBuilder` with a specified `String` and then uses the `.append()` method to change it:
 
 ```java
 import java.util.*;
