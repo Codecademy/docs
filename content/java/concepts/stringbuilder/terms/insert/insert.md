@@ -36,7 +36,7 @@ For `char[]` arguments, `.insert()` can have two additional optional `int` argum
 myStringBuilder.insert(index, str, start, len)
 ```
 
-In this case, `.insert()` will insert the subsequence defined by the start point and legnth specified by `start` and `len`.
+In this case, `.insert()` will insert the subsequence defined by the start point and length specified by `start` and `len`.
 
 ## Example
 
