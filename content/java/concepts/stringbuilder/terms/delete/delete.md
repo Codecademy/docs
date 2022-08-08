@@ -24,7 +24,7 @@ The `int` arguments `start` and `end` specify the zero-based start and end chara
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String` then uses the `.delete()` method to change its contents:
+The following example creates a `StringBuilder` with a specified `String` and then uses the `.delete()` method to change its contents:
 
 ```java
 import java.util.*;
