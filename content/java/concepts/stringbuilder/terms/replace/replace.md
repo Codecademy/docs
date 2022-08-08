@@ -24,7 +24,7 @@ Where `start` and `end` are the zero-based indices of the characters being repla
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String` then uses the `.replace()` method to change its contents:
+The following example creates a `StringBuilder` with a specified `String` and then uses the `.replace()` method to change its contents:
 
 ```java
 import java.util.*;
