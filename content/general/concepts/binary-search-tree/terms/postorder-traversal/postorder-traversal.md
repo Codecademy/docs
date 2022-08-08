@@ -30,4 +30,4 @@ For the following binary search tree:
 
 ![Binary Search Tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-tree.png 'Binary Search Tree Diagram')
 
-Postorder traversal provides the nodes in the following order: `1`,`3`,`2`,`5`,`7`,`6`,`4`.
+Postorder traversal provides the nodes in the following order: `1`, `3`, `2`, `5`, `7`, `6`, `4`.
