@@ -28,6 +28,6 @@ Function Preorder(tree)
 
 For the following binary search tree:
 
-![Binary Search Tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-tree.png 'Binary Search Tree Diagram')
+![Binary Search Tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-tree-labeled.png 'Binary Search Tree Diagram')
 
 Preorder traversal provides the nodes in the following order: `4`, `2`, `1`, `3`, `6`, `5`, `7`.
