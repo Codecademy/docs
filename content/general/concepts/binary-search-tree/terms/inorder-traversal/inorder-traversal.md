@@ -30,4 +30,4 @@ For the following binary search tree:
 
 ![Binary Search Tree](https://raw.githubusercontent.com/Codecademy/docs/main/media/binary-tree.png 'Binary Search Tree Diagram')
 
-Inorder traversal provides the nodes in the following order: `1`,`2`,`3`,`4`,`5`,`6`,`7`.
+Inorder traversal provides the nodes in the following order: `1`, `2`, `3`, `4`, `5`, `6`, `7`.
