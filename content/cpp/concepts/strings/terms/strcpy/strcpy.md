@@ -30,7 +30,7 @@ The `string.h` header file needs to be included at the top of the file:
 `strcopy()` function copies the C-style string `string2` into C-style string `string1`, including the terminating `null` character (`'\0'`).
 
 ```pseudo
-strcpy(string1, string2)
+strcpy(string1, string2);
 ```
 
 ## Example
