@@ -30,7 +30,7 @@ The `string.h` header file needs to be included at the top of the file:
 The `strcmp()` function compares C-style strings `string1` and `string2` and returns an integer value.
 
 ```pseudo
-strcmp(string1, string2)
+strcmp(string1, string2);
 ```
 
 - If the two strings are the same, it returns 0.
