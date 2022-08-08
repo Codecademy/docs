@@ -30,7 +30,7 @@ If the optional `int` `index` is provided, `.lastIndexOf()` will return the last
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified string then uses `.lastIndexOf()` to find the final occurrence of a particular character:
+The following example creates a `StringBuilder` with a specified string and then uses `.lastIndexOf()` to find the final occurrence of a particular character:
 
 ```java
 import java.util.*;
