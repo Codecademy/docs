@@ -32,6 +32,6 @@ If the primary tasks needed are Search, Insert, or Delete, a hash table performs
 A binary search tree is preferable to a hash table in the following circumstances:
 
 - There's a need for retrieving keys in sorted order.
-- There's a need for operations like order statistics, finding next lower or higher keys, or range queries.
+- There's a need for operations like order statistics, finding the next smallest or largest element, or range queries.
 - Memory is a consideration. Binary search trees are more memory efficient than hash tables.
 - With binary search trees, operations take O(log(n)) time. While hashing averages O(1) time, some operations may be more costly, taking O(n<sup>2</sup>) time, especially when table resizing happens.
