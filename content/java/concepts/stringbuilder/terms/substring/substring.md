@@ -24,7 +24,7 @@ The `.substring()` method will return the substring starting at the zero-indexed
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String`, and displays a substring from it.
+The following example creates a `StringBuilder` with a specified `String` and displays a substring from it.
 
 ```java
 import java.util.*;
