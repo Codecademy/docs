@@ -34,7 +34,7 @@ A `StringBuilder` can be created in the following ways:
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String` then changes it by appending another `String`:
+The following example creates a `StringBuilder` with a specified `String` and then changes it by appending another `String`:
 
 ```java
 import java.util.*;
