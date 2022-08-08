@@ -1,6 +1,6 @@
 ---
 Title: '.lastIndexOf()'
-Description: 'Returns the index of the last (rightmost) occurance of a substring in the StringBuilder.'
+Description: 'Returns the index of the last (rightmost) occurrence of a substring in the StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
