@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.insert()`** method Inserts a sequence of characters into the `StringBuilder`. It returns a reference to the `StringBuilder` object.
+The **`.insert()`** method inserts a sequence of characters into the `StringBuilder`. It returns a reference to the `StringBuilder` object.
 
 ## Syntax
 
