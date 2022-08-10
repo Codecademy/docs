@@ -21,6 +21,8 @@ The **`strtok()`** function breaks a string into a series of tokens using a list
 
 ```pseudo
 char *token = strtok(string, delimiters);
+
+token = strtok(NULL, delimiters);
 ```
 
 The `strtok()` function splits the string `string` into tokens on occurrences of any character in the string `delimiters` and returns the pointer to the first token. Subsequent calls to strtok with `string` = `NULL` will return subsequent tokens. It returns a `NULL` pointer when there are no more tokens to retrieve.
