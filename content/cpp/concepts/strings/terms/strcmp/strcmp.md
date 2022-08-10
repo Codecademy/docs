@@ -62,7 +62,7 @@ int main ()
 
     if (strcmp(str1,str3) < 0) {
         cout << str1 << " comes before " << str3 << ". \n";
-    } else if (strcmp(str1,str3) > 0) {
+    } else if (strcmp(str1, str3) > 0) {
         cout << str3 << " comes before " << str1 << ". \n";
     } else {
         cout << str1 << " is equal to " << str3 << ". \n";
