@@ -27,12 +27,12 @@ df = dataframe.replace(value_to_replace, new_value, inplace)
 
 `.replace()` has the following parameters:
 
-|   Parameter Name   | Data Type(s)                                 | Usage                                                                                                                                        |
-| :----------------: | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+|   Parameter Name   | Data Type(s)                              | Usage                                                                                                                                         |
+| :----------------: | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `value_to_replace` | scalar, dict, list, string, regex, `None` | Value to replace. Value can be singular numeric, string, regex, or multiple nested in list/dict.                                              |
 |    `new_value`     | scalar, dict, list, string, regex, `None` | `new_value` replaces any value(s) declared in `to_replace`. Value(s) can be singular numeric, string, regex, or multiple nested in list/dict. |
-|     `inplace`      | bool                                      | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                                             |
-|      `limit`       | int                                       | Maximum consecutive items to back/forward fill. Defaults to `None`.                                                                          |
+|     `inplace`      | bool                                      | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                                              |
+|      `limit`       | int                                       | Maximum consecutive items to back/forward fill. Defaults to `None`.                                                                           |
 
 ## Example
 
@@ -42,21 +42,21 @@ In the following example, the `.replace()` method is used to replace `???` value
 import pandas as pd
 import numpy as np
 
-d = {'col 1' : [1,2,3,'???'], 'col 2' : ['A','B','???','D'], 'col 3' : [5,'???',7,8], 'col 4' : ['???','F','G','H']}
+d = {"col 1" : [1,2,3,"???"], "col 2" : ["A","B","???","D"], "col 3" : [5,"???",7,8], "col 4" : ["???","F","G","H"]}
 df = pd.DataFrame(data = d)
 
-print(f'Example 1 Original df:\n{df}\n')
+print(f"Example 1 Original df:\n{df}\n")
 
-first_replace = df.replace('???', np.nan)
-print(f'After first replace():\n{first_replace}\n')
+first_replace = df.replace("???", np.nan)
+print(f"After first replace():\n{first_replace}\n")
 
-d = {'col 1' : [1,2,3,'?'], 'col 2' : ['A','B','??','D'], 'col 3' : [5,'???',7,8], 'col 4' : ['????','F','G','H']}
+d = {"col 1" : [1,2,3,"?"], "col 2" : ["A","B","??","D"], "col 3" : [5,"???",7,8], "col 4" : ["????","F","G","H"]}
 df = pd.DataFrame(data = d)
 
-print(f'Example 2 Original df:\n{df}\n')
+print(f"Example 2 Original df:\n{df}\n")
 
-second_replace = df.replace({'?' : 4, '??' : 'C', '???' : 6, '????' : 'E'})
-print(f'After second replace():\n{second_replace}\n')
+second_replace = df.replace({"?" : 4, "??" : "C", "???" : 6, "????" : "E"})
+print(f"After second replace():\n{second_replace}\n")
 ```
 
 The output from these instances of the `.replace()` method is shown below:
