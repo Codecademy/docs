@@ -1,6 +1,6 @@
 ---
 Title: 'strcpy()'
-Description: 'Copies one C-style string into another.'
+Description: 'Copies one C-style string into another and returns the newly copied string.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
