@@ -25,6 +25,8 @@ While `eval()` can be useful, care must be taken to understand the security impl
 eval(expression, globals, locals)
 ```
 
+The `eval()` function uses the following parameters:
+
 - `expression`: The expression to evaluate.
 - `globals` (optional): A [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) defining which [variables](https://www.codecademy.com/resources/docs/python/variables) are in the `expression`'s global [scope](https://www.codecademy.com/resources/docs/python/scope). If `globals` isn't specified, `eval()` uses the current global scope.
 - `locals` (optional): A dictionary defining the variables in the `expression`'s local scope. If the `locals` argument is specified, the `globals` argument must be specified as well.
