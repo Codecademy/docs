@@ -35,6 +35,8 @@ The `string.h` header file needs to be included at the top of the file:
 strcpy(string1, string2);
 ```
 
+At the top of the file, the `<string.h>` header file needs to be included. The `strcpy()` copies the C-style `string2` parameter into `string1`, including the terminating `null` character (`'\0'`).
+
 ## Codebyte Example
 
 The following example prints a string, copies a second string over it, and prints it again:
