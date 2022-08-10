@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strtok()`** function breaks a C-style string into a series of tokens using a list of delimiters.
+The **`strtok()`** function breaks a string into a series of tokens using a list of delimiters.
 
 > **Note:** `strtok()` only works on [C-style strings](https://www.codecademy.com/resources/docs/c/strings) of type `char str[];`, not C++ style strings of type `string str;`.
 
