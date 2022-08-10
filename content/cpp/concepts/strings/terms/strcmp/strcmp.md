@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strcmp()`** string function compares two C-style strings and returns an integer value.
+The **`strcmp()`** function compares two strings and returns an integer value.
 
 > **Note:** `strcpy()` only works on C-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
 
