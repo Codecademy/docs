@@ -21,14 +21,6 @@ The **`strcpy()`** string function copies one C-style string into another string
 
 ## Syntax
 
-The `string.h` header file needs to be included at the top of the file:
-
-```cpp
-#include <string.h>
-```
-
-`strcopy()` function copies the C-style string `string2` into C-style string `string1`, including the terminating `null` character (`'\0'`).
-
 ```pseudo
 #include <string.h>
 
