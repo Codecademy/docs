@@ -54,7 +54,7 @@ int main ()
 
     if (strcmp(str1, str2) < 0) {
         cout << str1 << " comes before " << str2 << ". \n";
-    } else if (strcmp(str1,str2) > 0) {
+    } else if (strcmp(str1, str2) > 0) {
         cout << str2 << " comes before " << str1 << ". \n";
     } else {
         cout << str1 << " is equal to " << str2 << ". \n";
