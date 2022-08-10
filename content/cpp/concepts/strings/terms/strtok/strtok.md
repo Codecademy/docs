@@ -17,7 +17,7 @@ CatalogContent:
 
 The **`strtok()`** function breaks a C-style string into a series of tokens using a list of delimiters.
 
-> **Note:** `strtok()` only works on C-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
+> **Note:** `strtok()` only works on [C-style strings](https://www.codecademy.com/resources/docs/c/strings) of type `char str[];`, not C++ style strings of type `string str;`.
 
 ## Syntax
 
