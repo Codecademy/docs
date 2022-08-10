@@ -18,7 +18,7 @@ There are (at least) two distinguishable kinds of errors in Python: syntax error
 
 Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python:
 
-```error
+```shell
 File "script.py", line 1
   while True print("Hello world!")
                    ^
@@ -39,7 +39,7 @@ Even if a statement or expression is syntactically correct, it may cause an erro
 
 `ValueError` is thrown when a function's argument is of the correct type, but an inapprpriate value, such as being out of range.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 int('xyz')
@@ -50,7 +50,7 @@ ValueError: invalid literal for int() with base 10: 'xyz'
 
 `NameError` is thrown when an object could not be found.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 age
@@ -61,7 +61,7 @@ NameError: name 'age' is not defined
 
 `IndexError` is thrown when trying to access an item at an invalid index.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 employees[3]
@@ -72,7 +72,7 @@ IndexError: list index out of range
 
 `ModuleNotFoundError` is thrown when a module could not be found.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 import notamodule
@@ -83,7 +83,7 @@ ModuleNotFoundError: No module named 'notamodule'
 
 `TypeError` is thrown when a function's argument is of an inappropriate type.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 max(True)
@@ -94,7 +94,7 @@ TypeError: 'bool' object is not iterable
 
 `ZeroDivisionError` is thrown when the second operator in the division is zero.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 ratio = 100 / 0
