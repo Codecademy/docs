@@ -1,13 +1,16 @@
 ---
 Title: 'Inorder Traversal'
-Description: 'A depth-first search algorithm for a binary search tree that first traverses the left subtree, then the root, then traverses the right subtree.'
+Description: 'First traverses the left subtree, then the root, and then the right subtree.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
+  - 'Algorithms'
   - 'Conceptual'
   - 'Binary Tree'
   - 'Data Structures'
+  - 'Search'
+  - 'Trees'
 CatalogContent:
   - 'complex-data-structures'
   - 'paths/computer-science'

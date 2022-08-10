@@ -1,19 +1,22 @@
 ---
 Title: 'Preorder Traversal'
-Description: 'A method of traversing a binary search tree by first traversing the root, then traversing the left subtree, then traversing the right subtree.'
+Description: 'First traverses the root, then the left subtree, and then the right subtree.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
+  - 'Algorithms'
   - 'Conceptual'
   - 'Binary Tree'
   - 'Data Structures'
+  - 'Search'
+  - 'Trees'
 CatalogContent:
   - 'complex-data-structures'
   - 'paths/computer-science'
 ---
 
-**Preorder traversal** is a method of traversing a binary search tree by first traversing the root, then traversing the left subtree, then traversing the right subtree. Its primary use is to create a copy of the tree.
+**Preorder traversal** is a depth-first search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) for a binary search tree that first traverses the root, then the left subree, and then the right subtree. Its primary use is to create a copy of the tree.
 
 ## Algorithm
 

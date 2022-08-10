@@ -1,19 +1,22 @@
 ---
 Title: 'Postorder Traversal'
-Description: 'A method of traversing a binary search tree by first traversing the left subtree, then traversing the right subtree, then the root.'
+Description: 'First traverses the left subtree, then the right subtree, and then the root.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
+  - 'Algorithms'
   - 'Conceptual'
   - 'Binary Tree'
   - 'Data Structures'
+  - 'Search'
+  - 'Trees'
 CatalogContent:
   - 'complex-data-structures'
   - 'paths/computer-science'
 ---
 
-**Postorder traversal** is a method of traversing a binary search tree by first traversing the left subtree, then traversing the right subtree, then the root. Its primary use is deleting the tree.
+**Postorder traversal** is a depth-first search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) for a binary search tree that first traverses the left subtree, then the right subtree, and then the root. Its primary use is deleting the tree.
 
 ## Algorithm
 
