@@ -37,11 +37,11 @@ strcmp(string1, string2);
 - If `string1` > `string2`, it returns a positive value.
 - If `string1` < `string2` or `string1` is a substring of `string2`, it returns a negative value.
 
-## Example
+## Codebyte Example
 
 The following performs comparisons on three strings and prints out information about their order.
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 using namespace std;
 #include<string.h>
@@ -70,11 +70,4 @@ int main ()
 
     return 0;
 }
-```
-
-This produces the following output:
-
-```shell
-Apple comes before Microsoft.
-Linux comes before Microsoft.
 ```
