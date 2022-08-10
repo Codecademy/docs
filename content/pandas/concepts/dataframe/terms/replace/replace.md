@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Returns DataFrame Object after values within DataFrame have been changed.'
+Description: 'Returns a DataFrame object after values within the DataFrame have been changed.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
