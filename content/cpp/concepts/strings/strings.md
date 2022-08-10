@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Strings** are objects that represent sequences of characters. In C++, there are two ways to create strings: `string` class or using C-style character strings.
+**Strings** are objects that represent sequences of characters. In C++, the two ways to create strings are with the `string` class or with [C-style](https://www.codecademy.com/resources/docs/c/strings) character strings.
 
 ## String Class
 
