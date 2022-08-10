@@ -39,7 +39,7 @@ strcmp(string1, string2);
 
 ## Codebyte Example
 
-The following performs comparisons on three strings and prints out information about their order.
+The following performs comparisons on three strings and prints out information about their order:
 
 ```codebyte/cpp
 #include <iostream>
