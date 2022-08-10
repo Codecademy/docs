@@ -17,7 +17,7 @@ CatalogContent:
 
 The **`strcmp()`** function compares two strings and returns an integer value.
 
-> **Note:** `strcpy()` only works on C-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
+> **Note:** `strcpy()` only works on [C-style strings](https://www.codecademy.com/resources/docs/c/strings) of type `char str[];`, not C++ style strings of type `string str;`.
 
 ## Syntax
 
