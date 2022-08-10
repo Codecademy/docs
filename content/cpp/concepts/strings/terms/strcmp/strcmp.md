@@ -1,6 +1,6 @@
 ---
 Title: 'strcmp()'
-Description: 'Compares two C-style strings.'
+Description: 'Compares two strings and returns an integer value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
