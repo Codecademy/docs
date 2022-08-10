@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions. Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python: error File "script.py", line 1 while True print("Hello world!") ^ SyntaxError: invalid syntax'
+Description: 'There are two main kinds of errors in Python: syntax errors and exceptions. Exceptions are any errors that arise from syntactically correct code.
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -27,7 +27,7 @@ SyntaxError: invalid syntax
 
 The parser repeats the offending line and displays a little arrow `^` pointing at the earliest point in the line where the error was detected.
 
-The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the function `print()`, since a colon `:` is missing before it.
+The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) function, since a colon `:` is missing before it.
 
 File name and line number are printed so you know where to look in case the input came from a script.
 
