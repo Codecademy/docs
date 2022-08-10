@@ -24,7 +24,7 @@ JavaBeans adhere to the following syntax conventions:
 - All properties are private and the class exposes them through getter and setter methods.
 - All getters and setters are named "getX" or "setX". In the case of a boolean property, "isX" can be used for a getter.
 - A default constructor that requires no arguments must be present.
-- It implements the `Serializable` interface, allowing the program to storing its state.
+- It implements the `Serializable` interface, allowing the program to store its state.
 
 > **Note:** In implementing a Serializable class it is strongly recommended to declare an explicit `serialVersionUID` value. While the explicit declaration is optional, the generated values might vary from compiler to compiler, leading to an unexpected [`InvalidClassException`](https://www.codecademy.com/resources/docs/java/errors/invalidclassexception) during deserialization. `serialVersionUID` should be a `static` `final` `long`, and it is recommended to be `private`.
 
