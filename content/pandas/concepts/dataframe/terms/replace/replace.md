@@ -25,7 +25,7 @@ df = dataframe.replace(value_to_replace, new_value, inplace)
 
 `.replace()` has the following parameters:
 
-|   Parameter Name   | Data Type                                 | Usage                                                                                                                                        |
+|   Parameter Name   | Data Type(s)                                 | Usage                                                                                                                                        |
 | :----------------: | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `value_to_replace` | scalar, dict, list, string, regex, `None` | Value to replace. Value can be singular numeric, string, regex or multiple nested in list/dict.                                              |
 |    `new_value`     | scalar, dict, list, string, regex, `None` | `new_value` replaces any value(s) declared in `to_replace`. Value(s) can be singular numeric, string, regex or multiple nested in list/dict. |
