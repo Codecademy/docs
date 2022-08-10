@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'Data Structures'
   - 'Dynamic Programming'
+  - 'Functions'
+  - 'Methods'
   - 'Pandas'
 CatalogContent:
   - 'learn-python-3'
