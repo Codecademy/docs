@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.replace()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with specified values replaced with another specified value. The original `DataFrame` object, used to call the method, remains unchanged unless explicitly declared.
+The **`.replace()`** function returns a new `DataFrame` object with specified values replaced with another specified value. The original `DataFrame` object, used to call the method, remains unchanged unless explicitly declared.
 
 ## Syntax
 
