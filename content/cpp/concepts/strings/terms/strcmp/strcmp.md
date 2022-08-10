@@ -35,6 +35,8 @@ The `strcmp()` function compares C-style strings `string1` and `string2` and ret
 strcmp(string1, string2);
 ```
 
+At the top of the file, the `<string.h>` header file needs to be included. The `strcmp()` function compares C-style strings `string1` and `string2` and returns an integer value.
+
 - If the two strings are the same, it returns 0.
 - If `string1` > `string2`, it returns a positive value.
 - If `string1` < `string2` or `string1` is a substring of `string2`, it returns a negative value.
