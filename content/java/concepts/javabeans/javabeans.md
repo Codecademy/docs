@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**JavaBeans** are a [class definitions](https://www.codecademy.com/resources/docs/java/classes) following a set of particular conventions. They are not tied to any Java framework so any Java program can use them. All JavaBeans can be considered [POJOs](https://www.codecademy.com/resources/docs/java/pojo) (Plain old Java objects). Many Java libraries and frameworks rely on the JavaBean conventions.
+**JavaBeans** are [class definitions](https://www.codecademy.com/resources/docs/java/classes) following a set of particular conventions. They are not tied to any Java framework so any Java program can use them. All JavaBeans can be considered [POJOs](https://www.codecademy.com/resources/docs/java/pojo) (Plain old Java objects). Many Java libraries and frameworks rely on the JavaBean conventions.
 
 ## Syntax
 
