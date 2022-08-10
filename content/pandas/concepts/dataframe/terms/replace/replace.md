@@ -27,8 +27,8 @@ df = dataframe.replace(value_to_replace, new_value, inplace)
 
 |   Parameter Name   | Data Type(s)                                 | Usage                                                                                                                                        |
 | :----------------: | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `value_to_replace` | scalar, dict, list, string, regex, `None` | Value to replace. Value can be singular numeric, string, regex or multiple nested in list/dict.                                              |
-|    `new_value`     | scalar, dict, list, string, regex, `None` | `new_value` replaces any value(s) declared in `to_replace`. Value(s) can be singular numeric, string, regex or multiple nested in list/dict. |
+| `value_to_replace` | scalar, dict, list, string, regex, `None` | Value to replace. Value can be singular numeric, string, regex, or multiple nested in list/dict.                                              |
+|    `new_value`     | scalar, dict, list, string, regex, `None` | `new_value` replaces any value(s) declared in `to_replace`. Value(s) can be singular numeric, string, regex, or multiple nested in list/dict. |
 |     `inplace`      | bool                                      | If `True`, alters the existing `DataFrame` rather than returning a new one. Defaults to `False`.                                             |
 |      `limit`       | int                                       | Maximum consecutive items to back/forward fill. Defaults to `None`.                                                                          |
 
