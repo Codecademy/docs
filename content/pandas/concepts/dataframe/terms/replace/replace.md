@@ -18,7 +18,7 @@ The **`.replace()`** function returns a new `DataFrame` object with specified va
 ## Syntax
 
 ```pseudo
-df = dataframe.replace(value_to_replace, new_value, inplace=True)
+df = dataframe.replace(value_to_replace, new_value, inplace)
 ```
 
 `dataframe` is the `DataFrame` with the source data and `value_to_replace` is the value being targeted within the `DataFrame`. `new_value` is the value used to replace the original value. `inplace` is `False` by default. The original `DataFrame` values will not be replaced unless `inplace` is explicitly declared to `True` within the parameters.
