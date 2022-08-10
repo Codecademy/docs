@@ -33,11 +33,11 @@ The `string.h` header file needs to be included at the top of the file:
 strcpy(string1, string2);
 ```
 
-## Example
+## Codebyte Example
 
 The following example prints a string, copies a second string over it, and prints it again:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 using namespace std;
 #include<string.h>
@@ -53,11 +53,4 @@ int main ()
 
     return 0;
 }
-```
-
-The output would be:
-
-```shell
-Hello World!
-Copied String.
 ```
