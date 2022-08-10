@@ -1,6 +1,6 @@
 ---
 Title: 'strcpy()'
-Description: 'Copies one string into another.'
+Description: 'Copies one string into another string, and returns the newly copied string'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -15,21 +15,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strcpy()`** string function copies one string into another string.
+The **`strcpy()`** function copies one string into another string, and returns the newly copied string.
 
 ## Syntax
 
-The **string.h** header file needs to be included at the top of the file:
-
-```c
+```pseudo
 #include <string.h>
+
+strcpy(string1, string2);
 ```
 
-`strcopy()` function copies the string `string2` into string `string1`, including the terminating `null` character (`'\0'`).
-
-```c
-strcpy(string1, string2)
-```
+At the top of the file, the `<string.h>` header file needs to be included. The `strcpy()` copies `string2` parameter into `string1`, including the terminating `null` character (`'\0'`).
 
 ## Example
 
