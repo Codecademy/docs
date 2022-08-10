@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`strcpy()`** string function copies one C-style string into another string.
+The **`strcpy()`** string function copies one string into another string and returns the newly copied string.
 
 > **Note:** `strcpy()` only works on C-style strings, not C++ style strings. So it only works with strings of type `char str[];` not `string str;`
 
