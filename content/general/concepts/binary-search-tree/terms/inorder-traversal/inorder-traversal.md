@@ -1,6 +1,6 @@
 ---
 Title: 'Inorder Traversal'
-Description: 'A method of traversing a binary search tree by first traversing the left subtree, then the root, then traversing the right subtree.'
+Description: 'A depth-first search algorithm for a binary search tree that first traverses the left subtree, then the root, then traverses the right subtree.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inorder traversal** is a method of traversing a binary search tree by first traversing the left subtree, then the root, then traversing the right subtree. This provides the nodes of the binary search tree in increasing order. To get nodes in decreasing order, inorder traversal can be done in reverse.
+**Inorder traversal** is a depth-first search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) for a binary search tree that first traverses the left subtree, then the root, then traverses the right subtree. This provides the nodes of the binary search tree in increasing order. To get nodes in decreasing order, inorder traversal can be done in reverse.
 
 ## Algorithm
 
