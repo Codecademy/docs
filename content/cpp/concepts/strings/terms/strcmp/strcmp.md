@@ -48,11 +48,11 @@ using namespace std;
 
 int main ()
 {
-    char str1[40]="Microsoft";
-    char str2[40]="Apple";
-    char str3[40]="Linux";
+    char str1[40] = "Microsoft";
+    char str2[40] = "Apple";
+    char str3[40] = "Linux";
 
-    if (strcmp(str1,str2) < 0) {
+    if (strcmp(str1, str2) < 0) {
         cout << str1 << " comes before " << str2 << ". \n";
     } else if (strcmp(str1,str2) > 0) {
         cout << str2 << " comes before " << str1 << ". \n";
