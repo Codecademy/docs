@@ -21,14 +21,6 @@ The **`strcmp()`** function compares two strings and returns an integer value.
 
 ## Syntax
 
-The `string.h` header file needs to be included at the top of the file:
-
-```cpp
-#include <string.h>
-```
-
-The `strcmp()` function compares C-style strings `string1` and `string2` and returns an integer value.
-
 ```pseudo
 #include <string.h>
 
