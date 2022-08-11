@@ -5,10 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - 'Control Flow'
+  - 'Iterators'
+  - 'Loops'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
