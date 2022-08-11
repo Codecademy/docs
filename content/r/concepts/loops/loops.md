@@ -42,6 +42,6 @@ for (borough in NY) {
 }
 ```
 
-This `for` loop will execute the statment within the block for each item in the `list`.
+This `for` loop will execute the statement within the block for each item in the `list`.
 
-Additional control flow statments can be used within these blocks for both types of loops.
+Additional control flow statements can be used within these blocks for both types of loops.
