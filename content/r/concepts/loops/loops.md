@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'R.'
+Description: 'In R, a loop is used to perform some operation given that a declared condition is truthy.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
