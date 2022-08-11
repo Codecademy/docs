@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An **IFrame (Inline Frame)** is an HTML document embedded inside another HTML document on a website. The [`<iframe>`](https://www.codecademy.com/resources/docs/html/tags/iframe) element provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. Some sites such as Youtube will provide IFrame markup for the user to embed instead of making one on their own.
+An **IFrame (Inline Frame)** is an HTML document embedded inside another HTML document on a website. The [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. Some sites such as Youtube will provide IFrame markup for the user to embed instead of making one on their own.
 
 These smaller windows are known as "browsing contexts", because the [URL](https://www.codecademy.com/resources/docs/general/url) passed to the `<iframe>` tag is still functional as a web page. This makes their usage somewhat controversial as many commercial websites have safeguards against their URL being passed to this particular element.
 
