@@ -20,7 +20,7 @@ CatalogContent:
 
 **Templates** refer to the ability to use a [type](https://www.codecademy.com/resources/docs/cpp/data-types) as a parameter in [functions](https://www.codecademy.com/resources/docs/cpp/functions) and [classes](https://www.codecademy.com/resources/docs/cpp/classes). Such classes and methods are referred to as using a generic type. This provides the ability to define a set of related classes or functions that can operate on many different types with a single declaration.
 
-Templates are like [macros](https://www.codecademy.com/resources/docs/cpp/macros) in that they are expaned at compile-time. While the source only has one definition, the compiled code will have copies of the template for each type actually used in calling it.
+Templates are like [macros](https://www.codecademy.com/resources/docs/cpp/macros) in that they are expanded at compile-time. While the source only has one definition, the compiled code will have copies of the template for each type actually used in calling it.
 
 ## Function Templates
 
@@ -73,7 +73,7 @@ int main()
 }
 ```
 
-This results in the folowing output:
+This results in the following output:
 
 ```shell
 10
@@ -83,7 +83,7 @@ Hello World!
 
 ## Class Templates
 
-Class templates are classes defined along with a generic type that can be applied throught the class definition.
+Class templates are classes defined along with a generic type that can be applied throughout the class definition.
 
 ### Syntax
 
@@ -99,7 +99,7 @@ The class is referred to in code as follows:
 classname <type>
 ```
 
-> **Note:** If a function memebr is defined outside the class delaration, the function definition must be preceded with the `template <...>` syntax:
+> **Note:** If a function member is defined outside the class declaration, the function definition must be preceded with the `template <...>` syntax:
 >
 > ```pseudo
 > template <class T>
@@ -144,7 +144,7 @@ int main()
 }
 ```
 
-This results in the folowing output:
+This results in the following output:
 
 ```shell
 10
