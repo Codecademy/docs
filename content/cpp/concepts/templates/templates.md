@@ -91,7 +91,7 @@ Class templates are classes defined along with a generic type that can be applie
 template <class typeidentifier> class;
 ```
 
-Where `typeidentifier` is a variable name that stands in for the generic type and `class` is a class declaration, using `typeidentifier` as a generic type in its definition. Like a template function, the `typeidentifier` can be used anywhere a data type name would be used, including the return type, and the class can be defined with multiple type parameters.
+Where `typeidentifier` is a variable name that stands in for the generic type and `class` is a class declaration, using `typeidentifier` as a generic type in its definition. Like a template function, the `typeidentifier` can be used anywhere a data type name would be used, and the class can be defined with multiple type parameters.
 
 The class is referred to in code as follows:
 
