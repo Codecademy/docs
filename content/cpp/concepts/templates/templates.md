@@ -65,9 +65,9 @@ template <class T> T myAdd(T x, T y)
 
 int main()
 {
-  cout << myAdd <int> (3, 7) << endl; 
-  cout << myAdd <double> (3.5, 7.2) << endl; 
-  cout << myAdd <string> ("Hello", " World!") << endl; 
+  cout << myAdd <int> (3, 7) << endl;
+  cout << myAdd <double> (3.5, 7.2) << endl;
+  cout << myAdd <string> ("Hello", " World!") << endl;
 
   return 0;
 }
@@ -104,7 +104,7 @@ classname <type>
 > ```pseudo
 > template <class T>
 > type classname<T>::functionname(parameters)
-> ```  
+> ```
 
 ### Example
 
@@ -119,7 +119,7 @@ class myPair {
   T x, y;
   public:
   myPair (T first, T second) {
-    x = first; 
+    x = first;
     y = second;
   }
   public:
@@ -136,9 +136,9 @@ int main()
   myPair <double> doublePair(3.5, 7.2);
   myPair <string> stringPair("Hello", " World!");
 
-  cout << intPair.add() << endl; 
-  cout << doublePair.add() << endl; 
-  cout << stringPair.add() << endl; 
+  cout << intPair.add() << endl;
+  cout << doublePair.add() << endl;
+  cout << stringPair.add() << endl;
 
   return 0;
 }
