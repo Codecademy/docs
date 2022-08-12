@@ -99,6 +99,13 @@ The class is referred to in code as follows:
 classname <type>
 ```
 
+> **Note:** If a function memebr is defined outside the class delaration, the function definition must be preceded with the `template <...>` syntax:
+>
+> ```pseudo
+> template <class T>
+> type classname<T>::functionname(parameters)
+> ```  
+
 ### Example
 
 The following example creates a `myPair` class that stores two objects of a given type, and provides an `add` method to add the two together:
