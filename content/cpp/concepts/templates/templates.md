@@ -44,6 +44,10 @@ function_name <type> (parameters);
 
 In the case with a template with multiple type identifiers, a comma separated list of type parameters, one for each identifier, must be provided in the angle brackets: `<type1, type2>`
 
+> **Note:** In the case where the `typeidentifier` is used for the function parameters, the compiler can identify the type associated with `typeidentifer` from the passed argument and the function can be called without the `<type>` like a regular function.
+>
+> **Note:** The word `typename` can be used as a synonym for `class` in a template definition: `<typename typeidentifier>`
+
 ### Example
 
 The following example creates a `myAdd` function that can use any type where the `+` operator is defined:
@@ -51,19 +55,21 @@ The following example creates a `myAdd` function that can use any type where the
 ```cpp
 #include <iostream>
 using namespace std;
-  
-template <typename T> T myAdd(T x, T y)
+
+template <class T> T myAdd(T x, T y)
 {
-    return (x + y);
+  T result;
+  result = x + y;
+  return result;
 }
-  
+
 int main()
 {
-    cout << myAdd<int>(3, 7) << endl; 
-    cout << myAdd<double>(3.5, 7.2) << endl; 
-    cout << myAdd<string>("Hello", " World!") << endl; 
-  
-    return 0;
+  cout << myAdd <int> (3, 7) << endl; 
+  cout << myAdd <double> (3.5, 7.2) << endl; 
+  cout << myAdd <string> ("Hello", " World!") << endl; 
+
+  return 0;
 }
 ```
 
@@ -75,3 +81,66 @@ This results in the folowing output:
 Hello World!
 ```
 
+## Class Templates
+
+Class templates are classes defined along with a generic type that can be applied throught the class definition.
+
+### Syntax
+
+```pseudo
+template <class typeidentifier> class;
+```
+
+Where `typeidentifier` is a variable name that stands in for the generic type and `class` is a class declaration, using `typeidentifier` as a generic type in its definition. Like a template function, the `typeidentifier` can be used anywhere a data type name would be used, including the return type, and the class can be defined with multiple type parameters.
+
+The class is referred to in code as follows:
+
+```pseudo
+classname <type>
+```
+
+### Example
+
+The following example creates a `myPair` class that stores two objects of a given type, and provides an `add` method to add the two together:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+template <class T>
+class myPair {
+  T x, y;
+  public:
+  myPair (T first, T second) {
+    x = first; 
+    y = second;
+  }
+  public:
+  T add () {
+    T result;
+    result = x + y;
+    return result;
+  }
+};
+
+int main()
+{
+  myPair <int> intPair(3, 7);
+  myPair <double> doublePair(3.5, 7.2);
+  myPair <string> stringPair("Hello", " World!");
+
+  cout << intPair.add() << endl; 
+  cout << doublePair.add() << endl; 
+  cout << stringPair.add() << endl; 
+
+  return 0;
+}
+```
+
+This results in the folowing output:
+
+```shell
+10
+10.7
+Hello World!
+```
