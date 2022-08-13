@@ -19,7 +19,7 @@ The `StringIndexOutOfBoundsException` is an [exception](https://www.codecademy.c
 
 ## Example
 
-The following example creates a `StingIndexOutOfBoundsException`:
+The following example creates a `StringIndexOutOfBoundsException`:
 
 ```java
 public class ErrorExample {
