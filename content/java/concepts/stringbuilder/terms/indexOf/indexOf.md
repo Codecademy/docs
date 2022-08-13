@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.indexOf()`** method returns the index of the first occurrence of a substring in the `StringBuilder`. It returns `-1` if the substring is not found.
+The **`.indexOf()`** method returns the index of the first occurrence of a substring in a `StringBuilder`. If the substring is not found, `-1` is returned.
 
 ## Syntax
 
