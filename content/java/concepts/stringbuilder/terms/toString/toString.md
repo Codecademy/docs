@@ -24,7 +24,7 @@ The `.toString()` method takes no arguments.
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified `String`, manipulates it, then uses `.toString()` to print the results.
+The following example creates a `StringBuilder` with a specified `String`, manipulates it, then uses `.toString()` to print the results:
 
 ```java
 import java.util.*;
