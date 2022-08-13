@@ -1,6 +1,6 @@
 ---
 Title: '.reverse()'
-Description: 'Reverses the sequence of characters in the StringBuilder.'
+Description: 'Returns a modified StringBuilder object with its character sequence rearranged in the opposite order.'
 Subjects:
   - 'Computer Science'
 Tags:
