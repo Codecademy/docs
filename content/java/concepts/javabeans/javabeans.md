@@ -1,6 +1,6 @@
 ---
 Title: 'JavaBeans'
-Description: 'JavaBeans are a class definitions following a set of particular conventions. They are not tied to any Java framework so any Java program can use them.'
+Description: 'JavaBeans are class definitions following a set of particular conventions. They are not tied to any Java framework so any Java program can use them.'
 Subjects:
   - 'Computer Science'
 Tags:
