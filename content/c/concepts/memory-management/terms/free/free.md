@@ -1,9 +1,9 @@
 ---
 Title: 'free()'
+Description: 'Dynamically de-allocates memory at runtime.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Description: 'Dynamically de-allocates memory at runtime.'
 Tags:
   - 'Memory'
   - 'Memory Management'
