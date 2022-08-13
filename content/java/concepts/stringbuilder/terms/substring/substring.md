@@ -1,6 +1,6 @@
 ---
 Title: '.substring()'
-Description: 'Returns a String object representing a substring of the character sequence currently in the StringBuilder.'
+Description: 'Returns a String object representing a substring of the character sequence currently in a given StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
