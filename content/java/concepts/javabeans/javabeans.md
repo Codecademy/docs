@@ -78,7 +78,7 @@ public class Student implements Serializable {
 
 ## Potential Disadvantages
 
-The JavaBeans standard does enforce some characteristics that may be disadvantages depending on the implementation:
+The JavaBeans standard does enforce some characteristics that may be disadvantageous depending on the implementation:
 
 - The default constructor allows the object to be instantiated without initializing its properties. Depending on the object, this may be considered an invalid state.
 - The creation of getters and setters may be unnecessary for an implementation and may result in a lot of unnecessary coding.
