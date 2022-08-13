@@ -1,9 +1,9 @@
 ---
 Title: 'malloc()'
+Description: 'Allocates a block of memory in the heap, but does not initialize.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Description: 'Allocates a block of memory in the heap, but does not initialize.'
 Tags:
   - 'Memory'
   - 'Memory Management'
