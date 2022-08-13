@@ -1,9 +1,9 @@
 ---
 Title: 'calloc()'
+Description: 'Dynamically allocates an array of memory blocks of a specified type.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Description: 'Dynamically allocates an array of memory blocks of a specified type.'
 Tags:
   - 'Memory'
   - 'Memory Management'
