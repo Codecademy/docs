@@ -22,7 +22,7 @@ CatalogContent:
 JavaBeans adhere to the following syntax conventions:
 
 - All properties are private and the class exposes them through getter and setter methods.
-- All getters and setters are named "getX" or "setX". In the case of a boolean property, "isX" can be used for a getter.
+- All getters and setters are named "getX" or "setX". In the case of a [boolean](https://www.codecademy.com/resources/docs/general/boolean) property, "isX" can be used for a getter.
 - A default constructor that requires no arguments must be present.
 - It implements the `Serializable` interface, allowing the program to store its state.
 
