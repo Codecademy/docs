@@ -23,14 +23,14 @@ StringBuilder s1 = new StringBuilder();
 
 StringBuilder s2 = new StringBuilder(capacity);
 
-StringBuilder s3 = new StringBuilder(str);
+StringBuilder s3 = new StringBuilder(sequence);
 ```
 
 A `StringBuilder` can be created in the following ways:
 
 - Calling the [constructor](https://www.codecademy.com/resources/docs/java/constructors) with no arguments creates a `StringBuilder` with no contents and a capacity of 16 characters.
 - Calling the constructor with the `int` argument `capacity` creates a `StringBuilder` with no contents and a capacity of `capacity` characters.
-- Calling the constructor with a `str` argument that is either a `String` or a `CharSequence` creates a `StringBuilder` with contents and capacity equal to the specified `String` or `CharSequence`.
+- Calling the constructor with a `sequence` argument that is either a `String` or a `CharSequence` creates a `StringBuilder` with contents and capacity equal to the specified `String` or `CharSequence`.
 
 ## Example
 
