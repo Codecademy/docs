@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'There are two main kinds of errors in Python: syntax errors and exceptions. Exceptions are any errors that arise from syntactically correct code.
+Description: 'There are two main kinds of errors in Python: syntax errors and exceptions. Exceptions are any errors that arise from syntactically correct code.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
