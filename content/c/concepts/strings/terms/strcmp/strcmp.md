@@ -1,6 +1,6 @@
 ---
 Title: 'strcmp()'
-Description: 'Compares two strings.'
+Description: 'Compares two strings and returns an integer value.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -15,13 +15,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `strcmp()` string function compares two strings and returns an integer value.
+The **`strcmp()`** function compares two strings and returns an integer value.
 
 ## Syntax
 
-```c
-strcmp(string1, string2)
+```pseudo
+#include <string.h>
+
+strcmp(string1, string2);
 ```
+
+At the top of the file, the `<string.h>` header file needs to be included. The `strcmp()` function compares strings `string1` and `string2` and returns an integer value.
 
 - If the two strings are the same, return 0.
 - If `string1` > `string2`, return positive value.
