@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.lastIndexOf()`** method returns the index of the last (rightmost) occurrence of a substring in the `StringBuilder`. It returns `-1` if the substring is not found.
+The **`.lastIndexOf()`** method returns the index of the last (rightmost) occurrence of a substring in the `StringBuilder`. If a substring is not found, `-1` is returned.
 
 ## Syntax
 
