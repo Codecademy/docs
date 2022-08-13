@@ -1,6 +1,6 @@
 ---
 Title: '.delete()'
-Description: 'Removes a substring from the contents of a StringBuilder.'
+Description: 'Removes a substring from the contents of a StringBuilder and returns the modified object.'
 Subjects:
   - 'Computer Science'
 Tags:
