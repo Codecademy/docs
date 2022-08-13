@@ -1,6 +1,6 @@
 ---
 Title: 'JSP'
-Description: 'JSP (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix HTML with Java code that is executed on the web server to render the final web page.'
+Description: 'JSP (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with Java code that is executed on the web server to render the final web page.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
