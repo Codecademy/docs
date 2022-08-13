@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.substring()`** method returns a [String](https://www.codecademy.com/resources/docs/java/strings) object representing a substring of the character sequence currently in the `StringBuilder`.
+The **`.substring()`** method returns a [`String`](https://www.codecademy.com/resources/docs/java/strings) object representing a substring of the character sequence currently in a given `StringBuilder`.
 
 ## Syntax
 
