@@ -17,5 +17,5 @@ CatalogContent:
 The **`InvalidClassException`** is an [exception](https://www.codecademy.com/resources/docs/general/error) that occurs when the Serialization runtime detects a problem with a [class](https://www.codecademy.com/resources/docs/java/classes). The problem can be one of the following:
 
 - The serial version of the class does not match that of the class descriptor read from the stream.
-- The class contains unknown datatypes.
+- The class contains unknown [data types](https://www.codecademy.com/resources/docs/java/data-types).
 - The class does not have an accessible constructor without arguments.
