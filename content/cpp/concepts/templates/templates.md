@@ -13,6 +13,7 @@ Tags:
   - 'Functions'
   - 'OOP'
   - 'Parameters'
+  - 'Templates'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
