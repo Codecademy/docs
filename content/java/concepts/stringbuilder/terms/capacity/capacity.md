@@ -1,6 +1,6 @@
 ---
 Title: '.capacity()'
-Description: 'Returns the current number of spaces avalible for characters in the StringBuilder.'
+Description: 'Returns the current space avalible for characters in the StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.capacity()`** method returns the current number of spaces avalible for characters in the `StringBuilder`. `.capacity()` returns the space avalible in the `StringBuilder`, wheras [`.length()`](https://www.codecademy.com/resources/docs/java/stringbuilder/length) returns the number of characters actually in use.
+The **`.capacity()`** method returns the current space avalible for characters in the `StringBuilder`, wheras [`.length()`](https://www.codecademy.com/resources/docs/java/stringbuilder/length) returns the number of characters actually in use.
 
 ## Syntax
 
