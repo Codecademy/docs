@@ -47,4 +47,4 @@ public class Student {
 
 ## Limitations
 
-Because a POJO doesn't follow any conventions for constructing or accessing the class's state, it can make it more difficult for other programmers trying to understand how to use them. It also may limit a framework's ability use the class or augment its functionality. To address some of these limitations, a standard known as [JavaBeans](https://www.codecademy.com/resources/docs/java/javabeans) was introduced. A JavaBean is a POJO, but with a number of additional rules for how to implement it.
+Because a POJO doesn't follow any conventions for constructing or accessing the class's state, it can make it more difficult for other programmers trying to understand how to use them. It also may limit a framework's ability to use the class or augment its functionality. To address some of these limitations, a standard known as [JavaBeans](https://www.codecademy.com/resources/docs/java/javabeans) was introduced. A JavaBean is a POJO, but with a number of additional rules for how to implement it.
