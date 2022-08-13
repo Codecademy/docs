@@ -50,7 +50,7 @@ public class Example {
   {
     StringBuilder str = new StringBuilder("Hello World!");
     System.out.println(str.toString());
-    str.insert(6,"to the ");
+    str.insert(6, "to the ");
     System.out.println(str.toString());
   }
 }
