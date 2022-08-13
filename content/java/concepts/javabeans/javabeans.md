@@ -34,7 +34,7 @@ The following is an example of a JavaBean:
 
 ```java
 // Student.java
-
+import java.io.Serializable;
 public class Student implements Serializable {
   private static final long serialVersionUID = 12345678L
   private String firstName;
