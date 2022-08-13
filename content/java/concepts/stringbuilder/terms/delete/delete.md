@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.delete()`** method removes a substring from the contents of a `StringBuilder`. It returns the `StringBuilder`.
+The **`.delete()`** method removes a substring from the contents of a `StringBuilder` and returns the modified object.
 
 ## Syntax
 
