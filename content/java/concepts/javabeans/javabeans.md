@@ -82,4 +82,4 @@ The JavaBeans standard does enforce some characteristics that may be disadvantag
 
 - The default constructor allows the object to be instantiated without initializing its properties. Depending on the object, this may be considered an invalid state.
 - The creation of getters and setters may be unnecessary for an implementation and may result in a lot of unnecessary coding.
-- The JavaBean is mutable due to its setter methods which might lead to [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) or [consistency](https://docs.oracle.com/javase/tutorial/essential/concurrency/memconsist.html) issues.
+- The JavaBean is mutable due to its setter methods which might lead to [concurrency](<https://en.wikipedia.org/wiki/Concurrency_(computer_science)>) or [consistency](https://docs.oracle.com/javase/tutorial/essential/concurrency/memconsist.html) issues.
