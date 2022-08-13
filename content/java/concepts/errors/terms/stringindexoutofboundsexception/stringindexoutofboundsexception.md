@@ -9,6 +9,7 @@ Tags:
   - 'Error Handling'
   - 'Exceptions'
   - 'Debugging'
+  - 'Strings'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
