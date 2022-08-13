@@ -22,11 +22,7 @@ myStringBuilder.lastIndexOf(substring, index);
 
 The argument `substring` is the [`String`](https://www.codecademy.com/resources/docs/java/strings) being matched.
 
-```pseudo
-myStringBuilder.lastIndexOf(substring, index);
-```
-
-If the optional `int` `index` is provided, `.lastIndexOf()` will return the last occurrence of `substring` occurring prior to that index in the `StringBuilder`.
+The `index` is an `int` argument that is optional. If provided, `.lastIndexOf()` returns the last occurrence of `substring` prior to that index in the `StringBuilder`.
 
 ## Example
 
