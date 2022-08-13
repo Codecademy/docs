@@ -17,7 +17,7 @@ The **`.deleteCharAt()`** method removes the character at the specified index fr
 ## Syntax
 
 ```pseudo
-myStringbuilder.deteteCharAt(index);
+myStringbuilder.deleteCharAt(index);
 ```
 
 The `int` argument `index` specifies the zero-based index of the character to delete. The sequence is shortened by one character. If `index` is negative or greater than the length of the sequence, a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
