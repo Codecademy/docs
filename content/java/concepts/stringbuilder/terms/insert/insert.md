@@ -1,6 +1,6 @@
 ---
 Title: '.insert()'
-Description: 'Inserts a sequence of characters into the StringBuilder.'
+Description: 'Places a sequence of characters into a StringBuilder and returns a reference to the object.'
 Subjects:
   - 'Computer Science'
 Tags:
