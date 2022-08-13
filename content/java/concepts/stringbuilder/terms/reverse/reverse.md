@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.reverse()`** method reverses the sequence of characters in the `StringBuilder`. It returns a reference to the `StringBuilder`. It is the most straightforward way to reverse a string in Java.
+The **`.reverse()`** method returns a modified `StringBuilder` object with its character sequence rearranged in the opposite order. This is the most straightforward way to reverse a string in Java.
 
 ## Syntax
 
