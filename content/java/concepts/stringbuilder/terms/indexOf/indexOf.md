@@ -17,7 +17,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of a subst
 ## Syntax
 
 ```pseudo
-myStringBuilder.indexOf(substring);
+myStringBuilder.indexOf(substring, index);
 ```
 
 The argument `substring` is the [`String`](https://www.codecademy.com/resources/docs/java/strings) being matched.
