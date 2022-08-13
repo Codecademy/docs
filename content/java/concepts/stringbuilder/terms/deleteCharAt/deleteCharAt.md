@@ -1,6 +1,6 @@
 ---
 Title: '.deleteCharAt()'
-Description: 'Removes the character at the specified index from the contents of a StringBuilder.'
+Description: 'Removes the character at the specified index from the contents of a StringBuilder and returns the modified object.'
 Subjects:
   - 'Computer Science'
 Tags:
