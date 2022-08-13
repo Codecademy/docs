@@ -71,7 +71,7 @@ public class Student implements Serializable {
   }
 
   public void setMajor(String major) {
-    this.major = major
+    this.major = major;
   }
 }
 ```
