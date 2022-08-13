@@ -1,6 +1,6 @@
 ---
 Title: '.replace()'
-Description: 'Replaces a substring in a StringBuilder with the specified String.'
+Description: 'Switches a substring in a StringBuilder with a specified String and returns the modified object.'
 Subjects:
   - 'Computer Science'
 Tags:
