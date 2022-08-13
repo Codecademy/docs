@@ -1,6 +1,6 @@
 ---
 Title: '.toString()'
-Description: 'Returns a String object representing the character sequence currently in the StringBuilder.'
+Description: 'Returns a String representation of the character sequence currently in a given StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
