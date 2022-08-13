@@ -17,7 +17,7 @@ The **`.lastIndexOf()`** method returns the index of the last (rightmost) occurr
 ## Syntax
 
 ```pseudo
-myStringBuilder.lastIndexOf(substring);
+myStringBuilder.lastIndexOf(substring, index);
 ```
 
 The argument `substring` is the [`String`](https://www.codecademy.com/resources/docs/java/strings) being matched.
