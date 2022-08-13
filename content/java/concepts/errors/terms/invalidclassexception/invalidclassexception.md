@@ -18,4 +18,4 @@ The **`InvalidClassException`** is an [exception](https://www.codecademy.com/res
 
 - The serial version of the class does not match that of the class descriptor read from the stream.
 - The class contains unknown [data types](https://www.codecademy.com/resources/docs/java/data-types).
-- The class does not have an accessible constructor without arguments.
+- The class does not have an accessible [constructor](https://www.codecademy.com/resources/docs/java/constructors) without arguments.
