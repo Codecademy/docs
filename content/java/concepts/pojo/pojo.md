@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **POJO** (Plain old Java object) is a [class definition](https://www.codecademy.com/resources/docs/java/classes) that is not tied to any Java framework so any Java program can use it. A POJO has no particular naming convention for properties and methods, or any other special restrictions. Their primary advantage is their reusability and simplicity.
+A ** plain old Java object (POJO)** is a [class](https://www.codecademy.com/resources/docs/java/classes) definition that is not tied to any Java framework so any Java program can use it. A POJO has no particular naming convention for properties and methods, or any other special restrictions. Their primary advantage is their reusability and simplicity.
 
 ## Example
 
