@@ -1,6 +1,6 @@
 ---
 Title: 'StringBuilder'
-Description: 'The StringBuilder class in Java represents a sequence of characters like a String, but unlike a Java String, this sequence is mutable.'
+Description: 'The StringBuilder class in Java represents a String-like character sequence that can be mutated after being defined.'
 Subjects:
   - 'Computer Science'
 Tags:
