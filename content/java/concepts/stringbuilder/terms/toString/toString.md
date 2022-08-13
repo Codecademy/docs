@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toString()`** method returns a [String](https://www.codecademy.com/resources/docs/java/strings) object representing the character sequence currently in the `StringBuilder`.
+The **`.toString()`** method returns a [`String`](https://www.codecademy.com/resources/docs/java/strings) representation of the character sequence currently in a given `StringBuilder`.
 
 ## Syntax
 
