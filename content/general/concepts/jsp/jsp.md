@@ -5,6 +5,8 @@ Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
+  - 'Dynamic Programming'
+  - 'Servers'
   - 'Server-Side Rendering'
 CatalogContent:
   - 'learn-java'
