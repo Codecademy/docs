@@ -25,7 +25,7 @@ CREATE INDEX index
 ON table (column1, column2);
 ```
 
-**Note**: Tables with indexes update slower, so indexes should generally be used on columns that will be searched often but not updated frequently.
+> **Note**: Tables with indexes update slower, so indexes should generally be used on columns that will be searched often but not updated frequently.
 
 ## Example
 
