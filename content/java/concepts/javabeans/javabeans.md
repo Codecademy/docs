@@ -26,7 +26,7 @@ JavaBeans adhere to the following syntax conventions:
 - A default constructor that requires no arguments must be present.
 - It implements the `Serializable` interface, allowing the program to store its state.
 
-> **Note:** In implementing a Serializable class it is strongly recommended to declare an explicit `serialVersionUID` value. While the explicit declaration is optional, the generated values might vary from compiler to compiler, leading to an unexpected [`InvalidClassException`](https://www.codecademy.com/resources/docs/java/errors/invalidclassexception) during deserialization. `serialVersionUID` should be a `static` `final` `long`, and it is recommended to be `private`.
+> **Note:** In implementing a Serializable class, it is strongly recommended to declare an explicit `serialVersionUID` value. While the explicit declaration is optional, the generated values might vary from compiler to compiler, leading to an unexpected [`InvalidClassException`](https://www.codecademy.com/resources/docs/java/errors/invalidclassexception) during deserialization. `serialVersionUID` should be a `static` `final` `long`, and it is recommended to be `private`.
 
 ## Example
 
