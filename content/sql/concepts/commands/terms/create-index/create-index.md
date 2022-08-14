@@ -27,11 +27,11 @@ ON table (column1, column2);
 
 **Note**: Tables with indexes update slower, so indexes should generally be used on columns that will be searched often but not updated frequently.
 
-## Codebyte Example
+## Example
 
 This example creates an index called `ix_student_name` on the `student_name` column in the `students` table.
 
-```codebyte/sql
+```sql
 CREATE INDEX ix_student_name
 ON students student_name;
 ```
