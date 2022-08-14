@@ -1,0 +1,21 @@
+---
+Title: 'Compiler'
+Description: 'Java Compilers typically take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).'
+Subjects:
+  - 'Code Foundations'
+  - 'Computer Science'
+Tags:
+  - 'Command Line'
+  - 'Developer Tools'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+Java **Compilers** typically take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM). The JVM does not interpret source code, it interprets something called Java bytecode, which is a language somewhere between human-readable source code, and [machine code](https://www.codecademy.com/resources/docs/general/machine-code) specific to a particular computer. The difference between bytecode and machine code is that bytecode is platform independent and the same bytecode can be interpreted by any JVM running on any sort of computer system. This is what makes compiled Java programs portable.
+
+
+
+
+Most of these compilers do little to no optimization of the code, leaving that task for the JVM to do at run time. The JVM loads the bytecode and either interprets it, or just-in-time compiles it to machine code, and then possibly optimizes it.
+
