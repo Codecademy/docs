@@ -1,1 +1,1 @@
-content/typescript/concepts/variables/variables.md
+content/java/concepts/comments/comments.md
