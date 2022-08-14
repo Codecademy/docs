@@ -31,4 +31,3 @@ These are some disadvantages of JSP:
 - Debugging and tracing errors can be difficult.
 - It uses roughly twice the disk storage as other dynamic web pages.
 - JSP file must be compled on the server when first accessed, which can cause a noticable delay on the first visit to a page.
-
