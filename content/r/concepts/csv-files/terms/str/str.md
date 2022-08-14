@@ -47,7 +47,7 @@ str(df)
 
 The above returns the following:
 
-```
+```shell
 'data.frame':  5 obs. of 4 variables:
  $ First.Name: chr  "Max" "Bella" "Luna" "Abe" ...
  $ Last.Name : chr  "Lancaster" "Stone" "Bae" "Thompson" ...
