@@ -1,5 +1,5 @@
 ---
-Title: 'Math.abs()'
+Title: '.abs()'
 Description: 'Returns the absolute value of the argument.'
 Subjects:
   - 'Computer Science'
@@ -11,13 +11,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Math.abs()` method returns the absolute value of the argument.
+The **`Math.abs()`** method returns the absolute value of the argument.
 
 An absolute value is the non-negative version of the value, without considering the positive/negative sign.
 
 ## Syntax
 
-```java
+```pseudo
 Math.abs(n)
 ```
 
