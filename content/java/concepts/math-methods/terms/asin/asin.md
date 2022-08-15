@@ -1,5 +1,5 @@
 ---
-Title: 'Math.asin()'
+Title: '.asin()'
 Description: 'Returns the inverse sine of the argument in radians.'
 Subjects:
   - 'Computer Science'
@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse sine of the argument in radians.
+The **`Math.asin()`** method Returns the inverse sine of the argument in radians.
 
 ## Syntax
 
-```java
+```pseudo
 Math.asin(n)
 ```
 
