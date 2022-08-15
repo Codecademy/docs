@@ -24,7 +24,7 @@ Math.random()
 The following example demonstrates using `.random()` to choose a number between 1 and 10.
 
 ```java
-public class Test { 
+public class Test {
   public static void main(String args[]) {
     double r = Math.random();
     long n = Math.round((r * 10.0) + .5) ;
