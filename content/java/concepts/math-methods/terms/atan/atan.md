@@ -1,5 +1,5 @@
 ---
-Title: 'Math.atan()'
+Title: '.atan()'
 Description: 'Returns the inverse tangent of the argument in radians.'
 Subjects:
   - 'Computer Science'
@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse tangent of the argument in radians.
+The **`Math.atan()`** method returns the inverse tangent of the argument in radians.
 
 ## Syntax
 
-```java
+```pseudo
 Math.atan(n)
 ```
 
