@@ -27,7 +27,8 @@ const directions = Object.freeze({
   north: 0,
   south: 1,
   east: 2,
-  west: 3 });
+  west: 3,
+});
 ```
 
 The enum can be used as follows:
