@@ -27,7 +27,7 @@ const directions = Object.freeze({
   north: 0,
   south: 1,
   east: 2,
-  west: 3
+  west: 3,
 });
 ```
 
@@ -40,7 +40,9 @@ let d = directions.north;
 All possible enum values can be listed as follows:
 
 ```js
-Object.keys(directions).forEach(direction => console.log("direction:", direction));
+Object.keys(directions).forEach((direction) =>
+  console.log('direction:', direction)
+);
 ```
 
 This would produce the output:
