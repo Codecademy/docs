@@ -5,6 +5,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Database'
+  - 'Index'
   - 'Queries'
   - 'PostgreSQL'
   - 'MySQL'
