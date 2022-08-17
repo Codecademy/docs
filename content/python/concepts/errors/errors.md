@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'There are two main kinds of errors in Python: syntax errors and exceptions. Exceptions are any errors that arise from syntactically correct code.'
+Description: 'The two types of errors in Python are syntax errors and exceptions. Exceptions may arise even if the code is syntactically correct.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions.
+"The two types of **errors** are syntax errors and exceptions."
 
 ## Syntax Errors
 
-Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python:
+Syntax errors (also known as parsing errors) occur when a sequence of characters, or tokens, violates the syntax of the Python programming language:
 
 ```shell
 File "script.py", line 1
@@ -29,7 +29,7 @@ The parser repeats the offending line and displays a little arrow `^` pointing a
 
 The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) function, since a colon `:` is missing before it.
 
-File name and line number are printed so you know where to look in case the input came from a script.
+File name and line number are printed to state where the error originated.
 
 ## Exceptions
 
