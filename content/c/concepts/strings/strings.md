@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are arrays of characters followed by a null character \0. To declare a string in C, the type of the string, char, is first specified, followed by the name of the string, the size, and the characters themselves. pseudo char name[size] = {a, b, c, d, \0};  The following declaration and initialization create a string of "Howdy": c'
+Description: 'Strings are arrays of characters followed by a null character \0.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -14,15 +14,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Strings are arrays of characters followed by a `null` character `'\0'`.
+**Strings** are arrays of characters followed by a `null` character `'\0'`.
 
-## Declaring and Initializing a String
+## Syntax
 
 To declare a string in C, the type of the string, `char`, is first specified, followed by the name of the string, the size, and the characters themselves.
 
 ```pseudo
 char name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
+
+The above statement can also be written as this more common string declaration:
+
+```pseudo
+char name[] = "abcd";
+```
+
+## Example
 
 The following declaration and initialization create a string of `"Howdy"`:
 
@@ -38,9 +46,7 @@ The above statement can be rewritten as:
 char message[] = "Howdy";
 ```
 
-This is the more common string declaration out in the wild.
-
-## Memory
+### Memory
 
 Here's the memory presentation:
 
@@ -52,7 +58,7 @@ Address   |  23451  23452  23453  23454  23455  23456
 
 ## Displaying a String
 
-To display a string in C, the `printf()` function from the **stdio.h** header file can be used along with the `%s` character to format strings, followed by the string name.
+To display a string in C, the [`printf()`](https://www.codecademy.com/resources/docs/c/basic-output) function from the **stdio.h** header file can be used along with the `%s` character to format strings, followed by the string name.
 
 ## Example
 
