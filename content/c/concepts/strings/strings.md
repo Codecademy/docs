@@ -60,7 +60,7 @@ Address   |  23451  23452  23453  23454  23455  23456
 
 To display a string in C, the [`printf()`](https://www.codecademy.com/resources/docs/c/basic-output) function from the **stdio.h** header file can be used along with the `%s` character to format strings, followed by the string name.
 
-## Display Example
+### Display Example
 
 ```c
 #include <stdio.h>
