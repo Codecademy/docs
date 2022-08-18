@@ -1,6 +1,6 @@
 ---
 Title: 'Memory Management'
-Description: 'Memory management is the process by which computer programs are assigned with physical or virtual memory space.'
+Description: 'Memory management is the process by which computer programs are assigned to physical or virtual memory space.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
