@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`free()`** function is used to dynamically de-allocate the memory at runtime. Memory allocated by the `malloc()` and `calloc()` functions must be manually de-allocated when not in use. Freeing it helps to reduce the wastage of memory.
+The **`free()`** function is used to dynamically de-allocate the memory at runtime. Memory allocated by the `malloc()` and `calloc()` functions must be manually de-allocated when not in use. Freeing it helps to reduce memory wastage.
 
 ## Syntax
 
