@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The **`NOT`** operator is used in to query for items in a table that return `NOT TRUE` for some condition(s).
+The **`NOT`** operator is used to query for items in a table that return `NOT TRUE` for some condition(s).
 
 ## Syntax
 
