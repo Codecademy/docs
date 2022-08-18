@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Memory management**, or memory allocation, is the process by which computer programs are assigned with physical or virtual memory space. Computer memory is a finite resource that must be efficiently managed.
+**Memory management**, or memory allocation, is the process by which computer programs are assigned to physical or virtual memory space. Computer memory is a finite resource that must be efficiently managed.
 
 The memory allocation can be done either before or at the time of program implementation. There are two techniques for memory allocation: static memory allocation and dynamic memory allocation.
 
