@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`realloc()`** function is used to reallocate a block of memory. If the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, so it can be reallocated using the `realloc()` function.
+The **`realloc()`** function is used to reallocate a block of memory. If the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, it can be reallocated using the `realloc()` function.
 
 ## Syntax
 
