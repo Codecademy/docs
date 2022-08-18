@@ -19,7 +19,7 @@ CatalogContent:
 
 ## Syntax
 
-JavaBeans adhere to the following syntax conventions:
+The following syntax conventions are used in JavaBeans:
 
 - All properties are private and the class exposes them through getter and setter methods.
 - All getters and setters are named "getX" or "setX". In the case of a [boolean](https://www.codecademy.com/resources/docs/general/boolean) property, "isX" can be used for a getter.
