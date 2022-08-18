@@ -29,9 +29,9 @@ ON table (column1, column2);
 
 ## Example
 
-This example creates an index called `ix_student_name` on the `student_name` column in the `students` table:
+This example creates an index called `idx_student_name` on the `student_name` column in the `students` table:
 
 ```sql
-CREATE INDEX ix_student_name
+CREATE INDEX idx_student_name
 ON students student_name;
 ```
