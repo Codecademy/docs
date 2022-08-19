@@ -19,8 +19,8 @@ In general, enums are a type that can hold a finite number of defined values. Th
 
 A way to implement an enum in JavaScript by creating an `Object` of key/value pairs and using the `Object.freeze()` function to make it immutable:
 
-<!-- markdownlint-disable -->
-```js
+
+```pseudo
 const directions = Object.freeze({
   north: 'north',
   south: 'south',
@@ -28,7 +28,6 @@ const directions = Object.freeze({
   west: 'west'
 });
 ```
-<!-- markdownlint-enable -->
 
 The enum can be used as follows:
 
