@@ -13,9 +13,6 @@ CatalogContent:
 ---
 
 JavaScript has no support for a native **enum** type, but it is possible to define enums using `Object`s.
-
-## What is an Enum?
-
 In general, enums are a type that can hold a finite number of defined values. The values in enums are not mutable.
 
 ## Implementing an Enum in JavaScript
