@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-JavaScript has no support for a native enum type, but it is possible to define enums using `Object`s.
+JavaScript has no support for a native **enum** type, but it is possible to define enums using `Object`s.
 
 ## What is an Enum?
 
