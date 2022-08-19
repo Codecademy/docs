@@ -22,10 +22,10 @@ A way to implement an enum in JavaScript by creating an `Object` of key/value pa
 <!-- markdownlint-disable -->
 ```js
 const directions = Object.freeze({
-  north: 0,
-  south: 1,
-  east: 2,
-  west: 3
+  north: 'north',
+  south: 'south',
+  east: 'east',
+  west: 'west'
 });
 ```
 <!-- markdownlint-enable -->
