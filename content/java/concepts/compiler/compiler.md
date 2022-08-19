@@ -20,19 +20,15 @@ Most of these compilers do little to no optimization of the code, leaving that t
 
 The Java compiler is executed on the command line in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
 
-<!-- markdownlint-disable -->
 ```shell
-$ javac ProgramName.java
+javac ProgramName.java
 ```
-<!-- markdownlint-enable -->
 
 Where `ProgramName` is the name of a given `.java` file. Part of the configuration of Java requires setting up the class path so the Java compiler can find `ProgramName.java` in the filesystem. This can be done by using the `-classpath` option with the `javac` compiler command, or by setting the `CLASSPATH` environment variable.
 
-<!-- markdownlint-disable -->
 ```shell
-$ export CLASSPATH="Path"
+export CLASSPATH="Path"
 ```
-<!-- markdownlint-enable -->
 
 ## Online Java Compilers
 
