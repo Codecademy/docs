@@ -17,7 +17,7 @@ In general, enums are a type that can hold a finite number of defined values. Th
 
 ## Implementing an Enum in JavaScript
 
-A simple way to implement an enum in JavaScript by creating an `Object` of key/value pairs and using the `Object.freeze()` function to make it immutable:
+A way to implement an enum in JavaScript by creating an `Object` of key/value pairs and using the `Object.freeze()` function to make it immutable:
 
 ```js
 const directions = Object.freeze({
