@@ -21,12 +21,7 @@ A way to implement an enum in JavaScript by creating an `Object` of key/value pa
 
 
 ```pseudo
-const directions = Object.freeze({
-  north: 'north',
-  south: 'south',
-  east: 'east',
-  west: 'west'
-});
+const directions = Object.freeze({ north: 0,  south: 1,  east: 2,  west: 3 });
 ```
 
 The enum can be used as follows:
