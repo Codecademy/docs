@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.atan()`** method returns the inverse tangent of the argument in radians.
+The **`Math.atan()`** method returns the inverse tangent (or arctangent) of the argument in radians.
 
 ## Syntax
 
