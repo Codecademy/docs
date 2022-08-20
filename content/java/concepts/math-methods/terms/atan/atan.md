@@ -19,9 +19,11 @@ The **`Math.atan()`** method returns the inverse tangent of the argument in radi
 Math.atan(n)
 ```
 
+`n` is an `double` representing an angle in radians.
+
 ## Example
 
-Use `Math.atan()` to return the inverse tangent of `1.0`:
+The following example uses `Math.atan()` to return the inverse tangent of `1.0`:
 
 ```java
 public class Main {
