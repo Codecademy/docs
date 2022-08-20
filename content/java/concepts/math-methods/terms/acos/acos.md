@@ -19,30 +19,27 @@ The **`Math.acos()`** method returns the inverse cosine (or arccosine) of the ar
 Math.acos(n)
 ```
 
+`n` is a `double` between 0 and 1.
+
 ## Example 1
 
-Use `Math.acos()` to return the inverse cosine of `0.0`:
-
-```java
-double x = 0.0;
-
-System.out.println(Math.acos(x));
-// Output: 1.5707963267948966
-```
-
-## Example 2
-
-Use `Math.acos()` to return the inverse cosine of `1.0`:
+The following example uses `Math.acos()` to return the inverse cosine of `0.0` and `1.0`:
 
 ```java
 class Main {
   public static void main(String[] args) {
+    double arg1 = 0.0;
+    double arg2 = 1.0;
 
-    double x = 1.0;
-
-    System.out.println(Math.acos(x));
-    // Output: 0.0
-
+    System.out.println(Math.acos(arg1));
+    System.out.println(Math.acos(arg2));
   }
 }
+```
+
+This will produce the following output:
+
+```shell
+1.5707963267948966
+0.0
 ```
