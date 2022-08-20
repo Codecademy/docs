@@ -38,7 +38,7 @@ One or more matching columns can be selected and joined from `table_A` and `tabl
 
 ## Example
 
-To create a result set of every row where student IDs match in both tables and only includes last name, first name, and both GPAs:
+The following example creates a result set of every row where the `student_id` matches in both tables and only includes `last_name`, `first_name`, and both GPAs:
 
 ```sql
 SELECT
