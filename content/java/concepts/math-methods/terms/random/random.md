@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.random()`** method returns a pseudorandom `double` that is 0.0 or greater, and less than 1.0.
+The **`Math.random()`** method returns a pseudorandom `double` that is greater than or equal to 0.0, and less than (but not equal to) 1.0 &mdash; `[0.0, 1.0)`.
 
 ## Syntax
 
