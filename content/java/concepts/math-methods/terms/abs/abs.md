@@ -13,40 +13,36 @@ CatalogContent:
 
 The **`Math.abs()`** method returns the absolute value of the argument.
 
-An absolute value is the non-negative version of the value, without considering the positive/negative sign.
-
 ## Syntax
 
 ```pseudo
 Math.abs(n)
 ```
 
-## Example 1
+Absolute values are the non-negative versions of the value without considering the positive/negative sign.
 
-Use `Math.abs()` to return the absolute values of `-6.5` and `2`:
+## Example
 
-```java
-double x = -6.5;
-int y = 2;
-
-System.out.println(Math.abs(x));
-// Output: 6.5
-
-System.out.println(Math.abs(y));
-// Output: 2
-```
-
-## Example 2
-
-Use `Math.abs()` to return the absolute value of `-340.8`:
+The following example uses `Math.abs()` to return the absolute values of `-6.5`, `2`, and `-340.8`:
 
 ```java
 class AbsoluteValue {
   public static void main(String[] args) {
+    double x = -6.5;
+    int y = 2;
+    double z = -340.8;
 
-    System.out.println(Math.abs(-340.8));
-    // Output: 340.8
-
+    System.out.println(Math.abs(x));
+    System.out.println(Math.abs(y));
+    System.out.println(Math.abs(z));
   }
 }
+```
+
+This produces the following output:
+
+```shell
+6.5
+2
+340.8
 ```
