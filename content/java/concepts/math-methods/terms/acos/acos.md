@@ -21,7 +21,7 @@ Math.acos(n)
 
 `n` is a `double` between 0 and 1.
 
-## Example 1
+## Example
 
 The following example uses `Math.acos()` to return the inverse cosine of `0.0` and `1.0`:
 
