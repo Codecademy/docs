@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.asin()`** method Returns the inverse sine of the argument in radians.
+The **`Math.asin()`** method returns the inverse sine (or arcsine) of the argument in radians.
 
 ## Syntax
 
