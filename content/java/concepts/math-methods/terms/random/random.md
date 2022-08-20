@@ -35,4 +35,4 @@ public class Test {
 }
 ```
 
-The output will be a `long` between 1 and 10.
+The output will be a `long` type between 1 and 10.
