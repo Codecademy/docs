@@ -23,7 +23,7 @@ The `.random()` method takes no parameters.
 
 ## Example
 
-The following example demonstrates using `.random()` to choose a number between 1 and 10.
+The following example demonstrates using `.random()` to choose a number between 1 and 10:
 
 ```java
 public class Test {
