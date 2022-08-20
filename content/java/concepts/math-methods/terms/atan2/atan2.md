@@ -18,7 +18,7 @@ The **`Math.atan2()`** method returns the counterclockwise angle, in radians, be
 Note that the order of arguments is first the Y coordinate, then the X coordinate.
 
 ```pseudo
-Math.atan2(y,x)
+Math.atan2(y, x)
 ```
 
 ## Example
