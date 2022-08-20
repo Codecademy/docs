@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'Methods'
   - 'Arithmetic'
+  - 'Random'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
