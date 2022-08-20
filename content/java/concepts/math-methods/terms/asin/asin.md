@@ -19,9 +19,11 @@ The **`Math.asin()`** method Returns the inverse sine of the argument in radians
 Math.asin(n)
 ```
 
+`n` is a `double` between 0 and 1.
+
 ## Example
 
-Use `Math.asin()` to return the inverse sine of `1.0`:
+The following example uses `Math.asin()` to return the inverse sine of `1.0`:
 
 ```java
 public class Main {
