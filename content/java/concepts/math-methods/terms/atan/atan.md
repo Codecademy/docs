@@ -19,7 +19,7 @@ The **`Math.atan()`** method returns the inverse tangent of the argument in radi
 Math.atan(n)
 ```
 
-`n` is an `double` representing an angle in radians.
+`n` is an `double` whose arctangent is to be returned.
 
 ## Example
 
