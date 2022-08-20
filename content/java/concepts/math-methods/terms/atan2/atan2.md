@@ -15,11 +15,11 @@ The **`Math.atan2()`** method returns the counterclockwise angle, in radians, be
 
 ## Syntax
 
-Note that the order of arguments is first the Y coordinate, then the X coordinate.
-
 ```pseudo
 Math.atan2(y, x)
 ```
+
+Note that the order of arguments is first the Y coordinate, then the X coordinate.
 
 ## Example
 
