@@ -25,7 +25,7 @@ The **`strtok()`** function breaks a string into a series of tokens using a list
 char *token = strtok(string, delimiter);
 ```
 
-The `strtok()` function splits the C-style `string` parameter into tokens based on one or more `delimiters`, and returns the [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) to the first token. 
+The `strtok()` function splits the C-style `string` parameter into tokens based on one or more `delimiters`, and returns the [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) to the first token.
 
 Subsequent calls to `strtok()`, with `string` set to `NULL`, return a pointer to the next tokenized string. When there are no tokens left to retrieve, a `NULL` pointer is returned.
 

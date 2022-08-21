@@ -25,7 +25,7 @@ char *token = strtok(string, delimiters);
 token = strtok(NULL, delimiters);
 ```
 
-The `strktok()` function splits the `string` parameter into tokens based on one or more `delimiters`, and returns the [pointer](https://www.codecademy.com/resources/docs/c/pointers) to the first token. 
+The `strktok()` function splits the `string` parameter into tokens based on one or more `delimiters`, and returns the [pointer](https://www.codecademy.com/resources/docs/c/pointers) to the first token.
 
 Subsequent calls to `strtok()`, with `string` set to `NULL`, return a pointer to the next tokenized string. When there are no tokens left to retrieve, a `NULL` pointer is returned.
 
