@@ -1,6 +1,6 @@
 ---
 Title: 'AND'
-Description: 'A logical test that will only include rows where both conditions are true.'
+Description: 'Tests if all conditions in a given expression evaluate to TRUE.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -16,11 +16,24 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-A logical test that will only include rows where both conditions are true.
+The **`AND`** operator tests if all conditions in a given expression evaluate to `TRUE`.
 
-## Code Example
+## Syntax
 
-Suppose we want to get current students with GPA higher than 3.0:
+```pseudo
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1
+  AND condition2
+  ...
+  AND conditionN;
+```
+
+If any of the `condition_`s evaluate to `NOT TRUE`, then the entire `WHERE` clause will not return the desired `column_`s.
+
+## Example
+
+THe following example filters the current students with GPA higher than 3.0 for the rest of the `students` table:
 
 ```sql
 SELECT *
