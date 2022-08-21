@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-The `LIKE` operator returns `TRUE` if its first text argument matches the [wildcard](https://www.codecademy.com/resources/docs/sql/wildcards) pattern in its second argument.
+The **`LIKE`** operator returns `TRUE` if its first text argument matches the [wildcard](https://www.codecademy.com/resources/docs/sql/wildcards) pattern in its second argument.
 
 ## Syntax
 
