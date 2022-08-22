@@ -1,6 +1,6 @@
 ---
 Title: 'CREATE INDEX'
-Description: 'Creates an index on existing column(s) in a table. Indexes cannot be seen by the user of a database; they just help speed up queries.'
+Description: 'Creates an index on existing columns in a table. Indexes cannot be seen by the user of a database; they just help speed up queries.'
 Subjects:
   - 'Data Science'
 Tags:
