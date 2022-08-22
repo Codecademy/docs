@@ -20,7 +20,7 @@ The **`.replace()`** method switches a substring in a `StringBuilder` with a spe
 myStringBuilder.replace(start, end, str);
 ```
 
-Where `start` and `end` are the zero-based indices of the characters being replaced. The last character replaced is at `end` - 1, or the end of the sequence if `end` exceeds the length of the sequence. The characters are removed and the `String` `str` is inserted at `start`, the sequence lengthening if needed. If `start` is negative, greater than the `end` or greater than the length of the sequence then a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
+Where `start` and `end` are the zero-based indices of the characters being replaced. The last character replaced is at `end` - 1, or the end of the sequence if `end` exceeds the length of the sequence. The characters are removed and the `String` `str` is inserted at `start`, the sequence lengthening if needed. If `start` is negative, greater than the `end`, or greater than the length of the sequence then a [`StringIndexOutOfBoundsException`](https://www.codecademy.com/resources/docs/java/errors/stringindexoutofboundsexception) is thrown.
 
 ## Example
 
