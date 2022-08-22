@@ -1,6 +1,6 @@
 ---
 Title: '.capacity()'
-Description: 'Returns the current space avalible for characters in the StringBuilder.'
+Description: 'Returns the current space available for characters in the StringBuilder.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.capacity()`** method returns the current space avalible for characters in the `StringBuilder`, whereas [`.length()`](https://www.codecademy.com/resources/docs/java/stringbuilder/length) returns the number of characters actually in use.
+The **`.capacity()`** method returns the current space available for characters in the `StringBuilder`, whereas [`.length()`](https://www.codecademy.com/resources/docs/java/stringbuilder/length) returns the number of characters actually in use.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `.capacity()` method takes no arguments.
 
 ## Example
 
-The following example creates a `StringBuilder` with a specified [`String`](https://www.codecademy.com/resources/docs/java/strings) then displays the capacity of the `StringBuilder` before and after using the [`.delete()`](https://www.codecademy.com/resources/docs/java/stringbuilder/delete) method to change its contents:
+The following example creates a `StringBuilder` with a specified [`String`](https://www.codecademy.com/resources/docs/java/strings), then displays the capacity of the `StringBuilder` before and after using the [`.delete()`](https://www.codecademy.com/resources/docs/java/stringbuilder/delete) method to change its contents:
 
 ```java
 import java.util.*;

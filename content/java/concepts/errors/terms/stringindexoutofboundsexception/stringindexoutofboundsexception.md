@@ -30,7 +30,7 @@ public class ErrorExample {
 }
 ```
 
-The ouput is something like this:
+The output is something like this:
 
 ```shell
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
