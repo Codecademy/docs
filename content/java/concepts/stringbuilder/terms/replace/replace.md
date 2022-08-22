@@ -40,7 +40,7 @@ public class Example {
 }
 ```
 
-The above example produces the following output:
+This produces the following output:
 
 ```shell
 Hello World!

@@ -50,7 +50,7 @@ public class Example {
 }
 ```
 
-The above creates the following output:
+This produces the following output:
 
 ```shell
 Hello
