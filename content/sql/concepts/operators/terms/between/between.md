@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`BETWEEN`** operator selects values, inclusively of beginning and end values, within a given range.
+The **`BETWEEN`** operator selects values, inclusive of beginning and end values, within a given range.
 
 ## Syntax
 
