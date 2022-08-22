@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-"The two types of **errors** are syntax errors and exceptions."
+The two types of **errors** in Python are syntax errors and exceptions.
 
 ## Syntax Errors
 
