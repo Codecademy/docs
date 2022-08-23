@@ -43,7 +43,10 @@ To call the function with a type parameter, the following syntax is used:
 function_name <type> (parameters);
 ```
 
-In the case with a template with multiple type identifiers, a comma separated list of type parameters, one for each identifier, must be provided in the angle brackets: `<type1, type2>`
+In the case of a template with multiple type identifiers, a comma-separated list of type parameters, one for each identifier, must be provided in the angle brackets:
+
+```pseudo
+function_name  `<type1, type2>` (parameters);
 
 > **Note:** In the case where the `typeidentifier` is used for the function parameters, the compiler can identify the type associated with `typeidentifer` from the passed argument and the function can be called without the `<type>` as if it was a regular function.
 >
