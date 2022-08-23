@@ -102,7 +102,7 @@ template <class typeidentifier> class;
 
 Where `typeidentifier` is a variable name that stands in for the generic type and `class` is a class declaration, using `typeidentifier` as a generic type in its definition.
 
- Like a template function, the `typeidentifier` can be used anywhere a data type name would be used, and the class can be defined with multiple type parameters.
+Like a template function, the `typeidentifier` can be used anywhere a data type name would be used, and the class can be defined with multiple type parameters.
 
 The class is referred to in code as follows:
 
