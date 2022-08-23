@@ -17,7 +17,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-`EXISTS` tests a subquery and returns `TRUE` if at least one record satisfies it. Otherwise, `FALSE` is returned.
+The **`EXISTS`** operator tests a subquery and returns `TRUE` if at least one record satisfies it. Otherwise, `FALSE` is returned.
 
 ## Syntax
 
