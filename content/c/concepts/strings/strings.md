@@ -64,6 +64,8 @@ To display a string in C, the [`printf()`](https://www.codecademy.com/resources/
 
 ### Display Example
 
+The following is an example of displaying a string in C:
+
 ```c
 #include <stdio.h>
 
