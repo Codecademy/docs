@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'Strings are arrays of characters followed by a null character \0.'
+Description: 'Strings are character sequences that are either expressed in double quotes or as arrays that end with a null character \0.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
