@@ -21,7 +21,8 @@ CatalogContent:
 To declare a string in C, the type of the string, `char`, is first specified, followed by the name of the string, the size, and the characters themselves.
 
 ```pseudo
-char name[size] = {'a', 'b', 'c', 'd', '\0'};
+char string_name[]
+char string_name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
 
 The above statement can also be written as this more common string declaration:
