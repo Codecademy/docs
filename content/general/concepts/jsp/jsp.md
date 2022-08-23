@@ -19,7 +19,7 @@ JSP was released in 1999 by Sun Microsystems, and version 3.1 was released on Ap
 
 ## Advantages & Disadvantages
 
-JSP has the following advantages compared to other methods of creating dynamic web pages.
+JSP has the following advantages compared to other methods of creating dynamic web pages:
 
 - The execution of JSP pages is faster than other technologies.
 - JSP pages are compiled before being processed by the server, reducing the load on the server.
