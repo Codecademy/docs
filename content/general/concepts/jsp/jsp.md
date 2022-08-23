@@ -24,7 +24,7 @@ JSP has the following advantages compared to other methods of creating dynamic w
 - The execution of JSP pages is faster than other technologies.
 - JSP pages are compiled before being processed by the server, reducing the load on the server.
 - JSP has access to all the Java APIs.
-- Since JSP uses the Java Virtual Machine, JSP is platform-agnostic and portable.
+- Since JSP uses the Java Virtual Machine, it is portable and platform-agnostic.
 
 These are some disadvantages of JSP:
 
