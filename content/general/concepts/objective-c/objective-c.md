@@ -16,7 +16,7 @@ CatalogContent:
 
 ## History
 
-It was developed in the early 1980s and released in 1984. It was the language used by NeXT in its NeXTSTEP Operating system. Until the introduction of [Swift](https://www.codecademy.com/resources/docs/swift) in 2014, Objective-C was the primary language supported by Apple for developing macOS and iOS applications. Even so, much of iOS is still written in Objective-C, so its support is likely to continue for years to come.
+It was developed in the early 1980s and released in 1984. It was the language used by NeXT in its NeXTSTEP Operating system. Until the introduction of [Swift](https://www.codecademy.com/resources/docs/swift) in 2014, Objective-C was the primary language supported by Apple for developing macOS and iOS applications. Even so, much of macOS and iOS is still written in Objective-C, so its support is likely to continue for years to come.
 
 ## Features
 
