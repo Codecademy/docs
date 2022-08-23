@@ -56,3 +56,19 @@ from bs4 import BeautifulSoup as bs
 Aliasing is especially convenient for shortening module names and managing the local namespace where our code executes.
 
 Once a module is imported, it is within the scope of the program and it can be accessed in the local namespace.
+
+## Python Standard Modules
+
+Python comes with a number of different modules built-in that provide a variety of functions. They include:
+
+- The [`collections` module](https://www.codecademy.com/resources/docs/python/collections-module), that provides additional collection types.
+- The [`functools` module](https://www.codecademy.com/resources/docs/python/functools-module), that provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
+- The [`glob` module](https://www.codecademy.com/resources/docs/python/glob-module) allows matching file paths per Unix shell rules.
+- The [`json` module](https://www.codecademy.com/resources/docs/python/json-module) provides functions for dealing with [JSON](https://www.codecademy.com/resources/docs/general/json) objects.
+- The [`math` module](https://www.codecademy.com/resources/docs/python/math-module) provides useful mathematical functions.
+- The [`random` module](https://www.codecademy.com/resources/docs/python/random-module) provides functions for dealing with random numbers.
+- The [`time` module](https://www.codecademy.com/resources/docs/python/time-module) provides various functions for dealing with time.
+
+## Python Third Party Modules
+
+Python has a very broad selection of third-party modules that are devoted to particular tasks. Below is a selection from among them:
