@@ -19,11 +19,12 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-char string_name[] = "abcd" 
+char string-name[];
+char string_name[] = "abcd"; 
 char string_name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
 
-Strings in C are first declared with the `char` data type, followed by the `string_name`, and then immediately followed by square brackets `[]`. The snippet above showcases the two ways that string values are defined:
+Strings in C are first declared with the `char` data type, followed by the `string_name`, and then immediately followed by square brackets `[]`. The snippet above showcases the two ways that string values are initalized:
 
 - Zero or more characters, digits, and escape sequences surrounded in double quotes.
 - An array of comma-separated characters, surrounded in curly brackets `{ }`, and ending with a `null` character `'\0'`\*.
