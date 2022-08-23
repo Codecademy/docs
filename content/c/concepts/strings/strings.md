@@ -20,7 +20,7 @@ CatalogContent:
 
 ```pseudo
 char string-name[];
-char string_name[] = "abcd"; 
+char string_name[] = "abcd";
 char string_name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
 
