@@ -33,7 +33,7 @@ Subsequent calls to `strtok()`, with `string` set to `NULL`, return a pointer to
 
 The following example splits up a comma-delimited list and prints out the result:
 
-```codebyte\cpp
+```codebyte/cpp
 #include <string.h>
 #include <stdio.h>
 
