@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Strings** are arrays of characters followed by a `null` character `'\0'`.
+**Strings** are character sequences that are either expressed in double quotes or as [arrays](https://www.codecademy.com/resources/docs/c/arrays) that end with a `null` character `'\0'`.
 
 ## Syntax
 
