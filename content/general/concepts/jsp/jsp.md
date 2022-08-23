@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**JSP** (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with [Java](https://www.codecademy.com/resources/docs/java) code that is executed on the web server to render the final web page. In this way it is similar to [PHP](https://www.codecademy.com/resources/docs/php) except that it uses the Java programming language. With JSP the developer can create dynamic pages based on [HTML](https://www.codecademy.com/resources/docs/html), [XML](https://www.codecademy.com/resources/docs/general/xml), SOAP or other document types.
+**JSP** (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with [Java](https://www.codecademy.com/resources/docs/java) code that is executed on the web [server](https://www.codecademy.com/resources/docs/general/server) to [render](https://www.codecademy.com/resources/docs/general/server-side-rendering) the final web page. In this way it is similar to [PHP](https://www.codecademy.com/resources/docs/php) except that it uses the Java programming language. With JSP the developer can create dynamic pages based on [HTML](https://www.codecademy.com/resources/docs/html), [XML](https://www.codecademy.com/resources/docs/general/xml), SOAP, or other document types.
 
 JSP was released in 1999 by Sun Microsystems, and version 3.1 was released on April 31, 2022.
 
