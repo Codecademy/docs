@@ -61,13 +61,13 @@ Once a module is imported, it is within the scope of the program and it can be a
 
 Python comes with a number of different modules built-in that provide a variety of functions. They include:
 
-- The [`collections` module](https://www.codecademy.com/resources/docs/python/collections-module), that provides additional collection types.
-- The [`functools` module](https://www.codecademy.com/resources/docs/python/functools-module), that provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
-- The [`glob` module](https://www.codecademy.com/resources/docs/python/glob-module) allows matching file paths per Unix shell rules.
-- The [`json` module](https://www.codecademy.com/resources/docs/python/json-module) provides functions for dealing with [JSON](https://www.codecademy.com/resources/docs/general/json) objects.
-- The [`math` module](https://www.codecademy.com/resources/docs/python/math-module) provides useful mathematical functions.
-- The [`random` module](https://www.codecademy.com/resources/docs/python/random-module) provides functions for dealing with random numbers.
-- The [`time` module](https://www.codecademy.com/resources/docs/python/time-module) provides various functions for dealing with time.
+- The [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module, that provides additional collection types.
+- The [`functools`](https://www.codecademy.com/resources/docs/python/functools-module) module, that provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
+- The [`glob`](https://www.codecademy.com/resources/docs/python/glob-module) module allows matching file paths per Unix shell rules.
+- The [`json`](https://www.codecademy.com/resources/docs/python/json-module) module provides functions for dealing with [JSON](https://www.codecademy.com/resources/docs/general/json) objects.
+- The [`math`](https://www.codecademy.com/resources/docs/python/math-module) module provides useful mathematical functions.
+- The [`random`](https://www.codecademy.com/resources/docs/python/random-module) module provides functions for dealing with random numbers.
+- The [`time`](https://www.codecademy.com/resources/docs/python/time-module) module provides various functions for dealing with time.
 
 ## Python Third Party Modules
 
