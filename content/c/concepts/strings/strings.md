@@ -18,10 +18,8 @@ CatalogContent:
 
 ## Syntax
 
-To declare a string in C, the type of the string, `char`, is first specified, followed by the name of the string, the size, and the characters themselves.
-
 ```pseudo
-char string_name[]
+char string_name[] = "abcd" 
 char string_name[size] = {'a', 'b', 'c', 'd', '\0'};
 ```
 
