@@ -5,6 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
+  - 'iOS'
   - 'OOP'
 CatalogContent:
   - 'learn-c'
