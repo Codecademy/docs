@@ -21,6 +21,7 @@ Docs is live with over 1000 high-quality entries. Now that the MVP is out, our g
 - [@KTom101](https://github.com/KTom101), Content Contributor
 - [@caupolicandiaz](https://github.com/caupolicandiaz), Content Contributor
 - [@sswiniarski](https://github.com/sswiniarski), Content Contributor
+- [@HishamT](https://github.com/HishamT), Content Contributor
 
 We are currently building a team of community volunteers and educators to maintain Codecademy Docs. Let us know if you are interested.
 
