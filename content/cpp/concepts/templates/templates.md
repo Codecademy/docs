@@ -35,7 +35,10 @@ template <class typeidentifier> function;
 
 Where `typeidentifier` is a variable name that stands in for the generic type and `function` is a function declaration, using `typeidentifier` as a generic type in its definition. The `typeidentifier` can be used anywhere a data type name would be used, including the return type.
 
-The template can also define multiple type identifiers, separated by commas: `<class identifer1, class identifier2>`
+The template can also define multiple type identifiers, separated by commas:
+
+```pseudo
+template <class identifer1, class identifier2> function;
 
 To call the function with a type parameter, the following syntax is used:
 
