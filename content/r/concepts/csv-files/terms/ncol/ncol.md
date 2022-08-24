@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Operators'
-  - 'Arithmetic'
   - 'Comparison'
   - 'Logical'
 CatalogContent:
