@@ -28,5 +28,3 @@ PyTorch offers two high-level features:
 Instructions for installing on various systems can be found on [pytorch.org](https://pytorch.org/get-started/locally/).
 
 > **Note:** The [`numpy`](https://www.codecademy.com/resources/docs/numpy) module is a prerequisite for a PyTorch install.
-
-
