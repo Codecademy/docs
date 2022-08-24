@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Comparison'
   - 'Logical'
 CatalogContent:
   - 'learn-r'
