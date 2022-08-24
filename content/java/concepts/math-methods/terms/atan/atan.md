@@ -19,7 +19,7 @@ The **`Math.atan()`** method returns the inverse tangent (or arctangent) of the 
 Math.atan(n)
 ```
 
-`n` is an `double` whose arctangent is to be returned.
+`n` is a `double` whose arctangent is returned.
 
 ## Example
 
