@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Arithmetic'
-  - 'Comparison'
   - 'Logical'
 CatalogContent:
   - 'learn-r'
