@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `colnames()` function returns or sets the names of the columns in a matrix-like object.
+The **`colnames()`** function returns or sets the names of the columns in a matrix-like object.
 
 ## Syntax
 
