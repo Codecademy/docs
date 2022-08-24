@@ -1,1 +1,1 @@
-content/typescript/concepts/variables/variables.md
+content/general/concepts/void/void.md
