@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `ncol()` function returns the number of columns in a data frame.
+The **`ncol()`** function returns the number of columns in a data frame.
 
 ## Syntax
 
