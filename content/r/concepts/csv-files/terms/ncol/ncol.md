@@ -5,7 +5,8 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Logical'
+  - 'Functions'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
