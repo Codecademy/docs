@@ -6,7 +6,9 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Arithmetic'
-  - 'Logical'
+  - 'CSV'
+  - 'Files'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
