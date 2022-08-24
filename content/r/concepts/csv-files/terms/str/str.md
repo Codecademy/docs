@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `str()` function displays the internal structure of a data frame.
+The **`str()`** function displays the internal structure of a data frame.
 
 ## Syntax
 
