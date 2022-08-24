@@ -1,6 +1,6 @@
 ---
 Title: 'nrow()'
-Description: 'Returns the number of rows in a data set.'
+Description: 'Returns the number of rows in a data frame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
