@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.random()`** method returns a pseudorandom `double` that is greater than or equal to 0.0 and less than 1.0. &mdash; `[0.0, 1.0)`.
+The **`Math.random()`** method returns a pseudorandom `double` that is greater than or equal to 0.0 and less than 1.0 &mdash; `[0.0, 1.0)`.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ The following example demonstrates using `.random()` to choose a number between 
 public class Test {
   public static void main(String args[]) {
     double r = Math.random();
-    long n = Math.round((r * 10.0) + .5) ;
+    long n = Math.round((r * 10.0) + .5);
     System.out.println(n);
    }
 }
