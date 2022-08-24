@@ -59,7 +59,7 @@ function_name  `<type1, type2>` (parameters);
 
 ### Example
 
-The following example creates a `myAdd` function that can use any type where the `+` operator is defined:
+The following example creates a `myAdd` function that can use any type where the `+` [operator](https://www.codecademy.com/resources/docs/cpp/operators) is defined:
 
 ```cpp
 #include <iostream>
