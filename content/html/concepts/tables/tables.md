@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.
+In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows:
 
 ## Example
 
