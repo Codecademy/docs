@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `nrow()` function returns the number of rows in a data frame.
+The **`nrow()`** function returns the number of rows in a data frame.
 
 ## Syntax
 
