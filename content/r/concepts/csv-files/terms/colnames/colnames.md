@@ -6,7 +6,8 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Comparison'
-  - 'Logical'
+  - 'Functions'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
