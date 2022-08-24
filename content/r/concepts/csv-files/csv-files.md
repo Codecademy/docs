@@ -33,7 +33,7 @@ Where `directory` is the directory to be set. For example, `"/Users/kyra/Documen
 
 ## Reading Data
 
-The `read.csv()` reads in data from a CSV file.
+The `read.csv()` function reads in data from a CSV file.
 
 ### Syntax
 
