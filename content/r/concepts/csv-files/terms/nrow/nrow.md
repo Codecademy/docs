@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Operators'
   - 'Arithmetic'
   - 'Comparison'
   - 'Logical'
