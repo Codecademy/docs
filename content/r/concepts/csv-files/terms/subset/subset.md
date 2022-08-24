@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `subset()` function returns a subset of an object that matches the specified conditions.
+The **`subset()`** function returns a subset of an object that matches the specified conditions.
 
 ## Syntax
 
