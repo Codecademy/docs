@@ -1,5 +1,5 @@
 ---
-Title: 'Matplotlib Library'
+Title: 'Matplotlib'
 Description: 'Matplotlib is a library for creating static, animated, and interactive visualizations in Python.'
 Subjects:
   - 'Computer Science'
