@@ -1,5 +1,5 @@
 ---
-Title: 'requests.post()'
+Title: '.post()'
 Description: 'Sends a post request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
