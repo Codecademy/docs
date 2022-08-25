@@ -1,6 +1,6 @@
 ---
-Title: 'requests.put()'
-Description: 'Makes a put request to a web server; it returns a response object.'
+Title: '.put()'
+Description: 'Sends a put request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-A Python `requests` method for making a "put" request to a web server; it returns a response object.
+The `put` method sends a "put" request to a web server; it returns a response object.
 
 ## Syntax
 
