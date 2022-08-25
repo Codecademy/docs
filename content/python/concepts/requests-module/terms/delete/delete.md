@@ -1,5 +1,5 @@
 ---
-Title: 'requests.delete()'
+Title: '.delete()'
 Description: 'Sends a delete request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
