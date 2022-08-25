@@ -42,6 +42,8 @@ In the following example, the `.legend()` method will be shown using the iris da
 
 ### Example 1
 
+---
+
 ```py
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -58,7 +60,11 @@ plt.legend(handles=[sepal_lw, petal_lw]);
 
 The output from this instance of the `.legend()` method is shown below:
 
+![Example1](/media/matplotlib-legend-1.png)
+
 ### Example 2
+
+---
 
 ```py
 import matplotlib.pyplot as plt
@@ -76,6 +82,8 @@ plt.legend(['sepal', 'petal'], loc=0, ncol=2, fontsize=15, labelcolor=['red','gr
 ```
 
 The output from this instance of the `.legend()` method is shown below:
+
+![Example2](/media/matplotlib-legend-2.png)
 
 ```shell
 
