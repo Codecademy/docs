@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
   - 'Data Visualization'
 Tags:
+  - 'Graphs'
   - 'Libraries'
   - 'Matplotlib'
 CatalogContent:
