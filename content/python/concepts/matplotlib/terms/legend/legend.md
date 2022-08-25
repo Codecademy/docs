@@ -27,7 +27,7 @@ The `.legend()` accepts zero or more parameters and can be called on a valid `pl
 |  Parameter Name  | Data Type(s)         | Usage                                                                                                  |
 | :--------------: | -------------------- | ------------------------------------------------------------------------------------------------------ |
 |    `handles`     | sequence of `Artist` | `handles` is utilized if more control is desired with each entry on the plot and how they are labeled. |
-|     `labels`     | list of string       | `labels` is a list of strings that will display the labels in the order they are entered.              |
+|     `labels`     | list of strings       | `labels` is a list of strings that will display the labels in the order they are entered.              |
 |      `loc`       | int, string          | `loc` is used to determine the position of the legend on the axes. Defaults to `best`.                 |
 |      `ncol`      | int                  | `ncol` is used to determine how many columns the legend will have. Defaults to 1.                      |
 |    `fontsize`    | int, string          | `fontsize` is used change the font size the labels. Defaults to 11.                                    |
