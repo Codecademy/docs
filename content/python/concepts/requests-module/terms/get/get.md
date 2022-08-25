@@ -1,6 +1,6 @@
 ---
 Title: 'requests.get()'
-Description: 'Makes a get request to a web server; it returns a response object.'
+Description: 'Sends a get request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Method for making a "get" request to a web server; it returns a response object.
+The **`.get()`** method sends a "get" request to a web server; it returns a response object.
 
 ## Syntax
 
