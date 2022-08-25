@@ -2,7 +2,6 @@
 Title: '.legend()'
 Description: 'Places a legend on the axes and access to manipulate parameters of the legend.'
 Subjects:
-  - 'Computer Science'
   - 'Data Science'
   - 'Data Visualization'
 Tags:
