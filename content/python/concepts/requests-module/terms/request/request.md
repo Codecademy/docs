@@ -1,6 +1,6 @@
 ---
-Title: 'requests.request()'
-Description: 'Makes seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object.'
+Title: '.request()'
+Description: 'Sends seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `requests` module for Python includes a `.request()` method for making seven main kinds of request to a web server: `get`, `options`, `head`, `post`, `put`, `patch`, and `delete`; it can also handle custom HTTP verbs if needed, and returns a response object.
+The **`.request()`** method sends seven main kinds of request to a web server: `get`, `options`, `head`, `post`, `put`, `patch`, and `delete`; it can also handle custom HTTP verbs if needed, and returns a response object.
 
 ## Syntax
 
