@@ -30,7 +30,6 @@ while (var1 < 100) {
 }
 ```
 
-
 ## For Loop
 
 The statement(s) within a `for` loop code block will execute once for each item in a list-like data structure like a `vector` or `list`.
@@ -44,6 +43,5 @@ for (borough in NY) {
   print(borough)
 }
 ```
-
 
 Additional control flow statements can be used within these blocks for both types of loops.
