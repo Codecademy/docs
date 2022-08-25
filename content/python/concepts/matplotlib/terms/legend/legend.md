@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.legend()`** function returns a legend on the axes of a plot or subplot.
+The **`pyplot.legend()`** function returns a legend on the axes of a plot or subplot.
 
 ## Syntax
 
