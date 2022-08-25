@@ -1,5 +1,5 @@
 ---
-Title: 'requests.get()'
+Title: '.get()'
 Description: 'Sends a get request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
