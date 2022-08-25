@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'In R, a loop is used to perform some operation given that a declared condition is truthy.'
+Description: 'A loop is used to perform some operation as long as a declared condition is truthy.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,11 +13,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A loop is used to perform some operation given that a declared condition is truthy. In R, there are `while` and `for` loops.
+A loop is used to perform some operation as long as a declared condition is truthy. In R, there are `while` and `for` loops.
 
 ## While Loop
 
 The statement(s) within a `while` loop code block will continue to execute given that a declared condition is `TRUE`.
+
+The following example will continuously execute the statements within the `while` loop block until the condition is no longer `TRUE`:
 
 ```r
 var1 <- 0
@@ -28,11 +30,12 @@ while (var1 < 100) {
 }
 ```
 
-This `while` loop will continuously execute the statements within the block until the condition is no longer `TRUE`.
 
 ## For Loop
 
 The statement(s) within a `for` loop code block will execute once for each item in a list-like data structure like a `vector` or `list`.
+
+The following example will execute the statement within the `for` loop block for each item in the `list`:
 
 ```r
 NY <- list("Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island")
@@ -42,6 +45,5 @@ for (borough in NY) {
 }
 ```
 
-This `for` loop will execute the statement within the block for each item in the `list`.
 
 Additional control flow statements can be used within these blocks for both types of loops.
