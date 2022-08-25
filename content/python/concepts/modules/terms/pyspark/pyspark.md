@@ -9,6 +9,7 @@ Tags:
   - 'Modules'
   - 'Deep Learning'
   - 'AI'
+  - 'APIs'
   - 'Data Structures'
 CatalogContent:
   - 'learn-python-3'
