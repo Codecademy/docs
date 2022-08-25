@@ -1,6 +1,6 @@
 ---
 Title: 'requests.post()'
-Description: 'Makes a post request to a web server; it returns a response object.'
+Description: 'Sends a post request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-Python's `requests` module comes with a method for making a "post" request to a web server; it returns a response object.
+The **`.post()`** method sends a "post" request to a web server; it returns a response object.
 
 ## Syntax
 
