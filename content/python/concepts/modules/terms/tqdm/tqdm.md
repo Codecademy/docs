@@ -5,6 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Command Line'
   - 'Libraries'
   - 'Modules'
   - 'Scope'
