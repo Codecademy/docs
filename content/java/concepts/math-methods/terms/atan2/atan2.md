@@ -1,5 +1,5 @@
 ---
-Title: 'Math.atan2()'
+Title: '.atan2()'
 Description: 'Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.'
 Subjects:
   - 'Computer Science'
@@ -11,15 +11,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.
+The **`Math.atan2()`** method returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.
 
 ## Syntax
 
-Note that the order of arguments is first the Y coordinate, then the X coordinate.
-
-```java
-Math.atan2(y,x)
+```pseudo
+Math.atan2(y, x)
 ```
+
+Note that the order of arguments is first the Y coordinate, then the X coordinate.
 
 ## Example
 

@@ -20,7 +20,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of a subst
 myStringBuilder.indexOf(substring, index);
 ```
 
-The argument `substring` is the [`String`](https://www.codecademy.com/resources/docs/java/strings) being.
+The argument `substring` is of type [`String`](https://www.codecademy.com/resources/docs/java/strings).
 
 The `index` is an `int` argument that is optional. If provided, `.indexOf()` returns the first occurrence of `substring` after that index in the `StringBuilder`.
 
