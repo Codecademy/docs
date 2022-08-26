@@ -20,7 +20,7 @@ The **`tqdm`** module is a library that allows the generation of progress bars i
 
 ## Installation
 
-`tqdm` can be installed with the following:
+`tqdm` can be installed with the following [pip](https://www.codecademy.com/resources/docs/python/pip) command:
 
 ```shell
 pip install tqdm
