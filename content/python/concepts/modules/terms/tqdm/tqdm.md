@@ -28,7 +28,7 @@ pip install tqdm
 
 ## Example
 
-The way to use `tqdm` is to wrap the `tqdm()` function around any [iterable](https://www.codecademy.com/resources/docs/python/iterators):
+The most straightforward way to use `tqdm` is to wrap the `tqdm()` function around any [iterable](https://www.codecademy.com/resources/docs/python/iterators):
 
 ```py
 from tqdm import tqdm
