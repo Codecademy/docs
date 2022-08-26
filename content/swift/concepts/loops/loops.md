@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'The for-in loop is used to iterate over collections, including strings and ranges. swift for char in "hehe" { print(char) }  The output would be:'
+Description: 'The for-in loop is used to iterate over collections, including strings and ranges.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
