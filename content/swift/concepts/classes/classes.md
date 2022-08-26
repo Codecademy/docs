@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'Classes in Swift defines characteristics and behaviors of an object.'
+Description: 'Classes in Swift define characteristics and behaviors of an object.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'

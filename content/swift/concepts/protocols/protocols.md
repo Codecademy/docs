@@ -23,7 +23,7 @@ protocol MyProtocol {
 }
 ```
 
-**Note:** Names are written in PascalCase.
+> **Note:** Names are written in PascalCase.
 
 For class, structure, or enumeration data types to adopt a protocol, it chains onto their definition and is separated with a colon:
 
@@ -44,7 +44,7 @@ protocol MyProtocol {
 }
 ```
 
-**Note:** Gettable variables can be read and settable variables can be set or changed. Programmers sometimes only allow a variable to be gettable because they don't want it to be mutated.
+> **Note:** Gettable variables can be read and settable variables can be set or changed. Programmers sometimes only allow a variable to be gettable because they don't want it to be mutated.
 
 Data types that adopt a protocol, must conform to the properties and methods defined in it.
 

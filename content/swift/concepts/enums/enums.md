@@ -124,7 +124,7 @@ switch bishop {
 
 ### Iterative
 
-Notice that `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codecademy.com/resources/docs/swift/protocols) protocol which gives access to the `allCases` property. Using a `for...in` loop, each value within the enumeration can be accessed.
+Notice that `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codecademy.com/resources/docs/swift/protocols) protocol which gives access to the `allCases` property. Using a [`for...in`](https://www.codecademy.com/resources/docs/swift/loops) loop, each value within the enumeration can be accessed.
 
 ```swift
 enum MageAdvancementTree: String, CaseIterable {
@@ -142,7 +142,7 @@ for job in MageAdvancementTree.allCases {
 
 This would output the raw values in `MageAdvancementTree`:
 
-```
+```shell
 Beginner
 Magician
 Cleric

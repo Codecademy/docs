@@ -26,7 +26,7 @@ for char in "hehe" {
 
 The output would be:
 
-```bash
+```shell
 h
 e
 h
@@ -48,7 +48,7 @@ for num in 0...5 {
 
 The output would be:
 
-```
+```shell
 1
 3
 5
@@ -69,7 +69,7 @@ for char in "supercalifragilisticexpialidocious" {
 
 The output would be:
 
-```
+```shell
 s
 u
 p
@@ -89,7 +89,7 @@ for _ in 1...3 {
 
 The output would be:
 
-```
+```shell
 Olé
 Olé
 Olé
@@ -135,7 +135,7 @@ for oddNum in stride(from: 1, to: 5, by: 2) {
 
 The output would be:
 
-```
+```shell
 1
 3
 ```

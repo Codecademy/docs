@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler. In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later. Int, Float, Double, String, Character, Bool.'
+Description: 'Swift data types include Int, Float, Double, String, Character, and Bool. It is a type-safe language where variables hold values of a known data type.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-All programming languages designate certain "types" of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler.
+All programming languages designate certain types of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift, being a very type-safe language, takes great care to ensure that data types are understood, by both you and the compiler.
 
 In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later.
 
