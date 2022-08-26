@@ -1,6 +1,6 @@
 ---
 Title: 'Sets'
-Description: 'In Swift, a set is used to store unique elements of the same data type.
+Description: 'In Swift, a set is used to store unique elements of the same data type.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
