@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The `put` method sends a "put" request to a web server; it returns a response object.
+The **`put`** method sends a "put" request to a web server; it returns a response object.
 
 ## Syntax
 
