@@ -1,0 +1,18 @@
+---
+Title: 'IaaS'
+Description: ''
+Subjects:
+  - 'Computer Science'
+  - 'Networking'
+Tags:
+  - 'Networking'
+  - 'Cloud'
+  - 'Infrastructure'
+CatalogContent:
+  - 'learn/foundations-of-cloud-computing'
+  - 'paths/back-end-engineer-career-path'
+---
+
+**Infrastructure as a service (IaaS)** is a type of cloud computing service offering remote computer, storage and networking resources that are avalible on demand. These services are typically offered on a pay-as-you-go basis. The user is provided with an API to control the low-level details of the underlying network infrastructure: things such as backups, partitioning, security, physical resources and so on. The user is given control of virtual machines that are guests on a cloud server running a hypervisor such as Oracle VirtualBox or VMware ESXi. The user is allowed to run arbitrary software on these virtual machines, including operating systems.
+
+While the user does not manage or control the underlying cloud infrastructure, they have granular control over operating systems, storage, deployed applications, as well as some networking components such as host firewalls.
