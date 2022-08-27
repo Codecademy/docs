@@ -45,6 +45,7 @@ Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud
 Code Editors
 Collections
 Colors
@@ -136,6 +137,7 @@ IDE
 If
 Images
 Index
+Infrastructure
 Inheritance
 Input
 Integers
