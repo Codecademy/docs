@@ -49,7 +49,7 @@ class RectangleTestCase(unittest.TestCase):
 
   def test_area(self):
     self.assertEqual(self.rectangle.area(), 50)
- 
+
   def test_perimeter(self):
     self.assertEqual(self.rectangle.perimeter(), 30)
 
@@ -70,7 +70,7 @@ if __name__ == '__main__':
   unittest.main()
 ```
 
-First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined with methods with names starting with `test`. This naming convention is to allow the test runner to find the methods that represent tests. 
+First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined with methods with names starting with `test`. This naming convention is to allow the test runner to find the methods that represent tests.
 
 Tests consist of methods containing calls to one or more `assert` methods of the test case object:
 
@@ -81,10 +81,10 @@ Tests consist of methods containing calls to one or more `assert` methods of the
 
 The test case can have `.setUp()` and `.tearDown()` methods defined. The `.setUp()` method is for any initialization needed for the test, and will run before each `test` method is carried out. The `.tearDown()` method is run after each `test` method to do any needed cleanup after each test.
 
-The call to `unittest.main()` runs the tests and provides the test script with a command-line interface. 
+The call to `unittest.main()` runs the tests and provides the test script with a command-line interface.
 
 Running the above produces the following
- 
+
 ```shell
 $ python test.py
 ....
