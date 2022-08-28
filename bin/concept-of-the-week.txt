@@ -1,1 +1,1 @@
-content/general/concepts/void/void.md
+content/general/concepts/prototype-pattern/prototype-pattern.md
