@@ -1,6 +1,6 @@
 ---
 Title: 'Open Source Software'
-Description: ''
+Description: 'Open source software is source code that, through licensing, available for view, modification, and distribution.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
