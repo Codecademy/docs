@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is used to perform some operation as long as a declared condition is truthy.'
+Description: 'A loop is used to repeat some operation a multiple number of times.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A loop is used to perform some operation as long as a declared condition is truthy. In R, there are `while` and `for` loops.
+A loop is used to repeat some operation a multiple number of times. In R, there are `while` and `for` loops.
 
 ## While Loop
 
-The statement(s) within a `while` loop code block will continue to execute given that a declared condition is `TRUE`.
+The statement(s) within a `while` loop code block will continue to execute as long as a declared condition is `TRUE`.
 
 The following example will continuously execute the statements within the `while` loop block until the condition is no longer `TRUE`:
 
