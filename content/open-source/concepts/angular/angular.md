@@ -8,6 +8,7 @@ Tags:
   - 'Angular'
   - 'Development'
   - 'Frameworks'
+  - 'Open Source'
 CatalogContent:
   - 'learn-angularjs'
   - 'paths/front-end-engineer-career-path'

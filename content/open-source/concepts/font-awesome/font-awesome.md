@@ -8,6 +8,7 @@ Tags:
   - 'World Wide Web'
   - 'Fonts'
   - 'Icons'
+  - 'Open Source'
   - 'Style'
 CatalogContent:
   - 'learn-css'

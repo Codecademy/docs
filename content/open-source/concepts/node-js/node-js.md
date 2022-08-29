@@ -5,9 +5,10 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Node'
   - 'Developer Tools'
   - 'Dependency'
+  - 'Node'
+  - 'Open Source'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'

@@ -8,6 +8,7 @@ Tags:
   - 'Node'
   - 'Developer Tools'
   - 'Dependency'
+  - 'Open Source'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'

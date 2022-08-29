@@ -5,9 +5,9 @@ Subjects:
   - 'Developer Tools'
   - 'Web Development'
 Tags:
-  - 'React'
   - 'Node'
-  - 'Best Practices'
+  - 'Open Source'
+  - 'React'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'

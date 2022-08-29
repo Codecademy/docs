@@ -5,8 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
-  - 'Linux'
   - 'Developer Tools'
+  - 'Linux'
+  - 'Open Source'
   - 'Operating Systems'
   - 'Unix'
 CatalogContent:

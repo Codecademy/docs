@@ -8,6 +8,7 @@ Tags:
   - 'JavaScript'
   - 'Modules'
   - 'Node'
+  - 'Open Source'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'

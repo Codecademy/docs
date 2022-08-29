@@ -5,7 +5,6 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Frameworks'
   - 'Bootstrap'
   - 'Accessibility'
   - 'Animation'
@@ -13,8 +12,10 @@ Tags:
   - 'Color'
   - 'Flexbox'
   - 'Fonts'
+  - 'Frameworks'
   - 'Grid'
   - 'jQuery'
+  - 'Open Source'
   - 'Responsive'
   - 'Style'
 CatalogContent:

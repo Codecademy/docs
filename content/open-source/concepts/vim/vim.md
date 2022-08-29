@@ -5,9 +5,10 @@ Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
 Tags:
-  - 'Vim'
-  - 'Linux'
   - 'Developer Tools'
+  - 'Linux'
+  - 'Open Source'
+  - 'Vim'
 CatalogContent:
   - 'learn-the-command-line'
   - 'paths/computer-science'
