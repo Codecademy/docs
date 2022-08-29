@@ -23,7 +23,7 @@ The back-end of a program or web application serves data to the [front-end](http
 A common analogy for the relationship of the front-end and back-end are customers
 at a restaurant (on the "front-end):
 
-- They place their order (or "request") with the waiter/waitress (or server).
+- They place their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/server)).
 - The order is then taken to the kitchen (on the "back-end").
 - There, the order is prepared (or "processed") with the necessary ingredients (or "data") to produce the expected food item (or "response").
 - Finally, the food item is brought back out to the dining area for the customer.
@@ -33,13 +33,13 @@ at a restaurant (on the "front-end):
 Back-end web development can involve a variety of tasks, including:
 
 - Creating, integrating, and managing databases.
-- Using back-end frameworks to build server-side software.
+- Using back-end [frameworks](https://www.codecademy.com/resources/docs/general/framework) to build [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) software.
 - Validating data to make sure it's formatted correctly before being sent to the database.
 - Integrating user-facing elements with server-side elements to make sure that information is being sent to the right place so the server can retrieve it.
 
 ## Back-End Tools
 
-Back-End Developers use a range of technology and software, many of which fall into three categories: databases, programming languages, and frameworks.
+Back-End Developers use a range of technologies and softwares, many of which fall into three categories: databases, programming languages, and frameworks.
 
 ### Databases
 
@@ -58,7 +58,7 @@ Back-End Developers normally query their databases with various programming lang
 - [Ruby](https://www.codecademy.com/resources/docs/ruby) is a beginner-friendly language that has an enthusiastic programming community behind it.
 - [Python](https://www.codecademy.com/resources/docs/python) is a great choice with a concise, human-readable syntax.
 - [PHP](https://www.codecademy.com/resources/docs/php) is an open-source language that is great for server-side scripting.
-- [Node.js], which brings back-end work to [JavaScript](https://www.codecademy.com/resources/docs/javascript).
+- [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js), which brings back-end work to [JavaScript](https://www.codecademy.com/resources/docs/javascript).
 - [Java](https://www.codecademy.com/resources/docs/java) is a popular choice still widely used today.
 
 ### Frameworks
@@ -66,7 +66,7 @@ Back-End Developers normally query their databases with various programming lang
 Frameworks intend to make all aspects of web development more smooth and seamless, including back-end. This save developers time they would otherwise spend writing code. Popular frameworks include:
 
 - Sinatra, a lightweight Ruby framework for building web apps.
-- Ruby on Rails, a more robust Ruby framework that follows the model-view-controller standard.
+- [Ruby on Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails), a more robust Ruby framework that follows the model-view-controller standard.
 - Django, a Python framework that offers dynamic HTML pages.
 - Flask, a ligher Python framework meant for rapid development.
-- Express, a framework for building back-end APIs with JavaScript.
+- [Express](https://www.codecademy.com/resources/docs/open-source/express), a framework for building back-end APIs with JavaScript.

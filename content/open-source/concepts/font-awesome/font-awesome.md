@@ -16,6 +16,8 @@ CatalogContent:
 
 **Font Awesome** is an icon toolkit for the web, based on [CSS](https://www.codecademy.com/resources/docs/css) and [Less](https://lesscss.org/). It was developed by Dave Gandy in 2012 (originally for sites that used [Bootstrap](https://www.codecademy.com/resources/docs/general/bootstrap)). The [latest release](https://fontawesome.com/versions) is version 6 (February 2022). The first four versions (1-4) were free to use; all releases of Font Awesome since then (5 & 6) have paid and free versions.
 
+The free versions of Font Awesome is open source and General Public License (GLP) friendly.
+
 ## Syntax
 
 Font Awesome is commonly used via [HTML](https://www.codecademy.com/resources/docs/html) by including a line in the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element of the web page. This allows the use of the Font Awesome icons and their CSS modifiers. The line to include will differ depending on the version being used.

@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-hacking/" />
 
-Hacking involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" or "bad". It depends on many factors, including the intentions of the hacker.
+**Hacking** involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" or "bad". It depends on many factors, including the intentions of the hacker.
 
 ## Types of Hackers
 
@@ -28,7 +28,7 @@ These are the hackers that are notoriously regarded as "the bad guys" that infil
 - Steal credit card and/or bank account information.
 - Leak sensitive information to the public.
 - Take one company's sensitive data and give/sell it to another.
-- Steal large amounts of personal information and sell it to third parties
+- Steal large amounts of personal information and sell it to third parties.
 - Cripple a company's computer system by taking control of it and then holding it for ransome.
 - Steal and sell the login information for large amounts of users.
 
@@ -43,7 +43,7 @@ This puts system maintainers in a tough position as to whether it would be wise 
 
 ### White Hat Hackers
 
-White hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system.
+White hat hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system.
 
 A white hat hacker will normally engage directly with a company and listen to their concerns. Next, they will attempt to hack areas of their network to spot weaknesses. After they finish, they provide a report to the company and potential next steps.
 
@@ -77,4 +77,4 @@ Learning how hackers think, as well as the tools they often use, can be invaluab
 - [PHP](https://www.codecademy.com/resources/docs/php)
 - [Python](https://www.codecademy.com/resources/docs/python)
 - [R](https://www.codecademy.com/resources/docs/r)
-- [Bootstrap](https://www.codecademy.com/resources/docs/general/bootstrap)
+- [Bootstrap](https://www.codecademy.com/resources/docs/open-source/bootstrap)

@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-angular/" />
 
-[Angular](https://angular.io/) is a free, open-source framework that is [TypeScript](https://www.codecademy.com/resources/docs/typescript)-based and used for building single-page applications. It was created in 2016 by developers at Google and serves as the second, revamped version of the orginal, [JavaScript](https://www.codecademy.com/resources/docs/javascript)-based [AngularJS](https://angularjs.org/).
+[**Angular**](https://angular.io/) is a free, open-source [framework](https://www.codecademy.com/resources/docs/general/framework) that is [TypeScript](https://www.codecademy.com/resources/docs/typescript)-based and used for building single-page applications. It was created in 2016 by developers at Google and serves as the second, revamped version of the orginal, [JavaScript](https://www.codecademy.com/resources/docs/javascript)-based [AngularJS](https://angularjs.org/).
 
 Unlike [React](https://www.codecademy.com/resources/docs/react), which is technically a JavaScript library, Angular is a full-fledged framework.
 
