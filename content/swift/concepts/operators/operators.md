@@ -15,7 +15,7 @@ CatalogContent:
 
 ## Assignment Operator
 
-The assignment operator `=` in Swift is the same as in most other languages and serves the same purpose. It is used to initializae or reassign a variable to some value. In Swift, unlike some other high level programming languages like C or Java, the assignment operator does not return any values.
+The assignment operator `=` in Swift is the same as in most other languages and serves the same purpose. It is used to initialize or reassign a variable to some value. In Swift, unlike some other high-level programming languages like C or Java, the assignment operator does not return any values.
 
 ```swift
 var a = 5
@@ -37,7 +37,7 @@ Swift contains the following operators that match their similar expressions in c
 - `/` for division
 - `%` for modulus or remainder division
 
-These work as you would expect for all mathematical operations, however the `+` operator can also be used to concatenate two strings together such as `"Operators" + " in Swift" = "Operators in Swift"`.
+These work as you would expect for all mathematical operations, however, the `+` operator can also be used to concatenate two strings together such as `"Operators" + " in Swift" = "Operators in Swift"`.
 
 ## Comparison Operators
 
@@ -50,7 +50,7 @@ These operators are used to return `Bool` values for use in conditional statemen
 - `<` less than
 - `<=` less than or equal to
 
-The following code snippet shows a use cases of comparison operators in a `while` loop that will :
+The following code snippet shows a use case of comparison operators in a `while` loop that will :
 
 ```swift
 var countUp = 0
@@ -64,7 +64,7 @@ while countUp < countDown {
 
 ## Logical Operators
 
-Logical Operators are used to evaluate or modify the value of Beolean values and are especially useful in control flow logic, in Swift there are three operators:
+Logical Operators are used to evaluate or modify the value of Boolean values and are especially useful in control flow logic. In Swift, there are three operators:
 
 - `!` Logical NOT
 - `&&` Logical AND
@@ -79,14 +79,14 @@ if !earthIsFlat {
 }
 ```
 
-Logical AND (`&&`) and logical OR (`||`) operators evalute two Booleans or Boolean expressions. In an AND evaluation, both expressions must result in `true`, resulting in the overall AND expression becoming `true`. In an OR evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
+Logical `AND` (`&&`) and logical `OR` (`||`) operators evaluate two `Boolean`s or `Boolean` expressions. In an `AND` evaluation, both expressions must result in `true`, resulting in the overall `AND` expression becoming `true`. In an `OR` evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
 
 ```swift
 var iAmTrue = true
 var iAmFalse = false
 
 if (iAmTrue && iAmFalse) {
-  // Both sides are checked because the first value is true and the compiler needs to check right side' value
+  // Both sides are checked because the first value is true and the compiler needs to check the right side value
   print("Both values are 'true' and the AND operator returned 'true'.")
 } else if (iAmTrue || iAmFalse) {
   // Only the left side is evaluated, as soon as the compiler sees a 'true', it can reason that the OR requirements are met and will enter the 'else if' body
@@ -98,7 +98,7 @@ if (iAmTrue && iAmFalse) {
 
 ## Range Operators
 
-Range operators provide quick and convenient ways of creating various ranges or iterating over elements in an object. The three primary types are Closed ( `a...z` ), Half-Open (`a..<z`), and One-Sided (`a...`), each providing different limits on the range. Swift does not allow for the creation on decrementing ranges, therefore the value of the first variable must not be greater than the value of the second.
+Range operators provide quick and convenient ways of creating various ranges or iterating over elements in an object. The three primary types are Closed ( `a...z` ), Half-Open (`a..<z`), and One-Sided (`a...`), each providing different limits on the range. Swift does not allow for the creation of decrementing ranges, therefore the value of the first variable must not be greater than the value of the second.
 
 The Closed Range operator (`a...z`) creates a range that begins at `a` and continues to and includes, `z`. The most common use case for Closed Range Operators is in `for-in` loops.
 
@@ -119,7 +119,7 @@ You turned 3 years old!
 You turned 32 years old!
 ```
 
-Half-Open range operators(`a..<z`) create a range beginning at `a` and continue to `z` but not including `z`. They are commonly used when working with Arrays or other zero-indexed lists.
+Half-Open range operators(`a..<z`) create a range beginning at `a` and continue to `z` but not including `z`. They are commonly used when working with arrays or other zero-indexed lists.
 
 ```swift
 let picnic = ["Ceasar Salad", "Turkey Sandwich", "Cookie", "Juice Box"]
@@ -138,7 +138,7 @@ Item 3 in the picnic basket is a Cookie.
 Item 4 in the picnic basket is a Juice Box.
 ```
 
-The One-Sided range operator defines a range that will continue as far in one direction as possible. We can use this range to iterate from or to specific ranges inside of other fixed length entities.
+The One-Sided range operator defines a range that will continue as far in one direction as possible. We can use this range to iterate from or to specific ranges inside of other fixed-length entities.
 
 ```swift
 for food in picnic[...2] {
@@ -171,7 +171,7 @@ for i in infiniteRange {
 
 ## Nil-Coalescing Operator
 
-The nil-coalescing operator (`a ?? z`) unwraps an optional with the value of `a` unless `a` is nil, then it will return the value of `z`. `a` always has to be an optional type and `z` has to match the type that's stored in `a`.
+The nil-coalescing operator (`a ?? z`) unwraps an optional with the value of `a` unless `a` is `nil`, then it will return the value of `z`. `a` always has to be an optional type and `z` has to match the type that's stored in `a`.
 
 ```swift
 let defaultPrice = 1.99
@@ -180,7 +180,7 @@ var getItemPrice: Double?
 let priceToChargeCustomer = getItemPrice ?? defaultPrice
 ```
 
-Since getItemPrice isn't assigned a value it defaults to 'nil'. The price to charge the customer is either a price we get from an item or the default price. In this case, priceToChargeCustomer = 1.99
+Since `getItemPrice` isn't assigned a value it defaults to `'nil'`. The price to charge the customer is either a price we get from an item or the default price. In this case, priceToChargeCustomer = 1.99
 
 ## Ternary Conditional Operator
 

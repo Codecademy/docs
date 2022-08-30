@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'In Swift loops are used to repeatedly perform a statment(s) or block of code.'
+Description: 'In Swift loops are used to repeatedly perform a statement(s) or block of code.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Loops** are used to repeatedly perform a statement(s) or block of code. In Swift, the **`for`-`in`** loop and **`while`** loop are most common.
+**Loops** are used to repeatedly perform a statement(s) or block of code. In Swift, there is the **`for`-`in`** loop and **`while`** loop.
 
 ## `for`-`in` Loop
 

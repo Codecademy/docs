@@ -84,7 +84,7 @@ func findInt() {
 
 If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherwise, the `else` block will run and hit the `return` statement.
 
-> **Note:** The following ways to upwrap optionals is not recommended because it does not handle `nil` cases.
+> **Note:** The following way(s) to unwrap optionals is not recommended because it does not handle `nil` cases.
 
 ### Forced Upwrapping
 

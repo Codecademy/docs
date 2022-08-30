@@ -23,7 +23,7 @@ var dictionaryName = [
 ]
 ```
 
-Keys can be be used to access, remove, add, or modify its associated value. Every key in a dictionary is unique.
+Keys can be used to access, remove, add, or modify its associated value. Every key in a dictionary is unique.
 
 ```swift
 // Each key is unique even if they all contain the same value

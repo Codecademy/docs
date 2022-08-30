@@ -16,7 +16,7 @@ CatalogContent:
 
 All programming languages designate certain types of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift **data types** include `Int`, `Float`, `Double`, `String`, `Character`, and `Bool`. It is a type-safe language where variables hold values of a known data type.
 
-In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for accessing later.
+In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for later access.
 
 ## Basic Data Types
 
@@ -37,7 +37,7 @@ Integers are whole numbers such as `35` and `-123`. As you can see from the exam
 - `Int8`: Creates an 8-bit signed integer (range of -128 to 127)
 - `Int32`: Creates a 32-bit signed integer (range of -2,147,483,648 to 2,147,483,647)
 - `Int64`: Creates a 64-bit signed integer (range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
-- `UInt`: Unsigned (positivle values only) that is created in the same manner as a standard `Int`
+- `UInt`: Unsigned (positive values only) that is created in the same manner as a standard `Int`
 - `UInt8`: Creates an 8-bit unsigned integer (range of 0 to 255)
 - `UInt32`: Creates a 32-bit unsigned integer (range of 0 to 4,294,967,295)
 - `UInt64`: Creates a 64-bit unsigned integer (range of 0 to 18,446,744,073,709,551,615)
@@ -49,7 +49,7 @@ let verySmallInteger: Int8 = 16
 
 ## Floating Point Numbers
 
-A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approaximately half as much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. In fact, when you declare a variable without specifying the type, Swift will type inference a `Double` as a precaution.
+A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approximately half as much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. When a variable is declared without a specified type, Swift will type inference a `Double` as a precaution.
 
 ```swift
 let accountBalance: Float = 857.45

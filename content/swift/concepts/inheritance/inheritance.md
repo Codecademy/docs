@@ -107,7 +107,7 @@ class Tesla: Car {
 }
 ```
 
-When `.drive()` is called on an instance of the class, both the superclass and overriden versions of the method will be called:
+When `.drive()` is called on an instance of the class, both the superclass and overridden versions of the method will be called:
 
 ```swift
 modelY.drive()
