@@ -18,7 +18,7 @@ CatalogContent:
   - 'learn-r'
 ---
 
-**[Data Science]**(paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
+[**Data Science**](paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
 
 ## Application
 
