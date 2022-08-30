@@ -152,8 +152,6 @@ npm allows access to the hundreds of thousands of open-source packages available
 
 In addition to npm, [Yarn](https://yarnpkg.com/en/) is gaining popularity as another JS package manager.
 
-For more information and to see npm in action take our <a href="https://www.codecademy.com/courses/learn-javascript-transpilation/lessons/browser-compatibility-and-transpilation/exercises/browser-compatibility-introduction">Browser Compatibility and Transpilation</a> course.
-
 ## Node Versions
 
 Node's major releases aim to support the latest JS features including ES6/ES2015 and beyond without transpilation. A resource called [node.green](http://node.green/) provides a list of supported JS features in different versions of Node.
