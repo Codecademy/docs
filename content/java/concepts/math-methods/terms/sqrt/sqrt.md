@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sqrt()`** method returns the ` Square root ` of a value of type double passed to it as argument.
+The **`Math.sqrt()`** method returns the ` Square root ` of a number.
 
 ## Syntax
 
@@ -27,16 +27,21 @@ The `.sqrt()` method takes one parameters.
 To show working of `Math.sqrt()` method.  
 
 ```java
-
+public class Check {
+  public static void main(String args[]) {
+       double x = 64.0;  
+       System.out.println(Math.sqrt(x));
+       double y = 49.0;
+       System.out.println(Math.sqrt(y));
+   }
+}
 ```
 
 ## Output:
 
 ```java
-5.477225575051661
-6.708203932499369
-7.745966692414834
-9.486832980505138
+8.0
+7.0
 ```
 
 
