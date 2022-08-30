@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A loop is used to repeat some operation a multiple number of times. In R, there are `while` and `for` loops.
+A **loop** is used to repeat some operation a multiple number of times. In R, there are `while` and `for` loops.
 
 ## While Loop
 
