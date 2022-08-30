@@ -7,7 +7,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Cloud Computing** refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user. This is becoming more popular with businesses, and has even become ubiquitous in personal computing. Whenever a person sets up a website on GoDaddy, plays _World of Warcraft_, or streams a movie on Netflix, they are using a cloud computing solution.
+**Cloud computing** refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user. This is becoming more popular with businesses, and has even become ubiquitous in personal computing. Whenever a person sets up a website on GoDaddy, plays World of Warcraft, or streams a movie on Netflix, they are using a cloud computing solution.
 
 ## Advantages
 
