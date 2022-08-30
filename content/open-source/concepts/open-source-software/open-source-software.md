@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Open source software (OSS)** is source code that, through licensing, available for view, modification, and distribution. Although anyone in the public can contribute to OSS, it is usually maintained by a community of volunteer software developers who collaborate on websites like [GitHub](https://www.codecademy.com/resources/docs/general/github).
+**Open source software (OSS)** is source code that, through licensing, is available for view, modification, and distribution. Although anyone in the public can contribute to OSS, it is usually maintained by a community of volunteer software developers who collaborate on websites like [GitHub](https://www.codecademy.com/resources/docs/general/github).
 
 OSS is also thought to be more trustworthy. Since all the code is available to the public, any unwanted or nefarious behavior or activity will be quickly exposed by the development community surrounding the project.
 
