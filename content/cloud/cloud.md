@@ -19,4 +19,4 @@ Cloud computing offers the following advantages to the user:
 - Performance: A cloud solution will provide more powerful hardware than a business could afford in its own data center.
 - Cost: A cloud solution is typically more affordable than an on-prem solution offering the same capabilities.
 
-Generally, cloud computing removes the necessity of a business to maintain a dedicated data center, with all the hardware and personnel it requires, for a particular solution, allowing the business to allocate those resources to other tasks. Because of this, cloud solutions are increasing in popularity, especially with the increasing cost of keeping hardware and software up-to date.
+Generally, cloud computing removes the necessity of a business to maintain a dedicated data center, with all the hardware and personnel it requires, for a particular solution, allowing the business to allocate those resources to other tasks. Because of this, cloud solutions are increasing in popularity, especially with the increasing cost of keeping hardware and software up to date.
