@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[GraphQL](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
+[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
 
 ## History of GraphQL
 
