@@ -23,7 +23,7 @@ GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address i
 
 ## Why Adopt GraphQL?
 
-Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for a specific data instead of fetching a whole giant object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with databases, JSON files, REST APIs and cloud services.
+Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for a specific data instead of fetching a whole giant object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, REST APIs, and [cloud services](https://www.codecademy.com/resources/docs/general/cloud-computing).
 
 ## How GraphQL Works
 
