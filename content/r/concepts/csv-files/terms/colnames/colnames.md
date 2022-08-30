@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'Comparison'
   - 'Functions'
   - 'Data Structures'
 CatalogContent:
