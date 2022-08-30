@@ -39,7 +39,7 @@ Back-end web development can involve a variety of tasks, including:
 
 ## Back-End Tools
 
-Back-End Developers use a range of technologies and softwares, many of which fall into three categories: databases, programming languages, and frameworks.
+Back-End Developers use a range of technologies and software, many of which fall into three categories: databases, programming languages, and frameworks.
 
 ### Databases
 
