@@ -9,6 +9,16 @@ CatalogContent:
 
 **Cloud computing** refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user. This is becoming more popular with businesses, and has even become ubiquitous in personal computing. Whenever a person sets up a website on GoDaddy, plays World of Warcraft, or streams a movie on Netflix, they are using a cloud computing solution.
 
+## How does Cloud Computing work?
+
+The cloud computing service is divided into two sections, frontend and backend. They are connected through the Internet. The frontend consists of the client’s computer or computer network. On the backend, the cloud is made of the following:
+
+- Computers
+- Servers
+- Data Storage Systems
+
+A cloud computing system can implement any computer program, from data processing to video games. Generally, each application will have its dedicated server.
+
 ## Advantages
 
 Cloud computing offers the following advantages to the user:
