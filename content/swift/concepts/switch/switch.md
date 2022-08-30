@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `switch` statement is a type of conditional used to check the value of an expression against multiple cases.
+The **`switch`** statement is a type of conditional used to check the value of an expression against multiple cases.
 
 A `case` executes when it matches the value of the expression. When there are no matches between the `case` statements and the expression, the `default` statement executes.
 

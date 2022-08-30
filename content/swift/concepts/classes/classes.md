@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Classes serve as a template to define characteristics and behaviors of an object.
+**Classes** serve as a template to define characteristics and behaviors of an object.
 
 They are reference types, meaning all instances of a class carry the same characteristics and behaviors.
 

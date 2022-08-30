@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, a _set_ is used to store unique elements of the same data type.
+In Swift, a **set** is used to store unique elements of the same data type.
 
 ## Creating a Set
 

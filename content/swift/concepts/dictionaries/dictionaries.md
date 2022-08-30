@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A dictionary is an unordered collection of paired data, or `key: value` pairs.
+A **dictionary** is an unordered collection of paired data or `key: value` pairs.
 
 ```swift
 var dictionaryName = [
@@ -55,7 +55,7 @@ if let redHex = primaryHex["red"] {
 // Prints: The hex code for red is #ff0000
 ```
 
-**Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
+> **Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
 
 ## `.count` Property
 

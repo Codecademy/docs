@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A protocol is a collection of methods, properties, and rules that a `class`, `struct`, or `enum` can adopt.
+A **protocol** is a collection of methods, properties, and rules that a `class`, `struct`, or `enum` can adopt.
 
 ## Syntax
 

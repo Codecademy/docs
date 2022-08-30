@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Advanced operators in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few.
+**Advanced operators** in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few.
 
 Bitwise operators are used to manupilate the raw data bits of a structure, such as graphics, file inputs, or device drivers, while not common, these operators are very useful in their specific use cases. Swift also allows the overloading of the standard operators to include your own definition of the function.
 

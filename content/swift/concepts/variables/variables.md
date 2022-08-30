@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The Swift programming language allows values to be stored in two types of containers: `var` for variables and `let` for constants.
+In Swift, values to be stored in two types of containers: `var` for **variables** and `let` for **constants**.
 
 As the names imply, a variable's value can change or reassigned later in the program, while a constant's value cannot. It is best practice to use constants as much as possible to prevent accidentally reassigning values later on in a program.
 
@@ -20,7 +20,7 @@ As the names imply, a variable's value can change or reassigned later in the pro
 
 ## Declaring and Initializing Variables and Constants
 
-Variables and constants do not require initilization when declared. However, the variable or constant requires type annotation so thatwhen the compiler reads the code line-by-line, it can determine the data type at the time of the build. A `Use of undeclared type` error will be thrown otherwise. Swift also allows a wide range of characters to be used as constant and variable names including Unicode characters and emojis.
+Variables and constants do not require initialization when declared. However, the variable or constant requires type annotation so that when the compiler reads the code line-by-line, it can determine the data type at the time of the build. A `Use of undeclared type` error will be thrown otherwise. Swift also allows a wide range of characters to be used as constant and variable names including Unicode characters and emojis.
 
 ```swift
 var dailyTemperature: Int

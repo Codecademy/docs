@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Closures in Swift contain chunks of code that can be passed around and reused within the same code.
+**Closures** in Swift contain chunks of code that can be passed around and reused within the same code.
 
 They can store and capture references to variables and constants which is also referred to as closing over constants and variables. The best part is that all memory management is handled by Swift.
 

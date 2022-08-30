@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Optionals are types that deal with scenarios involving the potential presence or absence of a value (`nil`).
+**Optionals** are types that deal with scenarios involving the potential presence or absence of a value (`nil`).
 
 ## Syntax
 

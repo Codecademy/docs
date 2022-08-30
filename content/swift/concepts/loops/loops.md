@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'The for-in loop is used to iterate over collections, including strings and ranges.'
+Description: 'In Swift loops are used to repeatedly perform a statment(s) or block of code.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -13,6 +13,8 @@ CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
+
+**Loops** are used to repeatedly perform a statement(s) or block of code. In Swift, the **`for`-`in`** loop and **`while`** loop are most common.
 
 ## `for`-`in` Loop
 
@@ -33,7 +35,7 @@ h
 e
 ```
 
-## `continue` Keyword
+### `continue` Keyword
 
 The `continue` keyword will force the loop to move on to the next iteration.
 
@@ -54,7 +56,7 @@ The output would be:
 5
 ```
 
-## `break` Keyword
+### `break` Keyword
 
 To terminate a loop before its completion, use the `break` keyword.
 
@@ -77,7 +79,17 @@ e
 r
 ```
 
-## Using Underscore
+### Ranges
+
+Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
+
+```swift
+let zeroToThree = 0...3
+
+// zeroToThree: 0, 1, 2, 3
+```
+
+### Using Underscore
 
 Use `_` instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
 
@@ -93,6 +105,23 @@ The output would be:
 Olé
 Olé
 Olé
+```
+
+### `stride()` Function
+
+Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to, the (excluded) ending number, and how to increment/decrement from the start to the end.
+
+```swift
+for oddNum in stride(from: 1, to: 5, by: 2) {
+  print(oddNum)
+}
+```
+
+The output would be:
+
+```shell
+1
+3
 ```
 
 ## `while` Loop
@@ -111,31 +140,4 @@ while counter < stopNum {
 }
 
 // The loop prints until the stop condition is met
-```
-
-## Ranges
-
-Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
-
-```swift
-let zeroToThree = 0...3
-
-// zeroToThree: 0, 1, 2, 3
-```
-
-## `stride()` Function
-
-Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to, the (excluded) ending number, and how to increment/decrement from the start to the end.
-
-```swift
-for oddNum in stride(from: 1, to: 5, by: 2) {
-  print(oddNum)
-}
-```
-
-The output would be:
-
-```shell
-1
-3
 ```
