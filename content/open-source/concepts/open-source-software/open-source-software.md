@@ -18,7 +18,7 @@ OSS is also thought to be more trustworthy. Since all the code is available to t
 
 ## Examples
 
-Some examples of OSS softwares (along with their license and release year) include the following:
+Some examples of OSS software (along with their license and release year) include the following:
 
 |                                   Software Name                                    |             License              |            Release Year            | Description                                                                                                                                                                                                                                  |
 | :--------------------------------------------------------------------------------: | :------------------------------: | :--------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
