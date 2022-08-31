@@ -3,7 +3,7 @@ Title: 'realloc()'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Description: ''
+Description: 'Reallocates a block of memory that was previously allocated.'
 Tags:
   - 'Memory'
   - 'Memory Management'

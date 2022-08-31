@@ -1,1 +1,1 @@
-content/java/concepts/comments/comments.md
+content/general/concepts/prototype-pattern/prototype-pattern.md
