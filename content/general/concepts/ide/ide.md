@@ -1,6 +1,6 @@
 ---
 Title: 'IDE'
-Description: 'An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program. IDEs increase programmer productivity by combining common activities of writing software into a single application: editing source code, building executables, and debugging. Writing code is an important part of programming. We start with a blank file, write a few lines of code, and a program is born! IDEs facilitate this process with features like syntax highlighting and autocomplete. An IDE that knows the syntax of your language can provide visual cues. Keywords, words that have special meaning like class in Java, are highlighted with different colors. Compare these two code samples: pseudo // Without syntax highlighting'
+Description: 'An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.'
 Subjects:
   - 'Developer Tools'
   - 'Computer Science'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.
+An **IDE**, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.
 
 IDEs increase programmer productivity by combining common activities of writing software into a single application: editing source code, building executables, and debugging.
 
