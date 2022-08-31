@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
+[GraphQL](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.
 
 ## History of GraphQL
 
@@ -21,7 +21,7 @@ GraphQL was developed by Facebook in 2012 to address internal issues with their 
 
 ## Why adopt GraphQL?
 
-Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for a specific data instead of fetching a whole giant object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with databases, JSON files, REST APIs and [cloud services](https://www.codecademy.com/resources/docs/general/cloud-computing).
+Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for a specific data instead of fetching a whole giant object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with databases, JSON files, REST APIs and cloud services.
 
 ## How GraphQL works under the hood?
 
