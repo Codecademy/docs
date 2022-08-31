@@ -34,4 +34,4 @@ export CLASSPATH="Path"
 
 ## Online Java Compilers
 
-There are several sites that offer online Java compilers, allowing the entry of small Java programs in a web-based IDE and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.
+Several sites offer online Java compilers, allowing the entry of small Java programs in a web-based [IDE](https://www.codecademy.com/resources/docs/general/ide) and running them on the fly. [JDoodle](https://www.jdoodle.com/online-java-compiler/) is one such site that offers this ability.
