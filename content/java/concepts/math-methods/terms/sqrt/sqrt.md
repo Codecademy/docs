@@ -20,7 +20,7 @@ The **`Math.sqrt()`** method returns the square root of a double value passed to
 Math.sqrt(double num)
 ```
 
-The `.sqrt()` method takes one parameters.
+The `.sqrt()` method takes one parameter.
 
 ## Example
 
