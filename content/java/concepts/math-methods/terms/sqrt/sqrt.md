@@ -24,7 +24,7 @@ The `.sqrt()` method takes one parameters.
 
 ## Example
 
-To show working of `Math.sqrt()` method.  
+This example shows the working of the `Math.sqrt()` method.  
 
 ```java
 public class Check {
