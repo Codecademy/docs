@@ -85,3 +85,11 @@ There are numerous IDEs available, such as:
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com)
 
 The IDE you decide to use depends on what area of computer programming you wish to pursue. Some IDEs, like Android Studio and Xcode, are dedicated solely for building mobile applications.
+
+### Online IDEs
+
+There are many online IDEs that allow users to practice with snippets of code without installing any software on their local machine. Most provide support for several different languages.
+
+One example is Codecademy's own [Codebyte Editor](https://www.codecademy.com/codebyte-editor). It allows experimenting with [C++](https://www.codecademy.com/resources/docs/cpp), C#, [Go](https://www.codecademy.com/resources/docs/go), [JavaScript](https://www.codecademy.com/resources/docs/javascript), [PHP](https://www.codecademy.com/resources/docs/php), [Python 3](https://www.codecademy.com/resources/docs/python), [Ruby](https://www.codecademy.com/resources/docs/ruby) and Scheme.
+
+Another example is [JDoodle](https://www.jdoodle.com/) which offers support for over 75 languages including [Java](https://www.codecademy.com/resources/docs/java), [Python 2](https://www.codecademy.com/resources/docs/python), [R](https://www.codecademy.com/resources/docs/r) and [Swift](https://www.codecademy.com/resources/docs/swift).
