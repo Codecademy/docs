@@ -37,7 +37,7 @@ public class Check {
 }
 ```
 
-## Output:
+This results in the following output:
 
 ```java
 8.0
