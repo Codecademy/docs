@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sqrt()`** method returns the ` Square root ` of a number.
+The **`Math.sqrt()`** method returns the square root of a double value passed to it as an argument.
 
 ## Syntax
 
