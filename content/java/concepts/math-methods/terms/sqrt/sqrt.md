@@ -21,7 +21,12 @@ The **`Math.sqrt()`** method returns the positive, properly rounded square root 
 Math.sqrt(double num)
 ```
 
-The `.sqrt()` method takes one parameter.
+The return type of the `.sqrt()` method is a double. The data type of the `num` parameter is also a double. However, if a decimal is not provided, `num` will still be treated like a double-type.
+
+Some edge cases for the `.sqrt()` method include the following:
+
+ - If `num` is less than zero or it is not a numeric type (`NaN`), then `NaN` is returned.
+ - If `num` is positive infinity (`Double.POSITIVE_INFINITY`), then `Infinity` is returned. 
 
 ## Example
 
