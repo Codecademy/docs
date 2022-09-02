@@ -18,21 +18,21 @@ The **`.head()`** method sends a "head" request to a web server; it returns a re
 
 ## Syntax
 
-```python
+```py
 import requests
 
 requests.head("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
-## Example 1
+## Example
 
 The `.head()` method sends a request for data to a web server. The response object it returns contains the response headers (information about the web server's content) without including the content itself. Therefore, `.head()` is similar to `.get()`, but is usually faster.
 
 For example, `.head()` can check to make sure a website is responding, and see what content type is returned, without actually downloading the content:
 
-```python
+```py
 import requests
 
 response = requests.head("https://www.codecademy.com")
@@ -47,11 +47,11 @@ print(response.text)
 # Output: ''
 ```
 
-## Example 2
+## Codebyte Example
 
 The `.head()` method can also take in various parameters. These parameters allow a user to communicate additional information to the web server such as the content type that should be returned, and the user's authentication.
 
-```python
+```codebyte/python
 import requests
 
 headers = {
@@ -63,5 +63,3 @@ response = requests.head("https://www.codecademy.com", headers=headers)
 print(response.headers["Content-Type"])
 # Output: application/json; charset=utf-8
 ```
-
-Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
