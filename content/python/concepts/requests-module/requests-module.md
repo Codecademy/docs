@@ -8,6 +8,8 @@ Tags:
   - 'Modules'
   - 'APIs'
   - 'Strings'
+  - 'HTTP'
+  - 'Requests'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
