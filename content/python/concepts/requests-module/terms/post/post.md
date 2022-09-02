@@ -18,19 +18,19 @@ The **`.post()`** method sends a "post" request to a web server; it returns a re
 
 ## Syntax
 
-```python
+```py
 import requests
 
 requests.post("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a post request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
 
-## Example 1
+## Example
 
 The `.post()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or json, to send in the request body in order to create or update a resource.
 
-```python
+```py
 import requests
 
 data = {
@@ -40,7 +40,7 @@ data = {
 response = requests.post("https://codecademy.com", data=data)
 ```
 
-## Example 2
+## Codebyte Example
 
 The response object returned by the `.post` method contains various types of data, such as the webpage text, status code, and the reason for that response.
 
@@ -59,5 +59,3 @@ print(response.status_code)
 print(response.reason)
 # Output: OK
 ```
-
-Many different named parameters can be passed in to a post request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
