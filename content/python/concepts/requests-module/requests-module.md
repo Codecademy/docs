@@ -1,5 +1,5 @@
 ---
-Title: 'Requests'
+Title: 'Requests Module'
 Description: 'The requests module is the de facto standard for sending HTTP requests in Python.'
 Subjects:
   - 'Computer Science'
