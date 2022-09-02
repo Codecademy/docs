@@ -85,7 +85,7 @@ The test case can have `.setUp()` and `.tearDown()` methods defined. The `.setUp
 
 The call to `unittest.main()` runs the tests and provides the test script with a command-line interface.
 
-Running the above produces the following
+Running the above produces the following:
 
 ```shell
 $ python test.py
