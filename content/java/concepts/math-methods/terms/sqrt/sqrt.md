@@ -1,6 +1,6 @@
 ---
 Title: '.sqrt()'
-Description: 'Returns the square root of a double value passed to it as an argument.'
+Description: 'Returns the positive, properly rounded square root of a double-type value.'
 Subjects:
   - 'Computer Science'
 Tags:
