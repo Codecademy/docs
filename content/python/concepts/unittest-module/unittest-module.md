@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`unittest`** module provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. It is similar to unit testing frameworks in other languages. It allows for the automation of unit tests, sharing of setup and shutdown code for tests, and aggregation of tests into collections.
+The **`unittest`** module provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the automation of unit tests, sharing of setup and shutdown code for tests, and aggregation of tests into collections.
 
 ## Example
 
