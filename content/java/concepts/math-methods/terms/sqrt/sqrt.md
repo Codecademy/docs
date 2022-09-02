@@ -4,9 +4,10 @@ Description: 'Returns the positive, properly rounded square root of a double-typ
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Methods'
   - 'Arithmetic'
-  - 'Sqrt'
+  - 'Functions'
+  - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
