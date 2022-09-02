@@ -30,7 +30,7 @@ Some edge cases for the `.sqrt()` method include the following:
 
 ## Example
 
-This example shows the working of the `Math.sqrt()` method.  
+The following example showcases the `.sqrt()` method being applied to two variables:
 
 ```java
 public class Check {
