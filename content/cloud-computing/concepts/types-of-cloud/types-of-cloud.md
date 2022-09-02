@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-There are three types of cloud computing implementations.
+There are three **types** of cloud computing implementations:
 
 - **Public cloud:** Public clouds are owned and operated by third-party cloud service providers that deliver their computing resources like servers and storage over the Internet. Examples include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
 - **Private cloud:** Private cloud refers to cloud computing resources used exclusively by a single business or organization. A private cloud can be physically located on the company’s on-site data center. Some companies also pay third-party service providers to host their private cloud.
