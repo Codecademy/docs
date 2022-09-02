@@ -33,12 +33,17 @@ Since the beginning of the 21st century, data science has been used in generally
 
 ## Languages and Tools
 
-- Python (Matplotlib, Pandas, Scikit-learn, TensorFlow, NLTK)
-- R (ggplot2)
+- [Python](https://www.codecademy.com/resources/docs/python)
+  - Matplotlib
+  - [Pandas](https://www.codecademy.com/resources/docs/pandas)
+  - Scikit-learn
+  - TensorFlow
+  - NLTK
+- [R](https://www.codecademy.com/resources/docs/r) (ggplot2)
 - Excel
 - Tableau
-- SQL
-- Jupyter Notebook
+- [SQL](https://www.codecademy.com/resources/docs/sql)
+- [Jupyter Notebook](https://www.codecademy.com/resources/docs/general/jupyter-notebook)
 - MATLAB
 
 ## History
