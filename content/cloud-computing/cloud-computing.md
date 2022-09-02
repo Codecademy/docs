@@ -14,8 +14,8 @@ CatalogContent:
 The cloud computing service is divided into two sections, [front-end](https://www.codecademy.com/resources/docs/general/front-end) and [back-end](https://www.codecademy.com/resources/docs/general/back-end), that are connected through the Internet. The front-end consists of the client’s computer or computer network. On the back-end, the cloud is made of the following:
 
 - Computers
-- Servers
-- Data Storage Systems
+- [Servers](https://www.codecademy.com/resources/docs/general/server)
+- [Data Storage Systems](https://www.codecademy.com/resources/docs/general/database)
 
 A cloud computing system can implement any computer program, from data processing to video games. Generally, each application will have its dedicated server.
 
