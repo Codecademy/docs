@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In JavaScript, the reserved `JSON` object is used to convert values to JavaScript Object Notation ([JSON](https://www.codecademy.com/resources/docs/general/json)). It can also be used for parsing JSON values.
+In JavaScript, the reserved `JSON` object is used to convert values to JavaScript Object Notation ([JSON](https://www.codecademy.com/resources/docs/general/json)). It can also be used for parsing JSON values. `JSON` is a standard object built directly into JavaScript, so there is no need to import any external packages. `JSON` can not be constructed, and there are no functions which can create `JSON` objects.
 
 ## Syntax
 

@@ -14,7 +14,9 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-json" />
 
-**JavaScript Object Notation (JSON)** is a language-independent data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of a [JavaScript](https://www.codecademy.com/resources/docs/javascript) standard known as ([ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/). Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data.
+**JavaScript Object Notation (JSON)** is a language-independent data format that is readable, writable, and parsable for both humans and machines. JSON is based on the syntax of the third edition of a [JavaScript](https://www.codecademy.com/resources/docs/javascript) standard known as ([ECMAScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)). Many programming languages, such as [Python](https://www.codecademy.com/resources/docs/python), have implemented [libraries](https://www.codecademy.com/resources/docs/python/json-module) to parse and generate JSON-formatted data. JavaScript can parse JSON directly with the [`JSON` object](https://www.codecademy.com/resources/docs/javascript/json).
+
+Although JSON was originally based on a subset of JavaScript syntax, JSON is language independent and does not require JavaScript. JSON uses some conventions from C-descendent languages, such as C, C++, JavaScript, and Java.
 
 JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to be accessed in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
 

@@ -20,4 +20,15 @@ The `json` module provides tools for working with the [JavaScript Object Notatio
 import json
 ```
 
-The following functions are provided by this module:
+JSON in Python is based on the object-literal syntax of JavaScript. The following Python [data types](https://www.codecademy.com/resources/docs/python/data-types) can be converted to JSON strings in Python:
+
+- Tuple
+- List
+- Dict
+- String
+- Int
+- Float
+- Bool
+- NoneType
+
+The following functions are provided by the `json` module:
