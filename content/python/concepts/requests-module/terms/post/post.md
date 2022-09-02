@@ -44,7 +44,7 @@ response = requests.post("https://codecademy.com", data=data)
 
 The response object returned by the `.post` method contains various types of data, such as the webpage text, status code, and the reason for that response.
 
-```python
+```codebyte/python
 import requests
 
 data = {
