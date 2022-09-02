@@ -9,7 +9,7 @@ CatalogContent:
 
 **Cloud computing** refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user. This is becoming more popular with businesses, and has even become ubiquitous in personal computing. Whenever a person sets up a website on GoDaddy, plays World of Warcraft, or streams a movie on Netflix, they are using a cloud computing solution.
 
-## How does Cloud Computing work?
+## How Cloud Computing Works
 
 The cloud computing service is divided into two sections, [front-end](https://www.codecademy.com/resources/docs/general/front-end) and [back-end](https://www.codecademy.com/resources/docs/general/back-end), that are connected through the Internet. The front-end consists of the client’s computer or computer network. On the back-end, the cloud is made of the following:
 
