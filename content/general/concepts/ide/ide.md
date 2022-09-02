@@ -19,11 +19,11 @@ An IDE, or Integrated Development Environment, enables programmers to consolidat
 
 IDEs increase programmer productivity by combining common activities of writing software into a single application: editing source code, building executables, and debugging.
 
-## Common Features
+## Editing Source Code
 
 Writing code is an important part of programming. We start with a blank file, write a few lines of code, and a program is born! IDEs facilitate this process with features like syntax highlighting and autocomplete.
 
-### Syntax Highlighting
+## Syntax Highlighting
 
 An IDE that knows the syntax of your language can provide visual cues. Keywords, words that have special meaning like `class` in Java, are highlighted with different colors.
 
@@ -51,7 +51,7 @@ public class NiceDay {
 
 Syntax highlighting makes code easier to read by visually clarifying different elements of language syntax.
 
-### Autocompletion
+## Autocomplete
 
 When the IDE knows your programming language, it can anticipate what you’re going to type next!
 
@@ -59,13 +59,13 @@ We’ve seen statements with `System.out.println()` quite a bit so far. In an ID
 
 ![GIF](https://content.codecademy.com/courses/learn-java/revised-2019/autocomplete_v2.gif)
 
-### Building Executables
+## Building Executables
 
 Languages like Java and C++ are compiled languages. Before programs run, the source code of a **.java** or **.cpp** file must be transformed into an executable like **.class** or **.exe** by the compiler. Once compiled, the program can be run from the terminal.
 
 This compilation process is necessary for every program, so why not have the IDE do it for us? IDEs provide automated build processes for languages, so the act of compiling and executing code is abstracted away, like in Codecademy lessons.
 
-### Debugging
+## Debugging
 
 No programmer avoids writing bugs and programs with errors.
 
