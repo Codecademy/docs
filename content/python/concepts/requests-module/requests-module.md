@@ -17,7 +17,7 @@ CatalogContent:
 
 The **`requests`** module is the de facto standard for sending HTTP requests in Python.
 
-It abstracts the complexities of making requests behind a simple API so that code can focus on interacting with services and consuming data in the application.
+It abstracts the complexities of making requests behind an [API](https://www.codecademy.com/resources/docs/general/api) so that code can focus on interacting with services and consuming data in the application.
 
 The HTTP request returns a Response Object with all the response data (content, encoding, status, etc).
 
