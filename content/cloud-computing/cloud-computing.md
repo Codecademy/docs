@@ -11,7 +11,7 @@ CatalogContent:
 
 ## How does Cloud Computing work?
 
-The cloud computing service is divided into two sections,[ front-end](https://www.codecademy.com/resources/docs/general/front-end) and [back-end](https://www.codecademy.com/resources/docs/general/back-end), that are connected through the Internet. The front-end consists of the client’s computer or computer network. On the back-end, the cloud is made of the following:
+The cloud computing service is divided into two sections, [front-end](https://www.codecademy.com/resources/docs/general/front-end) and [back-end](https://www.codecademy.com/resources/docs/general/back-end), that are connected through the Internet. The front-end consists of the client’s computer or computer network. On the back-end, the cloud is made of the following:
 
 - Computers
 - Servers
