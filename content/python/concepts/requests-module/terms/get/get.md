@@ -18,7 +18,7 @@ The **`.get()`** method sends a "get" request to a web server; it returns a resp
 
 ## Syntax
 
-```python
+```py
 import requests
 
 requests.get("url", **kwargs)
