@@ -24,7 +24,7 @@ When programming languages implement serialization, they often require special d
 
 Here is a simple example of serialization in Python:
 
-```python
+```py
 import json
 
 def SerializeDict(input_dict):
