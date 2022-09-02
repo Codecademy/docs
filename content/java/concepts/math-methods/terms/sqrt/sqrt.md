@@ -49,5 +49,3 @@ This results in the following output:
 8.0
 7.0
 ```
-
-
