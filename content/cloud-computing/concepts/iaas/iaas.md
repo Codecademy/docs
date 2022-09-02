@@ -1,6 +1,6 @@
 ---
 Title: 'IaaS'
-Description: 'Infrastructure as a service (IaaS) is a type of cloud computing service offering remote computer, storage and networking resources that are available on demand'
+Description: 'Infrastructure as a service (IaaS) cloud computing model that offers remote computer, storage, and networking resources that are available on demand'
 Subjects:
   - 'Computer Science'
   - 'Networking'
