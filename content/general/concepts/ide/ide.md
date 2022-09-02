@@ -23,7 +23,7 @@ IDEs increase programmer productivity by combining common activities of writing 
 
 Writing code is an important part of programming. We start with a blank file, write a few lines of code, and a program is born! IDEs facilitate this process with features like syntax highlighting and autocomplete.
 
-## Syntax Highlighting
+### Syntax Highlighting
 
 An IDE that knows the syntax of your language can provide visual cues. Keywords, words that have special meaning like `class` in Java, are highlighted with different colors.
 
