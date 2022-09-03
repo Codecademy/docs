@@ -14,6 +14,8 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+<link rel="canonical" href="https://www.codecademy.com/article/what-is-node" />
+
 [**Node.js**](https://nodejs.org/en) (or "Node") is a free, open-source [JavaScript (JS)](https://www.codecademy.com/resources/docs/javascript) runtime environment for [back-end](https://www.codecademy.com/resources/docs/general/back-end) development and building [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) or desktop applications.
 
 Written in [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.codecademy.com/resources/docs/cpp), and JS, Node.js is built on the open-source [V8](https://v8.dev/) JS engine, used to power browsers such as Google Chrome. As V8 supports new features in JS, they are incorporated into Node.
@@ -32,16 +34,16 @@ Node provides access to several important global objects for use with Node progr
 
 - `module` is an object referring to the functionality that will be exported from a file. In Node, each file is treated as a module.
 - `require()` is a function used to import modules from other files or Node packages.
-- `process` is an object referencing to the actual computer <a href="https://en.wikipedia.org/wiki/Process_(computing)">process</a> running a Node program and allows for access to command-line arguments and much more.
+- `process` is an object referencing to the actual computer process running a Node program and allows for access to command-line arguments and much more.
 
 ### Modules
 
 Node has a many built-in modules to aid in interactions with the [terminal](https://www.codecademy.com/resources/docs/general/terminal), the computer file system, and the Internet. These include:
 
-- <a href="https://nodejs.org/dist/latest/docs/api/http.html">HTTP</a> and <a href="https://nodejs.org/dist/latest/docs/api/https.html" >HTTPS</a> for creating web servers.
-- <a href="https://nodejs.org/dist/latest/docs/api/fs.html">File System</a>, <a href="https://nodejs.org/dist/latest/docs/api/os.html" >OS</a>, and <a href="https://nodejs.org/dist/latest/docs/api/path.html" >Path</a> for interacting with the file system, operating system, and file/directory paths.
+- [HTTP](https://nodejs.org/dist/latest/docs/api/http.html) and [HTTPS](https://nodejs.org/dist/latest/docs/api/https.html) for creating web servers.
+- [File System](https://nodejs.org/dist/latest/docs/api/fs.html), [OS](https://nodejs.org/dist/latest/docs/api/os.html), and [Path](https://nodejs.org/dist/latest/docs/api/path.html) for interacting with the file system, operating system, and [file/directory paths](https://www.codecademy.com/resources/docs/general/file-paths).
 
-You can view the full <a href="https://nodejs.org/dist/latest/docs/api/" target="_blank">docs</a> to see more of Node's built-in features.
+More information about Node's built-in features can be found [here](https://nodejs.org/dist/latest/docs/api/)
 
 ## Why Node?
 
