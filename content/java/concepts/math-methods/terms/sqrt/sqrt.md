@@ -25,8 +25,8 @@ The return type of the `.sqrt()` method is a double. The data type of the `num` 
 
 Some edge cases for the `.sqrt()` method include the following:
 
- - If `num` is less than zero or it is not a numeric type (`NaN`), then `NaN` is returned.
- - If `num` is positive infinity (`Double.POSITIVE_INFINITY`), then `Infinity` is returned. 
+- If `num` is less than zero or it is not a numeric type (`NaN`), then `NaN` is returned.
+- If `num` is positive infinity (`Double.POSITIVE_INFINITY`), then `Infinity` is returned.
 
 ## Example
 
