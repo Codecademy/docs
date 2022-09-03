@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.pow()`** method returns the first argument raised to the power of the second argument.
+The **`Math.pow()`** method returns a double value of the first argument raised to the power of the second argument.
 
 ## Syntax
 
