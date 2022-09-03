@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[**Express**](https://expressjs.com/), or Express.js, is an open-source, [back-end](https://www.codecademy.com/resources/docs/general/back-end) web [framework](https://www.codecademy.com/resources/docs/general/framework) for [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) applications. It is primarily used to build web applications and [APIs](https://www.codecademy.com/resources/docs/general/api) and provide network request functionality. In order to use Express, Node.js must be installed.
+[**Express**](https://expressjs.com/), or Express.js, is an open-source, [back-end](https://www.codecademy.com/resources/docs/general/back-end) web [framework](https://www.codecademy.com/resources/docs/general/framework) for [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) applications. It is primarily used to build web applications and [APIs](https://www.codecademy.com/resources/docs/general/api) and provide network request functionality. To use Express, Node.js must be installed.
 
 ## Popularity with tech stacks
 

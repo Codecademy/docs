@@ -74,7 +74,9 @@ While not a 100%-guaruntee, steps can be taken to protect against malicious hack
 
 Learning how hackers think, as well as the tools they often use, can be invaluable. This involves the following programming languages and tools:
 
+- [Bootstrap](https://www.codecademy.com/resources/docs/open-source/bootstrap)
+- [C](https://www.codecademy.com/resources/docs/c)
+- [C++](https://www.codecademy.com/resources/docs/cpp)
 - [PHP](https://www.codecademy.com/resources/docs/php)
 - [Python](https://www.codecademy.com/resources/docs/python)
 - [R](https://www.codecademy.com/resources/docs/r)
-- [Bootstrap](https://www.codecademy.com/resources/docs/open-source/bootstrap)

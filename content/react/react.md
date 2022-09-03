@@ -9,7 +9,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-react/" />
 
-[**React**](https://reactjs.org/) is a free and [open source](https://www.codecademy.com/resources/docs/open-source) [JavaScript](https://www.codecademy.com/resources/docs/javascript) library for building user interfaces or [front-end](https://www.codecademy.com/resources/docs/general/front-end) webpage components such as forms along wiht fields like text areas and buttons.
+[**React**](https://reactjs.org/) is a free and [open-source](https://www.codecademy.com/resources/docs/open-source) [JavaScript](https://www.codecademy.com/resources/docs/javascript) library for building user interfaces or [front-end](https://www.codecademy.com/resources/docs/general/front-end) webpage components such as forms along with fields like text areas and buttons.
 
 Since its release in 2013, React has been maintained by Meta (formerly Facebook) along with a community of developers and companies.
 

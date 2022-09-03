@@ -23,16 +23,16 @@ GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address i
 
 ## Why Adopt GraphQL?
 
-Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for a specific data instead of fetching a whole giant object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, REST APIs, and [cloud services](https://www.codecademy.com/resources/docs/general/cloud-computing).
+Before discussing GraphQL, developers should be familiar with REST. One of REST's disadvantages is that it can result in an excessive number of HTTP queries or too much data being fetched. GraphQL aims to improve upon REST philosophy by allowing developers to ask for specific data instead of fetching a large object. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, REST APIs, and [cloud services](https://www.codecademy.com/resources/docs/general/cloud-computing).
 
 ## How GraphQL Works
 
 A common GraphQL workflow can be seen below:
 
 1. First, specific data is requested from the client via a query to GraphQL server.
-2. In order to get that data, a function on the GraphQL server is invoked.
-3. Lastly, GraphQL server return the specific data requested by the client.
+2. To get that data, a function on the GraphQL server is invoked.
+3. Lastly, GraphQL server returns the specific data requested by the client.
 
 ## Who Is Using GraphQL?
 
-GraphQL is used by a wide range of businesses, from large to small. Some bigger names include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), Twitter, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).
+GraphQL is used by a wide range of businesses, from large to small. Some bigger companies include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), Twitter, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).

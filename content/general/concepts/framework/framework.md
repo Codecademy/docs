@@ -14,7 +14,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-framework/" />
 
-**Frameworks** are software that provide reusable boilerplate code and functionality for building applications. They are commonly associated with a specific programming language and are suited to different types of tasks.
+**Frameworks** are tools that provide reusable boilerplate code and functionality for building applications. They are commonly associated with a specific programming language and are suited to different types of tasks.
 
 Using frameworks can save time and reduces the risk of hard-to-find errors. Plus, frameworks have already been tested, so there's less to worry about. Other advantages include:
 

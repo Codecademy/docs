@@ -24,7 +24,7 @@ Written in [C](https://www.codecademy.com/resources/docs/c), [C++](https://www.c
 
 JS has existed since 1995 and has since taken over as the dominant language for web development. For much of its life, JS was used mainly for client-side scripting inside [`<script>`](https://www.codecademy.com/resources/docs/html/elements/script) elements executing in web browsers. This limitation meant that developers were often working in many different languages and frameworks between the [front-end](https://www.codecademy.com/resources/docs/general/front-end) (client-side) and back-end (server-side) aspects of a web application.
 
-Although there were other projects to bring JS to server-side applications, the functionality took off with the launch of Node.js in 2009. Node allows developers to write JS code that runs directly in a computer process itself instead of in a browser. Node can, therefore, be used to write server-side applications with access to the operating system, file system, and everything else required to build fully-functional applications.
+Although there were other projects to bring JS to server-side applications, the functionality took off with the launch of Node.js in 2009. Node allows developers to write server-side JS code that can directly access a computer's operating system and processes such as input/output and file storage.
 
 ## Node-Specific Functionality
 
@@ -49,7 +49,7 @@ More information about Node's built-in features can be found [here](https://node
 
 Per the <a href="https://nodejs.org/">Node.js homepage</a>, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JS code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
 
-To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This callback will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error occurred in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, but it will be `null` if no error occurs.
+To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This function will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error occurred in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, that will be `null` if no error occurs.
 
 ```js
 const fs = require('fs');
@@ -150,16 +150,16 @@ This can be tested by running `node` in a terminal or check out the <a href="htt
 
 Node packages are a convenient way to share modules between Node developers. The service [npm](https://www.codecademy.com/resources/docs/javascript/npm) is the default package manager for Node; it becomes available after Node is installed.
 
-npm allows access to the hundreds of thousands of open-source packages available.
+npm allows access to the many open-source packages available.
 
 In addition to npm, [Yarn](https://yarnpkg.com/en/) is gaining popularity as another JS package manager.
 
 ## Node Versions
 
-Node's major releases aim to support the latest JS features including ES6/ES2015 and beyond without transpilation. A resource called [node.green](http://node.green/) provides a list of supported JS features in different versions of Node.
+Node's major releases aim to support the latest JS features including ES2015 (ES6) and beyond without transpiling to an earlier JS version at runtime. A resource called [node.green](http://node.green/) provides a list of supported JS features in different versions of Node.
 
 ### Version Management
 
-As with any major release of software, top-level Node releases (8.x, 7.x, etc.) sometimes introduce breaking changes in applications built in older versions of the environment. A version manager can be used to switch between multiple versions of Node on a single computer.
+As with any major release of software, top-level Node releases (8.x, 7.x, etc.) sometimes introduce error-causing changes in applications built in older versions of the environment. A version manager can be used to switch between multiple versions of Node on a single computer.
 
 There are two version managers that provide this functionality: [nvm (Node Version Manager)](https://github.com/creationix/nvm) and [n](https://github.com/tj/n) (which can be installed as an npm package).

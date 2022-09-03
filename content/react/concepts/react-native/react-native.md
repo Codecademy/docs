@@ -17,9 +17,9 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-react-native/" />
 
-[**React Native**](https://reactnative.dev/) is an [open-source](https://www.codecademy.com/resources/docs/open-source) mobile development [framework](https://www.codecademy.com/resources/docs/general/framework) that works across different operating systems like iOS and Android. It was released in 2015 by Facebook (now Meta) and can be used on many smart devices, such as phones, personal computers, and TVs, to provide a consistent interface and user experience.
+[**React Native**](https://reactnative.dev/) is an [open-source](https://www.codecademy.com/resources/docs/open-source) mobile development [framework](https://www.codecademy.com/resources/docs/general/framework) that works across different operating systems such as iOS and Android. It was released in 2015 by Facebook (now Meta) and can be used on many smart devices, such as phones, personal computers, and TVs, to provide a consistent interface and user experience.
 
-Traditional mobile app development required multiple codebases for each operating system (iOS, Android, AppleTV, etc.) along with their associated programming languages such as [Swift](https://www.codecademy.com/resources/docs/swift) and [Java](https://www.codecademy.com/resources/docs/java). However, React Native provides a single codebase written in [React](https://www.codecademy.com/resources/docs/react)-based [JavaScript](https://www.codecademy.com/resources/docs/javascript) and rendered in the device's native language.
+Traditional mobile app development required multiple codebases for each operating system along with their associated programming languages (e.g., [Swift](https://www.codecademy.com/resources/docs/swift) for iOS or [Java](https://www.codecademy.com/resources/docs/java) or Kotlin for Android). However, React Native provides a single codebase written in [React](https://www.codecademy.com/resources/docs/react)-based [JavaScript](https://www.codecademy.com/resources/docs/javascript) and rendered in the device's native language.
 
 ## Getting Started
 

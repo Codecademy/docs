@@ -1,6 +1,6 @@
 ---
 Title: 'Bootstrap'
-Description: 'Bootstrap is an open-source CSS framework created to help style web pages with mobile first considerations in mind.'
+Description: 'Bootstrap is an open-source CSS framework created to help style web pages with mobile-first considerations in mind.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
