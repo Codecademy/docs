@@ -35,7 +35,7 @@ The following example showcases the `.sqrt()` method being applied to two variab
 ```java
 public class Check {
   public static void main(String args[]) {
-       double x = 64.0;  
+       double x = 64.0;
        System.out.println(Math.sqrt(x));
        double y = 49.0;
        System.out.println(Math.sqrt(y));
