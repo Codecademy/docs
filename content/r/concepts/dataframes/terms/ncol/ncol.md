@@ -33,6 +33,8 @@ Suppose there exists a `patients.csv` file with the following information:
 | Toby       | Spencer   | 11/16/1953 |
 | Sandra     | Speller   | 07/05/1989 |
 
+The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-types) can be read in and the `ncol()` function can be used to retrieve the number of columns: 
+
 ```r
 # Read in file
 df <- read.csv("patients.csv")

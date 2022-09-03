@@ -119,7 +119,3 @@ higherGrades <- subset(data, Grade > 8)
 # Write the subset into a new CSV file
 write.csv(higherGrades, "highSchoolers.csv")
 ```
-
-## Built-in Functions
-
-There are several built-in functions that can be used to analyze data within CSV files. Some of which are listed below:

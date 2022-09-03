@@ -1,6 +1,6 @@
 ---
 Title: 'colnames()'
-Description: 'Returns or sets the names of the columns in a matrix-like object.'
+Description: 'Returns or sets the names of the columns in a data frame .'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`colnames()`** function returns or sets the names of the columns in a matrix-like object.
+The **`colnames()`** function returns or sets the names of the columns in a data frame.
 
 ## Syntax
 
@@ -25,10 +25,10 @@ colnames(object)
 Column names can be set with this syntax:
 
 ```pseudo
-colnames(object) <- value
+colnames(df) <- value
 ```
 
-- `object`: A matrix-like object.
+- `df`: A data frame.
 - `value` : Vector containing column names, must be the same length as the amount of columns in the original data frame.
 
 ## Example
@@ -42,7 +42,7 @@ Suppose there is a "transactions.csv" file with the following information in it:
 | 30-07-2022 | 13:05 | 15.93  | Yes  |
 | 22-07-2022 | 11:30 | 6.99   | Yes  |
 
-The column names can be retrieved:
+The column names can be retrieved by reading in the [CSV file](https://www.codecademy.com/resources/docs/r/data-types) and using the `colnames()` function:
 
 ```r
 df <- read.csv("transactions.csv")
@@ -59,7 +59,7 @@ The above returns:
 The column names can be changed as follows:
 
 ```r
-# Reading in csv file
+# Reading in CSV file
 df <- read.csv("transactions.csv")
 
 # Change column names
