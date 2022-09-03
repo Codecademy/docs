@@ -4,6 +4,7 @@ Description: 'Returns the first argument raised to the power of the second argum
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Functions'
   - 'Methods'
   - 'Arithmetic'
 CatalogContent:
@@ -16,10 +17,10 @@ The **`Math.pow()`** method returns a double value of the first argument raised 
 ## Syntax
 
 ```pseudo
-Math.pow(b, p)
+Math.pow(base, exponent)
 ```
 
-`b` and `p` are both `double` values.
+The `base` and `exponent` arguments are both `double` values.
 
 ## Example
 
@@ -30,9 +31,9 @@ public class Main {
   public static void main(String[] args) {
 
     double base = 3.0;
-    double power = 2.0;
+    double exponent = 2.0;
 
-    System.out.println(Math.pow(base, power));
+    System.out.println(Math.pow(base, exponent));
     // Output: 9.0
   }
 }
