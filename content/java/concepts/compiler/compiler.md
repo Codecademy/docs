@@ -24,6 +24,8 @@ The Java compiler is executed on the command line in [Unix](https://www.codecade
 
 ```shell
 javac ProgramName.java
+
+Java options ProgramName.java
 ```
 
 Where `ProgramName` is the name of a given `.java` file. Part of the configuration of Java requires setting up the classpath so the Java compiler can find `ProgramName.java` in the filesystem. This can be done by using the `-classpath` option with the `javac` compiler command, or by setting the `CLASSPATH` environment variable.
