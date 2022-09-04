@@ -25,19 +25,19 @@ Data Frames can be created using the data.frame() function.
 data.frame(arguments)
 ```
 
-- `arguments` are the list of vectors with the values to be used in the data frame. 
+- `arguments` are the list of vectors with the values to be used in the data frame.
 
-*Note:* Each vector should be of the same length.
+_Note:_ Each vector should be of the same length.
 
 ### Example
 
 The following example saves a sample of team stat values into a data frame:
 
 ```r
-team.stats <- data.frame(Team = c("Aces","Sky","Mystics", "Storm", "Sun", "Liberty"), 
-                         Games_Played = c( 4, 5, 2, 4, 5, 3), 
-                         Wins = c(3, 3, 0, 3, 3, 1), 
-                         Losses = c(1,2,2,1,2,2), 
+team.stats <- data.frame(Team = c("Aces","Sky","Mystics", "Storm", "Sun", "Liberty"),
+                         Games_Played = c( 4, 5, 2, 4, 5, 3),
+                         Wins = c(3, 3, 0, 3, 3, 1),
+                         Losses = c(1,2,2,1,2,2),
                          Win_Percentage = c(.750, .600, .000, .750, .600, .333))
 
 print(team.stats)

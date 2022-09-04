@@ -34,7 +34,7 @@ Suppose a `supplies.csv` exists with the following information:
 | Duster | 10              | 5.5   |
 | Mop    | 5               | 10    |
 
-The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-types) can be read in and the `nrow()` function can be used to retrieve the number of rows: 
+The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-types) can be read in and the `nrow()` function can be used to retrieve the number of rows:
 
 ```r
 # Read in file
