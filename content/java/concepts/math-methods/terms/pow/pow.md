@@ -36,22 +36,27 @@ public class Main {
     double exponent = 2.0;
 
     System.out.println(Math.pow(base, exponent));
-    // Output: 9.0
 
     System.out.println(Math.pow(base, 0.0));
-    // Anytime the exponent is 0 the output will be 1.0
 
     System.out.println(Math.pow(0.0, exponent));
-    // Anytime the base is 0 and the exponent is greater than 0 the output will 0.0
 
     double notANumber = Double.NaN;
     double negInfinity = Double.NEGATIVE_INFINITY;
 
     System.out.println(Math.pow(notANumber, exponent));
-    // Anytime the base is NaN and the exponent is nonzero the output will NaN
 
     System.out.println(Math.pow(0.0, negInfinity));
-    // Anytime the base is 0 and the exponent is less than 0, the output will be Infinity
   }
 }
+```
+
+This will produce the following output:
+
+```shell
+9.0
+1.0
+0.0
+NaN
+Infinity
 ```
