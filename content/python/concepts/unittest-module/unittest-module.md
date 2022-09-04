@@ -94,7 +94,7 @@ $ python test.py
 Ran 4 tests in 0.001s
 ```
 
-Using the `-v` option on the command line will produce a more verbose test.
+Using the `-v` option on the command line will produce a more verbose test:
 
 ```shell
 $ python test.py -v
