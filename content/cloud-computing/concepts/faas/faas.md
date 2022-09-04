@@ -5,9 +5,9 @@ Subjects:
   - 'Computer Science'
   - 'Networking'
 Tags:
-  - 'Networking'
   - 'Cloud'
   - 'Functions'
+  - 'Development'
 CatalogContent:
   - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
