@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Function as a service (FaaS)** is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for application development and deployment. The application functionality is developed and hosted on the cloud resulting in a "serverless" architecture. 
+**Function as a service (FaaS)** is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for application development and deployment. The application functionality is developed and hosted on the cloud resulting in a "serverless" architecture.
 
 ## History
 
