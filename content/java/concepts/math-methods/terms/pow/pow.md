@@ -22,7 +22,7 @@ Math.pow(base, exponent)
 
 The `base` and `exponent` arguments are both `double` values.
 
-It's important to note that edge cases with special arguments such as `0.0`, `infinity` or `NaN` will produce special results as shown in the example below.
+It's important to note that edge cases with special arguments such as `0.0`, `infinity`， or `NaN` will produce special results as shown in the example below.
 
 ## Example
 
