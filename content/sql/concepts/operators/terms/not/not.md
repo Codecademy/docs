@@ -1,6 +1,6 @@
 ---
 Title: NOT
-Description: 'Query items that return NOT TRUE for some condition/conditions.'
+Description: 'Queries for items in an expression that return NOT TRUE for some condition(s).'
 Subjects:
   - 'Data Science'
   - 'Computer Science'
@@ -17,15 +17,24 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Query items that return `NOT TRUE` for some condition/conditions.
+The **`NOT`** operator is used to query for items in a table that return `NOT TRUE` for some condition(s).
 
 ## Syntax
 
-```sql
+```pseudo
 SELECT column1, column2, ...
 FROM table_name
 WHERE column NOT condition;
 ```
+
+The `condition` will usually involve comparison operators such as the following:
+
+- `=`: Equal to
+- `>`: Greater than
+- `<`: Less than
+- `>=`: Greater than or equal to
+- `<=`: Less than or equal to
+- `!=`: Not equal
 
 ## Example 1
 

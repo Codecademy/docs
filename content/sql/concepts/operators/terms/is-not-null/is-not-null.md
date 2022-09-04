@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Checks if a value is not `NULL`.
+The **`IS NOT NULL`** operator checks if a value is not equal to `NULL`.
 
 ## Syntax
 

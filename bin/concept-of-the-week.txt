@@ -1,1 +1,1 @@
-content/java/concepts/comments/comments.md
+content/react/concepts/lifecycle-methods/lifecycle-methods.md
