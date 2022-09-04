@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`requests`** module is the de facto standard for sending HTTP requests in Python.
+The **`requests`** module is the de facto standard for sending [HTTP](https://www.codecademy.com/resources/docs/general/http) requests in Python.
 
 It abstracts the complexities of making requests behind an [API](https://www.codecademy.com/resources/docs/general/api) so that code can focus on interacting with services and consuming data in the application.
 
