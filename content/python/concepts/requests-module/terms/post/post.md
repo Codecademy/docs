@@ -42,7 +42,7 @@ response = requests.post("https://codecademy.com", data=data)
 
 ## Codebyte Example
 
-The response object returned by the `.post` method contains various types of data, such as the webpage text, status code, and the reason for that response.
+The response object returned by the `.post()` method contains various types of data, such as the webpage text, status code, and the reason for that response.
 
 ```codebyte/python
 import requests
