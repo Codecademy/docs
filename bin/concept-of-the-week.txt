@@ -1,1 +1,1 @@
-content/general/concepts/void/void.md
+content/react/concepts/lifecycle-methods/lifecycle-methods.md
