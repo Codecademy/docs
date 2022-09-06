@@ -8,6 +8,7 @@ Tags:
   - 'Cloud'
   - 'Functions'
   - 'Development'
+  - 'Infrastructure'
 CatalogContent:
   - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
