@@ -28,7 +28,7 @@ requests.post("url", **kwargs)
 
 ## Example
 
-The `.post()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or json, to send in the request body in order to create or update a resource.
+The `.post()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or json, to send in the request body to create or update a resource.
 
 ```py
 import requests
