@@ -13,7 +13,8 @@ body:
       label: Reason/inspiration (optional)
       placeholder: Tell us more about why you would like to add this to Docs?
   - type: markdown
-    value: Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) when working on the PR for this issue.
+    attributes:
+      value: Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) when working on the PR for this issue.
   - type: dropdown
     id: entries
     attributes:
