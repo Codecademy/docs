@@ -1,6 +1,6 @@
 ---
 Title: '.post()'
-Description: 'Sends a post request to a web server; it returns a response object.'
+Description: 'Sends a POST request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.post()`** method sends a "post" request to a web server; it returns a response object.
+The **`.post()`** method sends a POST request to a web server; it returns a response object.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ import requests
 requests.post("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a post request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a POST request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
 
 ## Example
 
