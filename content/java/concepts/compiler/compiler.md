@@ -22,7 +22,7 @@ Most of these compilers do little to no optimization of the code, leaving that t
 
 The Java compiler is executed on the command line in [Unix](https://www.codecademy.com/resources/docs/general/unix) or DOS shells as follows:
 
-```shell
+```pseudo
 javac ProgramName.java
 
 javac options ProgramName.java
