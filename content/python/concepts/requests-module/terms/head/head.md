@@ -1,6 +1,6 @@
 ---
 Title: '.head()'
-Description: 'Sends a head request to a web server; it returns a response object.'
+Description: 'Sends a HEAD request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.head()`** method sends a "head" request to a web server; it returns a response object.
+The **`.head()`** method sends a HEAD request to a web server; it returns a response object.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ import requests
 requests.head("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a head request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a HEAD request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
 ## Example
 
