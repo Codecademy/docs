@@ -1,6 +1,6 @@
 ---
 Title: '.delete()'
-Description: 'Sends a delete request to a web server; it returns a response object.'
+Description: 'Sends a DELETE request to a web server; it returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.delete()`** method sends a "delete" request to a web server; it returns a response object.
+The **`.delete()`** method sends a DELETE request to a web server; it returns a response object.
 
 ## Syntax
 
