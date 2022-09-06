@@ -29,6 +29,12 @@ Installing the `requests` module is done by running the following command in the
 pip install requests
 ```
 
+Or for Python 3:
+
+```bash
+pip3 install requests
+```
+
 Once `requests` is installed, it can be used in a program. Importing `requests` looks like this:
 
 ```py
