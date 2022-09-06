@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Java **compilers** are programs that take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).
+Java **compilers** are programs that take source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).
 
 The JVM does not interpret source code (high-level program). Instead, it interprets what is called Java bytecode (a low-level language somewhere between human-readable source code, and [machine code](https://www.codecademy.com/resources/docs/general/machine-code)) which is specific to a particular computer. Unlike machine code, bytecode is platform-neutral meaning the same bytecode can be interpreted by any JVM running on any sort of computer system. This is what makes compiled Java programs portable.
 
