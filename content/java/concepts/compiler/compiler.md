@@ -1,6 +1,6 @@
 ---
 Title: 'Compiler'
-Description: 'Java compilers typically take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).'
+Description: 'Java compilers take Java source code and produce class files containing platform-neutral Java bytecode that can be executed by the Java Virtual Machine (JVM).'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
