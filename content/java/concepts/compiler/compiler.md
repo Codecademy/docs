@@ -16,7 +16,7 @@ Java **compilers** are programs that take source code and produce class files co
 
 Rather than interpret high-level Java source code, the JVM interprets low-level Java bytecode (somewhere between human-readable code and [machine code](https://www.codecademy.com/resources/docs/general/machine-code)) that is specific to a particular computer. Bytecode is platform-neutral and, therefore, can be interpreted by any JVM running on any computer system. This is what makes compiled Java programs portable.
 
-Most of these compilers do little to no optimization of the code, leaving that task for the JVM to do at run time. The JVM loads the bytecode and either interprets it, or just-in-time (JIT) compiles it to machine code, and then possibly optimizes it.
+Most Java compilers do little to no optimization of the code, leaving that task for the JVM to do at run time. The JVM loads the bytecode and either interprets it, or just-in-time (JIT) compiles it to machine code, and then optimizes it.
 
 ## Compiling a Java File
 
