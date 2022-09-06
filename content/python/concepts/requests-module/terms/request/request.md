@@ -46,7 +46,7 @@ print(response.reason)
 
 ## Codebyte Example
 
-The `.request()` method can also take in various parameters. These parameters allow a user to communicate additional information to the web server such as the content type that should be returned, and the user's authentication.
+The `.request()` method can also take in various parameters. These parameters allow a user to send additional information to the web server such as the content type that should be returned, and the user's authentication.
 
 ```codebyte/python
 import requests
