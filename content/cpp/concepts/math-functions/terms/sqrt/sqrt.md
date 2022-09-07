@@ -19,6 +19,8 @@ The **`sqrt()`** function returns the square root of the argument.
  sqrt(x)
 ```
 
+If the parameter `x` is negative (less than 0), then a domain error will occur.
+
 ## Example
 
 use `sqrt()` to find the square root of `4`:
