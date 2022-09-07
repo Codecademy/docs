@@ -2,7 +2,7 @@
 Title: '.post()'
 Description: 'Sends a POST request to a web server; it returns a response object.'
 Subjects:
-  - 'Data Science'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'APIs'
