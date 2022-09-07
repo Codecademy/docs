@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.post()`** method sends a POST request to a web server and it returns a response object.
+The **`.post()`** method sends a `POST` request to a web server and it returns a response object.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ import requests
 requests.post("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a POST request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `POST` request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
 
 ## Example
 
-The `.post()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or json, to send in the request body to create or update a resource.
+The `.post()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or [JSON](https://www.codecademy.com/resources/docs/general/json), to send in the request body to create or update a resource.
 
 ```py
 import requests
@@ -53,7 +53,5 @@ data = {
 
 response = requests.post("https://codecademy.com")
 
-print(response.status_code)
-
-print(response.reason)
+print(f"{response.status_code}: {response.reason}")
 ```
