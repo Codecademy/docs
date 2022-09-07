@@ -2,7 +2,7 @@
 Title: '.request()'
 Description: 'Sends seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object.'
 Subjects:
-  - 'Data Science'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'APIs'
