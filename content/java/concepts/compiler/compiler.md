@@ -30,7 +30,7 @@ javac options ProgramName.java
 
 Where `ProgramName` is the name of a given `.java` file to be compiled.
 
-Part of the configuration of Java requires setting up the `CLASSPATH`, so the Java compiler can find `ProgramName.java` in the file system. This can be done by using the `-classpath` option with the `javac` compiler command, or by setting the `CLASSPATH` environment variable:
+Part of the configuration of Java requires setting up the `CLASSPATH`, so the Java compiler can find `ProgramName.java` in the file system. This can be done by using the `-classpath` option with the `javac` compiler command, or by setting the `CLASSPATH` environment variable, shown below.
 
 ```shell
 export CLASSPATH=path/to/file
