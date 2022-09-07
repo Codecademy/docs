@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns square root of the argument
+The **`sqrt()`** function returns the square root of the argument.
 
 ## Syntax
 
