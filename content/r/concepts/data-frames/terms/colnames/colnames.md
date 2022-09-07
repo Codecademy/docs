@@ -1,6 +1,6 @@
 ---
 Title: 'colnames()'
-Description: 'Returns or sets the names of the columns in a data frame .'
+Description: 'Returns or sets the names of the columns in a data frame.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
