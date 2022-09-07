@@ -18,7 +18,7 @@ CatalogContent:
 
 ## History
 
-FaaS was first offered by start-ups like PiCloud around 2010. It has since been offered by large vendors such as Google (Google Cloud Functions) and Microsoft (Microsoft Azure Functions).
+FaaS was first offered by start-ups like PiCloud around 2010. It has since been offered by large vendors such as Amazon (AWS Lambda), Google (Google Cloud Functions), and Microsoft (Microsoft Azure Functions).
 
 ## Advantages and Disadvantages
 
