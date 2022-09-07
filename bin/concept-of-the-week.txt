@@ -1,1 +1,1 @@
-content/general/concepts/prototype-pattern/prototype-pattern.md
+content/react/concepts/lifecycle-methods/lifecycle-methods.md
