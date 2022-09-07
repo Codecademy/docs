@@ -40,5 +40,11 @@ The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-
 df <- read.csv("patients.csv")
 
 # Retrieve number of columns
-ncol(df) #3
+ncol(df) 
+```
+
+This results in the following output:
+
+```shell
+3
 ```
