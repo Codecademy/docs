@@ -26,7 +26,7 @@ requests.put("url", **kwargs)
 
 `**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a PUT request. For example, they can be used to include cookies in the request, set proxies, set headers, or set a page timeout.
 
-Although similar to a POST request, PUT requests are **idempotent**, meaning multiple requests have the same result. Multiple PUT requests will overwrite the same resource, and multiple POST requests will create a new resource each time. Therfore, PUT is generally used for update operations, and POST for create operations.
+Although similar to a POST request, PUT requests are idempotent, meaning that multiple requests have the same result. Multiple PUT requests will overwrite the same resource, and multiple POST requests will create a new resource each time. Therefore, PUT is generally used for update operations, and POST for create operations.
 
 ## Example
 
