@@ -73,7 +73,7 @@ data <- read.csv("students.csv")
 print(data)
 ```
 
-This reads the data in as a data frame. The output would be the following:
+This reads the data in as a [data frame](https://www.codecademy.com/resources/docs/r/data-frames). The output would be the following:
 
 ```shell
    First.Name Last.Name Grade     ID
