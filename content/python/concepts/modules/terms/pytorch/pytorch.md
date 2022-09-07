@@ -1,6 +1,6 @@
 ---
 Title: 'Pytorch'
-Description: 'An open source Python module that offers an optimized tensor library for deep learning.'
+Description: 'An open-source Python module that offers an optimized tensor library for deep learning.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
