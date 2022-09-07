@@ -29,4 +29,6 @@ Private cloud refers to cloud computing resources used exclusively by a single b
 
 Hybrid clouds are a combination of both private and public clouds. Data and applications are allowed to be shared between the private and public clouds. Allowing data and applications to move between private and public clouds provides businesses greater flexibility, more deployment options, and helps optimize existing infrastructure, security, and compliance.
 
-There is also what is referred to as **multicloud** implimentations, which combine the above. It refers to any implementation that utilizes more than one cloud solution. While it includes all hybrid clouds by definition, it also includes solutions that involve two or more public clouds, or two or more private clouds.
+## Multicloud
+
+Multicloud is a combination of the above, referring to any implementation that utilizes more than one cloud solution. While it includes all hybrid clouds, multicloud also includes solutions that involve two or more public clouds, or two or more private clouds.
