@@ -2,7 +2,7 @@
 Title: '.get()'
 Description: 'Sends a GET request to a web server; it returns a response object.'
 Subjects:
-  - 'Data Science'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'APIs'
