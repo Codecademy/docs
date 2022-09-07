@@ -34,7 +34,7 @@ The `.post()` method can take in various parameters. These parameters allow a us
 import requests
 
 data = {
-  "my_key":"my_value"
+  "my_key": "my_value"
 }
 
 response = requests.post("https://codecademy.com", data=data)
@@ -48,7 +48,7 @@ The response object returned by the `.post()` method contains various types of d
 import requests
 
 data = {
-  "my_key":"my_value"
+  "my_key": "my_value"
 }
 
 response = requests.post("https://codecademy.com")
