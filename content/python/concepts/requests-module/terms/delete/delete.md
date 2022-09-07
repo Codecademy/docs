@@ -1,6 +1,6 @@
 ---
 Title: '.delete()'
-Description: 'Sends a DELETE request to a web server; it returns a response object.'
+Description: 'Sends a DELETE request to a web server and returns a response object.'
 Subjects:
   - 'Data Science'
 Tags:
