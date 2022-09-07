@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.post()`** method sends a POST request to a web server; it returns a response object.
+The **`.post()`** method sends a POST request to a web server and it returns a response object.
 
 ## Syntax
 
