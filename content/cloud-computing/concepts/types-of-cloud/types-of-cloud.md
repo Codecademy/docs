@@ -15,7 +15,11 @@ There are three **types** of cloud computing implementations:
 
 ## Public Cloud
 
-Public clouds are owned and operated by third-party cloud service providers that deliver computing resources such as servers and storage over the Internet. Examples include Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
+Public clouds are owned and operated by third-party cloud service providers that deliver computing resources such as servers and storage over the Internet. Examples include the following:
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com/)
+- [Google Cloud Platform (GCP)](https://cloud.google.com/gcp)
+- [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
 ## Private Cloud
 
