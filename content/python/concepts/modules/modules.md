@@ -73,7 +73,7 @@ Python comes with several different built-in modules that provide a variety of f
 
 Python has a very broad selection of third-party modules that are devoted to particular tasks.
 
-These are third-party Python modules that have their own topic entries:
+These are third-party Python modules that have topic entries:
 
 - [NumPy](https://www.codecademy.com/resources/docs/numpy): a popular open source Python library used for complex mathematical operations and multi-dimensional [arrays](https://www.codecademy.com/resources/docs/general/array).
 - [Pandas](https://www.codecademy.com/resources/docs/pandas): a popular open source Python module used for data analysis and manipulation.
