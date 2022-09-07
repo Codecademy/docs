@@ -1,6 +1,6 @@
 ---
 Title: 'isfinite()'
-Description: 'Returns whether the argument is a finite value'
+Description: 'Returns whether the argument is a finite value.'
 Subjects:
   - 'Computer Science'
 Tags: 
@@ -10,7 +10,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns whether the argument is a finite value
+Returns whether the argument is a finite value.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ isfinite(x)
 
 ## Example
 
-Use `isfinite()` to check if `5` is finite:
+Use `isfinite()` to check whether `5` is finite:
 
 ```cpp
 #include <iostream>
@@ -38,6 +38,7 @@ int main() {
   else{
     std::cout << "Is finite" << "\n";
   }
+  // Output: Is finite
 }
 ```
 
