@@ -1,6 +1,6 @@
 ---
 Title: 'sqrt()'
-Description: 'Returns square root of the argument'
+Description: 'Returns square root of the argument.'
 Subjects:
   - 'Computer Science'
 Tags:
