@@ -18,7 +18,7 @@ The **`.delete()`** method sends a DELETE request to a web server; it returns a 
 
 ## Syntax
 
-```py
+```pseudo
 import requests
 
 requests.delete("url", **kwargs)
