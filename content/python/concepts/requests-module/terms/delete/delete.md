@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.delete()`** method sends a DELETE request to a web server; it returns a response object.
+The **`.delete()`** method sends a `DELETE` request to a web server; it returns a response object.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ print(f"{response.status_code}: {response.reason}")
 
 ## Codebyte Example
 
-Common response codes for a DELETE request including the following:
+Common response codes for a `DELETE` request including the following:
 
 - `405`: The method is not allowed.
 - `200`: The action has been enacted and a response message describes the status.
