@@ -57,8 +57,6 @@ import requests
 response = requests.delete("https://www.google.com")
 
 print(response.status_code)
-# Output: 405
 
 print(response.reason)
-# Output: Method Not Allowed
 ```
