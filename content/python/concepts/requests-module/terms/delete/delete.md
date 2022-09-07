@@ -35,11 +35,8 @@ import requests
 
 response = requests.delete("https://httpbin.org/delete")
 
-print(response.status_code)
-# Output: 200
-
-print(response.reason)
-# Output: OK
+print(f"{response.status_code}: {response.reason}")
+# Output: 200: OK
 ```
 
 ## Codebyte Example
@@ -56,7 +53,5 @@ import requests
 
 response = requests.delete("https://www.google.com")
 
-print(response.status_code)
-
-print(response.reason)
+print(f"{response.status_code}: {response.reason}")
 ```
