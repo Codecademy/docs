@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Conceptual'
   - 'Cybersecurity'
+  - 'Ethical Hacking'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
@@ -43,7 +44,7 @@ This puts system maintainers in a tough position as to whether it would be wise 
 
 ### White Hat Hackers
 
-White hat hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system.
+White hat hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system. Also known as "ethical hackers", many white hat hackers carry a Certified Ethical Hacker (CEH) qualification.
 
 A white hat hacker will normally engage directly with a company and listen to their concerns. Next, they will attempt to hack areas of their network to spot weaknesses. After they finish, they provide a report to the company and potential next steps.
 
