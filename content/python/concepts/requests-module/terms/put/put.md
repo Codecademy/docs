@@ -44,7 +44,7 @@ response = requests.put("https://httpbin.org/put", json=json)
 
 ## Codebyte Example
 
-The response object returned by the `.put()` method contains various types of data, such as the webpage text, JSON (if returned), status code, and the reason for that response.
+The response object returned by the `.put()` method contains various types of data, such as the webpage text, JSON (if returned), status code, and the reason for that response:
 
 ```codebyte/python
 import requests
