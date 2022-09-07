@@ -25,7 +25,7 @@ The HTTP request returns a Response Object with all the response data (content, 
 
 Installing the `requests` module is done by running the following command in the terminal:
 
-```bash
+```shell
 pip install requests
 ```
 
