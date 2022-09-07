@@ -3,7 +3,6 @@ Title: 'FaaS'
 Description: 'Function as a service (FaaS) is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for application development and deployment.'
 Subjects:
   - 'Computer Science'
-  - 'Networking'
 Tags:
   - 'Cloud'
   - 'Functions'
