@@ -25,9 +25,9 @@ Data Frames can be created using the data.frame() function.
 data.frame(arguments)
 ```
 
-- `arguments` are the list of vectors with the values to be used in the data frame.
+- `arguments` are the list of vectors with the values for each column of the data frame.
 
-_Note:_ Each vector should be of the same length.
+**Note:** Each vector should be of the same length.
 
 ### Example
 
