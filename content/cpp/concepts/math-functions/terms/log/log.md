@@ -32,7 +32,7 @@ int main() {
   result = log(x);
   std::cout << "The log of " << x << " is " << result << "\n";
   // Output: The log of 5 is 1.60944
-  }
+ }
 ```
 
 ## Codebyte Example
