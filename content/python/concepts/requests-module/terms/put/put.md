@@ -36,7 +36,7 @@ The `.put()` method can take in various parameters. These parameters allow a use
 import requests
 
 json = {
-  "my_key":"Hello, World!"
+  "my_key": "Hello, World!"
 }
 
 response = requests.put("https://httpbin.org/put", json=json)
