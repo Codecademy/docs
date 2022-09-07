@@ -1,6 +1,6 @@
 ---
 Title: '.put()'
-Description: 'Sends a PUT request to a web server; it returns a response object.'
+Description: 'Sends a PUT request to a web server and returns a response object.'
 Subjects:
   - 'Web Development'
 Tags:
