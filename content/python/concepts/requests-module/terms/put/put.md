@@ -57,5 +57,5 @@ response = requests.put("https://httpbin.org/put", json=json)
 
 print(response.status_code)
 
-print(response.json()['json']['my_key'])
+print(response.json()["json"]["my_key"])
 ```
