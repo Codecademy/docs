@@ -31,7 +31,7 @@ pip install requests
 
 Or for Python 3:
 
-```bash
+```shell
 pip3 install requests
 ```
 
