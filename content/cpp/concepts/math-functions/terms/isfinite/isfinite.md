@@ -5,7 +5,6 @@ Subjects:
   - 'Computer Science'
 Tags: 
   - 'Functions'
-  - 'Boolean'
 CatalogContent: 
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
