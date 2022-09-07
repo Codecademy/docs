@@ -51,6 +51,5 @@ int main() {
   result = std::sqrt(x);
 
   std::cout << "The square root of " << x << " is " << result << "\n";
-  // Output: The square root of 9 is 3
 }
 ```
