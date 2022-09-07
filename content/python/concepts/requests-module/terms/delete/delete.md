@@ -44,7 +44,12 @@ print(response.reason)
 
 ## Codebyte Example
 
-Common response codes for a DELETE request are `405`, `200`, `202`, and `204`. A response of code `405` means that the method is not allowed; `202` means that the action is pending; `200` means that the action has been enacted and that the response message describes the status, and `204` that the action has been enacted but that there is no further information.
+Common response codes for a DELETE request including the following:
+
+- `405`: The method is not allowed.
+- `200`: The action has been enacted and a response message describes the status.
+- `202`: The action is pending.
+- `204`: The action has been enacted but there is no further information beyond that.
 
 ```codebyte/python
 import requests
