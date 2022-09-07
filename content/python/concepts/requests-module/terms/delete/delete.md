@@ -2,7 +2,7 @@
 Title: '.delete()'
 Description: 'Sends a DELETE request to a web server and returns a response object.'
 Subjects:
-  - 'Data Science'
+  - 'Web Development'
 Tags:
   - 'Methods'
   - 'APIs'
