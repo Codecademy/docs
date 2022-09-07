@@ -54,8 +54,6 @@ data = {
 response = requests.post("https://codecademy.com")
 
 print(response.status_code)
-# Output: 200
 
 print(response.reason)
-# Output: OK
 ```
