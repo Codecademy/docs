@@ -14,7 +14,7 @@ body:
       placeholder: Tell us more about why you would like to add this to Docs?
   - type: markdown
     attributes:
-      value: Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/) when working on the PR for this issue.) when working on the PR for this issue.
+      value: Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/) when working on the PR for this issue.
   - type: dropdown
     id: entries
     attributes:
