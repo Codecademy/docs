@@ -30,7 +30,7 @@ Although similar to a POST request, PUT requests are idempotent, meaning that mu
 
 ## Example
 
-The `.put()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or json to send in the request body in order to create or update a resource.
+The `.put()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server, such as data or [JSON](https://www.codecademy.com/resources/docs/python/json-module) to send in the request body in order to create or update a resource.
 
 ```py
 import requests
