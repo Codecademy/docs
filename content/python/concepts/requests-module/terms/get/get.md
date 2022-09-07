@@ -35,19 +35,13 @@ import requests
 
 response = requests.get("https://codecademy.com")
 
-print(response.status_code)
-# Output: 200
-
-print(response.reason)
-# Output: OK
+print(f"{response.status_code}: {response.reason}")
+# Output: 200: OK
 
 response = requests.get("https://codecademy.com/cat-pictures")
 
-print(response.status_code)
-# Output: 404
-
-print(response.reason)
-# Output: Not Found
+print(f"{response.status_code}: {response.reason}")
+# Output: 404: Not Found
 ```
 
 ## Codebyte Example
