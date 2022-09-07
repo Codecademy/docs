@@ -50,7 +50,7 @@ The response object returned by the `.put()` method contains various types of da
 import requests
 
 json = {
-  "my_key":"Hello, World!"
+  "my_key": "Hello, World!"
 }
 
 response = requests.put("https://httpbin.org/put", json=json)
