@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Creating Data Frames
 
-Data Frames can be created using the data.frame() function.
+Data Frames can be created using the `data.frame()` function.
 
 ### Syntax
 
@@ -31,7 +31,7 @@ data.frame(arguments)
 
 ### Example
 
-The following example saves a sample of team stat values into a data frame:
+The following example saves a sample of team stats into a data frame:
 
 ```r
 team.stats <- data.frame(Team = c("Aces","Sky","Mystics", "Storm", "Sun", "Liberty"),
