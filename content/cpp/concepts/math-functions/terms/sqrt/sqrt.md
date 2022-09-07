@@ -35,6 +35,7 @@ int main() {
 
   std::cout << "The square root of " << x << " is " << result << "\n";
   // Output: The square root of 4 is 2
+  }
 ```
 
 ## Codebyte Example
