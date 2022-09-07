@@ -61,5 +61,4 @@ headers = {
 response = requests.head("https://www.codecademy.com", headers=headers)
 
 print(response.headers["Content-Type"])
-# Output: application/json; charset=utf-8
 ```
