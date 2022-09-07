@@ -6,7 +6,7 @@ Subjects:
 Tags: 
   - 'Functions'
   - 'Boolean'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
@@ -37,7 +37,7 @@ int main() {
     std::cout << "Not finite" << "\n";
   }
   else{
-    std::cout << "Not finite" << "\n";
+    std::cout << "Is finite" << "\n";
   }
 }
 ```
@@ -59,7 +59,7 @@ int main() {
     std::cout << "Not finite" << "\n";
   }
   else{
-    std::cout << "Not finite" << "\n";
+    std::cout << "Is finite" << "\n";
   }
 } 
 
