@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.head()`** method sends a HEAD request to a web server; it returns a response object.
+The **`.head()`** method sends a HEAD request to a web server and it returns a response object.
 
 ## Syntax
 
