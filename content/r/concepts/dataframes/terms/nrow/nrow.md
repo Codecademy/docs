@@ -41,5 +41,11 @@ The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-
 df <- read.csv("supplies.csv")
 
 # Retrieve number of rows
-nrow(df) # 5
+nrow(df)
+```
+
+This results in the following output:
+
+```shell
+5
 ```
