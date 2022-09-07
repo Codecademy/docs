@@ -59,7 +59,7 @@ Once a module is imported, it is within the scope of the program and it can be a
 
 ## Python Standard Modules
 
-Python comes with a number of different built-in modules that provide a variety of functions. They include:
+Python comes with several different built-in modules that provide a variety of functions. They include:
 
 - The [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module provides additional collection types.
 - The [`functools`](https://www.codecademy.com/resources/docs/python/functools-module) module provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
