@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Data Frames** are objects that store data into a table with two dimensions. The two dimensions are represented by columns and rows. The columns are the different variables and the rows are the observations of each variable. Data frames are useful for storing data of different types.
+**Data Frames** are objects that store data into a table with two dimensions. The two dimensions are represented by columns and rows. The columns are the different variables and the rows are the observations of each variable. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
 
 ## Creating Data Frames
 
