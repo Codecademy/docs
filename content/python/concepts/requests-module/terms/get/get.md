@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/analyze-data-with-python'
 ---
 
-The **`.get()`** method sends a GET request to a web server; it returns a response object.
+The **`.get()`** method sends a GET request to a web server and it returns a response object.
 
 ## Syntax
 
