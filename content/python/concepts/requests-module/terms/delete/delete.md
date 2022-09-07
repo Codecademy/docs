@@ -24,7 +24,7 @@ import requests
 requests.delete("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. The `.delete()` method can take in various parameters. These parameters allow a user to communicate additional information to the web server such as the content type that should be returned, the user's authentication, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
+`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. The `.delete()` method can take in various parameters that allow a user to communicate additional information to the web server (the content type that should be returned, the user's authentication, etc.). They can also be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
 ## Example
 
