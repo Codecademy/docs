@@ -1,6 +1,6 @@
 ---
 Title: 'log()'
-Description: 'Returns the natural log of the argument.'
+Description: 'Returns the natural, base-e logarithm of the argument.'
 Subjects:
   - 'Computer Science'
 Tags:
