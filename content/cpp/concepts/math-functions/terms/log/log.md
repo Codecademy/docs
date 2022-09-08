@@ -18,7 +18,8 @@ Returns the **log()** of the argument.
 ```cpp
  log(x)
 ```
-If the parameter `x` is negative (less than 0) or equal to 0, then a domain error will occur.
+
+If the parameter `x` is negative (less than 0) or equal to 0, then a domain error will occur. If it is equal to 0, a pole error may occur where the result has reached the point of infinity and cannot be returned.
 
 ## Example
 
