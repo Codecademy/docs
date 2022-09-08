@@ -13,7 +13,7 @@ CatalogContent:
   - 'back-end-engineer-career-path'
 ---
 
-Software as a service or **SaaS** is a cloud computing service delivery model that makes software and applications available over the internet.
+**Software as a service (SaaS)** is a cloud computing service delivery model that makes software and applications available over the Internet.
 
 Some examples of SaaS include Google Workspace, Dropbox, and Microsoft 365.
 
