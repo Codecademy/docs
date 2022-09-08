@@ -23,7 +23,8 @@ If the parameter `x` is negative (less than 0) or equal to 0, then a domain erro
 
 ## Example
 
-use `log()` to find the natural log of `5`:
+The following example uses the `log()` function to find the natural log of `5`:
+
 ```cpp
 #include <iostream>
 #include <math.h>
