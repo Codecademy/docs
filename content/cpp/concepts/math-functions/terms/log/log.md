@@ -41,6 +41,7 @@ int main() {
 
 ## Codebyte Example
 
+The following example is runnable and returns the natural log of `10`:
 ```codebyte/cpp
 #include <iostream>
 #include <math.h>
