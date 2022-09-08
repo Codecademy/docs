@@ -34,25 +34,27 @@ data.frame(arguments)
 The following example saves a sample of team stats into a data frame:
 
 ```r
-team.stats <- data.frame(Team = c("Aces","Sky","Mystics", "Storm", "Sun", "Liberty"),
-                         Games_Played = c( 4, 5, 2, 4, 5, 3),
-                         Wins = c(3, 3, 0, 3, 3, 1),
-                         Losses = c(1,2,2,1,2,2),
-                         Win_Percentage = c(.750, .600, .000, .750, .600, .333))
+team_stats <- data.frame(Team = c("Aces", "Sky", "Mystics", "Storm", "Sun", "Liberty", "Wings", "Mercury"),
+                         Games_Played = c( 6, 7, 2, 6, 7, 3, 3, 2),
+                         Wins = c(5, 4, 0, 3, 4, 1, 1, 0),
+                         Losses = c(1, 3, 2, 3, 3, 2, 2, 2),
+                         Win_Percentage = c(.833, .571, .000, .500, .571, .333, .333, .000))
 
-print(team.stats)
+print(team_stats)
 ```
 
 The above will print the following:
 
 ```shell
      Team Games_Played Wins Losses Win_Percentage
-1    Aces            4    3      1          0.750
-2     Sky            5    3      2          0.600
+1    Aces            6    5      1          0.833
+2     Sky            7    4      3          0.571
 3 Mystics            2    0      2          0.000
-4   Storm            4    3      1          0.750
-5     Sun            5    3      2          0.600
+4   Storm            6    3      3          0.500
+5     Sun            7    4      3          0.571
 6 Liberty            3    1      2          0.333
+7   Wings            3    1      2          0.333
+8 Mercury            2    0      2          0.000
 ```
 
 ## Built-in Functions
