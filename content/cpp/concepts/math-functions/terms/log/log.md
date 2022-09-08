@@ -44,6 +44,7 @@ int main() {
 ```codebyte/cpp
 #include <iostream>
 #include <math.h>
+
 int main() {
   double x = 10;
   double result;
