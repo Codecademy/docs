@@ -16,7 +16,7 @@ The **`sqrt()`** function returns the square root of the argument.
 ## Syntax
 
 ```cpp
- sqrt(x)
+sqrt(x)
 ```
 
 If the parameter `x` is negative (less than 0), then a domain error will occur.
