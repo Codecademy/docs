@@ -6,6 +6,7 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Arithmetic'
+  - 'Methods'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
