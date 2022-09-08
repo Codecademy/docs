@@ -19,9 +19,7 @@ Some examples of SaaS include Google Workspace, Dropbox, and Microsoft 365.
 
 ## Architecture
 
-SaaS services typically use a multi-tenant cloud architecture. This allows consumers to share computing resources within a cloud.
-
-Each tenant has their own space to store data. The data is isolated and will remain invisible to other tenants.
+SaaS services typically use a multi-tenant approach, where multiple consumers share access to cloud resources. Each tenant has their own space to store data. The data is isolated and will remain invisible to other tenants.
 
 ## Benefits
 
