@@ -27,10 +27,9 @@ Use `isfinite()` to check whether `5` is finite:
 #include <cmath>
 
 int main() {
-  int x = 5;
   int result;
 
-  result = std::isfinite(x);
+  result = std::isfinite(5.0);
   
   if(result == 0){
     std::cout << "Not finite" << "\n";
@@ -50,10 +49,9 @@ int main() {
 #include <cmath>
 
 int main() {
-  int x = 2;
   int result;
 
-  result = std::isfinite(x);
+  result = std::isfinite(1.0/0.0);
   
   if(result == 0){
     std::cout << "Not finite" << "\n";
