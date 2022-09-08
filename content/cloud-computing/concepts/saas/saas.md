@@ -23,7 +23,7 @@ SaaS services typically use a multi-tenant approach, where multiple customers sh
 
 ## Advantages
 
-Due to it's flexibility and low-costs, SaaS services have many advantages including: 
+Due to its flexibility and low costs, SaaS services have many advantages including: 
 
 - Accessibility: Requires only an internet connection, can be accessed from an internet-enabled device (e.g., a computer, smartphone or tablet) within a location that has internet service.
 - Management: Customers do not have to maintain anything; all maintenance and updates are provided by the service provider.
