@@ -43,6 +43,7 @@ int main() {
 ## Codebyte Example
 
 The following example is runnable and returns the square root of `9` with the `sqrt()` function:
+
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
