@@ -23,7 +23,7 @@ If the parameter `x` is negative (less than 0), then a domain error will occur.
 
 ## Example
 
-use `sqrt()` to find the square root of `4`:
+The following example uses the `sqrt()` function to find the square root of `4`:
 
 ```cpp
 #include <iostream>
