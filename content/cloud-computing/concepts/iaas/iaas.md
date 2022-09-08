@@ -22,4 +22,8 @@ IaaS provides an [API](https://www.codecademy.com/resources/docs/general/api) to
 - Deployed applications
 - Networking components (e.g., host firewalls)
 
-The user is responsible for maintaining the virtual machines, including keeping operating systems and applications patched and up-to-date, and pays the cloud service only for the number of resources allocated and consumed.
+The user's responsibilities include the following:
+
+- Maintaining the virtual machines.
+  - This includes keeping operating systems and applications patched and up-to-date.
+- Paying the cloud service only for the number of resources allocated and consumed.
