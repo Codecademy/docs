@@ -19,16 +19,18 @@ Some examples of SaaS include Google Workspace, Dropbox, and Microsoft 365.
 
 ## Architecture
 
-SaaS services typically use a multi-tenant approach, where multiple consumers share access to cloud resources. Each tenant has their own space to store data. The data is isolated and will remain invisible to other tenants.
+SaaS services typically use a multi-tenant approach, where multiple customers share access to cloud resources. Each customer has their own space to store data. The data is isolated and will remain invisible to other tenants.
 
 ## Benefits
 
-- Accessible: Requires only an internet connection, can be accessed from any internet-enabled device and location.
+- Accessible: Requires only an internet connection, can be accessed from an internet-enabled device (e.g., a computer, smartphone or tablet) within a location that has internet service.
 - Management: Users do not have to maintain anything; all maintenance and updates are provided by the service provider.
-- Scalability: Users can access as many services as they want.
+- Scalability: Users can use as much of the service as they want, and are charged for the amount used.
 
 ## Challenges
 
-- Service Issues: Users may face issues that are beyond their control like security breaches, server outages, or service changes.
+Since they are not in direct control of the service, customers could face challenges such as:
+
+- Service Issues: Disruptions like security breaches, server outages, or service changes are beyond the customer's control.
 - Switching Providers: Depending on the amount of data being stored, it may be difficult to transfer the data to a different provider.
 - Updates: If the service provider issues a new version of the product, the user may have to allocate time learning the newer version.
