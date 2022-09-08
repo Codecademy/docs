@@ -29,13 +29,14 @@ The following example uses the `log()` function to find the natural log of `5`:
 ```cpp
 #include <iostream>
 #include <math.h>
+
 int main() {
   double x = 5;
   double result;
   result = log(x);
   std::cout << "The log of " << x << " is " << result << "\n";
   // Output: The log of 5 is 1.60944
- }
+}
 ```
 
 ## Codebyte Example
