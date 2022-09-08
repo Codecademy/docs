@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the **log()** of the argument.
+The **log()** function returns the natural, base-_e_ logarithm of the argument. This is the inverse of the [`exp()`](https://www.codecademy.com/resources/docs/cpp/math-functions/exp) function.
 
 ## Syntax
 
