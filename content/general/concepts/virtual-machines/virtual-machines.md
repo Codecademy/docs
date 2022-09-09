@@ -1,6 +1,6 @@
 ---
 Title: 'Virtual Machines'
-Description: 'Virtual machines are virtual versions of physical computers.'
+Description: 'Virtual machines are resources that can perform the same tasks as physical computers.'
 Subjects:
   - 'Computer Science'
 Tags:
