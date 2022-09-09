@@ -19,41 +19,41 @@ The **`tan()`** function returns the tangent of the argument.
 tan(x)
 ```
 
-If the parameter `x` is , then a domain error will occur.
+If the parameter `x` is equal to pi +- n*pi (Where n is a natural number), then a domain error will occur.
 
 ## Example
 
-The following example uses the `sqrt()` function to find the square root of `4`:
+The following example uses the `tan()` function to find the tangent of `pi/4`:
 
 ```cpp
 #include <iostream>
 #include <cmath>
 
 int main() {
-  double x = 4;
+  double x = M_PI/4;
   double result;
 
-  result = std::sqrt(x);
+  result = std::tan(x);
 
-  std::cout << "The square root of " << x << " is " << result << "\n";
-  // Output: The square root of 4 is 2
+  std::cout << "The tangent of " << x << " is " << result << "\n";
+  // Output: The tangent of pi/4 is 1
 }
 ```
 
 ## Codebyte Example
 
-The following example is runnable and returns the square root of `9` with the `sqrt()` function:
+The following example is runnable and returns the tangent of `0` with the `tan()` function:
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
 int main() {
-  double x = 9;
+  double x = 0;
   double result;
 
-  result = std::sqrt(x);
+  result = std::tan(x);
 
-  std::cout << "The square root of " << x << " is " << result << "\n";
+  std::cout << "The tangent of " << x << " is " << result << "\n";
 }
 ```
