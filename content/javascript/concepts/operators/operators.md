@@ -62,7 +62,7 @@ An assignment operator assigns a value to its left operand based on the value of
 - `*=`: Multiplies and assigns a new value to a variable.
 - `/=`: Divides and assigns a new value to a variable.
 - `%=`: Assigns the returned remainder (modulo) as a new value to a variable.
-- `**=`:
+- `**=`: Assigns the left operand raised to the power of the right operand.
 
 ### Example
 
