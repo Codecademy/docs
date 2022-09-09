@@ -45,6 +45,6 @@ VMs can also improve security because VMs are isolated from the host computer an
 
 VMs are flexible and can easily be migrated to different hypervisors or hosts. Resources on a VM can also be added and removed easily, and different VMs can be used to operate different displays and operating systems from the same host machine.
 
-## Who uses virtual machines?
+## Who Uses VMs?
 
 Nearly all software companies use virtual machines and other virtualization technology. VMs are a fundamental component of [cloud computing](https://www.codecademy.com/resources/docs/general/cloud-computing), [cybersecurity](https://www.codecademy.com/resources/docs/general/cybersecurity), and more.
