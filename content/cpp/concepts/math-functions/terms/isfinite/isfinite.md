@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Functions'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
