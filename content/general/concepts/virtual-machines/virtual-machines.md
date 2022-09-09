@@ -17,7 +17,7 @@ A virtual machine, or VM, is a virtual version of a physical computer. VMs can p
 
 A single server or physical computer can run multiple VMs at the same time. Each VM has its own operating system and functions as an independent compute resource, even though they may share the same host server. For example, if you had a computer with macOS, you could use a VM to run a separate instance of the Windows operating system on top of your existing macOS computer.
 
-## How do virtual machines work?
+## How Do VMs Work?
 
 Virtual machines run on top of the operating system of the host machine, similar to other applications on a physical computer. All VMs on a single host share the same physical resources, such as memory and storage.
 
