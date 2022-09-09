@@ -30,7 +30,7 @@ int main() {
   int result;
 
   result = std::isfinite(5.0);
- 
+
   if(result == 0){
     std::cout << "Not finite" << "\n";
   }
@@ -44,7 +44,6 @@ int main() {
 ## Codebyte Example
 
 ```codebyte/cpp
-
 #include <iostream>
 #include <cmath>
 
@@ -52,7 +51,7 @@ int main() {
   int result;
 
   result = std::isfinite(1.0/0.0);
- 
+
   if(result == 0){
     std::cout << "Not finite" << "\n";
   }
@@ -60,5 +59,4 @@ int main() {
     std::cout << "Is finite" << "\n";
   }
 }
-
 ```
