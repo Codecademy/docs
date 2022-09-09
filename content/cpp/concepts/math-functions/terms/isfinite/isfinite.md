@@ -52,7 +52,7 @@ int main() {
   int result;
 
   result = std::isfinite(1.0/0.0);
-  
+ 
   if(result == 0){
     std::cout << "Not finite" << "\n";
   }
