@@ -140,6 +140,7 @@ const isPlane = false;
 
 // OR Operator
 isDuck = isBird || isPlane;
+
 console.log(isDuck);
 
 // NOT Operator
