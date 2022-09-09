@@ -22,13 +22,11 @@ import json
 
 JSON in Python is based on the object-literal syntax of [JavaScript](https://www.codecademy.com/resources/docs/javascript). The following Python [data types](https://www.codecademy.com/resources/docs/python/data-types) can be converted to JSON strings in Python:
 
-- Tuple
-- List
-- Dict
-- String
-- Int
-- Float
-- Bool
-- NoneType
+- Booleans (`bool` type)
+- [Dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries) (`dict` type)
+- Number types (i.e., `int` and `float`)
+- Sequence types (i.e., [lists](https://www.codecademy.com/resources/docs/python/lists) and [tuples](https://www.codecademy.com/resources/docs/python/tuples))
+- [Strings](https://www.codecademy.com/resources/docs/python/strings) (`str` type)
+- `NoneType`
 
 The following functions are provided by the `json` module:
