@@ -23,7 +23,7 @@ Virtual machines run on top of the operating system of the host machine, similar
 
 Multiple VMs can be managed with virtual machine software, also called a “hypervisor”. A hypervisor is used to create, manage, and run the VMs on a host machine. The hypervisor is used to manage hardware resources from the host machine, which enables these resources to be shared amongst multiple VMs.
 
-## Benefits of using virtual machines
+## Benefits of VMs
 
 Virtual machines can provide many benefits, such as:
 
