@@ -77,7 +77,7 @@ First the `unittest.TestCase` class is subclassed for our test case object. Then
 Tests consist of methods containing calls to one or more `assert` methods of the test case object:
 
 - `.assertEqual()`: Test passes when both arguments are equal.
-- `.assertTrue()` : Test passes when argument is `true`.
+- `.assertTrue()` : Test passes when argument is `True`.
 - `.assertFalse()` : Test passes when argument is `false`.
 - `.assertRaises()` : Test passes when the passed exception is raised.
 
