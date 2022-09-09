@@ -15,7 +15,7 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Give feedback in the [Typeform Survey](https://codecademyready.typeform.com/to/hzVIWDgz).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an open issue that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/general/git/branch) in your fork to create a new entry or edit an existing one.
