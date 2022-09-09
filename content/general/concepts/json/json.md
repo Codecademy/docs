@@ -18,7 +18,7 @@ CatalogContent:
 
 In addition to JavaScript, JSON uses some conventions from the [C](https://www.codecademy.com/resources/docs/c)-descendent languages, including C , [C++](https://www.codecademy.com/resources/docs/cpp), and [Java](https://www.codecademy.com/resources/docs/java).
 
-JSON is commonly used for transferring data between clients and servers for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to be accessed in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
+JSON is commonly used for transferring data between clients and [servers](https://www.codecademy.com/resources/docs/general/server) for tasks such as web browsing or form submission. Some companies also use JSON to allow their data to be accessed in other applications via [API](https://www.codecademy.com/resources/docs/general/api). Some examples include:
 
 - [Google Maps](https://developers.google.com/maps/documentation/geocoding/start)
 - [Google Auth 2.0 Authentication](https://developers.google.com/identity/protocols/oauth2/service-account)
