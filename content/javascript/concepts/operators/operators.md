@@ -142,6 +142,7 @@ const isPlane = false;
 isDuck = isBird || isPlane;
 
 console.log(isDuck);
+// Output: true
 
 // NOT Operator
 const isPenguin = !isDuck;
