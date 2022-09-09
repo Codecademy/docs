@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'JSON'
   - 'Objects'
+  - 'Properties'
+  - 'Values'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/full-stack-engineer-career-path'
