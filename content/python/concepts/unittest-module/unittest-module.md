@@ -19,7 +19,7 @@ The **`unittest`** module provides features for [unit testing](https://www.codec
 
 ## Example
 
-Suppose the following code for a `Rectangle` class needs to be tested:
+Suppose the following code for a `Rectangle` [class](https://www.codecademy.com/resources/docs/python/classes) needs to be tested:
 
 ```py
 # saved as rectangle.py
