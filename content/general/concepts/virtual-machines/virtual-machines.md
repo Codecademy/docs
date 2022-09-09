@@ -4,10 +4,8 @@ Description: 'Virtual machines are resources that can perform the same tasks as 
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'Virtual Machines'
-  - 'Cloud Computing'
-  - 'Security'
-  - 'DevOps'
+  - 'Servers'
+  - 'Cybersecurity'
 CatalogContent:
   - 'foundations-of-cloud-computing'
   - 'paths/computer-science'
