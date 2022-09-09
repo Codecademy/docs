@@ -78,7 +78,7 @@ Tests consist of methods containing calls to one or more `assert` methods of the
 
 - `.assertEqual()`: Test passes when both arguments are equal.
 - `.assertTrue()` : Test passes when argument is `True`.
-- `.assertFalse()` : Test passes when argument is `false`.
+- `.assertFalse()` : Test passes when argument is `False`.
 - `.assertRaises()` : Test passes when the passed exception is raised.
 
 The test case can have `.setUp()` and `.tearDown()` methods defined. The `.setUp()` method is for any initialization needed for the test, and will run before each `test` method is carried out. The `.tearDown()` method is run after each `test` method to do any needed cleanup after each test.
