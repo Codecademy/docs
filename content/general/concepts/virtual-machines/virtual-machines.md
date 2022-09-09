@@ -29,17 +29,17 @@ Virtual machines can provide many benefits, such as:
 
 Multiple VMs can be run on a single physical server or computer. This allows physical hardware to be used more efficiently because a single VM frequently does not use enough resources to need its own dedicated hardware. Assigning multiple VMs to a single physical host also lowers costs by reducing the number of physical computers needed.
 
-### Organize development and test environments
+### Organize Development and Test Environments
 
 VMs can provide separate environments with separate operating systems, which can be used for development and testing purposes. VMs make it easy to separate testing resources and conduct tests which won’t have any impact on production or other surrounding environments.
 
-### Increased security
+### Increased Security
 
 Using separate VMs is considered a secure way to explore potentially malicious applications or viruses. Because VMs are separate environments from the host, they can be used for these tasks without the risk of compromising the host machine.
 
 VMs can also improve security because VMs are isolated from the host computer and each other. If an attacker gained access to a single VM, the attacker won’t have access to the host machine or other VMs that share the same host.
 
-### Increased flexibility
+### Increased Flexibility
 
 VMs are flexible and can easily be migrated to different hypervisors or hosts. Resources on a VM can also be added and removed easily, and different VMs can be used to operate different displays and operating systems from the same host machine.
 
