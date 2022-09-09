@@ -25,7 +25,7 @@ Multiple VMs can be managed with a software known as a “hypervisor”. A hyper
 
 Virtual machines can provide many benefits, such as:
 
-### Improved hardware utilization
+### Improved Hardware Utilization
 
 Multiple VMs can be run on a single physical server or computer. This allows physical hardware to be used more efficiently because a single VM frequently does not use enough resources to need its own dedicated hardware. Assigning multiple VMs to a single physical host also lowers costs by reducing the number of physical computers needed.
 
