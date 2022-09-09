@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A virtual machine, or VM, is a virtual version of a physical computer. VMs can perform the same computing functions as physical computers, such as running applications or storing data. However, VMs do not use physical hardware to perform these tasks. Instead, VMs use virtual, software-defined versions of hardware that are installed on a host server. VMs only exist as code.
+A **virtual machine (VM)** is a resource that can perform the same computing functions as a physical computer system, such as running applications or storing data. However, VMs do not use physical hardware to perform these tasks. Instead, VMs exist as code and use software-defined versions of hardware that are installed on a host [server](https://www.codecademy.com/resources/docs/general/server).
 
 A single server or physical computer can run multiple VMs at the same time. Each VM has its own operating system and functions as an independent compute resource, even though they may share the same host server. For example, if you had a computer with macOS, you could use a VM to run a separate instance of the Windows operating system on top of your existing macOS computer.
 
