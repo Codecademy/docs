@@ -3,7 +3,7 @@ Title: 'isfinite()'
 Description: 'Returns whether the argument is a finite value.'
 Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Functions'
 CatalogContent: 
   - 'learn-c-plus-plus'
