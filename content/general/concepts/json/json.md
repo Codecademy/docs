@@ -47,9 +47,9 @@ Data is stored in an object, depicted by two curly braces ` {``} `, and name-val
 - [String](https://www.codecademy.com/resources/docs/general/string): A sequence of zero or more Unicode characters enclosed in double quotes.
 - `null`: An empty value represented by the word `null`.
 
-Whitespace is ignored between names, values, and punctuation. The following four characters are all considered whitespace: space, tab, line feed, and carriage return.
+[Whitespace](https://www.codecademy.com/resources/docs/general/whitespace) (e.g., spaces, tabs, line feeds, and carriage returns) is ignored between names, values, and punctuation. The following four characters are all considered whitespace: space, tab, line feed, and carriage return.
 
-JSON objects cannot contain comments.
+JSON objects cannot contain [comments](https://www.codecademy.com/resources/docs/general/comment).
 
 Multiple JSON objects can be collected in an array-like sequence:
 
@@ -78,7 +78,7 @@ A few important points to note about JSON syntax:
 
 Below are two points regarding what should be avoided when using JSON format:
 
-- It is not useful to abide by an XML-like, "attribute vs. element" framework. JSON is only about name-value pairs.
+- It is not useful to abide by an [XML](https://www.codecademy.com/resources/docs/general/xml)-like, "attribute vs. element" framework. JSON is only about name-value pairs.
 - While the nesting of inner-JSON objects is possible, going more than two levels deep could get complicated.
 
 ## Example

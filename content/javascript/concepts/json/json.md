@@ -20,4 +20,4 @@ In JavaScript, the built-in **`JSON`** object is used to convert values to [Java
 JSON.staticMethod();
 ```
 
-The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods, shown below:
+No constructor function is needed to create `JSON` objects. The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods, shown below:
