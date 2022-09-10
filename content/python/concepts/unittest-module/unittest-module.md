@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the automation of unit tests, sharing of setup and shutdown code for tests, and aggregation of tests into collections.
+The **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the automation of unit tests, sharing of setup and tear-down code for tests, and aggregation of tests into collections.
 
 ## Example
 
@@ -72,7 +72,7 @@ if __name__ == '__main__':
   unittest.main()
 ```
 
-First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined as methods with names starting with `test`. This naming convention allows the test runner to find the methods that represent tests.
+First the `unittest.TestCase` class is subclassed for our test case object. Then tests are defined as methods with names starting with `test`. This naming convention is manditory as it allows the test runner to find the methods that represent tests.
 
 Tests consist of methods containing calls to one or more `assert` methods of the test case object:
 
@@ -94,6 +94,8 @@ $ python test.py
 Ran 4 tests in 0.001s
 ```
 
+In this output we see a dot printed for each successful test.
+
 Using the `-v` option on the command line will produce a more verbose test:
 
 ```shell
@@ -106,3 +108,5 @@ test_perimeter (__main__.RectangleTestCase) ... ok
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
 ```
+
+In this output we see each test function name, the test case class it belongs to, and whether or not it passed the test.
