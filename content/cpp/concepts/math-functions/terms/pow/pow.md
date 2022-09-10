@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`pow()`** function returns the value of *base*<sup>*exponent*</sup>.
+The **`pow()`** function returns the value of `base`<sup>`exponent`</sup>.
 
 ## Syntax
 
