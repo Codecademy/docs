@@ -20,7 +20,7 @@ There are many different cloud-computing services, but the big three are [Amazon
 
 ## AWS
 
-AWS is the largest cloud computing platform, and the most mature, introducing its first public cloud services in 2006. It serves millions of users, from individuals to large enterprises, to governments. With more than 200 services to its customers, AWS has the largest catalog of services of the big three. As of 2021 it has 25 geographic regions and 218+ edge locations. AWS tends to land near the middle of on-demand pricing.
+AWS is the largest cloud computing platform, and the most mature, introducing its first public cloud services in 2006. It serves millions of users, from individuals to large enterprises, to governments. Offering more than 200 services to its customers, AWS has the largest catalog of services of the big three. As of 2021 it has 25 geographic regions and 218+ edge locations.
 
 The advantages of AWS include:
 
