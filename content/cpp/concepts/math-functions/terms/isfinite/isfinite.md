@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns whether the argument is a finite value.
+The **`isfinite()`** function returns boolean telling whether the argument has a finite value.
 
 ## Syntax
 
