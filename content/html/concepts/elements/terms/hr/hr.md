@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`<hr>`** element is used to represent a semantic break between text elements. For example, a switch in topic.
 
-**Note:** The **`<hr>`** tag is only for semantic distinction. Best practice to create a horizontal line for presentational purposes is to use [CSS](https://www.codecademy.com/resources/docs/css).
+> **Note:** The **`<hr>`** tag is only for semantic distinction. Best practice to create a horizontal line for presentational purposes is to use [CSS](https://www.codecademy.com/resources/docs/css).
 
 ## Syntax
 
