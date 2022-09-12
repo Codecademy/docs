@@ -4,7 +4,10 @@ Description: 'Returns whether the argument is a finite value.'
 Subjects:
   - 'Computer Science'
 Tags:
+  - 'Arithmetic'
   - 'Functions'
+  - 'Methods'
+  - 'Numbers'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
