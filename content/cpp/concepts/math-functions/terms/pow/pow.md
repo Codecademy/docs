@@ -1,6 +1,6 @@
 ---
 Title: 'pow()'
-Description: 'Returns the result of the base raised to the power of exponent'
+Description: 'Returns the result of a base raised to the power of an exponent.'
 Subjects:
   - 'Computer Science'
 Tags:
