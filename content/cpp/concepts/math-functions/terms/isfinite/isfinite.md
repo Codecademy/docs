@@ -23,7 +23,7 @@ isfinite(x)
 
 ## Example
 
-Use `isfinite()` to check whether `5` is finite:
+The following example uses the `isfinite()` function to check whether `5` is finite:
 
 ```cpp
 #include <iostream>
