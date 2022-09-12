@@ -42,7 +42,7 @@ Azure is the second largest cloud platform, introduced my Microsoft in 2008. It 
 The advantages of Azure include:
 
 - The ease of integration and migration for existing Microsoft users.
-- More inexpensive especially for users of Microsoft products.
+- More inexpensive for users of Microsoft products.
 - Significant support for hybrid cloud solutions.
 
 Disadvantages include:
