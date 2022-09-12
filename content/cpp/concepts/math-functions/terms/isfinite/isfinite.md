@@ -46,6 +46,7 @@ int main() {
 
 ## Codebyte Example
 
+The following example is runnable and features a case where running the `isfinite()` functions returns `false` and the value is not finite:
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
