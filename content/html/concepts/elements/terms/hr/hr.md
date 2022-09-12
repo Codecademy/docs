@@ -22,7 +22,7 @@ The **`<hr>`** element is used to represent a semantic break between text elemen
 <hr />
 ```
 
-The `<b>` element should only contain text or other tags meant for text content.
+The `<hr>` element should be used to seperate other elements at a semantic break.
 
 ## Example
 
