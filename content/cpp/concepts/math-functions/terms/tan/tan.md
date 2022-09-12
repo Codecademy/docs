@@ -23,7 +23,7 @@ If the parameter `x` is equal to pi +- n\*pi (Where n is a natural number), then
 
 ## Example
 
-The following example uses the `tan()` function to find the tangent of `pi/4`:
+The following example uses the `tan()` function to find the tangent of pi/4:
 
 ```cpp
 #include <iostream>
