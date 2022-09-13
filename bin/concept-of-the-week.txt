@@ -1,1 +1,1 @@
-content/react/concepts/lifecycle-methods/lifecycle-methods.md
+content/uiux/concepts/information-architecture/information-architecture.md
