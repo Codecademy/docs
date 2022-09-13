@@ -8,8 +8,8 @@ Tags:
   - 'Integers'
   - 'Booleans'
 CatalogContent:
-- "learn-c"
-- "paths/computer-science"
+  - 'learn-c'
+  - 'paths/computer-science'
 ---
 
 ## Basic Data Types
@@ -33,6 +33,7 @@ float = 125.8;
 double = 3.2325467;
 char = 'T';
 ```
+
 ### Int
 
 It contains only integral values. A minus sign preceding the data type indicates that the value is negative.
@@ -44,6 +45,7 @@ int = -5;
 int = 20;
 int rgbColor = 0XFFEF0D;
 ```
+
 Spaces aren't allowed between digits and the values larger than 999 don't need a comma.
 
 ```c
@@ -57,7 +59,6 @@ Floats are used to store floating-point numbers, values that contain decimal pla
 
 Doubles are the same but they are needed when more precision is required since it has 15 decimal digits of precision.
 
-
 ```c
 float salary = 523.45;
 double bankTransaction = 245.2518;
@@ -66,13 +67,12 @@ float counterFactor = 15.87e4;
 
 ## Memory Size
 
-
-| Type | Size | Value Range | Format Specifier |
-| ---- | ---- | ----------- | ---------------- |
-| Char | 1 byte | -128 to 127 or 0 to 255 | %c |
-| Int | 4 bytes | -2,147,483,648 to 2,147,483,647  | %d |
-| Float | 4 bytes | 1.2E-38 to 3.4E+38 | %f |
-| Double | 8 bytes | 1.7E-308 to 1.7E+308 | %lf |
+| Type   | Size    | Value Range                     | Format Specifier |
+| ------ | ------- | ------------------------------- | ---------------- |
+| Char   | 1 byte  | -128 to 127 or 0 to 255         | %c               |
+| Int    | 4 bytes | -2,147,483,648 to 2,147,483,647 | %d               |
+| Float  | 4 bytes | 1.2E-38 to 3.4E+38              | %f               |
+| Double | 8 bytes | 1.7E-308 to 1.7E+308            | %lf              |
 
 ## Static Typing
 
