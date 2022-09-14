@@ -8,6 +8,8 @@ Tags:
   - 'Automation'
   - 'Debugging'
   - 'Development'
+  - 'Functions'
+  - 'Methods'
   - 'Modules'
   - 'Units'
 CatalogContent:
@@ -15,11 +17,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the automation of unit tests, sharing of setup and tear-down code for tests, and aggregation of tests into collections.
+The **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the following features:
+
+- Automation of unit tests.
+- Sharing of setup and tear-down code for tests.
+- Aggregation of tests into collections.
 
 ## Example
 
-Suppose the following code for a `Rectangle` [class](https://www.codecademy.com/resources/docs/python/classes) needs to be tested:
+The following example begins with code for a `Rectangle` [class](https://www.codecademy.com/resources/docs/python/classes) that needs to be tested:
 
 ```py
 # saved as rectangle.py
@@ -94,7 +100,7 @@ $ python test.py
 Ran 4 tests in 0.001s
 ```
 
-In this output we see a dot printed for each successful test.
+The output shows a dot printed for each successful test.
 
 Using the `-v` option on the command line will produce a more verbose test:
 
@@ -109,4 +115,8 @@ test_perimeter (__main__.RectangleTestCase) ... ok
 Ran 4 tests in 0.001s
 ```
 
-In this output we see each test function name, the test case class it belongs to, and whether or not it passed the test.
+The output shows the following:
+
+- The method name for each test.
+- The test case class the method belongs to.
+- A message telling whether or the test was passed.
