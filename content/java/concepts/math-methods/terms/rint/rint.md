@@ -1,6 +1,6 @@
 ---
 Title: '.rint()'
-Description: 'The method rounds down or up based on the value of the argument.'
+Description: 'Returns the closest double value depending on the value of the argument.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.rint()`** method rounds down or up based on the value of the argument.
+The **`Math.rint()`** returns the closest double value depending on the value of the argument.
 
 ## Syntax
 
