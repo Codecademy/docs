@@ -1,1 +1,1 @@
-content/general/concepts/prototype-pattern/prototype-pattern.md
+content/uiux/concepts/information-architecture/information-architecture.md
