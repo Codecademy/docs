@@ -1,6 +1,6 @@
 ---
 Title: 'Pytorch'
-Description: 'An open-source Python module that offers an optimized tensor library for deep learning.'
+Description: 'An open-source framework that offers an optimized tensor library for deep learning.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-deep-learning-models-with-tensorflow'
 ---
 
-**PyTorch** is a free [open-source](https://www.codecademy.com/resources/docs/general/open-source) Python module that offers an optimized tensor library for deep learning. It is based on the Torch library and can be used for applications such as natural language processing and computer vision. Released in 2016 and developed primarily by Meta (formerly Facebook) AI, deep learning software built on PyTorch include Tesla Autopilot and Uber's Pyro.
+**PyTorch** is a free [open-source](https://www.codecademy.com/resources/docs/general/open-source) framework that offers an optimized tensor library for deep learning. It offers a number of modules based on the Torch library and can be used for applications such as natural language processing and computer vision. Released in 2016 and developed primarily by Meta (formerly Facebook) AI, deep learning software built on PyTorch include Tesla Autopilot and Uber's Pyro.
 
 ## Features
 
