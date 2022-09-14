@@ -23,12 +23,14 @@ The **`<hr>`** element is used to represent a semantic break between text elemen
 <hr />
 ```
 
-The `<hr>` element should be used to seperate other elements at a semantic break.
+The `<hr>` element is self-closing and the forward slash `/` is optional. This should be used to semantically separate other elements (e.g., a topic-change within a section).
+
+In the following example, the `<hr>` element provides a semantic break between the text of two [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs) elements:
 
 ## Example
 
 ```html
-<p>This is a paragraph</p>
+<p>This is a paragraph.</p>
 <hr />
-<p>This is a different paragraph</p>
+<p>This is a different paragraph.</p>
 ```
