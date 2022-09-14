@@ -1,6 +1,6 @@
 ---
 Title: '<hr>'
-Description: 'Used to draw represent a semantic break between text elements.'
+Description: 'Represents a semantic, horizontal line break between text elements.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
