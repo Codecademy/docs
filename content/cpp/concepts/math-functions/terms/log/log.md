@@ -20,7 +20,7 @@ The **log()** function returns the natural, base-_e_ logarithm of the argument. 
  log(x)
 ```
 
-If the parameter `x` is less than or equal to zero, then a domain error will occur. If `x` is equal to 0, a pole error may occur where the result has reached the point of infinity and cannot be expressedly returned.
+If the `x` parameter is less than or equal to zero, then a domain error will occur. If `x` is equal to zero, a pole error may occur where the result has reached the point of infinity and cannot be expressedly returned.
 
 ## Example
 
