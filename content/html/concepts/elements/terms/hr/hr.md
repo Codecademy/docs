@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<hr>`** element is used to represent a semantic break between text elements. For example, a switch in topic.
+The **`<hr>`** (or horizontal rule) element represents a semantic line break between text elements (e.g., a topic-change within a section).
 
-> **Note:** Originally, the tag was used to create a horizontal line for visual purposes. However, now the **`<hr>`** tag is only for semantic distinction. Best practice to create a horizontal line for presentational purposes is to use [CSS](https://www.codecademy.com/resources/docs/css).
+> **Note:** While the `<hr>` element was originally created for visual purposes, it is now used for semantic distinction. Styling with [CSS](https://www.codecademy.com/resources/docs/css) is now recommended for creating a horizontal line for presentational purposes.
 
 ## Syntax
 
