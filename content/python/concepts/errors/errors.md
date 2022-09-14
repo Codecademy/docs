@@ -1,6 +1,6 @@
 ---
 Title: 'Errors'
-Description: 'There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions. Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python: error File "script.py", line 1 while True print("Hello world!") ^ SyntaxError: invalid syntax'
+Description: 'The two types of errors in Python are syntax errors and exceptions. Exceptions may arise even if the code is syntactically correct.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-There are (at least) two distinguishable kinds of errors in Python: syntax errors and exceptions.
+The two types of **errors** in Python are syntax errors and exceptions.
 
 ## Syntax Errors
 
-Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python:
+Syntax errors (also known as parsing errors) occur when a sequence of characters, or tokens, violates the syntax of the Python programming language:
 
-```error
+```shell
 File "script.py", line 1
   while True print("Hello world!")
                    ^
@@ -27,9 +27,9 @@ SyntaxError: invalid syntax
 
 The parser repeats the offending line and displays a little arrow `^` pointing at the earliest point in the line where the error was detected.
 
-The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the function `print()`, since a colon `:` is missing before it.
+The error is caused by (or at least detected at) the token preceding the arrow in the example, the error is detected at the [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) function, since a colon `:` is missing before it.
 
-File name and line number are printed so you know where to look in case the input came from a script.
+File name and line number are printed to state where the error originated.
 
 ## Exceptions
 
@@ -37,9 +37,9 @@ Even if a statement or expression is syntactically correct, it may cause an erro
 
 ### Value Error
 
-`ValueError` is thrown when a function's argument is of an inappropriate type.
+`ValueError` is thrown when a function's argument is of the correct type, but an inapprpriate value, such as being out of range.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 int('xyz')
@@ -50,7 +50,7 @@ ValueError: invalid literal for int() with base 10: 'xyz'
 
 `NameError` is thrown when an object could not be found.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 age
@@ -61,7 +61,7 @@ NameError: name 'age' is not defined
 
 `IndexError` is thrown when trying to access an item at an invalid index.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 employees[3]
@@ -72,18 +72,29 @@ IndexError: list index out of range
 
 `ModuleNotFoundError` is thrown when a module could not be found.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 import notamodule
 ModuleNotFoundError: No module named 'notamodule'
 ```
 
+### Type Error
+
+`TypeError` is thrown when a function's argument is of an inappropriate type.
+
+```shell
+Traceback (most recent call last):
+File "script.py", line 1, in <module>
+max(True)
+TypeError: 'bool' object is not iterable
+```
+
 ### Zero Division Error
 
 `ZeroDivisionError` is thrown when the second operator in the division is zero.
 
-```error
+```shell
 Traceback (most recent call last):
 File "script.py", line 1, in <module>
 ratio = 100 / 0
