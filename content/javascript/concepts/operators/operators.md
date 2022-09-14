@@ -18,13 +18,13 @@ An **operator** is a special character or series of characters that perform a ta
 
 ## Assignment Operator
 
-This operator uses the equals sign (`=`) assigns a value to a [variable](https://www.codecademy.com/resources/docs/javascript/variables).
+This operator uses the equals sign (`=`) to assign a value to a [variable](https://www.codecademy.com/resources/docs/javascript/variables).
 
 ```js
 let x = 42;
 ```
 
-In the snippet above, a variable `x` is declared and the numeric value `42` is assigned it.
+In the snippet above, a variable `x` is declared and the numeric value `42` is assigned to it.
 
 ## Arithmetic Operators
 
@@ -81,7 +81,7 @@ console.log(number);
 
 ## Comparison Operators
 
-These operators compare values and return a boolean value of `true` or `false`.
+These operators compare values and return a [boolean](https://www.codecademy.com/resources/docs/general/boolean) value of `true` or `false`.
 
 - `==`: Returns `true` or `false` based on whether the value of two operands are equal.
 - `===`: Returns `true` or `false` based on whether the value and type of two operands are equal.
@@ -92,6 +92,8 @@ These operators compare values and return a boolean value of `true` or `false`.
 - `>=`: Returns `true` or `false` based on whether the first value is greater than or equal to the second value.
 - `<=`: Returns `true` or `false` based on whether the first value is less than or equal to the second value.
 
+> **Note:** The `==` and `===` comparison operators are not to be confused with the single equality sign `=` operator that is used for assignment.
+
 ### Example
 
 The following example showcases some of these comparison operators:
@@ -100,17 +102,17 @@ The following example showcases some of these comparison operators:
 let tenString = '10';
 let numberTen = 10;
 
-tenString == numberTen;
-// Ouptut: true
+console.log(tenString == numberTen);
+// Output: true
 
-tenString === numberTen;
+console.log(tenString === numberTen);
 // Output: false
 
-tenString != numberTen;
+console.log(tenString != numberTen);
 // Output: false
 
-tenString !== numberTen;
-// Ouptut: true
+console.log(tenString !== numberTen);
+// Output: true
 ```
 
 ## Logical Operators
