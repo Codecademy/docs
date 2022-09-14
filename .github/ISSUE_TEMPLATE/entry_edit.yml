@@ -23,7 +23,11 @@ body:
       placeholder: "Please write here to provide any additional context/reasoning behind the edits."
   - type: markdown
     attributes:
-      value: Please refer to the [entry templates](https://github.com/Codecademy/docs/blob/main/documentation/), [content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md), and [markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/) when working on the PR for this issue.
+      value: |
+        In addition to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md), we recommend checking out the following before submtting a PR:
+        - [Entry templates](https://github.com/Codecademy/docs/blob/main/documentation/)
+        - [Content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
+        - [Markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/)
   - type: checkboxes
     id: terms
     attributes:
