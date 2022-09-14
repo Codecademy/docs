@@ -16,7 +16,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-hacking/" />
 
-**Hacking** involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" or "bad". It depends on many factors, including the intentions of the hacker.
+**Hacking** involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" nor "bad". It depends on many factors, including the intentions of the hacker.
 
 ## Types of Hackers
 
@@ -30,8 +30,8 @@ These are the hackers that are notoriously regarded as "the bad guys" that infil
 - Leak sensitive information to the public.
 - Take one company's sensitive data and give/sell it to another.
 - Steal large amounts of personal information and sell it to third parties.
-- Cripple a company's computer system by taking control of it and then holding it for ransome.
-- Steal and sell the login information for large amounts of users.
+- Cripple a company's computer system by taking control of it and then holding it for ransom.
+- Steal and sell the login information of large amounts of users.
 
 ### Grey Hat Hackers
 

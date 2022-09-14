@@ -63,7 +63,7 @@ Back-End Developers normally query their databases with various programming lang
 
 ### Frameworks
 
-Frameworks intend to make all aspects of web development more smooth and seamless, including back-end. This save developers time they would otherwise spend writing code. Popular frameworks include:
+[Frameworks](https://www.codecademy.com/resources/docs/general/framework) make all aspects of web development smoother and seamless. This saves developers time they would otherwise spend writing code. Popular frameworks include:
 
 - Sinatra, a lightweight Ruby framework for building web apps.
 - [Ruby on Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails), a more robust Ruby framework that follows the model-view-controller standard.
