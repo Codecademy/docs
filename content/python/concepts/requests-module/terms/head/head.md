@@ -18,17 +18,17 @@ The **`.head()`** method sends a `HEAD` request to a web server and it returns a
 
 ## Syntax
 
-```py
+```pseudo
 import requests
 
 requests.head("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `HEAD` request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
+`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `HEAD` request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
 ## Example
 
-The `.head()` method sends a request for data to a web server. The response object it returns contains the response headers (information about the web server's content) without including the content itself. Therefore, `.head()` is similar to `.get()`, but is usually faster.
+The `.head()` method sends a request for data to a web server. The response object it returns contains the response headers (information about the web server's content) without including the content itself. Therefore, `.head()` is similar to [`.get()`](https://www.codecademy.com/resources/docs/python/requests-module/get), but is usually faster.
 
 For example, `.head()` can check to make sure a website is responding, and see what content type is returned, without actually downloading the content:
 
@@ -38,13 +38,18 @@ import requests
 response = requests.head("https://www.codecademy.com")
 
 print(response.status_code)
-# Output: 200
 
 print(response.headers["Content-Type"])
-# Output: text/html; charset=utf-8
 
 print(response.text)
-# Output: ''
+```
+
+This will produce the following output:
+
+```shell
+200
+text/html; charset=utf-8
+
 ```
 
 ## Codebyte Example

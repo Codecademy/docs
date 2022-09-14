@@ -18,13 +18,13 @@ The **`.get()`** method sends a `GET` request to a web server and it returns a r
 
 ## Syntax
 
-```py
+```pseudo
 import requests
 
 requests.get("url", **kwargs)
 ```
 
-`**kwargs` are any number of dictionary items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `GET` request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
+`**kwargs` are any number of [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries) items (named arguments) that are passed in as parameters. Many different named parameters can be passed in to a `GET` request. For example, they can be used to include cookies in the request, set proxies, set user-agents, or set a page timeout.
 
 ## Example
 

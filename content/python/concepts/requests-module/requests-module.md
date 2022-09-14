@@ -23,7 +23,7 @@ The HTTP request returns a Response Object with all the response data (content, 
 
 ## Installation
 
-Installing the `requests` module is done by running the following command in the [terminal](https://www.codecademy.com/resources/docs/general/terminal):
+Installing the `requests` module is done by running the following [pip](https://www.codecademy.com/resources/docs/python/pip) command in the [terminal](https://www.codecademy.com/resources/docs/general/terminal):
 
 ```shell
 pip install requests
@@ -35,7 +35,7 @@ Or for Python 3:
 pip3 install requests
 ```
 
-Once `requests` is installed, it can be used in a program. Importing `requests` looks like this:
+Once `requests` is installed, it can be used in a program and imported like this:
 
 ```py
 import requests
