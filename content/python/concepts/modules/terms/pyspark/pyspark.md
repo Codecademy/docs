@@ -16,7 +16,7 @@ CatalogContent:
   - 'big-data-pyspark'
 ---
 
-**PySpark** is a Python API for Apache Spark, consisting of several modules. Apache Spark (or Spark) is an analytical engine for large-scale distributed data processing and [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning). Spark can run operations on very large datasets on distributed clusters about 100 times faster than traditional Python applications. PySpark has seen wide usage in the data science and machine learning communities due to the extensive number of data science libraries available in Python, and its ability to efficiently process large datasets.
+**PySpark** is a Python API for Apache Spark, consisting of several modules. Apache Spark (or Spark) is an analytical engine for large-scale distributed data processing and [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning). Spark can run operations with very large datasets on distributed clusters about 100 times faster than traditional Python applications. PySpark has seen wide usage in the data science and machine learning communities due to the extensive number of data science libraries available in Python, and its ability to efficiently process large datasets.
 
 ## Features
 
