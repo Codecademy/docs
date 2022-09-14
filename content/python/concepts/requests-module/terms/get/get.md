@@ -36,12 +36,17 @@ import requests
 response = requests.get("https://codecademy.com")
 
 print(f"{response.status_code}: {response.reason}")
-# Output: 200: OK
 
 response = requests.get("https://codecademy.com/cat-pictures")
 
 print(f"{response.status_code}: {response.reason}")
-# Output: 404: Not Found
+```
+
+This will produce the following output:
+
+```shell
+200: OK
+404: Not Found
 ```
 
 ## Codebyte Example

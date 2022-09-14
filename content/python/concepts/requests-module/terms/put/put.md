@@ -40,6 +40,14 @@ json = {
 }
 
 response = requests.put("https://httpbin.org/put", json=json)
+
+print(response.json()["json"])
+```
+
+The following output shows the `json` dictionary that was defined earlier:
+
+```shell
+{'my_key': 'Hello, World!'}
 ```
 
 ## Codebyte Example
@@ -55,7 +63,7 @@ json = {
 
 response = requests.put("https://httpbin.org/put", json=json)
 
-print(response.status_code)
+print(f"{response.status_code}: {response.reason}")
 
-print(response.json()["json"]["my_key"])
+print(f"Value of my_key: {response.json()['json']['my_key']}")
 ```

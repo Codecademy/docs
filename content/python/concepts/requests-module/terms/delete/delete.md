@@ -36,7 +36,12 @@ import requests
 response = requests.delete("https://httpbin.org/delete")
 
 print(f"{response.status_code}: {response.reason}")
-# Output: 200: OK
+```
+
+The following output will look like this:
+
+```shell
+200: OK
 ```
 
 ## Codebyte Example
