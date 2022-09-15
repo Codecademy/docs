@@ -33,6 +33,6 @@ With its flexibility and low costs, SaaS services have several advantages includ
 
 Since they are not in direct control of the service, customers could face challenges such as:
 
-- Service Issues: Disruptions like security breaches, server outages, or service changes are beyond the customer's control.
-- Switching Providers: Depending on the amount of data being stored, it may be difficult to transfer the data to a different provider.
-- Updates: If the service provider issues a new version of the product, the customer may have to allocate time learning the newer version.
+- **Service Issues**: Disruptions like security breaches, server outages, or service changes are beyond the customer's control.
+- **Switching Providers**: Depending on the amount of data being stored, it may be difficult to transfer the data to a different provider.
+- **Updates**: If the service provider issues a new version of the product, the customer may have to allocate time learning the newer version.
