@@ -1,6 +1,7 @@
 ---
 Title: 'VStack'
-Description: 'The VStack view creates vertically stacked elements, where elements lay in a top-to-down layout.'
+Description: 'The VStack view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom).
+'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

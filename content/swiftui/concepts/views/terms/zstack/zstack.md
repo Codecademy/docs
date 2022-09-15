@@ -1,6 +1,6 @@
 ---
 Title: 'ZStack'
-Description: 'The ZStack view creates zed stacked elements, where elements lay in a back-to-front layout.'
+Description: 'The ZStack view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front)'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

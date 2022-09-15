@@ -1,6 +1,6 @@
 ---
 Title: 'HStack'
-Description: 'The HStack view creates horizontally stacked elements, where elements lay in a left-to-right layout.'
+Description: 'The HStack view is a layout container where elements, or subviews, are arranged in a horizontal line (left-to-right).'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

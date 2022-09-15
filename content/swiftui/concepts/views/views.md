@@ -1,6 +1,6 @@
 ---
 Title: 'Views'
-Description: 'Views make up an applications user interface.'
+Description: 'Views make up the user interface for an application.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
