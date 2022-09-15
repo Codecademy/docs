@@ -1,6 +1,6 @@
 ---
 Title: '.rint()'
-Description: 'Returns the closest double value depending on the value of the argument.'
+Description: 'Returns the closest whole double value to the value of the argument.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.rint()`** returns the closest double value depending on the value of the argument.
+The **`Math.rint()`** returns the closest whole double value to the value of the argument.
 
 ## Syntax
 
@@ -20,12 +20,12 @@ The **`Math.rint()`** returns the closest double value depending on the value of
 Math.rint(num)
 ```
 
-The return type of the `.rint()` method and data type of the `num` parameter is a double.
+The `.rint()` method takes a double as an argument and returns a double.
 
 Some edge cases for the `.rint()` method include the following:
 
 - If the value of `num` is equal to an integer, then the result of the method is the value of `num`.
-- If the value of `num` is NaN or infinity, then the result of the method is the value of `num`.
+- If the value of `num` is `NaN` or infinity, then the result of the method is the value of `num`.
 - If the value of `num` is positive or negative zero, then the result of the method is zero.
 
 ## Example
