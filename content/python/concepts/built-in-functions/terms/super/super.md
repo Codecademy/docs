@@ -10,7 +10,7 @@ Tags:
   - 'Inheritance'
   - 'Classes'
   - 'Functions'
-  **- 'Inheritance'**
+  - 'Inheritance'
   - 'Methods'
   - 'Objects'
   - 'OOP'
