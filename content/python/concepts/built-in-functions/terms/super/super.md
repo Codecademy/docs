@@ -51,5 +51,3 @@ class Python(ProgramLanguage):
 doc = Python()
 doc.intro()
 ```
-
->**Note:** Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
