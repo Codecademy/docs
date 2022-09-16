@@ -68,28 +68,6 @@ Python here!
 
 **Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
 
-### `super()`
-
-`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
-
-In this case, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
-
-```py
-class Python(ProgramLanguage):
-  def intro(self):
-    super().say_hi()
-    print("Python here!")
-
-doc = Python()
-doc.intro()
-```
-
-The output would be:
-
-```shell
-Hi! I am a Programming Language.
-Python here!
-```
 
 ## Overriding Methods
 
