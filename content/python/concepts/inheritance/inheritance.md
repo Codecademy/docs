@@ -68,7 +68,6 @@ Python here!
 
 **Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
 
-
 ## Overriding Methods
 
 In the child class, a parent class method gets overridden when a method of the same name is declared within it.
