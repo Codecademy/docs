@@ -25,7 +25,7 @@ The **`super()`** function returns a temporary object that allows a given [class
 
 ```pseudo
 super().function()
-super(type) 
+super(type)
 ```
 
 ## `super()`
