@@ -1,18 +1,25 @@
 ---
 Title: 'super()'
-Description: 'implicitly refer to the superclass'
+Description: 'Returns a temporary object that allows a given class to inherit the methods and properties of a parent or sibling class.'
 Subjects:
   - 'Computer Science'
+  - 'Data Science'
 Tags:
   - 'Functions'
   - 'Objects'
   - 'Inheritance'
+  - 'Classes'
+  - 'Functions'
+  - 'Inheritance'
+  - 'Methods'
+  - 'Objects'
+  - 'OOP'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-The `super()` function is built into python and is used to refer to the the superclass of an object without specifically using the parent name.
+The **`super()`** function returns a temporary object that allows a given [class](https://www.codecademy.com/resource/docs/python/classes) to [inheritance](https://www.codecademy.com/resource/docs/python/inheritance) the methods and properties of a parent or sibling class.
 
 ## Syntax
 
@@ -25,10 +32,11 @@ super(type)
 
 `super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
 
-## Example
+## Codebyte Example
+
 In this case, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
 
-```py
+```codebyte/python
 # Base class
 class ProgramLanguage:
   def say_hi(self):
@@ -44,10 +52,4 @@ doc = Python()
 doc.intro()
 ```
 
-The output would be:
-
-```shell
-Hi! I am a Programming Language.
-Python here!
-```
-
+>**Note:** Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
