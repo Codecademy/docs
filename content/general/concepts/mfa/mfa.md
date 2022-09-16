@@ -1,17 +1,18 @@
 ---
 Title: 'MFA'
-Description: 'Multi-factor Authentication (MFA) is the use of more than one factor to prove one's identity.'
+Description: 'Multi-factor Authentication (MFA) is the use of more than one factor to prove the identity of a user.'
 Subjects:
-  - 'Computer Science'
   - 'Web Development'
+  - 'Computer Science'
 Tags:
   - 'Best Practices'
+  - 'Cybersecurity'
 CatalogContent:
   - 'paths/code-foundations'
   - 'paths/computer-science'
 ---
 
-**Multi-factor Authentication (MFA)** is the use of more than one factor to prove one's identity.
+**Multi-factor Authentication (MFA)** is the use of more than one factor to prove the identity of a user.
 
 ## Factors
 
