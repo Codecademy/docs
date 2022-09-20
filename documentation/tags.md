@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Automation
 Azure
 A-Frame
 Background
@@ -97,6 +98,7 @@ Enum
 Error Handling
 Errors
 ES6
+Ethical Hacking
 Events
 Exceptions
 Expo
