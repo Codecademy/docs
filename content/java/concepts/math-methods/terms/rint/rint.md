@@ -1,18 +1,19 @@
 ---
 Title: '.rint()'
-Description: 'Returns the closest whole double value to the value of the argument.'
+Description: 'Returns a double that is rounded to the closest whole integer.'
 Subjects:
   - 'Computer Science'
 Tags:
   - 'Functions'
   - 'Methods'
   - 'Arithmetic'
+  - 'Numbers'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-The **`Math.rint()`** returns the closest whole double value to the value of the argument.
+The **`Math.rint()`** returns a double that is rounded to the closest whole integer.
 
 ## Syntax
 
@@ -20,17 +21,17 @@ The **`Math.rint()`** returns the closest whole double value to the value of the
 Math.rint(num)
 ```
 
-The `.rint()` method takes a double as an argument and returns a double.
+The `.rint()` method takes a double `num` parameter and returns a double.
 
 Some edge cases for the `.rint()` method include the following:
 
-- If the value of `num` is equal to an integer, then the result of the method is the value of `num`.
-- If the value of `num` is `NaN` or infinity, then the result of the method is the value of `num`.
-- If the value of `num` is positive or negative zero, then the result of the method is zero.
+- If the value of `num` is passed an integer, then it is returned as a double.
+- If the value of `num` is `NaN` or positive/negative infinity, then the value of `num` is returned.
+- If the value of `num` is positive/negative zero, then `0.0` is returned.
 
 ## Example
 
-The following example shows the application of the `.rint()` method:
+The following example demonstrates the `.rint()` method:
 
 ```java
 public class Test {
