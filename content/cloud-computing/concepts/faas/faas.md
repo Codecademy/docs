@@ -30,5 +30,5 @@ The main difference between the FaaS and platform as a service (PaaS) models is 
 The disadvantages include:
 
 - Initial requests to the server might take several seconds to respond, though [caching](https://www.codecademy.com/resources/docs/general/cache) may reduce subsequent requests to milliseconds.
-- It requires giving up substantial control.  Things like the server, security or database the application uses are handled by the service provider.
+- It requires giving up substantial control. Things like the server, security or database the application uses are handled by the service provider.
 - There may be difficulty switching service providers after the application is developed.
