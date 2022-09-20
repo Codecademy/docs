@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Topic entries** encompass a collection of concepts related to a particular language, disciple, or other technology subject. The following are examples of Codecademy Docs topics:
+**Topic entries** encompass a collection of concepts related to a particular language, discipline, or other technology subject. The following are examples of Codecademy Docs topics:
 
 - [C++](https://www.codecademy.com/resources/docs/cpp)
 - [UI and UX Design](https://www.codecademy.com/resources/docs/uiux)

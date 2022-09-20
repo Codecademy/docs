@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-The content-base where Codecademy Docs is housed is the **`docs` repository** (or "repo") on [GitHub](https://github.com/Codecademy/docs). Contributors can view, edit, and propose new content for the repo. After the changes are merged into the repo's `main` branch, they will go live on the [Docs site](https://www.codecademy.com/resources/docs).
+The content-base where Codecademy Docs is housed is the [**`docs` repository**](https://github.com/Codecademy/docs) (or "repo") on [GitHub](https://www.codecademy.com/resources/docs/general/github). Contributors can view, edit, and propose new content for the repo. After the changes are merged into the repo's `main` branch, they will go live on the [Docs site](https://www.codecademy.com/resources/docs).
 
 ## Forking the Repository
 
@@ -26,7 +26,7 @@ The forked repo is sometimes regarded as the "remote repo" on GitHub. To make a 
 git clone https://github.com/github_username/docs.git
 ```
 
-The newly created `docs` folder (the local repo) can now be changed into. It contains all of the files and folders from the remote repo.
+Changes can now be made in the newly created `docs` folder (the local repo). It contains all of the files and folders from the remote repo.
 
 ## Issues
 
@@ -34,7 +34,7 @@ First-time contributors are highly encouraged to visit the [Issues](https://gith
 
 ## Pull Requests
 
-Pull requests (PR) are used to propose new changes to be merged in the base `main` branch of the `docs` repo. After contributors are finished editing files in the PR branch of their forked repo (separate from the `main` branch), they are ready to [add](https://www.codecademy.com/resources/docs/git/add), [commit](https://www.codecademy.com/resources/docs/git/commit), and [push](https://www.codecademy.com/resources/docs/git/push) their changes and open a new PR.
+Pull requests (PR) are used to propose new changes to be merged in the base `main` branch of the `docs` repo. After contributors are finished editing files in the PR branch of their local repo (separate from the `main` branch), they are ready to [add](https://www.codecademy.com/resources/docs/git/add), [commit](https://www.codecademy.com/resources/docs/git/commit), and [push](https://www.codecademy.com/resources/docs/git/push) their changes and open a new PR.
 
 ![Red arrow on the Codecademy Docs repo pointing at a pop-up link for creating a new pull request](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_pull_request_link.png)
 
