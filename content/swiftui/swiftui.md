@@ -1,13 +1,7 @@
 ---
 Title: 'SwiftUI'
 Description: 'SwiftUI is a framework used to build user interfaces for applications within the Apple ecosystem.'
-Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
-Tags:
-  - 'SwiftUI'
-  - 'UI'
-  - 'UX'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/swift'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
