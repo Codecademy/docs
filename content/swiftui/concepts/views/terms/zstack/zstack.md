@@ -31,12 +31,17 @@ var body: some View {
 ```swift
 var body: some View {
   ZStack {
-    Text("Subview 1")
-    Text("Subview 2")
+    Rectangle()
+      .fill(.black)
+      .frame(width: 100, height: 100)
+    Rectangle()
+      .fill(.pink)
+      .frame(width: 100, height: 100)
+      .offset(x: 25, y: 25)
   }
 }
 ```
 
-This will display:
+In the snippet above, two `Rectangle` subviews are stacked on top of one-another. Order matters here; the bottom-most subview will appear on top. For visual clarity, the top-most rectangle view's x- and y-coordinates were offset by `25`. This will display:
 
 ![ZStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/zstack.png)
