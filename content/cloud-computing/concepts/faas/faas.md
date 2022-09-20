@@ -1,6 +1,6 @@
 ---
 Title: 'FaaS'
-Description: 'Function as a service (FaaS) is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for application development and deployment.'
+Description: 'Function as a service (FaaS) is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for development and deployment.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Function as a service (FaaS)** is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for application development and deployment. The application functionality is developed and hosted on the cloud. This removes the need for the configuration and maintenance of a [server](https://www.codecademy.com/resources/docs/general/server), resulting in a "serverless" architecture.
+**Function as a service (FaaS)** is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for development and deployment. The application functionality is developed and hosted on the cloud. This removes the need for the configuration and maintenance of a [server](https://www.codecademy.com/resources/docs/general/server), resulting in a "serverless" architecture.
 
 ## History
 
@@ -27,4 +27,8 @@ The main difference between the FaaS and platform as a service (PaaS) models is 
 - Because a server process is not being constantly run, the user does not pay for any process idle time.
 - This results in a lower cost and higher scalability.
 
-The disadvantage to this is that initial requests might take several seconds to respond, though [caching](https://www.codecademy.com/resources/docs/general/cache) may reduce subsequent requests to milliseconds.
+The disadvantages include:
+
+- Initial requests to the server might take several seconds to respond, though [caching](https://www.codecademy.com/resources/docs/general/cache) may reduce subsequent requests to milliseconds.
+- It requires giving up substantial control.  Things like the server, security or database the application uses are handled by the service provider.
+- There may be difficulty switching service providers after the application is developed.
