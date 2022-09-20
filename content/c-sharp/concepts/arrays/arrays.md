@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: ''
+Description: 'An array is a data structure used in C# to store a sequential collection of elements.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
