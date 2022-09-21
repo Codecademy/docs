@@ -23,8 +23,10 @@ The **`super()`** function returns a temporary object that allows a given [class
 
 ## Syntax
 
+To access a method of a parent class or specify the type object of the parent class using pseudocode:
+
 ```pseudo
-super().function()
+super().method()
 super(type)
 ```
 
