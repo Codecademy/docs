@@ -19,7 +19,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`super()`** function returns a temporary object that allows a given [class](https://www.codecademy.com/resource/docs/python/classes) to [inheritance](https://www.codecademy.com/resource/docs/python/inheritance) the methods and properties of a parent or sibling class.
+The **`super()`** function returns a temporary object that allows a given [class](https://www.codecademy.com/resources/docs/python/classes) to [inherit](https://www.codecademy.com/resources/docs/python/inheritance) the methods and properties of a parent or sibling class.
 
 ## Syntax
 
