@@ -30,7 +30,7 @@ super(type)
 
 ## `super()`
 
-`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
+`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using multiple inheritance to derive a class from more than one base class.
 
 ## Codebyte Example
 
