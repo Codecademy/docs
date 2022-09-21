@@ -20,7 +20,7 @@ body:
     attributes:
       label: Description (optional)
       description: "Additional context behind edits."
-      placeholder: "Please write here to provide any additional context/reasoning behind the edits."
+      placeholder: "Please provide any additional context/reasoning behind the edits here."
   - type: markdown
     attributes:
       value: |
