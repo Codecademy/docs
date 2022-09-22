@@ -28,7 +28,7 @@ super().method()
 super(type)
 ```
 
-To access a method of a parent class or specify the type object of the parent class using pseudocode.
+`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class.
 
 ## `super()`
 
