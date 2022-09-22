@@ -52,7 +52,7 @@ Generally, white hat hacking involves:
 - Testing the strength of firewalls meant to detect malicious activity.
 - Finding vulnerabilities in the codebase of web applications.
 - Discovering weaknesses in databases that could leave a company susceptible to SQL injections, which target database codes and structures.
-- Checking if an organization is resilient against [cyberattacks](https://www.codecademy.com/resources/docs/general/cyberattacks) such as distributed denial of service (DDoS) attacks.
+- Checking if an organization is resilient against [cyber attacks](https://www.codecademy.com/resources/docs/general/cyber-attacks) such as distributed denial of service (DDoS) attacks.
 - Seeing how well a company can recover after a ransomware attack.
 - Testing backup systems for vulnerabilities.
 
