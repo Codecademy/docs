@@ -25,10 +25,10 @@ The **`super()`** function returns a temporary object that allows a given [class
 
 ```pseudo
 super().method()
-super(type)
+super(type, object)
 ```
 
-`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class.
+`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class and object is an instance or subtype of the `type`.
 
 ## `super()`
 
@@ -52,4 +52,23 @@ class Python(ProgramLanguage):
 
 doc = Python()
 doc.intro()
+```
+
+In this case, the `.say_hi()` method is implemented utilizing `super(type, object)` inside `.intro()`:
+
+```codebyte/python
+# Base class
+class ProgramLanguage:
+  def say_hi(self):
+    print("Hi! I am a Programming Language")
+
+# Derived class
+class Python(ProgramLanguage):
+  def intro(self):
+    super(Python, self).say_hi()
+    print("Python here!")
+
+doc = Python()
+doc.intro()
+
 ```
