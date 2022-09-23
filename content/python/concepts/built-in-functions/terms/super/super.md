@@ -28,7 +28,7 @@ super().method()
 super(type, obj)
 ```
 
-`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class and object is an instance or subtype of the `type`.
+`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class and `obj` is an instance or subtype of the `type`.
 
 ## `super()`
 
