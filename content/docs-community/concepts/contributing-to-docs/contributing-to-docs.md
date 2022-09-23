@@ -16,7 +16,7 @@ CatalogContent:
 
 There are two primary types of Docs contributions:
 
-- Create new content or edit existing entries on the [Docs repository](https://github.com/Codecademy/docs) on [GitHub](https://www.codecademy.com/resources/docs/general/github).
+- Create new content or edit existing entries on the [Docs repository](https://github.com/Codecademy/docs) via [GitHub](https://www.codecademy.com/resources/docs/general/github).
 - Suggest new content, ideas, and fixes in [Discussions](https://github.com/Codecademy/docs/discussions) or the [feedback form](https://codecademyready.typeform.com/to/hzVIWDgz?typeform-source=www.codecademy.com).
 
 More information about contributing to Docs can be found in [`CONTRIBUTING.md`](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md).
