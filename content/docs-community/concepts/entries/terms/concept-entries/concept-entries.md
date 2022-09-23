@@ -12,6 +12,6 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**Concept entries** describe an idea that is inherently related to a given topic. These concepts can range from being abstract in nature (e.g., [Inheritance in Python](https://www.codecademy.com/resources/docs/python/inheritance)) to being more tangible (e.g., [Glob Module in Python](https://www.codecademy.com/resources/docs/python/glob-module)). Most concepts contain many related terms that add further reference.
+**Concept entries** describe an idea that is inherently related to a given topic. These concepts can range from being abstract (e.g., [Inheritance in Python](https://www.codecademy.com/resources/docs/python/inheritance)) to more tangible (e.g., [Glob Module in Python](https://www.codecademy.com/resources/docs/python/glob-module)). Most concepts contain many related terms that add further reference.
 
 The format and structure for a Docs concept entry can be seen in [this template](https://github.com/Codecademy/docs/blob/main/documentation/entry-template.md).

@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-In Codecademy Docs, **entries** are single [Markdown](https://www.codecademy.com/resources/docs/markdown) files with content and examples that describes a topic, concept, or term.
+In Codecademy Docs, **entries** are single [Markdown](https://www.codecademy.com/resources/docs/markdown) files with content and examples that describe a topic, concept, or term.
 
 Topics and concepts share a one-to-many relationship:
 
