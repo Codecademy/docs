@@ -34,7 +34,7 @@ super(type, obj)
 
 `super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using multiple inheritance to derive a class from more than one base class.
 
-## Codebyte Example
+## Example
 
 In the following example, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
 
