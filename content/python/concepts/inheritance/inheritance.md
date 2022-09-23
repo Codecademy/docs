@@ -8,6 +8,7 @@ Subjects:
 Tags:
   - 'Inheritance'
   - 'OOP'
+  - 'Classes'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
