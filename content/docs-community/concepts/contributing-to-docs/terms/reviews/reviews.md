@@ -22,11 +22,11 @@ When a new pull request (PR) is opened by a contributor, a CFT member will flag 
 - Link any existing, relevant issues.
 - Requesting/assigning other CFT members for review.
 
-A CFT member may view the PR files, make comments, and suggest changes
+A CFT member may view the PR files, make comments, and suggest changes.
 
 ### Number of Reviews
 
-Most commonly, PRs undergo 1-3 reviews to ensure each entry gets an ample amount of feedback and opportunities for improvement. The number of reviews for a given PR is at the discretion of CFT members considering factors such as the following:
+Most commonly, PRs undergo 1-3 reviews to ensure each entry gets an ample amount of feedback and opportunity for improvement. The number of reviews for a given PR is at the discretion of CFT members considering factors such as the following:
 
 - The content of the PR file(s) warrants further review by a separate, subject matter expert.
 - There is a considerable amount of edits to existing Docs content.

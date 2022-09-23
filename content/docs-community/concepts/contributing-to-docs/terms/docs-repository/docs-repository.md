@@ -20,13 +20,13 @@ When getting started, contributors should create a new fork of the `docs` repo. 
 
 ![A red stencil outlining the "Fork" link for the Codecademy Docs repo](https://raw.githubusercontent.com/Codecademy/docs/main/media/indicate_fork_link.png)
 
-The forked repo is sometimes regarded as the "remote repo" on GitHub. To make a changes on the local computer, a "local" version of the remote `docs` repo will need to be made with the following command:
+The forked repo is a remote repo that exists on GitHub. To make changes on a local computer, a copy of the remote `docs` repo (local repo) will need to be made using the following command:
 
 ```pseudo
 git clone https://github.com/github_username/docs.git
 ```
 
-Changes can now be made in the newly created `docs` folder (the local repo). It contains all of the files and folders from the remote repo.
+Changes can now be made in the newly created `docs` folder. It contains all of the files and folders from the remote repo.
 
 ## Issues
 
@@ -34,7 +34,7 @@ First-time contributors are highly encouraged to visit the [Issues](https://gith
 
 ## Pull Requests
 
-Pull requests (PR) are used to propose new changes to be merged in the base `main` branch of the `docs` repo. After contributors are finished editing files in the PR branch of their local repo (separate from the `main` branch), they are ready to [add](https://www.codecademy.com/resources/docs/git/add), [commit](https://www.codecademy.com/resources/docs/git/commit), and [push](https://www.codecademy.com/resources/docs/git/push) their changes and open a new PR.
+Pull requests (PRs) are used to propose new changes to be merged into the base `main` branch of the `docs` repo. After contributors are finished editing files in the PR branch of their local repo (separate from the `main` branch), they are ready to [add](https://www.codecademy.com/resources/docs/git/add), [commit](https://www.codecademy.com/resources/docs/git/commit), and [push](https://www.codecademy.com/resources/docs/git/push) their changes and open a new PR.
 
 ![Red arrow on the Codecademy Docs repo pointing at a pop-up link for creating a new pull request](https://raw.githubusercontent.com/Codecademy/docs/main/media/create_pull_request_link.png)
 
