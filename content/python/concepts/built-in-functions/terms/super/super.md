@@ -38,7 +38,7 @@ super(type, obj)
 
 In the following example, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
 
-```codebyte/python
+```py
 # Base class
 class ProgramLanguage:
   def say_hi(self):
