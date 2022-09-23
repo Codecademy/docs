@@ -54,6 +54,8 @@ doc = Python()
 doc.intro()
 ```
 
+## Codebyte Example
+
 In the following codebyte example, the `.say_hi()` method is implemented utilizing `super(type, object)` inside `.intro()`:
 
 ```codebyte/python
