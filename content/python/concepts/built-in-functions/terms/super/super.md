@@ -36,7 +36,7 @@ super(type, obj)
 
 ## Codebyte Example
 
-In this case, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
+In the following example, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
 
 ```codebyte/python
 # Base class
