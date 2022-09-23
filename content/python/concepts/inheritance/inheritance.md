@@ -66,7 +66,7 @@ Hi! I am a Programming Language.
 Python here!
 ```
 
-**Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
+> **Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
 
 ## Overriding Methods
 
