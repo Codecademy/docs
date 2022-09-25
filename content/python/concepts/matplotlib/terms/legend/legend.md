@@ -36,7 +36,7 @@ plot_instance.legend(handles, labels)
 
 ## Example
 
-In the following example, the `.legend()` method will be shown using the iris data set which is available using seaborn or pandas. In the first example the `handles` parameter will be demonstrated along with using seaborn to import the dataset. In the second example `legend()` will be demonstrated without using the `handles` parameter along with using pandas to import the dataset:
+In the following example, the `.legend()` method will be shown using the iris data set which is available using `seaborn` or [`pandas`](https://www.codecademy.com/resources/docs/pandas). In the first example, the `handles` parameter will be demonstrated, using `seaborn` to import the dataset. In the second example, `legend()` will be demonstrated without using the `handles` parameter along, using pandas to import the dataset:
 
 ### Example 1
 
