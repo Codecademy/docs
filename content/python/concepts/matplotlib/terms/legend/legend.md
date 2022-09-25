@@ -21,7 +21,7 @@ The **`pyplot.legend()`** function returns a legend on the axes of a plot or sub
 plot_instance.legend(handles, labels)
 ```
 
-The `.legend()` accepts zero or more parameters and can be called on a valid `plot_instance` of the `pyplot` module. When called with no parameters, the `.legend()` function will attempt to add the elements automatically. The following parameters can be used in the `.legend()` function:
+`.legend()` accepts zero or more parameters and can be called on a valid `plot_instance` of the `pyplot` module. When called with no parameters, the `.legend()` method will attempt to add the elements automatically. The following parameters can be used in the `.legend()` method:
 
 |  Parameter Name  | Data Type(s)         | Usage                                                                                                  |
 | :--------------: | -------------------- | ------------------------------------------------------------------------------------------------------ |
