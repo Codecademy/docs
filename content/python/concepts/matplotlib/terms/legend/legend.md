@@ -26,13 +26,13 @@ plot_instance.legend(handles, labels)
 |  Parameter Name  | Data Type(s)         | Usage                                                                                                  |
 | :--------------: | -------------------- | ------------------------------------------------------------------------------------------------------ |
 |    `handles`     | sequence of `Artist` | `handles` is utilized if more control is desired with each entry on the plot and how they are labeled. |
-|     `labels`     | list of strings       | `labels` is a list of strings that will display the labels in the order they are entered.              |
-|      `loc`       | int, string          | `loc` is used to determine the position of the legend on the axes. Defaults to `best`.                 |
-|      `ncol`      | int                  | `ncol` is used to determine how many columns the legend will have. Defaults to 1.                      |
-|    `fontsize`    | int, string          | `fontsize` is used change the font size the labels. Defaults to 11.                                    |
-|   `labelcolor`   | list, string, `None` | `labelcolor` is used to change the color of the label(s). Defaults to `None`                           |
-|     `title`      | string, `None`       | `title` is used to insert a title for the legend. Defaults to `None`.                                  |
-| `title_fontsize` | int, string, `None`  | `title_fontsize` is used to change the font size of the legend `title`. Defaults to `None`.            |
+|     `labels`     | list of strings       | A list of strings that will display the labels in the order they are entered.              |
+|      `loc`       | int, string          | Used to determine the position of the legend on the axes. Defaults to `best`.                 |
+|      `ncol`      | int                  | Used to determine how many columns the legend will have. Defaults to 1.                      |
+|    `fontsize`    | int, string          | Used change the font size the labels. Defaults to 11.                                    |
+|   `labelcolor`   | list, string, `None` | Used to change the color of the label(s). Defaults to `None`                           |
+|     `title`      | string, `None`       | Used to insert a title for the legend. Defaults to `None`.                                  |
+| `title_fontsize` | int, string, `None`  | Used to change the font size of the legend `title`. Defaults to `None`.            |
 
 ## Example
 
