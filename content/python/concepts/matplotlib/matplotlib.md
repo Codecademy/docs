@@ -13,4 +13,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Recommeded to use 'Seaborn' which is a data visualization library built on 'Matplotlib' as it gives more versatility to almost every aspect and enhances what is capable through just 'Matplotlib'.
+Matplotlib is a Python library used for creating data visualizations. It is built on [Numpy](https://www.codecademy.com/resources/docs/numpy) arrays meaning...
