@@ -19,7 +19,7 @@ There are a number of different ways to create an array in C#:
 
 ```pseudo
 // Create a variable of type "type[]" without initalizing it:
-type[] arrayName; 
+type[] arrayName;
 
 // Create the array varaible and initalize it with an array of N items:
 type[] arrayName = new type[N];
@@ -46,7 +46,7 @@ public class Example
   {
     char[] vowels = {'a', 'e', 'i', 'o', 'u'};
     //      indexes:  0    1    2    3    4
-  
+
     Console.WriteLine(vowels[0]); // Output: a
 
     vowels[0] = 'r';

@@ -47,7 +47,7 @@ public class Example
     int y = x + 5;
     long z = y;
 
-    Console.WriteLine("The int {0} can be implicitly converted to the long {1}.",y,z); 
+    Console.WriteLine("The int {0} can be implicitly converted to the long {1}.",y,z);
 
     // Output: "The int 6 can be implicitly converted to the long 6."
   }
