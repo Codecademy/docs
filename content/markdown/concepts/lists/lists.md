@@ -19,7 +19,7 @@ In Markdown, items can be organized into ordered and unordered lists.
 
 To create an ordered list, add numbers followed by periods.
 
-```markdown
+```md
 1. 🌡 Preheat oven to 325°F
 2. 🍪 Drop cookie dough
 3. ⏰ Bake for 15 min
@@ -37,7 +37,7 @@ It will look like:
 
 To create an unordered list, add dashes `-`, asterisks `*`, or plus signs `+` in front of line items.
 
-```markdown
+```md
 - 🎸 Play more music
 - 📚 Read more books
 - 👩 Code more stuff
@@ -51,7 +51,7 @@ It will look like:
 
 Indent one or more items to create a nested list.
 
-```markdown
+```md
 - First item
 - Second item
 - Third item

@@ -80,7 +80,7 @@ class decorator:
   def __call__(self):
     # Code can be executed before the original function
 
-    # original function call with the upper cased argument
+    # Original function call with the upper cased argument
     self.original_function()
 
     # Code can be executed after the original function

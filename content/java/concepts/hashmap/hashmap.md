@@ -6,32 +6,30 @@ Subjects:
 Tags:
   - 'HashMap'
   - 'Data Types'
+  - 'Collections'
+  - 'Data Structures'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
 
-In Java, a `HashMap` is used to store items as key-value pairs. The key and value can be of the same or different data type.
+Instances of the `HashMap` class implement the [`Map`](https://www.codecademy.com/resources/docs/java/Map) interface, which means that they store items as key-value pairs.
+
+A `HashMap` is similar to a [`TreeMap`](https://www.codecademy.com/resources/docs/java/treemap). However, the `HashMap` stores its items sorted in no particular order. (Actually, it's sorted by the hashes of its keys, which for most purposes is essentially random.) This is due to the different storage types each collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The advantage of a `HashMap` is that its operations are much faster.
 
 ## Syntax
 
-The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used:
-
 ```java
 import java.util.HashMap
-```
 
-Next, the `HashMap` is initialized with two generic types inside angle brackets `<` `>`:
-
-```java
 HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
 ```
 
-The generic data type for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used. The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
 
-## Keys and Values
+## Accessing Items
 
-A key can be used to uniquely identify a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed using the corresponding key.
+Keys are used for uniquely identifying a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed by passing the corresponding key into the `.get()` method.
 
 ```java
 // Import the HashMap class
@@ -48,12 +46,16 @@ public class Main {
     courseTeacher.put("Physics", "Lily");
 
     System.out.println(courseTeacher.get("Physics"););
-    // Output: Lily
-
     System.out.println(courseTeacher.get("History"););
-    // Output: Ben
   }
 }
+```
+
+This will print the following output:
+
+```shell
+Lily
+Ben
 ```
 
 ## Adding Items
@@ -67,7 +69,6 @@ public class Main {
   public static void main(String[] args) {
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
-    // Add keys and values (CourseNames, Teacher)
     courseTeacher.put("History", "Ben");
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
@@ -75,19 +76,13 @@ public class Main {
     System.out.println(courseTeacher);
   }
 }
-
-// Output: { Mathematics=Jeanette, History=Ben, Physics=Lily }
 ```
 
-## Accessing an Item
+This will output the following "course=teacher" assignments:
 
-An item can be accessed within a `HashMap` using the `.get()` method. It accepts one parameter, the key, and returns the corresponding value. Based on the previous example:
-
-```java
-courseTeacher.get("Physics"); // Output: "Lily"
+```shell
+{History=Ben, Mathematics=Jeanette, Physics=Lily}
 ```
-
-"Lily" is returned because it is the corresponding value for the "Physics" key.
 
 ## Removing Items
 
@@ -107,11 +102,14 @@ public class Main {
 
     courseTeacher.remove("Physics");
     System.out.println(courseTeacher);
-
   }
 }
+```
 
-// Output: { Mathematics = Jeanette, History = Ben }
+The following output will look like this:
+
+```shell
+{History=Ben, Mathematics=Jeanette}
 ```
 
 ## Removing All Items
@@ -132,16 +130,19 @@ public class Main {
 
     courseTeacher.clear();
     System.out.println(courseTeacher);
-
   }
 }
-
-// Output: {}
 ```
 
-## Traversing a HashMap
+An empty `HashMap` will be displayed in the output below:
 
-A `HashMap` can be traversed with the for-each [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
+```shell
+{}
+```
+
+## Traversing a `HashMap`
+
+A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
 ```java
 import java.util.HashMap;

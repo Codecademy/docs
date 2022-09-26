@@ -1,6 +1,6 @@
 ---
 Title: 'Lists'
-Description: 'A list in Python is a data type used to store a collection of objects. Lists are always ordered and can contain different types of objects, such as strings, integers, booleans, etc. Lists are a mutable data type and therefore a good choice for dynamic data (adding and subtracting to lists). There are multiple ways to define a list in Python. We can either assign a variable to a pair of square brackets ([]) with or without values, or we can assign a variable to the list() keyword and afterwords pass in its list items. Defining empty lists: py list1 = [] list2 = list()'
+Description: 'Lists are mutable sequence data types used for storing a comma-separated collection of objects in a single variable.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,50 +13,69 @@ Tags:
   - 'Data Types'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
+  - 'paths/data-science'
 ---
 
-A list in Python is a data type used to store a collection of objects.
+A **list** in Python is a sequence [data type](https://www.codecademy.com/resources/docs/python/data-types) used for storing a comma-separated collection of objects in a single [variable](https://www.codecademy.com/resources/docs/python/variables). Lists are always ordered and can contain different types of objects (strings, integers, booleans, etc.). Since they are mutable data types, lists are a good choice for dynamic data (that may be added or removed over time).
 
-Lists are always ordered and can contain different types of objects, such as strings, integers, booleans, etc. Lists are a mutable data type and therefore a good choice for dynamic data (adding and subtracting to lists).
+## Syntax
 
-## Creating a List
+```pseudo
+# With square brackets
+list_a = []
 
-There are multiple ways to define a list in Python. We can either assign a variable to a pair of square brackets (`[]`) with or without values, or we can assign a variable to the `list()` keyword and afterwords pass in its list items.
+# With built-in function
+list_b = list()
+```
 
-Defining empty lists:
+Lists can either be defined with square brackets (`[]`) or with the built-in `list()` constructor method. In any case, the values initially passed to the new list must be comma-separated.
+
+The following example showcases how lists can hold items of the same type or a mix of different types:
 
 ```py
-list1 = []
-list2 = list()
+list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+list_2 = ["one", 2, "3"]
 ```
 
-Creating lists with values in them:
+## Stacks and Queues
+
+Python lists can also be made to behave like stacks and queues.
+
+Stacks follow a "last-in, first-out" insertion order. This behavior can be showcased with the [`.append()`](https://www.codecademy.com/resources/docs/python/lists/append) and [`.pop()`](https://www.codecademy.com/resources/docs/python/lists/pop) methods for adding to and removing from the top of the stack, respectively:
 
 ```py
-list1 = ['one', 2, 'three']
-list2 = [True, False, False, True, False]
-list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-list4 = ['one', 2, True]
-list5 = ['one', 'two', 'three']
+stack_example = ["a", "b", "c"]
+print(stack_example)
+# Output: ['a', 'b', 'c']
+
+stack_example.append(1)
+stack_example.append(2)
+stack_example.append(3)
+print(stack_example)
+# Output: ['a', 'b', 'c', 1, 2, 3]
+
+stack_example.pop()
+stack_example.pop()
+print(stack_example)
+# Output: ['a', 'b', 'c', 1]
 ```
 
-## Using a Built-in List Method
+Queues follow a "first-in, first-out" insertion order and also utilize the `.append()` and `.pop()` methods:
 
 ```py
-friends = ['Sue', 'Bob']
+queue_example = ["a", "b", "c"]
+print(queue_example)
+# Output: ['a', 'b', 'c']
 
-print(type(friends))
+queue_example.append(1)
+queue_example.append(2)
+print(queue_example)
+# Output: ['a', 'b', 'c', 1, 2]
 
-# Use a built-in method to add Anna to the list of friends.
-friends.append('Anna')
-
-print(friends)
+queue_example.pop(0)
+print(queue_example)
+# Output: ['b', 'c', 1, 2]
 ```
 
-The output would be:
-
-```shell
-<class 'list'>
-['Sue', 'Bob', 'Anna']
-```
+While using a list as a queue is possible, it is not efficient because applying `.pop()` to the first item requires shifting all remaining items by one spot and reassigning indices. Instead, a `deque` object from the [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module should be used to efficiently add/remove from a queue.

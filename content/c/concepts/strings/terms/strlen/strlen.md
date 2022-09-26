@@ -8,22 +8,22 @@ Tags:
   - 'Strings'
   - 'Data Types'
   - 'Characters'
-  - 'Arrays'
   - 'Functions'
+  - 'Methods'
 CatalogContent:
   - 'learn-c'
   - 'paths/computer-science'
 ---
 
-The `strlen()` string function returns the length of the string without including terminating character `'\n'`.
+The **`strlen()`** string function returns the length of the string without including the terminating character, `'\n'`.
 
 ## Syntax
 
-```c
+```pseudo
 strlen(string)
 ```
 
-It takes in the string and returns an unsigned short.
+It takes in the `string` and returns an unsigned short.
 
 ## Example
 

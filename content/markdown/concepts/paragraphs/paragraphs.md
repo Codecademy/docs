@@ -16,7 +16,7 @@ A paragraph is a block of text with one or more blank lines between them.
 
 ## Syntax
 
-```markdown
+```md
 Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth.
 
 Lo. Lee. Ta.
@@ -32,13 +32,13 @@ Lo. Lee. Ta.
 
 Line breaks in pargraphs can be created with double newlines or using a `\` symbol.
 
-```markdown
+```md
 Success seems to be connected with action. Successful people keep moving.
 
 They make mistakes, but they don’t quit.
 ```
 
-```markdown
+```md
 This is a\
 line break
 ```

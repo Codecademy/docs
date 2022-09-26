@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Automation
 Azure
 A-Frame
 Background
@@ -96,6 +97,7 @@ Enum
 Error Handling
 Errors
 ES6
+Ethical Hacking
 Events
 Exceptions
 Expo
@@ -110,6 +112,7 @@ Fonts
 For
 Foreign Key
 Form
+Formatting
 Frameworks
 Functions
 Functional Programming
@@ -129,6 +132,7 @@ Heap
 Heroku
 Histograms
 HTTP
+Icons
 Id
 IDE
 If
@@ -184,6 +188,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Operating Systems
 Operators
 Optionals
 Output
@@ -228,6 +233,7 @@ Search
 Selectors
 Semantic
 Servers
+Server-Side Rendering
 Sets
 Socket.IO
 Sort
@@ -235,7 +241,9 @@ Span
 Specificity
 Spread
 SQLite
+SQL Server
 Stacks
+Static Site
 Statistics
 Stringr
 Strings
@@ -252,6 +260,7 @@ Technical Interviews
 Templates
 TensorFlow
 Tidyr
+Time
 Title
 Transitions
 Transpilation
@@ -268,6 +277,7 @@ Unicode
 Units
 Unix
 URL
+UX
 Validation
 Values
 Variable Types

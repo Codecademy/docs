@@ -47,7 +47,7 @@ Data types have gone beyond just composites and primitives and include ones with
 | Null | `null` or `nil` represents the absence of a value. |
 | Undefined | Represents a value that has not yet been defined. |
 | [Function](https://www.codecademy.com/resources/docs/general/function) | Depending on the language, functions can be utilized as variables and arguments for other functions. |
-| Void | Sets a function to have side effects but return no specific result. Common in C-based languages. |
+| [Void](https://www.codecademy.com/resources/docs/general/void) | Sets a function to have side effects but return no specific result. Common in C-based languages. |
 | Complex Number | Type representation for complex numbers, sometimes with `i` or `complex`. |
 
 ## Data Types in Different Languages
