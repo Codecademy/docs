@@ -24,52 +24,69 @@ The **`super()`** function returns a temporary object that allows a given [class
 ## Syntax
 
 ```pseudo
-super()
 super(type, obj)
 ```
 
-`.method()` is the accessed method of the parent class. `type` specifies the type object of the parent class and `obj` is an instance or subtype of the `type`.
+The `type` parameter specifies the type object of the parent class. The `obj` is optional and is an instance, or subtype, of the class `type`.
 
-```
+### Inside Class Definition
+
+When used inside a class definition, the `super()` function can be used with zero arguments since the given class inherits from a parent class:
+
+```pseudo
 class A():
-  method(arg):
+  method(self, arg):
     #Method code starts here
 
-class B():
-  method(arg):
+class B(A):
+  method(self, arg):
+    super().method(arg)
     #Method code starts here
 ```
 
-The super() function allows the .method() of child class B to access the .method of parent class A.
+The `super()` function allows the child class `B` to access the `.method()` of parent class `A`.
 
-## `super()`
+### Outside Class Definition
 
-`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using multiple inheritance to derive a class from more than one base class.
+The following syntax can be applied inside and outside of a class definition:
 
-## Example
+```pseudo
+class B(A):
+  method(self, arg):
+    super().method(arg)
+    #Method code starts here
 
-In the following example, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()` for Python and uses `super(type, object)` inside `.intro()` for Java :
+instance_of_b = B()
+super(B, instance_of_b).method()
+```
 
-```py
+The `super()` function accepts the class type `B` along with an `instance_of_b` variable to direct the lookup search for a `.method()` in the nearest parent class.
+
+## Codebyte Example
+
+In the following example, both syntaxes of `super()` are implemented in the classes `Python` and `Java` to access the `intro()` method of the parent `ProgramLanguage` class:
+
+```codebyte/python
 # Base class
 class ProgramLanguage:
-  def say_hi(self):
-    print("Hi! I am a Programming Language")
+  def intro(self):
+    print("Hi! I am a Programming Language.")
 
 # Derived class
 class Python(ProgramLanguage):
   def intro(self):
-    super().say_hi()
+    super().intro()
     print("Python here!")
 
 # Derived class
 class Java(ProgramLanguage):
   def intro(self):
-    super(Python, self).say_hi()
+    super(Java, self).intro()
     print("Java here!")
 
-doc1 = Python()
-doc1.intro()
-doc2 = Java()
-doc2.intro()
+python_lang = Python()
+python_lang.intro()
+
+java_lang = Java()
+java_lang.intro()
 ```
