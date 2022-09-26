@@ -114,6 +114,8 @@ std::cout << weight2 << std::endl;
 // 122
 ```
 
+The following example shows how `static_cast` can catch a type conversion error at compile time:
+
 ```cpp
 double weight1 = 122.59;
 std::string weight2 = static_cast<string>(weight1);
