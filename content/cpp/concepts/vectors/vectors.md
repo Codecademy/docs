@@ -56,6 +56,23 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
+A safer way of accessing elements in a vector can be achieved by using the `.at()` function.
+This function performs bounds checking on the vector and will throw an error if you are trying to access an element that is out of bounds.
+```cpp
+// First element
+std::cout << order.at(0);
+
+// Last element
+std::cout << order.at(2);
+
+// Out of bounds
+std::cout << order.at(100);
+
+// terminate called after throwing an instance of 'std::out_of_range'
+// what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
+// Aborted (core dumped)
+```
+
 ## Adding Elements
 
 There are two different ways to insert elements into the vector.
