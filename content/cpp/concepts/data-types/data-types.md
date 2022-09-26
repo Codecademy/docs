@@ -99,7 +99,7 @@ weight2 = (int) weight1;
 weight3 = weight1; // Implicit conversion
 
 // weight2 is now 154
-// weight3 is also 154 without the need to cast since the compiler recognizes the conversion 
+// weight3 is also 154 without the need to cast since the compiler performs an implicit conversion.
 ```
 
 **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
