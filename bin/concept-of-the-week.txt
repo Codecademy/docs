@@ -1,1 +1,1 @@
-content/react/concepts/lifecycle-methods/lifecycle-methods.md
+content/html/concepts/forms/forms.md
