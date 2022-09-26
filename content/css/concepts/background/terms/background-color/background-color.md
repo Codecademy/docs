@@ -10,18 +10,17 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines a color for the background of an element.
+The **`background-color`** property defines a color for the background of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).
 
 ## Syntax
 
-```css
+```pseudo
 background-color: <value>;
 ```
 
-where `<value>` can be one of the following:
+Where `<value>` can be one of the following:
 
 - Color keyword: `blue`, `transparent`, `rebeccapurple`
 - Hexadecimal value: `#FF0000`
@@ -33,7 +32,7 @@ where `<value>` can be one of the following:
 
 ## Example 1
 
-Set background color of the `h1` element to be `green`:
+Set background color of the [`h1`](https://www.codecademy.com/resources/docs/html/elements/h1-h6) element to be `green`:
 
 ```css
 h1 {

@@ -1,24 +1,45 @@
 ---
 Title: 'Selectors'
-Description: 'CSS selectors are used to "find" (or select) the HTML elements you want to style. The element selector selects HTML elements based on the element name. Here, all  elements on the page will be center-aligned, with a red text color: css p { text-align: center; color: red;'
+Description: 'Selectors are used to style HTML elements according to their type and/or attribute(s).'
 Subjects:
   - 'Web Development'
   - 'Web Design'
 Tags:
   - 'Selectors'
   - 'Elements'
+  - 'Style'
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
 ---
 
-CSS selectors are used to "find" (or select) the HTML elements you want to style.
+**Selectors** are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
 
-## Element Selector
+All markups can be selected with the `*` selector:
+
+```css
+* {
+  /* declarations here */
+}
+```
+
+## Selecting by Type
 
 The element selector selects HTML elements based on the element name.
 
-Here, all `<p>` elements on the page will be center-aligned, with a red text color:
+### Syntax
+
+```css
+element-name {
+  /* declarations here */
+}
+```
+
+The `element-type` must be a valid HTML element.
+
+### Example
+
+In the following example, all `<p>` elements on the page will be center-aligned, with a red text color:
 
 ```css
 p {
@@ -27,43 +48,52 @@ p {
 }
 ```
 
-## Id Selector
+## Selecting by Attribute
 
-The `id` selector uses the `id` attribute of an HTML element to select a specific element.
+Most commonly, the `class` and `id` attributes are assigned to elements for styling purposes. An `id` cannot start with a number.
 
-The `id` of an element is unique within a page, so the `id` selector is used to select one unique element!
+### Syntax
 
-To select an element with a specific `id`, write a hash (`#`) character, followed by the `id` of the element.
+```css
+#id-name {
+  /* declarations here */
+}
 
-The CSS rule below will be applied to the HTML element with `id="para1"`:
+.class-name {
+  /* declarations here */
+}
+
+element[attribute='value'] {
+  /* declarations here */
+}
+```
+
+The `id` of an element is unique within a page, so the `id` selector is used to select one unique element. An element can be selected with a specific `id`, by using a hash (`#`) character, followed by `id-name`.
+
+Multiple `class` values can be assigned to a single element. Elements are selected by `class` with a period (`.`) character, followed by `class-name`. Unlike `id` values, `class` values can be duplicated on a page with different elements.
+
+### Example
+
+The following rules select elements based on `id`, `class`, and other attributes:
 
 ```css
 #para1 {
   text-align: center;
   color: red;
 }
-```
 
-**Note:** An `id` name cannot start with a number!
-
-## Class Selector
-
-The class selector selects HTML elements with a specific class attribute.
-
-To select elements with a specific class, write a period (`.`) character, followed by the class name.
-
-In this example, all HTML elements with `class="center"` will be red and center-aligned:
-
-```css
 .center {
   text-align: center;
   color: red;
 }
+
+li[title='red'] {
+  background-color: red;
+  color: #fff;
+}
 ```
 
-You can also specify that only specific HTML elements should be affected by a class.
-
-In this example only `<p>` elements with `class="center"` will be center-aligned:
+It can also be specified that only certain HTML elements with a given class should be styled. For example, here, only `<p>` tags with a `class` of `"center"` will have its text center-aligned:
 
 ```css
 p.center {

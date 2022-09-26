@@ -16,7 +16,7 @@ CatalogContent:
 
 Embedding an image is very similar to adding a link in Markdown:
 
-```markdown
+```md
 ![Alt text](URL or file path)
 ```
 
@@ -26,7 +26,7 @@ Embedding an image is very similar to adding a link in Markdown:
 
 For example:
 
-```markdown
+```md
 ![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
 ```
 
@@ -36,7 +36,7 @@ The output would be:
 
 An optional title can also be added after the URL, still in the parentheses:
 
-```markdown
+```md
 ![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif 'High Five')
 ```
 
@@ -44,6 +44,6 @@ An optional title can also be added after the URL, still in the parentheses:
 
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
-```markdown
+```md
 [![A mushroom-head robot](/assets/images/codey.jpg 'Codey the Codecademy mascot')](https://codecademy.com)
 ```

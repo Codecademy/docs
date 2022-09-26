@@ -40,7 +40,8 @@ In the example below, `.toLocaleDateString()` is being used in the `en-US` local
 ```js
 const date = new Date(2021, 12, 31);
 
-console.log(date.toLocaleDateString()); // Output: 12/31/2021
+console.log(date.toLocaleDateString());
+// Output: 12/31/2021
 ```
 
 ## Format Based on Language/Region

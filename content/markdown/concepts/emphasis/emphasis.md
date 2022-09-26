@@ -19,47 +19,47 @@ Emphasis can be added by making text bold or italic.
 
 To bold text, add two asterisks `**` or underscores `__` before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
-```markdown
+```md
 **bold text**
 ```
 
 For example:
 
-```markdown
+```md
 Please do **NOT** touch your pimples.
 ```
+
+The output would be:
 
 > Please do **NOT** touch your pimples.
 
 ## Italic
 
-To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
+Text can be italicized by surrounding with either one asterisk `*` or one underscore `_` on each side. Parts of a word can even be italicized by surrounding the letters with one asterisk, no spaces.
 
-```markdown
-_italic text_
+```md
+_Italic text_ is *awe*some!
 ```
 
 For example:
 
-```markdown
+```md
 This avocado egg sandwich is _very_ good.
 ```
+
+The output would be:
 
 > This avocado egg sandwich is _very_ good.
 
 ## Strikethrough
 
-To make a strikethrough text, use 2 tildes `~` before and after a piece of text.
+A strikethrough can be applied to text by surrounding with two tildes `~~`, like in the example below:
 
-```markdown
-~~Strikethrough text~~
-```
-
-For example:
-
-```markdown
+```md
 I did ~~not~~ build a website.
 ```
+
+The output would be:
 
 > I did ~~not~~ build a website.
 
@@ -67,7 +67,7 @@ I did ~~not~~ build a website.
 
 Different formatting options can be combined:
 
-```markdown
+```md
 **This is in bold, _italics_, ~~and strikethrough~~**
 ```
 

@@ -81,3 +81,7 @@ Literature: 30
 Programming: 40
 Gym: 50
 ```
+
+## The `Arrays` Class
+
+Java includes an `Arrays` class in `java.util` that provides a number of static methods for manipulating arrays. Prominent ones are listed below.

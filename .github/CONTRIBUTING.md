@@ -15,7 +15,7 @@ There are many ways to contribute to Codecademy Docs:
 - Submit a Pull Request to edit an existing entry.
 - Submit a Pull Request to create a new entry.
 - Submit a bug in [GitHub Issues](https://github.com/Codecademy/docs/issues).
-- Give feedback in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeqwAiV8C2EjXciqTvPFI-ABxkh9iyy7HL-hnr69GrRW99MiA/viewform).
+- Give feedback in the [Typeform Survey](https://codecademyready.typeform.com/to/hzVIWDgz).
 - Join the [#CodecademyDocs](https://twitter.com/search?q=%23CodecademyDocs&src=typed_query&f=live) discussion on Twitter.
 
 If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an open issue that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/general/git/branch) in your fork to create a new entry or edit an existing one.
@@ -99,16 +99,18 @@ To link your Codecademy user profile to GitHub:
 4. Select the Github icon under "Or log in using:"
 5. Proceed through the OAuth process.
 
-## Any tips for a Pull Request?
+## Any tips for a Pull Request (PR)?
 
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
 - All contributors must sign the Contributor License Agreement (CLA).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
+- PRs will be marked as **invalid** if there is no consistent activity within a **2-week period** on the contributor's part and content does not meet or pass standard formatting, quality, and plagiarism checks.
 - We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.
 - Requested changes must be resolved before merging.
 - Your entry will be deployed within the hour after it's merged!
+- Refer to the [Codecademy Markdown Style Guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
 
 ## What do we check for?
 
@@ -117,10 +119,27 @@ To link your Codecademy user profile to GitHub:
 - Typos/bugs
 - Plagiarism
 
+## How do we update a PR branch?
+
+To keep your PR branch up to date navigate to the branch on your fork. Then press `Fetch upstream` and `Fetch and merge`.
+
+![Image of where the `Fetch upstream` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-1.png)
+
+![Image of the `Fetch and merge` button](https://raw.githubusercontent.com/Codecademy/docs/main/media/branch-up-to-date-2.png)
+
+The following Git commands can be run on the command line:
+
+```pseudo
+git remote add upstream https://github.com/Codecademy/docs.git
+git fetch upstream
+git rebase upstream main
+git push
+```
+
 ## Additional Resources
 
 - [How to Contribute to Codecademy Docs](https://dev.to/codecademy/how-to-contribute-to-codecademy-docs-1a77) article
 
-Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/) and [Codecademy Discord](https://discord.com/invite/codecademy).
+Remember, if you ever have any questions at all, we're always here to help in the [Codecademy Forums](https://discuss.codecademy.com/c/community/community-docs/2205) and [Codecademy Discord](https://discord.com/invite/codecademy).
 
-Tag [@sonnynomnom](https://twitter.com/sonnynomnom) if you find a typo, bug, or issue! 🖖
+If you find any bugs or errors in the content, feel free to file an issue [here](https://github.com/Codecademy/docs/issues/new?assignees=Name+here&labels=bug&template=bug_reports.yml&title=%5BBug%2FError%5D+Subject%3A+Entry+Name)! 🖖

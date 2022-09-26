@@ -15,11 +15,21 @@ CatalogContent:
   - 'paths/design-databases-with-postgresql'
 ---
 
-Groups a result set based on an aggregate function (`COUNT()`, `MIN()`, `MAX()`, `SUM()`, `AVG()`). It lists the number in each group.
+The **`GROUP BY`** command groups a result-set of rows, usually based on an [aggregate function](https://www.codecademy.com/resources/docs/sql/aggregate-functions).
 
-## Code Example
+## Syntax
 
-To return a result set of the number (count) of students from each country:
+```pseudo
+SELECT column(s)
+FROM table
+GROUP BY column(s)
+```
+
+The aggregate function is usually applied on the same line as the [SELECT](https://www.codecademy.com/resources/docs/sql/commands/select) command.
+
+## Example
+
+The following example returns a result set of the number (count) of students from each country:
 
 ```sql
 SELECT COUNT(student_name),

@@ -17,7 +17,7 @@ The `grid` property is a shorthand for setting the following properties:
 
 - [`grid-template-rows`](https://www.codecademy.com/resources/docs/css/grids/grid-template-rows)
 - [`grid-template-columns`](https://www.codecademy.com/resources/docs/css/grids/grid-template-columns)
-- `grid-template-areas`
+- [`grid-template-areas`](https://www.codecademy.com/resources/docs/css/grids/grid-template-areas)
 - [`grid-auto-rows`](https://www.codecademy.com/resources/docs/css/grids/grid-auto-rows)
 - [`grid-auto-columns`](https://www.codecademy.com/resources/docs/css/grids/grid-auto-columns)
 - `grid-auto-flow`

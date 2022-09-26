@@ -6,13 +6,14 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
+  - 'Functions'
   - 'Methods'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the first index at which an element can be found. Returns `-1` if element is not found.
+The **`.indexOf()`** method returns the first index at which an element can be found. Returns `-1` if the element is not found.
 
 ## Syntax
 
@@ -27,13 +28,13 @@ A negative `startIndex` will offset from the end of the array to begin search.
 
 ## Examples
 
-Find the index of `2` in the `numbers` array:
+In the example below, the index for the number 12 is logged to the console:
 
 ```js
-const numbers = [1, 2, 3];
-const whatIndexIs2 = numbers.indexOf(2);
+const numbers = [6, 12, 8, 10];
+const indexOf12 = numbers.indexOf(12);
 
-console.log(whatIndexIs2);
+console.log(indexOf12);
 // Output: 1
 ```
 
@@ -57,12 +58,13 @@ console.log(checkBlue);
 // Output: -1
 ```
 
+## Codebyte Example
+
 Multiple matches will only return the first index where a match occurs:
 
-```js
+```codebyte/javascript
 const repeatGreeting = ['hello world', 'hello world'];
 const firstGreeting = repeatGreeting.indexOf('hello world');
 
 console.log(firstGreeting);
-// Output: 0
 ```

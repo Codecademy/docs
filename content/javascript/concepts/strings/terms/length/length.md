@@ -1,10 +1,11 @@
 ---
 Title: '.length'
-Description: 'Returns the length of a string (number of characters).'
+Description: 'Returns the number of characters in a string.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Characters'
   - 'Strings'
   - 'Properties'
   - 'Methods'
@@ -13,17 +14,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.length` string property returns the number of characters in a string.
+The **`.length`** property returns the number of characters in a string.
 
 ## Syntax
 
-```js
+```pseudo
 string.length;
 ```
 
+The `string` can either be a literal sequence of characters surrounded by quotes or a variable that refers to such a sequence.
+
 ## Example
 
-Returning the length of a string in number:
+The following example outputs the `.length` property of a string literal:
 
 ```js
 console.log('I love New York!'.length);
@@ -32,8 +35,10 @@ console.log('I love New York!'.length);
 
 ## Codebyte Example
 
-```codebyte/js
-var greeting = 'Hi internet.';
+In the example below, a string is stored in a variable `greeting`. Its `.length` property is then printed to the console:
+
+```codebyte/javascript
+let greeting = 'Hi internet.';
 
 console.log(greeting.length);
 ```
