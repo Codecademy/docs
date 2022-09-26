@@ -92,14 +92,31 @@ The notation `(type) value` means “convert value to type“. So for example:
 ```cpp
 double weight1;
 int weight2;
+int weight3;
 
 weight1 = 154.49;
 weight2 = (int) weight1;
+weight3 = weight1; // Implicit conversion
 
 // weight2 is now 154
+// weight3 is also 154 due to the compiler perfoming an implicit conversion
 ```
 
 **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+Alternatively, you can use a safer version of casting in C++ called `static_cast`. 
+`static_cast` is performed at compile time, offering better debugging and safer code. 
+```cpp
+double weight1 = 122.59;
+int weight2 = static_cast<int>(weight1);
+std::cout << weight2 << std::endl;
+// 122
+```
+
+```cpp
+double weight1 = 122.59;
+std::string weight2 = static_cast<string>(weight1);
+// throws an error at compile time, noting that the compiler has no way to convert a double to a string.
+```
 
 ## Memory Size
 
