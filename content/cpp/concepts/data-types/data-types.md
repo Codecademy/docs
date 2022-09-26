@@ -96,7 +96,7 @@ int weight3;
 
 weight1 = 154.49;
 weight2 = (int) weight1;
-weight3 = weight1; // Implicit conversion
+weight3 = weight1; // Implicit conversion.
 
 // weight2 is now 154
 // weight3 is also 154 without the need to cast since the compiler performs an implicit conversion.
