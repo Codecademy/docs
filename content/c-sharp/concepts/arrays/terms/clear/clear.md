@@ -30,9 +30,17 @@ Array.Clear(myArray, index, N);
 The following example initalizes `myArray` with values, then clears it:
 
 ```cs
-int[] myArray = {0, 1, 2, 3, 4};
+using System;
 
-Array.Clear(myArray);
+public class Example
+{
+  public static void Main(string[] args)
+  {
+    int[] myArray = {0, 1, 2, 3, 4};
 
-System.Console.WriteLine(myArray[2]); // Output: 0
+    Array.Clear(myArray);
+
+    System.Console.WriteLine(myArray[2]); // Output: 0
+  }
+}
 ```
