@@ -38,14 +38,22 @@ Arrays in C++ have a set size, meaning the number of elements it holds cannot be
 Each element in an array is assigned a specific index starting at zero. To access or modify an element in the array you may simply refer to it by its index and operate on it accordingly.
 
 ```cs
-char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-//      indexes:  0    1    2    3    4
+using System;
 
-System.Console.WriteLine(vowels[0]); // Output: a
+public class Example
+{
+  public static void Main(string[] args)
+  {
+    char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+    //      indexes:  0    1    2    3    4
+  
+    Console.WriteLine(vowels[0]); // Output: a
 
-vowels[0] = 'r';
+    vowels[0] = 'r';
 
-System.Console.WriteLine(vowels[0]); // Output: r
+    Console.WriteLine(vowels[0]); // Output: r
+  }
+}
 ```
 
 In the case above, an array of chars was initialized with all the vowels, and then the first element in the array at index 0 was printed. Then the element at index 0 was modified by assigning it a new value of `'r'`, which was printed out below.
