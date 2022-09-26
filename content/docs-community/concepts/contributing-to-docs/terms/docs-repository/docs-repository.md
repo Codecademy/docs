@@ -20,7 +20,7 @@ When getting started, contributors should create a new fork of the `docs` repo. 
 
 ![A red stencil outlining the "Fork" link for the Codecademy Docs repo](https://raw.githubusercontent.com/Codecademy/docs/main/media/indicate_fork_link.png)
 
-The forked repo is a remote repo that exists on GitHub. To make changes on a local computer, a copy of the remote `docs` repo (local repo) will need to be made using the following command:
+The forked repo is a remote repo that exists on GitHub. To make changes on a local computer, a copy of the remote `docs` repo (local repo) must be made using the following command:
 
 ```pseudo
 git clone https://github.com/github_username/docs.git
