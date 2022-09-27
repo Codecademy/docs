@@ -44,6 +44,6 @@ MERN is used to describe a specific set of JavaScript-based technologies that ar
 
 - MongoDB: A document database used to build highly available and scalable internet applications.
 - Express(.js): A backend framework built on Node.js and it provides features for developing mobile and web applications.
-- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js : frontend javascript frameworks for building user interfaces and single-page applications.
+- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js : These are frontend javascript frameworks for building user interfaces and single-page applications.
 - Node(.js) is a runtime environment that runs JavaScript on the server-side.
  
