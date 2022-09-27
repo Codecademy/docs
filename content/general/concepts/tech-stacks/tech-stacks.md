@@ -31,7 +31,7 @@ The back-end tech stack is usually comprised of programming languages, [framewor
 
 ### LAMP Stack
 
-The LAMP stack is a popular open-source tech stack that is used to create web apps. It is one of the oldest tech stacks and provides a collection of software for delivering high-performance web applications. This stack comprises the following technologies:
+The LAMP stack is a popular back-end tech stack that is used to create web apps. It is one of the oldest tech stacks and provides a collection of software for delivering high-performance web applications. This stack comprises the following technologies:
 
 - Linux: An open-source operating system based on the Linux kernel
 - Apache: A free and open-source cross-platform web server.
