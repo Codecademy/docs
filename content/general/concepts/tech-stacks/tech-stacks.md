@@ -23,27 +23,28 @@ The three major elements that make up the front-end stack are [HTML](https://www
 
 ### Back-End Tech Stack
 
-The[ back-end](https://www.codecademy.com/resources/docs/general/back-end), or server-side, refers to parts of an application's code that allow it to operate and handle new and existing data. This cannot usually be accessed by a user. The back-end of a computer system is where the majority of data and operating syntax are stored and accessed.
+The[ back-end](https://www.codecademy.com/resources/docs/general/back-end), or server-side, refers to parts of an application's code that allow it to operate and handle new and existing data.It is inaccessible to the user. The back-end of an application is where the data and operating syntax are stored and accessed.
 
-The back-end tech stack is usually comprised of programming languages, [frameworks](https://www.codecademy.com/resources/docs/general/framework), [databases](https://www.codecademy.com/resources/docs/general/database), and [servers](https://www.codecademy.com/resources/docs/general/server).
+The back-end tech stack is comprised of programming languages, [frameworks](https://www.codecademy.com/resources/docs/general/framework), [databases](https://www.codecademy.com/resources/docs/general/database), and [servers](https://www.codecademy.com/resources/docs/general/server).
 
 ## Common Stacks
 
 ### LAMP Stack
 
-The LAMP stack is a popular back-end tech stack that is used to create web apps. It is one of the oldest tech stacks and provides a collection of software for delivering high-performance web applications. This stack comprises the following technologies:
+The LAMP stack is a popular back-end tech stack used to create web apps. It is one of the oldest tech stacks and provides a collection of software for delivering high-performance web applications. This stack contains the following technologies:
 
 - Linux: An open-source operating system based on the Linux kernel
 - Apache: A free and open-source cross-platform web server.
-- MySQL: A relational database management system for storing and manipulating data on the backend.
+- MySQL: A relational database management system for storing and manipulating data on the back-end.
 - PHP: A server-side scripting programming language used for creating dynamic web applications.
 
 ### MERN And Alternative Stacks
 
-MERN is used to describe a specific set of JavaScript-based technologies that are used in the web application development process. It is made of technologies such as MongoDB, Express, React, and Node. The MERN stack is one of the most popular technology stacks. Alternative stacks are the MEVN and MEAN stack. The only difference is Vue.js or Angular.js is used in place of React.js as the front-end framework.
+MERN is a set of JavaScript-based technologies used in the web application development process. MERN is the collection of the following technologies:
 
 - MongoDB: A document database used to build highly available and scalable internet applications.
-- Express(.js): A backend framework built on Node.js and it provides features for developing mobile and web applications.
-- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js : These are frontend javascript frameworks for building user interfaces and single-page applications.
+- Express(.js): A back-end framework built on Node.js and it provides features for developing mobile and web applications.
+- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js : These are front-end javascript frameworks for building user interfaces and single-page applications.
 - Node(.js) is a runtime environment that runs JavaScript on the server-side.
  
+ Alternative stacks are the MEVN and MEAN stack. The only difference being Vue.js or Angular.js is used in place of React.js as the front-end framework.
