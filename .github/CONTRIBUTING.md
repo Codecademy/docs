@@ -105,7 +105,7 @@ To link your Codecademy user profile to GitHub:
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
-- All contributors must sign the [Contributor License Agreement (CLA)]([url](https://cla-assistant.io/Codecademy/docs)).
+- All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - PRs will be marked as **invalid** if there is no consistent activity within a **2-week period** on the contributor's part and content does not meet or pass standard formatting, quality, and plagiarism checks.
 - We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.
