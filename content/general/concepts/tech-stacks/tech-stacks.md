@@ -35,7 +35,7 @@ The LAMP stack is a popular open-source tech stack that is used to create web ap
 
 - Linux: An open-source operating system based on the Linux kernel
 - Apache: A free and open-source cross-platform web server.
-- MySQL: A relational database management system for storing and manipulating dataon the backend.
+- MySQL: A relational database management system for storing and manipulating data on the backend.
 - PHP: A server-side scripting programming language used for creating dynamic web applications.
 
 ### MERN And Alternative Stacks
