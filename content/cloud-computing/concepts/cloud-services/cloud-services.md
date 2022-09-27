@@ -71,7 +71,7 @@ The advantages of GCP include:
 
 - Easily integrates with other Google products and services.
 - Excellent integrations with open-source projects and third-party services.
-- Considerable scaling and load-balancing capabilities.
+- Easily accommodates growth by offering good scaling and load-balancing capabilities.
 - Cutting edge [AI](https://www.codecademy.com/resources/docs/general/artificial-intelligence) and [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning) services.
 
 The disadvantages include:
