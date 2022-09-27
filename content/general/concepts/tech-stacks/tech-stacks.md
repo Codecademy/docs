@@ -1,6 +1,6 @@
 ---
 Title: 'Tech Stacks'
-Description: 'Tech stacks refer to a set of softwares that work together digital products or solutions such as websites or mobile applications.'
+Description: 'Tech stacks refer to a set of software that work together to build digital products or solutions such as websites or mobile applications.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-A **technology (or "tech") stack** refers to a set of softwares that work together to build digital products or solutions such as websites and mobile applications. Essential for building maintainable and scalable software, tech stacks are also referred to as technology infrastructures or solution stacks.
+A **technology (or "tech") stack** refers to a set of software that work together to build digital products or solutions such as websites and mobile applications. Essential for building maintainable and scalable software, tech stacks are also referred to as technology infrastructures or solution stacks.
 
 ### Front-End Tech Stack
 
@@ -35,7 +35,7 @@ The LAMP stack is a popular open-source tech stack that is used to create web ap
 
 - Linux: An open-source operating system based on the Linux kernel
 - Apache: A free and open-source cross-platform web server.
-- MySQL: A relational database management system for storing and manipulating data.
+- MySQL: A relational database management system for storing and manipulating dataon the backend.
 - PHP: A server-side scripting programming language used for creating dynamic web applications.
 
 ### MERN And Alternative Stacks
@@ -44,6 +44,6 @@ MERN is used to describe a specific set of JavaScript-based technologies that ar
 
 - MongoDB: A document database used to build highly available and scalable internet applications.
 - Express(.js): A backend framework built on Node.js and it provides features for developing mobile and web applications.
-- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js
+- [React(.js)](https://www.codecademy.com/resources/docs/react) / Vue.js / Angular.js : frontend javascript frameworks for building user interfaces and single-page applications.
 - Node(.js) is a runtime environment that runs JavaScript on the server-side.
  
