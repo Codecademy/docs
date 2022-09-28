@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Operators** are used to perform various operations on variables and values. The standard arithmetic and assignment operators are the most familiar.
+**Operators** are used to perform various operations on variables and values.
 
 ## Syntax
 
