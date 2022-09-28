@@ -22,7 +22,7 @@ Minimally a variable is declared by specifying a data type and a name:
 type name;
 ```
 
-In this case the variable will be initialized with the default value for its type, which is zero for numeric types, and `null` for reference types.
+In this case, the variable will be initialized with the default value for its type, which is zero for numeric types, and `null` for reference types.
 
 A variable can also be initialized with a value when it is declared:
 
