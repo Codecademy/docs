@@ -13,8 +13,8 @@ CatalogContent:
 
 Cloud computing offers the following advantages to the user:
 
-- **Scalability:** Adding resources is quicker and easier in a cloud environment then in an on-premises data center which involves purchasing, installing and configuring new hardware. A cloud solution provides access to many more resources than would otherwise be possible.
-- **Security:** A cloud solution often provides more security resources than a business, especially a small business, can manage on their own.
+- **Scalability:** Adding additional capacity is quicker and easier in a cloud environment then in an on-premises data center. When a user manages a data center themselves, additional capacity involves purchasing, installing and configuring new hardware. A cloud solution provides access to many more resources than would otherwise be possible.
+- **Security:** A cloud solution often provides more security than a business, especially a small business, can manage on their own.
 - **Availability:** Most cloud solutions have more robust and redundant architecture than a small to medium business can afford, leading to better uptime for users and clients.
 - **Performance:** A cloud solution will provide more powerful hardware than a business could afford in its own data center.
 - **Cost:** A cloud solution is typically more affordable than an on-premises solution offering the same capabilities.
