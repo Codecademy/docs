@@ -32,7 +32,7 @@ type name = value;
 
 In this case the variable `name` will be set to the value `value`.
 
-> **Note:** The value `value` must be of type `type` or be able to be implicitly converted to `type`.
+> **Note:** `value` must be of type `type` or be able to be implicitly converted to `type`.
 
 ## Example
 
