@@ -30,7 +30,7 @@ Operators can be organized into the following groups:
 - Assignment operators for assigning values to variables.
 - Comparison operators for comparing two values.
 - Logical operators for combining Boolean values.
-- Bitwise operators for manipulating the bits of a number
+- [Bitwise operators](https://www.codecademy.com/resources/docs/general/bitwise-operator) for manipulating the bits of a number
 
 ## Arithmetic Operators
 
