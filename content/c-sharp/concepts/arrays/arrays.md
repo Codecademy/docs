@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An **array** is a data structure used in C# to store a sequential collection of elements. Its size cannot be changed after creation. The elements of an array are all of the same type, but it is possible to define a C# array that can hold elements of any type by specifying the type of the array as `object`. In C#, all types directly or indirectly inherit from the Object type.
+An **array** is a data structure used in [C#](https://www.codecademy.com/resources/docs/c-sharp) to store a sequential collection of elements. Its size is immutable (cannot be changed after creation). The elements of an array are all of the same type, but it is possible to define a C# array that can hold elements of any type by specifying the type of the array as an object. In C#, all types directly or indirectly inherit from the `Object` type.
 
 ## Syntax
 
