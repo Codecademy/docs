@@ -21,7 +21,7 @@ There are a number of different ways to create an array in C#:
 // Create a variable of type "type[]" without initalizing it:
 type[] arrayName;
 
-// Create the array varaible and initalize it with an array of N items:
+// Create the array variable and initalize it with an array of N items:
 type[] arrayName = new type[N];
 
 // Create the array variable and intalize it by specifying the contents:
