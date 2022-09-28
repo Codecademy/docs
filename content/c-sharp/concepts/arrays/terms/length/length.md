@@ -23,7 +23,7 @@ int myLength = myArray.Length;
 
 ## Example
 
-The following example initializes an array then prints out the number of elements it contains:
+The following example initializes an array, then prints out the number of elements it contains:
 
 ```cs
 using System;
