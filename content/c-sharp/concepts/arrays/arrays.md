@@ -31,7 +31,7 @@ type[] arrayName = new type[] { value1, value2, value3, ... valueN };
 type[] arrayName = { value1, value2, value3, ... valueN };
 ```
 
-Arrays in C++ have a set size, meaning the number of elements it holds cannot be changed once the array has been created.
+> **Note:** Arrays in C++ have a set size, meaning the number of elements it holds cannot be changed once the array has been created.
 
 ## Example
 
