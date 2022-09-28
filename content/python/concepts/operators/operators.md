@@ -48,7 +48,7 @@ Python has the following arithmetic operators:
 
 Python includes the following assignment operators:
 
-- The `=` operator assigns the value on the left to the variable on the right.
+- The `=` operator assigns the value on the right to the variable on the left.
 - The `+=` operator updates a variable by incrementing its value and reassigning it.
 - The `-=` operator updates a variable by decrementing its value and reassigning it.
 - The `*=` operator updates a variable by multiplying its value and reassigning it.
