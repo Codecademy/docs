@@ -1,0 +1,32 @@
+---
+Title: 'ROUND'
+Description: 'Rounds a value to the nearest integer or to a specific number of decimals if an optional value is provided.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Data Types'
+  - 'Documentation'
+CatalogContent:
+  - 'learn-sql'
+  - 'paths/analyze-data-with-sql'
+---
+
+The **`ROUND`** command rounds a value to the nearest integer or to a specific number of decimals if an optional value is provided.
+
+## Syntax
+
+```pseudo
+ROUND(value, decimal_places)
+```
+
+## Examples
+
+The example below assumes there is a `grades` table with a column `test_scores` with values for all the exams administered in a semester:
+
+```sql
+SELECT names,
+ROUND(AVG(test_scores), 2)) AS semster_avg
+FROM grades
+GROUP BY names;
+```
