@@ -1,6 +1,6 @@
 ---
 Title: 'Types of Cloud'
-Description: 'There are three types of cloud computing implementations.'
+Description: 'The types of cloud computing implementations include public, private, hybrid, and multicloud.'
 Subjects:
   - 'Computer Science'
 Tags:
