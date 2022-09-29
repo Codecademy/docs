@@ -9,6 +9,7 @@ Tags:
   - 'Data Types'
   - 'Objects'
   - 'Tables'
+  - 'Tables'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
