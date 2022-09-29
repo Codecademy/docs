@@ -17,14 +17,14 @@ The **`ncol()`** function returns the number of columns in a data frame.
 ## Syntax
 
 ```pseudo
-ncol(df)
+ncol(data_frame)
 ```
 
-- `df`: The data frame to call the function on.
+The `data_frame` parameter is the data frame passed into the `ncol()` function.
 
 ## Example
 
-Suppose there exists a `patients.csv` file with the following information:
+The following example uses a [CSV file](https://www.codecademy.com/resources/docs/r/csv-files) named `patients.csv` with the following information:
 
 | First Name | Last Name | DOB        |
 | ---------- | --------- | ---------- |
@@ -33,7 +33,7 @@ Suppose there exists a `patients.csv` file with the following information:
 | Toby       | Spencer   | 11/16/1953 |
 | Sandra     | Speller   | 07/05/1989 |
 
-The data within the [CSV file](https://www.codecademy.com/resources/docs/r/data-types) can be read in and the `ncol()` function can be used to retrieve the number of columns:
+The data within the file can be read in and the `ncol()` function can be used to retrieve the number of columns:
 
 ```r
 # Read in file

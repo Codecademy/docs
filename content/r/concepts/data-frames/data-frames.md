@@ -1,6 +1,6 @@
 ---
 Title: 'Data Frames'
-Description: 'Data Frames are objects that store data into two dimensions.'
+Description: 'Data Frames are objects that store data into two dimensions of rows and columns.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Data Frames** are objects that store data into a table with two dimensions. The two dimensions are represented by columns and rows. The columns are the different variables and the rows are the observations of each variable. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
+**Data Frames** are objects that store data into a table with two dimensions. The two dimensions are represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
 
 ## Creating Data Frames
 
@@ -31,7 +31,7 @@ data.frame(arguments)
 
 ### Example
 
-The following example saves a sample of team stats into a data frame:
+The following example creates a data frame using a sample of team stats then [prints](https://www.codecademy.com/resources/docs/r/built-in-functions/print) it:
 
 ```r
 team_stats <- data.frame(Team = c("Aces", "Sky", "Mystics", "Storm", "Sun", "Liberty", "Wings", "Mercury"),
@@ -43,7 +43,7 @@ team_stats <- data.frame(Team = c("Aces", "Sky", "Mystics", "Storm", "Sun", "Lib
 print(team_stats)
 ```
 
-The above will print the following:
+The example above will print the following:
 
 ```shell
      Team Games_Played Wins Losses Win_Percentage
@@ -57,6 +57,6 @@ The above will print the following:
 8 Mercury            2    0      2          0.000
 ```
 
-## Built-in Functions
+## Other Operations
 
-There are several built-in functions that can be used to analyze data within data frames. Some of which are listed below:
+There are several functions that can be used for analyzing data frames. Some are listed below:

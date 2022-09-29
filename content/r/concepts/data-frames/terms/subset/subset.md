@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`subset()`** function returns a subset of an object that matches the specified conditions.
+The **`subset()`** function returns a subset of a data frame that matches the specified conditions.
 
 ## Syntax
 
@@ -20,12 +20,12 @@ The **`subset()`** function returns a subset of an object that matches the speci
 subset(object, subset)
 ```
 
-- `object`: The object to retrieve the subset from.
-- `subset`: Expression that indicates the values to keep from the `object`.
+- The `data_frame` parameter is the data frame to retrieve the subset from.
+- The `expression` specifies the subset conditions.
 
 ## Example
 
-Suppose there is a "inventory.csv" file with the following information in it:
+The following example uses a [CSV file](https://www.codecademy.com/resources/docs/r/csv-files) named `inventory.csv` with the following information in it:
 
 | Item     | Quantity | Cost |
 | -------- | -------- | ---- |
