@@ -13,8 +13,6 @@ CatalogContent:
 
 **Advanced operators** in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few.
 
-Bitwise operators are used to manipulate the raw data bits of a structure, such as graphics, file inputs, or device drivers, while not common, these operators are very useful in their specific use cases. Swift also allows the overloading of the standard operators to include your own definition of the function.
-
 ## Compound Assignment Operator
 
 Compound assignment operators combine the assignment operator `=` with another separate operation, for example, `+`. The following operations are allowed `+`, `-`, `/`, `*`, `%`,
@@ -28,7 +26,11 @@ a /= 3 // a = 11
 a %= 5 // a = 1
 ```
 
-## Bitwise NOT Operator
+## Bitwise Operators
+
+[Bitwise operators](https://www.codecademy.com/resources/docs/general/bitwise-operator) are used to manipulate the raw data bits of a structure such as graphics, file inputs, or device drivers. While not common, these operators are very useful in their specific use cases. Swift also allows the overloading of the standard operators to include your own definition of the function.
+
+### NOT Operator
 
 Bitwise NOT `~` operator inverts all the bits in a number, so `0101 0101` will become `1010 1010`. It is very important to note that using the `~` operator on a signed integer, a standard integer, inverts a positive integer, n, into -(n+1) and not the inverse binary.
 
@@ -46,7 +48,7 @@ print(invertedStandardInt)
 // Output: -86
 ```
 
-## Bitwise AND Operator
+### AND Operator
 
 Bitwise AND `&` operator returns a new binary from the combination of two other binary numbers. If there is a `1` in the same place in each binary string, the result will have a `1` in that digit, else, a `0` will be place
 
@@ -60,7 +62,7 @@ let secondBinary = 0b01111101
 let result = firstBinary & secondBinary // 00110101
 ```
 
-## Bitwise OR Operator
+### OR Operator
 
 Bitwise OR `|` operator compares two numbers and returns a new number where each bit is set to `1` if either bit equals `1` in the original two numbers.
 
@@ -74,7 +76,7 @@ let secondBinary = 0b01111101
 let result = firstBinary | secondBinary // 01111101
 ```
 
-## Bitwise XOR Operator
+### XOR Operator
 
 Bitwise XOR `^` operator, also known as 'exclusive OR', compares two binary numbers. It will return a new number with each bit set to `1` if the bits of the original numbers are different, or exclusive. `0`'s will be placed anywhere that the two bits are equivalent.
 
@@ -88,7 +90,7 @@ let secondBinary = 0b01111101
 let result = firstBinary ^ secondBinary // 01001000
 ```
 
-## Bitwise Left and Right Shift Operators
+### Left and Right Shift Operators
 
 Bitwise shift operators, `<<` and `>>` operate slightly differently on signed and unsigned values. For unsigned values, the process is very straight-forward, the number shifts to the left or right by the number of digits specified. In essence, for every shift to the left you make, you are doubling the value of the number and for every shift right, you are halving the number.
 
@@ -114,7 +116,7 @@ var shiftedLeft = signedFifteen << 4   // 0 1110000
 
 ## Custom and Overloaded Operators
 
-Swift allows you to create your own operators or even define ones that already exist for a given class or structure. Let's create a basic student structure that we'll use for the examples.
+Swift also allows for custom operators to be created or existing operators to be overloaded within a given [class](https://www.codecademy.com/resources/docs/swift/classes) or [structure](https://www.codecademy.com/resources/docs/swift/structures). The following examples feature a small `Student` structure that uses these operators:
 
 ```swift
 struct Student {
@@ -127,7 +129,7 @@ var tim = Student(name: "Tim", studentId: 234234, gpa: 2.95)
 var amy = Student(name: "Amy", studentId: 233241, gpa: 3.70)
 ```
 
-The equitable operator, `==` and its inverse `!=` will use Swift's standard definition unless it is redefined. We can test the equatability of the two students by adding conformance to `Equatable` and creating a `==` function.
+The equatable operator (`==`) and its inverse (`!=`) will use Swift's standard definition unless it is redefined. The "equatability" of the two students can be tested by adding conformance to `Equatable` and creating a `==` function.
 
 ```swift
 extension Student: Equatable {
@@ -144,7 +146,11 @@ if tim == amy {
 // Output: "These are different students"
 ```
 
-We can now use `==` to compare two students in a way that makes sense to our program logic. Swift also allows us to override most of the common operators. For a complete list, visit the [Swift Reference Manual](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418). When we add or subtract from a student, we want to manipulate the GPAs, the methods below provide examples of their implementation.
+The `==` operator is used to logically compare `studentId` properties of two students.
+
+Swift also allows us to override most of the common operators. For a complete list, visit the [Swift Reference Manual](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418).
+
+In the examples below, when "adding" or "subtracting" from a student, the goal is to manipulate the `gpa` property.
 
 ```swift
 extension Student {
@@ -163,9 +169,9 @@ extension Student {
 }
 ```
 
-We can redefine the `+` and `-` operators to adjust the GPAs of our students, we also add additional logic to the operator so that it doesn't go above `4.0` or below `0.0`.
+The addition `+` and subtraction `-` operators are redefined to adjust a student's `gpa` property. Additionally, there is logic in place to prevent the `gpa` from going above `4.0` or below `0.0`.
 
-Basic operators are not the only ones that can be reassigned, we can also redefine compound operators.
+Similar to basic operators, compound operators like `+=` can be redefined:
 
 ```swift
 extension Student {
@@ -176,4 +182,4 @@ extension Student {
 }
 ```
 
-The above examples are not inclusive of all the tasks that can be reassigned, and custom operators such as `+++` or `-+-` can also be created for example. Use the above reference to Swift documentation for the complete list.
+The above examples are not inclusive of all the tasks that can be reassigned, and custom operators such as `+++` or `-+-` can also be created for example.
