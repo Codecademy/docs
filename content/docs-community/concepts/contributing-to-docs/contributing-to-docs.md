@@ -20,3 +20,5 @@ There are two primary types of Docs contributions:
 - Suggest new content, ideas, and fixes in [Discussions](https://github.com/Codecademy/docs/discussions) or the [feedback form](https://codecademyready.typeform.com/to/hzVIWDgz?typeform-source=www.codecademy.com).
 
 More information about contributing to Docs can be found in [`CONTRIBUTING.md`](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md).
+
+> **Note:** All must sign the [Contribution License Agreement](https://cla-assistant.io/Codecademy/docs) when contributing to Docs for the first time.

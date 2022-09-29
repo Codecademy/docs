@@ -7,3 +7,5 @@ CatalogContent:
 ---
 
 The content of Codecademy Docs is open-contribution and community-driven. The concepts covered in this topic include information about contributing to Docs, the repository that houses all the content, and the different types of entries.
+
+> **Note:** All must sign the [Contribution License Agreement](https://cla-assistant.io/Codecademy/docs) when contributing to Docs for the first time.
