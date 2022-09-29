@@ -1,6 +1,6 @@
 ---
 Title: 'Go'
-Description: 'Go (also referred to as Golang) is an open-source compiled programming language that was designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It had its initial release for the public in 2012.'
+Description: 'Go (also referred to as Golang) is an open-source compiled programming language that was designed at Google and released to the public in 2012.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/go'
 CatalogContent:
   - 'learn-go'
