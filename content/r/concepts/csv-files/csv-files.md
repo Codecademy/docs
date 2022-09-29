@@ -17,7 +17,7 @@ Data within **[CSV](https://www.codecademy.com/resources/docs/general/csv) files
 
 ## Reading Data
 
-The `read.csv()` function reads in data from a CSV file.
+The `read.csv()` function reads data from a CSV file.
 
 ### Syntax
 
@@ -78,7 +78,7 @@ This reads the data in as a [data frame](https://www.codecademy.com/resources/do
 
 ## Writing Files
 
-The `write.csv()` function can be used to write into CSV files.
+The `write.csv()` function can be used to write data into CSV files.
 
 ### Syntax
 
@@ -114,4 +114,3 @@ The example above will return the `highSchoolers.csv` file with the following da
 11      Tori      Vega    10 N76543
 13    Robert        Ye    10 N67541
 ```
-

@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Data Structures'
+  - 'Methods'
+  - 'Tables'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
@@ -37,7 +39,7 @@ The following example uses a [CSV file](https://www.codecademy.com/resources/doc
 The data within the file can be read in with the `read.csv()` function and the `nrow()` function can be used to retrieve the number of rows:
 
 ```r
-# Read in file
+# Read file
 df <- read.csv("supplies.csv")
 
 # Retrieve number of rows

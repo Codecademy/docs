@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Data Structures'
+  - 'Methods'
+  - 'Tables'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
@@ -36,7 +38,7 @@ The following example uses a [CSV file](https://www.codecademy.com/resources/doc
 The data within the file can be read in and the `ncol()` function can be used to retrieve the number of columns:
 
 ```r
-# Read in file
+# Read file
 df <- read.csv("patients.csv")
 
 # Retrieve number of columns

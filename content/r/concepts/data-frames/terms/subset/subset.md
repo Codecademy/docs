@@ -7,6 +7,8 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Data Structures'
+  - 'Methods'
+  - 'Objects'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
@@ -37,7 +39,7 @@ The following example uses a [CSV file](https://www.codecademy.com/resources/doc
 The `subset()` function can be used to get the subset of items where the `Cost` is greater than 10:
 
 ```r
-# Read in file
+# Read file
 df <- read.csv("inventory.csv")
 
 # Retrieve subset

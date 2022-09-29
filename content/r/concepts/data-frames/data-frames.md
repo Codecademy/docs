@@ -8,6 +8,7 @@ Tags:
   - 'Data Structures'
   - 'Data Types'
   - 'Objects'
+  - 'Tables'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
