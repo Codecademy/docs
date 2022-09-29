@@ -9,6 +9,8 @@ Tags:
   - 'Data Structures'
   - 'Methods'
   - 'Objects'
+  - 'Methods'
+  - 'Objects'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
