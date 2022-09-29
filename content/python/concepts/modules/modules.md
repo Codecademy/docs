@@ -13,17 +13,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **module** is a Python file that contains functions, definitions, and statements that can be included in an application. Technically, all `.py` files are modules.
+A **module** is a Python file that contains functions, definitions, and statements that can be included in other files within an application. Technically, all files with the `.py` [format](https://www.codecademy.com/resources/docs/general/file-formats) are modules.
 
-Think of a module as a code library that can be reused across applications. Modules improve code reusablity and allow us to access shared libraries and packages.
-
-Instead of entering commands directly into a Python interpreter, code can be saved as a module for later use in other applications. Third-party libraries such as [`numpy`](https://www.codecademy.com/resources/docs/numpy), `sklearn`, and the `date-time` built-in library are all examples of modules.
+Conceptually, modules are named units of code that can be reused across applications and allows us to access shared libraries (collections of modules) and packages (modules with nested modules and packages). Instead of entering commands directly into a Python interpreter, code can be saved as a module for later use in other applications.
 
 ## Creating and Importing Modules
 
-A module can be created by saving a Python file with the `.py` file extension. It can then be imported into another Python file with the `import` command followed by the module name.
+A module can be created by saving a Python file with the `.py` file extension. It can then be imported into another `.py` file with an `import` statement.
 
-For example, to import a **video_player.py** file:
+For example, a separate `video_player.py` file that was previously saved can be imported in other files:
 
 ```py
 import video_player
@@ -35,13 +33,13 @@ The program now has access to all functions, objects, and statements contained w
 
 ## Importing Specific Resources
 
-Instead of importing the whole module, individual named resources can be specified. For example:
+Instead of importing the whole module, individually named resources can be specified. For example:
 
 ```py
-from collections import Counter
+from video_player import VideoPlayer
 ```
 
-This will import only the `Counter` class from Python's `collections` built-in module, rather than all types of collections contained within it.
+This will import only the `VideoPlayer` class from a given `video_player` module, rather than all types of collections contained within it.
 
 It's often useful to import only the resources that you need to avoid slowing down your program and polluting your local namespace where your code runs.
 
