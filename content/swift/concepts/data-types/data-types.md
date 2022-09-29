@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-All programming languages designate certain types of data. This helps the operating system and computer hardware allocate memory based on the type of data that is going to be stored. Swift **data types** include `Int`, `Float`, `Double`, `String`, `Character`, and `Bool`. It is a type-safe language where variables hold values of a known data type.
+Swift, like all programming languages, designate certain [**data types**](https://www.codecademy.com/resources/docs/general/data-types) that help the operating system and computer hardware allocate memory based on what is going to be stored. These data types include numeric, textual, and logical values.
 
-In Swift, we generally store values in variables which can be thought of as a container to hold data. The data type determines how big that container is and where the computer is going to store it for later access.
+In a type-safe language like Swift, values are generally stored in [variables](https://www.codecademy.com/resources/docs/swift/variables), which are containers that hold data. The data type determines how big that variable container is and where the computer is going to store it for later access.
 
 ## Basic Data Types
 
@@ -60,10 +60,6 @@ let gpa = 3.7 // inferred as a Double
 ## Strings and Characters
 
 `String`s are a collection of `Character`s and `Character`s are the individual symbols that make up our languages. In Swift, the `String` type can be either mutable or immutable, as determined by the type of variable you store it in, either a `var` or a `let` for a constant. Both `String` and `Character` are typically declared inside a set of double quotation marks, while multi-line `String`s are declared with a set of triple quotations opening and closing the text.
-
-<!--
-Swift Markdown does not support multi-line strings in just generic Chrome, I'm not sure why. It looks fine in Author, so I'm not sure what formatting the SWE have used on the Codecademy site but hopefully it is also applied to the Docs site or else this won't work as intended. There are some languages that Markdown supports like this, we'll have to play with it when it begins to get published.
--->
 
 ```swift
 let author: String = "Edgar Allen Poe"

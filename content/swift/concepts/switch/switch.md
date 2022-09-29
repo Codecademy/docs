@@ -18,7 +18,6 @@ The **`switch`** statement is a type of conditional used to check the value of a
 A `case` executes when it matches the value of the expression. When there are no matches between the `case` statements and the expression, the `default` statement executes.
 
 ```swift
-
 var secondaryColor = "green"
 
 switch secondaryColor {
@@ -83,7 +82,6 @@ switch service {
 Within a `switch` statement, a `where` clause is used to test additional conditions against an expression.
 
 ```swift
-
 let num = 7
 
 switch num {

@@ -104,7 +104,7 @@ When a variable is declared and set to an enumeration, it can be re-assigned to 
 
 ### Switch Case
 
-A `switch` statement is another way to access values within an enumeration. In the example below, the `bishop` variable will be evaluated to match `case .fourthJob` because it was previously set to the `fourthJob` value. Access to the values in `enum MageAdvancementTree` is possible because `bishop` is already set to it.
+A [`switch`](https://www.codecademy.com/resources/docs/swift/switch) statement is another way to access values within an enumeration. In the example below, the `bishop` variable will be evaluated to match `case .fourthJob` because it was previously set to the `fourthJob` value. Access to the values in `enum MageAdvancementTree` is possible because `bishop` is already set to it.
 
 ```swift
 switch bishop {
@@ -124,7 +124,7 @@ switch bishop {
 
 ### Iterative
 
-Notice that `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codecademy.com/resources/docs/swift/protocols) protocol which gives access to the `allCases` property. Using a [`for...in`](https://www.codecademy.com/resources/docs/swift/loops) loop, each value within the enumeration can be accessed.
+In the snippet below, `MageAdvancementTree` adopts the [`CaseIterable`](https://www.codecademy.com/resources/docs/swift/protocols) protocol which gives access to the `allCases` property. Using a [`for...in`](https://www.codecademy.com/resources/docs/swift/loops) loop, each value within the enumeration can be accessed:
 
 ```swift
 enum MageAdvancementTree: String, CaseIterable {

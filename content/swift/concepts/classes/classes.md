@@ -28,7 +28,7 @@ class MyClass {
 }
 ```
 
-**Note:** Class names should be capitalized as per convention.
+> **Note:** Class names should be capitalized as per convention.
 
 ### `var`, `init()`, and `func`
 
