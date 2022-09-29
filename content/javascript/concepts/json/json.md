@@ -1,6 +1,6 @@
 ---
 Title: 'JSON'
-Description: 'The JSON object is used for JSON parsing and conversion.'
+Description: 'The `JSON` object is used for JSON parsing and conversion.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
