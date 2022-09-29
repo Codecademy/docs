@@ -41,7 +41,7 @@ from video_player import VideoPlayer
 
 This will import only the `VideoPlayer` class from a given `video_player` module, rather than all types of collections contained within it.
 
-It's often useful to import only the resources that you need to avoid slowing down your program and polluting your local namespace where your code runs.
+It's often useful to import only what is needed to avoid slowing the program down and polluting the local namespace where the code runs.
 
 ## Namespaces and Scope
 
