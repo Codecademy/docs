@@ -20,7 +20,7 @@ Returns the primitive value of a String object, similar to the `toString()` meth
 string.valueOf();
 ```
 
-## Example 1
+## Example
 
 Using the `new` constructor with `String()` creates a String '_wrapper_' object. The `valueOf()` method returns the primitive value of such a String object.
 
@@ -30,11 +30,11 @@ console.log(name); // [String: 'Bill']
 console.log(name.valueOf()); // 'Bill'
 ```
 
-## Example 2
+## Codebyte Example
 
 `valueOf()` can also be called on variables that contain strings and string literals, although in these cases, its use is redundant.
 
-```js
+```codebyte/js
 const animal = 'cat';
 console.log(animal === animal.valueOf()); // true
 
