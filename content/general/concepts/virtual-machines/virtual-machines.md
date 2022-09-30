@@ -29,7 +29,7 @@ VMs provide many benefits, such as the following:
 
 Multiple VMs can be run on a single physical server or computer. This allows physical hardware to be used more efficiently because a single VM frequently does not use enough resources to need its own dedicated hardware. Assigning multiple VMs to a single physical host also lowers costs by reducing the number of physical computers needed.
 
-### Organize Development and Test Environments
+### Organized Development and Test Environments
 
 VMs can provide separate environments with separate operating systems, which can be used for development and testing purposes. VMs make it easy to separate testing resources and conduct tests which won’t have any impact on production or other surrounding environments.
 
