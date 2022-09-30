@@ -37,7 +37,7 @@ VMs can provide separate environments with separate operating systems, which can
 
 Using separate VMs is considered a secure way to explore potentially malicious applications or viruses. Because they are separate environments, VMs can be used for these tasks without the risk of compromising the host machine.
 
-VMs can also improve security because VMs are isolated from the host computer and each other. If an attacker gained access to a single VM, they won’t have access to the host machine or other VMs that share the same host.
+This isolation improves security. If an attacker gained access to a single VM, they wouldn't have access to the host machine or other VMs that share the same host.
 
 ### Increased Flexibility
 
