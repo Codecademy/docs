@@ -23,7 +23,7 @@ Multiple VMs can be managed with a software known as a “hypervisor”. A hyper
 
 ## Benefits of VMs
 
-Virtual machines can provide many benefits, such as:
+VMs provide many benefits, such as the following:
 
 ### Improved Hardware Utilization
 
