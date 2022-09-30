@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/example-path'
 ---
 
-[A brief definition - - make sure first mention of term is in **bold**.]
+[A brief definition - make sure first mention of term is in **bold**.]
 
 ## Syntax
 
