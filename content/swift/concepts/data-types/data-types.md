@@ -33,14 +33,16 @@ In a type-safe language like Swift, values are generally stored in [variables](h
 
 Integers are whole numbers such as `35` and `-123`. As you can see from the example, they can be either signed or unsigned whole numbers, the default being signed. Integers can be declared in five different ways:
 
-- `Int`: The standard reference used for whole numbers in Swift. It will create an integer with a size that is based on the platform it is operating on. On 32-bit systems it will create Int32, on 64-bit systems it will create an Int64.
-- `Int8`: Creates an 8-bit signed integer (range of -128 to 127)
-- `Int32`: Creates a 32-bit signed integer (range of -2,147,483,648 to 2,147,483,647)
-- `Int64`: Creates a 64-bit signed integer (range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
-- `UInt`: Unsigned (positive values only) that is created in the same manner as a standard `Int`
-- `UInt8`: Creates an 8-bit unsigned integer (range of 0 to 255)
-- `UInt32`: Creates a 32-bit unsigned integer (range of 0 to 4,294,967,295)
-- `UInt64`: Creates a 64-bit unsigned integer (range of 0 to 18,446,744,073,709,551,615)
+| Type Reference | Description                                                      | Value Range                                                         |
+| :------------: | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
+|     `Int`      | The standard reference used for whole numbers in Swift.          | Based on the platform (`Int32` on 32-bit, `Int64` on 64-bit, etc.). |
+|     `Int8`     | Creates an 8-bit signed integer.                                 | -128 &endash; 127                                                   |
+|    `Int32`     | Creates a 32-bit signed integer.                                 | -2,147,483,648 &endash; 2,147,483,647                               |
+|    `Int64`     | Creates a 64-bit signed integer.                                 | -9,223,372,036,854,775,808 &endash; 9,223,372,036,854,775,807       |
+|     `UInt`     | Unsigned that is created in the same manner as a standard `Int`. | Positive values only.                                               |
+|    `UInt8`     | Creates an 8-bit unsigned integer.                               | 0 &endash; 255                                                      |
+|    `UInt32`    | Creates a 32-bit unsigned integer.                               | 0 &endash; 4,294,967,295                                            |
+|    `UInt64`    | Creates a 64-bit unsigned integer                                | 0 &endash; 18,446,744,073,709,551,615                               |
 
 ```swift
 let shinyNewInteger: Int = 500

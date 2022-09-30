@@ -19,21 +19,15 @@ A **dictionary** is an unordered collection of paired data or `key: value` pairs
 
 ```pseudo
 var dictionaryName = [
-  "Key1": "Value1",
-  "Key2": "Value2",
-  "Key3": "Value3"
+  Key1: Value1,
+  Key2: Value2,
+  Key3: Value3
 ]
 ```
 
-Keys can be used to access, remove, add, or modify its associated value. Every key in a dictionary is unique, even if they all contain the same value:
+Keys can be of any hashable type, meaning an object that has a hashcode. Typically, `Int`s and `String`s are used as keys. Every key in a dictionary is unique and they're used to access, remove, add, or modify its associated value. Values can be of any [data type](https://www.codecademy.com/resources/docs/swift/data-types).
 
-```swift
-var fruitStand = [
-  "Coconuts": 12,
-  "Pineapples": 12,
-  "Papaya": 12
-]
-```
+While types can be mixed, it's best practice to keep the key's and value's type consistent. For example, a dictionary would have keys be of type `Int` and values of type `String`.
 
 ## Assigning a Value to a Variable
 
@@ -56,36 +50,6 @@ if let redHex = primaryHex["red"] {
 ```
 
 > **Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
-
-## `.count` Property
-
-The `.count` property returns an integer that represents how many key-value pairs are in a dictionary.
-
-```swift
-var fruitStand = [
-  "Apples": 12,
-  "Bananas": 20,
-  "Oranges", 17
-]
-
-print(fruitStand.count)  // Output: 3
-```
-
-## `.isEmpty` Property
-
-The `.isEmpty` property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
-
-```swift
-var bakery = [String:Int]()
-
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: true
-
-bakery["Cupcakes"] = 12
-
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: false
-```
 
 ## Iterating Over a Dictionary
 
@@ -113,3 +77,7 @@ for meaning in emojiMeaning.values {
   print(meaning)
 }
 ```
+
+Below are some instance properties for dictionaries:
+
+<!--   TODO: Add methods, and subscripts  -->
