@@ -7,12 +7,14 @@ Subjects:
 Tags:
   - 'Functions'
   - 'Methods'
+  - 'Output'
+  - 'Print'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
 ---
 
-The `print()` function prints out the specified argument.
+The **`print()`** function prints out the specified argument.
 
 ## Syntax
 
@@ -20,11 +22,11 @@ The `print()` function prints out the specified argument.
 print(argument)
 ```
 
-`argument` specifies the data to print.
+The `argument` to be printed is of a valid [data type](https://www.codecademy.com/resources/docs/r/data-types).
 
 ## Example
 
-The following example prints out a [data frame](https://www.codecademy.com/resources/docs/r/data-frames):
+The following example prints out a [data frame](https://www.codecademy.com/resources/docs/r/data-frames) with the `print()` function:
 
 ```r
 school_teams <- data.frame(Sport = c("Basketball", "Baseball", "Football", "Track", "Tennis", "Swim"), Coach = c("Tyler", "Blake", "Stephanie", "Jordan", "Taylor","Brooklyn"), Player_Count = c(15, 24, 22, 20, 12, 29))
@@ -32,7 +34,7 @@ school_teams <- data.frame(Sport = c("Basketball", "Baseball", "Football", "Trac
 print(school_teams)
 ```
 
-The above example prints the following:
+This outputs the following:
 
 ```shell
        Sport     Coach Player_Count

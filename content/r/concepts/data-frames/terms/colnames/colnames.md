@@ -22,14 +22,14 @@ The column names can be retrieved and set using the following syntax:
 
 ```pseudo
 # Retrival
-colnames(data_frame)
+colnames(df_object)
 
 # Setting
-colnames(data_frame) <- value
+colnames(df_object) <- value
 ```
 
-- The `dataframe` parameter is the object passed into the `colnames()` function.
-- The `value` is a vector containing column names; its length must be equal to the amount of columns in the original `dataframe` object.
+- The `df_object` parameter is the object passed into the `colnames()` function.
+- The `value` is a vector containing column names; its length must be equal to the amount of columns in the original `df_object`.
 
 ## Example
 

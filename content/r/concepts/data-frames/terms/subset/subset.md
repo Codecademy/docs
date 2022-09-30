@@ -9,8 +9,6 @@ Tags:
   - 'Data Structures'
   - 'Methods'
   - 'Objects'
-  - 'Methods'
-  - 'Objects'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
@@ -21,10 +19,10 @@ The **`subset()`** function returns a subset of a data frame that matches the sp
 ## Syntax
 
 ```pseudo
-subset(object, subset)
+subset(df_object, expression)
 ```
 
-- The `data_frame` parameter is the data frame to retrieve the subset from.
+- The `df_object` parameter is the data frame to retrieve the subset from.
 - The `expression` specifies the subset conditions.
 
 ## Example

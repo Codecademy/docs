@@ -20,11 +20,11 @@ The **`str()`** function displays the internal structure of an object such as an
 str(object)
 ```
 
-- `object`: The object to call the function on.
+The `object` parameter is passed to the `str()` function to return a string representation that can be combined with other strings.
 
 ## Example
 
-The following example uses a [CSV file](https://www.codecademy.com/resources/docs/r/csv-files) named `canines.csv` file with the following information in it:
+The following example uses a [CSV file](https://www.codecademy.com/resources/docs/r/csv-files) named `canines.csv` with the following information in it:
 
 | First Name | Last Name | Age | Breed                     |
 | ---------- | --------- | --- | ------------------------- |
@@ -44,7 +44,7 @@ df <- read.csv("canines.csv")
 str(df)
 ```
 
-The above returns the following:
+This returns the following:
 
 ```shell
 'data.frame':  5 obs. of 4 variables:

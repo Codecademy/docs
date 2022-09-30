@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `setwd()` sets the current working directory to the file path specified.
+The **`setwd()`** sets the current working directory to the [file path](https://www.codecademy.com/resources/docs/general/file-paths) specified.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The `setwd()` sets the current working directory to the file path specified.
 setwd(directory)
 ```
 
-`directory` is a string representing the file path.
+The `setwd()` function returns the current directory before it is changed to the file path of the `directory` parameter string.
 
 ## Example
 

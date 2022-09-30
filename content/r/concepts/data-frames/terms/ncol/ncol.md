@@ -19,10 +19,10 @@ The **`ncol()`** function returns the number of columns in a data frame.
 ## Syntax
 
 ```pseudo
-ncol(data_frame)
+ncol(df_object)
 ```
 
-The `data_frame` parameter is the data frame passed into the `ncol()` function.
+The `df_object` parameter is the data frame passed into the `ncol()` function.
 
 ## Example
 

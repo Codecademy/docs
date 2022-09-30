@@ -19,10 +19,10 @@ The **`nrow()`** function returns the number of rows in a data frame.
 ## Syntax
 
 ```pseudo
-nrow(data_frame)
+nrow(df_object)
 ```
 
-The `data_frame` parameter is the data frame passed into the `nrow()` function.
+The `df_object` parameter is the data frame passed into the `nrow()` function.
 
 ## Example
 

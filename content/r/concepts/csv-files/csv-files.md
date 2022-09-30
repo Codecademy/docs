@@ -1,6 +1,6 @@
 ---
 Title: 'CSV Files'
-Description: 'Data within CSV files can be manipulated using built-in R functions.'
+Description: 'R provides functions for manipulating data within CSV files.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -25,7 +25,7 @@ The `read.csv()` function reads data from a CSV file.
 read.csv(file)
 ```
 
-`file` is the file with a `.csv` extension to read from.
+A `file` with a `.csv` extension is read from the `read.csv()` function.
 
 ### Example
 
@@ -86,12 +86,12 @@ The `write.csv()` function can be used to write data into CSV files.
 write.csv(data, file)
 ```
 
-- `data`: The information to write into the `.csv` file
+- `data`: The information to write into the `.csv` file.
 - `file`: Name of the file with a `.csv` extension to write the `data` into.
 
 ### Example
 
-The following example uses the `subset()` function to retrieve students that are above grade `8` from the students.csv file. Then it writes the subset into the `highSchoolers.csv` file using the `write.csv()` function:
+The following example uses the `subset()` function to retrieve students that are above grade `8` from the `students.csv` file. Then it writes the subset into the `highSchoolers.csv` file using the `write.csv()` function:
 
 ```r
 # Retrieve data from CSV file

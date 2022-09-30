@@ -12,4 +12,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-R has built-in functions that can perform a variety of tasks. Some of the common ones are listed:
+R has **built-in functions** that can perform a variety of tasks. Some of the common ones are listed below:

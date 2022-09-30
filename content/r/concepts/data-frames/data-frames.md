@@ -9,13 +9,12 @@ Tags:
   - 'Data Types'
   - 'Objects'
   - 'Tables'
-  - 'Tables'
 CatalogContent:
   - 'learn-r'
   - 'paths/computer-science'
 ---
 
-**Data Frames** are objects that store data into a table with two dimensions. The two dimensions are represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
+**Data Frames** are objects that store data into a table with two dimensions represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
 
 ## Creating Data Frames
 
@@ -27,9 +26,9 @@ Data Frames can be created using the `data.frame()` function.
 data.frame(arguments)
 ```
 
-- `arguments` are the list of vectors with the values for each column of the data frame.
+The `arguments` are the list of vectors with the values for each column of the data frame.
 
-**Note:** Each vector should be of the same length.
+> **Note:** Each vector should be of the same length.
 
 ### Example
 
