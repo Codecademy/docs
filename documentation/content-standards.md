@@ -12,7 +12,7 @@ General (language-agnostic):
 - [IDE](https://www.codecademy.com/resources/docs/general/ide)
 - [Array](https://www.codecademy.com/resources/docs/general/array)
 
-Python (language specific):
+Python (language-specific):
 
 - [Lists](https://www.codecademy.com/resources/docs/python/lists)
 - [Conditionals](https://www.codecademy.com/resources/docs/python/conditionals)
@@ -26,41 +26,43 @@ Term entries are like sub-entries that covers a concept's functions, methods, pr
 
 The Python's [Lists](https://www.codecademy.com/resources/docs/python/lists) entry, for example, features a table of term entries including:
 
-- [.append()](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
-- [.clear()](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
-- [.copy()](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
+- [`.append()`](https://www.codecademy.com/resources/docs/python/lists/append) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/append/append.md))
+- [`.clear()`](https://www.codecademy.com/resources/docs/python/lists/clear) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/clear/clear.md))
+- [`.copy()`](https://www.codecademy.com/resources/docs/python/lists/copy) ([GitHub](https://github.com/Codecademy/docs/blob/main/content/python/concepts/lists/terms/copy/copy.md))
 
 ## Components of an Entry
 
 All Codecademy Docs entries are Markdown files and should consist of three parts:
 
-- The **file name**, with the **.md** extension.
-- The **content**, written in Markdown.
-- The **metadata** about the content, written in YAML, which appears at the top of the entry.
+- The `file name`, with the `.md` extension.
+- The metadata about the content, written in YAML, which appears at the top of the entry.
+- The content, written in Markdown, with the first use of a topic, concept, or entry in **bold**.
+  - Include examples with code snippets when necessary.
+  - Templates for these entries can be found in the [repo documentation](https://github.com/Codecademy/docs/tree/main/documentation).
 
 We'll describe the standards for each of these components separately.
 
 ### File Name
 
-All entry file names use the **.md** format along with the following standards:
+All entry file names use the `.md` format along with the following standards:
 
-- They must match the title of the entry. (e.g. "Three.js" -> **three-js.md**)
-- It must be separated by dashes, where appropriate. (e.g. "Data Types" -> **data-types.md**, "HashTable" -> **hashtable.md**)
-- The name should always be lowercase. (e.g. "Array" -> **array.md**, "HTML" -> **html.md**)
-- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g. "Moore's Law" -> **moores-law.md**, "Three.js" -> "**three-js.md**)
+- They must match the title of the entry. (e.g., "Three.js" -> `three-js.md`)
+- It must be separated by dashes, where appropriate. (e.g., "Data Types" -> `data-types.md`, "HashTable" -> `hashtable.md`)
+- The name should always be lowercase. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
+- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`)
 
 ### Content
 
 - All text should be written in Markdown
-  - For more details on Markdown, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
-- Each subsection should begin with a heading of size h2 (i.e. preceded by `##`)
-- All in-line code should be delineated by single backticks (`)
+  - For more details on our standards for Markdown content, see Codecademy's [Curriculum Markdown Style Guide](http://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/).
+- Each subsection should begin with a heading of size h2. (i.e., preceded by `##`)
+- All in-line code should be delineated by single backticks. (`)
 
 #### Code Blocks
 
 Code examples are an excellent teaching tool. Many term entries will contain a code example as a standard field. Encyclopedia entries are more flexible, but if your encyclopedia entry doesn't contain any code blocks, take a moment to ask yourself if one would help!
 
-All code blocks should be delineated by triple backticks (```)
+All code blocks should be delineated by triple backticks (```).
 
 - C: ```c
 - C#: ```cs
@@ -113,7 +115,7 @@ Currently, Codebytes supports the following languages:
 - Python: `python`
 - Ruby: `ruby`
 
-**Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
+> **Note:** Codebytes sometimes requires the code block to include some boilerplate code. To check what boilerplate is required for your language, select the language from the dropdown [in this demo page](https://www.codecademy.com/codebyte-editor). There you'll find a "Hello World!" program set up as an example!
 
 ### Metadata
 
@@ -125,15 +127,17 @@ Currently, Codebytes supports the following languages:
 | `Tags`           | Key words that are relevant to the entry. We're storing all of our Tags in the [tags.md file](https://github.com/Codecademy/docs/blob/main/documentation/tags.md). Please only use Tags from that list, but if that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!<br /> - We aim to include an average of 3-4 tags with every entry.                                                                     | Tags:<br /> - "React"<br /> - "URL"<br /> - "Strings"<br />                                         |
 | `CatalogContent` | Slugs of Codecademy course and Path landing pages that relate to the entry. We're storing all of our slugs in the [catalog-content.md file](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md).<br /> - Please avoid linking to individual content items, because their URLs may change and some are gated by Pro membership.<br /> - We aim to include 2 slugs with every entry (1 free course and 1 Pro course/Path). | CatalogContent:<br /> - "introduction-to-javascript"<br /> - "paths/front-end-engineer-career-path" |
 
+> **Note:** The template above does not apply to _topic_ entries. See our [topic entry template](https://github.com/Codecademy/docs/blob/main/documentation/topic-info-template.md) for more details.
+
 #### General Writing Tips
 
 - Avoid referencing information that isn't strictly related to the topic of the entry. As a rule, you want to assume as little pre-existing knowledge as possible.
-- Avoid using first- and second-person pronouns (e.g. I, we, you) if possible.
+- Avoid using first- and second-person pronouns (e.g. "I", "we", "you") if possible.
 - Brevity without sacrificing clarity. Make every word count and be clear and concise.
 - If the concept is hard, make it easy. If it's dry, make it fun. If it's simple, keep it simple.
 - 90% of writing is rewriting.
 - Minimize the length of your sentences, and each one should communicate a point (paragraphs should be a maximum of 4-6 lines).
-- Use white spaces, lists, and markdown tables wherever possible to improve readability and aid comprehension.
+- Use white spaces, lists, and Markdown tables wherever possible to improve readability and aid comprehension.
 - Always expand and explain an abbreviation the first time it is mentioned.
 - Be aware of your target audience and write to their level.
 - Use punctuation properly.
@@ -146,7 +150,7 @@ Currently, Codebytes supports the following languages:
 
 If you'd like to host files such as images, videos, or GIFs, please upload it to the [/media folder](https://github.com/Codecademy/docs/tree/main/media) and use the format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`. That way we'll never have any broken links!
 
-**Note**: Some images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal-use only. Please disregard those and use the `media` folder and format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`, instead.
+> **Note:** Some images may use `https://static-assets.codecademy.com/Courses/` in their links. These come from existing Codecademy course content and are for internal-use only. Please disregard those and use the `media` folder and format `https://raw.githubusercontent.com/Codecademy/docs/main/media/filename.ext`, instead.
 
 ### I've read all the content standards. Now what?
 

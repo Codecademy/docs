@@ -14,22 +14,31 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/example-path'
 ---
 
-[A brief definition of the topic]
+[A brief definition - - make sure first mention of term is in **bold**.]
 
 ## Syntax
 
 [Text, code, images, parameters, etc. about the syntax]
 
-## Example 1
+## Example
 
 [Text, code, images, etc. about example 1]
 
-## Example 2
+## Codebyte Example (if applicable)
 
-[Text, code, images, etc. about example 2]
+We can currently support:
 
-## Codebyte Example
+- Python
+- JavaScript
+- Ruby
+- C++
+- C#
+- Go
+- PHP
 
-```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
+See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+
+```codebyte/js
+# Example runnable code block.
 console.log('Hello, World!');
 ```
