@@ -20,7 +20,7 @@ When a new pull request (PR) is opened by a contributor, a CFT member will flag 
 
 - Add any relevant labels to the PR.
 - Link any existing, relevant issues.
-- Requesting/assigning other CFT members for review.
+- Request/assign other CFT members for review.
 
 A CFT member may view the PR files, make comments, and suggest changes.
 
