@@ -19,7 +19,7 @@ C++ supports many **data types** that represent the size and kind of values bein
 
 ## Memory Size
 
-As noted above, the data type of a variable also specifies the size of the information that it can hold:
+The size of a given data type is measured in bytes:
 
 | Data Type     | Memory Size |
 | ------------- | ----------- |
