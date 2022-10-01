@@ -68,7 +68,8 @@ char punctuation = '?';
 
 ## string
 
-[std::string](https://www.codecademy.com/resources/docs/cpp/strings) is a type for storing text strings. Strings are wrapped in double quotes: `"Hello World!"`.
+[Strings](https://www.codecademy.com/resources/docs/cpp/strings) are character sequences wrapped in double quotes (e.g., `"Hello World!"`).
+The `std::string` type is used for storing text strings. 
 
 ```cpp
 std::string message = "good nite";
