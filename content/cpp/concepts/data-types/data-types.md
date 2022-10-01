@@ -50,7 +50,7 @@ double pi = 3.14159;
 
 ## Booleans
 
-`bool` is a type for storing true or false boolean values. Booleans typically require 1 byte of memory space.
+The `bool` type stores boolean values of `true` or `false`. These values usually require 1 byte of memory space.
 
 ```cpp
 bool organ_donor = true;
