@@ -131,4 +131,7 @@ std::cout << weight2 << std::endl;
 std::string s = static_cast<std::string>(weight2);
 ```
 
-This throws the following error:
+This throws the following error upon compilation:
+```shell
+no known conversion for argument 1 from ‘int’ to ‘std::__cxx11::basic_string<char>&&’
+```
