@@ -57,7 +57,7 @@ bool organ_donor = true;
 bool late_to_work = false;
 ```
 
-## char
+## Characters
 
 The `char` type stores individual characters, wrapped in single quotes `'`. Characters usually require 1 byte of memory space and range from -128 to 127.
 
