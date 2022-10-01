@@ -59,7 +59,7 @@ bool late_to_work = false;
 
 ## char
 
-`char` is a type for storing individual characters. Characters are wrapped in single quotes '. Characters typically require 1 byte of memory space and range from -128 to 127.
+The `char` type stores individual characters, wrapped in single quotes `'`. Characters usually require 1 byte of memory space and range from -128 to 127.
 
 ```cpp
 char grade = 'A';
