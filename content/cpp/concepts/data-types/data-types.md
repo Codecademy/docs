@@ -123,7 +123,7 @@ Alternatively, there is a safer version of casting in C++ called `static_cast` t
 double weight1 = 122.03;
 int weight2 = static_cast<int>(weight1);
 std::cout << weight2 << std::endl;
-// 122
+// Output: 122
 ```
 
 > **Note:** Not all types can be converted:
