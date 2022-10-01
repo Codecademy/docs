@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, **data types** are units of value stored in memory through [variables](https://www.codecademy.com/resources/docs/c/variables). There are different kinds of data types that determine their size and functionality.
+In C, **data types** are units of value stored in memory through [variables](https://www.codecademy.com/resources/docs/c/variables). Different kinds of data types determine their size and functionality.
 
 ## Static Typing
 
@@ -25,15 +25,28 @@ Data type classifications supported in C include the following:
 - User-defined data types
 - Derived data types
 
-Types algo differ in the amount of memory they occupy and the range of values they can hold. This will depend on the compiler of the computer. An integer, for example, might take up 32 bits on one computer, or perhaps it might be stored in 64 bits on another.
+Types also differ in the amount of memory they occupy and the range of values they can hold. This will depend on the compiler of the computer. An integer, for example, might take up 32 bits on one computer, or perhaps it might be stored in 64 bits on another.
 
 ## Primitive types
 
 These data types are mostly numeric (integers, doubles, floating-point numbers, etc.) and can be used for arithmetic operations like subtraction and division. Values that use the `void` keyword (for no data) are also considered to be primitive data types.
 
+## Derived data types
+
+These data types derive from primitive or fundamental data types. In C, these can be of three types:
+
+- [Arrays](https://www.codecademy.com/resources/docs/c/arrays)
+- [Functions](https://www.codecademy.com/resources/docs/c/functions)
+- Pointers
+
 ## User-defined types
 
-## Derived data types
+These are a collection of data with values that have fixed meanings that extend the primitive types already available. Users define them based on requirements. C consists of the following user-defined types:
+
+- Enum
+- [Structures](https://www.codecademy.com/resources/docs/c/structures)
+- Typedef
+- Union
 
 ## Memory Size
 
@@ -46,10 +59,9 @@ These data types are mostly numeric (integers, doubles, floating-point numbers, 
 
 ### Int
 
-Ints contains only integral values. A minus sign preceding the data type indicates that the value is negative.
-They can be expressed in hexadecimal notation (base 16).\*
+Ints contain only integral values. A minus sign preceding the data type indicates that the value is negative. They can be expressed in hexadecimal notation (base 16).
 
-\* Hexadecimal integer literals begin always with the 0 followed by either an `x` or `X`, followed by different combinations of digits going from `0` through `9`, and the letters `a` through `f` or `A` through `F`.
+> **Note:** Hexadecimal integer literals begin always with the `0` followed by either an `x` or `X`, followed by different combinations of digits (`0` - `9`) and letters (`a` - `f` or `A` - `F`).
 
 ```c
 int = 0;
@@ -62,16 +74,16 @@ Spaces aren't allowed between digits and the values larger than 999 don't use co
 
 ```c
 int hundreds = 12,000; // This is wrong
-int hundreds2 = 12000 // Correct!
+int hundreds2 = 12000 // This is correct
 ```
 
 ### Float and Double
 
-Floats are used to store floating-point numbers, values that contain decimal places. They can be expressed in scientific notation\* and have 6 decimal digits of precision.
+Floating-point values are non-whole numbers that contain decimal places. They can have up to 6 decimal digits of precision and can be expressd in scientific notation.
 
-\*Scientific notation is a form of expressing numbers that are too large or too small to be conveniently written in decimal form. E.g. `6.022E23`
+> **Note:** Scientific notation is a form of expressing numbers that are too large or too small to be conveniently written in decimal form (e.g., `6.022E23`).
 
-Doubles are like floats but more precise with up to 15 decimal digits. The following is an example of `float` and `double` type values.
+Doubles are like floats but more precise with up to 15 decimal digits. The following is an example of `float` and `double` type values:
 
 ```c
 float salary = 523.45;
@@ -81,7 +93,7 @@ float counterFactor = 15.87E4;
 
 ### Char
 
-Chars use single quotations marks `'` to present single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, a sequence of chars are called [strings](https://www.codecademy.com/resources/docs/c/strings).
+Chars use single quotations marks `'` to present single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, a sequence of chars is called [strings](https://www.codecademy.com/resources/docs/c/strings).
 
 ```c
 char a = 'a';
