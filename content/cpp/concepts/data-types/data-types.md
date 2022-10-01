@@ -39,7 +39,7 @@ int year = 1991;
 int age = 28;
 ```
 
-## double
+## Doubles
 
 The `double` type stores floating point (decimal) numbers. These variables usually require 8 bytes of memory space.
 
