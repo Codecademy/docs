@@ -72,6 +72,7 @@ std::cout << order.at(100);
 ```
 
 The code above will print the following error:
+
 ```shell
 terminate called after throwing an instance of 'std::out_of_range'
 what():  vector::_M_range_check: __n (which is 100) >= this->size() (which is 3)
