@@ -41,7 +41,7 @@ int age = 28;
 
 ## double
 
-`double` is a type for storing floating point (decimal) numbers. Double variables typically require 8 bytes of memory space.
+The `double` type stores floating point (decimal) numbers. These variables usually require 8 bytes of memory space.
 
 ```cpp
 double price = 8.99;
