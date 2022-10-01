@@ -95,7 +95,6 @@ const double quarter = 0.25;
 // and now variable quarter can only be 0.25
 ```
 
-Simply add the keyword `const` before the data type to make the variable immutable.
 
 
 ## Type Conversion
