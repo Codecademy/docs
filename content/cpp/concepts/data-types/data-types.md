@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'C++ supports many **data types** that represent the size and kind of values being stored in memory. You can write perfectly good programs using only five of those.'
+Description: 'C++ supports many data type that represent the size and kind of values being stored in memory.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
