@@ -56,8 +56,9 @@ std::cout << order[0];
 std::cout << order[2];
 ```
 
-A safer way of accessing elements in a vector can be achieved by using the `.at()` function.
-This function performs bounds checking on the vector and will throw an error if you are trying to access an element that is out of bounds.
+### `.at()`
+
+The `.at()` function provides a safer way of accessing elements in a vector. This function performs bounds checking on the vector and will throw an error if there is an attempt to access an element that is out of bounds.
 
 ```cpp
 // First element
