@@ -115,7 +115,7 @@ int weight3 = weight1;
 // weight3 is also 154 due to implicit conversion by the compiler
 ```
 
-**Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+> **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
 
 Alternatively, there is a safer version of casting in C++ called `static_cast` that can be used. Performed at compile time, `static_cast` offers better debugging and safer code:
 
