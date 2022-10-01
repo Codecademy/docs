@@ -126,7 +126,7 @@ std::cout << weight2 << std::endl;
 // 122
 ```
 
-**Note:** Not all types can be converted:
+> **Note:** Not all types can be converted:
 ```cpp
 std::string s = static_cast<std::string>(weight2);
 ```
