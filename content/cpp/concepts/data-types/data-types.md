@@ -66,7 +66,7 @@ char grade = 'A';
 char punctuation = '?';
 ```
 
-## string
+## Strings
 
 [Strings](https://www.codecademy.com/resources/docs/cpp/strings) are character sequences wrapped in double quotes (e.g., `"Hello World!"`).
 The `std::string` type is used for storing text strings. 
