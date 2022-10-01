@@ -48,7 +48,7 @@ double price = 8.99;
 double pi = 3.14159;
 ```
 
-## bool
+## Booleans
 
 `bool` is a type for storing true or false boolean values. Booleans typically require 1 byte of memory space.
 
