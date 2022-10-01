@@ -75,6 +75,8 @@ std::cout << order.at(100);
 // Aborted (core dumped)
 ```
 
+The code above will print the following error:
+
 ## Adding Elements
 
 There are two different ways to insert elements into the vector.
