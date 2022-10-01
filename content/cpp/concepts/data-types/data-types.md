@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those: int is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2³¹ to 2³¹. cpp int year = 1991; int age = 28;  double is a type for storing floating point (decimal) numbers. Double variables typically require 8 bytes of memory space.'
+Description: 'C++ supports many **data types** that represent the size and kind of values being stored in memory. You can write perfectly good programs using only five of those.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -17,16 +17,29 @@ CatalogContent:
 
 C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those:
 
-## Int
+## Memory Size
 
-`int` is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2³¹ to 2³¹.
+As noted above, the data type of a variable also specifies the size of the information that it can hold:
+
+| Data Type     | Memory Size |
+| ------------- | ----------- |
+| `bool`        | 1 byte      |
+| `char`        | 1 byte      |
+| `int`         | 4 bytes     |
+| `float`       | 4 bytes     |
+| `double`      | 8 bytes     |
+| `std::string` | 24 bytes    |
+
+## int
+
+`int` is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2<sup>31</sup> to 2<sup>31</sup>.
 
 ```cpp
 int year = 1991;
 int age = 28;
 ```
 
-## Double
+## double
 
 `double` is a type for storing floating point (decimal) numbers. Double variables typically require 8 bytes of memory space.
 
@@ -35,7 +48,7 @@ double price = 8.99;
 double pi = 3.14159;
 ```
 
-## Bool
+## bool
 
 `bool` is a type for storing true or false boolean values. Booleans typically require 1 byte of memory space.
 
@@ -44,7 +57,7 @@ bool organ_donor = true;
 bool late_to_work = false;
 ```
 
-## Char
+## char
 
 `char` is a type for storing individual characters. Characters are wrapped in single quotes '. Characters typically require 1 byte of memory space and range from -128 to 127.
 
@@ -53,9 +66,9 @@ char grade = 'A';
 char punctuation = '?';
 ```
 
-## String
+## string
 
-`std::string` is a type for storing text strings. Strings are wrapped in double quotes `"`.
+[std::string](https://www.codecademy.com/resources/docs/cpp/strings) is a type for storing text strings. Strings are wrapped in double quotes: `"Hello World!"`.
 
 ```cpp
 std::string message = "good nite";
@@ -71,9 +84,9 @@ As the name implies, datatype modifiers are used with built-in data types to mod
 - `short`
 - `long`
 
-## Const
+## const
 
-`const` (constant) variables cannot be changed by your program during execution.
+`const` (constant) variables cannot be changed by the program during execution.
 
 ```cpp
 const double quarter = 0.25;
@@ -81,7 +94,8 @@ const double quarter = 0.25;
 // and now variable quarter can only be 0.25
 ```
 
-Simply add the keyword `const` before the data type during declaration to make the variable not modifiable.
+Simply add the keyword `const` before the data type to make the variable immutable.
+
 
 ## Type Conversion
 
@@ -92,45 +106,29 @@ The notation `(type) value` means “convert value to type“. So for example:
 ```cpp
 double weight1;
 int weight2;
-int weight3;
 
 weight1 = 154.49;
+// assigned a double value
 weight2 = (int) weight1;
-weight3 = weight1; // Implicit conversion
-
-// weight2 is now 154
-// weight3 is also 154 due to the compiler perfoming an implicit conversion
+// weight2 is now 154 due to explicit type conversion
+int weight3 = weight1;
+// weight3 is also 154 due to implicit conversion by the compiler
 ```
 
-> **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
+**Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
 
-Alternatively, you can use a safer version of casting in C++ called `static_cast`.
-`static_cast` is performed at compile time, offering better debugging and safer code.
- 
+Alternatively, there is a safer version of casting in C++ called `static_cast` that can be used. Performed at compile time, `static_cast` offers better debugging and safer code:
+
 ```cpp
-double weight1 = 122.59;
+double weight1 = 122.03;
 int weight2 = static_cast<int>(weight1);
 std::cout << weight2 << std::endl;
 // 122
 ```
 
-The following example shows how `static_cast` can catch a type conversion error at compile time:
-
+**Note:** Not all types can be converted:
 ```cpp
-double weight1 = 122.59;
-std::string weight2 = static_cast<string>(weight1);
-// throws an error at compile time, noting that the compiler has no way to convert a double to a string.
+std::string s = static_cast<std::string>(weight2);
 ```
 
-## Memory Size
-
-As noted above, the data type of a variable also specifies the size of the information that it can hold:
-
-| Data Type     | Memory Size |
-| ------------- | ----------- |
-| `bool`        | 1 byte      |
-| `char`        | 1 byte      |
-| `int`         | 4 bytes     |
-| `float`       | 4 bytes     |
-| `double`      | 8 bytes     |
-| `std::string` | 24 bytes    |
+> note: no known conversion for argument 1 from ‘int’ to ‘std::__cxx11::basic_string<char>&&’
