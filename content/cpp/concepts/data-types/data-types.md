@@ -32,7 +32,7 @@ The size of a given data type is measured in bytes:
 
 ## Integers
 
-`int` is a type for storing integer (whole) numbers. An integer typically requires 4 bytes of memory space and ranges from -2<sup>31</sup> to 2<sup>31</sup>.
+`int` is a type for storing integer (whole) numbers. An integer usually requires 4 bytes of memory space and ranges from -2<sup>31</sup> to 2<sup>31</sup>.
 
 ```cpp
 int year = 1991;
