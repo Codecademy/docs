@@ -95,13 +95,11 @@ const double quarter = 0.25;
 // and now variable quarter can only be 0.25
 ```
 
-
-
 ## Type Conversion
 
 A type cast is basically a conversion from one type to another.
 
-The notation `(type) value` means “convert value to type“. So for example:
+The notation `(type) value` means “convert value to type." For example:
 
 ```cpp
 double weight1;
@@ -127,11 +125,13 @@ std::cout << weight2 << std::endl;
 ```
 
 > **Note:** Not all types can be converted:
+
 ```cpp
 std::string s = static_cast<std::string>(weight2);
 ```
 
 This throws the following error upon compilation:
+
 ```shell
 no known conversion for argument 1 from ‘int’ to ‘std::__cxx11::basic_string<char>&&’
 ```
