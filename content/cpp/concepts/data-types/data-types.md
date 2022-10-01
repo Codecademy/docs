@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ provides a rather large number of types. However, you can write perfectly good programs using only five of those:
+C++ supports many **data types** that represent the size and kind of values being stored in memory.
 
 ## Memory Size
 
