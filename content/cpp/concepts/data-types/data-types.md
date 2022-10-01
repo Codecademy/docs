@@ -87,7 +87,7 @@ As the name implies, datatype modifiers are used with built-in data types to mod
 
 ## const
 
-`const` (constant) variables cannot be changed by the program during execution.
+Constant variables cannot be changed by the program during execution. The `const` keyword can be added before the data type to make the variable immutable:
 
 ```cpp
 const double quarter = 0.25;
