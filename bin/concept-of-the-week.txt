@@ -1,1 +1,1 @@
-content/general/concepts/prototype-pattern/prototype-pattern.md
+content/html/concepts/comments/comments.md
