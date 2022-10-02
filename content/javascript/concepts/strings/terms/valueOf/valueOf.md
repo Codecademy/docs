@@ -30,17 +30,24 @@ All primitive string values are wrapped in a `String` object (`new String(value)
 
 ```js
 const name = new String('Bill');
-console.log(name); // [String: 'Bill']
-console.log(name.valueOf()); // 'Bill'
+console.log(name);
+console.log(name.valueOf());
+```
+
+This will print the following:
+
+```shell
+[String: 'Bill']
+Bill
 ```
 
 ## Codebyte Example
 
 `valueOf()` can also be called on variables that contain strings and string literals, although in these cases, its use is redundant.
 
-```codebyte/js
+```codebyte/javascript
 const animal = 'cat';
-console.log(animal === animal.valueOf()); // true
+console.log(animal === animal.valueOf());
 
-console.log('apple'.valueOf() === 'apple'); // true
+console.log('apple'.valueOf() === 'apple');
 ```
