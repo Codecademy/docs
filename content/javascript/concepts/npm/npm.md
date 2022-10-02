@@ -56,22 +56,22 @@ npm -l
 
 ## Global Packages
 
-NPM also features the ability to install packages globally. This allows you to use packages as command line tools anywhere on your computer.
+npm also features the ability to install packages globally, so packages can be used as command line tools anywhere on your computer.
 
-To install a package globally, use the `-g` flag:
+The `-g` flag installs a package globally:
 
-```bash
+```shell
 npm install -g <package-name-here>
 ```
 
 Additionally, the `npx` allows you to execute packages anywhere while also handling installation. Usage:
 
-```bash
+```pseudo
 npx [options] <command>[@version] [command-arg]
 ```
 
 For example, to execute the package `codecademy` with the arguments `"Hello world!"`, this would be the command:
 
-```bash
+```shell
 npx codecademy "Hello world!"
 ```
