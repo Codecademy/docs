@@ -43,7 +43,7 @@ Bill
 
 ## Codebyte Example
 
-`valueOf()` can also be called on variables that contain strings and string literals, although in these cases, its use is redundant.
+A less common use case for the `.valueOf()` method is calling on variables with string literals or on the string literal directly:
 
 ```codebyte/javascript
 const animal = 'cat';
