@@ -22,9 +22,11 @@ The **`.valueOf()`** method returns the primitive value of a `String` object, si
 stringObject.valueOf();
 ```
 
+The `.valueOf` method takes no parameters.
+
 ## Example
 
-Using the `new` constructor with `String()` creates a String '_wrapper_' object. The `valueOf()` method returns the primitive value of such a String object.
+All primitive string values are wrapped in a `String` object (`new String(value)`). In the following example, this primitive value is returned by the `.valueOf()` method:
 
 ```js
 const name = new String('Bill');
