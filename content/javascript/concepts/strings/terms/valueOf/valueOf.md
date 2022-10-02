@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Returns the primitive value of a String object, similar to the `toString()` method of JavaScript Strings. Typically the String `valueOf()` method (not to be confused with the Object `valueOf()` method) is not used explicitly in code, but rather behind the scenes within JavaScript.
+The **`.valueOf()`** method returns the primitive value of a `String` object, similar to the `toString()` method of JavaScript Strings. Usually this method isn't used in code but is called internally by JavaScript.
+
+> **Note:** This method is for `String` objects and not to be confused with the `.valueOf()` method of the `Object` class.
 
 ## Syntax
 
