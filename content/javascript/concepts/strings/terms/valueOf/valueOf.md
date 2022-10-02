@@ -5,8 +5,10 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Strings'
+  - 'Functions'
   - 'Methods'
+  - 'Objects'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
