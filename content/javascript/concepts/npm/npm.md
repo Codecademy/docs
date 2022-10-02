@@ -1,6 +1,6 @@
 ---
 Title: 'NPM'
-Description: 'Node Package Manager (npm) is a large collection of JavaScript packages to enhance your projects and add complex functionality with ease.'
+Description: 'Node Package Manager (npm) is a large collection of JavaScript packages to enhance projects and add complex functionality with ease.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -56,7 +56,7 @@ npm -l
 
 ## Global Packages
 
-npm also features the ability to install packages globally, so packages can be used as command line tools anywhere on your computer.
+npm also features the ability to install packages globally, so packages can be used as command line tools anywhere.
 
 The `-g` flag installs a package globally:
 
@@ -64,7 +64,7 @@ The `-g` flag installs a package globally:
 npm install -g <package-name-here>
 ```
 
-Additionally, the `npx` allows you to execute packages anywhere while also handling installation. Usage:
+Additionally, the `npx` executes packages anywhere while also handling installation. Usage:
 
 ```pseudo
 npx [options] <command>[@version] [command-arg]
