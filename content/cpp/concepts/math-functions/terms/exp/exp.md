@@ -12,40 +12,45 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **exp()** function returns the base-_e_ exponential function of the argument. This is _e_ raised to the power of the argument. This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
+The **exp()** function returns the base-_e_ exponential value of the argument (i.e., _e_ raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
 
 ## Syntax
 
 ```cpp
- exp(x)
+exp(x)
 ```
 
-The `x` parameter can be any value, positive, negative or zero.
+The `x` parameter is a `double` value that can be positive, negative, or zero.
 
 ## Example
 
-The following example uses the `exp()` function to find the exponential function of `3`:
+The following example uses the `exp()` function to find the value of e<sup>3</sup>:
 
 ```cpp
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 int main() {
   double x = 3;
   double result;
   result = exp(x);
   std::cout << "The exp of " << x << " is " << result << "\n";
-  // Output: The exp of 3 is 20.0855
 }
+```
+
+This produces the following output:
+
+```shell
+The exp of 3 is 20.0855
 ```
 
 ## Codebyte Example
 
-The following example is runnable and returns the exponential function of `1`:
+The following example is runnable and returns the value of e<sup>1</sup>:
 
 ```codebyte/cpp
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 int main() {
   double x = 1;
