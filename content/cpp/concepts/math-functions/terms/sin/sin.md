@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the sine of an angle (argument) given in radians in the range[-1,1].
+Returns the sine of an angle (argument) given in radians in the range [-1,1].
 
 ## Syntax
 
