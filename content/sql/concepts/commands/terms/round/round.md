@@ -6,7 +6,6 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Data Types'
-  - 'Documentation'
   - 'Integers'
   - 'Numbers'
 CatalogContent:
@@ -22,7 +21,7 @@ The **`ROUND`** command rounds a value to the nearest integer or to a specific n
 ROUND(value, decimal_places)
 ```
 
-## Examples
+## Example
 
 The example below assumes there is a `grades` table with a column `test_scores` with values for all the exams administered in a semester:
 
