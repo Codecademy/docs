@@ -19,6 +19,8 @@ Returns the sine of an angle (argument) given in radians in the range [-1,1].
 std::sin(n)
 ```
 
+The argument `n` is an angle given in radians.
+
 ## Example 
 
 The following example illustrates the `sin()` function:
