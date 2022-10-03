@@ -28,7 +28,7 @@ Anthropologist [Margaret Mead](https://en.wikipedia.org/wiki/Margaret_Mead) once
 
 In ethnographic research, the researcher may navigate the group being studied as a participant, observer, or somewhere in between. In some longitudinal ethnographic studies, researchers who begin as observers may become more involved in the communities they are studying as a participant over time.
 
-Researchers should also consider the ethics of whether to disclose their identity as a researcher to the study group (overt) vs. whether to conceal their identity (convert), and how knowledge of the researcher's presence might influence the behavior of those being studied (the [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect)).
+Researchers should also consider the ethics of whether to disclose their identity as a researcher to the study group (overt) vs. whether to conceal their identity (covert), and how knowledge of the researcher's presence might influence the behavior of those being studied (the [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect)).
 
 ## Resources
 
