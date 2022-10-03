@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `.append()` method will add an element to the end of an array. It allows for single and multiple element additions.
+The **`.append()`** method will add an element to the end of an array. It allows for single and multiple element additions.
 
 ## Syntax
 
