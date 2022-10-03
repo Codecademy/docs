@@ -1,55 +1,56 @@
 ---
 Title: 'exp()'
-Description: 'Returns e raised to the power of the argument.'
+Description: 'Returns the base-e exponential function of the argument.'
 Subjects:
   - 'Computer Science'
 Tags:
   - 'Functions'
   - 'Arithmetic'
+  - 'Methods'
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
 
-`exp()` returns the base-_e_ exponential function of the argument, which is _e_ raised to the power of the argument.
-
-The number _e_, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 and the base of the natural logarithm.
-
-The `cmath` library must be added to the top of the file with `#include <cmath>`.
+The **exp()** function returns the base-_e_ exponential function of the argument. This is _e_ raised to the power of the argument. This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
 
 ## Syntax
 
-Returns *e*ⁿ:
-
 ```cpp
-std::exp(n)
+ exp(x)
 ```
+
+The `x` parameter can be any value, positive, negative or zero.
 
 ## Example
 
-Use `exp()` to return the value of *e*³):
+The following example uses the `exp()` function to find the exponential function of `3`:
 
 ```cpp
-double result;
+#include <iostream>
+#include <math.h>
 
-result = std::exp(3);
+int main() {
+  double x = 3;
+  double result;
+  result = exp(x);
+  std::cout << "The exp of " << x << " is " << result << "\n";
+  // Output: The exp of 3 is 20.0855
+}
 ```
 
 ## Codebyte Example
 
-Use `exp()` to return the value of _e_ (*e*¹):
+The following example is runnable and returns the exponential function of `1`:
 
 ```codebyte/cpp
 #include <iostream>
-#include <cmath>
+#include <math.h>
 
 int main() {
   double x = 1;
   double result;
-
-  result = std::exp(x);
-
-  std::cout << "e^" << x << " = " << result << "\n";
-  // Output: e^1 = 2.71828
+  result = exp(x);
+  std::cout << "The exp of " << x << " is " << result << "\n";
 }
 ```
