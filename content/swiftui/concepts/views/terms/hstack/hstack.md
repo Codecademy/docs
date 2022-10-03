@@ -5,8 +5,10 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
+  - 'Stacks'
   - 'SwiftUI'
   - 'SwiftUI Views'
+  - 'Views'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -16,8 +18,6 @@ The **`HStack`** view is a layout container where elements, or subviews, are arr
 
 ## Syntax
 
-This view rests within the body of some `View`.
-
 ```pseudo
 var body: some View {
   HStack {
@@ -25,6 +25,8 @@ var body: some View {
   }
 }
 ```
+
+The `HStack` view rests within the body of a `View`.
 
 ## Example
 
@@ -37,6 +39,8 @@ var body: some View {
 }
 ```
 
-This will display:
+In the example above, two `Text` subviews are nested in the `HStack`.
+
+This will display the following:
 
 ![HStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/hstack.png)

@@ -16,7 +16,7 @@ In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Views** make 
 
 `View` is a `protocol` that other views must conform to. Syntactically, this means that when creating new custom views, the `View` `protocol` must be inherited like so:
 
-```pseuso
+```pseudo
 struct MyView: View {
   Body of MyView
 }

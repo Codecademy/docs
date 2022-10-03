@@ -6,8 +6,10 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
+  - 'Stacks'
   - 'SwiftUI'
   - 'SwiftUI Views'
+  - 'Views'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -17,8 +19,6 @@ The **`VStack`** view is a layout container where elements, or subviews, are arr
 
 ## Syntax
 
-This view rests within the body of some `View`.
-
 ```pseudo
 var body: some View {
   VStack {
@@ -26,6 +26,8 @@ var body: some View {
   }
 }
 ```
+
+The `VStack` view rests within the body of a `View`.
 
 ## Example
 
@@ -38,6 +40,8 @@ var body: some View {
 }
 ```
 
-This will display:
+In the example above, two `Text` subviews are nested in the `VStack`.
+
+This will display the following:
 
 ![VStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/vstack.png)

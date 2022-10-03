@@ -5,8 +5,10 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
+  - 'Stacks'
   - 'SwiftUI'
   - 'SwiftUI Views'
+  - 'Views'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -16,8 +18,6 @@ The **`ZStack`** view is a layout container where elements, or subviews, are arr
 
 ## Syntax
 
-This view rests within the body of some `View`.
-
 ```pseudo
 var body: some View {
   ZStack {
@@ -25,6 +25,8 @@ var body: some View {
   }
 }
 ```
+
+The `ZStack` view rests within the body of `View`.
 
 ## Example
 
@@ -42,6 +44,8 @@ var body: some View {
 }
 ```
 
-In the snippet above, two `Rectangle` subviews are stacked on top of one-another. Order matters here; the bottom-most subview will appear on top. For visual clarity, the top-most rectangle view's x- and y-coordinates were offset by `25`. This will display:
+In the snippet above, two `Rectangle` subviews are stacked on top of one-another. Order matters here; the bottom-most subview will appear on top. For visual clarity, the top-most rectangle view's x- and y-coordinates were offset by `25`.
+
+This will display the following:
 
 ![ZStack](https://raw.githubusercontent.com/Codecademy/docs/main/media/zstack.png)
