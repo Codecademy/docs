@@ -18,7 +18,7 @@ CatalogContent:
 
 Arrays can be created in several ways, each with a specific use case.
 
-An empty array can be declared and initalized with the following syntax:
+An empty array can be declared and initialized with the following syntax:
 
 ```pseudo
 var arrayName = [Type]()
@@ -104,7 +104,7 @@ print("To make life interesting, next week I'll fly to \(statesVisited.randomEle
 
 ### Methods
 
-There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g. `map()`, `reduce()`, and `sort()`).
+There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
 
 Below are some methods available for arrays:
 

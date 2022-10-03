@@ -35,7 +35,7 @@ In the example above, `dailyTemperature` is declared as a variable because it's 
 ```swift
 let 🌕 = "Full Moon"
 let 🌑 = "New Moon"
-let 🌙 = "Cresent Moon"
+let 🌙 = "Crescent Moon"
 ```
 
 ## Accessing and Reassigning Variables and Constants
