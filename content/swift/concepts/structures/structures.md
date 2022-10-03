@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Structures**, or **`structs`**, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then the body, which contains its properties and methods.
+**Structures**, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then the body, which contains its properties and methods.
 
 ```swift
 struct Building {

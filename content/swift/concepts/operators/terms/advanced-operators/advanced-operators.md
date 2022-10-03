@@ -11,11 +11,19 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Advanced operators** in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the concepts covered in the basic operators wiki and include compound assignments, bitwise, and custom operators, to name a few.
+**Advanced operators** in Swift provide the programmer with increased functionality and complex value manipulation. They build upon the [basic operators](https://www.codecademy.com/resources/docs/swift/operators/basic-operators) and include compound assignments, bitwise, and custom operators.
 
 ## Compound Assignment Operator
 
-Compound assignment operators combine the assignment operator `=` with another separate operation, for example, `+`. The following operations are allowed `+`, `-`, `/`, `*`, `%`,
+Compound assignment operators combine the assignment operator `=` with another separate operation. The following operations are allowed:
+
+- Addition, `+`
+- Subtraction, `-`
+- Division, `/`
+- Multiplication, `*`
+- Modulo, `%`
+
+For example:
 
 ```swift
 var a = 1
@@ -78,7 +86,7 @@ let result = firstBinary | secondBinary // 01111101
 
 ### XOR Operator
 
-Bitwise XOR `^` operator, also known as 'exclusive OR', compares two binary numbers. It will return a new number with each bit set to `1` if the bits of the original numbers are different, or exclusive. `0`'s will be placed anywhere that the two bits are equivalent.
+Bitwise XOR `^` operator, also known as 'exclusive OR', compares two binary numbers. It will return a new number with each bit set to `1` if the bits of the original numbers are different, or exclusive. `0`s will be placed anywhere that the two bits are equivalent.
 
 ```swift
         0 0 1 1 0 1 0 1
@@ -148,7 +156,7 @@ if tim == amy {
 
 The `==` operator is used to logically compare `studentId` properties of two students.
 
-Swift also allows us to override most of the common operators. For a complete list, visit the [Swift Reference Manual](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418).
+Swift also allows us to override most of the common operators. A complete list of them can be found in the [Swift Reference Manual](https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID418).
 
 In the examples below, when "adding" or "subtracting" from a student, the goal is to manipulate the `gpa` property.
 

@@ -91,7 +91,7 @@ let zeroToThree = 0...3
 
 ### Using Underscore
 
-Use `_` instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
+An underscore `_` is used instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
 
 ```swift
 for _ in 1...3 {
