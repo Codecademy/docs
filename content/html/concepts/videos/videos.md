@@ -68,7 +68,7 @@ It is generally discouraged to use videos as the background for a webpage. In ma
 - If the video is purely decorative, use `aria-hidden="true"` to denote to screen readers that the video provides no additional context or content and is purely decorative
 - Use the `prefers-reduced-motion` CSS media query in order to disable autoplaying videos for certain users
 
-To convey the same content to users who are not able to view videos, provide either sufficient captions or aria descriptons for the video.
+To convey the same content to users who are not able to view videos, provide either sufficient captions or aria descriptions for the video.
 
 Captions can be added as a child of the `<video>` element using the `<track>` tag with the following key attributes:
 

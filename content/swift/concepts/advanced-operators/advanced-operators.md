@@ -76,7 +76,7 @@ let result = firstBinary | secondBinary // 01111101
 
 ## Bitwise XOR Operator
 
-Bitwise XOR `^` operator, also known as 'exclusive OR', compares two binary numbers. It will return a new number with each bit set to `1` if the bits of the orignal numbers are different, or exclusive. `0`'s will be placed anywhere that the two bits are equivalent.
+Bitwise XOR `^` operator, also known as 'exclusive OR', compares two binary numbers. It will return a new number with each bit set to `1` if the bits of the original numbers are different, or exclusive. `0`'s will be placed anywhere that the two bits are equivalent.
 
 ```swift
         0 0 1 1 0 1 0 1

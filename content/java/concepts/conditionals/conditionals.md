@@ -69,7 +69,7 @@ if (testScore >= 90) {
 }
 
 System.out.println("Grade is " + grade);
-// Ouptut: Grade is C
+// Output: Grade is C
 ```
 
 ## Nested Conditional Statements

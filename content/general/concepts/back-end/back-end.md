@@ -68,5 +68,5 @@ Frameworks intend to make all aspects of web development more smooth and seamles
 - Sinatra, a lightweight Ruby framework for building web apps.
 - Ruby on Rails, a more robust Ruby framework that follows the model-view-controller standard.
 - Django, a Python framework that offers dynamic HTML pages.
-- Flask, a ligher Python framework meant for rapid development.
+- Flask, a lighter Python framework meant for rapid development.
 - Express, a framework for building back-end APIs with JavaScript.

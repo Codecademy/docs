@@ -26,7 +26,7 @@ Here are some rules for creating constructors:
 
 - Constructors always have same name as their class name.
 - Constructors cannot be declared as `abstract`, `static`, `final`, and `synchronized`.
-- Construtors do not have any explicit return types.
+- Constructors do not have any explicit return types.
 
 ### Creating a Default Constructor
 

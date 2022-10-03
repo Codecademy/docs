@@ -96,7 +96,7 @@ console.log(obj.someFunc());
 ```
 
 However, if you execute the function outside the object it will behave as function invocation above.
-In the example below, `this` refrences the global object, without a `someValue` property.
+In the example below, `this` references the global object, without a `someValue` property.
 
 ```javascript
 const obj = {

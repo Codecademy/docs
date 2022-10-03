@@ -32,7 +32,7 @@ print("Hello, World!")
 # Output: Hello, World!
 ```
 
-Multiple objects can also be printed within one `print()` when passed as a comma-separated list of paramters. By default, each object is separated by one space in the printed result:
+Multiple objects can also be printed within one `print()` when passed as a comma-separated list of parameters. By default, each object is separated by one space in the printed result:
 
 ```py
 print("Hello,", "World!")

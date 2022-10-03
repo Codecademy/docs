@@ -60,7 +60,7 @@ There is an assignment operator for each arithmetic operator above.
 | `*=`     | Multiplication Assignment | `$a *= 3` is short for `$a = $a * 3`   |
 | `/=`     | Division Assignment       | `$a /= 3` is short for `$a = $a / 3`   |
 | `%=`     | Modulo Assignment         | `$a %= 3` is short for `$a = $a % 3`   |
-| `**=`    | Exponentation Assignment  | `$a **= 3` is short for `$a = $a ** 3` |
+| `**=`    | Exponentiation Assignment  | `$a **= 3` is short for `$a = $a ** 3` |
 
 ```php
 <?php
@@ -155,7 +155,7 @@ The bitwise operators manipulate individual bits in an integer.
 | `>`      | Greater Than             | `$x > $y` is `true` if `$x` is greater than `$y`.                                                                                           |
 | `<=`     | Less Than or Equal to    | `$x <= $y` is `true` if `$x` is less than or equal to `$y`.                                                                                 |
 | `>=`     | Greater Than or Equal to | `$x >= $y` is `true` if `$x` is greater than or equal to `$y`.                                                                              |
-| `<=>`    | Spaceship                | `$x <=> $y` returns an integer greater than, less than or equal to zero when `$x` is greater than, less than, or equal to `$y` respectivly. |
+| `<=>`    | Spaceship                | `$x <=> $y` returns an integer greater than, less than or equal to zero when `$x` is greater than, less than, or equal to `$y` respectively. |
 
 ```php
 <?php

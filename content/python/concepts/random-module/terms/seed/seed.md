@@ -26,7 +26,7 @@ random.seed(value)
 random.seed()
 ```
 
-The `value` can be an `int`, `float`, `str`, `byte`, `bytearray`, or `NoneType`. If one is not provied, the random number generator will use the current system time to create the seed.
+The `value` can be an `int`, `float`, `str`, `byte`, `bytearray`, or `NoneType`. If one is not provided, the random number generator will use the current system time to create the seed.
 
 ## Example
 

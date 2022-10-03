@@ -79,7 +79,7 @@ if !earthIsFlat {
 }
 ```
 
-Logical AND (`&&`) and logical OR (`||`) operators evalute two Booleans or Boolean expressions. In an AND evaluation, both expressions must result in `true`, resulting in the overall AND expression becoming `true`. In an OR evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
+Logical AND (`&&`) and logical OR (`||`) operators evaluate two Booleans or Boolean expressions. In an AND evaluation, both expressions must result in `true`, resulting in the overall AND expression becoming `true`. In an OR evaluation only one expression must be `true` for the result of OR to be `true`. In both cases, if the left side of the expression evaluates to a value that the compiler can determine a value for the operator, the right side will not be evaluated at all.
 
 ```swift
 var iAmTrue = true
@@ -122,7 +122,7 @@ You turned 32 years old!
 Half-Open range operators(`a..<z`) create a range beginning at `a` and continue to `z` but not including `z`. They are commonly used when working with Arrays or other zero-indexed lists.
 
 ```swift
-let picnic = ["Ceasar Salad", "Turkey Sandwich", "Cookie", "Juice Box"]
+let picnic = ["Caesar Salad", "Turkey Sandwich", "Cookie", "Juice Box"]
 
 for i in 0..<picnic.count {
   print("Item #\(i+1) in the picnic basket is a \(picnic[i]).")
@@ -132,7 +132,7 @@ for i in 0..<picnic.count {
 This should output:
 
 ```shell
-Item 1 in the picnic basket is a Ceasar Salad.
+Item 1 in the picnic basket is a Caesar Salad.
 Item 2 in the picnic basket is a Turkey Sandwich.
 Item 3 in the picnic basket is a Cookie.
 Item 4 in the picnic basket is a Juice Box.
@@ -144,7 +144,7 @@ The One-Sided range operator defines a range that will continue as far in one di
 for food in picnic[...2] {
   print(food)
 }
-// Ceasar Salad
+// Caesar Salad
 // Turkey Sandwich
 // Cookie
 
@@ -157,7 +157,7 @@ for food in picnic[2...] {
 for food in picnic[..<3] {
   print(food)
 }
-// Ceasar Salad
+// Caesar Salad
 // Turkey Sandwich
 // Cookie
 

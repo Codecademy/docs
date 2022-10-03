@@ -45,7 +45,7 @@ trainer_name = "Code Ninja"
 badges = {
   "pewter city": "boulder badge",
   "cerulean city": "cascade badge",
-  "vermillion city": "thunder badge"
+  "vermilion city": "thunder badge"
 }
 
 pokemon_team = ["Pikachu", "Charmander", "Pidgeotto"]

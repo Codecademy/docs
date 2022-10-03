@@ -46,7 +46,7 @@ my_tuple = my_string.partition("gentle")
 print(my_tuple)
 ```
 
-## Mulitple Matches
+## Multiple Matches
 
 If there are multiple matches, the first one will be used:
 

@@ -16,7 +16,7 @@ A smart pointer is a class that holds and manages a [pointer](https://www.codeca
 
 ## Ownership
 
-When refering to memory, ownership answers the question: _"Who is in charge of freeing the given resource?"_
+When referring to memory, ownership answers the question: _"Who is in charge of freeing the given resource?"_
 
 There are three standard smart pointers defined in the `<memory>` header file:
 

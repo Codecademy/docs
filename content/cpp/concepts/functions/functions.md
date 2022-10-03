@@ -129,7 +129,7 @@ std::string say_hi(std::string name);
 #include <string>
 #include "functions.hpp"
 
-// Function defintion
+// Function definition
 std::string say_hi(std::string name) {
 
   return "Hey there, " + name + "!\n";

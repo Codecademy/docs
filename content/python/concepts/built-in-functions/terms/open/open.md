@@ -31,7 +31,7 @@ As shown above, the `open()` function uses two distinct syntaxes:
 - The first is assigned to a variable and closed afterwards with the [.close()](https://www.codecademy.com/resources/docs/python/file-methods/close) method.
 - The second uses the `with` keyword that includes a self-closing function body.
 
-In both cases, file names can be specified in the `open()` function. An important point to note is that unless the file exists within the scope of the current directy, the entire file path must be specified.
+In both cases, file names can be specified in the `open()` function. An important point to note is that unless the file exists within the scope of the current directly, the entire file path must be specified.
 
 ## File Modes
 

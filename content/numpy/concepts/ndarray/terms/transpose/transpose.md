@@ -23,7 +23,7 @@ The `.transpose()` method reverses or permutes the axes of an [`ndarray`](https:
 numpy.transpose(axes)
 ```
 
-Where `axes` is a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) or list with as many entries as there are dimensions, listing the 0-based indicies of each index in the new order in which they'll appear in the permuted array. If `axes` is omitted, `.transpose()` will simply reverse the order of axes.
+Where `axes` is a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) or list with as many entries as there are dimensions, listing the 0-based indices of each index in the new order in which they'll appear in the permuted array. If `axes` is omitted, `.transpose()` will simply reverse the order of axes.
 
 Unlike the built-in [`.transpose()`](https://www.codecademy.com/resources/docs/numpy/built-in-functions/reshape) function, the `.transpose()` method can accept the axes as separate arguments, as well as in the form of a tuple: i.e. `array.transpose(2,0,1)` is the same as `array.transpose((2,0,1))`.
 

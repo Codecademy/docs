@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are ordered collections of values. In other words, an array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a String in an int array. The same value can be stored in an array multiple times in different locations. Arrays can be created several ways, each with a specific use case. An empty array can be declared and initalized with the following syntax: pseudo var arrayName = Type '
+Description: 'Arrays are ordered collections of values. In other words, an array is an ordered list of values, all of the same type, contained in the same structure. Swift, being a very type safe language, will throw compiler errors if you attempt to store values of different types, say attempting to store a String in an int array. The same value can be stored in an array multiple times in different locations. Arrays can be created several ways, each with a specific use case. An empty array can be declared and initialized with the following syntax: pseudo var arrayName = Type '
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -20,7 +20,7 @@ The same value can be stored in an array multiple times in different locations.
 
 Arrays can be created several ways, each with a specific use case.
 
-An empty array can be declared and initalized with the following syntax:
+An empty array can be declared and initialized with the following syntax:
 
 ```pseudo
 var arrayName = [Type]()
@@ -46,7 +46,7 @@ var statesIveVisited:[String] = ["NY", "CA", "TX", "FL"]
 var statesImGoingTo = ["ME", "ID", "NV", "AK"]
 ```
 
-If an array is declared as a constant, using `let`, then the arrray is immutable. You cannot change its size or change the values of its members, this is especially useful if you are trying to protect the data you are storing from being manipulated later on in your program.
+If an array is declared as a constant, using `let`, then the array is immutable. You cannot change its size or change the values of its members, this is especially useful if you are trying to protect the data you are storing from being manipulated later on in your program.
 
 ## Accessing Arrays
 
@@ -100,7 +100,7 @@ topBabyNames.insert("Jackson", at: 3)
 // ["Sophia", "Liam", "Riley", "Jackson", "Olivia", "Noah"]
 ```
 
-Similarily, elements are removed using the `remove()`, `removeFirst()`, and `removeLast()` methods.
+Similarly, elements are removed using the `remove()`, `removeFirst()`, and `removeLast()` methods.
 
 ```swift
 topBabyNames.remove(at: 2)

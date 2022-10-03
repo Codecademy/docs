@@ -20,7 +20,7 @@ Specifies how long an element should wait before beginning a transition.
 transition-delay: <value>;
 ```
 
-The `transition-delay` value can be specified by one of the folllowing:
+The `transition-delay` value can be specified by one of the following:
 
 - Seconds: `2s`
 - Milliseconds: `125ms`

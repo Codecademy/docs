@@ -60,8 +60,8 @@ int main() {
       std::cout << getString(words, 6);
     }
     catch (...) {
-      // "Some sort of error has occured!" will be sent to the buffer
-      std::cout << "Some sort of error has occured!";
+      // "Some sort of error has occurred!" will be sent to the buffer
+      std::cout << "Some sort of error has occurred!";
     }
 
     return 0;
@@ -99,7 +99,7 @@ This example also names the exceptions so that you might access the exception du
 
 While one side of the exceptional coin is catching exceptions, the other side is throwing them. Since user input is often unpredictable, it is important to handle bad data with grace.
 
-The `sqrt()` funciton provided by the `math.h` library calculates square roots, however it will return `nan` for the square root of negative numbers. The example below creates a custom `mySqrt()` function so that an execption is thrown when a negative number is passed in as a parameter. This allows us to `catch` it in our `main` block rather than testing if the returned valued is equal to `nan`.
+The `sqrt()` function provided by the `math.h` library calculates square roots, however it will return `nan` for the square root of negative numbers. The example below creates a custom `mySqrt()` function so that an exception is thrown when a negative number is passed in as a parameter. This allows us to `catch` it in our `main` block rather than testing if the returned valued is equal to `nan`.
 
 While it is possible to use `throw` with many data types, it is common to throw a runtime error. The syntax can be seen in the example below:
 

@@ -1,6 +1,6 @@
 ---
 Title: 'transform-origin'
-Description: "Sets the origin of an element's tranformation."
+Description: "Sets the origin of an element's transformation."
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `transform-origin` property sets the origin of an element's tranformation.
+The `transform-origin` property sets the origin of an element's transformation.
 
 ## Syntax
 

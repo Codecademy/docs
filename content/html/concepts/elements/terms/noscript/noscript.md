@@ -38,6 +38,6 @@ In the example below, if JavaScript isn't enabled, the [`<script>`](https://www.
 </noscript>
 ```
 
-The output might look like this if Javascipt is disabed or not avalible:
+The output might look like this if Javascript is disabed or not available:
 
 ![Output of the example](https://raw.githubusercontent.com/Codecademy/docs/main/media/no-script-tag-example.png)

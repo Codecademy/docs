@@ -25,7 +25,7 @@ The amount of indentiation can be specified by using percentages or length value
 
 ## Example 1
 
-Specifying indentation lenght with percentages.
+Specifying indentation length with percentages.
 
 ```css
 p {
@@ -35,7 +35,7 @@ p {
 
 ## Example 2
 
-Specifying indentation lenght with `px` and `em` values.
+Specifying indentation length with `px` and `em` values.
 
 ```css
 .div1 p {

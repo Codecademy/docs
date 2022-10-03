@@ -59,7 +59,7 @@ img {
 
 ## Example 2
 
-Transforming an `img` element by skewing 20 degress, scaling up by half and rotating 100 degrees in one declaration.
+Transforming an `img` element by skewing 20 degrees, scaling up by half and rotating 100 degrees in one declaration.
 
 ```css
 img {
