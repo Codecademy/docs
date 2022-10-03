@@ -9,6 +9,7 @@ Tags:
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
+---
 
 
 The **`.toString()`** method converts the given object and returns its corresponding string representation.
