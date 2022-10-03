@@ -31,7 +31,7 @@ The following example illustrates the `sin()` function:
 using namespace std;  
 int main()  
 {  
-  double degree=60;  
+  double degree = 60;  
   //convert degree to radian
   double radian = degree*3.14/180;  
   cout<<"Sine of an angle is : "<<sin(radian);  
