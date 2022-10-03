@@ -21,7 +21,7 @@ std::sin(n)
 
 ## Example 
 
-The following example showcases the `sin()` function :
+The following example illustrates the `sin()` function:
 
 ```cpp
 #include<iostream>  
