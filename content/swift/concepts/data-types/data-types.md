@@ -31,7 +31,7 @@ In a type-safe language like Swift, values are generally stored in [variables](h
 
 ## Integer Data Types
 
-Integers are whole numbers such as `35` and `-123`. As you can see from the example, they can be either signed or unsigned whole numbers, the default being signed. Integers can be declared in five different ways:
+Integers are whole numbers such as `35` and `-123`. As seen from the example column above, they can be either signed or unsigned whole numbers, the default being signed. Integers can be declared in five different ways:
 
 | Type Reference | Description                                                      | Value Range                                                         |
 | :------------: | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ let verySmallInteger: Int8 = 16
 
 ## Floating Point Numbers
 
-A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approximately half as much precision as a `Double`. If you need a high precision of accuracy, it is best to use a `Double`. When a variable is declared without a specified type, Swift will type inference a `Double` as a precaution.
+A `Float` and a `Double` are number data types that allow for decimals. A `Float` is a 32-bit 'floating-point' number and a `Double` is a 64-bit floating-point number, that being said, a `Float` has approximately half as much precision as a `Double`. If a high precision of accuracy is needed, it is best to use a `Double`. When a variable is declared without a specified type, Swift will type inference a `Double` as a precaution.
 
 ```swift
 let accountBalance: Float = 857.45
@@ -61,7 +61,7 @@ let gpa = 3.7 // inferred as a Double
 
 ## Strings and Characters
 
-`String`s are a collection of `Character`s and `Character`s are the individual symbols that make up our languages. In Swift, the `String` type can be either mutable or immutable, as determined by the type of variable you store it in, either a `var` or a `let` for a constant. Both `String` and `Character` are typically declared inside a set of double quotation marks, while multi-line `String`s are declared with a set of triple quotations opening and closing the text.
+`String`s are a collection of `Character`s and `Character`s are the individual symbols that make up our languages. In Swift, the `String` type can be either mutable or immutable, as determined by the type of variable it's stored in, either a `var` or a `let` for a constant. Both `String` and `Character` are typically declared inside a set of double quotation marks, while multi-line `String`s are declared with a set of triple quotations opening and closing the text.
 
 ```swift
 let author: String = "Edgar Allen Poe"
@@ -78,7 +78,7 @@ As of some one gently rapping, rapping at my chamber door.
 
 ## Boolean Data Type
 
-Boolean values, initialized using the `Bool` keyword, represent `true` and `false`. They are used in control flow and other conditional statements to process the logical decision points in your program leading them to be referred to as _logical_ values. They can be declared directly or by using a logical test.
+Boolean values, initialized using the `Bool` keyword, represent `true` and `false`. They are used in control flow and other conditional statements to process the logical decision points in the program leading them to be referred to as _logical_ values. They can be declared directly or by using a logical test.
 
 ```swift
 let fallingOnPavementHurts = true

@@ -28,7 +28,7 @@ a %= 5 // a = 1
 
 ## Bitwise Operators
 
-[Bitwise operators](https://www.codecademy.com/resources/docs/general/bitwise-operator) are used to manipulate the raw data bits of a structure such as graphics, file inputs, or device drivers. While not common, these operators are very useful in their specific use cases. Swift also allows the overloading of the standard operators to include your own definition of the function.
+[Bitwise operators](https://www.codecademy.com/resources/docs/general/bitwise-operator) are used to manipulate the raw data bits of a structure such as graphics, file inputs, or device drivers. While not common, these operators are very useful in their specific use cases. Swift also allows overloading of the standard operators to include a custom definition of the function.
 
 ### NOT Operator
 
@@ -92,7 +92,7 @@ let result = firstBinary ^ secondBinary // 01001000
 
 ### Left and Right Shift Operators
 
-Bitwise shift operators, `<<` and `>>` operate slightly differently on signed and unsigned values. For unsigned values, the process is very straight-forward, the number shifts to the left or right by the number of digits specified. In essence, for every shift to the left you make, you are doubling the value of the number and for every shift right, you are halving the number.
+Bitwise shift operators, `<<` and `>>` operate slightly differently on signed and unsigned values. For unsigned values, the process is very straight-forward, the number shifts to the left or right by the number of digits specified. In essence, for every shift to the left that is made, the value of the number is doubled, and for every shift right the number is halved.
 
 ```swift
 var shifty: UInt8 = 0b00001000
@@ -165,7 +165,7 @@ extension Student {
       return 0.0
     }
     return left.gpa - right
- }
+  }
 }
 ```
 

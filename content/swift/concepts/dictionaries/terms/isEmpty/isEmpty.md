@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `.isEmpty` property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
+The **`.isEmpty`** property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
 
 ## Syntax
 
@@ -25,11 +25,16 @@ dictionaryInstance.isEmpty
 ```swift
 var bakery = [String:Int]()
 
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: true
+print(bakery.isEmpty)
 
 bakery["Cupcakes"] = 12
 
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: false
+print(bakery.isEmpty)
+```
+
+In the example above, the `bakery` dictionary is checked if it `.isEmpty`; once when it is initiated, and again when a key-value pair is added. This will output:
+
+```shell
+true
+false
 ```

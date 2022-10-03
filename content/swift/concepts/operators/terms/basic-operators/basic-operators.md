@@ -37,7 +37,7 @@ Swift contains the following operators that match their similar expressions in c
 - `/` for division
 - `%` for modulus or remainder division
 
-These work as you would expect for all mathematical operations, however, the `+` operator can also be used to concatenate two strings together such as `"Operators" + " in Swift" = "Operators in Swift"`.
+These work as expected for all mathematical operations, however, the `+` operator can also be used to concatenate two strings together such as `"Operators" + " in Swift" = "Operators in Swift"`.
 
 ## Comparison Operators
 
@@ -165,7 +165,7 @@ let infiniteRange = 0... // 0 to infinity
 for i in infiniteRange {
   print(i)
   // Creates an infinite loop, always take note of what
-  // "stops" your open-ended ranges
+  // "stops" open-ended ranges
 }
 ```
 

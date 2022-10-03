@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `.count` property returns an integer that represents how many key-value pairs are in a dictionary.
+The **`.count`** property returns an integer that represents how many key-value pairs are in a dictionary.
 
 ## Syntax
 
@@ -29,5 +29,6 @@ var fruitStand = [
   "Oranges", 17
 ]
 
-print(fruitStand.count)  // Output: 3
+print(fruitStand.count)
+// Output: 3
 ```

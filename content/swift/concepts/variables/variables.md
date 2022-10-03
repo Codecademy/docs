@@ -40,7 +40,7 @@ let 🌙 = "Cresent Moon"
 
 ## Accessing and Reassigning Variables and Constants
 
-The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. You can also use another variable to set the value of a variable.
+The value of a variable can be changed by using the assignment operator to set the value to a different value of the same type. Another variable can also be used to set the value of a variable.
 
 ```swift
 var dailyTemperature: Int
