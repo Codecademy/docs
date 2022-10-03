@@ -22,7 +22,7 @@ arrayName.append(element)
 arrayName.append(contentsOf: [element1, element2, ...])
 ```
 
-The method is called on an array instance, and one of more elements can be added by using the `contentsOf:` parameter.
+The method is called on an array instance, and one or more elements can be added by using the `contentsOf:` parameter.
 
 ## Example
 

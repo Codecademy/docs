@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types), and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, being a very type-safe language, will throw compiler errors if values of different types are stored in an array (e.g., a `String` in an `Int` array). Values can, however, be repeated in an array as every occurence of the same value is stored in a different location.
+**Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurence of the same value gets stored in a different location.
 
 ## Creating Arrays
 
@@ -24,9 +24,9 @@ An empty array can be declared and initalized with the following syntax:
 var arrayName = [Type]()
 ```
 
-This is useful if elements are not to be added yet, or the size of the array has not been determined.
+The above syntax is useful if elements are not supposed to be added yet, or the size of the array has not been determined.
 
-Arrays can also be initialized with a given size and default values. For example, to store 10 values for a Battleship game with a default location marker "U" for "Unchecked", an array can be initialized like this:
+Arrays can also be initialized with a given size and default values. For example, to store ten values for a Battleship game with a default location marker "U" (for "Unchecked"), an array can be initialized like this:
 
 ```swift
 var alphaRow = [Character](repeating: "U", count: 10)
@@ -42,11 +42,11 @@ var statesVisited: [String] = ["NY", "CA", "TX", "FL"]
 var statesToVisit = ["ME", "ID", "NV", "AK"]
 ```
 
-> **Note:** If an array is declared as a constant, using `let`, then the array is immutable: its size or values of its members cannot be changed. This is especially useful if the data being stored is to be protected from being manipulated later on in the program.
+> **Note:** If an array is declared as a constant, using `let`, then it is immutable: its size or values of its members cannot change. This is especially useful if the data stored is to be protected from being manipulated later on in the program.
 
 ## Accessing Arrays
 
-Arrays can be accessed using subscript notation. Since all arrays are zero-indexed, the first index in the array will be `arrayName[0]` and the last element will be one less than the [`.count`](https://www.codecademy.com/resources/docs/swift/dictionaries/count) property of the array.
+Arrays can be accessed using subscript notation. Since all arrays are zero-indexed, the first index in it will be `arrayName[0]`, and the last element will be one less than the [`.count`](https://www.codecademy.com/resources/docs/swift/dictionaries/count) property of the array.
 
 ```swift
 var statesVisited: [String] = ["NY", "CA", "TX", "FL"]
@@ -65,7 +65,7 @@ print("After Nevada, I'm going to head to \(statesToVisit[4]).")
 // Runtime Error: Index out of range
 ```
 
-Values in an array can be directly reassigned by accessing the element at a specific index.
+Values or elements of an array can be reassigned by accessing it through its index.
 
 ```swift
 statesVisited[2] = "MI"
@@ -74,26 +74,20 @@ statesVisited[2] = "MI"
 
 ## Iterating Over Arrays
 
-To iterate over the entire contents of an array in Swift use a `for-in` loop.
+To iterate over the entire contents of an array, a `for-in` loop is commonly used.
 
 ```swift
+var topBabyNames = ["Liam", "Jackson"]
+
 for name in topBabyNames {
-    print("\(name)is the coolest name.")
+  print("\(name)is the coolest name.")
 }
 // Output:
 // Liam is the coolest name.
 // Jackson is the coolest.
-// Olivia is the coolest name.
 ```
 
-A second technique is to call the `forEach()` method. This method will operate on all elements of the array and cannot be escaped using a `break` or `continue` call, evening returning a value in the body of the closure will only return that value out of the body and not the declaring method body. The `forEach()` method is commonly used when all elements are to be manipulated by the loop or to display the purpose of the loop to others reading the code.
-
-```swift
-topBabyNames.forEach { name in
-  print("\(name) is the coolest name.")
-}
-// Same as above
-```
+> **Note:** Alternatively, the [`.forEach()`](https://www.codecademy.com/resources/docs/swift/arrays/forEach) method can be used to iterate over an array.
 
 ## Array Properties, Methods, and Testing
 
@@ -110,7 +104,7 @@ print("To make life interesting, next week I'll fly to \(statesVisited.randomEle
 
 ### Methods
 
-There are many array manipulation methods available in the Swift Standard Library, including many more generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g. `map()`, `reduce()`, and `sort()`).
+There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g. `map()`, `reduce()`, and `sort()`).
 
 Below are some methods available for arrays:
 

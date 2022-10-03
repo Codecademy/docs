@@ -1,6 +1,6 @@
 ---
 Title: '.sort()'
-Description: 'Sorts elements of an any mutable collection in ascending order.'
+Description: 'Sorts elements of any mutable collection in ascending order.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -36,7 +36,7 @@ topBabyNames.sort(by: >)
 print(topBabyNames)
 ```
 
-In the example above, the `topBabyNames` array is first sorted in ascending order. Then, the greater than operator, `>`, is passed as the predicate, which will result in the array being sorted in descending order. This will output:
+In the example above, the `topBabyNames` array is first sorted in ascending order. Then, the greater-than operator, `>`, is passed as the predicate, which will result in the array being sorted in descending order. This will output:
 
 ```shell
 ["Jackson", "Liam", "Noah", "Olivia", "Riley", "Sophia"]

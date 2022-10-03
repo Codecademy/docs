@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.reverse()`** method reverses an array in place, mutating the original array, and returns the elements within the array so that the first element becomes the last element and vice versa.
+The **`.reverse()`** method reverses an array in place, mutating the original array, and returns the elements within it so that the first element becomes the last element and vice versa.
 
 ## Syntax
 
