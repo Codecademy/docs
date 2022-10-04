@@ -1,6 +1,6 @@
 ---
 Title: '.count'
-Description: 'Returns an integer that represents how many key-value paird are in a dictionary.'
+Description: 'Returns an integer that represents how many key-value pairs are in a dictionary.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

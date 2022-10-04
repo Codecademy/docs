@@ -81,7 +81,7 @@ r
 
 ### Ranges
 
-Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
+Ranges created by the `...` operator will include the numbers from the lower bound to (and including) the upper bound.
 
 ```swift
 let zeroToThree = 0...3
@@ -109,7 +109,7 @@ Olé
 
 ### `stride()` Function
 
-Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to, the (excluded) ending number, and how to increment/decrement from the start to the end.
+Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to the (excluded) ending number, and how to increment/decrement from the start to the end.
 
 ```swift
 for oddNum in stride(from: 1, to: 5, by: 2) {

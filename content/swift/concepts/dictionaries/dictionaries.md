@@ -27,7 +27,7 @@ var dictionaryName = [
 
 Keys can be of any hashable type, meaning an object that has a hashcode. Typically, `Int`s and `String`s are used as keys. Every key in a dictionary is unique and they're used to access, remove, add, or modify its associated value. Values can be of any [data type](https://www.codecademy.com/resources/docs/swift/data-types).
 
-While types can be mixed, it's best practice to keep the key's and value's type consistent. For example, a dictionary would have keys be of type `Int` and values of type `String`.
+While types can be mixed, it's best practice to keep the key's and value's type consistent. For example, a dictionary could have keys be of type `Int` and values of type `String`.
 
 ## Assigning a Value to a Variable
 

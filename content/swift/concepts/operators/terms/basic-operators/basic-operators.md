@@ -51,7 +51,7 @@ These operators are used to return `Bool` values for use in conditional statemen
 - Less than: `this < that`
 - Less than or equal to: `this <= that`
 
-The following code snippet shows a use case of comparison operators in a `while` loop that will :
+The following code snippet shows a use case of comparison operators in a `while` loop:
 
 ```swift
 var countUp = 0
