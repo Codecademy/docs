@@ -22,16 +22,16 @@ var secondaryColor = "green"
 
 switch secondaryColor {
   case "orange":
-    print("Mix of red and yellow")
+    print("Mix of red and yellow.")
   case "green":
-    print("Mix of blue and yellow")
+    print("Mix of blue and yellow.")
   case "purple":
-    print("Mix of red and blue")
+    print("Mix of red and blue.")
   default:
     print("This might not be a secondary color.")
 }
 
-// Output: Mix of blue and yellow
+// Output: Mix of blue and yellow.
 ```
 
 ## Interval Matching
@@ -53,6 +53,7 @@ switch year {
     artPeriod = "Unknown"
 }
 
+print(artPeriod)
 // Output: Post Impressionism
 ```
 
@@ -86,12 +87,12 @@ let num = 7
 
 switch num {
   case let x where x % 2 == 0:
-    print("\(num) is even")
+    print("\(num) is even.")
   case let x where x % 2 == 1:
-    print("\(num) is odd")
+    print("\(num) is odd.")
   default:
-    print("\(num) is invalid")
+    print("\(num) is invalid.")
 }
 
-// Output: 7 is odd
+// Output: 7 is odd.
 ```
