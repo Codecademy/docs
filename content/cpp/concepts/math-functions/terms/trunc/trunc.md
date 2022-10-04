@@ -3,13 +3,12 @@ Title: 'trunc()'
 Description: 'Returns the integral part of the argument.' 
 Subjects:
   - 'Computer Science'
-
 Tags: 
   - 'Functions'
   - 'Arithmetic'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'learn-c-plus-plus'
-  - 'path/computer-science'
+  - 'paths/computer-science'
 ---
 
 The **`trunc()`** function returns the integral part of the argument. It rounds the argument towards zero and returns the nearest integer that is not greater in magnitude than the argument.
