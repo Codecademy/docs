@@ -16,7 +16,7 @@ The **exp()** function returns the base-_e_ exponential value of the argument (i
 
 ## Syntax
 
-```cpp
+```pseudo
 exp(x)
 ```
 
