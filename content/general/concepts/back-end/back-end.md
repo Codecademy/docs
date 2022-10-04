@@ -20,8 +20,7 @@ The back-end of a program or web application serves data to the [front-end](http
 
 ## Restaurant Analogy
 
-A common analogy for the relationship of the front-end and back-end are customers
-at a restaurant (on the "front-end):
+A common analogy for the relationship between the front-end and back-end are customers at a restaurant (on the "front-end):
 
 - They place their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/server)).
 - The order is then taken to the kitchen (on the "back-end").
@@ -67,7 +66,7 @@ Back-End Developers normally query their databases with various programming lang
 
 - Sinatra, a lightweight Ruby framework for building web apps.
 - [Ruby on Rails](https://www.codecademy.com/resources/docs/ruby/ruby-on-rails), a more robust Ruby framework that follows the model-view-controller standard.
-- Django, a Python framework that offers dynamic HTML pages.
-- Flask, a ligher Python framework meant for rapid development.
+- Django, a Python framework that offers dynamic [HTML](https://www.codecademy.com/resources/docs/html) pages.
+- Flask, a lighter Python framework meant for rapid development.
 - [Express](https://www.codecademy.com/resources/docs/open-source/express), a framework for building back-end APIs with JavaScript.
 - Spring, a Java framework that can be used to build back-end APIs.

@@ -30,7 +30,7 @@ Frameworks can be used for developing many types of software including the follo
 
 ### Web Application Frameworks
 
-These frameworks are used for developing any softwares for the Web, including websites, web applications, and Web APIs. A few common examples of web frameworks include:
+These frameworks are used for developing any software for the Web, including websites, web applications, and Web APIs. A few common examples of web frameworks include:
 
 - [Angular](https://www.codecademy.com/resources/docs/open-source/angular), an open-source [TypeScript](https://www.codecademy.com/resources/docs/typescript)-based framework.
 - Django, a [Python](https://www.codecademy.com/resources/docs/python)-based framework that is fast, secure, and has a great admin interface.

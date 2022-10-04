@@ -16,9 +16,9 @@ CatalogContent:
 
 [**Express**](https://expressjs.com/), or Express.js, is an open-source, [back-end](https://www.codecademy.com/resources/docs/general/back-end) web [framework](https://www.codecademy.com/resources/docs/general/framework) for [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) applications. It is primarily used to build web applications and [APIs](https://www.codecademy.com/resources/docs/general/api) and provide network request functionality. To use Express, Node.js must be installed.
 
-## Popularity with tech stacks
+## Popularity With Tech Stacks
 
-Since it is popular choice for a back end tool, Express belongs to popular tech stacks including:
+Since it is a popular choice for a back-end tool, Express belongs to popular [tech stacks](https://www.codecademy.com/resources/docs/general/tech-stack), including the following:
 
 - MERN (MongoDB + Express + React + Node)
 - MEAN (MongoDB + Express + Angular + Node)

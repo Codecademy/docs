@@ -38,7 +38,7 @@ Node provides access to several important global objects for use with Node progr
 
 ### Modules
 
-Node has a many built-in modules to aid in interactions with the [terminal](https://www.codecademy.com/resources/docs/general/terminal), the computer file system, and the Internet. These include:
+Node has many built-in modules to aid in interactions with the [terminal](https://www.codecademy.com/resources/docs/general/terminal), the computer file system, and the Internet. These include:
 
 - [HTTP](https://nodejs.org/dist/latest/docs/api/http.html) and [HTTPS](https://nodejs.org/dist/latest/docs/api/https.html) for creating web servers.
 - [File System](https://nodejs.org/dist/latest/docs/api/fs.html), [OS](https://nodejs.org/dist/latest/docs/api/os.html), and [Path](https://nodejs.org/dist/latest/docs/api/path.html) for interacting with the file system, operating system, and [file/directory paths](https://www.codecademy.com/resources/docs/general/file-paths).
@@ -68,7 +68,7 @@ In this example, we are using Node's built-in `fs` module to read a `script.js` 
 
 ## How to Use Node
 
-This video will shows how to download and install Node.
+This video shows how to download and install Node.
 
 <video width="100%" height="100%" controls onloadstart="this.volume=0.15">
    <source src="https://content.codecademy.com/articles/nodejs/nodejs.mp4" type="video/mp4">

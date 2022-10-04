@@ -22,7 +22,7 @@ Additionally, Next.js comes with built-in features including the following:
 - Any page can either be statically generated (SSG) ahead of time or rendered on the server-side (SSR) upon request.
 - Faster page loads enables automatic code splitting or "lazy-loading".
 - An in-house `Link` component is used for client-side routing with optional pre-fetching.
-- There is vast styling support including built-in CSS, Sass, and CSS-in-JS libraries.
+- There is vast styling support including built-in [CSS](https://www.codecademy.com/resources/docs/css), Sass, and CSS-in-JS libraries.
 - [TypeScript](https://www.codecademy.com/resources/docs/typescript) is supported in Next.js.
 
 Next.js was originally authored by Guillermo Rauch on [GitHub](https://www.codecademy.com/resources/docs/general/github) in 2016. Due to its functionality, large companies such as Netflix, Starbucks, Uber, GitHub, and Ticketmaster have all used Next.js for their website development. It is currently owned and maintained by the company [Vercel](https://vercel.com).

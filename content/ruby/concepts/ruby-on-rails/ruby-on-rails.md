@@ -28,9 +28,9 @@ While particularly popular with startups, some well-known companies that use Rai
 Rails can be installed as a [Ruby gem](https://www.codecademy.com/resources/docs/ruby/gems). However, the following must be installed beforehand:
 
 - Ruby version 2.7.0 or later (preferably the latest version).
-- SQLite3 is the default database used on Rails.
+- [SQLite3](https://www.sqlite.org/download.html) is the default [database](https://www.codecademy.com/resources/docs/general/database) for Rails.
 - [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) (version 8.16.0 or later) for running [JavaScript (JS)](https://www.codecademy.com/resources/docs/javascript) alongside Rails.
-- Yarn (version 1 or 2 are both fine) for installing and managing JS packages.
+- [Yarn](https://yarnpkg.com/getting-started/install) (either version 1 or 2) for installing and managing JS packages.
 
 Help with installing these prerequisites can be found in ["Getting Started with Rails"](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails).
 
