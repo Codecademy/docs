@@ -8,12 +8,13 @@ Subjects:
 Tags:
   - 'Inheritance'
   - 'OOP'
+  - 'Classes'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-Inheritance is an object-oriented programming concept where a class (often referred to as the child class) derives attributes and behaviors from another class (often referred to as the parent class).
+**Inheritance** is a concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) where a child [class](https://www.codecademy.com/resources/docs/python/classes) (or subclass) derives attributes and behaviors from a parent or sibling class.
 
 This eliminates the need to implement the methods inherited by a subclass, or child class, again. In other words, it enables a child class to inherit/reuse the attributes and methods of a parent class. In terms of real-world objects, it represents an IS-A relationship.
 
@@ -66,30 +67,7 @@ Hi! I am a Programming Language.
 Python here!
 ```
 
-**Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
-
-### `super()`
-
-`super()` returns a temporary object of the superclass, allowing the superclass’s methods to be called. This comes in handy when using [multiple inheritance](#multiple-inheritance).
-
-In this case, the `.say_hi()` method is implemented utilizing `super()` inside `.intro()`:
-
-```py
-class Python(ProgramLanguage):
-  def intro(self):
-    super().say_hi()
-    print("Python here!")
-
-doc = Python()
-doc.intro()
-```
-
-The output would be:
-
-```shell
-Hi! I am a Programming Language.
-Python here!
-```
+> **Note**: Inside the child class, the same number and type of arguments need to be passed into the parent class' method.
 
 ## Overriding Methods
 
