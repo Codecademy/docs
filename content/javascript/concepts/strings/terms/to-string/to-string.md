@@ -14,11 +14,10 @@ CatalogContent:
 
 The **`.toString()`** method converts the given object and returns its corresponding string representation.
 
- ## Syntax
+## Syntax
 
- ```js
- .toString()
- ```
+```pseudo
+stringObject.toString()
 
 The `.toString()` method in JavaScript does not take any parameters.
 It can be used with numbers, strings, arrays, and objects.
