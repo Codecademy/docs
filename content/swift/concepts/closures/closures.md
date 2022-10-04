@@ -209,6 +209,6 @@ print(countUp())    // Output: 4
 
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other.
 
-## Why use closures?
+## Why Use Closures?
 
 Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any unneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants.

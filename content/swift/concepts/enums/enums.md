@@ -1,6 +1,6 @@
 ---
 Title: 'Enums'
-Description: 'In Swift, an enumeration is a collection of set values that can be referenced throughout a program.'
+Description: 'A collection of set values that can be referenced throughout a program.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'

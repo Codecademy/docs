@@ -22,7 +22,7 @@ A class that inherits features is known as the child class or subclass. The clas
 
 A class can inherit from another class with the following syntax:
 
-```swift
+```pseudo
 class SuperClass {
   // Superclass definition goes here
 }

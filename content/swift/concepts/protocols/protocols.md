@@ -17,8 +17,8 @@ A **protocol** is a collection of methods, properties, and rules that a `class`,
 
 A protocol is created with the `protocol` keyword:
 
-```swift
-protocol MyProtocol {
+```pseudo
+protocol protocolName {
   // Protocol body
 }
 ```

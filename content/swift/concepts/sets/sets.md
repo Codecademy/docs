@@ -1,6 +1,6 @@
 ---
 Title: 'Sets'
-Description: 'In Swift, a set is used to store unique elements of the same data type.'
+Description: 'Store unique elements of the same data type.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -14,15 +14,17 @@ CatalogContent:
 
 In Swift, a **set** is used to store unique elements of the same data type.
 
-## Creating a Set
+## Syntax
 
-To create a set populated with values, use the `Set` keyword before the assignment operator.
+```pseudo
+var setName = Set<Type>()
 
-```swift
-var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]
+var setName: Set = [value1, value2, ...]
 ```
 
-The values of the set must be contained within brackets `[]` and separated with commas `,`.
+`Type` refers to the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the values to be stored in the set.
+
+To create a set populated with values, use the `Set` keyword before the assignment operator. The values of the set must be contained within brackets `[]` and separated with commas `,`.
 
 ## Empty Sets
 

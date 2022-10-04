@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'In Swift loops are used to repeatedly perform a statement(s) or block of code.'
+Description: 'Loops are used to repeatedly perform a statement(s) or block of code.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'

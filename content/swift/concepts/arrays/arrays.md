@@ -107,5 +107,3 @@ print("To make life interesting, next week I'll fly to \(statesVisited.randomEle
 There are many array manipulation methods available in the Swift Standard Library, including generic Collection based methods. Some of these include testing the contents of arrays (e.g. `contains()` and `.isEmpty`) while others can modify or manipulate the array entirely (e.g., `map()`, `reduce()`, and `sort()`).
 
 Below are some methods available for arrays:
-
-<!-- TODO: Include properties here as well.  -->

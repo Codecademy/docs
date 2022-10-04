@@ -79,5 +79,3 @@ for meaning in emojiMeaning.values {
 ```
 
 Below are some instance properties for dictionaries:
-
-<!--   TODO: Add methods, and subscripts  -->
