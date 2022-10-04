@@ -41,7 +41,6 @@ int main() {
 
 Use `trunc()` to round the double `12.3456` down to the nearest integer by removing the decimal part:
 
-
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
