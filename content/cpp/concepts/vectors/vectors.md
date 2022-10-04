@@ -44,7 +44,7 @@ std::vector<double> order = {3.99, 12.99, 2.49};
 
 An index refers to an element’s position within an ordered list, like a vector or an [array](https://www.codecademy.com/resources/docs/cpp/arrays). The first element has an index of 0.
 
-A specific element in a `vector` or an array can be accessed using its index, like `name[index]`.
+A specific element in a vector or an array can be accessed via index, using a `name[index]` syntax:
 
 ```cpp
 std::vector<double> order = {3.99, 12.99, 2.49};
