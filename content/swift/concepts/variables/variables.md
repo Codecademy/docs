@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'In Swift values are stored in two types of containers, var for variables and let for constants. Variables can be reassigned later in the program while constants cannot.'
+Description: 'Values are stored in two types of containers: var for variables and let for constants. Variables can be reassigned later in the program while constants cannot.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,15 +12,15 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, values to be stored in two types of containers: `var` for **variables** and `let` for **constants**.
+In Swift, values are stored in two types of containers: `var` for **variables** and `let` for **constants**.
 
-As the names imply, a variable's value can change or reassigned later in the program, while a constant's value cannot. It is best practice to use constants as much as possible to prevent accidentally reassigning values later on in a program.
+As the names imply, a variable's value can change or be reassigned later in the program, while a constant's value cannot. It is best practice to use constants as much as possible to prevent unintentionally reassigning values later on in a program.
 
 > **Note:** Once a variable or constant's data type has been established, whether explicitly or implicitly (inferred by the compiler) declared, it cannot be changed. In addition, the variable name cannot be used for another data type within the same program. In the same manner, a variable cannot be changed into a constant and vice versa.
 
 ## Declaring and Initializing Variables and Constants
 
-Variables and constants do not require initialization when declared. However, the variable or constant requires type annotation so that when the compiler reads the code line-by-line, it can determine the data type at the time of the build. A `Use of undeclared type` error will be thrown otherwise. Swift also allows a wide range of characters to be used as constant and variable names including [Unicode](https://www.codecademy.com/resources/docs/general/unicode) characters and emojis.
+Variables and constants do not require initialization when declared. However, the variable or constant requires type annotation so that when the compiler reads the code line-by-line, it can determine the data type at the time of the build. A `Use of undeclared type` error will be thrown otherwise. Swift also allows a wide range of characters to be used as constant and variable names including [Unicode](https://www.codecademy.com/resources/docs/general/unicode), characters, and emojis.
 
 ```swift
 var dailyTemperature: Int
@@ -53,7 +53,7 @@ dailyTemperature = 18
 dailyTemperature = reallyHot
 ```
 
-Variables and constants can also be passed directly into functions and methods or returned as the result.
+Variables and constants can be passed directly into functions and methods or returned as the result.
 
 ```swift
 let 🌕 = "Full Moon"
