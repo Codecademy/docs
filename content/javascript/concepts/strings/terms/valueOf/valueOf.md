@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.valueOf()`** method returns the primitive value of a `String` object, similar to the `toString()` method of JavaScript Strings. Usually this method isn't used in code but is called internally by JavaScript.
+The **`.valueOf()`** method returns the [primitive](https://www.codecademy.com/resources/docs/javascript/data-types) value of a `String` object, similar to the `.toString()` method of JavaScript Strings. Usually this method isn't used in code but is called internally by JavaScript.
 
-> **Note:** This method is for `String` objects and not to be confused with the `.valueOf()` method of the `Object` class.
+> **Note:** This `String` method is not to be confused with the `.valueOf()` method that exists for the `Object` class.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The **`.valueOf()`** method returns the primitive value of a `String` object, si
 stringObject.valueOf();
 ```
 
-The `.valueOf` method takes no parameters.
+The `.valueOf()` method takes no parameters.
 
 ## Example
 
@@ -45,7 +45,7 @@ Bill
 
 ## Codebyte Example
 
-A less common use case for the `.valueOf()` method is calling on variables with string literals or on the string literal directly:
+A less common use case for the `.valueOf()` method is to call it on variables with string literals or on the string literal directly:
 
 ```codebyte/javascript
 const animal = 'cat';
