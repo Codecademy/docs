@@ -1,0 +1,185 @@
+Stack is a linear data structure that is used to store the collection of objects. It is based on Last-In-First-Out (LIFO). 
+Java collection framework provides many interfaces and classes to store the collection of objects. One of them is the Stack class that provides different operations 
+such as push, pop, search, etc. Push and pop are two most important operations. 
+
+Empty Stack: If the stack has no element is known as an empty stack. When the stack is empty the value of the top variable is -1.
+In Java, Stack is a class that falls under the Collection framework that extends the Vector class. It also implements interfaces List, Collection, Iterable, 
+Cloneable, Serializable. It represents the LIFO stack of objects. Before using the Stack class, we must import the java.util package. 
+
+Syntax for creating a stack:
+Stack stk = new Stack();  
+Or
+Stack<type> stk = new Stack<>();  
+Where type denotes the type of stack like Integer, String, etc.
+when a stack is empty, it is called Underflow condition. while when a stack is full it is called Overflow condition.
+
+Methods of stack class
+
+1. empty()	
+The method checks the stack is empty or not. If the stack is empty, it returns true, else returns false. 
+Syntax: public boolean empty()  
+
+2. push(E item)	
+The method pushes (insert) an element onto the top of the stack.
+Syntax: public E push(E item)  
+Parameter: An item to be pushed onto the top of the stack.
+
+3. pop()	
+The method removes an element from the top of the stack and returns the same element as the value of that function.When we pop an element from the stack the
+value of top is decreased by 1.
+Syntax: public E pop()  
+Returns: It returns an object that is at the top of the stack.
+
+4: peek()	
+The method looks at the top element of the stack without removing it.
+Syntax: public E peek()  
+Returns: It returns the top elements of the stack.
+
+5. search(Object o)	
+The method searches the specified object and returns the position of the object.
+Syntax: public int search(Object o)  
+Parameter: o is the desired object to be searched.
+Returns: It returns the object location from the top of the stack. If it returns -1, it means that the object is not on the stack.
+
+MENU DRIVEN PROGRAM FOR STACK OPERATIONS
+
+import java.util.*;
+class arrayStack
+{
+    protected int arr[];
+    protected int top, size, len;
+    public arrayStack(int n)
+    {
+        size = n;
+        len = 0;
+        arr = new int[size];
+        top = -1;
+    }
+    
+    public boolean isEmpty()
+    {
+        return top == -1;
+    }
+    
+    public boolean isFull()
+    {
+        return top == size -1 ;        
+    }
+
+    public int getSize()
+    {
+        return len ;
+    }
+
+    public int peek()
+    {
+        if( isEmpty() )
+            throw new NoSuchElementException("Underflow Exception");
+        return arr[top];
+    }
+
+    public void push(int i)
+    {
+        if(top + 1 >= size)
+            throw new IndexOutOfBoundsException("Overflow Exception");
+        if(top + 1 < size )
+            arr[++top] = i;
+        len++ ;
+    }
+
+    public int pop()
+    {
+        if( isEmpty() )
+            throw new NoSuchElementException("Underflow Exception");
+        len-- ;
+        return arr[top--]; 
+    }    
+
+    public void display()
+    {
+        System.out.print("\nStack = ");
+        if (len == 0)
+        {
+            System.out.print("Empty\n");
+            return ;
+        }
+        for (int i = top; i >= 0; i--)
+            System.out.print(arr[i]+" ");
+        System.out.println();
+    }    
+}
+ 
+
+ public class StackImplement
+ {
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);        
+        System.out.println("Stack Test\n");
+        System.out.println("Enter Size of Integer Stack ");
+        int n = scan.nextInt();
+        arrayStack stk = new arrayStack(n);
+        char ch;
+        do{
+            System.out.println("\nStack Operations");
+            System.out.println("1. push");
+            System.out.println("2. pop");
+            System.out.println("3. peek");
+            System.out.println("4. check empty");
+            System.out.println("5. check full");
+            System.out.println("6. size");
+            int choice = scan.nextInt();
+            switch (choice)
+            {
+            case 1 : 
+                System.out.println("Enter integer element to push");
+                try 
+                {
+                    stk.push( scan.nextInt() );
+                }
+                catch (Exception e)
+                {
+                    System.out.println("Error : " + e.getMessage());
+                }                         
+                break;                         
+            case 2 : 
+                try
+                {
+                    System.out.println("Popped Element = " + stk.pop());
+                }
+                catch (Exception e)
+                {
+                    System.out.println("Error : " + e.getMessage());
+                }    
+                break;                         
+            case 3 :         
+                try
+                {
+                    System.out.println("Peek Element = " + stk.peek());
+                }
+                catch (Exception e)
+                {
+                    System.out.println("Error : " + e.getMessage());
+                }
+                break;                         
+            case 4 : 
+                System.out.println("Empty status = " + stk.isEmpty());
+                break;                
+            case 5 :
+                System.out.println("Full status = " + stk.isFull());
+                break;                 
+            case 6 : 
+                System.out.println("Size = " + stk.getSize());
+                break;                         
+            default : 
+                System.out.println("Wrong Entry \n ");
+                break;
+            }
+
+            stk.display();            
+            System.out.println("\nDo you want to continue (Type y or n) \n");
+            ch = scan.next().charAt(0);
+ 
+        } while (ch == 'Y'|| ch == 'y');                 
+    }
+}
