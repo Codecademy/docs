@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `vector` is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.
+A **vector** is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.
 
 ## Different Ways to Create a Vector
 
