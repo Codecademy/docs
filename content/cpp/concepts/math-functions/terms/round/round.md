@@ -1,6 +1,6 @@
 ---
 Title: 'round()'
-Description: 'Returns the integral value that is nearest to the argument, with halfway cases rounded away from zero.'
+Description: 'Returns the integer that is nearest to the argument, with halfway cases rounded away from zero.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,27 +12,29 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `round()` function returns the integral value that is nearest to the argument, with halfway cases rounded away from zero.
+The `round()` function returns the integer that is nearest to the argument, with halfway cases rounded away from zero.
 
 ## Syntax
 
-The `cmath` library must be added at the top of the file.
-
-```cpp
-std::round(double num);
+```pseudo
+round(num);
 ```
 
-Argument must be a `double`/`float`/`long double`, and the return value will be the type of `integer`.
+The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer.
 
 ## Example
 
 ```cpp
-double num, result;
+double num = 9.23;
+double result;
 
 result = std::round(num);
+
+std::cout << "The result is " << result << "!\n";
+// Output: The result is 9!
 ```
 
-## Codecademy Example
+## Codebyte Example
 
 Use `round()` to round-off `10.89`:
 
