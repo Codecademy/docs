@@ -5,7 +5,9 @@ Subjects:
  - 'Web Development'
  - 'Web Design'
 Tags: 
+ - 'Elements'
  - 'Tags'
+ - 'Style'
  CatalogContent:
  - 'learn-html'
  - 'paths/front-end-engineer-career-path'
