@@ -17,7 +17,7 @@ The **`printf()`** function can print a string to the console, including variabl
 ## Syntax
 
 ```pseudo
-printf(string)
+printf(string, value1, value2 ... valueN)
 ```
 
 The `printf()` function, or "print formatted" function, takes a string with variable placeholders, also known as format specifiers, followed by the values to format in the string.
