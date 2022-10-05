@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`trunc()`** function returns the integral part of the argument. It rounds the argument towards zero and returns the nearest integer that is not greater in magnitude than the argument.
+The **`trunc()`** function returns the integral part of the argument and returns it as a `double` value. The fractional part is truncated, not rounded.
 
 ## Syntax
 
@@ -26,19 +26,19 @@ std::trunc(x);
 #include <cmath>
 
 int main() {
-    double x = 3.14159;
+    double x = -3.14159;
     double result;
 
     result = std::trunc(x);
 
     std::cout << "trunc(" << x << ") = " << result << "\n";
-    // Output: trunc(3.14159) = 3
+    // Output: trunc(3.14159) = -3
 }
 ```
 
 ## Codebyte Example
 
-Use `trunc()` to round the double `12.3456` down to the nearest integer by removing the decimal part:
+Use `trunc()`  to strip off the decimal part  of `12.3456` and return `12`.
 
 ```codebyte/cpp
 #include <iostream>
