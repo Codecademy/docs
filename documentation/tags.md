@@ -186,7 +186,6 @@ NPM
 Numbers
 NumPy
 Objects
-Object Oriented Programming
 Obsolete
 OOP
 Operating Systems

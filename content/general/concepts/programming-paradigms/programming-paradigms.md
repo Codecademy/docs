@@ -7,7 +7,7 @@ Subjects:
 Tags:
   - 'Dynamic Programming'
   - 'Functional Programming'
-  - 'Object Oriented Programming'
+  - 'OOP'
 CatalogContent:
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
