@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the hyperbolic sine of an argument given in radians.
+The **`sinh()`** function returns the hyperbolic sine of an argument given in radians.
 
 ## Syntax
 
