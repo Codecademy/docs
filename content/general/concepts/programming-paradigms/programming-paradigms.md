@@ -15,6 +15,6 @@ CatalogContent:
 
 A **programming paradigm** is an approach to programming. Depending on the language, the preferred paradigm may differ.
 
-Moving from low-level languages (e.g. assembly language) to high-level languages (e.g. Python), programming paradigms change.
+Moving from low-level languages (e.g. [machine code](https://www.codecademy.com/resources/docs/general/machine-code)) to high-level languages (e.g. [Python](https://www.codecademy.com/resources/docs/python)), programming paradigms change.
 
 Below are some of the existing paradigms:
