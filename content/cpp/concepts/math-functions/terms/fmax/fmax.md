@@ -1,6 +1,6 @@
 ---
 Title: 'fmax()'
-Description: 'Returns the larger of the two input arguments.'
+Description: 'Returns the larger of two arguments.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`fmax()`** function returns the larger of the two input arguments.
+The **`fmax()`** function returns the larger of two arguments.
 
 ## Syntax
 
