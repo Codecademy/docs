@@ -10,7 +10,7 @@ Tags:
  - 'learn-html'
  - 'paths/front-end-engineer-career-path'
 ---
-The **`<style>`** element is used to apply a styles to an HTML document
+The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/docs/css) styles to an HTML document.
 
 ## Syntax
 
