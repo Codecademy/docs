@@ -20,7 +20,9 @@ std::sinh(n)
 ```
 
 ## Example
-Use `sinh()` to return the hyperbolic cosine of `0.0` radians:
+
+Use `sinh()` to return the hyperbolic sine of `0.0` radians:
+
 ```cpp
 #include <iostream>
 #include <cmath>
