@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **fmax()** function returns the larger of the two input arguments.
+The **`fmax()`** function returns the larger of the two input arguments.
 
 ## Syntax
 
@@ -20,11 +20,11 @@ The **fmax()** function returns the larger of the two input arguments.
 fmax(x, y)
 ```
 
-If one of the parameters is `NaN`, then the other parameter is returned.
+The parameters `x` and `y` are usually a numeric [data type](https://www.codecademy.com/resources/docs/cpp/data-types) ranging from `-INFINITY` (negative) to `INFINITY` (positive). If one of the parameters is `NAN`, then the other parameter is returned.
 
 ## Example
 
-The following example uses the `fmax()` function to find the smaller value between `3` and `5`:
+The following example uses the `fmax()` function to find the larger value between `3` and `5`:
 
 ```cpp
 #include <iostream>
