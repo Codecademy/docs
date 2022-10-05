@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`puts()`** function, or "put string" function, allow to print a char in the `stdout` file, normally the console followed by a newline character.
+The **`puts()`** function, or "put string" function, allow to print a string to `stdout`, normally the console, followed by a newline character.
 
 ## Syntax
 
