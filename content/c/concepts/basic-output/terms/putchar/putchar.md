@@ -20,7 +20,7 @@ The **`putchar()`** function, or "put character" function allow to print a char 
 putchar(char)
 ```
 
-the **`putchar()`** takes a single `char` as an argument and prints it.
+The **`putchar()`** takes a single `char` as an argument and prints it.
 
 ## Example
 
