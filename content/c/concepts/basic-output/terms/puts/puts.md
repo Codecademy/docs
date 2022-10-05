@@ -38,10 +38,3 @@ The output would be:
 ```shell
 Hello World!
 ```
-
-
-The output would be:
-
-```shell
-a
-```
