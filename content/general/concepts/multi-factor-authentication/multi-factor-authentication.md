@@ -1,5 +1,5 @@
 ---
-Title: 'MFA'
+Title: 'Multi-factor Authentication'
 Description: 'Multi-factor Authentication (MFA) is the use of more than one factor to prove the identity of a user.'
 Subjects:
   - 'Computer Science'
