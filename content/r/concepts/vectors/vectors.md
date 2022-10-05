@@ -15,11 +15,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Vectors are used to store and use multiple data values of the same type that can be accessed later by subsequent code. In R, the indexing of the vectors will start from ‘1’ and not from ‘0’ unlike the other programming languages.
+Vectors are used to store and use multiple data values of the same type that can be accessed later by subsequent code. In R, the indexing of vectors will start from ‘1’ and not from ‘0’ unlike other programming languages.
 
 ## Creating a Vector
 
-In R, vectors are created or initialised using the ‘c’ function which means combining different elements together.
+In R, vectors are created or initialised using the ‘c’ function which means combining different elements of the same type together.
 Vectors can be of different datatypes.
 
 ```r
@@ -35,22 +35,22 @@ marks <- c(90,87,100,79,91)
 Apart from the 'c' function semicolon(:) can also be used to create a vector containing numbers in a range.
 
 ```r
-# This vector numbers contains all the numbers between 1 and 10
+# This vector contains all the numbers between 1 and 10
 numbers <- 1:10
 numbers # output [1,2,3,4,5,6,7,8,9,10]
 ```
 
-In R, Character vectors contain alphanumeric values and special characters.
+In R, character vectors can contain alphanumeric values and special characters.
 
 ```r
-# This vector contains both alphabets and numerics and type of the vector would be character vector type
+# This vector contains both alphabetic and numeric values, and type of the vector would be character vector type
 alphanumerics <- c('water','fire','ice',90)
 alphanumerics # output ['water','fire','ice','90']
 ```
 
 ## Accessing an element in a Vector
 
-There is need to access the elements in vector to perform operations on each elements. The most common way to access the vector elements is by using the Subscript operator [].
+There is need to access the elements in vector to perform operations on each elements. The most common way to access the vector elements is by using the subscript operator [].
 
 ```r
 # accessing elements with an index number as subscript.
@@ -81,11 +81,11 @@ numbers # output [0,5,8,7,9] first element is updated to 0
 
 ## Vector Recycling
 
-Vector Recycling is a process in which two vectors are involved in an operation, that operation needs the vectors to be of same length but the two vectors are of different length, in those cases, R repeats the elements of shorter vector to match the length of longer vector.
+Vector Recycling is a process in which two vectors are involved in an operation where the operation needs the vectors to be of same length and the two vectors are of different length. In those cases, R repeats the elements of shorter vector to match the length of longer vector.
 
-Example for Vector Recycling using Addition Operation :
+Example for Vector Recycling using addition:
 
-Vector Addition requires the two vectors to be of same length.
+Vector addition requires the two vectors to be of same length.
 
 Case 1: When the two vector lengths are equal.
 
