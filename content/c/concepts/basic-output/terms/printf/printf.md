@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-While the `puts()` function can only accept and print a single string, the **`printf()`** function can print variables within a string. So more flexibility!
+The **`printf()`** function can print a string to the console, including variables within the string.
 
 ## Syntax
 
