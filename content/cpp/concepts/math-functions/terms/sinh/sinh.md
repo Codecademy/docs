@@ -18,7 +18,8 @@ The **`sinh()`** function returns the hyperbolic sine of an argument given in ra
 ```cpp
 std::sinh(n)
 ```
-## Example 1
+
+## Example
 Use `sinh()` to return the hyperbolic cosine of `0.0` radians:
 ```cpp
 #include <iostream>
