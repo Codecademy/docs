@@ -1,6 +1,6 @@
 ---
 Title: 'fmin()'
-Description: 'Returns the smaller of the two input arguments.'
+Description: 'Returns the smaller of two arguments.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`fmin()`** function returns the smaller of the two input arguments.
+The **`fmin()`** function returns the smaller of two arguments.
 
 ## Syntax
 
