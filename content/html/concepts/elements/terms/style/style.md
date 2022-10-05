@@ -1,6 +1,6 @@
 ---
 Title: '<style>'
-Description: 'This element is used to apply a simple style sheet to an HTML document'
+Description: 'Applies CSS styles to an HTML document.'
 Subjects:
  - 'Web Development'
  - 'Web Design'
