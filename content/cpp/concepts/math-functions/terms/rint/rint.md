@@ -27,7 +27,7 @@ The rounding direction specified by the `fegetround()` function, with the defaul
 
 ## Example
 
-The following example uses the `rint()` function to find the value of x after rounding off:
+The following example uses the `rint()` function to find the value of `x` after rounding off:
 
 ```cpp
 #include <iostream>
