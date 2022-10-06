@@ -22,7 +22,7 @@ rint(x)
 
 The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same data type.
 
-The rounding direction specified by the `fegetround()` function, with the default direction set as 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
+The rounding direction is specified by the `fegetround()` function, with the default direction set as 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
 
 
 ## Example
