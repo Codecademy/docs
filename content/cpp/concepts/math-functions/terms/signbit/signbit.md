@@ -22,9 +22,6 @@ std::signbit(n);
 ```
 
 Argument must be a `double`/`float`/`long double`/`int`, and the return value will be the same type.
-
-## Notes
-
 This function also detects the signs of zeroes, intfinities and NaNs.
 
 ## Example
