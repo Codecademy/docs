@@ -1,0 +1,66 @@
+---
+Title: 'useEffect()'
+Description: 'Takes in a function and an array. The former will be executed after the current render phase finishes and only if the elements inside the latter has changed from the previous render.'
+Subjects:
+  - 'Web Development'
+Tags:
+  - 'React'
+  - 'useEffect'
+CatalogContent:
+  - 'react-101'
+  - 'paths/front-end-engineer-career-path'
+---
+
+The `useEffect()` hook Takes in a function and an array. The former will be executed after the current render process finishes and only if the elements inside the latter has changed from the previous render.
+
+This hook can be used to run side effects (e.g. call to external API, update another state, etc.) or attach event listeners.
+
+## Syntax
+
+The `useEffect()` hook accepts a function and an array of dependencies as its first and second parameter respectively. This hook doesn't return any value.
+
+```js
+useEffect(
+  () => {
+    // runs side effect here
+  },
+  [] /* array of dependencies */
+);
+```
+
+In case where the array of dependencies is empty `([])`, the effect will only run once when the component mounts.
+
+The function passed as first parameter may also return "cleanup function" which will be executed before the next scheduled effect runs. This chance can be used to remove event listeners or abort an API call.
+
+```js
+useEffect(
+  () => {
+    // runs side effect here
+
+    return () => {
+      // do clean up here
+    };
+  },
+  [] /* array of dependencies */
+);
+```
+
+## Example
+
+Attaching a scroll listener to the `window` object and removing it using the cleanup function
+
+```js
+function PageWrapper() {
+  useEffect(() => {
+    function scrollHandler() {
+      console.log('Current scroll position is', window.scrollTop);
+    }
+
+    window.addEventListener('scroll', scrollHandler);
+
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, []); // runs only once when component mounts
+
+  return <div>Page content...</div>;
+}
+```

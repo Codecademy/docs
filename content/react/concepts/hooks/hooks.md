@@ -29,47 +29,42 @@ Hooks are imported at the top of a file from the `react` library:
 import React, { useState, useEffect } from 'react';
 ```
 
-## Syntax of `useState()`
+## Codebyte Example
 
-Pass an `initialValue` into `useState()` to return a pair of new values:
+In the example below, a user table component calls an external API to populate its columns and rows each time the user clicks Previous/Next
 
-- A current `state` value
-- A function, `setState` that updates the `state`
+- `TableData` and `currentPage` holds the state of the table with the [useState hook](https://www.codecademy.com/resources/docs/react/hooks/useState).
+- `fetchData` is ran every time `currectPage` changes, using the [useEffect hook](https://www.codecademy.com/resources/docs/react/hooks/useEffect).
 
-```jsx
-const [state, setState] = useState(initialValue);
-```
+```js
+function UserTable() {
+  const [tableData, setTableData] = useState([]);
+  const [currentPage, setCurrentPage] = useState(0);
 
-`useState()` returns an array. The first element is the `initialValue` assigned to `state`. The second element is a function with a similar use case as React's `this.setState()` class component method.
+  useEffect(() => {
+    async function fetchData() {
+      const users = await someApiCall(currentPage);
 
-## Syntax of `useEffect()`
+      setTableData(users.data);
+    }
 
-The `useEffect()` hook and function will execute whenever a component mounts or updates. It is equivalent to React's class component lifecycle methods: `componentDidMount()`, `componentDidUpdate()`, and `componentWillUnmount()`.
+    fetchData();
+  }, [currentPage]); // runs everytime currentPage changes
 
-A callback function, `sideEffects()`, is passed into `useEffect()`. In addition, the component's `state` can be accessed inside of `sideEffect()`.
+  function handlePrevClick() {
+    setCurrentPage(Math.max(0, currentPage - 1));
+  }
 
-```jsx
-useEffect(function sideEffects() {
-  ...
-})
-```
+  function handleNextClick() {
+    setCurrentPage(currentPage + 1);
+  }
 
-The default behavior for effects is to invoke the effect after every completed render.
-
-To fire the effect function conditionally, a second argument is passed to `useEffect`. This argument is an array of values that the effect depends on.
-
-**Note:** When registering event listeners inside the effect function, it is not ideal to call them every time a component rerenders. Registering a new listener on every update might cause memory leaks.
-
-```jsx
-useEffect(function sideEffects() {
-  ...
-}, [dep1, dep2, ...]); // Re-runs the effect if a value in the array changes
-```
-
-In the example below, the effect runs the first time a component mounts. Subsequent rerenders don't fire the effect. This might be useful for setting up a subscription to an external service or registering event listeners.
-
-```jsx
-useEffect(function sideEffects() {
-  ...
-}, []); // Runs the effect when a component renders the first time
+  return (
+    <Table
+      data={tableData}
+      onPrevClick={handlePrevClick}
+      onNextClick={handleNextClick}
+    />
+  );
+}
 ```
