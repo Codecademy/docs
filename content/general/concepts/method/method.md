@@ -52,7 +52,7 @@ class Character:
 
 Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
 
-## Methods in Different Langauges
+## Methods in Different Languages
 
 - [Methods in C++](https://www.codecademy.com/resources/docs/cpp/methods)
 - [Methods in Java](https://www.codecademy.com/resources/docs/java/methods)

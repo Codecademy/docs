@@ -22,16 +22,16 @@ Files can also be converted to other formats, however, some features for data di
 
 File formats exist for different types of files. Some common file types and formats are listed below:
 
-### Programing File Formats
+### Programming File Formats
 
 |                                    File Format                                     | Extension | Description                            |
 | :--------------------------------------------------------------------------------: | :-------: | -------------------------------------- |
 |                  [C](https://www.codecademy.com/resources/docs/c)                  |   `.c`    | Contains a C program.                  |
-|                [C++](https://www.codecademy.com/resources/docs/cpp)                |  `.cpp`   | Conatins a C++ program.                |
+|                [C++](https://www.codecademy.com/resources/docs/cpp)                |  `.cpp`   | Contains a C++ program.                |
 |   [CSS (Cascading Style Sheets)](https://www.codecademy.com/resources/docs/css)    |  `.css`   | Contains the styling for an HTML page. |
-|                 [Go](https://www.codecademy.com/resources/docs/go)                 |   `.go`   | Conatins a Go program.                 |
+|                 [Go](https://www.codecademy.com/resources/docs/go)                 |   `.go`   | Contains a Go program.                 |
 | [HTML (HyperText Markup Language)](https://www.codecademy.com/resources/docs/html) |  `.html`  | Contains an HTML web page.             |
-|               [Java](https://www.codecademy.com/resources/docs/java)               |  `.java`  | Conatins a Java program.               |
+|               [Java](https://www.codecademy.com/resources/docs/java)               |  `.java`  | Contains a Java program.               |
 |      [JS (JavaScript)](https://www.codecademy.com/resources/docs/javascript)       |   `.js`   | Contains a JavaScript program.         |
 |   [PHP (Hypertext Preprocessor)](https://www.codecademy.com/resources/docs/php)    |  `.php`   | Contains a PHP program.                |
 |             [Python](https://www.codecademy.com/resources/docs/python)             |   `.py`   | Contains a Python program.             |

@@ -25,7 +25,7 @@ This section describes some important features of the Vim editor.
 - It is able to compare differences between files and merge them.
 - It can search for regular expressions.
 - Users can perform complicated tasks using commands.
-- Users can open files in mulitple tabs.
+- Users can open files in multiple tabs.
 - Users can create macros of a sequence of commands.
 - Users can save sessions to start where you left off last time.
 

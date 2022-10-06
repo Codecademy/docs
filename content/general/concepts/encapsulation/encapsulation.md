@@ -19,7 +19,7 @@ Most of the time encapsulation can be achieved by creating [classes](https://www
 
 ## Python Example
 
-In the following [Python](https://www.codecademy.com/resources/docs/python) example, a `Robot` class is created with a `__version` property, initialized as a nubmer. Getter and setter methods are made to allow any instance of `Robot` to be set with a `__version` and have it changed later]:
+In the following [Python](https://www.codecademy.com/resources/docs/python) example, a `Robot` class is created with a `__version` property, initialized as a number. Getter and setter methods are made to allow any instance of `Robot` to be set with a `__version` and have it changed later]:
 
 ```py
 class Robot(object):
