@@ -63,7 +63,7 @@ h1 {
 
 ## Example 2
 
-Setting an `h2` font with all seven properties in one decleration.
+Setting an `h2` font with all seven properties in one declaration.
 
 ```css
 h2 {

@@ -40,6 +40,6 @@ All the nested elements inside the grid container element are called _grid items
 
 The difference between the values `inline-grid` and `grid` is that the `inline-grid` will make the element inline while `grid` will make it a block-level element.
 
-- Grid columns are the verticle lines of the grid items.
+- Grid columns are the vertical lines of the grid items.
 - Grid rows are the horizontal lines of grid items.
 - Grid gaps are the spaces between each column/row.

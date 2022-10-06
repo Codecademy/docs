@@ -48,7 +48,7 @@ The `float` property primarily uses the following three values:
   <br />
   <br />
   <br />
-  <p>This example shows CSS floats and I wont float at all.</p>
+  <p>This example shows CSS floats and I will not float at all.</p>
 </section>
 ```
 

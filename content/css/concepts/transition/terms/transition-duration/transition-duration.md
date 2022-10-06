@@ -20,7 +20,7 @@ Specifies how long an elements transition should take to complete.
 transition-duration: <value>;
 ```
 
-The `transition-duration` value can be specified by one of the folllowing:
+The `transition-duration` value can be specified by one of the following:
 
 - Seconds: `2s`
 - Milliseconds: `125ms`
@@ -39,7 +39,7 @@ h1 {
 
 ## Example 2
 
-Setting a `div` elements height transition to last `4` seconds and color transiton to last `200` milliseconds.
+Setting a `div` elements height transition to last `4` seconds and color transition to last `200` milliseconds.
 
 ```css
 div {
