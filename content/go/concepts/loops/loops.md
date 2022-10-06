@@ -55,7 +55,7 @@ The loop will execute as long as `condition` remains true.
 
 ### Example
 
-This example behaves exactly the same way as the prior example, except the variable `countdown` is initalized outside the loop, and is decremented inside the loop itself. The condition still runs the loop as long as `countdown` is still greater than zero.
+This example behaves exactly the same way as the prior example, except the variable `countdown` is initialized outside the loop, and is decremented inside the loop itself. The condition still runs the loop as long as `countdown` is still greater than zero.
 
 ```go
 countdown := 10
