@@ -20,7 +20,7 @@ The **`fmin()`** function returns the smaller of two arguments.
 fmin(x, y)
 ```
 
-The parameters `x` and `y` are usually a numeric [data type](https://www.codecademy.com/resources/docs/cpp/data-types) ranging from `-INFINITY` (negative) to `INFINITY` (positive). If one of the parameters is `NAN`, then the other parameter is returned.
+The parameters `x` and `y` are usually a numeric [data type](https://www.codecademy.com/resources/docs/cpp/data-types) ranging from negative `-INFINITY` to positive `INFINITY`. If one of the parameters is `NaN`, then the other parameter is returned.
 
 ## Example
 
@@ -47,7 +47,7 @@ The smaller value between 3 and 5 is 3
 
 ## Codebyte Example
 
-The following example is runnable and returns the smaller value between `-32.123` and `-32.231`:
+The following example returns the smaller value between `-32.123` and `-32.231`:
 
 ```codebyte/cpp
 #include <iostream>
