@@ -20,7 +20,7 @@ The **`rint()`** function rounds the argument to an integral value using the cur
 rint(x)
 ```
 
-Argument must be a `double`/`float`/`long double`, and the return value will be same type.
+The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same data type.
 
 ## Return value
 
