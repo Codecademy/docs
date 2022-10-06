@@ -49,7 +49,7 @@ int main() {
 
 ## Example 2
 
-Use `cosh()` to return the hyperbolic cosine of `1.0` radians.
+This example uses `cosh()` to return the hyperbolic cosine of `1.0` radians:
 
 
 ```cpp
