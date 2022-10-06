@@ -24,7 +24,7 @@ git commit
 
 ### Step 1: Files Ready
 
-Before using `git commit`, make sure to have all the neccessary files staged for the commit.
+Before using `git commit`, make sure to have all the necessary files staged for the commit.
 
 ```shell
 git add filename
