@@ -47,7 +47,7 @@ The next step is to use this object to open a request to a server using the `.op
 ```js
 request.open('GET', 'http://www.example.org/example.txt');
 
-// For just retreiving data
+// For just retrieving data
 request.send();
 
 // For updating data (POST, PUTS, etc.)

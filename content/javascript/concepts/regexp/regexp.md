@@ -98,7 +98,7 @@ The following characters are used to define a Regular Expression string.
 
 ### Assertions
 
-The following match the boundries between characters, not the characters themselves.
+The following match the boundaries between characters, not the characters themselves.
 
 | Characters | Meaning                                                                                                                                                                  |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -192,9 +192,9 @@ Indicate groups and ranges of characters to match.
 | `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                |
 | `[^a-c]`                             | Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*                                                   |
 | `(x)`                                | Matches `x` and remembers the match, capturing the group.                                                                                         |
-| <code>\\<i>n</i></code>              | Where <code><i>n</i></code> is a positive integer, represents a back refrence to the last substring matching the _n<sup>th</sup>_ captured group. |
+| <code>\\<i>n</i></code>              | Where <code><i>n</i></code> is a positive integer, represents a back reference to the last substring matching the _n<sup>th</sup>_ captured group. |
 | <code>(?&lt;<i>Name</i>&gt;x)</code> | Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.                                 |
-| <code>\\k&lt;<i>Name</i>&gt;</code>  | Represents a back refrence to the last substring matched in the named capturing group specified by <code><i>Name</i></code>.                      |
+| <code>\\k&lt;<i>Name</i>&gt;</code>  | Represents a back reference to the last substring matched in the named capturing group specified by <code><i>Name</i></code>.                      |
 | `(?:x)`                              | Represents a non-capturing group. Matches `x` but does not remember the match.                                                                    |
 
 \* If the hyphen falls at the start or end of the sequence in brackets, it is treated as a literal hyphen.
@@ -235,7 +235,7 @@ By default, these quatifiers are greedy, matching as much of the string as possi
 #### Examples
 
 ```javascript
-let str = 'Billy bought a bushel of blue baloons.';
+let str = 'Billy bought a bushel of blue balloons.';
 
 let re = /b.?l+/gi;
 console.log(str.replace(re, 'x'));

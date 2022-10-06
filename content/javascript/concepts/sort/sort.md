@@ -1,6 +1,6 @@
 ---
 Title: 'Sort'
-Description: 'In JavaScript, the .sort() method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. The .sort() method allows the passing of a comparison function to change the ordering of the sort. javascript // Preform the default sort somearray.sort() // Perform the sort using an arrow function for comparisons somearray.sort((A, B) => { ... } )'
+Description: 'In JavaScript, the .sort() method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order. The .sort() method allows the passing of a comparison function to change the ordering of the sort. javascript // Perform the default sort somearray.sort() // Perform the sort using an arrow function for comparisons somearray.sort((A, B) => { ... } )'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -20,7 +20,7 @@ The `.sort()` method allows the passing of a comparison function to change the o
 ## Syntax
 
 ```javascript
-// Preform the default sort
+// Perform the default sort
 somearray.sort()
 
 // Perform the sort using an arrow function for comparisons

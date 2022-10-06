@@ -27,7 +27,7 @@ With an empty array
 
 ```js
 Promise.allSettled([]).then((values) => {
-  console.log(values); // Ouput: []
+  console.log(values); // Output: []
 });
 ```
 

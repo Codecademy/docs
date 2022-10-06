@@ -24,7 +24,7 @@ map.size;
 
 ## Example
 
-Assumming there is a map of `fruits` with two key-value pairs: `'Apples' : 5` and `'Oranges' : 8`.
+Assuming there is a map of `fruits` with two key-value pairs: `'Apples' : 5` and `'Oranges' : 8`.
 
 ```js
 const fruits = new Map([
