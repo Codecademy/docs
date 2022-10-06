@@ -18,7 +18,7 @@ The **`nearbyint()`** function returns an integer that is closest to a given flo
 ```pseudo
 nearbyint(n)
 ```
-The function takes the argument `n` which represents the positive or any non-negative value.
+The function takes the argument `n` which represents the positive or any non-negative floating point value. If the last decimal value of `n` is 5 or greater than 5 then the function returns an integer value greater than `n`.
 
 ### Example
 
