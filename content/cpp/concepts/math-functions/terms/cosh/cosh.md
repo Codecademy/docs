@@ -24,7 +24,7 @@ Return type is double, float or long double.
 If the magnitude of the result is too large in terms of the return type, the function returns HUGE_VAL with the proper sign, and an overflow range error occurs.
 
 ## Mathematic Formula:
-cosh(x) =  (e <sup>x</sup> + e<sup>−x</sup> )/2
+cosh(x) =  (e<sup>x</sup> + e<sup>−x</sup> )/2
 
 ## Example 1
 
