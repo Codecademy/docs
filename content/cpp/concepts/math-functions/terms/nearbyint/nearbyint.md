@@ -24,7 +24,7 @@ The function takes the argument `n` which represents the positive or any non-neg
 
 The following example returns the nearby integer of `1.5`:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
