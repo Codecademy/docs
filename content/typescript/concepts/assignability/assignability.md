@@ -15,7 +15,7 @@ Assignability is how TypeScript can determine whether a value of a particular da
 
 ## When/where assignability takes place
 
-TypeScript perfoms assignability checks whenever a value is being assigned into another location in the computer's memory, such as:
+TypeScript performs assignability checks whenever a value is being assigned into another location in the computer's memory, such as:
 
 - Assigning values to variables.
 - Passing arguments to functions.
@@ -69,7 +69,7 @@ receiveSkeleton({
   scary: true,
 });
 
-// Ouptut --> Error: Type 'string' is not assignable to type 'boolean'
+// Output --> Error: Type 'string' is not assignable to type 'boolean'
 ```
 
 This third and final example throws an `Error` because the object we passed to `receiveSkeleton` was missing a `scary` property.

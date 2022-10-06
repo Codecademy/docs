@@ -32,7 +32,7 @@ logAgeAndName('Mulan', 16);
 // Argument of type 'string' is not assignable to parameter of type 'number'
 ```
 
-The last use of `logAgeAndName()` shows that the order of the parameters passed to the function matter. The first agrument is expected to be of type `number` while the second is inferred to be of type `string`.
+The last use of `logAgeAndName()` shows that the order of the parameters passed to the function matter. The first argument is expected to be of type `number` while the second is inferred to be of type `string`.
 
 ### Optional Parameters
 
