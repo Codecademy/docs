@@ -19,7 +19,7 @@ The **`cosh()`** function returns the hyperbolic cosine of an argument given in 
 std::cosh(n)
 ```
 where `n` is the angle in `radians`
-`Return type is double, float or long double.
+Return type is double, float or long double.
 
 If the magnitude of the result is too large in terms of the return type, the function returns HUGE_VAL with the proper sign, and an overflow range error occurs.
 
