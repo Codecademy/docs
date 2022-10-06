@@ -20,6 +20,9 @@ Vectors are used to store and use multiple data values of the same type that can
 ## Creating a Vector
 
 In R, vectors are created or initialised using the ‘c’ function which means combining different elements of the same type together.
+
+
+
 Vectors can be of different datatypes.
 
 ```r
@@ -43,14 +46,14 @@ numbers # output [1,2,3,4,5,6,7,8,9,10]
 In R, character vectors can contain alphanumeric values and special characters.
 
 ```r
-# This vector contains both alphabetic and numeric values, and type of the vector would be character vector type
+# This vector contains both alphabetic and numeric values, and would be a character vector type
 alphanumerics <- c('water','fire','ice',90)
 alphanumerics # output ['water','fire','ice','90']
 ```
 
 ## Accessing an element in a Vector
 
-There is need to access the elements in vector to perform operations on each elements. The most common way to access the vector elements is by using the subscript operator [].
+There is need to access the elements in vector to perform operations on each element. The most common way to access the vector elements is by using the subscript operator [].
 
 ```r
 # accessing elements with an index number as subscript.
@@ -81,9 +84,9 @@ numbers # output [0,5,8,7,9] first element is updated to 0
 
 ## Vector Recycling
 
-Vector Recycling is a process in which two vectors are involved in an operation where the operation needs the vectors to be of same length and the two vectors are of different length. In those cases, R repeats the elements of shorter vector to match the length of longer vector.
+Vector recycling is a process in which two vectors are involved in an operation where the operation needs the vectors to be of same length and the two vectors are of different length. In those cases, R repeats the elements of shorter vector to match the length of longer vector.
 
-Example for Vector Recycling using addition:
+Example for vector recycling using addition:
 
 Vector addition requires the two vectors to be of same length.
 
@@ -101,8 +104,8 @@ Case 2: When the vector lengths are not the same.
 numbers1 <- c(1,2,3,4,5,6)
 numbers2 <- c(3,4)
 sum <- numbers1 + numbers2 # output [4,6,6,8,8,10]
-# here 1 is added with 3 and then 2 is added with 4 now numbers2 vector end is reached
-# Now to complete the addition operation R repeats the smaller vector till the larger vector end is reached
-# Therefore, 3 is added with 3 and 4 is added with 4 then 5 is added with 3 and 6 is added with 4
-# This process is called as Vector Recycling
+# Here 1 is added with 3 and then 2 is added with 4. Now numbers2 vector end is reached.
+# Now to complete the addition operation R repeats the smaller vector till the larger vector end is reached.
+# Therefore, 3 is added with 3 and 4 is added with 4 then 5 is added with 3 and 6 is added with 4.4
+# This process is called as vector recycling.
 ```
