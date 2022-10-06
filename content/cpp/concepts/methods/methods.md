@@ -90,7 +90,7 @@ class Person{
 int main() {
   Person robert;
 
-  // Sets the name class memeber
+  // Sets the name class member
   robert.set_name("Robert");
 
   // Prints "Robert"
