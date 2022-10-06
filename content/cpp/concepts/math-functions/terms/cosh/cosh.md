@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The *cosh* function returns the hyperbolic cosine of an argument given in radians.
+The **`cosh()`** function returns the hyperbolic cosine of an argument given in radians.
 
 ## Syntax
 
