@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `round()` function returns the integer that is nearest to the argument, with halfway cases rounded away from zero.
+The **`round()`** function returns the integer that is closest to the argument, with halfway cases rounded away from zero.
 
 ## Syntax
 
@@ -21,8 +21,23 @@ round(num);
 ```
 
 The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer.
+In `halfway case` the number get round-off to the next closest integer.
 
-## Example
+## Example 1
+
+```cpp
+double num = 4.5;
+double result;
+
+result = std::round(num);
+
+std::cout << "The result is " << result << "!\n";
+// Output: The result is 5!
+
+```
+
+
+## Example 2
 
 ```cpp
 double num = 9.23;
@@ -36,7 +51,7 @@ std::cout << "The result is " << result << "!\n";
 
 ## Codebyte Example
 
-Use `round()` to round-off `10.89`:
+The following example is runnable and rounds the halfway case away from zero:
 
 ```codebyte/cpp
 #include <iostream>
