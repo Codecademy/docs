@@ -1,6 +1,6 @@
 ---
 Title: 'nearbyint()'
-Description: 'Round off the given argument(value) to the nearest integral value.'
+Description: 'Returns an integer that is closest to a given argument.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,17 +11,18 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `cmath` header defines `nearbyint()` function that returns the nearby integral value of a given argument. It takes a single argument as a floating point value and returns the round off value of the argument as an integer.
+The **`nearbyint()`** function returns an integer that is closest to a given floating point argument.
 
 ## Syntax
 
-```py
+```pseudo
 nearbyint(n)
 ```
+The function takes the argument `n` which represents the positive or any non-negative value.
 
-### Example 1
+### Example
 
-The following example returns the nearby integral value of `1.5`:
+The following example returns the nearby integer of `1.5`:
 
 ```cpp
 #include <iostream>
@@ -38,11 +39,11 @@ int main()
 }
 ```
 
-### Example 2
+### Codebyte Example
 
-The following example returns the nearby integral value of the `2.9`:
+The following example returns the nearby integer of `2.9`:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
@@ -53,6 +54,5 @@ int main()
     result = std::nearbyint(value);
 
     std::cout << "Nearest value is " << result << "\n";
-    // Output: Nearest value is 3
 }
 ```
