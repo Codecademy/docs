@@ -21,7 +21,7 @@ Vectors are used to store and use multiple data values of the same type that can
 
 In R, vectors are created or initialised using the ‘c’ function which means combining different elements of the same type together.
 
-
+## Vector Types
 
 Vectors can be of different datatypes.
 
