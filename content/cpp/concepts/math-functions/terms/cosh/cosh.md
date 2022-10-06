@@ -28,7 +28,7 @@ cosh(x) =  (e<sup>x</sup> + e<sup>−x</sup> )/2
 
 ## Example 1
 
-Use `cosh()` to return the hyperbolic cosine of `0.0` radians.
+This example uses `cosh()` to return the hyperbolic cosine of `0.0` radians:
 
 
 ```cpp
