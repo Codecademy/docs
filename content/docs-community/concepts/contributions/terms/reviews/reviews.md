@@ -38,10 +38,10 @@ There are some cases where a PR will be closed by a CFT member due to one or mor
 
 A PR is closed and marked as a "duplicate" if it pertains to the same file(s) as another existing PR.
 
-A PR is closed and marked as "invalid" for one or more of the following:
+A PR is closed and marked with "invalid" or "won't fix" for one or more of the following:
 
-- If there is inactivity by the contributor over a 2-week period.
+- If there is inactivity on the PR over a 2-week period.
   - Two weeks is deemed a reasonable time window for allowing new changes to be pushed to and reviewed in a PR.
-  - CFT members may check in with the contributor for updates on the PR prior to closing.
-  - If the PR is too far along (i.e., some reviews are already approved), then the CFT has the discretion of pushing requested changes directly to the PR.
 - The content does not meet or pass standard formatting, quality, and plagiarism checks.
+
+> **Note:** CFT members may check in with the contributor for updates on the PR prior to closing. If the PR is too far along (i.e., some reviews are already approved), then the CFT has the discretion of pushing requested changes directly to the PR.

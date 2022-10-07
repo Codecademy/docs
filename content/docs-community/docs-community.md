@@ -1,6 +1,6 @@
 ---
 Title: 'Docs Community' # This is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
-Description: 'Docs is community-driven and involves ccontributing to a repository and writing entries that cover many topics, concepts, and terms.'
+Description: 'Docs is community-driven and involves contributing to a repository and writing entries that cover many topics, concepts, and terms.'
 CatalogContent:
   - 'introduction-to-open-source'
   - 'paths/code-foundations'
