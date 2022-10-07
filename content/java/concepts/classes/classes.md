@@ -74,7 +74,7 @@ Alice is 27.
 
 ## Abstract Classes
 
-Classes can also use the `abstract` keyword to supply common method implementations to multiple subclasses. Any class that contains abstraction (e.g. methods, fields, etc.), then it must also be abstract:
+Classes can also use the `abstract` keyword to supply common method implementations to multiple subclasses. Any class that contains abstraction (methods, fields, etc.), then it must also be abstract:
 
 ```java
 abstract class Person {
