@@ -19,7 +19,7 @@ The `.sort()` method allows the passing of a comparison function to change the o
 
 ## Syntax
 
-```javascript
+```pseudo
 // Perform the default sort
 somearray.sort()
 
