@@ -16,7 +16,7 @@ Elements of an array are converted to strings and concatenated together, returni
 
 ## Syntax
 
-```js
+```pseudo
 array.join(separator);
 ```
 
