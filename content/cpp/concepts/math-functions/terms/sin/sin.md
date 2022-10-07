@@ -41,5 +41,5 @@ int main()
 This results in the following output:
 
 ```cpp
-Sine of 60 degrees is 0.86576   
+Sine of 60 degrees is 0.866025   
 ```
