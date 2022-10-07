@@ -1,6 +1,6 @@
 ---
 Title: 'sin()'
-Description: 'Returns the sine of an angle given in radians in the range [-1,1].'
+Description: 'Returns the sine of an angle, given in radians, in the range [-1,1].'
 Subjects:
   - 'Computer Science'
 Tags:
