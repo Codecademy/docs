@@ -1,7 +1,6 @@
 ---
 Title: 'VStack'
-Description: 'The VStack view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom).
-'
+Description: 'The VStack view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom).'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -31,6 +30,8 @@ The `VStack` view rests within the body of a `View`.
 
 ## Example
 
+In the example below, two `Text` subviews are nested in the `VStack`:
+
 ```swift
 var body: some View {
   VStack {
@@ -39,8 +40,6 @@ var body: some View {
   }
 }
 ```
-
-In the example above, two `Text` subviews are nested in the `VStack`.
 
 This will display the following:
 

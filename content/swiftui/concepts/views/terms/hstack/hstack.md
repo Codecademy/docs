@@ -30,6 +30,8 @@ The `HStack` view rests within the body of a `View`.
 
 ## Example
 
+In the example below, two `Text` subviews are nested in the `HStack`:
+
 ```swift
 var body: some View {
   HStack {
@@ -38,8 +40,6 @@ var body: some View {
   }
 }
 ```
-
-In the example above, two `Text` subviews are nested in the `HStack`.
 
 This will display the following:
 

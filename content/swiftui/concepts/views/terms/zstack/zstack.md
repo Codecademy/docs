@@ -1,6 +1,6 @@
 ---
 Title: 'ZStack'
-Description: 'The ZStack view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front)'
+Description: 'The ZStack view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front).'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -30,6 +30,8 @@ The `ZStack` view rests within the body of `View`.
 
 ## Example
 
+In the snippet below, two `Rectangle` subviews are stacked on top of one-another:
+
 ```swift
 var body: some View {
   ZStack {
@@ -44,7 +46,7 @@ var body: some View {
 }
 ```
 
-In the snippet above, two `Rectangle` subviews are stacked on top of one-another. Order matters here; the bottom-most subview will appear on top. For visual clarity, the top-most rectangle view's x- and y-coordinates were offset by `25`.
+Order matters here; the bottom-most subview will appear on top. For visual clarity, the top-most rectangle view's x- and y-coordinates were offset by `25`.
 
 This will display the following:
 
