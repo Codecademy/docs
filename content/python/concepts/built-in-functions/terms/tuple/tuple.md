@@ -28,7 +28,7 @@ The `iterable` parameter is optional and is an object that can be looped over, s
 The following example showcases how the `tuple()` function is used to create a new tuple:
 
 ```codebyte/python
-my_tuple = tuple(1, 2, 3)
+my_tuple = tuple((1, 2, 3))
 
 print(my_tuple)
 ```
