@@ -11,19 +11,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the hyperbolic sine of an argument given in radians.
+The **`sinh()`** function returns the hyperbolic sine of an argument given in radians.
 
 ## Syntax
 
 ```cpp
-std::sinh(n)
+sinh(angle)
 ```
-## Example 1
-Use `sinh()` to return the hyperbolic cosine of `0.0` radians:
+
+The `angle` parameter should be expressed in radians. To convert from degrees to radians:
 
 ```
 radians = degrees * PI / 180
 ```
+
+## Example
+
+The following example uses `sinh()` to return the hyperbolic sine of `0.0` in radians:
 
 ```cpp
 #include <iostream>
