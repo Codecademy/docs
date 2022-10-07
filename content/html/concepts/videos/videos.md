@@ -65,8 +65,8 @@ Sources are written in preference order, so that the first source listed is play
 
 It is generally discouraged to use videos as the background for a webpage. In many cases a static image should be considered instead in order to avoid any potential issues caused by moving images as well as to better support users with screen readers. However, if a video must be used as a background, a few key steps should be taken to best support the most users:
 
-- If the video is purely decorative, use `aria-hidden="true"` to denote to screen readers that the video provides no additional context or content and is purely decorative
-- Use the `prefers-reduced-motion` CSS media query in order to disable autoplaying videos for certain users
+- If the video is purely decorative, `aria-hidden="true"` can denote to screen readers that the video provides no additional context or content and is purely decorative.
+- The `prefers-reduced-motion` CSS media query can be used to disable autoplaying videos for certain users.
 
 To convey the same content to users who are not able to view videos, provide either sufficient captions or aria descriptions for the video.
 
