@@ -31,9 +31,10 @@ The following example illustrates the `sin()` function:
 using namespace std;  
 int main()  
 {  
+  // convert degrees to radians
+  double pi = M_PI;
   double degree = 60;  
-  //convert degree to radian
-  double radian = degree*3.14/180;  
+  double radian = degree * pi/180;  
   cout << "Sine of 60 degrees is " << sin(radian);  
   return 0;  
 }  
