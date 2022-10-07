@@ -23,7 +23,7 @@ The `angle` parameter should be expressed in radians. To convert from degrees to
 
 ## Example
 
-Use `sinh()` to return the hyperbolic sine of `0.0` radians:
+The following example uses `sinh()` to return the hyperbolic sine of `0.0` in radians:
 
 ```cpp
 #include <iostream>
