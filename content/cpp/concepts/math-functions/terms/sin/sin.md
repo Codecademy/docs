@@ -34,7 +34,7 @@ int main()
   double degree = 60;  
   //convert degree to radian
   double radian = degree*3.14/180;  
-  cout<<"Sine of 60 degrees is "<<sin(radian);  
+  cout << "Sine of 60 degrees is " << sin(radian);  
   return 0;  
 }  
 ```
