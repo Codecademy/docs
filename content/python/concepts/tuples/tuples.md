@@ -43,7 +43,7 @@ There are multiple ways to create tuples in Python:
 > **Note**: If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python may interpret the surrounding parentheses as an expression instead of a tuple:
 >
 > ```py
-> # This is will be treated as an int, not a tuple.
+> # This will be treated as an int, not a tuple.
 > streaming_days = (3)
 >
 > print(f"Value is {streaming_days}. Type is {type  > (streaming_days)}")
