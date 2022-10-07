@@ -35,7 +35,7 @@ int main()  {
   double pi = M_PI;
   double degree = 60;  
   double radian = degree * pi/180;  
-  cout << "Sine of 60 degrees is " << sin(radian);  
+  cout << "Sine of 60 degrees is " << sin(radian) << "\n";  
   return 0;  
 }  
 ```
