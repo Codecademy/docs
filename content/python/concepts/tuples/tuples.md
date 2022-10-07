@@ -31,7 +31,7 @@ tuple = (value1, value2, ..., valueN)
 # With parentheses (single item with a trailing comma)
 tuple = (singleValue, )
 
-# With no parentheses (but with trailing comma)
+# With no parentheses (but with a trailing comma)
 tuple = singleValue,
 ```
 
