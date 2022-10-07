@@ -18,18 +18,19 @@ The **`cosh()`** function returns the hyperbolic cosine of an argument given in 
 ```cpp
 std::cosh(n)
 ```
+
 where `n` is the angle in `radians`
 Return type is double, float or long double.
 
 If the magnitude of the result is too large in terms of the return type, the function returns HUGE_VAL with the proper sign, and an overflow range error occurs.
 
-## Mathematic Formula:
-cosh(x) =  (e<sup>x</sup> + e<sup>−x</sup> )/2
+## Mathematic Formula
+
+cosh(x) = (e<sup>x</sup> + e<sup>−x</sup> )/2
 
 ## Example 1
 
 This example uses `cosh()` to return the hyperbolic cosine of `0.0` radians:
-
 
 ```cpp
 #include <iostream>
@@ -46,11 +47,9 @@ int main() {
 }
 ```
 
-
 ## Example 2
 
 This example uses `cosh()` to return the hyperbolic cosine of `1.0` radians:
-
 
 ```cpp
 #include <iostream>
@@ -65,3 +64,4 @@ int main() {
   std::cout << "The hyperbolic cosine of " << x << " radians is " << result << "\n";
   // Output: The hyperbolic cosine of 1.0 radians is 1.54308
 }
+```
