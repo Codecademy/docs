@@ -134,7 +134,7 @@ print(tuple_1 + tuple_2)
 
 Tuples are like lists in that they are ordered and their elements can be accessed by index. However, since tuples are immutable, existing elements cannot be modified or deleted, and new elements can't be added.
 
-The following example attempts to re-assign an element to a existing tuple, which will throw a `TypeError`:
+The following example attempts to re-assign an element to an existing tuple, which will throw a `TypeError`:
 
 ```codebyte/python
 streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
