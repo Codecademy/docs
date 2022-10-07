@@ -21,7 +21,7 @@ The `.sort()` method allows the passing of a comparison function to change the o
 
 ```pseudo
 // Perform the default sort
-somearray.sort()
+someArray.sort()
 
 // Perform the sort using an arrow function for comparisons
 somearray.sort((A, B) => { ... } )
