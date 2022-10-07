@@ -73,7 +73,7 @@ Output:
 """
 ```
 
-> **Note:** The amount of variables must be equal to the amount of values in the tuple. Otherwise, an asterisk (`*`) must be used to gather the remaining values in a list:
+> **Note:** The number of variables must be equal to the number of values in the tuple. Otherwise, an asterisk (`*`) must be used to gather the remaining values in a list:
 >
 > ```py
 > # packed tuple
