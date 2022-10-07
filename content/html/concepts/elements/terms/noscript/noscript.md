@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<noscript>`** element displays its contents whenever [Javascript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser.
+The **`<noscript>`** element displays its contents whenever [JavaScript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser.
 
 ## Syntax
 
-```html
+```pseudo
 <noscript>
   <!-- What should display if JavaScript is not enabled or supported. -->
 </noscript>

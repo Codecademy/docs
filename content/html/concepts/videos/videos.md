@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Embedding videos within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium.
+Embedding **videos** within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium.
 
 ## Choosing a Video Codec and Format
 
@@ -44,10 +44,10 @@ Below is an example of how a video is commonly inserted into a page:
 
 This example:
 
-- Sets the `control` attribute to have the browser offer playback controls to the user
-- Provides a thumbnail for the video with `poster="spooky_ghost.jpg"`
-- Declares the source file for the video, `spooky_ghost.mp4`, and its MIME type, `video/mp4`
-- Provides a fallback text that allows the user to download the video instead
+- Sets the `control` attribute to have the browser offer playback controls to the user.
+- Provides a thumbnail for the video with `poster="spooky_ghost.jpg"`.
+- Declares the source file for the video, `spooky_ghost.mp4`, and its MIME type, `video/mp4`.
+- Provides a fallback text that allows the user to download the video instead.
 
 Sources are written in preference order, so that the first source listed is played if the browser supports it, with the subsequent sources acting as a fallback. This is usually used to try newer video formats while also providing a fallback for better compatibility. To modify the original example to support the `AV1` video codec and fallback to the `H.264` video codec:
 
@@ -72,9 +72,9 @@ To convey the same content to users who are not able to view videos, provide eit
 
 Captions can be added as a child of the `<video>` element using the `<track>` tag with the following key attributes:
 
-- `kind` to describe the text track. Here is it is a `caption`, but it can also be `subtitles` or `metadata`
-- `label` is how this option is represented in the user interface
-- `srclang` represents the language for the caption
+- `kind` to describe the text track. Here is it is a `caption`, but it can also be `subtitles` or `metadata`.
+- `label` is how this option is represented in the user interface.
+- `srclang` represents the language for the caption.
 - `src` is the actual location of the caption track. Text tracks such as subtitles and captions use the `WebVTT` format as indicated by the `.vtt` extension.
 
 ```html

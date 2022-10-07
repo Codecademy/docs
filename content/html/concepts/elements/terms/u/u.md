@@ -15,11 +15,11 @@ CatalogContent:
 
 The **`<u>`** element is used to mark HTML text to be displayed with a non-textual annotation. The default rendering of this tag is a simple solid underline, but it may be altered using [CSS](https://www.codecademy.com/resources/docs/css).
 
-**Note:** Original legacy usage of this tag was just to underline text, but it should now be avoided for solely styling text. Modern best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used for underlining text is [`text-decoration`](https://www.codecademy.com/resources/docs/css/typography/text-decoration).
+>**Note:** Original legacy usage of this tag was just to underline text, but it should now be avoided for solely styling text. Modern best practice to use [CSS](https://www.codecademy.com/resources/docs/css) for text formatting. The CSS element used for underlining text is [`text-decoration`](https://www.codecademy.com/resources/docs/css/typography/text-decoration).
 
 ## Syntax
 
-```html
+```pseudo
 <u>
   <!-- Text that should be annotated goes here -->
 </u>
