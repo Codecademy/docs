@@ -45,7 +45,7 @@ Every instance has access to its own set of variables known as instance fields. 
 For example, `Bob` and `Alice` may each be defined as instances of the class called `Person` with the `new` keyword:
 
 ```java
-//Person.java
+// Person.java
 public class Person {
   int age;
   String name;
