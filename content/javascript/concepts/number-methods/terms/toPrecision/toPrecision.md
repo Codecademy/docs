@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toPrecision()` method converts a number to a string of its specified precision form.
+The **`.toPrecision()`** method converts a number to a [string](https://www.codecademy.com/resources/docs/javascript/strings) of its specified precision form.
 
 ## Syntax
 
