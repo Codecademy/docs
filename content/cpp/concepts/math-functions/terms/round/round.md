@@ -1,6 +1,6 @@
 ---
 Title: 'round()'
-Description: 'Returns the integer that is nearest to the argument, with halfway cases rounded away from zero.'
+Description: 'Returns the integer that is nearest to the argument, with halfway cases rounded away from the ending zero.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`round()`** function returns the integer that is closest to the argument, with halfway cases rounded away from zero.
+The **`round()`** function returns the integer that is closest to the argument, with halfway cases rounded away from the ending zero.
 
 ## Syntax
 
@@ -43,6 +43,13 @@ int main() {
 
   std::cout << "The result of round(4.5) is " << result2 << "!\n";
 }
+```
+
+This produces the following output:
+
+```shell
+The result of round(9.23) is 9!
+The result of round(4.5) is 5!
 ```
 
 ## Codebyte Example
