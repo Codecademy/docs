@@ -40,7 +40,6 @@ function requestListener() {
 request.addEventListener('load', requestListener);
 ```
 
-<link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-ajax/" />
 
 The next step is to use this object to open a request to a server using the `.open()` method, which accepts two parameters. The first is the HTTP request method to use like "GET", "POST", and "DELETE". The second is the resource being fetched, usually a URL. Then, the request can be sent with the `.send()` method:
 

@@ -5,15 +5,16 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
+  - 'Arguments'
+  - 'ES6'  
   - 'Functions'
   - 'Parameters'
-  - 'Arguments'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](../javascript/functions) syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
+Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](https://www.codecademy.com/resources/docs/javascript/functions) syntax. The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
 
 There are several variations of arrow functions:
 
@@ -66,7 +67,7 @@ console.log(multiply(2, 30));
 
 ## Limitations
 
-- Arrow functions do not have their own bindings to `this` or `super`, and should not be used as methods.
+- Arrow functions do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as methods.
 - Arrow functions cannot be used as constructors.
 - Arrow functions cannot use `yield`, within its body.
 - Arrow functions cannot use the special `arguments` keyword.

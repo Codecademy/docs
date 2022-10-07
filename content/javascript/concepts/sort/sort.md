@@ -42,7 +42,7 @@ somearray.sort(compareFn)
 If no comparison function are provided, the `.sort()` method will sort the array in ascending string order.
 For items that are not strings, `.sort()` will convert them into strings before comparing them. This can lead to unexpected results:
 
-```javascript
+```js
 let numbers = [33, 16, 156, 2, 9, 5, 10];
 
 numbers.sort();
@@ -66,7 +66,7 @@ For the function `CompareFn(A, B)`:
 
 To sort an array in numeric order rather than string order, the following function can be used as long as the array doesn't contain `Infinity` or `NaN`:
 
-```javascript
+```js
 function compareFn(A, B) {
   return A - B;
 }
@@ -74,7 +74,7 @@ function compareFn(A, B) {
 
 So we can fix the prior example:
 
-```javascript
+```js
 let numbers = [33, 16, 156, 2, 9, 5, 10];
 
 numbers.sort(function compareFn(A, B) {

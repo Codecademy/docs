@@ -20,7 +20,7 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 
 There are two methods of creating a `RegExp` object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the `RegExp` constructor which takes the pattern as the first argument and any flags as the second.
 
-```javascript
+```pseudo
 // Using literal notation
 let re1 = /foo?/i;
 
@@ -85,7 +85,7 @@ When specified, these flags change the default match behavor of the `RegExp` obj
 
 Usage:
 
-```javascript
+```js
 let re1 = /foo?/gim;
 let re2 = new RegExp('foo?', 'gim');
 
@@ -118,7 +118,7 @@ The following match a character or expression based on what follows or precedes 
 
 #### Examples
 
-```javascript
+```js
 let str = 'Sally sells seashells by the seashore';
 
 let re = /s(?=e)/gi;
@@ -164,7 +164,7 @@ Character classes specify a given type of character to match.
 
 #### Examples
 
-```javascript
+```js
 let str = '2001: A Space Odyssey';
 
 let re = /\W/gi;
@@ -201,7 +201,7 @@ Indicate groups and ranges of characters to match.
 
 #### Examples
 
-```javascript
+```js
 let str = 'Peter Piper picked a peck of pickled peppers.';
 
 let re = /[aeiou]/gi;
@@ -234,7 +234,7 @@ By default, these quatifiers are greedy, matching as much of the string as possi
 
 #### Examples
 
-```javascript
+```js
 let str = 'Billy bought a bushel of blue balloons.';
 
 let re = /b.?l+/gi;

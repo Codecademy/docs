@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Elements of an array are converted to strings and concatenated together, returning the resulting string.
+The **`.join()`** method returns a [string](https://www.codecademy.com/resources/docs/javascript/strings) representation of array elements concatenated together.
 
 ## Syntax
 
@@ -26,13 +26,13 @@ An optional `separator` parameter specifies a string or character that goes betw
 array.join(' + ');
 ```
 
-If a _separator_ is not provided, the array element will be separated with a comma.
+If a separator is not provided, the array element will be separated with a comma.
 
 ```js
 array.join();
 ```
 
-If the _separator_ is an empty string, the result will be the joining of all the elements without any characters in between them.
+If the separator is an empty string, the result will be the joining of all the elements without any characters in between them.
 
 ```js
 array.join('');
