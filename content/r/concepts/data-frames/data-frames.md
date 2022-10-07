@@ -1,6 +1,6 @@
 ---
 Title: 'Data Frames'
-Description: 'Data Frames are objects that store data into two dimensions of rows and columns.'
+Description: 'Data Frames are objects that store data into two dimensions of columns and rows.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
