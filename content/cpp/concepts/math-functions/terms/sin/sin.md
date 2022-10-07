@@ -19,7 +19,7 @@ The **`sin()`** function returns the sine of an angle argument, given in radians
 std::sin(angle)
 ```
 
-The argument `n` is an angle given in radians.
+The `angle` parameter is expressed in radians.
 
 ## Example 
 
