@@ -1,6 +1,6 @@
 ---
 Title: '.toPrecision()'
-Description: 'Convert a number to a string of its specified precision form.'
+Description: 'Converts a number to a string of its specified precision form.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
