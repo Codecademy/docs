@@ -34,7 +34,7 @@ print(my_tuple.count(2))
 # Output: 1
 ```
 
-The `.count()` method is type-sensitve. This is why the snippet above returned 1 (for one occurrence of the number `2`, excluding string representation of `"2"`).
+The `.count()` method is type-sensitive. This is why the snippet above returned `1` (for one occurrence of the number `2`, excluding the string representation of `"2"`).
 
 ## Codebyte Example
 
