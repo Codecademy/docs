@@ -21,7 +21,7 @@ Promise.any(iterableObject);
 
 The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
-## Example #1
+## Example 1
 
 If the `iterable` object is empty or all the Promises within are rejected, an `AggregateError` is thrown.
 
