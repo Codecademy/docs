@@ -30,5 +30,5 @@ The `<u>` element should only contain text content or other tags meant for text 
 ## Example
 
 ```html
-<p>You can use this tag to indicate things such as <u>misspelt</u> words.</p>
+<p>You can use this element to indicate things such as <u>misspelt</u> words.</p>
 ```
