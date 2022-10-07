@@ -42,7 +42,7 @@ switch (expression) {
 
 In the code above, suppose grade is equal to `10`, then the output would be “Sophomore”.
 
->**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+> **Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
 
 ## Example
 
