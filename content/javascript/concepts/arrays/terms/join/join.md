@@ -20,7 +20,7 @@ Elements of an array are converted to strings and concatenated together, returni
 array.join(separator);
 ```
 
-An optional separator parameter specifies a string to separate each pair of adjacent element of the array.
+An optional `separator` parameter specifies a string or character that goes between each array element in the returned string.
 
 ```js
 array.join(' + ');
