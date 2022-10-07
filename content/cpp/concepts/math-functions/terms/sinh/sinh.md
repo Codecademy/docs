@@ -20,6 +20,11 @@ std::sinh(n)
 ```
 ## Example 1
 Use `sinh()` to return the hyperbolic cosine of `0.0` radians:
+
+```
+radians = degrees * PI / 180
+```
+
 ```cpp
 #include <iostream>
 #include <cmath>
