@@ -38,7 +38,7 @@ The `.count()` method is type-sensitve. This is why the snippet above returned 1
 
 ## Codebyte Example
 
-In the following example, the `.count()` method returns 0 because the value being counted doesn't exist in `my_tuple`:
+In the following example, the `.count()` method returns `0` because the value being counted doesn't exist in `my_tuple`:
 
 ````codebyte/python
 ```py
