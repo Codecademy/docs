@@ -1,6 +1,6 @@
 ---
 Title: 'Data Frames'
-Description: 'Data Frames are objects that store data into two dimensions of columns and rows.'
+Description: 'Data frames are objects that store data into two dimensions of columns and rows.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,11 +14,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Data Frames** are objects that store data into a table with two dimensions represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
+**Data frames** are objects that store data into a table with two dimensions represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).
 
 ## Creating Data Frames
 
-Data Frames can be created using the `data.frame()` function.
+Data frames can be created using the `data.frame()` function.
 
 ### Syntax
 
