@@ -21,7 +21,7 @@ The **`.count()`** method returns the number of occurrences of a specific value 
 tuple.count(value)
 ```
 
-The `value` parameter is required. If the `value` does not exist in the `tuple`, then 0 is returned.
+The `value` parameter is required. If the `value` does not exist in the `tuple`, then `0` is returned.
 
 ## Example
 
