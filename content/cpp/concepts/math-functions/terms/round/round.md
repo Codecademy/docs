@@ -20,33 +20,29 @@ The **`round()`** function returns the integer that is closest to the argument, 
 round(num);
 ```
 
-The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer.
-In `halfway case` the number get round-off to the next closest integer.
+The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer. If `num` is a halfway case where the decimal place is `.5` or higher, then the closest integer above `num` is returned.
 
-## Example 1
+## Example
 
-```cpp
-double num = 4.5;
-double result;
-
-result = std::round(num);
-
-std::cout << "The result is " << result << "!\n";
-// Output: The result is 5!
-
-```
-
-
-## Example 2
+The following example showcases the `round()` function being applied to two `double` values, one of which is a halfway case:
 
 ```cpp
-double num = 9.23;
-double result;
+#include <iostream>
+#include <cmath>
 
-result = std::round(num);
+int main() {
+  double num1 = 9.23;
+  double result1;
+  result1 = std::round(num1);
 
-std::cout << "The result is " << result << "!\n";
-// Output: The result is 9!
+  std::cout << "The result of round(9.23) is " << result1 << "!\n";
+
+  double num2 = 4.5;
+  double result2;
+  result2 = std::round(num2);
+
+  std::cout << "The result of round(4.5) is " << result2 << "!\n";
+}
 ```
 
 ## Codebyte Example
@@ -64,6 +60,5 @@ int main() {
   result = std::round(num);
 
   std::cout << "The result is " << result << "!\n";
-  // Output: The result is 11!
 }
 ```
