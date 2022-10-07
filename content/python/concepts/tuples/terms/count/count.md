@@ -40,8 +40,8 @@ The `.count()` method is type-sensitive. This is why the snippet above returned 
 
 In the following example, the `.count()` method returns `0` because the value being counted doesn't exist in `my_tuple`:
 
-````codebyte/python
+```codebyte/python
 my_tuple = (2, 4, "6", "2", 8, "8", "2")
 
 print(my_tuple.count("Hello World"))
-````
+```
