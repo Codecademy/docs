@@ -19,6 +19,8 @@ The **`sinh()`** function returns the hyperbolic sine of an argument given in ra
 sinh(angle)
 ```
 
+The `angle` parameter should be expressed in radians. To convert from degrees to radians:
+
 ## Example
 
 Use `sinh()` to return the hyperbolic sine of `0.0` radians:
