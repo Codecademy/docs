@@ -1,6 +1,6 @@
 ---
 Title: '<noscript>'
-Description: 'Displays content within if Javascript is disabled in the browser or not supported.'
+Description: 'Displays content within if JavaScript is disabled in the browser or not supported.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -32,12 +32,12 @@ In the example below, if JavaScript isn't enabled, the [`<script>`](https://www.
 <script src="someScript.js"></script>
 <noscript>
   <p>
-    Please enable Javascript for this page to load. Learn how to
+    Please enable JavaScript for this page to load. Learn how to
     <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a>
   </p>
 </noscript>
 ```
 
-The output might look like this if Javascript is disabled or not available:
+The output might look like this if JavaScript is disabled or not available:
 
 ![Output of the example](https://raw.githubusercontent.com/Codecademy/docs/main/media/no-script-tag-example.png)
