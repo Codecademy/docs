@@ -63,7 +63,6 @@ The following example is runnable and rounds the halfway case away from zero:
 int main() {
   double num = 10.89;
   double result;
-
   result = std::round(num);
 
   std::cout << "The result is " << result << "!\n";
