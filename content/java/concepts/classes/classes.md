@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Java, classes are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior.
+In Java, **classes** are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior.
 
 ## Syntax
 
@@ -45,6 +45,7 @@ Every instance has access to its own set of variables known as instance fields. 
 For example, `Bob` and `Alice` may each be defined as instances of the class called `Person` with the `new` keyword:
 
 ```java
+//Person.java
 public class Person {
   int age;
   String name;
@@ -65,7 +66,7 @@ public class Person {
 }
 ```
 
-Each instance of the `Person` class has an `age` and `name` field. When initialized, they are passed as arguments into the class contstructor. The example from above would return the following output:
+Each instance of the `Person` class has an `age` and `name` field. When initialized, they are passed as arguments into the class constructor. The example from above would return the following output:
 
 ```shell
 Bob is 31.

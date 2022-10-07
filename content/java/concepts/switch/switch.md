@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `switch` statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
+A **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
 
 There's also an optional `default` statement marking code that executes if none of the `case` statements are true.
 
@@ -20,7 +20,7 @@ There's also an optional `default` statement marking code that executes if none 
 
 A `switch` statement looks like:
 
-```java
+```pseudo
 switch (expression) {
   case x:
     // Code block
@@ -33,27 +33,6 @@ switch (expression) {
 }
 ```
 
-So here's an example:
-
-```java
-switch (grade) {
-  case 9:
-    System.out.println("Freshman");
-    break;
-  case 10:
-    System.out.println("Sophomore");
-    break;
-  case 11:
-    System.out.println("Junior");
-    break;
-  case 12:
-    System.out.println("Senior");
-    break;
-  default:
-    System.out.println("Invalid");
-    break;
-}
-```
 
 - The `switch` keyword initiates the statement and is followed by `()`, which contains the value that each case will compare. In the example, the value or expression of the switch statement is `grade`.
 - Inside the block, `{}`, there are multiple cases.
@@ -63,7 +42,7 @@ switch (grade) {
 
 In the code above, suppose grade is equal to `10`, then the output would be “Sophomore”.
 
-**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+>**Note:** Without the `break` keyword at the end of each case, the program would execute the code for the first matching case and _all_ subsequent cases, including the `default` code. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
 
 ## Example
 
