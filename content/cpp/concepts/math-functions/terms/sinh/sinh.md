@@ -21,7 +21,7 @@ sinh(angle)
 
 The `angle` parameter should be expressed in radians. To convert from degrees to radians:
 
-```
+```pseudo
 radians = degrees * PI / 180
 ```
 
