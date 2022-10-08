@@ -21,6 +21,8 @@ Tuples also support built-in sequence functions such as [`len()`](https://www.co
 
 ## Syntax
 
+There are multiple ways to create tuples in Python:
+
 ```pseudo
 # With built-in function
 tuple(value1, value2, ..., valueN)
@@ -35,12 +37,9 @@ tuple = (singleValue, )
 tuple = singleValue,
 ```
 
-There are multiple ways to create tuples in Python:
+The built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-in-functions/tuple) function accepts an iterable value such as a list adn returns a new tuple. Tuples can also be created with just parentheses (or no parentheses).
 
-- The first way is with the built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-in-functions/tuple) function that accepts an iterable value such as a list.
-- Tuples can also be created with just parentheses.
-
-> **Note**: If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python may interpret the surrounding parentheses as an expression instead of a tuple:
+> **Note:** If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python may interpret the surrounding parentheses as an expression instead of a tuple:
 >
 > ```py
 > # This will be treated as an int, not a tuple.
