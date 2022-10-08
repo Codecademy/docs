@@ -32,6 +32,7 @@ The following example uses `sinh()` to return the hyperbolic sine of `0.0` in ra
 ```cpp
 #include <iostream>
 #include <cmath>
+
 int main() {
   double x = 0.0;
   double result;
