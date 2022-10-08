@@ -1,6 +1,6 @@
 ---
 Title: 'signbit()'
-Description: 'Returns true if the floating point is negative and false if floating point is positive.'
+Description: 'Returns true if the floating point argument is negative and false if floating point argument is positive.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `signbit()` function returns true if the sign of the  number is negative and false if sign is positive.
+The **`signbit()`** function returns true if the sign of the  argument is negative and false if its sign is positive.
 
 ## Syntax
 
@@ -32,17 +32,17 @@ This function also detects the signs of zeroes, intfinities and NaNs.
 
 int main()
 {
-    double a=9.0,b=0.0;
+    double a=9.0, b=0.0;
     // Here, c is infinity
     double c=a/b;
     // if c tends to positive infinity
     if(std::signbit(c)==false)
     {
-        std::cout<<"c tends to positive infinity";
+        std::cout << "c tends to positive infinity";
     }
     else
     {
-        std::cout<<"c tends to negative infinity";
+        std::cout << "c tends to negative infinity";
     }
     return 0;
 }
@@ -64,11 +64,11 @@ int main() {
 
   if(result)
   {
-    std::cout<<"n is negative";
+    std::cout << "n is negative";
   }
   else
   {
-    std::cout<<"n is positive";
+    std::cout << "n is positive";
   }
 }
 ```
