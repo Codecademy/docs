@@ -15,7 +15,7 @@ The **`sinh()`** function returns the hyperbolic sine of an argument given in ra
 
 ## Syntax
 
-```cpp
+```pseudo
 sinh(angle)
 ```
 
