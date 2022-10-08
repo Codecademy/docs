@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`signbit()`** function returns true if the sign of the  argument is negative and false if its sign is positive.
+The **`signbit()`** function returns true if the sign of the argument is negative and false if its sign is positive.
 
 ## Syntax
 
