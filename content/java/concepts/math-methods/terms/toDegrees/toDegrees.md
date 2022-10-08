@@ -1,0 +1,42 @@
+---
+Title: '.toDegrees()'
+Description: 'It returns the measurement of the angle x in degrees.'
+---
+
+The **`Math.toDegrees()`** method is a built-in math function in java which is used to convert an angle measured in radians to an approximately equivalent angle measured in degrees.
+
+## Syntax
+
+```pseudo
+Math.toDegrees(double x)
+```
+
+The return type of the `.toDegrees()` method is a double. The data type of the `x` parameter is also a double.
+
+Some edge cases for the `.toDegrees()` method include the following:
+
+- If the argument is `NaN`, this method will return `NaN`.
+- If the argument is `zero`, this method will return `zero` with the same sign as the argument.
+- If the argument is `infinity`, this method will return `infinity` with the same sign as the argument.
+
+## Example
+
+The following example showcases the `.toDegrees()` method being applied to two variables:
+
+```java
+public class TestDegrees {
+  public static void main(String args[]) {
+       double x = 0.5235987756;
+       System.out.println(Math.toDegrees(x));
+       double y = 1.0471975512;
+       System.out.println(Math.toDegrees(y));
+   }
+}
+```
+
+This results in the following output:
+
+```java
+30.0
+60.0
+```
