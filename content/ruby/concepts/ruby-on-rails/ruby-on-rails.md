@@ -54,4 +54,4 @@ Rails is used across many industries for building web apps and services. This in
 
 - Creating templates that generate web pages for the [front-end](https://www.codecademy.com/resources/docs/general/front-end).
 - Writing web services that return [JSON](https://www.codecademy.com/resources/docs/general/json) for JS-based front-end applications.
-- Writing [back-end](https://www.codecademy.com/resources/docs/general/back-end) code (on the [server-side](https://www.codecademy.com/resources/docs/general/server-side)) and front-end code (on the client-side) with [HTML](https://www.codecademy.com/resources/docs/html), [CSS](https://www.codecademy.com/resources/docs/css), and JS.
+- Writing [back-end](https://www.codecademy.com/resources/docs/general/back-end) code (on the [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering)) and front-end code (on the client-side) with [HTML](https://www.codecademy.com/resources/docs/html), [CSS](https://www.codecademy.com/resources/docs/css), and JS.

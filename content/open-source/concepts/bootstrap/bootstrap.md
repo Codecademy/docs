@@ -77,7 +77,7 @@ Here are the official themes built or reviewed by Bootstrap's creators: https://
 
 ## Example: Normal Button vs Bootstrap Button
 
-In the example below, Bootstrap is linked into an HTML document via CDN and used with jQuery to provide a button for positive actions.
+In the example below, Bootstrap is linked into an HTML document via CDN and used with [jQuery](https://www.codecademy.com/resources/docs/javascript/jquery) to provide a button for positive actions.
 
 ```html
 <!DOCTYPE html>

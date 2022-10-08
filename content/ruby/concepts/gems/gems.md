@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In Ruby, gems are open-source Ruby libraries or applications that lend extra utility to other Ruby programs. Each gem is composed of the following:
+**Gems** are open-source Ruby libraries or applications that lend extra utility to other Ruby programs. Each gem is composed of the following:
 
 - The source code it was built with (including any tests).
 - Any documentation with metadata such as the name, version, and platform.

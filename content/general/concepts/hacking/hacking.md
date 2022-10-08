@@ -59,7 +59,7 @@ Generally, white hat hacking involves:
 
 ## Protection From Hacking
 
-While not a 100%-guaruntee, steps can be taken to protect against malicious hacks, including:
+While not a 100%-guarantee, steps can be taken to protect against malicious hacks, including:
 
 - Creating complex, hard-to-guess passwords for all online accounts.
 - Never leaving login credentials exposed in a public place.

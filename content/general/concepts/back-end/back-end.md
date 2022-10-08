@@ -20,10 +20,10 @@ The back-end of a program or web application serves data to the [front-end](http
 
 ## Restaurant Analogy
 
-A common analogy for the relationship between the front-end and back-end are customers at a restaurant (on the "front-end):
+A common analogy for the relationship between the front-end and back-end are customers and employees at a restaurant (representation of the front-end):
 
-- They place their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/server)).
-- The order is then taken to the kitchen (on the "back-end").
+- The customer places their order (or "request") with the waiter/waitress (or [server](https://www.codecademy.com/resources/docs/general/server)).
+- The order is then taken to the kitchen (representation of the back-end).
 - There, the order is prepared (or "processed") with the necessary ingredients (or "data") to produce the expected food item (or "response").
 - Finally, the food item is brought back out to the dining area for the customer.
 

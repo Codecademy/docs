@@ -22,7 +22,7 @@ Unlike [React](https://www.codecademy.com/resources/docs/react), which is techni
 
 ## From AngularJS to Angular
 
-AngularJS was released in 2010 as one of the first modern front-end frameworks. It came to market in 2010 and rapidly grew popular with developers. Among the features that grew popular with developers were dependency injection, routing, and two-way data binding. It significantly changed how front-end developers wrote code.
+AngularJS was released in 2010 as one of the first modern [front-end](https://www.codecademy.com/resources/docs/general/front-end) frameworks. It came to market in 2010 and rapidly grew popular with developers. Among the features that grew popular with developers were dependency injection, routing, and two-way data binding. It significantly changed how front-end developers wrote code.
 
 Later in 2016, a new version was released that turned out to be a complete revamp of the original framework. Unlike AngularJS, which was written in JavaScript, this version, just called Angular, is written in TypeScript.
 
