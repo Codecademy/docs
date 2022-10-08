@@ -35,9 +35,8 @@ int main()
 {
     double result = nan("1");
     uint64_t dest;
-    
-    // copies variable src to dest
-    // use <cstring> for memcpy()
+     // copies variable src to dest
+     // use <cstring> for memcpy()
     memcpy(&dest, &src, sizeof src);
     std::cout << "nan(\"1\") = " << result << " (" << hex << dest << ")\n";
 
