@@ -1,6 +1,6 @@
 ---
 Title: 'RegExp'
-Description: 'The RegExp object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string. A RegExp object can also have flags set along with a pattern to change how matches are performed. There are two methods of creating a RegExp object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the RegExp constructor which takes the pattern as the first argument and any flags as the second. javascript // Using literal notation let re1 = /foo?/i; // Using RegExp constructor'
+Description: 'The RegExp object is used for matching strings with Regular Expressions, which is a special string pattern that uses various character sequences to match a character sequence or pattern in other strings.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -184,18 +184,18 @@ console.log(str.replace(re, 'x'));
 
 Indicate groups and ranges of characters to match.
 
-| Characters                           | Meaning                                                                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| `x                                   | y`                                                                                                                                                | Matches either `x` or `y`. |
-| `[xyz]`                              | Matches the character `x`, `y` or `z`.                                                                                                            |
-| `[a-c]`                              | Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\*                                                              |
-| `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                |
-| `[^a-c]`                             | Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*                                                   |
-| `(x)`                                | Matches `x` and remembers the match, capturing the group.                                                                                         |
+| Characters                           | Meaning                                                                                                                                            |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| `x                                   | y`                                                                                                                                                 | Matches either `x` or `y`. |
+| `[xyz]`                              | Matches the character `x`, `y` or `z`.                                                                                                             |
+| `[a-c]`                              | Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\*                                                               |
+| `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                 |
+| `[^a-c]`                             | Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*                                                    |
+| `(x)`                                | Matches `x` and remembers the match, capturing the group.                                                                                          |
 | <code>\\<i>n</i></code>              | Where <code><i>n</i></code> is a positive integer, represents a back reference to the last substring matching the _n<sup>th</sup>_ captured group. |
-| <code>(?&lt;<i>Name</i>&gt;x)</code> | Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.                                 |
+| <code>(?&lt;<i>Name</i>&gt;x)</code> | Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.                                  |
 | <code>\\k&lt;<i>Name</i>&gt;</code>  | Represents a back reference to the last substring matched in the named capturing group specified by <code><i>Name</i></code>.                      |
-| `(?:x)`                              | Represents a non-capturing group. Matches `x` but does not remember the match.                                                                    |
+| `(?:x)`                              | Represents a non-capturing group. Matches `x` but does not remember the match.                                                                     |
 
 \* If the hyphen falls at the start or end of the sequence in brackets, it is treated as a literal hyphen.
 

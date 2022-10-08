@@ -15,7 +15,7 @@ The **`.any()`** method iterates over an `iterableObject` of Promises ...
 
 ## Syntax
 
-```js
+```pseudo
 Promise.any(iterableObject);
 ```
 
