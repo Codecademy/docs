@@ -15,8 +15,8 @@ The **`sin()`** function returns the sine of an angle argument, given in radians
 
 ## Syntax
 
-```cpp
-std::sin(angle)
+```pseudo
+sin(angle)
 ```
 
 The `angle` parameter is expressed in radians.
