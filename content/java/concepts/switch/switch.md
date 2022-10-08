@@ -33,7 +33,6 @@ switch (expression) {
 }
 ```
 
-
 - The `switch` keyword initiates the statement and is followed by `()`, which contains the value that each case will compare. In the example, the value or expression of the switch statement is `grade`.
 - Inside the block, `{}`, there are multiple cases.
 - The `case` keyword checks if the expression matches the specified value that comes after it. The value following the first case is `9`. If the value of grade is equal to `9`, then the code that follows the `:` would run.
