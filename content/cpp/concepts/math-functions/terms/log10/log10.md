@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **log10()** function returns the base-_10_ logarithm of the argument.
+The **log10()** function returns the base-10 logarithm of the argument.
 
 ## Syntax
 
