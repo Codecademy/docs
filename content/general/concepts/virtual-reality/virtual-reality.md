@@ -21,12 +21,14 @@ It’s still considered the wild west of the tech industry⁠— fun, exciting, 
 
 The difference between augmented reality (AR) and virtual reality (VR) is that augmented reality utilizes the current physical setting of the user while introducing a layer of synthetic digital, sonic or somatic presentation to enhance the user experience whereas VR involves use of a headset to facilitate an experience rooted in the graphic and sonic presentation within the VR setup as opposed to using the individual's more broad physical surroundings for interaction.
 
-Augmented reality is poised to grow substantially in use during the 21st century as it has many potential uses that range from entertainment, medical, commercial, military, fashion and design etc.
+Virtual reality is poised to grow substantially in use during the 21st century as it has many potential uses that range from entertainment, wellbeing, education, tourism, military, art and design etc.
 
 ## Virtual Reality Examples
 
 - [A-Frame](https://www.codecademy.com/learn/learn-a-frame): A-Frame is a popular open-source web framework for building virtual reality experiences in the web browser.
-- Automotive industry: experience with build of a vehicle before commissioning expensive prototypes
-- Healthcare: practice surgery on virtual bodies / VR used as pain relief for burn injuries.
-- Real estate:  explore houses online and save time.
-- Learning and development: learning experience in a risk-free space mostly for soft skills such as public speaking, and active listening.
+- [Automotive industry](https://techwireasia.com/2020/02/how-jaguar-land-rover-uses-vr-to-design-and-engineer-new-vehicles/): Experience with build of a vehicle before commissioning expensive prototypes
+- [Healthcare](https://www.ossovr.com/): Practice surgery on virtual bodies 
+- [BehaVR](https://www.behavr.com/): VR used as pain relief for burn injuries.
+- [Real estate](https://www.klapty.com/explore): Explore houses online and save time.
+- [Learning and development](https://engagevr.io): Learning experience in a risk-free space mostly for soft skills such as public speaking, and active listening.
+- [Tourism](https://globetrotter-vr.com/): Interactive virtual tours of places around the world.
