@@ -12,8 +12,7 @@ Tags:
   - 'Responsive'
   - 'Servers'
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/back-end-engineer-career-path'
+  - 'learn-html'
   - 'paths/full-stack-engineer-career-path'
 ---
 
@@ -46,28 +45,28 @@ Full-stack developers typically utilize a combination of software, called a stac
 
 A couple highlights for the MERN stack include the full-stack JavaScript nature and the fact that React is used, which is popular with both developers and designers.
 
-- **M**[ongoDB](https://www.codecademy.com/learn/learn-mongodb): NoSQL database that uses [JSON](https://www.codecademy.com/resources/docs/general/json) (BSON)
-- **E**[xpress.js](https://www.codecademy.com/resources/docs/general/express): Back-end framework for Node.js applications.
-- **R**[eact.js](https://www.codecademy.com/learn/react-101): Front-end framework.
-- **N**[ode.js](https://www.codecademy.com/resources/docs/general/node-js): JavaScript runtime for server-side applications.
+- [MongoDB](https://www.codecademy.com/learn/learn-mongodb): NoSQL database that uses [JSON](https://www.codecademy.com/resources/docs/general/json) (BSON)
+- [Express.js](https://www.codecademy.com/resources/docs/general/express): Back-end framework for Node.js applications.
+- [React.js](https://www.codecademy.com/learn/react-101): Front-end framework.
+- [Node.js](https://www.codecademy.com/resources/docs/general/node-js): JavaScript runtime for server-side applications.
 
 ### MEAN Stack
 
 The MERN stack is popular for a number of reasons, a couple being that both the front-end and back-end are programmed in JavaScript and that the entire stack is open-source.
 
-- **M**ongoDB: NoSQL database that uses JSON (BSON)
-- **E**xpress.js: Back-end framework for Node.js applications.
-- **A**[ngular](https://www.codecademy.com/resources/docs/general/angular): Front-end framework.
-- **N**ode.js: JavaScript runtime for server-side applications.
+- MongoDB: NoSQL database that uses JSON (BSON)
+- Express.js: Back-end framework for Node.js applications.
+- [Angular](https://www.codecademy.com/resources/docs/general/angular): Front-end framework.
+- Node.js: JavaScript runtime for server-side applications.
 
 ### LAMP Stack
 
 Hightlights for the LAMP stack include the use of Linux as well as MySQL, two popular open-source projects.
 
-- **L**[inux](https://www.codecademy.com/resources/docs/general/linux): Open-source operating system.
-- **A**pache: Popular open-source web server software.
-- **M**ySQL: Database management system.
-- **P**[HP](https://www.codecademy.com/learn/learn-php): Web development programming language.
+- [Linux](https://www.codecademy.com/resources/docs/general/linux): Open-source operating system.
+- Apache: Popular open-source web server software.
+- MySQL: Database management system.
+- [PHP](https://www.codecademy.com/learn/learn-php): Web development programming language.
 
 ### Django Stack
 
