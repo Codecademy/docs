@@ -28,5 +28,5 @@ Augmented reality is poised to grow substantially in use during the 21st century
 - [A-Frame](https://www.codecademy.com/learn/learn-a-frame): A-Frame is a popular open-source web framework for building virtual reality experiences in the web browser.
 - Automotive industry: experience with build of a vehicle before commissioning expensive prototypes
 - Healthcare: practice surgery on virtual bodies / VR used as pain relief for burn injuries.
-- Real estate:  explore houses online and save your time.
+- Real estate:  explore houses online and save time.
 - Learning and development: learning experience in a risk-free space mostly for soft skills such as public speaking, and active listening.
