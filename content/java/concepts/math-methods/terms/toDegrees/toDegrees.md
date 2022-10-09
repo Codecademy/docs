@@ -1,9 +1,19 @@
 ---
 Title: '.toDegrees()'
-Description: 'It returns the measurement of the angle x in degrees.'
+Description: 'Returns the measurement in degrees of an angle in radians.'
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Arithmetic'
+  - 'Functions'
+  - 'Methods'
+  - 'Numbers'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
-The **`Math.toDegrees()`** method is a built-in math function in java which is used to convert an angle measured in radians to an approximately equivalent angle measured in degrees.
+The **`.toDegrees()`** method is a built-in math function in Java which is used to convert an angle measured in radians to an approximately equivalent angle measured in degrees.
 
 ## Syntax
 
@@ -21,7 +31,7 @@ Some edge cases for the `.toDegrees()` method include the following:
 
 ## Example
 
-The following example showcases the `.toDegrees()` method being applied to two variables:
+The following example demonstrates the `.toDegrees()` method being applied to two variables:
 
 ```java
 public class TestDegrees {
