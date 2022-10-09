@@ -11,19 +11,19 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Iterates over an `iterableObject` of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned `Promise` object.
+The **`.any()`** method iterates over an `iterableObject` of Promises ...
 
 ## Syntax
 
-```js
+```pseudo
 Promise.any(iterableObject);
 ```
 
 The `iterableObject` is usually an array of Promise objects. If the array is empty, a Promise object that resolves into an empty array will be returned.
 
-## Example #1
+## Example 1
 
-If the `iterable` object is empty or all the Promises witin are rejected, an `AggregateError` is thrown.
+If the `iterable` object is empty or all the Promises within are rejected, an `AggregateError` is thrown.
 
 ```js
 Promise.any([])
