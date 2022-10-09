@@ -45,7 +45,35 @@ If a range error occurs due to underflow, the correct result (after rounding) is
 The following example uses `fmod()` to return floating-point remainder of the division `x/y` in double:
 
 ```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
 
+int main()
+{
+    double x = 7.5, y = 2.1;
+    double result = fmod(x, y);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    
+    x = -17.50, y = 2.0;
+    result = fmod(x, y);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    
+    return 0;
+}
+```
+
+Output:
+```shell
+Remainder of 7.5/2.1 = 1.2
+Remainder of -17.5/2 = -1.5
+```
+
+## Codebyte Example
+
+The following example is runnable and returns the x/y value
+
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
@@ -63,8 +91,4 @@ int main()
     
     return 0;
 }
-/* Output:
-Remainder of 7.5/2.1 = 1.2
-Remainder of -17.5/2 = -1.5
-*/
 ```
