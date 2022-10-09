@@ -21,12 +21,8 @@ bool isnan(double x);
 bool isnan(long double x);  
 bool isnan(integral x);
 ```
-
-## Return Value
-
-```
 It returns 1, if x is NAN otherwise 0.
-```
+
 
 ## Example
 
