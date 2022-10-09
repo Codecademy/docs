@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`fmod()`** function in C++ computes the floating point remainder of numerator/denominator (rounded towards zero).
+The **`fmod()`** function in C++ computes the floating-point remainder of `numerator`/`denominator` (rounded towards zero). It is the extension of the modulo operation to floating-point numbers.
 
 ## Syntax
 
@@ -34,10 +34,10 @@ double fmod(Type1 x, Type2 y);
 
 ## Definition and Return Type
 
-Additional overloads are provided in this header (<cmath>) for other combinations of arithmetic types (Type1 and Type2): These overloads effectively cast its arguments to double before calculations, except if at least one of the arguments is of type long double (in which case both are casted to long double instead).
+Additional overloads are provided in this header `\<cmath\>` for other combinations of arithmetic types (Type1 and Type2): The overloaded functions cast the arguments to a `double` before the calculation. If one of the arguments is of type `long double`, both arguments are cast to a `long double` type.
 
-If successful, returns the floating-point remainder of the division x/y as defined above.
-If a domain error occurs (If the denominator y is zero), an implementation-defined value is returned (NaN where supported).
+If the computation is successful, a floating-point remainder of the division of `x` and `y` is returned as defined above.
+If a domain error occurs (the denominator is zero), an implementation-defined value is returned (`NaN` where supported).
 If a range error occurs due to underflow, the correct result (after rounding) is returned.
 
 ## Example
