@@ -42,7 +42,7 @@ int main() {
 
 ## Codebyte Example
 
-The following example is runnable and returns the natural log of `10`:
+The following example is runnable and returns the base-10 log of `10`:
 
 ```codebyte/cpp
 #include <iostream>
