@@ -1,6 +1,6 @@
 ---
 Title: 'asinh'
-Description: 'Returns the inverse hyperbolic sine of argument in radian.'
+Description: 'Returns the inverse hyperbolic sine of an argument in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
