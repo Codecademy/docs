@@ -26,7 +26,7 @@ It returns 1, if x is NAN otherwise 0.
 
 ## Example
 
-Below code is the example of isnan() function in c++ checking the value of 'x' is NaN or not.
+Below code is the example of the `isnan()` function checking if the value of `x` is `NaN` or not.
 
 ```cpp
 #include <iostream>  
