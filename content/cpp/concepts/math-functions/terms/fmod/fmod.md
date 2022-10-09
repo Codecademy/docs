@@ -34,7 +34,7 @@ double fmod(Type1 x, Type2 y);
 
 ## Definition and Return Type
 
-Additional overloads are provided in this header `\<cmath\>` for other combinations of arithmetic types (Type1 and Type2): The overloaded functions cast the arguments to a `double` before the calculation. If one of the arguments is of type `long double`, both arguments are cast to a `long double` type.
+Additional overloads are provided in this header `<cmath>` for other combinations of arithmetic types (Type1 and Type2): The overloaded functions cast the arguments to a `double` before the calculation. If one of the arguments is of type `long double`, both arguments are cast to a `long double` type.
 
 If the computation is successful, a floating-point remainder of the division of `x` and `y` is returned as defined above.
 If a domain error occurs (the denominator is zero), an implementation-defined value is returned (`NaN` where supported).
