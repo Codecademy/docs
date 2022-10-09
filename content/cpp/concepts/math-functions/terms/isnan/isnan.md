@@ -23,7 +23,6 @@ bool isnan(integral x);
 ```
 It returns 1, if x is NAN otherwise 0.
 
-
 ## Example
 
 Below code is the example of the `isnan()` function checking if the value of `x` is `NaN` or not.
