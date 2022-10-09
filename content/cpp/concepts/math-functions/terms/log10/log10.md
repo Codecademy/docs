@@ -24,7 +24,7 @@ If the `x` parameter is less than or equal to zero, then a domain error will occ
 
 ## Example
 
-The following example uses the `log10()` function to find the natural log of `5`:
+The following example uses the `log10()` function to find the base-10 log of `5`:
 
 ```cpp
 #include <iostream>
