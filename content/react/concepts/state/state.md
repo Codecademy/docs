@@ -76,6 +76,41 @@ class Car extends React.Component {
 }
 ```
 
+## Using Property Initializers
+
+With Property Initializers you do not need to set state or bind methods in the constructor:
+
+```js
+class Car extends React.Component {
+  // no need to set state in constructor
+  state = {
+    brand: 'Chevrolet',
+    model: 'Malibu',
+    color: 'white',
+    year: 1998,
+  };
+
+  // no need to bind methods in constructor; use arrow functions to declare methods
+  upgrade = () => {
+    this.setState({ year: this.state.year + 1 });
+  };
+
+  render() {
+    return (
+      <div>
+        <h1 onClick={this.upgrade}>My First Car</h1>
+        <p>
+          It is a {this.state.color}
+          {this.state.brand}
+          {this.state.model}
+          made in {this.state.year}. 🚙
+        </p>
+      </div>
+    );
+  }
+}
+```
+
 It will appear like this:
 
 ![React State Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/react-state-example.png)
