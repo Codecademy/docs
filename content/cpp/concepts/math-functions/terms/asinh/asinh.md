@@ -19,7 +19,7 @@ Returns the inverse hyperbolic sine of an angle.
 asinh(n)
 ```
 
-Please include the `cmath` header file to use this function.
+The `cmath` header file must be included to use this function.
 
 ## Example
 
