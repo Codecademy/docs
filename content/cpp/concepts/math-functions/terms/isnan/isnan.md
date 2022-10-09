@@ -43,7 +43,7 @@ int main()
 }  
 ```
 
-## Output
+This example results in the following output:
 
 ```
 value of x is : -nan
