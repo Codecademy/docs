@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse hyperbolic sine of an angle.
+Returns the inverse hyperbolic sine of an angle given in radians.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ The `cmath` header file must be included to use this function.
 
 Use `asinh()` to return the inverse hyperbolic sine of `3.14159`:
 
-```cpp
+```shell
 #include <iostream>
 #include <cmath>
 
@@ -38,6 +38,8 @@ int main() {
 
 ## Codebyte Example
 
+The `asinh()` function take argument as `4.55` and returns the inverse hyperbolic sine of `4.55`:
+
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
@@ -47,5 +49,6 @@ int main() {
     double result;
     result = std::asinh(x);
     std::cout << result << " radian" << "\n";
+    // OUTPUT: 2.220137 radian
 }
 ```
