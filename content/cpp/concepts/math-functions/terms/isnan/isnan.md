@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`isnan()`**  returns non-zero value (true) if value in parameter is a NaN value; and zero (false) otherwise.
+The **`isnan()`**  returns non-zero value (true) if value in parameter is a `NaN` value; and zero (false) otherwise.
 
 ## Syntax
 
