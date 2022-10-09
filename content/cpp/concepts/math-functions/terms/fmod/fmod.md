@@ -19,7 +19,7 @@ The **`fmod()`** function in C++ computes the floating point remainder of numera
 fmod (x, y)
 ```
 
-x: The value of numerator.
+x: The value of numerator,
 y: The value of denominator.
 
 ## Prototype [C++11 Standard]
@@ -28,8 +28,8 @@ y: The value of denominator.
 double fmod(double x, double y);
 float fmod(float x, float y);
 long double fmod(long double x, long double y);
-double fmod(Type1 x, Type2 y);
 // Additional overloads
+double fmod(Type1 x, Type2 y);
 ```
 
 ## Definition and Return Type
@@ -37,7 +37,7 @@ double fmod(Type1 x, Type2 y);
 Additional overloads are provided in this header (<cmath>) for other combinations of arithmetic types (Type1 and Type2): These overloads effectively cast its arguments to double before calculations, except if at least one of the arguments is of type long double (in which case both are casted to long double instead).
 
 If successful, returns the floating-point remainder of the division x/y as defined above.
-If a domain error occurs, an implementation-defined value is returned (NaN where supported). (If the denominator y is zero)
+If a domain error occurs (If the denominator y is zero), an implementation-defined value is returned (NaN where supported).
 If a range error occurs due to underflow, the correct result (after rounding) is returned.
 
 ## Example
