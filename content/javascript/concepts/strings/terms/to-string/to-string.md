@@ -20,7 +20,8 @@ stringObject.toString()
 ```
 
 The `.toString()` method does not take any parameters.
-**Note:** This method can be called on numbers, arrays, and objects.
+
+> **Note:** This method can be called on numbers, arrays, and objects.
 
 ## Example
 
