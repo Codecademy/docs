@@ -8,7 +8,7 @@ Tags:
   - 'Best Practices'
   - 'Cybersecurity'
 CatalogContent:
-  - 'paths/code-foundations'
+  - 'introduction-to-cybersecurity'
   - 'paths/computer-science'
 ---
 
