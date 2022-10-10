@@ -62,6 +62,5 @@ int main() {
   result = std::cosh(x);
 
   std::cout << "The hyperbolic cosine of " << x << " radians is " << result << "\n";
-  // Output: The hyperbolic cosine of 1.0 radians is 1.54308
 }
 ```
