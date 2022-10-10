@@ -47,7 +47,7 @@ int main() {
 }
 ```
 
-## Example 2
+## Codebyte Example
 
 This example uses `cosh()` to return the hyperbolic cosine of `1.0` radians:
 
