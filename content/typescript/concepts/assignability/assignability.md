@@ -13,7 +13,7 @@ CatalogContent:
 
 **Assignability** is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
 
-## When/where assignability takes place
+## When/Where Assignability Takes Place
 
 TypeScript performs assignability checks whenever a value is being assigned into another location in the computer's memory, such as:
 
