@@ -12,6 +12,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+The **`nan()`** function in C++ returns a quiet `NaN` (Not-A-Number) value of type double.
+
 ## Syntax
 
 ```pseudo
