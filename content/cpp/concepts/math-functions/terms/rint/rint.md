@@ -12,6 +12,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+The **`rint()`** function in C++ rounds the argument to an integral value using the current rounding mode.
+
 ## Syntax
 
 ```pseudo
