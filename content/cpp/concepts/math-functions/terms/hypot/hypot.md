@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **hypot()** function returns the square root of sum of square of arguments passed.
+The **hypot()** function returns the square root of sum of squares of arguments passed.
 
 ## Syntax
 
