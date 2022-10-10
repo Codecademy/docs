@@ -20,9 +20,9 @@ std::cosh(n)
 ```
 
 where `n` is the angle in `radians`
-Return type is double, float or long double.
+The return type is a `double`, `float`, or `long double`.
 
-If the magnitude of the result is too large in terms of the return type, the function returns HUGE_VAL with the proper sign, and an overflow range error occurs.
+If the magnitude of the result is too large to express, the function returns `HUGE_VAL` (positive or negative) and an overflow range error is thrown.
 
 ## Mathematic Formula
 
