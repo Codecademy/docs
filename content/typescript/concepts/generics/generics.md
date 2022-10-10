@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In TypeScript, generics are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accommodates any and all types. However, it will not retain specific type information.
+In TypeScript, **generics** are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accommodates any and all types. However, it will not retain specific type information.
 
 ## Syntax
 
