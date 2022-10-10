@@ -17,7 +17,7 @@ In TypeScript, generics are used to assign multiple types to a function or varia
 
 Generics are defined with `<` `>` brackets surrounding name(s) of the generic type(s), like `Array<T>` or `Map<Key, Value>`.
 
-```ts
+```pseudo
 interface MyType<GenericValue> {
   value: GenericValue;
 }

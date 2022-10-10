@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-With TypeScript, `class` objects can use type annotation to describe the relationship between class members and their static types. Classes are a core part of the JavaScript language that TypeScript respects.
+With TypeScript, **`class`** objects can use type annotation to describe the relationship between class members and their static types. Classes are a core part of the JavaScript language that TypeScript respects.
 In addition to type annotations, TypeScript adds a few new syntaxes to help write classes in a type-safe manner.
 
 ## Members

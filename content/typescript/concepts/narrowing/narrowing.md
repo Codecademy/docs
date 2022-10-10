@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type.
+**Narrowing** is a TypeScript process that refines a value of multiple types into a single, specific type.
 
 [Union types](https://www.codecademy.com/resources/docs/typescript/unions) represent entities that may be one of two or more different types. Because they only allow access to members known to be on all possible types, we need to narrow down a value to a more specific type before using non-shared members.
 

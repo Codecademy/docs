@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Assignability is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
+**Assignability** is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
 
 ## When/where assignability takes place
 
@@ -82,7 +82,7 @@ receiveSkeleton({
 
 The following error will occur, per the TypeScript checker:
 
-```
+```shell
 Error: Argument of type '{ spooky: false; }'
 is not assignable to parameter of type 'Skeleton'.
 Property 'scary' is missing in type '{ spooky: false; }'

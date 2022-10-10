@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-With functions, TypeScript infers the types of its parameters as well as any return value.
+With **functions**, TypeScript infers the types of its parameters as well as any return value.
 
 ## Function Parameters
 
@@ -115,4 +115,4 @@ withIncrementedValue((receivedValue) => {
 });
 ```
 
-Function parameters' types may be inferred if their parent function is in a location with a known function type. In the prior example, the `receivedValue` parameter was inferred to be type `number`.
+Function parameter types may be inferred if their parent function is in a location with a known function type. In the prior example, the `receivedValue` parameter was inferred to be type `number`.
