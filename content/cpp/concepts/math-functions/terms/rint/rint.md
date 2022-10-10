@@ -1,6 +1,6 @@
 ---
 Title: 'rint()'
-Description: 'The rint() function in C++ rounds the argument to an integral value using the current rounding mode.'
+Description: 'Rounds the argument to an integral value using the current rounding mode.'
 Subjects:
   - 'Computer Science'
 Tags:
