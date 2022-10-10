@@ -34,7 +34,7 @@ std::vector<type> name;
 std::vector<int> grades(10);
 ```
 
-### Create and Intitialize a Vector
+### Create and Initialize a Vector
 
 ```cpp
 std::vector<double> order = {3.99, 12.99, 2.49};
