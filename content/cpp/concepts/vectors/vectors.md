@@ -85,7 +85,7 @@ There are two different ways to insert elements into the vector.
 
 ### `.push_back()`
 
-This method pushes elements to the back of a `vector`.
+This method pushes elements to the back of a vector:
 
 ```cpp
 std::vector<int> v = {1,2,3,4};
