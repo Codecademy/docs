@@ -29,7 +29,7 @@ The rint() function rounds the argument x to an integral value, using the roundi
 
 ## Example
 
-The following example uses the `rint()` function to find the value of x after rounding off:
+The following example uses the `rint()` function to find the value of `x` after rounding:
 
 ```cpp
 #include <iostream>
