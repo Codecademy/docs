@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-There are several types of cloud computing implementation:
+There are several **types of cloud** computing implementation:
 
 ## Public Cloud
 
