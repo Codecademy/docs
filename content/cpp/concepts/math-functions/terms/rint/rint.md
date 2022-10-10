@@ -24,7 +24,7 @@ Argument must be a `double`/`float`/`long double`, and the return value will be 
 
 ## Return value
 
-The rint() function rounds the argument x to an integral value, using the rounding direction specified by fegetround() and returns the value. By default, the rounding direction is set to 'to-nearest'. The rounding direction can be set to other values using fesetround() function.
+The `rint()` function rounds the argument x to an integral value, using the rounding direction specified by `fegetround()` and returns the value. By default, the rounding direction is set to 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
 
 
 ## Example
