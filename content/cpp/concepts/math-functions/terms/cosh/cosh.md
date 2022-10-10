@@ -51,7 +51,7 @@ int main() {
 
 This example uses `cosh()` to return the hyperbolic cosine of `1.0` radians:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
