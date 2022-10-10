@@ -186,7 +186,7 @@ class App extends React.Component {
 }
 ```
 
-**Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They _are not_ compatible with errors related to event handlers.
+>**Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They _are not_ compatible with errors related to event handlers.
 
 ## Unmounting a Component
 
