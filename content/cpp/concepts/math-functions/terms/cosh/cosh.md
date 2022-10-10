@@ -28,7 +28,7 @@ If the magnitude of the result is too large to express, the function returns `HU
 
 cosh(x) = (e<sup>x</sup> + e<sup>−x</sup> )/2
 
-## Example 1
+## Example
 
 This example uses `cosh()` to return the hyperbolic cosine of `0.0` radians:
 
