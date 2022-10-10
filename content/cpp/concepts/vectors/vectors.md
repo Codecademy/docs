@@ -1,6 +1,6 @@
 ---
 Title: 'Vectors'
-Description: 'A vector is a dynamic list of items, that can shrink and grow in size.'
+Description: 'A vector is a dynamic list of items that can shrink and grow in size.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,21 +13,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **vector** is a dynamic list of items, that can shrink and grow in size. It can only store values of the same type.
+A **vector** is a dynamic list of items that can shrink and grow in size. It can only store values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
-## Different Ways to Create a Vector
+## Syntax
+
+```pseudo
+#include <vector>
+
+std::vector<type> name;
+```
 
 To use vectors, it is necessary to `#include` the `vector` library.
 
-```cpp
-#include <vector>
-```
-
-During the creation of a C++ vector, the data type of its elements must be specified. Once the vector is created, the type cannot be changed.
-
-```cpp
-std::vector<type> name;
-```
+The data type of its elements must be specified when the vector is created. Afterwards, the type cannot be changed.
 
 ### Create a Vector with Size
 
