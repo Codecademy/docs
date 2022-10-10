@@ -1,6 +1,6 @@
 ---
 Title: 'nan()'
-Description: 'The nan() function in C++ returns a quiet NaN (Not-A-Number) value of type double.'
+Returns a quiet NaN (Not-A-Number) value of type double.'
 Subjects:
   - 'Computer Science'
 Tags:
