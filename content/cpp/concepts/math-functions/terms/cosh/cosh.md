@@ -16,7 +16,7 @@ The **`cosh()`** function returns the hyperbolic cosine of an argument given in 
 ## Syntax
 
 ```pseudo
-std::cosh(n)
+std::cosh(angle)
 ```
 
 The `angle` is measured in radians.
