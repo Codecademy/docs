@@ -15,7 +15,7 @@ The **`cosh()`** function returns the hyperbolic cosine of an argument given in 
 
 ## Syntax
 
-```cpp
+```pseudo
 std::cosh(n)
 ```
 
