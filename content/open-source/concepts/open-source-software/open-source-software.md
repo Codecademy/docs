@@ -22,11 +22,12 @@ Some examples of OSS software (along with their license and release year) includ
 
 ### Languages
 
-|                         Name                         |           License            | Release Year | Description                                                                                                                   |
-| :--------------------------------------------------: | :--------------------------: | :----------: | ----------------------------------------------------------------------------------------------------------------------------- | --- | ------------------------------------------------------ | ---- | ---- | ---------------------------------------------------------------------------------- |
-|  [Go](https://www.codecademy.com/resources/docs/go)  | BSD (3-clause, patent-grant) |     2012     | A compiled programming language that is C-like in syntax but includes features like garbage collection and structural typing. |
-| [PHP](https://www.codecademy.com/resources/docs/php) |             PHP              |     1995     | A general-purpose scripting language widely used as a server-side language for creating dynamic web pages.                    |
-|   [R](https://www.codecademy.com/resources/docs/r)   |          GNU GPLv2           |     1993     | A popular interpreted programming language used for statistical computing and graphics.                                       |     | [Ruby](https://www.codecademy.com/resources/docs/ruby) | Ruby | 1995 | A dynamic, general-purpose programming language commonly used for web development. |
+|                          Name                          |           License            | Release Year | Description                                                                                                                   |
+| :----------------------------------------------------: | :--------------------------: | :----------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|   [Go](https://www.codecademy.com/resources/docs/go)   | BSD (3-clause, patent-grant) |     2012     | A compiled programming language that is C-like in syntax but includes features like garbage collection and structural typing. |
+|  [PHP](https://www.codecademy.com/resources/docs/php)  |             PHP              |     1995     | A general-purpose scripting language widely used as a server-side language for creating dynamic web pages.                    |
+|    [R](https://www.codecademy.com/resources/docs/r)    |          GNU GPLv2           |     1993     | A popular interpreted programming language used for statistical computing and graphics.                                       |
+| [Ruby](https://www.codecademy.com/resources/docs/ruby) |             Ruby             |     1995     | A dynamic, general-purpose programming language commonly used for web development.                                            |
 
 ### Other Softwares
 
