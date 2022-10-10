@@ -44,7 +44,7 @@ logValueIfExists('narrowing');
 
 We invoked `logValueIfExists()` with a string variable, "narrowing". Since the `value` is of type `string`, the code in the `if` statement will run and a new string will be logged to the console.
 
-## Example: Narrowing with truthiness
+## Example: Narrowing With Truthiness
 
 In the example below, we changed the `if` statement slightly to check if `value` has any value that is "truthy" and doesn't evaluate to a falsey value such as `0`, `false`, or `undefined`.
 
