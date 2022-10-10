@@ -119,7 +119,7 @@ std::cout << "The last element is: " << v[5] << "\n";
 
 ## Codebyte Example
 
-To create a vector named `grade` with 3 items and then insert elements to the last of the vector using `.push_back()` and `.insert() functions`:
+To create a vector named `grade` with three items and then insert elements to the last of the vector using `.push_back()` and `.insert()` functions:
 
 ```codebyte/cpp
 #include <iostream>
