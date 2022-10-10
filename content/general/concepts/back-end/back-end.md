@@ -16,7 +16,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-back-end/" />
 
-The back-end of a program or web application serves data to the [front-end](https://www.codecademy.com/resources/docs/general/front-end) from sources like a [database](https://www.codecademy.com/resources/docs/general/database).
+The **back-end** of a program or web application serves data to the [front-end](https://www.codecademy.com/resources/docs/general/front-end) from sources like a [database](https://www.codecademy.com/resources/docs/general/database).
 
 ## Restaurant Analogy
 

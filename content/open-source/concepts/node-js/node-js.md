@@ -47,7 +47,7 @@ More information about Node's built-in features can be found [here](https://node
 
 ## Why Node?
 
-Per the <a href="https://nodejs.org/">Node.js homepage</a>, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JS code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
+Per its official home page, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JS code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
 
 To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This function will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error occurred in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, that will be `null` if no error occurs.
 
