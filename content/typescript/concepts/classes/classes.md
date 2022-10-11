@@ -64,8 +64,10 @@ const mySecret = new Secret('shhh');
 mySecret.getValue(); // Ok
 
 mySecret.#value;
-// Error: Property '#value' is not accessible outside
-// class 'Secret' because it has a private identifier.
+/* 
+Error: Property '#value' is not accessible outside
+class 'Secret' because it has a private identifier.
+*/
 ```
 
 ## Public, Private, or Protected
@@ -111,12 +113,16 @@ class Derived extends Base {
     this.third; // Ok: protected
 
     this.fourth;
-    // Error: Property 'fourth' is private
-    // and only accessible within class 'Base'.
+    /*
+    Error: Property 'fourth' is private
+    and only accessible within class 'Base'.
+    */
 
     this.fifth;
-    // Error: Property '#fifth' is not accessible outside
-    // class 'Base' because it has a private identifier.
+    /*
+    Error: Property '#fifth' is not accessible outside
+    class 'Base' because it has a private identifier.
+    */
   }
 }
 ```
@@ -132,16 +138,22 @@ derived.first; // Ok: public
 derived.second; // Ok: public
 
 derived.third;
-// Error: Property 'third' is protected
-// and only accessible within class 'Base'.
+/*
+Error: Property 'third' is protected
+and only accessible within class 'Base'.
+*/
 
 derived.fourth;
-// Error: Property 'fourth' is private
-// and only accessible within class 'Base'.
+/*
+Error: Property 'fourth' is private
+and only accessible within class 'Base'.
+*/
 
 derived.fifth;
-// Error: Property '#fifth' is not accessible outside
-// class 'Base' because it has a private identifier.
+/*
+Error: Property '#fifth' is not accessible outside
+class 'Base' because it has a private identifier.
+*/
 ```
 
 ## Implementing Interfaces
