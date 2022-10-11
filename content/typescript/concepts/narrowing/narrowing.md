@@ -20,8 +20,7 @@ CatalogContent:
 
 TypeScript recognizes types as being narrowed when it sees branches of JavaScript control-flow logic, including:
 
-- `if/else` conditional statements.
-- Other conditionals, like ternaries and switches.
+- Conditional statements like `if/else`, ternaries, and switches.
 - Looping statements, such as `for`- and `while`-loops.
 - Truthiness checks for entities that don't point to `false`-like values.
 
