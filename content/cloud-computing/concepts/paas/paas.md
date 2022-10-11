@@ -1,6 +1,6 @@
 ---
 Title: 'PaaS'
-Description: 'Platform as a service (PaaS): a service model that offers developers a platform to create, manage, and deploy their applications.'
+Description: 'Platform as a service (PaaS) is a service model that offers developers a platform to create, manage, and deploy their applications.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
