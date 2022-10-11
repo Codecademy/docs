@@ -35,6 +35,6 @@ This makes a big difference! React can update only the necessary parts of the DO
 In summary, here’s what happens trying to update the DOM in React:
 
 1. The entire virtual DOM gets updated.
-2. The virtual DOM gets compared to what it looked like before you updated it. React figures out which objects have changed.
+2. The virtual DOM gets compared to what it looked like before it was updated. React figures out which objects have changed.
 3. The changed objects, and the changed objects only, get updated on the real DOM.
 4. Changes on the real DOM cause the screen to change.
