@@ -1,6 +1,6 @@
 ---
 Title: 'fmod()'
-Description: 'Computes the floating point remainder of numerator/denominator (rounded towards zero)'
+Description: 'Returns the floating-point remainder of the division of two values, rounded towards zero.
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,59 +11,46 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`fmod()`** function in C++ computes the floating-point remainder of `numerator`/`denominator` (rounded towards zero). It is the extension of the modulo operation to floating-point numbers.
+The **`fmod()`** function returns the floating-point remainder of the division of two values (rounded towards zero). It is the extension of the [modulo](https://www.codecademy.com/resources/docs/general/modulo) operation to floating-point numbers.
 
 ## Syntax
 
 ```pseudo
-fmod (x, y)
+fmod (numerator, denominator)
 ```
 
-x: The value of numerator,
-y: The value of denominator.
+The quotient of the `numerator` divided by the `denominator` is rounded towards zero through truncation.
+If the `denominator` is equal to zero, then either `0`, `NaN`, or a domain [error](https://www.codecademy.com/resources/docs/cpp/errors) will be returned.
+If a range error occurs because of underflow, then the correct result is rounded and returned.
 
-## Prototype [C++11 Standard]
+The return type for the `fmod()` function is `double`, `float`, `long double`, or a combination of these types.
 
-```cpp
-double fmod(double x, double y);
-float fmod(float x, float y);
-long double fmod(long double x, long double y);
-// Additional overloads
-double fmod(Type1 x, Type2 y);
-```
-
-## Definition and Return Type
-
-Additional overloads are provided in this header `<cmath>` for other combinations of arithmetic types (Type1 and Type2): The overloaded functions cast the arguments to a `double` before the calculation. If one of the arguments is of type `long double`, both arguments are cast to a `long double` type.
-
-If the computation is successful, a floating-point remainder of the division of `x` and `y` is returned as defined above.
-If a domain error occurs (the denominator is zero), an implementation-defined value is returned (`NaN` where supported).
-If a range error occurs due to underflow, the correct result (after rounding) is returned.
+> **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation. If one of the arguments is a `long double` type, then both arguments are cast as `long double` types. 
 
 ## Example
 
-The following example uses `fmod()` to return floating-point remainder of the division `x/y` in double:
+The following example uses `fmod()` to return the floating-point remainder of `x`/`y` as a `double` type:
 
 ```cpp
 #include <iostream>
 #include <cmath>
 using namespace std;
 
-int main()
-{
-    double x = 7.5, y = 2.1;
-    double result = fmod(x, y);
-    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
-    
-    x = -17.50, y = 2.0;
-    result = fmod(x, y);
-    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
-    
-    return 0;
+int main(){
+  double x = 7.5, y = 2.1;
+  double result = fmod(x, y);
+  cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+  
+  x = -17.50, y = 2.0;
+  result = fmod(x, y);
+  cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+  
+  return 0;
 }
 ```
 
-Output:
+This will return the following output:
+
 ```shell
 Remainder of 7.5/2.1 = 1.2
 Remainder of -17.5/2 = -1.5
@@ -71,24 +58,22 @@ Remainder of -17.5/2 = -1.5
 
 ## Codebyte Example
 
-The following example is runnable and returns the x/y value
+The following example is runnable and returns the floating-point remainder:
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
-int main()
-{
-    double x = 7.5, y = 2.1;
-    double result = fmod(x, y);
-    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
-    
-    x = -17.50, y = 2.0;
-    result = fmod(x, y);
-    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
-    
-    return 0;
+int main() {
+  double x = 7.5, y = 2.1;
+  double result = fmod(x, y);
+  cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+  
+  x = -17.50, y = 2.0;
+  result = fmod(x, y);
+  cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+  
+  return 0;
 }
 ```
