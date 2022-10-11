@@ -28,7 +28,7 @@ During a render of a [JSX](https://www.codecademy.com/resources/docs/react/jsx) 
 
 By comparing the new virtual DOM with a pre-update version, React figures out exactly which virtual DOM objects have changed. This process is called “diffing.”
 
-Once React knows which virtual DOM objects have changed, then React updates those objects, and only those objects, on the real DOM. For example, if we are making changes to a list item, React would be smart enough to rebuild your one checked-off list item, and leave the rest of your list alone.
+Once React knows which virtual DOM objects have changed, then React updates those objects, and only those objects, on the real DOM. For example, if changes were made to a list item, React would know to rebuild the one checked-off list item, and leave the rest of the list alone.
 
 This makes a big difference! React can update only the necessary parts of the DOM. React’s reputation for performance comes largely from this innovation.
 
