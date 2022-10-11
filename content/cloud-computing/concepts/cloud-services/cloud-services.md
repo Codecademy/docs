@@ -33,7 +33,7 @@ The advantages of AWS include:
 
 Disadvantages include:
 
-- Users must purchase Dev/Enterprise support.
+- If Dev/Enterprise support is needed, users must pay for it separately.
 - The number of services and options can be overwhelming.
 - A complex and hard-to-understand pricing structure.
 - There are limited options to run a [hybrid cloud](https://www.codecademy.com/resources/docs/cloud-computing/types-of-cloud) solution.
@@ -49,7 +49,7 @@ Azure is the second largest cloud platform, introduced my Microsoft in 2008. It 
 The advantages of Azure include:
 
 - The ease of integration and migration for existing Microsoft users.
-- More inexpensive for users of Microsoft products such as Windows, Active Directory and SQL Server.
+- Lower cost for users of Microsoft products such as Windows, Active Directory and SQL Server.
 - Significant support for hybrid cloud solutions.
 - The broadest geographic reach of the three platforms.
 
