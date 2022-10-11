@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.sum()` function sums the elements of an array over a given axis.
+The **`.sum()`** function sums the elements of an array over a given axis.
 
 ## Syntax
 
