@@ -1,1 +1,1 @@
-content/ruby/concepts/errors/errors.md
+content/general/concepts/http/http.md

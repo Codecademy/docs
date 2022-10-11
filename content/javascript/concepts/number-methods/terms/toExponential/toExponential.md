@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.toExponential()` method converts a number to a string of its exponetial form.
+The **`.toExponential()`** method converts a number to a [string](https://www.codecademy.com/resources/docs/javascript/strings) of its exponential form.
 
 ## Syntax
 

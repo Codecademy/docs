@@ -1,6 +1,6 @@
 ---
 Title: 'JSON'
-Description: 'The JSON object is used for JSON parsing and conversion.'
+Description: 'The `JSON` object is used for JSON parsing and conversion.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In JavaScript, the reserved `JSON` object is used to convert values to JavaScript Object Notation ([JSON](https://www.codecademy.com/resources/docs/general/json)). It can also be used for parsing JSON values.
+In JavaScript, the built-in **`JSON`** object is used to convert values to [JavaScript Object Notation (JSON)](https://www.codecademy.com/resources/docs/general/json) as well as parse those values. `JSON` is a standard JavaScript object, so there is no need to import any external packages.
 
 ## Syntax
 
@@ -20,4 +20,4 @@ In JavaScript, the reserved `JSON` object is used to convert values to JavaScrip
 JSON.staticMethod();
 ```
 
-The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods, shown below:
+No constructor function is needed to create `JSON` objects. The `.staticMethod()` used against the `JSON` object is going to be either the `.parse()` or the `.stringify()` methods, shown below:

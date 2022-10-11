@@ -1,6 +1,6 @@
 ---
-Title: 'Cyberattack'
-Description: 'Cyberattacks are attempts to disrupt or disable computer systems or steal valuable data.'
+Title: 'Cyber Attack'
+Description: 'Cyber attacks are attempts to disrupt or disable computer systems or steal valuable data.'
 Subjects:
   - 'Computer Science'
   - 'Cybersecurity'
@@ -10,27 +10,33 @@ Tags:
   - 'Validation'
 CatalogContent:
   - 'introduction-to-cybersecurity'
-  - 'paths/securing-express-applications'
+  - 'paths/fundamentals-of-cybersecurity'
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-cyber-attack/" />
 
-Cyberattacks are attempts to disrupt or disable computer systems or steal valuable data. They can compromise sensitive data, including:
+Cyber attacks are attempts to disrupt or disable computer systems or steal valuable data. They will usually result in a violation of one of the principles of the CIA Triad:
 
-- Personal information such as birthdates, government-issued documents, or medical information.
-- Financial information such as credit card numbers, and bank account numbers.
+- Confidentiality
+- Integrity
+- Availability
+
+Cyber attacks can compromise sensitive data, including:
+
+- Personal information such as social security numbers, government-issued documents, or medical information.
+- Financial information such as credit card numbers and bank account numbers.
 
 This can lead to consequences like identity theft, which is time-consuming, frustrating, and expensive to resolve.
 
-## Types of Cyberattacks
+## Types of Cyber Attacks
 
 There are several types of cyber attacks. Some of the most common include:
 
-- Malware that can either install and go unnoticed (spyware) or hijack entire systems (ransomware).
+- Malicious software like malware that can spy on someone unnoticed (spyware) or hijack entire systems (ransomware).
 - Phishing scams where an email, text, or link could trick a user into sharing sensitive, private information.
-- A "man-in-the-middle" attack involving the attacker intercepting a connection between mutliple users.
+- A "man-in-the-middle" (MitM) attack where the attacker intercepts a connection between multiple users.
 - Distributed Denial of Service (DDoS) attacks that overload a system's resources and bandwidth.
-- SQL injections that corrupt and collect data from servers and databases.
+- SQL injections that corrupt or collect data from servers and databases.
 - Zero-day vulnerabilities that exploit software vulnerabilities before they're patched.
 - DNS tunneling that hides and removes the data of other programs in DNS queries and responses without being detected.
 
@@ -42,5 +48,5 @@ Organizations and individuals can and should take steps to prevent cyber attacks
 - Perimeter defenses, such as firewalls, should be installed and kept up to date.
 - State-of-the-art antivirus software and malware detectors should be in place and continually updated to address threats.
 - While patch management might seem tedious, it can help prevent vulnerabilities from being exploited.
-- User-access, such as strong passwords and multi-factor authentication, should be utilized.
+- Strong user authentication and authortization practices, such as strong passwords and multi-factor authentication, should be utilized.
 - Businesses should especially have a response plan to deal with security breaches.
