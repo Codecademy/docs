@@ -1,6 +1,6 @@
 ---
 Title: 'Generics'
-Description: 'In TypeScript, generics are used to assign multiple types to a function or variable without the value losing that specific type information upon return.'
+Description: 'Generics assign multiple types to a function or variable without the value losing that specific type information upon return.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,13 +11,13 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In TypeScript, generics are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accomodates any and all types. However, it will not retain specific type information.
+In TypeScript, **generics** are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accommodates any and all types. However, it will not retain specific type information.
 
 ## Syntax
 
 Generics are defined with `<` `>` brackets surrounding name(s) of the generic type(s), like `Array<T>` or `Map<Key, Value>`.
 
-```ts
+```pseudo
 interface MyType<GenericValue> {
   value: GenericValue;
 }
@@ -27,10 +27,10 @@ let myVar: MyType<string> = { value: 'Hello, World!' };
 
 Generic types can be used with the following:
 
-- Classes
-- Functions
-- Interfaces
-- Type aliases
+- [Classes](https://www.codecademy.com/resources/docs/typescript/classes)
+- [Functions](https://www.codecademy.com/resources/docs/typescript/functions)
+- [Interfaces](https://www.codecademy.com/resources/docs/typescript/interfaces)
+- [Type aliases](https://www.codecademy.com/resources/docs/typescript/type-aliases)
 
 ## Example of Using Generics
 
