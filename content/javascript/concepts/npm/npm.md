@@ -1,6 +1,6 @@
 ---
 Title: 'NPM'
-Description: 'Node Package Manager (NPM) is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed! Packages are tools composed of files and folers of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform. NPM comes as two primary tools: - A command-line tool with abilities that include installing and uninstalling packages. - An online registry of all packages registered with NPM. On the NPM registry, all public packages can be searched and reviewed before installing. Most packages come with a README.md file with instructions for installation and usage. As a command-line tool, NPM comes with a litany of commands for working with packages. One of the most common NPM commands is:'
+Description: 'Node Package Manager (NPM) is a large collection of JavaScript packages.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -15,11 +15,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Node Package Manager (NPM) is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed!
+**Node Package Manager (NPM)** is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed!
 
 ## Packages
 
-Packages are tools composed of files and folers of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
+Packages are tools composed of files and folders of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
 
 ## The NPM Registry
 
