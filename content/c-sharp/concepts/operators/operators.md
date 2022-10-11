@@ -42,7 +42,7 @@ C# has the following arithmetic operators:
 - Division, `/`, which returns the quotient of two numbers.
 - Modulus, `%`, which returns the remainder of one number divided by another.
 
-The above operate on two values. C# also has two unary operators.
+The above operate on two values. C# also has two unary operators:
 
 - Increment, `++`, which increments its single operand by one.
 - Decrement, `--`, which decrements its single operand by one.
