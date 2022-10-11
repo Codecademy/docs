@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.valueOf()`** method returns the [primitive](https://www.codecademy.com/resources/docs/javascript/data-types) value of a `String` object, similar to the `.toString()` method of JavaScript Strings. Usually this method is called internally by JavaScript.
+The **`.valueOf()`** method returns the [primitive](https://www.codecademy.com/resources/docs/javascript/data-types) value of a `String` object, similar to the `.toString()` method. Usually, this method is called internally by JavaScript.
 
 > **Note:** Objects that are descendants of the `Object` class, including `String`s, inherit the `.valueOf()` method.
 
