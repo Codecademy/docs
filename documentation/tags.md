@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Automation
 Azure
 A-Frame
 Background
@@ -45,6 +46,7 @@ Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud Computing
 Code Editors
 Collections
 Colors
@@ -249,6 +251,7 @@ Strings
 Structure
 Style
 SwiftUI
+SwiftUI Views
 Switch
 Symbol
 Syntax
