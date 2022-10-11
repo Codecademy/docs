@@ -23,7 +23,7 @@ The `cmath` header file must be included to use this function.
 
 ## Example
 
-Use `asinh()` to return the inverse hyperbolic sine of `3.14159`:
+This example uses the `asinh()` function to return the inverse hyperbolic sine of `3.14159`:
 
 ```shell
 #include <iostream>
