@@ -36,6 +36,12 @@ int main() {
     std::cout << result << " radian" << "\n";
 ```
 
+## Output
+
+```shell
+1.8623 radian
+```
+
 ## Codebyte Example
 
 The `asinh()` function takes argument as `4.55` and returns the inverse hyperbolic sine:
