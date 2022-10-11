@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'The for-in loop is used to iterate over collections, including strings and ranges. swift for char in "hehe" { print(char) }  The output would be:'
+Description: 'Loops are used to repeatedly perform a statement(s) or block of code.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -14,6 +14,8 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
+**Loops** are used to repeatedly perform a statement(s) or block of code. In Swift, there is the **`for`-`in`** loop and **`while`** loop.
+
 ## `for`-`in` Loop
 
 The `for`-`in` loop is used to iterate over collections, including strings and ranges.
@@ -26,14 +28,14 @@ for char in "hehe" {
 
 The output would be:
 
-```bash
+```shell
 h
 e
 h
 e
 ```
 
-## `continue` Keyword
+### `continue` Keyword
 
 The `continue` keyword will force the loop to move on to the next iteration.
 
@@ -48,13 +50,13 @@ for num in 0...5 {
 
 The output would be:
 
-```
+```shell
 1
 3
 5
 ```
 
-## `break` Keyword
+### `break` Keyword
 
 To terminate a loop before its completion, use the `break` keyword.
 
@@ -69,7 +71,7 @@ for char in "supercalifragilisticexpialidocious" {
 
 The output would be:
 
-```
+```shell
 s
 u
 p
@@ -77,9 +79,19 @@ e
 r
 ```
 
-## Using Underscore
+### Ranges
 
-Use `_` instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
+Ranges created by the `...` operator will include the numbers from the lower bound to (and including) the upper bound.
+
+```swift
+let zeroToThree = 0...3
+
+// zeroToThree: 0, 1, 2, 3
+```
+
+### Using Underscore
+
+An underscore `_` is used instead of a placeholder variable if the variable is not referenced in the `for`-`in` loop body.
 
 ```swift
 for _ in 1...3 {
@@ -89,10 +101,27 @@ for _ in 1...3 {
 
 The output would be:
 
+```shell
+Olé
+Olé
+Olé
 ```
-Olé
-Olé
-Olé
+
+### `stride()` Function
+
+Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to the (excluded) ending number, and how to increment/decrement from the start to the end.
+
+```swift
+for oddNum in stride(from: 1, to: 5, by: 2) {
+  print(oddNum)
+}
+```
+
+The output would be:
+
+```shell
+1
+3
 ```
 
 ## `while` Loop
@@ -111,31 +140,4 @@ while counter < stopNum {
 }
 
 // The loop prints until the stop condition is met
-```
-
-## Ranges
-
-Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
-
-```swift
-let zeroToThree = 0...3
-
-// zeroToThree: 0, 1, 2, 3
-```
-
-## `stride()` Function
-
-Calling `stride()` with the 3 necessary arguments creates a collection of numbers; the arguments decide the starting number to, the (excluded) ending number, and how to increment/decrement from the start to the end.
-
-```swift
-for oddNum in stride(from: 1, to: 5, by: 2) {
-  print(oddNum)
-}
-```
-
-The output would be:
-
-```
-1
-3
 ```
