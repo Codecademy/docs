@@ -76,5 +76,5 @@ The advantages of GCP include:
 
 The disadvantages include:
 
-- Limited services compared to AWS & Azure.
+- Limited services compared to AWS and Azure.
 - Limited support for enterprise users.
