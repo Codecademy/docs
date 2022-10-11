@@ -251,6 +251,7 @@ Strings
 Structure
 Style
 SwiftUI
+SwiftUI Views
 Switch
 Symbol
 Syntax
