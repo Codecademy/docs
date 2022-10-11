@@ -1,6 +1,6 @@
 ---
 Title: 'Components'
-Description: 'Description: 'Components are pieces of code that are reusable, independent, and make up the UI of a React application.'
+Description: 'Components are pieces of code that are reusable, independent, and make up the UI of a React application.'
 Subjects:
   - 'Web Development'
 Tags:
