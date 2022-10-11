@@ -24,7 +24,7 @@ It finds the hypotenuse, hypotenuse is the longest side of a right angled triang
 
 ## Example
 
-The following example uses the `hypot()` function to find the square root of sum of squares of `9` & `10`:
+The following example uses the `hypot()` function to find the hypotanuse of a right angled triangle with base and perpendicular as `9` & `10`:
 
 ```cpp
 #include <cmath>
@@ -37,7 +37,7 @@ int main()
   
     cout << res << endl;
     return 0;
-    //The Output: 13.4536
+    This results in the following output: 13.4536
 }
 ```
 
