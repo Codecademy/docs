@@ -46,6 +46,7 @@ Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud Computing
 Code Editors
 Collections
 Colors
