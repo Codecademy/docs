@@ -22,7 +22,7 @@ CatalogContent:
 - APIs
 - Any other relevant software needed for application development
 
-In addition to the software, the service provider also provides the infrastructure needed for the application. PaaS includes the services provided by an infrastructure-as-a-service (IaaS)[https://www.codecademy.com/resources/docs/cloud-computing/saas] offering. Compared to the other two cloud services available - IaaS and software as a service (SaaS)[https://www.codecademy.com/resources/docs/cloud-computing/iaas] - On the service provider, PaaS places more responsibility than IaaS and less responsibility than SaaS.
+In addition to the software, the service provider also provides the infrastructure needed for the application. PaaS includes the services provided by an infrastructure-as-a-service ([IaaS](https://www.codecademy.com/resources/docs/cloud-computing/saas)) offering. Compared to the other two cloud services available - IaaS and software as a service ([SaaS](https://www.codecademy.com/resources/docs/cloud-computing/iaas)) - On the service provider, PaaS places more responsibility than IaaS and less responsibility than SaaS.
 
 ## Advantages of PaaS
 
