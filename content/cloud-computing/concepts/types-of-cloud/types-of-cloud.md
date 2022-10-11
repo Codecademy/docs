@@ -27,7 +27,11 @@ Private cloud refers to cloud computing resources used exclusively by a single b
 
 ## Hybrid Cloud
 
-Hybrid clouds are a combination of both private and public clouds. Data and applications are allowed to be shared between the private and public clouds. Allowing data and applications to move between private and public clouds provides businesses greater flexibility, more deployment options, and helps optimize existing infrastructure, security, and compliance.
+Hybrid clouds are a combination of both private and public clouds. Data and applications are allowed to be shared between the private and public clouds. Allowing data and applications to move between private and public clouds provides businesses:
+
+- Greater flexibility.
+- More deployment options.
+- Optimization existing infrastructure, security, and compliance.
 
 ## Multicloud
 
