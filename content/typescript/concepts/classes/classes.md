@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-With TypeScript, `class` objects can use type annotation to describe the relationship between class members and their static types. Classes are a core part of the JavaScript language that TypeScript respects.
+With TypeScript, **`class`** objects can use type annotation to describe the relationship between class members and their static types. Classes are a core part of the JavaScript language that TypeScript respects.
 In addition to type annotations, TypeScript adds a few new syntaxes to help write classes in a type-safe manner.
 
 ## Members
@@ -64,8 +64,10 @@ const mySecret = new Secret('shhh');
 mySecret.getValue(); // Ok
 
 mySecret.#value;
-// Error: Property '#value' is not accessible outside
-// class 'Secret' because it has a private identifier.
+/* 
+Error: Property '#value' is not accessible outside
+class 'Secret' because it has a private identifier.
+*/
 ```
 
 ## Public, Private, or Protected
@@ -111,19 +113,23 @@ class Derived extends Base {
     this.third; // Ok: protected
 
     this.fourth;
-    // Error: Property 'fourth' is private
-    // and only accessible within class 'Base'.
+    /*
+    Error: Property 'fourth' is private
+    and only accessible within class 'Base'.
+    */
 
     this.fifth;
-    // Error: Property '#fifth' is not accessible outside
-    // class 'Base' because it has a private identifier.
+    /*
+    Error: Property '#fifth' is not accessible outside
+    class 'Base' because it has a private identifier.
+    */
   }
 }
 ```
 
-Notice how `first`, `second`, and even the protected `third`, are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
+The members `first`, `second`, and even the protected `third`, are all accessible within the `Derived` class definition. With `fourth` and `fifth`, however, they are both private members of `Base`. Therefore, they are not accessible inside of `Derived`.
 
-The example below shows how some members of `Dervied` can be invoked through an instance variable, `derived`, while others are not as accessible. While `third` can be used within the actual `Derived` classs, as a protected member, it cannot be used outside of the class with an instance variable.
+The example below shows how some members of `Dervied` can be invoked through an instance variable, `derived`, while others are not as accessible. While `third` can be used within the actual `Derived` class, as a protected member, it cannot be used outside of the class with an instance variable.
 
 ```ts
 const derived = new Derived();
@@ -132,16 +138,22 @@ derived.first; // Ok: public
 derived.second; // Ok: public
 
 derived.third;
-// Error: Property 'third' is protected
-// and only accessible within class 'Base'.
+/*
+Error: Property 'third' is protected
+and only accessible within class 'Base'.
+*/
 
 derived.fourth;
-// Error: Property 'fourth' is private
-// and only accessible within class 'Base'.
+/*
+Error: Property 'fourth' is private
+and only accessible within class 'Base'.
+*/
 
 derived.fifth;
-// Error: Property '#fifth' is not accessible outside
-// class 'Base' because it has a private identifier.
+/*
+Error: Property '#fifth' is not accessible outside
+class 'Base' because it has a private identifier.
+*/
 ```
 
 ## Implementing Interfaces
