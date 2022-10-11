@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Networking'
 Tags:
-  - 'Cloud'
+  - 'Cloud Computing'
   - 'Platform'
   - 'Development'
   - 'Infrastructure'
