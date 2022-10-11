@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-There are many different cloud-computing services, but the big three are [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), and [Google Cloud Platform (GCP)](https://cloud.google.com/). All three offer services to cover the most significant cloud-computing needs:
+There are many different **cloud-computing services**, but the big three are [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), and [Google Cloud Platform (GCP)](https://cloud.google.com/). All three offer services to cover the most significant cloud-computing needs:
 
 - [Infrastructure as a service (IaaS)](https://www.codecademy.com/resources/docs/cloud-computing/iaas)
 - [Platform as a service (PaaS)](https://www.codecademy.com/resources/docs/cloud-computing/paas)
