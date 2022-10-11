@@ -36,7 +36,7 @@ int main() {
     std::cout << result << " radian" << "\n";
 ```
 
-## Output
+This example results in the following output:
 
 ```shell
 1.8623 radian
