@@ -6,6 +6,7 @@ Subjects:
   - 'Data Science'
 Tags:
   - 'Collections'
+  - 'Index'
   - 'Tuples'
   - 'Data Structures'
 CatalogContent:
@@ -18,14 +19,14 @@ The **`.index()`** method returns the index of the first occurrence of a specifi
 ## Syntax
 
 ```pseudo
-tuple.index(value)
+tuple_instance.index(value)
 ```
 
-The `value` is required in order for the `.index()` to search the `tuple` variable.
+The `value` is required in order for the `.index()` to search the `tuple_instance`.
 
 ## Example
 
-The following example showcases the `.index()` method:
+The following is an example of the `.index()` method:
 
 ```py
 my_tuple = ("I'm", "over", "here")

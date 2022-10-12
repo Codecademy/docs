@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **tuple** is a data structure used to store an ordered and immutable collection of objects, unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries) which are unordered and mutable. They are similar to [lists](https://www.codecademy.com/resources/docs/python/lists), except that tuples cannot be changed after creation. Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
+A **tuple** is a data structure of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).
 
 Tuples also support built-in sequence functions such as [`len()`](https://www.codecademy.com/resources/docs/python/built-in-functions/len), [`min()`](https://www.codecademy.com/resources/docs/python/built-in-functions/min), and [`max()`](https://www.codecademy.com/resources/docs/python/built-in-functions/max).
 
@@ -25,19 +25,19 @@ There are multiple ways to create tuples in Python:
 
 ```pseudo
 # With built-in function
-tuple(value1, value2, ..., valueN)
+tuple_instance(value1, value2, ..., valueN)
 
 # With parentheses (multi-item)
-tuple = (value1, value2, ..., valueN)
+tuple_instance = (value1, value2, ..., valueN)
 
 # With parentheses (single item with a trailing comma)
-tuple = (singleValue, )
+tuple_instance = (singleValue, )
 
 # With no parentheses (but with a trailing comma)
-tuple = singleValue,
+tuple_instance = singleValue,
 ```
 
-The built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-in-functions/tuple) function accepts an iterable value such as a list adn returns a new tuple. Tuples can also be created with just parentheses (or no parentheses).
+The built-in [`tuple()`](https://www.codecademy.com/resources/docs/python/built-in-functions/tuple) function accepts an iterable value such as a list and returns a new tuple. Tuples can also be created with just parentheses (or no parentheses).
 
 > **Note:** If the tuple is made with just parentheses and has only one element, it must contain a trailing comma. Otherwise, Python may interpret the surrounding parentheses as an expression instead of a tuple:
 >
@@ -131,14 +131,26 @@ print(tuple_1 + tuple_2)
 
 ## Codebyte Example
 
-Tuples are like lists in that they are ordered and their elements can be accessed by index. However, since tuples are immutable, existing elements cannot be modified or deleted, and new elements can't be added.
-
-The following example attempts to re-assign an element to an existing tuple, which will throw a `TypeError`:
+Even though tuples themselves cannot be changed, and their elements can't be reassigned, after creation, there are some workarounds to this immutability. For example, if any of the tuple elements are themselves a mutable data type or structure, it can be modified or their elements reassigned:
 
 ```codebyte/python
-streaming_platforms = tuple(["Netflix", "Hulu", "Amazon", "Apple TV"])
+list_1 = ["Netflix", "Hulu"]
+list_2 = ["Amazon", "Apple TV"]
 
-print(streaming_platforms[1])
+streaming_platforms = (list_1, list_2)
 
-streaming_platforms[2] = "YouTube" # This will throw an error
+print(f"Original tuple: {streaming_platforms}\n")
+
+streaming_platforms[0].append("YouTube")
+# this is allowed
+
+print(f"After appending to list: {streaming_platforms}\n")
+
+streaming_platforms[0][-1] = "YT"
+# this is also allowed
+
+print(f"After reassigning list item: {streaming_platforms}\n")
+
+streaming_platforms[1] = "Twitch"
+# reassignment of list to string will throw an error
 ```

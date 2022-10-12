@@ -18,10 +18,10 @@ The **`.count()`** method returns the number of occurrences of a specific value 
 ## Syntax
 
 ```pseudo
-tuple.count(value)
+tuple_instance.count(value)
 ```
 
-The `value` parameter is required. If the `value` does not exist in the `tuple`, then `0` is returned.
+The `value` parameter is required. If the `value` does not exist in the `tuple_instance`, `0` is returned. The `.count()` method is type-sensitive (e.g., string representations of numbers and actual numbers are not counted in the returned total).
 
 ## Example
 
@@ -34,7 +34,7 @@ print(my_tuple.count(2))
 # Output: 1
 ```
 
-The `.count()` method is type-sensitive. This is why the snippet above returned `1` (for one occurrence of the number `2`, excluding the string representation of `"2"`).
+Since the `.count()` method is type-sensitive, the snippet above returned `1` (for one occurrence of the number `2`, excluding the string representation of `"2"`).
 
 ## Codebyte Example
 
