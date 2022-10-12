@@ -13,6 +13,7 @@ CatalogContent:
   - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
 ---
+
 **Platform as a service (PaaS)** Platform as a Service is a service model offered to simplify the process of developing and deploying apps. With PaaS, developers don't need to worry about the underlying software and hardware their applications depend upon. When using a PaaS, the service provider provides and maintains the following:
 
 - Operating systems
