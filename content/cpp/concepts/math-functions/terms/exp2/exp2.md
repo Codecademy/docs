@@ -73,7 +73,7 @@ The following example is runnable and returns `2` raised to the given argument
 using namespace std;
 
 int main(){
-  double x = -6.19, result;
+  float x = -6.19f, result;
 
   result = exp2(x);
   cout << "exp2(x) = " << result << endl;
