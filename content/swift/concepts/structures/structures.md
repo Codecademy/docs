@@ -1,6 +1,6 @@
 ---
 Title: 'Structures'
-Description: 'Structures, or structs, are used to programmatically represent a real-life object in code. Structures are created with the struct keyword followed by its name and then body containing its properties and methods. swift struct Building { var address: String var floors: Int init(address: String, floors: Int, color: String) { self.address = address'
+Description: 'Structures are used to programmatically represent a real-life object. They are created with the struct keyword followed by its name and body.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Structures, or `structs`, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then body containing its properties and methods.
+**Structures**, are used to programmatically represent a real-life object in code. They are created with the `struct` keyword, followed by its name, and then body which contains its properties and methods.
 
 ```swift
 struct Building {
@@ -48,37 +48,31 @@ print(reliantRobin.topSpeed)    // Prints: 80
 
 A new instance of a structure is created by using the name of the structure with parentheses `()` and any necessary arguments.
 
-```swift
-struct Person {
-  var name: String
-  var age: Int
-
-  init(name: String, age: Int) {
-    self.name = name
-    self.age = age
-  }
+```pseudo
+struct structName {
+  var propertyName: Type
+  // Other properties go here
+  // followed by any methods.
 }
+
+// Create an instance with properties passed in
+var instanceName(propertyName: propertyValue, ...)
 ```
 
-## `init()` Method
+### `init()` Method
 
-Structures can have an `init()` method to initialize values to an instance’s properties. Unlike other methods, The `init()` method does not need the `func` keyword. In its body, the `self` keyword is used to reference the actual instance of the structure.
+Structures can have an `init()` method to initialize values to an instance’s properties. Unlike other methods, The `init()` method does not need the `func` keyword. In its body, the `self` keyword is used to reference the instance itself.
 
-```swift
-struct TV {
-  var screenSize: Int
-  var displayType: String
-
-  init(screenSize: Int, displayType: String) {
-    self.screenSize = screenSize
-    self.displayType = displayType
+```pseudo
+  init(propertyName: Type, ...) {
+    self.propertyName = propertyName
+    // Other instance properties go here.
   }
-}
 ```
 
 ## Structure Methods
 
-Methods are like functions that are specifically called on an _instance_. To call the method, an instance is appended with the method name using dot notation followed by parentheses that include any necessary arguments.
+Methods are like functions that are specifically called on an instance. To call the method, an instance is appended with the method name using dot `.` notation, followed by parentheses that include any necessary arguments.
 
 ```swift
 struct Dog {
