@@ -23,9 +23,11 @@ The `angle` is measured in radians and the return type is a `double`, `float`, o
 
 If the magnitude of the result is too large to express, the function returns `HUGE_VAL` (positive or negative) and an overflow range error is thrown.
 
-## Mathematic Formula
+The mathematical formula used in `cosh()` looks like this:
 
-cosh(x) = (e<sup>x</sup> + e<sup>−x</sup> )/2
+```tex
+cosh(x) = (e^x + e^-x )/2
+```
 
 ## Example
 
