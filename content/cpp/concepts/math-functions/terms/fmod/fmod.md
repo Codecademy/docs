@@ -1,6 +1,6 @@
 ---
 Title: 'fmod()'
-Description: 'Returns the floating-point remainder of the division of two values, rounded towards zero.
+Description: 'Returns the floating-point remainder of the division of two values, rounded towards zero.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -21,7 +21,7 @@ fmod (numerator, denominator)
 
 The quotient of the `numerator` divided by the `denominator` is rounded towards zero through truncation.
 If the `denominator` is equal to zero, then either `0`, `NaN`, or a domain [error](https://www.codecademy.com/resources/docs/cpp/errors) will be returned.
-If a range error occurs because of underflow, then the correct result is rounded and returned.
+If a range error occurs, then the correct result is rounded and returned.
 
 The return type for the `fmod()` function is `double`, `float`, `long double`, or a combination of these types.
 
@@ -66,11 +66,11 @@ The following example is runnable and returns the floating-point remainder:
 using namespace std;
 
 int main() {
-  double x = 7.5, y = 2.1;
+  float x = 7.5f, y = 2.1f;
   double result = fmod(x, y);
   cout << "Remainder of " << x << "/" << y << " = " << result << endl;
   
-  x = -17.50, y = 2.0;
+  x = -17.50f, y = 2.0f;
   result = fmod(x, y);
   cout << "Remainder of " << x << "/" << y << " = " << result << endl;
   
