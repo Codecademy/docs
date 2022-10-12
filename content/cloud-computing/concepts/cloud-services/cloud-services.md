@@ -23,7 +23,7 @@ There are many different **cloud-computing services**, but the big three are [Am
 AWS is the largest cloud computing platform, and the most mature, introducing its first public cloud services in 2006. It serves millions of users, from individuals to large enterprises, to governments.
 
 - AWS offers more than 200 services to its customers.
-- As of 2021 AWS has 25 geographic regions and 218+ edge locations.
+- As of 2021, AWS has 25 geographic regions and 218+ edge locations.
 
 The advantages of AWS include:
 
@@ -40,11 +40,11 @@ Disadvantages include:
 
 ## Azure
 
-Azure is the second largest cloud platform, introduced my Microsoft in 2008. It is also currently among the fastest growing cloud platforms.
+Azure is the second largest cloud platform, introduced by Microsoft in 2008. It is also currently among the fastest growing cloud platforms.
 
 - Azure offers more than 200 products and services, a wide array of which are tailored to enterprises already using Microsoft products.
 - In addition to Microsoft products, Azure supports [open-source](https://www.codecademy.com/resources/docs/open-source) languages, technologies and platforms.
-- As of 2021 Azure has 60+ geographic regions with 116 edge locations.
+- As of 2021, Azure has 60+ geographic regions with 116 edge locations.
 
 The advantages of Azure include:
 
@@ -63,7 +63,7 @@ Disadvantages include:
 
 GCP was introduced by Google in 2010 and is the smallest of the big three cloud-computing platforms.
 
-- GCP offers over 100 services including computing, networking and [big data](https://www.codecademy.com/resources/docs/general/big-data).
+- GCP offers over 100 services including computing, networking, and [big data](https://www.codecademy.com/resources/docs/general/big-data).
 - GCP services include Google Workspace, enterprise Android, and Chrome OS.
 - As of 2021 GCP has 27 geographic regions and 146 edge locations.
 
