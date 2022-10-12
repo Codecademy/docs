@@ -28,10 +28,10 @@ If a range error occurs due to underflow, the correct result (after rounding) is
 <details>
 	<summary>Error Handling</summary>
 
-	If the argument is `±0`, `1` is returned.
-	If the argument is `-∞`, `+0` is returned.
-	If the argument is `+∞`, `+∞` is returned.
-	If the argument is `NaN`, `NaN` is returned.
+	If the argument is ±0, 1 is returned.
+	If the argument is -∞, +0 is returned.
+	If the argument is +∞, +∞ is returned.
+	If the argument is NaN, NaN is returned.
 </details>
 
 The return type for the `exp2()` function is `double`, `float`, `long double`.
@@ -48,12 +48,12 @@ The following example uses `exp2()` to return `2` raised to the given argument:
 using namespace std;
 
 int main(){
-	double x = -6.19, result;
-	
-	result = exp2(x);
-	cout << "exp2(x) = " << result << endl;
+  double x = -6.19, result;
 
-	return 0;
+  result = exp2(x);
+  cout << "exp2(x) = " << result << endl;
+
+  return 0;
 }
 ```
 
@@ -73,11 +73,11 @@ The following example is runnable and returns `2` raised to the given argument
 using namespace std;
 
 int main(){
-	double x = -6.19, result;
-	
-	result = exp2(x);
-	cout << "exp2(x) = " << result << endl;
+  double x = -6.19, result;
 
-	return 0;
+  result = exp2(x);
+  cout << "exp2(x) = " << result << endl;
+
+  return 0;
 }
 ```
