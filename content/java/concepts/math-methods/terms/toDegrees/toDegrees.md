@@ -21,7 +21,7 @@ The **`.toDegrees()`** method is a built-in math function in Java which is used 
 Math.toDegrees(double x)
 ```
 
-The return type of the `.toDegrees()` method is a double. The data type of the `x` parameter is also a double.
+The return type of the `.toDegrees()` method is a `double`. The data type of the `x` parameter is also a `double`.
 
 Some edge cases for the `.toDegrees()` method include the following:
 
