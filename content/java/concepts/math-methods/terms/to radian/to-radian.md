@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.toRadians`** method returns the measurement of an angle in degrees to an equivalent angle in radians.
+The **`Math.toRadians()`** method returns the measurement of an angle in degrees to an equivalent angle in radians.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ The conversion from degrees to radians is generally inexact.
 
 ## Example
 
-The following example uses `Math.toRadians()` to return radian measurement of 180 and 45 degrees:
+The following example uses Math.toRadians() to convert 180 degrees and 45 degrees to radians:
 
 ```java
 public class Main {
