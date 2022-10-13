@@ -20,7 +20,7 @@ The **`round()`** function returns the integer that is closest to the argument, 
 round(num);
 ```
 
-The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer. If `num` is a halfway case where the decimal place is `.5` or higher, then the closest integer above `num` is returned.
+The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer. If the decimal in num is `0.5` or higher, the closest integer greater than `num` is returned. 
 
 ## Example
 
@@ -35,21 +35,21 @@ int main() {
   double result1;
   result1 = std::round(num1);
 
-  std::cout << "The result of round(9.23) is " << result1 << "!\n";
+  std::cout << "The result of round(9.23) is " << result1 << "\n";
 
   double num2 = 4.5;
   double result2;
   result2 = std::round(num2);
 
-  std::cout << "The result of round(4.5) is " << result2 << "!\n";
+  std::cout << "The result of round(4.5) is " << result2 << "\n";
 }
 ```
 
 This produces the following output:
 
 ```shell
-The result of round(9.23) is 9!
-The result of round(4.5) is 5!
+The result of round(9.23) is 9
+The result of round(4.5) is 5
 ```
 
 ## Codebyte Example
@@ -65,6 +65,6 @@ int main() {
   double result;
   result = std::round(num);
 
-  std::cout << "The result is " << result << "!\n";
+  std::cout << "The result is " << result << "\n";
 }
 ```
