@@ -51,6 +51,5 @@ int main() {
     result = std::trunc(n);
 
     std::cout << "The result is " << result << "!\n";
-    // Output: The result is 12!
 }
 ```
