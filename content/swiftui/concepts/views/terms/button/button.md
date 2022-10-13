@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A very basic component in UI, which is used to interact and perform certain actions, such as logging into a page, or deleting a file etc.
+A **button** is a very basic component in the UI, which is used to interact and perform certain actions, such as logging into a page, or deleting a file etc.
 
 ## Syntax
 
