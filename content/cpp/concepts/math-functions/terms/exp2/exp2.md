@@ -28,8 +28,7 @@ exp2(x)
  - If the argument is -∞, +0 is returned.
  - If the argument is +∞, +∞ is returned.
  - If the argument is NaN, NaN is returned.
-
-The return type for the `exp2()` function is `double`, `float`, or `long double`.
+ - The return type for the `exp2()` function is `double`, `float`, or `long double`.
 
 > **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation.
 
