@@ -60,6 +60,8 @@ var body: some View {
  .foregroundColor(Color.black)
  .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.green))
 ```
+The above snippet, creates a button with `Click Me` text. When you will click on it, the number next to the text will increase with the number of clicks.
+
 This will display the following:
 
 ![Button](https://raw.githubusercontent.com/girijakar/docs/main/media/button.png)
