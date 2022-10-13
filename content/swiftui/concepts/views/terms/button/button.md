@@ -1,6 +1,6 @@
 ---
 Title: 'Button'
-Description: 'A very basic component in UI, which is used to interact and perform certain actions'
+Description: 'A very basic component in the UI, which is used to interact and perform certain actions'
 Subjects:
   - 'Sotfware Development'
   - 'Mobile Development'
