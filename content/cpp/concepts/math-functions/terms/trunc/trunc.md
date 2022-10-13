@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`trunc()`** function returns the integral part of the argument and returns it as a `double` value. The fractional part is truncated, not rounded.
+The **`trunc()`** function returns the integral part of the argument as a value of [type](https://www.codecademy.com/resources/docs/cpp/data-types) `double`, `float`, or `long double`. The fractional part is truncated, not rounded.
 
 ## Syntax
 
