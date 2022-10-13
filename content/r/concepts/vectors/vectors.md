@@ -1,6 +1,6 @@
 ---
 Title: 'Vectors'
-Description: 'Vectors are used to store and use multiple data values of the same type.'
+Description: 'Vectors are used to store multiple values of the same data type.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -15,11 +15,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Vectors are used to store and use multiple data values of the same type that can be accessed later by subsequent code. In R, the indexing of vectors will start from ‘1’ and not from ‘0’ unlike other programming languages.
+**Vectors** are used to store multiple values of the same [data type](https://www.codecademy.com/resources/docs/r/data-types) for later use. Unlike other programming languages, vectors in R are not zero-indexed; they start from 1.
 
 ## Creating a Vector
 
-In R, vectors are created or initialised using the ‘c’ function which means combining different elements of the same type together.
+In R, vectors are made with the ‘c()’ function to combine different elements of the same type together.
 
 ## Vector Types
 
@@ -35,7 +35,7 @@ names <- c('Adam','John','Walter')
 marks <- c(90,87,100,79,91)
 ```
 
-Apart from the 'c' function semicolon(:) can also be used to create a vector containing numbers in a range.
+Apart from the 'c()' function, the semicolon (`:`) can be used to create a vector containing a range of numbers:
 
 ```r
 # This vector contains all the numbers between 1 and 10
@@ -48,39 +48,43 @@ In R, character vectors can contain alphanumeric values and special characters.
 ```r
 # This vector contains both alphabetic and numeric values, and would be a character vector type
 alphanumerics <- c('water','fire','ice',90)
-alphanumerics # output ['water','fire','ice','90']
+alphanumerics # Output: ['water','fire','ice','90']
 ```
 
-## Accessing an element in a Vector
+## Accessing Vector Elements
 
 There is need to access the elements in vector to perform operations on each element. The most common way to access the vector elements is by using the subscript operator [].
 
 ```r
-# accessing elements with an index number as subscript.
+# Accessing elements with an index number as subscript.
 numbers <- c(65,49,55,36,126)
-numbers[2] # output 49
-number[4] # output 36
+numbers[2] # Output: 49
+number[4] # Output: 36
 ```
 
 Vector elements can also be accessed by logical indexing
 
 ```r
-# accessing vector elements using logical indexing
+# Accessing vector elements using logical indexing.
 numbers <- c(1,2,3,4,5)
-numbers[numbers<2] #output 1
+numbers[numbers<2]
+# Output: 1
 ```
 
-## Updating a vector
+## Updating a Vector
 
 A vector element can be updated just by replacing the value using the subscript operator [] by specifying the index.
 
 ```r
 numbers <- c(2,5,1,7,9)
+
 numbers[3] = 8
-numbers # output [2,5,8,7,9] third element is updated to 8
+numbers # Output: [2,5,8,7,9]
 numbers[1] = 0
-numbers # output [0,5,8,7,9] first element is updated to 0
+numbers # Output: [0,5,8,7,9]
 ```
+To start, the third element in `numbers` is updated to 8. Next, the first element is updated to 0.
+
 
 ## Vector Recycling
 
@@ -95,7 +99,8 @@ Case 1: When the two vector lengths are equal.
 ```r
 numbers1 <- c(1,2,3,4,5)
 numbers2 <- c(3,4,5,6,7)
-sum <- numbers1 + numbers2 # output [4,6,8,10,12]
+sum <- numbers1 + numbers2
+# Output: [4,6,8,10,12]
 ```
 
 Case 2: When the vector lengths are not the same.
@@ -103,9 +108,12 @@ Case 2: When the vector lengths are not the same.
 ```r
 numbers1 <- c(1,2,3,4,5,6)
 numbers2 <- c(3,4)
-sum <- numbers1 + numbers2 # output [4,6,6,8,8,10]
-# Here 1 is added with 3 and then 2 is added with 4. Now numbers2 vector end is reached.
-# Now to complete the addition operation R repeats the smaller vector till the larger vector end is reached.
-# Therefore, 3 is added with 3 and 4 is added with 4 then 5 is added with 3 and 6 is added with 4.4
-# This process is called as vector recycling.
+sum <- numbers1 + numbers2 
+# Output [4,6,6,8,8,10]
 ```
+Here 1 is added with 3 and then 2 is added with 4. Now numbers2 vector end is reached.
+
+Now to complete the addition operation R repeats the smaller vector till the larger vector end is reached.
+
+Therefore, 3 is added with 3 and 4 is added with 4 then 5 is added with 3 and 6 is added with 4.4
+This process is called as vector recycling.
