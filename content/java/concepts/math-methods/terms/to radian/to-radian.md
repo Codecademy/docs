@@ -25,7 +25,7 @@ The conversion from degrees to radians is generally inexact.
 
 ## Example
 
-The following example uses Math.toRadians() to convert 180 degrees and 45 degrees to radians:
+The following example uses `Math.toRadians()` to convert 180 degrees and 45 degrees to radians:
 
 ```java
 public class Main {
