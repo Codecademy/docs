@@ -1,6 +1,6 @@
 ---
 Title: 'Lifecycle Methods'
-Description: 'In React, lifecycle methods are unique event listeners that listen for changes during certain points during a components lifecycle. A components lifecycle usually runs in this order: 1. Rendering/mounting a component to the DOM for the first time. 2. Updatilng an existing component. 3. Catching any errors associated with a component render-gone-wrong. 4. Unmounting a component and removing it from the DOM. Lifecycle methods were originally exclusive to class components. But thanks to React hooks, even functional components can work with their lifecycle. After a component is first created and render()ed to the DOM, it is "mounted". The method used here is called componentDidMount(), which occurs after the component is rendered.'
+Description: 'In React, lifecycle methods are unique event listeners that listen for changes during certain points during a components lifecycle.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In React, lifecycle methods are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order:
+In React, **lifecycle methods** are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order:
 
 1. Rendering/mounting a component to the DOM for the first time.
 2. Updatilng an existing component.
@@ -99,7 +99,7 @@ Assuming we clicked the "+" button twice, which causes a re-`render()` each time
 Rendering...
 Component has mounted.
 Rendering...
-Component udpated. Count is now 1.
+Component updated. Count is now 1.
 Rendering...
 Component updated. Count is now 2.
 ```
@@ -186,11 +186,11 @@ class App extends React.Component {
 }
 ```
 
-**Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They _are not_ compatible with errors related to event handlers.
+> **Note:** `getDerivedStateFromError()` and `componentDidCatch()` are only able to work with errors strictly related to their child components. They are not compatible with errors related to event handlers.
 
 ## Unmounting a Component
 
-When a component is unmounted, it is considered to be at the end of its lifecycle within the React applicaiton. The associated lifecycle method is `componentWillUnmount()`, which executes when React anticipates its host-component will be destroyed.
+When a component is unmounted, it is considered to be at the end of its lifecycle within the React application. The associated lifecycle method is `componentWillUnmount()`, which executes when React anticipates its host-component will be destroyed.
 
 Going back to the previous example where the `<Counter>` component throws an error after is state is equal to 3, it is thereby destroyed and replaced by new a new UI inside of its parent component, `<App>`.
 
@@ -211,7 +211,7 @@ class CounterThatThrowsError extends React.Component {
 
   componentWillUnmount() {
     console.log("Counter has been unmounted!")
-    // Ouput: Counter has been unmounted!
+    // Output: Counter has been unmounted!
   }
 
   render() {
