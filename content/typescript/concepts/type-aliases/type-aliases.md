@@ -1,5 +1,5 @@
 ---
-Title: 'Function'
+Title: 'Type Aliases'
 Description: 'In TypeScript, type aliases create type definitions, using the `type` keyword and a name, that can be reused throughout the code.'
 Subjects:
   - 'Web Development'
