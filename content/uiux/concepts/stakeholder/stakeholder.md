@@ -2,6 +2,7 @@
 Title: 'Stakeholder'
 Description: 'In UI and UX Design, a stakeholder is anyone who impacts or is impacted by a certain project.'
 Subjects:
+  - 'Web Design'
 Tags:
   - 'UI'
   - 'UX'
