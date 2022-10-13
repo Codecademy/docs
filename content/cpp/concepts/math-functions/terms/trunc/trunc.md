@@ -38,7 +38,7 @@ int main() {
 
 ## Codebyte Example
 
-Use `trunc()`  to strip off the decimal part  of `12.3456` and return `12`.
+Use `trunc()`  to strip off the decimal part of `12.3456` and return `12`.
 
 ```codebyte/cpp
 #include <iostream>
