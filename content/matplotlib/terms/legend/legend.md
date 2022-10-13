@@ -1,6 +1,6 @@
 ---
 Title: '.legend()'
-Description: 'Places a legend on the axes and access to manipulate parameters of the legend.'
+Description: 'Places a legend on the axes, allowing access to manipulate parameters of the legend.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -21,7 +21,7 @@ The **`pyplot.legend()`** function returns a legend on the axes of a plot or sub
 plot_instance.legend(handles, labels)
 ```
 
-`.legend()` accepts zero or more parameters and can be called on a valid `plot_instance` of the `pyplot` module. When called with no parameters, `.legend()` will attempt to add the elements automatically. The following parameters can be used:
+The `.legend()` method accepts zero or more parameters and can be called on a valid `plot_instance` of the `pyplot` module. When called with no parameters, `.legend()` will attempt to add the elements automatically. The following parameters can be used:
 
 |  Parameter Name  | Data Type(s)         | Usage                                                                                     |
 | :--------------: | -------------------- | ----------------------------------------------------------------------------------------- |
