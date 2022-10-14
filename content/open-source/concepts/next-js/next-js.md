@@ -19,8 +19,8 @@ Additionally, Next.js comes with built-in features including the following:
 
 - A page-based [routing](https://www.codecademy.com/resources/docs/general/routing) system that supports dynamic routes.
 - Every page is pre-rendered for improved site performance and search-engine optimization (SEO).
-- Any page can either be statically generated (SSG) ahead of time or rendered on the server-side (SSR) upon request.
-- Faster page loads enables automatic code splitting or "lazy-loading".
+- Any page can either be statically generated ahead of time or rendered on the server-side upon request.
+- Faster page loads enables automatic code splitting or "lazy-loading" (load a resource only when it is needed).
 - An in-house `Link` component is used for client-side routing with optional pre-fetching.
 - There is vast styling support including built-in [CSS](https://www.codecademy.com/resources/docs/css), Sass, and CSS-in-JS libraries.
 - [TypeScript](https://www.codecademy.com/resources/docs/typescript) is supported in Next.js.

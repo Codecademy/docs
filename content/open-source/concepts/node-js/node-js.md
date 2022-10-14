@@ -49,7 +49,7 @@ More information about Node's built-in features can be found [here](https://node
 
 Per its official home page, Node "uses an event-driven, non-blocking I/O model." In practice, this means that Node is built well to handle asynchronous JS code to perform many asynchronous activities such as reading and writing to the file system, handling connections to database servers, or handling requests as a web server.
 
-To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This function will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error occurred in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, that will be `null` if no error occurs.
+To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This function will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, that will be `null` if no error occurs.
 
 ```js
 const fs = require('fs');
@@ -115,7 +115,7 @@ $
 
 In this example, the user launches node on line one with the `node` terminal command.
 
-On line 2 the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
+On line 2, the user types `4 + 5` and evaluates with the <kbd>Enter</kbd> key. `9` prints to the output terminal.
 
 On line 4, the user opens a function declaration of `nodeIsGreat()`. Because this function declaration takes multiple lines, Node REPL will print `...` at the beginning of a line to show that it is still reading the user's input statement and has not evaluated yet. After the function declaration is closed on line 6, `undefined` prints to the output terminal, as the function declaration itself does not evaluate to any value.
 
@@ -144,11 +144,11 @@ var a = 'Node REPL is fun!';
 
 After the script file is loaded, the variables are accessible in the REPL, so when we evaluate the `a` variable, it's value has been set by loading `script.js`, and 'Node REPL is fun!' prints to the console.
 
-This can be tested by running `node` in a terminal or check out the <a href="https://nodejs.org/api/repl.html" >REPL docs</a> for more functionality.
+This can be tested by running `node` in a terminal or check out the <a href="https://nodejs.org/api/repl.html" >REPL docs</a> for more information on commands and functionality.
 
 ## Package Management
 
-Node packages are a convenient way to share modules between Node developers. The service [npm](https://www.codecademy.com/resources/docs/javascript/npm) is the default package manager for Node; it becomes available after Node is installed.
+Node packages are a convenient way to share modules between Node developers. The service [Node Package Manager (npm)](https://www.codecademy.com/resources/docs/javascript/npm) is the default package manager for Node; it becomes available after Node is installed.
 
 npm allows access to the many open-source packages available.
 
@@ -160,6 +160,6 @@ Node's major releases aim to support the latest JS features including ES2015 (ES
 
 ### Version Management
 
-As with any major release of software, top-level Node releases (8.x, 7.x, etc.) sometimes introduce error-causing changes in applications built in older versions of the environment. A version manager can be used to switch between multiple versions of Node on a single computer.
+As with any major release of software, top-level Node releases (8.x, 7.x, etc.) sometimes introduce error-causing changes in applications built using older versions on an environment. A version manager can be used to switch between multiple versions of Node on a single computer.
 
 There are two version managers that provide this functionality: [nvm (Node Version Manager)](https://github.com/creationix/nvm) and [n](https://github.com/tj/n) (which can be installed as an npm package).

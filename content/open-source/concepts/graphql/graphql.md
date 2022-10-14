@@ -23,7 +23,11 @@ GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address i
 
 ## Why Adopt GraphQL?
 
-Before discussing GraphQL, developers should be familiar with RESTful architecture. One of REST's disadvantages is it can result in an excessive number of [HTTP](https://www.codecademy.com/resources/docs/general/http) queries or too much data being fetched. Alternatively, GraphQL allows developers to ask for specific data instead of fetching a large object with all of the data every time. There is no room for errors like underfetching and overfetching with GraphQL. Finally, GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, RESTful APIs, and cloud services.
+Before adopting GraphQL, developers should be familiar with RESTful architecture.
+
+- One of REST's disadvantages is it can result in an excessive number of [HTTP](https://www.codecademy.com/resources/docs/general/http) queries or too much data being fetched.
+- Alternatively, GraphQL allows developers to ask for specific data instead of fetching a large object with all of the data every time. There is no room for errors like underfetching and overfetching with GraphQL.
+- Finally, GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, RESTful APIs, and cloud services.
 
 ## How GraphQL Works
 
@@ -35,4 +39,4 @@ A common GraphQL workflow can be seen below:
 
 ## Who Is Using GraphQL?
 
-GraphQL is used by a wide range of businesses, from large to small. Some bigger companies include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), Twitter, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).
+GraphQL is used by small and large businesses. Some bigger companies include Airbnb, Lyft, [GitHub](https://www.codecademy.com/resources/docs/general/github), Twitter, Paypal, and Shopify. More information can be found [here](https://graphql.org/users/).

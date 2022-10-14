@@ -1,5 +1,5 @@
 ---
-Title: 'Open Source' # This is the name that appears on the hub page for this language. Pay attention to capitalization and punctuation!
+Title: 'Open Source'
 Description: 'Open source refers to software that is released with the source code made freely available for modification and possible redistribution.'
 CatalogContent:
   - 'introduction-to-open-source'
