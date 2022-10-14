@@ -31,7 +31,6 @@ The `Text inside the button` is what is shown inside the button.
 
 To make a button which will `count` the number of times we `click` it:
 
-
 ```swift
 @State var count = 0
 var body: some View {
