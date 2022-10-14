@@ -29,22 +29,7 @@ The `Text inside the button` is what is shown inside the button.
 
 ## Example
 
-To make a `'delete'` button:
-
-```swift
-    Button("Delete") {
-     //Deletes a file
-}
- .font(.title)
- .padding()
- .backgroundColor(Color.red)
- .cornerRadius(40)
- .foregroundColor(Color.white)
- .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.red))
-```
-
-## Codebyte Example
-To `count` the number of times we `click` the button:
+To make a button which will `count` the number of times we `click` it:
 
 
 ```swift
