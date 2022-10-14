@@ -49,4 +49,4 @@ The above snippet, creates a button with `Click Me` text. When you will click on
 
 This will display the following:
 
-![Button](https://raw.githubusercontent.com/girijakar/docs/main/media/button.png)
+![Button](https://raw.githubusercontent.com/Codecademy/docs/main/media/button.png)
