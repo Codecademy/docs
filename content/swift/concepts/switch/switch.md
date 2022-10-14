@@ -1,6 +1,6 @@
 ---
 Title: 'Switch'
-Description: 'The switch statement is a type of conditional used to check the value of an expression against multiple cases. A case executes when it matches the value of the expression. When there are no matches between the case statements and the expression, the default statement executes. swift var secondaryColor = "green" switch secondaryColor { case "orange": print("Mix of red and yellow")'
+Description: 'The switch statement is a type of conditional used to check the value of an expression against multiple cases.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -13,26 +13,25 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The `switch` statement is a type of conditional used to check the value of an expression against multiple cases.
+The **`switch`** statement is a type of conditional used to check the value of an expression against multiple cases.
 
 A `case` executes when it matches the value of the expression. When there are no matches between the `case` statements and the expression, the `default` statement executes.
 
 ```swift
-
 var secondaryColor = "green"
 
 switch secondaryColor {
   case "orange":
-    print("Mix of red and yellow")
+    print("Mix of red and yellow.")
   case "green":
-    print("Mix of blue and yellow")
+    print("Mix of blue and yellow.")
   case "purple":
-    print("Mix of red and blue")
+    print("Mix of red and blue.")
   default:
     print("This might not be a secondary color.")
 }
 
-// Output: Mix of blue and yellow
+// Output: Mix of blue and yellow.
 ```
 
 ## Interval Matching
@@ -54,6 +53,7 @@ switch year {
     artPeriod = "Unknown"
 }
 
+print(artPeriod)
 // Output: Post Impressionism
 ```
 
@@ -83,17 +83,16 @@ switch service {
 Within a `switch` statement, a `where` clause is used to test additional conditions against an expression.
 
 ```swift
-
 let num = 7
 
 switch num {
   case let x where x % 2 == 0:
-    print("\(num) is even")
+    print("\(num) is even.")
   case let x where x % 2 == 1:
-    print("\(num) is odd")
+    print("\(num) is odd.")
   default:
-    print("\(num) is invalid")
+    print("\(num) is invalid.")
 }
 
-// Output: 7 is odd
+// Output: 7 is odd.
 ```

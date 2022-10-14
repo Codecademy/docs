@@ -5,15 +5,16 @@ Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
-  - 'Sets'
-  - 'Objects'
   - 'Collections'
+  - 'Objects'
+  - 'Properties'
+  - 'Sets'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`.size`** property returns the number of values in a `Set` as an integer.
+The **.size** property returns the number of entries in a `Map` object.
 
 ## Syntax
 
