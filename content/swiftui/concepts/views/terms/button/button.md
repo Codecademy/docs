@@ -47,7 +47,7 @@ To make a `'delete'` button:
 To `count` the number of times we `click` the button:
 
 
-```codebyte/swiftui
+```swift
 @State var count = 0
 var body: some View {
   Button("Click me: \(count)") {
