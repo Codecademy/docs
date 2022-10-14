@@ -20,7 +20,7 @@ A **button** is a basic component in the [UI](https://www.codecademy.com/resourc
 ## Syntax
 
 ```swift
-Button("Text inside the button"){
+Button("Text inside the button") {
   // What happens when you click the button
 }
 ```
