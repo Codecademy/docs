@@ -29,7 +29,7 @@ The `"Text inside the button"` is what is shown on the button.
 
 ## Example
 
-To make a button which will `count` the number of times we `click` it:
+To make a button which will count the number of times we click it:
 
 ```swift
 @State var count = 0
