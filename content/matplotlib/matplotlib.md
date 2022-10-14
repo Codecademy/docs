@@ -17,4 +17,4 @@ Originally written by John D. Hunter and released in 2003, [**Matplotlib**](http
 
 Matplotlib can create static, animated, and interactive data visualizations.
 
-Below are some Matplotlib methods:
+Below are some common Matplotlib modules:
