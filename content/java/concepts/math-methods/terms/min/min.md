@@ -19,7 +19,8 @@ The **`Math.min()`** method returns the minimum value from the given two argumen
 ```pseudo
 Math.min(num1, num2)
 ```
-- The `.min()` function takes two parameters `num1` and `num2`.
+
+- The `.min()` method takes two parameters `num1` and `num2`.
 - The `num1` and `num2` arguments can be of type int, float, double or long.
 
 ## Example
@@ -39,6 +40,6 @@ public class Main {
 
 This results in the following output:
 
-```java
+```shell
 10
 ```
