@@ -20,8 +20,8 @@ The **`Math.toRadians()`** method returns the measurement of an angle in degrees
 Math.toRadians(deg)
 ```
 
-The `deg` argument is a `double` value.
-The conversion from degrees to radians is generally inexact.
+ The `deg` argument is a `double` value.
+ The conversion from degrees to radians is generally inexact.
 
 ## Example
 
