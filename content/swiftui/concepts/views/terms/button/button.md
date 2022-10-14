@@ -25,7 +25,7 @@ Button("Text inside the button"){
 }
 ```
 
-The `Text inside the button` is what is shown inside the button.
+The `"Text inside the button"` is what is shown on the button.
 
 ## Example
 
