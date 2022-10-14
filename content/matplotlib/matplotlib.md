@@ -1,5 +1,5 @@
 ---
-Title: 'Matplotlib'
+Title: 'Python:Matplotlib'
 Description: 'Matplotlib is a library for creating static, animated, and interactive visualizations in Python.'
 Subjects:
   - 'Data Science'
@@ -17,4 +17,4 @@ Originally written by John D. Hunter and released in 2003, [**Matplotlib**](http
 
 Matplotlib can create static, animated, and interactive data visualizations.
 
-Below are some Matplotlib methods:
+Below are some common Matplotlib modules:
