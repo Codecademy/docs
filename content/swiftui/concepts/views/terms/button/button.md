@@ -20,12 +20,12 @@ A **button** is a basic component in the [UI](https://www.codecademy.com/resourc
 ## Syntax
 
 ```pseudo
-Button("Text inside the button") {
+Button("Label of button") {
   // What happens when you click the button
 }
 ```
 
-The `"Text inside the button"` is what is shown on the button.
+The `"Label of button"` is what is shown on the button.
 
 ## Example
 
