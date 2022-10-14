@@ -19,7 +19,8 @@ The **`Math.max()`** method returns the maximum value from the given two argumen
 ```pseudo
 Math.max(num1, num2)
 ```
-- The `.max()` function takes two parameters `num1` and `num2`.
+
+- The `.max()` method takes two parameters `num1` and `num2`.
 - The `num1` and `num2` arguments can be of type int, float, double or long.
 
 ## Example
@@ -39,6 +40,6 @@ public class Main {
 
 This results in the following output:
 
-```java
+```shell
 50
 ```
