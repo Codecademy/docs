@@ -46,6 +46,7 @@ Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud Computing
 Code Editors
 Collections
 Colors
@@ -138,6 +139,7 @@ IDE
 If
 Images
 Index
+Infrastructure
 Inheritance
 Input
 Integers
@@ -188,6 +190,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Open Source
 Operating Systems
 Operators
 Optionals
@@ -250,6 +253,7 @@ Strings
 Structure
 Style
 SwiftUI
+SwiftUI Views
 Switch
 Symbol
 Syntax
