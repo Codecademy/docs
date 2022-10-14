@@ -46,6 +46,7 @@ Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud Computing
 Code Editors
 Collections
 Colors
@@ -250,6 +251,7 @@ Strings
 Structure
 Style
 SwiftUI
+SwiftUI Views
 Switch
 Symbol
 Syntax
