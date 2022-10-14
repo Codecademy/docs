@@ -82,7 +82,7 @@ print("There are \(band.count) players in the band.")
 | `.remove()`              | Remove an element at a specified index                                                             |
 | `.removeAll()`           | Remove every single value from a set                                                               |
 | `.contains()`            | Check whether an item exists within the set                                                        |
-| `.intersection()`        | Populates a new set of elements with the overlapping elements of two sets                          |
+| `.intersection()`        | Returns a new set of elements with the overlapping elements of two sets                            |
 | `.union()`               | Populates a new set by taking all the values from two sets and combining them                      |
 | `.symmetricDifference()` | Creates a new set with all the non-overlapping values between two sets                             |
 | `.subtracting()`         | Removes the values of one second set from another set and stores the remaining values in a new set |
