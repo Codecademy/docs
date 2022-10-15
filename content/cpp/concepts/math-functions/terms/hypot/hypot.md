@@ -20,7 +20,7 @@ The **hypot()** function returns the square root of sum of square of arguments p
  hypot(float x, float y)
 ```
 
-It finds the hypotenuse, hypotenuse is the longest side of a right angled triangle.
+The `hypot()` function finds the hypotenuse, the longest side of a right angled triangle. The parameters `x` and `y` are the lengths of the other two sides.
 
 ## Example
 
