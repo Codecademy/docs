@@ -1,6 +1,6 @@
 ---
 Title: 'Code Editor'
-Description: 'A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand. Code editors have built-in knowledge of programming languages, which allow different elements of the code (ie. variables, keywords, functions, etc.) to appear in different colors making the code easier to analyze for developers. Code editors can compile and run code. In addition to being able to print a codes output, these programs can also identify where and why a particular line of code fails to execute.'
+Description: 'A code editor is a program designed for writing software and utilizing human-readable text to make code easier to parse and understand.'
 Subjects:
   - 'Developer Tools'
   - 'Code Foundations'
@@ -8,14 +8,14 @@ Subjects:
 Tags:
   - 'Code Editors'
   - 'IDE'
-CatalogContent: # If listing multiple URLs, please put the most relevant one first
+CatalogContent:
   - 'learn-python-3'
   - 'paths/front-end-engineer-career-path'
 ---
 
-A code editor is a program designed for writing software. Developers writing code using a code editor utilize human-readable text which makes code easier to parse and understand.
+A **code editor** is a program designed for writing software in which developers utilize human-readable text to make code easier to parse and understand. They have built-in knowledge of programming languages, allowing different elements of the code (i.e., variables, keywords, functions, etc.) to appear in different colors and improve readability and analysis by developers.
 
-Code editors have built-in knowledge of programming languages, which allow different elements of the code (ie. variables, keywords, functions, etc.) to appear in different colors making the code easier to analyze for developers. Code editors can compile and run code. In addition to being able to print a code's output, these programs can also identify where and why a particular line of code fails to execute.
+Code editors can compile and run code. In addition to being able to print a code's output, these programs can also identify where and why a particular line of code [fails to execute](https://www.codecademy.com/resources/docs/general/error).
 
 ## Notable Examples
 
@@ -25,6 +25,5 @@ There are numerous code editors available, such as:
 - [Sublime Text](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/)
-- [Vim](https://www.vim.org/)
 
-Which code editor program to use is really up to the individual developer according to their tastes!
+Which code editor program to use is really up to the individual developer's preferences.
