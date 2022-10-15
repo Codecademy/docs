@@ -1,6 +1,6 @@
 ---
 Title: 'hypot()'
-Description: 'Returns the square root of sum of square of arguments passed.'
+Description: 'Returns the square root of sum of squares of arguments passed.'
 Subjects:
   - 'Computer Science'
 Tags:
