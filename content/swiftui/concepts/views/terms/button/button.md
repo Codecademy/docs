@@ -25,7 +25,7 @@ Button("Label of button") {
 }
 ```
 
-The `"Label of button"` is what is shown on the button.
+The `"Label of button"` is what is shown on the button. It can be an icon, text or a combination of both.
 
 ## Example
 
