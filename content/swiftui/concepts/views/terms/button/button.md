@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **button** is a basic component in the [UI](https://www.codecademy.com/resources/docs/uiux), which the user interacts with to perform a certain action, such as logging into a site, or deleting a file etc.
+A **button** is a basic component in the [UI](https://www.codecademy.com/resources/docs/uiux), which the user interacts with to perform a certain action, such as logging into a site, or deleting a file.
 
 ## Syntax
 
