@@ -24,7 +24,7 @@ The `hypot()` function finds the hypotenuse, the longest side of a right angled 
 
 ## Example
 
-The following example uses the `hypot()` function to find the hypotenuse of a right triangle with base and perpendicular sides of `9` & `10`:
+The following example uses the `hypot()` function to find the hypotenuse of a right triangle with base and height of `9` & `10`:
 
 ```cpp
 #include <cmath>
