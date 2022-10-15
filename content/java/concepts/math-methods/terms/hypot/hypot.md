@@ -21,7 +21,7 @@ The **`Math.hypot()`** method is used to get the hypotenuse of a right-angled tr
 Math.hypot(x, y)
 ```
 
-The return type for `.hypot()` is `double`. If either _x_ or _y_ parameter is infinite, the result is positive infinity. If neither argument is infinite, but one or both parameters are `NaN`, the result is `NaN`.
+The return type for `.hypot()` is `double`. If either the `x` or `y` parameter is infinite, the result is positive infinity. If neither argument is infinite, but one or both parameters are `NaN`, the result is `NaN`.
 
 ## Example
 
