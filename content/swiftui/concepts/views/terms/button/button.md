@@ -45,7 +45,7 @@ var body: some View {
  .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.green))
 ```
 
-The above snippet, creates a button with `Click Me` text. When you will click on it, the number next to the text will increase with the number of clicks.
+The above snippet creates a button that displays `"Click Me"`. When the user clicks on it, the number next to the text will increase with the number of clicks.
 
 This will display the following:
 
