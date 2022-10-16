@@ -29,7 +29,7 @@ Datatype of the value returned by '.subtractExact()' method depends upon the arg
 
 ## Example
 
-The following example showcases the `.subtractExact()` method being applied to two variables:
+The following example demonstrates the `.subtractExact()` method being applied to two variables:
 
 ```java
 public class Check {
