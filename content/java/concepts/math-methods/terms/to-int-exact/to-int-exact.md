@@ -30,7 +30,7 @@ at java.base/java.lang.Math.toIntExact
 
 ## Example
 
-The following example showcases the application of `.toIntExact()` method:
+The following example demonstrates the application of `.toIntExact()` method:
 
 ```java
 public class Check {
