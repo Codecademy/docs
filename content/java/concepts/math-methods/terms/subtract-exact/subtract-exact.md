@@ -21,7 +21,7 @@ The **`Math.subtractExact()`** method returns the difference of the arguments.
 Math.subtractExact(x, y)
 ```
 
-Datatype of the value returned by '.subtractExact()' method depends upon the arguments passed.
+Datatype of the value returned by '.subtractExact()' method depends upon the arguments passed:
 
 - If both the arguments are of type `int` then the return type will be `int`.
 - If both the arguments are of type `long` then the return type will be `long`.
