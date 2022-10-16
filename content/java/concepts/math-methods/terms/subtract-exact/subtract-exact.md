@@ -18,7 +18,7 @@ The **`Math.subtractExact()`** method returns the difference of the arguments.
 ## Syntax
 
 ```pseudo
-Math.subtractExact(int num)
+Math.subtractExact(x, y)
 ```
 
 Datatype of the value returned by '.subtractExact()' method depends upon the arguments passed.
