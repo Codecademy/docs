@@ -54,7 +54,9 @@ This will produce the following output:
 
   public class Main {
     public static void main(String[] args) {
-          // radians
+      Scanner sc = new Scanner(System.in);
+
+      double x = nextFloat();       // radians
       System.out.println(Math.tan(x));
 
       x = 0.0;
