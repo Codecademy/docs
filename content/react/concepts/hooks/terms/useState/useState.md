@@ -29,21 +29,21 @@ The variables names themselves don't have to be `state` and `setState`. It depen
 const [time, setTime] = useState(0);
 ```
 
-_important note:_ In cases where the state is an object or array, changing them through the setter must be done in an immutable way (that is, doesn't change the original object or array). _See Example 2 below_
+**Note:** In cases where the state is an `object` or `array`, changing them through the setter must be done without changing the original object or array (see Example #2 below)
 
-## Example
+## Example #1
 
-- A controlled input whose value depends on the `name` state and changes it through `setName` setter on `onChange` event.
+A controlled input whose value depends on the `name` state and changes it through `setName` setter on `onChange` event.
 
 ```js
 function ProfileName() {
   const [name, setName] = useState('');
 
   function handleChange(event) {
-    /**
-     * sets the `name` state to the value of
-     * the input after the onChange event
-     * */
+    /*
+     Sets the name state to the value of
+     the input after the onChange event.
+    */
     setName(event.currentTarget.value);
   }
 
@@ -51,19 +51,21 @@ function ProfileName() {
 }
 ```
 
-- A component to hold list of favorite foods. Items can be deleted by clicking it.
+## Example #2
+
+A component to hold list of favorite foods. Items can be deleted by clicking it.
 
 ```js
 function FavoriteFoodList() {
   const [foods, setFoods] = useState(['pizza', 'hot dog']);
 
   function handleDeleteFood(deletedIndex) {
-    /**
-     * Don't do `delete foods[index]`
-     * or `foods.splice(index, 1)`
-
-    * Instead, you can use the .filter() method 
-    * to exclude the item at `deletedIndex`
+    /*
+      Don't do delete foods[index]
+      or foods.splice(index, 1)
+      
+      Instead, you can use the .filter() method 
+      to exclude the item at deletedIndex
     */
     const filteredItems = foods.filter((food, index) => index !== deletedIndex);
 

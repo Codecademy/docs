@@ -1,6 +1,6 @@
 ---
 Title: 'useEffect()'
-Description: 'Takes in a function and an array. The former will be executed after the current render phase finishes and only if the elements inside the latter has changed from the previous render.'
+Description: 'Takes in a function and an array. The function will be executed after the current render phase finishes and only if the elements inside the array has changed from the previous render.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,15 +11,15 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `useEffect()` hook Takes in a function and an array. The former will be executed after the current render process finishes and only if the elements inside the latter has changed from the previous render.
+The `useEffect()` hook takes in a function and an array. The function will be executed after the current render process finishes and only if the elements inside the array has changed from the previous render.
 
-This hook can be used to run side effects (e.g. call to external API, update another state, etc.) or attach event listeners.
+This hook can be used to run side effects (e.g. call to an external API, update another state, etc.) or attach event listeners.
 
 ## Syntax
 
 The `useEffect()` hook accepts a function and an array of dependencies as its first and second parameter respectively. This hook doesn't return any value.
 
-```js
+```pseudo
 useEffect(
   () => {
     // runs side effect here
@@ -32,7 +32,7 @@ In case where the array of dependencies is empty `([])`, the effect will only ru
 
 The function passed as first parameter may also return "cleanup function" which will be executed before the next scheduled effect runs. This chance can be used to remove event listeners or abort an API call.
 
-```js
+```jsx
 useEffect(
   () => {
     // runs side effect here
