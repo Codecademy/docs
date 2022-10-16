@@ -23,7 +23,7 @@ Math.toIntExact(long val)
 
 The return type of the `.toIntExact()` method is an `int` type value. The data type of the `val` parameter is `long`.
 
-- If the value of 'val' is greater than 2147483647L or is lesser than -2147483648L then an exception of following manner will be thrown.
+- If the value of `val` is greater than 2147483647L or is lesser than -2147483648L then an exception of following manner will be thrown.
 
 ```shell
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
