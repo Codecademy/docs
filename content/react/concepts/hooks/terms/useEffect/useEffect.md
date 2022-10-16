@@ -13,7 +13,7 @@ CatalogContent:
 
 The `useEffect()` hook takes in a function and an array. The function will be executed after the current render process finishes and only if the elements inside the array has changed from the previous render.
 
-This hook can be used to run side effects (e.g. call to an external API, update another state, etc.) or attach event listeners.
+This hook can be used to run side effects (e.g. call to an external API, update another state, etc.) or attach [event listeners](https://www.codecademy.com/resources/docs/javascript/events).
 
 ## Syntax
 

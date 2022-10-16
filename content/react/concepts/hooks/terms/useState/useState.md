@@ -29,7 +29,7 @@ The variables names themselves don't have to be `state` and `setState`. It depen
 const [time, setTime] = useState(0);
 ```
 
-**Note:** In cases where the state is an `object` or `array`, changing them through the setter must be done without changing the original object or array (see Example #2 below)
+**Note:** In cases where the state is an `object` or `array`, changing them through the setter must be done without changing the original [object](https://www.codecademy.com/resources/docs/javascript/objects) or [array](https://www.codecademy.com/resources/docs/javascript/arrays) (see Example #2 below)
 
 ## Example #1
 
