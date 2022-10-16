@@ -1,1 +1,1 @@
-content/general/concepts/http/http.md
+content/javascript/concepts/objects/objects.md
