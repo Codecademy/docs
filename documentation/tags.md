@@ -220,6 +220,7 @@ Range
 React
 React Native
 Readr
+Rectangle
 Recursion
 Redux
 References
