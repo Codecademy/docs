@@ -20,8 +20,8 @@ The **`Math.toRadians()`** method returns the measurement of an angle in degrees
 Math.toRadians(deg)
 ```
 
- The `deg` argument is a `double` value.
- The conversion from degrees to radians is generally inexact.
+- The `deg` argument is a `double` value.
+- The conversion from degrees to radians is generally inexact.
 
 ## Example
 
@@ -30,7 +30,6 @@ The following example uses `Math.toRadians()` to convert 180 degrees and 45 degr
 ```java
 public class Main {
   public static void main(String[] args) {
-
     double deg1 = 180.0;
     double deg2= 45.0;
     System.out.println(Math.toRadians(deg1));
