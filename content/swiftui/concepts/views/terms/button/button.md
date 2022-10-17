@@ -1,8 +1,8 @@
 ---
 Title: 'Button'
-Description: 'Used to perform certain actions.'
+Description: 'A basic component in the UI which the user interacts with to perform a certain action.'
 Subjects:
-  - 'Sotfware Development'
+  - 'Software Development'
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **button** is a basic component in the [UI](https://www.codecademy.com/resources/docs/uiux), which the user interacts with to perform a certain action, such as logging into a site, or deleting a file.
+A **button** is a basic component in the [UI](https://www.codecademy.com/resources/docs/uiux) which the user interacts with to perform a certain action, such as logging into a site or deleting a file.
 
 ## Syntax
 
