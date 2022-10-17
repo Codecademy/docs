@@ -33,7 +33,7 @@ The computed result will be within 2.5 ulps of the exact result.
 
 ## Example
 
-The following example showcases the application of `.sinh()` method:
+The following example demonstrates the application of `.sinh()` method:
 
 ```java
 public class Check {
