@@ -21,7 +21,7 @@ The **`Math.signum()`** determines whether a number is positive, negative, zero,
 Math.signum(num)
 ```
 
-The `.signum()` method takes a double `num` parameter and returns a double.
+The `.signum()` method takes a `double` `num` parameter and returns a `double`.
 
 Some edge cases for the `.signum()` method include the following:
 
