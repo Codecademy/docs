@@ -25,7 +25,7 @@ The return type of the `.sinh()` method is a double.
 
 Some special cases for the `.sinh()` method include the following:
 
-- If the argument is NaN, then the result is NaN.
+- If the argument is `NaN`, then the result is `NaN`.
 - If the argument is infinite, then the result is an infinity with the same sign as the argument.
 - If the argument is zero, then the result is a zero with the same sign as the argument.
 
