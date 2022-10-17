@@ -39,7 +39,7 @@ h1 {
 
 ## Example 2
 
-Setting a `div` elements height transition to last `4` seconds and color transition to last `200` milliseconds.
+Setting a `div` element's height transition to last `4` seconds and color transition to last `200` milliseconds.
 
 ```css
 div {
