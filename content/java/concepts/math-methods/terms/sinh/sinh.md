@@ -29,7 +29,7 @@ Some special cases for the `.sinh()` method include the following:
 - If the argument is infinite, then the result is an infinity with the same sign as the argument.
 - If the argument is zero, then the result is a zero with the same sign as the argument.
 
-The computed result must be within 2.5 ulps of the exact result.
+The computed result will be within 2.5 ulps of the exact result.
 
 ## Example
 
