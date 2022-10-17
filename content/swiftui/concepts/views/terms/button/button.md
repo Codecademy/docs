@@ -35,14 +35,14 @@ To make a button which will count the number of times we click it:
 @State var count = 0
 var body: some View {
   Button("Click me: \(count)") {
-     self.count += 1
+    self.count += 1
   }
- .font(.title)
- .padding()
- .backgroundColor(Color.green)
- .cornerRadius(40)
- .foregroundColor(Color.black)
- .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.green))
+  .font(.title)
+  .padding()
+  .backgroundColor(Color.green)
+  .cornerRadius(40)
+  .foregroundColor(Color.black)
+  .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.green))
 ```
 
 The above snippet creates a button that displays `"Click Me"`. When the user clicks on it, the number next to the text will increase with the number of clicks.
