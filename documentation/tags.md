@@ -41,6 +41,7 @@ Box Plot
 Browser Compatibility
 Browsers
 Bubble Sort
+Buttons
 Catch
 Characters
 Chatbots
