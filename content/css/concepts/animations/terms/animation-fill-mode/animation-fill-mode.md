@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `animation-fill-mode` animiation property defines what values are applied by an animation outside its execution time.
+The `animation-fill-mode` animation property defines what values are applied by an animation outside its execution time.
 
 ## Syntax
 
