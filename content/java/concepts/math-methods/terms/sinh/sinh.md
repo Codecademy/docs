@@ -1,6 +1,6 @@
 ---
 Title: '.sinh()'
-Description: 'Returns the hyperbolic sine of a double-type value. The hyperbolic sine of x is defined to be (e^x - e^-x)/2 where e is Euler's number.'
+Description: 'Returns the hyperbolic sine of a double-type value.'
 Subjects:
   - 'Computer Science'
 Tags:
