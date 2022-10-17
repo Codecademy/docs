@@ -1,6 +1,6 @@
 ---
 Title: 'Button'
-Description: 'A basic component in the UI which the user interacts with to perform a certain action.'
+Description: 'Allows users to interact with the UI and perform certain actions.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
@@ -15,13 +15,13 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **button** is a basic component in the [UI](https://www.codecademy.com/resources/docs/uiux) which the user interacts with to perform a certain action, such as logging into a site or deleting a file.
+A **button** is an interactive component in the [user interface (UI)](https://www.codecademy.com/resources/docs/uiux) that allows user to perform certain actions, such as logging into a site or deleting a file.
 
 ## Syntax
 
 ```pseudo
 Button("Label of button") {
-  // What happens when you click the button
+  // What happens when the button is used
 }
 ```
 
@@ -29,7 +29,7 @@ The `"Label of button"` is what is shown on the button. It can be an icon, text 
 
 ## Example
 
-To make a button which will count the number of times we click it:
+The following example increases the `count` each time the `Button` is used:
 
 ```swift
 @State var count = 0
@@ -45,7 +45,7 @@ var body: some View {
   .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.green))
 ```
 
-The above snippet creates a button that displays `"Click Me"`. When the user clicks on it, the number next to the text will increase with the number of clicks.
+Each time the user selects the `Button`, the number next to the text `"Click Me"` will increase `self.count` by 1.
 
 This will display the following:
 
