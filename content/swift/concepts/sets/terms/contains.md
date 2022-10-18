@@ -1,6 +1,6 @@
 ---
 Title: '.contains()'
-Description: 'Check whether an item exists within the set.'
+Description: 'Checks whether an item exists within the set.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,27 +12,23 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`contains()`** method returns true if the given element exists in the set, false otherwise.
+The **`contains()`** method returns `true` if the given element exists in the set, `false` otherwise.
 
 ## Syntax
 
 ```pseudo
-if mySet.contains(number) {
-    print("This set contains this number: \(number)")
-} else {
-    print("This set does not contain this number: \(number)")
-}
+setName.contains(element)
 ```
 
 ## Example
 
 ```swift
-let mySet: Set = [1, 2, 3, 4]
-let number = 2
-if mySet.contains(number) {
-    print("This set contains this number: \(number)")
+let numberSet: Set = [1, 2, 3, 4]
+let targetNumber = 2
+if numberSet.contains(targetNumber) {
+    print("This set contains this number: \(targetNumber)")
 } else {
-    print("This set does not contain this number: \(number)")
+    print("This set does not contain this number: \(targetNumber)")
 }
 
 // Output: This set contains this number: 2
