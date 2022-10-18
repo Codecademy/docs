@@ -1,6 +1,6 @@
 ---
 Title: '.signum()'
-Description: 'Used to determine whether a number is positive, negative, zero, or NaN'
+Description: 'Used to determine whether a number is positive, negative, zero, or NaN.'
 Subjects:
   - 'Computer Science'
 Tags:
