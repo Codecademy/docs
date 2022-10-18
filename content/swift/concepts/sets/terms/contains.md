@@ -1,6 +1,6 @@
 ---
 Title: '.contains()'
-Description: 'Check whether an item exists within the set.'
+Description: 'Checks whether an item exists within the set.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
