@@ -19,6 +19,7 @@ The **`.reduce()`** method produces a single value from the elements of an entir
 ```pseudo
 arrayName.reduce(_:_:) 
 ```
+
 The `.reduce()` method takes two arguments:
 
 - initial value - To store the initial value or result returned by the closure from each iteration.
