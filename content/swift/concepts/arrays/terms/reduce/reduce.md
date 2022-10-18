@@ -1,6 +1,6 @@
 ---
 Title: '.reduce()'
-Description: 'Loops/Iterate over every item in a sequence, combines them into one value, and returns the combined result'
+Description: 'Loops/Iterates over every item in a sequence, combines them into one value, and returns the combined result.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -14,16 +14,15 @@ CatalogContent:
 
 The **`.reduce()`** method produces a single value from the elements of an entire sequence using the given closure.
 
-It Takes 2 arguments
-- initial value - To store the initial value or result returned by the closure from each iteration.
-- closure - It takes 2 arguments, first one is the result from previous execution of the closure and the other one is next item in the collection.
-
-
 ## Syntax
 
 ```pseudo
 arrayName.reduce(_:_:) 
 ```
+The `.reduce()` method takes two arguments:
+
+- initial value - To store the initial value or result returned by the closure from each iteration.
+- closure - It takes 2 arguments, first one is the result from previous execution of the closure and the other one is next item in the collection.
 
 ## Example
 
