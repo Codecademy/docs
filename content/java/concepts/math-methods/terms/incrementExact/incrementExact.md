@@ -1,7 +1,7 @@
 ---
 Title: '.incrementExact()'
 
-Description: 'the argument incremented by one, throwing an exception if the result overflows the datatype.'
+Description: 'Returns the argument incremented by one, throwing an exception if the result overflows the datatype.'
 Subjects:
 - 'Computer Science'
   Tags:
@@ -13,7 +13,7 @@ Subjects:
 - 'learn-java'
 ---
 
-The **`Math.incrementExact()`** method returns the argument incremented by one or throws exception if the result overflows the specified datatype either long or int.
+The **`Math.incrementExact()`** method returns the argument incremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified datatype either `long` or `int`.
 
 ## Syntax
 
@@ -21,11 +21,11 @@ The **`Math.incrementExact()`** method returns the argument incremented by one o
 Math.incrementExact(num)
 ```
 
-- The `num` argument is a `double` or `int` value.
+- The `num` argument is a `long` or `int` value.
 
 ## Example
 
-The following example uses `Math.incrementExact()` to increases the input by 1:
+The following example uses `Math.incrementExact()` to increase the input by 1:
 
 ```java
 public class Main {
