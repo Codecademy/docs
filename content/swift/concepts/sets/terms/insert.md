@@ -1,6 +1,6 @@
 ---
 Title: '.insert()'
-Description: 'Add an element at a specified index.'
+Description: 'Adds an element at a specified index.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`insert()`** method inserts the given element in the set if it is not already present.
+The **`insert()`** method adds or inserts a given element in the set if it is not already present because set is a collection of unique elements.
 
 ## Syntax
 
 ```pseudo
-anySet.insert(element)
+setName.insert(element)
 ```
 
 ## Example
@@ -36,4 +36,6 @@ print(myFruitsSet.insert("apple"))
 
 print(myFruitsSet)
 // Output: ["apple", "banana"]
+
+// NOTE - Set is an unordered collection so the order of elements can vary.
 ```
