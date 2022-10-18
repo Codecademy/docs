@@ -24,7 +24,7 @@ Circle()
 //Properties, such as fill, frame, borders etc.
 ```
 
-The `"Circle"` is one of the pre-built shapes. The user can use different properties such as fill, stroke, alignment, size to adjust the circle according to their requirement.
+The `"Circle"` is one of the pre-built shapes. The user can use different properties such as fill, stroke, alignment, size to adjust the circle according to their requirements.
 
 ## Example
 
