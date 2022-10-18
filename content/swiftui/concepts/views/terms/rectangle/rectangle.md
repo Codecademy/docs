@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`rectangle`** A rectangular shape aligned inside the frame of the view containing it.
+The **`Rectangle`** view is a rectangular shape that is aligned inside the frame of the `View` containing it.
 
 ## Syntax
 
@@ -24,11 +24,11 @@ var body: some View {
 }
 ```
 
-SwiftUI has several built-in shapes, such as `Rectangle`, circles, and capsules, and you can create, color, and place each shape as needed.
+SwiftUI has several built-in shapes, such as a rectangle, circle, and capsule. The color and placement of each shape can be modified as needed.
 
 ## Example
 
-You can change it to the desired shape by attaching a modifier to the Rectangle.
+Can change it to the desired shape by attaching a modifier to the `Rectangle`.
 
 ```swift
 var body: some View {
@@ -41,7 +41,7 @@ var body: some View {
 }
 ```
 
-Order matters here; There is a yellow rectangle with a border's width of 20 and a rounded corner of 10. And there's a green rectangle that's 100 in length and 100 in width.
+Order matters here; there is a yellow rectangle with a border width of `20 points` and a rounded corner of `10.0`. Additionally, there's a green rectangle that's `100 points` in length and `100 points` in width.
 
 This will display the following:
 
