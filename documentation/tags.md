@@ -46,7 +46,6 @@ Buttons
 Catch
 Characters
 Chatbots
-Circle
 Cryptocurrency
 Classes
 Cloud Computing
@@ -257,6 +256,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI Circles
 Switch
 Symbol
 Syntax
