@@ -1,6 +1,6 @@
 ---
 Title: '.signum()'
-Description: 'Used to determine whether a number is positive, negative, zero or NaN'
+Description: 'Used to determine whether a number is positive, negative, zero, or NaN.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.signum()`** determines whether a number is positive, negative, zero or NaN.
+The **`Math.signum()`** determines whether a number is positive, negative, zero, or NaN.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ The **`Math.signum()`** determines whether a number is positive, negative, zero 
 Math.signum(num)
 ```
 
-The `.signum()` method takes a double `num` parameter and returns a double.
+The `.signum()` method takes a `double` `num` parameter and returns a `double`.
 
 Some edge cases for the `.signum()` method include the following:
 
