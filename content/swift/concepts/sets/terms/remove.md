@@ -1,6 +1,6 @@
 ---
 Title: '.remove()'
-Description: 'Remove an element at a specified index.'
+Description: 'Removes an element at a specified index.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -17,7 +17,7 @@ The **`.remove()`** method removes an element at a specified index.
 ## Syntax
 
 ```pseudo
-arrayName.remove(at: index)
+setName.remove(at: index)
 ```
 
 ## Example
@@ -31,7 +31,7 @@ if let _ = weather.remove(toRemove) {
 
 ```
 
-In the example above, the 'autumn' element is removed. This will output:
+In the example above, The `autumn` element in the "weather" array was removed. This will output:
 
 ```shell
 autumn is 
