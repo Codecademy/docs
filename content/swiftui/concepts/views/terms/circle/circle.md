@@ -8,7 +8,7 @@ Subjects:
 Tags:
   - 'SwiftUI'
   - 'SwiftUI Views'
-  - 'Circle'
+  - 'SwiftUI Circles'
   - 'Views'
 CatalogContent:
   - 'learn-swiftui'
