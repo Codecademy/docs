@@ -12,15 +12,15 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`isSubset()`** method returns `true` if all elements of a set are present in another set(passed as an argument). If not, it returns false.
+The **`isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), false otherwise.
 
 ## Syntax
 
 ```pseudo
-setName.isSubset(otherSet)
+setName.isSubset(of: otherSetName)
 ```
 
-The `isSubset()` method returns true if `setName` is a subset of `otherSet`. If not, it returns false
+The `isSubset()` method returns `true` if `setName` is a subset of `otherSetName`, `false` otherwise.
 
 ## Example
 
