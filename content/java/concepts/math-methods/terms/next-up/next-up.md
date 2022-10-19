@@ -13,18 +13,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.nextUp()`** method returns the floating-point value adjacent to the argument passed as the parameter in the direction of positive infinity. Argument passed can be either of type `double` or `float`.
+The **`Math.nextUp()`** method returns the floating-point value adjacent to the argument passed as the parameter in the direction of positive infinity.
 
 ## Syntax
 
-```pseudo
-Math.nextUp(float val)
-```
-
-or
+Note: Argument passed can be either of type `double` or `float`.
 
 ```pseudo
-Math.nextUp(double val)
+Math.nextUp(val)
 ```
 
 The following are some of the special cases for this method:
