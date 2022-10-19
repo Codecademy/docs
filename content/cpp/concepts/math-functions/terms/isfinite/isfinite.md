@@ -1,6 +1,6 @@
 ---
 Title: 'isfinite()'
-Description: 'Returns whether the argument is a finite value.'
+Description: 'Returns a value telling whether the argument is a finite value.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,17 +13,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`isfinite()`** function returns boolean telling whether the argument has a finite value.
+The **`isfinite()`** function returns a value telling whether the argument has a finite value.
 
 ## Syntax
 
-```cpp
+```pseudo
 isfinite(x)
 ```
 
+The `x` parameter is finite if it a floating-point number that is neither infinite or `NaN` (e.g., division by zero, square root of a negative value).
+
+If `x` is finite, the `isfinite()` function will return a non-zero value for `true`. Otherwise, it will return zero for `false`.
+
 ## Example
 
-The following example uses the `isfinite()` function to check whether `5` is finite:
+The following example uses the `isfinite()` function to check whether `5.0` is finite:
 
 ```cpp
 #include <iostream>
@@ -46,7 +50,8 @@ int main() {
 
 ## Codebyte Example
 
-The following example is runnable and features a case where running the `isfinite()` functions returns `false` and the value is not finite:
+The following example is runnable and features a case where running the `isfinite()` function returns `false` and the value is not finite:
+
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
