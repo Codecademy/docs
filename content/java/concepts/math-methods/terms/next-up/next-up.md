@@ -27,7 +27,7 @@ or
 Math.nextUp(double val)
 ```
 
-Following are some of the special cases for this method-
+The following are some of the special cases for this method:
 
 - If the argument is `NaN`, the result is `NaN`.
 - If the argument is positive infinity, the result is positive infinity.
