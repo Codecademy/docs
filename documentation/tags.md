@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Authentication
 Automation
 Azure
 A-Frame
@@ -41,6 +42,7 @@ Box Plot
 Browser Compatibility
 Browsers
 Bubble Sort
+Buttons
 Catch
 Characters
 Chatbots
