@@ -16,7 +16,7 @@ The **`fmod()`** function returns the floating-point remainder of the division o
 ## Syntax
 
 ```pseudo
-fmod (numerator, denominator)
+fmod(numerator, denominator)
 ```
 
 The quotient of the `numerator` divided by the `denominator` is rounded towards zero through truncation.
