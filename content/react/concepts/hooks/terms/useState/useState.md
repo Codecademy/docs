@@ -1,6 +1,6 @@
 ---
 Title: 'useState()'
-Description: "Returns the current state of the component and its setter. State must be changed through the setter only. Don't mutate it directly as it may caused unexpected behavior."
+Description: 'Returns the current state of the component and its setter. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `useState()` returns the current state of the component and its setter. State must be changed through the setter only. Don't mutate it directly as it may caused unexpected behavior.
+The `useState()` returns the current state of the component and its setter. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.
 
 ## Syntax
 
