@@ -1,1 +1,1 @@
-content/html/concepts/comments/comments.md
+content/javascript/concepts/objects/objects.md
