@@ -19,11 +19,15 @@ The `useState()` hook accepts an initial value as its parameter. If no value is 
 
 The return value is an array whose first and second elements are the current state and state setter respectively. Those variables can be obtained through array destructuring.
 
-```js
+```pseudo
 const [state, setState] = useState(initialValue);
 ```
 
-The variables names themselves don't have to be `state` and `setState`. It depends on the context of the component. Say, you are creating a stopwatch component, you can name them as the following
+- `initialValue` is the initial value of the state. Modifying it after the component has mounted will not change the value of the state.
+- `state` is the value of the state in the current render.
+- `setState` is the function to change the value of the state. It will trigger a rerender.
+
+The variable names themselves don't have to be `state` and `setState`. It depends on the context of the component. Say, you are creating a stopwatch component, you can name them as the following
 
 ```js
 const [time, setTime] = useState(0);

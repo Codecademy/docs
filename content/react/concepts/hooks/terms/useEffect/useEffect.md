@@ -22,26 +22,26 @@ The `useEffect()` hook accepts a function and an array of dependencies as its fi
 ```pseudo
 useEffect(
   () => {
-    // runs side effect here
+    // Runs side effect here
   },
-  [] /* array of dependencies */
+  [] /* Array of dependencies */
 );
 ```
 
-In case where the array of dependencies is empty `([])`, the effect will only run once when the component mounts.
+If the array of dependencies is empty `([])`, the effect will only run once when the component mounts.
 
 The function passed as first parameter may also return "cleanup function" which will be executed before the next scheduled effect runs. This chance can be used to remove event listeners or abort an API call.
 
 ```jsx
 useEffect(
   () => {
-    // runs side effect here
+    // Runs side effect here
 
     return () => {
-      // do clean up here
+      // Do clean up here
     };
   },
-  [] /* array of dependencies */
+  [] /* Array of dependencies */
 );
 ```
 
@@ -59,7 +59,7 @@ function PageWrapper() {
     window.addEventListener('scroll', scrollHandler);
 
     return () => window.removeEventListener('scroll', scrollHandler);
-  }, []); // runs only once when component mounts
+  }, []); // Runs only once when component mounts
 
   return <div>Page content...</div>;
 }
