@@ -256,7 +256,6 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
-SwiftUI Circles
 Switch
 Symbol
 Syntax
