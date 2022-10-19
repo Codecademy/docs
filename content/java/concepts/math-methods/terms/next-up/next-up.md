@@ -17,7 +17,7 @@ The **`Math.nextUp()`** method returns the floating-point value adjacent to the 
 
 ## Syntax
 
-Note: Argument passed can be either of type `double` or `float`.
+#### Note: Argument passed can be either of type `double` or `float`.
 
 ```pseudo
 Math.nextUp(val)
