@@ -31,7 +31,7 @@ This example uses `.tan()` to return the tangent for `(x)`:
 ```java
 public class Main {
   public static void main(String[] args) {
-    double x = Math.PI / 2.0;    // radians
+    double x = Math.PI / 2.0;    // Radians
     System.out.println(Math.tan(x));
     
     x = 0.0;
