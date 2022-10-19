@@ -19,11 +19,9 @@ The **`fmod()`** function returns the floating-point remainder of the division o
 fmod(numerator, denominator)
 ```
 
-The quotient of the `numerator` divided by the `denominator` is rounded towards zero through truncation.
-If the `denominator` is equal to zero, then either `0`, `NaN`, or a domain [error](https://www.codecademy.com/resources/docs/cpp/errors) will be returned.
-If a range error occurs, then the correct result is rounded and returned.
+The quotient of the `numerator` divided by the `denominator` is rounded towards zero through truncation. The return type is a `double`, `float`, `long double`, or a combination of these types.
 
-The return type for the `fmod()` function is `double`, `float`, `long double`, or a combination of these types.
+If the `denominator` is equal to zero, then either `0`, `NaN`, or a domain [error](https://www.codecademy.com/resources/docs/cpp/errors) is returned. If a range error occurs, then the correct result is rounded and returned.
 
 > **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation. If one of the arguments is a `long double` type, then both arguments are cast as `long double` types. 
 
