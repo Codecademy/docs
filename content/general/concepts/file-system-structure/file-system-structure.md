@@ -13,7 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The file system structure is a basic method for operating systems to organize information. This structure defines how certain key directories and files are organized, and how future directories and files will be stored in the system. Although different operating systems may have different standards, all major operating systems have similar characteristics and use a hierarchical structure of directories branching off the root directory. The below image illustrates an example of the hierarchy in a sample file system structure.
+The **file system structure** defines how information in key (existing and future) directories and files are organized and how stored in an operating system.
+
+Although different operating systems may have different standards, all major operating systems have similar characteristics and use a hierarchical structure of directories branching off the root directory. The image below illustrates an example of the hierarchy in a sample file system structure.
 
 ![File system structure](https://raw.githubusercontent.com/Codecademy/docs/main/media/file-system-structure.png)
 
