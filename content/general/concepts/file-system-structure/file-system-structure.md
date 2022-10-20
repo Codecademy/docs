@@ -19,7 +19,7 @@ The file system structure is a basic method for operating systems to organize in
 
 ## Root
 
-The root or root directory is the highest level directory of the file system structure. In macOS, Linux, and other UNIX-like operating systems, the root is represented with a forward slash (/). In Windows, the root is represented by the drive name and a backslash (\).
+The root or root directory is the highest level directory of the file system structure. In macOS, Linux, and other UNIX-like operating systems, the root is represented with a forward slash (`/`). In Windows, the root is represented by the drive name and a backslash (`\`).
 
 The root contains all directories and files associated with a particular system or device. Under the root, there are some predefined subdirectories. These directory names differ across different operating systems, but they are used to organize some common information, such as temporary files or user information.
 
