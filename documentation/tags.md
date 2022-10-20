@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Authentication
 Automation
 Azure
 A-Frame
@@ -41,6 +42,7 @@ Box Plot
 Browser Compatibility
 Browsers
 Bubble Sort
+Buttons
 Catch
 Characters
 Chatbots
@@ -139,6 +141,7 @@ IDE
 If
 Images
 Index
+Infrastructure
 Inheritance
 Input
 Integers
@@ -189,6 +192,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Open Source
 Operating Systems
 Operators
 Optionals
@@ -218,6 +222,7 @@ Range
 React
 React Native
 Readr
+Rectangle
 Recursion
 Redux
 References
