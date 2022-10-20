@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sinh()`** method returns the hyperbolic sine of a double-type value.
+The **`Math.sinh()`** method returns the hyperbolic sine of a `double`-type value.
 
 ## Syntax
 
