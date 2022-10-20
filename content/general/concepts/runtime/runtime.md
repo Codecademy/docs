@@ -1,20 +1,25 @@
 ---
 Title: 'Runtime'
-Description: 'In computer programming, runtime references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system. The runtime environment is specifically any software or instructions that are executed while a program is running. These instructions can include functions for optimization, memory management, debugging, and input/output. A runtime error is effectively any error a program has after it has been executed. Developers can use runtime environments to test code for debugging runtime errors, before launching the program into production.'
+Description: 'Runtime can either mean the period of time during which a program is running, or a built-in application that supports the execution of a program.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
 Tags:
   - 'Developer Tools'
   - 'Debugging'
-  - 'Best Practices'
+  - 'Compilation'
 CatalogContent:
   - 'paths/front-end-engineer-career-path'
   - 'paths/computer-science'
 ---
 
-In computer programming, _runtime_ references the period of time during which a program is running, as well as the environment that communicates between the hardware and operating system.
+Runtime can refer to either of the following two concepts:
 
-The runtime environment is specifically any software or instructions that are executed while a program is running. These instructions can include functions for optimization, memory management, debugging, and input/output.
+- The period of time during which a program is running.
+- A built-in application that supports the execution of a program.
 
-A runtime error is effectively any error a program has after it has been executed. Developers can use runtime environments to test code for debugging runtime errors, before launching the program into production.
+The first definition is relatively general. The second definition is more specific to software development.
+
+In software development, runtime commonly refers to the infrastructure required to implement features in the language itself. This can include functions for optimization, memory management, debugging, and input/output. Runtimes make software development easier for engineers by making these functions more accessible. These concepts are related to the second definition.
+
+Runtime errors are common types of errors in software development. A runtime error is any error a program has while it is running.
