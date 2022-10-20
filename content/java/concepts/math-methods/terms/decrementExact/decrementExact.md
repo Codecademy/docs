@@ -7,7 +7,6 @@ Subjects:
 - 'Functions'
 - 'Methods'
 - 'Arithmetic'
-
   CatalogContent:
 - 'learn-java'
 ---
@@ -20,11 +19,11 @@ The **`Math.decrementExact()`** method returns the argument decremented by one. 
 Math.decrementExact(num)
 ```
 
-- The `num` parameter is of type `long` or `int` value.
+The `num` parameter is of type `long` or `int`.
 
 ## Example
 
-The following example uses `Math.decrementExact()` to decrement the input by 1:
+The following example uses the `.decrementExact()` method to decrement the input by 1:
 
 ```java
 //Main.java
