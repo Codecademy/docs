@@ -12,14 +12,14 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tan()`** method returns tangent of an angle given in radians. The function accepts all real numbers *except* the values where `cos(x)` is equal to 0. 
+The **`Math.tan()`** method returns _the_ tangent of an angle given in radians. The function accepts all real numbers *except* the values where `cos(x)` is equal to zero. 
 
 ## Syntax
 
 ```pseudo
 Math.tan(double x)
 ```
-Here `x` is the argument passed to the function. It accepts all real numbers. 
+Here, `x` is the argument passed to the function. **`Math.tan()`** accepts all real numbers as arguments. 
 
 + If the argument is `NaN` or an `infinity`, then the result returned is NaN.
 + If the argument is `zero`, then the result is also zero with same sign. 
