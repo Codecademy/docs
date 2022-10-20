@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tan()`** method returns _the_ tangent of an angle given in radians. The function accepts all real numbers *except* the values where `cos(x)` is equal to zero. 
+The **`Math.tan()`** method returns the tangent of an angle given in radians. The function accepts all real numbers *except* the values where `cos(x)` is equal to zero. 
 
 ## Syntax
 
