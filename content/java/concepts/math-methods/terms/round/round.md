@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.round()`** method returns the closest integer or long to the argument.
+The **`Math.round()`** method returns the closest `integer` or `long` to a number.
 
 ## Syntax
 
@@ -28,9 +28,16 @@ The following example demonstrates using `.round()` to round the value 1.8 to th
 ```java
 public class Test {
   public static void main(String args[]) {
-    int n = Math.random(1.8);
+    int n = Math.round(1.8);
+    int m = Math.round(5.2);
     System.out.println(n);
-    // Output: 2
+    System.out.println(m);
    }
 }
+```
+
+Output: 
+```shell
+2
+5
 ```
