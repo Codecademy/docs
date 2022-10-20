@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.hypot()`** method is returns the hypotenuse of a right-angled triangle. It returns sqrt(x<sup>2</sup> + y<sup>2</sup>), where `x` and `y` are of type `double`. It does not return intermediate overflow or underflow, which means the `.hypot()` method will not fail due to overflow or underflow of a `x<sup>2</sup>` or `y<sup>2</sup>` value.
+The **`Math.hypot()`** method returns the hypotenuse of a right-angled triangle. It returns sqrt(x<sup>2</sup> + y<sup>2</sup>), where `x` and `y` are of type `double`. It does not return intermediate overflow or underflow, which means the `.hypot()` method will not fail due to overflow or underflow of a `x<sup>2</sup>` or `y<sup>2</sup>` value.
 
 ## Syntax
 
@@ -29,11 +29,11 @@ The following example demonstrates using `.hypot()` to find the hypotenuse of a 
 
 ```java
 public class Test {
-    public static void main(String args[]) {
-        double base_x = 8;
-        double height_y = 10;
-        System.out.println(Math.hypot(base_x, height_y));
-    }
+  public static void main(String args[]) {
+    double base_x = 8;
+    double height_y = 10;
+    System.out.println(Math.hypot(base_x, height_y));
+  }
 }
 ```
 
