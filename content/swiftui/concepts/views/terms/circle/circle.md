@@ -27,7 +27,7 @@ Circle()
 
 ## Example
 
-The following example make a `"Circle"` which is filled with purple color:
+The following example make a `Circle` that is purple:
 
 ```swift
   var body: some View{
