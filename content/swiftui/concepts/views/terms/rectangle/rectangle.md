@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Rectangle`** view is a rectangular shape that is aligned inside the frame of the `View` containing it.
+The **`Rectangle`** view is a pre-built rectangular shape that is aligned inside the frame of the `View` containing it, and can be visually modified as desired.
 
 ## Syntax
 
@@ -32,12 +32,7 @@ Can change it to the desired shape by attaching a modifier to the `Rectangle`.
 
 ```swift
 var body: some View {
-    Rectangle()
-        .fill(Color.green)
-        .frame(width: 100, height: 100)
-        .padding(20)
-        .background(Color.yellow)
-        .cornerRadius(10.0)
+    Rectangle().fill(Color.green).frame(width: 100, height: 100).padding(20).background(Color.yellow).cornerRadius(10.0)
 }
 ```
 
