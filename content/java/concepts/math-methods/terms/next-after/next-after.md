@@ -21,7 +21,7 @@ The **Math.nextAfter()** method returns the floating-point number next to the fi
 Math.nextAfter(start, direction)
 ```
 
-The first argument can be of type `double` or `float`, but the second argument can only be of type `double`. The return type for `.nextAfter()` is `double` or `float`, and matches the type of the first argument.
+The first argument `start` can be of type `double` or `float`, but the second argument `direction` can only be of type `double`. The return type for `.nextAfter()` is of `double` or `float`, and matches the type of the first argument.
 
 Some special cases for `.nextAfter()` include:
 
