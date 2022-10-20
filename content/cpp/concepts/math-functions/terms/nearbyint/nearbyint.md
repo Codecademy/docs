@@ -16,9 +16,9 @@ The **`nearbyint()`** function returns an integer that is closest to a given flo
 ## Syntax
 
 ```pseudo
-nearbyint(n)
+nearbyint(value)
 ```
-The function accepts a `n` parameter that represents a positive or negative floating point value. If the decimal value of `n` is 0.5 or greater, then the function returns an integer value greater than `n`.
+The function accepts a `value` parameter that represents a positive or negative floating-point value. The current rounding method, as described by `fegetround()`, determines which direction the `value` is rounded. By default, the rounding direction is set as `FE_TONEAREST`.
 
 ### Example
 
