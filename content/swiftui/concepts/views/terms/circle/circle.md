@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-SwiftUI includes various pre-built shapes, like rectangles, **circles**, and capsules, which can be generated, coloured, and positioned as desired.
+SwiftUI includes various pre-built shapes, like rectangles, **circles**, and capsules which can be generated, coloured, and positioned as desired.
 
 ## Syntax
 
