@@ -1,6 +1,6 @@
 ---
 Title: 'Circle'
-Description: 'Pre-built circular shape that can be colored and positioned as desired.'
+Description: 'Pre-built circular shape that can be visually modified as desired.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
@@ -37,7 +37,7 @@ The following example make a `Circle` that is purple:
   }
 ```
 
-The above code generates a circle having dimensions of 200x200.
+The above code generates a circle having dimensions of 200x200 points.
 
 This will display the following:
 
