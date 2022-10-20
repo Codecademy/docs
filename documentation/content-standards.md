@@ -49,9 +49,9 @@ All entry file names use the `.md` format along with the following standards:
 - They must match the title of the entry. (e.g., "Three.js" -> `three-js.md`)
 - It must be separated by dashes, where appropriate. (e.g., "Data Types" -> `data-types.md`)
   - If the title or name is meant to be in PascalCase: "HashTable" -> `hashtable.md`
-  - If the title or name is meant to be in camelCase: ".forEach()" -> `forEach.md`.
-- The name should always be lowercase. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
-- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`)
+  - If the title or name is meant to be in camelCase: ".forEach()" -> `forEach.md` (without the `.` and `()`).
+- The name should always begin with a lowercase letter. (e.g., "Array" -> `array.md`, "HTML" -> `html.md`)
+- Punctuation must not be included in the file name, even if it exists in the entry name. (e.g., "Moore's Law" -> `moores-law.md`, "Three.js" -> `three-js.md`, `.nextAfter()` -> `nextAfter.md`)
 
 ### Content
 
