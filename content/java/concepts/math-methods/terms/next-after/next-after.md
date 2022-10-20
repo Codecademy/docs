@@ -1,6 +1,6 @@
 ---
 Title: '.nextAfter()'
-Description: 'A method used to get the floating-point number next to the first argument in the direction of the second argument.'
+Description: 'Returns the floating-point number next to the first argument in the direction of the second argument.'
 Subjects:
   - 'Computer Science'
 Tags:
