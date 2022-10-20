@@ -33,7 +33,7 @@ Files are storage units on a computer which contain information on file contents
 
 ## Filesystem Hierarchy Standard (FHS)
 
-The Filesystem Hierarchy Standard (FHS) is one example of a defined file system structure. The FHS is for [UNIX](https://www.codecademy.com/resources/docs/general/unix) systems, and is most popularly used in [Linux](https://www.codecademy.com/resources/docs/general/linux). It is maintained by the Linux Foundation, and most Linux distributions follow the FHS.
+The Filesystem Hierarchy Standard (FHS) is one example of a defined file system structure. The FHS is for UNIX systems, and is most popularly used in Linux. It is maintained by the Linux Foundation, and most Linux distributions follow the FHS.
 
 The FHS defines that all directories and files exist under the root. It also includes standard files which appear directly below the root. Some examples of these files are included below:
 
