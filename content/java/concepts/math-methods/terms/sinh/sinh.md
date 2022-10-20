@@ -29,10 +29,7 @@ Some special cases for the `.sinh()` method include the following:
 - If `num` is infinite, then infinity is returned with the same sign as `num`.
 - If `num` is zero, then zero is returned with the same sign as `num`.
 
-The computed result will be within 2.5 ulps of the exact result.
-
-An ulp stands for unit of least precision. It calculates the distance between the given `double` or `float` value and the
-`double` or `float` value next larger in magnitude.
+The computed result will be within 2.5 units of least precision (ulps) of the exact result.
 
 ## Example
 
