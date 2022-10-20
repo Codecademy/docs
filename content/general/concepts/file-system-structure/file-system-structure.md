@@ -39,4 +39,4 @@ The FHS defines that all directories and files exist under the root. It also inc
 - `/tmp` stores all temporary files.
 - `/sys` stores information on the Linux kernel and various system devices.
 
-The purpose of using a defined file system structure like the FHS is so users and software can predict the locations of files and directories. This makes it easier to install, run, and use software.
+The purpose of using a defined file system structure like the FHS is so users and software can predict the locations of files and directories. This makes it easier to compile, install, and run software.
