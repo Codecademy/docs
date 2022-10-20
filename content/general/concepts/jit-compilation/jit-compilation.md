@@ -34,7 +34,7 @@ With traditionally compiled languages, programmers must wait for their code to c
 
 ### Decreased Execution Time
 
-JIT compilation can improve optimizations done by the compiler because it has more information than would be available in a traditional compiling process. This allows JIT compilation to make more performant choices as it compiles, which allows it to run more efficiently in certain cases.
+JIT compilation can improve optimizations done by the compiler because it has more information than what would be available in a traditional compiling process. This allows JIT compilation to make more performant choices as it compiles, which allows it to run more efficiently in certain cases.
 
 ### Greater Portability
 
