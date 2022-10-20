@@ -21,7 +21,7 @@ The **`Math.sinh()`** method returns the hyperbolic sine of a double-type value.
 Math.sinh(double num)
 ```
 
-The return type of the `.sinh()` method is a double.
+The return type of the `.sinh()` method is a `double`.
 
 Some special cases for the `.sinh()` method include the following:
 
@@ -30,6 +30,9 @@ Some special cases for the `.sinh()` method include the following:
 - If the argument is zero, then the result is a zero with the same sign as the argument.
 
 The computed result will be within 2.5 ulps of the exact result.
+
+An ulp stands for unit of least precision. It calculates the distance between the given `double` or `float` value and the
+`double` or `float` value next larger in magnitude.
 
 ## Example
 
