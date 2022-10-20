@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Math.nextAfter()** method is used to get the floating-point number next to the first argument in the direction of the second argument.
+The **Math.nextAfter()** method returns the floating-point number next to the first argument in the direction of the second argument.
 
 ## Syntax
 
