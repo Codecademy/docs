@@ -35,8 +35,8 @@ The Filesystem Hierarchy Standard (FHS) is one example of a defined file system 
 
 The FHS defines that all directories and files exist under the root. It also includes standard files which appear directly below the root. Some examples of these files are included below:
 
-- `/bin`: Stores all binary executable files
-- `/tmp`: Stores all temporary files
-- `/sys`: Stores information on the Linux kernel and various system devices
+- `/bin` stores all binary executable files.
+- `/tmp` stores all temporary files.
+- `/sys` stores information on the Linux kernel and various system devices.
 
 The purpose of using a defined file system structure like the FHS is so users and software can predict the locations of files and directories. This makes it easier to install, run, and use software.
