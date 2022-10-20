@@ -23,7 +23,7 @@ The quotient of the `numerator` divided by the `denominator` is rounded towards 
 
 If the `denominator` is equal to zero, then either `0`, `NaN`, or a domain [error](https://www.codecademy.com/resources/docs/cpp/errors) is returned. If a range error occurs, then the correct result is rounded and returned.
 
-> **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation. If one of the arguments is a `long double` type, then both arguments are cast as `long double` types. 
+> **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation. If one of the arguments is a `long double` type, then both arguments are cast as `long double` types.
 
 ## Example
 
