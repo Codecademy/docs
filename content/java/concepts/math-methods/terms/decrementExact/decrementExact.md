@@ -1,6 +1,5 @@
 ---
 Title: '.decrementExact()'
-
 Description: 'Returns the argument decremented by one, throwing an exception if the result overflows the datatype.'
 Subjects:
 - 'Computer Science'
@@ -13,7 +12,7 @@ Subjects:
 - 'learn-java'
 ---
 
-The **`Math.decrementExact()`** method returns the argument decremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified datatype either `long` or `int`.
+The **`Math.decrementExact()`** method returns the argument decremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified [data type](https://www.codecademy.com/resources/docs/java/data-types) (`long` or `int`) of the argument.
 
 ## Syntax
 
@@ -21,13 +20,15 @@ The **`Math.decrementExact()`** method returns the argument decremented by one. 
 Math.decrementExact(num)
 ```
 
-- The `num` argument is a `long` or `int` value.
+- The `num` parameter is of type `long` or `int` value.
 
 ## Example
 
 The following example uses `Math.decrementExact()` to decrement the input by 1:
 
 ```java
+//Main.java
+
 public class Main {
   public static void main(String[] args) {
     int value = 21;
