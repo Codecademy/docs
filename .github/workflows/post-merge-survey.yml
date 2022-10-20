@@ -1,0 +1,24 @@
+name: Post-Merge Survey
+on:
+  pull_request_target:
+    types: [closed]
+jobs:
+  run:
+    if: >-
+      github.event.pull_request.user.login != 'Dusch4593' &&
+      github.event.pull_request.user.login != 'yangc95' &&
+      github.event.pull_request.user.login != 'KTom101' &&
+      github.event.pull_request.user.login != 'SSwiniarki' &&
+      github.event.pull_request.user.login != 'HishamT' &&
+      github.event.pull_request.user.login != 'caupolicandiaz'
+      github.event.pull_request.user.login != 'lucwhite'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/auto-comment@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          pullRequestMerged: |
+             👋 @{{ author }}
+             Thank you for contributing to Docs!
+             We'd love to hear about your experience and how we can make contributing to Docs better.
+             Please fill out and complete [this survey] to share your feedback. 
