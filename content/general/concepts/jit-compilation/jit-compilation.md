@@ -18,7 +18,7 @@ JIT compilation can be thought of as a combination of compiled and interpreted l
 
 ## Use Cases for JIT compilation
 
-Some major implementations of JIT compilation include the Java Virtual Machine (JVM) and the Common Language Runtime (CLR). JVM is used for [Java](https://www.codecademy.com/resources/docs/java) and Kotlin, and CLR is used for C#. [JavaScript](https://www.codecademy.com/resources/docs/javascript) also uses JIT compilation, but the specific implementation depends on the browser. Low-level languages, such as [C](https://www.codecademy.com/resources/docs/c) or [C++](https://www.codecademy.com/resources/docs/cpp), do not use JIT compilation, because low-level languages do not use a runtime.
+Some major implementations of JIT compilation include the Java Virtual Machine (JVM) and the Common Language Runtime (CLR). JVM is used for [Java](https://www.codecademy.com/resources/docs/java) and Kotlin, and CLR is used for C#. These languages incorporate a traditional compiler, such as a [Java compiler](https://www.codecademy.com/resources/docs/java/compiler), to compile to an intermediate language prior to using JIT compilation. [JavaScript](https://www.codecademy.com/resources/docs/javascript) also uses JIT compilation, but the specific implementation depends on the browser. Low-level languages, such as [C](https://www.codecademy.com/resources/docs/c) or [C++](https://www.codecademy.com/resources/docs/cpp), do not use JIT compilation, because low-level languages do not use a runtime.
 
 ## Benefits of JIT compilation
 
