@@ -32,11 +32,16 @@ Can change it to the desired shape by attaching a modifier to the `Rectangle`.
 
 ```swift
 var body: some View {
-    Rectangle().fill(Color.green).frame(width: 100, height: 100).padding(20).background(Color.yellow).cornerRadius(10.0)
+    Rectangle()
+    .fill(Color.green)
+    .frame(width: 100, height: 100)
+    .padding(20)
+    .background(Color.yellow)
+    .cornerRadius(10.0)
 }
 ```
 
-Order matters here; there is a yellow rectangle with a border width of `20 points` and a rounded corner of `10.0`. Additionally, there's a green rectangle that's `100 points` in length and `100 points` in width.
+Order matters here; there is a yellow rectangle with a border width of `20` points and a rounded corner of `10.0` points. Additionally, there's a green rectangle that's `100` points in length and `100` points in width.
 
 This will display the following:
 
