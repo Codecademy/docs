@@ -1,6 +1,6 @@
 ---
 Title: '.hypot()'
-Description: 'A method used to get the hypotenuse of a right-angled triangle.'
+Description: 'Returns the hypotenuse of a right-angled triangle.'
 Subjects:
   - 'Computer Science'
 Tags:
