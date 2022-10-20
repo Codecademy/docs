@@ -1,6 +1,6 @@
 ---
 Title: 'nearbyint()'
-Description: 'Returns an integer that is closest to a given argument.'
+Description: 'Returns the argument rounded to the closest integer as a floating-point value.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`nearbyint()`** function returns an integer that is closest to a given floating point argument.
+The **`nearbyint()`** function returns the argument rounded to the closest integer as a floating-point value, according to the current rounding method.
 
 ## Syntax
 
@@ -28,8 +28,7 @@ The following example returns the nearby integer of `1.5`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main(){
     double value = 1.50;
     int result;
     result = std::nearbyint(value);
@@ -47,8 +46,7 @@ The following example returns the nearby integer of `2.9`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main(){
     float value = 2.9;
     int result;
     result = std::nearbyint(value);
