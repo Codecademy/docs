@@ -39,11 +39,12 @@ An ulp stands for unit of least precision. It calculates the distance between th
 The following example demonstrates the application of `.sinh()` method:
 
 ```java
+// Check.java
 public class Check {
   public static void main(String args[]) {
-       double num = 64.0;
-       System.out.println(Math.sinh(num));
-   }
+    double num = 64.0;
+    System.out.println(Math.sinh(num));
+  }
 }
 ```
 
