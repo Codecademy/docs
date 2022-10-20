@@ -33,9 +33,9 @@ public class Main {
     int value = 21;
     long input = 123L;
     long negValue = -38L;
-    System.out.println(Math.incrementExact(value));
-    System.out.println(Math.incrementExact(input));
-    System.out.println(Math.incrementExact(negValue));
+    System.out.println(Math.decrementExact(value));
+    System.out.println(Math.decrementExact(input));
+    System.out.println(Math.decrementExact(negValue));
   }
 }
 ```
