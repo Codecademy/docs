@@ -42,7 +42,6 @@ The following example demonstrates using `.nextAfter()`:
 
 ```java
 // Test.java
-
 public class Test {
   public static void main(String args[]) {
     float start = 1.15f;
