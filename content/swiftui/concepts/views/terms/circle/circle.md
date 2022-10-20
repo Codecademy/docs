@@ -1,6 +1,6 @@
 ---
 Title: 'Circle'
-Description: 'Pre-built shape which can be colored and positioned as desired.'
+Description: 'Pre-built circular shape that can be colored and positioned as desired.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
