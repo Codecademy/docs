@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.hypot()`** method is used to get the hypotenuse of a right-angled triangle. It returns sqrt(x<sup>2</sup> + y<sup>2</sup>), where _x_ and _y_ are variable type `double`. It does not return intermediate overflow or underflow, which means the `.hypot()` method will not fail due to overflow or underflow of an _x<sup>2</sup>_ or _y<sup>2</sup>_ value.
+The **`Math.hypot()`** method is returns the hypotenuse of a right-angled triangle. It returns sqrt(x<sup>2</sup> + y<sup>2</sup>), where `x` and `y` are of type `double`. It does not return intermediate overflow or underflow, which means the `.hypot()` method will not fail due to overflow or underflow of a `x<sup>2</sup>` or `y<sup>2</sup>` value.
 
 ## Syntax
 
