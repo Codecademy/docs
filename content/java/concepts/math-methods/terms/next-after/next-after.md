@@ -27,9 +27,9 @@ Some special cases for `.nextAfter()` include:
 
 - If one or both arguments are `NaN`, the result is `NaN`.
 - If both arguments are signed zero, the direction of the result is unchanged.
-- If the first argument is positive or negative `Double.MIN_VALUE`, and the second argument has a value which would return a result with a smaller magnitude, zero is returned with the same sign as the first argument.
-- If the first argument is infinity and the second argument has a value which would return a result with a smaller magnitude, `Double.MAX_VALUE` is returned with the same sign as the first argument.
-- If the first argument is positive or negative `Double.MAX_VALUE`, and the second argument has a value which would return a result with a larger magnitude, infinity is returned with the same sign as the first argument.
+- If the first argument is positive or negative `MIN_VALUE`, and the second argument has a value which would return a result with a smaller magnitude, zero is returned with the same sign as the first argument.
+- If the first argument is infinity and the second argument has a value which would return a result with a smaller magnitude, `MAX_VALUE` is returned with the same sign as the first argument.
+- If the first argument is positive or negative `MAX_VALUE`, and the second argument has a value which would return a result with a larger magnitude, infinity is returned with the same sign as the first argument.
 
 ## Example
 
@@ -37,11 +37,11 @@ The following example demonstrates using `.nextAfter()`:
 
 ```java
 public class Test {
-    public static void main(String args[]) {
-        float start = 1.15f;
-        double direction = 5.37;
-        System.out.println(Math.nextAfter(start, direction));
-    }
+  public static void main(String args[]) {
+    float start = 1.15f;
+    double direction = 5.37;
+    System.out.println(Math.nextAfter(start, direction));
+  }
 }
 ```
 
