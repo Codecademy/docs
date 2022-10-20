@@ -30,7 +30,7 @@ Compiled languages are more performant than interpreted languages. JIT compilati
 
 ### Increased Efficiency for Compiled Languages
 
-With traditionally compiled languages, programmers must wait for their code to compile prior to starting the execution of a program. JIT compilation does not include this wait time, since JIT compilation compiles the code during the execution phase. Removing this extra step increases efficiency for programmers and the development process.
+With traditionally compiled languages, programmers must wait for their code to compile prior to starting the execution of a program. JIT compilation does not include this wait time since it compiles the code during the execution phase. Removing this extra step increases efficiency for programmers and the development process.
 
 ### Decreased Execution Time
 
