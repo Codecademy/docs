@@ -20,7 +20,7 @@ The **`Math.addExact()`** method returns the sum of its arguments. It will throw
 Math.addExact(a, b)
 ```
 
-The `Math.addExact()` method accepts two arguments from the user and the datatype must be same for both the arguments.
+The `Math.addExact()` method accepts two arguments from the user and the data type must be same for both the arguments.
 
 - If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds `int` or `long`, then it will throw an exception.
 
