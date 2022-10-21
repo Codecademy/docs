@@ -1,6 +1,6 @@
 ---
 Title: '.reduce()'
-Description: 'Loops/Iterates over every item in a sequence, combines them into one value, and returns the combined result.'
+Description: 'Loops or iterates over every item in a sequence, combines them into one value, and returns the combined result.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,18 +12,18 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.reduce()`** method produces a single value from the elements of an entire sequence using the given closure.
+The **`.reduce()`** method loops or iterates over every item in a sequence, combines them into one value, and returns the combined result.
 
 ## Syntax
 
 ```pseudo
-arrayName.reduce(_:_:) 
+arrayName.reduce(initialValue, closure)
 ```
 
 The `.reduce()` method takes two arguments:
 
-- initial value - To store the initial value or result returned by the closure from each iteration.
-- closure - It takes 2 arguments, first one is the result from previous execution of the closure and the other one is next item in the collection.
+- `initialValue` stores the initial value or result returned by the closure from each iteration.
+- `closure` takes 2 arguments. The first one is the result from previous execution of the closure, and the second one is next item in the collection.
 
 ## Example
 
@@ -34,7 +34,7 @@ let sum  = values.reduce(0, { x, y in x + y })
 print(sum)
 ```
 
-In the example above, We are calculating the sum of the elements where `0` is the initial value followed by the closure, `x` holds the result of the previous execution and `y` is the next item in Array. This will output:
+In the example above, the sum of the elements where `0` is the initial value followed by the closure is calculated. `x` holds the result of the previous execution and `y` is the next item in the array. This will output:
 
 ```shell
 14
