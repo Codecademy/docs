@@ -27,11 +27,11 @@ Math.nextDown(x)
 
 > **Note:** A `.nextDown()` implementation may run faster than its equivalent `.nextAfter()` call.
 
-Special Cases:
+Special cases include the following:
 
-- If the argument is NaN, the result is NaN.
-- If the argument is negative infinity, the result is negative infinity.
-- If the argument is zero, the result is `-Double.MIN_VALUE` or `-Float.MIN_VALUE`.
+- If `x` is `NaN`, the result is `NaN`.
+- If `x` is negative infinity, the result is negative infinity.
+- If `x` is zero, the result is `-Double.MIN_VALUE` or `-Float.MIN_VALUE`.
 
 ## Example
 
