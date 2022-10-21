@@ -20,7 +20,9 @@ The **`round()`** function returns the integer that is closest to the argument, 
 round(num);
 ```
 
-The `num` parameter must be a `double`,`float`, or `long double`. The return value will be an integer. If the decimal in num is `0.5` or higher, the closest integer greater than `num` is returned.
+- The `num` parameter must be a `double`,`float`, or `long double`.
+- The return value will be an integer.
+- If the decimal in num is `0.5` or higher, the closest integer greater than `num` is returned.
 
 ## Example
 
