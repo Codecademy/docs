@@ -23,7 +23,9 @@ Math.nextDown(x)
 
 - The `x` parameter can be of type `double` or `float`.
 - The return type is of `double` or `float`.
-- This method is semantically equivalent to `nextAfter(d, Double.NEGATIVE_INFINITY);` or `nextAfter(f, Float.NEGATIVE_INFINITY);` however, a nextDown implementation may run faster than its equivalent nextAfter call.
+- Though it is the opposite of [`.nextAfter()`](https://www.codecademy.com/resources/docs/java/math-methods/nextAfter), the `.nextDown()` method is semantically equivalent to `nextAfter(d, Double.NEGATIVE_INFINITY);` or `nextAfter(f, Float.NEGATIVE_INFINITY);`.
+
+> **Note:** A `.nextDown()` implementation may run faster than its equivalent `.nextAfter()` call.
 
 Special Cases:
 
