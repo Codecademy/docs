@@ -20,7 +20,7 @@ SwiftUI includes various pre-built shapes, like rectangles, **circles**, and cap
 
 ```pseudo
 Circle()
-// Modifiers, such as fill, frame, and borders
+// Modifiers
 ```
 
 `Circle` is one of the pre-built shapes. A developer can use different properties such as fill, stroke, alignment, and size to adjust the circle according to their requirements.
