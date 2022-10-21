@@ -34,7 +34,8 @@ public class Main {
     int b = 209;
     System.out.println(Math.addExact(a, b));
 
-    // Example for overflow
+    /* Overflow will occur if any one of the argument is 
+      Long.MAX_VALUE or Integer.MAX_VALUE */
     long x = Long.MAX_VALUE;
     long y = 86712;
     System.out.println(Math.addExact(x, y));
