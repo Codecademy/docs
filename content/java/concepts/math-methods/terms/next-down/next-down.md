@@ -1,0 +1,56 @@
+---
+Title: '.nextDown()'
+
+Description: 'Returns the floating-point value adjacent to the parameter provided in the direction of negative infinity.'
+
+Subjects:
+  - 'Computer Science'
+
+Tags:
+  - 'Arithmetic'
+  - 'Functions'
+  - 'Methods'
+  - 'Numbers'
+
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
+---
+
+The **`Math.nextDown()`** method returns the floating-point value adjacent to the parameter provided in the direction of negative infinity.
+
+## Syntax
+
+```pseudo
+Math.nextDown(x)
+```
+
+- The argument `x` can be of type `double` or `float`.
+- The return type is of `double` or `float`.
+- This method is semantically equivalent to `nextAfter(d, Double.NEGATIVE_INFINITY);` or `nextAfter(f, Float.NEGATIVE_INFINITY);` however, a nextDown implementation may run faster than its equivalent nextAfter call.
+
+Special Cases:
+
+- If the argument is NaN, the result is NaN.
+- If the argument is negative infinity, the result is negative infinity.
+- If the argument is zero, the result is `-Double.MIN_VALUE` or `-Float.MIN_VALUE`.
+
+## Example
+
+The following example demonstrates using `Math.nextDown(x)`:
+
+```java
+// Test.java
+public class Test {
+  public static void main(String args[]) {
+      double d = 23.44;
+      System.out.println(Math.nextDown(d));
+  }
+}
+```
+
+This results in the following output:
+
+```shell
+23.439999999999998
+```
