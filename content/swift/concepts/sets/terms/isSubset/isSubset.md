@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), `false` otherwise.
+The **`.isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), `false` otherwise.
 
 ## Syntax
 
