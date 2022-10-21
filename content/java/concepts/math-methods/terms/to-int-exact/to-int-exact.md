@@ -45,6 +45,6 @@ public class Check {
 
 This results in the following output:
 
-```java
+```shell
 2147483647
 ```
