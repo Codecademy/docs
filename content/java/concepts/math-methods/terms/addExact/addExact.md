@@ -12,16 +12,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.addExact()`** method returns the sum of its arguments. It will throw an *exception* if the result overflows either int or long. This function is `static`, henceforth object creation is not required.
+The **`Math.addExact()`** method returns the sum of its arguments. It will throw an _exception_ if the result overflows either int or long. This function is `static`, henceforth object creation is not required.
 
 ## Syntax
 
 ```pseudo
 Math.addExact(type a, type b)
 ```
-Here `type` is the datatype of the argument passed to the function. **`Math.addExact()`** function accepts two arguments from the user and the datatype must be same for both the arguments. 
 
-+ If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds _int_ or _long_, then it will throw an exception. 
+Here `type` is the datatype of the argument passed to the function. **`Math.addExact()`** function accepts two arguments from the user and the datatype must be same for both the arguments.
+
+- If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds _int_ or _long_, then it will throw an exception.
 
 ## Example
 
@@ -34,7 +35,7 @@ public class Main {
     int b = 209;
     System.out.println(Math.addExact(a, b));
 
-    /* Overflow will occur if any one of the argument is 
+    /* Overflow will occur if any one of the argument is
       Long.MAX_VALUE or Integer.MAX_VALUE */
     long x = Long.MAX_VALUE;
     long y = 86712;
@@ -50,4 +51,4 @@ This will produce the following output:
 Exception in thread "main" java.lang.ArithmeticException: long overflow
         at java.base/java.lang.Math.addExact(Math.java:845)
         at Main.main(Main.java:13)
-``` 
+```
