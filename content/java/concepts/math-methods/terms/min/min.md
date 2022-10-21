@@ -23,7 +23,7 @@ Math.min(num1, num2)
 - The `.min()` method takes two parameters `num1` and `num2`.
 - The `num1` and `num2` arguments can be of <a href="https://www.codecademy.com/resources/docs/java/data-types">type</a> int, float, double or long.
 
-## Example
+## Example 1
 
 The following example uses the `.min()` method to print the minimum of two numbers:
 
@@ -42,4 +42,26 @@ This results in the following output:
 
 ```shell
 10
+```
+
+## Example 2
+
+The following example uses the `.min()` method to print the minimum of three numbers:
+
+```java
+public class Main {
+    public static void main(String[] args){
+        int num1 = 4;
+        int num2 = 10;
+        int num3 = 1;
+
+        System.out.println(Math.min(Math.min(num1, num2),num3));
+    }
+}
+```
+
+This results in the following output:
+
+```shell
+1
 ```
