@@ -17,7 +17,7 @@ The **`Math.subtractExact()`** method returns the difference of the arguments.
 
 `Math.subtractExact()` accepts two arguments either of type `long` or `int`. If the value of any of the arguments exceeds its type's minimum or maximum value, then `ArithmeticError` is thrown which is not the case with the subtraction operator and ensures that the output is within the boundries.
 
-Also, using `Math.subtractExact()` helps in ensuring that the values being operated are integer numbers and not floating point numbers.
+Also, using `Math.subtractExact()` helps in ensuring that the values being subtracted are integers and not floating point numbers.
 
 ## Syntax
 
