@@ -1,17 +1,13 @@
 ---
 Title: '.nextDown()'
-
 Description: 'Returns the floating-point value adjacent to the parameter provided in the direction of negative infinity.'
-
 Subjects:
   - 'Computer Science'
-
 Tags:
   - 'Arithmetic'
   - 'Functions'
   - 'Methods'
   - 'Numbers'
-
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
