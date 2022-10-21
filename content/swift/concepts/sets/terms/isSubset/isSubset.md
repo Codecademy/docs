@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), false otherwise.
+The **`isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), `false` otherwise.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ if set2.isSubset(of: set1) {
 }
 ```
 
-In the example above, we are checking whether `set2` is a subset of `set1` or not. This will output:
+In the example above, the first block after the `if` statement will run if `set2` is a subset of `set1`. This will output:
 
 ```shell
 set2 is a subset of set1.
