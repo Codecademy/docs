@@ -18,12 +18,12 @@ The **`Math.toIntExact()`** method returns the integer value of a `long` type. A
 ## Syntax
 
 ```pseudo
-Math.toIntExact(long val)
+Math.toIntExact(long value)
 ```
 
-In the function `Math.toIntExact(long val)`, the parameter `val` is of type `long`. The function will return an `int`.
+In the function `Math.toIntExact(long value)`, the parameter `value` is of type `long`. The function will return an `int`.
 
-If the value of `val` is greater than 2147483647L or is less than -2147483648L, then the following exception will be thrown:
+If the value of `value` is greater than 2147483647L or is less than -2147483648L, then the following exception will be thrown:
 
 ```shell
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
