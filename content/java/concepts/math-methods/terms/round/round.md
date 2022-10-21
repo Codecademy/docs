@@ -1,6 +1,6 @@
 ---
 Title: '.round()'
-Description: 'Returns the closest integer or long to the argument.'
+Description: 'Returns the closest int or long to a number.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.round()`** method returns the closest `integer` or `long` to a number.
+The **`Math.round()`** method returns the closest `int` or `long` to a number.
 
 ## Syntax
 
