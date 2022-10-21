@@ -41,8 +41,8 @@ The following is an example of the `.nextDown()` method:
 // Test.java
 public class Test {
   public static void main(String args[]) {
-      double d = 23.44;
-      System.out.println(Math.nextDown(d));
+    double d = 23.44;
+    System.out.println(Math.nextDown(d));
   }
 }
 ```
