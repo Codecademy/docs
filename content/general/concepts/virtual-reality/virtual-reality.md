@@ -19,7 +19,8 @@ It’s still considered the wild west of the tech industry⁠— fun, exciting, 
 
 ## Augmented Reality vs. Virtual Reality
 
-The difference between augmented reality (AR) and virtual reality (VR) is that augmented reality utilizes the current physical setting of the user while introducing a layer of synthetic digital, sonic or somatic presentation to enhance the user experience whereas VR involves use of a headset to facilitate an experience rooted in the graphic and sonic presentation within the VR setup as opposed to using the individual's more broad physical surroundings for interaction.
+Augmented reality utilizes the current physical setting of the user while introducing a layer of synthetic digital, sonic or somatic presentation to enhance the user experience.
+Whereas, VR involves use of a headset to facilitate an experience rooted in the graphic and sonic presentation within the VR setup as opposed to using the individual's more broad physical surroundings for interaction.
 
 Virtual reality is poised to grow substantially in use during the 21st century as it has many potential uses that range from entertainment, wellbeing, education, tourism, military, art and design etc.
 
