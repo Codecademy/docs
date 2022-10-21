@@ -35,7 +35,7 @@ Special cases include the following:
 
 ## Example
 
-The following example demonstrates using `Math.nextDown(x)`:
+The following is an example of the `.nextDown()` method:
 
 ```java
 // Test.java
