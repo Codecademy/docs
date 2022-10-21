@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.toIntExact()`** method returns the integer value of a `long` type argument. An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the value of argument overflows that of an `int`.
+The **`Math.toIntExact()`** method returns the integer value of a `long` type. An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the argument's value overflows that of an `int`.
 
 ## Syntax
 
