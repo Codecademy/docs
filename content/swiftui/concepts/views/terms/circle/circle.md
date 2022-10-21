@@ -23,21 +23,21 @@ Circle()
 // Modifiers
 ```
 
-`Circle` is one of the pre-built shapes. A developer can use different properties such as fill, stroke, alignment, frame, borders, and size to modify or adjust the circle according to their requirements.
+`Circle` is one of the pre-built shapes. A developer can add modifiers to use different properties such as fill, stroke, alignment, frame, borders, and size to adjust the circle according to their requirements.
 
 ## Example
 
 The following example make a `Circle` that is purple:
 
 ```swift
-  var body: some View{
-    Circle()
-    .fill(.purple)
-    .frame(width: 200; height: 200)
-  }
+var body: some View {
+  Circle()
+  .fill(.purple)
+  .frame(width: 200, height: 200)
+}
 ```
 
-The above code generates a circle having dimensions of `200`x`200` points.
+The above code generates a circle with a dimension of `200`x`200` points.
 
 This will display the following:
 
