@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Virtual reality (VR) is a technology that uses head-mounted headsets with displays to generate realistic images, sounds, and other sensations to put users into an immersive virtual environment. VR can create unbounded worlds that people can walk around and interact with using their hands, to feel as if they were transported to another place.
+Virtual reality (VR) is a technology that uses head-mounted headsets with displays to generate realistic images, sounds, and other sensations to put users into an immersive virtual environment. VR can create unbounded worlds that people can walk around and interact with using their hands, and to feel as if they were transported to another place.
 
 It’s still considered the wild west of the tech industry⁠— fun, exciting, bustling of opportunities and things are looking very promising.
 
