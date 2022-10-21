@@ -37,7 +37,7 @@ The following example make a `Circle` that is purple:
   }
 ```
 
-The above code generates a circle having dimensions of 200x200 points.
+The above code generates a circle having dimensions of `200`x`200` points.
 
 This will display the following:
 
