@@ -16,7 +16,7 @@ The **log10()** function returns the base-10 logarithm of the argument.
 
 ## Syntax
 
-```cpp
+```pseudo
  log10(x)
 ```
 
