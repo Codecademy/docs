@@ -32,8 +32,8 @@ The following example make a `Circle` that is purple:
 ```swift
   var body: some View{
     Circle()
-      .fill(.purple)
-      .frame(width: 200; height: 200)
+    .fill(.purple)
+    .frame(width: 200; height: 200)
   }
 ```
 
