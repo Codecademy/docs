@@ -21,7 +21,7 @@ Math.max(num1, num2)
 ```
 
 - The `.max()` method takes two parameters `num1` and `num2`.
-- The `num1` and `num2` arguments can be of <a href ="https://www.codecademy.com/resources/docs/java/data-types"> type </a> int, float, double or long.
+- The `num1` and `num2` arguments can be of [type](https://www.codecademy.com/resources/docs/java/data-types) int, float, double or long.
 
 ## Example 1
 
@@ -43,6 +43,7 @@ This results in the following output:
 ```shell
 50
 ```
+
 ## Example 2
 
 The following example uses the `.max()` method to print the maximum of three numbers:
