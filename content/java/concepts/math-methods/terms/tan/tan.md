@@ -30,6 +30,8 @@ Here, `x` is the argument passed to the function. **`Math.tan()`** accepts all r
 This example uses `.tan()` to return the tangent for `(x)`:
 
 ```java
+// Main.java
+
 public class Main {
   public static void main(String[] args) {
     double x = Math.PI / 2.0;    // Radians
