@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.addExact()`** method returns the sum of its arguments. It will throw an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows either `int` or `long`. This function is `static`, therefore object creation is not required.
+The **`Math.addExact()`** method returns the sum of its arguments. It will throw an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows either `int` or `long`.
 
 ## Syntax
 
@@ -20,15 +20,16 @@ The **`Math.addExact()`** method returns the sum of its arguments. It will throw
 Math.addExact(a, b)
 ```
 
-The `Math.addExact()` method accepts two arguments from the user and the data type must be same for both the arguments.
+Both parameters `a` and `b` must either be of type `int` or `long`.
 
-- If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds `int` or `long`, then it will throw an exception.
+- An exception is thrown if either parameter is equal to `Integer.MAX_VALUE` or `Long.MAX_VALUE` or the result exceeds type `int` or `long`.
 
 ## Example
 
-This example uses `.addExact()` to return the sum for `(a, b)`:
+This following example returns the sum of two values with the `.addExact()` method:
 
 ```java
+// Main.java
 public class Main {
   public static void main(String[] args) {
     int a = 575;
