@@ -23,7 +23,7 @@ Circle()
 // Modifiers
 ```
 
-`Circle` is one of the pre-built shapes. A developer can use different properties such as fill, stroke, alignment, and size to adjust the circle according to their requirements.
+`Circle` is one of the pre-built shapes. A developer can use different properties such as fill, stroke, alignment, and size to modify or adjust the circle according to their requirements.
 
 ## Example
 
