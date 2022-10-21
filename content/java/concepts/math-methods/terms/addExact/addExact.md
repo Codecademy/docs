@@ -12,17 +12,17 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.addExact()`** method returns the sum of its arguments. It will throw an _exception_ if the result overflows either int or long. This function is `static`, henceforth object creation is not required.
+The **`Math.addExact()`** method returns the sum of its arguments. It will throw an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows either `int` or `long`. This function is `static`, therefore object creation is not required.
 
 ## Syntax
 
 ```pseudo
-Math.addExact(type a, type b)
+Math.addExact(a, b)
 ```
 
-Here `type` is the datatype of the argument passed to the function. **`Math.addExact()`** function accepts two arguments from the user and the datatype must be same for both the arguments.
+The `Math.addExact()` method accepts two arguments from the user and the datatype must be same for both the arguments.
 
-- If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds _int_ or _long_, then it will throw an exception.
+- If any one argument is `Integer.MAX_VALUE` or `Long.MAX_VALUE`, or if the desired result exceeds `int` or `long`, then it will throw an exception.
 
 ## Example
 
