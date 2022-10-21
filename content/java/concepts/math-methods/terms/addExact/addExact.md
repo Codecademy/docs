@@ -22,7 +22,7 @@ Math.addExact(a, b)
 
 Both parameters `a` and `b` must either be of type `int` or `long`.
 
-- An exception is thrown if either parameter is equal to `Integer.MAX_VALUE` or `Long.MAX_VALUE` or the result exceeds type `int` or `long`.
+An exception is thrown if either parameter is equal to `Integer.MAX_VALUE` or `Long.MAX_VALUE` or the result exceeds type `int` or `long`.
 
 ## Example
 
