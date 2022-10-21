@@ -37,8 +37,6 @@ var body: some View {
 }
 ```
 
-The above code generates a circle with a dimension of `200`x`200` points.
-
-This will display the following:
+The above code generates a circle with a dimension of `200`x`200` points. This will display the following:
 
 ![Circle](https://raw.githubusercontent.com/Codecademy/docs/main/media/circle.png)
