@@ -27,7 +27,7 @@ If the value of `value` is greater than 2147483647L or is less than -2147483648L
 
 ```shell
 Exception in thread "main" java.lang.ArithmeticException: integer overflow
-at java.base/java.lang.Math.toIntExact
+  at java.base/java.lang.Math.toIntExact
 ```
 
 ## Example
@@ -35,11 +35,12 @@ at java.base/java.lang.Math.toIntExact
 The following example demonstrates the application of `.toIntExact()` method:
 
 ```java
+// Check.java
 public class Check {
   public static void main(String args[]) {
-       long val= 2147483647L;
-       System.out.println(Math.toIntExact(val));
-   }
+    long val= 2147483647L;
+    System.out.println(Math.toIntExact(val));
+  }
 }
 ```
 
