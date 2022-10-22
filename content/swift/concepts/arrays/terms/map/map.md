@@ -31,7 +31,7 @@ let letterCounts = name.map { $0.count }
 print(letterCounts)
 ```
 
-In the example above, Each element in the name array is going to get lower-cased and placed into a new array named lowerCaseNames. Then, the name array is mapped over again and a new array is returned with the count of each element. This will output:
+In the example above, each element in the `name` array is going to get lower-cased and placed into a new array named `lowerCaseNames`. Then, the `name` array is mapped over again and a new array is returned with the count of each element. This will output:
 
 ```shell
 ["gaeun", "river", "minkyeong", "dani"]
