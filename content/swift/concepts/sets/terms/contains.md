@@ -19,6 +19,7 @@ The **`contains()`** method returns `true` if the given element exists in the se
 ```pseudo
 setName.contains(element)
 ```
+
 `setName` is the set being searched, and `element` is the element being searched for."
 
 ## Example
