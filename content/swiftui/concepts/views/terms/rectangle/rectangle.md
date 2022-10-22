@@ -15,6 +15,7 @@ CatalogContent:
 ---
 
 The **`Rectangle`** view is a pre-built rectangular shape that is aligned inside the frame of the `View` containing it, and can be visually modified as desired.
+![SwiftUI has several built-in shapes, such as a rectangle, circle, and capsule. The color and placement of each shape can be modified as needed.](https://www.codecademy.com/resources/docs/swiftui/views/circle)
 
 ## Syntax
 
@@ -24,11 +25,9 @@ var body: some View {
 }
 ```
 
-SwiftUI has several built-in shapes, such as a rectangle, circle, and capsule. The color and placement of each shape can be modified as needed.
-
 ## Example
 
-Can change it to the desired shape by attaching a modifier to the `Rectangle`.
+It can be changed to the desired shape by attaching a modifier to the `Rectangle`.
 
 ```swift
 var body: some View {
