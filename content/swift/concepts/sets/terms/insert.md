@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`insert()`** method adds or inserts a given element in the set if it is not already present because set is a collection of unique elements.
+The **`.insert()`** method adds or inserts a given element in the set if it is not already present since a set must contain unique elements.
 
 ## Syntax
 
@@ -22,20 +22,23 @@ setName.insert(element)
 
 ## Example
 
+The following is an example of the `.insert()` method:
+
 ```swift
 var myFruitsSet: Set<String> = ["apple"]
-
 print(myFruitsSet.insert("banana"))
-// Output: (inserted: true, memberAfterInsert: "banana")
-
 print(myFruitsSet)
-// Output: ["apple", "banana"]
-
 print(myFruitsSet.insert("apple"))
-// Output: (inserted: false, memberAfterInsert: "apple")
-
 print(myFruitsSet)
-// Output: ["apple", "banana"]
-
-// NOTE - Set is an unordered collection so the order of elements can vary.
 ```
+
+
+
+This results in the following output:
+```shell
+["apple", "banana"]
+(inserted: false, memberAfterInsert: "apple")
+["apple", "banana"]
+```
+
+Note: Sets are unordered collections, so the order of elements can vary.
