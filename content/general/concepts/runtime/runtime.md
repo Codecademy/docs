@@ -1,6 +1,6 @@
 ---
 Title: 'Runtime'
-Description: 'Runtime can either mean the period of time during which a program is running, or a built-in application that supports the execution of a program.'
+Description: 'Runtime is the period of time during which a program is running.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -13,13 +13,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Runtime can refer to either of the following two concepts:
-
-- The period of time during which a program is running.
-- A built-in application that supports the execution of a program.
-
-The first definition is relatively general. The second definition is more specific to software development.
-
-In software development, runtime commonly refers to the infrastructure required to implement features in the language itself. This can include functions for optimization, memory management, debugging, and input/output. Runtimes make software development easier for engineers by making these functions more accessible. These concepts are related to the second definition.
+Runtime is the period of time during which a program is running, executing the specific instructions that make up the software.
 
 Runtime errors are common types of errors in software development. A runtime error is any error a program has while it is running.
+
+## Runtime Enviornment
+
+The runtime environment is the infrastructure required to implement features in the language itself. This can include functions for optimization, memory management, debugging, and input/output. Runtimes make software development easier for engineers by making these functions more accessible.
