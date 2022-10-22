@@ -27,7 +27,9 @@ The root contains all directories and files associated with a particular system 
 
 ## Directories and Files
 
-All other directories and files are located below the root. Directories, or folders, contain a list of the file names for each file in the directory. They also contain other information associated with these files, such as information on where they are stored in the computer’s memory. Directories that are located inside other directories are called subdirectories. In hierarchical filesystems, the relationship between directories and subdirectories is sometimes described using a “parent”-”child” metaphor, where the “parent” directory is one level above the “child” directory.
+All other directories and files are located below the root. Directories, or folders, contain a list of the file names for each file in the directory. They also contain other information associated with these files, such as information on where they are stored in the computer’s memory.
+
+Directories that are located inside other directories are called subdirectories. In hierarchical filesystems, the relationship between directories and subdirectories is sometimes described using a “parent”-”child” metaphor, where the “parent” directory is one level above the “child” directory.
 
 Files are storage units on a computer which contain information on file contents, instructions needed to read them, and where they are stored. A file’s location in the directory system is referred to as the [file path](https://www.codecademy.com/resources/docs/general/file-paths) and the [file format](https://www.codecademy.com/resources/docs/general/file-formats), or type, determines how data in the file is created, stored, and read.
 
