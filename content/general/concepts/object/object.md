@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An object is a data type created by the developer that has its properties and methods, representing it's state and behavior. Objects are often used to represent real-world objects found in everyday life and can interact with other objects and other elements of the program.
+An object is a data type created by the developer that has its properties and methods, representing its state and behavior. Objects are often used to represent real-world objects found in everyday life and can interact with other objects and other elements of the program.
 
 Objects provide a structured programming approach and are the basic units of [Oject-oriented-programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP). By creating objects, the developer can easily create various identical objects and modify existing ones within the program.
 
@@ -26,7 +26,7 @@ Objects also provide `encapsulation`, meaning that the data within that object i
 
 Declaring an object doesn’t necessarily mean that memory is allocated for it. If an object is initialized with another object, it may just get a reference to the previously created object.
 
-To allocate memory to an object at runtime, the use of the `new` keyword is needed and depending of the programming language, the memory can be allocated on Heap or Stack.
+To allocate memory to an object at runtime, the use of the `new` keyword is needed and depending on the programming language, the memory can be allocated on Heap or Stack.
 
 ## Class and Object Example in Java
 
@@ -100,7 +100,7 @@ System.out.println(mercedes.turnOn()); // sets the isOn variable to true and pri
 
 ## Types of objects
 
-Objects can be categorized based on what they do or how they work based on [design paterns](https://www.codecademy.com/resources/docs/general/creational-design-patterns), which represent repeatable solutions to common tasks or problems in programming.
+Objects can be categorized based on what they do or how they work based on [design patterns](https://www.codecademy.com/resources/docs/general/creational-design-patterns), which represent repeatable solutions to common tasks or problems in programming.
 
 Patterns themselves are **not** objects but are used to develop objects that solve general problems during software development.
 
