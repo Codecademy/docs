@@ -19,8 +19,11 @@ The **`contains()`** method returns `true` if the given element exists in the se
 ```pseudo
 setName.contains(element)
 ```
+`setName` is the set being searched, and `element` is the element being searched for."
 
 ## Example
+
+The following is an example of the `.contains()` method:
 
 ```swift
 let numberSet: Set = [1, 2, 3, 4]
@@ -30,6 +33,10 @@ if numberSet.contains(targetNumber) {
 } else {
     print("This set does not contain this number: \(targetNumber)")
 }
+```
 
-// Output: This set contains this number: 2
+This example results in the following output: 
+
+```shell
+This set contains this number: 2
 ```
