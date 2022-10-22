@@ -13,7 +13,7 @@ Subjects:
 - 'learn-java'
 ---
 
-The **`Math.incrementExact()`** method returns the argument incremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified datatype either `long` or `int`.
+The **`Math.incrementExact()`** method returns the argument incremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified [data type](https://www.codecademy.com/resources/docs/java/data-types) (`long` or `int`).
 
 ## Syntax
 
@@ -21,13 +21,14 @@ The **`Math.incrementExact()`** method returns the argument incremented by one. 
 Math.incrementExact(num)
 ```
 
-- The `num` argument is a `long` or `int` value.
+The `num` parameter is of type `long` or `int`.
 
 ## Example
 
-The following example uses `Math.incrementExact()` to increase the input by 1:
+The following example uses the `.incrementExact()` method to increase the input by 1:
 
 ```java
+// Main.java
 public class Main {
   public static void main(String[] args) {
     int value = 21;
