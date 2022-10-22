@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`contains()`** method returns `true` if the given element exists in the set, `false` otherwise.
+The **`.contains()`** method returns `true` if the given element exists in the set, `false` otherwise.
 
 ## Syntax
 
