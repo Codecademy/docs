@@ -26,7 +26,7 @@ Objects also provide `encapsulation`, meaning that the data within that object i
 
 Declaring an object doesn’t necessarily mean that memory is allocated for it. If an object is initialized with another object, it may just get a reference to the previously created object.
 
-To allocate memory to an object, the use of the `new` keyword is needed and depending of the programming language, the memory can be allocated on Heap or Stack.
+To allocate memory to an object at runtime, the use of the `new` keyword is needed and depending of the programming language, the memory can be allocated on Heap or Stack.
 
 ## Class and Object Example in Java
 
@@ -43,7 +43,7 @@ class Employee {
   char middleInitial;
   float years;
 
-  // behavior or methods
+  // behavior or method
   void cookingBread() {
     System.out.println("Cooking some delicious bread.");
   }
@@ -63,13 +63,46 @@ In the example above, five different objects were created from the class `Employ
 
 By using the name of the objects, along with the `.` operator, it's possible to access members of a class.
 
-## Objects in Java vs objects in JavaScript
+```java
+// Creating the Car class
+public class Car {
+
+  // state or field
+  int numberOfDoors;
+  String color;
+  String brand;
+  boolean isOn;
+
+  // constructor declaration of class
+  public Car(int numberOfDoors, String color, String brand, boolean isOn) {
+    this.numberOfDoors = numberOfDoors;
+    this.color = color;
+    this.brand = brand;
+    this.isOn = isOn;
+  }
+
+  // behavior or method
+  void turnOn() {
+    isOn = true;
+    System.out.println("The car has started? " + isOn);
+  }
+}
+
+// Creating an object from the Car class
+Car mercedes = new Car(5, "black", "mercedes", true);
+
+// Access state
+System.out.println(mercedes.numberOfDoors) // Output: 5
+
+// Access behavior
+System.out.println(mercedes.turnOn()); // sets the isOn variable to true and prints the output: The car has started? True
+```
 
 ## Types of objects
 
 Objects can be categorized based on what they do or how they work based on [design paterns](https://www.codecademy.com/resources/docs/general/creational-design-patterns), which represent repeatable solutions to common tasks or problems in programming.
 
-Patterns themselves are **not** objetcs but are used to develop objects that solve general problems during software development.
+Patterns themselves are **not** objects but are used to develop objects that solve general problems during software development.
 
 ## Objects in Different Languages
 
