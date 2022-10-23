@@ -76,6 +76,6 @@ print("There are \(band.count) players in the band.")
 
 ### Methods
 
-There are many set manipulation methods available in the Swift Standard Library, including generic `Collection`-based methods. Some of these include testing the contents of sets (e.g. `.contains()` and `.isEmpty`) while others can modify or manipulate the set entirely (e.g., `.map()`, `.reduce()`, and `.sort()`). There is also a list of methods applicable to a pair of sets (e.g., `.intersection()` or `.subtracting()`).
+There are many set manipulation methods available in the Swift Standard Library, including generic `Collection`-based methods. Some of these include testing the contents of sets (e.g. `.contains()` and `.isEmpty`) while others can modify or manipulate the set entirely (e.g., `.map()`, `.reduce()`, and `.sorted()`). There is also a list of methods applicable to a pair of sets (e.g., `.intersection()` or `.subtracting()`).
 
 Below are some methods available for sets:
