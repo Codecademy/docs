@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`input()`** built-in function prompts the user for data that is converted to and returned as a string. This function is unique in that the environment creates a field to allow users to enter the value.
+The **`input()`** built-in function prompts the user for data that is converted to and returned as a [string](https://www.codecademy.com/resources/docs/python/strings). This function is unique in that the environment creates a field to allow users to enter the value.
 
 ## Syntax
 
@@ -42,11 +42,11 @@ with_prompt = input("What is your name? ")
 print(f"With prompt: {with_prompt}")
 ```
 
-## Example 2
+## Codebyte Example
 
 Sometimes, the returned string from the `input()` function needs to be converted to another data type, like in the following example with float values:
 
-```py
+```codebyte/python
 def completeOne():
   fraction = input("Pick a decimal number between 0 and 1: ")
   difference =  1 - float(fraction)
