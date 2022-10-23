@@ -29,7 +29,7 @@ In Python 3, **`input()`** is used while **`raw_input()`** was used in Python 2.
 
 If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>Enter</kbd> key, a string representation of the input is returned. This function encourages flexibility, usability and personalization of set workflow. Cases in which this is used include webpages, desktop, and console applications.
 
-## Example 1
+## Example
 
 The following example snippet showcases how the `input()` function can be used with or without arguments:
 
