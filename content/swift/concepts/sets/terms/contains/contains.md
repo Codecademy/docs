@@ -20,7 +20,7 @@ The **`.contains()`** method returns `true` if the given element exists in the s
 setName.contains(element)
 ```
 
-`setName` is the set being searched, and `element` is the element being searched for."
+`setName` is the set being searched, and `element` is the element being searched for.
 
 ## Example
 
@@ -30,13 +30,13 @@ The following is an example of the `.contains()` method:
 let numberSet: Set = [1, 2, 3, 4]
 let targetNumber = 2
 if numberSet.contains(targetNumber) {
-    print("This set contains this number: \(targetNumber)")
+  print("This set contains this number: \(targetNumber)")
 } else {
-    print("This set does not contain this number: \(targetNumber)")
+  print("This set does not contain this number: \(targetNumber)")
 }
 ```
 
-This example results in the following output: 
+This example results in the following output:
 
 ```shell
 This set contains this number: 2
