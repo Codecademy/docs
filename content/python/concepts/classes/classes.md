@@ -205,3 +205,76 @@ class Person:
 bob = Person("Bob")
 bob.sayHi()
 ```
+
+## Iterators 
+
+The use of iterators is common in Python. One such iterator is a `for` loop:
+
+```py
+# for_loop.py
+for element in [1, 2, 3]:
+  print(element)
+for element in (1, 2, 3):
+  print(element)
+for key in {'one':1, 'two':2}:
+  print(key)
+for char in "string":
+  print(char)
+```
+
+In each case, the `for` loop accesses all of the objects in a so-called 'container' object, one whose instances include collections of other objects. For example, a list is made up of elements, and a string is made up of characters. The `for` loop iterates through each of these objects appearing in the container, and then stops once there are no more remaining objects. 
+
+What's going on behind the scenes is the following: the `for` statement calls `iter()` on the container object, which creates an iterator object stored locally. The iterator object has a `__next__()` method, which can access elements in the container one at a time. When there are no more elements, `__next__()` raises a `StopIteration` exception, which tells the for loop to terminate. Here's an example of the process:
+
+```py
+>>> s = 'sum'
+>>> it = iter(s)
+>>> it
+<str_iterator object at 0x10c94e630>
+>>> next(it)
+'s'
+>>> next(it)
+'u'
+>>> next(it)
+'m'
+>>> next(it)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    next(it)
+StopIteration
+```
+
+It's also possible to add an iterator behavior to your own classes. Let's look at an example where we iterate over an object that isn't a container. 
+
+```py
+class GeometricProgression:
+    """Iterator for looping over a sequence backwards."""
+    def __init__(self, start, ratio, length):
+        self.start = start
+        self.ratio = ratio
+        self.length = length
+        self.index = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.index == self.length:
+          raise StopIteration
+        curr = self.start * (self.ratio ** self.index)
+        self.index += 1
+        return curr
+```
+
+```py
+prog = GeometricProgression(2, 3, 4)
+for number in prog:
+  print(number)
+...
+2
+6
+18
+54
+>>>
+```
+
