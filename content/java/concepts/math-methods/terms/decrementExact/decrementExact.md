@@ -9,6 +9,7 @@ Tags:
   - 'Arithmetic'
 CatalogContent:
   - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The **`Math.decrementExact()`** method returns the argument decremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified [data type](https://www.codecademy.com/resources/docs/java/data-types) of the argument.
