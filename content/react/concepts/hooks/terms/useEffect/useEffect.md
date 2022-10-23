@@ -24,7 +24,7 @@ useEffect(
   () => {
     // Runs side effect here
   },
-  [] /* Array of dependencies */
+  [] // Array of dependencies
 );
 ```
 
@@ -41,7 +41,7 @@ useEffect(
       // Do clean up here
     };
   },
-  [] /* Array of dependencies */
+  [] // Array of dependencies
 );
 ```
 
