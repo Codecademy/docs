@@ -9,7 +9,7 @@ Tags:
   - 'Functions'
   - 'Methods'
   - 'Arithmetic'
- 
+
 CatalogContent:
   - 'learn-java'
 ---
