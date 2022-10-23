@@ -1,15 +1,12 @@
 ---
 Title: '.decrementExact()'
 Description: 'Returns the argument decremented by one, throwing an exception if the result overflows the datatype.'
-
 Subjects:
   - 'Computer Science'
-
 Tags:
   - 'Functions'
   - 'Methods'
   - 'Arithmetic'
-
 CatalogContent:
   - 'learn-java'
 ---
