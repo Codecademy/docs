@@ -22,7 +22,7 @@ Math.addExact(a, b)
 
 Both parameters `a` and `b` must either be of type `int` or `long`.
 
-An exception is thrown if either parameter is equal to `Integer.MAX_VALUE` or `Long.MAX_VALUE` or the result exceeds type `int` or `long`.
+An exception is thrown if either parameter is equal to `Integer.MAX_VALUE`, `Long.MAX_VALUE`, or the result exceeds type `int` or `long`.
 
 ## Example
 
@@ -36,8 +36,10 @@ public class Main {
     int b = 209;
     System.out.println(Math.addExact(a, b));
 
-    /* Overflow will occur if any one of the argument is
-      Long.MAX_VALUE or Integer.MAX_VALUE */
+    /*
+    Overflow will occur if any one of the argument is
+    Long.MAX_VALUE or Integer.MAX_VALUE.
+    */
     long x = Long.MAX_VALUE;
     long y = 86712;
     System.out.println(Math.addExact(x, y));
