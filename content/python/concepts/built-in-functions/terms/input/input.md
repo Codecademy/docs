@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`input()`** built-in function prompts the user for data that is converted to and returned as a string. This function is unique in that the environment creates a field to allow users to enter the value. 
+The **`input()`** built-in function prompts the user for data that is converted to and returned as a string. This function is unique in that the environment creates a field to allow users to enter the value.
 
 ## Syntax
 
