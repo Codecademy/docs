@@ -18,15 +18,16 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`input()`** built-in function prompts the user for data that is converted to and returned as a string. This function is unique in that the environment creates a field to allow users to enter the value.
+The **`input()`** built-in function prompts the user for data that is converted to and returned as a string. This function is unique in that the environment creates a field to allow users to enter the value. 
 
 ## Syntax
 
 ```pseudo
 input(prompt_string)
 ```
+In Python 3, **`input()`** is used while **`raw_input()`** was used in Python 2.7 
 
-If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>enter</kbd> key, the input is converted to and returned as a string.
+If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>enter</kbd> key, the input is converted to and returned as a string. This function encourages flexibility, usability and personalization of set workflow. Cases in which these are used include webpages, desktop and console applications. 
 
 ## Example 1
 
