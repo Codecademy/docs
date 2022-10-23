@@ -17,10 +17,10 @@ The **`.intersection()`** method returns a new set containing all elements of th
 ## Syntax
 
 ```pseudo
-newSet = mySet.intersection(mySequence: Sequence)
+newSet = mySet.intersection(mySequence)
 ```
 
-Sets `mySet` and sequence `mySequence` must have countable number of members.
+Sets `mySet` and sequence `mySequence` must have a countable number of members.
 
 ## Example
 
@@ -43,4 +43,4 @@ This will output:
 [17, 6, 12]
 ```
 
-> **Note:** A set is an unordered data structure, so output elements may be ordered differently.
+> **Note:** A set is an unordered data structure, so elements may be ordered differently when outputted.
