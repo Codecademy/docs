@@ -27,7 +27,7 @@ input(prompt_string)
 ```
 In Python 3, **`input()`** is used while **`raw_input()`** was used in Python 2.7 
 
-If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>enter</kbd> key, the input is converted to and returned as a string. This function encourages flexibility, usability and personalization of set workflow. Cases in which this is used include webpages, desktop and console applications. 
+If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>Enter</kbd> key, a string representation of the input is returned. This function encourages flexibility, usability and personalization of set workflow. Cases in which this is used include webpages, desktop, and console applications.
 
 ## Example 1
 
