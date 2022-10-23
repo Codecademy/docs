@@ -1,17 +1,17 @@
 ---
 Title: 'useState()'
-Description: 'Returns the current state of the component and its setter. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.'
+Description: 'Returns the current state of the component and its setter function'
 Subjects:
   - 'Web Development'
 Tags:
+  - 'Components'
   - 'React'
-  - 'useState'
 CatalogContent:
   - 'react-101'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `useState()` returns the current state of the component and its setter. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.
+The **`useState()`** hook returns the current [state](https://www.codecademy.com/resources/docs/react/state) of the [component](https://www.codecademy.com/resources/docs/react/components) and its setter function. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.
 
 ## Syntax
 
@@ -20,26 +20,29 @@ The `useState()` hook accepts an initial value as its parameter. If no value is 
 The return value is an array whose first and second elements are the current state and state setter respectively. Those variables can be obtained through array destructuring.
 
 ```pseudo
+import React, { useState } from 'react';
+
 const [state, setState] = useState(initialValue);
 ```
 
-- `initialValue` is the initial value of the state. Modifying it after the component has mounted will not change the value of the state.
-- `state` is the value of the state in the current render.
-- `setState` is the function to change the value of the state. It will trigger a rerender.
+The `useState()` is imported from the `"react"` library.
+When the component is first rendered, its `state` is assigned an `initialValue` through the `useState()` hook. If one is not provided, the default value is `undefined`. Afterwards, the `setState` function can change the value of `state` and trigger a re-render of the component.
 
-The variable names themselves don't have to be `state` and `setState`. It depends on the context of the component. Say, you are creating a stopwatch component, you can name them as the following
+The return value of `useState()` is an [array](https://www.codecademy.com/resources/docs/javascript/arrays) whose elements (the state and setter function) can be accessed through destructuring.
 
-```js
-const [time, setTime] = useState(0);
-```
+> **Note:** The name of the setter function should correlate with the name of the `state` value (e.g., `const [time, setTime] = useState(0);`).
 
-**Note:** In cases where the state is an `object` or `array`, changing them through the setter must be done without changing the original [object](https://www.codecademy.com/resources/docs/javascript/objects) or [array](https://www.codecademy.com/resources/docs/javascript/arrays) (see Example #2 below)
+<!-- comment -->
+
+> **Note:** In cases where the state is an array or [object](https://www.codecademy.com/resources/docs/javascript/objects), the setter function must update with a modified copy of the state, not the original (see Example #2 below).
 
 ## Example #1
 
 A controlled input whose value depends on the `name` state and changes it through `setName` setter on `onChange` event.
 
-```js
+```jsx
+import React, { useState } from 'react';
+
 function ProfileName() {
   const [name, setName] = useState('');
 
@@ -57,19 +60,19 @@ function ProfileName() {
 
 ## Example #2
 
-A component to hold list of favorite foods. Items can be deleted by clicking it.
+The following example involves deleting an item from the `foods` state array and updating with `filteredItems` through the `onClick` event:
 
-```js
+```jsx
+import React, { useState } from 'react';
+
 function FavoriteFoodList() {
   const [foods, setFoods] = useState(['pizza', 'hot dog']);
 
   function handleDeleteFood(deletedIndex) {
     /*
-      Don't do delete foods[index]
-      or foods.splice(index, 1)
-      
-      Instead, you can use the .filter() method 
-      to exclude the item at deletedIndex
+      Instead of changing the foods array directly,
+      the .filter() method can be used to return a 
+      copy that excludes the deleted item.
     */
     const filteredItems = foods.filter((food, index) => index !== deletedIndex);
 

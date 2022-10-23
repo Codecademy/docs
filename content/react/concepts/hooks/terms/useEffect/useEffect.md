@@ -4,16 +4,16 @@ Description: 'Takes in a function and an array. The function will be executed af
 Subjects:
   - 'Web Development'
 Tags:
+  - 'Components'
   - 'React'
-  - 'useEffect'
 CatalogContent:
   - 'react-101'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `useEffect()` hook takes in a function and an array. The function will be executed after the current render process finishes and only if the elements inside the array has changed from the previous render.
+The **`useEffect()`** hook takes in a [function](https://www.codecademy.com/resources/docs/javascript/functions) and an [array](https://www.codecademy.com/resources/docs/javascript/arrays). The function will be executed after the current render process finishes and only if the elements inside the array has changed from the previous render.
 
-This hook can be used to run side effects (e.g. call to an external API, update another state, etc.) or attach [event listeners](https://www.codecademy.com/resources/docs/javascript/events).
+This hook can be used to run side effects (call to an external API, update another state, etc.) or attach [event listeners](https://www.codecademy.com/resources/docs/javascript/events).
 
 ## Syntax
 
@@ -28,9 +28,9 @@ useEffect(
 );
 ```
 
-If the array of dependencies is empty `([])`, the effect will only run once when the component mounts.
+If the array of dependencies is empty, the effect will only run once when the component mounts.
 
-The function passed as first parameter may also return "cleanup function" which will be executed before the next scheduled effect runs. This chance can be used to remove event listeners or abort an API call.
+The function passed as the first parameter may also return a "cleanup function" that is executed before the next scheduled effect runs. This chance can be used to remove event listeners or abort an API call.
 
 ```jsx
 useEffect(
@@ -47,9 +47,11 @@ useEffect(
 
 ## Example
 
-Attaching a scroll listener to the `window` object and removing it using the cleanup function
+In the following example, the `useEffect()` hook attaches a `'scroll'` listener to the `window` object and removes it with a cleanup function:
 
-```js
+```jsx
+import React, { useEffect } from 'react';
+
 function PageWrapper() {
   useEffect(() => {
     function scrollHandler() {
