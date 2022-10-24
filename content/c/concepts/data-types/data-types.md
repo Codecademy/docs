@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C, **data types** are units of value stored in memory through [variables](https://www.codecademy.com/resources/docs/c/variables). Different kinds of data types determine their size and functionality.
+In C, **data types** are units of value stored in [memory](https://www.codecademy.com/resources/docs/c/memory-management) through [variables](https://www.codecademy.com/resources/docs/c/variables). Different kinds of data types determine their size and functionality.
 
 ## Static Typing
 
-C is a statically-typed language (such as C++ and Java) where variable types are known at compile time instead of the runtime. In this case, types must be expressly indicated by the programmer.
+Like with C++ and Java, C is a statically-typed language where variable types are known at compile time instead of the [runtime](https://www.codecademy.com/resources/docs/general/runtime). In this case, types must be expressly indicated by the programmer.
 
 Data type classifications supported in C include the following:
 
@@ -27,17 +27,17 @@ Data type classifications supported in C include the following:
 
 Types also differ in the amount of memory they occupy and the range of values they can hold. This will depend on the compiler of the computer. An integer, for example, might take up 32 bits on one computer, or perhaps it might be stored in 64 bits on another.
 
-## Primitive types
+## Primitive Types
 
-These data types are mostly numeric (integers, doubles, floating-point numbers, etc.) and can be used for arithmetic operations like subtraction and division. Values that use the `void` keyword (for no data) are also considered to be primitive data types.
+These data types are mostly numeric (integers, doubles, floating-point numbers, etc.) and can be used for arithmetic operations like subtraction and division. Values that use the `void` keyword (for no data) are also regarded as primitive data types.
 
-## Derived data types
+## Derived Data Types
 
 These data types derive from primitive or fundamental data types. In C, these can be of three types:
 
 - [Arrays](https://www.codecademy.com/resources/docs/c/arrays)
 - [Functions](https://www.codecademy.com/resources/docs/c/functions)
-- Pointers
+- [Pointers](https://www.codecademy.com/resources/docs/c/pointers)
 
 ## User-defined types
 
@@ -50,12 +50,12 @@ These are a collection of data with values that have fixed meanings that extend 
 
 ## Memory Size
 
-| Type   | Size    | Value Range                     |
-| ------ | ------- | ------------------------------- |
-| Char   | 1 byte  | -128 to 127 or 0 to 255         |
-| Int    | 4 bytes | -2,147,483,648 to 2,147,483,647 |
-| Float  | 4 bytes | 1.2E-38 to 3.4E+38              |
-| Double | 8 bytes | 1.7E-308 to 1.7E+308            |
+| Type   | Size    | Value Range                    |
+| ------ | ------- | ------------------------------ |
+| Char   | 1 byte  | -128 - 127 or 0 - 255          |
+| Int    | 4 bytes | -2,147,483,648 - 2,147,483,647 |
+| Float  | 4 bytes | 1.2E-38 - 3.4E+38              |
+| Double | 8 bytes | 1.7E-308 - 1.7E+308            |
 
 ### Int
 
@@ -93,7 +93,7 @@ float counterFactor = 15.87E4;
 
 ### Char
 
-Chars use single quotations marks `'` to present single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, a sequence of chars is called [strings](https://www.codecademy.com/resources/docs/c/strings).
+Chars use single quotations marks `'` to represent single characters such as letters, [numbers](https://www.codecademy.com/resources/docs/general/number), [whitespace](https://www.codecademy.com/resources/docs/general/whitespace), special characters, and symbols. Each char only occupies one byte in memory. In C, a sequence of chars is called [strings](https://www.codecademy.com/resources/docs/c/strings).
 
 ```c
 char a = 'a';
