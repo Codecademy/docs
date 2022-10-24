@@ -39,7 +39,7 @@ These data types derive from primitive or fundamental data types. In C, these ca
 - [Functions](https://www.codecademy.com/resources/docs/c/functions)
 - [Pointers](https://www.codecademy.com/resources/docs/c/pointers)
 
-## User-defined types
+## User-defined Types
 
 These are a collection of data with values that have fixed meanings that extend the primitive types already available. Users define them based on requirements. C consists of the following user-defined types:
 
