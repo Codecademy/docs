@@ -1,6 +1,6 @@
 ---
 Title: '.round()'
-Description: 'Returns the closest int or long to a number.'
+Description: 'Returns an int or long value that is closest to the number provided.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.round()`** method returns the closest `int` or `long` to a number.
+The **`Math.round()`** method returns an `int` or `long` value that is closest to the number provided.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ The **`Math.round()`** method returns the closest `int` or `long` to a number.
 Math.round(n)
 ```
 
-The `.round()` method takes one parameter `n`, the value that needs to be rounded.
+The `.round()` method takes one parameter `n`, the value that is to be rounded.
 
 ## Example
 
@@ -32,11 +32,12 @@ public class Test {
     int m = Math.round(5.2);
     System.out.println(n);
     System.out.println(m);
-   }
+  }
 }
 ```
 
-Output: 
+This will produce the following output:
+
 ```shell
 2
 5
