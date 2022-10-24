@@ -9,6 +9,17 @@ Tags:
 CatalogContent: 
   - 'learn-java/static-methods-of-the-math-class'
 ---
+
+## Syntax
+The Math package can be imported and utilized as shown below
+```java
+    import java.lang.Math;
+
+    double x = 1.1;
+    Math.floor(1.1); // passing values directly to the function
+    Math.floor(x); // or passing values of variables
+```
+
 ## Example 1
 In the case of double values, .floor() returns the next integer value below the provided double value:
 ```java
