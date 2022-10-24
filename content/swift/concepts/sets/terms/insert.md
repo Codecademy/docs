@@ -32,13 +32,13 @@ print(myFruitsSet.insert("apple"))
 print(myFruitsSet)
 ```
 
-
-
 This results in the following output:
+
 ```shell
+(inserted: true, memberAfterInsert: "banana")
 ["apple", "banana"]
 (inserted: false, memberAfterInsert: "apple")
 ["apple", "banana"]
 ```
 
-Note: Sets are unordered collections, so the order of elements can vary.
+> **Note:** Sets are unordered collections, so the order of elements can vary.
