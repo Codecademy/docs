@@ -10,7 +10,7 @@ CatalogContent:
   - 'learn-java/static-methods-of-the-math-class'
 ---
 ## Example 1
-In the case of double values, returns the next integer value below the provided double value:
+In the case of double values, .floor() returns the next integer value below the provided double value:
 ```java
     double x = 3.9;
     Math.floor(x); // returns the integer 3
