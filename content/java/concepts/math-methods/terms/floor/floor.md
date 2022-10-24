@@ -21,13 +21,13 @@ The Math package can be imported and utilized as shown below
 ```
 
 ## Example 1
-In the case of double values, .floor() returns the next integer value below the provided double value:
+In the case of double values, `.floor()` returns the next integer value below the provided double value:
 ```java
     double x = 3.9;
     Math.floor(x); // returns the integer 3
 ```
 ## Example 2
-Integers provided to the .floor() function return the same value as provided:
+Integers provided to the `.floor()` function return the same value as provided:
 ```java
     int x = 1;
     int y = 0;
