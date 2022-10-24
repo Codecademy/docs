@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The **`input()`** built-in function prompts the user for data that is converted to and returned as a [string](https://www.codecademy.com/resources/docs/python/strings). This function is unique in that the environment creates a field to allow users to enter the value.
+The built-in **`input()`** function prompts the user for data that is converted to and returned as a [string](https://www.codecademy.com/resources/docs/python/strings). This function is unique in that the environment creates a field to allow users to enter the value.
 
 ## Syntax
 
@@ -26,11 +26,11 @@ The **`input()`** built-in function prompts the user for data that is converted 
 input(prompt_string)
 ```
 
-> **Note:** The `input()` function is the primary user input function for Python 3.x while the `raw_input()` function was used in Python 2.7, with support and updates discontinued since January 2020.
+> **Note:** The `input()` function is the primary user input function for Python 3.x while the `raw_input()` function was used in Python 2.x, with support and updates discontinued since January 2020.
 
-If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>Enter</kbd> key, a string representation of the input is returned. This function encourages flexibility, usability and personalization of set workflow. Cases in which this is used include webpages, desktop, and console applications.
+If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>Enter</kbd> key, a string representation of the input is returned. This function encourages flexibility, usability, and personalization of set workflow. Cases in which this is used include webpages, desktop, and console applications.
 
-## Example
+## Examples
 
 The following example snippet showcases how the `input()` function can be used with or without arguments:
 
@@ -42,11 +42,9 @@ with_prompt = input("What is your name? ")
 print(f"With prompt: {with_prompt}")
 ```
 
-## Codebyte Example
-
 Sometimes, the returned string from the `input()` function needs to be converted to another data type, like in the following example with float values:
 
-```codebyte/python
+```py
 def completeOne():
   fraction = input("Pick a decimal number between 0 and 1: ")
   difference =  1 - float(fraction)
