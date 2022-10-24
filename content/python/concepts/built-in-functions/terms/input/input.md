@@ -26,9 +26,10 @@ The built-in **`input()`** function prompts the user for data that is converted 
 input(prompt_string)
 ```
 
-> **Note:** The `input()` function is the primary user input function for Python 3.x while the `raw_input()` function was used in Python 2.x, with support and updates discontinued since January 2020.  
 
 If a `prompt_string` is given, it is printed without a trailing newline. After the user types something and presses the <kbd>Enter</kbd> key, a string representation of the input is returned. This function encourages flexibility, usability, and personalization of set workflow. Cases in which this is used include webpages, desktop, and console applications.
+
+> **Note:** The `input()` function is the primary user input function for Python 3.x while the `raw_input()` function was used in Python 2.x, with support and updates discontinued since January 2020.
 
 ## Examples
 
