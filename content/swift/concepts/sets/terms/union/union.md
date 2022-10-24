@@ -1,6 +1,6 @@
 ---
 Title: '.union()'
-Description: 'Returns a new set by taking all the values from two sets and combining them.'
+Description: 'Returns a new set containing all elements of one set combined with the elements of a given set.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -17,7 +17,7 @@ The **`.union()`** method returns a new set containing all elements of one set c
 ## Syntax
 
 ```pseudo
-newSet = firstSet.union(secondSet)
+firstSet.union(secondSet)
 ```
 
 Sets `firstSet` and `secondSet` must have countable number of members.
