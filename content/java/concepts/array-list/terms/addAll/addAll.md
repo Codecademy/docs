@@ -68,7 +68,7 @@ public class testAddAll {
 }
 ```
 
-The output from the snippet above would look like this:
+The output would look like this:
 
 ```shell
 List 1:
