@@ -29,9 +29,9 @@ let set1: Set = [2, 4, 6, 8, 10]
 let set2: Set = [4, 10]
 
 if set2.isSubset(of: set1) {
-    print("set2 is a subset of set1.")
+  print("set2 is a subset of set1.")
 } else {
-    print("set2 is not a subset of set1.")
+  print("set2 is not a subset of set1.")
 }
 ```
 
