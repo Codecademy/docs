@@ -1,6 +1,6 @@
 ---
 Title: '.valueOf()'
-Description: 'Returns the string representation of given value.'
+'Returns the string representation of a given value.'
 Subjects:
   - 'Computer Science'
 Tags:
