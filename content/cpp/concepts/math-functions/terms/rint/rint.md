@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`rint()`** function rounds the argument to an integral value using the current rounding mode.
+The **`rint()`** function rounds the argument to an integral value using the current rounding direction.
 
 ## Syntax
 
@@ -20,10 +20,9 @@ The **`rint()`** function rounds the argument to an integral value using the cur
 rint(x)
 ```
 
-The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same data type.
+The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
-The rounding direction is specified by the `fegetround()` function, with the default direction set as 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
-
+> **Note:** The rounding direction is specified by the `fegetround()` function, with the default direction set as 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
 
 ## Example
 
