@@ -19,4 +19,4 @@ As of 2011, Matz is the Chief Architect of Ruby at [Heroku](https://en.wikipedia
 
 ## Writing
 
-In 2001, Matz published a book called _Ruby in a Nutshell_, and _The Ruby Programming Language_ book published in 2008. His demeanor has brought about a motto in the Ruby community: _"Matz is nice and so we are nice,"_ commonly abbreviated as MINASWAN.
+In 2001, Matz published a book called _Ruby in a Nutshell_, and in 2008 he published _The Ruby Programming Language_. His demeanor has brought about a motto in the Ruby community: _"Matz is nice and so we are nice,"_ commonly abbreviated as MINASWAN.
