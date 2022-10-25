@@ -2,13 +2,13 @@
 Title: '.incrementExact()'
 Description: 'Returns the argument incremented by one, throwing an exception if the result overflows the datatype.'
 Subjects:
-- 'Computer Science'
-  Tags:
-- 'Functions'
-- 'Methods'
-- 'Arithmetic'
-  CatalogContent:
-- 'learn-java'
+  - 'Computer Science'
+Tags:
+  - 'Functions'
+  - 'Methods'
+  - 'Arithmetic'
+CatalogContent:
+  - 'learn-java'
 ---
 
 The **`Math.incrementExact()`** method returns the argument incremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified [data type](https://www.codecademy.com/resources/docs/java/data-types) (`long` or `int`).
