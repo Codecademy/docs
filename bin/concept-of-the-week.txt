@@ -1,1 +1,1 @@
-content/uiux/concepts/information-architecture/information-architecture.md
+content/java/concepts/enums/enums.md
