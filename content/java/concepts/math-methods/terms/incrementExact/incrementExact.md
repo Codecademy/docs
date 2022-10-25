@@ -1,6 +1,5 @@
 ---
 Title: '.incrementExact()'
-
 Description: 'Returns the argument incremented by one, throwing an exception if the result overflows the datatype.'
 Subjects:
 - 'Computer Science'
@@ -8,7 +7,6 @@ Subjects:
 - 'Functions'
 - 'Methods'
 - 'Arithmetic'
-
   CatalogContent:
 - 'learn-java'
 ---
