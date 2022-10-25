@@ -15,11 +15,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Node Package Manager (npm) is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. npm is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, npm is already installed!
+**Node Package Manager (NPM)** is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed!
 
 ## Packages
 
-Packages are tools composed of files and folders of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to npm, the installation process for packages is uniform.
+Packages are tools composed of files and folders of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
 
 ## The npm Registry
 

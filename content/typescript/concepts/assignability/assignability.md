@@ -11,16 +11,16 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Assignability is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
+**Assignability** is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
 
-## When/where assignability takes place
+## When/Where Assignability Takes Place
 
-TypeScript perfoms assignability checks whenever a value is being assigned into another location in the computer's memory, such as:
+TypeScript performs assignability checks whenever a value is being assigned into another location in the computer's memory, such as:
 
 - Assigning values to variables.
 - Passing arguments to functions.
 
-## Example: Assigning matching data types
+## Example: Assigning Matching Data Types
 
 In this snippet of code, TypeScript sees that the `spooky` variable is initially assigned a boolean value, so it believes the `spooky` variable should always be of type `boolean`.
 
@@ -29,13 +29,18 @@ Assigning a variable of type boolean later on is allowed, as a type is assignabl
 ```ts
 let spooky = true;
 
-spooky = false; // Ok
+spooky = false; // Allowed
 
-spooky = 'skeletons';
-// Error: Type 'string' is not assignable to type 'boolean'.
+spooky = 'skeletons'; // Not allowed
 ```
 
-## Examples: Comparing object types
+Running the code above will cause the following error:
+
+```shell
+Error: Type 'string' is not assignable to type 'boolean'.
+```
+
+## Examples: Comparing Object Types
 
 When comparing object types, TypeScript will ensure that all the required fields exist in the assigning object type.
 It will also ensure that all field that do exist on the types match up.
@@ -68,8 +73,12 @@ receiveSkeleton({
   spooky: 'Very!',
   scary: true,
 });
+```
 
-// Ouptut --> Error: Type 'string' is not assignable to type 'boolean'
+The error will look like this:
+
+```shell
+Error: Type 'string' is not assignable to type 'boolean'
 ```
 
 This third and final example throws an `Error` because the object we passed to `receiveSkeleton` was missing a `scary` property.
@@ -82,7 +91,7 @@ receiveSkeleton({
 
 The following error will occur, per the TypeScript checker:
 
-```
+```shell
 Error: Argument of type '{ spooky: false; }'
 is not assignable to parameter of type 'Skeleton'.
 Property 'scary' is missing in type '{ spooky: false; }'
