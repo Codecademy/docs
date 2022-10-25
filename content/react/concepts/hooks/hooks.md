@@ -22,6 +22,8 @@ While there are standard React hooks, like `useState()` and `useEffect()`, there
 
 Hooks are imported at the top of a file from the `react` library:
 
-```jsx
-import React, { useState, useEffect } from 'react';
+```pseudo
+import React, { useHook } from 'react';
 ```
+
+> **Note:** The code snippet above is purely pseudocode and useHook is not an actual React hook.
