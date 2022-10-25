@@ -19,7 +19,7 @@ The **`String.valueOf()`** method returns the string representation of a given v
 String.valueOf(value)
 ```
 
-The `value` parameter can be of type `int`, `long`, `float`, `double`, `boolean` and `char`.
+The `value` parameter can be of type `int`, `long`, `float`, `double`, `boolean`, and `char`.
 
 ## Example
 
