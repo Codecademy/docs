@@ -1,5 +1,5 @@
 ---
-Title: 'Function'
+Title: 'Type Aliases'
 Description: 'In TypeScript, type aliases create type definitions, using the `type` keyword and a name, that can be reused throughout the code.'
 Subjects:
   - 'Web Development'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-In TypeScript, type aliases create type definitions that can be reused throughout the code. This is unlike type unions and intersections, where the explicit type information is used repetitively.
+In TypeScript, **type aliases** create type definitions that can be reused throughout the code. This is unlike type unions and intersections, where the explicit type information is used repetitively.
 
 ## Syntax
 
