@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Primitive Data Types 
 
-The table below holds the seven primitive data types. They are the most basic data types in the language. Objects are a little more complex.
+The table below holds the seven most primitive data types in the language.
 
 | Data Type | Wrapper Object   | Description                                                                                                                                   |
 |-----| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,23 +30,20 @@ The table below holds the seven primitive data types. They are the most basic da
 | `undefined` | `Undefined` | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`.    |
 | `symbol` | `Symbol`    | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.         |
 
-
 ## Objects
+
 Collection of related Data.    
-
-
-At first, eight types may not seem like that many, but they are the foundation that helps programmers build a whole new world.
 
 ## Number and BigInt
 
 ```js
-var num = 7;
-var bigNum = 9999999999999999n;
+let num = 7;
+let bigNum = 9999999999999999n;
 ```
 
 BigInt is necessary for big numbers because they are unreliable with Number type:
 
-```codebyte/js
+```js
 console.log(9999999999999999);
 console.log(9999999999999999n);
 ```
@@ -56,8 +53,8 @@ console.log(9999999999999999n);
 Strings in JavaScript can be defined with either `'` `'` or `"` `"`.
 
 ```js
-var greeting = 'Hi buddy';
-var message = 'You are doing great! Keep studying!';
+let greeting = 'Hi buddy';
+let message = 'You are doing great! Keep studying!';
 ```
 
 ## Boolean
@@ -65,8 +62,8 @@ var message = 'You are doing great! Keep studying!';
 Boolean is for truthy or falsy values:
 
 ```js
-var lateToWork = true;
-var isTheEarthFlat = false;
+let lateToWork = true;
+let isTheEarthFlat = false;
 ```
 
 ## Null and Undefined
@@ -75,10 +72,10 @@ Null and Undefined are both for the absence of a value, but they have different 
 
 ```js
 // Undefined means there should be some values, but it is undefined now
-var finishCourseTime = undefined;
+let finishCourseTime = undefined;
 
 // Null means there is no value here
-var finishStudyingDate = null;
+let finishStudyingDate = null;
 ```
 
 ## Object
