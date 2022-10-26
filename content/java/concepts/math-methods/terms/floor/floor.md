@@ -17,7 +17,7 @@ The  **`.floor()`** method included in the `Math` class returns the largest inte
 
 When the provided value is either an integer, zero, not a number, or positive or negative infinity.
 
-```java
+```pseudo
     import java.lang.Math;
 
     double x = 1.1;
@@ -29,7 +29,7 @@ When the provided value is either an integer, zero, not a number, or positive or
 
 In the case of double values, `.floor()` returns the next integer value below the provided double value:
 
-```java
+```pseudo
     double x = 3.9;
     Math.floor(x); // returns the integer 3
 ```
@@ -38,7 +38,7 @@ In the case of double values, `.floor()` returns the next integer value below th
 
 Integers provided to the `.floor()` function return the same value as provided:
 
-```java
+```pseudo
     int x = 1;
     int y = 0;
     Math.floor(x); // returns the integer 1
@@ -48,7 +48,7 @@ Integers provided to the `.floor()` function return the same value as provided:
 
 Values that are not a number will return the NaN value
 
-```java
+```pseudo
     double x = 2.0 % 0;
     Math.floor(x); // returns NaN
 ```
@@ -57,7 +57,7 @@ Values that are not a number will return the NaN value
 
 Infinite values such as one divided by zero will return infinity:
 
-```java
+```pseudo
     double x = 1 / 0;
     Math.floor(x); // returns Infinity
 ```
