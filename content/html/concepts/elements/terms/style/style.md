@@ -18,7 +18,6 @@ The **`<style>`** element allows developer to add [CSS](https://www.codecademy.c
 ## Syntax
 
 ```pseudo
-<!-- In-document style -->
 <head>
   <style>
     /* CSS rules go here */
