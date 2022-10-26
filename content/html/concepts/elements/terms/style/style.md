@@ -28,15 +28,8 @@ The `<style>` element must be included inside the `<head>` section of the docume
 
 The following attributes are available to the `<style>` element:
 
-- `crossorigin` : used to specify how the element handles cross-origin requests
-- `href` : 	used to specify the location of the linked document
-- `hreflang` : used to specify the language of the text in the linked document
-- `media` : used to specify on what device the linked document will be displayed
-- `referrerpolicy` : used to specify which referrer to use when fetching the resource
-- `rel` : used to specify the relationship between the current document and the linked document
-- `sizes` : used to specify the size of the linked resource. Only for rel="icon"
-- `title` : used to specify a preferred or an alternate stylesheet
-- `type` : used to specify the media type of the linked document
+- `media` : Specifies on what device the linked document will be displayed.
+- `title` : Specifies a preferred or alternative stylesheet.
 
 ## Example
 
