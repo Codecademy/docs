@@ -67,16 +67,4 @@ The `<style>` element must be included inside the `<head>` section of the docume
 </body>
 </html>
 ```
-**Example of inline style**
-
-```html
-<h1 style="color:blue;text-align:center">This is a header</h1>
-<p style="color:green">This is a paragraph.</p>
-```
-**Example of external style sheet**
-```html
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-```
 
