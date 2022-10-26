@@ -18,7 +18,7 @@ CatalogContent:
 
 <link rel=“canonical” href="https://www.codecademy.com/resources/blog/what-is-front-end/" />
 
-The front-end of a website includes elements that the end user interacts with directly. A lot goes into front-end development, including:
+The **front-end** of a website includes elements that the end user interacts with directly. A lot goes into front-end development, including:
 
 - Styling for the overall look of the website such as buttons, layouts, inputs, text, and images.
 - Accessibility features like text-to-speech, voice recognition, simple user flows, and more make websites easier to use and provide a better user experience.
