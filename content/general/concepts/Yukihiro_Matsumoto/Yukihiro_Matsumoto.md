@@ -6,7 +6,8 @@ Subjects:
   - 'Code Foundations'
 Tags:
   - 'Ruby'
-  - 'Perl'
+  - 'Ruby'
+  - 'Open Source'
 CatalogContent:
 - 'learn-ruby'
 - 'paths/code-foundations'
