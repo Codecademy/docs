@@ -1,6 +1,6 @@
 ---
 Title: 'NPM'
-Description: 'Node Package Manager (npm) is a large collection of JavaScript packages to enhance projects and add complex functionality with ease.'
+Description: 'Node Package Manager (npm) is an extensive collection of JavaScript packages to enhance projects and add complex functionality with ease.'
 Subjects:
   - 'Bash/Shell'
   - 'Developer Tools'
@@ -15,11 +15,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**Node Package Manager (NPM)** is a large collection of JavaScript packages. This makes adding complexity and funcionality to JavaScript project seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed!
+**Node Package Manager (NPM)** is an extensive collection of JavaScript packages. This makes adding complexity and functionality to JavaScript projects seamless. NPM is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, NPM is already installed!
 
 ## Packages
 
-Packages are tools composed of files and folders of JavaScript code. They provide one or more operations that can be installed, imported and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
+Packages are tools composed of files and folders of JavaScript code. They provide one or more operations that can be installed, imported, and used in a separate project. Thanks to NPM, the installation process for packages is uniform.
 
 ## The npm Registry
 
@@ -28,7 +28,7 @@ npm comes as two primary tools:
 - A command-line tool with abilities that include installing and uninstalling packages.
 - An online registry of all packages registered with npm.
 
-On [the npm registry](https://www.npmjs.com/), all public packages can be searched and reviewed before installing. Most packages come with a `README.md` file with instructions for installation and usage.
+On [the npm registry](https://www.npmjs.com/), all public packages can be searched and reviewed before installation. Most packages come with a `README.md` file with instructions for installation and usage.
 
 ## Common Commands
 
@@ -40,13 +40,13 @@ npm install <package-name-here>
 
 This is used to install packages from the NPM registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
 
-To learn more, run the following to get a brief overview of common commands:
+To learn more, run the following command to get a brief overview of common commands:
 
 ```shell
 npm --help
 ```
 
-`npm -h` works, too.
+> **Note:** `npm -h` works, too.
 
 Alternatively, a (long) list of all npm commands, paired with brief descriptions, can be viewed with the `-l` flag:
 
@@ -56,7 +56,7 @@ npm -l
 
 ## Global Packages
 
-npm also features the ability to install packages globally, so packages can be used as command line tools anywhere.
+npm also features the ability to install packages globally, so packages can be used as command-line tools anywhere.
 
 The `-g` flag installs a package globally:
 
