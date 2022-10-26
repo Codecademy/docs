@@ -23,7 +23,7 @@ The `num` parameter is of type `long` or `int`.
 
 ## Example
 
-The following example uses the `.incrementExact()` method to increase the input by 1:
+The following example uses the `.incrementExact()` method to increase the input by one:
 
 ```java
 // Main.java
