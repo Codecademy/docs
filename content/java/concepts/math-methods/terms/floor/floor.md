@@ -16,6 +16,7 @@ The  **`.floor()`** method included in the `Math` class returns the largest inte
 ## Syntax
 
 When the provided value is either an integer, zero, not a number, or positive or negative infinity.
+
 ```java
     import java.lang.Math;
 
