@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Machine code (also known as machine language or native code) is a low level programming language in the form of hexadecimal or binary instructions that execute computer programs on the computers' CPU. Machine code is the lowest level of code which means that it communicates the programs instructions in the form of software directly to the hardware of the computer via the Central Processing Unit (CPU).
+**Machine code** (also known as machine language or native code) is a low level programming language in the form of hexadecimal or binary instructions that execute computer programs on the computers' CPU. Machine code is the lowest level of code which means that it communicates the programs instructions in the form of software directly to the hardware of the computer via the Central Processing Unit (CPU).
 
 In the early days of programming, applications were written directly in machine code, but as that method of developing applications is tedious and inefficient, programmers developed new higher level programming languages like C, Java and Python to be processed by compilers and turned into machine code for execution in the CPU.
 

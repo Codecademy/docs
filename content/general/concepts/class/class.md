@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A class is a piece of code within a program that functions as a template or blueprint for creating multiple instances of a particular object.
+A **class** is a piece of code within a program that functions as a template or blueprint for creating multiple instances of a particular object.
 
 The template provides initial values and behavior for each of these instances. Each instance is an object itself.
 

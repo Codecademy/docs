@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-RAM is an acronym for Random Access Memory, which is a mechanism for storing and retrieving information in random memory units as opposed to other formats that store data in specific memory locations. RAM is considered a volatile place for storage of information due to the fact that data can be lost if power is suddenly unavailable.
+**RAM** is an acronym for **Random Access Memory**, which is a mechanism for storing and retrieving information in random memory units as opposed to other formats that store data in specific memory locations. RAM is considered a volatile place for storage of information due to the fact that data can be lost if power is suddenly unavailable.
 
 ## The Two Types of RAM
 

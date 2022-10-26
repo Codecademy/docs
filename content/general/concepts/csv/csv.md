@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Comma-Seperated Values (CSV) is a text file format where individual values are separated by commas. It is normally used to store tabular data and is favored for its simple structure allowing for straightforward parsing and data exchange.
+**Comma-Seperated Values (CSV)** is a text file format where individual values are separated by commas. It is normally used to store tabular data and is favored for its simple structure allowing for straightforward parsing and data exchange.
 
 To store tabular data, CSV files usually represent each line as a new row within the table and the values delimited by commas as the cells within each row. However, this practice is not formalized so the interpretation of the cell's contents is normally application-specific.
 

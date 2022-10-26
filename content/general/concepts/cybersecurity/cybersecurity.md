@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-cybersecurity/" />
 
-Cybersecurity is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information. The responsibilities of professionals in this field may include:
+**Cybersecurity** is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information. The responsibilities of professionals in this field may include:
 
 - Educating a company's stakeholders on the importance of cyber and information security.
 - Planning in disaster recovery and responses to cybersecurity breaches.

@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A processor is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code.
+A **processor** is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code.
 
 Processors are comprised of components called transistors and capacitors. Transistors and capacitors are made of semiconductor material (silicon, germanium, etc.) which amplify electric currents or turn them off based on the application instructions in the form of binary 0's and 1's being fed to the processor as machine code.
 

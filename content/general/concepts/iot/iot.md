@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-_Internet of Things_ (IoT) is a term used to describe hardware which can be connected to the internet in order to provide a service.
+**Internet of Things (IoT)** is a term used to describe hardware which can be connected to the internet in order to provide a service.
 
 IoT devices primarily work through the use of sensors associated with devices that communicate data to a server. These devices communicate over a network to determine and provide information on the devices current state. Due to the extensive number of sensors and chips necessary for IOT devices there is a need for efficient and ecologically sustainable practices when it comes production of IoT appliances.
 

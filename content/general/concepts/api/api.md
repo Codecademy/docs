@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-API stands for Application Programming Interface and is a term used to describe specifications that allow applications to communicate with one another.
+**API** stands for **Application Programming Interface** and is a term used to describe specifications that allow applications to communicate with one another.
 
 APIs enable exchange of information, and can be a major source of value (utility, market dependence and revenue) to organizations. APIs are significant components in the evolution of applications because the technical ecosystem is built on top of APIs and leverages them to function and provide many services in use today.
 

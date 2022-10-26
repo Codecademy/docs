@@ -14,7 +14,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-big-data/" />
 
-Big data involves working with and developing insights from large datasets.
+**Big data** involves working with and developing insights from large datasets.
 
 The key distinctions between regular data and big data are volume, velocity, and variety. Generally, big data is more extensive information with more individual components that are collected in a shorter period of time. Big data sources are often new but can encompass older data streams as well.
 

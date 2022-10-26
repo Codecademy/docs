@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A cache is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data.
+A **cache** is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data.
 
 If the data requested is found we call this a "cache hit" and return the requested data, if the data is not found it is deemed a "cache miss". Cache misses trigger a process for getting the correct data called a "replacement policy".
 
