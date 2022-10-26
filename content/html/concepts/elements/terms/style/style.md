@@ -21,15 +21,6 @@ The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/doc
 <style>
   // CSS element goes here
 </style>
-
-<!-- Inline style -->
-<h1 style="color:yellow;text-align:center">This is a header</h1>
-<p style="color:red">This is a paragraph.</p>
-
-<!-- External style sheet -->
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
 ```
 The `<style>` tag is used to define style information (CSS) for a document or an HTML page.
 
