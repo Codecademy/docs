@@ -22,11 +22,9 @@ The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/doc
   // CSS element goes here
 </style>
 ```
-The `<style>` tag is used to define style information (CSS) for a document or an HTML page.
+The `<style>` element must be included inside the `<head>` section of the document. All CSS styles follow the same [anatomy](https://www.codecademy.com/resources/docs/css/anatomy) for rulesets and declarations like external stylesheets.
 
-Inside the `<style>` element you specify how HTML elements should render in a browser.
-
-The `<style>` element must be included inside the `<head>` section of the document. In general, it is better to put your styles in external stylesheets and apply them using `<link>` elements.
+The following attributes are available to the `<style>` element:
 
 - `crossorigin` : used to specify how the element handles cross-origin requests
 - `href` : 	used to specify the location of the linked document
