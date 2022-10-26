@@ -12,7 +12,8 @@ Tags:
  - 'learn-html'
  - 'paths/front-end-engineer-career-path'
 ---
-The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/docs/css) styles to an HTML document.
+
+The **`<style>`** element allows developer to add [CSS](https://www.codecademy.com/resources/docs/css) to an HTML document.
 
 ## Syntax
 
