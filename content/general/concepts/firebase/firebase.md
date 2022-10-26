@@ -1,6 +1,6 @@
 ---
 Title: 'Firebase'
-Description: 'Firebase is a cloud computing and app development platform hosted by Google. It was founded in 2011 as Envovle, a startup which developed APIs for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include: - Authentication - ML Kit - Realtime Database - Firebase Hosting - Performance Monitoring'
+Description: 'Firebase is a cloud computing and app development platform hosted by Google.'
 Subjects:
   - 'Computer Science'
   - 'Mobile Development'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[Firebase](https://firebase.google.com/) is a cloud computing and app development platform hosted by Google.
+[**Firebase**](https://firebase.google.com/) is a [cloud computing](https://www.codecademy.com/resources/docs/general/cloud-computing) and app development platform hosted by Google.
 
-It was founded in 2011 as Envovle, a startup which developed APIs for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include:
+It was founded in 2011 as Envovle, a startup which developed [APIs](https://www.codecademy.com/resources/docs/general/api) for embedded chat services in websites. Google acquired Firebase in 2014 and has further developed the services offered by the platform, some of which now include:
 
 - Authentication
 - ML Kit

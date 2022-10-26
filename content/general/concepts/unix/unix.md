@@ -24,8 +24,8 @@ Originally developed for internal use at Bell Labs in the late 1970s, AT&T licen
 
 ## Timeline
 
-In 1991, [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) released the [open source](https://www.codecademy.com/resources/docs/general/open-source) [Linux](https://www.codecademy.com/resources/docs/general/linux) kernel as a Unix-like free alternative to proprietary Unix systems. It had since exploded into dozens, if not hundreds of different variant distributions.
+1991 - [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) released the [open-source](https://www.codecademy.com/resources/docs/open-source) [Linux](https://www.codecademy.com/resources/docs/open-source/linux) kernel as a Unix-like free alternative to proprietary Unix systems. It had since exploded into dozens, if not hundreds of different variant distributions.
 
-In 1992, a free derivative of BSD Unix was released, leading to the [NetBSD](https://www.netbsd.org/) and [FreeBSD](https://www.freebsd.org/) projects. Since 1994 BSD Unix has developed several different branches, including [OpenBSD](https://www.openbsd.org/).
+1992 - A free derivative of BSD Unix was released, leading to the [NetBSD](https://www.netbsd.org/) and [FreeBSD](https://www.freebsd.org/) projects. Since 1994 BSD Unix has developed several different branches, including [OpenBSD](https://www.openbsd.org/).
 
-In 2000, Apple released a BSD Unix System named [Darwin](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29#External_links) that eventually became the core of the macOS operating system.
+2000 - Apple released a BSD Unix System named [Darwin](https://en.wikipedia.org/wiki/Darwin_%28operating_system%29#External_links) that eventually became the core of the macOS operating system.
