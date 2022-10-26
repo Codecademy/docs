@@ -20,7 +20,7 @@ The **`fmin()`** function returns the smaller of two arguments.
 fmin(x, y)
 ```
 
-The parameters `x` and `y` are usually a numeric [data type](https://www.codecademy.com/resources/docs/cpp/data-types) ranging from negative `-INFINITY` to positive `INFINITY`. If one of the parameters is `NaN`, then the other parameter is returned.
+The parameters `x` and `y` are usually a numeric [data type](https://www.codecademy.com/resources/docs/cpp/data-types) ranging from negative to positive `INFINITY`. If one of the parameters is `NaN`, then the other parameter is returned.
 
 ## Example
 
