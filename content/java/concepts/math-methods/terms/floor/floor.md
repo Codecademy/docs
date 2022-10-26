@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The  **`.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument. When the provided value is either an integer, zero, not a number, or positive or negative infinity.
+The  **`.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument.
 
 ## Syntax
 
-The Math package can be imported and utilized as shown below
+When the provided value is either an integer, zero, not a number, or positive or negative infinity.
 ```java
     import java.lang.Math;
 
