@@ -18,9 +18,11 @@ The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/doc
 
 ```html
 <!-- In-document style -->
-<style>
-  // CSS element goes here
-</style>
+<head>
+  <style>
+    /* CSS rules go here */
+  </style>
+</head>
 ```
 The `<style>` element must be included inside the `<head>` section of the document. All CSS styles follow the same [anatomy](https://www.codecademy.com/resources/docs/css/anatomy) for rulesets and declarations like external stylesheets.
 
