@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `switch` statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
+A **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
 
 There's also an optional `default` statement marking code that executes if none of the `case` statements are true.
 
@@ -23,7 +23,8 @@ There's also an optional `default` statement marking code that executes if none 
 A `switch` statement looks like:
 
 ```cpp
-switch (grade) {
+switch (grade)
+{
   case 9:
     std::cout << "Freshman\n";
     break;
@@ -57,10 +58,12 @@ In the code above, suppose grade is equal to `10`, then the output would be “S
 ```codebyte/cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   int rating = 3;
 
-  switch (rating) {
+  switch (rating)
+  {
     case 5:
       std::cout << "Exceptional";
       break;

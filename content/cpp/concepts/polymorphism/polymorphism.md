@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Polymorphism is an important concept in object-oriented programming. It means "more than one form" — the same entity (function or operator) can operate differently under different situations.
+**Polymorphism** is an important concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). It means "more than one form" — the same entity (function or operator) can operate differently under different situations.
 
 There are two types of polymorphism in C++:
 
@@ -30,20 +30,24 @@ The number of parameters we pass during function invocation (function calling) d
 ```cpp
 #include <iostream>
 
-class Add {
-  public:
-    // sum() with 2 parameters
-    int sum(int num1, int num2) {
-      return num1 + num2;
-    }
+class Add
+{
+public:
+  // sum() with 2 parameters
+  int sum(int num1, int num2)
+  {
+    return num1 + num2;
+  }
 
-    // sum() with 3 parameters
-    int sum(int num1, int num2, int num3) {
-      return num1 + num2 + num3;
-    }
+  // sum() with 3 parameters
+  int sum(int num1, int num2, int num3)
+  {
+    return num1 + num2 + num3;
+  }
 };
 
-int main() {
+int main()
+{
   // Create object of Add class
   Add obj;
 
@@ -75,21 +79,26 @@ In the case of function overriding, we have two definitions of the same function
 ```cpp
 #include <iostream>
 
-class A {
-  public:
-    void print() {
-      std::cout << "Output: Parent Class Function" << "\n";
-    }
+class A
+{
+public:
+  void print()
+  {
+    std::cout << "Output: Parent Class Function" << "\n";
+  }
 };
 
-class B: public A {
-  public:
-    void print() {
-      std::cout << "Output: Child Class Function" << "\n";
-    }
+class B: public A
+{
+public:
+  void print()
+  {
+    std::cout << "Output: Child Class Function" << "\n";
+  }
 };
 
-int main() {
+int main()
+{
   // Parent class object
   A obj1;
   obj1.print();

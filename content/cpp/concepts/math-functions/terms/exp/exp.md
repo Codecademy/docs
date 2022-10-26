@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **exp()** function returns the base-_e_ exponential value of the argument (i.e., _e_ raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
+The **`exp()`** function returns the base-_e_ exponential value of the argument (i.e., _e_ raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
 
 ## Syntax
 
@@ -30,7 +30,8 @@ The following example uses the `exp()` function to find the value of e<sup>3</su
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 3;
   double result;
   result = exp(x);
@@ -52,7 +53,8 @@ The following example is runnable and returns the value of e<sup>1</sup>:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 1;
   double result;
   result = exp(x);

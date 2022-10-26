@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an enumeration (enum) is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
+In C++, an **enumeration (enum)** is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
 
 ## Syntax
 
@@ -60,7 +60,8 @@ So here:
 ```codebyte/cpp
 #include <iostream>
 
-int main() {
+int main()
+{
 
   enum quarter_one {
     january=1,

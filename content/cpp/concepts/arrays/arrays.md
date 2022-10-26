@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.
+Like a vector, an **array** is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.
 
 Being able to store multiple pieces of related information in the same structure is very useful when writing C++ programs.
 

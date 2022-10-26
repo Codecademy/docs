@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, error messages and their different types help detect and debug issues in the code. Errors can be detected before, during, or after the code has been compiled and executed. Since there are many different errors that could occur, they are classified into groups.
+In C++, **error** messages and their different types help detect and debug issues in the code. Errors can be detected before, during, or after the code has been compiled and executed. Since there are many different errors that could occur, they are classified into groups.
 
 ## Syntax Errors
 
@@ -62,7 +62,9 @@ The following example should print `Someone is reading this` when `person` is se
 
 ```cpp
 int person = 1;
-if (person > 1) {
+
+if (person > 1)
+{
   std::cout << "Someone is reading this";
 }
 else {

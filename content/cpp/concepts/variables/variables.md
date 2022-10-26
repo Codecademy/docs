@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.
+A **variable** refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.
 
 ## Declare a Variable
 
@@ -51,7 +51,8 @@ I am 30 years old.
 ```codebyte/cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   double tip = 3.85;
   std::cout << "Tip is" << tip;
 }

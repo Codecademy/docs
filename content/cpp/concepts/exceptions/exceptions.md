@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an exception is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
+In C++, an **exception** is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
 
 ## Catching an Exception
 
@@ -24,19 +24,20 @@ The function `getString()` as defined below will throw an exception if you try t
 #include <iostream>
 
 std::string getString(std::string values[], int index) {
-    return values[index];
+  return values[index];
 }
 
-int main() {
-    std::string words[] = {"One", "Two", "Three"};
+int main()
+{
+  std::string words[] = {"One", "Two", "Three"};
 
-    // This is fine, and will print the string "One"
-    std::cout << getString(words, 0);
+  // This is fine, and will print the string "One"
+  std::cout << getString(words, 0);
 
-    // This is not fine, and will throw an exception
-    std::cout << getString(words, 6);
+  // This is not fine, and will throw an exception
+  std::cout << getString(words, 6);
 
-    return 0;
+  return 0;
 }
 ```
 
@@ -45,26 +46,30 @@ Errors, when uncaught, will cause your program to immediately stop. This behavio
 ```codebyte/cpp
 #include <iostream>
 
-std::string getString(std::string values[], int index) {
-    return values[index];
+std::string getString(std::string values[], int index)
+{
+  return values[index];
 }
 
-int main() {
-    std::string words[] = {"One", "Two", "Three"};
+int main()
+{
+  std::string words[] = {"One", "Two", "Three"};
 
-    try {
-      // "One" will be printed
-      std::cout << getString(words, 0);
+  try
+  {
+    // "One" will be printed
+    std::cout << getString(words, 0);
 
-      // This line will throw an exception and immediately move program execution to the catch block
-      std::cout << getString(words, 6);
-    }
-    catch (...) {
-      // "Some sort of error has occurred!" will be sent to the buffer
-      std::cout << "Some sort of error has occurred!";
-    }
+    // This line will throw an exception and immediately move program execution to the catch block
+    std::cout << getString(words, 6);
+  }
+  catch (...)
+  {
+    // "Some sort of error has occurred!" will be sent to the buffer
+    std::cout << "Some sort of error has occurred!";
+  }
 
-    return 0;
+  return 0;
 }
 ```
 
@@ -76,18 +81,23 @@ The parenthesized ellipsis above indicate that the `catch` should try to catch a
 It is possible to catch multiple types of exception by specifying multiple catch blocks:
 
 ```cpp
-int main() {
-  try {
+int main()
+{
+  try
+  {
     // Code goes here
   }
-  catch (int intErrorVariable) {
+  catch (int intErrorVariable)
+  {
     // The thrown error was of type int
   }
-  catch (std::exception exceptionVariable) {
+  catch (std::exception exceptionVariable)
+  {
     // The thrown error was of type exception
     std::cout << exceptionVariable.what();
   }
-  catch (...) {
+  catch (...)
+  {
     // The ellipsis
   }
 }
@@ -107,23 +117,28 @@ While it is possible to use `throw` with many data types, it is common to throw 
 #include <iostream>
 #include <math.h>
 
-float mySqrt(float value) {
-  if (value < 0) {
+float mySqrt(float value)
+{
+  if (value < 0)
+  {
     throw std::runtime_error("Negative numbers not allowed");
   }
 
   return sqrt(value);
 }
 
-int main() {
+int main()
+{
   float posNumber = 4.41;
   float negNumber = -1.0;
 
-  try {
+  try
+  {
     std::cout << "Square root of " << posNumber << " is " << mySqrt(posNumber) << "\n";
     std::cout << "Square root of " << negNumber << " is " << mySqrt(negNumber) << "\n";
   }
-  catch (std::runtime_error error) {
+  catch (std::runtime_error error)
+  {
     std::cout << "ERROR: " << error.what() << "\n";
   }
 

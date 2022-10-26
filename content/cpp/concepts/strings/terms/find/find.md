@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.find()` method returns the index of the first occurrence of the specified string or character. If no result is found, `string::npos` is returned instead.
+The **`.find()`** method returns the index of the first occurrence of the specified string or character. If no result is found, `string::npos` is returned instead.
 
 **Note:** `string::npos` will often be shown as the highest possible value of type `size_t`.
 
@@ -36,7 +36,8 @@ The following example searches for `izz` in the `food` string:
 #include <iostream>
 #include <string>
 
-int main(){
+int main()
+{
   std::string food = "pizzabagel";
   std::cout << food.find("izz");
   // Output: 1
@@ -49,9 +50,10 @@ A starting index can also be specified:
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string food = "pizzabagel";
-    std::cout << food.find("izz", 2);
+int main()
+{
+  std::string food = "pizzabagel";
+  std::cout << food.find("izz", 2);
 }
 ```
 
@@ -69,9 +71,10 @@ Searching for a sequence not in the string also returns `string::npos`. The foll
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string food = "pizzabagel";
-    std::cout << food.find("bad");
+int main()
+{
+  std::string food = "pizzabagel";
+  std::cout << food.find("bad");
 }
 ```
 
@@ -89,8 +92,9 @@ However, if the previous example is changed to search for the first two characte
 #include <iostream>
 #include <string>
 
-int main(){
-    std::string food = "pizzabagel";
-    std::cout << food.find("bad", 0, 2);
+int main()
+{
+  std::string food = "pizzabagel";
+  std::cout << food.find("bad", 0, 2);
 }
 ```

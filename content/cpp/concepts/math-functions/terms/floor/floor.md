@@ -17,7 +17,7 @@ The `floor()` function returns the first whole number that is less than or equal
 
 The `cmath` library must be added at the top of the file.
 
-```cpp
+```pseudo
 std::floor(n);
 ```
 
@@ -39,7 +39,8 @@ Use `floor()` to round down the double `12.3456`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double n = 12.3456;
   double result;
 

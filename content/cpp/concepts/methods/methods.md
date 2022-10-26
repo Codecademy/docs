@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ class methods are user-defined functions that can be used within an instance of the class. We use a dot notation `.` before method names to distinguish them from regular functions.
+C++ class **methods** are user-defined functions that can be used within an instance of the class. We use a dot notation `.` before method names to distinguish them from regular functions.
 
 ## Class Methods
 
@@ -24,17 +24,20 @@ A class method can be defined in two ways:
 ### Inside the Class
 
 ```cpp
-class Person {
+class Person
+{
   string name;
 
-  public:
+public:
   // Defines the method
-  void get_name() {
+  void get_name()
+  {
     return name;
   }
 }
 
-int main() {
+int main()
+{
   Person robert;
 
   // Calls the method
@@ -47,19 +50,22 @@ int main() {
 ### Outside the Class
 
 ```cpp
-class Person {
+class Person
+{
   string name;
 
-  public:
-    void get_name();
+public:
+  void get_name();
 }
 
 // Defines the method
-void Person::get_name() {
+void Person::get_name()
+{
   return name;
 }
 
-int main() {
+int main()
+{
   Person robert;
 
   // Calls the method
@@ -72,22 +78,26 @@ int main() {
 Parameters can also be added to class methods:
 
 ```cpp
-class Person{
+class Person
+{
   string name;
 
-  public:
+public:
 
   // Defines the method
-  void set_name(string newName){
+  void set_name(string newName)
+  {
     name = newName;
   }
 
-  void get_name() {
+  void get_name()
+  {
     return name;
   }
 }
 
-int main() {
+int main()
+{
   Person robert;
 
   // Sets the name class member

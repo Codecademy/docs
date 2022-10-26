@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A smart pointer is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisiton is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
+A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisiton is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.
 
 ## Ownership
 
@@ -32,7 +32,8 @@ Both `unique_ptr` and `shared_ptr` have a corresponding function to create their
 ## Unique Pointers
 
 ```cpp
-int main() {
+int main()
+{
   auto ptr = std::make_unique<int>(10);
 } // The ptr reaches end of scope, no memory leaks
 ```
@@ -40,7 +41,8 @@ int main() {
 ## Shared Pointers
 
 ```cpp
-int main() {
+int main()
+{
   auto ptr = std::make_shared<int>(10);
 
   std::cout << ptr.use_count() << "\n"; // Prints the reference count (1)
@@ -56,9 +58,11 @@ int main() {
 ## Exception Safety
 
 ```cpp
-void unsafe_pointer() {
+void unsafe_pointer()
+{
   int* ptr = new int(10);
-  if (*ptr == 10) {
+  if (*ptr == 10)
+  {
     throw;
   }
   delete ptr; // The ptr not freed because the function throws beforehand
@@ -66,7 +70,8 @@ void unsafe_pointer() {
 
 void safe_pointer() {
   auto ptr = std::make_unique<int>(10);
-  if (*ptr == 10) {
+  if (*ptr == 10)
+  {
     throw;
   }
 } // The ptr freed because destructors are called automatically when leaving scope

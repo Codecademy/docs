@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Computers use file systems to store and retrieve data. Each file is an individual container of related information.
+Computers use [file systems](https://www.codecademy.com/resources/docs/general/file-system-structure) to store and retrieve data. Each **file** is an individual container of related information.
 
 The `fstream` library, short for "file stream", allows us to work with files in C++. To use the `fstream` library in the C++ program, include both the standard `<iostream>` and the `<fstream>` header files in the C++ program:
 
@@ -36,7 +36,8 @@ To write to the file, use the insertion operator (`<<`). For example:
 #include <iostream>
 #include <fstream>
 
-int main() {
+int main()
+{
   // Create and open a text file
   std::ofstream MyFile("journal.txt");
 
@@ -66,7 +67,8 @@ Note that we also use a `while` loop together with the `getline()` function (whi
 #include <iostream>
 #include <fstream>
 
-int main() {
+int main()
+{
   // Create a text string, which is used to output the text file
   std::string myText;
 
