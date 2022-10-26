@@ -1,6 +1,6 @@
 ---
 Title: 'Yukihiro Matsumoto'
-Description: 'Yukihiro Matsumoto a.k.a one of the open source evangelists of Japan, is a Japanese Software Programmer and Computer Scientist widely known for his work as the chief designer of Ruby. Matz blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and Lisp) to form Ruby, a language of careful balance. 
+Description: 'Yukihiro Matsumoto is a Japanese software programmer and computer scientist widely known as the chief designer of the Ruby programming language.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
