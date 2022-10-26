@@ -21,6 +21,11 @@ When the provided value is either an integer, zero, not a number, or positive or
     Math.floor(x); // or passing values of variables
 ```
 
+The return value is the same as `num` under the following conditions:
+
+- `num` is already an integer.
+- `num` is `NaN`, infinity, or zero (positive or negative).
+
 ## Example 1
 
 In the case of double values, `.floor()` returns the next integer value below the provided double value. In the case of integers provided, these will return the same value as provided:
