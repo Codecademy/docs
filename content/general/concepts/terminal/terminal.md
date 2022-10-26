@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A terminal is a program which allows programmers to type commands directly to the internal CPU or another network device. It is a no-frills program where a user simply inputs text, as opposed to a graphical user interface (GUI) where a user interacts with windows, buttons, and icons.
+A **terminal** is a program which allows programmers to type commands directly to the internal CPU or another network device. It is a no-frills program where a user simply inputs text, as opposed to a graphical user interface (GUI) where a user interacts with windows, buttons, and icons.
 
 ## Notable Examples
 
