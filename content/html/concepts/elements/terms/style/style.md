@@ -36,19 +36,23 @@ The following attributes are available to the `<style>` element:
 **Example of style sheet in document**
 
 ```html
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-  h1 {color:green;}
-  p {color:yellow;}
-</style>
-</head>
-<body>
-
-<h1>A h1 heading</h1>
-<p>A paragraph.</p>
-
-</body>
+  <head>
+    <style>
+      h1 {
+        color:green;
+      }
+      
+      p {
+        color:yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A header</h1>
+    <p>A paragraph.</p>
+  </body>
 </html>
 ```
 
