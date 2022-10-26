@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The  **`.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument.
+The **`.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument.
 
 ## Syntax
 
