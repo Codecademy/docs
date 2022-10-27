@@ -20,10 +20,9 @@ The `iter()` method is a python built-in function that returns an iterator objec
 iter(object, sentinel[optional])
 ```
 
-| Parameter  | Description                                                                                                               | 
-|:-----------|:--------------------------------------------------------------------------------------------------------------------------|
-| object     | Required. An iterable object such as list, str, and tuple.                                                                | 
-| sentinel   | Optional. If the object is a callable object the iteration will stop when the returned value is the same as the sentinel.<br/>If the second argument, sentinel, is given, then object must be a callable object. The iterator created in this case will call object with no arguments for each call to its __next__() method; if the value returned is equal to sentinel, StopIteration will be raised, otherwise the value will be returned. | 
+## Parameters                                                                                                         
+* **object** : Required. An iterable object such as list, str, and tuple.                                                                | 
+* **sentinel** : Optional. If the object is a callable object the iteration will stop when the returned value is the same as the sentinel.<br/>If the second argument, sentinel, is given, then object must be a callable object. The iterator created in this case will call object with no arguments for each call to its __next__() method; if the value returned is equal to sentinel, StopIteration will be raised, otherwise the value will be returned. | 
 
 ## Example 1
 The example below demonstrates how the `iter()` function is used in a Python program:
