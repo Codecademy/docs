@@ -20,6 +20,8 @@ There are a few rules when using hooks, including the following:
 
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
 
+## Syntax
+
 ```pseudo
 import React, { useHook } from 'react';
 ```
