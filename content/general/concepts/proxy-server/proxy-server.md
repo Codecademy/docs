@@ -18,7 +18,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-proxy-server/" />
 
-Proxy servers are intermediary computers that allows a client to connect with a web server while maintaining privacy.
+**Proxy servers** are intermediary computers that allows a client to connect with a web server while maintaining privacy.
 
 Every computer needs a unique IP address to connect with the server(s) of a network. The IP address sends a request to the server for a response with data such as the web page for this entry. Proxy servers come with their own IP address that is used to direct the client's request to the server.
 
