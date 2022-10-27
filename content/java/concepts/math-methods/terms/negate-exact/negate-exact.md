@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `Math.negateExact()` method returns the negation of the argument and raises an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows.
+The **`Math.negateExact()`** method returns the negation of the argument and raises an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows.
 
 ## Syntax
 
