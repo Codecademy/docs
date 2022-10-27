@@ -65,7 +65,7 @@ public class Main {
 	public static void main(String args[]) {
 		double a = -0;
 
-		System.out.println("The result of log(" + a + ") is: " + Math.log10(a));
+		System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
 	}
 }
 ```
