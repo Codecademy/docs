@@ -11,19 +11,19 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-In React, **hooks** are functions that give class-like abilities to function components, include [state](https://www.codecademy.com/resources/docs/react/state) and side-effects.
+In React, **hooks** are [functions](https://www.codecademy.com/resources/docs/javascript/functions) that give class-like abilities to function [components](https://www.codecademy.com/resources/docs/react/components), including [state](https://www.codecademy.com/resources/docs/react/state) and side-effects.
 
-There are a few rules when using hooks! Specifically:
+There are a few rules when using hooks, including the following:
 
-- Call hooks at the top level of React functions. If hooks are called in a loop, condition, or nested function, they may not render in the same order every time.
-- Call hooks from React functions and not regular JavaScript functions.
+- Hooks must be called from React functions (i.e. components or custom hooks) and not from a regular JavaScript function.
+- Hooks should not be called inside of a loop, condition, or nested function. Instead, hooks should be called at the top level of a React function so they render in the same order every time.
 
 While there are standard React hooks, like `useState()` and `useEffect()`, there are also custom-made hooks!
-
-Hooks are imported at the top of a file from the `react` library:
 
 ```pseudo
 import React, { useHook } from 'react';
 ```
+
+Hooks are imported at the top of a file from the `react` library:
 
 > **Note:** The code snippet above is purely pseudocode and useHook is not an actual React hook.
