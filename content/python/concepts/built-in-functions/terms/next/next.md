@@ -37,8 +37,8 @@ next(iterator_name, [default_parameter])
 
 ***`Return:`*** 
 + returns next element/value from the iterable object.
-    + if missing prints the default value
-    + if default value is not set, triggers a StopIteration error
+    + _if missing prints the default value_
+    + _if default value is not set, triggers a StopIteration error_
 
 ## **Example 1**
 
@@ -82,4 +82,4 @@ print(next(listemsIt, "That's all folks")) # Output on screen: That's all folks
 If you let run the last print() without the default parameter, you´ll get a pretty Buzzz! :boom::boom:
 
 ---
-***All these could be also done using a for loop. But, secret between you and me :secret:, the for loop actually generates an iterator object and uses the next() method for looping.***
+***All these could be also done using a for loop. But, secret between you and me :secret:, the for loop actually generates an iterator object and uses the next() method for looping.*** :astonished::astonished::astonished:
