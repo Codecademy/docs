@@ -41,7 +41,7 @@ public class Test {
 
 This results in the following output:
 
-```java
+```shell
 -12
 -123
 ```
