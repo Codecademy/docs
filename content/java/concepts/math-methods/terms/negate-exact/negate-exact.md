@@ -21,7 +21,7 @@ The **`Math.negateExact()`** method returns the negation of the argument and rai
 Math.negateExact(num)
 ```
 
-The `num` argument can be of type `int` or `long`.
+The `num` parameter can be of type `int` or `long`.
 
 ## Example
 
