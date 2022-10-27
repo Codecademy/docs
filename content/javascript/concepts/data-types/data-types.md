@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
+Description: 'Data types are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,25 +14,27 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Data types** are how data in programming is classified. In JavaScript, there are eight fundamental data types: 
+**Data types** are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types. 
 
 ## Primitive Data Types 
 
-The table below holds the seven most primitive data types in the language.
+JavaScript uses seven primitive data types that are listed in the table below:
 
 | Data Type | Wrapper Object   | Description                                                                                                                                   |
 |-----| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `number` | [`Number`](https://www.codecademy.com/resources/docs/javascript/number-methods)    | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                         |
-| `bigInt` | `BigInt`    | Any number, greater than 2^53-1 or less than -(2^53-1) with `n` appended to the number: `1234567890123456n`.                                  |
+| `bigint` | `BigInt`    | Any number, greater than 2<sup>53-1</sup> or less than -(2<sup>53-1</sup>) with `n` appended to the number: `1234567890123456n`.                                  |
 | `string` | [`String`](https://www.codecademy.com/resources/docs/javascript/strings)    | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single `''` or double `""`. |
 | `boolean` | `Boolean`   | This data type only has two possible values — either `true` or `false`.                                                                       |
-| `null` | `Null`      | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                       |
-| `undefined` | `Undefined` | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`.    |
+| `null` | None      | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                       |
+| `undefined` | None | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`.    |
 | `symbol` | `Symbol`    | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.         |
 
 ## Objects
 
-Collection of related Data.    
+[Objects](https://www.codecademy.com/resources/docs/javascript/objects) are a little more complex since they are collections of related data.
+
+**Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).    
 
 ## Number and BigInt
 
