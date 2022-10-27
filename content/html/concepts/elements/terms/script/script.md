@@ -27,7 +27,7 @@ The **`<script>`** element is used to insert runnable code into a document, usua
 <script src="filename.js"></script>
 ```
 
-The `<script>` element can be used without attributes, but some common attributes are used to modify the behavior:'
+The `<script>` element can be used without attributes, but some common attributes are used to modify the behavior:
 
 - When provided, the `src` attribute will load an external script.
 - The `async` attribute executes the script as soon as it is loaded, ignoring other pending actions in the browser.
