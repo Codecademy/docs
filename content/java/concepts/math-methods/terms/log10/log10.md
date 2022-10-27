@@ -34,15 +34,15 @@ The following example demonstrates using `.log10()` to find logs (with base 10) 
 import java.lang.Math;
 
 public class Main {
-  	public static void main(String args[]) {
-    	double a = 10;
-    	double b = -6;
-    	double c = 0;
-    
-		System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
-		System.out.println("The result of log10(" + b + ") is: " + Math.log10(b));
-		System.out.println("The result of log10(" + c + ") is: " + Math.log10(c));
-  	}
+    public static void main(String args[]) {
+        double a = 10;
+        double b = -6;
+        double c = 0;
+
+        System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
+        System.out.println("The result of log10(" + b + ") is: " + Math.log10(b));
+        System.out.println("The result of log10(" + c + ") is: " + Math.log10(c));
+    }
 }
 ```
 
@@ -62,10 +62,10 @@ The following example is runnable and return `log a`:
 import java.lang.Math;
 
 public class Main {
-	public static void main(String args[]) {
-		double a = -0;
+    public static void main(String args[]) {
+        double a = -0;
 
-		System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
-	}
+        System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
+    }
 }
 ```

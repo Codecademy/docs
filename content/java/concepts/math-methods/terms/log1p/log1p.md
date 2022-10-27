@@ -34,15 +34,15 @@ The following example demonstrates using `.log1p()` to find natural logs of:
 import java.lang.Math;
 
 public class Main {
-  	public static void main(String args[]) {
-    	double a = 23;
-    	double b = -42;
-    	double c = 0;
-    
-		System.out.println("The result of log1p(" + a + ") is: " + Math.log1p(a));
-		System.out.println("The result of log1p(" + b + ") is: " + Math.log1p(b));
-		System.out.println("The result of log1p(" + c + ") is: " + Math.log1p(c));
-  	}
+     public static void main(String args[]) {
+        double a = 23;
+        double b = -42;
+        double c = 0;
+
+        System.out.println("The result of log1p(" + a + ") is: " + Math.log1p(a));
+        System.out.println("The result of log1p(" + b + ") is: " + Math.log1p(b));
+        System.out.println("The result of log1p(" + c + ") is: " + Math.log1p(c));
+    }
 }
 ```
 
@@ -62,10 +62,10 @@ The following example is runnable and return `ln (a + 1)`:
 import java.lang.Math;
 
 public class Main {
-	public static void main(String args[]) {
-		double a = -0;
+    public static void main(String args[]) {
+        double a = -0;
 
-		System.out.println("The result of log1p(" + a + ") is: " + Math.log1p(a));
-	}
+        System.out.println("The result of log1p(" + a + ") is: " + Math.log1p(a));
+    }
 }
 ```

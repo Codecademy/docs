@@ -34,15 +34,15 @@ The following example demonstrates using `.log()` to find natural logs of:
 import java.lang.Math;
 
 public class Main {
-  	public static void main(String args[]) {
-    	double a = 10;
-    	double b = -6;
-    	double c = 0;
-    
-		System.out.println("The result of log(" + a + ") is: " + Math.log(a));
-		System.out.println("The result of log(" + b + ") is: " + Math.log(b));
-		System.out.println("The result of log(" + c + ") is: " + Math.log(c));
-  	}
+    public static void main(String args[]) {
+        double a = 10;
+        double b = -6;
+        double c = 0;
+
+        System.out.println("The result of log(" + a + ") is: " + Math.log(a));
+        System.out.println("The result of log(" + b + ") is: " + Math.log(b));
+        System.out.println("The result of log(" + c + ") is: " + Math.log(c));
+    }
 }
 ```
 
@@ -62,10 +62,10 @@ The following example is runnable and return `ln a`:
 import java.lang.Math;
 
 public class Main {
-	public static void main(String args[]) {
-		double a = -0;
+    public static void main(String args[]) {
+        double a = -0;
 
-		System.out.println("The result of log(" + a + ") is: " + Math.log(a));
-	}
+        System.out.println("The result of log(" + a + ") is: " + Math.log(a));
+    }
 }
 ```
