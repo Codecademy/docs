@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`java.lang.Math.log()`** method returns `ln a`, the natural logarithm of a.
+The **`.log()`** method returns `ln a`, the natural logarithm of a.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Math.log(a);
 
 ## Example
 
-The following example demonstrates using `.log()` to find natural logs of:
+The following example demonstrates using `.log()` to find natural logs:
 
 ```java
 import java.lang.Math;
@@ -49,14 +49,14 @@ public class Main {
 This will produce the following output:
 
 ```shell
-The result of log(10) is: 2.303
-The result of log(-6) is: NaN
-The result of log(0) is: -Infinity
+The result of log(10.0) is: 2.303
+The result of log(-6.0) is: NaN
+The result of log(0.0) is: -Infinity
 ```
 
 ## Codebyte Example
 
-The following example is runnable and return `ln a`:
+The following example is runnable and returns `ln a`:
 
 ```codebyte/java
 import java.lang.Math;

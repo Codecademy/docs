@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`java.lang.Math.log1p()`** method returns `ln (a + 1)`, the natural logarithm of a.
+The **`.log1p()`** method returns `ln (a + 1)`, the natural logarithm of a + 1.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Math.log1p(a);
 
 ## Example
 
-The following example demonstrates using `.log1p()` to find natural logs of:
+The following example demonstrates using `.log1p()` to find natural logs:
 
 ```java
 import java.lang.Math;
@@ -49,9 +49,9 @@ public class Main {
 This will produce the following output:
 
 ```shell
-The result of log1p(10) is: 3.1780538303479458
-The result of log1p(-6) is: NaN
-The result of log1p(0) is: -Infinity
+The result of log1p(23.0) is: 3.1780538303479458
+The result of log1p(-42.0) is: NaN
+The result of log1p(0.0) is: 0.0
 ```
 
 ## Codebyte Example

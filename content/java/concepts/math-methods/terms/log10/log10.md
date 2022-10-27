@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`java.lang.Math.log10()`** method returns `log a`, the logarithm of `a` with base 10.
+The **`.log10()`** method returns `log a`, the logarithm of `a` with base 10.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Math.log10(a);
 
 ## Example
 
-The following example demonstrates using `.log10()` to find logs (with base 10) of:
+The following example demonstrates using `.log10()` to find logs (with base 10):
 
 ```java
 import java.lang.Math;
@@ -49,14 +49,14 @@ public class Main {
 This will produce the following output:
 
 ```shell
-The result of log10(10) is: 1
-The result of log10(-6) is: NaN
-The result of log10(0) is: -Infinity
+The result of log10(10.0) is: 1
+The result of log10(-6.0) is: NaN
+The result of log10(0.0) is: -Infinity
 ```
 
 ## Codebyte Example
 
-The following example is runnable and return `log a`:
+The following example is runnable and returns `log a`:
 
 ```codebyte/java
 import java.lang.Math;
