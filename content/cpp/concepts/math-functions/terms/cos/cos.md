@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the cosine of an argument given in radians.
+The **`cos()`** returns the cosine of an argument given in radians.
 
 ## Syntax
 
-```cpp
+```pseudo
 std::cos(n)
 ```
 
@@ -27,7 +27,8 @@ Use `cos()` to return the cosine of `3.1416` radians:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 3.1416;
   double result;
 
