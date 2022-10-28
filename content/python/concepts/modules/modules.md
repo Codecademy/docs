@@ -60,7 +60,7 @@ Once a module is imported, it is within the scope of the program and it can be a
 Python comes with several different built-in modules that provide a variety of functions. They include:
 
 - The [`collections`](https://www.codecademy.com/resources/docs/python/collections-module) module provides additional collection types.
-- The [`functools`](https://www.codecademy.com/resources/docs/python/functools-module) module provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach.
+- The [`functools`](https://www.codecademy.com/resources/docs/python/functools-module) module provides functions supporting a [functional programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/functional-programming) approach.
 - The [`glob`](https://www.codecademy.com/resources/docs/python/glob-module) module allows matching file paths per [Unix](https://www.codecademy.com/resources/docs/general/unix) shell rules.
 - The [`json`](https://www.codecademy.com/resources/docs/python/json-module) module provides functions for dealing with [JSON](https://www.codecademy.com/resources/docs/general/json) objects.
 - The [`math`](https://www.codecademy.com/resources/docs/python/math-module) module provides useful mathematical functions.
