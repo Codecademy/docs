@@ -20,7 +20,7 @@ The **`puts()`** function, or "put string" function prints a string to `stdout`,
 putchar(char)
 ```
 
-The **`puts()`** takes a `string` as an argument and prints it, adding a newline character at the end of it.
+The `puts()` function takes a `str` argument and prints it, adding a newline character at the end of it.
 
 ## Example
 
