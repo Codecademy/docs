@@ -40,6 +40,7 @@ var body: some View {
         .frame(width: 250.0, height: 250.0, alignment: .center)
         .clipShape(Circle())
 }
+```
 
 The `.resizable()` modifier fills the entire content of the parent container.  The `.aspectRatio()` maintains the original aspect ratio. The size can then be restricted to a custom `.frame()`. In this case the `.clipShape()` modifier is a [`Circle()`](https://www.codecademy.com/resources/docs/swiftui/views/circle).
 
