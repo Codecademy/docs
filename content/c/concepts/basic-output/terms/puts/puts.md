@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`puts()`** function, or "put string" function prints a string to `stdout`, normally the console, followed by a newline character.
+The **`puts()`**, or "put string", function prints a [string](https://www.codecademy.com/resources/docs/c/strings) to `stdout`, normally the console, followed by a newline character.
 
 ## Syntax
 
