@@ -21,6 +21,7 @@ setName.remove(at: index)
 ```
 
 ## Example
+In the example below, The `autumn` element in the `weather` array is removed:
 
 ```swift
 var weather: Set = ["spring", "summer", "autumn", "fall", "winter"]
@@ -31,7 +32,7 @@ if let _ = weather.remove(toRemove) {
 
 ```
 
-In the example above, The `autumn` element in the "weather" array was removed. This will output:
+This will output the following:
 
 ```shell
 autumn is 
