@@ -24,7 +24,8 @@ The **`<style>`** element allows developer to add [CSS](https://www.codecademy.c
   </style>
 </head>
 ```
-The `<style>` element must be included inside the `<head>` section of the document. All CSS styles follow the same [anatomy](https://www.codecademy.com/resources/docs/css/anatomy) for rulesets and declarations like external stylesheets.
+
+The `<style>` element must be included inside the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element of the document. All CSS styles follow the same [anatomy](https://www.codecademy.com/resources/docs/css/anatomy) for rulesets and declarations like external stylesheets.
 
 The following attributes are available to the `<style>` element:
 
