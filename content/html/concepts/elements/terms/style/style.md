@@ -1,5 +1,5 @@
 ---
-Title: `<style>`
+Title: '<style>'
 Description: 'Applies CSS styles to an HTML document.'
 Subjects:
  - 'Web Development'
