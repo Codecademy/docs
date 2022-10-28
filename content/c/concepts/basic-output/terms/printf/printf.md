@@ -5,7 +5,8 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Strings'
+  - 'Print'
+  - 'Functions'
   - 'Console'
 CatalogContent:
   - 'learn-c'
