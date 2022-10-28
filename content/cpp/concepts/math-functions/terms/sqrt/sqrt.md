@@ -15,7 +15,7 @@ The **`sqrt()`** function returns the square root of the argument.
 
 ## Syntax
 
-```cpp
+```pseudo
 sqrt(x)
 ```
 

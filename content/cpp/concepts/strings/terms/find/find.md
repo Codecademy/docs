@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`.find()`** method returns the index of the first occurrence of the specified string or character. If no result is found, `string::npos` is returned instead.
 
-**Note:** `string::npos` will often be shown as the highest possible value of type `size_t`.
+> **Note:** `string::npos` will often be shown as the highest possible value of type `size_t`.
 
 ## Syntax
 

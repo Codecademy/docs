@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions. In order to use them, we have to import the required library using #include. Here we are getting a function named sqrt() from the  library: cpp int main() { std::cout << sqrt(10); // Output: 3.16228'
+Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -18,9 +18,9 @@ A **function** is a set of statements that are executed together when the functi
 
 ## Built-in Functions
 
-C++ has many built-in functions. In order to use them, we have to import the required library using `#include`.
+C++ has many built-in functions. In order to use them, wthe required library has to be impored using `#include`.
 
-Here we are getting a function named `sqrt()` from the `<cmath>` library:
+Here a function named `sqrt()` is made available from the `<cmath>` library:
 
 ```cpp
 #include <iostream>
@@ -65,7 +65,7 @@ void blah()
 
 ## Void Functions
 
-In C++, if we declare the type of a function as `void`, it does not return a value. These functions are useful for a set of statements that do not require returning a value.
+In C++, if the type of a function is declared as `void`, it does not return a value. These functions are useful for a set of statements that do not require returning a value.
 
 ```cpp
 #include <iostream>
@@ -108,7 +108,7 @@ int sum(int a, int b)
 
 C++ functions typically have two parts: declaration and definition.
 
-Function declarations are generally stored in a header file (**.hpp** or **.h**) and function definitions (body of the function that defines how it is implemented) are written in the **.cpp** file.
+Function declarations are generally stored in a header file (`.hpp` or `.h`) and function definitions (body of the function that defines how it is implemented) are written in the `.cpp` file.
 
 ### main.cpp
 

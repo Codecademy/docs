@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`exp()`** function returns the base-_e_ exponential value of the argument (i.e., _e_ raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
+The **`exp()`** function returns the base-`e` exponential value of the argument (i.e., `e` raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.
 
 ## Syntax
 

@@ -1,6 +1,6 @@
 ---
 Title: 'Methods'
-Description: 'C++ class methods are user-defined functions that can be used within an instance of the class. We use a . before method names to distinguish them from regular functions.'
+Description: 'C++ class methods are user-defined functions that can be used within an instance of the class. A dot noation is used before method names to distinguish them from regular functions.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ class **methods** are user-defined functions that can be used within an instance of the class. We use a dot notation `.` before method names to distinguish them from regular functions.
+C++ class **methods** are user-defined functions that can be used within an instance of the class. A dot notation `.` is used before method names to distinguish them from regular functions.
 
 ## Class Methods
 

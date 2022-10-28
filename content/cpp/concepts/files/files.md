@@ -50,7 +50,7 @@ int main()
 }
 ```
 
-In the same folder, there should be a new text file called **journal.txt**. There should be two lines of text inside:
+In the same folder, there should be a new text file called `journal.txt`. There should be two lines of text inside:
 
 ```pseudo
 Today is the greatest
@@ -61,7 +61,7 @@ Day I've ever known
 
 To read from a file, use either the `ifstream` or `fstream` class, and the name of the file.
 
-Note that we also use a `while` loop together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
+> **Note:** A `while` loop is used together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
 
 ```cpp
 #include <iostream>

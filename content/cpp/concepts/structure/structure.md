@@ -88,7 +88,7 @@ x2 = 0, y2 = 1
 
 ## Array of Structure
 
-Like other primitive data types, we can create an array of structures.
+Like other primitive data types, an array of structures can be created.
 
 An example of array of structure:
 

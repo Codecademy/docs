@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an **enumeration (enum)** is a user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
+In C++, an **enumeration (enum)** is a user defined type where a set of values is specified for a variable and the variable can only take one out of a small set of possible values.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Here'a another example where one of the constants is assigned a value:
 enum grade {freshman=9, sophomore, junior, senior};
 ```
 
-The enumerator `freshman` is assigned the value 9. Subsequent enumerators, if they are not given an explicit value, receive the value of the previous enumerator plus one.
+The enumerator `freshman` is assigned the value `9`. Subsequent enumerators, if they are not given an explicit value, receive the value of the previous enumerator plus one.
 
 So here:
 

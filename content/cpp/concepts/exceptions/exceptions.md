@@ -1,6 +1,6 @@
 ---
 Title: 'Exceptions'
-Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if you try to access an index outside the allowable bounds. codebyte/cpp std::string getString(std::string values[], int index) { return values[index]; } int main() {'
+Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -18,7 +18,7 @@ In C++, an **exception** is the computer's response to a problem that occurs whi
 
 ## Catching an Exception
 
-The function `getString()` as defined below will throw an exception if you try to access an index outside the allowable bounds.
+The function `getString()` as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed.
 
 ```codebyte/cpp
 #include <iostream>
@@ -41,7 +41,7 @@ int main()
 }
 ```
 
-Errors, when uncaught, will cause your program to immediately stop. This behavior can be prevented by wrapping the code which might emit an error in a `try` block, and providing at least one `catch` block to execute if the code throws the error. Look at the improvement below:
+Errors, when uncaught, will cause a program to immediately stop. This behavior can be prevented by wrapping the code which might emit an error in a `try` block, and providing at least one `catch` block to execute if the code throws the error. Look at the improvement below:
 
 ```codebyte/cpp
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 }
 ```
 
-This example also names the exceptions so that you might access the exception during the catch block. If the exception is of type `std::exception` (or one of the classes which inherit from it), you can call `.what()` on the caught exception to read the error message.
+This example also names the exceptions so that the exception may be accessed during the catch block. If the exception is of type `std::exception` (or one of the classes which inherit from it), `.what()` can be called on the caught exception to read the error message.
 
 ## Throwing an Exception
 
