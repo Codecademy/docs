@@ -32,7 +32,8 @@ The following example showcases the `round()` function being applied to two `dou
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double num1 = 9.23;
   double result1;
   result1 = std::round(num1);
@@ -62,7 +63,8 @@ The following example is runnable and rounds the halfway case away from zero:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double num = 10.89;
   double result;
   result = std::round(num);
