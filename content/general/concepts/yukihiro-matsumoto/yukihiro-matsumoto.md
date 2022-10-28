@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-![Yukihiro Matsumoto (Matz)](https://raw.githubusercontent.com/Codecademy/docs/main/media/Yukihiro_Matsumoto.png
+![Yukihiro Matsumoto (Matz)](https://raw.githubusercontent.com/Codecademy/docs/main/media/Yukihiro_Matsumoto.png)
 
 **Yukihiro "Matz" Matsumoto** (1965-present) is a software programmer and computer scientist widely known for his work as the chief designer of the [Ruby](https://www.codecademy.com/resources/docs/ruby) programming language. Blending parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and Lisp), Matz formed Ruby into "a language of careful balance." As one of Japan's [open source](https://www.codecademy.com/resources/docs/open-source) evangelists, he has released products like [mruby](https://github.com/mruby/mruby) (a lightweight version of Ruby).
 
