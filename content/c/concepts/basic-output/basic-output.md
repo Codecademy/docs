@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In the C language, **basic console output** is achieved using functions from the "standard input output" header file (**stdio.h**).
+In the C language, **basic console output** is achieved using functions from the "standard input output" header file (`stdio.h`).
 
 ## Header File
 
