@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-cyber-attack/" />
 
-Cyber attacks are attempts to disrupt or disable computer systems or steal valuable data. They will usually result in a violation of one of the principles of the CIA Triad:
+**Cyber attacks** are attempts to disrupt or disable computer systems or steal valuable data. They will usually result in a violation of one of the principles of the CIA Triad:
 
 - Confidentiality
 - Integrity
