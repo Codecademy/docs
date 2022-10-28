@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`putchar()`** function, or "put character" function prints a char to `stdout`, normally the console
+The **`putchar()`**, or "put character", function prints a single character to `stdout` (normally the console).
 
 ## Syntax
 
