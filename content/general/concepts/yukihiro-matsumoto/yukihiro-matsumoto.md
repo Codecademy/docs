@@ -9,8 +9,8 @@ Tags:
   - 'Ruby'
   - 'Open Source'
 CatalogContent:
-- 'learn-ruby'
-- 'paths/code-foundations'
+  - 'learn-ruby'
+  - 'paths/code-foundations'
 ---
 
 ![Yukihiro Matsumoto (Matz)](https://raw.githubusercontent.com/Codecademy/docs/main/media/Yukihiro_Matsumoto.png
