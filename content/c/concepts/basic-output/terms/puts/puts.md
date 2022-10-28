@@ -17,7 +17,7 @@ The **`puts()`**, or "put string", function prints a [string](https://www.codeca
 ## Syntax
 
 ```pseudo
-putchar(char)
+puts(str)
 ```
 
 The `puts()` function takes a `str` argument and prints it, adding a newline character at the end of it.
