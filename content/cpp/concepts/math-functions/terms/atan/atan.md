@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse tangent of the argument in radians.
+The **`atan()`** function returns the inverse tangent of the argument in radians.
 
 ## Syntax
 
-```py
+```pseudo
 atan(n)
 ```
 
@@ -27,7 +27,8 @@ Use `atan()` to return the inverse tangent of `0.0`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 0.0;
   double result;
 

@@ -1,6 +1,6 @@
 ---
 Title: 'RegExp'
-Description: 'The RegExp object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string. A RegExp object can also have flags set along with a pattern to change how matches are performed. There are two methods of creating a RegExp object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the RegExp constructor which takes the pattern as the first argument and any flags as the second. javascript // Using literal notation let re1 = /foo?/i; // Using RegExp constructor'
+Description: 'The RegExp object is used for matching strings with Regular Expressions, which is a special string pattern that uses various character sequences to match a character sequence or pattern in other strings.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -20,7 +20,7 @@ A `RegExp` object can also have flags set along with a pattern to change how mat
 
 There are two methods of creating a `RegExp` object. The first method is literal notation using slashes to delimit the pattern, followed by any flags. The second method uses the `RegExp` constructor which takes the pattern as the first argument and any flags as the second.
 
-```javascript
+```pseudo
 // Using literal notation
 let re1 = /foo?/i;
 
@@ -85,7 +85,7 @@ When specified, these flags change the default match behavor of the `RegExp` obj
 
 Usage:
 
-```javascript
+```js
 let re1 = /foo?/gim;
 let re2 = new RegExp('foo?', 'gim');
 
@@ -98,7 +98,7 @@ The following characters are used to define a Regular Expression string.
 
 ### Assertions
 
-The following match the boundries between characters, not the characters themselves.
+The following match the boundaries between characters, not the characters themselves.
 
 | Characters | Meaning                                                                                                                                                                  |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -118,7 +118,7 @@ The following match a character or expression based on what follows or precedes 
 
 #### Examples
 
-```javascript
+```js
 let str = 'Sally sells seashells by the seashore';
 
 let re = /s(?=e)/gi;
@@ -164,7 +164,7 @@ Character classes specify a given type of character to match.
 
 #### Examples
 
-```javascript
+```js
 let str = '2001: A Space Odyssey';
 
 let re = /\W/gi;
@@ -184,24 +184,24 @@ console.log(str.replace(re, 'x'));
 
 Indicate groups and ranges of characters to match.
 
-| Characters                           | Meaning                                                                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| `x                                   | y`                                                                                                                                                | Matches either `x` or `y`. |
-| `[xyz]`                              | Matches the character `x`, `y` or `z`.                                                                                                            |
-| `[a-c]`                              | Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\*                                                              |
-| `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                |
-| `[^a-c]`                             | Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*                                                   |
-| `(x)`                                | Matches `x` and remembers the match, capturing the group.                                                                                         |
-| <code>\\<i>n</i></code>              | Where <code><i>n</i></code> is a positive integer, represents a back refrence to the last substring matching the _n<sup>th</sup>_ captured group. |
-| <code>(?&lt;<i>Name</i>&gt;x)</code> | Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.                                 |
-| <code>\\k&lt;<i>Name</i>&gt;</code>  | Represents a back refrence to the last substring matched in the named capturing group specified by <code><i>Name</i></code>.                      |
-| `(?:x)`                              | Represents a non-capturing group. Matches `x` but does not remember the match.                                                                    |
+| Characters                           | Meaning                                                                                                                                            |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| `x                                   | y`                                                                                                                                                 | Matches either `x` or `y`. |
+| `[xyz]`                              | Matches the character `x`, `y` or `z`.                                                                                                             |
+| `[a-c]`                              | Matches the character that falls between `a` and `c` inclusive (`a`, `b` and `c`).\*                                                               |
+| `[^xyz]`                             | Matches the character that is not `x`, `y` or `z`.                                                                                                 |
+| `[^a-c]`                             | Matches the character that does not fall between `a` and `c` inclusive (not `a`, `b` or `c`).\*                                                    |
+| `(x)`                                | Matches `x` and remembers the match, capturing the group.                                                                                          |
+| <code>\\<i>n</i></code>              | Where <code><i>n</i></code> is a positive integer, represents a back reference to the last substring matching the _n<sup>th</sup>_ captured group. |
+| <code>(?&lt;<i>Name</i>&gt;x)</code> | Matches `x` and stores it in the groups property of the returned matches under the name <code><i>Name</i></code>.                                  |
+| <code>\\k&lt;<i>Name</i>&gt;</code>  | Represents a back reference to the last substring matched in the named capturing group specified by <code><i>Name</i></code>.                      |
+| `(?:x)`                              | Represents a non-capturing group. Matches `x` but does not remember the match.                                                                     |
 
 \* If the hyphen falls at the start or end of the sequence in brackets, it is treated as a literal hyphen.
 
 #### Examples
 
-```javascript
+```js
 let str = 'Peter Piper picked a peck of pickled peppers.';
 
 let re = /[aeiou]/gi;
@@ -234,8 +234,8 @@ By default, these quatifiers are greedy, matching as much of the string as possi
 
 #### Examples
 
-```javascript
-let str = 'Billy bought a bushel of blue baloons.';
+```js
+let str = 'Billy bought a bushel of blue balloons.';
 
 let re = /b.?l+/gi;
 console.log(str.replace(re, 'x'));
