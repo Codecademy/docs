@@ -49,4 +49,4 @@ Just-in-time compilers can produce customized machine code based on run-time dat
 
 ## Platform Dependent And Independent Optimizations 
 
-Optimization in programming or code optimization can be categorized as both platform-dependent and platform-independent techniques. While the latter ones are effective on most or all platforms, platform-dependent techniques use specific properties of one platform, or rely on parameters depending on the single platform or even on the single processor. Writing or producing different versions of the same code for different processors might therefore be needed.
+**Optimization in programming or code optimization** can be categorized as both platform-dependent and platform-independent techniques. While the latter ones are effective on most or all platforms, platform-dependent techniques use specific properties of one platform, or rely on parameters depending on the single platform or even on the single processor. Writing or producing different versions of the same code for different processors might therefore be needed.
