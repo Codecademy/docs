@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`printf()`** function can print a string to the console, including variables within the string.
+The **`printf()`**, or "print formatted", function can print a string to the console, including variables within the string.
 
 ## Syntax
 
