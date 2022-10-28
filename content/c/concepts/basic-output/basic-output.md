@@ -1,7 +1,6 @@
 ---
 Title: 'Basic Output'
-Description: 'In the C language the console output is managed by the library stdio.h which has to be included.
-Thanks to that a functions that target the C console, like putchar(), can be used.'
+Description: 'Basic console output is managed by the standard header file for input and output in C.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
