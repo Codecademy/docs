@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-An **image** can be used to enhance the aesthetic of the [user interface (UI)] (https://www.codecademy.com/resources/docs/uiux) and can be functional when used correctly.
+An **`Image`** view is used to enhance the aesthetic of the [user interface (UI)] (https://www.codecademy.com/resources/docs/uiux) and can be functional when used correctly.
 
 ## Syntax
 
