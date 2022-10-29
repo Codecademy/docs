@@ -21,10 +21,9 @@ Class and functional components handle state differently. Functional components 
 
 ## Syntax
 
-### With Constructor
-
-```js
+```pseudo
 class ComponentName extends React.Component {
+  /* With constructor */
   constructor(props) {
     super(props);
     this.state = {
@@ -32,23 +31,11 @@ class ComponentName extends React.Component {
     };
   }
 
-  render() {
-    return (
-      /* value of property is rendered */
-      <div>{this.state.property}</div>
-    );
-  }
-}
-```
-
-### With Property Initializers
-
-```js
-class ComponentName extends React.Component {
+  /* With property initializer
   state = {
     property: value,
   };
-
+  
   render() {
     return (
       /* value of property is rendered */
@@ -57,12 +44,17 @@ class ComponentName extends React.Component {
   }
 }
 ```
+
+The snippet above features two common ways of initializing state in a class component:
+
+- The `constructor()` method assigns a new object to `this.state`.
+- A `state` object is directly assigned with property initializers.
 
 ## Example
 
 The following example initializes the `state` object in the component's `constructor()` and returns its value in the `render()` method:
 
-```js
+```jsx
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -90,13 +82,11 @@ class Car extends React.Component {
 }
 ```
 
-## Using Property Initializers
+With property initializers, it is not necessary to set state or bind methods in the constructor:
 
-With Property Initializers it is not necessary to set state or bind methods in the constructor:
-
-```js
+```jsx
 class Car extends React.Component {
-  // no need to set state in constructor
+  /* no need to use constructor */
   state = {
     brand: 'Chevrolet',
     model: 'Malibu',
@@ -104,19 +94,7 @@ class Car extends React.Component {
     year: 1998,
   };
 
-  render() {
-    return (
-      <div>
-        <h1 onClick={this.upgrade}>My First Car</h1>
-        <p>
-          It is a {this.state.color}
-          {this.state.brand}
-          {this.state.model}
-          made in {this.state.year}. 🚙
-        </p>
-      </div>
-    );
-  }
+  /* same renderd JSX */
 }
 ```
 
@@ -124,4 +102,4 @@ It will appear like this:
 
 ![React State Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/react-state-example.png)
 
-> **Note:** When React component’s state is updated, it will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
+> **Note:** When the state is updated, the component will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
