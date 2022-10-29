@@ -15,7 +15,7 @@ The **`trunc()`** function rounds the specified argument towards zero and return
 
 ## Syntax
 
-```cpp
+```pseudo
 std::trunc(x);
 ```
 
