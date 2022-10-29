@@ -1,1 +1,1 @@
-content/javascript/concepts/objects/objects.md
+content/java/concepts/enums/enums.md
