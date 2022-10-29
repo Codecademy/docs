@@ -52,7 +52,7 @@ A couple highlights for the MERN stack include the full-stack JavaScript nature 
 
 ### MEAN Stack
 
-The MERN stack is popular for a number of reasons, a couple being that both the front-end and back-end are programmed in JavaScript and that the entire stack is open-source.
+The MEAN stack is popular for a number of reasons, a couple being that both the front-end and back-end are programmed in JavaScript and that the entire stack is open-source.
 
 - MongoDB: NoSQL database that uses JSON (BSON)
 - Express.js: Back-end framework for Node.js applications.
