@@ -35,6 +35,8 @@ int main() {
 }
 ```
 
+This will produce the following output:
+
 ## Codebyte Example
 
 The following example uses the `trunc()` function to round `12.3456` towards zero returning the value `12`:
