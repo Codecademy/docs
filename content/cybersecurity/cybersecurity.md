@@ -14,7 +14,7 @@ CatalogContent:
 - Educating a company's stakeholders on the importance of cyber and information security.
 - Planning in disaster recovery and responses to cybersecurity breaches.
 - Closing gaps in network security and mitigating vulnerabilities.
-- Defending against various [cyber-attacks](https://www.codecademy.com/resources/docs/general/cyber-attack).
+- Defending against various [cyber-attacks](https://www.codecademy.com/resources/docs/cybersecurity/cyber-attack).
 
 As a concept, cybersecurity covers everything from network and application security to operational security and business continuity.
 
