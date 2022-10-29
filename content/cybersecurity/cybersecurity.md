@@ -1,16 +1,10 @@
 ---
 Title: 'Cybersecurity'
 Description: 'Cybersecurity is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information.'
-Subjects:
-  - 'Computer Science'
-  - 'Cybersecurity'
-Tags:
-  - 'Cybersecurity'
-  - 'Encoding'
-  - 'Validation'
+Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/cybersecurity'
 CatalogContent:
   - 'introduction-to-cybersecurity'
-  - 'paths/securing-express-applications'
+  - 'paths/fundamentals-of-cybersecurity'
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-cybersecurity/" />
