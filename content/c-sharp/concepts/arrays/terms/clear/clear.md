@@ -27,7 +27,7 @@ Array.Clear(myArray, index, N);
 
 ## Example
 
-The following example initalizes `myArray` with values, then clears it:
+The following example initializes `myArray` with values, then clears it:
 
 ```cs
 using System;
