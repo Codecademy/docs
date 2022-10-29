@@ -61,7 +61,7 @@ The MEAN stack is popular for a number of reasons, a couple being that both the 
 
 ### LAMP Stack
 
-Hightlights for the LAMP stack include the use of Linux as well as MySQL, two popular open-source projects.
+Highlights for the LAMP stack include the use of Linux as well as MySQL, two popular open-source projects.
 
 - [Linux](https://www.codecademy.com/resources/docs/general/linux): Open-source operating system.
 - Apache: Popular open-source web server software.
