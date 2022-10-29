@@ -92,7 +92,7 @@ C# has the following comparison operators:
 
 - Equal, `==`, for returning `true` if two values are equal.
 - Not equal, `!=`, for returning `true` if two values are not equal.
-- Less than, `<`, for returning `true` if left value less than right value.
+- Less than, `<`, for returning `true` if the left value is less than the right value.
 - Less than or equal to, `<=`, for returning `true` if left value is less than or equal to right value.
 - Greater than, `>`, for returning `true` if left value greater than right value.
 - Greater than or equal to, `>=`, for returning `true` if left value greater than or equal to right value.
