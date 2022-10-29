@@ -70,7 +70,7 @@ Highlights for the LAMP stack include the use of Linux as well as MySQL, two pop
 
 ### Django Stack
 
-Highlights for this stack include Python's relative easiness to learn and Django's ability to simplify building templates.
+Highlights for this stack include the use of the Python, and the Django framework, a popular web development platform that is structured around creating templates.
 
 - [Python](https://www.codecademy.com/learn/learn-python-3): Increasingly popular programming language known for its readability & versatility.
 - [Vue](https://www.codecademy.com/learn/learn-vue-js) (does not necessarily have to be Vue): Front-end framework.
