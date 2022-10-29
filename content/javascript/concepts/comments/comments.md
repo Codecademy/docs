@@ -31,7 +31,7 @@ console.log(5); // Prints 5
 
 ## Multi-line Comments
 
-Multi-line comments are created by surrounding the lines with `/*` at the beginning and `*/` at the end. Comments are good ways for a variety of reasons like explaining a code block or indicating some hints, etc.
+Multi-line comments are created by surrounding the lines with `/*` at the beginning and `*/` at the end. Comments are good for a variety of reasons like explaining a code block or indicating some hints, etc.
 
 ```js
 /*  
