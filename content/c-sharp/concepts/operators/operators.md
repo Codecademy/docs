@@ -105,7 +105,7 @@ C# has the following operators that perform operations on the individual bits of
 
 - Bitwise complement, `~`, reverses each bit in a number.
 - Left-shift, `<<`, shifts its left operand left by the number of bits specified in its right operand. New right positions are zero-filled.
-- Right-shift, `>>`, shifts its left operand right by the number of bits specified in its right operand. For signed integers, left positions are filled with the value of the high order bit. For unsigned integers, left positions are filled with zero.
+- Right-shift, `>>`, shifts its left operand right by the number of bits specified in its right operand. For signed integers, left positions are filled with the value of the high-order bit. For unsigned integers, left positions are filled with zero.
 - Unsigned right-shift, `>>>`, same as `>>` except left positions are always zero-filled.
 - Logical AND, `&`, performs a bitwise logical AND of its operands.
 - Logical OR, `|`, performs a bitwise logical OR on its operands.
