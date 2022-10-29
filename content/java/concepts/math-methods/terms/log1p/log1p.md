@@ -56,7 +56,7 @@ The result of log1p(0.0) is: 0.0
 
 ## Codebyte Example
 
-The following example is runnable and return `ln (a + 1)`:
+The following example is runnable and returns `ln (a + 1)`:
 
 ```codebyte/java
 import java.lang.Math;
