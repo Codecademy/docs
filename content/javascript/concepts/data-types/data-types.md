@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Data types** are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types. 
+**Data types** are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.
 
-## Primitive Data Types 
+## Primitive Data Types
 
 JavaScript uses seven primitive data types that are listed in the table below:
 
@@ -34,7 +34,7 @@ JavaScript uses seven primitive data types that are listed in the table below:
 
 [Objects](https://www.codecademy.com/resources/docs/javascript/objects) are a little more complex since they are collections of related data.
 
-**Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).    
+**Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
 ## Number and BigInt
 
