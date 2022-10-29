@@ -1,5 +1,5 @@
 ---
-Title: 'Just-In-Time (JIT) Compilation'
+Title: 'JIT Compilation'
 Description: 'Just-In-Time (JIT) compilation is a system for compiling languages as they are executed, rather than compiling prior to execution.'
 Subjects:
   - 'Developer Tools'
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Just-In-Time (JIT) compilation is a system for compiling languages as they are executed, rather than compiling prior to execution. In JIT compilation, the compiling happens during [runtime](https://www.codecademy.com/resources/docs/general/runtime).
+**Just-In-Time (JIT) compilation** is a system for compiling languages as they are executed, rather than compiling prior to execution. In JIT compilation, the compiling happens during [runtime](https://www.codecademy.com/resources/docs/general/runtime).
 
-JIT compilation can be thought of as a combination of compiled and interpreted languages. Traditionally, compiled languages are languages where the computer translates the code that comprises a program prior to execution. Interpreted languages are not translated by the computer. Instead, they use an interpreter to read and execute the code directly. [C](https://www.codecademy.com/resources/docs/c) is an example of a traditionally compiled language, and [Python](https://www.codecademy.com/resources/docs/python) is an example of an interpreted language. JIT compilation is a mixture of these two methods; code is directly compiled into [machine code](https://www.codecademy.com/resources/docs/general/machine-code) at runtime.
+JIT compilation can be thought of as a combination of compiled and interpreted languages. Traditionally, compiled languages are languages where the computer translates the code that comprises a program prior to execution. Interpreted languages are not translated by the computer. Instead, they use an interpreter to read and execute the code directly. [C](https://www.codecademy.com/resources/docs/c) is an example of a traditionally compiled language, and [Python](https://www.codecademy.com/resources/docs/python) is an example of an interpreted language. JIT compilation is a mixture of these two methods; source code is directly compiled into [machine code](https://www.codecademy.com/resources/docs/general/machine-code) at runtime.
 
 ## Use Cases for JIT compilation
 
