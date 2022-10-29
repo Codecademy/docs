@@ -20,15 +20,15 @@ CatalogContent:
 
 JavaScript uses seven primitive data types that are listed in the table below:
 
-| Data Type | Wrapper Object   | Description                                                                                                                                   |
-|-----| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `number` | [`Number`](https://www.codecademy.com/resources/docs/javascript/number-methods)    | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                         |
-| `bigint` | `BigInt`    | Any number, greater than 2<sup>53-1</sup> or less than -(2<sup>53-1</sup>) with `n` appended to the number: `1234567890123456n`.                                  |
-| `string` | [`String`](https://www.codecademy.com/resources/docs/javascript/strings)    | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single `''` or double `""`. |
-| `boolean` | `Boolean`   | This data type only has two possible values — either `true` or `false`.                                                                       |
-| `null` | None      | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                       |
-| `undefined` | None | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`.    |
-| `symbol` | `Symbol`    | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.         |
+| Data Type   | Wrapper Object                                                                  | Description                                                                                                                                |
+| ----------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `number`    | [`Number`](https://www.codecademy.com/resources/docs/javascript/number-methods) | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                      |
+| `bigint`    | `BigInt`                                                                        | Any number, greater than 2<sup>53-1</sup> or less than -(2<sup>53-1</sup>) with `n` appended to the number: `1234567890123456n`.           |
+| `string`    | [`String`](https://www.codecademy.com/resources/docs/javascript/strings)        | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single `''` or double `""`.            |
+| `boolean`   | `Boolean`                                                                       | This data type only has two possible values — either `true` or `false`.                                                                    |
+| `null`      | None                                                                            | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                    |
+| `undefined` | None                                                                            | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`. |
+| `symbol`    | `Symbol`                                                                        | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.      |
 
 ## Objects
 
