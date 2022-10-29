@@ -1,6 +1,6 @@
 ---
 Title: 'abs()'
-Description: 'Takes in a numeric data type such as int or float and returns the absolute value of the argument.'
+Description: 'Returns the absolute value of a numeric argument.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -10,39 +10,37 @@ Tags:
   - 'Strings'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
   - 'paths/data-science'
 ---
 
-Takes in a numeric data type such as `int` or `float` and returns the absolute value of the argument.
+The `abs()` function returns the absolute value of a numeric argument.
 
 ## Syntax
 
-```py
+```pseudo
 abs(n)
 ```
 
-## Example 1
+Where n is a real number, for example an int or float, that will have its absolute value taken. The absolute value of n will be the non-negative value of n, a positive value will remain unchanged and a negative value will have its negative sign removed.
 
-Use `abs()` to return the absolute value of `-6.5`:
+## Example
 
-```py
-print(abs(-6.5))
-# Output: 6.5
-```
-
-## Example 2
-
-Use `abs()` to return the absolute value of `15`:
+In this example code, let's set up two variables; one positive number and one negative number; and print() the two.
 
 ```py
-print(abs(15))
-# Output: 15
+positive = 10
+negative = -3.5
+
+print(abs(positive))
+# Output: 10
+
+print(abs(negative))
+# Output: 3.5
 ```
 
-## Example 3
+## Codebyte Example
 
-Use `abs()` to return the absolute value of the `numbers` list:
+The following example returns the absolute value from each element in the `numbers` list:
 
 ```codebyte/python
 numbers = [-19.2, 27.3, 48, -115, 302.7, -421, -2011]
