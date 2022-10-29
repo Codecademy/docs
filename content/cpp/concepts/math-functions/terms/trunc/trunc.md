@@ -19,6 +19,8 @@ The **`trunc()`** function rounds the specified argument towards zero and return
 std::trunc(x);
 ```
 
+The `x` parameter is the value to be truncated.
+
 ## Example
 
 ```cpp
