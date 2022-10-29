@@ -40,7 +40,7 @@ C# has the following arithmetic operators:
 - Subtraction, `-`, returns the difference between two numbers.
 - Multiplication, `*`, returns the product of two numbers.
 - Division, `/`, returns the quotient of two numbers.
-- Modulus, `%`, which returns the remainder of one number divided by another.
+- Modulus, `%`, returns the remainder of one number divided by another.
 
 The above operate on two values. C# also has two unary operators:
 
