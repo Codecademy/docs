@@ -46,11 +46,11 @@ The following example uses the `trunc()` function to round `12.3456` towards zer
 #include <cmath>
 
 int main() {
-    double n = 12.3456;
-    double result;
+  double n = 12.3456;
+  double result;
 
-    result = std::trunc(n);
+  result = std::trunc(n);
 
-    std::cout << "The result is " << result << "!\n";
+  std::cout << "The result is " << result << "!\n";
 }
 ```
