@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`trunc()`** function rounds the specified argument towards zero and returns the nearest integral value not larger in magnitude than the argument. The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value can be `double`, `float`, or `long double`. 
+The **`trunc()`** function rounds the specified argument towards zero and returns the nearest integral value not larger in magnitude than the argument. The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value can be `double`, `float`, or `long double`.
 
 ## Syntax
 
@@ -38,7 +38,11 @@ int main() {
 ```
 
 This will produce the following output:
-
+  
+  ```pseudo
+  Output: trunc(-3.14159) = -3
+  ```
+  
 ## Codebyte Example
 
 The following example uses the `trunc()` function to round `12.3456` towards zero returning the value `12`:
