@@ -1,6 +1,6 @@
 ---
 Title: 'Operators'
-Description: 'C++ supports different types of arithmetic operators that can perform common mathematical operations: - + addition - - subtraction - * multiplication - / division - % modulo (yields the remainder) cpp'
+Description: 'C++ supports different types of operators such as arithmetic, relational, and logical operators.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,9 +14,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+C++ supports different types of **operators** such as arithmetic, relational, and logical operators.
+
 ## Arithmetic Operators
 
-C++ supports different types of arithmetic operators that can perform common mathematical operations:
+Arithmetic operators can be used to perform common mathematical operations:
 
 - `+` addition
 - `-` subtraction
@@ -36,7 +38,7 @@ x = 4 % 2;  // x is now 0
 
 ## Relational Operators
 
-Relational operators are used to compare two values and return true or false depending on the comparison:
+Relational operators can be used to compare two values and return true or false depending on the comparison:
 
 - `==` equal to
 - `!=` not equal to
@@ -46,8 +48,9 @@ Relational operators are used to compare two values and return true or false dep
 - `<=` less than or equal to
 
 ```cpp
-if (a > 10) {
-   // ☝️ means greater than
+if (a > 10)
+{
+  // ☝️ means greater than
 }
 ```
 
@@ -60,15 +63,18 @@ Logical operators can be used to combine two different conditions.
 - `!` negates the result (`not`)
 
 ```cpp
-if (coffee > 0 && donut > 1) {
+if (coffee > 0 && donut > 1)
+{
   // Code runs if both are true
 }
 
-if (coffee > 0 || donut > 1) {
+if (coffee > 0 || donut > 1)
+{
   // Code runs if either is true
 }
 
-if (!tired) {
+if (!tired)
+{
   // Code runs if tired is false
 }
 ```

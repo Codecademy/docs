@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Booleans hold a true or false value and are mostly used in conditional statements to control a program's flow of execution. This data type is named after George Boole, a 19th century English logician.
+A **boolean** holds a true or false value and are mostly used in conditional statements to control a program's flow of execution. This data type is named after George Boole, a 19th century English logician.
 
 Some languages use comparison operators such as:
 
