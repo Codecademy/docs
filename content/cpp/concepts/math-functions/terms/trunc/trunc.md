@@ -26,13 +26,12 @@ std::trunc(x);
 #include <cmath>
 
 int main() {
-    double x = -3.14159;
-    double result;
+  double x = -3.14159;
+  double result;
 
-    result = std::trunc(x);
+  result = std::trunc(x);
 
-    std::cout << "trunc(" << x << ") = " << result << "\n";
-    // Output: trunc(3.14159) = -3
+  std::cout << "trunc(" << x << ") = " << result << "\n";
 }
 ```
 
