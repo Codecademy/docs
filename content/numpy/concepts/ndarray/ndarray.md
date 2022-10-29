@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-An `ndarray` is a multi-dimensional array of items of the same type and size. The number of dimensions and items contained in the array is defined with a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) of N non-negative integers that specify each dimension's size. An `ndarray` has an associated data-type object which specifies the `dtype` stored in the `ndarray`.
+An **`ndarray`** is a multi-dimensional array of items of the same type and size. The number of dimensions and items contained in the array is defined with a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) of N non-negative integers that specify each dimension's size. An `ndarray` has an associated data-type object which specifies the `dtype` stored in the `ndarray`.
 
 Like other container objects in Python, `ndarray` items can be accessed by indexing and slicing the array. There are also a large number of methods and attributes of the `ndarray` that can be used to access and manipulate its contents.
 
@@ -26,8 +26,8 @@ There are several routines for creating `ndarray` objects. These are preferred t
 
 |     Method      | Syntax                               | Description                                                                                                                                                                      |
 | :-------------: | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   `.empty()`    | `numpy.empty(shape,dtype)`           | Creates a `ndarray` of the given `shape` tuple, and the optional `dtype` (default is `numpy.float64`) with uninitalized values.                                                  |
-| `.empty_like()` | `numpy.empty_like(model,dtype)`      | Creates a `ndarray` based on the `shape` of the `model`, with the optional `dtype` (default is data type of `model`) with uninitalized values.                                   |
+|   `.empty()`    | `numpy.empty(shape,dtype)`           | Creates a `ndarray` of the given `shape` tuple, and the optional `dtype` (default is `numpy.float64`) with uninitialized values.                                                 |
+| `.empty_like()` | `numpy.empty_like(model,dtype)`      | Creates a `ndarray` based on the `shape` of the `model`, with the optional `dtype` (default is data type of `model`) with uninitialized values.                                  |
 |    `.ones()`    | `numpy.ones(shape,dtype)`            | Operates the same as `.empty()`, but initializes all the array elements with a value of one.                                                                                     |
 | `.ones_like()`  | `numpy.ones_like(model,dtype)`       | Operates the same as `.empty_like()`, but initializes all the array elements with a value of one.                                                                                |
 |   `.zeros()`    | `numpy.zeros(shape,dtype)`           | Operates the same as `.empty()`, but initializes all the array elements with a value of zero.                                                                                    |
