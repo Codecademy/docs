@@ -38,7 +38,7 @@ C# has the following arithmetic operators:
 
 - Addition, `+`, which returns the sum of two numbers.
 - Subtraction, `-`, returns the difference between two numbers.
-- Multiplication, `*`, which returns the product of two numbers.
+- Multiplication, `*`, returns the product of two numbers.
 - Division, `/`, which returns the quotient of two numbers.
 - Modulus, `%`, which returns the remainder of one number divided by another.
 
