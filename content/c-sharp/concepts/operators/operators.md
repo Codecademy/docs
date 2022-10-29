@@ -95,7 +95,7 @@ C# has the following comparison operators:
 - Less than, `<`, for returning `true` if the left value is less than the right value.
 - Less than or equal to, `<=`, for returning `true` if the left value is less than or equal to the right value.
 - Greater than, `>`, for returning `true` if the left value is greater than the right value.
-- Greater than or equal to, `>=`, for returning `true` if left value greater than or equal to right value.
+- Greater than or equal to, `>=`, for returning `true` if the left value is greater than or equal to the right value.
 
 > **Note:** for these comparison operators, if any operand is not a number (`Double.NaN` or `Single.NaN`) the result of the operation is `false`.
 
