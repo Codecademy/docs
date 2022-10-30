@@ -19,7 +19,7 @@ The **`.Length`** property returns the total number of elements in the array, in
 int myLength = myArray.Length;
 ```
 
-`myArray.Length()` returns an `int` that represents the number of elements in `myArray`.
+`myArray.Length` returns an `int` that represents the number of elements in `myArray`.
 
 ## Example
 
