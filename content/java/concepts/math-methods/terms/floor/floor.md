@@ -42,5 +42,5 @@ Values that are not a number will return the NaN value. Infinite values such as 
 
 ```pseudo
     Math.floor(2.0 % 0); // returns NaN
-    Math.floor(1 / 0); // returns Infinity
+    Math.floor(Double.POSITIVE_INFINITY); // returns Infinity
 ```
