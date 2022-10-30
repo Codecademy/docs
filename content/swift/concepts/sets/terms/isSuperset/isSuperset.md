@@ -1,6 +1,6 @@
 ---
 Title: '.isSuperset()'
-Description: 'Checks whether all elements of a set has every element of another set.'
+Description: 'Checks whether a set contains every element of another set.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
