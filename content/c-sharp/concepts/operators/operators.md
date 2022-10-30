@@ -36,7 +36,7 @@ Operators can be organized into the following groups:
 
 C# has the following arithmetic operators:
 
-Addition, `+`, returns the sum of two numbers.
+- Addition, `+`, returns the sum of two numbers.
 - Subtraction, `-`, returns the difference between two numbers.
 - Multiplication, `*`, returns the product of two numbers.
 - Division, `/`, returns the quotient of two numbers.
@@ -66,7 +66,7 @@ C# has the following logical operators:
 
 > **Note:** `&`,`|`, and `^` are logical operators when the operands are `bool` types. When the operands are numbers they perform bitwise operations. See **Bitwise Operators** below.
 
-There are also these conditional "short circuiting" operators:
+The above operators always evaluate both operands. There are also these conditional "short circuiting" operators:
 
 - The `&&` (conditional and) operator returns `true` if both operands are `true`. If the first operand is `false`, the second operand is not evaluated.
 - The `||` (conditional or) operator returns `true` if either operand is `true`. If the first operand is `true` the second operand is not evaluated.
@@ -103,7 +103,7 @@ C# has the following comparison operators:
 
 C# has the following operators that perform operations on the individual bits of a number.
 
-Bitwise complement, `~`, inverts each bit in a number.
+- Bitwise complement, `~`, inverts each bit in a number.
 - Left-shift, `<<`, shifts its left operand left by the number of bits specified in its right operand. New right positions are zero-filled.
 - Right-shift, `>>`, shifts its left operand right by the number of bits specified in its right operand. For signed integers, left positions are filled with the value of the high-order bit. For unsigned integers, left positions are filled with zero.
 - Unsigned right-shift, `>>>`, same as `>>` except left positions are always zero-filled.
