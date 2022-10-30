@@ -35,7 +35,7 @@ type[] arrayName = { value1, value2, value3, ... valueN };
 
 ## Example
 
-Each element in an array is assigned a specific index starting at zero. To access or modify an element in the array you may simply refer to it by its index and operate on it accordingly.
+Each element in an array is assigned a specific index starting at zero. To access or modify an element in the array, you refer to it by its index and operate on it accordingly.
 
 ```cs
 using System;
