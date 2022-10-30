@@ -15,7 +15,7 @@ An **array** is a data structure used in [C#](https://www.codecademy.com/resourc
 
 ## Syntax
 
-There are several different ways to create an array in C#:
+There are several ways to create an array in C#:
 
 ```pseudo
 // Create a variable of type "type[]" without initalizing it:
