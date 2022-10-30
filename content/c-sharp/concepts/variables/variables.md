@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **variable** refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.
+A **variable** is a storage location in the computer’s memory that is used to save, retrieve, and manipulate data.
 
 ## Syntax
 
