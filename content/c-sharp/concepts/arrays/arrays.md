@@ -60,4 +60,4 @@ In the example above, an array of `char`s was initialized with all the vowels. T
 
 ## Array Methods
 
-Arrays in C# are objects, not just contiguous blocks of memory as in C and C++. `Array` is the base type of all arrays, and any array can use the properties and methods of the `Array` object,  a few of which are listed below:
+Arrays in C# are objects, not just contiguous blocks of memory as in C and C++. `Array` is the base type of all arrays, and any array can use the properties and methods of the `Array` object, a few of which are listed below:
