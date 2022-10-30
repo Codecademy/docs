@@ -16,7 +16,7 @@ A **variable** is a storage location in the computer’s memory that is used to 
 
 ## Syntax
 
-Minimally a variable is declared by specifying a data type and a name:
+Minimally, a variable is declared by specifying a data type and a name:
 
 ```pseudo
 type name;
