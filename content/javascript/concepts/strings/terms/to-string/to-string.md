@@ -7,11 +7,11 @@ Tags:
  -  'Functions'
  -  'Strings'
 CatalogContent:
-  - 'learn-java'
+  - 'introduction-to-javascript'
   - 'paths/computer-science'
 ---
 
-The **`.toString()`** method converts the given object and returns its corresponding string representation.
+The **`.toString()`** method returns a string representation of a given value or object.
 
 ## Syntax
 
@@ -19,7 +19,7 @@ The **`.toString()`** method converts the given object and returns its correspon
 stringObject.toString()
 ```
 
-The `.toString()` method does not take any parameters.
+The `.toString()` method takes no parameters.
 
 > **Note:** This method can be called on numbers, arrays, and objects.
 
