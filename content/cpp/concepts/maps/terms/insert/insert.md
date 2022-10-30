@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Elements can be added to a map by inserting key-value pairs using the `.insert()` method.
+Elements can be added to a map by inserting key-value pairs using the **`.insert()`** method.
 
 ## Syntax
 
@@ -34,7 +34,8 @@ The following codebyte example inserts different mammals and their average lifes
 #include <iterator>
 #include <map>
 
-int main(){
+int main()
+{
   // Initializing  map
   std::map<std::string, int> lifeSpan;
 
@@ -49,9 +50,9 @@ int main(){
 
   // Printing elements of map
   for (iter = lifeSpan.begin(); iter != lifeSpan.end(); ++iter)
-    {
-      std::cout << '\t' << iter->first << '\t' << iter->second
-      << '\n';
-    }
+  {
+    std::cout << '\t' << iter->first << '\t' << iter->second
+    << '\n';
+  }
 }
 ```
