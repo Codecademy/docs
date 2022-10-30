@@ -38,7 +38,7 @@ In the case of double values, `Math.floor()` returns the next integer value belo
 
 ## Example 2
 
-Values that are not a number will return the NaN value. Infinite values such as one divided by zero will return infinity:
+Values that are not a number will return the NaN value. Infinite values will return infinity:
 
 ```pseudo
     Math.floor(2.0 % 0); // returns NaN
