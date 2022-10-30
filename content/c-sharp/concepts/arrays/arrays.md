@@ -56,7 +56,7 @@ public class Example
 }
 ```
 
-In the case above, an array of `char`s was initialized with all the vowels, and the first element in the array at index 0 was printed. Then, the element at index 0 was modified by assigning it a new value of `'r'`, which was printed out below.
+In the example above, an array of `char`s was initialized with all the vowels. The first element in the array at index 0 was printed. Then, the element at index 0 was modified by assigning it a new value of `'r'`. The value at index 0 was printed again and the results are shown below.
 
 ## Array Methods
 
