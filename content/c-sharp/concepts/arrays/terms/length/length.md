@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Length`** property returns the total number of elements in the array. This includes all dimensions of the array.
+The **`.Length`** property returns the total number of elements in the array, including all dimensions of the array.
 
 ## Syntax
 
