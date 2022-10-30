@@ -18,7 +18,7 @@ CatalogContent:
 
 ## Syntax
 
-The following code snippet uses the assignment operator, `=`, to set `my_variable` to the value of `num1` and `num2` with an arithmetic operator acting on them. For example, if `operator` represented `*`, `my_variable` would be assigned a value of `num1 * num2`.
+The following code snippet uses the assignment operator, `=`, to set `my_variable` to the value of `num1` and `num2` with an arithmetic operator operating on them. For example, if `operator` represented `*`, `my_variable` would be assigned a value of `num1 * num2`.
 
 ```pseudo
 my_variable = num1 operator num2;
