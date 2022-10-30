@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument.
+The **`Math.floor()`** method included in the `Math` class returns the largest integer value that is less than or equal to the argument.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ The return value is the same as `num` under the following conditions:
 
 ## Example 1
 
-In the case of double values, `.floor()` returns the next integer value below the provided double value. In the case of integers provided, these will return the same value as provided:
+In the case of double values, `Math.floor()` returns the next integer value below the provided double value. In the case of integers provided, these will return the same value as provided:
 
 ```pseudo
     Math.floor(3.9); // returns the integer 3
