@@ -23,7 +23,7 @@ Array.Clear(myArray);
 Array.Clear(myArray, index, N);
 ```
 
-`.Clear()` is a static method of the `Array` object. Used with just an array as an argument, it clears the whole array. It can also be called with an array, a start index, and a number, to clear that number of elements starting at the index.
+`.Clear()` is a static method of the `Array` object. When it is called with just an array as an argument, it clears the whole array. When it is called with an array, a start index, and a number, it clears the number amount of elements in the array starting from the start index.
 
 ## Example
 
