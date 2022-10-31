@@ -59,7 +59,7 @@ When using iterables, it is usually not necessary to call `iter()` or deal with 
 
 Run the two code examples below to see that they produce the same results :
 
-```codebyte/py
+```codebyte/python
 fruits = ['apple', 'orange', 'banana']
 
 print("Example with iter() and next() : ")
