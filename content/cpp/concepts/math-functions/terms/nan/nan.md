@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`nan()`** function in C++ returns a quiet `NaN` (Not-A-Number) value of type double.
+The **`nan()`** function in C++ returns a quiet `NaN` (not a number) value of type `double`.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ nan(x)
 
 ## Return value
 
-The nan() function returns quiet NaN value.
+The `nan()` function returns quiet NaN value.
 
 ## Example
 
@@ -35,14 +35,14 @@ The following example uses the `nan()` function to find the quiet NaN value :
 
 int main()
 {
-    double result = nan("1");
-    uint64_t dest;
-     // copies variable src to dest
-     // use <cstring> for memcpy()
-    memcpy(&dest, &src, sizeof src);
-    std::cout << "nan(\"1\") = " << result << " (" << hex << dest << ")\n";
+  double result = nan("1");
+  uint64_t dest;
+  // copies variable src to dest
+  // use <cstring> for memcpy()
+  memcpy(&dest, &src, sizeof src);
+  std::cout << "nan(\"1\") = " << result << " (" << hex << dest << ")\n";
 
-    return 0;
+  return 0;
 }
 ```
 
@@ -62,12 +62,12 @@ The following example is runnable and returns the quiet NaN value
 #include <cstring>
 
 int main() {
-    double result = nan("2");
-    uint64_t dest;
+  double result = nan("2");
+  uint64_t dest;
     
-    // copies variable src to dest
-    // use <cstring> for memcpy()
-    memcpy(&dest, &src, sizeof src);
-    std::cout << "nan(\"2\") = " << result << " (" << hex << dest << ")\n";
+  // copies variable src to dest
+  // use <cstring> for memcpy()
+  memcpy(&dest, &src, sizeof src);
+  std::cout << "nan(\"2\") = " << result << " (" << hex << dest << ")\n";
 }
 ```
