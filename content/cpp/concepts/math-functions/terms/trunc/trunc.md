@@ -40,8 +40,6 @@ int main() {
 ```
 
 This will produce the following output:
-
-This will produce the following output:
   
   ```pseudo
   Output: trunc(-3.14159) = -3
