@@ -44,8 +44,8 @@ print(next(cars_iter))
 ```
 
 ## Example 2 with optional parameter sentinel
-One useful application of the second form of iter() is to build a block-reader.  
-For example, reading fixed-width blocks from a binary database file until the end of file is reached:
+The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method:
+
 ```py
 from functools import partial
 with open('mydata.db', 'rb') as f:
