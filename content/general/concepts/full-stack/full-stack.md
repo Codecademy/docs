@@ -1,6 +1,6 @@
 ---
 Title: 'Full-Stack'
-Description: 'Full-stack development refers to having competency in both client & server side software.'
+Description: 'Full-stack development refers to having competency in both client and server-side software.'
 Subjects:
   - 'Web Design'
   - 'Web Development'
@@ -16,11 +16,13 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Full-stack development refers to having competency in both client & server side software. In other words, full-stack developers have the skills needed to build entire applications from the [back-end](https://www.codecademy.com/resources/docs/general/back-end), through [APIs](https://www.codecademy.com/resources/docs/general/api), to the [front-end](https://www.codecademy.com/resources/docs/general/front-end). Full-stack developers are able to handle both front-end and back-end tasks. Typically, full-stack developers are stronger in either front or back-end and throughout their careers, gain competence in the full-stack.
+**Full-stack** development refers to having competency in both client and server-side software to build entire applications from the [back-end](https://www.codecademy.com/resources/docs/general/back-end), through [APIs](https://www.codecademy.com/resources/docs/general/api), to the [front-end](https://www.codecademy.com/resources/docs/general/front-end). Full-stack developers are able to handle both front-end and back-end tasks. Typically, full-stack developers are stronger in either front or back-end and throughout their careers, gain competence in the full-stack.
 
 ## Hiring Trends
 
-Startups tend to seek full-stack developers for several reasons, one of which is funding. Larger companies have the resources to hire large development teams, which allows them to have teams where developers can specialize in either front-end or back-end. Startups on the other hand, may be limited in their ability to hire a large development team, so instead will seek full-stack developers.
+Larger companies have the resources to hire large development teams, which allows them to have teams where developers can specialize in either front-end or back-end.
+
+Startups, on the other hand, may be limited in their ability to hire a large development team, so instead will seek full-stack developers. They tend to seek full-stack developers for several reasons, one of which is funding.
 
 ## Common Tasks
 
@@ -30,48 +32,34 @@ Full-stack web development can involve a variety of front-end and back-end tasks
 - Making sure webpages are responsive and work well on phones or tablets.
 - Improving website performance.
 - Adding and improving accessibility features.
-- Using front-end frameworks to build client-side software.
-- Building and consuming [APIs](https://www.codecademy.com/resources/docs/general/api).
-- Creating, integrating, and managing databases.
+- Using front-end [frameworks](https://www.codecademy.com/resources/docs/general/framework) to build client-side software.
+- Building and consuming APIs.
+- Creating, integrating, and managing [databases](https://www.codecademy.com/resources/docs/general/database).
 - Using back-end frameworks to build server-side software.
 - Validating data to make sure it's formatted correctly before being sent to the database.
 - Integrating user-facing elements with server-side elements to make sure that information is being sent to the right place so the server can retrieve it.
 
-## Popular Full-Stack Tech Stacks
+## Popular Tech Stacks
 
-Full-stack developers typically utilize a combination of software, called a stack, in order to build full-stack applications.
+Full-stack developers typically utilize a combination of software, called a [tech stack](https://www.codecademy.com/resources/docs/general/tech-stack), in order to build full-stack applications.
 
-### MERN Stack
+### MEXN Stack
 
-A couple highlights for the MERN stack include the full-stack JavaScript nature and the fact that React is used, which is popular with both developers and designers.
+This well-known tech stack comes in a few forms but all of them use [MongoDB](https://www.codecademy.com/learn/learn-mongodb) (for the database), [Express.js](https://www.codecademy.com/resources/docs/open-source/express) (for the back-end), and [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js) (for the server). One of the following front-end frameworks is commonly used in this stack:
 
-- [MongoDB](https://www.codecademy.com/learn/learn-mongodb): NoSQL database that uses [JSON](https://www.codecademy.com/resources/docs/general/json) (BSON)
-- [Express.js](https://www.codecademy.com/resources/docs/general/express): Back-end framework for Node.js applications.
-- [React.js](https://www.codecademy.com/learn/react-101): Front-end framework.
-- [Node.js](https://www.codecademy.com/resources/docs/general/node-js): JavaScript runtime for server-side applications.
-
-### MEAN Stack
-
-The MEAN stack is popular for a number of reasons, a couple being that both the front-end and back-end are programmed in JavaScript and that the entire stack is open-source.
-
-- MongoDB: NoSQL database that uses JSON (BSON)
-- Express.js: Back-end framework for Node.js applications.
-- [Angular](https://www.codecademy.com/resources/docs/general/angular): Front-end framework.
-- Node.js: JavaScript runtime for server-side applications.
+- [React.js](https://www.codecademy.com/resources/docs/react) (ME**R**N)
+- [Angular](https://www.codecademy.com/resources/docs/open-source/angular) (ME**A**N
+- [Vue](https://www.codecademy.com/learn/learn-vue-js) (ME**V**N)
 
 ### LAMP Stack
 
-Highlights for the LAMP stack include the use of Linux as well as MySQL, two popular open-source projects.
+Technologies in the LAMP stack include some popular [open-source](https://www.codecademy.com/resources/docs/open-source) projects:
 
-- [Linux](https://www.codecademy.com/resources/docs/general/linux): Open-source operating system.
-- Apache: Popular open-source web server software.
-- MySQL: Database management system.
-- [PHP](https://www.codecademy.com/learn/learn-php): Web development programming language.
+- [Linux](https://www.codecademy.com/resources/docs/open-source/linux): Open-source operating system
+- Apache: Popular open-source web server software
+- MySQL: Database management system
+- [PHP](https://www.codecademy.com/resources/docs/php): Web development programming language
 
 ### Django Stack
 
-Highlights for this stack include the use of the Python, and the Django framework, a popular web development platform that is structured around creating templates.
-
-- [Python](https://www.codecademy.com/learn/learn-python-3): Increasingly popular programming language known for its readability & versatility.
-- [Vue](https://www.codecademy.com/learn/learn-vue-js) (does not necessarily have to be Vue): Front-end framework.
-- [Django](https://www.codecademy.com/learn/paths/build-python-web-apps-with-django): Web framework for Python.
+Highlights for this stack include the use of [Django](https://www.codecademy.com/learn/paths/build-python-web-apps-with-django), a popular [Python](https://www.codecademy.com/resources/docs/python) framework that is structured around creating templates. This can be used with a front-end framework like Vue for building a web application.
