@@ -29,7 +29,7 @@ The return value of `useState()` is an [array](https://www.codecademy.com/resour
 
 > **Note:** The name of the setter function should correlate with the name of the `state` value (e.g., `const [time, setTime] = useState(0);`).
 
-## Example #1
+## Example 1
 
 A controlled input whose value depends on the `name` state and changes it through `setName` setter on `onChange` event.
 
@@ -51,7 +51,7 @@ function ProfileName() {
 }
 ```
 
-## Example #2
+## Example 2
 
 In cases where the component state is an array or [object](https://www.codecademy.com/resources/docs/javascript/objects), the setter function must update with a modified copy of the state, not the original.
 
