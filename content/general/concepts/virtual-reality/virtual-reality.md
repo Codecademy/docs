@@ -23,7 +23,7 @@ It’s still considered an evolving trend of the tech industry⁠ — fun, excit
 
 Virtual reality is poised to grow substantially in use during the 21st century as it has many potential uses in many industries including entertainment, health, education, tourism, military, art, and design.
 
-## Virtual Reality Examples
+## VR Examples
 
 - [A-Frame](https://www.codecademy.com/learn/learn-a-frame): A-Frame is a popular open-source web framework for building virtual reality experiences in the web browser.
 - [Automotive industry](https://techwireasia.com/2020/02/how-jaguar-land-rover-uses-vr-to-design-and-engineer-new-vehicles/): Experience with build of a vehicle before commissioning expensive prototypes
