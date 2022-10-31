@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
-The **`iter()`** method is a python built-in function that returns an iterator object for a given `object`.
+The **`iter()`** function returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
 ## Syntax
 
