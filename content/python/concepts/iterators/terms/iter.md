@@ -42,10 +42,24 @@ print(next(cars_iter))
 The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method:
 
 ```py
-from functools import partial
-with open('mydata.db', 'rb') as f:
-    for block in iter(partial(f.read, 64), b''):
-        process_block(block)
+class codeNinjaCount:
+  def __init__(self, greeting, num):
+    self.greeting = greeting
+    self.num = num
+    print(f"{self.greeting}! Let's count:")
+  
+  def __call__(self):
+    self.num += 1
+    return self.num
+
+codeNinjaIterable = iter(codeNinjaCount("Hello, World", 1), 10)
+
+while True:
+  try:
+    print(next(codeNinjaIterable))
+  except StopIteration:
+    print("StopIteration Exception raised. Value returned was equal to sentinel value")
+    break
 ```
 
 ### Using iter() with iterables
