@@ -53,9 +53,9 @@ Hello, World! Let's count:
 StopIteration Exception raised. Value returned was equal to sentinel value
 ```
 
-## Codebyte Example
+## Applying a Sentinel
 
-The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method:
+The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method):
 
 ```py
 class codeNinjaCount:
@@ -63,7 +63,7 @@ class codeNinjaCount:
     self.greeting = greeting
     self.num = num
     print(f"{self.greeting}! Let's count:")
-  
+
   def __call__(self):
     self.num += 1
     return self.num
@@ -78,9 +78,7 @@ while True:
     break
 ```
 
-This will produce the following output
-
-### Using iter() with iterables
+### Codebyte Example
 
 When using iterables, it usually isn't necessary to call `iter()` or deal with iterator objects. The `for` loop does this automatically by creating a temporary, unnamed variable to hold the iterator for the duration of the loop.
 
@@ -100,4 +98,3 @@ print("Example with for loop : ")
 for fruit in fruits:
   print(fruit)
 ```
-
