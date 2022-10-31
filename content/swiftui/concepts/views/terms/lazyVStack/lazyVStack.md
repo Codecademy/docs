@@ -9,7 +9,7 @@ Tags:
   - 'SwiftUI Views'
   - 'Views'
 
-The **`Lazy VStack`** has all the properties as a standard VStack **BUT** it will not create items until it needs to render them on screen.
+The **`Lazy VStack`** has all the properties as a standard VStack **BUT** it will not create items until it needs to render them on screen. This comes very handy when creating long lists and your app can run smoother and faster.
 
 ## Syntax
 
