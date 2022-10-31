@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.pop()` method removes the element at the front of the queue. This will be the oldest element in the queue or the element which was added the earliest.
+The **`.pop()`** method removes the element at the front of the queue. This will be the oldest element in the queue or the element which was added the earliest.
 
 ## Syntax
 
@@ -31,7 +31,8 @@ The codebyte example below shows `.pop()` being used on the `utensils` queue:
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declaring a queue
   std::queue<std::string> utensils;
 
