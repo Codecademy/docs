@@ -1,11 +1,11 @@
 
 Title: '.toString()'
 Description: 'Returns a string representing the object.'
-Subject: 
- - 'Computer Science'
+Subject:
+  - 'Computer Science'
 Tags:
- -  'Functions'
- -  'Strings'
+  - 'Functions'
+  - 'Strings'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/computer-science'
