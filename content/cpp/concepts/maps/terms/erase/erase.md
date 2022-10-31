@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.erase()` method removes an element by it's key from a map.
+The **`.erase()`** method removes an element by it's key from a map.
 
 ## Syntax
 
@@ -32,7 +32,8 @@ The following codebyte example uses `.erase()` to remove an element from the `fi
 #include <iterator>
 #include <map>
 
-int main(){
+int main()
+{
   // Initializing map with items
   std::map<std::string, std::string> fields {{"zero", "0"}, {"one", "1"},  {"two", "2"}, {"three", "3"}};
 
@@ -43,10 +44,10 @@ int main(){
   std::map<std::string, std::string> :: iterator iter;
 
   // Print map
-  for (iter = fields.begin(); iter != fields.end(); ++iter){
-      std::cout << '\t' << iter->first << '\t' << iter->second
-      << '\n';
-    }
-
+  for (iter = fields.begin(); iter != fields.end(); ++iter)
+  {
+    std::cout << '\t' << iter->first << '\t' << iter->second
+    << '\n';
+  }
 }
 ```
