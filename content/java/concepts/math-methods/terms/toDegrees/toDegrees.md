@@ -43,7 +43,7 @@ public class TestDegrees {
     double y = 1.0471975512;
     System.out.println(Math.toDegrees(y));
   }
-} 
+}
 ```
 
 This results in the following output:
