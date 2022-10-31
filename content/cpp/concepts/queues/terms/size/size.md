@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.size()` method returns the number of elements in the queue.
+The **`.size()`** method returns the number of elements in the queue.
 
 ## Syntax
 
@@ -31,7 +31,8 @@ The codebyte example below uses the `.size()` method on the `pizzas` queue:
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declaring a queue
   std::queue<std::string> pizzas;
 

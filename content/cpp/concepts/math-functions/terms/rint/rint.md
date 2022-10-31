@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`rint()`** function in C++ rounds the argument to an integral value using the current rounding mode.
+The **`rint()`** function rounds the argument to an integral value using the current rounding direction.
 
 ## Syntax
 
@@ -20,22 +20,20 @@ The **`rint()`** function in C++ rounds the argument to an integral value using 
 rint(x)
 ```
 
-Argument must be a `double`/`float`/`long double`, and the return value will be same type.
+The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
-## Return value
-
-The `rint()` function rounds the argument x to an integral value, using the rounding direction specified by `fegetround()` and returns the value. By default, the rounding direction is set to 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
-
+> **Note:** The rounding direction is specified by the `fegetround()` function, with the default direction set as to the nearest. The rounding direction can be set to other values using `fesetround()` function.
 
 ## Example
 
-The following example uses the `rint()` function to find the value of `x` after rounding:
+The following example uses the `rint()` function to find the value of `x` after rounding off:
 
 ```cpp
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 11.87;
   double result;
   result = rint(x);
@@ -51,13 +49,15 @@ Rounding to-nearest integer (11.87) = 12
 
 ## Codebyte Example
 
-The following example is runnable and returns the nearest value to `x`:
+
+The following example is runnable and returns the value nearest to `x`:
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 11.5;
   double result;
   result = rint(x);
