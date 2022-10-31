@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.transpose()` function reverses or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).
+The **`.transpose()`** function reverses or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).
 
 ## Syntax
 
@@ -23,7 +23,7 @@ The `.transpose()` function reverses or permutes the axes of an [`ndarray`](http
 numpy.transpose(array, axes)
 ```
 
-Where `array` is the `ndarray` to transpose. `axes` is a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) or list with as many entries as there are dimensions, listing the 0-based indicies of each index in the new order in which they'll appear in the permuted array. If `axes` is omitted, `.transpose()` will simply reverse the order of axes.
+Where `array` is the `ndarray` to transpose. `axes` is a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) or list with as many entries as there are dimensions, listing the 0-based indices of each index in the new order in which they'll appear in the permuted array. If `axes` is omitted, `.transpose()` will simply reverse the order of axes.
 
 If possible, the `ndarray` returned will be a view of the original `ndarray`'s data.
 

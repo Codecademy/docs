@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse sine of the argument in radians.
+The **`asin()`** function returns the inverse sine of the argument in radians.
 
 ## Syntax
 
-```py
+```pseudo
 asin(n)
 ```
 
@@ -27,7 +27,8 @@ Use `asin()` to return the inverse sine of `0.0`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 0.0;
   double result;
 
