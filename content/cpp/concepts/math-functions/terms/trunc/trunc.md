@@ -42,7 +42,7 @@ int main() {
 This will produce the following output:
   
   ```shell
-  Output: trunc(-3.14159) = -3
+trunc(-3.14159) = -3
   ```
   
 ## Codebyte Example
