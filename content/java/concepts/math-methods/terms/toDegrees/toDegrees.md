@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.toDegrees()`** method is a built-in math function in Java which is used to convert an angle measured in radians to an approximately equivalent angle measured in degrees.
+The **`.toDegrees()`** method converts an angle, measured in radians, to an approximately equivalent angle, measured in degrees.
 
 ## Syntax
 
