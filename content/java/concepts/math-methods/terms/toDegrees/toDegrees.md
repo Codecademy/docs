@@ -47,7 +47,7 @@ public class TestDegrees {
 
 This results in the following output:
 
-```java
+```shell
 30.0
 60.0
 ```
