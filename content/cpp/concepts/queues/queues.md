@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Queues are container adaptors that store elements in a first-in-first-out (FIFO) order. Elements inserted into the queue first are removed first.
+**Queues** are container adaptors that store elements in a first-in-first-out (FIFO) order. Elements inserted into the queue first are removed first.
 
 ## Syntax
 
@@ -33,7 +33,8 @@ The following codebyte example creates an empty queue, adds elements using the [
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declaring a queue
   std::queue<std::string> subjects;
 
@@ -43,7 +44,8 @@ int main() {
   subjects.push("History");
 
   // Print Queue
-  while (!subjects.empty()) {
+  while (!subjects.empty())
+  {
     std::cout << subjects.front() << "\n";
     subjects.pop();
   }
