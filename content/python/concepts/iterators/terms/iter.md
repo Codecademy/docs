@@ -36,11 +36,6 @@ cars_iter = iter(cars)
 print(next(cars_iter))
 print(next(cars_iter))
 print(next(cars_iter))
-
-#Output
-#Ferrari
-#Lamborghini
-#Porsche
 ```
 
 ## Example 2 with optional parameter sentinel
