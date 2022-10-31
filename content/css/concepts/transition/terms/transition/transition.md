@@ -1,6 +1,6 @@
 ---
 Title: 'transition'
-Description: 'Shorthand property that sets different properties to translate an element in a single decleration.'
+Description: 'Shorthand property that sets different properties to translate an element in a single declaration.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Shorthand property that sets different properties to translate an element in a single decleration.
+Shorthand property that sets different properties to translate an element in a single declaration.
 
 ## Syntax
 
