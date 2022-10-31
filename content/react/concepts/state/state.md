@@ -35,7 +35,7 @@ class ComponentName extends React.Component {
   state = {
     property: value,
   };
-  
+
   render() {
     return (
       /* value of property is rendered */
