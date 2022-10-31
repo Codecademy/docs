@@ -21,6 +21,8 @@ std::trunc(x);
 
 The `x` parameter is the value to be truncated.
 
+The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value can be `double`, `float`, or `long double`.
+
 ## Example
 
 ```cpp
