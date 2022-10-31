@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`String.valueOf()`** method returns the string representation of a given value, including ones of a different [data type](https://www.codecademy.com/resources/docs/java/data-types).
+The **`.valueOf()`** method returns the string representation of a given value.
 
 ## Syntax
 
@@ -19,7 +19,16 @@ The **`String.valueOf()`** method returns the string representation of a given v
 String.valueOf(value)
 ```
 
-The `value` parameter can be of type `int`, `long`, `float`, `double`, `boolean`, and `char`.
+The `.valueOf()` method is static and is called directly from the `String` class.
+
+The `value` parameter can be one of the following [data types](https://www.codecademy.com/resources/docs/java/data-types):
+
+- `int`
+- `long`
+- `float`
+- `double`
+- `boolean`
+- `char`
 
 ## Example
 
