@@ -25,10 +25,11 @@ Virtual reality is poised to grow substantially in use during the 21st century a
 
 ## VR Examples
 
-- [A-Frame](https://www.codecademy.com/learn/learn-a-frame): A-Frame is a popular open-source web framework for building virtual reality experiences in the web browser.
-- [Automotive industry](https://techwireasia.com/2020/02/how-jaguar-land-rover-uses-vr-to-design-and-engineer-new-vehicles/): Experience with build of a vehicle before commissioning expensive prototypes
-- [Healthcare](https://www.ossovr.com/): Practice surgery on virtual bodies 
-- [BehaVR](https://www.behavr.com/): VR used as pain relief for burn injuries.
-- [Real estate](https://www.klapty.com/explore): Explore houses online and save time.
-- [Learning and development](https://engagevr.io): Learning experience in a risk-free space mostly for soft skills such as public speaking, and active listening.
-- [Tourism](https://globetrotter-vr.com/): Interactive virtual tours of places around the world.
+- Web development: [A-Frame](https://www.codecademy.com/learn/learn-a-frame) is a popular [open-source](https://www.codecademy.com/resources/docs/open-source) web framework for building virtual reality experiences in the web browser.
+- Automotive industry: Companies like [Jaguar](https://techwireasia.com/2020/02/how-jaguar-land-rover-uses-vr-to-design-and-engineer-new-vehicles/) are incorporating VR into their vehicle design before commissioning expensive prototypes.
+- Healthcare:
+  - Softwares like [Osso VR](https://www.ossovr.com/) allow for practicing surgical techniques on virtual bodies.
+  - [BehaVR](https://www.behavr.com/) is used as pain relief for burn injuries.
+- Real estate: [Klapty](https://www.klapty.com/explore) features virtual tours of apartments and houses that are on the market.
+- Education: Products like [Engagevr](https://engagevr.io) provides learning experiences in a risk-free space mostly for soft skills such as public speaking and active listening.
+- Tourism: [Globetrotter](https://globetrotter-vr.com/) features interactive virtual tours of places around the world for users to consider which activities and destinations to try out.
