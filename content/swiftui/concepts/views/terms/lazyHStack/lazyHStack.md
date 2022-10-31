@@ -11,7 +11,7 @@ Tags:
   - 'Views'
 ---
 
-The **LazyHStack** view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed. This comes very handy when creating long lists and your app can run smoother and faster.
+The **`LazyHStack`** view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed. This comes very handy when creating long lists and your app can run smoother and faster.
 
 ## Syntax
 
