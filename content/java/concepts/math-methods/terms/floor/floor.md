@@ -19,7 +19,7 @@ The **`Math.floor()`** method included in the `Math` class returns the largest i
     Math.floor(x); // or passing values of variables
 ```
 
-The return value is the same as `num` under the following conditions:
+The `num` parameter can either be a floating-point value or a variable that points to a floating-point value. The return value is the same as `num` under the following conditions:
 
 - `num` is already an integer.
 - `num` is `NaN`, infinity, or zero (positive or negative).
