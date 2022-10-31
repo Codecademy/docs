@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Specifies how long an elements transition should take to complete.
+The **`transition-duration`** specifies how long an elements transition should take to complete.
 
 ## Syntax
 
-```css
+```pseudo
 transition-duration: <value>;
 ```
 
@@ -25,7 +25,7 @@ The `transition-duration` value can be specified by one of the following:
 - Seconds: `2s`
 - Milliseconds: `125ms`
 
-**Note**: We can give a comma-separated list of values to set different durations for properties of the same element. The duration of all properties will be the same if a single value is provided.
+> **Note:** We can give a comma-separated list of values to set different durations for properties of the same element. The duration of all properties will be the same if a single value is provided.
 
 ## Example 1
 

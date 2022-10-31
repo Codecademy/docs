@@ -1,6 +1,6 @@
 ---
 Title: 'text-indent'
-Description: 'Indents (leaves empty space) the first line in a text-block.'
+Description: 'Leaves empty space on the first line in a text-block.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -10,22 +10,21 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Indents (leaves empty space) the first line in a text-block.
+The **`text-indent`** leaves empty space on the first line in a text-block.
 
 ## Syntax
 
-```css
+```pseudo
 text-indent: <value>;
 ```
 
-The amount of indentiation can be specified by using percentages or length values (`px`, `em`, etc):
+The amount of indentation can be specified by using percentages or length values (`px`, `em`, etc.).
 
 ## Example 1
 
-Specifying indentation length with percentages.
+Specifying indentation length with percentages:
 
 ```css
 p {
@@ -35,7 +34,7 @@ p {
 
 ## Example 2
 
-Specifying indentation length with `px` and `em` values.
+Specifying indentation length with `px` and `em` values:
 
 ```css
 .div1 p {

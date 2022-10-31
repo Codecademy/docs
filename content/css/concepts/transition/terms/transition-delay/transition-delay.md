@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Specifies how long an element should wait before beginning a transition.
+The **`transition-delay`** property specifies how long an element should wait before beginning a transition.
 
 ## Syntax
 
-```css
+```pseudo
 transition-delay: <value>;
 ```
 
@@ -25,7 +25,7 @@ The `transition-delay` value can be specified by one of the following:
 - Seconds: `2s`
 - Milliseconds: `125ms`
 
-**Note**: We can give a comma-separated list of values to set different delays for properties of the same element. The delay of all properties will be the same if a single value is provided.
+> **Note:** A comma-separated list of values can be used to set different delays for properties of the same element. The delay of all properties will be the same if a single value is provided.
 
 ## Example 1
 
