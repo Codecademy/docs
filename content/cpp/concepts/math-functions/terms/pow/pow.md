@@ -15,7 +15,7 @@ The **`pow()`** function returns the result of a base raised to the power of an 
 
 ## Syntax
 
-```cpp
+```pseudo
 pow(base, exponent)
 ```
 
@@ -27,16 +27,15 @@ The following example uses the `pow()` function to raise `2` to the power of `2`
 #include <iostream>
 #include <cmath>
 
-int main(){
+int main()
+{
+  double base = 2;
+  double exponent = 2;
 
-    double base = 2;
-    double exponent = 2;
+  double result = pow(base, exponent);
 
-    double result = pow(base, exponent);
-
-    std::cout << base << " raised to the power of " << exponent << " equals " << result << ".\n";
-    //Output: 2 raised to the power of 2 equals 4.
-
+  std::cout << base << " raised to the power of " << exponent << " equals " << result << ".\n";
+  // Output: 2 raised to the power of 2 equals 4
 }
 ```
 
@@ -48,15 +47,14 @@ The following example is runnable and uses the `pow()` function to find the `3`-
 #include <iostream>
 #include <cmath>
 
-int main(){
+int main()
+{
+  double base = 27;
+  double root = 3;
+  double exponent = 1 / root;
 
-    double base = 27;
-    double root = 3;
-    double exponent = 1 / root;
+  double result = pow(base, exponent);
 
-    double result = pow(base, exponent);
-
-    std::cout << base << " raised to the power of " << exponent << " equals " << result <<", which is the " << root << "-root of " << base << ".\n";
-
+  std::cout << base << " raised to the power of " << exponent << " equals " << result << ", which is the " << root << "-root of " << base << ".\n";
 }
 ```
