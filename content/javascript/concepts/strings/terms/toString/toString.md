@@ -29,15 +29,15 @@ The following example demonstrates the `.toString()` method:
 
 ```js
 // Assigning constant to integer value
-const myNum = 3
+const myNum = 3;
 
 // Using .toString() method to get its string value
-const str = myNum.toString()
+const str = myNum.toString();
 
-console.log("Value of str variable is", str)
+console.log('Value of str variable is', str);
 
 // Using typeof operator to show string value was returned
-console.log("Type of str variable is", typeof str)
+console.log('Type of str variable is', typeof str);
 ```
 
 This will produce the following output:
