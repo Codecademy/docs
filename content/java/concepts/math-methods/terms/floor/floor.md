@@ -53,6 +53,7 @@ This will produce the following output:
 The following example features unsuccessful calls to the `Math.floor()` method:
 
 ```java
+// Example.java
 public class Example {
   public static void main(String args[]) {
     System.out.println(Math.floor(2.0 % 0));
