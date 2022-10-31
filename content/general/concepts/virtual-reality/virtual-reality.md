@@ -19,10 +19,9 @@ It’s still considered an evolving trend of the tech industry⁠ — fun, excit
 
 ## Augmented Reality vs. Virtual Reality
 
-Augmented reality utilizes the current physical setting of the user while introducing a layer of synthetic digital, sonic or somatic presentation to enhance the user experience.
-Whereas, VR involves use of a headset to facilitate an experience rooted in the graphic and sonic presentation within the VR setup as opposed to using the individual's more broad physical surroundings for interaction.
+[Augmented reality (AR)](https://www.codecademy.com/resources/docs/general/augmented-reality) utilizes the current physical setting of the user while introducing a layer of synthetic digital, sonic, or somatic presentation to enhance the user experience. Conversely, VR involves use of a headset to facilitate an experience rooted in the graphic and sonic presentation within the VR setup as opposed to using the individual's more broad physical surroundings for interaction.
 
-Virtual reality is poised to grow substantially in use during the 21st century as it has many potential uses that range from entertainment, wellbeing, education, tourism, military, art and design etc.
+Virtual reality is poised to grow substantially in use during the 21st century as it has many potential uses in many industries including entertainment, health, education, tourism, military, art, and design.
 
 ## Virtual Reality Examples
 
