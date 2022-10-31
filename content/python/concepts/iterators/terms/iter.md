@@ -1,6 +1,6 @@
 ---
 Title: 'iter()'
-Description: 'The iter() method is a python built-in function that returns an iterator object for a given argument.'
+Description: 'The iter() function returns an iterator object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
