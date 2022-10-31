@@ -4,10 +4,10 @@ Description: 'Returns the largest integer value that is less than or equal to th
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Documentation'
   - 'Numbers'
-CatalogContent: 
+CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
