@@ -1,6 +1,6 @@
 ---
 Title: 'transform'
-Description: 'Allows us to rotate, scale, skew or translate an element.'
+Description: 'Rotates, scales, skews, or translates an element.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -10,14 +10,13 @@ Tags:
 CatalogContent:
   - 'learn-css'
   - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
 ---
 
-Allows us to rotate, scale, skew or translate an element.
+The **`transform`** property rotates, scales, skews, or translates an element.
 
 ## Syntax
 
-```css
+```pseudo
 transform: <values>;
 ```
 
@@ -59,7 +58,7 @@ img {
 
 ## Example 2
 
-Transforming an `img` element by skewing 20 degress, scaling up by half and rotating 100 degrees in one declaration.
+Transforming an `img` element by skewing 20 degrees, scaling up by half and rotating 100 degrees in one declaration.
 
 ```css
 img {
