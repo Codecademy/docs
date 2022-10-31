@@ -2,15 +2,15 @@
 Title: '<style>'
 Description: 'Applies CSS styles to an HTML document.'
 Subjects:
- - 'Web Development'
- - 'Web Design'
-Tags: 
- - 'Elements'
- - 'Tags'
- - 'Style'
- CatalogContent:
- - 'learn-html'
- - 'paths/front-end-engineer-career-path'
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Elements'
+  - 'Tags'
+  - 'Style'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/docs/css) rules to an HTML document.
@@ -42,11 +42,11 @@ The following example showcases the `<style>` element applying CSS rules to elem
   <head>
     <style>
       h1 {
-        color:green;
+        color: green;
       }
-      
+
       p {
-        color:yellow;
+        color: yellow;
       }
     </style>
   </head>
@@ -56,4 +56,3 @@ The following example showcases the `<style>` element applying CSS rules to elem
   </body>
 </html>
 ```
-
