@@ -54,7 +54,7 @@ The following example is runnable and uses the `pow()` function to find the nth-
 
 int main()
 {
-  double base = 27;
+  double base = 16;
   double root = 3;
   double exponent = 1 / root;
 
