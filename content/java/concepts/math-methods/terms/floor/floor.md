@@ -17,7 +17,7 @@ The **`Math.floor()`** method returns the largest integer value that is less tha
 ## Syntax
 
 ```pseudo
-    Math.floor(x); // or passing values of variables
+Math.floor(x);
 ```
 
 The `num` parameter can either be a floating-point value or a variable that points to a floating-point value. The return value is the same as `num` under the following conditions:
