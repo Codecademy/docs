@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Operators are used to perform operations on variables and values.
+**Operators** are used to perform operations on variables and values.
 
 ## Arithmetic Operators
 
@@ -60,7 +60,7 @@ There is an assignment operator for each arithmetic operator above.
 | `*=`     | Multiplication Assignment | `$a *= 3` is short for `$a = $a * 3`   |
 | `/=`     | Division Assignment       | `$a /= 3` is short for `$a = $a / 3`   |
 | `%=`     | Modulo Assignment         | `$a %= 3` is short for `$a = $a % 3`   |
-| `**=`    | Exponentiation Assignment  | `$a **= 3` is short for `$a = $a ** 3` |
+| `**=`    | Exponentiation Assignment | `$a **= 3` is short for `$a = $a ** 3` |
 
 ```php
 <?php
@@ -144,17 +144,17 @@ The bitwise operators manipulate individual bits in an integer.
 
 ## Comparison Operators
 
-| Operator | Name                     | Description                                                                                                                                 |
-| -------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `==`     | Equal                    | `$x == $y` is `true` if `$x` and `$y` are equal after type juggling.                                                                        |
-| `===`    | Identical                | `$x === $y` is `true` if `$x` and `$y` are equal and the same type.                                                                         |
-| `!=`     | Not Equal                | `$x != $y` is `true` if `$x` and `$y` are not equal after type juggling.                                                                    |
-| `<>`     | Not Equal                | `$x <> $y` is `true` if `$x` and `$y` are not equal after type juggling.                                                                    |
-| `!==`    | Not Identical            | `$x !== $y` is `true` if `$x` and `$y` are not equal or not the same type.                                                                  |
-| `<`      | Less Than                | `$x < $y` is `true` if `$x` is less than `$y`.                                                                                              |
-| `>`      | Greater Than             | `$x > $y` is `true` if `$x` is greater than `$y`.                                                                                           |
-| `<=`     | Less Than or Equal to    | `$x <= $y` is `true` if `$x` is less than or equal to `$y`.                                                                                 |
-| `>=`     | Greater Than or Equal to | `$x >= $y` is `true` if `$x` is greater than or equal to `$y`.                                                                              |
+| Operator | Name                     | Description                                                                                                                                  |
+| -------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `==`     | Equal                    | `$x == $y` is `true` if `$x` and `$y` are equal after type juggling.                                                                         |
+| `===`    | Identical                | `$x === $y` is `true` if `$x` and `$y` are equal and the same type.                                                                          |
+| `!=`     | Not Equal                | `$x != $y` is `true` if `$x` and `$y` are not equal after type juggling.                                                                     |
+| `<>`     | Not Equal                | `$x <> $y` is `true` if `$x` and `$y` are not equal after type juggling.                                                                     |
+| `!==`    | Not Identical            | `$x !== $y` is `true` if `$x` and `$y` are not equal or not the same type.                                                                   |
+| `<`      | Less Than                | `$x < $y` is `true` if `$x` is less than `$y`.                                                                                               |
+| `>`      | Greater Than             | `$x > $y` is `true` if `$x` is greater than `$y`.                                                                                            |
+| `<=`     | Less Than or Equal to    | `$x <= $y` is `true` if `$x` is less than or equal to `$y`.                                                                                  |
+| `>=`     | Greater Than or Equal to | `$x >= $y` is `true` if `$x` is greater than or equal to `$y`.                                                                               |
 | `<=>`    | Spaceship                | `$x <=> $y` returns an integer greater than, less than or equal to zero when `$x` is greater than, less than, or equal to `$y` respectively. |
 
 ```php
