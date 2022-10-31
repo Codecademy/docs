@@ -23,8 +23,11 @@ Math.signum(num)
 
 The `.signum()` method takes a `num` parameter and returns a `double` value that indicates whether `num` is positive, negative, zero, or `NaN`.
 
-Some edge cases for the `.signum()` method include the following:
+Some cases to consider include the following:
 
+- If `num` is positive, a positive non-zero value is returned.
+- If `num` is negative, a negative non-zero value is returned.
+- If `num` is zero, zero is returned.
 - If the value of `num` is `NaN`, `NaN` is returned.
 
 ## Example
