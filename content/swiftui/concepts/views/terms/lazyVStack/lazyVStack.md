@@ -25,7 +25,7 @@ The `LazyVStack` view rests within the body of a `View`.
 
 ## Example
 
-In this example a `ScrollView` contains a `LazyVStack` that consists of a vertical row of text views. The `LazyVStack` will create the rows only when they are needed.
+In the example below, a `ScrollView` contains a `LazyVStack` that consists of a vertical row of text views. The `LazyVStack` will create the rows only when they are needed.
 
 ```swift
 var body: some View {
