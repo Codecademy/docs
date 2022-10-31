@@ -1,6 +1,6 @@
 ---
 Title: 'pow()'
-Description: 'Returns the result of a base raised to the power of an exponent.'
+Description: 'Returns the result of a base value raised to the power of an exponent.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -19,7 +19,7 @@ The **`pow()`** function returns the result of a base value raised to the power 
 pow(base, exponent)
 ```
 
-`base` and `exponent` are integers or of type `float`. If `base` is zero, the function returns `0.0`. If `exponent` is zero, the function returns `1.0`.
+The `base` and `exponent` parameters are integers or of type `float`. If `base` is zero, the function returns `0.0`. If `exponent` is zero, the function returns `1.0`.
 
 - A domain error may occur if the `base` is a float and `exponent` is not an integer value.
 - A pole or range error may occur due to overflow.
