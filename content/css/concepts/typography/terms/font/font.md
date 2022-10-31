@@ -13,15 +13,15 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The `font` property is a shorthand property that sets different properties for an elements font in a single declaration.
+The **`font`** property is a shorthand property that sets different properties for an elements font in a single declaration.
 
 ## Syntax
 
-```css
+```pseudo
 font: <values>;
 ```
 
-The `font` property can have the following properties as values:
+The `font` property can have the following properties as `<values>`:
 
 Required values:
 
@@ -36,9 +36,10 @@ Optional values:
 - `font-style`
 - `font-varient`
 
-**Note 1:** `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
-
-**Note 2:** `line-height` must be declared after `font-size` and only following a forward slash.
+> **Note:** Some edge cases to keep in mind:
+>
+> - `font-style`, `font-variant`, and `font-weight` must come before `font-size`.
+> - `line-height` must be declared after `font-size` and only following a forward slash.
 
 ## Example 1
 
@@ -63,7 +64,7 @@ h1 {
 
 ## Example 2
 
-Setting an `h2` font with all seven properties in one decleration.
+Setting an `h2` font with all seven properties in one declaration.
 
 ```css
 h2 {

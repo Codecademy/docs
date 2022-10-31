@@ -22,7 +22,7 @@ rint(x)
 
 The `x` parameter must be a `double`, `float`, or `long double`. The return value will be the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
-> **Note:** The rounding direction is specified by the `fegetround()` function, with the default direction set as 'to-nearest'. The rounding direction can be set to other values using `fesetround()` function.
+> **Note:** The rounding direction is specified by the `fegetround()` function, with the default direction set as to the nearest. The rounding direction can be set to other values using `fesetround()` function.
 
 ## Example
 
@@ -32,7 +32,8 @@ The following example uses the `rint()` function to find the value of `x` after 
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 11.87;
   double result;
   result = rint(x);
@@ -54,7 +55,8 @@ The following example is runnable and returns the nearest value to x:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 11.5;
   double result;
   result = rint(x);

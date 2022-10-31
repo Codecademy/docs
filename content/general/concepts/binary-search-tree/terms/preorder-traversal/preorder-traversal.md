@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Preorder traversal** is a depth-first search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) for a binary search tree that first traverses the root, then the left subree, and then the right subtree. Its primary use is to create a copy of the tree.
+**Preorder traversal** is a depth-first search [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) for a binary search tree that first traverses the root, then the left subtree, and then the right subtree. Its primary use is to create a copy of the tree.
 
 ## Algorithm
 
