@@ -24,7 +24,7 @@ The `object` is required and must either be a collection (e.g., a [list](https:/
 
 If the `object` is callable, the optional `sentinel` parameter can be applied and the iterable will end when the returned value is the same as the `sentinel` and a `StopIteration` error will be raised.
 
-## Example 1
+## Example
 The example below demonstrates how the `iter()` function is used in a Python program:
 
 ```py
