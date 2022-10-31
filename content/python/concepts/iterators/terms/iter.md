@@ -40,7 +40,21 @@ print(next(cars_iter))
 
 This will print the following output:
 
+```shell
+Hello, World! Let's count:
+2
+3
+4
+5
+6
+7
+8
+9
+StopIteration Exception raised. Value returned was equal to sentinel value
+```
+
 ## Codebyte Example
+
 The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method:
 
 ```py
@@ -63,6 +77,8 @@ while True:
     print("StopIteration Exception raised. Value returned was equal to sentinel value")
     break
 ```
+
+This will produce the following output
 
 ### Using iter() with iterables
 
