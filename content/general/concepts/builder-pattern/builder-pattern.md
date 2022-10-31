@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The builder pattern decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during its construction and may be used to ensure immutability.
+The **builder pattern** decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during its construction and may be used to ensure immutability.
 
 ## UML Design
 

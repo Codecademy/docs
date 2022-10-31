@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Augmented Reality (AR) is a digitally enhanced real world experience provided through hardware. In many instances, AR provides an additional sensory experience to natural settings. A popular example of AR in mobile applications is the video game Pokémon Go.
+**Augmented Reality (AR)** is a digitally enhanced real world experience provided through hardware. In many instances, AR provides an additional sensory experience to natural settings. A popular example of AR in mobile applications is the video game Pokémon Go.
 
 An augogram is the computer generated image that is used to create an Augmented Reality experience. The term for this science and software practice is called augography.
 
