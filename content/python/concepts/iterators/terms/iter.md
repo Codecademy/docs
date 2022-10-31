@@ -71,6 +71,6 @@ print(next(fruits_iter))
 print("------------------------------------")
 print("Example with for loop : ")
 for fruit in fruits:
-    print(fruit)
+  print(fruit)
 ```
 
