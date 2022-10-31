@@ -64,7 +64,7 @@ The following example is runnable and returns the quiet NaN value
 int main() {
   double result = nan("2");
   uint64_t dest;
-    
+
   // copies variable src to dest
   // use <cstring> for memcpy()
   memcpy(&dest, &src, sizeof src);
