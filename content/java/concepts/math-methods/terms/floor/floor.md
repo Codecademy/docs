@@ -30,10 +30,17 @@ The `num` parameter can either be a floating-point value or a variable that poin
 In the case of double values, `Math.floor()` returns the next integer value below the provided double value. In the case of integers provided, these will return the same value as provided:
 
 ```pseudo
-    Math.floor(3.9); // returns the integer 3
-    Math.floor(1); // returns the integer 1
-    Math.floor(0); // returns the integer 0
+// Example.java
+public class Example {
+  public static void main(String args[]) {
+    System.out.println(Math.floor(-3.9));
+    System.out.println(Math.floor(1.0001));
+    System.out.println(Math.floor(0));
+  }
+}
 ```
+
+This will produce the following output:
 
 ## Example 2
 
