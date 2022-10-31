@@ -55,7 +55,7 @@ with open('mydata.db', 'rb') as f:
 
 ## Using iter() with iterables
 
-When using iterables, it is usually not necessary to call `iter()` or deal with iterator objects. The for statement does that automatically, creating a temporary unnamed variable to hold the iterator for the duration of the loop.
+When using iterables, it usually isn't necessary to call `iter()` or deal with iterator objects. The `for` loop does this automatically by creating a temporary, unnamed variable to hold the iterator for the duration of the loop.
 
 The following code examples use the `iter()` function and a `for` loop to produce the same results:
 
