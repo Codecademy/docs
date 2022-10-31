@@ -19,7 +19,7 @@ Classes can be broken into two core parts:
 - The data that is attributed to a class's members or properties.
 - The behaviors that are defined or inherited in the class.
 
-Methods are the "behavior" part of the class. When an instance variable is created from a class, it has access to the class's associated methods. Methods can accept parameters (sometimes they're called "arguments") and can return a result.
+**Methods** are the "behavior" part of the class. When an instance variable is created from a class, it has access to the class's associated methods. Methods can accept parameters (sometimes they're called "arguments") and can return a result.
 
 In object-oriented programming, methods promote reusability and keep functionality encapsulated inside an object.
 
@@ -52,7 +52,7 @@ class Character:
 
 Now, when an instance of `Character` is created, the game character can introduce themselves, move left, or move right.
 
-## Methods in Different Langauges
+## Methods in Different Languages
 
 - [Methods in C++](https://www.codecademy.com/resources/docs/cpp/methods)
 - [Methods in Java](https://www.codecademy.com/resources/docs/java/methods)

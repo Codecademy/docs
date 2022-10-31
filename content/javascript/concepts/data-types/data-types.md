@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types: Number, BigInt, String, Boolean, Null, Undefined, Symbol, and Object.'
+Description: 'Data types are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -14,44 +14,56 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Data types are how data in programming is classified. In JavaScript, there are eight fundamental data types:
+**Data types** are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.
 
-| Data Type   | Description                                                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Number`    | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                         |
-| `BigInt`    | Any number, greater than 2^53-1 or less than -(2^53-1) with `n` appended to the number: `1234567890123456n`.                                  |
-| `String`    | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes `''` or double quotes `""`. |
-| `Boolean`   | This data type only has two possible values — either `true` or `false`.                                                                       |
-| `Null`      | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                       |
-| `Undefined` | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`.    |
-| `Symbol`    | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.         |
-| `Object`    | Collections of related data.                                                                                                                  |
+## Primitive Data Types
 
-The first 7 of those types are considered primitive data types. They are the most basic data types in the language. Objects are a little more complex.
+JavaScript uses seven primitive data types that are listed in the table below:
 
-At first, eight types may not seem like that many, but they are the foundation that helps programmers build a whole new world.
+| Data Type   | Wrapper Object                                                                  | Description                                                                                                                                |
+| ----------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `number`    | [`Number`](https://www.codecademy.com/resources/docs/javascript/number-methods) | Any number, including numbers with decimals: `1`, `-2`, `99`, `3.14`.                                                                      |
+| `bigint`    | `BigInt`                                                                        | Any number, greater than 2<sup>53-1</sup> or less than -(2<sup>53-1</sup>) with `n` appended to the number: `1234567890123456n`.           |
+| `string`    | [`String`](https://www.codecademy.com/resources/docs/javascript/strings)        | Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single `''` or double `""`.            |
+| `boolean`   | `Boolean`                                                                       | This data type only has two possible values — either `true` or `false`.                                                                    |
+| `null`      | None                                                                            | This data type represents the intentional absence of a value, and is represented by the keyword `null`.                                    |
+| `undefined` | None                                                                            | This data type is denoted by the keyword `undefined`. It also represents the absence of a value though it has a different use than `null`. |
+| `symbol`    | `Symbol`                                                                        | A newer feature to the language, symbols are unique identifiers, useful in more complex coding. No need to worry about these for now.      |
+
+## Objects
+
+[Objects](https://www.codecademy.com/resources/docs/javascript/objects) are a little more complex since they are collections of related data.
+
+> **Note:** The `null` type cannot be tested with `typeof` like all the other primitive types because it will return `"object"`. This must be tested with the type equality operator (i.e., `=== null`).
 
 ## Number and BigInt
 
 ```js
-var num = 7;
-var bigNum = 9999999999999999n;
+let num = 7;
+let bigNum = 9999999999999999n;
 ```
 
-BigInt is necessary for big numbers because they are unreliable with Number type:
+`BigInt` is necessary for large whole numbers because they are unreliable with the `Number` type:
 
-```codebyte/js
+```js
 console.log(9999999999999999);
 console.log(9999999999999999n);
 ```
 
+This will output the following:
+
+```shell
+10000000000000000
+9999999999999999n
+```
+
 ## String
 
-Strings in JavaScript can be defined with either `'` `'` or `"` `"`.
+Strings in JavaScript can be defined with either `' '` or `" "`.
 
 ```js
-var greeting = 'Hi buddy';
-var message = 'You are doing great! Keep studying!';
+let greeting = 'Hi buddy';
+let message = 'You are doing great! Keep studying!';
 ```
 
 ## Boolean
@@ -59,8 +71,8 @@ var message = 'You are doing great! Keep studying!';
 Boolean is for truthy or falsy values:
 
 ```js
-var lateToWork = true;
-var isTheEarthFlat = false;
+let lateToWork = true;
+let isTheEarthFlat = false;
 ```
 
 ## Null and Undefined
@@ -69,10 +81,10 @@ Null and Undefined are both for the absence of a value, but they have different 
 
 ```js
 // Undefined means there should be some values, but it is undefined now
-var finishCourseTime = undefined;
+let finishCourseTime = undefined;
 
 // Null means there is no value here
-var finishStudyingDate = null;
+let finishStudyingDate = null;
 ```
 
 ## Object
