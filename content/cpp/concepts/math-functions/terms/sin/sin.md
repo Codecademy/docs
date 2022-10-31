@@ -30,7 +30,8 @@ The following example illustrates the `sin()` function:
 #include<math.h>
 using namespace std;
 
-int main()  {
+int main()
+{
   // convert degrees to radians
   double pi = M_PI;
   double degree = 60;
