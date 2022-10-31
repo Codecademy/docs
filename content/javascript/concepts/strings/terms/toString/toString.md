@@ -1,7 +1,7 @@
 
 Title: '.toString()'
 Description: 'Returns a string representing the object.'
-Subject:
+Subjects:
   - 'Computer Science'
 Tags:
   - 'Functions'
