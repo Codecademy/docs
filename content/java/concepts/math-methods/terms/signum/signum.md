@@ -38,15 +38,9 @@ The following example demonstrates the `.signum()` method:
 // Test.java
 public class Test {
   public static void main(String[] args) {
-
-    // Returns 1.0 when argument is positive
     System.out.println(Math.signum(8.75));
-    // Returns -1.0 when argument is negative
     System.out.println(Math.signum(-3.5));
-    // Returns 0 when argument is zero.
     System.out.println(Math.signum(0));
-
-    // Edge cases
     System.out.println(Math.signum(Double.NaN));
   }
 }
