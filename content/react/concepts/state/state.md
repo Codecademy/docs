@@ -50,6 +50,8 @@ The snippet above features two common ways of initializing state in a class comp
 - The `constructor()` method assigns a new object to `this.state`.
 - A `state` object is directly assigned with property initializers.
 
+Only one of these two ways can be applied when making a class component.
+
 ## Example
 
 The following example initializes the `state` object in the component's `constructor()` and returns its value in the `render()` method:
