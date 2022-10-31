@@ -6,6 +6,7 @@ Subjects:
   - 'Computer Science'
 Tags: 
   - 'Documentation'
+  - 'Numbers'
 CatalogContent: 
   - 'learn-java/'
   - 'paths/computer-science'
