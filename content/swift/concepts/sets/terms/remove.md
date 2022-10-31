@@ -30,7 +30,7 @@ In the example below, The `"autumn"` element in the `weather` set is removed:
 var weather: Set = ["spring", "summer", "autumn", "fall", "winter"]
 let toRemove = "autumn"
 if let _ = weather.remove(toRemove) {
-    print(weather)
+  print(weather)
 }
 ```
 
