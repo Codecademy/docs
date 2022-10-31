@@ -21,7 +21,7 @@ The **`.toDegrees()`** method converts an angle, measured in radians, to an appr
 Math.toDegrees(angle)
 ```
 
-The data type of the `angle` parameter and return value of the `.toDegrees()` method is a `double`.
+The [data type](https://www.codecademy.com/resources/docs/java/data-types) of the `angle` parameter and return value of the `.toDegrees()` method is a `double`.
 
 Some edge cases for the `.toDegrees()` method include the following:
 
@@ -34,6 +34,7 @@ Some edge cases for the `.toDegrees()` method include the following:
 The following example demonstrates the `.toDegrees()` method being applied to two variables:
 
 ```java
+// TestDegree.java
 public class TestDegrees {
   public static void main(String args[]) {
     double x = 0.5235987756;
