@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Computers use file systems to store and retrieve data. Each file is an individual container of related information.
+Computers use [file systems](https://www.codecademy.com/resources/docs/general/file-system-structure) to store and retrieve data. Each **file** is an individual container of related information.
 
 The `fstream` library, short for "file stream", allows us to work with files in C++. To use the `fstream` library in the C++ program, include both the standard `<iostream>` and the `<fstream>` header files in the C++ program:
 
@@ -36,7 +36,8 @@ To write to the file, use the insertion operator (`<<`). For example:
 #include <iostream>
 #include <fstream>
 
-int main() {
+int main()
+{
   // Create and open a text file
   std::ofstream MyFile("journal.txt");
 
@@ -49,7 +50,7 @@ int main() {
 }
 ```
 
-In the same folder, there should be a new text file called **journal.txt**. There should be two lines of text inside:
+In the same folder, there should be a new text file called `journal.txt`. There should be two lines of text inside:
 
 ```pseudo
 Today is the greatest
@@ -60,13 +61,14 @@ Day I've ever known
 
 To read from a file, use either the `ifstream` or `fstream` class, and the name of the file.
 
-Note that we also use a `while` loop together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
+> **Note:** A `while` loop is used together with the `getline()` function (which belongs to the `ifstream` class) to read the file line by line, and to print the content of the file:
 
 ```cpp
 #include <iostream>
 #include <fstream>
 
-int main() {
+int main()
+{
   // Create a text string, which is used to output the text file
   std::string myText;
 
