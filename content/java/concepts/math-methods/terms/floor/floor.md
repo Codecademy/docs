@@ -29,7 +29,7 @@ The `num` parameter can either be a floating-point value or a variable that poin
 
 In the case of double values, `Math.floor()` returns the next integer value below the provided double value. In the case of integers provided, these will return the same value as provided:
 
-```pseudo
+```java
 // Example.java
 public class Example {
   public static void main(String args[]) {
