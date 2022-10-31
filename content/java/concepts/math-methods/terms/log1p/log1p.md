@@ -1,5 +1,5 @@
 ---
-Title: '.log1p()'
+Title: 'Math.log1p()'
 Description: 'Returns the natural logarithm (base e) of the sum of a double value as a parameter and 1.'
 Subjects:
   - 'Computer Science'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.log1p()`** method returns `ln (a + 1)`, the natural logarithm of a + 1.
+The **`Math.log1p()`** method returns the natural logarithm of a number plus 1.
 
 ## Syntax
 
@@ -19,16 +19,15 @@ The **`.log1p()`** method returns `ln (a + 1)`, the natural logarithm of a + 1.
 Math.log1p(a);
 ```
 
-- The `.log1p()` method takes one parameter `a`.
-- If `a` is `NaN`, then return value is `NaN`.
-- If `a` is `negative number`, then return value is `NaN`.
-- If `a` is `positive number`, then return value is `double`.
-- If `a` is `positive / negative zero`, then return value is `positive infinity`.
-- If `a` is `positive infinity`, then return value is `positive infinity`.
+- If `a` is `NaN`, the return value is `NaN`.
+- If `a` is a negative number, the return value is `NaN`.
+- If `a` is a positive number, the return value is a `double`.
+- If `a` is zero, the return value is positive infinity.
+- If `a` is positive infinity, the return value is positive infinity.
 
 ## Example
 
-The following example demonstrates using `.log1p()` to find natural logs:
+The following example demonstrates using `Math.log1p()` to find natural logs:
 
 ```java
 import java.lang.Math;
