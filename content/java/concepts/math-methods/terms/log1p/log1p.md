@@ -20,7 +20,7 @@ Math.log1p(a);
 ```
 
 - If `a` is a positive number, the return value is a `double`.
-- If `a` is `NaN`, the return value is `NaN`.
+- If `a` is `NaN` or less than -1, the return value is `NaN`.
 - If `a` is -1, the return value is negative infinity
 - If `a` is positive infinity, the return value is positive infinity.
 - If `a` is positive or negative zero, the return value is positive or negative zero.
@@ -51,5 +51,6 @@ This will produce the following output:
 ```shell
 The result of log1p(23.0) is: 3.1780538303479458
 The result of log1p(-42.0) is: NaN
+The result of log1p(0.0) is: 0.0
 The result of log1p(0.0) is: 0.0
 ```
