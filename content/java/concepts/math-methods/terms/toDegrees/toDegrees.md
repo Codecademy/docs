@@ -1,6 +1,6 @@
 ---
 Title: '.toDegrees()'
-Description: 'Returns the measurement in degrees of an angle in radians.'
+Description: 'Returns an angle measurement converted from radians to degrees.'
 Subjects:
   - 'Computer Science'
 Tags:
