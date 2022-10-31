@@ -23,7 +23,7 @@ pow(base, exponent)
 
 - A domain error may occur if the `base` is a float and `exponent` is not an integer value.
 - A pole or range error may occur due to overflow.
-- A range error may occue due to underflow.
+- A range error may occur due to underflow.
 
 ## Example
 
