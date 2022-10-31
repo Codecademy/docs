@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `abs()` function returns the absolute value of a numeric argument.
+The **`abs()`** function returns the absolute value of a numeric argument.
 
 ## Syntax
 
@@ -27,17 +27,22 @@ The absolute value of `n` will be its distance from zero regardless of its direc
 
 ## Example
 
-In this example code, let's set up two variables; one positive number and one negative number; and print() the two.
+In the example belwo, the absolute values of two variables, `positive` and `negative`, are returned with the `abs()` function:
 
 ```py
 positive = 10
 negative = -3.5
 
 print(abs(positive))
-# Output: 10
 
 print(abs(negative))
-# Output: 3.5
+```
+
+This will produce the following output:
+
+```shell
+10
+3.5
 ```
 
 ## Codebyte Example
