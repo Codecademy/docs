@@ -32,7 +32,7 @@ Some cases to consider include the following:
 
 ## Example
 
-The following example demonstrates the `.signum()` method:
+The following example demonstrates the `.signum()` method and its many use cases:
 
 ```java
 // Test.java
