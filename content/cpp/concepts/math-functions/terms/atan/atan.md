@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `<cmath>` header file defines `atan()` function that returns the inverse tangent of an argument in radians. It takes a single argument (positive, negative, or zero) and returns the output in radians.
+The **`atan()`** function returns the inverse tangent of the argument in radians.
 
 ## Syntax
 
-```py
+```pseudo
 atan(n)
 ```
 
@@ -27,8 +27,10 @@ The following example uses the `atan()` function that returns the inverse tangen
 #include <iostream>
 #include <cmath>
 
-int main() {
-  double value = 0.0;
+
+int main()
+{
+  double x = 0.0;
   double result;
 
   result = std::atan(value);
@@ -45,7 +47,8 @@ The following example uses the `atan()` function that returns the inverse tangen
 #include <iostream>
 #include<cmath>
 
-int main(){
+int main()
+{
   double value= 1.0, result;
   result= atan(value);
 

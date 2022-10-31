@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Inheritance** is a concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) where a child [class](https://www.codecademy.com/resources/docs/python/classes) (or subclass) derives attributes and behaviors from a parent or sibling class.
+**Inheritance** is a concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) where a child [class](https://www.codecademy.com/resources/docs/python/classes) (or subclass) derives attributes and behaviors from a parent or sibling class.
 
 This eliminates the need to implement the methods inherited by a subclass, or child class, again. In other words, it enables a child class to inherit/reuse the attributes and methods of a parent class. In terms of real-world objects, it represents an IS-A relationship.
 

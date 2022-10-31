@@ -32,7 +32,8 @@ using namespace std;
 
 #define PI 3.1416
 
-int main() {
+int main()
+{
   float radius = 3;
   float area;
   area = PI * radius * radius;
@@ -51,7 +52,7 @@ Area is 28.2744
 
 These macros behave like functions, in that they take arguments that are used in the replaced code.
 
-**Note**: When defining a function-like macro, there cannot be a space between the macro name and the opening parenthesis.
+> **Note**: When defining a function-like macro, there cannot be a space between the macro name and the opening parenthesis.
 
 ### Example
 
@@ -64,7 +65,8 @@ using namespace std;
 #define PI 3.1416
 #define AREA(r) r * r * PI
 
-int main() {
+int main()
+{
   float radius = 5;
   float result;
   result = AREA(radius);
@@ -96,7 +98,8 @@ The following example uses the predefined macros mentioned above:
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
 char file[] = __FILE__;
 char date[] = __DATE__;
@@ -131,7 +134,8 @@ using namespace std;
 
 #define TEST 1
 
-int main() {
+int main()
+{
   #ifdef TEST
     cout << "TEST defined\n";
   #else
@@ -145,7 +149,6 @@ int main() {
   #else
     cout << "TEST undefined\n";
   #endif
-
 }
 ```
 
