@@ -21,7 +21,7 @@ The **`isfinite()`** function returns a value telling whether the argument has a
 isfinite(x)
 ```
 
-The `x` parameter is finite if it a floating-point number that is neither infinite or `NaN` (e.g., division by zero, square root of a negative value).
+The `x` parameter is finite if it is a floating-point number that is neither infinite nor `NaN` (e.g., division by zero, square root of a negative value).
 
 If `x` is finite, the `isfinite()` function will return a non-zero value for `true`. Otherwise, it will return zero for `false`.
 
@@ -33,15 +33,18 @@ The following example uses the `isfinite()` function to check whether `5.0` is f
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   int result;
 
   result = std::isfinite(5.0);
 
-  if(result == 0){
+  if (result == 0)
+  {
     std::cout << "Not finite" << "\n";
   }
-  else{
+  else
+  {
     std::cout << "Is finite" << "\n";
   }
   // Output: Is finite
@@ -50,21 +53,24 @@ int main() {
 
 ## Codebyte Example
 
-The following example is runnable and features a case where running the `isfinite()` function returns `false` and the value is not finite:
+The following example is runnable and features a case where running the `isfinite()` function where the returns `false` and the value is not finite:
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   int result;
 
   result = std::isfinite(1.0/0.0);
 
-  if(result == 0){
+  if (result == 0)
+  {
     std::cout << "Not finite" << "\n";
   }
-  else{
+  else
+  {
     std::cout << "Is finite" << "\n";
   }
 }
