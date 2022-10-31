@@ -53,7 +53,7 @@ with open('mydata.db', 'rb') as f:
         process_block(block)
 ```
 
-## Using iter() with iterables
+### Using iter() with iterables
 
 When using iterables, it usually isn't necessary to call `iter()` or deal with iterator objects. The `for` loop does this automatically by creating a temporary, unnamed variable to hold the iterator for the duration of the loop.
 
