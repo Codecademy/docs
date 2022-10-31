@@ -55,7 +55,7 @@ The result of log10(0.0) is: -Infinity
 
 ## Codebyte Example
 
-The following example is runnable and returns `log a`:
+The following example is runnable and returns `log(a)`:
 
 ```codebyte/java
 import java.lang.Math;
