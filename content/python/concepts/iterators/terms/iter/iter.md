@@ -91,9 +91,9 @@ fruits = ['apple', 'orange', 'banana']
 print("Example with iter() and next() : ")
 fruits_iter = iter(fruits)
 
-print(next(fruits_iter))   
-print(next(fruits_iter))    
-print(next(fruits_iter))   
+print(next(fruits_iter))
+print(next(fruits_iter))
+print(next(fruits_iter))
 print("------------------------------------")
 print("Example with for loop : ")
 for fruit in fruits:
