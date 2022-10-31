@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.signum()`** determines whether a number is positive, negative, zero, or NaN.
+The **`Math.signum()`** method determines whether a number is positive, negative, zero, or `NaN`.
 
 ## Syntax
 
