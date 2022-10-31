@@ -40,7 +40,7 @@ print(next(cars_iter))
 
 This will print the following output:
 
-## Example 2 with optional parameter sentinel
+## Codebyte Example
 The following example applies the optional `sentinel` parameter through a callable class object (though the `__call__()` method:
 
 ```py
