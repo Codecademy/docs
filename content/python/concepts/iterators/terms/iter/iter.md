@@ -12,6 +12,7 @@ CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
+
 The **`iter()`** function returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
 ## Syntax
