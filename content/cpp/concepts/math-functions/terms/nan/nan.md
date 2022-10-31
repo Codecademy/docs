@@ -1,6 +1,6 @@
 ---
 Title: 'nan()'
-Returns a quiet NaN (Not-A-Number) value of type double.'
+Description: 'Returns a quiet NaN (Not-A-Number) value of type double.'
 Subjects:
   - 'Computer Science'
 Tags:
