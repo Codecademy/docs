@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A structure in C++ stores together data elements under a single name. The data elements, also called data members, can be of different data types.
+A **structure** in C++ stores together data elements under a single name. The data elements, also called data members, can be of different data types.
 
 ## Syntax
 
@@ -61,8 +61,8 @@ struct coordinates {
   int y;
 };
 
-int main() {
-
+int main()
+{
   // Declaring variable c1
   struct coordinates c1;
 
@@ -88,7 +88,7 @@ x2 = 0, y2 = 1
 
 ## Array of Structure
 
-Like other primitive data types, we can create an array of structures.
+Like other primitive data types, an array of structures can be created.
 
 An example of array of structure:
 
@@ -100,7 +100,8 @@ struct coordinates {
   int y;
 };
 
-int main() {
+int main()
+{
   struct coordinates c[4];
   int i;
 

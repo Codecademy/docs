@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the next whole number that is greater than or equal to the argument.
+The **`ceil()`** function returns the next whole number that is greater than or equal to the argument.
 
 ## Syntax
 
-```cpp
+```pseudo
 std::ceil(n);
 ```
 
@@ -29,7 +29,8 @@ Use `ceil()` function to round up the double `12.3456`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double n = 12.3456;
   double result;
 
