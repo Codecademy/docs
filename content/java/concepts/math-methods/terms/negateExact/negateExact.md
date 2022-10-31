@@ -25,7 +25,7 @@ The `num` parameter can be of type `int` or `long`.
 
 ## Example
 
-The following example demonstrates using `.negateExact()`.
+The following example demonstrates using the `.negateExact()` method:
 
 ```java
 // Test.java
