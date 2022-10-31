@@ -40,6 +40,17 @@ In the case of double values, `Math.floor()` returns the next integer value belo
 The following example features unsuccessful calls to the `Math.floor()` method:
 
 ```pseudo
-    Math.floor(2.0 % 0); // returns NaN
-    Math.floor(Double.POSITIVE_INFINITY); // returns Infinity
+public class Example {
+  public static void main(String args[]) {
+    System.out.println(Math.floor(2.0 % 0));
+    System.out.println(Math.floor(Double.POSITIVE_INFINITY));
+  }
+}
+```
+
+This will produce the following output:
+
+```shell
+NaN
+Infinity
 ```
