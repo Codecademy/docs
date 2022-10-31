@@ -16,7 +16,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An object is a data type created by the developer that has properties and methods, representing its state and behavior. Objects are often used to represent real-world objects found in everyday life and can interact with other objects and other elements of the program.
+An **object** is an instance of a class. It contains the properties and functionalities of its class.
 
 Objects provide a structured programming approach and are the basic units of [Oject-Oriented-Programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP). By creating objects, the developer can easily create various identical objects and modify existing ones within the program.
 

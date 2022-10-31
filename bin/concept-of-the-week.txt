@@ -1,1 +1,1 @@
-content/javascript/concepts/objects/objects.md
+content/general/concepts/yukihiro-matsumoto/yukihiro-matsumoto.md
