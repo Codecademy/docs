@@ -39,7 +39,6 @@ int main()
   double exponent = 2;
 
   double result = pow(base, exponent);
-
   std::cout << base << " raised to the power of " << exponent << " equals " << result << ".\n";
   // Output: 2 raised to the power of 2 equals 4
 }
@@ -47,7 +46,7 @@ int main()
 
 ## Codebyte Example
 
-The following example is runnable and uses the `pow()` function to find the `3`-root (cube root) of `27` by raising the base to the reciprocal of the desired root:
+The following example is runnable and uses the `pow()` function to find the nth-root of `16` by raising the base to the reciprocal of the desired root:
 
 ```codebyte/cpp
 #include <iostream>
