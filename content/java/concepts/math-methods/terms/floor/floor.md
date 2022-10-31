@@ -42,6 +42,12 @@ public class Example {
 
 This will produce the following output:
 
+```shell
+-4.0
+1.0
+0.0
+```
+
 ## Example 2
 
 The following example features unsuccessful calls to the `Math.floor()` method:
