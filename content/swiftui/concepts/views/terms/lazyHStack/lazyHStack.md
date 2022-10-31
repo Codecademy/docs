@@ -1,6 +1,6 @@
 ---
 Title: 'LazyHStack'
-Description: 'The **LazyHStack** view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed.'
+Description: 'The LazyHStack view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
