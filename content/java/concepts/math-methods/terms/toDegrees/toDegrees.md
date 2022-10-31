@@ -21,7 +21,7 @@ The **`.toDegrees()`** method converts an angle, measured in radians, to an appr
 Math.toDegrees(angle)
 ```
 
-The return type of the `.toDegrees()` method is a `double`. The data type of the `x` parameter is also a `double`.
+The data type of the `angle` parameter and return value of the `.toDegrees()` method is a `double`.
 
 Some edge cases for the `.toDegrees()` method include the following:
 
