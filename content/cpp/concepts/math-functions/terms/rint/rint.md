@@ -49,7 +49,6 @@ Rounding to-nearest integer (11.87) = 12
 
 ## Codebyte Example
 
-
 The following example is runnable and returns the value nearest to `x`:
 
 ```codebyte/cpp
