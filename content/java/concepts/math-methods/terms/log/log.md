@@ -19,11 +19,9 @@ The **`Math.log()`** method returns the natural logarithm of a number.
 Math.log(a);
 ```
 
-- If `a` is `NaN`, the return value is `NaN`.
-- If `a` is a negative number, the return value is `NaN`.
+- If `a` is `NaN` or a negative number, the return value is `NaN`.
 - If `a` is a positive number, the return value is a `double`.
-- If `a` is zero, the return value is positive infinity.
-- If `a` is positive infinity, the return value is positive infinity.
+- If `a` is zero or positive infinity, the return value is positive infinity.
 
 ## Example
 
@@ -33,15 +31,15 @@ The following example demonstrates using `Math.log()` to find natural logs:
 import java.lang.Math;
 
 public class Main {
-    public static void main(String args[]) {
-        double a = 10;
-        double b = -6;
-        double c = 0;
+  public static void main(String args[]) {
+    double a = 10;
+    double b = -6;
+    double c = 0;
 
-        System.out.println("The result of log(" + a + ") is: " + Math.log(a));
-        System.out.println("The result of log(" + b + ") is: " + Math.log(b));
-        System.out.println("The result of log(" + c + ") is: " + Math.log(c));
-    }
+    System.out.println("The result of log(" + a + ") is: " + Math.log(a));
+    System.out.println("The result of log(" + b + ") is: " + Math.log(b));
+    System.out.println("The result of log(" + c + ") is: " + Math.log(c));
+  }
 }
 ```
 
@@ -55,16 +53,16 @@ The result of log(0.0) is: -Infinity
 
 ## Codebyte Example
 
-The following example is runnable and returns `ln(a)`:
+The following example is runnable and returns the natural logarithm of `a`:
 
 ```codebyte/java
 import java.lang.Math;
 
 public class Main {
-    public static void main(String args[]) {
-        double a = -0;
+  public static void main(String args[]) {
+    double a = -0;
 
-        System.out.println("The result of log(" + a + ") is: " + Math.log(a));
-    }
+    System.out.println("The result of log(" + a + ") is: " + Math.log(a));
+  }
 }
 ```
