@@ -41,7 +41,7 @@ int main() {
 
 This will produce the following output:
   
-  ```pseudo
+  ```shell
   Output: trunc(-3.14159) = -3
   ```
   
