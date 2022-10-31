@@ -15,7 +15,6 @@ The **`Math.floor()`** method included in the `Math` class returns the largest i
 
 ## Syntax
 
-
 ```pseudo
     Math.floor(x); // or passing values of variables
 ```
