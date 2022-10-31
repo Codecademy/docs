@@ -8,7 +8,7 @@ Tags:
   - 'Documentation'
   - 'Numbers'
 CatalogContent: 
-  - 'learn-java/'
+  - 'learn-java'
   - 'paths/computer-science'
 ---
 
