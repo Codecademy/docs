@@ -36,12 +36,13 @@ The following example demonstrates the `.toDegrees()` method being applied to tw
 ```java
 public class TestDegrees {
   public static void main(String args[]) {
-       double x = 0.5235987756;
-       System.out.println(Math.toDegrees(x));
-       double y = 1.0471975512;
-       System.out.println(Math.toDegrees(y));
-   }
-}
+    double x = 0.5235987756;
+    System.out.println(Math.toDegrees(x));
+    
+    double y = 1.0471975512;
+    System.out.println(Math.toDegrees(y));
+  }
+} 
 ```
 
 This results in the following output:
