@@ -19,29 +19,26 @@ The **`Math.log10()`** method returns the base-10 logarithm of a number.
 Math.log10(a);
 ```
 
-- If `a` is `NaN`, the return value is `NaN`.
-- If `a` is a negative number, the return value is `NaN`.
+- If `a` is `NaN` or a negative number, the return value is `NaN`.
 - If `a` is a positive number, the return value is a `double`.
-- If `a` is zero, the return value is positive infinity.
-- If `a` is positive infinity, the return value is positive infinity.
+- If `a` is zero or positive infinity, the return value is positive infinity.
 
 ## Example
 
 The following example demonstrates using `Math.log10()` to find base-10 logarithms:
 
 ```java
-import java.lang.Math;
-
+// Main.java
 public class Main {
-    public static void main(String args[]) {
-        double a = 10;
-        double b = -6;
-        double c = 0;
+  public static void main(String args[]) {
+    double a = 10;
+    double b = -6;
+    double c = 0;
 
-        System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
-        System.out.println("The result of log10(" + b + ") is: " + Math.log10(b));
-        System.out.println("The result of log10(" + c + ") is: " + Math.log10(c));
-    }
+    System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
+    System.out.println("The result of log10(" + b + ") is: " + Math.log10(b));
+    System.out.println("The result of log10(" + c + ") is: " + Math.log10(c));
+  }
 }
 ```
 
@@ -55,16 +52,15 @@ The result of log10(0.0) is: -Infinity
 
 ## Codebyte Example
 
-The following example is runnable and returns `log(a)`:
+The following example is runnable and returns `log10(a)`:
 
 ```codebyte/java
-import java.lang.Math;
-
+// Main.java
 public class Main {
-    public static void main(String args[]) {
-        double a = -0;
+  public static void main(String args[]) {
+    double a = -0;
 
-        System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
-    }
+    System.out.println("The result of log10(" + a + ") is: " + Math.log10(a));
+  }
 }
 ```
