@@ -22,14 +22,9 @@ The **`next()`** function returns the next element from an [iterator](https://ww
 ```py
 next(iterator_name, [default_parameter])
 ```
-***`Parameters:`*** 
-+ iterator_name: name given to the iterator that contain the set of values.
-+ default_parameter: [Optional], default value to be printed if end of iterator is reached.
+The required `iterator_name` parameter is the iterator object with the set of values. The `default_parameter` is optional and is printed if the end of the iterator is reached.
 
-***`Return:`*** 
-+ returns next element/value from the iterable object.
-    + _if missing prints the default value_
-    + _if default value is not set, triggers a StopIteration error_
+> **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
 
 ## **Example 1**
 
