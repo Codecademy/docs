@@ -46,7 +46,7 @@ print(next(listemsIt)) # Output on screen: 10
 
 ## Codebyte Example
 
-This code iterates the same list, but preventing it from aborting the program using a default parameter.
+This example iterates over the same list, but prevents the program from crashing the using a default parameter:
 
 ```codebyte/python
 list_items = iter(["Hi", 27, "Python", 10])
