@@ -19,7 +19,7 @@ The **`next()`** function returns the next element from an [iterator](https://ww
 
 ## Syntax
 
-```py
+```pseudo
 next(iterator_name, [default_parameter])
 ```
 The required `iterator_name` parameter is the iterator object with the set of values. The `default_parameter` is optional and is printed if the end of the iterator is reached.
