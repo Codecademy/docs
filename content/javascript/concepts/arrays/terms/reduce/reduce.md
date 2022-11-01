@@ -56,7 +56,7 @@ const arrayThree = [{x:1}, {x:2}, {x:4}];
 
 console.log(
   'Adding object values:',
-  arrayThree.reduce((arr, curr) => acc + curr.x, 0)
+  arrayThree.reduce((acc, curr) => acc + curr.x, 0)
 );
 ```
 
