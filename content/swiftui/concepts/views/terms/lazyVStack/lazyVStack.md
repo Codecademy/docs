@@ -22,7 +22,6 @@ var body: some View {
 }
 ```
 
-The `LazyVStack` view rests within the body of a `View`.
 
 ## Example
 
@@ -30,7 +29,7 @@ In the example below, a `ScrollView` contains a `LazyVStack` that consists of a 
 
 ```swift
 var body: some View {
-    ScrollView {
+    ScrollView(.vertical) {
         LazyVStack(alignment: .leading) {
             ForEach(1...100, id: \.self) {
                 Text("Row \($0)")
@@ -39,6 +38,11 @@ var body: some View {
     }
 }
 ```
+
+`ScrollView(.vertical)`displays the content within the scrollable region and adjusts what portion of the content is visible. It can scroll vertically  with `(.vertical)`, horizontally with `(.horizontal)` or both ways.
+`ForEach` is a method that takes two parameters, a `ClosedRange<Int>` and a ID so SwiftUI can identify each of your items uniquely in order to update the values when changed. In this case creates 100 subviews with the text "Row `\($0)`".
+`\($0)` is a short hand syntax used to reference the "first argument" in a closure.
+
 
 This will display the following:
 
