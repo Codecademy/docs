@@ -14,12 +14,12 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.sum()` function sums the elements of an array over a given axis.
+The **`.sum()`** function sums the elements of an array over a given axis.
 
 ## Syntax
 
 ```pseudo
-numpy.sum(a, axis, dtype, out, keepdims, inital, where)
+numpy.sum(a, axis, dtype, out, keepdims, initial, where)
 ```
 
 The `a` argument is required and represents the array of elements to sum. All other arguments are optional. Used by itself, `a` will result in a scalar that sums all the elements of the array.
