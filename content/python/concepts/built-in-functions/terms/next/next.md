@@ -44,7 +44,7 @@ print(next(listemsIt)) # Output on screen: Python
 print(next(listemsIt)) # Output on screen: 10
 ```
 
-## **Example 2**
+## Codebyte Example
 
 This code iterates the same list, but preventing it from aborting the program using a default parameter.
 
