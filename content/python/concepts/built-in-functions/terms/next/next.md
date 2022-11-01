@@ -30,18 +30,15 @@ The required `iterator_name` parameter is the iterator object with the set of va
 This code iterates a list containing four elements, printing each on screen by means of `next()` function.
 
 ```py
-listems = ['Hi', 27, 'Python', 10] # Here's the initial item's list
+list_items = iter(["Hi", 27, "Python", 10])
 
-listemsIt = iter(lisitems) # First of all, we need to convert list into an iterator
-print(listemsIt) # Shows the object reference of the iterator created
+print(next(list_items))
 
-print(next(listemsIt)) # Output on screen: Hi
+print(next(list_items))
 
-print(next(listemsIt)) # Output on screen: 27
+print(next(list_items))
 
-print(next(listemsIt)) # Output on screen: Python
-
-print(next(listemsIt)) # Output on screen: 10
+print(next(list_items))
 ```
 
 ## Codebyte Example
