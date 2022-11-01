@@ -62,7 +62,8 @@ print(next(list_items, "That's all folks"))
 
 print(next(list_items, "That's all folks"))
 ```
-If you let run the last print() without the default parameter, you´ll get a pretty Buzzz! :boom::boom:
+
+If the last `print()` runs without the default parameter,  a `StopIteration` error will be thrown.
 
 ---
 ***All these could be also done using a for loop. But, secret between you and me :secret:, the for loop actually generates an iterator object and uses the next() method for looping.*** :astonished::astonished::astonished:
