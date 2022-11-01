@@ -1,6 +1,6 @@
 ---
 Title: 'next()'
-Description: 'Returns the next element/value from an iterable object.'
+Description: 'Returns the next element from an iterable object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
