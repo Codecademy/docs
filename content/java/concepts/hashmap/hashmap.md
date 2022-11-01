@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Instances of the `HashMap` class implement the [`Map`](https://www.codecademy.com/resources/docs/java/Map) interface, which means that they store items as key-value pairs.
+Instances of the `HashMap` class implement the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means that they store items as key-value pairs.
 
 A `HashMap` is similar to a [`TreeMap`](https://www.codecademy.com/resources/docs/java/treemap). However, the `HashMap` stores its items sorted in no particular order. (Actually, it's sorted by the hashes of its keys, which for most purposes is essentially random.) This is due to the different storage types each collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The advantage of a `HashMap` is that its operations are much faster.
 
