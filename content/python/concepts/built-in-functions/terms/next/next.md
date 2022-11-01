@@ -16,17 +16,6 @@ CatalogContent:
 
 The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
-## **Goal** :dart:
-
-This entry tries to facilitate your comprehension of the Python `next()` function and how to use it properly to get the next item from an iterator object.
-
-## **Why next() function in Python?**
-
-It is a tool on the iterator that allows you to sequentially go through each element of it, using a common method included in every countable set named `iter()`.
-
-## **You need to know (maybe)**
-
-What is an **iterator**? An object that can contain any set of countable values of objects like [_lists, tuples, dictionaries, sets, strings_], traversing all of them if required.
 
 ## **Syntax**
 
