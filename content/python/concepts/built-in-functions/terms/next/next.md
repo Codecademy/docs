@@ -27,7 +27,7 @@ The required `iterator_name` parameter is the iterator object with the set of va
 
 ## Example
 
-This code iterates a list containing four elements, printing each on screen by means of `next()` function.
+In this example, a list called `list_items` is converted to an iterable object via the `iter()` function, and each element is printed by means of the `next()` function:
 
 ```py
 list_items = iter(["Hi", 27, "Python", 10])
