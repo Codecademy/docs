@@ -23,8 +23,8 @@ The **`Math.ceil()`** method returns the smallest (closest to negative infinity)
 Math.ceil(x)
 ```
 
-- `x` is a `double`.
-- `ceil` returns a `double`
+- The parameter `x` is of type [`double`](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html).
+- The `ceil` method returns a [`double`](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html)
 
 ## Example 1
 
