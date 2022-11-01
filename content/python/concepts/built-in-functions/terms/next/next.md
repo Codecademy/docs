@@ -14,6 +14,8 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
+The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
+
 ## **Goal** :dart:
 
 This entry tries to facilitate your comprehension of the Python `next()` function and how to use it properly to get the next item from an iterator object.
