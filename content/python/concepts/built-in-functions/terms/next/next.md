@@ -50,20 +50,17 @@ print(next(listemsIt)) # Output on screen: 10
 This code iterates the same list, but preventing it from aborting the program using a default parameter.
 
 ```codebyte/python
-listems = ['Hi', 27, 'Python', 10] # Here's the initial item's list
+list_items = iter(["Hi", 27, "Python", 10])
 
-listemsIt = iter(lisitems)
+print(next(list_items, "That's all folks"))
 
-print(next(listemsIt, "That's all folks")) # Output on screen: Hi
+print(next(list_items, "That's all folks"))
 
-print(next(listemsIt, "That's all folks")) # Output on screen: 27
+print(next(list_items, "That's all folks"))
 
-print(next(listemsIt, "That's all folks")) # Output on screen: Python
+print(next(list_items, "That's all folks"))
 
-print(next(listemsIt, "That's all folks")) # Output on screen: 10
-
-print(next(listemsIt, "That's all folks")) # Output on screen: That's all folks
-
+print(next(list_items, "That's all folks"))
 ```
 If you let run the last print() without the default parameter, you´ll get a pretty Buzzz! :boom::boom:
 
