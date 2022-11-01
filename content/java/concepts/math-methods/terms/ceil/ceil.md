@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.ceil()`** method returns the smallest (closest to negative infinity) double value that is a mathematical integer and greater than or equal to the original value.
+The **`Math.ceil()`** method returns the smallest (closest to negative infinity) `double` value that is a mathematical integer and greater than or equal to the original value.
 
 - The result is the same as the argument if the argument value is already equal to a mathematical integer.
 - The result is identical to the argument if the argument is NaN, +/- infinity, or +/- zero.
