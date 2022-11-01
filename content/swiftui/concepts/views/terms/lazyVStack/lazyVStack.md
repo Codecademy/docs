@@ -8,6 +8,9 @@ Tags:
   - 'SwiftUI'
   - 'SwiftUI Views'
   - 'Views'
+CatalogContent:
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 The **`LazyVStack`** has all the properties as a standard `VStack` but it will not create items until it needs to render them on screen. This comes very handy when creating long lists and can allow an app to run smoother and faster.

@@ -9,6 +9,9 @@ Tags:
   - 'SwiftUI'
   - 'SwiftUI Views'
   - 'Views'
+CatalogContent:
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 The **`LazyHStack`** view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed. This comes very handy when creating long lists and can allow an app to run smoother and faster.
