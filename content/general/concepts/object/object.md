@@ -18,9 +18,9 @@ CatalogContent:
 
 An **object** is an instance of a class. It contains the properties and functionalities of its class.
 
-Objects provide a structured programming approach and are the basic units of [Oject-Oriented-Programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP). By creating objects, the developer can easily create various identical objects and modify existing ones within the program.
+Objects provide a structured programming approach and are the basic units of [Oject-Oriented-Programming (OOP)](https://www.codecademy.com/resources/docs/general/object-oriented-programming). Developers can easily create various identical objects and modify existing ones within the program.
 
-Objects also provide `encapsulation`, meaning that the data within that object is protected from being altered or destroyed by other functions unless explicitly allowed.
+Objects also provide [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation), meaning that the data within that object is protected from being altered or destroyed by other functions unless explicitly allowed.
 
 ## Memory allocation
 
