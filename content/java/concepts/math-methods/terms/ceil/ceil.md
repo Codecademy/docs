@@ -31,7 +31,7 @@ Math.ceil(x)
 The following example demonstrates using `.ceil()`:
 
 ```java
-// Example1.java
+// Example.java
 public class Example {
   public static void main(String args[]) {
     Double value1 = 8.3;
@@ -55,7 +55,7 @@ This results in the following output:
 The following example demonstrates using `.ceil()` with negative numbers:
 
 ```java
-// Example1.java
+// Example.java
 public class Example {
   public static void main(String args[]) {
     Double value1 = -0.5;
