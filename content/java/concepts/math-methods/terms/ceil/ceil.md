@@ -2,14 +2,14 @@
 Title: '.ceil()'
 Description: 'Returns the smallest (closest to negative infinity) double value that is a mathematical integer and greater than or equal to the original value.'
 Subjects:
-- 'Computer Science'
-  Tags:
-- 'Methods'
-- 'Arithmetic'
-- 'Double'
-  CatalogContent:
-- 'learn-java'
-- 'paths/computer-science'
+  - 'Computer Science'
+Tags:
+  - 'Methods'
+  - 'Arithmetic'
+  - 'Double'
+CatalogContent:
+  - 'learn-java'
+  - 'paths/computer-science'
 ---
 
 The **`Math.ceil()`** method returns the smallest (closest to negative infinity) double value that is a mathematical integer and greater than or equal to the original value.
