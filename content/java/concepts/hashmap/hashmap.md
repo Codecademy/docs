@@ -19,25 +19,25 @@ A `HashMap` is similar to a [`TreeMap`](https://www.codecademy.com/resources/doc
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.HashMap
 
-HashMap<KeyDatatype, ValueDatatype> myHashMap = new HashMap<KeyDatatype, ValueDatatype>();
+HashMap<KeyDataType, ValueDataType> myHashMap = new HashMap<KeyDataType, ValueDataType>();
 ```
 
-The `HashMap` class comes from the `java.util` package. Therefore, it must be imported in order to be used. The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDatatype` and `ValueDatatype` can either be different or the same.
+The `HashMap` class comes from the `java.util` package, therefore, it must be imported in order to be used. The `HashMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDataType` and `ValueDataType` can either be different or the same.
 
 ## Accessing Items
 
 Keys are used for uniquely identifying a value in a `HashMap`. This allows for efficient data storage and easy access. In the example below, the course names are the keys and the teachers assigned are the values that can be accessed by passing the corresponding key into the `.get()` method.
 
 ```java
+// Main.java
 // Import the HashMap class
 import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
-
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
     // Add keys and values (CourseNames, Teacher)
@@ -45,8 +45,8 @@ public class Main {
     courseTeacher.put("Mathematics", "Jeanette");
     courseTeacher.put("Physics", "Lily");
 
-    System.out.println(courseTeacher.get("Physics"););
-    System.out.println(courseTeacher.get("History"););
+    System.out.println(courseTeacher.get("Physics"));
+    System.out.println(courseTeacher.get("History"));
   }
 }
 ```
@@ -93,7 +93,6 @@ import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
-
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
     courseTeacher.put("History", "Ben");
@@ -121,7 +120,6 @@ import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
-
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
     courseTeacher.put("History", "Ben");
@@ -142,14 +140,13 @@ An empty `HashMap` will be displayed in the output below:
 
 ## Traversing a `HashMap`
 
-A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
+A `HashMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys, while the `.values()` method can be used to obtain only values.
 
 ```java
 import java.util.HashMap;
 
 public class Main {
   public static void main(String[] args) {
-
     HashMap<String, String> courseTeacher = new HashMap<String, String>();
 
     courseTeacher.put("History", "Ben");
