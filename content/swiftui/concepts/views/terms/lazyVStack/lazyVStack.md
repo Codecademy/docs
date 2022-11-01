@@ -1,5 +1,5 @@
 ---
-Title: 'Lazy VStack'
+Title: 'LazyVStack'
 Description: 'A view that arranges its children in a line that grows vertically, creating items only as needed.'
 Subjects:
   - 'Mobile Development'
@@ -10,7 +10,7 @@ Tags:
   - 'Views'
 ---
 
-The **`Lazy VStack`** has all the properties as a standard VStack **BUT** it will not create items until it needs to render them on screen. This comes very handy when creating long lists and your app can run smoother and faster.
+The **`LazyVStack`** has all the properties as a standard `VStack` but it will not create items until it needs to render them on screen. This comes very handy when creating long lists and can allow an app to run smoother and faster.
 
 ## Syntax
 
@@ -22,15 +22,14 @@ var body: some View {
 }
 ```
 
-
 ## Example
 
-In the example below, a `ScrollView` contains a `LazyVStack` that consists of a vertical row of text views. The `LazyVStack` will create the rows only when they are needed.
+In the example below, a `ScrollView` contains a `LazyVStack` that consists of a vertical row of text views:
 
 ```swift
 var body: some View {
     ScrollView(.vertical) {
-        LazyVStack(alignment: .leading) {
+        LazyVStack(alignment: .center) {
             ForEach(1...100, id: \.self) {
                 Text("Row \($0)")
             }
@@ -39,10 +38,9 @@ var body: some View {
 }
 ```
 
-`ScrollView(.vertical)`displays the content within the scrollable region and adjusts what portion of the content is visible. It can scroll vertically  with `(.vertical)`, horizontally with `(.horizontal)` or both ways.
-`ForEach` is a method that takes two parameters, a `ClosedRange<Int>` and a ID so SwiftUI can identify each of your items uniquely in order to update the values when changed. In this case creates 100 subviews with the text "Row `\($0)`".
-`\($0)` is a short hand syntax used to reference the "first argument" in a closure.
-
+- `ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.vertical`, which allows for vertical scrolling.
+- `ForEach` is a method that takes two parameters, a `ClosedRange<Int>` and an `id` so SwiftUI can identify each of the items uniquely in order to update the values when changed. In this case, 100 `Text` subviews are created.
+- `$0` is a short hand syntax used to reference the first argument in a closure.
 
 This will display the following:
 
