@@ -41,6 +41,8 @@ print(next(list_items))
 print(next(list_items))
 ```
 
+This outputs the following:
+
 ## Codebyte Example
 
 This example iterates over the same list, but prevents the program from crashing the using a default parameter:
