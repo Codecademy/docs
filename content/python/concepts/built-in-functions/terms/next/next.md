@@ -29,7 +29,7 @@ The required `iterator_name` parameter is the iterator object with the set of va
 
 This code iterates a list containing four elements, printing each on screen by means of `next()` function.
 
-```codebyte/python
+```py
 listems = ['Hi', 27, 'Python', 10] # Here's the initial item's list
 
 listemsIt = iter(lisitems) # First of all, we need to convert list into an iterator
