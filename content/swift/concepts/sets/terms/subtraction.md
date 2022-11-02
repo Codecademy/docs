@@ -27,6 +27,7 @@ let produce: Set = ["Lettuce", "Apples", "Carrots", "Bananas", "Brocolli", "Onio
 let fruit: Set = ["Apples", "Bananas"]
 produce.subtract(fruit)
 print(produce)
+```
 
 This will output:
 
