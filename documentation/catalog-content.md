@@ -23,6 +23,13 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 - "paths/computer-science"
 ```
 
+### Command Line
+
+```
+- "learn-the-command-line"
+- "paths/computer-science"
+```
+
 ### CSS
 
 ```
