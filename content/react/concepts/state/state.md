@@ -1,6 +1,6 @@
 ---
 Title: 'State'
-Description: 'The state object holds data in a component that is expected to change over time. It is created and maintained by the component itself, and when it changes, the component re-renders.'
+Description: 'The state object is where we store data in a component that is expected to change over time. When the state object changes, the component re-renders.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -13,43 +13,50 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `state` object is where we store data in a component that is expected to change over time. When the `state` object changes, the component re-renders.
+The **`state`** object holds data in a [component](https://www.codecademy.com/resources/docs/react/components) that is expected to change over time. It is created and maintained by the component itself, and when it changes, the component re-renders.
 
 [Props](https://www.codecademy.com/resources/docs/react/props) are passed down by parent components, whereas state is created and maintained by the component itself.
 
 Class and functional components handle state differently. Functional components use [hooks](https://www.codecademy.com/resources/docs/react/hooks) to manage state. The following will address how class components manage state.
 
-## Creating the `state` Object
+## Syntax
 
-The `state` object is initialized in the component's `constructor()`:
-
-```js
-class Car extends React.Component {
+```pseudo
+class ComponentName extends React.Component {
+  // With constructor
   constructor(props) {
     super(props);
-    // The state object
     this.state = {
-      brand: 'Chevrolet',
-      model: 'Malibu',
-      color: 'white',
-      year: 1998,
+      property: value,
     };
   }
+
+  // With property initializer
+  state = {
+    property: value,
+  };
+
   render() {
     return (
-      <div>
-        <h1>My First Car</h1>
-      </div>
+      /* Value of property is rendered */
+      <div>{this.state.property}</div>
     );
   }
 }
 ```
 
-## Using the `state` Object
+The snippet above features two common ways of initializing state in a class component:
 
-Refer to the `state` object in the `render()` method:
+- The `constructor()` method assigns a new object to `this.state`.
+- A `state` object is directly assigned with property initializers.
 
-```js
+Only one of these two ways can be applied when making a class component.
+
+## Example
+
+The following example initializes the `state` object in the component's `constructor()` and returns its value in the `render()` method:
+
+```jsx
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -60,6 +67,7 @@ class Car extends React.Component {
       year: 1998,
     };
   }
+
   render() {
     return (
       <div>
@@ -76,10 +84,24 @@ class Car extends React.Component {
 }
 ```
 
+With property initializers, it is not necessary to set state or bind methods in the constructor:
+
+```jsx
+class Car extends React.Component {
+  // No need to use constructor
+  state = {
+    brand: 'Chevrolet',
+    model: 'Malibu',
+    color: 'white',
+    year: 1998,
+  };
+
+  // Same renderd JSX
+}
+```
+
 It will appear like this:
 
 ![React State Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/react-state-example.png)
 
-## Caution
-
-When React component’s state is updated, it will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
+> **Note:** When the state is updated, the component will automatically re-render. This means that the state should never be updated in a `render()` method because it will cause an infinite loop.
