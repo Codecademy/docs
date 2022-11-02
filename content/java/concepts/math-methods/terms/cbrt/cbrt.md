@@ -25,8 +25,8 @@ Math.cbrt(double num)
 The `Math.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number.
 
 Edge cases for the `.cbrt()` function include:
--If the argument is `NaN`, then `.cbrt()` will return `NaN`
--If the argument is infinite, then `.cbrt()` will return infinity with a matching sign as the argument
+- If the argument is `NaN`, then `.cbrt()` will return `NaN`
+- If the argument is infinite, then `.cbrt()` will return infinity with a matching sign as the argument
 
 ## Example
 
@@ -35,11 +35,13 @@ Here is an example of the `Math.cbrt()` method:
 ```java
 public class Main {
     public static void main(String[] args) {
+
         double a = 27.0;
-        System.out.println("Math.cbrt("+a") returns: " + Math.cbrt(a));
+        System.out.println( "Math.cbrt("+a") returns: " + Math.cbrt(a) );
 
         double b = -8.0;
-        System.out.println("Math.cbrt("+b") returns: " + Math.cbrt(b));
+        System.out.println( "Math.cbrt("+b") returns: " + Math.cbrt(b) );
+        
     }
 }
 ```
