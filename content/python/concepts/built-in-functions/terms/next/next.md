@@ -15,17 +15,6 @@ CatalogContent:
 
 The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
-The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
-
-The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
-
-The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
-
-The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
-
-The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
-
-
 ## Syntax
 
 ```pseudo
@@ -51,17 +40,13 @@ print(next(list_items))
 print(next(list_items))
 ```
 
-This outputs the following:
+This outputs the following: Hi
 
-This outputs the following:
+This outputs the following: 27
 
-This outputs the following:
+This outputs the following: Python
 
-This outputs the following:
-
-This outputs the following:
-
-This outputs the following:
+This outputs the following: 10
 
 ## Codebyte Example
 
