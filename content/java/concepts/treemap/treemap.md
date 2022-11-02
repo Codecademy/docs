@@ -14,11 +14,11 @@ CatalogContent:
 
 A `TreeMap` uses the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means it stores items as key-value pairs.
 
-They are like the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap), however, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. The tradeoff for this natural ordering of the `TreeMap` is that its operations are slower than a `HashMap`.
+They are like the [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap), however, the `TreeMap` stores its items sorted by the natural ordering of its keys. This is due to the differing means of storage each type of collection uses internally. The `HashMap` stores its keys as hashes for lookup, whereas the `TreeMap` stores its keys in a binary tree structure for lookup. A binary tree structure is a type of tree data structure with at most two children nodes per parent. The tradeoff for this natural ordering of the `TreeMap` is that its operations are slower than a `HashMap`. 
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.TreeMap
 
 TreeMap<KeyDataType, ValueDataType> myTreeMap = new TreeMap<KeyDataType, ValueDataType>();
