@@ -28,19 +28,25 @@ Edge cases for the `.cbrt()` function include:
 -If the argument is `NaN`, then `.cbrt()` will return `NaN`
 -If the argument is infinite, then `.cbrt()` will return infinity with a matching sign as the argument
 
-## Subsection 2
+## Example
 
-[Text about subsection 2]
+Here is an example of the `Math.cbrt()` method:
 
-## Subsection n
+```java
+public class Main {
+    public static void main(String[] args) {
+        double a = 27.0;
+        System.out.println("Math.cbrt("+a") returns: " + Math.cbrt(a));
 
-[Text about subsection n]
+        double b = -8.0;
+        System.out.println("Math.cbrt("+b") returns: " + Math.cbrt(b));
+    }
+}
+```
 
-## Codebyte Example (if applicable)
+This will result in the following output:
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+```
+Math.cbrt(27.0) returns: 3.0
+Math.cbrt(-8.0) returns: -2.0
 ```
