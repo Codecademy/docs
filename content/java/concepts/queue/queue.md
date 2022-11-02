@@ -35,8 +35,8 @@ The `Queue` interface utilizes the following methods:
 - `.offer()` : `.offer(item)` adds `item` to the `Queue` if possible, otherwise it returns `false`.
 - `.remove()` : removes and returns the head item of the `Queue`, throwing an exception when the `Queue` is empty.
 - `.poll()` : removes and returns the head item of the `Queue`, returning `null` if the `Queue` is empty.
-- `.element()` : returns the head of the `Queue` without removing it.
-- `.peek()` : returns the head of the `Queue` without removing it.
+- `.element()` : returns the head of the `Queue` without removing it, throwing and exception when the `Queue` is empty.
+- `.peek()` : returns the head of the `Queue` without removing it, returning `null` if the `Queue` is empty.
 
 ## Example
 
