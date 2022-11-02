@@ -53,6 +53,8 @@ This outputs the following:
 
 This outputs the following:
 
+This outputs the following:
+
 ## Codebyte Example
 
 This example iterates over the same list, but prevents the program from crashing the using a default parameter:
