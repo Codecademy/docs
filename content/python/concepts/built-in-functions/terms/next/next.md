@@ -17,6 +17,8 @@ The **`next()`** function returns the next element from an [iterator](https://ww
 
 The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
+The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
+
 
 ## Syntax
 
