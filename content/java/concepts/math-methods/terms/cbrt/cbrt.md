@@ -14,11 +14,19 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/computer-science'
 ---
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+The **`Math.cbrt()`** method returns the cubed root of a double value.
 
-## Subsection 1
+## Syntax
 
-[Text about subsection 1]
+```pseudo
+Math.cbrt(double num)
+```
+
+The `Math.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number.
+
+Edge cases for the `.cbrt()` function include:
+-If the argument is `NaN`, then `.cbrt()` will return `NaN`
+-If the argument is infinite, then `.cbrt()` will return infinity with a matching sign as the argument
 
 ## Subsection 2
 
