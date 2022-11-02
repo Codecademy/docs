@@ -17,7 +17,7 @@ The **`.subtract()`** method subtracts the elements in the given set from the ta
 ## Syntax
 
 ```pseudo
-targeSet.subtract(givenSet)
+targetSet.subtract(givenSet)
 ```
 
 ## Example
