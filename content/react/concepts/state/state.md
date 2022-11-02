@@ -38,7 +38,7 @@ class ComponentName extends React.Component {
 
   render() {
     return (
-      /* value of property is rendered */
+      /* Value of property is rendered */
       <div>{this.state.property}</div>
     );
   }
@@ -88,7 +88,7 @@ With property initializers, it is not necessary to set state or bind methods in 
 
 ```jsx
 class Car extends React.Component {
-  /* no need to use constructor */
+  /* No need to use constructor */
   state = {
     brand: 'Chevrolet',
     model: 'Malibu',
@@ -96,7 +96,7 @@ class Car extends React.Component {
     year: 1998,
   };
 
-  /* same renderd JSX */
+  /* Same renderd JSX */
 }
 ```
 
