@@ -22,11 +22,9 @@ The **`Math.cbrt()`** method returns the cubed root of a double value.
 Math.cbrt(double num)
 ```
 
-The `Math.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number.
-
-Edge cases for the `.cbrt()` function include:
+The `Math.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number. Edge cases for the `.cbrt()` function include:
 - If the argument is `NaN`, then `.cbrt()` will return `NaN`
-- If the argument is infinite, then `.cbrt()` will return infinity with a matching sign as the argument
+- If the argument is ±infinity, then `.cbrt()` will return ±infinity
 
 ## Example
 
@@ -41,7 +39,7 @@ public class Main {
 
         double b = -8.0;
         System.out.println( "Math.cbrt("+b") returns: " + Math.cbrt(b) );
-        
+
     }
 }
 ```
