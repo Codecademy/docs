@@ -23,7 +23,7 @@ Class and functional components handle state differently. Functional components 
 
 ```pseudo
 class ComponentName extends React.Component {
-  /* With constructor */
+  // With constructor
   constructor(props) {
     super(props);
     this.state = {
@@ -31,7 +31,7 @@ class ComponentName extends React.Component {
     };
   }
 
-  /* With property initializer
+  // With property initializer
   state = {
     property: value,
   };
@@ -88,7 +88,7 @@ With property initializers, it is not necessary to set state or bind methods in 
 
 ```jsx
 class Car extends React.Component {
-  /* No need to use constructor */
+  // No need to use constructor
   state = {
     brand: 'Chevrolet',
     model: 'Malibu',
@@ -96,7 +96,7 @@ class Car extends React.Component {
     year: 1998,
   };
 
-  /* Same renderd JSX */
+  // Same renderd JSX
 }
 ```
 
