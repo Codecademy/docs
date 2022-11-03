@@ -30,7 +30,7 @@ struct MyView: View {
 }
 ```
 
-Here the `font(_:)` `modifier` is being called on the text: `Text("Hello World")`, which, replaces the original "Hello World" text with a new "**Hello World**" text. In this way the `modifier` method `bold(_:)` has been called on a view, and returned a new, altered view.
+Here the `bold(_:)` `modifier` is being called on the text: `Text("Hello World")`, which, replaces the original "Hello World" text with a new "**Hello World**" text. In this way the `modifier` method `bold(_:)` has been called on a view, and returned a new, altered view.
 
 ## Example
 
