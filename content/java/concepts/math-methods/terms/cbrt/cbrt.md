@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/computer-science'
 ---
 
-The **`Math.cbrt()`** method returns the cubed root of a double value.
+The **`Math.cbrt()`** method returns the cubed root of a `double` value.
 
 ## Syntax
 
