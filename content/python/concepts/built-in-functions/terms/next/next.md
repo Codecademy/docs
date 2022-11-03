@@ -66,6 +66,6 @@ print(next(list_items, "That's all folks"))
 print(next(list_items, "That's all folks"))
 ```
 
-If the last `print()` runs without the default parameter,  a `StopIteration` error will be thrown.
+If the last `print()` runs without the default parameter, a `StopIteration` error will be thrown.
 
 > **Note:** This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element.
