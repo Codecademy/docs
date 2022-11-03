@@ -1,6 +1,6 @@
 ---
-Title: '.subtract()'
-Description: 'Removes the elements in the given set from the target set.'
+Title: '.subtracting()'
+Description: 'Returns a new set containing the elements in the target set that are not in the given set.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.subtract()`** method subtracts the elements in the given set from the target set.
+The **`.subtracting()`** method subtracts the elements in the given set from the target set.
 
 ## Syntax
 
 ```pseudo
-targetSet.subtract(givenSet)
+targetSet.subtracting(givenSet)
 ```
 
 ## Example
@@ -25,8 +25,8 @@ targetSet.subtract(givenSet)
 ```swift
 let produce: Set = ["Lettuce", "Apples", "Carrots", "Bananas", "Brocolli", "Onion"]
 let fruit: Set = ["Apples", "Bananas"]
-produce.subtract(fruit)
-print(produce)
+let veggies = produce.subtracting(fruit)
+print(veggies)
 ```
 
 This will output:
