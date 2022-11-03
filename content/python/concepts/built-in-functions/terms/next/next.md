@@ -1,6 +1,6 @@
 ---
 Title: 'next()'
-Description: 'Returns the next element/value from an iterable object.'
+Description: 'Returns the next element from an iterable object.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -10,76 +10,59 @@ Tags:
   - 'Collections'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
   - 'paths/data-science'
 ---
-
-## **Goal** :dart:
-
-This entry tries to facilitate your comprehension of the Python `next()` function and how to use it properly to get the next item from an iterator object.
-
-## **Why next() function in Python?**
-
-It is a tool on the iterator that allows you to sequentially go through each element of it, using a common method included in every countable set named `iter()`.
-
-## **You need to know (maybe)**
-
-What is an **iterator**? An object that can contain any set of countable values of objects like [_lists, tuples, dictionaries, sets, strings_], traversing all of them if required.
-
-## **Syntax**
-
-```py
+The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
+## Syntax
+```pseudo
 next(iterator_name, [default_parameter])
 ```
-***`Parameters:`*** 
-+ iterator_name: name given to the iterator that contain the set of values.
-+ default_parameter: [Optional], default value to be printed if end of iterator is reached.
-
-***`Return:`*** 
-+ returns next element/value from the iterable object.
-    + _if missing prints the default value_
-    + _if default value is not set, triggers a StopIteration error_
-
-## **Example 1**
-
-This code iterates a list containing four elements, printing each on screen by means of `next()` function.
-
-```codebyte/python
-listems = ['Hi', 27, 'Python', 10] # Here's the initial item's list
-
-listemsIt = iter(lisitems) # First of all, we need to convert list into an iterator
-print(listemsIt) # Shows the object reference of the iterator created
-
-print(next(listemsIt)) # Output on screen: Hi
-
-print(next(listemsIt)) # Output on screen: 27
-
-print(next(listemsIt)) # Output on screen: Python
-
-print(next(listemsIt)) # Output on screen: 10
+The required `iterator_name` parameter is the iterator object with the set of values. The `default_parameter` is optional and is printed if the end of the iterator is reached.
+> **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
+## Example 1
+In this example, a list called `list_items` is converted to an iterable object via the `iter()` function, and each element is printed by means of the `next()` function:
+```py
+list_items = iter(["Hi", 27, "Python", 10])
+print(next(list_items))
+print(next(list_items))
+print(next(list_items))
+print(next(list_items))
 ```
-
-## **Example 2**
-
-This code iterates the same list, but preventing it from aborting the program using a default parameter.
-
-```codebyte/python
-listems = ['Hi', 27, 'Python', 10] # Here's the initial item's list
-
-listemsIt = iter(lisitems)
-
-print(next(listemsIt, "That's all folks")) # Output on screen: Hi
-
-print(next(listemsIt, "That's all folks")) # Output on screen: 27
-
-print(next(listemsIt, "That's all folks")) # Output on screen: Python
-
-print(next(listemsIt, "That's all folks")) # Output on screen: 10
-
-print(next(listemsIt, "That's all folks")) # Output on screen: That's all folks
-
+This outputs the following:
+```shell
+Hi
+27
+Python
+10
+## Example 2
+This example iterates over the same list, but prevents the program from crashing the using a default parameter:
+```py
+list_items = iter(["Hi", 27, "Python", 10])
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
 ```
-If you let run the last print() without the default parameter, you´ll get a pretty Buzzz! :boom::boom:
-
----
-***All these could be also done using a for loop. But, secret between you and me :secret:, the for loop actually generates an iterator object and uses the next() method for looping.*** :astonished::astonished::astonished:
+This outputs the following:
+```shell
+Hi
+27
+Python
+10
+That´s all folks 
+> **Note:** If the last `print()` runs without the default parameter, a `StopIteration` error will be thrown.
+## Codebyte Example
+This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element.
+```codebyte/python
+list_items = iter(["Hi", 27, "Python", 10])
+for item in list_items:
+    print(item)
+```
+This outputs the following as expected:
+```shell
+Hi
+27
+Python
+10
+> **Note:** As you can see there is no risk of overflowing the list, so no default parameter is needed.
