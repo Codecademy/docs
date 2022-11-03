@@ -65,4 +65,5 @@ struct ContentView: View {
 Each time a user presses the Button, the variable `codingStreakCount` will increase by one.
 
 This code creates this output:
-![alt text](https://github.com/AustinWheel/firstRep/ExampleCode.png) "Example Code"
+
+![alt text](https://github.com/AustinWheel/firstRep/blob/main/ExampleCode.png)
