@@ -60,6 +60,7 @@ struct ContentView: View {
         .padding()
     }
 }
+```
 
 Each time a user presses the Button, the variable `codingStreakCount` will increase by one.
 
