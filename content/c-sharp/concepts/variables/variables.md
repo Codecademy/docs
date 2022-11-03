@@ -37,7 +37,7 @@ In this case, the variable `name` will be set to the value `value`.
 ## Example
 
 ```cs
-Using System
+using System;
 
 public class Example
 {

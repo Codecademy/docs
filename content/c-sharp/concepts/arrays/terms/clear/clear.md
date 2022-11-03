@@ -23,11 +23,11 @@ Array.Clear(myArray);
 Array.Clear(myArray, index, N);
 ```
 
-`.Clear()` is a static method of the `Array` object. When it is called with just an array as an argument, it clears the whole array. When it is called with an array, a start index, and a number, it clears the number amount of elements in the array starting from the start index.
+`.Clear()` is a static method of the `Array` object. When it is called with just an array as an argument, it clears the whole array. When it is called with an array, a start index, and a number, it clears `N` amount of elements in the array starting from the specified `index` by zeroing, falsifying, or nulling out all the elements (depending on the array's element type).
 
 ## Example
 
-The following example initializes `myArray` with values, then clears it:
+The following example initializes `myArray` with values, and clears it from a specified index; the number of elements cleared is set to the length of the array using the [`.Length`](https://www.codecademy.com/resources/docs/c-sharp/arrays/length) property:
 
 ```cs
 using System;
@@ -38,7 +38,7 @@ public class Example
   {
     int[] myArray = {0, 1, 2, 3, 4};
 
-    Array.Clear(myArray);
+    Array.Clear(myArray, 0, myArray.Length);
 
     System.Console.WriteLine(myArray[2]); // Output: 0
   }
