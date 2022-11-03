@@ -29,7 +29,7 @@ Operators can be organized into the following groups:
 - Arithmetic operators for performing traditional math evaluations.
 - Assignment operators for assigning values to variables.
 - Comparison operators for comparing two values.
-- Logical operators for combining Boolean values.
+- Logical operators for combining `Boolean` values.
 - [Bitwise operators](https://www.codecademy.com/resources/docs/general/bitwise-operator) for manipulating the bits of a number.
 
 ## Arithmetic Operators
