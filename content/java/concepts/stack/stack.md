@@ -33,12 +33,12 @@ The `Stack` class provides the following methods:
 - `.push()` : `.push(item)`  adds  `item`  onto the top of the  `Stack`  .
 - `.pop()` : removes and returns the object at the top of the  `Stack`, throwing an exception when the `Stack` is empty.
 - `.peek()` : returns the head (top) of the `Stack` without removing it. It throws an exception when the `Stack` is empty.
-- `empty()` : returns `true` if the `Stack` contains no items. Otherwise, it returns `false`.
-- `search(item)` : returns the distance of the item from the top of the stack, starting from `1`. A `-1` value is returned if the item is not on the stack.
+- `.empty()` : returns `true` if the `Stack` contains no items. Otherwise, it returns `false`.
+- `.search(item)` : returns the distance of `item` from the top of the stack, starting from `1`. A `-1` value is returned if `item` is not on the stack.
 
 ## Example
 
-The following example showcases the `Stack` class:
+The following example demonstrates the `Stack` class:
 
 ```java
 import java.util.Stack;
@@ -82,6 +82,6 @@ As stated in the JDK documentation, `Deque` interface should be used in preferen
 
 |Stack method| Equivalent Deque method |
 |:--:|:--:|
-| `.push(item)` | `addFirst(item)` |
-| `pop()` | `removeFirst()`  |
-| `peek()` | `getFirst()` |
+| `.push(item)` | `.addFirst(item)` |
+| `.pop()` | `.removeFirst()`  |
+| `.peek()` | `.getFirst()` |
