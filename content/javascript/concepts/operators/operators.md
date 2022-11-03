@@ -175,3 +175,64 @@ let isDuck = (walksLikeADuck && talksLikeADuck) ? "It's a duck" : "It's not a du
 
 console.log(isDuck);
 ```
+
+The ternary operator can also perform multiple steps based on a certain condition, similar to the IF/ELSE condition statement.
+
+For example, the following IF/ELSE statement...
+
+```js
+let i = true;
+let a = 0;
+let b = 0;
+
+if (i == true) {
+    a++;
+    b++;
+} else {
+    a = 0;
+    b = 0;
+}
+```
+
+...can be translated into the following two-step ternary operator!
+
+```js
+let i = true;
+let a = 0;
+let b = 0;
+
+i == true ? (a++, b++) : (a = 0, b = 0);
+console.log('a = ', a, 'b = ', b);
+```
+
+The ternary operator can also perform as many steps as you prefer.
+
+```js
+let i = true;
+let a = 0;
+let b = 0;
+let c = 0;
+//...
+
+i == true ? (a++, b++, c++) : (a = 0, b = 0, c = 0);
+console.log('a = ', a, 'b = ', b, 'c = ', c);
+```
+
+The key point to focus on is the syntax. Pay special attention to where the `()`s are placed. A developer may make the mistake of using too many `()`s or placing the `()`s incorrectly, as shown below.
+
+The following ternary operator will result in a SyntaxError:
+
+```js
+let i = true;
+
+// This implementation will fail
+i == true ? (a++), (b++) : (a = 0), (b = 0);
+console.log('a = ', a, 'b = ', b);
+
+// Output:
+// i == true ? (a++), (b++) : (a = 0), (b = 0);
+//                  ^
+// SyntaxError: Unexpected token ','
+```
+
+Although ternary operator and IF/ELSE performances speeds are [roughly the same](https://stackoverflow.com/questions/2586842/is-ternary-operator-if-else-or-logical-or-faster-in-javascript#:~:text=test%20was%20fair-,Here%27s%20my%20jsperf,-result%3A), using multi-step ternary operators can help consolidate several lines of code, thus reducing file size and download time in the browser.
