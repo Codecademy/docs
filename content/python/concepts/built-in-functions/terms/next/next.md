@@ -20,6 +20,7 @@ The **`next()`** function returns the next element from an [iterator](https://ww
 ```pseudo
 next(iterator_name, [default_parameter])
 ```
+
 The required `iterator_name` parameter is the iterator object with the set of values. The `default_parameter` is optional and is printed if the end of the iterator is reached.
 
 > **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
