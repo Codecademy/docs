@@ -14,6 +14,8 @@ CatalogContent:
 
 The **`.first()`** method returns the first element of the sequence that satisfies predicate, or nil if there is no element that satisfies predicate.
 
+> **Note:**`.first()` is an array method while `.first` is an array property. For details about the `.first` array property see the bottom part of this document.
+
 ## Syntax
 
 ```pseudo
@@ -40,22 +42,6 @@ In the example above, the `.first()` method is searching through the `values` ar
 ```shell
 6
 ```
-
----
-> **Note:** `.first` is an array property while `.first()` is an array method.
----
-Title: '.first'
-Description: 'Returns the first element of the sequence.'
-Subjects:
-
-- 'iOS'
-- 'Mobile Development'
-Tags:
-- 'Arrays'
-- 'Properties'
-CatalogContent:
-- 'learn-swift'
-- 'paths/build-ios-apps-with-swiftui'
 
 ---
 
