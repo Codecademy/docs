@@ -21,7 +21,7 @@ The `cmath` library must be added at the top of the file.
 std::signbit(n);
 ```
 
-Argument `n` must be of type `double`/`float`/`long double`/`int`, and the return value will be of that type. This function also detects the signs of zeroes, infinities and `NaN`s.
+Argument `n` must be of type `double`/`float`/`long double`/`int`, and the return value will be of that type. This function also detects the signs of zeroes, infinities, and `NaN`s.
 
 ## Example
 
