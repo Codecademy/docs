@@ -37,7 +37,7 @@ int main()
     double c = a/b;
 
     // If c is false, print out that it tends to positive infinity.
-    if (std::signbit(c)==false)
+    if (std::signbit(c) == false)
     {
         std::cout << "c tends to positive infinity";
     }
