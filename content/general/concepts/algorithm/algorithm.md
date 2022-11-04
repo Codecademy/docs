@@ -1,6 +1,6 @@
 ---
 Title: 'Algorithm'
-Description: 'An algorithm is a formal process used to solve a problem. Algorithms can be represented in a number of formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle. Ultimately algorithms are implemented in programming languages which allow them to manipulate data in the ways that the algorithms are intended to. Algorithms are measured in "Big O notation". The word algorithm comes from "Algorismus" which is a latinized name of the influential 10th century polymath Muhammad ibn Musa al-Khwarizmi. There are many ways to classify algorithms but one of the best ways to do so is by analysis of its complexity. Algorithms can be categorized by their time complexities: - Exponential time: If the time is an exponential function of the input size. - Brute-force search. - Polynomial time: If the time is a power of the input size.'
+Description: 'An algorithm is a formal process used to solve a problem. They can be represented in several formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-An algorithm is a formal process used to solve a problem. Algorithms can be represented in a number of formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle. Ultimately algorithms are implemented in programming languages which allow them to manipulate data in the ways that the algorithms are intended to. Algorithms are measured in "Big O notation".
+An **algorithm** is a formal process used to solve a problem. Algorithms can be represented in several formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle. Ultimately algorithms are implemented in programming languages that allow them to manipulate data in the ways that the algorithms are intended to. Algorithms are measured in "Big O notation".
 
-The word algorithm comes from "Algorismus" which is a latinized name of the influential 10th century polymath Muhammad ibn Musa al-Khwarizmi.
+The word algorithm comes from "Algorismus" which is a Latinized name of the influential 10th-century polymath Muhammad ibn Musa al-Khwarizmi.
 
-There are many ways to classify algorithms but one of the best ways to do so is by analysis of its complexity.
+There are many ways to classify algorithms but one of the best ways to do so is by analysis of their complexity.
 
 ## Time Complexities
 
