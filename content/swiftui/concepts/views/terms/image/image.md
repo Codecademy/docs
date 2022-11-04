@@ -30,7 +30,7 @@ A text label can be added to the `image` and the `image` can be changed to fit t
 
 The following example adds the codecademy logo clipped to a circle shape:
 
-Once the `image` you would like to use has been added to the 'Assets' (Assets.xcassets) section of your correspoding project it can be called upon.
+Once the `image` to be used has been added to the 'Assets' (Assets.xcassets) section of the corresponding project, it can be called upon.
 
 ```swift
 var body: some View {
