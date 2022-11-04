@@ -49,9 +49,9 @@ int main()
 }
 ```
 
-## Codecademy Example
+## Codebyte Example
 
-Use `signbit()` and outputs a string about whether the integer is positive or negative:
+The example below outputs a string about whether the integer is positive or negative:
 
 ```codebyte/cpp
 #include <iostream>
