@@ -18,7 +18,7 @@ The **`nearbyint()`** function returns the argument rounded to the closest integ
 ```pseudo
 nearbyint(value)
 ```
-The function accepts a `value` parameter that represents a positive or negative floating-point value. The current rounding method, as described by `fegetround()`, determines which direction the `value` is rounded. By default, the rounding direction is set as `FE_TONEAREST`.
+The `value` parameter represents a positive or negative floating-point value. The current rounding method, as described by `fegetround()`, determines which direction the `value` is rounded. By default, the rounding direction is set as `FE_TONEAREST`.
 
 ### Example
 
@@ -29,15 +29,19 @@ The following example returns the nearby integer of `1.5`:
 #include <cmath>
 
 int main(){
-    double value = 1.50;
-    int result;
-    result = std::nearbyint(value);
+  double value = 1.50;
+  int result;
+  result = std::nearbyint(value);
 
-    std::cout << "Nearest value is " << result << "\n";
+  std::cout << "Nearest value is " << result << "\n";
     // Output: Nearest value is 2
 }
 ```
+This will produce the following output:
 
+```
+Nearest value is 2
+```
 ### Codebyte Example
 
 The following example returns the nearby integer of `2.9`:
@@ -47,10 +51,10 @@ The following example returns the nearby integer of `2.9`:
 #include <cmath>
 
 int main(){
-    float value = 2.9;
-    int result;
-    result = std::nearbyint(value);
+  float value = 2.9;
+  int result;
+  result = std::nearbyint(value);
 
-    std::cout << "Nearest value is " << result << "\n";
+  std::cout << "Nearest value is " << result << "\n";
 }
 ```
