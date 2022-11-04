@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.empty()` method returns `true` if the [size](https://www.codecademy.com/resources/docs/cpp/queues/size) of the queue is 0. Otherwise, it returns `false`.
+The **`.empty()`** method returns `true` if the [size](https://www.codecademy.com/resources/docs/cpp/queues/size) of the queue is 0. Otherwise, it returns `false`.
 
 ## Syntax
 
@@ -31,7 +31,8 @@ The following codebyte example checks whether the `temperatures` queue is empty 
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declare queue
   std::queue<int> temperatures;
 
@@ -42,10 +43,12 @@ int main() {
   temperatures.push(83);
 
   // Check if queue is empty
-  if (temperatures.empty()) {
+  if (temperatures.empty())
+  {
     std::cout << "The queue is empty.";
   }
-  else {
+  else
+  {
     std::cout << "The queue is not empty.";
   }
 }
