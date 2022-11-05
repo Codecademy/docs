@@ -1,5 +1,5 @@
 ---
-Title: 'NPM'
+Title: 'npm'
 Description: 'Node Package Manager (npm) is an extensive collection of JavaScript packages to enhance projects and add complex functionality with ease.'
 Subjects:
   - 'Bash/Shell'
@@ -34,13 +34,13 @@ On [the npm registry](https://www.npmjs.com/), all public packages can be search
 
 As a command-line tool, npm comes with a litany of commands for working with packages. One of the most common npm commands is:
 
-```shell
+```pseudo
 npm install <package-name-here>
 ```
 
 This is used to install packages from the npm registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
 
-To learn more, run the following command to get a brief overview of common commands:
+The following command can be run to get a brief overview of common npm commands:
 
 ```shell
 npm --help
@@ -58,11 +58,13 @@ npm -l
 
 npm also features the ability to install packages globally, so packages can be used as command-line tools anywhere. This is done with the `-g` flag:
 
-```shell
+```pseudo
 npm install -g <package-name-here>
 ```
 
-Additionally, the `npx` executes packages anywhere without having to handle installation. Usage:
+## npx
+
+Additionally, the `npx` executes packages anywhere without having to handle installation. It uses the following syntax:
 
 ```pseudo
 npx [options] <command>[@version] [command-arg]
