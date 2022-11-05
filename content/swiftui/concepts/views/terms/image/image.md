@@ -19,7 +19,7 @@ An **`Image`** view is used to incorporate images and enhance the aesthetic of t
 
 ## Syntax
 
-```pseudo 
+```pseudo
 `Image`("image-example")
 // Fitting and aspect ratios
 ```
