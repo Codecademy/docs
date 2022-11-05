@@ -18,6 +18,7 @@ The **`nearbyint()`** function returns the argument rounded to the closest integ
 ```pseudo
 nearbyint(value)
 ```
+
 The `value` parameter represents a positive or negative floating-point value. The current rounding method, as described by `fegetround()`, determines which direction the `value` is rounded. By default, the rounding direction is set as `FE_TONEAREST`.
 
 ### Example
@@ -37,11 +38,13 @@ int main(){
     // Output: Nearest value is 2
 }
 ```
+
 This will produce the following output:
 
 ```
 Nearest value is 2
 ```
+
 ### Codebyte Example
 
 The following example returns the nearby integer of `2.9`:
