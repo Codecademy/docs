@@ -21,7 +21,7 @@ An **`Image`** view is used to incorporate images and enhance the aesthetic of t
 
 ```pseudo 
 `Image`("image-example")
-    // Fitting and aspect ratios
+// Fitting and aspect ratios
 ```
 
 A text label can be added to the `image` and the `image` can be changed to fit the requirements.
@@ -34,11 +34,11 @@ Once the `image` to be used has been added to the project's  'Assets' (Assets.xc
 
 ```swift
 var body: some View {
-    Image("image-example")
-        .resizable()
-        .aspectRatio(contentMode: .fill)
-        .frame(width: 250.0, height: 250.0, alignment: .center)
-        .clipShape(Circle())
+  Image("image-example")
+    .resizable()
+    .aspectRatio(contentMode: .fill)
+    .frame(width: 250.0, height: 250.0, alignment: .center)
+    .clipShape(Circle())
 }
 ```
 
