@@ -59,9 +59,13 @@ Hi
 Python
 10
 That´s all folks 
+
 > **Note:** If the last `print()` runs without the default parameter, a `StopIteration` error will be thrown.
+
 ## Codebyte Example
-This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element.
+
+This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element:
+
 ```codebyte/python
 list_items = iter(["Hi", 27, "Python", 10])
 for item in list_items:
