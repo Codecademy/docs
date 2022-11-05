@@ -51,7 +51,7 @@ Python
 
 ## Codebyte Example
 
-This example iterates over the same list, but prevents the program from crashing the using a default parameter:
+This example iterates over the same list, but prevents the program from crashing by using a default parameter:
 
 ```codebyte/python
 list_items = iter(["Hi", 27, "Python", 10])
