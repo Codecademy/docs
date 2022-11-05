@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-An **`Image`** view is used to incorporate images and enhance the aesthetic of the [user interface (UI)] (https://www.codecademy.com/resources/docs/uiux) and can be functional when used correctly.
+An **`Image`** view is used to incorporate images and enhance the aesthetic of the [user interface (UI)](https://www.codecademy.com/resources/docs/uiux) and can be functional when used correctly.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ A text label can be added to the `image` and the `image` can be changed to fit t
 
 The following example adds the Codecademy logo clipped to a circle shape:
 
-Once the `image` to be used has been added to the project's  'Assets' (Assets.xcassets) library, it can be loaded.
+Once the `image` to be used has been added to the project's 'Assets' (Assets.xcassets) library, it can be loaded.
 
 ```swift
 var body: some View {
@@ -42,7 +42,7 @@ var body: some View {
 }
 ```
 
-The `.resizable()` modifier fills the entire content of the parent container.  The `.aspectRatio()` maintains the original aspect ratio. The size can then be restricted to a custom `.frame()`. In this case, the `.clipShape()` modifier is a [`Circle()`](https://www.codecademy.com/resources/docs/swiftui/views/circle).
+The `.resizable()` modifier fills the entire content of the parent container. The `.aspectRatio()` maintains the original aspect ratio. The size can then be restricted to a custom `.frame()`. In this case, the `.clipShape()` modifier is a [`Circle()`](https://www.codecademy.com/resources/docs/swiftui/views/circle).
 
 This will display the following image:
 
