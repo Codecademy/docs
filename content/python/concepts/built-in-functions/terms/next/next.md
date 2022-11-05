@@ -26,7 +26,9 @@ The required `iterator_name` parameter is the iterator object with the set of va
 > **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
 
 ## Example 1
+
 In this example, a list called `list_items` is converted to an iterable object via the `iter()` function, and each element is printed by means of the `next()` function:
+
 ```py
 list_items = iter(["Hi", 27, "Python", 10])
 print(next(list_items))
