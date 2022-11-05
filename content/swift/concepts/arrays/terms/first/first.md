@@ -43,7 +43,7 @@ In the example above, the `.first()` method is searching through the `values` ar
 6
 ```
 
----
+## The `.first` Property
 
 The **`.first`** property returns the first element of the array.
 
