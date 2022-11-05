@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another. As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust. An if statement is used to test an expression for truth. If the condition evaluates to true, then the code within the block is executed; otherwise, it will be skipped. cpp if (a == 10) { // Code goes here'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, &mdash; `false` can even be accounted for to perform another set of instruction(s). AFor more complex programs, conditionals allow multiple scenarios to be addressed, making programs more robust.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.
+**Conditionals** take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If the expression results in `true`, the program can be instructed to do one thing &mdash; `false` can even be accounted for to perform another set of instruction(s).
 
-As we write more complex programs, conditionals allow us to address multiple scenarios and make our programs more robust.
+For more complex programs, conditionals allow multiple scenarios to be addressed, making programs more robust.
 
 ## If Statement
 
@@ -37,10 +37,12 @@ An `else` clause can be added to an `if` statement:
 - If the condition evaluates to `false`, code in the `else` part is executed.
 
 ```cpp
-if (year == 1991) {
+if (year == 1991)
+{
   // This runs if it is true
 }
-else {
+else
+{
   // This runs if it is false
 }
 ```
@@ -50,13 +52,16 @@ else {
 One or more `else if` statements can be added in between the `if` and `else` to provide additional condition(s) to check.
 
 ```cpp
-if (apple > 8) {
+if (apple > 8)
+{
   // Some code here
 }
-else if (apple > 6) {
+else if (apple > 6)
+{
   // Some code here
 }
-else {
+else
+{
   // Some code here
 }
 ```
@@ -66,15 +71,22 @@ else {
 ```codebyte/cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   double pH = 6.5;
 
   if (pH < 7.0)
+  {
     std::cout << "Acidic" << "\n";
+  }
   else if (pH > 7.0)
+  {
     std::cout << "Basic" << "\n";
+  }
   else
+  {
     std::cout << "Neutral" << "\n";
+  }
 }
 ```
 
@@ -85,7 +97,8 @@ A `switch` statement provides a means of checking an expression against various 
 `default` is executed when no case matches.
 
 ```cpp
-switch (grade) {
+switch (grade)
+{
   case 9:
     std::cout << "Freshman\n";
     break;

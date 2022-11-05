@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Data is foundational in programming and is classified into different types to indicate how it can be interpreted, compiled, and used in software. For the most part, data types are categorized into two groups: primitive or composite values.
+Data is foundational in programming and is classified into different types to indicate how it can be interpreted, compiled, and used in software. For the most part, **data types** are categorized into two groups: primitive or composite values.
 
 ## Primitive Data Types
 
