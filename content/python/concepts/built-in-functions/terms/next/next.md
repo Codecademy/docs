@@ -79,4 +79,5 @@ Hi
 27
 Python
 10
-> **Note:** As you can see there is no risk of overflowing the list, so no default parameter is needed.
+
+> **Note:** Since there is no risk of overflowing the list, a default parameter is not needed.
