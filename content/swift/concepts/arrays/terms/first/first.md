@@ -55,7 +55,7 @@ arrayName.first
 
 > **Note:** The `.first` property returns an optional value, that should be unwrapped. There are different techniques to [unwrap optionals](https://www.codecademy.com/resources/docs/swift/optionals).
 
-## Example
+### Example
 
 ```swift
 var numbers = [5, 1, 8, 4]
