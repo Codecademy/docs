@@ -16,6 +16,7 @@ CatalogContent:
 The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.
 
 ## Syntax
+
 ```pseudo
 next(iterator_name, [default_parameter])
 ```
