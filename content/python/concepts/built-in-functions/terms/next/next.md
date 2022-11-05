@@ -69,7 +69,7 @@ This can also be done with a [`for` loop](https://www.codecademy.com/resources/d
 ```codebyte/python
 list_items = iter(["Hi", 27, "Python", 10])
 for item in list_items:
-    print(item)
+  print(item)
 ```
 
 This outputs the following as expected:
