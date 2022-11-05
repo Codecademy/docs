@@ -63,7 +63,7 @@ var numbers = [5, 1, 8, 4]
 print(numbers.first!)
 ```
 
-In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. The `!` forces to unwrap the value of the returned first element. This will output:
+In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. The `!` forces the expression to unwrap the value of the returned first element. This will output:
 
 ```shell
 5
