@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**Node Package Manager (npm)** is an extensive collection of JavaScript packages. This makes adding complexity and functionality to JavaScript projects seamless. npm is also the official package manager of Node.js. Therefore, if Node.js was previously downloaded, npm is already installed!
+**Node Package Manager (npm)** is an extensive collection of JavaScript packages. This makes adding complexity and functionality to JavaScript projects seamless. npm is also the official package manager of [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js). Therefore, if Node.js was previously downloaded, npm is already installed!
 
 ## Packages
 
@@ -56,21 +56,19 @@ npm -l
 
 ## Global Packages
 
-npm also features the ability to install packages globally, so packages can be used as command-line tools anywhere.
-
-The `-g` flag installs a package globally:
+npm also features the ability to install packages globally, so packages can be used as command-line tools anywhere. This is done with the `-g` flag:
 
 ```shell
 npm install -g <package-name-here>
 ```
 
-Additionally, the `npx` executes packages anywhere while also handling installation. Usage:
+Additionally, the `npx` executes packages anywhere without having to handle installation. Usage:
 
 ```pseudo
 npx [options] <command>[@version] [command-arg]
 ```
 
-For example, to execute the package `codecademy` with the arguments `"Hello world!"`, this would be the command:
+For example, the following command would be used to execute the `codecademy` package with the arguments: `"Hello world!"`:
 
 ```shell
 npx codecademy "Hello world!"
