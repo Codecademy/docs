@@ -71,7 +71,9 @@ list_items = iter(["Hi", 27, "Python", 10])
 for item in list_items:
     print(item)
 ```
+
 This outputs the following as expected:
+
 ```shell
 Hi
 27
