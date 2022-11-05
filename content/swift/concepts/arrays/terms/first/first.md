@@ -47,7 +47,7 @@ In the example above, the `.first()` method is searching through the `values` ar
 
 The **`.first`** property returns the first element of the array.
 
-## Syntax
+### Syntax
 
 ```pseudo
 arrayName.first
