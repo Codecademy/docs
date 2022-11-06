@@ -178,7 +178,7 @@ console.log(isDuck);
 
 The ternary operator can also perform multiple steps based on a certain condition, similar to the IF/ELSE condition statement.
 
-For example, the following IF/ELSE statement...
+For example, the following `if...else` statement...
 
 ```js
 let i = true;
@@ -205,7 +205,7 @@ i == true ? (a++, b++) : (a = 0, b = 0);
 console.log('a = ', a, 'b = ', b);
 ```
 
-The ternary operator can also perform as many steps as you prefer.
+The ternary operator can also perform as many steps as you needed.
 
 ```js
 let i = true;
@@ -235,4 +235,4 @@ console.log('a = ', a, 'b = ', b);
 // SyntaxError: Unexpected token ','
 ```
 
-Although ternary operator and IF/ELSE performances speeds are [roughly the same](https://stackoverflow.com/questions/2586842/is-ternary-operator-if-else-or-logical-or-faster-in-javascript#:~:text=test%20was%20fair-,Here%27s%20my%20jsperf,-result%3A), using multi-step ternary operators can help consolidate several lines of code, thus reducing file size and download time in the browser.
+Although ternary operator and `if...else` performances speeds are [roughly the same](https://stackoverflow.com/questions/2586842/is-ternary-operator-if-else-or-logical-or-faster-in-javascript#:~:text=test%20was%20fair-,Here%27s%20my%20jsperf,-result%3A), using multi-step ternary operators can help consolidate several lines of code, thus reducing file size and download time in the browser.
