@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.subtracting()`** method creates a new set containing the elements from the target set that are NOT in the given set.
+The **`.subtracting()`** method creates a new set containing the elements from the target set that are not in the given set.
 
 ## Syntax
 
