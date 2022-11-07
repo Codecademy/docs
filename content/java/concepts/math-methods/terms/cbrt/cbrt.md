@@ -22,7 +22,8 @@ The **`Math.cbrt()`** method returns the cubed root of a `double` value.
 Math.cbrt(double num)
 ```
 
-The `Math.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number. Edge cases for the `.cbrt()` function include:
+The `.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number. Edge cases for this method include:
+
 - If the argument is `NaN`, then `.cbrt()` will return `NaN`
 - If the argument is ±infinity, then `.cbrt()` will return ±infinity
 
