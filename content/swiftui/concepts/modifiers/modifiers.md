@@ -16,7 +16,7 @@ In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Modifiers** a
 
 ## Syntax
 
-A `modifier` is a method that when called on a `View`, returns a new, altered `View`, that will replace the original `View` created. Built in `modifiers` such as `bold(_:)`, come built-in with Swift and all `Views` have access to these methods. `bold(_:)` can be used like so:
+A `modifier` is a method that when called on a `View`, returns a new, altered `View`, that will replace the original `View` created. Built in `modifiers` such as `.bold()`, come built-in with Swift and all `Views` have access to these methods. `.bold()` can be used like so:
 
 ```psuedo
 struct MyView: View {
