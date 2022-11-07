@@ -29,7 +29,7 @@ The `.cbrt()` method will return the cube root of `num`. The value of `num` can 
 
 ## Example
 
-Here is an example of the `Math.cbrt()` method:
+Here is an example using the `Math.cbrt()` method:
 
 ```java
 public class Main {
