@@ -34,7 +34,6 @@ Here is an example using the `Math.cbrt()` method:
 ```java
 public class Main {
     public static void main(String[] args) {
-
         double a = 27.0;
         System.out.println( "Math.cbrt("+a") returns: " + Math.cbrt(a) );
 
