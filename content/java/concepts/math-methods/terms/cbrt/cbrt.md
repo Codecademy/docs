@@ -24,7 +24,7 @@ Math.cbrt(double num)
 
 The `.cbrt()` method will return the cube root of `num`. The value of `num` can be any real number. Edge cases for this method include:
 
-- If the argument is `NaN`, then `.cbrt()` will return `NaN`
+- If the argument is `NaN`, the return value will be `NaN`.
 - If the argument is ±infinity, then `.cbrt()` will return ±infinity
 
 ## Example
