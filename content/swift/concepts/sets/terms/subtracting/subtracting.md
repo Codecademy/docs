@@ -18,8 +18,11 @@ The **`.subtracting()`** method creates a new set containing the elements from t
 ```pseudo
 newSet = targetSet.subtracting(givenSet)
 ```
+The elements of `givenSet` are removed from the elements of `targetSet` and what elements remain are placed into `newSet`.
 
 ## Example
+
+In the example below, The elements from `fruit` set are removed from the elements in `produce` set and the remaining elements are placed in the new `veggies` set:
 
 ```swift
 let produce: Set = ["Lettuce", "Apples", "Carrots", "Bananas", "Broccoli", "Onions"]
