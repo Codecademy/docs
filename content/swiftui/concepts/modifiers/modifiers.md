@@ -12,7 +12,7 @@ CatalogContent:
  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Modifiers** are methods that can be called on a particular [Views](https://www.codecademy.com/resources/docs/swiftui/views).
+In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Modifiers** are methods that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
