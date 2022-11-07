@@ -39,7 +39,6 @@ public class Main {
 
         double b = -8.0;
         System.out.println( "Math.cbrt("+b") returns: " + Math.cbrt(b) );
-
     }
 }
 ```
