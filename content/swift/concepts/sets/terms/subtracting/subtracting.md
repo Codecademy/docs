@@ -1,6 +1,6 @@
 ---
 Title: '.subtracting()'
-Description: 'Returns a new set containing the elements from the target set that are NOT in the given set.'
+Description: 'Returns a new set containing the elements from the target set that are not in the given set.'
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
