@@ -1,6 +1,6 @@
 ---
 Title: 'list()'
-Description: 'Returns a list in from an iterable..'
+Description: 'Returns a list from an iterable.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
