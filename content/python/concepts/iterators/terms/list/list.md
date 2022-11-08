@@ -24,6 +24,7 @@ list(iterable[optional])
 It requires only one argument, an `iterable` (e.g., list, [`tuple`](https://www.codecademy.com/resources/docs/python/tuples), [`dictionary`](https://www.codecademy.com/resources/docs/python/dictionaries), or [`set`](https://www.codecademy.com/resources/docs/python/sets)). 
 
 If an [`iterable`](https://www.codecademy.com/resources/docs/python/iterators) is passed it returns a list of the items in the `iterable`. If no parameters are passed, it returns an empty list.
+When passing a [string](https://www.codecademy.com/resources/docs/python/strings) as argument, it returns a list of each letter of the string. When passing a range as argument, it returns a list of each number in the range.
 
 ## Example
 
@@ -47,8 +48,6 @@ This will print the following output:
 ```
 
 ### Codebyte Example
-
-When passing a [string](https://www.codecademy.com/resources/docs/python/strings) as argument, it returns a list of each letter of the string. When passing a range as argument, it returns a list of each number in the range.
 
 The following code examples shows three different cases using `list()` function:
 
