@@ -48,7 +48,7 @@ This will print the following output:
 
 ### Codebyte Example
 
-When passing a [string](https://www.codecademy.com/resources/docs/python/strings) as argument, it returns a list of each alphabet of the string. When passing a range as argument, it returns a list of each number in the range.
+When passing a [string](https://www.codecademy.com/resources/docs/python/strings) as argument, it returns a list of each letter of the string. When passing a range as argument, it returns a list of each number in the range.
 
 The following code examples shows three different cases using `list()` function:
 
