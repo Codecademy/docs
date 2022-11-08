@@ -21,7 +21,7 @@ The **`list()`** function returns a [list](https://www.codecademy.com/resources/
 list(iterable[optional])
 ```
 
-It requires only an argument, `iterable` (e.g., list, [tuple](https://www.codecademy.com/resources/docs/python/tuples), [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries), and [set](https://www.codecademy.com/resources/docs/python/sets)). 
+It requires only one argument, an `iterable` (e.g., list, [`tuple`](https://www.codecademy.com/resources/docs/python/tuples), [`dictionary`](https://www.codecademy.com/resources/docs/python/dictionaries), or [`set`](https://www.codecademy.com/resources/docs/python/sets)). 
 
 If [iterable](https://www.codecademy.com/resources/docs/python/iterators) is passed,it creates a list of iterators. If no parameters are passed, it returns an empty list.
 
