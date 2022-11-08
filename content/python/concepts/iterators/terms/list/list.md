@@ -27,7 +27,7 @@ If an [`iterable`](https://www.codecademy.com/resources/docs/python/iterators) i
 
 ## Example
 
-The example below demonstrates how the `list()` function is used in a Python program:
+The example below demonstrates how the `list()` function is used to create a list from a dictionary:
 
 ```py
 # dictionary
