@@ -1,6 +1,6 @@
 ---
 Title: 'list()'
-Description: 'The list() is a constructor that returns a list in Python.'
+Description: 'Returns a list in from an iterable..'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
