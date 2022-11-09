@@ -45,7 +45,7 @@ public class Main {
 
 This will result in the following output:
 
-```
+```shell
 Math.cbrt(27.0) returns: 3.0
 Math.cbrt(-8.0) returns: -2.0
 ```
