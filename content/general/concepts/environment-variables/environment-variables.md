@@ -1,6 +1,6 @@
 ---
 Title: 'Environment Variables'
-Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.' 
+Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.'
 Subjects:
   - 'Bash/Shell'
   - 'Computer Science'
@@ -20,7 +20,7 @@ Environment variables are often set via the [terminal](https://www.codecademy.co
 
 ## Relationship with Unix and Unix-like Variants
 
-On [Unix](https://www.codecademy.com/resources/docs/general/unix) and Unix-like variants such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux), environment variables allow for configuration of the system and applications. They can contain information such as the default language for the system, which default text editor to use, and paths to executable files.   
+On [Unix](https://www.codecademy.com/resources/docs/general/unix) and Unix-like variants such as [Linux](https://www.codecademy.com/resources/docs/open-source/linux), environment variables allow for configuration of the system and applications. They can contain information such as the default language for the system, which default text editor to use, and paths to executable files.
 
 ## Some Common Environment Variables
 
