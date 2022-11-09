@@ -22,7 +22,7 @@ An opposite data structure is the [Queue](https://www.codecademy.com/resources/d
 ```java
 import java.util.Stack;
 
-Stack<DataType> s = new Stack<DataType>();
+Stack<DataType> s = new Stack<>();
 ```
 Where `DataType` is the data type to be stored in the stack. Note that, differently from `Queue`, Stack is a concrete class, not an interface.
 
