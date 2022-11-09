@@ -33,13 +33,13 @@ Here is an example using the `Math.cbrt()` method:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        double a = 27.0;
-        System.out.println("Math.cbrt(" + a + ") returns: " + Math.cbrt(a));
+  public static void main(String[] args) {
+    double a = 27.0;
+    System.out.println("Math.cbrt(" + a + ") returns: " + Math.cbrt(a));
 
-        double b = -8.0;
-        System.out.println("Math.cbrt(" + b + ") returns: " + Math.cbrt(b));
-    }
+    double b = -8.0;
+    System.out.println("Math.cbrt(" + b + ") returns: " + Math.cbrt(b));
+  }
 }
 ```
 
