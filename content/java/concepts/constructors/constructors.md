@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Constructors are like normal methods within the class but are used to initialize the object of the class.
+**Constructors** are like normal methods within the class but are used to initialize the object of the class.
 
 In Java, every time the `new` keyword is used to create an object, at least one constructor is called.
 
@@ -26,7 +26,7 @@ Here are some rules for creating constructors:
 
 - Constructors always have same name as their class name.
 - Constructors cannot be declared as `abstract`, `static`, `final`, and `synchronized`.
-- Construtors do not have any explicit return types.
+- Constructors do not have any explicit return types.
 
 ### Creating a Default Constructor
 
