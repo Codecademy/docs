@@ -1,6 +1,6 @@
 ---
 Title: '.cbrt()'
-Description: 'Returns the cubed root of a double-type value.'
+Description: 'Returns the cube root of a double-type value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-The **`Math.cbrt()`** method returns the cubed root of a `double` value.
+The **`Math.cbrt()`** method returns the cube root of a `double` value.
 
 ## Syntax
 
