@@ -56,13 +56,8 @@ This will print the following output:
 The following code examples shows three different cases using `list()` function:
 
 ```codebyte/python
-#animal tuple
-animals = ('cat', 'dog', 'hamster')
-
-print("Tuple example with list() : ")
-animals_list = list(animals)
-
-print(animals_list)
+animals_tuple = ("cat", "dog", "hamster")
+print("Tuple example with list(): {list(animals_tuple)}")
 
 print("------------------------------------")
 
