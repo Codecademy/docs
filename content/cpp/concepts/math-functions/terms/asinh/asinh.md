@@ -25,7 +25,7 @@ The `cmath` header file must be included to use this function.
 
 This example uses the `asinh()` function to return the inverse hyperbolic sine of `3.14159`:
 
-```shell
+```cpp
 #include <iostream>
 #include <cmath>
 
@@ -34,6 +34,7 @@ int main() {
     double result;
     result = std::asinh(x);
     std::cout << result << " radian" << "\n";
+    }
 ```
 
 This example results in the following output:
