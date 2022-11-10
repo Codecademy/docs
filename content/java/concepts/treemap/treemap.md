@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `TreeMap` uses the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means it stores items as key-value pairs.
+A **`TreeMap`** uses the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means it stores items as key-value pairs.
 
 Similiar to a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap), the `TreeMap` stores key-value pairs. The difference is the means of storage each type of collection uses internally. A `HashMap` stores its keys as hashes in a [`Hash Table`](https://www.codecademy.com/resources/docs/general/hash-table) whereas a `TreeMap` stores its keys in a ['Binary Tree Structure'](https://www.codecademy.com/resources/docs/general/binary-search-tree), which is a type of tree data structure that has at most two children nodes per parent. While the structure of a 'TreeMap' is more orderly, it comes as a tradeoff with speed in comparision to a 'HashMap'. Most `HashMap` operations run in ammortized O(1) time (in [Big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation)) and are generally more time efficent.  Most `TreeMap` operations run in O(log(n)) time and the `TreeMap` is generally more space efficent due to it's dynamic allocation of memory per value added. Do note that complexity is a crucial factor to determining what structure to implement. If you want faster operations over your data, you would want to aim for a `HashMap`. However, if you're looking to keep your values sorted, it's best to stick to a `TreeMap`.
 
