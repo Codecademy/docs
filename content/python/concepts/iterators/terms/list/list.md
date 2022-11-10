@@ -74,11 +74,7 @@ animal_list = list(animal)
 print(animal_list)
 
 print("------------------------------------")
-#number range
-my_range = range(1,4)
 
-print("Range example with list() : ")
-my_numbers = list(my_range)
-
-print(my_numbers)
+my_range = range(1, 4)
+print(f"Range example with list(): {list(my_range)}")
 ```
