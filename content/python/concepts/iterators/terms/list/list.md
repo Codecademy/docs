@@ -18,7 +18,7 @@ The **`list()`** function returns a [list](https://www.codecademy.com/resources/
 ## Syntax
 
 ```pseudo
-list(iterable[optional])
+list(iterable)
 ```
 
 It requires only one argument, an `iterable` (e.g., list, [`tuple`](https://www.codecademy.com/resources/docs/python/tuples), [`dictionary`](https://www.codecademy.com/resources/docs/python/dictionaries), or [`set`](https://www.codecademy.com/resources/docs/python/sets)). 
