@@ -13,7 +13,7 @@ Catalog Content:
   - 'paths/data-science'
 ---
 
-The **`list()`** function returns a [list](https://www.codecademy.com/resources/docs/python/lists) from an `iterable`.
+The **`list()`** function returns a [list](https://www.codecademy.com/resources/docs/python/lists) from an [iterable](https://www.codecademy.com/resources/docs/python/iterators).
 
 ## Syntax
 
