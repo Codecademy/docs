@@ -31,13 +31,11 @@ When passing a [string](https://www.codecademy.com/resources/docs/python/strings
 The example below demonstrates how the `list()` function is used to create a list from a dictionary:
 
 ```py
-# dictionary
-my_dict = list({"Python" : "Hard", "Java" : "Medium", "HTML" : "Easy"})
-print(my_dict)
+language_difficulties = list({"Python" : "Hard", "Java" : "Medium", "HTML" : "Easy"})
+print(language_difficulties)
 
-# empty list
-my_empty = list()
-print(my_empty)
+empty_list = list()
+print(empty_list)
 ```
 
 This will print the following output:
