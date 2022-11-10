@@ -41,9 +41,9 @@ int main() {
 
 This will produce the following output:
 
-  ```shell
+```shell
 trunc(-3.14159) = -3
-  ```
+```
 
 ## Codebyte Example
 
