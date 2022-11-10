@@ -18,10 +18,10 @@ The **`next()`** function returns the next element from an [iterator](https://ww
 ## Syntax
 
 ```pseudo
-next(iterator_name, [default_parameter])
+next(iterator_object, [default_parameter])
 ```
 
-The required `iterator_name` parameter is the iterator object with the set of values. The `default_parameter` is optional and is printed if the end of the iterator is reached.
+The `iterator_object` is required. The `default_parameter` is optional and is printed if the end of the iterator is reached.
 
 > **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
 
@@ -36,7 +36,9 @@ print(next(list_items))
 print(next(list_items))
 print(next(list_items))
 ```
+
 This outputs the following:
+
 ```shell
 Hi
 27
@@ -45,7 +47,9 @@ Python
 ```
 
 ## Example 2
+
 This example iterates over the same list, but prevents the program from crashing the using a default parameter:
+
 ```py
 list_items = iter(["Hi", 27, "Python", 10])
 print(next(list_items, "That's all folks"))
@@ -54,7 +58,9 @@ print(next(list_items, "That's all folks"))
 print(next(list_items, "That's all folks"))
 print(next(list_items, "That's all folks"))
 ```
+
 This outputs the following:
+
 ```shell
 Hi
 27
@@ -82,5 +88,6 @@ Hi
 27
 Python
 10
+```
 
 > **Note:** Since there is no risk of overflowing the list, a default parameter is not needed.
