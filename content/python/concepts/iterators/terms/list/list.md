@@ -65,13 +65,9 @@ animals_list = list(animals)
 print(animals_list)
 
 print("------------------------------------")
-#animal string
-animal = ['crocodile']
 
-print("String example with list() : ")
-animal_list = list(animal)
-
-print(animal_list)
+animal_string = "crocodile"
+print(f"String example with list(): {list(animal_string)}")
 
 print("------------------------------------")
 
