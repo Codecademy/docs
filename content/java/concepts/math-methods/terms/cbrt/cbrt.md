@@ -1,6 +1,6 @@
 ---
 Title: '.cbrt()'
-Description: 'Returns the cubed root of a double-type value.'
+Description: 'Returns the cube root of a double-type value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-The **`Math.cbrt()`** method returns the cubed root of a `double` value.
+The **`Math.cbrt()`** method returns the cube root of a `double` value.
 
 ## Syntax
 
@@ -33,19 +33,19 @@ Here is an example using the `Math.cbrt()` method:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        double a = 27.0;
-        System.out.println("Math.cbrt(" + a + ") returns: " + Math.cbrt(a));
+  public static void main(String[] args) {
+    double a = 27.0;
+    System.out.println("Math.cbrt(" + a + ") returns: " + Math.cbrt(a));
 
-        double b = -8.0;
-        System.out.println("Math.cbrt(" + b + ") returns: " + Math.cbrt(b));
-    }
+    double b = -8.0;
+    System.out.println("Math.cbrt(" + b + ") returns: " + Math.cbrt(b));
+  }
 }
 ```
 
 This will result in the following output:
 
-```
+```shell
 Math.cbrt(27.0) returns: 3.0
 Math.cbrt(-8.0) returns: -2.0
 ```
