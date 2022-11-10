@@ -1,6 +1,6 @@
 ---
-Title: 'trunc()' 
-Description: 'Returns the integral part of the argument.' 
+Title: 'trunc()'
+Description: 'Returns the integral part of the argument.'
 Subjects:
   - 'Computer Science'
 Tags: 
@@ -40,11 +40,11 @@ int main() {
 ```
 
 This will produce the following output:
-  
+
   ```shell
 trunc(-3.14159) = -3
   ```
-  
+
 ## Codebyte Example
 
 The following example uses the `trunc()` function to round `12.3456` towards zero returning the value `12`:
