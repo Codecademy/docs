@@ -40,13 +40,13 @@ using namespace std;
 
 int main ()
 {
-    char str1[40] = "Hello World!";
-    char str2[40] = "Copied String.";
+  char str1[40] = "Hello World!";
+  char str2[40] = "Copied String.";
 
-    cout << str1 << "\n";
-    strcpy(str1, str2);
-    cout << str1 << "\n";
+  cout << str1 << "\n";
+  strcpy(str1, str2);
+  cout << str1 << "\n";
 
-    return 0;
+  return 0;
 }
 ```

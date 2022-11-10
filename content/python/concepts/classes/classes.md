@@ -18,7 +18,7 @@ CatalogContent:
 
 **Classes** are templates used to define the properties and methods of objects in code. They can describe the kinds of data that the class holds, and also how a programmer interacts with that data.
 
-The usage of classes are a key element of [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) (OOP) where "class instances" are created to implement design principles such as [inheritance](https://www.codecademy.com/resources/docs/general/inheritance) and [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation).
+The usage of classes are a key element of [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) (OOP) where "class instances" are created to implement design principles such as [inheritance](https://www.codecademy.com/resources/docs/general/inheritance) and [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation).
 
 ## Creating a Class
 

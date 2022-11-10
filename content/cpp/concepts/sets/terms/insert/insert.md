@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Values can be inserted into a declared set with the `.insert()` method.
+Values can be inserted into a declared set with the **`.insert()`** method.
 
 ## Syntax
 
@@ -30,7 +30,8 @@ The following codebyte example creates a `grades` set of type `int` and inserts 
 #include <iostream>
 #include <set>
 
-int main(){
+int main()
+{
   // Initiate set
   std::set<int> grades;
 
@@ -42,7 +43,8 @@ int main(){
 
   // Print set
   std::set<int> :: iterator iter;
-  for(iter = grades.begin(); iter != grades.end(); iter++){
+  for(iter = grades.begin(); iter != grades.end(); iter++)
+  {
     std::cout<< *iter << " ";
   }
 }
