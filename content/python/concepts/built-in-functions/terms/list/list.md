@@ -8,7 +8,7 @@ Tags:
   - 'Iterators'
   - 'OOP'
   - 'Loops'
-Catalog Content:
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
