@@ -28,7 +28,7 @@ import java.util.TreeMap
 TreeMap<KeyDataType, ValueDataType> myTreeMap = new TreeMap<KeyDataType, ValueDataType>();
 ```
 
-Since, the `TreeMap` class comes from the `java.util` package, it must be imported in order to be used. The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDataType` and `ValueDataType` can either be different or the same.
+Since the `TreeMap` class comes from the `java.util` package, it must be imported in order to be used. The `TreeMap` is initialized with two generic types inside angle brackets `< ... >`. The generic data types for `KeyDataType` and `ValueDataType` can either be different or the same.
 
 ## Accessing Items
 
