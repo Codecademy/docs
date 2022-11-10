@@ -53,7 +53,7 @@ This will print the following output:
 
 ### Codebyte Example
 
-The following code examples shows three different cases using `list()` function:
+The following examples shows three different cases of using the `list()` function:
 
 ```codebyte/python
 animals_tuple = ("cat", "dog", "hamster")
