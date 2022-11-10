@@ -3,7 +3,7 @@ Title: 'trunc()'
 Description: 'Returns the integral part of the argument.'
 Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'Arithmetic'
 CatalogContent:
