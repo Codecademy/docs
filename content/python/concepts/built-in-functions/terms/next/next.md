@@ -66,7 +66,7 @@ Hi
 27
 Python
 10
-That´s all folks 
+That´s all folks
 ```
 
 > **Note:** If the last `print()` runs without the default parameter, a `StopIteration` error will be thrown.
