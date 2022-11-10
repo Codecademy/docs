@@ -1,17 +1,17 @@
 ---
-Title: "Environment Variables"
-Description: "Environment variables consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run."
+Title: 'Environment Variables'
+Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.'
 Subjects:
-  - "Bash/Shell"
-  - "Computer Science"
+  - 'Bash/Shell'
+  - 'Computer Science'
 Tags:
-  - "Bash/Shell"
-  - "Command Line"
-  - "Linux"
-  - "Unix"
+  - 'Bash/Shell'
+  - 'Command Line'
+  - 'Linux'
+  - 'Unix'
 CatalogContent:
-  - "learn-the-command-line"
-  - "paths/computer-science"
+  - 'learn-the-command-line'
+  - 'paths/computer-science'
 ---
 
 **Environment variables** consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.
