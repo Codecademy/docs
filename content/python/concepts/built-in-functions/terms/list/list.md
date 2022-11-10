@@ -29,9 +29,6 @@ The `iterable` parameter can be one of the following:
 
 If no `iterable` is passed, the `list()` function returns an empty list.
 
-If an [`iterable`](https://www.codecademy.com/resources/docs/python/iterators) is passed it returns a list of the items in the `iterable`. If no parameters are passed, it returns an empty list.
-When passing a [string](https://www.codecademy.com/resources/docs/python/strings) as argument, it returns a list of each letter of the string. When passing a range as argument, it returns a list of each number in the range.
-
 ## Example
 
 The example below demonstrates how the `list()` function is used to create a list from a dictionary:
