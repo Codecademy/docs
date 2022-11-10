@@ -16,9 +16,9 @@ The line between customer and provider responsibilities can vary between service
 
 In general, the customer is always responsible for securing what's under their direct control, such as:
 
-- Information and Data.
-- User Access.
-- Configuration of the cloud platform.
-- The resources used to connect to the cloud.
+- Information and Data
+- User Access
+- Configuration of the cloud platform
+- The resources used to connect to the cloud
 
 In general, the cloud provider is always responsible for securing the physical hosts, network and data centers.
