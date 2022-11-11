@@ -30,11 +30,11 @@ This example uses the `asinh()` function to return the inverse hyperbolic sine o
 #include <cmath>
 
 int main() {
-    double x = 3.14159;
-    double result;
-    result = std::asinh(x);
-    std::cout << result << " radian" << "\n";
-    }
+  double x = 3.14159;
+  double result;
+  result = std::asinh(x);
+  std::cout << result << " radian" << "\n";
+}
 ```
 
 This example results in the following output:
