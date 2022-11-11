@@ -24,3 +24,18 @@ The **`<s>`** element is used to highlight no more pertinent, accurate, or wrong
 ```
 
 The **`<s>`** element should only contain text content or other elements meant for text content.
+
+## Example
+
+```html
+<html>
+  <head> </head>
+  <body>
+	<p>
+		<s>worng txet</s>
+	</p>
+  </body>
+</html>
+```
+
+![Rendered <s> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/s-tag-example.png)
