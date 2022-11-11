@@ -21,8 +21,6 @@ CatalogContent:
 seaborn.set_theme(context='notebook', style='darkgrid', palette='deep', font='sans-serif', font_scale=1, color_codes=True, rc=None)
 ```
 
-This method will return `True` from when the [`.run()`](https://www.codecademy.com/resources/docs/python/threading/run) method starts until just after it finishes.
-
 ## Example
 
 Calling this function with no arguments will activate seaborn’s “default” theme:
