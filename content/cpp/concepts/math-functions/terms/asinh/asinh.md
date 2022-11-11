@@ -19,7 +19,7 @@ The **`asinh()`** function returns the inverse hyperbolic sine of an angle given
 asinh(n)
 ```
 
-The `cmath` header file must be included to use this function.
+The `n` parameter can be a floating-point value (e.g., a `long` or `double`) or an integral type (e.g., an `int` or `bool`).
 
 ## Example
 
