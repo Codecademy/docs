@@ -1,5 +1,5 @@
 ---
-Title: 'asinh'
+Title: 'asinh()'
 Description: 'Returns the inverse hyperbolic sine of an angle given in radians.'
 Subjects:
   - 'Computer Science'
