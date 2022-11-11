@@ -15,7 +15,7 @@ Returns the inverse hyperbolic sine of an angle given in radians.
 
 ## Syntax
 
-```cpp
+```pseudo
 asinh(n)
 ```
 
