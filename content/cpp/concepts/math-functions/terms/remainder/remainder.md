@@ -23,7 +23,7 @@ long double remainder(long double numerator, long double denominator);
 double remainder(Type1 numerator, Type2 denominator); // additional overloads for other combination of arithmetic types
 ```
 - the function returns remainder = numerator - n * denominator
-- n is the result of numerator / denominator rounded down to the nearest integral value
+- n is the result of numerator / denominator rounded to the nearest integral value
 - halfway cases are rounded toward the even number
 - if remainder is zero, it will have the same sign as numerator
 
