@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse hyperbolic sine of an angle given in radians.
+The **`asinh()`** function returns the inverse hyperbolic sine of an angle given in radians.
 
 ## Syntax
 
