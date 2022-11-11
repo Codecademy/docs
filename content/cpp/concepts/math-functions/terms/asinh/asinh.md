@@ -45,7 +45,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-This example uses the `asinh()` function to take an  argument of `4.55` and return the inverse hyperbolic sine:
+This example uses the `asinh()` function to take an argument of `4.55` and return the inverse hyperbolic sine:
 
 ```codebyte/cpp
 #include <iostream>
