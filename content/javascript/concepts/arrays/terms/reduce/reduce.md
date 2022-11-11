@@ -52,7 +52,7 @@ console.log(
 );
 
 // Add the values of each object inside an array.
-const arrayThree = [{x:1}, {x:2}, {x:4}];
+const arrayThree = [{ x: 1 }, { x: 2 }, { x: 4 }];
 
 console.log(
   'Adding object values:',
