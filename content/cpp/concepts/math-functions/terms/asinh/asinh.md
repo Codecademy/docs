@@ -52,10 +52,9 @@ This example uses the `asinh()` function to take an argument of `4.55` and retur
 #include <cmath>
 
 int main() {
-    double x = 4.55;
-    double result;
-    result = std::asinh(x);
-    std::cout << result << " radian" << "\n";
-    // OUTPUT: 2.220137 radian
+  double x = 4.55;
+  double result;
+  result = std::asinh(x);
+  std::cout << result << " radian" << "\n";
 }
 ```
