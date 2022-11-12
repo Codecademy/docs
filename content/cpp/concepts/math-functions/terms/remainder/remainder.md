@@ -1,31 +1,54 @@
 ---
-Title: 'remainder()' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number)' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'remainder()' 
+Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number)' 
+Subjects: 
   - 'Computer Science'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags: 
   - 'Functions'
   - 'Arithmetic'
   - 'Methods'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent: 
   - 'learn-c-plus-plus'
   - 'path/computer-science'
 ---
 
-The **remainder()** function returns the floating-point remainder resulting from the division of the arguments provided.
+The **remainder()** function returns the IEEE floating-point remainder resulting from the division of the arguments provided.
 
 ## Syntax
 
 ```pseudo
-remainder(numerator, denominator);
+double remainder(double numerator, double denominator);
+float remainder(float numerator, float denominator);
+long double remainder(long double numerator, long double denominator);
+double remainder(Type1 numerator, Type2 denominator); // additional overloads for other combination of arithmetic types
 ```
-- remainder = numerator - rquot * denominator
-- rqout is the result of numerator / denominator rounded down to the nearest integral value
+- the function returns remainder = numerator - n * denominator
+- n is the result of numerator / denominator rounded down to the nearest integral value
 - halfway cases are rounded toward the even number
+- if remainder is zero, it will have the same sign as numerator
 
 ## Example
 
-[Text, code, images, etc. about example 1]
+```cpp
+#include <iostream>      
+#include <cmath>
+
+using namespace std;
+
+int main ()
+{
+  cout << "Remainder of 7.3 / 2 is " << remainder(33.2, 13) << endl;
+  cout << "Remainder of 9/ 2 is " << remainder(9, 2) << endl;
+  return 0;
+}
+```
+
+This produces the following output:
+
+```shell
+Remainder of 7.3 / 2 is -5.8
+Remainder of 9/ 2 is 1
+```
 
 ## Codebyte Example (if applicable)
 
