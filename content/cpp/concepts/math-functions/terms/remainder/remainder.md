@@ -22,6 +22,7 @@ float remainder(float numerator, float denominator);
 long double remainder(long double numerator, long double denominator);
 double remainder(Type1 numerator, Type2 denominator); // additional overloads for other combination of arithmetic types
 ```
+
 - the function returns remainder = numerator - n * denominator
 - n is the result of numerator / denominator rounded to the nearest integral value
 - halfway cases are rounded toward the even number
@@ -53,6 +54,7 @@ Remainder of 9/ 2 is 1
 ## Codebyte Example
 
 The following example is runnable and produces the remainder of 7.3 / 2
+
 ```codebyte/cpp
 #include <iostream>      
 #include <cmath>
