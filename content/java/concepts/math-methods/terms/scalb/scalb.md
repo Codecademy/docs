@@ -20,7 +20,7 @@ The **`Math.scalb()`** method returns the first argument multiplied by 2 to the 
 Math.scalb(value, scale)
 ```
 
-The parameter a is of type `double` and the parameter b is of type `int`.
+The parameter `value` is of type `double` and the parameter `scale` is of type `int`.
 
 ## Example
 
