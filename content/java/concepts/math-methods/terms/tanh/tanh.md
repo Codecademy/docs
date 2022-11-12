@@ -25,7 +25,7 @@ The tanh() method takes a single parameter.
 
 `num` - value of an angle whose hyperbolic tangent is to be determined
 
-> Note: The value is generally used in radians.
+> Note: The value is given in radians.
 
 The return type of the `.tanh()` method is a `double`.
 
