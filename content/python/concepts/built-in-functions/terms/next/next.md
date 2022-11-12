@@ -25,7 +25,7 @@ The `iterator_object` is required. The `default_parameter` is optional and is pr
 
 > **Note:** If the next element is missing from the object, the `default_parameter` is returned. Without a set `default_parameter`, a `StopIteration` [error](https://www.codecademy.com/resources/docs/python/errors) is thrown.
 
-## Example 1
+## Example
 
 In this example, a list called `list_items` is converted to an iterable object via the `iter()` function, and each element is printed by means of the `next()` function:
 
@@ -46,48 +46,32 @@ Python
 10
 ```
 
-## Example 2
-
-This example iterates over the same list, but prevents the program from crashing the using a default parameter:
-
-```py
-list_items = iter(["Hi", 27, "Python", 10])
-print(next(list_items, "That's all folks"))
-print(next(list_items, "That's all folks"))
-print(next(list_items, "That's all folks"))
-print(next(list_items, "That's all folks"))
-print(next(list_items, "That's all folks"))
-```
-
-This outputs the following:
+If one more `print()` runs without the default parameter, an `StopIteration` error will be thrown:
 
 ```shell
-Hi
-27
-Python
-10
-That´s all folks
+Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    print(next(list_items))
+StopIteration
 ```
 
-> **Note:** If the last `print()` runs without the default parameter, a `StopIteration` error will be thrown.
+> **Note:** This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element. Since there is no risk of overflowing the list, a default parameter is not needed:
+> 
+> ```py
+> list_items = iter(["Hi", 27, "Python", 10])
+> for item in list_items:
+>   print(item)
+> ```
 
 ## Codebyte Example
 
-This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element:
+This example iterates over the same list with the `next()` function, but prevents the program from crashing with a default parameter:
 
-```codebyte/python
+```codebyte/python:
 list_items = iter(["Hi", 27, "Python", 10])
-for item in list_items:
-  print(item)
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
+print(next(list_items, "That's all folks"))
 ```
-
-This outputs the following as expected:
-
-```shell
-Hi
-27
-Python
-10
-```
-
-> **Note:** Since there is no risk of overflowing the list, a default parameter is not needed.
