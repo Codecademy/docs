@@ -1,13 +1,13 @@
 ---
-Title: 'remainder()' 
-Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number)' 
-Subjects: 
+Title: 'remainder()'
+Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number)'
+Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'Arithmetic'
   - 'Methods'
-CatalogContent: 
+CatalogContent:
   - 'learn-c-plus-plus'
   - 'path/computer-science'
 ---
@@ -23,7 +23,7 @@ long double remainder(long double numerator, long double denominator);
 double remainder(Type1 numerator, Type2 denominator); // additional overloads for other combination of arithmetic types
 ```
 
-- the function returns remainder = numerator - n * denominator
+- the function returns remainder = numerator - n \* denominator
 - n is the result of numerator / denominator rounded to the nearest integral value
 - halfway cases are rounded toward the even number
 - if remainder is zero, it will have the same sign as numerator
@@ -31,7 +31,7 @@ double remainder(Type1 numerator, Type2 denominator); // additional overloads fo
 ## Example
 
 ```cpp
-#include <iostream>      
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -56,7 +56,7 @@ Remainder of 9/ 2 is 1
 The following example is runnable and produces the remainder of 7.3 / 2
 
 ```codebyte/cpp
-#include <iostream>      
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -68,4 +68,4 @@ int main ()
 }
 ```
 
-This example produces a result of -0.7 as 7.3/2 = 3.65, which rounded to the nearest integral value is 4.  Thus, remainder = 7.3 - 4*2 = -0.7.
+This example produces a result of -0.7 as 7.3/2 = 3.65, which rounded to the nearest integral value is 4. Thus, remainder = 7.3 - 4\*2 = -0.7.
