@@ -17,7 +17,7 @@ The **`Math.scalb()`** method returns the first argument multiplied by 2 to the 
 ### Syntax
 
 ```pseudo
-Math.scalb(a, b)
+Math.scalb(value, scale)
 ```
 
 The parameter a is of type `double` and the parameter b is of type `int`.
