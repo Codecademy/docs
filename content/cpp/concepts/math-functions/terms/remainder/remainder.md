@@ -37,7 +37,7 @@ using namespace std;
 
 int main ()
 {
-  cout << "Remainder of 7.3 / 2 is " << remainder(33.2, 13) << endl;
+  cout << "Remainder of 33.2 / 13 is " << remainder(33.2, 13) << endl;
   cout << "Remainder of 9/ 2 is " << remainder(9, 2) << endl;
   return 0;
 }
@@ -46,25 +46,24 @@ int main ()
 This produces the following output:
 
 ```shell
-Remainder of 7.3 / 2 is -5.8
+Remainder of 33.2 / 13 is -5.8
 Remainder of 9/ 2 is 1
 ```
 
-## Codebyte Example (if applicable)
+## Codebyte Example
 
-We can currently support:
+The following example is runnable and produces the remainder of 7.3 / 2
+```codebyte/cpp
+#include <iostream>      
+#include <cmath>
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+using namespace std;
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
-
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
+int main ()
+{
+  cout << "Remainder of 7.3 / 2 is " << remainder(33.2, 13) << endl;
+  return 0;
+}
 ```
+
+This example produces a result of -0.7 as 7.3/2 = 3.65, which rounded to the nearest integral value is 4.  Thus, remainder = 7.3 - 4*2 = -0.7.
