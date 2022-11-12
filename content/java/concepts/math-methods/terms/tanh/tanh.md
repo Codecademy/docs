@@ -27,7 +27,6 @@ The tanh() method takes a single parameter.
 
 > Note: The value is generally used in radians.
 
-
 The return type of the `.tanh()` method is a `double`.
 
 Some special cases for the `.tanh()` method include the following:
@@ -47,16 +46,16 @@ The following example demonstrates the application of `.tanh()` method:
 // Check.java
 public class Check {
   public static void main(String args[]) {
-  
+
   // num value in degrees
     double num = 45.0;
-    
+
   // converting num into radians
- 	  num = Math.toRadians(num); 
- 	  
-  // compute and print hyperbolic tangent	  
-  	 
-    System.out.println(Math.tanh(num));
+     num = Math.toRadians(num);
+
+  // compute and print hyperbolic tangent
+
+     System.out.println(Math.tanh(num));
   }
 }
 ```
