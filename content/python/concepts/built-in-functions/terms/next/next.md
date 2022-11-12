@@ -56,7 +56,7 @@ StopIteration
 ```
 
 > **Note:** This can also be done with a [`for` loop](https://www.codecademy.com/resources/docs/python/loops). However, the `for` loop actually generates its own iterator object and applies the `next()` function between each element. Since there is no risk of overflowing the list, a default parameter is not needed:
-> 
+>
 > ```py
 > list_items = iter(["Hi", 27, "Python", 10])
 > for item in list_items:
