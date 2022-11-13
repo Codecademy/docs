@@ -18,7 +18,7 @@ Similiar to a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap
 
 While the structure of a 'TreeMap' is more orderly, it comes as a tradeoff with speed in comparison to a 'HashMap'. In [Big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation), most `HashMap` operations run in amortized O(1) time; they are generally more time-efficient.  Most `TreeMap` operations run in O(log(n)) time and the `TreeMap` is generally more space-efficient due to its dynamic allocation of memory per value added.
 
-> **Note:** Complexity is a crucial factor when determining what structure to implement. If you want faster operations over your data, you would want to aim for a `HashMap`. However, if you're looking to keep your values sorted, it's best to stick to a `TreeMap`.
+> **Note:** Complexity is a crucial factor when determining what structure to implement. You would want to aim for a `HashMap` for faster operations over data. For structured and sorted operations on data, it's best to stick to a `TreeMap`.
 
 ## Syntax
 
