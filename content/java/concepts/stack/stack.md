@@ -46,7 +46,7 @@ import java.util.Arrays;
 
 public class Main {
   public static void main(String[] args) {
-	Stack<String> books = new Stack<String>();
+	Stack<String> books = new Stack<>();
 	System.out.println(books.isEmpty());
 	books.push("Effective Java");
 	books.push("Head First Java");
