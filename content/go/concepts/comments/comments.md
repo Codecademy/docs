@@ -1,6 +1,6 @@
 ---
 Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code. Single-line comments are created using two consecutive forward slashes. The compiler ignores any text after // on the same line. go // This line will denote a comment in Go  Multi-line comments are created using /* to begin the comment, and */ to end the comment. The compiler ignores any text in between. go'
+Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
