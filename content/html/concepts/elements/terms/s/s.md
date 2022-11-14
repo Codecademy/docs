@@ -13,13 +13,13 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<s>`** element is used to highlight no more pertinent, accurate, or wrong text. Browsers render it showing strikethrough text. Its behavior equals the <del> element but is semantically different. This last is usually used to show document changes.
+The **`<s>`** element is used to highlight no longer pertinent, inaccurate, or wrong text. Browsers render it showing strikethrough text. Its behavior equals the <del> element but is semantically different, <del> is usually used to show document changes.
 
 ## Syntax
 
 ```html
 <s>
-  <!-- Text no more pertinent, accurate, or wrong to here -->
+  <!-- No longer pertinent, inaccurate, or wrong text here -->
 </s>
 ```
 
@@ -31,9 +31,9 @@ The **`<s>`** element should only contain text content or other elements meant f
 <html>
   <head> </head>
   <body>
-	<p>
-		<s>worng txet</s>
-	</p>
+    <p>
+      <s>worng txet</s>
+    </p>
   </body>
 </html>
 ```
