@@ -19,6 +19,7 @@ The **`.subtracting()`** method creates a new set containing the elements from t
 ```pseudo
 newSet = targetSet.subtracting(givenSet)
 ```
+
 The elements of `givenSet` are removed from the elements of `targetSet` and what elements remain are placed into `newSet`.
 
 ## Example
