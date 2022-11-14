@@ -1,9 +1,8 @@
 ---
 Title: '.subtracting()'
 Description: 'Returns a new set containing the elements from the target set that are not in the given set.'
-  - 'Mobile Development'
-  - 'Computer Science'
 Subjects:
+  - 'Computer Science'
   - 'Mobile Development'
 Tags:
   - 'Data Types'
@@ -40,4 +39,3 @@ This will output:
 ```
 
 > **Note:** A set is an unordered data structure, so output elements may be ordered differently.
-
