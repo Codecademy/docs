@@ -1,6 +1,6 @@
 ---
 Title: 'TreeMap'
-Description: 'Used to store items as key-value pairs, ensuring items are sorted in a natural key order. The keys and values can be either the same or of different types.'
+Description: 'TreeMaps are structures of key-value pairs that are sorted either by natural ordering of their keys or through a Comparator.' 
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,9 +12,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **`TreeMap`** uses the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means it stores items as key-value pairs.
+A **`TreeMap`** is an implementation of the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, where its items are stored as key-value pairs and it is sorted either by natural ordering of its keys or through a [Comparator](https://www.codecademy.com/resources/docs/java/comparator).
 
-Similar to a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap), the `TreeMap` stores key-value pairs. The difference is the means of storage each type of collection uses internally. A `HashMap` stores its keys as hashes in a [`Hash Table`](https://www.codecademy.com/resources/docs/general/hash-table) whereas a `TreeMap` stores its keys in a [Binary Tree Structure](https://www.codecademy.com/resources/docs/general/binary-search-tree), which is a type of tree data structure that has at most two children nodes per parent.
+A `TreeMap` differs from a [`HashMap`](https://www.codecademy.com/resources/docs/java/hashmap) in terms of how their contents are stored. A `HashMap` stores its keys as hashes in a [hash table](https://www.codecademy.com/resources/docs/general/hash-table) whereas a `TreeMap` stores its keys in a [binary tree structure](https://www.codecademy.com/resources/docs/general/binary-search-tree), which is a type of tree data structure that has at most two children nodes per parent.
 
 While the structure of a `TreeMap` is more orderly, it comes as a tradeoff with speed in comparison to a `HashMap`. In [Big-O notation](https://www.codecademy.com/resources/docs/general/big-o-notation), most `HashMap` operations run in amortized O(1) time; they are generally more time-efficient. Most `TreeMap` operations run in O(log(n)) time and the `TreeMap` is generally more space-efficient due to its dynamic allocation of memory per value added.
 
@@ -23,7 +23,7 @@ While the structure of a `TreeMap` is more orderly, it comes as a tradeoff with 
 ## Syntax
 
 ```pseudo
-import java.util.TreeMap
+import java.util.TreeMap;
 
 TreeMap<KeyDataType, ValueDataType> myTreeMap = new TreeMap<KeyDataType, ValueDataType>();
 ```
@@ -65,6 +65,7 @@ Ben
 Items can be added to a `TreeMap` using the `.put()` method. It accepts two parameters, a key and a value, and stores them as a pair (`{ key=value }`).
 
 ```java
+// Main.java
 import java.util.TreeMap;
 
 public class Main {
@@ -91,6 +92,7 @@ This will output the following "course=teacher" assignments:
 Items can be removed from a `TreeMap` using the `.remove()` method. It accepts one parameter, the key, and removes the corresponding key-value pair from the `HashMap`.
 
 ```java
+// Main.java
 import java.util.TreeMap;
 
 public class Main {
@@ -119,6 +121,7 @@ This will output the following:
 The `.clear()` method can be used to remove all the items from the `TreeMap`.
 
 ```java
+// Main.java
 import java.util.TreeMap;
 
 public class Main {
@@ -147,6 +150,7 @@ The emptied `TreeMap` will be displayed in the output below:
 A `TreeMap` can be traversed with the `for`-`each` [loop](https://www.codecademy.com/resources/docs/java/loops). The `.keySet()` method can be used to obtain only the keys while the `.values()` method can be used to obtain only values.
 
 ```java
+// Main.java
 import java.util.TreeMap;
 
 public class Main {
