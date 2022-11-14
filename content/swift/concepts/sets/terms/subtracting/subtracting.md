@@ -3,6 +3,8 @@ Title: '.subtracting()'
 Description: 'Returns a new set containing the elements from the target set that are not in the given set.'
   - 'Mobile Development'
   - 'Computer Science'
+Subjects:
+  - 'Mobile Development'
 Tags:
   - 'Data Types'
   - 'Variables'
