@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<section>`** semantic HTML element defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+The **`<section>`** HTML element defines elements in a document, such as chapters, headings or any other area of the document with a common theme.
 
 For example, content with the same theme such as articles about cricket can go under a single `<section>`. A website’s home page could be split into sections for the introduction, news items, and contact information.
 
@@ -21,7 +21,7 @@ For example, content with the same theme such as articles about cricket can go u
 
 ```pseudo
 <section>
-  <!-- Elements in a document with the same theme -->
+  <!-- Elements in a document with a common theme -->
 </section>
 ```
 
@@ -65,7 +65,7 @@ Suppose the current page wants to add two sections:
 
 ## Alternatives to `<section>`
 
-There are also examples where we can use other elements that semantically fit better then `<section>` element.
+There are also examples where we can use other elements that semantically fit better then the `<section>` element.
   
 The first example is the `<header>` element which can be used to describe that the content inside is the header of the page.
   
@@ -86,14 +86,14 @@ The first example is the `<header>` element which can be used to describe that t
 </html>
 ```
 
-Second example is the `<nav>` element. It is used to describe that the content inside is a navigation system of the page.  
+The second example is the `<nav>` element. It is used to describe that the content inside is a navigation system of the page.
   
 ```html
 <!DOCTYPE html>
 <html>
   <head></head>
   <body>
-    <!-- Navigation  of the page -->
+    <!-- Navigation of the page -->
     <nav>
       <ul>
         <li>Home</li>
