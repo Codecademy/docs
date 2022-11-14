@@ -1,6 +1,6 @@
 ---
 Title: 'TreeMap'
-Description: 'TreeMaps are structures of key-value pairs that are sorted either by natural ordering of their keys or through a Comparator.' 
+Description: 'TreeMaps are structures of key-value pairs that are sorted either by natural ordering of their keys or through a Comparator.'
 Subjects:
   - 'Computer Science'
 Tags:
