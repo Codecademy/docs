@@ -21,7 +21,7 @@ There are many ways to contribute to Codecademy Docs:
 If you're new to Codecademy Docs and contributing for the first time, it is recommended that you visit the [Issues](https://github.com/Codecademy/docs/issues) section and ask to be assigned to an [open issue](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md#how-do-i-claim-an-issue) that interests you. Otherwise, feel free to submit a [PR](https://www.codecademy.com/resources/docs/git/pull-requests) by creating a new [branch](https://www.codecademy.com/resources/docs/general/git/branch) in your fork to create a new entry or edit an existing one.
 
 ## How do I claim an Issue?
-
+<!-- prettier-ignore-start -->
 Becoming an assignee to an issue follows this workflow:
 
 1. Comment on a thread for an issue that you're interested in being assigned to (e.g., [Issue #1026](https://github.com/Codecademy/docs/issues/1026)).
@@ -29,7 +29,7 @@ Becoming an assignee to an issue follows this workflow:
   - If assigned, start working on a PR.
   - If not assigned, continue steps 1 and 2 until assigned an issue.
 3. If a PR has not been opened in 2 weeks for the issue, the issue may be reassigned to another contributor. Maintainers will do their best to notify contributors by tagging their GitHub handle along the issue thread every 5-7 days.
-
+<!-- prettier-ignore-end -->
 > **Note:** There should be some noticeable activity within every 2-3 days.
 
 ## How do I submit a Pull Request (PR)?
