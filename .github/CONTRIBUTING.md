@@ -24,11 +24,11 @@ If you're new to Codecademy Docs and contributing for the first time, it is reco
 
 Becoming an assignee to an issue follows this workflow:
 
-- Comment on an issue thread that you're interested in taking the issue, e.g., [Issue #1026](https://github.com/Codecademy/docs/issues/1026).
-- Await a maintainer's response to be assigned.
+1. Comment on a thread for an issue that you're interested in being assigned to (e.g., [Issue #1026](https://github.com/Codecademy/docs/issues/1026)).
+2. Await a maintainer's response to be assigned.
   - If assigned, start working on a PR.
   - If not assigned, continue steps 1 and 2 until assigned an issue.
-- If a PR has not been opened in 2 weeks for the issue, the issue may be reassigned to another contributor. Maintainers will do the best to notify contributors by tagging their GitHub handle along the issue thread.
+3. If a PR has not been opened in 2 weeks for the issue, the issue may be reassigned to another contributor. Maintainers will do their best to notify contributors by tagging their GitHub handle along the issue thread every 5-7 days.
 
 > **Note:** There should be some noticeable activity within every 2-3 days.
 
