@@ -17,16 +17,14 @@ The **remainder()** function returns the IEEE floating-point remainder resulting
 ## Syntax
 
 ```pseudo
-double remainder(double numerator, double denominator);
-float remainder(float numerator, float denominator);
-long double remainder(long double numerator, long double denominator);
-double remainder(Type1 numerator, Type2 denominator); // additional overloads for other combination of arithmetic types
+remainder(numerator, denominator)
 ```
 
-- the function returns remainder = numerator - n \* denominator
-- n is the result of numerator / denominator rounded to the nearest integral value
+- the function returns remainder = `numerator` - `n` \* `denominator`
+- `n` is the result of `numerator` / `denominator` rounded to the nearest integral value
 - halfway cases are rounded toward the even number
-- if remainder is zero, it will have the same sign as numerator
+- if remainder is zero, it will have the same sign as `numerator`
+- two floats will return a float, two longs will return a long, and other combinations will return a double
 
 ## Example
 
