@@ -24,7 +24,7 @@ The elements of `givenSet` are removed from the elements of `targetSet` and what
 
 ## Example
 
-In the example below, The elements from `fruit` set are removed from the elements in `produce` set and the remaining elements are placed in the new `veggies` set:
+In the example below, the elements from the `fruit` set are removed from the elements in the `produce` set and the remaining elements are placed in the new `veggies` set:
 
 ```swift
 let produce: Set = ["Lettuce", "Apples", "Carrots", "Bananas", "Broccoli", "Onions"]
