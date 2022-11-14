@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tanh()`** function returns the hyperbolic tangent of an `double`-type arguement given in radians.
+The **`Math.tanh()`** function returns the hyperbolic tangent of an `double`-type argument given in radians.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `angle` is measured in radians and the return type is a `double`, `float`, o
 The mathematical formula used in `tanh()` looks like this:
 
 ```tex
-tanh(x) = (e^x - e^-x) / (e^x + e^-x)
+tanh(x) = (e<sup>x</sup> - e<sup>-x</sup>) / (e<sup>x</sup> + e<sup>-x</sup>)
 ```
 
 ## Example
@@ -35,8 +35,7 @@ The following example demonstrates the application of `.tanh()` function:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   // Values in degree
   double value1 = -30.0;
   double value2 = 120.0;
@@ -73,8 +72,7 @@ This example uses `tanh()` to return the hyperbolic tangent of `1.0` radians:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double value = 1.0;
   double result = std::tanh(value);
 
