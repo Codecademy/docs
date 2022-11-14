@@ -1,5 +1,5 @@
 ---
-Title: 'scalb()'
+Title: '.scalb()'
 Description: 'Returns the first argument multiplied by 2 to the power of the second argument.'
 Subjects:
   - 'Computer Science'
