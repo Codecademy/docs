@@ -86,6 +86,7 @@ numbers[4]
 
 The output would look like this:
 
+```shell
 # Output: [1] 49
 # Output: [1] 36
 
