@@ -25,7 +25,7 @@ Math.ulp(num);
 - The return type will be the same as the parameter type.
 
 Special cases include the following:
- 
+
 - If `num` is NaN `ulp(num)` will be NaN.
 - If `num` is positive or negative Zero then `ulp(num)` will be `Double.MAX_VALUE` or `Float.MAX_VALUE` meaning the minimum numbers that `float` or `double` can represent.
 - If `num` is positive or negative infinity `ulp(num)` will be postive infinity.
@@ -61,14 +61,10 @@ import java.lang.Math
 public class Test {
   public static void main(String args[]) {
     float num = 23.44;
-	
     System.out.println(Math.ulp(num) + " = "  + Math.ulp(-num));
-	
-	System.out.println(Math.ulp(0/0.));
-	
-	System.out.println(Math.ulp(0.));
-	
-	System.out.println(Math.ulp(1./0));
+    System.out.println(Math.ulp(0/0.));
+    System.out.println(Math.ulp(0.));
+    System.out.println(Math.ulp(1./0));
   }
 }
 ```
