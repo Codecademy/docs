@@ -54,7 +54,7 @@ nan("1") = nan (7ff8000000000001)
 
 ## Codebyte Example
 
-The following example is runnable and returns the quiet NaN value
+The following example is runnable and returns a quiet NaN value:
 
 ```codebyte/cpp
 #include <iostream>
