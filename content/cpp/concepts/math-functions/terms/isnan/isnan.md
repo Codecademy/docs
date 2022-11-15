@@ -29,12 +29,12 @@ Below code is the example of the `isnan()` function checking if the value of `x`
 #include <iostream>  
 #include<math.h>  
 using namespace std;  
-int main()  
-{  
-    float x=0.0/0.0;  
-    cout<<"value of x is : "<<x<<'\n';  
-    cout<<"isnan(x) : "<<isnan(x);  
-    return 0;  
+
+int main()  {
+  float x=0.0/0.0;  
+  cout << "value of x is : " << x << '\n';  
+  cout << "isnan(x) : " << isnan(x);  
+  return 0;  
 }  
 ```
 
