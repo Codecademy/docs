@@ -20,7 +20,7 @@ The **`nan()`** function in C++ returns a quiet `NaN` (not a number) value of ty
 nan(x)
 ```
 
-The `nan()` function returns quiet NaN value.
+The `nan()` function returns a quiet NaN value. The argument is an implementation specific C-string that can be used by library implementations to distinguish different `NaN` values.
 
 ## Example
 
