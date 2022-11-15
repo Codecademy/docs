@@ -54,6 +54,6 @@ int main() {
 
   result = std::tan(x);
 
-  std::cout << "The tangent of " << x << " is " << result << "\n";
+  std::cout << "The tangent of " << x << " is " << result << ".\n";
 }
 ```
