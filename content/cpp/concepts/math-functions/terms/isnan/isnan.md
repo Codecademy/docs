@@ -16,10 +16,7 @@ The **`isnan()`** function returns a number telling whether a given value is a `
 ## Syntax
 
 ```pseudo
-bool isnan(float x);  
-bool isnan(double x);  
-bool isnan(long double x);  
-bool isnan(integral x);
+isnan(x)
 ```
 It returns 1 if x is `NaN`, otherwise it returns 0.
 
