@@ -62,7 +62,7 @@ int main() {
   double d = 3.14;
   long double ld = 3.1415926535897932384626433832L;
   int i = -144;
-  
+
   cout << "value of isnan(f) is: " << isnan(f) << "\n";
   cout << "value of isnan(d) is: " << isnan(d) << "\n";
   cout << "value of isnan(ld) is: " << isnan(ld) << "\n";
