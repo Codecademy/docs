@@ -1,6 +1,6 @@
 ---
 Title: 'isnan()'
-Description: 'returns non-zero value (true) if value in parameter is a NaN value; and zero (false) otherwise.'
+Description: 'Returns a number telling whether a given value is a NaN value.'
 Subjects:
   - 'Computer Science'
 Tags:
