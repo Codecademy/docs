@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`LazyHStack`** view is a layout container where elements are arranged in a horizontal line (left-to-right) and are created when needed. This comes very handy when creating long lists and can allow an app to run smoother and faster.
+The **`LazyHStack`** view is a layout container where items are arranged in a horizontal line (left-to-right), like in a standard [`HStack`](https://www.codecademy.com/resources/docs/swiftui/views/hstack) view, but will only create them when needed. This is useful for creating long lists and can allow an app to run smoother and faster.
 
 ## Syntax
 
