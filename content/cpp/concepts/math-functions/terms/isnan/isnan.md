@@ -38,7 +38,7 @@ int main()  {
 }  
 ```
 
-This example results in the following output:
+This produces the following output:
 
 ```
 value of x is : -nan
