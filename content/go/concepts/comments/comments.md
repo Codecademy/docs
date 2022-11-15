@@ -43,7 +43,7 @@ Multi-line comments can also be created using `//` to begin each line:
 
 ## Doc Comment
 
-Doc comments are used to identify the author of the code, the date the code was written, a description of the program, etc. Multi-line comments can be used to create a doc comment at the top of the file.
+Doc comments are used to identify the author of the code, the date the code was written, a description of the program, and other. Multi-line comments can be used to create a doc comment at the top of the file.
 
 ```go
 // This is a sample Doc comment that provides the details and description of the program
