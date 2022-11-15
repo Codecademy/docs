@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`LazyVStack`** has all the properties as a standard `VStack` but it will not create items until it needs to render them on screen. This comes very handy when creating long lists and can allow an app to run smoother and faster.
+The **`LazyVStack`** has all the properties of a standard [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack) but will not create items until it needs to be rendered on screen. This is useful when creating long lists and can allow an app to run smoother and faster.
 
 ## Syntax
 
