@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'Conceptual'
   - 'Cybersecurity'
+  - 'Ethical Hacking'
 CatalogContent:
   - 'learn-php'
   - 'paths/computer-science'
@@ -15,7 +16,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-hacking/" />
 
-Hacking involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" or "bad". It depends on many factors, including the intentions of the hacker.
+**Hacking** involves using technical skills to break into computer systems and access sensitive data. By itself, hacking is neither "good" nor "bad". It depends on many factors, including the intentions of the hacker.
 
 ## Types of Hackers
 
@@ -28,9 +29,9 @@ These are the hackers that are notoriously regarded as "the bad guys" that infil
 - Steal credit card and/or bank account information.
 - Leak sensitive information to the public.
 - Take one company's sensitive data and give/sell it to another.
-- Steal large amounts of personal information and sell it to third parties
-- Cripple a company's computer system by taking control of it and then holding it for ransome.
-- Steal and sell the login information for large amounts of users.
+- Steal large amounts of personal information and sell it to third parties.
+- Cripple a company's computer system by taking control of it and then holding it for ransom.
+- Steal and sell the login information of large amounts of users.
 
 ### Grey Hat Hackers
 
@@ -43,7 +44,7 @@ This puts system maintainers in a tough position as to whether it would be wise 
 
 ### White Hat Hackers
 
-White hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system.
+White hat hackers hack for the benefit of others, particularly organizations trying to discover (and close) security vulnerabilities in their system. They always obtain permission before penetrating an organization's system. Also known as "ethical hackers", many white hat hackers carry a Certified Ethical Hacker (CEH) qualification.
 
 A white hat hacker will normally engage directly with a company and listen to their concerns. Next, they will attempt to hack areas of their network to spot weaknesses. After they finish, they provide a report to the company and potential next steps.
 
@@ -51,14 +52,14 @@ Generally, white hat hacking involves:
 
 - Testing the strength of firewalls meant to detect malicious activity.
 - Finding vulnerabilities in the codebase of web applications.
-- Discovering weaknesses in databases that could leave a company susceptible to SQL injections, which target database codes and structures.
-- Checking if an organization is resilient against [cyber attacks](https://www.codecademy.com/resources/docs/general/cyber-attacks) such as distributed denial of service (DDoS) attacks.
+- Discovering weaknesses in [databases](https://www.codecademy.com/resources/docs/general/database) that could leave a company susceptible to [SQL injections](https://www.codecademy.com/resources/docs/sql/sql-injections), which target database codes and structures.
+- Checking if an organization is resilient against [cyber attacks](https://www.codecademy.com/resources/docs/general/cyber-attack) such as distributed denial of service (DDoS) attacks.
 - Seeing how well a company can recover after a ransomware attack.
 - Testing backup systems for vulnerabilities.
 
 ## Protection From Hacking
 
-While not a 100%-guaruntee, steps can be taken to protect against malicious hacks, including:
+While not a 100%-guarantee, steps can be taken to protect against malicious hacks, including:
 
 - Creating complex, hard-to-guess passwords for all online accounts.
 - Never leaving login credentials exposed in a public place.
@@ -74,7 +75,9 @@ While not a 100%-guaruntee, steps can be taken to protect against malicious hack
 
 Learning how hackers think, as well as the tools they often use, can be invaluable. This involves the following programming languages and tools:
 
+- [Bootstrap](https://www.codecademy.com/resources/docs/open-source/bootstrap)
+- [C](https://www.codecademy.com/resources/docs/c)
+- [C++](https://www.codecademy.com/resources/docs/cpp)
 - [PHP](https://www.codecademy.com/resources/docs/php)
 - [Python](https://www.codecademy.com/resources/docs/python)
 - [R](https://www.codecademy.com/resources/docs/r)
-- [Bootstrap](https://www.codecademy.com/resources/docs/general/bootstrap)
