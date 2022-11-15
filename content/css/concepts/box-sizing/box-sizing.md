@@ -18,7 +18,7 @@ The `box-sizing` property allows us to include the padding and boarder in the ca
 ## Syntax
 
 ```css
-box-sizing: <value>;
+box-sizing: <urmom>;
 ```
 
 The `box-sizing` property has two values.
