@@ -1,5 +1,5 @@
 ---
-Title: 'Math.log1p()'
+Title: '.log1p()'
 Description: 'Returns the natural logarithm (base e) of the sum of a double value as a parameter and 1.'
 Subjects:
   - 'Computer Science'
