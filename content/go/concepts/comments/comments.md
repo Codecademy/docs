@@ -25,7 +25,7 @@ Single-line comments are created using two consecutive forward slashes. The comp
 
 ## Multi-line Comments
 
-Multi-line comments are created using `/*` to begin the comment, and `*/` to end the comment. The compiler ignores any text in between.
+Multi-line comments are created using `/*` to begin the comment, and `*/` to end the comment. The compiler ignores any text in between:
 
 ```go
 /*
