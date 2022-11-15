@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the absolute value of the argument.
+The **`abs()`** function returns the absolute value of the argument.
 
 ## Syntax
 
-```py
+```pseudo
 abs(n)
 ```
 
@@ -27,7 +27,8 @@ Use `abs()` to return the absolute value of `-6.5`:
 #include <iostream>
 #include <cmath>
 
-int main () {
+int main()
+{
   std::cout << std::abs(-6.5) << "\n";
 }
 

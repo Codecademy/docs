@@ -1,6 +1,6 @@
 ---
 Title: 'Objects'
-Description: 'In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data. Suppose we have already created a class named MyClass, so now we can use it to create objects. To create an object of MyClass, specify the class name, followed by the object name. cpp City nyc; // Used the City class to create an object named nyc City shanghai; // Used the City class to create an object named shanghai '
+Description: 'In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,9 +13,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data.
+In C++, an **object** is an instance of a class that encapsulates data and functionality pertaining to that data.
 
-Suppose we have already created a class named `MyClass`, so now we can use it to create objects.
+Suppose a class named `MyClass` was created, so now it can be used to create objects.
 
 To create an object of `MyClass`, specify the class name, followed by the object name.
 
@@ -29,13 +29,15 @@ To access the class attributes, use the dot syntax (`.`) on the object:
 Create an object called `myObj` and access the attributes:
 
 ```cpp
-class MyClass {
-  public:
-    int myNum;
-    std::string myString;
+class MyClass
+{
+public:
+  int myNum;
+  std::string myString;
 };
 
-int main() {
+int main()
+{
   // Create an object of MyClass
   MyClass myObj;
 
@@ -57,14 +59,16 @@ int main() {
 #include <iostream>
 #include <string>
 
-class Cat {
-  public:
-    std::string name;
-    std::string color;
-    int age;
+class Cat
+{
+public:
+  std::string name;
+  std::string color;
+  int age;
 };
 
-int main() {
+int main()
+{
   // Create an object of Cat
   Cat mochi;
 
