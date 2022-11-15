@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`tan()`** function returns the tangent of the argument.
+The **`tan()`** function returns the tangent of the angle in radians.
 
 ## Syntax
 
