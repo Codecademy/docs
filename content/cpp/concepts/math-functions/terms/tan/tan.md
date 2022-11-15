@@ -35,8 +35,8 @@ int main() {
 
   result = std::tan(x);
 
-  std::cout << "The tangent of " << x << " is " << result << "\n";
-  // Output: The tangent of pi/4 is 1
+  std::cout << "The tangent of " << x << "..." << " is " << result << ".\n";
+  // Output: The tangent of 0.785398... is 1.
 }
 ```
 
