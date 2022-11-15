@@ -21,11 +21,30 @@ tan(x)
 
 The `x` parameter represents an angle measured in radians. One radian is equal to 180/&pi; degrees (where &pi; (Pi) = 3.14159...). If `x` is equal to  &pi; &plusmn; `n`/&pi; (where `n` is a natural number), then a domain error will occur.
 
+
 ## Example
+
+The following example is runnable and returns the tangent of `0` with the `tan()` function:
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = 0;
+  double result;
+
+  result = std::tan(x);
+
+  std::cout << "The tangent of " << x << " is " << result << ".\n";
+}
+```
+
+## Codebyte Example
 
 The following example uses the `tan()` function to find the tangent of &pi;/4:
 
-```cpp
+```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
@@ -37,23 +56,5 @@ int main() {
 
   std::cout << "The tangent of " << x << "..." << " is " << result << ".\n";
   // Output: The tangent of 0.785398... is 1.
-}
-```
-
-## Codebyte Example
-
-The following example is runnable and returns the tangent of `0` with the `tan()` function:
-
-```codebyte/cpp
-#include <iostream>
-#include <cmath>
-
-int main() {
-  double x = 0;
-  double result;
-
-  result = std::tan(x);
-
-  std::cout << "The tangent of " << x << " is " << result << ".\n";
 }
 ```
