@@ -24,21 +24,28 @@ The `nan()` function returns quiet NaN value.
 
 ## Example
 
-The following example uses the `nan()` function to find the quiet NaN value :
+The following example uses the `nan()` function to return a `NaN` value :
 
 ```cpp
 #include <iostream>
 #include <cmath>
-#include <cstring>
+
+using namespace std;
 
 int main()
 {
-  double result = nan("1");
-  uint64_t dest;
-  // copies variable src to dest
-  // use <cstring> for memcpy()
-  memcpy(&dest, &src, sizeof src);
-  std::cout << "nan(\"1\") = " << result << " (" << hex << dest << ")\n";
+  double number1 = 1.0;
+  double number2 = nan("");
+
+  if (isnan(number1)) 
+  { 
+    cout << "number1 is not a number"; 
+  }
+
+  if (isnan(number2)) 
+  {
+    cout << "number2 is not a number"; 
+  }
 
   return 0;
 }
@@ -47,7 +54,7 @@ int main()
 This produces the following output:
 
 ```shell
-nan("1") = nan (7ff8000000000001)
+number2 is not a number
 ```
 
 ## Codebyte Example
