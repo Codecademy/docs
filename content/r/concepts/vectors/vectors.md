@@ -21,7 +21,7 @@ CatalogContent:
 
 Atomic vectors are made with the ‘c()’ function to combine different elements of the same type together:
 
-```
+```pseudo
 atomic_vector <- c(element_1, element_2, ... element_N)
 ```
 
