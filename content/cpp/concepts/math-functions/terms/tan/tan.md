@@ -23,7 +23,7 @@ The `x` parameter represents an angle measured in radians. One radian is equal t
 
 ## Example
 
-The following example uses the `tan()` function to find the tangent of pi/4:
+The following example uses the `tan()` function to find the tangent of &pi;/4:
 
 ```cpp
 #include <iostream>
