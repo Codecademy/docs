@@ -25,15 +25,11 @@ Atomic vectors are made with the ‘c()’ function to combine different element
 atomic_vector <- c(element_1, element_2, ... element_N)
 ```
 
-## Vector Types
+Recursive vectors can have elements of any data type and is created with the `list()` function:
 
-Vectors can be of different datatypes.
-
-## Examples
-
-The following atomic vectors are created with the `c()` function:
-
-Recursive vectors can have elements of any data type and is created with the `list()` function:  
+```pseudo
+recursive_vector <- list(element_1, element_2, ... element_N)
+```
 
 ## Examples
 
@@ -48,12 +44,6 @@ marks <- c(90, 87, 100, 79, 91)
 booleans <- c(TRUE, FALSE, TRUE)
 ```
 
-```r
-# This creates a vector of integers
-marks <- c(90,87,100,79,91)
-```
-
-
 Apart from the 'c()' function, the colon operator (`:`) can be used to create a vector containing a range of numbers:
 
 ```r
@@ -66,7 +56,6 @@ numbers
 In R, character vectors can contain alphanumeric values and special characters.
 
 ```r
-# This vector contains both alphabetic and numeric values, and would be a character vector type
 alphanumerics <- c('water', 'fire', 'ice', 90)
 alphanumerics
 # Output: [1] "water" "fire" "ice" "90"
@@ -74,15 +63,13 @@ alphanumerics
 
 ## Accessing Vector Elements
 
-There is need to access the elements in vector to perform operations on each element. The most common way to access the vector elements is by using the subscript operator [].
+The most common way to access vector elements is by index using the subscript operator `[]`:
 
 ```r
-# Accessing elements with an index number as subscript.
-
 numbers <- c(65, 49, 55, 36, 126)
 numbers[2]
 numbers[4]
-
+```
 
 The output would look like this:
 
@@ -97,7 +84,12 @@ Vector elements can also be accessed by logical indexing:
 # Accessing vector elements using logical indexing.
 numbers <- c(1, 2, 3, 4, 5)
 numbers[numbers < 4]
-# Output: [1] 1 2 3
+```
+
+This would produce the following output:
+
+```shell
+[1] 1 2 3
 ```
 
 ## Updating a Vector
@@ -112,8 +104,14 @@ cat("Third element changed: ", numbers, "\n")
 numbers[1] = 0
 cat("First element changed: ", numbers)
 ```
-To start, the third element in `numbers` is updated to 8. Next, the first element is updated to 0.
 
+To start, the third element in `numbers` is updated to 8. Next, the first element is updated to 0. This will produce the following output:
+
+```shell
+Original vector: 2 5 1 7 9
+Third element changed: 2 5 8 7 9
+First element changed: 0 5 8 7 9
+```
 
 ## Vector Recycling
 
@@ -123,7 +121,7 @@ Vector recycling is a process in which two vectors of different lengths are oper
 
 The following example presents two cases of vector recycling using addition, which requires the two vectors to be equal in length.
 
-Case 1: When the two vector lengths are equal:
+Case 1 is when the two vector lengths are equal:
 
 ```r
 numbers_1 <- c(1, 2, 3, 4, 5)
@@ -133,7 +131,7 @@ sum
 # Output: [1] 4 6 8 10 12
 ```
 
-Case 2: When the vector lengths are unequal:
+Case 2 is when the vector lengths are unequal:
 
 ```r
 numbers_1 <- c(1, 2, 3, 4, 5, 6)
