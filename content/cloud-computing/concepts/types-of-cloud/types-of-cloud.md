@@ -7,7 +7,7 @@ Tags:
   - 'Cloud Computing'
   - 'Networking'
 CatalogContent:
-  - 'learn/foundations-of-cloud-computing'
+  - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
 ---
 
