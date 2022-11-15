@@ -19,7 +19,6 @@ CatalogContent:
 
 ## Vector Types
 
-In R, vectors are made with the `c()` function to combine different elements of the same type together.
 Atomic vectors are made with the ‘c()’ function to combine different elements of the same type together:
 
 ```
