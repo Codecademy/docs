@@ -18,7 +18,8 @@ The **`isnan()`** function returns a number telling whether a given value is a `
 ```pseudo
 isnan(x)
 ```
-It returns 1 if x is `NaN`, otherwise it returns 0.
+
+The `x` parameter is a floating-point value that can be of type `float`, `double`, `long double`, or `int`. The return value is 1 if `x` is `NaN`. Otherwise, 0 is returned.
 
 ## Example
 
