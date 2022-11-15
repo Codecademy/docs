@@ -142,4 +142,5 @@ sum <- numbers_1 + numbers_2
 sum
 # Output: [1] 4 6 6 8 8 10
 ```
+
 Here, the first two elements of `numbers_1` are added to the first, and only, two elements of `numbers_2`. Then, to complete the addition operation, R repeats (or recycles) the elements of the smaller `numbers_2` vector (`3` and `4`) until the end of `numbers_1` is reached.
