@@ -69,7 +69,6 @@ import "fmt"
 
 // Main function of the program
 func main() {
-
     // Displays Hello world to the screen
     fmt.Println("Hello World!!!")
 }
