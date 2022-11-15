@@ -37,8 +37,8 @@ None of it is going to run!
 Multi-line comments can also be created using `//` to begin each line:
 
 ```go
-//This is all commented out.
-//None of it is going to run!
+// This is all commented out.
+// None of it is going to run!
 ```
 
 ## Doc Comment
