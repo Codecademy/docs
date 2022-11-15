@@ -120,6 +120,7 @@ To start, the third element in `numbers` is updated to 8. Next, the first elemen
 Vector recycling is a process in which two vectors of different lengths are operated upon such that the elements of the shorter vector are repeated to match the length of the longer vector.
 
 ### Example
+
 The following example presents two cases of vector recycling using addition, which requires the two vectors to be equal in length.
 
 Vector addition requires the two vectors to be of same length.
