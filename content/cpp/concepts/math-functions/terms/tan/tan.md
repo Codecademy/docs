@@ -19,7 +19,7 @@ The **`tan()`** function returns the tangent of the argument.
 tan(x)
 ```
 
-If the parameter `x` is equal to pi +- n\*pi (Where n is a natural number), then a domain error will occur.
+The `x` parameter represents an angle measured in radians. One radian is equal to 180/&pi; degrees (where &pi; (Pi) = 3.14159...). If `x` is equal to  &pi; &plusmn; `n`/&pi; (where `n` is a natural number), then a domain error will occur.
 
 ## Example
 
