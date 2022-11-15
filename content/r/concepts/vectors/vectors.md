@@ -123,8 +123,6 @@ Vector recycling is a process in which two vectors of different lengths are oper
 
 The following example presents two cases of vector recycling using addition, which requires the two vectors to be equal in length.
 
-Vector addition requires the two vectors to be of same length.
-
 Case 1: When the two vector lengths are equal:
 
 ```r
