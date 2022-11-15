@@ -4,14 +4,18 @@ title: "[Entry] Subject: Entry Name"
 labels: ["new entry"]
 assignees: "Name here"
 body:
-  - type: markdown
-    attributes:
-      value: Please refer to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) before submitting a PR.
   - type: textarea
     id: description
     attributes:
       label: Reason/inspiration (optional)
       placeholder: Tell us more about why you would like to add this to Docs?
+  - type: markdown
+    attributes:
+      value: |
+        In addition to the [Contributing Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md), we recommend checking out the following before submtting a PR:
+        - [Entry templates](https://github.com/Codecademy/docs/blob/main/documentation/)
+        - [Content standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
+        - [Markdown style guide](https://curriculum-documentation.codecademy.com/content-guidelines/markdown-style-guide/)
   - type: dropdown
     id: entries
     attributes:
@@ -27,9 +31,8 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Codecademy/docs/blob/main/.github/CODE_OF_CONDUCT.md)
       options:
-        - label: I agree to follow Codecademy Doc's Code of Conduct
+        - label: By submitting this issue, I agree to follow Codecademy Doc's [Code of Conduct](https://github.com/Codecademy/docs/blob/main/.github/CODE_OF_CONDUCT.md).
           required: true
   - type: checkboxes
     id: maintainers

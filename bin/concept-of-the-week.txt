@@ -1,1 +1,1 @@
-content/ruby/concepts/errors/errors.md
+content/java/concepts/compiler/compiler.md
