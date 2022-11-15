@@ -29,6 +29,10 @@ atomic_vector <- c(element_1, element_2, ... element_N)
 
 Vectors can be of different datatypes.
 
+## Examples
+
+The following atomic vectors are created with the `c()` function:
+
 Recursive vectors can have elements of any data type and is created with the `list()` function:  
 
 ## Examples
