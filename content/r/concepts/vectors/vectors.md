@@ -87,9 +87,8 @@ numbers[4]
 The output would look like this:
 
 ```shell
-# Output: [1] 49
-# Output: [1] 36
-
+[1] 49
+[1] 36
 ```
 Vector elements can also be accessed by logical indexing
 
