@@ -36,6 +36,7 @@ The following atomic vectors are created with the `c()` function:
 Recursive vectors can have elements of any data type and is created with the `list()` function:  
 
 ## Examples
+
 The following atomic vectors are created with the `c()` function:
 
 ```r
