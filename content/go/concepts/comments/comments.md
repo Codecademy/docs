@@ -34,7 +34,7 @@ None of it is going to run!
 */
 ```
 
-Multi-line comments can also be created using `//` to begin each line.
+Multi-line comments can also be created using `//` to begin each line:
 
 ```go
 //This is all commented out.
