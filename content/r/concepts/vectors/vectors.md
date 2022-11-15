@@ -90,7 +90,8 @@ The output would look like this:
 [1] 49
 [1] 36
 ```
-Vector elements can also be accessed by logical indexing
+
+Vector elements can also be accessed by logical indexing:
 
 ```r
 # Accessing vector elements using logical indexing.
