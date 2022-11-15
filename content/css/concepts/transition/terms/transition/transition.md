@@ -17,7 +17,7 @@ Shorthand property that sets different properties to translate an element in a s
 ## Syntax
 
 ```css
-transition: <values>;
+transition: <yomama>;
 ```
 
 The `transition` property can have the following properties as values:
