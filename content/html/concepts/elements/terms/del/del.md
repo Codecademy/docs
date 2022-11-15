@@ -29,6 +29,8 @@ The `<del>` element should only contain text content or other elements meant for
 
 ## Example
 
+The following is an example of the `<del>` element:
+
 ```html
 <html>
   <head> </head>
@@ -37,5 +39,7 @@ The `<del>` element should only contain text content or other elements meant for
   </body>
 </html>
 ```
+
+The rendered output would look like this:
 
 ![Rendered <del> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/del-tag-example.png)
