@@ -1,6 +1,6 @@
 ---
 Title: 'Label'
-Description: 'Allows users to create a standardised label for buttons.'
+Description: 'A label is a standard user interface component that includes an icon and a title.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
