@@ -38,7 +38,7 @@ It reports ports as in one of six states:
 nmap scanme.nmap.org
 ```
 
-> **Note:** `scanme.nmap.org` is a domain set up explicitly for people to test nmap with.
+> **Note:** `scanme.nmap.org` is a domain set up explicitly for people to test Nmap with.
 
 The output of this command looks like this:
 
