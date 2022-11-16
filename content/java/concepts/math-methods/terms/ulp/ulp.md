@@ -1,6 +1,6 @@
 ---
 Title: '.ulp()'
-Description: 'Returns the size of the ulp of a number which is its unit of last precision.'
+Description: 'Returns the size of the unit of last precision of a number.'
 Subjects:
   - 'Computer Science'
 Tags:
