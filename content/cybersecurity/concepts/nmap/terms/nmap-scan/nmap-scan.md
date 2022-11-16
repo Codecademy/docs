@@ -1,6 +1,6 @@
 ---
 Title: 'Nmap scan'
-Description: 'The most basic type of scan is done with the cli command nmap with just a target specified.'
+Description: 'The most basic type of scan is done with the command-line interface (CLI) command Nmap with just a target specified.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
