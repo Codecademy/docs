@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **label** is a standard user interface component that includes an icon and a title. It appears in many different context like collections, lists or  disclosable lists, buttons, to name a few.
+A **`label`** is a standard user interface component that includes an icon and a title. It appears in many different context like collections, lists or buttons, to name a few.
 
 ## Syntax
 
