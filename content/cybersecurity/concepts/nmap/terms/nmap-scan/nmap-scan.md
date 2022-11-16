@@ -25,12 +25,12 @@ Where `target` is the IP address or domain name being scanned. The command by it
 
 Nmap divides ports into one of six states:
 
-- open: The port is open and actively accepting connections.
-- closed: The port is accessible, but no application is accepting connections through it.
-- filtered: Nmap can't tell if the port is open because a firewall or other packet filtering is preventing access.
-- unfiltered: The port is accessible, but nmap cannot determine if the port is open or closed.
-- open|filtered: Nmap cannot tell if a port is open or filtered.
-- closed|filtered: nmap cannot tell if a port is closed or filtered.
+- `open`: The port is open and actively accepting connections.
+- `closed`: The port is accessible, but no application is accepting connections through it.
+- `filtered`: Nmap can't tell if the port is open because a firewall or other packet filtering is preventing access.
+- `unfiltered`: The port is accessible, but nmap cannot determine if the port is open or closed.
+- `open|filtered`: Nmap cannot tell if a port is open or filtered.
+- `closed|filtered`: nmap cannot tell if a port is closed or filtered.
 
 ## Example
 
