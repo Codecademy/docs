@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-The most basic type of **scan** is done with the cli command `nmap` with just a target specified. The target is the IP address or domain name being scanned. It should be a domain the user owns or one the user has written permission to scan.
+The most basic type of **scan** is done with the command-line interface (CLI) command `nmap` with just a target specified. The target is the IP address or domain name being scanned. It should be a domain the user owns or one the user has written permission to scan.
 
 ## Syntax
 
