@@ -24,7 +24,7 @@ Label("Lightning", systemImage: "bolt.fill")
 }
 ```
 
-The `"Label"` can be a stand-alone component but the get the most of it is always best to give it a purpose. It has a couple of modifiers where it can display just the icon, text, both or automatically adjust based on the space available.
+The `label` can be a stand-alone component. It has modifiers where it can display just the icon, text, both or automatically adjust based on the space available.
 
 ## Example
 
