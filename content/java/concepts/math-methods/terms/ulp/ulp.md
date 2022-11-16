@@ -27,7 +27,7 @@ Math.ulp(num);
 Special cases include the following:
 
 - If `num` is `NaN`, `NaN` will be returned.
-- If `num` is positive or negative Zero then `ulp(num)` will be `Double.MAX_VALUE` or `Float.MAX_VALUE` meaning the minimum numbers that `float` or `double` can represent.
+- If `num` is positive or negative zero, then the return value will be `Double.MAX_VALUE` or `Float.MAX_VALUE` which is the minimum numbers that `float` or `double` can represent.
 - If `num` is positive or negative infinity `ulp(num)` will be postive infinity.
 - If `num` is a number `ulp(num)` is equal to `ulp(-num)`.
 - If the argument is `Double.MAX_VALUE` or `Float.MAX_VALUE` `ulp(num)` will be 2<sup>971</sup> for double and 2<sup>104</sup> for float.
