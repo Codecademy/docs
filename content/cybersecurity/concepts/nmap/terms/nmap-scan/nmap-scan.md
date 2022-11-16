@@ -23,7 +23,7 @@ nmap target
 
 Where `target` is the IP address or domain name being scanned. The command by itself scans 1,000 TCP ports on the target host.
 
-It reports ports as in one of six states:
+Nmap divides ports into one of six states:
 
 - open: The port is open and actively accepting connections.
 - closed: The port is accessible, but no application is accepting connections through it.
