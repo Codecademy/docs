@@ -25,6 +25,7 @@ The parameter `value` is of type `double` and the parameter `scale` is of type `
 ## Example
 
 ```java
+// Main.java
 public class Main {
   public static void main(String[] args) {
     double value = 23.2;
