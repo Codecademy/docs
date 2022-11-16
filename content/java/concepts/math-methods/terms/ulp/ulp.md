@@ -35,7 +35,7 @@ Special cases include the following:
 ## Example 1
 
 ```java
-// ulp of a number
+// Test.java
 import java.lang.Math
 
 public class Test {
@@ -55,7 +55,7 @@ This will output:
 ## Example 2
 
 ```java
-// some special cases
+// Test.java
 import java.lang.Math
 
 public class Test {
