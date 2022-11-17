@@ -14,7 +14,7 @@ CatalogContent:
 
 The **`.first()`** method returns the first element of the array that fulfills the condition, or `nil` if there is no element that fulfills the condition.
 
-> **Note:**`.first()` is an array method while `.first` is an array property. For details about the `.first` array property see the bottom part of this document.
+> **Note:** `.first()` is an method while `.first` is a property. For details about the `.first` array property see the bottom part of this document.
 
 ## Syntax
 
