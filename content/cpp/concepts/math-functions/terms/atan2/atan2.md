@@ -19,7 +19,7 @@ The **`atan2()`** function returns the inverse tangent of a coordinate (y/x), wh
 atan2(y, x)
 ```
 
-The `y`, `x` parameter can be one of `double`, `float` or `long double` datatype
+The `y`, `x` parameter can be one of `double`, `float` or `long double` datatype.
 
 ## Example
 
