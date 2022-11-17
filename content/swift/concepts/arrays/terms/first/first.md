@@ -19,14 +19,12 @@ The **`.first()`** method returns the first element of the array that fulfills t
 ## Syntax
 
 ```pseudo
-arrayName.first()
+arrayName.first(where: { condition })
 ```
 
 The `.first()` method takes one argument:
 
 - `condition`, a [closure](https://www.codecademy.com/resources/docs/swift/closures) that takes an element of the array as its argument and returns a Boolean value indicating whether the element is a match.
-
-> **Note:** If there is no element that fulfills the condition `nil` is returned.
 
 ## Example
 
@@ -64,7 +62,11 @@ var numbers = [5, 1, 8, 4]
 print(numbers.first!)
 ```
 
-In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. The `!` forces the expression to unwrap the value of the returned first element. This will output:
+In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. The `!` forces the expression to unwrap the value of the returned first element.
+
+> **Note:** Force unwrapping optionals in this way is not recommended because it does not handle `nil` cases.
+
+After unwrapping the value of the returned first element the output will be:
 
 ```shell
 5
