@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.clear()` method removes all values from a set. This will destroy every value and the container will be of size 0.
+The **`.clear()`** method removes all values from a set. This will destroy every value and the container will be of size 0.
 
 ## Syntax
 
@@ -29,7 +29,8 @@ The following shows the `.clear()` method being used on the `composers` set:
 #include <set>
 #include <string>
 
-int main(){
+int main()
+{
   // Initiate set
   std::set<std::string> composers;
 
@@ -44,5 +45,5 @@ int main(){
   // Print out size of set
   std::cout << composers.size();
 
-} // Output: 0
+}
 ```

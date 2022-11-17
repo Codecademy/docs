@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The factory pattern defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods, parameters, and a `switch` statement.
+The **factory pattern** defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods, parameters, and a `switch` statement.
 
 ## UML Design
 

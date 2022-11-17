@@ -15,7 +15,7 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-cybersecurity/" />
 
-Cybersecurity is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information. The responsibilities of professionals in this field may include:
+**Cybersecurity** is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information. The responsibilities of professionals in this field may include:
 
 - Educating a company's stakeholders on the importance of cyber and information security.
 - Planning in disaster recovery and responses to cybersecurity breaches.
@@ -29,6 +29,6 @@ As a concept, cybersecurity covers everything from network and application secur
 Cybersecurity work involves the following programming languages:
 
 - [Python](https://www.codecademy.com/resources/docs/python) features tools for common tasks such as malware analysis.
-- [C](https://www.codecademy.com/resources/docs/c) and [C++] are low-level and can directly access RAM and system proceses.
+- [C](https://www.codecademy.com/resources/docs/c) and [C++] are low-level and can directly access RAM and system processes.
 - [SQL](https://www.codecademy.com/resources/docs/sql) and its features in database security.
 - [PHP](https://www.codecademy.com/resources/docs/php) protects against DDoS (distributed denial of service) attacks.

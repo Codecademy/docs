@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ supports different types of bitwise operators that can perform operations on integers at bit-level. Supported types of bitwise operators include:
+C++ supports different types of **bitwise operators** that can perform operations on integers at bit-level. Supported types of bitwise operators include:
 
 - `&` Bitwise AND
 - `|` Bitwise OR
@@ -35,16 +35,17 @@ For example:
 4 = 100 (base-2 binary system)
 5 = 101 (base-2 binary system)
 
-    100
-    101
-    ___
-    100, which is equal to 4 in the base-10 decimal system
+  100
+  101
+  ___
+  100, which is equal to 4 in the base-10 decimal system
 ```
 
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (4 & 5) << "\n";
 
   return 0;
@@ -65,16 +66,17 @@ For example:
 4 = 100 (base-2 binary system)
 5 = 101 (base-2 binary system)
 
-    100
-    101
-    ___
-    101, which is equal to 5 in the base-10 decimal system.
+  100
+  101
+  ___
+  101, which is equal to 5 in the base-10 decimal system.
 ```
 
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (4 | 5) << std::endl;
 
   return 0;
@@ -105,7 +107,8 @@ For example:
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (4 << 1) << "\n"; // Output: 1000 = 8
   std::cout << (4 << 2) << "\n"; // Output: 10000 = 16
 
@@ -140,7 +143,8 @@ In the example above, 00 is added to the left side of 4 (100 in base-2). Then, t
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (4 >> 1) << "\n"; // Output: 10 = 2
   std::cout << (4 >> 2) << "\n"; // Output: 1 = 1
 
@@ -171,7 +175,8 @@ The first bit of a signed integer is used to determine whether the result is pos
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (~(int)5) << "\n"; // Output: 1111111111111010 = -6
   std::cout << (~(unsigned int)5) << "\n"; // Output: 11111111111111111111111111111010 = 4294967290
 
@@ -187,16 +192,17 @@ The exclusive or (XOR) operator returns 1 if both the operands are different and
 12 = 1100 (base-2 binary system)
 10 = 1010 (base-2 binary system)
 
-     1100
-     1010
-     ____
-     0110 which is 6 in base-10 binary system.
+  1100
+  1010
+  ____
+  0110 which is 6 in base-10 binary system.
 ```
 
 ```cpp
 #include <iostream>
 
-int main() {
+int main()
+{
   std::cout << (12 ^ 10) << "\n";
 
   return 0;
