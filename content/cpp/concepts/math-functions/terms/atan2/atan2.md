@@ -19,7 +19,7 @@ The **`atan2()`** function returns the inverse tangent of a coordinate (y/x), wh
 atan2(y, x)
 ```
 
-The `y`, `x` parameter can be one of the following [data types](https://www.codecademy.com/resources/docs/java/data-types)
+The `y`, `x` parameter can be one of `double`, `float` or `long double` datatype
 
 ## Example
 
@@ -35,8 +35,6 @@ int main() {
 
     // Output
     std :: cout << atan2(y, x) << std :: endl;
-
-    1.10715
 }
 ```
 
