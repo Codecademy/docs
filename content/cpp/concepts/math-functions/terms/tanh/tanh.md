@@ -1,6 +1,6 @@
 ---
 Title: 'tanh()'
-Description: 'Returns the hyperbolic tangent of a double-type value.'
+Description: 'Returns the hyperbolic tangent of an angle given in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.tanh()`** function returns the hyperbolic tangent of an `double`-type argument given in radians.
+The **`Math.tanh()`** function returns the hyperbolic tangent of an angle given in radians.
 
 ## Syntax
 
@@ -23,9 +23,7 @@ The `angle` is measured in radians and the return type is a `double`, `float`, o
 
 The mathematical formula used in `tanh()` looks like this:
 
-```tex
 tanh(x) = (e<sup>x</sup> - e<sup>-x</sup>) / (e<sup>x</sup> + e<sup>-x</sup>)
-```
 
 ## Example
 
