@@ -38,7 +38,7 @@ let greaterThanFive  = values.first(where: { $0 > 5 })
 print(greaterThanFive)
 ```
 
-In the example above, the `.first()` method is searching through the `values` array. The  `.first()` method has a condition, that is looking for items greater than `5`. This will output the first item in the array that is greater than 5:
+In the example above, the `.first()` method is searching through the `values` array. The `.first()` method has a condition that is looking for items greater than `5`. This will output the first item in the array that is greater than `5`:
 
 ```shell
 6
