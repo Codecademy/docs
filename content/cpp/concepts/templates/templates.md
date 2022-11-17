@@ -50,7 +50,7 @@ function_name <type> (parameters);
 In the case of a template with multiple type identifiers, a comma-separated list of type parameters, one for each identifier, must be provided in the angle brackets:
 
 ```pseudo
-function_name  `<type1, type2>` (parameters);
+function_name `<type1, type2>` (parameters);
 ```
 
 > **Note:** In the case where the `typeidentifier` is used for the function parameters, the compiler can identify the type associated with `typeidentifer` from the passed argument and the function can be called without the `<type>` as if it was a regular function.
@@ -128,13 +128,16 @@ using namespace std;
 template <class T>
 class myPair {
   T x, y;
-  public:
-  myPair (T first, T second) {
+public:
+  myPair (T first, T second)
+  {
     x = first;
     y = second;
   }
-  public:
-  T add () {
+
+public:
+  T add ()
+  {
     T result;
     result = x + y;
     return result;

@@ -1,1 +1,1 @@
-content/java/concepts/enums/enums.md
+content/java/concepts/compiler/compiler.md

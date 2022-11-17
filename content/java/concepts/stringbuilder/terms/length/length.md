@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.length()`** method returns the number of characters currently in the `StringBuilder`, whereas [`.capacity()`](https://www.codecademy.com/resources/docs/java/stringbuilder/capacity) returns the number of spaces avalible for characters in the `StringBuilder`.
+The **`.length()`** method returns the number of characters currently in the `StringBuilder`, whereas [`.capacity()`](https://www.codecademy.com/resources/docs/java/stringbuilder/capacity) returns the number of spaces available for characters in the `StringBuilder`.
 
 ## Syntax
 
