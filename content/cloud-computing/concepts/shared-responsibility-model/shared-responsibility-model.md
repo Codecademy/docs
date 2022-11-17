@@ -21,4 +21,4 @@ In general, the customer is always responsible for securing what's under their d
 - Configuration of the cloud platform
 - The resources used to connect to the cloud
 
-In general, the cloud provider is always responsible for securing the physical hosts, network and data centers.
+In general, the cloud provider is always responsible for securing the physical hosts, network, and data centers.
