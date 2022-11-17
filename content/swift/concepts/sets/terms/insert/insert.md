@@ -12,13 +12,15 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.insert()`** method adds or inserts a given element in the set if it is not already present since a set must contain unique elements.
+The **`.insert()`** method adds or inserts a given element in a set.
 
 ## Syntax
 
 ```pseudo
 setName.insert(element)
 ```
+
+Since a set must contain unique elements, the `element` parameter will only be inserted if it does not already exist in `setName`.
 
 ## Example
 
