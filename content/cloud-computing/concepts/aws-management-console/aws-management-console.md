@@ -19,6 +19,6 @@ The AWS Management Console provides the following:
 - The ability to add, remove, and resize widgets that display information about the AWS environment and provide shortcuts to AWS services.
 - The ability to set favorites to access frequently-used services.
 - A unified search tool to find services, features, and documentation.
-- AWS CloudShell , a browser-based shell that allows CLI commands against services in Bash, PowerShell or Z shell.
+- AWS CloudShell, a browser-based shell that allows CLI commands against services in Bash, PowerShell, or Z shell.
 
 In addition to the web application, the AWS Management Console is available as a mobile app for Android and AWS. The app is intended to provide mobile-relevant tasks as a companion to the full web application.
