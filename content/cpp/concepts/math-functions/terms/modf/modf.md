@@ -1,0 +1,76 @@
+---
+Title: 'modf()'
+Description: ''
+Subjects:
+  - 'Computer Science'
+Tags:
+  - 'Functions'
+  - 'Arithmetic'
+CatalogContent:
+  - 'learn-c-plus-plus'
+  - 'paths/computer-science'
+---
+
+The **`modf()`** function splits a given number into an integral and a fractional part. The function stores the integral part in the object passed to `modf()` as an argument. The function returns the fractional part.
+
+## Syntax
+
+```pseudo
+modf(number, integralPart)
+```
+
+The `modf()` function takes two parameters:
+
+- `number`, a floating point value (`double`, `float` or `long double`) to split into integral and fractional parts.
+- `integralPart`, a pointer to floating point value to store the integral part. It will have the same type and sign as the `number`.
+
+The `modf()` function returns:
+
+- the fractional part of the `number` with the same sign as the `number`
+
+## Example
+
+This example uses the `modf()` function to return the fractional part of `6.02214`:
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double num1 = 6.02214;
+  double intpart;
+  double fractpart;
+
+  fractpart = modf(num1, &intpart);
+  std::cout << num1 << " = " << intpart << " + " << fractpart << "\n";
+
+  return 0;
+}
+```
+
+This example results in the following output:
+
+```shell
+6.02214 = 6 + 0.02214
+```
+
+## Codebyte Example
+
+This example uses the `modf()` function to take an argument of the `1.602176634` and return the fractional part of it while also storing the value of the integral part of it into `integral`:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+  double x = 1.602176634;
+  double fractional;
+  double integral;
+
+  fractional = modf(x, &integral);
+  
+  std::cout << "The fractional part of the given number is: " << fractional << "\n" << "The integral part of the given number is: " << integral << "\n";
+
+  return 0;
+}
+```
