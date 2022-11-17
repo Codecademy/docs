@@ -54,7 +54,7 @@ The **`.first`** property returns the first element of the array.
 arrayName.first
 ```
 
-> **Note:** The `.first` property returns an optional value, that should be unwrapped. There are different techniques to [unwrap optionals](https://www.codecademy.com/resources/docs/swift/optionals).
+> **Note:** The `.first` property returns an optional value that should be unwrapped. There are different techniques to [unwrap optionals](https://www.codecademy.com/resources/docs/swift/optionals).
 
 ### Example
 
