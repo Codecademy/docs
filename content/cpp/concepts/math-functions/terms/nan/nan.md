@@ -36,7 +36,7 @@ int main() {
   double number1 = 1.0;
   double number2 = nan("");
 
-  if (isnan(number1)) { 
+  if (isnan(number1)) {
     cout << "number1 is not a number";
   }
 
