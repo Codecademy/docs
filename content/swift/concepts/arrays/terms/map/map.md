@@ -12,7 +12,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.map()`** method executes a function passed as a parameter when calling itself and returns the result. All types that follow Swift's Sequence and Collection protocols can use maps. Using the map, each value contained in the container is applied to the function received through the parameter, then packaged in the container again and returned. The value of the existing container is not changed and a new container is created and returned.
+The **`.map()`** method returns a new array containing the transformed values from calling the passed-in [closure](https://www.codecademy.com/resources/docs/swift/closures) on each element of the given collection. It can be used on types that follow Swift's `Sequence` and `Collection` protocols such as arrays, [sets](https://www.codecademy.com/resources/docs/swift/sets), and [dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries). 
+ 
+> **Note:** The original container is not modified, only the new array will contain the modified values.
 
 ## Syntax
 
@@ -31,7 +33,7 @@ let letterCounts = name.map { $0.count }
 print(letterCounts)
 ```
 
-In the example above, each element in the `name` array is going to get lower-cased and placed into a new array named `lowerCaseNames`. Then, the `name` array is mapped over again and a new array is returned with the count of each element. This will output:
+In the example above, each element in the `name` array is lower-cased and placed into a new array named `lowerCaseNames`. Then, the `name` array is mapped over again and a new array is returned with the count of each element. This will output:
 
 ```shell
 ["gaeun", "river", "minkyeong", "dani"]
