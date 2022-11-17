@@ -1,6 +1,6 @@
 ---
 Title: '<s>'
-Description: 'Used to draw attention to one or more words, usually rendered in strike-through text.'
+Description: 'Represents strike-through text that is no longer need, accurate, or correct.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<s>`** element is used to highlight no longer pertinent, inaccurate, or wrong text. Browsers render it showing strike-through text.
+The **`<s>`** element represents strike-through text that is no longer needed, accurate, or correct.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ The **`<s>`** element is used to highlight no longer pertinent, inaccurate, or w
 
 The `<s>` element should only contain text content or other elements meant for text content.
 
-> **Note:** The `<s>` element is semantically different from the `<del>` element because the former is just an edit while the latter conveys an actual update in a document.
+> **Note:** The `<s>` element is semantically different from the [`<del>`](https://www.codecademy.com/resources/docs/html/elements/del) element because the former is just an edit while the latter conveys an actual update in a document.
 
 ## Example
 
@@ -44,4 +44,4 @@ The following is an example of the `<s>` element:
 
 The rendered output would look like this:
 
-![Rendered <s> tag example](https://raw.githubusercontent.com/Codecademy/docs/main/media/s-tag-example.png)
+![Rendered <s> element example](https://raw.githubusercontent.com/Codecademy/docs/main/media/s-element-example.png)
