@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **Math.ulp()** method returns the unit of least precision of a given number. It calculates the distance between the given `float` or `double` value and the `float` `double` value next larger in magnitude.
+The **Math.ulp()** method returns the unit of least precision of a given number. It calculates the distance between the given `float` or `double` value and the next largest `float` or `double` value in magnitude.
 
 ## Syntax
 
