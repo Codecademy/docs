@@ -1,6 +1,6 @@
 ---
 Title: 'Stack'
-Description: 'A Stack is a concrete class that offers operations for accessing or manipulating items at the top of a stack, a linear data structure that follows the last-in, first-out (LIFO) rule.'
+Description: 'A stack is a linear data structure where items are added and removed from the top in a last-in, first-out (LIFO) order.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
