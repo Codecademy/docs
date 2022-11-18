@@ -1,6 +1,6 @@
 ---
 Title: 'Shared Responsibility Model'
-Description: 'The shared responsibility model means that cloud providers maintain some responsibility for security, but some security responsibilities are borne by the customer.'
+Description: 'The shared responsibility model pertains to the security of a cloud account and how the responsibility is split between the cloud provider and the customer.'
 Subjects:
   - 'Computer Science'
 Tags:
