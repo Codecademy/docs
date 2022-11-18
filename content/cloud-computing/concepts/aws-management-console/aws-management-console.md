@@ -15,7 +15,7 @@ The home page provides access to each service console and provides information n
 
 The AWS Management Console provides the following:
 
-- Unified settings for all service consoles for things like region and screen display.
+- Unified settings for all service consoles, such as region and screen display.
 - The ability to add, remove, and resize widgets that display information about the AWS environment and provide shortcuts to AWS services.
 - The ability to set favorites to access frequently-used services.
 - A unified search tool to find services, features, and documentation.
