@@ -10,7 +10,7 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-The **AWS Management Console** is a web application that is home to all the various other consoles used to manage AWS services. The console home page is what's first seen when a user logs into AWS.
+The **AWS Management Console** is a web application that is home to all the various other consoles used to manage AWS services. The console's customizable home page is what's first seen when a user logs into AWS.
 The home page provides access to each service console and provides information needed to perform AWS-related tasks.
 
 The AWS Management Console provides the following:
