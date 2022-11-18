@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `Stack` is a concrete class provided in the `java.util` package that extends the legacy `Vector` class. It is a linear data structure which supports retrieval by last-in, ﬁrst-out (LIFO) order. It means that the insert and remove operations only occur on the top of the stack. The insert/put operation is called `push`, whereas the remove is called `pop`.
+A **`Stack`** is a linear data structure that adds and removes items from the top in a last-in, first-out (LIFO) order. The `Stack` class comes from the `java.util` package and extends the legacy `Vector` class.
 
 An opposite data structure is the [Queue](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. Both `Stack` and `Queue` concepts are present in our daily life (e.g., when people are standing in a queue to buy entry ticket for watching a soccer game or when we have a stack of dishes waiting to be washed!).
 
