@@ -1,6 +1,6 @@
 ---
 Title: '.isSuperset()'
-Description: 'Checks whether a set contains every element of another set.'
+Description: 'Checks if a set contains every element of another set.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -12,31 +12,37 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.isSuperset()`** method returns `true` if a set has every element of another set (passed as an argument), `false` otherwise.
+The **`.isSuperset()`** method returns `true` if a set contains every element that exists in another set (passed as argument), `false` otherwise.
 
 ## Syntax
 
 ```pseudo
-set1.isSuperset(of: set2)
+setOne.isSuperset(of: setTwo)
 ```
 
-The `isSuperset()` method returns `true` if `set1` is a superset of `set2`, `false` otherwise.
+The `isSuperset()` method returns `true` if `setOne` is a superset of `setTwo`, `false` otherwise.
 
 ## Example
 
 ```swift
-let set1: Set = ["Apple", "Orange", "Banana", "Kiwi", "Tomato"]
-let set2: Set = ["Orange", "Banana"]
+let setOne: Set = ["Apple", "Orange", "Banana", "Kiwi", "Tomato"]
+let setTwo: Set = ["Orange", "Banana"]
 
-if set1.isSuperset(of: set2) {
-  print("set1 is a superset of set2.")
+if setOne.isSuperset(of: setTwo) {
+  print("setOne is a superset of setTwo.")
 } else {
-  print("set1 is not a superset of set2.")
+  print("setOne is not a superset of setTwo.")
 }
 ```
 
-In the example above, the first block after the `if` statement will run if `set1` is a superset of `set2`. This will output:
+In the example above, the first block after the `if` statement will run if `setOne` is a superset of `setTwo`. This will output:
 
 ```shell
-set1 is a superset of set2.
+setOne is a superset of setTwo.
+```
+
+If `setOne` is not a superset of `setTwo`, the block after the `else` statement will run. This will output:
+
+```shell
+setOne is a not a superset of setTwo.
 ```
