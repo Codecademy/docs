@@ -15,7 +15,7 @@ CatalogContent:
 
 A **`Stack`** is a linear data structure that adds and removes items from the top in a last-in, first-out (LIFO) order. The `Stack` class comes from the `java.util` package and extends the legacy `Vector` class.
 
-An opposite data structure is the [Queue](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. Both `Stack` and `Queue` concepts are present in our daily life (e.g., when people are standing in a queue to buy entry ticket for watching a soccer game or when we have a stack of dishes waiting to be washed!).
+An opposite data structure is the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. The `Stack` and `Queue` concepts can be observed in everyday life (e.g., waiting in a line of people to purchase something or washing a stack of dishes from top to bottom).
 
 ## Syntax
 
