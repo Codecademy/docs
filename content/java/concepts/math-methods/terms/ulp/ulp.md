@@ -21,7 +21,7 @@ The **Math.ulp()** method returns the unit of least precision of a given number.
 Math.ulp(num);
 ```
 
-- The `num` parameter can either be of type `float` or `double`.
+The `num` parameter can be of type `float` or `double`.
 - The return type will be the same as the parameter type.
 
 Special cases include the following:
