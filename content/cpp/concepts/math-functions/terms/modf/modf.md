@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`modf()`** function splits a given number into an integral and a fractional part. The function stores the integral part in the object passed to `modf()` as an argument. The function returns the fractional part.
+The **`modf()`** function splits the given number into an integral and a fractional part. The function stores the integral part in the object passed to `modf()` as an argument. The function returns the fractional part.
 
 ## Syntax
 
@@ -38,11 +38,12 @@ This example uses the `modf()` function to return the fractional part of `6.0221
 
 int main() {
   double num1 = 6.02214;
-  double intpart;
-  double fractpart;
+  double intPart;
+  double fractPart;
 
-  fractpart = modf(num1, &intpart);
-  std::cout << num1 << " = " << intpart << " + " << fractpart << "\n";
+  fractPart = modf(num1, &intPart);
+
+  std::cout << num1 << " = " << intPart << " + " << fractPart << "\n";
 
   return 0;
 }
@@ -56,7 +57,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-This example uses the `modf()` function to take an argument of the `1.602176634` and return the fractional part of it while also storing the value of the integral part of it into `integral`:
+This example uses the `modf()` function to take an argument of `1.602176634` and returns the fractional part of it while also storing the value of the integral part of the argument into `integral`:
 
 ```codebyte/cpp
 #include <iostream>
