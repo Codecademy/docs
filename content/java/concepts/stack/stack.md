@@ -30,11 +30,11 @@ Where `DataType` is the data type to be stored in the stack. Note that, differen
 
 The `Stack` class provides the following methods:
 
-- `.push()` : `.push(item)`  adds  `item`  onto the top of the  `Stack`  .
-- `.pop()` : removes and returns the object at the top of the  `Stack`, throwing an exception when the `Stack` is empty.
-- `.peek()` : returns the head (top) of the `Stack` without removing it. It throws an exception when the `Stack` is empty.
-- `.empty()` : returns `true` if the `Stack` contains no items. Otherwise, it returns `false`.
-- `.search(item)` : returns the distance of `item` from the top of the stack, starting from `1`. A `-1` value is returned if `item` is not on the stack.
+- `.push(item)`: adds an item to the top of the `Stack`.
+- `.pop()`: removes and returns the object at the top of the `Stack`, throwing an exception when the `Stack` is empty.
+- `.peek()`: returns the (top) of the `Stack` without removing it, and throws an exception when the `Stack` is empty.
+- `.empty()`: returns `true` if the `Stack` contains no items or `false`, otherwise.
+- `.search(item)`: returns the distance the `item` is from the top of the `Stack`, starting from `1`, or `-1` is if `item` is not in the `Stack`.
 
 ## Example
 
