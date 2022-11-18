@@ -41,23 +41,24 @@ The `Stack` class provides the following methods:
 The following example demonstrates the `Stack` class:
 
 ```java
+// Main.java
 import java.util.Stack;
 import java.util.Arrays;
 
 public class Main {
   public static void main(String[] args) {
-	Stack<String> books = new Stack<>();
-	System.out.println(books.isEmpty());
-	books.push("Effective Java");
-	books.push("Head First Java");
-	books.push("Thinking in Java");
-	System.out.println(books.size());
-	System.out.println(books.search("Effective Java"));
-	System.out.println(books.search("Java for dummies"));
-	System.out.println(books.peek());
-	System.out.println(books.pop());
-	System.out.println(books.size());
-	System.out.println(Arrays.toString(books.toArray()));
+    Stack<String> books = new Stack<>();
+    System.out.println(books.isEmpty());
+    books.push("Effective Java");
+    books.push("Head First Java");
+    books.push("Thinking in Java");
+    System.out.println(books.size());
+    System.out.println(books.search("Effective Java"));
+    System.out.println(books.search("Java for dummies"));
+    System.out.println(books.peek());
+    System.out.println(books.pop());
+    System.out.println(books.size());
+    System.out.println(Arrays.toString(books.toArray()));
  }
 }
 ```
