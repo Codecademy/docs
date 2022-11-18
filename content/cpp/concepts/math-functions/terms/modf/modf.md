@@ -1,6 +1,6 @@
 ---
 Title: 'modf()'
-Description: ''
+Description: 'Splits the given number into an integral and a fractional part.'
 Subjects:
   - 'Computer Science'
 Tags:
