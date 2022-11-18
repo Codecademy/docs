@@ -19,7 +19,7 @@ An opposite data structure is the [`Queue`](https://www.codecademy.com/resources
 
 ## Syntax
 
-```java
+```pseudo
 import java.util.Stack;
 
 Stack<DataType> s = new Stack<>();
