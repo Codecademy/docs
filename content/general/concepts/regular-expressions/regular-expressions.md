@@ -14,7 +14,7 @@ CatalogContent:
   - 'learn-java'
 ---
 
-Regular expressions, often shortened to regex or regexp, is a language used for pattern-matching text content. It is implemented in several different programming languages, either directly or through libraries. Languages that implement regular expressions include [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java), [JavaScript](https://www.codecademy.com/resources/docs/javascript), [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp). Regular expressions are generally standardized, though some implementations may provide some additions and variations to the basic syntax.
+**Regular expressions**, often shortened to regex or regexp, is a language used for pattern-matching text content. It is implemented in several different programming languages, either directly or through libraries. Languages that implement regular expressions include [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java), [JavaScript](https://www.codecademy.com/resources/docs/javascript), [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp). Regular expressions are generally standardized, though some implementations may provide some additions and variations to the basic syntax.
 
 Implementation in each programming language is generally through functions and methods that accept some text and a regular expression pattern, and return a result based on what the regular expression pattern matched in the text.
 

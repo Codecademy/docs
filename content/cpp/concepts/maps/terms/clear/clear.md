@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.clear()` method removes all elements of a map. This destroys the elements in the container making the new size of the container to be 0.
+The **`.clear()`** method removes all elements of a map. This destroys the elements in the container making the new size of the container to be 0.
 
 ## Syntax
 
@@ -32,8 +32,8 @@ The following codebyte example clears the items of the `supplies` map:
 #include <iterator>
 #include <map>
 
-int main(){
-
+int main()
+{
   // Initializing map with items
   std::map<std::string, int> supplies {{"pen", 5}, {"pencils", 3}, {"paper", 12}};
 
@@ -42,6 +42,5 @@ int main(){
 
   // Print size of map
   std::cout << supplies.size();
-
 }
 ```
