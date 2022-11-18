@@ -17,10 +17,10 @@ The **`.isSuperset()`** method returns `true` if a set has every element of anot
 ## Syntax
 
 ```pseudo
-setName.isSuperset(of: otherSetName)
+set1.isSuperset(of: set2)
 ```
 
-The `isSuperset()` method returns `true` if `setName` is a superset of `otherSetName`, `false` otherwise.
+The `isSuperset()` method returns `true` if `set1` is a superset of `set2`, `false` otherwise.
 
 ## Example
 
