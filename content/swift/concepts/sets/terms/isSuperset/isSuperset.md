@@ -40,9 +40,3 @@ In the example above, the first block after the `if` statement will run if `setO
 ```shell
 setOne is a superset of setTwo.
 ```
-
-If `setOne` is not a superset of `setTwo`, the block after the `else` statement will run. This will output:
-
-```shell
-setOne is a not a superset of setTwo.
-```
