@@ -38,7 +38,7 @@ This will result in an error
 ```pseudo
 declare an int variable
 use it in a while loop
-reassign it to "Codecaedmy" after
+reassign it to "Codecademy" after
 ```
 
 ## Syntax
@@ -58,9 +58,9 @@ Variable names should:
  
 Some of the basic types are:
 
-- int
-- bool
-- string
+- `int`
+- `bool`
+- `string`
 
 ## Declaration 
 
