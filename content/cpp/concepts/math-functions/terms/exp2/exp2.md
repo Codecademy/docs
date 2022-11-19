@@ -19,8 +19,7 @@ The **`exp2()`** function returns the base-2 exponential function of a given num
 exp2(x)
 ```
 
- - It takes a single mandatory argument (can be positive, negative or 0).
- - The `exp2()` function returns the value in the range of `[0, ∞]`.
+The `exp2()` function requires a single `x` parameter that can be positive, negative, or zero. It returns the base-exponential value of `x` in the range of `[0, ∞)`.
  - If a range error due to overflow occurs, `HUGE_VAL`, `HUGE_VALF`, or `HUGE_VALL` is returned.
  - If a range error occurs due to underflow, the correct result (after rounding) is returned.
  - If the argument is ±0, 1 is returned.
