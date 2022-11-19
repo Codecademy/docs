@@ -22,11 +22,9 @@ modf(number, integralPart)
 The `modf()` function takes two parameters:
 
 - `number`, a floating point value (`double`, `float` or `long double`) to split into integral and fractional parts.
-- `integralPart`, a pointer to floating point value to store the integral part. It will have the same type and sign as the `number`.
+- `integralPart`, a pointer to floating point value to store the integral part. It will have the same type and sign as `number`.
 
-The `modf()` function returns:
-
-- the fractional part of the `number` with the same sign as the `number`
+The `modf()` function returns the fractional part of `number` with the same sign as `number`.
 
 ## Example
 
