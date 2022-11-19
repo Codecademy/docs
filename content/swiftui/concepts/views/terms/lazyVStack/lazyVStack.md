@@ -1,6 +1,6 @@
 ---
 Title: 'LazyVStack'
-Description: 'A view that arranges its children in a line that grows vertically, creating items only as needed.'
+Description: 'A view that arranges its elements in a line that grows vertically, creating items only as needed.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
