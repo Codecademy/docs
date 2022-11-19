@@ -41,7 +41,7 @@ The following example uses `exp2()` to return `2` raised to the given argument:
 #include <cmath>
 using namespace std;
 
-int main(){
+int main() {
   double x = -6.19, result;
 
   result = exp2(x);
