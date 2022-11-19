@@ -54,14 +54,14 @@ The following example is runnable and returns the square root of sum of squares 
 #include <cmath>
 #include <iostream>
 using namespace std;
-int main()
-{
-    long double a, b, result;
-    a = 4.525252;
-    b = 5.767676;
+
+int main() {
+  long double a, b, result;
+  a = 4.525252;
+  b = 5.767676;
   
-    result = hypot(a, b);
-    cout << result;
-    return 0;
+  result = hypot(a, b);
+  cout << result;
+  return 0;
 }
 ```
