@@ -66,7 +66,7 @@ The following example is runnable and returns `2` raised to the given argument:
 #include <cmath>
 using namespace std;
 
-int main(){
+int main() {
   float x = -6.19f;
   double result;
 
