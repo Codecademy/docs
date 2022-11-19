@@ -59,7 +59,7 @@ exp2(x) = 0.013697
 
 ## Codebyte Example
 
-The following example is runnable and returns `2` raised to the given argument
+The following example is runnable and returns `2` raised to the given argument:
 
 ```codebyte/cpp
 #include <iostream>
