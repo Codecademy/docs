@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`exp2()`** is a built-in function in C++ STL that computes the `base-2` exponential function of a given number, i.e. `2` raised to the given argument.
+The **`exp2()`** function returns the base-2 exponential function of a given number, or `2` raised to the power of the given argument (2<sup>x</sup>).
 
 ## Syntax
 
