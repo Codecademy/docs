@@ -48,7 +48,7 @@ This results in the following output:
 
 ## Codebyte Example
 
-The following example is runnable and returns the square root of sum of squares of `4.525252` & `5.767676`:
+The following example is runnable and returns the square root of sum of squares of `4.525252` and `5.767676`:
 
 ```codebyte/cpp
 #include <cmath>
