@@ -1,7 +1,7 @@
 
 ---
 Title: 'Variables'
-Description: 'Variables are used to store numbers, strings, true/false boolean states, or objects based on their type when declaring them'
+Description: 'Variables are used to store numbers, strings, true/false boolean states, or objects based on their type when declaring them.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -19,11 +19,11 @@ CatalogContent:
 
 Variables are used to store user information like numbers, strings or true/false state to be used in the program later on.
 
-## Difference from constants 
+## Difference From Constants 
 
-Unlike constants, when declaring a variable, its value can be reassigned later on but with restriction to be similar to the data type when initialized.
+Unlike constants, when declaring a variable, its value can be reassigned later on but with restriction that the new value's data type is the same as the data type when initialized.
 
-### Example using pseudo
+### Pseudocode Example
 
 This is acceptable
 
@@ -41,22 +41,22 @@ use it in a while loop
 reassign it to "Codecaedmy" after
 ```
 
-## syntax explination
+## Syntax
 
 ```Go
 var 'variable name' 'var type'
 ```
 
-first begin with the `var` keyword followed by the name of the variable, and at the end the variable type, each of these are seperated by spaces.
+Begin with the `var` keyword followed by the name of the variable, and at the end the variable type. Each of these are separated by spaces.
 
-### variable names should:
+Variable names should:
 
-- begin with a letter 
-- must not contain special characters (only letters and digits)
-- must not be a GO keyword 
-- names are case sensitive
+- Begin with a letter. 
+- Must not contain special characters, only letters and digits.
+- Must not be a Go keyword. 
+- Names are case sensitive.
  
-### some of the basic types are:
+Some of the basic types are:
 
 - int
 - bool
@@ -64,26 +64,24 @@ first begin with the `var` keyword followed by the name of the variable, and at 
 
 ## Declaration 
 
-To declare a variable you have multiple ways with syntax nearly similar to some programming languages.
+To declare a variable you have multiple ways with syntax similar to other programming languages.
 
-### initilizing after declaring
+### Initializing After Declaring
 
-this way is used if a group of variables is needed but they will be assigned values later in the program
+This way is used if a group of variables is needed but they will be assigned values later in the program.
 
 #### Example
 
 ```Go
 var numbers int
 var nameOfProgrammer string
-...
-...
 numbers = 100
 nameOfProgrammer = "Codecademy Learner"
 ```
 
-### initilizing with declaring
+### Initializing With Declaring
 
-this way is used to assign values directly when defining a variable
+This way is used to assign values directly when defining a variable.
 
 #### Example
 
@@ -92,9 +90,9 @@ var state bool = true
 var nameOfProgrammer string = "Codecademy Learner"
 ```
 
-### initilizing using type inference
+### Initializing Using Type Inference
 
-this way let the compiler assign the type for the input without declaring it
+This way lets the compiler assign the type for the input without declaring it.
 
 #### Example
 
@@ -103,17 +101,17 @@ var piNumber = 3.14
 var myName = "Abdulrahman"
 ``` 
 
-### fast initilizing 
+### Fast Initializing 
 
-this way skip almost all the syntax and only needs the name of the variable followed by ':='
+This way skips almost all the syntax and only needs the name of the variable followed by `:=`.
 
 ```Go
 dontMove := false
 ```
 
-### multiple variable initilizing
+### Multiple Variable Initializing
 
-this way used to declare more than one variable in the same line by seperate them with commas ','
+This way used to declare more than one variable in the same line by separating them with commas `,`.
 
 ```Go
 var numbers, name = 100, "Codecademy User"
