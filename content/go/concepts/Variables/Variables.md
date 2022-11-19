@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Definition
 
-Variables are used to store user information like numbers, strings or true/false state to be used in the program later on.
+Variables are used to store data such as numbers, strings, or Booleans in memory for later use.
 
 ## Difference From Constants 
 
@@ -28,7 +28,7 @@ Unlike constants, when declaring a variable, its value can be reassigned later o
 This is acceptable
 
 ```pseudo
-declaring an int variable 
+declare an int variable
 use it in a while loop
 reassign it to zero after
 ```
@@ -36,7 +36,7 @@ reassign it to zero after
 This will result in an error
 
 ```pseudo
-declaring an int variable 
+declare an int variable
 use it in a while loop
 reassign it to "Codecaedmy" after
 ```
