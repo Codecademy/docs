@@ -1,6 +1,6 @@
 ---
 Title: 'exp2()'
-Description: 'Returns the base-2 exponential function, i.e. 2 raised to the given argument.'
+Description: 'Returns the base-2 exponential function, or 2 raised to the power of the given argument.'
 Subjects:
   - 'Computer Science'
 Tags:
