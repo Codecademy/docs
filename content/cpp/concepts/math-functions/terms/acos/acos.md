@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the inverse cosine of the argument in radians.
+The **`acos()`** function returns the inverse cosine of the argument in radians.
 
 ## Syntax
 
-```py
+```pseudo
 acos(n)
 ```
 
@@ -27,7 +27,8 @@ Use `acos()` to return the inverse cosine of `0.0`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 0.0;
   double result;
 

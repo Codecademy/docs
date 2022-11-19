@@ -12,4 +12,4 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Several programming languages derived from [C](https://www.codecademy.com/resources/docs/c) use a void type to denote functions that do not return a result and are mostly used for side effects.
+Several programming languages derived from [C](https://www.codecademy.com/resources/docs/c) use a **void** type to denote functions that do not return a result and are mostly used for side effects.

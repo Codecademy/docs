@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Routing is the process of deciding what paths communication signals may take across one or more networks. This process is used in many scenarios related to computer networking, including:
+**Routing** is the process of deciding what paths communication signals may take across one or more networks. This process is used in many scenarios related to computer networking, including:
 
 - A PC communicating with a printer across a Local Area Network, or LAN.
 - A phone's web browser communicating with a web server over the Internet.

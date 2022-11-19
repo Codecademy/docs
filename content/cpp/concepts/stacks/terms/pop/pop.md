@@ -33,8 +33,8 @@ The following example features a stack `myStack` that is initially populated wit
 #include <stack>
 #include <string>
 
-int main(){
-
+int main()
+{
   std::stack<std::string> myStack;
   myStack.push("A");
   myStack.push("B");
@@ -44,7 +44,8 @@ int main(){
   myStack.pop();
   myStack.pop();
 
-  while (!myStack.empty()) {
+  while (!myStack.empty())
+  {
     std::cout << ' ' << myStack.top();
     myStack.pop();
   }

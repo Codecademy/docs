@@ -1,6 +1,6 @@
 ---
 Title: 'References'
-Description: 'A reference variable is an alias for another object. It is created using the & sign. Two things to note: - Anything done to the reference also happens to the original. - Aliases cannot be changed to alias something else. cpp int &sonny = songqiao; '
+Description: 'A reference variable is an alias for another object. It is created using the & sign. Two things to note: Anything done to the reference also happens to the original and aliases cannot be changed to alias something else.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A reference variable is an alias for another object. It is created using the `&` sign.
+A **reference** variable is an alias for another object. It is created using the `&` sign.
 
 Two things to note:
 
@@ -23,8 +23,8 @@ Two things to note:
 
 ## Syntax
 
-```cpp
-int &sonny = songqiao;
+```pseudo
+int &alias = varname;
 ```
 
 ## Pass-By-Reference
@@ -38,13 +38,15 @@ It allows the ability to:
 
 ```cpp
 
-void swap_num(int &i, int &j) {
+void swap_num(int &i, int &j)
+{
   int temp = i;
   i = j;
   j = temp;
 }
 
-int main() {
+int main()
+{
   int a = 100;
   int b = 200;
 
@@ -62,7 +64,8 @@ In C++, pass-by-reference with `const` can be used for a function where the para
 This saves the computational cost of making a copy of the argument.
 
 ```cpp
-int triple(int const &i) {
+int triple(int const &i)
+{
   return i * 3;
 }
 ```

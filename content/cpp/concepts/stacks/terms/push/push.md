@@ -24,7 +24,7 @@ The `.push()` method is called on a `stack` using the following syntax:
 stackName.push(value);
 ```
 
-**Note:** Each `value` in `stackName` must be of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
+> **Note:** Each `value` in `stackName` must be of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).
 
 ## Codebyte Example
 
@@ -35,15 +35,16 @@ The following example uses adds several values to `myStack` with the `.push()` m
 #include <stack>
 #include <string>
 
-int main(){
-
+int main()
+{
   std::stack<std::string> myStack;
   myStack.push("A");
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
 
-  while (!myStack.empty()) {
+  while (!myStack.empty())
+  {
     std::cout << ' ' << myStack.top();
     myStack.pop();
   }

@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Authentication
 Automation
 Azure
 A-Frame
@@ -41,6 +42,7 @@ Box Plot
 Browser Compatibility
 Browsers
 Bubble Sort
+Buttons
 Catch
 Characters
 Chatbots
@@ -54,6 +56,7 @@ Combinators
 Command Line
 Comments
 Comparison
+Compilation
 Components
 Computer Vision
 Concatenation
@@ -220,6 +223,7 @@ Range
 React
 React Native
 Readr
+Rectangle
 Recursion
 Redux
 References
