@@ -21,13 +21,12 @@ exp2(x)
 
  - It takes a single mandatory argument (can be positive, negative or 0).
  - The `exp2()` function returns the value in the range of `[0, ∞]`.
- - If no errors occur, the base-2 exponential of `n` is returned.
  - If a range error due to overflow occurs, `HUGE_VAL`, `HUGE_VALF`, or `HUGE_VALL` is returned.
  - If a range error occurs due to underflow, the correct result (after rounding) is returned.
  - If the argument is ±0, 1 is returned.
  - If the argument is -∞, +0 is returned.
  - If the argument is +∞, +∞ is returned.
- - If the argument is NaN, NaN is returned.
+ - If the argument is `NaN`, `NaN` is returned.
  - The return type for the `exp2()` function is `double`, `float`, or `long double`.
 
 > **Note:** The `<cmath>` header provides additional overloads for other combinations of arithmetic types (`double`, `float`, or `long double`). Overloaded functions cast the arguments to a `double` type before the calculation.
