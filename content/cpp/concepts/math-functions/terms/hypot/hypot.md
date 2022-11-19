@@ -16,7 +16,7 @@ The **hypot()** function returns the square root of sum of square of arguments p
 
 ## Syntax
 
-```cpp
+```pseudo
  hypot(float x, float y)
 ```
 
