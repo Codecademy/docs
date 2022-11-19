@@ -37,8 +37,13 @@ int main()
   
     cout << res << endl;
     return 0;
-    This results in the following output: 13.4536
 }
+```
+
+This results in the following output:
+
+```shell
+13.4536
 ```
 
 ## Codebyte Example
