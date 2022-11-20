@@ -1,5 +1,5 @@
 ---
-Title: 'Floor'
+Title: '.floor()'
 Description: 'Returns the largest integer value that is less than or equal to the argument. When the provided value is either an integer, zero, not a number, or positive or negative infinity.'
 Subjects:
   - 'Code Foundations'
