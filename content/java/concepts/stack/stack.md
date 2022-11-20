@@ -17,6 +17,14 @@ A **`Stack`** is a linear data structure that adds and removes items from the to
 
 An opposite data structure is the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. The `Stack` and `Queue` concepts can be observed in everyday life (e.g., waiting in a line of people to purchase something or washing a stack of dishes from top to bottom).
 
+Since Java 1.6 there is a more recent implementation of LIFO stack operations, the `Deque` interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
+
+|`Stack` method| Equivalent `Deque` method |
+|:--:|:--:|
+| `.push(item)` | `.addFirst(item)` |
+| `.pop()` | `.removeFirst()`  |
+| `.peek()` | `.getFirst()` |
+
 ## Syntax
 
 ```pseudo
