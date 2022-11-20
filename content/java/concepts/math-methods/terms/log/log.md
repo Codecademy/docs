@@ -1,5 +1,5 @@
 ---
-Title: 'Math.log()'
+Title: '.log()'
 Description: 'Returns the natural logarithm (base e) of a double value as a parameter.'
 Subjects:
   - 'Computer Science'
