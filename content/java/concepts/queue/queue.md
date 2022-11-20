@@ -31,11 +31,11 @@ Where `DataType`[https://www.codecademy.com/resources/docs/java/data-types] is t
 
 The `Queue` interface utilizes the following methods:
 
-- `.add()` : `.add(item)` adds `item` to the `Queue` if possible, otherwise it throws an exception.
-- `.offer()` : `.offer(item)` adds `item` to the `Queue` if possible, otherwise it returns `false`.
-- `.remove()` : removes and returns the head item of the `Queue`, throwing an exception when the `Queue` is empty.
-- `.poll()` : removes and returns the head item of the `Queue`, returning `null` if the `Queue` is empty.
-- `.element()` : returns the head of the `Queue` without removing it, throwing an exception when the `Queue` is empty.
+- `.add(item)`: adds `item` to the `Queue` if possible, otherwise it throws an exception.
+- `.offer(item)`: adds `item` to the `Queue` if possible, otherwise it returns `false`.
+- `.remove()`: removes and returns the head item of the `Queue`, throwing an exception when the `Queue` is empty.
+- `.poll()`: removes and returns the head item of the `Queue`, returning `null` if the `Queue` is empty.
+- `.element()`: returns the head of the `Queue` without removing it, throwing an exception when the `Queue` is empty.
 - `.peek()` : returns the head of the `Queue` without removing it, returning `null` if the `Queue` is empty.
 
 ## Example
