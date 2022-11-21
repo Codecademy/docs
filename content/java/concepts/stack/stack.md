@@ -17,7 +17,7 @@ A **`Stack`** is a linear data structure that adds and removes items from the to
 
 An opposite data structure is the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface, which follows the first-in, first-out (FIFO) order. The `Stack` and `Queue` concepts can be observed in everyday life (e.g., waiting in a line of people to purchase something or washing a stack of dishes from top to bottom).
 
-Since Java 1.6 there is a more recent implementation of LIFO stack operations, the `Deque` interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
+Since Java 1.6, there is a more recent implementation of LIFO stack operations, the `Deque` interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
 
 | `Stack` method | Equivalent `Deque` method |
 | :------------: | :-----------------------: |
@@ -33,7 +33,9 @@ import java.util.Stack;
 Stack<DataType> s = new Stack<>();
 ```
 
-Where [`DataType`](https://www.codecademy.com/resources/docs/java/data-types) is the data type to be stored in the stack. Note that, differently from `Queue`, `Stack` is a concrete class, not an interface.
+Where `DataType` is the [data type](https://www.codecademy.com/resources/docs/java/data-types) to be stored in the stack.
+
+**Note:** Unlike `Queue`, `Stack` is a concrete class and not an interface.
 
 ## Methods
 
@@ -48,7 +50,7 @@ The `Stack` class provides the following methods:
 - `.pop()`: removes and returns the object at the top of the `Stack`, throwing an exception when the `Stack` is empty.
 - `.peek()`: returns the (top) of the `Stack` without removing it, and throws an exception when the `Stack` is empty.
 - `empty()`: returns `true` if the `Stack` contains no items or `false`, otherwise.
-- `search(item)` : returns the distance the item is from the top of the `Stack`, starting from `1`, or `-1` if `item` is not in the stack.
+- `search(item)`: returns the distance the item is from the top of the `Stack`, starting from `1`, or `-1` if `item` is not in the stack.
 
 ## Example
 
