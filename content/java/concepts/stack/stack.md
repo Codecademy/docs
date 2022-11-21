@@ -19,11 +19,11 @@ An opposite data structure is the [`Queue`](https://www.codecademy.com/resources
 
 Since Java 1.6 there is a more recent implementation of LIFO stack operations, the `Deque` interface. As stated in the JDK documentation, `Deque` interface should be used in preference to the legacy `Stack` class. Whenever a `Deque` is used as a `Stack`, elements are pushed and popped from the beginning of the `Deque`. The table below shows the equivalent methods between `Stack` and `Deque`:
 
-|`Stack` method| Equivalent `Deque` method |
-|:--:|:--:|
-| `.push(item)` | `.addFirst(item)` |
-| `.pop()` | `.removeFirst()`  |
-| `.peek()` | `.getFirst()` |
+| `Stack` method | Equivalent `Deque` method |
+| :------------: | :-----------------------: |
+| `.push(item)`  |     `.addFirst(item)`     |
+|    `.pop()`    |     `.removeFirst()`      |
+|   `.peek()`    |       `.getFirst()`       |
 
 ## Syntax
 
@@ -32,6 +32,7 @@ import java.util.Stack;
 
 Stack<DataType> s = new Stack<>();
 ```
+
 Where [`DataType`](https://www.codecademy.com/resources/docs/java/data-types) is the data type to be stored in the stack. Note that, differently from `Queue`, `Stack` is a concrete class, not an interface.
 
 ## Methods
