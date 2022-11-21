@@ -22,46 +22,46 @@ A map is a built-in data structure that is used to store a collection of unorder
 An empty map can be created using the `create` function and assigning it to a variable.
 
 ```pseudo
-[variable_name] := create(map[key_data_type]value_data_type)
+variable_name := create(map[key_data_type]value_data_type)
 ```
 
 ### Initializing a map with existing key-value pairs.
 
-A map can also be initialized with key-values pairs already using a map literal.
+A map can also be initialized with key-values pairs by using a map literal.
 
 ```pseudo
-[variable_name] := map[key_data_type]value_data_type){key-1: value-1...}
+map_name := map[key_data_type]value_data_type{key-1: value-1...}
 ```
  
 ### Accessing Items
 
-A value in the map can  be accessed using its corresponding key value by putting the key in brackets.
+A value in the map can be accessed using its corresponding key value by putting the key in brackets.
 
 ```pseudo
-[map_name][key_value]
+map_name[key_value]
 ```
 
 The value that results from the code above can also be stored in a variable for later use.
 
 ```pseudo
-[variable_name] := [map_name][key_value]
+variable_name := map_name[key_value]
 ```
 
-If a key does not exist, then the equivalent of zero will be returned based on the data type of the values in the map.
+If the key does not exist, then a null value will be returned based on the data type of the values in the map.
  
 ### Adding Items
 
 Add new key-value pairs into the map by setting the new key value to a new value.
 
 ```pseudo
-[map_name][new_key] = [new_value]
+map_name[new_key] = [new_value]
 ```
 
 ## Examples
 
 ### Create empty map
 
-The following code will demonstrate how to create an empty map and print it.
+The following code will demonstrate how to create and print an empty map.
 
 ```go
 package main
@@ -84,7 +84,7 @@ map[]
 ```
 
 ### Initialize a map with key-value pairs
-The following code will demonstrate how to initialize a map with kep-value pairs already in it and print it.
+The following code demonstrate how to initialize and print a map already containing key-value-pairs.  
 
 ```go
 package main
@@ -109,7 +109,7 @@ map[Ana:95.6 John:85.2]
 
 ### Access a key-value pair in the map
 
-The following code will print out the corresponding value for the key "John".
+The following code will print the corresponding value for the key "John".
 
 ```go
 package main
@@ -121,7 +121,7 @@ func main() {
    // Initialize map gradebook with values
    gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
     
-   // Print out the value with key "John"
+   // Print the value with key "John"
    fmt.Println(gradebook["John"])
 } 
 
@@ -134,7 +134,7 @@ Output:
 
 ### Access and store a key-value pair in a variable
 
-The following code will access the value in the map that has the corresponding key of "Ana". It will store the result in a variable called anaScore and print it.
+The following code will access the value in a map corresponding to the key of "Ana". It will store the result in a variable called anaScore and print it.
 
 ```go
 package main
@@ -146,7 +146,7 @@ func main() {
    // Initialize map gradebook with values
    gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
     
-   // Store the value that has a key of "Ana" in johnScore
+   // Store the value that has a key of "Ana" in anaScore
    anaScore := gradebook["Ana"]
    
    fmt.Println(anaScore)
@@ -159,7 +159,7 @@ func main() {
 
 ### Accessing a key that does not exist
 
-The following code will demonstrate what will be returned as the value for a key that does not exist for a map with strings as keys and floats as values.
+The following code demonstrates what is returned for a non-existent key. The map maps a string to a float.
 
 ```go
 package main
@@ -186,8 +186,7 @@ Output:
 ```
 
 ### Adding a new key-value pair into a map
-
-The following code will first print an initialized map. It will then add 2 more key-value pairs into the map and print it.
+The following code will first print an initialized map. It will then add two more key-value pairs into the map and print the map.
 
 ```go
 package main
