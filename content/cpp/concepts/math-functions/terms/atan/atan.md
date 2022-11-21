@@ -41,7 +41,7 @@ int main()
 ```
 ### Codebyte Example
 
-The following example uses the `atan()` function that returns the inverse tangent of value `1.0`:
+The following example returns the inverse tangent of the `value` with the `atan()` function:
 
 ```cpp
 #include <iostream>
