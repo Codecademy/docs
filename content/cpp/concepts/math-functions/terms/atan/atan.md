@@ -53,6 +53,5 @@ int main()
   result = atan(value);
 
   std::cout << result << " radians" << "\n";
-  //Output: 0.785398 radians
 }
 ```
