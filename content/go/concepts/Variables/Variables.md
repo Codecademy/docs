@@ -47,7 +47,7 @@ reassign it to "Codecademy" after
 var 'variable name' 'var type'
 ```
 
-Begin with the `var` keyword followed by the name of the variable, and at the end the variable type. Each of these are separated by spaces.
+Begin with the `var` keyword followed by the name of the variable and then the variable type.
 
 Variable names should:
 
