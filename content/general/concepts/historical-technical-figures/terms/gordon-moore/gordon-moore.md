@@ -1,6 +1,6 @@
 ---
-Title: "Moore's Law"
-Description: 'Moores Law is a prediction made in 1965 by Gordon Moore (the then CEO of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices.'
+Title: 'Gordon Moore'
+Description: 'Gordon Moore is the co-founder of Intel and the major advocate for Moores Law.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -10,6 +10,10 @@ CatalogContent:
   - 'paths/computer-science'
   - 'paths/front-end-engineer-career-path'
 ---
+
+Gordon Moore is the co-founder of Intel Corporation which is the largest manufacturer of various computer parts like microprocessors for companies like Acer, Lenovo, HP, and Dell. He was also the major advoate for Moore's Law.
+
+## Moore's Law
 
 **Moore's Law** is a prediction made in 1965 by [Gordon Moore](https://en.wikipedia.org/wiki/Gordon_Moore) (the then CEO of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices.
 
