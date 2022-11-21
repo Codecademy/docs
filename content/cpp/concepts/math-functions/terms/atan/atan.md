@@ -39,7 +39,7 @@ int main()
   // Output: 1.5708 radians
 }
 ```
-### Example 2
+### Codebyte Example
 
 The following example uses the `atan()` function that returns the inverse tangent of value `1.0`:
 
