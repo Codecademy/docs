@@ -19,6 +19,8 @@ The **`atan()`** function returns the inverse tangent of the argument in radians
 atan(n)
 ```
 
+The argument `n` can be any real number including zero. If the argument is zero the result will be zero with the same sign. If the argument is infinity the result will be 1.5708 radians with the same sign.
+
 ## Example 1
 
 The following example uses the `atan()` function that returns the inverse tangent of value `0.0`:
