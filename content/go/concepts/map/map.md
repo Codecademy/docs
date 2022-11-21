@@ -13,13 +13,13 @@ CatalogContent:
 
 ## What is a map?
 
-A map is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a Hash Table, which allows for efficient access, insertion, and deletion.
+A map is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
 ## Syntax
 
 ### Initializing an empty map
 
-An empty map can be created using the `create` function and assigning it to a variable.
+An empty map can be created using the `create()` function and assigning it to a variable.
 
 ```pseudo
 variable_name := create(map[key_data_type]value_data_type)
@@ -61,7 +61,7 @@ map_name[new_key] = [new_value]
 
 ### Create empty map
 
-The following code will demonstrate how to create and print an empty map.
+The following code demonstrates how to create and print an empty map.
 
 ```go
 package main
@@ -84,7 +84,7 @@ map[]
 ```
 
 ### Initialize a map with key-value pairs
-The following code demonstrate how to initialize and print a map already containing key-value-pairs.  
+The following code demonstrates how to initialize and print a map already containing key-value-pairs.  
 
 ```go
 package main
@@ -219,7 +219,7 @@ map[Ana:95.6 Emma:90 George:76.4 John:85.2]
 
 ### Codebyte Example
 
-The following code will summarize all the initialization and operations for map in Go that has been shown in this document.
+The following code will summarize all the initializations and operations for a map in Go that has been shown in this document.
 
 ```go
 package main
