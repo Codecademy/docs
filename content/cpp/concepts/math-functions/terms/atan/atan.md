@@ -35,10 +35,10 @@ int main()
   double x = 0.0;
   double result;
 
-  result = std::atan(value);
+  result = std::atan(x);
 
   std::cout << result << " radians" << "\n";
-  // Output: 1.5708 radians
+  // Output: 0.0 radians
 }
 ```
 ### Codebyte Example
