@@ -36,7 +36,7 @@ The `Queue` interface utilizes the following methods:
 - `.remove()`: removes and returns the head item of the `Queue`, throwing an exception when the `Queue` is empty.
 - `.poll()`: removes and returns the head item of the `Queue`, returning `null` if the `Queue` is empty.
 - `.element()`: returns the head of the `Queue` without removing it, throwing an exception when the `Queue` is empty.
-- `.peek()` : returns the head of the `Queue` without removing it, returning `null` if the `Queue` is empty.
+- `.peek()`: returns the head of the `Queue` without removing it, returning `null` if the `Queue` is empty.
 
 ## Example
 
@@ -46,6 +46,7 @@ This is an example of the `Queue` interface implemented by a `LinkedList`:
 import java.util.LinkedList;
 import java.util.Queue;
 
+// Main.java
 public class Main {
   public static void main(String[] args) {
     Queue<String> food = new LinkedList<String>();
