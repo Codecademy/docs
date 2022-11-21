@@ -21,7 +21,7 @@ Variables are used to store data such as numbers, strings, or Booleans in memory
 
 ## Difference From Constants 
 
-Unlike constants, when declaring a variable, its value can be reassigned later on but with restriction that the new value's data type is the same as the data type when initialized.
+Unlike constants, when declaring a variable, its value can be reassigned later on but with the restriction that the new value's data type is the same as the data type when initialized.
 
 ### Pseudocode Example
 
@@ -64,15 +64,15 @@ Some of the basic types are:
 
 ## Declaration 
 
-To declare a variable you have multiple ways with syntax similar to other programming languages.
+There are multiple ways to declare a variable. The syntax is similar to other programming languages.
 
 ### Initializing After Declaring
 
-This way is used if a group of variables is needed but they will be assigned values later in the program.
+This way is used if a group of variables is needed but will be assigned values later in the program.
 
 #### Example
 
-```Go
+```go
 var numbers int
 var nameOfProgrammer string
 numbers = 100
@@ -85,7 +85,7 @@ This way is used to assign values directly when defining a variable.
 
 #### Example
 
-```Go
+```go
 var state bool = true
 var nameOfProgrammer string = "Codecademy Learner"
 ```
@@ -96,24 +96,24 @@ This way lets the compiler assign the type for the input without declaring it.
 
 #### Example
 
-```Go
+```go
 var piNumber = 3.14
 var myName = "Abdulrahman"
 ``` 
 
 ### Fast Initializing 
 
-This way skips almost all the syntax and only needs the name of the variable followed by `:=`.
+This way skips almost all of the syntax and only needs the name of the variable followed by `:=`.
 
-```Go
+```go
 dontMove := false
 ```
 
 ### Multiple Variable Initializing
 
-This way used to declare more than one variable in the same line by separating them with commas `,`.
+This way is used to declare multiple variables on the same line. Variables are separated with a comma (',').
 
-```Go
+```go
 var numbers, name = 100, "Codecademy User"
 user, activeState := "Abdulrahman", true
 ``` 
