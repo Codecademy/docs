@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`exp2()`** function returns the base-2 exponential function of a given number (i.e., 2<sup>x</sup>).
+The **`exp2()`** function returns the base-2 exponential function of a given number `x`, or 2 raised to the power of `x` (i.e., 2<sup>x</sup>).
 
 ## Syntax
 
