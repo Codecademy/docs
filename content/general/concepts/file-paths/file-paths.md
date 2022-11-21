@@ -1,6 +1,6 @@
 ---
 Title: 'File Paths'
-Description: 'File paths specify the location of a file in a computer's file system structure.'
+Description: 'File paths specify the location of a file in the file system structure of a computer.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
