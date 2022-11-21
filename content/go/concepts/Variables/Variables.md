@@ -43,7 +43,7 @@ reassign it to "Codecademy" after
 
 ## Syntax
 
-```Go
+```go
 var 'variable name' 'var type'
 ```
 
