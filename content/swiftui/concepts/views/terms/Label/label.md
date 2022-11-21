@@ -27,7 +27,7 @@ A `Label` can be a stand-alone component. It has modifiers where it can display 
 
 ## Example
 
-The following example displays a `Text` that represents a number and two `Buttons`. The first one is using a `Label` and the second one is a broken down version of what `Label` actually does:
+The following example displays a `Text` view that represents a number and two `Buttons`. The first one uses a `Label` and the second one is a broken down version of what `Label` actually does:
 
 ```swift
 @State private var score = 0
