@@ -23,7 +23,7 @@ A **`label`** is a standard user interface component that includes an icon and a
 Label("Lightning", systemImage: "bolt.fill")
 ```
 
-The `label` can be a stand-alone component. It has modifiers where it can display just the icon, text, both or automatically adjust based on the space available.
+A `Label` can be a stand-alone component. It has modifiers where it can display just the icon, text, both or automatically adjust based on the space available.
 
 ## Example
 
