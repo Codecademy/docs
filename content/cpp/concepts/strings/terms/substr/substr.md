@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.substr()` method returns a portion of a string specified by a starting position and length.
+The **`.substr()`** method returns a portion of a string specified by a starting position and length.
 
 ## Syntax
 
@@ -34,10 +34,10 @@ The following example prints out a section of a longer string.
 
 int main()
 {
-    std::string base = "this is a test string.";
+  std::string base = "this is a test string.";
 
-    std::cout << base.substr(10,4) << '\n';
+  std::cout << base.substr(10,4) << '\n';
 
-    return 0;
+  return 0;
 }
 ```

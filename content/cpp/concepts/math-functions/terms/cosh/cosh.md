@@ -37,7 +37,8 @@ This example uses `cosh()` to return the hyperbolic cosine of `0.0` radians:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 0.0;
   double result;
 
@@ -56,7 +57,8 @@ This example uses `cosh()` to return the hyperbolic cosine of `1.0` radians:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 1.0;
   double result;
 

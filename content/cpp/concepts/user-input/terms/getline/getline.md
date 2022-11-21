@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, the `getline()` function converts user input into a character-delimited string and stores them in a variable. If a delimiting character is not specified, then the entire input will be stored.
+In C++, the **`getline()`** function converts user input into a character-delimited string and stores them in a variable. If a delimiting character is not specified, then the entire input will be stored.
 
 ## Syntax
 
@@ -46,7 +46,8 @@ cin.getline(string, length, delim)
 #include <string>
 using namespace std;
 
-int main() {
+int main()
+{
   string my_str;
 
   cout << "Enter a pet name: ";
@@ -78,7 +79,8 @@ The same example of `getline()`, but called upon the `cin` object, would look li
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
   char my_char_array[20];
 
   cout << "Enter a pet name: ";

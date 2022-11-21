@@ -14,7 +14,7 @@ CatalogContent:
   - 'learn-java'
 ---
 
-Inheritance is one of the most important principles of object-oriented programming (OOP). It allows for one class (child class) to inherit the fields and methods of another class (parent class).
+**Inheritance** is one of the most important principles of object-oriented programming (OOP). It allows for one class (child class) to inherit the fields and methods of another class (parent class).
 
 An inherited class is also called a subclass of its superclass (parent class).
 

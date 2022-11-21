@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The prototype pattern adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
+The **prototype pattern** adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
 
 Two types of copying are associated with the prototype pattern:
 

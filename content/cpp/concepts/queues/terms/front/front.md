@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.front()` method returns the next element within the queue. This will be the oldest element of the queue or the element which was added the earliest.
+The **`.front()`** method returns the next element within the queue. This will be the oldest element of the queue or the element which was added the earliest.
 
 ## Syntax
 
@@ -31,7 +31,8 @@ The following codebyte example calls the `.front()` method on the `colors` queue
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declaring a queue
   std::queue<std::string> colors;
 

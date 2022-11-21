@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Sets are associative containers which store unique elements that can be referenced by an element's value. The value, which is itself the key to access an element in the set, is constant. Once assigned it cannot be changed. However, existing values can be removed or new values can be added.
+**Sets** are associative containers which store unique elements that can be referenced by an element's value. The value, which is itself the key to access an element in the set, is constant. Once assigned it cannot be changed. However, existing values can be removed or new values can be added.
 
 ## Syntax
 
@@ -30,7 +30,8 @@ The example below initiates a set, inserts values into it using the [.insert()](
 #include <iostream>
 #include <set>
 
-int main(){
+int main()
+{
   // Initiate set
   std::set<int> numSet;
 
@@ -77,7 +78,8 @@ Setting the previous example's comparison function to `std::greater<int>`:
 #include <iostream>
 #include <set>
 
-int main(){
+int main()
+{
   // Initiate set
   std::set<int, std::greater<int> > numSet;
 
