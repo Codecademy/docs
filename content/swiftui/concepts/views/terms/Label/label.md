@@ -58,4 +58,4 @@ Each time the user presses one of the two `Button` views, the `score` above will
 
 This will display the following:
 
-![Label](https://raw.githubusercontent.com/Codecademy/docs/main/media/labels.png)
+![Label](https://raw.githubusercontent.com/Codecademy/docs/main/media/labels-gif.gif)
