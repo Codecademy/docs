@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`atan()`** function returns the inverse tangent of the argument in radians.
+The **`atan()`** function returns the inverse tangent of an argument (positive, negative, or zero) in radians.
 
 ## Syntax
 
