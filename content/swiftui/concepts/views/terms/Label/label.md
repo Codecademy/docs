@@ -53,7 +53,8 @@ var body: some View {
     }
 }
 ```
-Each time the user presses one of the two `Buttons`, the number above will increase or reduce the score by 1.
+
+Each time the user presses one of the two `Button` views, the `score` above will increase or reduce by `1`.
 
 This will display the following:
 
