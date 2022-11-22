@@ -13,7 +13,7 @@ CatalogContent:
 
 ## What is a map?
 
-A map is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
+A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
 ## Syntax
 
@@ -84,6 +84,7 @@ map[]
 ```
 
 ### Initialize a map with key-value pairs
+
 The following code demonstrates how to initialize and print a map already containing key-value-pairs.  
 
 ```go
@@ -101,7 +102,8 @@ func main() {
 }
 ```
 
-Output:
+
+This will output:
 
 ```shell
 map[Ana:95.6 John:85.2]
@@ -109,7 +111,7 @@ map[Ana:95.6 John:85.2]
 
 ### Access a key-value pair in the map
 
-The following code will print the corresponding value for the key "John".
+The following code will print the corresponding value for the key `"John"`.
 
 ```go
 package main
@@ -125,8 +127,10 @@ func main() {
    fmt.Println(gradebook["John"])
 } 
 
+
 ```
-Output:
+
+This will output:
 
 ```shell
 85.2
@@ -210,7 +214,7 @@ func main() {
 }
 ```
 
-Output:
+This will output:
 
 ```shell
 map[Ana:95.6 John:85.2]
@@ -266,7 +270,7 @@ func main() {
 }
 ```
 
-Output: 
+This will output: 
 
 ```shell
 Empty map m:  map[]
