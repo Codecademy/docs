@@ -62,7 +62,8 @@ This example uses the `modf()` function to take an argument of `1.602176634` and
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 1.602176634;
   double fractional;
   double integral;
