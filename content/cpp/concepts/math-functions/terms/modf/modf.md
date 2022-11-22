@@ -34,7 +34,8 @@ This example uses the `modf()` function to return the fractional part of `6.0221
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double num1 = 6.02214;
   double intPart;
   double fractPart;
