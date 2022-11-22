@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.isSuperset()`** method returns `true` if a set contains every element that exists in another set (passed as argument), `false` otherwise.
+The **`.isSuperset()`** method returns a boolean telling whether every element of a given set exists in another set.
 
 ## Syntax
 
