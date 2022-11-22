@@ -32,7 +32,7 @@ Absolute file paths specify the location of a file from the root directory in th
 - `/home/user/projects/js/script.js`
 - `/home/user/data-analysis/scripts/main.py`
 
-In Linux, the tilde (~) is commonly used to represent a user's home directory in a file path. For example, the above file paths could be changed to:
+In [Linux](https://www.codecademy.com/resources/docs/open-source/linux), the tilde (~) is commonly used to represent a user's home directory in a file path. For example, the above file paths could be changed to:
 
 - `~/website/main/about.html`
 - `~/projects/js/script.js`
