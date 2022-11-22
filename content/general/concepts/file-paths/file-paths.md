@@ -38,7 +38,7 @@ In [Linux](https://www.codecademy.com/resources/docs/open-source/linux), the til
 - `~/projects/js/script.js`
 - `~/data-analysis/scripts/main.py`
 
-Relative file paths specify the location of a file in the same folder or on the same server. In other words, a relative file path specifies a location of a file that is relative to the currect directory. Some examples of relative file paths are:
+Relative file paths specify the location of a file in the same folder or on the same [server](https://www.codecademy.com/resources/docs/general/server). In other words, a relative file path specifies a location of a file that is relative to the current directory. Some examples of relative file paths are:
 
 - `./about.html`
 - `./js/script.js`
