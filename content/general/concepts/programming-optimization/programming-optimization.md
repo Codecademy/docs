@@ -24,13 +24,12 @@ Although, this tends to usually require a trade-off, where one aspect is impleme
 
 As the world keeps speeding up on us and moving forward, we naturally lean towards expecting super-fast websites and mobile apps, regardless of the continuously growing complexity of software that may result in decreased reliability and performance. 
 
-Regardless, it wouldn’t be exaggerating to say that without optimization in programming, computing science wouldn’t come so far today and why it is one of it's essential concepts.\
+Regardless, it wouldn’t be exaggerating to say that without optimization in programming, computing science wouldn’t come so far today and why it is one of it's essential concepts.
 
 Let's jump in and get wet, shall we?
 
 
-# h1**Programming Optimization**
-================================
+# **Programming Optimization**
 Optimization in programming is an extensive topic, it relies on many different metrics, focuses and areas within the application depending on specific situations.
 
 Although consideration and awareness of performance issues of design and implementation should be factored into every part of the development cycle, it should not be the primary concern within the first iteration. These can potentially complicate the design and/or implementation, hence should be left until the final iteration of the application. 
@@ -62,8 +61,7 @@ Although not a complete list, these are important targeted points for *optimizat
 This complex topic, truly a full course on its own but let's take a nice "bite" out of it and look below to categorize different levels where these *programming optimizations and techniques* can possibly take place to help bring us closer to understanding it all better. 
    
 
-## h2 Levels of Optimization
-============================
+## Levels of Optimization
 Every application, generally, is composed of 2 areas where programming optimizations can be applied within levels of development, let's overview.
 
 ***Client Side***, which is the side seen on the web browser by the user, includes: *JavaScript that runs in the browser, load times for pages, images, videos, etc. and also the downloading of any resources required by the application.*
@@ -83,8 +81,7 @@ Typically the higher levels have greater impact and are harder to change later o
 On longer-running projects there are typically cycles of optimization, where improving one area reveals limitations in another, and these are typically curtailed when performance is acceptable and gains become too small or costly.
 
 
-### h3 Design
-=============
+### Design
 Let's begin with Design.
 
 The architecture design of a system plays a major role, it's optimization can overwhelmingly affect the system's performance by making the best use of the available resources and expected load(e.g. system that is network latency can be optimized to minimize requests, ideally making a single request rather than multiple requests to the network).
@@ -98,9 +95,7 @@ Let's take into account that the idea of changing any of these frequently will m
 In a distributed system, choice of design (e.g. client-server, peer-to-peer, etc.) occurs at this level and may be extremely challenging to modify later on, particularly if all components cannot be replaced in sync (e.g. old clients).
 
 
-### h3 Algorithms and Database Structures
-=========================================
-
+### Algorithms and Database Structures
 After our design solution, an efficient implementation for the algorithms and data structure decided on, will be an important aspect for the program. These will play a key role to the system’s performance.
   
 Generally data structures are more difficult to change than algorithms since a data structure and its performance assumptions are used throughout the program. We need to keep in mind that changing a data structure after implementing them is quite the uphill battle, it’s crucial to think wisely before implementing an algorithmic solution for any optimization. 
@@ -125,9 +120,7 @@ WOW, let's take a breather!
 
 Hopefully haven't lost you yet, it is definitely a topic with many nuances. Ok, let's get back to it!
 
-### h3 Source Code
-==================
-
+### Source Code
 Next crucial level to wrap our minds around and can have a major impact on performance is the actual source code language implemented. 
 
 Having said that, each level is equally crucial since they all work in unison. 
@@ -201,9 +194,7 @@ In a parallel route, redundant expressions are calculated many times without cha
 Beverage anyone? Cup of tea for me please...
 
 
-### h3 Builds
-=============
-
+### Builds
 This level lands in between the source code and compiler level.
 
 Using preprocessor defines to disable unneeded software features can be done to optimize for specific processor models, hardware capabilities and/or predicting branching. 
@@ -218,9 +209,7 @@ Just a little further, we can do this... let's GO!
 
 
 
-### h3 Compilers
-================
-
+### Compilers
 What is a compiler used for?
 A compiler is a specific piece of software that converts the source code of a computer language into machine code, byte code, or another programming language. 
 
@@ -239,9 +228,7 @@ This step of source code optimization compiling aims to improve intermediate cod
 After the target code has been created and converted to fit the machine architecture, machine-dependent optimization is performed. It may use absolute memory references rather than relative memory accesses and also requires CPU registers. Machine-dependent optimizers make a concerted attempt to maximize the memory hierarchy's benefits.
 
 
-### h3 Run Time
-===============
-
+### Run Time
 At the cost of overhead and based on runtime data, customized machine code can be done by Just-in-Time Compilers and can also have self modifying code which is adaptable depending on the runtime conditions. 
 
 By dynamically adjusting parameters in response to the actual input or other factors, adaptive optimization may be able to perform run-time optimization beyond the capability of static compilers.
@@ -255,9 +242,7 @@ Through instruction scheduling, compilers can support programs to take advantage
 Deep breath fellow coder, we are arriving at the last but not least level of optimization in programming we are covering within this document. 
 
 
-### h3 Platform Dependence and Independence
-===========================================
-
+### Platform Dependence and Independence
 Programming optimization techniques can also be openly categorized as: platform dependent and independent.
  
 Independent developments are effective across most, if not all, platforms, while dependent techniques use determined properties and/or rely on parameters from the single platform in question or even single processor. 
