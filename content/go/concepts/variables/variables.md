@@ -16,9 +16,9 @@ CatalogContent:
 
 **Variables** are used to store values with specific [data types](https://www.codecademy.com/resources/docs/go/data-types) (e.g., numbers, strings, or booleans) in memory for later use.
 
-## Difference From Constants 
+## Difference From Constants
 
-Unlike constants, the value of variables can be reassigned after declaration, but its data type must remain the same as it was when first initialized. For example, an `int` variable can start as 2 and be reassigned as 0 (another `int`), but it can't be reassigned as "Codecademy" (a `string`).
+Unlike constants, variables can be reassigned after declaration, but its data type must remain the same as it was when first initialized. For example, an `int` variable can start with a value of 2 and be reassigned to 0 (another `int`), but it can't be reassigned as "Codecademy" (a `string`).
 
 ## Syntax
 
@@ -29,7 +29,7 @@ var name type
 Variable statements begin with the `var` keyword, followed by its `name`, and then the variable `type`.
 
 Variable names begin with a letter and are case-sensitive. They must not contain special characters, only letters and digits. They must also not be a reserved Go keyword such as `if` or `for`.
- 
+
 ## Declaration 
 
 There are multiple ways to declare a variable. The syntax is similar to other programming languages.
@@ -37,6 +37,7 @@ There are multiple ways to declare a variable. The syntax is similar to other pr
 ### Initializing After Declaring
 
 This way is used if a group of variables is needed but will be assigned values later in the program:
+
 ```go
 var numbers int
 var nameOfProgrammer string
@@ -47,6 +48,7 @@ nameOfProgrammer = "Codecademy Learner"
 ### Initializing With Declaring
 
 This way is used to assign values directly when defining a variable:
+
 ```go
 var state bool = true
 var nameOfProgrammer string = "Codecademy Learner"
@@ -59,9 +61,9 @@ This way lets the compiler assign the type for the input without declaring it:
 ```go
 var piNumber = 3.14
 var myName = "Abdulrahman"
-``` 
+```
 
-### Fast Initializing 
+### Fast Initializing
 
 This way skips almost all of the syntax and only needs the name of the variable followed by `:=`:
 
@@ -76,4 +78,4 @@ This way is used to declare multiple variables on the same line. Variables are s
 ```go
 var numbers, name = 100, "Codecademy User"
 user, activeState := "Abdulrahman", true
-``` 
+```
