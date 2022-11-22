@@ -30,7 +30,7 @@ Variable statements begin with the `var` keyword, followed by its `name`, and th
 
 Variable names begin with a letter and are case-sensitive. They must not contain special characters, only letters and digits. They must also not be a reserved Go keyword such as `if` or `for`.
 
-## Declaration 
+## Declaration
 
 There are multiple ways to declare a variable. The syntax is similar to other programming languages.
 
