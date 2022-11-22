@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The singleton pattern ensures a class has only one object instantiated during the program's lifecycle. It is used to guarantee the control of a resource through its implementation.
+The **singleton pattern** ensures a class has only one object instantiated during the program's lifecycle. It is used to guarantee the control of a resource through its implementation.
 
 ## UML Design
 

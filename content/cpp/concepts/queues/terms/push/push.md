@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.push()` method adds an element to the back of the queue.
+The **`.push()`** method adds an element to the back of the queue.
 
 ## Syntax
 
@@ -33,7 +33,8 @@ The codebyte example below uses `.push()` to insert several even integers into t
 #include <iostream>
 #include <queue>
 
-int main() {
+int main()
+{
   // Declaring a queue
   std::queue<int> even;
 

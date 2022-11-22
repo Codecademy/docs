@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the cube root of the argument.
+The **`cbrt()`** function returns the cube root of the argument.
 
 ## Syntax
 
-```cpp
+```pseudo
 std::cbrt(n)
 ```
 
@@ -27,7 +27,8 @@ Use `cbrt()` to return the cube root of `27`:
 #include <iostream>
 #include <cmath>
 
-int main() {
+int main()
+{
   double x = 27;
   double result;
 

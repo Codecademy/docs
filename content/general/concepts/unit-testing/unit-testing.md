@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Unit testing is an important part of coding and software development because it verifies whether individual parts of the source code behave and work as expected.
+**Unit testing** is an important part of coding and software development because it verifies whether individual parts of the source code behave and work as expected.
 
 These parts, or units, of code can be anything from a class function to a snippet of code that performs a specific task. Testing these units individually allows for finding errors earlier on in the development process.
 

@@ -1,6 +1,6 @@
 ---
 Title: '<noscript>'
-Description: 'Displays content within if Javascript is disabled in the browser or not supported.'
+Description: 'Displays content within if JavaScript is disabled in the browser or not supported.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -12,11 +12,11 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<noscript>`** element displays its contents whenever [Javascript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser.
+The **`<noscript>`** element displays its contents whenever [JavaScript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser.
 
 ## Syntax
 
-```html
+```pseudo
 <noscript>
   <!-- What should display if JavaScript is not enabled or supported. -->
 </noscript>
@@ -32,12 +32,12 @@ In the example below, if JavaScript isn't enabled, the [`<script>`](https://www.
 <script src="someScript.js"></script>
 <noscript>
   <p>
-    Please enable Javascript for this page to load. Learn how to
+    Please enable JavaScript for this page to load. Learn how to
     <a href="https://support.google.com/adsense/answer/12654?hl=en">here</a>
   </p>
 </noscript>
 ```
 
-The output might look like this if Javascipt is disabed or not avalible:
+The output might look like this if JavaScript is disabled or not available:
 
 ![Output of the example](https://raw.githubusercontent.com/Codecademy/docs/main/media/no-script-tag-example.png)

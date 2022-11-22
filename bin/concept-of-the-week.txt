@@ -1,1 +1,1 @@
-content/javascript/concepts/objects/objects.md
+content/swift/concepts/tuples/tuples.md
