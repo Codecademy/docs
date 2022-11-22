@@ -35,7 +35,7 @@ if setOne.isSuperset(of: setTwo) {
 }
 ```
 
-In the example above, the first block after the `if` statement will run if `setOne` is a superset of `setTwo`. This will output:
+This will output the following:
 
 ```shell
 setOne is a superset of setTwo.
