@@ -46,11 +46,6 @@ The `Stack` class provides the following methods:
 - `.peek()`: returns the (top) of the `Stack` without removing it, and throws an exception when the `Stack` is empty.
 - `.empty()`: returns `true` if the `Stack` contains no items or `false`, otherwise.
 - `.search(item)`: returns the distance the `item` is from the top of the `Stack`, starting from `1`, or `-1` is if `item` is not in the `Stack`.
-- `.push(item)`: adds an `item` to the top of the `Stack`.
-- `.pop()`: removes and returns the object at the top of the `Stack`, throwing an exception when the `Stack` is empty.
-- `.peek()`: returns the (top) of the `Stack` without removing it, and throws an exception when the `Stack` is empty.
-- `empty()`: returns `true` if the `Stack` contains no items or `false`, otherwise.
-- `search(item)`: returns the distance the item is from the top of the `Stack`, starting from `1`, or `-1` if `item` is not in the stack.
 
 ## Example
 
