@@ -20,7 +20,7 @@ The **`.isSuperset()`** method returns a boolean telling whether every element o
 setOne.isSuperset(of: setTwo)
 ```
 
-The `isSuperset()` method returns `true` if `setOne` is a superset of `setTwo`, `false` otherwise.
+The `.isSuperset()` method returns `true` if `setOne` is a superset of `setTwo`, `false` otherwise.
 
 ## Example
 
