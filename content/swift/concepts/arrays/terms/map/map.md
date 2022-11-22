@@ -12,8 +12,8 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.map()`** method returns a new array containing the transformed values from calling the passed-in [closure](https://www.codecademy.com/resources/docs/swift/closures) on each element of the given collection. It can be used on types that follow Swift's `Sequence` and `Collection` protocols such as [arrays](https://www.codecademy.com/resources/docs/swift/arrays), [sets](https://www.codecademy.com/resources/docs/swift/sets), and [dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries). 
- 
+The **`.map()`** method returns a new array containing the transformed values from calling the passed-in [closure](https://www.codecademy.com/resources/docs/swift/closures) on each element of the given collection. It can be used on types that follow Swift's `Sequence` and `Collection` protocols such as [arrays](https://www.codecademy.com/resources/docs/swift/arrays), [sets](https://www.codecademy.com/resources/docs/swift/sets), and [dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries).
+
 > **Note:** The original container is not modified, only the new array will contain the modified values.
 
 ## Syntax
