@@ -24,6 +24,8 @@ The `.isSuperset()` method returns `true` if `setOne` is a superset of `setTwo`,
 
 ## Example
 
+In the following example, the `.isSuperset()` method is used with a [conditional expression](https://www.codecademy.com/resources/docs/swift/conditionals) to print a phrase:
+
 ```swift
 let setOne: Set = ["Apple", "Orange", "Banana", "Kiwi", "Tomato"]
 let setTwo: Set = ["Orange", "Banana"]
