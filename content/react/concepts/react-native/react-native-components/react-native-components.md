@@ -47,6 +47,7 @@ React Native Components can also be custom-built, and there’s a big ecosystem 
 React Native Components share the same API structure as React Components. Whatever a component returns is rendered as a React element, which allows to describe what’s seen on the screen. They can also be defined as Function Component or Class Components:
 
 ### Function Component:
+
 ```jsx
 import React from 'react';
 import { Text } from 'react-native';
@@ -59,9 +60,9 @@ const Box= () => {
 
 export default Box;
 ```
-Try this code example [here.](https://snack.expo.dev/@ericsonrd/rn-function-component)
     
 ### Class Component:
+
 ```jsx
 import React, { Component } from "react";
 import { Text } from 'react-native';
@@ -76,14 +77,13 @@ class Box extends Component {
 
 export default Box;
 ```
-Try this code example [here.](https://snack.expo.dev/@ericsonrd/rn-class-component)
 	
-
 ## JSX, Props and State.
 
 React Native Components also use JSX, accept Props and manage State.
 
 ### JSX
+
 As in React, the JSX syntax in React Native allows writing elements inside JavaScript, and also the use of variables inside them:
 
 ```jsx
@@ -99,10 +99,11 @@ const Box= () => {
 
 export default Box;
 ```
-Try this code example [here.](https://snack.expo.dev/@ericsonrd/rn-component-jsx)
 	
 ### Props
+
 Most React Native Core Components accept Props, for example, you can pass different sizes via Props to this Box component:
+
 ```jsx
 import React from 'react';
 import { View, Text } from 'react-native';
@@ -125,10 +126,11 @@ const BoxCollection = () => {
 
 export default BoxCollection;
 ```
-Try this code example [here.](https://snack.expo.dev/@ericsonrd/rn-component-props)
 	
 ### State
+
 Just like React, React Native Components use State to handle data that changes over time, such as with user interaction:
+
 ```jsx
 import React, { useState } from "react";
 import { View, Text, Button } from "react-native";
@@ -156,4 +158,3 @@ const Box = () => {
 
 export default Box;
 ```
-Try this code example [here.](https://snack.expo.dev/@ericsonrd/rn-component-state)
