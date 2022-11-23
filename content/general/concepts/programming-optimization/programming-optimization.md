@@ -15,7 +15,7 @@ CatalogContent:
 - 'web-development'
 ---
 
-***Programming Optimization*** is the process of modifying a software system to amplify its functionality, making the application execute faster outputs and also more efficiently by minimizing the use of computing resources.
+***Programming Optimization*** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources.
 
 In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power.
 
