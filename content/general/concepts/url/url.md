@@ -40,6 +40,6 @@ The example above uses the following:
 - A protocol scheme (`http`) to connect to the Internet
 - A subdomain (`www`) for the world-wide web
 - A domain (`codecademy.com`) to a website
-- Directories to a webpage on the site (`/resources/blog/what-is-web-development/`)
+- A path (`/resources/blog/what-is-web-development/`), which locates the specific resource
 
 > **Note:** URLs follow a standard format that always uses a forward slash (/) as the path separator regardless of the operating system.
