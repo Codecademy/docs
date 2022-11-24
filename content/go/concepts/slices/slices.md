@@ -23,7 +23,11 @@ The capacity can be found using `cap(slice_name)`. It is the number of elements 
 
 ### Declare and Initialize a New Slice
 
+Slices can be declared and initialized in one line.
+
 #### Syntax
+
+Slices can be declared and initialized like arrays, with a data type and a list of values, except without the size specified in the square brackets `[]`.
 
 ```pseudo
 new_slice := []<datatype>{<values>}
@@ -31,7 +35,7 @@ new_slice := []<datatype>{<values>}
 
 #### Example
 
-A slice containing integers, the length and capacity will both be 5.
+A new slice containing integers, the length and capacity will both be 5.
 
 ```go
   s := []int{1,2,3,4,5}
@@ -42,6 +46,8 @@ A slice containing integers, the length and capacity will both be 5.
 A slice can be created from another array or slice.
 
 #### Syntax
+
+A slice can be created from another array (or slice) called `<array_name>`. The slice will contain elements from `<array_name>[from_index]` up to (but not including) `<array_name>[to_index]`. `<from_index>` and `<to_index>` are optional. If `<from_index>` is left blank, then the slice will start from the first element of `<array_name>`. If `<to_index>` is left blank, the slice will end at the last element of `<array_name>`.
 
 ```pseudo
 new_slice_from_array := <array_name>[<from_index>:<to_index>]
@@ -61,6 +67,8 @@ A slice can be initialized using `make`.
 
 #### Syntax
 
+A slice with zero values can be created using `make`. The data type, length and capacity can be set using the syntax below. The new slice will be created with `<length>` number of zero value elements.
+
 ```pseudo
 new_slice := make([]<datatype>, <length>, <capacity>)
 ```
@@ -74,6 +82,8 @@ A slice containing integers initialized to 0, with length of 5 and a capacity of
 ```
 
 #### Codebyte Example
+
+Here is a codebyte example demonstrating the different ways slices can be declared, outputting slice and array data values, length and capacity.
 
 ```codebyte/go
 package main
@@ -105,11 +115,15 @@ Slice elements can be accessed in the same way as array elements.
 
 ### Syntax
 
+Below is the syntax to access an element at index `<element_index>` from a slice with the name `<slice_name>`.
+
 ```pseudo
 <slice_name>[<element_index>]
 ```
 
 ### Codebyte Example
+
+This shows how to access a slice element by declaring a slice `s` and then outputting the value of the third element of `s`.
 
 ```codebyte/go
 package main
