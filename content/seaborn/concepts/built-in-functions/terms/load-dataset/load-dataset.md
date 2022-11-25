@@ -31,10 +31,10 @@ Some of the more significant parameters are listed here:
 
 |    Parameter Name    |         Data Type          | Usage                                                                                                                                        |
 | :------------------: | :------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------- |
-|       `name`         |            str             | Name of the dataset (in CSV format) on this [repository](https://github.com/mwaskom/seaborn-data).                                                                                                              |
-|        `cache`       |            boolean         | The default value is `True`or `1` and it allows the function to initially load the dataset from a local cache directory, after which it saves to this cache directory if a download is needed. |                                                 |
-|     `data_home`      |            str             | Specifies the local directory where the cache data is stored. To view this directory, use the function `print(seaborn.get_data_home())`.        |                                                                                                                             |
-|       `kws`          |   dict(keys & values)      | Optional and extra keyword arguments that are passed to the pandas function `.read_csv`. This panda function reads a csv file and returns a dataframe. |                                                                                     |
+|       `name`         |            str             | Name of the dataset (in CSV format) on this [repository](https://github.com/mwaskom/seaborn-data).|
+|        `cache`       |            boolean         | The default value is `True`or `1` and it allows the function to initially load the dataset from a local cache directory, after which it saves to this cache directory if a download is needed.|
+|     `data_home`      |            str             | Specifies the local directory where the cache data is stored. To view this directory, use the function `print(seaborn.get_data_home())`.|
+|       `kws`          |   dict(keys & values)      | Optional and extra keyword arguments that are passed to the pandas function `.read_csv`. This panda function reads a csv file and returns a dataframe.|
 
 ## Example
 
