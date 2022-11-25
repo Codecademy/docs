@@ -65,7 +65,7 @@ In the example above, the `new` keyword was used to create five object instances
 Since objects are class instances in Java, they can use the `.` operator to access fields and methods in a class.
 
 ```java
-// Creating the Car class
+// Car.java
 public class Car {
 
   // state or field
