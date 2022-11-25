@@ -67,7 +67,6 @@ Since objects are class instances in Java, they can use the `.` operator to acce
 ```java
 // Car.java
 public class Car {
-
   // state or field
   int numberOfDoors;
   String color;
