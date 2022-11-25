@@ -30,7 +30,9 @@ To allocate memory to an object at [runtime](https://www.codecademy.com/resource
 
 ## Java Example
 
-In Java, an object is created from a class. The class is a blueprint for creating objects and it's required in classical OO/UML (C++/Java/C# etc.) objects.
+In Java, [classes](https://www.codecademy.com/resources/docs/java/classes) are the blueprints for creating objects, which is required in object-orientation/unified modeling language (OO/UML).
+
+The following snippet is an example of a defined class being used to instantiate new objects (instances of that class):
 
 ```java
 // Creating the Employee class
