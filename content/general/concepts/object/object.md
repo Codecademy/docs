@@ -1,6 +1,6 @@
 ---
 Title: 'Object'
-Description: 'An object is a data  type, created by the developer, that has properties and methods.'
+Description: 'An object is associative data that commonly takes the form of a data structure, function, method, variable, or class.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
