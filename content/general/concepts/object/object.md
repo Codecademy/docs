@@ -35,7 +35,7 @@ In Java, [classes](https://www.codecademy.com/resources/docs/java/classes) are t
 The following snippet is an example of a defined class being used to instantiate new objects (instances of that class):
 
 ```java
-// Creating the Employee class
+// Employee.java
 class Employee {
 
   // state or field
