@@ -60,7 +60,7 @@ Employee gene = new Employee();
 
 In the example above, the `new` keyword was used to create five object instances of the `Employee` class according to the class constructor.
 
-## Access fields and methods of a Class
+## Accessing Fields and Methods
 
 Since objects are class instances in Java, they can use the `.` operator to access fields and methods in a class.
 
