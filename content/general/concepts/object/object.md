@@ -88,7 +88,7 @@ public class Car {
   }
 }
 
-// Creating an object from the Car class
+// Create object or class instance
 Car mercedes = new Car(5, "black", "mercedes", true);
 
 // Access state
