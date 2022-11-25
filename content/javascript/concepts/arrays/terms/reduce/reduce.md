@@ -50,6 +50,14 @@ console.log(
   'Adding with initial value:',
   arrayTwo.reduce((acc, curr) => acc + curr, 'a')
 );
+
+// Add the values of each object inside an array.
+const arrayThree = [{ x: 1 }, { x: 2 }, { x: 4 }];
+
+console.log(
+  'Adding object values:',
+  arrayThree.reduce((acc, curr) => acc + curr.x, 0)
+);
 ```
 
 This will yield the following output:
@@ -57,6 +65,7 @@ This will yield the following output:
 ```shell
 Adding strings: abcde
 Adding with initial value: abcde
+Adding object values: 7
 ```
 
 ## Codebyte Example
