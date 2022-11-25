@@ -92,7 +92,7 @@ public class Car {
 Car mercedes = new Car(5, "black", "mercedes", true);
 
 // Access state
-System.out.println(mercedes.numberOfDoors) // Output: 5
+System.out.println(mercedes.numberOfDoors)
 
 // Access behavior
 System.out.println(mercedes.turnOn());
