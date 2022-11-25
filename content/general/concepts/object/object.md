@@ -37,15 +37,14 @@ The following snippet is an example of a defined class being used to instantiate
 ```java
 // Employee.java
 class Employee {
-
-  // state or field
+  // State or field
   int id;
   String firstName;
   String lastName;
   char middleInitial;
   float years;
 
-  // behavior or method
+  // Behavior or method
   void cookingBread() {
     System.out.println("Cooking some delicious bread.");
   }
