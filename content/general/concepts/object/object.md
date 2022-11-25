@@ -73,7 +73,7 @@ public class Car {
   String brand;
   boolean isOn;
 
-  // constructor declaration of class
+  // Constructor declaration of class
   public Car(int numberOfDoors, String color, String brand, boolean isOn) {
     this.numberOfDoors = numberOfDoors;
     this.color = color;
