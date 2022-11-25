@@ -81,7 +81,7 @@ public class Car {
     this.isOn = isOn;
   }
 
-  // behavior or method
+  // Behavior or method
   void turnOn() {
     isOn = true;
     System.out.println("The car has started? " + isOn);
