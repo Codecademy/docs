@@ -35,7 +35,7 @@ public class Example {
   public static void main(String args[]) {
     Double value1 = 8.3;
     Double value2 = 8.9;
-    
+
     System.out.println(Math.ceil(value1));
     System.out.println(Math.ceil(value2));
   }
@@ -59,7 +59,7 @@ public class Example {
   public static void main(String args[]) {
     Double value1 = -0.5;
     Double value2 = -1.3;
-        
+
     System.out.println(Math.ceil(value1));
     System.out.println(Math.ceil(value2));
   }
