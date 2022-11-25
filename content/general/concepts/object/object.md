@@ -95,7 +95,7 @@ Car mercedes = new Car(5, "black", "mercedes", true);
 System.out.println(mercedes.numberOfDoors) // Output: 5
 
 // Access behavior
-System.out.println(mercedes.turnOn()); // sets the isOn variable to true and prints the output: The car has started? True
+System.out.println(mercedes.turnOn());
 ```
 
 ## Types of objects
