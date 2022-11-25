@@ -1,6 +1,6 @@
 ---
 Title: '.multiplyExact()'
-Description: ''
+Description: 'Returns the product of its arguments.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,37 +12,44 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.multiplyExact()`** method returns the sum of its arguments. It will throw an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows either `int` or `long`.
+The **`Math.multiplyExact()`** method returns the product of its arguments. It is a static method and it is accessed by using the `Math` class.
 
 ## Syntax
 
 ```pseudo
-Math.addExact(a, b)
+Math.multiplyExact(x, y)
 ```
 
-Both parameters `a` and `b` must either be of type `int` or `long`.
+The `.multiplyExact()` method takes two parameters: `x` and `y`. Both parameters must be of either type `int` or `long`.
 
-An exception is thrown if either parameter is equal to `Integer.MAX_VALUE`, `Long.MAX_VALUE`, or the result exceeds type `int` or `long`.
+The `.multiplyExact()` method returns the result of `x` multiplied by `y`.
+
+An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the result exceeds type `int` or `long`; or if either parameter is equal to:
+
+- `Integer.MAX_VALUE` or
+- `Integer.MIN_VALUE` or
+- `Long.MAX_VALUE` or
+- `Long.MIN_VALUE`.
 
 ## Example
 
-This following example returns the sum of two values with the `.addExact()` method:
+The following example returns the product of two values with the `.multiplyExact()` method:
 
 ```java
 // Main.java
 public class Main {
   public static void main(String[] args) {
-    int a = 575;
-    int b = 209;
-    System.out.println(Math.addExact(a, b));
+    int num1 = 8;
+    int num2 = 2;
+    System.out.println(num1 + " multiplied by " + num2 + " equals to " + Math.multiplyExact(num1, num2));
 
     /*
-    Overflow will occur if any one of the argument is
+    Overflow will occur if any one of the arguments is
     Long.MAX_VALUE or Integer.MAX_VALUE.
     */
-    long x = Long.MAX_VALUE;
-    long y = 86712;
-    System.out.println(Math.addExact(x, y));
+    long c = 299792458;
+    long m = Long.MAX_VALUE;
+    System.out.println(Math.multyplyExact(c, m));
   }
 }
 ```
@@ -50,8 +57,8 @@ public class Main {
 This will produce the following output:
 
 ```shell
-784
+8 multiplied by 2 equals to 16
 Exception in thread "main" java.lang.ArithmeticException: long overflow
-        at java.base/java.lang.Math.addExact(Math.java:845)
+        at java.base/java.lang.Math.multiplyExact(Math.java:946)
         at Main.main(Main.java:13)
 ```
