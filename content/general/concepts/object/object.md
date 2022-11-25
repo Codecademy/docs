@@ -18,7 +18,7 @@ CatalogContent:
 
 An **object** is associative data that commonly takes the form of a data structure, [function](https://www.codecademy.com/resources/docs/general/function), [method](https://www.codecademy.com/resources/docs/general/method), variable, or [class](https://www.codecademy.com/resources/docs/general/class).
 
-Objects provide a structured programming approach and are the basic units of [Oject-Oriented-Programming (OOP)](https://www.codecademy.com/resources/docs/general/object-oriented-programming). Developers can easily create various identical objects and modify existing ones within the program.
+Objects provide a structured programming approach and are the core units of [object-oriented-programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). Developers can easily create various identical objects and modify existing ones within the program.
 
 Objects also provide [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation), meaning that the data within that object is protected from being altered or destroyed by other functions unless explicitly allowed.
 
