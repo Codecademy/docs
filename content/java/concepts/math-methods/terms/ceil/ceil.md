@@ -1,6 +1,6 @@
 ---
 Title: '.ceil()'
-Description: 'Returns the smallest (closest to negative infinity) double value that is a mathematical integer and greater than or equal to the original value.'
+Description: 'Returns the double value that is a mathematical integer and is greater than or equal to the original value.'
 Subjects:
   - 'Computer Science'
 Tags:
