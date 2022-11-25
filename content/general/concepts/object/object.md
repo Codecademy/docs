@@ -104,7 +104,7 @@ In the snippet above, a new `Car` object called `mercedes` is created with its `
 
 Objects can be categorized based on what they do or how they work based on [design patterns](https://www.codecademy.com/resources/docs/general/creational-design-patterns), which represent repeatable solutions to common tasks or problems in programming.
 
-Patterns themselves are **not** objects but are used to develop objects that solve general problems during software development.
+> **Note:** Patterns themselves are not objects but are used to develop objects that solve general problems during software development.
 
 ## Objects in Different Languages
 
