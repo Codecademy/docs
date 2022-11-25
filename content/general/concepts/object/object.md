@@ -26,7 +26,7 @@ Objects also provide [encapsulation](https://www.codecademy.com/resources/docs/g
 
 Declaring an object doesn’t necessarily mean that memory is allocated for it. If an object is initialized with another object, it may just get a reference to the previously created object.
 
-To allocate memory to an object at runtime, the use of the `new` keyword is needed and depending on the programming language, the memory can be allocated on Heap or Stack.
+To allocate memory to an object at [runtime](https://www.codecademy.com/resources/docs/general/runtime), the use of the `new` keyword is needed and, depending on the programming language, the memory can be allocated to a heap or stack.
 
 ## Class and Object Example in Java
 
