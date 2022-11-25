@@ -98,6 +98,8 @@ System.out.println(mercedes.numberOfDoors)
 System.out.println(mercedes.turnOn());
 ```
 
+In the snippet above, a new `Car` object called `mercedes` is created with its `isOn` field set to `true`. When the `.turnOn()` is invoked with the `mercedes` object and its `numberOfDoors` field is accessed, the following is printed:
+
 ## Types of objects
 
 Objects can be categorized based on what they do or how they work based on [design patterns](https://www.codecademy.com/resources/docs/general/creational-design-patterns), which represent repeatable solutions to common tasks or problems in programming.
