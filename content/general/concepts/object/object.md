@@ -61,7 +61,7 @@ In the example above, five different objects were created from the class `Employ
 
 ## Access fields and methods of a Class
 
-By using the name of the objects, along with the `.` operator, it's possible to access members of a class.
+Since objects are class instances in Java, they can use the `.` operator to access fields and methods in a class.
 
 ```java
 // Creating the Car class
