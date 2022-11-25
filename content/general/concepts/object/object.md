@@ -58,7 +58,7 @@ Employee bob = new Employee();
 Employee gene = new Employee();
 ```
 
-In the example above, five different objects were created from the class `Employee`. An object is called an instance of a class. `Tina`, `Louise`, etc, are objects of the class `Employee`. The `new` keyword has been used along with the constructor of the class to create the object.
+In the example above, the `new` keyword was used to create five object instances of the `Employee` class according to the class constructor.
 
 ## Access fields and methods of a Class
 
