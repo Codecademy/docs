@@ -28,7 +28,7 @@ Declaring an object doesn’t necessarily mean that memory is allocated for it. 
 
 To allocate memory to an object at [runtime](https://www.codecademy.com/resources/docs/general/runtime), the use of the `new` keyword is needed and, depending on the programming language, the memory can be allocated to a heap or stack.
 
-## Class and Object Example in Java
+## Java Example
 
 In Java, an object is created from a class. The class is a blueprint for creating objects and it's required in classical OO/UML (C++/Java/C# etc.) objects.
 
