@@ -11,7 +11,7 @@ Tags:
 - 'Optimization in Programing'
 - 'Programming Optimization'
 
-CatalogContent:
+Catalog Content:
 - 'paths/computer-science'
 - 'web-development'
 ---
