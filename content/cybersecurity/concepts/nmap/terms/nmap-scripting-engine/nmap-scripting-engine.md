@@ -15,9 +15,11 @@ CatalogContent:
 
 The **Nmap Scripting Engine (NSE)** allows the writing of scripts that automate a wide variety of tasks. It is one of the more powerful and flexible features of Nmap. It allows the automation of networking tasks, and allows the script itself to be shared between users.
 
-The embedded Lua programming language is used to write scrips for Nmap. The refrence manual for Lua version 5.3 is avalible [freely online](http://www.lua.org/manual/5.3/).
+The embedded Lua programming language is used to write scrips for Nmap. The reference manual for Lua version 5.3 is available [freely online](http://www.lua.org/manual/5.3/).
 
-The scripting engine is activated with the `-sC` option. The `--script` option can be used to specify a custom set of scripts. The results are intgrated into Nmap's output.
+The scripting engine is activated with the `-sC` option. The `--script` option can be used to specify a custom set of scripts. The results are integrated into Nmap's output.
+
+> **Note:** Scripts can accidentally or maliciously damage your system or invade your privacy. Never run scripts from untrusted third parties.
 
 ## Options
 
@@ -37,4 +39,14 @@ NSE scripts belong to a list of defined categories:
 - `auth`: Deals with authentication credentials, or bypassing them.
 - `broadcast`: Does discovery of hosts not listed on command line by broadcasting on the local network.
 - `brute`: Uses brute force attacks to guess authentication credentials.
-- `default`: These scripts are the default scripts run with the `-sC` option.
+- `default`: The default scripts run with the `-sC` option.
+- `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services and so on.
+- `dos`: May result in a denial of service. 
+- `exploit`: Actively exploits some vulnerability.
+- `external`: May send data to a third-party database or other resource.
+- `fuzzer`: Sends server software unexpected or randomized data in each packet.
+- `intrusive`: Cannot be classified `safe` because there's some risk of crashing the target system, use up significant resources, or generally behave in a way the target may perceive as malicious.
+- `malware`: Checks if the target system is affected by malware or backdoors.
+- `safe`: Not designed to crash servers, use large amounts of bandwidth or other resources, or exploit security holes.
+- `version`: Special category that is an extension of the version detection feature. Cannot be selected explicitly.
+- `vuln`: Checks for specific known vulnerabilities and reports when they are found.
