@@ -22,7 +22,7 @@ A **file path** specifies the location of a file in a computer's [file system st
 
 ## Paths and Path Separators
 
-In general, a path is a string of characters which specifies a unique location in a directory or page hierarchy. For file systems, each level in the hierarchy is a directory. For [URLs](https://www.codecademy.com/resources/docs/general/url), each level in the hierarchy is a page. Different sections of the path are separated by a path separator, such as a forward slash (/). These different sections represent the separate directories or pages in the hierarchy. For example, consider the following file path:
+In general, a path is a string of characters which specifies a unique location in a directory or page hierarchy. For file systems, each level in the hierarchy is a directory. For [URLs](https://www.codecademy.com/resources/docs/general/url), each level in the hierarchy is a page. Different sections of the path are separated by a path separator, such as a forward slash (/). These different sections represent the separate directories or pages in the hierarchy, as shown below:
 
 `/home/user/python/test.py`
 
