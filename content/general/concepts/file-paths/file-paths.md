@@ -38,7 +38,7 @@ URLs specify the location where data and websites are hosted on the web. URLs an
 
 ## Absolute and Relative File Paths
 
-Absolute file paths specify the location of a file from the root directory in the file system structure. They are also called "full file paths" or "full paths". Some examples of absolute file paths are:
+Absolute file paths specify the location of a file from the root directory in the file system structure. They are also called "full file paths" or "full paths." Some examples of absolute file paths are:
 
 - `/home/user/website/main/about.html`
 - `/home/user/projects/js/script.js`
