@@ -41,7 +41,7 @@ NSE scripts belong to a list of defined categories:
 - `brute`: Uses brute force attacks to guess authentication credentials.
 - `default`: The default scripts run with the `-sC` option.
 - `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services and so on.
-- `dos`: May result in a denial of service. 
+- `dos`: May result in a denial of service.
 - `exploit`: Actively exploits some vulnerability.
 - `external`: May send data to a third-party database or other resource.
 - `fuzzer`: Sends server software unexpected or randomized data in each packet.
