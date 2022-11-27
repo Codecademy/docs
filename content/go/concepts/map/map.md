@@ -25,14 +25,14 @@ An empty map can be created using the `create()` function and assigning it to a 
 variable_name := create(map[key_data_type]value_data_type)
 ```
 
-### Initializing a map with existing key-value pairs.
+### Initializing a map with existing key-value pairs
 
 A map can also be initialized with key-values pairs by using a map literal.
 
 ```pseudo
 map_name := map[key_data_type]value_data_type{key-1: value-1...}
 ```
- 
+
 ### Accessing Items
 
 A value in the map can be accessed using its corresponding key value by putting the key in brackets.
@@ -102,7 +102,6 @@ func main() {
 }
 ```
 
-
 This will output:
 
 ```shell
@@ -156,7 +155,7 @@ func main() {
    fmt.Println(anaScore)
 } 
 ```
-
+This will output:
 ```shell
 95.6
 ```
@@ -183,7 +182,8 @@ func main() {
 }
 
 ```
-Output:
+
+This will output:
 
 ```shell
 0
