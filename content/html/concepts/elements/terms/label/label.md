@@ -1,4 +1,20 @@
-# Label
+---
+Title: '<label>'
+Description: 'Identifies captions for HTML Form elements such as <input> and other UI elements.'
+Subjects:
+  - 'Web Development'
+  - 'Web Design'
+Tags:
+  - 'Elements'
+  - 'Form'
+  - 'Label'
+  - 'Interface'
+  - 'Tags'
+  - 'UI'
+CatalogContent:
+  - 'learn-html'
+  - 'paths/front-end-engineer-career-path'
+---
 
 The **`<label/>`** element is used to identify captions for other HTML elements. This is most commonly used with form elements such as the [**`<input>`**](../input/input.md) element. The <label> tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
 
@@ -18,16 +34,18 @@ The <label> tag defines a label for several elements:
 - [**`<select>`**](../select/select.md)
 - [**`<textarea>`**](../textarea/textarea.md)
 
-**Note:** Labels are important for accessbility. They allow screenreaders to connect this caption to its coresponding ui elements.
-Also, when a user clicks the text within the **`<label>`** element, it toggles the coresponding input. This is great for users who have difficulty clicking on very small ui elements such as checkboxes.
+**Note:** `<label>` tags are essential for good accessbility.
+
+- They allow screenreaders to connect this caption to its coresponding ui elements.
+- Also, when a user clicks the text within the **`<label>`** element, it toggles the coresponding input. This is great for users who have difficulty clicking on very small ui elements such as checkboxes.
 
 ## Atributes
 
 Some common attributes used to set properties for the `<label>` element are shown below:
 
 |   Attribute    |   Data Type   | Description
-|   `for`    |   String   | Specifies the id of the form element the label should be bound to.
-|   `form`    |   String   | Specifies which form the label belongs to.
+|   `for`    |   String   | Specifies the id of the form element the `<label>` should be bound to.
+|   `form`    |   String   | Specifies which form the `<label>` belongs to.
 
 ```html
 <form id="contact">
@@ -47,7 +65,7 @@ Some common attributes used to set properties for the `<label>` element are show
 
 ## Multiple labels
 
-Multiple label elements can be used for the same ui element.
+Multiple `<label>` elements can be used for the same ui element.
 
 ```html
 <label for="name">Name Input Label
