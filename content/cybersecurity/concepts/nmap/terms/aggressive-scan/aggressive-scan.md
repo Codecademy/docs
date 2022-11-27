@@ -27,7 +27,7 @@ The above conducts an aggressive scan on `<target>`.
 
 The following shows the result of `nmap -A scanme.nmap.org`:
 
-> **Note:** The site scanme.nmap.org is a site explicitly set up for testing Nmap. Only perform scans on domains you have explicit permission to scan.
+> **Note:** The site `scanme.nmap.org` is a site explicitly set up for testing Nmap. Only perform scans on domains you have explicit permission to scan.
 
 ```shell
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-11-27 11:53 Eastern Standard Time
