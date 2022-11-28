@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.scalb()`** method returns the first argument multiplied by 2 to the power of the second argument. 
+The **`Math.scalb()`** method returns the first argument multiplied by 2 to the power of the second argument.
 
 ### Syntax
 
