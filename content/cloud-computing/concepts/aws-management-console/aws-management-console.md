@@ -6,11 +6,13 @@ Subjects:
 Tags:
   - 'Cloud Computing'
 CatalogContent:
-  - 'learn/foundations-of-cloud-computing'
+  - 'foundations-of-cloud-computing'
   - 'paths/back-end-engineer-career-path'
 ---
 
 The **AWS Management Console** is a web application that is home to all the various other consoles used to manage AWS services. The console's customizable home page is what's first seen when a user logs into AWS.
+
+![AWS Management Console home page](https://raw.githubusercontent.com/Codecademy/docs/main/media/aws-console-home.png)
 
 The home page provides access to each service console and provides information needed to perform AWS-related tasks.
 
