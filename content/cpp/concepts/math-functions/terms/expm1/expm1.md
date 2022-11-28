@@ -37,7 +37,7 @@ result = std::expm1(3);
 
 ## Codebyte Example
 
-Use `expm1()` to return the value of _e_-1 (*e*¹-1):
+Use `expm1()` to return the value of *e*-1 (*e*¹-1):
 
 ```codebyte/cpp
 #include <iostream>

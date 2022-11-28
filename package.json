@@ -5,13 +5,13 @@
     "glob": "^7.1.7"
   },
   "devDependencies": {
-    
     "@types/glob": "^7.1.4",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.3",
-    "eslint": "^7.25.0",
+    "eslint": "^7.32.0",
     "husky": "^7.0.4",
     "jest": "^27.0.6",
+    "lint": "^0.7.0",
     "lint-staged": "^12.1.2",
     "markdownlint-cli": "~0.28.1",
     "prettier": "^2.2.1",
