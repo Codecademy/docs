@@ -49,7 +49,7 @@ variable_name := map_name[key_value]
 
 If the key does not exist, then a null value will be returned based on the data type of the values in the map.
 
-### Adding Items
+ ### Adding Items
 
 Add new key-value pairs into the map by setting the new key value to a new value.
 
@@ -85,14 +85,15 @@ map[]
 
 ### Initialize a map with key-value pairs
 
-The following code demonstrates how to initialize and print a map already containing key-value-pairs.
-
+ The following code demonstrates how to initialize and print a map already containing key-value-pairs.
+ 
 ```go
 package main
 
 import "fmt"
 
 func main() {
+ 
 
    // Initialize map gradebook with values
    gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
@@ -192,7 +193,6 @@ This will output:
 ```
 
 ### Adding a new key-value pair into a map
-
 The following code will first print an initialized map. It will then add two more key-value pairs into the map and print the map.
 
 ```go
@@ -246,7 +246,6 @@ func main() {
 
   // Print map m
   fmt.Println("m with 2 added key-value pairs: ",m)
-
   // Create map called gradebook with values that has key data type as string and value data type as double
   gradebook:= map[string]float32{"John" : 85.2, "Ana" : 95.6}
 
