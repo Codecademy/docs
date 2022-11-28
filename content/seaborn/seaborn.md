@@ -1,12 +1,18 @@
 ---
 Title: 'Python:Seaborn'
-Description: 'Seaborn is a popular open-source Python library, used for visualizing the explorative statistical plots of data.'
+Description: 'Seaborn is an open-source Python library used for visualizing the explorative statistical plots of data.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-[Seaborn](https://seaborn.pydata.org/) is a popular open-source Python library, used for visualizing the explorative statistical plots of data. It is a basic libary used to extract various information that can provide an understanding of a dataset. To use Seaborn's objects and methods, it will need to be installed first. There are instructions on how to do so on the [Seaborn website](https://seaborn.pydata.org/installing.html).
+[**Seaborn**](https://seaborn.pydata.org/) (styled as "seaborn") is an [open-source](https://www.codecademy.com/resources/docs/open-source) Python library used for visualizing the explorative statistical plots of data. It is a basic library used to extract various information that can provide an understanding of a dataset.
 
-Seaborn provides a wide variety of objects and methods for use in accessing, analyzing, and visualizing data. A few of the more significant ones are listed below.
+## Installation
+
+Guides for installing and getting started with seaborn can be found [here](https://seaborn.pydata.org/installing.html). It runs on Python 3.7+ and requires the following dependencies:
+
+- [pandas](https://www.codecademy.com/resources/docs/pandas)
+- [matplotlib](https://www.codecademy.com/resources/docs/matplotlib)
+- [NumPy](https://www.codecademy.com/resources/docs/numpy)
