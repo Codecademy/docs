@@ -1,17 +1,17 @@
 ---
-Title: '<a>'
-Description: 'Creates a link to another page or to a location in the current page.'
+Title: "<a>"
+Description: "Creates a link to another page or to a location in the current page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Anchor'
-  - 'Elements'
-  - 'Link'
-  - 'URL'
+  - "Anchor"
+  - "Elements"
+  - "Link"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<a>`** element, also known as the "anchor" element, creates a link to another page or to a location in the current page. It can also be used to link to email addresses, phone numbers, and files.

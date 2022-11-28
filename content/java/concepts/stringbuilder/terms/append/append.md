@@ -1,15 +1,15 @@
 ---
-Title: '.append()'
-Description: 'Appends the string representation of its argument.'
+Title: ".append()"
+Description: "Appends the string representation of its argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.append()`** method appends the string value of its argument to the `StringBuilder`. It returns a reference to the `StringBuilder` object.

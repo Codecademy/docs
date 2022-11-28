@@ -1,16 +1,16 @@
 ---
-Title: '.empty()'
-Description: 'Checks if a queue has no elements.'
+Title: ".empty()"
+Description: "Checks if a queue has no elements."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.empty()`** method returns `true` if the [size](https://www.codecademy.com/resources/docs/cpp/queues/size) of the queue is 0. Otherwise, it returns `false`.

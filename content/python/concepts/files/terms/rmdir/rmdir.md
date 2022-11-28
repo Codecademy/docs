@@ -1,17 +1,17 @@
 ---
-Title: '.rmdir()'
-Description: 'Allows the user to delete a folder if it exists.'
+Title: ".rmdir()"
+Description: "Allows the user to delete a folder if it exists."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Methods'
-  - 'Files'
-  - 'Functions'
-  - 'Strings'
+  - "Methods"
+  - "Files"
+  - "Functions"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The Python `.rmdir()` method allows the user to delete a folder if it exists in the system or computer and does not contain other folders or files.

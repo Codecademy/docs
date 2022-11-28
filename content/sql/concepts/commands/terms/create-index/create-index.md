@@ -1,19 +1,19 @@
 ---
-Title: 'CREATE INDEX'
-Description: 'Creates an index on existing columns in a table. Indexes cannot be seen by the user of a database; they just help speed up queries.'
+Title: "CREATE INDEX"
+Description: "Creates an index on existing columns in a table. Indexes cannot be seen by the user of a database; they just help speed up queries."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Index'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Index"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`CREATE INDEX`** command creates an [index](https://www.codecademy.com/resources/docs/sql/indexes) on one or more existing columns from a table. Indexes cannot be seen by the user of a database; they just help speed up queries.

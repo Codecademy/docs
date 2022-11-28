@@ -1,17 +1,17 @@
 ---
-Title: 'DATETIME()'
-Description: 'Returns the both the date and time (YYYY-MM-DD hh:mm:ss).'
+Title: "DATETIME()"
+Description: "Returns the both the date and time (YYYY-MM-DD hh:mm:ss)."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `DATETIME()` function returns the entire time string which includes the date and time portions (YYYY-MM-DD hh:mm:ss)

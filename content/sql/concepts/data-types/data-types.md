@@ -1,15 +1,15 @@
 ---
-Title: 'Data Types'
-Description: 'Data types provide categories for values we store in tables.'
+Title: "Data Types"
+Description: "Data types provide categories for values we store in tables."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Types'
-  - 'PostgreSQL'
+  - "Data Types"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 **Data types** provide categories for values we store in tables. Types are assigned to fields through table creation and are responsible for determining some of the attributes and constraints (such as the amount of memory allocated) of data stored within a given table.

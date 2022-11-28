@@ -1,15 +1,15 @@
 ---
-Title: 'Math Functions'
-Description: 'C++ has many functions that allows mathematical tasks to be performed on numbers.'
+Title: "Math Functions"
+Description: "C++ has many functions that allows mathematical tasks to be performed on numbers."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
+  - "Arithmetic"
+  - "Functions"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 C++ has many functions that allows mathematical tasks to be performed on numbers.

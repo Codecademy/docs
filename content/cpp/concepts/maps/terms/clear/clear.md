@@ -1,16 +1,16 @@
 ---
-Title: '.clear()'
-Description: 'Removes all elements from a map.'
+Title: ".clear()"
+Description: "Removes all elements from a map."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.clear()`** method removes all elements of a map. This destroys the elements in the container making the new size of the container to be 0.

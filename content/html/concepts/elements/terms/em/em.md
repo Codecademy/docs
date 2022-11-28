@@ -1,15 +1,15 @@
 ---
-Title: '<em>'
+Title: "<em>"
 Description: Represents text which is emphasized. Browsers will show the enclosed text in italics, by default."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<em>`** element represents text which is emphasized. Browsers will show the enclosed text in italics, by default.

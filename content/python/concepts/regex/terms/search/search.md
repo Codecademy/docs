@@ -1,18 +1,18 @@
 ---
-Title: 're.search()'
-Description: 'Returns the first match of a character pattern anywhere in a given string.'
+Title: "re.search()"
+Description: "Returns the first match of a character pattern anywhere in a given string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Characters'
+  - "Regular Expressions"
+  - "Strings"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'practical-data-cleaning'
-  - 'language-parsing'
-  - 'text-preprocessing'
+  - "introduction-to-regular-expressions"
+  - "practical-data-cleaning"
+  - "language-parsing"
+  - "text-preprocessing"
 ---
 
 The `.search()` method returns the first match of a character pattern anywhere in a given string.

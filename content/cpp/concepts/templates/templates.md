@@ -1,22 +1,22 @@
 ---
-Title: 'Templates'
-Description: 'Templates provide the ability to use a type as a parameter in functions and classes.'
+Title: "Templates"
+Description: "Templates provide the ability to use a type as a parameter in functions and classes."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Data Types'
-  - 'Constructors'
-  - 'Methods'
-  - 'Functions'
-  - 'OOP'
-  - 'Parameters'
-  - 'Templates'
+  - "Classes"
+  - "Objects"
+  - "Data Types"
+  - "Constructors"
+  - "Methods"
+  - "Functions"
+  - "OOP"
+  - "Parameters"
+  - "Templates"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Templates** provide the ability to use a [data type](https://www.codecademy.com/resources/docs/cpp/data-types) as a parameter in [functions](https://www.codecademy.com/resources/docs/cpp/functions) and [classes](https://www.codecademy.com/resources/docs/cpp/classes). These are referred to as generic types. This provides the ability to define a set of related classes or functions that can operate on many different types with a single declaration.

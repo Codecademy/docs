@@ -1,18 +1,18 @@
 ---
-Title: 'StringIndexOutOfBoundsException'
-Description: 'Occurs when a String method tries to use an index that is either negative or greater than the size of the string.'
+Title: "StringIndexOutOfBoundsException"
+Description: "Occurs when a String method tries to use an index that is either negative or greater than the size of the string."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Errors'
-  - 'Error Handling'
-  - 'Exceptions'
-  - 'Debugging'
-  - 'Strings'
+  - "Errors"
+  - "Error Handling"
+  - "Exceptions"
+  - "Debugging"
+  - "Strings"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `StringIndexOutOfBoundsException` is an [exception](https://www.codecademy.com/resources/docs/general/error) that occurs when a [`String`](https://www.codecademy.com/resources/docs/java/strings) method tries to use an index that is either negative or greater than the size of the `String`.

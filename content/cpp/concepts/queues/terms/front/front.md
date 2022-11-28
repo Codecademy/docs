@@ -1,16 +1,16 @@
 ---
-Title: '.front()'
-Description: 'Returns the next element within the queue.'
+Title: ".front()"
+Description: "Returns the next element within the queue."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.front()`** method returns the next element within the queue. This will be the oldest element of the queue or the element which was added the earliest.

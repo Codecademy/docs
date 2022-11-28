@@ -1,16 +1,16 @@
 ---
-Title: 'rotate()'
-Description: 'Rotates an element around a fixed point in a 2D space.'
+Title: "rotate()"
+Description: "Rotates an element around a fixed point in a 2D space."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Functions'
-  - 'Positioning'
+  - "Functions"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `rotate()` function rotates an element around a fixed point in a two-dimensional space.

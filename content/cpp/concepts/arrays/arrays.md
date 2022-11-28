@@ -1,15 +1,15 @@
 ---
-Title: 'Arrays'
-Description: 'Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed. Being able to store multiple pieces of related information in the same structure is very useful when writing C++ programs. When creating an array, have to be kept in mind: The type of data to be store inside it and hoow many items it should be able to hold (its size). An array can be created a lot like how normal variables are created: by specifying the data type, giving it a descriptive name, and also specifying its size'
+Title: "Arrays"
+Description: "Like a vector, an array is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed. Being able to store multiple pieces of related information in the same structure is very useful when writing C++ programs. When creating an array, have to be kept in mind: The type of data to be store inside it and hoow many items it should be able to hold (its size). An array can be created a lot like how normal variables are created: by specifying the data type, giving it a descriptive name, and also specifying its size"
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Arrays'
-  - 'Vectors'
+  - "Arrays"
+  - "Vectors"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Like a vector, an **array** is a data structure used in C++ to store a sequential collection of elements. Unlike vectors, its size cannot be changed.

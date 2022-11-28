@@ -1,15 +1,15 @@
 ---
-Title: '<blockquote>'
-Description: 'Represents a section of a document which contains a longer quotation, usually spanning multiple lines.'
+Title: "<blockquote>"
+Description: "Represents a section of a document which contains a longer quotation, usually spanning multiple lines."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<blockquote>`** element represents a section of a document which contains a longer quotation, usually spanning multiple lines.

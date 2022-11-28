@@ -1,16 +1,16 @@
 ---
-Title: '.hypot()'
-Description: 'Returns the hypotenuse of a right-angled triangle.'
+Title: ".hypot()"
+Description: "Returns the hypotenuse of a right-angled triangle."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.hypot()`** method returns the hypotenuse of a right-angled triangle. The hypotenuse is the square root of x<sup>2</sup> + y<sup>2</sup>, where `x` and `y` (of type `double`) are the sides that form the right angle. It does not return intermediate overflow or underflow, which means the `.hypot()` method will not fail due to overflow or underflow of a x<sup>2</sup> or y<sup>2</sup> value.

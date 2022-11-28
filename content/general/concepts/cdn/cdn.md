@@ -1,18 +1,18 @@
 ---
-Title: 'CDN'
-Description: 'Content Delivery Network (CDN) is a method of implementing a cache in the browser which retains copies of web content at various points throughout a network and serves them to clients from the closest network location. This is done by geographically distributed group of servers which work together to provide fast delivery of Internet content. CDNs are among recent innovations in technology which have improved the availability and speed with which we are able to access information on the internet because content that would normally have to travel long distances in order to be consumed by the client are now stored in local hubs geographically close in order to serve it to the user much faster.'
+Title: "CDN"
+Description: "Content Delivery Network (CDN) is a method of implementing a cache in the browser which retains copies of web content at various points throughout a network and serves them to clients from the closest network location. This is done by geographically distributed group of servers which work together to provide fast delivery of Internet content. CDNs are among recent innovations in technology which have improved the availability and speed with which we are able to access information on the internet because content that would normally have to travel long distances in order to be consumed by the client are now stored in local hubs geographically close in order to serve it to the user much faster."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
-  - 'Algorithms'
-  - 'Queries'
+  - "Best Practices"
+  - "Memory"
+  - "Algorithms"
+  - "Queries"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Content Delivery Network (CDN)** is a method of implementing a cache in the browser which retains copies of web content at various points throughout a network and serves them to clients from the closest network location. This is done by geographically distributed group of servers which work together to provide fast delivery of Internet content.

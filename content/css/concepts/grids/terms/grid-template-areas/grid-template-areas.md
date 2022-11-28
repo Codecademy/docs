@@ -1,16 +1,16 @@
 ---
-Title: 'grid-template-areas'
-Description: 'Defines a grid template by referencing the names of the grid areas.'
+Title: "grid-template-areas"
+Description: "Defines a grid template by referencing the names of the grid areas."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Grid'
-  - 'Layout'
-  - 'Responsive'
+  - "Grid"
+  - "Layout"
+  - "Responsive"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `grid-template-areas` property defines a CSS grid by assigning a [`grid-area`](https://www.codecademy.com/resources/docs/css/grids/grid-area) name to each element in the template. The `grid-template` property can be used as a shorthand to define the areas as well as defining the sizes of the columns and rows.
@@ -34,9 +34,9 @@ This property is collectively used with [`grid-template-columns`](https://www.co
 .grid-container {
   display: grid;
   grid-template-areas:
-    'nav     nav    nav'
-    'main    main   main'
-    'footer footer footer';
+    "nav     nav    nav"
+    "main    main   main"
+    "footer footer footer";
 }
 ```
 
@@ -76,10 +76,10 @@ By using `grid-template-areas`, it is not required to specify anything on the in
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr 3fr 1fr 1fr);
   grid-template-areas:
-    'nav    nav      nav'
-    'main  main    sidebar'
-    'main  main    sidebar'
-    'footer footer footer';
+    "nav    nav      nav"
+    "main  main    sidebar"
+    "main  main    sidebar"
+    "footer footer footer";
 }
 ```
 
@@ -117,10 +117,10 @@ In the example above, each of the areas spans multiple grid cells and this can b
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr 3fr 1fr 1fr);
   grid-template-areas:
-    'nav     nav     nav'
-    'main   main   sidebar'
-    'main   main   ...'
-    'footer footer footer';
+    "nav     nav     nav"
+    "main   main   sidebar"
+    "main   main   ..."
+    "footer footer footer";
 }
 ```
 

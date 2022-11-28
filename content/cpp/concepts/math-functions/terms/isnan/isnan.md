@@ -1,14 +1,14 @@
 ---
-Title: 'isnan()'
-Description: 'Returns a number telling whether a given value is a NaN value.'
+Title: "isnan()"
+Description: "Returns a number telling whether a given value is a NaN value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`isnan()`** function returns a number telling whether a given value is a `NaN` value.

@@ -1,16 +1,16 @@
 ---
-Title: '<b>'
-Description: 'Used to draw attention to a section of text, usually rendered in boldface.'
+Title: "<b>"
+Description: "Used to draw attention to a section of text, usually rendered in boldface."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
+  - "Elements"
+  - "Tags"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<b>`** element is used to draw the reader's attention to the marked text without assigning any additional importance to it. This is typically done by making the text bold.

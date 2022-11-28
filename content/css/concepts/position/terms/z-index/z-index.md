@@ -1,17 +1,17 @@
 ---
-Title: 'z-index'
-Description: 'Sets the stack order of an element.'
+Title: "z-index"
+Description: "Sets the stack order of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Positioning'
-  - 'Layers'
-  - 'Layout'
+  - "Positioning"
+  - "Layers"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 [gray box above black box]: https://raw.githubusercontent.com/Codecademy/docs/main/media/css-z-index-gray.png

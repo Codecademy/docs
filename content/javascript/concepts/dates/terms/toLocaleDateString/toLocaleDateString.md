@@ -1,15 +1,15 @@
 ---
-Title: '.toLocaleDateString()'
-Description: 'Returns a modified string from a given Date object, usually for events. It is translated to a specific language format according to an event locale and other options.'
+Title: ".toLocaleDateString()"
+Description: "Returns a modified string from a given Date object, usually for events. It is translated to a specific language format according to an event locale and other options."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
-  - 'Methods'
+  - "Date"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.toLocalDateString()` date method returns a modified string of a given [`Date` object](https://www.codecademy.com/resources/docs/javascript/dates), usually for events. It is translated to a specific language according to an event's `locale` and other `options`.
@@ -17,15 +17,15 @@ The `.toLocalDateString()` date method returns a modified string of a given [`Da
 ## Syntax
 
 ```js
-const myEventDate = new Date('December 31, 2021');
+const myEventDate = new Date("December 31, 2021");
 
-const locale = 'en-US';
+const locale = "en-US";
 
 const options = {
-  weekday: 'long',
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
 };
 
 myEventDate.toLocaleDateString(locale, options);
@@ -52,10 +52,10 @@ Dates with a specific language format can be returned by passing a country or re
 const date = new Date(2021, 11, 31);
 
 // US English - month/day/year
-console.log(date.toLocaleDateString('en-US'));
+console.log(date.toLocaleDateString("en-US"));
 
 // Korean - year. month. day.
-console.log(date.toLocaleDateString('ko-KR'));
+console.log(date.toLocaleDateString("ko-KR"));
 ```
 
 The output will be:
@@ -73,13 +73,13 @@ The `options` parameter can be used to provide additional formatting to the retu
 const birthday = new Date(2022, 3, 11);
 
 options = {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  weekday: 'long',
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  weekday: "long",
 };
 
-console.log(birthday.toLocaleDateString('en-US', options));
+console.log(birthday.toLocaleDateString("en-US", options));
 ```
 
 The output will be:

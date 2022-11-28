@@ -1,17 +1,17 @@
 ---
-Title: 'Vim'
-Description: 'Vim is a free, open source text editor that is customizable text and available on many operating systems.'
+Title: "Vim"
+Description: "Vim is a free, open source text editor that is customizable text and available on many operating systems."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Developer Tools'
-  - 'Linux'
-  - 'Open Source'
-  - 'Vim'
+  - "Developer Tools"
+  - "Linux"
+  - "Open Source"
+  - "Vim"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'paths/computer-science'
+  - "learn-the-command-line"
+  - "paths/computer-science"
 ---
 
 [**Vim**](https://www.vim.org/) is a screen-based text editor that is free, [open-source](https://www.codecademy.com/resources/docs/general/open-source), and based on the `vi` editor that was originally created for the Unix operating system. However, it can be run on other systems such as Windows, Mac, Linux, or Android.

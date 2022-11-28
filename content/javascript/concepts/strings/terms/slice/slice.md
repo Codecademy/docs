@@ -1,16 +1,16 @@
 ---
-Title: '.slice()'
-Description: 'Returns a selected portion of a string.'
+Title: ".slice()"
+Description: "Returns a selected portion of a string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Elements'
-  - 'Methods'
-  - 'Strings'
+  - "Elements"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.slice()` method selects and returns a selected portion of a string.
@@ -31,7 +31,7 @@ string.slice(start, stop);
 In the example below, a `smoothie` string is created. Next, the `.slice()` method is used to extract substrings for the berry variable:
 
 ```js
-let smoothie = 'mango strawberry pineapple';
+let smoothie = "mango strawberry pineapple";
 
 let berry = smoothie.slice(6, 16);
 

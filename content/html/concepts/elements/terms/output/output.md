@@ -1,16 +1,16 @@
 ---
-Title: '<output>'
-Description: 'Displays the result of a calculation or user action.'
+Title: "<output>"
+Description: "Displays the result of a calculation or user action."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<output>`** element displays the result of a calculation or user action. It is commonly used inside of a [`<form>`](https://www.codecademy.com/resources/docs/html/elements/form) element to dynamically show the result of user input. However, the `<output>` element can be used on its own.

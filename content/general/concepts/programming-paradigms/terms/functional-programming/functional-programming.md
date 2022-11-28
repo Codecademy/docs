@@ -1,16 +1,16 @@
 ---
-Title: 'Functional Programming'
-Description: 'Encourages programming with pure functions and evaluating expressions instead of statements.'
+Title: "Functional Programming"
+Description: "Encourages programming with pure functions and evaluating expressions instead of statements."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
-  - 'Web Development'
+  - "Code Foundations"
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Functions'
-  - 'Recursion'
+  - "Functions"
+  - "Recursion"
 CatalogContent:
-  - 'learn-to-code'
-  - 'paths/code-foundations'
+  - "learn-to-code"
+  - "paths/code-foundations"
 ---
 
 **Functional programming (FP)** is a declarative software development paradigm that encourages constructing programs by composing pure functions and evaluating expressions instead of statements. The functions are isolated and independent of the state of the application.

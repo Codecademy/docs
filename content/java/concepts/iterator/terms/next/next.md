@@ -1,14 +1,14 @@
 ---
-Title: '.next()'
-Description: 'Returns the next element from an Iterator or a ListIterator object.'
+Title: ".next()"
+Description: "Returns the next element from an Iterator or a ListIterator object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.next()`** method returns the next element from an `Iterator` or a `ListIterator` object.

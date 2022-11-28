@@ -1,14 +1,14 @@
 ---
-Title: 'Convergent Thinking'
-Description: 'Convergent thinking is a creative mode of thinking that analyzes, filters, and focuses ideas to make decisions.'
+Title: "Convergent Thinking"
+Description: "Convergent thinking is a creative mode of thinking that analyzes, filters, and focuses ideas to make decisions."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Convergent thinking** is a creative mode of thinking that analyzes, filters, and focuses ideas to make decisions.

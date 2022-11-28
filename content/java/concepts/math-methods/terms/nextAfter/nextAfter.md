@@ -1,16 +1,16 @@
 ---
-Title: '.nextAfter()'
-Description: 'Returns the floating-point number next to the first argument in the direction of the second argument.'
+Title: ".nextAfter()"
+Description: "Returns the floating-point number next to the first argument in the direction of the second argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **Math.nextAfter()** method returns the floating-point number next to the first argument in the direction of the second argument.

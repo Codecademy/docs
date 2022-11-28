@@ -1,16 +1,16 @@
 ---
-Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, &mdash; `false` can even be accounted for to perform another set of instruction(s). AFor more complex programs, conditionals allow multiple scenarios to be addressed, making programs more robust.'
+Title: "Conditionals"
+Description: "Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, &mdash; `false` can even be accounted for to perform another set of instruction(s). AFor more complex programs, conditionals allow multiple scenarios to be addressed, making programs more robust."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Conditionals'
-  - 'Control Flow'
-  - 'Switch'
+  - "Conditionals"
+  - "Control Flow"
+  - "Switch"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Conditionals** take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If the expression results in `true`, the program can be instructed to do one thing &mdash; `false` can even be accounted for to perform another set of instruction(s).

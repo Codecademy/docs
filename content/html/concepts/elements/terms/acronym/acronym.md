@@ -1,18 +1,18 @@
 ---
-Title: '<acronym>'
-Description: 'Creates text that will be displayed when hovered over.'
+Title: "<acronym>"
+Description: "Creates text that will be displayed when hovered over."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Accessibility'
-  - 'DOM'
-  - 'Elements'
-  - 'Semantic'
-  - 'Tags'
+  - "Accessibility"
+  - "DOM"
+  - "Elements"
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<acronym>`** element was used to highlight acronyms before it was deprecated. The [`<abbr>`](https://www.codecademy.com/resources/docs/html/elements/abbr) tag is used instead. When the tag is used, the acronym will be signified with a dotted underline for the word or phrase.

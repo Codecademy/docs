@@ -1,14 +1,14 @@
 ---
-Title: '.log1p()'
-Description: 'Returns the natural logarithm (base e) of the sum of a double value as a parameter and 1.'
+Title: ".log1p()"
+Description: "Returns the natural logarithm (base e) of the sum of a double value as a parameter and 1."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.log1p()`** method returns the natural logarithm of a number plus 1.

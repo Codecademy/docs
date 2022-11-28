@@ -1,17 +1,17 @@
 ---
-Title: 'HTTP'
-Description: 'HTTP is used for fetching HTML documents and other web-based resources.'
+Title: "HTTP"
+Description: "HTTP is used for fetching HTML documents and other web-based resources."
 Subjects:
-  - 'Code Foundations'
-  - 'Web Development'
+  - "Code Foundations"
+  - "Web Development"
 Tags:
-  - 'Browsers'
-  - 'Development'
-  - 'Errors'
-  - 'HTTP'
+  - "Browsers"
+  - "Development"
+  - "Errors"
+  - "HTTP"
 CatalogContent:
-  - 'learn-intermediate-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-intermediate-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Hypertext Transfer Protocol (HTTP)** is used for fetching [HTML](https://www.codecademy.com/resources/docs/html) documents and other web-based resources. It follows a model where a client (most commonly a browser) requests content stored on a server.

@@ -1,15 +1,15 @@
 ---
-Title: '@keyframes'
-Description: 'Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe.'
+Title: "@keyframes"
+Description: "Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Controls an animation with multiple intermediate steps, defining the values of the properties at each keyframe.

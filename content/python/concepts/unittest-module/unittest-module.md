@@ -1,20 +1,20 @@
 ---
-Title: 'Unittest Module'
-Description: 'The unittest module provides features for unit testing Python code.'
+Title: "Unittest Module"
+Description: "The unittest module provides features for unit testing Python code."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Automation'
-  - 'Debugging'
-  - 'Development'
-  - 'Functions'
-  - 'Methods'
-  - 'Modules'
-  - 'Units'
+  - "Automation"
+  - "Debugging"
+  - "Development"
+  - "Functions"
+  - "Methods"
+  - "Modules"
+  - "Units"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`unittest`** [module](https://www.codecademy.com/resources/docs/python/modules) provides features for [unit testing](https://www.codecademy.com/resources/docs/general/unit-testing) Python code. Similar to unit testing frameworks in other languages ,`unittest` allows for the following features:

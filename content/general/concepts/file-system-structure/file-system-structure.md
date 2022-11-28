@@ -1,16 +1,16 @@
 ---
-Title: 'File System Structure'
-Description: 'The file system structure is a basic method for operating systems to organize information.'
+Title: "File System Structure"
+Description: "The file system structure is a basic method for operating systems to organize information."
 Subjects:
-  - 'Computer Science'
-  - 'Bash/Shell'
+  - "Computer Science"
+  - "Bash/Shell"
 Tags:
-  - 'Files'
-  - 'Linux'
-  - 'Operating Systems'
+  - "Files"
+  - "Linux"
+  - "Operating Systems"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'paths/computer-science'
+  - "learn-the-command-line"
+  - "paths/computer-science"
 ---
 
 The **file system structure** defines how information in key directories and files (existing and future) are organized and how they are stored in an operating system.

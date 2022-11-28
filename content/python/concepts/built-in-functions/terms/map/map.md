@@ -1,17 +1,17 @@
 ---
-Title: 'map()'
-Description: 'Returns an iterator that takes a function and applies it to every item in an iterable.'
+Title: "map()"
+Description: "Returns an iterator that takes a function and applies it to every item in an iterable."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `map()` built-in function accepts a function and applies it to every item in an iterable. It outputs a map object.

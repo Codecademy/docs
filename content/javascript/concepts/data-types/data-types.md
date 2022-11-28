@@ -1,17 +1,17 @@
 ---
-Title: 'Data Types'
-Description: 'Data types are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.'
+Title: "Data Types"
+Description: "Data types are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - "Arrays"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Data types** are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.
@@ -62,8 +62,8 @@ This will output the following:
 Strings in JavaScript can be defined with either `' '` or `" "`.
 
 ```js
-let greeting = 'Hi buddy';
-let message = 'You are doing great! Keep studying!';
+let greeting = "Hi buddy";
+let message = "You are doing great! Keep studying!";
 ```
 
 ## Boolean
@@ -93,7 +93,7 @@ Objects can have fields with different values and types inside:
 
 ```js
 const user = {
-  name: 'Jane',
+  name: "Jane",
   age: 20,
   isActive: true,
 };

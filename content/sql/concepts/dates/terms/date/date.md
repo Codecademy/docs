@@ -1,18 +1,18 @@
 ---
-Title: 'DATE()'
-Description: 'Converts timestamps to dates (YYYY-MM-DD).'
+Title: "DATE()"
+Description: "Converts timestamps to dates (YYYY-MM-DD)."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The `DATE()` function extracts just the date portion of a time string, which consists of the year, month, and day (YYYY-MM-DD).

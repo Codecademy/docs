@@ -1,19 +1,19 @@
 ---
-Title: 'SELECT'
-Description: 'Every SQL query will begin with the SELECT command to fetch data from one or more tables.'
+Title: "SELECT"
+Description: "Every SQL query will begin with the SELECT command to fetch data from one or more tables."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 Every SQL query will begin with the `SELECT` command to fetch data from one or more tables.

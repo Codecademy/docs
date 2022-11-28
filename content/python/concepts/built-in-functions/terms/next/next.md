@@ -1,16 +1,16 @@
 ---
-Title: 'next()'
-Description: 'Returns the next element from an iterable object.'
+Title: "next()"
+Description: "Returns the next element from an iterable object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Collections'
+  - "Functions"
+  - "Methods"
+  - "Collections"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`next()`** function returns the next element from an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.

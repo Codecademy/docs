@@ -1,17 +1,17 @@
 ---
-Title: '<embed>'
-Description: 'Inserts external content such as a video, image, page, and more.'
+Title: "<embed>"
+Description: "Inserts external content such as a video, image, page, and more."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Images'
-  - 'Tags'
-  - 'Video'
+  - "Elements"
+  - "Images"
+  - "Tags"
+  - "Video"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<embed>`** element renders an element that wraps around interactive content, including [images](https://www.codecademy.com/resources/docs/html/images), [videos](https://www.codecademy.com/resources/docs/html/videos), and even other web pages. This is achieved with tools such as browser plug-ins. However, since most modern browsers no longer support plug-ins, there are other tags to use instead of `<embed>`. This includes:

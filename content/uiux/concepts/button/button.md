@@ -1,14 +1,14 @@
 ---
-Title: 'Button'
-Description: 'A button is a design element that allows users to take action.'
+Title: "Button"
+Description: "A button is a design element that allows users to take action."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 A **button** is a design element that allows users to take action.

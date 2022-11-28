@@ -1,27 +1,27 @@
 ---
-Title: 'Objects'
-Description: 'A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,'
+Title: "Objects"
+Description: "A JavaScript object can be created or defined with an object literal: js const person = { firstName: Elizabeth, lastName: Harmon, age: 22, eyeColor: Hazel,"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Dictionary'
-  - 'Objects'
-  - 'Classes'
-  - 'OOP'
+  - "Dictionary"
+  - "Objects"
+  - "Classes"
+  - "OOP"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A JavaScript object can be created or defined with an object literal:
 
 ```js
 const person = {
-  firstName: 'Elizabeth',
-  lastName: 'Harmon',
+  firstName: "Elizabeth",
+  lastName: "Harmon",
   age: 22,
-  eyeColor: 'Hazel',
+  eyeColor: "Hazel",
 };
 ```
 
@@ -29,10 +29,10 @@ Spaces and line breaks are not important. An object definition can span multiple
 
 ```js
 const person = {
-  firstName: 'Elizabeth',
-  lastName: 'Harmon',
+  firstName: "Elizabeth",
+  lastName: "Harmon",
   age: 22,
-  eyeColor: 'Hazel',
+  eyeColor: "Hazel",
 };
 ```
 
@@ -66,7 +66,7 @@ objectName["propertyName"]
 ```
 
 ```js
-person['lastName'];
+person["lastName"];
 ```
 
 ## Object Methods
@@ -77,10 +77,10 @@ Methods are stored in properties as function definitions.
 
 ```js
 const person = {
-  firstName: 'Elizabeth',
-  lastName: 'Harmon',
+  firstName: "Elizabeth",
+  lastName: "Harmon",
   age: 22,
-  eyeColor: 'Hazel',
+  eyeColor: "Hazel",
   greeting: function () {
     return `Hi, I am ${this.firstName} ${this.lastName}.`;
   },
@@ -118,10 +118,10 @@ To use a class, an instance of it needs to be created. To demonstrate how an ins
 
 ```js
 const person = new Person();
-person.firstName = 'Elizabeth';
-person.lastName = 'Harmon';
+person.firstName = "Elizabeth";
+person.lastName = "Harmon";
 person.age = 22;
-person.eyeColor = 'Hazel';
+person.eyeColor = "Hazel";
 console.log(person);
 /*  
 Output: 
@@ -152,7 +152,7 @@ class Person {
 To summarize what's been done, when making a new instance, the constructor assigns the new object the two new properties 'firstName' and 'lastName' whose values are inputted at the time of creating the instance.
 
 ```js
-const person = new Person('Elizabeth', 'Harmon');
+const person = new Person("Elizabeth", "Harmon");
 console.log(person);
 /*
 Output:

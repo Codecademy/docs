@@ -1,15 +1,15 @@
 ---
-Title: 'Topic Entries'
-Description: 'Encompass a collection of concepts related to a particular language, discipline, or other technology subject.'
+Title: "Topic Entries"
+Description: "Encompass a collection of concepts related to a particular language, discipline, or other technology subject."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 **Topic entries** encompass a collection of concepts related to a particular language, discipline, or other technology subject. The following are examples of Codecademy Docs topics:

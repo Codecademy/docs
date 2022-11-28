@@ -1,17 +1,17 @@
 ---
-Title: 'Arrow Functions'
-Description: 'Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional function syntax.'
+Title: "Arrow Functions"
+Description: "Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional function syntax."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arguments'
-  - 'ES6'
-  - 'Functions'
-  - 'Parameters'
+  - "Arguments"
+  - "ES6"
+  - "Functions"
+  - "Parameters"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Arrow function** are expressions first introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](https://www.codecademy.com/resources/docs/javascript/functions) syntax.
@@ -46,7 +46,7 @@ The following example showcases how arrow functions are defined and applied:
 
 ```js
 const printHello = () => {
-  console.log('hello');
+  console.log("hello");
 };
 
 const checkWeight = (weight) => {

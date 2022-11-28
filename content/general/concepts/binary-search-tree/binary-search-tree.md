@@ -1,16 +1,16 @@
 ---
-Title: 'Binary Search Tree'
-Description: 'A binary search tree is a data structure that is comprised of nodes in a branching relationship, each node having a key signifying its value.'
+Title: "Binary Search Tree"
+Description: "A binary search tree is a data structure that is comprised of nodes in a branching relationship, each node having a key signifying its value."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Conceptual'
-  - 'Binary Tree'
-  - 'Data Structures'
+  - "Conceptual"
+  - "Binary Tree"
+  - "Data Structures"
 CatalogContent:
-  - 'complex-data-structures'
-  - 'paths/computer-science'
+  - "complex-data-structures"
+  - "paths/computer-science"
 ---
 
 A **binary search tree** is a data structure that is comprised of nodes in a branching relationship, each node having a key signifying its value. Each node can have zero, one, or two child nodes branching off from it. The tree has one root node that has no parent.

@@ -1,16 +1,16 @@
 ---
-Title: 'Anatomy'
-Description: 'The anatomy of CSS syntax applies to rulesets or inline styles, the two methods of incorporating CSS into an HTML document.'
+Title: "Anatomy"
+Description: "The anatomy of CSS syntax applies to rulesets or inline styles, the two methods of incorporating CSS into an HTML document."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'DOM'
-  - 'Elements'
-  - 'Tags'
+  - "DOM"
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The anatomy of [CSS](https://www.codecademy.com/resources/docs/css) style syntax applies to the two methods of incorporating CSS into a web-page:

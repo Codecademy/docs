@@ -1,17 +1,17 @@
 ---
-Title: 'Conditionals'
-Description: 'Conditionals are used to evaluate if an expression is true or false and execute code based on that value.'
+Title: "Conditionals"
+Description: "Conditionals are used to evaluate if an expression is true or false and execute code based on that value."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Comparison'
-  - 'Booleans'
-  - 'If'
-  - 'Else'
+  - "Comparison"
+  - "Booleans"
+  - "If"
+  - "Else"
 CatalogContent:
-  - 'learn-go'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-go"
+  - "paths/back-end-engineer-career-path"
 ---
 
 Conditionals, primarily the `if`, `else`, and `else if` statements, are used to execute based on whether an expression evaluates to `true` or `false`.

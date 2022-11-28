@@ -1,15 +1,15 @@
 ---
-Title: '<main>'
-Description: 'Represents the primary content within the body element of the web page.'
+Title: "<main>"
+Description: "Represents the primary content within the body element of the web page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<main>` semantic tag represents the primary content within the `<body>` of the web page. This excludes content from other structural elements such as the [header](https://www.codecademy.com/resources/docs/html/semantic-html/header) or [footer](https://www.codecademy.com/resources/docs/html/semantic-html/footer).

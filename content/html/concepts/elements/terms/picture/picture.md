@@ -1,16 +1,16 @@
 ---
-Title: '<picture>'
-Description: 'Represents multiple possible image sources to be applied to different devices and screen-sizes.'
+Title: "<picture>"
+Description: "Represents multiple possible image sources to be applied to different devices and screen-sizes."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Images'
-  - 'Tags'
+  - "Elements"
+  - "Images"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<picture>`** element represents multiple possible image sources to be applied to different devices and screen-sizes. While it has no semantic meaning, the `<picture>` element will separate its contents from the rest of the document.

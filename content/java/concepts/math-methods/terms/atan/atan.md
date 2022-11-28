@@ -1,14 +1,14 @@
 ---
-Title: '.atan()'
-Description: 'Returns the inverse tangent of the argument in radians.'
+Title: ".atan()"
+Description: "Returns the inverse tangent of the argument in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.atan()`** method returns the inverse tangent (or arctangent) of the argument in radians.

@@ -1,17 +1,17 @@
 ---
-Title: 'hasattr()'
-Description: 'Returns True if an object has an attribute and False otherwise.'
+Title: "hasattr()"
+Description: "Returns True if an object has an attribute and False otherwise."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Attributes'
-  - 'Built-in Functions'
-  - 'Functions'
-  - 'Methods'
+  - "Attributes"
+  - "Built-in Functions"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`hasattr()`** function can be used to check if a given attribute belongs to a given object. It returns `True` if it does have the attribute, and `False` otherwise.

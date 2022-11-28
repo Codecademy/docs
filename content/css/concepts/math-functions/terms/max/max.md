@@ -1,16 +1,16 @@
 ---
-Title: 'max()'
-Description: 'Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property. '
+Title: "max()"
+Description: "Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Responsive'
-  - 'Functions'
+  - "Responsive"
+  - "Functions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Sets the largest value from a list of one or more comma-separated expressions as the value for a CSS property.

@@ -1,15 +1,15 @@
 ---
-Title: 'Big Data'
-Description: 'Big data involves working with and developing insights from large datasets.'
+Title: "Big Data"
+Description: "Big data involves working with and developing insights from large datasets."
 Subjects:
-  - 'Data Science'
-  - 'Data Visualization'
+  - "Data Science"
+  - "Data Visualization"
 Tags:
-  - 'Database'
-  - 'Queries'
+  - "Database"
+  - "Queries"
 CatalogContent:
-  - 'r-for-programmers'
-  - 'paths/data-science'
+  - "r-for-programmers"
+  - "paths/data-science"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-big-data/" />

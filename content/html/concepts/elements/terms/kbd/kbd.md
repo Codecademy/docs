@@ -1,16 +1,16 @@
 ---
-Title: '<kbd>'
-Description: 'Emphasizes characters to look like keys on a keyboard.'
+Title: "<kbd>"
+Description: "Emphasizes characters to look like keys on a keyboard."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Style'
-  - 'Tags'
+  - "Elements"
+  - "Style"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<kbd>`** element emphasizes characters to look like keys on a keyboard.

@@ -1,14 +1,14 @@
 ---
-Title: 'Quantitative Research'
-Description: 'Quantitative research methods are those that collect numerically measurable data.'
+Title: "Quantitative Research"
+Description: "Quantitative research methods are those that collect numerically measurable data."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Quantitative research methods** are those that collect numerically measurable data. These methods allow UX professionals to discover broad patterns, compare different designs and their trade-offs, and tie their work back to company goals and key performance indicators (KPIs).

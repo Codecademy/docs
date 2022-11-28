@@ -1,17 +1,17 @@
 ---
-Title: '.length'
-Description: 'Returns the number of characters in a string.'
+Title: ".length"
+Description: "Returns the number of characters in a string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Properties'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Properties"
+  - "Methods"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-ruby"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`.length`** property returns the number of characters in a string.

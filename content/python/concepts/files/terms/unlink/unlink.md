@@ -1,17 +1,17 @@
 ---
-Title: '.unlink()'
-Description: 'Allows the user to delete a file path if it exists.'
+Title: ".unlink()"
+Description: "Allows the user to delete a file path if it exists."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Methods'
-  - 'Files'
-  - 'Functions'
-  - 'Strings'
+  - "Methods"
+  - "Files"
+  - "Functions"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The Python `.unlink()` file method allows the user to delete a file path if it exists in the system or computer. [`.remove()`](https://www.codecademy.com/resources/docs/python/file-methods/remove) is the alternative to delete a specific file.

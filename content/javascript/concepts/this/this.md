@@ -1,16 +1,16 @@
 ---
-Title: 'this'
-Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context.'
+Title: "this"
+Description: "In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Functions'
+  - "Objects"
+  - "OOP"
+  - "Functions"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 In JavaScript, the **`this`** keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
@@ -26,7 +26,7 @@ Assigning a property to `this` will assign it to the global object.
 console.log(this === window);
 // Output: true
 
-this.prop = 'value';
+this.prop = "value";
 
 console.log(window.prop);
 // Output: value

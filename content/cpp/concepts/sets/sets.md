@@ -1,15 +1,15 @@
 ---
-Title: 'Sets'
-Description: 'Sets are associative containers that store unique elements which can be referenced by the value of the element.'
+Title: "Sets"
+Description: "Sets are associative containers that store unique elements which can be referenced by the value of the element."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Data Types'
-  - 'Sets'
+  - "Data Types"
+  - "Sets"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Sets** are associative containers which store unique elements that can be referenced by an element's value. The value, which is itself the key to access an element in the set, is constant. Once assigned it cannot be changed. However, existing values can be removed or new values can be added.

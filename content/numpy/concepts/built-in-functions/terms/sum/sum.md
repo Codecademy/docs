@@ -1,17 +1,17 @@
 ---
-Title: '.sum()'
-Description: 'Sums the elements of an array over a given axis.'
+Title: ".sum()"
+Description: "Sums the elements of an array over a given axis."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.sum()`** function sums the elements of an array over a given axis.

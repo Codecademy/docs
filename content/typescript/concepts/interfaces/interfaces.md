@@ -1,15 +1,15 @@
 ---
-Title: 'Interfaces'
-Description: 'Interfaces are used to shape an object by describing a certain set of members and/or type annotations.'
+Title: "Interfaces"
+Description: "Interfaces are used to shape an object by describing a certain set of members and/or type annotations."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Interfaces'
-  - 'Objects'
-  - 'Types'
+  - "Interfaces"
+  - "Objects"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Interfaces are used to "shape" an object by describing a certain set of members and/or type annotations.
@@ -45,7 +45,7 @@ function interactWithDog(dog: Dog) {
   dog.woof();
 
   if (dog.fluffy) {
-    console.log('What a floof!');
+    console.log("What a floof!");
   }
 
   dog.bark();
@@ -105,7 +105,7 @@ function workWithAnimals(animal: Animal, cat: Cat) {
 
   if (cat.fluffy) {
     // Ok: defined on Cat
-    console.log('Floof!!');
+    console.log("Floof!!");
     cat.purr(); // Ok: defined on Cat
   }
 

@@ -1,24 +1,24 @@
 ---
-Title: 'Relational Database'
-Description: 'A relational database is a store of data organized in tables made of columns and rows, and the relationships between those tables.'
+Title: "Relational Database"
+Description: "A relational database is a store of data organized in tables made of columns and rows, and the relationships between those tables."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Primary Key'
-  - 'Foreign Key'
-  - 'MySQL'
-  - 'PostgreSQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "Primary Key"
+  - "Foreign Key"
+  - "MySQL"
+  - "PostgreSQL"
+  - "SQLite"
 CatalogContent:
-  - 'paths/design-databases-with-postgresql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
+  - "paths/design-databases-with-postgresql"
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
-[relational database example]: https://raw.githubusercontent.com/Codecademy/docs/main/media/general-relational-database.png 'Example of a Relational Database'
+[relational database example]: https://raw.githubusercontent.com/Codecademy/docs/main/media/general-relational-database.png "Example of a Relational Database"
 
 A **relational database** is a store of data organized in tables made of columns and rows, and the relationships between those tables.
 The software that controls a relational database is called a relational database management system (RDBMS) and typically allows management and updates to the database through an implementation of the structured query language (SQL).

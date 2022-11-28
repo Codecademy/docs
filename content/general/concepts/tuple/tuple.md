@@ -1,16 +1,16 @@
 ---
-Title: 'Tuple'
-Description: 'A tuple is a data structure consisting of an ordered collection with an arbitrary number of elements.'
+Title: "Tuple"
+Description: "A tuple is a data structure consisting of an ordered collection with an arbitrary number of elements."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Tuples'
-  - 'Data Structures'
-  - 'Data Types'
+  - "Tuples"
+  - "Data Structures"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 In computer science, a **tuple** is a data structure consisting of an ordered collection with an arbitrary number of elements. A tuple of "N" elements, where "N" is a positive integer, is generally referred to as an N-tuple. Many computer languages implement a tuple as its own structure or object type.

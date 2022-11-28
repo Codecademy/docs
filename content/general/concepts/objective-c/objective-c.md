@@ -1,15 +1,15 @@
 ---
-Title: 'Objective-C'
-Description: 'Objective-C is a programming language that builds upon the C language by adding object-oriented programming with Smalltalk-style messaging.'
+Title: "Objective-C"
+Description: "Objective-C is a programming language that builds upon the C language by adding object-oriented programming with Smalltalk-style messaging."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'iOS'
-  - 'OOP'
+  - "iOS"
+  - "OOP"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 **Objective-C** is a programming language that builds upon the [C](https://www.codecademy.com/resources/docs/c) language by adding [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) with Smalltalk-style messaging.

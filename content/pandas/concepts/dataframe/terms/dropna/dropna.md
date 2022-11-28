@@ -1,16 +1,16 @@
 ---
-Title: '.dropna()'
-Description: 'Returns a DataFrame object with rows or columns with NA values removed.'
+Title: ".dropna()"
+Description: "Returns a DataFrame object with rows or columns with NA values removed."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.dropna()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with rows or columns removed if they contain `NA` values. The original `DataFrame` object, used to call the method, remains unchanged.

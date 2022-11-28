@@ -1,18 +1,18 @@
 ---
-Title: '.log()'
-Description: 'Returns an element-wise natural logarithm for an array.'
+Title: ".log()"
+Description: "Returns an element-wise natural logarithm for an array."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.log()` function returns an element-wise natural logarithm of an array.

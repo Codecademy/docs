@@ -1,17 +1,17 @@
 ---
-Title: 'References'
-Description: 'A reference variable is an alias for another object. It is created using the & sign. Two things to note: Anything done to the reference also happens to the original and aliases cannot be changed to alias something else.'
+Title: "References"
+Description: "A reference variable is an alias for another object. It is created using the & sign. Two things to note: Anything done to the reference also happens to the original and aliases cannot be changed to alias something else."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'References'
-  - 'Pointers'
-  - 'Parameters'
-  - 'Memory'
+  - "References"
+  - "Pointers"
+  - "Parameters"
+  - "Memory"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **reference** variable is an alias for another object. It is created using the `&` sign.

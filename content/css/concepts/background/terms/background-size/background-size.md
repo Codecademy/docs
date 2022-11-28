@@ -1,15 +1,15 @@
 ---
-Title: 'background-size'
-Description: 'Defines the size of one or more background images.'
+Title: "background-size"
+Description: "Defines the size of one or more background images."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Background'
+  - "Background"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines the size of one or more background images.
@@ -35,7 +35,7 @@ Set background horizontal size to `500px`:
 
 ```css
 .hero {
-  background-image: url('fish.png');
+  background-image: url("fish.png");
   background-repeat: no-repeat;
   height: 1000px;
   background-size: 500px;
@@ -48,7 +48,7 @@ Set background horizontal size and vertical size with a % value:
 
 ```css
 .hero {
-  background-image: url('fish.png');
+  background-image: url("fish.png");
   background-repeat: no-repeat;
   height: 1000px;
   background-size: 50% 25%;
@@ -61,7 +61,7 @@ Set the background size to fill the whole element while maintaining aspect ratio
 
 ```css
 .hero {
-  background-image: url('fish.png');
+  background-image: url("fish.png");
   background-repeat: no-repeat;
   height: 1000px;
   background-size: cover;
@@ -74,7 +74,7 @@ Set the background size to keep aspect ratio and avoid any clipping:
 
 ```css
 .hero {
-  background-image: url('fish.png');
+  background-image: url("fish.png");
   background-repeat: no-repeat;
   height: 1000px;
   background-size: contain;

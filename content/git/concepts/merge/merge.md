@@ -1,15 +1,15 @@
 ---
-Title: 'Merge'
-Description: 'Merging allows a user to apply all changes from one branch to another when the work is completed.'
+Title: "Merge"
+Description: "Merging allows a user to apply all changes from one branch to another when the work is completed."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, completed changes made to a branch can be merged to the `main` branch. When collaborating on a remote repository, a pull request will need to be opened in order to do this. Anyone with push access to the repository can complete the merge.

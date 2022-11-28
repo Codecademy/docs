@@ -1,14 +1,14 @@
 ---
-Title: 'Color Picker'
-Description: 'The color picker provides features for selecting colors and adjusting the color settings.'
+Title: "Color Picker"
+Description: "The color picker provides features for selecting colors and adjusting the color settings."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 The **color picker** can be used to update a layer’s [fill](https://www.codecademy.com/resources/uiux/fill) and [stroke](https://www.codecademy.com/resources/uiux/stroke).

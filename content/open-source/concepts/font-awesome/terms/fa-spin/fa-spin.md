@@ -1,17 +1,17 @@
 ---
-Title: 'fa-spin'
-Description: 'Causes any icon to rotate.'
+Title: "fa-spin"
+Description: "Causes any icon to rotate."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-spin`** class causes any icon to rotate.

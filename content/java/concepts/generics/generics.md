@@ -1,19 +1,19 @@
 ---
-Title: 'Generics'
-Description: 'Generics refer to the ability to use a type as a parameter to methods and classes.'
+Title: "Generics"
+Description: "Generics refer to the ability to use a type as a parameter to methods and classes."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Data Types'
-  - 'Constructors'
-  - 'Methods'
-  - 'OOP'
-  - 'Parameters'
+  - "Classes"
+  - "Objects"
+  - "Data Types"
+  - "Constructors"
+  - "Methods"
+  - "OOP"
+  - "Parameters"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Generics** refer to the ability to use a [type](https://www.codecademy.com/resources/docs/java/data-types) as a parameter to [methods](https://www.codecademy.com/resources/docs/java/methods) and [classes](https://www.codecademy.com/resources/docs/java/classes). This provides the ability to define a set of related classes or methods that can operate on many different types with a single declaration. This also allows type safety at compile-time allowing invalid types to be caught during compilation.

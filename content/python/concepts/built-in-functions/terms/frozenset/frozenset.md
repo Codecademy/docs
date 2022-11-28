@@ -1,17 +1,17 @@
 ---
-Title: 'frozenset()'
-Description: 'Returns a new frozenset using an optional iterable object such as a string or list.'
+Title: "frozenset()"
+Description: "Returns a new frozenset using an optional iterable object such as a string or list."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - "Collections"
+  - "Functions"
+  - "Methods"
+  - "Sets"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The built-in `frozenset()` function returns a new frozenset using an optional iterable object such as a [string](https://www.codecademy.com/resources/docs/python/strings) or [list](https://www.codecademy.com/resources/docs/python/lists).

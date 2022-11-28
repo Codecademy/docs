@@ -1,20 +1,20 @@
 ---
-Title: 'Operators'
-Description: 'Operators are unique keywords used to perform arithmetic, comparison, and logical operations.'
+Title: "Operators"
+Description: "Operators are unique keywords used to perform arithmetic, comparison, and logical operations."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Logical'
-  - 'Comparison'
-  - 'SQLite'
-  - 'MySQL'
-  - 'PostgreSQL'
+  - "Operators"
+  - "Arithmetic"
+  - "Logical"
+  - "Comparison"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 **Operators** are unique keywords used to perform arithmetic, comparison, and logical operations. They are commonly used in the [`WHERE`](https://www.codecademy.com/resources/docs/sql/commands/where) clause of an expression.

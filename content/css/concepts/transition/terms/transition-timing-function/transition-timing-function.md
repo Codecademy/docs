@@ -1,16 +1,16 @@
 ---
-Title: 'transition-timing-function'
-Description: 'Specifies the speed of a transition effect over the course of its duration.'
+Title: "transition-timing-function"
+Description: "Specifies the speed of a transition effect over the course of its duration."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
-  - 'Functions'
+  - "Transitions"
+  - "Functions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Specifies the speed of an elements transition effect over the course of its duration.

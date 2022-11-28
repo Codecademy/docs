@@ -1,15 +1,15 @@
 ---
-Title: '.insert()'
-Description: 'Adds an element at a specified index.'
+Title: ".insert()"
+Description: "Adds an element at a specified index."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Sets'
-  - 'Methods'
+  - "Sets"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.insert()`** method adds or inserts a given element in a set.

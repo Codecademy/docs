@@ -1,14 +1,14 @@
 ---
-Title: 'Web Analytics'
-Description: 'Web analytics are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design.'
+Title: "Web Analytics"
+Description: "Web analytics are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Web analytics** are a measurement of user behavior on a website or app, providing insight into how users are interacting with a design. Web analytics trends can reveal issues with content, navigation, visual design, and other aspects of a product or design. While they are commonly associated with marketing, web analytics are also helpful for [user research](https://www.codecademy.com/resources/docs/uiux/user-research).

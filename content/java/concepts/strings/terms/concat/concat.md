@@ -1,14 +1,14 @@
 ---
-Title: '.concat()'
-Description: 'Returns a string that is the concatenation of the given strings.'
+Title: ".concat()"
+Description: "Returns a string that is the concatenation of the given strings."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Returns a string that is the concatenation of the given strings.

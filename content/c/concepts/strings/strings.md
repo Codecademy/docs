@@ -1,17 +1,17 @@
 ---
-Title: 'Strings'
+Title: "Strings"
 Description: 'Strings are character sequences that are either expressed in double quotes or as arrays that end with a null character \0.'
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
-  - 'Arrays'
+  - "Strings"
+  - "Data Types"
+  - "Characters"
+  - "Arrays"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 **Strings** are character sequences that are either expressed in double quotes or as [arrays](https://www.codecademy.com/resources/docs/c/arrays) that end with a `null` character `'\0'`.

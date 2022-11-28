@@ -1,16 +1,16 @@
 ---
-Title: '.max()'
-Description: 'Returns the maximum member of a List based on natural ordering or based on a Comparator.'
+Title: ".max()"
+Description: "Returns the maximum member of a List based on natural ordering or based on a Comparator."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Data Structures'
-  - 'Functions'
-  - 'Methods'
+  - "Collections"
+  - "Data Structures"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Collections.max()`** method returns the maximum member of a `List` based on natural ordering or based on a [Comparator](https://www.codecademy.com/resources/docs/java/comparator). To use natural ordering, the elements of the `List` must implement the [Comparable](https://www.codecademy.com/resources/docs/java/comparable) interface.

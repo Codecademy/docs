@@ -1,16 +1,16 @@
 ---
-Title: 'border-radius'
-Description: 'Rounds the corners of an element.'
+Title: "border-radius"
+Description: "Rounds the corners of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Borders'
-  - 'Box Model'
+  - "Borders"
+  - "Box Model"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `border-radius` property defines rounded corners on an element. It measures the radii for each corner and can have one to four specified values.

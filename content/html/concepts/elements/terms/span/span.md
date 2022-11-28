@@ -1,17 +1,17 @@
 ---
-Title: '<span>'
-Description: 'Used for grouping related text or elements for styling and scripting.'
+Title: "<span>"
+Description: "Used for grouping related text or elements for styling and scripting."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Structure'
-  - 'Style'
-  - 'Tags'
+  - "Elements"
+  - "Structure"
+  - "Style"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<span>`** element is used for grouping text or elements together for styling and scripting. Unlike the block-level [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) element, `<span>` is an inline element that is usually wrapped inside another element. ([`<li>`](https://www.codecademy.com/resources/docs/html/elements/li), [`<p>`](https://www.codecademy.com/resources/docs/html/paragraphs), etc.)

@@ -1,14 +1,14 @@
 ---
-Title: 'Persona'
-Description: 'Personas are fictional archetypes of the target users of a product or design, created as composites of user or market research.'
+Title: "Persona"
+Description: "Personas are fictional archetypes of the target users of a product or design, created as composites of user or market research."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Personas** are fictional archetypes of the target users of a product or design, created as composites of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) or market research. Businesses create personas in order to build empathy for users and foster a shared understanding of the types of people who use a product.

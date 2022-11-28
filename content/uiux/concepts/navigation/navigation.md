@@ -1,14 +1,14 @@
 ---
-Title: 'Navigation'
-Description: 'Users can travel through a digital interface by interacting with navigational elements.'
+Title: "Navigation"
+Description: "Users can travel through a digital interface by interacting with navigational elements."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Navigation** allows users to travel through a digital interface and interact with elements such as [links](https://www.codecademy.com/resources/docs/html/links) and [buttons](https://www.codecademy.com/resources/docs/html/elements/button). Interacting with these elements can result in internal or external navigation.

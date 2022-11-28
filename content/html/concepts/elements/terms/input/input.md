@@ -1,19 +1,19 @@
 ---
-Title: '<input>'
-Description: 'Creates an interactive element, usually used within a form to allow user input. It can be used to make text boxes, color pickers, date pickers, and other UI elements.'
+Title: "<input>"
+Description: "Creates an interactive element, usually used within a form to allow user input. It can be used to make text boxes, color pickers, date pickers, and other UI elements."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Form'
-  - 'Input'
-  - 'Interface'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Form"
+  - "Input"
+  - "Interface"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<input>`** element creates an interactive element, usually used within a [form](https://www.codecademy.com/resources/docs/html/forms) to allow user input. It can be used to make text boxes, [color pickers](https://www.codecademy.com/resources/docs/uiux/color-picker), date pickers, and other [UI](https://www.codecademy.com/resources/docs/uiux/ui-design) elements.

@@ -1,17 +1,17 @@
 ---
-Title: 'Exceptions'
-Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed.'
+Title: "Exceptions"
+Description: "In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Exceptions'
-  - 'Try'
-  - 'Catch'
-  - 'Errors'
+  - "Exceptions"
+  - "Try"
+  - "Catch"
+  - "Errors"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, an **exception** is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.

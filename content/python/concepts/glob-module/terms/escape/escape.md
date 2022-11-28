@@ -1,15 +1,15 @@
 ---
-Title: '.escape()'
-Description: 'Returns a modified string with all special characters escaped and included in the pattern match.'
+Title: ".escape()"
+Description: "Returns a modified string with all special characters escaped and included in the pattern match."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.escape()` method returns a modified string with all special characters escaped and included in the pattern match.

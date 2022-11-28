@@ -1,15 +1,15 @@
 ---
-Title: '.insert()'
-Description: 'Places a sequence of characters into a StringBuilder and returns a reference to the object.'
+Title: ".insert()"
+Description: "Places a sequence of characters into a StringBuilder and returns a reference to the object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.insert()`** method places a sequence of characters into the `StringBuilder` and returns a reference to the object.

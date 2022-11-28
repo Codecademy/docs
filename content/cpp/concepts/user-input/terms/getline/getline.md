@@ -1,17 +1,17 @@
 ---
-Title: 'getline()'
-Description: 'Converts user input into a string delimited by a character, if specified, and then stores it into a variable.'
+Title: "getline()"
+Description: "Converts user input into a string delimited by a character, if specified, and then stores it into a variable."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Functions'
-  - 'Strings'
-  - 'Characters'
-  - 'Data Types'
+  - "Functions"
+  - "Strings"
+  - "Characters"
+  - "Data Types"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, the **`getline()`** function converts user input into a character-delimited string and stores them in a variable. If a delimiting character is not specified, then the entire input will be stored.

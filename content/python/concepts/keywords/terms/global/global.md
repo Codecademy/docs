@@ -1,15 +1,15 @@
 ---
-Title: 'global'
-Description: 'Creates a global variable that can be updated.'
+Title: "global"
+Description: "Creates a global variable that can be updated."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Scope'
-  - 'Variables'
+  - "Scope"
+  - "Variables"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`global`** keyword creates or references a global variable that can be updated within the [scope](https://www.codecademy.com/resources/docs/python/scope) of a [function](https://www.codecademy.com/resources/docs/python/functions) or [class](https://www.codecademy.com/resources/docs/python/classes).

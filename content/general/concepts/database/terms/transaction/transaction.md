@@ -1,14 +1,14 @@
 ---
-Title: 'Transaction'
-Description: 'Refers to an encapsulated set of instructions sent to a database that must happen as a unit.'
+Title: "Transaction"
+Description: "Refers to an encapsulated set of instructions sent to a database that must happen as a unit."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
+  - "Database"
 CatalogContent:
-  - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 A **transaction** is an encapsulated set of instructions sent to a database that must happen as a unit. If something interrupts the transaction, such as an error, none of the instructions in the transaction occur. This ensures that there are never any partially executed transactions.

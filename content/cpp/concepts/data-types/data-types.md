@@ -1,18 +1,18 @@
 ---
-Title: 'Data Types'
-Description: 'C++ supports many data type that represent the size and kind of values being stored in memory.'
+Title: "Data Types"
+Description: "C++ supports many data type that represent the size and kind of values being stored in memory."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Booleans'
-  - 'Characters'
-  - 'Strings'
+  - "Data Types"
+  - "Integers"
+  - "Booleans"
+  - "Characters"
+  - "Strings"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 C++ supports many **data types** that represent the size and kind of values being stored in memory.

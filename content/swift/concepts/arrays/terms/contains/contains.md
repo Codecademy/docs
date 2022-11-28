@@ -1,15 +1,15 @@
 ---
-Title: '.contains()'
-Description: 'Returns true if an array contains a specified element, false otherwise.'
+Title: ".contains()"
+Description: "Returns true if an array contains a specified element, false otherwise."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.contains()`** method returns true if an array contains a specified element, false otherwise.

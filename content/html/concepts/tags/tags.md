@@ -1,14 +1,14 @@
 ---
-Title: 'Tags'
-Description: 'A tag is a set of characters constituting a formatted command for a web page.'
+Title: "Tags"
+Description: "A tag is a set of characters constituting a formatted command for a web page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tags'
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, **tags** are commonly defined as a set of characters constituting a formatted command for a web page. They are used for making [elements](https://www.codecademy.com/resources/docs/html/elements) for the web page's markup. During the early days of the World Wide Web, tags were responsible for a majority of the web's code.

@@ -1,19 +1,19 @@
 ---
-Title: 'Try/Catch'
-Description: 'The try...catch...finally statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception, and a third block of code to be executed regardless of the error status. The catch and finally blocks of code are optional, but any try blocks must be followed by one or the other. javascript try { // Statements here are executed until an exception is thrown } catch (err) {'
+Title: "Try/Catch"
+Description: "The try...catch...finally statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception, and a third block of code to be executed regardless of the error status. The catch and finally blocks of code are optional, but any try blocks must be followed by one or the other. javascript try { // Statements here are executed until an exception is thrown } catch (err) {"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Try'
-  - 'Catch'
-  - 'Error Handling'
-  - 'Control Flow'
-  - 'Errors'
-  - 'Exceptions'
+  - "Try"
+  - "Catch"
+  - "Error Handling"
+  - "Control Flow"
+  - "Errors"
+  - "Exceptions"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `try...catch...finally` statement defines one block of code to execute, a second block of code to be executed if the first block throws an exception,
@@ -62,14 +62,14 @@ var input = 25;
 
 try {
   if (input < 10) {
-    throw 'too small!';
+    throw "too small!";
   } else if (input > 20) {
-    throw 'too big!';
+    throw "too big!";
   } else {
-    console.log('Input was ' + input);
+    console.log("Input was " + input);
   }
 } catch (e) {
-  console.log('Input was ' + e);
+  console.log("Input was " + e);
 }
 
 // Output: Input was too big!

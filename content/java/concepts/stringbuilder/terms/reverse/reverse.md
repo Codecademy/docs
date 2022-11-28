@@ -1,15 +1,15 @@
 ---
-Title: '.reverse()'
-Description: 'Returns a modified StringBuilder object with its character sequence rearranged in the opposite order.'
+Title: ".reverse()"
+Description: "Returns a modified StringBuilder object with its character sequence rearranged in the opposite order."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.reverse()`** method returns a modified `StringBuilder` object with its character sequence rearranged in the opposite order. This is the most straightforward way to reverse a string in Java.

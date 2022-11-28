@@ -1,17 +1,17 @@
 ---
-Title: 'SUM()'
-Description: 'Returns the sum of all the value in that column.'
+Title: "SUM()"
+Description: "Returns the sum of all the value in that column."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'SQLite'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'Functions'
+  - "SQLite"
+  - "PostgreSQL"
+  - "MySQL"
+  - "Functions"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `SUM()` aggregate function takes the name of a column as an argument and returns the sum of all the value in that column.

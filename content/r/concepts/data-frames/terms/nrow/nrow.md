@@ -1,17 +1,17 @@
 ---
-Title: 'nrow()'
-Description: 'Returns the number of rows in a data frame.'
+Title: "nrow()"
+Description: "Returns the number of rows in a data frame."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Data Structures'
-  - 'Methods'
-  - 'Tables'
+  - "Functions"
+  - "Data Structures"
+  - "Methods"
+  - "Tables"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`nrow()`** function returns the number of rows in a data frame.

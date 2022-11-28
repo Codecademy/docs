@@ -1,19 +1,19 @@
 ---
-Title: 'Index'
-Description: 'Improves the speed of data retrieval in the database.'
+Title: "Index"
+Description: "Improves the speed of data retrieval in the database."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Primary Key'
-  - 'Foreign Key'
-  - 'Index'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "Primary Key"
+  - "Foreign Key"
+  - "Index"
+  - "Tables"
 CatalogContent:
-  - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 A database **index** is a data structure that improves the speed of data retrieval in the database. Indexes on a table consist of one or more columns of ordered data with links to specific rows in a table.

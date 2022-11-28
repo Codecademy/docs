@@ -1,15 +1,15 @@
 ---
-Title: '.addExact()'
-Description: 'Returns the sum of its arguments.'
+Title: ".addExact()"
+Description: "Returns the sum of its arguments."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Function'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Function"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.addExact()`** method returns the sum of its arguments. It will throw an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows either `int` or `long`.

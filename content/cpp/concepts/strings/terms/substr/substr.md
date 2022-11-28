@@ -1,15 +1,15 @@
 ---
-Title: '.substr()'
-Description: 'Returns a portion of a string specified by a starting position and length.'
+Title: ".substr()"
+Description: "Returns a portion of a string specified by a starting position and length."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.substr()`** method returns a portion of a string specified by a starting position and length.

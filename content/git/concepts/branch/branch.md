@@ -1,15 +1,15 @@
 ---
-Title: 'Branch'
-Description: 'A branch represents a way to provide an isolated copy of the current code which can be modified without affecting the original code.'
+Title: "Branch"
+Description: "A branch represents a way to provide an isolated copy of the current code which can be modified without affecting the original code."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'learn-git'
+  - "learn-the-command-line"
+  - "learn-git"
 ---
 
 In Git, a branch represents a way to provide an isolated copy of the current code. The code in the branch can be modified without affecting the original code and, when it is ready, the changes can be moved back into the original code. Branches also make it much easier to undo changes.

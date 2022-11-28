@@ -1,14 +1,14 @@
 ---
-Title: 'High-fidelity'
-Description: 'High-fidelity refers to design deliverables that are realistic and near final-product quality.'
+Title: "High-fidelity"
+Description: "High-fidelity refers to design deliverables that are realistic and near final-product quality."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **High-fidelity** refers to design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables) that are realistic and near final-product quality.

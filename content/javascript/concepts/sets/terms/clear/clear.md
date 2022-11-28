@@ -1,16 +1,16 @@
 ---
-Title: '.clear()'
-Description: 'Deletes all values from a Set and returns undefined.'
+Title: ".clear()"
+Description: "Deletes all values from a Set and returns undefined."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Sets'
-  - 'Objects'
-  - 'Collections'
+  - "Sets"
+  - "Objects"
+  - "Collections"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.clear()`** method deletes all values from a `Set` and returns `undefined`.

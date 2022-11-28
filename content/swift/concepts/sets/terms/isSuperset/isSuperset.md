@@ -1,15 +1,15 @@
 ---
-Title: '.isSuperset()'
-Description: 'Returns a boolean telling whether every element of a given set exists in another set.'
+Title: ".isSuperset()"
+Description: "Returns a boolean telling whether every element of a given set exists in another set."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Sets'
-  - 'Methods'
+  - "Sets"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.isSuperset()`** method returns a boolean telling whether every element of a given set exists in another set.

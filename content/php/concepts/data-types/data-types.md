@@ -1,17 +1,17 @@
 ---
-Title: 'Data Types'
-Description: 'PHP supports a number of primitive data types.'
+Title: "Data Types"
+Description: "PHP supports a number of primitive data types."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - "Data Types"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 PHP supports the following primitive data types:

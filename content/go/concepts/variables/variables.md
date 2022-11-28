@@ -1,17 +1,17 @@
 ---
-Title: 'Variables'
-Description: 'Variables are used to store values of specific data types in memory for later use.'
+Title: "Variables"
+Description: "Variables are used to store values of specific data types in memory for later use."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Variables'
-  - 'Booleans'
-  - 'Strings'
-  - 'Integers'
+  - "Variables"
+  - "Booleans"
+  - "Strings"
+  - "Integers"
 CatalogContent:
-  - 'learn-go'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-go"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Variables** are used to store values with specific [data types](https://www.codecademy.com/resources/docs/go/data-types) (e.g., numbers, strings, or booleans) in memory for later use.

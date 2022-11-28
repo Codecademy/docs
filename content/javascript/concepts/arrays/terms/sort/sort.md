@@ -1,19 +1,19 @@
 ---
-Title: '.sort()'
-Description: 'Returns an array with its items sorted in place.'
+Title: ".sort()"
+Description: "Returns an array with its items sorted in place."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Comparison'
-  - 'Functions'
-  - 'Methods'
-  - 'Sort'
-  - 'Unicode'
+  - "Arrays"
+  - "Comparison"
+  - "Functions"
+  - "Methods"
+  - "Sort"
+  - "Unicode"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.sort()`** method returns an array with its items sorted in place.
@@ -37,11 +37,11 @@ An optional function is used to define how items are sorted. This is done by ite
 In the following example, the `.sort()` method is applied to two arrays, `letters` and `numbers` (a mix of floats and integers):
 
 ```js
-const letters = ['d', 'b', 'e', 'a', 'c'];
+const letters = ["d", "b", "e", "a", "c"];
 const numbers = [5, 2, 123, 5.01, 43.5];
 
-console.log('Letters: ', letters.sort());
-console.log('Numbers: ', numbers.sort());
+console.log("Letters: ", letters.sort());
+console.log("Numbers: ", numbers.sort());
 ```
 
 This results in the following output:

@@ -1,17 +1,17 @@
 ---
-Title: 'subset()'
-Description: 'Returns a subset of an object that matches the specified conditions.'
+Title: "subset()"
+Description: "Returns a subset of an object that matches the specified conditions."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Data Structures'
-  - 'Methods'
-  - 'Objects'
+  - "Functions"
+  - "Data Structures"
+  - "Methods"
+  - "Objects"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`subset()`** function returns a subset of a data frame that matches the specified conditions.

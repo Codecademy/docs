@@ -1,15 +1,15 @@
 ---
-Title: '.length()'
-Description: 'Returns the number of characters currently in the StringBuilder.'
+Title: ".length()"
+Description: "Returns the number of characters currently in the StringBuilder."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.length()`** method returns the number of characters currently in the `StringBuilder`, whereas [`.capacity()`](https://www.codecademy.com/resources/docs/java/stringbuilder/capacity) returns the number of spaces available for characters in the `StringBuilder`.

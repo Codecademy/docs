@@ -1,16 +1,16 @@
 ---
-Title: 'Augmented Reality'
-Description: 'Augmented Reality (AR) is a digitally enhanced real world experience provided through hardware. In many instances AR provides an additional sensory experience to natural settings. A popular example of Augmented Reality in application is the video game Pokemon Go.'
+Title: "Augmented Reality"
+Description: "Augmented Reality (AR) is a digitally enhanced real world experience provided through hardware. In many instances AR provides an additional sensory experience to natural settings. A popular example of Augmented Reality in application is the video game Pokemon Go."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Augmented reality (AR)** is a digitally enhanced real world experience provided through hardware. In many instances, AR provides an additional sensory experience to natural settings. A popular example of AR in mobile applications is the video game Pokémon Go.

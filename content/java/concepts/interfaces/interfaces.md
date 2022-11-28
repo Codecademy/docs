@@ -1,15 +1,15 @@
 ---
-Title: 'Interfaces'
-Description: 'Interfaces are abstract types describing methods and variables that should exist in any class that implements the interface.'
+Title: "Interfaces"
+Description: "Interfaces are abstract types describing methods and variables that should exist in any class that implements the interface."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Inheritance'
-  - 'OOP'
+  - "Classes"
+  - "Inheritance"
+  - "OOP"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Interfaces** are abstract types describing [methods](https://www.codecademy.com/resources/docs/java/methods) and [variables](https://www.codecademy.com/resources/docs/java/variables) that should exist in any [class](https://www.codecademy.com/resources/docs/java/classes) that implements the interface. The use of an interface is similar to class [inheritance](https://www.codecademy.com/resources/docs/java/inheritance) in that the class implementing the interface "inherits" its methods, but unlike class inheritance, a given class can implement multiple interfaces at once.

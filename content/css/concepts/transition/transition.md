@@ -1,16 +1,16 @@
 ---
-Title: 'Transition'
-Description: 'CSS transitions provide a way to control an animations speed and timing of the property changes.'
+Title: "Transition"
+Description: "CSS transitions provide a way to control an animations speed and timing of the property changes."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
-  - 'Elements'
-  - 'Properties'
+  - "Transitions"
+  - "Elements"
+  - "Properties"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 CSS **transitions** provide a way to control an animation's speed and timing of the property changes. Instead of having property changes take effect immediately, changes in a property can take place over a period of time.

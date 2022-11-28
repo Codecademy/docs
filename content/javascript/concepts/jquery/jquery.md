@@ -1,16 +1,16 @@
 ---
-Title: 'jQuery'
-Description: 'jQuery is a popular JavaScript library intended to simplify JavaScript programming.'
+Title: "jQuery"
+Description: "jQuery is a popular JavaScript library intended to simplify JavaScript programming."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'DOM'
-  - 'Events'
-  - 'jQuery'
+  - "DOM"
+  - "Events"
+  - "jQuery"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **jQuery** is a JavaScript library that simplifies common tasks that once required many lines of code (e.g., [AJAX](https://www.codecademy.com/resources/docs/javascript/ajax), DOM manipulation, and [event handling](https://www.codecademy.com/resources/docs/javascript/events)), and wraps them inside a single method call. It is free and [open-source software](https://www.codecademy.com/resources/docs/open-source/open-source-software).

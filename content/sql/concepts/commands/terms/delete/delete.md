@@ -1,19 +1,19 @@
 ---
-Title: 'DELETE'
-Description: 'Removes existing row(s) from a table. If a WHERE statement is excluded, all rows in the table will be deleted.'
+Title: "DELETE"
+Description: "Removes existing row(s) from a table. If a WHERE statement is excluded, all rows in the table will be deleted."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`DELETE`** command removes one or more existing rows from a table.

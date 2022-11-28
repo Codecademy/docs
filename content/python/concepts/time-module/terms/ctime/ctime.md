@@ -1,17 +1,17 @@
 ---
-Title: '.ctime()'
-Description: 'Takes a time, expressed in seconds elapsed since the epoch, and returns a formatted string.'
+Title: ".ctime()"
+Description: "Takes a time, expressed in seconds elapsed since the epoch, and returns a formatted string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'Constants'
+  - "Methods"
+  - "Constants"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `ctime()` function takes a time, expressed in seconds since the epoch, and returns a formatted string.

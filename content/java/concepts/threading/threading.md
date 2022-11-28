@@ -1,16 +1,16 @@
 ---
-Title: 'Threading'
-Description: 'Threading is the ability for different parts of a program to run simultaneously.'
+Title: "Threading"
+Description: "Threading is the ability for different parts of a program to run simultaneously."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Inheritance'
-  - 'Interface'
+  - "Classes"
+  - "Inheritance"
+  - "Interface"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Threading** is the ability for different parts of a program to run simultaneously. The currently running part of the program can start another thread that will run code in the background as the original code that spawned the thread continues to execute. This allows complex procedures to run without holding up the execution of the rest of the program.

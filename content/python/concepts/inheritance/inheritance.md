@@ -1,17 +1,17 @@
 ---
-Title: 'Inheritance'
-Description: 'Inheritance supports code reusability and allows programmers to create classes built upon existing classes.'
+Title: "Inheritance"
+Description: "Inheritance supports code reusability and allows programmers to create classes built upon existing classes."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Inheritance'
-  - 'OOP'
-  - 'Classes'
+  - "Inheritance"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 **Inheritance** is a concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) where a child [class](https://www.codecademy.com/resources/docs/python/classes) (or subclass) derives attributes and behaviors from a parent or sibling class.

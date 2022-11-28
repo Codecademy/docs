@@ -1,16 +1,16 @@
 ---
-Title: 'Pseudocode'
-Description: 'Pseudocode is a method of describing the steps in an algorithm or other computed process written in plain language. It does not rely on any particular implementation of a programming language, and instead is intended for a human audience. It omits the portions required for machine implementation of the algorithm, such as variable declarations, and includes natural language description details.'
+Title: "Pseudocode"
+Description: "Pseudocode is a method of describing the steps in an algorithm or other computed process written in plain language. It does not rely on any particular implementation of a programming language, and instead is intended for a human audience. It omits the portions required for machine implementation of the algorithm, such as variable declarations, and includes natural language description details."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Conceptual'
-  - 'Documentation'
-  - 'Development'
+  - "Conceptual"
+  - "Documentation"
+  - "Development"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'learn-how-to-code'
+  - "paths/code-foundations"
+  - "learn-how-to-code"
 ---
 
 **Pseudocode** is a method of describing the steps in an algorithm or other computed process written in plain language. It does not rely on any particular implementation of a programming language, and instead is intended for a human audience. It omits the portions required for machine implementation of the algorithm, such as variable declarations, and includes natural language description details.

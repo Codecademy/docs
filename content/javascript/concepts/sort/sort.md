@@ -1,16 +1,16 @@
 ---
-Title: 'Sort'
-Description: 'Sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array.'
+Title: "Sort"
+Description: "Sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In JavaScript, the **`.sort()`** method of an array sorts the contents of an array and returns the sorted array. This sorting is done in place and affects the original array. No copy is made. The default sort is in ascending string order.

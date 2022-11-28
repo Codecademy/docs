@@ -1,17 +1,17 @@
 ---
-Title: 'Hacking'
-Description: 'Hacking involves using technical skills to break into computer systems and access sensitive data.'
+Title: "Hacking"
+Description: "Hacking involves using technical skills to break into computer systems and access sensitive data."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Conceptual'
-  - 'Cybersecurity'
-  - 'Ethical Hacking'
+  - "Conceptual"
+  - "Cybersecurity"
+  - "Ethical Hacking"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-php"
+  - "paths/computer-science"
+  - "paths/design-databases-with-postgresql"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-hacking/" />

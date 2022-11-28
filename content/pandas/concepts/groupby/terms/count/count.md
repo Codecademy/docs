@@ -1,15 +1,15 @@
 ---
-Title: '.count()'
-Description: 'Produces a new Series or DataFrame with counts of the values for each group in a GroupBy object.'
+Title: ".count()"
+Description: "Produces a new Series or DataFrame with counts of the values for each group in a GroupBy object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.count()`** method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with counts of the values for each group in a in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.

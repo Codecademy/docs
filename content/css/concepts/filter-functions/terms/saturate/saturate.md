@@ -1,17 +1,17 @@
 ---
-Title: 'saturate()'
-Description: 'Increase or decrease the intensity of the color of the element it is applied to.'
+Title: "saturate()"
+Description: "Increase or decrease the intensity of the color of the element it is applied to."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Functions'
-  - 'Colors'
+  - "Images"
+  - "Functions"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Increase or decrease the intensity of the color of the element it is applied to.

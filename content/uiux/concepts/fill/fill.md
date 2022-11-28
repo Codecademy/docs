@@ -1,14 +1,14 @@
 ---
-Title: 'Fill'
-Description: 'Fill refers to the color or image that is applied within the bounds of a layer.'
+Title: "Fill"
+Description: "Fill refers to the color or image that is applied within the bounds of a layer."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Fills** refer to the color or image that is applied within a layer's bounds. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), a layer can have one fill, multiple fills, or no fill. Generally, the default fill is a solid color with 100% [opacity](https://codecademy.com/resources/docs/uiux/opacity). Fill settings can be adjusted in the [color picker](https://codecademy.com/resources/docs/uiux/color-picker).

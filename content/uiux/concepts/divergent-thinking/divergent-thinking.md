@@ -1,14 +1,14 @@
 ---
-Title: 'Divergent Thinking'
-Description: 'Divergent thinking is a creative mode of thinking that explores many possible solutions and seeks to generate novel ideas.'
+Title: "Divergent Thinking"
+Description: "Divergent thinking is a creative mode of thinking that explores many possible solutions and seeks to generate novel ideas."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Divergent thinking** is a creative mode of thinking that explores many possible solutions and seeks to generate novel ideas.

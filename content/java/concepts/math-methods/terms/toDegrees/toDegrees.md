@@ -1,16 +1,16 @@
 ---
-Title: '.toDegrees()'
-Description: 'Returns an angle measurement converted from radians to degrees.'
+Title: ".toDegrees()"
+Description: "Returns an angle measurement converted from radians to degrees."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.toDegrees()`** method converts an angle, measured in radians, to an approximately equivalent angle, measured in degrees.

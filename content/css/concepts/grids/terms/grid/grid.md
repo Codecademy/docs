@@ -1,16 +1,16 @@
 ---
-Title: 'grid'
-Description: 'Shorthand for setting multiple grid property values.'
+Title: "grid"
+Description: "Shorthand for setting multiple grid property values."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Grid'
-  - 'Elements'
-  - 'Properties'
+  - "Grid"
+  - "Elements"
+  - "Properties"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `grid` property is a shorthand for setting the following properties:

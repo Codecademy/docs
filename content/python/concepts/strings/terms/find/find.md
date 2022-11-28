@@ -1,16 +1,16 @@
 ---
 Title: .find()
-Description: 'Takes in a substring (and optionally start/end index), return the index number of the first occurrence of the substring inside a string.'
+Description: "Takes in a substring (and optionally start/end index), return the index number of the first occurrence of the substring inside a string."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
-  - 'Functions'
+  - "Strings"
+  - "Methods"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The `.find()` string method takes in a substring (and optionally start/end index), returns the index number of the first occurrence of the substring inside a string. It is case sensitive.

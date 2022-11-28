@@ -1,15 +1,15 @@
 ---
-Title: 'Docs Repository'
-Description: 'The docs repository is where contributors can view, edit, and propose new content to be published to the Codecademy Docs site.'
+Title: "Docs Repository"
+Description: "The docs repository is where contributors can view, edit, and propose new content to be published to the Codecademy Docs site."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 The content-base where Codecademy Docs is housed is the [**`docs` repository**](https://github.com/Codecademy/docs) (or "repo") on [GitHub](https://www.codecademy.com/resources/docs/general/github). Contributors can view, edit, and propose new content for the repo. After the changes are merged into the repo's `main` branch, they will go live on the [Docs site](https://www.codecademy.com/resources/docs).

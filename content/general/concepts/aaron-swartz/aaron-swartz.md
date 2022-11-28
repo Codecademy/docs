@@ -1,15 +1,15 @@
 ---
-Title: 'Aaron Swartz'
-Description: 'Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py.'
+Title: "Aaron Swartz"
+Description: "Aaron Swartz was an American programmer, writer, entrepreneur, and internet activist involved in the development of the RSS web feed format, Markdown language, Creative Commons organization, and Python web framework web.py."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Markdown'
-  - 'RSS'
+  - "Markdown"
+  - "RSS"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/code-foundations'
+  - "learn-python-3"
+  - "paths/code-foundations"
 ---
 
 ![Aaron Swartz](https://raw.githubusercontent.com/Codecademy/docs/main/media/aaron_swartz.png)

@@ -1,15 +1,15 @@
 ---
-Title: 'log10()'
-Description: 'Returns the base-10 logarithm of the argument.'
+Title: "log10()"
+Description: "Returns the base-10 logarithm of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`log10()`** function returns the base-10 logarithm of the argument.

@@ -1,14 +1,14 @@
 ---
-Title: 'Constructors'
-Description: 'Constructors are like normal methods within the class, but are used to initialize the object of the class.'
+Title: "Constructors"
+Description: "Constructors are like normal methods within the class, but are used to initialize the object of the class."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Constructors'
-  - 'Parameters'
+  - "Constructors"
+  - "Parameters"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Constructors** are like normal methods within the class but are used to initialize the object of the class.

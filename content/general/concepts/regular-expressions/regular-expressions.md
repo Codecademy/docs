@@ -1,17 +1,17 @@
 ---
-Title: 'Regular Expressions'
-Description: 'Regular expressions, often shortened to regex or regexp, is a language used for pattern-matching text content.'
+Title: "Regular Expressions"
+Description: "Regular expressions, often shortened to regex or regexp, is a language used for pattern-matching text content."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
+  - "Regular Expressions"
+  - "Strings"
+  - "Data Types"
+  - "Characters"
 CatalogContent:
-  - 'learn-python-3'
-  - 'learn-java'
+  - "learn-python-3"
+  - "learn-java"
 ---
 
 **Regular expressions**, often shortened to regex or regexp, is a language used for pattern-matching text content. It is implemented in several different programming languages, either directly or through libraries. Languages that implement regular expressions include [Python](https://www.codecademy.com/resources/docs/python), [Java](https://www.codecademy.com/resources/docs/java), [JavaScript](https://www.codecademy.com/resources/docs/javascript), [C](https://www.codecademy.com/resources/docs/c) and [C++](https://www.codecademy.com/resources/docs/cpp). Regular expressions are generally standardized, though some implementations may provide some additions and variations to the basic syntax.

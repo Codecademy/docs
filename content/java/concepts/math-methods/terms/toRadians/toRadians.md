@@ -1,15 +1,15 @@
 ---
-Title: '.toRadians()'
-Description: 'Converts an angle in degrees to an approximately equivalent angle in radians.'
+Title: ".toRadians()"
+Description: "Converts an angle in degrees to an approximately equivalent angle in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.toRadians()`** method returns the measurement of an angle in degrees to an equivalent angle in radians.

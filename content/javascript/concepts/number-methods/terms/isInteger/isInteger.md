@@ -1,15 +1,15 @@
 ---
-Title: '.isInteger()'
-Description: 'Determines whether the passed value is an integer.'
+Title: ".isInteger()"
+Description: "Determines whether the passed value is an integer."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Numbers'
-  - 'Methods'
+  - "Numbers"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `Number.isInteger()` method is a part of the `Number` class in JavaScript.

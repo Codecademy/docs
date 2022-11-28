@@ -1,19 +1,19 @@
 ---
-Title: 'Dunder Methods'
-Description: 'Dunder methods use a special syntax to perform class-specific operations in Python.'
+Title: "Dunder Methods"
+Description: "Dunder methods use a special syntax to perform class-specific operations in Python."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Attributes'
-  - 'Classes'
-  - 'Methods'
-  - 'Objects'
-  - 'OOP'
+  - "Attributes"
+  - "Classes"
+  - "Methods"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 **Double-underscore**, or **"dunder", methods** use a special syntax to perform [class](https://www.codecademy.com/resources/docs/python/classes)-specific operations in Python, including the following:

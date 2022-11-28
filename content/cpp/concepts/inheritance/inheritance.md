@@ -1,16 +1,16 @@
 ---
-Title: 'Inheritance'
-Description: 'Inheritance is the ability to create a new class based on an existing class, starting out with the same existing properties and methods.'
+Title: "Inheritance"
+Description: "Inheritance is the ability to create a new class based on an existing class, starting out with the same existing properties and methods."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Inheritance'
-  - 'Objects'
-  - 'OOP'
+  - "Inheritance"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Inheritance** is the ability to create a new class based on an existing class, starting out with the same existing properties and methods. It is generally used when it's necessary to implement a number of different objects that are all of the same type and share several common characteristics.

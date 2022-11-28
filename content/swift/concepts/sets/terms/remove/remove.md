@@ -1,15 +1,15 @@
 ---
-Title: '.remove()'
-Description: 'Removes and returns a specified element from a set.'
+Title: ".remove()"
+Description: "Removes and returns a specified element from a set."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Sets'
-  - 'Methods'
+  - "Sets"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.remove()`** method removes and returns a specified element from a set.

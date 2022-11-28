@@ -1,17 +1,17 @@
 ---
-Title: '.random()'
-Description: 'Returns a pseudo-random floating-point number between 0 and 1.'
+Title: ".random()"
+Description: "Returns a pseudo-random floating-point number between 0 and 1."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Random'
-  - 'Methods'
-  - 'Functions'
+  - "Random"
+  - "Methods"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.random()` method accepts no parameters and returns a pseudo-random floating-point number between 0.0 and 1.0.

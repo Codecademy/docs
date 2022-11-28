@@ -1,19 +1,19 @@
 ---
-Title: '__init__()'
-Description: 'Initializes a newly created object and is called each time a new class instance is created.'
+Title: "__init__()"
+Description: "Initializes a newly created object and is called each time a new class instance is created."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Attributes'
-  - 'Classes'
-  - 'Methods'
-  - 'Objects'
-  - 'OOP'
+  - "Attributes"
+  - "Classes"
+  - "Methods"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`__init__()`** method initializes a newly created object. It is called each time a new instance of the defined class is created.

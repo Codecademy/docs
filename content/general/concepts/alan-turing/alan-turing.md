@@ -1,14 +1,14 @@
 ---
-Title: 'Alan Turing'
-Description: 'Alan Turing was an English mathematician and computer scientist best known for his work on algorithms, computation, and creating the foundations of theoretical computer science through the development of the Turing machine.'
+Title: "Alan Turing"
+Description: "Alan Turing was an English mathematician and computer scientist best known for his work on algorithms, computation, and creating the foundations of theoretical computer science through the development of the Turing machine."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Artificial Intelligence'
+  - "Artificial Intelligence"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 ![Alan Turing](https://raw.githubusercontent.com/Codecademy/docs/main/media/alan_turing.png)

@@ -1,16 +1,16 @@
 ---
-Title: 'Memoization'
-Description: 'Memoization is a technique that improves the speed of a program by storing any new inputs for future reference, if needed.'
+Title: "Memoization"
+Description: "Memoization is a technique that improves the speed of a program by storing any new inputs for future reference, if needed."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Algorithms'
-  - 'Conceptual'
-  - 'Dynamic Programming'
+  - "Algorithms"
+  - "Conceptual"
+  - "Dynamic Programming"
 CatalogContent:
-  - 'learn-how-to-code'
-  - 'paths/computer-science'
+  - "learn-how-to-code"
+  - "paths/computer-science"
 ---
 
 **Memoization** is a technique that improves the speed of a program by storing any new inputs for future reference, if needed. This cuts down on any repeated computations in the program where the same inputs are being used to return the same result.

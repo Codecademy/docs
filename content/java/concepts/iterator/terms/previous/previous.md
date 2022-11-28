@@ -1,14 +1,14 @@
 ---
-Title: '.previous()'
-Description: 'Returns the previous element from a ListIterator object.'
+Title: ".previous()"
+Description: "Returns the previous element from a ListIterator object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.previous()`** method returns the previous element from a `ListIterator` object.

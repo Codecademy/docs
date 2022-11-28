@@ -1,18 +1,18 @@
 ---
-Title: 'strcpy()'
-Description: 'Copies one string into another string, and returns the newly copied string'
+Title: "strcpy()"
+Description: "Copies one string into another string, and returns the newly copied string"
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
-  - 'Arrays'
-  - 'Functions'
+  - "Strings"
+  - "Data Types"
+  - "Characters"
+  - "Arrays"
+  - "Functions"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`strcpy()`** function copies one string into another string, and returns the newly copied string.

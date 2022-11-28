@@ -1,21 +1,21 @@
 ---
-Title: '__repr__()'
-Description: 'Returns the string representation of the class'
+Title: "__repr__()"
+Description: "Returns the string representation of the class"
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Attributes'
-  - 'Classes'
-  - 'Functions'
-  - 'Methods'
-  - 'Objects'
-  - 'OOP'
-  - 'Strings'
+  - "Attributes"
+  - "Classes"
+  - "Functions"
+  - "Methods"
+  - "Objects"
+  - "OOP"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`__repr__()`** dunder method returns the string representation of the object or class. This overwrites the built-in `repr()` function.

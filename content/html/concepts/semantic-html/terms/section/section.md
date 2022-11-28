@@ -1,15 +1,15 @@
 ---
-Title: '<section>'
-Description: 'Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.'
+Title: "<section>"
+Description: "Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<section>` semantic HTML element defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.

@@ -1,15 +1,15 @@
 ---
-Title: '.floor()'
-Description: 'Returns the largest integer value that is less than or equal to the argument. When the provided value is either an integer, zero, not a number, or positive or negative infinity.'
+Title: ".floor()"
+Description: "Returns the largest integer value that is less than or equal to the argument. When the provided value is either an integer, zero, not a number, or positive or negative infinity."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Documentation'
-  - 'Numbers'
+  - "Documentation"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.floor()`** method returns the largest integer value that is less than or equal to the argument.

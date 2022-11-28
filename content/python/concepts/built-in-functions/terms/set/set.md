@@ -1,17 +1,17 @@
 ---
-Title: 'set()'
-Description: 'Returns a new set based on an optional iterable object such as a list.'
+Title: "set()"
+Description: "Returns a new set based on an optional iterable object such as a list."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - "Collections"
+  - "Functions"
+  - "Methods"
+  - "Sets"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The built-in `set()` function returns a new [set](https://www.codecademy.com/resources/docs/python/sets) based on an optional iterable object such as a [list](https://www.codecademy.com/resources/docs/python/lists)

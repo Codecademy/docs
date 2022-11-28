@@ -1,16 +1,16 @@
 ---
-Title: 'Data Types'
-Description: 'Data types are units of value stored in memory through variables, each with different functionalities and size-ranges.'
+Title: "Data Types"
+Description: "Data types are units of value stored in memory through variables, each with different functionalities and size-ranges."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Booleans'
-  - 'Variable Types'
-  - 'Variables'
+  - "Booleans"
+  - "Variable Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 In C, **data types** are units of value stored in [memory](https://www.codecademy.com/resources/docs/c/memory-management) through [variables](https://www.codecademy.com/resources/docs/c/variables). Different kinds of data types determine their size and functionality.

@@ -1,15 +1,15 @@
 ---
-Title: 'Machine Code'
-Description: 'Machine code (also known as machine language or native code) is a low level programming language in the form of hexadecimal or binary instructions that execute computer programs on the computers CPU.'
+Title: "Machine Code"
+Description: "Machine code (also known as machine language or native code) is a low level programming language in the form of hexadecimal or binary instructions that execute computer programs on the computers CPU."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Memory'
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Machine code** (also known as machine language or native code) is a low level programming language in the form of hexadecimal or binary instructions that execute computer programs on the computers' CPU. Machine code is the lowest level of code which means that it communicates the programs instructions in the form of software directly to the hardware of the computer via the Central Processing Unit (CPU).

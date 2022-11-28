@@ -1,16 +1,16 @@
 ---
-Title: 'Switch'
-Description: 'A switch statement allows the selective execution of one of several blocks of code based on the value of an expression.'
+Title: "Switch"
+Description: "A switch statement allows the selective execution of one of several blocks of code based on the value of an expression."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Comparison'
-  - 'Control Flow'
-  - 'Switch'
+  - "Comparison"
+  - "Control Flow"
+  - "Switch"
 CatalogContent:
-  - 'learn-go'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-go"
+  - "paths/back-end-engineer-career-path"
 ---
 
 A `switch` statement allows the selective execution of one of several blocks of code based on the value of an expression. It can be thought of as an expanded `if ... else` statement, with many potential `if` clauses.

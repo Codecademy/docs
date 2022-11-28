@@ -1,16 +1,16 @@
 ---
-Title: 'Comment'
-Description: 'A comment is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for ourselves or other developers to understand in the future, and they are generally ignored by compilers and interpreters.'
+Title: "Comment"
+Description: "A comment is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for ourselves or other developers to understand in the future, and they are generally ignored by compilers and interpreters."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Comments'
-  - 'Documentation'
-  - 'Best Practices'
+  - "Comments"
+  - "Documentation"
+  - "Best Practices"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/code-foundations'
+  - "learn-python-3"
+  - "paths/code-foundations"
 ---
 
 A **comment** is a note or explanation in the source code of a computer program. They are added with the purpose of making the code easier for ourselves or other developers to understand in the future, and they are generally ignored by compilers and interpreters.

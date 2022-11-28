@@ -1,16 +1,16 @@
 ---
-Title: '.parse()'
-Description: 'Returns a new value taken from a provided JSON string.'
+Title: ".parse()"
+Description: "Returns a new value taken from a provided JSON string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'JSON'
-  - 'Objects'
-  - 'Strings'
+  - "JSON"
+  - "Objects"
+  - "Strings"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `.parse()` method returns a new value taken from a provided JSON string.

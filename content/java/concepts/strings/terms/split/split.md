@@ -1,15 +1,15 @@
 ---
-Title: '.split()'
-Description: 'Splits a string into an array of substrings based on a delimiter pattern.'
+Title: ".split()"
+Description: "Splits a string into an array of substrings based on a delimiter pattern."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
-  - 'Arrays'
+  - "Strings"
+  - "Methods"
+  - "Arrays"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.split()` method takes a string and splits it into an array of substrings based on a pattern delimiter. The pattern provided is a regular expression that will split the original string based on where the pattern is matched in the string.

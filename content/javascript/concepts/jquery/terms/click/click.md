@@ -1,18 +1,18 @@
 ---
-Title: '.click()'
+Title: ".click()"
 Description: 'Attaches an event handler to the "click" event of an HTML element.'
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'DOM'
-  - 'Events'
-  - 'Functions'
-  - 'jQuery'
-  - 'Methods'
+  - "DOM"
+  - "Events"
+  - "Functions"
+  - "jQuery"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`.click()`** method attaches an [event handler](https://www.codecademy.com/resources/docs/javascript/events) to the `"click"` event of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).

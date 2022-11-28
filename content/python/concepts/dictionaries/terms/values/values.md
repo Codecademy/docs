@@ -1,16 +1,16 @@
 ---
-Title: '.values()'
-Description: 'Returns a view of values for a dictionary.'
+Title: ".values()"
+Description: "Returns a view of values for a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.values()` method returns all of its values of a Python dictionary in a view object that will refect any changes to the dictionary values. It takes no arguments.

@@ -1,15 +1,15 @@
 ---
-Title: '.join()'
-Description: 'Delays the flow of execution of a program until the target thread is completely read.'
+Title: ".join()"
+Description: "Delays the flow of execution of a program until the target thread is completely read."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.join()` method delays a program's flow of execution until the target thread has been completely read.

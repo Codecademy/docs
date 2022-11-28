@@ -1,14 +1,14 @@
 ---
-Title: 'UX Honeycomb'
-Description: 'The UX Honeycomb diagram defines &quo;good&quo; UX design as useful, usable, desirable, findable, accessible, credible, and valuable.'
+Title: "UX Honeycomb"
+Description: "The UX Honeycomb diagram defines &quo;good&quo; UX design as useful, usable, desirable, findable, accessible, credible, and valuable."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **UX Honeycomb** diagram, created by designer and information architect [Peter Morville](https://semanticstudios.com/about/), defines "good" UX design as useful, usable, desirable, findable, accessible, credible, and valuable.

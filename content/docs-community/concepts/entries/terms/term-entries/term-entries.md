@@ -1,15 +1,15 @@
 ---
-Title: 'Term Entries'
-Description: 'Refers to a piece of technical content that falls under a given concept, using examples.'
+Title: "Term Entries"
+Description: "Refers to a piece of technical content that falls under a given concept, using examples."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 **Term entries** refer to a piece of technical content that falls under a given concept. These usually include at least one example, and may also include codebyte examples. A list of existing terms for a given concept is usually located towards the bottom of a concept entry.

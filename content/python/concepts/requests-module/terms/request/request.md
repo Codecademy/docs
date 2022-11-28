@@ -1,17 +1,17 @@
 ---
-Title: '.request()'
-Description: 'Sends seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object.'
+Title: ".request()"
+Description: "Sends seven main kinds of request to a web server: get, options, head, post, put, patch, and delete; it can also handle custom HTTP verbs if needed, and returns a response object."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'APIs'
-  - 'HTTP'
-  - 'Queries'
-  - 'Requests'
+  - "Methods"
+  - "APIs"
+  - "HTTP"
+  - "Queries"
+  - "Requests"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The **`.request()`** method sends seven main kinds of request to a web server: `GET`, `OPTIONS`, `HEAD`, `POST`, `PUT`, `PATCH`, and `DELETE`; it can also handle custom HTTP verbs if needed, and returns a response object.

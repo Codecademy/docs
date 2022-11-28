@@ -1,16 +1,16 @@
 ---
-Title: 'Queues'
-Description: 'Queues are container adaptors that store elements in a first-in-first-out order.'
+Title: "Queues"
+Description: "Queues are container adaptors that store elements in a first-in-first-out order."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Queues** are container adaptors that store elements in a first-in-first-out (FIFO) order. Elements inserted into the queue first are removed first.

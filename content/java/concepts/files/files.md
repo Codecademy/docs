@@ -1,15 +1,15 @@
 ---
-Title: 'Files'
-Description: 'Java provides a number of different classes and methods for utilizing files and the file system.'
+Title: "Files"
+Description: "Java provides a number of different classes and methods for utilizing files and the file system."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Files'
-  - 'Methods'
+  - "Classes"
+  - "Files"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Java provides a number of different classes and methods for utilizing files and a computer's file system. They include the `File`, `FileReader`, and `FileWriter` classes (all from the `java.io` package).

@@ -1,15 +1,15 @@
 ---
-Title: 'Random Module'
-Description: 'Python has a random module that is used for working with randomly-generated numbers.'
+Title: "Random Module"
+Description: "Python has a random module that is used for working with randomly-generated numbers."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Modules'
-  - 'Random'
+  - "Modules"
+  - "Random"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 In Python, the built-in [`random` module](https://docs.python.org/3/library/random.html) is used to randomly generate numbers as well as randomly manipulate collections such as [lists](https://www.codecademy.com/resources/docs/python/lists) and [strings](https://www.codecademy.com/resources/docs/python/strings).

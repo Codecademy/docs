@@ -1,17 +1,17 @@
 ---
-Title: 'contrast()'
-Description: 'Defines the contrast on an element.'
+Title: "contrast()"
+Description: "Defines the contrast on an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Functions'
-  - 'Colors'
+  - "Images"
+  - "Functions"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines the contrast on an element.

@@ -1,17 +1,17 @@
 ---
-Title: 'print()'
-Description: 'Prints out the specified argument.'
+Title: "print()"
+Description: "Prints out the specified argument."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Output'
-  - 'Print'
+  - "Functions"
+  - "Methods"
+  - "Output"
+  - "Print"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`print()`** function prints out the specified argument.

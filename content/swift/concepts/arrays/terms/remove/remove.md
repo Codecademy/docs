@@ -1,15 +1,15 @@
 ---
-Title: '.remove()'
-Description: 'Removes an element from an array at a specified index.'
+Title: ".remove()"
+Description: "Removes an element from an array at a specified index."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.remove()`** method removes an element from an array at a specified index.

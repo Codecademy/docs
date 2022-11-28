@@ -1,15 +1,15 @@
 ---
-Title: 'TreeMap'
-Description: 'TreeMaps are structures of key-value pairs that are sorted either by natural ordering of their keys or through a Comparator.'
+Title: "TreeMap"
+Description: "TreeMaps are structures of key-value pairs that are sorted either by natural ordering of their keys or through a Comparator."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Data Structures'
-  - 'Data Types'
-  - 'Collections'
+  - "Data Structures"
+  - "Data Types"
+  - "Collections"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A **`TreeMap`** is an implementation of the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, where its items are stored as key-value pairs and it is sorted either by natural ordering of its keys or through a [Comparator](https://www.codecademy.com/resources/docs/java/comparator).

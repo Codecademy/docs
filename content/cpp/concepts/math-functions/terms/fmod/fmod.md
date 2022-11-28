@@ -1,14 +1,14 @@
 ---
-Title: 'fmod()'
-Description: 'Returns the floating-point remainder of the division of two values, rounded towards zero.'
+Title: "fmod()"
+Description: "Returns the floating-point remainder of the division of two values, rounded towards zero."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`fmod()`** function returns the floating-point remainder of the division of two values (rounded towards zero). It is the extension of the [modulo](https://www.codecademy.com/resources/docs/general/modulo) operation to floating-point numbers.

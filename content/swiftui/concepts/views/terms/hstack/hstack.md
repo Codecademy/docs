@@ -1,17 +1,17 @@
 ---
-Title: 'HStack'
-Description: 'The HStack view is a layout container where elements, or subviews, are arranged in a horizontal line (left-to-right).'
+Title: "HStack"
+Description: "The HStack view is a layout container where elements, or subviews, are arranged in a horizontal line (left-to-right)."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Stacks'
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "Stacks"
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`HStack`** view is a layout container where elements, or subviews, are arranged in a horizontal line (left-to-right).

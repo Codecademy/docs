@@ -1,14 +1,14 @@
 ---
-Title: 'sin()'
-Description: 'Returns the sine of an angle, given in radians, in the range [-1,1].'
+Title: "sin()"
+Description: "Returns the sine of an angle, given in radians, in the range [-1,1]."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`sin()`** function returns the sine of an angle argument, given in radians, in the range [-1,1].

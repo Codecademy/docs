@@ -1,18 +1,18 @@
 ---
-Title: 'GraphQL'
-Description: 'GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.'
+Title: "GraphQL"
+Description: "GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'APIs'
-  - 'Open Source'
-  - 'Queries'
-  - 'Servers'
+  - "APIs"
+  - "Open Source"
+  - "Queries"
+  - "Servers"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/back-end-engineer-career-path'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/back-end-engineer-career-path"
+  - "paths/front-end-engineer-career-path"
 ---
 
 [**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create [APIs](https://www.codecademy.com/resources/docs/general/api) in their own unique way.

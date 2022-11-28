@@ -1,17 +1,17 @@
 ---
-Title: 'Margins'
-Description: 'Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space. css p { border: 1px solid aquamarine; margin: 20px; } '
+Title: "Margins"
+Description: "Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space. css p { border: 1px solid aquamarine; margin: 20px; } "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Margin'
-  - 'Box Model'
-  - 'Properties'
-  - 'Documentation'
+  - "Margin"
+  - "Box Model"
+  - "Properties"
+  - "Documentation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Margin refers to the space directly outside of the box. The margin property is used to specify the size of this space.

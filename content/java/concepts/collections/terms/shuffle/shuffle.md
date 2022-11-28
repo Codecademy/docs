@@ -1,14 +1,14 @@
 ---
-Title: '.shuffle()'
-Description: 'Randomizes the order of elements in a List.'
+Title: ".shuffle()"
+Description: "Randomizes the order of elements in a List."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Data Structures'
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Collections.shuffle()`** method randomizes the order of elements in a `List`.

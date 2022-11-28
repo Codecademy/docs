@@ -1,16 +1,16 @@
 ---
-Title: 'Routing'
-Description: 'Routing is the process of deciding what paths communication signals may take across one or more networks.'
+Title: "Routing"
+Description: "Routing is the process of deciding what paths communication signals may take across one or more networks."
 Subjects:
-  - 'Computer Science'
-  - 'Cybersecurity'
-  - 'Web Development'
+  - "Computer Science"
+  - "Cybersecurity"
+  - "Web Development"
 Tags:
-  - 'Cybersecurity'
-  - 'Networking'
+  - "Cybersecurity"
+  - "Networking"
 CatalogContent:
-  - 'learn/introduction-to-cybersecurity'
-  - 'paths/computer-science'
+  - "learn/introduction-to-cybersecurity"
+  - "paths/computer-science"
 ---
 
 **Routing** is the process of deciding what paths communication signals may take across one or more networks. This process is used in many scenarios related to computer networking, including:

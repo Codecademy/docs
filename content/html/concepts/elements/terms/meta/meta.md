@@ -1,15 +1,15 @@
 ---
-Title: '<meta>'
-Description: 'Represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it.'
+Title: "<meta>"
+Description: "Represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<meta>`** element represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it. The `<meta>` element must be placed inside the [`<head>`](https://www.codecademy.com/resources/docs/html/elements/head) element of the document.

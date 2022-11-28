@@ -1,10 +1,10 @@
 ---
-Title: 'PHP'
-Description: 'PHP is a popular open-source, general-purpose scripting language widely used as a server-side language for creating dynamic web pages.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/php'
+Title: "PHP"
+Description: "PHP is a popular open-source, general-purpose scripting language widely used as a server-side language for creating dynamic web pages."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/language/php"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 ​​<link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-php-used-for/" />

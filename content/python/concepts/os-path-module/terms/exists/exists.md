@@ -1,15 +1,15 @@
 ---
-Title: '.exists()'
-Description: 'Checks whether a given file or folder exists in the diretory of an operating system.'
+Title: ".exists()"
+Description: "Checks whether a given file or folder exists in the diretory of an operating system."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.exists()`** method checks whether a given file or folder exists in the operating system's directory.

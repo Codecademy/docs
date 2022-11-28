@@ -1,16 +1,16 @@
 ---
-Title: 'Strings'
-Description: 'Strings are objects that represent sequences of characters.'
+Title: "Strings"
+Description: "Strings are objects that represent sequences of characters."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Strings'
-  - 'Characters'
-  - 'Data Types'
+  - "Strings"
+  - "Characters"
+  - "Data Types"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Strings** are objects that represent sequences of characters. In C++, the two ways to create strings are with the `string` class or with [C-style](https://www.codecademy.com/resources/docs/c/strings) character strings.

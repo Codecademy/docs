@@ -1,16 +1,16 @@
 ---
-Title: 'Code Editor'
-Description: 'A code editor is a program designed for writing software and utilizing human-readable text to make code easier to parse and understand.'
+Title: "Code Editor"
+Description: "A code editor is a program designed for writing software and utilizing human-readable text to make code easier to parse and understand."
 Subjects:
-  - 'Developer Tools'
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Developer Tools"
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Code Editors'
-  - 'IDE'
+  - "Code Editors"
+  - "IDE"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **code editor** is a program designed for writing software in which developers utilize human-readable text to make code easier to parse and understand. They have built-in knowledge of programming languages, allowing different elements of the code (i.e., variables, keywords, functions, etc.) to appear in different colors and improve readability and analysis by developers.

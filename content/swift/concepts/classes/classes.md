@@ -1,15 +1,15 @@
 ---
-Title: 'Classes'
-Description: 'Classes in Swift define characteristics and behaviors of an object.'
+Title: "Classes"
+Description: "Classes in Swift define characteristics and behaviors of an object."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Classes'
-  - 'Objects'
+  - "Classes"
+  - "Objects"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Classes** serve as a template to define characteristics and behaviors of an object.

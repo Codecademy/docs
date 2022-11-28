@@ -1,18 +1,18 @@
 ---
-Title: 're.match()'
-Description: 'Returns a matching character pattern at the beginning of a given string.'
+Title: "re.match()"
+Description: "Returns a matching character pattern at the beginning of a given string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Characters'
+  - "Regular Expressions"
+  - "Strings"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'practical-data-cleaning'
-  - 'language-parsing'
-  - 'text-preprocessing'
+  - "introduction-to-regular-expressions"
+  - "practical-data-cleaning"
+  - "language-parsing"
+  - "text-preprocessing"
 ---
 
 The `.match()` method returns a matching character pattern at the beginning of a given string.

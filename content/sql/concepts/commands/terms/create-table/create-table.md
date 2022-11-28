@@ -1,18 +1,18 @@
 ---
-Title: 'CREATE TABLE'
-Description: 'Creates a new table within a database.'
+Title: "CREATE TABLE"
+Description: "Creates a new table within a database."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`CREATE TABLE`** command creates a new table within a database.

@@ -1,15 +1,15 @@
 ---
-Title: 'transform-style'
+Title: "transform-style"
 Description: "Specifies if an element's children are positioned in 3D space or flattened."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Positioning'
-  - 'Functions'
+  - "Positioning"
+  - "Functions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `transform-style` property specifies if an element's children are positioned in 3D space or flattened.

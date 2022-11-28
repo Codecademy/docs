@@ -1,17 +1,17 @@
 ---
-Title: '.strftime()'
-Description: 'Returns a time as a string based on one or more formatting codes.'
+Title: ".strftime()"
+Description: "Returns a time as a string based on one or more formatting codes."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'Constants'
+  - "Methods"
+  - "Constants"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `strftime()` function returns a time string based on one or more formatting codes and a time represented as a tuple or `stuct_time` format.

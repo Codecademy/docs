@@ -1,14 +1,14 @@
 ---
-Title: 'Design'
-Description: 'Design is an intentional problem-solving process focused on planning or making something for a specific use or purpose.'
+Title: "Design"
+Description: "Design is an intentional problem-solving process focused on planning or making something for a specific use or purpose."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Design** is an intentional problem-solving process focused on planning or making something for a specific use or purpose.

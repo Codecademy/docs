@@ -1,17 +1,17 @@
 ---
-Title: 'JSON'
-Description: 'JSON is a data format that is readable, writable, and parsable for both humans and machines.'
+Title: "JSON"
+Description: "JSON is a data format that is readable, writable, and parsable for both humans and machines."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'JSON'
-  - 'Objects'
-  - 'Properties'
-  - 'Values'
+  - "JSON"
+  - "Objects"
+  - "Properties"
+  - "Values"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-json" />

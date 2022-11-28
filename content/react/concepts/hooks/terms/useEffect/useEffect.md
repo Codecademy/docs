@@ -1,14 +1,14 @@
 ---
-Title: 'useEffect()'
-Description: 'Takes in a function and an array. The function will be executed after the current render phase finishes and only if the elements inside the array has changed from the previous render.'
+Title: "useEffect()"
+Description: "Takes in a function and an array. The function will be executed after the current render phase finishes and only if the elements inside the array has changed from the previous render."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Components'
-  - 'React'
+  - "Components"
+  - "React"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`useEffect()`** hook takes in a [function](https://www.codecademy.com/resources/docs/javascript/functions) and an [array](https://www.codecademy.com/resources/docs/javascript/arrays). The function will be executed after the current render process finishes and only if the elements inside the array has changed from the previous render.
@@ -50,17 +50,17 @@ useEffect(
 In the following example, the `useEffect()` hook attaches a `'scroll'` listener to the `window` object and removes it with a cleanup function:
 
 ```jsx
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 function PageWrapper() {
   useEffect(() => {
     function scrollHandler() {
-      console.log('Current scroll position is', window.scrollTop);
+      console.log("Current scroll position is", window.scrollTop);
     }
 
-    window.addEventListener('scroll', scrollHandler);
+    window.addEventListener("scroll", scrollHandler);
 
-    return () => window.removeEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
   }, []); // Runs only once when component mounts
 
   return <div>Page content...</div>;

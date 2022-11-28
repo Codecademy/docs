@@ -1,16 +1,16 @@
 ---
-Title: 'FaaS'
-Description: 'Function as a service (FaaS) is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for development and deployment.'
+Title: "FaaS"
+Description: "Function as a service (FaaS) is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for development and deployment."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Cloud'
-  - 'Functions'
-  - 'Development'
-  - 'Infrastructure'
+  - "Cloud"
+  - "Functions"
+  - "Development"
+  - "Infrastructure"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'paths/back-end-engineer-career-path'
+  - "foundations-of-cloud-computing"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Function as a service (FaaS)** is a cloud computing model that offers the ability to develop applications without building and maintaining the typical infrastructure needed for development and deployment. The application functionality is developed and hosted on the cloud. This removes the need for the configuration and maintenance of a [server](https://www.codecademy.com/resources/docs/general/server), resulting in a "serverless" architecture.

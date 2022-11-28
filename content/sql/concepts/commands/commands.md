@@ -1,15 +1,15 @@
 ---
-Title: 'Commands'
-Description: 'SQL operates through declarative statements featuring commands.'
+Title: "Commands"
+Description: "SQL operates through declarative statements featuring commands."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Documentation'
+  - "Functions"
+  - "Documentation"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 SQL operates through declarative statements featuring **commands**.

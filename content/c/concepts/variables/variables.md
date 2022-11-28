@@ -1,15 +1,15 @@
 ---
-Title: 'Variables'
-Description: 'A variable is a location in computer memory used to store data.'
+Title: "Variables"
+Description: "A variable is a location in computer memory used to store data."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Variables'
-  - 'Data Types'
+  - "Variables"
+  - "Data Types"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 A **variable** is a location in computer memory used to store data, usually for use in a program.

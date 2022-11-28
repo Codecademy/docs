@@ -1,18 +1,18 @@
 ---
-Title: '.split()'
-Description: 'Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. '
+Title: ".split()"
+Description: "Converts a string to a list. It takes a specified delimiter and a maximum number of items to split as optional parameters. "
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
-  - 'Functions'
-  - 'Formatting'
+  - "Characters"
+  - "Strings"
+  - "Methods"
+  - "Functions"
+  - "Formatting"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The **`.split()`** method returns a new [list](https://www.codecademy.com/resources/docs/python/lists) of substrings based on a given string.

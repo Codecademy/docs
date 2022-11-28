@@ -1,15 +1,15 @@
 ---
-Title: 'transition-duration'
-Description: 'Specifies how long an elements transition should take to complete. '
+Title: "transition-duration"
+Description: "Specifies how long an elements transition should take to complete. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
+  - "Transitions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`transition-duration`** specifies how long an elements transition should take to complete.

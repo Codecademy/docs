@@ -1,16 +1,16 @@
 ---
-Title: 'Dictionaries'
-Description: 'A dictionary is an unordered collection of paired data referred to as a key and value pair, where the key is used to access its corresponsing value.'
+Title: "Dictionaries"
+Description: "A dictionary is an unordered collection of paired data referred to as a key and value pair, where the key is used to access its corresponsing value."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Dictionaries'
-  - 'Arrays'
-  - 'Variables'
+  - "Dictionaries"
+  - "Arrays"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 A **dictionary** is an unordered collection of paired data or `key: value` pairs.

@@ -1,16 +1,16 @@
 ---
-Title: '.toIntExact()'
-Description: 'Returns the integer value of a long type argument. An exception is thrown if the value of argument overflows that of an int.'
+Title: ".toIntExact()"
+Description: "Returns the integer value of a long type argument. An exception is thrown if the value of argument overflows that of an int."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.toIntExact()`** method returns the integer value of a `long` type. An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the argument's value overflows that of an `int`.

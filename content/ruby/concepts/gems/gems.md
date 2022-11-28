@@ -1,14 +1,14 @@
 ---
-Title: 'Gems'
-Description: 'Gems are open-source Ruby libraries or applications that lend extra utility to other applications.'
+Title: "Gems"
+Description: "Gems are open-source Ruby libraries or applications that lend extra utility to other applications."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Libraries'
+  - "Libraries"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Gems** are open-source Ruby libraries or applications that lend extra utility to other Ruby programs. Each gem is composed of the following:

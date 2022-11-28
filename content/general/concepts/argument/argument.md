@@ -1,16 +1,16 @@
 ---
-Title: 'Argument'
-Description: 'An argument is the actual value of a variable passed into a function.'
+Title: "Argument"
+Description: "An argument is the actual value of a variable passed into a function."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Functions'
-  - 'Parameters'
+  - "Functions"
+  - "Parameters"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An **argument** is the actual value of a variable (aka. the parameter) passed into a function.

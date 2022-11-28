@@ -1,18 +1,18 @@
 ---
-Title: 'npm'
-Description: 'Node Package Manager (npm) is an extensive collection of JavaScript packages to enhance projects and add complex functionality with ease.'
+Title: "npm"
+Description: "Node Package Manager (npm) is an extensive collection of JavaScript packages to enhance projects and add complex functionality with ease."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
-  - 'Web Development'
+  - "Bash/Shell"
+  - "Developer Tools"
+  - "Web Development"
 Tags:
-  - 'Command Line'
-  - 'Node'
-  - 'NPM'
-  - 'Packages'
+  - "Command Line"
+  - "Node"
+  - "NPM"
+  - "Packages"
 CatalogContent:
-  - 'learn-node-js'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-node-js"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **Node Package Manager (npm)** is an extensive collection of JavaScript packages. This makes adding complexity and functionality to JavaScript projects seamless. npm is also the official package manager of [Node.js](https://www.codecademy.com/resources/docs/open-source/node-js). Therefore, if Node.js was previously downloaded, npm is already installed!

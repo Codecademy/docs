@@ -1,18 +1,18 @@
 ---
-Title: 'Classes'
-Description: 'A class is a blueprint or template for an object in Java.'
+Title: "Classes"
+Description: "A class is a blueprint or template for an object in Java."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Data Types'
-  - 'Constructors'
-  - 'Methods'
-  - 'OOP'
+  - "Classes"
+  - "Objects"
+  - "Data Types"
+  - "Constructors"
+  - "Methods"
+  - "OOP"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 In Java, **classes** are blueprints or templates for objects in Java. They detail the general structure and data for an object including information such as properties, attributes, and method behavior.

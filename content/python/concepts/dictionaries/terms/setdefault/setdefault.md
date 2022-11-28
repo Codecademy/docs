@@ -1,16 +1,16 @@
 ---
-Title: '.setdefault()'
-Description: 'Returns the value of a specified key. If the key does not exist, it is inserted with the specified value.'
+Title: ".setdefault()"
+Description: "Returns the value of a specified key. If the key does not exist, it is inserted with the specified value."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.setdefault()` method will return the value of a dictionary entry for a specified key. If the specified key does not exist in the dictionary, it will create an entry for it with the specified value.

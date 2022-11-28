@@ -1,17 +1,17 @@
 ---
-Title: 'AJAX'
-Description: 'AJAX is a technique that allows developers to fetch data without waiting for the page to finish reloading.'
+Title: "AJAX"
+Description: "AJAX is a technique that allows developers to fetch data without waiting for the page to finish reloading."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Events'
-  - 'Promise'
-  - 'Requests'
-  - 'Servers'
+  - "Events"
+  - "Promise"
+  - "Requests"
+  - "Servers"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-ajax/" />
@@ -37,13 +37,13 @@ function requestListener() {
   console.log(this.responseText());
 }
 
-request.addEventListener('load', requestListener);
+request.addEventListener("load", requestListener);
 ```
 
 The next step is to use this object to open a request to a server using the `.open()` method, which accepts two parameters. The first is the [HTTP](https://www.codecademy.com/resources/docs/general/http) request method to use like `GET`, `POST`, and `DELETE`. The second is the resource being fetched, usually a [URL](https://www.codecademy.com/resources/docs/general/url). Then, the request can be sent with the `.send()` method:
 
 ```js
-request.open('GET', 'http://www.example.org/example.txt');
+request.open("GET", "http://www.example.org/example.txt");
 
 // For just retrieving data
 request.send();

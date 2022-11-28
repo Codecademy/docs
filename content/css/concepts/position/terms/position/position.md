@@ -1,16 +1,16 @@
 ---
-Title: 'position'
-Description: 'Defines the location of an element.'
+Title: "position"
+Description: "Defines the location of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Box Model'
-  - 'Positioning'
+  - "Box Model"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines the location of an element.

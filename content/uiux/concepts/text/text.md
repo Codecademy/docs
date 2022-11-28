@@ -1,14 +1,14 @@
 ---
-Title: 'Text'
-Description: 'Text refers to written content that consists of letters, numbers, punctuation, or symbols.'
+Title: "Text"
+Description: "Text refers to written content that consists of letters, numbers, punctuation, or symbols."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Text** is part of many design elements such as [buttons](https://www.codecademy.com/resources/docs/uiux/buttons), menus, modals, [search fields](https://www.codecademy.com/resources/docs/uiux/search-fields), [navigation](https://www.codecademy.com/resources/docs/uiux/navigation), and error messages. With such a wide range of usages, text plays an important role in a user’s experience of a digital product. Users often rely on text to navigate a product and complete their goals. Furthermore, text can impact a user’s emotional state and shape their opinion about the product, brand, or company.

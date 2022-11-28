@@ -1,15 +1,15 @@
 ---
-Title: '<div>'
-Description: 'Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.'
+Title: "<div>"
+Description: "Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<div>`** element represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.

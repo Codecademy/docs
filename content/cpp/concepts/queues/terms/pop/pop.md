@@ -1,16 +1,16 @@
 ---
-Title: '.pop()'
-Description: 'Removes the element at the front of the queue.'
+Title: ".pop()"
+Description: "Removes the element at the front of the queue."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.pop()`** method removes the element at the front of the queue. This will be the oldest element in the queue or the element which was added the earliest.

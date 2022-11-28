@@ -1,15 +1,15 @@
 ---
-Title: '.filter()'
-Description: 'Creates a new array with all elements that pass the test from the provided function.'
+Title: ".filter()"
+Description: "Creates a new array with all elements that pass the test from the provided function."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.filter()` array method creates a new array with all elements that pass the test from the provided function.
@@ -64,13 +64,13 @@ console.log(filterByIndex);
 Filtering out names that don't begin with the given character:
 
 ```js
-const names = ['Jim', 'Bob', 'Sarah', 'Alex', 'James', 'Sam', 'Peter'];
+const names = ["Jim", "Bob", "Sarah", "Alex", "James", "Sam", "Peter"];
 
 const filteredNames = (char, array) => {
   return array.filter((name) => name[0].toLowerCase() === char);
 };
 
-console.log(filteredNames('j', names));
+console.log(filteredNames("j", names));
 // Output: ["Jim", "James"]
 ```
 
@@ -78,19 +78,19 @@ Filtering an array of objects:
 
 ```js
 const kickballPlayers = [
-  { name: 'Jim', team: 'Red' },
-  { name: 'Bob', team: 'Red' },
-  { name: 'Sarah', team: 'Blue' },
-  { name: 'Alex', team: 'Red' },
-  { name: 'James', team: 'Blue' },
-  { name: 'Sam', team: 'Blue' },
-  { name: 'Peter', team: 'Red' },
-  { name: 'Michael', team: 'Red' },
-  { name: 'Kenny', team: 'Blue' },
-  { name: 'Matt', team: 'Blue' },
+  { name: "Jim", team: "Red" },
+  { name: "Bob", team: "Red" },
+  { name: "Sarah", team: "Blue" },
+  { name: "Alex", team: "Red" },
+  { name: "James", team: "Blue" },
+  { name: "Sam", team: "Blue" },
+  { name: "Peter", team: "Red" },
+  { name: "Michael", team: "Red" },
+  { name: "Kenny", team: "Blue" },
+  { name: "Matt", team: "Blue" },
 ];
 
-const redTeam = kickballPlayers.filter((player) => player.team === 'Red');
+const redTeam = kickballPlayers.filter((player) => player.team === "Red");
 
 console.log(redTeam);
 ```

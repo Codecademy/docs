@@ -1,16 +1,16 @@
 ---
-Title: '<i>'
-Description: 'Used to set off HTML text for some reason, as idiomatic, technical, taxonomical and so on. Typically rendered as italic.'
+Title: "<i>"
+Description: "Used to set off HTML text for some reason, as idiomatic, technical, taxonomical and so on. Typically rendered as italic."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
+  - "Elements"
+  - "Tags"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<i>`** element is used to set off HTML text, indicating idiomatic expressions, technical terms, taxonomical designations, and so on. This is commonly illustrated by displaying the text in italics.

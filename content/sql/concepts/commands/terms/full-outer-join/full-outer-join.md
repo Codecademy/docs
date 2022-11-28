@@ -1,20 +1,20 @@
 ---
-Title: 'FULL OUTER JOIN'
-Description: 'Combines rows from different tables even if the JOIN condition is not met.'
+Title: "FULL OUTER JOIN"
+Description: "Combines rows from different tables even if the JOIN condition is not met."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Join'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "Join"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`FULL OUTER JOIN`** command combines matching rows with all rows from both the left- and right-side tables.

@@ -1,14 +1,14 @@
 ---
-Title: 'Attitudinal Research'
-Description: 'Attitudinal research methods focus on self-reported thoughts, beliefs, and needs from users.'
+Title: "Attitudinal Research"
+Description: "Attitudinal research methods focus on self-reported thoughts, beliefs, and needs from users."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Attitudinal research methods** focus on self-reported thoughts, beliefs, and needs from users (i.e. what users say, rather than what they do). Attitudinal research methods can be either [quantitative](https://www.codecademy.com/resources/docs/uiux/quantitative-research) or [qualitative](https://www.codecademy.com/resources/docs/uiux/qualitative-research), and include interviews, focus groups, diary studies, and surveys.

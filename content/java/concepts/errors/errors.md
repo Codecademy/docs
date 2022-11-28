@@ -1,17 +1,17 @@
 ---
-Title: 'Errors'
-Description: 'In Java situations where things might go wrong in the program are predominantly handled by the Error and Exception classes.'
+Title: "Errors"
+Description: "In Java situations where things might go wrong in the program are predominantly handled by the Error and Exception classes."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Errors'
-  - 'Error Handling'
-  - 'Exceptions'
-  - 'Debugging'
+  - "Errors"
+  - "Error Handling"
+  - "Exceptions"
+  - "Debugging"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 In Java, situations where [things might go wrong in the program](https://www.codecademy.com/resources/docs/general/error) are predominantly handled by the following subclasses of the `java.lang.Throwable` class: `Error` and `Exception`.

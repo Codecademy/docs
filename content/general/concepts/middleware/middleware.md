@@ -1,16 +1,16 @@
 ---
-Title: 'Middleware'
-Description: 'Middleware is software that connects data, APIs, software tools, and other applications in order to bring a complete application to the end user.'
+Title: "Middleware"
+Description: "Middleware is software that connects data, APIs, software tools, and other applications in order to bring a complete application to the end user."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'APIs'
-  - 'Database'
-  - 'Middleware'
+  - "APIs"
+  - "Database"
+  - "Middleware"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-sql"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Middleware** is software that connects applications together. The term "middleware" comes from the fact that this software sits between the front-end, or client-side, of an application and the back-end, or server-side, where the resources are being requested.

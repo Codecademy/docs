@@ -1,17 +1,17 @@
 ---
-Title: 'fa-pulse'
-Description: 'Causes any icon to rotate with 8 discrete steps.'
+Title: "fa-pulse"
+Description: "Causes any icon to rotate with 8 discrete steps."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-pulse`** class causes any icon to rotate with 8 discrete steps.

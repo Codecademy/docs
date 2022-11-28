@@ -1,15 +1,15 @@
 ---
-Title: '.sort()'
-Description: 'Sorts elements of any mutable collection in ascending order.'
+Title: ".sort()"
+Description: "Sorts elements of any mutable collection in ascending order."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.sort()`** method is called on any mutable collection and returns its elements sorted in ascending order by default. This means that the element at index zero is less than (`<`) that at index one, the elements at index one is `<` that at index two, and so on.

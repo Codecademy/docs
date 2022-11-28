@@ -1,15 +1,15 @@
 ---
-Title: '.remove()'
-Description: 'Removes a specified element from an ArrayList.'
+Title: ".remove()"
+Description: "Removes a specified element from an ArrayList."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.remove()` method is used for removing specified elements from instances of the `ArrayList` class.

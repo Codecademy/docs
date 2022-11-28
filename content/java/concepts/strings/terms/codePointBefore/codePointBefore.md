@@ -1,14 +1,14 @@
 ---
-Title: '.codePointBefore()'
-Description: 'Returns the Unicode value before the given index in the string.'
+Title: ".codePointBefore()"
+Description: "Returns the Unicode value before the given index in the string."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Returns the Unicode value before the given index in the string.

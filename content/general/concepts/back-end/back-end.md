@@ -1,17 +1,17 @@
 ---
-Title: 'Back-End'
-Description: 'The back-end serves data to the front-end from sources like a database.'
+Title: "Back-End"
+Description: "The back-end serves data to the front-end from sources like a database."
 Subjects:
-  - 'Web Design'
-  - 'Web Development'
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Debugging'
-  - 'Development'
-  - 'Frameworks'
-  - 'Servers'
+  - "Debugging"
+  - "Development"
+  - "Frameworks"
+  - "Servers"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-html"
+  - "paths/back-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-back-end/" />

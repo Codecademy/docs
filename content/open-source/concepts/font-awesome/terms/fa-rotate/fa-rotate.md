@@ -1,17 +1,17 @@
 ---
-Title: 'fa-rotate'
-Description: 'Used to rotate an icon 90, 180, or 270 degrees.'
+Title: "fa-rotate"
+Description: "Used to rotate an icon 90, 180, or 270 degrees."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-rotate`** classes are used to rotate an icon by 90, 180, or 270 degrees.

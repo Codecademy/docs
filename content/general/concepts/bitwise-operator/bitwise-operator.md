@@ -1,15 +1,15 @@
 ---
-Title: 'Bitwise Operator'
-Description: 'Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications.'
+Title: "Bitwise Operator"
+Description: "Bitwise operators are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 **Bitwise operators** are typographic characters used to represent objects that describe operations which can be performed on the most granular level of computing instructions: binary digits. Bitwise operators are used to manipulate these bits in order to facilitate the performance of applications.

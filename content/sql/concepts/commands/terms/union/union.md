@@ -1,19 +1,19 @@
 ---
-Title: 'UNION'
-Description: 'Combines the results of two or more SELECT queries.'
+Title: "UNION"
+Description: "Combines the results of two or more SELECT queries."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`UNION`** command combines the results of two or more [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) queries. When two queries with the same number of columns are joined together with the `UNION` command, the combined results from both queries are returned. `UNION` is placed between the two queries being combined.

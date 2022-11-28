@@ -1,17 +1,17 @@
 ---
-Title: '.valueOf()'
-Description: 'Returns the value of a String object as a string.'
+Title: ".valueOf()"
+Description: "Returns the value of a String object as a string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Objects'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Objects"
+  - "Strings"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.valueOf()`** method returns the [primitive](https://www.codecademy.com/resources/docs/javascript/data-types) value of a `String` object, similar to the `.toString()` method. Usually, this method is called internally by JavaScript.
@@ -31,7 +31,7 @@ The `.valueOf()` method takes no parameters.
 All primitive string values are wrapped in a `String` object (`new String(value)`). In the following example, this primitive value is returned by the `.valueOf()` method:
 
 ```js
-const name = new String('Bill');
+const name = new String("Bill");
 console.log(name);
 console.log(name.valueOf());
 ```

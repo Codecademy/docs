@@ -1,15 +1,15 @@
 ---
-Title: '.capacity()'
-Description: 'Returns the current space available for characters in the StringBuilder.'
+Title: ".capacity()"
+Description: "Returns the current space available for characters in the StringBuilder."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.capacity()`** method returns the current space available for characters in the `StringBuilder`, whereas [`.length()`](https://www.codecademy.com/resources/docs/java/stringbuilder/length) returns the number of characters actually in use.

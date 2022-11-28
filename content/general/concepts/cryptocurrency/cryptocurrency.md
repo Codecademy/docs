@@ -1,15 +1,15 @@
 ---
-Title: 'Cryptocurrency'
-Description: 'Cryptocurrencies are digital assets or tokens secured by cryptography and transferred on decentralized networks based on blockchain technology.'
+Title: "Cryptocurrency"
+Description: "Cryptocurrencies are digital assets or tokens secured by cryptography and transferred on decentralized networks based on blockchain technology."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Blockchain'
-  - 'Cryptocurrency'
+  - "Blockchain"
+  - "Cryptocurrency"
 CatalogContent:
-  - 'introduction-to-blockchain'
-  - 'paths/computer-science'
+  - "introduction-to-blockchain"
+  - "paths/computer-science"
 ---
 
 A **cryptocurrency** is a digital asset or token secured by cryptography. Such assets are transferred on decentralized networks based on blockchain technology.

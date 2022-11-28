@@ -1,16 +1,16 @@
 ---
-Title: 'Access-Control-Allow-Origin'
-Description: 'Determines which requests from other pieces of web content have access to the current resource.'
+Title: "Access-Control-Allow-Origin"
+Description: "Determines which requests from other pieces of web content have access to the current resource."
 Subjects:
-  - 'Code Foundations'
-  - 'Web Development'
+  - "Code Foundations"
+  - "Web Development"
 Tags:
-  - 'Browsers'
-  - 'Requests'
-  - 'World Wide Web'
+  - "Browsers"
+  - "Requests"
+  - "World Wide Web"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **`Access-Control-Allow-Origin`** in a CORS response header that tells which requests from other pieces of web content (and their `origin`s) have access to the current resource and, thus, can be loaded by the browser.

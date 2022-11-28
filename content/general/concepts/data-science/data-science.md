@@ -1,21 +1,21 @@
 ---
-Title: 'Data Science'
-Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data.'
+Title: "Data Science"
+Description: "Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data."
 Subjects:
-  - 'Data Science'
-  - 'Data Visualization'
-  - 'Machine Learning'
+  - "Data Science"
+  - "Data Visualization"
+  - "Machine Learning"
 Tags:
-  - 'Matplotlib'
-  - 'Pandas'
-  - 'NumPy'
-  - 'Database'
-  - 'SQLite'
-  - 'Scikit-learn'
+  - "Matplotlib"
+  - "Pandas"
+  - "NumPy"
+  - "Database"
+  - "SQLite"
+  - "Scikit-learn"
 CatalogContent:
-  - 'paths/data-science'
-  - 'learn-python-3'
-  - 'learn-r'
+  - "paths/data-science"
+  - "learn-python-3"
+  - "learn-r"
 ---
 
 **Data Science** is a multidisciplinary field of study that utilizes data collection, data analysis, and data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.

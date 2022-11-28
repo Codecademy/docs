@@ -1,18 +1,18 @@
 ---
-Title: 'Protocol'
-Description: 'A protocol describes the rules, syntax, and semantics used by two or more devices in a computer network to connect and communicate with each other.'
+Title: "Protocol"
+Description: "A protocol describes the rules, syntax, and semantics used by two or more devices in a computer network to connect and communicate with each other."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Browsers'
-  - 'Requests'
-  - 'Semantic'
-  - 'Syntax'
-  - 'World Wide Web'
+  - "Browsers"
+  - "Requests"
+  - "Semantic"
+  - "Syntax"
+  - "World Wide Web"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A **protocol** describes the rules, syntax, and semantics used by two or more devices in a computer network to connect and communicate with each other.

@@ -1,17 +1,17 @@
 ---
-Title: 'MAX()'
-Description: 'Returns the largest value in a column.'
+Title: "MAX()"
+Description: "Returns the largest value in a column."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'SQLite'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'Functions'
+  - "SQLite"
+  - "PostgreSQL"
+  - "MySQL"
+  - "Functions"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `MAX()` aggregate function takes the name of a column as an argument and returns the largest value in a column.

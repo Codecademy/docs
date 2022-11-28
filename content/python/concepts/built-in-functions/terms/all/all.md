@@ -1,23 +1,23 @@
 ---
-Title: 'all()'
-Description: 'Returns True if every item in an iterable evaluates to True, otherwise, it returns False.'
+Title: "all()"
+Description: "Returns True if every item in an iterable evaluates to True, otherwise, it returns False."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Booleans'
-  - 'Dictionary'
-  - 'Sets'
-  - 'Strings'
-  - 'Lists'
-  - 'Tuples'
-  - 'Iterators'
-  - 'Functions'
-  - 'Logic'
+  - "Booleans"
+  - "Dictionary"
+  - "Sets"
+  - "Strings"
+  - "Lists"
+  - "Tuples"
+  - "Iterators"
+  - "Functions"
+  - "Logic"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Returns `True` if every item in an iterable evaluates to `True`, otherwise, it returns `False`.

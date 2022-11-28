@@ -1,14 +1,14 @@
 ---
-Title: '.hasPrevious()'
-Description: 'Returns true if a ListIterator object has prior elements. Returns false otherwise.'
+Title: ".hasPrevious()"
+Description: "Returns true if a ListIterator object has prior elements. Returns false otherwise."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.hasPevious()`** method returns `true` if a `ListIterator` object has prior elements (i.e., elements before the current element). Returns `false` otherwise.

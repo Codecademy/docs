@@ -1,14 +1,14 @@
 ---
-Title: 'fdim()'
-Description: 'Returns the positive difference between two arguments.'
+Title: "fdim()"
+Description: "Returns the positive difference between two arguments."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`fdim()`** function returns the positive difference between two arguments.

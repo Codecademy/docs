@@ -1,17 +1,17 @@
 ---
-Title: 'Angular'
-Description: 'Angular is a free, open-source framework used for building single-page applications.'
+Title: "Angular"
+Description: "Angular is a free, open-source framework used for building single-page applications."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Angular'
-  - 'Development'
-  - 'Frameworks'
-  - 'Open Source'
+  - "Angular"
+  - "Development"
+  - "Frameworks"
+  - "Open Source"
 CatalogContent:
-  - 'learn-angularjs'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-angularjs"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-angular/" />

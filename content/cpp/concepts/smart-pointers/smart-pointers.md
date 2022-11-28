@@ -1,15 +1,15 @@
 ---
-Title: 'Smart Pointers'
-Description: 'A smart pointer is a class that holds and manages a pointer through RAII.'
+Title: "Smart Pointers"
+Description: "A smart pointer is a class that holds and manages a pointer through RAII."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Pointers'
-  - 'Classes'
+  - "Pointers"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **smart pointer** is a class that holds and manages a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) through a popular C++ technique called "Resource Acquisiton is Initialization" (RAII). It allows developers to not worry about freeing a pointer, and it also allows pointers to be exception-safe.

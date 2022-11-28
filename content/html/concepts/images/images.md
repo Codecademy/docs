@@ -1,15 +1,15 @@
 ---
-Title: 'Images'
-Description: 'While many websites are primarily text, embedding images using HTML within a site allows for more lively pages that can be more attractive and informative to visitors.'
+Title: "Images"
+Description: "While many websites are primarily text, embedding images using HTML within a site allows for more lively pages that can be more attractive and informative to visitors."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Semantic'
+  - "Images"
+  - "Semantic"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 While many websites are primarily text, embedding **images** using HTML within a site allows for more lively pages that can be more attractive and informative to visitors. However, when serving images, there are concerns about the impact on page loading speeds as well as accessibility, so knowledge of how images can be best served to users is critical for good development.

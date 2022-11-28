@@ -1,16 +1,16 @@
 ---
-Title: 'Variables'
-Description: 'Variables store data for later use, and allow their contents to be updated or changed.'
+Title: "Variables"
+Description: "Variables store data for later use, and allow their contents to be updated or changed."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Variables'
-  - 'Data Types'
+  - "Variables"
+  - "Data Types"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 **Variables** store data for later use, and allow their contents to be updated or changed. They're needed when the same code needs to operate on different values at different times. They're also used when the same value is needed at multiple places throughout the code.

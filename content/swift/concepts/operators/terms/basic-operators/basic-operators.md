@@ -1,15 +1,15 @@
 ---
-Title: 'Basic Operators'
-Description: 'Basic operators in Swift are commonly used to evaluate, reassign, and combine values.'
+Title: "Basic Operators"
+Description: "Basic operators in Swift are commonly used to evaluate, reassign, and combine values."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Operators'
-  - 'Values'
+  - "Operators"
+  - "Values"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Basic operators** in Swift are commonly used to evaluate, reassign, and combine values.

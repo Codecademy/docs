@@ -1,20 +1,20 @@
 ---
-Title: '<form>'
-Description: 'Represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.'
+Title: "<form>"
+Description: "Represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Form'
-  - 'HTTP'
-  - 'Input'
-  - 'Interface'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Form"
+  - "HTTP"
+  - "Input"
+  - "Interface"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<form>`** element represents an interface to collect and submit user supplied information. This can include open-ended text inputs, radio buttons, calendar information, and more.

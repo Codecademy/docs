@@ -1,16 +1,16 @@
 ---
-Title: 'Functions'
-Description: 'Functions are blocks of code that perform specific tasks and can be repeatedly called within other parts of the code.'
+Title: "Functions"
+Description: "Functions are blocks of code that perform specific tasks and can be repeatedly called within other parts of the code."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 **Functions** are blocks of code that perform specific tasks and can be repeatedly called within other parts of the code. A function is not called when it is defined, but only when another part of the code executes the function.

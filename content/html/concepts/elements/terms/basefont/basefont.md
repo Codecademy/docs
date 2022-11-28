@@ -1,17 +1,17 @@
 ---
-Title: '<basefont>'
-Description: 'Used to be used to set the font of text. This is now deprecated.'
+Title: "<basefont>"
+Description: "Used to be used to set the font of text. This is now deprecated."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
-  - 'Typography'
+  - "Elements"
+  - "Tags"
+  - "Style"
+  - "Typography"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<basefont>`** element was used to set the default font characteristics for the text of an HTML document. Since it is now deprecated, [CSS](https://www.codecademy.com/resources/docs/css) properties like the [`font` property](https://www.codecademy.com/resources/docs/css/typography/font) should be used instead. To set the font of specific parts of the webpage the [`<font>` element](https://www.codecademy.com/resources/docs/html/elements/font) would be used in combination with the `<basefont>` element.

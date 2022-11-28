@@ -1,15 +1,15 @@
 ---
-Title: 'collections.OrderedDict'
-Description: 'Tracks the order in which items were added.'
+Title: "collections.OrderedDict"
+Description: "Tracks the order in which items were added."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Data Types'
+  - "Dictionaries"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 An **OrderedDict** is a data type in the `collections` module. It is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that tracks the order in which items were added. It offers all the standard dictionary methods as well as two additional methods that deal with the ordering of the `OrderedDict`.

@@ -1,16 +1,16 @@
 ---
-Title: '<object>'
-Description: 'Represents an external resource such as an image, a nested browsing context, or content to be handled by a browser plugin.'
+Title: "<object>"
+Description: "Represents an external resource such as an image, a nested browsing context, or content to be handled by a browser plugin."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Parameters'
+  - "Elements"
+  - "Tags"
+  - "Parameters"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<object>`** element represents some resource external to the HTML document. This resource can be treated as an image, an embedded browsing context, or as content to be handled by a browser plugin.

@@ -1,16 +1,16 @@
 ---
 Title: .randint()
-Description: 'Returns a random integer that exists between two values.'
+Description: "Returns a random integer that exists between two values."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Random'
+  - "Functions"
+  - "Methods"
+  - "Random"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.randint()` method returns a random integer that exists between two `int` values, `int_a` and `int_b` (inclusive), passed as arguments.

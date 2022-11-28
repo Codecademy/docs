@@ -1,15 +1,15 @@
 ---
-Title: 'pip'
-Description: 'pip offers practical ways to install and use pre-made code for Python.'
+Title: "pip"
+Description: "pip offers practical ways to install and use pre-made code for Python."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Command Line'
-  - 'Packages'
+  - "Command Line"
+  - "Packages"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 [**pip**](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager ([npm](https://www.codecademy.com/resources/docs/javascript/npm)) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.

@@ -1,17 +1,17 @@
 ---
-Title: 'IFrames'
-Description: 'An IFrame is an HTML document embedded inside another HTML document on a website. It provides a smaller version of a browser window that contains various media, such as an advertisement or a video.'
+Title: "IFrames"
+Description: "An IFrame is an HTML document embedded inside another HTML document on a website. It provides a smaller version of a browser window that contains various media, such as an advertisement or a video."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Files'
-  - 'Link'
-  - 'Tags'
-  - 'URL'
+  - "Files"
+  - "Link"
+  - "Tags"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An **IFrame (Inline Frame)** is an HTML document embedded inside another HTML document on a website. The [`<iframe>`](https://www.codecademy.com/resources/docs/html/elements/iframe) element provides a smaller version of a browser window that contains various media, such as an advertisement, a YouTube video, etc. Some sites such as Youtube will provide IFrame markup for the user to embed instead of making one on their own.

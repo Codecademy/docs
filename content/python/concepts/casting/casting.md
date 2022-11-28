@@ -1,16 +1,16 @@
 ---
-Title: 'Casting'
-Description: 'Casting, also known as type conversion, is a process that converts the data type of a variable into another data type.'
+Title: "Casting"
+Description: "Casting, also known as type conversion, is a process that converts the data type of a variable into another data type."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Types'
-  - 'Variables'
-  - 'Variable Types'
+  - "Data Types"
+  - "Variables"
+  - "Variable Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Casting, also known as type conversion, is a process that converts a variable's data type into another data type. These conversions can be implicit (automatically interpreted) or explicit (using built-in functions).

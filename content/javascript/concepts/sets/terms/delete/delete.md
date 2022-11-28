@@ -1,16 +1,16 @@
 ---
-Title: '.delete()'
-Description: 'Removes the specified value from the Set and returns a boolean indicating whether or not the deletion was successful.'
+Title: ".delete()"
+Description: "Removes the specified value from the Set and returns a boolean indicating whether or not the deletion was successful."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Sets'
-  - 'Objects'
-  - 'Collections'
+  - "Sets"
+  - "Objects"
+  - "Collections"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.delete()`** method removes a specified value from the `Set` and returns a boolean indicating whether or not the deletion was successful.

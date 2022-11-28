@@ -1,15 +1,15 @@
 ---
-Title: '.toLowerCase()'
-Description: 'Convert a string to lowercase letters.'
+Title: ".toLowerCase()"
+Description: "Convert a string to lowercase letters."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.toLowerCase()` method converts a string to lowercase letters in JavaScript.
@@ -25,7 +25,7 @@ string.toLowerCase();
 Converting uppercase letters to lowercase letters:
 
 ```js
-console.log('HELLO WORLD'.toLowerCase());
+console.log("HELLO WORLD".toLowerCase());
 // Output: hello world
 ```
 

@@ -1,15 +1,15 @@
 ---
-Title: 'animation-direction'
-Description: 'Determines whether an animation runs forward or in reverse on some or all of its cycles.'
+Title: "animation-direction"
+Description: "Determines whether an animation runs forward or in reverse on some or all of its cycles."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Determines whether an animation runs forward or in reverse on some or all of its cycles.

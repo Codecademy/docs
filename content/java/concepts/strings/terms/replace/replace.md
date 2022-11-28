@@ -1,15 +1,15 @@
 ---
-Title: '.replace()'
-Description: 'Returns a new string where all instances of a given value are switched with a new value.'
+Title: ".replace()"
+Description: "Returns a new string where all instances of a given value are switched with a new value."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `String` class' `.replace()` method returns a new string where all instances of a given value are switched with a new value.

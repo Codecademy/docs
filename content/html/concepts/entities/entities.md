@@ -1,15 +1,15 @@
 ---
-Title: 'Entities'
-Description: 'Entities are character sequences placed in the text of an HTML document to print out reserved or other special characters.'
+Title: "Entities"
+Description: "Entities are character sequences placed in the text of an HTML document to print out reserved or other special characters."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Characters'
-  - 'Symbol'
+  - "Characters"
+  - "Symbol"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Entities are character sequences placed in the text of an HTML document to print out reserved characters which may otherwise be interpreted as HTML code by a browser, or other special characters that would be difficult to generate with a typical keyboard. In fact, using reference numbers, an entity can represent any Unicode character. When parsing the HTML, a browser replaces the entity's character sequence with the character it represents.

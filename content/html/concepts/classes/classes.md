@@ -1,16 +1,16 @@
 ---
-Title: 'Classes'
-Description: 'Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. The class attribute is commonly used for assigning styles to one or more elements. Inside the stylesheet, a class name is selected with the following syntax: css .class-name { }  A class selector is a name preceded by a period (.).'
+Title: "Classes"
+Description: "Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes. The class attribute is commonly used for assigning styles to one or more elements. Inside the stylesheet, a class name is selected with the following syntax: css .class-name { }  A class selector is a name preceded by a period (.)."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Attributes'
-  - 'Classes'
-  - 'Style'
+  - "Attributes"
+  - "Classes"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Classes are HTML attributes used to select one or more elements for CSS styling or JavaScript purposes.
@@ -70,7 +70,7 @@ Assuming the markup from the last example is linked to a JavaScript file:
 
 ```js
 window.onload = function () {
-  const subheadings = document.getElementsByClassName('sub-heading');
+  const subheadings = document.getElementsByClassName("sub-heading");
 
   for (let i = 0; i < subheadings.length; i++) {
     subheadings.item(i).innerText = `Sub-heading ${i + 1}`;

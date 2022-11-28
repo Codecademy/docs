@@ -1,16 +1,16 @@
 ---
-Title: 'Anonymous Functions'
-Description: 'Defines a function without a name using the lambda keyword.'
+Title: "Anonymous Functions"
+Description: "Defines a function without a name using the lambda keyword."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The act of defining a function using the `def` keyword binds that function to a name. However, some functions can be defined without giving them a name. Such functions are called "anonymous" and are defined using the [`lambda`](https://www.codecademy.com/resources/docs/python/keywords/lambda) keyword.

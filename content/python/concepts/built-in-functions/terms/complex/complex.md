@@ -1,17 +1,17 @@
 ---
-Title: 'complex()'
-Description: 'Converts a given string into a complex number.'
+Title: "complex()"
+Description: "Converts a given string into a complex number."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Converts a given string into a complex number.

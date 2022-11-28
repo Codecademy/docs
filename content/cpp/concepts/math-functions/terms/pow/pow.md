@@ -1,14 +1,14 @@
 ---
-Title: 'pow()'
-Description: 'Returns the result of a base value raised to the power of an exponent.'
+Title: "pow()"
+Description: "Returns the result of a base value raised to the power of an exponent."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`pow()`** function returns the result of a base value raised to the power of an exponent.

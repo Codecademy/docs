@@ -1,16 +1,16 @@
 ---
-Title: '.println()'
-Description: 'Prints its argument to the console followed by a new line.'
+Title: ".println()"
+Description: "Prints its argument to the console followed by a new line."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Output'
-  - 'Strings'
-  - 'Print'
+  - "Characters"
+  - "Output"
+  - "Strings"
+  - "Print"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.println()`** method prints its argument to the console followed by a new line. It is probably the most common method of displaying output to the console.

@@ -1,17 +1,17 @@
 ---
-Title: '.shuffle()'
-Description: 'Takes a list and randomly re-orders the items.'
+Title: ".shuffle()"
+Description: "Takes a list and randomly re-orders the items."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Random'
+  - "Functions"
+  - "Methods"
+  - "Random"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.shuffle()` method takes a list as a parameter and randomly re-orders the contents in place.

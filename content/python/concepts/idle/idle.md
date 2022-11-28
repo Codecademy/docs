@@ -1,16 +1,16 @@
 ---
-Title: 'IDLE'
-Description: 'IDLE is a cross-platform IDE that has been included with Python since version 1.5.2b1.'
+Title: "IDLE"
+Description: "IDLE is a cross-platform IDE that has been included with Python since version 1.5.2b1."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Command Line'
-  - 'Development'
-  - 'IDE'
+  - "Command Line"
+  - "Development"
+  - "IDE"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The [**Integrated Development Learning Environment (IDLE)**](https://docs.python.org/3/library/idle.html) is a cross-platform [IDE](https://www.codecademy.com/resources/docs/general/ide) that offers a minimal code editing experience. It has been included with Python since version 1.5.2b1.

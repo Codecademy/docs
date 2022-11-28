@@ -1,18 +1,18 @@
 ---
-Title: 'Button'
-Description: 'Allows users to interact with the UI and perform certain actions.'
+Title: "Button"
+Description: "Allows users to interact with the UI and perform certain actions."
 Subjects:
-  - 'Software Development'
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Software Development"
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Buttons'
-  - 'Views'
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Buttons"
+  - "Views"
 CatalogContent:
-  - 'learn-swiftui'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swiftui"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 A **button** is an interactive component in the [user interface (UI)](https://www.codecademy.com/resources/docs/uiux) that allows users to perform certain actions, such as logging into a site or deleting a file.

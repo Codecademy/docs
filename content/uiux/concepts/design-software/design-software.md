@@ -1,14 +1,14 @@
 ---
-Title: 'Design Software'
-Description: 'Design software is useful when creating UI and UX deliverables.'
+Title: "Design Software"
+Description: "Design software is useful when creating UI and UX deliverables."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Design software** is useful when creating user interface (UI) and user experience (UX) deliverables such as [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe), interactive prototypes, [personas](https://www.codecademy.com/resources/docs/uiux/persona), [user journey maps](https://www.codecademy.com/resources/docs/uiux/user-journey-map), and [site maps](https://www.codecademy.com/resources/docs/uiux/site-map), to name a few.

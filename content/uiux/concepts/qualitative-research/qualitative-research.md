@@ -1,14 +1,14 @@
 ---
-Title: 'Qualitative Research'
-Description: 'Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind their experience.'
+Title: "Qualitative Research"
+Description: "Qualitative research methods examine why users behave the way they do in depth, and focus on the motivations and thought processes behind their experience."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Qualitative research methods** examine why users behave the way they do in depth, and focus on the motivations and thought processes behind their experience.

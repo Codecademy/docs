@@ -1,17 +1,17 @@
 ---
-Title: 'float()'
-Description: 'Returns a float value based on a string, numeric data type, or no value at all.'
+Title: "float()"
+Description: "Returns a float value based on a string, numeric data type, or no value at all."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The built-in `float()` function returns a float value based on a [string](https://www.codecademy.com/resources/docs/python/strings), numeric [data type](https://www.codecademy.com/resources/docs/python/data-types), or no value at all.

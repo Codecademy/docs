@@ -1,17 +1,17 @@
 ---
-Title: 'clear'
-Description: 'Specifies whether an element coming after a floated element should be moved down or not.'
+Title: "clear"
+Description: "Specifies whether an element coming after a floated element should be moved down or not."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Clear'
-  - 'Float'
-  - 'Layout'
+  - "Clear"
+  - "Float"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Species whether an element coming after a floated element should be moved down or not.

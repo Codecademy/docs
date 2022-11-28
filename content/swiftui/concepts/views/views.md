@@ -1,15 +1,15 @@
 ---
-Title: 'Views'
-Description: 'Views make up the user interface for an application.'
+Title: "Views"
+Description: "Views make up the user interface for an application."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
+  - "SwiftUI"
+  - "SwiftUI Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Views** make up an application's user interface (UI).

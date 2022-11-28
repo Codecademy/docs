@@ -1,16 +1,16 @@
 ---
-Title: 'File Paths'
-Description: 'A file path describes the location of a file in a web sites folder structure. They are used to link to external files.'
+Title: "File Paths"
+Description: "A file path describes the location of a file in a web sites folder structure. They are used to link to external files."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'File Paths'
-  - 'Files'
-  - 'URL'
+  - "File Paths"
+  - "Files"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A file path describes the location of a file in a web site's folder structure. They are used to link to external files, like:

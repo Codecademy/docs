@@ -1,16 +1,16 @@
 ---
-Title: 'Substrings'
-Description: 'A substring is a sequence of characters that are part of an original string.'
+Title: "Substrings"
+Description: "A substring is a sequence of characters that are part of an original string."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
-  - 'Data Science'
+  - "Code Foundations"
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A substring is a sequence of characters that are part of an original [string](https://www.codecademy.com/resources/docs/python/strings). In Python, substrings can be obtained by using the slicing feature on a string variable. A slice can be made in a specific position within the string or it can be made at the default index.

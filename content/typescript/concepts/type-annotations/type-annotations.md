@@ -1,14 +1,14 @@
 ---
-Title: 'Type Annotations'
-Description: 'TypeScript uses type annotation to explicitly type things such as variables, functions, and classes.'
+Title: "Type Annotations"
+Description: "TypeScript uses type annotation to explicitly type things such as variables, functions, and classes."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Type Annotations'
-  - 'Types'
+  - "Type Annotations"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 TypeScript uses type annotation to explicitly type things such as variables, functions, and classes.
@@ -54,7 +54,7 @@ In the following code snippet, the `date` variable doesn't have an initial value
 ```ts
 let date: Date;
 
-date = new Date('2021-10-31'); // Ok
+date = new Date("2021-10-31"); // Ok
 
 date = 10.31;
 // Error: type 'number' is not assignable to type 'Date'.
@@ -66,6 +66,6 @@ TypeScript type annotations don't get compiled down to the output JavaScript, as
 
 ```ts
 let date;
-genre = new Date('2021-10-31');
+genre = new Date("2021-10-31");
 genre = 10.31;
 ```

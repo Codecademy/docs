@@ -1,16 +1,16 @@
 ---
-Title: '<li>'
-Description: 'Represents a single item in a list of items. It and the other list items must be wrapped in an <ol>, <ul>, or <menu> tag.'
+Title: "<li>"
+Description: "Represents a single item in a list of items. It and the other list items must be wrapped in an <ol>, <ul>, or <menu> tag."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Lists'
-  - 'Tags'
+  - "Elements"
+  - "Lists"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<li>`** element represents a single [list](https://www.codecademy.com/resources/docs/html/lists) item. This element must be wrapped in an `<ol>`, `<ul>`, or `<menu>` element.

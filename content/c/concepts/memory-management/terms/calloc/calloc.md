@@ -1,15 +1,15 @@
 ---
-Title: 'calloc()'
-Description: 'Dynamically allocates an array of memory blocks of a specified type.'
+Title: "calloc()"
+Description: "Dynamically allocates an array of memory blocks of a specified type."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Memory'
-  - 'Memory Management'
+  - "Memory"
+  - "Memory Management"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`calloc()`** function is used to dynamically allocate an [array](https://www.codecademy.com/resources/docs/c/arrays) of memory blocks of a specified type. Each block has a default value of `0`.

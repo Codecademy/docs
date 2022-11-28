@@ -1,16 +1,16 @@
 ---
-Title: '<param>'
-Description: 'Used to pass parameters to a resource defined in an object tag.'
+Title: "<param>"
+Description: "Used to pass parameters to a resource defined in an object tag."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Parameters'
+  - "Elements"
+  - "Tags"
+  - "Parameters"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<param>`** element is used within an [`<object>`](https://www.codecademy.com/resources/docs/html/elements/object) element to pass parameters to the resource it is displaying.

@@ -1,15 +1,15 @@
 ---
-Title: '.replace()'
-Description: 'Switches a substring in a StringBuilder with a specified String and returns the modified object.'
+Title: ".replace()"
+Description: "Switches a substring in a StringBuilder with a specified String and returns the modified object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.replace()`** method switches a substring in a `StringBuilder` with a specified [`String`](https://www.codecademy.com/resources/docs/java/strings) and returns the modified object.

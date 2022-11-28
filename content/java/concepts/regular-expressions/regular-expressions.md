@@ -1,16 +1,16 @@
 ---
-Title: 'Regular Expressions'
-Description: 'Regular expressions are a language used for pattern-matching text content, and they are implemented in Java through the Pattern and Matcher classes.'
+Title: "Regular Expressions"
+Description: "Regular expressions are a language used for pattern-matching text content, and they are implemented in Java through the Pattern and Matcher classes."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Classes'
+  - "Regular Expressions"
+  - "Strings"
+  - "Classes"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Regular expressions are a language used for pattern-matching text content, and they are implemented in Java through the `Pattern` and `Matcher` classes. The `Pattern` class represents a compiled regular expression, while the `Matcher` class uses a `Pattern` to perform operations on text. Multiple `Matcher` instances can use the same `Pattern` instance. Both classes are part of `java.util.regex`.

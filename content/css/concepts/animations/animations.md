@@ -1,15 +1,15 @@
 ---
-Title: 'Animations'
-Description: 'A CSS animation lets an HTML element gradually change from one style to another without using JavaScript. To use CSS animation, some keyframes for the animation must be specified. Keyframes hold what CSS styles the element will have at certain times.'
+Title: "Animations"
+Description: "A CSS animation lets an HTML element gradually change from one style to another without using JavaScript. To use CSS animation, some keyframes for the animation must be specified. Keyframes hold what CSS styles the element will have at certain times."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
-  - 'Elements'
+  - "Animation"
+  - "Elements"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A CSS animation lets an HTML element gradually change from one style to another, without using JavaScript. Any number of CSS properties can be changed, for any amount of times.

@@ -1,15 +1,15 @@
 ---
-Title: 'HashSet'
-Description: 'A HashSet stores a set of items that are unique, unordered, and of a given data type.'
+Title: "HashSet"
+Description: "A HashSet stores a set of items that are unique, unordered, and of a given data type."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Data Structures'
-  - 'Data Types'
-  - 'Collections'
+  - "Data Structures"
+  - "Data Types"
+  - "Collections"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A `HashSet` is used to store an unordered set of unique items of a given [data type](https://www.codecademy.com/resources/docs/java/data-types).

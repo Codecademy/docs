@@ -1,16 +1,16 @@
 ---
-Title: 'Fetch'
-Description: 'Retrieves changes (commits, files, etc.) from another repository or local branch, but does not integrate them.'
+Title: "Fetch"
+Description: "Retrieves changes (commits, files, etc.) from another repository or local branch, but does not integrate them."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
-  - 'Version Control'
+  - "Git"
+  - "GitHub"
+  - "Version Control"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 The **`fetch`** command retrieves changes (commits, files, etc.) from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch), but does not integrate them. This command allows programmers to bring in and review changes made in a central repository into their local machine.

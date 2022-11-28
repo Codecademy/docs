@@ -1,16 +1,16 @@
 ---
-Title: 're.findall()'
-Description: 'Returns a list of every pattern match that occurs in a given string.'
+Title: "re.findall()"
+Description: "Returns a list of every pattern match that occurs in a given string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Strings'
-  - 'Regular Expressions'
-  - 'Characters'
+  - "Strings"
+  - "Regular Expressions"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'paths/computer-science'
+  - "introduction-to-regular-expressions"
+  - "paths/computer-science"
 ---
 
 The `.findall()` method iterates over a string to find a subset of characters that match a specified pattern. It will return a list of every pattern match that occurs in a given string.

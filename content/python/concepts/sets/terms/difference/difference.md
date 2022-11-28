@@ -1,17 +1,17 @@
 ---
-Title: '.difference()'
-Description: 'Returns a new set of objects unique to a given set when compared to others.'
+Title: ".difference()"
+Description: "Returns a new set of objects unique to a given set when compared to others."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - "Collections"
+  - "Functions"
+  - "Methods"
+  - "Sets"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.difference()` method returns a new set of objects unique to a given set when compared to others.

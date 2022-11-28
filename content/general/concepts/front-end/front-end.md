@@ -1,19 +1,19 @@
 ---
-Title: 'Front-End'
-Description: 'The front-end of a website includes elements that the end user interacts with directly.'
+Title: "Front-End"
+Description: "The front-end of a website includes elements that the end user interacts with directly."
 Subjects:
-  - 'Web Design'
-  - 'Web Development'
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Browsers'
-  - 'Debugging'
-  - 'Development'
-  - 'Frameworks'
-  - 'jQuery'
-  - 'Responsive'
+  - "Browsers"
+  - "Debugging"
+  - "Development"
+  - "Frameworks"
+  - "jQuery"
+  - "Responsive"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel=“canonical” href="https://www.codecademy.com/resources/blog/what-is-front-end/" />

@@ -1,16 +1,16 @@
 ---
-Title: '<u>'
-Description: 'Displays HTML text with a non-textual annotation. The default rendering of this is a solid underline.'
+Title: "<u>"
+Description: "Displays HTML text with a non-textual annotation. The default rendering of this is a solid underline."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
+  - "Elements"
+  - "Tags"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<u>`** element is used to mark HTML text to be displayed with a non-textual annotation. The default rendering of this tag is a simple solid underline, but it may be altered using [CSS](https://www.codecademy.com/resources/docs/css).

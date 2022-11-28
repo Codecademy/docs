@@ -1,18 +1,18 @@
 ---
-Title: 'strtok()'
-Description: 'Breaks a C-style string into a series of tokens using a list of delimiters.'
+Title: "strtok()"
+Description: "Breaks a C-style string into a series of tokens using a list of delimiters."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
-  - 'Arrays'
-  - 'Functions'
+  - "Strings"
+  - "Data Types"
+  - "Characters"
+  - "Arrays"
+  - "Functions"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`strtok()`** function breaks a string into a series of tokens using a list of delimiters.

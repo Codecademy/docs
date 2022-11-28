@@ -1,16 +1,16 @@
 ---
-Title: 'Vectors'
-Description: 'A vector is a dynamic list of items that can shrink and grow in size.'
+Title: "Vectors"
+Description: "A vector is a dynamic list of items that can shrink and grow in size."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Vectors'
-  - 'Arrays'
-  - 'Data Structures'
+  - "Vectors"
+  - "Arrays"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **vector** is a dynamic list of items that can shrink and grow in size. It can only store values of the same [data type](https://www.codecademy.com/resources/docs/cpp/data-types).

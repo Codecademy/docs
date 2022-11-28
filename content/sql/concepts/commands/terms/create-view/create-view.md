@@ -1,19 +1,19 @@
 ---
-Title: 'CREATE VIEW'
-Description: 'Creates a virtual table based on a saved query.'
+Title: "CREATE VIEW"
+Description: "Creates a virtual table based on a saved query."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
-  - 'Views'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
+  - "Views"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`CREATE VIEW`** command creates a virtual table based on a saved query. The resulting view can be accessed via a [`SELECT`](https://www.codecademy.com/resources/docs/sql/commands/select) statement, just like a normal table in the database.

@@ -1,16 +1,16 @@
 ---
-Title: 'CSV Files'
-Description: 'R provides functions for manipulating data within CSV files.'
+Title: "CSV Files"
+Description: "R provides functions for manipulating data within CSV files."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'CSV'
-  - 'Files'
-  - 'Data Structures'
+  - "CSV"
+  - "Files"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 Data within **[CSV](https://www.codecademy.com/resources/docs/general/csv) files** can be read and written to using the `read.csv()` and `write.csv()` functions.

@@ -1,17 +1,17 @@
 ---
-Title: 'class'
-Description: 'Used for defining classes in Python.'
+Title: "class"
+Description: "Used for defining classes in Python."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Classes'
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Classes"
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`class`** keyword is used for defining [classes](https://www.codecademy.com/resources/docs/python/classes) in Python.

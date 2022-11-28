@@ -1,16 +1,16 @@
 ---
-Title: 'Memoization'
-Description: 'Memoization can be used to improve performance in JavaScript code.'
+Title: "Memoization"
+Description: "Memoization can be used to improve performance in JavaScript code."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Algorithms'
-  - 'Conceptual'
-  - 'Dynamic Programming'
+  - "Algorithms"
+  - "Conceptual"
+  - "Dynamic Programming"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - "introduction-to-javascript"
+  - "paths/computer-science"
 ---
 
 In JavaScript, [memoization](https://www.codecademy.com/resources/docs/general/memoization) can be used to improve a program's performance.

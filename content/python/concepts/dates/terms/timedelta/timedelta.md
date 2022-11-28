@@ -1,15 +1,15 @@
 ---
-Title: 'datetime.timedelta()'
-Description: 'Returns a duration, resolved to microseconds, that occurs between dates, times, and datetimes.'
+Title: "datetime.timedelta()"
+Description: "Returns a duration, resolved to microseconds, that occurs between dates, times, and datetimes."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `datetime.timedelta()` method returns an object representing a duration, resolved to microseconds, that occurs between [`date`](https://www.codecademy.com/resources/docs/python/dates/date), [`time`](https://www.codecademy.com/resources/docs/python/dates/time), and [`datetime`](https://www.codecademy.com/resources/docs/python/dates/datetime) objects.

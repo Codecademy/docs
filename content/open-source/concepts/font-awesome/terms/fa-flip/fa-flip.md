@@ -1,17 +1,17 @@
 ---
-Title: 'fa-flip'
-Description: 'Used to flip an icon on the horizontal or vertical axis.'
+Title: "fa-flip"
+Description: "Used to flip an icon on the horizontal or vertical axis."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-flip`** classes are used to flip an icon on the horizontal or vertical axis.

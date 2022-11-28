@@ -1,16 +1,16 @@
 ---
-Title: 'Memoization'
-Description: 'Memoization can be used to improve performance in Python code.'
+Title: "Memoization"
+Description: "Memoization can be used to improve performance in Python code."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Algorithms'
-  - 'Conceptual'
-  - 'Dynamic Programming'
+  - "Algorithms"
+  - "Conceptual"
+  - "Dynamic Programming"
 CatalogContent:
-  - 'learn-data-structures-and-algorithms-with-python'
-  - 'paths/computer-science'
+  - "learn-data-structures-and-algorithms-with-python"
+  - "paths/computer-science"
 ---
 
 In Python, [memoization](https://www.codecademy.com/resources/docs/general/memoization) can be used to improve a program's performance.

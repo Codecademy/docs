@@ -1,15 +1,15 @@
 ---
-Title: 'JIT Compilation'
-Description: 'Just-In-Time (JIT) compilation is a system for compiling languages as they are executed, rather than compiling prior to execution.'
+Title: "JIT Compilation"
+Description: "Just-In-Time (JIT) compilation is a system for compiling languages as they are executed, rather than compiling prior to execution."
 Subjects:
-  - 'Developer Tools'
+  - "Developer Tools"
 Tags:
-  - 'Developer Tools'
-  - 'Compilation'
+  - "Developer Tools"
+  - "Compilation"
 CatalogContent:
-  - 'learn-java'
-  - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "introduction-to-javascript"
+  - "paths/computer-science"
 ---
 
 **Just-In-Time (JIT) compilation** is a system for compiling languages as they are executed, rather than compiling prior to execution. In JIT compilation, the compiling happens during [runtime](https://www.codecademy.com/resources/docs/general/runtime).

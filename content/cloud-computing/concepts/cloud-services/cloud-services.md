@@ -1,14 +1,14 @@
 ---
-Title: 'Cloud Services'
-Description: 'There are many different cloud-computing services, but the big three are Microsoft Azure, Amazon Web Services (AWS) and Google Cloud Platform (GCP).'
+Title: "Cloud Services"
+Description: "There are many different cloud-computing services, but the big three are Microsoft Azure, Amazon Web Services (AWS) and Google Cloud Platform (GCP)."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Cloud Computing'
-  - 'Networking'
+  - "Cloud Computing"
+  - "Networking"
 CatalogContent:
-  - 'learn/foundations-of-cloud-computing'
-  - 'paths/back-end-engineer-career-path'
+  - "learn/foundations-of-cloud-computing"
+  - "paths/back-end-engineer-career-path"
 ---
 
 There are many different **cloud-computing services**, but the big three are [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/), and [Google Cloud Platform (GCP)](https://cloud.google.com/). All three offer services to cover the most significant cloud-computing needs:

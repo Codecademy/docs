@@ -1,16 +1,16 @@
 ---
-Title: 'Tim Berners-Lee'
-Description: 'Sir Tim Berners-Lee is an English computer scientist popularly known for his development of the World Wide Web in 1989.'
+Title: "Tim Berners-Lee"
+Description: "Sir Tim Berners-Lee is an English computer scientist popularly known for his development of the World Wide Web in 1989."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'World Wide Web'
-  - 'HTTP'
-  - 'HTML'
+  - "World Wide Web"
+  - "HTTP"
+  - "HTML"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 ![Tim Berners-Lee](https://raw.githubusercontent.com/Codecademy/docs/main/media/tim_berners_lee.png)

@@ -1,15 +1,15 @@
 ---
-Title: 'SSL'
-Description: 'SSL stands for Secure Socket Layer, and is a cryptographic protocol for securing computer networks.'
+Title: "SSL"
+Description: "SSL stands for Secure Socket Layer, and is a cryptographic protocol for securing computer networks."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **SSL** stands for **Secure Socket Layer**, and is a cryptographic protocol for securing computer networks. SSL was deprecated in 1999 and renamed TLS by the [Internet Engineering Task Force](https://www.ietf.org). TLS is essentially an improved version of SSL (it is SSL 3.1) and features a number of improvements that address security concerns that were discovered in the initial and prior implementations of SSL.

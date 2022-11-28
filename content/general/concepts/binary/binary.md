@@ -1,16 +1,16 @@
 ---
-Title: 'Binary'
-Description: 'Binary is a number system of 1s and 0s which serves as a textual representation method for giving instructions to a computers CPU. In computing and telecommunications, binary codes are used for various methods of encoding data such as turning the character strings of source code, into bit strings or instruction sets for the CPU to execute.'
+Title: "Binary"
+Description: "Binary is a number system of 1s and 0s which serves as a textual representation method for giving instructions to a computers CPU. In computing and telecommunications, binary codes are used for various methods of encoding data such as turning the character strings of source code, into bit strings or instruction sets for the CPU to execute."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Binary** is a number system of 1's and 0's which serves as a textual representation method for giving instructions to a computers CPU.

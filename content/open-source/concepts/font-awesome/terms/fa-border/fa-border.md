@@ -1,17 +1,17 @@
 ---
-Title: 'fa-border'
-Description: 'Used to place a border around an icon.'
+Title: "fa-border"
+Description: "Used to place a border around an icon."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-border`** class is used to place a border around an icon. For additional control there are [CSS](https://www.codecademy.com/resources/docs/css) custom properties associated with the border that can be set:

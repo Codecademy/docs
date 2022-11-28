@@ -1,14 +1,14 @@
 ---
-Title: 'Opacity'
-Description: 'Opacity correlates to transparency or the amount of light that passes through an object.'
+Title: "Opacity"
+Description: "Opacity correlates to transparency or the amount of light that passes through an object."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Opacity** correlates to transparency or the amount of light that passes through an object. An object with high opacity has low transparency, meaning little or no light can pass through.

@@ -1,13 +1,13 @@
 ---
-Title: 'About TypeScript'
-Description: 'TypeScript is a typed language that checks to see if JavaScript variables are of the correct type of data before the code is run.'
+Title: "About TypeScript"
+Description: "TypeScript is a typed language that checks to see if JavaScript variables are of the correct type of data before the code is run."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Documentation'
+  - "Documentation"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 [TypeScript](https://www.typescriptlang.org) is a typed language that checks to see if JavaScript variables are of the correct data type before the code is run. It achieves this by using four tools that build on each other in the following order:

@@ -1,17 +1,17 @@
 ---
-Title: 'VStack'
-Description: 'The VStack view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom).'
+Title: "VStack"
+Description: "The VStack view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom)."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Stacks'
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "Stacks"
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`VStack`** view is a layout container where elements, or subviews, are arranged in a vertical line (top-to-bottom).

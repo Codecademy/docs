@@ -1,15 +1,15 @@
 ---
-Title: 'log()'
-Description: 'Returns the natural, base-e logarithm of the argument.'
+Title: "log()"
+Description: "Returns the natural, base-e logarithm of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`log()`** function returns the natural, base-`e` logarithm of the argument. This is the inverse of the [`exp()`](https://www.codecademy.com/resources/docs/cpp/math-functions/exp) function.

@@ -1,17 +1,17 @@
 ---
-Title: 'ZStack'
-Description: 'The ZStack view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front).'
+Title: "ZStack"
+Description: "The ZStack view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front)."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Stacks'
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "Stacks"
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`ZStack`** view is a layout container where elements, or subviews, are arranged as overlaying one another (back-to-front).

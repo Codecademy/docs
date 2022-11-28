@@ -1,15 +1,15 @@
 ---
-Title: 'transition-delay'
-Description: 'Specifies how long an element should wait before beginning a transition. '
+Title: "transition-delay"
+Description: "Specifies how long an element should wait before beginning a transition. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
+  - "Transitions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`transition-delay`** property specifies how long an element should wait before beginning a transition.

@@ -1,15 +1,15 @@
 ---
-Title: 'Modulo'
-Description: 'A modulo operation takes two arguments and returns the remainder of the first argument divided by the second.'
+Title: "Modulo"
+Description: "A modulo operation takes two arguments and returns the remainder of the first argument divided by the second."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Numbers"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 **Modulo** is a mathematical operation that returns the remainder of a division of two arguments. It is available in every programming language.

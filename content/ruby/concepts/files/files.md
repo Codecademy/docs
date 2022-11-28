@@ -1,15 +1,15 @@
 ---
-Title: 'Files'
-Description: 'The File class is used for working with file objects in Ruby. To create a new File object, use the .new() method and pass in a string name for the new file and a mode to indicate which operations can be done to the file. Common modes include: r, r+, w, w+, a, a+.'
+Title: "Files"
+Description: "The File class is used for working with file objects in Ruby. To create a new File object, use the .new() method and pass in a string name for the new file and a mode to indicate which operations can be done to the file. Common modes include: r, r+, w, w+, a, a+."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Files'
-  - 'Classes'
+  - "Files"
+  - "Classes"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `File` class is used for working with file objects in Ruby.

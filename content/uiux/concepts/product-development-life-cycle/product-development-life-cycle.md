@@ -1,14 +1,14 @@
 ---
-Title: 'Product Development Life Cycle'
-Description: 'The Product Development Life Cycle (PDLC) is a cross-functional, iterative process with stages that include brainstorm, define, design, test, and launch.'
+Title: "Product Development Life Cycle"
+Description: "The Product Development Life Cycle (PDLC) is a cross-functional, iterative process with stages that include brainstorm, define, design, test, and launch."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **Product Development Life Cycle (PDLC)** is a cross-functional, iterative process that can be viewed as five stages: brainstorm, define, design, test, and launch.

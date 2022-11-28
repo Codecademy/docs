@@ -1,18 +1,18 @@
 ---
-Title: 'Decorators'
-Description: 'Decorators are a structural design pattern that wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.'
+Title: "Decorators"
+Description: "Decorators are a structural design pattern that wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes."
 Subjects:
-  - 'Web Development'
-  - 'Developer Tools'
+  - "Web Development"
+  - "Developer Tools"
 Tags:
-  - 'Best Practices'
-  - 'Classes'
-  - 'Decorators'
-  - 'Functions'
-  - 'Objects'
+  - "Best Practices"
+  - "Classes"
+  - "Decorators"
+  - "Functions"
+  - "Objects"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Decorators are a structural design pattern which wrap the original object, to add extra functionality dynamically, without modifying the original object. Decorators are usually used to run code before and/or after a function. Thus, they decorate the function with additional functionality, without changing the original function. They can also be used to alter the functionality of methods and classes.

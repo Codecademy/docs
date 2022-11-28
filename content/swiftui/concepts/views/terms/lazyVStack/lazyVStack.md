@@ -1,16 +1,16 @@
 ---
-Title: 'LazyVStack'
-Description: 'A view that arranges its elements in a line that grows vertically, creating items only as needed.'
+Title: "LazyVStack"
+Description: "A view that arranges its elements in a line that grows vertically, creating items only as needed."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`LazyVStack`** view arranges its elements in a line that grows vertically. It has all the properties of a standard [`VStack`](https://www.codecademy.com/resources/docs/swiftui/views/vstack) but it will not create items until it needs to be rendered on screen. This is useful when creating long lists and can allow an app to run smoother and faster.

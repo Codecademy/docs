@@ -1,14 +1,14 @@
 ---
-Title: '.abs()'
-Description: 'Returns the absolute value of the argument.'
+Title: ".abs()"
+Description: "Returns the absolute value of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.abs()`** method returns the absolute value of the argument.

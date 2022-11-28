@@ -1,14 +1,14 @@
 ---
-Title: 'Inheritance'
-Description: 'Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class.'
+Title: "Inheritance"
+Description: "Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from the parent class are passed on to the child class."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Inheritance'
-  - 'OOP'
+  - "Inheritance"
+  - "OOP"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Inheritance is an object-oriented programming (OOP) concept by which the properties and behaviors from a parent class are passed on to a child class.

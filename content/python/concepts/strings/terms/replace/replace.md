@@ -1,16 +1,16 @@
 ---
-Title: '.replace()'
-Description: 'Replace a specific substring with another substring.'
+Title: ".replace()"
+Description: "Replace a specific substring with another substring."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/data-science"
+  - "paths/computer-science"
 ---
 
 Replace a specific substring with another substring.

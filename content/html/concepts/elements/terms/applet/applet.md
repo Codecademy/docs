@@ -1,17 +1,17 @@
 ---
-Title: '<applet>'
-Description: 'Used to embed Java applets in HTML documents but is no longer supported.'
+Title: "<applet>"
+Description: "Used to embed Java applets in HTML documents but is no longer supported."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Obsolete'
+  - "Elements"
+  - "Tags"
+  - "Obsolete"
 CatalogContent:
-  - 'learn-html'
-  - 'learn-java'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "learn-java"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<applet>`** element was used to embed Java applets into an HTML page. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). This tag should no longer be used as browsers no longer support it.

@@ -1,15 +1,15 @@
 ---
-Title: '.datetime()'
-Description: 'Returns a new object with date and time properties.'
+Title: ".datetime()"
+Description: "Returns a new object with date and time properties."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.datetime()` method returns a new object with date and time properties.

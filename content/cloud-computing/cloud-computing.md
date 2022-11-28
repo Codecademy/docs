@@ -1,10 +1,10 @@
 ---
-Title: 'Cloud Computing'
-Description: 'Cloud computing refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/cloud-computing'
+Title: "Cloud Computing"
+Description: "Cloud computing refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/subject/cloud-computing"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'paths/back-end-engineer-career-path'
+  - "foundations-of-cloud-computing"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Cloud computing** refers to an architecture where computing resources and hardware are maintained and managed remotely by an entity other than the user. This is becoming popular with businesses and ubiquitous in personal computing. For example, whenever a person sets up a website on GoDaddy, plays World of Warcraft, or streams a movie on Netflix, they are using a cloud computing solution.

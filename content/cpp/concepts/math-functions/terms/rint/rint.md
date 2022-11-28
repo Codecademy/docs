@@ -1,15 +1,15 @@
 ---
-Title: 'rint()'
-Description: 'Rounds the argument to an integral value using the current rounding direction.'
+Title: "rint()"
+Description: "Rounds the argument to an integral value using the current rounding direction."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`rint()`** function rounds the argument to an integral value using the current rounding direction.

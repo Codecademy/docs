@@ -1,16 +1,16 @@
 ---
-Title: 'del'
-Description: 'Removes an object from the namespace of a Python shell or environment.'
+Title: "del"
+Description: "Removes an object from the namespace of a Python shell or environment."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `del` keyword is used to remove an object from the namespace of a Python shell or environment.

@@ -1,14 +1,14 @@
 ---
-Title: 'Structures'
-Description: 'A structure stores together elements of different data types, including arrays.'
+Title: "Structures"
+Description: "A structure stores together elements of different data types, including arrays."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Structure'
+  - "Structure"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **structure** in C++ stores together data elements under a single name. The data elements, also called data members, can be of different data types.

@@ -1,16 +1,16 @@
 ---
-Title: 'ROUND'
-Description: 'Rounds a value to the nearest integer or to a specific number of decimals if an optional value is provided.'
+Title: "ROUND"
+Description: "Rounds a value to the nearest integer or to a specific number of decimals if an optional value is provided."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Numbers'
+  - "Data Types"
+  - "Integers"
+  - "Numbers"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`ROUND`** command rounds a value to the nearest integer or to a specific number of decimals if an optional value is provided.

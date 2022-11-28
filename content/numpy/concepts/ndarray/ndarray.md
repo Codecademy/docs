@@ -1,17 +1,17 @@
 ---
-Title: 'ndarray'
-Description: 'An ndarray is a multi-dimensional array of items of the same type and size.'
+Title: "ndarray"
+Description: "An ndarray is a multi-dimensional array of items of the same type and size."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 An **`ndarray`** is a multi-dimensional array of items of the same type and size. The number of dimensions and items contained in the array is defined with a [`tuple`](https://www.codecademy.com/resources/docs/python/tuples) of N non-negative integers that specify each dimension's size. An `ndarray` has an associated data-type object which specifies the `dtype` stored in the `ndarray`.

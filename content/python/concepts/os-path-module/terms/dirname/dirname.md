@@ -1,15 +1,15 @@
 ---
-Title: '.dirname()'
-Description: 'Returns the part of the pathname ranging from the start to the last forward-slash.'
+Title: ".dirname()"
+Description: "Returns the part of the pathname ranging from the start to the last forward-slash."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.dirname()`** method returns the part of the pathname ranging from the start to the last forward-slash.

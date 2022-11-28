@@ -1,16 +1,16 @@
 ---
-Title: 'grid-template-columns'
-Description: 'A property that specifies the column structure of a grid container.'
+Title: "grid-template-columns"
+Description: "A property that specifies the column structure of a grid container."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Grid'
-  - 'Layout'
+  - "Grid"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A property that specifies the column structure of a grid container.

@@ -1,16 +1,16 @@
 ---
-Title: '.fromkeys()'
-Description: 'Returns a dictionary with the specified keys.'
+Title: ".fromkeys()"
+Description: "Returns a dictionary with the specified keys."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.fromkeys()` method returns a dictionary with a specified set of keys. It can also initialize the entries with a specified value.

@@ -1,15 +1,15 @@
 ---
-Title: '.tan()'
-Description: 'Returns the tangent of an angle given in radians.'
+Title: ".tan()"
+Description: "Returns the tangent of an angle given in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Function'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Function"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.tan()`** method returns the tangent of an angle given in radians. The function accepts all real numbers _except_ the values where `cos(x)` is equal to zero.

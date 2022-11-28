@@ -1,16 +1,16 @@
 ---
-Title: '<details>'
-Description: 'Encapsulates the <summary> element and any additional details which are only visible when the element is in an open state.'
+Title: "<details>"
+Description: "Encapsulates the <summary> element and any additional details which are only visible when the element is in an open state."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
-  - 'Accessibility'
+  - "Semantic"
+  - "Tags"
+  - "Accessibility"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<details>` semantic HTML element encapsulates the `<summary>` element and any additional elements that are only visible when the `<details>` element is in an open state.

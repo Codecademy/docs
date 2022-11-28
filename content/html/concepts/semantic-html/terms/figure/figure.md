@@ -1,15 +1,15 @@
 ---
-Title: '<figure>'
-Description: 'Encapsulates media such as an image, diagram, or code snippet.'
+Title: "<figure>"
+Description: "Encapsulates media such as an image, diagram, or code snippet."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<figure>` semantic HTML element is used to encapsulate media such as an image, diagram, or code snippet.

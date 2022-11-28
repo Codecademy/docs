@@ -1,17 +1,17 @@
 ---
-Title: 'Data Types'
-Description: 'Swift data types include Int, Float, Double, String, Character, and Bool. It is a type-safe language where variables hold values of a known data type.'
+Title: "Data Types"
+Description: "Swift data types include Int, Float, Double, String, Character, and Bool. It is a type-safe language where variables hold values of a known data type."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Data Types'
-  - 'Booleans'
-  - 'Integers'
-  - 'Strings'
+  - "Data Types"
+  - "Booleans"
+  - "Integers"
+  - "Strings"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 Swift, like all programming languages, designate certain [**data types**](https://www.codecademy.com/resources/docs/general/data-types) that help the operating system and computer hardware allocate memory based on what is going to be stored. These data types include numeric, textual, and logical values.

@@ -1,15 +1,15 @@
 ---
-Title: '.toString()'
-Description: 'Returns a String representation of the character sequence currently in a given StringBuilder.'
+Title: ".toString()"
+Description: "Returns a String representation of the character sequence currently in a given StringBuilder."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.toString()`** method returns a [`String`](https://www.codecademy.com/resources/docs/java/strings) representation of the character sequence currently in a given `StringBuilder`.

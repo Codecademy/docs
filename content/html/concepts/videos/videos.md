@@ -1,15 +1,15 @@
 ---
-Title: 'Videos'
-Description: 'Embedding videos within a site creates more lively and informative pages that are more attractive to visitors.'
+Title: "Videos"
+Description: "Embedding videos within a site creates more lively and informative pages that are more attractive to visitors."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Accessibility'
-  - 'Video'
+  - "Accessibility"
+  - "Video"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Embedding **videos** within a site creates more lively and informative pages that are more attractive to visitors. Similar to serving images, serving video raises concerns on the impact to users due to the higher bandwidth requirements as well as the less accessible nature of the medium.

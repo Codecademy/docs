@@ -1,14 +1,14 @@
 ---
-Title: 'Dennis Ritchie'
-Description: 'Dennis Ritchie was an American computer scientist, the creator of the computer programming language C, and co-creator of the Unix operating system.'
+Title: "Dennis Ritchie"
+Description: "Dennis Ritchie was an American computer scientist, the creator of the computer programming language C, and co-creator of the Unix operating system."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Unix'
+  - "Unix"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 ![Dennis Ritchie, image: Wikimedia Commons](https://raw.githubusercontent.com/Codecademy/docs/main/media/dennis_ritchie.png)

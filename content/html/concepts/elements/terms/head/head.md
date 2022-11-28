@@ -1,15 +1,15 @@
 ---
-Title: '<head>'
-Description: 'Represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include other tags such as <title>, <link>, <style>, and <script>.'
+Title: "<head>"
+Description: "Represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include other tags such as <title>, <link>, <style>, and <script>."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<head>`** element represents a collection of metadata related to the current document. It is an immediate child of the `<html>` element and may include its own child elements such as `<title>`, `<link>`, `<style>`, and `<script>`.

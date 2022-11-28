@@ -1,21 +1,21 @@
 ---
-Title: 'input()'
-Description: 'Prompts the user for data and returns it as a string.'
+Title: "input()"
+Description: "Prompts the user for data and returns it as a string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Input'
-  - 'Methods'
-  - 'Output'
-  - 'Print'
-  - 'Strings'
-  - 'Variables'
+  - "Functions"
+  - "Input"
+  - "Methods"
+  - "Output"
+  - "Print"
+  - "Strings"
+  - "Variables"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The built-in **`input()`** function prompts the user for data that is converted to and returned as a [string](https://www.codecademy.com/resources/docs/python/strings). This function is unique in that the environment creates a field to allow users to enter the value.

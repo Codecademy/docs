@@ -1,16 +1,16 @@
 ---
-Title: 'Server-Side Rendering'
-Description: 'Server-side rendering (SSR) is rendering the content on the server and presenting it to the client when a request is made.'
+Title: "Server-Side Rendering"
+Description: "Server-side rendering (SSR) is rendering the content on the server and presenting it to the client when a request is made."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Web Development'
-  - 'Server-Side Rendering'
-  - 'Computer Science'
+  - "Web Development"
+  - "Server-Side Rendering"
+  - "Computer Science"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Server-side rendering (SSR)** is rendering the content on the server and presenting it to the client when a request is made.

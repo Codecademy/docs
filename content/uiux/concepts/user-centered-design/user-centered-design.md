@@ -1,14 +1,14 @@
 ---
-Title: 'User-Centered Design (UCD)'
-Description: 'User-centered design (UCD) is a design methodology consisting of an iterative process that puts users at the center of product development and involves them in the design from the beginning.'
+Title: "User-Centered Design (UCD)"
+Description: "User-centered design (UCD) is a design methodology consisting of an iterative process that puts users at the center of product development and involves them in the design from the beginning."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **User-centered design (UCD)** is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) consisting of an iterative process that puts users at the center of product development and involves them in the design from the beginning. UCD processes generally involve the following activities: understand, specify, design, and evaluate.

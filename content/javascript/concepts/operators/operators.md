@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'An operator is a special character or series of characters that perform a task in JavaScript.'
+Title: "Operators"
+Description: "An operator is a special character or series of characters that perform a task in JavaScript."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
-  - 'Operators'
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
+  - "Operators"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An **operator** is a special character or series of characters that perform a task in JavaScript.
@@ -99,7 +99,7 @@ These operators compare values and return a [boolean](https://www.codecademy.com
 The following example showcases some of these comparison operators:
 
 ```js
-let tenString = '10';
+let tenString = "10";
 let numberTen = 10;
 
 console.log(tenString == numberTen);

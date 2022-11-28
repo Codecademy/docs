@@ -1,17 +1,17 @@
 ---
-Title: 'Method'
-Description: 'A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program.'
+Title: "Method"
+Description: "A method is a small piece of code, usually defined in a class, that can be used outside the class and in other parts of the program."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Methods'
-  - 'OOP'
+  - "Classes"
+  - "Objects"
+  - "Methods"
+  - "OOP"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Classes can be broken into two core parts:

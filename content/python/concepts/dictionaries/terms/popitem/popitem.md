@@ -1,16 +1,16 @@
 ---
-Title: '.popitem()'
-Description: 'Returns the last inserted key-value pair from a dictionary as a tuple, and removes the entry.'
+Title: ".popitem()"
+Description: "Returns the last inserted key-value pair from a dictionary as a tuple, and removes the entry."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.popitem()` method of a Python dictionary returns the last inserted key-value pair from a dictionary as a [tuple](https://www.codecademy.com/resources/docs/python/tuples) and removes the entry. It takes no arguments.

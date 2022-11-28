@@ -1,16 +1,16 @@
 ---
-Title: 'getwd()'
-Description: 'Returns the current working directory.'
+Title: "getwd()"
+Description: "Returns the current working directory."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
-  - 'Functions'
-  - 'Methods'
+  - "Files"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`getwd()`** function returns the current working directory as an absolute [file path](https://www.codecademy.com/resources/docs/general/file-paths). Otherwise, it returns `NULL` if a directory is not found.

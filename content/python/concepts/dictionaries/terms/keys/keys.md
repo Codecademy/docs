@@ -1,16 +1,16 @@
 ---
-Title: '.keys()'
-Description: 'Returns a list of keys for a dictionary.'
+Title: ".keys()"
+Description: "Returns a list of keys for a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.keys()` method of a Python dictionary returns list of its keys. It takes no arguments.

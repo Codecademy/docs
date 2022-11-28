@@ -1,14 +1,14 @@
 ---
-Title: 'Video'
-Description: 'A video is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images.'
+Title: "Video"
+Description: "A video is a recording of moving images. Music, dialogue, sound effects, or other auditory content may accompany the moving images."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 There are different methods to make **videos** such as recording footage, capturing a screencast, or using software to create animations.

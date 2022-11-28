@@ -1,14 +1,14 @@
 ---
-Title: 'tanh()'
-Description: 'Returns the hyperbolic tangent of an angle given in radians.'
+Title: "tanh()"
+Description: "Returns the hyperbolic tangent of an angle given in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`Math.tanh()`** function returns the hyperbolic tangent of an angle given in radians.

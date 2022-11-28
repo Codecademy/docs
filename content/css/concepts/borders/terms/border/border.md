@@ -1,16 +1,16 @@
 ---
-Title: 'border'
-Description: 'Shorthand property that sets different properties for an elements border in a single declaration.'
+Title: "border"
+Description: "Shorthand property that sets different properties for an elements border in a single declaration."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Borders'
-  - 'Box Model'
+  - "Borders"
+  - "Box Model"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Shorthand property that sets different properties for an elements border in a single declaration.

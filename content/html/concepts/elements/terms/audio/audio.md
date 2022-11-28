@@ -1,15 +1,15 @@
 ---
-Title: '<audio>'
-Description: 'Represents an interface for adding audio content to the page.'
+Title: "<audio>"
+Description: "Represents an interface for adding audio content to the page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Represents an interface for adding audio content to the page.

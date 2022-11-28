@@ -1,14 +1,14 @@
 ---
-Title: 'Homepage'
-Description: 'The homepage is typically the first page a user arrives on when navigating to a website or digital interface.'
+Title: "Homepage"
+Description: "The homepage is typically the first page a user arrives on when navigating to a website or digital interface."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 The **homepage** is typically the first page a user lands on when [navigating](https://www.codecademy.com/resources/docs/uiux/navigation) to a website or digital interface. As a result, this provides a unique opportunity to make a first impression.

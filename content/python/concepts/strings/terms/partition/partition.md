@@ -1,17 +1,17 @@
 ---
-Title: '.partition()'
-Description: 'Searches a string for a given keyword and splits that string into a three part tuple.'
+Title: ".partition()"
+Description: "Searches a string for a given keyword and splits that string into a three part tuple."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
-  - 'Functions'
-  - 'Tuples'
+  - "Strings"
+  - "Methods"
+  - "Functions"
+  - "Tuples"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 Searches a string for a given keyword and splits that string into a three part tuple.

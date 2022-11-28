@@ -1,15 +1,15 @@
 ---
-Title: 'Elements'
-Description: 'An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag.'
+Title: "Elements"
+Description: "An HTML element is a piece of content in an HTML document. It is everything from the opening tag to the closing tag."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Attributes'
+  - "Elements"
+  - "Attributes"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An HTML element is a piece of content in an HTML document.

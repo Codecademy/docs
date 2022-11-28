@@ -1,16 +1,16 @@
 ---
-Title: 'reduce()'
-Description: 'Returns an aggregated value that results from the application of a passed function to each item in an iterable.'
+Title: "reduce()"
+Description: "Returns an aggregated value that results from the application of a passed function to each item in an iterable."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `reduce()` function returns an aggregated value that results from the application of a function to an iterable. The function is applied to the first pair of items in the iterable and the resulting value is then used with the next item in the sequence, this process repeats through item n.

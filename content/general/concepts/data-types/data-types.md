@@ -1,16 +1,16 @@
 ---
-Title: 'Data Types'
-Description: 'Data is classified into data types that tell the compiler how the data is intended to be used.'
+Title: "Data Types"
+Description: "Data is classified into data types that tell the compiler how the data is intended to be used."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Data Structures'
-  - 'Data Types'
-  - 'Types'
+  - "Data Structures"
+  - "Data Types"
+  - "Types"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 Data is foundational in programming and is classified into different types to indicate how it can be interpreted, compiled, and used in software. For the most part, **data types** are categorized into two groups: primitive or composite values.

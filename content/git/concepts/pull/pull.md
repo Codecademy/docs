@@ -1,16 +1,16 @@
 ---
-Title: 'Pull'
-Description: 'Retrieves and integrates changes from another repository or local branch (often from either a machine or hosting service like GitHub).'
+Title: "Pull"
+Description: "Retrieves and integrates changes from another repository or local branch (often from either a machine or hosting service like GitHub)."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
-  - 'Version Control'
+  - "Git"
+  - "GitHub"
+  - "Version Control"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 The **`pull`** command retrieves and integrates changes from another repository or local [branch](https://www.codecademy.com/resources/docs/git/branch). This command is like a combination of the [`fetch`](https://www.codecademy.com/resources/docs/git/fetch) and [`merge`](https://www.codecademy.com/resources/docs/git/merge) commands and is often used for the following:

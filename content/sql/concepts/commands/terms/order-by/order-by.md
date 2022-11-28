@@ -1,19 +1,19 @@
 ---
-Title: 'ORDER BY'
-Description: 'Sorts the result set by a particular column either alphabetically or numerically.'
+Title: "ORDER BY"
+Description: "Sorts the result set by a particular column either alphabetically or numerically."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`ORDER BY`** command sorts the result set by a particular column either alphabetically or numerically.

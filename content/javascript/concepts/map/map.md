@@ -1,15 +1,15 @@
 ---
-Title: 'Map'
-Description: 'A Map is an object in JavaScript that stores entries of key-value pairs in their original insertion order.'
+Title: "Map"
+Description: "A Map is an object in JavaScript that stores entries of key-value pairs in their original insertion order."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Map'
-  - 'Object'
+  - "Map"
+  - "Object"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A `Map` is an object in JavaScript that stores entries of key-value pairs in their original insertion order.
@@ -32,9 +32,9 @@ To create a non-empty `Map` object, an array of arrays is passed into `Map()`. E
 
 ```js
 const hogwartsStudents = new Map([
-  ['Gryffindor', 'Harry Potter'],
-  ['Slytherin', 'Draco Malfoy'],
-  ['Hufflepuff', 'Cedric Diggory'],
+  ["Gryffindor", "Harry Potter"],
+  ["Slytherin", "Draco Malfoy"],
+  ["Hufflepuff", "Cedric Diggory"],
 ]);
 
 console.log(hogwartsStudents);

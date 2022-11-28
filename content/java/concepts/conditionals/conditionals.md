@@ -1,15 +1,15 @@
 ---
-Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another.'
+Title: "Conditionals"
+Description: "Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, we can tell our program to do one thing — we can even account for false to do another."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Conditionals'
-  - 'Control Flow'
-  - 'Switch'
+  - "Conditionals"
+  - "Control Flow"
+  - "Switch"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Conditionals** take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another.

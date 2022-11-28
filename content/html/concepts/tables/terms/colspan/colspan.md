@@ -1,16 +1,16 @@
 ---
-Title: 'colspan'
-Description: 'Specifies the number of columns a cell should span.'
+Title: "colspan"
+Description: "Specifies the number of columns a cell should span."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tables'
-  - 'Elements'
-  - 'Web Development'
+  - "Tables"
+  - "Elements"
+  - "Web Development"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 [table with a cell that spans two columns]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-colspan.png

@@ -1,14 +1,14 @@
 ---
-Title: '.asin()'
-Description: 'Returns the inverse sine of the argument in radians.'
+Title: ".asin()"
+Description: "Returns the inverse sine of the argument in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.asin()`** method returns the inverse sine (or arcsine) of the argument in radians.

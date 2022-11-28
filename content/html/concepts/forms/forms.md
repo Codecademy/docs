@@ -1,19 +1,19 @@
 ---
-Title: 'Forms'
-Description: 'In HTML, forms are used for gathering and sending user input to an external source for processing.'
+Title: "Forms"
+Description: "In HTML, forms are used for gathering and sending user input to an external source for processing."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Form'
-  - 'HTTP'
-  - 'Input'
-  - 'Interface'
-  - 'Paragraphs'
-  - 'UI'
+  - "Form"
+  - "HTTP"
+  - "Input"
+  - "Interface"
+  - "Paragraphs"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, forms are used for gathering and sending user input to an external source (like a [server](https://www.codecademy.com/resources/docs/general/server)) for processing. This is done with the [`<form>`](https://www.codecademy.com/resources/docs/html/elements/form) tag, which contains various labels and [inputs](https://www.codecademy.com/resources/docs/html/elements/input).

@@ -1,15 +1,15 @@
 ---
-Title: '.removeLast()'
-Description: 'Removes the last element in an array.'
+Title: ".removeLast()"
+Description: "Removes the last element in an array."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.removeLast()`** method removes the last element in an array.

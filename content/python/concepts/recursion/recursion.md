@@ -1,17 +1,17 @@
 ---
-Title: 'Recursion'
-Description: 'Recursion is a technique that allows a function to be broken down and operated on more efficiently.'
+Title: "Recursion"
+Description: "Recursion is a technique that allows a function to be broken down and operated on more efficiently."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
-  - 'Recursion'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
+  - "Recursion"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Functions in Python can call themselves — a concept known as "recursion". Recursion is a technique that allows a function to be broken down and operated on more efficiently.

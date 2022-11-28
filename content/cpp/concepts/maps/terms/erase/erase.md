@@ -1,16 +1,16 @@
 ---
-Title: '.erase()'
-Description: 'Removes an element by key from a map.'
+Title: ".erase()"
+Description: "Removes an element by key from a map."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.erase()`** method removes an element by it's key from a map.

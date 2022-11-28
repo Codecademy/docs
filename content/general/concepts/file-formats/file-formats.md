@@ -1,15 +1,15 @@
 ---
-Title: 'File Formats'
-Description: 'File formats determine how information or data, such as text and images, are created, stored, and read.'
+Title: "File Formats"
+Description: "File formats determine how information or data, such as text and images, are created, stored, and read."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
-  - 'Types'
+  - "Files"
+  - "Types"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'paths/code-foundations'
+  - "learn-the-command-line"
+  - "paths/code-foundations"
 ---
 
 **File formats** determine how information or data, such as text and images, are created, stored, and read. Each file format has a unique extension. For example, a CSV (Comma Separated Values) file has the extension **.csv**.

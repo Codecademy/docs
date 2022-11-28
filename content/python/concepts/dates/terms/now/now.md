@@ -1,15 +1,15 @@
 ---
-Title: '.datetime.now()'
-Description: 'Returns the current date and timestamp.'
+Title: ".datetime.now()"
+Description: "Returns the current date and timestamp."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.datetime.now()` method returns a new `datetime` object with the current local date and timestamp.

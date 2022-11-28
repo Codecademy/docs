@@ -1,16 +1,16 @@
 ---
-Title: '<style>'
-Description: 'Applies CSS styles to an HTML document.'
+Title: "<style>"
+Description: "Applies CSS styles to an HTML document."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
+  - "Elements"
+  - "Tags"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<style>`** element applies [CSS](https://www.codecademy.com/resources/docs/css) rules to an HTML document.

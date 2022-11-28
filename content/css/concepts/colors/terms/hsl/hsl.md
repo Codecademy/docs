@@ -1,18 +1,18 @@
 ---
-Title: 'hsl()'
-Description: 'Defines the color by providing the hue value, saturation value, and the luminance value.'
+Title: "hsl()"
+Description: "Defines the color by providing the hue value, saturation value, and the luminance value."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Color'
-  - 'Functions'
-  - 'Methods'
-  - 'Style'
+  - "Color"
+  - "Functions"
+  - "Methods"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`hsl()`** function defines the hue, saturation, and luminance of an [element's](https://www.codecademy.com/resources/docs/html/elements) color value.

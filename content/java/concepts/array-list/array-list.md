@@ -1,16 +1,16 @@
 ---
-Title: 'ArrayList'
-Description: 'The ArrayList class uses dynamic arrays for storing elements. Conceptually, it is like an array but with no size limit.'
+Title: "ArrayList"
+Description: "The ArrayList class uses dynamic arrays for storing elements. Conceptually, it is like an array but with no size limit."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Classes'
-  - 'Data Structures'
+  - "Arrays"
+  - "Classes"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `ArrayList` class uses dynamic arrays that are resizable, unlike traditional fixed [arrays](https://www.codecademy.com/resources/docs/java/arrays). However, each element must still be of the same type. Elements can be added or removed at any time, making the `ArrayList` more flexible.

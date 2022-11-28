@@ -1,15 +1,15 @@
 ---
-Title: '.isArray()'
-Description: 'Returns true for arrays, otherwise false.'
+Title: ".isArray()"
+Description: "Returns true for arrays, otherwise false."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.isArray()` method returns `true` for arrays, otherwise `false`.

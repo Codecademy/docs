@@ -1,16 +1,16 @@
 ---
-Title: 'Yukihiro Matsumoto'
-Description: 'Yukihiro Matsumoto is a Japanese software programmer and computer scientist widely known as the chief designer of the Ruby programming language.'
+Title: "Yukihiro Matsumoto"
+Description: "Yukihiro Matsumoto is a Japanese software programmer and computer scientist widely known as the chief designer of the Ruby programming language."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Ruby'
-  - 'Ruby'
-  - 'Open Source'
+  - "Ruby"
+  - "Ruby"
+  - "Open Source"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/code-foundations'
+  - "learn-ruby"
+  - "paths/code-foundations"
 ---
 
 ![Yukihiro Matsumoto (Matz)](https://raw.githubusercontent.com/Codecademy/docs/main/media/Yukihiro_Matsumoto.png)

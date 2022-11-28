@@ -1,14 +1,14 @@
 ---
-Title: 'Files'
+Title: "Files"
 Description: 'Computers use file systems to store and retrieve data. Each file is an individual container of related information. The fstream library, short for "file stream", allows us to work with files in C++. To use the fstream library in the C++ program, include both the standard  and the  header files in the C++ program: cpp  There are three classes included in the fstream library, which are used to create, write or read files: - ofstream ("output file stream"): Create files and write to files. - ifstream ("input file stream"): Read from files.'
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Files'
+  - "Files"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Computers use [file systems](https://www.codecademy.com/resources/docs/general/file-system-structure) to store and retrieve data. Each **file** is an individual container of related information.

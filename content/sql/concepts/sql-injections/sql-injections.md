@@ -1,18 +1,18 @@
 ---
-Title: 'SQL Injections'
-Description: 'SQL injection is a technique used to inject malicious code into a database.'
+Title: "SQL Injections"
+Description: "SQL injection is a technique used to inject malicious code into a database."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'SQLite'
-  - 'MySQL'
-  - 'PostgreSQL'
+  - "Database"
+  - "Queries"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 SQL injection is a technique used to introduce unwanted code into a database. This code is malicious and can be sent to a database and run without permission. The result can be anything from bypassing login to data theft or corruption of a database. The code is usually entered when a website or application asks for user input.

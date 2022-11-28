@@ -1,17 +1,17 @@
 ---
-Title: '.index()'
-Description: 'Returns the index of the first occurrence of a specific value in a tuple.'
+Title: ".index()"
+Description: "Returns the index of the first occurrence of a specific value in a tuple."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Index'
-  - 'Tuples'
-  - 'Data Structures'
+  - "Collections"
+  - "Index"
+  - "Tuples"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.index()`** method returns the index of the first occurrence of a specific value in a tuple. Otherwise, an [exception](https://www.codecademy.com/resources/docs/python/errors) is raised.

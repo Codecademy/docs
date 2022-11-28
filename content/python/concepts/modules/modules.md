@@ -1,16 +1,16 @@
 ---
-Title: 'Modules'
-Description: 'A module is a Python file that contains functions, definitions, and statements that can be included in an application.'
+Title: "Modules"
+Description: "A module is a Python file that contains functions, definitions, and statements that can be included in an application."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
-  - 'Scope'
+  - "Libraries"
+  - "Modules"
+  - "Scope"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A **module** is a Python file that contains functions, definitions, and statements that can be included in other files within an application. Technically, all files with the `.py` [format](https://www.codecademy.com/resources/docs/general/file-formats) are modules.

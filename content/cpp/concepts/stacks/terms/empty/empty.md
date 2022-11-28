@@ -1,17 +1,17 @@
 ---
-Title: '.empty()'
-Description: 'Returns true if the stack has no elements.'
+Title: ".empty()"
+Description: "Returns true if the stack has no elements."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
-  - 'Stacks'
+  - "Objects"
+  - "OOP"
+  - "Classes"
+  - "Stacks"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.empty()`** method returns `true` if the `stack` has no elements. Otherwise, it returns `false`.

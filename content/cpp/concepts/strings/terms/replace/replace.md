@@ -1,15 +1,15 @@
 ---
-Title: '.replace()'
-Description: 'Returns a string with a portion replaced by another string.'
+Title: ".replace()"
+Description: "Returns a string with a portion replaced by another string."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.replace()`** method returns a string with a portion replaced by another string, or a portion of another string.

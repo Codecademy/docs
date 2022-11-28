@@ -1,14 +1,14 @@
 ---
-Title: 'Information Architecture'
-Description: 'Information architecture (IA) is the organization, prioritization, and presentation of information within a product, website, and other software applications.'
+Title: "Information Architecture"
+Description: "Information architecture (IA) is the organization, prioritization, and presentation of information within a product, website, and other software applications."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Information architecture (IA)** is the organization, prioritization, and presentation of information within a product, website, and other software applications.

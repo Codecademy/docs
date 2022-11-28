@@ -1,14 +1,14 @@
 ---
-Title: 'Grace Hopper'
-Description: 'Grace Hopper was an American computer scientist who led a decorated career in the United States Navy, becoming one of the first female rear admirals in U.S. history.'
+Title: "Grace Hopper"
+Description: "Grace Hopper was an American computer scientist who led a decorated career in the United States Navy, becoming one of the first female rear admirals in U.S. history."
 Subjects:
-  - 'Computer Science'
-  - 'Developer Tools'
+  - "Computer Science"
+  - "Developer Tools"
 Tags:
-  - 'Errors'
+  - "Errors"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 ![Grace Hopper](https://raw.githubusercontent.com/Codecademy/docs/main/media/grace_hopper.png)

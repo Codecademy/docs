@@ -1,15 +1,15 @@
 ---
-Title: '.length()'
-Description: 'Returns the number of characters contained in a string.'
+Title: ".length()"
+Description: "Returns the number of characters contained in a string."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.length()`** method returns the number of characters contained in a string.

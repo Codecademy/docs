@@ -1,14 +1,14 @@
 ---
-Title: 'Type Aliases'
-Description: 'In TypeScript, type aliases create type definitions, using the `type` keyword and a name, that can be reused throughout the code.'
+Title: "Type Aliases"
+Description: "In TypeScript, type aliases create type definitions, using the `type` keyword and a name, that can be reused throughout the code."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Functions'
-  - 'Types'
+  - "Functions"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In TypeScript, **type aliases** create type definitions that can be reused throughout the code. This is unlike type unions and intersections, where the explicit type information is used repetitively.
@@ -33,7 +33,7 @@ let favoriteNum: myType = {"my favorite number is ", 42}
 ```ts
 type myType = string | number;
 
-let favoriteNum: myType = '42';
+let favoriteNum: myType = "42";
 ```
 
 Later on, whenever the name is used, TypeScript will assume this refers to the aliased value. Type aliases are similar to `interface`s in terms of syntax and behavior. However, a key difference is that an `interface` can have members added later on whereas type aliases can't be changed after being defined.
@@ -46,17 +46,17 @@ In this example, the `StringsIsh` type alias can be used in place of the type un
 type StringsIsh = string | string[] | null | undefined;
 
 function logAllStrings(values: StringsIsh) {
-  if (values === null || typeof values === 'undefined') return;
+  if (values === null || typeof values === "undefined") return;
 
-  if (typeof values === 'string') {
+  if (typeof values === "string") {
     console.log(values);
   } else {
     values.forEach(logAllStrings);
   }
 }
 
-logAllStrings('hello'); // Ok
-logAllStrings(['hello', 'world']); // Also Ok
+logAllStrings("hello"); // Ok
+logAllStrings(["hello", "world"]); // Also Ok
 ```
 
 The first type guard checks to see if `values` matches either `null` or `undefined` in the `StringIsh` type alias. Next, the `if/else`-statement checks for a base case of `values` being of type `string`. Otherwise, it recursively invokes `logAllStrings` again.
@@ -74,6 +74,6 @@ The following `Result<T>` type may contain a value, `T`, or an object containing
 ```ts
 type Result<T> = T | { value: T };
 
-let value: Result<string> = 'hello'; // Ok
-let other: Result<string> = { value: 'world' }; // Also Ok
+let value: Result<string> = "hello"; // Ok
+let other: Result<string> = { value: "world" }; // Also Ok
 ```

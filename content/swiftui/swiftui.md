@@ -1,10 +1,10 @@
 ---
-Title: 'SwiftUI'
-Description: 'SwiftUI is a framework used to build user interfaces for applications within the Apple ecosystem.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/swift'
+Title: "SwiftUI"
+Description: "SwiftUI is a framework used to build user interfaces for applications within the Apple ecosystem."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/language/swift"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **SwiftUI** is a [framework](https://www.codecademy.com/resources/docs/general/framework) used to build user interfaces for iOS 13+, macOS, iPadOS, tvOS, and watchOS applications. It was released by Apple in 2019.

@@ -1,15 +1,15 @@
 ---
-Title: '.shift()'
-Description: 'Removes and returns the first element of the array. All subsequent elements will shift down one place.'
+Title: ".shift()"
+Description: "Removes and returns the first element of the array. All subsequent elements will shift down one place."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Removes and returns the first element of the array. All subsequent elements will shift down one place.
@@ -26,20 +26,20 @@ The following example shows how to shift the `daysOfWeeks` array and remove the 
 
 ```js
 const daysOfWeek = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const removed = daysOfWeek.shift();
 
-console.log('Removed day:', removed);
+console.log("Removed day:", removed);
 
-console.log('Rest of week:', daysOfWeek);
+console.log("Rest of week:", daysOfWeek);
 ```
 
 This will produce the following output:

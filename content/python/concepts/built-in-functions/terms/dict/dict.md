@@ -1,17 +1,17 @@
 ---
-Title: 'dict()'
-Description: 'Initializes a new dictionary from mapping n-number of object (key, value) pairs.'
+Title: "dict()"
+Description: "Initializes a new dictionary from mapping n-number of object (key, value) pairs."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Initializes a new dictionary from mapping n-number of object (key, value) pairs.

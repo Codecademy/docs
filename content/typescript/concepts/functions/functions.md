@@ -1,14 +1,14 @@
 ---
-Title: 'Functions'
-Description: 'With functions, TypeScript infers the types of its parameters as well as any return value.'
+Title: "Functions"
+Description: "With functions, TypeScript infers the types of its parameters as well as any return value."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Functions'
-  - 'Types'
+  - "Functions"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 With **functions**, TypeScript infers the types of its parameters as well as any return value.
@@ -20,15 +20,15 @@ The types of function parameters work similarly to variable declarations. If the
 Here, the `logAgeAndName()` function explicitly declares `age` to be of type `number`, while `name` is inferred to be of type `string` from its default value:
 
 ```ts
-function logAgeAndName(age: number, name = '(anonymous)') {
+function logAgeAndName(age: number, name = "(anonymous)") {
   console.log(`${name}, age ${age}`);
 }
 
-logAgeAndName(16, 'Mulan'); // ok: Mulan, age 16
+logAgeAndName(16, "Mulan"); // ok: Mulan, age 16
 
 logAgeAndName(0); // also ok: (anonymous), age 0
 
-logAgeAndName('Mulan', 16);
+logAgeAndName("Mulan", 16);
 // Argument of type 'string' is not assignable to parameter of type 'number'
 ```
 
@@ -49,7 +49,7 @@ function logFavoriteNumberAndReason(favorite: number, reason?: string) {
   }
 }
 
-logFavoriteNumberAndReason(7, 'an esoteric video game reference'); // Ok
+logFavoriteNumberAndReason(7, "an esoteric video game reference"); // Ok
 logFavoriteNumberAndReason(9001); // Ok
 
 logFavoriteNumberAndReason();
@@ -66,17 +66,17 @@ In this example, the `getRandomFriend()` function is inferred to return a `strin
 function getRandomFriend(fallback: string) {
   switch (Math.floor(Math.random() * 5)) {
     case 0:
-      return 'Josh';
+      return "Josh";
     case 1:
-      return 'Sara';
+      return "Sara";
     case 2:
-      return 'Sonny';
+      return "Sonny";
     default:
       return fallback;
   }
 }
 
-const friend = getRandomFriend('Codey'); // Type: string
+const friend = getRandomFriend("Codey"); // Type: string
 ```
 
 The return type of a function can be declared by adding a type annotation after the `)` right parenthesis following its list of parameters. Doing so can be useful in two situations:
@@ -111,7 +111,7 @@ function withIncrementedValue(receiveNewValue: (newValue: number) => void) {
 }
 
 withIncrementedValue((receivedValue) => {
-  console.log('Got', receivedValue);
+  console.log("Got", receivedValue);
 });
 ```
 

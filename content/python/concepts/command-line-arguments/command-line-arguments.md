@@ -1,17 +1,17 @@
 ---
-Title: 'Command Line Arguments'
-Description: 'Python offers several methods of parsing command line arguments that are used when launching a program.'
+Title: "Command Line Arguments"
+Description: "Python offers several methods of parsing command line arguments that are used when launching a program."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Input'
-  - 'Arguments'
-  - 'Bash/Shell'
-  - 'Command Line'
+  - "Input"
+  - "Arguments"
+  - "Bash/Shell"
+  - "Command Line"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Python offers several methods of parsing **command line arguments** that are used when launching a program. The user has the option of passing various parameters to the program by adding them after the program name. These parameters can be accessed through various modules. The parameter names are left up to the programmer. By convention the parameter `-h` or `--help` (and `/h` and `/help` in Windows) is reserved to print a help message to the console listing the various command line options recognized by the program.

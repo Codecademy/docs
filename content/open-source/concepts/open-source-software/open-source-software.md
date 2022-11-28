@@ -1,15 +1,15 @@
 ---
-Title: 'Open-Source Software'
-Description: 'Open source software is source code that, through licensing, is available for view, modification, and distribution.'
+Title: "Open-Source Software"
+Description: "Open source software is source code that, through licensing, is available for view, modification, and distribution."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Open Source'
-  - 'Development'
+  - "Open Source"
+  - "Development"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 **Open-source software (OSS)** is source code that, through licensing, is available for view, modification, and distribution. Although anyone can contribute to OSS, it is usually maintained by a community of volunteer software developers who collaborate on websites like [GitHub](https://www.codecademy.com/resources/docs/general/github).

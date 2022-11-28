@@ -1,18 +1,18 @@
 ---
-Title: 'DATEADD()'
-Description: 'Returns a date/time interval added to a specified date. Versions are available in SQL Server and MySQL.'
+Title: "DATEADD()"
+Description: "Returns a date/time interval added to a specified date. Versions are available in SQL Server and MySQL."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Date'
-  - 'Queries'
-  - 'SQL Server'
-  - 'MySQL'
+  - "Database"
+  - "Date"
+  - "Queries"
+  - "SQL Server"
+  - "MySQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`DATEADD()`** function in SQL Server and **`DATE_ADD()`** function in MySQL return a date/time interval that is added to a specified date.

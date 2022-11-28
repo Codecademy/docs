@@ -1,17 +1,17 @@
 ---
-Title: '<button>'
-Description: 'Represents a button meant to be clicked by the user.'
+Title: "<button>"
+Description: "Represents a button meant to be clicked by the user."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Interface'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Interface"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<button>`** element represents a [button](https://www.codecademy.com/resources/docs/uiux/button) meant to be clicked by the user.

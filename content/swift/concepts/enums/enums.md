@@ -1,15 +1,15 @@
 ---
-Title: 'Enums'
-Description: 'A collection of set values that can be referenced throughout a program.'
+Title: "Enums"
+Description: "A collection of set values that can be referenced throughout a program."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Enum'
-  - 'Data Types'
+  - "Enum"
+  - "Data Types"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 In Swift, an **enumeration (enum)** is a collection of set values that can be referenced throughout a program.

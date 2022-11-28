@@ -1,16 +1,16 @@
 ---
-Title: 'sprintf()'
-Description: 'Returns a string with a specified formatting.'
+Title: "sprintf()"
+Description: "Returns a string with a specified formatting."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Strings'
-  - 'Functions'
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `sprintf()` function returns a string with the specified formatting. Its parameters include a single format string followed by any number of values to be formatted.

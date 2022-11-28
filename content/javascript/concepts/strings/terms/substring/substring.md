@@ -1,14 +1,14 @@
 ---
-Title: '.substring()'
-Description: 'Returns a part of a string from a given starting index or between start and end index. Index starts at zero.'
+Title: ".substring()"
+Description: "Returns a part of a string from a given starting index or between start and end index. Index starts at zero."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
+  - "paths/front-end-engineer-career-path"
 ---
 
 Return a part of a string from a given starting index or between start and end index. Index starts at zero.
@@ -26,7 +26,7 @@ string.substring(startIndex, endIndex);
 Returning a part of a string from a given starting index:
 
 ```js
-console.log('Do you love JavaScript or Python?'.substring(2));
+console.log("Do you love JavaScript or Python?".substring(2));
 // Output: you love JavaScript or Python?
 ```
 
@@ -35,6 +35,6 @@ console.log('Do you love JavaScript or Python?'.substring(2));
 Returning a part of a string between start and end index:
 
 ```js
-console.log('Do you love JavaScript or Python?'.substring(3, 6));
+console.log("Do you love JavaScript or Python?".substring(3, 6));
 // Output: you
 ```

@@ -1,15 +1,15 @@
 ---
-Title: '.glob()'
-Description: 'Returns a list of possible matches for a pathname string.'
+Title: ".glob()"
+Description: "Returns a list of possible matches for a pathname string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.glob()` method returns a list of possible matches for a pathname string.

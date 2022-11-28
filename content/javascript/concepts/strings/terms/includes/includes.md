@@ -1,15 +1,15 @@
 ---
-Title: '.includes()'
-Description: 'Returns true if a given value is included in a string.'
+Title: ".includes()"
+Description: "Returns true if a given value is included in a string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.includes()` method returns `true` if a given value is included in a string. Otherwise, it returns `false`.
@@ -35,16 +35,16 @@ Here are some edge-cases to consider when using `.includes()`:
 The `.includes()` method can be used in a few ways. First, it can be applied directly to a string:
 
 ```js
-console.log('Hello World!'.includes('World'));
+console.log("Hello World!".includes("World"));
 // Output: true
 ```
 
 It can also be used with a string value assigned to a variable:
 
 ```js
-const helloWorld = 'Hello World!';
+const helloWorld = "Hello World!";
 
-console.log(helloWorld.includes('world'));
+console.log(helloWorld.includes("world"));
 // Output: false
 ```
 

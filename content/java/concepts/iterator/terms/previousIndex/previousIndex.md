@@ -1,14 +1,14 @@
 ---
-Title: '.previousIndex()'
-Description: 'Returns the index of the previous element from a ListIterator object.'
+Title: ".previousIndex()"
+Description: "Returns the index of the previous element from a ListIterator object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.previousIndex()`** method returns the index of the previous element from a `ListIterator` object. If there is not a previous element, it returns -1.

@@ -1,15 +1,15 @@
 ---
-Title: '.slice()'
-Description: 'Returns a shallow copy of part of array, while original array is not modified.'
+Title: ".slice()"
+Description: "Returns a shallow copy of part of array, while original array is not modified."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.slice()` array method returns a shallow copy of all or part of an array without modifying the original.
@@ -43,13 +43,13 @@ To create a subarray of `['Tuesday', 'Wednesday', 'Thursday']` from `weekDays` a
 
 ```js
 const weekDays = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const outOutOffice = weekDays.slice(1, 4);
@@ -70,13 +70,13 @@ To create the same subarray as the one above with negative index values:
 
 ```js
 const weekDays = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const outOutOffice = weekDays.slice(-6, -3);
@@ -91,13 +91,13 @@ To create a subarray of the last two elements from `weekDays`:
 
 ```js
 const weekDays = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const weekend = weekDays.slice(5);
@@ -112,13 +112,13 @@ To create an identical subarray of `weekDays`:
 
 ```js
 const weekDays = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const anotherWeek = weekDays.slice();

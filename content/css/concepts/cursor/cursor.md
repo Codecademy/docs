@@ -1,15 +1,15 @@
 ---
-Title: 'cursor'
-Description: 'Sets the appearance of the mouse cursor when hovering over an element.'
+Title: "cursor"
+Description: "Sets the appearance of the mouse cursor when hovering over an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Style'
-  - 'UI'
+  - "Style"
+  - "UI"
 CatalogContent:
-  - 'learn-css'
-  - 'learn-intermediate-css'
+  - "learn-css"
+  - "learn-intermediate-css"
 ---
 
 The `cursor` property sets the appearance of the mouse cursor when hovering over an element. The appearance can be set by specifying the type of cursor, or by loading a specific icon. When using an icon, fallback images can be used, ending with a mandatory keyword fallback.

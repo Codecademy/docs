@@ -1,18 +1,18 @@
 ---
-Title: 'Linux'
-Description: 'Linux is a family of Unix-like operating systems that are all based on the Linux kernel.'
+Title: "Linux"
+Description: "Linux is a family of Unix-like operating systems that are all based on the Linux kernel."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Developer Tools'
-  - 'Linux'
-  - 'Open Source'
-  - 'Operating Systems'
-  - 'Unix'
+  - "Developer Tools"
+  - "Linux"
+  - "Open Source"
+  - "Operating Systems"
+  - "Unix"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 **Linux** is a family of [open-source](https://www.codecademy.com/resources/docs/open-source), [Unix](https://www.codecademy.com/resources/docs/general/unix)-like operating systems that are all based on the Linux kernel. The Linux kernel was developed by [Linus Torvalds](https://www.codecademy.com/resources/docs/general/linus-torvalds) and was first released on September 17, 1991.

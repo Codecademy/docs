@@ -1,16 +1,16 @@
 ---
-Title: 'Functions'
-Description: 'Functions are reusable pieces of code that perform tasks, process data, and possibly return values.'
+Title: "Functions"
+Description: "Functions are reusable pieces of code that perform tasks, process data, and possibly return values."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Functions are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it.
@@ -83,7 +83,7 @@ Arrow function with no arguments:
 
 ```js
 const printHello = () => {
-  console.log('hello');
+  console.log("hello");
 };
 
 printHello();
@@ -128,12 +128,12 @@ Anonymous functions in JavaScript do not have a name property. They can be defin
 ```js
 // Named function
 function rocketToMars() {
-  return 'BOOM!';
+  return "BOOM!";
 }
 
 // Anonymous function
 const rocketToMars = function () {
-  return 'BOOM!';
+  return "BOOM!";
 };
 ```
 

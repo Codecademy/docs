@@ -1,20 +1,20 @@
 ---
 Title: NOT
-Description: 'Queries for items in an expression that return NOT TRUE for some condition(s).'
+Description: "Queries for items in an expression that return NOT TRUE for some condition(s)."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Database'
-  - 'Queries'
-  - 'SQLite'
-  - 'MySQL'
-  - 'PostgreSQL'
+  - "Operators"
+  - "Database"
+  - "Queries"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`NOT`** operator is used to query for items in a table that return `NOT TRUE` for some condition(s).

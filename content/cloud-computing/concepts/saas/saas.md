@@ -1,16 +1,16 @@
 ---
-Title: 'SaaS'
-Description: 'SaaS is a cloud computing service delivery model that makes software and applications available over the internet.'
+Title: "SaaS"
+Description: "SaaS is a cloud computing service delivery model that makes software and applications available over the internet."
 Subjects:
-  - 'Computer Science'
-  - 'Networking'
+  - "Computer Science"
+  - "Networking"
 Tags:
-  - 'Networking'
-  - 'Cloud'
-  - 'Infrastructure'
+  - "Networking"
+  - "Cloud"
+  - "Infrastructure"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'back-end-engineer-career-path'
+  - "foundations-of-cloud-computing"
+  - "back-end-engineer-career-path"
 ---
 
 **Software as a service (SaaS)** is a cloud computing service delivery model that makes software and applications available over the Internet.

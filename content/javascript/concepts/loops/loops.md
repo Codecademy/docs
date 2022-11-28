@@ -1,16 +1,16 @@
 ---
-Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.'
+Title: "Loops"
+Description: "A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Loops'
-  - 'While'
-  - 'For'
+  - "Loops"
+  - "While"
+  - "For"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.
@@ -78,7 +78,7 @@ A `for...of` loop iterates over an object's values rather than their keys. This 
 - A `Map` of key/value pairs.
 
 ```js
-const items = ['apple', 'banana', 'cherry'];
+const items = ["apple", "banana", "cherry"];
 
 for (const item of items) {
   console.log(item);
@@ -132,7 +132,7 @@ The output would be:
 A `for` loop can iterate “in reverse” by initializing the loop variable to the starting value, testing for when the variable hits the ending value, and decrementing (subtracting from) the loop variable at each iteration.
 
 ```js
-const items = ['apricot', 'banana', 'cherry'];
+const items = ["apricot", "banana", "cherry"];
 
 for (let i = items.length - 1; i >= 0; i -= 1) {
   console.log(`${i}. ${items[i]}`);
@@ -165,7 +165,7 @@ The `Object.entries()` method can be used to loop through an object's key-value 
 
 ```js
 const objectK = {
-  name: 'Codecademy',
+  name: "Codecademy",
   age: 10,
 };
 

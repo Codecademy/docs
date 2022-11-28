@@ -1,16 +1,16 @@
 ---
-Title: 'eval()'
-Description: 'Returns the value of a Python expression passed as a string.'
+Title: "eval()"
+Description: "Returns the value of a Python expression passed as a string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`eval()`** function returns the value of a Python expression passed as a [string](https://www.codecademy.com/resources/docs/python/strings).

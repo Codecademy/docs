@@ -1,15 +1,15 @@
 ---
-Title: '.find()'
-Description: 'Returns the index of the first occurrence of the specified string or character.'
+Title: ".find()"
+Description: "Returns the index of the first occurrence of the specified string or character."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.find()`** method returns the index of the first occurrence of the specified string or character. If no result is found, `string::npos` is returned instead.

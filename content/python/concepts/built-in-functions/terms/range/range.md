@@ -1,16 +1,16 @@
 ---
-Title: 'range()'
-Description: 'Returns a sequence of numbers based on the given range'
+Title: "range()"
+Description: "Returns a sequence of numbers based on the given range"
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Integers'
-  - 'Range'
-  - 'Functions'
+  - "Integers"
+  - "Range"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The `range()` function returns a sequence of numbers based on the given range.

@@ -1,18 +1,18 @@
 ---
-Title: '.reshape()'
-Description: 'Rearranges the data of an ndarray into a new shape.'
+Title: ".reshape()"
+Description: "Rearranges the data of an ndarray into a new shape."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.reshape()` method rearranges the data in an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) into a new shape. The new shape must be compatible with the old one, though an index of `-1` can be used to infer one dimension.

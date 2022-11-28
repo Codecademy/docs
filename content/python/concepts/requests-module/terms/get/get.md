@@ -1,17 +1,17 @@
 ---
-Title: '.get()'
-Description: 'Sends a GET request to a web server and it returns a response object.'
+Title: ".get()"
+Description: "Sends a GET request to a web server and it returns a response object."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'APIs'
-  - 'HTTP'
-  - 'Queries'
-  - 'Requests'
+  - "Methods"
+  - "APIs"
+  - "HTTP"
+  - "Queries"
+  - "Requests"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The **`.get()`** method sends a `GET` request to a web server and it returns a response object.

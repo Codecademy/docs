@@ -1,16 +1,16 @@
 ---
-Title: '.sqrt()'
-Description: 'Returns the positive, properly rounded square root of a double-type value.'
+Title: ".sqrt()"
+Description: "Returns the positive, properly rounded square root of a double-type value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.sqrt()`** method returns the positive, properly rounded square root of a double-type value.

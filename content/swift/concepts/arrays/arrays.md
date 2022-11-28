@@ -1,15 +1,15 @@
 ---
-Title: 'Arrays'
-Description: 'Arrays are ordered collections of values that are all of the same type, contained in the same structure.'
+Title: "Arrays"
+Description: "Arrays are ordered collections of values that are all of the same type, contained in the same structure."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Data Structures'
+  - "Arrays"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Arrays** are ordered lists of values, all of the same [data type](https://www.codecademy.com/resources/docs/swift/data-types) and contained in the same [structure](https://www.codecademy.com/resources/docs/swift/structures). Swift, a very type-safe language, will throw compiler errors if values of different types are stored in a single array (e.g., a `String` in an `Int` array). However, values can be repeated; every occurence of the same value gets stored in a different location.

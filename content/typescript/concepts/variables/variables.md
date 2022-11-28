@@ -1,13 +1,13 @@
 ---
-Title: 'Variables'
-Description: 'In TypeScript, besides being typed, variables are expected to follow the same rules and guidelines that they do with JavaScript.'
+Title: "Variables"
+Description: "In TypeScript, besides being typed, variables are expected to follow the same rules and guidelines that they do with JavaScript."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Variables'
+  - "Variables"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In TypeScript, besides being typed, variables are expected to follow the same rules and guidelines that they do with JavaScript.
@@ -19,8 +19,8 @@ TypeScript variables are generally inferred to be whatever basic type of value t
 ```ts
 let myVar: string;
 
-myVar = 'Hello'; // Ok
-myVar = 'World!'; // Also Ok
+myVar = "Hello"; // Ok
+myVar = "World!"; // Also Ok
 myVar = 42; // Not Ok: Type 'number' is not assignable to type 'string'.
 ```
 
@@ -42,7 +42,7 @@ If a variable is assigned a different type of value, TypeScript will notice and 
 In this code snippet, the `scary` variable is initially assigned the value `"skeletons"`, which is a `string` type. Later, assigning the decimal number `10.31` is not allowed because a `number` type is not assignable to a variable of type `string`:
 
 ```ts
-let scary = 'skeletons';
+let scary = "skeletons";
 
 scary = 10.31;
 // Error: Type 'number' is not assignable to type 'string'

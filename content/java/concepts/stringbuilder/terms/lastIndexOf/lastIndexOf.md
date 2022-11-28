@@ -1,15 +1,15 @@
 ---
-Title: '.lastIndexOf()'
-Description: 'Returns the index of the last (rightmost) occurrence of a substring in the StringBuilder or -1 if no substring is found.'
+Title: ".lastIndexOf()"
+Description: "Returns the index of the last (rightmost) occurrence of a substring in the StringBuilder or -1 if no substring is found."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.lastIndexOf()`** method returns the index of the last (rightmost) occurrence of a substring in the `StringBuilder`. If a substring is not found, `-1` is returned.

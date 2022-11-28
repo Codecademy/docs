@@ -1,18 +1,18 @@
 ---
-Title: '.append()'
-Description: 'Appends values to the end of an array.'
+Title: ".append()"
+Description: "Appends values to the end of an array."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.append()` function adds values to the end of an array and returns a [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray) with the values appended.

@@ -1,14 +1,14 @@
 ---
-Title: 'User Experience (UX) Design'
-Description: 'User experience (UX) design is a human-centered design discipline that deals with the holistic experience around a product or service, taking into consideration the user, system, and context.'
+Title: "User Experience (UX) Design"
+Description: "User experience (UX) design is a human-centered design discipline that deals with the holistic experience around a product or service, taking into consideration the user, system, and context."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **User experience (UX) design** is a human-centered [design](https://www.codecademy.com/resources/docs/uiux/design) discipline that deals with the holistic experience around a product or service, taking into consideration the user, system, and context.

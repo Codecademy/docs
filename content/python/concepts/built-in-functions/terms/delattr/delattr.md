@@ -1,16 +1,16 @@
 ---
-Title: 'delattr()'
-Description: 'Allows the user to delete attributes from an object.'
+Title: "delattr()"
+Description: "Allows the user to delete attributes from an object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Allows the user to delete attributes from an object.

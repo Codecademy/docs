@@ -1,17 +1,17 @@
 ---
-Title: 'API'
-Description: 'An API, or Application Programming Interface, is a term used to describe specifications that allow applications to communicate with one another. APIs enable exchange of information and can be a major source of value to organizations. They can be divided into three groups: Public APIs, Private APIs, and Partner APIs.'
+Title: "API"
+Description: "An API, or Application Programming Interface, is a term used to describe specifications that allow applications to communicate with one another. APIs enable exchange of information and can be a major source of value to organizations. They can be divided into three groups: Public APIs, Private APIs, and Partner APIs."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'APIs'
-  - 'Developer Tools'
-  - 'Dependency'
-  - 'Interface'
+  - "APIs"
+  - "Developer Tools"
+  - "Dependency"
+  - "Interface"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **API** stands for **Application Programming Interface** and is a term used to describe specifications that allow applications to communicate with one another.

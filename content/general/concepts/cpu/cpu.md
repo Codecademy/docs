@@ -1,16 +1,16 @@
 ---
-Title: 'CPU'
-Description: 'Central Processing Unit (CPU) is used to describe the electrical circuitry in a computer responsible for executing instruction sets derived from programs that have been converted into machine code. CPUs sit at the heart of the system of a computer and are connected to the motherboard. They also have caches which act as memory units capable of temporary storage and quick retrieval of files by the computer.'
+Title: "CPU"
+Description: "Central Processing Unit (CPU) is used to describe the electrical circuitry in a computer responsible for executing instruction sets derived from programs that have been converted into machine code. CPUs sit at the heart of the system of a computer and are connected to the motherboard. They also have caches which act as memory units capable of temporary storage and quick retrieval of files by the computer."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Central Processing Unit (CPU)** is used to describe the electrical circuitry in a computer responsible for executing instruction sets derived from programs that have been converted into machine code.

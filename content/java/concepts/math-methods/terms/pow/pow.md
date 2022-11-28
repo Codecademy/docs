@@ -1,15 +1,15 @@
 ---
-Title: '.pow()'
-Description: 'Returns the first argument raised to the power of the second argument.'
+Title: ".pow()"
+Description: "Returns the first argument raised to the power of the second argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.pow()`** method returns a double value of the first argument raised to the power of the second argument.

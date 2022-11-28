@@ -1,16 +1,16 @@
 ---
-Title: 'XML'
-Description: 'XML (Extensible Markup Language) is used to define the content and structure of data in a document.'
+Title: "XML"
+Description: "XML (Extensible Markup Language) is used to define the content and structure of data in a document."
 Subjects:
-  - 'Code Foundations'
-  - 'Data Science'
+  - "Code Foundations"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Development'
-  - 'Tags'
+  - "Data Structures"
+  - "Development"
+  - "Tags"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-analyst'
+  - "learn-python-3"
+  - "paths/data-analyst"
 ---
 
 **XML (Extensible Markup Language)** is used to define the content and structure of arbitrary data in a document. It is a human-readable text-based markup language used to store and transmit many different types of data, from individual records in a database, to things as complex as a Microsoft Word document. XML is primarily defined in the [XML 1.0 Specification](http://www.w3.org/TR/REC-xml) from the [World Wide Web Consortium](https://www.w3.org/standards/) (W3C). XML was designed for simplicity, general application, and usability across the Internet. While document-based, it is widely used to store all types of arbitrary data structures.

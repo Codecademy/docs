@@ -1,15 +1,15 @@
 ---
-Title: '.add()'
-Description: 'Adds an element to an ArrayList.'
+Title: ".add()"
+Description: "Adds an element to an ArrayList."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.add()` method is used for adding elements to instances of the `ArrayList` class.

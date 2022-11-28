@@ -1,15 +1,15 @@
 ---
-Title: 'exp()'
-Description: 'Returns the base-e exponential function of the argument.'
+Title: "exp()"
+Description: "Returns the base-e exponential function of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`exp()`** function returns the base-`e` exponential value of the argument (i.e., `e` raised to the power of the argument). This is the inverse of the [`log()`](https://www.codecademy.com/resources/docs/cpp/math-functions/log) function.

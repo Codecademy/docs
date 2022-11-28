@@ -1,15 +1,15 @@
 ---
-Title: 'animation-name'
-Description: 'Defines a comma-separated list of animations to apply to the given selector. '
+Title: "animation-name"
+Description: "Defines a comma-separated list of animations to apply to the given selector. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines a comma-separated list of animations to apply to the given selector.

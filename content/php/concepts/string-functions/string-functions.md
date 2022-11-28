@@ -1,16 +1,16 @@
 ---
-Title: 'String Functions'
-Description: 'PHP has several built-in functions for manipulating strings.'
+Title: "String Functions"
+Description: "PHP has several built-in functions for manipulating strings."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Strings'
-  - 'Functions'
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 PHP has several built-in functions for text processing and the manipulation of strings.

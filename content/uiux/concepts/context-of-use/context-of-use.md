@@ -1,14 +1,14 @@
 ---
-Title: 'Context of Use'
-Description: 'The context of use describes the environment and conditions under which a product or design will be used.'
+Title: "Context of Use"
+Description: "The context of use describes the environment and conditions under which a product or design will be used."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **context of use** describes the environment and conditions under which a product or design will be used.

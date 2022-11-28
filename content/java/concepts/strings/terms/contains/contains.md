@@ -1,14 +1,14 @@
 ---
-Title: '.contains()'
-Description: 'Returns true if a sequence of characters exists in a given string, otherwise false.'
+Title: ".contains()"
+Description: "Returns true if a sequence of characters exists in a given string, otherwise false."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Returns `true` if a sequence of characters exists in a given string, otherwise `false`.

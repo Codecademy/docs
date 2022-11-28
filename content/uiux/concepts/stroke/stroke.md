@@ -1,14 +1,14 @@
 ---
-Title: 'Stroke'
-Description: 'A stroke, also referred to as a border, is a line that wraps around a layer.'
+Title: "Stroke"
+Description: "A stroke, also referred to as a border, is a line that wraps around a layer."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 A **stroke**, also referred to as a border, is a line that wraps around a layer. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), the stroke properties can be updated to customize its style, size, and color.

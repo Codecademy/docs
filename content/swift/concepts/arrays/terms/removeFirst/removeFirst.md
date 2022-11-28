@@ -1,15 +1,15 @@
 ---
-Title: '.removeFirst()'
-Description: 'Removes the first element in an array.'
+Title: ".removeFirst()"
+Description: "Removes the first element in an array."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.removeFirst()`** method removes the first element in an array.

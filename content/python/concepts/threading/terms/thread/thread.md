@@ -1,15 +1,15 @@
 ---
-Title: '.Thread()'
-Description: 'Returns a thread object that can run a function with zero or more arguments.'
+Title: ".Thread()"
+Description: "Returns a thread object that can run a function with zero or more arguments."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.Thread()` method is a class constructor which returns a thread object that can run a function with zero or more arguments.

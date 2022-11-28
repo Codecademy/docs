@@ -1,14 +1,14 @@
 ---
-Title: 'CSV'
-Description: 'Comma-Seperated Values (CSV) is a text file format where individual values are separated by commas.'
+Title: "CSV"
+Description: "Comma-Seperated Values (CSV) is a text file format where individual values are separated by commas."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
+  - "Files"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 **Comma-Seperated Values (CSV)** is a text file format where individual values are separated by commas. It is normally used to store tabular data and is favored for its simple structure allowing for straightforward parsing and data exchange.

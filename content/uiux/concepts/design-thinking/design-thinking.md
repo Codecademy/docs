@@ -1,14 +1,14 @@
 ---
-Title: 'Design Thinking'
-Description: 'Design thinking is a design methodology that puts people at the center of every process and encourages designers to set aside assumptions.'
+Title: "Design Thinking"
+Description: "Design thinking is a design methodology that puts people at the center of every process and encourages designers to set aside assumptions."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Design thinking** is a [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) that puts people at the center of every process and encourages designers to set aside assumptions. This formal methodology has [developed across multiple disciplines since the 1960s](https://www.interaction-design.org/literature/article/design-thinking-get-a-quick-overview-of-the-history) and is commonly associated with the design and consulting firm [IDEO](https://designthinking.ideo.com/) and the Stanford School of Design (the [d.school](https://dschool.stanford.edu/)).

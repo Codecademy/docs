@@ -1,16 +1,16 @@
 ---
-Title: '.fillna()'
-Description: 'Returns a DataFrame object with NA values replaced with the specified value.'
+Title: ".fillna()"
+Description: "Returns a DataFrame object with NA values replaced with the specified value."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.fillna()` function returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with `NA` values replaced with a specified value. The original `DataFrame` object, used to call the method, remains unchanged.

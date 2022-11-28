@@ -1,15 +1,15 @@
 ---
-Title: 'Lists'
-Description: 'In HTML, lists are used to group pieces of related data together in a certain format.'
+Title: "Lists"
+Description: "In HTML, lists are used to group pieces of related data together in a certain format."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Lists'
-  - 'Paragraphs'
+  - "Lists"
+  - "Paragraphs"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, **lists** are used to group pieces of related data together in a certain format. List items are represented by the [`<li>`](https://www.codecademy.com/resources/docs/html/elements/li) tag while the lists themselves are represented by the following:

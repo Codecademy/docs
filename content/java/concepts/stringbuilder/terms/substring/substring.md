@@ -1,15 +1,15 @@
 ---
-Title: '.substring()'
-Description: 'Returns a String object representing a substring of the character sequence currently in a given StringBuilder.'
+Title: ".substring()"
+Description: "Returns a String object representing a substring of the character sequence currently in a given StringBuilder."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.substring()`** method returns a [`String`](https://www.codecademy.com/resources/docs/java/strings) object representing a substring of the character sequence currently in a given `StringBuilder`.

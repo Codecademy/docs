@@ -1,15 +1,15 @@
 ---
-Title: 'Reviews'
-Description: 'Reviews are conducted to ensure valid content is merged into the Docs repository.'
+Title: "Reviews"
+Description: "Reviews are conducted to ensure valid content is merged into the Docs repository."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 **Reviews** are conducted by members of the Curriculum Free Team (CFT) at Codecademy who help maintain the [`docs` repository](https://www.codecademy.com/resources/docs/docs-community/docs-repository).

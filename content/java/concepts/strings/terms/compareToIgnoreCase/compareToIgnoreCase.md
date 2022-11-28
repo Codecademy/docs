@@ -1,15 +1,15 @@
 ---
-Title: '.compareToIgnoreCase()'
-Description: 'Returns 0 if two strings are equal in Unicode value, regardless of character case. Otherwise, the lexicographical difference is returned.'
+Title: ".compareToIgnoreCase()"
+Description: "Returns 0 if two strings are equal in Unicode value, regardless of character case. Otherwise, the lexicographical difference is returned."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`compareToIgnoreCase()`** method compares two strings lexicographically based on the Unicode value of each character in the string while ignoring lower case and upper case differences.

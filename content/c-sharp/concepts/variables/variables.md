@@ -1,15 +1,15 @@
 ---
-Title: 'Variables'
-Description: 'A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.'
+Title: "Variables"
+Description: "A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Variables'
-  - 'Data Types'
+  - "Variables"
+  - "Data Types"
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - "learn-c-sharp"
+  - "paths/computer-science"
 ---
 
 A **variable** is a storage location in the computer’s memory that is used to save, retrieve, and manipulate data.

@@ -1,16 +1,16 @@
 ---
-Title: 'date_create()'
-Description: 'Creates a new DateTime object from a formatted date-time string.'
+Title: "date_create()"
+Description: "Creates a new DateTime object from a formatted date-time string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
-  - 'Time'
-  - 'Objects'
+  - "Date"
+  - "Time"
+  - "Objects"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `date_create()` function creates a new `DateTime` object based on a formatted date-time string passed to it, along with an optional timezone.

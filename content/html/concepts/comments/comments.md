@@ -1,15 +1,15 @@
 ---
-Title: 'Comments'
-Description: 'HTML comments are used for documentation and excluding markup from being rendered.'
+Title: "Comments"
+Description: "HTML comments are used for documentation and excluding markup from being rendered."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Comments'
-  - 'Documentation'
+  - "Comments"
+  - "Documentation"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 HTML comments are used for documentation and excluding markup from being rendered. Like with [comments](https://www.codecademy.com/resources/docs/general/comment) in other languages, developers may also use HTML comments for historical or debugging purposes.

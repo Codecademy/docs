@@ -1,15 +1,15 @@
 ---
-Title: '.contains()'
-Description: 'Checks whether an item exists within the set.'
+Title: ".contains()"
+Description: "Checks whether an item exists within the set."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Sets'
-  - 'Methods'
+  - "Sets"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.contains()`** method returns `true` if the given element exists in the set, `false` otherwise.

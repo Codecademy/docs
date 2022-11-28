@@ -1,17 +1,17 @@
 ---
-Title: 'Creational Design Patterns'
-Description: 'Creational design patterns concern themselves with the instantiation, or creation, of objects.'
+Title: "Creational Design Patterns"
+Description: "Creational design patterns concern themselves with the instantiation, or creation, of objects."
 Subjects:
-  - 'Computer Science'
-  - 'Interview Prep'
+  - "Computer Science"
+  - "Interview Prep"
 Tags:
-  - 'Classes'
-  - 'Conceptual'
-  - 'Constructors'
-  - 'Objects'
+  - "Classes"
+  - "Conceptual"
+  - "Constructors"
+  - "Objects"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Creational design patterns** concern themselves with the instantiation of objects. At the time of creation, additional logic may be needed to decide what or how object types need to be created.

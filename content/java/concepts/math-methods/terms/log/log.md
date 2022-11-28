@@ -1,14 +1,14 @@
 ---
-Title: '.log()'
-Description: 'Returns the natural logarithm (base e) of a double value as a parameter.'
+Title: ".log()"
+Description: "Returns the natural logarithm (base e) of a double value as a parameter."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.log()`** method returns the natural logarithm of a number.

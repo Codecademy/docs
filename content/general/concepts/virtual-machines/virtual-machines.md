@@ -1,16 +1,16 @@
 ---
-Title: 'Virtual Machines'
-Description: 'Virtual machines are software resources that can perform the same tasks as physical computers.'
+Title: "Virtual Machines"
+Description: "Virtual machines are software resources that can perform the same tasks as physical computers."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Servers'
-  - 'Cloud Computing'
-  - 'Operating Systems'
-  - 'Cybersecurity'
+  - "Servers"
+  - "Cloud Computing"
+  - "Operating Systems"
+  - "Cybersecurity"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'paths/computer-science'
+  - "foundations-of-cloud-computing"
+  - "paths/computer-science"
 ---
 
 A **virtual machine (VM)** is a software resource that can perform the same computing functions as a physical computer system, such as running applications or storing data. However, VMs do not use physical hardware to perform these tasks. Instead, VMs exist as code and use software-defined versions of hardware that are installed on a host [server](https://www.codecademy.com/resources/docs/general/server).

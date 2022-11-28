@@ -1,17 +1,17 @@
 ---
-Title: 'brightness()'
-Description: 'Defines the brightness or darkness of an element.'
+Title: "brightness()"
+Description: "Defines the brightness or darkness of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Functions'
-  - 'Colors'
+  - "Images"
+  - "Functions"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines the brightness or darkness of an element.

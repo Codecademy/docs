@@ -1,17 +1,17 @@
 ---
-Title: 'Circle'
-Description: 'Pre-built circular shape that can be visually modified as desired.'
+Title: "Circle"
+Description: "Pre-built circular shape that can be visually modified as desired."
 Subjects:
-  - 'Software Development'
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Software Development"
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swiftui'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swiftui"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 SwiftUI includes various pre-built shapes, like rectangles, **circles**, and capsules which can be generated, coloured, and positioned as desired.

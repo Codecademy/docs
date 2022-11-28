@@ -1,15 +1,15 @@
 ---
-Title: '<canvas>'
-Description: 'Creates graphics and animations in the page for JavaScript and WebGL to interact with'
+Title: "<canvas>"
+Description: "Creates graphics and animations in the page for JavaScript and WebGL to interact with"
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<canvas>`** element creates graphics and animations in the page for [JavaScript](https://www.codecademy.com/resources/docs/javascript) and WebGL to interact with.

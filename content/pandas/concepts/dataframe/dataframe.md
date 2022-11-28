@@ -1,16 +1,16 @@
 ---
-Title: 'DataFrame'
-Description: 'A DataFrame is the primary object used by Pandas to store and manipulate data.'
+Title: "DataFrame"
+Description: "A DataFrame is the primary object used by Pandas to store and manipulate data."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 A `DataFrame` is the primary object used by the Pandas module to store and manipulate data. It is a structured collection of data arranged in rows and columns, similar to a database table.

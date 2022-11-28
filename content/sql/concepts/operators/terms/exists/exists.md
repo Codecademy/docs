@@ -1,20 +1,20 @@
 ---
-Title: 'EXISTS'
-Description: 'Tests a subquery and returns TRUE if at least one record satisfies it.'
+Title: "EXISTS"
+Description: "Tests a subquery and returns TRUE if at least one record satisfies it."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Database'
-  - 'Queries'
-  - 'SQLite'
-  - 'MySQL'
-  - 'PostgreSQL'
+  - "Operators"
+  - "Database"
+  - "Queries"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`EXISTS`** operator tests a subquery and returns `TRUE` if at least one record satisfies it. Otherwise, `FALSE` is returned.

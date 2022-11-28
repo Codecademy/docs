@@ -1,17 +1,17 @@
 ---
-Title: '<center>'
-Description: 'Displays its contents centered horizontally in the containing element. This is now deprecated and CSS should be used instead.'
+Title: "<center>"
+Description: "Displays its contents centered horizontally in the containing element. This is now deprecated and CSS should be used instead."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
-  - 'Obsolete'
+  - "Elements"
+  - "Tags"
+  - "Style"
+  - "Obsolete"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<center>`** element was used historically to center content, usually text, within its containing elements. It has since been deprecated and removed from the [HTML specification](https://html.spec.whatwg.org/). While some browsers might support it for backwards compatibility, it should no longer be used.

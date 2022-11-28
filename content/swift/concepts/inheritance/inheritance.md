@@ -1,17 +1,17 @@
 ---
-Title: 'Inheritance'
-Description: 'Inheritance allows code reusability by sharing features between classes.'
+Title: "Inheritance"
+Description: "Inheritance allows code reusability by sharing features between classes."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Inheritance'
-  - 'Classes'
-  - 'Objects'
-  - 'OOP'
+  - "Inheritance"
+  - "Classes"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Inheritance** allows properties, methods, and other characteristics to be transferred between classes. This is a feature that differentiates [classes](https://www.codecademy.com/resources/docs/swift/classes) from other [data types](https://www.codecademy.com/resources/docs/swift/data-types).

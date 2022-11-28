@@ -1,16 +1,16 @@
 ---
-Title: '.add()'
-Description: 'Inserts a value into a Set (if it is unique) and returns the updated Set object.'
+Title: ".add()"
+Description: "Inserts a value into a Set (if it is unique) and returns the updated Set object."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Sets'
-  - 'Objects'
-  - 'Collections'
+  - "Sets"
+  - "Objects"
+  - "Collections"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.add()`** method inserts a value into a `Set` (if it is unique) and returns the updated `Set` object.

@@ -1,16 +1,16 @@
 ---
-Title: 'rowspan'
-Description: 'Specifies the number of rows a cell should span. '
+Title: "rowspan"
+Description: "Specifies the number of rows a cell should span. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tables'
-  - 'Elements'
-  - 'Web Development'
+  - "Tables"
+  - "Elements"
+  - "Web Development"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 [table with cell that spans two rows]: https://raw.githubusercontent.com/Codecademy/docs/main/media/html-rowspan.png

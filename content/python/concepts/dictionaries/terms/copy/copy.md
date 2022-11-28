@@ -1,16 +1,16 @@
 ---
-Title: '.copy()'
-Description: 'Returns a copy of a dictionary.'
+Title: ".copy()"
+Description: "Returns a copy of a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.copy()` method of a Python dictionary returns a copy of the dictionary. It takes no arguments.

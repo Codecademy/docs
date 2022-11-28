@@ -1,15 +1,15 @@
 ---
-Title: '<cite>'
-Description: 'Represents a citation to a referenced work such as a book, a song, or a painting.'
+Title: "<cite>"
+Description: "Represents a citation to a referenced work such as a book, a song, or a painting."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<cite>`** element represents a citation to a referenced work such as a book, a song, or a painting. It needs to include only the title of the work being referenced.

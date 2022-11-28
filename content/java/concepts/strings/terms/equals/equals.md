@@ -1,15 +1,15 @@
 ---
-Title: '.equals()'
-Description: 'Returns true if two strings are equal in value and false otherwise.'
+Title: ".equals()"
+Description: "Returns true if two strings are equal in value and false otherwise."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Booleans'
-  - 'Strings'
-  - 'Methods'
+  - "Booleans"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.equals()`** method returns `true` if two strings are equal in value. Otherwise, `false` is returned.

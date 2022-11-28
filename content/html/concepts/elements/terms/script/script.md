@@ -1,16 +1,16 @@
 ---
-Title: '<script>'
-Description: 'Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source.'
+Title: "<script>"
+Description: "Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Script'
-  - 'Tags'
+  - "Elements"
+  - "Script"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<script>`** element is used to insert runnable code into a document, usually [JavaScript](https://www.codecademy.com/resources/docs/javascript). It can be used both to include a script within the HTML document, or to load an external script from another source.
@@ -50,7 +50,7 @@ This example demonstrates the multiple places where a `<script>` element may liv
 
     <!-- Will run before the body finishes loading into memory -->
     <script>
-      console.log('Goodbye, World!');
+      console.log("Goodbye, World!");
     </script>
   </head>
   <body>
@@ -62,7 +62,7 @@ This example demonstrates the multiple places where a `<script>` element may liv
 
     <!-- Will naturally run after the other body content is fully loaded into memory -->
     <script>
-      console.log('Hello, World!');
+      console.log("Hello, World!");
     </script>
   </body>
 </html>

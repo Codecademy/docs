@@ -1,16 +1,16 @@
 ---
-Title: 'grid-auto-rows'
-Description: 'A property that specifies the default row size(s) for a container.'
+Title: "grid-auto-rows"
+Description: "A property that specifies the default row size(s) for a container."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Grids'
-  - 'Layout'
+  - "Grids"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A property that specifies the default row size(s) for a container.

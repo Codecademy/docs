@@ -1,17 +1,17 @@
 ---
-Title: '.cbrt()'
-Description: 'Returns the cube root of a double-type value.'
+Title: ".cbrt()"
+Description: "Returns the cube root of a double-type value."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Arithmetic'
-  - 'Documentation'
-  - 'Functions'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Documentation"
+  - "Functions"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'path/computer-science'
+  - "learn-java"
+  - "path/computer-science"
 ---
 
 The **`Math.cbrt()`** method returns the cube root of a `double` value.

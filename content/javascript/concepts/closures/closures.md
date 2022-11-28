@@ -1,17 +1,17 @@
 ---
-Title: 'Closures'
-Description: 'Closures are functions that can refer to variables and other bindings beyond its scope, even after being called.'
+Title: "Closures"
+Description: "Closures are functions that can refer to variables and other bindings beyond its scope, even after being called."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Algorithms'
-  - 'Conceptual'
-  - 'Dynamic Programming'
-  - 'Functions'
+  - "Algorithms"
+  - "Conceptual"
+  - "Dynamic Programming"
+  - "Functions"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/computer-science'
+  - "introduction-to-javascript"
+  - "paths/computer-science"
 ---
 
 Closures are [functions](https://www.codecademy.com/resources/docs/javascript/functions) that can refer to [variables](https://www.codecademy.com/resources/docs/javascript/variables) and other bindings beyond their scope, even after being called.
@@ -21,10 +21,10 @@ Closures are [functions](https://www.codecademy.com/resources/docs/javascript/fu
 Each time a new function is defined, a closure is created.
 
 ```js
-let myGlobalString = 'World';
+let myGlobalString = "World";
 
 function outer() {
-  let myLexicalString = 'Hello';
+  let myLexicalString = "Hello";
 
   function inner() {
     myLocalString = `${myGlobalString}, ${myLexicalString}!`;

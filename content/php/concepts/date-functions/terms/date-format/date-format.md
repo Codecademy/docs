@@ -1,16 +1,16 @@
 ---
-Title: 'date_format()'
-Description: 'Takes a DateTime object and returns a string based on its formatted value.'
+Title: "date_format()"
+Description: "Takes a DateTime object and returns a string based on its formatted value."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
-  - 'Time'
-  - 'Objects'
+  - "Date"
+  - "Time"
+  - "Objects"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `date_format()` function takes a `DateTime` object and a format string and returns a string based on the formatted value.

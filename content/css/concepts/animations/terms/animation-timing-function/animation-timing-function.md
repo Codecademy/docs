@@ -1,15 +1,15 @@
 ---
-Title: 'animation-timing-function'
-Description: 'Defines an acceleration curve for each keyframe in a single animation. '
+Title: "animation-timing-function"
+Description: "Defines an acceleration curve for each keyframe in a single animation. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines an acceleration curve for each keyframe in a single animation.

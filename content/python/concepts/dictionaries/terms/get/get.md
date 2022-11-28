@@ -1,16 +1,16 @@
 ---
-Title: '.get()'
-Description: 'Returns the value of a dictionary entry for a specified key, with an optional fallback value.'
+Title: ".get()"
+Description: "Returns the value of a dictionary entry for a specified key, with an optional fallback value."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.get()` method will return the value of a dictionary entry for a specified key. It may also specify a fallback value if the specified key does not exist in the dictionary.

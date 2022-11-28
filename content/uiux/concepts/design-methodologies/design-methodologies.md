@@ -1,14 +1,14 @@
 ---
-Title: 'Design Methodologies'
-Description: 'Design methodologies are systems or models that offer structure or consistency to focus on problems and drive success within a design process.'
+Title: "Design Methodologies"
+Description: "Design methodologies are systems or models that offer structure or consistency to focus on problems and drive success within a design process."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Design methodologies** are systems or models that offer structure or consistency to focus on problems and drive success within a design process.

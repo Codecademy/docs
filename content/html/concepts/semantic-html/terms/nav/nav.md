@@ -1,15 +1,15 @@
 ---
-Title: '<nav>'
-Description: 'Defines a block of navigation links such as menus and tables of contents.'
+Title: "<nav>"
+Description: "Defines a block of navigation links such as menus and tables of contents."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<nav>` element is used to define a [list](https://www.codecademy.com/resources/docs/html/lists) of [navigation](https://www.codecademy.com/resources/docs/uiux/navigation) links such as menus and tables of contents.

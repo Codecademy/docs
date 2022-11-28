@@ -1,14 +1,14 @@
 ---
-Title: 'Variables'
-Description: 'Variables are used whenever there’s a need to store a piece of data and ensures code re-usability.'
+Title: "Variables"
+Description: "Variables are used whenever there’s a need to store a piece of data and ensures code re-usability."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Variables'
-  - 'Data Types'
+  - "Variables"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Variables** are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places.

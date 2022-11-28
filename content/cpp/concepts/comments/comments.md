@@ -1,15 +1,15 @@
 ---
-Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.'
+Title: "Comments"
+Description: "A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Comments'
-  - 'Documentation'
+  - "Comments"
+  - "Documentation"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.

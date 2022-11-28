@@ -1,14 +1,14 @@
 ---
-Title: 'Iterator'
-Description: 'An iterator is a Java object that allows code to step through collections.'
+Title: "Iterator"
+Description: "An iterator is a Java object that allows code to step through collections."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 An **iterator** is an object that allows code to step through collections. Java has `Iterator` and `ListIterator` objects, both imported through the `java.util` package. The main difference between the two is that `ListIterator` allows for the bidirectional traversal of collections. The `ListIterator` can only be retrieved from collections that implement the `List` interface.

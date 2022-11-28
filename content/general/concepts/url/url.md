@@ -1,15 +1,15 @@
 ---
-Title: 'URL'
-Description: 'Refers to where a resource can be found.'
+Title: "URL"
+Description: "Refers to where a resource can be found."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Link'
-  - 'URL'
+  - "Link"
+  - "URL"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **Uniform Resource Locator (URL)** refers to where a resource can be found. This includes locations for web pages and media such as [images](https://www.codecademy.com/resources/docs/html/images) and [videos](https://www.codecademy.com/resources/docs/html/videos). URLs use protocols to perform different tasks with these resources including:

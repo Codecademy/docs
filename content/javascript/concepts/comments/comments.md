@@ -1,15 +1,15 @@
 ---
-Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed but provides additional information to aid in understanding the code.'
+Title: "Comments"
+Description: "A comment is a piece of text within a program that is not executed but provides additional information to aid in understanding the code."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Comments'
-  - 'Documenation'
+  - "Comments"
+  - "Documenation"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Comments** are pieces of text within a JavaScript program that is not interpreted or executed. They provide additional information to aid in understanding the code.
@@ -39,7 +39,7 @@ The configuration below must be
 changed before deployment. 
 */
 
-let baseUrl = 'localhost/taxwebapp/country';
+let baseUrl = "localhost/taxwebapp/country";
 ```
 
 This syntax can also be used to comment something out in the middle of a line of code:

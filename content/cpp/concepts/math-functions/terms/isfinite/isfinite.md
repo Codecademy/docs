@@ -1,16 +1,16 @@
 ---
-Title: 'isfinite()'
-Description: 'Returns a value telling whether the argument is a finite value.'
+Title: "isfinite()"
+Description: "Returns a value telling whether the argument is a finite value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`isfinite()`** function returns a value telling whether the argument has a finite value.

@@ -1,15 +1,15 @@
 ---
-Title: 'Scope'
-Description: 'Scope refers to the areas where variables are visible and accessible.'
+Title: "Scope"
+Description: "Scope refers to the areas where variables are visible and accessible."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Conceptual'
-  - 'Scope'
+  - "Conceptual"
+  - "Scope"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 **Scope** refers to the areas where variables are visible and accessible. Variables that can be accessed anywhere in a Python program are in the global scope. Conversely, variables that are defined within the body of structures like classes and methods exist only in the local scope.

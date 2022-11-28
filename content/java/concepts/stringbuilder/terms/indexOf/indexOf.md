@@ -1,15 +1,15 @@
 ---
-Title: '.indexOf()'
-Description: 'Returns the index of the first occurrence of a substring in the StringBuilder or -1 if none are found.'
+Title: ".indexOf()"
+Description: "Returns the index of the first occurrence of a substring in the StringBuilder or -1 if none are found."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.indexOf()`** method returns the index of the first occurrence of a substring in a `StringBuilder`. If the substring is not found, `-1` is returned.

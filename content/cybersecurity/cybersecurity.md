@@ -1,10 +1,10 @@
 ---
-Title: 'Cybersecurity'
-Description: 'Cybersecurity is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/subject/cybersecurity'
+Title: "Cybersecurity"
+Description: "Cybersecurity is the practice of protecting computer systems and networks from bad actors who disrupt services or steal sensitive information."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/subject/cybersecurity"
 CatalogContent:
-  - 'introduction-to-cybersecurity'
-  - 'paths/fundamentals-of-cybersecurity'
+  - "introduction-to-cybersecurity"
+  - "paths/fundamentals-of-cybersecurity"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-cybersecurity/" />

@@ -1,16 +1,16 @@
 ---
-Title: 'Type Conversion'
-Description: 'Type conversion is the process of converting a value of one data type into another data type.'
+Title: "Type Conversion"
+Description: "Type conversion is the process of converting a value of one data type into another data type."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Strings'
-  - 'Numbers'
+  - "Data Types"
+  - "Integers"
+  - "Strings"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Type conversion is the process of converting a value of one [data type](https://www.codecademy.com/resources/docs/java/data-types) into another data type. There are many situations where data is available in one type and the program needs to treat it as another type. Common instances are situations where a mathematical operation needs a `float` value and one of the operands needed is an `integer`, or when processing [user input](https://www.codecademy.com/resources/docs/java/user-input) that comes in as [`String`](https://www.codecademy.com/resources/docs/java/strings) data and it needs to be interpreted as some sort of number.

@@ -1,16 +1,16 @@
 ---
-Title: 'abs()'
-Description: 'Returns the absolute value of a numeric argument.'
+Title: "abs()"
+Description: "Returns the absolute value of a numeric argument."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`abs()`** function returns the absolute value of a numeric argument.

@@ -1,14 +1,14 @@
 ---
-Title: 'useState()'
-Description: 'Returns the current state of the component and its setter function'
+Title: "useState()"
+Description: "Returns the current state of the component and its setter function"
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Components'
-  - 'React'
+  - "Components"
+  - "React"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`useState()`** hook returns the current [state](https://www.codecademy.com/resources/docs/react/state) of the [component](https://www.codecademy.com/resources/docs/react/components) and its setter function. State must be changed through the setter only and not be mutated directly as it may cause unexpected behavior.
@@ -34,10 +34,10 @@ The return value of `useState()` is an [array](https://www.codecademy.com/resour
 A controlled input whose value depends on the `name` state and changes it through `setName` setter on `onChange` event.
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function ProfileName() {
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
 
   function handleChange(event) {
     /*
@@ -58,10 +58,10 @@ In cases where the component state is an array or [object](https://www.codecadem
 The following example involves deleting an item from the `foods` state array and updating with `filteredItems` through the `onClick` event:
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function FavoriteFoodList() {
-  const [foods, setFoods] = useState(['pizza', 'hot dog']);
+  const [foods, setFoods] = useState(["pizza", "hot dog"]);
 
   function handleDeleteFood(deletedIndex) {
     /*

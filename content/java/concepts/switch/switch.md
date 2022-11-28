@@ -1,15 +1,15 @@
 ---
-Title: 'Switch'
-Description: 'A switch statement provides a means of checking an expression against various case statements.'
+Title: "Switch"
+Description: "A switch statement provides a means of checking an expression against various case statements."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Switch'
-  - 'Conditionals'
-  - 'Control Flow'
+  - "Switch"
+  - "Conditionals"
+  - "Control Flow"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.

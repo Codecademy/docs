@@ -1,17 +1,17 @@
 ---
-Title: '.read_excel()'
-Description: 'Reads an Excel file into a Pandas DataFrame object.'
+Title: ".read_excel()"
+Description: "Reads an Excel file into a Pandas DataFrame object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Functions'
-  - 'Pandas'
+  - "Data Structures"
+  - "Functions"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.read_excel()` function takes a path to an Excel file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object.

@@ -1,16 +1,16 @@
 ---
-Title: '<dl>'
-Description: 'Displays terms and details, commonly for metadata purposes.'
+Title: "<dl>"
+Description: "Displays terms and details, commonly for metadata purposes."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Lists'
-  - 'Tags'
+  - "Elements"
+  - "Lists"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<dl>`** element is a description list that displays terms and details, commonly for metadata purposes.

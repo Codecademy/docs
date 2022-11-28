@@ -1,16 +1,16 @@
 ---
-Title: 'translateY()'
-Description: 'Moves an element vertically along the Y-axis.'
+Title: "translateY()"
+Description: "Moves an element vertically along the Y-axis."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Functions'
-  - 'Positioning'
+  - "Functions"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `translateY()` function moves an element along the vertical Y-axis.

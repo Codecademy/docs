@@ -1,16 +1,16 @@
 ---
-Title: '@font-face'
-Description: 'Specifies a custom font to be used to display text. '
+Title: "@font-face"
+Description: "Specifies a custom font to be used to display text. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Fonts'
-  - 'Typography'
+  - "Fonts"
+  - "Typography"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Specifies a custom font to be used to display text.
@@ -22,7 +22,7 @@ The `@font-face` rule allows us to use custom fonts instead of just using "web-s
 ```css
 @font-face {
   font-family: /* Font name */ ;
-  src: url(' ') /* Link to font */;
+  src: url(" ") /* Link to font */;
 }
 ```
 
@@ -35,7 +35,7 @@ Specifying a font called "uniqueFont" then linking the URL to the font folder.
 ```css
 @font-face {
   font-family: uniqueFont;
-  src: url('unique_font.woff');
+  src: url("unique_font.woff");
 }
 ```
 
@@ -46,7 +46,7 @@ Creating a custom font called "superFont" then applying the font to a `div`.
 ```css
 @font-face {
   font-family: superFont;
-  src: url('super_font.ttf');
+  src: url("super_font.ttf");
 }
 
 div {

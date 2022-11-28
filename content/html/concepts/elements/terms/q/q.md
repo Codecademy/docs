@@ -1,16 +1,16 @@
 ---
-Title: '<q>'
-Description: 'Used to represent a brief inline quotation.'
+Title: "<q>"
+Description: "Used to represent a brief inline quotation."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Attributes'
+  - "Elements"
+  - "Tags"
+  - "Attributes"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<q>`** element is used to represent a brief inline quotation, as opposed to the [`<blockquote>`](https://www.codecademy.com/resources/docs/html/elements/blockquote) element being used for longer ones.

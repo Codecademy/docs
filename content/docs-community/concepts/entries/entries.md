@@ -1,15 +1,15 @@
 ---
-Title: 'Entries'
-Description: 'Entries are single Markdown files with content and examples that describe a topic, concept, or term.'
+Title: "Entries"
+Description: "Entries are single Markdown files with content and examples that describe a topic, concept, or term."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 In Codecademy Docs, **entries** are single [Markdown](https://www.codecademy.com/resources/docs/markdown) files with content and examples that describe a topic, concept, or term.

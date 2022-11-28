@@ -1,14 +1,14 @@
 ---
-Title: 'Wireframe'
-Description: 'A wireframe is a low-fidelity representation of a digital interface that defines the content layout and page elements.'
+Title: "Wireframe"
+Description: "A wireframe is a low-fidelity representation of a digital interface that defines the content layout and page elements."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 A **wireframe** is a low-fidelity representation of a digital interface that defines the content layout and page elements.

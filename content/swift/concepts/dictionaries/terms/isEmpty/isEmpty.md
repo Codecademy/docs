@@ -1,15 +1,15 @@
 ---
-Title: '.isEmpty'
-Description: 'Returns a true value is there are no key-value pairs in a dictionary and false otherwise.'
+Title: ".isEmpty"
+Description: "Returns a true value is there are no key-value pairs in a dictionary and false otherwise."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Dictionaries'
-  - 'Properties'
+  - "Dictionaries"
+  - "Properties"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.isEmpty`** property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.

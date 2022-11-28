@@ -1,16 +1,16 @@
 ---
-Title: '.size()'
-Description: 'Returns the number of elements in the stack.'
+Title: ".size()"
+Description: "Returns the number of elements in the stack."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.size()`** method returns the number of elements in the `stack`.

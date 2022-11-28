@@ -1,16 +1,16 @@
 ---
-Title: 'One Hot Encoding'
-Description: 'One hot encoding is a method of encoding categorical variables as binary vectors that can be more readily used by machine learning algorithms.'
+Title: "One Hot Encoding"
+Description: "One hot encoding is a method of encoding categorical variables as binary vectors that can be more readily used by machine learning algorithms."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Machine Learning'
+  - "Computer Science"
+  - "Data Science"
+  - "Machine Learning"
 Tags:
-  - 'Data Science'
-  - 'Deep Learning'
+  - "Data Science"
+  - "Deep Learning"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/build-deep-learning-models-with-tensorflow'
+  - "learn-python-3"
+  - "paths/build-deep-learning-models-with-tensorflow"
 ---
 
 **One hot encoding** is a method of encoding categorical variables as binary vectors that can be more readily used by [machine learning](https://www.codecademy.com/resources/docs/general/machine-learning) [algorithms](https://www.codecademy.com/resources/docs/general/algorithm). Algorithms work with numbers such as `0` and `1`, not categorical values like `"Texas"` or `"bicycle"`. However, the data these algorithms are asked to analyze often have values that are encoded categorically. One hot encoding is a process by which those categorical values in the data can be translated into numbers that can be interpreted by those algorithms.

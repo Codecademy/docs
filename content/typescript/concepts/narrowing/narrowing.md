@@ -1,15 +1,15 @@
 ---
-Title: 'Narrowing'
-Description: 'Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type.'
+Title: "Narrowing"
+Description: "Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Type Narrowing'
-  - 'Types'
-  - 'Union Types'
+  - "Type Narrowing"
+  - "Types"
+  - "Union Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **Narrowing** is a TypeScript process that refines a value of multiple types into a single, specific type.
@@ -32,12 +32,12 @@ In this example, our `logValueIfExists()` function accepts a `value` parameter w
 
 ```ts
 function logValueIfExists(value: string | undefined) {
-  if (typeof value === 'string') {
+  if (typeof value === "string") {
     console.log(`Yay! ${value}!`);
   }
 }
 
-logValueIfExists('narrowing');
+logValueIfExists("narrowing");
 // output: Yay! narrowing!
 ```
 
@@ -62,7 +62,7 @@ function logValueIfExists(value: string | undefined) {
   // Error: Object is possibly 'undefined'.
 }
 
-logValueIfExists('truthiness');
+logValueIfExists("truthiness");
 // output: Yay! truthiness!
 
 let newValue;

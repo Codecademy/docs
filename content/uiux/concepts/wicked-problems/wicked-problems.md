@@ -1,14 +1,14 @@
 ---
-Title: 'Wicked Problems'
-Description: 'The term wicked problems, coined by design theorist Horst Rittel and often associated with design thinking, describes the types of extremely complex, multi-dimensional problems that designers are often tasked to solve.'
+Title: "Wicked Problems"
+Description: "The term wicked problems, coined by design theorist Horst Rittel and often associated with design thinking, describes the types of extremely complex, multi-dimensional problems that designers are often tasked to solve."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The term **"wicked problems"**, coined by design theorist Horst Rittel and often associated with [design thinking](https://www.codecademy.com/resources/docs/uiux/design-thinking), describes the types of extremely complex, multi-dimensional problems that designers are often tasked to solve. Framing design in terms of "wicked problems" acknowledges the complexity of these problems and the ways that design can affect change at a systemic level.

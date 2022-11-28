@@ -1,16 +1,16 @@
 ---
-Title: 'Tech Stack'
-Description: 'A tech stack refers to a set of software that work together to build digital products or solutions such as websites or mobile applications.'
+Title: "Tech Stack"
+Description: "A tech stack refers to a set of software that work together to build digital products or solutions such as websites or mobile applications."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'ASP.NET'
-  - 'Frameworks'
-  - 'Rails'
+  - "ASP.NET"
+  - "Frameworks"
+  - "Rails"
 CatalogContent:
-  - 'learn-rails'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-rails"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A **technology (or "tech") stack** refers to a set of software that work together to build digital products or solutions such as websites and mobile applications. Essential for building maintainable and scalable software, tech stacks are also known as technology infrastructures or solution stacks.

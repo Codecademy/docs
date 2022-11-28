@@ -1,15 +1,15 @@
 ---
-Title: 'Dictionaries'
-Description: 'A dictionary is a data set of key-value pairs.'
+Title: "Dictionaries"
+Description: "A dictionary is a data set of key-value pairs."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Data Types'
+  - "Dictionaries"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A dictionary is a data set of key-value pairs. It provides a way to map pieces of data to each other and allows for quick access to values associated with keys.

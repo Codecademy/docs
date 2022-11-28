@@ -1,17 +1,17 @@
 ---
-Title: 'Errors'
-Description: 'In C++, errors help with locating and correcting problems within the source code.'
+Title: "Errors"
+Description: "In C++, errors help with locating and correcting problems within the source code."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Constructors'
-  - 'OOP'
+  - "Classes"
+  - "Objects"
+  - "Constructors"
+  - "OOP"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, **error** messages and their different types help detect and debug issues in the code. Errors can be detected before, during, or after the code has been compiled and executed. Since there are many different errors that could occur, they are classified into groups.

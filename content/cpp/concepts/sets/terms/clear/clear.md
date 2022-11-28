@@ -1,15 +1,15 @@
 ---
-Title: '.clear()'
-Description: 'Removes all values from a set.'
+Title: ".clear()"
+Description: "Removes all values from a set."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Data Types'
-  - 'Sets'
+  - "Data Types"
+  - "Sets"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.clear()`** method removes all values from a set. This will destroy every value and the container will be of size 0.

@@ -1,16 +1,16 @@
 ---
-Title: 'Tables'
-Description: 'A table is an arrangement of data in rows and columns. To add a table in Markdown, use the vertical line to separate each column, and use three or more dahses to create each column’s header.'
+Title: "Tables"
+Description: "A table is an arrangement of data in rows and columns. To add a table in Markdown, use the vertical line to separate each column, and use three or more dahses to create each column’s header."
 Subjects:
-  - 'Developer Tools'
-  - 'Web Development'
+  - "Developer Tools"
+  - "Web Development"
 Tags:
-  - 'Tables'
-  - 'Documentation'
-  - 'GitHub'
+  - "Tables"
+  - "Documentation"
+  - "GitHub"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A table is an arrangement of data in rows and columns.

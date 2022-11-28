@@ -1,14 +1,14 @@
 ---
-Title: 'Iterators'
-Description: 'Iterators are objects used to loop over a group of data members, or a collection.'
+Title: "Iterators"
+Description: "Iterators are objects used to loop over a group of data members, or a collection."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Iterators'
+  - "Iterators"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Iterators** are used to loop over a group of data members, or a collection.

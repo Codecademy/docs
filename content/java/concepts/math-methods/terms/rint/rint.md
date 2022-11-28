@@ -1,16 +1,16 @@
 ---
-Title: '.rint()'
-Description: 'Returns a double that is rounded to the closest whole integer.'
+Title: ".rint()"
+Description: "Returns a double that is rounded to the closest whole integer."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
-  - 'Numbers'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.rint()`** returns a double that is rounded to the closest whole integer.

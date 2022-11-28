@@ -1,15 +1,15 @@
 ---
-Title: '.isNaN()'
-Description: 'Determines whether the passed value is NaN.'
+Title: ".isNaN()"
+Description: "Determines whether the passed value is NaN."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Numbers'
-  - 'Methods'
+  - "Numbers"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `Number.isNaN()` method is part of the `Number` class in JavaScript.

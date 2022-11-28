@@ -1,16 +1,16 @@
 ---
-Title: 'text-overflow'
-Description: 'Specifies how hidden content is signaled to the user.'
+Title: "text-overflow"
+Description: "Specifies how hidden content is signaled to the user."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Fonts'
-  - 'Typography'
+  - "Fonts"
+  - "Typography"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Specifies how hidden content is signaled to the user.

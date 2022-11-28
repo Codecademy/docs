@@ -1,16 +1,16 @@
 ---
-Title: '<summary>'
-Description: 'Acts as a label for the <details> element and reveals additional information when clicked.'
+Title: "<summary>"
+Description: "Acts as a label for the <details> element and reveals additional information when clicked."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
-  - 'Accessibility'
+  - "Semantic"
+  - "Tags"
+  - "Accessibility"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<summary>` semantic HTML element is used as a summary, label, or caption, for the `<details>` element.

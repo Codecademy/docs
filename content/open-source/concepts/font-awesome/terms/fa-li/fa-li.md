@@ -1,17 +1,17 @@
 ---
-Title: 'fa-li'
-Description: 'Used with the fa-ul class to create custom bullets in unordered lists.'
+Title: "fa-li"
+Description: "Used with the fa-ul class to create custom bullets in unordered lists."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-li`** class is used with the [`fa-ul`](https://www.codecademy.com/resources/docs/open-source/font-awesome/fa-ul) class to create custom bullets in [unordered lists](https://www.codecademy.com/resources/docs/html/elements/ul).

@@ -1,15 +1,15 @@
 ---
-Title: 'Tables'
-Description: 'In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.'
+Title: "Tables"
+Description: "In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Tables'
-  - 'Elements'
-  - 'Web Development'
+  - "Tables"
+  - "Elements"
+  - "Web Development"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In HTML, a table is an element that allows for the representation of data in two dimensions; these dimensions are columns and rows.

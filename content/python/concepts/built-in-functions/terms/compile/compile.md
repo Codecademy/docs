@@ -1,16 +1,16 @@
 ---
-Title: 'compile()'
-Description: 'Returns a runnable code object created from a string.'
+Title: "compile()"
+Description: "Returns a runnable code object created from a string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Returns a runnable code object created from a `string`.

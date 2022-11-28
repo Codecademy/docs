@@ -1,18 +1,18 @@
 ---
-Title: 'Requests Module'
-Description: 'The requests module is the de facto standard for sending HTTP requests in Python.'
+Title: "Requests Module"
+Description: "The requests module is the de facto standard for sending HTTP requests in Python."
 Subjects:
-  - 'Web Development'
-  - 'Data Science'
+  - "Web Development"
+  - "Data Science"
 Tags:
-  - 'Modules'
-  - 'APIs'
-  - 'Strings'
-  - 'HTTP'
-  - 'Requests'
+  - "Modules"
+  - "APIs"
+  - "Strings"
+  - "HTTP"
+  - "Requests"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`requests`** module is the de facto standard for sending [HTTP](https://www.codecademy.com/resources/docs/general/http) requests in Python.

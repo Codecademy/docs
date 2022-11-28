@@ -1,15 +1,15 @@
 ---
-Title: 'round()'
-Description: 'Returns the integer that is nearest to the argument, with halfway cases rounded away from the ending zero.'
+Title: "round()"
+Description: "Returns the integer that is nearest to the argument, with halfway cases rounded away from the ending zero."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`round()`** function returns the integer that is closest to the argument, with halfway cases rounded away from the ending zero.

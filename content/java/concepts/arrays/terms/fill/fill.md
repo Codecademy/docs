@@ -1,15 +1,15 @@
 ---
-Title: '.fill()'
-Description: 'Fills an array with a specified value.'
+Title: ".fill()"
+Description: "Fills an array with a specified value."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arrays'
+  - "Methods"
+  - "Arrays"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.fill()` method of the `Arrays` class fills a given array with a given value. The value must match the [data type](https://www.codecademy.com/resources/docs/java/data-types) of the array.

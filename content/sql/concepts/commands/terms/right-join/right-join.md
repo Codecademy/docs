@@ -1,20 +1,20 @@
 ---
-Title: 'RIGHT JOIN'
-Description: 'Combines matching rows with rows from the right-side table.'
+Title: "RIGHT JOIN"
+Description: "Combines matching rows with rows from the right-side table."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Join'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Join"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`RIGHT JOIN`** command combines matching rows with rows from the right-side table.

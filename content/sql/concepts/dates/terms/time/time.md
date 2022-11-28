@@ -1,17 +1,17 @@
 ---
-Title: 'TIME()'
-Description: 'Converts timestamps to time (hh:mm:ss).'
+Title: "TIME()"
+Description: "Converts timestamps to time (hh:mm:ss)."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `TIME()` function allows us to extract just the time portion of a time string, which consists of the hour, minute, and second (hh:mm:ss).

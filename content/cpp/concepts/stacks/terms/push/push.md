@@ -1,17 +1,17 @@
 ---
-Title: '.push()'
-Description: 'Adds an element to the top of the stack.'
+Title: ".push()"
+Description: "Adds an element to the top of the stack."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
-  - 'Stacks'
+  - "Objects"
+  - "OOP"
+  - "Classes"
+  - "Stacks"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.push()`** method adds an element to the top of the `stack`.

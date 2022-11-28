@@ -1,18 +1,18 @@
 ---
-Title: 'IDE'
-Description: 'An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.'
+Title: "IDE"
+Description: "An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program."
 Subjects:
-  - 'Developer Tools'
-  - 'Computer Science'
-  - 'Web Development'
+  - "Developer Tools"
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'IDE'
-  - 'Xcode'
-  - 'Android'
-  - 'Code Editors'
+  - "IDE"
+  - "Xcode"
+  - "Android"
+  - "Code Editors"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An **Integrated Development Environment (IDE)**, enables programmers to consolidate the different aspects of writing a computer program.

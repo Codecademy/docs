@@ -1,20 +1,20 @@
 ---
-Title: 'INNER JOIN'
-Description: 'Returns all rows that have matching values in both tables and omits non-matching rows.'
+Title: "INNER JOIN"
+Description: "Returns all rows that have matching values in both tables and omits non-matching rows."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Join'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "Join"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`INNER JOIN`** command returns all rows that have matching values in both tables and omits non-matching rows.

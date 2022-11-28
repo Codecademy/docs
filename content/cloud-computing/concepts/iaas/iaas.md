@@ -1,16 +1,16 @@
 ---
-Title: 'IaaS'
-Description: 'Infrastructure as a service (IaaS) is a cloud computing model that offers remote computer, storage, and networking resources that are available on demand.'
+Title: "IaaS"
+Description: "Infrastructure as a service (IaaS) is a cloud computing model that offers remote computer, storage, and networking resources that are available on demand."
 Subjects:
-  - 'Computer Science'
-  - 'Networking'
+  - "Computer Science"
+  - "Networking"
 Tags:
-  - 'Networking'
-  - 'Cloud'
-  - 'Infrastructure'
+  - "Networking"
+  - "Cloud"
+  - "Infrastructure"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'paths/back-end-engineer-career-path'
+  - "foundations-of-cloud-computing"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Infrastructure as a service (IaaS)** is a cloud computing model that offers remote computer, storage, and networking resources that are available on demand. These services are typically offered on a pay-as-you-go basis. The user is given control of [virtual machines](https://www.codecademy.com/resources/docs/general/virtual-machines) (software running on a cloud server that acts as its own independent computer). These virtual machines are managed by another peice of software running on the cloud server, known as a hypervisor. Examples of this type of software include Oracle VirtualBox or VMware ESXi. The user is allowed to run arbitrary software on these virtual machines, including operating systems.

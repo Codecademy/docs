@@ -1,18 +1,18 @@
 ---
-Title: 'Tuples'
-Description: 'A tuple is a data structure used to store an ordered and immutable collection of objects.'
+Title: "Tuples"
+Description: "A tuple is a data structure used to store an ordered and immutable collection of objects."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Tuples'
-  - 'Lists'
-  - 'Data Types'
-  - 'Data Structures'
+  - "Collections"
+  - "Tuples"
+  - "Lists"
+  - "Data Types"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A **tuple** is a data structure of comma-separated values. Unlike [dictionaries](https://www.codecademy.com/resources/docs/python/dictionaries), which are unordered and mutable, tuples are immutable and their elements are ordered by insertion (similar to [lists](https://www.codecademy.com/resources/docs/python/lists). Tuple elements can be of different [data types](https://www.codecademy.com/resources/docs/python/data-types).

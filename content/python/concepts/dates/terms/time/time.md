@@ -1,15 +1,15 @@
 ---
-Title: '.time()'
-Description: 'Returns the seconds elapsed since the epoch.'
+Title: ".time()"
+Description: "Returns the seconds elapsed since the epoch."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `datetime.time()` method returns a time in seconds that has passed since the epoch set on the computer.

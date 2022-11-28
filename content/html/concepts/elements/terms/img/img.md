@@ -1,16 +1,16 @@
 ---
-Title: '<img>'
-Description: 'Displays an image on the web page.'
+Title: "<img>"
+Description: "Displays an image on the web page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Images'
-  - 'Tags'
+  - "Elements"
+  - "Images"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<img>`** element displays an image on the web page.

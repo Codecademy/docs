@@ -1,17 +1,17 @@
 ---
-Title: 'Tuples'
-Description: 'Compounds multiple values into a single value.'
+Title: "Tuples"
+Description: "Compounds multiple values into a single value."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Tuples'
-  - 'Arrays'
-  - 'Dictionaries'
-  - 'Sets'
+  - "Tuples"
+  - "Arrays"
+  - "Dictionaries"
+  - "Sets"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Tuples** are a data structure introduced in [Swift 4.0](https://www.swift.org/blog/swift-4.0-released/). It is used to group multiple values, separated by commas `,`, into a single value that is enclosed in parentheses `()`.

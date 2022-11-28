@@ -1,15 +1,15 @@
 ---
-Title: '<aside>'
-Description: 'Represents a part of a page which is relevant to the current content, but not a part of it directly. It can be used for related links, for clarifying a statement from the current article, or even for advertising meant for the current page.'
+Title: "<aside>"
+Description: "Represents a part of a page which is relevant to the current content, but not a part of it directly. It can be used for related links, for clarifying a statement from the current article, or even for advertising meant for the current page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<aside>` semantic HTML element is used to mark additional information that can enhance another element,but isn’t required in order to understand the main content.

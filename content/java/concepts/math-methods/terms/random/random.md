@@ -1,15 +1,15 @@
 ---
-Title: '.random()'
-Description: 'Returns a pseudorandom double that is 0.0 or greater, and less than 1.0.'
+Title: ".random()"
+Description: "Returns a pseudorandom double that is 0.0 or greater, and less than 1.0."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
-  - 'Random'
+  - "Methods"
+  - "Arithmetic"
+  - "Random"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.random()`** method returns a pseudorandom `double` that is greater than or equal to 0.0 and less than 1.0 &mdash; `[0.0, 1.0)`.

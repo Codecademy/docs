@@ -1,14 +1,14 @@
 ---
-Title: '.reverse()'
-Description: 'Reverses the current ordering of a List.'
+Title: ".reverse()"
+Description: "Reverses the current ordering of a List."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Data Structures'
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Collections.reverse()`** method reverses the current ordering of a `List`.

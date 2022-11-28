@@ -1,15 +1,15 @@
 ---
-Title: 'Headings'
-Description: 'There are 6 heading elements in HTML. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website.'
+Title: "Headings"
+Description: "There are 6 heading elements in HTML. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Headings'
-  - 'Semantic'
+  - "Headings"
+  - "Semantic"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Among the HTML elements are the 6 heading elements. They are labeled 1-6, with 1 being the largest sized heading and 6 being the smallest. These are great for labeling different sections in a website:

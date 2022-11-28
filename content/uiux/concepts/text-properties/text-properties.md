@@ -1,14 +1,14 @@
 ---
-Title: 'Text Properties'
-Description: 'Text properties refer to the text’s style settings, such as typeface, size, spacing, and alignment.'
+Title: "Text Properties"
+Description: "Text properties refer to the text’s style settings, such as typeface, size, spacing, and alignment."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Text properties** refer to the text’s style settings, such as typeface, size, spacing, and alignment. In [design software](https://www.codecademy.com/resources/docs/uiux/design-software), default text properties are applied, and each property can be adjusted to suit the needs of the design.

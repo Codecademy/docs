@@ -1,14 +1,14 @@
 ---
-Title: 'Width and Height'
-Description: 'Width is the horizontal measurement of an object and height is the vertical measurement.'
+Title: "Width and Height"
+Description: "Width is the horizontal measurement of an object and height is the vertical measurement."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 Width and height are listed together like this: 500 x 600. The first value is width, the "x" is read as "by," and the second value is height.

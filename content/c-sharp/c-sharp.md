@@ -1,10 +1,10 @@
 ---
-Title: 'C#'
-Description: 'C# is a general purpose programming language developed by Microsoft and released in 2000.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/c-sharp'
+Title: "C#"
+Description: "C# is a general purpose programming language developed by Microsoft and released in 2000."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/language/c-sharp"
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - "learn-c-sharp"
+  - "paths/computer-science"
 ---
 
 C# is a general-purpose programming language developed by Microsoft and released in 2000. It is used for a variety of tasks such as web apps, to desktop apps, to mobile apps, and games.

@@ -1,16 +1,16 @@
 ---
-Title: '.uniform()'
-Description: 'Returns a pseudo-random floating-point number between two given numbers.'
+Title: ".uniform()"
+Description: "Returns a pseudo-random floating-point number between two given numbers."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Random'
-  - 'Functions'
+  - "Random"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.uniform()` method takes two numbers as arguments and returns a pseudo-random floating-point number between them. The result is inclusive of the first value, and possibly inclusive of the second value, depending on rounding.

@@ -1,16 +1,16 @@
 ---
-Title: 'HashMap'
-Description: 'HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
+Title: "HashMap"
+Description: "HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'HashMap'
-  - 'Data Types'
-  - 'Collections'
-  - 'Data Structures'
+  - "HashMap"
+  - "Data Types"
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Instances of the `HashMap` class implement the [`Map`](https://www.codecademy.com/resources/docs/java/map) interface, which means that they store items as key-value pairs.

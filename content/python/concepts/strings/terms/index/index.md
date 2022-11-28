@@ -1,15 +1,15 @@
 ---
-Title: '.index()'
-Description: 'Searches through a string variable for the occurrence of a pattern or a substring.'
+Title: ".index()"
+Description: "Searches through a string variable for the occurrence of a pattern or a substring."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.index()` string method searches through a string variable for the occurrence of a pattern or a substring.

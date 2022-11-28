@@ -1,15 +1,15 @@
 ---
-Title: 'Files'
-Description: 'Files are named locations on disk to store related information that can be used in Python.'
+Title: "Files"
+Description: "Files are named locations on disk to store related information that can be used in Python."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
-  - 'Methods'
+  - "Files"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 **Files** are named locations on the computer's disk that permanently store information for future use of its data. They are used to permanently store data in non-volatile memory (e.g. hard disk) as opposed to volatile sources like Random Access Memory [RAM](https://www.codecademy.com/resources/docs/general/ram), which loses its data when the computer is turned off.

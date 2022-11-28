@@ -1,15 +1,15 @@
 ---
-Title: 'Classes'
-Description: 'A C++ class is a user-defined data type that encapsulates information and behavior about an object. It serves as a blueprint for future inherited classes. A class is comprised of class members which includes attributes and methods.'
+Title: "Classes"
+Description: "A C++ class is a user-defined data type that encapsulates information and behavior about an object. It serves as a blueprint for future inherited classes. A class is comprised of class members which includes attributes and methods."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Classes'
-  - 'Objects'
+  - "Classes"
+  - "Objects"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, a **class** is a user-defined data type that encapsulates information and behavior about an object. It serves as a blueprint for future inherited classes.

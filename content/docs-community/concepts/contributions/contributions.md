@@ -1,15 +1,15 @@
 ---
-Title: 'Contributions'
-Description: 'Contributions to Docs allow community members to reinforce their knowledge and hone their skills with Git and Markdown.'
+Title: "Contributions"
+Description: "Contributions to Docs allow community members to reinforce their knowledge and hone their skills with Git and Markdown."
 Subjects:
-  - 'Code Foundations'
+  - "Code Foundations"
 Tags:
-  - 'Documentation'
-  - 'Git'
-  - 'GitHub'
+  - "Documentation"
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 **Contributions** to Docs allow community members of all skill sets to not only reinforce what they've (perhaps already) learned, but also to hone their skills in version control with [Git](https://www.codecademy.com/resources/docs/git), peer-to-peer collaboration on [GitHub](https://www.codecademy.com/resources/docs/general/github), and writing content in [Markdown](https://www.codecademy.com/resources/docs/markdown). Contributors get to work with the content team that maintains Docs as their contributions go through the [review](https://www.codecademy.com/resources/docs/general/docs-community/reviews) process.

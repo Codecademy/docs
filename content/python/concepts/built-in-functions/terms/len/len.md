@@ -1,16 +1,16 @@
 ---
-Title: 'len()'
-Description: 'Returns the length of an object, which can either be a sequence or collection.'
+Title: "len()"
+Description: "Returns the length of an object, which can either be a sequence or collection."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The built-in `len()` function returns the length of an object, which can either be a sequence or collection.

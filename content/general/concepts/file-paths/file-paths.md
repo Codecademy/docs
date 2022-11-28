@@ -1,16 +1,16 @@
 ---
-Title: 'File Paths'
-Description: 'File paths describe the location of a file in the folder structure of a computer.'
+Title: "File Paths"
+Description: "File paths describe the location of a file in the folder structure of a computer."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'File Paths'
-  - 'Files'
-  - 'URL'
+  - "File Paths"
+  - "Files"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/computer-science'
+  - "learn-html"
+  - "paths/computer-science"
 ---
 
 A **file path** describes the location of a file in a computer's folder structure. They are used to locate files like:

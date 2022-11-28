@@ -1,18 +1,18 @@
 ---
-Title: 'JavaBeans'
-Description: 'JavaBeans are class definitions following a set of particular conventions. They are not tied to any Java framework so any Java program can use them.'
+Title: "JavaBeans"
+Description: "JavaBeans are class definitions following a set of particular conventions. They are not tied to any Java framework so any Java program can use them."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'Data Types'
-  - 'Constructors'
-  - 'Methods'
-  - 'OOP'
+  - "Classes"
+  - "Objects"
+  - "Data Types"
+  - "Constructors"
+  - "Methods"
+  - "OOP"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **JavaBeans** are [class](https://www.codecademy.com/resources/docs/java/classes) definitions following a set of particular conventions. They are not tied to any Java framework so any Java program can use them. All JavaBeans can be considered [POJOs](https://www.codecademy.com/resources/docs/java/pojo) (plain old Java objects). Many Java libraries and frameworks rely on the JavaBean conventions.

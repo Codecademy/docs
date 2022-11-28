@@ -1,18 +1,18 @@
 ---
-Title: '.seed()'
-Description: 'Initializes a pseudo-random number generator with a seeded value and sets the first number.'
+Title: ".seed()"
+Description: "Initializes a pseudo-random number generator with a seeded value and sets the first number."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Random'
-  - 'Methods'
-  - 'Functions'
-  - 'Strings'
+  - "Random"
+  - "Methods"
+  - "Functions"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 In the Python `random` module, the `.seed()` method is used to create a pseudo-random number generator. Pseudo-random number generators appear to produce random numbers by performing some operation on a value. This value is the seed and it sets the first "random" value of the number sequence. With seeds, a user is able to reproduce the same pseudo-random numbers multiple times.

@@ -1,18 +1,18 @@
 ---
-Title: '.transpose()'
-Description: 'Reverses or permutes the axes of an ndarray.'
+Title: ".transpose()"
+Description: "Reverses or permutes the axes of an ndarray."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.transpose()`** method reverses or permutes the axes of an [`ndarray`](https://www.codecademy.com/resources/docs/numpy/ndarray).

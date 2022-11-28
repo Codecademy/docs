@@ -1,17 +1,17 @@
 ---
-Title: '.randrange()'
-Description: 'Selects a random number from a defined range of int values.'
+Title: ".randrange()"
+Description: "Selects a random number from a defined range of int values."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Random'
+  - "Functions"
+  - "Methods"
+  - "Random"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.randrange()` method selects a random number from a defined range of `int` values.

@@ -1,16 +1,16 @@
 ---
-Title: '<select>'
-Description: 'Creates a drop-down list for the user to select from a number of option elements.'
+Title: "<select>"
+Description: "Creates a drop-down list for the user to select from a number of option elements."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<select>`** element creates a dropdown list where the user can select from among a number of [`<option>`](https://www.codecademy.com/resources/docs/html/elements/option) elements.

@@ -1,15 +1,15 @@
 ---
-Title: 'collections.Counter'
-Description: 'A dict subclass that stores counts for hashable objects.'
+Title: "collections.Counter"
+Description: "A dict subclass that stores counts for hashable objects."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Data Types'
+  - "Dictionaries"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A **Counter** is a data type in the `collections` module. It is a [`dict`](https://www.codecademy.com/resources/docs/python/dictionaries) subclass that stores counts for hashable objects. For each key-value pair, the key is the item being counted, and the value is the count of that object. A `Counter`'s items are accessed just as in a dictionary, except accessing a missing key will return a `0` value rather than an error.

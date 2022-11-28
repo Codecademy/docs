@@ -1,17 +1,17 @@
 ---
-Title: 'str()'
-Description: 'Takes in a value that can be converted into a string, and returns a copy of the value in the string datatype.'
+Title: "str()"
+Description: "Takes in a value that can be converted into a string, and returns a copy of the value in the string datatype."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Takes in a value that can be converted into a string, and returns a copy of the value in the `string` datatype. If nothing is passed into `str()`, then an empty string is returned.

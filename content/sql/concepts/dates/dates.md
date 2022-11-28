@@ -1,15 +1,15 @@
 ---
-Title: 'Dates'
-Description: 'Dates in SQL are often written in the following format: DATE: YYYY-MM-DD or DATETIME: YYYY-MM-DD hh:mm:ss. We can use SQL’s date functions to transform data into a desired format. Since date functions can be database specific, verify the functions that exist on your relational database management system.'
+Title: "Dates"
+Description: "Dates in SQL are often written in the following format: DATE: YYYY-MM-DD or DATETIME: YYYY-MM-DD hh:mm:ss. We can use SQL’s date functions to transform data into a desired format. Since date functions can be database specific, verify the functions that exist on your relational database management system."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dates'
-  - 'Documentation'
+  - "Dates"
+  - "Documentation"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 Dates in SQL are often written in the following format:

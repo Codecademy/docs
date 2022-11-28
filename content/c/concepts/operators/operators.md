@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'Operators are used to perform operations on variables and values.'
+Title: "Operators"
+Description: "Operators are used to perform operations on variables and values."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 **Operators** are used to perform operations on variables and values. They are symbols that tell the compiler to perform specific mathematical or logical functions. The C language provides the following types of operators:

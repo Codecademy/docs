@@ -1,16 +1,16 @@
 ---
-Title: '.update()'
-Description: 'Adds the entries in a specified dictionary, or iterable of key-value pairs, to a dictionary.'
+Title: ".update()"
+Description: "Adds the entries in a specified dictionary, or iterable of key-value pairs, to a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.update()` method returns new Python dictionary with entries from another dictionary, or some other iterable, added to it.

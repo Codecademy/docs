@@ -1,14 +1,14 @@
 ---
-Title: 'Accessibility'
-Description: 'Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them.'
+Title: "Accessibility"
+Description: "Accessibility refers to designing devices, products, and environments such that individuals with disabilities or sensory impairments can successfully use them."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-digital-accessibility" />

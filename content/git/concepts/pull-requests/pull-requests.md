@@ -1,15 +1,15 @@
 ---
-Title: 'Pull Request'
-Description: 'Pull requests are used to recommend merging code from one branch into a different branch. PRs are a core tool in open-source software development.'
+Title: "Pull Request"
+Description: "Pull requests are used to recommend merging code from one branch into a different branch. PRs are a core tool in open-source software development."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 Pull requests (PRs) are used to recommend the merging of code from one branch into a different branch. PRs are a core tool in open-source software development as it allows developers to propose changes to large, open-source codebases.

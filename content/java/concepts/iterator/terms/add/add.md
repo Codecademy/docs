@@ -1,14 +1,14 @@
 ---
-Title: '.add()'
-Description: 'Adds an entry to the underlying collection of a ListIterator object.'
+Title: ".add()"
+Description: "Adds an entry to the underlying collection of a ListIterator object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.add()`** method adds an item to the underlying collection of a `ListIterator` object. This method adds the item before the next element that would be returned by the [`.next()`](https://www.codecademy.com/resources/docs/java/iterator/next) method.

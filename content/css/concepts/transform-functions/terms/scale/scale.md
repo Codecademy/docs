@@ -1,16 +1,16 @@
 ---
-Title: 'scale()'
-Description: 'Changes the size of an element to make it larger or smaller.'
+Title: "scale()"
+Description: "Changes the size of an element to make it larger or smaller."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Functions'
-  - 'Positioning'
+  - "Functions"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Changes the size of an element to make it larger or smaller.

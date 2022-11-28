@@ -1,17 +1,17 @@
 ---
-Title: 'Sets'
+Title: "Sets"
 Description: 'In Ruby, a Set is a collection of uordered, non-duplicated values. They are functional like an Array but have quick lookup with Hash-storage. In order to use Sets: 1. Import the set module with require() 2. Use the Set keyword followed by brackets ([]) containing comma-separated values rb require("set") test_set = Set[1, 2]'
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Classes'
-  - 'Hashes'
-  - 'Sets'
+  - "Arrays"
+  - "Classes"
+  - "Hashes"
+  - "Sets"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, a `Set` is a collection of uordered, non-duplicated values. They are functional like an `Array` but have quick lookup with `Hash`-storage.

@@ -1,15 +1,15 @@
 ---
-Title: '.join()'
-Description: 'Concatenates all items from an iterable into a single string.'
+Title: ".join()"
+Description: "Concatenates all items from an iterable into a single string."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.join()` method concatenates all items from an iterable into a single string.

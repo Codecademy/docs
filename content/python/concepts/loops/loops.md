@@ -1,17 +1,17 @@
 ---
-Title: 'Loops'
-Description: 'In Python, a while loop will repeatedly execute a code block as long as a condition evaluates to True. The condition of a while loop is always checked first before the block of code runs. If the condition is not met initially, then the code block will never run. pseudo while condition: # Code inside  This loop will only run 1 time:'
+Title: "Loops"
+Description: "In Python, a while loop will repeatedly execute a code block as long as a condition evaluates to True. The condition of a while loop is always checked first before the block of code runs. If the condition is not met initially, then the code block will never run. pseudo while condition: # Code inside  This loop will only run 1 time:"
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Loops'
-  - 'While'
-  - 'For'
+  - "Loops"
+  - "While"
+  - "For"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 ## While Loops

@@ -1,14 +1,14 @@
 ---
-Title: 'Set'
-Description: 'A Set is an interface for collections that contain zero duplicate elements.'
+Title: "Set"
+Description: "A Set is an interface for collections that contain zero duplicate elements."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Data Structures'
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A `Set` is an interface provided in the `java.util` package that implements collections with zero duplicate elements. Some implementations will have restrictions on the elements the `Set` can contain, such as excluding `null` elements. Adding an ineligible element will typically throw an unchecked `NullPointerException` or a `ClassCastException`.

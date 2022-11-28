@@ -1,17 +1,17 @@
 ---
-Title: 'Links'
-Description: 'Links are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.'
+Title: "Links"
+Description: "Links are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Files'
-  - 'Link'
-  - 'Tags'
-  - 'URL'
+  - "Files"
+  - "Link"
+  - "Tags"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Links** are used in HTML to add features to a web page including styling, functionality, hyperlinks, and navigation.

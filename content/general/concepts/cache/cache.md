@@ -1,17 +1,17 @@
 ---
-Title: 'Cache'
-Description: 'A cache is data stored locally in an application for faster retrieval.'
+Title: "Cache"
+Description: "A cache is data stored locally in an application for faster retrieval."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
-  - 'Algorithms'
-  - 'Queries'
+  - "Best Practices"
+  - "Memory"
+  - "Algorithms"
+  - "Queries"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **cache** is data stored locally in an application for faster retrieval. Caches work by acting as initial locations for data access when client interfaces make a request for data.

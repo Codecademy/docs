@@ -1,14 +1,14 @@
 ---
 Title: "Moore's Law"
-Description: 'Moores Law is a prediction made in 1965 by Gordon Moore (the then CEO of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices.'
+Description: "Moores Law is a prediction made in 1965 by Gordon Moore (the then CEO of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Moore's Law** is a prediction made in 1965 by [Gordon Moore](https://en.wikipedia.org/wiki/Gordon_Moore) (the then CEO of Intel) stating that twice as many transistors would be able to fit onto a computer chip every two years. This idea has served as a guiding principle and goal for the semiconductor industry in order to make sure that progress is being made consistently towards greater computing power in devices.

@@ -1,16 +1,16 @@
 ---
-Title: '.indexOf()'
-Description: 'Returns the first index at which an element can be found. Returns -1 if element is not found.'
+Title: ".indexOf()"
+Description: "Returns the first index at which an element can be found. Returns -1 if element is not found."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Functions'
-  - 'Methods'
+  - "Arrays"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.indexOf()`** method returns the first index at which an element can be found. Returns `-1` if the element is not found.
@@ -41,8 +41,8 @@ console.log(indexOf12);
 If element is not found the result will be `-1`:
 
 ```js
-const pizzaToppings = ['pepperoni', 'olives', 'mushrooms'];
-const indexOfPineapple = pizzaToppings.indexOf('pineapple');
+const pizzaToppings = ["pepperoni", "olives", "mushrooms"];
+const indexOfPineapple = pizzaToppings.indexOf("pineapple");
 
 console.log(indexOfPineapple);
 // Output: -1
@@ -51,8 +51,8 @@ console.log(indexOfPineapple);
 Check if color `'blue'` is in the `colors` array and after the first element:
 
 ```js
-const colors = ['blue', 'orange', 'pink', 'yellow', 'teal'];
-const checkBlue = colors.indexOf('blue', 1);
+const colors = ["blue", "orange", "pink", "yellow", "teal"];
+const checkBlue = colors.indexOf("blue", 1);
 
 console.log(checkBlue);
 // Output: -1

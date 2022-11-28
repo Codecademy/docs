@@ -1,15 +1,15 @@
 ---
-Title: 'PriorityQueue'
-Description: 'A PriorityQueue stores elements in a collection sorted by natural ordering or by a custom Comparator.'
+Title: "PriorityQueue"
+Description: "A PriorityQueue stores elements in a collection sorted by natural ordering or by a custom Comparator."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Queues'
-  - 'Collections'
-  - 'Data Types'
+  - "Queues"
+  - "Collections"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A `PriorityQueue` is an implementation of the [`Queue`](https://www.codecademy.com/resources/docs/java/queue) interface. It stores elements in a collection prioritized by natural ordering or by a custom `Comparator`. The elements are prioritized with the least value element at the head of the queue, and the `Queue` methods `.peek()` and `.poll()` operate on that element.

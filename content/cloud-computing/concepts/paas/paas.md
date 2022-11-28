@@ -1,17 +1,17 @@
 ---
-Title: 'PaaS'
-Description: 'Platform as a service (PaaS) is a service model that offers developers a platform to create, manage, and deploy their applications.'
+Title: "PaaS"
+Description: "Platform as a service (PaaS) is a service model that offers developers a platform to create, manage, and deploy their applications."
 Subjects:
-  - 'Computer Science'
-  - 'Networking'
+  - "Computer Science"
+  - "Networking"
 Tags:
-  - 'Cloud Computing'
-  - 'Platform'
-  - 'Development'
-  - 'Infrastructure'
+  - "Cloud Computing"
+  - "Platform"
+  - "Development"
+  - "Infrastructure"
 CatalogContent:
-  - 'foundations-of-cloud-computing'
-  - 'paths/back-end-engineer-career-path'
+  - "foundations-of-cloud-computing"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **Platform as a service (PaaS)** is a service model offered to simplify the process of developing and deploying apps. With PaaS, developers don't need to worry about the underlying software and hardware their applications depend upon. When using a PaaS, the service provider provides and maintains the following:

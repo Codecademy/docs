@@ -1,15 +1,15 @@
 ---
-Title: 'Geolocation'
-Description: 'Geolocation refers to the process of determining the geographic location of an object, usually through electronic means such as GPS.'
+Title: "Geolocation"
+Description: "Geolocation refers to the process of determining the geographic location of an object, usually through electronic means such as GPS."
 Subjects:
-  - 'Computer Science'
-  - 'Mobile Development'
+  - "Computer Science"
+  - "Mobile Development"
 Tags:
-  - 'Map'
-  - 'Positioning'
+  - "Map"
+  - "Positioning"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 **Geolocation** refers to the process of determining the geographic location of an object, usually through electronic means such as GPS. A modern example of geolocation is the location function in various electronic devices such as smartphones.

@@ -1,19 +1,19 @@
 ---
-Title: 'Conditionals'
-Description: 'Conditionals are expressions that evaluate to either true or false and determine what the program will do next.'
+Title: "Conditionals"
+Description: "Conditionals are expressions that evaluate to either true or false and determine what the program will do next."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Conditionals'
-  - 'Control Flow'
-  - 'If'
-  - 'Else'
-  - 'Data Types'
-  - 'Variables'
+  - "Conditionals"
+  - "Control Flow"
+  - "If"
+  - "Else"
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Conditionals** are expressions that evaluate to either `true` or `false` and determine what the program will do next. As programs become more complex, conditionals can make programs more flexible and robust by addressing multiple scenarios.

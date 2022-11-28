@@ -1,14 +1,14 @@
 ---
-Title: 'Pointers'
-Description: 'A pointer is a special type of variable that stores the address of another variable in it. A pointer variable points to the same data type and is created with the  operator. Then the address of another variable is stored in it.'
+Title: "Pointers"
+Description: "A pointer is a special type of variable that stores the address of another variable in it. A pointer variable points to the same data type and is created with the  operator. Then the address of another variable is stored in it."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Pointers'
+  - "Pointers"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **pointer** is a special type of variable that stores the address of another variable in it.

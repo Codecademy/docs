@@ -1,16 +1,16 @@
 ---
-Title: '.legend()'
-Description: 'Places a legend on the axes, allowing access to manipulate parameters of the legend.'
+Title: ".legend()"
+Description: "Places a legend on the axes, allowing access to manipulate parameters of the legend."
 Subjects:
-  - 'Data Science'
-  - 'Data Visualization'
+  - "Data Science"
+  - "Data Visualization"
 Tags:
-  - 'Graphs'
-  - 'Libraries'
-  - 'Matplotlib'
+  - "Graphs"
+  - "Libraries"
+  - "Matplotlib"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`pyplot.legend()`** function returns a legend on the axes of a plot or subplot.

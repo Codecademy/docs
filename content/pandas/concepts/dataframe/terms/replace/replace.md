@@ -1,18 +1,18 @@
 ---
-Title: '.replace()'
-Description: 'Returns a DataFrame object after values within the DataFrame have been changed.'
+Title: ".replace()"
+Description: "Returns a DataFrame object after values within the DataFrame have been changed."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Dynamic Programming'
-  - 'Functions'
-  - 'Methods'
-  - 'Pandas'
+  - "Data Structures"
+  - "Dynamic Programming"
+  - "Functions"
+  - "Methods"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.replace()`** function returns a new `DataFrame` object with specified values replaced with another specified value. The original `DataFrame` object, used to call the method, remains unchanged unless explicitly declared.

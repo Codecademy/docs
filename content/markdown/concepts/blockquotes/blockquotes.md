@@ -1,16 +1,16 @@
 ---
-Title: 'Blockquotes'
-Description: 'Blockquotes indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote.'
+Title: "Blockquotes"
+Description: "Blockquotes indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote."
 Subjects:
-  - 'Developer Tools'
-  - 'Web Development'
+  - "Developer Tools"
+  - "Web Development"
 Tags:
-  - 'Quotes'
-  - 'Documentation'
-  - 'GitHub'
+  - "Quotes"
+  - "Documentation"
+  - "GitHub"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Blockquotes indicate that the enclosed text is an extended quotation. They can also be used to bring attention to a thought-provoking quote. Any quotation that is 50 words or longer should be formatted as a blockquote.

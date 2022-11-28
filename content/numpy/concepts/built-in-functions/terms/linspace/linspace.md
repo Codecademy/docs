@@ -1,18 +1,18 @@
 ---
-Title: '.linspace()'
-Description: 'Returns an array of evenly-spaced numbers over a given interval.'
+Title: ".linspace()"
+Description: "Returns an array of evenly-spaced numbers over a given interval."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Arrays'
-  - 'Functions'
-  - 'NumPy'
+  - "Data Structures"
+  - "Arrays"
+  - "Functions"
+  - "NumPy"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.linspace()`** function returns an array of evenly-spaced numbers over a specified interval \[`start`,`stop`\], optionally excluding the `stop` value.

@@ -1,15 +1,15 @@
 ---
-Title: 'Primary Keys'
-Description: 'SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys. A primary key column has a few requirements: - None of the values can be NULL. - Each value must be unique (i.e., you can’t have two customers with the same customerid in the customers table). - A table can not have more than one primary key column. Heres an orders table where the orderid is its primary key: | orderid | customerid | totalcost | purchasedate |'
+Title: "Primary Keys"
+Description: "SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys. A primary key column has a few requirements: - None of the values can be NULL. - Each value must be unique (i.e., you can’t have two customers with the same customerid in the customers table). - A table can not have more than one primary key column. Heres an orders table where the orderid is its primary key: | orderid | customerid | totalcost | purchasedate |"
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Comments'
-  - 'Documentation'
+  - "Comments"
+  - "Documentation"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys.

@@ -1,17 +1,17 @@
 ---
-Title: 'drop-shadow()'
-Description: 'Creates a drop shadow effect on an element.'
+Title: "drop-shadow()"
+Description: "Creates a drop shadow effect on an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Functions'
-  - 'Colors'
+  - "Images"
+  - "Functions"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Creates a drop shadow effect on an element.

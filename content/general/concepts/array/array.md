@@ -1,16 +1,16 @@
 ---
-Title: 'Array'
-Description: 'An array is a collection of stored data that can hold values of various data type.'
+Title: "Array"
+Description: "An array is a collection of stored data that can hold values of various data type."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Arrays'
-  - 'Data Structures'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Structures"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 An **array** is a collection of stored data that can hold values of various data type. Arrays themselves are considered to be a composite [data type](https://www.codecademy.com/resources/docs/general/data-types). Python uses [lists](https://www.codecademy.com/resources/docs/python/lists) as an equalivalent type.

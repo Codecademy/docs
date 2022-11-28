@@ -1,19 +1,19 @@
 ---
-Title: 'Object'
-Description: 'An object is associative data that commonly takes the form of a data structure, function, method, variable, or class.'
+Title: "Object"
+Description: "An object is associative data that commonly takes the form of a data structure, function, method, variable, or class."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Objects'
-  - 'Inheritance'
-  - 'Methods'
-  - 'Structure'
-  - 'Encapsulation'
-  - 'Classes'
+  - "Objects"
+  - "Inheritance"
+  - "Methods"
+  - "Structure"
+  - "Encapsulation"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 An **object** is associative data that commonly takes the form of a data structure, [function](https://www.codecademy.com/resources/docs/general/function), [method](https://www.codecademy.com/resources/docs/general/method), variable, or [class](https://www.codecademy.com/resources/docs/general/class).

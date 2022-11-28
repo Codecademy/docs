@@ -1,16 +1,16 @@
 ---
-Title: 'User Input'
-Description: 'std::cin, which stands for “character input”, reads user input from the keyboard.'
+Title: "User Input"
+Description: "std::cin, which stands for “character input”, reads user input from the keyboard."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Input'
-  - 'Print'
-  - 'Variables'
+  - "Input"
+  - "Print"
+  - "Variables"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 `std::cin`, which stands for **character input**, reads user input from the keyboard.

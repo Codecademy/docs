@@ -1,15 +1,15 @@
 ---
-Title: '.map()'
-Description: 'Returns a new array with the results of calling a function for every element in the array.'
+Title: ".map()"
+Description: "Returns a new array with the results of calling a function for every element in the array."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.map()`** method returns a new array containing the transformed values from calling the passed-in [closure](https://www.codecademy.com/resources/docs/swift/closures) on each element of the given collection. It can be used on types that follow Swift's `Sequence` and `Collection` protocols such as [arrays](https://www.codecademy.com/resources/docs/swift/arrays), [sets](https://www.codecademy.com/resources/docs/swift/sets), and [dictionaries](https://www.codecademy.com/resources/docs/swift/dictionaries).

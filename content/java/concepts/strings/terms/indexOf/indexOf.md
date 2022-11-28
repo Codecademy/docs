@@ -1,14 +1,14 @@
 ---
-Title: '.indexOf()'
-Description: 'Returns the zero-indexed position of the first occurrence of the given character(s) in a string.'
+Title: ".indexOf()"
+Description: "Returns the zero-indexed position of the first occurrence of the given character(s) in a string."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.indexOf()` method returns the zero-indexed position of the first occurrence of the given character(s) in a string. It returns `-1` if the given characters(s) are not found.

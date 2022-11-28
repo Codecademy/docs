@@ -1,19 +1,19 @@
 ---
-Title: 'CASE'
-Description: 'Returns different output based on the conditions of each statement.'
+Title: "CASE"
+Description: "Returns different output based on the conditions of each statement."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Tables'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "Tables"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`CASE`** command is a logical test that returns different output based on the conditions of each statement and closes with an `END` clause.

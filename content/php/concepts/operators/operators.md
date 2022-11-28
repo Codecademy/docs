@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'Operators are used to perform operations on variables and values. PHP has the following basic arithmetic operators to perform common mathematical operations: addition, subtraction, multiplication, division, modulo, exponentiation.'
+Title: "Operators"
+Description: "Operators are used to perform operations on variables and values. PHP has the following basic arithmetic operators to perform common mathematical operations: addition, subtraction, multiplication, division, modulo, exponentiation."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 **Operators** are used to perform operations on variables and values.

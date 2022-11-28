@@ -1,19 +1,19 @@
 ---
-Title: 'Strings'
-Description: 'A string is a sequence of characters contained within a pair of single quotes or double quotes.'
+Title: "Strings"
+Description: "A string is a sequence of characters contained within a pair of single quotes or double quotes."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
-  - 'Data Science'
+  - "Code Foundations"
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Strings'
-  - 'Formatting'
-  - 'Lists'
-  - 'Data Types'
-  - 'Characters'
+  - "Strings"
+  - "Formatting"
+  - "Lists"
+  - "Data Types"
+  - "Characters"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A string is a sequence of characters contained within a pair of single quotes (`'`) or double quotes(`"`). Strings can store words, sentences, or whole paragraphs. They can be any length and can contain letters, numbers, symbols, and spaces.

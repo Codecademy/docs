@@ -1,16 +1,16 @@
 ---
-Title: 'translate()'
-Description: 'Translates an element along the X and/or Y axes.'
+Title: "translate()"
+Description: "Translates an element along the X and/or Y axes."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Functions'
-  - 'Positioning'
+  - "Functions"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `translate` function moves an element along the X- and/or Y-axis.

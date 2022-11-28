@@ -1,16 +1,16 @@
 ---
-Title: 'Software Testing'
-Description: 'Software testing refers to the process of verifying and evaluating the function of a software application or product.'
+Title: "Software Testing"
+Description: "Software testing refers to the process of verifying and evaluating the function of a software application or product."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Conceptual'
-  - 'Developer Tools'
-  - 'Development'
+  - "Conceptual"
+  - "Developer Tools"
+  - "Development"
 CatalogContent:
-  - 'learn-testing-for-web-development'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-testing-for-web-development"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-software-testing/" />

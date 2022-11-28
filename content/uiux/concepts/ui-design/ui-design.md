@@ -1,14 +1,14 @@
 ---
-Title: 'User Interface (UI) Design'
-Description: 'User interface (UI) design is a design discipline focused on the visual design of the interface through which users interact with a product or system.'
+Title: "User Interface (UI) Design"
+Description: "User interface (UI) design is a design discipline focused on the visual design of the interface through which users interact with a product or system."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **User interface (UI) design** is a [design](https://www.codecademy.com/resources/docs/uiux/design) discipline focused on the visual design of the interface through which users interact with a product or system.

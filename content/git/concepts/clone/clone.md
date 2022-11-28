@@ -1,15 +1,15 @@
 ---
-Title: 'Clone'
-Description: 'Cloning means copying an existing remote repository to the current local directory.'
+Title: "Clone"
+Description: "Cloning means copying an existing remote repository to the current local directory."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, cloning means copying an existing remote repository to the current directory.

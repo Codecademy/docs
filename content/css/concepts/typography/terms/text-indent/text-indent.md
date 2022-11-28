@@ -1,15 +1,15 @@
 ---
-Title: 'text-indent'
-Description: 'Leaves empty space on the first line in a text-block.'
+Title: "text-indent"
+Description: "Leaves empty space on the first line in a text-block."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Fonts'
-  - 'Typography'
+  - "Fonts"
+  - "Typography"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`text-indent`** leaves empty space on the first line in a text-block.

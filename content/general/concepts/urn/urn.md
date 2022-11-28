@@ -1,15 +1,15 @@
 ---
-Title: 'URN'
-Description: 'Refers to resources without disclosing any location or proof of existence.'
+Title: "URN"
+Description: "Refers to resources without disclosing any location or proof of existence."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Link'
-  - 'URL'
+  - "Link"
+  - "URL"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **Uniform Resource Name (URN)** are general [URIs](https://www.codecademy.com/resources/docs/general/uri) that refer to resources without disclosing any location or proof of existence.

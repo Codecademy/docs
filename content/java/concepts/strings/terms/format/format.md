@@ -1,14 +1,14 @@
 ---
-Title: '.format()'
-Description: 'Returns a string with additional arguments in a specifically defined format.'
+Title: ".format()"
+Description: "Returns a string with additional arguments in a specifically defined format."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.format()`** method returns a string with additional arguments in a specifically defined format.

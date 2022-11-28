@@ -1,16 +1,16 @@
 ---
-Title: 'Hoisting'
+Title: "Hoisting"
 Description: 'Hoisting is a default process where JavaScript "splits" var and function declarations from their definitions. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed. In JavaScript, variables declared with the var keyword are hoist-able. For example: js console.log(My name is ${myName}.); // Output: My name is undefined. var myName = Brandon;  In the code block, we are logging myName to the console before it is declared and assigned. Doing so will yield undefined. While JavaScripts compiler has stored the declaration for myName in memory, its definition is still not known. Therefore, its value and type is undefined.'
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Variables'
-  - 'Arguments'
+  - "Functions"
+  - "Variables"
+  - "Arguments"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Hoisting is a default process where JavaScript "splits" `var` and `function` declarations from their definitions. These declarations are "moved up" to the top of the file above where they were defined and/or used. This means that JavaScript knows about these declarations before the rest of the code is executed.
@@ -22,7 +22,7 @@ In JavaScript, variables declared with the `var` keyword are hoist-able. For exa
 ```js
 console.log(`My name is ${myName}.`); // Output: My name is undefined.
 
-var myName = 'Brandon';
+var myName = "Brandon";
 ```
 
 In the code block, we are logging `myName` to the console before it is declared and assigned. Doing so will yield `undefined`. While JavaScript's compiler has stored the _declaration_ for `myName` in memory, its _definition_ is still not known. Therefore, its value and type is `undefined`.
@@ -34,7 +34,7 @@ var myName;
 
 console.log(`My name is ${myName}.`); // Output: My name is undefined.
 
-myName = 'Brandon';
+myName = "Brandon";
 ```
 
 If we tried to log a variable that hasn't been defined yet, we'd get a `ReferenceError`:
@@ -42,7 +42,7 @@ If we tried to log a variable that hasn't been defined yet, we'd get a `Referenc
 ```js
 console.log(`My name is ${name}.`); // --> ReferenceError
 
-var myName = 'Brandon';
+var myName = "Brandon";
 ```
 
 ### Functions
@@ -53,7 +53,7 @@ In addition to variables, functions can be hoisted in JavaScript. This is mainly
 console.log(greetings()); // Output: Hi! My name is Brandon.
 
 function greetings() {
-  var myName = 'Brandon';
+  var myName = "Brandon";
   console.log(`Hi! My name is ${myName}.`);
 }
 ```
@@ -71,7 +71,7 @@ In the code above, we wrote a log statement for executed `greetings()` function,
 console.log(`${greetings}`);
 
 function greetings() {
-  var myName = 'Brandon';
+  var myName = "Brandon";
   console.log(`Hi! My name is ${myName}.`);
 }
 ```
@@ -91,7 +91,7 @@ Because `greetings` was defined as _function declaration_, the entire function w
 console.log(greetings);
 
 var greetings = function () {
-  var myName = 'Brandon';
+  var myName = "Brandon";
   console.log(`Hi! My name is ${myName}.`);
 };
 ```
@@ -110,7 +110,7 @@ console.log(typeof greetings); // undefined
 console.log(greetings());
 
 var greetings = function () {
-  var myName = 'Brandon';
+  var myName = "Brandon";
   console.log(`Hi! My name is ${myName}.`);
 };
 ```
@@ -136,13 +136,13 @@ As of ES6, `let` and `const` are recommended for replacing `var` when declaring 
 // Before hoisting
 
 console.log(`My name is ${myName}.`);
-let myName = 'Brandon';
+let myName = "Brandon";
 
 // After hoisting
 
 let myName;
 console.log(`My name is ${myName}.`); // ReferenceError: Cannot access 'myName' before initialization
-myName = 'Brandon';
+myName = "Brandon";
 ```
 
 In the code above, we logged the phrase with myName to the console. On the next line, we declared and defined `myName` using `let` and "Brandon", respectively. During the execution phase, the `let myName` declaration is hoisted up, but the initialization is left below. Because of how `let` works, the log statement threw the `ReferenceError`. This can be avoided if initialization occurs before the log statement.
@@ -150,13 +150,13 @@ In the code above, we logged the phrase with myName to the console. On the next 
 ```js
 // Before hoisting
 
-let myName = 'Brandon';
+let myName = "Brandon";
 console.log(`My name is ${myName}.`);
 
 // After hoisting
 
 let myName;
-myName = 'Brandon';
+myName = "Brandon";
 console.log(`My name is ${myName}.`); // Output: My name is Brandon.
 ```
 

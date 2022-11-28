@@ -1,17 +1,17 @@
 ---
-Title: 'tbody'
-Description: 'Groups the body content in a table. '
+Title: "tbody"
+Description: "Groups the body content in a table. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tables'
-  - 'Elements'
-  - 'Web Development'
+  - "Tables"
+  - "Elements"
+  - "Web Development"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Groups the body content in a table.

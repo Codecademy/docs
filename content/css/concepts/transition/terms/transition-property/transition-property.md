@@ -1,15 +1,15 @@
 ---
-Title: 'transition-property'
-Description: 'Specifies the property or properties of an element that a transition effect should apply to. '
+Title: "transition-property"
+Description: "Specifies the property or properties of an element that a transition effect should apply to. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
+  - "Transitions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Specifies the property or properties of an element that a transition effect should apply to.

@@ -1,16 +1,16 @@
 ---
-Title: 'Iterators'
-Description: 'In Python, an iterator is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through it to perform the required tasks.'
+Title: "Iterators"
+Description: "In Python, an iterator is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through it to perform the required tasks."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Iterators'
-  - 'OOP'
-  - 'Loops'
+  - "Iterators"
+  - "OOP"
+  - "Loops"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 In Python, an iterator is an object representing a collection of elements (such as data or methods) where each element can be accessed by traversing through the collection to perform the required tasks.

@@ -1,15 +1,15 @@
 ---
-Title: '.sum()'
-Description: 'Produces a new Series or DataFrame with aggregate sums for the groups in a GroupBy object.'
+Title: ".sum()"
+Description: "Produces a new Series or DataFrame with aggregate sums for the groups in a GroupBy object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.sum()`** method produces a new `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) with aggregate sums for the groups in a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object.

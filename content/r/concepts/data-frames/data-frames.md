@@ -1,17 +1,17 @@
 ---
-Title: 'Data Frames'
-Description: 'Data frames are objects that store data into two dimensions of columns and rows.'
+Title: "Data Frames"
+Description: "Data frames are objects that store data into two dimensions of columns and rows."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Data Types'
-  - 'Objects'
-  - 'Tables'
+  - "Data Structures"
+  - "Data Types"
+  - "Objects"
+  - "Tables"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 **Data frames** are objects that store data into a table with two dimensions represented by columns and rows. The columns are the different characteristics and the rows are instances of a set of characteristics. Data frames are useful for storing different [data types](https://www.codecademy.com/resources/docs/r/data-types).

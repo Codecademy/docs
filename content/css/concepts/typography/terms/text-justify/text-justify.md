@@ -1,16 +1,16 @@
 ---
-Title: 'text-justify'
-Description: 'Sets the justifcation method of text when text-align: justify; is applied to an element.'
+Title: "text-justify"
+Description: "Sets the justifcation method of text when text-align: justify; is applied to an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Fonts'
-  - 'Typography'
+  - "Fonts"
+  - "Typography"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Sets the justifcation method of text when `text-align: justify;` is applied to an element.

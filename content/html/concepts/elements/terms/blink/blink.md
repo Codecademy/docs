@@ -1,17 +1,17 @@
 ---
-Title: '<blink>'
-Description: 'Used to make text flash on and off and is now obsolete, deprecated, and non-standard.'
+Title: "<blink>"
+Description: "Used to make text flash on and off and is now obsolete, deprecated, and non-standard."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
-  - 'Obsolete'
+  - "Elements"
+  - "Tags"
+  - "Style"
+  - "Obsolete"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<blink>` element is an obsolete tag that was historically used to make text flash on and off. However it is now considered to be obsolete and non-standard. It is now deprecated from most browsers, and is not part of the current [HTML specifications](https://html.spec.whatwg.org/).

@@ -1,17 +1,17 @@
 ---
-Title: 'Progressive Web Application'
-Description: 'A progressive web application provides a consistent, browser-based experience across multiple platforms like mobile and desktop.'
+Title: "Progressive Web Application"
+Description: "A progressive web application provides a consistent, browser-based experience across multiple platforms like mobile and desktop."
 Subjects:
-  - 'Mobile Development'
-  - 'Web Development'
+  - "Mobile Development"
+  - "Web Development"
 Tags:
-  - 'Accessibility'
-  - 'Browsers'
-  - 'Browser Compatibility'
-  - 'Development'
+  - "Accessibility"
+  - "Browsers"
+  - "Browser Compatibility"
+  - "Development"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/" />

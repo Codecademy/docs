@@ -1,16 +1,16 @@
 ---
-Title: 'Firebase'
-Description: 'Firebase is a cloud computing and app development platform hosted by Google.'
+Title: "Firebase"
+Description: "Firebase is a cloud computing and app development platform hosted by Google."
 Subjects:
-  - 'Computer Science'
-  - 'Mobile Development'
+  - "Computer Science"
+  - "Mobile Development"
 Tags:
-  - 'Firebase'
-  - 'APIs'
-  - 'Developer Tools'
+  - "Firebase"
+  - "APIs"
+  - "Developer Tools"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 [**Firebase**](https://firebase.google.com/) is a [cloud computing](https://www.codecademy.com/resources/docs/general/cloud-computing) and app development platform hosted by Google.

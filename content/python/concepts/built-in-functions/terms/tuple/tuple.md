@@ -1,17 +1,17 @@
 ---
-Title: 'tuple()'
-Description: 'Creates a new tuple.'
+Title: "tuple()"
+Description: "Creates a new tuple."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Tuples'
-  - 'Data Structures'
-  - 'Iterators'
+  - "Collections"
+  - "Tuples"
+  - "Data Structures"
+  - "Iterators"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The built-in **`tuple()`** function creates a new [tuple](https://www.codecademy.com/resources/docs/python/tuples).

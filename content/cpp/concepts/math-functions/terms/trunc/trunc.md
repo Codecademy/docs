@@ -1,14 +1,14 @@
 ---
-Title: 'trunc()'
-Description: 'Returns the integral part of the argument.'
+Title: "trunc()"
+Description: "Returns the integral part of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`trunc()`** function rounds the specified argument towards zero and returns the nearest integral value not larger in magnitude than the argument.

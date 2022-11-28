@@ -1,17 +1,17 @@
 ---
-Title: '.union()'
-Description: 'Returns a new set that combines objects from all sets involved, removing any duplicates.'
+Title: ".union()"
+Description: "Returns a new set that combines objects from all sets involved, removing any duplicates."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - "Collections"
+  - "Functions"
+  - "Methods"
+  - "Sets"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.union()` method returns a new set that combines objects from all [sets](https://www.codecademy.com/resources/docs/python/sets) involved, removing any duplicates.

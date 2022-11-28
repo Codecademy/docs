@@ -1,15 +1,15 @@
 ---
-Title: '<mark>'
-Description: 'Represents part of a text that should be rendered as marked or highlighted.'
+Title: "<mark>"
+Description: "Represents part of a text that should be rendered as marked or highlighted."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tags'
-  - 'Semantic'
+  - "Tags"
+  - "Semantic"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<mark>` semantic HTML element represents part of a text that should be rendered as marked or highlighted, due to being particularly relevant in its specific context. It can be used to draw the reader's attention to a specific word, phrase, or section.

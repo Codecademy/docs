@@ -1,16 +1,16 @@
 ---
-Title: 'Function'
-Description: 'The function data type does not immediately run upon the execution of a file. It must be called on to perform a specific task.'
+Title: "Function"
+Description: "The function data type does not immediately run upon the execution of a file. It must be called on to perform a specific task."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Functions'
-  - 'Types'
+  - "Data Types"
+  - "Functions"
+  - "Types"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 **Functions** hold a distinct place among the [data types](https://www.codecademy.com/resources/docs/general/data-types). They are blocks of code that yield results or perform a specific task. In some programming languages, they are processed as objects of data. This is because in some languages they are derived from objects and its closest classification is with composite data types.

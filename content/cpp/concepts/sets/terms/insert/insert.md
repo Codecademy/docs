@@ -1,15 +1,15 @@
 ---
-Title: '.insert()'
-Description: 'Inserts a single value into a set.'
+Title: ".insert()"
+Description: "Inserts a single value into a set."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Data Types'
-  - 'Sets'
+  - "Data Types"
+  - "Sets"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Values can be inserted into a declared set with the **`.insert()`** method.

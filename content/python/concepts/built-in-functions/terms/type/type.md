@@ -1,17 +1,17 @@
 ---
-Title: 'type()'
-Description: 'Returns the data type of the argument passed to the function.'
+Title: "type()"
+Description: "Returns the data type of the argument passed to the function."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Built-in Functions'
-  - 'Functions'
-  - 'Methods'
-  - 'Types'
+  - "Built-in Functions"
+  - "Functions"
+  - "Methods"
+  - "Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`type()`** function returns the data type of the argument passed to it. When the argument is an instance of a [class](https://www.codecademy.com/resources/docs/python/classes), it returns the class that it is an instance of.

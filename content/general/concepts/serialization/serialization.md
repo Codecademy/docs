@@ -1,17 +1,17 @@
 ---
-Title: 'Serialization'
-Description: 'Serialization is the process of translating a complex object into a format that can be deserialized back into a copy of the original object.'
+Title: "Serialization"
+Description: "Serialization is the process of translating a complex object into a format that can be deserialized back into a copy of the original object."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Classes'
-  - 'Data Structures'
-  - 'JSON'
-  - 'Objects'
+  - "Classes"
+  - "Data Structures"
+  - "JSON"
+  - "Objects"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Serialization** is the process of translating a complex object into a format, typically a string of characters, that can be deserialized back into a copy of the original object. This is beneficial as it allows the software to save the state of an arbitrary object to a destination that can be completely unaware of its details. Any object can be saved to a simple string variable, database field, external file system, third-party application in the [cloud](https://www.codecademy.com/resources/docs/general/cloud-computing), or even printed out on a sheet of paper.

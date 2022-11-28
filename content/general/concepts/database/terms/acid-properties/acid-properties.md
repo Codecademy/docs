@@ -1,14 +1,14 @@
 ---
-Title: 'ACID Properties'
-Description: 'Refers to properties a database transaction must follow in order to maintain consistency in a database.'
+Title: "ACID Properties"
+Description: "Refers to properties a database transaction must follow in order to maintain consistency in a database."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
+  - "Database"
 CatalogContent:
-  - 'paths/analyze-data-with-sql'
-  - 'paths/data-science'
+  - "paths/analyze-data-with-sql"
+  - "paths/data-science"
 ---
 
 **ACID properties** refer to properties a database [transaction](https://www.codecademy.com/resources/docs/general/database/transaction) must follow in order to maintain consistency in a database. Those properties are as follows:

@@ -1,15 +1,15 @@
 ---
-Title: 'open()'
-Description: 'Used for opening files in a Python program.'
+Title: "open()"
+Description: "Used for opening files in a Python program."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
-  - 'Functions'
+  - "Files"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `open()` function is built into Python and can be used for opening files.

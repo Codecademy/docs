@@ -1,16 +1,16 @@
 ---
-Title: 'Selectors'
-Description: 'Selectors are used to style HTML elements according to their type and/or attribute(s).'
+Title: "Selectors"
+Description: "Selectors are used to style HTML elements according to their type and/or attribute(s)."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Selectors'
-  - 'Elements'
-  - 'Style'
+  - "Selectors"
+  - "Elements"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Selectors** are used to style [HTML elements](https://www.codecademy.com/resources/docs/html/elements) according to their type and/or attributes.
@@ -63,7 +63,7 @@ Most commonly, the `class` and `id` attributes are assigned to elements for styl
   /* declarations here */
 }
 
-element[attribute='value'] {
+element[attribute="value"] {
   /* declarations here */
 }
 ```
@@ -87,7 +87,7 @@ The following rules select elements based on `id`, `class`, and other attributes
   color: red;
 }
 
-li[title='red'] {
+li[title="red"] {
   background-color: red;
   color: #fff;
 }

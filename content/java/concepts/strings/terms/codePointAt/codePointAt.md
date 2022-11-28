@@ -1,14 +1,14 @@
 ---
-Title: '.codePointAt()'
-Description: 'Returns the Unicode value at the given index in the string.'
+Title: ".codePointAt()"
+Description: "Returns the Unicode value at the given index in the string."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Returns the Unicode value at the given index in the string.

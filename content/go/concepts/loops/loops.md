@@ -1,16 +1,16 @@
 ---
-Title: 'Loops'
-Description: 'Go uses the for loop syntax for writing several types of loop statements.'
+Title: "Loops"
+Description: "Go uses the for loop syntax for writing several types of loop statements."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Control Flow'
-  - 'Iterators'
-  - 'Loops'
+  - "Control Flow"
+  - "Iterators"
+  - "Loops"
 CatalogContent:
-  - 'learn-go'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-go"
+  - "paths/back-end-engineer-career-path"
 ---
 
 There are several kinds of loops in Go, all written with a syntax similar to the `for` loop statement.

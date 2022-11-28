@@ -1,16 +1,16 @@
 ---
-Title: 'Collections'
-Description: 'The Collections class provides static methods that operate on or return Collection objects.'
+Title: "Collections"
+Description: "The Collections class provides static methods that operate on or return Collection objects."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Classes'
-  - 'Methods'
-  - 'Collections'
-  - 'Data Structures'
+  - "Classes"
+  - "Methods"
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Collections`** class provides static methods that operate on or return [`Collection`](https://www.codecademy.com/resources/docs/java/collection) objects. It is part of the `java.util` package.

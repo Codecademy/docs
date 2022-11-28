@@ -1,15 +1,15 @@
 ---
-Title: 'nan()'
-Description: 'Returns a quiet NaN (Not-A-Number) value of type double.'
+Title: "nan()"
+Description: "Returns a quiet NaN (Not-A-Number) value of type double."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`nan()`** function returns a quiet `NaN` (not a number) value of type `double`.

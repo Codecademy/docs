@@ -1,14 +1,14 @@
 ---
-Title: 'cos()'
-Description: 'Returns the cosine of an argument given in radians.'
+Title: "cos()"
+Description: "Returns the cosine of an argument given in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`cos()`** returns the cosine of an argument given in radians.

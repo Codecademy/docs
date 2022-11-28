@@ -1,15 +1,15 @@
 ---
-Title: '.is_alive()'
-Description: 'Returns True if the thread is still running and False, otherwise.'
+Title: ".is_alive()"
+Description: "Returns True if the thread is still running and False, otherwise."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.is_alive()` method returns `True` if the thread is still running and `False`, otherwise.

@@ -1,18 +1,18 @@
 ---
-Title: '<abbr>'
-Description: 'Indicates an acronym or abbreviation of a longer word or phrase.'
+Title: "<abbr>"
+Description: "Indicates an acronym or abbreviation of a longer word or phrase."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Accessibility'
-  - 'DOM'
-  - 'Elements'
-  - 'Semantic'
-  - 'Tags'
+  - "Accessibility"
+  - "DOM"
+  - "Elements"
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<abbr>`** element indicates an acronym or abbreviation of a longer word or phrase. It can use the `title` attribute which is optional but recommended.

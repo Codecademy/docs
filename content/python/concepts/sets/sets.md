@@ -1,15 +1,15 @@
 ---
-Title: 'Sets'
-Description: 'A set is an unordered collection of elements without any duplicates.'
+Title: "Sets"
+Description: "A set is an unordered collection of elements without any duplicates."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Sets'
-  - 'Data Types'
+  - "Sets"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A set is an unordered collection of elements without any duplicates.

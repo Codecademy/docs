@@ -1,16 +1,16 @@
 ---
-Title: 'flex-direction'
-Description: 'A property that specifies the direction in which elements are distributed within a container.'
+Title: "flex-direction"
+Description: "A property that specifies the direction in which elements are distributed within a container."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Flexbox'
-  - 'Layout'
+  - "Flexbox"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A property that specifies the direction in which elements are distributed within a container.

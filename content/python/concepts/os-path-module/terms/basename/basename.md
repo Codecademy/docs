@@ -1,15 +1,15 @@
 ---
-Title: '.basename()'
-Description: 'Returns the part of a pathname after the last forward-slash.'
+Title: ".basename()"
+Description: "Returns the part of a pathname after the last forward-slash."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.basename()`** method returns the part of a pathname after the last forward-slash.

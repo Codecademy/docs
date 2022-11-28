@@ -1,14 +1,14 @@
 ---
-Title: '.nextIndex()'
-Description: 'Returns the index of next element from a ListIterator object.'
+Title: ".nextIndex()"
+Description: "Returns the index of next element from a ListIterator object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.nextIndex()`** method returns the index of the next element from a `ListIterator` object. If there is not a next element, it returns the size of the underlying list.

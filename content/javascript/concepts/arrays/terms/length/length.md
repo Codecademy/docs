@@ -1,15 +1,15 @@
 ---
-Title: '.length'
-Description: 'Returns the specific number of elements in the array.'
+Title: ".length"
+Description: "Returns the specific number of elements in the array."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Properties'
+  - "Arrays"
+  - "Properties"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.length` array property returns the specific number of elements in the array.
@@ -26,13 +26,13 @@ Setting the length with a positive value that is lower than the actual array len
 
 ```js
 const daysOfWeek = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 const lengthOfWeek = daysOfWeek.length;
@@ -59,7 +59,7 @@ console.log(numbers);
 Shortening an array:
 
 ```js
-const colors = ['purple', 'orange', 'yellow', 'green', 'blue'];
+const colors = ["purple", "orange", "yellow", "green", "blue"];
 
 console.log(colors.length);
 // Output: 5

@@ -1,14 +1,14 @@
 ---
-Title: 'Sketching'
-Description: 'Sketching is used to create quick concepts and to iterate ideas in a low-fidelity format using pen and paper or a digital sketching app.'
+Title: "Sketching"
+Description: "Sketching is used to create quick concepts and to iterate ideas in a low-fidelity format using pen and paper or a digital sketching app."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Sketching** is used to create quick concepts and to [iterate](https://www.codecademy.com/resources/docs/uiux/iterative-process) ideas in a [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) format using pen and paper or a digital sketching app.

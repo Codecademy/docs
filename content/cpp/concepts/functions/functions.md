@@ -1,17 +1,17 @@
 ---
-Title: 'Functions'
-Description: 'A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions.'
+Title: "Functions"
+Description: "A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function. C++ has many built-in functions."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Functions'
-  - 'Arguments'
-  - 'Parameters'
-  - 'Return'
+  - "Functions"
+  - "Arguments"
+  - "Parameters"
+  - "Return"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **function** is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function.

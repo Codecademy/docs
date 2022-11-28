@@ -1,15 +1,15 @@
 ---
-Title: 'Macros'
-Description: 'A macro is a label defined in the source code that is replaced by its value by the preprocessor before compilation.'
+Title: "Macros"
+Description: "A macro is a label defined in the source code that is replaced by its value by the preprocessor before compilation."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Command Line'
-  - 'Developer Tools'
+  - "Command Line"
+  - "Developer Tools"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **macro** is a label defined in the source code that is replaced by its value by the preprocessor before compilation. Macros are initialized with the `#define` preprocessor command and can be undefined with the `#undef` command.

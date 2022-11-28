@@ -1,14 +1,14 @@
 ---
-Title: 'Diary Study'
-Description: 'Diary studies are a form of user research that collect longitudinal qualitative data from participants by asking them to complete entries in a diary which may include a series of prompts.'
+Title: "Diary Study"
+Description: "Diary studies are a form of user research that collect longitudinal qualitative data from participants by asking them to complete entries in a diary which may include a series of prompts."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Diary studies** are a form of [user research](https://www.codecademy.com/resources/docs/uiux/user-research) that collect longitudinal, or longer-term, qualitative data from participants by asking them to complete entries in a diary which may include a series of prompts. Diary studies allow participants to complete entries at their own pace in a natural context without a researcher looking over their shoulder, and allow researchers to examine how participant attitudes and behavior evolve over a set time period.

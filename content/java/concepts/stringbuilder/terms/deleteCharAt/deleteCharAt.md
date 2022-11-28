@@ -1,15 +1,15 @@
 ---
-Title: '.deleteCharAt()'
-Description: 'Removes the character at the specified index from the contents of a StringBuilder and returns the modified object.'
+Title: ".deleteCharAt()"
+Description: "Removes the character at the specified index from the contents of a StringBuilder and returns the modified object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.deleteCharAt()`** method removes the character at the specified index from the contents of a `StringBuilder` and returns the modified object.

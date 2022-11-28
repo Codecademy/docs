@@ -1,17 +1,17 @@
 ---
-Title: 'Abstract Factory Pattern'
-Description: 'The abstract factory pattern relies on a common interface for multiple factories and defers instantiation logic to their concrete model classes.'
+Title: "Abstract Factory Pattern"
+Description: "The abstract factory pattern relies on a common interface for multiple factories and defers instantiation logic to their concrete model classes."
 Subjects:
-  - 'Computer Science'
-  - 'Interview Prep'
+  - "Computer Science"
+  - "Interview Prep"
 Tags:
-  - 'Classes'
-  - 'Conceptual'
-  - 'Constructors'
-  - 'Objects'
+  - "Classes"
+  - "Conceptual"
+  - "Constructors"
+  - "Objects"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **abstract factory pattern** utilizes a common interface for multiple factories without defining their concrete model classes. It is often thought of as a factory of factory patterns where object composition is used to separate instantiation logic from application logic.

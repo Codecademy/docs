@@ -1,14 +1,14 @@
 ---
-Title: '.acos()'
-Description: 'Returns the inverse cosine of the argument in radians.'
+Title: ".acos()"
+Description: "Returns the inverse cosine of the argument in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.acos()`** method returns the inverse cosine (or arccosine) of the argument in radians.

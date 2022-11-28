@@ -1,14 +1,14 @@
 ---
-Title: 'Routing'
-Description: 'Allows React components to be used as routed endpoints within an application.'
+Title: "Routing"
+Description: "Allows React components to be used as routed endpoints within an application."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'React'
-  - 'Requests'
+  - "React"
+  - "Requests"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, routing is most commonly achieved through React Router.
@@ -35,12 +35,12 @@ The newest version of React Router is [v6](https://reactrouter.com/docs/en/v6/ge
 Below, a `<BrowserRouter/>` (aliased as `<Router/>`) is used to map the navigation `<Link/>` components to a `<Routes/>` component. The `<Routes/>` renders the appropriate `<Route>` based on the most specific-matching `path` among all possible matches.
 
 ```jsx
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from "./Home";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const App = () => {
   return (

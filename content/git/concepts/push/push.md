@@ -1,15 +1,15 @@
 ---
-Title: 'Push'
-Description: 'Pushing is the process of moving code from one Git repository to another. Often this is used to move code from a local machine to GitHub.'
+Title: "Push"
+Description: "Pushing is the process of moving code from one Git repository to another. Often this is used to move code from a local machine to GitHub."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, pushing is the process of moving code from one repository to another one. Often this is used to move code from a local machine to a remote one, or to a repository hosting service like GitHub.

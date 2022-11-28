@@ -1,14 +1,14 @@
 ---
-Title: 'Deliverables'
-Description: 'Deliverables are what is produced when working toward a goal or outcome.'
+Title: "Deliverables"
+Description: "Deliverables are what is produced when working toward a goal or outcome."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Deliverables** are what is produced when working toward a goal or outcome.

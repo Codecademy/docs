@@ -1,17 +1,17 @@
 ---
-Title: 'SVG'
-Description: 'Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVGs description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes.'
+Title: "SVG"
+Description: "Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVGs description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Images'
-  - 'Files'
-  - 'HTML'
+  - "Images"
+  - "Files"
+  - "HTML"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Scalable Vector Graphics (SVG)** is a XML-based file format for describing two-dimensional vector images. SVG's description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes.

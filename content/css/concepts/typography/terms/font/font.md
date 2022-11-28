@@ -1,16 +1,16 @@
 ---
-Title: 'font'
+Title: "font"
 Description: "Shorthand property that sets different properties for an element's font in a single declaration."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Fonts'
-  - 'Typography'
+  - "Fonts"
+  - "Typography"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`font`** property is a shorthand property that sets different properties for an elements font in a single declaration.

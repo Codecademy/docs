@@ -1,14 +1,14 @@
 ---
-Title: 'Surveys'
-Description: 'Surveys or questionnaires are a user research method in which a broad range of users are sent the same set of questions to collect broad insights and trends about a given topic or market.'
+Title: "Surveys"
+Description: "Surveys or questionnaires are a user research method in which a broad range of users are sent the same set of questions to collect broad insights and trends about a given topic or market."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Surveys** or questionnaires are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method in which a broad range of users are sent the same set of questions to collect broad insights and trends about a given topic or market.

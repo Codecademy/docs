@@ -1,10 +1,10 @@
 ---
-Title: 'Swift'
-Description: 'Swift is a modern programming language developed by Apple.'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/swift'
+Title: "Swift"
+Description: "Swift is a modern programming language developed by Apple."
+Codecademy Hub Page: "https://www.codecademy.com/catalog/language/swift"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Swift** is a modern programming language developed by Apple. This general-purpose programming language is fast and powerful without sacrificing safety or readability. Swift is a great language to learn for those interested in iOS and macOS development, as well as anyone who is just starting to code.

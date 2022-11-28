@@ -1,16 +1,16 @@
 ---
-Title: '.count()'
-Description: 'Returns the number of occurrences of a specific value in a tuple.'
+Title: ".count()"
+Description: "Returns the number of occurrences of a specific value in a tuple."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Tuples'
-  - 'Data Structures'
+  - "Collections"
+  - "Tuples"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.count()`** method returns the number of occurrences of a specific value in a tuple.

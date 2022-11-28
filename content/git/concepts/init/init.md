@@ -1,15 +1,15 @@
 ---
-Title: 'Init'
-Description: 'Initializing a Git repository when beginning a new project is the first step to take in order to track changes.'
+Title: "Init"
+Description: "Initializing a Git repository when beginning a new project is the first step to take in order to track changes."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'GitHub'
+  - "Git"
+  - "GitHub"
 CatalogContent:
-  - 'learn-git'
-  - 'learn-the-command-line'
+  - "learn-git"
+  - "learn-the-command-line"
 ---
 
 In Git, `init` is used to initiate the process of creating a repository. When beginning a new project, this is the first step to take in order to track changes to the code throughout all files and folders.

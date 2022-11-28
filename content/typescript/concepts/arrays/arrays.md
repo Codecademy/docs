@@ -1,14 +1,14 @@
 ---
-Title: 'Arrays'
+Title: "Arrays"
 Description: 'In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.'
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Arrays'
-  - 'Types'
+  - "Arrays"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In TypeScript, arrays are considered to be collections of single, "generic" types of values. All elements must be of the same type of data as prescribed in the array definition.
@@ -20,9 +20,9 @@ Array types can be inferred during the initialization of a new array.
 In this example, the `vowels` array is inferred to consist of elements of type `string`:
 
 ```ts
-const vowels = ['a', 'e', 'i', 'o', 'u'];
+const vowels = ["a", "e", "i", "o", "u"];
 
-vowels.push('y'); // Ok
+vowels.push("y"); // Ok
 
 vowels.push(7);
 // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
@@ -31,16 +31,16 @@ vowels.push(7);
 Arrays can also be defined with the "generic" type of its elements already preset in two ways:
 
 ```ts
-const vowels: string[] = ['a', 'e', 'i', 'o', 'u'];
+const vowels: string[] = ["a", "e", "i", "o", "u"];
 
 // alternate way using Array class
-const altVowels: Array<string> = ['a', 'e', 'i', 'o', 'u'];
+const altVowels: Array<string> = ["a", "e", "i", "o", "u"];
 ```
 
 More than one type can be prescribed in the array definition with the "or" `|` operator:
 
 ```ts
-const numbers: (string | number)[] = [1, '2', 3, 'four'];
+const numbers: (string | number)[] = [1, "2", 3, "four"];
 
 // Alternative syntax
 // const numbers: [string, number] = [1, "2", 3, "four"];
@@ -59,7 +59,7 @@ In this example, `dates` doesn't initially include a value, so declaring it as `
 ```ts
 const dates: Date[] = [];
 
-dates.push(new Date('2021-12-1994')); // Ok
+dates.push(new Date("2021-12-1994")); // Ok
 
 dates.push(10241995);
 // Error: Argument of type 'number' is not assignable to parameter of type 'Date'.

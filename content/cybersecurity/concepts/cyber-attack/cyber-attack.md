@@ -1,16 +1,16 @@
 ---
-Title: 'Cyber Attack'
-Description: 'Cyber attacks are attempts to disrupt or disable computer systems or steal valuable data.'
+Title: "Cyber Attack"
+Description: "Cyber attacks are attempts to disrupt or disable computer systems or steal valuable data."
 Subjects:
-  - 'Computer Science'
-  - 'Cybersecurity'
+  - "Computer Science"
+  - "Cybersecurity"
 Tags:
-  - 'Cybersecurity'
-  - 'Encoding'
-  - 'Validation'
+  - "Cybersecurity"
+  - "Encoding"
+  - "Validation"
 CatalogContent:
-  - 'introduction-to-cybersecurity'
-  - 'paths/fundamentals-of-cybersecurity'
+  - "introduction-to-cybersecurity"
+  - "paths/fundamentals-of-cybersecurity"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-cyber-attack/" />

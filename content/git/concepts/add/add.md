@@ -1,15 +1,15 @@
 ---
-Title: 'Add'
-Description: 'The git add command is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit.'
+Title: "Add"
+Description: "The git add command is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'Version Control'
+  - "Git"
+  - "Version Control"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'learn-git'
+  - "learn-the-command-line"
+  - "learn-git"
 ---
 
 In Git, adding is used to add changes from the working tree to the staging area. This is where changes are saved for the next commit. When the file name appears in green, it indicates that the file is tracked and will be staged for the next commit.

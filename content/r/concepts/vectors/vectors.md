@@ -1,18 +1,18 @@
 ---
-Title: 'Vectors'
-Description: 'Vectors are used to store multiple values of the same data type.'
+Title: "Vectors"
+Description: "Vectors are used to store multiple values of the same data type."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Vectors'
-  - 'Variables'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - "Vectors"
+  - "Variables"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 **Vectors** are used to store multiple values of the same [data type](https://www.codecademy.com/resources/docs/r/data-types) for later use. Unlike other programming languages, vectors in R are not zero-indexed; they start from 1.

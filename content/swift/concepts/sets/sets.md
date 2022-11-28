@@ -1,15 +1,15 @@
 ---
-Title: 'Sets'
-Description: 'Store unique elements of the same data type.'
+Title: "Sets"
+Description: "Store unique elements of the same data type."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Variables'
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 In Swift, a **set** is used to store unique elements of the same data type.

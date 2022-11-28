@@ -1,14 +1,14 @@
 ---
-Title: '.atan2()'
-Description: 'Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.'
+Title: ".atan2()"
+Description: "Returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.atan2()`** method returns the counterclockwise angle, in radians, between a (x,y) point and the positive x-axis.

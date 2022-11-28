@@ -1,14 +1,14 @@
 ---
-Title: 'Focus Groups'
-Description: 'Focus groups are a user research method where a researcher guides a group of 3 to 10 participants through a series of questions about a topic, product, or design.'
+Title: "Focus Groups"
+Description: "Focus groups are a user research method where a researcher guides a group of 3 to 10 participants through a series of questions about a topic, product, or design."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Focus groups** are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where a researcher guides a group of 3 &ndash; 10 participants through a series of questions about a topic, product, or design. Focus groups can be conducted either remotely or in-person.

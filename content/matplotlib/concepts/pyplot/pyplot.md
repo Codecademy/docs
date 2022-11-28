@@ -1,16 +1,16 @@
 ---
-Title: 'pyplot'
-Description: 'The pyplot module provides the interface for creating figures and plotting data points in Matplotlib.'
+Title: "pyplot"
+Description: "The pyplot module provides the interface for creating figures and plotting data points in Matplotlib."
 Subjects:
-  - 'Data Science'
-  - 'Data Visualization'
+  - "Data Science"
+  - "Data Visualization"
 Tags:
-  - 'Graphs'
-  - 'Libraries'
-  - 'Matplotlib'
+  - "Graphs"
+  - "Libraries"
+  - "Matplotlib"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 In Matplotlib, the **`pyplot`** module provides the interface for creating figures for plotting data points on the screen.

@@ -1,15 +1,15 @@
 ---
-Title: 'User Input'
-Description: 'The Scanner class is used to get user input, and it is found in the java.util package. To use the Scanner class: 1. Import the Scanner class at the top of the file. 2. Create a Scanner object. 3. Use a method from the Scanner class. To import the Scanner class, add at the top of the file: java'
+Title: "User Input"
+Description: "The Scanner class is used to get user input, and it is found in the java.util package. To use the Scanner class: 1. Import the Scanner class at the top of the file. 2. Create a Scanner object. 3. Use a method from the Scanner class. To import the Scanner class, add at the top of the file: java"
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'User Input'
-  - 'Strings'
-  - 'Data Types'
+  - "User Input"
+  - "Strings"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `Scanner` class is used to get user input, and it is found in the `java.util` package.

@@ -1,16 +1,16 @@
 ---
-Title: 'Processor'
-Description: 'A processor is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code.'
+Title: "Processor"
+Description: "A processor is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **processor** is the electric circuitry found in computer hardware which is responsible for executing instruction sets derived from programs that have been converted into machine code.

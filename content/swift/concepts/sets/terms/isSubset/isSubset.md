@@ -1,15 +1,15 @@
 ---
-Title: '.isSubset()'
-Description: 'Checks whether all elements of a set are present in another set.'
+Title: ".isSubset()"
+Description: "Checks whether all elements of a set are present in another set."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Sets'
-  - 'Methods'
+  - "Sets"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.isSubset()`** method returns `true` if all elements of a set are present in another set (passed as an argument), `false` otherwise.

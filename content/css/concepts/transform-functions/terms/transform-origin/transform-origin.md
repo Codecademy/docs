@@ -1,16 +1,16 @@
 ---
-Title: 'transform-origin'
+Title: "transform-origin"
 Description: "Sets the origin of an element's transformation."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Positioning'
-  - 'Functions'
+  - "Positioning"
+  - "Functions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`transform-origin`** property sets the origin of an element's transformation.

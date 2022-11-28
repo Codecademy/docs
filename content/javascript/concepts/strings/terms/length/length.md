@@ -1,17 +1,17 @@
 ---
-Title: '.length'
-Description: 'Returns the number of characters in a string.'
+Title: ".length"
+Description: "Returns the number of characters in a string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Properties'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Properties"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.length`** property returns the number of characters in a string.
@@ -29,7 +29,7 @@ The `string` can either be a literal sequence of characters surrounded by quotes
 The following example outputs the `.length` property of a string literal:
 
 ```js
-console.log('I love New York!'.length);
+console.log("I love New York!".length);
 // Output: 16
 ```
 

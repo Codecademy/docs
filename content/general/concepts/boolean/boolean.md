@@ -1,16 +1,16 @@
 ---
-Title: 'Boolean'
-Description: 'The boolean data type represents the logical values of true and false.'
+Title: "Boolean"
+Description: "The boolean data type represents the logical values of true and false."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Booleans'
-  - 'Data Types'
-  - 'Types'
+  - "Booleans"
+  - "Data Types"
+  - "Types"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
+  - "paths/code-foundations"
+  - "paths/computer-science"
 ---
 
 A **boolean** holds a true or false value and are mostly used in conditional statements to control a program's flow of execution. This data type is named after George Boole, a 19th century English logician.

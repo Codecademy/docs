@@ -1,16 +1,16 @@
 ---
-Title: 'Sets'
-Description: 'A Set is a special object that stores unique values without a key.'
+Title: "Sets"
+Description: "A Set is a special object that stores unique values without a key."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Sets'
-  - 'Objects'
-  - 'Collections'
+  - "Sets"
+  - "Objects"
+  - "Collections"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A `Set` is an object in JavaScript that is a collection of unique values.
@@ -28,7 +28,7 @@ A `Set` object can be created with the `Set()` constructor function.
 Sets can also be created with [iterators](https://www.codecademy.com/resources/docs/javascript/iterators) passed to the `Set()` constructor, as shown below:
 
 ```js
-const newSet = new Set([2, true, 2, 'some string', { name: 'John' }]);
+const newSet = new Set([2, true, 2, "some string", { name: "John" }]);
 
 console.log(newSet);
 console.log(newSet.size);

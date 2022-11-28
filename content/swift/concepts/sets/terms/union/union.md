@@ -1,15 +1,15 @@
 ---
-Title: '.union()'
-Description: 'Returns a new set containing all elements of one set combined with the elements of a given set.'
+Title: ".union()"
+Description: "Returns a new set containing all elements of one set combined with the elements of a given set."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Variables'
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.union()`** method returns a new set containing all elements of one set combined with the elements of a given set.

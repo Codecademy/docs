@@ -1,16 +1,16 @@
 ---
-Title: 'translateX()'
-Description: 'Moves an element horizontally along the X-axis.'
+Title: "translateX()"
+Description: "Moves an element horizontally along the X-axis."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Functions'
-  - 'Positioning'
+  - "Functions"
+  - "Positioning"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `translateX()` function moves an element along the horizontal X-axis.

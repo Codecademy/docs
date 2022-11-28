@@ -1,18 +1,18 @@
 ---
-Title: 'DATEDIFF()'
-Description: 'Calculates and returns the difference between two date values. Available in SQL Server and MySQL.'
+Title: "DATEDIFF()"
+Description: "Calculates and returns the difference between two date values. Available in SQL Server and MySQL."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Date'
-  - 'Queries'
-  - 'MySQL'
-  - 'SQL Server'
+  - "Database"
+  - "Date"
+  - "Queries"
+  - "MySQL"
+  - "SQL Server"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 **`DATEDIFF()`** is a function found in SQL Server and MySQL that calculates and returns the difference between two date values.

@@ -1,15 +1,15 @@
 ---
-Title: 'Unit Testing'
-Description: 'Unit testing involves testing parts of code to verify its behavior.'
+Title: "Unit Testing"
+Description: "Unit testing involves testing parts of code to verify its behavior."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Debugging'
-  - 'Development'
+  - "Debugging"
+  - "Development"
 CatalogContent:
-  - 'learn-javascript-unit-testing'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-javascript-unit-testing"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Unit testing** is an important part of coding and software development because it verifies whether individual parts of the source code behave and work as expected.

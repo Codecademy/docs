@@ -1,17 +1,17 @@
 ---
-Title: '.load()'
-Description: 'Decodes a JSON file and returns a Python object.'
+Title: ".load()"
+Description: "Decodes a JSON file and returns a Python object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
-  - 'JSON'
+  - "Functions"
+  - "Methods"
+  - "Strings"
+  - "JSON"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.load()` function decodes a [JSON](https://www.codecademy.com/resources/docs/general/json) file and returns a Python object. The decoding conversion is based on the following [table](https://docs.python.org/3/library/json.html#json-to-py-table). The `.loads()` function, alternatively, takes a JSON string and returns a Python object.

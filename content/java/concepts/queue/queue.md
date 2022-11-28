@@ -1,16 +1,16 @@
 ---
-Title: 'Queue'
-Description: 'A Queue is a collection interface that offers additional operations for accessing or manipulating items at the head of the queue.'
+Title: "Queue"
+Description: "A Queue is a collection interface that offers additional operations for accessing or manipulating items at the head of the queue."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Queues'
-  - 'Data Structures'
+  - "Collections"
+  - "Queues"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A **`Queue`** is an interface provided in the `java.util` package that extends collections to provide additional methods to access or manipulate items at the head of the queue. Where the "head" of the queue is defined by the particular implementation.

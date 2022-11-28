@@ -1,16 +1,16 @@
 ---
-Title: 'Virtual Reality'
-Description: 'Virtual Reality (VR) is the computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment, such as a helmet with a screen inside or gloves fitted with sensors'
+Title: "Virtual Reality"
+Description: "Virtual Reality (VR) is the computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment, such as a helmet with a screen inside or gloves fitted with sensors"
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Virtual reality (VR)** is a technology that uses head-mounted headsets with displays to generate realistic images, sounds, and other sensations to put users into an immersive virtual environment. VR can create unbounded worlds that people can walk around and interact with using their hands, and to feel as if they were transported to another place.

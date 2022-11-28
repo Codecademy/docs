@@ -1,14 +1,14 @@
 ---
-Title: 'Hooks'
-Description: 'Hooks are functions that give class-like abilities to function components such as state.'
+Title: "Hooks"
+Description: "Hooks are functions that give class-like abilities to function components such as state."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Functions'
-  - 'React'
+  - "Functions"
+  - "React"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In React, **hooks** are [functions](https://www.codecademy.com/resources/docs/javascript/functions) that give class-like abilities to function [components](https://www.codecademy.com/resources/docs/react/components), including [state](https://www.codecademy.com/resources/docs/react/state) and side-effects.

@@ -1,16 +1,16 @@
 ---
-Title: '<source>'
-Description: 'Represents an interface for adding source content to the page.'
+Title: "<source>"
+Description: "Represents an interface for adding source content to the page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'DOM'
-  - 'Elements'
-  - 'Tags'
+  - "DOM"
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<source>` element allows for multiple sources or file formats to be associated with the [`<audio>`](https://www.codecademy.com/resources/docs/html/elements/audio), [`<video>`](https://www.codecademy.com/resources/docs/html/elements/video), and [`<picture>`](https://www.codecademy.com/resources/docs/html/elements/picture) tags. In case one source is incompatible with a given browser, another one can be referenced. If all else fails, the browser will attempt to display fallback content. The `<source>` tag is a child of an `<audio>`, `<video>`, or `<picture>` and has at least one [attribute](https://www.codecademy.com/resources/docs/html/attributes).

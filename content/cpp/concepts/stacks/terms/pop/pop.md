@@ -1,17 +1,17 @@
 ---
-Title: '.pop()'
-Description: 'Removes the last item added to the top of the stack.'
+Title: ".pop()"
+Description: "Removes the last item added to the top of the stack."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
-  - 'Stacks'
+  - "Objects"
+  - "OOP"
+  - "Classes"
+  - "Stacks"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.pop()`** method removes the last item added to the top of the `stack`, reducing its size by one.

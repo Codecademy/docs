@@ -1,14 +1,14 @@
 ---
-Title: 'animation-fill-mode'
-Description: 'Defines what values are applied by an animation outside its execution time.'
+Title: "animation-fill-mode"
+Description: "Defines what values are applied by an animation outside its execution time."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`animation-fill-mode`** animation property defines what values are applied by an animation outside its execution time.

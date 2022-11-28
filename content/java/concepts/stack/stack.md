@@ -1,16 +1,16 @@
 ---
-Title: 'Stack'
-Description: 'A stack is a linear data structure where items are added and removed from the top in a last-in, first-out (LIFO) order.'
+Title: "Stack"
+Description: "A stack is a linear data structure where items are added and removed from the top in a last-in, first-out (LIFO) order."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Stack'
-  - 'Data Structures'
+  - "Collections"
+  - "Stack"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 A **`Stack`** is a linear data structure that adds and removes items from the top in a last-in, first-out (LIFO) order. The `Stack` class comes from the `java.util` package and extends the legacy `Vector` class.

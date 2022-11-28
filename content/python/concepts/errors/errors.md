@@ -1,15 +1,15 @@
 ---
-Title: 'Errors'
-Description: 'The two types of errors in Python are syntax errors and exceptions. Exceptions may arise even if the code is syntactically correct.'
+Title: "Errors"
+Description: "The two types of errors in Python are syntax errors and exceptions. Exceptions may arise even if the code is syntactically correct."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Errors'
-  - 'Exceptions'
+  - "Errors"
+  - "Exceptions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The two types of **errors** in Python are syntax errors and exceptions.

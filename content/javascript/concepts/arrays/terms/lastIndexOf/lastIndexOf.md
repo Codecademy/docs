@@ -1,15 +1,15 @@
 ---
-Title: '.lastIndexOf()'
-Description: 'Returns the last index at which an element can be found. Returns -1 if element is not found.'
+Title: ".lastIndexOf()"
+Description: "Returns the last index at which an element can be found. Returns -1 if element is not found."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.lastIndexOf()` array method returns the last index at which an element can be found. Otherwise, it returns `-1` if the element is not found.
@@ -48,9 +48,9 @@ Since the `fromIndex` is not specified, the search will start at the end of the 
 If the element is not found, the result will be `-1`:
 
 ```js
-const fruits = ['apple', 'orange', 'peach'];
+const fruits = ["apple", "orange", "peach"];
 
-const lastIndexOfCherry = fruits.lastIndexOf('cherry');
+const lastIndexOfCherry = fruits.lastIndexOf("cherry");
 
 console.log(lastIndexOfCherry);
 // Output: -1
@@ -62,16 +62,16 @@ Check if the color 'blue' is in the `rainbow` array, before the fifth element:
 
 ```js
 const rainbow = [
-  'red',
-  'orange',
-  'yellow',
-  'green',
-  'blue',
-  'indigo',
-  'violet',
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "blue",
+  "indigo",
+  "violet",
 ];
 
-const checkIndigo = rainbow.lastIndexOf('indigo', 4);
+const checkIndigo = rainbow.lastIndexOf("indigo", 4);
 
 console.log(checkIndigo);
 // Output: -1
@@ -84,9 +84,9 @@ Since `fromIndex` is assigned to 4, the search will begin at `blue` and search a
 Multiple matches will only return the last index where a match occurs:
 
 ```js
-const repeatGreeting = ['hello world', 'hello world', 'hello world'];
+const repeatGreeting = ["hello world", "hello world", "hello world"];
 
-const lastGreeting = repeatGreeting.lastIndexOf('hello world');
+const lastGreeting = repeatGreeting.lastIndexOf("hello world");
 
 console.log(lastGreeting);
 // Output: 2

@@ -1,15 +1,15 @@
 ---
-Title: 'Arrays'
-Description: 'Arrays are lists of ordered, stored data that can be of any data type.'
+Title: "Arrays"
+Description: "Arrays are lists of ordered, stored data that can be of any data type."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Types"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Arrays are lists of ordered, stored data. They can hold items that are of any data type.
@@ -23,7 +23,7 @@ Arrays can be created by using square brackets, with individual elements separat
 const numberArray = [0, 1, 2, 3];
 
 // An array containing different data types
-const mixedArray = [1, 'chicken', false];
+const mixedArray = [1, "chicken", false];
 ```
 
 Another way to creating a new instance of the `Array` class and passing the elements as a comma-separated list of arguments:
@@ -37,7 +37,7 @@ const classArray = new Array(0, 1, 2, 3);
 The most straightforward way to create an array is using an array literal as in the above example.
 
 ```js
-const fruit = ['Apple', 'Orange', 'Banana'];
+const fruit = ["Apple", "Orange", "Banana"];
 ```
 
 Whitespace is ignored and declarations can span multiple lines.
@@ -45,7 +45,7 @@ Whitespace is ignored and declarations can span multiple lines.
 Arrays can also be created with the `Array` class by using the `new` keyword and passing in the elements as arguments:
 
 ```js
-const fruit = new Array('Apple', 'Orange', 'Banana');
+const fruit = new Array("Apple", "Orange", "Banana");
 ```
 
 Though, because the effect is exactly the same, it is preferable to use the literal method for simplicity and execution speed.
@@ -64,7 +64,7 @@ Individual elements in the array can be accessed using the array name and the el
 This code accesses the value of the first element in the `fruit` array:
 
 ```js
-const fruit = ['Apple', 'Orange', 'Banana'];
+const fruit = ["Apple", "Orange", "Banana"];
 
 console.log(fruit[0]);
 // Output: Apple
@@ -73,9 +73,9 @@ console.log(fruit[0]);
 Array elements can be changed by accessing the element and assigning a new value to it.
 
 ```js
-const fruit = ['Apple', 'Orange', 'Banana'];
+const fruit = ["Apple", "Orange", "Banana"];
 
-fruit[1] = 'Mango';
+fruit[1] = "Mango";
 
 console.log(fruit[1]);
 // Output: Mango
@@ -84,9 +84,9 @@ console.log(fruit[1]);
 Accessing an array using an unused index will return `undefined`. However, a new value can still be assigned to an unused index of an array. When doing so, any gaps in the assigned indices will remain `undefined`.
 
 ```js
-const fruit = ['Apple', 'Orange', 'Banana'];
+const fruit = ["Apple", "Orange", "Banana"];
 
-fruit[4] = 'Mango'; // a valid assignment
+fruit[4] = "Mango"; // a valid assignment
 
 console.log(fruit[3]);
 // Output: undefined
@@ -99,9 +99,9 @@ Any object can be an element of an array, including other arrays. Arrays with on
 ```js
 // Create a nested array
 const food = [
-  ['Apple', 'Orange', 'Banana'],
-  ['Strawberry', 'Blueberry', 'Raspberry'],
-  ['Potato', 'Carrot', 'Broccoli'],
+  ["Apple", "Orange", "Banana"],
+  ["Strawberry", "Blueberry", "Raspberry"],
+  ["Potato", "Carrot", "Broccoli"],
 ];
 
 // Retrieve the food string at index 2 of the array at index 1

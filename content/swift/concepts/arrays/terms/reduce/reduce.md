@@ -1,15 +1,15 @@
 ---
-Title: '.reduce()'
-Description: 'Loops or iterates over every item in a sequence, combines them into one value using a specified closure, and returns the combined result.'
+Title: ".reduce()"
+Description: "Loops or iterates over every item in a sequence, combines them into one value using a specified closure, and returns the combined result."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.reduce()`** method loops or iterates over every item in a sequence, combines them into one value using a specified [closure](https://www.codecademy.com/resources/docs/swift/closures), and returns the combined result.

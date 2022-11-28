@@ -1,14 +1,14 @@
 ---
-Title: 'Generics'
-Description: 'Generics assign multiple types to a function or variable without the value losing that specific type information upon return.'
+Title: "Generics"
+Description: "Generics assign multiple types to a function or variable without the value losing that specific type information upon return."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Generics'
-  - 'Types'
+  - "Generics"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In TypeScript, **generics** are used to assign multiple types to a function or variable without the value losing that specific type information upon return. The `any` keyword is similar in that it accommodates any and all types. However, it will not retain specific type information.
@@ -42,7 +42,7 @@ interface Box<Value> {
 }
 
 let numberBox: Box<number> = { value: 7 };
-let stringBox: Box<string> = { value: 'Marathon' };
+let stringBox: Box<string> = { value: "Marathon" };
 ```
 
 ## Inferring Generic Types
@@ -57,7 +57,7 @@ function logAndReturnValue<Value>(value: Value): Value {
   return value;
 }
 
-const result = logAndReturnValue(new Date('2021-12-21')); // Type: Date
+const result = logAndReturnValue(new Date("2021-12-21")); // Type: Date
 ```
 
 Here, the `KeyValueStore` class instance is inferred to have generic `<string, number>`, and its `makePair()`, therefore, returns type `[string, number]`:
@@ -77,6 +77,6 @@ class KeyValueStore<Key, Value> {
   }
 }
 
-const store = new KeyValueStore('year', 2794);
+const store = new KeyValueStore("year", 2794);
 const pair = store.makePair(); // Type: [string, number]
 ```

@@ -1,17 +1,17 @@
 ---
-Title: 'Units'
-Description: 'CSS uses units to measure the values of various properties in a stylesheet. The two main types of units are absolute units and relative units. Absolute units are CSS units that are of fixed lengths and not relative to any other styles. This includes: - px: Pixels (most common) - pt: Points - mm: Millimeters Relative units are CSS units whose size is relative to some other length. They could relate to things like: - The font-size of a direct parent element'
+Title: "Units"
+Description: "CSS uses units to measure the values of various properties in a stylesheet. The two main types of units are absolute units and relative units. Absolute units are CSS units that are of fixed lengths and not relative to any other styles. This includes: - px: Pixels (most common) - pt: Points - mm: Millimeters Relative units are CSS units whose size is relative to some other length. They could relate to things like: - The font-size of a direct parent element"
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Units'
-  - 'Responsive'
-  - 'Style'
+  - "Units"
+  - "Responsive"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 CSS uses units to measure the values of various properties in a stylesheet. The two main types of units are absolute units and relative units.

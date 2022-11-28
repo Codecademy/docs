@@ -1,20 +1,20 @@
 ---
-Title: 'Machine Learning'
-Description: 'Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.'
+Title: "Machine Learning"
+Description: "Machine learning (ML) is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment."
 Subjects:
-  - 'Machine Learning'
-  - 'Data Science'
-  - 'Computer Science'
+  - "Machine Learning"
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'AI'
-  - 'Deep Learning'
-  - 'Algorithms'
-  - 'Scikit-learn'
-  - 'Tensorflow'
-  - 'Keras'
+  - "AI"
+  - "Deep Learning"
+  - "Algorithms"
+  - "Scikit-learn"
+  - "Tensorflow"
+  - "Keras"
 CatalogContent:
-  - 'machine-learning'
-  - 'paths/data-science'
+  - "machine-learning"
+  - "paths/data-science"
 ---
 
 **Machine learning (ML)** is a discipline of computer science that relates to the use of data and algorithms to develop computer programs that improve their performance at tasks without being explicitly programmed to do so. Machine Learning is considered a branch of Artificial Intelligence as some machine learning algorithms are designed to imitate the way that humans learn and interact with their environment.

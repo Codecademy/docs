@@ -1,15 +1,15 @@
 ---
-Title: '<code>'
-Description: 'Represents source code contained in the text.'
+Title: "<code>"
+Description: "Represents source code contained in the text."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<code>`** element represents source code contained in the text.

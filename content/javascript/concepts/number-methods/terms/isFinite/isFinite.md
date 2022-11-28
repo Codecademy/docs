@@ -1,15 +1,15 @@
 ---
-Title: '.isFinite()'
-Description: 'Determines whether the passed value is a finite number.'
+Title: ".isFinite()"
+Description: "Determines whether the passed value is a finite number."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Numbers'
-  - 'Methods'
+  - "Numbers"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.isFinite()` method is a part of the `Number` class in JavaScript.

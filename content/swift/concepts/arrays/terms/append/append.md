@@ -1,15 +1,15 @@
 ---
-Title: '.append()'
-Description: 'Adds an element to the end of an array.'
+Title: ".append()"
+Description: "Adds an element to the end of an array."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.append()`** method will add an element to the end of an array. It allows for single and multiple element additions.

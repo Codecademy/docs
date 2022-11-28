@@ -1,15 +1,15 @@
 ---
-Title: 'Modulo'
-Description: 'A modulo calculation returns the remainder of the division between two numbers.'
+Title: "Modulo"
+Description: "A modulo calculation returns the remainder of the division between two numbers."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Operators'
-  - 'Logical'
+  - "Operators"
+  - "Logical"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 In Python, the percent sign (`%`) is known as the modulo operator.

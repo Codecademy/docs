@@ -1,14 +1,14 @@
 ---
-Title: 'exp2()'
-Description: 'Returns the base-2 exponential function, or 2 raised to the power of the given argument.'
+Title: "exp2()"
+Description: "Returns the base-2 exponential function, or 2 raised to the power of the given argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`exp2()`** function returns the base-2 exponential function of a given number `x`, or 2 raised to the power of `x` (i.e., 2<sup>x</sup>).

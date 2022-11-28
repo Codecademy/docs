@@ -1,16 +1,16 @@
 ---
-Title: 'Generators'
-Description: 'In Python, a generator is a function or expression that will process a given iterable one object at a time, on demand.'
+Title: "Generators"
+Description: "In Python, a generator is a function or expression that will process a given iterable one object at a time, on demand."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Generators'
-  - 'OOP'
-  - 'Loops'
+  - "Generators"
+  - "OOP"
+  - "Loops"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 In Python, a generator is a function or expression that will process a given iterable one object at a time, on demand. A generator will return a generator object, which can be cast as a list or some other data structure as appropriate.

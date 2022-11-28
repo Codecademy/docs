@@ -1,17 +1,17 @@
 ---
-Title: 'Switch'
-Description: 'A switch statement provides a means of checking an expression against various case statements.'
+Title: "Switch"
+Description: "A switch statement provides a means of checking an expression against various case statements."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Switch'
-  - 'Conditionals'
-  - 'Control Flow'
-  - 'Comparison'
+  - "Switch"
+  - "Conditionals"
+  - "Control Flow"
+  - "Comparison"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **`switch`** statement provides a means of checking an expression against various `case` statements. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.

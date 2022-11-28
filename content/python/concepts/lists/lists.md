@@ -1,19 +1,19 @@
 ---
-Title: 'Lists'
-Description: 'Lists are mutable sequence data types used for storing a comma-separated collection of objects in a single variable.'
+Title: "Lists"
+Description: "Lists are mutable sequence data types used for storing a comma-separated collection of objects in a single variable."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Lists'
-  - 'Arrays'
-  - 'Objects'
-  - 'Data Structures'
-  - 'Data Types'
+  - "Lists"
+  - "Arrays"
+  - "Objects"
+  - "Data Structures"
+  - "Data Types"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 A **list** in Python is a sequence [data type](https://www.codecademy.com/resources/docs/python/data-types) used for storing a comma-separated collection of objects in a single [variable](https://www.codecademy.com/resources/docs/python/variables). Lists are always ordered and can contain different types of objects (strings, integers, booleans, etc.). Since they are mutable data types, lists are a good choice for dynamic data (that may be added or removed over time).

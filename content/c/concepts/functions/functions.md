@@ -1,15 +1,15 @@
 ---
-Title: 'Functions'
-Description: 'Functions are blocks of code that can be reused within a program.'
+Title: "Functions"
+Description: "Functions are blocks of code that can be reused within a program."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arguments'
+  - "Functions"
+  - "Arguments"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 Functions are blocks of code that can be reused within a program. They are stored under a name similar to a variable and can be called using this name.

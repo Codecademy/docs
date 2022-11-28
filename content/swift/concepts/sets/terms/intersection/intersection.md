@@ -1,15 +1,15 @@
 ---
-Title: '.intersection()'
-Description: 'Returns a new set of elements with the overlapping elements of two sets.'
+Title: ".intersection()"
+Description: "Returns a new set of elements with the overlapping elements of two sets."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Variables'
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.intersection()`** method returns a new set containing all elements of the set that also belong to the given sequence.

@@ -1,18 +1,18 @@
 ---
-Title: 'ALTER TABLE'
-Description: 'Adds, deletes, modifies or changes the data type of a column in a table.'
+Title: "ALTER TABLE"
+Description: "Adds, deletes, modifies or changes the data type of a column in a table."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `ALTER TABLE` command adds, deletes, modifies, or changes the data type of a column in a table.

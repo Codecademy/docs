@@ -1,15 +1,15 @@
 ---
-Title: '.groupby()'
-Description: 'Groups a DataFrame using a mapper or a series of columns and returns a GroupBy object.'
+Title: ".groupby()"
+Description: "Groups a DataFrame using a mapper or a series of columns and returns a GroupBy object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`.groupby()`** function groups a [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) using a mapper or a series of columns and returns a [`GroupBy`](https://www.codecademy.com/resources/docs/pandas/groupby) object. A range of methods, as well as custom functions, can be applied to `GroupBy` objects in order to combine or transform large amounts of data in these groups.

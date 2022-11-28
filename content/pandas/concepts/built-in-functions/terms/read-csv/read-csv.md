@@ -1,18 +1,18 @@
 ---
-Title: '.read_csv()'
-Description: 'Reads a CSV file into a Pandas DataFrame object.'
+Title: ".read_csv()"
+Description: "Reads a CSV file into a Pandas DataFrame object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Functions'
-  - 'CSV'
-  - 'Pandas'
+  - "Data Structures"
+  - "Functions"
+  - "CSV"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.read_csv()` function takes a path to a CSV file and reads the data into a Pandas [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object.

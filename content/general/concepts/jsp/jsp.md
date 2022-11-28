@@ -1,16 +1,16 @@
 ---
-Title: 'JSP'
-Description: 'JSP (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with Java code that is executed on the web server to render the final web page.'
+Title: "JSP"
+Description: "JSP (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with Java code that is executed on the web server to render the final web page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Dynamic Programming'
-  - 'Servers'
-  - 'Server-Side Rendering'
+  - "Dynamic Programming"
+  - "Servers"
+  - "Server-Side Rendering"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/back-end-engineer-career-path'
+  - "learn-java"
+  - "paths/back-end-engineer-career-path"
 ---
 
 **JSP** (Jakarta Server Pages, formerly JavaServer Pages) is a technology that allows a web developer to mix textual content with [Java](https://www.codecademy.com/resources/docs/java) code that is executed on the web [server](https://www.codecademy.com/resources/docs/general/server) to [render](https://www.codecademy.com/resources/docs/general/server-side-rendering) the final web page. In this way it is similar to [PHP](https://www.codecademy.com/resources/docs/php) except that it uses the Java programming language. With JSP the developer can create dynamic pages based on [HTML](https://www.codecademy.com/resources/docs/html), [XML](https://www.codecademy.com/resources/docs/general/xml), SOAP, or other document types.

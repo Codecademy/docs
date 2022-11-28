@@ -1,16 +1,16 @@
 ---
-Title: 'Whitespace'
-Description: 'Whitespace uses horizontal and vertical space characters or blank lines to format code and improve readability.'
+Title: "Whitespace"
+Description: "Whitespace uses horizontal and vertical space characters or blank lines to format code and improve readability."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Formatting'
-  - 'Typography'
+  - "Formatting"
+  - "Typography"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 In programming, **whitespace** uses horizontal and vertical space characters or blank lines to format code and improve readability.

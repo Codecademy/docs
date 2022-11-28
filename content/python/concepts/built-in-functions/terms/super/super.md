@@ -1,22 +1,22 @@
 ---
-Title: 'super()'
-Description: 'Returns a temporary object that allows a given class to inherit the methods and properties of a parent or sibling class.'
+Title: "super()"
+Description: "Returns a temporary object that allows a given class to inherit the methods and properties of a parent or sibling class."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Objects'
-  - 'Inheritance'
-  - 'Classes'
-  - 'Functions'
-  - 'Inheritance'
-  - 'Methods'
-  - 'Objects'
-  - 'OOP'
+  - "Functions"
+  - "Objects"
+  - "Inheritance"
+  - "Classes"
+  - "Functions"
+  - "Inheritance"
+  - "Methods"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`super()`** function returns a temporary object that allows a given [class](https://www.codecademy.com/resources/docs/python/classes) to [inherit](https://www.codecademy.com/resources/docs/python/inheritance) the methods and properties of a parent or sibling class.

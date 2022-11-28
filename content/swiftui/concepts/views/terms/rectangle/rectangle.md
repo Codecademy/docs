@@ -1,17 +1,17 @@
 ---
-Title: 'Rectangle'
-Description: 'A rectangular shape aligned inside the frame of the view containing it.'
+Title: "Rectangle"
+Description: "A rectangular shape aligned inside the frame of the view containing it."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Rectangle'
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Views'
+  - "Rectangle"
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Views"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`Rectangle`** view is a pre-built rectangular shape that is aligned inside the frame of the `View` containing it, and can be visually modified as desired.

@@ -1,16 +1,16 @@
 ---
-Title: '.push()'
-Description: 'Adds an element to the back of the queue.'
+Title: ".push()"
+Description: "Adds an element to the back of the queue."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.push()`** method adds an element to the back of the queue.

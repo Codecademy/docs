@@ -1,16 +1,16 @@
 ---
-Title: 'list()'
-Description: 'Returns a list from an iterable.'
+Title: "list()"
+Description: "Returns a list from an iterable."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Iterators'
-  - 'OOP'
-  - 'Loops'
+  - "Iterators"
+  - "OOP"
+  - "Loops"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`list()`** function returns a [list](https://www.codecademy.com/resources/docs/python/lists) from an [iterable](https://www.codecademy.com/resources/docs/python/iterators).

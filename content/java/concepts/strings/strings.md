@@ -1,15 +1,15 @@
 ---
-Title: 'Strings'
+Title: "Strings"
 Description: 'A string in Java is an object that holds a sequence of characters contained within a pair of double quotes (").'
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
+  - "Strings"
+  - "Data Types"
+  - "Characters"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 **Strings** in Java are objects that can hold a sequence of characters contained within a pair of double quotes (`"`). It is not a primitive data type.

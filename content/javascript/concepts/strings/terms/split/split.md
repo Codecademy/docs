@@ -1,17 +1,17 @@
 ---
-Title: '.split()'
-Description: 'Returns a new array of substrings based on a given string.'
+Title: ".split()"
+Description: "Returns a new array of substrings based on a given string."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Functions'
-  - 'Methods'
-  - 'Formatting'
+  - "Strings"
+  - "Functions"
+  - "Methods"
+  - "Formatting"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.split()`** method returns a new [array](https://www.codecademy.com/resources/docs/javascript/arrays) of substrings based on a given string.
@@ -36,11 +36,11 @@ The `limit` (also optional) determines the number of substring elements included
 The following example splits a string into an array of names:
 
 ```js
-const stringOfNames = 'Dominic, Shelly, Luka, Devin';
+const stringOfNames = "Dominic, Shelly, Luka, Devin";
 
-console.log('No limit:', stringOfNames.split(', '));
+console.log("No limit:", stringOfNames.split(", "));
 
-console.log('Limited to 3 elements:', stringOfNames.split(', ', 3));
+console.log("Limited to 3 elements:", stringOfNames.split(", ", 3));
 ```
 
 This will log the following output:

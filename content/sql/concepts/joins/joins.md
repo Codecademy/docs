@@ -1,18 +1,18 @@
 ---
-Title: 'Joins'
-Description: 'The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause.'
+Title: "Joins"
+Description: "The JOIN clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an ON clause."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Join'
-  - 'Documentation'
-  - 'Queries'
-  - 'Tables'
+  - "Database"
+  - "Join"
+  - "Documentation"
+  - "Queries"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`JOIN`** clause combines rows from two or more tables by joining them together with other results based on common column values specified using an `ON` condition.

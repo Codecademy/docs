@@ -1,17 +1,17 @@
 ---
-Title: 'bytearray()'
-Description: 'Returns an array of the given bytes of an object.'
+Title: "bytearray()"
+Description: "Returns an array of the given bytes of an object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Encoding'
-  - 'Arrays'
+  - "Functions"
+  - "Encoding"
+  - "Arrays"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 Returns an array of the given bytes of an object.

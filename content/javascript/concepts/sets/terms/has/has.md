@@ -1,16 +1,16 @@
 ---
-Title: '.has()'
-Description: 'Checks whether a value exists in a given Set and returns either true or false.'
+Title: ".has()"
+Description: "Checks whether a value exists in a given Set and returns either true or false."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Sets'
-  - 'Objects'
-  - 'Collections'
+  - "Sets"
+  - "Objects"
+  - "Collections"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.has()`** method checks whether a value exists in a given `Set` and returns either `true` or `false`.

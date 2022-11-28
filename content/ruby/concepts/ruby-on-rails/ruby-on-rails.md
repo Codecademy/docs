@@ -1,20 +1,20 @@
 ---
-Title: 'Ruby on Rails'
-Description: 'Ruby on Rails is an open-source, server-side Ruby framework used for building web applications.'
+Title: "Ruby on Rails"
+Description: "Ruby on Rails is an open-source, server-side Ruby framework used for building web applications."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Browsers'
-  - 'CRUD'
-  - 'Development'
-  - 'Frameworks'
-  - 'Models'
-  - 'Rails'
-  - 'Views'
+  - "Browsers"
+  - "CRUD"
+  - "Development"
+  - "Frameworks"
+  - "Models"
+  - "Rails"
+  - "Views"
 CatalogContent:
-  - 'learn-rails'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-rails"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/" />

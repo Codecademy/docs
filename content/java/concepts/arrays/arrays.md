@@ -1,16 +1,16 @@
 ---
-Title: 'Arrays'
-Description: 'Arrays are used for storing elements of the same data type in a fixed-sized collection, ordered by insertion.'
+Title: "Arrays"
+Description: "Arrays are used for storing elements of the same data type in a fixed-sized collection, ordered by insertion."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
-  - 'Data Structures'
+  - "Arrays"
+  - "Data Types"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 In Java, an array is used for storing elements of the same data type in a fixed-sized collection, ordered by insertion. Being fixed in size means that unlike with [ArrayList](https://www.codecademy.com/resources/docs/java/array-list), elements cannot be removed or added after the array has been created. They can only be modified.

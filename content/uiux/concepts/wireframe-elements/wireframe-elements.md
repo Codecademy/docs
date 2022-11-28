@@ -1,14 +1,14 @@
 ---
-Title: 'Wireframe Elements'
-Description: 'Wireframe elements help communicate ideas during the wireframing process.'
+Title: "Wireframe Elements"
+Description: "Wireframe elements help communicate ideas during the wireframing process."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Wireframe elements** are [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) components that help communicate ideas during the [wireframing](https://www.codecademy.com/resources/docs/uiux/wireframe) process.

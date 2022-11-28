@@ -1,16 +1,16 @@
 ---
-Title: '.insert()'
-Description: 'Inserts a key-value pair into a map.'
+Title: ".insert()"
+Description: "Inserts a key-value pair into a map."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 Elements can be added to a map by inserting key-value pairs using the **`.insert()`** method.

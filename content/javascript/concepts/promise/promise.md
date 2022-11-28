@@ -1,15 +1,15 @@
 ---
-Title: 'Promise'
-Description: 'A JavaScript Promise is an object that can be used to get the outcome of an asynchronous operation when that result is not instantly available. Since JavaScript code runs in a non-blocking manner, promises become essential when we have to wait for some asynchronous operation without holding back the execution of the rest of the code.'
+Title: "Promise"
+Description: "A JavaScript Promise is an object that can be used to get the outcome of an asynchronous operation when that result is not instantly available. Since JavaScript code runs in a non-blocking manner, promises become essential when we have to wait for some asynchronous operation without holding back the execution of the rest of the code."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Promise'
-  - 'Objects'
+  - "Promise"
+  - "Objects"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A JavaScript `Promise` is an object that can be used to get the outcome of an asynchronous operation when that result is not instantly available.
@@ -56,10 +56,10 @@ const promise = new Promise((resolve, reject) => {
 
   // 2 + 2 = 4, and 4 = 4, so this is true!
   if (expressionIsCorrect) {
-    resolve('The promise was fulfilled!');
+    resolve("The promise was fulfilled!");
   } else {
     reject({
-      errorType: 'ArithmeticError',
+      errorType: "ArithmeticError",
       message: "The expression didn't evaluate correctly.",
       originalExpression: `${term1} + ${term2} === ${answer}`,
     });
@@ -76,7 +76,7 @@ promise
     );
   })
   .finally((message) => {
-    console.log('Operations finished');
+    console.log("Operations finished");
   });
 
 // Output: Success: The promise was fulfilled!

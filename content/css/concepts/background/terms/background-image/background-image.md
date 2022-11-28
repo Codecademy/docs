@@ -1,16 +1,16 @@
 ---
-Title: 'background-image'
-Description: 'Places one or more images in the background of the element.'
+Title: "background-image"
+Description: "Places one or more images in the background of the element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Background'
-  - 'Images'
+  - "Background"
+  - "Images"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Places one or more images in the background of the element.
@@ -57,7 +57,7 @@ Set two background images with a fallback background color of `blue`. The `fish.
 ```css
 .hero {
   background-color: blue;
-  background-image: url('fish.png'), url('ocean.png');
+  background-image: url("fish.png"), url("ocean.png");
 }
 ```
 
@@ -68,7 +68,7 @@ Repeat `squirrel.gif` on top of `trees.png`:
 ```css
 .hero {
   background-color: green;
-  background-image: url('squirrel.gif'), url('trees.png');
+  background-image: url("squirrel.gif"), url("trees.png");
   background-repeat: repeat, no-repeat;
 }
 ```

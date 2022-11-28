@@ -1,18 +1,18 @@
 ---
-Title: 'Hash Tables'
-Description: 'A hash table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a hash table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash tables have fast search, insertion and delete operations. There are two main ways to implement a hash table/associative array in JavaScript. The simplest implementation is using the Object data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an Object itself can behave as a basic hash table. javascript var simplehash = new Object(); // or // var simplehash = {};'
+Title: "Hash Tables"
+Description: "A hash table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a hash table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash tables have fast search, insertion and delete operations. There are two main ways to implement a hash table/associative array in JavaScript. The simplest implementation is using the Object data type. This is because all non-scalar objects in JavaScript behave as associative arrays, a mapping from property keys to values. So an Object itself can behave as a basic hash table. javascript var simplehash = new Object(); // or // var simplehash = {};"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Objects'
-  - 'Methods'
-  - 'Dictionary'
-  - 'Hash Maps'
-  - 'OOP'
+  - "Objects"
+  - "Methods"
+  - "Dictionary"
+  - "Hash Maps"
+  - "OOP"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 A hash table is an implementation of an associative array, a list of key-value pairs that allow you to retrieve a value via a key. Internally a hash table utilizes a hash function to transform a key value into an index that points to where the value is stored in memory. Hash tables have fast search, insertion and delete operations.
@@ -28,14 +28,14 @@ var simplehash = new Object();
 // or
 // var simplehash = {};
 
-simplehash['key1'] = 'value1';
-simplehash['key2'] = 'value2';
-simplehash['key3'] = 'value3';
+simplehash["key1"] = "value1";
+simplehash["key2"] = "value2";
+simplehash["key3"] = "value3";
 
 for (var key in simplehash) {
   // use hasOwnProperty() to filter out properties from Object.prototype
   if (simplehash.hasOwnProperty(key)) {
-    console.log('key is: ' + key + ', value is: ' + simplehash[key]);
+    console.log("key is: " + key + ", value is: " + simplehash[key]);
   }
 }
 ```
@@ -77,28 +77,28 @@ A `Map` object also comes with the following methods:
 ```javascript
 var maphash = new Map();
 
-maphash.set('key1', 'value1');
-maphash.set('key2', 'value2');
-maphash.set('key3', 'value3');
+maphash.set("key1", "value1");
+maphash.set("key2", "value2");
+maphash.set("key3", "value3");
 
-console.log(maphash.get('key3'));
+console.log(maphash.get("key3"));
 // Output: value3
 
-maphash.set('key1', 'new value');
+maphash.set("key1", "new value");
 
-console.log(maphash.get('key1'));
+console.log(maphash.get("key1"));
 // Output: new value
 
 console.log(maphash.size);
 // Output: 3
 
-maphash.delete('key2');
+maphash.delete("key2");
 
 console.log(maphash.size);
 // Output: 2
 
 for (const [key, value] of maphash) {
-  console.log(key + ' = ' + value);
+  console.log(key + " = " + value);
 }
 // Output: key1 = new value
 //         key3 = value3

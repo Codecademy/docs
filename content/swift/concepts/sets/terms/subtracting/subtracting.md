@@ -1,15 +1,15 @@
 ---
-Title: '.subtracting()'
-Description: 'Returns a new set containing the elements from the target set that are not in the given set.'
+Title: ".subtracting()"
+Description: "Returns a new set containing the elements from the target set that are not in the given set."
 Subjects:
-  - 'Computer Science'
-  - 'Mobile Development'
+  - "Computer Science"
+  - "Mobile Development"
 Tags:
-  - 'Data Types'
-  - 'Variables'
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.subtracting()`** method creates a new set containing the elements from the target set that are not in the given set.

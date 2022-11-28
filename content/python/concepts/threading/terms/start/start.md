@@ -1,15 +1,15 @@
 ---
-Title: '.start()'
-Description: 'Activates and prompts a thread object to be run.'
+Title: ".start()"
+Description: "Activates and prompts a thread object to be run."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.start()` method activates and prompts a thread object to be run.

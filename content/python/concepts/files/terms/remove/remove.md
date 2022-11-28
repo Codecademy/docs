@@ -1,17 +1,17 @@
 ---
-Title: '.remove()'
-Description: 'Allows the user to delete a file if it exists.'
+Title: ".remove()"
+Description: "Allows the user to delete a file if it exists."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Methods'
-  - 'Files'
-  - 'Functions'
-  - 'Strings'
+  - "Methods"
+  - "Files"
+  - "Functions"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The Python `.remove()` file method allows the user to delete a file if it exists in the system or computer. [`.unlink()`](https://www.codecademy.com/resources/docs/python/file-methods/unlink) is an alternative to delete a file.

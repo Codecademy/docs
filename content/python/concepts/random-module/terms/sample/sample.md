@@ -1,18 +1,18 @@
 ---
-Title: '.sample()'
-Description: 'Returns a list of items randomly selected from a given population.'
+Title: ".sample()"
+Description: "Returns a list of items randomly selected from a given population."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Random'
-  - 'Statistics'
+  - "Functions"
+  - "Methods"
+  - "Random"
+  - "Statistics"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.sample()` method returns a list of items that are randomly sampled from a given population. The returned list consists of randomly selected items without duplicates.

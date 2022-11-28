@@ -1,16 +1,16 @@
 ---
-Title: 'Strings'
-Description: 'Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes or double quotes.'
+Title: "Strings"
+Description: "Strings are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes or double quotes."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
-  - 'Data Types'
+  - "Strings"
+  - "Methods"
+  - "Data Types"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 **Strings** are a primitive data type. They are any grouping of characters (letters, spaces, numbers, or symbols) surrounded by single quotes `'` or double quotes `"`.
@@ -22,9 +22,9 @@ In JavaScript, multiple strings can be concatenated or joined together using the
 In the example below, multiple strings and variables containing string values have been concatenated. After the code block is run, the `displayText` variable will contain the concatenated string:
 
 ```js
-let service = 'credit card';
-let month = 'May 30th';
-let displayText = 'Your ' + service + ' bill is due on ' + month + '.';
+let service = "credit card";
+let month = "May 30th";
+let displayText = "Your " + service + " bill is due on " + month + ".";
 
 console.log(displayText);
 // Output: Your credit card bill is due on May 30th.
@@ -38,7 +38,7 @@ String interpolation is the process of evaluating string literals containing one
 let age = 7;
 
 // String concatenation
-'Tommy is ' + age + ' years old.';
+"Tommy is " + age + " years old.";
 
 // String interpolation
 `Tommy is ${age} years old.`;

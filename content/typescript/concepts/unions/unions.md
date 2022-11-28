@@ -1,14 +1,14 @@
 ---
-Title: 'Unions'
+Title: "Unions"
 Description: 'Some values may be one of the multiple possible types. TypeScript refers to these "either or" types as type unions.'
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Unions'
-  - 'Types'
+  - "Unions"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Some values may be one of multiple possible types. TypeScript refers to these "either or" types as type unions. This refers to the set theory concept of being a "union" of multiple possible types.
@@ -18,7 +18,7 @@ Some values may be one of multiple possible types. TypeScript refers to these "e
 A union type is written as a series of other types with a `|` vertical pipe between them.
 
 ```ts
-let myVar: number | string = '42';
+let myVar: number | string = "42";
 ```
 
 ## Union Example
@@ -30,7 +30,7 @@ function logEither(value: number | string) {
   console.log(value);
 }
 
-logEither('Durandal'); // Ok
+logEither("Durandal"); // Ok
 logEither(7777777); // Also Ok
 
 logEither(false);
@@ -51,8 +51,8 @@ const value =
   Math.random() > 0.5
     ? false
     : Math.random() > 0.5
-    ? 'Leela'
-    : ['Durandal', 'Thoth'];
+    ? "Leela"
+    : ["Durandal", "Thoth"];
 
 value.toString(); // Ok: exists on all three
 

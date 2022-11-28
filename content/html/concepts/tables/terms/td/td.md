@@ -1,17 +1,17 @@
 ---
-Title: 'td'
-Description: 'Defines a cell in a table that contains data. '
+Title: "td"
+Description: "Defines a cell in a table that contains data. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tables'
-  - 'Elements'
-  - 'Web Development'
+  - "Tables"
+  - "Elements"
+  - "Web Development"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines a cell in a table that contains data.

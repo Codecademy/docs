@@ -1,15 +1,15 @@
 ---
-Title: 'fmax()'
-Description: 'Returns the larger of two arguments.'
+Title: "fmax()"
+Description: "Returns the larger of two arguments."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`fmax()`** function returns the larger of two arguments.

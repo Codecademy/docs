@@ -1,7 +1,7 @@
-import frontmatter, { FrontMatterResult } from 'front-matter';
-import fs from 'fs';
-import glob from 'glob';
-import path from 'path';
+import frontmatter, { FrontMatterResult } from "front-matter";
+import fs from "fs";
+import glob from "glob";
+import path from "path";
 
 /*
  * the content/ directory is organized like so:
@@ -27,15 +27,15 @@ import path from 'path';
  * child: directory containing an arbitrary number of nodes
  */
 
-describe('Codecademy Docs Content', () => {
-  it('adheres to content file structure', () => {
+describe("Codecademy Docs Content", () => {
+  it("adheres to content file structure", () => {
     // file names can only contain alphanumerics and hyphens
     const validateName = (pathName: string, name: string) => {
       if (name.match(/[^A-Za-z0-9.-]/g)) {
         // format so that test failures are more helpful
         expect(
           `${pathName} - file name must only include alphanumerics or -`
-        ).toBe('');
+        ).toBe("");
       }
     };
 
@@ -66,74 +66,74 @@ describe('Codecademy Docs Content', () => {
 
         // format so that test failures are more helpful
         if (!fs.statSync(nodePath).isDirectory()) {
-          expect(`${nodePath} - expected a directory but got a file`).toBe('');
+          expect(`${nodePath} - expected a directory but got a file`).toBe("");
         }
         checkNode(nodePath); // step into directory and make sure it's a valid node
       });
     };
 
-    checkChild(path.join(__dirname, 'content'));
+    checkChild(path.join(__dirname, "content"));
   });
 });
 
 // validate metadata in each markdown file
-describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
+describe.each(glob.sync("content/**/*.md"))("%s", (file) => {
   type FrontMatterAttributes = {
     Title: string;
     Description?: string;
-    'Codecademy Hub Page'?: string;
+    "Codecademy Hub Page"?: string;
     CatalogContent?: string[];
     Subjects?: string[];
     Tags?: string[];
   };
 
   const { attributes }: FrontMatterResult<FrontMatterAttributes> = frontmatter(
-    fs.readFileSync(file, 'utf8')
+    fs.readFileSync(file, "utf8")
   );
 
-  it('has only valid metadata keys', () => {
+  it("has only valid metadata keys", () => {
     const validKeys: Record<string, string> = {
-      CatalogContent: 'CatalogContent',
-      'Codecademy Hub Page': 'Codecademy Hub Page',
-      Description: 'Description',
-      Subjects: 'Subjects',
-      Tags: 'Tags',
-      Title: 'Title',
+      CatalogContent: "CatalogContent",
+      "Codecademy Hub Page": "Codecademy Hub Page",
+      Description: "Description",
+      Subjects: "Subjects",
+      Tags: "Tags",
+      Title: "Title",
     };
 
     Object.keys(attributes).forEach((key) => {
       if (!validKeys[key]) {
-        expect(`Invalid metadata key: ${key}`).toBe('');
+        expect(`Invalid metadata key: ${key}`).toBe("");
       }
     });
   });
 
-  it('has valid metadata values', () => {
+  it("has valid metadata values", () => {
     const testOptionalStringArray = (key: string, val?: string[]) => {
       if (
         val !== undefined &&
-        (!Array.isArray(val) || val.some((item) => typeof item !== 'string'))
+        (!Array.isArray(val) || val.some((item) => typeof item !== "string"))
       ) {
         expect(
           `Expected ${key} to be a string array or undefined but got ${typeof val}`
-        ).toBe('');
+        ).toBe("");
       }
     };
 
-    expect(typeof attributes.Title).toBe('string');
-    expect(typeof attributes.Description).toBe('string');
+    expect(typeof attributes.Title).toBe("string");
+    expect(typeof attributes.Description).toBe("string");
 
     if (
-      attributes['Codecademy Hub Page'] !== undefined &&
-      typeof attributes['Codecademy Hub Page'] !== 'string'
+      attributes["Codecademy Hub Page"] !== undefined &&
+      typeof attributes["Codecademy Hub Page"] !== "string"
     ) {
       expect('Expected "Codecademy Hub Page" to be a string or undefined').toBe(
-        ''
+        ""
       );
     }
 
-    testOptionalStringArray('CatalogContent', attributes.CatalogContent);
-    testOptionalStringArray('Subjects', attributes.Subjects);
-    testOptionalStringArray('Tags', attributes.Tags);
+    testOptionalStringArray("CatalogContent", attributes.CatalogContent);
+    testOptionalStringArray("Subjects", attributes.Subjects);
+    testOptionalStringArray("Tags", attributes.Tags);
   });
 });

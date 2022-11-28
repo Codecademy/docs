@@ -1,18 +1,18 @@
 ---
-Title: 'React Native'
-Description: 'React Native is an open-source mobile development framework that works across different operating systems like iOS and Android.'
+Title: "React Native"
+Description: "React Native is an open-source mobile development framework that works across different operating systems like iOS and Android."
 Subjects:
-  - 'Mobile Development'
-  - 'Web Development'
+  - "Mobile Development"
+  - "Web Development"
 Tags:
-  - 'Frameworks'
-  - 'Operating Systems'
-  - 'React'
-  - 'React Native'
-  - 'Responsive'
+  - "Frameworks"
+  - "Operating Systems"
+  - "React"
+  - "React Native"
+  - "Responsive"
 CatalogContent:
-  - 'learn-react-native'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-react-native"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-react-native/" />

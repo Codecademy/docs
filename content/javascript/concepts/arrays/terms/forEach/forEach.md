@@ -1,15 +1,15 @@
 ---
-Title: '.forEach()'
-Description: 'Loops over the array, passing each item in the array into the callback function provided.'
+Title: ".forEach()"
+Description: "Loops over the array, passing each item in the array into the callback function provided."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.forEach()` array method loops over the array, passing each item in the array into the callback function provided.
@@ -33,7 +33,7 @@ A function can be invoked with three arguments:
 Logging each value in an array:
 
 ```js
-['a', 'b', 'c'].forEach((letter) => console.log(letter));
+["a", "b", "c"].forEach((letter) => console.log(letter));
 ```
 
 The output would be:

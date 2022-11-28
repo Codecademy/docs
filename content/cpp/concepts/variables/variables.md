@@ -1,15 +1,15 @@
 ---
-Title: 'Variables'
-Description: 'A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data. To create a variable, the type must be specified and a value must be assigned to it.'
+Title: "Variables"
+Description: "A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data. To create a variable, the type must be specified and a value must be assigned to it."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Variables'
-  - 'Data Types'
+  - "Variables"
+  - "Data Types"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 A **variable** refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.

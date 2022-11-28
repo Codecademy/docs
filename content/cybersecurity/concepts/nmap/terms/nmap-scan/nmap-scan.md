@@ -1,16 +1,16 @@
 ---
-Title: 'Nmap scan'
-Description: 'The most basic type of scan is done with the command-line interface (CLI) command Nmap with just a target specified.'
+Title: "Nmap scan"
+Description: "The most basic type of scan is done with the command-line interface (CLI) command Nmap with just a target specified."
 Subjects:
-  - 'Computer Science'
-  - 'Networking'
+  - "Computer Science"
+  - "Networking"
 Tags:
-  - 'Networking'
-  - 'Cybersecurity'
-  - 'Ethical Hacking'
+  - "Networking"
+  - "Cybersecurity"
+  - "Ethical Hacking"
 CatalogContent:
-  - 'introduction-to-cybersecurity'
-  - 'paths/scan-systems-with-nmap'
+  - "introduction-to-cybersecurity"
+  - "paths/scan-systems-with-nmap"
 ---
 
 The most basic type of **scan** is done with the command-line interface (CLI) command `nmap` with just a target specified. The target is the IP address or domain name being scanned. It should be a domain the user owns or one the user has written permission to scan.

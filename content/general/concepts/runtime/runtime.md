@@ -1,16 +1,16 @@
 ---
-Title: 'Runtime'
-Description: 'Runtime is the period of time during which a program is running.'
+Title: "Runtime"
+Description: "Runtime is the period of time during which a program is running."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Developer Tools'
-  - 'Debugging'
-  - 'Compilation'
+  - "Developer Tools"
+  - "Debugging"
+  - "Compilation"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 **Runtime** is the period of time during which a program is running, executing the specific instructions that make up the software.

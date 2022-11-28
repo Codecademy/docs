@@ -1,14 +1,14 @@
 ---
-Title: 'signbit()'
-Description: 'Returns true if the floating point argument is negative and false if floating point argument is positive.'
+Title: "signbit()"
+Description: "Returns true if the floating point argument is negative and false if floating point argument is positive."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`signbit()`** function returns `true` if the sign of the argument is negative and `false` if its sign is positive.

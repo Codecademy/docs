@@ -1,17 +1,17 @@
 ---
-Title: '<font>'
-Description: 'Used to be used to set the font characteristics of a text. This is now deprecated.'
+Title: "<font>"
+Description: "Used to be used to set the font characteristics of a text. This is now deprecated."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
-  - 'Typography'
+  - "Elements"
+  - "Tags"
+  - "Style"
+  - "Typography"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<font>`** element was used to set the font characteristics of a text. It is now deprecated. Some [CSS](https://www.codecademy.com/resources/docs/css) properties like the [`font`](https://www.codecademy.com/resources/docs/css/typography/font) property should be used instead.

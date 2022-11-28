@@ -1,14 +1,14 @@
 ---
-Title: 'Behavioral Research'
-Description: 'Behavioral research methods observe user behavior through techniques such as ethnographic studies, A/B testing, tree testing, and user testing.'
+Title: "Behavioral Research"
+Description: "Behavioral research methods observe user behavior through techniques such as ethnographic studies, A/B testing, tree testing, and user testing."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Behavioral research** methods observe user behavior through techniques such as ethnographic studies, A/B testing, tree testing, and user testing.

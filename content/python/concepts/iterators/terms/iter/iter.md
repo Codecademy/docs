@@ -1,16 +1,16 @@
 ---
-Title: 'iter()'
-Description: 'The iter() function returns an iterator object.'
+Title: "iter()"
+Description: "The iter() function returns an iterator object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Iterators'
-  - 'OOP'
-  - 'Loops'
+  - "Iterators"
+  - "OOP"
+  - "Loops"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`iter()`** function returns an [iterator](https://www.codecademy.com/resources/docs/python/iterators) object.

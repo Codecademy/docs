@@ -1,15 +1,15 @@
 ---
-Title: '.has()'
-Description: 'Returns a boolean reflecting whether an entry with a given key exists in a Map object.'
+Title: ".has()"
+Description: "Returns a boolean reflecting whether an entry with a given key exists in a Map object."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Map'
-  - 'Object'
+  - "Map"
+  - "Object"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Returns a boolean reflecting whether an entry with a given key exists in a `Map` object.
@@ -30,12 +30,12 @@ Checking whether a key is in the `fruits` Map object can be done using the `.has
 
 ```js
 const fruits = new Map([
-  ['Apples', 5],
-  ['Oranges', 8],
+  ["Apples", 5],
+  ["Oranges", 8],
 ]);
 
-console.log(fruits.has('Apples')); // Output: true
-console.log(fruits.has('Bananas')); // Output: false
+console.log(fruits.has("Apples")); // Output: true
+console.log(fruits.has("Bananas")); // Output: false
 ```
 
 The first `.has()` statement checks that there are `'Apples'` in `fruits`, which returns `true`. The second statement finds that there are no `'Bananas'` in `fruits` and `false` is returned.

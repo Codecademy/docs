@@ -1,16 +1,16 @@
 ---
-Title: 'Links'
-Description: 'In Markdown, a link is created by enclosing the link text in square brackets Link text] and then following it immediately with the URL in parentheses (https://website-name.com). markdown [Link text  For example: markdown We just launched Codecademy Docs on Product Hunt!'
+Title: "Links"
+Description: "In Markdown, a link is created by enclosing the link text in square brackets Link text] and then following it immediately with the URL in parentheses (https://website-name.com). markdown [Link text  For example: markdown We just launched Codecademy Docs on Product Hunt!"
 Subjects:
-  - 'Developer Tools'
-  - 'Web Development'
+  - "Developer Tools"
+  - "Web Development"
 Tags:
-  - 'URL'
-  - 'GitHub'
-  - 'Documentation'
+  - "URL"
+  - "GitHub"
+  - "Documentation"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Markdown, a link is created by enclosing the link text in square brackets `[Link text]` and then following it immediately with the URL in parentheses `(https://website-name.com)`.
@@ -36,18 +36,18 @@ A title for a link can be optionally added. This will appear as a tooltip when t
 Links should have link titles so that screenreaders can narrate them as well as a user can <kbd>Tab</kbd> through the page.
 
 ```md
-[Link text](https://website-name.com 'Link title')
+[Link text](https://website-name.com "Link title")
 ```
 
 For example:
 
 ```md
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 ```
 
 The output would look like:
 
-My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis 'The best place on the internet').
+My favorite Craigslist category is [Missed Connections](https://newyork.craigslist.org/d/missed-connections/search/mis "The best place on the internet").
 
 ## URLs and Email Addresses
 

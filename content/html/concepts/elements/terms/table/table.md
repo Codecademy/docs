@@ -1,15 +1,15 @@
 ---
-Title: '<table>'
-Description: 'Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.'
+Title: "<table>"
+Description: "Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<table>`** element represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.

@@ -1,16 +1,16 @@
 ---
-Title: '<hr>'
-Description: 'Represents a semantic, horizontal line break between text elements.'
+Title: "<hr>"
+Description: "Represents a semantic, horizontal line break between text elements."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Semantic'
-  - 'Tags'
+  - "Elements"
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<hr>`** (or horizontal rule) element represents a semantic line break between text elements (e.g., a topic-change within a section).

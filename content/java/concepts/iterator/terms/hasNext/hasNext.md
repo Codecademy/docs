@@ -1,14 +1,14 @@
 ---
-Title: '.hasNext()'
-Description: 'Returns true if an Iterator or a ListIterator object has more elements. Returns false otherwise.'
+Title: ".hasNext()"
+Description: "Returns true if an Iterator or a ListIterator object has more elements. Returns false otherwise."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Iterators'
+  - "Collections"
+  - "Iterators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.hasNext()`** method returns `true` if an `Iterator` or a `ListIterator` object has more elements. Returns `false` otherwise.

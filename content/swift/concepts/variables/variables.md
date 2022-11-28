@@ -1,15 +1,15 @@
 ---
-Title: 'Variables'
-Description: 'Values are stored in two types of containers: var for variables and let for constants. Variables can be reassigned later in the program while constants cannot.'
+Title: "Variables"
+Description: "Values are stored in two types of containers: var for variables and let for constants. Variables can be reassigned later in the program while constants cannot."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Data Types'
-  - 'Variables'
+  - "Data Types"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 In Swift, values are stored in two types of containers: `var` for **variables** and `let` for **constants**.

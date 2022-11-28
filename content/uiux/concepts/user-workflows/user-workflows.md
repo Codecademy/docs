@@ -1,14 +1,14 @@
 ---
-Title: 'User Workflows'
-Description: 'User workflows are navigational paths throughout a digital interface.'
+Title: "User Workflows"
+Description: "User workflows are navigational paths throughout a digital interface."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **User workflows** are navigational paths throughout a digital interface. They illustrate the path a user takes to complete a task, and there may be multiple workflows that different users take to complete the same task.

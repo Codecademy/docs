@@ -1,14 +1,14 @@
 ---
-Title: 'Classes'
-Description: 'With TypeScript, class objects can use type annotation to describe the relationship between class members and their static types.'
+Title: "Classes"
+Description: "With TypeScript, class objects can use type annotation to describe the relationship between class members and their static types."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Classes'
-  - 'Objects'
+  - "Classes"
+  - "Objects"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 With TypeScript, **`class`** objects can use type annotation to describe the relationship between class members and their static types. Classes are a core part of the JavaScript language that TypeScript respects.
@@ -37,7 +37,7 @@ class Box {
 Therefore, asking for the `count` of a `Box` instance is of type `number`, and the `value` is of type `string`:
 
 ```ts
-const myBox = new Box('stuff');
+const myBox = new Box("stuff");
 myBox.count; // Type: number
 myBox.value; // Type: string
 ```
@@ -59,7 +59,7 @@ class Secret {
   }
 }
 
-const mySecret = new Secret('shhh');
+const mySecret = new Secret("shhh");
 
 mySecret.getValue(); // Ok
 
@@ -92,13 +92,13 @@ In this example, the `Base` class sets up five variables:
 ```ts
 class Base {
   // These two are functionally equivalent
-  first = '';
-  public second = '';
+  first = "";
+  public second = "";
 
-  protected third = '';
+  protected third = "";
 
-  private fourth = '';
-  #fifth = '';
+  private fourth = "";
+  #fifth = "";
 }
 ```
 
@@ -175,7 +175,7 @@ class SpeechGiver implements Speaker {
   }
 
   increaseEmphasis() {
-    this.speech += '!';
+    this.speech += "!";
   }
 
   speak() {

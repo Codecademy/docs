@@ -1,17 +1,17 @@
 ---
-Title: 'Arguments/Parameters'
-Description: 'Supplies data to a defined function when it is called in a program.'
+Title: "Arguments/Parameters"
+Description: "Supplies data to a defined function when it is called in a program."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Methods"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 If parameters are defined inside a function, then any data passed into the function later in a program are known as arguments.

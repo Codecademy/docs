@@ -1,19 +1,19 @@
 ---
-Title: 'Proxy Server'
-Description: 'Proxy servers are intermediary computers that allows a client to connect with a web server while maintaining privacy.'
+Title: "Proxy Server"
+Description: "Proxy servers are intermediary computers that allows a client to connect with a web server while maintaining privacy."
 Subjects:
-  - 'Computer Science'
-  - 'Cybersecurity'
+  - "Computer Science"
+  - "Cybersecurity"
 Tags:
-  - 'Browsers'
-  - 'Cybersecurity'
-  - 'Encoding'
-  - 'Requests'
-  - 'Servers'
-  - 'Validation'
+  - "Browsers"
+  - "Cybersecurity"
+  - "Encoding"
+  - "Requests"
+  - "Servers"
+  - "Validation"
 CatalogContent:
-  - 'introduction-to-cybersecurity'
-  - 'paths/securing-express-applications'
+  - "introduction-to-cybersecurity"
+  - "paths/securing-express-applications"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-proxy-server/" />

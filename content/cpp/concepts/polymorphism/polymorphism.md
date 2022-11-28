@@ -1,15 +1,15 @@
 ---
-Title: 'Polymorphism'
-Description: 'Polymorphism is an important concept in object-oriented programming. It means more than one form — the same entity (function or operator) can behave differently in different scenarios.'
+Title: "Polymorphism"
+Description: "Polymorphism is an important concept in object-oriented programming. It means more than one form — the same entity (function or operator) can behave differently in different scenarios."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Functions'
-  - 'Polymorphism'
+  - "Functions"
+  - "Polymorphism"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Polymorphism** is an important concept in [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). It means "more than one form" — the same entity (function or operator) can operate differently under different situations.

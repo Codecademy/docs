@@ -1,16 +1,16 @@
 ---
-Title: 'Loops'
-Description: 'A loop is used to repeat some operation a multiple number of times.'
+Title: "Loops"
+Description: "A loop is used to repeat some operation a multiple number of times."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Control Flow'
-  - 'Iterators'
-  - 'Loops'
+  - "Control Flow"
+  - "Iterators"
+  - "Loops"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 A **loop** is used to repeat some operation a multiple number of times. In R, there are `while` and `for` loops.

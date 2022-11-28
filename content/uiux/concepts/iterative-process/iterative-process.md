@@ -1,14 +1,14 @@
 ---
-Title: 'Iterative Process'
-Description: 'The iterative process refers to the creative exercise of producing different versions or variations of a possible solution.'
+Title: "Iterative Process"
+Description: "The iterative process refers to the creative exercise of producing different versions or variations of a possible solution."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 The **iterative process** refers to the creative exercise of producing different versions or variations of a possible solution.

@@ -1,14 +1,14 @@
 ---
-Title: '<time>'
-Description: 'Represents a time-related piece of information and can take a datetime attribute that makes it machine-readable.'
+Title: "<time>"
+Description: "Represents a time-related piece of information and can take a datetime attribute that makes it machine-readable."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tags'
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<time>` semantic HTML element represents a time-related piece of information, including:

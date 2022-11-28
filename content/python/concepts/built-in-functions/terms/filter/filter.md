@@ -1,17 +1,17 @@
 ---
-Title: 'filter()'
-Description: 'Returns a filter object that applies a function to each item in an iterable and returns the values that are True.'
+Title: "filter()"
+Description: "Returns a filter object that applies a function to each item in an iterable and returns the values that are True."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `filter()` function returns a filter object that contains values from an iterable. If a function returns `True` for a given item's value, that value will be included in the returned object.

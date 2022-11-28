@@ -1,19 +1,19 @@
 ---
-Title: 'AND'
-Description: 'Tests if all conditions in a given expression evaluate to TRUE.'
+Title: "AND"
+Description: "Tests if all conditions in a given expression evaluate to TRUE."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Tables'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "Tables"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`AND`** operator tests if all conditions in a given expression evaluate to `TRUE`.

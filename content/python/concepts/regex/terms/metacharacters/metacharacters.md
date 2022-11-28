@@ -1,16 +1,16 @@
 ---
-Title: 'Metacharacters'
-Description: 'Matches or qualifies regular character patterns or other expressions.'
+Title: "Metacharacters"
+Description: "Matches or qualifies regular character patterns or other expressions."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Strings'
-  - 'Regular Expressions'
-  - 'Characters'
+  - "Strings"
+  - "Regular Expressions"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'paths/computer-science'
+  - "introduction-to-regular-expressions"
+  - "paths/computer-science"
 ---
 
 In regex, certain **metacharacters** are used to match and qualify regular character patterns or other expressions.

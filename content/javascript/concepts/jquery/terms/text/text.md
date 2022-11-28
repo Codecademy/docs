@@ -1,18 +1,18 @@
 ---
-Title: '.text()'
-Description: 'Gets or sets the text of an HTML element.'
+Title: ".text()"
+Description: "Gets or sets the text of an HTML element."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'DOM'
-  - 'Events'
-  - 'Functions'
-  - 'jQuery'
-  - 'Methods'
+  - "DOM"
+  - "Events"
+  - "Functions"
+  - "jQuery"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`.text()`** method gets or sets the text of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).

@@ -1,14 +1,14 @@
 ---
-Title: 'expm1()'
-Description: 'Returns e raised to the power of the argument minus 1.'
+Title: "expm1()"
+Description: "Returns e raised to the power of the argument minus 1."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`expm1()`** function returns `e` raised to the power of the argument minus 1. For small magnitudes of x `expm1(x)` may be more accurate than `exp(x)-1`.

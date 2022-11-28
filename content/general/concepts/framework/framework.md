@@ -1,15 +1,15 @@
 ---
-Title: 'Framework'
-Description: 'Frameworks are softwares that provide reusable boilerplate code and functionality for building applications.'
+Title: "Framework"
+Description: "Frameworks are softwares that provide reusable boilerplate code and functionality for building applications."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Conceptual'
-  - 'Frameworks'
+  - "Conceptual"
+  - "Frameworks"
 CatalogContent:
-  - 'learn-rails'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-rails"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-a-framework/" />

@@ -1,17 +1,17 @@
 ---
-Title: 'Abstract Syntax Tree'
-Description: 'An abstract syntax tree is a language-agnostic, hierarchical representation of the elements comprising the source code of a computer program.'
+Title: "Abstract Syntax Tree"
+Description: "An abstract syntax tree is a language-agnostic, hierarchical representation of the elements comprising the source code of a computer program."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Code Editors'
-  - 'Conceptual'
-  - 'Developer Tools'
-  - 'Documentation'
+  - "Code Editors"
+  - "Conceptual"
+  - "Developer Tools"
+  - "Documentation"
 CatalogContent:
-  - 'complex-data-structures'
-  - 'paths/computer-science'
+  - "complex-data-structures"
+  - "paths/computer-science"
 ---
 
 An **abstract syntax tree (AST)** is a language-agnostic, hierarchical representation of the elements comprising the source code of a computer program. With a given AST, it is possible to reproduce code that is functionally identical to the source code that originally generated it. In other words, the code can be reproduced in any language. This is why the generation of ASTs is a critical internal step in compiling, as it allows the compiler to interpret the source code in a way that allows it to translate the original language into equivalent machine code.
@@ -34,7 +34,7 @@ if a = b
 
 A graphical representation of the AST would look like this:
 
-![Abstract Syntax Tree Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-syntax-tree.png 'Abstract Syntax Tree Graph')
+![Abstract Syntax Tree Graph](https://raw.githubusercontent.com/Codecademy/docs/main/media/abstract-syntax-tree.png "Abstract Syntax Tree Graph")
 
 Like pseudocode, there are many ways to represent an AST. The output for an AST will vary based on the language and tool used to create it. However, all ASTs should have the property of completely representing the source code in a reproducible manner.
 

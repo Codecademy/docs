@@ -1,17 +1,17 @@
 ---
-Title: 'Data Types'
-Description: 'R supports many data types, each with different uses and characteristics.'
+Title: "Data Types"
+Description: "R supports many data types, each with different uses and characteristics."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Types'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - "Data Types"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 R supports many data types, each with different uses and characteristics. Variables can hold different data types, and are not limited to storing the data type they were initially assigned.

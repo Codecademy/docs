@@ -1,17 +1,17 @@
 ---
-Title: '.printf()'
-Description: 'Prints output to the console using various formatting commands.'
+Title: ".printf()"
+Description: "Prints output to the console using various formatting commands."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Formatting'
-  - 'Output'
-  - 'Strings'
-  - 'Print'
+  - "Characters"
+  - "Formatting"
+  - "Output"
+  - "Strings"
+  - "Print"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.printf()`** method prints output to the console with the use of various formatting commands.

@@ -1,14 +1,14 @@
 ---
-Title: 'Content Hierarchy'
-Description: 'Content hierarchy is established by giving precedence and priority to certain content within a digital interface.'
+Title: "Content Hierarchy"
+Description: "Content hierarchy is established by giving precedence and priority to certain content within a digital interface."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Content hierarchy** is established by giving precedence and priority to certain content within a digital interface.

@@ -1,19 +1,19 @@
 ---
-Title: 'Full-Stack'
-Description: 'Full-stack development refers to having competency in both client and server-side software.'
+Title: "Full-Stack"
+Description: "Full-stack development refers to having competency in both client and server-side software."
 Subjects:
-  - 'Web Design'
-  - 'Web Development'
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Browsers'
-  - 'Debugging'
-  - 'Development'
-  - 'Frameworks'
-  - 'Responsive'
-  - 'Servers'
+  - "Browsers"
+  - "Debugging"
+  - "Development"
+  - "Frameworks"
+  - "Responsive"
+  - "Servers"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-html"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **Full-stack** development refers to having competency in both client and server-side software to build entire applications from the [back-end](https://www.codecademy.com/resources/docs/general/back-end), through [APIs](https://www.codecademy.com/resources/docs/general/api), to the [front-end](https://www.codecademy.com/resources/docs/general/front-end). Full-stack developers are able to handle both front-end and back-end tasks. Typically, full-stack developers are stronger in either front or back-end and throughout their careers, gain competence in the full-stack.

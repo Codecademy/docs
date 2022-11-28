@@ -1,16 +1,16 @@
 ---
-Title: '<option>'
-Description: 'Represents one option in a dropdown created by the select tag.'
+Title: "<option>"
+Description: "Represents one option in a dropdown created by the select tag."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'UI'
+  - "Elements"
+  - "Tags"
+  - "UI"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<option>`** element represents one possible selection in the dropdown created by the [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select) tag.

@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'Go supports a number of different operators. These are symbols that modify the value of one or more expressions.'
+Title: "Operators"
+Description: "Go supports a number of different operators. These are symbols that modify the value of one or more expressions."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-go'
-  - 'paths/computer-science'
+  - "learn-go"
+  - "paths/computer-science"
 ---
 
 Go supports a number of different operators. These are symbols that modify the value of one or more expressions. These symbols include arithmetic operators, comparison operators, logical operators, bitwise operators, and assignment operators.

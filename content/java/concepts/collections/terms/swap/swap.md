@@ -1,14 +1,14 @@
 ---
-Title: '.swap()'
-Description: 'Swaps the position of two elements in a List.'
+Title: ".swap()"
+Description: "Swaps the position of two elements in a List."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Collections'
-  - 'Data Structures'
+  - "Collections"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Collections.swap()`** method swaps the positions of two elements in a `List`.

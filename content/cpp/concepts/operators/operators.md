@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'C++ supports different types of operators such as arithmetic, relational, and logical operators.'
+Title: "Operators"
+Description: "C++ supports different types of operators such as arithmetic, relational, and logical operators."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 C++ supports different types of **operators** such as arithmetic, relational, and logical operators.

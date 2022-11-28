@@ -1,15 +1,15 @@
 ---
-Title: '.insert()'
-Description: 'Adds an element to a desired position of an array.'
+Title: ".insert()"
+Description: "Adds an element to a desired position of an array."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.insert()`** method will add an element to a desired position of an array. When an element is added at the specified index, all later ones are pushed to the right in order to make room. This method allows for single and multiple element additions.

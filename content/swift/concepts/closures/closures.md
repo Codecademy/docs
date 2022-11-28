@@ -1,14 +1,14 @@
 ---
-Title: 'Closures'
-Description: 'Closures allow for more flexible code.'
+Title: "Closures"
+Description: "Closures allow for more flexible code."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Closures'
+  - "Closures"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Closures** in Swift contain chunks of code that can be passed around and reused within the same code.

@@ -1,17 +1,17 @@
 ---
-Title: 'opacity()'
-Description: 'Controls how much of the background is visible through the element it is applied to.'
+Title: "opacity()"
+Description: "Controls how much of the background is visible through the element it is applied to."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Images'
-  - 'Functions'
-  - 'Colors'
+  - "Images"
+  - "Functions"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Controls how much of the background is visible through the element it is applied to.

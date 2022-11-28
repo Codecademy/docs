@@ -1,15 +1,15 @@
 ---
-Title: '<figcaption>'
-Description: 'Describes the media encapsulated within the <figure> element.'
+Title: "<figcaption>"
+Description: "Describes the media encapsulated within the <figure> element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<figcaption>` semantic HTML element describes the media encapsulated within the `<figure>` element.

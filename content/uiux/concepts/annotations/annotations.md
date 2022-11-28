@@ -1,14 +1,14 @@
 ---
-Title: 'Annotations'
-Description: 'Annotations are often in the form of notes or comments that are included in design deliverables.'
+Title: "Annotations"
+Description: "Annotations are often in the form of notes or comments that are included in design deliverables."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Annotations** are often in the form of notes or comments that are included in design [deliverables](https://www.codecademy.com/resources/docs/uiux/deliverables). Annotations within a design deliverable look like this:

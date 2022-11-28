@@ -1,17 +1,17 @@
 ---
-Title: 'AVG()'
-Description: 'Returns the average value in a column.'
+Title: "AVG()"
+Description: "Returns the average value in a column."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'SQLite'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'Functions'
+  - "SQLite"
+  - "PostgreSQL"
+  - "MySQL"
+  - "Functions"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `AVG()` aggregate function returns the average value in a column.

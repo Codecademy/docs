@@ -1,15 +1,15 @@
 ---
-Title: '<noscript>'
-Description: 'Displays content within if JavaScript is disabled in the browser or not supported.'
+Title: "<noscript>"
+Description: "Displays content within if JavaScript is disabled in the browser or not supported."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<noscript>`** element displays its contents whenever [JavaScript](https://www.codecademy.com/resources/docs/javascript) is disabled on the browser.

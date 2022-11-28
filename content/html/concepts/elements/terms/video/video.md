@@ -1,16 +1,16 @@
 ---
-Title: '<video>'
-Description: 'Represents an interface for adding video content to the page.'
+Title: "<video>"
+Description: "Represents an interface for adding video content to the page."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Video'
+  - "Elements"
+  - "Tags"
+  - "Video"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<video>`** element represents an interface for adding video content to the page.

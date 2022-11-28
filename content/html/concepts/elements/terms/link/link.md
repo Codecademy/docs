@@ -1,18 +1,18 @@
 ---
-Title: '<link>'
-Description: 'Connects the current page with an external file.'
+Title: "<link>"
+Description: "Connects the current page with an external file."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Files'
-  - 'Link'
-  - 'Tags'
-  - 'URL'
+  - "Elements"
+  - "Files"
+  - "Link"
+  - "Tags"
+  - "URL"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<link>`** element connects the current web page with an external file such as a stylesheet or a library.

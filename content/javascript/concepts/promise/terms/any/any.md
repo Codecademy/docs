@@ -1,14 +1,14 @@
 ---
-Title: '.any()'
-Description: 'Iterates over an iterableObject of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned Promise object.'
+Title: ".any()"
+Description: "Iterates over an iterableObject of Promises and stops at the first one that fulfills. The resulting value from that fulfilled Promise is resolved in the returned Promise object."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'Promise'
+  - "Methods"
+  - "Promise"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/full-stack-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The **`.any()`** method iterates over an `iterableObject` of Promises ...
@@ -47,11 +47,11 @@ const promiseA = new Promise((resolve, reject) => {
 });
 
 const promiseB = new Promise((resolve, reject) => {
-  reject('Always fails!');
+  reject("Always fails!");
 });
 
 const promiseC = new Promise((resolve, reject) => {
-  resolve('Success!');
+  resolve("Success!");
 });
 
 const promises = [promiseA, promiseB, promiseC];
@@ -63,5 +63,5 @@ Promise.any(promises)
   .catch((err) => {
     console.log(err);
   })
-  .finally(() => console.log('Operations on Promise.any() have finished.'));
+  .finally(() => console.log("Operations on Promise.any() have finished."));
 ```

@@ -1,16 +1,16 @@
 ---
-Title: 'strlen()'
-Description: 'Returns the number of bytes in a given string.'
+Title: "strlen()"
+Description: "Returns the number of bytes in a given string."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Strings'
-  - 'Functions'
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The **`strlen()`** method returns the number of bytes in a given string.

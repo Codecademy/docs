@@ -1,17 +1,17 @@
 ---
-Title: 'Class'
-Description: 'A class is a piece of code within a program that functions as a template or blueprint for creating multiple instances of a particular object.'
+Title: "Class"
+Description: "A class is a piece of code within a program that functions as a template or blueprint for creating multiple instances of a particular object."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Classes'
-  - 'Objects'
-  - 'OOP'
+  - "Classes"
+  - "Objects"
+  - "OOP"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **class** is a piece of code within a program that functions as a template or blueprint for creating multiple instances of a particular object.

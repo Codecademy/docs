@@ -1,17 +1,17 @@
 ---
-Title: 'Variables'
-Description: 'A variable is used to store data that can be accessed later by subsequent code.'
+Title: "Variables"
+Description: "A variable is used to store data that can be accessed later by subsequent code."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Variables'
-  - 'Integers'
-  - 'Booleans'
-  - 'Strings'
+  - "Variables"
+  - "Integers"
+  - "Booleans"
+  - "Strings"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 A variable is used to store data that can be accessed later by subsequent code. In R, there are no variable "declaration" commands. Instead, they are created with the assignment operator, `<-` (The more familiar assignment operator, `=`, can be used instead, but is discouraged).

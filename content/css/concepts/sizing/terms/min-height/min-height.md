@@ -1,17 +1,17 @@
 ---
-Title: 'min-height'
-Description: 'Defines the minimum height of an element.'
+Title: "min-height"
+Description: "Defines the minimum height of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Box Model'
-  - 'Positioning'
-  - 'Responsive'
+  - "Box Model"
+  - "Positioning"
+  - "Responsive"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines the minimum height of an element.

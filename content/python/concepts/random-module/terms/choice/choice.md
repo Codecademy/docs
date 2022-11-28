@@ -1,16 +1,16 @@
 ---
-Title: '.choice()'
-Description: 'Returns a random item chosen from an iterable argument, such as a list or a dictionary.'
+Title: ".choice()"
+Description: "Returns a random item chosen from an iterable argument, such as a list or a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Random'
+  - "Functions"
+  - "Methods"
+  - "Random"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.choice()` method returns a random item chosen from an `iterable` argument, such as a [list](https://www.codecademy.com/resources/docs/python/lists) or a [dictionary](https://www.codecademy.com/resources/docs/python/dictionaries).

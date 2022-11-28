@@ -1,16 +1,16 @@
 ---
-Title: '.pop()'
-Description: 'Returns the value of a specified key, then removes the key-value pair from a dictionary.'
+Title: ".pop()"
+Description: "Returns the value of a specified key, then removes the key-value pair from a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.pop()` method of a Python dictionary returns the value of a specified key, then removes the key-value pair from the dictionary.

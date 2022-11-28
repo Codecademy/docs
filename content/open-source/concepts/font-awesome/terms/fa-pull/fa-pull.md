@@ -1,17 +1,17 @@
 ---
-Title: 'fa-pull'
-Description: 'Puts the icon to the left-side or right-side of its container and allows contents to flow around it.'
+Title: "fa-pull"
+Description: "Puts the icon to the left-side or right-side of its container and allows contents to flow around it."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-pull`** classes are used to put the icon to the left-side (`fa-pull-left`) or right-side (`fa-pull-right`) of its container, allowing contents to flow around it.

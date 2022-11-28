@@ -1,15 +1,15 @@
 ---
-Title: '.concat()'
-Description: 'Merges, or concatenates, two or more arrays.'
+Title: ".concat()"
+Description: "Merges, or concatenates, two or more arrays."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.concat()` array method merges, or concatenates, two or more arrays.
@@ -33,8 +33,8 @@ array1.concat(array2, array3, array4);
 Concatenating two arrays:
 
 ```js
-const grocery1 = ['blueberries', 'eggs', 'artichoke'];
-const grocery2 = ['milk', 'cookies'];
+const grocery1 = ["blueberries", "eggs", "artichoke"];
+const grocery2 = ["milk", "cookies"];
 
 const grocery = grocery1.concat(grocery2);
 
@@ -45,8 +45,8 @@ console.log(grocery);
 ## Example 2
 
 ```js
-const balls1 = ['⚽', '🏈', '⚾', '🎾'];
-const balls2 = ['🏀', '🏐'];
+const balls1 = ["⚽", "🏈", "⚾", "🎾"];
+const balls2 = ["🏀", "🏐"];
 
 const balls = balls1.concat(balls2);
 

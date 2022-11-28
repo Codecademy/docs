@@ -1,14 +1,14 @@
 ---
-Title: 'Encapsulation'
-Description: 'Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes the code cleaner, readable, and maintainable.'
+Title: "Encapsulation"
+Description: "Encapsulation is a way of organizing data members and functions by wrapping them together in a single unit. It makes the code cleaner, readable, and maintainable."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Encapsulation'
+  - "Encapsulation"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 **Encapsulation** is a way of organizing data members (attributes) and function members (methods) by wrapping them together in a single class. By bundling them together in a single unit, the code is cleaner, more readable, and more maintainable.

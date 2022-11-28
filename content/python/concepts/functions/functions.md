@@ -1,16 +1,16 @@
 ---
-Title: 'Functions'
-Description: 'Functions allow tasks to be performed multiple times within a program without having to be rewritten.'
+Title: "Functions"
+Description: "Functions allow tasks to be performed multiple times within a program without having to be rewritten."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Some tasks need to be performed multiple times within a program. Rather than rewrite the same code in multiple places, a function may be defined using the `def` keyword. Function definitions may include parameters, providing data input to the function.

@@ -1,17 +1,17 @@
 ---
-Title: '.format()'
-Description: 'Returns a string with values inserted via placeholders.'
+Title: ".format()"
+Description: "Returns a string with values inserted via placeholders."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Formatting'
-  - 'Strings'
-  - 'Methods'
-  - 'Functions'
+  - "Formatting"
+  - "Strings"
+  - "Methods"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The **`.format()`** string function returns a string with values inserted via placeholders.

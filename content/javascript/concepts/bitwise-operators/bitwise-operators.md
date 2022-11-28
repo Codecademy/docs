@@ -1,14 +1,14 @@
 ---
-Title: 'Bitwise Operators'
-Description: 'Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result. JavaScript uses the following bitwise operators: &, |, ^, ~, <<, >>, >>>.'
+Title: "Bitwise Operators"
+Description: "Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result. JavaScript uses the following bitwise operators: &, |, ^, ~, <<, >>, >>>."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Operators'
+  - "Operators"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 Bitwise operators in JavaScript operate on 32-bit operands. Internally, JavaScript converts 64-bit floating point numbers into 32-bit signed integers before performing the operation, it then converts back to 64-bit numbers to return the result.

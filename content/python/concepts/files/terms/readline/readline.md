@@ -1,17 +1,17 @@
 ---
-Title: '.readline()'
-Description: 'Returns the first line of content from an open file.'
+Title: ".readline()"
+Description: "Returns the first line of content from an open file."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Files'
-  - 'Methods'
-  - 'Functions'
-  - 'Strings'
+  - "Files"
+  - "Methods"
+  - "Functions"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.readline()` returns the first line of content from an open file.

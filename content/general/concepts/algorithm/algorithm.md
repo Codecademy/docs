@@ -1,15 +1,15 @@
 ---
-Title: 'Algorithm'
-Description: 'An algorithm is a formal process used to solve a problem. They can be represented in several formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle.'
+Title: "Algorithm"
+Description: "An algorithm is a formal process used to solve a problem. They can be represented in several formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Algorithms'
-  - 'Sort'
+  - "Algorithms"
+  - "Sort"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 An **algorithm** is a formal process used to solve a problem. Algorithms can be represented in several formats but are usually represented in pseudocode in order to communicate the process by which the algorithms solve the problems they were created to tackle. Ultimately algorithms are implemented in programming languages that allow them to manipulate data in the ways that the algorithms are intended to. Algorithms are measured in "Big O notation".

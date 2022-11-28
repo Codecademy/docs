@@ -1,15 +1,15 @@
 ---
-Title: 'URI'
-Description: 'A URI is a string that returns data used by web technologies such as APIs.'
+Title: "URI"
+Description: "A URI is a string that returns data used by web technologies such as APIs."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Link'
-  - 'URL'
+  - "Link"
+  - "URL"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 A **Uniform Resource Identifier (URI)** is a string that refers to a resource used by a web technology like a browser or an [API](https://www.codecademy.com/resources/docs/general/api).

@@ -1,18 +1,18 @@
 ---
-Title: 'BETWEEN'
-Description: 'Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types.'
+Title: "BETWEEN"
+Description: "Selects values, inclusively of beginning and end values, within a given range. BETWEEN works with numbers, text, or date data types."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The **`BETWEEN`** operator selects values, inclusive of beginning and end values, within a given range.

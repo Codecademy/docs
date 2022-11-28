@@ -1,15 +1,15 @@
 ---
-Title: 'DNS'
-Description: 'The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet.'
+Title: "DNS"
+Description: "The Domain Name System (DNS) protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'HTTP'
-  - 'Developer Tools'
+  - "HTTP"
+  - "Developer Tools"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 The **Domain Name System (DNS)** protocol converts domain names to IP addresses. Think of it as a phonebook for the Internet. It’s hard to remember an exact IP address when we want to access a website.

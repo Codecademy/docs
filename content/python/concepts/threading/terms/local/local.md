@@ -1,15 +1,15 @@
 ---
-Title: '.local()'
-Description: 'Returns a local thread object with data that is specific to that thread.'
+Title: ".local()"
+Description: "Returns a local thread object with data that is specific to that thread."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.local()` method returns a local thread object with data that is specific to that thread. This data can be anything from arbitrary numbers to session-specific information like usernames.

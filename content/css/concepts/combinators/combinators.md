@@ -1,16 +1,16 @@
 ---
-Title: 'Combinators'
-Description: 'Combinators are CSS selectors that are used to style elements that have a certain relationship with other selected elements.'
+Title: "Combinators"
+Description: "Combinators are CSS selectors that are used to style elements that have a certain relationship with other selected elements."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Selectors'
-  - 'Elements'
-  - 'Style'
+  - "Selectors"
+  - "Elements"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Combinators** are CSS [selectors](https://www.codecademy.com/resources/docs/css/selectors) that are used to style elements that have a certain relationship with other selected elements.

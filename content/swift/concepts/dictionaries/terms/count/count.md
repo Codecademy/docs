@@ -1,15 +1,15 @@
 ---
-Title: '.count'
-Description: 'Returns an integer that represents how many key-value pairs are in a dictionary.'
+Title: ".count"
+Description: "Returns an integer that represents how many key-value pairs are in a dictionary."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Dictionaries'
-  - 'Properties'
+  - "Dictionaries"
+  - "Properties"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.count`** property returns an integer that represents how many key-value pairs are in a dictionary.

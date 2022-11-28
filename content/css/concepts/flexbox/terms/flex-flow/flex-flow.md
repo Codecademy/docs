@@ -1,16 +1,16 @@
 ---
-Title: 'flex-flow'
-Description: 'A shorthand for specifying the  flex-direction and flex-wrap properties. Defining flex-flow provides the parameters for child elements to be organized across the horizontal and vertical axes.'
+Title: "flex-flow"
+Description: "A shorthand for specifying the  flex-direction and flex-wrap properties. Defining flex-flow provides the parameters for child elements to be organized across the horizontal and vertical axes."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Flexbox'
-  - 'Layout'
+  - "Flexbox"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 The `flex-flow` property is a shorthand for specifying the `flex-direction` and `flex-wrap` properties. Defining `flex-flow` provides the parameters for child elements to be organized across the horizontal and vertical axes.

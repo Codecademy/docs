@@ -1,15 +1,15 @@
 ---
-Title: '.delete()'
-Description: 'Removes a substring from the contents of a StringBuilder and returns the modified object.'
+Title: ".delete()"
+Description: "Removes a substring from the contents of a StringBuilder and returns the modified object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Characters'
-  - 'Strings'
-  - 'Methods'
+  - "Characters"
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.delete()`** method removes a substring from the contents of a `StringBuilder` and returns the modified object.

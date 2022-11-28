@@ -1,15 +1,15 @@
 ---
-Title: '.map()'
-Description: 'Creates a new array with the results of calling a function for every element in array.'
+Title: ".map()"
+Description: "Creates a new array with the results of calling a function for every element in array."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Creates a new array with the results of calling a function for every element in array.
@@ -42,9 +42,9 @@ Create an array of full names from the `students` array full of objects:
 
 ```js
 const students = [
-  { first_name: 'Samantha', last_name: 'Jones' },
-  { first_name: 'Hector', last_name: 'Gonzales' },
-  { first_name: 'Jeremiah', last_name: 'Duncan' },
+  { first_name: "Samantha", last_name: "Jones" },
+  { first_name: "Hector", last_name: "Gonzales" },
+  { first_name: "Jeremiah", last_name: "Duncan" },
 ];
 
 const fullNames = students.map((student) => {

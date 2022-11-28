@@ -1,15 +1,15 @@
 ---
-Title: 'animation-play-state'
-Description: 'Defines whether an animation is running or paused. '
+Title: "animation-play-state"
+Description: "Defines whether an animation is running or paused. "
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Animation'
+  - "Animation"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Defines whether an animation is running or paused.
@@ -75,9 +75,9 @@ div {
 
 ```js
 // Target div
-const box = document.querySelector('div');
+const box = document.querySelector("div");
 // Pause transition on click
-box.addEventListener('click', () => {
-  box.style.animationPlayState = 'paused';
+box.addEventListener("click", () => {
+  box.style.animationPlayState = "paused";
 });
 ```

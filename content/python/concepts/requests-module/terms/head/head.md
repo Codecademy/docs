@@ -1,17 +1,17 @@
 ---
-Title: '.head()'
-Description: 'Sends a HEAD request to a web server and it returns a response object.'
+Title: ".head()"
+Description: "Sends a HEAD request to a web server and it returns a response object."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'APIs'
-  - 'HTTP'
-  - 'Queries'
-  - 'Requests'
+  - "Methods"
+  - "APIs"
+  - "HTTP"
+  - "Queries"
+  - "Requests"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/analyze-data-with-python'
+  - "learn-python-3"
+  - "paths/analyze-data-with-python"
 ---
 
 The **`.head()`** method sends a `HEAD` request to a web server and it returns a response object.

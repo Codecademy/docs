@@ -1,15 +1,15 @@
 ---
-Title: '.addAll()'
-Description: 'Adds a collection to an ArrayList.'
+Title: ".addAll()"
+Description: "Adds a collection to an ArrayList."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Types"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.addAll()`** method is used to add the contents of a collection to an instance of the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) class.

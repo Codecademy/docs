@@ -1,16 +1,16 @@
 ---
-Title: '.signum()'
-Description: 'Used to determine whether a number is positive, negative, zero, or NaN.'
+Title: ".signum()"
+Description: "Used to determine whether a number is positive, negative, zero, or NaN."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
-  - 'Numbers'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.signum()`** method determines whether a number is positive, negative, zero, or `NaN`.

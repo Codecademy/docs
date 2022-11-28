@@ -1,17 +1,17 @@
 ---
-Title: 'Node.js'
-Description: 'Node.js is a free, open-source JavaScript runtime environment for back-end development and building server-side or desktop applications.'
+Title: "Node.js"
+Description: "Node.js is a free, open-source JavaScript runtime environment for back-end development and building server-side or desktop applications."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Developer Tools'
-  - 'Dependency'
-  - 'Node'
-  - 'Open Source'
+  - "Developer Tools"
+  - "Dependency"
+  - "Node"
+  - "Open Source"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/article/what-is-node" />
@@ -52,9 +52,9 @@ Per its official home page, Node "uses an event-driven, non-blocking I/O model."
 To handle asynchronous code, Node uses a callback-based system. Node functions and methods that will implement some asynchronous activity take a [callback function](https://www.codecademy.com/resources/docs/javascript/callbacks). This function will be called whenever the asynchronous operation has resolved. By convention, the first argument of this callback is an error placeholder. If an error in the asynchronous operation occurred (trying to read a non-existent file, for example), the error argument will be an `Error` object, that will be `null` if no error occurs.
 
 ```js
-const fs = require('fs');
+const fs = require("fs");
 
-fs.readFile('./script.js', function (error, data) {
+fs.readFile("./script.js", function (error, data) {
   // Error is null if no error occurred, but an Error object if it did
   if (error) {
     throw error;
@@ -81,7 +81,7 @@ This video shows how to download and install Node.
 For example, if we have the following saved in a `script.js` file:
 
 ```js
-console.log('I am a Node program');
+console.log("I am a Node program");
 ```
 
 We can run the terminal command in the same folder as `script.js`:
@@ -128,7 +128,7 @@ To exit the Node REPL, use the `.exit` command at any point and return to the sy
 Node REPL can also load existing JS files. If we had the following code saved into `script.js`:
 
 ```js
-var a = 'Node REPL is fun!';
+var a = "Node REPL is fun!";
 ```
 
 We can use `.load` to load it into the REPL. `.load` takes a path argument, so to load `script.js` we would use `.load ./script.js`.

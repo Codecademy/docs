@@ -1,15 +1,15 @@
 ---
-Title: 'fmin()'
-Description: 'Returns the smaller of two arguments.'
+Title: "fmin()"
+Description: "Returns the smaller of two arguments."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
-  - 'Methods'
+  - "Functions"
+  - "Arithmetic"
+  - "Methods"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`fmin()`** function returns the smaller of two arguments.

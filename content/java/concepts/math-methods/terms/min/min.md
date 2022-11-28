@@ -1,15 +1,15 @@
 ---
-Title: '.min()'
-Description: 'Returns the minimum value from the given two arguments.'
+Title: ".min()"
+Description: "Returns the minimum value from the given two arguments."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Function'
-  - 'Arithmetic'
+  - "Methods"
+  - "Function"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.min()`** method returns the minimum value from the given two arguments.

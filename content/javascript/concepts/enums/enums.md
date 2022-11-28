@@ -1,15 +1,15 @@
 ---
-Title: 'Enums'
-Description: 'JavaScript has no support for a native enum type, but it is possible to define enums using Objects.'
+Title: "Enums"
+Description: "JavaScript has no support for a native enum type, but it is possible to define enums using Objects."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Data Types'
+  - "Arrays"
+  - "Data Types"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 JavaScript has no support for a native **enum** type, but it is possible to define enums using `Object`s. In general, enums are a type that can hold a finite number of defined values. The values in enums are not mutable.
@@ -39,7 +39,7 @@ All possible enum values can be listed as follows:
 
 ```js
 Object.keys(directions).forEach((direction) =>
-  console.log('direction:', direction)
+  console.log("direction:", direction)
 );
 ```
 

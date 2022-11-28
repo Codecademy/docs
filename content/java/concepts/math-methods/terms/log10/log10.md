@@ -1,14 +1,14 @@
 ---
-Title: '.log10()'
-Description: 'Returns the logarithm base 10 of a double value as a parameter.'
+Title: ".log10()"
+Description: "Returns the logarithm base 10 of a double value as a parameter."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arithmetic'
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.log10()`** method returns the base-10 logarithm of a number.

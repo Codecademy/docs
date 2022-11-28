@@ -1,14 +1,14 @@
 ---
-Title: 'Interviews'
-Description: 'Interviews are a user research method where a researcher asks a participant a series of questions about a topic.'
+Title: "Interviews"
+Description: "Interviews are a user research method where a researcher asks a participant a series of questions about a topic."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Interviews** are a [user research](https://www.codecademy.com/resources/docs/uiux/user-research) method where a researcher asks a participant a series of questions about a topic.

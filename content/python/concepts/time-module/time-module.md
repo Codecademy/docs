@@ -1,17 +1,17 @@
 ---
-Title: 'Time Module'
-Description: 'Python has a built-in time module that has functions that can be used for working with time.'
+Title: "Time Module"
+Description: "Python has a built-in time module that has functions that can be used for working with time."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'Constants'
+  - "Methods"
+  - "Constants"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Python has a built-in `time` module that can be used for time related tasks. This module utilizes a number of different standards and objects that may be unfamiliar such as:

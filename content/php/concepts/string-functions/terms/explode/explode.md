@@ -1,17 +1,17 @@
 ---
-Title: 'explode()'
-Description: 'Splits a given string by a delimiter and returns an array of the substrings produced.'
+Title: "explode()"
+Description: "Splits a given string by a delimiter and returns an array of the substrings produced."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Arrays'
-  - 'Strings'
-  - 'Functions'
+  - "Arrays"
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `explode()` function takes a string and splits it on a given delimiter string. It returns an array of the substrings produced.

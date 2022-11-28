@@ -1,14 +1,14 @@
 ---
-Title: 'sqrt()'
-Description: 'Returns square root of the argument.'
+Title: "sqrt()"
+Description: "Returns square root of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`sqrt()`** function returns the square root of the argument.

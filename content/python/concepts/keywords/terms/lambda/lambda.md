@@ -1,16 +1,16 @@
 ---
-Title: 'lambda'
-Description: 'Produces an anonymous function expression.'
+Title: "lambda"
+Description: "Produces an anonymous function expression."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Parameters'
-  - 'Arguments'
+  - "Functions"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`lambda`** keyword produces [anonymous function](https://www.codecademy.com/resources/docs/python/functions/anonymous-functions) expressions without using the `def` keyword. Lambda expressions are commonly used for defining single-use functions which are then passed to higher-order functions.

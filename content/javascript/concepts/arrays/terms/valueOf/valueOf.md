@@ -1,15 +1,15 @@
 ---
-Title: '.valueOf()'
-Description: 'Returns the value of all the elements of the original array.'
+Title: ".valueOf()"
+Description: "Returns the value of all the elements of the original array."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.valueOf()` method returns the value of all the elements of the original array.
@@ -25,7 +25,7 @@ array.valueOf();
 Create a new array with the same elements as `programmingLanguages`:
 
 ```js
-const programmingLanguages = ['JS', 'Python', 'Java', 'C++'];
+const programmingLanguages = ["JS", "Python", "Java", "C++"];
 const newArray = programmingLanguages.valueOf();
 
 console.log(newArray);

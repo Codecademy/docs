@@ -1,16 +1,16 @@
 ---
-Title: 're.sub()'
-Description: 'Replace matching substrings with a new string for all occurrences, or a specified number. '
+Title: "re.sub()"
+Description: "Replace matching substrings with a new string for all occurrences, or a specified number. "
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Characters'
+  - "Regular Expressions"
+  - "Strings"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'paths/computer-science'
+  - "introduction-to-regular-expressions"
+  - "paths/computer-science"
 ---
 
 Replace matching substrings with a new string for all occurrences, or a specified number.

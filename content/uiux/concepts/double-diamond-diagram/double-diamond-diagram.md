@@ -1,14 +1,14 @@
 ---
-Title: 'Double Diamond Diagram'
-Description: 'The double diamond diagram is a structured design methodology that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process.'
+Title: "Double Diamond Diagram"
+Description: "The double diamond diagram is a structured design methodology that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **double diamond diagram** is a structured [design methodology](https://www.codecademy.com/resources/docs/uiux/design-methodologies) that differentiates between divergent and convergent modes of thinking and when they occur during strategy and execution in the design process. The four phases of the double diamond process are: discover, define, develop, and deliver.

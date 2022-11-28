@@ -1,15 +1,15 @@
 ---
-Title: 'Dates'
-Description: 'Dates and times are created and modified in Python with the built-in datetime module.'
+Title: "Dates"
+Description: "Dates and times are created and modified in Python with the built-in datetime module."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 Python has a built-in module called [datetime](https://docs.python.org/3/library/datetime.html) that can be used to create and modify `datetime` objects.

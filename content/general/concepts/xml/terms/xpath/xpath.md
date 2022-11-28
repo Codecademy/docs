@@ -1,15 +1,15 @@
 ---
-Title: 'XPath'
-Description: 'XPath is a language used to query different parts of an XML document.'
+Title: "XPath"
+Description: "XPath is a language used to query different parts of an XML document."
 Subjects:
-  - 'Code Foundations'
-  - 'Data Science'
+  - "Code Foundations"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Development'
+  - "Data Structures"
+  - "Development"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-analyst'
+  - "learn-python-3"
+  - "paths/data-analyst"
 ---
 
 **XPath** is a language used to query different parts of an [XML](https://www.codecademy.com/resources/docs/general/xml) document. There are several versions of the specification from the [World Wide Web Consortium](https://www.w3.org/) (W3C):

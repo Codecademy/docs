@@ -1,16 +1,16 @@
 ---
-Title: '.clear()'
-Description: 'Removes all entries in a dictionary.'
+Title: ".clear()"
+Description: "Removes all entries in a dictionary."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Dictionaries'
-  - 'Functions'
-  - 'Methods'
+  - "Dictionaries"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.clear()` method of a Python dictionary removes all the entries in the dictionary. It takes no arguments.

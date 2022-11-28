@@ -1,14 +1,14 @@
 ---
-Title: 'abs()'
-Description: 'Returns the absolute value of the argument.'
+Title: "abs()"
+Description: "Returns the absolute value of the argument."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`abs()`** function returns the absolute value of the argument.

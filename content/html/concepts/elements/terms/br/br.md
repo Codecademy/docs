@@ -1,15 +1,15 @@
 ---
-Title: '<br>'
-Description: 'Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.'
+Title: "<br>"
+Description: "Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<br>`** element represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.

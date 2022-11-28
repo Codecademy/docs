@@ -1,15 +1,15 @@
 ---
-Title: 'setwd()'
-Description: 'Sets the current working directory to the file path specified.'
+Title: "setwd()"
+Description: "Sets the current working directory to the file path specified."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`setwd()`** sets the current working directory to the [file path](https://www.codecademy.com/resources/docs/general/file-paths) specified.

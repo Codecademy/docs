@@ -1,15 +1,15 @@
 ---
-Title: 'background-color'
-Description: 'Defines a color for the background of an element.'
+Title: "background-color"
+Description: "Defines a color for the background of an element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Background'
-  - 'Colors'
+  - "Background"
+  - "Colors"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`background-color`** property defines a color for the background of an [HTML element](https://www.codecademy.com/resources/docs/html/elements).

@@ -1,16 +1,16 @@
 ---
-Title: '.find()'
-Description: 'Returns the first element in the array that satisfies the given function.'
+Title: ".find()"
+Description: "Returns the first element in the array that satisfies the given function."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Functions'
-  - 'Methods'
+  - "Arrays"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.find()`** method returns the first element in the array that satisfies the given function.

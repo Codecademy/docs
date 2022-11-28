@@ -1,15 +1,15 @@
 ---
-Title: '.includes()'
-Description: 'Returns true if a given value is included in an array.'
+Title: ".includes()"
+Description: "Returns true if a given value is included in an array."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `.includes()` method returns `true` if a given value is included in an array. Otherwise, it returns `false`.
@@ -44,7 +44,7 @@ console.log([1, 2, 3].includes(3));
 It can also be used with an array assigned to a variable:
 
 ```js
-const myArray = [1, '2', 3];
+const myArray = [1, "2", 3];
 
 console.log(myArray.includes(2));
 // Output: false

@@ -1,16 +1,16 @@
 ---
-Title: 'Switch'
-Description: 'The switch statement is a type of conditional used to check the value of an expression against multiple cases.'
+Title: "Switch"
+Description: "The switch statement is a type of conditional used to check the value of an expression against multiple cases."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Switch'
-  - 'Control Flow'
-  - 'Variables'
+  - "Switch"
+  - "Control Flow"
+  - "Variables"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`switch`** statement is a type of conditional used to check the value of an expression against multiple cases.

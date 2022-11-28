@@ -1,15 +1,15 @@
 ---
-Title: '.decrementExact()'
-Description: 'Returns the argument decremented by one, throwing an exception if the result overflows the datatype.'
+Title: ".decrementExact()"
+Description: "Returns the argument decremented by one, throwing an exception if the result overflows the datatype."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Arithmetic'
+  - "Functions"
+  - "Methods"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.decrementExact()`** method returns the argument decremented by one. It throws an [exception](https://www.codecademy.com/resources/docs/java/errors) if the result overflows the specified [data type](https://www.codecademy.com/resources/docs/java/data-types) of the argument.

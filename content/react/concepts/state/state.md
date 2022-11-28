@@ -1,16 +1,16 @@
 ---
-Title: 'State'
-Description: 'The state object is where we store data in a component that is expected to change over time. When the state object changes, the component re-renders.'
+Title: "State"
+Description: "The state object is where we store data in a component that is expected to change over time. When the state object changes, the component re-renders."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'State'
-  - 'Props'
-  - 'DOM'
-  - 'React'
+  - "State"
+  - "Props"
+  - "DOM"
+  - "React"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`state`** object holds data in a [component](https://www.codecademy.com/resources/docs/react/components) that is expected to change over time. It is created and maintained by the component itself, and when it changes, the component re-renders.
@@ -61,9 +61,9 @@ class Car extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      brand: 'Chevrolet',
-      model: 'Malibu',
-      color: 'white',
+      brand: "Chevrolet",
+      model: "Malibu",
+      color: "white",
       year: 1998,
     };
   }
@@ -90,9 +90,9 @@ With property initializers, it is not necessary to set state or bind methods in 
 class Car extends React.Component {
   // No need to use constructor
   state = {
-    brand: 'Chevrolet',
-    model: 'Malibu',
-    color: 'white',
+    brand: "Chevrolet",
+    model: "Malibu",
+    color: "white",
     year: 1998,
   };
 

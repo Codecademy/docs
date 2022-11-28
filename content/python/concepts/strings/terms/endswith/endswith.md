@@ -1,17 +1,17 @@
 ---
-Title: '.endswith()'
-Description: 'Checks whether or not a string ends with a given value.'
+Title: ".endswith()"
+Description: "Checks whether or not a string ends with a given value."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Methods'
-  - 'Strings'
+  - "Functions"
+  - "Methods"
+  - "Strings"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/computer-science"
+  - "paths/data-science"
 ---
 
 The `.endswith()` method checks a value against a given string and returns `True` if the string ends with that value. Otherwise, it returns `False`.

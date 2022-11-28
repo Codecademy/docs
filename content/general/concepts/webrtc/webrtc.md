@@ -1,17 +1,17 @@
 ---
-Title: 'WebRTC'
-Description: 'Web real-time communication (WebRTC) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.'
+Title: "WebRTC"
+Description: "Web real-time communication (WebRTC) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients."
 
 Subjects:
-  - 'Mobile Development'
-  - 'Web Development'
+  - "Mobile Development"
+  - "Web Development"
 Tags:
-  - 'APIs'
-  - 'WebRTC'
-  - 'Video'
+  - "APIs"
+  - "WebRTC"
+  - "Video"
 CatalogContent:
-  - 'learn-websockets'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-websockets"
+  - "paths/front-end-engineer-career-path"
 ---
 
 [**WebRTC**](https://webrtc.org/) (Web Real-Time Communication) is a free and open-source collection of APIs that allow peer-to-peer connections between two or more browser clients.

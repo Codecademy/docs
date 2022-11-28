@@ -1,17 +1,17 @@
 ---
-Title: 'float'
-Description: 'Places an element on the left or right side of its container.'
+Title: "float"
+Description: "Places an element on the left or right side of its container."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Float'
-  - 'Positioning'
-  - 'Layout'
+  - "Float"
+  - "Positioning"
+  - "Layout"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Places an element on the left or right side of its container.

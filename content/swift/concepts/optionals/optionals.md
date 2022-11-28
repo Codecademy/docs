@@ -1,14 +1,14 @@
 ---
-Title: 'Optionals'
-Description: 'Optionals are types that deal with scenarios involving the potential presence or absence of a value (nil).'
+Title: "Optionals"
+Description: "Optionals are types that deal with scenarios involving the potential presence or absence of a value (nil)."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Optionals'
+  - "Optionals"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Optionals** are types that deal with scenarios involving the potential presence or absence of a value (`nil`).

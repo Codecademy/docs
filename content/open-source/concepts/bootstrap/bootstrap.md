@@ -1,26 +1,26 @@
 ---
-Title: 'Bootstrap'
-Description: 'Bootstrap is an open-source CSS framework created to help style web pages with mobile-first considerations in mind.'
+Title: "Bootstrap"
+Description: "Bootstrap is an open-source CSS framework created to help style web pages with mobile-first considerations in mind."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Bootstrap'
-  - 'Accessibility'
-  - 'Animation'
-  - 'Borders'
-  - 'Color'
-  - 'Flexbox'
-  - 'Fonts'
-  - 'Frameworks'
-  - 'Grid'
-  - 'jQuery'
-  - 'Open Source'
-  - 'Responsive'
-  - 'Style'
+  - "Bootstrap"
+  - "Accessibility"
+  - "Animation"
+  - "Borders"
+  - "Color"
+  - "Flexbox"
+  - "Fonts"
+  - "Frameworks"
+  - "Grid"
+  - "jQuery"
+  - "Open Source"
+  - "Responsive"
+  - "Style"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 [**Bootstrap**](https://getbootstrap.com/) is an open-source [CSS](https://www.codecademy.com/resources/docs/css) [framework](https://www.codecademy.com/resources/docs/general/framework) created to help style web pages with mobile-first considerations in mind. It was created internally at Twitter in 2011 as a way to solve issues with design consistency across their engineering team. Since its creation, Bootstrap has become one of the most commonly used tools on web pages today.

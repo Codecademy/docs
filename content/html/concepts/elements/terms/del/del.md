@@ -1,16 +1,16 @@
 ---
-Title: '<del>'
-Description: 'Shows text that is to be removed from a document, usually rendered in strike-through text.'
+Title: "<del>"
+Description: "Shows text that is to be removed from a document, usually rendered in strike-through text."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
-  - 'Style'
+  - "Elements"
+  - "Tags"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<del>`** element is used to show a deleted portion of text and is commonly intended to show the changes made to a document while keeping a history of the changes made. Browsers render it showing strike-through text.

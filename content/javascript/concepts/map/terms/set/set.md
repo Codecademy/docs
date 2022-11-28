@@ -1,15 +1,15 @@
 ---
-Title: '.set()'
-Description: 'Stores or updates entries of key-value pairs in a Map object.'
+Title: ".set()"
+Description: "Stores or updates entries of key-value pairs in a Map object."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Map'
-  - 'Object'
+  - "Map"
+  - "Object"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Stores or updates entries of key-value pairs in a `Map` object.
@@ -32,14 +32,14 @@ Key-value pairs are stored in a `Map` object using the `.set()` method.
 
 ```js
 const fruits = new Map();
-fruits.set('Apples', 5);
-fruits.set('Oranges', 8);
+fruits.set("Apples", 5);
+fruits.set("Oranges", 8);
 ```
 
 The example above uses `.set()` to store two entries in the `fruits` map: one for 5 apples and another for 8 oranges. These entries can be overwritten and have their values changed with `.set()` as well:
 
 ```js
-fruits.set('Apples', 2);
+fruits.set("Apples", 2);
 console.log(fruits);
 ```
 

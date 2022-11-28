@@ -1,17 +1,17 @@
 ---
-Title: 'Singleton Pattern'
-Description: 'The singleton pattern ensures a class has only one object instantiated during the programs lifecycle.'
+Title: "Singleton Pattern"
+Description: "The singleton pattern ensures a class has only one object instantiated during the programs lifecycle."
 Subjects:
-  - 'Computer Science'
-  - 'Interview Prep'
+  - "Computer Science"
+  - "Interview Prep"
 Tags:
-  - 'Classes'
-  - 'Conceptual'
-  - 'Constructors'
-  - 'Objects'
+  - "Classes"
+  - "Conceptual"
+  - "Constructors"
+  - "Objects"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **singleton pattern** ensures a class has only one object instantiated during the program's lifecycle. It is used to guarantee the control of a resource through its implementation.

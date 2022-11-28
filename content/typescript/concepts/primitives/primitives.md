@@ -1,15 +1,15 @@
 ---
-Title: 'Primitives'
-Description: 'TypeScript supports primitives, which are the basic types in JavaScript that make up data other than functions and objects.'
+Title: "Primitives"
+Description: "TypeScript supports primitives, which are the basic types in JavaScript that make up data other than functions and objects."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Literals'
-  - 'Primitives'
-  - 'Types'
+  - "Literals"
+  - "Primitives"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 TypeScript supports primitives, which are the basic types in JavaScript that make up data other than functions and objects. TypeScript recognizes the following seven primitive types in JavaScript:
@@ -29,9 +29,9 @@ In this example, the variable `decoration` is initially declared to be type `str
 ```ts
 let decoration: string;
 
-decoration = 'Cobweb';
+decoration = "Cobweb";
 decoration = "Jack O'Lantern";
-decoration = 'Lights';
+decoration = "Lights";
 ```
 
 In other words:

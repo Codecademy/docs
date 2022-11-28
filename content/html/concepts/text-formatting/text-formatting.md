@@ -1,16 +1,16 @@
 ---
-Title: 'Text Formatting'
-Description: 'The two ways to format text are with HTML tags and CSS styles.'
+Title: "Text Formatting"
+Description: "The two ways to format text are with HTML tags and CSS styles."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Tags'
-  - 'Semantic'
-  - 'Style'
+  - "Tags"
+  - "Semantic"
+  - "Style"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 There are two ways to format text with HTML. One way is to use [HTML tags](https://www.codecademy.com/resources/docs/html/tags), which specify some characteristic of the text that should cause it to render differently. The other way is to use [CSS typography properties](https://www.codecademy.com/resources/docs/css/typography) to define specific formatting for a text element.

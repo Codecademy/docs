@@ -1,15 +1,15 @@
 ---
-Title: 'Lifecycle Methods'
-Description: 'In React, lifecycle methods are unique event listeners that listen for changes during certain points during a components lifecycle.'
+Title: "Lifecycle Methods"
+Description: "In React, lifecycle methods are unique event listeners that listen for changes during certain points during a components lifecycle."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Methods'
-  - 'React'
-  - 'Components'
+  - "Methods"
+  - "React"
+  - "Components"
 CatalogContent:
-  - 'react-101'
-  - 'paths/full-stack-engineer-career-path'
+  - "react-101"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 In React, **lifecycle methods** are unique event listeners that listen for changes during certain points during a [component](https://www.codecademy.com/resources/docs/react/components)'s lifecycle. A component's lifecycle usually runs in this order:
@@ -58,7 +58,7 @@ When changes are made to a component, usually to its `state`, it is in the updat
 Using the common `<Counter>` example, and some custom `increase()` and `decrease()` event methods to change its `count` state, `compomentDidUpdate()` will execute immediately after either of these methods executes:
 
 ```jsx
-import React from 'react';
+import React from "react";
 
 class Counter extends React.Component {
   constructor(props) {
@@ -73,15 +73,15 @@ class Counter extends React.Component {
   }
 
   componentDidMount() {
-    console.log('Component has mounted.');
+    console.log("Component has mounted.");
   }
 
   componentDidUpdate() {
-    console.log('Component updated. Count is now ' + this.state.count + '.');
+    console.log("Component updated. Count is now " + this.state.count + ".");
   }
 
   render() {
-    console.log('Rendering...');
+    console.log("Rendering...");
     return (
       <React.Fragment>
         <h1>Count: {this.state.count}</h1>

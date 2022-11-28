@@ -1,15 +1,15 @@
 ---
-Title: 'datetime.date()'
-Description: 'Returns a date object in the year-month-day format.'
+Title: "datetime.date()"
+Description: "Returns a date object in the year-month-day format."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `datetime.date()` method returns a date object in the year-month-day format.

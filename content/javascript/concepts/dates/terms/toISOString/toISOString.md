@@ -1,18 +1,18 @@
 ---
-Title: '.toISOString()'
-Description: 'Returns a string representation of a date in an ISO 8601-compliant format.'
+Title: ".toISOString()"
+Description: "Returns a string representation of a date in an ISO 8601-compliant format."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Data Types'
-  - 'Date'
-  - 'Functions'
-  - 'Methods'
-  - 'Time'
+  - "Data Types"
+  - "Date"
+  - "Functions"
+  - "Methods"
+  - "Time"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `.toISOString()` method returns a string representation of a date in an [ISO 8601](https://www.iso.org/obp/ui/#iso:std:iso:8601:-1:ed-1:v1:en)-compliant format according to universal time (UTC).

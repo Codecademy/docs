@@ -1,14 +1,14 @@
 ---
-Title: 'asinh()'
-Description: 'Returns the inverse hyperbolic sine of an angle given in radians.'
+Title: "asinh()"
+Description: "Returns the inverse hyperbolic sine of an angle given in radians."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`asinh()`** function returns the inverse hyperbolic sine of an angle given in radians.

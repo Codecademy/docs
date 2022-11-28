@@ -1,17 +1,17 @@
 ---
-Title: 'Structures'
-Description: 'Structures are used to programmatically represent a real-life object. They are created with the struct keyword followed by its name and body.'
+Title: "Structures"
+Description: "Structures are used to programmatically represent a real-life object. They are created with the struct keyword followed by its name and body."
 Subjects:
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'Structures'
-  - 'Classes'
-  - 'Variables'
-  - 'Methods'
+  - "Structures"
+  - "Classes"
+  - "Variables"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 **Structures**, are used to programmatically represent a real-life object in code. They are created with the `struct` keyword, followed by its name, and then body which contains its properties and methods.

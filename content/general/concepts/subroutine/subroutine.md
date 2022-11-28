@@ -1,14 +1,14 @@
 ---
-Title: 'Subroutine'
-Description: 'A subroutine is a set of computer instructions written to perform specific tasks.'
+Title: "Subroutine"
+Description: "A subroutine is a set of computer instructions written to perform specific tasks."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Subroutine'
-  - 'Functions'
+  - "Subroutine"
+  - "Functions"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'learn-how-to-code'
+  - "paths/code-foundations"
+  - "learn-how-to-code"
 ---
 
 A **subroutine** is a set of computer instructions written to perform specific tasks. It is also known as a function or a procedure. A subroutine packages code for an operation or a set of operations, which makes code reusable and readable.

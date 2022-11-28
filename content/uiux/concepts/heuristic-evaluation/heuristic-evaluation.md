@@ -1,14 +1,14 @@
 ---
-Title: 'Heuristic Evaluation'
-Description: 'The heuristic evaluation is a form of usability testing in which a group of expert evaluators classifies usability problems based on the ten usability heuristics.'
+Title: "Heuristic Evaluation"
+Description: "The heuristic evaluation is a form of usability testing in which a group of expert evaluators classifies usability problems based on the ten usability heuristics."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **heuristic evaluation** is a form of usability testing in which a group of expert evaluators classifies usability problems based on the [ten usability heuristics](https://www.codecademy.com/resources/docs/uiux/usability-heuristics).

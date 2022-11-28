@@ -1,15 +1,15 @@
 ---
-Title: 'Static Site Generators'
-Description: 'A static site generator (SSG) is a tool used to render webpages on a server at build time, prior to when a client makes a request.'
+Title: "Static Site Generators"
+Description: "A static site generator (SSG) is a tool used to render webpages on a server at build time, prior to when a client makes a request."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Static Site'
-  - 'Server-Side Rendering'
+  - "Static Site"
+  - "Server-Side Rendering"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/full-stack-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 A **static site generator (SSG)** is a tool used to render webpages on a [server](https://www.codecademy.com/resources/docs/general/server) at build time, before a client makes a request.

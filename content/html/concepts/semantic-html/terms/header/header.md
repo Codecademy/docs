@@ -1,15 +1,15 @@
 ---
-Title: '<header>'
-Description: 'Represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements.'
+Title: "<header>"
+Description: "Represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
-  - 'Tags'
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The `<header>` semantic tag represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements.

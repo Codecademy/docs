@@ -1,16 +1,16 @@
 ---
-Title: 'IoT'
-Description: 'Internet of Things (IoT) is a term used to describe hardware which can be connected to the internet in order to provide a service.'
+Title: "IoT"
+Description: "Internet of Things (IoT) is a term used to describe hardware which can be connected to the internet in order to provide a service."
 Subjects:
-  - 'Computer Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Development"
 Tags:
-  - 'Best Practices'
-  - 'Memory'
+  - "Best Practices"
+  - "Memory"
 CatalogContent:
-  - 'paths/code-foundations'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/code-foundations"
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Internet of Things (IoT)** is a term used to describe hardware which can be connected to the internet in order to provide a service.

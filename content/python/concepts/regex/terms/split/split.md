@@ -1,16 +1,16 @@
 ---
-Title: 're.split()'
-Description: 'Divides a string into substrings at each occurrence of the specified character(s).'
+Title: "re.split()"
+Description: "Divides a string into substrings at each occurrence of the specified character(s)."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
-  - 'Characters'
+  - "Regular Expressions"
+  - "Strings"
+  - "Characters"
 CatalogContent:
-  - 'introduction-to-regular-expressions'
-  - 'paths/computer-science'
+  - "introduction-to-regular-expressions"
+  - "paths/computer-science"
 ---
 
 The `.split()` method of the `re` module divides a string into substrings at each occurrence of the specified character(s). This method is a good alternative to the default [`.split()` string method](https://www.codecademy.com/resources/docs/python/strings/split) for instances that require matching multiple characters.

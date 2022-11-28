@@ -1,9 +1,9 @@
 ---
-Title: 'Open Source'
-Description: 'Open source refers to software that is released with the source code made freely available for modification and possible redistribution.'
+Title: "Open Source"
+Description: "Open source refers to software that is released with the source code made freely available for modification and possible redistribution."
 CatalogContent:
-  - 'introduction-to-open-source'
-  - 'paths/code-foundations'
+  - "introduction-to-open-source"
+  - "paths/code-foundations"
 ---
 
 <link rel="canonical" href="" />

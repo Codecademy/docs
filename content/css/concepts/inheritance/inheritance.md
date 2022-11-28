@@ -1,15 +1,15 @@
 ---
-Title: 'Inheritance'
-Description: 'Inheritance describes how certain styles are initialized or computed depending on the CSS property and whether a value was set.'
+Title: "Inheritance"
+Description: "Inheritance describes how certain styles are initialized or computed depending on the CSS property and whether a value was set."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Inheritance'
-  - 'Style'
+  - "Inheritance"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 CSS inheritance describes how certain styles are initialized or computed depending on the CSS property and whether a value was set. Some properties are inherited with an initial, default value. Other properties are non-inherited and set to the computed value of its containing element by default.

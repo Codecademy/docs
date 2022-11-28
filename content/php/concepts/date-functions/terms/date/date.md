@@ -1,15 +1,15 @@
 ---
-Title: 'date()'
-Description: 'Creates a formatted date-time string from a local date-time.'
+Title: "date()"
+Description: "Creates a formatted date-time string from a local date-time."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `date()` function creates a formatted date-time string from a local date-time.

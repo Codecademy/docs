@@ -1,15 +1,15 @@
 ---
-Title: '.join()'
-Description: 'Returns a string of pathnames delimited with a forward-slash.'
+Title: ".join()"
+Description: "Returns a string of pathnames delimited with a forward-slash."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Libraries'
-  - 'Modules'
+  - "Libraries"
+  - "Modules"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The **`.join()`** method returns a string of pathnames delimited with a forward-slash.

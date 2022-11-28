@@ -1,17 +1,17 @@
 ---
-Title: 'Modules'
-Description: 'In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them. Modules are defined with a module...end block. For example: rb module ModuleName include OtherModule CONSTANT = 123 def method_1'
+Title: "Modules"
+Description: "In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them. Modules are defined with a module...end block. For example: rb module ModuleName include OtherModule CONSTANT = 123 def method_1"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Modules'
-  - 'Classes'
-  - 'Methods'
-  - 'Files'
+  - "Modules"
+  - "Classes"
+  - "Methods"
+  - "Files"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, modules are collections of classes, methods, and constants. They lend extra functionality to classes that include them.

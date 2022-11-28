@@ -1,15 +1,15 @@
 ---
-Title: '.erase()'
-Description: 'Removes a single value from a set.'
+Title: ".erase()"
+Description: "Removes a single value from a set."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Data Types'
-  - 'Sets'
+  - "Data Types"
+  - "Sets"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.erase()`** method removes a single value from a set.

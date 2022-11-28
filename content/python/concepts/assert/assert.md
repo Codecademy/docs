@@ -1,16 +1,16 @@
 ---
-Title: 'assert'
-Description: 'The assert keyword confirms the truthiness of a given statement.'
+Title: "assert"
+Description: "The assert keyword confirms the truthiness of a given statement."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Assert'
-  - 'Debugging'
-  - 'Development'
+  - "Assert"
+  - "Debugging"
+  - "Development"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 A keyword for confirming the truthiness of a given statement that is often used to facilitate development, document code, and debug.

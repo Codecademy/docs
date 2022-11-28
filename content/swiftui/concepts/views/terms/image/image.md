@@ -1,18 +1,18 @@
 ---
-Title: 'Image'
-Description: 'Allows users to incorporate images.'
+Title: "Image"
+Description: "Allows users to incorporate images."
 Subjects:
-  - 'Software Development'
-  - 'Mobile Development'
-  - 'Computer Science'
+  - "Software Development"
+  - "Mobile Development"
+  - "Computer Science"
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Image'
-  - 'Views'
+  - "SwiftUI"
+  - "SwiftUI Views"
+  - "Image"
+  - "Views"
 CatalogContent:
-  - 'learn-swiftui'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swiftui"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 An **`Image`** view is used to incorporate images and enhance the aesthetic of the [user interface (UI)](https://www.codecademy.com/resources/docs/uiux) and can be functional when used correctly.

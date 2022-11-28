@@ -1,17 +1,17 @@
 ---
-Title: '.top()'
-Description: 'Returns the element on the top of the stack.'
+Title: ".top()"
+Description: "Returns the element on the top of the stack."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
-  - 'Stacks'
+  - "Objects"
+  - "OOP"
+  - "Classes"
+  - "Stacks"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`.top()`** method returns the top element on the `stack`. This will be the most recently added element on the `stack` since they follow a last-in first-out (LIFO) insertion order.

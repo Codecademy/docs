@@ -1,17 +1,17 @@
 ---
-Title: 'Webpack'
-Description: 'Webpack is a JavaScript module bundler that can be run on the Linux, macOS, and Windows operating systems.'
+Title: "Webpack"
+Description: "Webpack is a JavaScript module bundler that can be run on the Linux, macOS, and Windows operating systems."
 Subjects:
-  - 'Developer Tools'
-  - 'Web Development'
+  - "Developer Tools"
+  - "Web Development"
 Tags:
-  - 'JavaScript'
-  - 'Modules'
-  - 'Node'
-  - 'Open Source'
+  - "JavaScript"
+  - "Modules"
+  - "Node"
+  - "Open Source"
 CatalogContent:
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 **Webpack** is a free and open-source [JavaScript module](https://www.codecademy.com/resources/docs/javascript/modules) that can also be applied to [HTML](https://www.codecademy.com/resources/docs/html) and [CSS](https://www.codecademy.com/resources/docs/css). Webpack can be run on the [Linux](https://www.codecademy.com/resources/docs/open-source/linux), macOS, and Windows operating systems.

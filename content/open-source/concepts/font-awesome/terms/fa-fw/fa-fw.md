@@ -1,17 +1,17 @@
 ---
-Title: 'fa-fw'
-Description: 'Sets an icon to a fixed width.'
+Title: "fa-fw"
+Description: "Sets an icon to a fixed width."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-fw`** class is used to set an icon to a fixed width. This is useful when vertically aligning icons in a list.

@@ -1,14 +1,14 @@
 ---
-Title: 'nearbyint()'
-Description: 'Returns the argument rounded to the closest integer as a floating-point value.'
+Title: "nearbyint()"
+Description: "Returns the argument rounded to the closest integer as a floating-point value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Functions'
-  - 'Arithmetic'
+  - "Functions"
+  - "Arithmetic"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 The **`nearbyint()`** function returns the argument rounded to the closest integer as a floating-point value, according to the current rounding method.

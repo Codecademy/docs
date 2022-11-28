@@ -1,16 +1,16 @@
 ---
-Title: 'printf()'
-Description: 'Print a string in the console.'
+Title: "printf()"
+Description: "Print a string in the console."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Print'
-  - 'Functions'
-  - 'Console'
+  - "Print"
+  - "Functions"
+  - "Console"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`printf()`**, or "print formatted", function can print a string to the console, including variables within the string.

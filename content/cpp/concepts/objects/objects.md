@@ -1,16 +1,16 @@
 ---
-Title: 'Objects'
-Description: 'In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data.'
+Title: "Objects"
+Description: "In C++, an object is an instance of a class that encapsulates data and functionality pertaining to that data."
 Subjects:
-  - 'Computer Science'
-  - 'Game Development'
+  - "Computer Science"
+  - "Game Development"
 Tags:
-  - 'Objects'
-  - 'OOP'
-  - 'Classes'
+  - "Objects"
+  - "OOP"
+  - "Classes"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 In C++, an **object** is an instance of a class that encapsulates data and functionality pertaining to that data.

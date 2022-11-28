@@ -1,16 +1,16 @@
 ---
-Title: '<ol>'
-Description: 'Represents an ordered list of items.'
+Title: "<ol>"
+Description: "Represents an ordered list of items."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Lists'
-  - 'Tags'
+  - "Elements"
+  - "Lists"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<ol>`** element represents an ordered list of items.

@@ -1,14 +1,14 @@
 ---
-Title: 'User and End-User'
-Description: 'The user refers broadly to anyone who may use or maintain a product, while the end-user is the person ultimately intended to use a product.'
+Title: "User and End-User"
+Description: "The user refers broadly to anyone who may use or maintain a product, while the end-user is the person ultimately intended to use a product."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **user** refers broadly to anyone who may use or maintain a product, and could include people such as system administrators, IT experts, and computer technicians.

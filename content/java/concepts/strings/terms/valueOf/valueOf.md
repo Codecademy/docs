@@ -1,14 +1,14 @@
 ---
-Title: '.valueOf()'
-Description: 'Returns the string representation of a given value.'
+Title: ".valueOf()"
+Description: "Returns the string representation of a given value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`.valueOf()`** method returns the string representation of a given value.

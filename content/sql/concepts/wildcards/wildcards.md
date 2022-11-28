@@ -1,20 +1,20 @@
 ---
-Title: 'Wildcards'
-Description: 'Wildcards are special characters used in SQL to represent one or more arbitrary characters.'
+Title: "Wildcards"
+Description: "Wildcards are special characters used in SQL to represent one or more arbitrary characters."
 Subjects:
-  - 'Data Science'
-  - 'Computer Science'
+  - "Data Science"
+  - "Computer Science"
 Tags:
-  - 'Operators'
-  - 'Database'
-  - 'Queries'
-  - 'SQLite'
-  - 'MySQL'
-  - 'PostgreSQL'
+  - "Operators"
+  - "Database"
+  - "Queries"
+  - "SQLite"
+  - "MySQL"
+  - "PostgreSQL"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 Wildcards are special characters used in SQL to represent one or more arbitrary characters.

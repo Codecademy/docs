@@ -1,15 +1,15 @@
 ---
-Title: 'JSX'
-Description: 'JavaScript XML (JSX) is a syntax extension of JavaScript that provides highly functional and reusable markup code. It is used to create DOM elements which are then rendered in the React DOM. JSX provides a neat visual representation of the UI.'
+Title: "JSX"
+Description: "JavaScript XML (JSX) is a syntax extension of JavaScript that provides highly functional and reusable markup code. It is used to create DOM elements which are then rendered in the React DOM. JSX provides a neat visual representation of the UI."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'DOM'
-  - 'React'
-  - 'Syntax'
+  - "DOM"
+  - "React"
+  - "Syntax"
 CatalogContent:
-  - 'react-101'
-  - 'paths/front-end-engineer-career-path'
+  - "react-101"
+  - "paths/front-end-engineer-career-path"
 ---
 
 JSX is a syntax extension of JavaScript that combines the JavaScript and HTML-like syntax to provide highly functional, reusable markup. It's used to create DOM elements which are then rendered in the React DOM.
@@ -31,18 +31,18 @@ In the block of code, we see the similarities between JSX syntax and HTML: they 
 Under the hood, after it's been processed to regular JavaScript, it looks like this:
 
 ```js
-const headerElement = React.createElement('h1', 'This is a header');
+const headerElement = React.createElement("h1", "This is a header");
 ```
 
 JavaScript code, such as variables and functions, can be used in JSX, as well:
 
 ```js
-import React from 'react';
+import React from "react";
 
 const App = () => {
   return (
     <React.Fragment>
-      <button onClick={() => 'The button was clicked!'}>Click!</button>
+      <button onClick={() => "The button was clicked!"}>Click!</button>
     </React.Fragment>
   );
 };
@@ -93,7 +93,7 @@ The array method `.map()` comes up often in React. It’s good to get in the hab
 If you want to create a list of JSX elements from a given array, then`.map()` over each element in the array, returning a list item for each one.
 
 ```js
-const strings = ['Home', 'Shop', 'About Me'];
+const strings = ["Home", "Shop", "About Me"];
 
 const listItems = strings.map((string) => <li>{string}</li>);
 
@@ -109,7 +109,7 @@ JSX does not support `if`/`else` syntax in embedded JavaScript. There are three 
 Using ternary operator within curly braces in JSX:
 
 ```js
-const headline = <h1>{age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff'}</h1>;
+const headline = <h1>{age >= drinkingAge ? "Buy Drink" : "Do Teen Stuff"}</h1>;
 ```
 
 ### Using `if` Statement
@@ -120,9 +120,9 @@ Using `if`/`else` statement outside of JSX element:
 let text;
 
 if (age >= drinkingAge) {
-  text = 'Buy Drink';
+  text = "Buy Drink";
 } else {
-  text = 'Do Teen Stuff';
+  text = "Do Teen Stuff";
 }
 
 const headline = <h1>{text}</h1>;
@@ -134,7 +134,7 @@ Using `&&` AND operator:
 
 ```js
 // Renders as empty div if length is 0
-const unreadMessages = ['hello?', 'remember me!'];
+const unreadMessages = ["hello?", "remember me!"];
 
 const update = (
   <div>

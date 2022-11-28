@@ -1,14 +1,14 @@
 ---
-Title: 'Assignability'
-Description: 'Assignability is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.'
+Title: "Assignability"
+Description: "Assignability is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type."
 Subjects:
-  - 'Web Development'
+  - "Web Development"
 Tags:
-  - 'Assignability'
-  - 'Types'
+  - "Assignability"
+  - "Types"
 CatalogContent:
-  - 'learn-typescript'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-typescript"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 **Assignability** is how TypeScript can determine whether a value of a particular data type can be assigned to a variable of the same (or another) data type.
@@ -31,7 +31,7 @@ let spooky = true;
 
 spooky = false; // Allowed
 
-spooky = 'skeletons'; // Not allowed
+spooky = "skeletons"; // Not allowed
 ```
 
 Running the code above will cause the following error:
@@ -59,8 +59,8 @@ interface Skeleton {
 }
 
 function receiveSkeleton(skeleton: Skeleton) {
-  console.log(skeleton.spooky ? 'Spooky ' : 'Not spooky...');
-  console.log(skeleton.scary ? 'scary!' : 'Not scary...');
+  console.log(skeleton.spooky ? "Spooky " : "Not spooky...");
+  console.log(skeleton.scary ? "scary!" : "Not scary...");
 }
 
 receiveSkeleton({ spooky: true, scary: false }); // Ok
@@ -70,7 +70,7 @@ The second example throws an `Error` because the `spooky` property is of type `s
 
 ```ts
 receiveSkeleton({
-  spooky: 'Very!',
+  spooky: "Very!",
   scary: true,
 });
 ```

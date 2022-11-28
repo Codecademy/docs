@@ -1,15 +1,15 @@
 ---
-Title: 'Threading'
-Description: 'The threading module allows multiple threads of execution to take place in a Python program.'
+Title: "Threading"
+Description: "The threading module allows multiple threads of execution to take place in a Python program."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `threading` module allows multiple threads of execution to take place in a Python program.

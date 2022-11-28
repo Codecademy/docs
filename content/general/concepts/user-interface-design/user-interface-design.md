@@ -1,15 +1,15 @@
 ---
-Title: 'User Interface Design'
-Description: 'User interface design is the art and science of maximizing the usability of a digital product or service.'
+Title: "User Interface Design"
+Description: "User interface design is the art and science of maximizing the usability of a digital product or service."
 Subjects:
-  - 'Web Design'
-  - 'Web Development'
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Interface'
-  - 'Responsive'
+  - "Interface"
+  - "Responsive"
 CatalogContent:
-  - 'learn-color-design'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-color-design"
+  - "paths/front-end-engineer-career-path"
 ---
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-user-interface-design/" />

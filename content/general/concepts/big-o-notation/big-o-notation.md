@@ -1,16 +1,16 @@
 ---
-Title: 'Big-O Notation'
-Description: 'Big-O notation is a form of measuring the algorithmic time/space complexity of a function in worst-case scenario.'
+Title: "Big-O Notation"
+Description: "Big-O notation is a form of measuring the algorithmic time/space complexity of a function in worst-case scenario."
 Subjects:
-  - 'Code Foundation'
-  - 'Computer Science'
+  - "Code Foundation"
+  - "Computer Science"
 Tags:
-  - 'Algorithms'
-  - 'Functions'
-  - 'Methods'
+  - "Algorithms"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - "paths/computer-science"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Big-O notation** is a form of measuring the algorithmic complexity of a [function](https://www.codecademy.com/resources/docs/general/function) or [algorithm](https://www.codecademy.com/resources/docs/general/algorithm) in the worst-case scenario. This can either analyze the maximum amount of possible time or memory space needed to solve a particular problem. Solutions can be refactored or reworked to achieve a more efficient time/space complexity with the help of Big-O notation.

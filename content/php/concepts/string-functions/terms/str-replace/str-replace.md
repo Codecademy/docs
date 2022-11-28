@@ -1,16 +1,16 @@
 ---
-Title: 'str_replace()'
-Description: 'Returns a string with occurrences of a specified substring replaced by another string.'
+Title: "str_replace()"
+Description: "Returns a string with occurrences of a specified substring replaced by another string."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Strings'
-  - 'Functions'
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `str_replace()` function returns a string with occurrences of a specified substring replaced by another string. The function can operate on scalar strings or arrays.

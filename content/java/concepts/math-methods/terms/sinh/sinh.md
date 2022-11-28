@@ -1,16 +1,16 @@
 ---
-Title: '.sinh()'
-Description: 'Returns the hyperbolic sine of a double-type value.'
+Title: ".sinh()"
+Description: "Returns the hyperbolic sine of a double-type value."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Arithmetic'
-  - 'Functions'
-  - 'Methods'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Functions"
+  - "Methods"
+  - "Numbers"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The **`Math.sinh()`** method returns the hyperbolic sine of a `double`-type value.

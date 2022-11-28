@@ -1,15 +1,15 @@
 ---
-Title: 'GitHub'
-Description: 'Github is a UI-based version control platform that uses Git.'
+Title: "GitHub"
+Description: "Github is a UI-based version control platform that uses Git."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'GitHub'
-  - 'Git'
+  - "GitHub"
+  - "Git"
 CatalogContent:
-  - 'learn-git'
-  - 'paths/learn-how-to-build-websites'
+  - "learn-git"
+  - "paths/learn-how-to-build-websites"
 ---
 
 **GitHub (GH)** is a UI-based version control platform that runs on [Git](https://www.codecademy.com/resources/docs/git). It offers many services including version control, static website hosting, [open-source software (OSS)](https://www.codecademy.com/resources/docs/open-source/open-source-software) projects, and much more.

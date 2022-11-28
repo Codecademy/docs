@@ -1,14 +1,14 @@
 ---
-Title: 'Semantic HTML'
-Description: 'Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes in it. An element such as  was used as a general-purpose element to create things from headers to footers to articles. html   This is a footer'
+Title: "Semantic HTML"
+Description: "Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes in it. An element such as  was used as a general-purpose element to create things from headers to footers to articles. html   This is a footer"
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Semantic'
+  - "Semantic"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Semantic HTML introduces meaning to the code we write.

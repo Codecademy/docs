@@ -1,16 +1,16 @@
 ---
-Title: '.loc'
-Description: 'Accesses specified rows and/or columns of a DataFrame object.'
+Title: ".loc"
+Description: "Accesses specified rows and/or columns of a DataFrame object."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.loc` property of the [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object allows the return of specified rows and/or columns from that `DataFrame`. It can do so using a label or label(s), or a boolean array of the same size as the axis being filtered.

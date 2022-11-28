@@ -1,17 +1,17 @@
 ---
-Title: 'STRFTIME()'
-Description: 'Returns a formatted date.'
+Title: "STRFTIME()"
+Description: "Returns a formatted date."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
+  - "Database"
+  - "Queries"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
 ---
 
 The `STRFTIME()` function returns a formatted date, as specified in a format string.

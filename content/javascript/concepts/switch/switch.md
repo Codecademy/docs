@@ -1,16 +1,16 @@
 ---
-Title: 'Switch'
-Description: 'The switch statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of case clauses marking code to execute based on values returned by the expression, and an optional default statement marking code that executes if none of the case clauses are true. The code following a matching case clause will execute until it encounters a break statement, a return statement, or the end of the switch block. This means that if a break is omitted at the end of one case block, subsequent case blocks and/or the default block will be executed regardless of the value of the original expression. javascript switch (expression) { case value1: // Statements executed when expression = value1'
+Title: "Switch"
+Description: "The switch statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of case clauses marking code to execute based on values returned by the expression, and an optional default statement marking code that executes if none of the case clauses are true. The code following a matching case clause will execute until it encounters a break statement, a return statement, or the end of the switch block. This means that if a break is omitted at the end of one case block, subsequent case blocks and/or the default block will be executed regardless of the value of the original expression. javascript switch (expression) { case value1: // Statements executed when expression = value1"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Switch'
-  - 'Control Flow'
-  - 'Comparison'
+  - "Switch"
+  - "Control Flow"
+  - "Comparison"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `switch` statement evaluates an expression and allows different blocks of code to execute depending on the result of that expression. It contains any number of `case` clauses marking code to execute based on values returned by the expression, and an optional `default` statement marking code that executes if none of the `case` clauses are true.
@@ -59,16 +59,16 @@ Determine whether a `rating` is a 5, 4, 3, or something else:
 ```js
 switch (rating) {
   case 5:
-    console.log('Excellent 👏');
+    console.log("Excellent 👏");
     break;
   case 4:
-    console.log('Good 👍');
+    console.log("Good 👍");
     break;
   case 3:
-    console.log('Fair 👌');
+    console.log("Fair 👌");
     break;
   default:
-    console.log('Poor 👎');
+    console.log("Poor 👎");
 }
 ```
 

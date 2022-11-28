@@ -1,15 +1,15 @@
 ---
-Title: 'Colors'
-Description: 'The CSS color property sets the text color: css h1 { color: aqua; }  It can be set with one of the following:'
+Title: "Colors"
+Description: "The CSS color property sets the text color: css h1 { color: aqua; }  It can be set with one of the following:"
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Colors'
-  - 'Documentation'
+  - "Colors"
+  - "Documentation"
 CatalogContent:
-  - 'learn-css'
-  - 'learn-intermediate-css'
+  - "learn-css"
+  - "learn-intermediate-css"
 ---
 
 The CSS `color` property sets the text color:

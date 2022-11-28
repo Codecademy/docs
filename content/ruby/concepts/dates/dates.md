@@ -1,14 +1,14 @@
 ---
-Title: 'Dates'
+Title: "Dates"
 Description: 'In Ruby, date- and time-specific data are handled by two classes: - Date - DateTime In order to use these classes, import the date module: rb require("date") '
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
+  - "Date"
 CatalogContent:
-  - 'learn-ruby'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-ruby"
+  - "paths/front-end-engineer-career-path"
 ---
 
 In Ruby, date- and time-specific data are handled by two classes:

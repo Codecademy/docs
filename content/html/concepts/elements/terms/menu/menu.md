@@ -1,17 +1,17 @@
 ---
-Title: '<menu>'
-Description: 'Represents an unordered list of items with more semantic meaning than a regular ul element.'
+Title: "<menu>"
+Description: "Represents an unordered list of items with more semantic meaning than a regular ul element."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Lists'
-  - 'Semantic'
-  - 'Tags'
+  - "Elements"
+  - "Lists"
+  - "Semantic"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<menu>`** element represents an unordered list of items with more semantic meaning than a regular `<ul>` element.

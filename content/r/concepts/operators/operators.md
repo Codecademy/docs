@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values.'
+Title: "Operators"
+Description: "Operators are used to perform various operations on variables and values."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 Operators are used in R to perform various operations on variables and values. Among the most commonly used ones are arithmetic and assignment operators.

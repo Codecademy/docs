@@ -1,14 +1,14 @@
 ---
-Title: '.Length'
-Description: 'Returns the total number of elements in the array.'
+Title: ".Length"
+Description: "Returns the total number of elements in the array."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Arrays'
+  - "Arrays"
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - "learn-c-sharp"
+  - "paths/computer-science"
 ---
 
 The **`.Length`** property returns the total number of elements in the array, including all dimensions of the array.

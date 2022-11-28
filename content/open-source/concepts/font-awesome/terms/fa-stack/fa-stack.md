@@ -1,17 +1,17 @@
 ---
-Title: 'fa-stack'
-Description: 'Stacks icons on top of each other.'
+Title: "fa-stack"
+Description: "Stacks icons on top of each other."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'World Wide Web'
-  - 'Fonts'
-  - 'Icons'
-  - 'Style'
+  - "World Wide Web"
+  - "Fonts"
+  - "Icons"
+  - "Style"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`fa-stack`** classes are used to stack icons on top of each other. The `fa-stack` class is used on the parent container. The `fa-stack-1x` class is used for the regularly sized icon. The `fa-stack-2x` class is used on the larger icon.

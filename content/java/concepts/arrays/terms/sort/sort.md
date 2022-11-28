@@ -1,15 +1,15 @@
 ---
-Title: '.sort()'
-Description: 'Sorts an array into ascending order.'
+Title: ".sort()"
+Description: "Sorts an array into ascending order."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Arrays'
+  - "Methods"
+  - "Arrays"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 The `.sort()` method of the `Arrays` class sorts a given array into ascending order.

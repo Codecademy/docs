@@ -1,15 +1,15 @@
 ---
-Title: 'Methods'
-Description: 'Methods are reusable pieces of code in classes. The difference between a method and a function is that methods are always related to a class or an object.'
+Title: "Methods"
+Description: "Methods are reusable pieces of code in classes. The difference between a method and a function is that methods are always related to a class or an object."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Methods'
-  - 'Parameters'
-  - 'Arguments'
+  - "Methods"
+  - "Parameters"
+  - "Arguments"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Methods are reusable pieces of code in classes. The difference between a method and a function is that methods are always related to a class or an object. Since in Java there is no possibility of defining logic outside of a class, there are no real functions given this definition. In that case, static methods can be used to have reusable logic without an object instance.

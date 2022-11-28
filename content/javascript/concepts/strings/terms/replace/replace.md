@@ -1,15 +1,15 @@
 ---
-Title: '.replace()'
-Description: 'Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.'
+Title: ".replace()"
+Description: "Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Methods'
+  - "Strings"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 Searches a string for a string value, or a regular expression, and returns a new string where some or all matches are replaced.
@@ -29,7 +29,7 @@ Replace `'cats'` with `'rats'`:
 ```js
 const weather = `It's raining cats and dogs!`;
 
-const replaceCatsWithRats = weather.replace('cats', 'rats');
+const replaceCatsWithRats = weather.replace("cats", "rats");
 
 console.log(replaceCatsWithRats);
 // Output: It's raining rats and dogs!
@@ -38,9 +38,9 @@ console.log(replaceCatsWithRats);
 Find and replace multiple matches:
 
 ```js
-const kidsBook = 'Brown bear, brown bear, what do you see?';
+const kidsBook = "Brown bear, brown bear, what do you see?";
 
-const birdsNotBears = kidsBook.replace(/bear/g, 'bird');
+const birdsNotBears = kidsBook.replace(/bear/g, "bird");
 
 console.log(birdsNotBears);
 // Output: Brown bird, brown bird, what do you see?

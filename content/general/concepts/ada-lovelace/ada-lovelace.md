@@ -1,15 +1,15 @@
 ---
-Title: 'Ada Lovelace'
-Description: 'Ada Lovelace was an English writer and mathematician and is often considered to be the first computer programmer. Lovelace is known for her work on the first programmable general-purpose computer.'
+Title: "Ada Lovelace"
+Description: "Ada Lovelace was an English writer and mathematician and is often considered to be the first computer programmer. Lovelace is known for her work on the first programmable general-purpose computer."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Arithmetic'
-  - 'Numbers'
+  - "Arithmetic"
+  - "Numbers"
 CatalogContent:
-  - 'paths/computer-science'
-  - 'paths/code-foundations'
+  - "paths/computer-science"
+  - "paths/code-foundations"
 ---
 
 ![Ada Lovelace](https://raw.githubusercontent.com/Codecademy/docs/main/media/ada_lovelace.png)

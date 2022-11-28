@@ -1,20 +1,20 @@
 ---
-Title: 'LEFT JOIN'
-Description: 'Combines matching rows with rows from the left-side table.'
+Title: "LEFT JOIN"
+Description: "Combines matching rows with rows from the left-side table."
 Subjects:
-  - 'Data Science'
+  - "Data Science"
 Tags:
-  - 'Database'
-  - 'Queries'
-  - 'Join'
-  - 'PostgreSQL'
-  - 'MySQL'
-  - 'SQLite'
-  - 'Tables'
+  - "Database"
+  - "Queries"
+  - "Join"
+  - "PostgreSQL"
+  - "MySQL"
+  - "SQLite"
+  - "Tables"
 CatalogContent:
-  - 'learn-sql'
-  - 'paths/analyze-data-with-sql'
-  - 'paths/design-databases-with-postgresql'
+  - "learn-sql"
+  - "paths/analyze-data-with-sql"
+  - "paths/design-databases-with-postgresql"
 ---
 
 The **`LEFT JOIN`** command combines matching rows with rows from the left-side table.

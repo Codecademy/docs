@@ -1,15 +1,15 @@
 ---
-Title: '.forEach()'
-Description: 'Loops over an array and performs some action on each element within it.'
+Title: ".forEach()"
+Description: "Loops over an array and performs some action on each element within it."
 Subjects:
-  - 'iOS'
-  - 'Mobile Development'
+  - "iOS"
+  - "Mobile Development"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'learn-swift'
-  - 'paths/build-ios-apps-with-swiftui'
+  - "learn-swift"
+  - "paths/build-ios-apps-with-swiftui"
 ---
 
 The **`.forEach()`** method loops over the array, calling the closure function on each element in the array. As each element is iterated over, some action can be performed on it.

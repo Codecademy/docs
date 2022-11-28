@@ -1,15 +1,15 @@
 ---
-Title: '.run()'
-Description: 'Executes any target function belonging to a given thread object that is now active.'
+Title: ".run()"
+Description: "Executes any target function belonging to a given thread object that is now active."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Async Await'
-  - 'Functions'
+  - "Async Await"
+  - "Functions"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.run()` method executes any target function belonging to a given thread object that is now active. It normally executes in the background after the [`.start()`](https://www.codecademy.com/resources/docs/python/threading/start) method is invoked.

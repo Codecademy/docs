@@ -1,15 +1,15 @@
 ---
-Title: '.push()'
-Description: 'Adds one or more elements to the end of the array and returns the new length.'
+Title: ".push()"
+Description: "Adds one or more elements to the end of the array and returns the new length."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Methods'
+  - "Arrays"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.push()`** method adds one or more elements to the end of an array and returns the new length.
@@ -27,8 +27,8 @@ A comma-separated list of items ([strings](https://www.codecademy.com/resources/
 Add one item to the end of the `colors` array:
 
 ```js
-const colors = ['red', 'orange'];
-colors.push('yellow');
+const colors = ["red", "orange"];
+colors.push("yellow");
 
 console.log(colors);
 ```

@@ -1,16 +1,16 @@
 ---
-Title: 'substr()'
-Description: 'Returns a portion of a specified string.'
+Title: "substr()"
+Description: "Returns a portion of a specified string."
 Subjects:
-  - 'Computer Science'
-  - 'Web Design'
-  - 'Web Development'
+  - "Computer Science"
+  - "Web Design"
+  - "Web Development"
 Tags:
-  - 'Strings'
-  - 'Functions'
+  - "Strings"
+  - "Functions"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `substr()` function returns a portion of a string specified by parameters for offset and length.

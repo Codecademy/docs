@@ -1,17 +1,17 @@
 ---
-Title: 'Conditionals'
-Description: 'An if statement takes an expression as an argument: - If the expression evaluates to true its associated code block executes. - If the expression evaluates to false its associated code block is skipped. php  20) {'
+Title: "Conditionals"
+Description: "An if statement takes an expression as an argument: - If the expression evaluates to true its associated code block executes. - If the expression evaluates to false its associated code block is skipped. php  20) {"
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Conditionals'
-  - 'If'
-  - 'Else'
+  - "Conditionals"
+  - "If"
+  - "Else"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/front-end-engineer-career-path"
+  - "paths/computer-science"
 ---
 
 ## `if` Statement

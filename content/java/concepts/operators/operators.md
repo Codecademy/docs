@@ -1,13 +1,13 @@
 ---
-Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values of various data types.'
+Title: "Operators"
+Description: "Operators are used to perform various operations on variables and values of various data types."
 Subjects:
-  - 'Computer Science'
+  - "Computer Science"
 Tags:
-  - 'Operators'
+  - "Operators"
 CatalogContent:
-  - 'learn-java'
-  - 'paths/computer-science'
+  - "learn-java"
+  - "paths/computer-science"
 ---
 
 Operators are used to perform various operations on variables and values of various data types.

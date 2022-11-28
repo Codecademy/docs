@@ -1,18 +1,18 @@
 ---
-Title: 'strcmp()'
-Description: 'Compares two strings and returns an integer value.'
+Title: "strcmp()"
+Description: "Compares two strings and returns an integer value."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Strings'
-  - 'Data Types'
-  - 'Characters'
-  - 'Arrays'
-  - 'Functions'
+  - "Strings"
+  - "Data Types"
+  - "Characters"
+  - "Arrays"
+  - "Functions"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`strcmp()`** function compares two strings and returns an integer value.

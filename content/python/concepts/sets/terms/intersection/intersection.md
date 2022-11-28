@@ -1,17 +1,17 @@
 ---
-Title: '.intersection()'
-Description: 'Returns a new set with objects that exist inside two or more sets'
+Title: ".intersection()"
+Description: "Returns a new set with objects that exist inside two or more sets"
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Collections'
-  - 'Functions'
-  - 'Methods'
-  - 'Sets'
+  - "Collections"
+  - "Functions"
+  - "Methods"
+  - "Sets"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/computer-science'
+  - "learn-python-3"
+  - "paths/computer-science"
 ---
 
 The `.intersection()` method returns a new set with objects that exist inside two or more [sets](https://www.codecademy.com/resources/docs/python/sets).

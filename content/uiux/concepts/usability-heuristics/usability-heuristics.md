@@ -1,14 +1,14 @@
 ---
-Title: 'Usability Heuristics'
-Description: 'The ten usability heuristics are a set of general principles for creating effective interaction design.'
+Title: "Usability Heuristics"
+Description: "The ten usability heuristics are a set of general principles for creating effective interaction design."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The ten **usability heuristics**, developed by [Jakob Nielsen](https://www.nngroup.com/people/jakob-nielsen/) and [Don Norman](https://jnd.org/), are a set of general principles for creating effective interaction design. They help designers assess where a design is excelling and falling short, and what trade-offs are being made in a design process. The ten usability heuristics are used in the [heuristic evaluation](https://www.codecademy.com/resources/docs/uiux/heuristic-evaluation), a relatively quick and flexible method of usability testing.

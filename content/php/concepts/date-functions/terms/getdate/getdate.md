@@ -1,15 +1,15 @@
 ---
-Title: 'getdate()'
-Description: 'Returns an array representing the current date or a Unix timestamp.'
+Title: "getdate()"
+Description: "Returns an array representing the current date or a Unix timestamp."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Date'
-  - 'Time'
+  - "Date"
+  - "Time"
 CatalogContent:
-  - 'learn-php'
-  - 'paths/computer-science'
+  - "learn-php"
+  - "paths/computer-science"
 ---
 
 The `getdate()` function returns an array representing information about the current date or a Unix timestamp.

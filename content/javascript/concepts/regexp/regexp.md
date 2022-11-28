@@ -1,15 +1,15 @@
 ---
-Title: 'RegExp'
-Description: 'The RegExp object is used for matching strings with Regular Expressions, which is a special string pattern that uses various character sequences to match a character sequence or pattern in other strings.'
+Title: "RegExp"
+Description: "The RegExp object is used for matching strings with Regular Expressions, which is a special string pattern that uses various character sequences to match a character sequence or pattern in other strings."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Regular Expressions'
-  - 'Strings'
+  - "Regular Expressions"
+  - "Strings"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/create-a-back-end-app-with-javascript'
+  - "introduction-to-javascript"
+  - "paths/create-a-back-end-app-with-javascript"
 ---
 
 The `RegExp` object is used for matching strings with Regular Expressions. A Regular Expression is a special string, called a pattern, that uses various character sequences to define the characteristics to match a character sequence within another string.
@@ -87,7 +87,7 @@ Usage:
 
 ```js
 let re1 = /foo?/gim;
-let re2 = new RegExp('foo?', 'gim');
+let re2 = new RegExp("foo?", "gim");
 
 // Create a RegExp object that performs a global, case-insensitive, multiline search
 ```
@@ -119,22 +119,22 @@ The following match a character or expression based on what follows or precedes 
 #### Examples
 
 ```js
-let str = 'Sally sells seashells by the seashore';
+let str = "Sally sells seashells by the seashore";
 
 let re = /s(?=e)/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Sally xells xeashells by the xeashore
 
 re = /s(?!e)/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: xally sellx seaxhellx by the seaxhore
 
 re = /^s/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: xally sells seashells by the seashore
 
 re = /\Bs/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Sally sellx seaxhellx by the seaxhore
 ```
 
@@ -165,18 +165,18 @@ Character classes specify a given type of character to match.
 #### Examples
 
 ```js
-let str = '2001: A Space Odyssey';
+let str = "2001: A Space Odyssey";
 
 let re = /\W/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: 2001xxAxSpacexOdyssey
 
 re = /\d/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: xxxx: A Space Odyssey
 
 re = /\d\D/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: 200x A Space Odyssey
 ```
 
@@ -202,18 +202,18 @@ Indicate groups and ranges of characters to match.
 #### Examples
 
 ```js
-let str = 'Peter Piper picked a peck of pickled peppers.';
+let str = "Peter Piper picked a peck of pickled peppers.";
 
 let re = /[aeiou]/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Pxtxr Pxpxr pxckxd x pxck xf pxcklxd pxppxrs.
 
 re = /[^p]/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: PxxxxxPxpxxxpxxxxxxxxpxxxxxxxpxxxxxxxpxppxxxx
 
 re = /pi(ck|pe)/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Peter xr xed a peck of xled peppers.
 ```
 
@@ -235,21 +235,21 @@ By default, these quatifiers are greedy, matching as much of the string as possi
 #### Examples
 
 ```js
-let str = 'Billy bought a bushel of blue balloons.';
+let str = "Billy bought a bushel of blue balloons.";
 
 let re = /b.?l+/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: xy bought a bushel of xue xoons.
 
 re = /[olu]{2}/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Bixy bxght a bushel of bxe baxons.
 
 re = /l\w*/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Bix bought a bushex of bx bax.
 
 re = /o\w+?/gi;
-console.log(str.replace(re, 'x'));
+console.log(str.replace(re, "x"));
 // Output: Billy bxght a bushel x blue balxns.
 ```

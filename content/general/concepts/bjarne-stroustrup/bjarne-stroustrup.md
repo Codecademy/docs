@@ -1,15 +1,15 @@
 ---
-Title: 'Bjarne Stroustrup'
-Description: 'Bjarne Stroustrup is a Danish computer scientist and principle designer of C++, an extension of the C programming language.'
+Title: "Bjarne Stroustrup"
+Description: "Bjarne Stroustrup is a Danish computer scientist and principle designer of C++, an extension of the C programming language."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'OOP'
-  - 'Middleware'
+  - "OOP"
+  - "Middleware"
 CatalogContent:
-  - 'learn-c-plus-plus'
-  - 'paths/computer-science'
+  - "learn-c-plus-plus"
+  - "paths/computer-science"
 ---
 
 ![Bjarne Stroustrup](https://raw.githubusercontent.com/Codecademy/docs/main/media/bjarne_stroustrup.png)

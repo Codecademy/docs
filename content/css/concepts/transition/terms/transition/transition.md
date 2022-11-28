@@ -1,15 +1,15 @@
 ---
-Title: 'transition'
-Description: 'Shorthand property that sets different properties to translate an element in a single declaration.'
+Title: "transition"
+Description: "Shorthand property that sets different properties to translate an element in a single declaration."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Transitions'
+  - "Transitions"
 CatalogContent:
-  - 'learn-css'
-  - 'paths/front-end-engineer-career-path'
-  - 'paths/full-stack-engineer-career-path'
+  - "learn-css"
+  - "paths/front-end-engineer-career-path"
+  - "paths/full-stack-engineer-career-path"
 ---
 
 Shorthand property that sets different properties to translate an element in a single declaration.

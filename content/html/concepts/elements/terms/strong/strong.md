@@ -1,15 +1,15 @@
 ---
-Title: '<strong>'
-Description: 'Used to identify text that is very important, or urgent.'
+Title: "<strong>"
+Description: "Used to identify text that is very important, or urgent."
 Subjects:
-  - 'Web Development'
-  - 'Web Design'
+  - "Web Development"
+  - "Web Design"
 Tags:
-  - 'Elements'
-  - 'Tags'
+  - "Elements"
+  - "Tags"
 CatalogContent:
-  - 'learn-html'
-  - 'paths/front-end-engineer-career-path'
+  - "learn-html"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`<strong>`** element is used to identify text that is very important, or urgent.

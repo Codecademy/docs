@@ -1,14 +1,14 @@
 ---
-Title: 'Inclusive Design'
-Description: 'Inclusive design is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities.'
+Title: "Inclusive Design"
+Description: "Inclusive design is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'paths/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "paths/front-end-engineer-career-path"
 ---
 
 **Inclusive design** is a discipline of design that emphasizes designing products and services that work for people of all demographics, perspectives, and abilities, with a focus on those who may have been historically marginalized or excluded.

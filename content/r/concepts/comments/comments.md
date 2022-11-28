@@ -1,15 +1,15 @@
 ---
-Title: 'Comments'
-Description: 'A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.'
+Title: "Comments"
+Description: "A comment is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Comments'
-  - 'Documentation'
+  - "Comments"
+  - "Documentation"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 A comment is a piece of text within an R program that is not executed. It can be used to provide additional information to aid in understanding the code. It can also serve to "comment out" blocks of code that the programmer doesn't want executed, such as for archival purposes or debugging. Many languages support single line and multi-line comments. Only single-line comments are supported in R.

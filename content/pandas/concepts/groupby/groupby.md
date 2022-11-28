@@ -1,15 +1,15 @@
 ---
-Title: 'GroupBy'
-Description: 'The GroupBy object is returned by calls to `.groupby()` on a Series or DataFrame.'
+Title: "GroupBy"
+Description: "The GroupBy object is returned by calls to `.groupby()` on a Series or DataFrame."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The **`GroupBy`** object is returned by calls to [`.groupby()`](https://www.codecademy.com/resources/docs/pandas/dataframe/groupby) on a `Series` or [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe). The `.groupby()` function reassembles the data into distinct groups, often for aggregation.

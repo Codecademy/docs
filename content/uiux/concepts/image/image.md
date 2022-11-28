@@ -1,14 +1,14 @@
 ---
-Title: 'Image'
-Description: 'An image is a visual representation of something.'
+Title: "Image"
+Description: "An image is a visual representation of something."
 Subjects:
-  - 'Web Design'
+  - "Web Design"
 Tags:
-  - 'UI'
-  - 'UX'
+  - "UI"
+  - "UX"
 CatalogContent:
-  - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - "intro-to-ui-ux"
+  - "path/front-end-engineer-career-path"
 ---
 
 **Images** come in different forms, like photographs, illustrations, or digital art. In contrast to [animations](https://www.codecademy.com/resources/docs/uiux/animations) and [videos](https://www.codecademy.com/resources/docs/uiux/videos), images are static. However, designers may add motion to images, transforming them into animations.

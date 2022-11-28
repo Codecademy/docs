@@ -1,15 +1,15 @@
 ---
-Title: 'Tag'
-Description: 'Creates, lists, deletes, or verifies a commit marker with a GnuPG tag object attached.'
+Title: "Tag"
+Description: "Creates, lists, deletes, or verifies a commit marker with a GnuPG tag object attached."
 Subjects:
-  - 'Bash/Shell'
-  - 'Developer Tools'
+  - "Bash/Shell"
+  - "Developer Tools"
 Tags:
-  - 'Git'
-  - 'Version Control'
+  - "Git"
+  - "Version Control"
 CatalogContent:
-  - 'learn-the-command-line'
-  - 'learn-git'
+  - "learn-the-command-line"
+  - "learn-git"
 ---
 
 The **`tag`** command creates, lists, deletes, or verifies a commit marker with a [GnuPG tag object](https://gnupg.org/) attached. This helps add some semantic meaning to a commit message.

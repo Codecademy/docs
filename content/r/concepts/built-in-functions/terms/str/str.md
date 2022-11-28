@@ -1,15 +1,15 @@
 ---
-Title: 'str()'
-Description: 'Displays the internal structure of a data frame.'
+Title: "str()"
+Description: "Displays the internal structure of a data frame."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
+  - "Computer Science"
+  - "Data Science"
 Tags:
-  - 'Functions'
-  - 'Data Structures'
+  - "Functions"
+  - "Data Structures"
 CatalogContent:
-  - 'learn-r'
-  - 'paths/computer-science'
+  - "learn-r"
+  - "paths/computer-science"
 ---
 
 The **`str()`** function displays the internal structure of an object such as an array, list, matrix, factor, or [data frame](https://www.codecademy.com/resources/docs/r/data-frames).

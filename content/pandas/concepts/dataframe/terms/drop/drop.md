@@ -1,16 +1,16 @@
 ---
-Title: '.drop()'
-Description: 'Returns a DataFrame object with rows or columns removed based on column or index names.'
+Title: ".drop()"
+Description: "Returns a DataFrame object with rows or columns removed based on column or index names."
 Subjects:
-  - 'Computer Science'
-  - 'Data Science'
-  - 'Web Development'
+  - "Computer Science"
+  - "Data Science"
+  - "Web Development"
 Tags:
-  - 'Data Structures'
-  - 'Pandas'
+  - "Data Structures"
+  - "Pandas"
 CatalogContent:
-  - 'learn-python-3'
-  - 'paths/data-science'
+  - "learn-python-3"
+  - "paths/data-science"
 ---
 
 The `.drop()` method returns a new [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) object with rows or columns removed based on column or index names. The original `DataFrame` object, used to call the method, remains unchanged.

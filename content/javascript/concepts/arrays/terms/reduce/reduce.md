@@ -1,16 +1,16 @@
 ---
-Title: '.reduce()'
-Description: 'Combines each element of an array, using a specified reducer function, and returns a single value.'
+Title: ".reduce()"
+Description: "Combines each element of an array, using a specified reducer function, and returns a single value."
 Subjects:
-  - 'Web Development'
-  - 'Computer Science'
+  - "Web Development"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Functions'
-  - 'Methods'
+  - "Arrays"
+  - "Functions"
+  - "Methods"
 CatalogContent:
-  - 'introduction-to-javascript'
-  - 'paths/front-end-engineer-career-path'
+  - "introduction-to-javascript"
+  - "paths/front-end-engineer-career-path"
 ---
 
 The **`.reduce()`** method combines each element of an array, using a specified reducer function, and returns a single value.
@@ -35,27 +35,27 @@ The `accumulator`'s value accumulates with each iteration through the array, res
 ## Example
 
 ```js
-const arrayOne = ['a', 'b', 'c', 'd', 'e'];
+const arrayOne = ["a", "b", "c", "d", "e"];
 
 // Add strings in an array.
 console.log(
-  'Adding strings:',
+  "Adding strings:",
   arrayOne.reduce((acc, curr) => acc + curr)
 );
 
 // Add the values of each element together with an initial value.
-const arrayTwo = ['b', 'c', 'd', 'e'];
+const arrayTwo = ["b", "c", "d", "e"];
 
 console.log(
-  'Adding with initial value:',
-  arrayTwo.reduce((acc, curr) => acc + curr, 'a')
+  "Adding with initial value:",
+  arrayTwo.reduce((acc, curr) => acc + curr, "a")
 );
 
 // Add the values of each object inside an array.
 const arrayThree = [{ x: 1 }, { x: 2 }, { x: 4 }];
 
 console.log(
-  'Adding object values:',
+  "Adding object values:",
   arrayThree.reduce((acc, curr) => acc + curr.x, 0)
 );
 ```
