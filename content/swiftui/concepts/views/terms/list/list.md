@@ -1,44 +1,46 @@
 ---
 Title: 'List'
-Description: 'A list is a container that presents rows of data in a single column.'
+Description: 'A `List` is a  container that presents data arranged in a a column with the ability to select one or more items.'
 Subjects:
-  - 'Software Development'
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
   - 'SwiftUI'
   - 'SwiftUI Views'
-  - 'List'
   - 'Views'
 CatalogContent:
-  - 'learn-swiftui'
+  - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **`List`** creates its content statically but is commonly used to create dynamic list from a collection of data.
+The **`List`** view arranges its elements in a column. It can be either static, when you hard-coding the data into the list, or dynamic, when the list pulls the data from an array.
 
 ## Syntax
 
 ```pseudo
-List(continents, id: \.self) {
-    // How to display data (eg: continents)
+var body: some View {
+    List {
+        // Subviews here
+    }
 }
 ```
-A `List`, whether is static or dynamic, has different modifiers that can change the look.
 
 ## Example
 
-The following example a variable holds an array of texts. The `List` displays the items inside the array in a column, assigns an `id` so SwiftUI can identify each of the items uniquely in the array:
+In the example below, a `List` pulls the data from a variable called `continents` that contains an array of `Strings` then displays them in a column:
 
 ```swift
 var continents = ["Africa", "Antartica", "Asia", "Europe", "North America", "Oceania", "South America"]
 
-    var body: some View {
-        List(continents, id: \.self) {
-            Text($0)
-        }
+var body: some View {
+    List(continents, id: \.self) {
+        Text($0)
     }
+}
 ```
-`$0` is a short hand syntax used to reference the first argument in a closure.
+- `id: \.self` allows Swift to identify each of the items uniquely in order to update the values when changed.
+- `$0` is a short hand syntax used to reference the first argument in a closure.
+
+This will display the following:
 
 ![List](https://raw.githubusercontent.com/Codecademy/docs/main/media/list.png)
