@@ -42,31 +42,31 @@ These are important points to target for optimization in programming:
 Every application, generally, is composed of 2 areas where programming optimizations can be applied within levels of development:
 
 ***Client Side***, which is the side seen on the web browser by the user, includes: 
-- JavaScript that runs in the browser
-- load times for pages
-- images
-- videos
-- downloading of any resources required by the application, etc.
+- JavaScript that runs in the browser 
+- load times for pages 
+- images 
+- videos 
+- downloading of any resources required by the application, etc. 
 
 A few of the techniques that can be applied optimize the programming on the client side could be: 
-- caching and content delivery networks
-- bundle and minification
-- image usage
-- removing duplicate JavaScript and CSS code
-- using minimalist styling frameworks, etc.
+- caching and content delivery networks 
+- bundle and minification 
+- image usage 
+- removing duplicate JavaScript and CSS code 
+- using minimalist styling frameworks, etc. 
 
-***Server Side***, this second side relates to any computations done behind the scenes, tends to involve:
-- database queries and processing
-- application configuration and dependencies, etc.        
+***Server Side***, this second side relates to any computations done behind the scenes, tends to involve: 
+- database queries and processing 
+- application configuration and dependencies, etc.         
 
-Although not restricted to only these, typical strategies that help with this include:
-- using an appropriate server application instead of the default
-- enable caching(opcode, memory, http and application)
-- de-fragmentation of database tables
-- database settings
-- virtualization
-- dns query response time
-- and again, this list can go on depending how deep requirements are needed. 
+Although not restricted to only these, typical strategies that help with this include: 
+- using an appropriate server application instead of the default 
+- enable caching(opcode, memory, http and application) 
+- de-fragmentation of database tables 
+- database settings 
+- virtualization 
+- dns query response time 
+- and again, this list can go on depending how deep requirements are needed.  
 
 These programming optimizations can occur at different levels within the cycle of the application's creation. Consideration tends to be given to efficiency throughout a project, though this varies significantly, but major optimization in the programming is often considered a refinement to be done later, if ever. 
 
