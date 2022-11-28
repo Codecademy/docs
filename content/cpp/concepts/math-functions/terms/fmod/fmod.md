@@ -34,7 +34,8 @@ The following example uses `fmod()` to return the floating-point remainder of `x
 #include <cmath>
 using namespace std;
 
-int main() {
+int main()
+{
   double x = 7.5, y = 2.1;
   double result = fmod(x, y);
   cout << "Remainder of " << x << "/" << y << " = " << result << endl;
@@ -63,7 +64,8 @@ The following example is runnable and returns the floating-point remainder:
 #include <cmath>
 using namespace std;
 
-int main() {
+int main()
+{
   float x = 7.5f, y = 2.1f;
   double result = fmod(x, y);
   cout << "Remainder of " << x << "/" << y << " = " << result << endl;

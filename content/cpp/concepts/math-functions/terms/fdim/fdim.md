@@ -11,13 +11,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the positive difference between two arguments.
+The **`fdim()`** function returns the positive difference between two arguments.
 
 ## Syntax
 
 `cmath` library must be added at the top of the file.
 
-```cpp
+```pseudo
 std:fdim(x, y)
 ```
 
@@ -41,7 +41,8 @@ Use `fdim()` to return the positive difference between `8` and `5`:
 #include <iostream>
 #include <cmath>
 
-int main () {
+int main ()
+{
   double x = 8;
   double y = 5;
   double result1;

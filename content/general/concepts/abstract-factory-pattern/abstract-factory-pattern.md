@@ -22,7 +22,7 @@ The **abstract factory pattern** utilizes a common interface for multiple factor
 
 ## Java Example
 
-To illustrate the abstract factory pattern, below is a real-world example, written in Java, that explores potential considerations for a banking account system. A new customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Below is a table of accounts and their privileges:
+To illustrate the abstract factory pattern, below is a real-world example written in Java, that explores potential considerations for a banking account system. A new customer will request either a current or savings account. The customer may also be entitled to different privileges depending on their credit score. Below is a table of accounts and their privileges:
 
 | Customer Type | Current                     | Saving                |
 | ------------- | --------------------------- | --------------------- |
@@ -61,7 +61,7 @@ public class CreditAgencyGateway {
 
 The `CreditAgencyGateway` class uses a [`switch` statement](https://www.codecademy.com/resources/docs/java/switch) to query a provided `name`. If the name is recognized, a new customer is returned. Otherwise, an exception is thrown.
 
-One of the main advantages of factory patterns is they allow for a large amount of model classes and enforce a common interface between them. In the code below, an abstract model `CurrentAccount` class works as an extension for its concrete sub-classes to be based on:
+One of the main advantages of factory patterns is they allow for a large number of model classes and enforce a common interface between them. In the code below, an abstract model `CurrentAccount` class works as an extension for its concrete sub-classes to be based on:
 
 ```java
 public abstract class CurrentAccount {
@@ -97,11 +97,11 @@ public abstract class CurrentAccount {
 
 The parent `CurrentAccount` class above, as well as providing the common fields and constructor, requires its children to implement the `.increaseOverdraft()` method. This is the differentiating feature described between each current account.
 
-The code snippets below are the concrete implementations of `CurrentAccount`. The first is the Gold-level:
+The code snippets below are the concrete implementations of `CurrentAccount`. The first is the Gold level:
 
 ```java
 public class GoldPersonal extends CurrentAccount {
-  // The Gold Personal has a high max overdraft limit
+  // The Gold Personal has a high-max overdraft limit
   public static final int MAX_OVERDRAFT = 3500;
 
   public GoldPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
@@ -122,7 +122,7 @@ Next is the Silver-level implementation of the `CurrentAccount`:
 
 ```java
 public class SilverPersonal extends CurrentAccount {
-  // The Silver Personal has a mid max overdraft limit
+  // The Silver Personal has a mid-max overdraft limit
   public static final int MAX_OVERDRAFT = 1200;
 
   public SilverPersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
@@ -143,7 +143,7 @@ Here is the Bronze-level implementation:
 
 ```java
 public class BronzePersonal extends CurrentAccount {
-  // The Bronze Personal has a low max overdraft limit
+  // The Bronze Personal has a low-max overdraft limit
   public static final int MAX_OVERDRAFT = 500;
 
   public BronzePersonal(Customer accountHolder, int initBalance, int agreedOverdraftLimit) {
@@ -215,11 +215,11 @@ public abstract class SavingAccount {
 
 Much like `CurrentAccount`, `SavingAccount` provides the common fields and constructor and requires its children to implement the `.addInterest()` method. This is the differentiating feature described between each savings account.
 
-Below provides the concrete implementations of `SavingAccount` for this example. The first is the Gold-level:
+Below provides the concrete implementations of `SavingAccount` for this example. The first is the Gold level:
 
 ```java
 public class GoldSaver extends SavingAccount {
-  // The Gold Saver has a high interest rate
+  // The Gold Saver has a high-interest rate
   public static final double INTEREST_RATE_MULTIPLIER = 1.05;
 
   public GoldSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
@@ -237,11 +237,11 @@ public class GoldSaver extends SavingAccount {
 }
 ```
 
-Then the Silver-level:
+Then the Silver level:
 
 ```java
 public class SilverSaver extends SavingAccount {
-  // The Silver Saver has a mid interest rate
+  // The Silver Saver has a mid-interest rate
   public static final double INTEREST_RATE_MULTIPLIER = 1.03;
 
   public SilverSaver(Customer accountHolder, LocalDate dateOpened, double initBalance) {
@@ -259,11 +259,11 @@ public class SilverSaver extends SavingAccount {
 }
 ```
 
-And finally the Bronze-level implementation:
+And finally the Bronze level implementation:
 
 ```java
 public class BronzeSaver extends SavingAccount {
-  // The Bronze Saver has a low interest rate
+  // The Bronze Saver has a low-interest rate
   public static final double INTEREST_RATE_MULTIPLIER = 1.015;
 
   public BronzeSaver(Customer accountHolder, LocalDate dateOpened, int initBalance) {

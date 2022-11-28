@@ -8,7 +8,7 @@ jobs:
       github.event.pull_request.user.login != 'Dusch4593' &&
       github.event.pull_request.user.login != 'yangc95' &&
       github.event.pull_request.user.login != 'KTom101' &&
-      github.event.pull_request.user.login != 'SSwiniarki' &&
+      github.event.pull_request.user.login != 'SSwiniarski' &&
       github.event.pull_request.user.login != 'HishamT' &&
       github.event.pull_request.user.login != 'caupolicandiaz' &&
       github.event.pull_request.user.login != 'lucwhite'

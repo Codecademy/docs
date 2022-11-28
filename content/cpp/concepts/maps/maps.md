@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Maps are associative containers that have elements with key-value pairs. The keys are used to sort and identify the elements, while the values store the content associated with the keys. Each mapped value must have a unique key value.
+**Maps** are associative containers that have elements with key-value pairs. The keys are used to sort and identify the elements, while the values store the content associated with the keys. Each mapped value must have a unique key value.
 
 ## Syntax
 
@@ -42,7 +42,8 @@ The following example creates an empty map, `emptyMap`, and a map set with value
 #include <iterator>
 #include <map>
 
-int main(){
+int main()
+{
   // Initializing empty map
   std::map<std::string, int> emptyMap;
 
@@ -78,22 +79,23 @@ By default, elements are sorted by their key in ascending order.
 #include <iterator>
 #include <map>
 
-int main(){
-
+int main()
+{
  // Initializing map with items
- std::map<int, std::string> reptiles {
-   {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"} };
+  std::map<int, std::string> reptiles
+  {
+    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
+  };
 
 
   // Initializing iterator
   std::map<int, std::string> :: iterator iter;
 
   for (iter = reptiles.begin(); iter != reptiles.end(); ++iter)
-     {
-      std::cout << '\t' << iter->first << '\t' << iter->second
-      << '\n';
-    }
-
+  {
+    std::cout << '\t' << iter->first << '\t' << iter->second
+    << '\n';
+  }
 }
 ```
 
@@ -109,13 +111,13 @@ The default comparison function can be changed to `std::greater<dataType>` in or
 
 ### Syntax
 
-To set the comparison function while intializing an empty map:
+To set the comparison function while initializing an empty map:
 
 ```pseudo
 std::map<type1, type2, std::greater<dataType>> mapName;
 ```
 
-To set the comparison function while intializing a map with items:
+To set the comparison function while initializing a map with items:
 
 ```pseudo
 std::map<type1, type2, std::greater<dataType>> mapName { {key1, value1}, {key2, value2}, ...};
@@ -132,21 +134,21 @@ Setting the previous example's comparison function to `std::greater<int>`:
 #include <iterator>
 #include <map>
 
-int main(){
-
- // Initializing map with items
- std::map<int, std::string, std::greater<int>> reptiles {
-   {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"} };
+int main()
+{
+  // Initializing map with items
+  std::map<int, std::string, std::greater<int>> reptiles
+  {
+    {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
+  };
 
 
   // Initializing iterator
   std::map<int, std::string> :: iterator iter;
 
   for (iter = reptiles.begin(); iter != reptiles.end(); ++iter)
-     {
-      std::cout << '\t' << iter->first << '\t' << iter->second
-      << '\n';
-    }
-
+  {
+    std::cout << '\t' << iter->first << '\t' << iter->second << '\n';
+  }
 }
 ```

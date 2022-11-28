@@ -12,12 +12,12 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **log()** function returns the natural, base-_e_ logarithm of the argument. This is the inverse of the [`exp()`](https://www.codecademy.com/resources/docs/cpp/math-functions/exp) function.
+The **`log()`** function returns the natural, base-`e` logarithm of the argument. This is the inverse of the [`exp()`](https://www.codecademy.com/resources/docs/cpp/math-functions/exp) function.
 
 ## Syntax
 
-```cpp
- log(x)
+```pseudo
+log(x)
 ```
 
 If the `x` parameter is less than or equal to zero, then a domain error will occur. If `x` is equal to zero, a pole error may occur where the result has reached the point of infinity and cannot be expressedly returned.
@@ -30,7 +30,8 @@ The following example uses the `log()` function to find the natural log of `5`:
 #include <iostream>
 #include <math.h>
 
-int main() {
+int main()
+{
   double x = 5;
   double result;
   result = log(x);
@@ -47,7 +48,8 @@ The following example is runnable and returns the natural log of `10`:
 #include <iostream>
 #include <math.h>
 
-int main() {
+int main()
+{
   double x = 10;
   double result;
   result = log(x);

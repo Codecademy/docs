@@ -1,6 +1,6 @@
 ---
 Title: 'User Input'
-Description: 'std::cin, which stands for “character input”, reads user input from the keyboard. cpp std::cin >> variable;  Here, the user can enter a value in the terminal, press enter, and that number will get stored in the variable. In this example, the program will prompt the user to enter a number with "Enter amount: ". Then the user can enter a number, press enter, and that number will get stored in the variable tip. cpp'
+Description: 'std::cin, which stands for “character input”, reads user input from the keyboard.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-`std::cin`, which stands for “character input”, reads user input from the keyboard.
+`std::cin`, which stands for **character input**, reads user input from the keyboard.
 
 ## Syntax
 
@@ -30,14 +30,13 @@ In this example, the program will prompt the user to enter a number with `"Enter
 ```cpp
 #include <iostream>
 
-int main() {
-
+int main()
+{
   int tip = 0;
 
   std::cout << "Enter amount: ";
   std::cin >> tip;
 
   std::cout << "You gave a tip of $" << tip << "\n";
-
 }
 ```
