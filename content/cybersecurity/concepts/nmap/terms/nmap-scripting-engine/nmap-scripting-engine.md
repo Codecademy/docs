@@ -45,7 +45,7 @@ NSE scripts belong to a list of defined categories:
 - `exploit`: Actively exploits some vulnerability.
 - `external`: May send data to a third-party database or another resource.
 - `fuzzer`: Sends server software unexpected or randomized data in each packet.
-- `intrusive`: Cannot be classified `safe` because there's some risk of crashing the target system, use up significant resources, or generally behave in a way the target may perceive as malicious.
+- `intrusive`: Cannot be classified `safe` because there's some risk of crashing the target system, using up significant resources, or generally behaving in a way the target may perceive as malicious.
 - `malware`: Checks if the target system is affected by malware or backdoors.
 - `safe`: Not designed to crash servers, use large amounts of bandwidth or other resources, or exploit security holes.
 - `version`: Special category that is an extension of the version detection feature. Cannot be selected explicitly.
