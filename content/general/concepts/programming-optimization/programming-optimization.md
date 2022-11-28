@@ -1,22 +1,18 @@
 
 ---
 Title: 'Programming Optimization'
-
 Description: 'Optimization in programming is the process of modifying a software system to execute faster and become more efficient by minimizing the use of available computing resources.'
-
-Subject:
-- 'Web Development'
-
+Subjects:
+  - 'Web Development'
 Tags:
-- 'Optimization in Programing'
-- 'Programming Optimization'
-
-Catalog Content:
-- 'paths/computer-science'
-- 'web-development'
+  - 'Optimization in Programing'
+  - 'Programming Optimization'
+CatalogContent:
+  - 'paths/computer-science'
+  - 'web-development'
 ---
 
-***Programming Optimization*** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of others (eg. increasing the size of cache improves run-time performance but also increases memory consumption).
+***Programming Optimization*** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of others, e.g., increasing the size of cache improves run-time performance but also increases memory consumption.
 
 It has become an important focal point since today’s users appreciate a highly performant experience and have significantly higher expectations. It has become a deciding factor of the success of modern business in today’s digital market. Optimization in programming is a key element in the improvement of such performance.
 
@@ -30,16 +26,16 @@ Techniques used can be broken up among various scopes which can affect anything 
 
 These are important points to target for optimization in programming:
 
-- reducing code complexity
-- avoiding unnecessary for-loops
-- using data structures similar to like sorting, string concatenation
-- avoiding unnecessary functions
-- avoiding dots
-- initializing dictionary elements
-- import statement overhead
-- data aggregation
-- re-map functions at runtime
-- profiling code   
+- Reducing code complexity
+- Avoiding unnecessary for-loops
+- Using data structures similar to like sorting, string concatenation
+- Avoiding unnecessary functions
+- Avoiding dots
+- Initializing dictionary elements
+- Import statement overhead
+- Data aggregation
+- Re-map functions at runtime
+- Profiling code
 
 ## Levels of Optimization
 
@@ -182,10 +178,10 @@ A compiler is a specific piece of software that converts the source code of a co
 Typically, the source code is written in a high-level, human-readable language and these structures are replaced with highly efficient low-level programming codes to the extent of the compiler's program. The compiler can improve loops and address computations after completing intermediate code and leverage memory hierarchy and CPU registers while generating the target machine code.
 
 We can categorize the programming optimization at this level, broadly, into 2 types:
-- Machine Independent
+1. Machine Independent
 This step of source code optimization compiling aims to improve intermediate code to produce a better target. No CPU registers or absolute memory addresses are involved to be translated.
 
-- Machine Dependent
+2. Machine Dependent
 After the target code has been created and converted to fit the machine architecture, machine-dependent optimization is performed. It may use absolute memory references rather than relative memory accesses and also requires CPU registers. Machine-dependent optimizers make a concerted attempt to maximize the memory hierarchy's benefits.
 
 ### Run Time
