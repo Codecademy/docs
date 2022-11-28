@@ -10,8 +10,7 @@ Tags:
   - 'Seaborn'
 CatalogContent:
   - 'learn-python-3'
-  - 'paths/computer-science'
-  - 'paths/front-end-engineer-career-path'
+  - 'paths/data-science-foundations'
 ---
 
 Seaborn provides a wide variety of **built-in functions** for use in accessing, analyzing, and visualizing data. A few of the more significant ones are listed below.
