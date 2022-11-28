@@ -32,6 +32,8 @@ nmap -A scanme.nmap.org
 
 > **Note:** The site `scanme.nmap.org` is a site explicitly set up for testing Nmap. Only perform scans on domains you have explicit permission to scan.
 
+This results in the following output:
+
 ```shell
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-11-27 11:53 Eastern Standard Time
 Nmap scan report for scanme.nmap.org (45.33.32.156)
