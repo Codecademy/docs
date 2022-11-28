@@ -14,4 +14,4 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Seaborn provides a wide variety of built-in functions for use in accessing, analyzing, and visualizing data. A few of the more significant ones are listed below.
+Seaborn provides a wide variety of **built-in functions** for use in accessing, analyzing, and visualizing data. A few of the more significant ones are listed below.
