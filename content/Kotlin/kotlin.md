@@ -11,8 +11,9 @@ CatalogContent:
 
 ## Uses of Kotlin
 
-Back-end web development
-Android development
-Full-stack web development
-Data Science
-Multi-platform mobile development
+- Android development
+- Back-end development
+- Front-end development
+- [Full-stack](https://www.codecademy.com/resources/docs/general/full-stack) development
+- [Data Science](https://www.codecademy.com/resources/docs/general/data-science)
+- Multi-platform mobile development
