@@ -37,7 +37,7 @@ Scripts are generally run with a port scan because the state of each port may de
 NSE scripts belong to a list of defined categories:
 
 - `auth`: Deals with authentication credentials, or bypassing them.
-- `broadcast`: Does discovery of hosts not listed on command line by broadcasting on the local network.
+- `broadcast`: Does discovery of hosts not listed on the command line by broadcasting on the local network.
 - `brute`: Uses brute force attacks to guess authentication credentials.
 - `default`: The default scripts run with the `-sC` option.
 - `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services and so on.
