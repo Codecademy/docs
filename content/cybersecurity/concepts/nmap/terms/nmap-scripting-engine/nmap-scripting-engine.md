@@ -26,7 +26,7 @@ The scripting engine is activated with the `-sC` option. The `--script` option c
 The following options are related to NSE:
 
 - `-sC`: enables the most common scripts.
-- `--script`: choses scripts by category, directory or individual script filename.
+- `--script`: chooses scripts by category, directory, or individual script filename.
 - `--script-args` and `script-args-file`: provide arguments to scripts that use/require them.
 - `--script-help`: shows a description of what each selected script does.
 
