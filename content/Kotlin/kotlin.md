@@ -1,6 +1,6 @@
 ---
 Title: 'Kotlin'
-Description: 'Kotlin is a contemporary language released by JetBrains in 2011. It is becoming popular and quickly replacing Java as the choice for Android software projects.'
+Description: 'Kotlin is a programming language used for general purposes including front-end, back-end, and mobile development.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/kotlin'
 CatalogContent:
   - 'learn-kotlin'
