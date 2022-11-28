@@ -20,7 +20,7 @@ The **`Math.multiplyExact()`** method returns the product of its arguments. It i
 Math.multiplyExact(x, y)
 ```
 
-The `.multiplyExact()` method takes two parameters: `x` and `y`. Both parameters must be of either type `int` or `long`.
+The `.multiplyExact()` method takes two parameters: `x` and `y` (a multiplier and a multiplicand). Both parameters must be of either type `int` or `long`.
 
 The `.multiplyExact()` method returns the result of `x` multiplied by `y`.
 
@@ -33,7 +33,7 @@ An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown 
 
 ## Example
 
-The following example returns the product of two values with the `.multiplyExact()` method:
+In the following example, the `.multiplyExact()` method first returns the product of two numbers and then throws an exception:
 
 ```java
 // Main.java
@@ -41,15 +41,18 @@ public class Main {
   public static void main(String[] args) {
     int num1 = 8;
     int num2 = 2;
+    /*
+    Returns the product of the two numbers
+    */
     System.out.println(num1 + " multiplied by " + num2 + " equals to " + Math.multiplyExact(num1, num2));
 
+    long c = 299792458;
+    long m = Long.MAX_VALUE;
     /*
     Overflow will occur if any one of the arguments is
     Long.MAX_VALUE or Integer.MAX_VALUE.
     */
-    long c = 299792458;
-    long m = Long.MAX_VALUE;
-    System.out.println(Math.multyplyExact(c, m));
+    System.out.println(Math.multiplyExact(c, m));
   }
 }
 ```
@@ -60,5 +63,5 @@ This will produce the following output:
 8 multiplied by 2 equals to 16
 Exception in thread "main" java.lang.ArithmeticException: long overflow
         at java.base/java.lang.Math.multiplyExact(Math.java:946)
-        at Main.main(Main.java:13)
+        at Main.main(Main.java:17)
 ```
