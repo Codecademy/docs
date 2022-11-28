@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.multiplyExact()`** method returns the product of its arguments. It is a static method and it is accessed by using the `Math` class.
+The **`.multiplyExact()`** method returns the product of its arguments. It is a static method and it is accessed by using the `Math` class.
 
 ## Syntax
 
