@@ -43,7 +43,7 @@ NSE scripts belong to a list of defined categories:
 - `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services, and so on.
 - `dos`: May result in a denial of service.
 - `exploit`: Actively exploits some vulnerability.
-- `external`: May send data to a third-party database or other resource.
+- `external`: May send data to a third-party database or another resource.
 - `fuzzer`: Sends server software unexpected or randomized data in each packet.
 - `intrusive`: Cannot be classified `safe` because there's some risk of crashing the target system, use up significant resources, or generally behave in a way the target may perceive as malicious.
 - `malware`: Checks if the target system is affected by malware or backdoors.
