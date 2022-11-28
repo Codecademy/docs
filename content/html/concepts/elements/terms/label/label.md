@@ -8,6 +8,7 @@ Tags:
   - 'Elements'
   - 'Form'
   - 'Label'
+  - 'Input'
   - 'Interface'
   - 'Tags'
   - 'UI'
@@ -16,7 +17,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
+```suggestion
 The **`<label/>`** element is used to identify captions for other HTML elements. This is most commonly used with form elements such as the [**`<input>`**](../input/input.md) element. The <label> tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
+```
 
 ## Syntax
 
@@ -27,19 +30,24 @@ The **`<label/>`** element is used to identify captions for other HTML elements.
 ## Usages
 
 ```suggestion
-The <label> tag can define a label for several elements:
+The `<label>` tag can define a label for several elements:
 ```
 
-- [**`<input>`**](../input/input.md)
-- [**`<meter>`**](../meter/meter.md)
-- [**`<progress>`**](../progressput/progress.md)
-- [**`<select>`**](../select/select.md)
-- [**`<textarea>`**](../textarea/textarea.md)
+- [`<input>`](../input/input.md)
+- [`<meter>`](../meter/meter.md)
+- [`<progress>`](../progressput/progress.md)
+- [`<select>`](../select/select.md)
+- [`<textarea>`](../textarea/textarea.md)
 
 ```suggestion
 > **Note:** `<label>` tags are essential for good accessbility.
->
+```
+
+```suggestion
 > - They allow screenreaders to connect this caption to its coresponding ui elements.
+```
+
+```suggestion
 > - Also, when a user clicks the text within the **`<label>`** element, it toggles the coresponding input. This is great for users who have difficulty clicking on very small ui elements such as checkboxes.
 ```
 
@@ -51,9 +59,7 @@ Some common attributes used to set properties for the `<label>` element are show
 |   `for`    |   String   | Specifies the id of the form element the `<label>` should be bound to.
 |   `form`    |   String   | Specifies which form the `<label>` belongs to.
 
-```suggestion
 Multiple label elements can be used for the same UI element.
-```
 
 ```html
 <form id="contact">
@@ -66,9 +72,7 @@ Multiple label elements can be used for the same UI element.
 > **Note:** UI elements can be connected to any **`<label>`** element when placed between `<label></label>` tags.
 ```
 
-```suggestion
 The following examples uses a `<form>` element that features `<input>` elements with corresponding `<label>` tags:
-```
 
 ```html
 <label for="name">
@@ -93,9 +97,7 @@ Multiple `<label>` elements can be used for the same ui element.
 
 ## Example
 
-```suggestion
 The following examples uses a `<form>` element that features `<input>` elements with coresponding `<label>` tags:
-```
 
 ```html
 <html>
