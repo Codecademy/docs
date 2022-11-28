@@ -31,13 +31,12 @@ The following example uses the `log2()` function to find the base-2 log of `1024
 #include <cmath>
 using namespace std;
 
-int main()
-{
+int main() {
   double x = 1024;
   double result;
   result = log2(x);
   cout << "The log to the base of 2 of " << x << " is " << result << "\n";
-  // Output: The log2 of 1024 is 10
+  // Output: The log to the base of 2 of 1024 is 10
 }
 ```
 
@@ -50,8 +49,7 @@ The following example is runnable and returns the base-2 log of `8`:
 #include <math.h>
 using namespace std;
 
-int main()
-{
+int main() {
   double x = 8;
   double result;
   result = log2(x);
