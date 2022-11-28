@@ -25,10 +25,8 @@ If you're new to Codecademy Docs and contributing for the first time, it is reco
 Becoming an assignee to an issue follows this workflow:
 
 1. Comment on a thread for an issue that you're interested in being assigned to (e.g., [Issue #1026](https://github.com/Codecademy/docs/issues/1026)).
-2. Await a maintainer's response to be assigned. If assigned, start working on a PR. If not assigned, continue steps 1 and 2 until assigned an issue.
+2. Await 2-3 days for a maintainer's response to be assigned an issue. If assigned, start working on a PR. If not yet assigned, continue steps 1 and 2 until assigned an issue.
 3. If a PR has not been opened in 2 weeks for the issue, the issue may be reassigned to another contributor. Maintainers will do their best to notify contributors by tagging their GitHub handle along the issue thread every 5-7 days.
-
-> **Note:** There should be some noticeable activity within every 2-3 days.
 
 ## How do I submit a Pull Request (PR)?
 
@@ -47,6 +45,8 @@ Alternatively, if you'd prefer to work directly on GitHub, you can follow the in
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
 If you are uncomfortable using Git, you can also check out [this YouTube video](https://youtu.be/RPagOAUx2SQ) to do this all using the GitHub Desktop app.
+
+> **Note:** There should be some noticeable activity within the PR branch every 2-3 days.
 
 ## How can I test my changes before submitting a PR?
 
