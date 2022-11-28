@@ -40,7 +40,7 @@ NSE scripts belong to a list of defined categories:
 - `broadcast`: Does discovery of hosts not listed on the command line by broadcasting on the local network.
 - `brute`: Uses brute force attacks to guess authentication credentials.
 - `default`: The default scripts run with the `-sC` option.
-- `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services and so on.
+- `discovery`: Tries to actively discover more about the network, querying public registries, SNMP devices, directory services, and so on.
 - `dos`: May result in a denial of service.
 - `exploit`: Actively exploits some vulnerability.
 - `external`: May send data to a third-party database or other resource.
