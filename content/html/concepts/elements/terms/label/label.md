@@ -17,9 +17,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-```suggestion
-The **`<label/>`** element is used to identify captions for other HTML elements. This is most commonly used with form elements such as the [**`<input>`**](../input/input.md) element. The <label> tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
-```
+The `<label/>` element is used to identify captions for other HTML elements. This is most commonly used with form elements such as the [**`<input>`**](https://www.codecademy.com/resources/docs/html/elements/input/input.md) element. The `<label>` tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
 
 ## Syntax
 
@@ -29,9 +27,7 @@ The **`<label/>`** element is used to identify captions for other HTML elements.
 
 ## Usages
 
-```suggestion
 The `<label>` tag can define a label for several elements:
-```
 
 - [`<input>`](../input/input.md)
 - [`<meter>`](../meter/meter.md)
@@ -44,11 +40,11 @@ The `<label>` tag can define a label for several elements:
 ```
 
 ```suggestion
-> - They allow screenreaders to connect this caption to its coresponding ui elements.
+> - '<label>' tags creates captions for its coresponding UI elements.
 ```
 
 ```suggestion
-> - Also, when a user clicks the text within the **`<label>`** element, it toggles the coresponding input. This is great for users who have difficulty clicking on very small ui elements such as checkboxes.
+> - Also, when a user clicks the text within the `<label>` element, it toggles the corresponding input. This is great for users who have difficulty clicking on small UI elements such as checkboxes.
 ```
 
 ## Atributes
@@ -68,9 +64,7 @@ Multiple label elements can be used for the same UI element.
 </form>
 ```
 
-```suggestion
-> **Note:** UI elements can be connected to any **`<label>`** element when placed between `<label></label>` tags.
-```
+> **Note:** UI elements can be connected to any `<label>` element when placed between `<label></label>` tags.
 
 The following examples uses a `<form>` element that features `<input>` elements with corresponding `<label>` tags:
 
@@ -83,7 +77,7 @@ The following examples uses a `<form>` element that features `<input>` elements 
 
 ## Multiple labels
 
-Multiple `<label>` elements can be used for the same ui element.
+Multiple `<label>` elements can be used for the same UI element.
 
 ```html
 <label for="name">Name Input Label
@@ -91,9 +85,7 @@ Multiple `<label>` elements can be used for the same ui element.
 <label for="name">Warning: Name is required</label>
 ```
 
-```suggestion
 > **Note:** Do not place anchors, buttons, or any interactive UI element, between  `<label></label>` tags.
-```
 
 ## Example
 
@@ -104,29 +96,24 @@ The following examples uses a `<form>` element that features `<input>` elements 
   <head> </head>
   <body>
     <form>
-      <!-- This input type requires the user to enter a valid email address -->
       <label for="email">Email Address</label>
       <input id="email" type="email" />
 
-      <!-- This input hides the typed password with ****s -->
       <label for="password">Password</label>
       <input id="password" type="password" />
 
-      <!-- This input provides a checkbox -->
       <input type="checkbox" /><label>Remember Me</label>
 
-      <!-- This input provides a radio button group -->
       <label>
         <input type="radio" value="yes" name="contact_me" />
-        Contact Me
+        Business Account
       </label>
       <label>
         <input type="radio" value="no" name="contact_me" />
-        Do Not Contact Me
+        Personal
       </label>
 
-      <!-- This input will submit the form -->
-      <input type="submit" value="Create Account" />
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
