@@ -1,6 +1,6 @@
 ---
 Title: 'tan()'
-Description: 'Returns the tangent of the angle in radians.'
+Description: 'Returns the tangent of an angle given in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`tan()`** function returns the tangent of the angle in radians.
+The **`tan()`** function returns the tangent of an angle given in radians.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ The `x` parameter represents an angle measured in radians. One radian is equal t
 
 ## Example
 
-The following example is runnable and returns the tangent of `0` with the `tan()` function:
+The following example returns the tangent of `0` with the `tan()` function:
 
 ```cpp
 #include <iostream>
@@ -43,7 +43,7 @@ int main() {
 
 ## Codebyte Example
 
-The following example uses the `tan()` function to find the tangent of &pi;/4:
+The following example is runnable and uses the `tan()` function to find the tangent of &pi;/4:
 
 ```codebyte/cpp
 #include <iostream>
