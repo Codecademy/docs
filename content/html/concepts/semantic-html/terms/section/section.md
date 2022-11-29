@@ -65,9 +65,9 @@ Suppose the current page wants to add two sections:
 
 ## Alternatives to `<section>`
 
-There are also examples where we can use other elements that semantically fit better then the `<section>` element.
+There are also examples where we can use other elements that semantically fit better than the `<section>` element.
   
-The first example is the `<header>` element which can be used to describe that the content inside is the header of the page.
+- The [`<header>`](https://www.codecademy.com/resources/docs/html/semantic-html/header) element which can be used to describe that the content inside is the header of the page.
   
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ The first example is the `<header>` element which can be used to describe that t
 </html>
 ```
 
-The second example is the `<nav>` element. It is used to describe that the content inside is a navigation system of the page.
+- The [`<nav>`](https://www.codecademy.com/resources/docs/html/semantic-html/nav) element. It is used to describe that the content inside is a navigation system of the page.
   
 ```html
 <!DOCTYPE html>
@@ -109,7 +109,7 @@ The second example is the `<nav>` element. It is used to describe that the conte
 </html>
 ```
   
-The third example is the `<main>` element which is used to describe that the content inside is the main content of the page.
+- The [`<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main) element which is used to describe that the content inside is the main content of the page.
 
 ```html
 <!DOCTYPE html>
@@ -130,7 +130,7 @@ The third example is the `<main>` element which is used to describe that the con
 </html>
 ```
   
-Another example is the `<footer>` element which is used to describe that the content inside is the footer of the page.
+- The [`<footer>`](https://www.codecademy.com/resources/docs/html/semantic-html/footer) element which is used to describe that the content inside is the footer of the page.
 
 ```html
 <!DOCTYPE html>
