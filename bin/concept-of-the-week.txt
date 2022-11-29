@@ -1,1 +1,1 @@
-content/java/concepts/compiler/compiler.md
+content/emojicode/concepts/interpolation/interpolation.md
