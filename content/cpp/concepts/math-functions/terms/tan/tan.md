@@ -15,7 +15,7 @@ The **`tan()`** function returns the tangent of an angle given in radians.
 
 ## Syntax
 
-```cpp
+```pseudo
 tan(x)
 ```
 
