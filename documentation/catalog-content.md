@@ -12,121 +12,142 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 ### C
 
 ```
-- "learn-c"
-- "paths/computer-science"
+- 'learn-c'
+- 'paths/computer-science'
 ```
 
 ### C++
 
 ```
-- "learn-c-plus-plus"
-- "paths/computer-science"
+- 'learn-c-plus-plus'
+- 'paths/computer-science'
+```
+
+### Cloud Computing
+
+```
+- 'foundations-of-cloud-computing'
+- 'paths/back-end-engineer-career-path'
 ```
 
 ### CSS
 
 ```
-- "learn-css"
-- "paths/front-end-engineer-career-path"
+- 'learn-css'
+- 'paths/front-end-engineer-career-path'
+```
+
+### Cybersecurity
+
+```
+- 'introduction-to-cybersecurity'
+- 'paths/fundamentals-of-cybersecurity'
 ```
 
 ### Emojicode
 
 ```
-- "learn-emojicode"
-- "paths/computer-science"
+- 'learn-emojicode'
+- 'paths/computer-science'
 ```
 
 ### Git
 
 ```
-- "learn-git"
-- "learn-the-command-line"
-- "paths/computer-science"
+- 'learn-git'
+- 'learn-the-command-line'
+- 'paths/computer-science'
 ```
 
 ### Go
 
 ```
-- "learn-go"
-- "paths/back-end-engineer-career-path"
-- "paths/computer-science"
+- 'learn-go'
+- 'paths/back-end-engineer-career-path'
+- 'paths/computer-science'
 ```
 
 ### HTML
 
 ```
-- "learn-html"
-- "paths/front-end-engineer-career-path"
+- 'learn-html'
+- 'paths/front-end-engineer-career-path'
 ```
 
 ### Java
 
 ```
-- "learn-java"
-- "paths/computer-science"
+- 'learn-java'
+- 'paths/computer-science'
 ```
 
 ### JavaScript
 
 ```
-- "introduction-to-javascript"
-- "paths/front-end-engineer-career-path"
+- 'introduction-to-javascript'
+- 'paths/front-end-engineer-career-path'
 ```
 
 ### Markdown
 
 ```
-- "learn-html"
-- "paths/front-end-engineer-career-path"
+- 'learn-html'
+- 'paths/front-end-engineer-career-path'
 ```
 
 ### PHP
 
 ```
-- "learn-php"
-- "paths/computer-science"
+- 'learn-php'
+- 'paths/computer-science'
 ```
 
 ### Python
 
 ```
-- "learn-python-3"
-- "paths/computer-science"
+- 'learn-python-3'
+- 'paths/computer-science'
 ```
 
 ### React
 
 ```
-- "react-101"
-- "paths/front-end-engineer-career-path"
+- 'react-101'
+- 'paths/front-end-engineer-career-path'
 ```
 
 ### Ruby
 
 ```
-- "learn-rails"
-- "learn-ruby"
-- "paths/full-stack-engineer-career-path"
+- 'learn-rails'
+- 'learn-ruby'
+- 'paths/full-stack-engineer-career-path'
 ```
 
 ### SQL
 
 ```
-- "learn-sql"
-- "paths/analyze-data-with-sql"
+- 'learn-sql'
+- 'paths/analyze-data-with-sql'
 ```
 
 ### Swift
 
 ```
-- "learn-swift"
-- "paths/build-ios-apps-with-swiftui"
+- 'learn-swift'
+- 'paths/build-ios-apps-with-swiftui'
 ```
 
 ### TypeScript
 
 ```
-- "learn-typescript"
-- "paths/full-stack-engineer-career-path"
+- 'learn-typescript'
+- 'paths/full-stack-engineer-career-path'
+```
+
+### UI/UX
+
+```
+- 'intro-to-ui-ux'
+- 'paths/front-end-engineer-career-path'
 ```
