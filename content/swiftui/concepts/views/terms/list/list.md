@@ -1,6 +1,6 @@
 ---
 Title: 'List'
-Description: 'A `List` is a  container that presents data arranged in a a column with the ability to select one or more items.'
+Description: 'A List is a  container that presents data arranged in a a column with the ability to select one or more items.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
