@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Enumeration (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values.
+Enumeration (enum) is a special user defined type where we specify a set of values for a variable and the variable can only take one out of a small set of possible values. Enumerations are classified as a [reference data type](https://www.codecademy.com/resources/docs/java/data-types#reference-data-types).
 
 The keyword `enum` is used to define an enumeration.
 

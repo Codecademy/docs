@@ -13,6 +13,8 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
+In Java, each variable has a property known as data type which determines what kind of data can be stored in that variable. Data types are divided into two categories, [primitive data types](#primitive-data-types) and [reference data types](#reference-data-types). Java is a [statically-typed](#static-typing) language.
+
 ## Primitive Data Types
 
 Java’s most basic data types are known as primitive data types and are in the system by default.
@@ -40,6 +42,17 @@ short no = 10;
 float k = (float)12.5;
 double pi = 3.14;
 ```
+
+## Reference Data Types
+Reference data types, also known as object data types, are data types which are defined by the user and are references to a specific object.
+
+Reference data types include:
+
+- Annotations - allow metadata to be associated with elements of a program
+- [Arrays](https://www.codecademy.com/resources/docs/java/arrays) - store elements of the same type
+- [Classes](https://www.codecademy.com/resources/docs/java/classes) - provide a template for object creation
+- [Enumeration](https://www.codecademy.com/resources/docs/java/enums) - stores fixed set of constants
+- [Interfaces](https://www.codecademy.com/resources/docs/java/interfaces) - store a template for a class
 
 ## Static Typing
 
