@@ -21,17 +21,15 @@ A **constructor** is a specially defined method in a C++ class that is automatic
 A constructor method is defined within a class by using the class name followed by parenthesis:
 
 ```cpp
-class MyClass
-{
-public:
-  MyClass()
-  {  // This defines a constructor that outputs a message
-    std::cout << "The constructor was executed!";
-  }
+class MyClass {
+  public:
+    // Define a constructor that outputs a message
+    MyClass() {
+      std::cout << "The constructor was executed!";
+    }
 };
 
-int main()
-{
+int main() {
   MyClass myObj;  // This calls the constructor
   return 0;
 }
@@ -40,53 +38,50 @@ int main()
 Using arguments in a constructor:
 
 ```cpp
-class Circle
-{
-public:
-  int X;
-  int Y;
-  int radius;
-  Circle (int a, int b, int c) {
-    X = a;
-    Y = b;
-    radius = c;
-  }
+class Circle {
+  public:
+    int X;
+    int Y;
+    int radius;
+
+    Circle (int a, int b, int c) {
+      X = a;
+      Y = b;
+      radius = c;
+    }
 };
 
-int main()
-{
+int main() {
   // Call the constructor using arguments
   Circle myCircle1(5,5,10);
   Circle myCircle2(0,0,5);
 
   // Print out the attribute values set for each object
   std::cout << "X=" << myCircle1.X << ", Y=" << myCircle1.Y << ", radius=" << myCircle1.radius << "\n";
+  // Output: X=5, Y=5, radius=10
+
   std::cout << "X=" << myCircle2.X << ", Y=" << myCircle2.Y << ", radius=" << myCircle2.radius << "\n";
+  // Output: X=0, Y=0, radius=5
 
   return 0;
 }
-
-// Output:
-// X=5, Y=5, radius=10
-// X=0, Y=0, radius=5
 ```
 
 Like member functions, once declared in the class, the constructor can be defined outside the class:
 
 ```cpp
-class Circle
-{
-public:
-  int X;
-  int Y;
-  int radius;
-  // Declare the constructor
-  Circle (int a, int b, int c);
+class Circle {
+  public:
+    int X;
+    int Y;
+    int radius;
+
+    // Declare the constructor
+    Circle (int a, int b, int c);
 };
 
 // Define constructor outside the class
-Circle::Circle (int a, int b, int c)
-{
+Circle::Circle(int a, int b, int c) {
   X = a;
   Y = b;
   radius = c;

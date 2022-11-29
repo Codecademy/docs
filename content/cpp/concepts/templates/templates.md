@@ -65,15 +65,15 @@ The following example creates a `myAdd` function that can use any type where the
 #include <iostream>
 using namespace std;
 
-template <class T> T myAdd(T x, T y)
-{
+template <class T> T myAdd(T x, T y) {
   T result;
+
   result = x + y;
+
   return result;
 }
 
-int main()
-{
+int main() {
   cout << myAdd <int> (3, 7) << endl;
   cout << myAdd <double> (3.5, 7.2) << endl;
   cout << myAdd <string> ("Hello", " World!") << endl;
@@ -129,8 +129,7 @@ template <class T>
 class myPair {
   T x, y;
 public:
-  myPair (T first, T second)
-  {
+  myPair (T first, T second) {
     x = first;
     y = second;
   }
@@ -144,8 +143,7 @@ public:
   }
 };
 
-int main()
-{
+int main() {
   myPair <int> intPair(3, 7);
   myPair <double> doublePair(3.5, 7.2);
   myPair <string> stringPair("Hello", " World!");

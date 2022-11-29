@@ -37,12 +37,10 @@ An `else` clause can be added to an `if` statement:
 - If the condition evaluates to `false`, code in the `else` part is executed.
 
 ```cpp
-if (year == 1991)
-{
+if (year == 1991) {
   // This runs if it is true
 }
-else
-{
+else {
   // This runs if it is false
 }
 ```
@@ -52,16 +50,13 @@ else
 One or more `else if` statements can be added in between the `if` and `else` to provide additional condition(s) to check.
 
 ```cpp
-if (apple > 8)
-{
+if (apple > 8) {
   // Some code here
 }
-else if (apple > 6)
-{
+else if (apple > 6) {
   // Some code here
 }
-else
-{
+else {
   // Some code here
 }
 ```
@@ -71,20 +66,16 @@ else
 ```codebyte/cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   double pH = 6.5;
 
-  if (pH < 7.0)
-  {
+  if (pH < 7.0) {
     std::cout << "Acidic" << "\n";
   }
-  else if (pH > 7.0)
-  {
+  else if (pH > 7.0) {
     std::cout << "Basic" << "\n";
   }
-  else
-  {
+  else {
     std::cout << "Neutral" << "\n";
   }
 }
@@ -97,8 +88,7 @@ A `switch` statement provides a means of checking an expression against various 
 `default` is executed when no case matches.
 
 ```cpp
-switch (grade)
-{
+switch (grade) {
   case 9:
     std::cout << "Freshman\n";
     break;

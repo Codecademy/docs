@@ -22,8 +22,7 @@ A `while` loop statement repeatedly executes the code block within as long as th
 Note that the while loop might not ever run. If the condition is false initially, the code block will be skipped.
 
 ```cpp
-while (password != 1234)
-{
+while (password != 1234) {
   std::cout << "Try again: ";
   std::cin >> password;
 }
@@ -40,8 +39,7 @@ A `for` loop executes a code block a specific number of times. It has three part
 This example prints 0 to 9 on the screen:
 
 ```cpp
-for (int i = 0; i < 10; i++)
-{
+for (int i = 0; i < 10; i++) {
   std::cout << i << "\n";
 }
 ```

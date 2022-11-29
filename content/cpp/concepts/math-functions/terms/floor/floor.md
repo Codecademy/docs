@@ -31,7 +31,7 @@ double result;
 result = std::floor(n);
 ```
 
-## Codecademy Example
+## Codebyte Example
 
 Use `floor()` to round down the double `12.3456`:
 
@@ -39,14 +39,12 @@ Use `floor()` to round down the double `12.3456`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double n = 12.3456;
   double result;
 
   result = std::floor(n);
 
   std::cout << "The result is " << result << "!\n";
-  // Output: The result is 12!
 }
 ```

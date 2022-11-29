@@ -35,16 +35,15 @@ The following example uses adds several values to `myStack` with the `.push()` m
 #include <stack>
 #include <string>
 
-int main()
-{
+int main() {
   std::stack<std::string> myStack;
+
   myStack.push("A");
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
 
-  while (!myStack.empty())
-  {
+  while (!myStack.empty()) {
     std::cout << ' ' << myStack.top();
     myStack.pop();
   }
