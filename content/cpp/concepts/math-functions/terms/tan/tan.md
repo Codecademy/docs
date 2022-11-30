@@ -36,8 +36,13 @@ int main() {
   result = std::tan(x);
 
   std::cout << "The tangent of " << x << " is " << result << ".\n";
-    // Output: The tangent of 0 is 0.
 }
+```
+
+This produces the following output:
+
+```shell
+The tangent of 0 is 0.
 ```
 
 ## Codebyte Example
