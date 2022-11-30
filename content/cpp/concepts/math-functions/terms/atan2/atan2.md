@@ -1,6 +1,6 @@
 ---
 Title: 'atan2()'
-Description: 'Returns the inverse tangent of a pair of x- and y-coordinates in radians.'
+Description: 'Returns the inverse tangent of a coordinate pair in radians.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -19,15 +19,15 @@ The **`atan2()`** function returns the inverse tangent of the quotient of a coor
 atan2(y, x)
 ```
 
-The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the `y` and `x` parameters can be `double`, `float` or `long double`.
+The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the `y` and `x` parameters can be `double`, `float`, or `long double`.
 
 - The return value has the range of [-π, π].
-- A negative value is returned if the first parameter is negative.
+- A negative value is returned if the `y` parameter is negative.
 - If both parameters are 0, then the value is 0.
 
 ## Example
 
-The following is an example of the `atan2()` function:
+The following is an example of the `atan2()` function and features an edge case:
 
 ```cpp
 #include <iostream>
@@ -38,7 +38,7 @@ int main() {
 
   std::cout << atan2(y, x) << std::endl;
 
-  x = 0.0, y = 0.0;   // Edge Case
+  x = 0.0, y = 0.0; // Edge Case
 
   std::cout << atan2(y, x) << std::endl;
   return 0;
@@ -49,11 +49,12 @@ This will produce the following output:
 
 ```shell
 1.10715
+0
 ```
 
 ## Codebyte Example
 
-The following example accepts [user input](https://www.codecademy.com/resources/docs/cpp/user-input) for the `x` and `y` parameters to be passed into the `atan2()` function:
+The following example is runnable and features a negative y-coordinate:
 
 ```codebyte/cpp
 #include <iostream>
