@@ -1,0 +1,59 @@
+---
+Title: 'ScrollView'
+Description: 'Scrollable view within the scrollable content region.'
+Subjects:
+  - 'Mobile Development'
+  - 'Computer Science'
+Tags:
+  - 'ScrollView'
+  - 'SwiftUI'
+  - 'SwiftUI Views'
+  - 'Views'
+CatalogContent:
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
+---
+
+The **`ScrollView`** display the content within the scrollable content region. Based on platform appropriate scroll gestures, or how the code works, the view can scroll vertically, horizontally or both.
+
+## Syntax
+
+```pseudo
+var body: some View {
+    ScrollView(.vertical) {
+        Subviews here
+    }
+}
+```
+
+```pseudo
+var body: some View {
+    ScrollView(.horizontal) {
+        Subviews here
+    }
+}
+```
+
+The `ScrollView` view rests within the body of a `View`.
+
+## Example
+
+In this example, a `ScrollView`, that will scroll horizontally, contains a `LazyHStack` that consists of columns stacked next to each other in the view:
+
+```swift
+var body: some View {
+    ScrollView(.horizontal) {
+        LazyHStack {
+            ForEach(1...100, id: \.self) {
+                Text("Column \($0)")
+            }
+        }
+    }
+}
+```
+
+- `ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the brackets can be omitted.
+
+This will display the following:
+
+![ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/lazyHStack-gif.gif)
