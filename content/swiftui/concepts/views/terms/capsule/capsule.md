@@ -21,7 +21,7 @@ The **`Capsule`** is one of SwiftUI pre-built shapes like rectangles, circle, el
 ```pseudo
 var body: some View {
     Capsule()
-    // modifiers
+        // Modifiers here
 }
 ```
 
