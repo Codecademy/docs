@@ -38,6 +38,9 @@ var body: some View {
 ```
 
 - `(style: .continuous)` makes the shape look more natural to the eye by giving continuity to the rounded borders.
+- `(style: .circular)` is another modifier that can be used, when omitting modifiers from `Capsule` this will be the native one
+
+The code-block above will display a Capsule filled with color red and the frame makes it `250` wide and `50` height.
 
 This will display the following:
 
