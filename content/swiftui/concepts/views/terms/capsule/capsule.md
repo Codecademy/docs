@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Capsule`** is one of SwiftUI pre-built shapes like rectangles, circle, ellipse which can be modified as wanted.
+The **`Capsule`** is one of SwiftUI pre-built shapes like [rectangle](https://www.codecademy.com/resources/docs/swiftui/views/rectangle), rounded rectangle, [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle), ellipse which can be modified as wanted.
 
 ## Syntax
 
