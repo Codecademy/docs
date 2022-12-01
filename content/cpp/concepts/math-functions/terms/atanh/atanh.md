@@ -71,7 +71,8 @@ int main()
 }
 ```
 
-Output:
+This example produces the following output:
+
 ```shell
 atanh(x) = 0.331647 radian
 atanh(x) = 19.002 degree
