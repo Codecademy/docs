@@ -35,18 +35,28 @@ In the example below, the `ScrollView` scrolls horizontally and contains a `Lazy
 
 ```swift
 var body: some View {
-    ScrollView(.horizontal) {
-        LazyHStack {
-            ForEach(1...100, id: \.self) {
-                Text("Column \($0)")
+    VStack {
+        ScrollView(.vertical) {
+            LazyVStack {
+                ForEach(0 ... 50, id: \.self) {
+                    Text("Row \($0)")
+                }
+            }
+        }
+
+        ScrollView(.horizontal) {
+            LazyHStack {
+                ForEach(0 ... 50, id: \.self) {
+                    Text("Row \($0)")
+                }
             }
         }
     }
 }
 ```
 
-- `ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the brackets can be omitted.
+- `ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the paramenter inside the brackets can be omitted.
 
 This will display the following:
 
-![ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/lazyHStack-gif.gif)
+![ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/scrollviews.gif)
