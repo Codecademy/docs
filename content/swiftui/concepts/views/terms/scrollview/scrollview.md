@@ -38,7 +38,7 @@ The `ScrollView` view rests within the body of a `View`.
 
 ## Example
 
-In this example, a `ScrollView`, that will scroll horizontally, contains a `LazyHStack` that consists of columns stacked next to each other in the view:
+In the example below, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
 
 ```swift
 var body: some View {
