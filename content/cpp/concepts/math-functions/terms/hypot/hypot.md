@@ -17,7 +17,7 @@ The **`hypot()`** function returns the value of the longest side of a right-angl
 ## Syntax
 
 ```pseudo
- hypot(float x, float y)
+hypot(float x, float y)
 ```
 
 The `hypot()` function finds the hypotenuse, the longest side of a right-angled triangle. The parameters `x` and `y` are the floating-point lengths of the other two sides.
