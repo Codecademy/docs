@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`atanh()`** function in C++ returns the arc hyperbolic tangent (inverse hyperbolic tangent) of a number in `radians`.The area hyperbolic tangent is the inverse operation of the hyperbolic tangent.
+The **`atanh()`** function in C++ returns the arc hyperbolic tangent (inverse hyperbolic tangent) of a number in radians.
 
 ## Syntax
 
