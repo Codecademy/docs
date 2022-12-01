@@ -16,35 +16,17 @@ The **`atanh()`** function in C++ returns the arc hyperbolic tangent (inverse hy
 ## Syntax
 
 ```pseudo
-atanh(data_type x)
+atanh(x)
 ```
 
-`x` is the value of mandatory argument in range `[-1,1]`.
+This function accepts one mandatory parameter `x` which lies in the range `[-1, 1]`. The parameter can be of `double`, `float`, or `long double` datatype.
 
-## Parameter
-
-This function accepts one mandatory parameter `x` which specifies the inverse hyperbolic angle in radian which lies in the range `[-1, 1]`. The parameter can be of `double`, `float`, or `long double` datatype.
-
-## Error Handling
-
-If the argument is not on the interval `[-1, +1]`, a range error occurs.
-
-If the argument is `±1`, a pole error occurs.
-
-If the argument is `±0`, it is returned `unmodified`.
-If the argument is `±1`, `±∞` is returned and `FE_DIVBYZERO` is raised.
-If |arg|>1, `NaN` is returned and `FE_INVALID` is raised.
-If the argument is `NaN`, `NaN` is returned.
-
-## Prototype [C++11 Standard]
-
-```cpp 
-double atanh(double x);
-float atanh(float x);
-long double atanh(long double x);
-// For integral type
-double atanh(T x);
-```
+- If the argument is not on the interval `[-1, +1]`, a range error occurs.
+- If the argument is `±1`, a pole error occurs.
+- If the argument is `±0`, it is returned `unmodified`.
+- If the argument is `±1`, `±∞` is returned and `FE_DIVBYZERO` is raised.
+- If |arg|>1, `NaN` is returned and `FE_INVALID` is raised.
+- If the argument is `NaN`, `NaN` is returned.
 
 ## Example
 
@@ -57,17 +39,16 @@ The following example uses `atanh()` to return the arc hyperbolic tangent (inver
 #define PI 3.141592654
 using namespace std;
 
-int main()
-{
-	double x = 0.32, result;
+int main() {
+  double x = 0.32, result;
 
-	result = atanh(x);
-	cout << "atanh(x) = " << result << " radian" << endl;
+  result = atanh(x);
+  cout << "atanh(x) = " << result << " radian" << endl;
 
-	// result in degrees
-	cout << "atanh(x) = " << result*180/PI << " degree" << endl;
+  // result in degrees
+  cout << "atanh(x) = " << result*180/PI << " degree" << endl;
 	
-	return 0;
+  return 0;
 }
 ```
 
@@ -89,16 +70,15 @@ The following example is runnable.
 #define PI 3.141592654
 using namespace std;
 
-int main()
-{
-	double x = 0.32, result;
+int main() {
+  double x = 0.32, result;
 
-	result = atanh(x);
-	cout << "atanh(x) = " << result << " radian" << endl;
+  result = atanh(x);
+  cout << "atanh(x) = " << result << " radian" << endl;
 
-	// result in degrees
-	cout << "atanh(x) = " << result*180/PI << " degree" << endl;
+  // result in degrees
+  cout << "atanh(x) = " << result*180/PI << " degree" << endl;
 	
-	return 0;
+  return 0;
 }
 ```
