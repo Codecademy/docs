@@ -19,7 +19,7 @@ The **`atanh()`** function in C++ returns the arc hyperbolic tangent (inverse hy
 atanh(data_type x)
 ```
 
-`x`: The value of mandatory argument in range `[-1,1]`.
+`x` is the value of mandatory argument in range `[-1,1]`.
 
 ## Parameter
 
