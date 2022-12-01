@@ -20,14 +20,6 @@ The **`ScrollView`** display the content within the scrollable content region. B
 
 ```pseudo
 var body: some View {
-    ScrollView(.vertical) {
-        Subviews here
-    }
-}
-```
-
-```pseudo
-var body: some View {
     ScrollView(.horizontal) {
         Subviews here
     }
@@ -35,6 +27,7 @@ var body: some View {
 ```
 
 The `ScrollView` view rests within the body of a `View`.
+`ScrollView` can accept two parameters, `.vertical` which is usually the standard if not specified, and `.horizontal` which makes the view scroll horizontally. 
 
 ## Example
 
