@@ -35,7 +35,7 @@ int main()
 {
   double x = 9, y = 10, res;
   res = hypot(x, y);
-  
+
   cout << res << endl;
   return 0;
 }
@@ -60,7 +60,7 @@ int main() {
   long double a, b, result;
   a = 4.525252;
   b = 5.767676;
-  
+
   result = hypot(a, b);
   cout << result;
   return 0;
