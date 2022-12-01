@@ -30,6 +30,7 @@ The following example uses the `hypot()` function to find the hypotenuse of a ri
 #include <cmath>
 #include <iostream>
 using namespace std;
+
 int main()
 {
     double x = 9, y = 10, res;
