@@ -47,7 +47,7 @@ int main() {
 
   // result in degrees
   cout << "atanh(x) = " << result*180/PI << " degree" << endl;
-	
+
   return 0;
 }
 ```
@@ -78,7 +78,7 @@ int main() {
 
   // result in degrees
   cout << "atanh(x) = " << result*180/PI << " degree" << endl;
-	
+
   return 0;
 }
 ```
