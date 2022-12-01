@@ -33,11 +33,11 @@ using namespace std;
 
 int main()
 {
-    double x = 9, y = 10, res;
-    res = hypot(x, y);
+  double x = 9, y = 10, res;
+  res = hypot(x, y);
   
-    cout << res << endl;
-    return 0;
+  cout << res << endl;
+  return 0;
 }
 ```
 
