@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **hypot()** function returns the value of the longest side of a right-angled triangle.
+The **`hypot()`** function returns the value of the longest side of a right-angled triangle.
 
 ## Syntax
 
