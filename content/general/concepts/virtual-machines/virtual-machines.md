@@ -47,4 +47,4 @@ VMs are flexible and can easily be migrated to different hypervisors or hosts. R
 
 ## Who Uses VMs?
 
-Nearly all software companies use VMs and other virtualization technology. They are a fundamental component of [cloud computing](https://www.codecademy.com/resources/docs/cloud-computing), [cybersecurity](https://www.codecademy.com/resources/docs/general/cybersecurity), and more.
+Nearly all software companies use VMs and other virtualization technology. They are a fundamental component of [cloud computing](https://www.codecademy.com/resources/docs/cloud-computing), [cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity), and more.
