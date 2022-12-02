@@ -29,6 +29,8 @@ This performs a scan of <target> without doing host discovery.
 
 The following shows the output of `nmap -Pn scanme.nmap.org`:
 
+> **Note:** `scanme.nmap.org` is a domain set up explicitly for people to test Nmap with.
+
 ```shell
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 12:14 Eastern Standard Time
 Nmap scan report for scanme.nmap.org (45.33.32.156)
