@@ -15,7 +15,7 @@ CatalogContent:
 
 A Nmap **no ping scan** prevents Nmap from doing any host discovery. It is specified with the -Pn option. By default, Nmap only probes active machines found via host discovery. With this option selected, Nmap will do the requested scanning functions against every target IP specified, as if every one is active. This is done when it is important to find every possible active machine, including ones that may not be responsive to host discovery.
 
-> Note: This option is often combined with a [no port scan (-sn)](https://www.codecademy.com/resources/docs/cybersecurity/nmap/no-port-scan).
+> **Note:** This option is often combined with a [no port scan (-sn)](https://www.codecademy.com/resources/docs/cybersecurity/nmap/no-port-scan).
 
 ## Syntax
 
