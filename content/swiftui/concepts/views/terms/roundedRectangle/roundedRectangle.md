@@ -1,5 +1,5 @@
 ---
-Title: 'Rounded Rectangle'
+Title: 'RoundedRectangle'
 Description: 'A rectangular shape with rounded corners inside the frame of the view containing it.'
 Subjects:
   - 'Mobile Development'
