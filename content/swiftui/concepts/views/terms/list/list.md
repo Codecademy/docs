@@ -27,7 +27,7 @@ var body: some View {
 
 ## Example
 
-In the example below, a `List` pulls the data from a variable called `continents` that contains an array of `Strings` then displays them in a column:
+In the example below, a `List` pulls the data from the `continents` variable that contains an array of `Strings` and then displays them into a single column:
 
 ```swift
 var continents = ["Africa", "Antartica", "Asia", "Europe", "North America", "Oceania", "South America"]
