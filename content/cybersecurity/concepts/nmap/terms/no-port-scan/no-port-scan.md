@@ -1,6 +1,6 @@
 ---
 Title: 'No Port Scan'
-Description: ''
+Description: 'A Nmap no port scan prevents Nmap from doing a port scan after host discovery.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
