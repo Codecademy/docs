@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`List`** view arranges its elements in a column. It can be either static, when hard-coding the data into the list, or dynamic, when the list pulls the data from an array.
+The **`List`** view arranges its elements into a column. It can be either static, when hard-coding the data into the list, or dynamic, when the data is pulled from an [array](https://www.codecademy.com/resources/docs/swift/arrays).
 
 ## Syntax
 
