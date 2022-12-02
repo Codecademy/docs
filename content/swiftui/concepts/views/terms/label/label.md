@@ -1,6 +1,6 @@
 ---
 Title: 'Label'
-Description: 'A label is a standard user interface component that includes an icon and a title.'
+Description: 'Creates a component that includes an icon and a title.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
@@ -20,14 +20,17 @@ A **`label`** is a standard user interface component that includes an icon and a
 ## Syntax
 
 ```pseudo
-Label("Lightning", systemImage: "bolt.fill")
+Label(myLabelName, systemImage: myImage)
 ```
 
-A `Label` can be a stand-alone component. It has modifiers where it can display just the icon, text, both or automatically adjust based on the space available.
+- A `Label` can be a stand-alone component.
+- `myLabelName` is a string that will be displayed on the label as text.
+- `myImage` is a string that will be displayed on the label as an image.
+- `ViewModifiers` can be used to display just the icon, text, both, or automatically adjust based on the space available.
 
 ## Example
 
-The following example displays a `Text` view that represents a number and two `Buttons`. The first one uses a `Label` and the second one is a broken down version of what `Label` actually does:
+The following example displays a `Text` view that represents a number and two `Button`s. The first `Button` uses a `Label` and the second one is a broken down version of what `Label` actually accomplishes:
 
 ```swift
 @State private var score = 0
@@ -54,7 +57,7 @@ var body: some View {
 }
 ```
 
-Each time the user presses one of the two `Button` views, the `score` above will increase or reduce by `1`.
+Each time the user clicks either the top or bottom button, the `score` above will increase or reduce, respectively, by `1`.
 
 This will display the following:
 
