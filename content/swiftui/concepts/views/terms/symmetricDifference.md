@@ -1,0 +1,40 @@
+---
+Title: 'Text'
+Description: 'Returns a new set with the elements.'
+Subjects:
+  - 'Software Development'
+  - 'Mobile Development'
+  - 'Computer Science'
+Tags:
+  - 'SwiftUI'
+  - 'SwiftUI Views'
+  - 'Buttons'
+  - 'Terms'
+CatalogContent:
+  - 'learn-swiftui'
+  - 'paths/build-ios-apps-with-swiftui'
+---
+
+A **symmetricDifference** in [SwiftUI](https://www.codecademy.com/resources/docs/swiftui) returns a new set with the elements that are either in the set or in the given
+sequence, but not in both.
+
+## Syntax
+```pseudo
+func symmetricDifference<S>(_other: S) -> Set<Element> where Element == S.Element, S:Sequence
+```
+
+Available when *Element* conforms to *Hashable*
+  
+
+## Example
+The following example adds the text Codecademy is Awesome on the display screen.
+
+```swift
+let food: Set = ["Apple", "Banana", "Orange", "Peach"]
+let colors = ["Green", "Blue", "Orange", "Peach"]
+let eitherFoodOrColor = food.symmetricDifference(colors)
+```
+This will display the following:
+```psuedo
+["Banana", "Green", "Apple", "Blue"]
+```
