@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Ellipse`** is one of SwiftUI pre-built shapes like rectangles, circle, capsule which can be modified as wanted.
+The **`Ellipse`** is one of SwiftUI pre-built shapes like rectangles, circles, and capsules which can be modified as wanted.
 
 ## Syntax
 
