@@ -12,7 +12,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-The **remainder()** function returns the floating-point remainder resulting from the division of the arguments provided (rounded to the nearest number).
+The **`remainder()`** function returns the floating-point remainder resulting from the division of the arguments provided (rounded to the nearest number).
 
 ## Syntax
 
