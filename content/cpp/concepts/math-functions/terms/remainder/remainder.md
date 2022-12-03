@@ -1,6 +1,6 @@
 ---
 Title: 'remainder()'
-Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number)'
+Description: 'Returns the floating-point remainder of numerator/denominator (rounded to the nearest number).'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -12,7 +12,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-The **remainder()** function returns the floating-point remainder resulting from the division of the arguments provided.
+The **remainder()** function returns the floating-point remainder resulting from the division of the arguments provided (rounded to the nearest number).
 
 ## Syntax
 
@@ -49,11 +49,11 @@ Remainder of 33.2 / 13 is -5.8
 Remainder of 9 / 2 is 1
 ```
 
-In the first call to the remainder() function, the n value is 33.2 / 13 (2.55) which is rounded to the nearest integral value, 3. This is then multiplied by the denominator, 13, and the product is subtracted from the numerator, 33.2. The other call to the remainder() function involves a halfway case, where the n value (9 / 2) equates to 4.5 and is rounded down to 4, the nearest even number.
+In the first call to the `remainder()` function, the `n` value is 33.2 / 13 (2.55) which is rounded to the nearest integral value, 3. This is then multiplied by the denominator, 13, and the product is subtracted from the numerator, 33.2. The other call to the `remainder()` function involves a halfway case, where the `n` value (9 / 2) equates to 4.5 and is rounded down to 4, the nearest even number.
 
 ## Codebyte Example
 
-The following example is runnable and produces the remainder of 7.3 / 2
+The following example is runnable and produces the remainder of 7.3 / 2:
 
 ```codebyte/cpp
 #include <iostream>
