@@ -1,6 +1,6 @@
 ---
-Title: 'Modifiers'
-Description: 'Modifiers are methods that can alter views.'
+Title: 'ViewModifier'
+Description: 'ViewModifiers are methods that can alter views.'
 Subjects:
  - 'Mobile Development'
  - 'Computer Science'
@@ -12,13 +12,11 @@ CatalogContent:
  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), **Modifiers** are methods that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views).
+In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **ViewModifier** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method  returns a new, altered `View`, that will replace the originally created `View`.
 
 ## Syntax
 
-A `modifier` is a method that when called on a `View`, returns a new, altered `View`, that will replace the original `View` created. Built in `modifiers` such as `.bold()`, come built-in with Swift and all `Views` have access to these methods. `.bold()` can be used like so:
-
-```psuedo
+```pseudo
 struct MyView: View {
     var body: some View {
         VStack {
@@ -30,7 +28,7 @@ struct MyView: View {
 }
 ```
 
-Here the `.bold()` `modifier` is being called on the text: `Text("Hello World")`, which, replaces the original "Hello World" text with a new "**Hello World**" text. In this way the `modifier` method `.bold()` has been called on a view, and returned a new, altered view.
+Here, the `.bold()` modifier is called on the `"Hello World"` string in the `Text` view that replaces the original text with a bolded version of it. This ultimately returns a new and altered `Text` view.
 
 ## Example
 
@@ -62,8 +60,8 @@ struct ContentView: View {
 }
 ```
 
-Each time a user presses the Button, the variable `codingStreakCount` will increase by one.
+Each time a user clicks the `Button`, the value of the `codingStreakCount` variable will increases by one.
 
 This code creates this output:
 
-![alt text](https://github.com/AustinWheel/firstRep/blob/main/ExampleCode.png)
+![alt text](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.png)
