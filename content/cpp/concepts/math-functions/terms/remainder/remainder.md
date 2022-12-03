@@ -23,6 +23,7 @@ remainder(numerator, denominator)
 The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value will either be a `double`, `float`, or `long`. Combinations of these types will return a `double`.
 
 The remainder is `numerator - n \* denominator`, where `n` is the result of `numerator / denominator` rounded to the nearest integral value.
+
 - If `n` is a halfway case, it is rounded toward the nearest even number (e.g., 2.5 becomes 2, 5.5 becomes 6).
 - If the return value is zero, it will have the same sign as `numerator`.
 - If `denominator` is zero, either zero will be returned or a domain error will be thrown (depending on the C++ implementation being used).
