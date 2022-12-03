@@ -45,7 +45,7 @@ This produces the following output:
 
 ```shell
 Remainder of 33.2 / 13 is -5.8
-Remainder of 9/ 2 is 1
+Remainder of 9 / 2 is 1
 ```
 
 ## Codebyte Example
