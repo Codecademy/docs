@@ -36,7 +36,7 @@ Some of the most commonly used pseudo-classes are:
 |:active | This is used to style an element when it is clicked.|
 |:focus | This is used to highlight elements when they are selected or focused on by the user.|
 |:visited | This is used to style elements that have been previously visited.|
-|:first-child |  This is used to style an element that is the first-child of its parent element.|
+|:first-child |  This is used to style an element that is the first child of its parent element.|
 |:last-child | This is used to style an element that is the last-child of its parent element.|
 |:not | This is used to target elements that do not match a given selector. |
 |:enabled | This is used to style an element when it is enabled.|
