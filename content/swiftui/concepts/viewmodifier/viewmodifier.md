@@ -2,17 +2,17 @@
 Title: 'ViewModifier'
 Description: 'ViewModifiers are methods that can alter views.'
 Subjects:
- - 'Mobile Development'
- - 'Computer Science'
+  - 'Mobile Development'
+  - 'Computer Science'
 Tags:
- - 'SwiftUI'
- - 'SwiftUI Modifiers'
+  - 'SwiftUI'
+  - 'SwiftUI Modifiers'
 CatalogContent:
- - 'learn-swift'
- - 'paths/build-ios-apps-with-swiftui'
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **ViewModifier** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method  returns a new, altered `View`, that will replace the originally created `View`.
+In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **ViewModifier** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method returns a new, altered `View`, that will replace the originally created `View`.
 
 ## Syntax
 
