@@ -55,12 +55,10 @@ The following example is runnable and produces the remainder of 7.3 / 2
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
-int main ()
-{
-  cout << "Remainder of 7.3 / 2 is " << remainder(33.2, 13) << endl;
+int main () {
+  cout << "Remainder of 7.3 / 2 is " << remainder(7.3, 2) << endl;
   return 0;
 }
 ```
