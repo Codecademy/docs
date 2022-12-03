@@ -32,13 +32,11 @@ The remainder is `numerator - n \* denominator`, where `n` is the result of `num
 ```cpp
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
-int main ()
-{
+int main () {
   cout << "Remainder of 33.2 / 13 is " << remainder(33.2, 13) << endl;
-  cout << "Remainder of 9/ 2 is " << remainder(9, 2) << endl;
+  cout << "Remainder of 9 / 2 is " << remainder(9, 2) << endl;
   return 0;
 }
 ```
