@@ -62,5 +62,3 @@ int main () {
   return 0;
 }
 ```
-
-This example produces a result of -0.7 as 7.3/2 = 3.65, which rounded to the nearest integral value is 4. Thus, remainder = 7.3 - 4\*2 = -0.7.
