@@ -62,4 +62,4 @@ Each time a user clicks the `Button` labeled `"Coding Streak:"`, the value of th
 
 This code creates this output:
 
-![SwiftUI Modifier](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.png)
+![SwiftUI Modifier](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.gif)
