@@ -12,23 +12,19 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **ViewModifier** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method returns a new, altered `View`, that will replace the originally created `View`.
+In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **`ViewModifier`** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method returns a new, altered `View`, that will replace the originally created `View`.
 
 ## Syntax
 
 ```pseudo
 struct MyView: View {
     var body: some View {
-        VStack {
-            Text("Hello World")
-                .bold()
-                //Modifier methods like .bold() can be called underneath a text, button or even a View.
-        }
+        // View(s) here
+            // Modifier methods like .bold() can be called underneath a View.
+            // Multiple modifiers can be chained using dot notation.
     }
 }
 ```
-
-Here, the `.bold()` modifier is called on the `"Hello World"` string in the `Text` view that replaces the original text with a bolded version of it. This ultimately returns a new and altered `Text` view.
 
 ## Example
 
@@ -40,28 +36,30 @@ import SwiftUI
 struct ContentView: View {
     var nameText: String = "Sam"
     @State var codingStreakCount = 0
+
     var body: some View {
         VStack {
             Text("Hello \(nameText)")
                 .font(.title)
                 .bold()
                 .multilineTextAlignment(.center)
+
             Button("Coding Streak: \(codingStreakCount)") {
                 self.codingStreakCount += 1
             }
-            .padding()
-            .overlay(
-                RoundedRectangle(cornerRadius: 16)
-                    .stroke(.brown, lineWidth: 4))
+                .padding()
+                .overlay(
+                    RoundedRectangle(cornerRadius: 16)
+                        .stroke(.brown, lineWidth: 4))
         }
-        .foregroundColor(.brown)
-        .padding()
+            .foregroundColor(.brown)
+            .padding()
     }
 }
 ```
 
-Each time a user clicks the `Button`, the value of the `codingStreakCount` variable will increases by one.
+Each time a user clicks the `Button` labeled `"Coding Streak:"`, the value of the `codingStreakCount` variable will increases by one.
 
 This code creates this output:
 
-![alt text](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.png)
+![SwiftUI Modifier](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.png)
