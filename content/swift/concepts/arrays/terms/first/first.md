@@ -31,12 +31,14 @@ The `.first()` method takes one argument:
 ```swift
 var values = [3,4,5,6,7]
 
-let greaterThanFive  = values.first(where: { $0 > 5 })
+let greaterThanFive = values.first(where: { $0 > 5 })
 
-print(greaterThanFive)
+print(greaterThanFive!) // Force unwrapping optional
 ```
 
-In the example above, the `.first()` method is searching through the `values` array. The `.first()` method has a condition that is looking for items greater than `5`. This will output the first item in the array that is greater than `5`:
+In the example above, the `.first()` method is searching through the `values` array. The condition is if an item in the array is greater than `5` and will return the first item that meets that condition.
+
+This will output:
 
 ```shell
 6
@@ -52,7 +54,7 @@ The **`.first`** property returns the first element of the array.
 arrayName.first
 ```
 
-> **Note:** The `.first` property returns an optional value that should be unwrapped. There are different techniques to [unwrap optionals](https://www.codecademy.com/resources/docs/swift/optionals).
+> **Note:** The `.first` property returns an optional value that should be unwrapped. There are different techniques to unwrap [optionals](https://www.codecademy.com/resources/docs/swift/optionals).
 
 ### Example
 
@@ -62,11 +64,11 @@ var numbers = [5, 1, 8, 4]
 print(numbers.first!)
 ```
 
-In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. The `!` forces the expression to unwrap the value of the returned first element.
+In the example above, the `.first` property of the `numbers` array is printed out. The `.first` property will return the first item of the `numbers` array as an optional value. `!` forces the expression to unwrap the value of the returned first element.
 
 > **Note:** Force unwrapping optionals in this way is not recommended because it does not handle `nil` cases.
 
-After unwrapping the value of the returned first element the output will be:
+After unwrapping the value of the returned first element, the output will be:
 
 ```shell
 5
