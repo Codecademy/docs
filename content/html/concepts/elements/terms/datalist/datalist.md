@@ -1,18 +1,18 @@
 ---
 Title: '<datalist>'
-Description: A document going over the HTML datalist element
+Description: A description of HTML datalist element. 
 Subjects: 
 -'Computer Science'
+-'Web Design'
 -'Web Development'
--'HTML'
--'Web App'
--'User Input'
--'HTML Elements'
 Tags:
--'HTML'
--'elements'
+-'Elements'
+-'Form'
+-'Id'
+'Input'
+-'Lists'
+'Values'
 CatalogContent: 
 -'learn-html'
--'paths/computer-science'
--'html/elements'
+-'paths/front-end-engineer-career-path'
 ---
