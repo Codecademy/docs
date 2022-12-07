@@ -27,6 +27,7 @@ The `.first()` method takes a single `condition` parameter. It is a [closure](ht
 ## Example
 
 ```swift
+
 var values = [3, 4, 5, 6, 7]
 
 let greaterThanFive = values.first(where: { $0 > 5 })
