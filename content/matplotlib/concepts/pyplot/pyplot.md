@@ -22,3 +22,11 @@ import matplotlib.pyplot as plt
 ```
 
 The `pyplot` module is made available in an `import` statement and usually under an alias like `plt`.
+
+## Common plotting commands
+- `bar` Make a bar plot.
+- `boxplot` Draw a box and whisker plot.
+- `hist` Compute and plot a histogram.
+- `pie` Plot a pie chart.
+- `scatter` A scatter plot of y vs.
+
