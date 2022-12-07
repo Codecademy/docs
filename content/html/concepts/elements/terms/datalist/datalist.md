@@ -28,3 +28,28 @@ A <datalist> is linked to a an <input> element by matching the list attribute of
 
 
 
+##Example
+
+The following example showcases a datalist that autosuggests different highschool subjects. Notice how the input tag and datalist are linked by matching values for the list attribute and id attribute for the input tag and datalist tag respectively. 
+
+```HTML
+<html>
+    <head>
+        <title>Learning About Datalists</title>
+    <head>
+    <body>
+        <input list="subjects" name="school-subjects" id="highschool">
+        <datalist id="subjects">
+            <option value="English">
+            <option value="Math">
+            <option value="History">
+            <option value="Physics">
+            <option value="Biology">
+            <option value="Economics">
+        <datalist>
+    <body>
+</html>
+```
+
+
+
