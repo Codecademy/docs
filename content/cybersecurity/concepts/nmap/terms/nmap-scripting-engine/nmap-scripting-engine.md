@@ -25,10 +25,10 @@ The scripting engine is activated with the `-sC` option. The `--script` option c
 
 The following options are related to NSE:
 
-- `-sC`: enables the most common scripts.
-- `--script`: chooses scripts by category, directory, or individual script filename.
-- `--script-args` and `script-args-file`: provide arguments to scripts that use/require them.
-- `--script-help`: shows a description of what each selected script does.
+- `-sC`: Enables the most common scripts.
+- `--script`: Chooses scripts by category, directory, or individual script filename.
+- `--script-args` and `script-args-file`: Provides arguments to scripts that use/require them.
+- `--script-help`: Shows a description of what each selected script does.
 
 Scripts are generally run with a port scan because the state of each port may determine if a script runs or not. It is possible to run scripts without a port scan, using only host discovery, with the `-sn` option. In this case, only host scripts will run. To run without a port scan or host discovery, use `-Pn -sn`. Every host will be assumed up and only host scripts will run.
 
