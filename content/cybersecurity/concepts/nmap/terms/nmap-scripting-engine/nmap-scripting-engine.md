@@ -17,7 +17,7 @@ The **Nmap Scripting Engine (NSE)** allows the writing of scripts that automate 
 
 The embedded Lua programming language is used to write scripts for Nmap. The reference manual for Lua version 5.3 is available [freely online](http://www.lua.org/manual/5.3/).
 
-The scripting engine is activated with the `-sC` option. The `--script` option can be used to specify a custom set of scripts. The results are integrated into Nmap's output.
+The NSE is activated with the `-sC` option. The `--script` option can be used to specify a custom set of scripts. The results are integrated into Nmap's output.
 
 > **Note:** Scripts should never be run from untrusted third parties, as they can accidentally or maliciously damage the system or invade the user's privacy.
 
