@@ -1,6 +1,6 @@
 ---
 Title: 'Aggressive Scan'
-Description: 'An aggressive scan provides far better information than a standard scan, but is more likely to be detected.'
+Description: 'Provides far better information than a standard scan, but is more likely to be detected.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
