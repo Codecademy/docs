@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<section>`** HTML element defines elements in a document, such as chapters, headings or any other area of the document with a common theme.
+The **`<section>`** element defines elements in a document, such as chapters, headings or any other area of the document with a common theme.
 
 For example, content with the same theme such as articles about cricket can go under a single `<section>`. A website’s home page could be split into sections for the introduction, news items, and contact information.
 
@@ -35,7 +35,7 @@ In the following code, we created a `<section>` element to encapsulate the code.
   </article>
 </section>
 ```
-  
+
 ## Example
 
 Suppose the current page wants to add two sections:
@@ -66,9 +66,9 @@ Suppose the current page wants to add two sections:
 ## Alternatives to `<section>`
 
 There are also examples where we can use other elements that semantically fit better than the `<section>` element.
-  
+
 - The [`<header>`](https://www.codecademy.com/resources/docs/html/semantic-html/header) element which can be used to describe that the content inside is the header of the page.
-  
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -78,7 +78,7 @@ There are also examples where we can use other elements that semantically fit be
     <header>
       <h1>Welcome to my site!</h1>
     </header>
-      
+
     <!-- Content of the page -->
     <section></section>
     <section></section>
@@ -87,7 +87,7 @@ There are also examples where we can use other elements that semantically fit be
 ```
 
 - The [`<nav>`](https://www.codecademy.com/resources/docs/html/semantic-html/nav) element. It is used to describe that the content inside is a navigation system of the page.
-  
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -101,14 +101,14 @@ There are also examples where we can use other elements that semantically fit be
         <li>Profile</li>
       </ul>
     </nav>
-    
+
     <!-- Content of the page -->
     <section></section>
     <section></section>
   </body>
 </html>
 ```
-  
+
 - The [`<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main) element which is used to describe that the content inside is the main content of the page.
 
 ```html
@@ -120,7 +120,7 @@ There are also examples where we can use other elements that semantically fit be
     <header>
       <h1>Welcome to my site!</h1>
     </header>
-    
+
     <!-- Main content of the page -->
     <main>
       <section></section>
@@ -129,7 +129,7 @@ There are also examples where we can use other elements that semantically fit be
   </body>
 </html>
 ```
-  
+
 - The [`<footer>`](https://www.codecademy.com/resources/docs/html/semantic-html/footer) element which is used to describe that the content inside is the footer of the page.
 
 ```html
@@ -141,13 +141,13 @@ There are also examples where we can use other elements that semantically fit be
     <header>
       <h1>Welcome to my page!</h1>
     </header>
-    
+
     <!-- Main content of the page -->
     <main>
       <section></section>
       <section></section>
     </main>
-    
+
     <!-- Footer of the page -->
     <footer>
       <p>by: User</p>
