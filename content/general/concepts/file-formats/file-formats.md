@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-**File formats** determine how information or data, such as text and images, are created, stored, and read. Each file format has a unique extension. For example, a CSV (Comma Separated Values) file has the extension **.csv**.
+**File formats** determine how information or data, such as text and images, are created, stored, and read. Each file format has a unique extension. For example, a CSV (Comma Separated Values) file has the extension **.csv**. The terms "file format" and "file type" are often used interchangeably.
 
 Certain formats are designed to compress data for fast processing. Others may contain more features, like how XLSX (Microsoft Excel) files can contain graphs and charts along with table data, whereas a CSV file can only contain plain table data.
 
@@ -20,7 +20,7 @@ Files can also be converted to other formats, however, some features for data di
 
 ## Types of File Formats
 
-File formats exist for different types of files. Some common file types and formats are listed below:
+File formats exist for different types of files. Some common file formats are listed below:
 
 ### Programming File Formats
 
