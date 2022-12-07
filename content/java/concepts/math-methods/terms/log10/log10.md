@@ -1,5 +1,5 @@
 ---
-Title: 'Math.log10()'
+Title: '.log10()'
 Description: 'Returns the logarithm base 10 of a double value as a parameter.'
 Subjects:
   - 'Computer Science'
