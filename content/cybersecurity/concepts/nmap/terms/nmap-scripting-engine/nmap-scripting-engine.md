@@ -1,6 +1,6 @@
 ---
 Title: 'Nmap Scripting Engine'
-Description: 'The Nmap Scripting Engine (NSE) allows the writing of scripts that automate a wide variety of tasks.'
+Description: 'Allows for the writing of scripts that automate a wide variety of tasks.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
