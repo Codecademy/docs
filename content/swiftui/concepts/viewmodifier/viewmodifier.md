@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **`ViewModifier`** is a method that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). This method returns a new, altered `View`, that will replace the originally created `View`.
+In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **`ViewModifier`** is a protocol that can be called on a particular [View](https://www.codecademy.com/resources/docs/swiftui/views). Modifier methods adhere to the protocol and return a new, altered `View`, that will replace the originally created `View`.
 
 ## Syntax
 
@@ -28,38 +28,24 @@ struct MyView: View {
 
 ## Example
 
-The following example displays a text, "Hello Sam", where nameText is the name of a user, and contains a button that increases `codingStreakCount` each time that the Button is pressed.
+The following example displays some text.
 
 ```swift
 import SwiftUI
 
 struct ContentView: View {
-    var nameText: String = "Sam"
-    @State var codingStreakCount = 0
+    var name: String = "Sam"
 
     var body: some View {
-        VStack {
-            Text("Hello \(nameText)")
-                .font(.title)
-                .bold()
-                .multilineTextAlignment(.center)
-
-            Button("Coding Streak: \(codingStreakCount)") {
-                self.codingStreakCount += 1
-            }
-                .padding()
-                .overlay(
-                    RoundedRectangle(cornerRadius: 16)
-                        .stroke(.brown, lineWidth: 4))
-        }
-            .foregroundColor(.brown)
-            .padding()
+        Text("Hello \(name)")
+            .font(.title)
+            .bold()
     }
 }
 ```
 
-Each time a user clicks the `Button` labeled `"Coding Streak:"`, the value of the `codingStreakCount` variable will increases by one.
+In the example above, the `.font()` and `.bold()` modifiers are called on a `Text` `View`. In addition, a built-in text style, `.title` property, is passed into the `.font` modifier.
 
-This code creates this output:
+This will display:
 
-![SwiftUI Modifier](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-modifier.gif)
+![SwiftUI Modifier](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier.png)
