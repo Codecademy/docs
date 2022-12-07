@@ -19,7 +19,7 @@ The embedded Lua programming language is used to write scripts for Nmap. The ref
 
 The scripting engine is activated with the `-sC` option. The `--script` option can be used to specify a custom set of scripts. The results are integrated into Nmap's output.
 
-> **Note:** Scripts can accidentally or maliciously damage your system or invade your privacy. Never run scripts from untrusted third parties.
+> **Note:** Scripts should never be run from untrusted third parties, as they can accidentally or maliciously damage the system or invade the user's privacy.
 
 ## Options
 
