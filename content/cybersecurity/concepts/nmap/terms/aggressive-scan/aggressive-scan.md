@@ -13,7 +13,14 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-An **aggressive scan** provides far better information than a [regular scan](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan), but is more likely to be detected. It is performed by using the `-A` option. The aggressive scan enables OS detection, version detection, script scanning, and traceroute. It sends out more probes than a regular scan, so it is more likely to be detected during a security audit.
+An **aggressive scan** provides far better information than a [regular scan](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan), but is more likely to be detected. It is performed by using the `-A` option and enables the following:
+
+- OS detection (`-o`)
+- Version detection (`-sV`)
+- Script scanning (`-sC`)
+- Traceroute (`--traceroute`)
+
+Aggressive scans send out more probes than a regular scan, and are more likely to be detected during a security audit.
 
 ## Syntax
 
