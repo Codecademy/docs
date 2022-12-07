@@ -31,7 +31,7 @@ The following example runs an aggressive scan on the site `scanme.nmap.org`:
 nmap -A scanme.nmap.org
 ```
 
-> **Note:** The site `scanme.nmap.org` is a site explicitly set up for testing Nmap. Only perform scans on domains you have explicit permission to scan.
+> **Note:** This is a site explicitly set up for testing Nmap. Scans should only be performed on domains with explicit permissions given to the user.
 
 This results in the following output:
 
