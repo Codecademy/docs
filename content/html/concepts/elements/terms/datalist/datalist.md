@@ -26,7 +26,14 @@ CatalogContent:
 
 A <datalist> is linked to a an <input> element by matching the list attribute of the <input> element with the id attribute of the <datalist> like the following:
 
+```pseudo
+Add a input element and add a list element with a value
 
+Add a datalist element. Make the id attribute eqeal to the value of the list attribute of the input element.
+
+In between the datalist tags, add option elements of your choice. Value atrribute determines what will be autosuggested. 
+
+```
 
 ##Example
 
