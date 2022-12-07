@@ -27,7 +27,7 @@ The above conducts an aggressive scan on `<target>`.
 
 The following example runs an aggressive scan on the site `scanme.nmap.org`:
 
-````shell
+```shell
 nmap -A scanme.nmap.org
 
 > **Note:** The site `scanme.nmap.org` is a site explicitly set up for testing Nmap. Only perform scans on domains you have explicit permission to scan.
