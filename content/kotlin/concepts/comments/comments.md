@@ -50,7 +50,7 @@ println("The line above is a double line comment");
 
 The code in the following that is not commented out will execute when the program is run:
 
-```codebyte/kotlin
+```kotlin
 /*
 Arithmetic Operation
 Written by Ebube
