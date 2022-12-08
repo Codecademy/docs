@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An array is a collection of stored data that can hold values of various data type. Arrays themselves are considered to be a composite [data type](https://www.codecademy.com/resources/docs/general/data-types). Python uses [lists](https://www.codecademy.com/resources/docs/python/lists) as an equalivalent type.
+An **array** is a collection of stored data that can hold values of various data type. Arrays themselves are considered to be a composite [data type](https://www.codecademy.com/resources/docs/general/data-types). Python uses [lists](https://www.codecademy.com/resources/docs/python/lists) as an equalivalent type.
 
 ## Syntax
 

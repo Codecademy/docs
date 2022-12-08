@@ -9,4 +9,4 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/example-path'
 ---
 
-[Text description] <!-- # Write up an introductory description of the language/framework here! -->
+[Text description - make sure first mention of topic is in **bold**.] <!-- # Write up an introductory description of the language/framework here! -->

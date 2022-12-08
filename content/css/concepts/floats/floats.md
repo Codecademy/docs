@@ -11,15 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `float` property moves an element to the left or right within its containing element, outside of the default [positioning](https://www.codecademy.com/resources/docs/css/position).
+The **`float`** property moves an element to the left or right within its containing element, outside of the default [positioning](https://www.codecademy.com/resources/docs/css/position).
 
 ## Syntax
-
-The `float` property primarily uses the following three values:
-
-- The `left` value that makes the element float on the left of its container.
-- The `right` value that makes the element float on the right of its container.
-- The `none` value that causes the element not to float.
 
 ```pseudo
 .item_x {
@@ -35,6 +29,12 @@ The `float` property primarily uses the following three values:
 }
 ```
 
+The `float` property primarily uses the following three values:
+
+- The `left` value that makes the element float on the left of its container.
+- The `right` value that makes the element float on the right of its container.
+- The `none` value that causes the element not to float.
+
 ## Example
 
 ```html
@@ -48,7 +48,7 @@ The `float` property primarily uses the following three values:
   <br />
   <br />
   <br />
-  <p>This example shows CSS floats and I wont float at all.</p>
+  <p>This example shows CSS floats and I will not float at all.</p>
 </section>
 ```
 

@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Encapsulation is a way of organizing data members (attributes) and function members (methods) by wrapping them together in a single class. By bundling them together in a single unit, the code is cleaner, more readable, and more maintainable.
+**Encapsulation** is a way of organizing data members (attributes) and function members (methods) by wrapping them together in a single class. By bundling them together in a single unit, the code is cleaner, more readable, and more maintainable.
 
 ```pseudo
 class Example {
@@ -24,13 +24,14 @@ Here's a `Rectangle` class with `length` and `width` attributes and a `.Area()` 
 
 ```cpp
 class Rectangle {
-  public:
-    int length;
-    int width;
+public:
+  int length;
+  int width;
 
-    int Area() {
-      return length * width;
-    }
+  int Area()
+  {
+    return length * width;
+  }
 };
 ```
 
@@ -48,24 +49,28 @@ Data hiding is achieved by declaring class attributes as `private`:
 ```cpp
 #include <iostream>
 
-class Encapsulation {
-  private:
-    // Data hidden from outside world
-    int num;
+class Encapsulation
+{
+private:
+  // Data hidden from outside world
+  int num;
 
-  public:
-    // Function to set value of num
-    void setNum(int x) {
-      num = x;
-    }
+public:
+  // Function to set value of num
+  void setNum(int x)
+  {
+    num = x;
+  }
 
-    // Function to return value of num
-    int getNum() {
-      return num;
-    }
+  // Function to return value of num
+  int getNum()
+  {
+    return num;
+  }
 };
 
-int main() {
+int main()
+{
   Encapsulation obj;
 
   obj.setNum(10);

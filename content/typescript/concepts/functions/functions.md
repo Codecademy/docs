@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-With functions, TypeScript infers the types of its parameters as well as any return value.
+With **functions**, TypeScript infers the types of its parameters as well as any return value.
 
 ## Function Parameters
 
@@ -32,7 +32,7 @@ logAgeAndName('Mulan', 16);
 // Argument of type 'string' is not assignable to parameter of type 'number'
 ```
 
-The last use of `logAgeAndName()` shows that the order of the parameters passed to the function matter. The first agrument is expected to be of type `number` while the second is inferred to be of type `string`.
+The last use of `logAgeAndName()` shows that the order of the parameters passed to the function matter. The first argument is expected to be of type `number` while the second is inferred to be of type `string`.
 
 ### Optional Parameters
 
@@ -115,4 +115,4 @@ withIncrementedValue((receivedValue) => {
 });
 ```
 
-Function parameters' types may be inferred if their parent function is in a location with a known function type. In the prior example, the `receivedValue` parameter was inferred to be type `number`.
+Function parameter types may be inferred if their parent function is in a location with a known function type. In the prior example, the `receivedValue` parameter was inferred to be type `number`.

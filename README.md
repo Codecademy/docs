@@ -27,12 +27,13 @@ We are currently building a team of community volunteers and educators to mainta
 
 ### 🏗 Engineering Team
 
-- [@christian-dinh](https://github.com/christian-dinh)
-- [@judahtanthony](https://github.com/judahtanthony)
-- [@sresnik11](https://github.com/aresnik11)
-- [@dougyd92](https://github.com/dougyd92)
 - [@aionate0812](https://github.com/aionate0812)
-- [@mattschiller](https://github.com/MattSchiller)
+- [@awgraves](https://github.com/awgraves)
+- [@bndiep](https://github.com/bndiep)
+- [@christian-dinh](https://github.com/christian-dinh)
+- [@codecademy-aditya](https://github.com/codecademy-aditya)
+- [@jrood](https://github.com/jrood)
+- [@njradford](https://github.com/njradford)
 
 ## How do I contribute?
 

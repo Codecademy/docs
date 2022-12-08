@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Modulo is a mathematical operation that returns the remainder of a division of two arguments. It is available in every programming language.
+**Modulo** is a mathematical operation that returns the remainder of a division of two arguments. It is available in every programming language.
 
 ## Syntax
 

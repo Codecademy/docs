@@ -1,6 +1,6 @@
 ---
 Title: 'PHP'
-Description: 'PHP is an extremely popular open source general-purpose scripting language widely used as a server-side language for creating dynamic web pages.'
+Description: 'PHP is a popular open-source, general-purpose scripting language widely used as a server-side language for creating dynamic web pages.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/php'
 CatalogContent:
   - 'learn-php'
@@ -9,9 +9,9 @@ CatalogContent:
 
 ​​<link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-php-used-for/" />
 
-PHP (a recursive acronym for "PHP Hypertext Preprocessor") is a popular [open source](https://www.codecademy.com/resources/docs/general/open-source) scripting language widely used as a server-side tool for creating dynamic web pages.
+**PHP** (a recursive acronym for "PHP Hypertext Preprocessor") is a popular [open-source](https://www.codecademy.com/resources/docs/open-source) scripting language widely used as a [server-side](https://www.codecademy.com/resources/docs/general/server-side-rendering) tool for creating dynamic web pages.
 
-A big part of PHP's value is its use as a dynamic scripting language that works hand-in-hand with HTML.
+A big part of PHP's value is its use as a dynamic scripting language that works hand-in-hand with [HTML](https://www.codecademy.com/resources/docs/html).
 
 A PHP interpreter makes a website dynamic and customizable, allowing a site to respond to user input or information in some expected way. The interpreter is a key link between the user and web server, databases, and the relevant files or responses sent back to that user.
 

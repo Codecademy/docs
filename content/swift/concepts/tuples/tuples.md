@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Tuples are a data type introduced in Swift version 4. They are used to group multiple values, separated by commas `,`, into a single value that is enclosed in parentheses `()`.
+**Tuples** are a data structure introduced in [Swift 4.0](https://www.swift.org/blog/swift-4.0-released/). It is used to group multiple values, separated by commas `,`, into a single value that is enclosed in parentheses `()`.
 
-**Note:** Tuples are compound types. This means that they combine different types of data.
+> **Note:** Tuples are compound types. This means that they can combine different types of data.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ Tuples are a data type introduced in Swift version 4. They are used to group mul
 var myTuple = (value1, value2, ...)
 ```
 
-**Note:** Names should be in camelCase.
+> **Note:** Names should be in camelCase.
 
 ## Accessing and Changing Values
 

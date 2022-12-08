@@ -12,13 +12,13 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-[pip](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager ([npm](https://www.codecademy.com/resources/docs/javascript/npm)) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.
+[**pip**](https://pypi.org/project/pip) is the package installer used in Python to install code packages. A similar tool is Node Package Manager ([npm](https://www.codecademy.com/resources/docs/javascript/npm)) in JavaScript. Much like npm, `pip` is the same community-driven package space, but for Python.
 
 ## Packages
 
 The concept of packages is not unique to `pip`. A package is a collection of code that is designed for a specific purpose. These packages are also meant to be re-used and distributed by other developers.
 
-One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://expressjs.com/) can facilitate the creation of server routes for backend development in JavaScript, Flask can offer the same reproducible and concise solution for developers who use Python.
+One example is [Flask](https://pypi.org/project/Flask/). Much like how [Express](https://www.codecademy.com/resources/docs/open-source/express) can facilitate the creation of server routes for backend development in JavaScript, Flask can offer the same reproducible and concise solution for developers who use Python.
 
 ## Python Package Index Repository (PyPI)
 

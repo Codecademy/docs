@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Inheritance allows properties, methods, and other characteristics to be transferred between classes. This is a feature that differentiates [classes](https://www.codecademy.com/resources/docs/swift/classes) from other [data types](https://www.codecademy.com/resources/docs/swift/data-types).
+**Inheritance** allows properties, methods, and other characteristics to be transferred between classes. This is a feature that differentiates [classes](https://www.codecademy.com/resources/docs/swift/classes) from other [data types](https://www.codecademy.com/resources/docs/swift/data-types).
 
 A class that inherits features is known as the child class or subclass. The class that the subclass inherited from is known as the parent class or superclass.
 
@@ -22,7 +22,7 @@ A class that inherits features is known as the child class or subclass. The clas
 
 A class can inherit from another class with the following syntax:
 
-```swift
+```pseudo
 class SuperClass {
   // Superclass definition goes here
 }
@@ -107,7 +107,7 @@ class Tesla: Car {
 }
 ```
 
-When `.drive()` is called on an instance of the class, both the superclass and overriden versions of the method will be called:
+When `.drive()` is called on an instance of the class, both the superclass and overridden versions of the method will be called:
 
 ```swift
 modelY.drive()

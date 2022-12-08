@@ -1,6 +1,6 @@
 ---
 Title: 'Dictionaries'
-Description: 'A dictionary is an unordered collection of paired data, or key: value pairs. swift var dictionaryName = [ "Key1": "Value1", "Key2": "Value2", "Key3": "Value3" ]'
+Description: 'A dictionary is an unordered collection of paired data referred to as a key and value pair, where the key is used to access its corresponsing value.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -13,27 +13,21 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A dictionary is an unordered collection of paired data, or `key: value` pairs.
+A **dictionary** is an unordered collection of paired data or `key: value` pairs.
 
-```swift
+## Syntax
+
+```pseudo
 var dictionaryName = [
-  "Key1": "Value1",
-  "Key2": "Value2",
-  "Key3": "Value3"
+  Key1: Value1,
+  Key2: Value2,
+  Key3: Value3
 ]
 ```
 
-Keys can be be used to access, remove, add, or modify its associated value. Every key in a dictionary is unique.
+Keys can be of any hashable type, meaning an object that has a hashcode. Typically, `Int`s and `String`s are used as keys. Every key in a dictionary is unique and they're used to access, remove, add, or modify its associated value. Values can be of any [data type](https://www.codecademy.com/resources/docs/swift/data-types).
 
-```swift
-// Each key is unique even if they all contain the same value
-
-var fruitStand = [
-  "Coconuts": 12,
-  "Pineapples": 12,
-  "Papaya": 12
-]
-```
+While types can be mixed, it's best practice to keep the key's and value's type consistent. For example, a dictionary could have keys be of type `Int` and values of type `String`.
 
 ## Assigning a Value to a Variable
 
@@ -55,37 +49,7 @@ if let redHex = primaryHex["red"] {
 // Prints: The hex code for red is #ff0000
 ```
 
-**Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
-
-## `.count` Property
-
-The `.count` property returns an integer that represents how many key-value pairs are in a dictionary.
-
-```swift
-var fruitStand = [
-  "Apples": 12,
-  "Bananas": 20,
-  "Oranges", 17
-]
-
-print(fruitStand.count)  // Output: 3
-```
-
-## `.isEmpty` Property
-
-The `.isEmpty` property will return a true value if there are no key-value pairs in a dictionary and false if the dictionary does contain key-value pairs.
-
-```swift
-var bakery = [String:Int]()
-
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: true
-
-bakery["Cupcakes"] = 12
-
-// Check if dictionary is empty
-print(bakery.isEmpty)  // Prints: false
-```
+> **Note:** Assigning the value of a key-value pair to a variable will return an optional value. To extract the value, use optional unwrapping.
 
 ## Iterating Over a Dictionary
 
@@ -113,3 +77,5 @@ for meaning in emojiMeaning.values {
   print(meaning)
 }
 ```
+
+Below are some instance properties for dictionaries:

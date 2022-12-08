@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-An abstract syntax tree (AST) is a language-agnostic, hierarchical representation of the elements comprising the source code of a computer program. With a given AST, it is possible to reproduce code that is functionally identical to the source code that originally generated it. In other words, the code can be reproduced in any language. This is why the generation of ASTs is a critical internal step in compiling, as it allows the compiler to interpret the source code in a way that allows it to translate the original language into equivalent machine code.
+An **abstract syntax tree (AST)** is a language-agnostic, hierarchical representation of the elements comprising the source code of a computer program. With a given AST, it is possible to reproduce code that is functionally identical to the source code that originally generated it. In other words, the code can be reproduced in any language. This is why the generation of ASTs is a critical internal step in compiling, as it allows the compiler to interpret the source code in a way that allows it to translate the original language into equivalent machine code.
 
 ## Tokens
 
