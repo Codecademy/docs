@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'C++ supports many data type that represent the size and kind of values being stored in memory.'
+Description: 'C++ supports many data types that represent the size and kind of values being stored in memory.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -124,7 +124,7 @@ std::cout << weight2 << std::endl;
 // Output: 122
 ```
 
-> **Note:** Not all types can be converted:
+Not all types can be converted. The example below shows a type that can not be accepted:
 
 ```cpp
 std::string s = static_cast<std::string>(weight2);

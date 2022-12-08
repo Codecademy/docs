@@ -31,8 +31,6 @@ Argument `n` must be of type `double`/`float`/`long double`/`int`, and the retur
 
 int main() {
   double a = 9.0, b = 0.0;
-  // Here, c is infinity because a number divided by 0
-  // evaluates to positive infinity when there is a limit.
   double c = a/b;
 
   // If c is false, print out that it tends to positive infinity.
@@ -44,6 +42,14 @@ int main() {
   }
   return 0;
 }
+```
+
+In the example above, `c` is infinity because a number divided by 0 evaluates to positive infinity when there is a limit.
+
+This will output:
+
+```shell
+c tends to positive infinity
 ```
 
 ## Codebyte Example
