@@ -46,7 +46,7 @@ would be only code to be executed
 println("The line above is a double line comment");
 ```
 
-## Codebyte Example
+## Example
 
 The code in the following that is not commented out will execute when the program is run:
 
