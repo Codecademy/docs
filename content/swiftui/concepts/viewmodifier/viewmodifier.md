@@ -19,9 +19,9 @@ In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **`ViewModifi
 ```pseudo
 struct MyView: View {
     var body: some View {
-        // View(s) here
-            // Modifier methods like .bold() can be called underneath a View.
-            // Multiple modifiers can be chained using dot notation.
+        View(s) here
+            Modifier methods like .bold() can be called underneath a View.
+            Multiple modifiers can be chained using dot notation.
     }
 }
 ```
