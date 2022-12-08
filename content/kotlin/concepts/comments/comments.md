@@ -20,10 +20,8 @@ CatalogContent:
 In Kotlin, Single-line comments are created with two consecutive forward slashes `//`:
 
 ```kotlin
-
 // Prints text in ("...")
 println("The line above is a single line comment");
-
 ```
 
 A single-line comment can also be used inline to comment after a line of code:
