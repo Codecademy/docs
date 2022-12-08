@@ -42,6 +42,7 @@ if (year == 1991) {
 }
 else {
   // This runs if it is false
+  
 }
 ```
 
@@ -52,12 +53,15 @@ One or more `else if` statements can be added in between the `if` and `else` to 
 ```cpp
 if (apple > 8) {
   // Some code here
+
 }
 else if (apple > 6) {
   // Some code here
+  
 }
 else {
   // Some code here
+  
 }
 ```
 
@@ -71,13 +75,17 @@ int main() {
 
   if (pH < 7.0) {
     std::cout << "Acidic" << "\n";
+    
   }
   else if (pH > 7.0) {
     std::cout << "Basic" << "\n";
+    
   }
   else {
     std::cout << "Neutral" << "\n";
+    
   }
+
 }
 ```
 

@@ -18,7 +18,7 @@ A **constructor** is a specially defined method in a C++ class that is automatic
 
 ### Syntax and Examples
 
-A constructor method is defined within a class by using the class name followed by parenthesis:
+A constructor method is defined within a class by using the `ClassName` followed by parentheses.
 
 ```cpp
 class MyClass {
