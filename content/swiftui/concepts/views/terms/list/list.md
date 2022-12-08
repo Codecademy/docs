@@ -38,6 +38,7 @@ var body: some View {
     }
 }
 ```
+
 - `id: \.self` allows Swift to identify each of the items uniquely in order to update the values when changed.
 - `$0` is a shorthand syntax used to reference the first argument in a [closure](https://www.codecademy.com/resources/docs/swift/closures).
 
