@@ -29,9 +29,7 @@ println("The line above is a single line comment");
 A single-line comment can also be used inline to comment after a line of code:
 
 ```kotlin
-
 println("This is a single line comment") // Prints text in ("...")
-
 ```
 
 ## Multi-line Comments
