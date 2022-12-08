@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`Math.sin()`** method returns the sine of an angle argument, given in radians, in the range [-1,1].
+The **`Math.sin()`** method returns the sine of an angle argument, given in radians. The result is in the range [-1,1].
 
 ## Syntax
 
