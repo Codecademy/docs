@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Optionals are types that deal with scenarios involving the potential presence or absence of a value (`nil`).
+**Optionals** are types that deal with scenarios involving the potential presence or absence of a value (`nil`).
 
 ## Syntax
 
@@ -24,7 +24,7 @@ var myVariable: Type?
 var myVariable: Optional<Type>
 ```
 
-**Note:** If `myVariable` is not assigned a value of the specified data type, it will default to `nil`.
+> **Note:** If `myVariable` is not assigned a value of the specified data type, it will default to `nil`.
 
 ## Unwrapping Optionals
 
@@ -44,7 +44,7 @@ print(myInt)
 // Output: 27
 ```
 
-**Note:** In the following code blocks, a mutable `var` variable can be used in place of any constant `let` variable.
+> **Note:** In the following code blocks, a mutable `var` variable can be used in place of any constant `let` variable.
 
 ### `if let`
 
@@ -84,7 +84,7 @@ func findInt() {
 
 If the optional `maybeInt` holds a value, it will be assigned to `myInt`. Otherwise, the `else` block will run and hit the `return` statement.
 
-**Note:** The following ways to upwrap optionals is not recommended because it does not handle `nil` cases.
+> **Note:** The following way(s) to unwrap optionals is not recommended because it does not handle `nil` cases.
 
 ### Forced Upwrapping
 

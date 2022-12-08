@@ -11,11 +11,11 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Returns the absolute value of the floating point argument.
+The **`fabs`** function returns the absolute value of the floating point argument.
 
 ## Syntax
 
-```cpp
+```pseudo
 std:fabs(n)
 ```
 
@@ -27,7 +27,8 @@ Use `fabs()` to return the absolute value of `-6.5`:
 #include <iostream>
 #include <cmath>
 
-int main () {
+int main ()
+{
   std::cout << std::fabs(-6.5) << "\n";
 }
 

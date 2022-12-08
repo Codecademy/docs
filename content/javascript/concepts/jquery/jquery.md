@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-**jQuery** is a JavaScript library that simplifies common tasks that once required many lines of code (e.g., [AJAX](https://www.codecademy.com/resources/docs/javascript/ajax), DOM manipulation, and [event handling](https://www.codecademy.com/resources/docs/javascript/events)), and wraps them inside a single method call.
+**jQuery** is a JavaScript library that simplifies common tasks that once required many lines of code (e.g., [AJAX](https://www.codecademy.com/resources/docs/javascript/ajax), DOM manipulation, and [event handling](https://www.codecademy.com/resources/docs/javascript/events)), and wraps them inside a single method call. It is free and [open-source software](https://www.codecademy.com/resources/docs/open-source/open-source-software).
 
 ## Usage
 

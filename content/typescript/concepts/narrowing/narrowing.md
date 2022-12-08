@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Narrowing is a TypeScript process that refines a value of multiple types into a single, specific type.
+**Narrowing** is a TypeScript process that refines a value of multiple types into a single, specific type.
 
 [Union types](https://www.codecademy.com/resources/docs/typescript/unions) represent entities that may be one of two or more different types. Because they only allow access to members known to be on all possible types, we need to narrow down a value to a more specific type before using non-shared members.
 
@@ -20,9 +20,8 @@ Narrowing is a TypeScript process that refines a value of multiple types into a 
 
 TypeScript recognizes types as being narrowed when it sees branches of JavaScript control-flow logic, including:
 
-- `if/else` conditional statements.
-- Other conditionals, like ternaries and switches.
-- Looping statments, such as `for`- and `while`-loops.
+- Conditional statements like `if/else`, ternaries, and switches.
+- Looping statements, such as `for`- and `while`-loops.
 - Truthiness checks for entities that don't point to `false`-like values.
 
 If an area of code can only be reached if a value is of a particular type, TypeScript will infer the value to be of that type in that control flow branch.
@@ -44,7 +43,7 @@ logValueIfExists('narrowing');
 
 We invoked `logValueIfExists()` with a string variable, "narrowing". Since the `value` is of type `string`, the code in the `if` statement will run and a new string will be logged to the console.
 
-## Exapmle: Narrowing with truthiness
+## Example: Narrowing With Truthiness
 
 In the example below, we changed the `if` statement slightly to check if `value` has any value that is "truthy" and doesn't evaluate to a falsey value such as `0`, `false`, or `undefined`.
 
@@ -71,4 +70,4 @@ logValueIfExists(newValue);
 // newValue is "undefined"; nothing is logged.
 ```
 
-Outside of the `if` statement, `value` is a union type (`string | undefined`) and is not narrowed, meaning that calling `value.length` won't work. Inside the `if` statment, because `value` was narrowed to a `string` type, it now has a `length` property.
+Outside of the `if` statement, `value` is a union type (`string | undefined`) and is not narrowed, meaning that calling `value.length` won't work. Inside the `if` statement, because `value` was narrowed to a `string` type, it now has a `length` property.

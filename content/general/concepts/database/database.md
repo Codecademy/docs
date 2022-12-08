@@ -24,7 +24,7 @@ There are many different ways for database systems to structure and organize dat
 
 ### Object Databases
 
-Object databases structure their data in the form of objects (as used in [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming)) rather than tables. This is useful in software development where the application using the data, and the DBMS manipulating the data, can both use the same model of the data.
+Object databases structure their data in the form of objects (as used in [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming)) rather than tables. This is useful in software development where the application using the data, and the DBMS manipulating the data, can both use the same model of the data.
 
 #### Object-Relational Databases
 

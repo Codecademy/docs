@@ -1,6 +1,6 @@
 ---
 Title: 'Exceptions'
-Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if you try to access an index outside the allowable bounds. codebyte/cpp std::string getString(std::string values[], int index) { return values[index]; } int main() {'
+Description: 'In C++, an exception is the computers response to a problem that occurs while executing a programs code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error. The function getString() as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -14,57 +14,62 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In C++, an exception is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
+In C++, an **exception** is the computer's response to a problem that occurs while executing a program's code. The computer will create an exception, and if the code does not have a way to handle it, then the program will stop executing due to the error.
 
 ## Catching an Exception
 
-The function `getString()` as defined below will throw an exception if you try to access an index outside the allowable bounds.
+The function `getString()` as defined below will throw an exception if an index outside the allowable bounds is attempted to be accessed.
 
 ```codebyte/cpp
 #include <iostream>
 
 std::string getString(std::string values[], int index) {
-    return values[index];
+  return values[index];
 }
 
-int main() {
-    std::string words[] = {"One", "Two", "Three"};
+int main()
+{
+  std::string words[] = {"One", "Two", "Three"};
 
-    // This is fine, and will print the string "One"
-    std::cout << getString(words, 0);
+  // This is fine, and will print the string "One"
+  std::cout << getString(words, 0);
 
-    // This is not fine, and will throw an exception
-    std::cout << getString(words, 6);
+  // This is not fine, and will throw an exception
+  std::cout << getString(words, 6);
 
-    return 0;
+  return 0;
 }
 ```
 
-Errors, when uncaught, will cause your program to immediately stop. This behavior can be prevented by wrapping the code which might emit an error in a `try` block, and providing at least one `catch` block to execute if the code throws the error. Look at the improvement below:
+Errors, when uncaught, will cause a program to immediately stop. This behavior can be prevented by wrapping the code which might emit an error in a `try` block, and providing at least one `catch` block to execute if the code throws the error. Look at the improvement below:
 
 ```codebyte/cpp
 #include <iostream>
 
-std::string getString(std::string values[], int index) {
-    return values[index];
+std::string getString(std::string values[], int index)
+{
+  return values[index];
 }
 
-int main() {
-    std::string words[] = {"One", "Two", "Three"};
+int main()
+{
+  std::string words[] = {"One", "Two", "Three"};
 
-    try {
-      // "One" will be printed
-      std::cout << getString(words, 0);
+  try
+  {
+    // "One" will be printed
+    std::cout << getString(words, 0);
 
-      // This line will throw an exception and immediately move program execution to the catch block
-      std::cout << getString(words, 6);
-    }
-    catch (...) {
-      // "Some sort of error has occured!" will be sent to the buffer
-      std::cout << "Some sort of error has occured!";
-    }
+    // This line will throw an exception and immediately move program execution to the catch block
+    std::cout << getString(words, 6);
+  }
+  catch (...)
+  {
+    // "Some sort of error has occurred!" will be sent to the buffer
+    std::cout << "Some sort of error has occurred!";
+  }
 
-    return 0;
+  return 0;
 }
 ```
 
@@ -76,30 +81,35 @@ The parenthesized ellipsis above indicate that the `catch` should try to catch a
 It is possible to catch multiple types of exception by specifying multiple catch blocks:
 
 ```cpp
-int main() {
-  try {
+int main()
+{
+  try
+  {
     // Code goes here
   }
-  catch (int intErrorVariable) {
+  catch (int intErrorVariable)
+  {
     // The thrown error was of type int
   }
-  catch (std::exception exceptionVariable) {
+  catch (std::exception exceptionVariable)
+  {
     // The thrown error was of type exception
     std::cout << exceptionVariable.what();
   }
-  catch (...) {
+  catch (...)
+  {
     // The ellipsis
   }
 }
 ```
 
-This example also names the exceptions so that you might access the exception during the catch block. If the exception is of type `std::exception` (or one of the classes which inherit from it), you can call `.what()` on the caught exception to read the error message.
+This example also names the exceptions so that the exception may be accessed during the catch block. If the exception is of type `std::exception` (or one of the classes which inherit from it), `.what()` can be called on the caught exception to read the error message.
 
 ## Throwing an Exception
 
 While one side of the exceptional coin is catching exceptions, the other side is throwing them. Since user input is often unpredictable, it is important to handle bad data with grace.
 
-The `sqrt()` funciton provided by the `math.h` library calculates square roots, however it will return `nan` for the square root of negative numbers. The example below creates a custom `mySqrt()` function so that an execption is thrown when a negative number is passed in as a parameter. This allows us to `catch` it in our `main` block rather than testing if the returned valued is equal to `nan`.
+The `sqrt()` function provided by the `math.h` library calculates square roots, however it will return `nan` for the square root of negative numbers. The example below creates a custom `mySqrt()` function so that an exception is thrown when a negative number is passed in as a parameter. This allows us to `catch` it in our `main` block rather than testing if the returned valued is equal to `nan`.
 
 While it is possible to use `throw` with many data types, it is common to throw a runtime error. The syntax can be seen in the example below:
 
@@ -107,23 +117,28 @@ While it is possible to use `throw` with many data types, it is common to throw 
 #include <iostream>
 #include <math.h>
 
-float mySqrt(float value) {
-  if (value < 0) {
+float mySqrt(float value)
+{
+  if (value < 0)
+  {
     throw std::runtime_error("Negative numbers not allowed");
   }
 
   return sqrt(value);
 }
 
-int main() {
+int main()
+{
   float posNumber = 4.41;
   float negNumber = -1.0;
 
-  try {
+  try
+  {
     std::cout << "Square root of " << posNumber << " is " << mySqrt(posNumber) << "\n";
     std::cout << "Square root of " << negNumber << " is " << mySqrt(negNumber) << "\n";
   }
-  catch (std::runtime_error error) {
+  catch (std::runtime_error error)
+  {
     std::cout << "ERROR: " << error.what() << "\n";
   }
 

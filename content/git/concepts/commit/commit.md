@@ -12,7 +12,7 @@ CatalogContent:
   - 'learn-the-command-line'
 ---
 
-In Git, commits are used as snapshots of a given branch in a repository. Collectively, they serve as the growth history of all the branches in a Git repository. The most recent commit is considered directly related to the pointer of the current branch.
+In Git, **commits** are used as snapshots of a given branch in a repository. Collectively, they serve as the growth history of all the branches in a Git repository. The most recent commit is considered directly related to the pointer of the current branch.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ git commit
 
 ### Step 1: Files Ready
 
-Before using `git commit`, make sure to have all the neccessary files staged for the commit.
+Before using `git commit`, make sure to have all the necessary files staged for the commit.
 
 ```shell
 git add filename
@@ -40,7 +40,7 @@ After the files are staged for commit, use the following syntax:
 git commit
 ```
 
-**Note:** Using the `git commit` command by itself will open up an editor (usually set to Vim by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
+> **Note:** Using the `git commit` command by itself will open up an editor (usually set to [Vim](https://www.codecademy.com/resources/docs/open-source/vim) by default), where users will be asked to add a commit message. After writing a message, saving and closing the file (`:wq` in Vim) will add that message to the current commit.
 
 Here is an example of what the commit message prompt might look like when using `git commit`:
 

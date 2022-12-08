@@ -14,21 +14,24 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A constructor is a specially defined method in a C++ class that is automatically called when an instance of that class is created. It is typically used for tasks such as initializing class attributes in a new object. Like with functions, a constructor can take arguments that can aid in the initialization. The arguments are passed to the constructor method when a new object is created.
+A **constructor** is a specially defined method in a C++ class that is automatically called when an instance of that class is created. It is typically used for tasks such as initializing class attributes in a new object. Like with functions, a constructor can take arguments that can aid in the initialization. The arguments are passed to the constructor method when a new object is created.
 
 ### Syntax and Examples
 
 A constructor method is defined within a class by using the class name followed by parenthesis:
 
 ```cpp
-class MyClass {
-  public:
-    MyClass() {  // This defines a constructor that outputs a message
-      std::cout << "The constructor was executed!";
-    }
+class MyClass
+{
+public:
+  MyClass()
+  {  // This defines a constructor that outputs a message
+    std::cout << "The constructor was executed!";
+  }
 };
 
-int main() {
+int main()
+{
   MyClass myObj;  // This calls the constructor
   return 0;
 }
@@ -37,19 +40,21 @@ int main() {
 Using arguments in a constructor:
 
 ```cpp
-class Circle {
-  public:
-    int X;
-    int Y;
-    int radius;
-    Circle (int a, int b, int c) {
-      X = a;
-      Y = b;
-      radius = c;
-    }
+class Circle
+{
+public:
+  int X;
+  int Y;
+  int radius;
+  Circle (int a, int b, int c) {
+    X = a;
+    Y = b;
+    radius = c;
+  }
 };
 
-int main() {
+int main()
+{
   // Call the constructor using arguments
   Circle myCircle1(5,5,10);
   Circle myCircle2(0,0,5);
@@ -69,17 +74,19 @@ int main() {
 Like member functions, once declared in the class, the constructor can be defined outside the class:
 
 ```cpp
-class Circle {
-  public:
-    int X;
-    int Y;
-    int radius;
-    // Declare the constructor
-    Circle (int a, int b, int c);
+class Circle
+{
+public:
+  int X;
+  int Y;
+  int radius;
+  // Declare the constructor
+  Circle (int a, int b, int c);
 };
 
 // Define constructor outside the class
-Circle::Circle (int a, int b, int c) {
+Circle::Circle (int a, int b, int c)
+{
   X = a;
   Y = b;
   radius = c;

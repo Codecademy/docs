@@ -13,20 +13,22 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-Inheritance is the ability to create a new class based on an existing class, starting out with the same existing properties and methods. It is generally used when it's necessary to implement a number of different objects that are all of the same type and share several common characteristics.
+**Inheritance** is the ability to create a new class based on an existing class, starting out with the same existing properties and methods. It is generally used when it's necessary to implement a number of different objects that are all of the same type and share several common characteristics.
 
 ## Syntax
 
 The class that inherits these properties and methods is called the derived class or sub-class. The class that the sub-class inherits from is called the base class.
 
 ```pseudo
-class BaseClass {
+class BaseClass
+{
   accessModifier:
     dataType property1;
     dataType property2;
 };
 
-class SubClass: public BaseClass {
+class SubClass: public BaseClass
+{
   accessModifier:
     dataType subProp1;
     dataType subProp2;
@@ -57,36 +59,42 @@ Both the `Circle` and `Rectangle` classes would share the properties and methods
 
 ```cpp
 // Create the base Shape class
-class Shape {
-  public:
-    int center[2];
-    int weight;
-    int color;
+class Shape
+{
+public:
+  int center[2];
+  int weight;
+  int color;
 
-    void translate(int deltaX, int deltaY) {
-      center[0] += deltaX;
-      center[1] += deltaY;
-    }
+  void translate(int deltaX, int deltaY)
+  {
+    center[0] += deltaX;
+    center[1] += deltaY;
+  }
 };
 
 // Create sub-class Rectangle
-class Rectangle: public Shape {
-  public:
-    int height;
-    int width;
+class Rectangle: public Shape
+{
+public:
+  int height;
+  int width;
 
-    int perimeter() {
-      return (height + width) * 2;
-    }
+  int perimeter()
+  {
+    return (height + width) * 2;
+  }
 };
 
 // Create sub-class Circle
-class Circle: public Shape {
-  public:
-    int radius;
+class Circle: public Shape
+{
+public:
+  int radius;
 
-    float circumference() {
-      return 2.0 * 3.1416 * float (radius);
-    }
+  float circumference()
+  {
+    return 2.0 * 3.1416 * float (radius);
+  }
 };
 ```

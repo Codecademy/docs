@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Objective-C** is a programming language that builds upon the [C](https://www.codecademy.com/resources/docs/c) language by adding [object-oriented programming](https://www.codecademy.com/resources/docs/general/object-oriented-programming) with Smalltalk-style messaging.
+**Objective-C** is a programming language that builds upon the [C](https://www.codecademy.com/resources/docs/c) language by adding [object-oriented programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming) with Smalltalk-style messaging.
 
 ## History
 

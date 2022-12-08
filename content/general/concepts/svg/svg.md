@@ -1,6 +1,6 @@
 ---
 Title: 'SVG'
-Description: 'Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVGs description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes. Unlike the common bitmap image formats of JPEG and PNG, Scalable Vector Graphics files do not describe the location and colors of individual pixels. Instead, SVG files represent basic shapes and curves within a two-dimensional coordinate plane. This provides their scalability as well as straightforward scripting of transformations and animations using JavaScript as is commonly found on the web. An example SVG image containing the most common shapes can be found below: html  <svg width="300"'
+Description: 'Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVGs description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes.'
 Subjects:
   - 'Computer Science'
   - 'Web Development'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Scalable Vector Graphics (SVG) is a XML-based file format for describing two-dimensional vector images. SVG's description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes.
+**Scalable Vector Graphics (SVG)** is a XML-based file format for describing two-dimensional vector images. SVG's description of vector graphics with text allows for infinitely-scalable high-fidelity images with small file sizes.
 
 Unlike the common bitmap image formats of JPEG and PNG, Scalable Vector Graphics files do not describe the location and colors of individual pixels. Instead, SVG files represent basic shapes and curves within a two-dimensional coordinate plane. This provides their scalability as well as straightforward scripting of transformations and animations using JavaScript as is commonly found on the web.
 

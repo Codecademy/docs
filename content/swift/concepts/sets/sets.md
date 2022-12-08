@@ -1,6 +1,6 @@
 ---
 Title: 'Sets'
-Description: 'In Swift, a set is used to store unique elements of the same data type. To create a set populated with values, use the Set keyword before the assignment operator. swift var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]  The values of the set must be contained within brackets [] and separated with commas ,. An empty set is a set that contains no values inside.'
+Description: 'Store unique elements of the same data type.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -12,17 +12,19 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In Swift, a _set_ is used to store unique elements of the same data type.
+In Swift, a **set** is used to store unique elements of the same data type.
 
-## Creating a Set
+## Syntax
 
-To create a set populated with values, use the `Set` keyword before the assignment operator.
+```pseudo
+var setName = Set<Type>()
 
-```swift
-var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]
+var setName: Set = [value1, value2, ...]
 ```
 
-The values of the set must be contained within brackets `[]` and separated with commas `,`.
+`Type` refers to the [data type](https://www.codecademy.com/resources/docs/swift/data-types) of the values to be stored in the set.
+
+To create a set populated with values, use the `Set` keyword before the assignment operator. The values of the set must be contained within brackets `[]` and separated with commas `,`.
 
 ## Empty Sets
 
@@ -72,15 +74,8 @@ print("There are \(band.count) players in the band.")
 // Output: There are 4 players in the band.
 ```
 
-## Set Methods
+### Methods
 
-| Method                   | Description                                                                                        |
-| ------------------------ | -------------------------------------------------------------------------------------------------- |
-| `.insert()`              | Add an element at a specified index                                                                |
-| `.remove()`              | Remove an element at a specified index                                                             |
-| `.removeAll()`           | Remove every single value from a set                                                               |
-| `.contains()`            | Check whether an item exists within the set                                                        |
-| `.intersection()`        | Populates a new set of elements with the overlapping elements of two sets                          |
-| `.union()`               | Populates a new set by taking all the values from two sets and combining them                      |
-| `.symmetricDifference()` | Creates a new set with all the non-overlapping values between two sets                             |
-| `.subtracting()`         | Removes the values of one second set from another set and stores the remaining values in a new set |
+There are many set manipulation methods available in the Swift Standard Library, including generic `Collection`-based methods. Some of these include testing the contents of sets (e.g. `.contains()` and `.isEmpty`) while others can modify or manipulate the set entirely (e.g., `.map()`, `.reduce()`, and `.sorted()`). There is also a list of methods applicable to a pair of sets (e.g., `.intersection()` or `.subtracting()`).
+
+Below are some methods available for sets:

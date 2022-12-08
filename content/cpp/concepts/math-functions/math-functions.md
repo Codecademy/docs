@@ -1,6 +1,6 @@
 ---
 Title: 'Math Functions'
-Description: 'C++ has many functions that allows you to perform mathematical tasks on numbers. Header  declares a set of functions to compute common mathematical operations and transformations: cpp // Include the cmath library std::cout << sqrt(64); // Return the square root of 64 std::cout << log(2); // Return the log of 2 std::cout << round(2.6); // Round 2.6'
+Description: 'C++ has many functions that allows mathematical tasks to be performed on numbers.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-C++ has many functions that allows you to perform mathematical tasks on numbers.
+C++ has many functions that allows mathematical tasks to be performed on numbers.
 
 Header `<cmath>` declares a set of functions to compute common mathematical operations and transformations:
 

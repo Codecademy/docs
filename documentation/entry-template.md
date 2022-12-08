@@ -14,7 +14,7 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/example-path'
 ---
 
-[Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
 
 ## Subsection 1
 
@@ -28,6 +28,21 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 [Text about subsection n]
 
-```codebyte/js # Example runnable code block. We can currently support Python, JavaScript, Ruby, C++, C#, Go, and PHP. See content-standards.md for more details!
+## Codebyte Example (if applicable)
+
+We can currently support:
+
+- Python
+- JavaScript
+- Ruby
+- C++
+- C#
+- Go
+- PHP
+
+See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
+
+```codebyte/js
+# Example runnable code block.
 console.log('Hello, World!');
 ```

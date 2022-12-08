@@ -1,6 +1,6 @@
 ---
 Title: 'this'
-Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context. Used within a global context, this will return the global object. Either the window object in a web browser, or the global object on Node.js. Assigning a property to this will assign it to the global object. javascript // Outputs assume this is run in global context in a browser console.log(this === window); // Output: true'
+Description: 'In JavaScript, the this keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what this returns can vary depending on the context.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -13,14 +13,14 @@ CatalogContent:
   - 'paths/create-a-back-end-app-with-javascript'
 ---
 
-In JavaScript, the `this` keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
+In JavaScript, the **`this`** keyword can have several meanings depending on the execution context. Most often it is used within a method of an object to return the instance of the object whose function is being executed, but what `this` returns can vary depending on the context.
 
 ## `this` Called Within a Global Context
 
 Used within a global context, `this` will return the global object. Either the `window` object in a web browser, or the `global` object on Node.js.
 Assigning a property to `this` will assign it to the global object.
 
-```javascript
+```js
 // Outputs assume this is run in global context in a browser
 
 console.log(this === window);
@@ -50,7 +50,7 @@ Each has its own context, causing `this` to behave differently.
 
 #### Examples
 
-```javascript
+```js
 // Non-strict mode in browser
 function example() {
   console.log(this === window);
@@ -62,7 +62,7 @@ example();
 
 In strict mode, `this` is `undefined`.
 
-```javascript
+```js
 // Strict mode in browser
 function example() {
   console.log(this === undefined);
@@ -78,7 +78,7 @@ Within the method of an object,`this` returns the object that is currently calli
 
 #### Examples
 
-```javascript
+```js
 const obj = {
   someValue: 100,
   someFunc: function () {
@@ -96,9 +96,9 @@ console.log(obj.someFunc());
 ```
 
 However, if you execute the function outside the object it will behave as function invocation above.
-In the example below, `this` refrences the global object, without a `someValue` property.
+In the example below, `this` references the global object, without a `someValue` property.
 
-```javascript
+```js
 const obj = {
   someValue: 100,
   someFunc: function () {
@@ -114,7 +114,7 @@ console.log(getValue());
 
 There is a `.bind()` method that can be used to alter this behavor. `.bind()` can be used when creating a function to specify the object that `this` will refer to.
 
-```javascript
+```js
 const obj = {
   someValue: 100,
   someFunc: function () {
@@ -136,7 +136,7 @@ In this case `this` will refer to the new object being created.
 
 #### Example
 
-```javascript
+```js
 function Obj(value) {
   this.someValue = value;
 }
@@ -153,7 +153,7 @@ There are two methods of the `Function` type named `.call()` and `.apply()` whic
 
 #### Example
 
-```javascript
+```js
 function showProp(prefix) {
   console.log(prefix + this.someProperty;
 }
@@ -183,12 +183,12 @@ showProp.apply(obj2,["The property is"]);
 
 ### Arrow Functions
 
-The arrow function doesn't have its own context for `this`.
+The [arrow function](https://www.codecademy.com/resources/docs/javascript/arrow-functions) doesn't have its own context for `this`.
 The `this` value within an arrow function is inherited from the containing function.
 
 #### Examples
 
-```javascript
+```js
 // Using the global context
 let someFunction = () => this;
 
@@ -196,7 +196,7 @@ console.log(someFunction() === window);
 // Output: true
 ```
 
-```javascript
+```js
 // Using the constructor context
 function Obj() {
   let someFunction = () => this;

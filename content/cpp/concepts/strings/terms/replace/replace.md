@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.replace()` function returns a string with a portion replaced by another string, or a portion of another string.
+The **`.replace()`** method returns a string with a portion replaced by another string, or a portion of another string.
 
 ## Syntax
 
@@ -39,11 +39,11 @@ The following example replaces a portion of a base string with a portion of anot
 
 int main()
 {
-    std::string base="this is a test string.";
-    std::string repl="replacement string.";
+  std::string base="this is a test string.";
+  std::string repl="replacement string.";
 
-    std::cout << base.replace(10,4,repl,0,11) << '\n';
+  std::cout << base.replace(10,4,repl,0,11) << '\n';
 
-    return 0;
+  return 0;
 }
 ```

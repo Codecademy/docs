@@ -1,6 +1,6 @@
 ---
 Title: 'Closures'
-Description: 'Closures allows for more flexible code.'
+Description: 'Closures allow for more flexible code.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-Similar to blocks in C or lambdas in other programming languages, closures in Swift contain chunks of code that can be passed around and reused within the same code.
+**Closures** in Swift contain chunks of code that can be passed around and reused within the same code.
 
 They can store and capture references to variables and constants which is also referred to as closing over constants and variables. The best part is that all memory management is handled by Swift.
 
@@ -33,16 +33,16 @@ Just like functions, closures can also take in parameters or input values. The p
 
 ```swift
 let helloName:(String) -> () = { name in
-  print("Hello, \(name)!")
+  print("Hello \(name)!")
 }
 
-helloName("Sonny")
+helloName("World")
 ```
 
 This prints out:
 
 ```shell
-Hello, Sonny!
+Hello World!
 ```
 
 There are two important parts to this closure:
@@ -52,11 +52,11 @@ There are two important parts to this closure:
 
 The function call, `hello(...)`, executes the closure.
 
-It is also important to note the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`.
+It is also important to note that the return type is void because nothing of a specific type is being returned in this example. This can be written as `()` or `(void)`.
 
 ### Type Inference
 
-Swift can infer the type for the parameters and the return type. To demonstrate this, the following numbers will be sorted from decreasing to increasing order using Swift's `.sorted()` method.
+Swift can infer the type for the parameters and the return type. To demonstrate this, the following numbers will be sorted in ascending order using Swift's `.sorted()` method.
 
 ```swift
 let numbers = [38, 45, 66, 72, 19, 73]
@@ -74,7 +74,7 @@ The closure inside the curly brackets is the argument the numbers are being sort
 
 The `.sorted()` method sorts through the whole array and returns a new array.
 
-Since `.sorted()` method is being called on an array of integers, Swift can infer that the argument is of type `(Int, Int) -> (Bool)`. This means types do not need to be written in the argument, the above expression can be written as follows:
+Since the `.sorted()` method is being called on an array of integers, Swift can infer that the argument is of type `(Int, Int) -> (Bool)`, and types do not need to be written in the argument. The above expression can be written as follows:
 
 ```swift
 sortedNumbers = numbers.sorted(by: { num1, num2 in return num1 < num2 })
@@ -82,9 +82,9 @@ sortedNumbers = numbers.sorted(by: { num1, num2 in return num1 < num2 })
 
 ### Single Expression Closures
 
-If the closure uses a single expression, like the one above where `num1 < num2` is the sole expression, Swift knows what is needed to be returned.
+If the closure uses a single expression, like the one above where `num1 < num2` is the sole expression, Swift knows what needs to be returned.
 
-Due to this, there is no need to write the `return` key in the argument. This can be omitted in the above example, and written as follows:
+The `return` key can be omitted in the argument; based on the above example, and written as follows:
 
 ```swift
 sortedNumbers = numbers.sorted(by: { num1, num2 in num1 < num2 })
@@ -92,7 +92,7 @@ sortedNumbers = numbers.sorted(by: { num1, num2 in num1 < num2 })
 
 ### Shorthand Argument Names
 
-There are also shorthand argument names Swift makes available to inline closures. They are based on the closure's argument values. `$0` is used for the first argument value, `$1` for the second value, `$2` for the third, and so on.
+There are also shorthand argument names that Swift makes available to inline closures. They are based on the closure's argument values. `$0` is used for the first argument value, `$1` for the second value, `$2` for the third, and so on.
 
 When using shorthand argument names, the argument list and the `in` keyword can be completely omitted. When removing this from the previous expression, it looks like this:
 
@@ -114,7 +114,7 @@ sortedNumbers = numbers.sorted(by: < )
 
 Autoclosures are used to wrap a closure expression being passed as an argument of a function.
 
-It makes for slightly cleaner code because the curly brackets are eliminated when calling the function. This allows the function to be called like it had a String parameter rather than a closure.
+It makes for slightly cleaner code because the curly brackets are eliminated when calling the function. This allows the function to be called like it had a `String` parameter rather than a closure.
 
 Take the following code for example that does not take an autoclosure:
 
@@ -181,7 +181,7 @@ After closure call
 
 ## Capturing Values
 
-Closures can capture values from the context surrounding them. Swift stores the external values alongside the closure so it can easily refer to and modify.
+Closures can capture values from the context surrounding them. Swift stores the external values alongside the closure so they can easily be refered to and modified.
 
 Take the following code for example, which is a simple counter function that increments the count by one when it's called.
 
@@ -209,6 +209,6 @@ print(countUp())    // Output: 4
 
 In the first instance of `counter()`, assigned to the variable `countUp`, the closure stored the previous value and incremented the value each time it was called. Creating a new instance of `counter()` affect `countUp` because they are not in the same context as each other.
 
-## Why use closures?
+## Why Use Closures?
 
-Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any uneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants.
+Closures make code easier to read and shorter without losing any intentions to the code. It allows for the removal of any unneccessary parts of code to make it clear and precise. It also gives code greater flexibility, by allowing the passing around of functional code in variables and constants.

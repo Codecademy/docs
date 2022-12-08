@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.size()` method returns the number of elements in the `stack`.
+The **`.size()`** method returns the number of elements in the `stack`.
 
 ## Syntax
 
@@ -32,8 +32,8 @@ The following example uses the `.size()` method on `myStack`:
 #include <stack>
 #include <string>
 
-int main(){
-
+int main()
+{
   std::stack<std::string> myStack;
   myStack.push("A");
   myStack.push("B");
@@ -47,7 +47,8 @@ int main(){
 
   std::cout << myStack.size() << '\n';
 
-  while (!myStack.empty()) {
+  while (!myStack.empty())
+  {
     myStack.pop();
   }
   std::cout << myStack.size() << '\n';

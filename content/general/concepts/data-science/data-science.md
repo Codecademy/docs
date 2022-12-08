@@ -1,6 +1,6 @@
 ---
 Title: 'Data Science'
-Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines. Since the beginning of the 21st century, data science has been used in generally every field of industry to extract insight from data for finding new efficiencies in business decision-making and product development. These applications are largely related to fields of study rooted in data science, including: - Data Visualization - Data Engineering - Machine Learning & Deep Learning - Artificial Intelligence - Cloud and Distributed Computing'
+Description: 'Data Science is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data.'
 Subjects:
   - 'Data Science'
   - 'Data Visualization'
@@ -18,7 +18,7 @@ CatalogContent:
   - 'learn-r'
 ---
 
-[Data Science](paths/data-science) is a multidisciplinary field of study that utilizes data collection, data analysis, data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
+**Data Science** is a multidisciplinary field of study that utilizes data collection, data analysis, and data visualization to extract insight from data. It incorporates skills from a long list of computer science, statistical, mathematical, and visual design disciplines.
 
 ## Application
 
@@ -26,19 +26,24 @@ Since the beginning of the 21st century, data science has been used in generally
 
 - Data Visualization
 - Data Engineering
-- Machine Learning & Deep Learning
-- Artificial Intelligence
-- Cloud and Distributed Computing
+- [Machine Learning](https://www.codecademy.com/resources/docs/general/machine-learning) & Deep Learning
+- [Artificial Intelligence](https://www.codecademy.com/resources/docs/general/artificial-intelligence)
+- [Cloud and Distributed Computing](https://www.codecademy.com/resources/docs/general/cloud-computing)
 - Business Intelligence and Strategy
 
 ## Languages and Tools
 
-- Python (Matplotlib, Pandas, Scikit-learn, TensorFlow, NLTK)
-- R (ggplot2)
+- [Python](https://www.codecademy.com/resources/docs/python)
+  - Matplotlib
+  - [Pandas](https://www.codecademy.com/resources/docs/pandas)
+  - Scikit-learn
+  - TensorFlow
+  - NLTK
+- [R](https://www.codecademy.com/resources/docs/r) (ggplot2)
 - Excel
 - Tableau
-- SQL
-- Jupyter Notebook
+- [SQL](https://www.codecademy.com/resources/docs/sql)
+- [Jupyter Notebook](https://www.codecademy.com/resources/docs/general/jupyter-notebook)
 - MATLAB
 
 ## History

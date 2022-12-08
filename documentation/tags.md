@@ -21,6 +21,7 @@ ASP.NET
 Asymptotic Notation
 Async Await
 Attributes
+Authentication
 Automation
 Azure
 A-Frame
@@ -41,11 +42,13 @@ Box Plot
 Browser Compatibility
 Browsers
 Bubble Sort
+Buttons
 Catch
 Characters
 Chatbots
 Cryptocurrency
 Classes
+Cloud Computing
 Code Editors
 Collections
 Colors
@@ -53,6 +56,7 @@ Combinators
 Command Line
 Comments
 Comparison
+Compilation
 Components
 Computer Vision
 CMS
@@ -139,6 +143,7 @@ IDE
 If
 Images
 Index
+Infrastructure
 Inheritance
 Input
 Integers
@@ -189,6 +194,7 @@ NumPy
 Objects
 Obsolete
 OOP
+Open Source
 Operating Systems
 Operators
 Optionals
@@ -218,6 +224,7 @@ Range
 React
 React Native
 Readr
+Rectangle
 Recursion
 Redux
 References
@@ -251,6 +258,7 @@ Strings
 Structure
 Style
 SwiftUI
+SwiftUI Views
 Switch
 Symbol
 Syntax

@@ -32,7 +32,7 @@ Contributing follows this workflow:
 
 If you haven't gone through this workflow before, you can check out [this GitHub tutorial](https://github.com/firstcontributions/first-contributions#readme) (highly recommend) or [this YouTube video](https://www.youtube.com/watch?v=rgbCcBNZcdQ) to learn about how to make a PR from a fork using Git.
 
-Alternatively, if you'd prefer to keep things to the GitHub UI, you can follow the instructions in that video up to 1:18 to fork this repo. After that, you can create your entry in your fork using the UI and then make a PR by pressing this handy button:<br>
+Alternatively, if you'd prefer to work directly on GitHub, you can follow the instructions in that video up to 1:18. After forking this repo, you can create your entry in your fork using the website's user interface and make a PR by pressing this handy button:<br>
 
 <img src="https://github.com/Codecademy/docs/blob/main/media/pull-request-ui.png" alt="Code block with Codebyte tags" width="800"/>
 
@@ -73,11 +73,12 @@ Before creating new entries, poke around the [/content](https://github.com/Codec
 
 Please read through the following in the [/documentation](https://github.com/Codecademy/docs/tree/main/documentation) folder. In these links, you'll find a write-up of our standards for content and style:
 
+- [Catalog Content Guide](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md)
 - [Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md)
 - [Tags List](https://github.com/Codecademy/docs/blob/main/documentation/tags.md)
 - [Subjects List](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md)
 
-And here, templates for creating your new entries.
+The following are templates for creating your new entries:
 
 | Template                                                                                                 | GitHub Example                                                                                                                                                                                                                      | Docs Example                                                            |
 | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -87,7 +88,7 @@ And here, templates for creating your new entries.
 
 ### Codecademy Username
 
-As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry (this feature is coming in October)!
+As a Codecademy Docs contributor, you have the opportunity to have your Codecademy username displayed on the side of the entry!
 
 If you wish to have your Codecademy profile listed in the entry, before making the PR, make sure that your Codecademy user profile and your GitHub are linked, and that your Codecademy profile is set to public. You can stay anonymous by not linking them.
 
@@ -104,7 +105,7 @@ To link your Codecademy user profile to GitHub:
 - Before making a PR, make sure you pushed your changes from a branch other than `main`.
 - Name the new branch after the changes being pushed to the PR.
 - Keep your PRs byte-sized. No more than 3 new entries per PR!
-- All contributors must sign the Contributor License Agreement (CLA).
+- All contributors must sign the [Contributor License Agreement (CLA)](<[url](https://cla-assistant.io/Codecademy/docs)>).
 - All required [status checks](https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks) are expected to pass in each PR.
 - PRs will be marked as **invalid** if there is no consistent activity within a **2-week period** on the contributor's part and content does not meet or pass standard formatting, quality, and plagiarism checks.
 - We require at least two round of reviews from the [content team members](https://github.com/codecademy/docs#-content-team). Make sure to make the changes after each round.

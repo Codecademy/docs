@@ -13,6 +13,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `functools` module contains functions that support a [functional programming](https://www.codecademy.com/resources/docs/general/functional-programming) approach in Python.
+The **`functools` module** contains functions that support a [functional programming](https://www.codecademy.com/resources/docs/general/programming-paradigms/functional-programming) approach in Python.
 
 The following functions are provided by this module.

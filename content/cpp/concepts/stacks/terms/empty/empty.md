@@ -33,15 +33,16 @@ The following example uses the `.empty()` method to [loop](https://www.codecadem
 #include <stack>
 #include <string>
 
-int main(){
-
+int main()
+{
   std::stack<std::string> myStack;
   myStack.push("A");
   myStack.push("B");
   myStack.push("C");
   myStack.push("D");
 
-  while (!myStack.empty()) {
+  while (!myStack.empty())
+  {
     std::cout << ' ' << myStack.top();
     myStack.pop();
   }
