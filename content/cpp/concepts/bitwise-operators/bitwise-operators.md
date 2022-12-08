@@ -108,7 +108,7 @@ For example:
 int main() {
   std::cout << (4 << 1) << "\n";
   // Output: 1000 = 8
-  
+
   std::cout << (4 << 2) << "\n";
   // Output: 10000 = 16
 
@@ -146,7 +146,7 @@ In the example above, 00 is added to the left side of 4 (100 in base-2). Then, t
 int main() {
   std::cout << (4 >> 1) << "\n";
   // Output: 10 = 2
-  
+
   std::cout << (4 >> 2) << "\n";
   // Output: 1 = 1
 
@@ -180,7 +180,7 @@ The first bit of a signed integer is used to determine whether the result is pos
 int main() {
   std::cout << (~(int)5) << "\n";
   // Output: 1111111111111010 = -6
-  
+
   std::cout << (~(unsigned int)5) << "\n";
   // Output: 11111111111111111111111111111010 = 4294967290
 
