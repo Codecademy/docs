@@ -33,8 +33,8 @@ Feel free to add suggestions for new slugs to the lists as part of your PR! Be s
 ### Command Line
 
 ```
-- "learn-the-command-line"
-- "paths/computer-science"
+- 'learn-the-command-line'
+- 'paths/computer-science'
 ```
 
 ### CSS
