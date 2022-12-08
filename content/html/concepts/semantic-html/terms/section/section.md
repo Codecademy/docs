@@ -63,7 +63,7 @@ Suppose the current page wants to add two sections:
 </html>
 ```
 
-## Alternatives to `<section>`
+## Alternative Elements
 
 There are also examples where we can use other elements that semantically fit better than the `<section>` element.
 
