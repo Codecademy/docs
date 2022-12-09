@@ -25,7 +25,6 @@ The `angle` parameter is expressed in radians.
    - returns the `trigonometric` sine of the specified angle
   -  returns `NaN` if the specified angle is NaN or infinity
 
-
 ## Example
 
 The following example demonstrates the application of `.sin()` method:
