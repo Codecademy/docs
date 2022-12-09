@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-In [SwiftUI](https://www.codecademy.com/resources/docs/swiftui), a **`ViewModifier`** is a protocol that can be called on a particular [view](https://www.codecademy.com/resources/docs/swiftui/views). Modifier methods adhere to the protocol and return a new, altered `View`, that will replace the originally created `View`.
+A **`ViewModifier`** is a protocol that can be called on a particular [view](https://www.codecademy.com/resources/docs/swiftui/views). Modifier methods adhere to the protocol and return a new, altered `View` that will replace the originally created `View`.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ struct ContentView: View {
 }
 ```
 
-In the example above, the `.font()` and `.bold()` modifiers are called on a `Text` view. In addition, a built-in text style, `.title` property, is passed into the `.font` modifier.
+In the example above, the `.font()` and `.bold()` modifiers are called on a `Text` view. In addition, a built-in text style, `.title` property, is passed into the `.font()` modifier.
 
 This will display:
 
