@@ -52,7 +52,6 @@ Arithmetic Operation
 Written by Ebube
 */
 
-
 // Calculate sum of values
 var operation = 100 + 50 
 
