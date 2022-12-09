@@ -27,6 +27,6 @@ On [Unix](https://www.codecademy.com/resources/docs/general/unix) and Unix-like 
 | Variable | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
 | `PATH`   | Contains a list of directories that the terminal searches for commands. |
-| `HOME`   | The default path to the current user's home directory                   |
-| `USER`   | The current user name                                                   |
-| `LANG`   | The default locale                                                      |
+| `HOME`   | The default path to the current user's home directory.                   |
+| `USER`   | The current user's name.                                                   |
+| `LANG`   | The default locale.                                                      |
