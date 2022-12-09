@@ -21,7 +21,7 @@ The **`Ellipse`** is one of SwiftUI pre-built shapes like [rectangles](https://w
 ```pseudo
 var body: some View {
     Ellipse()
-        Modifiers here
+        // Modifiers here
 }
 ```
 
@@ -39,4 +39,4 @@ var body: some View {
 
 This will display the following:
 
-![Ellipse](https://raw.githubusercontent.com/Codecademy/docs/main/media/ellipse.png)
+![Ellipse](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-ellipse.png)
