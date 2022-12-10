@@ -1,6 +1,6 @@
 ---
 Title: 'Capsule'
-Description: 'Built-in capsule shape that can be modified as needed.'
+Description: 'Creates a capsule shape that can be modified as needed.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
