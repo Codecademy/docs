@@ -20,7 +20,7 @@ The **`List`** view arranges its elements into a column. It can be either static
 ```pseudo
 var body: some View {
     List {
-        // Subviews here
+        Subviews here
     }
 }
 ```
