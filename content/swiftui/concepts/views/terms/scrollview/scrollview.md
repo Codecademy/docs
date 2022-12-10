@@ -33,34 +33,35 @@ The `ScrollView` view rests within the body of a `View`. It can accept two param
 
 ## Example
 
-In the example below, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
+In the first example below, the `ScrollView` scrolls vertically and contains a `LazyHStack` that consists of rows stacked on top of each other in the view:
 
 ```swift
 var body: some View {
-    VStack(spacing: 30) {
-        Text("Vertical ScrollView")
-            .font(.caption)
+    Text("Vertical ScrollView")
+        .font(.caption)
 
-        ScrollView(.vertical) {
-            LazyVStack {
-                ForEach(0 ... 50, id: \.self) {
-                    Text("Row \($0)")
-                }
-            }
-        }
-
-        Text("Horizontal ScrollView")
-            .font(.caption)
-
-        ScrollView(.horizontal) {
-            LazyHStack {
-                ForEach(0 ... 50, id: \.self) {
-                    Text("Row \($0)")
-                }
+    ScrollView(.vertical) {
+        LazyVStack {
+            ForEach(0 ... 10, id: \.self) {
+                Text("Row \($0)")
             }
         }
     }
-}
+```
+In this example, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
+
+```swift
+var body: some View {
+    Text("Horizontal ScrollView")
+        .font(.caption)
+
+    ScrollView(.horizontal) {
+        LazyHStack {
+            ForEach(0 ... 10, id: \.self) {
+                Text("Row \($0)")
+            }
+        }
+    }
 ```
 
 `ScrollView()` displays the content within the scrollable region and adjusts what portion of the content is visible. Here, the axis is set to `.horizontal`, which allows for horizontal scrolling. `ScrollView()` natively will scroll vertically and the paramenter inside the brackets can be omitted.
