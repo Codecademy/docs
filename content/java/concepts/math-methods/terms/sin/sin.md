@@ -23,7 +23,7 @@ Math.sin(angle)
 The `angle` parameter is expressed in radians.
 
 - Returns the `trigonometric` sine of the specified angle.
-  -  returns `NaN` if the specified angle is NaN or infinity
+- Returns `NaN` if the specified angle is NaN or infinity.
 
 ## Example
 
