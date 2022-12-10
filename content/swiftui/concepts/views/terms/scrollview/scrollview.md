@@ -48,6 +48,7 @@ var body: some View {
         }
     }
 ```
+
 In this example, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
 
 ```swift
