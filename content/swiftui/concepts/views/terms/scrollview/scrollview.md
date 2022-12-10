@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`ScrollView`** display the content within the scrollable content region. Based on platform appropriate scroll gestures, or how the code works, the view can scroll vertically, horizontally or both.
+The **`ScrollView`** displays content within the scrollable content region. Based on platform appropriate scroll gestures, or how the code works, the view can scroll vertically, horizontally, or both.
 
 ## Syntax
 
