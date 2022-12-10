@@ -40,7 +40,9 @@ var body: some View {
 ```
 
 - `(style: .continuous)` makes the shape look more natural to the eye by giving continuity to the rounded borders.
-- `(style: .circular)` is another modifier that can be used, when omitting modifiers from `Capsule` this will be the native one
+- `(style: .circular)` is another styling attribute Capsules have and the outcome looks sharper on the screen.
+
+Swift will assign a circular style automatically when no style attribute is specified.
 
 The code-block above will display a `Capsule` filled with the color red and set a frame that is `250` points wide and `50` points high.
 
