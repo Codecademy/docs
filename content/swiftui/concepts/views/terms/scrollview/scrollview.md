@@ -37,9 +37,6 @@ In the first example below, the `ScrollView` scrolls vertically and contains a `
 
 ```swift
 var body: some View {
-    Text("Vertical ScrollView")
-        .font(.caption)
-
     ScrollView(.vertical) {
         LazyVStack {
             ForEach(0 ... 10, id: \.self) {
@@ -53,9 +50,6 @@ In this example, the `ScrollView` scrolls horizontally and contains a `LazyHStac
 
 ```swift
 var body: some View {
-    Text("Horizontal ScrollView")
-        .font(.caption)
-
     ScrollView(.horizontal) {
         LazyHStack {
             ForEach(0 ... 10, id: \.self) {
