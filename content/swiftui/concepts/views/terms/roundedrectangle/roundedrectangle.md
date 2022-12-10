@@ -23,7 +23,7 @@ SwiftUI has several built-in shapes, such as a [rectangle](https://www.codecadem
 ```pseudo
 var body: some View {
   RoundedRectangle(cornerRadius: Int)
-    // modifiers
+    // Modifiers here
 }
 ```
 
