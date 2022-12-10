@@ -1,6 +1,6 @@
 ---
 Title: 'RoundedRectangle'
-Description: 'A rectangular shape with rounded corners inside the frame of the view containing it.'
+Description: 'Creates a rectangular shape with rounded corners inside the frame of the view containing it.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
