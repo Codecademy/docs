@@ -66,4 +66,4 @@ public class MyClass {}
 ```
 
 
-Interested in helping build Docs? Read the Contribution Guide or share your thoughts in this feedback form.
+Interested in helping build Docs? Read the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) or share your thoughts in this [feedback form](https://codecademyready.typeform.com/to/hzVIWDgz?typeform-source=www.codecademy.com).
