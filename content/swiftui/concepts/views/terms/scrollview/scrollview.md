@@ -26,8 +26,10 @@ var body: some View {
 }
 ```
 
-The `ScrollView` view rests within the body of a `View`.
-`ScrollView` can accept two parameters, `.vertical` which is usually the standard if not specified, and `.horizontal` which makes the view scroll horizontally. 
+The `ScrollView` view rests within the body of a `View`. It can accept two parameters:
+
+- `.vertical` which is usually the standard if not specified.
+- `.horizontal` which makes the view scroll horizontally. 
 
 ## Example
 
