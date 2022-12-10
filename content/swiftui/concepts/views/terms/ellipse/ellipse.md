@@ -1,6 +1,6 @@
 ---
 Title: 'Ellipse'
-Description: 'Built-in ellipse shape that can be modified as needed.'
+Description: 'Creates an ellipse shape that can be modified as needed.'
 Subjects:
   - 'Software Development'
   - 'Mobile Development'
