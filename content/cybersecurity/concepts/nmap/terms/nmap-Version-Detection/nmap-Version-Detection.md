@@ -2,19 +2,23 @@
 Title: 'Nmap Version Detection'
 Description: 'Version detection provides information on all identified open ports which interrogating the ports using probes that are understood by specific services.'
 Subjects:
-    - 'Computer Science'
-    - 'Networking'
+  - 'Computer Science'
+  - 'Networking'
 Tags:
-    - 'Ethical Hacking'
-    - 'Cybersecurity'
+  - 'Ethical Hacking'
+  - 'Cybersecurity'
 Catalog/content:
-    - 'introduction-to-ethical-hacking'
-    - 'paths/scan-systems-with-nmap'
+  - 'introduction-to-ethical-hacking'
+  - 'paths/scan-systems-with-nmap'
 ---
 
-
-
-**Version detection** provides information on all identified open ports which interrogating the ports using probes that are understood by specific services. Version Detection is done with the `-sV` command and is able to identify the version number, the service type, the operating system, the hostname, etc…
+**Version detection** provides information on all identified open ports interrogating them using probes that generate specific responses by specific services. Version Detection is done with the `-sV` command and can identify the version number, the service type, the operating system, the hostname, etc…
+the command can be customized with the following options:
+    * --allports
+    * --version-intensity
+    * --version-light
+    * --version-all
+    * --version-trace
 
 ## Syntax
 
@@ -22,11 +26,11 @@ Catalog/content:
 nmap -sV <localhost>
 ```
 
-The command starts an assessment on <localhost>, in which <localhost> is the target.
+The command starts an assessment on "localhost".
 
 ## Example
 
-The following paragraph demonstrates the use of Version Detection:
+The following paragraph demonstrates the use of Version Detection in _scanme.nmap.org_:
 
 ```shell
 nmap -sV scanme.nmap.org
@@ -51,4 +55,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 11.82 seconds
 ```
+
+
 
