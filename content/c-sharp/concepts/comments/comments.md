@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Code Foundations'  
 Tags: 
-- 'Syntax'
+  - 'Syntax'
 - 'Comments'
 CatalogContent: 'C#-Course'
 ---
