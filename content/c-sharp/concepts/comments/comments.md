@@ -1,6 +1,6 @@
 ---
 Title: 'C# Comments'
-Description: 'Explaining different types of C# comments.'
+Description: 'A comment is a piece of text within a program that is not executed.'
 Subjects: - 'Computer Science'
 Tags: 
 - 'Syntax'
