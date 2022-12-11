@@ -42,4 +42,4 @@ var body: some View {
 
 This will display the following:
 
-![RoundedRectangle](https://raw.githubusercontent.com/Codecademy/docs/main/media/rounded-rectangle.png)
+![RoundedRectangle](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-roundedrectangle.png)
