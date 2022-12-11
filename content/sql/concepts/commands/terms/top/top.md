@@ -7,8 +7,7 @@ Subjects:
 Tags:
   - 'Database'
   - 'Queries'
-  - 'T-SQL'
-  - 'Transact-SQL'
+  - 'SQL Server'
 CatalogContent:
   - 'learn-sql'
   - 'paths/analyze-data-with-sql'
@@ -18,21 +17,32 @@ Returns a specified number of rows from the top of the result.
 
 ## Syntax
 
+This command is used to select the inital rows from a table, limiting the result to a specified number, represented here by (n):
+
 ```sql
-SELECT TOP (10) column_name(s)
+SELECT TOP (n) column_name(s)
 FROM table_name;
 ```
 
+The command can also be used with PERCENT to limit the result to the top (n) percent of rows:
+
 ```sql
-SELECT TOP (25) PERCENT column_name(s)
+SELECT TOP (n) PERCENT column_name(s)
 FROM table_name;
 ```
 
-## Example
+## Examples
 
 The given query will display the top 5 rows from the `books` table.
 
 ```sql
 SELECT TOP (5) *
 FROM books;
+```
+
+The given query will display the top 25% of rows from the `films` table.
+
+```sql
+SELECT TOP (25) PERCENT movie_titles
+FROM movies;
 ```
