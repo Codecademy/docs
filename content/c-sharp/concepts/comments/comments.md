@@ -7,7 +7,9 @@ Subjects:
 Tags: 
   - 'Syntax'
   - 'Comments'
-CatalogContent: 'C#-Course'
+CatalogContent:
+  - 'learn-c-sharp'
+  - 'paths/computer-science'
 ---
 
 ## Comments
