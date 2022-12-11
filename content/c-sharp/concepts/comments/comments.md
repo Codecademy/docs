@@ -1,7 +1,9 @@
 ---
 Title: 'C# Comments'
 Description: 'A comment is a piece of text within a program that is not executed.'
-Subjects: - 'Computer Science'
+Subjects: 
+  - 'Computer Science'
+  - 'Code Foundations'  
 Tags: 
 - 'Syntax'
 - 'Comments'
