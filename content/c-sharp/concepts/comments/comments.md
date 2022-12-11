@@ -12,14 +12,21 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-## Comments
-
 A **comment** is a piece of text within a program that is not executed. It can be used to provide additional information to aid in understanding the code.
 
 
 ### Single-line Comments
 
+#### Syntax
+
 Single-line comments are created using two consecutive forward slashes. The compiler ignores any text after `//` on the same line.
+
+```cs
+// Comment goes here
+executing code // Comment goes here
+```
+
+#### Example
 
 The following example uses a single-line comment before a line of code:
 
@@ -48,17 +55,23 @@ None of it is going to run!
 ### XML Comments
 
 XML comments are structured comments that **produce API documentation**. The C# compiler produces an XML file that contains structured data representing the comments. Other tools can process that XML output to create human-readable documentation in the form of web pages or PDF files, for example.
+API docs, or API description documents, are the collection of references, tutorials, and examples that help developers use your API.
 
-#### Documentation
+#### Syntax
 
-    *Single-line: `///`
-    *Multi-line: `/** */`
+The following is a single line XML comment:
 
+```cs
+\\\ XML Comment goes here
+```
 
-#### API Documentation
+The following is a multi-line XML comment:
 
-API docs, or API description documents, are the **collection** of references, tutorials, and examples that **help developers use your API**.
-
+```cs
+/**
+XML Comments go here
+*/
+```
 
 #### Example
 
@@ -68,6 +81,3 @@ API docs, or API description documents, are the **collection** of references, tu
 /// </summary>
 public class MyClass {}
 ```
-
-
-Interested in helping build Docs? Read the [Contribution Guide](https://github.com/Codecademy/docs/blob/main/.github/CONTRIBUTING.md) or share your thoughts in this [feedback form](https://codecademyready.typeform.com/to/hzVIWDgz?typeform-source=www.codecademy.com).
