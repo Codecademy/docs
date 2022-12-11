@@ -48,4 +48,4 @@ The code-block above will display a `Capsule` filled with the color red and set 
 
 This will display the following:
 
-![Capsule](https://raw.githubusercontent.com/Codecademy/docs/main/media/capsule.png)
+![Capsule](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-capsule.png)
