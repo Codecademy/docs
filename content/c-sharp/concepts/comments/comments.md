@@ -6,7 +6,7 @@ Subjects:
   - 'Code Foundations'  
 Tags: 
   - 'Syntax'
-- 'Comments'
+  - 'Comments'
 CatalogContent: 'C#-Course'
 ---
 
