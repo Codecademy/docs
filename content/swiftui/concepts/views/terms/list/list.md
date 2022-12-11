@@ -44,4 +44,4 @@ var body: some View {
 
 This will display the following:
 
-![List](https://raw.githubusercontent.com/Codecademy/docs/main/media/list.png)
+![List](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-list.png)
