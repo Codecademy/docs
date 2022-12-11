@@ -17,7 +17,7 @@ When writing code in C#, common mathematical functions can be performed using th
 
 <details>
 <summary>Click here to learn more about .NET</summary>
-[.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) is a free, cross-platform, open source developer platform created by Microsoft.
+<a href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet">.NET</a> is a free, cross-platform, open source developer platform created by Microsoft.
 </details>
 
 ## Syntax
