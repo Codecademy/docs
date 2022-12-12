@@ -68,4 +68,4 @@ Let's take a look at what happens when you run this code in your terminal:
 
 ![Screenshot of terminal showing the breakpoint() formula](Screenshot-Terminal-Breakpoint.png)
 
-As you can see, the execution of our program was paused, and you get a prompt in the terminal. At this point, you can start analyzing your code using the previously mentioned commands.
+The execution of the program was paused, showing a prompt in the terminal. At this point the code can be analyzed using the previously mentioned commands.
