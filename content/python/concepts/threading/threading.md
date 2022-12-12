@@ -44,7 +44,7 @@ def run_threads():
   for thread_index in range(5):
     individual_thread = threading.Thread(target=slow_function, args=(thread_index,))
     threads.append(individual_thread)
-        individual_thread.start()
+    individual_thread.start()
     # at this point threads are running independently from the main flow of application and each other
   print("Main flow of application")
     for individual_thread in threads:
