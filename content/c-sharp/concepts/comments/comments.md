@@ -75,6 +75,9 @@ XML Comments go here
 
 #### Example
 
+Tags embedded in XML comments are used to signal a specific functionality of the XML comment to the compiler.
+The <summary> tag in the following example describes a type or a member, in this case the public class MyClass.
+
 ```cs 
 /// <summary>
 ///  This class performs an important function.
