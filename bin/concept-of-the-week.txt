@@ -1,1 +1,1 @@
-content/emojicode/concepts/interpolation/interpolation.md
+content/python/concepts/math-module/math-module.md
