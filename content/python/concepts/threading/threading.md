@@ -49,7 +49,7 @@ def run_threads():
   print("Main flow of application")
   for individual_thread in threads:
     individual_thread.join()
-    # joining threads insures that all threads finished their task before moving further in the main flow of application
+  # joining threads insures that all threads finished their task before moving further in the main flow of application
     print("All threads are done")
 
 run_threads()
