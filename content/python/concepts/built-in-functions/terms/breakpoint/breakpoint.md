@@ -50,7 +50,7 @@ The default is to work with `pdb` debugger. Here are some common commands used w
 
 - `q` (quit): Quit from the debugger. 
 
-For a full list of commands and more information, you can check out [the official documentation on Python's website](https://docs.python.org/3/library/pdb.html#debugger-commands).
+A full list of commands and more information are in [the official documentation on Python's website](https://docs.python.org/3/library/pdb.html#debugger-commands).
 
 ## Example
 
