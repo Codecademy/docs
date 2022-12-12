@@ -64,7 +64,7 @@ breakpoint()
 print("Welcome back to Codecademy!!")
 ```
 
-Let's take a look at what happens when you run this code in your terminal:
+This is what happens when running this code in the terminal:
 
 ![Screenshot of terminal showing the breakpoint() formula](Screenshot-Terminal-Breakpoint.png)
 
