@@ -41,7 +41,7 @@ def slow_function(thread_index):
 
 def run_threads():
   threads = []
-    for thread_index in range(5):
+  for thread_index in range(5):
         individual_thread = threading.Thread(target=slow_function, args=(thread_index,))
         threads.append(individual_thread)
         individual_thread.start()
