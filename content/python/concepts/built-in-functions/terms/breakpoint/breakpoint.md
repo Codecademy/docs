@@ -34,7 +34,7 @@ So, why did they introduce the `breakpoint()` function? For one, it is much more
 
 ### Common `pdb` Debugger Commands
 
-But by default, you'll be working with the `pdb` debugger. Here are some common commands you can use while debugging:
+The default is to work with `pdb` debugger. Here are some common commands used while debugging:
 
 - `h` (help): Print a list of available commands
 
