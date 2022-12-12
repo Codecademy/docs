@@ -37,7 +37,7 @@ import random
 
 def slow_function(thread_index):
     time.sleep(random.randint(1, 10))  # simulates waiting time, for example an API call response
-    print("Thread {} done!".format(thread_index))
+  print("Thread {} done!".format(thread_index))
 
 def run_threads():
     threads = []
