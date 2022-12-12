@@ -44,7 +44,7 @@ The default is to work with `pdb` debugger. Here are some common commands used w
 
 - `c` (continue): Continue execution, only stop when a breakpoint is encountered.
 
-- `w` (where): Print a stack trace, with the most recent frame at the bottom. That means  you'll see the code that is currently executing and its callers.
+- `w` (where): Print a stack trace, with the most recent frame at the bottom, showing the code that is currently executing and its callers.
 
 - `l` (list): Show the current location in the file and a few lines (by default 11 lines) of context.
 
