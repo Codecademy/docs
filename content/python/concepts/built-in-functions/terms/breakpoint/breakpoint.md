@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`breakpoint()`** function engages, configures, and changes the debugger program used in a script. 
 
-When a breakpoint is reached, it triggers a pause in the execution of the program, allowing you to examine and debug the current state of your code. This feature can be very helpful if you are trying to figure out why something isn't working correctly or just want to get an understanding of what is happening. With breakpoints, you can step through the code line-by-line, and watch the output as you progress through the program.
+When a breakpoint is reached, it triggers a pause in the execution of the program, allowing the programmer to examine and debug the current state of the code. This feature can be very helpful in trying to figure out why something isn't working correctly or getting an understanding of what is happening. With breakpoints, the programmer can step through the code line-by-line, and watch the output as they progress through the program.
 
 ## Syntax
 
