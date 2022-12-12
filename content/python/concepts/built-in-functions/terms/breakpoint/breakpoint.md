@@ -24,7 +24,7 @@ breakpoint()
 ```
 
 By default, the `breakpoint()` function imports the `pdb` debugger module.
-`breakpoint()` was introduced in [Python 3.7](https://docs.python.org/3/whatsnew/3.7.html#whatsnew37-pep553) via [PEP 553](https://peps.python.org/pep-0553/). In earlier versions of Python, you had to explicitly set up a debugger using the following syntax:
+`breakpoint()` was introduced in [Python 3.7](https://docs.python.org/3/whatsnew/3.7.html#whatsnew37-pep553) via [PEP 553](https://peps.python.org/pep-0553/). Earlier versions of Python required explicitly setting up a debugger using the following syntax:
 
 ```pseudo
 import pdb; pdb.set_trace()
