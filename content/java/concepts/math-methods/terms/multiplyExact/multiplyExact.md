@@ -24,7 +24,7 @@ The `.multiplyExact()` method takes two parameters. `x` and `y` (a multiplicand 
 
 The `.multiplyExact()` method returns the result of `x` multiplied by `y`.
 
-An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the result exceeds type `int` or `long`; or if either parameter is equal to:
+An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the result exceeds type `int` or `long` or is equal to:
 
 - `Integer.MAX_VALUE` or
 - `Integer.MIN_VALUE` or
