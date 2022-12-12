@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`RoundedRectangle`** view is a pre-built rectangular shape with rounded corners that is aligned inside the frame of the `View` containing it, and can be visually modified as desired.
+The **`RoundedRectangle`** view is a pre-built rectangular shape with rounded corners that is aligned inside the frame of the `View` containing it.
 
 SwiftUI has several built-in shapes, such as a [rectangle](https://www.codecademy.com/resources/docs/swiftui/views/rectangle), ellipse, and capsule.
 
@@ -22,8 +22,8 @@ SwiftUI has several built-in shapes, such as a [rectangle](https://www.codecadem
 
 ```pseudo
 var body: some View {
-  RoundedRectangle(cornerRadius: Int)
-    // Modifiers here
+    RoundedRectangle(cornerRadius: Int)
+        Modifiers here
 }
 ```
 
@@ -38,7 +38,6 @@ var body: some View {
         .frame(width: 200, height: 50)
 }
 ```
-
 
 This will display the following:
 
