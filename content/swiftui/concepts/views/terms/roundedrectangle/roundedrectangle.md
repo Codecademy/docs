@@ -29,7 +29,7 @@ var body: some View {
 
 ## Example
 
-The example below displays a cyan colored rectangle, with rounded corners, with a frame of `200` wide x `50` height:
+The example below displays a cyan colored rectangle, with rounded corners, with a frame of `200` points wide by `50` points high:
 
 ```swift
 var body: some View {
