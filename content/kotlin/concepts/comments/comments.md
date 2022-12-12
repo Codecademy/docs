@@ -35,7 +35,7 @@ println("This is a single line comment") // Prints text in ("...")
 Multi-line comments are created by surrounding the lines with `/*` at the beginning and `*/` at the end:
 
 ```kotlin
-/*  
+/*
 The text in ("...")
 would be only code to be executed
 */
@@ -53,7 +53,7 @@ Written by Ebube
 */
 
 // Calculate sum of values
-var operation = 100 + 50 
+var operation = 100 + 50
 
 println(operation)
 // Output: 150
