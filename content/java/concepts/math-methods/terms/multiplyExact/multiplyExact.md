@@ -26,10 +26,10 @@ The `.multiplyExact()` method returns the result of `x` multiplied by `y`.
 
 An [exception](https://www.codecademy.com/resources/docs/java/errors) is thrown if the result exceeds type `int` or `long` or is equal to:
 
-- `Integer.MAX_VALUE` or
-- `Integer.MIN_VALUE` or
-- `Long.MAX_VALUE` or
-- `Long.MIN_VALUE`.
+- `Integer.MAX_VALUE`
+- `Integer.MIN_VALUE`
+- `Long.MAX_VALUE`
+- `Long.MIN_VALUE`
 
 ## Example
 
