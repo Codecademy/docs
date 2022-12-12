@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Ellipse`** is one of SwiftUI pre-built shapes like [rectangles](https://www.codecademy.com/resources/docs/swiftui/views/rectangle), [circles](https://www.codecademy.com/resources/docs/swiftui/views/circle).
+The **`Ellipse`** is one of SwiftUI pre-built shapes like [rectangles](https://www.codecademy.com/resources/docs/swiftui/views/rectangle) and [circles](https://www.codecademy.com/resources/docs/swiftui/views/circle).
 
 ## Syntax
 
@@ -27,7 +27,7 @@ var body: some View {
 
 ## Example
 
-The following example makes a blue `Ellipse` with the dimension of `150` points wide by `50` points high:
+The following example makes a blue `Ellipse` with a dimension of `150` points wide by `50` points high:
 
 ```swift
 var body: some View {
