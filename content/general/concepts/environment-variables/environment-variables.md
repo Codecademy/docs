@@ -14,9 +14,9 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Environment variables** consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.
+**Environment variables** consist of a name/value pair and are set outside of applications, but accessible to applications from the environment in which the applications are run.
 
-Environment variables are often set via the [terminal](https://www.codecademy.com/resources/docs/general/terminal) or in a script, though how they are managed and retrieved varies depending on the operating system or environment. For example, they can be used to store system configuration data or private keys for applications.
+Environment variables are often set via the [terminal](https://www.codecademy.com/resources/docs/general/terminal) or in a script. How they are managed and retrieved varies depending on the operating system or environment. For example, they can be used to store system configuration data or private keys for applications.
 
 ## Relationship with Unix and Unix-like Variants
 
@@ -27,6 +27,6 @@ On [Unix](https://www.codecademy.com/resources/docs/general/unix) and Unix-like 
 | Variable | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
 | `PATH`   | Contains a list of directories that the terminal searches for commands. |
-| `HOME`   | The default path to the current user's home directory.                   |
-| `USER`   | The current user's name.                                                   |
-| `LANG`   | The default locale.                                                      |
+| `HOME`   | The default path to the current user's home directory.                  |
+| `USER`   | The current user's name.                                                |
+| `LANG`   | The default locale.                                                     |
