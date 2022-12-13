@@ -46,7 +46,6 @@ The following example demonstrates the application of `.tanh()` method:
 // Check.java
 public class Check {
   public static void main(String args[]) {
-
   // num value in degrees
     double num = 45.0;
 
