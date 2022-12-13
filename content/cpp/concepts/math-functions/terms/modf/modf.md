@@ -1,6 +1,6 @@
 ---
 Title: 'modf()'
-Description: 'Splits the given number into an integral and a fractional part.'
+Description: 'Splits a given number into an integral and a fractional part.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`modf()`** function splits the given number into an integral and a fractional part. The function stores the integral part in the object passed to `modf()` as an argument. The function returns the fractional part.
+The **`modf()`** function splits a given number into an integral and a fractional part.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ modf(number, integralPart)
 The `modf()` function takes two parameters:
 
 - `number`, a floating point value (`double`, `float` or `long double`) to split into integral and fractional parts.
-- `integralPart`, a pointer to floating point value to store the integral part. It will have the same type and sign as `number`.
+- `integralPart`, a [pointer](https://www.codecademy.com/resources/docs/cpp/pointers) to `number` that stores the integral part. It will have the same type and sign as `number`.
 
 The `modf()` function returns the fractional part of `number` with the same sign as `number`.
 
@@ -34,8 +34,7 @@ This example uses the `modf()` function to return the fractional part of `6.0221
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double num1 = 6.02214;
   double intPart;
   double fractPart;
@@ -56,20 +55,19 @@ This example results in the following output:
 
 ## Codebyte Example
 
-This example uses the `modf()` function to take an argument of `1.602176634` and returns the fractional part of it while also storing the value of the integral part of the argument into `integral`:
+This example uses the `modf()` function to take an argument of `1.602176634` and return its fractional part while also storing the value of the integral part of the argument into `integral`:
 
 ```codebyte/cpp
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 1.602176634;
   double fractional;
   double integral;
 
   fractional = modf(x, &integral);
-  
+
   std::cout << "The fractional part of the given number is: " << fractional << "\n" << "The integral part of the given number is: " << integral << "\n";
 
   return 0;
