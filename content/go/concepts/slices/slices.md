@@ -67,7 +67,7 @@ A slice can be initialized using `make`.
 
 #### Syntax
 
-A slice with zero values can be created using `make`. The data type, length and capacity can be set using the syntax below. The new slice will be created with `<length>` number of zero value elements.
+A slice with zero values can be created using `make()`. The data type, length, and capacity can be set using the syntax below. The new slice will be created with `<length>` number of zero-value elements.
 
 ```pseudo
 new_slice := make([]<datatype>, <length>, <capacity>)
