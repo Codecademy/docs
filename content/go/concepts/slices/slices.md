@@ -1,6 +1,6 @@
 ---
 Title: 'Slices'
-Description: 'Slices in Go are similar to arrays, but with the flexibility of being able to change their size.'
+Description: 'A slice in Go is a pointer to a section of an array. They are like arrays, but with the flexibility of being dynamically sized.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
