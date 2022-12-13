@@ -17,7 +17,7 @@ A **slice** in Go is a pointer to a section of an array. They are like arrays, b
 
 The length of a slice is the number of elements in the slice. The length can be found using `len(slice_name)`.
 
-The capacity can be found using `cap(slice_name)`. It is the number of elements in the underlying array from the slice's start index to the end of the array.
+The capacity of a slice is the number of elements in the underlying array from the slice's start index to the end of the array. The capacity can be found using `cap(slice_name)`.
 
 ## Creating and Initializing Slices
 
