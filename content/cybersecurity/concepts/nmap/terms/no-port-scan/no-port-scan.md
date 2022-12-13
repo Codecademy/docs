@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A Nmap **no port scan** prevents Nmap from doing a port scan after host discovery. It is specified with the `-sn` option. Used by itself it is also known as a "ping" scan. It is less intrusive and attracts less attention than a full port scan.
+A **no port scan** prevents Nmap from doing a port scan after host discovery. It is specified with the `-sn` option. Used by itself, it is also known as a "ping" scan. It is less intrusive and attracts less attention than a full port scan.
 
 > **Note:** This option is often combined with a [no ping scan (`-Pn`)](https://www.codecademy.com/resources/docs/cybersecurity/nmap/no-ping-scan).
 
