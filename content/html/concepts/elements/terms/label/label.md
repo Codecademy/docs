@@ -17,12 +17,12 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<label/>` element is used to identify captions for other HTML elements. This is most commonly used with form elements such as the [**`<input>`**](https://www.codecademy.com/resources/docs/html/elements/input/input.md) element. The `<label>` tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
+The `<label/>` element is used to identify captions for other HTML elements. `<label/>` is most commonly used with form ui elements such as the [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input/input.md) element. The `<label>` tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
 
 ## Syntax
 
 ```html
-<label>Input Label</label>
+<label>Label display text</label>
 ```
 
 ## Usages
