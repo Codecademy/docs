@@ -1,4 +1,3 @@
-
 ---
 Title: 'Programming Optimization'
 Description: 'Optimization in programming is the process of modifying a software system to execute faster and become more efficient by minimizing the use of available computing resources.'
@@ -12,7 +11,7 @@ CatalogContent:
   - 'web-development'
 ---
 
-***Programming Optimization*** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of others, e.g., increasing the size of cache improves run-time performance but also increases memory consumption.
+**Programming Optimization** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of others, e.g., increasing the size of cache improves run-time performance but also increases memory consumption.
 
 It has become an important focal point since today’s users appreciate a highly performant experience and have significantly higher expectations. It has become a deciding factor of the success of modern business in today’s digital market. Optimization in programming is a key element in the improvement of such performance.
 
@@ -41,7 +40,7 @@ These are important points to target for optimization in programming:
 
 Every application, generally, is composed of 2 areas where programming optimizations can be applied within levels of development:
 
-***Client Side***, which is the side seen on the web browser by the user, includes: 
+**Client Side**, which is the side seen on the web browser by the user, includes: 
 - JavaScript that runs in the browser 
 - load times for pages 
 - images 
@@ -55,7 +54,7 @@ A few of the techniques that can be applied optimize the programming on the clie
 - removing duplicate JavaScript and CSS code 
 - using minimalist styling frameworks, etc. 
 
-***Server Side***, this second side relates to any computations done behind the scenes, tends to involve: 
+**Server Side**, this second side relates to any computations done behind the scenes, tends to involve: 
 - database queries and processing 
 - application configuration and dependencies, etc.         
 
