@@ -25,11 +25,12 @@ The `value` parameter represents a positive or negative floating-point value. Th
 
 The following example returns the nearby integer of `1.5`:
 
-```codebyte/cpp
+```cpp
 #include <iostream>
 #include <cmath>
 
-int main(){
+int main()
+{
   double value = 1.50;
   int result;
   result = std::nearbyint(value);
@@ -53,7 +54,8 @@ The following example returns the nearby integer of `2.9`:
 #include <iostream>
 #include <cmath>
 
-int main(){
+int main()
+{
   float value = 2.9;
   int result;
   result = std::nearbyint(value);
