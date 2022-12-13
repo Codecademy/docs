@@ -21,7 +21,7 @@ The **`Math.tanh()`** method returns the hyperbolic sine of a `double`-type valu
 Math.tanh(double num)
 ```
 
-The tanh() method takes a single parameter.
+The `.tanh()` method takes a single parameter.
 
 `num` - value of an angle whose hyperbolic tangent is to be determined
 
