@@ -23,7 +23,7 @@ A **no ping scan** prevents Nmap from doing any host discovery. It is specified 
 nmap -Pn <target>
 ```
 
-This performs a scan of <target> without doing host discovery.
+This performs a scan of `<target>` without doing host discovery.
 
 ## Example
 
