@@ -23,7 +23,7 @@ Math.tanh(double num)
 
 The `.tanh()` method takes a single parameter.
 
-`num` - value of an angle whose hyperbolic tangent is to be determined
+`num` is the value of an angle whose hyperbolic tangent is to be determined.
 
 > Note: The value is given in radians.
 
