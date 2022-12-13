@@ -13,7 +13,7 @@ CatalogContent:
 - 'paths/build-web-apps-with-asp-net'
 ---
 
-When writing code in C#, common mathematical functions can be performed using the **Sysem.Math** class. System.Math is a static class that is included within **.NET** as part of the **System** `namespace`. 
+When writing code in C#, common mathematical functions can be performed using the **System.Math** class. System.Math is a static class that is included within .NET as part of the `System` namespace. 
 
 <details>
 <summary>Click here to learn more about .NET</summary>
