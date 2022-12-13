@@ -22,7 +22,7 @@ When writing code in C#, common mathematical functions can be performed using th
 
 ## Syntax
 
-The **using directive** `using System;` can be included within a .cs file to gain access to the Math class.
+The using directive `using System;` can be included within a .cs file to gain access to the Math class.
 
 The Math class is static and is accessed without needing to create an instance.
 
