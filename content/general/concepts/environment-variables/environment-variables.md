@@ -1,6 +1,6 @@
 ---
 Title: 'Environment Variables'
-Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to them from the environment in which they are run.'
+Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to applications from the environment in which the applications are run.'
 Subjects:
   - 'Bash/Shell'
   - 'Computer Science'
