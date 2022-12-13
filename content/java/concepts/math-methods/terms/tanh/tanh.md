@@ -53,7 +53,6 @@ public class Check {
      num = Math.toRadians(num);
 
   // compute and print hyperbolic tangent
-
      System.out.println(Math.tanh(num));
   }
 }
