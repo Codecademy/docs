@@ -1,6 +1,6 @@
 ---
 Title: 'System.Math'
-Description: 'Explanation of the Math class contained within the System namespace of Microsofts .NET platform.'
+Description: 'Common mathematical functions can be performed using the System.Math class.'
 Subjects: 
 - 'Code Foundations'
 - 'Computer Science'
