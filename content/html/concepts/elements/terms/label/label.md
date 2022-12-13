@@ -35,25 +35,17 @@ The `<label>` tag can define a label for several elements:
 - [`<select>`](../select/select.md)
 - [`<textarea>`](../textarea/textarea.md)
 
-```suggestion
 > **Note:** `<label>` tags are essential for good accessbility.
-```
-
-```suggestion
+>
 > - '<label>' tags creates captions for its coresponding UI elements.
-```
-
-```suggestion
 > - Also, when a user clicks the text within the `<label>` element, it toggles the corresponding input. This is great for users who have difficulty clicking on small UI elements such as checkboxes.
-```
 
 ## Atributes
 
 Some common attributes used to set properties for the `<label>` element are shown below:
 
-|   Attribute    |   Data Type   | Description
-|   `for`    |   String   | Specifies the id of the form element the `<label>` should be bound to.
-|   `form`    |   String   | Specifies which form the `<label>` belongs to.
+- `for`: Specifies the id of the form element the `<label>` should be bound to.
+- `form`:  Specifies which form the `<label>` belongs to.
 
 Multiple label elements can be used for the same UI element.
 
@@ -89,9 +81,7 @@ Multiple `<label>` elements can be used for the same UI element.
 
 ## Example
 
-```suggestion
-The following examples uses a `<form>` element that features `<input>` elements with coresponding `<label>` tags:
-```
+The following example uses a `<form>` element that features `<input>` elements with coresponding `<label>` tags:
 
 ```html
 <html>
