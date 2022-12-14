@@ -20,10 +20,11 @@ The **`Math.sin()`** method returns the trigonometric sine of an angle argument,
 ```pseudo
 Math.sin(angle)
 ```
+
 The `angle` parameter is expressed in radians.
 
-- Returns the `trigonometric` sine of the specified angle.
-- Returns `NaN` if the specified angle is NaN or infinity.
+- The result is in the range [-1,1].
+- If the `angle` is `NaN` or infinity, `NaN` is returned.
 
 ## Example
 
