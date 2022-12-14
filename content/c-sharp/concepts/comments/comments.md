@@ -7,6 +7,7 @@ Subjects:
 Tags: 
   - 'Syntax'
   - 'Comments'
+  - 'Documentation'
 CatalogContent:
   - 'learn-c-sharp'
   - 'paths/computer-science'
