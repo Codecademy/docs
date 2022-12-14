@@ -1,6 +1,6 @@
 ---
 Title: 'No Ping Scan'
-Description: 'A Nmap no ping scan prevents Nmap from doing any host discovery.'
+Description: 'Prevents Nmap from doing any host discovery.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
