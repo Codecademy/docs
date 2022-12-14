@@ -44,6 +44,6 @@ public class Check {
 
 This results in the following output:
 
-```java
+```shell
 Sine of 60 degrees is 0.866025
 ```
