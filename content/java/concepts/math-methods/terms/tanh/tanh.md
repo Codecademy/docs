@@ -21,11 +21,7 @@ The **`Math.tanh()`** method returns the hyperbolic sine of a `double`-type valu
 Math.tanh(double num)
 ```
 
-The `.tanh()` method takes a single parameter.
-
-`num` is the value of an angle whose hyperbolic tangent is to be determined. The value is given in radians.
-
-The return type of the `.tanh()` method is a `double`.
+The `.tanh()` method takes a single `num` parameter that represents the angle (given in radians) whose hyperbolic tangent is to be determined. The return type of the `.tanh()` method is a `double`.
 
 Some special cases for the `.tanh()` method include the following:
 
@@ -47,7 +43,7 @@ public class Check {
     // num value in degrees
     double num = 45.0;
 
-    // converting num into radians
+    // converting into radians
     num = Math.toRadians(num);
 
     // compute and print hyperbolic tangent
