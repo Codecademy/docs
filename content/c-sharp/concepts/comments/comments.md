@@ -1,5 +1,5 @@
 ---
-Title: 'C# Comments'
+Title: 'Comments'
 Description: 'A comment is a piece of text within a program that is not executed.'
 Subjects: 
   - 'Computer Science'
