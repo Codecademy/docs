@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.multiplyExact()`** method returns the product of its arguments. It is a static method and it is accessed by using the `Math` class.
+The **`.multiplyExact()`** method returns the product of its arguments.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ The **`.multiplyExact()`** method returns the product of its arguments. It is a 
 Math.multiplyExact(x, y)
 ```
 
-The `.multiplyExact()` method takes two parameters:`x` and `y` (a multiplicand and multiplier). Both parameters must be of either [type](https://www.codecademy.com/resources/docs/java/data-types) `int` or `long`.
+The `.multiplyExact()` method takes two parameters: `x` and `y` (a multiplicand and multiplier). Both parameters must be of either [type](https://www.codecademy.com/resources/docs/java/data-types) `int` or `long`.
 
 The `.multiplyExact()` method returns the result of `x` multiplied by `y`.
 
