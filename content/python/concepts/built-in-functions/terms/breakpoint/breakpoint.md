@@ -38,7 +38,7 @@ The default is to work with `pdb` debugger. Here are some common commands used w
 
 - `h` (help): Print a list of available commands
 - `s` (step): Execute the current line, stop at the first possible occasion (either in a function that is called or on the next line in the current function).
--  `n` (next): Continue execution until the next line in the current function is reached, or it returns. The difference between next and step is that step stops inside a called function, while next executes called functions, only stopping at the next line in the current function.
+- `n` (next): Continue execution until the next line in the current function is reached, or it returns. The difference between next and step is that step stops inside a called function, while next executes called functions, only stopping at the next line in the current function.
 - `c` (continue): Continue execution, only stop when a breakpoint is encountered.
 - `w` (where): Print a stack trace, with the most recent frame at the bottom, showing the code that is currently executing and its callers.
 - `l` (list): Show the current location in the file and a few lines (by default 11 lines) of context.
