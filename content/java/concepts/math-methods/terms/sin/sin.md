@@ -34,11 +34,11 @@ The following example demonstrates the application of `.sin()` method:
 // Check.java
 public class Check {
   public static void main(String args[]) {
-  // convert degrees to radians
-  double pi = Math.PI;
-  double degree = 60;
-  double radian = degree * pi/180;
-  System.out.println( "Sine of 60 degrees is " + Math.sin(radian));
+    // convert degrees to radians
+    double pi = Math.PI;
+    double degree = 60;
+    double radian = degree * pi/180;
+    System.out.println( "Sine of 60 degrees is " + Math.sin(radian));
   }
 }
 ```
