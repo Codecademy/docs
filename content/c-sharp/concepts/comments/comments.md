@@ -18,9 +18,7 @@ A **comment** is a piece of text within a program that is not executed. It can b
 
 ### Single-line Comments
 
-#### Syntax
-
-Single-line comments are created using two consecutive forward slashes. The compiler ignores any text after `//` on the same line.
+For single-line comments, the compiler ignores any text after two consecutive forward slashes (`//`) on the same line.
 
 ```cs
 // Comment goes here
