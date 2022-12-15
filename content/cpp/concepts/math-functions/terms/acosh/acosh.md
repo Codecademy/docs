@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`acosh()`** function returns the arc hyperbolic cosine of an angle given in radians.
+The **`acosh()`** function returns the arc hyperbolic cosine of the given argument.
 
 ## Syntax
 
