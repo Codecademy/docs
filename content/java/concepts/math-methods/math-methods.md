@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The Java `Math` class provides several methods that allows us to work on mathematical calculations with numbers.
+The Java `Math` class provides several static methods that allows us to work on mathematical calculations with numbers. These methods can be accessed by using the `Math` class with a given method:
 
 ```java
 Math.method();
