@@ -23,7 +23,7 @@ The `n` parameter can be a floating-point value (e.g., a `long` or `double`) or 
 
 ## Example
 
-This example uses the `acosh()` function to return the arc hyperbolic cosine of `1`:
+The following example uses the `acosh()` function to return the arc hyperbolic cosine of `1`:
 
 ```cpp
 #include <iostream>
