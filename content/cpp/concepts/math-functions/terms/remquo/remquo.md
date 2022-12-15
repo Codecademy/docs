@@ -23,3 +23,68 @@ remquo(numerator, denominator, int* quotient)
 The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value will either be a `double`, `float`, or `long double`. Combinations of these types will return a `double`. The parameter `quotient` must always be an `int` pointer.
 
 The remquo function calculates the floating-point remainder `f` of `numerator / denominator` such that `numerator = n * denominator + f*`, where n is an integer, f has the same sign as x, and the absolute value of f is less than the absolute value of y.
+
+## Example
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int q;
+    double x = 12.5, y = 2.2;
+
+    double result = remquo(x, y, &q);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    cout << "Quotient of " << x << "/" << y << " = " << q << endl << endl;
+
+    x = -12.5;
+    result = remquo(x, y, &q);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    cout << "Quotient of " << x << "/" << y << " = " << q << endl << endl;
+
+    y = 0;
+    result = remquo(x, y, &q);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    cout << "Quotient of " << x << "/" << y << " = " << q << endl << endl;
+
+    return 0;
+}
+```
+
+This produces the following output:
+
+```shell
+Remainder of 12.5/2.2 = -0.7
+Quotient of 12.5/2.2 = 6
+
+Remainder of -12.5/2.2 = 0.7
+Quotient of -12.5/2.2 = -6
+
+Remainder of -12.5/0 = -nan
+Quotient of -12.5/0 = 0
+```
+
+## Codebyte Example
+
+The following example is runnable and produces the remainder of 2.5 and a quotient of 1:
+
+```codebyte/cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int q;
+    double x = 12.5
+    int y = 10;
+
+    result = remquo(x, y, &q);
+    cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+
+    return 0;
+}
+```
