@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Comments'
   - 'Documenation'
-Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/kotlin'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
