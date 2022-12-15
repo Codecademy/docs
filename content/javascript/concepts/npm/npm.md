@@ -38,6 +38,8 @@ As a command-line tool, npm comes with a litany of commands for working with pac
 npm install <package-name-here>
 ```
 
+> **Note:** `npm i <package-name-here>` works, too.
+
 This is used to install packages from the npm registry and add them to a JavaScript project. Running the command as `npm install` with no specific package will (re)install all the packages for the project.
 
 The following command can be run to get a brief overview of common npm commands:
