@@ -43,7 +43,7 @@ println("The line above is a multi-line comment");
 
 ## Example
 
-The code in the following that is not commented out will execute when the program is run:
+The code in the following that is commented out will not execute when the program is run:
 
 ```kotlin
 // Calculate sum of values
