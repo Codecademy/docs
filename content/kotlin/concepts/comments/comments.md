@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Comments** are pieces of text within a Kotlin program that are ignored by the compiler. They can be text, symbols, or valid code meant to provide additional information to aid in understanding the program. Comments are good for a variety of reasons like explaining a code block or indicating some hints, etc.
+**Comments** are pieces of text within a Kotlin program that are ignored by the compiler. They can be text, symbols, or valid code meant to provide additional information to aid in understanding the program. Comments are good for a variety of reasons like explaining a code block or indicating some hints.
 
 ## Single-line Comments
 
@@ -47,11 +47,6 @@ println("The line above is a multi-line comment");
 The code in the following that is not commented out will execute when the program is run:
 
 ```kotlin
-/*
-Arithmetic Operation
-Written by Ebube
-*/
-
 // Calculate sum of values
 var operation = 100 + 50
 
