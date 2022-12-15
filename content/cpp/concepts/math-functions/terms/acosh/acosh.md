@@ -19,7 +19,7 @@ The **`acosh()`** function returns the arc hyperbolic cosine of the given argume
 acosh(n)
 ```
 
-The `n` parameter can be a floating-point value (e.g., a `long` or `double`) or an integral type (e.g., an `int` or `bool`). `n` is mandatory and must be greater or equal to 1. If it is less than 1, a domain error occurs.
+The `n` parameter can be a floating-point value (e.g., a `long` or `double`) or an integral type (e.g., an `int` or `bool`). `n` is mandatory and must be greater or equal to 1. Values less than 1 will result in a domain error.
 
 ## Example
 
