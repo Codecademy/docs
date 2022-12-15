@@ -1,6 +1,6 @@
 ---
 Title: 'acosh()'
-Description: 'Returns the arc hyperbolic cosine of an angle given in radians.'
+Description: 'Returns the arc hyperbolic cosine of the given argument.'
 Subjects:
   - 'Computer Science'
 Tags:
