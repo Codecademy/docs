@@ -45,7 +45,7 @@ This example results in the following output:
 
 ## Codebyte Example
 
-This example uses the `acosh()` function to take an argument of `1.7` and return the arc hyperbolic cosine:
+The codebyte example below uses the `acosh()` function to take an argument of `1.7` and return the arc hyperbolic cosine:
 
 ```codebyte/cpp
 #include <iostream>
