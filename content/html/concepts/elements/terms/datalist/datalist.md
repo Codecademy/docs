@@ -22,7 +22,7 @@ CatalogContent:
 
 ##Syntax
 
-<datalist> syntax consists of nested <option> tags within the opening and closing bracket of the opening and closing <datalist> tag similar lists. Each option element represents a suggestion that will appear on a drop-down list when a user types in a input box. 
+`<datalist>` syntax consists of nested <option> tags within the opening and closing `<datalist>` tags. Each option element represents a suggestion that will appear on a drop-down list when a user types in a input box. 
 
 A <datalist> is linked to a an <input> element by matching the list attribute of the <input> element with the id attribute of the <datalist> like the following:
 
