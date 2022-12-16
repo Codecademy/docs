@@ -1,6 +1,6 @@
 ---
 Title: 'Environment Variables'
-Description: 'Environment variables consist of a name/value pair and are set outside of applications, but accessible to applications from the environment in which the applications are run.'
+Description: 'Environment variables consist of name/value pairs and are set outside of applications, but are accessible to them from the environment in which the applications are run.'
 Subjects:
   - 'Bash/Shell'
   - 'Computer Science'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Environment variables** consist of a name/value pair and are set outside of applications, but accessible to applications from the environment in which the applications are run.
+**Environment variables** consist of name/value pairs and are set outside of applications, but are accessible to them from the environment in which the applications are run.
 
 Environment variables are often set via the [terminal](https://www.codecademy.com/resources/docs/general/terminal) or in a script. How they are managed and retrieved varies depending on the operating system or environment. For example, they can be used to store system configuration data or private keys for applications.
 
