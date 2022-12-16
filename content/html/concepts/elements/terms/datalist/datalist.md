@@ -45,7 +45,7 @@ The following example demonstrates a datalist that autosuggests different high s
   </head>
   <body>
     <input list="subjects" name="school-subjects" id="highschool">
-        <datalist id="subjects">
+    <datalist id="subjects">
             <option value="English">
             <option value="Math">
             <option value="History">
