@@ -1,6 +1,6 @@
 ---
 Title: '<datalist>'
-Description: A description of HTML datalist element. 
+Description: 'a HTML element that displays pre-defined values to a user while typing into an input box.'
 Subjects: 
 -'Computer Science'
 -'Web Design'
