@@ -1,12 +1,13 @@
 ---
 Title: 'Variables'
-Description: 'Variables are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places. js const currency = $; let userIncome = 85000; console.log(currency + userIncome +  is more than the average income.); // Output: $85000 is more than the average income. '
+Description: The text about assigning variables and dynamic typing in JavaScript. 
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Variables'
   - 'Data Types'
+  - 'Dynamic typing'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
