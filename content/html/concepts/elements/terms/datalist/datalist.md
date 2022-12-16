@@ -14,7 +14,7 @@ Tags:
   -'Values'
 CatalogContent: 
   -'learn-html'
--'paths/front-end-engineer-career-path'
+  -'paths/front-end-engineer-career-path'
 ---
 #Datalist
 
