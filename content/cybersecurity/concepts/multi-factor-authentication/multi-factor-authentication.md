@@ -29,6 +29,6 @@ Other factors, depending on the verification system, include the following:
 
 ATMs often require a physical card and a memorized PIN to successfully withdraw cash.
 
-Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because in order to be verified, a person would need the physical device which probably has a PIN and biometric marker factor.
+Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because to be verified, a person would need the physical device which probably has a PIN and biometric marker factor.
 
-More factors in the verification process results in greater [security](https://www.codecademy.com/resources/docs/general/cybersecurity).
+More factors in the verification process results in greater security.

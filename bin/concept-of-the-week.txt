@@ -1,1 +1,1 @@
-content/java/concepts/compiler/compiler.md
+content/python/concepts/math-module/math-module.md
