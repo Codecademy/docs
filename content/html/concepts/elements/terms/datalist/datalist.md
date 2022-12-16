@@ -54,7 +54,7 @@ The following example showcases a datalist that autosuggests different highschoo
             <option value="Biology">
             <option value="Economics">
         <datalist>
-    <body>
+  </body>
 </html>
 ```
 
