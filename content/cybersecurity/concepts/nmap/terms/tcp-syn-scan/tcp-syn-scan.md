@@ -15,13 +15,17 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A ***TCP SYN Scan** is quick and efficient scan that can indicate open, filtered and closed port states.
+A ***TCP SYN Scan** is quick and efficient scan that can indicate open, filtered and closed port states. It is requested by passing the -sS option to Nmap
 
 TCP SYN Scan is also stealthy because it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+To perform a TCP SYN scan on `<target>`:
+
+```
+nmap -sS <target>
+```
 
 ## Example
 
