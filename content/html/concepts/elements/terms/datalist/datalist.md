@@ -52,7 +52,7 @@ The following example demonstrates a datalist that autosuggests different high s
       <option value="Physics">
             <option value="Biology">
       <option value="Economics">
-        <datalist>
+    </datalist>
   </body>
 </html>
 ```
