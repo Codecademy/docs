@@ -1,21 +1,23 @@
 ---
-Title: 'TCP SYN Scan' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Perform a scan quickly and efficientily, also stealthly since it does not complete the full TCP connection' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
+Title: 'TCP SYN Scan'
+Description: 'Performs a scan quickly, efficientily and stealthly. The most popular scan option'
+Subjects:
   - 'Networking'
   - 'Cybersecurity'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
+Tags:
   - 'Networking'
   - 'Cybersecurity'
   - 'Ethical Hacking'
   - 'Open Source'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'introduction-to-ethical-hacking'
   - 'paths/scan-systems-with-nmap'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+A ***TCP SYN Scan** is quick and efficient scan that can indicate open, filtered and closed port states.
+
+TCP SYN Scan is also stealthy because it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
 
