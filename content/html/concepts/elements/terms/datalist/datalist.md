@@ -3,7 +3,7 @@ Title: '<datalist>'
 Description: 'a HTML element that displays pre-defined values to a user while typing into an input box.'
 Subjects: 
   -'Computer Science'
--'Web Design'
+  -'Web Design'
 -'Web Development'
 Tags:
 -'Elements'
