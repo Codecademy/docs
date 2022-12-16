@@ -41,7 +41,7 @@ The following example demonstrates a datalist that autosuggests different high s
 ```HTML
 <html>
   <head>
-        <title>Learning About Datalists</title>
+    <title>Learning About Datalists</title>
   </head>
     <body>
         <input list="subjects" name="school-subjects" id="highschool">
