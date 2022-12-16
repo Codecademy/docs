@@ -40,7 +40,7 @@ The following example demonstrates a datalist that autosuggests different high s
 
 ```HTML
 <html>
-    <head>
+  <head>
         <title>Learning About Datalists</title>
   </head>
     <body>
