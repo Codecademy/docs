@@ -37,7 +37,7 @@ In between the datalist tags, add option elements of your choice. Value atrribut
 
 ##Example
 
-The following example showcases a datalist that autosuggests different highschool subjects. Notice how the input tag and datalist are linked by matching values for the list attribute and id attribute for the input tag and datalist tag respectively. 
+The following example demonstrates a datalist that autosuggests different high school subjects. Notice how the input tag and datalist are linked by matching values for the list attribute and id attribute for the input tag and datalist tag respectively. 
 
 ```HTML
 <html>
