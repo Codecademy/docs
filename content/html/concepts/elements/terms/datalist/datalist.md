@@ -43,7 +43,7 @@ The following example showcases a datalist that autosuggests different highschoo
 <html>
     <head>
         <title>Learning About Datalists</title>
-    <head>
+  </head>
     <body>
         <input list="subjects" name="school-subjects" id="highschool">
         <datalist id="subjects">
