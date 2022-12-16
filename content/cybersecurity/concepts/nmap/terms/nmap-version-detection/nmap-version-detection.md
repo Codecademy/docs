@@ -14,11 +14,11 @@ Catalog/content:
 
 **Version detection** provides information on all identified open ports interrogating them using probes that generate specific responses by specific services. Version Detection is done with the `-sV` command and can identify the version number, the service type, the operating system, the hostname, etc.
 The command can be customized with the following options:
-    * --allports
-    * --version-intensity
-    * --version-light
-    * --version-all
-    * --version-trace
+- --allports
+- --version-intensity
+- --version-light
+- --version-all
+- --version-trace
 
 ## Syntax
 
