@@ -49,7 +49,7 @@ The following example demonstrates a datalist that autosuggests different high s
       <option value="English">
       <option value="Math">
       <option value="History">
-            <option value="Physics">
+      <option value="Physics">
             <option value="Biology">
       <option value="Economics">
         <datalist>
