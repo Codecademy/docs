@@ -65,94 +65,9 @@ Suppose the current page wants to add two sections:
 
 ## Alternative Elements
 
-There are also examples where we can use other elements that semantically fit better than the `<section>` element.
+The `<section>` element should only be used if no other suitable element is available. Some alternatives include the following:
 
-- The [`<header>`](https://www.codecademy.com/resources/docs/html/semantic-html/header) element which can be used to describe that the content inside is the header of the page.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <!-- Header of the page -->
-    <header>
-      <h1>Welcome to my site!</h1>
-    </header>
-
-    <!-- Content of the page -->
-    <section></section>
-    <section></section>
-  </body>
-</html>
-```
-
-- The [`<nav>`](https://www.codecademy.com/resources/docs/html/semantic-html/nav) element. It is used to describe that the content inside is a navigation system of the page.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <!-- Navigation of the page -->
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Store</li>
-        <li>Profile</li>
-      </ul>
-    </nav>
-
-    <!-- Content of the page -->
-    <section></section>
-    <section></section>
-  </body>
-</html>
-```
-
-- The [`<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main) element which is used to describe that the content inside is the main content of the page.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <!-- Header of the page -->
-    <header>
-      <h1>Welcome to my site!</h1>
-    </header>
-
-    <!-- Main content of the page -->
-    <main>
-      <section></section>
-      <section></section>
-    </main>
-  </body>
-</html>
-```
-
-- The [`<footer>`](https://www.codecademy.com/resources/docs/html/semantic-html/footer) element which is used to describe that the content inside is the footer of the page.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <!-- Header of the page -->
-    <header>
-      <h1>Welcome to my page!</h1>
-    </header>
-
-    <!-- Main content of the page -->
-    <main>
-      <section></section>
-      <section></section>
-    </main>
-
-    <!-- Footer of the page -->
-    <footer>
-      <p>by: User</p>
-      <span>email: user@email.com</span>
-    </footer>
-  </body>
-</html>
-```
+- The [`<header>`](https://www.codecademy.com/resources/docs/html/semantic-html/header) element describes that the content inside is the header of the page.
+- The [`<nav>`](https://www.codecademy.com/resources/docs/html/semantic-html/nav) element describes that the content inside is a navigation system of the page.
+- The [`<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main) describes that the content inside is the main content of the page.
+- The [`<footer>`](https://www.codecademy.com/resources/docs/html/semantic-html/footer) element describes that the content inside is the footer of the page.
