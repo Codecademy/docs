@@ -22,7 +22,7 @@ remquo(numerator, denominator, int* quotient)
 
 The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the return value will either be a `double`, `float`, or `long double`. Combinations of these types will return a `double`. The parameter `quotient` must always be an `int` pointer.
 
-The remquo function calculates the floating-point remainder `f` of `numerator / denominator` such that `numerator = n * denominator + f*`, where n is an integer, f has the same sign as x, and the absolute value of f is less than the absolute value of y.
+The remquo function calculates the floating-point remainder `f` of `numerator / denominator` such that `numerator = n * denominator + f*`, where n is an integer, `f` has the same sign as `numerator`, and the absolute value of `f` is less than the absolute value of `denominator`.
 
 ## Example
 
