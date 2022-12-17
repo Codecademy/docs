@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A ***TCP SYN Scan** is quick and efficient scan that can indicate open, filtered and closed port states. It is requested by passing the -sS option to Nmap.
+A ***TCP SYN scan*** is quick and efficient scan that can indicate open, filtered and closed port states. It is requested by passing the -sS option to Nmap.
 TCP SYN Scan is also stealthy because it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
@@ -31,6 +31,7 @@ Root privileges might be required, in this case just type `sudo` before the comm
 ```pseudo
 sudo nmap -sS <target>
 ```
+
 ## Example
 
 To execute a TCP SYN scan on the target [scanme.nmap.org](http://scanme.nmap.org/), use the following command:
@@ -39,8 +40,10 @@ To execute a TCP SYN scan on the target [scanme.nmap.org](http://scanme.nmap.org
 $ sudo nmap -sS scanme.nmap.org
 ```
 
-> **Warning:** Permission must be granted in order to scan domain target.
+> **Warning:** Explicity permission must be granted in order to scan a domain target.
 > [Scanme.Nmap.Org](http://scanme.nmap.org/) is a service provided by the [Nmap Security Scanner Project](https://nmap.org) for test purposes.
+
+The output of the previous command:
 
 ```shell
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-17 09:43 EST
