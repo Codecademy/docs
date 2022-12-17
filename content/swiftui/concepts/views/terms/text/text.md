@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Text`** view can display one or more lines of text on a screen. It is useful for read-only information and is non-editable, but can be dynamic.
+The **`Text`** view can display one or more lines of text on a screen. It is useful for read-only information.
 
 ## Syntax
 
