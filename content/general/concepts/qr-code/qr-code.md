@@ -1,3 +1,11 @@
+---
+Title: 'QR Codes'
+Description: 'QR Codes and how are they used'
+CatalogContent:
+  - 'General'
+  - 'QR Codes'
+---
+
 ## What is a QR Code?
 
 A QR Code (quick response code) is code that can be read by a computer, just like the standard bar codes that appear on products at retail stores. But the QR Code It is different than the standard bar code. The standard bar code is one dimensional and reads horizontally. A QR Code is a square, with the data enclosed within the square. The three squares in the corners of the QR code tell the QR Code scanning software how the QR Code is orientated, so the scanning software can read the QR Code’s data correctly. [Here](https://www.qr-code-generator.com/qr-code-marketing/qr-codes-basics/) is a good web page detailing how the data is structured in the QR Code.  
