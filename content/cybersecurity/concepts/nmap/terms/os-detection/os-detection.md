@@ -19,3 +19,11 @@ One of Nmap's best known features is remote **OS Detection** using TCP/IP stack 
 Each fingerprint includes a freeform textual description of the OS, and a classification which provides the vendor name (e.g. Sun), underlying OS (e.g. Solaris), OS generation (e.g. 10), and device type (general purpose, router, switch, game console, etc). Most fingerprints also have a Common Platform Enumeration (CPE) representation, like `cpe:/o:linux:linux_kernel:2.6.`
 
 Note that *root* privilages are required to properly perform the scan. If user is not logged the *root* account, prefacing each command with `sudo` may be used while logged in an account with proper administrative privilages.
+
+## Syntax 
+
+```pseudo
+nmap -O <target>
+```
+
+The above conducts an Nmap scan with **OS Detection** on '<target>'.
