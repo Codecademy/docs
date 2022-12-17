@@ -23,7 +23,7 @@ Text("My Text")
     Modifiers here
 ```
 
-Any information enclosed within the double quotes`"..."` will display on the screen.
+Any information enclosed within the double quotes `"..."` will display on the screen.
 
 ## Example
 
