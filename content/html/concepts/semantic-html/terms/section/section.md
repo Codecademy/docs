@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<section>`** element defines elements in a document, such as chapters, headings or any other area of the document with a common theme.
+The **`<section>`** element defines elements in a document, such as chapters, headings, or any other area of the document with a common theme.
 
 For example, content with the same theme such as articles about cricket can go under a single `<section>`. A website’s home page could be split into sections for the introduction, news items, and contact information.
 
