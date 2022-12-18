@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Array in Go is a fixed-length sequence of elements of a particular type.'
+Description: 'Arrays are fixed-length sequences of elements of the same type.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,17 +12,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Go, an **array** is a numbered list of elements of the same type.
+**Arrays** are numbered sequences of elements of the same [data type](https://www.codecademy.com/resources/docs/go/data-types).
 
-## Differences Between Arrays And Slices
+## Arrays vs. Slices
 
-Unlike slices, arrays have a fixed length, meaning their size cannot be changed once they are created. 
+Arrays differ from slices in that their size cannot be changed after being created.
 
-Another difference is that an array is passed to a function as a copy of the array, whereas a slice is passed as a reference to the underlying array. That means that changes done to an array passed to a function will not be reflected outside that function, but changes done to a slice will affect the underlying array.
+Another difference is that an array is passed to a function as a copy of the array, whereas a slice is passed as a reference to the underlying array. This means that changes done to an array passed to a function will not be reflected outside that function, but changes done to a slice will affect the underlying array.
 
 ## Syntax
-
-There are two ways of creating an array. Both include specifying the array's length and data type, and can be used interchangeably. One of them uses the `var` keyword, and the other uses the `:=` short assignment statement and curly brackets (optionally) with elements listed within them.
 
 ```pseudo
 var arr1 [n]type
@@ -30,13 +28,18 @@ var arr1 [n]type
 arr2 := [n]type{el1, el2, ..., eln}
 ```
 
-In the above example, `n` represents the capacity of an array, and `type` is the desired type of the array.
+There are two ways of creating an array:
 
-It is important to note that when using the `:=` assignment statement, curly brackets are necessary, while the `var` keyword does not allow them, meaning that the array items' values cannot be set in the same line.
+- With the `var` keyword
+- With the `:=` short assignment statement and curly brackets (with elements optionally listed within them)
+
+In both cases, `n` represents the capacity of the array and `type` is the desired type.
+
+> **Note:** When using the `:=` assignment statement, curly brackets are necessary, while the `var` keyword does not allow them, meaning that the array elements' values cannot be set in the same line.
 
 ## Examples
 
-Creating zeroed arrays:
+In the following example, two arrays, `zeroes1` and `zeroes2`, are created without initial values. For arrays and slices in Go, numeric values are predefined as 0: 
 
 ```go 
 var zeros1 [5]int
@@ -50,9 +53,7 @@ fmt.Println(zeros2)
 // Output: [0, 0, 0]
 ```
 
-In the above examples, two arrays are created without declaring their values. In Go, number values in arrays and slices are predefined as 0.
-
-Creating an array and setting their values using the `:=` assignment statement:
+The next example sets the element values using the `:=` assignment statement:
 
 ```go
 array := [3]string{"Hello", "World", "!"}
@@ -61,9 +62,9 @@ fmt.Println(array)
 // Output: [Hello World !]
 ```
 
-## Accessing Array Items
+## Accessing Elements
 
-You can acces an item of an array by combining the array's name and the item's index in brackets:
+Array elements can be accessed using the array's name followed by the element's index in square brackets:
 
 ```go
 var array [3]int
@@ -79,9 +80,9 @@ fmt.Println(array[0], array[1], array[2])
 
 ## Multidimensional Arrays
 
-Multidimensional arrays can be created and accessed similarly to the one-dimensional arrays, using the `var` keyword:
+Multidimensional arrays can be created and accessed similarly to the one-dimensional arrays.
 
-```go
+```codebyte/golang
 // Create an array of three arrays containing two integers 
 var twoDim [3][2]int
 
@@ -95,19 +96,12 @@ twoDim[1][1] = 2
 twoDim[2][0] = 3
 
 fmt.Println(twoDim)
-// Output: {{1, 0}, {0, 2}, {3, 0}}
-```
 
-Analogically, it is possible to create them with the `:=` assignment statement:
-
-```go
 // Create an array of two arrays containing two floating point numbers
 twoDim = [2][2]float64{{3.14, 2.72}, {2.1, 3.7}}
 
 fmt.Println(twoDim)
-// Output: {{3,14, 2.72}, {2.1, 3.7}}
 ```
-
 It is possible to declare arrays of any number of dimensions with the following syntax:
 
 ```pseudo
