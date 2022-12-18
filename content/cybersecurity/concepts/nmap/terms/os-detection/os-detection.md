@@ -21,7 +21,7 @@ Each fingerprint includes a freeform textual description of the OS, and a classi
 > **Note:** Root privileges are required to properly perform the scan.
 
 
-**OS Detection** is enabled with:
+OS detection is enabled with the `-O` option.
 
 - Enable OS detection (`-O`)
 
