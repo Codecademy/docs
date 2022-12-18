@@ -1,6 +1,6 @@
 ---
 Title: 'TextField'
-Description: 'It a view that allows user to edit the content.'
+Description: 'It a view that allows user to insert their informations, type memos and edit the content.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -27,7 +27,7 @@ var body: some View {
 
 ## Example
 
-In the example below, a `VStack` holds a series of `TextFields` and 1 `SecureField`. This example reassemble a sort of 'Sign Up' page.
+In the example below, a `VStack` holds a series of `TextFields` and one `SecureField`. This example reassemble a sort of 'Sign Up' page.
 
 ```swift
 @State private var name = ""
@@ -57,7 +57,9 @@ var body: some View {
 - The top 5 variables are market as private because it is important that those information do not leave the current page.
 - `TextField` not also has different keyboard types but also keyboard styles. If no type or style is specified Swift will display them as `(.default)`.
 - `SecureField` is simply a `TextField` that instantly hides the character and is commonly used to setup passwords.
+- There are two images for this example, the first one represents an empty textfield and the second one a filled one.
 
 This will display the following:
 
-![TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield.png)
+![empty TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield.png)
+![filled TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield-fill.png)
