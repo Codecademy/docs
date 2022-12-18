@@ -20,10 +20,7 @@ Each fingerprint includes a freeform textual description of the OS, and a classi
 
 > **Note:** Root privileges are required to properly perform the scan.
 
-
 OS detection is enabled with the `-O` option.
-
-- Enable OS detection (`-O`)
 
 OS detection is controlled with the following options (be sure to include with `-O`):
 - Limit OS detection to promising targets (`--osscan-limit`)
@@ -33,7 +30,6 @@ OS detection is controlled with the following options (be sure to include with `
 - Set the maximum number of OS detection tries against a target (`--max-os-tries`)
     - By default, Nmap tries five times if conditions are favorable or two times when conditions aren't so good. One may specify a low `--max-os-tries` value to for quicker scans, or a higher number for more retries.
 - Increase verbosity level to OS detection Scan (`-v`)
-
 
 ## Syntax 
 
