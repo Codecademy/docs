@@ -20,7 +20,7 @@ A **comment** is a piece of text within a program that is not executed. It can b
 Single-line comments are created using two consecutive forward slashes. The compiler ignores any text after `//` on the same line.
 
 ```go
-// This line will denote a single line comment in Go
+// This line will denote a single-line comment in Go
 ```
 
 ## Multi-line Comments
@@ -43,7 +43,7 @@ Multi-line comments can also be created using `//` to begin each line:
 
 ## Doc Comment
 
-Doc comments are used to provide details and description of a program such as the author of the code, the date the code was written, and a description of the program. Multi-line comments can be used to create a doc comment at the top of the file. Below is a sample Doc comment:
+Doc comments are used to provide details and descriptions of a program such as the author of the code, the date the code was written, and a description of the program. Multi-line comments can be used to create a doc comment at the top of the file. Below is a sample Doc comment:
 
 ```go
 // File Name   : hello.go
