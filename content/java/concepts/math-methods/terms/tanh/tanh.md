@@ -34,19 +34,19 @@ The computed result will be within 2.5 units of least precision (ulps) of the ex
 
 ## Example
 
-The following example demonstrates the application of `.tanh()` method:
+The following example demonstrates the application of the `.tanh()` method:
 
 ```java
 // Check.java
 public class Check {
   public static void main(String args[]) {
-    // num value in degrees
+    // Value of num in degrees
     double num = 45.0;
 
-    // converting into radians
+    // Convert into radians
     num = Math.toRadians(num);
 
-    // compute and print hyperbolic tangent
+    // Compute and print hyperbolic tangent
     System.out.println(Math.tanh(num));
   }
 }
