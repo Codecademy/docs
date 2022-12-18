@@ -43,10 +43,9 @@ Multi-line comments can also be created using `//` to begin each line:
 
 ## Doc Comment
 
-Doc comments are used to identify the author of the code, the date the code was written, a description of the program, and other. Multi-line comments can be used to create a doc comment at the top of the file.
+Doc comments are used to provide details and description of a program such as the author of the code, the date the code was written, and a description of the program. Multi-line comments can be used to create a doc comment at the top of the file. Below is a sample Doc comment:
 
 ```go
-// This is a sample Doc comment that provides the details and description of the program
 // File Name   : hello.go
 // Description : This program prints hello world to the display
 // Author      : Maheshwaran Dhandapani
@@ -69,7 +68,7 @@ import "fmt"
 
 // Main function of the program
 func main() {
-    // Displays Hello world to the screen
+    // Displays some text to the screen
     fmt.Println("Hello World!!!")
 }
 ```
