@@ -25,7 +25,7 @@ OS detection is enabled with the `-O` option.
 
 - Enable OS detection (`-O`)
 
-**OS Detection** is controlled with the following options (be sure to include with `-O`):
+OS detection is controlled with the following options (be sure to include with `-O`):
 - Limit **OS detection** to promising targets (`--osscan-limit`)
     - This can save substantial time by only scanning targets that have a critera that makes **OS Detection** more effective, which is if there is at least one open and one closed TCP port are found. Nmap will now attempt **OS Detection** against hosts which do not meet that criteria.
 - Guess **OS detection** results (`--osscan-guess; --fuzzy`)
