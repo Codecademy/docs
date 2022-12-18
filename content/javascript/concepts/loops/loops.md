@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” in the context of loops. A loop will continue to iterate until a specified condition, commonly known as a stopping condition, is met.'
+Description: 'A loop is a programming tool that is used to repeat a set of instructions. Iterate is a generic term that means “to repeat” until a specified condition is met.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -34,8 +34,16 @@ while (i < 5) {
   console.log(i);
   i++;
 }
+```
 
-// Output: 0 1 2 3 4 5
+The output would be:
+
+```shell
+0
+1
+2
+3
+4
 ```
 
 ## Do…While Loop
@@ -43,17 +51,25 @@ while (i < 5) {
 A `do`...`while` statement creates a loop that executes a block of code once, checks if a condition is true, and then repeats the loop as long as the condition is true. They are used when you want the code to always execute at least once. The loop ends when the condition evaluates to false.
 
 ```js
-x = 0;
-i = 0;
+let x = 0;
+let i = 0;
 
 do {
   x = x + i;
   console.log(x);
   i++;
 } while (i < 5);
-
-// Output: 0 1 3 6 10
 ```
+The output would be:
+
+```shell
+0
+1
+3
+6
+10
+```
+
 
 ## For Loop
 
@@ -67,8 +83,15 @@ A `for` loop declares looping instructions, with three important pieces of infor
 for (let i = 0; i < 4; i += 1) {
   console.log(i);
 }
+```
 
-// Output: 0, 1, 2, 3
+The output would be:
+
+```shell
+0
+1
+2
+3
 ```
 
 ## `for...of` Loop
@@ -141,7 +164,7 @@ for (let i = items.length - 1; i >= 0; i -= 1) {
 }
 ```
 
-The output should look like:
+The output would be:
 
 ```shell
 2. cherry
@@ -177,6 +200,12 @@ console.log(myEntries);
 // Output: [ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
 ```
 
+The output would be:
+
+```shell
+[ [ 'name', 'Codecademy' ], [ 'age', 10 ] ]
+```
+
 Next, a `for..of` loop can be used to print the `key`'s and `value`'s for `myEntries`:
 
 ```js
@@ -185,7 +214,7 @@ for (const [key, value] of myEntries) {
 }
 ```
 
-The output will look like this:
+The output would be:
 
 ```shell
 name: Codecademy
@@ -205,8 +234,17 @@ for (let i = 0; i < 99; i += 1) {
   }
   console.log(i);
 }
+```
 
-// Output: 0 1 2 3 4 5
+The output would be:
+
+```shell
+0
+1
+2
+3
+4
+5
 ```
 
 ## Nested For Loop
@@ -223,7 +261,7 @@ for (let outer = 0; outer < 2; outer += 1) {
 }
 ```
 
-The output should look like:
+The output would be:
 
 ```shell
 0-0
