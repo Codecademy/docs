@@ -42,14 +42,14 @@ In both cases, `n` represents the capacity of the array and `type` is the desire
 In the following example, two arrays, `zeroes1` and `zeroes2`, are created without initial values. For arrays and slices in Go, numeric values are predefined as 0: 
 
 ```go 
-var zeros1 [5]int
+var zeroes1 [5]int
 
-zeros2 := [3]float64{}
+zeroes2 := [3]float64{}
 
-fmt.Println(zeros1)
+fmt.Println(zeroes1)
 // Output: [0, 0, 0, 0, 0] 
 
-fmt.Println(zeros2)
+fmt.Println(zeroes2)
 // Output: [0, 0, 0]
 ```
 
@@ -82,6 +82,15 @@ fmt.Println(array[0], array[1], array[2])
 
 Multidimensional arrays can be created and accessed similarly to the one-dimensional arrays.
 
+It is possible to declare arrays of any number of dimensions with the following syntax:
+
+```pseudo
+var array [x1][x2]...[xn]type
+array := [x1][x2]...[xn]type
+```
+
+In the above example, `x1, x2, ..., xn` represent the capacities of each dimension, and `type` is the desired type of an array.
+
 ```codebyte/golang
 // Create an array of three arrays containing two integers 
 var twoDim [3][2]int
@@ -98,16 +107,7 @@ twoDim[2][0] = 3
 fmt.Println(twoDim)
 
 // Create an array of two arrays containing two floating point numbers
-twoDim = [2][2]float64{{3.14, 2.72}, {2.1, 3.7}}
+twoDim := [2][2]float64{{3.14, 2.72}, {2.1, 3.7}}
 
 fmt.Println(twoDim)
 ```
-It is possible to declare arrays of any number of dimensions with the following syntax:
-
-```pseudo
-var array [x1][x2]...[xn]type
-
-array := [x1][x2]...[xn]type
-```
-
-In the above example, `x1, x2, ..., xn` represent the capacities of each dimension, and `type` is the desired type of an array.
