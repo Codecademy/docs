@@ -1,6 +1,6 @@
 ---
 Title: 'UDP Scan' 
-Description: 'Scans (only) the UDP Ports of a target, which aren't scanned in a regular scan. Can be combined with any TCP scan' 
+Description: 'Scans (only) the UDP Ports of a target, which are not scanned in a regular scan. Can be combined with any TCP scan' 
 Subjects: 
   - 'Computer Science'
   - 'Networking'
