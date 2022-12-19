@@ -15,25 +15,25 @@ CatalogContent:
 
 **Operator overloading** redefines operators for user-defined classes. When an overloaded operator is called, the compiler determines which definition to use based on the arguments provided. The following operators can be overloaded:
 
-| -> | ->* | new | new [] |	delete | delete [] |
-|----|-----|-----|--------|--------|-----------|
-|  + | -   | *   |	/     |	 %     |	^      |
-| += | -=  | *=  |	/=    |	 %=    |	^=     |
-|&#124;= | & | &#124; |	 ~	| ! | , |
-| = | &= | <<= |	>>= | [] | () |
-| < |	> |	<= | >= | ++ | -- |
-| << | >>| == |	!= | && | &#124; &#124;|
+| ->      | ->\* | new    | new [] | delete | delete []     |
+| ------- | ---- | ------ | ------ | ------ | ------------- |
+| +       | -    | \*     | /      | %      | ^             |
+| +=      | -=   | \*=    | /=     | %=     | ^=            |
+| &#124;= | &    | &#124; | ~      | !      | ,             |
+| =       | &=   | <<=    | >>=    | []     | ()            |
+| <       | >    | <=     | >=     | ++     | --            |
+| <<      | >>   | ==     | !=     | &&     | &#124; &#124; |
 
 The operators below cannot be overloaded:
 
-|::|.*|.|?|
-|--|--|-|-|
+| ::  | .\* | .   | ?   |
+| --- | --- | --- | --- |
 
 ## Syntax
 
 The `operator` keyword is used with the following syntax to overload operators:
 
-```pseudo 
+```pseudo
 class className {
 
     public:
@@ -61,14 +61,14 @@ class Pyramid{
     double getVolume(void){
       return (base*height)/3;
     }
-    
+
     void setBase(double b){
       base = b;
     }
 
     void setHeight(double h){
       height = h;
-    } 
+    }
 
     // Overload + operator
     Pyramid operator+(const Pyramid& p){
