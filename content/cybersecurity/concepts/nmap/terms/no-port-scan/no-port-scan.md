@@ -27,7 +27,7 @@ This performs a scan of `<target>` without doing a port scan.
 
 ## Example
 
-The following example runs a no ping scan  on the site [scanme.nmap.org](http://scanme.nmap.org/):
+The following example runs a no ping scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
 
 ```shell
 nmap -sn scanme.nmap.org
