@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are fixed-length sequences of elements of the same type.'
+Description: 'Arrays are numbered, fixed-length sequences of elements of the same type.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Arrays** are numbered sequences of elements of the same [data type](https://www.codecademy.com/resources/docs/go/data-types).
+**Arrays** are numbered, fixed-length sequences of elements of the same [data type](https://www.codecademy.com/resources/docs/go/data-types).
 
 ## Arrays vs. Slices
 
@@ -35,7 +35,7 @@ There are two ways of creating an array:
 
 In both cases, `n` represents the capacity of the array and `type` is the desired type.
 
-> **Note:** When using the `:=` assignment statement, curly brackets are necessary, while the `var` keyword does not allow them, meaning that the array elements' values cannot be set in the same line.
+> **Note:** Curly brackets are needed in the `:=` assignment statement. Conversely, the `var` keyword does not allow them, meaning that element values cannot be set in the same line.
 
 ## Examples
 
@@ -74,7 +74,6 @@ array[1] = 2
 array[2] = 3
 
 fmt.Println(array[0], array[1], array[2])
-
 // Output: 1 2 3
 ```
 
@@ -106,7 +105,7 @@ twoDim[2][0] = 3
 
 fmt.Println(twoDim)
 
-// Create an array of two arrays containing two floating point numbers
+// Create an array of two arrays containing two floating-point numbers
 twoDim := [2][2]float64{{3.14, 2.72}, {2.1, 3.7}}
 
 fmt.Println(twoDim)
