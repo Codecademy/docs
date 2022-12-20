@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`<del>`** element is used to show a deleted portion of text and is commonly intended to show the changes made to a document while keeping a history of the changes made. Browsers render it showing strike-through text.
+The **`<del>`** element is used to show a deleted portion of text and is commonly intended to show the changes made to a document while keeping a history of the changes made. Though the style can be changed using [CSS] (https://www.codecademy.com/resources/docs/css/typography/text-decoration), browsers render it as strike-through text: ~~example~~
 
 > **Note:** The `<del>` element is semantically different from the `<s>` element because the former conveys an update in a document while the latter does not.
 
