@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP SYN scan** run by default when running Nmap as root or Administrator. It is the most popular scan option.
+A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option.
 Quick and efficient, this scan can indicate open, filtered and closed port states.
 It is requested by passing the -sS option to Nmap, but when running as root or Administrator, -sS is usually omitted.
 TCP SYN Scan is also stealthy because it never completes the full TCP connection, so is less likely to be blocked by firewalls.
@@ -35,7 +35,7 @@ sudo nmap -sS <target>
 To execute a TCP SYN scan on the target [scanme.nmap.org](http://scanme.nmap.org/), use the following command:
 
 ```shell
-$ sudo nmap -sS scanme.nmap.org
+sudo nmap -sS scanme.nmap.org
 ```
 
 > **Note:** Explicit permission from domain target owner must be granted in order to scan.
