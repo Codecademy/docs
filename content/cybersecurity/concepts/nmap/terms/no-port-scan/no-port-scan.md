@@ -31,6 +31,7 @@ The following example runs a no ping scan  on the site [scanme.nmap.org](http://
 
 ```shell
 nmap -sn scanme.nmap.org
+```
 
 > **Note:** `scanme.nmap.org` is a domain set up explicitly for people to test Nmap with.
 
