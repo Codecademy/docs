@@ -1,15 +1,15 @@
 ---
-Title: 'Memory Management'
-Description: 'Memory management is the process by which computer programs are assigned to physical or virtual memory space.'
+Title: "Memory Management"
+Description: "Memory management is the process by which computer programs are assigned to physical or virtual memory space."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Memory'
-  - 'Memory Management'
+  - "Memory"
+  - "Memory Management"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 **Memory management**, or memory allocation, is the process by which computer programs are assigned to physical or virtual memory space. Computer memory is a finite resource that must be efficiently managed.

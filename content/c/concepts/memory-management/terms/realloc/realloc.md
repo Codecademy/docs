@@ -1,15 +1,15 @@
 ---
-Title: 'realloc()'
+Title: "realloc()"
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
-Description: 'Reallocates a block of memory that was previously allocated.'
+  - "Code Foundations"
+  - "Computer Science"
+Description: "Reallocates a block of memory that was previously allocated."
 Tags:
-  - 'Memory'
-  - 'Memory Management'
+  - "Memory"
+  - "Memory Management"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`realloc()`** function is used to reallocate a block of memory. If the memory that was previously allocated using the `malloc()` or `calloc()` function is not sufficient, it can be reallocated using the `realloc()` function.

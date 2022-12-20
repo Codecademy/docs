@@ -1,15 +1,15 @@
 ---
-Title: 'malloc()'
-Description: 'Allocates a block of memory in the heap, but does not initialize.'
+Title: "malloc()"
+Description: "Allocates a block of memory in the heap, but does not initialize."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Memory'
-  - 'Memory Management'
+  - "Memory"
+  - "Memory Management"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`malloc()`** function is used to allocate a block of memory in the heap. It allocates the user a specified number of bytes but does not initialize. Once allocated, the program accesses this block of memory via a [pointer](https://www.codecademy.com/resources/docs/c/pointers) that `malloc()` returns.

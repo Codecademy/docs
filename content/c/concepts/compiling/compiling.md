@@ -1,14 +1,14 @@
 ---
-Title: 'Compiling'
-Description: 'A compiler translates the C program (source code) into machine language (machine code) which it stores on the disk as a file.'
+Title: "Compiling"
+Description: "A compiler translates the C program (source code) into machine language (machine code) which it stores on the disk as a file."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Command Line'
+  - "Command Line"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 A compiler translates the C program (source code) into machine language (machine code) which it stores on the disk as a file.

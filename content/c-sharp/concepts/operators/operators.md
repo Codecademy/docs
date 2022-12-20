@@ -1,17 +1,17 @@
 ---
-Title: 'Operators'
-Description: 'Operators are used to perform various operations on variables and values.'
+Title: "Operators"
+Description: "Operators are used to perform various operations on variables and values."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Operators'
-  - 'Arithmetic'
-  - 'Comparison'
-  - 'Logical'
+  - "Operators"
+  - "Arithmetic"
+  - "Comparison"
+  - "Logical"
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - "learn-c-sharp"
+  - "paths/computer-science"
 ---
 
 **Operators** are used to perform various operations on variables and values.

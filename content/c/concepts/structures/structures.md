@@ -1,17 +1,17 @@
 ---
-Title: 'Structures'
-Description: 'A structure is used to group different types of data together.'
+Title: "Structures"
+Description: "A structure is used to group different types of data together."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Arrays'
-  - 'Lists'
-  - 'Structure'
-  - 'Variable Types'
+  - "Arrays"
+  - "Lists"
+  - "Structure"
+  - "Variable Types"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 A **structure** is used to group different types of data together. It is defined using the `struct` keyword.

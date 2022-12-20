@@ -1,15 +1,15 @@
 ---
-Title: 'puts()'
-Description: 'Print a string in the console.'
+Title: "puts()"
+Description: "Print a string in the console."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'String'
-  - 'Console'
+  - "String"
+  - "Console"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`puts()`**, or "put string", function prints a [string](https://www.codecademy.com/resources/docs/c/strings) to `stdout`, normally the console, followed by a newline character.

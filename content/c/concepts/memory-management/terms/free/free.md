@@ -1,15 +1,15 @@
 ---
-Title: 'free()'
-Description: 'Dynamically de-allocates memory at runtime.'
+Title: "free()"
+Description: "Dynamically de-allocates memory at runtime."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Memory'
-  - 'Memory Management'
+  - "Memory"
+  - "Memory Management"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`free()`** function is used to dynamically de-allocate the memory at runtime. Memory allocated by the `malloc()` and `calloc()` functions must be manually de-allocated when not in use. Freeing it helps to reduce memory wastage.

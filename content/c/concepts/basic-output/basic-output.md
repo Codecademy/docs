@@ -1,15 +1,15 @@
 ---
-Title: 'Basic Output'
-Description: 'Basic console output is managed by the standard header file for input and output in C.'
+Title: "Basic Output"
+Description: "Basic console output is managed by the standard header file for input and output in C."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Print'
-  - 'Output'
+  - "Print"
+  - "Output"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 In the C language, **basic console output** is achieved using functions from the "standard input output" header file (`stdio.h`).

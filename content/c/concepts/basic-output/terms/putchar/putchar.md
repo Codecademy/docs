@@ -1,15 +1,15 @@
 ---
-Title: 'putchar()'
-Description: 'Print a char in the console.'
+Title: "putchar()"
+Description: "Print a char in the console."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Char'
-  - 'Console'
+  - "Char"
+  - "Console"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 The **`putchar()`**, or "put character", function prints a single character to `stdout` (normally the console).

@@ -1,15 +1,15 @@
 ---
-Title: 'Preprocessors'
-Description: 'A preprocessor scans the C program source code before it is compiled, allowing the source code to expand macros, include other files, and conditionally compile blocks of source code.'
+Title: "Preprocessors"
+Description: "A preprocessor scans the C program source code before it is compiled, allowing the source code to expand macros, include other files, and conditionally compile blocks of source code."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Command Line'
-  - 'Developer Tools'
+  - "Command Line"
+  - "Developer Tools"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 Preprocessors in C scan the source code before it is [compiled](https://www.codecademy.com/resources/docs/c/compiling) and transform it with tools like macros.

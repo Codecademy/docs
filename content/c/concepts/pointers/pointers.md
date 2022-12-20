@@ -1,17 +1,17 @@
 ---
-Title: 'Pointers'
-Description: 'A pointer is a variable that stores a memory address, which typically represents the location of another variable.'
+Title: "Pointers"
+Description: "A pointer is a variable that stores a memory address, which typically represents the location of another variable."
 Subjects:
-  - 'Code Foundations'
-  - 'Computer Science'
+  - "Code Foundations"
+  - "Computer Science"
 Tags:
-  - 'Pointers'
-  - 'Memory'
-  - 'Variables'
-  - 'Arrays'
+  - "Pointers"
+  - "Memory"
+  - "Variables"
+  - "Arrays"
 CatalogContent:
-  - 'learn-c'
-  - 'paths/computer-science'
+  - "learn-c"
+  - "paths/computer-science"
 ---
 
 A **pointer** is a [variable](https://www.codecademy.com/resources/docs/c/variables) that stores a memory address, which typically represents the location of another variable. Pointers are useful because they allow the efficient creation and manipulation of complex data structures.

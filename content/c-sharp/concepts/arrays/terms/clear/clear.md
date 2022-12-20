@@ -1,14 +1,14 @@
 ---
-Title: '.Clear()'
-Description: 'Clears the contents of an array, returning each element to its default value.'
+Title: ".Clear()"
+Description: "Clears the contents of an array, returning each element to its default value."
 Subjects:
-  - 'Computer Science'
-  - 'Code Foundations'
+  - "Computer Science"
+  - "Code Foundations"
 Tags:
-  - 'Arrays'
+  - "Arrays"
 CatalogContent:
-  - 'learn-c-sharp'
-  - 'paths/computer-science'
+  - "learn-c-sharp"
+  - "paths/computer-science"
 ---
 
 The `.Clear()` method is used to clear the contents of an array, returning each element to its default value.
