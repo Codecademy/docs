@@ -25,7 +25,7 @@ An empty map can be created using the `create()` function and assigning it to a 
 variable_name := create(map[key_data_type]value_data_type)
 ```
 
-### Initializing a map with existing key-value pairs.
+### Initializing a map with existing key-value pairs
 
 A map can also be initialized with key-values pairs by using a map literal.
 
