@@ -27,10 +27,8 @@ Use `abs()` to return the absolute value of `-6.5`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   std::cout << std::abs(-6.5) << "\n";
+  // Output: 6.5
 }
-
-// Output: 6.5
 ```

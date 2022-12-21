@@ -1,6 +1,6 @@
 ---
 Title: 'Conditionals'
-Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false. If it’s true, &mdash; `false` can even be accounted for to perform another set of instruction(s). AFor more complex programs, conditionals allow multiple scenarios to be addressed, making programs more robust.'
+Description: 'Conditionals take an expression, which is code that evaluates to determine a value, and checks if it is true or false.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -26,6 +26,7 @@ If the condition evaluates to true, then the code within the block is executed; 
 ```cpp
 if (a == 10) {
   // Code goes here
+
 }
 ```
 
@@ -37,13 +38,12 @@ An `else` clause can be added to an `if` statement:
 - If the condition evaluates to `false`, code in the `else` part is executed.
 
 ```cpp
-if (year == 1991)
-{
+if (year == 1991) {
   // This runs if it is true
 }
-else
-{
+else {
   // This runs if it is false
+
 }
 ```
 
@@ -52,17 +52,17 @@ else
 One or more `else if` statements can be added in between the `if` and `else` to provide additional condition(s) to check.
 
 ```cpp
-if (apple > 8)
-{
+if (apple > 8) {
   // Some code here
+
 }
-else if (apple > 6)
-{
+else if (apple > 6) {
   // Some code here
+
 }
-else
-{
+else {
   // Some code here
+
 }
 ```
 
@@ -71,34 +71,33 @@ else
 ```codebyte/cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   double pH = 6.5;
 
-  if (pH < 7.0)
-  {
+  if (pH < 7.0) {
     std::cout << "Acidic" << "\n";
+
   }
-  else if (pH > 7.0)
-  {
+  else if (pH > 7.0) {
     std::cout << "Basic" << "\n";
+
   }
-  else
-  {
+  else {
     std::cout << "Neutral" << "\n";
+
   }
+
 }
 ```
 
 ## Switch Statement
 
-A `switch` statement provides a means of checking an expression against various cases. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case.
+A `switch` statement provides a means of checking an expression against various cases. If there is a match, the code within starts to execute. The `break` keyword can be used to terminate a case.
 
 `default` is executed when no case matches.
 
 ```cpp
-switch (grade)
-{
+switch (grade) {
   case 9:
     std::cout << "Freshman\n";
     break;
