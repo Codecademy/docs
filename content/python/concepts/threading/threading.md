@@ -33,8 +33,9 @@ The following example features five threads that are created, started, and end a
 ```py
 import threading, time, random
 
+# simulates waiting time (e.g., an API call/response)
 def slow_function(thread_index):
-    time.sleep(random.randint(1, 10))  # simulates waiting time, for example an API call response
+  time.sleep(random.randint(1, 10)) 
   print("Thread {} done!".format(thread_index))
 
 def run_threads():
