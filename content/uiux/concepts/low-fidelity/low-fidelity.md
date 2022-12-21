@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Low-fidelity** refers to the intentional absence of detail in a design. Low-fidelity design deliverables, such as [sketches](https://www.codecademy.com/resources/docs/uiux/sketching) and [wireframes](https://www.codecademy.com/resources/docs/uiux/wireframe), contain few design elements and are often a rough draft of what the final product could look like, with emphasis on what content will be used and where it will be used.
