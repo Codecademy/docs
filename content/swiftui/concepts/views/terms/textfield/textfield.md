@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`TextField`** is a view that allows user to fill in the field with the relative data. 
+The **`TextField`** is a view that allows the user to fill in the field with data. 
 The first parameter refers to the text that will be displayed in a lighter color inside the field. 
 The second parameter refers to what the input will be, it's a binding parameter so that swift will always know if and when this parameter changes.
 
