@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `threading` module allows multiple threads of execution to take place in a Python program.
+The **`threading`** module allows multiple threads of execution to take place in a Python program.
 
 While threads may appear to run simultaneously, only one thread can be executed at a time. This is enforced by Python's [global interpreter lock](https://docs.python.org/3/glossary.html#term-global-interpreter-lock).
 
