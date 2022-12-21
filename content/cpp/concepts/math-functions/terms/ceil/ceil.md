@@ -29,8 +29,7 @@ Use `ceil()` function to round up the double `12.3456`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double n = 12.3456;
   double result;
 
