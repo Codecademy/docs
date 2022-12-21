@@ -24,20 +24,17 @@ A class method can be defined in two ways:
 ### Inside the Class
 
 ```cpp
-class Person
-{
+class Person {
   string name;
 
-public:
-  // Defines the method
-  void get_name()
-  {
-    return name;
-  }
+  public:
+    // Defines the method
+    void get_name() {
+      return name;
+    }
 }
 
-int main()
-{
+int main() {
   Person robert;
 
   // Calls the method
@@ -50,22 +47,19 @@ int main()
 ### Outside the Class
 
 ```cpp
-class Person
-{
+class Person {
   string name;
 
-public:
-  void get_name();
+  public:
+    void get_name();
 }
 
 // Defines the method
-void Person::get_name()
-{
+void Person::get_name() {
   return name;
 }
 
-int main()
-{
+int main() {
   Person robert;
 
   // Calls the method
@@ -78,26 +72,21 @@ int main()
 Parameters can also be added to class methods:
 
 ```cpp
-class Person
-{
+class Person {
   string name;
 
-public:
+  public:
+    // Defines the method
+    void set_name(string newName) {
+      name = newName;
+    }
 
-  // Defines the method
-  void set_name(string newName)
-  {
-    name = newName;
-  }
-
-  void get_name()
-  {
-    return name;
-  }
+    void get_name() {
+      return name;
+    }
 }
 
-int main()
-{
+int main() {
   Person robert;
 
   // Sets the name class member

@@ -30,11 +30,12 @@ The following example uses the `exp()` function to find the value of e<sup>3</su
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 3;
   double result;
+
   result = exp(x);
+
   std::cout << "The exp of " << x << " is " << result << "\n";
 }
 ```
@@ -53,11 +54,12 @@ The following example is runnable and returns the value of e<sup>1</sup>:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 1;
   double result;
+
   result = exp(x);
+
   std::cout << "The exp of " << x << " is " << result << "\n";
 }
 ```

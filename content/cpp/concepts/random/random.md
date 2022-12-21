@@ -58,8 +58,7 @@ This sets the “seed” of the random number generator.
 #include <iostream>
 #include <cstdlib>
 
-int main()
-{
+int main() {
   std::cout << "🎱 Magic 8-Ball: ";
 
   srand(time(NULL));
