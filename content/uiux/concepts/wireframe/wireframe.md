@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 A **wireframe** is a low-fidelity representation of a digital interface that defines the content layout and page elements.

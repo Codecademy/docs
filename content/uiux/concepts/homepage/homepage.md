@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 The **homepage** is typically the first page a user lands on when [navigating](https://www.codecademy.com/resources/docs/uiux/navigation) to a website or digital interface. As a result, this provides a unique opportunity to make a first impression.
