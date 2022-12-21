@@ -39,7 +39,6 @@ Below, a new slice containing integers is created with a length and capacity of 
 
 ```go
 s := []int{1, 2, 3, 4, 5}
-//
 ```
 
 ### A Slice from an Existing Array
