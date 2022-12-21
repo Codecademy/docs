@@ -28,7 +28,7 @@ Type the following command and enter user password when prompted:
 sudo nmap -sS <target>
 ```
 
-> **Note:** `sudo` stands for *superuser do* and grants root or Administrator access
+> **Note:** `sudo` stands for _superuser do_ and grants root or Administrator access
 
 ## Example
 
