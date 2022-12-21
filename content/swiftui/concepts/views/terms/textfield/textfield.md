@@ -1,6 +1,6 @@
 ---
 Title: 'TextField'
-Description: 'It a view that allows user to insert their informations, type memos and edit the content.'
+Description: 'A view that allows the user to insert information, type memos, and edit the content.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
