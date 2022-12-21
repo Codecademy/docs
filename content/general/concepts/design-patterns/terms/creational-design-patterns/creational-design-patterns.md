@@ -18,8 +18,8 @@ CatalogContent:
 
 Five main creational design patterns are outlined below:
 
-- [Singleton](https://www.codecademy.com/resources/docs/general/singleton-pattern): Ensures a class has only one object instantiated during the programs lifecycle.
-- [Builder](https://www.codecademy.com/resources/docs/general/builder-pattern): Decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during its construction.
-- [Prototype](https://www.codecademy.com/resources/docs/general/prototype-pattern): Adds cloning functionality to an objects class.
-- [Factory](https://www.codecademy.com/resources/docs/general/factory-pattern): Creates objects without specifying the specific class.
-- [Abstract Factory](https://www.codecademy.com/resources/docs/general/abstract-factory-pattern): Groups object factories based on a common theme.
+- [Singleton](https://www.codecademy.com/resources/docs/general/design-patterns/singleton-pattern): Ensures a class has only one object instantiated during the programs lifecycle.
+- [Builder](https://www.codecademy.com/resources/docs/general/design-patterns/builder-pattern): Decouples the responsibility of object creation from the desired object's class. It is normally implemented when a class requires many properties to be set during its construction.
+- [Prototype](https://www.codecademy.com/resources/docs/general/design-patterns/prototype-pattern): Adds cloning functionality to an objects class.
+- [Factory](https://www.codecademy.com/resources/docs/general/design-patterns/factory-pattern): Creates objects without specifying the specific class.
+- [Abstract Factory](https://www.codecademy.com/resources/docs/general/design-patterns/abstract-factory-pattern): Groups object factories based on a common theme.
