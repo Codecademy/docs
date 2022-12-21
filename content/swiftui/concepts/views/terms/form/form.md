@@ -45,7 +45,7 @@ var body: some View {
 
 ```
 
-- This is just an example to show how useful is a `Form`. There are plenty more use cases to it. 
+- This is just an example to show how useful a `Form` is. There are plenty more use cases to it. 
 - `NavigationView` is fundamental to display and make the `NavigationLink` work properly
 
 This will display the following:
