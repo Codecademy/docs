@@ -58,7 +58,7 @@ def run_threads():
 run_threads()
 ```
 
-This results in output like the following
+This results in output like the following:
 
 ```shell
 Main flow of application
