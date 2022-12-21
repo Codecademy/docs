@@ -28,7 +28,7 @@ The `threading` module must first be imported before thread constants can be cre
 
 ## Example
 
-This example prints out some messages from both the main thread and separate threads:
+The following example features five threads that are created, started, and end at different points before the program finishes:
 
 ```py
 import threading
