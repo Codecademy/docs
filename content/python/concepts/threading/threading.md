@@ -31,9 +31,7 @@ The `threading` module must first be imported before thread constants can be cre
 The following example features five threads that are created, started, and end at different points before the program finishes:
 
 ```py
-import threading
-import time
-import random
+import threading, time, random
 
 def slow_function(thread_index):
     time.sleep(random.randint(1, 10))  # simulates waiting time, for example an API call response
