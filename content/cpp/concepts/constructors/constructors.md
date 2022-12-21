@@ -57,6 +57,7 @@ int main() {
   Circle myCircle2(0,0,5);
 
   // Print out the attribute values set for each object
+  
   std::cout << "X=" << myCircle1.X << ", Y=" << myCircle1.Y << ", radius=" << myCircle1.radius << "\n";
   // Output: X=5, Y=5, radius=10
 
