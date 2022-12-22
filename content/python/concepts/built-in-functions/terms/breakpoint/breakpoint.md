@@ -60,7 +60,7 @@ breakpoint()
 print("Welcome back to Codecademy!!")
 ```
 
-This is what happens when running this code in the terminal:
+This will cause the following in the terminal:
 
 ![Terminal window showing the breakpoint() formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/python-built-in-functions-breakpoint-screenshot.png)
 
