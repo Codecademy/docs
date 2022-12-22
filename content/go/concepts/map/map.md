@@ -244,7 +244,7 @@ func main() {
   // Print map m
   fmt.Println("m with 2 added key-value pairs: ",m)
   
-  // Create map called gradebook with values that has key data type as string and value data type as double
+  // Create map called gradebook with values that has key data type as  string and value data type as double
   gradebook:= map[string]float32{"John" : 85.2, "Ana" : 95.6}
 
   // Output map gradebook
