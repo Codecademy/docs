@@ -157,6 +157,8 @@ func main() {
 }
 ```
 
+This will output:
+
 ```shell
 95.6
 ```
