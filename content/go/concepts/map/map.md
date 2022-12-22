@@ -32,7 +32,7 @@ A map can also be initialized with key-values pairs by using a map literal.
 ```pseudo
 map_name := map[key_data_type]value_data_type{key-1: value-1...}
 ```
- 
+
 ### Accessing Items
 
 A value in the map can be accessed using its corresponding key value by putting the key in brackets.
@@ -273,7 +273,7 @@ func main() {
 }
 ```
 
-This will output: 
+This will output:
 
 ```shell
 Empty map m:  map[]
