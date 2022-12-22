@@ -12,25 +12,28 @@ Catalog/content:
   - 'paths/scan-systems-with-nmap'
 ---
 
-**Version detection** provides information on all identified open ports interrogating them using probes that generate specific responses by specific services. Version Detection is done with the `-sV` command and can identify the version number, the service type, the operating system, the hostname, etc.
+**Version detection** provides information on all identified open ports interrogating them using probes that generate specific responses by specific services.
+
 The command can be customized with the following options:
-- --allports
-- --version-intensity
-- --version-light
-- --version-all
-- --version-trace
+- `--allports`
+- `--version-intensity`
+- `--version-light`
+- `--version-all`
+- `--version-trace`
 
 ## Syntax
 
+Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include: the version number, the service type, the operating system, the hostname, etc.
+
 ```shell
-nmap -sV <localhost>
+nmap -sV localhost
 ```
 
-The command starts an assessment on "localhost".
+The command starts an assessment on `localhost`.
 
 ## Example
 
-The following example demonstrates the use of Version Detection using `_scanme.nmap.org_`:
+The following example demonstrates the use of Version Detection using `scanme.nmap.org`:
 
 ```shell
 nmap -sV scanme.nmap.org
