@@ -64,4 +64,4 @@ This is what happens when running this code in the terminal:
 
 ![Terminal window showing the breakpoint() formula](https://raw.githubusercontent.com/Codecademy/docs/main/media/python-built-in-functions-breakpoint-screenshot.png)
 
-The execution of the program was paused, showing a prompt in the terminal. At this point the code can be analyzed using the previously mentioned commands.
+The execution of the program was paused, showing a prompt in the terminal. At this point, the code can be analyzed using the previously mentioned commands.
