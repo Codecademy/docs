@@ -77,7 +77,7 @@ func main() {
 }
 ```
 
-Output:
+THis will output:
 
 ```shell
 map[]
@@ -156,6 +156,8 @@ func main() {
    fmt.Println(anaScore)
 } 
 ```
+
+This will output:
 
 ```shell
 95.6
@@ -270,7 +272,7 @@ func main() {
 }
 ```
 
-This will output:
+This will output: 
 
 ```shell
 Empty map m:  map[]
