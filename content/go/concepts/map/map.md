@@ -270,7 +270,7 @@ func main() {
 }
 ```
 
-This will output: 
+This will output:
 
 ```shell
 Empty map m:  map[]
