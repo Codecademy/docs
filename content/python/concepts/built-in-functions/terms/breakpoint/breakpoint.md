@@ -29,7 +29,7 @@ First introduced in [Python 3.7](https://docs.python.org/3/whatsnew/3.7.html#wha
 import pdb; pdb.set_trace()
 ```
 
-So, why did they introduce the `breakpoint()` function? For one, it is much more concise and easier to type. Plus, it offers some additional features, such as the ability to choose different debugging tools.
+One reason the `breakpoint()` function was introduced was to make debugging more concise and type-friendly. Plus, it offers additional features like the ability to choose different debugging tools.
 
 ### Common `pdb` Debugger Commands
 
