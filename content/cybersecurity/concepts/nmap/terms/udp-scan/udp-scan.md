@@ -1,14 +1,14 @@
 ---
-Title: 'UDP Scan' 
-Description: 'Scans (only) the UDP Ports of a target, which are not scanned in a regular scan. Can be combined with any TCP scan' 
-Subjects: 
+Title: 'UDP Scan'
+Description: 'Scans (only) the UDP Ports of a target, which are not scanned in a regular scan. Can be combined with any TCP scan'
+Subjects:
   - 'Computer Science'
   - 'Networking'
-Tags: 
+Tags:
   - 'Networking'
   - 'Cybersecurity'
   - 'Ethical Hacking'
-CatalogContent: 
+CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'paths/scan-systems-with-nmap'
 ---
