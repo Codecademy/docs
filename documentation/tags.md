@@ -120,6 +120,7 @@ Formatting
 Frameworks
 Functions
 Functional Programming
+Functors
 Ggplot2
 Git
 GitHub
