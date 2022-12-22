@@ -1,17 +1,15 @@
 ---
-Title: 'map'
+Title: 'Map'
 Description: 'Map is a built-in data structure used to store data of the same or different data type in unordered key-value pairs.'
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'map'
+  - 'Map'
   - 'Data Structures'
 CatalogContent:
   - 'learn-go'
   - 'paths/computer-science'
 ---
-
-## What is a map?
 
 A **map** is a built-in data structure that is used to store a collection of unordered key-value pairs that can be the same or different data type. It is Go's implementation of a hash table, which allows for efficient access, insertion, and deletion.
 
@@ -47,7 +45,7 @@ The value that results from the code above can also be stored in a variable for 
 variable_name := map_name[key_value]
 ```
 
-If the key does not exist, then a null value will be returned based on the data type of the values in the map.
+If the key does not exist, then a `null` value will be returned based on the data type of the values in the map.
 
 ### Adding Items
 
@@ -69,15 +67,17 @@ package main
 import "fmt"
 
 func main() {
+
   // Create a empty map called emptyMap
   emptyMap := make(map[string]int)
 
   // Print map
   fmt.Println(emptyMap)
+
 }
 ```
 
-Output:
+This will output:
 
 ```shell
 map[]
@@ -94,18 +94,19 @@ import "fmt"
 
 func main() {
 
-   // Initialize map gradebook with values
-   gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
+  // Initialize map gradebook with values
+  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
 
-   // Print map gradebook
-   fmt.Println(gradebook)
+  // Print map gradebook
+  fmt.Println(gradebook)
+
 }
 ```
 
 This will output:
 
 ```shell
-map[Ana:95.6 John:85.2]
+map[John:85.2 Ana:95.6]
 ```
 
 ### Access a key-value pair in the map
@@ -119,14 +120,13 @@ import "fmt"
 
 func main() {
 
-   // Initialize map gradebook with values
-   gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
+  // Initialize map gradebook with values
+  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
 
-   // Print the value with key "John"
-   fmt.Println(gradebook["John"])
+  // Print the value with key "John"
+  fmt.Println(gradebook["John"])
+
 }
-
-
 ```
 
 This will output:
@@ -146,13 +146,14 @@ import "fmt"
 
 func main() {
 
-   // Initialize map gradebook with values
-   gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
+  // Initialize map gradebook with values
+  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
 
-   // Store the value that has a key of "Ana" in anaScore
-   anaScore := gradebook["Ana"]
+  // Store the value that has a key of "Ana" in anaScore
+  anaScore := gradebook["Ana"]
 
-   fmt.Println(anaScore)
+  fmt.Println(anaScore)
+
 }
 ```
 
@@ -171,19 +172,19 @@ import "fmt"
 
 func main() {
 
-   // Initialize map gradebook with values
-   gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
+  // Initialize map gradebook with values
+  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
 
-   // Store the value that has a key of "John" in johnScore
-   johnScore := gradebook["David"]
+  // Store the value that has a key of "John" in johnScore
+  johnScore := gradebook["David"]
 
-   // Since "David" does not exist in the map, 0 will be printed
-   fmt.Println(johnScore)
+  // Since "David" does not exist in the map, 0 will be printed
+  fmt.Println(johnScore)
+
 }
-
 ```
 
-Output:
+This will output:
 
 ```shell
 0
@@ -200,18 +201,19 @@ import "fmt"
 
 func main() {
 
-   // Initialize map gradebook with values
-   gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
+  // Initialize map gradebook with values
+  gradebook := map[string]float32{"John": 85.2, "Ana": 95.6}
 
-   // Print the initialized map
-   fmt.Println(gradebook)
+  // Print the initialized map
+  fmt.Println(gradebook)
 
-   // Add more key-value pairs
-   gradebook["George"] = 76.4
-   gradebook["Emma"] = 90
+  // Add more key-value pairs
+  gradebook["George"] = 76.4
+  gradebook["Emma"] = 90
 
-   // Print the map again
-    fmt.Println(gradebook)
+  // Print the map again
+  fmt.Println(gradebook)
+
 }
 ```
 
@@ -232,18 +234,19 @@ package main
 import "fmt"
 
 func main() {
+
   // Create empty map called m
   m := make(map[string]float32)
 
   // Print empty map m
-  fmt.Println("Empty map m: ",m)
+  fmt.Println("Empty map m: ", m)
 
   // Add values to m
   m["Alex"] = 92.5
   m["Amanda"] = 85.2
 
   // Print map m
-  fmt.Println("m with 2 added key-value pairs: ",m)
+  fmt.Println("m with 2 added key-value pairs: ", m)
 
   // Create map called gradebook with values that has key data type as string and value data type as double
   gradebook:= map[string]float32{"John" : 85.2, "Ana" : 95.6}
@@ -258,15 +261,15 @@ func main() {
   anaGrade := gradebook["Ana"]
 
   // Print the variable
-   fmt.Println("Ana grade: ", anaGrade)
+  fmt.Println("Ana grade: ", anaGrade)
 
   // Add new key-value pairs into gradebook
   gradebook["Bob"] = 100
   gradebook["Elizabeth"] = 88.6
 
 
- // Output map gradebook with new values
- fmt.Println("map gradebook with 2 more values: ", gradebook)
+  // Output map gradebook with new values
+  fmt.Println("map gradebook with 2 more values: ", gradebook)
 
 }
 ```
