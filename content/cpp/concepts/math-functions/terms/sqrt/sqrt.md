@@ -29,8 +29,7 @@ The following example uses the `sqrt()` function to find the square root of `4`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 4;
   double result;
 
@@ -49,8 +48,7 @@ The following example is runnable and returns the square root of `9` with the `s
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 9;
   double result;
 
