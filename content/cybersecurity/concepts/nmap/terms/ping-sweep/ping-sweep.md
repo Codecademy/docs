@@ -22,7 +22,7 @@ A **ping-sweep** is a network scanning technique to identify active devices on a
 nmap -sn <subnet>/<mask>
 ```
 
-The above identifies all of the IP addresses that are currently online without sending any packets to these hoss.
+The above identifies all of the IP addresses that are currently online without sending any packets to these hosts.
 
 ## Example
 
