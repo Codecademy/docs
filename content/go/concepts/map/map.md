@@ -25,7 +25,7 @@ An empty map can be created using the `create()` function and assigning it to a 
 variable_name := create(map[key_data_type]value_data_type)
 ```
 
-### Initializing a map with existing key-value pairs.
+### Initializing a map with existing key-value pairs
 
 A map can also be initialized with key-values pairs by using a map literal.
 
@@ -48,7 +48,7 @@ variable_name := map_name[key_value]
 ```
 
 If the key does not exist, then a null value will be returned based on the data type of the values in the map.
- 
+
 ### Adding Items
 
 Add new key-value pairs into the map by setting the new key value to a new value.
@@ -101,7 +101,6 @@ func main() {
    fmt.Println(gradebook)
 }
 ```
-
 
 This will output:
 
@@ -185,6 +184,7 @@ func main() {
 }
 
 ```
+
 Output:
 
 ```shell
@@ -192,6 +192,7 @@ Output:
 ```
 
 ### Adding a new key-value pair into a map
+
 The following code will first print an initialized map. It will then add two more key-value pairs into the map and print the map.
 
 ```go
