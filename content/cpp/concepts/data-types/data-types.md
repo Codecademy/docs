@@ -1,6 +1,6 @@
 ---
 Title: 'Data Types'
-Description: 'C++ supports many data type that represent the size and kind of values being stored in memory.'
+Description: 'C++ supports many data types that represent the size and kind of values being stored in memory.'
 Subjects:
   - 'Computer Science'
   - 'Game Development'
@@ -91,8 +91,7 @@ Constant variables cannot be changed by the program during execution. The `const
 
 ```cpp
 const double quarter = 0.25;
-
-// and now variable quarter can only be 0.25
+// Now, the variable quarter can only be 0.25
 ```
 
 ## Type Conversion
@@ -105,12 +104,12 @@ The notation `(type) value` means “convert value to type." For example:
 double weight1;
 int weight2;
 
+// Assigned a double value
 weight1 = 154.49;
-// assigned a double value
+// Set weight2 to 154 through explicit type conversion
 weight2 = (int) weight1;
-// weight2 is now 154 due to explicit type conversion
+// Set weight3 to 154 through implicit conversion by the compiler
 int weight3 = weight1;
-// weight3 is also 154 due to implicit conversion by the compiler
 ```
 
 > **Note:** Going from a double to an int simply removes the decimal. There’s no rounding involved.
@@ -120,11 +119,12 @@ Alternatively, there is a safer version of casting in C++ called `static_cast` t
 ```cpp
 double weight1 = 122.03;
 int weight2 = static_cast<int>(weight1);
+
 std::cout << weight2 << std::endl;
 // Output: 122
 ```
 
-> **Note:** Not all types can be converted:
+Not all types can be converted. The example below shows a type that can not be accepted:
 
 ```cpp
 std::string s = static_cast<std::string>(weight2);

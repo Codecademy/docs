@@ -20,7 +20,7 @@ There are two types of macros: [object](https://www.codecademy.com/resources/doc
 
 These macros are replaced by their value in the source code before compilation. Their primary purpose is to define constants to be used in the code.
 
-**Note**: Macro definitions are not followed by a semicolon `;`.
+> **Note**: Macro definitions are not followed by a semicolon `;`.
 
 ### Example
 
@@ -28,21 +28,24 @@ In the following example, `PI` is defined as an object-like macro:
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
 #define PI 3.1416
 
-int main()
-{
+int main() {
   float radius = 3;
   float area;
+
   area = PI * radius * radius;
+
   cout << "Area is " << area;
+
   return 0;
 }
 ```
 
-This example outputs the following:
+This results in the output:
 
 ```shell
 Area is 28.2744
@@ -60,22 +63,25 @@ In the following example, `AREA` is defined as a function-like macro. Note that 
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
 #define PI 3.1416
 #define AREA(r) r * r * PI
 
-int main()
-{
+int main() {
   float radius = 5;
   float result;
+
   result = AREA(radius);
+
   cout << "Area is " << result;
+
   return 0;
 }
 ```
 
-This example outputs the following:
+This results in the output:
 
 ```shell
 Area is 78.54
@@ -96,24 +102,23 @@ The following example uses the predefined macros mentioned above:
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
-int main()
-{
+int main() {
+  char file[] = __FILE__;
+  char date[] = __DATE__;
+  char time[] = __TIME__;
+  int line = __LINE__;
 
-char file[] = __FILE__;
-char date[] = __DATE__;
-char time[] = __TIME__;
-int line = __LINE__;
-
-cout << "File name: " << file << "\n";
-cout << "Date: " << date << "\n";
-cout << "Time: " << time << "\n";
-cout << "Line number: " << line << "\n";
+  cout << "File name: " << file << "\n";
+  cout << "Date: " << date << "\n";
+  cout << "Time: " << time << "\n";
+  cout << "Line number: " << line << "\n";
 }
 ```
 
-The output resembles the following:
+This results in the output:
 
 ```shell
 File name: main.cpp
@@ -130,12 +135,12 @@ Once defined, a macro can be undefined with the `#undef` command. Using the macr
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
 #define TEST 1
 
-int main()
-{
+int main() {
   #ifdef TEST
     cout << "TEST defined\n";
   #else
