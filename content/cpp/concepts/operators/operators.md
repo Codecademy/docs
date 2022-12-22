@@ -48,8 +48,7 @@ Relational operators can be used to compare two values and return true or false 
 - `<=` less than or equal to
 
 ```cpp
-if (a > 10)
-{
+if (a > 10) {
   // ☝️ means greater than
 }
 ```
@@ -63,18 +62,15 @@ Logical operators can be used to combine two different conditions.
 - `!` negates the result (`not`)
 
 ```cpp
-if (coffee > 0 && donut > 1)
-{
+if (coffee > 0 && donut > 1) {
   // Code runs if both are true
 }
 
-if (coffee > 0 || donut > 1)
-{
+if (coffee > 0 || donut > 1) {
   // Code runs if either is true
 }
 
-if (!tired)
-{
+if (!tired) {
   // Code runs if tired is false
 }
 ```
