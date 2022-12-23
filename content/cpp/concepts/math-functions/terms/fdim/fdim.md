@@ -41,8 +41,7 @@ Use `fdim()` to return the positive difference between `8` and `5`:
 #include <iostream>
 #include <cmath>
 
-int main ()
-{
+int main() {
   double x = 8;
   double y = 5;
   double result1;
