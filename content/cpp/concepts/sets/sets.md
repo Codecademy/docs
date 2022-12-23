@@ -30,8 +30,7 @@ The example below initiates a set, inserts values into it using the [.insert()](
 #include <iostream>
 #include <set>
 
-int main()
-{
+int main() {
   // Initiate set
   std::set<int> numSet;
 
@@ -43,8 +42,7 @@ int main()
 
   // Print out set
   std::set<int> :: iterator iter;
-  for(iter = numSet.begin(); iter != numSet.end(); iter++)
-  {
+  for (iter = numSet.begin(); iter != numSet.end(); iter++) {
   std::cout<< *iter << " ";
   }
 }
@@ -78,8 +76,7 @@ Setting the previous example's comparison function to `std::greater<int>`:
 #include <iostream>
 #include <set>
 
-int main()
-{
+int main() {
   // Initiate set
   std::set<int, std::greater<int> > numSet;
 
@@ -91,9 +88,9 @@ int main()
 
   // Print set
   std::set<int> :: iterator iter;
-  for(iter = numSet.begin(); iter != numSet.end(); iter++)
-  {
-  std::cout<< *iter << " ";
+
+  for (iter = numSet.begin(); iter != numSet.end(); iter++) {
+    std::cout<< *iter << " ";
   }
 }
 ```
