@@ -224,7 +224,7 @@ i == true ? (a++), (b++) : (a = 0), (b = 0);
 SyntaxError: Unexpected token ','
 ```
 
-Although ternary operator and `if...else` condition performance speeds are [roughly the same](https://stackoverflow.com/questions/2586842/is-ternary-operator-if-else-or-logical-or-faster-in-javascript#:~:text=test%20was%20fair-,Here%27s%20my%20jsperf,-result%3A), using multi-step ternary operators can help consolidate several lines of code, thus reducing file size and download time in the browser.
+> **Note:** The ternary operator and `if...else` condition performance speeds are roughly the same. Although the ternary operator can help consolidate several lines of code, utilizing it is up to preference.
 
 ### Codebyte Example
 
