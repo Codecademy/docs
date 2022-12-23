@@ -27,8 +27,7 @@ Use `cbrt()` to return the cube root of `27`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 27;
   double result;
 

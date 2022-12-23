@@ -29,15 +29,13 @@ To access the class attributes, use the dot syntax (`.`) on the object:
 Create an object called `myObj` and access the attributes:
 
 ```cpp
-class MyClass
-{
-public:
-  int myNum;
-  std::string myString;
+class MyClass {
+  public:
+    int myNum;
+    std::string myString;
 };
 
-int main()
-{
+int main() {
   // Create an object of MyClass
   MyClass myObj;
 
@@ -59,16 +57,14 @@ int main()
 #include <iostream>
 #include <string>
 
-class Cat
-{
-public:
-  std::string name;
-  std::string color;
-  int age;
+class Cat {
+  public:
+    std::string name;
+    std::string color;
+    int age;
 };
 
-int main()
-{
+int main() {
   // Create an object of Cat
   Cat mochi;
 
