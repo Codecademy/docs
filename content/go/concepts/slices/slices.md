@@ -1,6 +1,6 @@
 ---
 Title: 'Slices'
-Description: 'A slice in Go is a pointer to a section of an array. They are like arrays, but with the flexibility of being dynamically sized.'
+Description: 'A slice in Go is a pointer to a section of an array. They are like arrays but can be dynamically sized.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **slice** in Go is a pointer to a section of an array. They are like arrays but can dynamically sized. Care needs to be taken when modifying elements in slices, as the element value will change in the underlying array. A slice has a length and a capacity.
+A **slice** in Go is a pointer to a section of an array. They are like arrays but can be dynamically sized. Care needs to be taken when modifying elements in slices, as the element value will change in the underlying array. A slice has a length and a capacity.
 
 The length of a slice is the number of elements in the slice. The length can be found using `len(slice_name)`.
 
