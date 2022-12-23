@@ -1,6 +1,6 @@
 ---
 Title: 'Git'
-Description: 'Git is a popular version control tool that developers use to collaborate, share, and save all relevant versions of their work to avoid it being lost.'
+Description: 'Git is a distributed version control system that developers use to collaborate, share, and save all relevant versions of their work to avoid it being lost.'
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/bash'
 CatalogContent:
   - 'learn-git'
