@@ -1,24 +1,19 @@
-
 ---
 Title: 'Functors'
 Description: 'A functor is an object or struct that can be called like a function by overloading the function-call operator ().'
-
 Subjects:
   - 'Code Foundations'
-  - 'Computer Science'
-  
+  - 'Computer Science' 
 Tags:
   - 'Functors'
   - 'Classes'
   - 'Objects'
   - 'OOP'
   - 'Functions'
-
 CatalogContent:
   - 'learn-c-plus-plus'
   - 'paths/computer-science'
 ---
-
 
 A **functor** is an object or struct that can be called like a function by overloading the function-call operator `()`. Public access must be granted to the overloading of the `()` operator in order to be used as intended. Functors can simplify tasks and improve efficiency in many cases.
 
