@@ -44,7 +44,7 @@ Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/da
 
 ## Example
 
-The following code
+The following code:
 
 ```cpp
 #include<iostream>
