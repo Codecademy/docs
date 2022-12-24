@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A capsule shape is essentially a rounded rectangle with more pronounced corner radius which gets measured by halving the rectangle's smallest side.
+A **Capsule** shape is essentially a rounded rectangle with a more pronounced corner radius which gets measured by halving the rectangle's smallest side.
 
 The **`Capsule`** is one of SwiftUI pre-built shapes like [rectangle](https://www.codecademy.com/resources/docs/swiftui/views/rectangle), rounded rectangle, [circle](https://www.codecademy.com/resources/docs/swiftui/views/circle), [ellipse](https://www.codecademy.com/resources/docs/swiftui/views/ellipse) which can be modified as wanted.
 
