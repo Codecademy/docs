@@ -20,7 +20,7 @@ CatalogContent:
 ---
 
 
-A **functor** is an object or struct that can be called like a function by overloading the function-call operator (). Public access must be granted to the overloading of () operator in order to be used as intended. Functors can simplify tasks and improve efficiency in many cases.
+A **functor** is an object or struct that can be called like a function by overloading the function-call operator `()`. Public access must be granted to the overloading of the `()` operator in order to be used as intended. Functors can simplify tasks and improve efficiency in many cases.
 
 ## Syntax
 
