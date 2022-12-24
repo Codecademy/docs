@@ -27,8 +27,7 @@ std::string getString(std::string values[], int index) {
   return values[index];
 }
 
-int main()
-{
+int main() {
   std::string words[] = {"One", "Two", "Three"};
 
   // This is fine, and will print the string "One"
@@ -46,25 +45,21 @@ Errors, when uncaught, will cause a program to immediately stop. This behavior c
 ```codebyte/cpp
 #include <iostream>
 
-std::string getString(std::string values[], int index)
-{
+std::string getString(std::string values[], int index) {
   return values[index];
 }
 
-int main()
-{
+int main() {
   std::string words[] = {"One", "Two", "Three"};
 
-  try
-  {
+  try {
     // "One" will be printed
     std::cout << getString(words, 0);
 
     // This line will throw an exception and immediately move program execution to the catch block
     std::cout << getString(words, 6);
   }
-  catch (...)
-  {
+  catch (...) {
     // "Some sort of error has occurred!" will be sent to the buffer
     std::cout << "Some sort of error has occurred!";
   }
@@ -81,23 +76,18 @@ The parenthesized ellipsis above indicate that the `catch` should try to catch a
 It is possible to catch multiple types of exception by specifying multiple catch blocks:
 
 ```cpp
-int main()
-{
-  try
-  {
+int main() {
+  try {
     // Code goes here
   }
-  catch (int intErrorVariable)
-  {
+  catch (int intErrorVariable) {
     // The thrown error was of type int
   }
-  catch (std::exception exceptionVariable)
-  {
+  catch (std::exception exceptionVariable) {
     // The thrown error was of type exception
     std::cout << exceptionVariable.what();
   }
-  catch (...)
-  {
+  catch (...) {
     // The ellipsis
   }
 }
@@ -117,28 +107,23 @@ While it is possible to use `throw` with many data types, it is common to throw 
 #include <iostream>
 #include <math.h>
 
-float mySqrt(float value)
-{
-  if (value < 0)
-  {
+float mySqrt(float value) {
+  if (value < 0) {
     throw std::runtime_error("Negative numbers not allowed");
   }
 
   return sqrt(value);
 }
 
-int main()
-{
+int main() {
   float posNumber = 4.41;
   float negNumber = -1.0;
 
-  try
-  {
+  try {
     std::cout << "Square root of " << posNumber << " is " << mySqrt(posNumber) << "\n";
     std::cout << "Square root of " << negNumber << " is " << mySqrt(negNumber) << "\n";
   }
-  catch (std::runtime_error error)
-  {
+  catch (std::runtime_error error) {
     std::cout << "ERROR: " << error.what() << "\n";
   }
 

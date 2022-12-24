@@ -51,8 +51,7 @@ I am 30 years old.
 ```codebyte/cpp
 #include <iostream>
 
-int main()
-{
+int main() {
   double tip = 3.85;
   std::cout << "Tip is" << tip;
 }
