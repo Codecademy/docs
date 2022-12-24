@@ -29,7 +29,7 @@ var body: some View {
 
 ## Example
 
-The following example creates a red `Capsule` with a continuous style and a dimension of `250` wide x `50` height:
+The following example creates a red `Capsule` with a continuous style and a dimension of `250` width x `50` height:
 
 ```swift
 var body: some View {
