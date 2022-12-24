@@ -54,6 +54,7 @@ Comparison operators can be used to compare two values:
 - `>=`: Greater than or equal to
 - `<=`: Less than or equal to
 - `!=`: Not equal
+- `<>`: Not equal to
 
 ### Example
 
