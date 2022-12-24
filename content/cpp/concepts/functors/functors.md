@@ -34,7 +34,8 @@ class MyClass{
     }
 };
 ```
-where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) to be returned and `(...)`are the arguments to be given for the execution. Then, to use the functor just create an instance of the class and when needed call it passing the arguments required as
+
+Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) to be returned and `(...)`are the arguments to be given for the execution. Then, to use the functor just create an instance of the class and when needed call it passing the arguments required as
 
 ```cpp
  MyClass myclass;
