@@ -68,7 +68,7 @@ int main(){
 }
 ```
 
-returns
+Results in the following output:
 
 ```
 Hello world!
