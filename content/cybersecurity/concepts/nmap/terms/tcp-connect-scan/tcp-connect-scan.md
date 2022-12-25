@@ -23,6 +23,7 @@ Drawbacks to using TCP connect scan include:
   - Longer scan times
   - Target machines are more likely to log your connections purformed during the scan.
 
+  <!-- add an image here? https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png -->
 
 ## Syntax
 
