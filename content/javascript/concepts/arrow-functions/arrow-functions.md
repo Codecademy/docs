@@ -33,7 +33,7 @@ Arrow functions can be defined with zero or more arguments. They can also be def
 - Arrow functions with a single parameter do not require `()` around the parameter list.
 - Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
 
-##Limitations
+## Limitations
 
 Arrow functions functions are limited and can't be used in all situations:
 > - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
