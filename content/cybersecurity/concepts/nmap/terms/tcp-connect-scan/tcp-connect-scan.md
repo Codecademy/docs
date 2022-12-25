@@ -18,3 +18,11 @@ Transmission Control Protocol (TCP) is a connection-oriented protocol used in mo
 After Nmap's TCP connect scan completes the three way handsshake, Nmap then terminates the connection.
 
 This is not to be confused with another common scan option, *TCP Syn Scan* `-sS` which does not complete its connection to the target host.
+
+## Syntax
+
+```pseudo
+nmap -sT <target>
+```
+
+The above conducts a TCP Connect Scan on `<target>`
