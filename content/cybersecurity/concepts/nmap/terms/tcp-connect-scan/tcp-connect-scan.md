@@ -26,3 +26,13 @@ nmap -sT <target>
 ```
 
 The above conducts a TCP Connect Scan on `<target>`
+
+## Example
+
+The following example performs a TCP Connect Scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
+
+```shell
+nmap -sT scanme.nmap.org
+```
+
+> **Note:** This is a site explicitly set up for testing Nmap. Scans should only be performed on domains with explicit permissions given to the user.
