@@ -1,1 +1,1 @@
-content/emojicode/concepts/interpolation/interpolation.md
+content/general/concepts/boolean/boolean.md
