@@ -28,13 +28,13 @@ The syntax for an arrow function expression does not require the `function` keyw
 
 Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
 
-There are several variations of arrow functions:
+There are several variations of arrow functions :
 - Arrow functions with a single parameter do not require `()` around the parameter list.
 - Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
 
 ## Limitations
 
-Arrow functions functions are limited and can't be used in all situations:
+Arrow functions functions are limited and can't be used in all situations :
 > - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
 > - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
 > - They cannot use `yield`, within its body.
@@ -42,7 +42,7 @@ Arrow functions functions are limited and can't be used in all situations:
 
 ## Example
 
-The following example showcases how arrow functions are defined and applied:
+The following example showcases how arrow functions are defined and applied :
 
 ```js
 const printHello = () => {
@@ -57,7 +57,7 @@ printHello();
 checkWeight(25);
 ```
 
-This produces the following output:
+This produces the following output :
 
 ```shell
 hello
@@ -66,10 +66,14 @@ Baggage weight: 25 kilograms.
 
 ## Codebyte Exammple
 
-The following example features an arrow function defined with two arguments on a single line:
+The following example features an arrow function defined with two arguments on a single line :
 
 ```codebyte/javascript
 const multiply = (a, b) => a * b;
 
 console.log(multiply(2, 30));
+```
+This produces the following output :
+```shell
+60
 ```
