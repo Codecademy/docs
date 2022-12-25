@@ -18,9 +18,6 @@ CatalogContent:
 
 There are several variations of arrow functions:
 
-- Arrow functions with a single parameter do not require `()` around the parameter list.
-- Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
-
 ## Syntax
 
 ```pseudo
@@ -33,8 +30,11 @@ The syntax for an arrow function expression does not require the `function` keyw
 
 Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
 
-> **Note:** Arrow functions functions are limited and can't be used in all situations:
->
+- Arrow functions with a single parameter do not require `()` around the parameter list.
+- Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
+Limitations
+
+Arrow functions functions are limited and can't be used in all situations:
 > - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
 > - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
 > - They cannot use `yield`, within its body.
@@ -68,7 +68,7 @@ Baggage weight: 25 kilograms.
 
 The following example features an arrow function defined with two arguments on a single line:
 
-```js
+```codebyte/javascript
 const multiply = (a, b) => a * b;
 
 console.log(multiply(2, 30));
