@@ -20,6 +20,7 @@ After Nmap's TCP connect scan completes the three way handshake, Nmap then termi
 This is not to be confused with another common scan technique, *TCP Syn Scan* `-sS` which does not complete its connection to the target host. Because of this, TCP Connect Scan `-sT` will take longer and require more packets to perform.
 
   <!-- add an image here? https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png -->
+  ![Image](/media/network_scan_01.png)
 
 ## Syntax
 
