@@ -19,6 +19,11 @@ After Nmap's TCP connect scan completes the three way handsshake, Nmap then term
 
 This is not to be confused with another common scan option, *TCP Syn Scan* `-sS` which does not complete its connection to the target host.
 
+Drawbacks to using TCP connect scan include:
+  - Longer scan times
+  - Target machines are more likely to log your connections purformed during the scan.
+
+
 ## Syntax
 
 ```pseudo
