@@ -29,7 +29,7 @@ var body: some View {
 
 ## Example
 
-The following example creates a red `Capsule` with a continuous style and a dimension of `250` width x `50` height:
+The following example creates a `Capsule`:
 
 ```swift
 var body: some View {
@@ -40,7 +40,7 @@ var body: some View {
 ```
 
 - `(style: .continuous)` makes the shape look more natural to the eye by giving continuity to the rounded borders.
-- `(style: .circular)` is another styling attribute Capsules have and the outcome looks sharper on the screen.
+- `(style: .circular)` is another styling attribute capsules have and the outcome looks sharper on the screen.
 
 Swift will assign a circular style automatically when no style attribute is specified.
 
