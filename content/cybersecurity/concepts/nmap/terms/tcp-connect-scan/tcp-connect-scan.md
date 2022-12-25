@@ -36,3 +36,24 @@ nmap -sT scanme.nmap.org
 ```
 
 > **Note:** This is a site explicitly set up for testing Nmap. Scans should only be performed on domains with explicit permissions given to the user.
+
+This results in the following output:
+
+```shell
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-12-24 17:08 EST
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.095s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 992 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+Nmap done: 1 IP address (1 host up) scanned in 4.03 seconds
+```
