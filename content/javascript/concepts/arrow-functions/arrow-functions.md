@@ -16,8 +16,6 @@ CatalogContent:
 
 **Arrow function** expressions were first introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](https://www.codecademy.com/resources/docs/javascript/functions) syntax.
 
-There are several variations of arrow functions:
-
 ## Syntax
 
 ```pseudo
@@ -30,6 +28,7 @@ The syntax for an arrow function expression does not require the `function` keyw
 
 Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
 
+There are several variations of arrow functions:
 - Arrow functions with a single parameter do not require `()` around the parameter list.
 - Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
 
