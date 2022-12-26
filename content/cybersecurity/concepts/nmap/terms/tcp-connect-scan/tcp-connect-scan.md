@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP Connect Scan** `-sT` is a type of Nmap scan that establishes a complete connection to the target by completing a TCP 3-way handshake. 
+A **TCP Connect Scan** (`-sT`) is a type of Nmap scan that establishes a complete connection to the target by completing a TCP 3-way handshake. 
 Transmission Control Protocol (TCP) is a connection-oriented protocol used in modern networking, like the HTTP/HTTPS connection used to view this article.
 After Nmap's TCP connect scan completes the three way handshake, Nmap then terminates the connection.
 
