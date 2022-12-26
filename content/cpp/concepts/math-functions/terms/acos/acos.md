@@ -27,8 +27,7 @@ Use `acos()` to return the inverse cosine of `0.0`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 0.0;
   double result;
 

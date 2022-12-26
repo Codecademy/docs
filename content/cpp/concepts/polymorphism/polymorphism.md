@@ -30,24 +30,20 @@ The number of parameters passed during function invocation (function calling) de
 ```cpp
 #include <iostream>
 
-class Add
-{
+class Add {
 public:
   // sum() with 2 parameters
-  int sum(int num1, int num2)
-  {
+  int sum(int num1, int num2) {
     return num1 + num2;
   }
 
   // sum() with 3 parameters
-  int sum(int num1, int num2, int num3)
-  {
+  int sum(int num1, int num2, int num3) {
     return num1 + num2 + num3;
   }
 };
 
-int main()
-{
+int main() {
   // Create object of Add class
   Add obj;
 
@@ -79,17 +75,14 @@ In the case of function overriding, there are two definitions of the same functi
 ```cpp
 #include <iostream>
 
-class A
-{
+class A {
 public:
-  void print()
-  {
+  void print() {
     std::cout << "Output: Parent Class Function" << "\n";
   }
 };
 
-class B: public A
-{
+class B: public A {
 public:
   void print()
   {
@@ -97,8 +90,7 @@ public:
   }
 };
 
-int main()
-{
+int main() {
   // Parent class object
   A obj1;
   obj1.print();
