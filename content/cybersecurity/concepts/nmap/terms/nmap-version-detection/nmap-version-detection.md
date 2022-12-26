@@ -14,22 +14,21 @@ Catalog/content:
 
 **Version detection** provides information on all identified open ports interrogating them using probes that generate specific responses by specific services.
 
+## Syntax
+
+Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include: the version number, the service type, the operating system, the hostname, etc.
+
+```pseudo
+nmap -sV localhost
+```
+The command starts an assessment on `localhost`.
+
 The command can be customized with the following options:
 - `--allports`
 - `--version-intensity`
 - `--version-light`
 - `--version-all`
 - `--version-trace`
-
-## Syntax
-
-Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include: the version number, the service type, the operating system, the hostname, etc.
-
-```shell
-nmap -sV localhost
-```
-
-The command starts an assessment on `localhost`.
 
 ## Example
 
