@@ -14,11 +14,11 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
   - 'path/example-path'
 ---
 
-[A brief definition - make sure first mention of term is in **bold**.]
+The **shape** of DataFrame returns the tuple of array information that inform the number of rows and columns respectively of a given DataFrame. 
 
 ## Syntax
 
-[Text, code, images, parameters, etc. about the syntax]
+`{dataframe}.shape`
 
 ## Example
 
