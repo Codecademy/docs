@@ -42,7 +42,7 @@ These operators are used to perform arithmetic on numeric values:
 ### Example
 
 ```js
-let sum = 5 + 5;
+let sum = 1 + 5;
 
 let difference = 10 - 5;
 
@@ -69,14 +69,14 @@ An assignment operator assigns a value to its left operand based on the value of
 The following example showcases how these operators are a combination of using an assignment and arithmetic operator in one statement:
 
 ```js
-let number = 100;
+let number = 10;
 
 // Both statements will add 10
 number = number + 10;
 number += 10;
 
 console.log(number);
-// Output: 120
+// Output: 10
 ```
 
 ## Comparison Operators
