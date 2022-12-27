@@ -17,15 +17,14 @@ The **`TextField`** is a view that allows the user to fill in the field with dat
 
 ## Syntax
 
-The first parameter refers to the text that will be displayed in a lighter color inside the field. 
-The second parameter refers to what the input will be, it's a binding parameter so that swift will always know if and when this parameter changes.
-
-
 ```pseudo
 var body: some View {
     TextField(_ title: StringProtocol, text: Binding<String>)
 }
 ```
+
+- `_ title:` refers to the text that will be displayed in a lighter color inside the field. 
+- `text:` refers to what the input will be, it's a binding parameter so that Swift will always know if and when this parameter changes.
 
 ## Example
 
