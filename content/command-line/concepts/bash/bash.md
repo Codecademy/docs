@@ -36,9 +36,9 @@ Apple macOS featured Bash as the default from 2003 with OS X Panther (version 10
 
 > **Note:** Bash can still be used as an alternative in newer versions of macOS. The switch can be made by:
 >
-> 1. Running `chsh -s bin/bash` in the Terminal window
-> 2. Confirming the change with the user's credentials
-> 3. Closing and reopening the Terminal window
+> 1. Running `chsh -s bin/bash` in the Terminal window.
+> 2. Confirming the change with the user's credentials.
+> 3. Closing and reopening the Terminal window.
 
 ### Windows
 
