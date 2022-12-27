@@ -67,5 +67,4 @@ var body: some View {
 
 This will display the following:
 
-![Vertical ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-scrollview-vertical.gif)
 ![Horizontal ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-scrollview-horizontal.gif)
