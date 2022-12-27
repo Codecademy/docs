@@ -46,6 +46,10 @@ var body: some View {
     }
 ```
 
+This will display the following:
+
+![Vertical ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-scrollview-vertical.gif)
+
 In this example, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
 
 ```swift
