@@ -13,6 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
+A `Picker` allows user to select a specific data between a set of data and can be displayed in different styles based on the type of data and its ultimate use.
 
 ## Syntax
 
