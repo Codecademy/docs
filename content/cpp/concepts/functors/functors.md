@@ -21,7 +21,7 @@ A **functor** is an object or struct that can be called like a function by overl
 
 For an object to be a functor, the class body must contain the following lines 
 
-```pseudo block
+```pseudo
 class MyClass{
   public:
     type operator()(...) {
@@ -32,7 +32,7 @@ class MyClass{
 
 Where `type` is the [data type](https://www.codecademy.com/resources/docs/cpp/data-types) to be returned and `(...)`are the arguments to be given for the execution. Then, to use the functor just create an instance of the class and when needed call it passing the arguments required as
 
-```pseudo block 
+```pseudo 
  MyClass myclass;
  myclass(...);
 ```
