@@ -73,7 +73,3 @@ const multiply = (a, b) => a * b;
 
 console.log(multiply(2, 30));
 ```
-This produces the following output :
-```shell
-60
-```
