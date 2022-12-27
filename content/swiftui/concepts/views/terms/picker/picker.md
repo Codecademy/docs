@@ -29,7 +29,7 @@ var body: some View {
 
 ## Example
 
-In the example below, we have an `enum`, that stores a selection of difficulty levels, an `@State` property, that stores the selected difficulty, and inside the `body` there is a `List` with a `Picker`. 
+In the example below, we have an `enum` that stores a selection of difficulty levels, an `@State` property that stores the selected difficulty, and inside the `body` there is a `List` with a `Picker`. 
 
 ```swift
 enum Difficulty {
