@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 Apps, websites, and other digital products include **animations** for many reasons, such as drawing the user’s attention to a particular area or providing visual feedback when the user interacts with a design element. Animation can support usability or undermine it, as discussed in [Nielsen Norman Group’s article about the role of animation in UX](https://www.nngroup.com/articles/animation-purpose-ux/).
