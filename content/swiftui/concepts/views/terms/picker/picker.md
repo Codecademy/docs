@@ -1,6 +1,6 @@
 ---
 Title: 'Picker'
-Description: 'A control that selects a value from a set of exclusive values.'
+Description: 'Allows a user to select a value from a set of exclusive values.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
