@@ -17,8 +17,6 @@ A `Picker` allows a user to select a specific data value between a set of data. 
 
 ## Syntax
 
-You can create a **`Picker`** by providing a title or label, a selection of binding, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
-
 ```pseudo
 var body: some View {
     Picker(title: , selection: Binding<Hashable>) {
@@ -61,6 +59,8 @@ var body: some View {
 
 ```
 
+You can create a **`Picker`** by providing a title or label, a selection of binding, and the content to display.
+The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
 - This will display a `Picker` with the label `'Level:'` and the selection right at the end.
 - Inside the brackets are all available options.
 - `.tag(Difficulty.easy)` differentiates between certain selectable views, like the possible values of the picker.
