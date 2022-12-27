@@ -17,7 +17,7 @@ A `Picker` allows a user to select a specific data value between a set of data. 
 
 ## Syntax
 
-You can create a **`Picker`** by providing a title (or label), a selection of binding, and the content to display. The `selection:` parameter needs to bound to an `@State` property, this will keep track of possible changes in the selection.
+You can create a **`Picker`** by providing a title or label, a selection of binding, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
 
 ```pseudo
 var body: some View {
