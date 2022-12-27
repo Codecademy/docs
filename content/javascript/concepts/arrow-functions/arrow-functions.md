@@ -43,7 +43,7 @@ Arrow functions functions are limited and can't be used in all situations:
 
 ## Example
 
-The following example showcases how arrow functions are defined and applied :
+The following example showcases how arrow functions are defined and applied:
 
 ```js
 const printHello = () => {
