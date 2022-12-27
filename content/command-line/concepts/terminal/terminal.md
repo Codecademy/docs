@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **terminal**, or terminal emulator, is a program that allows users to run commands that are processed by the computer or another network device. Terminals can be completely text-based or a graphical user interface (GUI) where users interact with windows, buttons, and icons.
+A **terminal**, or terminal emulator, is a program that allows users to run commands that are processed by the computer or another network device. Terminals can be completely text-based or have a graphical user interface (GUI) where users interact with windows, buttons, and icons.
 
 ## Examples
 
