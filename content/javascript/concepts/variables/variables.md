@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'Variables are used whenever there’s a need to store a piece of data. A variable contains data that can be used in the program elsewhere. Using variables also ensures code re-usability since it can be used to replace the same value in multiple places. js const currency = $; let userIncome = 85000; console.log(currency + userIncome +  is more than the average income.); // Output: $85000 is more than the average income. '
+Description: 'Variables are used whenever there’s a need to store a piece of data.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -39,3 +39,8 @@ const numberOfFingers = 20;
 ## Dynamic typing
 
 Opposite to many programming languages, JavaScript doesn't force the user to specify what data type is contained by a variable. It assumes the data type based on the way a user assigns a value. For example, the example below assigns a a string by putting the text between quotation marks. Without them, JavaScript reads it as a number. This is why it's considered to be a "dynamically typed language".
+
+```js
+let movieTitle = "300"; // String
+let audienceNumber  = 300; // Number
+```
