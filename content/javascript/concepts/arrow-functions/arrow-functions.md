@@ -66,7 +66,7 @@ Baggage weight: 25 kilograms.
 
 ## Codebyte Exammple
 
-The following example features an arrow function defined with two arguments on a single line :
+The following example features an arrow function defined with two arguments on a single line:
 
 ```codebyte/javascript
 const multiply = (a, b) => a * b;
