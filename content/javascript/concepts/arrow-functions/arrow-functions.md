@@ -58,7 +58,7 @@ printHello();
 checkWeight(25);
 ```
 
-This produces the following output :
+This produces the following output:
 
 ```shell
 hello
