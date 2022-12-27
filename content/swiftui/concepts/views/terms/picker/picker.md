@@ -62,7 +62,7 @@ var body: some View {
 ```
 
 - This will display a `Picker` with the label `'Level:'` and the selection right at the end.
-- Inside the brackets you have all available options.
+- Inside the brackets are all available options.
 - `.tag(Difficulty.easy)` differentiates between certain selectable views, like the possible values of the picker.
 
 This will display the following:
