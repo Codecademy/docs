@@ -20,11 +20,13 @@ The **`.shape`** property of the [`DataFrame`](https://www.codecademy.com/resour
 ```pseudo
 dataframevalue.shape
 ```
-Returns the number of rows and column of DataFrame.
+
+Returns the number of rows and columns of DataFrame.
 
 ## Example
 
 The following example initiates a DataFrame and uses `.shape` to return the number of rows and columns:
+
 ```py
 import pandas as pd
 
