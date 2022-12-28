@@ -20,7 +20,7 @@ The **`.shape`** property of the [`DataFrame`](https://www.codecademy.com/resour
 ```pseudo
 dataframevalue.shape
 ```
-Returns the number of rows and column of data
+Returns the number of rows and column of DataFrame.
 
 ## Example
 
