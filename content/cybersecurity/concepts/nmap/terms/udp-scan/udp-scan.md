@@ -25,7 +25,7 @@ The above conducts an UDP scan on `<target>`.
 
 ## Example
 
-The following example runs an UDP scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
+The following example runs a UDP scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
 
 ```shell
 nmap -sU scanme.nmap.org
