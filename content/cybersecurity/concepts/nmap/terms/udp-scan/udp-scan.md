@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-An **UDP Scan** scans (only) the UDP Ports of a target, while the [regular scan](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan) only scans the TCP Ports. It is performed by using the `-sU` option and can be combined with any TCP scan type, for example SYN scan (`-sS`) to scan UDP and TCP Ports in the same run. UDP Scan is normally slower and more difficult than a TCP scan.
+A **user diagram protocol (UDP) scan** checks for any UDP ports that are deployed on a target. Conversely, the [regular scan](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan) only scans the TCP ports. UDP scans are normally slower and more difficult than TCP scans.
 
 ## Syntax
 
