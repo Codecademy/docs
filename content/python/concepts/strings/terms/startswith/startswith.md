@@ -24,9 +24,8 @@ string.startswith(value, start, end)
 
 Given a string, the `.startswith()` method can be used in the following way:
 
-- The required `value` argument, which is checked if it exists at the beginning of the string. It is also case-sensitive.
-
-- Optionally, the `value` can be tested for whether it is at the beginning of a particular substring within the string using the `start` and `end` index arguments.
+- The required `value` argument is checked for existence at the beginning of the `string`. It is also case-sensitive.
+- Optionally, a `start` and `end` index argument can be declared. The `value` is then checked for existence at the beginning of the substring from the `string`'s `start` and `end` indices.
 
 ## Example
 
@@ -34,12 +33,10 @@ Given a string, the `.startswith()` method can be used in the following way:
 example_str = "This is a string"
 
 check_A = example_str.startswith("T")
-check_B = example_str.startswith("h")
-check_C = example_str.startswith("st", 10, 14)
+check_B = example_str.startswith("t")
 
 print("A: ", check_A)
 print("B: ", check_B)
-print("C: ", check_C)
 ```
 
 The output will look like this:
@@ -47,10 +44,9 @@ The output will look like this:
 ```shell
 A: True
 B: False
-C: True
 ```
 
-From the above example, for `check_A` the output is `True` as the `.startswith()` function checks whether the `example_str` string starts with the character "T".
+In the example above, `check_A` is `True` since the `example_str` string starts with the character `"T"`.
 
 ## Codebyte Example
 
@@ -62,4 +58,8 @@ print(check_A)
 example_B = "This is a string"
 check_B = example_B.startswith("t")
 print(check_B)
+
+example_C = "This is a string"
+check_C = example_C.startswith("st", 10, 14)
+print(check_C)
 ```
