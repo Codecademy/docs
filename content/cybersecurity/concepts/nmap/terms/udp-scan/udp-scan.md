@@ -3,6 +3,7 @@ Title: 'UDP Scan'
 Description: 'Checks for any UDP ports deployed on a target and can be combined with any TCP scan.'
 Subjects:
   - 'Computer Science'
+  - 'Cybersecurity'
   - 'Networking'
 Tags:
   - 'Networking'
