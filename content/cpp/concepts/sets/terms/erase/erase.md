@@ -31,8 +31,7 @@ The following example uses `.erase()` to remove elements from the `stoneFruits` 
 #include <set>
 #include <string>
 
-int main()
-{
+int main() {
   // Initiate set
   std::set<std::string> stoneFruits;
 
@@ -48,8 +47,8 @@ int main()
 
   // Print out set
   std::set<std::string> :: iterator iter;
-  for(iter = stoneFruits.begin(); iter != stoneFruits.end(); iter++)
-  {
+
+  for(iter = stoneFruits.begin(); iter != stoneFruits.end(); iter++) {
     std::cout<< *iter << "\n";
   }
 }

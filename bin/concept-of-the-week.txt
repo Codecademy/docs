@@ -1,1 +1,1 @@
-content/java/concepts/compiler/compiler.md
+content/general/concepts/boolean/boolean.md
