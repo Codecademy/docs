@@ -21,7 +21,7 @@ An **UDP Scan** scans (only) the UDP Ports of a target, while the [regular scan]
 nmap -sU <target>
 ```
 
-The above conducts an UDP scan on `<target>`.
+The `-sU` option is used to perform a UDP scan on a `<target>`. It can be combined with any TCP scan type. For example, a stealth (SYN) scan (`-sS`) checks for UDP and TCP ports in the same run.
 
 ## Example
 
