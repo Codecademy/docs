@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/code-foundations'
 ---
 
-The Linux kernel is the core program that runs the [Linux](https://www.codecademy.com/resources/docs/open-source/linux) operating system (OS). It’s the most important component of Linux and serves as a bridge between the software and hardware of Linux machines.
+The **Linux kernel** is the core program that runs the [Linux](https://www.codecademy.com/resources/docs/open-source/linux) operating system (OS). It’s the most important component of Linux and serves as a bridge between the software and hardware of Linux machines.
 
 ## Functions of the Linux Kernel
 
