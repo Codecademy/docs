@@ -17,6 +17,8 @@ CatalogContent:
 
 The **Linux kernel** is the core program that runs the [Linux](https://www.codecademy.com/resources/docs/open-source/linux) operating system (OS). It’s the most important component of Linux and serves as a bridge between the software and hardware of Linux machines.
 
+The Linux kernel is free and [open source](https://www.codecademy.com/resources/docs/open-source). It is derived from [Unix](https://www.codecademy.com/resources/docs/general/unix) and used in the Linux OS. Other Linux-derived kernels exist in operating systems, such as Android and Chrome OS.
+
 ## Functions of the Linux Kernel
 
 Some primary functions of the Linux kernel are listed below.
@@ -42,7 +44,3 @@ Different processes have different priority levels, and higher priority processe
 The Linux kernel is responsible for performing actions requested by system calls. A system call is a request from the user space to the OS or “kernel space”. All requests sent to the OS are system calls, including those exampled above.
 
 The system call design allows for separation of the user space and kernel space. This is because many risks exist in the user space, but more damage can be done to the system from the kernel space. This design provides additional security to the system, because it provides an additional layer between the user and the internal kernel.
-
-## Usage of the Linux Kernel
-
-The Linux kernel is free and [open source](https://www.codecademy.com/resources/docs/open-source). It is derived from [Unix](https://www.codecademy.com/resources/docs/general/unix) and used in the Linux OS. Other Linux-derived kernels exist in operating systems, such as Android and Chrome OS.
