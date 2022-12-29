@@ -37,15 +37,13 @@ The following example splits up a comma-delimited list and prints out the result
 #include <string.h>
 #include <stdio.h>
 
-int main ()
-{
+int main() {
   char str[] = "Comma,Delimited,List";
   const char s[] = ",";
   char *token = strtok(str, s);
 
-  while( token != NULL )
-  {
-    printf( "%s\n", token );
+  while (token != NULL) {
+    printf("%s\n", token);
     token = strtok(NULL, s);
   }
 }
