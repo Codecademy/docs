@@ -15,9 +15,9 @@ CatalogContent:
 
 Image by Wikimedia Commons
 
-**Dennis Ritchie** (1941 - 2011) was an American computer scientist, the creator of the computer programming language [C](https://www.codecademy.com/resources/docs/c), and co-creator of the Unix operating system.
+**Dennis Ritchie** (1941 - 2011) was an American computer scientist, the creator of the computer programming language [C](https://www.codecademy.com/resources/docs/c), and co-creator of the [Unix](https://www.codecademy.com/resources/docs/general/unix) operating system.
 
-Ritchie, along with [Ken Thompson](https://www.codecademy.com/resources/docs/general/ken-thompson) and others at Bell Laboratories, began working on Unix in 1967 as a replacement operating system for the Digital Equipment Corporation's PDP-7 mini computer.
+Ritchie, along with [Ken Thompson](https://www.codecademy.com/resources/docs/general/historical-technical-figures/ken-thompson) and others at Bell Laboratories, began working on Unix in 1967 as a replacement operating system for the Digital Equipment Corporation's PDP-7 mini computer.
 
 Within this same time, Ken Thompson also developed the B computer programming language with Ritchie's contribution, and in 1971, Ritchie began developing C as an extension of B.
 
