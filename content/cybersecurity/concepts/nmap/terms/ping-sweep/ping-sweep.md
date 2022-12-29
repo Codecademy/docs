@@ -23,24 +23,27 @@ nmap -sn subnetIP/mask
 ```
 
 The above identifies all of the IP addresses that are currently online without sending any packets to these hosts.
+> **Subnet IP:** A smaller range of IP addresses of the whole network (commonly used to group items on a network together for organizational, security, and efficiency sake). <br>
+> **Subnet Mask:** Helps identify which part of the IP address is dedicated to the network, and which part is dedicated to the host devices on the network. This knowledge is needed in order to create subnets.
+
 
 ## Example
 
-The following example runs a ping-sweep on `192.168.0.1/24`:
+The following example runs a ping-sweep on `subnetIP/mask`:
 
 ```shell
-nmap -sn 192.168.0.1/24
+nmap -sn subnetIP/mask
 ```
 
 This results in the following output:
 
 ```shell
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-11-06 22:47 PST
-Nmap scan report for 192.168.0.1
+Nmap scan report for subnetIP/mask
 Host is up (0.010s latency).
-Nmap scan report for 192.168.0.101
+Nmap scan report for subnetIP/mask
 Host is up (0.087s latency).
-Nmap scan report for 192.168.0.102
+Nmap scan report for subnetIP/mask
 Host is up (0.041s latency).
 Nmap done: 256 IP addresses (3 hosts up) scanned in 4.44 seconds
 ```
