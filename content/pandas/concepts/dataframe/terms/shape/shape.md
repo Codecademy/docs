@@ -1,27 +1,27 @@
 ---
-Title: '.shape' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'Returns the number of rows and columns of given DataFrame in tuple form.' # Required; ideally under 150 characters and starts with a present-tense verb (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - Computer Science
-  - Data Science
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - Pandas
-  - Syntax
-  - Data Structures
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
+Title: '.shape'
+Description: 'Returns the number of rows and columns of given DataFrame in tuple form.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+Tags:
+  - 'Pandas'
+  - 'Syntax'
+  - 'Data Structures'
+CatalogContent:
   - 'learn-python-3'
   - 'paths/data-science'
 ---
 
-The **`.shape`** property of the [`DataFrame`](https://www.codecademy.com/resources/docs/pandas/dataframe) returns the tuple of array information that provides the number of rows and columns respectively. 
+The **`.shape`** property returns a tuple of information about the dimensions (rows and columns) of a DataFrame object. 
 
 ## Syntax
 
 ```pseudo
-dataframevalue.shape
+dataFrameValue.shape
 ```
 
-Returns the number of rows and columns of DataFrame.
+The `dataFrameValue` must be in a valid DataFrame object. If the `dataFrameValue` has a different length for in one or more columns, a `ValueError` will be thrown.
 
 ## Example
 
@@ -30,10 +30,10 @@ The following example initiates a DataFrame and uses `.shape` to return the numb
 ```py
 import pandas as pd
 
-d = {'col1' : [1,2,3], 'col2' : [4,5,6]}
+d = {"col1" : [1, 2 ,3], "col2" : [4, 5 ,6]}
 
 df = pd.DataFrame(data = d)
-df.shape
+print(df.shape)
 ```
 
 This will print the following:
@@ -44,19 +44,15 @@ This will print the following:
 
 The result can be interpreted that DataFrame has 3 rows and 2 columns.
 
-The following example results the `ValueError` of `.shape` if a DataFrame has a different of length in one or more column(s):
+## Codebyte Example
 
-```py
+The following example throws a `ValueError` because the DataFrame has columns of differing length:
+
+```codebyte/python
 import pandas as pd
 
-d = {'col1' : [1,2,3], 'col2' : [4,6]}
+d = {"col1" : [1, 2 ,3], "col2" : [4, 6]}
 
 df = pd.DataFrame(data = d)
-df.shape
-```
-
-This will print the following:
-
-```shell
-ValueError: All arrays must be of the same length
+print(df.shape)
 ```
