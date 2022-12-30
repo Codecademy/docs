@@ -1,6 +1,6 @@
 ---
 Title: 'Data-Types'
-Description: 'In Kotlin, a data type is a classification of types of values that can be stored and manipulated in a program.'
+Description: 'Data types are a classification of types of values that can be stored and manipulated in a program.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
