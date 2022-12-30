@@ -274,7 +274,7 @@ fun main(){
 }
 ```
 
-In this example, the numbers variable is an array of integers that contains the values 1, 2, 3, 4, and 5. The type of the array is specified using the Array<Int> syntax, which indicates that the array contains elements of the Int type.
+In this example, the `numbers` variable is an array of integers that contains the values 1, 2, 3, 4, and 5. The type of the array is specified using the `Array<Int>` syntax, which indicates that the array contains elements of the `Int` type.
 
 If you want to know how to print the array then you can check [Arrays](https://github.com/Codecademy/docs/tree/main/content/kotlin/concepts/arrays/arrays.md) to learn further about Arrays.
 
