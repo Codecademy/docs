@@ -236,7 +236,7 @@ In this example, the c variable will be assigned the value 750000000, which is t
 
 In Kotlin, the `Short` data type represents a 16-bit signed integer. It is a primitive data type that can hold values ranging from -32768 to 32767.
 
-Here is an example of how to declare a **Short** variable in Kotlin:
+Here is an example of how to declare a `Short` variable in Kotlin:
 
 ```kotlin
 fun main(){
