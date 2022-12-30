@@ -1,6 +1,6 @@
 ---
 Title: 'Linus Torvalds'
-Description: 'Linus Torvalds is a Finnish-American computer scientist, the creator of the operating system kernel Linux, and the distributed revision control system Git.'
+Description: 'Linus Torvalds is a Finnish-American computer scientist, the creator of the operating system kernel Linux, and the distributed revision control system, Git.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
