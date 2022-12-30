@@ -369,7 +369,7 @@ In the above, the `error()` function throws an exception and does not return a v
 
 # Unit 
 
-In Kotlin, the **Unit** type represents the absence of a value, similar to the void type in other programming languages. It is a special type that is used to indicate that a function does not return a value.
+In Kotlin, the `Unit` type represents the absence of a value, similar to the `void` type in other programming languages. It is a special type that is used to indicate that a function does not return a value.
 
 You can use the Unit type to specify that a function has a return type of Unit when it is not possible to infer the return type from the function's body. For example:
 
