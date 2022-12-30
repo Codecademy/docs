@@ -17,7 +17,7 @@ CatalogContent:
 
 **Sir Tim Berners-Lee** is an English computer scientist popularly known for his development of the World Wide Web in 1989.
 
-While working at the European Organization for Nuclear Research (CERN) in the European Particle Physics Laboratory, Berners-Lee saw the need for a system that would share information amongst researchers globally. With this motivation, Tim Berners-Lee facilitated the first transmission between an HTTP client and server. Berners-Lee then developed the first web browser in 1990. With these milestones met, Berners-Lee developed the first ever web site, [info.cern.ch](info.cern.ch).
+While working at the European Organization for Nuclear Research (CERN) in the European Particle Physics Laboratory, Berners-Lee saw the need for a system that would share information amongst researchers globally. With this motivation, Tim Berners-Lee facilitated the first transmission between an HTTP client and server. Berners-Lee then developed the first web browser in 1990. With these milestones met, Berners-Lee developed the first-ever website, [info.cern.ch](info.cern.ch).
 
 In 1993, Berners-Lee wrote the very first version of [HTML](https://www.codecademy.com/resources/docs/html) (HyperText Markup Language), the standard markup language for web pages.
 
