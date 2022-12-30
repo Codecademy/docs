@@ -32,38 +32,38 @@ func myFunction(parameter) returnType {
 go myFunction()
 ```
 
-In the code above, after the `myFunction()` function is defined. Then it is invoked with the `go` keyword. The function `myFunction()` will run concurrently with the calling function.
+In the code above the `myFunction()` function is defined. Then the function is invoked with the `go` keyword. `myFunction()` will run concurrently with the calling function.
 
-> **Note:** for any goroutines to run, the main goroutine should be running. When the main goroutine terminates, the program will be terminated, and no other goroutine will run.
+> **Note:** for any goroutines to run, the `main()` function should be running. When the `main()` function terminates, the program will be terminated, and no other goroutine will run.
 
 ## Example
 
-In the example below, the `myGoroutine()` function is defined to print out the sentence `This is my first goroutine!`. The `myGoroutine()` function is called as a goroutine with the `go` keyword inside the `main` function. Then the `main` function is set to wait two seconds with the 'time.Sleep()' function and then print out the sentence `This is the main function.`.
+In the example below, the `myGoroutine()` function is defined to print out the text `This is my first goroutine`. Then in the `main()` function, `myGoroutine()` is called as a goroutine with the `go` keyword. Afterwards, the `main()` function is set to wait two seconds with the `time.Sleep()` function and then print out the text `This is the main function`.
 
 ```go
 func myGoroutine() {  
-    fmt.Println("This is my first goroutine!")
+    fmt.Println("This is my first goroutine")
 }
 
 func main() {  
     go myGoroutine()
     time.Sleep(2 * time.Second)
-    fmt.Println("This is the main function.")
+    fmt.Println("This is the main function")
 }
 ```
 
 This example results in the following output:
 
 ```shell
-This is my first goroutine!
-This is the main function.
+This is my first goroutine
+This is the main function
 ```
 
 > **Note:** When a goroutine is started, the goroutine call returns immediately. The program does not wait for the goroutine to finish executing. After the goroutine call, the program continues the next line of code, and any return values from the goroutine are ignored. The `time.Sleep()` function keeps the `main()` function running while the `myGoroutine()` function executes. Without the two seconds waiting time in the `time.Sleep()` function, the second print statement could be immediately completed, and the `main()` function could terminate before the goroutine is completed.
 
 ## Codebyte Example
 
-The example below defines a function called `print()` to print a string, which is first called as a goroutine and then as a function:
+The example below defines a function called `print()` to print out a string, which is first called as a goroutine and then as a function:
 
 ```codebyte/golang
 package main
