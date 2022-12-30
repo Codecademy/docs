@@ -13,7 +13,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-
 An [array](https://kotlinlang.org/docs/arrays.html) in Kotlin is a collection of items of same data type stored at contiguous memory locations. 
 
 This makes it easier to calculate the position of each element by simply adding an **offset** to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the **offset**.
@@ -28,9 +27,8 @@ fun main(){
 val ArrayName = arrayOf<DataType>(array)
 
 }
-
-
 ```
+
 ** We can also use array contructor to create an array**
 
 Since Array is a class in Kotlin, we can also use the Array constructor to create an array.
@@ -98,7 +96,6 @@ The output will look like
 
 Printing the array that we created using the Method 2 mentioned above.
 
-
 ## Methods for arrays in Kotlin
 
 There are different [methods](https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87) for accessing and modifying the array in Kotlin i.e. get() and set() methods -
@@ -106,7 +103,6 @@ There are different [methods](https://blog.kotlin-academy.com/kotlin-programmer-
 As you know, an array in Kotlin is basically a class. Therefore, we can access the data of a class object via its member functions. The get() and set() functions are said to be member functions.
 
 The get() method takes a single parameter—the index of the element and returns the value of the item at that index. 
-
 
 **Syntax of Get**
 
@@ -132,8 +128,8 @@ The output will look like this:
 ```
 21
 ```
-So from here we learned how to use get() function for the array in Kotlin
 
+So from here we learned how to use get() function for the array in Kotlin
 
 **Synxtax of set()**
 
