@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Type of Data-Types 
 
-Kotlin has both primitive and non-primitive data type.
+Kotlin has both primitive and non-primitive data types.
 1. Primitive Data types
 2. Non-primitive Data types 
 
