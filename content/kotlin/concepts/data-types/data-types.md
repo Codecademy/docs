@@ -266,7 +266,7 @@ The following are non-primitive data types in Kotlin :
 
 In Kotlin, an `Array` is a data structure that stores a fixed-size collection of elements of the same data type. Arrays are non-primitive data types, which means they are derived from primitive data types or other non-primitive data types.
 
-To declare an **array** in Kotlin, you can use the arrayOf() function and specify the elements of the array within the parentheses. For example:
+To declare an `Array` in Kotlin, you can use the `arrayOf()` function and specify the elements of the array within the parentheses. For example:
 
 ```kotlin 
 fun main(){
