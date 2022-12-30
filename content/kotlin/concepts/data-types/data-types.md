@@ -46,7 +46,7 @@ val isFalse: Boolean = false
 // here we can see that if a variable is wrong we can written false and true if its right
 ```
 
-We can further use boolean data type to determine the outcome of our for loops. Lets try to learn it by a code sample :
+The `Boolean` data type can be used to determine the outcome of `if ... then` statements:
 
 ```kotlin
 fun main(){
