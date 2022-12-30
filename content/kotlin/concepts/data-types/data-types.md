@@ -336,7 +336,7 @@ As you can see by using any data type we printed both Int and a String data type
 
 ### Nothing
 
-In Kotlin, the **Nothing** type is a special type that represents the absence of a value. It is a subtype of all types in the language and cannot be instantiated.
+In Kotlin, the `Nothing` type is a special type that represents the absence of a value. It is a subtype of all types in the language and cannot be instantiated.
 
 The Nothing type is used to indicate that a function never returns a value. For example, a function that throws an exception or terminates the program will have a return type of Nothing.
 
