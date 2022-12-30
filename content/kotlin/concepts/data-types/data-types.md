@@ -294,7 +294,7 @@ The **output** for the above code will be :
 ```
 Hello, World!
 ```
-String are also [immutable](https://kotlinlang.org/docs/native-immutability.html) in nature in Kotlin.
+Strings are also [immutable](https://kotlinlang.org/docs/native-immutability.html) in Kotlin.
 
 You can use the '+' operator to concatenate strings, or the trim() function to remove leading and trailing whitespace from a string. For example:
 
