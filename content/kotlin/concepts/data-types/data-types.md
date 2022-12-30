@@ -280,7 +280,7 @@ If you want to know how to print the array then you can check [Arrays](https://g
 
 ### String 
 
-In Kotlin, a **String** is a data type that represents a sequence of characters. You can use a string to store and manipulate text in your program.
+In Kotlin, a `String` is a data type that represents a sequence of characters. You can use a string to store and manipulate text in your program.
 
 Here is an example of how to declare and initialize a string in Kotlin:
 
