@@ -194,7 +194,7 @@ In this example, the c variable will be assigned the value 8.5014, which is the 
 
 ### Int
 
-In Kotlin, the **Int** data type represents a 32-bit signed integer. It is a primitive data type that can hold values ranging from -2147483648 to 2147483647.
+In Kotlin, the `Int` data type represents a 32-bit signed integer. It is a primitive data type that can hold values ranging from -2147483648 to 2147483647.
 
 Here is an example of how to declare an **Int** variable in Kotlin:
 
