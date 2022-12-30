@@ -15,8 +15,6 @@ CatalogContent:
 
 **Data types** are a classification of types of data that determine the possible values and operations that can be performed on that data.
 
-## Type of Data-Types 
-
 Kotlin has both primitive and non-primitive data types.
 1. Primitive Data types
 2. Non-primitive Data types 
