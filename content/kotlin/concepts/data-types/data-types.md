@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A data type is a classification of types of data that determine the possible values and operations that can be performed on that data.
+**Data types** are a classification of types of data that determine the possible values and operations that can be performed on that data.
 
 ## Type of Data-Types 
 
