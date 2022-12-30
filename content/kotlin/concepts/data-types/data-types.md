@@ -1,5 +1,5 @@
 ---
-Title: 'Data-Types'
+Title: 'Data Types'
 Description: 'Data types are a classification of types of values that can be stored and manipulated in a program.'
 Subjects:
   - 'Code Foundations'
