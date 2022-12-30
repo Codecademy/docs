@@ -364,7 +364,7 @@ fun error(): Nothing {
 }
 ```
 
-In the above, the error() function throws an exception and does not return a value. Therefore, its return type is Nothing.
+In the above, the `error()` function throws an exception and does not return a value. Therefore, its return type is `Nothing`.
 
 
 # Unit 
