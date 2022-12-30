@@ -66,7 +66,7 @@ A `Byte` is a data type that is similar to an integer data type, but it is only 
 
 A `Byte` is a way to represent a small whole number. It is commonly used to store small pieces of data, such as characters in a text file or colors in an image.
 
-Here is an example of how to declare a **Byte** variable in Kotlin:
+Here is an example of how to declare a `Byte` variable in Kotlin:
 
 ```kotlin
 fun main(){
