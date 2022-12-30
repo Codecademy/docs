@@ -23,7 +23,7 @@ Kotlin has both primitive and non-primitive data types.
 
 ## Primitive Data-type
 
-We will now discuss different types of primitive data-types in kotlin :
+There are the following different types of primitive data types in Kotlin:
 
 - **Boolean**
 - **Byte**
