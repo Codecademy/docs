@@ -102,7 +102,7 @@ so here **output** will be :
 
 ### Char
 
-In Kotlin, the **Char** data type represents a single Unicode character. It is a primitive data type that can hold any character from the Unicode character set, which includes letters, digits, symbols, and special characters.
+In Kotlin, the `Char` data type represents a primitive data type that can hold any character from the Unicode character set, which includes letters, digits, symbols, and special characters.
 
 Here is an example of how to declare a **Char** variable in Kotlin:
 
