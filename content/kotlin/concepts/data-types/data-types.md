@@ -122,7 +122,7 @@ A
 
 ### Double 
 
-In Kotlin, the **Double** data type represents a 64-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
+In Kotlin, the `Double` data type represents a 64-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
 
 Here is an example of how to declare a **Double** variable in Kotlin:
 
