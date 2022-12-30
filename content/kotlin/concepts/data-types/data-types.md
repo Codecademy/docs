@@ -84,7 +84,7 @@ The output will be:
 75
 ```
 
-But before using the byte data type make sure you remember the range of the byte data type i.e. -128 to 127.But what if we still cross the range and we are printing Byte then we can check it out with a code example :
+The range of the `Byte` data type is -128 to 127. Calculations that exceed this range will produce unexpected results:
 
 ```kotlin
 fun main(){
