@@ -171,7 +171,7 @@ The square root of 16.0 is 4.0.
 
 ### Float
 
-In Kotlin, the **Float** data type represents a 32-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
+In Kotlin, the `Float` data type represents a 32-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
 
 Here is an example of how to declare a Float variable in Kotlin:
 
