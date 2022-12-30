@@ -162,7 +162,7 @@ println("$a raised to the power of 2 is $c.")
 }
 ```
 
-The **output** will be :
+The output will be:
 
 ```
 The square root of 16.0 is 4.0.
