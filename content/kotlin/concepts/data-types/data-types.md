@@ -25,17 +25,16 @@ Kotlin has both primitive and non-primitive data types.
 
 There are the following different types of primitive data types in Kotlin:
 
-- **Boolean**
-- **Byte**
-- **Char**
-- **Double**
-- **Float**
-- **Int**
-- **Long**
-- **Short**
+- Boolean
+- Byte
+- Char
+- Double
+- Float
+- Int
+- Long
+- Short
 
-
-# Boolean 
+### Boolean 
 
 In Kotlin, the `Boolean` is a primitive data type and can hold only one of the two possible values: `true` or `false`.
 
@@ -63,8 +62,7 @@ fun main(){
 }
 ```
 
-
-# Byte
+### Byte
 
 A **Byte** is a data type that represents an 8-bit integer. It is similar to an integer data type, but it is only 8 bits in size, whereas an integer can be a different size depending on the system. A byte can hold values from -128 to 127.
 
@@ -104,8 +102,7 @@ so here **output** will be :
 //In this example, the value of c will be -88, because the result of 120 + 120 is 240, which exceeds the valid range for a Byte type.
 ```
 
-
-# Char
+### Char
 
 In Kotlin, the **Char** data type represents a single Unicode character. It is a primitive data type that can hold any character from the Unicode character set, which includes letters, digits, symbols, and special characters.
 
@@ -126,8 +123,7 @@ A
 
 In the above example, the ch variable is assigned the value 'A', which is a character from the Unicode character set.
 
-
-# Double 
+### Double 
 
 In Kotlin, the **Double** data type represents a 64-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
 
@@ -147,6 +143,7 @@ The **Output** of the above code will be :
 ```
 8.5094
 ```
+
 In this example, the c variable will be assigned the value 8.5014, which is the result of 3.14 * 2.71.
 
 We can also use the Double data type to perform more advanced operations, such as calculating the square root of a number or raising a number to a power in kotlin. For example:
@@ -175,8 +172,7 @@ The square root of 16.0 is 4.0.
 16.0 raised to the power of 2 is 256.0.
 ```
 
-
-# Float
+### Float
 
 In Kotlin, the **Float** data type represents a 32-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
 
@@ -199,8 +195,7 @@ The **output** will be :
 ```
 In this example, the c variable will be assigned the value 8.5014, which is the result of 3.14 * 2.71.
 
-
-# Int
+### Int
 
 In Kotlin, the **Int** data type represents a 32-bit signed integer. It is a primitive data type that can hold values ranging from -2147483648 to 2147483647.
 
@@ -220,8 +215,7 @@ The **output** of the above code will be :
 75
 ```
 
-
-# Long 
+### Long 
 
 In Kotlin, the **Long** data type represents a 64-bit signed integer. It is a primitive data type that can hold values ranging from -9223372036854775808 to 9223372036854775807.
 
@@ -241,8 +235,7 @@ The **output** for the above code will be :
 ```
 In this example, the c variable will be assigned the value 750000000, which is the result of 500000000 + 250000000.
 
-
-# Short
+### Short
 
 In Kotlin, the **Short** data type represents a 16-bit signed integer. It is a primitive data type that can hold values ranging from -32768 to 32767.
 
@@ -262,8 +255,6 @@ The **output** for the above code will be:
 ```
 In this example, the c variable will be assigned the value 75, which is the result of 50 + 25. The toShort() function is used to explicitly convert the result to a **Short** type.
 
-
-
 ## Non-Primitive data type 
 
 We will now discuss the non-primitive data types in kotlin :
@@ -274,8 +265,7 @@ We will now discuss the non-primitive data types in kotlin :
 -Nothing 
 -Unit 
 
-
-# Arrays
+### Arrays
 
 In Kotlin, an **array** is a data structure that stores a fixed-size collection of elements of the same data type. Arrays are non-primitive data types, which means they are derived from primitive data types or other non-primitive data types.
 
@@ -291,8 +281,7 @@ In this example, the numbers variable is an array of integers that contains the 
 
 If you want to know how to print the array then you can check [Arrays](https://github.com/Codecademy/docs/tree/main/content/kotlin/concepts/arrays/arrays.md) to learn further about Arrays.
 
-
-# String 
+### String 
 
 In Kotlin, a **String** is a data type that represents a sequence of characters. You can use a string to store and manipulate text in your program.
 
@@ -325,8 +314,7 @@ The **output** for the above code will be :
 Hello, John
 ```
 
-
-# Any 
+### Any 
 
 In Kotlin, the Any type is a supertype of all types in the language. It represents a general type that can hold any value.
 
@@ -340,7 +328,7 @@ fun main(){
     println(value2)
 }
 ```
-
+  
 The **output** for the above code will be :
 ```
 100
@@ -349,8 +337,7 @@ Hello, World!
 
 As you can see by using any data type we printed both Int and a String data type variables.I hope this helps! 
 
-
-# Nothing
+### Nothing
 
 In Kotlin, the **Nothing** type is a special type that represents the absence of a value. It is a subtype of all types in the language and cannot be instantiated.
 
@@ -366,8 +353,7 @@ fun error(): Nothing {
 
 In the above, the `error()` function throws an exception and does not return a value. Therefore, its return type is `Nothing`.
 
-
-# Unit 
+###Unit 
 
 In Kotlin, the `Unit` type represents the absence of a value, similar to the `void` type in other programming languages. It is a special type that is used to indicate that a function does not return a value.
 
@@ -382,9 +368,3 @@ fun doSomething(): Unit {
 }
 ```
 In the above example, the doSomething() function performs an action and does not return a value. Therefore, its return type is `Unit`.
-
-
-- **This is all that you need to learn in data-types**
-
-
-
