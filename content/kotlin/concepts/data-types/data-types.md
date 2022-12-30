@@ -315,7 +315,7 @@ Hello, John
 
 In Kotlin, the `Any` type is a supertype of all types in the language. It represents a general type that can hold any value.
 
-Here is an example of how to declare a variable of type Any in Kotlin:
+Here is an example of how to declare a variable of type `Any` in Kotlin:
 
 ```kotlin
 fun main(){
