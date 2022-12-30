@@ -94,7 +94,7 @@ fun main(){
     print(c)
 }
 ```
-so here **output** will be :
+Here the output will be:
 ```
 -88
 //In this example, the value of c will be -88, because the result of 120 + 120 is 240, which exceeds the valid range for a Byte type.
