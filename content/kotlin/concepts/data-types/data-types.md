@@ -290,7 +290,7 @@ fun main(){
     print(message)
 }
 ```
-The **output** for the above code will be :
+The output for the above code will be :
 ```
 Hello, World!
 ```
