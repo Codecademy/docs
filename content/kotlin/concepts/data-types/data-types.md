@@ -90,7 +90,9 @@ fun main(){
     print(c)
 }
 ```
+
 Here the output will be:
+
 ```
 -88
 ```
@@ -186,6 +188,7 @@ The output will be :
 ```
 8.5094
 ```
+
 In this example, the c variable will be assigned the value 8.5014, which is the result of 3.14 * 2.71.
 
 ### Int
@@ -204,6 +207,7 @@ fun main(){
 ```
 
 The output of the above code will be:
+
 ```
 75
 ```
@@ -222,10 +226,13 @@ fun main(){
     print(c)
 }
 ```
+
 The output for the above code will be :
+
 ```
 750000000
 ```
+
 In this example, the c variable will be assigned the value 750000000, which is the result of 500000000 + 250000000.
 
 ### Short
@@ -242,10 +249,13 @@ fun main(){
     print(c)
 }
 ```
+
 The output for the above code will be:
+
 ```
 75
 ```
+
 In this example, the c variable will be assigned the value 75, which is the result of 50 + 25. The `toShort()` function is used to explicitly convert the result to a `Short` type.
 
 ## Non-Primitive Data Types 
@@ -286,10 +296,13 @@ fun main(){
     print(message)
 }
 ```
+
 The output for the above code will be :
+
 ```
 Hello, World!
 ```
+
 Strings are also [immutable](https://kotlinlang.org/docs/native-immutability.html) in Kotlin.
 
 You can use the '+' operator to concatenate strings, or the trim() function to remove leading and trailing whitespace from a string. For example:
@@ -302,7 +315,9 @@ fun main(){
     println(fullMessage.trim()) 
 }
 ```
+
 The output for the above code will be :
+
 ```
 Hello, John
 ```
@@ -323,6 +338,7 @@ fun main(){
 ```
   
 The output for the above code will be :
+
 ```
 100
 Hello, World!
@@ -358,4 +374,5 @@ fun doSomething(): Unit {
     // perform some action that you want to do
 }
 ```
+
 In the above example, the doSomething() function performs an action and does not return a value. Therefore, its return type is `Unit`.
