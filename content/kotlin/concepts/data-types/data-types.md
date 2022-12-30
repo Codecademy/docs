@@ -254,7 +254,7 @@ In this example, the c variable will be assigned the value 75, which is the resu
 
 ## Non-Primitive Data Types 
 
-We will now discuss the non-primitive data types in kotlin :
+The following are non-primitive data types in Kotlin :
 
 -Arrays 
 -String 
