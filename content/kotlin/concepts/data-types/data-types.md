@@ -381,7 +381,7 @@ fun doSomething(): Unit {
     // perform some action that you want to do
 }
 ```
-In the above example, the doSomething() function performs an action and does not return a value. Therefore, its return type is Unit.
+In the above example, the doSomething() function performs an action and does not return a value. Therefore, its return type is `Unit`.
 
 
 - **This is all that you need to learn in data-types**
