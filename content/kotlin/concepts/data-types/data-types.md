@@ -207,7 +207,7 @@ fun main(){
 }
 ```
 
-The **output** of the above code will be :
+The output of the above code will be:
 ```
 75
 ```
