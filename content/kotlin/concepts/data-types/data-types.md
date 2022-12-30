@@ -135,7 +135,7 @@ fun main(){
 }
 ```
 
-The **Output** of the above code will be :
+The output of the above code will be:
 
 ```
 8.5094
