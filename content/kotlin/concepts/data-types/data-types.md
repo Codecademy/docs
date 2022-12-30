@@ -143,7 +143,7 @@ The output of the above code will be:
 
 In this example, the c variable will be assigned the value 8.5014, which is the result of 3.14 * 2.71.
 
-We can also use the Double data type to perform more advanced operations, such as calculating the square root of a number or raising a number to a power in kotlin. For example:
+The `Double` data type can be used to perform more advanced operations, such as calculating the square root of a number or raising a number to a power in Kotlin. For example:
 
 ```kotlin
 
