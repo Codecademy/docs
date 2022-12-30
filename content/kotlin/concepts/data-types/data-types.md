@@ -340,7 +340,7 @@ In Kotlin, the `Nothing` type is a special type that represents the absence of a
 
 The `Nothing` type is used to indicate that a function never returns a value. For example, a function that throws an exception or terminates the program will have a return type of `Nothing`.
 
-Here is an example of a function that has a return type of Nothing:
+Here is an example of a function that has a return type of `Nothing`:
 
 ```kotlin
 fun error(): Nothing {
