@@ -21,7 +21,7 @@ During the Second World War, Alan Turing was a key component in breaking the Eni
 
 ## Turing Test
 
-In 1950, Turing published a paper in _Mind_ called "Computing Machinery and Intelligence". It is a seminal paper on the topic of artificial intelligence (AI). The paper was the first to introduce his concept of what is now known as the Turing test (originally called imitation game) to the general public.
+In 1950, Turing published a paper in "Mind" called "Computing Machinery and Intelligence". It is a seminal paper on the topic of artificial intelligence (AI). The paper was the first to introduce his concept of what is now known as the Turing test (originally called imitation game) to the general public.
 
 > I propose to consider the question, "Can machines think?" - Alan Turing, 1950
 
