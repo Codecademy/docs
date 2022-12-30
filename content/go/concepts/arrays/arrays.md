@@ -33,10 +33,6 @@ var arr1 [n]type
 arr2 := [n]type{el1, el2, ..., eln}
 ```
 
-There are two ways of creating an array:
-
-- With the `var` keyword
-- With the `:=` short assignment statement and curly brackets (with elements optionally listed within them)
 
 In both cases, `n` represents the capacity of the array and `type` is the desired type.
 
