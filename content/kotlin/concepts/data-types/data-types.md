@@ -246,7 +246,7 @@ fun main(){
     print(c)
 }
 ```
-The **output** for the above code will be:
+The output for the above code will be:
 ```
 75
 ```
