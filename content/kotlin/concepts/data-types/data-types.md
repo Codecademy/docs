@@ -332,8 +332,6 @@ The output for the above code will be :
 Hello, World!
 ```
 
-As you can see by using any data type we printed both Int and a String data type variables.I hope this helps! 
-
 ### Nothing
 
 In Kotlin, the `Nothing` type is a special type that represents the absence of a value. It is a subtype of all types in the language and cannot be instantiated.
