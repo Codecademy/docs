@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.first()`** method returns the first element of the array that fulfills the condition. Otherwise, it returns `nil`.
+The **`.first()`** method returns the first element of the array that fulfills the specified condition. Otherwise, it returns `nil`.
 
 > **Note:** `.first()` is a method while `.first` is a property. Details about the `.first` array property can be found near the bottom of this entry.
 
