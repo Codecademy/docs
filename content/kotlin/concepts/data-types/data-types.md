@@ -62,7 +62,7 @@ fun main(){
 
 ### Byte
 
-A **Byte** is a data type that represents an 8-bit integer. It is similar to an integer data type, but it is only 8 bits in size, whereas an integer can be a different size depending on the system. A byte can hold values from -128 to 127.
+A `Byte` is a data type that is similar to an integer data type, but it is only 8 bits in size, whereas an integer can be a different size depending on the system. A byte can hold values from -128 to 127.
 
 In simple terms, a byte is a way to represent a small whole number using a computer. It is commonly used to store small pieces of data, such as characters in a text file or colors in an image.
 
