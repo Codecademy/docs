@@ -252,7 +252,7 @@ The output for the above code will be:
 ```
 In this example, the c variable will be assigned the value 75, which is the result of 50 + 25. The `toShort()` function is used to explicitly convert the result to a `Short` type.
 
-## Non-Primitive data type 
+## Non-Primitive Data Types 
 
 We will now discuss the non-primitive data types in kotlin :
 
