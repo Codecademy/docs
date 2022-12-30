@@ -7,7 +7,6 @@ Subjects:
 Tags:
   - 'Primitive Data-Type'
   - 'Non Primitive Data-Type'
-  
 CatalogContent:
   - 'learn-Kotlin'
   - 'paths/computer-science'
