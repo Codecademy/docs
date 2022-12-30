@@ -78,7 +78,7 @@ fun main(){
 }
 ```
 
-**Output** will be :
+The output will be:
 
 ```
 75
