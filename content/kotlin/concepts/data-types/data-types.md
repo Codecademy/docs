@@ -120,8 +120,6 @@ The output will be:
 A
 ```
 
-In the above example, the ch variable is assigned the value 'A', which is a character from the Unicode character set.
-
 ### Double 
 
 In Kotlin, the **Double** data type represents a 64-bit floating-point number. It is a primitive data type that can hold values with a fractional component, such as 3.14 or 0.5.
