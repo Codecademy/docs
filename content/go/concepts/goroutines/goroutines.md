@@ -16,13 +16,13 @@ CatalogContent:
 
 **Goroutines** are functions and methods that run concurrently with other functions and methods.
 
-## Difference From Threads
+## The difference between threads and goroutines
 
-When executing a program the application uses a thread. It is a unit that executes the code under the program. So every program has logic and a thread is responsible for executing this logic.
+Threads are different processes within a program that are running at the same time. Threads are created by the program; they are smaller and lighter processes and have their own flow of control. Running multiple processes simultaneously allows complex programs to run without holding up the execution of the rest of the program. Go supports multi-threading with goroutines. Goroutines are lightweight threads managed by the Go runtime.
 
 ## Syntax
 
-To start a goroutine invoke a function or method with the `go` keyword:
+To start a goroutine, invoke a previously defined function or method with the `go` keyword:
 
 ```pseudo
 func myFunction(parameter) returnType {
@@ -32,13 +32,13 @@ func myFunction(parameter) returnType {
 go myFunction()
 ```
 
-In the code above, `myFunction()` function was created with the `func` keyword. The function can take one or multiple arguments when invoked. The `parameter` is an optional placeholder for the argument(s). The function can return a list of values. If it does, the `returnType` is required to specify the values the function returns. The `body of the function` contains the statements that the function executes.
+In the code above, after the `myFunction()` function is defined. Then it is invoked with the `go` keyword. The function `myFunction()` will run concurrently with the calling function.
 
-After the `myFunction()` function is defined, it is invoked with the `go` keyword. The function `myFunction()` will run concurrently with the calling function.
+> **Note:** for any goroutines to run, the main goroutine should be running. When the main goroutine terminates, the program will be terminated, and no other goroutine will run.
 
 ## Example
 
-In the example below, the `myGoroutine` function is defined to print out the sentence `This is my first goroutine!`. The `myGoroutine` function is called as a goroutine with the `go` keyword inside the `main` function. The `main` function is set to wait one second and then print out the sentence `This is the main function.`.
+In the example below, the `myGoroutine()` function is defined to print out the sentence `This is my first goroutine!`. The `myGoroutine()` function is called as a goroutine with the `go` keyword inside the `main` function. Then the `main` function is set to wait two seconds with the 'time.Sleep()' function and then print out the sentence `This is the main function.`.
 
 ```go
 func myGoroutine() {  
@@ -47,7 +47,7 @@ func myGoroutine() {
 
 func main() {  
     go myGoroutine()
-    time.Sleep(1 * time.Second)
+    time.Sleep(2 * time.Second)
     fmt.Println("This is the main function.")
 }
 ```
@@ -59,7 +59,7 @@ This is my first goroutine!
 This is the main function.
 ```
 
-The `myGoroutine` prints out the sentence first, as the `go` keyword starts a new thread while the `main` function waits one second.
+> **Note:** When a goroutine is started, the goroutine call returns immediately. The control does not wait for the goroutine to finish executing. The control continues the next line of code after the goroutine call and any return values from the goroutine are ignored.
 
 ## Codebyte Example
 
