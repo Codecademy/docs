@@ -216,7 +216,7 @@ The output of the above code will be:
 
 In Kotlin, the `Long` data type represents a 64-bit signed integer. It is a primitive data type that can hold values ranging from -9223372036854775808 to 9223372036854775807.
 
-Here is an example of how to declare a **Long** variable in Kotlin:
+Here is an example of how to declare a `Long` variable in Kotlin:
 
 ```kotlin 
 fun main(){
