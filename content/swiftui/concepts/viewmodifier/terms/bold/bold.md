@@ -1,5 +1,5 @@
 ---
-Title: '`.bold()`'
+Title: '.bold()'
 Description: 'Is a `ViewModifier` that applies a bold style to text characters in a `View`.'
 Subjects:
   - 'Mobile Development'
