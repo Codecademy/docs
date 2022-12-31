@@ -16,7 +16,7 @@ In Go, an **array** is a numbered list of elements of the same type.
 
 ## Differences Between Arrays And Slices
 
-Unlike slices, arrays have a fixed length, meaning their size cannot be changed once they are created. 
+Unlike slices, arrays have a fixed length, meaning their size cannot be changed once they are created.
 
 Another difference is that an array is passed to a function as a copy of the array, whereas a slice is passed as a reference to the underlying array. That means that changes done to an array passed to a function will not be reflected outside that function, but changes done to a slice will affect the underlying array.
 
@@ -38,13 +38,13 @@ It is important to note that when using the `:=` assignment statement, curly bra
 
 Creating zeroed arrays:
 
-```go 
+```go
 var zeros1 [5]int
 
 zeros2 := [3]float64{}
 
 fmt.Println(zeros1)
-// Output: [0, 0, 0, 0, 0] 
+// Output: [0, 0, 0, 0, 0]
 
 fmt.Println(zeros2)
 // Output: [0, 0, 0]
@@ -82,7 +82,7 @@ fmt.Println(array[0], array[1], array[2])
 Multidimensional arrays can be created and accessed similarly to the one-dimensional arrays, using the `var` keyword:
 
 ```go
-// Create an array of three arrays containing two integers 
+// Create an array of three arrays containing two integers
 var twoDim [3][2]int
 
 // Accessing the first item of the first array
