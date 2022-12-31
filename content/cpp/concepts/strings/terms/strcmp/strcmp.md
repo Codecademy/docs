@@ -42,35 +42,28 @@ The following performs comparisons on three strings and prints out information a
 using namespace std;
 #include<string.h>
 
-int main ()
-{
+int main() {
   char str1[40] = "Microsoft";
   char str2[40] = "Apple";
   char str3[40] = "Linux";
 
-  if (strcmp(str1, str2) < 0)
-  {
+  if (strcmp(str1, str2) < 0) {
     cout << str1 << " comes before " << str2 << ". \n";
   }
-  else if (strcmp(str1, str2) > 0)
-  {
+  else if (strcmp(str1, str2) > 0) {
     cout << str2 << " comes before " << str1 << ". \n";
   }
-  else
-  {
+  else {
     cout << str1 << " is equal to " << str2 << ". \n";
   }
 
-  if (strcmp(str1, str3) < 0)
-  {
+  if (strcmp(str1, str3) < 0) {
     cout << str1 << " comes before " << str3 << ". \n";
   }
-  else if (strcmp(str1, str3) > 0)
-  {
+  else if (strcmp(str1, str3) > 0) {
     cout << str3 << " comes before " << str1 << ". \n";
   }
-  else
-  {
+  else {
     cout << str1 << " is equal to " << str3 << ". \n";
   }
 

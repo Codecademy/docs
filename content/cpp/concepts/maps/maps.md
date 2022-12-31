@@ -42,8 +42,7 @@ The following example creates an empty map, `emptyMap`, and a map set with value
 #include <iterator>
 #include <map>
 
-int main()
-{
+int main() {
   // Initializing empty map
   std::map<std::string, int> emptyMap;
 
@@ -79,11 +78,9 @@ By default, elements are sorted by their key in ascending order.
 #include <iterator>
 #include <map>
 
-int main()
-{
+int main() {
  // Initializing map with items
-  std::map<int, std::string> reptiles
-  {
+  std::map<int, std::string> reptiles {
     {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
   };
 
@@ -91,8 +88,7 @@ int main()
   // Initializing iterator
   std::map<int, std::string> :: iterator iter;
 
-  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter)
-  {
+  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter) {
     std::cout << '\t' << iter->first << '\t' << iter->second
     << '\n';
   }
@@ -134,11 +130,9 @@ Setting the previous example's comparison function to `std::greater<int>`:
 #include <iterator>
 #include <map>
 
-int main()
-{
+int main() {
   // Initializing map with items
-  std::map<int, std::string, std::greater<int>> reptiles
-  {
+  std::map<int, std::string, std::greater<int>> reptiles {
     {10, "Komodo Dragon"}, {15, "Saltwater Crocodile"}, {8, "Leatherback Sea Turtle"}
   };
 
@@ -146,8 +140,7 @@ int main()
   // Initializing iterator
   std::map<int, std::string> :: iterator iter;
 
-  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter)
-  {
+  for (iter = reptiles.begin(); iter != reptiles.end(); ++iter) {
     std::cout << '\t' << iter->first << '\t' << iter->second << '\n';
   }
 }
