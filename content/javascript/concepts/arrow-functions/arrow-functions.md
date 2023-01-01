@@ -28,9 +28,13 @@ The syntax for an arrow function expression does not require the `function` keyw
 
 Arrow functions can be defined with zero or more parameters, on one or more lines.
 
-There are several variations of arrow functions:
-- Arrow functions with a single parameter do not require `()` around the parameter list.
-- Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
+In most cases, parentheses (`()`) are not required to be around the parameter list if there is one parameter. They are required in the following cases:
+  - There is more than one parameter.
+  - There are no parameters.
+  - The single parameter is a destructured object.
+  - There are default or rest parameters involved.
+ 
+Arrow functions with a single expression have no curly brackets (`{ }`) and can use the concise function body to return the result of the expression without the `return` keyword. For multiple expressions, parentheses can be alternatively wrapped around the arrow function body to implicitly return the result.
 
 ## Limitations
 
