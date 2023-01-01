@@ -16,9 +16,7 @@ CatalogContent:
 
 **Goroutines** are functions and methods that run concurrently with other functions and methods.
 
-## The difference between threads and goroutines
-
-Threads are different processes within a program that are running at the same time. Threads are created by the program; they are smaller and lighter processes and have their own flow of control. Running multiple processes simultaneously allows complex programs to run without holding up the execution of the rest of the program. Go supports multi-threading with goroutines. Goroutines are lightweight threads managed by the Go runtime.
+Although goroutines share some similarities with threads, goroutines are not threads. Threads are different processes within a program that are running at the same time. Threads are created by the program; they are smaller and lighter processes and have their own flow of control. Running multiple processes simultaneously allows complex programs to run without holding up the execution of the rest of the program. Go supports multi-threading with goroutines. Goroutines are lightweight threads managed by the Go runtime.
 
 ## Syntax
 
