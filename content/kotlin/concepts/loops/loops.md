@@ -4,7 +4,7 @@ Description: 'In kotlin, a loop is a control structure that allows you to repeat
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'loops'
+  - 'loop'
   - 'while'
   - 'for'
   - 'do-while'
@@ -12,6 +12,12 @@ CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
 ---
+
+In Kotlin, a loop is a control flow statement that allows you to repeat a block of code a certain number of times or until a certain condition is met. Kotlin provides several types of loops, including:
+
+- `for` loop: This loop iterates over a range of values or elements in a collection.
+- `while` loop: This loop repeatedly executes a block of code as long as a certain condition is true.
+- `do-while` loop: This loop is similar to a while loop, but it guarantees that the block of code will be executed at least once before the condition is checked.
 
 ## While loop
 
