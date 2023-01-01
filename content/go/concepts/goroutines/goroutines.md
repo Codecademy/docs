@@ -74,7 +74,6 @@ import (
 
 // define a function
 func print(text string) {
-
   fmt.Println(text)
 }
 
