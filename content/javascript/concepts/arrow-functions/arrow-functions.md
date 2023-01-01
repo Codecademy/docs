@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Arrow function** expressions were first introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](https://www.codecademy.com/resources/docs/javascript/functions) syntax.
+**Arrow function expressions** are alternatives to traditional [functions](https://www.codecademy.com/resources/docs/javascript/functions) that were first introduced in ES6. Aside from a relatively concise syntax, arrow functions have a few semantic differences along with some limitations.
 
 ## Syntax
 
