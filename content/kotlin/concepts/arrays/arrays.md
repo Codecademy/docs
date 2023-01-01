@@ -25,9 +25,7 @@ In Kotlin we usually use `arrayOf` function to create a array with `()` :
 
 ```kotlin
 fun main(){
-
 val ArrayName = arrayOf<DataType>(array)
-
 }
 ```
 
@@ -42,7 +40,6 @@ The constructor takes two parameters:
 ```kotlin
 fun main(){
      val num = Array(5, {i-> i*1})
-
 }
 ```
 
