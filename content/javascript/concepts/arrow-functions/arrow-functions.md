@@ -24,7 +24,9 @@ const functionA = (parameterA, parameterB, ..., parameterN) => {
 }
 ```
 
-The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
+>The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. 
+
+However, they are limited and can't be used in all situations.
 
 Arrow functions can be defined with zero or more parameters, on one or more lines.
 
