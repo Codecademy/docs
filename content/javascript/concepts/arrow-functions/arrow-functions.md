@@ -26,7 +26,7 @@ const functionA = (parameterA, parameterB, ..., parameterN) => {
 
 The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
 
-Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
+Arrow functions can be defined with zero or more parameters, on one or more lines.
 
 There are several variations of arrow functions:
 - Arrow functions with a single parameter do not require `()` around the parameter list.
