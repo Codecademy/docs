@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Loops'
-  - 'while'
+  - 'While'
   - 'for'
   - 'do-while'
 CatalogContent:
