@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'In kotlin, a loop is a control structure that allows you to repeat a block of code a specified number of times or until a certain condition is met. Loops are useful for automating repetitive tasks and for processing large amounts of data efficiently.'
+Description: 'A loop is a control structure that allows you to repeat a block of code a specified number of times or until a certain condition is met.'
 Subjects:
   - 'Computer Science'
 Tags:
