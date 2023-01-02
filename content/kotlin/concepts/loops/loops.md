@@ -20,7 +20,7 @@ In Kotlin, a loop is a control flow statement that allows you to repeat a block 
 
 ## While loop
 
-The `while` loops used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a `while` loop in Kotlin is:
+The `while` loop is used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a `while` loop in Kotlin is:
 
 ```kotlin
     fun main(){
