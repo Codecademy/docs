@@ -7,20 +7,21 @@ Subjects:
 Tags:
   - 'Semantic'
   - 'Tags'
+  - 'Elements'
 CatalogContent:
   - 'learn-html'
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `<section>` semantic HTML element defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+The **`<section>`** element defines elements in a document, such as chapters, headings, or any other area of the document with a common theme.
 
 For example, content with the same theme such as articles about cricket can go under a single `<section>`. A website’s home page could be split into sections for the introduction, news items, and contact information.
 
 ## Syntax
 
-```html
+```pseudo
 <section>
-  <!-- Elements in a document with the same theme -->
+  <!-- Elements in a document with a common theme -->
 </section>
 ```
 
@@ -61,3 +62,12 @@ Suppose the current page wants to add two sections:
   </body>
 </html>
 ```
+
+## Alternative Elements
+
+The `<section>` element should only be used if no other suitable element is available. Some alternatives include the following:
+
+- The [`<header>`](https://www.codecademy.com/resources/docs/html/semantic-html/header) element describes that the content inside is the header of the page.
+- The [`<nav>`](https://www.codecademy.com/resources/docs/html/semantic-html/nav) element describes that the content inside is a navigation system of the page.
+- The [`<main>`](https://www.codecademy.com/resources/docs/html/semantic-html/main) describes that the content inside is the main content of the page.
+- The [`<footer>`](https://www.codecademy.com/resources/docs/html/semantic-html/footer) element describes that the content inside is the footer of the page.

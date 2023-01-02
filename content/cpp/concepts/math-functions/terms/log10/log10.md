@@ -31,8 +31,7 @@ The following example uses the `log10()` function to find the base-10 log of `5`
 #include <cmath>
 using namespace std;
 
-int main()
-{
+int main() {
   double x = 5;
   double result;
   result = log10(x);
@@ -50,8 +49,7 @@ The following example is runnable and returns the base-10 log of `10`:
 #include <math.h>
 using namespace std;
 
-int main()
-{
+int main() {
   double x = 10;
   double result;
   result = log10(x);

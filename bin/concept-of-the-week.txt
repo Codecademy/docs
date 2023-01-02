@@ -1,1 +1,1 @@
-content/r/concepts/data-frames/data-frames.md
+content/general/concepts/algorithm/algorithm.md
