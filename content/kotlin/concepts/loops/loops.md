@@ -4,7 +4,7 @@ Description: 'A loop is a control structure that allows you to repeat a block of
 Subjects:
   - 'Computer Science'
 Tags:
-  - 'loop'
+  - 'Loops'
   - 'While'
   - 'For'
 CatalogContent:
