@@ -1,1 +1,1 @@
-content/general/concepts/boolean/boolean.md
+content/general/concepts/algorithm/algorithm.md
