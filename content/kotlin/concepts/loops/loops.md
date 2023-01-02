@@ -7,7 +7,6 @@ Tags:
   - 'Loops'
   - 'While'
   - 'For'
-  - 'do-while'
 CatalogContent:
   - 'learn-kotlin'
   - 'paths/computer-science'
