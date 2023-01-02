@@ -1,6 +1,6 @@
 ---
 Title: '.scaledToFit()'
-Description: 'The scaledToFit() modifier can be used to scale the view to fit its parent while maintaining the original aspect ratio.'
+Description: 'Scales the view to fit its parent view while maintaining the original aspect ratio.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
