@@ -23,7 +23,7 @@ In Kotlin, a loop is a control flow statement that allows you to repeat a block 
 
 The `for` loop is used to iterate over a range of values or an iterable collection. The syntax for a `for` loop in Kotlin is:
 
-```kotlin
+```pseudo
 fun main(){
     for (item in collection) {
    // code to be executed for each item
@@ -51,7 +51,7 @@ The output for the above code will be:
 
 The `while` loops used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a `while` loop in Kotlin is:
 
-```kotlin
+```pseudo
     fun main(){
         while(condition){
             //code to be execute while the condition is true
@@ -81,7 +81,7 @@ The output for the above code will be:
 
 A `do-while` loop in Kotlin is similar to a `while` loop, but the block of code is always executed at least once before the condition is checked. The syntax for a `do-while` loop is:
 
-```kotlin
+```pseudo
 fun main(){
     do {
     // code to be executed at least once
