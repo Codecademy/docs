@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`scaledToFit()`** modifier can be used to scale the [view](https://www.codecademy.com/resources/docs/swiftui/views) to fit its parent while maintaining the original aspect ratio.
+The **`.scaledToFit()`** modifier can be used to scale the [view](https://www.codecademy.com/resources/docs/swiftui/views) to fit its parent view while maintaining the original aspect ratio.
 
 ## Syntax
 
