@@ -21,7 +21,7 @@ The **`.scaledToFit()`** modifier can be used to scale the [view](https://www.co
 struct MyStructure: View {
     var body: some View {
         Image("imagename")
-            The scaledToFit() modifier will be placed here.
+            .scaledToFit()
     }
 }
 ```
