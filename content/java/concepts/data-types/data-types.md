@@ -52,7 +52,7 @@ Reference data types include:
 - Annotations - allow metadata to be associated with elements of a program
 - [Arrays](https://www.codecademy.com/resources/docs/java/arrays) - store elements of the same type
 - [Classes](https://www.codecademy.com/resources/docs/java/classes) - provide a template for object creation
-- [Enumeration](https://www.codecademy.com/resources/docs/java/enums) - stores fixed set of constants
+- [Enumeration](https://www.codecademy.com/resources/docs/java/enums) - stores a fixed set of constants
 - [Interfaces](https://www.codecademy.com/resources/docs/java/interfaces) - store a template for a class
 
 ## Static Typing
