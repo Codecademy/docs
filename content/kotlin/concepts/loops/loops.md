@@ -6,7 +6,7 @@ Subjects:
 Tags:
   - 'loop'
   - 'While'
-  - 'for'
+  - 'For'
   - 'do-while'
 CatalogContent:
   - 'learn-kotlin'
