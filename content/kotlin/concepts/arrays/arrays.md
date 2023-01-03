@@ -27,8 +27,6 @@ val ArrayName = arrayOf<DataType>(array)
 }
 ```
 
-We can also use array constructor to create an array
-
 Since Array is a class in Kotlin, we can also use the Array constructor to create an array.
 The constructor takes two parameters:
 
