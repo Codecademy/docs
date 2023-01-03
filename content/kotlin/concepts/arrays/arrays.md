@@ -62,7 +62,7 @@ The output will look like:
  0 6 21 622 52
 ```
 
-Printing the array that we created using the Method 1 mentioned above.
+This example prints an array created using the `Array` constructor mentioned above:
 
 Method 2:
 
