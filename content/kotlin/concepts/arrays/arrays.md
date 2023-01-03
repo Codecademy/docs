@@ -58,7 +58,7 @@ fun main(){
 }
 ```
 
-The output will look like
+The output will look like:
 
 ```green
  0 6 21 622 52
