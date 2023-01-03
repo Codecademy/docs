@@ -32,8 +32,7 @@ In the example below, `.size()` is called on the `bird` string:
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string bird = "Penguins";
   std::cout << bird.size();
 }

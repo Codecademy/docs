@@ -40,7 +40,7 @@ Mail sent to recipient 💌
 
 ## Else Statement
 
-An `else` block can be added to an if block or series of if-else if blocks. The else block will be executed only if the `if` condition fails.
+An `else` block can be added to an if block or series of if-else if blocks. The `else` block will be executed only if the `if` condition fails.
 
 ```js
 const isTaskCompleted = false;
