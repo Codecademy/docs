@@ -115,7 +115,7 @@ The output will look like this:
 
 ## Synxtax of set()
 
-We will now learn to use how to use `set()` function in Kotlin :
+This example shows to use how to use `.set()` method:
 
 ```kotlin
 fun main(){
