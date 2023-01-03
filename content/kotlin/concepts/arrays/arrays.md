@@ -64,8 +64,6 @@ The output will look like:
 
 This example prints an array created using the `Array` constructor mentioned above:
 
-Method 2:
-
 ```kotlin
 fun main(){
     val arrayname = Array(5, { i -> i * 1 })
