@@ -142,4 +142,4 @@ The output for the above code will be :
 0 1 21 3 4
 ```
 
-Here you can see when we run the loop for the second time it is showing 21 instead of 2 which shows that we have changed the index value 2 to 21 from 2.
+When the loop is run for the second time it prints 21 instead of 2 which shows that the index value 2 has changed to 21 from 2.
