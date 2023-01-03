@@ -86,7 +86,7 @@ The output will look like:
 
 There are different methods for accessing and modifying arrays in Kotlin such as the `.get()` and `.set()` methods.
 
-As you know, an array in Kotlin is basically a class. Therefore, we can access the data of a class object via its member functions. The get() and set() functions are said to be member functions.
+An array in Kotlin is basically a class. Therefore, the data of the class object can be accessed via its member functions. The `.get()` and `.set()` methods are said to be member functions.
 
 The get() method takes a single parameter—the index of the element and returns the value of the item at that index.
 
