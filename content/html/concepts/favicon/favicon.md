@@ -17,7 +17,7 @@ A favicon (short for "favorite icon") is a small icon that is displayed in the b
 To add a favicon to your website, you need to create a small image that will be used as the favicon, and then include a link to it in the head of your HTML document using the `link` element. Here's an example of how to do this:
 
 ```html
-<link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
 ```
 
 The `link` element with the `rel` attribute set to "shortcut icon" tells the browser that the linked resource is a favicon. The `type` attribute specifies the type of the favicon (in this case, "image/x-icon"), and the `href` attribute specifies the location of the favicon file.
