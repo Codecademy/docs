@@ -6,7 +6,6 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'set()'
   - 'Data Types'
   - 'Data Structures'
 CatalogContent:
