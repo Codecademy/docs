@@ -44,7 +44,6 @@ var body: some View {
     }
     .padding()
 }
-
 ```
 
 This will display the following:
