@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A favicon (short for "favorite icon") is a small icon that is displayed in the browser's address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.
+A **favicon** (short for "favorite icon") is a small icon that is displayed in the browser's address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.
 
 To add a favicon to your website, you need to create a small image that will be used as the favicon, and then include a link to it in the head of your HTML document using the `link` element. Here's an example of how to do this:
 
