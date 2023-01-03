@@ -5,7 +5,7 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'array'
+  - 'Arrays'
   - 'get()'
   - 'set()'
   - 'Data Types'
