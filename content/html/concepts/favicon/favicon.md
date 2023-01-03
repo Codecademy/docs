@@ -1,6 +1,6 @@
 ---
 Title: 'Favicon'
-Description: 'A favicon is a small icon that is displayed in the browser's address bar and tab title for a website.'
+Description: "A favicon is a small icon that is displayed in the browser's address bar and tab title for a website."
 Subjects:
   - 'Web Development'
   - 'Web Design'
