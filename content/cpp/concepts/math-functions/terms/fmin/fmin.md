@@ -30,8 +30,7 @@ The following example uses the `fmin()` function to find the smaller value betwe
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 3;
   double y = 5;
   double result;
@@ -54,8 +53,7 @@ The following example returns the smaller value between `-32.123` and `-32.231`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = -32.123;
   double y = -32.231;
   double result;
