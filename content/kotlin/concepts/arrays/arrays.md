@@ -84,7 +84,7 @@ The output will look like:
 
 ## Methods for arrays in Kotlin
 
-There are different [methods](https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87) for accessing and modifying the array in Kotlin i.e. get() and set() methods-
+There are different methods for accessing and modifying arrays in Kotlin such as the `.get()` and `.set()` methods.
 
 As you know, an array in Kotlin is basically a class. Therefore, we can access the data of a class object via its member functions. The get() and set() functions are said to be member functions.
 
