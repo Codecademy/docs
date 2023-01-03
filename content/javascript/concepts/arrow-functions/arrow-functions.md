@@ -71,7 +71,7 @@ hello
 Baggage weight: 25 kilograms.
 ```
 
-## Codebyte Exammple
+## Codebyte Example
 
 The following example features an arrow function defined with two arguments on a single line:
 
