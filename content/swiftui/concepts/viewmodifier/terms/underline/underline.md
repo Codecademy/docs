@@ -25,7 +25,7 @@ Text("This text will be underlined")
 ```swift
 var body: some View {
     Text("Underlined text")
-        .underlined()
+        .underline()
 }
 ```
 
