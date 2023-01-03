@@ -34,8 +34,7 @@ The following codebyte example inserts different mammals and their average lifes
 #include <iterator>
 #include <map>
 
-int main()
-{
+int main() {
   // Initializing  map
   std::map<std::string, int> lifeSpan;
 
@@ -49,8 +48,7 @@ int main()
   std::map<std::string, int> :: iterator iter;
 
   // Printing elements of map
-  for (iter = lifeSpan.begin(); iter != lifeSpan.end(); ++iter)
-  {
+  for (iter = lifeSpan.begin(); iter != lifeSpan.end(); ++iter) {
     std::cout << '\t' << iter->first << '\t' << iter->second
     << '\n';
   }

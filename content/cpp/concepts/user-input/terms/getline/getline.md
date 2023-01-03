@@ -44,10 +44,10 @@ cin.getline(string, length, delim)
 ```cpp
 #include <iostream>
 #include <string>
+
 using namespace std;
 
-int main()
-{
+int main() {
   string my_str;
 
   cout << "Enter a pet name: ";
@@ -77,10 +77,10 @@ The same example of `getline()`, but called upon the `cin` object, would look li
 
 ```cpp
 #include <iostream>
+
 using namespace std;
 
-int main()
-{
+int main() {
   char my_char_array[20];
 
   cout << "Enter a pet name: ";
