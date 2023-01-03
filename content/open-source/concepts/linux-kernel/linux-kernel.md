@@ -17,7 +17,7 @@ CatalogContent:
 
 The **Linux kernel** is the core program that runs the [Linux](https://www.codecademy.com/resources/docs/open-source/linux) operating system (OS). It’s the most important component of Linux and serves as a bridge between the software and hardware of Linux machines.
 
-The Linux kernel is free and [open source](https://www.codecademy.com/resources/docs/open-source). It is derived from [Unix](https://www.codecademy.com/resources/docs/general/unix) and used in the Linux OS. Other Linux-derived kernels exist in operating systems, such as Android and Chrome OS.
+The Linux kernel is free and [open source](https://www.codecademy.com/resources/docs/open-source) operating system kernel that is derived from [Unix](https://www.codecademy.com/resources/docs/general/unix). Other Linux-derived kernels exist in operating systems such as Android and ChromeOS.
 
 ## Functions of the Linux Kernel
 
