@@ -5,10 +5,10 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
-  - 'ScrollView'
   - 'SwiftUI'
   - 'SwiftUI Views'
   - 'Views'
+  - 'Xcode'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
@@ -29,9 +29,9 @@ var body: some View {
 The `ScrollView` view rests within the body of a `View`. It can accept two parameters:
 
 - `.vertical` which is usually the standard if not specified.
-- `.horizontal` which makes the view scroll horizontally. 
+- `.horizontal` which makes the view scroll horizontally.
 
-## Example
+## Example 1
 
 In the first example below, the `ScrollView` scrolls vertically and contains a `LazyHStack` that consists of rows stacked on top of each other in the view:
 
@@ -49,6 +49,8 @@ var body: some View {
 This will display the following:
 
 ![Vertical ScrollView](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-scrollview-vertical.gif)
+
+## Example 2
 
 In this example, the `ScrollView` scrolls horizontally and contains a `LazyHStack` that consists of columns stacked next to each other in the view:
 
