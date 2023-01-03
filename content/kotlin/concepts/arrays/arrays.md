@@ -33,7 +33,7 @@ The constructor takes two parameters:
 - The size of the array.
 - A function which accepts the index of a given element and returns the initial value of that element.
 
-In the above example, we pass the size of the array as 3 and a lambda expression which initializes the element values from 0 to 9.
+In the example, we pass the size of the array as 3 and a lambda expression which initializes the element values from 0 to 9.
 
 ```kotlin
 fun main(){
