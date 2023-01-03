@@ -1,6 +1,6 @@
 ---
 Title: 'Variable Scope in Javascirpt'
-Description: 'Documentation for variable scope in Javascript
+Description: 'Documentation for variable scope in Javascript'
 Subjects:
   - 'Web Development'
   - 'javascript'
