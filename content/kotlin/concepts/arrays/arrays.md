@@ -6,7 +6,6 @@ Subjects:
   - 'Computer Science'
 Tags:
   - 'Arrays'
-  - 'get()'
   - 'set()'
   - 'Data Types'
   - 'Data Structures'
