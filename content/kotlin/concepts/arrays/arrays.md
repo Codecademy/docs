@@ -82,8 +82,6 @@ The output will look like:
 0 1 2 3 4
 ```
 
-Printing the array that we created using the Method 2 mentioned above.
-
 ## Methods for arrays in Kotlin
 
 There are different [methods](https://blog.kotlin-academy.com/kotlin-programmer-dictionary-function-vs-method-vs-procedure-c0216642ee87) for accessing and modifying the array in Kotlin i.e. get() and set() methods-
