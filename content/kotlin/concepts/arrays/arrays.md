@@ -113,8 +113,6 @@ The output will look like this:
 21
 ```
 
-So from here we learned how to use get() function for the array in Kotlin
-
 ## Synxtax of set()
 
 We will now learn to use how to use `set()` function in Kotlin :
