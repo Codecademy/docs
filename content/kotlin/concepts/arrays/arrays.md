@@ -78,7 +78,7 @@ fun main(){
 
 The output will look like:
 
-```green
+```
 0 1 2 3 4
 ```
 
@@ -141,7 +141,7 @@ fun main(){
 
 The output for the above code will be :
 
-```green
+```
 0 1 2 3 4
 0 1 21 3 4
 ```
