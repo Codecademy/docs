@@ -30,9 +30,9 @@ The **`<label/>`** element is used to identify captions for other HTML elements.
 The `<label>` tag can define a label for several elements:
 
 - [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)
+- [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select)
 - `<meter>`
 - `<progress>`
-- [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select)
 - `<textarea>`
 
 **Note:** `<label>` tags are essential for good accessbility. '<label>' tags creates captions for its coresponding UI elements. Also, when a user clicks the text within the `<label>` element, it toggles the corresponding input. This is great for users who have difficulty clicking on small UI elements such as checkboxes.
