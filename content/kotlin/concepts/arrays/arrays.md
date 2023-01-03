@@ -43,8 +43,6 @@ fun main(){
 
 ## Printing a Array in Kotlin
 
-So here we will discuss both the above method of creating a array with the code samples :
-
 We will use [ForLoop](https://www.javatpoint.com/kotlin-for-loop) to print the array.
 
 Method 1:
