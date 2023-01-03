@@ -1,5 +1,5 @@
 ---
-Title: 'Linux kernel'
+Title: 'Linux Kernel'
 Description: 'The Linux kernel is the core program that runs the Linux operating system (OS).'
 Subjects:
   - 'Computer Science'
