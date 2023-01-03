@@ -21,9 +21,7 @@ In Kotlin the `arrayOf` function is usually used to create a array:
 
 ```kotlin
 fun main(){
-
 val ArrayName = arrayOf<DataType>(array)
-
 }
 ```
 
