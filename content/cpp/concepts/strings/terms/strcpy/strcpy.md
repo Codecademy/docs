@@ -38,8 +38,7 @@ The following example prints a string, copies a second string over it, and print
 using namespace std;
 #include<string.h>
 
-int main ()
-{
+int main() {
   char str1[40] = "Hello World!";
   char str2[40] = "Copied String.";
 

@@ -1,1 +1,1 @@
-content/java/concepts/threading/threading.md
+content/general/concepts/algorithm/algorithm.md
