@@ -92,7 +92,7 @@ The get() method takes a single parameter, the index of the element, and returns
 
 ## Syntax of get()
 
-We will see now how to use `get()` function to print the specific element present on the index that we want.
+This example shows how to use the `.get()` method to print the specific element present on the desired index:
 
 ```kotlin
 fun main(){
