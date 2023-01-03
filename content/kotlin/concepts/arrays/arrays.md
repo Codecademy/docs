@@ -76,7 +76,7 @@ fun main(){
 
 ```
 
-The output will look like
+The output will look like:
 
 ```green
 0 1 2 3 4
