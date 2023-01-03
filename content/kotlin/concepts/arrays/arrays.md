@@ -17,7 +17,7 @@ An **array** in Kotlin is a collection of items of same data type stored at cont
 
 ## Creating an array
 
-In Kotlin we usually use `arrayOf` function to create a array with `()` :
+In Kotlin the `arrayOf` function is usually used to create a array:
 
 ```kotlin
 fun main(){
