@@ -30,7 +30,7 @@ val ArrayName = arrayOf<DataType>(array)
 Since `Array` is a class in Kotlin, we can also use the `Array` constructor to create an array.
 The constructor takes two parameters:
 
-*1 The size of the array.
+- The size of the array.
 *2 A function which accepts the index of a given element and returns the initial value of that element.
 
 ```kotlin
