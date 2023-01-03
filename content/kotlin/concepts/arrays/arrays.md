@@ -45,8 +45,6 @@ fun main(){
 
 This example will use a `for` loop to print the array.
 
-Method 1:
-
 ```kotlin
 fun main(){
     val arrayname = arrayOf<Int>(0, 6, 21, 622, 52)
@@ -60,9 +58,8 @@ fun main(){
 
 The output will look like:
 
-```green
+```
  0 6 21 622 52
-
 ```
 
 Printing the array that we created using the Method 1 mentioned above.
