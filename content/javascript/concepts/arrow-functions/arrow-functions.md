@@ -19,33 +19,30 @@ CatalogContent:
 ## Syntax
 
 ```pseudo
-const functionA = (parameterA, parameterB, ..., parameterN) => {
+const functionA = (parameter1, parameter2, ..., parameterN) => {
   // Function body here
 }
 ```
 
->The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. 
+The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow (`=>`) to separate the parameter(s) from the body. 
 
-However, they are limited and can't be used in all situations.
+Arrow functions can be defined with zero or more parameters, on one or more lines. In most cases, parentheses (`()`) are not required to be around the parameter list if there is one parameter. They are required in the following cases:
 
-Arrow functions can be defined with zero or more parameters, on one or more lines.
+- There is more than one parameter.
+- There are no parameters.
+- The single parameter is a destructured object.
+- There are default or rest parameters involved.
 
-In most cases, parentheses (`()`) are not required to be around the parameter list if there is one parameter. They are required in the following cases:
-  - There is more than one parameter.
-  - There are no parameters.
-  - The single parameter is a destructured object.
-  - There are default or rest parameters involved.
- 
 Arrow functions with a single expression have no curly brackets (`{ }`) and can use the concise function body to return the result of the expression without the `return` keyword. For multiple expressions, parentheses can be alternatively wrapped around the arrow function body to implicitly return the result.
 
 ## Limitations
 
 Arrow functions functions are limited and can't be used in all situations:
 
- - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
- - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
- - They cannot use `yield`, within its body.
- - They cannot use the special `arguments` keyword.
+- They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
+- They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
+- They cannot use `yield`, within its body.
+- They cannot use the special `arguments` keyword.
 
 ## Example
 
