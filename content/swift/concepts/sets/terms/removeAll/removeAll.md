@@ -21,7 +21,9 @@ The **.removeAll()** method is used to remove every value from a [Set](https://w
 ```
 setName.removeAll()
 ```  
-`.removeAll()` will remove all values from `setName`.
+
+- `.removeAll()` will remove all values from `setName`.
+- A `condition` is optional. If not declared, all values within the set will be removed. If it is declared, either `true` or `false` will be returned and if it evaluates to `true` for a specific value, that value within the set will be removed.
 
 ## Example
 
