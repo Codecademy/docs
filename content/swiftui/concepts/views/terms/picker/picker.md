@@ -19,7 +19,7 @@ A `Picker` allows a user to select a specific data value between a set of data. 
 
 ```pseudo
 var body: some View {
-    Picker(title: , selection: Binding<Hashable>) {
+    Picker("Title here", selection: Binding<Hashable>) {
         Subviews / labels here
     }
 }
