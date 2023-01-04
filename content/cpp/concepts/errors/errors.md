@@ -21,7 +21,8 @@ In C++, **error** messages and their different types help detect and debug issue
 Syntax errors occur when there is a syntactical error somewhere in the code, like in the example shown below:
 
 ```cpp
-int num = 28 // Error: missing ';'
+int num = 28
+// Error: missing ';'
 ```
 
 ## Link-Time Errors
@@ -35,7 +36,8 @@ int person = 1;
 
 string peopleReadingThis(int);
 
-peopleReadingThis(person); // Error: expecting a definition
+peopleReadingThis(person);
+// Error: expecting a definition
 ```
 
 Although the `person` variable is a valid argument for `peopleReadingThis()`, the function's body was never defined and so calling it causes the error.
@@ -45,13 +47,15 @@ Although the `person` variable is a valid argument for `peopleReadingThis()`, th
 An error that occurs after successful execution of the program is called a run-time error. This can happen when excessive memory is used.
 
 ```cpp
-int people = 293049858920384839904; // Error: overflow
+int people = 293049858920384839904;
+// Error: overflow
 ```
 
 Or, when trying to divide by 0:
 
 ```cpp
-int divideByZero = 22/0; // Error: division by zero
+int divideByZero = 22/0;
+// Error: division by zero
 ```
 
 ## Logic Error
@@ -63,8 +67,7 @@ The following example should print `Someone is reading this` when `person` is se
 ```cpp
 int person = 1;
 
-if (person > 1)
-{
+if (person > 1) {
   std::cout << "Someone is reading this";
 }
 else {

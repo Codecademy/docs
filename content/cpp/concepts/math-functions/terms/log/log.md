@@ -30,8 +30,7 @@ The following example uses the `log()` function to find the natural log of `5`:
 #include <iostream>
 #include <math.h>
 
-int main()
-{
+int main() {
   double x = 5;
   double result;
   result = log(x);
@@ -48,8 +47,7 @@ The following example is runnable and returns the natural log of `10`:
 #include <iostream>
 #include <math.h>
 
-int main()
-{
+int main() {
   double x = 10;
   double result;
   result = log(x);

@@ -112,6 +112,7 @@ v.insert(v.end(),6);
 
 std::cout << "The first element is: " << v[0] << "\n";
 // Output: The first element is: 0
+
 std::cout << "The last element is: " << v[5] << "\n";
 // Output: The last element is: 6
 ```
@@ -124,8 +125,7 @@ To create a vector named `grade` with three items and then insert elements to th
 #include <iostream>
 #include <vector>
 
-int main()
-{
+int main() {
   // Initializes an array of size 3
   std::vector<int> grades(3);
 

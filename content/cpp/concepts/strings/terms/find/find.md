@@ -36,8 +36,7 @@ The following example searches for `izz` in the `food` string:
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string food = "pizzabagel";
   std::cout << food.find("izz");
   // Output: 1
@@ -50,8 +49,7 @@ A starting index can also be specified:
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string food = "pizzabagel";
   std::cout << food.find("izz", 2);
 }
@@ -71,8 +69,7 @@ Searching for a sequence not in the string also returns `string::npos`. The foll
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string food = "pizzabagel";
   std::cout << food.find("bad");
 }
@@ -92,8 +89,7 @@ However, if the previous example is changed to search for the first two characte
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string food = "pizzabagel";
   std::cout << food.find("bad", 0, 2);
 }
