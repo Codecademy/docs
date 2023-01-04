@@ -278,7 +278,7 @@ In Kotlin, an `Array` is a data structure that stores a fixed-size collection of
 To declare an `Array` in Kotlin, you can use the `arrayOf()` function and specify the elements of the array within the parentheses. For example:
 
 ```kotlin
-fun main(){
+fun main() {
     val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
 }
 ```
