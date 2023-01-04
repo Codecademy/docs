@@ -19,7 +19,7 @@ The **.removeAll()** method is used to remove every value from a [Set](https://w
 ## Syntax
 
 ```
-setName.removeAll()
+setName.removeAll(where: { condition })
 ```  
 
 - `.removeAll()` will remove all values from `setName`.
