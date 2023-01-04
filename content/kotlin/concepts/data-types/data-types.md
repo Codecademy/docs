@@ -294,7 +294,7 @@ In Kotlin, a `String` is a data type that represents a sequence of characters. Y
 Here is an example of how to declare and initialize a string in Kotlin:
 
 ```kotlin
-fun main(){
+fun main() {
     val message: String = "Hello, World!"
     print(message)
 }
