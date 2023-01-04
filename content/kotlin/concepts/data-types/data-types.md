@@ -375,7 +375,7 @@ fun main() {
 }
 
 fun doSomething(): Unit {
-    // perform some action that you want to do
+    // Perform some action here
 }
 ```
 
