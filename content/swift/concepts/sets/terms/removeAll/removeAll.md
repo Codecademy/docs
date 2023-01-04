@@ -1,6 +1,6 @@
 ---
 Title: '.removeAll()' # 
-Description: 'Learn how to remove every item from a Set in Swift.' # 
+Description: 'Removes every item from a Set in Swift.' # 
 Subjects: # 
   - 'iOS'
   - 'Mobile Development'
