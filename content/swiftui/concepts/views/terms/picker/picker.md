@@ -40,7 +40,11 @@ enum Difficulty {
 @State private var selectedDifficulty: Difficulty = .medium
 
 var body: some View {
-    List {
+    HStack {
+        Text("Level:")
+        
+        Spacer()
+        
         Picker("Level:", selection: $selectedDifficulty) {
             Text("Easy")
                .tag(Difficulty.easy)
@@ -55,13 +59,16 @@ var body: some View {
                 .tag(Difficulty.extreme)
         }
     }
+    .padding()
 }
 
 ```
 
 A **`Picker`** can be created by providing a title or label, a selection of binding, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
 
-The example above will display a `Picker` with the label `'Level:'` and the selection right at the end. Inside the brackets are all available options. `.tag()` differentiates between certain selectable views, like the possible values of the picker.
+The example above will display a `Picker` wrapped inside a `HStack` which will display the text `'Level:'` and the selection right at the end. 
+The `'Text'` and the `'Picker'` are separated by a `'Spacer()'` which is pushing both views to the edge of the screen.
+Inside the brackets are all available options. `.tag()` differentiates between certain selectable views, like the possible values of the picker.
 
 This will display the following:
 
