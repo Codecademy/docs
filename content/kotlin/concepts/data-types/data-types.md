@@ -40,7 +40,7 @@ val isTrue: Boolean = true
 val isFalse: Boolean = false
 ```
 
-The `Boolean` data type can be used to determine the outcome of `if ... then` statements:
+The `Boolean` data type can be used to determine the outcome of `if...else` statements:
 
 ```kotlin
 fun main(){
