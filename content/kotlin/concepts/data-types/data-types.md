@@ -379,4 +379,4 @@ fun doSomething(): Unit {
 }
 ```
 
-In the above example, the doSomething() function performs an action and does not return a value. Therefore, its return type is `Unit`.
+In the above example, the `doSomething()` function performs an action and does not return a value. Therefore, its return type is `Unit`.
