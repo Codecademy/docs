@@ -33,9 +33,7 @@ There are the following different types of primitive data types in Kotlin:
 
 ### Boolean
 
-In Kotlin, the `Boolean` is a primitive data type and can hold only one of the two possible values: `true` or `false`.
-
-Here is an example of how to declare a `Boolean` variable in Kotlin:
+In Kotlin, `Boolean` can hold only one of the two possible values: `true` or `false`. Below is an example of how to declare a `Boolean` variable in Kotlin:
 
 ```kotlin
 val isTrue: Boolean = true
