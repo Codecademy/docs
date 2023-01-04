@@ -53,7 +53,7 @@ func main() {
 }
 ```
 
-This example results in the following output:
+This results in the following output:
 
 ```shell
 This is my first goroutine
