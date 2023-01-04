@@ -319,7 +319,7 @@ fun main(){
 }
 ```
 
-The output for the above code will be :
+The output for the above code will be:
 
 ```
 Hello, John
