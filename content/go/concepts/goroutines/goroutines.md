@@ -33,9 +33,9 @@ func myFunction(parameter) returnType {
 go myFunction()
 ```
 
-In the code above the `myFunction()` function is defined. Then the function is invoked with the `go` keyword. `myFunction()` will run concurrently with the calling function.
+A goroutine is started by invoking a previously defined function or method, `myFunction()`, with the `go` keyword.
 
-> **Note:** for any goroutines to run, the `main()` function should be running. When the `main()` function terminates, the program will be terminated, and no other goroutine will run.
+> **Note:** For any goroutines to run, the `main()` function must defined and executed. When the `main()` function terminates, the program will be terminated, and no other goroutine will run.
 
 ## Example
 
