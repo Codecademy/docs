@@ -47,9 +47,9 @@ func myGoroutine() {
 }
 
 func main() {  
-    go myGoroutine()
-    time.Sleep(2 * time.Second)
-    fmt.Println("This is the main function")
+  go myGoroutine()
+  time.Sleep(2 * time.Second)
+  fmt.Println("This is the main function")
 }
 ```
 
