@@ -19,12 +19,13 @@ CatalogContent:
 Although goroutines share some similarities with threads, there are important differences that include the following:
 
 - Threads depend on the hardware of the host computer's operating system, whereas goroutines do not.
-- Compared with threads, goroutines are cost-effective and use less resources to function.
+- Compared with threads, goroutines are cost-effective and use fewer resources to function.
 - Goroutines do not use thread-local storage and, thus, do not have a unique ID.
 
 Comparatively, goroutines are light-weight versions of threads that operate within the context of the Go runtime.
 
 ## Syntax
+
 ```pseudo
 func myFunction(parameter) returnType {
    // function body
@@ -35,7 +36,7 @@ go myFunction()
 
 A goroutine is started by invoking a previously defined function or method, `myFunction()`, with the `go` keyword.
 
-> **Note:** For any goroutines to run, the `main()` function must defined and executed. When the `main()` function terminates, the program will be terminated, and no other goroutine will run.
+> **Note:** For any goroutines to run, the `main()` function must be defined and executed. When the `main()` function terminates, the program will be terminated, and no other goroutine will run.
 
 ## Example
 
