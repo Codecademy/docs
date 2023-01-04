@@ -19,9 +19,6 @@ CatalogContent:
 Although goroutines share some similarities with threads, goroutines are not threads. Threads are different processes within a program that are running at the same time. Threads are created by the program; they are smaller and lighter processes and have their own flow of control. Running multiple processes simultaneously allows complex programs to run without holding up the execution of the rest of the program. Go supports multi-threading with goroutines. Goroutines are lightweight threads managed by the Go runtime.
 
 ## Syntax
-
-To start a goroutine, invoke a previously defined function or method with the `go` keyword:
-
 ```pseudo
 func myFunction(parameter) returnType {
    //body of the function
