@@ -36,6 +36,12 @@ In the code above the `myFunction()` function is defined. Then the function is i
 In the example below, the `myGoroutine()` function is defined to print out the text `This is my first goroutine`. Then in the `main()` function, `myGoroutine()` is called as a goroutine with the `go` keyword. Afterwards, the `main()` function is set to wait two seconds with the `time.Sleep()` function and then print out the text `This is the main function`.
 
 ```go
+package main
+import (
+  "fmt"
+  "time"
+)
+
 func myGoroutine() {  
     fmt.Println("This is my first goroutine")
 }
