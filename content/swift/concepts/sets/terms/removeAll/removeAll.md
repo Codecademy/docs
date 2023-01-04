@@ -28,10 +28,15 @@ setName.removeAll(where: { condition })
 ## Example
 
 The following is an example of the .removeAll() method:
+```swift block
+var weather: Set = ["spring", "summer", "autumn", "fall", "winter"]
 
-<img width="706" alt="Screen Shot 2022-11-29 at 10 19 28 AM" src="https://user-images.githubusercontent.com/115716841/204600438-394b799b-a4de-4df7-b544-af19614cb9c6.png">
+weather.removeAll()
 
-Removing all the values from the set produces the following output:
+print(weather)
+```
 
-<img width="403" alt="Screen Shot 2022-11-29 at 11 35 31 AM" src="https://user-images.githubusercontent.com/115716841/204602455-72cf0992-cf26-40e3-897d-bafc29b718a3.png">
-
+This will output:
+```shell block
+[]
+```
