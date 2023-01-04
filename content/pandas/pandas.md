@@ -4,6 +4,7 @@ Description: 'Pandas is a popular open-source Python module, used for data analy
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'
+  - 'getting-started-with-python-for-data-science'
   - 'paths/data-science'
 ---
 
