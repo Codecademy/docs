@@ -4,6 +4,7 @@ Description: 'Python is a general-purpose, versatile, and powerful programming l
 Codecademy Hub Page: 'https://www.codecademy.com/catalog/language/python'
 CatalogContent:
   - 'learn-python-3'
+  - 'getting-started-with-python-for-data-science'
   - 'paths/computer-science'
 ---
 
