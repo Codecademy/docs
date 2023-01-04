@@ -5,9 +5,10 @@ Subjects:
   - 'Code Foundations'
   - 'Computer Science'
 Tags:
-  - 'Primitive Data-Type'
+  - 'Integers'
   - 'Data Types'
-  - 'Non Primitive Data-Type'
+  - 'Boolean'
+  - 'Characters'
 CatalogContent:
   - 'learn-Kotlin'
   - 'paths/computer-science'
