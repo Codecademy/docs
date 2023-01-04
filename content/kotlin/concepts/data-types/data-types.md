@@ -373,6 +373,7 @@ The `Unit` type can be used to specify that a function has a return type of `Uni
 fun main() {
 
 }
+
 fun doSomething(): Unit {
     // perform some action that you want to do
 }
