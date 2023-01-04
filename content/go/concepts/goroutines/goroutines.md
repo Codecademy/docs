@@ -21,7 +21,7 @@ Although goroutines share some similarities with threads, goroutines are not thr
 ## Syntax
 ```pseudo
 func myFunction(parameter) returnType {
-   //body of the function
+   // function body
 }
 
 go myFunction()
