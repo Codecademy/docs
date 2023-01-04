@@ -18,7 +18,7 @@ CatalogContent:
 
 Kotlin has both `primitive` and `non-primitive` data types.
 
-## Primitive Data-type
+## Primitive Data Types
 
 There are the following different types of primitive data types in Kotlin:
 
