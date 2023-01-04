@@ -16,7 +16,6 @@ CatalogContent: # Please use course/path landing page slugs, rather than linking
 
 The **.removeAll()** method is used to remove every value from a [Set](https://www.codecademy.com/resources/docs/swift/sets) in Swift. 
 
-
 ## Syntax
 
 ```
