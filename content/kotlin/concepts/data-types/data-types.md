@@ -370,7 +370,7 @@ In Kotlin, the `Unit` type represents the absence of a value, similar to the `vo
 The `Unit` type can be used to specify that a function has a return type of `Unit` when it is not possible to infer the return type from the function's body. For example:
 
 ```kotlin
-fun main(){
+fun main() {
 
 }
 fun doSomething(): Unit {
