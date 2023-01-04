@@ -260,10 +260,15 @@ In this example, the c variable will be assigned the value 75, which is the resu
 
 The following are non-primitive data types in Kotlin :
 
-- Arrays
-- String
 - Any
+- Arrays
+- Class
+- Enum
+- List
+- Map
 - Nothing
+- Set
+- String
 - Unit
 
 ### Arrays
