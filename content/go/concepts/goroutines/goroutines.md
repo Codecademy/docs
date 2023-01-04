@@ -64,7 +64,7 @@ This is the main function
 
 ## Codebyte Example
 
-The example below defines a function called `print()` to print out a string, which is first called as a goroutine and then as a function:
+The example below defines a `print()` function to print out a string, which is first called as a goroutine and then as a regular function:
 
 ```codebyte/golang
 package main
