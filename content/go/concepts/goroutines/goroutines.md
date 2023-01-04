@@ -28,7 +28,7 @@ Comparatively, goroutines are light-weight versions of threads that operate with
 
 ```pseudo
 func myFunction(parameter) returnType {
-   // function body
+  // function body
 }
 
 go myFunction()
@@ -49,11 +49,11 @@ import (
   "time"
 )
 
-func myGoroutine() {  
-    fmt.Println("This is my first goroutine")
+func myGoroutine() {
+  fmt.Println("This is my first goroutine")
 }
 
-func main() {  
+func main() {
   go myGoroutine()
   time.Sleep(2 * time.Second)
   fmt.Println("This is the main function")
@@ -86,7 +86,6 @@ func print(text string) {
 }
 
 func main() {
-
   // call goroutine
   go print("This text is from the goroutine.")
 
