@@ -38,7 +38,6 @@ In Kotlin, `Boolean` can hold only one of the two possible values: `true` or `fa
 ```kotlin
 val isTrue: Boolean = true
 val isFalse: Boolean = false
-// here we can see that if a variable is wrong we can written false and true if its right
 ```
 
 The `Boolean` data type can be used to determine the outcome of `if ... then` statements:
