@@ -24,7 +24,7 @@ The **`__str__()`** dunder method returns a reader-friendly string representatio
 
 ```pseudo
 class ClassName:
-	__str__(self):
+  def __str__(self):
 ```
 The `__str__()` method accepts no parameters. `self` is an implicit reference to the instance of `ClassName`.
 
