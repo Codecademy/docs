@@ -24,6 +24,8 @@ struct MyView: View {
 }
 ```
 
+Inside `some View`, the `.bold()` modifier is applied to all text within the [`Text` view](https://www.codecademy.com/resources/docs/swiftui/views/text).
+
 ## Example
 
 The following example creates some bold text:
