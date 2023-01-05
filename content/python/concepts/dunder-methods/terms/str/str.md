@@ -36,7 +36,7 @@ The example below showcases various ways the `__str__()` can be called. All retu
 class  Home:
   def  __init__(self, rooms, stories):
     self.rooms = rooms
-		self.stories = stories
+    self.stories = stories
 
 	def  __str__(self):
 		return  "The house has {} rooms and {} stories".format(self.rooms, self.stories)
