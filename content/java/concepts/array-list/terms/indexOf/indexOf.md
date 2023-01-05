@@ -24,7 +24,7 @@ Signature of the method is `indexOf(Object element)` where `element` is the elem
 
 it does not throw any exception if the element is not present in the [`ArrayList`(https://www.codecademy.com/resources/docs/java/array-list) but returns -1.
 
-but .equals() method may throw a NullPointerException if the element is null.
+but `.equals()` method may throw a NullPointerException if the element is null.
 
 ## Example
 
@@ -61,7 +61,7 @@ The code above will print the index of the first occurrence of the element `"Tig
 -1
 ```
 
-The .indexOf() method does not work with primitive data types.
+The `.indexOf()` method does not work with primitive data types.
 
 ## Example 2
 
@@ -89,4 +89,4 @@ error: cannot find symbol
 1 error
 ```
 
-To use the .indexOf() method with primitive data types, you need to use the wrapper classes.
+To use the `.indexOf()` method with primitive data types, you need to use the wrapper classes.
