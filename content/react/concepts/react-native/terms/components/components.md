@@ -53,16 +53,16 @@ import { Text } from 'react-native';
 // Functional Component
 const Box = () => {
   return (
-      <Text>I have a small box</Text>
+    <Text>I have a small box</Text>
   );
 }
 
 // Class Component
 class Box extends Component {
   render() {
-      return (
-          <Text>I have a small box</Text>
-      );
+    return (
+      <Text>I have a small box</Text>
+    );
   }
 }
 
@@ -71,7 +71,7 @@ export default Box;
 
 > **Note:** To test this example, either the class or function definition of the `Box` component must be commented out before doing so.
 
-## JSX, Props and State.
+## JSX, Props, and State
 
 Components also use [JSX](https://www.codecademy.com/resources/docs/react/jsx), accept [props](https://www.codecademy.com/resources/docs/react/props), and manage [state](https://www.codecademy.com/resources/docs/react/state).
 
@@ -86,7 +86,7 @@ import { Text } from 'react-native';
 const Box = () => {
   const size = “small”;
   return (	
-      <Text>I have a {size} box</Text>
+    <Text>I have a {size} box</Text>
   );
 }
 
@@ -103,17 +103,17 @@ import { View, Text } from 'react-native';
 
 const Box = (props) => {
   return (
-      <Text>I have a {props.size} box</Text>
+    <Text>I have a {props.size} box</Text>
   );
 }
 
 const BoxCollection = () => {
   return (
-      <View>
-          <Box size=“small” />
-          <Box size=“medium” />
-          <Box size=“large” />
-      </View>
+    <View>
+      <Box size=“small” />
+      <Box size=“medium” />
+      <Box size=“large” />
+    </View>
   );
 }
 
