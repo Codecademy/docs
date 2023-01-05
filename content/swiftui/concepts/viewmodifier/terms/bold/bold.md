@@ -1,6 +1,6 @@
 ---
 Title: '.bold()'
-Description: 'A ViewModifier that applies a bold style to text characters in a View.'
+Description: 'Applies a bold style to text characters in a View.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
