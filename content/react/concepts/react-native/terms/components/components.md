@@ -28,13 +28,13 @@ These previously mentioned platform-backed components are called Native Componen
 
 React Native offers a set of essential, ready-to-use native components called core components. There are many components ranging from text to activity indicators. Most apps will use these core components:
 
-| Core Component | Description | 
-| --- | --- |
-| `<View>` | A common container component that supports layout with flexbox, styles, touch handling, accessibility controls, and can contain other components inside such as other views. It is analogous to a non-scrolling [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) HTML element. | 
-| `<Text>` | Displays text and supports styles and touch events. It is analogous to a [paragraph element](https://www.codecademy.com/resources/docs/html/paragraphs). | 
-| `<Image>` | Displays different types of images, including from network, static, local disks, and from ‘data:’ [URI](https://www.codecademy.com/resources/docs/general/uri) scheme. It is analogous to an [image element](https://www.codecademy.com/resources/docs/html/images). | 
-| `<TextInput>` | Allows the input of text by the user and provides several configuration capabilities such as auto-correction, auto-capitalization, placeholder text, etc. It is analogous to an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element with its `type` attribute set to `"text"`. |
-|`<ScrollView>` | A container that can nest multiple components and views that can scroll vertically or horizontally. It is analogous to a scrolling `div` element. |
+| Core Component | Description                                                                                                                                                                                                                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<View>`       | A common container component that supports layout with flexbox, styles, touch handling, accessibility controls, and can contain other components inside such as other views. It is analogous to a non-scrolling [`<div>`](https://www.codecademy.com/resources/docs/html/elements/div) HTML element.          |
+| `<Text>`       | Displays text and supports styles and touch events. It is analogous to a [paragraph element](https://www.codecademy.com/resources/docs/html/paragraphs).                                                                                                                                                      |
+| `<Image>`      | Displays different types of images, including from network, static, local disks, and from ‘data:’ [URI](https://www.codecademy.com/resources/docs/general/uri) scheme. It is analogous to an [image element](https://www.codecademy.com/resources/docs/html/images).                                          |
+| `<TextInput>`  | Allows the input of text by the user and provides several configuration capabilities such as auto-correction, auto-capitalization, placeholder text, etc. It is analogous to an [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input) element with its `type` attribute set to `"text"`. |
+| `<ScrollView>` | A container that can nest multiple components and views that can scroll vertically or horizontally. It is analogous to a scrolling `div` element.                                                                                                                                                             |
 
 ## Community Components
 
@@ -52,17 +52,13 @@ import { Text } from 'react-native';
 
 // Functional Component
 const Box = () => {
-  return (
-    <Text>I have a small box</Text>
-  );
-}
+  return <Text>I have a small box</Text>;
+};
 
 // Class Component
 class Box extends Component {
   render() {
-    return (
-      <Text>I have a small box</Text>
-    );
+    return <Text>I have a small box</Text>;
   }
 }
 
@@ -85,14 +81,14 @@ import { Text } from 'react-native';
 
 const Box = () => {
   const size = “small”;
-  return (	
+  return (
     <Text>I have a {size} box</Text>
   );
 }
 
 export default Box;
 ```
-	
+
 ### Props
 
 Most core components in React Native accept props. For example, different sizes for the `Box` component can be passed via props:
@@ -119,35 +115,26 @@ const BoxCollection = () => {
 
 export default BoxCollection;
 ```
-	
+
 ### State
 
 Like in React, components in React Native also use state to handle data that changes over time, such as with user interaction:
 
 ```jsx
-import React, { useState } from "react";
-import { View, Text, Button } from "react-native";
+import React, { useState } from 'react';
+import { View, Text, Button } from 'react-native';
 
 const Box = () => {
-  const [size, setSize] = useState("small");
+  const [size, setSize] = useState('small');
   return (
     <View>
       <Text>I have a {size} box</Text>
-      <Button
-        color="red"
-        onPress={() => setSize("small")}
-        title="Small" />
-      <Button
-        color="blue"
-        onPress={() => setSize("medium")}
-        title="Medium" />
-      <Button
-        color="orange"
-        onPress={() => setSize("large")}
-        title="Large" />
+      <Button color="red" onPress={() => setSize('small')} title="Small" />
+      <Button color="blue" onPress={() => setSize('medium')} title="Medium" />
+      <Button color="orange" onPress={() => setSize('large')} title="Large" />
     </View>
   );
-}
+};
 
 export default Box;
 ```
