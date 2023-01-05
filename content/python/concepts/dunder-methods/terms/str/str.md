@@ -38,7 +38,7 @@ class  Home:
     self.rooms = rooms
     self.stories = stories
 
-	def  __str__(self):
+  def  __str__(self):
 		return  "The house has {} rooms and {} stories".format(self.rooms, self.stories)
 
 home1 = Home(4, 2)
