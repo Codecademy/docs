@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines the location of an element.
+The __position__ property defines the location of an element.
 
 ## Syntax
 
@@ -29,49 +29,38 @@ where `<value>` can be one of the following:
 - `fixed`: The element is removed from the document flow just like the absolute positioned elements. However, unlike the absolute positioned elements, which are relative to an ancestor element, the fixed elements are always relative to the document.
 - `sticky`: This value is a mix between the relative and fixed positions. The element is treated as relative until a specific point or threshold is met, at which point the element is then treated as fixed.
 
+
 ## Example 1
 
-Set the position of `.box` element to stick in place at `40px` from the top of the document.
+Set the position of multiple `.box` elements with different `position` values. The first box is sticky to the top of the document. The second is set to a fixed position 40px from the top of the page. The third box position is 80px from the element's top edge.
 
 ```css
-.box {
+.box1 {
   height: 100px;
   width: 100px;
-  background-color: blue;
+  background-color: red;
   position: sticky;
-  top: 40px;
+  top: 30px;
 }
-```
 
-## Example 2
-
-Set the position of `.box` element to a fixed position at `40px` from the top of the document.
-
-```css
-.box {
+.box2 {
   height: 100px;
   width: 100px;
   background-color: blue;
   position: fixed;
-  top: 40px;
+  top: 80px;
 }
-```
 
-## Example 3
-
-Set the position of `.box` element `40px` from the elements top edge.
-
-```css
-.box {
+.box3 {
   height: 100px;
   width: 100px;
-  background-color: blue;
+  background-color: green;
   position: relative;
-  top: 40px;
+  top: 80px;
 }
-```
 
-## Example 4
+
+## Example 2
 
 Position the `.box` element `40px` from the bottom of the `.ancestor` element.
 
