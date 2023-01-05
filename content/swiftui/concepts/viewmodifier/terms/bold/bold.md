@@ -15,9 +15,6 @@ CatalogContent:
 The **`.bold()`** modifier applies a bold style to text characters in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
-
-`.bold()` is called underneath a `View` using dot notation and is applied to all text inside that `View`.
-
 ```pseudo
 struct MyView: View {
     var body: some View {
