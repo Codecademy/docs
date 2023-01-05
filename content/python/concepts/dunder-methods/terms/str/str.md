@@ -34,7 +34,7 @@ The example below showcases various ways the `__str__()` can be called. All retu
 
 ```codebyte/python
 class  Home:
-	def  __init__(self, rooms, stories):
+  def  __init__(self, rooms, stories):
 		self.rooms = rooms
 		self.stories = stories
 
