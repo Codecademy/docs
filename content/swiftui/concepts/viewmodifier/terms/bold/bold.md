@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`.bold()`** is a [`ViewModifier`](https://www.codecademy.com/resources/docs/swiftui/viewmodifier) that applies a bold style to text characters in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
+The **`.bold()`** modifier applies a bold style to text characters in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
