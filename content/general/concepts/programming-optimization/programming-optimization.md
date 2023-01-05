@@ -56,7 +56,7 @@ A few of the techniques that can be applied to optimize the programming on the c
 - Removing duplicate JavaScript and [CSS](https://www.codecademy.com/resources/docs/css) code 
 - Using minimalist styling frameworks, etc. 
 
-**Server Side**, this second side relates to any computations done behind the scenes, tends to involve: 
+**Server Side**, this second side relates to any computations done behind the scenes, it tends to involve: 
 
 - Database queries and processing 
 - Application configuration and dependencies, etc.         
