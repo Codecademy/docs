@@ -11,7 +11,7 @@ CatalogContent:
   - 'web-development'
 ---
 
-**Programming Optimization** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of others, e.g., increasing the size of the [cache](https://www.codecademy.com/resources/docs/general/cache) improves run-time performance but also increases memory consumption.
+**Programming Optimization** is the process of modifying a software system to amplify its functionality, making the application execute faster and more efficiently by minimizing the use of computing resources. In other words, a computer program may be optimized to reduce execution time, memory usage, disk space, bandwidth, and even draw less power. This usually requires a trade-off, where one aspect is implemented at the expense of the others, e.g., increasing the size of the [cache](https://www.codecademy.com/resources/docs/general/cache) improves run-time performance but also increases memory consumption.
 
 It has become an important focal point since today’s users appreciate a highly performant experience and have significantly higher expectations. It has become a deciding factor in the success of modern business in today’s digital market. Optimization in programming is a key element in the improvement of such performance.
 
@@ -42,32 +42,35 @@ Every application, generally, is composed of 2 areas where programming optimizat
 
 **Client Side**, which is the side seen on the web browser by the user, includes: 
 
-- JavaScript that runs in the browser 
-- load times for pages 
-- images 
-- videos 
-- downloading of any resources required by the application, etc. 
+- [JavaScript](https://www.codecademy.com/resources/docs/javascript) that runs in the browser 
+- Load times for pages 
+- Images 
+- Videos 
+- Downloading of any resources required by the application, etc. 
 
 A few of the techniques that can be applied to optimize the programming on the client side could be: 
-- caching and content delivery networks 
-- bundle and minification 
-- image usage 
-- removing duplicate JavaScript and CSS code 
-- using minimalist styling frameworks, etc. 
+
+- Caching and content delivery networks 
+- Bundle and minification 
+- Image usage 
+- Removing duplicate JavaScript and [CSS](https://www.codecademy.com/resources/docs/css) code 
+- Using minimalist styling frameworks, etc. 
 
 **Server Side**, this second side relates to any computations done behind the scenes, tends to involve: 
-- database queries and processing 
-- application configuration and dependencies, etc.         
+
+- Database queries and processing 
+- Application configuration and dependencies, etc.         
 
 Although not restricted to the ones below, typical strategies that help with this include: 
 
-- using an appropriate server application instead of the default 
-- enable caching(opcode, memory, http and application) 
-- de-fragmentation of database tables 
-- database settings 
-- virtualization 
-- dns query response time 
-- and again, this list can go on depending how deep requirements are needed.  
+- Using an appropriate server application instead of the default 
+- Enable caching(opcode, memory, http and application) 
+- De-fragmentation of database tables 
+- Database settings 
+- Virtualization 
+- [DNS](https://www.codecademy.com/resources/docs/general/dns) query response time 
+
+> **Note:** This list can continue depending on the requirements needed.  
 
 These programming optimizations can occur at different levels within the cycle of the application's creation. Consideration tends to be given to efficiency throughout a project, though this varies significantly, but major optimization in the programming is often considered a refinement to be done later, if ever. 
 
@@ -79,13 +82,13 @@ The architecture design of a system plays a major role, its optimization can ove
 
 Ultimately the choice of design depends on the goals of the project: If speed of the output is a key priority in the compilation when designing the compiler, taking into account the same level of work, a one-pass compiler is faster than a multi-pass compiler and although a multi-pass is slower, it may fulfill the overall objective just fine. The platform and programming source code language to be used will also be decided at this level.
 
-Changing any of these will most definitely require extensive rewrites, which is always a practice to avoid, regardless if a modular system may allow rewrites of some components (e.g. a Python program may rewrite performance-critical sections in C). In a distributed system, choice of design (e.g. client-server, peer-to-peer, etc.) occurs at this level and may be extremely challenging to modify later on, particularly if all components cannot be replaced in sync (e.g. old clients).
+Changing any of these will most definitely require extensive rewrites, which is always a practice to avoid, regardless if a modular system may allow rewrites of some components (e.g. a [Python](https://www.codecademy.com/resources/docs/python) program may rewrite performance-critical sections in [C](https://www.codecademy.com/resources/docs/c). In a distributed system, choice of design (e.g. client-server, peer-to-peer, etc.) occurs at this level and may be extremely challenging to modify later on, particularly if all components cannot be replaced in sync (e.g. old clients).
 
 ### Algorithms and Database Structures
 
 After the design solution, an efficient implementation for the algorithms and data structure should be decided on, and will play a key role to the system’s performance.
   
-Generally data structures are more difficult to change than algorithms since a data structure and its performance assumptions are used throughout the program. Changing a data structure after implementing it is an uphill battle, it’s crucial to think wisely before implementing an algorithmic solution for any optimization. This can be minimized by the use of abstract data types in function definitions, keeping the concrete data structure definitions restricted to a few places.
+Generally, data structures are more difficult to change than algorithms since a data structure and its performance assumptions are used throughout the program. Changing a data structure after implementing it is an uphill battle, it’s crucial to think wisely before implementing an algorithmic solution for any optimization. This can be minimized by the use of abstract data types in function definitions, keeping the concrete data structure definitions restricted to a few places.
 
 Optimized systems tend to have algorithms that are constant O(1), logarithmic O(log n), linear O(n), or log-linear O(n log n). For example, a linear search is asymptotically slower than a binary search, but a linear search is faster for small inputs and a binary search is faster for large inputs. Quadratic complexity algorithms O(n<sup>2</sup>) fail to scale and even linear algorithms cause problems if repeatedly called and are typically replaced with constant or logarithmic whenever it is possible to do so.
 
@@ -99,11 +102,11 @@ Beyond algorithm implementation, source code level choices can make a significan
 
 For example:
 
-- control flow statements like while-loops are slower than for-loops for an unconditional loop. 
+- Control flow statements like while-loops are slower than for-loops for an unconditional loop. 
 - On early C compilers, for-loops had an unconditional jump, however, while-loops have a conditional jump.
-- a language that is dynamically typed may be slower than a statically typed language, but it may be easier to write and maintain.
+- A language that is dynamically typed may be slower than a statically typed language, but it may be easier to write and maintain.
 
-In the most general terms, source code optimization tends to substitute generic high-level programming structures with lower-level source code, thus enhancing performance and/or reducing resource consumption (e.g. [CPU](https://www.codecademy.com/resources/docs/general/cpu), memory, etc.).
+In the most general terms, source code optimization tends to substitute generic high-level programming structures with lower-level source code, thus enhancing performance and/or reducing resource consumption (e.g. [CPU](https://www.codecademy.com/resources/docs/general/cpu), memory, etc.)).
 
 Such aforementioned programming optimizations can now be performed by compilers. Although compilers can optimize source code at a lower level, they are often limited to general purpose optimization, thus making manual optimization still necessary, allowing talented and experienced programmers to be creative with their solutions.  
 
@@ -176,7 +179,6 @@ Towards the end of the development stage will be an optimal time to perform any 
 
 ### Compilers
 
-What is a compiler used for?
 A compiler is a specific piece of software that converts the source code of a computer language into machine code, byte code, or another programming language. 
 
 Typically, the source code is written in a high-level, human-readable language and these structures are replaced with highly efficient low-level programming codes to the extent of the compiler's program. The compiler can improve loops and address computations after completing intermediate code and leverage memory hierarchy and CPU registers while generating the target machine code.
@@ -205,10 +207,10 @@ Independent developments are effective across most, if not all, platforms, while
 
 For compile-level optimization in programming: platform-independent techniques are generic techniques, such as:
 
-- loop unrolling
-- reduction in function calls
-- memory efficient routines
-- reduction in conditions
+- Loop unrolling
+- Reduction in function calls
+- Memory efficient routines
+- Reduction in conditions
 
 will impact most CPU architectures in a similar way.
 
@@ -219,3 +221,4 @@ These can typically lower the overall length of instruction paths needed to fini
 Contrarily, when it comes to platform-dependent techniques, these use instruction scheduling, instruction-level parallelism, data-level parallelism, and cache optimization techniques (i.e., parameters that vary across different platforms).
 
  > **Note:** The best time to schedule instructions may vary even between processors with the same architecture.
+ 
