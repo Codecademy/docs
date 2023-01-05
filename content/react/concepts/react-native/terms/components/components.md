@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[**Components**](https://www.codecademy.com/resources/docs/react/components) are units of reusable code that describe the appearance and behavior of the user interface (UI) of a mobile application.
+[**Components**](https://www.codecademy.com/resources/docs/react/components) are units of reusable code that describe the appearance and behavior of a mobile application's [user interface (UI)](https://www.codecademy.com/resources/docs/uiux/ui-design).
 
 ## UI Views
 
@@ -26,7 +26,7 @@ These previously mentioned platform-backed components are called Native Componen
 
 ## Core Components
 
-React Native offers a set of essential, ready-to-use Native Components called Core Components. There are many components ranging from Text to Activity Indicators. Most apps will use these Core Components:
+React Native offers a set of essential, ready-to-use native components called core components. There are many components ranging from text to activity indicators. Most apps will use these core components:
 
 | Core Component | Description | 
 | --- | --- |
@@ -38,13 +38,13 @@ React Native offers a set of essential, ready-to-use Native Components called Co
 
 ## Community Components
 
-Components can also be custom-built, and there’s a big ecosystem of these community-built components that can be accessed on the [Native Directory](https://reactnative.directory/).
+Components can also be custom-built; there’s a big ecosystem of these community-built components that can be accessed on the [Native Directory](https://reactnative.directory/).
 
 ![React and React Native Components](https://github.com/Codecademy/docs/tree/main/media/react_react_native_components.png)
 
 ### Examples
 
-React Native uses the same component syntax structure for its views to display elements to the screen, like in React.js. The following examples are of a `Box` component defined as both a class and functional component:
+React Native uses the same component syntax structure for its views to display elements to the screen, like in [React.js](https://www.codecademy.com/resources/docs/react). The following examples are of a `Box` component defined as both a class and functional component:
 
 ```jsx
 import React, { Component } from 'react';
@@ -73,11 +73,11 @@ export default Box;
 
 ## JSX, Props and State.
 
-Views also use [JSX](https://www.codecademy.com/resources/docs/react/jsx), accept [props](https://www.codecademy.com/resources/docs/react/props), and manage [state](https://www.codecademy.com/resources/docs/react/state).
+Components also use [JSX](https://www.codecademy.com/resources/docs/react/jsx), accept [props](https://www.codecademy.com/resources/docs/react/props), and manage [state](https://www.codecademy.com/resources/docs/react/state).
 
 ### JSX
 
-As in React, the JSX syntax in React Native allows writing elements inside JavaScript, and also the use of variables inside them:
+As in React, the JSX syntax in React Native allows elements and variables to be written inside the JavaScript:
 
 ```jsx
 import React from 'react';
@@ -95,7 +95,7 @@ export default Box;
 	
 ### Props
 
-Most Core Components in React Native accept props. For example, different sizes for the `Box` component can be passed via props:
+Most core components in React Native accept props. For example, different sizes for the `Box` component can be passed via props:
 
 ```jsx
 import React from 'react';
