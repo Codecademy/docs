@@ -52,7 +52,7 @@ public class Main {
 }
 ```
 
-The code above will print the index of the first occurrence of the element `"Tiger"` in the [`ArrayList`(https://www.codecademy.com/resources/docs/java/array-list) which is `1`.
+The code above will print the index of the first occurrence of the element `"Tiger"` in the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) which is `1`.
 
 ## Output
 
