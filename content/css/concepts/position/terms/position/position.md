@@ -58,7 +58,10 @@ Set the position of multiple `.box` elements with different `position` values. T
   position: relative;
   top: 80px;
 }
+```
 
+Here's what the above examples look like:
+![CSS Position Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-example.png "CSS position examples")
 
 ## Example 2
 
