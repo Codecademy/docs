@@ -48,7 +48,7 @@ Every application, generally, is composed of 2 areas where programming optimizat
 - videos 
 - downloading of any resources required by the application, etc. 
 
-A few of the techniques that can be applied optimize the programming on the client side could be: 
+A few of the techniques that can be applied to optimize the programming on the client side could be: 
 - caching and content delivery networks 
 - bundle and minification 
 - image usage 
