@@ -23,8 +23,12 @@ The **`DROP TABLE`** command deletes an existing table in a database.
 DROP TABLE table_name;
 ```
 
+The above command removes the `table_name` table from a database.
+
 ## Example
 
 ```sql
 DROP TABLE students;
 ```
+
+This example removes the `students` table from a database.
