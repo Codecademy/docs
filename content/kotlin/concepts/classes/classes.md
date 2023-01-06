@@ -92,7 +92,7 @@ val myDog = Dog("Fido", "Labrador", 3)
 
 This eliminates the need to define default values for the properties and allows the creation of objects of the class using the concise `constructor` syntax shown above.
 
-You can also define secondary constructors in a class by using the `constructor` keyword:
+Secondary constructors can also be defined in a class by using the `constructor` keyword:
 
 ```kotlin
 class Dog {
