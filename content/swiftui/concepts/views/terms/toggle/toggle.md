@@ -17,7 +17,7 @@ CatalogContent:
 
 ## Syntax
 
-A **`Toggle`** is switch that can be used to turn something on or off, or to choose between different options and follows this syntax:
+A **`Toggle`** is switch that can be used to turn something on or off, or to choose between different options.
 
 ```pseudo
 Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
