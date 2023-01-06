@@ -69,7 +69,7 @@ val myDog = Dog()
 val myDog = Dog("Fido", "Labrador", 3)
 ```
 
-You can access the properties and functions of the object using the dot notation:
+Properties and functions of the object can be accessed using the dot notation:
 
 ```kotlin
 myDog.name = "Fido"
