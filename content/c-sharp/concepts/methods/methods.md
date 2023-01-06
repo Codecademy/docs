@@ -21,19 +21,19 @@ A function inside a class is called a method. As C# is an object-oriented progra
 // Declare a public method without return type and no parameters:
 public void PrintString()
 {
-	Console.WriteLine("Happy Holidays!");
+  Console.WriteLine("Happy Holidays!");
 }
 
 // Declare a private method which returns an object and takes no parameters:
 private int ReturnNumber()
 {
-	return 7;
+  return 7;
 }
 
 // Declare a public method which returns an object and takes an input parameter:
 public int CalculateWithParameter(int x)
 {
-	return ReturnNumber() - x;
+  return ReturnNumber() - x;
 }
 ```
 
