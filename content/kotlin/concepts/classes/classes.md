@@ -22,7 +22,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin `classes` are a blueprint for creating objects. It can contain properties (data) and functions (behavior).
+In Kotlin **classes** are a blueprint for creating objects. They can contain properties (data) and functions (behavior).
 
 ## Syntax
 
