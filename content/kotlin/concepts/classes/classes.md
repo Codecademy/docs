@@ -10,13 +10,6 @@ Tags:
   - 'Constructors'
   - 'Methods'
   - 'OOP'
-  - 'Open'
-  - 'Abstract'
-  - 'Sealed'
-  - 'Final'
-  - 'Inner'
-  - 'Nested'
-  - 'Static'
 CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
