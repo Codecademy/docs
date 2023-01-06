@@ -17,7 +17,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of the spe
 ## Syntax
 
 ```pseudo
-arrayListInstance.indexOf(element);
+myArrayList.indexOf(element);
 ```
 
 Signature of the method is `indexOf(Object element)` where `element` is the element whose lowest index is to be returned.
