@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-The __position__ property defines the location of an element.
+The **position** property defines how elements are placed within the document.
 
 ## Syntax
 
