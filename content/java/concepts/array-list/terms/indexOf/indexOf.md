@@ -1,6 +1,6 @@
 ---
 Title: '.indexOf()'
-Description: 'If ArrayList contains given element returns the index of the first occurrence of it , else -1'
+Description: 'Returns the index of the first occurrence of a given element, or -1 if not found.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
