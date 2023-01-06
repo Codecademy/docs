@@ -1,6 +1,6 @@
 ---
 Title: 'Methods' 
-Description: 'A method in C# is a block of code that can be called from somewhere else in the program.'
+Description: 'Methods are blocks of code that can be called elsewhere in the program.'
 Subjects: 
   - 'Computer Science'
   - 'Code Foundations'
@@ -11,42 +11,42 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **method** is a block of code used in C# (and many other programming languages) containing statements. Each C# application has at least one method, called the `Main`, which is the starting point for the application. Methods are used to avoid the copy pasting of code, enabling better maintainability and readability of the code. Usually, a method has one or multiple dedicated purposes. 
+**Methods** are blocks of code that can be reused elsewhere in a C# application. Each application has at least one `Main` method that acts as the starting point. Methods are used to avoid the repetition of code and make it maintainable and readable. Usually, a method has one or multiple dedicated purposes. 
+
+A function inside a class is called a method. As C# is an object-oriented programming language, all functions are declared inside classes, making them methods. Thus, in C#, methods and functions are synonymous.
 
 ## Syntax
 
-To declare a method, the following parts must be present:
-
-* The access level (`public`, `private`, ...) and optional modifiers (`abstract`, `sealed`, ...)
-* The method return value (`void`, `string`, `int`, `object`, ...)
-* The method name
-* The (optional) method parameters
-
-All parts together form the method signature. Methods are written with a capital letter and camel case. 
-
 ```pseudo
 // Declare a public method without return type and no parameters:
-public void PrintHappyHolidays()
+public void PrintString()
 {
 	Console.WriteLine("Happy Holidays!");
 }
 
 // Declare a private method which returns an object and takes no parameters:
-private int CheckNumberOfCookies()
+private int ReturnNumber()
 {
 	return 7;
 }
 
 // Declare a public method which returns an object and takes an input parameter:
-public int CalculateLeftoverAmountOfCookies(int eaten)
+public int CalculateWithParameter(int x)
 {
-	return CheckNumberOfCookies() - 7;
+	return ReturnNumber() - x;
 }
 ```
 
+Methods begin with a signature made of the following parts:
+- An access level of `public` or `private` (`private` is the default)
+- Optional modifiers (e.g., `abstract` and `sealed`)
+- The method return value (`string`, `int`, `object`, etc.) or `void` 
+- The method name (starting with a capital letter; usually a verb)
+- Zero, one, or more (optional) parameters
+
 ## Example
 
-The following example calculates the square of a given integer and prints it to the console. There are two methods present, the 'Main' method as well as the 'GetSquare' method.
+In the following example, two methods are separate defined: `Main` and `GetSquare`. When the program is run, the `Main` is executed first which, in turn, executes the `GetSquare` method with an `int` parameter passed to it. The returned value is saved to a [variable](https://www.codecademy.com/resources/docs/c-sharp/variables) and printed to the console:
 
 ```cs
 using System;
@@ -61,11 +61,7 @@ public class Example
 
   private int GetSquare(int i)
   {
-     return i*i; 
+     return i * i; 
   }
 }
 ```
-
-## Methods vs. Functions
-
-A function inside a class is called a method. As C# is an object-oriented programming language, all functions are declared inside classes, making them methods. Thus, in C#, methods and functions are synonymous.
