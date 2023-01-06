@@ -1,68 +1,40 @@
 ---
-
 Title: '.underline()'
-
 Description: 'A ViewModifier that applies an underline style to text characters in a View.'
-
 Subjects:
-
 - 'Mobile Development'
-
 - 'iOS'
-
 Tags:
-
 - 'SwiftUI'
-
 - 'SwiftUI Modifiers'
-
 CatalogContent:
-
 - 'learn-swift'
-
 - 'paths/build-ios-apps-with-swiftui'
-
 ---
-
-  
 
 The **`.underline()`** view modifier in SwiftUI applies an underline style to text characters in a View.
 
 ## Syntax
 
-  
-
 ```psuedo
-
 Text("This text will be underlined")
-
 .underline()
-
 ```
-The `.underline()` modifier is applied to all characters within the `Text` (which conforms to View protocol).
 
-  
+The `.underline()` modifier is applied to all characters within the `Text` (which conforms to View protocol).
 
 ## Example
 
-  The following example creates some underlined text:
+The following example creates some underlined text:
 
 ```swift
-
 var body: some View {
-
 Text("Underlined text")
-
 .underline()
-
 }
-
 ```
 In the above example, the `.underline()` modifier is called on the `Text` View. This applies an underlined style to all characters within the `Text`.
   
-
 This will display:
-
-  
 
 ![SwiftUI ViewModifier Underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-underline.png)
