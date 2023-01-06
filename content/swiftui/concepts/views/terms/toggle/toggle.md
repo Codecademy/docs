@@ -40,7 +40,7 @@ var body: some View {
 }
 ```
 
-- `'.padding()'` is a view modifier that gives the view that is attached to some space. In this way, the toggle and its label are not squished to the end of the screen.w
+`.padding()` is a view modifier that gives the view that is attached to some space. In this way, the toggle and its label are not squished to the end of the screen.
  
 This will display the following:
 
