@@ -37,8 +37,7 @@ The following example replaces a portion of a base string with a portion of anot
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string base="this is a test string.";
   std::string repl="replacement string.";
 

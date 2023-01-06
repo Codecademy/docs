@@ -33,8 +33,7 @@ The following example uses the `pow()` function to raise `2` to the power of `2`
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double base = 2;
   double exponent = 2;
 
@@ -52,8 +51,7 @@ The following example is runnable and uses the `pow()` function to find the nth-
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double base = 16;
   double root = 3;
   double exponent = 1 / root;
