@@ -62,7 +62,7 @@ class Dog {
 }
 ```
 
-To create an object of this class, you can use the new keyword or the more concise `constructor` syntax like this:
+To create an object of this class, the `new` keyword can be used, or the more concise `constructor` syntax:
 
 ```kotlin
 val myDog = Dog()
