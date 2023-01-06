@@ -47,7 +47,7 @@ Here are some rules for defining classes in Kotlin:
 - A class can extend one or more superclasses and implement one or more interfaces.
 - A class can override and/or overload functions and properties of its superclass and/or interfaces.
 
-Here is a example of simple Kotlin class:
+## Examples
 
 ```kotlin
 class Dog {
