@@ -61,7 +61,10 @@ Set the position of multiple `.box` elements with different `position` values. T
 ```
 
 Here's what the above examples look like:
-![CSS Position Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-example.png "CSS position examples")
+
+![CSS Position Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-example.png)
+
+The first box is sticky to the top of the document. The second is set to a fixed position 40px from the top of the page. The third box position is 80px from the element's top edge.
 
 ## Example 2
 
