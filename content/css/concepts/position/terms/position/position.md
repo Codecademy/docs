@@ -32,7 +32,7 @@ where `<value>` can be one of the following:
 
 ## Example 1
 
-Set the position of multiple `.box` elements with different `position` values. The first box is sticky to the top of the document. The second is set to a fixed position 40px from the top of the page. The third box position is 80px from the element's top edge.
+The following example features three `.box` elements with different `position` values:
 
 ```css
 .box1 {
