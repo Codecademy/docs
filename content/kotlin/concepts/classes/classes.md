@@ -90,7 +90,7 @@ class Dog(var name: String, var breed: String, var age: Int) {
 val myDog = Dog("Fido", "Labrador", 3)
 ```
 
-This eliminates the need to define default values for the properties and allows you to create objects of the class using the concise `constructor` syntax shown above.
+This eliminates the need to define default values for the properties and allows the creation of objects of the class using the concise `constructor` syntax shown above.
 
 You can also define secondary constructors in a class by using the `constructor` keyword:
 
