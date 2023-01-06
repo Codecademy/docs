@@ -43,7 +43,7 @@ public class Main {
     animals.add("Lion");
     animals.add("Tiger");
     // Print the index of the first occurrence of the element "Tiger" in this case 1
-    System.out.println(animals.indexOf("Tiger\n"));
+    System.out.println(animals.indexOf("Tiger"));
     System.out.println(animals.indexOf("Elephant"));
 
   }
