@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-SQL tables sometimes have a column that uniquely identifies each row of that table. These special columns are called primary keys.
+Sometimes, SQL tables are distinguished through **primary keys**, a special column that will uniquely identify each row of that table.
 
 A primary key column has a few requirements:
 
@@ -48,3 +48,33 @@ CREATE TABLE students (
 When the primary key for one table appears in a different table, it is called a foreign key.
 
 Why is this important? The most common types of joins will be joining a foreign key from one table with the primary key from another table. For instance, when we join the `orders` table and the `customers` table, we join on the `customer_id` column, which is a foreign key in `orders` and the primary key in `customers`.
+
+## Composite Keys
+
+Having one primary key per table is sometimes not enough to uniquely identify a row; in such cases we would use more than one column, or **composite keys**. This requirement should be detected during the designing phase of a database. 
+
+For example, a database containing vehicle parts will have to uniquely identify a row of parts. You could use either the `engine_ID` or  `body_ID`; however, this may create ambiguity as cars could get their engines swapped.
+
+Usually (but depending on local regulations) a car will require an engine part ID and a car body ID to be associated with a license plate. In this case you could have a table with more information about the car, such as `left_door_ID`, `gearbox_ID`, etc., but you would identify a specific car by two different aspects: its body and its engine. 
+
+A composite key would be useful in this case. This is how a `vehicle_registry` table would look (omitted extra parts/columns for brevity):
+
+| engine_id | body_id | gearbox_id | purchase_date |
+| -------- | ----------- | ---------- | ------------- |
+| 500        | abc        | 001      | 2022-01-01    |
+| 600        | def        | 002      | 2022-01-01    |
+| 700        | ghi        | 003      | 2022-01-02    |
+
+In the case above, `purchase_date` would also be part of the composite primary key, along with `engine_id` and `body_id`—this car could be registered many times after reselling to new owners, and each of these rows should be distinguished from each other as unique tuples. 
+
+The statement below creates the `vehicle_registry` table with a composite key:
+
+```sql
+CREATE TABLE vehicle_registry (
+  engine_id INTEGER,
+  body_id TEXT,
+  gearbox_id INTEGER,
+  purchase_date DATE,
+  PRIMARY KEY(engine_id, body_id, purchase_date)
+);
+```
