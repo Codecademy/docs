@@ -26,7 +26,7 @@ In Kotlin **classes** are a blueprint for creating objects. They can contain pro
 
 ## Syntax
 
-```kotlin
+```pseudo
 fun main(){
     class ClassName {
     // properties
