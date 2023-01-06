@@ -78,7 +78,7 @@ myDog.age = 3
 myDog.bark()
 ```
 
-You can also define a primary constructor in class header:
+A primary constructor can also be defined in the class header:
 
 ```kotlin
 class Dog(var name: String, var breed: String, var age: Int) {
