@@ -20,11 +20,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of the spe
 myArrayList.indexOf(element);
 ```
 
-Signature of the method is `indexOf(Object element)` where `element` is the element whose lowest index is to be returned.
-
-it does not throw any exception if the element is not present in the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) but returns -1.
-
-but `.equals()` method may throw a NullPointerException if the element is null.
+If the `element` exists in `myArrayList`, the `.indexOf()` method will return the index of its first occurrence (even if the value if `null`). If the `element` can't be found, -1 will be returned.
 
 ## Example
 
