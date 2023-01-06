@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Variable** is a storage location for a value that can be either mutable or read-only. The value stored in a variable can be of different types, such as numbers, characters, or strings.
+A **variable** is a storage location for a value that can be either mutable or read-only. The value stored in a variable can be of different types, such as numbers, characters, or strings.
 
 ## Declaring a Variable
 
