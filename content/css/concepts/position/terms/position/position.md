@@ -1,6 +1,6 @@
 ---
 Title: 'position'
-Description: 'Defines the location of an element.'
+Description: 'Defines how elements are placed within the document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -17,7 +17,7 @@ The **position** property defines how elements are placed within the document.
 
 ## Syntax
 
-```css
+```pseudo
 position: <value>;
 ```
 
