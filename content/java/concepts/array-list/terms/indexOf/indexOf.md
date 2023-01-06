@@ -50,9 +50,7 @@ public class Main {
 }
 ```
 
-The code above will print the index of the first occurrence of the element `"Tiger"` in the [`ArrayList`](https://www.codecademy.com/resources/docs/java/array-list) which is `1`.
-
-## Output
+This will print the following output:
 
 ```shell
 1
