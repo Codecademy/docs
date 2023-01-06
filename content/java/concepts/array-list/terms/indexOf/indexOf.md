@@ -24,6 +24,8 @@ If the `element` exists in `myArrayList`, the `.indexOf()` method will return th
 
 ## Example
 
+The following example features two calls to `.indexOf()` on `animals`. The first will print the index of the first occurrence of the element with the string `"Tiger"`. The second will return -1 because `"Elephant"` does not exist in `animals`:
+
 ```java
 // Import the ArrayList class from the java.util package
 import java.util.ArrayList;
