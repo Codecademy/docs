@@ -121,4 +121,4 @@ val myDog = Dog("Fido", "Labrador", 3)
 val myPuppy = Dog("Buddy", "Golden Retriever")
 ```
 
-This allows you to create objects of the class using different sets of arguments.
+This allows the creation of objects of the class using different sets of arguments.
