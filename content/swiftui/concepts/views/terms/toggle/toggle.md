@@ -23,7 +23,7 @@ A **`Toggle`** is switch that can be used to turn something on or off, or to cho
 Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
 ```
 
-The usual method for creating a text-only `'Toggle'` involves passing a string as the first parameter, rather than using a trailing closure, and a Boolean property that determines the state of the toggle (on or off).
+The usual method for creating a text-only `Toggle` involves passing a string as the first parameter, rather than using a trailing closure, and a Boolean property that determines the state of the toggle (on or off).
 
 ## Example
 
