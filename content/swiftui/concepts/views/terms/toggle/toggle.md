@@ -27,7 +27,7 @@ The usual method for creating a text-only `'Toggle'` involves passing a string a
 
 ## Example
 
-The following example displays a `'Toggle'` turns on/off a "Wi-Fi" switch. It takes just a `'isOn:'` binding parameter and the `'Label'` will be inside a trailing closure.
+The following example displays a `Toggle` that turns on/off a "Wi-Fi" switch. It takes just a `isOn:` binding parameter and the `Label` will be inside a trailing closure.
 
 ```swift
 @State var isWifiOn = false
