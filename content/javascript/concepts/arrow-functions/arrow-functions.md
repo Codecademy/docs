@@ -33,7 +33,7 @@ The syntax for an arrow function expression does not require the `function` keyw
 
 Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
 
-> **Note:** Arrow functions functions are limited and can't be used in all situations:
+> **Note:** Arrow functions are limited and can't be used in all situations:
 >
 > - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
 > - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
@@ -64,7 +64,7 @@ hello
 Baggage weight: 25 kilograms.
 ```
 
-## Codebyte Exammple
+## Codebyte Example
 
 The following example features an arrow function defined with two arguments on a single line:
 

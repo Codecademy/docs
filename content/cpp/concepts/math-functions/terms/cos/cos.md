@@ -27,8 +27,7 @@ Use `cos()` to return the cosine of `3.1416` radians:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 3.1416;
   double result;
 
