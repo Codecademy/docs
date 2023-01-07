@@ -26,7 +26,7 @@ fun main() {
 }
 ```
 
-The type of a `variable` is optional in Kotlin, as the type can be inferred from the value assigned to the variable. For example, the following declarations are equivalent to the ones above:
+Declaring the type of a variable is optional in Kotlin, as the type can be inferred from the value assigned to the variable. For example, the following declarations are equivalent to the ones above:
 
 ```kotlin
 fun main() {
