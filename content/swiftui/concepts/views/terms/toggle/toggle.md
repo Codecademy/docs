@@ -15,9 +15,9 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-## Syntax
-
 A **`Toggle`** is switch that can be used to turn something on or off, or to choose between different options.
+
+## Syntax
 
 ```pseudo
 Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
