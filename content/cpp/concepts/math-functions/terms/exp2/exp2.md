@@ -38,12 +38,14 @@ The following example uses `exp2()` to return `2` raised to the given argument:
 ```cpp
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 int main() {
   double x = -6.19, result;
 
   result = exp2(x);
+
   cout << "exp2(x) = " << result << endl;
 
   return 0;
@@ -70,6 +72,7 @@ int main() {
   double result;
 
   result = exp2(x);
+
   cout << "exp2(x) = " << result << endl;
 
   return 0;

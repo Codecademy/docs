@@ -242,6 +242,7 @@ Semantic
 Servers
 Server-Side Rendering
 Sets
+Slices
 Socket.IO
 Sort
 Span
@@ -258,6 +259,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI ViewModifiers
 Switch
 Symbol
 Syntax

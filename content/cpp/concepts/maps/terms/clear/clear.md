@@ -32,8 +32,7 @@ The following codebyte example clears the items of the `supplies` map:
 #include <iterator>
 #include <map>
 
-int main()
-{
+int main() {
   // Initializing map with items
   std::map<std::string, int> supplies {{"pen", 5}, {"pencils", 3}, {"paper", 12}};
 

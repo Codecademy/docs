@@ -60,9 +60,7 @@ So here:
 ```codebyte/cpp
 #include <iostream>
 
-int main()
-{
-
+int main() {
   enum quarter_one {
     january=1,
     february,
