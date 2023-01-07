@@ -21,6 +21,7 @@ Version Detection is used with the `-sV` command, and it allows the user to coll
 ```pseudo
 nmap -sV localhost
 ```
+
 The command starts an assessment on `localhost`.
 
 The command can be customized with the following options:
