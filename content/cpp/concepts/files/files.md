@@ -36,8 +36,7 @@ To write to the file, use the insertion operator (`<<`). For example:
 #include <iostream>
 #include <fstream>
 
-int main()
-{
+int main() {
   // Create and open a text file
   std::ofstream MyFile("journal.txt");
 
@@ -67,8 +66,7 @@ To read from a file, use either the `ifstream` or `fstream` class, and the name 
 #include <iostream>
 #include <fstream>
 
-int main()
-{
+int main() {
   // Create a text string, which is used to output the text file
   std::string myText;
 

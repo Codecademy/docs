@@ -27,8 +27,7 @@ Use `asin()` to return the inverse sine of `0.0`:
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   double x = 0.0;
   double result;
 
