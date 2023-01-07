@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `size()` method of the `ArrayList` class returns the number of elements in the list.
+The **`size()`** method of the `ArrayList` class returns the number of elements in the list.
 
 ## Syntax
 
