@@ -48,18 +48,18 @@ This factor refers to a physical object in the possession of the user. Something
 - a USB key
 - a security token
 - a bank card
-- a lock key
+- a physical key
 
 The physical objects used for verification are signed in such a way as to certify their belonging to the individual whose identity is being verified (e.g., a model number on a lock key, a PIN being sent to the user's phone, etc.)
 
 ### Something the User Is
 
-Something the user is can refer to the user's biology in the form of biometric markers. This factor can also refer to the user's behavioral tendencies. Examples include the user's:
+Something the user is typically refers to the user's biology in the form of biometric markers. This factor can also refer to the user's behavioral tendencies. Examples include the user's:
 
-- fingerprint
+- fingerprint(s)
 - face
 - voice
-- iris
+- iris(es)
 - keystroke typing dynamics
 
 ### Somewhere the User Is
