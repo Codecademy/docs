@@ -24,7 +24,7 @@ There are, broadly speaking, five ways for a user to prove his identity. A user 
 - Something he has
 - Something he is
 - Some*where* he is
-- Some*when* he is (a time of the day and/or a date)
+- Some*when* he is
 
 Multi-factor authentication is typically discussed online or in a corporate context as two-factor authentication (2FA) which consists in the user providing two of the above factors as a means to more securely verify his identity. More factors being used in the verification process results in greater security. 
 
@@ -46,6 +46,7 @@ This factor refers to a physical object in the possession of the user. Something
 
 - a mobile phone
 - a USB key
+- a security token
 - a bank card
 - a lock key
 
@@ -63,14 +64,22 @@ Something the user is can refer to the user's biology in the form of biometric m
 
 ### Somewhere the User Is
 
+This factor uses information about the user's location. Examples include the user's:
+
+- [geolocation](https://www.codecademy.com/resources/docs/general/geolocation)
+- proximity to a particular location
+
+Somewhere the user is may be used, for example, to allow the user access to a mobile phone only if the user is within a certain distance of his or her workplace.
 
 ### Somewhen the User Is
+
+Somewhen the user is refers to a specific time of the day or to a specific date during which the user finds him or herself in. Although rarely used as a standalone factor, certain security tokens methods of authentication use the user's temporal location by enforcing that the tokens sent to the user to verify his identity remain valid for no longer than 30 or 60 seconds (more on security tokens is found in the Two-Factor Authentication Examples Section below). 
 
 ### Two-Factor Authentication Examples
 
 - ATMs often require a physical card (something the user has) and a memorized PIN (something the user knows) to successfully withdraw cash.
 
-- Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because to be verified, a person would need the physical device which probably has a PIN (something the user has and knows) and biometric marker factor (something the user is).
+- Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because to be verified, a person would need the physical device which probably has a PIN (something the user has) and biometric marker factor (something the user is).
 
 Other factors, depending on the verification system, include the following:
 
