@@ -42,8 +42,10 @@ var body: some View {
 
 `.padding()` is a view modifier that gives the view that is attached to some space. In this way, the toggle and its label are not squished to the end of the screen.
  
-This will display the following:
+This will display the following when the `Toggle` is off:
 
 ![Toggle when off](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-toggle-off.png)
+
+This will display the following when the `Toggle` is on:
 
 ![Toggle when on](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-toggle-on.png)
