@@ -18,7 +18,7 @@ CatalogContent:
 
 Represented as small, rectangular, and oftentimes nestable elements, views can display text, media, and respond to user input. React Native invokes views in their native environment with JavaScript.
 
-![React Native to Native UI Representation](https://github.com/Codecademy/docs/tree/main/media/react_native_UI_Views.png)
+![React Native to Native UI Representation](https://raw.githubusercontent.com/Codecademy/docs/main/media/react_native_UI_Views.png)
 
 ## Native Components
 
@@ -40,7 +40,7 @@ React Native offers a set of essential, ready-to-use native components called co
 
 Components can also be custom-built; there’s a big ecosystem of these community-built components that can be accessed on the [Native Directory](https://reactnative.directory/).
 
-![React and React Native Components](https://github.com/Codecademy/docs/tree/main/media/react_react_native_components.png)
+![React and React Native Components](https://raw.githubusercontent.com/Codecademy/docs/main/media/react_react_native_components.png)
 
 ### Examples
 
