@@ -17,7 +17,7 @@ The `size()` method of the `ArrayList` class returns the number of elements in t
 ## Syntax
 
 ```pseudo
-int size() = list.size()
+int size = list.size()
 ```
 
 ## Example
