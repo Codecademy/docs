@@ -15,7 +15,7 @@ CatalogContent:
 
 The **`.upper()`** method takes a string, and returns a copy of that string in which all letters are uppercase. Numbers and symbols are not changed.
 
-Note: The `.upper()` method does not change the string it is used on.
+> **Note:** The `.upper()` method does not change the string it is used on.
 
 ## Syntax
 
