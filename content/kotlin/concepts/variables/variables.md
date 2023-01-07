@@ -7,7 +7,7 @@ Tags:
   - 'Variables'
   - 'Data Types'
 CatalogContent:
-  - 'learn-java'
+  - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
