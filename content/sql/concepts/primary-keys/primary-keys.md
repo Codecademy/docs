@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-Sometimes, SQL tables are distinguished through **primary keys**, a special column that will uniquely identify each row of that table.
+**Primary keys** are special columns that are used to uniquely identify each row of a table in SQL.
 
 A primary key column has a few requirements:
 
@@ -51,13 +51,13 @@ Why is this important? The most common types of joins will be joining a foreign 
 
 ## Composite Keys
 
-Having one primary key per table is sometimes not enough to uniquely identify a row; in such cases we would use more than one column, or **composite keys**. This requirement should be detected during the designing phase of a database. 
+Sometimes, having one primary key per table is not enough to uniquely identify a row. In such cases, multiple columns would work as composite keys for the table. This requirement should be detected during the designing phase of a database.
 
-For example, a database containing vehicle parts will have to uniquely identify a row of parts. You could use either the `engine_ID` or  `body_ID`; however, this may create ambiguity as cars could get their engines swapped.
+For example, a database of car parts will have to uniquely identify a row of parts. You could use either the `engine_ID` or  `body_ID`; however, this may create ambiguity as cars could get their engines swapped.
 
-Usually (but depending on local regulations) a car will require an engine part ID and a car body ID to be associated with a license plate. In this case you could have a table with more information about the car, such as `left_door_ID`, `gearbox_ID`, etc., but you would identify a specific car by two different aspects: its body and its engine. 
+Depending on local regulations, a car may require an engine part ID and a body ID to be associated with a license plate. One solution might be adding more row information about the car, such as `left_door_ID`, `gearbox_ID`, etc. But then a specific car would have to be identified by two different aspects: its body and its engine.
 
-A composite key would be useful in this case. This is how a `vehicle_registry` table would look (omitted extra parts/columns for brevity):
+A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
 
 | engine_id | body_id | gearbox_id | purchase_date |
 | -------- | ----------- | ---------- | ------------- |
