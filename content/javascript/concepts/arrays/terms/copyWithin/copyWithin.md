@@ -18,11 +18,12 @@ The `.copyWithin()` copies part of an array to another location in the same arra
 
 The `.copyWithin()` method is a mutating method. It does not alter the length of the array, but it will change the content of the array and create new properties or delete existing properties, if necessary.
 
-```js
+```pseudo
 array1.copyWithin(target);
 array1.copyWithin(target, start);
 array1.copyWithin(target, start, end);
 ```
+
 ### Parameters
 
 - `target`: Zero-based index at which to copy the sequence to. 
