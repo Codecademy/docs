@@ -1,5 +1,5 @@
 ---
-Title: 'Go: Memory'
+Title: 'Memory'
 Description: 'The Go memory model specifies the rules for how memory is accessed and modified in concurrent programs. It allows for the concurrent execution of multiple threads and includes operations such as reading, writing, allocating, and freeing memory. '
 Subjects:
   - 'Computer Science'
