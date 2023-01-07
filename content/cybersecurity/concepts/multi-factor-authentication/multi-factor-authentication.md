@@ -20,11 +20,11 @@ One factor is typically a username or email and password combination. This is th
 
 There are, broadly speaking, five ways for a user to prove his identity. A user can prove his identity through
 
-- Something he knows
-- Something he has
-- Something he is
-- Some*where* he is
-- Some*when* he is
+- Something the user knows
+- Something the user has
+- Something the user is
+- Some*where* the user is
+- Some*when* the user is
 
 Multi-factor authentication is typically discussed online or in a corporate context as two-factor authentication (2FA) which consists in the user providing two of the above factors as a means to more securely verify his identity. More factors being used in the verification process results in greater security. 
 
@@ -77,13 +77,9 @@ Somewhen the user is refers to a specific time of the day or to a specific date 
 
 ### Two-Factor Authentication Examples
 
-- ATMs often require a physical card (something the user has) and a memorized PIN (something the user knows) to successfully withdraw cash.
+ATMs often require a physical card (something the user has) and a memorized PIN (something the user knows) to successfully withdraw cash.
 
-- Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because to be verified, a person would need the physical device which probably has a PIN (something the user has) and biometric marker factor (something the user is).
+Secure sites, like [GitHub](https://www.codecademy.com/resources/docs/general/github), allow users to enable MFA through a PIN that's sent to the user's physical device like a mobile phone or tablet. This is very secure because to be verified, a person would need the physical device which probably has a PIN (something the user has) and biometric marker factor (something the user is).
 
-Other factors, depending on the verification system, include the following:
-
-- A physical item belonging to the user (e.g., a mobile phone).
-- A personal identity number (PIN), key, or token that only the user should know prior, or an authentication code that is e-mailed, texted, or phoned-in to the user in real-time.
-- Some biometric marker for the user (fingerprints, voice-recognition, key-stroke patterns, etc.).
-- Information about the user's [geolocation](https://www.codecademy.com/resources/docs/general/geolocation).
+Corporations and universities increasingly require that their employees login to their staff email accounts by using 2FA: the first authentication factor is the employee's email address and password (something the employee knows) and the second authentication factor is typically a security token (something the employee has). The security token may be an authentication code that is e-mailed, texted, or phoned-in to the user in real-time. Security tokens are nowadays often generated through the use of authenticator apps or keys as one-time passwords (OTPs). The uniqueness of the OTP can be enforced by allowing the user access to the OTP only for a limited amount of time (so-called time-based one time passwords or TOTPs) or it can be enforced by changing the OTP when a well-defined event occurs like the opening of a lock for example (so-called HMAC-based one time passwords or HOTPs). Authenticator applications examples include the [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&gl=US), the [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator), and the [Aegis Authenticator](https://getaegis.app/). Physical OTP generators include the [Yubikey](https://www.yubico.com/), the [Nitrokey](https://www.nitrokey.com/), and the [Protectimus Slim NFC](https://www.protectimus.com/slim-mini/index.php).
+ 
