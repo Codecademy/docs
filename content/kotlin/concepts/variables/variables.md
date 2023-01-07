@@ -63,8 +63,20 @@ class Delegate {
         println("$value has been assigned to '${property.name}' in $thisRef.")
     }
 }
+val example = Example()
+example.prop = "Hello" // prints "Hello has been assigned to 'prop' in Example@1be83a0e."
+println(example.prop) // prints "Example@1be83a0e, thank you for delegating 'prop' to me!"
+
 ```
 
 In this example, the `prop` property of the `Example` class is delegated to an instance of the `Delegate` class. The `getValue` and `setValue` functions of the `Delegate` class define how the property is accessed and modified.
+
+```kotlin
+val example = Example()
+example.prop = "Hello" // prints "Hello has been assigned to 'prop' in Example@1be83a0e."
+println(example.prop) // prints "Example@1be83a0e, thank you for delegating 'prop' to me!"
+```
+
+In this example, the `prop` property is a `delegated` property. When you set the value of `prop`, it calls the `setValue` function of the `Delegate` class, which prints a message. When you get the value of prop, it calls the `getValue` function of the `Delegate` class, which returns a string.
 
 `Delegated` properties are a powerful and flexible feature of Kotlin that can be used to implement various design patterns, such as the observer pattern or the proxy pattern. They can also be used to simplify code by abstracting away common property-related tasks, such as lazy initialization or thread-safe access.
