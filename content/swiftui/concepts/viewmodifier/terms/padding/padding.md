@@ -1,6 +1,6 @@
 ---
 Title: '.padding()'
-Description: 'Applies the specified padding to the view.'
+Description: 'Applies padding to the view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -13,20 +13,22 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.padding()`** modifier applies the specified padding to the view.
+The **`.padding()`** modifier method applies padding to the view.
 
 ## Syntax
 
-The `.padding()` modifier can take one or two parameters:
-
-- a set of edges to add padding. For example `.top` will apply padding only to the top of the view. By default, the padding will be applied on all edges of the view.
-
-- a number to specify the amount of padding in `points`. If no number is given, the default padding will be applied.
-
 ```psuedo
 Text("This text has padding around it.")
-    .padding(edges, number)
+    .padding(edge, number)
 ```
+
+The `.padding()` modifier method can take one or two parameters:
+
+- `edge` to specify the edge on which the padding should be applied. This can be one or multiple edges. For example `.top` will add padding only to the top edge of the view, while `[.bottom, trailing]` will add padding on the left and right side of the view. If no edge is specified, the padding will be applied on all edges of the view.
+
+- `number` to specify the amount of padding in `points`. If no `number` is given, the default padding will be applied to the view.
+
+> **Note:** The `.padding()` modifier method can be used without any parameters specified, with one parameter or with two parameters.
 
 ## Example
 
@@ -34,12 +36,12 @@ Text("This text has padding around it.")
 var body: some View {
     Text("I have no padding.")
     Text("I have no padding.")
-    Text("I have padding.")
-        .padding(20)
+    Text("I have top and bottom padding.")
+        .padding(.horizontal, 40)
     Text("I have no padding.")
 }
 ```
 
 This will display:
 
-![SwiftUI ViewModifier Italic](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-italic.png)
+![SwiftUI ViewModifier Padding](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-padding.png)
