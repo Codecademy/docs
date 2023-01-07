@@ -17,7 +17,7 @@ A **variable** is a storage location for a value that can be either mutable or r
 
 A variable in Kotlin is declared using the `var` keyword for a mutable variable or the `val` keyword for a read-only variable. Here's an example of how to declare variables in Kotlin:
 
-```pseudo
+```kotlin
 fun main() {
     // Declare a mutable variable
     var x: Int = 5
