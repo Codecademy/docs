@@ -63,10 +63,6 @@ class Delegate {
         println("$value has been assigned to '${property.name}' in $thisRef.")
     }
 }
-val example = Example()
-example.prop = "Hello" // prints "Hello has been assigned to 'prop' in Example@1be83a0e."
-println(example.prop) // prints "Example@1be83a0e, thank you for delegating 'prop' to me!"
-
 ```
 
 In this example, the `prop` property of the `Example` class is delegated to an instance of the `Delegate` class. The `getValue` and `setValue` functions of the `Delegate` class define how the property is accessed and modified.
