@@ -25,6 +25,7 @@ The [data type](https://www.codecademy.com/resources/docs/cpp/data-types) of the
 The `remquo()` function calculates the floating-point remainder `f` of `numerator / denominator` such that `numerator = n * denominator + f*`, where n is an integer, `f` has the same sign as `numerator`, and the absolute value of `f` is less than the absolute value of `denominator`.
 
 ## Example
+The following example uses the `remquo()` function to calculate the remainders and quotients of multiple values:
 
 ```cpp
 #include <iostream>
