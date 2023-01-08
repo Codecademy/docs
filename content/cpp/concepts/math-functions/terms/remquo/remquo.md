@@ -79,7 +79,7 @@ using namespace std;
 
 int main() {
     int q;
-    double x = 12.5
+    double x = 12.5;
     int y = 10;
 
     result = remquo(x, y, &q);
