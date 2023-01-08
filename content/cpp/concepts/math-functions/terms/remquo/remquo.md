@@ -12,7 +12,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-The **`remquo()`** function returns the remainder of two integer values, and stores an integer value with the sign and approximate magnitude of the quotient in a parameter..
+The **`remquo()`** function returns the remainder of two integer values, and stores an integer value with the sign and approximate magnitude of the quotient in a parameter.
 
 ## Syntax
 
