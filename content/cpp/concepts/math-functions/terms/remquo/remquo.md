@@ -83,7 +83,7 @@ int main() {
     double x = 12.5;
     int y = 10;
 
-    result = remquo(x, y, &q);
+    double result = remquo(x, y, &q);
     cout << "Remainder of " << x << "/" << y << " = " << result << endl;
     cout << "Quotient of " << x << "/" << y << " = " << q << endl;
 
