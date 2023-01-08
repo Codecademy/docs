@@ -6,15 +6,14 @@ Subjects:
   - 'Web Development'
 Tags:
   - 'Wordpress'
-  - 'CMS'
-  
+  - 'CMS'  
 CatalogContent:
  - 'learn-html'
  - 'learn-css'
  - 'paths/front-end-engineer-career-path'
 ---
 
-​A **Content Management System (CMS)** is a software application that allows users to create, edit, and manage digital content such as text, images, videos, and other multimedia files. A CMS typically provides a user-friendly interface that allows users to easily add, delete, and modify content without the need for technical knowledge or coding skills. The primary purpose of a CMS is to make it easier for organizations to manage and maintain their online presence by providing a central platform for organizing and publishing content.
+A **Content Management System (CMS)** is a software application that allows users to create, edit, and manage digital content such as text, images, videos, and other multimedia files. A CMS typically provides a user-friendly interface that allows users to easily add, delete, and modify content without the need for technical knowledge or coding skills. The primary purpose of a CMS is to make it easier for organizations to manage and maintain their online presence by providing a central platform for organizing and publishing content.
 
 ## CMS Features
 
