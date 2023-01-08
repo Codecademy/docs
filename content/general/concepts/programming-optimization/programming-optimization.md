@@ -82,7 +82,7 @@ The architecture design of a system plays a major role, its optimization can ove
 
 Ultimately the choice of design depends on the goals of the project: If speed of the output is a key priority in the compilation when designing the compiler, taking into account the same level of work, a one-pass compiler is faster than a multi-pass compiler and although a multi-pass is slower, it may fulfill the overall objective just fine. The platform and programming source code language to be used will also be decided at this level.
 
-Changing any of these will most definitely require extensive rewrites, which is always a practice to avoid, regardless if a modular system may allow rewrites of some components (e.g. a [Python](https://www.codecademy.com/resources/docs/python) program may rewrite performance-critical sections in [C](https://www.codecademy.com/resources/docs/c). In a distributed system, choice of design (e.g. client-server, peer-to-peer, etc.) occurs at this level and may be extremely challenging to modify later on, particularly if all components cannot be replaced in sync (e.g. old clients).
+Changing any of these will most definitely require extensive rewrites, which is always a practice to avoid, regardless if a modular system may allow rewrites of some components (e.g. a [Python](https://www.codecademy.com/resources/docs/python) program may rewrite performance-critical sections in [C](https://www.codecademy.com/resources/docs/c)). In a distributed system, choice of design (e.g. client-server, peer-to-peer, etc.) occurs at this level and may be extremely challenging to modify later on, particularly if all components cannot be replaced in sync (e.g. old clients).
 
 ### Algorithms and Database Structures
 
