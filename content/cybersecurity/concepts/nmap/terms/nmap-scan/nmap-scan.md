@@ -1,5 +1,5 @@
 ---
-Title: 'Nmap scan'
+Title: 'Nmap Scan'
 Description: 'The most basic type of scan is done with the command-line interface (CLI) command Nmap with just a target specified.'
 Subjects:
   - 'Computer Science'
