@@ -70,7 +70,7 @@ Quotient of -12.5/0 = 0
 
 ## Codebyte Example
 
-The following example is runnable and produces the remainder of 2.5 and a quotient of 1:
+The following example is runnable and uses the `remquo()` function to return the remainder and quotient of `12.5 / 10`:
 
 ```codebyte/cpp
 #include <iostream>
