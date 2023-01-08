@@ -76,7 +76,7 @@ console.log([1, , 3].copyWithin(2, 1, 2));
 
 ## Codebyte Example
 
-Useing the `copyWithin()` method to copy the element at index 1 (the second element, or 'b') to the index 3 (the fourth element).
+Using the `copyWithin()` method to copy the element at index 1 (the second element, or 'b') to the index 3 (the fourth element).
 
 ```codebyte/js
 let letters = ['a', 'b', 'c', 'd', 'e'];
