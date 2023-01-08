@@ -49,5 +49,5 @@ public class Main {
 The output for the above code is:
 
 ```
-Size of list: 3"
+Size of list: 3
 ```
