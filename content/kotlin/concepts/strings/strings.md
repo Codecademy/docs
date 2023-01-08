@@ -22,13 +22,6 @@ val stringName: String = "string value"
 
 ## Example
 
-You can also use `string` templates to include dynamic values in your strings. To do this, you enclose the dynamic value in curly braces and precede it with a dollar sign, like this:
-
-```kotlin
-val dynamicValue = 4
-val stringName: String = "The value of dynamicValue is $dynamicValue"
-```
-
 Here is an example of how you might use strings in Kotlin:
 
 ```kotlin
@@ -42,4 +35,28 @@ The output for the above code will be:
 
 ```
 Hello, World!
+```
+
+## String Templates
+
+We can also use `string` templates to include dynamic values in your strings. To do this, you enclose the dynamic value in curly braces and precede it with a dollar sign, like this:
+
+```kotlin
+val dynamicValue = 4
+val stringName: String = "The value of dynamicValue is $dynamicValue"
+```
+
+Below we will see an example with use of curly braces `{}`:
+
+```java
+val a = 4
+val b = 5
+val stringName: String = "The sum of a and b is ${a + b}"
+System.out.println(stringName)
+```
+
+The output for the above code will be:
+
+```
+The sum of a and b is 9
 ```
