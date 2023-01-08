@@ -1,1 +1,1 @@
-content/general/concepts/boolean/boolean.md
+content/uiux/concepts/design/design.md
