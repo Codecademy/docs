@@ -12,11 +12,10 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The `.copyWithin()` copies part of an array to another location in the same array and returns it without modifying its length.
+The `.copyWithin()` copies part of an array to another location in the same array and returns it without modifying its length. The `.copyWithin()` method is a mutating method. It does not alter the length of the array, but it will change the content of the array and create new properties or delete existing properties, if necessary.
+
 
 ## Syntax
-
-The `.copyWithin()` method is a mutating method. It does not alter the length of the array, but it will change the content of the array and create new properties or delete existing properties, if necessary.
 
 ```pseudo
 array1.copyWithin(target);
@@ -43,7 +42,7 @@ array1.copyWithin(target, start, end);
   - If `end >= array.length` or `end` is omitted, `array.length` is used, causing all elements until the end to be copied.
   - If `end` is positioned before or at `start` after normalization, nothing is copied.
 
-## Return value
+### Return value
 
 The modified array.
 
