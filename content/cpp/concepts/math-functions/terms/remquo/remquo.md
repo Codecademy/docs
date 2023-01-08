@@ -85,6 +85,7 @@ int main() {
 
     result = remquo(x, y, &q);
     cout << "Remainder of " << x << "/" << y << " = " << result << endl;
+    cout << "Quotient of " << x << "/" << y << " = " << q << endl;
 
     return 0;
 }
