@@ -54,7 +54,6 @@ None of it is going to run!
 ### XML Comments
 
 [XML](https://www.codecademy.com/resources/docs/general/xml) comments are structured comments that produce [API](https://www.codecademy.com/resources/docs/general/api) documentation. The C# compiler produces an XML file that contains structured data representing the comments. Other tools can process that XML output to create human-readable documentation in the form of web pages or PDF files, for example.
-API docs, or API description documents, are the collection of references, tutorials, and examples that help developers use your API.
 
 #### Syntax
 
