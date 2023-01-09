@@ -26,12 +26,13 @@ A **`<datalist>`** is a HTML element that displays pre-defined values to a user 
 A <datalist> is linked to a an <input> element by matching the list attribute of the <input> element with the id attribute of the <datalist> like the following:
 
 ```pseudo
-Add a input element and add a list element with a value
+<input list="input_list" >
 
-Add a datalist element. Make the id attribute eqeal to the value of the list attribute of the input element.
-
-In between the datalist tags, add option elements of your choice. Value atrribute determines what will be autosuggested. 
-
+<datalist id="input_list">
+  <option value="option1" >
+  <option value="option2" >
+  <option value="option3" >
+</datalist>
 ```
 
 ##Example
@@ -56,6 +57,3 @@ The following example demonstrates a datalist that autosuggests different high s
   </body>
 </html>
 ```
-
-
-
