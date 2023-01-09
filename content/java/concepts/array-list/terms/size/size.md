@@ -16,7 +16,7 @@ The **`.size()`** method of the `ArrayList` class returns the number of elements
 
 ## Syntax
 
-Here we will declare a variable `size` of type [`int`](https://www.codecademy.com/resources/docs/java/data-types)  and initializing it with the size of a `list`. Here the `List` interface is an ordered collection of elements and is implemented by various classes such as `ArrayList`, `LinkedList`, and `Vector`:
+Here, a variable `size` of type [`int`](https://www.codecademy.com/resources/docs/java/data-types) is initialized with the size of a `list`. The `List` [interface](https://www.codecademy.com/resources/docs/java/interfaces) is an ordered collection of elements and is implemented by various classes such as `ArrayList`, `LinkedList`, and `Vector`:
 
 ```pseudo
 int size = list.size()
