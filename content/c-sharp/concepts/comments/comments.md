@@ -25,21 +25,6 @@ For single-line comments, the compiler ignores any text after two consecutive fo
 executing code // Comment goes here
 ```
 
-#### Example
-
-The following example uses a single-line comment before a line of code:
-
-```cs
-// This line will denote a comment in C-sharp
-Console.WriteLine("Hello World!");
-```
-
-The following example uses a single-line comment after a line of code:
-
-```cs
-Console.WriteLine("Hello World!"); // This is a comment
-```
-
 ### Multi-line Comments
 
 Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
@@ -48,6 +33,19 @@ Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any 
 /*
 This is all commented out.
 None of it is going to run!
+*/
+```
+
+### Example
+
+The following examples show various comment styles:
+
+```cs
+// This line will denote a comment in C-sharp.
+Console.WriteLine("Hello World!"); // This is a comment.
+/*
+This is a multi-line
+comment.
 */
 ```
 
