@@ -42,7 +42,7 @@ Console.WriteLine("Hello World!"); // This is a comment
 
 ### Multi-line Comments
 
-Multi-line comments are created using `/* to begin the comment, and */` to end the comment. The compiler ignores any text in between.
+Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
 
 ```cs 
 /*
