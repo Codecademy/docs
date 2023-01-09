@@ -57,7 +57,7 @@ None of it is going to run!
 
 #### Syntax
 
-The following is a single line XML comment:
+The following is a single line XML comment, which uses three forward slashes (`///`):
 
 ```cs
 \\\ XML Comment goes here
