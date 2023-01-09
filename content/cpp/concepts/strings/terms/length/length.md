@@ -31,8 +31,7 @@ In the example below, `.length()` is called on the `snack` string:
 #include <iostream>
 #include <string>
 
-int main()
-{
+int main() {
   std::string snack = "applesauce";
   std::cout << snack.length();
 }

@@ -32,8 +32,7 @@ Both `unique_ptr` and `shared_ptr` have a corresponding function to create their
 ## Unique Pointers
 
 ```cpp
-int main()
-{
+int main() {
   auto ptr = std::make_unique<int>(10);
 } // The ptr reaches end of scope, no memory leaks
 ```
@@ -41,8 +40,7 @@ int main()
 ## Shared Pointers
 
 ```cpp
-int main()
-{
+int main() {
   auto ptr = std::make_shared<int>(10);
 
   std::cout << ptr.use_count() << "\n"; // Prints the reference count (1)
@@ -58,20 +56,20 @@ int main()
 ## Exception Safety
 
 ```cpp
-void unsafe_pointer()
-{
+void unsafe_pointer() {
   int* ptr = new int(10);
-  if (*ptr == 10)
-  {
+
+  if (*ptr == 10) {
     throw;
   }
+
   delete ptr; // The ptr not freed because the function throws beforehand
 }
 
 void safe_pointer() {
   auto ptr = std::make_unique<int>(10);
-  if (*ptr == 10)
-  {
+
+  if (*ptr == 10) {
     throw;
   }
 } // The ptr freed because destructors are called automatically when leaving scope
