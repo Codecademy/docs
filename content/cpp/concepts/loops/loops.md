@@ -45,7 +45,7 @@ for (int i = 0; i < 10; i++) {
 
 // This would also run the same as above.
 int i = 0;
-for( ; i < 10; ) {
+for ( ; i < 10; ) {
   std::cout << i << "\n";
   i++;
 }
