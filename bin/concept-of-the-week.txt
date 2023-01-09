@@ -1,1 +1,1 @@
-content/java/concepts/threading/threading.md
+content/uiux/concepts/design/design.md

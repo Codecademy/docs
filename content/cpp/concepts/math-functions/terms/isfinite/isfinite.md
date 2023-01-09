@@ -33,18 +33,15 @@ The following example uses the `isfinite()` function to check whether `5.0` is f
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   int result;
 
   result = std::isfinite(5.0);
 
-  if (result == 0)
-  {
+  if (result == 0) {
     std::cout << "Not finite" << "\n";
   }
-  else
-  {
+  else {
     std::cout << "Is finite" << "\n";
   }
   // Output: Is finite
@@ -59,18 +56,15 @@ The following example is runnable and features a case where running the `isfinit
 #include <iostream>
 #include <cmath>
 
-int main()
-{
+int main() {
   int result;
 
   result = std::isfinite(1.0/0.0);
 
-  if (result == 0)
-  {
+  if (result == 0) {
     std::cout << "Not finite" << "\n";
   }
-  else
-  {
+  else {
     std::cout << "Is finite" << "\n";
   }
 }
