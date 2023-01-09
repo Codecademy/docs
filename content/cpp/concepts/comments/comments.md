@@ -43,8 +43,7 @@ Written by Sonny */
 
 #include <iostream>
 
-int main()
-{
+int main() {
   // Calculate the tip
   double total = 18.75;
   double tip = total * 0.2;
