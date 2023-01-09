@@ -21,6 +21,7 @@ A pseudo-class is a keyword added to [selectors](https://www.codecademy.com/reso
 So, what makes a pseudo-class different from a regular class? In general, classes are used to target specific elements on the page, while pseudo-classes are used to target elements based on their state or position.
 
 ## Syntax
+
 A pseudo-class starts with a colon (:) followed by the keyword.
 ```pseudo
 selector:pseudo-class {  
