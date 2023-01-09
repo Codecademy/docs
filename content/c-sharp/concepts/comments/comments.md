@@ -60,7 +60,7 @@ None of it is going to run!
 The following is a single line XML comment, which uses three forward slashes (`///`):
 
 ```cs
-\\\ XML Comment goes here
+/// XML Comment goes here
 ```
 
 Multi-line XML comments are similar to regular multi-line comments, except that an extra asterisk `*` is used in the opening:
