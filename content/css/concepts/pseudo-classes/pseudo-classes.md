@@ -56,7 +56,7 @@ a:hover {
     text-decoration: underline;  }
 ```
 
-In the example above, when a user hovers over a link, it will change from purple to yellow and from dotted underline to regular underline. This is accomplished by using the `:hover` pseudo-class. 
+In the example above, when a user hovers over a link, it will change from purple with a dotted underline to yellow with a regular underline. This is accomplished by using the `:hover` pseudo-class. 
 
 Another example would be to style all disabled buttons on the page by using the `:disabled` pseudo-class. 
 
