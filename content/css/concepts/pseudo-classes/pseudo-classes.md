@@ -23,6 +23,7 @@ So, what makes a pseudo-class different from a regular class? In general, classe
 ## Syntax
 
 A pseudo-class starts with a colon (:) followed by the keyword.
+
 ```pseudo
 selector:pseudo-class {  
   /* your style here */  
