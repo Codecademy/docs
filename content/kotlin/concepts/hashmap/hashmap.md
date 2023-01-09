@@ -79,7 +79,7 @@ map.forEach { key, value ->
 }
 ```
 
-## Adding a item
+## Adding an item
 
 To add a key-value pair to a `HashMap` in Kotlin, you can use the `put()` function. For example:
 
@@ -115,4 +115,31 @@ val map2 = HashMap<String, Int>().apply {
 }
 
 map1.putAll(map2)  // adds "cherry" -> 3 and "date" -> 4 to map1
+```
+
+## Removing an item
+
+To remove a key-value pair from a `HashMap` in Kotlin, you can use the `remove()` function. For example:
+
+```kotlin
+val map = HashMap<String, Int>().apply {
+    put("apple", 1)
+    put("banana", 2)
+    put("cherry", 3)
+}
+
+map.remove("banana")  // removes "banana" -> 2 from the map
+```
+
+You can also use the `remove()` function to remove a key-value pair from the `HashMap` only if the value matches a certain condition. For example:
+
+```kotlin
+val map = HashMap<String, Int>().apply {
+    put("apple", 1)
+    put("banana", 2)
+    put("cherry", 3)
+}
+
+map.remove("cherry") { it == 3 }  // removes "cherry" -> 3 from the map
+map.remove("apple") { it == 3 }  // does not remove anything, the value for "apple" is not 3
 ```
