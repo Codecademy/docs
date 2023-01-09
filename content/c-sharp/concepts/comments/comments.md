@@ -54,7 +54,7 @@ comment.
 
 #### Syntax
 
-The following is a single line XML comment, which uses three forward slashes (`///`):
+The following is a single-line XML comment, which uses three forward slashes (`///`):
 
 ```cs
 /// XML Comment goes here
@@ -70,7 +70,7 @@ XML Comments go here
 
 #### Example
 
-XML tags embedded in XML comments are used to signal a specific functionality of the XML comment to the compiler. The `<summary>` tag in the following example describes a type or a member, in this case the public class `MyClass`:
+XML tags embedded in XML comments are used to signal a specific functionality of the XML comment to the compiler. The `<summary>` tag in the following example describes a type or a member, in this case, the public class `MyClass`:
 
 ```cs
 /// <summary>
