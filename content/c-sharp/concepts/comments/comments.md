@@ -1,10 +1,10 @@
 ---
 Title: 'Comments'
 Description: 'A comment is a piece of text within a program that is not executed.'
-Subjects: 
+Subjects:
   - 'Computer Science'
-  - 'Code Foundations'  
-Tags: 
+  - 'Code Foundations'
+Tags:
   - 'Syntax'
   - 'Comments'
   - 'Documentation'
@@ -28,7 +28,7 @@ executing code // Comment goes here
 
 Multi-line comments begin with `/*` and end with `*/`. The compiler ignores any text in between.
 
-```cs 
+```cs
 /*
 This is all commented out.
 None of it is going to run!
@@ -72,7 +72,7 @@ XML Comments go here
 
 XML tags embedded in XML comments are used to signal a specific functionality of the XML comment to the compiler. The `<summary>` tag in the following example describes a type or a member, in this case the public class `MyClass`:
 
-```cs 
+```cs
 /// <summary>
 ///  This class performs an important function.
 /// </summary>
