@@ -34,7 +34,7 @@ Some of the most commonly used pseudo-classes are:
 
 | Pseudo-class | Description |
 | -------- | ------- |
-|:hover | This is used when a user hovers an element with the mouse pointer.|
+|:hover | This is used when a user hovers over an element with the mouse pointer.|
 |:active | This is used to style an element when it is clicked.|
 |:focus | This is used to highlight elements when they are selected or focused on by the user.|
 |:visited | This is used to style elements that have been previously visited.|
