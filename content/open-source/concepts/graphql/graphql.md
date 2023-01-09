@@ -2,20 +2,20 @@
 Title: 'GraphQL'
 Description: 'GraphQL is an open-source query language that allows developers to consume, construct, and create APIs in their own unique way.'
 Subjects:
-- 'Computer Science'
-- 'Web Development'
-  Tags:
-- 'APIs'
-- 'Open Source'
-- 'Queries'
-- 'Servers'
-  CatalogContent:
-- 'paths/computer-science'
-- 'paths/back-end-engineer-career-path'
-- 'paths/front-end-engineer-career-path'
+  - 'Computer Science'
+  - 'Web Development'
+Tags:
+  - 'APIs'
+  - 'Open Source'
+  - 'Queries'
+  - 'Servers'
+CatalogContent:
+  - 'paths/computer-science'
+  - 'paths/back-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
-[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create [APIs](https://www.codecademy.com/resources/docs/general/api) in their own unique way. It allows us to perform actions with API's via a query language, similar to using SQL when performing CRUD operations on a database. A GraphQL service is created by defining types, with different fields available on those types, and then providing functions for each of those fields on how to resolve them. GraphQL has multiple implementations (Javascript/Typescript, Java, C#, Go, Python, Ruby and more).
+[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create [APIs](https://www.codecademy.com/resources/docs/general/api) in their own unique way. It allows us to perform actions with API's via a query language, similar to using SQL when performing CRUD (Create, Read, Update, and Delete) operations on a database. A GraphQL service is created by defining types, with different fields available on those types, and then providing functions for each of those fields on how to resolve them. GraphQL supports multiple languages including JavaScript, TypeScript, Java, C#, Go, Python, and Ruby.
 
 ## History of GraphQL
 
