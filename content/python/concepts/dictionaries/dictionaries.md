@@ -138,8 +138,7 @@ If a key needs to be updated in an existing dictionary, it uses the same syntax 
 ```py
 person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
 
-#Looks like it's Mark's Brithday! We should update our dictionary to reflect his new age
-
+# Looks like it's Mark's Birthday! Let's update our dictionary to reflect his new age:
 person_age['Mark'] = 56
 ```
 
