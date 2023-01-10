@@ -56,5 +56,6 @@ System.out.println(stringTwo)
 This will print the following output:
 
 ```shell
+The value of dynamicValue is 4
 The sum of a and b is 9
 ```
