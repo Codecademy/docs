@@ -131,7 +131,7 @@ val map = HashMap<String, Int>().apply {
 map.remove("banana")  // removes "banana" -> 2 from the map
 ```
 
-You can also use the `remove()` function to remove a key-value pair from the `HashMap` only if the value matches a certain condition. For example:
+The `remove()` function can be used to remove a key-value pair from the `HashMap` only if the value matches a certain condition. For example:
 
 ```kotlin
 val map = HashMap<String, Int>().apply {
