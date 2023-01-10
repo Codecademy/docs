@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/data-science'
 ---
 
-The `.startswith()` method checks a value against a given string and returns `True` if the string starts with that value. Otherwise, it returns `False`.
+The **`.startswith()`** method checks a value against a given string and returns `True` if the string starts with that value. Otherwise, it returns `False`.
 
 ## Syntax
 
