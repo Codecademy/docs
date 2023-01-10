@@ -20,6 +20,7 @@ CatalogContent:
 val stringName: String = "string value"
 ```
 
+In Kotlin, string values are always defined as instances of the `String` class.
 ## Example
 
 Here is an example of how you might use strings in Kotlin:
