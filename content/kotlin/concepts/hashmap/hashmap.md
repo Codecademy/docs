@@ -101,7 +101,7 @@ map["banana"] = 2
 map["cherry"] = 3
 ```
 
-Finally, you can use the `putAll()` function to add all the key-value pairs from another Map to the `HashMap`:
+The `putAll()` function can be used to add all the key-value pairs from another map to the `HashMap`:
 
 ```kotlin
 val map1 = HashMap<String, Int>().apply {
