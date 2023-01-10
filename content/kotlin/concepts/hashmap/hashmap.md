@@ -43,7 +43,7 @@ val map = mapOf<KeyType, ValueType>()
 
 ## Accessing Item
 
-To access the elements of a `HashMap`, you can use the `get()` function to retrieve the value for a given key. For example:
+To access the elements of a `HashMap`, the `get()` function is used to retrieve the value for a given key. For example:
 
 ```kotlin
 val map = HashMap<String, Int>().apply {
