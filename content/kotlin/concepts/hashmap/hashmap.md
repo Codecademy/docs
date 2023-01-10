@@ -71,7 +71,7 @@ if (map.containsKey("apple")) {
 }
 ```
 
-Finally, you can use the `forEach()` function to iterate over the key-value pairs in the HashMap:
+The `forEach()` function is used to iterate over the key-value pairs in the HashMap:
 
 ```kotlin
 map.forEach { key, value ->
