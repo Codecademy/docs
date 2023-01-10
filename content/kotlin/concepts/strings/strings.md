@@ -53,15 +53,6 @@ val stringTwo: String = "The sum of a and b is ${a + b}"
 System.out.println(stringTwo)
 ```
 
-Below we will see an example with use of curly braces `{}`:
-
-```java
-val a = 4
-val b = 5
-val stringName: String = "The sum of a and b is ${a + b}"
-System.out.println(stringName)
-```
-
 The output for the above code will be:
 
 ```
