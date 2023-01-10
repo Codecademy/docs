@@ -131,9 +131,9 @@ nums_squared = { num: num**2 for num in nums_list }
 
 The following built-in methods listed below help with manipulating dictionaries and the objects within:
 
-## Replacing an Entry in a current Dictionary
+## Replacing an Entry in an Existing Dictionary
 
-If a key needs to be updated in an existing Dictionary, use the same syntax for adding an entry into your dictionary  ('dictionary[new_key]=new_value'), but instead replace the 'new_key' arguement for an already 'existing_key' in your desired dictionary, 'dictionary[existing_key] = new_value'
+If a key needs to be updated in an existing dictionary, it uses the same syntax for adding an entry into a dictionary (`dictionary[new_key] = new_value`), but instead, the `new_key` argument is replaced with an already existing key in the desired dictionary (`dictionary[existing_key] = new_value`).
 
 ```py
 person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Ally": 23 }
@@ -142,5 +142,6 @@ person_age = { "Mark": 55, "Shiela": 28, "Bryce": 24, "Jim": 41, "Eric": 33, "Al
 
 person_age['Mark'] = 56
 ```
-now when you call the value the "Mark" Key from the person_age dictionary it should produce the result: 56
+
+Now, when the `"Mark"` key is accessed from the `person_age` dictionary, it will produce the value 56.
 
