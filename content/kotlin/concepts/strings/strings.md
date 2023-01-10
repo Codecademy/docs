@@ -44,7 +44,13 @@ We can also use `string` templates to include dynamic values in your strings. To
 
 ```kotlin
 val dynamicValue = 4
-val stringName: String = "The value of dynamicValue is $dynamicValue"
+val stringOne: String = "The value of dynamicValue is $dynamicValue"
+System.out.println(stringOne)
+
+val a = 4
+val b = 5
+val stringTwo: String = "The sum of a and b is ${a + b}"
+System.out.println(stringTwo)
 ```
 
 Below we will see an example with use of curly braces `{}`:
