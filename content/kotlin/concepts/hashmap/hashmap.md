@@ -81,7 +81,7 @@ map.forEach { key, value ->
 
 ## Adding an item
 
-To add a key-value pair to a `HashMap` in Kotlin, you can use the `put()` function. For example:
+To add a key-value pair to a `HashMap` in Kotlin, the `put()` function is used. For example:
 
 ```kotlin
 val map = HashMap<String, Int>()
