@@ -17,12 +17,10 @@ The **`<textarea>`** element defines a box for multi-line plain-text input.
 
 ## Syntax
 
-```
-
+```pseudo
 <textarea>
   <!-- content here -->
 </textarea>
-
 ```
 
 Shown above is the syntax for plain `<textarea>`. All attributes for this field are optional.
@@ -31,21 +29,20 @@ Shown above is the syntax for plain `<textarea>`. All attributes for this field 
 
 Commonly used attributes are shown in the table below.
 
-    | Attribute     | Data Type     | Description  |
-    | ------------- |-------------  | -----|
-    | `id`          | String        |   Links to `<label>` element |
-    | `name`        | String        |   Name of the table |
-    | `rows`        | Integer       |   Define the initial rows number|
-    | `cols`        | Integer       |   Define the initial columns number |
+    | Attribute     | Data Type     | Description                           |
+    | ------------- | ------------- | ------------------------------------- |
+    | `id`          | String        |   Links to `<label>` element.         |
+    | `name`        | String        |   Name of the table.                  |
+    | `rows`        | Integer       |   Define the initial rows number.     |
+    | `cols`        | Integer       |   Define the initial columns number.  |
 
 When not given, the default value is 20 for `cols` and 2 for `rows`.
 
 ## Example
 
-Following example demonstrates `<textarea>` with several attributes defined and associated `<label>` element. It can be used for comment section.
+Following example demonstrates `<textarea>` with several attributes defined and an associated `<label>` element:
 
 ```html
-
 <html>
   <head> </head>
   <body>
@@ -56,5 +53,4 @@ Following example demonstrates `<textarea>` with several attributes defined and 
     </textarea>
   </body>
 </html>
-
 ```
