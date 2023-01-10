@@ -63,7 +63,7 @@ The output for the above code will be:
 
 If the `HashMap` contains the specified key, the index operator returns the value for that key. If the key is not found, it returns `null`.
 
-You can also use the `containsKey()` function to check if a HashMap contains a given key:
+The `containsKey()` function is used to check if a HashMap contains a given key:
 
 ```kotlin
 if (map.containsKey("apple")) {
