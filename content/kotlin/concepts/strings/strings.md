@@ -40,7 +40,7 @@ Hello, World!
 
 ## String Templates
 
-We can also use `string` templates to include dynamic values in your strings. To do this, you enclose the dynamic value in curly braces and precede it with a dollar sign, like this:
+Templates can also be used to dynamically produce string values. Dynamic values don't have to start as strings, and can either be directly referenced with a dollar sign (`$`) or evaluated as a string with additional curly braces (`{}`). The following showcases both techniques:
 
 ```kotlin
 val dynamicValue = 4
