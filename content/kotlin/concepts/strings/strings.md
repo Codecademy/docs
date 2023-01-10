@@ -55,6 +55,6 @@ System.out.println(stringTwo)
 
 This will print the following output:
 
-```
+```shell
 The sum of a and b is 9
 ```
