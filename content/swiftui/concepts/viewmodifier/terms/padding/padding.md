@@ -28,7 +28,7 @@ The `.padding()` modifier method has the following attributes:
 
 - `number` to specify the amount of padding in points. For example, `20` will apply 20 points of padding to the view. The default padding will be applied equally to the edges of the view if no `number` is given.
 
-> **Note:** The `.padding()` modifier method can be used without any specified attributes, with one or with two attributes specified.
+> **Note:** The `.padding()` modifier method can be used without any specified attributes, or with one or with two attributes specified.
 
 ## Example
 
