@@ -53,7 +53,7 @@ val stringTwo: String = "The sum of a and b is ${a + b}"
 System.out.println(stringTwo)
 ```
 
-The output for the above code will be:
+This will print the following output:
 
 ```
 The sum of a and b is 9
