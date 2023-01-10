@@ -34,7 +34,7 @@ fun main(args: Array<String>) {
 
 The output for the above code will be:
 
-```
+```shell
 Hello, World!
 ```
 
