@@ -143,4 +143,3 @@ person_age['Mark'] = 56
 ```
 
 Now, when the `"Mark"` key is accessed from the `person_age` dictionary, it will produce the value 56.
-
