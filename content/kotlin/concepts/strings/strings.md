@@ -1,6 +1,6 @@
 ---
 Title: 'Strings'
-Description: 'A string in Kotlin is an object that holds a sequence of characters contained within a pair of double quotes (").'
+Description: 'Strings are immutable objects that are sequences of characters contained within a pair of double quotes.'
 Subjects:
   - 'Computer Science'
 Tags:
