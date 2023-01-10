@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, a `string` is an immutable object that represents a sequence of characters.
+**Strings** are immutable objects that represents a sequence of characters contained within double quotes (`""`).
 
 ## Syntax
 
