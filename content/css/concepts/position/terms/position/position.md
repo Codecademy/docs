@@ -29,7 +29,6 @@ where `<value>` can be one of the following:
 - `fixed`: The element is removed from the document flow just like the absolute positioned elements. However, unlike the absolute positioned elements, which are relative to an ancestor element, the fixed elements are always relative to the document.
 - `sticky`: This value is a mix between the relative and fixed positions. The element is treated as relative until a specific point or threshold is met, at which point the element is then treated as fixed.
 
-
 ## Example 1
 
 The following example features three `.box` elements with different `position` values:
