@@ -35,7 +35,7 @@ The `mutableMapOf()` function is used to create a mutable HashMap:
 val map = mutableMapOf<KeyType, ValueType>()
 ```
 
-And you can use the `mapOf()` function to create an immutable `HashMap`:
+The `mapOf()` function is used to create an immutable `HashMap`:
 
 ```pseudo
 val map = mapOf<KeyType, ValueType>()
