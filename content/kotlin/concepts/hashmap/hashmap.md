@@ -119,7 +119,7 @@ map1.putAll(map2)  // adds "cherry" -> 3 and "date" -> 4 to map1
 
 ## Removing an item
 
-To remove a key-value pair from a `HashMap` in Kotlin, you can use the `remove()` function. For example:
+To remove a key-value pair from a `HashMap` in Kotlin, the `remove()` function is used. For example:
 
 ```kotlin
 val map = HashMap<String, Int>().apply {
