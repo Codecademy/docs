@@ -27,8 +27,8 @@ Here is an example of how you might use strings in Kotlin:
 
 ```kotlin
 fun main(args: Array<String>) {
-    val greeting: String = "Hello, World!"
-    println(greeting)
+  val greeting: String = "Hello, World!"
+  println(greeting)
 }
 ```
 
