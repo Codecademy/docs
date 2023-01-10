@@ -29,7 +29,7 @@ The types can also be specified when creating an instance of the `HashMap` class
 val map: HashMap<KeyType, ValueType> = HashMap()
 ```
 
-You can also use the `mutableMapOf()` function to create a mutable HashMap:
+The `mutableMapOf()` function is used to create a mutable HashMap:
 
 ```pseudo
 val map = mutableMapOf<KeyType, ValueType>()
