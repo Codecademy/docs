@@ -43,6 +43,15 @@ CREATE TABLE students (
 );
 ```
 
+If you have created a table that doesn't have a primary key, you can alter it to add a one.
+
+The statement below creates a `PRIMARY KEY` constraint on the `ID` column on the `people` table:
+
+```sql
+ALTER TABLE people
+ADD PRIMARY KEY (ID);
+```
+
 ## Foreign Keys
 
 When the primary key for one table appears in a different table, it is called a foreign key.
