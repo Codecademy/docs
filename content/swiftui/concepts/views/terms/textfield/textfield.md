@@ -23,7 +23,7 @@ var body: some View {
 }
 ```
 
-- `_ title:` refers to the text that will be displayed in a lighter color inside the field. 
+- The `"Test field description"` string refers to the text that will be displayed in a lighter color inside the field. 
 - `text:` refers to what the input will be, it's a binding parameter so that Swift will always know if and when this parameter changes.
 
 ## Example
