@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`TextField`** is a view that allows the user to fill in the field with data. 
+**`TextField`** is a view that allows the user to fill in the field with data. 
 
 ## Syntax
 
