@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Strings** are immutable objects that represents a sequence of characters contained within double quotes (`""`).
+**Strings** are immutable objects that represent a sequence of characters contained within double quotes (`""`).
 
 ## Syntax
 
