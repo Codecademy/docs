@@ -21,6 +21,11 @@ val stringName: String = "string value"
 ```
 
 In Kotlin, string values are always defined as instances of the `String` class.
+
+### String Templates
+
+Templates can also be used to dynamically produce string values. Dynamic values don't have to start as strings, and can either be directly referenced with a dollar sign (`$`) or evaluated as a string with additional curly braces (`{}`).
+
 ## Example
 
 Here is an example of how you might use strings in Kotlin:
