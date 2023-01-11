@@ -43,7 +43,7 @@ CREATE TABLE students (
 );
 ```
 
-If you have created a table that doesn't have a primary key, you can alter it to add a one.
+If a table doesn't have a primary key, it can be altered to add one.
 
 The statement below creates a `PRIMARY KEY` constraint on the `ID` column on the `people` table:
 
