@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/analyze-data-with-sql'
 ---
 
-The **`DROP TABLE`** command deletes an existing table in a database.
+The **`DROP TABLE`** command deletes an existing table in a [database](https://www.codecademy.com/resources/docs/general/database).
 
 ## Syntax
 
