@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**Methods** are blocks of code that can be reused elsewhere in a C# application. Each application has at least one `Main` method that acts as the starting point. Methods are used to avoid the repetition of code and make it maintainable and readable. Usually, a method has one or multiple dedicated purposes. 
+**Methods** are blocks of code that can be reused elsewhere in a C# application. Each application has at least one `Main` method that acts as the starting point. Methods are used to avoid the repetition of code and make it maintainable and readable. Usually, a method has one or multiple dedicated purposes.
 
 A function inside a class is called a method. As C# is an object-oriented programming language, all functions are declared inside classes, making them methods. Thus, in C#, methods and functions are synonymous.
 
@@ -38,9 +38,10 @@ public int CalculateWithParameter(int x)
 ```
 
 Methods begin with a signature made of the following parts:
+
 - An access level of `public` or `private` (`private` is the default)
 - Optional modifiers (e.g., `abstract` and `sealed`)
-- The method return value (`string`, `int`, `object`, etc.) or `void` 
+- The method return value (`string`, `int`, `object`, etc.) or `void`
 - The method name (starting with a capital letter; usually a verb)
 - Zero, one, or more (optional) parameters
 
