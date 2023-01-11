@@ -28,7 +28,7 @@ Templates can also be used to dynamically produce string values. Dynamic values 
 
 ## Example
 
-Here is an example of how you might use strings in Kotlin:
+The following example showcases the various ways strings are used in Kotlin:
 
 ```kotlin
 fun main(args: Array<String>) {
