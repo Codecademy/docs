@@ -56,24 +56,3 @@ The value of dynamicValue is 4
 The sum of a and b is 9
 ```
 
-## String Templates
-
-Templates can also be used to dynamically produce string values. Dynamic values don't have to start as strings, and can either be directly referenced with a dollar sign (`$`) or evaluated as a string with additional curly braces (`{}`). The following showcases both techniques:
-
-```kotlin
-val dynamicValue = 4
-val stringOne: String = "The value of dynamicValue is $dynamicValue"
-System.out.println(stringOne)
-
-val a = 4
-val b = 5
-val stringTwo: String = "The sum of a and b is ${a + b}"
-System.out.println(stringTwo)
-```
-
-This will print the following output:
-
-```shell
-The value of dynamicValue is 4
-The sum of a and b is 9
-```
