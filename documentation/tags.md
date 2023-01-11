@@ -59,6 +59,7 @@ Comparison
 Compilation
 Components
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -305,6 +306,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```
