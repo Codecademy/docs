@@ -32,8 +32,19 @@ The following example showcases the various ways strings are used in Kotlin:
 
 ```kotlin
 fun main(args: Array<String>) {
+  // String literals
   val greeting: String = "Hello, World!"
   println(greeting)
+  
+  // String templates
+  val dynamicValue = 4
+  val stringOne: String = "The value of dynamicValue is $dynamicValue"
+  System.out.println(stringOne)
+  
+  val a = dynamicValue
+  val b = 5
+  val stringTwo: String = "The sum of a and b is ${a + b}"
+  System.out.println(stringTwo)
 }
 ```
 
