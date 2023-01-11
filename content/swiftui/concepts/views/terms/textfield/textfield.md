@@ -28,7 +28,7 @@ var body: some View {
 
 ## Example
 
-In the example below, a `VStack` holds a series of `TextFields` and one `SecureField`. This example resembles a 'Sign Up' page.
+In the example below, a `VStack` holds a series of `TextField`s and one `SecureField`, which resembles a sign up page:
 
 ```swift
 @State private var name = ""
