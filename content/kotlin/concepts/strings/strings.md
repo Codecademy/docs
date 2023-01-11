@@ -52,6 +52,8 @@ The output for the above code will be:
 
 ```shell
 Hello, World!
+The value of dynamicValue is 4
+The sum of a and b is 9
 ```
 
 ## String Templates
