@@ -1,6 +1,6 @@
 ---
 Title: 'TextField'
-Description: 'A view that allows the user to insert information, type memos, and edit the content.'
+Description: 'Allows the user to insert contact informations, type memos, and edit the content of a specific field.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -57,7 +57,8 @@ var body: some View {
 ```
 
 - The top 5 variables are marked as private because it is important that the information does not leave the current page.
-- `TextField` not only has different keyboard types but also keyboard styles. If no type or style is specified, Swift will display them as `(.default)`.
+- `TextField` not only has different keyboard types but also keyboard styles. This include different keyboards per style or type (email style, number pad, ascii capable, to name a few. If no type or style is specified, Swift will display them as `(.default)`.
+
 - `SecureField` is a `TextField` that instantly hides the character and is commonly used to set up passwords.
 
 There are two images for this example. The first represents empty text fields and the second represents filled text fields:
