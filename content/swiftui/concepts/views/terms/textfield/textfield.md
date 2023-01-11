@@ -19,7 +19,7 @@ The **`TextField`** is a view that allows the user to fill in the field with dat
 
 ```pseudo
 var body: some View {
-    TextField(_ title: StringProtocol, text: Binding<String>)
+    TextField("Text field description", text: bindingParameter)
 }
 ```
 
