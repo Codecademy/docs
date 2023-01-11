@@ -47,11 +47,13 @@ Like vectors, each element in an array is assigned a specific index starting at 
 char vowels[] = {'a', 'e', 'i', 'o', 'u'};
 //      indexes:  0    1    2    3    4
 
-std::cout << vowels[0]; // Output: a
+std::cout << vowels[0];
+// Output: a
 
 vowels[0] = 'r';
 
-std::cout << vowels[0]; // Output: r
+std::cout << vowels[0];
+// Output: r
 ```
 
 In the case above, an array of `chars` was initialized with all the vowels, and then the first element in the array at index 0 was printed out. Then the element at index `0` was modified by being assigned a new value of `'r'`, which got printed out below.
