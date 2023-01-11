@@ -1,6 +1,6 @@
 ---
 Title: 'position'
-Description: 'Defines the location of an element.'
+Description: 'Defines how elements are placed within the document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -13,11 +13,11 @@ CatalogContent:
   - 'paths/full-stack-engineer-career-path'
 ---
 
-Defines the location of an element.
+The **position** property defines how elements are placed within the document.
 
 ## Syntax
 
-```css
+```pseudo
 position: <value>;
 ```
 
@@ -31,47 +31,41 @@ where `<value>` can be one of the following:
 
 ## Example 1
 
-Set the position of `.box` element to stick in place at `40px` from the top of the document.
+The following example features three `.box` elements with different `position` values:
 
 ```css
-.box {
+.box1 {
   height: 100px;
   width: 100px;
-  background-color: blue;
+  background-color: red;
   position: sticky;
-  top: 40px;
+  top: 30px;
 }
-```
 
-## Example 2
-
-Set the position of `.box` element to a fixed position at `40px` from the top of the document.
-
-```css
-.box {
+.box2 {
   height: 100px;
   width: 100px;
   background-color: blue;
   position: fixed;
-  top: 40px;
+  top: 80px;
 }
-```
 
-## Example 3
-
-Set the position of `.box` element `40px` from the elements top edge.
-
-```css
-.box {
+.box3 {
   height: 100px;
   width: 100px;
-  background-color: blue;
+  background-color: green;
   position: relative;
-  top: 40px;
+  top: 80px;
 }
 ```
 
-## Example 4
+Here's what the above examples look like:
+
+![CSS Position Example](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-position-example.png)
+
+The first box is sticky to the top of the document. The second is set to a fixed position 40px from the top of the page. The third box position is 80px from the element's top edge.
+
+## Example 2
 
 Position the `.box` element `40px` from the bottom of the `.ancestor` element.
 
