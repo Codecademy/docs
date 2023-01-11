@@ -44,18 +44,18 @@ Methods begin with a signature made of the following parts:
 - The method name (starting with a capital letter; usually a verb)
 - Zero, one, or more (optional) parameters
 
-## Example
+## Codebyte Example
 
 In the following example, two methods are separate defined: `Main` and `GetSquare`. When the program is run, the `Main` is executed first which, in turn, executes the `GetSquare` method with an `int` parameter passed to it. The returned value is saved to a [variable](https://www.codecademy.com/resources/docs/c-sharp/variables) and printed to the console:
 
-```cs
+```codebyte/csharp
 using System;
 
 public class Example
 {
   public static void Main(string[] args)
   {
-    var squared = GetSquare(5);
+    var squared = new Example().GetSquare(5);
     Console.WriteLine(squared.ToString()); 
   }
 
