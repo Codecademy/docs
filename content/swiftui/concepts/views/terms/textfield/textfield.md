@@ -61,9 +61,10 @@ var body: some View {
 
 - `SecureField` is a `TextField` that instantly hides the character and is commonly used to set up passwords.
 
-There are two images for this example. The first represents empty text fields and the second represents filled text fields:
-
-This will display the following:
+This will display an empty Textfield:
 
 ![Empty TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield.png)
+
+This will display a filled Textfield:
+
 ![Filled TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield-fill.png)
