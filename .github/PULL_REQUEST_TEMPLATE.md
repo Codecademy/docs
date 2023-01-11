@@ -52,5 +52,5 @@ Having trouble with the PR checker? Here are some common issues and resolutions:
 - test is failing
   - ensure any new markdown files have a `Title` and `Description` defined in their metadata
   - ensure any new markdown files only contain alphanumerics and dashes in their file names and have the same name as their parent directory
-  - if that looks ok, running `yarn test` locally should let you know what the issue is
+  - if that looks ok, running `yarn test` locally should let you know what the issue is!
 -->
