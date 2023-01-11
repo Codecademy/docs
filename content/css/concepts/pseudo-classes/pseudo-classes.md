@@ -17,7 +17,7 @@ CatalogContent:
 
 A pseudo-class is a keyword added to [selectors](https://www.codecademy.com/resources/docs/css/selectors) that specifies a special state of the selected element(s). For example, you can use it to style an element when a user hovers over it, or when a user clicks it. CSS pseudo-classes can also be used to allow styling based on elements that are in a certain state, such as being disabled or having been visited before.
 
-So, what makes a pseudo-class different from a regular class? In general, classes are used to target specific elements on the page, while pseudo-classes are used to target elements based on their state or position.
+In general, what makes a pseudo-class different from a regular class is that classes are used to target specific elements on the page, while pseudo-classes are used to target elements based on their state or position.
 
 ## Syntax
 
@@ -31,19 +31,21 @@ selector:pseudo-class {
 
 Some of the most commonly used pseudo-classes are:
 
-| Pseudo-class | Description                                                                          |
-| ------------ | ------------------------------------------------------------------------------------ |
-| :hover       | This is used when a user hovers over an element with the mouse pointer.              |
-| :active      | This is used to style an element when it is clicked.                                 |
-| :focus       | This is used to highlight elements when they are selected or focused on by the user. |
-| :visited     | This is used to style elements that have been previously visited.                    |
-| :first-child | This is used to style an element that is the first child of its parent element.      |
-| :last-child  | This is used to style an element that is the last child of its parent element.       |
-| :not         | This is used to target elements that do not match a given selector.                  |
-| :enabled     | This is used to style an element when it is enabled.                                 |
-| :disabled    | This is used to style an element when it is disabled.                                |
+| Pseudo-class | Description                                                                  |
+| ------------ | ---------------------------------------------------------------------------- |
+| :hover       | Used when a user hovers over an element with the mouse pointer.              |
+| :active      | Used to style an element when it is clicked.                                 |
+| :focus       | Used to highlight elements when they are selected or focused on by the user. |
+| :visited     | Used to style elements that have been previously visited.                    |
+| :first-child | Used to style an element that is the first child of its parent element.      |
+| :last-child  | Used to style an element that is the last child of its parent element.       |
+| :not         | Used to target elements that do not match a given selector.                  |
+| :enabled     | Used to style an element when it is enabled.                                 |
+| :disabled    | Used to style an element when it is disabled.                                |
 
 ## Example
+
+The following example makes use of the `:hover` pseudo-class to change an element from purple with a dotted underline to yellow with a regular underline when a user hovers over it:
 
 ```css
 a {
@@ -56,7 +58,9 @@ a:hover {
 }
 ```
 
-In the example above, when a user hovers over a link, it will change from purple with a dotted underline to yellow with a regular underline. This is accomplished by using the `:hover` pseudo-class.
+When applied on an element, it will look like the following:
+
+![Hover Pseudo-Class](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-hover-example.png)
 
 Another example would be to style all disabled buttons on the page by using the `:disabled` pseudo-class.
 
@@ -67,3 +71,5 @@ button:disabled {
 ```
 
 In this example, when a button is disabled, it becomes slightly less visible by reducing its opacity to 50%.
+
+![Disabled Pseudo-Class](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-disabled-example.png)
