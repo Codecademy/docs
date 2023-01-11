@@ -32,9 +32,9 @@ The following example uses the `.size()` method on `myStack`:
 #include <stack>
 #include <string>
 
-int main()
-{
+int main() {
   std::stack<std::string> myStack;
+
   myStack.push("A");
   myStack.push("B");
   myStack.push("C");
@@ -47,10 +47,10 @@ int main()
 
   std::cout << myStack.size() << '\n';
 
-  while (!myStack.empty())
-  {
+  while (!myStack.empty()) {
     myStack.pop();
   }
+
   std::cout << myStack.size() << '\n';
 }
 ```

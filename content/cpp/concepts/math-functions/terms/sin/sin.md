@@ -28,15 +28,17 @@ The following example illustrates the `sin()` function:
 ```cpp
 #include<iostream>
 #include<math.h>
+
 using namespace std;
 
-int main()
-{
+int main() {
   // convert degrees to radians
   double pi = M_PI;
   double degree = 60;
   double radian = degree * pi/180;
+
   cout << "Sine of 60 degrees is " << sin(radian) << "\n";
+
   return 0;
 }
 ```
