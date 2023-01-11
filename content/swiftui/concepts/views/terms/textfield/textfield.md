@@ -60,7 +60,7 @@ var body: some View {
 - `TextField` not only has different keyboard types but also keyboard styles. If no type or style is specified, Swift will display them as `(.default)`.
 - `SecureField` is a `TextField` that instantly hides the character and is commonly used to setup passwords.
 
-There are two images for this example. The first represents empty textfields and the second represents filled textfields:
+There are two images for this example. The first represents empty text fields and the second represents filled text fields:
 
 This will display the following:
 
