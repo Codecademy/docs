@@ -1,6 +1,6 @@
 ---
 Title: 'Form'
-Description: 'Container that collects controls used for data entry. Like `Settings` on iPhones and Macs.'
+Description: 'Displays a collection of data in a single column. Like `Settings` on iPhones and Macs.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -42,11 +42,13 @@ var body: some View {
         }
     }
 }
-
 ```
 
-- This is just an example to show how useful a `Form` is. There are plenty more use cases to it. 
-- `NavigationView` is fundamental to to the display and to make the `NavigationLink` work properly
+- `NavigationView` is fundamental to to the display and to make the `NavigationLink` work properly.
+- [Text](https://www.codecademy.com/resources/docs/swiftui/views/text): Built-in way to display standard text.
+- `TextField`: Allows the user to insert contact informations, type memos, and edit the content of a specific field.
+- [Button](https://www.codecademy.com/resources/docs/swiftui/views/button): Allows users to interact with the UI and perform certain actions.
+- `NavigationLink`: Is a view that controls how the navigation between views is displayed to the user. 
 
 This will display the following:
 
