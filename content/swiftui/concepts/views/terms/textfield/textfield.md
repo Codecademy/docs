@@ -57,7 +57,7 @@ var body: some View {
 ```
 
 - The top 5 variables are marked as private because it is important that the information does not leave the current page.
-- `TextField` not only has different keyboard types but also keyboard styles. This include different keyboards per style or type (email style, number pad, ascii capable, to name a few. If no type or style is specified, Swift will display them as `(.default)`.
+- `TextField` not only has different keyboard types but also keyboard styles. This include different keyboards per style or type (email style, number pad, ascii capable, to name a few). If no type or style is specified, Swift will display them as `(.default)`.
 
 - `SecureField` is a `TextField` that instantly hides the character and is commonly used to set up passwords.
 
