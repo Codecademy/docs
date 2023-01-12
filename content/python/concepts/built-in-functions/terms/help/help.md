@@ -28,7 +28,7 @@ To start the interactive help utility, the function is called without argument:
 ```pseudo
 help()
 ```
-
+  
 ## Example
 
 Below is an example where a build-in function is passed as argument:
@@ -54,7 +54,7 @@ If no argument is present:
 ```py
 help()
 ```
-Which returns:
+Which returns as output:
 ```shell
 Welcome to Python 3's help utility!
 
