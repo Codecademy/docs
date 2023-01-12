@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A pseudo-class is a keyword added to [selectors](https://www.codecademy.com/resources/docs/css/selectors) that specifies a special state of the selected element(s). For example, you can use it to style an element when a user hovers over it, or when a user clicks it. CSS pseudo-classes can also be used to allow styling based on elements that are in a certain state, such as being disabled or having been visited before.
+A pseudo-class is a keyword added to [selectors](https://www.codecademy.com/resources/docs/css/selectors) that specifies a special state of the selected element(s). For example, it can be used to style an element when a user hovers over it, or when a user clicks it. CSS pseudo-classes can also be used to allow styling based on elements that are in a certain state, such as being disabled or having been visited before.
 
 In general, what makes a pseudo-class different from a regular class is that classes are used to target specific elements on the page, while pseudo-classes are used to target elements based on their state or position.
 
