@@ -15,6 +15,7 @@ CatalogContent:
 ---
 
 The **.removeAll()** method is used to remove every value from a [Set](https://www.codecademy.com/resources/docs/swift/sets) in Swift. 
+
 ## Syntax
 
 ```pseudo 
