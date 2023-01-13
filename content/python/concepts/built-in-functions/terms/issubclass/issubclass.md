@@ -1,8 +1,8 @@
-**issubclass()**
+## **issubclass()**
 used to check if a class is a subclass of another class or not.
 
 ### Syntax
-`issubclass()` take two paramenters:
+`issubclass()` take two parameters:
 
 `issubclass(class, classinfo)`
 - **class** - class to be checked
@@ -14,30 +14,22 @@ used to check if a class is a subclass of another class or not.
 ### Example
 
 ```
-class Car:
-    def __init__(carColor):
-      print('My car is ', carColor)
+class myAge:
+  age = 36
 
-class Color(Car):
-    def __init__(self):
-      Car.__init__('white')
+class myInfo(myAge):
+  name = "Homer"
+  age = myAge
 
-print(issubclass(Color, Car))
-print(issubclass(Car, Color))
-print(issubclass(Color, (list, Car)))
-print(issubclass(Car, (list, Car)))
+x = issubclass(myInfo, myAge)
+print(x)
 ```
 
-Output
+Output: 
+`True`
 
-```
-True
-False
-True
-True
-```
 
-# codebyte
+### codebyte
 
 [codebyte language=python]
 class Car:
@@ -53,3 +45,5 @@ print(issubclass(Car, Color))
 print(issubclass(Color, (list, Car)))
 print(issubclass(Car, (list, Car)))
 [/codebyte]
+
+
