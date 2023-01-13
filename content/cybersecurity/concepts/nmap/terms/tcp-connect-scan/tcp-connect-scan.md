@@ -13,11 +13,9 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP Connect Scan** (`-sT`) is a type of Nmap scan that establishes a complete connection to the target by completing a TCP 3-way handshake. 
-Transmission Control Protocol (TCP) is a connection-oriented protocol used in modern networking, like the HTTP/HTTPS connection used to view this article.
-After Nmap's TCP connect scan completes the three way handshake, Nmap then terminates the connection.
+A **TCP connect scan** establishes a complete connection to the target host by completing a TCP three-way handshake. After the scan is complete, Nmap terminates the connection.
 
-This is not to be confused with another common scan technique, TCP Syn Scan (`-sS`) which does not complete its connection to the target host. Because of this, TCP Connect Scan (`-sT`) will take longer and require more packets to perform.
+> **Note:** This is not to be confused with another common scan technique, the TCP SYN stealth scan (`-sS`), which completes up to half of its connection with the target host. Therefore, the TCP connect scan takes longer and requires more packets to perform.
 
 The following image shows how this scan connects with the TCP three-way handshake and then terminates afterward: 
   ![TCP handshake and network scan](https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png)
