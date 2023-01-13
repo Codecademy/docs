@@ -32,7 +32,7 @@ The above conducts a TCP Connect Scan on `<target>`
 
 ## Example
 
-The following example performs a TCP Connect Scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
+The following example performs a TCP connect scan on the site [scanme.nmap.org](http://scanme.nmap.org/):
 
 ```shell
 nmap -sT scanme.nmap.org
