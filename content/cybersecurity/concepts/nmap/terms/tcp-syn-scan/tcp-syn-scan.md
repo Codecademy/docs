@@ -1,6 +1,6 @@
 ---
 Title: 'TCP SYN Scan'
-Description: 'Performs a scan quickly, efficientily and stealthly. The most popular scan option'
+Description: 'Performs a scan that can indicate open, filtered and closed port states with a reduced risk of detection, since it never completes a full TCP connection'
 Subjects:
   - 'Networking'
   - 'Cybersecurity'
@@ -14,34 +14,29 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option.
-Quick and efficient, this scan can indicate open, filtered and closed port states.
-It is requested by passing the -sS option to Nmap, but when running as root or Administrator, -sS is usually omitted.
-TCP SYN Scan is also stealthy because it never completes the full TCP connection, so is less likely to be blocked by firewalls.
+A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org). Quick and efficient, this scan can indicate open, filtered and closed port states. It is requested by passing the `-sS` option to Nmap, but when running as root or Administrator, `-sS` is usually omitted. Also known as the half-open scan, it never completes the full TCP connection, so is less likely to be blocked by firewalls.
 
 ## Syntax
 
-To perform a TCP SYN scan on `<target>`, root privileges are required.
-Type the following command and enter user password when prompted:
+Root privileges are required to perform a TCP SYN scan and the target can be any system with an established network connection. The following command performs a scan on `<target>` after entering the user password when prompted:
 
 ```pseudo
 sudo nmap -sS <target>
 ```
 
-> **Note:** `sudo` stands for _superuser do_ and grants root or Administrator access
+> **Note:** `sudo` stands for "superuser do" and grants root or Administrator access.
 
 ## Example
 
-To execute a TCP SYN scan on the target [scanme.nmap.org](http://scanme.nmap.org/), use the following command:
+The example below executes a TCP SYN scan on the target [scanme.nmap.org](http://scanme.nmap.org/):
 
 ```shell
 sudo nmap -sS scanme.nmap.org
 ```
 
-> **Note:** Explicit permission from domain target owner must be granted in order to scan.
-> [Scanme.Nmap.Org](http://scanme.nmap.org/) is a service provided by the [Nmap Security Scanner Project](https://nmap.org) for test purposes.
+> **Note:** Explicit permission from domain target owner must be granted in order to scan. [Scanme.Nmap.Org](http://scanme.nmap.org/) is a service provided by the [Nmap Security Scanner Project](https://nmap.org) for test purposes.
 
-The output of the previous command:
+The command above will output:
 
 ```shell
 Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-17 09:43 EST
