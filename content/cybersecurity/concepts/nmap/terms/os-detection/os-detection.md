@@ -44,6 +44,7 @@ The following example runs a Nmap Scan and enables OS detection on the site [sca
 ```shell
 nmap -O scanme.nmap.org
 ```
+
 > **Note:** This is a site explicitly set up for testing Nmap. Scans should only be performed on domains with explicit permissions given to the user.
 
 This results in the following output:
