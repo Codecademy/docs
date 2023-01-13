@@ -18,17 +18,6 @@ Each fingerprint includes a freeform textual description of the OS, and a classi
 
 > **Note:** Root privileges are required to properly perform the scan.
 
-OS detection is enabled with the `-O` option.
-
-OS detection is controlled with the following options (be sure to include with `-O`):
-- Limit OS detection to promising targets (`--osscan-limit`)
-    - This can save substantial time by only scanning targets that have a criteria that makes OS detection more effective, which is if there is at least one open and one closed TCP port are found. Nmap will not attempt OS detection against hosts which do not meet that criteria.
-- Guess OS detection results (`--osscan-guess; --fuzzy`)
-    - When Nmap is unable to detect a perfect OS match, it sometimes offers up near-matches as possibilities. The match has to be very close for Nmap to do this by default. Either of these (equivalent) options make Nmap guess more aggressively. Nmap will still tell when an imperfect match is printed and display its confidence level (percentage) for each guess.
-- Set the maximum number of OS detection tries against a target (`--max-os-tries`)
-    - By default, Nmap tries five times if conditions are favorable or two times when conditions aren't so good. One may specify a low `--max-os-tries` value to for quicker scans, or a higher number for more retries.
-- Increase verbosity level to OS detection Scan (`-v`)
-
 ## Syntax 
 
 ```pseudo
