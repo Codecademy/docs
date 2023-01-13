@@ -1,6 +1,6 @@
 ---
-Title: 'useContext()'
-Description: 'React Context can be used to manage state globally without the need of prop drilling.'
+Title: 'React useContext()'
+Description: 'Hook to use the React Context API in components.'
 Subjects:
   - 'Web Development'
 Tags:
@@ -11,37 +11,9 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-The **`useContext()`** hook can be used to manage the [state](https://www.codecademy.com/resources/docs/react/state) of the React App globally instead of setting the state in the highest parent [component](https://www.codecademy.com/resources/docs/react/components) and passing it to children component as [props](https://www.codecademy.com/resources/docs/react/props). This makes the code more readable and easier to maintain.
-It can be used in combination with the [useState](https://www.codecademy.com/resources/docs/react/hooks/useState) hook to change the state. Typical use cases are passing themes (e.g. color, paddings, font-sizes etc.) or the current authenticated user.
+The **`useContext()`** hook subscribes a child [component](https://www.codecademy.com/resources/docs/react/components) to a [context component](https://www.codecademy.com/resources/docs/react/context) (and its `value` [prop](https://www.codecademy.com/resources/docs/react/props)) that exists further up the component tree.
 
 ## Syntax
-
-To create `Context`, it is necessary to import `createContext` and intialize it like this:
-
-```pseudo
-import { createContext } from 'react';
-
-const ThemeContext = createContext();
-```
-
-> **Note:** The name of the `Context` is always written in `PascalCase` (e.g., `const ThemeContext = createContext();`).
-
-If necessary, a fallback default value can be specified while using `createContext` (e.g. `createContext('white')`).
-
-Now all `components` are wrapped in a `Context Provider` so that they can use the state Context with the `useContext` hook. Inside the `Context Provider` a value has to be passed, most of the time a `state` variable.
-
-```pseudo
-function App() {
-  const [theme, setTheme] = useState('white');
-  return (
-    <ThemeContext.Provider value={theme}>
-      ...
-    </ThemeContext.Provider>
-  )
-};
-```
-
-> **Note:** The `value` prop must not be omitted!
 
 The components can then use the `Context` value using the `useContext` hook:
 
@@ -49,9 +21,11 @@ The components can then use the `Context` value using the `useContext` hook:
 const theme = useContext(ThemeContext);
 ```
 
+The `useContext()` hook searches for the closest provider above the component in which it was called within the tree hierarchy. Therefore, providers within the same component are ignored.
+
 ## Example
 
-In this example, React Context is used to pass the background theme to all components without passing it as props.
+The following example shows how a background theme could be passed down to all child components via the `useContext()` hook, and without using props:
 
 ```jsx
 // App.js
@@ -109,9 +83,7 @@ function Container() {
 }
 ```
 
-Let's break it down:
-
-First, the `Context` is created in the top level `component` using `createContext` imported from `react`.
+The `useContext()` hook was used to apply a `ThemeContext` to the `<Container>` component in order to switch the colors of the text and background (between `black'` and `'white'`).
 
 ```jsx
 import React, { createContext, useContext, useState } from 'react';
@@ -172,9 +144,9 @@ function Button(props) {
 }
 ```
 
-## Example 2
+## Context From Other Files
 
-The Context can also be created in a separate file and exported for other (and multiple if needed) files to use.
+The `useContext()` hook can subscribe a component to a context imported from another file, as well:
 
 ```jsx
 // App.js
@@ -198,7 +170,7 @@ export function App() {
 }
 ```
 
-Now other files simply have to import the `Context` as well as the exported `Provider`:
+Now, other files can import the `NotificationContext`, along with the exported `Provider`, to be applied to their own components:
 
 ```jsx
 // Display.js
@@ -217,5 +189,3 @@ export function Display() {
   );
 }
 ```
-
-In this example the `Display` component uses the `notifications`, which was passed as a value in the `Context Provider`, to display them as an `h2` element.
