@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.indexOf()`** method returns the index of the first occurrence of the specified element in an `ArrayList`. If no element is found, -1 is returned.
+The **`.indexOf()`** method returns the index of the first occurrence of the specified element in an `ArrayList`. If the element is not found, -1 is returned.
 
 ## Syntax
 
