@@ -1,6 +1,6 @@
 ---
 Title: 'TCP Connect Scan'
-Description: 'A type of Nmap scan that establishes a complete connection to the target.'
+Description: 'Establishes a complete connection to the target host.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
