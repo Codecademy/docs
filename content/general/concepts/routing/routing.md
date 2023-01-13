@@ -9,7 +9,7 @@ Tags:
   - 'Cybersecurity'
   - 'Networking'
 CatalogContent:
-  - 'learn/introduction-to-cybersecurity'
+  - 'introduction-to-cybersecurity'
   - 'paths/computer-science'
 ---
 
