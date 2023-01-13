@@ -1,6 +1,6 @@
 ---
 Title: 'OS Detection'
-Description: 'One of the best-known features of Nmap is remote OS detection using TCP/IP stack fingerprinting.'
+Description: 'Remotely scans a target host and presents details of its operating system if there is a match.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
