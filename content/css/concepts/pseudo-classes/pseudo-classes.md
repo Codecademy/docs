@@ -1,6 +1,6 @@
 ---
 Title: 'Pseudo-classes'
-Description: A pseudo-class is a keyword added to selectors that specifies a special state of the selected element(s).
+Description: 'A pseudo-class is a keyword added to selectors that specifies a special state of the selected element(s).'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-A pseudo-class is a keyword added to [selectors](https://www.codecademy.com/resources/docs/css/selectors) that specifies a special state of the selected element(s). For example, it can be used to style an element when a user hovers over it, or when a user clicks it. CSS pseudo-classes can also be used to allow styling based on elements that are in a certain state, such as being disabled or having been visited before.
+A **pseudo-class** is a keyword added to [selectors](https://www.codecademy.com/resources/docs/css/selectors) that specifies a special state of the selected element(s). For example, it can be used to style an element when a user hovers over it, or when a user clicks it. CSS pseudo-classes can also be used to allow styling based on elements that are in a certain state, such as being disabled or having been visited before.
 
 In general, what makes a pseudo-class different from a regular class is that classes are used to target specific elements on the page, while pseudo-classes are used to target elements based on their state or position.
 
@@ -60,7 +60,7 @@ a:hover {
 
 When applied on an element, it will look like the following:
 
-![Hover Pseudo-Class](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-hover-example.png)
+![Hover Pseudo-Class](https://raw.githubusercontent.com/Codecademy/docs/main/media/css-hover-example.gif)
 
 Another example would be to style all disabled buttons on the page by using the `:disabled` pseudo-class.
 
