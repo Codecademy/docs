@@ -28,7 +28,7 @@ The following image shows how this scan connects with the TCP three-way handshak
 nmap -sT <target>
 ```
 
-The above conducts a TCP Connect Scan on `<target>`
+The `-sT` flag is used to perform a TCP connect scan on  a `<target>` host (e.g., a [URL](https://www.codecademy.com/resources/docs/general/url) or IP address).
 
 ## Example
 
