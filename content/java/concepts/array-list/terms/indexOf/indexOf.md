@@ -73,9 +73,6 @@ public class Main {
   }
 }
 ```
-
-## Output for above code
-
 ```shell
 error: cannot find symbol
     System.out.println(arr.indexOf(3));
