@@ -11,8 +11,6 @@ Tags:
 CatalogContent:
   - 'introduction-to-cybersecurity'
   - 'paths/scan-systems-with-nmap'
-SeeAlso:
-  - 'aggressive-scan'
 ---
 
 One of Nmap's best known features is remote **OS detection** using TCP/IP stack fingerprinting. With OS detection, Nmap sends a series of TCP and UDP packets to the specified host and examines the responses. Nmap then compares the results to its *nmap-os-db* database of more than 2,600 known OS fingerprints and prints out the OS details if there is a match.  
