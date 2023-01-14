@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'An array stores multiple items of the same data-type, such as an integer or string, under a single variable name.'
+Description: 'Arrays are collections of items of the same data-type with 0-based indexing that are stored at contiguous memory locations.`
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
