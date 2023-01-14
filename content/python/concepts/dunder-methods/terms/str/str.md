@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__str__()`** dunder method returns a reader-friendly string representation of a class object. It can be called with [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) as well as the built-in function [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print). Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that **`__str__()`** return a valid python expression. 
+The **`__str__()`** dunder method returns a reader-friendly string representation of a class object. It can be called with [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) as well as the built-in function [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print). Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that `__str__()` return a valid python expression. 
 
 ## Syntax
 
