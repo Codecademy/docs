@@ -15,7 +15,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **`Toggle`** is switch that can be used to turn something on or off, or to choose between different options.
+A **`Toggle`** is a View that chooses between "on or off" options based on a `Bool` type value.
 
 ## Syntax
 
