@@ -20,7 +20,7 @@ CatalogContent:
 
 ## Syntax
 
-AJAX requests can be used in all modern web browsers and utliizes the built-in `XMLHttpRequest` object:
+AJAX requests can be used in all modern web browsers and utilizes the built-in `XMLHttpRequest` object:
 
 ```pseudo
 const request = new XMLHttpRequest();
