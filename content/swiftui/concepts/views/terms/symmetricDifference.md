@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-A **symmetricDifference** in [SwiftUI](https://www.codecademy.com/resources/docs/swiftui) returns a new set with the elements that are either in the set or in the given
+The **.symmetricDifference()** method returns a new set with the elements that are either in the set or in the given
 sequence, but not in both.
 
 ## Syntax
