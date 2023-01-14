@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-**Operating System (OS) detection** is a feature in Nmap that remotely [scans](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan) a target host and presents details of its operating system if there is a match. TCP/IP stack fingerprinting is used to send a series of probes (e.g., TCP and UDP packets) to the specified host and examines the responses. The results are then compared to the `nmap-os-db` database 2,600+ known OS fingerprints, and the details are printed if there is a match.
+**Operating system (OS) detection** is a feature in Nmap that remotely [scans](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan) a target host and presents details of its operating system if there is a match. TCP/IP stack fingerprinting is used to send a series of probes (e.g., TCP and UDP packets) to the specified host and examines the responses. The results are then compared to the `nmap-os-db` database 2,600+ known OS fingerprints, and the details are printed if there is a match.
 
 
 
