@@ -15,6 +15,18 @@ CatalogContent:
 
 **Arrays** are collections of items of the same data type with 0-based indexing that are stored at contiguous memory locations.
 
+## Syntax
+
+```pseudo
+// Array class instance
+arrayOne = arrayOf(values)
+arrayTwo = Array(size) iteratorFunction
+
+// Array of primitive types
+arrayThree: TypeArray = typeArrayOf(values)
+arrayFour = TypeArray(size) iteratorFunction
+```
+
 ## Creating an array
 
 In Kotlin the `arrayOf` function is usually used to create a array:
