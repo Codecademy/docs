@@ -33,8 +33,7 @@ The `.padding()` modifier method uses the following optional parameters:
   - `.vertical` applies padding to both the left and right edges of the view,
   - `.horizontal` applies padding to both the top and bottom edges of the view,
   - multiple edges can also be specified simultaneously, e.g.: `[.bottom, .trailing]` will add padding to the bottom and right edge of the view.
-
-- `number` to specify the amount of padding in points. If no `number` is given, the default padding, which is 10, will be applied equally to the edges of the view. To specify the padding, an integer must be entered; e.g., `20` will apply 20 points of padding to the view.
+- The `amount` of padding is given in points (as an integer). If this is given a `nil` value, SwiftUI assigns a default amount based on the device being used.
 
 > **Note:** The `.padding()` modifier method can be used without any specified attributes, or with one or with two attributes specified.
 
