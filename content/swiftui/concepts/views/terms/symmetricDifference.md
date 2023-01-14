@@ -17,6 +17,7 @@ The **.symmetricDifference()** method returns a new set with the elements that a
 sequence, but not in both.
 
 ## Syntax
+
 ```pseudo
 func symmetricDifference<S>(_other: S) -> Set<Element> where Element == S.Element, S:Sequence
 ```
