@@ -42,7 +42,7 @@ The `.padding()` modifier method uses the following optional parameters:
 var body: some View {
     Text("I have no padding.")
     Text("I have no padding.")
-    Text("I have top and bottom padding.")
+    Text("I have top and bottom padding!")
         .padding(.horizontal, 40)
     Text("I have no padding.")
 }
