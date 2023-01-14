@@ -23,7 +23,7 @@ A **`Toggle`** is a View that chooses between "on or off" options based on a `Bo
 Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
 ```
 
-The usual method for creating a text-only `Toggle` involves passing a string as the first parameter, rather than using a trailing closure, and a Boolean property that determines the state of the toggle (on or off).
+The usual method for creating a text-only `Toggle` involves passing a `titile` string as the first parameter, rather than using a trailing [closure](https://www.codecademy.com/resources/docs/swift/closures), and a `Bool` type property `isOn:` that determines the state of the toggle (on or off).
 
 ## Example
 
