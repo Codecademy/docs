@@ -18,7 +18,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`__str__()`** dunder method returns a reader-friendly string representation of a class object. It can be called with [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) as well as the built-in function [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print). Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that `__str__()` return a valid python expression. 
+The **`__str__()`** dunder method returns a reader-friendly string representation of a class object. It can be called with the built-in [`str()`](https://www.codecademy.com/resources/docs/python/built-in-functions/str) and [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) functions. Unlike [`__repr__()`](https://www.codecademy.com/resources/docs/python/dunder-methods/repr), it is not necessary that `__str__()` return a valid Python expression.
 
 ## Syntax
 
@@ -26,11 +26,12 @@ The **`__str__()`** dunder method returns a reader-friendly string representatio
 class ClassName:
   def __str__(self):
 ```
+
 The `__str__()` method accepts no parameters. `self` is an implicit reference to the instance of `ClassName`.
 
 ## Codebyte Example
 
-The example below showcases various ways the `__str__()` can be called. All return the same string output. The aim is to make the output readable:
+The example below showcases various ways the `__str__()` can be called using an object literal, the built-in `str()` function, and the `__str__()` dunder method. All return the same string output; the aim is to make the output readable:
 
 ```codebyte/python
 class  Home:
@@ -41,9 +42,9 @@ class  Home:
   def  __str__(self):
     return  "The house has {} rooms and {} stories".format(self.rooms, self.stories)
 
-home1 = Home(4, 2)
+home = Home(4, 2)
 
-print(home1)
-print(str(home1))
-print(home1.__str__())
+print(home)
+print(str(home))
+print(home.__str__())
 ```
