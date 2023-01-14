@@ -27,12 +27,12 @@ OS detection is enabled with the `-O` option and applied to a host `<target>` (e
 
 The following options are available for OS detection:
 
-- `--osscan-limit` - Limits detection to only host targets with at least one open and one closed TCP port, and ignores hosts that do not meet this criteria.
-- `--osscan-guess; --fuzzy` - Presents possible results if a perfect OS match can't be found.
+- `--osscan-limit`: Limits detection to only host targets with at least one open and one closed TCP port, and ignores hosts that do not meet this criteria.
+- `--osscan-guess; --fuzzy`: Presents possible results if a perfect OS match can't be found.
   - The match has to be very close for Nmap to do this by default. Either of these (equivalent) options make Nmap guess more aggressively. Nmap will still tell when an imperfect match is printed and display its confidence level (0% - 100%) for each guess.
-- `--max-os-tries` - Sets the maximum number of detection attempts against a target.
+- `--max-os-tries`: Sets the maximum number of detection attempts against a target.
   - By default, Nmap tries five times if conditions are favorable or two times when conditions aren't so good. A specific amount of tries can be specified; the lower the amount, the quicker the scan.
-- Provides more information from an OS detection scan (`-v`), including a incremental ID for each IP packet header sent.
+- `-v`: Provides more information from an OS detection scan, including an incremental ID for each IP packet header sent.
 
 ## Example
 
