@@ -21,8 +21,7 @@ The **.symmetricDifference()** method returns a new set with the elements that a
 func symmetricDifference<S>(_other: S) -> Set<Element> where Element == S.Element, S:Sequence
 ```
 
-Available when *Element* conforms to *Hashable*
-  
+Available when _Element_ conforms to _Hashable_
 
 ## Example
 
