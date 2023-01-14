@@ -14,31 +14,35 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Arrow function** are expressions first introduced in ES6. These expressions are a clean and concise alternative to the traditional [function](https://www.codecademy.com/resources/docs/javascript/functions) syntax.
-
-There are several variations of arrow functions:
-
-- Arrow functions with a single parameter do not require `()` around the parameter list.
-- Arrow functions with a single expression (no curly brackets `{ }`) can use the concise function body which returns the result of the expression without the `return` keyword.
+**Arrow function expressions** are alternatives to traditional [functions](https://www.codecademy.com/resources/docs/javascript/functions) that were first introduced in ES6. Aside from a relatively concise syntax, arrow functions have a few semantic differences along with some limitations.
 
 ## Syntax
 
 ```pseudo
-const functionA = (parameterA, parameterB, ..., parameterN) => {
+const functionA = (parameter1, parameter2, ..., parameterN) => {
   // Function body here
 }
 ```
 
-The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow `=>` to separate the parameter(s) from the body. However, they are limited and can't be used in all situations.
+The syntax for an arrow function expression does not require the `function` keyword and uses a fat arrow (`=>`) to separate the parameter(s) from the body.
 
-Arrow functions can be defined with zero or more arguments. They can also be defined on one or more lines.
+Arrow functions can be defined with zero or more parameters, on one or more lines. In most cases, parentheses (`()`) are not required to be around the parameter list if there is one parameter. They are required in the following cases:
 
-> **Note:** Arrow functions functions are limited and can't be used in all situations:
->
-> - They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
-> - They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
-> - They cannot use `yield`, within its body.
-> - They cannot use the special `arguments` keyword.
+- There is more than one parameter.
+- There are no parameters.
+- The single parameter is a destructured object.
+- There are default or rest parameters involved.
+
+Arrow functions with a single expression have no curly brackets (`{ }`) and can use the concise function body to return the result of the expression without the `return` keyword. For multiple expressions, parentheses can be alternatively wrapped around the arrow function body to implicitly return the result.
+
+## Limitations
+
+Arrow functions functions are limited and can't be used in all situations:
+
+- They do not have their own bindings to [`this`](https://www.codecademy.com/resources/docs/javascript/this) or `super`, and should not be used as [methods](https://www.codecademy.com/resources/docs/javascript/methods).
+- They cannot be used as [constructors](https://www.codecademy.com/resources/docs/javascript/constructors).
+- They cannot use `yield`, within its body.
+- They cannot use the special `arguments` keyword.
 
 ## Example
 
@@ -64,11 +68,11 @@ hello
 Baggage weight: 25 kilograms.
 ```
 
-## Codebyte Exammple
+## Codebyte Example
 
 The following example features an arrow function defined with two arguments on a single line:
 
-```js
+```codebyte/javascript
 const multiply = (a, b) => a * b;
 
 console.log(multiply(2, 30));
