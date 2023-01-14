@@ -13,8 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **.symmetricDifference()** method returns a new set with the elements that are either in the set or in the given
-sequence, but not in both.
+The **.symmetricDifference()** method returns a new set with the elements that are either in the set or in the given sequence, but not in both.
 
 ## Syntax
 
@@ -27,7 +26,7 @@ Available when *Element* conforms to *Hashable*
 
 ## Example
 
-The following example adds the text, `"Codecademy is Awesome"`, on the display screen.
+The following example shows the elements that aren't common to each set.
 
 ```swift
 let food: Set = ["Apple", "Banana", "Orange", "Peach"]
