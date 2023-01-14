@@ -34,7 +34,9 @@ let food: Set = ["Apple", "Banana", "Orange", "Peach"]
 let colors = ["Green", "Blue", "Orange", "Peach"]
 let eitherFoodOrColor = food.symmetricDifference(colors)
 ```
+
 This will display the following:
+
 ```psuedo
 ["Banana", "Green", "Apple", "Blue"]
 ```
