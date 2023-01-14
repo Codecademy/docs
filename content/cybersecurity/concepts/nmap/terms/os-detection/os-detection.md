@@ -13,8 +13,9 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-One of Nmap's best known features is remote **OS detection** using TCP/IP stack fingerprinting. With OS detection, Nmap sends a series of TCP and UDP packets to the specified host and examines the responses. Nmap then compares the results to its *nmap-os-db* database of more than 2,600 known OS fingerprints and prints out the OS details if there is a match.  
-Each fingerprint includes a freeform textual description of the OS, and a classification which provides the vendor name (e.g. Sun), underlying OS (e.g. Solaris), OS generation (e.g. 10), and device type (general purpose, router, switch, game console, etc). Most fingerprints also have a Common Platform Enumeration (CPE) representation, like `cpe:/o:linux:linux_kernel:2.6.`
+**Operating System (OS) detection** is a feature in Nmap that remotely [scans](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan) a target host and presents details of its operating system if there is a match. TCP/IP stack fingerprinting is used to send a series of probes (e.g., TCP and UDP packets) to the specified host and examines the responses. The results are then compared to the `nmap-os-db` database 2,600+ known OS fingerprints, and the details are printed if there is a match.
+
+
 
 > **Note:** Root privileges are required to properly perform the scan.
 
