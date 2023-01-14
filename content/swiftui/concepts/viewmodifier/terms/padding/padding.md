@@ -22,7 +22,7 @@ Text("This text has padding around it.")
     .padding(edges, amount)
 ```
 
-The `.padding()` modifier method has the following attributes:
+The `.padding()` modifier method uses the following optional parameters:
 
 - `edge` to specify the edge on which the padding should be applied. The following options are possible:
   - `.all` is the default option, and it applies padding to all edges of the view,
