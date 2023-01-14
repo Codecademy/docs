@@ -17,7 +17,7 @@ The **`.padding()`** modifier method applies padding to the [view](https://www.c
 
 ## Syntax
 
-```psuedo
+```pseudo
 Text("This text has padding around it.")
     .padding(edge, number)
 ```
