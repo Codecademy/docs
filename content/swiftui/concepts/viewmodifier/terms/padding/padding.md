@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.padding()`** modifier method applies padding to the view.
+The **`.padding()`** modifier method applies padding to the [view](https://www.codecademy.com/resources/docs/swiftui/views).
 
 ## Syntax
 
