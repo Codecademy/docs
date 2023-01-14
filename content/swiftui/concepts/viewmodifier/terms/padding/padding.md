@@ -24,7 +24,7 @@ Text("This text has padding around it.")
 
 The `.padding()` modifier method uses the following optional parameters:
 
-- `edge` to specify the edge on which the padding should be applied. The following options are possible:
+- The `edges` is a [set](https://www.codecademy.com/resources/docs/swift/sets) that specifies which side(s) the padding should be applied to. The following options are possible:
   - `.all` is the default option, and it applies padding to all edges of the view,
   - `.top` applies padding to the top edge of the view,
   - `.bottom` applies padding to the bottom edge of the view,
