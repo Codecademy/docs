@@ -4,23 +4,23 @@ Description: 'Removes every item from a Set in Swift.'
 Subjects:
   - 'iOS'
   - 'Mobile Development'
-Tags: 
+Tags:
   - 'iOS'
   - 'SwiftUI'
   - 'Sets'
   - 'Xcode'
-CatalogContent: 
+CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **.removeAll()** method is used to remove every value from a [Set](https://www.codecademy.com/resources/docs/swift/sets) in Swift. 
+The **.removeAll()** method is used to remove every value from a [Set](https://www.codecademy.com/resources/docs/swift/sets) in Swift.
 
 ## Syntax
 
-```pseudo 
+```pseudo
 setName.removeAll()
-```  
+```
 
 - `.removeAll()` will remove all values from `setName`.
 
