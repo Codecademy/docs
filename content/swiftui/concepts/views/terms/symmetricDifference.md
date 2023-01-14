@@ -6,10 +6,8 @@ Subjects:
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
-  - 'SwiftUI'
-  - 'SwiftUI Views'
-  - 'Buttons'
-  - 'Terms'
+  - 'Sets'
+  - 'Methods'
 CatalogContent:
   - 'learn-swiftui'
   - 'paths/build-ios-apps-with-swiftui'
