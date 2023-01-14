@@ -19,7 +19,7 @@ The **`.padding()`** modifier method applies padding to the [view](https://www.c
 
 ```pseudo
 Text("This text has padding around it.")
-    .padding(edge, number)
+    .padding(edges, amount)
 ```
 
 The `.padding()` modifier method has the following attributes:
