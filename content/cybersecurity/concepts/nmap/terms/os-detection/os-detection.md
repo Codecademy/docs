@@ -71,3 +71,9 @@ Network Distance: 10 hops
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 6.96 seconds
 ```
+Each fingerprint includes a freeform textual description of the OS, and a classification which provides the following:
+- A vendor name (e.g., Sun)
+- The underlying `OS details` that include the name and version (e.g., `Linux 5.0 - 5.4`)
+- The device type (`general purpose`, `router`, `switch`, `game console`, etc)
+
+Most fingerprints also have a common platform enumeration (`OS CPE`) representation, like `cpe:/o:linux:linux_kernel:5`.
