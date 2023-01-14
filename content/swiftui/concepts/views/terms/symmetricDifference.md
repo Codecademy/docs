@@ -26,7 +26,8 @@ Available when *Element* conforms to *Hashable*
   
 
 ## Example
-The following example adds the text Codecademy is Awesome on the display screen.
+
+The following example adds the text, `"Codecademy is Awesome"`, on the display screen.
 
 ```swift
 let food: Set = ["Apple", "Banana", "Orange", "Peach"]
