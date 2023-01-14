@@ -17,7 +17,7 @@ CatalogContent:
 
 > **Note:** Root privileges are required to properly perform the scan.
 
-## Syntax 
+## Syntax
 
 ```pseudo
 nmap -O <target>
@@ -72,6 +72,7 @@ Nmap done: 1 IP address (1 host up) scanned in 6.96 seconds
 ```
 
 Each fingerprint includes a freeform textual description of the OS, and a classification which provides the following:
+
 - A vendor name (e.g., Sun)
 - The underlying `OS details` that include the name and version (e.g., `Linux 5.0 - 5.4`)
 - The device type (`general purpose`, `router`, `switch`, `game console`, etc)
