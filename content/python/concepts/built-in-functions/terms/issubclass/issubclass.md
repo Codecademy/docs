@@ -1,17 +1,21 @@
 ## **issubclass()**
-used to check if a class is a subclass of another class or not.
+The **`issubclass()`** function returns `True` if a given [class](https://www.codecademy.com/resources/docs/python/classes) is a subclass of one or more classes.
 
-### Syntax
+
+## Syntax
 `issubclass()` take two parameters:
 
-`issubclass(class, classinfo)`
-- **class** - class to be checked
-- **classinfo** - class, type, or tuple of classes and types 
+`issubclass(class, candidateClasses)`
 
-**Return type:** `True` if object is subclass of a class, or any element of the tuple, otherwise `False`.
+- `class` - a validly defined class
+- `candidateClasses` - a single class, type, or class, type, or [tuple](https://www.codecademy.com/resources/docs/python/tuples) of classes and types
+
+if any relationship exists, `True` is returned, otherwise `False`.
 
 
-### Example
+## Example
+
+The following example uses the `issubclass()` function to confirm whether the `myInfo` is a subclass of the `myAge` class:
 
 ```
 class myAge:
@@ -21,16 +25,17 @@ class myInfo(myAge):
   name = "Homer"
   age = myAge
 
-x = issubclass(myInfo, myAge)
-print(x)
+print(issubclass(myInfo, myAge))
 ```
 
-Output: 
-`True`
+This will print the following output:
+```shell
+True
+```
 
+## Codebyte Example
 
-### codebyte
-
+```
 [codebyte language=python]
 class Car:
     def __init__(carColor):
@@ -42,8 +47,9 @@ class Color(Car):
 
 print(issubclass(Color, Car))
 print(issubclass(Car, Color))
-print(issubclass(Color, (list, Car)))
-print(issubclass(Car, (list, Car)))
 [/codebyte]
+```
+
+
 
 
