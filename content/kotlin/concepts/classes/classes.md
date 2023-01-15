@@ -60,7 +60,6 @@ To create an object of this class, the `new` keyword can be used, or the more co
 
 ```kotlin
 val myDog = Dog()
-val myDog = Dog("Fido", "Labrador", 3)
 ```
 
 Properties and functions of the object can be accessed using the dot notation:
