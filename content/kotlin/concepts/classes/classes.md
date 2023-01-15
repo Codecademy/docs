@@ -1,6 +1,6 @@
 ---
 Title: 'Classes'
-Description: 'A class definition in Kotlin consists of the class keyword, followed by the name of the class, and a block of code enclosing the properties and functions of the class.'
+Description: 'A class is a blueprint for creating objects in Kotlin.'
 Subjects:
   - 'Computer Science'
 Tags:
