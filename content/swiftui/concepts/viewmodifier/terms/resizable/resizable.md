@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.resizable()`** modifier sets the mode that an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views) resizes itself to so it fits the surrounding space of its parent container. 
+The **`.resizable()`** modifier sets the mode that an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views) resizes itself to so it fits the surrounding space of its parent container.
 
 ## Syntax
 
@@ -57,7 +57,7 @@ The image on the left is before applying the `.resizable()` modifier and on the 
 
 The `.resizable()` modifier also accepts two optional parameters: `resizable(capInsets: EdgeInsets = EdgeInsets())` and `resizable(resizingMode: Image.ResizingMode = .stretch)`. The `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or while tiling it affects the spacing in between each tile. The `resizable(resizingMode: Image.ResizingMode = .stretch)` sets the mode of the resizing to either stretch(the default mode) or tile the image.
 
-## Example
+## Example: With Parameters
 
 The following example sets the `capInsets: EdgeInsets()` for `top`, `leading`, `bottom`, and `trailing` to 20 and then tiles the image within the parent container by setting the `resizingMode: .tile`. This tiles many red circles within the 300x300 parent container and removes the spacing between them.
 
