@@ -26,7 +26,6 @@ class ClassName {
   // properties
   // functions
 }
-}
 ```
 
 Here are some rules for defining classes in Kotlin:
