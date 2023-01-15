@@ -24,7 +24,7 @@ The syntax for a class definition consists of the class keyword, followed by the
 ```pseudo
 class ClassName {
   // properties
-    // functions
+  // functions
     }
 }
 ```
