@@ -1,10 +1,11 @@
 ---
 Title: 'help()'
-Description: 'Display the documentation of the object passed as argument.'
+Description: 'Displays documentation of an object using the Python help utility.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Documentation'
   - 'Functions'
   - 'Methods'
 CatalogContent:
@@ -12,49 +13,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `help()` function accepts an object as a parameter, which is a module, function, class or keyword. After being called, the documentation of the requested object is displayed.
-If no argument is passed the interactive help utility starts up on the console.
+The **`help()`** displays documentation about various Python objects including [modules](https://www.codecademy.com/resources/docs/python/modules), [functions](https://www.codecademy.com/resources/docs/python/functions), [classes](https://www.codecademy.com/resources/docs/python/classes), and [keywords](https://www.codecademy.com/resources/docs/python/keywords). If no argument is passed, the interactive help utility starts up on the [command line](https://www.codecademy.com/resources/docs/command-line).
 
 ## Syntax
-
-The object is passed to the `help()` function as parameter:
 
 ```pseudo
 help(object)
 ```
 
-To start the interactive help utility, the function is called without argument:
+The object is passed to the `help()` function as parameter.
+If an `object` is not provided, the interactive help utility will be started.
 
-```pseudo
-help()
-```
-  
+If the `object` is a [string](https://www.codecademy.com/resources/docs/python/strings) that matches to a valid module, function, class, keyword, or other topic, a documentation page will be displayed. For other kinds of objects (like a [tuple](https://www.codecademy.com/resources/docs/python/tuples)), the `help()` will show its documentation page. 
+
 ## Example
 
-Below is an example where a build-in function is passed as argument:
+Calling the `help()` function without argument, the following output is returned:
 
-```py
-help(print)
-```
-Which produces the following output:
-```shell
-print(...)
-   print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-   
-   Prints the values to a stream, or to sys.stdout by default.
-   Optional keyword arguments:
-   file:  a file-like object (stream); defaults to the current sys.stdout.
-   sep:   string inserted between values, default a space.
-   end:   string appended after the last value, default a newline.
-   flush: whether to forcibly flush the stream.
-```
-
-If no argument is present:
-
-```py
-help()
-```
-Which returns as output:
 ```shell
 Welcome to Python 3's help utility!
 
@@ -73,9 +48,33 @@ or summary contain a given string such as "spam", type "modules spam".
 help> 
 ```
 
+The following shows how the `help()` function provides information about Python's built-in [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) function:
+
+```py
+help(print)
+```
+
+This produces the following output:
+
+```shell
+print(...)
+   print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+   
+   Prints the values to a stream, or to sys.stdout by default.
+   Optional keyword arguments:
+   file:  a file-like object (stream); defaults to the current sys.stdout.
+   sep:   string inserted between values, default a space.
+   end:   string appended after the last value, default a newline.
+   flush: whether to forcibly flush the stream.
+```
+
+
+
 ## Codebyte Example
 
-```codebyte/py
+The following example is runnable and shows how the `help()` function can be applied to different kinds of objects, including user-defined classes:
+
+```codebyte/python
 import math
 
 class newClass:
