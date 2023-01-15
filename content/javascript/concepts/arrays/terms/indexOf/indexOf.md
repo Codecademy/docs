@@ -46,7 +46,7 @@ console.log(indexOfPineapple);
 // Output: -1
 ```
 
-Check if color `'blue'` is in the `colors` array and after the second element:
+Check if color `'blue'` is in the `colors` array starting with the second element:
 
 ```js
 const colors = ['blue', 'orange', 'pink', 'yellow', 'teal'];
