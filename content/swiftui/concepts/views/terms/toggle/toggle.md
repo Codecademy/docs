@@ -25,6 +25,8 @@ Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
 
 The usual method for creating a text-only `Toggle` involves passing a `title` string as the first parameter, rather than using a trailing [closure](https://www.codecademy.com/resources/docs/swift/closures), and a `Bool` type property `isOn:` that determines the state of the toggle (on or off).
 
+- The underscore before `title` indicates that the parameter is optional, meaning that the word `title` can be omitted when using `Toggle`.
+
 ## Example
 
 The following example displays a `Toggle` that turns a "Wi-Fi" switch on and off by passing the `isWifiOn` variable to the `isOn:` property. The `Label` will be inside a trailing closure.
