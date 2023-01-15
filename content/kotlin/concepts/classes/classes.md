@@ -42,6 +42,8 @@ Here are some rules for defining classes in Kotlin:
 
 ## Examples
 
+The following example creates a `Dog` class with the properties `name`, `breed`,  and `age` and a function `bark()`:
+
 ```kotlin
 class Dog {
     var name: String = ""
