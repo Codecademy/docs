@@ -1,6 +1,6 @@
 ---
 Title: '.resizable()'
-Description: 'Sets the mode that an image in a View resizes itself to, to fit the surrounding space of its parent container.'
+Description: 'Sets the mode that an image in a View resizes itself to so it fits the surrounding space of its parent container.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.resizable()`** modifier sets the mode that an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views) resizes itself to, to fit the surrounding space of its parent container. 
+The **`.resizable()`** modifier sets the mode that an image in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views) resizes itself to so it fits the surrounding space of its parent container. 
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Inside the view, the `.resizable()` modifier is applied to the [`Image` view](ht
 
 ## Example
 
-The following example creates a red circle image which is resizable and fills the space of its `VStack` parent view, which is 300x300 and a border to show its size:
+The following example creates a red circle image that is resizable and fills the space of its `VStack` parent view, which is 300x300, and a border to show its size:
 
 ```swift
 import SwiftUI
@@ -55,7 +55,7 @@ The image on the left is before applying the `.resizable()` modifier and on the 
 
 ## Optional Parameters
 
-The `.resizable()` modifier also accepts two optional parameters: `resizable(capInsets: EdgeInsets = EdgeInsets())` and `resizable(resizingMode: Image.ResizingMode = .stretch)`. The `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or while tiling it affects the spacing in between each tile. The `resizable(resizingMode: Image.ResizingMode = .stretch)` sets the mode of the resizing to either stretch(the default mode) or to tile the image.
+The `.resizable()` modifier also accepts two optional parameters: `resizable(capInsets: EdgeInsets = EdgeInsets())` and `resizable(resizingMode: Image.ResizingMode = .stretch)`. The `capInsets: EdgeInsets = EdgeInsets()` parameter sets the parts of the image that should not be affected by the resizing or while tiling it affects the spacing in between each tile. The `resizable(resizingMode: Image.ResizingMode = .stretch)` sets the mode of the resizing to either stretch(the default mode) or tile the image.
 
 ## Example
 
