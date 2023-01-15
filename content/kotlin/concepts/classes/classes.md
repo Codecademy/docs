@@ -22,7 +22,6 @@ In Kotlin, **classes** are a blueprint for creating objects. They can contain pr
 The syntax for a class definition consists of the class keyword, followed by the name of the class, and a block of code enclosing the properties and functions of the class:
 
 ```pseudo
-fun main(){
     class ClassName {
     // properties
     // functions
