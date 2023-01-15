@@ -11,7 +11,7 @@ Tags:
   - 'Methods'
   - 'OOP'
 CatalogContent:
-  - 'learn-java'
+  - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
