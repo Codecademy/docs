@@ -1,6 +1,6 @@
 ---
 Title: '.frame()'
-Description: 'Positions the View within an invisible frame with the given sizes.'
+Description: 'Applies an invisible frame around the View with the specified size parameters.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -13,45 +13,71 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.frame()`** modifier method positions the [`View`](https://www.codecademy.com/resources/docs/swiftui/views) within an invisible frame with the specified attributes.
+The **`.frame()`** modifier method applies an invisible frame around the [`View`](https://www.codecademy.com/resources/docs/swiftui/views) with the specified size parameters.
 
 ## Syntax
 
-The **`.frame()`** modifier method can set a static or responsive frame for the view. The static frame will have a fixed size with the specified attributes. In contrast, the flexible frame can shrink and grow the view depending on the surroundings and content of the view.
+The **`.frame()`** modifier method can set a fixed or flexible frame for the view. The fixed frame will have a fixed size with the specified width and height. In contrast, the flexible frame can shrink and grow the view depending on the surroundings and content of the view. In both cases, some parameters are optional and can be left out entirely or passed a `nil` as a value.
 
-### Defining a fix-sized frame
-
-```pseudo
-Text("Some text is here.")
-    .frame(width: 100, height: 100, alignment: .topLeading)
-```
-
-The `.frame()` modifier method has the following attributes:
-
-- `width` to define the width of the view in `pt`(points).
-
-- `height` to specify the height of the view in `pt`(points).
-
-- `alignment` to specify the alignment of the view within the frame. If no `alignment` is specified, the view will be centered within the frame.
-
-### Defining a flexible-sized frame
+### Defining a fixed frame
 
 ```pseudo
 Text("Some text is here.")
-    .frame(minWidth: 100,
-           idealWidth: 120,
-           maxWidth: 200,
-           minHeight: 100,
-           idealHeight: 120,
-           maxHeight: 200,
-           alignment: .bottom)
+    .frame(width: x, height: y, alignment: .position)
 ```
 
-In this case, the `.frame()` modifier method has the following attributes: `minWidth`, `idealWidth`, `maxWidth`, `minHeight`, `idealHeight`,  `maxHeight`, and  `alignment`.
+The `.frame()` modifier method has the following optional parameters:
+
+- `x` is given as an integer to define the width of the view in `pt`(points). SwiftUI assigns the view's width to the frame if `x` is given a `nil` value.
+
+- `y` is given as an integer to define the view's height in `pt`(points). SwiftUI assigns the view's height to the frame if `y` is given a `nil` value.
+
+- `.position` positions the view within the frame. If the view size and the frame size are the same, there is no effect on the alignment of the view. The following options are available:
+
+  - `.topLeading`: Positions the view to the top left corner of the frame.
+  - `.top`: Positions the view to the top middle of the frame.
+  - `.topTrailing`: Positions the view to the top right corner of the frame.
+  - `.leadingFirstTextBaseline`: Positions the view to the top-most text baseline and left side of the frame.
+  - `.centerFirstTextBaseline`: Positions the view to the top-most text baseline and center of the frame.
+  - `.trailingFirstTextBaseline`: Positions the view to the top-most text baseline and right side of the frame.
+  - `.leading`: Positions the view to the frame's vertical middle and left side.
+  - `.center`: Positions the view to the center of the frame.
+  - `.trailing`: Positions the view to the frame's vertical middle and right side.
+  - `.leadingLastTextBaseline`: Positions the view to the bottom-most text baseline and left side of the frame.
+  - `.centerLastTextBaseline`: Positions the view to the bottom-most text baseline and center of the frame.
+  - `.trailingLastTextBaseline`: Positions the view to the bottom-most text baseline and right side of the frame.
+  - `.bottomLeading`: Positions the view to the bottom left corner of the frame.
+  - `.bottom`: Positions the view to the bottom center of the frame.
+  - `.bottomTrailing`: Positions the view to the bottom right corner of the frame.
+
+> **NOTE:** The `.frame()` modifier method be used with one parameter specified (either `height` or `width`) or two parameters specified (`height` and `width`, or `alignment` and `one size parameter) or with all three parameters specified.
+
+### Defining a flexible frame
+
+```pseudo
+Text("Some text is here.")
+    .frame(minWidth: x,
+           idealWidth: y,
+           maxWidth: z,
+           minHeight: u,
+           idealHeight: v,
+           maxHeight: w,
+           alignment: .position)
+```
+
+In this case, the `.frame()` modifier method has the following optional parameters:
+
+- `x` is given as an integer to define the minimum width of the view in `pt`(points).
+- `y` is given as an integer to define the ideal width of the view in `pt`(points).
+- `z` is given as an integer to define the maximum width of the view in `pt`(points).
+- `u` is given as an integer to define the minimum height of the view in `pt`(points).
+- `v` is given as an integer to define the ideal height of the view in `pt`(points).
+- `w` is given as an integer to define the maximum height of the view in `pt`(points).
+- `.position` positions the view within the frame. The same is true here, as written in the above section.
 
 ## Example
 
-The following example creates a fixed-sized frame:
+The following example creates a fix-sized frame:
 
 ```swift
 import SwiftUI
@@ -65,10 +91,10 @@ struct BoldView: View {
 }
 ```
 
-In the above example, the `.frame()` modifier is called on the `Text` view. The specified attributes will create a frame with the width of `150pt` and the height of `50pt` and with top right alignment.
+In the above example, the `.frame()` modifier is called on the `Text` view. The specified parameters will create a `150pt` wide and `50pt` height frame with the view (the text) placed in the top right corner of the frame.
 
-> **Note:** The `.frame()` modifier method does not apply border around the view. Here the `.border()` modifier method is used to visualize the frame.
+> **Note:** The `.frame()` modifier method does not apply a border around the view. Here the `.border()` modifier method is used to visualize the frame.
 
-This will display:
+This will display the following::
 
 ![SwiftUI ViewModifier .frame()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-frame.png)
