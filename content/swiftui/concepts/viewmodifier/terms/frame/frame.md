@@ -75,6 +75,8 @@ In this case, the `.frame()` modifier method has the following optional paramete
 - `w` entered as an integer to define the maximum height of the view in `pt` (points).
 - `.position` positions the view within the frame. The same is true here, as written in the above section.
 
+> **NOTE:** For a flexible frame, the `.frame()` modifier method needs at least one parameter defined and can be used with any number of parameters defined: for both width and height parameters, only the minimum value can be specified, the maximum value specified, or both minimum and maximum can be specified.
+
 ## Example
 
 The following example creates a fix-sized frame:
