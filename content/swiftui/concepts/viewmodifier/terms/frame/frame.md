@@ -17,7 +17,7 @@ The **`.frame()`** modifier method applies an invisible frame around the [`View`
 
 ## Syntax
 
-The **`.frame()`** modifier method can set a fixed or flexible frame for the view. The fixed frame will have a fixed size with the specified width and height. In contrast, the flexible frame can shrink and grow the view depending on the surroundings and content of the view. In both cases, some parameters are optional and can be left out entirely or passed a `nil` as a value.
+The **`.frame()`** modifier method can create a fixed or flexible frame for the view. A fixed frame has a fixed size with the specified width and height. In contrast, a flexible frame can shrink and grow the view depending on the surroundings and content of the view. In both cases, some parameters are optional and can be left out entirely or passed `nil` as a value.
 
 ### Defining a fixed frame
 
@@ -28,11 +28,11 @@ Text("Some text is here.")
 
 The `.frame()` modifier method has the following optional parameters:
 
-- `x` is given as an integer to define the width of the view in `pt`(points). SwiftUI assigns the view's width to the frame if `x` is given a `nil` value.
+- `x` entered as an integer to define the width of the view in `pt` (points). SwiftUI assigns the view's width to the frame if `x` is given `nil` as a value.
 
-- `y` is given as an integer to define the view's height in `pt`(points). SwiftUI assigns the view's height to the frame if `y` is given a `nil` value.
+- `y` entered as an integer to define the view's height in `pt` (points). SwiftUI assigns the view's height to the frame if `y` is given `nil` as a value.
 
-- `.position` positions the view within the frame. If the view size and the frame size are the same, there is no effect on the alignment of the view. The following options are available:
+- `.position` aligns the view within the frame. If the view size and the frame size are the same, there is no effect on the alignment of the view. Otherwise, the following options are available:
 
   - `.topLeading`: Positions the view to the top left corner of the frame.
   - `.top`: Positions the view to the top middle of the frame.
@@ -50,7 +50,7 @@ The `.frame()` modifier method has the following optional parameters:
   - `.bottom`: Positions the view to the bottom center of the frame.
   - `.bottomTrailing`: Positions the view to the bottom right corner of the frame.
 
-> **NOTE:** The `.frame()` modifier method be used with one parameter specified (either `height` or `width`) or two parameters specified (`height` and `width`, or `alignment` and `one size parameter) or with all three parameters specified.
+> **NOTE:** The `.frame()` modifier method can be used with one parameter specified (either `height` or `width`) or two parameters specified (`height` and `width`, or `alignment` and one sizing parameter) or with all three parameters specified.
 
 ### Defining a flexible frame
 
@@ -67,12 +67,12 @@ Text("Some text is here.")
 
 In this case, the `.frame()` modifier method has the following optional parameters:
 
-- `x` is given as an integer to define the minimum width of the view in `pt`(points).
-- `y` is given as an integer to define the ideal width of the view in `pt`(points).
-- `z` is given as an integer to define the maximum width of the view in `pt`(points).
-- `u` is given as an integer to define the minimum height of the view in `pt`(points).
-- `v` is given as an integer to define the ideal height of the view in `pt`(points).
-- `w` is given as an integer to define the maximum height of the view in `pt`(points).
+- `x` entered as an integer to define the minimum width of the view in `pt` (points).
+- `y` entered as an integer to define the ideal width of the view in `pt` (points).
+- `z` entered as an integer to define the maximum width of the view in `pt` (points).
+- `u` entered as an integer to define the minimum height of the view in `pt` (points).
+- `v` entered as an integer to define the ideal height of the view in `pt` (points).
+- `w` entered as an integer to define the maximum height of the view in `pt` (points).
 - `.position` positions the view within the frame. The same is true here, as written in the above section.
 
 ## Example
