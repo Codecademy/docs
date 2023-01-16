@@ -61,8 +61,7 @@ struct coordinates {
   int y;
 };
 
-int main()
-{
+int main() {
   // Declaring variable c1
   struct coordinates c1;
 
@@ -100,8 +99,7 @@ struct coordinates {
   int y;
 };
 
-int main()
-{
+int main() {
   struct coordinates c[4];
   int i;
 

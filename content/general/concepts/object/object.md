@@ -20,7 +20,7 @@ An **object** is associative data that commonly takes the form of a data structu
 
 Objects provide a structured programming approach and are the core units of [object-oriented-programming (OOP)](https://www.codecademy.com/resources/docs/general/programming-paradigms/object-oriented-programming). Developers can easily create various identical objects and modify existing ones within the program.
 
-Objects also provide [encapsulation](https://www.codecademy.com/resources/docs/general/encapsulation), meaning that the data within that object is protected from being altered or destroyed by other functions unless explicitly allowed.
+Objects also provide [encapsulation](https://www.codecademy.com/resources/docs/general/programming-paradigms/encapsulation), meaning that the data within that object is protected from being altered or destroyed by other functions unless explicitly allowed.
 
 ## Memory allocation
 
