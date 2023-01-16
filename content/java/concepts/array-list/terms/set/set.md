@@ -12,18 +12,15 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The `.set()` method is used for replacing element present in a specified position, with another element in instances of the `ArrayList` class. After execution, returns the replaced elements value.
+The `.set()` method is used for replacing element present in a specified position, with another element in instances of the `ArrayList` class. After execution, returns the replaced element's value.
 
 ## Syntax
 
-An element can be replaced in an `ArrayList` instance by another element, by passing new value to the `.set()` method on specified index:
+An element can be replaced in an `ArrayList` instance with another element, by passing new value to the `.set()` method on specified index:
 
 ```pseudo
 arrayListInstance.set(index, element);
 ```
-
-## Return Value
-
 
 ## Example
 
@@ -54,7 +51,7 @@ public class Students {
 }
 ```
 
-The `studentList` output should look like this:
+The output should look like this:
 
 ```shell
 Updated ArrayList: [John, David, George, Tony]
