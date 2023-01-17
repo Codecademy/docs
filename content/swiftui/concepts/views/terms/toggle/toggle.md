@@ -19,12 +19,12 @@ A **`Toggle`** is a View that chooses between "on or off" options based on a `Bo
 ## Syntax
 
 ```pseudo
-Toggle(_ title: StringProtocol, isOn: Binding<Bool>)
+Toggle("Title String", isOn: Binding<Bool>)
 ```
 
-The usual method for creating a text-only `Toggle` involves passing a `title` string as the first parameter, rather than using a trailing [closure](https://www.codecademy.com/resources/docs/swift/closures), and a `Bool` type property `isOn:` that determines the state of the toggle (on or off).
+- Pass a `title` string as the first parameter, rather than using a trailing [closure](https://www.codecademy.com/resources/docs/swift/closures), and a `Bool` type property `isOn:` that determines the state of the toggle (on or off).
 
-- The underscore before `title` indicates that the parameter is optional, meaning that the word `title` can be omitted when using `Toggle`.
+- The underscore before `title` indicates that the parameter is unnamed, meaning that the word `title` will not be needed when using `Toggle`.
 
 ## Example
 
