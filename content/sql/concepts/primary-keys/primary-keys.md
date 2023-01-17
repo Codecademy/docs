@@ -18,7 +18,7 @@ A primary key column has a few requirements:
 
 - None of the values can be `NULL`.
 - Each value must be unique (e.g., two rows in a `customers` table wouldn't have the same primary `customer_id`).
-- A table can not have more than one primary key column.
+- A table cannot have more than one primary key.
 
 Here's an `orders` table where the `order_id` is its primary key:
 
