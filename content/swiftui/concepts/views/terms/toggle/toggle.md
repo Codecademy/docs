@@ -22,9 +22,10 @@ A **`Toggle`** is a View that chooses between "on or off" options based on a `Bo
 Toggle("Title String", isOn: Binding<Bool>)
 ```
 
-- Pass a `title` string as the first parameter, rather than using a trailing [closure](https://www.codecademy.com/resources/docs/swift/closures), and a `Bool` type property `isOn:` that determines the state of the toggle (on or off).
+The following parameters can be applied to a `Toggle` view:
 
-- The underscore before `title` indicates that the parameter is unnamed, meaning that the word `title` will not be needed when using `Toggle`.
+- The `"Title String"` parameter is used instead of a [closure](https://www.codecademy.com/resources/docs/swift/closures).
+- `isOn:` is a binding `Bool` type parameter that determines the state of the toggle (on or off).
 
 ## Example
 
@@ -41,7 +42,7 @@ var body: some View {
 }
 ```
 
-`.padding()` is a view modifier that gives the view that is attached to some space. In this way, the toggle and its label are not squished to the end of the screen.
+The `.padding()` view modifier adds some space to the attached the view. In this way, the toggle and its label are not squished to the end of the screen.
 
 This will display the following when the `Toggle` is off:
 
