@@ -17,7 +17,7 @@ The **`.indexOf()`** method returns the first index at which an element can be f
 
 ## Syntax
 
-```psuedo
+```pseudo
 array.indexOf(searchElement, startIndex);
 ```
 
