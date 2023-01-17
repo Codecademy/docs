@@ -24,7 +24,7 @@ array.indexOf(element, startIndex);
 The following parameters are used in the `.indexOf()` method:
 
 - The `element` to be searched in the `array`.
-- `startIndex`: The index position to begin searching from, this is optional. A negative `startIndex` will offset from the end of the array.
+- The optional `startIndex` position to begin searching from. If one is not given, the search starts from the beginning of the array. Negative indices will offset from the end of the `array`.
 
 ## Examples
 
