@@ -10,8 +10,6 @@ CatalogContent:
  - 'concepts/time-module'
 ---
 
-### **.sleep()**
-
 The python time module function .sleep() suspends execution of current thread for a given period of time(in seconds).
 
 ### **Syntax** 
