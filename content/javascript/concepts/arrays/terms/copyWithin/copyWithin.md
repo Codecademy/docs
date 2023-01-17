@@ -1,6 +1,6 @@
 ---
 Title: '.copyWithin()'
-Description: 'Copies part of an array to another location in the same array and returns it without modifying its length.'
+Description: 'Returns a mutated array with part of it copied to another location in the same array, and its length unchanged.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
@@ -38,32 +38,37 @@ The following parameters can be applied to the `.copyWithin()` method:
   - If `end` >= `myArray.length` or it is omitted, `myArray.length` is used and all elements until the end are copied.
   - If `end` is positioned before or at `start` after normalization, nothing is copied.
 
-## Example 1
+### Sparse Arrays
+
+If the `.copyWithin()` method is applied to a sparse array that contains empty slots, it will populate them with an `undefined` value:
+
+```js
+console.log([1, , 3].copyWithin(2, 1, 2)); 
+// Output: [1, undefined, undefined]
+```
+
+## Example
 
 Using `copyWithin()`
 
 ```js
+// copy elements starting from the second-to-last index
 console.log([1, 2, 3, 4, 5].copyWithin(-2));
-//output: [1, 2, 3, 1, 2]
-
+// copy to index 0 all elements index 3 to the end
 console.log([1, 2, 3, 4, 5].copyWithin(0, 3));
-//output:output: [4, 5, 3, 4, 5]
-
-console.log([1, 2, 3, 4, 5].copyWithin(0, 3, 4));
-//output: [4, 2, 3, 4, 5]
-
+// copy to index 0 the element at index 2
+console.log([1, 2, 3, 4, 5].copyWithin(0, 2, 3));
+// copy to second-to-last index elements starting from index 2 until end of array
 console.log([1, 2, 3, 4, 5].copyWithin(-2, -3, -1));
-//output: [1, 2, 3, 3, 4]
 ```
 
-## Example 2
+This will produce the following output:
 
-Using `copyWithin()` on sparse arrays
-
-```js
-console.log([1, , 3].copyWithin(2, 1, 2)); 
-//output: [1, empty, empty]
-
+```shell 
+[ 1, 2, 3, 1, 2 ]
+[ 4, 5, 3, 4, 5 ]
+[ 3, 2, 3, 4, 5 ]
+[ 1, 2, 3, 3, 4 ]
 ```
 
 ## Codebyte Example
