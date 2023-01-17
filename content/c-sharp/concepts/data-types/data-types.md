@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The two main data types in C# are value ane reference types.
+C-sharp supports many data types that represent the size and kind of values stored in memory. The two main data types in C# are value and reference types.
 
 ## Value Types
 
