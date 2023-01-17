@@ -24,8 +24,7 @@ Toggle("Title String", isOn: Binding<Bool>)
 
 The following parameters can be applied to a `Toggle` view:
 
-- The `"Title String"` parameter is used instead of a [closure](https://www.codecademy.com/resources/docs/swift/closures).
-- `"Title String"` is an optional paramenter; Based on your usecase you can decide to either enter it when calling `Toggle` or inside a [closure](https://www.codecademy.com/resources/docs/swift/closures), as shown in the example below.
+- `"Title String"` is an optional parameter. Based on the use-case, this can be applied when calling `Toggle` or used inside a [closure](https://www.codecademy.com/resources/docs/swift/closures), as shown in the example below.
 - `isOn:` is a binding `Bool` type parameter that determines the state of the toggle (on or off).
 
 ## Example
