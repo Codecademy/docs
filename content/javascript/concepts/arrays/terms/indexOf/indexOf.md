@@ -21,7 +21,9 @@ The **`.indexOf()`** method returns the first index at which an element can be f
 array.indexOf(element, startIndex);
 ```
 
-- `searchElement`: The element we are looking for.
+The following parameters are used in the `.indexOf()` method:
+
+- The `element` to be searched in the `array`.
 - `startIndex`: The index position to begin searching from, this is optional. A negative `startIndex` will offset from the end of the array.
 
 ## Examples
