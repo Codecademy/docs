@@ -38,7 +38,7 @@ Value types are data types that are built-in to C#. The available types and thei
 | `short`   | 2 bytes      |
 | `ushort`  | 2 bytes      |
 
-The following code demonstrates how to instantiate a variable of each of these value types.
+The following code demonstrates how to instantiate a variable of each type shown above:
 
 ```csharp
 bool isOpen = true;
