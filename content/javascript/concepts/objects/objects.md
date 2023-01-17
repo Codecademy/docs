@@ -59,14 +59,14 @@ objectName.propertyName
 person.lastName;
 ```
 
-Bracket notation must be used if the property name has numbers, spaces, or special characters:
+Bracket notation must be used if the property name has spaces, special characters, or begins with a number:
 
 ```pseudo
-objectName["propertyName"]
+objectName['property Name']
 ```
 
 ```js
-person['lastName'];
+person['last Name'];
 ```
 
 ## Object Methods
