@@ -1,6 +1,6 @@
 ---
-Title: '.bold()'
-Description: 'Applies a bold style to text characters in a View.'
+Title: '.fontWeight(_:)'
+Description: 'Sets the font weight of the text.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
@@ -12,37 +12,50 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.bold()`** modifier applies a bold style to text characters in a [`View`](https://www.codecademy.com/resources/docs/swiftui/views).
+The **`.fontWeight(_:)`** modifier sets the font weight. We can apply the following weights: ultraLight, thin, light, regular, medium, semibold, bold, heavy and black.
 
 ## Syntax
 
 ```pseudo
-struct MyView: View {
-    var body: some View {
-        Text("I will be bold text!")
-            .bold()
-    }
-}
+Text("your ultraLight text")
+  .fontWeight(.ultraLight)
 ```
 
-Inside `some View`, the `.bold()` modifier is applied to all text within the [`Text` view](https://www.codecademy.com/resources/docs/swiftui/views/text).
 
 ## Example
 
-The following example creates some bold text:
 
 ```swift
 import SwiftUI
 
-struct BoldView: View {
+struct SomeView: View {
     var body: some View {
-        Text("I'm Bold Text!")
-            .bold()
+      VStack {
+            Text("new font Weight")
+                .fontWeight(.ultraLight)
+            Text("new font Weight")
+                .fontWeight(.thin)
+            Text("new font Weight")
+                .fontWeight(.light)
+            Text("new font Weight")
+                .fontWeight(.regular)
+            Text("new font Weight")
+                .fontWeight(.medium)
+            Text("new font Weight")
+                .fontWeight(.semibold)
+            Text("new font Weight")
+                .fontWeight(.bold)
+            Text("new font Weight")
+                .fontWeight(.heavy)
+            Text("new font Weight")
+                .fontWeight(.black)              
+        } 
     }
 }
+
 ```
 
-In the above example, the `.bold()` modifier is called on the `Text` view. This applies a bold style to all text within the `Text` view.
+
 
 This will display:
 
