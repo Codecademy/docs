@@ -60,11 +60,10 @@ Depending on local regulations, a car may require an engine part ID and a body I
 A composite key would be useful in this case. This is how a `vehicle_registry` table might look (extra parts/columns omitted for brevity):
 
 | engine_id | body_id | gearbox_id | purchase_date |
-| -------- | ----------- | ---------- | ------------- |
-| 500        | abc        | 001      | 2022-01-01    |
-| 600        | def        | 002      | 2022-01-01    |
-| 700        | ghi        | 003      | 2022-01-02    |
-
+| --------- | ------- | ---------- | ------------- |
+| 500       | abc     | 001        | 2022-01-01    |
+| 600       | def     | 002        | 2022-01-01    |
+| 700       | ghi     | 003        | 2022-01-02    |
 
 The statement below creates the `vehicle_registry` table with a composite key:
 
