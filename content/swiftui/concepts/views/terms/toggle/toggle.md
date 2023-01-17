@@ -29,14 +29,14 @@ The following parameters can be applied to a `Toggle` view:
 
 ## Example
 
-The following example displays a `Toggle` that turns a "Wi-Fi" switch on and off by passing the `isWifiOn` variable to the `isOn:` property. The `Label` will be inside a trailing closure.
+The following example displays a `Toggle` that turns a "Wi-Fi" switch on and off by passing the `isWifiOn` variable to the `isOn:` property. The [`Label`](https://www.codecademy.com/resources/docs/swiftui/views/label) will be inside a trailing closure.
 
 ```swift
 @State var isWifiOn = false
 
 var body: some View {
     Toggle(isOn: $isWifiOn) {
-        Text("Wi-Fi")
+        Label("Wi-Fi", systemImage: "wifi")
     }
     .padding()
 }
