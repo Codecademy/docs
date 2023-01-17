@@ -2,7 +2,6 @@
 Title: 'Toggle'
 Description: 'Chooses between an "on or off" state based on a Bool type value.'
 Subjects:
-  - 'Software Development'
   - 'Mobile Development'
   - 'Computer Science'
 Tags:
