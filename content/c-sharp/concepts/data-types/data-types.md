@@ -20,23 +20,23 @@ C-sharp supports many data types that represent the size and kind of values stor
 
 Value types are data types that are built-in to C#. The available types and their memory sizes are as follows:
 
-| Data Type | Memory Size  |
-| --------- | ------------ |
-| `bool`    | 1 byte       |
-| `byte`    | 1 byte       |
-| `sbyte`   | 1 byte       |
-| `char`    | 2 bytes      |
-| `decimal` | 16 bytes     |
-| `double`  | 8 bytes      |
-| `float`   | 4 bytes      |
-| `int`     | 4 bytes      |
-| `uint`    | 4 bytes      |
-| `nint`    | 4 or 8 bytes |
-| `unint`   | 4 or 8 bytes |
-| `long`    | 8 bytes      |
-| `ulong`   | 8 bytes      |
-| `short`   | 2 bytes      |
-| `ushort`  | 2 bytes      |
+| Data Type | Description             | Memory Size  |
+| --------- | ----------------------- | ------------ |
+| `bool`    | Boolean                 | 1 byte       |
+| `byte`    | Byte                    | 1 byte       |
+| `sbyte`   | Short Byte              | 1 byte       |
+| `char`    | Character               | 2 bytes      |
+| `decimal` | Decimal                 | 16 bytes     |
+| `double`  | Double                  | 8 bytes      |
+| `float`   | Float                   | 4 bytes      |
+| `int`     | Integer                 | 4 bytes      |
+| `uint`    | Unsigned Integer        | 4 bytes      |
+| `nint`    | Native Integer          | 4 or 8 bytes |
+| `unint`   | Unsigned Native Integer | 4 or 8 bytes |
+| `long`    | Long                    | 8 bytes      |
+| `ulong`   | Unsigned Long           | 8 bytes      |
+| `short`   | Short                   | 2 bytes      |
+| `ushort`  | Unsigned Short          | 2 bytes      |
 
 The following code demonstrates how to instantiate a variable of each type shown above:
 
