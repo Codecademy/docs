@@ -73,7 +73,7 @@ This will produce the following output:
 
 ## Codebyte Example
 
-Using the `copyWithin()` method to copy the element at index 1 (the second element, or 'b') to the index 3 (the fourth element).
+The following example uses the `.copyWithin()` method to copy the second element at index 1 ('b') to the fourth element at index 3:
 
 ```codebyte/javascript
 let letters = ['a', 'b', 'c', 'd', 'e'];
