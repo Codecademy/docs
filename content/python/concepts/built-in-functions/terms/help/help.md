@@ -21,14 +21,13 @@ The **`help()`** displays documentation about various Python objects including [
 help(object)
 ```
 
-The object is passed to the `help()` function as parameter.
-If an `object` is not provided, the interactive help utility will be started.
+When an `object` parameter is not passed to the `help()` function, the interactive help utility will be started.
 
-If the `object` is a [string](https://www.codecademy.com/resources/docs/python/strings) that matches to a valid module, function, class, keyword, or other topic, a documentation page will be displayed. For other kinds of objects (like a [tuple](https://www.codecademy.com/resources/docs/python/tuples)), the `help()` will show its documentation page. 
+If the `object` is a [string](https://www.codecademy.com/resources/docs/python/strings) that matches a valid module, function, class, keyword, or other topic, a documentation page will be displayed. For other kinds of objects (like a [tuple](https://www.codecademy.com/resources/docs/python/tuples)), the `help()` function will show its documentation page as well.
 
 ## Example
 
-Calling the `help()` function without argument, the following output is returned:
+Calling the `help()` function without an argument, the following output is returned:
 
 ```shell
 Welcome to Python 3's help utility!
@@ -45,7 +44,7 @@ To get a list of available modules, keywords, symbols, or topics, type
 with a one-line summary of what it does; to list the modules whose name
 or summary contain a given string such as "spam", type "modules spam".
 
-help> 
+help>
 ```
 
 The following shows how the `help()` function provides information about Python's built-in [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) function:
@@ -59,7 +58,7 @@ This produces the following output:
 ```shell
 print(...)
    print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-   
+
    Prints the values to a stream, or to sys.stdout by default.
    Optional keyword arguments:
    file:  a file-like object (stream); defaults to the current sys.stdout.
@@ -67,8 +66,6 @@ print(...)
    end:   string appended after the last value, default a newline.
    flush: whether to forcibly flush the stream.
 ```
-
-
 
 ## Codebyte Example
 
