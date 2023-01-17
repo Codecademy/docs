@@ -18,7 +18,7 @@ C-sharp supports many data types that represent the size and kind of values stor
 
 ## Value Types
 
-Value types are data types that are built in to C#. The available types and their memory sizes are as follows:
+Value types are data types that are built-in to C#. The available types and their memory sizes are as follows:
 
 | Data Type | Memory Size  |
 | --------- | ------------ |
