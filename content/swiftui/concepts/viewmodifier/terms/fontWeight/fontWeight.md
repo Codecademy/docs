@@ -28,7 +28,7 @@ The **`.fontWeight()`** modifier sets the font weight. We can apply the followin
 
 ```pseudo
 Text("your ultraLight text")
-  .fontWeight(.ultraLight)
+    .fontWeight(.ultraLight)
 ```
 
 ## Example
@@ -41,10 +41,10 @@ import SwiftUI
 struct SomeView: View {
     var body: some View {
       VStack {
-            Text("new font Weight")
-                .fontWeight(.regular)
-            Text("new font Weight")
-                .fontWeight(.bold)     
+        Text("new font Weight")
+            .fontWeight(.regular)
+         Text("new font Weight")
+            .fontWeight(.bold)
         }
     }
 }
