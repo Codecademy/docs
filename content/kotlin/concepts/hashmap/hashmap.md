@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A `HashMap` is a data structure that maps keys to values and is implemented using a hash table. It is an efficient way to store and retrieve data because it uses a hash function to map keys to indices in an array, so that keys can be found quickly. In Kotlin, a `HashMap` is represented by the `HashMap` class.
+**HashMaps** are unordered collections key-value pairs that are implemented using a [hash table](https://www.codecademy.com/resources/docs/general/hash-table). They offer efficient storage and data retrieval because of how keys are mapped to indices in an array. In Kotlin, a HashMap is represented by the `HashMap` class.
 
 ## Syntax
 
