@@ -1,6 +1,6 @@
 ---
 Title: 'Variables'
-Description: 'Variables are used whenever there’s a need to store a piece of data and ensures code re-usability.'
+Description: 'Variables are used to store a piece of data to be reused later in the program.'
 Subjects:
   - 'Computer Science'
 Tags:
