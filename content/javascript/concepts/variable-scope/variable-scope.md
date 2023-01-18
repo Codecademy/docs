@@ -1,6 +1,6 @@
 ---
-Title: 'Variable Scope in Javascirpt'
-Description: 'Documentation for variable scope in Javascript'
+Title: 'Variable Scope'
+Description: 'Variable Scope refers to the areas where variables are visible and accessible.'
 Subjects:
   - 'Web Development'
   - 'javascript'
@@ -12,33 +12,33 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-**Variable Scope** refers to the areas where variables are visible and accessible. Before ES6 was introduced in 2015, Javascript used only global scope and function Scope.
+**Variable Scope** refers to the areas where [variables](https://www.codecademy.com/resources/docs/javascript/variables) are visible and accessible. Before ES6 was introduced in 2015, Javascript used only global scope and function Scope.
 
 ## Global Scope
 
 A variable accessible anywhere in a program is said to have **Global Scope** and is called a **Global Variable**. A global variable must be declared outside all functions in a program.
 
 ```javascript
-var a = 1; //global variable
+var a = 1; // Global variable
 
-alert(a);  //code here can use variable a
+alert(a);  // Code here can use variable a
 
-//code here can also use variable a
+// Code here can also use variable a
 function myFunction(){
-    alert(a + 1);
+  alert(a + 1);
 }
 ```
 
-If you assign a value to a variable that has not been declared, even within a function, the result will also be a global variable.
+If a value is assigned to a variable that has not been declared, even within a function, the result will also be a global variable.
 
 ```javascript
 function myFunction(){
-    a = 1; //global variable
+  a = 1; // Global variable
 }
 
 myFunction();
 
-alert(a);  //code here can use variable a
+alert(a);  // Code here can use variable a
 ```
 
 ## Function Scope
@@ -50,16 +50,16 @@ function myFunction(){
 	var a = 1;
     if(a === 1){
     	var b = 2;
-        alert(a); //code here can use variable a
-        alert(b); //code here can use variable b
+        alert(a); // Code here can use variable a
+        alert(b); // Code here can use variable b
     }
-    alert(a); //code here can also use variable a
-    alert(b); //code here can also use variable b
+    alert(a); // Code here can also use variable a
+    alert(b); // Code here can also use variable b
 }
 
 myFunction();
 
-alert(a); //code here CANNOT use variable a
+alert(a); // Code here CANNOT use variable a
 ```
 
 ## Block Scope
@@ -73,16 +73,16 @@ function myFunction(){
 	let a = 1;
     if(a === 1){
     	let b = 2;
-        alert(a); //code here can use variable a
-        alert(b); //code here can use variable b
+      alert(a); // Code here can use variable a
+      alert(b); // Code here can use variable b
     }
-    alert(a); //code here can also use variable a
-    alert(b); //code here CANNOT use variable b
+  alert(a); // Code here can also use variable a
+  alert(b); // Code here CANNOT use variable b
 }
 
 myFunction();
 
-alert(a); //code here CANNOT use variable a
-alert(b); //code here also CANNOT use variable b
+alert(a); // Code here CANNOT use variable a
+alert(b); // Code here also CANNOT use variable b
 ```
 
