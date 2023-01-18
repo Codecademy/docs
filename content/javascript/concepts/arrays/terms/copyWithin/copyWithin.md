@@ -23,6 +23,7 @@ myArray.copyWithin(target, start, end);
 ```
 
 The following parameters can be applied to the `.copyWithin()` method:
+
 - `target` (required): A zero-based index to copy the sequence to.
   - If `target` is negative, it counts back from `myArray.length` and `target + myArray.length` is used.
   - If `target` is < `myArray.length * -1`, `0` is used.
@@ -30,8 +31,8 @@ The following parameters can be applied to the `.copyWithin()` method:
   - If, after `myArray` is normalized, the `target` is positioned after `start`, copying only occurs until the end of `myArray.length`(i.e., `.copyWithin()` never extends the `myArray`).
 - `start` (optional): A zero-based index at which to start copying the elements from.
   - If `start` is negative, it counts back from the end of `myArray` and `start + myArray.length` is used.
-  - If `start` < `myArray.length * -1` or it is omitted, `0` is used. 
-  - If `start` >= `myArray.length`, nothing is copied. 
+  - If `start` < `myArray.length * -1` or it is omitted, `0` is used.
+  - If `start` >= `myArray.length`, nothing is copied.
 - `end` (optional): A zero-based index at which to end copying elements from (non-inclusive).
   - If `end` is negative, it counts back from the end of `myArray` and `end + myArray.length` is used.
   - If `end` < `myArray.length * -1`, `0` is used.
@@ -67,7 +68,7 @@ console.log([1, 2, 3, 4, 5].copyWithin(-2, -3, -1));
 
 This will produce the following output:
 
-```shell 
+```shell
 [ 1, 2, 3, 1, 2 ]
 [ 4, 5, 3, 4, 5 ]
 [ 3, 2, 3, 4, 5 ]
