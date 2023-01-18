@@ -32,23 +32,9 @@ struct SomeView: View {
     var body: some View {
       VStack {
             Text("new font Weight")
-                .fontWeight(.ultraLight)
-            Text("new font Weight")
-                .fontWeight(.thin)
-            Text("new font Weight")
-                .fontWeight(.light)
-            Text("new font Weight")
                 .fontWeight(.regular)
             Text("new font Weight")
-                .fontWeight(.medium)
-            Text("new font Weight")
-                .fontWeight(.semibold)
-            Text("new font Weight")
-                .fontWeight(.bold)
-            Text("new font Weight")
-                .fontWeight(.heavy)
-            Text("new font Weight")
-                .fontWeight(.black)              
+                .fontWeight(.bold)            
         } 
     }
 }
@@ -59,4 +45,4 @@ struct SomeView: View {
 
 This will display:
 
-![SwiftUI ViewModifier .bold()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-bold.png)
+![SwiftUI ViewModifier .fontWeight(_:)](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-fontWeight-example.png)
