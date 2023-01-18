@@ -41,4 +41,4 @@ struct SomeView: View {
 
 This will display:
 
-![SwiftUI ViewModifier .fontWeight(_:)](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-fontWeight-example.png)
+![SwiftUI ViewModifier fontWeight(_:)](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-fontWeight-example.png)
