@@ -1,6 +1,6 @@
 ---
 Title: 'Prototype Pattern'
-Description: 'The prototype pattern adds cloning functionality to an objects class.'
+Description: 'Adds cloning functionality to an objects class.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'

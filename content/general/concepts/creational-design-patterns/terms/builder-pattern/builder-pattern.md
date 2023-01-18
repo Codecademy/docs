@@ -1,6 +1,6 @@
 ---
 Title: 'Builder Pattern'
-Description: 'The builder pattern decouples the responsibility of object creation from the desired objects class.'
+Description: 'Decouples the responsibility of object creation from the desired objects class.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
