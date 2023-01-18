@@ -1,6 +1,6 @@
 ---
 Title: 'HashMaps'
-Description: 'A HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
+Description: 'HashMaps are unordered collections of key-value pairs that are implemented using hash tables.'
 Subjects:
   - 'Computer Science'
 Tags:
