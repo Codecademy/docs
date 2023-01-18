@@ -19,6 +19,7 @@ CatalogContent:
 
 ```pseudo
 val map = HashMap<KeyType, ValueType>()
+val map: HashMap<KeyType, ValueType> = HashMap()
 ```
 
 Here, `KeyType` is the type of the keys in the map, and `ValueType` is the type of the values.
