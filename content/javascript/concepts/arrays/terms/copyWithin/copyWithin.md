@@ -27,7 +27,7 @@ The following parameters can be applied to the `.copyWithin()` method:
   - If  `target` is negative, it counts back from `myArray.length` and `target + myArray.length` is used.
   - If `target` is < `myArray.length * -1`, `0` is used.
   - If `target` is >= `myArray.length`, nothing is copied. 
-  - If, after `myArray` is normalized, the `target` is positioned after `start`, copying only occurs until the end of `myArray.length`(i.e., `copyWithin()` never extends the `myArray`).
+  - If, after `myArray` is normalized, the `target` is positioned after `start`, copying only occurs until the end of `myArray.length`(i.e., `.copyWithin()` never extends the `myArray`).
 - `start` (optional): A zero-based index at which to start copying the elements from.
   - If `start` is negative, it counts back from the end of `myArray` and `start + myArray.length` is used.
   - If `start` < `myArray.length * -1` or it is omitted, `0` is used. 
@@ -49,15 +49,18 @@ console.log([1, , 3].copyWithin(2, 1, 2));
 
 ## Example
 
-Using `copyWithin()`
+The following examples has a few calls to the `.copyWithin()` method, applying combinations of the available parameters:
 
 ```js
 // copy elements starting from the second-to-last index
 console.log([1, 2, 3, 4, 5].copyWithin(-2));
+
 // copy to index 0 all elements index 3 to the end
 console.log([1, 2, 3, 4, 5].copyWithin(0, 3));
+
 // copy to index 0 the element at index 2
 console.log([1, 2, 3, 4, 5].copyWithin(0, 2, 3));
+
 // copy to second-to-last index elements starting from index 2 until end of array
 console.log([1, 2, 3, 4, 5].copyWithin(-2, -3, -1));
 ```
