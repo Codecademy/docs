@@ -15,21 +15,21 @@ CatalogContent:
 
 The **`.fontWeight()`** modifier sets the font weight. We can apply the following weights:
 
-+ ultraLight
-+ thin
-+ light
-+ regular
-+ medium
-+ semibold
-+ bold
-+ heavy
-+ black
+  - ultraLight
+  - thin
+  - light
+  - regular
+  - medium
+  - semibold
+  - bold
+  - heavy
+  - black
 
 ## Syntax
 
 ```pseudo
 Text("your ultraLight text")
-    .fontWeight(.ultraLight)
+  .fontWeight(.ultraLight)
 ```
 
 ## Example
@@ -40,14 +40,14 @@ In the following example we use `regular` and `bold` expressions to set font wei
 import SwiftUI
 
 struct SomeView: View {
-    var body: some View {
-      VStack {
-        Text("new font Weight")
-            .fontWeight(.regular)
-         Text("new font Weight")
-            .fontWeight(.bold)
-        }
+  var body: some View {
+    VStack {
+      Text("new font Weight")
+        .fontWeight(.regular)
+      Text("new font Weight")
+        .fontWeight(.bold)
     }
+  }
 }
 ```
 
