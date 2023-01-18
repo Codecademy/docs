@@ -1,6 +1,6 @@
 ---
 Title: '.resizable()'
-Description: 'Sets the mode that an image in a View resizes itself to so it fits the surrounding space of its parent container.'
+Description: 'Configures an image in a View to resize itself to so it fits the surrounding space of its parent container.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
