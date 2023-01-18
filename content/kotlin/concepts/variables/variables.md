@@ -14,7 +14,7 @@ CatalogContent:
 **Variables** are used to store pieces of data that can be either mutable or read-only. The value stored in a variable can be of different [data types](https://www.codecademy.com/resources/docs/kotlin/data-types) (e..g, numbers, characters, strings).
 
 ## Syntax
-```kotlin
+```pseudo
 var x: Type = mutableValue
 val y = readOnlyValue
 ```
