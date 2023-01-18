@@ -103,7 +103,7 @@ public class PizzaOrder {
 }
 ```
 
-**Note:** Setters are negated for immutability. Some Enums have been provided to safely model the choices an order may have.
+> **Note:** Setters are negated for immutability. Some Enums have been provided to safely model the choices an order may have.
 
 ```java
 public enum Topping {

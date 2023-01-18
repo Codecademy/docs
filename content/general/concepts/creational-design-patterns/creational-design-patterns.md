@@ -18,16 +18,16 @@ CatalogContent:
 
 ## Structure
 
-Most creational design patterns generally abide the following structure:
+Most creational design patterns generally abide by the following structure:
 
 ![Creational Design Pattern Structure](https://raw.githubusercontent.com/Codecademy/docs/main/media/creational-design-pattern-structure.png)
 
 - The "Creator" declares the interface for the new object and returns it.
-- The "Implimenter" applies the object's interface.
+- The "Implementer" applies the object's interface.
 
 ## Use Cases
 
-Creational design patterns promote independence and flexibility for object creation. Instead of complex, hard-coded behaviors, objects are defined by a set of smaller behaviors that are more maintainble. They can develop more complex behaviors later on. Some common scenarios for applying creational design patterns include the following:
+Creational design patterns promote independence and flexibility for object creation. Instead of complex, hard-coded behaviors, objects are defined by a set of smaller behaviors that are more maintainable. They can develop more complex behaviors later on. Some common scenarios for applying creational design patterns include the following:
 
 - How objects are created should be separate from the system they inhabit.
 - Sets of related objects are made to be used together.
