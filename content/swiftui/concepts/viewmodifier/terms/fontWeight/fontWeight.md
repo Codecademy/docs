@@ -7,6 +7,7 @@ Subjects:
 Tags:
   - 'SwiftUI'
   - 'SwiftUI Modifiers'
+  - 'Xcode'
 CatalogContent:
   - 'learn-swift'
   - 'paths/build-ios-apps-with-swiftui'
