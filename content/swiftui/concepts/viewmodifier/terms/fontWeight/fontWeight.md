@@ -14,6 +14,7 @@ CatalogContent:
 ---
 
 The **`.fontWeight()`** modifier sets the font weight. We can apply the following weights:
+
 + ultraLight
 + thin
 + light
