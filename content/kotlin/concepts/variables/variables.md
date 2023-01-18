@@ -13,7 +13,7 @@ CatalogContent:
 
 **Variables** are used to store pieces of data that can be either mutable or read-only. The value stored in a variable can be of different [data types](https://www.codecademy.com/resources/docs/kotlin/data-types) (e..g, numbers, characters, strings).
 
-## Declaring a Variable
+## Syntax
 
 A variable in Kotlin is declared using the `var` keyword for a mutable variable or the `val` keyword for a read-only variable. Here's an example of how to declare variables in Kotlin:
 
