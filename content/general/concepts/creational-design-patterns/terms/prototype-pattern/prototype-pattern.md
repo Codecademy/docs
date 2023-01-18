@@ -1,6 +1,6 @@
 ---
 Title: 'Prototype Pattern'
-Description: 'The prototype pattern adds cloning functionality to an objects class.'
+Description: 'Adds cloning functionality to an objects class.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **prototype pattern** adds cloning functionality to an object's class. After the instantiation an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
+The **prototype pattern** adds cloning functionality to an object's class. After the instantiation of an initial object, the prototype removes the need for the `new` keyword in creating subsequent objects at run time. New objects are created using the property values of a pre-existing object.
 
 Two types of copying are associated with the prototype pattern:
 
@@ -81,7 +81,7 @@ public class Episode {
 }
 ```
 
-**Note:** The properties of the `Episode` class are mutable.
+> **Note:** The properties of the `Episode` class are mutable.
 
 The following code demonstrates a limitation of the shallow copy:
 
@@ -104,7 +104,7 @@ public class Main {
 }
 ```
 
-Our main method starts by creating two new objects: `episodeOne` of type `Episode` and `seriesOne` of type `Series`. `seriesOne` is then cloned using a shallow copy to instantiate `seriesTwo`, and as a result, our program now has two `Series` objects (`seriesOne` and `seriesTwo`) referencing a single list of episodes in memory. Finally, when we change the name of the episode through its setter method, the name change appears in both Series 1 Episode 1 and Series 2 Episode 1.
+Our main method starts by creating two new objects: `episodeOne` of type `Episode` and `seriesOne` of type `Series`. `seriesOne` is then cloned using a shallow copy to instantiate `seriesTwo`, and as a result, our program now has two `Series` objects (`seriesOne` and `seriesTwo`) referencing a single list of episodes in memory. Finally, when the name of the episode is changed through its setter method, the name change appears in both Series 1 Episode 1 and Series 2 Episode 1.
 
 Below is the same example but using the `deepCopy()` in place of `clone()`:
 
@@ -252,7 +252,7 @@ public class ShowIdNotRecognisedException extends Throwable {
 
 The `Main` class below, starts the program and acts as the client in this example. It asks the registry to instantiate the initial objects to clone from before using the `UserRepository`'s data and the `getShow` method to return a list of `Film` and `TvSeries` objects representing a user's previously watched shows.
 
-**Note:** After the instantiation of initial objects in the registry's `.loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
+> **Note:** After the instantiation of initial objects in the registry's `.loadCache()`, all other `Film` and `TvSeries` objects are created through cloning functionality. The `new` keyword is absent.
 
 ```java
 public class Main {
