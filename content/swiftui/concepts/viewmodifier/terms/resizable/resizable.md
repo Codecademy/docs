@@ -49,7 +49,7 @@ struct ContentView: View {
 }
 ```
 
-The image on the left is before applying the `.resizable()` modifier and on the right is after, showing the image fitting the surrounding space within the border. This will display:
+The image on the left is before applying the `.resizable()` modifier and on the right is after, showing the image fitting the surrounding space within the border:
 
 ![SwiftUI ViewModifier .resizable()](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-resizable.png)
 
