@@ -40,23 +40,3 @@ And you can use the `mapOf()` function to create an immutable `HashMap`:
 ```pseudo
 val map = mapOf<KeyType, ValueType>()
 ```
-
-## Accessing Item
-
-To access the elements of a `HashMap`, you can use the `get()` function to retrieve the value for a given key. For example:
-
-```kotlin
-val map = HashMap<String, Int>().apply {
-    put("apple", 1)
-    put("banana", 2)
-    put("cherry", 3)
-}
-
-val value = map.get("apple")
-```
-
-The output for the above code will be:
-
-```
-1
-```
