@@ -15,12 +15,8 @@ CatalogContent:
 
 ## Syntax
 ```pseudo
-fun main() {
-    // Declare a mutable variable
-    var x: Int = 5
-    // Declare a read-only variable
-    val y: String = "Hello, World!"
-}
+var x: Type = mutableValue
+val y = readOnlyValue
 ```
 
 Declaring the type of a variable is optional in Kotlin, as the type can be inferred from the value assigned to the variable. For example, the following declarations are equivalent to the ones above:
