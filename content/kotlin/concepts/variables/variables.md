@@ -19,16 +19,7 @@ var x: Type = mutableValue
 val y = readOnlyValue
 ```
 
-Declaring the type of a variable is optional in Kotlin, as the type can be inferred from the value assigned to the variable. For example, the following declarations are equivalent to the ones above:
-
-```kotlin
-fun main() {
-    // Declare a mutable variable with inferred type
-    var x = 5
-    // Declare a read-only variable with inferred type
-    val y = "Hello, World!"
-}
-```
+In Kotlin, the `var` keyword is used to declare mutable variable while the `val` keyword is used for a read-only variable. The variable can either be explicitly typed, as shown with `x`. The type can also be inferred, as shown with `y`.
 
 It's important to note that, unlike other programming languages, Kotlin doesn't have a `null` type. Instead, it has nullable and non-nullable types. A nullable type can hold a null value, while a non-nullable type cannot. To declare a nullable type, you can use the `?` operator after the type. For example:
 
