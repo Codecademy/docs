@@ -22,13 +22,7 @@ val map = HashMap<KeyType, ValueType>()
 val map: HashMap<KeyType, ValueType> = HashMap()
 ```
 
-Here, `KeyType` is the type of the keys in the map, and `ValueType` is the type of the values.
-
-The types can also be specified when creating an instance of the `HashMap` class like this:
-
-```pseudo
-val map: HashMap<KeyType, ValueType> = HashMap()
-```
+The `KeyType` and `ValueType` are the data types respectively assigned to the keys and values of the `map`.
 
 The `mutableMapOf()` function is used to create a mutable HashMap:
 
