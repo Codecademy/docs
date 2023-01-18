@@ -43,7 +43,7 @@ CREATE TABLE students (
 
 The `PRIMARY KEY` constraint is used to create columns that uniquely identify each row. Attempts to insert a row with a existing primary key will result in a constraint violation that prevents the new row from being added.
 
-If a table was created with a priamry key, it be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a `PRIMARY KEY` constraint on the `ID` column on the `students` table:
+If a table was created without a primary key, it be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a `PRIMARY KEY` constraint on the `ID` column on the `students` table:
 
 ```pseudo
 ALTER TABLE students
