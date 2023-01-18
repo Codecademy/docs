@@ -27,7 +27,7 @@ var body: some View {
 
 ## Example
 
-In the example below, we have an `enum` that stores a selection of difficulty levels, an `@State` property that stores the selected difficulty, and inside the `body` there is a `List` with a `Picker`. 
+In the example below, the `@State` property wrapper tracks the selected difficulty, and inside the `body` there is a `Picker` that allows the user to select a difficulty from a selection of difficulty levels that are stored within the [`enum`](https://www.codecademy.com/resources/docs/swift/enums).
 
 ```swift
 enum Difficulty {
@@ -42,9 +42,9 @@ enum Difficulty {
 var body: some View {
     HStack {
         Text("Level:")
-        
+
         Spacer()
-        
+
         Picker("Level:", selection: $selectedDifficulty) {
             Text("Easy")
                .tag(Difficulty.easy)
@@ -64,10 +64,9 @@ var body: some View {
 
 ```
 
-A **`Picker`** can be created by providing a title or label, a selection of binding, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
+A **`Picker`** can be created by providing a title or label, a selection, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
 
-The example above will display a `Picker` wrapped inside a `HStack` which will display the text `'Level:'` and the selection right at the end. 
-The `'Text'` and the `'Picker'` are separated by a `'Spacer()'` which is pushing both views to the edge of the screen.
+The example above will display a `Picker` wrapped inside a `HStack` which will display the text `'Level:'` and the selection right at the end. In addition, the `Text` and `Picker` view are separated by a `Spacer()`, which will push both views to the edge of the screen.
 Inside the brackets are all available options. `.tag()` differentiates between certain selectable views, like the possible values of the picker.
 
 This will display the following:
