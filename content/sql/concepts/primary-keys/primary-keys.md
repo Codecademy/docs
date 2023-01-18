@@ -14,47 +14,54 @@ CatalogContent:
 
 **Primary keys** are special columns that are used to uniquely identify each row of a table in SQL.
 
-A primary key column has a few requirements:
+## Syntax
+
+```pseudo
+CREATE TABLE table_key (
+  id INTEGER PRIMARY KEY,
+  column_1 TEXT,
+  column_2 INTEGER
+);
+```
+
+The `PRIMARY KEY` constraint is used to create columns that uniquely identify each row. A primary key column has a few requirements:
 
 - None of the values can be `NULL`.
 - Each value must be unique (e.g., two rows in a `customers` table wouldn't have the same primary `customer_id`).
 - A table cannot have more than one primary key.
 
-Here's an `orders` table where the `order_id` is its primary key:
+Attempts to insert a row with an existing primary key will result in a constraint violation that prevents the new row from being added.
+
+If a table was created without a primary key, it can be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a primary `id` column, via the `PRIMARY KEY` constraint, to `table_name`:
+
+```pseudo
+ALTER TABLE table_name
+ADD PRIMARY KEY (id);
+```
+
+## Foreign Keys
+
+When the primary key for one table appears in a different table, it is called a foreign key. The most common types of [joins](https://www.codecademy.com/resources/docs/sql/joins) will be joining a foreign key from one table with the primary key from another table.
+
+For instance, the following `orders` table is created and joined via `FOREIGN KEY` with an existing `customer` table through its `customer_id`:
+
+```sql
+CREATE TABLE orders (
+  order_id INTEGER NOT NULL,
+  total_cost FLOAT
+  purchase_date DATE
+  PRIMARY KEY (order_id)
+  FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+```
+
+The displayed `orders` table, with its primary key (`order_id`) and foreign key (`customer_id`), may look like this:
 
 | order_id | customer_id | total_cost | purchase_date |
 | -------- | ----------- | ---------- | ------------- |
 | 1        | 1001        | 13.99      | 2022-01-01    |
 | 2        | 1294        | 61.42      | 2022-01-01    |
 | 3        | 1001        | 23.45      | 2022-01-02    |
-
-## Syntax
-
-The statement below sets a `PRIMARY KEY` on the `students` table:
-
-```pseudo
-CREATE TABLE students (
-  id INTEGER PRIMARY KEY,
-  name TEXT,
-  grade INTEGER,
-  age INTEGER
-);
-```
-
-The `PRIMARY KEY` constraint is used to create columns that uniquely identify each row. Attempts to insert a row with a existing primary key will result in a constraint violation that prevents the new row from being added.
-
-If a table was created with a priamry key, it be added with the [`ALTER TABLE`](https://www.codecademy.com/resources/docs/sql/commands/alter-table) command. The statement below adds a `PRIMARY KEY` constraint on the `ID` column on the `students` table:
-
-```pseudo
-ALTER TABLE students
-ADD PRIMARY KEY (ID);
-```
-
-## Foreign Keys
-
-When the primary key for one table appears in a different table, it is called a foreign key.
-
-Why is this important? The most common types of joins will be joining a foreign key from one table with the primary key from another table. For instance, when we join the `orders` table and the `customers` table, we join on the `customer_id` column, which is a foreign key in `orders` and the primary key in `customers`.
 
 ## Composite Keys
 
