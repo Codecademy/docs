@@ -1,6 +1,6 @@
 ---
 Title: 'isinf()'
-Description: 'Returns a value telling whether the argument is an infinite value.'
+Description: 'Returns a value indicating whether the argument is an infinite value.'
 Subjects:
   - 'Computer Science'
 Tags:
