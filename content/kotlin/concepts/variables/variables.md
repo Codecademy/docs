@@ -11,7 +11,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **variable** is a storage location for a value that can be either mutable or read-only. The value stored in a variable can be of different types, such as numbers, characters, or strings.
+**Variables** are used to store pieces of data that can be either mutable or read-only. The value stored in a variable can be of different [data types](https://www.codecademy.com/resources/docs/kotlin/data-types) (e..g, numbers, characters, strings).
 
 ## Declaring a Variable
 
