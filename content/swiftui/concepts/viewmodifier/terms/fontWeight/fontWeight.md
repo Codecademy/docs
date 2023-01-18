@@ -33,7 +33,7 @@ Text("your ultraLight text")
 
 ## Example
 
-In the following example we use regular and bold weights to set font weight.
+In the following example we use `regular` and `bold` expressions to set font weight.
 
 ```swift
 import SwiftUI
