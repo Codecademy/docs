@@ -16,7 +16,7 @@ The **`.set()`** method is used for replacing the element present in a specified
 
 ## Syntax
 
-An element can be replaced in an `ArrayList` instance with another element, by passing new value to the `.set()` method with a specified index:
+An element can be replaced in an `ArrayList` instance with another element by passing new value to the `.set()` method with a specified index:
 
 ```pseudo
 arrayListInstance.set(index, element);
