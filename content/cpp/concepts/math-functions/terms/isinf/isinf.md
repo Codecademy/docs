@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`isinf()`** function returns a value telling whether the argument has an infinite value.
+The **`isinf()`** function returns a value indicating whether the argument has an infinite value.
 
 ## Syntax
 
