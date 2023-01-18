@@ -61,15 +61,13 @@ var body: some View {
     }
     .padding()
 }
-
 ```
 
 A **`Picker`** can be created by providing a title or label, a selection, and the content to display. The `selection` parameter needs to bound to an `@State` property which will keep track of possible changes in the selection.
 
-The example above will display a `Picker` wrapped inside a `HStack` which will display the text `'Level:'` and the selection right at the end. In addition, the `Text` and `Picker` view are separated by a `Spacer()`, which will push both views to the edge of the screen.
-Inside the brackets are all available options. `.tag()` differentiates between certain selectable views, like the possible values of the picker.
+The example above will display a `Picker` wrapped inside a [`HStack`](https://www.codecademy.com/resources/docs/swiftui/views/hstack). In addition, the `Text` and `Picker` view are separated by a `Spacer()` which will push both views to the edge of the screen. All the available difficulty options are available within the picker as text views and the `.tag()` modifier differentiates between the selectable views.
 
-This will display the following:
+This will display the following by default and when the picker is clicked, respectively:
 
 ![Picker](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-picker.png)
 ![Picker Open](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-picker-open.png)
