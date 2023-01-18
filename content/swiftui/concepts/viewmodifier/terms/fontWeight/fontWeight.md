@@ -21,9 +21,7 @@ Text("your ultraLight text")
   .fontWeight(.ultraLight)
 ```
 
-
 ## Example
-
 
 ```swift
 import SwiftUI
