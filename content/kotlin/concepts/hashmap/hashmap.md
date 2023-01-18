@@ -23,7 +23,7 @@ val map = HashMap<KeyType, ValueType>()
 
 Here, `KeyType` is the type of the keys in the map, and `ValueType` is the type of the values.
 
-You can also specify the types when you create an instance of the `HashMap` class like this:
+The types can also be specified when creating an instance of the `HashMap` class like this:
 
 ```pseudo
 val map: HashMap<KeyType, ValueType> = HashMap()
