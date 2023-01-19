@@ -27,7 +27,7 @@ If `x` is infinite, the `isinf()` function will return a non-zero value for `tru
 
 ## Example
 
-The following example uses the `isinf()` function to check whether `1.0` is finite:
+The following example uses the `isinf()` function to check whether `1.0` is infinite:
 
 ```cpp
 #include <iostream>
