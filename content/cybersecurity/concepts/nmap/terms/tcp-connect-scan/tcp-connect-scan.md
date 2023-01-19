@@ -19,7 +19,7 @@ A **TCP connect scan** establishes a complete connection to the target host by c
 
 The following image shows how this scan connects with the TCP three-way handshake and then terminates afterward:
 
-  ![TCP handshake and network scan](https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png)
+![TCP handshake and network scan](https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png)
 
 ## Syntax
 
