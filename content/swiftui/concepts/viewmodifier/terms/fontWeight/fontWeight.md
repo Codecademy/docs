@@ -13,28 +13,29 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.fontWeight()`** modifier sets the font weight. We can apply the following weights:
-
-- ultraLight
-- thin
-- light
-- regular
-- medium
-- semibold
-- bold
-- heavy
-- black
+The **`.fontWeight()`** modifier sets the font weight.
 
 ## Syntax
 
 ```pseudo
-Text("your ultraLight text")
-  .fontWeight(.ultraLight)
+Text("your text")
+  .fontWeight(.weight)
 ```
+We can apply the following weights:
+
+- .ultraLight
+- .thin
+- .light
+- .regular
+- .medium
+- .semibold
+- .bold
+- .heavy
+- .black
 
 ## Example
 
-In the following example we use `regular` and `bold` expressions to set font weight.
+In the following example we use `.regular` and `.bold` expressions to set font weight.
 
 ```swift
 import SwiftUI
@@ -42,9 +43,9 @@ import SwiftUI
 struct SomeView: View {
   var body: some View {
     VStack {
-      Text("new font Weight")
+      Text("Regular Font Weight")
         .fontWeight(.regular)
-      Text("new font Weight")
+      Text("Bold Font Weight")
         .fontWeight(.bold)
     }
   }
