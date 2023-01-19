@@ -59,6 +59,7 @@ Comparison
 Compilation
 Components
 Computer Vision
+CMS
 Concatenation
 Conceptual
 Const
@@ -196,6 +197,7 @@ OOP
 Open Source
 Operating Systems
 Operators
+Optimization
 Optionals
 Output
 p5
@@ -259,6 +261,7 @@ Structure
 Style
 SwiftUI
 SwiftUI Views
+SwiftUI ViewModifiers
 Switch
 Symbol
 Syntax
@@ -303,6 +306,7 @@ Web3
 WebRTC
 While
 Whiteboarding
+WordPress
 World Wide Web
 Xcode
 ```
