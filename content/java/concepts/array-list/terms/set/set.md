@@ -12,19 +12,23 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.set()`** method is used for replacing the element present in a specified position with another element in instances of the `ArrayList` class. After execution, returns the replaced element's value.
+The **`.set()`** method replaces an element at a specified position with another element in an `ArrayList` instance. After execution, the replaced element is returned.
 
 ## Syntax
 
 An element can be replaced in an `ArrayList` instance with another element by passing new value to the `.set()` method with a specified index:
 
 ```pseudo
-arrayListInstance.set(index, element);
+arrayListInstance.set(index, newElement);
 ```
+
+An element at a specified `index` can be replaced in an `arrayListInstance` with the `newElement`.
+
+> **Note:** The `newElement` must be of the same [data type](https://www.codecademy.com/resources/docs/java/data-types) as the rest of the elements in `arrayListInstance`. Otherwise, an error will occur.
 
 ## Example
 
-In the example below, an empty `ArrayList` instance `studentList` is created and can hold `String`-type elements. Next, a few elements are added with [the `.add()` method](https://www.codecademy.com/resources/docs/java/array-list/add). Lastly, two students are replaced in the `ArrayList` with `.set()` method:
+In the example below, an empty `ArrayList` instance `studentList` is created and can hold `String`-type elements. Next, a few elements are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, two students are replaced with the `.set()` method:
 
 ```java
 import java.util.ArrayList;
