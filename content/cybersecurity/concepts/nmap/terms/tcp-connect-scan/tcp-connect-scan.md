@@ -17,7 +17,8 @@ A **TCP connect scan** establishes a complete connection to the target host by c
 
 > **Note:** This is not to be confused with another common scan technique, the TCP SYN stealth scan (`-sS`), which completes up to half of its connection with the target host. Therefore, the TCP connect scan takes longer and requires more packets to perform.
 
-The following image shows how this scan connects with the TCP three-way handshake and then terminates afterward: 
+The following image shows how this scan connects with the TCP three-way handshake and then terminates afterward:
+
   ![TCP handshake and network scan](https://static-assets.codecademy.com/skillpaths/learn-nmap/Performing_Basic_Network_Scans/network_scan_01.png)
 
 ## Syntax
