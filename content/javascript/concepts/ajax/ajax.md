@@ -16,11 +16,11 @@ CatalogContent:
 
 <link rel="canonical" href="https://www.codecademy.com/resources/blog/what-is-ajax/" />
 
-**Asynchronous JavaScript and XML (AJAX)** is a programmng technique that allows web developers to fetch server data without having to wait for the page to reload first.
+**Asynchronous JavaScript and XML (AJAX)** is a programming technique that allows web developers to fetch server data without having to wait for the page to reload first.
 
 ## Syntax
 
-AJAX requests can be used in all modern web browsers and utliizes the built-in `XMLHttpRequest` object:
+AJAX requests can be used in all modern web browsers and it utilizes the built-in `XMLHttpRequest` object:
 
 ```pseudo
 const request = new XMLHttpRequest();
