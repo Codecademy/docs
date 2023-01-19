@@ -65,16 +65,16 @@ int main() {
   result2 = std::isinf(1.0/0);
 
   if (result == 0) {
-    std::cout << "Not infinite" << "\n";
+    std::cout << "Result: Not infinite" << "\n";
   }
   else {
-    std::cout << "Is infinite" << "\n";
+    std::cout << "Result: Is infinite" << "\n";
   }
   if (result2 == 0) {
-    std::cout << "Not infinite" << "\n";
+    std::cout << "Result2: Not infinite" << "\n";
   }
   else {
-    std::cout << "Is infinite" << "\n";
+    std::cout << "Result2: Is infinite" << "\n";
   }
 }
 ```
