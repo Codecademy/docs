@@ -98,19 +98,17 @@ Operator overloading redefines built-in operators for user-defined classes. When
 - &=
 - !=
 - ==
-- > >
+- &#62;&#62;
 - <<
-
----
-
+- &#45;&#45;
 - ++
-- > =
+- &#62;=
 - <=
-- >
+- &#62;
 - <
 - ()
 - []
-- > > =
+- &#62;&#62;=
 - <<=
 
 The operators below cannot be overloaded:
