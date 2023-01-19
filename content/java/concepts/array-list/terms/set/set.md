@@ -16,13 +16,11 @@ The **`.set()`** method replaces an element at a specified position with another
 
 ## Syntax
 
-An element can be replaced in an `ArrayList` instance with another element by passing new value to the `.set()` method with a specified index:
-
 ```pseudo
 arrayListInstance.set(index, newElement);
 ```
 
-An element at a specified `index` can be replaced in an `arrayListInstance` with the `newElement`.
+An element at a specified `index` is replaced in an `arrayListInstance` with the `newElement`.
 
 > **Note:** The `newElement` must be of the same [data type](https://www.codecademy.com/resources/docs/java/data-types) as the rest of the elements in `arrayListInstance`. Otherwise, an error will occur.
 
