@@ -21,9 +21,9 @@ The **`isinf()`** function returns a value indicating whether the argument has a
 isinf(x)
 ```
 
-The `x` parameter is infinite if it is an infinity, either positive or negative (e.g., division by zero).
+The `x` parameter is a floating-point value. If `x` is infinite, the `isinf()` function will return a non-zero value for `true`. Otherwise, it will return zero for `false`.
 
-If `x` is infinite, the `isinf()` function will return a non-zero value for `true`. Otherwise, it will return zero for `false`.
+Examples of positive or negative infinite values include division by zero.
 
 ## Example
 
