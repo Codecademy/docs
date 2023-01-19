@@ -42,7 +42,7 @@ public class Students {
     studentList.add("Samantha");
     studentList.add("Tony");
 
-    // `.set()` method returns replaced element's value 
+    // `.set()` method returns replaced element's value
     String replacedStudentOne = studentList.set(1, "David");
     String replacedStudentTwo = studentList.set(2, "George");
 
