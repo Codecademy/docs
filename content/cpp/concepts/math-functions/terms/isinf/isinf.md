@@ -52,7 +52,7 @@ This produces the following output:
 
 ## Codebyte Example
 
-The following example is runnable and features a case where running the `isinf()` function returns `false` for a finite value, and `true` for an infinite value:
+The following example is runnable and prints a message based on whether the `isinf()` function indicates a given value is finite or infinite:
 
 ```codebyte/cpp
 #include <iostream>
