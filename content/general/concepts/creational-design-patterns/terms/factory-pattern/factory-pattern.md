@@ -1,6 +1,6 @@
 ---
 Title: 'Factory Pattern'
-Description: 'The factory pattern defers instantiation logic of a parent abstract class to its concrete sub-classes.'
+Description: 'Defers instantiation logic of a parent abstract class to its concrete sub-classes.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **factory pattern** defers instantiation logic of a parent abstract class to its concrete sub-classes. At time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods, parameters, and a `switch` statement.
+The **factory pattern** defers instantiation logic of a parent abstract class to its concrete sub-classes. At the time of object creation, the specific class type may not be known, in which a creator class' factory method is used to decouple this identifying logic. This is typically done through the methods, parameters, and a `switch` statement.
 
 ## UML Design
 
@@ -45,9 +45,9 @@ public abstract class TaxiRequest<T> {
 }
 ```
 
-**Note:** As the `.pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other properties' object types are known.
+> **Note:** As the `.pickUpLocation` property may be an address or a restaurant, generics are used when modeling the `TaxiRequest`. The other properties' object types are known.
 
-The constructor of `TaxiRequest` calls an abstract method `.createTaxiRequest()`. This enforces `TaxiRequest`'s subclasses to override the method with instantiation logic. Although the constructors of the base class' may make use of the abstract super's constructor, instantiation logic remains in the concrete subclass.
+The constructor of `TaxiRequest` calls an abstract method `.createTaxiRequest()`. This enforces `TaxiRequest`'s subclasses to override the method with instantiation logic. Although the constructors of the base class may make use of the abstract super's constructor, instantiation logic remains in the concrete subclass.
 
 Below provides the concrete subclasses of `StandardTaxiRequest`, `SevenSeaterTaxiRequest`, and `MiniBusTaxiRequest` that all extend the abstract `TaxiRequest` class above.
 
@@ -151,7 +151,7 @@ public class FoodDeliveryRequest extends TaxiRequest<Restaurant> {
 }
 ```
 
-The `FoodDeliveryRequest` differs from the other concrete model classes in two important ways. Firstly, the `estimatedPrice` is calculated to include the cost of food from the restaurant, and secondly, the `pickUpLocation` is a restaurant not an address.
+The `FoodDeliveryRequest` differs from the other concrete model classes in two important ways. Firstly, the `estimatedPrice` is calculated to include the cost of food from the restaurant, and secondly, the `pickUpLocation` is a restaurant, not an address.
 
 Below provides an enum modeling the restaurant choice and its associated price:
 
@@ -172,9 +172,9 @@ public enum Restaurant {
 }
 ```
 
-**Note:** When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
+> **Note:** When the restaurant type is chosen, the constructor provides the property `price` with the correct value.
 
-The factory class gives us an opportunity to think how the client may need to instantiate different objects and what information may be required. In this example, if little information is provided, a `StandardTaxiRequest` is returned. If the `pickUpLocation` is a restaurant then a `FoodDeliveryRequest` is returned. A taxi can be ordered based on the amount of passengers. And finally a specific `TaxiType` can be explicitly requested.
+The factory class gives an opportunity to think about how the client may need to instantiate different objects and what information may be required. In this example, if little information is provided, a `StandardTaxiRequest` is returned. If the `pickUpLocation` is a restaurant then a `FoodDeliveryRequest` is returned. A taxi can be ordered based on the amount of passengers. And finally a specific `TaxiType` can be explicitly requested.
 
 Below provides the creator class to determine and instantiate request objects:
 
