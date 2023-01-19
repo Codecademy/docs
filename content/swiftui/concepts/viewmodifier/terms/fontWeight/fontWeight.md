@@ -22,7 +22,7 @@ Text("your text")
   .fontWeight(.weight)
 ```
 
-`.weight` can take of the following values:
+`.weight` can take one of the following values:
 
 - .ultraLight
 - .thin
