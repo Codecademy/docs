@@ -15,21 +15,21 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create [APIs](https://www.codecademy.com/resources/docs/general/api) in their own unique way. It allows us to perform actions with API's via a query language, similar to using SQL when performing CRUD (Create, Read, Update, and Delete) operations on a database. A GraphQL service is created by defining types, with different fields available on those types, and then providing functions for each of those fields on how to resolve them. GraphQL supports multiple languages including JavaScript, TypeScript, Java, C#, Go, Python, and Ruby.
+[**GraphQL**](https://graphql.org/) is an open-source query language that allows developers to consume, construct, and create [APIs](https://www.codecademy.com/resources/docs/general/api) in their own unique way. It allows us to perform actions with API's via a query language, similar to using SQL when performing CRUD (Create, Read, Update, and Delete) operations on a database. A GraphQL service is created by defining types, with different fields available on those types, and then providing functions for each of those fields on how to resolve them. GraphQL supports multiple languages including [JavaScript](https://www.codecademy.com/resources/docs/javascript), [TypeScript](https://www.codecademy.com/resources/docs/typescript), [Java](https://www.codecademy.com/resources/docs/java), [C#](https://www.codecademy.com/resources/docs/c-sharp), [Go](https://www.codecademy.com/resources/docs/go), [Python](https://www.codecademy.com/resources/docs/python), and [Ruby](https://www.codecademy.com/resources/docs/ruby).
 
 ## History of GraphQL
 
-GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address internal issues with their mobile applications. As an alternative to representational state transfer (REST) architecture, GraphQL became open source in 2015. Consequently, because GraphQL makes data transfers more efficient, it reduced network usage for Meta's mobile applications drastically. Since then, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-server communication.
+GraphQL was initially developed by Meta (formerly Facebook) in 2012 to address internal issues with their mobile applications. As an alternative to representational state transfer (REST) architecture, GraphQL became open source in 2015. Consequently, because GraphQL makes data transfers more efficient, it reduced network usage for Meta's mobile applications drastically. Since then, GraphQL has attracted a large number of developers and is becoming increasingly popular for client-[server](https://www.codecademy.com/resources/docs/general/server) communication.
 
 ## Why Adopt GraphQL?
 
 Before adopting GraphQL, developers should be familiar with RESTful architecture. Here are some of the benefits of using GraphQL over REST:
 
-- GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, RESTful APIs, and cloud services.
-- It prioritises giving clients the exact data required and nothing more, so only the needed data is received, helping to eliminate over-fetching.
+- GraphQL allows developers to easily integrate with [databases](https://www.codecademy.com/resources/docs/general/database), [JSON](https://www.codecademy.com/resources/docs/general/json) files, RESTful APIs, and [cloud services](https://www.codecademy.com/resources/docs/cloud-computing/cloud-services).
+- It prioritizes giving clients the exact data required and nothing more, so only the needed data is received, helping to eliminate over-fetching.
 - It can be used to construct requests that pull data from multiple sources into a single API call and response.
 - Easier to adopt new data to existing objects, helping to improve future changes and potential under-fetching.
-  - For example - An existing setup with objects and types already defined now needs to include more data in the object, this could require a large change of including an additional fetch within the flow, or include additional steps when modelling/mapping the responses to the object.
+- For example, an existing setup with objects and types already defined needs to include more data in the object (this could require a large change of including an additional fetch within the flow) or additional steps when modeling/mapping the responses to the object.
 
 ## How GraphQL Works
 
@@ -37,9 +37,9 @@ A common GraphQL workflow can be seen below:
 
 1. First, specific data is requested from the client via a query to GraphQL server.
 2. To retrieve that data, a function on the GraphQL server is invoked.
-3. Lastly, GraphQL server returns the specific data requested by the client.
+3. Lastly, the GraphQL server returns the specific data requested by the client.
 
-In a system like REST, only a single set of arguments can be passed in - the query parameters and URL segments of the request. But in GraphQL, every field and nested object have its own set of arguments, making GraphQL a complete replacement for making multiple API fetches. By passing arguments into scalar fields, data transformations can be implemented on the server rather than on every individual client, which can be more efficient.
+In a system like REST, only a single set of arguments can be passed in: the query parameters and URL segments of the request. But in GraphQL, every field and nested object has its own set of arguments, making GraphQL a complete replacement for making multiple API fetches. By passing arguments into scalar fields, data transformations can be implemented on the server rather than on every individual client, which can be more efficient.
 
 ![source="https://graphql.org/learn/queries/"](https://raw.githubusercontent.com/Codecademy/docs/main/media/GraphQL-parameters-example.png)
 
@@ -63,24 +63,24 @@ If default values are provided for all variables in the query, it is not necessa
 
 GraphQL includes a set of predefined scalar types that can be used in the schema. These are known as the "default scalar types":
 
-- Int: A signed 32-bit integer.
-- Float: A signed double-precision floating-point value.
-- String: A UTF-8 character sequence.
-- Boolean: True or False.
-- ID: Represents a unique identifier, which is often used to reference an object or as the key for a cache. It is a string type that is intended to represent a unique identifier for an object, such as a database record or a file.
+- `Int`: A signed 32-bit integer.
+- `Float`: A signed double-precision floating-point value.
+- `String`: A UTF-8 character sequence.
+- `Boolean`: `True` or `False`.
+- `ID`: Represents a unique identifier, which is often used to reference an object or as the key for a cache. It is a string type that is intended to represent a unique identifier for an object, such as a database record or a file.
 
 ## Subscriptions
 
-GraphQL provides support for a third type of operation called subscriptions in addition to queries and mutations. Subscriptions allow a client to receive real-time updates from the server. Subscriptions in GraphQL, like queries, allow the retrieval of the data from the server. However, subscriptions are different from queries in that they are long-lasting operations that can change their result over time. A subscription maintains an active connection to the server, typically using WebSockets, which allows the server to push updates to the client whenever the data changes. This enables the client to receive updates about the data in real time, rather than having to request the data again each time it changes. They can be used to notify the client in real time about changes such as the creation of a new object or changes to an important field.
+GraphQL provides support for a third type of operation called subscriptions in addition to queries and mutations. Subscriptions allow a client to receive real-time updates from the server. Subscriptions in GraphQL, like queries, allow the retrieval of data from the server. However, subscriptions are different from queries in that they are long-lasting operations that can change their result over time. A subscription maintains an active connection to the server, typically using WebSockets, which allows the server to push updates to the client whenever the data changes. This enables the client to receive updates about the data in real-time, rather than having to request the data again each time it changes. They can be used to notify the client in real-time about changes such as the creation of a new object or changes to an important field.
 
 ## Error Handling
 
 Error handling is part of the default GraphQL response structure. Here's how it works:
 
 - Successful requests return a JSON response with a data field containing the results of a query/mutation.
-- Un-successful requests include an additional errors field, representing an array of errors that may have occurred during a request. However, only present if errors occur!
-- All errors are treated the same way, returned within the errors array field.
-- Request may return a partial response, which has data for some fields and an errors array.
+- Un-successful requests include an additional errors field, representing an array of errors that may have occurred during a request.
+- Errors are returned within the errors array field.
+- Requests may return a partial response where some fields contain data and others contain an errors array.
 
 ## Who Is Using GraphQL?
 
