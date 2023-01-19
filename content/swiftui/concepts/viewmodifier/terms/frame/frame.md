@@ -29,11 +29,8 @@ Text("Some text is here.")
 The `.frame()` modifier method has the following optional parameters:
 
 - `x` is entered as an integer to define the view's width in `pt` (points). SwiftUI assigns the view's width to the frame if `x` is given `nil` as a value or `width: x` is left out.
-
 - `y` is entered as an integer to define the view's height in `pt` (points). SwiftUI assigns the view's height to the frame if `y` is given `nil` as a value or `height: y` is left out.
-
 - `.position` aligns the view within the frame. If the view size and the frame size are the same, there is no effect on the alignment of the view. Otherwise, the following options are available:
-
   - `nil`: SwiftUI assigns the default alignment to the frame if `.position` is given `nil` as a value or `alignment: .position` is left out.
   - `.center` (default option): Positions the view to the center of the frame.
   - `.leading`: Positions the view to the frame's vertical middle and left side.
