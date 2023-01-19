@@ -48,6 +48,8 @@ int main() {
 }
 ```
 
+This produces the following output:
+
 ## Codebyte Example
 
 The following example is runnable and features a case where running the `isinf()` function returns `false` for a finite value, and `true` for an infinite value:
