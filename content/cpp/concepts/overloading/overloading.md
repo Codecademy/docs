@@ -1,6 +1,6 @@
 ---
 Title: 'Overloading'
-Description: 'Overloading allows for more than one definition of a function or operator in the same scope.
+Description: 'Overloading allows for more than one definition of a function or operator in the same scope.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
