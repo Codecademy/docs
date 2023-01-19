@@ -44,7 +44,6 @@ int main() {
   else {
     std::cout << "Is infinite" << "\n";
   }
-  // Output: Not infinite
 }
 ```
 
