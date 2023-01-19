@@ -61,8 +61,8 @@ The following example is runnable and prints a message based on whether the `isi
 int main() {
   int result, result2;
 
-  result = std::isinf(1.0/2);
-  result2 = std::isinf(1.0/0);
+  result = std::isinf(1.0/2.0);
+  result2 = std::isinf(1.0/0.0);
 
   if (result == 0) {
     std::cout << "Result: Not infinite" << "\n";
