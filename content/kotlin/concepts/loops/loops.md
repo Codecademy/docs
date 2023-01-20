@@ -51,11 +51,11 @@ This will output:
 The `while` loop is used to execute a block of code repeatedly as long as a certain condition is true. The syntax for a `while` loop in Kotlin is:
 
 ```pseudo
-    fun main(){
-        while(condition){
-            //code to be execute while the condition is true
-        }
-    }
+fun main() {
+  while (condition) {
+    // Code to be execute while the condition is true
+  }
+}
 ```
 
 Here's an example of a `while` loop in Kotlin that prints the numbers from 1 to 10:
