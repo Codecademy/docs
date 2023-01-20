@@ -7,7 +7,7 @@
  ## Syntax
  ----------------
 ``` 
-df.drop_duplicates(subset= None, *, keep= 'first', inplace= False, ignore_index= False)
+df.drop_duplicates(subset= None, keep= 'first', inplace= False, ignore_index= False)
 ```
 
 |Parameter Name| Data Type | Usage |
@@ -24,7 +24,7 @@ df.drop_duplicates(subset= None, *, keep= 'first', inplace= False, ignore_index=
  ``` 
 import pandas as pd
 
-#The initial DataFrame
+#Initial DataFrame
 df1= pd.DataFrame({"Name": ["Peter", "Julia", "Manon", "Manon", "Nouhoum", "Nouhoum"],
                  "Age": [7, 8, 10, 7, 9, 9], 
                  "Favorite Color": ["Pink", "Purple","Orange","Green", "Blue", "Blue"]})
