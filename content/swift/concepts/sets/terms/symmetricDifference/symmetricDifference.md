@@ -21,11 +21,13 @@ The **`.symmetricDifference()`** method returns a new set with the elements that
 func symmetricDifference<S>(_other: S) -> Set<Element> where Element == S.Element, S:Sequence
 ```
 
-Available when _Element_ conforms to _Hashable_
+The `other` parameter is a finite sequence of elements.
+
+Available when Element conforms to Hashable.
 
 ## Example
 
-The following example shows the elements that aren't common to each set.
+The following example shows the elements that aren't common to each set:
 
 ```swift
 let food: Set = ["Apple", "Banana", "Orange", "Peach"]
@@ -35,6 +37,6 @@ let eitherFoodOrColor = food.symmetricDifference(colors)
 
 This will display the following:
 
-```psuedo
+```shell
 ["Banana", "Green", "Apple", "Blue"]
 ```
