@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Global Scope
 
-A variable accessible anywhere in a program is said to have **Global Scope** and is called a **Global Variable**. A global variable must be declared outside all functions in a program.
+A variable accessible anywhere in a program is said to have global scope and is called a global variable. A global variable must be declared outside all functions in a program.
 
 ```javascript
 var a = 1; // Global variable
@@ -47,14 +47,14 @@ A variable declared anywhere within a function is said to have function scope an
 
 ```javascript
 function myFunction(){
-	var a = 1;
-    if(a === 1){
-    	var b = 2;
-        alert(a); // Code here can use variable a
-        alert(b); // Code here can use variable b
-    }
-    alert(a); // Code here can also use variable a
-    alert(b); // Code here can also use variable b
+  var a = 1;
+  if(a === 1){
+    var b = 2;
+    alert(a); // Code here can use variable a
+    alert(b); // Code here can use variable b
+  }
+  alert(a); // Code here can also use variable a
+  alert(b); // Code here can also use variable b
 }
 
 myFunction();
@@ -70,12 +70,12 @@ A variable declared with `let` or `const` within a block { }, is said to have bl
 
 ```javascript
 function myFunction(){
-	let a = 1;
-    if(a === 1){
-    	let b = 2;
-      alert(a); // Code here can use variable a
-      alert(b); // Code here can use variable b
-    }
+  let a = 1;
+  if(a === 1){
+    let b = 2;
+    alert(a); // Code here can use variable a
+    alert(b); // Code here can use variable b
+  }
   alert(a); // Code here can also use variable a
   alert(b); // Code here CANNOT use variable b
 }
