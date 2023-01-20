@@ -61,12 +61,12 @@ fun main() {
 Here's an example of a `while` loop in Kotlin that prints the numbers from 1 to 10:
 
 ```kotlin
-    fun main(){
-    var i = 1
-    while (i <= 10) {
+fun main() {
+  var i = 1
+  while (i <= 10) {
     print(" " + i)
     i++
-    }
+  }
 }
 ```
 
