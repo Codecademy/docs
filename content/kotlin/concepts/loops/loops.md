@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, a loop is a control flow statement that allows you to repeat a block of code a certain number of times or until a certain condition is met. Kotlin provides several types of loops, including:
+In Kotlin, a loop is a control flow statement that allows repeated execution of a block of code for a certain number of times or until a certain condition is met. Kotlin provides several types of loops, including:
 
 - `for` loop: This loop iterates over a range of values or elements in a collection.
 - `while` loop: This loop repeatedly executes a block of code as long as a certain condition is true.
