@@ -1,5 +1,5 @@
 ---
-Title: 'Text'
+Title: '.symmetricDifference()'
 Description: 'Returns a new set with the elements.'
 Subjects:
   - 'Software Development'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **.symmetricDifference()** method returns a new set with the elements that are either in the set or in the given sequence, but not in both.
+The **`.symmetricDifference()`** method returns a new set with the elements that are either in the set or in the given sequence, but not in both.
 
 ## Syntax
 
