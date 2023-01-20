@@ -1,6 +1,6 @@
 ---
 Title: 'Arrays'
-Description: 'Arrays are collections of items of the same data-type with 0-based indexing that are stored at contiguous memory locations.`
+Description: 'Arrays are collections of items of the same data-type with 0-based indexing that are stored at contiguous memory locations.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
