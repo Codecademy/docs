@@ -16,7 +16,7 @@ In Kotlin, a loop is a control flow statement that allows repeated execution of 
 
 - The `for` loop which iterates over a range of values or elements in a collection.
 - The `while` loop which repeatedly executes a block of code as long as a certain condition is true.
-- `do-while` loop: This loop is similar to a while loop, but it guarantees that the block of code will be executed at least once before the condition is checked.
+- The `do-while` loop which is similar to a while loop, but it guarantees that the block of code will be executed at least once before the condition is checked.
 
 ## For loop
 
