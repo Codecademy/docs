@@ -23,7 +23,7 @@ In Kotlin, a loop is a control flow statement that allows repeated execution of 
 The `for` loop is used to iterate over a range of values or an iterable collection. The syntax for a `for` loop in Kotlin is:
 
 ```pseudo
-fun main(){
+fun main() {
     for (item in collection) {
    // code to be executed for each item
     }
