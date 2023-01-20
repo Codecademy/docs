@@ -88,7 +88,7 @@ fun main(){
 }
 ```
 
-Here is an example of a `do-while` loop in Kotlin. In this code, a variable `i` is declared with an initial value of 10. The loop will continue to run as long as `i` is greater than 0. Inside the loop, the value of `i` is printed and then `i` is decremented by 1 on each iteration. This means that the value of `i` will be printed and reduced by 1 on each iteration until `i` is no longer greater than 0, at which point the loop will exit and the program will end:
+In the example below, a variable `i` is declared with an initial value of 10. The loop will continue to run as long as `i` is greater than 0. Inside the loop, the value of `i` is printed and then `i` is decremented by 1 on each iteration. This means that the value of `i` will be printed and reduced by 1 on each iteration until `i` is no longer greater than 0, at which point the loop will exit and the program will end:
 
 ```kotlin
 fun main(){
