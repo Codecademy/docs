@@ -1,6 +1,6 @@
 ---
 Title: 'Loops'
-Description: 'A loop is a control structure that allows you to repeat a block of code a specified number of times or until a certain condition is met.'
+Description: 'A loop is a control structure that repeatedly executes a block of code a specified number of times or until a certain condition is met.'
 Subjects:
   - 'Computer Science'
 Tags:
