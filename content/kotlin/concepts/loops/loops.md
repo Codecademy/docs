@@ -33,10 +33,10 @@ fun main() {
 Here's an example of a `for` loop in Kotlin that prints the numbers from 1 to 10:
 
 ```kotlin
-fun main(){
-    for(i in 1..10){
-        print(i)
-    }
+fun main() {
+  for(i in 1..10){
+    print(i)
+  }
 }
 ```
 
