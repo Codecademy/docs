@@ -24,7 +24,7 @@ int size = list.size()
 
 ## Example
 
-The following example creates an `ArrayList`, uses `.add()` to add to elements to the `ArrayList`, and uses `.size()` to print the size of the `ArrayList`:
+The following example creates an `ArrayList`, uses [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) to append elements to it, and uses `.size()` to print out its size:
 
 ```java
 import java.util.ArrayList;
