@@ -10,6 +10,7 @@ Tags:
   - 'Methods'
   - 'Functions'
   - 'Formatting'
+  - 'Lists'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/analyze-data-with-python'
@@ -25,12 +26,12 @@ string.split(delimiter, number_of_items)
 
 The `.split()` method takes the following optional parameters:
 
-- A `delimiter` that is a either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
+- A `delimiter` that is either a [regular expression](https://www.codecademy.com/resources/docs/python/regex) or a string that is composed of one or more characters.
 - A maximum `number_of_items` for the returned list.
 
 If no parameters are passed to the `.split()` method, a list is returned with the `string` as the sole element.
 
-**Note**: An empty string (`""`) cannot be used as a `delimiter` to return a list of single characters from a given `string`. Using the built-in `list()` method can achieve this.
+> **Note**: An empty string (`""`) cannot be used as a `delimiter` to return a list of single characters from a given `string`. Using the built-in `list()` method can achieve this.
 
 ## Examples
 
