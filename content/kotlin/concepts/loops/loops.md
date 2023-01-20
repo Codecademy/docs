@@ -24,9 +24,9 @@ The `for` loop is used to iterate over a range of values or an iterable collecti
 
 ```pseudo
 fun main() {
-    for (item in collection) {
-   // code to be executed for each item
-    }
+  for (item in collection) {
+    // code to be executed for each item
+  }
 }
 ```
 
