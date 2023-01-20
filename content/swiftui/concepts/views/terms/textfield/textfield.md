@@ -1,6 +1,6 @@
 ---
 Title: 'TextField'
-Description: 'Allows the user to insert contact informations, type memos, and edit the content of a specific field.'
+Description: 'Allows the user to insert contact information, type memos, and edit the content of a specific field.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-**`TextField`** is a view that allows the user to fill in the field with data. 
+**`TextField`** is a view that allows the user to fill in the field with data, such as contact information or memos.
 
 ## Syntax
 
@@ -23,12 +23,12 @@ var body: some View {
 }
 ```
 
-- The `"Test field description"` string refers to the text that will be displayed in a lighter color inside the field. 
+- The `"Text field description"` string refers to the text that will be displayed with a lighter color inside the field.
 - `text:` is passed a `bindingParameter` so that Swift will always know if and when this parameter changes.
 
 ## Example
 
-In the example below, a `VStack` holds a series of `TextField`s and one `SecureField`, which resembles a sign up page:
+In the example below, a `VStack` holds a series of `TextField`s and one `SecureField`, which represents a sign-up page:
 
 ```swift
 @State private var name = ""
@@ -40,31 +40,30 @@ In the example below, a `VStack` holds a series of `TextField`s and one `SecureF
 var body: some View {
     VStack {
         TextField("Name", text: $name)
-        
+
         TextField("Last Name", text: $lastName)
             .keyboardType(.default)
-            
+
         TextField("Username", text: $username)
             .keyboardType(.asciiCapable)
-            
+
         TextField("Email", text: $email)
             .keyboardType(.emailAddress)
-            
+
         SecureField("Password", text: $password)
     }
     .padding()
 }
 ```
 
-- The top 5 variables are marked as private because it is important that the information does not leave the current page.
-- `TextField` not only has different keyboard types but also keyboard styles. This include different keyboards per style or type (email style, number pad, ascii capable, to name a few). If no type or style is specified, Swift will display them as `(.default)`.
+- The declared variables are marked with the `private` keyword which only allows them to be accessed within the module that they are created in.
+- `TextField` not only has different keyboard types but also keyboard styles. This includes different keyboards per style or type (e.g., email format, number pad, or ASCII). If no type or style is specified, Swift will apply the `.default` modifier which can differ depending on the operating system and device's default style settings.
+- `SecureField` is a text field view that instantly hides characters and is commonly used for password input.
 
-- `SecureField` is a `TextField` that instantly hides the character and is commonly used to set up passwords.
-
-This will display an empty Textfield:
+This will display an empty text field:
 
 ![Empty TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield.png)
 
-This will display a filled Textfield:
+This will display a filled text field:
 
 ![Filled TextField](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-textfield-fill.png)
