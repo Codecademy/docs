@@ -1,6 +1,6 @@
 ---
 Title: 'Abstract Factory Pattern'
-Description: 'The abstract factory pattern relies on a common interface for multiple factories and defers instantiation logic to their concrete model classes.'
+Description: 'Relies on a common interface for multiple factories and defers instantiation logic to their concrete model classes.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
@@ -31,7 +31,7 @@ To illustrate the abstract factory pattern, below is a real-world example writte
 | Bronze        | Max overdraft limit of 500  | Interest rate of 1.5% |
 | Builder       | No overdraft                | Interest rate of 1.5% |
 
-To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customer's name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. We can later use this class to see the different paths through our abstract factory.
+To simulate requesting and receiving a customer's credit score, a gateway has been mocked below. When given a customer's name, the`CreditAgencyGateway` class should return an appropriate `Customer` object. This class can be used later to see the different paths through our abstract factory.
 
 ```java
 public class CreditAgencyGateway {
@@ -314,7 +314,7 @@ public abstract class AccountFactory<T> {
 }
 ```
 
-The `AccountFactory` enforces its concrete sub-classes to implement its abstract `.getAccount()` method. A `.getCustomerType()` is included to reduce duplication. The same logic for returning a `CustomerType` is used in `CurrentAccountFactory` and `SavingAccountFactory`. We might expect this logic to be in the concrete classes below as they use this logic, but in this example it doesn't matter.
+The `AccountFactory` enforces its concrete sub-classes to implement its abstract `.getAccount()` method. A `.getCustomerType()` is included to reduce duplication. The same logic for returning a `CustomerType` is used in `CurrentAccountFactory` and `SavingAccountFactory`. We might expect this logic to be in the concrete classes below as they use this logic, but in this example, it doesn't matter.
 
 Finally, the `.getAccountFactory()` method uses a `switch` statement to return a concrete factory depending on an `AccountType`, with the `enum` provided below:
 
