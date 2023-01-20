@@ -94,8 +94,8 @@ In the example below, a variable `i` is declared with an initial value of 10. Th
 fun main(){
     var i = 10
     do {
-    print(" " + i)
-    i--
+      print(" " + i)
+      i--
     } while (i > 0)
 }
 ```
