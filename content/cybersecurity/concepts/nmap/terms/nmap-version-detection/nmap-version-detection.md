@@ -19,10 +19,10 @@ CatalogContent:
 Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include the version number, the service type, the operating system, the hostname, etc.
 
 ```pseudo
-nmap -sV localhost
+nmap -sV <localhost>
 ```
 
-The command starts an assessment on `localhost`.
+The command starts an assessment on `<localhost>`.
 
 The command can be customized with the following options:
 
