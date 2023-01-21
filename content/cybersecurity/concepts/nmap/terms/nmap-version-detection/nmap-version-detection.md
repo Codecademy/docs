@@ -1,6 +1,6 @@
 ---
 Title: 'Nmap Version Detection'
-Description: 'Version detection provides information on all identified open ports which interrogating the ports using probes that are understood by specific services.'
+Description: 'Provides information on all identified open ports which interrogating the ports using probes that are understood by specific services.'
 Subjects:
   - 'Computer Science'
   - 'Networking'
