@@ -1,6 +1,6 @@
 ---
 Title: '.get()'
-Description: 'The get function is used to retrieve the value associated with a particular key in a HashMap.'
+Description: 'Retrieves the value associated with a particular key in a HashMap.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -9,35 +9,37 @@ Tags:
   - 'Collections'
   - 'Data Structures'
 CatalogContent:
-  - 'learn-java'
+  - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 
-In Kotlin, the `get()` function is a method of the Map interface that is used to retrieve the value associated with a particular key.
+The **`get()`** retrieves the value associated with a particular key, or `null` if it doesn't exist.
 
 ## Syntax
 
 ```pseudo
-fun <K, V> Map<K, V>.get(key: K): V?
+myHashMap.get(key: K): V?
 ```
 
-Where,`Map<K, V>` is the interface and the `get()` function is the method of this interface.`K` is the type of the key of the map. `V` is the type of the value associated with the key.`key` is the key for which the associated value should be retrieved.
+The `key` parameter is of [data type](https://www.codecademy.com/resources/docs/kotlin/data-types) `K`. If the `key` exists in `myHashMap`, the associated value, of type `V`, is returned. Otherwise, `null` is returned.
 
 ## Example
 
-To access the elements of a `HashMap`, you can use the `get()` function to retrieve the value for a given key. For example:
+The following example demonstrates how the `.get()` function is used to retrieve a value:
 
 ```kotlin
-val map = HashMap<String, Int>().apply {
-    put("apple", 1)
-    put("banana", 2)
-    put("cherry", 3)
+fun main() {
+  val hashMap = HashMap<String, Int>().apply {
+      put("apple", 1)
+      put("banana", 2)
+      put("cherry", 3)
+  }
+  val value = hashMap.get("apple")
+  System.out.println(value)
 }
-
-val value = map.get("apple")
 ```
 
-The output for the above code will be:
+This will print the following output:
 
 ```
 1
