@@ -16,7 +16,7 @@ CatalogContent:
 
 ## Syntax
 
-Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include: the version number, the service type, the operating system, the hostname, etc.
+Version Detection is used with the `-sV` command, and it allows the user to collect information about the port. This can include the version number, the service type, the operating system, the hostname, etc.
 
 ```pseudo
 nmap -sV localhost
@@ -34,7 +34,7 @@ The command can be customized with the following options:
 
 ## Example
 
-The following example demonstrates the use of Version Detection using `scanme.nmap.org`:
+The following example demonstrates the use of Version Detection using `scanme.nmap.org` (a safe test host):
 
 ```shell
 nmap -sV scanme.nmap.org
