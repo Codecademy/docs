@@ -48,6 +48,6 @@ val map = HashMap<String, Int>()
 
 map["apple"] = 1
 map["banana"] = 2
-map["mango"] = 3
+map["cherry"] = 3
 }
 ```
