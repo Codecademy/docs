@@ -82,4 +82,4 @@ error: cannot find symbol
 1 error
 ```
 
-To use the `.indexOf()` method with primitive data types, you need to use the wrapper classes.
+Wrapper classes must be used in order for the `.indexOf()` method to work with primitive values.
