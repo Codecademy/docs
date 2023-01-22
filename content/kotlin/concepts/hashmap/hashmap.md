@@ -1,6 +1,6 @@
 ---
 Title: 'HashMaps'
-Description: 'A HashMap is used to store items as a key-value pairs. The keys and values can be of either same or different types.'
+Description: 'HashMaps are unordered collections of key-value paris that are implemented using a hash table.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-**HashMaps** are unordered collections key-value pairs that are implemented using a [hash table](https://www.codecademy.com/resources/docs/general/hash-table). They offer efficient storage and data retrieval because of how keys are mapped to indices in an array. In Kotlin, a HashMap is represented by the `HashMap` class.
+**HashMaps** are unordered collections of key-value pairs that are implemented using a [hash table](https://www.codecademy.com/resources/docs/general/hash-table). They offer efficient storage and data retrieval because of how keys are mapped to indices in an array. In Kotlin, a HashMap is represented by the `HashMap` class.
 
 ## Syntax
 
@@ -31,12 +31,28 @@ val map: HashMap<KeyType, ValueType> = HashMap()
 
 The `mutableMapOf()` function is used to create a mutable HashMap:
 
+A mutable or immutable `HashMap` is created with the `mutableMapOf()` or `mapOf()` methods, respectively:
+
 ```pseudo
-val map = mutableMapOf<KeyType, ValueType>()
+val mutableMap = mutableMapOf<KeyType, ValueType>()
+val immutableMap = mapOf<KeyType, ValueType>()
 ```
 
-The `mapOf()` function is used to create an immutable `HashMap`:
+## Example
 
-```pseudo
-val map = mapOf<KeyType, ValueType>()
+The following example is a small `HashMap` of countries and their capitals, and their:
+
+```kotlin
+fun main() {
+  val locationsMap = HashMap<String, String>()
+
+  locationsMap.put("USA", "Washington D.C.")
+  locationsMap.put("India", "New Delhi")
+  locationsMap.put("Nigeria", "Abuja")
+  locationsMap.put("France", "Paris")
+
+  for((country, capital) in locationsMap) {
+    println("$capital, $country")
+  }
+}
 ```
