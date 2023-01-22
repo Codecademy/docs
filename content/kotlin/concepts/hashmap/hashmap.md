@@ -65,4 +65,3 @@ Abuja, Nigeria
 Paris, France
 New Delhi, India
 ```
-
