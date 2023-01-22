@@ -29,7 +29,7 @@ It takes in two parameters:
 
 ## Example
 
-To add a key-value pair to a `HashMap` in Kotlin, you can use the `put()` function. For example:
+To add a key-value pair to a `HashMap` in Kotlin, the `put()` function can be used. For example:
 
 ```kotlin
 fun main(){
