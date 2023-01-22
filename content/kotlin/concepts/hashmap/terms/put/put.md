@@ -40,7 +40,7 @@ map.put("cherry", 3)
 }
 ```
 
-We can also use the index operator `[]` to add a key-value pair to the `HashMap`. For example:
+The index operator `[]` can be used to add a key-value pair to a `HashMap`. For example:
 
 ```kotlin
 fun main(){
