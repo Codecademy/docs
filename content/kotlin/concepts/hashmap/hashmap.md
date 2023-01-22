@@ -56,3 +56,13 @@ fun main() {
   }
 }
 ```
+
+This will print the following output:
+
+```shell
+Washington D.C., USA
+Abuja, Nigeria
+Paris, France
+New Delhi, India
+```
+
