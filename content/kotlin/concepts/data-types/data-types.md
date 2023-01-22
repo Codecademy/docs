@@ -10,7 +10,7 @@ Tags:
   - 'Boolean'
   - 'Characters'
 CatalogContent:
-  - 'learn-Kotlin'
+  - 'learn-kotlin'
   - 'paths/computer-science'
 ---
 

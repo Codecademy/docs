@@ -1,6 +1,6 @@
 ---
 Title: 'Builder Pattern'
-Description: 'The builder pattern decouples the responsibility of object creation from the desired objects class.'
+Description: 'Decouples the responsibility of object creation from the desired objects class.'
 Subjects:
   - 'Computer Science'
   - 'Interview Prep'
@@ -103,7 +103,7 @@ public class PizzaOrder {
 }
 ```
 
-**Note:** Setters are negated for immutability. Some Enums have been provided to safely model the choices an order may have.
+> **Note:** Setters are negated for immutability. Some Enums have been provided to safely model the choices an order may have.
 
 ```java
 public enum Topping {
