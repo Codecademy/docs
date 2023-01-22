@@ -64,12 +64,9 @@ The `.indexOf()` method does not work with primitive data types.
 ```java
 public class Main {
   public static void main(String[] args) {
-//    array
     int[] arr = {1, 2, 3, 4, 5};
-    // check if a element is peresent in a array
-    // returns errror as arrays dont have indexOf() method
-    System.out.println(arr.indexOf(3));
 
+    System.out.println(arr.indexOf(3));
   }
 }
 ```
