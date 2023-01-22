@@ -92,7 +92,7 @@ ArrayList<int> list = new ArrayList<>();
 
 Wrapper classes (e.g., `Integer`) must be used in order for the `.indexOf()` method to work with primitive values:
 
- ```java
+```java
 import java.util.ArrayList;
 
 public class HelloWorld {
