@@ -1,6 +1,6 @@
 ---
 Title: '.get()'
-Description: 'Retrieves the value associated with a particular key in a HashMap.'
+Description: 'Retrieves and returns the value associated with a particular key in a HashMap.'
 Subjects:
   - 'Computer Science'
 Tags:
@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`get()`** retrieves the value associated with a particular key, or `null` if it doesn't exist.
+The **`get()`** retrieves and returns the value associated with a particular key, or `null` if it doesn't exist.
 
 ## Syntax
 
@@ -30,9 +30,9 @@ The following example demonstrates how the `.get()` function is used to retrieve
 ```kotlin
 fun main() {
   val hashMap = HashMap<String, Int>().apply {
-      put("apple", 1)
-      put("banana", 2)
-      put("cherry", 3)
+    put("apple", 1)
+    put("banana", 2)
+    put("cherry", 3)
   }
   val value = hashMap.get("apple")
   System.out.println(value)
