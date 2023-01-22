@@ -59,6 +59,58 @@ This will print the following output:
 
 The `.indexOf()` method does not work with primitive data types.
 
+```java
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        ArrayList<int> list = new ArrayList<>();  
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+int index = list.indexOf(2);  
+System.out.println(index);
+
+        
+    }
+}
+```
+Since `.indexOf()` method does not work with primitive data types. the following error will be thrown:
+
+```shell
+javac /tmp/CmHIzfwn03/HelloWorld.java
+/tmp/CmHIzfwn03/HelloWorld.java:7: error: unexpected type
+ArrayList<int> list = new ArrayList<>();  
+                  ^
+  required: reference
+  found:    int
+1 error
+```
+ ### Correct Way:
+
+ ```java
+ import java.util.ArrayList;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        ArrayList<Integer> list = new ArrayList<>();  
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+int index = list.indexOf(2);  
+System.out.println(index);
+
+        
+    }
+}
+```
+## Output is :
+```shell
+Hello, World!1
+```
+
 ## Example 2
 
 ```java
@@ -70,6 +122,7 @@ public class Main {
   }
 }
 ```
+Since arrays do not have an .indexOf() method, the following error will be thrown:
 ```shell
 error: cannot find symbol
     System.out.println(arr.indexOf(3));
