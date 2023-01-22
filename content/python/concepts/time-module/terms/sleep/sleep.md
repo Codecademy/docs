@@ -3,7 +3,7 @@ Title: '.sleep()'
 Description: 'Suspends execution of the current thread for a given time.'
 Subjects:
   - 'Computer Science'
-Tags: 
+Tags:
   - 'Functions'
   - 'Time'
 CatalogContent:
@@ -17,7 +17,7 @@ The **.sleep()`** method suspends execution of the current [thread](https://www.
 
 ```pseudo
 time.sleep(duration)
-``` 
+```
 
 The `duration` parameter is given in seconds, and suspends/delays execution of the thread.
 
@@ -25,7 +25,7 @@ The `duration` parameter is given in seconds, and suspends/delays execution of t
 
 The following example will delay execution of the next [`print()`](https://www.codecademy.com/resources/docs/python/built-in-functions/print) statement by 2.4 seconds:
 
-```
+```py
 import time
 
 print("Printed immediately.")
@@ -39,12 +39,12 @@ The following example will output time after a 5 second delay from current time 
 
 ```codebyte/python
 import time
-	
+
 print "Start : %s" % time.ctime()
 time.sleep( 5 )
 print "End : %s" % time.ctime()
 import time
-	
+
 print("Start: %s" % time.ctime())
 time.sleep(5)
 print("End: %s" % time.ctime())
