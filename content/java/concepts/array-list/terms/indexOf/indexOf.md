@@ -36,6 +36,7 @@ public class Main {
   public static void main(String[] args) {
     // Create ArrayList of type String named animals
     ArrayList<String> animals = new ArrayList<String>();
+    
     animals.add("Lion");
     animals.add("Tiger");
     animals.add("Cat");
@@ -43,9 +44,9 @@ public class Main {
     animals.add("Tiger");
     animals.add("Lion");
     animals.add("Tiger");
+    
     System.out.println(animals.indexOf("Tiger"));
     System.out.println(animals.indexOf("Elephant"));
-
   }
 }
 ```
