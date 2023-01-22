@@ -26,7 +26,7 @@ The index of its first occurrence is returned if the `element` exists, even if t
 
 ## Example
 
-The following example features two calls to `.indexOf()` on `animals`. The first will print the index of the first occurrence of the element with the string `"Tiger"`. The second will return -1 because `"Elephant"` does not exist in `animals`:
+The following example features two calls to `.indexOf()` on an `ArrayList` called `animals`. The first call will print the index of the first occurrence of the element with the string `"Tiger"`. The second will return -1 because an element with the string `"Elephant"` does not exist:
 
 ```java
 // Import the ArrayList class from the java.util package
