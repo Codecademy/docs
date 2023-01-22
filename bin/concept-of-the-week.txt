@@ -1,1 +1,1 @@
-content/general/concepts/algorithm/algorithm.md
+content/git/concepts/pull/pull.md
