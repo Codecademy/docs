@@ -22,7 +22,7 @@ The **`.indexOf()`** method returns the index of the first occurrence of the spe
 myArrayList.indexOf(element);
 ```
 
-The index of its first occurrence (even if the value if `null`) is returned if the `element` exists. If the `element` can't be found, -1 will be returned.
+The index of its first occurrence is returned if the `element` exists, even if the value is `null`. If the `element` can't be found, -1 will be returned.
 
 ## Example
 
