@@ -36,7 +36,7 @@ public class Main {
   public static void main(String[] args) {
     // Create ArrayList of type String named animals
     ArrayList<String> animals = new ArrayList<String>();
-    
+
     animals.add("Lion");
     animals.add("Tiger");
     animals.add("Cat");
@@ -44,7 +44,7 @@ public class Main {
     animals.add("Tiger");
     animals.add("Lion");
     animals.add("Tiger");
-    
+
     System.out.println(animals.indexOf("Tiger"));
     System.out.println(animals.indexOf("Elephant"));
   }
@@ -62,75 +62,59 @@ The `.indexOf()` method does not work with primitive data types.
 
 ```java
 import java.util.ArrayList;
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        ArrayList<int> list = new ArrayList<>();  
-        list.add(1);
-        list.add(2);
-        list.add(3);
 
-int index = list.indexOf(2);  
-System.out.println(index);
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+    ArrayList<int> list = new ArrayList<>();
+    list.add(1);
+    list.add(2);
+    list.add(3);
 
-        
-    }
+    int index = list.indexOf(2);
+    System.out.println("ArrayList: " + list);
+    System.out.println("Index with value of 2: " + index);
+  }
 }
 ```
+
 Since `.indexOf()` method does not work with primitive data types. the following error will be thrown:
 
 ```shell
 javac /tmp/CmHIzfwn03/HelloWorld.java
 /tmp/CmHIzfwn03/HelloWorld.java:7: error: unexpected type
-ArrayList<int> list = new ArrayList<>();  
+ArrayList<int> list = new ArrayList<>();
                   ^
   required: reference
   found:    int
 1 error
 ```
- ### Correct Way:
+
+Wrapper classes (e.g., `Integer`) must be used in order for the `.indexOf()` method to work with primitive values:
 
  ```java
- import java.util.ArrayList;
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        ArrayList<Integer> list = new ArrayList<>();  
-        list.add(1);
-        list.add(2);
-        list.add(3);
+import java.util.ArrayList;
 
-int index = list.indexOf(2);  
-System.out.println(index);
+public class HelloWorld {
 
-        
-    }
-}
-```
-## Output is :
-```shell
-Hello, World!1
-```
-
-## Example 2
-
-```java
-public class Main {
   public static void main(String[] args) {
-    int[] arr = {1, 2, 3, 4, 5};
+    System.out.println("Hello, World!");
+    ArrayList<Integer> list = new ArrayList<>();
+    list.add(1);
+    list.add(2);
+    list.add(3);
 
-    System.out.println(arr.indexOf(3));
+    int index = list.indexOf(2);
+    System.out.println("ArrayList: " + list);
+    System.out.println("Index with value of 2: " + index);
   }
 }
 ```
-Since arrays do not have an .indexOf() method, the following error will be thrown:
-```shell
-error: cannot find symbol
-    System.out.println(arr.indexOf(3));
-                      ^
-  symbol:   method indexOf(int)
-  location: variable arr of type int[]
-1 error
-```
 
-Wrapper classes must be used in order for the `.indexOf()` method to work with primitive values.
+This will print the following output:
+
+```shell
+Hello, World!
+ArrayList: [1, 2, 3]
+Index with value of 2: 1
+```
