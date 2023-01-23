@@ -38,19 +38,26 @@ df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
  ``` py
 import pandas as pd
 
-#Initial DataFrame
-df1= pd.DataFrame({"Name": ["Peter", "Julia", "Manon", "Manon", "Nouhoum", "Nouhoum"],
-                 "Age": [7, 8, 10, 7, 9, 9], 
-                 "Favorite Color": ["Pink", "Purple","Orange","Green", "Blue", "Blue"]})
-print(df1.head())
+people = {
+    "Name": ["Peter", "Julia", "Manon", "Manon", "Nouhoum", "Nouhoum"],
+    "Age": [7, 8, 10, 7, 9, 9],
+    "Favorite Color": ["Pink", "Purple","Orange","Green", "Blue", "Blue"]
+}
+
+# Initial DataFrame
+df = pd.DataFrame(people)
+print("Original DataFrame:")
+print(df.head())
 
 #Example 1
-df2 = df1.drop_duplicates(inplace=False)
+df2 = df.drop_duplicates(inplace=False)
+print("\nExample 1 DataFrame:")
 print(df2.head())
 
-#Example 2 
-df3= df1.drop_duplicates(subset=['Name'], keep='last', ignore_index= True, inplace=False)
-print(df3.head())
+# Example 2 
+df.drop_duplicates(subset=['Name'], keep='last', inplace=True, ignore_index=True)
+print("\nExample 2 DataFrame:")
+print(df.head())
  ```
  Here is the output of both `.drop_duplicates()` examples:
  
