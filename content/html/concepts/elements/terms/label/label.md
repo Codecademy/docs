@@ -80,7 +80,7 @@ Multiple `<label>` elements can be used for the same UI element.
 
 ## Example
 
-The following example uses a `<form>` element that features `<input>` elements with coresponding `<label>` tags:
+The following example uses a `<form>` element that features `<input>` elements with coresponding `<label>` elements:
 
 ```html
 <html>
