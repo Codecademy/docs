@@ -35,7 +35,7 @@ df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
 
  Below are two separate examples of `.drop_duplicates()` using the same DataFrame:
  
- ``` 
+ ``` py
 import pandas as pd
 
 #Initial DataFrame
