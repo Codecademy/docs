@@ -2,14 +2,14 @@
 Title: '.underline()'
 Description: 'Applies an underline style to text characters in a View.'
 Subjects:
-- 'Mobile Development'
-- 'iOS'
+  - 'Mobile Development'
+  - 'iOS'
 Tags:
-- 'SwiftUI'
-- 'SwiftUI Modifiers'
+  - 'SwiftUI'
+  - 'SwiftUI Modifiers'
 CatalogContent:
-- 'learn-swift'
-- 'paths/build-ios-apps-with-swiftui'
+  - 'learn-swift'
+  - 'paths/build-ios-apps-with-swiftui'
 ---
 
 The **`.underline()`** view modifier in SwiftUI applies an underline style to text characters in a View.
