@@ -14,7 +14,6 @@ CatalogContent:
 ---
  
 The **`.drop_duplicates()`** function will return a copy of a `DataFrame` with duplicated rows removed or `None` if it is modified directly:
-
  
  ## Syntax
 
