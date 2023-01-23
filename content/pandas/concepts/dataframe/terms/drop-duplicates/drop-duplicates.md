@@ -61,7 +61,6 @@ print(df.head())
 
 This will produce the following output:
 
- 
  ```
  Original DataFrame:
        Name  Age Favorite Color
