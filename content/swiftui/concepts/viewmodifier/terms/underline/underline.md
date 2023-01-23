@@ -1,6 +1,6 @@
 ---
 Title: '.underline()'
-Description: 'A ViewModifier that applies an underline style to text characters in a View.'
+Description: 'Applies an underline style to text characters in a View.'
 Subjects:
 - 'Mobile Development'
 - 'iOS'
