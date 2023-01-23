@@ -17,9 +17,9 @@ CatalogContent:
 
 ## Syntax
 
-The Math class can be accessed by including the System namespace within a .cs file by adding the following line:
+The Math class can be accessed by including the System namespace within a `.cs` file by adding the following line:
 
-```cs
+```pseudo
 //Include the System namespace
 using System;
 ```
@@ -27,6 +27,8 @@ using System;
 The Math class is static and is accessed without needing to create an instance.
 
 ## Example
+
+The following example uses the `Math.Pow()` method to return the result of `4` raised to the power of `2`:
 
 ```cs
 //Include the System namespace
@@ -45,7 +47,7 @@ public class Example
 }
 ```
 
-In cases where access to System.Math is required but access to the entire System namespace is not. The following syntax can be used instead:
+In cases where access to System.Math is required but access to the entire System namespace is not. The following example uses an alternative syntax and returns the floor of `3/2` using the `System.Math.Floor()` method:
 
 ```cs
 public class Example 
