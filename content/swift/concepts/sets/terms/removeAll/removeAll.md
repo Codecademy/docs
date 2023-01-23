@@ -23,12 +23,13 @@ setName.removeAll()
 ```
 
 - `.removeAll()` will remove all values from `setName`.
+- It is not possible to use a `(where:)` condition on a set because `Set` does not currently conform to the `RangeReplaceableCollection` protocol that includes that method.
 
 ## Example
 
 The following is an example of the `.removeAll()` method:
 
-```swift block
+```swift
 var weather: Set = ["spring", "summer", "autumn", "fall", "winter"]
 
 weather.removeAll()
@@ -38,9 +39,6 @@ print(weather)
 
 This will output:
 
-```shell block
+```shell
 []
 ```
-
-- A `condition` is optional. If not declared, all values within the set will be removed. If it is declared, either `true` or `false` will be returned and if it evaluates to `true` for a specific value, that value within the set will be removed.
-- It is not possible to include the `(where:)` condition on a set because Set cannot conform to the `RangeReplaceableCollection` protocol.
