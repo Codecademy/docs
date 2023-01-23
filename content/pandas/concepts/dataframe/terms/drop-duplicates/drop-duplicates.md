@@ -32,7 +32,7 @@ df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
 | `ignore_index` | bool: `False` (default) | If `True`, the resulting axis will be labeled 0, 1, …, n-1. |
 
  ## Example
- ----------------
+
  Below are two separate examples of `.drop_duplicates()` using the same DataFrame:
  
  ``` 
