@@ -85,7 +85,3 @@ Example 2 DataFrame:
 2    Manon    7          Green
 3  Nouhoum    9           Blue
  ```
- 
- 
-
-
