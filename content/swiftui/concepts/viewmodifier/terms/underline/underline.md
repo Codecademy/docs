@@ -35,7 +35,7 @@ var body: some View {
 ```
 
 In the above example, the `.underline()` modifier is called on the `Text` View. This applies an underlined style to all characters within the `Text`.
-  
+
 This will display the following:
 
 ![SwiftUI ViewModifier Underline](https://raw.githubusercontent.com/Codecademy/docs/main/media/swiftui-viewmodifier-underline.png)
