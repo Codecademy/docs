@@ -21,7 +21,7 @@ Text("This text will be underlined")
 .underline()
 ```
 
-The `.underline()` modifier is applied to all characters within the `Text` (which conforms to View protocol).
+The `.underline()` modifier is applied to all characters within the `Text` (which conforms to the `View` protocol).
 
 ## Example
 
