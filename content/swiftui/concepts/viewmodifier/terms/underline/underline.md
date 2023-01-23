@@ -29,9 +29,9 @@ The following example creates some underlined text:
 
 ```swift
 var body: some View {
-Text("Underlined text")
-.underline()
-}
+    Text("Underlined text")
+        .underline()
+    }
 ```
 
 In the above example, the `.underline()` modifier is called on the `Text` View. This applies an underlined style to all characters within the `Text`.
