@@ -59,7 +59,9 @@ df.drop_duplicates(subset=['Name'], keep='last', inplace=True, ignore_index=True
 print("\nExample 2 DataFrame:")
 print(df.head())
  ```
- Here is the output of both `.drop_duplicates()` examples:
+
+This will produce the following output:
+
  
  ```
  Original DataFrame:
