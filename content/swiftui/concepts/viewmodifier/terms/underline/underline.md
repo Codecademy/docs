@@ -18,7 +18,7 @@ The **`.underline()`** view modifier in SwiftUI applies an underline style to te
 
 ```pseudo
 Text("This text will be underlined")
-.underline()
+    .underline()
 ```
 
 The `.underline()` modifier is applied to all characters within the `Text` (which conforms to the `View` protocol).
