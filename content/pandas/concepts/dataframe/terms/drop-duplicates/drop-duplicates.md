@@ -1,6 +1,17 @@
- | Title  | Description    |Subject                        |Tags                         |Catalog Content  |
- |----------------|----------------|-----------------------------|------------------------------|------------------|
- |`.drop_duplicates()`|Will return DataFrame with duplicates removed| Computer Science & Data Science|Data Structures & Pandas| paths\datascience| 
+---
+Title: '.drop_duplicates()'
+Description: 'Returns a DataFrame object with duplicate rows removed.'
+Subjects:
+  - 'Computer Science'
+  - 'Data Science'
+  - 'Web Development'
+Tags:
+  - 'Data Structures'
+  - 'Pandas'
+CatalogContent:
+  - 'learn-python-3'
+  - 'paths/data-science'
+---
  
  The `.drop_duplicates()`function will return a new DataFrame with duplicated values removed or None if `inplace = False` 
  
