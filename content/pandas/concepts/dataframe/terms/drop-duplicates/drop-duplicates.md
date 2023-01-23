@@ -19,7 +19,8 @@ The **`.drop_duplicates()`** function will return a copy of a `DataFrame` with d
  ## Syntax
 
 ``` pseudo
-df.drop_duplicates(subset= None, keep= 'first', inplace= False, ignore_index= False)
+df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
+
 ```
 
 |Parameter Name| Data Type | Usage |
