@@ -64,7 +64,7 @@ The following example uses a `<form>` element that features `<input>` elements w
 
       <input type="submit" value="Submit" />
     </form>
-    
+
     <label form="label-example">Label Example Form</label>
   </body>
 </html>
