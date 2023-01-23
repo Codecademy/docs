@@ -1,6 +1,6 @@
 ---
 Title: '.get()'
-Description: 'Brings the element present in a specified position in an ArrayList.'
+Description: 'Retrieves the element present in a specified position in an ArrayList.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
@@ -12,7 +12,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.get()`** method brings the element at a specified position within an `ArrayList` instance.
+The **`.get()`** method retrieves the element at some index in an `ArrayList`.
 
 ## Syntax
 
@@ -20,11 +20,11 @@ The **`.get()`** method brings the element at a specified position within an `Ar
 arrayListInstance.get(index);
 ```
 
-An element at a specified `index` is brought in an `arrayListInstance`.
+The element at index `index` is `arrayListInstance` is returned. If element at index is not found, an out of bounds exception will ocurr.
 
 ## Example
 
-In the example below, an empty `ArrayList` instance `studentList` is created and can hold `String`-type elements. Next, a few elements are added with the [`.add()`](https://www.codecademy.com/resources/docs/java/array-list/add) method. Lastly, two students are brought up with the `.get()` method:
+In the example below, an empty `ArrayList`, `studentList`, is created containing a few elements of type `String`. The `get()` method retrieves the students at indexes 0 and 1.
 
 ```java
 import java.util.ArrayList;
@@ -41,8 +41,8 @@ public class Students {
     studentList.add("Tony");
 
     // `.get()` method stores element's value
-    String StudentOne = studentList.set(0);
-    String StudentTwo = studentList.set(1);
+    String StudentOne = studentList.get(0);
+    String StudentTwo = studentList.get(1);
 
     // Output ArrayList and searched elements
     System.out.println("ArrayList: " + studentList);
@@ -51,7 +51,7 @@ public class Students {
 }
 ```
 
-The output should look like this:
+The output will look like this:
 
 ```shell
 ArrayList: [John, Lily, Samantha, Tony]
