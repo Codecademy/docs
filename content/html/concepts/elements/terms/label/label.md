@@ -1,6 +1,6 @@
 ---
 Title: '<label>'
-Description: 'Identifies captions for other elements in an html document.'
+Description: 'Identifies captions for other elements in an HTML document.'
 Subjects:
   - 'Web Development'
   - 'Web Design'
@@ -19,74 +19,32 @@ CatalogContent:
 
 The **`<label>`** element is used to identify captions for other elements. It is commonly used with [form](https://www.codecademy.com/resources/docs/html/forms) UI elements such as [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input/input.md) and [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select).
 
-**NOTE** This tag also supports the *Event Attributes* and the *Global Attributes* in HTML.
-
 ## Syntax
 
 ```pseudo
-<label><!-- Labeled content goes here --></label>
-```
-
-## Usages
-
-The `<label>` tag can define a label for several elements:
-
-- [`<input>`](https://www.codecademy.com/resources/docs/html/elements/input)
-- [`<select>`](https://www.codecademy.com/resources/docs/html/elements/select)
-- `<meter>`
-- `<progress>`
-- `<textarea>`
-
-**Note:** `<label>` tags are essential for good accessbility. `<label>` tags creates captions for its coresponding UI elements. Also, a user clicks the text within the `<label>` element, it toggles the corresponding input. This is great for users who have difficulty clicking on small UI elements such as checkboxes.
-
-## Atributes
-
-Some common attributes used to set properties for the `<label>` element are shown below:
-
-- `for`: Specifies the id of the form element the `<label>` should be bound to.
-- `form`:  Specifies which form the `<label>` belongs to.
-
-Multiple label elements can be used for the same UI element.
-
-```html
-<form id="contact">
-  <label form="contact" for="name">Input Label</label>
-  <input id="name" />
-</form>
-```
-
-> **Note:** UI elements can be connected to any `<label>` element placed between `<label></label>` tags.
-
-The following examples uses a `<form>` element that features `<input>` elements with corresponding `<label>` tags:
-
-```html
-<label for="name">
-  Name Input Label
-  <input id="name" />
+<label for="">
+  <!-- Labeled content goes here -->
 </label>
 ```
 
-## Multiple
+In addition to having access to event-driven and global attributes, the `<label>` element uses the following attributes:
 
-Multiple `<label>` elements can be used for the same UI element.
+- A `for` attribute to match the `id` of one or both of the following:
+  - A single, valid control element that is nested within the `<label>` element.
+  - One or more control elements that exist elsewhere in the document, outside the `<label>` element.
+- A `form` attribute that binds the `<label>` to a [`<form>`](https://www.codecademy.com/resources/docs/html/elements/form) element with a matching `id`.
 
-```html
-<label for="name">Name Input Label
-<input id="name" />
-<label for="name">Warning: Name is required</label>
-```
-
-**Note:** You should not put anchors, buttons, any interactive UI element, between  `<label></label>` tags.
+> **Note:** Placing interactive elements (e.g., [`<a>`](https://www.codecademy.com/resources/docs/html/elements/a) and [`<button>`](https://www.codecademy.com/resources/docs/html/elements/button)) inside of a `<label>` poses accessibility issues where the form input becomes difficult to use. Therefore, these elements should be defined outside of the `<label>`.
 
 ## Example
 
-The following example uses a `<form>` element that features `<input>` elements with coresponding `<label>` elements:
+The following example uses a `<form>` element that features `<input>` elements with corresponding `<label>` elements:
 
 ```html
 <html>
   <head> </head>
   <body>
-    <form>
+    <form id="label-example">
       <label for="email">Email Address</label>
       <input id="email" type="email" />
 
@@ -106,6 +64,8 @@ The following example uses a `<form>` element that features `<input>` elements w
 
       <input type="submit" value="Submit" />
     </form>
+    
+    <label form="label-example">Label Example Form</label>
   </body>
 </html>
 ```
