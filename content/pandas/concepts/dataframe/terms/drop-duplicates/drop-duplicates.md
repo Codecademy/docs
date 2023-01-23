@@ -23,7 +23,8 @@ df.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
 
 ```
 
-|Parameter Name| Data Type | Usage |
+| Parameter | Option(s) | Description |
+
 |:------------:|-----------|-------|
 |`subset`| column label or sequence of labels| Will only consider duplicates in these columns, otherwise all columns are screened by default.
 |`keep`|*'first'* **default**,*'last'*,*False*| Determines which duplicate to keep by default. `first` will drop all duplicates except the first occurence. `last`will drop all duplicates except the last occurence. False drops all duplicates.
