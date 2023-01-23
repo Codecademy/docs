@@ -16,7 +16,7 @@ The **`.underline()`** view modifier in SwiftUI applies an underline style to te
 
 ## Syntax
 
-```psuedo
+```pseudo
 Text("This text will be underlined")
 .underline()
 ```
