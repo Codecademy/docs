@@ -22,7 +22,7 @@ The **`<label>`** element is used to identify captions for other elements. It is
 ## Syntax
 
 ```pseudo
-<label for="">
+<label for="" form="">
   <!-- Labeled content goes here -->
 </label>
 ```
