@@ -1,6 +1,6 @@
 ---
 Title: '.Resize()'
-Description: 'Updates or defines the size of an existing array.'
+Description: 'Updates the size of an existing array.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
