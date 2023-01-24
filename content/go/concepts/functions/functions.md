@@ -15,7 +15,7 @@ CatalogContent:
 ---
 
 **Functions** are a block of code that can be reused multiple times.
-Functions are defined using the func keyword, followed by the function name, parameters, and return type. 
+Functions are defined using the `func` keyword, followed by the function name, parameters, and return type. 
 The parameter names and result names must be either all present or all absent.
 Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
 
