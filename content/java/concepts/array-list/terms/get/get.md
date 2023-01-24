@@ -20,11 +20,11 @@ The **`.get()`** method retrieves the element at some index in an `ArrayList`.
 arrayListInstance.get(index);
 ```
 
-The element at index `index` is `arrayListInstance` is returned. If element at index is not found, an out of bounds exception will ocurr.
+The element at index `index` is `arrayListInstance` is returned. If element at index is out of range, an `IndexOutOfBoundsException` will be thrown.
 
 ## Example
 
-In the example below, an empty `ArrayList`, `studentList`, is created containing a few elements of type `String`. The `get()` method retrieves the students at indexes 0 and 1.
+In the example below, an empty `ArrayList`, `studentList`, is created containing a few elements of type `String`. The `.get()` method retrieves the students at indexes 0 and 1.
 
 ```java
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import java.util.ArrayList;
 public class Students {
   public static void main(String[] args) {
 
-    ArrayList<String> studentList = new ArrayList<String>();
+    ArrayList<String> studentList = new ArrayList<>();
 
     // Add new values to the studentList
     studentList.add("John");
