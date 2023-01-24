@@ -1,6 +1,6 @@
 ---
 Title: 'Functions'
-Description: 'Functions are a block of code that can be reused multiple times'
+Description: 'Functions are a block of code that can be reused multiple times.'
 Subjects:
   - 'Code Foundations'
   - 'Computer Science'
