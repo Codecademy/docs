@@ -258,7 +258,7 @@ func main() {
 }
 ```
 
-output:
+This example results in the following output:
 
 ```bash
 initially {pavan pavan@example.com}
