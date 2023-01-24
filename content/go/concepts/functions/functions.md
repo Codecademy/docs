@@ -282,7 +282,7 @@ reasons to use blank identifier is for better readability and to say that this f
 
 Another usecase for blank identifier is to implement interfaces which can be covered in interfaces section
 
-init function is called before main function and can be called multiple times
+The `init` function is called before the `main` function and can be called multiple times
 
 ### Example
 
