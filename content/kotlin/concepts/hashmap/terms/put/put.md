@@ -24,8 +24,8 @@ fun <K, V> MutableMap<K, V>.put(key: K, value: V): V?
 
 It takes in two parameters:
 
-- key: the key of the key-value pair to add or update in the map.
-- value: the value of the key-value pair to add or update in the map.
+- The `key` of the key-value pair to add or update in the map.
+- The `value` of the key-value pair to add or update in the map.
 
 ## Example
 
