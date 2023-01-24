@@ -322,7 +322,10 @@ Initializing package main!!
 Program exited.
 ```
 
-use below codebyte to practice in broswer while learning
+## Codebyte Example
+
+The following example is runnable and can be edited:
+
 ```codebyte/golang
 package main
 
