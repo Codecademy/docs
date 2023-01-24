@@ -196,7 +196,7 @@ func main() {
 
 ```
 
-output:
+This example produces the following output:
 
 ```bash
 This function has no parameters.
