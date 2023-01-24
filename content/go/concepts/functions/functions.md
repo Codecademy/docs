@@ -16,8 +16,6 @@ CatalogContent:
 
 **Functions** are a block of code that can be reused multiple times.
 Functions are defined using the `func` keyword, followed by the function name, parameters, and return type. 
-The parameter names and result names must be either all present or all absent.
-Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
 
 ## Syntax
 
@@ -28,6 +26,11 @@ func functionName(parameter type)(resultReturn type){
     return value
 }
 ```
+
+The parameter names and result names must be either all present or all absent.
+Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
+
+Below are some examples of how to define functions in Go:
 
 ## Examples
 
@@ -110,7 +113,7 @@ func main() {
 Go build failed.
 ```
 
-we can define a function inside a function but it is not recommended as we can't call it outside the function.
+There is a way to define a function inside a function as below:
 
 ```go
 package main
@@ -157,10 +160,11 @@ yaa the built-in fuction Println is an example of vardiac function.
 Println is a variadic function refer [here](https://golang.org/pkg/fmt/#Println)
 
 for more specific information [here](https://cs.opensource.google/go/go/+/refs/tags/go1.19.5:src/fmt/print.go;l=293)
+<!-- TODO remove vardiac fn doc nd code from below aftr getting clear suggestion -->
+Below is an example of an anonymous function:
 
 ```go
-// You can edit this code!
-// Click here and start typing.
+
 package main
 
 import "fmt"
@@ -183,14 +187,11 @@ func main() {
 		println("a+b =", a+b)
 	}(x, y)
 
-
-
 	func(keys ...int) { // variadic parameters
 		for _, key := range keys {
 			fmt.Println(key)
 		}
 	}(1, 2, 3, 4, 5)// can pass any number of arguments
-
 
 }
 
@@ -214,19 +215,20 @@ Program exited.
 
 ### Methods
 
-A function is called a method if it is defined with a receiver.
-A receiver is a parameter that is declared before the function name.
-The receiver can be of any type, including a struct type.
-Receiver can be a pointer or a value.
-If the receiver is a pointer, the function can modify the value to which the receiver points.
-If the receiver is a value, the function can modify a copy of the value to which the receiver points.
+- A function is called a method if it is defined with a receiver.
+- A receiver is a parameter that is declared before the function name.
+- The receiver can be of any type, including a struct type.
+- Receiver can be a pointer or a value.
+- If the receiver is a pointer, the function can modify the value to which the receiver points.
+- If the receiver is a value, the function can modify a copy of the value to which the receiver points.
 
 **_implicit dereferencing_** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
+
 In go the complier does this automatically.
 
+Below is an example of methods in Go:
+
 ```go
-// You can edit this code!
-// Click here and start typing.
 package main
 
 import (
@@ -254,7 +256,6 @@ func main() {
 	// this is because the compiler will automatically convert s to &s implicit dereferencing
 	fmt.Println("after pass by reference", s)
 
-
 }
 ```
 
@@ -268,21 +269,23 @@ after pass by reference {pavan pooja@example.com}
 Program exited.
 ```
 
-- Value semantics is appropriate when the data is safe to be copied. In this case, passing a copy of the data to a function or method is sufficient and can improve performance by avoiding the overhead of passing a pointer.
-
-- Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data.
-  Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure. However, pointers add complexity to the program.
 
 ## Points to Remember
 
-Names of functions must be unique in the package scope. Exceptions for this are `init` and using a blank identifier (these can never be called directly they are only used to implement interfaces or provide helper functionality.)
+Names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
+
 Reasons to use a blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package.
+Another use case for blank identifier is to implement interfaces 
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
-Another use case for blank identifier is to implement interfaces.
+- Value semantics is appropriate when the data is safe to be copied. In this case, passing a copy of the data to a function or method is sufficient and can improve performance by avoiding the overhead of passing a pointer.
+
+- Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data.Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure. However, pointers add complexity to the program.
 
 The `init` function is called before the `main` function and can be called multiple times
+
+Below is an example with the `init` function:
 
 ### Example
 
