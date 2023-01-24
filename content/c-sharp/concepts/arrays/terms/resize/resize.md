@@ -1,6 +1,6 @@
 ---
 Title: '.Resize()'
-Description: 'Updates or defines the size of an existing array.'
+Description: 'Updates the size of an existing array.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -20,11 +20,11 @@ The **`.Resize()`** method changes the number of elements of a one-dimensional a
 Array.Resize<int>(ref int[] array, int newSize);
 ```
 
-`.Resize()` is a modifier of the `Array` object.  When used as part of a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
+`.Resize()` is a method of the `Array` object.  When used with a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
 
 ## Example
 
-The following example :
+The following example will conceptualize how the `.Resize()` method functions within an array.
 
 ```cs
 using System;
@@ -33,69 +33,65 @@ public class Example
 {
    public static void Main()
    {
-        //Create and initialize an example string array.
-        String[] planets = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
+        //Martians have intercepted a broadcast of the musical album, Jeff Wayne's "War of the Worlds", and they love it.  The Martians have created an array of the songs they were able to intercept.
+        String[] WaroftheWorlds = {"The_Eve_of_the_War", "Horsell_Common_and_the_Heat_Ray", "The_Artilleryman_and_the_Fighting_Machine", "Forever_Autumn", "Thunder_Child", "The_Red_Weed_(Part_1)", "The_Spirit_of_Man", "The_Red_Weed_(Part_2)", "The_Artilleryman_Returns", "Brave_New_World"};
+        Console.WriteLine("Broadcast from Earth:");
+        PrintUlla(WaroftheWorlds);
 
-        //Display the values of the array.
-        PrintIndexAndValues(planets);
-
-        //Resize the array to a bigger size (adding three elements).
-        Array.Resize(ref planets, planets.Length + 3);
-
-        //Display the values of the new (larger) array.
-        PrintIndexAndValues(planets);
-
-        //Resize the array to a smaller size (eight total elements).
-        Array.Resize(ref planets, 8);
-
-        //Display the values of the new (smaller) array.
-        PrintIndexAndValues(planets);
+        //The Martians know that there are still three songs on the album, but they do not know what these songs are called.  Instead, they resize their array to set empty placeholders for these songs.
+        Array.Resize(ref WaroftheWorlds, WaroftheWorlds.Length + 3);
+        Console.WriteLine("Complete Broadcast (Will Receive Soon):");
+        PrintUlla(WaroftheWorlds);
+        
+        //The Martians favorite part of the album is really where they triumph over humanity. They decide that this part of the array is their favorite, and resize the array to only include the first five songs.
+        Array.Resize(ref WaroftheWorlds, 5);
+        Console.WriteLine("Invasion Plan:");
+        PrintUlla(WaroftheWorlds);
    }
    
-    public static void PrintIndexAndValues(String[] planets)  {
-        for(int i = 0; i < planets.Length; i++)
+    public static void PrintUlla(String[] WaroftheWorlds)  {
+        for(int i = 0; i < WaroftheWorlds.Length; i++)
         {
-            Console.WriteLine("   [{0}] : {1}", i, planets[i]);
+            Console.WriteLine("   [{0}] : {1}", i, WaroftheWorlds[i]);
         }
         Console.WriteLine();
     }
 }
-/*
+```
+```pseudo
+The example above will return the following output:
 
-The string array initially produces the following output:
-   [0] : Mercury
-   [1] : Venus
-   [2] : Earth
-   [3] : Mars
-   [4] : Jupiter
-   [5] : Saturn
-   [6] : Uranus
-   [7] : Neptune
-   [8] : Pluto
+Broadcast from Earth:
+   [0] : The_Eve_of_the_War
+   [1] : Horsell_Common_and_the_Heat_Ray
+   [2] : The_Artilleryman_and_the_Fighting_Machine
+   [3] : Forever_Autumn
+   [4] : Thunder_Child
+   [5] : The_Red_Weed_(Part_1)
+   [6] : The_Spirit_of_Man
+   [7] : The_Red_Weed_(Part_2)
+   [8] : The_Artilleryman_Returns
+   [9] : Brave_New_World
 
-After resizing to add three elements to the array, the string array produces the following output:
-   [0] : Mercury
-   [1] : Venus
-   [2] : Earth
-   [3] : Mars
-   [4] : Jupiter
-   [5] : Saturn
-   [6] : Uranus
-   [7] : Neptune
-   [8] : Pluto
-   [9] :
-   [10] :
-   [11] :
-   
-After resizing to a defined set of eight elements, the string array produces the following output:
-   [0] : Mercury
-   [1] : Venus
-   [2] : Earth
-   [3] : Mars
-   [4] : Jupiter
-   [5] : Saturn
-   [6] : Uranus
-   [7] : Neptune
+Complete Broadcast (Will Receive Soon):
+   [0] : The_Eve_of_the_War
+   [1] : Horsell_Common_and_the_Heat_Ray
+   [2] : The_Artilleryman_and_the_Fighting_Machine
+   [3] : Forever_Autumn
+   [4] : Thunder_Child
+   [5] : The_Red_Weed_(Part_1)
+   [6] : The_Spirit_of_Man
+   [7] : The_Red_Weed_(Part_2)
+   [8] : The_Artilleryman_Returns
+   [9] : Brave_New_World
+   [10] : 
+   [11] : 
+   [12] : 
 
-*/
+Invasion Plan:
+   [0] : The_Eve_of_the_War
+   [1] : Horsell_Common_and_the_Heat_Ray
+   [2] : The_Artilleryman_and_the_Fighting_Machine
+   [3] : Forever_Autumn
+   [4] : Thunder_Child
 ```
