@@ -311,7 +311,7 @@ func _init() {
 
 ```
 
-Output:
+This example results in the following output:
 
 ```bash
 Initializing package main
