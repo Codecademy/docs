@@ -271,7 +271,7 @@ Program exited.
 - Value semantics is appropriate when the data is safe to be copied, In this case, passing a copy of the data to a function or method is sufficient and can improve performance by avoiding the overhead of passing a pointer.
 
 - Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data.
-  Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure , but pointers add complexity to the program.
+  Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure. However, pointers add complexity to the program.
 
 ## Points to Remember
 
