@@ -35,7 +35,7 @@ import java.util.ArrayList;
 public class Main {
   public static void main(String[] args) {
     // Create ArrayList of type String named animals
-    ArrayList<String> animals = new ArrayList<String>();
+ArrayList<String> animals = new ArrayList<>();
 
     animals.add("Lion");
     animals.add("Tiger");
