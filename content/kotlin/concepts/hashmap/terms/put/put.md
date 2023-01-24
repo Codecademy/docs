@@ -32,7 +32,7 @@ It takes in two parameters:
 To add a key-value pair to a `HashMap` in Kotlin, the `.put()` method can be used. For example:
 
 ```kotlin
-fun main(){
+fun main() {
 val map = HashMap<String, Int>()
 map.put("apple", 1)
 map.put("banana", 2)
