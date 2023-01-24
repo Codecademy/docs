@@ -88,7 +88,7 @@ check me i dont have parenthesis around my return see nice right
 Program exited.
 ```
 
-Note:Functions must be directly declared at package level, not inside other functions.
+> **Note:** Functions must be directly declared at package level, not inside other functions.
 
 ```go
 package main
