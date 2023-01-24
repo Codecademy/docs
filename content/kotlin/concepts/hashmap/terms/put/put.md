@@ -33,10 +33,10 @@ To add a key-value pair to a `HashMap` in Kotlin, the `.put()` method can be use
 
 ```kotlin
 fun main() {
-val map = HashMap<String, Int>()
-map.put("apple", 1)
-map.put("banana", 2)
-map.put("cherry", 3)
+  val map = HashMap<String, Int>()
+  map.put("apple", 1)
+  map.put("banana", 2)
+  map.put("cherry", 3)
 }
 ```
 
@@ -45,9 +45,8 @@ The index operator `[]` can be used to add a key-value pair to a `HashMap`. For 
 ```kotlin
 fun main() {
 val map = HashMap<String, Int>()
-
-map["apple"] = 1
-map["banana"] = 2
-map["cherry"] = 3
+  map["apple"] = 1
+  map["banana"] = 2
+  map["cherry"] = 3
 }
 ```
