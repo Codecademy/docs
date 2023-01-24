@@ -47,7 +47,7 @@ public class Example
 }
 ```
 
-In cases where access to `System.Math` is required but access to the entire `System` namespace is not, an alternative syntax can be used. The following example uses an alternative syntax and returns the floor of `3/2` using the `System.Math.Floor()` method:
+In cases where access to `System.Math` is required but access to the entire `System` namespace is not, an alternative syntax can be used instead. The following example uses an alternative syntax and returns the floor of `3/2` using the `System.Math.Floor()` method:
 
 ```cs
 public class Example
