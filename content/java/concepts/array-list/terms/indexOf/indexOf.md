@@ -90,7 +90,7 @@ ArrayList<int> list = new ArrayList<>();
 1 error
 ```
 
-Wrapper classes (e.g., `Integer`) must be used in order for the `.indexOf()` method to work with primitive values:
+Wrapper classes (e.g., `Integer`) must be used for the `.indexOf()` method to work with primitive values:
 
 ```java
 import java.util.ArrayList;
