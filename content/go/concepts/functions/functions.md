@@ -14,9 +14,10 @@ CatalogContent:
   - 'paths/back-end-engineer-career-path'
 ---
 
-**Functions** are a block of code that can be reused multiple times
-Functions are defined using the `func` keyword followed by the name of the function, the parameters and the return type.
-Go use pass by value for parameters, which means that the function will receive a copy of the value of the parameter. If you want to modify the parameter, you need to pass a pointer to the parameter.
+**Functions** are a block of code that can be reused multiple times.
+Functions are defined using the func keyword, followed by the function name, parameters, and return type. 
+The parameter names and result names must be either all present or all absent.
+Pass by value is used for parameters, meaning the function receives a copy of the parameter's value. To modify the parameter, pass a pointer.
 
 ## Syntax
 
@@ -33,8 +34,6 @@ func functionName(parameter type)(resultReturn type){
 In the following example, we create a function that takes string as a parameter and returns a string:
 
 ```go
-// You can edit this code!
-// Click here and start typing.
 package main
 
 import (
@@ -78,14 +77,14 @@ Note:Functions must be directly declared at package level, not inside other func
 
 ## Anonymous Functions
 
-The definition of anonymous function is same as normal functions except anonymous functions won't have name
-It can be called right after its defined
-The parameter names and result names must be either all present or all absent.
-Anyonymous functions are useful when you want to pass a function as a parameter to another function.
+Anonymous functions are similar to normal functions, but do not have a name. They can be called immediately after being defined.
+Anyonymous functions can be passed as parameter to another function.
 They are also called closures/functions literals.
 
-Each function can have at most one variadic parameter. The type of a variadic parameter is always a slice type
-There is a builtin function we have been using for a while with variadic parameters
+Each function can have at most one variadic parameter(keys ...int).
+The type of a variadic parameter is always a slice type.
+think about it we have been using a function that takes vardiac parameters..
+yaa the built-in fuction Println is an example of vardiac function.
 Println is a variadic function refer to https://golang.org/pkg/fmt/#Println
 for more specific information https://cs.opensource.google/go/go/+/refs/tags/go1.19.5:src/fmt/print.go;l=293
 
@@ -153,7 +152,7 @@ If the receiver is a pointer, the function can modify the value to which the rec
 If the receiver is a value, the function can modify a copy of the value to which the receiver points.
 
 **_implicit dereferencing_** refers to the automatic process of taking the address of a value and passing a pointer to a method when a method with a pointer receiver is called on that value.
-In go complier does this automatically for us.
+In go complier does this automatically.
 
 ```go
 // You can edit this code!
@@ -207,7 +206,7 @@ Program exited.
 ### points to remember
 
 names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
-reason we use blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package
+reasons to use blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
