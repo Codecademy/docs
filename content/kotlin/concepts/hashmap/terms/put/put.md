@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In Kotlin, the `put()` function is used to add a key-value pair to a map. It is a member function of the `MutableMap` interface, which means it can be called on any object that implements this interface, such as a `HashMap` or `LinkedHashMap`.
+In Kotlin, the `.put()` method is used to add a key-value pair to a map. It is a member function of the `MutableMap` interface, which means it can be called on any object that implements this interface, such as a `HashMap` or `LinkedHashMap`.
 
 ## Syntax
 
