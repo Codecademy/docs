@@ -273,7 +273,7 @@ Program exited.
 - Pointer semantics is appropriate when the data is not safe to be copied. In this case, passing a pointer to the data allows the function or method to modify the original data.
   Using pointers is more efficient when dealing with large data structures, as it avoids the cost of copying the entire data structure , but pointers add complexity to the program.
 
-### points to remember
+## Points to Remember
 
 names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
 Reasons to use a blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package.
