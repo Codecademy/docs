@@ -1,4 +1,12 @@
 # Pseudo code syntax
+Title: Array.CopyTo Method in C#
+Description: Basic syntax and example of CopyTo in Arrays.
+Subjects: C#.
+Tags: - 'C#'
+      - 'Arrays'
+      - 'CopyTo'
+
+CatalogContent: 'c# for beginners'.
 
 ## Array CopyTo Syntax
 
