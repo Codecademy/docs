@@ -280,7 +280,7 @@ Reasons to use a blank identifier is for better readability and to say that this
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
-Another usecase for blank identifier is to implement interfaces which can be covered in interfaces section
+Another use case for blank identifier is to implement interfaces.
 
 The `init` function is called before the `main` function and can be called multiple times
 
