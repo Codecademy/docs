@@ -276,7 +276,7 @@ Program exited.
 ### points to remember
 
 names of the functions must be unique in the package scope exceptions for this are init and using blank identifier(these can never be called directly they are only used to implement interfaces or provide helper functionality.)
-reasons to use blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package
+Reasons to use a blank identifier is for better readability and to say that this function is not meant to be called directly from outside the package.
 
 <!-- TODO: update link here after interfaces in go is done or make a example here with interfaces need opinion of someone -->
 
