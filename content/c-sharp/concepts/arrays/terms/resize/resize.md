@@ -20,7 +20,7 @@ The **`.Resize()`** method changes the number of elements of a one-dimensional a
 Array.Resize<int>(ref int[] array, int newSize);
 ```
 
-`.Resize()` is a modifier of the `Array` object.  When used as part of a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
+`.Resize()` is a method of the `Array` object.  When used with a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
 
 ## Example
 
