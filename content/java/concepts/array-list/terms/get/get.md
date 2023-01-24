@@ -20,7 +20,7 @@ The **`.get()`** method retrieves the element at some index in an `ArrayList`.
 arrayListInstance.get(index);
 ```
 
-The element at index `index` is `arrayListInstance` is returned. If element at index is out of range, an `IndexOutOfBoundsException` will be thrown.
+The element at index `index` is `arrayListInstance` is returned. If the index is out of range, an `IndexOutOfBoundsException` will be thrown.
 
 ## Example
 
