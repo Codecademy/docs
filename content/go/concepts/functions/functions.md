@@ -31,8 +31,6 @@ func functionName(parameter type)(resultReturn type){
 
 ## Examples
 
-In the following example, we create a function that takes string as a parameter and returns a string:
-
 ```go
 package main
 
@@ -40,8 +38,9 @@ import (
 	"fmt"
 )
 
+// we can omit the paranthesis if there is only one parameter
 func Hello(name string) string {
-	return "Hello " + name
+	return "check me i dont have parenthesis around my return see " + name
 }
 
 func MultipleReturns(a int64, b int64) (int64, int64) {
@@ -52,21 +51,37 @@ func MultipleReturns2(a int64, b int64) (c int64, d int64) {
 	x, y := a+b, a-b
 	c = x
 	d = y
-	return // return c, d
+	return // dont have to specify the return names if we are using named return values in func definition
+}
+
+// passing a function as a parameter
+func printResult(f func(int64, int64) (int64, int64), a int64, b int64) {
+	c, d := f(a, b)
+	fmt.Println(c, d)
+}
+
+// functions can return functions as well!
+func returnFunc() func() {
+	return func() {
+		fmt.Println("Hey I am a function returned by function sounds cool right?")
+	}
 }
 
 func main() {
-	fmt.Println(Hello("World"))
+	returnFunc()()
+	printResult(MultipleReturns, 10, 3)
+	fmt.Println(Hello("nice right"))
 	fmt.Println(MultipleReturns(10, 3))
 	fmt.Println(MultipleReturns2(10, 3))
 }
 
 ```
-
 output is:
 
 ```bash
-Hello World
+Hey I am a function returned by function sounds cool right?
+13 7
+check me i dont have parenthesis around my return see nice right
 13 7
 13 7
 
@@ -74,6 +89,59 @@ Program exited.
 ```
 
 Note:Functions must be directly declared at package level, not inside other functions.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	func name() {
+		fmt.Println("hey")
+	}()
+}
+
+```
+
+```bash
+./prog.go:6:7: syntax error: unexpected name, expecting (
+./prog.go:8:3: syntax error: unexpected ( after top level declaration
+
+Go build failed.
+```
+
+we can define a function inside a function but it is not recommended as we can't call it outside the function.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	func() {
+		fmt.Println("Hey I am no name")
+	}()
+	greeting := "hey I am no name"
+	//greeting can be accessed inside of nested functions and can be changed
+	//or assign it to a variable to make it reusable
+	secondWay := func(name string) {
+		greeting = "Hey " + name
+
+	}
+	secondWay("Pavan")
+	fmt.Println(greeting)
+
+}
+
+```
+output is 
+
+```bash
+Hey I am no name
+Hey Pavan
+
+Program exited.
+```
 
 ## Anonymous Functions
 
@@ -85,8 +153,10 @@ Each function can have at most one variadic parameter(keys ...int).
 The type of a variadic parameter is always a slice type.
 think about it we have been using a function that takes vardiac parameters..
 yaa the built-in fuction Println is an example of vardiac function.
-Println is a variadic function refer to https://golang.org/pkg/fmt/#Println
-for more specific information https://cs.opensource.google/go/go/+/refs/tags/go1.19.5:src/fmt/print.go;l=293
+
+Println is a variadic function refer [here](https://golang.org/pkg/fmt/#Println)
+
+for more specific information [here](https://cs.opensource.google/go/go/+/refs/tags/go1.19.5:src/fmt/print.go;l=293)
 
 ```go
 // You can edit this code!
@@ -263,21 +333,7 @@ import (
 func Hello(name string) string {
 	return "Hello " + name
 }
-
-func MultipleReturns(a int64, b int64) (int64, int64) {
-	return a + b, a - b
-}
-
-func MultipleReturns2(a int64, b int64) (c int64, d int64) {
-	x, y := a+b, a-b
-	c = x
-	d = y
-	return // return c, d
-}
-
 func main() {
 	fmt.Println(Hello("World"))
-	fmt.Println(MultipleReturns(10, 3))
-	fmt.Println(MultipleReturns2(10, 3))
 }
 ```
