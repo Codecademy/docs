@@ -43,7 +43,7 @@ map.put("cherry", 3)
 The index operator `[]` can be used to add a key-value pair to a `HashMap`. For example:
 
 ```kotlin
-fun main(){
+fun main() {
 val map = HashMap<String, Int>()
 
 map["apple"] = 1
