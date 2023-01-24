@@ -252,6 +252,7 @@ Initializing package main!!
 Program exited.
 ```
 
+use below codebyte to practice in broswer while learning
 ```codebyte/golang
 package main
 
