@@ -11,13 +11,16 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Resize()`** property changes the number of elements of a one-dimensional array to the specified new size.
+The **`.Resize()`** method changes the number of elements of a one-dimensional array to the specified new size.
 
 ## Syntax
 
 ```pseudo
-
+// Sets a new size for the specified array
+Array.Resize<int>(ref int[] array, int newSize);
 ```
+
+`.Resize()` is a static method of the `Array` object.  When used as part of a one-dimensional array, it defines the number of elements acceptable by the array, or redefines the size of an array.  This can be used to both lengthen or shorten the number of elements within a given array.
 
 ## Example
 
