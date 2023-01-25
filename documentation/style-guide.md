@@ -65,9 +65,9 @@ There are three types of Docs entries:
 
 Concept and term entries for a language function, method, command or other language structure will typically have two or three sections with the corresponding headers:
 
-- "## Syntax" for the section introducing the syntax of the term.
-- "## Example" for the section with a code block showing the term in use.
-- "## Codebyte Example" for those languages that support codebytes, the section with a runnable codebyte example.
+- `## Syntax` for the section introducing the syntax of the term.
+- `## Example` for the section with a code block showing the term in use.
+- `## Codebyte Example` for those languages that support codebytes, the section with a runnable codebyte example.
 - There can be more headers and sub headers in cases where the complexity of the subject warrants it.
 
 ## Code
@@ -92,28 +92,29 @@ In code blocks:
   - "Syntax" blocks.
     - Used with a `## Syntax` header.
     - Shows the general syntax of a language element.
-    - Uses ```pseudo blocks.
+    - Use ```pseudo blocks.
     - They are usually followed by a description of parameters, return values etc.
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
     - Shows example code.
-    - Uses blocks appropriate to the language used. (see: [Code Blocks in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
+    - Use blocks appropriate to the language used. (see: [Code Blocks in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
     - They are usually preceded by a description of what the example does.
     - Often followed by an "Output" block.
     - Output should be illustrated in a separate "Output" block rather than listed as comments in the example code.
   - "Output" blocks.
     - Follows an "Example" block.
     - Shows the output from an example.
-    - Uses a ```shell block.
+    - Use a ```shell block.
     - Usually preceded by a sentence like, "This example results in the following output:"
   - "Codebyte Example" blocks.
     - Used with a `## Codebyte Example` header.
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
     - Displays example code that is runnable.
-    - Uses codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
+    - Use codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
     - They are usually preceded by a description of what the example does.
     - They are not followed by an "Output" block.
+- Code blocks may appear differently than the above if the entry warrants it.
 
 ## Links
 
@@ -125,3 +126,38 @@ In code blocks:
 - When linking items outside the document, use the full path. When linking to items inside the document (i.e. Headers) use a relative path.
 - Images are stored in the media folder and should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name. (Note the image link will not work until a PR is merged.)
 - If there are parentheses in the link, replace them with `%28` and `%29`.
+
+## Metadata
+
+Each Docs entry is preceded by metadata that provides information about how the entry is displayed.
+- The metadata starts on the first line.
+- The metadata begins and ends with three dashes (`---`) on their own line.
+- There should be a line-break after the last line of the metadata.
+- There should not be extra line breaks within the metadata.
+- The data for `Title:` and `Description:` appear as single quoted strings on the same line.
+- Do not use apostrophes or quotes in the title or description.
+- `CatalogContent:` appears without spaces.
+- The entries for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
+- The lists for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
+- The entries for `Subjects:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
+- The entries for `Tags:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
+- For `CatalogContent:` use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
+The metadata for a concept or term entry should look like this:
+
+```
+---
+Title: 'The Title'
+Description: 'A brief description' 
+Subjects:
+  - 'A subject name'
+  - 'A second subject name'
+  - 'An nth subject name'
+Tags:
+  - 'A tag'
+  - 'A second tag'
+  - 'An nth tag'
+CatalogContent:
+  - 'learn-example-course'
+  - 'path/example-path'
+---
+```
