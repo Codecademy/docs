@@ -46,12 +46,11 @@ The following example creates a `Dog` class with the properties `name`, `breed`,
 
 ```kotlin
 class Dog {
-    var name: String = ""
-    var breed: String = ""
-    var age: Int = 0
-
-    fun bark() {
-        println("Woof!")
+  var name: String = ""
+  var breed: String = ""
+  var age: Int = 0
+  fun bark() {
+    println("Woof!")
     }
 }
 ```
