@@ -1,6 +1,6 @@
 ---
 Title: 'Form'
-Description: 'Displays a collection of data in a single column. Like `Settings` on iPhones and Macs.'
+Description: 'Displays a collection of data in a single column. An example is the settings application for Apple devices.'
 Subjects:
   - 'Mobile Development'
   - 'Computer Science'
