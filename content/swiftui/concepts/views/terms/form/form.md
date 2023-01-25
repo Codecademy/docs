@@ -27,7 +27,7 @@ var body: some View {
 
 ## Example
 
-In the example below, a `Form` is wrapped inside a `NavigationView` that will display 4 fields:
+In the example below, a `Form` is wrapped inside a `NavigationView` that will display four fields:
 
 ```swift
 @State private var email = ""
