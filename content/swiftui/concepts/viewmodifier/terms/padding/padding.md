@@ -1,6 +1,6 @@
 ---
 Title: '.padding()'
-Description: 'Applies padding to the view.'
+Description: 'Applies spacing around a view.'
 Subjects:
   - 'Mobile Development'
   - 'iOS'
