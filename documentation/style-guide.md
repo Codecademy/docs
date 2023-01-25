@@ -26,6 +26,7 @@ There are three types of Docs entries:
 
 ## Writing Entries
 
+- Entries *must* be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
 - Entries are all written using Markdown.
 - Do not use HTML in place of Markdown formatting.
 - Bold the first occurrence of the concept or term in the body of the entry.
@@ -85,13 +86,34 @@ In code blocks:
 - In code given as examples, the entire block should be runnable as written.
 - All code blocks should be syntactically correct.
 - Examples should be complete and not be broken into smaller blocks.
-- Output should be illustrated in a separate ```shell block rather than listed as comments in the code.
 - Comments should be capitalized and punctuated like a normal sentence. 
 - Line breaks should precede and follow each code block.
-- Code blocks should be accompanied by at least one sentence describing their contents.
-  - Syntax ```pseudo blocks are usually followed by a description of parameters, return values etc.
-  - Example code blocks are usually preceded by a description of what the example does.
-  - Output ```shell blocks are usually preceded by a sentence like, "This example results in the following output:"
+- There are four general types of code blocks in Docs:
+  - "Syntax" blocks.
+    - Used with a `## Syntax` header.
+    - Shows the general syntax of a language element.
+    - Uses ```pseudo blocks.
+    - They are usually followed by a description of parameters, return values etc.
+  - "Example" blocks.
+    - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
+    - Shows example code.
+    - Uses blocks appropriate to the language used. (see: [Code Blocks in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
+    - They are usually preceded by a description of what the example does.
+    - Often followed by an "Output" block.
+    - Output should be illustrated in a separate "Output" block rather than listed as comments in the example code.
+  - "Output" blocks.
+    - Follows an "Example" block.
+    - Shows the output from an example.
+    - Uses a ```shell block.
+    - Usually preceded by a sentence like, "This example results in the following output:"
+  - "Codebyte Example" blocks.
+    - Used with a `## Codebyte Example` header.
+    - Typically, only one per entry.
+    - Typically, appears at the end of the entry.
+    - Displays example code that is runnable.
+    - Uses codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
+    - They are usually preceded by a description of what the example does.
+    - They are not followed by an "Output" block.
 
 ## Links
 
