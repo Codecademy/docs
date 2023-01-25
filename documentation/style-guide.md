@@ -142,6 +142,7 @@ Each Docs entry is preceded by metadata that provides information about how the 
 - The entries for `Subjects:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
 - The entries for `Tags:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
 - For `CatalogContent:` use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
+
 The metadata for a concept or term entry should look like this:
 
 ```
