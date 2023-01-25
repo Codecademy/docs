@@ -34,7 +34,7 @@ The `.padding()` modifier method uses the following optional parameters:
   - `.horizontal`: Applies padding to both the top and bottom edges of the view
 - The `amount` of padding is given in points as an integer. If given a `nil` value, SwiftUI assigns a default amount based on the device being used.
 
-> **Note:** The `.padding()` modifier method can be used without any specified attributes, or with one or with two attributes specified.
+Using the `.padding()` modifier method without any specified parameter results in the default behavior of the modifier: the default amount of spacing applied to all the edges of the view.
 
 ## Example
 
