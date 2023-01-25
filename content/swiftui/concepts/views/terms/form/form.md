@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`Form`** view displays collected data in a single column. It is the main element used inside the "Settings" application on the iPhone or iPad or "System Settings" on other devices.
+The **`Form`** view displays collected data in a single column. It is the main element used inside the settings application on Apple devices or "System Settings" on other devices.
 
 ## Syntax
 
