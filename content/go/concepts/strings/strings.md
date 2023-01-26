@@ -12,7 +12,7 @@ CatalogContent:
   - 'path/computer-science'
 ---
 
-A Go **string** is a read-only data type that represents UTF-8 encoded slice of bytes.
+A Go **string** is a read-only data type that represents a UTF-8 encoded slice of bytes.
 
 As in many other languages, strings in Go are sequences of characters. Since each and every character in a Go string represents one or more bytes, *they are immutable*: once a Go string is created, its value cannot be changed. If you try to change it, the compiler will throw an error message. This is a main difference between strings in Go and strings in other languages.
 
