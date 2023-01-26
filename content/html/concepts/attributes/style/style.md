@@ -14,32 +14,25 @@ CatalogContent:
   - 'paths/front-end-engineer-career-path'
 ---
 
-Attributes can be added to the opening tag of an HTML element to change its default behavior or provide additional data about it. The style attribute specifies how a page will be rendered in a web browser.
+The `style` attribute specifies how an element will be rendered in a web browser, e.g. the color or the size of a font in a praragraph.
+
+When we use the `style` attribute inline, it overrides any styles set globally. 
+
+**Note:** We can also specify the style of our elements through an external CSS style sheet or embeded in the `<head>` element using the `<style>` tag.
 
 ## Syntax
 
-Style consist of a name and a value or values in the format `name="value1;value2;"`:
-
 ```pseudo
-<tag name="value1;value2"></tag>
+<element_tag style="property1:value;property2:value;"></element_tag>
 ```
-
-Specific and unique `id` attributes can be assigned to elements to differentiate them, and `id` values can be referenced in CSS and JavaScript to manipulate, format, and perform specific instructions on a single element alone, without affecting others of the same type.
-
-Valid `id` attribute values begin with a letter and must comprise only letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
-
-```html
-<h1 id="th1s_is.v4lid">Hello World</h1>
-```
-
-**Note:** While `th1s_is.v4lid` is indeed a valid `id` value, it's best to use a consistent naming scheme such as camel case (`thisIsValid`), dash case (`this-is-valid`), or snake case (`this_is_valid`).
+The `style` atribbute supports all HTML tags and can take many properties, e.g. you can use the `style` attribute in the `<p>`, the `<h1>` or the `<hr>`.
 
 ## Example
 
-In the example below, the `<p>` (paragraph) element is given a unique identifier in its `id` attribute, and the text color is set using the `style` attribute:
+In the example below, the `<p>` (paragraph) element is given a `style` attribute to specify its color, the text aligment and the font size:
 
 ```html
-<p id="my-paragraph" style="color: aqua;">
-  Here's some text that is being altered by the HTML attributes
+<p style="color: green;font-size:12px;text-align:center;">
+  Here's some text that is being styled using the style attribute.
 </p>
 ```
