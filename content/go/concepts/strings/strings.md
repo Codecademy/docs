@@ -62,7 +62,7 @@ As it was mentioned previously, escape characters are only supported in interpre
 | Carriage return   |       ` \r` 	      | 
 | Go to next page   |     ` \f`           |   
 
-Strings are useful to avoid ambiguities when the string you are creating has a character that may be problematic. An example of this would be if you want to define `There is no "I" in TEAM` as an interpreted literal string. Since the string has double quotes in it, the compiler would throw an error message if you try to define it as it is. This can be avoided by using the Double quote escape character ` \''`. Take a look at this example:
+Escape characters are useful to avoid ambiguities when the string you are creating has a character that may be problematic. An example of this would be defining `There is no "I" in TEAM` as an interpreted literal string. Since the string has double quotes in it, the compiler would throw an error message if you try to define it as it is. This can be avoided by using the double quote escape character ` \''`. Take a look at this example:
 
 ```go
 package main
