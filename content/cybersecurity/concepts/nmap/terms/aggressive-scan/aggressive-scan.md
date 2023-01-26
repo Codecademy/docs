@@ -15,7 +15,7 @@ CatalogContent:
 
 An **aggressive scan** provides far better information than a [regular scan](https://www.codecademy.com/resources/docs/cybersecurity/nmap/nmap-scan), but is more likely to be detected. It is performed by using the `-A` option and enables the following:
 
-- OS detection (`-o`)
+- OS detection (`-O`)
 - Version detection (`-sV`)
 - Script scanning (`-sC`)
 - Traceroute (`--traceroute`)

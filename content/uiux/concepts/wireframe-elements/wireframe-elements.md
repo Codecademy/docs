@@ -8,7 +8,7 @@ Tags:
   - 'UX'
 CatalogContent:
   - 'intro-to-ui-ux'
-  - 'path/front-end-engineer-career-path'
+  - 'paths/front-end-engineer-career-path'
 ---
 
 **Wireframe elements** are [low-fidelity](https://www.codecademy.com/resources/docs/uiux/low-fidelity) components that help communicate ideas during the [wireframing](https://www.codecademy.com/resources/docs/uiux/wireframe) process.
