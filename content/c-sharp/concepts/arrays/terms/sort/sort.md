@@ -1,6 +1,6 @@
 ---
 Title: '.Sort()'
-Description: 'Returns the total number of elements in the array.'
+Description: 'Arranges the elements of the array in ascending or in alphabetical order.'
 Subjects:
   - 'Computer Science'
   - 'Code Foundations'
@@ -11,19 +11,19 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-The **`.Sort`** property returns the total number of elements in the array, including all dimensions of the array.
+The **`.Sort()`** array method arranges the elements of the array in ascending or alphabetical order.
 
 ## Syntax
 
 ```pseudo
-int myLength = myArray.Length;
+Array.Sort(myArray);
 ```
 
-`myArray.Sort` returns an `int` that represents the number of elements in `myArray`.
+`.Sort()` is a static method of the `Array` object. It takes one parameter, `myArray`, a one-dimensional zero-based array. The `.Sort()` method arranges the elements of the `myArray` in ascending or alphabetical order.
 
 ## Example
 
-The following example initializes an array, then prints out the number of elements it contains:
+The following example initializes the `letters` array with letters, then uses the `.Sort()` method to arrange the letters alphabetically. Finally, the `Console.Write()` method prints the sorted array to the console with a `foreach` loop:
 
 ```cs
 using System;
@@ -32,22 +32,25 @@ public class Example
 {
   public static void Main(string[] args)
   {
-    int[] myArray = {4, 1, 0, 3, 2};
-    Console.WriteLine(myArray.Sort); // Output: 5
+    string[] letters = {"M", "Y", "E", "T", "P"};
+    Array.Sort(letters);
+    foreach (string letter in letters)
+    {
+      System.Console.Write(letter + " ");
+    }
   }
 }
 ```
 
-This will return the following output:
+This example results in the following output:
 
 ```shell
-Remainder of 7.5/2.1 = 1.2
-Remainder of -17.5/2 = -1.5
+E M P T Y
 ```
 
 ## Codebyte Example
 
-The following example is runnable and returns the numbers in the array in ascending order:
+The following example is runnable and returns the numbers of the `numbers` array in ascending order:
 
 ```codebyte/cs
 using System;
@@ -60,7 +63,7 @@ public class Example
     Array.Sort(numbers);
     foreach (int number in numbers)
     {
-      System.Console.WriteLine(number);
+      System.Console.Write(number + " "); // Output: 4810 5364 5895 
     }
   }
 }
