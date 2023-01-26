@@ -130,18 +130,6 @@ In code blocks:
 ## Metadata
 
 Each Docs entry is preceded by metadata that provides information about how the entry is displayed.
-- The metadata starts on the first line.
-- The metadata begins and ends with three dashes (`---`) on their own line.
-- There should be a line-break after the last line of the metadata.
-- There should not be extra line breaks within the metadata.
-- The data for `Title:` and `Description:` appear as single quoted strings on the same line.
-- Do not use apostrophes or quotes in the title or description.
-- `CatalogContent:` appears without spaces.
-- The entries for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
-- The lists for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
-- The entries for `Subjects:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
-- The entries for `Tags:` come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
-- For `CatalogContent:` use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
 
 The metadata for a concept or term entry should look like this:
 
@@ -162,3 +150,29 @@ CatalogContent:
   - 'path/example-path'
 ---
 ```
+
+- The metadata starts on the first line of the entry.
+- The metadata begins and ends with three dashes (`---`) on their own line.
+- There should be a line-break after the last line of the metadata.
+- There should not be extra line breaks within the metadata.
+- The data for `Title:` and `Description:` appear as single quoted strings on the same line.
+- Do not use apostrophes or quotes in the title or description.
+- Do not use boldface or italics in the title or description.
+- The description should be short, typically one sentence.
+- The description should be echoed in the introductory paragraph of the entry, i.e. The information in the description should appear in the introduction to the entry.
+- `CatalogContent:` appears without spaces.
+- The entries for `Subjects:`, `Tags:`, and `CatalogContent:` appear as bulleted lists of single-quoted strings, starting on the next line.
+- The lists for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
+- For `Subjects:`
+  - Entries are languages and technical fields that the entry relates to.
+  - Entries come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
+  - Should have one to two entries. Always at least one.
+- For `Tags:`
+  - Entries are key words that are relevant to the entry.
+  - Entries come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
+  - Should have three to four entries.
+  - If you wish to use a new tag, add it in the appropriate place in the [tags.md]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
+- For `CatalogContent:`
+  - Entries are slugs of Codecademy course and Path landing pages that relate to the entry.
+  - For entries use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
+  - Should have two entries.
