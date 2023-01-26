@@ -1,13 +1,12 @@
 ---
 Title: 'Variables'
-Description: The text about assigning variables and dynamic typing in JavaScript. 
+Description: 'Variables are used to store a piece of data at a named location in memory.'
 Subjects:
   - 'Web Development'
   - 'Computer Science'
 Tags:
   - 'Variables'
   - 'Data Types'
-  - 'Dynamic typing'
 CatalogContent:
   - 'introduction-to-javascript'
   - 'paths/front-end-engineer-career-path'
@@ -39,7 +38,7 @@ const numberOfFingers = 20;
 
 ## Dynamic typing
 
-In the opposite to many programming languages, JavaScript doesn't force you to specify what data type is contained by a variable. It assumes the kind of it basing on the way a user assigns a value. For example, in the picture below, we are assigning a string, just putting the text between quotation marks. If we would write it without them, JavaScript would read it as a number. This is why it's considered to be a "dynamically typed language".
+Unlike many programming languages, JavaScript doesn't force the user to specify a variable's data type. It assumes the data type based on the way a user assigns a value. For example, the example below assigns a string to a variable by putting the text between quotation marks. Without them, JavaScript reads it as a number. This is why it's considered to be a dynamically-typed language.
 
 ```js
 let movieTitle = "300"; // String
