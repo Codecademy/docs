@@ -38,10 +38,30 @@ public class Example
 }
 ```
 
+This will return the following output:
+
+```shell
+Remainder of 7.5/2.1 = 1.2
+Remainder of -17.5/2 = -1.5
+```
+
 ## Codebyte Example
 
-The following example...
+The following example is runnable and returns the numbers in the array in ascending order:
 
 ```codebyte/cs
-example
+using System;
+
+public class Example
+{
+  public static void Main(string[] args)
+  {
+    int[] numbers = {5895, 4810, 5364};
+    Array.Sort(numbers);
+    foreach (int number in numbers)
+    {
+      System.Console.WriteLine(number);
+    }
+  }
+}
 ```
