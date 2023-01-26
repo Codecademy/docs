@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/build-ios-apps-with-swiftui'
 ---
 
-The **`.scaledToFit()`** modifier can be used to scale the [view](https://www.codecademy.com/resources/docs/swiftui/views) to fit its parent view while maintaining the original aspect ratio.
+The **`.scaledToFit()`** modifier can be used to scale a [view](https://www.codecademy.com/resources/docs/swiftui/views) to fit its parent view while maintaining the original aspect ratio.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ struct MyStructure: View {
 
 ## Example
 
-In the example below, the image contains the `scaledToFit()` modifier.
+In the example below, the image contains the `.scaledToFit()` modifier.
 
 ```swift
 import SwiftUI
@@ -42,6 +42,6 @@ struct MyStructure: View {
 }
 ```
 
-In the example above, the image that contains the `scaledToFit()` modifier has been scaled down to fit the width of the parent. The original aspect ratio of the image has been maintained.
+In the example above, the image that contains the `.scaledToFit()` modifier has been scaled down to fit the width of the parent. The original aspect ratio of the image has been maintained.
 
 ![SwiftUI ViewModifier scaledToFit](https://raw.githubusercontent.com/Codecademy/docs/main/media/scaled-to-fit.jpg)
