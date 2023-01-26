@@ -1,5 +1,5 @@
 ---
-Title: 'strings'
+Title: 'Strings'
 Description: 'A string is a read-only data type. Strings are chains of arbitrary bytes that are represented by UTF-8 encoded characters.' 
 Subjects: 
   - 'Computer Science'
