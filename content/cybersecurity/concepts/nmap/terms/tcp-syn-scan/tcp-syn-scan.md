@@ -1,6 +1,6 @@
 ---
 Title: 'TCP SYN Scan'
-Description: 'Performs a scan that can indicate open, filtered and closed port states with a reduced risk of detection, since it never completes a full TCP connection'
+Description: 'Performs a scan that can indicate open, filtered, and closed port states with a reduced risk of detection, since it never completes a full TCP connection.'
 Subjects:
   - 'Networking'
   - 'Cybersecurity'
@@ -14,7 +14,7 @@ CatalogContent:
   - 'paths/scan-systems-with-nmap'
 ---
 
-A **TCP SYN scan** runs by default when running Nmap as root or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org). Quick and efficient, this scan can indicate open, filtered and closed port states. It is requested by passing the `-sS` option to Nmap, but when running as root or Administrator, `-sS` is usually omitted. Also known as the half-open scan, it never completes the full TCP connection, so is less likely to be blocked by firewalls.
+A **TCP SYN scan** runs by default when running Nmap as the root user or Administrator. It is the most popular scan option according to [Nmap.org](https://nmap.org/book/synscan.html). Quick and efficient, this scan can indicate open, filtered, and closed port states. It is requested by passing the `-sS` option to Nmap, but when running as the root user or Administrator, `-sS` is usually omitted. Also known as the half-open scan, it never completes the full TCP connection, so it's less likely to be blocked by firewalls.
 
 ## Syntax
 
