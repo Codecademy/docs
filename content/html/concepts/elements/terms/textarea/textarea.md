@@ -23,11 +23,11 @@ The **`<textarea>`** element defines a box for multi-line plain-text input that 
 </textarea>
 ```
 
-Shown above is the syntax for plain `<textarea>`. All attributes for this field are optional.
+[Attributes](https://www.codecademy.com/resources/docs/html/attributes) are optional.
 
 ### Attributes
 
-Commonly used attributes are shown in the table below.
+Commonly used attributes are shown in the table below:
 
 | Attribute | Data Type | Description                        |
 | --------- | --------- | ---------------------------------- |
