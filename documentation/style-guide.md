@@ -8,7 +8,7 @@ There are three types of Docs entries:
 
 - Topics
   - Written by the maintainers as needed.
-  - Cover a broad category such as a programming language ([Java]( https://www.codecademy.com/resources/docs/java), [C++](https://www.codecademy.com/resources/docs/cpp)) or extensive subject ([Open Source](https://www.codecademy.com/resources/docs/open-source), [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity)).
+  - Cover a broad category such as a programming language ([Java](https://www.codecademy.com/resources/docs/java), [C++](https://www.codecademy.com/resources/docs/cpp)) or extensive subject ([Open Source](https://www.codecademy.com/resources/docs/open-source), [Cybersecurity](https://www.codecademy.com/resources/docs/cybersecurity)).
   - Vary in structure from a couple of paragraphs to a multiple section entry.
 - Concepts
   - Are provided as a list under each parent topic.
@@ -22,11 +22,11 @@ There are three types of Docs entries:
   - Cover small elements of a concept, typically a method, function, property, or command.
   - Terms are typically shorter in length than concepts.
   - Terms typically have no more than two or three sections. (see: [Headers/Sections](#headerssections))
-  - We provide a [template for a term entry]( https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
+  - We provide a [template for a term entry](https://github.com/Codecademy/docs/blob/main/documentation/term-entry-template.md).
 
 ## Writing Entries
 
-- Entries *must* be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
+- Entries _must_ be completely original work. Copying from other websites (in whole or in part) is plagiarism and is unacceptable in Docs.
 - Entries are all written using Markdown.
 - Do not use HTML in place of Markdown formatting.
 - Bold the first occurrence of the concept or term in the body of the entry.
@@ -86,7 +86,7 @@ In code blocks:
 - In code given as examples, the entire block should be runnable as written.
 - All code blocks should be syntactically correct.
 - Examples should be complete and not be broken into smaller blocks.
-- Comments should be capitalized and punctuated like a normal sentence. 
+- Comments should be capitalized and punctuated like a normal sentence.
 - Line breaks should precede and follow each code block.
 - There are four general types of code blocks in Docs:
   - "Syntax" blocks.
@@ -97,7 +97,7 @@ In code blocks:
   - "Example" blocks.
     - Used with a `## Example` header. (also `## Examples` or `## Example 2` etc.)
     - Shows example code.
-    - Use blocks appropriate to the language used. (see: [Code Blocks in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
+    - Use blocks appropriate to the language used. (see: [Code Blocks in Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#code-blocks).)
     - They are usually preceded by a description of what the example does.
     - Often followed by an "Output" block.
     - Output should be illustrated in a separate "Output" block rather than listed as comments in the example code.
@@ -111,7 +111,7 @@ In code blocks:
     - Typically, only one per entry.
     - Typically, appears at the end of the entry.
     - Displays example code that is runnable.
-    - Use codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards]( https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
+    - Use codebyte blocks appropriate to the language. (see: [Codebytes in Content Standards](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md#codebytes-runnable-code-blocks).)
     - They are usually preceded by a description of what the example does.
     - They are not followed by an "Output" block.
 - Code blocks may appear differently than the above if the entry warrants it.
@@ -122,7 +122,7 @@ In code blocks:
 - Do not link to parent concept or topic entries. The Docs navigation provides those for each entry.
 - Do not link out to external third-party documentation. (Such as Wikipedia.)
 - You are encouraged to link out to other relevant Docs topics, concepts, or terms the first time they appear.
-- In some cases, it may be appropriate to link out to external standards documents or entities. (Example: [XML 1.0 Specification]( http://www.w3.org/TR/REC-xml), [World Wide Web Consortium]( https://www.w3.org/standards/), [Red Hat Enterprise Linux]( https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
+- In some cases, it may be appropriate to link out to external standards documents or entities. (Example: [XML 1.0 Specification](http://www.w3.org/TR/REC-xml), [World Wide Web Consortium](https://www.w3.org/standards/), [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux))
 - When linking items outside the document, use the full path. When linking to items inside the document (i.e. Headers) use a relative path.
 - Images are stored in the media folder and should be linked to using the following url: "https://raw.githubusercontent.com/Codecademy/docs/main/media/" followed by the image name. (Note the image link will not work until a PR is merged.)
 - If there are parentheses in the link, replace them with `%28` and `%29`.
@@ -136,7 +136,7 @@ The metadata for a concept or term entry should look like this:
 ```
 ---
 Title: 'The Title'
-Description: 'A brief description' 
+Description: 'A brief description'
 Subjects:
   - 'A subject name'
   - 'A second subject name'
@@ -165,14 +165,14 @@ CatalogContent:
 - The items for `Subjects:`, `Tags:`, and `CatalogContent:` are indented two spaces before the dash.
 - For `Subjects:`
   - Items are languages and technical fields that the entry relates to.
-  - Items come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
+  - Items come from [this list](https://github.com/Codecademy/docs/blob/main/documentation/subjects.md).
   - Should have one to two items. Always at least one.
 - For `Tags:`
   - Items are key words that are relevant to the entry.
-  - Items come from [this list]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
+  - Items come from [this list](https://github.com/Codecademy/docs/blob/main/documentation/tags.md).
   - Should have three to four items.
-  - If you wish to use a new tag, add it in the appropriate place in the [tags.md]( https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
+  - If you wish to use a new tag, add it in the appropriate place in the [tags.md](https://github.com/Codecademy/docs/blob/main/documentation/tags.md) file as part of your PR.
 - For `CatalogContent:`
   - Items are slugs of Codecademy course and Path landing pages that relate to the entry.
-  - For items use [this document]( https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
+  - For items use [this document](https://github.com/Codecademy/docs/blob/main/documentation/catalog-content.md) as a guide.
   - Should have two items.
