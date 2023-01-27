@@ -45,7 +45,7 @@ The following code:
 #include<iostream>
 using namespace std;
 
-class Hello{
+class Hello {
 
     public:
         void operator()(int times){
